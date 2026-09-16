@@ -1082,6 +1082,106 @@ const STARTER_GRAMMAR = [
       ["de går", "they go"],
     ],
   },
+  {
+    name: "Personal pronouns: subject vs. object",
+    explanation:
+      "Like English 'I' vs 'me', most Danish personal pronouns have a different form depending on whether they're the subject or the object of a verb — including after a preposition. Den and det ('it') are the exception: they stay the same either way.",
+    examples: [
+      ["Jeg kan se dig.", "I can see you."],
+      ["Hun elsker ham.", "She loves him."],
+      ["Giv mig bogen.", "Give me the book."],
+    ],
+  },
+  {
+    name: "Simple past of regular verbs",
+    explanation:
+      "Most Danish verbs form the past tense by adding -ede or -te to the verb stem — which ending a given verb takes isn't fully predictable, so it's learned along with the verb. As in the present tense, there's no change based on who's doing the action.",
+    examples: [
+      ["jeg elskede", "I loved"],
+      ["hun talte", "she talked"],
+      ["de arbejdede", "they worked"],
+    ],
+  },
+  {
+    name: "Present perfect: har vs. er",
+    explanation:
+      "Danish forms the present perfect ('have done') with har plus the past participle, just like English 'have'. A smaller group of verbs — mostly ones about motion or a change of state, like rejse and blive — use er instead.",
+    examples: [
+      ["Jeg har spist.", "I have eaten."],
+      ["Hun er rejst til Paris.", "She has traveled to Paris."],
+      ["Vejret er blevet bedre.", "The weather has gotten better."],
+    ],
+  },
+  {
+    name: "Double definiteness with adjectives",
+    explanation:
+      "A definite noun normally just takes an -en/-et ending. But as soon as an adjective describes it, Danish also adds a separate word in front — den for common gender, det for neuter, de for plural — on top of the adjective's own -e ending and the noun's definite form.",
+    examples: [
+      ["den store hund", "the big dog"],
+      ["det store hus", "the big house"],
+      ["de store huse", "the big houses"],
+    ],
+  },
+  {
+    name: "Comparing adjectives: -ere and -est",
+    explanation:
+      "Most Danish adjectives form the comparative with -ere and the superlative with -est. A handful of common ones are irregular and change shape entirely, and longer adjectives use mere ('more') and mest ('most') in front instead of an ending.",
+    examples: [
+      ["sød, sødere, sødest", "sweet, sweeter, sweetest"],
+      ["god, bedre, bedst", "good, better, best"],
+      ["mere spændende", "more exciting"],
+    ],
+  },
+  {
+    name: "Word order after fordi, hvis, når, at",
+    explanation:
+      "In a subordinate clause — one introduced by a word like at, fordi, hvis, når, or da — the verb doesn't jump to second position the way it does in a main clause. Instead the subject comes right after the conjunction, and an adverb like ikke goes before the verb rather than after it.",
+    examples: [
+      ["..., fordi jeg ikke har tid.", "..., because I don't have time."],
+      ["Jeg ringer, hvis du ikke kommer.", "I'll call if you don't come."],
+      ["Han spurgte, hvornår vi rejser.", "He asked when we're traveling."],
+    ],
+  },
+  {
+    name: "Giving commands: the imperative",
+    explanation:
+      "To tell someone to do something, drop the final -e from the infinitive — that's the whole command form, with no separate ending for one person versus several. A few common short verbs, like være, drop even more than just the -e.",
+    examples: [
+      ["Luk døren!", "Close the door!"],
+      ["Kom nu!", "Come on!"],
+      ["Vær forsigtig.", "Be careful."],
+    ],
+  },
+  {
+    name: "Der er — 'there is/are'",
+    explanation:
+      "Danish uses der er for both English 'there is' and 'there are' — and unlike English, it never changes for number, so the same der er covers one thing or a hundred.",
+    examples: [
+      ["Der er en kat i haven.", "There's a cat in the garden."],
+      ["Der er mange mennesker her.", "There are many people here."],
+      ["Der er ikke mere mælk.", "There isn't any more milk."],
+    ],
+  },
+  {
+    name: "Lægge/ligge, sætte/sidde, stille/stå",
+    explanation:
+      "Danish keeps a strict split that English blurs: use the first verb in each pair when something is actively being put somewhere (it takes an object), and the second verb when something is simply already positioned there (no object) — the same distinction as English 'lay' vs 'lie', applied three times over.",
+    examples: [
+      ["Jeg lægger bogen på bordet.", "I put the book on the table."],
+      ["Bogen ligger på bordet.", "The book is lying on the table."],
+      ["Han sætter sig ned.", "He sits himself down."],
+    ],
+  },
+  {
+    name: "Possessive pronouns: min, mit, mine",
+    explanation:
+      "Like adjectives, several Danish possessive pronouns change form to match the noun they go with: one form for common-gender nouns, one for neuter, and one for anything plural. Min/din/sin follow this three-way pattern; vores, jeres, and deres don't change at all.",
+    examples: [
+      ["min bil", "my car"],
+      ["mit hus", "my house"],
+      ["mine bøger", "my books"],
+    ],
+  },
 ];
 
 // Shared by the auto-seed on first launch and the manual "Add starter
@@ -2676,7 +2776,6 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const [catFilter, setCatFilter] = useState("all");
   const [starredOnly, setStarredOnly] = useState(false);
   const [unknownOnly, setUnknownOnly] = useState(true);
-  const [includeGrammar, setIncludeGrammar] = useState(false);
   const [langDir, setLangDir] = useState("da-first"); // da-first | en-first
   const [flipped, setFlipped] = useState(false);
   const [idx, setIdx] = useState(0);
@@ -2711,7 +2810,11 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   useEffect(() => {
     const filtered = cards.filter((c) => {
       if (c.ignored) return false;
-      if (!includeGrammar && c.type === "grammar") return false;
+      // Grammar cards only ever live in the Grammar Lessons category, so
+      // picking that category from the dropdown is itself the "opt in"
+      // — no separate toggle needed. Any other category selection (or
+      // "all") keeps them out by default.
+      if (c.type === "grammar" && catFilter !== "grammar-lessons") return false;
       if (unknownOnly && c.known) return false;
       if (catFilter !== "all" && c.category !== catFilter) return false;
       if (starredOnly && !c.starred) return false;
@@ -2746,7 +2849,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     setDragX(0);
     setExiting(null);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catFilter, starredOnly, unknownOnly, includeGrammar, sessionKey]);
+  }, [catFilter, starredOnly, unknownOnly, sessionKey]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
   // Word-only, computed fresh from live cards on every render — always
@@ -2757,7 +2860,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   // Grammar cards store an English name in front, not Danish — speaking
   // that mangles English phonetically instead of pronouncing anything
   // real. Use the first example's genuine Danish sentence instead.
-  const currentSpeakableText = current && (current.type === "grammar" ? current.examples && current.examples[0] && current.examples[0].da : current.front);
+  // Grammar cards are lesson names/explanations, not something meant to
+  // be pronounced — no speaker icon for those at all, unlike word/sentence
+  // cards where the Danish text is exactly what a speaker button is for.
+  const currentSpeakableText = current && current.type !== "grammar" ? current.front : null;
 
   // Once a swipe (or a Back/Next tap) commits to leaving, the card
   // animates fully off-screen first, and only once that's visibly
@@ -2960,20 +3066,6 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
           <div style={{ display: "flex", alignItems: "center", gap: 6, cursor: "pointer" }} onClick={() => setStarredOnly(!starredOnly)}>
             <StarIcon size={13} filled={starredOnly} color={starredOnly ? "#C9A66B" : "#C9C4B6"} />
             <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)" }}>Starred</span>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 6, cursor: "pointer" }} onClick={() => setIncludeGrammar(!includeGrammar)}>
-            <span
-              style={{
-                display: "inline-block",
-                width: 10,
-                height: 10,
-                borderRadius: 3,
-                border: "1.6px solid " + (includeGrammar ? "#8C6FA0" : "#C9C4B6"),
-                background: includeGrammar ? "#8C6FA0" : "transparent",
-                flexShrink: 0,
-              }}
-            />
-            <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)" }}>Grammar</span>
           </div>
           <button
             onClick={() => setLangDir(langDir === "da-first" ? "en-first" : "da-first")}
