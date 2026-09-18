@@ -2109,7 +2109,7 @@ function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAdd
         }
         onChange(e.target.value);
       }}
-      style={{ ...inputStyle, appearance: "auto" }}
+      style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
     >
       {allowAll && <option value="all">All categories</option>}
       {!allowAll && !value && <option value="" disabled>Choose a category</option>}
@@ -2880,11 +2880,20 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   }, [catFilter, starredOnly, unknownOnly, sessionKey]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
-  // Word-only, computed fresh from live cards on every render — always
-  // accurate and auto-updates the moment any card's known status or the
-  // deck itself changes, rather than being scoped to whatever's in the
-  // current filtered session.
-  const knownWordCount = cards.filter((c) => c.type === "word" && c.known).length;
+  // Scoped to the current filter selection (category, starred, and the
+  // same grammar-inclusion rule the pool itself uses) so switching to
+  // Grammar Lessons shows progress within that category, not a leftover
+  // number from the whole deck. Deliberately NOT scoped to unknownOnly —
+  // that filter controls session contents, but progress should still be
+  // visible even while looking at the unknown-only view. Computed fresh
+  // from live cards every render, so it auto-updates immediately.
+  const knownWordCount = cards.filter((c) => {
+    if (c.ignored) return false;
+    if (c.type === "grammar" && catFilter !== "grammar-lessons") return false;
+    if (catFilter !== "all" && c.category !== catFilter) return false;
+    if (starredOnly && !c.starred) return false;
+    return c.known;
+  }).length;
   // Grammar cards store an English name in front, not Danish — speaking
   // that mangles English phonetically instead of pronouncing anything
   // real. Use the first example's genuine Danish sentence instead.
