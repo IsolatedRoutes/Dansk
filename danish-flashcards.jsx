@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useState, useEffect, useLayoutEffect, useRef, useCallback, useMemo } from "react";
 
 // ============================================================
 // Runtime environment
@@ -2787,6 +2787,34 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const [exiting, setExiting] = useState(null); // null | "left" | "right"
   const gesture = useRef({ startX: 0, startY: 0, active: false });
 
+  // The card's two faces are absolutely positioned (required for the 3D
+  // flip), which means the container never naturally grows to fit taller
+  // content on its own. So instead: measure the CONTENT itself (an inner,
+  // normally-flowing wrapper — never absolutely positioned, so its own
+  // size is always driven by its own content, not by whatever height the
+  // card currently happens to be) and size the card from that measurement
+  // plus a fixed clearance. Measuring the outer face box directly doesn't
+  // work: scrollHeight on an already-sized box can detect when content
+  // needs MORE room (overflow) but can't detect when it needs LESS —
+  // if a short card follows a tall one, scrollHeight just reports the
+  // leftover box height, not the smaller size the new content actually
+  // needs, and the card never shrinks back down.
+  //
+  // V_CLEARANCE/H_CLEARANCE are each applied identically on both sides
+  // (top=bottom, left=right) and the icons sit at the same offset in all
+  // four corners — so the content block's center is always exactly the
+  // card's center, which by simple rectangle geometry is equidistant
+  // from all four corners by construction, not by tuning pixel values.
+  const V_CLEARANCE = 56;
+  const H_CLEARANCE = 50;
+  const frontContentRef = useRef(null);
+  const backContentRef = useRef(null);
+  const [cardHeight, setCardHeight] = useState(220);
+  useLayoutEffect(() => {
+    const visible = flipped ? backContentRef.current : frontContentRef.current;
+    if (visible) setCardHeight(Math.max(220, visible.scrollHeight + V_CLEARANCE * 2));
+  });
+
   // Word-insight popup — cached per card so revisiting one in the same
   // session doesn't re-spend a request.
   const [insightFor, setInsightFor] = useState(null);
@@ -3172,20 +3200,22 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
               borderRadius: 14,
               border: "1px solid var(--line)",
               background: "var(--card)",
-              minHeight: 220,
+              height: cardHeight,
+              maxHeight: "70vh",
+              overflowY: cardHeight > window.innerHeight * 0.7 ? "auto" : "visible",
               touchAction: "pan-y",
               cursor: "pointer",
               userSelect: "none",
               transform:
                 "translateX(" + (exiting ? (exiting === "left" ? -420 : 420) : dragX) + "px) rotate(" + dragX / 28 + "deg)",
               opacity: exiting ? 0 : 1 - Math.min(Math.abs(dragX) / 260, 0.45),
-              transition: dragging ? "none" : "transform 0.28s ease, opacity 0.28s ease",
+              transition: dragging ? "none" : "transform 0.28s ease, opacity 0.28s ease, height 0.2s ease",
             }}
           >
             <CheckBadgeIcon
               size={17}
               filled={!!current.known}
-              style={{ position: "absolute", top: 12, right: 12, zIndex: 2, cursor: "pointer" }}
+              style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => {
                 e.stopPropagation();
@@ -3196,7 +3226,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
               size={17}
               filled={!!current.starred}
               color={current.starred ? "var(--rust)" : "#C9C4B6"}
-              style={{ position: "absolute", top: 12, left: 12, zIndex: 2, cursor: "pointer" }}
+              style={{ position: "absolute", top: 14, left: 14, zIndex: 2, cursor: "pointer" }}
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => {
                 e.stopPropagation();
@@ -3210,9 +3240,9 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                 openAsk(current);
               }}
               aria-label="Ask about this word"
-              style={{ position: "absolute", bottom: 10, right: 10, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 6, display: "flex" }}
+              style={{ position: "absolute", bottom: 14, right: 14, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 0, display: "flex" }}
             >
-              <Icon.HelpCircle size={16} />
+              <Icon.HelpCircle size={17} />
             </button>
             <button
               onPointerDown={(e) => e.stopPropagation()}
@@ -3221,23 +3251,26 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                 openInsight(current);
               }}
               aria-label="Explore related words"
-              style={{ position: "absolute", bottom: 10, left: 10, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 6, display: "flex" }}
+              style={{ position: "absolute", bottom: 14, left: 14, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 0, display: "flex" }}
             >
-              <Icon.Lightbulb size={16} />
+              <Icon.Lightbulb size={17} />
             </button>
 
             <div style={{ perspective: 1200 }}>
               <div
                 style={{
                   position: "relative",
-                  minHeight: 220,
+                  height: cardHeight,
                   width: "100%",
                   transformStyle: "preserve-3d",
                   transition: "transform 0.5s",
                   transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
                 }}
               >
-                {/* Front face — shows Danish or English first depending on the direction toggle */}
+                {/* Front face — shows Danish or English first depending on the direction toggle.
+                    Outer div just centers the inner content block within the full card (both
+                    axes) — that's what guarantees the block's center coincides with the card's
+                    center, and therefore stays equidistant from all four corner icons. */}
                 <div
                   style={{
                     position: "absolute",
@@ -3246,37 +3279,47 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    padding: 28,
-                    textAlign: "center",
                   }}
                 >
-                  {langDir === "da-first" ? (
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
-                      <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)" }}>
-                        {current.front}
+                  <div ref={frontContentRef} style={{ width: "100%", boxSizing: "border-box", padding: "0 " + H_CLEARANCE + "px" }}>
+                    {langDir === "da-first" ? (
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, width: "100%" }}>
+                        <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
+                          {current.front}
+                        </div>
+                        {speechSupported() && currentSpeakableText && (
+                          <button
+                            onPointerDown={(e) => e.stopPropagation()}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              speakDanish(currentSpeakableText);
+                            }}
+                            aria-label="Pronounce this"
+                            style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
+                          >
+                            <Icon.Volume2 size={20} />
+                          </button>
+                        )}
                       </div>
-                      {speechSupported() && currentSpeakableText && (
-                        <button
-                          onPointerDown={(e) => e.stopPropagation()}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            speakDanish(currentSpeakableText);
-                          }}
-                          aria-label="Pronounce this"
-                          style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
-                        >
-                          <Icon.Volume2 size={20} />
-                        </button>
-                      )}
-                    </div>
-                  ) : (
-                    <div style={{ fontFamily: "var(--sans)", fontStyle: "italic", fontSize: current.type === "word" ? 26 : 18, lineHeight: 1.4, color: "var(--sage)" }}>
-                      {current.back}
-                    </div>
-                  )}
+                    ) : (
+                      <div
+                        style={{
+                          fontFamily: "var(--sans)",
+                          fontStyle: "italic",
+                          fontSize: current.type === "word" ? 26 : 18,
+                          lineHeight: 1.4,
+                          color: "var(--sage)",
+                          width: "100%",
+                          textAlign: current.type === "grammar" ? "left" : "center",
+                        }}
+                      >
+                        {current.back}
+                      </div>
+                    )}
+                  </div>
                 </div>
 
-                {/* Back face — the other language, plus notes/examples */}
+                {/* Back face — the other language, plus notes/examples. Same centering approach. */}
                 <div
                   style={{
                     position: "absolute",
@@ -3284,50 +3327,66 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                     backfaceVisibility: "hidden",
                     transform: "rotateY(180deg)",
                     display: "flex",
-                    flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
-                    padding: 28,
-                    textAlign: "center",
-                    overflowY: "auto",
                   }}
                 >
-                  {langDir === "da-first" ? (
-                    <div style={{ fontFamily: "var(--sans)", fontStyle: "italic", fontSize: current.type === "word" ? 26 : 18, lineHeight: 1.4, color: "var(--sage)" }}>
-                      {current.back}
-                    </div>
-                  ) : (
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
-                      <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)" }}>
-                        {current.front}
+                  <div
+                    ref={backContentRef}
+                    style={{
+                      width: "100%",
+                      boxSizing: "border-box",
+                      padding: "0 " + H_CLEARANCE + "px",
+                    }}
+                  >
+                    {langDir === "da-first" ? (
+                      <div
+                        style={{
+                          fontFamily: "var(--sans)",
+                          fontStyle: "italic",
+                          fontSize: current.type === "word" ? 26 : 18,
+                          lineHeight: 1.4,
+                          color: "var(--sage)",
+                          width: "100%",
+                          textAlign: current.type === "grammar" ? "left" : "center",
+                        }}
+                      >
+                        {current.back}
                       </div>
-                      {speechSupported() && currentSpeakableText && (
-                        <button
-                          onPointerDown={(e) => e.stopPropagation()}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            speakDanish(currentSpeakableText);
-                          }}
-                          aria-label="Pronounce this"
-                          style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
-                        >
-                          <Icon.Volume2 size={20} />
-                        </button>
-                      )}
-                    </div>
-                  )}
-                  {current.notes && (
-                    <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginTop: 8 }}>{current.notes}</div>
+                    ) : (
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, width: "100%" }}>
+                        <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
+                          {current.front}
+                        </div>
+                        {speechSupported() && currentSpeakableText && (
+                          <button
+                            onPointerDown={(e) => e.stopPropagation()}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              speakDanish(currentSpeakableText);
+                            }}
+                            aria-label="Pronounce this"
+                            style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
+                          >
+                            <Icon.Volume2 size={20} />
+                          </button>
+                        )}
+                      </div>
+                    )}
+                    {current.notes && (
+                    <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginTop: 8, textAlign: current.type === "grammar" ? "left" : "center" }}>{current.notes}</div>
                   )}
                   {current.examples && current.examples.length > 0 && (
-                    <div style={{ marginTop: 10, width: "100%", textAlign: "left" }}>
+                    <div style={{ marginTop: 12, width: "100%", textAlign: "left" }}>
                       {current.examples.slice(0, 3).map((ex, i) => (
-                        <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 12.5, marginBottom: 3 }}>
-                          <span style={{ color: "var(--terracotta)" }}>{ex.da}</span> <span style={{ color: "var(--sage)", fontStyle: "italic" }}>— {ex.en}</span>
+                        <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.5, marginBottom: 4 }}>
+                          <span style={{ color: "var(--terracotta)" }}>{ex.da}</span>
+                          <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {ex.en}</span>
                         </div>
                       ))}
                     </div>
                   )}
+                  </div>
                 </div>
               </div>
             </div>
@@ -4674,8 +4733,11 @@ function AISettingsPanel({ onClose }) {
 // prompt, so there's exactly one implementation of the actual save flow.
 async function performBackupExport(cards, categories, showToast) {
   const payload = { exportedAt: new Date().toISOString(), cards, categories };
-  const date = new Date().toISOString().slice(0, 10);
-  const filename = "dansk-backup-" + date + ".json";
+  // Deliberately the same name every time (no date suffix) so each export
+  // replaces the last one in Files/Downloads rather than piling up a new
+  // file every time — the export timestamp still lives inside the file
+  // itself if it's ever needed.
+  const filename = "dansk-backup.json";
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
 
   // Share the file directly when possible, so the person gets a real
