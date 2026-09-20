@@ -1618,6 +1618,20 @@ async function buildHeaders() {
 // res.json() directly) also avoids an opaque Safari-specific crash when
 // the body genuinely isn't JSON, so a real failure always comes with the
 // actual response content instead of a dead end.
+// Claude's own consumer usage limit (hit when running inside Claude via
+// the person's session, not a separate API key) has its own response
+// shape that doesn't match Anthropic API's normal {error:{message}}
+// format — without this, it fell straight through to a raw, unreadable
+// JSON dump in the UI. Detect it specifically and surface a real,
+// timed message instead; anything else keeps the previous fallback.
+function describeApiFailure(res, data) {
+  if (data && data.type === "exceeded_limit" && data.resetsAt) {
+    const resetStr = new Date(data.resetsAt * 1000).toLocaleString(undefined, { hour: "numeric", minute: "2-digit", month: "short", day: "numeric" });
+    return new Error("USAGE_LIMIT_REACHED: " + resetStr);
+  }
+  return new Error("Request failed (" + res.status + "): " + (data?.error?.message || JSON.stringify(data).slice(0, 180)));
+}
+
 async function fetchAndParse(url, options) {
   const maxAttempts = 4;
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
@@ -1673,20 +1687,20 @@ async function callClaudeText(system, userText, opts) {
       messages: [...history, { role: "user", content: userText }],
     }),
   });
-  if (!res.ok) throw new Error("Request failed (" + res.status + "): " + (data.error?.message || JSON.stringify(data).slice(0, 180)));
+  if (!res.ok) throw describeApiFailure(res, data);
   const reply = (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("\n");
   if (!reply.trim()) throw new Error("RESPONSE_NOT_JSON: (empty response)");
   return reply;
 }
 
-async function callClaudeImage(system, userText, base64, mediaType) {
+async function callClaudeImage(system, userText, base64, mediaType, maxTokens) {
   const headers = await buildHeaders();
   const { res, data } = await fetchAndParse("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers,
     body: JSON.stringify({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 1500,
+      max_tokens: maxTokens || 1500,
       system,
       messages: [
         {
@@ -1699,7 +1713,7 @@ async function callClaudeImage(system, userText, base64, mediaType) {
       ],
     }),
   });
-  if (!res.ok) throw new Error("Request failed (" + res.status + "): " + (data.error?.message || JSON.stringify(data).slice(0, 180)));
+  if (!res.ok) throw describeApiFailure(res, data);
   const reply = (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("\n");
   if (!reply.trim()) throw new Error("RESPONSE_NOT_JSON: (empty response)");
   return reply;
@@ -1739,7 +1753,7 @@ async function geminiGenerate(headers, body) {
   if (!res.ok) {
     if (res.status === 429) throw new Error("RATE_LIMITED");
     if (res.status === 401 || res.status === 403) throw new Error("GEMINI_AUTH_ERROR");
-    throw new Error("Request failed (" + res.status + "): " + (data.error?.message || JSON.stringify(data).slice(0, 180)));
+    throw describeApiFailure(res, data);
   }
   const parts = data.candidates?.[0]?.content?.parts || [];
   return parts.map((p) => p.text || "").join("");
@@ -1756,14 +1770,14 @@ async function callGeminiText(system, userText, opts) {
   });
 }
 
-async function callGeminiImage(system, userText, base64, mediaType) {
+async function callGeminiImage(system, userText, base64, mediaType, maxTokens) {
   const headers = await geminiHeaders();
   return geminiGenerate(headers, {
     systemInstruction: { parts: [{ text: system }] },
     contents: [
       { role: "user", parts: [{ inlineData: { mimeType: mediaType, data: base64 } }, { text: userText }] },
     ],
-    generationConfig: { maxOutputTokens: 1500 },
+    generationConfig: { maxOutputTokens: maxTokens || 1500 },
   });
 }
 
@@ -1900,6 +1914,12 @@ function apiErrorMessage(e) {
   if (msg === "LOCAL_MODEL_LOAD_FAILED") return "Couldn't load the local model. Check your connection, or switch to API key mode in AI settings.";
   if (msg && msg.indexOf("LOCAL_MODEL_LOAD_FAILED") === 0)
     return "Couldn't load the local model (" + msg.replace("LOCAL_MODEL_LOAD_FAILED: ", "") + "). Check your connection, try a smaller model, or switch to API key mode in AI settings.";
+  if (msg && msg.indexOf("USAGE_LIMIT_REACHED") === 0)
+    return (
+      "You've reached your usage limit for using Claude inside this app right now. It resets " +
+      msg.replace("USAGE_LIMIT_REACHED: ", "") +
+      " — try again after that, or add your own Anthropic API key in AI settings to keep going without waiting."
+    );
   return "Something went wrong (" + (msg || "unknown error") + "). Try again.";
 }
 
@@ -4877,7 +4897,9 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       </div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.55, marginBottom: 16 }}>
         Export saves your deck to a file; Import loads one back in. To carry progress between devices, export into a
-        synced folder (like iCloud Drive), then Import on the other device.
+        synced folder (like iCloud Drive), then Import on the other device. Every export uses the same filename — on
+        Safari, if it still saves as a new copy each time, enable "Ask where to save each download" in Safari's
+        settings so you can choose to replace the old one.
       </div>
       <div
         style={{
