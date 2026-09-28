@@ -1425,7 +1425,13 @@ function irregularPluralFactsHint(front) {
 }
 
 const WORD_INSIGHT_SYSTEM_PROMPT =
-  "A Danish learner tapped a word or short phrase on their flashcard because they want to understand it more deeply. Explain it clearly and completely in plain English, in about 4-6 short flowing sentences (no headers, no bullet points): start with what kind of word it is and what it means. If it's a noun, you MUST explicitly state all of these, every time, even if some feel obvious: its gender (whether it's an en-word or et-word), its indefinite singular form, its definite singular form, its indefinite plural form, and its definite plural form — noting plainly if it has no natural plural rather than skipping the point. For a verb, give its principal forms (infinitive, present, past, past participle). For a preposition, adverb, or other small function word, give 2-3 other common Danish words that share its root or pattern, and what that shared pattern actually means for the learner. Always finish your last sentence completely — never trail off or stop mid-thought.";
+  "A Danish learner tapped a word or short phrase on their flashcard because they want to understand it more deeply. Respond with concrete example forms, never abstract grammatical labels on their own — show the word in use rather than naming the category it belongs to. " +
+  "For a noun: give exactly these four forms in this order, each a short natural phrase with its English translation: indefinite singular, definite singular, indefinite plural, definite plural — e.g. \"en person\"/\"a person\", \"personen\"/\"the person\", \"personer\"/\"people\", \"personerne\"/\"the people\". If it has no natural plural, still give four forms where sensible, or fewer if a form genuinely doesn't exist — never invent one, and say so plainly in the explanation instead. " +
+  "For a verb: give infinitive, present tense, past tense, and (when it reads naturally) present perfect, each as a short subject+verb example with its translation — e.g. \"at have\"/\"to have\", \"jeg har\"/\"I have\", \"jeg havde\"/\"I had\", \"jeg har haft\"/\"I have had\". " +
+  "For an adjective: give its three agreement forms (common gender, neuter, plural/definite), each in a short phrase — e.g. \"en stor bil\"/\"a big car\", \"et stort hus\"/\"a big house\", \"store biler\"/\"big cars\". " +
+  "For a preposition, adverb, or other word that doesn't inflect: instead give 2-3 short example phrases showing it in real use, each with its translation. " +
+  "Then write a short explanation in plain English, 2-4 sentences, covering anything genuinely useful the forms alone don't already show — irregularities, usage notes, common mixups with a similar word. If the forms already say everything worth saying, keep the explanation to one brief sentence rather than padding it. Always finish the last sentence completely — never trail off. " +
+  'Respond ONLY with JSON, no other text: {"forms": [{"da": "...", "en": "..."}], "explanation": "..."} — 3-4 entries in forms for nouns/verbs/adjectives, 2-3 for other word types.';
 
 function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
@@ -3005,7 +3011,8 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
         'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front),
         { maxTokens: 700 }
       );
-      setInsightCache((prev) => ({ ...prev, [card.id]: reply.trim() }));
+      const parsed = parseJSONLoose(reply);
+      setInsightCache((prev) => ({ ...prev, [card.id]: { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim() } }));
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {
@@ -3478,8 +3485,18 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
           ) : insightError ? (
             <AIErrorNote message={insightError} onOpenSettings={onOpenSettings} />
           ) : (
-            <div style={{ background: "var(--paper)", borderRadius: 8, padding: "12px 14px", fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.6, whiteSpace: "pre-wrap" }}>
-              {renderInlineMarkdown(insightCache[insightFor])}
+            <div style={{ background: "var(--paper)", borderRadius: 8, padding: "12px 14px", fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.6 }}>
+              {insightCache[insightFor]?.forms?.length > 0 && (
+                <div style={{ marginBottom: insightCache[insightFor]?.explanation ? 12 : 0 }}>
+                  {insightCache[insightFor].forms.map((f, i) => (
+                    <div key={i} style={{ marginBottom: 4 }}>
+                      <span style={{ color: "var(--terracotta)" }}>{f.da}</span>
+                      <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {f.en}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {insightCache[insightFor]?.explanation && <div style={{ whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightCache[insightFor].explanation)}</div>}
             </div>
           )}
         </CenteredOverlay>
@@ -3650,7 +3667,8 @@ function LibraryView({ cards, categories, updateCard, deleteCard, persistCategor
         'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front),
         { maxTokens: 700 }
       );
-      setInsightCache((prev) => ({ ...prev, [card.id]: reply.trim() }));
+      const parsed = parseJSONLoose(reply);
+      setInsightCache((prev) => ({ ...prev, [card.id]: { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim() } }));
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {
@@ -3867,7 +3885,19 @@ function LibraryView({ cards, categories, updateCard, deleteCard, persistCategor
                           ) : insightError ? (
                             <AIErrorNote message={insightError} onOpenSettings={onOpenSettings} />
                           ) : (
-                            <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightCache[insightFor])}</div>
+                            <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55 }}>
+                              {insightCache[insightFor]?.forms?.length > 0 && (
+                                <div style={{ marginBottom: insightCache[insightFor]?.explanation ? 10 : 0 }}>
+                                  {insightCache[insightFor].forms.map((f, i) => (
+                                    <div key={i} style={{ marginBottom: 3 }}>
+                                      <span style={{ color: "var(--terracotta)" }}>{f.da}</span>
+                                      <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {f.en}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                              {insightCache[insightFor]?.explanation && <div style={{ whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightCache[insightFor].explanation)}</div>}
+                            </div>
                           )}
                         </CenteredOverlay>
                       )}
@@ -5438,14 +5468,16 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
   // lightbulb on a study card. Only makes sense once the translated
   // result looks like a single word or short phrase, not a passage.
   const [insightFor, setInsightFor] = useState(null);
-  const [insightText, setInsightText] = useState("");
+  const [insightForms, setInsightForms] = useState([]);
+  const [insightExplanation, setInsightExplanation] = useState("");
   const [insightLoading, setInsightLoading] = useState(false);
   const [insightError, setInsightError] = useState("");
 
   async function openInsight(word, meaning) {
     setInsightFor(word);
     setInsightError("");
-    setInsightText("");
+    setInsightForms([]);
+    setInsightExplanation("");
     setInsightLoading(true);
     try {
       const reply = await callAI(
@@ -5453,7 +5485,9 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
         'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word),
         { maxTokens: 700 }
       );
-      setInsightText(reply.trim());
+      const parsed = parseJSONLoose(reply);
+      setInsightForms(parsed.forms || []);
+      setInsightExplanation((parsed.explanation || "").trim());
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {
@@ -5827,7 +5861,19 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
               ) : insightError ? (
                 <AIErrorNote message={insightError} onOpenSettings={onOpenSettings} />
               ) : (
-                <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightText)}</div>
+                <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55 }}>
+                  {insightForms.length > 0 && (
+                    <div style={{ marginBottom: insightExplanation ? 10 : 0 }}>
+                      {insightForms.map((f, i) => (
+                        <div key={i} style={{ marginBottom: 3 }}>
+                          <span style={{ color: "var(--terracotta)" }}>{f.da}</span>
+                          <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {f.en}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {insightExplanation && <div style={{ whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightExplanation)}</div>}
+                </div>
               )}
             </CenteredOverlay>
           )}
@@ -6014,7 +6060,8 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
 
   // Word-insight popup for the Translate result, same as elsewhere.
   const [insightFor, setInsightFor] = useState(null);
-  const [insightText, setInsightText] = useState("");
+  const [insightForms, setInsightForms] = useState([]);
+  const [insightExplanation, setInsightExplanation] = useState("");
   const [insightLoading, setInsightLoading] = useState(false);
   const [insightError, setInsightError] = useState("");
 
@@ -6082,7 +6129,8 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
   async function openInsight(word, meaning) {
     setInsightFor(word);
     setInsightError("");
-    setInsightText("");
+    setInsightForms([]);
+    setInsightExplanation("");
     setInsightLoading(true);
     try {
       const reply = await callAI(
@@ -6090,7 +6138,9 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
         'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word),
         { maxTokens: 700 }
       );
-      setInsightText(reply.trim());
+      const parsed = parseJSONLoose(reply);
+      setInsightForms(parsed.forms || []);
+      setInsightExplanation((parsed.explanation || "").trim());
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {
@@ -6477,7 +6527,19 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
               ) : insightError ? (
                 <AIErrorNote message={insightError} onOpenSettings={onOpenSettings} />
               ) : (
-                <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightText)}</div>
+                <div style={{ background: "var(--paper)", borderRadius: 8, padding: "10px 12px", fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55 }}>
+                  {insightForms.length > 0 && (
+                    <div style={{ marginBottom: insightExplanation ? 10 : 0 }}>
+                      {insightForms.map((f, i) => (
+                        <div key={i} style={{ marginBottom: 3 }}>
+                          <span style={{ color: "var(--terracotta)" }}>{f.da}</span>
+                          <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {f.en}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {insightExplanation && <div style={{ whiteSpace: "pre-wrap" }}>{renderInlineMarkdown(insightExplanation)}</div>}
+                </div>
               )}
             </CenteredOverlay>
           )}
