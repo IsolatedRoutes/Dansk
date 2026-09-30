@@ -10378,13 +10378,186 @@ function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAdd
   );
 }
 
-// Tense choices shown under "All categories" and "Verbs" in Study.
-const TENSE_CHOICES = [
-  { id: "present", label: "present" },
-  { id: "past", label: "past" },
-  { id: "perfect", label: "perfect" },
-  { id: "mix", label: "mixed" },
+// Study's category menu. Looks like the other dropdowns, but opens a list
+// where "Verbs" can be expanded to choose which verb forms to show. Those
+// checkboxes apply to verbs everywhere, not only in the Verbs category.
+const VERB_FORM_CHOICES = [
+  { id: "base", label: "Basic form", example: "at spise → to eat" },
+  { id: "present", label: "Present", example: "jeg spiser → I eat" },
+  { id: "past", label: "Past", example: "jeg spiste → I ate" },
+  { id: "perfect", label: "Perfect", example: "jeg har spist → I have eaten" },
 ];
+
+function StudyCategoryMenu({ categories, value, onChange, verbsCategoryId, verbForms, onChangeVerbForms }) {
+  const [open, setOpen] = useState(false);
+  const [verbsExpanded, setVerbsExpanded] = useState(false);
+  const current = value === "all" ? "All categories" : (categories.find((c) => c.id === value) || {}).name || "All categories";
+
+  function toggleForm(id) {
+    const has = verbForms.includes(id);
+    if (has && verbForms.length === 1) return; // keep at least one ticked
+    const next = VERB_FORM_CHOICES.map((f) => f.id).filter((f) => (f === id ? !has : verbForms.includes(f)));
+    onChangeVerbForms(next);
+  }
+
+  const rowStyle = (active) => ({
+    display: "flex",
+    alignItems: "center",
+    gap: 8,
+    width: "100%",
+    padding: "10px 12px",
+    border: "none",
+    background: active ? "#EEF2F0" : "transparent",
+    color: "var(--ink)",
+    fontFamily: "var(--sans)",
+    fontSize: 15,
+    textAlign: "left",
+    cursor: "pointer",
+    borderRadius: 8,
+  });
+
+  return (
+    <div style={{ position: "relative" }}>
+      <button
+        onClick={() => setOpen((o) => !o)}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        style={{
+          ...inputStyle,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: 6,
+          cursor: "pointer",
+          color: "var(--ink)",
+          textAlign: "left",
+        }}
+      >
+        <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          {current}
+        </span>
+        <Icon.ChevronDown size={14} style={{ flexShrink: 0, color: "var(--muted)" }} />
+      </button>
+
+      {open && (
+        <>
+          <div onClick={() => setOpen(false)} style={{ position: "fixed", inset: 0, zIndex: 40 }} />
+          <div
+            className="popover"
+            role="listbox"
+            style={{
+              position: "absolute",
+              top: "calc(100% + 6px)",
+              left: 0,
+              width: "min(320px, calc(100vw - 32px))",
+              maxHeight: "60vh",
+              overflowY: "auto",
+              background: "var(--card)",
+              border: "1px solid var(--line)",
+              borderRadius: 12,
+              padding: 6,
+              zIndex: 41,
+            }}
+          >
+            <button
+              style={rowStyle(value === "all")}
+              onClick={() => {
+                onChange("all");
+                setOpen(false);
+              }}
+            >
+              All categories
+            </button>
+            {categories.map((c) => {
+              if (c.id !== verbsCategoryId) {
+                return (
+                  <button
+                    key={c.id}
+                    style={rowStyle(value === c.id)}
+                    onClick={() => {
+                      onChange(c.id);
+                      setOpen(false);
+                    }}
+                  >
+                    {c.name}
+                  </button>
+                );
+              }
+              return (
+                <div key={c.id}>
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <button
+                      style={{ ...rowStyle(value === c.id), flex: 1 }}
+                      onClick={() => {
+                        onChange(c.id);
+                        setOpen(false);
+                      }}
+                    >
+                      {c.name}
+                    </button>
+                    <button
+                      onClick={() => setVerbsExpanded((x) => !x)}
+                      aria-label={verbsExpanded ? "Hide verb forms" : "Choose verb forms"}
+                      style={{
+                        border: "none",
+                        background: "none",
+                        padding: "10px 12px",
+                        cursor: "pointer",
+                        color: "var(--muted)",
+                        display: "flex",
+                        transform: verbsExpanded ? "rotate(180deg)" : "none",
+                        transition: "transform 0.15s",
+                      }}
+                    >
+                      <Icon.ChevronDown size={15} />
+                    </button>
+                  </div>
+                  {verbsExpanded && (
+                    <div style={{ margin: "2px 6px 8px 18px", padding: "8px 10px", borderLeft: "2px solid var(--line)" }}>
+                      <div style={{ fontFamily: "var(--sans)", fontSize: 11.5, color: "var(--muted)", marginBottom: 6 }}>
+                        Show verbs as (applies in every category):
+                      </div>
+                      {VERB_FORM_CHOICES.map((f) => {
+                        const on = verbForms.includes(f.id);
+                        return (
+                          <div
+                            key={f.id}
+                            onClick={() => toggleForm(f.id)}
+                            style={{ display: "flex", alignItems: "center", gap: 10, padding: "6px 0", cursor: "pointer" }}
+                          >
+                            <span
+                              style={{
+                                width: 16,
+                                height: 16,
+                                borderRadius: 4,
+                                border: "1.6px solid " + (on ? "var(--fjord)" : "#C9C4B6"),
+                                background: on ? "var(--fjord)" : "transparent",
+                                display: "inline-flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                flexShrink: 0,
+                              }}
+                            >
+                              {on && <Icon.Check size={11} color="#FBFAF7" />}
+                            </span>
+                            <span style={{ fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)" }}>
+                              {f.label}
+                              <span style={{ color: "var(--muted)", fontSize: 12.5 }}>{"  " + f.example}</span>
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
 
 // Level dropdown shared by Study and Library. Cards the person added that
 // aren't in the built-in list have no level, so they only show under
@@ -11072,17 +11245,28 @@ function Toast({ msg }) {
 function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, engine }) {
   const [catFilter, setCatFilter] = useState("all");
   const [levelFilter, setLevelFilter] = useState("all"); // "all" | 1 | 2 | 3 | 4
-  // Verb tense option — only offered while the Verbs category is picked.
-  // "normal" shows "at spise → to eat"; the others show the verb in that
-  // tense ("jeg spiste → I ate"), and "mix" picks a tense per card.
-  const [tenseMode, setTenseMode] = useState("normal");
+  // Which verb forms to show, chosen with checkboxes under "Verbs" in the
+  // category menu. Applies to verbs wherever they come up (including All
+  // categories). "base" = "at spise → to eat"; the others show the verb in
+  // that tense ("jeg spiste → I ate"). With several ticked, each verb card
+  // picks one of them at random. Remembered on this device.
+  const [verbForms, setVerbForms] = useState(["base"]);
+  useEffect(() => {
+    storeGet("verbForms")
+      .then((v) => {
+        const list = v ? JSON.parse(v) : null;
+        if (Array.isArray(list) && list.length) setVerbForms(list);
+      })
+      .catch(() => {});
+  }, []);
+  function changeVerbForms(next) {
+    setVerbForms(next);
+    storeSet("verbForms", JSON.stringify(next)).catch(() => {});
+  }
   const [poolTenses, setPoolTenses] = useState([]);
   const verbsCategoryId = (categories.find((c) => c.name === "Verbs") || {}).id;
-  // Tense options live inside the category dropdown, under "All
-  // categories" (every verb that comes up is shown in that tense) and under
-  // "Verbs" (only verbs, all in that tense).
-  const tenseActive = tenseMode !== "normal" && (catFilter === "all" || catFilter === verbsCategoryId);
-  const verbsOnlyTense = tenseActive && catFilter === verbsCategoryId;
+  const tenseActive = verbForms.some((f) => f !== "base");
+  const verbsOnly = catFilter === verbsCategoryId;
   const [starredOnly, setStarredOnly] = useState(false);
   const [unknownOnly, setUnknownOnly] = useState(true);
   const [langDir, setLangDir] = useState("da-first"); // da-first | en-first
@@ -11155,8 +11339,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       if (unknownOnly && c.known) return false;
       // In a tense session every verb takes part — including the few that
       // live in other categories (e.g. "at koge" under Food & Drink).
-      if (verbsOnlyTense) {
-        if (!tenseDataFor(c)) return false;
+      // "Verbs" also picks up the few verbs filed under other categories
+      // (e.g. "at koge" under Food & Drink).
+      if (verbsOnly) {
+        if (c.category !== catFilter && !tenseDataFor(c)) return false;
       } else if (catFilter !== "all" && c.category !== catFilter) return false;
       if (levelFilter !== "all" && c.level !== levelFilter) return false;
       if (starredOnly && !c.starred) return false;
@@ -11186,11 +11372,11 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       [ids[i], ids[j]] = [ids[j], ids[i]];
     }
     setPoolIds(ids);
-    const TENSE_INDEX = { present: 0, past: 1, perfect: 2 };
+    const TENSE_INDEX = { base: null, present: 0, past: 1, perfect: 2 };
     setPoolTenses(
       ids.map((id) => {
         if (!tenseActive || !tenseDataFor(cards.find((c) => c.id === id))) return null;
-        return tenseMode === "mix" ? Math.floor(Math.random() * 3) : TENSE_INDEX[tenseMode];
+        return TENSE_INDEX[verbForms[Math.floor(Math.random() * verbForms.length)]];
       })
     );
     setIdx(0);
@@ -11198,7 +11384,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     setDragX(0);
     setExiting(null);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catFilter, levelFilter, starredOnly, unknownOnly, tenseMode, sessionKey]);
+  }, [catFilter, levelFilter, starredOnly, unknownOnly, verbForms.join(","), sessionKey]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
   // What the card actually shows: the normal word, or — in a tense
@@ -11217,8 +11403,8 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const inProgressScope = (c) => {
     if (c.ignored) return false;
     if (c.type === "grammar" && catFilter !== "grammar-lessons") return false;
-    if (verbsOnlyTense) {
-      if (!tenseDataFor(c)) return false;
+    if (verbsOnly) {
+      if (c.category !== catFilter && !tenseDataFor(c)) return false;
     } else if (catFilter !== "all" && c.category !== catFilter) return false;
     if (levelFilter !== "all" && c.level !== levelFilter) return false;
     if (starredOnly && !c.starred) return false;
@@ -11419,35 +11605,14 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       <div style={{ marginBottom: 10 }}>
         <div style={{ display: "flex", gap: 8 }}>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <select
-              value={catFilter + "|" + (catFilter === "all" || catFilter === verbsCategoryId ? tenseMode : "normal")}
-              onChange={(e) => {
-                const [cat, tense] = e.target.value.split("|");
-                setCatFilter(cat);
-                setTenseMode(tense);
-              }}
-              aria-label="Category"
-              style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
-            >
-              <option value="all|normal">All categories</option>
-              {verbsCategoryId && TENSE_CHOICES.map((t) => (
-                <option key={"all" + t.id} value={"all|" + t.id}>
-                  {t.id === "mix" ? "\u00a0\u00a0\u00a0All · verbs mixed" : "\u00a0\u00a0\u00a0All · verbs in " + t.label}
-                </option>
-              ))}
-              {categories.map((c) => [
-                <option key={c.id} value={c.id + "|normal"}>
-                  {c.name}
-                </option>,
-                ...(c.id === verbsCategoryId
-                  ? TENSE_CHOICES.map((t) => (
-                      <option key={c.id + t.id} value={c.id + "|" + t.id}>
-                        {"\u00a0\u00a0\u00a0Verbs · " + t.label}
-                      </option>
-                    ))
-                  : []),
-              ])}
-            </select>
+            <StudyCategoryMenu
+              categories={categories}
+              value={catFilter}
+              onChange={setCatFilter}
+              verbsCategoryId={verbsCategoryId}
+              verbForms={verbForms}
+              onChangeVerbForms={changeVerbForms}
+            />
           </div>
           <LevelPicker value={levelFilter} onChange={setLevelFilter} />
         </div>
