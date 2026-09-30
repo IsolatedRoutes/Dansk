@@ -10378,6 +10378,14 @@ function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAdd
   );
 }
 
+// Tense choices shown under "All categories" and "Verbs" in Study.
+const TENSE_CHOICES = [
+  { id: "present", label: "present" },
+  { id: "past", label: "past" },
+  { id: "perfect", label: "perfect" },
+  { id: "mix", label: "mixed" },
+];
+
 // Level dropdown shared by Study and Library. Cards the person added that
 // aren't in the built-in list have no level, so they only show under
 // "All levels".
@@ -11070,7 +11078,11 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const [tenseMode, setTenseMode] = useState("normal");
   const [poolTenses, setPoolTenses] = useState([]);
   const verbsCategoryId = (categories.find((c) => c.name === "Verbs") || {}).id;
-  const tenseActive = catFilter === verbsCategoryId && tenseMode !== "normal";
+  // Tense options live inside the category dropdown, under "All
+  // categories" (every verb that comes up is shown in that tense) and under
+  // "Verbs" (only verbs, all in that tense).
+  const tenseActive = tenseMode !== "normal" && (catFilter === "all" || catFilter === verbsCategoryId);
+  const verbsOnlyTense = tenseActive && catFilter === verbsCategoryId;
   const [starredOnly, setStarredOnly] = useState(false);
   const [unknownOnly, setUnknownOnly] = useState(true);
   const [langDir, setLangDir] = useState("da-first"); // da-first | en-first
@@ -11143,7 +11155,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       if (unknownOnly && c.known) return false;
       // In a tense session every verb takes part — including the few that
       // live in other categories (e.g. "at koge" under Food & Drink).
-      if (tenseActive) {
+      if (verbsOnlyTense) {
         if (!tenseDataFor(c)) return false;
       } else if (catFilter !== "all" && c.category !== catFilter) return false;
       if (levelFilter !== "all" && c.level !== levelFilter) return false;
@@ -11175,7 +11187,12 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     }
     setPoolIds(ids);
     const TENSE_INDEX = { present: 0, past: 1, perfect: 2 };
-    setPoolTenses(ids.map(() => (!tenseActive ? null : tenseMode === "mix" ? Math.floor(Math.random() * 3) : TENSE_INDEX[tenseMode])));
+    setPoolTenses(
+      ids.map((id) => {
+        if (!tenseActive || !tenseDataFor(cards.find((c) => c.id === id))) return null;
+        return tenseMode === "mix" ? Math.floor(Math.random() * 3) : TENSE_INDEX[tenseMode];
+      })
+    );
     setIdx(0);
     setFlipped(false);
     setDragX(0);
@@ -11200,7 +11217,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const inProgressScope = (c) => {
     if (c.ignored) return false;
     if (c.type === "grammar" && catFilter !== "grammar-lessons") return false;
-    if (tenseActive) {
+    if (verbsOnlyTense) {
       if (!tenseDataFor(c)) return false;
     } else if (catFilter !== "all" && c.category !== catFilter) return false;
     if (levelFilter !== "all" && c.level !== levelFilter) return false;
@@ -11402,24 +11419,39 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       <div style={{ marginBottom: 10 }}>
         <div style={{ display: "flex", gap: 8 }}>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <CategoryPicker categories={categories} value={catFilter} onChange={setCatFilter} allowAll />
+            <select
+              value={catFilter + "|" + (catFilter === "all" || catFilter === verbsCategoryId ? tenseMode : "normal")}
+              onChange={(e) => {
+                const [cat, tense] = e.target.value.split("|");
+                setCatFilter(cat);
+                setTenseMode(tense);
+              }}
+              aria-label="Category"
+              style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
+            >
+              <option value="all|normal">All categories</option>
+              {verbsCategoryId && TENSE_CHOICES.map((t) => (
+                <option key={"all" + t.id} value={"all|" + t.id}>
+                  {t.id === "mix" ? "\u00a0\u00a0\u00a0All · verbs mixed" : "\u00a0\u00a0\u00a0All · verbs in " + t.label}
+                </option>
+              ))}
+              {categories.map((c) => [
+                <option key={c.id} value={c.id + "|normal"}>
+                  {c.name}
+                </option>,
+                ...(c.id === verbsCategoryId
+                  ? TENSE_CHOICES.map((t) => (
+                      <option key={c.id + t.id} value={c.id + "|" + t.id}>
+                        {"\u00a0\u00a0\u00a0Verbs · " + t.label}
+                      </option>
+                    ))
+                  : []),
+              ])}
+            </select>
           </div>
           <LevelPicker value={levelFilter} onChange={setLevelFilter} />
         </div>
-        {catFilter === verbsCategoryId && verbsCategoryId && (
-          <select
-            value={tenseMode}
-            onChange={(e) => setTenseMode(e.target.value)}
-            aria-label="Verb form"
-            style={{ ...inputStyle, appearance: "auto", color: "var(--ink)", marginTop: 8 }}
-          >
-            <option value="normal">Basic form (at spise → to eat)</option>
-            <option value="present">Present (jeg spiser → I eat)</option>
-            <option value="past">Past (jeg spiste → I ate)</option>
-            <option value="perfect">Perfect (jeg har spist → I have eaten)</option>
-            <option value="mix">Mix of all three</option>
-          </select>
-        )}
+
         <div style={{ display: "flex", gap: 16, marginTop: 6, marginBottom: 14, flexWrap: "wrap", alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 6, cursor: "pointer" }} onClick={() => setUnknownOnly(!unknownOnly)}>
             <span
