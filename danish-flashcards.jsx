@@ -11197,11 +11197,6 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   };
   const knownWordCount = cards.filter((c) => inProgressScope(c) && c.known).length;
   const scopeTotal = cards.filter(inProgressScope).length;
-  // Rough level estimate from how many built-in words are marked known —
-  // a friendly guide, not a test score.
-  const knownListWords = cards.filter((c) => c.type === "word" && c.known && c.level).length;
-  const estimatedLevel =
-    knownListWords >= 5000 ? "Fluent (C1–C2)" : knownListWords >= 3000 ? "Advanced (B2–C1)" : knownListWords >= 1500 ? "Intermediate (B1)" : "Basic (A1–A2)";
   // Grammar cards store an English name in front, not Danish — speaking
   // that mangles English phonetically instead of pronouncing anything
   // real. Use the first example's genuine Danish sentence instead.
@@ -11521,9 +11516,6 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
             <span>
               <span style={{ color: "var(--sage)", fontWeight: 700 }}>{knownWordCount}</span> known
             </span>
-            {levelFilter === "all" && catFilter === "all" && knownListWords > 0 && (
-              <span style={{ marginLeft: "auto" }}>Your level: about {estimatedLevel}</span>
-            )}
           </div>
           <div
             key={current.id}
