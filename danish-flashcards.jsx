@@ -11519,7 +11519,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
               Card {idx + 1} of {poolIds.length}
             </span>
             <span>
-              <span style={{ color: "var(--sage)", fontWeight: 700 }}>{knownWordCount}</span> of {scopeTotal} known
+              <span style={{ color: "var(--sage)", fontWeight: 700 }}>{knownWordCount}</span> known
             </span>
             {levelFilter === "all" && catFilter === "all" && knownListWords > 0 && (
               <span style={{ marginLeft: "auto" }}>Your level: about {estimatedLevel}</span>
