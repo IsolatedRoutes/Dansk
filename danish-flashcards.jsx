@@ -72,7 +72,7 @@ async function storeSet(key, value) {
 // are left out, and filled back in on load. With 8,000 cards this keeps
 // the saved deck well under the ~5 MB browser storage limit. Older saves
 // in the full format load exactly the same way.
-const CARD_DEFAULTS = { notes: "", examples: [], starred: false, known: false, ignored: false, forms: "", gender: "", level: 0, pos: "" };
+const CARD_DEFAULTS = { notes: "", examples: [], starred: false, known: false, ignored: false, forms: "", gender: "", level: 0, pos: "", pattern: "" };
 function packCards(json) {
   try {
     const list = JSON.parse(json);
@@ -9355,185 +9355,262 @@ function wordMetaFor(front) {
   return WORD_META[(front || "").trim().toLowerCase()] || null;
 }
 
+// Built-in grammar lessons. Every lesson follows the same shape so they
+// read consistently:
+// - name: "Topic: the Danish words it's about" (e.g. "Negation: ikke")
+// - rule: one or two short plain-English sentences, the rule itself first
+// - pattern: the rule at a glance, with the part that changes in **bold**
+// - three short example sentences, the grammar point in **bold**
+// - level: 1 Basic or 2 Intermediate, so the level filter applies
+// `was` lists earlier names, so already-saved lessons are updated in place.
 const STARTER_GRAMMAR = [
   {
-    name: "En/et gender",
-    explanation:
-      "Danish nouns are either 'common gender' (using en) or 'neuter' (using et) — there's no reliable rule for which is which, so each noun's gender has to be learned along with the word itself. It affects the indefinite article, the definite ending, and how adjectives agree with the noun.",
+    name: "Noun gender: en and et",
+    was: ["En/et gender"],
+    level: 1,
+    rule: "Every Danish noun is either an en-word or an et-word. About three in four are en-words, but there's no reliable rule, so learn each noun with its en or et.",
+    pattern: "**en** bil · **et** hus",
     examples: [
-      ["en kop", "a cup"],
-      ["et bord", "a table"],
-      ["en stol", "a chair"],
+      ["Jeg har **en** hund.", "I have a dog."],
+      ["Vi bor i **et** hus.", "We live in a house."],
+      ["Hun køber **en** kop og **et** glas.", "She buys a cup and a glass."],
     ],
   },
   {
-    name: "Definite articles as a suffix",
-    explanation:
-      "Unlike English 'the', Danish usually shows definiteness by adding an ending onto the noun itself rather than using a separate word. En-words add -en, et-words add -et.",
+    name: "Definite form: -en and -et",
+    was: ["Definite articles as a suffix"],
+    level: 1,
+    rule: "Danish says “the” with an ending on the noun, not a separate word. En-words add -en, et-words add -et (just -n or -t after an -e), and plurals add -ne.",
+    pattern: "bil → bil**en** · hus → hus**et** · biler → biler**ne**",
     examples: [
-      ["hunden", "the dog"],
-      ["huset", "the house"],
-      ["bilen", "the car"],
+      ["Bil**en** er rød.", "The car is red."],
+      ["Hus**et** er stort.", "The house is big."],
+      ["Bøger**ne** ligger på bordet.", "The books are on the table."],
     ],
   },
   {
-    name: "V2 word order (verb-second)",
-    explanation:
-      "In a Danish main clause, the finite (conjugated) verb has to be the second grammatical element, no matter what comes first. If something other than the subject starts the sentence — like a time expression — the subject and verb swap places compared to how English would order them.",
+    name: "Plurals: -er, -e or no ending",
+    was: ["Plural noun patterns"],
+    level: 1,
+    rule: "Most nouns add -er or -e in the plural, and some don't change at all. A few change their vowel, like mand → mænd, so learn the plural with the word.",
+    pattern: "bil → bil**er** · hund → hund**e** · år → år",
     examples: [
-      ["Jeg går i skole i dag.", "I go to school today."],
-      ["I dag går jeg i skole.", "Today I go to school."],
-      ["I morgen skal vi rejse.", "Tomorrow we will travel."],
+      ["Jeg har to **biler**.", "I have two cars."],
+      ["Der er tre **hunde** i parken.", "There are three dogs in the park."],
+      ["Han er ti **år** gammel.", "He is ten years old."],
     ],
   },
   {
-    name: "Negation with ikke",
-    explanation:
-      "In a main clause, 'ikke' (not) comes right after the finite verb. In a subordinate clause — one starting with a word like 'at', 'fordi', or 'hvis' — 'ikke' moves to before the finite verb instead.",
+    name: "Present tense: add -r",
+    was: ["Present tense has one form for every subject"],
+    level: 1,
+    rule: "For the present tense, add -r to the verb. It's the same for every person: jeg, du, han, hun, vi, I and de.",
+    pattern: "at spise → spise**r** · at gå → gå**r**",
     examples: [
-      ["Jeg forstår ikke.", "I don't understand."],
-      ["Han sagde, at han ikke forstod.", "He said that he didn't understand."],
-      ["Hvis du ikke kommer, ringer jeg.", "If you don't come, I'll call."],
+      ["Jeg **spiser** morgenmad.", "I eat breakfast."],
+      ["Han **spiser** morgenmad.", "He eats breakfast."],
+      ["De **går** i skole.", "They go to school."],
     ],
   },
   {
-    name: "Modal verbs + bare infinitive",
-    explanation:
-      "After a modal verb like kan, skal, vil, or må, the following verb is a plain infinitive with no 'at' (Danish's equivalent of 'to'). Most other verbs that take an infinitive DO require 'at' before it.",
+    name: "Negation: ikke",
+    was: ["Negation with ikke"],
+    level: 1,
+    rule: "Ikke means “not”. In a normal sentence it comes right after the verb, and there's no helper word like English “don't”.",
+    pattern: "verb + **ikke**",
     examples: [
-      ["Jeg kan svømme.", "I can swim."],
-      ["Jeg vil prøve at svømme.", "I want to try to swim."],
-      ["Du skal huske det.", "You must remember it."],
+      ["Jeg forstår **ikke**.", "I don't understand."],
+      ["Hun er **ikke** hjemme.", "She isn't home."],
+      ["Vi har **ikke** tid.", "We don't have time."],
     ],
   },
   {
-    name: "Adjective agreement",
-    explanation:
-      "Danish adjectives change their ending depending on the noun they describe: no extra ending before a common-gender singular noun, -t before a neuter singular noun, and -e before any plural noun or in the definite form.",
+    name: "Questions: verb first",
+    level: 1,
+    rule: "For a yes/no question, put the verb first and the subject second. With a question word like hvad or hvor, the question word comes first and the verb second.",
+    pattern: "Du taler dansk. → **Taler du** dansk?",
     examples: [
-      ["en stor hund", "a big dog"],
-      ["et stort hus", "a big house"],
-      ["store huse", "big houses"],
+      ["**Taler du** dansk?", "Do you speak Danish?"],
+      ["**Kommer hun** i morgen?", "Is she coming tomorrow?"],
+      ["Hvor **bor du**?", "Where do you live?"],
     ],
   },
   {
-    name: "Plural noun patterns",
-    explanation:
-      "Most Danish nouns form their plural with -er or -e, and a smaller group don't change at all. Which pattern a given noun follows isn't fully predictable, so it's usually learned alongside the word itself.",
+    name: "Commands: the imperative",
+    was: ["Giving commands: the imperative"],
+    level: 1,
+    rule: "To tell someone to do something, use the verb without at and without its final -e. It's the same for one person or several.",
+    pattern: "lukke → **luk** · komme → **kom** · gå → **gå**",
     examples: [
-      ["en bil, biler", "a car, cars"],
-      ["et æble, æbler", "an apple, apples"],
-      ["et hus, huse", "a house, houses"],
+      ["**Luk** døren!", "Close the door!"],
+      ["**Kom** her!", "Come here!"],
+      ["**Vær** forsigtig!", "Be careful!"],
     ],
   },
   {
-    name: "Present tense has one form for every subject",
-    explanation:
-      "Danish verbs don't change based on who's doing the action — jeg, du, han, vi, I, and de all use the exact same verb form in the present tense. This is simpler than English, which changes for 'he/she/it'.",
+    name: "There is / there are: der er",
+    was: ["Der er — 'there is/are'"],
+    level: 1,
+    rule: "Der er means both “there is” and “there are”. It never changes, whether there's one thing or many.",
+    pattern: "**der er** + noun · **er der** …?",
     examples: [
-      ["jeg går", "I go"],
-      ["han går", "he goes"],
-      ["de går", "they go"],
+      ["**Der er** en kat i haven.", "There is a cat in the garden."],
+      ["**Der er** mange mennesker her.", "There are many people here."],
+      ["**Er der** en bus i aften?", "Is there a bus tonight?"],
     ],
   },
   {
-    name: "Personal pronouns: subject vs. object",
-    explanation:
-      "Like English 'I' vs 'me', most Danish personal pronouns have a different form depending on whether they're the subject or the object of a verb — including after a preposition. Den and det ('it') are the exception: they stay the same either way.",
+    name: "Pronouns: jeg and mig",
+    was: ["Personal pronouns: subject vs. object"],
+    level: 1,
+    rule: "Most pronouns have one form for the person doing something and another for the person it's done to, like English I and me. Den and det (“it”) never change.",
+    pattern: "jeg/**mig** · du/**dig** · han/**ham** · hun/**hende** · vi/**os** · I/**jer** · de/**dem**",
     examples: [
-      ["Jeg kan se dig.", "I can see you."],
-      ["Hun elsker ham.", "She loves him."],
-      ["Giv mig bogen.", "Give me the book."],
+      ["Jeg kan se **dig**.", "I can see you."],
+      ["Hun elsker **ham**.", "She loves him."],
+      ["Kan du hjælpe **os**?", "Can you help us?"],
     ],
   },
   {
-    name: "Simple past of regular verbs",
-    explanation:
-      "Most Danish verbs form the past tense by adding -ede or -te to the verb stem — which ending a given verb takes isn't fully predictable, so it's learned along with the verb. As in the present tense, there's no change based on who's doing the action.",
+    name: "Possessives: min, mit, mine",
+    was: ["Possessive pronouns: min, mit, mine"],
+    level: 1,
+    rule: "Min, din and sin change to match the noun: min with en-words, mit with et-words, mine with plurals. Hans, hendes, vores, jeres and deres never change.",
+    pattern: "**min** bil · **mit** hus · **mine** bøger",
     examples: [
-      ["jeg elskede", "I loved"],
-      ["hun talte", "she talked"],
-      ["de arbejdede", "they worked"],
+      ["Det er **min** bil.", "It's my car."],
+      ["Det er **mit** hus.", "It's my house."],
+      ["Det er **mine** bøger.", "They're my books."],
     ],
   },
   {
-    name: "Present perfect: har vs. er",
-    explanation:
-      "Danish forms the present perfect ('have done') with har plus the past participle, just like English 'have'. A smaller group of verbs — mostly ones about motion or a change of state, like rejse and blive — use er instead.",
+    name: "Modal verbs: kan, skal, vil, må",
+    was: ["Modal verbs + bare infinitive"],
+    level: 1,
+    rule: "After kan, skal, vil or må, the next verb comes straight after, without at. Most other verbs need at before the next verb.",
+    pattern: "**kan** svømme · prøver **at** svømme",
     examples: [
-      ["Jeg har spist.", "I have eaten."],
-      ["Hun er rejst til Paris.", "She has traveled to Paris."],
-      ["Vejret er blevet bedre.", "The weather has gotten better."],
+      ["Jeg **kan svømme**.", "I can swim."],
+      ["Vi **skal gå** nu.", "We have to go now."],
+      ["Jeg vil prøve **at svømme**.", "I want to try to swim."],
     ],
   },
   {
-    name: "Double definiteness with adjectives",
-    explanation:
-      "A definite noun normally just takes an -en/-et ending. But as soon as an adjective describes it, Danish also adds a separate word in front — den for common gender, det for neuter, de for plural — on top of the adjective's own -e ending and the noun's definite form.",
+    name: "Word order: verb second",
+    was: ["V2 word order (verb-second)"],
+    level: 2,
+    rule: "In a main sentence the verb is always the second part. If something else comes first, like a time, the subject moves to just after the verb.",
+    pattern: "I dag **går jeg** i skole.",
     examples: [
-      ["den store hund", "the big dog"],
-      ["det store hus", "the big house"],
-      ["de store huse", "the big houses"],
+      ["Jeg **går** i skole i dag.", "I go to school today."],
+      ["I dag **går jeg** i skole.", "Today I go to school."],
+      ["I morgen **skal vi** rejse.", "Tomorrow we're travelling."],
     ],
   },
   {
-    name: "Comparing adjectives: -ere and -est",
-    explanation:
-      "Most Danish adjectives form the comparative with -ere and the superlative with -est. A handful of common ones are irregular and change shape entirely, and longer adjectives use mere ('more') and mest ('most') in front instead of an ending.",
+    name: "Adjectives: -t and -e endings",
+    was: ["Adjective agreement"],
+    level: 2,
+    rule: "Adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals.",
+    pattern: "en stor bil · et stor**t** hus · stor**e** huse",
     examples: [
-      ["sød, sødere, sødest", "sweet, sweeter, sweetest"],
-      ["god, bedre, bedst", "good, better, best"],
-      ["mere spændende", "more exciting"],
+      ["Det er en **stor** hund.", "It's a big dog."],
+      ["Det er et **stort** hus.", "It's a big house."],
+      ["De har **store** huse.", "They have big houses."],
     ],
   },
   {
-    name: "Word order after fordi, hvis, når, at",
-    explanation:
-      "In a subordinate clause — one introduced by a word like at, fordi, hvis, når, or da — the verb doesn't jump to second position the way it does in a main clause. Instead the subject comes right after the conjunction, and an adverb like ikke goes before the verb rather than after it.",
+    name: "Definite + adjective: den store hund",
+    was: ["Double definiteness with adjectives"],
+    level: 2,
+    rule: "With an adjective, “the” becomes a separate word in front (den, det or de) and the adjective takes -e. The noun then has no -en or -et ending.",
+    pattern: "**den** stor**e** hund · **det** stor**e** hus · **de** stor**e** huse",
     examples: [
-      ["..., fordi jeg ikke har tid.", "..., because I don't have time."],
-      ["Jeg ringer, hvis du ikke kommer.", "I'll call if you don't come."],
-      ["Han spurgte, hvornår vi rejser.", "He asked when we're traveling."],
+      ["**Den store** hund sover.", "The big dog is sleeping."],
+      ["**Det røde** hus er vores.", "The red house is ours."],
+      ["**De nye** bøger er dyre.", "The new books are expensive."],
     ],
   },
   {
-    name: "Giving commands: the imperative",
-    explanation:
-      "To tell someone to do something, drop the final -e from the infinitive — that's the whole command form, with no separate ending for one person versus several. A few common short verbs, like være, drop even more than just the -e.",
+    name: "Comparison: -ere and -est",
+    was: ["Comparing adjectives: -ere and -est"],
+    level: 2,
+    rule: "Add -ere for “more” and -est for “most”. Long adjectives use mere and mest instead, and a few common ones are irregular, like god, bedre, bedst.",
+    pattern: "varm → varm**ere** → varm**est**",
     examples: [
-      ["Luk døren!", "Close the door!"],
-      ["Kom nu!", "Come on!"],
-      ["Vær forsigtig.", "Be careful."],
+      ["Min bil er **hurtigere** end din.", "My car is faster than yours."],
+      ["Det er den **bedste** film.", "It's the best film."],
+      ["Bogen er **mere spændende**.", "The book is more exciting."],
     ],
   },
   {
-    name: "Der er — 'there is/are'",
-    explanation:
-      "Danish uses der er for both English 'there is' and 'there are' — and unlike English, it never changes for number, so the same der er covers one thing or a hundred.",
+    name: "Past tense: -ede and -te",
+    was: ["Simple past of regular verbs"],
+    level: 2,
+    rule: "Most verbs add -ede or -te for the past tense, so learn which with each verb. Many common verbs are irregular, like gik and så.",
+    pattern: "arbejd**ede** · spis**te** · gik",
     examples: [
-      ["Der er en kat i haven.", "There's a cat in the garden."],
-      ["Der er mange mennesker her.", "There are many people here."],
-      ["Der er ikke mere mælk.", "There isn't any more milk."],
+      ["Jeg **arbejdede** i går.", "I worked yesterday."],
+      ["Vi **spiste** fisk.", "We ate fish."],
+      ["Hun **gik** hjem.", "She went home."],
     ],
   },
   {
-    name: "Lægge/ligge, sætte/sidde, stille/stå",
-    explanation:
-      "Danish keeps a strict split that English blurs: use the first verb in each pair when something is actively being put somewhere (it takes an object), and the second verb when something is simply already positioned there (no object) — the same distinction as English 'lay' vs 'lie', applied three times over.",
+    name: "Present perfect: har or er",
+    was: ["Present perfect: har vs. er"],
+    level: 2,
+    rule: "Use har with the past form, like English “have done”. Verbs about moving somewhere or changing, like rejse and blive, usually use er.",
+    pattern: "**har** spist · **er** rejst · **er** blevet",
     examples: [
-      ["Jeg lægger bogen på bordet.", "I put the book on the table."],
-      ["Bogen ligger på bordet.", "The book is lying on the table."],
-      ["Han sætter sig ned.", "He sits himself down."],
+      ["Jeg **har spist**.", "I have eaten."],
+      ["Hun **er rejst** til Paris.", "She has gone to Paris."],
+      ["Det **er blevet** koldt.", "It has gotten cold."],
     ],
   },
   {
-    name: "Possessive pronouns: min, mit, mine",
-    explanation:
-      "Like adjectives, several Danish possessive pronouns change form to match the noun they go with: one form for common-gender nouns, one for neuter, and one for anything plural. Min/din/sin follow this three-way pattern; vores, jeres, and deres don't change at all.",
+    name: "Word order: after at, fordi, hvis",
+    was: ["Word order after fordi, hvis, når, at"],
+    level: 2,
+    rule: "After at, fordi, hvis, når and da, the subject comes next and then the verb. Ikke and other short adverbs go before the verb.",
+    pattern: "…, fordi jeg **ikke har** tid.",
     examples: [
-      ["min bil", "my car"],
-      ["mit hus", "my house"],
-      ["mine bøger", "my books"],
+      ["Jeg bliver hjemme, fordi jeg **ikke har** tid.", "I'm staying home because I don't have time."],
+      ["Ring, hvis du **ikke kommer**.", "Call if you're not coming."],
+      ["Han siger, at han **altid læser** om aftenen.", "He says that he always reads in the evening."],
+    ],
+  },
+  {
+    name: "Future: skal and kommer til at",
+    level: 2,
+    rule: "Danish often uses the present tense for the future. Skal is used for plans, and kommer til at for what's going to happen.",
+    pattern: "jeg **ringer** i morgen · vi **skal** … · det **kommer til at** …",
+    examples: [
+      ["Jeg **ringer** i morgen.", "I'll call tomorrow."],
+      ["Vi **skal** i biografen i aften.", "We're going to the cinema tonight."],
+      ["Det **kommer til at** regne.", "It's going to rain."],
+    ],
+  },
+  {
+    name: "Reflexive verbs: sig",
+    level: 2,
+    rule: "Some verbs need a word for “oneself”: mig, dig, sig, os, jer or sig. English often leaves it out.",
+    pattern: "jeg glæder **mig** · han glæder **sig** · vi glæder **os**",
+    examples: [
+      ["Jeg glæder **mig**.", "I'm looking forward to it."],
+      ["Hun sætter **sig** ned.", "She sits down."],
+      ["Vi skynder **os**.", "We hurry."],
+    ],
+  },
+  {
+    name: "Putting vs. being: lægge and ligge",
+    was: ["Lægge/ligge, sætte/sidde, stille/stå"],
+    level: 2,
+    rule: "Danish has pairs of verbs: one for putting something somewhere, one for where it is. Lægge, sætte and stille are the action; ligge, sidde and stå are the position.",
+    pattern: "**lægge** → ligge · **sætte** → sidde · **stille** → stå",
+    examples: [
+      ["Jeg **lægger** bogen på bordet.", "I put the book on the table."],
+      ["Bogen **ligger** på bordet.", "The book is on the table."],
+      ["Glasset **står** på bordet.", "The glass is on the table."],
     ],
   },
 ];
@@ -9685,13 +9762,15 @@ function buildStarterAdditions(existingCategories, existingFrontsSet) {
   const grammarLessonsId = nameToId["grammar lessons"];
   STARTER_GRAMMAR.forEach((point) => {
     const key = point.name.trim().toLowerCase();
-    if (seen.has(key)) return;
+    if (seen.has(key) || (point.was || []).some((w) => seen.has(w.trim().toLowerCase()))) return;
     seen.add(key);
     newCards.push({
       id: stableStarterId(point.name),
       type: "grammar",
       front: point.name,
-      back: point.explanation,
+      back: point.rule,
+      pattern: point.pattern,
+      level: point.level,
       category: grammarLessonsId,
       examples: point.examples.map(([da, en]) => ({ da, en })),
       starter: true,
@@ -9778,6 +9857,32 @@ function migrateToTopics(cards, categories) {
   const rest = cats.filter((c) => !topics.includes(c) && c.id !== "grammar-lessons" && c.name !== "Grammar Lessons" && (c.custom || used.has(c.id)));
   const lessons = cats.filter((c) => c.id === "grammar-lessons" || c.name === "Grammar Lessons");
   return { cards: next, categories: [...topics, ...rest, ...lessons] };
+}
+
+// Brings the built-in grammar lessons someone already has up to date with
+// STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
+// touches built-in lessons; runs once per GRAMMAR_VERSION.
+const GRAMMAR_VERSION = "2";
+function syncGrammarLessons(cards) {
+  let changed = false;
+  const next = cards.map((card) => {
+    if (card.type !== "grammar" || !card.starter) return card;
+    const key = card.front.trim().toLowerCase();
+    const point = STARTER_GRAMMAR.find(
+      (p) => p.name.toLowerCase() === key || (p.was || []).some((w) => w.toLowerCase() === key)
+    );
+    if (!point) return card;
+    changed = true;
+    return {
+      ...card,
+      front: point.name,
+      back: point.rule,
+      pattern: point.pattern,
+      level: point.level,
+      examples: point.examples.map(([da, en]) => ({ da, en })),
+    };
+  });
+  return changed ? next : null;
 }
 
 // ---------- generic helpers ----------
@@ -9886,6 +9991,11 @@ function irregularPluralFactsHint(front) {
     "\"."
   );
 }
+
+// Same house style as the built-in grammar lessons, for grammar cards the
+// AI writes, so everything in Grammar Lessons reads alike.
+const GRAMMAR_CARD_STYLE =
+  " House style for every grammar point: the name is 'Topic: the Danish words it is about' (e.g. 'Negation: ikke', 'Plurals: -er, -e or no ending'), at most about 6 words. The explanation is 1-2 short plain-English sentences, at most 35 words, stating the rule itself first, with no jargon. Example sentences are short, natural, complete Danish sentences with the exact words that show the grammar point wrapped in **double asterisks**, and a natural English translation without asterisks.";
 
 const WORD_INSIGHT_SYSTEM_PROMPT =
   "A Danish learner tapped a word or short phrase on their flashcard because they want to understand it more deeply. Respond with concrete example forms, never abstract grammatical labels on their own — show the word in use rather than naming the category it belongs to. " +
@@ -11043,6 +11153,14 @@ export default function DanishFlashcards() {
         topicsMigrated = true;
       }
 
+      // Built-in grammar lessons: new consistent wording.
+      let grammarSynced = false;
+      if ((await storeGet("grammarVersion")) !== GRAMMAR_VERSION) {
+        const g = syncGrammarLessons(c);
+        if (g) c = g;
+        grammarSynced = true;
+      }
+
       // Attach level + verb forms to every word card that's in the list.
       let metaApplied = false;
       const metaResult = applyWordMeta(c);
@@ -11057,7 +11175,7 @@ export default function DanishFlashcards() {
       // existing deck from before a later vocabulary expansion.
       const existingFronts = new Set(c.map((card) => card.front.trim().toLowerCase()));
       const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts);
-      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated) {
+      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced) {
         cat = combinedCategories;
         c = [
           ...c,
@@ -11075,6 +11193,7 @@ export default function DanishFlashcards() {
         await persistWithRetry("cards", JSON.stringify(c));
       }
       if (topicsMigrated) storeSet("categoryLayout", CATEGORY_LAYOUT_VERSION).catch(() => {});
+      if (grammarSynced) storeSet("grammarVersion", GRAMMAR_VERSION).catch(() => {});
 
       setCards(c);
       setCategories(cat);
@@ -12142,7 +12261,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                   }}
                 >
                   <div ref={frontContentRef} style={{ width: "100%", boxSizing: "border-box", padding: "0 " + H_CLEARANCE + "px" }}>
-                    {langDir === "da-first" ? (
+                    {(langDir === "da-first" || current.type === "grammar") ? (
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, width: "100%" }}>
                       <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
                         {shownFront}
@@ -12165,10 +12284,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                     <div
                       style={{
                         fontFamily: "var(--sans)",
-                        fontStyle: "italic",
-                        fontSize: current.type === "word" ? 26 : 18,
-                        lineHeight: 1.4,
-                        color: "var(--sage)",
+                        fontStyle: current.type === "grammar" ? "normal" : "italic",
+                        fontSize: current.type === "word" ? 26 : current.type === "grammar" ? 15.5 : 18,
+                        lineHeight: current.type === "grammar" ? 1.55 : 1.4,
+                        color: current.type === "grammar" ? "var(--ink)" : "var(--sage)",
                         width: "100%",
                         textAlign: current.type === "grammar" ? "left" : "center",
                       }}
@@ -12199,15 +12318,15 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                       padding: "0 " + H_CLEARANCE + "px",
                     }}
                   >
-                    {langDir === "da-first" ? (
+                    {(langDir === "da-first" || current.type === "grammar") ? (
                     <>
                     <div
                       style={{
                         fontFamily: "var(--sans)",
-                        fontStyle: "italic",
-                        fontSize: current.type === "word" ? 26 : 18,
-                        lineHeight: 1.4,
-                        color: "var(--sage)",
+                        fontStyle: current.type === "grammar" ? "normal" : "italic",
+                        fontSize: current.type === "word" ? 26 : current.type === "grammar" ? 15.5 : 18,
+                        lineHeight: current.type === "grammar" ? 1.55 : 1.4,
+                        color: current.type === "grammar" ? "var(--ink)" : "var(--sage)",
                         width: "100%",
                         textAlign: current.type === "grammar" ? "left" : "center",
                       }}
@@ -12243,11 +12362,16 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
                     {current.notes && (
                     <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginTop: 8, textAlign: current.type === "grammar" ? "left" : "center" }}>{current.notes}</div>
                   )}
+                  {current.pattern && (
+                    <div style={{ fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.5, color: "var(--terracotta)", marginTop: 12, padding: "8px 10px", background: "var(--paper)", borderRadius: 8 }}>
+                      {renderInlineMarkdown(current.pattern)}
+                    </div>
+                  )}
                   {current.examples && current.examples.length > 0 && (
                     <div style={{ marginTop: 12, width: "100%", textAlign: "left" }}>
                       {current.examples.slice(0, 3).map((ex, i) => (
-                        <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.5, marginBottom: 4 }}>
-                          <span style={{ color: "var(--terracotta)" }}>{ex.da}</span>
+                        <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.5, marginBottom: 6 }}>
+                          <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span>
                           <span style={{ color: "var(--sage)", fontStyle: "italic" }}> — {ex.en}</span>
                         </div>
                       ))}
@@ -12802,7 +12926,7 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
   // English phonetically rather than pronouncing anything real. Their
   // examples do contain genuine Danish, so use the first one instead;
   // if there isn't one, there's nothing real to speak, so hide the button.
-  const speakableText = card.type === "grammar" ? card.examples && card.examples[0] && card.examples[0].da : card.front;
+  const speakableText = card.type === "grammar" ? card.examples && card.examples[0] && card.examples[0].da.replace(/\*/g, "") : card.front;
 
   if (editing) {
     return (
@@ -12984,7 +13108,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
     setLookupError("");
     try {
       const reply = await callAI(
-        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName. Then explain the point concisely in plain English (2-4 sentences, no jargon overload) and give up to 3 example sentences (Danish and English) illustrating it.",
+        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName. Then explain the point and give exactly 3 example sentences (Danish and English) illustrating it." + GRAMMAR_CARD_STYLE,
         'Grammar point: "' +
           front.trim() +
           '"\n\nRespond ONLY with JSON, no other text: {"grammarName": "...", "explanation": "...", "examples": [{"da": "...", "en": "..."}]}',
@@ -13161,7 +13285,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
             <div style={{ borderTop: "1px solid var(--line)", paddingTop: 12, marginBottom: 16 }}>
               {grammarPreview.examples.map((ex, i) => (
                 <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 13.5, marginBottom: 6 }}>
-                  <span style={{ color: "var(--terracotta)" }}>{ex.da}</span> — <span style={{ color: "var(--sage)", fontStyle: "italic" }}>{ex.en}</span>
+                  <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> — <span style={{ color: "var(--sage)", fontStyle: "italic" }}>{ex.en}</span>
                 </div>
               ))}
             </div>
@@ -14048,7 +14172,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
       const catId = fc.type === "grammar" ? "grammar-lessons" : reviewCategory[i] || categories[0]?.id;
       toAdd.push({ type: fc.type, front: fc.front, back: fc.back, category: catId, ...(fc.type === "grammar" ? { examples: fc.examples || [] } : {}) });
       if (fc.type === "grammar" && fc.examples) {
-        fc.examples.slice(0, 3).forEach((ex) => toAdd.push({ type: "sentence", front: ex.da, back: ex.en, category: catId }));
+        fc.examples.slice(0, 3).forEach((ex) => toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId }));
       }
     });
     if (toAdd.length === 0) return;
@@ -14073,7 +14197,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
         "You turn a Danish-tutor question and answer into the single most useful flashcard for the learner to review later. Choose whichever type genuinely fits best: " +
           "'word' if this was really just about one word or a short bit of vocabulary (front = the Danish word, back = ONE clean English translation only — never a list of synonyms or a parenthetical part-of-speech note); " +
           "'sentence' if this was about how to say or understand one specific sentence (front = the Danish sentence, back = the English translation); " +
-          "'grammar' if this was about a rule, pattern, or structure that's more useful explained than just translated (front = a short name for the grammar point, back = a concise plain-English explanation, plus up to 3 short example sentences). " +
+          "'grammar' if this was about a rule, pattern, or structure that's more useful explained than just translated (front = a short name for the grammar point, back = a concise plain-English explanation, plus exactly 3 short example sentences)." + GRAMMAR_CARD_STYLE + " " +
           "Don't overuse 'grammar' — most simple vocabulary questions should be 'word' or 'sentence'. " +
           "For 'word' or 'sentence' types, also pick the single best-fitting category (e.g. by part of speech or topic) — be precise about the word's actual part of speech first (don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective) — prefer an existing category if one genuinely fits, otherwise suggest a short new one. " +
           "If the front is a Danish noun, include its grammatical article (en/et), and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
@@ -14095,7 +14219,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
       const toAdd = [{ type, front: parsed.front, back: parsed.back, category: catId, ...(type === "grammar" ? { examples } : {}) }];
       if (type === "grammar") {
         examples.slice(0, 3).forEach((ex) => {
-          toAdd.push({ type: "sentence", front: ex.da, back: ex.en, category: catId });
+          toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId });
         });
       }
       addCards(toAdd);
@@ -14471,7 +14595,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
           "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
           "If what they wrote in Danish has a grammar mistake anywhere in it, you must catch it and clearly point out what was wrong and why, referencing the specific part that was incorrect — don't silently correct it without mentioning the error. If they wrote in English, or their Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay. " +
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
           "Existing categories to prefer if one fits: " +
           (categoryNames || "(none yet)") +
           '. \n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}], "suggestedCategory": "..."}]} — correctionNote should be an empty string when there was nothing to correct.',
@@ -14518,9 +14642,9 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
           examples: point.examples,
         });
       }
-      if (sel.main) toAdd.push({ type: "sentence", front: point.mainExample.da, back: point.mainExample.en, category: catId });
+      if (sel.main) toAdd.push({ type: "sentence", front: point.mainExample.da.replace(/\*\*/g, ""), back: point.mainExample.en.replace(/\*\*/g, ""), category: catId });
       (point.examples || []).forEach((ex, j) => {
-        if (sel.examples && sel.examples[j]) toAdd.push({ type: "sentence", front: ex.da, back: ex.en, category: catId });
+        if (sel.examples && sel.examples[j]) toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId });
       });
     });
     if (toAdd.length === 0) return;
@@ -14822,7 +14946,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
                     style={{ accentColor: "#8C6FA0" }}
                   />
                   <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                    <b style={{ color: "var(--terracotta)" }}>{point.mainExample.da}</b> —{" "}
+                    <b style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(point.mainExample.da)}</b> —{" "}
                     <span style={{ color: "var(--sage)" }}>{point.mainExample.en}</span>
                   </span>
                 </label>
@@ -14840,7 +14964,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
                       style={{ accentColor: "#8C6FA0" }}
                     />
                     <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                      <span style={{ color: "var(--terracotta)" }}>{ex.da}</span> —{" "}
+                      <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> —{" "}
                       <span style={{ color: "var(--sage)" }}>{ex.en}</span>
                     </span>
                   </label>
@@ -15089,7 +15213,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
       const categoryNames = categories.map((c) => c.name).join(", ");
       const reply = await callVision(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay. " +
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
           "Existing categories to prefer if one fits: " +
           (categoryNames || "(none yet)") +
           '. \n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}], "suggestedCategory": "..."}]} — correctionNote should be an empty string when there was nothing to correct.',
@@ -15135,9 +15259,9 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
           examples: point.examples,
         });
       }
-      if (sel.main) toAdd.push({ type: "sentence", front: point.mainExample.da, back: point.mainExample.en, category: catId });
+      if (sel.main) toAdd.push({ type: "sentence", front: point.mainExample.da.replace(/\*\*/g, ""), back: point.mainExample.en.replace(/\*\*/g, ""), category: catId });
       (point.examples || []).forEach((ex, j) => {
-        if (sel.examples && sel.examples[j]) toAdd.push({ type: "sentence", front: ex.da, back: ex.en, category: catId });
+        if (sel.examples && sel.examples[j]) toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId });
       });
     });
     if (toAdd.length === 0) return;
@@ -15485,7 +15609,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
                     style={{ accentColor: "#8C6FA0" }}
                   />
                   <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                    <b style={{ color: "var(--terracotta)" }}>{point.mainExample.da}</b> — <span style={{ color: "var(--sage)" }}>{point.mainExample.en}</span>
+                    <b style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(point.mainExample.da)}</b> — <span style={{ color: "var(--sage)" }}>{point.mainExample.en}</span>
                   </span>
                 </label>
                 {(point.examples || []).map((ex, j) => (
@@ -15502,7 +15626,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
                       style={{ accentColor: "#8C6FA0" }}
                     />
                     <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                      <span style={{ color: "var(--terracotta)" }}>{ex.da}</span> — <span style={{ color: "var(--sage)" }}>{ex.en}</span>
+                      <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> — <span style={{ color: "var(--sage)" }}>{ex.en}</span>
                     </span>
                   </label>
                 ))}
