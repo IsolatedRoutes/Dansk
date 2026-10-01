@@ -72,7 +72,7 @@ async function storeSet(key, value) {
 // are left out, and filled back in on load. With 8,000 cards this keeps
 // the saved deck well under the ~5 MB browser storage limit. Older saves
 // in the full format load exactly the same way.
-const CARD_DEFAULTS = { notes: "", examples: [], starred: false, known: false, ignored: false, forms: "", gender: "", level: 0, pos: "", pattern: "" };
+const CARD_DEFAULTS = { notes: "", examples: [], starred: false, known: false, ignored: false, upStage: 0, upDue: 0, forms: "", gender: "", level: 0, pos: "", pattern: "" };
 function packCards(json) {
   try {
     const list = JSON.parse(json);
@@ -917,6 +917,9 @@ const VOCAB_CORRECTIONS = {
   "en fængsel": "et fængsel",
 };
 const VOCAB_TRANSLATION_CORRECTIONS = {
+  "en gang": "a hallway / once",
+  "mod": "against / toward / courage",
+  "vildt": "really / wild / game (animals)",
   "at lide": "to suffer",
   "køn": "pretty",
   "spirituel": "witty",
@@ -2659,637 +2662,637 @@ at videreføre	to continue		4	viderefører|videreførte|videreført		jeg videref
 at videregive	to pass on		4	videregiver|videregav|videregivet		jeg videregiver|jeg videregav|jeg har videregivet	I pass on|I passed on|I have passed on	v
 at visualisere	to visualize		4	visualiserer|visualiserede|visualiseret		jeg visualiserer|jeg visualiserede|jeg har visualiseret	I visualize|I visualized|I have visualized	v
 at ændre på	to change (something)		2	ændrer på|ændrede på|ændret på		jeg ændrer på|jeg ændrede på|jeg har ændret på	I change (something)|I changed (something)|I have changed (something)	v
-et hus	a house	HH	1					n
-en bil	a car	TT	1					n
-en by	a town	TS	1					n
-et land	a country	CL	1					n
-en verden	a world	WN	1					n
-en gade	a street	TS	1					n
-en vej	a road	TS	1					n
-et hjem	a home	HH	1					n
-en dør	a door	HH	1					n
-et vindue	a window	HH	1					n
-et bord	a table	HH	1					n
-en stol	a chair	HH	1					n
-en seng	a bed	HH	1					n
-et skab	a cupboard	HH	1					n
-et gulv	a floor	HH	1					n
-et loft	a ceiling / attic	HH	2					n
-en væg	a wall	HH	1					n
-et tag	a roof	HH	1					n
-en have	a garden	HH	1					n
-en skov	a forest	WN	1					n
-en sø	a lake	WN	1					n
-et hav	a sea	WN	1					n
-en strand	a beach	WN	1					n
-et bjerg	a mountain	WN	1					n
-en bro	a bridge	TS	2					n
-en park	a park	TS	1					n
-en butik	a shop	TS	1					n
-et marked	a market	TS	2					n
-et kontor	an office	WJ	1					n
-en skole	a school	SL	1					n
-et universitet	a university	SL	2					n
-et sygehus	a hospital	TS	2					n
-en kirke	a church	TS	1					n
+et hus	a house	HH	1					n	huset|huse	the house|houses
+en bil	a car	TT	1					n	bilen|biler	the car|cars
+en by	a town	TS	1					n	byen|byer	the town|towns
+et land	a country	CL	1					n	landet|lande	the country|countries
+en verden	a world	WN	1					n	verdenen|verdener	the world|worlds
+en gade	a street	TS	1					n	gaden|gader	the street|streets
+en vej	a road	TS	1					n	vejen|veje	the road|roads
+et hjem	a home	HH	1					n	hjemmet	the home
+en dør	a door	HH	1					n	døren|døre	the door|doors
+et vindue	a window	HH	1					n	vinduet|vinduer	the window|windows
+et bord	a table	HH	1					n	bordet|borde	the table|tables
+en stol	a chair	HH	1					n	stolen|stole	the chair|chairs
+en seng	a bed	HH	1					n	sengen|senge	the bed|beds
+et skab	a cupboard	HH	1					n	skabet|skabe	the cupboard|cupboards
+et gulv	a floor	HH	1					n	gulvet|gulve	the floor|floors
+et loft	a ceiling / attic	HH	2					n	loftet|lofter	the ceiling / the attic|ceilings / attics
+en væg	a wall	HH	1					n	væggen|vægge	the wall|walls
+et tag	a roof	HH	1					n	taget|tage	the roof|roofs
+en have	a garden	HH	1					n	haven|har	the garden|gardens
+en skov	a forest	WN	1					n	skoven|skove	the forest|forests
+en sø	a lake	WN	1					n	søen|søer	the lake|lakes
+et hav	a sea	WN	1					n	havet|have	the sea|seas
+en strand	a beach	WN	1					n	stranden|strande	the beach|beaches
+et bjerg	a mountain	WN	1					n	bjerget|bjerge	the mountain|mountains
+en bro	a bridge	TS	2					n	broen|broer	the bridge|bridges
+en park	a park	TS	1					n	parken|parker	the park|parks
+en butik	a shop	TS	1					n	butikken|butikker	the shop|shops
+et marked	a market	TS	2					n	markedet|markeder	the market|markets
+et kontor	an office	WJ	1					n	kontoret|kontorer	the office|offices
+en skole	a school	SL	1					n	skolen|skoler	the school|schools
+et universitet	a university	SL	2					n	universitetet|universiteter	the university|universities
+et sygehus	a hospital	TS	2					n	sygehuset|sygehuse	the hospital|hospitals
+en kirke	a church	TS	1					n	kirken|kirker	the church|churches
 et museum	a museum	TS	1					n
-et bibliotek	a library	TS	1					n
-en restaurant	a restaurant	TS	1					n
-en café	a café	TS	1					n
-et hotel	a hotel	TS	1					n
-en lufthavn	an airport	TT	1					n
-en station	a station	TS	1					n
-et tog	a train	TT	1					n
-en bus	a bus	TT	1					n
-et fly	a plane	TT	1					n
-et skib	a ship	TT	1					n
-en cykel	a bicycle	TT	1					n
+et bibliotek	a library	TS	1					n	biblioteket|biblioteker	the library|libraries
+en restaurant	a restaurant	TS	1					n	restauranten|restauranter	the restaurant|restaurants
+en café	a café	TS	1					n	caféen|caféer	the café|cafés
+et hotel	a hotel	TS	1					n	hotellet|hoteller	the hotel|hotels
+en lufthavn	an airport	TT	1					n	lufthavnen|lufthavne	the airport|airports
+en station	a station	TS	1					n	stationen|stationer	the station|stations
+et tog	a train	TT	1					n	toget|tog	the train|trains
+en bus	a bus	TT	1					n	bussen|busser	the bus|buses
+et fly	a plane	TT	1					n	flyet	the plane
+et skib	a ship	TT	1					n	skibet|skibe	the ship|ships
+en cykel	a bicycle	TT	1					n	cyklen|cykler	the bicycle|bicycles
 penge	money	MB	1					n
-en krone	a crown (currency)	MB	1					n
-en regning	a bill	MB	1					n
-en pris	a price	MB	1					n
-en tid	a time	TC	1					n
-en dag	a day	TC	1					n
-en uge	a week	TC	1					n
-en måned	a month	TC	1					n
-et år	a year	TC	1					n
-en time	an hour	TC	1					n
-et minut	a minute	TC	1					n
-et sekund	a second	TC	1					n
-en morgen	a morning	TC	1					n
-en aften	an evening	TC	1					n
-en nat	a night	TC	1					n
-en sommer	a summer	TC	1					n
-en vinter	a winter	TC	1					n
-et forår	a spring	TC	1					n
-et efterår	an autumn	TC	1					n
-vejr	weather	WN	1					n
-en sol	a sun	WN	1					n
-en måne	a moon	WN	1					n
-en stjerne	a star	WN	1					n
-en himmel	a sky	WN	1					n
-en sky	a cloud	WN	1					n
-regn	rain	WN	1					n
+en krone	a crown (currency)	MB	1					n	kronen|kroner	the crown (currency)|crowns (currency)
+en regning	a bill	MB	1					n	regningen|regninger	the bill|bills
+en pris	a price	MB	1					n	prisen|priser	the price|prices
+en tid	a time	TC	1					n	tiden	the time
+en dag	a day	TC	1					n	dagen|dage	the day|days
+en uge	a week	TC	1					n	ugen|uger	the week|weeks
+en måned	a month	TC	1					n	måneden|måneder	the month|months
+et år	a year	TC	1					n	året	the year
+en time	an hour	TC	1					n	timen|timer	the hour|hours
+et minut	a minute	TC	1					n	minuttet|minutter	the minute|minutes
+et sekund	a second	TC	1					n	sekundet|sekunder	the second|seconds
+en morgen	a morning	TC	1					n	morgenen|morgener	the morning|mornings
+en aften	an evening	TC	1					n	aftenen|aftener	the evening|evenings
+en nat	a night	TC	1					n	natten|nætter	the night|nights
+en sommer	a summer	TC	1					n	sommeren|somre	the summer|summers
+en vinter	a winter	TC	1					n	vinteren|vintre	the winter|winters
+et forår	a spring	TC	1					n	foråret	the spring
+et efterår	an autumn	TC	1					n	efteråret	the autumn
+vejr	weather	WN	1					n	vejret	the weather
+en sol	a sun	WN	1					n	solen|sole	the sun|suns
+en måne	a moon	WN	1					n	månen|måner	the moon|moons
+en stjerne	a star	WN	1					n	stjernen|stjerner	the star|stars
+en himmel	a sky	WN	1					n	himlen|himle	the sky|skies
+en sky	a cloud	WN	1					n	skyen|skyer	the cloud|clouds
+regn	rain	WN	1					n	regnen	the rain
 sne	snow	WN	1					n
-vind	wind	WN	1		en			n
-luft	air	WN	1					n
-vand	water	FD	1					n
-ild	fire	WN	1					n
-jord	earth / soil	WN	1					n
-en sten	a stone	WN	1					n
-et træ	a tree / wood	WN	1					n
-en blomst	a flower	WN	1					n
-græs	grass	WN	1					n
-et dyr	an animal	AN	1					n
-en hund	a dog	AN	1					n
-en kat	a cat	AN	1					n
-en fugl	a bird	AN	1					n
-en fisk	a fish	AN	1					n
-en hest	a horse	AN	1					n
-en ko	a cow	AN	1					n
-en gris	a pig	AN	1					n
-et får	a sheep	AN	1					n
-en mus	a mouse	AN	1					n
-et navn	a name	PF	1					n
-et ord	a word	SL	1					n
-et sprog	a language	CL	1					n
-en bog	a book	SL	1					n
-en avis	a newspaper	TM	1					n
-et blad	a magazine / a leaf	TM	2					n
-et brev	a letter	TM	1					n
-en historie	a story / history	SL	1					n
-en idé	an idea	IO	1					n
-et spørgsmål	a question	IO	1					n
-et svar	an answer	IO	1					n
-et problem	a problem	IO	1					n
-en løsning	a solution	IO	2					n
-en grund	a reason	IO	2					n
-en måde	a way / manner	IO	2					n
-et sted	a place	TS	1					n
-en retning	a direction	TT	2					n
-en side	a page / side		1					n
-en del	a part		2					n
-et stykke	a piece		1					n
-en ting	a thing		1					n
-en sag	a matter / case	IO	2					n
-en person	a person	PF	1					n
-et menneske	a human being	PF	1					n
-et folk	a people	PF	2					n
-et samfund	a society	SP	2					n
-en regering	a government	SP	3					n
-en politik	a policy	SP	2					n
-en lov	a law	SP	2					n
-en ret	a right / dish	SP	2					n
-et job	a job	WJ	1					n
-et firma	a company	MB	2					n
-en virksomhed	a business	MB	2					n
-en chef	a boss	WJ	1					n
-en kollega	a colleague	WJ	1					n
-et møde	a meeting	WJ	1					n
-en aftale	an appointment / agreement	WJ	1					n
-en plan	a plan	IO	1					n
-et mål	a goal	IO	2					n
-en drøm	a dream	IO	2					n
-håb	hope	IO	2		et			n
-frygt	fear	FP	2		en			n
-glæde	joy	FP	2		en			n
-sorg	sorrow / grief	FP	2		en			n
-kærlighed	love	FP	2		en			n
-et venskab	a friendship	PF	2					n
-en familie	a family	PF	1					n
-en ven	a friend	PF	1					n
-en fjende	an enemy	PF	2					n
-en gæst	a guest	PF	1					n
-en nabo	a neighbor	PF	1					n
+vind	wind	WN	1		en			n	vinden	the wind
+luft	air	WN	1					n	luften	the air
+vand	water	FD	1					n	vandet	the water
+ild	fire	WN	1					n	ilden	the fire
+jord	earth / soil	WN	1					n	jorden	the earth / the soil
+en sten	a stone	WN	1					n	stenen|stene	the stone|stones
+et træ	a tree / wood	WN	1					n	træet	the tree / the wood
+en blomst	a flower	WN	1					n	blomsten|blomster	the flower|flowers
+græs	grass	WN	1					n	græsset	the grass
+et dyr	an animal	AN	1					n	dyret|dyr	the animal|animals
+en hund	a dog	AN	1					n	hunden|hunde	the dog|dogs
+en kat	a cat	AN	1					n	katten|katte	the cat|cats
+en fugl	a bird	AN	1					n	fuglen|fugle	the bird|birds
+en fisk	a fish	AN	1					n	fisken|fiske	the fish|fish
+en hest	a horse	AN	1					n	hesten|heste	the horse|horses
+en ko	a cow	AN	1					n	koen|køer	the cow|cows
+en gris	a pig	AN	1					n	grisen|grise	the pig|pigs
+et får	a sheep	AN	1					n	fåret|får	the sheep|sheep
+en mus	a mouse	AN	1					n	musen|muse	the mouse|mice
+et navn	a name	PF	1					n	navnet|navne	the name|names
+et ord	a word	SL	1					n	ordet	the word
+et sprog	a language	CL	1					n	sproget	the language
+en bog	a book	SL	1					n	bogen|bøger	the book|books
+en avis	a newspaper	TM	1					n	avisen|aviser	the newspaper|newspapers
+et blad	a magazine / a leaf	TM	2					n	bladet|blade	the magazine / the leaf|magazines / leaves
+et brev	a letter	TM	1					n	brevet|breve	the letter|letters
+en historie	a story / history	SL	1					n	historien|historier	the story / the history|stories / histories
+en idé	an idea	IO	1					n	idéen|idéer	the idea|ideas
+et spørgsmål	a question	IO	1					n	spørgsmålet	the question
+et svar	an answer	IO	1					n	svaret	the answer
+et problem	a problem	IO	1					n	problemet|problemer	the problem|problems
+en løsning	a solution	IO	2					n	løsningen|løsninger	the solution|solutions
+en grund	a reason	IO	2					n	grunden|grunde	the reason|reasons
+en måde	a way / manner	IO	2					n	måden|måder	the way / the manner|ways / manners
+et sted	a place	TS	1					n	stedet|steder	the place|places
+en retning	a direction	TT	2					n	retningen|retninger	the direction|directions
+en side	a page / side		1					n	siden|sider	the page / the side|pages / sides
+en del	a part		2					n	delen|dele	the part|parts
+et stykke	a piece		1					n	stykket|stykker	the piece|pieces
+en ting	a thing		1					n	tingen	the thing
+en sag	a matter / case	IO	2					n	sagen|sager	the matter / the case|matters / cases
+en person	a person	PF	1					n	personen|personer	the person|people
+et menneske	a human being	PF	1					n	mennesket|mennesker	the human being|human beings
+et folk	a people	PF	2					n	folket|folk	the people|peoples
+et samfund	a society	SP	2					n	samfundet	the society
+en regering	a government	SP	2					n	regeringen|regeringer	the government|governments
+en politik	a policy	SP	2					n	politikken|politikker	the policy|policies
+en lov	a law	SP	2					n	loven|love	the law|laws
+en ret	a right / dish	SP	2					n	retten|retter	the right / the dish|rights / dishes
+et job	a job	WJ	1					n	jobbet	the job
+et firma	a company	MB	2					n	firmaet|firmaer	the company|companies
+en virksomhed	a business	MB	2					n	virksomheden|virksomheder	the business|businesses
+en chef	a boss	WJ	1					n	chefen|chefer	the boss|bosses
+en kollega	a colleague	WJ	1					n	kollegaen|kolleger	the colleague|colleagues
+et møde	a meeting	WJ	1					n	mødet|møder	the meeting|meetings
+en aftale	an appointment / agreement	WJ	1					n	aftalen|aftaler	the appointment / the agreement|appointments / agreements
+en plan	a plan	IO	1					n	planen|planer	the plan|plans
+et mål	a goal	IO	2					n	målet	the goal
+en drøm	a dream	IO	2					n	drømmen|drømme	the dream|dreams
+håb	hope	IO	2		et			n	håbet	the hope
+frygt	fear	FP	2		en			n	frygten	the fear
+glæde	joy	FP	2		en			n	glæden	the joy
+sorg	sorrow / grief	FP	2		en			n	sorgen	the sorrow / the grief
+kærlighed	love	FP	2		en			n	kærligheden	the love
+et venskab	a friendship	PF	2					n	venskabet|venskaber	the friendship|friendships
+en familie	a family	PF	1					n	familien|familier	the family|families
+en ven	a friend	PF	1					n	vennen|venner	the friend|friends
+en fjende	an enemy	PF	2					n	fjenden|fjender	the enemy|enemies
+en gæst	a guest	PF	1					n	gæsten|gæster	the guest|guests
+en nabo	a neighbor	PF	1					n	naboen|naboer	the neighbor|neighbors
 en fremmed	a stranger	PF	2					n
-et arbejde	a job / work	WJ	1					n
-en arbejdsgiver	an employer	WJ	2					n
-en ekspert	an expert	WJ	2					n
-en amatør	an amateur	WJ	3					n
-en begynder	a beginner	WJ	2					n
-en veteran	a veteran	WJ	3					n
-en repræsentant	a representative	SP	3					n
-en talsperson	a spokesperson	SP	4					n
-en deltager	a participant	PF	3					n
-en tilhænger	a supporter	SP	3					n
-en kritiker	a critic	SP	3					n
-en beundrer	an admirer	PF	3					n
-en autoritet	an authority	SP	3					n
-en myndighed	an authority/agency	SP	3					n
-en embedsmand	a civil servant	SP	4					n
-en iværksætter	an entrepreneur	MB	3					n
-en ejer	an owner	MB	2					n
-et par	a couple / a pair		1					n
-en chance	a chance	IO	2					n
-en plads	a place / room / square	TS	1					n
-en rest	a remainder / leftover		2					n
-et nummer	a number		1					n
-en masse	a lot / a mass		1					n
-en kæmpe	a giant		2					n
-en tjeneste	a favor / service		2					n
-et spor	a track / trace / clue		2					n
-en stemme	a voice / vote		2					n
-en kontakt	a contact / switch		2					n
-et tegn	a sign		2					n
-adgang	access / entry		2		en			n
-et hul	a hole		2					n
-en form	a form / shape	CO	2					n
-en kontrol	a control / check		2					n
-et tilfælde	a case / coincidence	IO	2					n
-en oplysning	a piece of information		2					n
-et skud	a shot		3					n
-et område	an area		2					n
-et skridt	a step		2					n
-en situation	a situation	IO	2					n
-et uheld	an accident / bad luck	IO	2					n
-en mester	a master / champion	FS	3					n
-en mission	a mission	WJ	3					n
-et slag	a blow / battle		3					n
-ballade	trouble / fuss		2		en			n
-et skilt	a sign (board)		2					n
-en type	a type / guy		2					n
-et bud	an offer / bid / command		3					n
-et system	a system	TM	2					n
-information	information	TM	2		en			n
-en flok	a flock / crowd		2					n
-et bånd	a band / ribbon / tape / bond		3					n
-en omgang	a round / lap		3					n
-en tilstand	a condition / state	IO	3					n
-en kugle	a bullet / ball	CO	3					n
-udstyr	equipment	HH	2		et			n
-beskyttelse	protection	SP	2		en			n
-en advarsel	a warning	SP	2					n
-en bund	a bottom		2					n
-en service	a service	WJ	2					n
-en kilde	a source / spring	SL	2					n
-et brud	a break / breach		3					n
-et punkt	a point (spot)		2					n
-en model	a model		2					n
-en lyd	a sound		1					n
-en status	a status	IO	3					n
-en knibe	a fix / tight spot		4					n
-et trin	a step		3					n
-en dækning	a cover / coverage		3					n
-en katastrofe	a disaster	IO	2					n
-en bevægelse	a movement		2					n
-et væsen	a creature / being		3					n
-en favorit	a favorite	IO	2					n
-udkig	lookout		4		et			n
-en sæk	a sack		3					n
-en base	a base		3					n
-et materiale	a material		3					n
-et middel	a means / remedy		3					n
-et tip	a tip		2					n
-en lugt	a smell		2					n
-et bind	a volume / bandage		4					n
-en baggrund	a background	IO	2					n
-et metal	a metal	WN	3					n
-en eksplosion	an explosion		3					n
-et skrig	a scream		3					n
-besvær	trouble / hassle		3		et			n
-stilhed	silence		2		en			n
-larm	noise		2		en			n
-et stød	a shock / jolt		3					n
-et symbol	a symbol	SL	3					n
-en zone	a zone		3					n
-et lag	a layer		3					n
-en forsyning	a supply	WJ	3					n
-en kiste	a chest / coffin	HH	3					n
-en ændring	a change	IO	2					n
-en pil	an arrow / willow		3					n
-et varsel	a notice / warning		4					n
-et reb	a rope	HH	3					n
-en rækkevidde	a range / reach		3					n
-jern	iron	WN	3		et			n
-en belønning	a reward	IO	3					n
-en plade	a plate / record		3					n
-et slagsmål	a fight	SP	3					n
-en proces	a process	IO	3					n
-et glimt	a glimpse / gleam		3					n
-en snor	a string / cord		3					n
-en begivenhed	an event	IO	3					n
-en besiddelse	a possession		4					n
+et arbejde	a job / work	WJ	1					n	arbejdet	the job / the work
+en arbejdsgiver	an employer	WJ	2					n	arbejdsgiveren|arbejdsgivere	the employer|employers
+en ekspert	an expert	WJ	2					n	eksperten|eksperter	the expert|experts
+en amatør	an amateur	WJ	3					n	amatøren|amatører	the amateur|amateurs
+en begynder	a beginner	WJ	2					n	begynderen|begyndere	the beginner|beginners
+en veteran	a veteran	WJ	3					n	veteranen|veteraner	the veteran|veterans
+en repræsentant	a representative	SP	3					n	repræsentanten|repræsentanter	the representative|representatives
+en talsperson	a spokesperson	SP	4					n	talspersonen|talspersoner	the spokesperson|spokespeople
+en deltager	a participant	PF	3					n	deltageren|deltagere	the participant|participants
+en tilhænger	a supporter	SP	3					n	tilhængeren|tilhængere	the supporter|supporters
+en kritiker	a critic	SP	3					n	kritikeren|kritikere	the critic|critics
+en beundrer	an admirer	PF	3					n	beundreren|beundrere	the admirer|admirers
+en autoritet	an authority	SP	3					n	autoriteten|autoriteter	the authority|authorities
+en myndighed	an authority/agency	SP	3					n	myndigheden|myndigheder	the authority/agency|authority/agencies
+en embedsmand	a civil servant	SP	4					n	embedsmanden|embedsmænd	the civil servant|civil servants
+en iværksætter	an entrepreneur	MB	3					n	iværksætteren|iværksættere	the entrepreneur|entrepreneurs
+en ejer	an owner	MB	2					n	ejeren|ejere	the owner|owners
+et par	a couple / a pair		1					n	parret|parr	the couple / the pair|couples / pairs
+en chance	a chance	IO	2					n	chancen|chancer	the chance|chances
+en plads	a place / room / square	TS	1					n	pladsen|pladser	the place / the room / the square|places / rooms / squares
+en rest	a remainder / leftover		2					n	resten|rester	the remainder / the leftover|remainders / leftovers
+et nummer	a number		1					n	nummeret|numre	the number|numbers
+en masse	a lot / a mass		1					n	massen|masser	the lot / the mass|lots / masses
+en kæmpe	a giant		2					n	kæmpen|kæmper	the giant|giants
+en tjeneste	a favor / service		2					n	tjenesten|tjenester	the favor / the service|favors / services
+et spor	a track / trace / clue		2					n	sporet	the track / the trace / the clue
+en stemme	a voice / vote		2					n	stemmen|stemmer	the voice / the vote|voices / votes
+en kontakt	a contact / switch		2					n	kontakten|kontakter	the contact / the switch|contacts / switches
+et tegn	a sign		2					n	tegnet	the sign
+adgang	access / entry		2		en			n	adgangen	the access / the entry
+et hul	a hole		2					n	hullet|huller	the hole|holes
+en form	a form / shape	CO	2					n	formen|former	the form / the shape|forms / shapes
+en kontrol	a control / check		2					n	kontrollen|kontroller	the control / the check|controls / checks
+et tilfælde	a case / coincidence	IO	2					n	tilfældet	the case / the coincidence
+en oplysning	a piece of information		2					n	oplysningen|oplysninger	the piece of information|pieces of information
+et skud	a shot		3					n	skuddet	the shot
+et område	an area		2					n	området|områder	the area|areas
+et skridt	a step		2					n	skridtet	the step
+en situation	a situation	IO	2					n	situationen|situationer	the situation|situations
+et uheld	an accident / bad luck	IO	2					n	uheldet	the accident / the bad luck
+en mester	a master / champion	FS	3					n	mesteren|mestre	the master / the champion|masters / champions
+en mission	a mission	WJ	3					n	missionen|missioner	the mission|missions
+et slag	a blow / battle		3					n	slaget	the blow / the battle
+ballade	trouble / fuss		2		en			n	balladen	the trouble / the fuss
+et skilt	a sign (board)		2					n	skiltet|skilte	the sign (board)|signs (board)
+en type	a type / guy		2					n	typen|typer	the type / the guy|types / guys
+et bud	an offer / bid / command		3					n	buddet|bud	the offer / the bid / the command|offers / bids / commands
+et system	a system	TM	2					n	systemet|systemer	the system|systems
+information	information	TM	2		en			n	informationen	the information
+en flok	a flock / crowd		2					n	flokken|flokke	the flock / the crowd|flocks / crowds
+et bånd	a band / ribbon / tape / bond		3					n	båndet	the band / the ribbon / the tape / the bond
+en omgang	a round / lap		3					n	omgangen|omgange	the round / the lap|rounds / laps
+en tilstand	a condition / state	IO	3					n	tilstanden|tilstande	the condition / the state|conditions / states
+en kugle	a bullet / ball	CO	3					n	kuglen|kugler	the bullet / the ball|bullets / balls
+udstyr	equipment	HH	2		et			n	udstyret	the equipment
+beskyttelse	protection	SP	2		en			n	beskyttelsen	the protection
+en advarsel	a warning	SP	2					n	advarslen|advarsler	the warning|warnings
+en bund	a bottom		2					n	bunden|bunde	the bottom|bottoms
+en service	a service	WJ	2					n	servicen	the service
+en kilde	a source / spring	SL	2					n	kilden|kilder	the source / the spring|sources / springs
+et brud	a break / breach		3					n	bruddet	the break / the breach
+et punkt	a point (spot)		2					n	punktet|punkter	the point (spot)|points (spot)
+en model	a model		2					n	modellen|modeller	the model|models
+en lyd	a sound		1					n	lyden|lyde	the sound|sounds
+en status	a status	IO	3					n	statussen|statusser	the status|statuses
+en knibe	a fix / tight spot		4					n	kniben|kniber	the fix / the tight spot|fixes / tight spots
+et trin	a step		3					n	trinet	the step
+en dækning	a cover / coverage		3					n	dækningen|dækninger	the cover / the coverage|covers / coverages
+en katastrofe	a disaster	IO	2					n	katastrofen|katastrofer	the disaster|disasters
+en bevægelse	a movement		2					n	bevægelsen|bevægelser	the movement|movements
+et væsen	a creature / being		3					n	væsnet|væsner	the creature / the being|creatures / beings
+en favorit	a favorite	IO	2					n	favoritten|favoritter	the favorite|favorites
+udkig	lookout		4		et			n	udkigget	the lookout
+en sæk	a sack		3					n	sækken|sække	the sack|sacks
+en base	a base		3					n	basen|baser	the base|bases
+et materiale	a material		3					n	materialet|materialer	the material|materials
+et middel	a means / remedy		3					n	midlet|midler	the means / the remedy|meanss / remedies
+et tip	a tip		2					n	tippet	the tip
+en lugt	a smell		2					n	lugten|lugte	the smell|smells
+et bind	a volume / bandage		4					n	bindet|bind	the volume / the bandage|volumes / bandages
+en baggrund	a background	IO	2					n	baggrunden|baggrunde	the background|backgrounds
+et metal	a metal	WN	3					n	metallet|metaller	the metal|metals
+en eksplosion	an explosion		3					n	eksplosionen|eksplosioner	the explosion|explosions
+et skrig	a scream		3					n	skriget	the scream
+besvær	trouble / hassle		3		et			n	besværet	the trouble / the hassle
+stilhed	silence		2		en			n	stilheden	the silence
+larm	noise		2		en			n	larmen	the noise
+et stød	a shock / jolt		3					n	stødet	the shock / the jolt
+et symbol	a symbol	SL	3					n	symbolet|symboler	the symbol|symbols
+en zone	a zone		3					n	zonen|zoner	the zone|zones
+et lag	a layer		3					n	laget	the layer
+en forsyning	a supply	WJ	3					n	forsyningen|forsyninger	the supply|supplies
+en kiste	a chest / coffin	HH	3					n	kisten|kister	the chest / the coffin|chests / coffins
+en ændring	a change	IO	2					n	ændringen|ændringer	the change|changes
+en pil	an arrow / willow		3					n	pilen|pile	the arrow / the willow|arrows / willows
+et varsel	a notice / warning		4					n	varslet|varsler	the notice / the warning|notices / warnings
+et reb	a rope	HH	3					n	rebet	the rope
+en rækkevidde	a range / reach		3					n	rækkevidden|rækkevidder	the range / the reach|ranges / reaches
+jern	iron	WN	3		et			n	jernet	the iron
+en belønning	a reward	IO	3					n	belønningen|belønninger	the reward|rewards
+en plade	a plate / record		3					n	pladen|plader	the plate / the record|plates / records
+et slagsmål	a fight	SP	3					n	slagsmålet	the fight
+en proces	a process	IO	3					n	processen|processer	the process|processes
+et glimt	a glimpse / gleam		3					n	glimtet	the glimpse / the gleam
+en snor	a string / cord		3					n	snoren|snore	the string / the cord|strings / cords
+en begivenhed	an event	IO	3					n	begivenheden|begivenheder	the event|events
+en besiddelse	a possession		4					n	besiddelsen|besiddelser	the possession|possessions
 et knep	a trick		4					n
-en titel	a title		3					n
-en mine	a mine / facial expression		3					n
-en bagside	a back / downside		3					n
+en titel	a title		3					n	titlen|titler	the title|titles
+en mine	a mine / facial expression		3					n	minen|miner	the mine / the facial expression|ours / facial expressions
+en bagside	a back / downside		3					n	bagsiden|bagsider	the back / the downside|backs / downsides
 vedkommende	the person concerned		4					p
-en blanding	a mixture		3					n
-et udbrud	an outbreak / outburst		3					n
-en hændelse	an incident	IO	3					n
-en gift	a poison		3					n
-en pind	a stick		3					n
-en sektion	a section		3					n
-en kvalitet	a quality	IO	3					n
-assistance	assistance		3		en			n
-støj	noise		2		en			n
-en spids	a tip / point		3					n
-en nål	a needle		3					n
-et vilkår	a condition / term	IO	3					n
-en prik	a dot	CO	3					n
-et bidrag	a contribution	IO	3					n
-en genstand	an object		3					n
-en figur	a figure		3					n
-en væske	a liquid / fluid		3					n
-bly	lead (metal)	WN	4		et			n
-et fodspor	a footprint		3					n
-et snit	a cut / average		3					n
-et anlæg	a facility / plant / stereo		3					n
-en dusør	a reward (bounty)	SP	4					n
-design	design		3		et			n
-et felt	a field		3					n
-ly	shelter		4		et			n
-en streg	a line / stroke		3					n
-en kerne	a core / kernel / seed		3					n
-en kombination	a combination	IO	3					n
-en lænke	a chain		4					n
-en krog	a hook / corner		3					n
-en godkendelse	an approval	IO	3					n
-en praksis	a practice	IO	3					n
-en overflade	a surface		3					n
-en procedure	a procedure	IO	3					n
-tømmer	timber	WN	4		et			n
-en åbning	an opening		3					n
-et fund	a find / discovery		3					n
+en blanding	a mixture		3					n	blandingen|blandinger	the mixture|mixtures
+et udbrud	an outbreak / outburst		3					n	udbruddet	the outbreak / the outburst
+en hændelse	an incident	IO	3					n	hændelsen|hændelser	the incident|incidents
+en gift	a poison		3					n	giften|gifte	the poison|poisons
+en pind	a stick		3					n	pinden|pinde	the stick|sticks
+en sektion	a section		3					n	sektionen|sektioner	the section|sections
+en kvalitet	a quality	IO	3					n	kvaliteten|kvaliteter	the quality|qualities
+assistance	assistance		3		en			n	assistancen	the assistance
+støj	noise		2		en			n	støjen	the noise
+en spids	a tip / point		3					n	spidsen|spidser	the tip / the point|tips / points
+en nål	a needle		3					n	nålen|nåle	the needle|needles
+et vilkår	a condition / term	IO	3					n	vilkåret	the condition / the term
+en prik	a dot	CO	3					n	prikken|prikker	the dot|dots
+et bidrag	a contribution	IO	3					n	bidraget	the contribution
+en genstand	an object		3					n	genstanden|genstande	the object|objects
+en figur	a figure		3					n	figuren|figurer	the figure|figures
+en væske	a liquid / fluid		3					n	væsken|væsker	the liquid / the fluid|liquids / fluids
+bly	lead (metal)	WN	4		et			n	blyet	the lead (metal)
+et fodspor	a footprint		3					n	fodsporet	the footprint
+et snit	a cut / average		3					n	snittet	the cut / the average
+et anlæg	a facility / plant / stereo		3					n	anlægget	the facility / the plant / the stereo
+en dusør	a reward (bounty)	SP	4					n	dusøren|dusører	the reward (bounty)|rewards (bounty)
+design	design		3		et			n	designet	the design
+et felt	a field		3					n	feltet|felter	the field|fields
+ly	shelter		4		et			n	lyet	the shelter
+en streg	a line / stroke		3					n	stregen|streger	the line / the stroke|lines / strokes
+en kerne	a core / kernel / seed		3					n	kernen|kerner	the core / the kernel / the seed|cores / kernels / seeds
+en kombination	a combination	IO	3					n	kombinationen|kombinationer	the combination|combinations
+en lænke	a chain		4					n	lænken|lænker	the chain|chains
+en krog	a hook / corner		3					n	krogen|kroge	the hook / the corner|hooks / corners
+en godkendelse	an approval	IO	3					n	godkendelsen|godkendelser	the approval|approvals
+en praksis	a practice	IO	3					n	praksissen|praksisser	the practice|practices
+en overflade	a surface		3					n	overfladen|overflader	the surface|surfaces
+en procedure	a procedure	IO	3					n	proceduren|procedurer	the procedure|procedures
+tømmer	timber	WN	4		et			n	tømmeret	the timber
+en åbning	an opening		3					n	åbningen|åbninger	the opening|openings
+et fund	a find / discovery		3					n	fundet	the find / the discovery
 småting	small things / trifles		2		pl			n
-opsyn	supervision		4		et			n
-en kæde	a chain		2					n
-en anbefaling	a recommendation	IO	3					n
-plastik	plastic	HH	2		en			n
-et brag	a bang / crash		3					n
-en fælde	a trap		3					n
-en kuvert	an envelope	HH	2					n
-et frimærke	a stamp	TM	2					n
-et postkort	a postcard	TM	2					n
-en notesbog	a notebook	SL	2					n
-en tusch	a marker	SL	2					n
-tape	tape	HH	2		en			n
-lim	glue	HH	2		en			n
-en elastik	a rubber band	HH	3					n
-en nøglering	a key ring	HH	3					n
-en lommelygte	a flashlight	HH	2					n
-en tændstik	a match	HH	2					n
-en lighter	a lighter	HH	2					n
-et askebæger	an ashtray	HH	3					n
-en balje	a tub	HH	3					n
-en tønde	a barrel	HH	3					n
-en plastikpose	a plastic bag	CS	2					n
-en mulepose	a tote bag	CS	3					n
-en dukke	a doll	PF	2					n
-en klods	a block (toy) / brick	PF	3					n
-en ballon	a balloon	PF	2					n
-en gynge	a swing	PF	3					n
-en rutsjebane	a slide / roller coaster	FS	3					n
-en sandkasse	a sandbox	PF	3					n
-en barnevogn	a baby carriage / stroller	PF	2					n
-en klapvogn	a stroller	PF	3					n
+opsyn	supervision		4		et			n	opsynet	the supervision
+en kæde	a chain		2					n	kæden|kæder	the chain|chains
+en anbefaling	a recommendation	IO	3					n	anbefalingen|anbefalinger	the recommendation|recommendations
+plastik	plastic	HH	2		en			n	plastikken	the plastic
+et brag	a bang / crash		3					n	braget|brag	the bang / the crash|bangs / crashes
+en fælde	a trap		3					n	fælden|fælder	the trap|traps
+en kuvert	an envelope	HH	2					n	kuverten|kuverter	the envelope|envelopes
+et frimærke	a stamp	TM	2					n	frimærket|frimærker	the stamp|stamps
+et postkort	a postcard	TM	2					n	postkortet	the postcard
+en notesbog	a notebook	SL	2					n	notesbogen|notesbøger	the notebook|notebooks
+en tusch	a marker	SL	2					n	tuschen	the marker
+tape	tape	HH	2		en			n	tapen	the tape
+lim	glue	HH	2		en			n	limen	the glue
+en elastik	a rubber band	HH	3					n	elastikken|elastikker	the rubber band|rubber bands
+en nøglering	a key ring	HH	3					n	nøgleringen|nøgleringe	the key ring|key rings
+en lommelygte	a flashlight	HH	2					n	lommelygten|lommelygter	the flashlight|flashlights
+en tændstik	a match	HH	2					n	tændstikken|tændstikker	the match|matches
+en lighter	a lighter	HH	2					n	lighteren|lightere	the lighter|lighters
+et askebæger	an ashtray	HH	3					n	askebægret|askebægre	the ashtray|ashtrays
+en balje	a tub	HH	3					n	baljen|baljer	the tub|tubs
+en tønde	a barrel	HH	3					n	tønden|tønder	the barrel|barrels
+en plastikpose	a plastic bag	CS	2					n	plastikposen|plastikposer	the plastic bag|plastic bags
+en mulepose	a tote bag	CS	3					n	muleposen|muleposer	the tote bag|tote bags
+en dukke	a doll	PF	2					n	dukken|dukker	the doll|dolls
+en klods	a block (toy) / brick	PF	3					n	klodsen|klodser	the block (toy) / the brick|blocks (toy) / bricks
+en ballon	a balloon	PF	2					n	ballonen|balloner	the balloon|balloons
+en gynge	a swing	PF	3					n	gyngen|gynger	the swing|swings
+en rutsjebane	a slide / roller coaster	FS	3					n	rutsjebanen|rutsjebaner	the slide / the roller coaster|slides / roller coasters
+en sandkasse	a sandbox	PF	3					n	sandkassen|sandkasser	the sandbox|sandboxes
+en barnevogn	a baby carriage / stroller	PF	2					n	barnevognen|barnevogne	the baby carriage / the stroller|baby carriages / strollers
+en klapvogn	a stroller	PF	3					n	klapvognen|klapvogne	the stroller|strollers
 en ble	a diaper	PF	2					n
-en sut	a pacifier	PF	3					n
-en sutteflaske	a baby bottle	PF	3					n
-en hagesmæk	a bib	PF	4					n
-en autostol	a car seat	TT	3					n
-en cykellås	a bike lock	TT	2					n
-en cykelpumpe	a bike pump	TT	3					n
-en punktering	a flat tire / puncture	TT	3					n
-en lygte	a light / lamp (bike, street)	TT	3					n
-en gadelygte	a streetlight	TS	3					n
-en kantsten	a curb	TS	4					n
-et højhus	a high-rise	TS	2					n
-en skyskraber	a skyscraper	TS	3					n
-en boligblok	an apartment block	TS	3					n
-en fabrik	a factory	MB	2					n
-et værksted	a workshop / garage	WJ	2					n
-en gård	a farm / courtyard	WN	2					n
-en baggård	a backyard	HH	3					n
-en lade	a barn	WN	3					n
-en traktor	a tractor	WN	3					n
-en mølle	a mill	WN	3					n
-et fyrtårn	a lighthouse	TS	4					n
-en kaj	a quay / dock	TT	3					n
-en mole	a pier	TT	4					n
-en robåd	a rowboat	TT	3					n
-en sejlbåd	a sailboat	TT	2					n
-en kano	a canoe	TT	3					n
-et anker	an anchor	TT	3					n
-en redningsvest	a life jacket	TT	3					n
-en maskine	a machine	TM	2					n
-et apparat	a device / appliance	HH	3					n
-et stik	a plug / sting	HH	3					n
-en sikring	a fuse	HH	4					n
-en måler	a meter / gauge	WJ	4					n
-et termometer	a thermometer	HH	3					n
-en kikkert	a pair of binoculars	FS	3					n
-en lup	a magnifying glass	FS	4					n
-en globus	a globe	SL	3					n
-en rulletrappe	an escalator	TS	3					n
+en sut	a pacifier	PF	3					n	sutten|sutter	the pacifier|pacifiers
+en sutteflaske	a baby bottle	PF	3					n	sutteflasken|sutteflasker	the baby bottle|baby bottles
+en hagesmæk	a bib	PF	4					n	hagesmækken|hagesmække	the bib|bibs
+en autostol	a car seat	TT	3					n	autostolen|autostole	the car seat|car seats
+en cykellås	a bike lock	TT	2					n	cykellåsen|cykellåse	the bike lock|bike locks
+en cykelpumpe	a bike pump	TT	3					n	cykelpumpen|cykelpumper	the bike pump|bike pumps
+en punktering	a flat tire / puncture	TT	3					n	punkteringen|punkteringer	the flat tire / the puncture|flat tires / punctures
+en lygte	a light / lamp (bike, street)	TT	3					n	lygten|lygter	the light / the lamp (bike, street)|lights / lamps (bike, street)
+en gadelygte	a streetlight	TS	3					n	gadelygten|gadelygter	the streetlight|streetlights
+en kantsten	a curb	TS	4					n	kantstenen|kantstene	the curb|curbs
+et højhus	a high-rise	TS	2					n	højhuset|højhuse	the high-rise|high-rises
+en skyskraber	a skyscraper	TS	3					n	skyskraberen|skyskrabere	the skyscraper|skyscrapers
+en boligblok	an apartment block	TS	3					n	boligblokken|boligblokke	the apartment block|apartment blocks
+en fabrik	a factory	MB	2					n	fabrikken|fabrikker	the factory|factories
+et værksted	a workshop / garage	WJ	2					n	værkstedet|værksteder	the workshop / the garage|workshops / garages
+en gård	a farm / courtyard	WN	2					n	gården|gårde	the farm / the courtyard|farms / courtyards
+en baggård	a backyard	HH	3					n	baggården|baggårde	the backyard|backyards
+en lade	a barn	WN	3					n	laden|lad	the barn|barns
+en traktor	a tractor	WN	3					n	traktoren|traktorer	the tractor|tractors
+en mølle	a mill	WN	3					n	møllen|møller	the mill|mills
+et fyrtårn	a lighthouse	TS	4					n	fyrtårnet|fyrtårne	the lighthouse|lighthouses
+en kaj	a quay / dock	TT	3					n	kajen|kajer	the quay / the dock|quays / docks
+en mole	a pier	TT	4					n	molen|moler	the pier|piers
+en robåd	a rowboat	TT	3					n	robåden|robåde	the rowboat|rowboats
+en sejlbåd	a sailboat	TT	2					n	sejlbåden|sejlbåde	the sailboat|sailboats
+en kano	a canoe	TT	3					n	kanoen|kanoer	the canoe|canoes
+et anker	an anchor	TT	3					n	ankret|ankre	the anchor|anchors
+en redningsvest	a life jacket	TT	3					n	redningsvesten|redningsveste	the life jacket|life jackets
+en maskine	a machine	TM	2					n	maskinen|maskiner	the machine|machines
+et apparat	a device / appliance	HH	3					n	apparatet|apparater	the device / the appliance|devices / appliances
+et stik	a plug / sting	HH	3					n	stikket	the plug / the sting
+en sikring	a fuse	HH	4					n	sikringen|sikringer	the fuse|fuses
+en måler	a meter / gauge	WJ	4					n	måleren|målere	the meter / the gauge|meters / gauges
+et termometer	a thermometer	HH	3					n	termometret|termometre	the thermometer|thermometers
+en kikkert	a pair of binoculars	FS	3					n	kikkerten|kikkerter	the pair of binoculars|pairs of binoculars
+en lup	a magnifying glass	FS	4					n	luppen	the magnifying glass
+en globus	a globe	SL	3					n	globussen|globusser	the globe|globes
+en rulletrappe	an escalator	TS	3					n	rulletrappen|rulletrapper	the escalator|escalators
 en ende	an end		2					n
-en inderside	an inside		3					n
-en yderside	an outside		3					n
-en række	a row / series		2					n
-en bunke	a pile		3					n
-en stak	a stack		3					n
-en klump	a lump		3					n
-en oversigt	an overview	SL	3					n
-en tabel	a table (chart)	SL	3					n
-et diagram	a chart / diagram	SL	3					n
-en plet	a stain / spot		2					n
-en revne	a crack		4					n
-en ridse	a scratch		3					n
-en bule	a dent / bump		3					n
-en fold	a fold		4					n
-en knude	a knot	HH	3					n
-en løkke	a loop		4					n
-en spiral	a spiral		3					n
-et ekko	an echo		3					n
-en stank	a stench		3					n
-mørke	darkness	WN	2		et			n
-damp	steam	WN	3		en			n
-røg	smoke	WN	2		en			n
-en gnist	a spark	WN	4					n
-en nødudgang	an emergency exit	HH	3					n
-en brandalarm	a fire alarm	HH	3					n
-en brandslukker	a fire extinguisher	HH	3					n
-førstehjælp	first aid	BH	3		en			n
-et alarmnummer	an emergency number	TS	3					n
-et center	a center		2					n
-en gruppe	a group		1					n
-guld	gold	WN	2		et			n
-hjælp	help		1		en			n
-et pulver	a powder		3					n
-et råd	a piece of advice	IO	2					n
-en byggeplads	a construction site	TS	3					n
-en kran	a crane	TS	4					n
-et stillads	a scaffolding	TS	4					n
-en gravko	an excavator	TS	4					n
-en alarmklokke	an alarm bell	HH	4					n
-stor	big		1					a
-lille	small		1					a
-lang	long		1					a
-kort	short		1					a
-høj	tall / high		1					a
-lav	low		1					a
-tyk	thick / fat		1					a
-tynd	thin		1					a
-bred	wide		2					a
-smal	narrow		2					a
-dyb	deep		2					a
-ny	new		1					a
-gammel	old		1					a
-ung	young		1					a
-god	good		1					a
-dårlig	bad		1					a
-rigtig	correct / real		1					a
+en inderside	an inside		3					n	indersiden|indersider	the inside|insides
+en yderside	an outside		3					n	ydersiden|ydersider	the outside|outsides
+en række	a row / series		2					n	rækken|rækker	the row / the series|rows / series
+en bunke	a pile		3					n	bunken|bunker	the pile|piles
+en stak	a stack		3					n	stakken|stakke	the stack|stacks
+en klump	a lump		3					n	klumpen|klumper	the lump|lumps
+en oversigt	an overview	SL	3					n	oversigten|oversigter	the overview|overviews
+en tabel	a table (chart)	SL	3					n	tabellen|tabeller	the table (chart)|tables (chart)
+et diagram	a chart / diagram	SL	3					n	diagrammet|diagrammer	the chart / the diagram|charts / diagrams
+en plet	a stain / spot		2					n	pletten|pletter	the stain / the spot|stains / spots
+en revne	a crack		4					n	revnen|revner	the crack|cracks
+en ridse	a scratch		3					n	ridsen|ridser	the scratch|scratches
+en bule	a dent / bump		3					n	bulen|buler	the dent / the bump|dents / bumps
+en fold	a fold		4					n	folden|folde	the fold|folds
+en knude	a knot	HH	3					n	knuden|knuder	the knot|knots
+en løkke	a loop		4					n	løkken|løkker	the loop|loops
+en spiral	a spiral		3					n	spiralen|spiraler	the spiral|spirals
+et ekko	an echo		3					n	ekkoet|ekkoer	the echo|echoes
+en stank	a stench		3					n	stanken|stanke	the stench|stenches
+mørke	darkness	WN	2		et			n	mørket	the darkness
+damp	steam	WN	3		en			n	dampen	the steam
+røg	smoke	WN	2		en			n	røgen	the smoke
+en gnist	a spark	WN	4					n	gnisten|gnister	the spark|sparks
+en nødudgang	an emergency exit	HH	3					n	nødudgangen|nødudgange	the emergency exit|emergency exits
+en brandalarm	a fire alarm	HH	3					n	brandalarmen|brandalarmer	the fire alarm|fire alarms
+en brandslukker	a fire extinguisher	HH	3					n	brandslukkeren|brandslukkere	the fire extinguisher|fire extinguishers
+førstehjælp	first aid	BH	3		en			n	førstehjælpen	the first aid
+et alarmnummer	an emergency number	TS	3					n	alarmnummeret|alarmnumre	the emergency number|emergency numbers
+et center	a center		2					n	centret|centre	the center|centers
+en gruppe	a group		1					n	gruppen|grupper	the group|groups
+guld	gold	WN	2		et			n	guldet	the gold
+hjælp	help		1		en			n	hjælpen	the help
+et pulver	a powder		3					n	pulveret|pulvere	the powder|powders
+et råd	a piece of advice	IO	2					n	rådet	the piece of advice
+en byggeplads	a construction site	TS	3					n	byggepladsen|byggepladser	the construction site|construction sites
+en kran	a crane	TS	4					n	kranen|kraner	the crane|cranes
+et stillads	a scaffolding	TS	4					n	stilladset|stilladser	the scaffolding|scaffoldings
+en gravko	an excavator	TS	4					n	gravkoen|gravkøer	the excavator|excavators
+en alarmklokke	an alarm bell	HH	4					n	alarmklokken|alarmklokker	the alarm bell|alarm bells
+stor	big		1					a	større|størst	bigger|biggest
+lille	small		1					a	mindre|mindst	smaller|smallest
+lang	long		1					a	længere|længst	longer|longest
+kort	short		1					a	kortere|kortest	shorter|shortest
+høj	tall / high		1					a	højere|højest	taller / higher|tallest / highest
+lav	low		1					a	lavere|lavest	lower|lowest
+tyk	thick / fat		1					a	tykkere|tykkest	thicker / fatter|thickest / fattest
+tynd	thin		1					a	tyndere|tyndest	thinner|thinnest
+bred	wide		2					a	bredere|bredest	wider|widest
+smal	narrow		2					a	smallere|smallest	narrower|narrowest
+dyb	deep		2					a	dybere|dybest	deeper|deepest
+ny	new		1					a	nyere|nyest	newer|newest
+gammel	old		1					a	ældre|ældst	older|oldest
+ung	young		1					a	yngre|yngst	younger|youngest
+god	good		1					a	bedre|bedst	better|best
+dårlig	bad		1					a	dårligere|dårligst	worse|worst
+rigtig	correct / real		1					a	rigtigere|rigtigst	more correct / realer|most correct / realest
 forkert	wrong		1					a
-let	easy / light		1					a
-svær	difficult		1					a
-tung	heavy		1					a
-hurtig	fast		1					a
-langsom	slow		1					a
-varm	warm		1					a
-kold	cold		1					a
-tør	dry		1					a
-våd	wet		1					a
-ren	clean		1					a
+let	easy / light		1					a	lettere|lettest	easier / lighter|easiest / lightest
+svær	difficult		1					a	sværere|sværest	more difficult|most difficult
+tung	heavy		1					a	tungere|tungest	heavier|heaviest
+hurtig	fast		1					a	hurtigere|hurtigst	faster|fastest
+langsom	slow		1					a	langsommere|langsomst	slower|slowest
+varm	warm		1					a	varmere|varmest	warmer|warmest
+kold	cold		1					a	koldere|koldest	colder|coldest
+tør	dry		1					a	tørrere|tørrest	dryer|dryest
+våd	wet		1					a	vådere|vådest	wetter|wettest
+ren	clean		1					a	renere|renest	cleaner|cleanest
 beskidt	dirty		1					a
-smuk	beautiful		1					a
-grim	ugly		1					a
-pæn	nice / neat		1					a
-sød	sweet / cute		1					a
-sur	sour / grumpy		1					a
-bitter	bitter	FD	2					a
-rig	rich	MB	1					a
-fattig	poor	MB	1					a
-dyr	expensive	MB	1					a
-billig	cheap	MB	1					a
-fri	free		1					a
+smuk	beautiful		1					a	smukkere|smukkest	more beautiful|most beautiful
+grim	ugly		1					a	grimmere|grimmest	uglier|ugliest
+pæn	nice / neat		1					a	pænere|pænest	nicer / neater|nicest / neatest
+sød	sweet / cute		1					a	sødere|sødest	sweeter / cuter|sweetest / cutest
+sur	sour / grumpy		1					a	surere|surest	sourer / grumpier|sourest / grumpiest
+bitter	bitter	FD	2					a	bitrere|bitrest	more bitter|most bitter
+rig	rich	MB	1					a	rigere|rigest	richer|richest
+fattig	poor	MB	1					a	fattigere|fattigst	poorer|poorest
+dyr	expensive	MB	1					a	dyrere|dyrest	more expensive|most expensive
+billig	cheap	MB	1					a	billigere|billigst	cheaper|cheapest
+fri	free		1					a	friere|friest	freer|freest
 optaget	busy / occupied		1					a
-træt	tired	BH	1					a
+træt	tired	BH	1					a	trættere|trættest	more tired|most tired
 vågen	awake	BH	2					a
 sulten	hungry	FD	1					a
-tørstig	thirsty	FD	1					a
-mæt	full / satisfied	FD	1					a
-syg	sick	BH	1					a
-rask	healthy / recovered	BH	2					a
-stærk	strong		1					a
-svag	weak		2					a
-glad	happy	FP	1					a
+tørstig	thirsty	FD	1					a	tørstigere|tørstigst	thirstier|thirstiest
+mæt	full / satisfied	FD	1					a	mættere|mættest	fuller / more satisfied|fullest / most satisfied
+syg	sick	BH	1					a	sygere|sygest	sicker|sickest
+rask	healthy / recovered	BH	2					a	raskere|raskest	healthier / more recovered|healthiest / most recovered
+stærk	strong		1					a	stærkere|stærkest	stronger|strongest
+svag	weak		2					a	svagere|svagest	weaker|weakest
+glad	happy	FP	1					a	gladere|gladest	happier|happiest
 ked af det	sad	FP	2					f
-vred	angry	FP	1					a
+vred	angry	FP	1					a	vredere|vredest	angrier|angriest
 bange	afraid	FP	1					a
-nervøs	nervous	FP	2					a
-rolig	calm	FP	1					a
+nervøs	nervous	FP	2					a	nervøsere|nervøsest	more nervous|most nervous
+rolig	calm	FP	1					a	roligere|roligst	calmer|calmest
 stille	quiet		1					a
 højlydt	loud		2					a
-venlig	kind / friendly	FP	1					a
-uhøflig	rude	FP	2					a
-ærlig	honest	FP	2					a
-utrolig	unbelievable		2					a
-sikker	sure / safe		1					a
-usikker	unsure		2					a
-vigtig	important		1					a
+venlig	kind / friendly	FP	1					a	venligere|venligst	kinder / friendlier|kindest / friendliest
+uhøflig	rude	FP	2					a	uhøfligere|uhøfligst	ruder|rudest
+ærlig	honest	FP	2					a	ærligere|ærligst	more honest|most honest
+utrolig	unbelievable		2					a	utroligere|utroligst	more unbelievable|most unbelievable
+sikker	sure / safe		1					a	sikrere|sikrest	surer / safer|surest / safest
+usikker	unsure		2					a	usikrere|usikrest	more unsure|most unsure
+vigtig	important		1					a	vigtigere|vigtigst	more important|most important
 interessant	interesting		1					a
-kedelig	boring		1					a
-sjov	fun		1					a
-morsom	funny / amusing		2					a
-alvorlig	serious		2					a
-enkel	simple		2					a
+kedelig	boring		1					a	kedeligere|kedeligst	more boring|most boring
+sjov	fun		1					a	sjovere|sjovest	funner|funnest
+morsom	funny / amusing		2					a	morsommere|morsomst	funnier / more amusing|funniest / most amusing
+alvorlig	serious		2					a	alvorligere|alvorligst	more serious|most serious
+enkel	simple		2					a	enklere|enklest	simpler|simplest
 kompliceret	complicated		2					a
-klar	ready / clear		1					a
+klar	ready / clear		1					a	klarere|klarest	readier / clearer|readiest / clearest
 færdig	finished / done		1					a
 åben	open		1					a
 lukket	closed		1					a
-tom	empty		1					a
-fuld	full		1					a
-mørk	dark	CO	1					a
-lys	light / bright	CO	1					a
-farverig	colorful	CO	2					a
-hvid	white	CO	1					a
-sort	black	CO	1					a
-rød	red	CO	1					a
+tom	empty		1					a	tommere|tommest	emptier|emptiest
+fuld	full		1					a	fuldere|fuldest	fuller|fullest
+mørk	dark	CO	1					a	mørkere|mørkest	darker|darkest
+lys	light / bright	CO	1					a	lysere|lysest	lighter / brighter|lightest / brightest
+farverig	colorful	CO	2					a	farverigere|farverigest	more colorful|most colorful
+hvid	white	CO	1					a	hvidere|hvidest	whiter|whitest
+sort	black	CO	1					a	sortere|sortest	blacker|blackest
+rød	red	CO	1					a	rødere|rødest	redder|reddest
 blå	blue	CO	1					a
-grøn	green	CO	1					a
-gul	yellow	CO	1					a
+grøn	green	CO	1					a	grønnere|grønnest	greener|greenest
+gul	yellow	CO	1					a	gulere|gulest	yellower|yellowest
 grå	gray	CO	1					a
-brun	brown	CO	1					a
+brun	brown	CO	1					a	brunere|brunest	browner|brownest
 lige	straight / equal		1					a
-skæv	crooked		3					a
-flot	handsome / nice-looking		1					a
+skæv	crooked		3					a	skævere|skævest	more crooked|most crooked
+flot	handsome / nice-looking		1					a	flottere|flottest	more handsome / more nice-looking|most handsome / most nice-looking
 fantastisk	fantastic		1					a
-forfærdelig	terrible		2					a
-heldig	lucky		1					a
-uheldig	unlucky		2					a
-populær	popular		2					a
+forfærdelig	terrible		2					a	forfærdeligere|forfærdeligst	more terrible|most terrible
+heldig	lucky		1					a	heldigere|heldigst	luckier|luckiest
+uheldig	unlucky		2					a	uheldigere|uheldigst	more unlucky|most unlucky
+populær	popular		2					a	populærere|populærest	more popular|most popular
 berømt	famous		2					a
 ukendt	unknown		2					a
-speciel	special		2					a
+speciel	special		2					a	speciellere|speciellest	more special|most special
 normal	normal		1					a
-mærkelig	strange		2					a
+mærkelig	strange		2					a	mærkeligere|mærkeligst	stranger|strangest
 typisk	typical		2					a
-nødvendig	necessary		2					a
+nødvendig	necessary		2					a	nødvendigere|nødvendigst	more necessary|most necessary
 passende	suitable		2					a
 praktisk	practical		2					a
 moderne	modern		2					a
 gammeldags	old-fashioned		2					a
 orange	orange	CO	1					a
 lilla	purple	CO	1					a
-lyserød	pink	CO	1					a
+lyserød	pink	CO	1					a	lyserødere|lyserødest	pinker|pinkest
 lyseblå	light blue	CO	2					a
 mørkeblå	dark blue	CO	2					a
-rund	round	CO	2					a
+rund	round	CO	2					a	rundere|rundest	rounder|roundest
 firkantet	square-shaped	CO	2					a
 stribet	striped	CS	2					a
 ternet	checkered / plaid	CS	3					a
 ensfarvet	solid-colored	CS	3					a
-betydelig	significant		3					a
-tilstrækkelig	sufficient		3					a
+betydelig	significant		3					a	betydeligere|betydeligst	more significant|most significant
+tilstrækkelig	sufficient		3					a	tilstrækkeligere|tilstrækkeligst	more sufficient|most sufficient
 upassende	inappropriate		3					a
-rimelig	reasonable		2					a
-urimelig	unreasonable		4					a
-effektiv	efficient		3					a
-ineffektiv	inefficient		4					a
-kompleks	complex		3					a
-tydelig	clear		2					a
-utydelig	unclear		3					a
+rimelig	reasonable		2					a	rimeligere|rimeligst	more reasonable|most reasonable
+urimelig	unreasonable		4					a	urimeligere|urimeligst	more unreasonable|most unreasonable
+effektiv	efficient		3					a	effektivere|effektivest	more efficient|most efficient
+ineffektiv	inefficient		4					a	ineffektivere|ineffektivest	more inefficient|most inefficient
+kompleks	complex		3					a	kompleksere|kompleksest	more complex|most complex
+tydelig	clear		2					a	tydeligere|tydeligst	clearer|clearest
+utydelig	unclear		3					a	utydeligere|utydeligst	more unclear|most unclear
 konkret	concrete		3					a
 abstrakt	abstract		3					a
 åbenlys	obvious		3					a
-uundgåelig	inevitable		4					a
+uundgåelig	inevitable		4					a	uundgåeligere|uundgåeligst	more inevitable|most inevitable
 afgørende	decisive		3					a
-unødvendig	unnecessary		3					a
+unødvendig	unnecessary		3					a	unødvendigere|unødvendigst	more unnecessary|most unnecessary
 frivillig	voluntary		3					a
 obligatorisk	mandatory		3					a
-midlertidig	temporary		3					a
+midlertidig	temporary		3					a	midlertidigere|midlertidigst	more temporary|most temporary
 permanent	permanent		3					a
 konstant	constant		2					a
-stabil	stable		3					a
-ustabil	unstable		3					a
-tålmodig	patient	FP	2					a
-utålmodig	impatient	FP	3					a
-uærlig	dishonest	FP	3					a
-mistænksom	suspicious	FP	3					a
-naiv	naive	FP	3					a
-fordomsfri	unbiased		4					a
-fordomsfuld	prejudiced		4					a
-solid	solid		3					a
-skrøbelig	fragile		3					a
-holdbar	durable		3					a
+stabil	stable		3					a	stabilere|stabilest	more stable|most stable
+ustabil	unstable		3					a	ustabilere|ustabilest	more unstable|most unstable
+tålmodig	patient	FP	2					a	tålmodigere|tålmodigst	more patient|most patient
+utålmodig	impatient	FP	3					a	utålmodigere|utålmodigst	more impatient|most impatient
+uærlig	dishonest	FP	3					a	uærligere|uærligst	more dishonest|most dishonest
+mistænksom	suspicious	FP	3					a	mistænksommere|mistænksomst	more suspicious|most suspicious
+naiv	naive	FP	3					a	naivere|naivest	naiver|naivest
+fordomsfri	unbiased		4					a	fordomsfriere|fordomsfriest	more unbiased|most unbiased
+fordomsfuld	prejudiced		4					a	fordomsfuldere|fordomsfuldest	more prejudiced|most prejudiced
+solid	solid		3					a	solidere|solidest	more solid|most solid
+skrøbelig	fragile		3					a	skrøbeligere|skrøbeligst	more fragile|most fragile
+holdbar	durable		3					a	holdbarere|holdbarest	more durable|most durable
 slidt	worn		3					a
 intakt	intact		3					a
 beskadiget	damaged		3					a
 defekt	defective		3					a
-fejlfri	flawless		4					a
-original	original		3					a
+fejlfri	flawless		4					a	fejlfriere|fejlfriest	more flawless|most flawless
+original	original		3					a	originalere|originalest	more original|most original
 ægte	genuine		2					a
-falsk	fake		2					a
+falsk	fake		2					a	falskere|falskest	faker|fakest
 autentisk	authentic		4					a
 tidssvarende	up to date		4					a
 forældet	outdated		3					a
-upopulær	unpopular		3					a
-almindelig	ordinary		2					a
-usædvanlig	unusual		3					a
-ekstraordinær	extraordinary		4					a
-bemærkelsesværdig	remarkable		4					a
-ubetydelig	insignificant		4					a
+upopulær	unpopular		3					a	upopulærere|upopulærest	more unpopular|most unpopular
+almindelig	ordinary		2					a	almindeligere|almindeligst	more ordinary|most ordinary
+usædvanlig	unusual		3					a	usædvanligere|usædvanligst	more unusual|most unusual
+ekstraordinær	extraordinary		4					a	ekstraordinærere|ekstraordinærest	more extraordinary|most extraordinary
+bemærkelsesværdig	remarkable		4					a	bemærkelsesværdigere|bemærkelsesværdigst	more remarkable|most remarkable
+ubetydelig	insignificant		4					a	ubetydeligere|ubetydeligst	more insignificant|most insignificant
 relevant	relevant		3					a
 irrelevant	irrelevant		3					a
 hel	whole / entire		2					a
 samme	same		1					a
-tæt	close / tight		2					a
+tæt	close / tight		2					a	tættere|tættest	closer / tighter|closest / tightest
 død	dead		1					a
 egen	own		2					a
-dum	stupid		1					a
-rar	nice / kind		2					a
-tidlig	early	TC	2					a
+dum	stupid		1					a	dummere|dummest	more stupid|most stupid
+rar	nice / kind		2					a	rarere|rarest	nicer / kinder|nicest / kindest
+tidlig	early	TC	2					a	tidligere|tidligst	earlier|earliest
 værre	worse		2					a
 værd	worth		2					a
-kær	dear		2					a
+kær	dear		2					a	kærere|kærest	dearer|dearest
 anderledes	different		2					a
-travl	busy		1					a
+travl	busy		1					a	travlere|travlest	busier|busiest
 skidt	bad / crappy		2					a
-skør	crazy		2					a
-gal	mad / crazy / wrong		2					a
-fed	fat / cool		2					a
+skør	crazy		2					a	skørere|skørest	crazier|craziest
+gal	mad / crazy / wrong		2					a	galere|galest	madder / crazier / wronger|maddest / craziest / wrongest
+fed	fat / cool		2					a	federe|fedest	fatter / cooler|fattest / coolest
 levende	alive / living		2					a
 ødelagt	broken / ruined		2					a
-løs	loose		2					a
+løs	loose		2					a	løsere|løsest	looser|loosest
 forskellig	different		2					a
-enig	in agreement		2					a
+enig	in agreement		2					a	enigere|enigst	more in agreement|most in agreement
 interesseret	interested		2					a
-særlig	special / particular		2					a
+særlig	special / particular		2					a	særligere|særligst	more special / more particular|most special / most particular
 såret	hurt / wounded	BH	2					a
 parat	ready		2					a
-dygtig	skilled / capable		2					a
-smart	smart		2					a
+dygtig	skilled / capable		2					a	dygtigere|dygtigst	more skilled / more capable|most skilled / most capable
+smart	smart		2					a	smartere|smartest	smarter|smartest
 fyldt	full / filled		2					a
 ældre	older / elderly		1					a
-sindssyg	insane		3					a
-sej	tough / cool		2					a
-frisk	fresh		1					a
+sindssyg	insane		3					a	sindssygere|sindssygest	more insane|most insane
+sej	tough / cool		2					a	sejere|sejest	tougher / cooler|toughest / coolest
+frisk	fresh		1					a	friskere|friskest	fresher|freshest
 korrekt	correct		2					a
-skyldig	guilty	SP	2					a
-uskyldig	innocent	SP	2					a
-lokal	local		2					a
+skyldig	guilty	SP	2					a	skyldigere|skyldigst	guiltier|guiltiest
+uskyldig	innocent	SP	2					a	uskyldigere|uskyldigst	more innocent|most innocent
+lokal	local		2					a	lokalere|lokalest	more local|most local
 privat	private		2					a
 tosset	silly / crazy		2					a
-tilfreds	satisfied / content	FP	2					a
+tilfreds	satisfied / content	FP	2					a	tilfredsere|tilfredsest	more satisfied / more content|most satisfied / most content
 involveret	involved		2					a
 forvirret	confused	FP	2					a
-blind	blind		2					a
+blind	blind		2					a	blindere|blindest	blinder|blindest
 fælles	common / shared		2					a
 sexet	sexy		2					a
 imponerende	impressive		2					a
-latterlig	ridiculous		3					a
-personlig	personal		2					a
+latterlig	ridiculous		3					a	latterligere|latterligst	more ridiculous|most ridiculous
+personlig	personal		2					a	personligere|personligst	more personal|most personal
 uskadt	unhurt		3					a
-vidunderlig	wonderful		2					a
+vidunderlig	wonderful		2					a	vidunderligere|vidunderligst	more wonderful|most wonderful
 nøgen	naked		2					a
-ligegyldig	indifferent / unimportant		2					a
+ligegyldig	indifferent / unimportant		2					a	ligegyldigere|ligegyldigst	more indifferent / more unimportant|most indifferent / most unimportant
 teknisk	technical		2					a
-hemmelig	secret		2					a
-frygtelig	terrible		2					a
+hemmelig	secret		2					a	hemmeligere|hemmeligst	more secret|most secret
+frygtelig	terrible		2					a	frygteligere|frygteligst	more terrible|most terrible
 romantisk	romantic	FP	2					a
-flink	kind / nice	FP	2					a
-villig	willing		2					a
+flink	kind / nice	FP	2					a	flinkere|flinkest	kinder / nicer|kindest / nicest
+villig	willing		2					a	villigere|villigst	more willing|most willing
 indre	inner		3					a
 mistænkt	suspected		3					a
 glimrende	excellent		2					a
@@ -3298,34 +3301,34 @@ yngre	younger		2					a
 stakkels	poor (pitiful)		2					a
 fysisk	physical		2					a
 professionel	professional		2					a
-simpel	simple		2					a
+simpel	simple		2					a	simplere|simplest	simpler|simplest
 strålende	brilliant / radiant		3					a
 udsat	exposed / postponed		3					a
 menneskelig	human		3					a
 fjollet	silly		3					a
-elendig	miserable / terrible		3					a
+elendig	miserable / terrible		3					a	elendigere|elendigst	more miserable / more terrible|most miserable / most terrible
 bevæbnet	armed	SP	3					a
-kriminel	criminal	SP	3					a
-sædvanlig	usual		3					a
-ordentlig	proper / decent		3					a
+kriminel	criminal	SP	3					a	kriminellere|kriminellest	more criminal|most criminal
+sædvanlig	usual		3					a	sædvanligere|sædvanligst	more usual|most usual
+ordentlig	proper / decent		3					a	ordentligere|ordentligst	more proper / more decent|most proper / most decent
 modsat	opposite		3					a
-ulækker	disgusting		2					a
+ulækker	disgusting		2					a	ulækrere|ulækrest	more disgusting|most disgusting
 magisk	magical		3					a
 ældst	oldest		2					a
 fortabt	lost		3					a
-blød	soft		2					a
+blød	soft		2					a	blødere|blødest	softer|softest
 kommende	upcoming / future		3					a
-naturlig	natural		2					a
-klam	gross / clammy		3					a
+naturlig	natural		2					a	naturligere|naturligst	more natural|most natural
+klam	gross / clammy		3					a	klammere|klammest	grosser / clammier|grossest / clammiest
 nuværende	current / present		2					a
-civil	civilian / civil		3					a
+civil	civilian / civil		3					a	civilere|civilest	more civilian / more civil|most civilian / most civil
 central	central		3					a
-nøjagtig	exact / accurate		3					a
-aktiv	active		2					a
-nyttig	useful		2					a
+nøjagtig	exact / accurate		3					a	nøjagtigere|nøjagtigst	more exact / more accurate|most exact / most accurate
+aktiv	active		2					a	aktivere|aktivest	more active|most active
+nyttig	useful		2					a	nyttigere|nyttigst	more useful|most useful
 siddende	sitting / seated		3					a
-uhyggelig	creepy / scary		3					a
-genial	brilliant		3					a
+uhyggelig	creepy / scary		3					a	uhyggeligere|uhyggeligst	creepier / scarier|creepiest / scariest
+genial	brilliant		3					a	genialere|genialest	more brilliant|most brilliant
 følgende	following		3					a
 mystisk	mysterious		3					a
 afhængig	dependent / addicted		3					a
@@ -3333,104 +3336,104 @@ total	total		3					a
 fascinerende	fascinating		3					a
 enorm	enormous		3					a
 enestående	unique / outstanding		3					a
-kvik	quick / bright		3					a
+kvik	quick / bright		3					a	kvikkere|kvikkest	quicker / brighter|quickest / brightest
 ædru	sober	BH	3					a
-komplet	complete		3					a
-evig	eternal		3					a
-flad	flat		2					a
-opmærksom	attentive / aware		3					a
+komplet	complete		3					a	komplettere|komplettest	more complete|most complete
+evig	eternal		3					a	evigere|evigst	more eternal|most eternal
+flad	flat		2					a	fladere|fladest	flatter|flattest
+opmærksom	attentive / aware		3					a	opmærksommere|opmærksomst	more attentive / more aware|most attentive / most aware
 manglende	missing / lacking		3					a
 overraskende	surprising		2					a
 intelligent	intelligent		2					a
 ydre	outer / exterior		3					a
-offentlig	public		2					a
+offentlig	public		2					a	offentligere|offentligst	more public|most public
 storartet	magnificent		3					a
 afdød	deceased		4					a
 negativ	negative		2					a
 diskret	discreet		3					a
-åndssvag	idiotic		3					a
+åndssvag	idiotic		3					a	åndssvagere|åndssvagest	more idiotic|most idiotic
 tragisk	tragic		3					a
 nuttet	cute		2					a
-mægtig	mighty / powerful		3					a
+mægtig	mighty / powerful		3					a	mægtigere|mægtigst	mightier / more powerful|mightiest / most powerful
 spærret	blocked / closed		3					a
-ledig	vacant / available / unemployed		3					a
-usynlig	invisible		3					a
-retfærdig	fair / just		3					a
-positiv	positive		2					a
-sandsynlig	probable / likely		3					a
+ledig	vacant / available / unemployed		3					a	ledigere|ledigst	more vacant / more available / more unemployed|most vacant / most available / most unemployed
+usynlig	invisible		3					a	usynligere|usynligst	more invisible|most invisible
+retfærdig	fair / just		3					a	retfærdigere|retfærdigst	fairer / juster|fairest / justest
+positiv	positive		2					a	positivere|positivest	more positive|most positive
+sandsynlig	probable / likely		3					a	sandsynligere|sandsynligst	more probable / more likely|most probable / most likely
 gylden	golden	CO	3					a
 uventet	unexpected		2					a
 indviklet	complicated		3					a
-voldsom	violent / intense		3					a
+voldsom	violent / intense		3					a	voldsommere|voldsomst	more violent / more intense|most violent / most intense
 risikabel	risky		3					a
 overordnet	superior / overall		3					a
-værdig	worthy / dignified		3					a
+værdig	worthy / dignified		3					a	værdigere|værdigst	worthier / more dignified|worthiest / most dignified
 registreret	registered		3					a
-dødelig	deadly / mortal		3					a
-voldelig	violent		3					a
-oprindelig	original		3					a
+dødelig	deadly / mortal		3					a	dødeligere|dødeligst	deadlier / more mortal|deadliest / most mortal
+voldelig	violent		3					a	voldeligere|voldeligst	more violent|most violent
+oprindelig	original		3					a	oprindeligere|oprindeligst	more original|most original
 overbevisende	convincing		3					a
-uenig	in disagreement		2					a
+uenig	in disagreement		2					a	uenigere|uenigst	more in disagreement|most in disagreement
 begrænset	limited		3					a
 udelukket	ruled out / excluded		3					a
 ironisk	ironic		3					a
-stiv	stiff		3					a
-pragtfuld	splendid		3					a
+stiv	stiff		3					a	stivere|stivest	stiffer|stiffest
+pragtfuld	splendid		3					a	pragtfuldere|pragtfuldest	more splendid|most splendid
 lovende	promising		3					a
 standard	standard		3					a
-ubehagelig	unpleasant		2					a
+ubehagelig	unpleasant		2					a	ubehageligere|ubehageligst	more unpleasant|most unpleasant
 omgivet	surrounded		3					a
 bevidst	conscious / deliberate		3					a
 forrige	previous / last		2					a
-behagelig	comfortable / pleasant		2					a
+behagelig	comfortable / pleasant		2					a	behageligere|behageligst	more comfortable / more pleasant|most comfortable / most pleasant
 forgiftet	poisoned	BH	3					a
 absurd	absurd		3					a
 adskilt	separated		3					a
-skarp	sharp		2					a
-grov	coarse / rude / gross		3					a
-stram	tight		3					a
-ynkelig	pathetic		4					a
-barsk	harsh		4					a
-værdifuld	valuable		3					a
-global	global		3					a
+skarp	sharp		2					a	skarpere|skarpest	sharper|sharpest
+grov	coarse / rude / gross		3					a	grovere|grovest	coarser / ruder / grosser|coarsest / rudest / grossest
+stram	tight		3					a	strammere|strammest	tighter|tightest
+ynkelig	pathetic		4					a	ynkeligere|ynkeligst	more pathetic|most pathetic
+barsk	harsh		4					a	barskere|barskest	harsher|harshest
+værdifuld	valuable		3					a	værdifuldere|værdifuldest	more valuable|most valuable
+global	global		3					a	globalere|globalest	more global|most global
 forvirrende	confusing		3					a
 æret	honored / dear		4					a
 elegant	elegant		3					a
 kritisk	critical		3					a
 informeret	informed		3					a
 dramatisk	dramatic		3					a
-kraftig	strong / powerful / heavy		3					a
+kraftig	strong / powerful / heavy		3					a	kraftigere|kraftigst	stronger / more powerful / heavier|strongest / most powerful / heaviest
 yngst	youngest		2					a
-køn	pretty		2					a
+køn	pretty		2					a	kønnere|kønnest	prettier|prettiest
 misforstået	misunderstood		3					a
 forbløffende	astonishing		3					a
 avanceret	advanced		3					a
 magtfuld	powerful		3					a
-fremtidig	future	TC	4					a
+fremtidig	future	TC	4					a	fremtidigere|fremtidigst	more future|most future
 indlysende	obvious		3					a
 isoleret	isolated		3					a
-vanskelig	difficult		3					a
+vanskelig	difficult		3					a	vanskeligere|vanskeligst	more difficult|most difficult
 unik	unique		3					a
 såkaldt	so-called		3					a
 sølle	measly / pathetic		4					a
 placeret	placed / located		3					a
 foruroligende	disturbing / alarming		3					a
-ufattelig	incredible / inconceivable		4					a
-meningsløs	meaningless		3					a
+ufattelig	incredible / inconceivable		4					a	ufatteligere|ufatteligst	more incredible / more inconceivable|most incredible / most inconceivable
+meningsløs	meaningless		3					a	meningsløsere|meningsløsest	more meaningless|most meaningless
 fuldført	completed		3					a
 grundlæggende	basic / fundamentally		3					a
-tavs	silent		3					a
-pervers	perverted		4					a
-plat	vulgar / cheesy		4					a
+tavs	silent		3					a	tavsere|tavsest	more silent|most silent
+pervers	perverted		4					a	perversere|perversest	more perverted|most perverted
+plat	vulgar / cheesy		4					a	plattere|plattest	more vulgar / cheesier|most vulgar / cheesiest
 storslået	grand / magnificent		3					a
 tiltrækkende	attractive		3					a
 intern	internal		3					a
 blokeret	blocked		3					a
 uvidende	ignorant / unaware		3					a
-forståelig	understandable		3					a
+forståelig	understandable		3					a	forståeligere|forståeligst	more understandable|most understandable
 stinkende	stinking		3					a
 ultimativ	ultimate		4					a
-øjeblikkelig	immediate		3					a
+øjeblikkelig	immediate		3					a	øjeblikkeligere|øjeblikkeligst	more immediate|most immediate
 ubevæbnet	unarmed	SP	3					a
 snu	cunning		4					a
 suspenderet	suspended		4					a
@@ -3438,44 +3441,44 @@ sløret	blurred / veiled		4					a
 overvældende	overwhelming		3					a
 fuldkommen	perfect / completely		3					a
 omfattende	extensive		3					a
-fortrolig	confidential / familiar		3					a
-pudsig	funny / odd		4					a
-daglig	daily	TC	2					a
+fortrolig	confidential / familiar		3					a	fortroligere|fortroligst	more confidential / more familiar|most confidential / most familiar
+pudsig	funny / odd		4					a	pudsigere|pudsigst	funnier / odder|funniest / oddest
+daglig	daily	TC	2					a	dagligere|dagligst	dailier|dailiest
 dødbringende	deadly		4					a
-tåbelig	foolish		4					a
+tåbelig	foolish		4					a	tåbeligere|tåbeligst	more foolish|most foolish
 reserveret	reserved		3					a
-dyrebar	precious		3					a
+dyrebar	precious		3					a	dyrebarere|dyrebarest	more precious|most precious
 beruset	drunk / intoxicated	BH	3					a
 anonym	anonymous		3					a
-ædel	noble		4					a
-fredelig	peaceful		3					a
+ædel	noble		4					a	ædlere|ædlest	nobler|noblest
+fredelig	peaceful		3					a	fredeligere|fredeligst	more peaceful|most peaceful
 førende	leading		3					a
-brutal	brutal		3					a
-streng	strict		2					a
+brutal	brutal		3					a	brutalere|brutalest	more brutal|most brutal
+streng	strict		2					a	strengere|strengest	stricter|strictest
 chokerende	shocking		3					a
 skinnende	shiny		3					a
-ubrugelig	useless		3					a
-mistænkelig	suspicious		3					a
-talentfuld	talented		3					a
+ubrugelig	useless		3					a	ubrugeligere|ubrugeligst	more useless|most useless
+mistænkelig	suspicious		3					a	mistænkeligere|mistænkeligst	more suspicious|most suspicious
+talentfuld	talented		3					a	talentfuldere|talentfuldest	more talented|most talented
 teoretisk	theoretical		3					a
-udødelig	immortal		4					a
+udødelig	immortal		4					a	udødeligere|udødeligst	more immortal|most immortal
 egnet	suitable		3					a
 uacceptabel	unacceptable		3					a
-blodig	bloody		3					a
-fjendtlig	hostile		3					a
+blodig	bloody		3					a	blodigere|blodigst	bloodier|bloodiest
+fjendtlig	hostile		3					a	fjendtligere|fjendtligst	more hostile|most hostile
 realistisk	realistic		3					a
-herlig	wonderful / lovely		2					a
+herlig	wonderful / lovely		2					a	herligere|herligst	more wonderful / more lovely|most wonderful / most lovely
 aktuel	current / topical		3					a
 akut	acute / urgent		3					a
 alternativ	alternative		3					a
-anstændig	decent		3					a
-attraktiv	attractive		3					a
-behjælpelig	helpful		4					a
-bekvem	convenient / comfortable		3					a
+anstændig	decent		3					a	anstændigere|anstændigst	more decent|most decent
+attraktiv	attractive		3					a	attraktivere|attraktivest	more attractive|most attractive
+behjælpelig	helpful		4					a	behjælpeligere|behjælpeligst	more helpful|most helpful
+bekvem	convenient / comfortable		3					a	bekvemmere|bekvemmest	more convenient / more comfortable|most convenient / most comfortable
 beslægtet	related		4					a
-betydningsfuld	significant		4					a
-brugbar	usable / useful		3					a
-bæredygtig	sustainable		3					a
+betydningsfuld	significant		4					a	betydningsfuldere|betydningsfuldest	more significant|most significant
+brugbar	usable / useful		3					a	brugbarere|brugbarest	more usable / more useful|most usable / most useful
+bæredygtig	sustainable		3					a	bæredygtigere|bæredygtigst	more sustainable|most sustainable
 dagligdags	everyday		3					a
 dedikeret	dedicated		3					a
 detaljeret	detailed		3					a
@@ -3484,91 +3487,91 @@ eksisterende	existing		3					a
 enkelt	single / simple		2					a
 ens	identical / alike		2					a
 entusiastisk	enthusiastic	FP	3					a
-eventuel	possible / any		3					a
+eventuel	possible / any		3					a	eventuellere|eventuellest	more possible / anier|most possible / aniest
 fast	fixed / firm / permanent		2					a
-fjern	distant / remote		2					a
+fjern	distant / remote		2					a	fjernere|fjernest	more distant / more remote|most distant / most remote
 forbudt	forbidden		2					a
 formel	formal		3					a
 fremmed	foreign / strange		2					a
-frodig	lush		4					a
-fyldig	full / rich (flavor)		4					a
-gennemsnitlig	average		3					a
-gennemsigtig	transparent		3					a
-glat	smooth / slippery		2					a
-grundig	thorough		3					a
-gyldig	valid		3					a
-hyppig	frequent		3					a
-ideel	ideal		3					a
+frodig	lush		4					a	frodigere|frodigst	lusher|lushest
+fyldig	full / rich (flavor)		4					a	fyldigere|fyldigst	fuller / richer (flavor)|fullest / richest (flavor)
+gennemsnitlig	average		3					a	gennemsnitligere|gennemsnitligst	more average|most average
+gennemsigtig	transparent		3					a	gennemsigtigere|gennemsigtigst	more transparent|most transparent
+glat	smooth / slippery		2					a	glattere|glattest	smoother / more slippery|smoothest / most slippery
+grundig	thorough		3					a	grundigere|grundigst	more thorough|most thorough
+gyldig	valid		3					a	gyldigere|gyldigst	more valid|most valid
+hyppig	frequent		3					a	hyppigere|hyppigst	more frequent|most frequent
+ideel	ideal		3					a	ideellere|ideellest	more ideal|most ideal
 identisk	identical		3					a
-individuel	individual		3					a
-kendt	known / famous		2					a
-langvarig	long-lasting		3					a
+individuel	individual		3					a	individuellere|individuellest	more individual|most individual
+kendt	known / famous		2					a	kendtere|kendtest	knowner / more famous|knownest / most famous
+langvarig	long-lasting		3					a	langvarigere|langvarigst	more long-lasting|most long-lasting
 lignende	similar		2					a
-lydløs	silent		4					a
+lydløs	silent		4					a	lydløsere|lydløsest	more silent|most silent
 lysende	bright / luminous		4					a
-maksimal	maximum		3					a
+maksimal	maximum		3					a	maksimalere|maksimalest	more maximum|most maximum
 markant	marked / distinctive		3					a
 materiel	material		4					a
-meningsfuld	meaningful		3					a
-minimal	minimal		3					a
-mulig	possible		2					a
-mærkbar	noticeable		4					a
-neutral	neutral		3					a
+meningsfuld	meaningful		3					a	meningsfuldere|meningsfuldest	more meaningful|most meaningful
+minimal	minimal		3					a	minimalere|minimalest	more minimal|most minimal
+mulig	possible		2					a	muligere|muligst	more possible|most possible
+mærkbar	noticeable		4					a	mærkbarere|mærkbarest	more noticeable|most noticeable
+neutral	neutral		3					a	neutralere|neutralest	more neutral|most neutral
 nøgtern	sober / matter-of-fact		4					a
-objektiv	objective		3					a
+objektiv	objective		3					a	objektivere|objektivest	more objective|most objective
 oplagt	obvious / in good form		3					a
-oprigtig	sincere		4					a
-primær	primary		3					a
+oprigtig	sincere		4					a	oprigtigere|oprigtigst	more sincere|most sincere
+primær	primary		3					a	primærere|primærest	more primary|most primary
 problematisk	problematic		3					a
 robust	robust		3					a
 rå	raw / crude		2					a
-sammenlignelig	comparable		4					a
-skadelig	harmful		3					a
-slank	slim		2					a
+sammenlignelig	comparable		4					a	sammenligneligere|sammenligneligst	more comparable|most comparable
+skadelig	harmful		3					a	skadeligere|skadeligst	more harmful|most harmful
+slank	slim		2					a	slankere|slankest	slimmer|slimmest
 specifik	specific		3					a
-spids	pointed / sharp	CO	3					a
-subjektiv	subjective		3					a
-synlig	visible		3					a
+spids	pointed / sharp	CO	3					a	spidsere|spidsest	more pointed / sharper|most pointed / sharpest
+subjektiv	subjective		3					a	subjektivere|subjektivest	more subjective|most subjective
+synlig	visible		3					a	synligere|synligst	more visible|most visible
 særegen	distinctive		4					a
-tilgængelig	available / accessible		3					a
-traditionel	traditional		2					a
+tilgængelig	available / accessible		3					a	tilgængeligere|tilgængeligst	more available / more accessible|most available / most accessible
+traditionel	traditional		2					a	traditionellere|traditionellest	more traditional|most traditional
 uafhængig	independent		3					a
 udmærket	excellent / fine		2					a
 uendelig	infinite / endless		3					a
 uformel	informal		3					a
-ugyldig	invalid		4					a
-umulig	impossible		2					a
-varig	lasting		4					a
+ugyldig	invalid		4					a	ugyldigere|ugyldigst	more invalid|most invalid
+umulig	impossible		2					a	umuligere|umuligst	more impossible|most impossible
+varig	lasting		4					a	varigere|varigst	more lasting|most lasting
 vellykket	successful		3					a
-væsentlig	essential / significant		3					a
+væsentlig	essential / significant		3					a	væsentligere|væsentligst	more essential / more significant|most essential / most significant
 ekstrem	extreme		3					a
-hjælpeløs	helpless		3					a
-håbefuld	hopeful	FP	3					a
-kostbar	costly / precious		3					a
+hjælpeløs	helpless		3					a	hjælpeløsere|hjælpeløsest	more helpless|most helpless
+håbefuld	hopeful	FP	3					a	håbefuldere|håbefuldest	more hopeful|most hopeful
+kostbar	costly / precious		3					a	kostbarere|kostbarest	costlier / more precious|costliest / most precious
 larmende	noisy		3					a
-livlig	lively		3					a
+livlig	lively		3					a	livligere|livligst	more lively|most lively
 sjusket	sloppy		3					a
-spiselig	edible	FD	3					a
-træg	sluggish		4					a
-uforudsigelig	unpredictable		3					a
-uundværlig	indispensable		4					a
+spiselig	edible	FD	3					a	spiseligere|spiseligst	more edible|most edible
+træg	sluggish		4					a	trægere|trægest	more sluggish|most sluggish
+uforudsigelig	unpredictable		3					a	uforudsigeligere|uforudsigeligst	more unpredictable|most unpredictable
+uundværlig	indispensable		4					a	uundværligere|uundværligst	more indispensable|most indispensable
 velkendt	well-known		3					a
-værdiløs	worthless		3					a
+værdiløs	worthless		3					a	værdiløsere|værdiløsest	more worthless|most worthless
 ældgammel	ancient		3					a
 øde	deserted		4					a
-ansvarsfuld	responsible		3					a
+ansvarsfuld	responsible		3					a	ansvarsfuldere|ansvarsfuldest	more responsible|most responsible
 bekymrende	worrying		3					a
 blandet	mixed		3					a
 fremragende	excellent		3					a
-irrationel	irrational		4					a
+irrationel	irrational		4					a	irrationellere|irrationellest	more irrational|most irrational
 misvisende	misleading		3					a
 sammensat	composite / complex		4					a
-tilfældig	random / accidental		2					a
-tvivlsom	doubtful		3					a
+tilfældig	random / accidental		2					a	tilfældigere|tilfældigst	more random / more accidental|most random / most accidental
+tvivlsom	doubtful		3					a	tvivlsommere|tvivlsomst	more doubtful|most doubtful
 vedvarende	persistent / renewable		4					a
 vild med	crazy about	FP	2					f
 glad for	fond of / happy with	FP	2					f
-god til	good at		2					f
+god til	good at		1					f
 dårlig til	bad at		2					f
 vant til	used to		2					f
 bange for	afraid of	FP	2					f
@@ -3584,50 +3587,50 @@ afhængig af	dependent on		3					f
 opmærksom på	aware of		3					f
 bedre	better		1					a
 bedst	best		1					a
-dejlig	lovely / nice		1					a
-farlig	dangerous		1					a
-fin	fine / nice / fancy		1					a
-hård	hard		1					a
-hyggelig	cozy / nice		1					a
+dejlig	lovely / nice		1					a	dejligere|dejligst	more lovely / nicer|most lovely / nicest
+farlig	dangerous		1					a	farligere|farligst	more dangerous|most dangerous
+fin	fine / nice / fancy		1					a	finere|finest	finer / nicer / fancier|finest / nicest / fanciest
+hård	hard		1					a	hårdere|hårdest	harder|hardest
+hyggelig	cozy / nice		1					a	hyggeligere|hyggeligst	cozier / nicer|coziest / nicest
 i stykker	broken		2					f
 interesseret i	interested in		2					f
-klog	wise / clever		2					a
+klog	wise / clever		2					a	klogere|klogest	wiser / more clever|wisest / most clever
 længst	longest / the longest time		2					a
-nem	easy		1					a
-nær	near		2					a
-ond	evil / bad		2					a
+nem	easy		1					a	nemmere|nemmest	easier|easiest
+nær	near		2					a	nærmere|nærmest	nearer|nearest
+ond	evil / bad		2					a	ondere|ondest	more evil / worse|most evil / worst
 perfekt	perfect		1					a
-sjælden	rare		2					a
+sjælden	rare		2					a	sjældnere|sjældnest	rarer|rarest
 spændende	exciting		1					a
 størst	biggest		2					a
 super	super / great		2					a
 tilpas	comfortable / suitable		2					a
-underlig	strange / weird		2					a
-vanvittig	crazy / insane		2					a
-vild	wild		2					a
+underlig	strange / weird		2					a	underligere|underligst	stranger / weirder|strangest / weirdest
+vanvittig	crazy / insane		2					a	vanvittigere|vanvittigst	crazier / more insane|craziest / most insane
+vild	wild		2					a	vildere|vildest	wilder|wildest
 værst	worst		2					a
 yndlings-	favorite ...		2					a
 økologisk	organic	FD	2					a
 anstrengende	strenuous / tiring		3					a
-anvendelig	applicable / usable		4					a
+anvendelig	applicable / usable		4					a	anvendeligere|anvendeligst	more applicable / more usable|most applicable / most usable
 begavet	gifted / intelligent		4					a
 bekendt	familiar / known		2					a
 berettiget	justified / entitled		4					a
-besværlig	troublesome		3					a
-betænkelig	doubtful / worrying		4					a
-blank	shiny / blank		4					a
+besværlig	troublesome		3					a	besværligere|besværligst	more troublesome|most troublesome
+betænkelig	doubtful / worrying		4					a	betænkeligere|betænkeligst	more doubtful / more worrying|most doubtful / most worrying
+blank	shiny / blank		4					a	blankere|blankest	shinier / blanker|shiniest / blankest
 brændende	burning		3					a
-dristig	bold / daring	FP	4					a
+dristig	bold / daring	FP	4					a	dristigere|dristigst	bolder / more daring|boldest / most daring
 dybtgående	thorough / profound		4					a
-dødkedelig	deadly boring		3					a
+dødkedelig	deadly boring		3					a	dødkedeligere|dødkedeligst	more deadly boring|most deadly boring
 eftertragtet	sought-after		4					a
-ejendommelig	peculiar		4					a
-eksklusiv	exclusive		3					a
-fantasifuld	imaginative		3					a
-festlig	festive	CH	3					a
-fiktiv	fictional		3					a
-fordelagtig	advantageous		4					a
-forgængelig	perishable / transient		4					a
+ejendommelig	peculiar		4					a	ejendommeligere|ejendommeligst	more peculiar|most peculiar
+eksklusiv	exclusive		3					a	eksklusivere|eksklusivest	more exclusive|most exclusive
+fantasifuld	imaginative		3					a	fantasifuldere|fantasifuldest	more imaginative|most imaginative
+festlig	festive	CH	3					a	festligere|festligst	more festive|most festive
+fiktiv	fictional		3					a	fiktivere|fiktivest	more fictional|most fictional
+fordelagtig	advantageous		4					a	fordelagtigere|fordelagtigst	more advantageous|most advantageous
+forgængelig	perishable / transient		4					a	forgængeligere|forgængeligst	more perishable / more transient|most perishable / most transient
 forhastet	hasty		4					a
 forkælet	spoiled		3					a
 forladt	abandoned		2					a
@@ -3635,51 +3638,51 @@ forsømt	neglected		4					a
 forståelsesfuld	understanding		3					a
 fortjent	deserved		2					a
 fremtrædende	prominent		4					a
-frygtløs	fearless	FP	4					a
+frygtløs	fearless	FP	4					a	frygtløsere|frygtløsest	more fearless|most fearless
 fyldestgørende	satisfactory		4					a
 fængslende	captivating		4					a
 gennemført	well done / consistent		4					a
 glødende	glowing / passionate		4					a
-grænseløs	boundless		4					a
-gådefuld	mysterious		4					a
+grænseløs	boundless		4					a	grænseløsere|grænseløsest	more boundless|most boundless
+gådefuld	mysterious		4					a	gådefuldere|gådefuldest	more mysterious|most mysterious
 hektisk	hectic		3					a
-hemmelighedsfuld	secretive		4					a
-hjemlig	homely / domestic		4					a
+hemmelighedsfuld	secretive		4					a	hemmelighedsfuldere|hemmelighedsfuldest	more secretive|most secretive
+hjemlig	homely / domestic		4					a	hjemligere|hjemligst	more homely / more domestic|most homely / most domestic
 hovedsagelig	mainly		4					d
-højtidelig	solemn		4					a
+højtidelig	solemn		4					a	højtideligere|højtideligst	more solemn|most solemn
 indbydende	inviting		4					a
-indflydelsesrig	influential		4					a
+indflydelsesrig	influential		4					a	indflydelsesrigere|indflydelsesrigest	more influential|most influential
 iøjnefaldende	conspicuous		4					a
 klodset	clumsy		3					a
 koncentreret	concentrated / focused		3					a
-kortvarig	short-lived		3					a
+kortvarig	short-lived		3					a	kortvarigere|kortvarigst	more short-lived|most short-lived
 langtrukken	long-winded		4					a
-levedygtig	viable		4					a
-lidenskabelig	passionate	FP	4					a
-ligeværdig	equal		4					a
-lovpligtig	mandatory by law	SP	4					a
-lydig	obedient	FP	3					a
-lysegrøn	light green	CO	2					a
-mørkegrøn	dark green	CO	2					a
+levedygtig	viable		4					a	levedygtigere|levedygtigst	more viable|most viable
+lidenskabelig	passionate	FP	4					a	lidenskabeligere|lidenskabeligst	more passionate|most passionate
+ligeværdig	equal		4					a	ligeværdigere|ligeværdigst	more equal|most equal
+lovpligtig	mandatory by law	SP	4					a	lovpligtigere|lovpligtigst	more mandatory by law|most mandatory by law
+lydig	obedient	FP	3					a	lydigere|lydigst	more obedient|most obedient
+lysegrøn	light green	CO	2					a	lysegrønnere|lysegrønnest	more light green|most light green
+mørkegrøn	dark green	CO	2					a	mørkegrønnere|mørkegrønnest	more dark green|most dark green
 malerisk	picturesque		4					a
-mangelfuld	deficient / inadequate		4					a
-modstandsdygtig	resilient		4					a
+mangelfuld	deficient / inadequate		4					a	mangelfuldere|mangelfuldest	more deficient / more inadequate|most deficient / most inadequate
+modstandsdygtig	resilient		4					a	modstandsdygtigere|modstandsdygtigst	more resilient|most resilient
 nedslående	disheartening		4					a
 nervepirrende	nerve-wracking		4					a
-næringsrig	nutritious	FD	4					a
-omhyggelig	careful / meticulous		4					a
-omstændelig	elaborate / long-winded		4					a
-opfindsom	inventive		4					a
+næringsrig	nutritious	FD	4					a	næringsrigere|næringsrigest	more nutritious|most nutritious
+omhyggelig	careful / meticulous		4					a	omhyggeligere|omhyggeligst	more careful / more meticulous|most careful / most meticulous
+omstændelig	elaborate / long-winded		4					a	omstændeligere|omstændeligst	more elaborate / more long-winded|most elaborate / most long-winded
+opfindsom	inventive		4					a	opfindsommere|opfindsomst	more inventive|most inventive
 oprørsk	rebellious	FP	4					a
 overdreven	exaggerated		3					a
 overfladisk	superficial		3					a
 overfyldt	overcrowded		3					a
 overlegen	superior		4					a
-overmodig	overconfident	FP	4					a
-overskuelig	manageable / clear		4					a
+overmodig	overconfident	FP	4					a	overmodigere|overmodigst	more overconfident|most overconfident
+overskuelig	manageable / clear		4					a	overskueligere|overskueligst	more manageable / clearer|most manageable / clearest
 paradoksal	paradoxical		4					a
-passiv	passive		3					a
-problemfri	problem-free		4					a
+passiv	passive		3					a	passivere|passivest	more passive|most passive
+problemfri	problem-free		4					a	problemfriere|problemfriest	more problem-free|most problem-free
 påfaldende	striking		4					a
 påtrængende	pushy / pressing		4					a
 rastløs	restless	FP	3					a
@@ -3689,46 +3692,46 @@ selvmodsigende	contradictory		4					a
 skeptisk	skeptical	FP	3					a
 skræmmende	frightening		2					a
 skuffende	disappointing		3					a
-smagløs	tasteless		4					a
-smertelig	painful		4					a
+smagløs	tasteless		4					a	smagløsere|smagløsest	more tasteless|most tasteless
+smertelig	painful		4					a	smerteligere|smerteligst	more painful|most painful
 snavset	dirty		2					a
 spartansk	spartan		4					a
-spinkel	slender / frail		4					a
-spirituel	witty		4					a
+spinkel	slender / frail		4					a	spinklere|spinklest	more slender / frailer|most slender / frailest
+spirituel	witty		4					a	spirituellere|spirituellest	wittier|wittiest
 sporty	sporty	FS	3					a
-standhaftig	steadfast		4					a
-stemningsfuld	atmospheric		4					a
-stormfuld	stormy		4					a
-succesfuld	successful		3					a
-tankefuld	pensive		4					a
-tankeløs	thoughtless		4					a
+standhaftig	steadfast		4					a	standhaftigere|standhaftigst	more steadfast|most steadfast
+stemningsfuld	atmospheric		4					a	stemningsfuldere|stemningsfuldest	more atmospheric|most atmospheric
+stormfuld	stormy		4					a	stormfuldere|stormfuldest	stormier|stormiest
+succesfuld	successful		3					a	succesfuldere|succesfuldest	more successful|most successful
+tankefuld	pensive		4					a	tankefuldere|tankefuldest	more pensive|most pensive
+tankeløs	thoughtless		4					a	tankeløsere|tankeløsest	more thoughtless|most thoughtless
 tidskrævende	time-consuming		3					a
 tilfredsstillende	satisfying		3					a
-tilgivelig	forgivable		4					a
-tillidsfuld	trusting		4					a
+tilgivelig	forgivable		4					a	tilgiveligere|tilgiveligst	more forgivable|most forgivable
+tillidsfuld	trusting		4					a	tillidsfuldere|tillidsfuldest	more trusting|most trusting
 tomhændet	empty-handed		4					a
-tvetydig	ambiguous		4					a
+tvetydig	ambiguous		4					a	tvetydigere|tvetydigst	more ambiguous|most ambiguous
 tvungen	forced		4					a
-uanstændig	indecent		4					a
-ubegribelig	incomprehensible		4					a
+uanstændig	indecent		4					a	uanstændigere|uanstændigst	more indecent|most indecent
+ubegribelig	incomprehensible		4					a	ubegribeligere|ubegribeligst	more incomprehensible|most incomprehensible
 ubekymret	carefree	FP	4					a
-ubelejlig	inconvenient		4					a
+ubelejlig	inconvenient		4					a	ubelejligere|ubelejligst	more inconvenient|most inconvenient
 ubestemt	indefinite / vague		4					a
-uduelig	incompetent		4					a
+uduelig	incompetent		4					a	udueligere|udueligst	more incompetent|most incompetent
 uerfaren	inexperienced		3					a
-uforglemmelig	unforgettable		3					a
-ulydig	disobedient	FP	4					a
+uforglemmelig	unforgettable		3					a	uforglemmeligere|uforglemmeligst	more unforgettable|most unforgettable
+ulydig	disobedient	FP	4					a	ulydigere|ulydigst	more disobedient|most disobedient
 umoden	immature		3					a
 undvigende	evasive		4					a
-uovervindelig	invincible		4					a
+uovervindelig	invincible		4					a	uovervindeligere|uovervindeligst	more invincible|most invincible
 upraktisk	impractical		3					a
 urealistisk	unrealistic		3					a
-uskarp	blurry		4					a
-utaknemmelig	ungrateful		4					a
-utilstrækkelig	inadequate		4					a
+uskarp	blurry		4					a	uskarpere|uskarpest	blurrier|blurriest
+utaknemmelig	ungrateful		4					a	utaknemmeligere|utaknemmeligst	more ungrateful|most ungrateful
+utilstrækkelig	inadequate		4					a	utilstrækkeligere|utilstrækkeligst	more inadequate|most inadequate
 uvant	unaccustomed / unfamiliar		4					a
 uvedkommende	irrelevant / unauthorized		4					a
-varsom	cautious		4					a
+varsom	cautious		4					a	varsommere|varsomst	more cautious|most cautious
 velbegrundet	well-founded		4					a
 veldrevet	well-run		4					a
 velfortjent	well-deserved		4					a
@@ -3738,13 +3741,13 @@ velklædt	well-dressed		4					a
 velopdragen	well-behaved		4					a
 vidtrækkende	far-reaching		4					a
 vindende	winning		4					a
-vittig	witty		4					a
+vittig	witty		4					a	vittigere|vittigst	wittier|wittiest
 værdsat	appreciated		3					a
-ærefuld	honorable		4					a
-ærgerrig	ambitious	FP	3					a
+ærefuld	honorable		4					a	ærefuldere|ærefuldest	more honorable|most honorable
+ærgerrig	ambitious	FP	3					a	ærgerrigere|ærgerrigst	more ambitious|most ambitious
 ødelæggende	destructive		4					a
-ønskelig	desirable		4					a
-åndelig	spiritual / mental		4					a
+ønskelig	desirable		4					a	ønskeligere|ønskeligst	more desirable|most desirable
+åndelig	spiritual / mental		4					a	åndeligere|åndeligst	more spiritual / more mental|most spiritual / most mental
 årvågen	alert / vigilant		4					a
 forestående	upcoming / impending		4					a
 jeg	I		1					p
@@ -3803,7 +3806,7 @@ tilbage	back		1					d
 sammen	together		1					d
 sådan	like that / such		1					p
 væk	away / gone		1					d
-gang	time (occasion) / walk	TC	1					n
+gang	time (occasion) / walk	TC	1					n	gangen	the time (occasion) / the walk
 mange	many		1					p
 stadig	still		1					d
 virkelig	really		1					d
@@ -3831,7 +3834,7 @@ derude	out there		2					d
 derinde	in there		2					d
 herinde	in here		2					d
 desværre	unfortunately		1					d
-blot	merely / just		3					d
+blot	merely / just		2					d
 afsted	off / away		2					d
 hertil	here (to this place) / to this		2					d
 overhovedet	at all		2					d
@@ -3899,7 +3902,7 @@ tilsyneladende	apparently		3					d
 yderligere	further / additional		3					d
 ligeså	just as		3					d
 garanteret	guaranteed		3					d
-i øvrigt	by the way / moreover		3					d
+i øvrigt	by the way / moreover		2					d
 rigeligt	plenty		3					d
 uhyre	immensely / monster		4					d
 megen	much		4					p
@@ -4053,7 +4056,7 @@ og	and		1					c
 eller	or		1					c
 derfor	therefore		1					d
 altså	thus / so		1					d
-dog	however		2					d
+dog	however		1					d
 alligevel	nevertheless		2					d
 desuden	furthermore		2					d
 også	also		1					d
@@ -4106,14 +4109,14 @@ ifølge	according to		2					r
 hverken	neither		2					c
 enten	either		2					c
 overfor	opposite / across from		2					r
-trods	despite		3					r
+trods	despite		2					r
 imellem	between / in between		2					r
 undtagen	except		2					r
 udover	besides / beyond		2					r
 via	via		2					r
 eftersom	since / because		3					c
 såsom	such as		3					r
-samt	as well as		3					c
+samt	as well as		2					c
 inklusive	including		2					r
 vedrørende	concerning		3					r
 iblandt	among		4					r
@@ -4137,7 +4140,7 @@ så snart	as soon as		2					c
 så vidt	as far as		3					c
 hellere end	rather than		2					c
 bagved	behind		2					r
-ved siden af	next to		2					r
+ved siden af	next to		1					r
 hej	hi	GR	1					f
 farvel	goodbye	GR	1					f
 godmorgen	good morning	GR	1					f
@@ -4261,7 +4264,7 @@ javel	I see / very well	GR	2					f
 nemlig	exactly / you see	GR	2					f
 venligst	please (formal)	GR	2					f
 forresten	by the way		2					d
-vrøvl	nonsense	GR	2		et			n
+vrøvl	nonsense	GR	2		et			n	vrøvlet	the nonsense
 goddag	good day / hello (formal)	GR	1					f
 hallo	hello	GR	1					f
 hvabehar	pardon? / excuse me?	GR	2					f
@@ -4276,8 +4279,8 @@ hejsa	hi there	GR	2					f
 jøsses	gosh	GR	3					f
 bravo	bravo	GR	2					f
 halløj	hey / hello there	GR	2					f
-pjat	nonsense	GR	2		et			n
-møg	muck / crap	GR	3		et			n
+pjat	nonsense	GR	2		et			n	pjattet	the nonsense
+møg	muck / crap	GR	3		et			n	møget	the muck / the crap
 hurra	hooray	GR	2					f
 velbekomme	enjoy (your meal) / you're welcome (after a meal)	GR	2					f
 nuvel	well now	GR	4					f
@@ -4352,7 +4355,7 @@ uden tvivl	without a doubt		2					d
 i orden	all right / in order	GR	1					f
 ikke engang	not even		2					d
 ikke endnu	not yet		1					d
-ikke mere	no more / not anymore		2					d
+ikke mere	no more / not anymore		1					d
 slet ikke	not at all		2					d
 næsten aldrig	almost never		2					d
 lige meget hvad	no matter what		2					d
@@ -4366,9 +4369,9 @@ klokken er fem	it's five o'clock	TC	1					f
 halv tre	half past two	TC	1					f
 kvart over	quarter past	TC	1					f
 kvart i	quarter to	TC	1					f
-at have ret	to be right	GR	2	har ret|havde ret|haft ret		jeg har ret|jeg havde ret|jeg har haft ret	I am right|I was right|I have been right	v
+at have ret	to be right	GR	1	har ret|havde ret|haft ret		jeg har ret|jeg havde ret|jeg har haft ret	I am right|I was right|I have been right	v
 at have lyst til	to feel like / want to	GR	2	har lyst til|havde lyst til|haft lyst til		jeg har lyst til|jeg havde lyst til|jeg har haft lyst til	I feel like / want to|I felt like / wanted to|I have felt like / wanted to	v
-at have brug for	to need	GR	2	har brug for|havde brug for|haft brug for		jeg har brug for|jeg havde brug for|jeg har haft brug for	I need|I needed|I have needed	v
+at have brug for	to need	GR	1	har brug for|havde brug for|haft brug for		jeg har brug for|jeg havde brug for|jeg har haft brug for	I need|I needed|I have needed	v
 at have råd til	to afford	GR	2	har råd til|havde råd til|haft råd til		jeg har råd til|jeg havde råd til|jeg har haft råd til	I can afford|I could afford|I have been able to afford	v
 at have ondt i	to have a pain in	GR	2	har ondt i|havde ondt i|haft ondt i		jeg har ondt i|jeg havde ondt i|jeg har haft ondt i	I have a pain in|I had a pain in|I have had a pain in	v
 at have svært ved	to find it hard to	GR	2	har svært ved|havde svært ved|haft svært ved		jeg har svært ved|jeg havde svært ved|jeg har haft svært ved	I find it hard to|I found it hard to|I have found it hard to	v
@@ -4415,7 +4418,7 @@ bedre sent end aldrig	better late than never	GR	2					f
 man skal ikke skue hunden på hårene	don't judge a book by its cover	GR	4					f
 den tid, den sorg	cross that bridge when we come to it	GR	4					f
 ude af øje, ude af sind	out of sight, out of mind	GR	3					f
-en hilsen	a greeting	GR	2					n
+en hilsen	a greeting	GR	2					n	hilsenen|hilsner	the greeting|greetings
 jeg beklager	I'm sorry (formal)	GR	2					f
 det er	it is / that is	GR	1					f
 det var så lidt	you're welcome / don't mention it	GR	1					f
@@ -4466,13 +4469,13 @@ tredje	third	NC	1					u
 fjerde	fourth	NC	1					u
 femte	fifth	NC	1					u
 sidste	last	NC	1					u
-mandag	Monday	TC	1					n
-tirsdag	Tuesday	TC	1					n
-onsdag	Wednesday	TC	1					n
-torsdag	Thursday	TC	1					n
-fredag	Friday	TC	1					n
-lørdag	Saturday	TC	1					n
-søndag	Sunday	TC	1					n
+mandag	Monday	TC	1					n	mandagen	the Monday
+tirsdag	Tuesday	TC	1					n	tirsdagen	the Tuesday
+onsdag	Wednesday	TC	1					n	onsdagen	the Wednesday
+torsdag	Thursday	TC	1					n	torsdagen	the Thursday
+fredag	Friday	TC	1					n	fredagen	the Friday
+lørdag	Saturday	TC	1					n	lørdagen	the Saturday
+søndag	Sunday	TC	1					n	søndagen	the Sunday
 januar	January	TC	1					n
 februar	February	TC	1					n
 marts	March	TC	1					n
@@ -4501,11 +4504,11 @@ sent	late	TC	1					d
 klokken	the clock / o'clock	TC	1					d
 halv	half	NC	1					u
 kvart	quarter	NC	1					u
-en weekend	a weekend	TC	1					n
-en ferie	a vacation	TC	1					n
-en fødselsdag	a birthday	TC	1					n
-et øjeblik	a moment	TC	1					n
-en periode	a period	TC	2					n
+en weekend	a weekend	TC	1					n	weekenden|weekender	the weekend|weekends
+en ferie	a vacation	TC	1					n	ferien|ferier	the vacation|vacations
+en fødselsdag	a birthday	TC	1					n	fødselsdagen|fødselsdage	the birthday|birthdays
+et øjeblik	a moment	TC	1					n	øjeblikket|øjeblikke	the moment|moments
+en periode	a period	TC	2					n	perioden|perioder	the period|periods
 øjeblikkeligt	immediately	TC	3					d
 straks	right away	TC	2					d
 længe	for a long time	TC	1					d
@@ -4525,82 +4528,82 @@ indtil nu	until now	TC	2					d
 for evigt	forever	TC	2					d
 lejlighedsvis	occasionally	TC	3					d
 regelmæssigt	regularly	TC	3					d
-af og til	now and then	TC	2					d
+af og til	now and then	TC	1					d
 samtidig	simultaneously	TC	2					d
 forinden	beforehand	TC	3					d
 efterfølgende	subsequently	TC	3					d
 i fremtiden	in the future	TC	2					d
 i fortiden	in the past	TC	2					d
 nutildags	nowadays	TC	2					d
-en cirkel	a circle	CO	2					n
-et kvadrat	a square	CO	3					n
-en trekant	a triangle	CO	2					n
-en firkant	a square / four-sided shape	CO	2					n
-en linje	a line	CO	2					n
-en kant	an edge	CO	2					n
-et hjørne	a corner	CO	2					n
-en længde	a length	NC	2					n
-en bredde	a width	NC	2					n
-en højde	a height	NC	2					n
-en dybde	a depth	NC	2					n
-en vægt	a weight	NC	2					n
-et rumfang	a volume	SL	3					n
-en diameter	a diameter	SL	3					n
-en afstand	a distance	NC	2					n
-en vinkel	an angle	SL	2					n
-en procent	a percentage	NC	2					n
-en brøk	a fraction	SL	3					n
-et gennemsnit	an average	NC	3					n
-en mængde	an amount	NC	2					n
-et tidspunkt	a point in time	TC	2					n
-en alder	an age	TC	2					n
-en fortid	a past	TC	2					n
-midnat	midnight	TC	2		en			n
-en evighed	an eternity	TC	3					n
-en milliard	a billion	NC	2					n
+en cirkel	a circle	CO	2					n	cirklen|cirkler	the circle|circles
+et kvadrat	a square	CO	3					n	kvadratet|kvadrater	the square|squares
+en trekant	a triangle	CO	2					n	trekanten|trekanter	the triangle|triangles
+en firkant	a square / four-sided shape	CO	2					n	firkanten|firkanter	the square / the four-sided shape|squares / four-sided shapes
+en linje	a line	CO	2					n	linjen|linjer	the line|lines
+en kant	an edge	CO	2					n	kanten|kanter	the edge|edges
+et hjørne	a corner	CO	2					n	hjørnet|hjørner	the corner|corners
+en længde	a length	NC	2					n	længden|længder	the length|lengths
+en bredde	a width	NC	2					n	bredden|bredder	the width|widths
+en højde	a height	NC	2					n	højden|højder	the height|heights
+en dybde	a depth	NC	2					n	dybden|dybder	the depth|depths
+en vægt	a weight	NC	2					n	vægten|vægte	the weight|weights
+et rumfang	a volume	SL	3					n	rumfanget	the volume
+en diameter	a diameter	SL	3					n	diameteren|diametre	the diameter|diameters
+en afstand	a distance	NC	2					n	afstanden|afstande	the distance|distances
+en vinkel	an angle	SL	2					n	vinklen|vinkler	the angle|angles
+en procent	a percentage	NC	2					n	procenten|procenter	the percentage|percentages
+en brøk	a fraction	SL	3					n	brøken|brøker	the fraction|fractions
+et gennemsnit	an average	NC	3					n	gennemsnittet	the average
+en mængde	an amount	NC	2					n	mængden|mængder	the amount|amounts
+et tidspunkt	a point in time	TC	2					n	tidspunktet	the point in time
+en alder	an age	TC	2					n	alderen|aldre	the age|ages
+en fortid	a past	TC	2					n	fortiden|fortider	the past|pasts
+midnat	midnight	TC	2		en			n	midnatten	the midnight
+en evighed	an eternity	TC	3					n	evigheden|evigheder	the eternity|eternities
+en milliard	a billion	NC	2					n	milliarden|milliarder	the billion|billions
 et århundrede	a century	TC	3					n
 tusindvis	thousands	NC	3					u
-et daggry	a dawn	TC	3					n
-et antal	a number (amount)	NC	2					n
-en sæson	a season	TC	2					n
-et døgn	a day (24 hours)	TC	2					n
-et dusin	a dozen	NC	3					n
-en dato	a date (calendar)	TC	2					n
-en livstid	a lifetime	TC	3					n
-en liter	a liter	NC	2					n
-en stund	a while	TC	3					n
+et daggry	a dawn	TC	3					n	daggryet	the dawn
+et antal	a number (amount)	NC	2					n	antallet	the number (amount)
+en sæson	a season	TC	2					n	sæsonen|sæsoner	the season|seasons
+et døgn	a day (24 hours)	TC	2					n	døgnet	the day (24 hours)
+et dusin	a dozen	NC	3					n	dusinet	the dozen
+en dato	a date (calendar)	TC	2					n	datoen|datoer	the date (calendar)|dates (calendar)
+en livstid	a lifetime	TC	3					n	livstiden	the lifetime
+en liter	a liter	NC	2					n	literen	the liter
+en stund	a while	TC	3					n	stunden|stunder	the while|whiles
 halvanden	one and a half	NC	2					u
-et gram	a gram	NC	2					n
-et nytår	a New Year	TC	2					n
+et gram	a gram	NC	2					n	gramt|gramme	the gram|grams
+et nytår	a New Year	TC	2					n	nytåret	the New Year
 månedsvis	for months	TC	3					d
 timevis	for hours	TC	3					d
 ugevis	for weeks	TC	3					d
-en afslutning	an ending / conclusion	TC	2					n
-en mil	a (Danish) mile / 10 km	NC	3					n
+en afslutning	an ending / conclusion	TC	2					n	afslutningen|afslutninger	the ending / the conclusion|endings / conclusions
+en mil	a (Danish) mile / 10 km	NC	3					n	milen|mile	the (Danish) mile / the 10 km|(Danish) miles / 10 kms
 dagligt	daily	TC	2					d
 dagevis	for days	TC	3					d
-et årti	a decade	TC	3					n
+et årti	a decade	TC	3					n	årtiet|årtier	the decade|decades
 årlig	annual	TC	3					a
-en håndfuld	a handful	NC	3					n
+en håndfuld	a handful	NC	3					n	håndfulden|håndfulde	the handful|handfuls
 ottende	eighth	NC	1					u
-et kilo	a kilo	NC	2					n
-en deciliter	a deciliter	NC	2					n
+et kilo	a kilo	NC	2					n	kiloet	the kilo
+en deciliter	a deciliter	NC	2					n	deciliteren	the deciliter
 turkis	turquoise	CO	2					a
 beige	beige	CO	2					a
-sølv	silver	CO	2		et			n
-et rektangel	a rectangle	CO	3					n
-en centimeter	a centimeter	NC	2					n
-en kilometer	a kilometer	NC	1					n
-en halvdel	a half	NC	2					n
-en fjerdedel	a quarter	NC	2					n
-en tredjedel	a third	NC	2					n
-et ciffer	a digit	NC	3					n
+sølv	silver	CO	2		et			n	sølvet	the silver
+et rektangel	a rectangle	CO	3					n	rektanglet|rektangler	the rectangle|rectangles
+en centimeter	a centimeter	NC	2					n	centimeteren	the centimeter
+en kilometer	a kilometer	NC	1					n	kilometeren	the kilometer
+en halvdel	a half	NC	2					n	halvdelen|halvdele	the half|halves
+en fjerdedel	a quarter	NC	2					n	fjerdedelen|fjerdedele	the quarter|quarters
+en tredjedel	a third	NC	2					n	tredjedelen|tredjedele	the third|thirds
+et ciffer	a digit	NC	3					n	cifret|cifre	the digit|digits
 niende	ninth	NC	1					u
 tiende	tenth	NC	1					u
 to gange	twice	NC	1					d
 en halv time	half an hour	TC	1					n
-et årstal	a year (date)	TC	3					n
-sommertid	daylight saving time	TC	3		en			n
+et årstal	a year (date)	TC	3					n	årstallet	the year (date)
+sommertid	daylight saving time	TC	3		en			n	sommertiden	the daylight saving time
 nutiden	the present	TC	3					n
 i nat	tonight / last night	TC	1					d
 i aften	this evening	TC	1					d
@@ -4628,218 +4631,218 @@ at nå det	to make it (in time)	TC	2	når det|nåede det|nået det		jeg når det
 at have travlt	to be busy	TC	1	har travlt|havde travlt|haft travlt		jeg har travlt|jeg havde travlt|jeg har haft travlt	I am busy|I was busy|I have been busy	v
 at have god tid	to have plenty of time	TC	2	har god tid|havde god tid|haft god tid		jeg har god tid|jeg havde god tid|jeg har haft god tid	I have plenty of time|I had plenty of time|I have had plenty of time	v
 at stille uret	to set the clock	TC	2	stiller uret|stillede uret|stillet uret		jeg stiller uret|jeg stillede uret|jeg har stillet uret	I set the clock|I set the clock|I have set the clock	v
-en begyndelse	a beginning	TC	2					n
-en eftermiddag	an afternoon	TC	1					n
+en begyndelse	a beginning	TC	2					n	begyndelsen|begyndelser	the beginning|beginnings
+en eftermiddag	an afternoon	TC	1					n	eftermiddagen|eftermiddage	the afternoon|afternoons
 enogtyve	twenty-one	NC	1					u
 femogtredive	thirty-five	NC	1					u
 fireogtyve	twenty-four	NC	1					u
-en fremtid	a future	TC	2					n
-en hverdag	a weekday / everyday life	TC	2					n
+en fremtid	a future	TC	2					n	fremtiden|fremtider	the future|futures
+en hverdag	a weekday / everyday life	TC	2					n	hverdagen|hverdage	the weekday / the everyday life|weekdays / everyday lives
 i aftes	last night / yesterday evening	TC	1					d
 i år	this year	TC	1					d
 i forgårs	the day before yesterday	TC	2					d
 i morges	this morning (earlier today)	TC	1					d
 i overmorgen	the day after tomorrow	TC	2					d
-en meter	a meter	NC	1					n
+en meter	a meter	NC	1					n	meteren	the meter
 om lidt	in a little while	TC	1					d
 sidst	last / lastly	TC	1					d
 sjette	sixth	NC	1					u
 syvende	seventh	NC	1					u
-en slutning	an ending	TC	2					n
-et tal	a number	NC	1					n
+en slutning	an ending	TC	2					n	slutningen|slutninger	the ending|endings
+et tal	a number	NC	1					n	tallet	the number
 til sidst	finally / in the end	TC	2					d
-en efterårsdag	an autumn day	TC	2					n
-en forårsdag	a spring day	TC	2					n
-en sommerdag	a summer day	TC	2					n
-en vinterdag	a winter day	TC	2					n
-en regnvejrsdag	a rainy day	TC	2					n
-en ugedag	a day of the week	TC	2					n
+en efterårsdag	an autumn day	TC	2					n	efterårsdagen|efterårsdage	the autumn day|autumn days
+en forårsdag	a spring day	TC	2					n	forårsdagen|forårsdage	the spring day|spring days
+en sommerdag	a summer day	TC	2					n	sommerdagen|sommerdage	the summer day|summer days
+en vinterdag	a winter day	TC	2					n	vinterdagen|vinterdage	the winter day|winter days
+en regnvejrsdag	a rainy day	TC	2					n	regnvejrsdagen|regnvejrsdage	the rainy day|rainy days
+en ugedag	a day of the week	TC	2					n	ugedagen|ugedage	the day of the week|days of the week
 elvte	eleventh	NC	2					u
 tolvte	twelfth	NC	2					u
 tyvende	twentieth	NC	2					u
 hundrededel	hundredth (fraction)	NC	3					u
-en sommernat	a summer night	TC	2					n
-en vinternat	a winter night	TC	2					n
-et kvartal	a quarter (of a year)	TC	3					n
-et halvår	a half year	TC	3					n
-et skudår	a leap year	TC	3					n
-en tidsplan	a schedule	TC	2					n
-et tidsrum	a period of time	TC	3					n
-tidspres	time pressure	TC	3		et			n
-en yndlingsfarve	a favorite color	CO	2					n
-en mor	a mother	PF	1					n
-en far	a father	PF	1					n
+en sommernat	a summer night	TC	2					n	sommernatten|sommernætter	the summer night|summer nights
+en vinternat	a winter night	TC	2					n	vinternatten|vinternætter	the winter night|winter nights
+et kvartal	a quarter (of a year)	TC	3					n	kvartalet|kvartaler	the quarter (of a year)|quarters (of a year)
+et halvår	a half year	TC	3					n	halvåret	the half year
+et skudår	a leap year	TC	3					n	skudåret	the leap year
+en tidsplan	a schedule	TC	2					n	tidsplanen|tidsplaner	the schedule|schedules
+et tidsrum	a period of time	TC	3					n	tidsrummet	the period of time
+tidspres	time pressure	TC	3		et			n	tidspresset	the time pressure
+en yndlingsfarve	a favorite color	CO	2					n	yndlingsfarven|yndlingsfarver	the favorite color|favorite colors
+en mor	a mother	PF	1					n	moren|mødre	the mother|mothers
+en far	a father	PF	1					n	faren|fædre	the father|fathers
 forældre	parents	PF	1					n
-et barn	a child	PF	1					n
-en søn	a son	PF	1					n
-en datter	a daughter	PF	1					n
-en bror	a brother	PF	1					n
-en søster	a sister	PF	1					n
-en bedstemor	a grandmother	PF	1					n
-en bedstefar	a grandfather	PF	1					n
-et barnebarn	a grandchild	PF	2					n
-en tante	an aunt	PF	1					n
-en onkel	an uncle	PF	1					n
-en fætter	a male cousin	PF	1					n
-en kusine	a female cousin	PF	1					n
-en nevø	a nephew	PF	2					n
-en niece	a niece	PF	2					n
-en mand	a husband / man	PF	1					n
-en kone	a wife	PF	1					n
-en ægtefælle	a spouse	PF	2					n
-en kæreste	a girlfriend / boyfriend	PF	1					n
-en veninde	a female friend	PF	1					n
+et barn	a child	PF	1					n	barnet|børn	the child|children
+en søn	a son	PF	1					n	sønnen|sønner	the son|sons
+en datter	a daughter	PF	1					n	datteren|døtre	the daughter|daughters
+en bror	a brother	PF	1					n	broren|brødre	the brother|brothers
+en søster	a sister	PF	1					n	søsteren|søstre	the sister|sisters
+en bedstemor	a grandmother	PF	1					n	bedstemoren|bedstemødre	the grandmother|grandmothers
+en bedstefar	a grandfather	PF	1					n	bedstefaren|bedstefædre	the grandfather|grandfathers
+et barnebarn	a grandchild	PF	2					n	barnebarnet|børnebørn	the grandchild|grandchilds
+en tante	an aunt	PF	1					n	tanten|tanter	the aunt|aunts
+en onkel	an uncle	PF	1					n	onklen|onkler	the uncle|uncles
+en fætter	a male cousin	PF	1					n	fætteren|fætre	the male cousin|male cousins
+en kusine	a female cousin	PF	1					n	kusinen|kusiner	the female cousin|female cousins
+en nevø	a nephew	PF	2					n	nevøen|nevøer	the nephew|nephews
+en niece	a niece	PF	2					n	niecen|niecer	the niece|nieces
+en mand	a husband / man	PF	1					n	manden|mænd	the husband / the man|husbands / men
+en kone	a wife	PF	1					n	konen|koner	the wife|wives
+en ægtefælle	a spouse	PF	2					n	ægtefællen|ægtefæller	the spouse|spouses
+en kæreste	a girlfriend / boyfriend	PF	1					n	kæresten|kærester	the girlfriend / the boyfriend|girlfriends / boyfriends
+en veninde	a female friend	PF	1					n	veninden|veninder	the female friend|female friends
 en bekendt	an acquaintance	PF	2					n
-en svigermor	a mother-in-law	PF	2					n
-en svigerfar	a father-in-law	PF	2					n
-en stedmor	a stepmother	PF	2					n
-en stedfar	a stepfather	PF	2					n
-en tvilling	a twin	PF	2					n
-en baby	a baby	PF	1					n
+en svigermor	a mother-in-law	PF	2					n	svigermoren|svigermødre	the mother-in-law|mothers-in-law
+en svigerfar	a father-in-law	PF	2					n	svigerfaren|svigerfædre	the father-in-law|fathers-in-law
+en stedmor	a stepmother	PF	2					n	stedmoren|stedmødre	the stepmother|stepmothers
+en stedfar	a stepfather	PF	2					n	stedfaren|stedfædre	the stepfather|stepfathers
+en tvilling	a twin	PF	2					n	tvillingen|tvillinger	the twin|twins
+en baby	a baby	PF	1					n	babyen|babyer	the baby|babies
 en voksen	an adult	PF	2					n
-en teenager	a teenager	PF	2					n
-en dreng	a boy	PF	1					n
-en pige	a girl	PF	1					n
-en kvinde	a woman	PF	1					n
-en forfatter	an author	WJ	2					n
-en læge	a doctor	WJ	1					n
-en sygeplejerske	a nurse	WJ	2					n
-en lærer	a teacher	SL	1					n
-en elev	a pupil	SL	1					n
-en studerende	a student	SL	2					n
-en professor	a professor	SL	2					n
-en advokat	a lawyer	WJ	2					n
-en politibetjent	a police officer	WJ	2					n
-en brandmand	a firefighter	WJ	2					n
-en sælger	a salesperson	WJ	1					n
-en kunde	a customer	PF	2					n
-en chauffør	a driver	WJ	2					n
-en kok	a chef	WJ	1					n
-en tjener	a waiter	WJ	1					n
-en håndværker	a craftsman	WJ	2					n
-en ingeniør	an engineer	WJ	2					n
-en programmør	a programmer	WJ	2					n
-en kunstner	an artist	WJ	2					n
-en musiker	a musician	WJ	2					n
-en skuespiller	an actor	WJ	2					n
-en journalist	a journalist	WJ	2					n
-en præst	a priest	WJ	2					n
-en soldat	a soldier	WJ	2					n
-en bonde	a farmer	WJ	2					n
-en fisker	a fisherman	WJ	2					n
-en direktør	a director / CEO	WJ	2					n
-en statsminister	a prime minister	SP	2					n
-en borgmester	a mayor	SP	2					n
-en turist	a tourist	TT	1					n
-et medlem	a member	PF	2					n
-en leder	a leader	WJ	2					n
-en medarbejder	an employee	WJ	2					n
-en pensionist	a retiree	PF	2					n
-et kærlighedsforhold	a romantic relationship	PF	3					n
+en teenager	a teenager	PF	2					n	teenageren|teenagre	the teenager|teenagers
+en dreng	a boy	PF	1					n	drengen|drenge	the boy|boys
+en pige	a girl	PF	1					n	pigen|piger	the girl|girls
+en kvinde	a woman	PF	1					n	kvinden|kvinder	the woman|women
+en forfatter	an author	WJ	2					n	forfatteren|forfattere	the author|authors
+en læge	a doctor	WJ	1					n	lægen|læger	the doctor|doctors
+en sygeplejerske	a nurse	WJ	2					n	sygeplejersken|sygeplejersker	the nurse|nurses
+en lærer	a teacher	SL	1					n	læreren|lærere	the teacher|teachers
+en elev	a pupil	SL	1					n	eleven|elever	the pupil|pupils
+en studerende	a student	SL	2					n	studerenden|studerender	the student|students
+en professor	a professor	SL	2					n	professoren|professorer	the professor|professors
+en advokat	a lawyer	WJ	2					n	advokaten|advokater	the lawyer|lawyers
+en politibetjent	a police officer	WJ	2					n	politibetjenten|politibetjente	the police officer|police officers
+en brandmand	a firefighter	WJ	2					n	brandmanden|brandmænd	the firefighter|firefighters
+en sælger	a salesperson	WJ	1					n	sælgeren|sælgere	the salesperson|salespeople
+en kunde	a customer	PF	2					n	kunden|kunder	the customer|customers
+en chauffør	a driver	WJ	2					n	chaufføren|chauffører	the driver|drivers
+en kok	a chef	WJ	1					n	kokken|kokke	the chef|chefs
+en tjener	a waiter	WJ	1					n	tjeneren|tjenere	the waiter|waiters
+en håndværker	a craftsman	WJ	2					n	håndværkeren|håndværkere	the craftsman|craftsmen
+en ingeniør	an engineer	WJ	2					n	ingeniøren|ingeniører	the engineer|engineers
+en programmør	a programmer	WJ	2					n	programmøren|programmører	the programmer|programmers
+en kunstner	an artist	WJ	2					n	kunstneren|kunstnere	the artist|artists
+en musiker	a musician	WJ	2					n	musikeren|musikere	the musician|musicians
+en skuespiller	an actor	WJ	2					n	skuespilleren|skuespillere	the actor|actors
+en journalist	a journalist	WJ	2					n	journalisten|journalister	the journalist|journalists
+en præst	a priest	WJ	2					n	præsten|præster	the priest|priests
+en soldat	a soldier	WJ	2					n	soldaten|soldater	the soldier|soldiers
+en bonde	a farmer	WJ	2					n	bonden|bønder	the farmer|farmers
+en fisker	a fisherman	WJ	2					n	fiskeren|fiskere	the fisherman|fishermen
+en direktør	a director / CEO	WJ	2					n	direktøren|direktører	the director / the CEO|directors / CEOS
+en statsminister	a prime minister	SP	2					n	statsministeren|statsministre	the prime minister|prime ministers
+en borgmester	a mayor	SP	2					n	borgmesteren|borgmestre	the mayor|mayors
+en turist	a tourist	TT	1					n	turisten|turister	the tourist|tourists
+et medlem	a member	PF	2					n	medlemmet|medlemmer	the member|members
+en leder	a leader	WJ	2					n	lederen|ledere	the leader|leaders
+en medarbejder	an employee	WJ	2					n	medarbejderen|medarbejdere	the employee|employees
+en pensionist	a retiree	PF	2					n	pensionisten|pensionister	the retiree|retirees
+et kærlighedsforhold	a romantic relationship	PF	3					n	kærlighedsforholdet	the romantic relationship
 en date	a date	PF	2					n
-et ægteskab	a marriage	PF	2					n
-en skilsmisse	a divorce	PF	2					n
-en forlovelse	an engagement	PF	3					n
-et bryllup	a wedding	PF	1					n
+et ægteskab	a marriage	PF	2					n	ægteskabet|ægteskaber	the marriage|marriages
+en skilsmisse	a divorce	PF	2					n	skilsmissen|skilsmisser	the divorce|divorces
+en forlovelse	an engagement	PF	3					n	forlovelsen|forlovelser	the engagement|engagements
+et bryllup	a wedding	PF	1					n	brylluppet|bryllupper	the wedding|weddings
 et jubilæum	an anniversary	PF	3					n
-en fest	a party	PF	1					n
-en invitation	an invitation	PF	2					n
-en vært	a host	PF	2					n
-et selskab	a company/gathering	PF	2					n
+en fest	a party	PF	1					n	festen|fester	the party|parties
+en invitation	an invitation	PF	2					n	invitationen|invitationer	the invitation|invitations
+en vært	a host	PF	2					n	værten|værter	the host|hosts
+et selskab	a company/gathering	PF	2					n	selskabet|selskaber	the company/gathering|company/gatherings
 en underordnet	a subordinate	WJ	3					n
-en misforståelse	a misunderstanding	PF	2					n
-et skænderi	an argument	PF	2					n
-en forsoning	a reconciliation	PF	3					n
-en undskyldning	an apology	PF	2					n
-tilgivelse	forgiveness	PF	3		en			n
+en misforståelse	a misunderstanding	PF	2					n	misforståelsen|misforståelser	the misunderstanding|misunderstandings
+et skænderi	an argument	PF	2					n	skænderiet|skænderier	the argument|arguments
+en forsoning	a reconciliation	PF	3					n	forsoningen|forsoninger	the reconciliation|reconciliations
+en undskyldning	an apology	PF	2					n	undskyldningen|undskyldninger	the apology|apologies
+tilgivelse	forgiveness	PF	3		en			n	tilgivelsen	the forgiveness
 loyalitet	loyalty	PF	3		en			n
-en flirt	a flirt	PF	2					n
+en flirt	a flirt	PF	2					n	flirten|flirter	the flirt|flirts
 en eks	an ex	PF	2					n
-gensidighed	mutuality	PF	4		en			n
-fortrolighed	confidentiality / familiarity	PF	3		en			n
-sladder	gossip	PF	2		en			n
-et rygte	a rumor	PF	2					n
-en fyr	a guy	PF	2					n
-en herre	a gentleman / lord	PF	2					n
-en knægt	a lad / kid	PF	3					n
-en dame	a lady	PF	1					n
-en frøken	a miss / young lady	PF	3					n
-en kammerat	a buddy / comrade	PF	2					n
-et kys	a kiss	PF	2					n
-en partner	a partner	PF	2					n
-en hustru	a wife (formal)	PF	3					n
-en affære	an affair	PF	3					n
-en jomfru	a virgin / maiden	PF	3					n
-et kram	a hug	PF	2					n
+gensidighed	mutuality	PF	4		en			n	gensidigheden	the mutuality
+fortrolighed	confidentiality / familiarity	PF	3		en			n	fortroligheden	the confidentiality / the familiarity
+sladder	gossip	PF	2		en			n	sladderen	the gossip
+et rygte	a rumor	PF	2					n	rygtet|rygter	the rumor|rumors
+en fyr	a guy	PF	2					n	fyren|fyre	the guy|guys
+en herre	a gentleman / lord	PF	2					n	herren|herrer	the gentleman / the lord|gentlemans / lords
+en knægt	a lad / kid	PF	3					n	knægten|knægte	the lad / the kid|lads / kids
+en dame	a lady	PF	1					n	damen|damer	the lady|ladies
+en frøken	a miss / young lady	PF	3					n	frøkenen|frøkner	the miss / the young lady|misses / young ladies
+en kammerat	a buddy / comrade	PF	2					n	kammeraten|kammerater	the buddy / the comrade|buddies / comrades
+et kys	a kiss	PF	2					n	kysset	the kiss
+en partner	a partner	PF	2					n	partneren|partnere	the partner|partners
+en hustru	a wife (formal)	PF	3					n	hustruen|hustruer	the wife (formal)|wives (formal)
+en affære	an affair	PF	3					n	affæren|affærer	the affair|affairs
+en jomfru	a virgin / maiden	PF	3					n	jomfruen|jomfruer	the virgin / the maiden|virgins / maidens
+et kram	a hug	PF	2					n	krammet	the hug
 single	single	PF	2					a
-en tøs	a girl / lass	PF	3					n
+en tøs	a girl / lass	PF	3					n	tøsen|tøser	the girl / the lass|girls / lasses
 forlovet	engaged (to marry)	PF	2					a
-et knus	a hug	PF	2					n
-en barndom	a childhood	PF	2					n
-en ægtemand	a husband	PF	3					n
-kvindelig	female	PF	2					a
+et knus	a hug	PF	2					n	knuset	the hug
+en barndom	a childhood	PF	2					n	barndommen	the childhood
+en ægtemand	a husband	PF	3					n	ægtemanden|ægtemænd	the husband|husbands
+kvindelig	female	PF	2					a	kvindeligere|kvindeligst	more female|most female
 et kompliment	a compliment	PF	2					n
-en forfader	an ancestor	PF	3					n
+en forfader	an ancestor	PF	3					n	forfaderen	the ancestor
 lesbisk	lesbian	PF	3					a
-en barnepige	a nanny / babysitter	PF	2					n
-en enke	a widow	PF	3					n
-en afsked	a farewell	PF	2					n
-en babysitter	a babysitter	PF	2					n
-en gut	a guy / lad	PF	3					n
+en barnepige	a nanny / babysitter	PF	2					n	barnepigen|barnepiger	the nanny / the babysitter|nannies / babysitters
+en enke	a widow	PF	3					n	enken|enker	the widow|widows
+en afsked	a farewell	PF	2					n	afskeden|afskeder	the farewell|farewells
+en babysitter	a babysitter	PF	2					n	babysitteren|babysittere	the babysitter|babysitters
+en gut	a guy / lad	PF	3					n	gutten|gutter	the guy / the lad|guys / lads
 en besøgende	a visitor	PF	3					n
-en bryllupsdag	a wedding anniversary	PF	2					n
+en bryllupsdag	a wedding anniversary	PF	2					n	bryllupsdagen|bryllupsdage	the wedding anniversary|wedding anniversaries
 manerer	manners	PF	3		pl			n
 søskende	siblings	PF	2		pl			n
 opdraget	brought up / well-mannered	PF	3					a
-en forælder	a parent	PF	2					n
-en bryllupsrejse	a honeymoon	PF	2					n
-en arving	an heir	PF	3					n
-en ekskæreste	an ex (boyfriend/girlfriend)	PF	2					n
-en slægtning	a relative	PF	3					n
-ungdom	youth	PF	2		en			n
-en elskerinde	a mistress	PF	4					n
-en ledsager	a companion / escort	PF	3					n
-en moster	an aunt (mother's sister)	PF	2					n
-en faster	an aunt (father's sister)	PF	2					n
-en morbror	an uncle (mother's brother)	PF	2					n
-en farbror	an uncle (father's brother)	PF	2					n
-en eksmand	an ex-husband	PF	3					n
-en svoger	a brother-in-law	PF	2					n
-en svigerinde	a sister-in-law	PF	2					n
+en forælder	a parent	PF	2					n	forælderen|forældre	the parent|parents
+en bryllupsrejse	a honeymoon	PF	2					n	bryllupsrejsen|bryllupsrejser	the honeymoon|honeymoons
+en arving	an heir	PF	3					n	arvingen|arvinger	the heir|heirs
+en ekskæreste	an ex (boyfriend/girlfriend)	PF	2					n	ekskæresten|ekskærester	the ex (boyfriend/girlfriend)|exes (boyfriend/girlfriend)
+en slægtning	a relative	PF	3					n	slægtningen|slægtninge	the relative|relatives
+ungdom	youth	PF	2		en			n	ungdommen	the youth
+en elskerinde	a mistress	PF	4					n	elskerinden|elskerinder	the mistress|mistresses
+en ledsager	a companion / escort	PF	3					n	ledsageren|ledsagere	the companion / the escort|companions / escorts
+en moster	an aunt (mother's sister)	PF	2					n	mosteren|mostre	the aunt (mother's sister)|aunts (mother's sister)
+en faster	an aunt (father's sister)	PF	2					n	fasteren|fastre	the aunt (father's sister)|aunts (father's sister)
+en morbror	an uncle (mother's brother)	PF	2					n	morbroren|morbrødre	the uncle (mother's brother)|uncles (mother's brother)
+en farbror	an uncle (father's brother)	PF	2					n	farbroren|farbrødre	the uncle (father's brother)|uncles (father's brother)
+en eksmand	an ex-husband	PF	3					n	eksmanden|eksmænd	the ex-husband|ex-husbands
+en svoger	a brother-in-law	PF	2					n	svogeren|svogre	the brother-in-law|brothers
+en svigerinde	a sister-in-law	PF	2					n	svigerinden|svigerinder	the sister-in-law|sisters-in-law
 adopteret	adopted	PF	2					a
-en forlover	a best man / maid of honor	PF	3					n
-omsorg	care	PF	3		en			n
-enlig	single / solitary	PF	3					a
+en forlover	a best man / maid of honor	PF	3					n	forloveren|forlovere	the best man / the maid of honor|best men / maids of honor
+omsorg	care	PF	3		en			n	omsorgen	the care
+enlig	single / solitary	PF	3					a	enligere|enligst	singler / more solitary|singlest / most solitary
 en polterabend	a bachelor / bachelorette party	CH	3					n
 forældreløs	orphaned	PF	3					a
-mandlig	male	PF	2					a
-en blondine	a blonde	PF	3					n
+mandlig	male	PF	2					a	mandligere|mandligst	maler|malest
+en blondine	a blonde	PF	3					n	blondinen|blondiner	the blonde|blondes
 at kramme	to hug	PF	2	krammer|krammede|krammet		jeg krammer|jeg krammede|jeg har krammet	I hug|I hugged|I have hugged	v
-en mormor	a grandmother (mother's mother)	PF	1					n
-en farmor	a grandmother (father's mother)	PF	1					n
-en morfar	a grandfather (mother's father)	PF	1					n
-en farfar	a grandfather (father's father)	PF	1					n
+en mormor	a grandmother (mother's mother)	PF	1					n	mormoren|mormødre	the grandmother (mother's mother)|grandmothers (mother's mother)
+en farmor	a grandmother (father's mother)	PF	1					n	farmoren|farmødre	the grandmother (father's mother)|grandmothers (father's mother)
+en morfar	a grandfather (mother's father)	PF	1					n	morfaren|morfædre	the grandfather (mother's father)|grandfathers (mother's father)
+en farfar	a grandfather (father's father)	PF	1					n	farfaren|farfædre	the grandfather (father's father)|grandfathers (father's father)
 bedsteforældre	grandparents	PF	1		pl			n
-en oldemor	a great-grandmother	PF	3					n
-en oldefar	a great-grandfather	PF	3					n
+en oldemor	a great-grandmother	PF	3					n	oldemoren|oldemødre	the great-grandmother|great-grandmothers
+en oldefar	a great-grandfather	PF	3					n	oldefaren|oldefædre	the great-grandfather|great-grandfathers
 svigerforældre	parents-in-law	PF	2		pl			n
-en svigersøn	a son-in-law	PF	2					n
-en svigerdatter	a daughter-in-law	PF	2					n
-en halvbror	a half-brother	PF	2					n
-en halvsøster	a half-sister	PF	2					n
-en storebror	a big brother	PF	1					n
-en storesøster	a big sister	PF	1					n
-en lillebror	a little brother	PF	1					n
-en lillesøster	a little sister	PF	1					n
-et spædbarn	an infant	PF	3					n
-et småbarn	a toddler	PF	2					n
-en samlever	a live-in partner	PF	3					n
-en slægt	a family line / lineage	PF	3					n
-et fornavn	a first name	PF	1					n
-et efternavn	a last name	PF	1					n
-et mellemnavn	a middle name	PF	2					n
-et kælenavn	a nickname	PF	2					n
-en fødselsdato	a date of birth	PF	2					n
+en svigersøn	a son-in-law	PF	2					n	svigersønn|svigersønne	the son-in-law|sons-in-law
+en svigerdatter	a daughter-in-law	PF	2					n	svigerdatteren|svigerdøtre	the daughter-in-law|daughters-in-law
+en halvbror	a half-brother	PF	2					n	halvbroren|halvbrødre	the half-brother|half-brothers
+en halvsøster	a half-sister	PF	2					n	halvsøsteren|halvsøstre	the half-sister|half-sisters
+en storebror	a big brother	PF	1					n	storebroren|storebrødre	the big brother|big brothers
+en storesøster	a big sister	PF	1					n	storesøsteren|storesøstre	the big sister|big sisters
+en lillebror	a little brother	PF	1					n	lillebroren|lillebrødre	the little brother|little brothers
+en lillesøster	a little sister	PF	1					n	lillesøsteren|lillesøstre	the little sister|little sisters
+et spædbarn	an infant	PF	3					n	spædbarnet|spædbørn	the infant|infants
+et småbarn	a toddler	PF	2					n	småbarnet|småbørn	the toddler|toddlers
+en samlever	a live-in partner	PF	3					n	samleveren|samlevere	the live-in partner|live-in partners
+en slægt	a family line / lineage	PF	3					n	slægten|slægter	the family line / the lineage|family lines / lineages
+et fornavn	a first name	PF	1					n	fornavnet|fornavne	the first name|first names
+et efternavn	a last name	PF	1					n	efternavnet|efternavne	the last name|last names
+et mellemnavn	a middle name	PF	2					n	mellemnavnet|mellemnavne	the middle name|middle names
+et kælenavn	a nickname	PF	2					n	kælenavnet|kælenavne	the nickname|nicknames
+en fødselsdato	a date of birth	PF	2					n	fødselsdatoen|fødselsdatoer	the date of birth|dates of birth
 at blive gift	to get married	PF	2	bliver gift|blev gift|blevet gift		jeg bliver gift|jeg blev gift|jeg er blevet gift	I get married|I got married|I have gotten married	v
 at blive skilt	to get divorced	PF	2	bliver skilt|blev skilt|blevet skilt		jeg bliver skilt|jeg blev skilt|jeg er blevet skilt	I get divorced|I got divorced|I have gotten divorced	v
 at date	to date	PF	2	dater|datede|datet		jeg dater|jeg datede|jeg har datet	I date|I dated|I have dated	v
@@ -4857,45 +4860,45 @@ gift	married	PF	1					a
 ugift	unmarried	PF	2					a
 fraskilt	divorced	PF	2					a
 voksen	grown-up	PF	2					a
-en opvækst	an upbringing	PF	3					n
-et besøg	a visit	PF	1					n
-en værtinde	a hostess	PF	3					n
-en brudgom	a groom	PF	3					n
-en brudepige	a bridesmaid	PF	3					n
-en vielsesring	a wedding ring	PF	3					n
-en forlovelsesring	an engagement ring	PF	3					n
-et løfte	a promise	PF	2					n
-et afslag	a refusal / rejection	PF	3					n
-en barndomsven	a childhood friend	PF	2					n
-en omgangskreds	a circle of friends	PF	3					n
-ros	praise	PF	2		en			n
-en løgn	a lie	PF	2					n
-et svigt	a betrayal / letdown	PF	3					n
-et kærlighedsbrev	a love letter	PF	2					n
-et crush	a crush	PF	3					n
-romantik	romance	PF	2		en			n
-en tiltrækning	an attraction	PF	3					n
-et ægtepar	a married couple	PF	2					n
-et kærestepar	a couple (dating)	PF	2					n
+en opvækst	an upbringing	PF	3					n	opvæksten	the upbringing
+et besøg	a visit	PF	1					n	besøget	the visit
+en værtinde	a hostess	PF	3					n	værtinden|værtinder	the hostess|hostesses
+en brudgom	a groom	PF	3					n	brudgommen|brudgomme	the groom|grooms
+en brudepige	a bridesmaid	PF	3					n	brudepigen|brudepiger	the bridesmaid|bridesmaids
+en vielsesring	a wedding ring	PF	3					n	vielsesringen|vielsesringe	the wedding ring|wedding rings
+en forlovelsesring	an engagement ring	PF	3					n	forlovelsesringen|forlovelsesringe	the engagement ring|engagement rings
+et løfte	a promise	PF	2					n	løftet|løfter	the promise|promises
+et afslag	a refusal / rejection	PF	3					n	afslaget	the refusal / the rejection
+en barndomsven	a childhood friend	PF	2					n	barndomsvenn|barndomsvenne	the childhood friend|childhood friends
+en omgangskreds	a circle of friends	PF	3					n	omgangskredsen|omgangskredse	the circle of friends|circles of friends
+ros	praise	PF	2		en			n	rosen	the praise
+en løgn	a lie	PF	2					n	løgnen|løgne	the lie|lies
+et svigt	a betrayal / letdown	PF	3					n	svigtet	the betrayal / the letdown
+et kærlighedsbrev	a love letter	PF	2					n	kærlighedsbrevet|kærlighedsbreve	the love letter|love letters
+et crush	a crush	PF	3					n	crushet|crushes	the crush|crushes
+romantik	romance	PF	2		en			n	romantikken	the romance
+en tiltrækning	an attraction	PF	3					n	tiltrækningen|tiltrækninger	the attraction|attractions
+et ægtepar	a married couple	PF	2					n	ægteparret|ægteparr	the married couple|married couples
+et kærestepar	a couple (dating)	PF	2					n	kæresteparret|kæresteparr	the couple (dating)|couples (dating)
 en enlig forsørger	a single parent	PF	3					n
-en plejefamilie	a foster family	PF	3					n
-et plejebarn	a foster child	PF	3					n
-en adoption	an adoption	PF	3					n
-en familiefest	a family party	PF	3					n
-en generationskløft	a generation gap	PF	4					n
-et samvær	a time together / custody visit	PF	3					n
-et samliv	a life together	PF	3					n
-forældremyndighed	custody (parental)	PF	3		en			n
-en opdragelse	an upbringing	PF	3					n
-børnepasning	childcare	PF	3		en			n
-en dagplejer	a childminder	PF	3					n
-en babyalarm	a baby monitor	PF	3					n
-en graviditetstest	a pregnancy test	PF	3					n
-en termin	a due date / term	PF	3					n
-en navngivning	a naming	PF	4					n
-et gudbarn	a godchild	PF	3					n
-en gudmor	a godmother	PF	3					n
-en gudfar	a godfather	PF	3					n
+en plejefamilie	a foster family	PF	3					n	plejefamilien|plejefamilier	the foster family|foster families
+et plejebarn	a foster child	PF	3					n	plejebarnet|plejebørn	the foster child|foster children
+en adoption	an adoption	PF	3					n	adoptionen|adoptioner	the adoption|adoptions
+en familiefest	a family party	PF	3					n	familiefesten|familiefester	the family party|family parties
+en generationskløft	a generation gap	PF	4					n	generationskløften|generationskløfter	the generation gap|generation gaps
+et samvær	a time together / custody visit	PF	3					n	samværet	the time together / the custody visit
+et samliv	a life together	PF	3					n	samlivet	the life together
+forældremyndighed	custody (parental)	PF	3		en			n	forældremyndigheden	the custody (parental)
+en opdragelse	an upbringing	PF	3					n	opdragelsen	the upbringing
+børnepasning	childcare	PF	3		en			n	børnepasningen	the childcare
+en dagplejer	a childminder	PF	3					n	dagplejeren|dagplejere	the childminder|childminders
+en babyalarm	a baby monitor	PF	3					n	babyalarmen|babyalarmer	the baby monitor|baby monitors
+en graviditetstest	a pregnancy test	PF	3					n	graviditetstesten	the pregnancy test
+en termin	a due date / term	PF	3					n	terminen|terminer	the due date / the term|due dates / terms
+en navngivning	a naming	PF	4					n	navngivningen|navngivninger	the naming|namings
+et gudbarn	a godchild	PF	3					n	gudbarnet|gudbørn	the godchild|godchilds
+en gudmor	a godmother	PF	3					n	gudmoren|gudmødre	the godmother|godmothers
+en gudfar	a godfather	PF	3					n	gudfaren|gudfædre	the godfather|godfathers
 at tale ud	to talk things through	PF	3	taler ud|talte ud|talt ud		jeg taler ud|jeg talte ud|jeg har talt ud	I talk things through|I talked things through|I have talked things through	v
 at holde et løfte	to keep a promise	PF	2	holder et løfte|holdt et løfte|holdt et løfte		jeg holder et løfte|jeg holdt et løfte|jeg har holdt et løfte	I keep a promise|I kept a promise|I have kept a promise	v
 at bryde et løfte	to break a promise	PF	2	bryder et løfte|brød et løfte|brudt et løfte		jeg bryder et løfte|jeg brød et løfte|jeg har brudt et løfte	I break a promise|I broke a promise|I have broken a promise	v
@@ -4920,86 +4923,86 @@ beskyttende	protective	FP	3					a
 nærværende	present / attentive	FP	3					a
 fraværende	absent / absent-minded	FP	3					a
 sladrevorn	gossipy	FP	4					a
-snakkesalig	chatty	FP	3					a
+snakkesalig	chatty	FP	3					a	snakkesaligere|snakkesaligst	chattier|chattiest
 diplomatisk	diplomatic	FP	3					a
-et familiemedlem	a family member	PF	2					n
-en husmor	a housewife	PF	3					n
-et naboskab	a neighborhood relationship	PF	4					n
-en storfamilie	an extended family	PF	3					n
-en vennegruppe	a group of friends	PF	2					n
-et familiebillede	a family photo	PF	2					n
-et fødested	a birthplace	PF	3					n
-et samtaleemne	a topic of conversation	PF	3					n
-mad	food	FD	1					n
-morgenmad	breakfast	FD	1		en			n
-frokost	lunch	FD	1		en			n
-aftensmad	dinner	FD	1		en			n
-et måltid	a meal	FD	1					n
-brød	bread	FD	1		et			n
-rugbrød	rye bread	FD	1		et			n
-smør	butter	FD	1					n
-ost	cheese	FD	1		en			n
-mælk	milk	FD	1					n
-fløde	cream	FD	2		en			n
-et æg	an egg	FD	1					n
-kød	meat	FD	1					n
-oksekød	beef	FD	2					n
-svinekød	pork	FD	2					n
-kylling	chicken (meat)	FD	1		en			n
-en pølse	a sausage	FD	1					n
-laks	salmon	FD	2		en			n
-en reje	a shrimp	FD	2					n
-ris	rice	FD	1					n
-pasta	pasta	FD	1					n
-en kartoffel	a potato	FD	1					n
-en grøntsag	a vegetable	FD	2					n
-en gulerod	a carrot	FD	1					n
-et løg	an onion	FD	2					n
-hvidløg	garlic	FD	2		et			n
-en tomat	a tomato	FD	1					n
-en agurk	a cucumber	FD	1					n
-en salat	a salad / lettuce	FD	1					n
-en frugt	a fruit	FD	1					n
-et æble	an apple	FD	1					n
-en banan	a banana	FD	1					n
-en appelsin	an orange	FD	1					n
-en citron	a lemon	FD	1					n
-et jordbær	a strawberry	FD	1					n
-en vindrue	a grape	FD	2					n
-en pære	a pear	FD	2					n
-en nød	a nut	FD	2					n
-en mandel	an almond	FD	3					n
-en suppe	a soup	FD	1					n
-en sovs	a sauce / gravy	FD	2					n
-et krydderi	a spice	FD	2					n
-peber	pepper	FD	1					n
-sukker	sugar	FD	1					n
-honning	honey	FD	2					n
-syltetøj	jam	FD	2					n
-en kage	a cake	FD	1					n
-is	ice cream / ice	FD	1		en			n
-chokolade	chocolate	FD	1		en			n
-slik	candy	FD	1					n
-en kiks	a biscuit	FD	2					n
-juice	juice	FD	1		en			n
-en sodavand	a soda	FD	1					n
-en øl	a beer	FD	1					n
-en vin	a wine	FD	1					n
-kaffe	coffee	FD	1		en			n
+et familiemedlem	a family member	PF	2					n	familiemedlemmet|familiemedlemmer	the family member|family members
+en husmor	a housewife	PF	3					n	husmoren|husmødre	the housewife|housewives
+et naboskab	a neighborhood relationship	PF	4					n	naboskabet|naboskaber	the neighborhood relationship|neighborhood relationships
+en storfamilie	an extended family	PF	3					n	storfamilien|storfamilier	the extended family|extended families
+en vennegruppe	a group of friends	PF	2					n	vennegruppen|vennegrupper	the group of friends|groups of friends
+et familiebillede	a family photo	PF	2					n	familiebilledet|familiebilleder	the family photo|family photos
+et fødested	a birthplace	PF	3					n	fødestedet|fødesteder	the birthplace|birthplaces
+et samtaleemne	a topic of conversation	PF	3					n	samtaleemnet|samtaleemner	the topic of conversation|topics of conversation
+mad	food	FD	1					n	maden	the food
+morgenmad	breakfast	FD	1		en			n	morgenmaden	the breakfast
+frokost	lunch	FD	1		en			n	frokosten	the lunch
+aftensmad	dinner	FD	1		en			n	aftensmaden	the dinner
+et måltid	a meal	FD	1					n	måltidet|måltider	the meal|meals
+brød	bread	FD	1		et			n	brødet	the bread
+rugbrød	rye bread	FD	1		et			n	rugbrødet	the rye bread
+smør	butter	FD	1					n	smørret	the butter
+ost	cheese	FD	1		en			n	osten	the cheese
+mælk	milk	FD	1					n	mælken	the milk
+fløde	cream	FD	2		en			n	fløden	the cream
+et æg	an egg	FD	1					n	ægget|ægge	the egg|eggs
+kød	meat	FD	1					n	kødet	the meat
+oksekød	beef	FD	2					n	oksekødet	the beef
+svinekød	pork	FD	2					n	svinekødet	the pork
+kylling	chicken (meat)	FD	1		en			n	kyllingen	the chicken (meat)
+en pølse	a sausage	FD	1					n	pølsen|pølser	the sausage|sausages
+laks	salmon	FD	2		en			n	laksen	the salmon
+en reje	a shrimp	FD	2					n	rejen|rejer	the shrimp|shrimps
+ris	rice	FD	1					n	risen	the rice
+pasta	pasta	FD	1					n	pastaen	the pasta
+en kartoffel	a potato	FD	1					n	kartoflen|kartofler	the potato|potatoes
+en grøntsag	a vegetable	FD	2					n	grøntsagen|grøntsager	the vegetable|vegetables
+en gulerod	a carrot	FD	1					n	guleroden|gulerødder	the carrot|carrots
+et løg	an onion	FD	2					n	løget	the onion
+hvidløg	garlic	FD	2		et			n	hvidløget	the garlic
+en tomat	a tomato	FD	1					n	tomaten|tomater	the tomato|tomatoes
+en agurk	a cucumber	FD	1					n	agurken|agurker	the cucumber|cucumbers
+en salat	a salad / lettuce	FD	1					n	salaten|salater	the salad / the lettuce|salads / lettuces
+en frugt	a fruit	FD	1					n	frugten	the fruit
+et æble	an apple	FD	1					n	æblet|æbler	the apple|apples
+en banan	a banana	FD	1					n	bananen|bananer	the banana|bananas
+en appelsin	an orange	FD	1					n	appelsinen|appelsiner	the orange|oranges
+en citron	a lemon	FD	1					n	citronen|citroner	the lemon|lemons
+et jordbær	a strawberry	FD	1					n	jordbærret|jordbærr	the strawberry|strawberries
+en vindrue	a grape	FD	2					n	vindruen|vindruer	the grape|grapes
+en pære	a pear	FD	2					n	pæren|pærer	the pear|pears
+en nød	a nut	FD	2					n	nøden	the nut
+en mandel	an almond	FD	3					n	mandlen|mandler	the almond|almonds
+en suppe	a soup	FD	1					n	suppen|supper	the soup|soups
+en sovs	a sauce / gravy	FD	2					n	sovsen|sovse	the sauce / the gravy|sauces / gravies
+et krydderi	a spice	FD	2					n	krydderiet|krydderier	the spice|spices
+peber	pepper	FD	1					n	peberen	the pepper
+sukker	sugar	FD	1					n	sukkeret	the sugar
+honning	honey	FD	2					n	honningen	the honey
+syltetøj	jam	FD	2					n	syltetøjet	the jam
+en kage	a cake	FD	1					n	kagen|kager	the cake|cakes
+is	ice cream / ice	FD	1		en			n	isen	the ice cream / the ice
+chokolade	chocolate	FD	1		en			n	chokoladen	the chocolate
+slik	candy	FD	1					n	slikket	the candy
+en kiks	a biscuit	FD	2					n	kiksen|kikse	the biscuit|biscuits
+juice	juice	FD	1		en			n	juicen	the juice
+en sodavand	a soda	FD	1					n	sodavanden|sodavander	the soda|sodas
+en øl	a beer	FD	1					n	øllen|øller	the beer|beers
+en vin	a wine	FD	1					n	vinen|vine	the wine|wines
+kaffe	coffee	FD	1		en			n	kaffen	the coffee
 te	tea	FD	1		en			n
-en drik	a drink	FD	2					n
-et glas	a glass	FD	1					n
-en kop	a cup	FD	1					n
-en tallerken	a plate	FD	1					n
-en skål	a bowl	FD	1					n
+en drik	a drink	FD	2					n	drikken|drikke	the drink|drinks
+et glas	a glass	FD	1					n	glasset	the glass
+en kop	a cup	FD	1					n	koppen|kopper	the cup|cups
+en tallerken	a plate	FD	1					n	tallerkenen|tallerkner	the plate|plates
+en skål	a bowl	FD	1					n	skålen|skåle	the bowl|bowls
 en ske	a spoon	FD	1					n
-en gaffel	a fork	FD	1					n
-en kniv	a knife	FD	1					n
-en serviet	a napkin	FD	2					n
-en opskrift	a recipe	FD	2					n
-en ingrediens	an ingredient	FD	3					n
-en smag	a taste	FD	2					n
-lækker	delicious	FD	1					a
+en gaffel	a fork	FD	1					n	gaflen|gafler	the fork|forks
+en kniv	a knife	FD	1					n	kniven|knive	the knife|knives
+en serviet	a napkin	FD	2					n	servietten|servietter	the napkin|napkins
+en opskrift	a recipe	FD	2					n	opskriften|opskrifter	the recipe|recipes
+en ingrediens	an ingredient	FD	3					n	ingrediensen|ingredienser	the ingredient|ingredients
+en smag	a taste	FD	2					n	smagen|smage	the taste|tastes
+lækker	delicious	FD	1					a	lækrere|lækrest	more delicious|most delicious
 at tilberede	to prepare (food)	FD	3	tilbereder|tilberedte|tilberedt		jeg tilbereder|jeg tilberedte|jeg har tilberedt	I prepare (food)|I prepared (food)|I have prepared (food)	v
 at stege	to fry / roast	FD	2	steger|stegte|stegt		jeg steger|jeg stegte|jeg har stegt	I fry / roast|I fried / roasted|I have fried / roasted	v
 at koge	to boil	FD	1	koger|kogte|kogt		jeg koger|jeg kogte|jeg har kogt	I boil|I boiled|I have boiled	v
@@ -5012,176 +5015,176 @@ at smage	to taste	FD	1	smager|smagte|smagt		jeg smager|jeg smagte|jeg har smagt	
 at servere	to serve	FD	2	serverer|serverede|serveret		jeg serverer|jeg serverede|jeg har serveret	I serve|I served|I have served	v
 at bestille	to order	FD	1	bestiller|bestilte|bestilt		jeg bestiller|jeg bestilte|jeg har bestilt	I order|I ordered|I have ordered	v
 drikkepenge	a tip (money)	MB	2		pl			n
-en vegetar	a vegetarian	FD	2					n
-en veganer	a vegan	FD	2					n
-en allergi	an allergy	FD	2					n
-appetit	appetite	FD	2		en			n
+en vegetar	a vegetarian	FD	2					n	vegetaren|vegetarer	the vegetarian|vegetarians
+en veganer	a vegan	FD	2					n	veganeren|veganere	the vegan|vegans
+en allergi	an allergy	FD	2					n	allergien|allergier	the allergy|allergies
+appetit	appetite	FD	2		en			n	appetitten	the appetite
 skål	cheers	GR	1					f
-franskbrød	white bread	FD	2		et			n
-en bolle	a bun	FD	2					n
-en pandekage	a pancake	FD	1					n
-risengrød	rice porridge	FD	3		en			n
-en frikadelle	a meatball	FD	2					n
-leverpostej	liver pâté	FD	2		en			n
-rødgrød	red berry pudding	FD	3		en			n
-en snaps	a schnapps	FD	3					n
-en rødvin	a red wine	FD	2					n
-en hvidvin	a white wine	FD	2					n
-et fadøl	a draft beer	FD	2					n
-knækbrød	crispbread	FD	3		et			n
+franskbrød	white bread	FD	2		et			n	franskbrødet	the white bread
+en bolle	a bun	FD	2					n	bollen|boller	the bun|buns
+en pandekage	a pancake	FD	1					n	pandekagen|pandekager	the pancake|pancakes
+risengrød	rice porridge	FD	3		en			n	risengrøden	the rice porridge
+en frikadelle	a meatball	FD	2					n	frikadellen|frikadeller	the meatball|meatballs
+leverpostej	liver pâté	FD	2		en			n	leverpostejen	the liver pâté
+rødgrød	red berry pudding	FD	3		en			n	rødgrøden	the red berry pudding
+en snaps	a schnapps	FD	3					n	snapsen|snapse	the schnapps|schnappss
+en rødvin	a red wine	FD	2					n	rødvinen|rødvine	the red wine|red wines
+en hvidvin	a white wine	FD	2					n	hvidvinen|hvidvine	the white wine|white wines
+et fadøl	a draft beer	FD	2					n	fadøllet	the draft beer
+knækbrød	crispbread	FD	3		et			n	knækbrødet	the crispbread
 müsli	muesli	FD	2		en			n
-yoghurt	yogurt	FD	2		en			n
-spegepølse	salami	FD	3		en			n
-et smørrebrød	an open sandwich	FD	2					n
-en portion	a portion	FD	2					n
-en gryde	a pot	FD	2					n
-en pande	a pan	FD	2					n
-et menukort	a menu	FD	2					n
-en forret	a starter	FD	2					n
-en hovedret	a main course	FD	2					n
-en dessert	a dessert	FD	2					n
-en duft	a smell	FD	2					n
-en konsistens	a texture	FD	3					n
+yoghurt	yogurt	FD	2		en			n	yoghurten	the yogurt
+spegepølse	salami	FD	3		en			n	spegepølsen	the salami
+et smørrebrød	an open sandwich	FD	2					n	smørrebrødet	the open sandwich
+en portion	a portion	FD	2					n	portionen|portioner	the portion|portions
+en gryde	a pot	FD	2					n	gryden|gryder	the pot|pots
+en pande	a pan	FD	2					n	panden|pander	the pan|pans
+et menukort	a menu	FD	2					n	menukortet	the menu
+en forret	a starter	FD	2					n	forretten|forretter	the starter|starters
+en hovedret	a main course	FD	2					n	hovedretten|hovedretter	the main course|main courses
+en dessert	a dessert	FD	2					n	desserten|desserter	the dessert|desserts
+en duft	a smell	FD	2					n	duften|dufte	the smell|smells
+en konsistens	a texture	FD	3					n	konsistensen	the texture
 krydret	spicy	FD	2					a
-mild	mild	FD	2					a
+mild	mild	FD	2					a	mildere|mildest	milder|mildest
 mættende	filling	FD	3					a
 vegetarisk	vegetarian	FD	2					a
 vegansk	vegan	FD	2					a
-en bagning	a baking	FD	3					n
-en stegning	a frying	FD	3					n
-en kogning	a boiling	FD	3					n
-en middag	a dinner / noon	FD	1					n
-en whisky	a whisky	FD	2					n
-champagne	champagne	FD	2		en			n
-sprut	booze	FD	3		en			n
-tyggegummi	chewing gum	FD	2		et			n
-en bøf	a steak / beef patty	FD	2					n
-en kalkun	a turkey	FD	2					n
-en småkage	a cookie / biscuit	FD	2					n
-gin	gin	FD	2		en			n
+en bagning	a baking	FD	3					n	bagningen|bagninger	the baking|bakings
+en stegning	a frying	FD	3					n	stegningen|stegninger	the frying|fryings
+en kogning	a boiling	FD	3					n	kogningen|kogninger	the boiling|boilings
+en middag	a dinner / noon	FD	1					n	middagen|middage	the dinner / the noon|dinners / noons
+en whisky	a whisky	FD	2					n	whiskyen|whiskyer	the whisky|whiskies
+champagne	champagne	FD	2		en			n	champagnen	the champagne
+sprut	booze	FD	3		en			n	sprutten	the booze
+tyggegummi	chewing gum	FD	2		et			n	tyggegummiet	the chewing gum
+en bøf	a steak / beef patty	FD	2					n	bøffen|bøffer	the steak / the beef patty|steaks / beef patties
+en kalkun	a turkey	FD	2					n	kalkunen|kalkuner	the turkey|turkeys
+en småkage	a cookie / biscuit	FD	2					n	småkagen|småkager	the cookie / the biscuit|cookies / biscuits
+gin	gin	FD	2		en			n	ginn	the gin
 popcorn	popcorn	FD	2		en			n
-en skinke	a ham	FD	2					n
-en snack	a snack	FD	2					n
-et krus	a mug	FD	2					n
+en skinke	a ham	FD	2					n	skinken|skinker	the ham|hams
+en snack	a snack	FD	2					n	snacken	the snack
+et krus	a mug	FD	2					n	kruset	the mug
 en teske	a teaspoon	FD	2					n
 en spiseske	a tablespoon	FD	2					n
-en dug	a tablecloth	FD	3					n
-en bradepande	a roasting pan	FD	3					n
-en bageplade	a baking tray	FD	3					n
-et skærebræt	a cutting board	FD	3					n
-en øse	a ladle	FD	3					n
-et piskeris	a whisk	FD	3					n
-en dåseåbner	a can opener	FD	3					n
-en proptrækker	a corkscrew	FD	3					n
-en termokande	a thermos	FD	3					n
-en kaffemaskine	a coffee maker	FD	2					n
-en elkedel	an electric kettle	FD	2					n
-en brødrister	a toaster	FD	2					n
-en mikroovn	a microwave	FD	2					n
+en dug	a tablecloth	FD	3					n	dugen|duge	the tablecloth|tablecloths
+en bradepande	a roasting pan	FD	3					n	bradepanden|bradepander	the roasting pan|roasting pans
+en bageplade	a baking tray	FD	3					n	bagepladen|bageplader	the baking tray|baking trays
+et skærebræt	a cutting board	FD	3					n	skærebrætt|skærebrætter	the cutting board|cutting boards
+en øse	a ladle	FD	3					n	øsen|øser	the ladle|ladles
+et piskeris	a whisk	FD	3					n	piskeriset	the whisk
+en dåseåbner	a can opener	FD	3					n	dåseåbneren|dåseåbnere	the can opener|can openers
+en proptrækker	a corkscrew	FD	3					n	proptrækkeren|proptrækkere	the corkscrew|corkscrews
+en termokande	a thermos	FD	3					n	termokanden|termokander	the thermos|thermoss
+en kaffemaskine	a coffee maker	FD	2					n	kaffemaskinen|kaffemaskiner	the coffee maker|coffee makers
+en elkedel	an electric kettle	FD	2					n	elkedlen|elkedler	the electric kettle|electric kettles
+en brødrister	a toaster	FD	2					n	brødristeren|brødristere	the toaster|toasters
+en mikroovn	a microwave	FD	2					n	mikroovnen|mikroovne	the microwave|microwaves
 rester	leftovers	FD	2		pl			n
-en brunch	a brunch	FD	2					n
+en brunch	a brunch	FD	2					n	brunchen|bruncher	the brunch|brunches
 drikkevarer	drinks / beverages	FD	2		pl			n
-kakao	cocoa / hot chocolate	FD	2		en			n
-saft	cordial / squash	FD	2		en			n
-et rundstykke	a bread roll	FD	1					n
-et wienerbrød	a Danish pastry	FD	2					n
-en kanelsnegl	a cinnamon roll	FD	2					n
-en lagkage	a layer cake	FD	2					n
-en vaffel	a waffle	FD	2					n
-en æbleskive	an æbleskive (round Danish pancake)	FD	2					n
-piskefløde	whipping cream	FD	3		en			n
+kakao	cocoa / hot chocolate	FD	2		en			n	kakaoen	the cocoa / the hot chocolate
+saft	cordial / squash	FD	2		en			n	saften	the cordial / the squash
+et rundstykke	a bread roll	FD	1					n	rundstykket|rundstykker	the bread roll|bread rolls
+et wienerbrød	a Danish pastry	FD	2					n	wienerbrødet	the Danish pastry
+en kanelsnegl	a cinnamon roll	FD	2					n	kanelsneglen|kanelsnegle	the cinnamon roll|cinnamon rolls
+en lagkage	a layer cake	FD	2					n	lagkagen|lagkager	the layer cake|layer cakes
+en vaffel	a waffle	FD	2					n	vaflen|vafler	the waffle|waffles
+en æbleskive	an æbleskive (round Danish pancake)	FD	2					n	æbleskiven|æbleskiver	the æbleskive (round Danish pancake)|æbleskives (round Danish pancake)
+piskefløde	whipping cream	FD	3		en			n	piskefløden	the whipping cream
 creme fraiche	crème fraîche	FD	3		en			n
-et spejlæg	a fried egg	FD	2					n
+et spejlæg	a fried egg	FD	2					n	spejlægget	the fried egg
 røræg	scrambled eggs	FD	2		et			n
 havregryn	oatmeal / rolled oats	FD	2		pl			n
-grød	porridge	FD	2		en			n
+grød	porridge	FD	2		en			n	grøden	the porridge
 cornflakes	cornflakes	FD	2		pl			n
-marmelade	marmalade / jam	FD	2		en			n
-pålæg	cold cuts / sandwich toppings	FD	2		et			n
+marmelade	marmalade / jam	FD	2		en			n	marmeladen	the marmalade / the jam
+pålæg	cold cuts / sandwich toppings	FD	2		et			n	pålægget	the cold cuts / the sandwich toppings
 en hotdog	a hot dog	FD	2					n
-en burger	a burger	FD	1					n
-en pizza	a pizza	FD	1					n
+en burger	a burger	FD	1					n	burgeren|burgere	the burger|burgers
+en pizza	a pizza	FD	1					n	pizzaen|pizzaer	the pizza|pizzas
 nudler	noodles	FD	2		pl			n
 kartofler	potatoes	FD	1		pl			n
 pommes frites	French fries	FD	1		pl			n
-en sandwich	a sandwich	FD	1					n
-lammekød	lamb (meat)	FD	2		et			n
+en sandwich	a sandwich	FD	1					n	sandwichen|sandwicher	the sandwich|sandwiches
+lammekød	lamb (meat)	FD	2		et			n	lammekødet	the lamb (meat)
 hakket oksekød	ground beef	FD	2		et			n
-flæskesteg	roast pork	FD	3		en			n
-bacon	bacon	FD	2		en			n
-torsk	cod	FD	3		en			n
-tun	tuna	FD	2		en			n
-sild	herring	FD	3		en			n
+flæskesteg	roast pork	FD	3		en			n	flæskestegen	the roast pork
+bacon	bacon	FD	2		en			n	baconen	the bacon
+torsk	cod	FD	3		en			n	torsken	the cod
+tun	tuna	FD	2		en			n	tunen	the tuna
+sild	herring	FD	3		en			n	silden	the herring
 rejer	shrimp	FD	2		pl			n
-en musling	a mussel / clam	FD	3					n
-en hummer	a lobster	FD	3					n
-en krabbe	a crab	FD	3					n
+en musling	a mussel / clam	FD	3					n	muslingen|muslinger	the mussel / the clam|mussels / clams
+en hummer	a lobster	FD	3					n	hummeren|hummere	the lobster|lobsters
+en krabbe	a crab	FD	3					n	krabben|krabber	the crab|crabs
 skaldyr	shellfish	FD	3		pl			n
 grøntsager	vegetables	FD	1		pl			n
-en peberfrugt	a bell pepper	FD	2					n
-en squash	a zucchini	FD	3					n
-en aubergine	an eggplant	FD	3					n
-broccoli	broccoli	FD	2		en			n
-blomkål	cauliflower	FD	2		en			n
-kål	cabbage	FD	2		en			n
-spinat	spinach	FD	2		en			n
+en peberfrugt	a bell pepper	FD	2					n	peberfrugten	the bell pepper
+en squash	a zucchini	FD	3					n	squashen|squasher	the zucchini|zucchinis
+en aubergine	an eggplant	FD	3					n	auberginen|auberginer	the eggplant|eggplants
+broccoli	broccoli	FD	2		en			n	broccolien	the broccoli
+blomkål	cauliflower	FD	2		en			n	blomkålen	the cauliflower
+kål	cabbage	FD	2		en			n	kålen	the cabbage
+spinat	spinach	FD	2		en			n	spinaten	the spinach
 ærter	peas	FD	2		pl			n
 bønner	beans	FD	2		pl			n
-majs	corn	FD	2		en			n
-en porre	a leek	FD	3					n
-selleri	celery	FD	3		en			n
-en rødbede	a beet	FD	3					n
-en champignon	a mushroom	FD	2					n
-en avocado	an avocado	FD	2					n
-en oliven	an olive	FD	2					n
-en lime	a lime	FD	2					n
-en blomme	a plum / yolk	FD	3					n
-en fersken	a peach	FD	2					n
-en abrikos	an apricot	FD	3					n
-et kirsebær	a cherry	FD	2					n
-et hindbær	a raspberry	FD	2					n
-et blåbær	a blueberry	FD	2					n
-et solbær	a blackcurrant	FD	3					n
-en melon	a melon	FD	2					n
-en vandmelon	a watermelon	FD	2					n
-en ananas	a pineapple	FD	2					n
-en mango	a mango	FD	2					n
-en kiwi	a kiwi	FD	2					n
-en rosin	a raisin	FD	3					n
-en jordnød	a peanut	FD	2					n
-en hasselnød	a hazelnut	FD	3					n
-en valnød	a walnut	FD	3					n
-salt	salt	FD	1		et			n
-mel	flour	FD	2		et			n
-gær	yeast	FD	3		en			n
-bagepulver	baking powder	FD	3		et			n
-olie	oil	FD	2		en			n
-olivenolie	olive oil	FD	2		en			n
-eddike	vinegar	FD	3		en			n
-sennep	mustard	FD	2		en			n
-ketchup	ketchup	FD	2		en			n
-mayonnaise	mayonnaise	FD	2		en			n
-remoulade	remoulade (Danish relish sauce)	FD	3		en			n
-dressing	dressing	FD	2		en			n
+majs	corn	FD	2		en			n	majsen	the corn
+en porre	a leek	FD	3					n	porren|porrer	the leek|leeks
+selleri	celery	FD	3		en			n	sellerien	the celery
+en rødbede	a beet	FD	3					n	rødbeden|rødbeder	the beet|beets
+en champignon	a mushroom	FD	2					n	champignonen|champignoner	the mushroom|mushrooms
+en avocado	an avocado	FD	2					n	avocadoen|avocadoer	the avocado|avocados
+en oliven	an olive	FD	2					n	olivenen	the olive
+en lime	a lime	FD	2					n	limen	the lime
+en blomme	a plum / yolk	FD	3					n	blommen|blommer	the plum / the yolk|plums / yolks
+en fersken	a peach	FD	2					n	ferskenen|ferskner	the peach|peaches
+en abrikos	an apricot	FD	3					n	abrikosen|abrikoser	the apricot|apricots
+et kirsebær	a cherry	FD	2					n	kirsebærret|kirsebærr	the cherry|cherries
+et hindbær	a raspberry	FD	2					n	hindbærret|hindbærr	the raspberry|raspberries
+et blåbær	a blueberry	FD	2					n	blåbærret|blåbærr	the blueberry|blueberries
+et solbær	a blackcurrant	FD	3					n	solbærret|solbærr	the blackcurrant|blackcurrants
+en melon	a melon	FD	2					n	melonen|meloner	the melon|melons
+en vandmelon	a watermelon	FD	2					n	vandmelonen|vandmeloner	the watermelon|watermelons
+en ananas	a pineapple	FD	2					n	ananassen|ananasser	the pineapple|pineapples
+en mango	a mango	FD	2					n	mangoen|mangoer	the mango|mangoes
+en kiwi	a kiwi	FD	2					n	kiwien|kiwier	the kiwi|kiwis
+en rosin	a raisin	FD	3					n	rosinen|rosiner	the raisin|raisins
+en jordnød	a peanut	FD	2					n	jordnødden|jordnødder	the peanut|peanuts
+en hasselnød	a hazelnut	FD	3					n	hasselnødden|hasselnødde	the hazelnut|hazelnuts
+en valnød	a walnut	FD	3					n	valnødden|valnødde	the walnut|walnuts
+salt	salt	FD	1		et			n	saltet	the salt
+mel	flour	FD	2		et			n	melet	the flour
+gær	yeast	FD	3		en			n	gæren	the yeast
+bagepulver	baking powder	FD	3		et			n	bagepulveret	the baking powder
+olie	oil	FD	2		en			n	olien	the oil
+olivenolie	olive oil	FD	2		en			n	olivenolien	the olive oil
+eddike	vinegar	FD	3		en			n	eddiken	the vinegar
+sennep	mustard	FD	2		en			n	senneppen	the mustard
+ketchup	ketchup	FD	2		en			n	ketchuppen	the ketchup
+mayonnaise	mayonnaise	FD	2		en			n	mayonnaisen	the mayonnaise
+remoulade	remoulade (Danish relish sauce)	FD	3		en			n	remouladen	the remoulade (Danish relish sauce)
+dressing	dressing	FD	2		en			n	dressingen	the dressing
 krydderier	spices	FD	2		pl			n
-kanel	cinnamon	FD	2		en			n
-vanilje	vanilla	FD	2		en			n
-persille	parsley	FD	3		en			n
-dild	dill	FD	3		en			n
-purløg	chives	FD	3		et			n
-basilikum	basil	FD	3		en			n
-karry	curry	FD	2		en			n
-chili	chili	FD	2		en			n
-ingefær	ginger	FD	3		en			n
-lakrids	licorice	FD	2		en			n
-en flødebolle	a chocolate-covered marshmallow treat	FD	3					n
+kanel	cinnamon	FD	2		en			n	kanelen	the cinnamon
+vanilje	vanilla	FD	2		en			n	vaniljen	the vanilla
+persille	parsley	FD	3		en			n	persillen	the parsley
+dild	dill	FD	3		en			n	dilden	the dill
+purløg	chives	FD	3		et			n	purløget	the chives
+basilikum	basil	FD	3		en			n	basilikummen	the basil
+karry	curry	FD	2		en			n	karryen	the curry
+chili	chili	FD	2		en			n	chilien	the chili
+ingefær	ginger	FD	3		en			n	ingefæren	the ginger
+lakrids	licorice	FD	2		en			n	lakridsen	the licorice
+en flødebolle	a chocolate-covered marshmallow treat	FD	3					n	flødebollen|flødeboller	the chocolate-covered marshmallow treat|chocolate-covered marshmallow treats
 chips	chips / crisps	FD	2		pl			n
 et takeaway	a takeaway	FD	2					n
-et bageri	a bakery	FD	2					n
-en grønthandler	a greengrocer	FD	3					n
-en kantine	a canteen / cafeteria	FD	2					n
-en madvogn	a food truck	FD	3					n
-en grill	a grill / barbecue	FD	2					n
+et bageri	a bakery	FD	2					n	bageriet|bagerier	the bakery|bakeries
+en grønthandler	a greengrocer	FD	3					n	grønthandleren|grønthandlere	the greengrocer|greengrocers
+en kantine	a canteen / cafeteria	FD	2					n	kantinen|kantiner	the canteen / the cafeteria|canteens / cafeterias
+en madvogn	a food truck	FD	3					n	madvognen|madvogne	the food truck|food trucks
+en grill	a grill / barbecue	FD	2					n	grillen|griller	the grill / the barbecue|grills / barbecues
 at lave mad	to cook	FD	1	laver mad|lavede mad|lavet mad		jeg laver mad|jeg lavede mad|jeg har lavet mad	I cook|I cooked|I have cooked	v
 at riste	to toast / roast	FD	2	rister|ristede|ristet		jeg rister|jeg ristede|jeg har ristet	I toast / roast|I toasted / roasted|I have toasted / roasted	v
 at hakke	to chop / mince	FD	2	hakker|hakkede|hakket		jeg hakker|jeg hakkede|jeg har hakket	I chop / mince|I chopped / minced|I have chopped / minced	v
@@ -5202,427 +5205,427 @@ saltet	salted	FD	2					a
 kogt	boiled	FD	2					a
 stegt	fried / roasted	FD	2					a
 bagt	baked	FD	2					a
-sprød	crispy	FD	2					a
-mør	tender	FD	3					a
-mager	lean / skinny	FD	2					a
+sprød	crispy	FD	2					a	sprødere|sprødest	crispier|crispiest
+mør	tender	FD	3					a	mørere|mørest	more tender|most tender
+mager	lean / skinny	FD	2					a	magrere|magrest	leaner / skinnier|leanest / skinniest
 glutenfri	gluten-free	FD	3					a
 laktosefri	lactose-free	FD	3					a
 hjemmelavet	homemade	FD	2					a
 færdiglavet	ready-made	FD	3					a
 frossen	frozen	FD	2					a
-en karton	a carton	FD	3					n
-en krukke	a jar	FD	3					n
-en skive	a slice	FD	2					n
-en klat	a dollop / blob	FD	3					n
-en knivspids	a pinch	FD	4					n
-en spisning	a meal / dinner (event)	FD	3					n
-en madkasse	a lunch box	FD	2					n
-en vandflaske	a water bottle	FD	2					n
-en kaffekop	a coffee cup	FD	2					n
-et vinglas	a wine glass	FD	2					n
-en ølflaske	a beer bottle	FD	2					n
-en tekande	a teapot	FD	2					n
-en kaffekande	a coffee pot	FD	2					n
-en sukkerskål	a sugar bowl	FD	4					n
-en saltbøsse	a salt shaker	FD	4					n
-en peberkværn	a pepper mill	FD	4					n
-en smørkniv	a butter knife	FD	4					n
-en osteskærer	a cheese slicer	FD	4					n
-en brødkniv	a bread knife	FD	4					n
-et æggebæger	an egg cup	FD	4					n
-en kagerulle	a rolling pin	FD	4					n
-en blender	a blender	FD	2					n
-en røremaskine	a stand mixer	FD	4					n
-en airfryer	an air fryer	FD	2					n
-en pølsevogn	a hot dog stand	FD	2					n
-en grillbar	a fast-food grill	FD	3					n
+en karton	a carton	FD	3					n	kartonen|kartoner	the carton|cartons
+en krukke	a jar	FD	3					n	krukken|krukker	the jar|jars
+en skive	a slice	FD	2					n	skiven|skiver	the slice|slices
+en klat	a dollop / blob	FD	3					n	klatten|klatter	the dollop / the blob|dollops / blobs
+en knivspids	a pinch	FD	4					n	knivspidsen|knivspidser	the pinch|pinches
+en spisning	a meal / dinner (event)	FD	3					n	spisningen|spisninger	the meal / the dinner (event)|meals / dinners (event)
+en madkasse	a lunch box	FD	2					n	madkassen|madkasser	the lunch box|lunch boxes
+en vandflaske	a water bottle	FD	2					n	vandflasken|vandflasker	the water bottle|water bottles
+en kaffekop	a coffee cup	FD	2					n	kaffekoppen|kaffekopper	the coffee cup|coffee cups
+et vinglas	a wine glass	FD	2					n	vinglasset	the wine glass
+en ølflaske	a beer bottle	FD	2					n	ølflasken|ølflasker	the beer bottle|beer bottles
+en tekande	a teapot	FD	2					n	tekanden|tekander	the teapot|teapots
+en kaffekande	a coffee pot	FD	2					n	kaffekanden|kaffekander	the coffee pot|coffee pots
+en sukkerskål	a sugar bowl	FD	4					n	sukkerskålen|sukkerskåle	the sugar bowl|sugar bowls
+en saltbøsse	a salt shaker	FD	4					n	saltbøssen|saltbøsser	the salt shaker|salt shakers
+en peberkværn	a pepper mill	FD	4					n	peberkværnen|peberkværne	the pepper mill|pepper mills
+en smørkniv	a butter knife	FD	4					n	smørkniven|smørknive	the butter knife|butter knives
+en osteskærer	a cheese slicer	FD	4					n	osteskæreren|osteskærere	the cheese slicer|cheese slicers
+en brødkniv	a bread knife	FD	4					n	brødkniven|brødknive	the bread knife|bread knives
+et æggebæger	an egg cup	FD	4					n	æggebægeret|æggebægre	the egg cup|egg cups
+en kagerulle	a rolling pin	FD	4					n	kagerullen|kageruller	the rolling pin|rolling pins
+en blender	a blender	FD	2					n	blenderen|blendere	the blender|blenders
+en røremaskine	a stand mixer	FD	4					n	røremaskinen|røremaskiner	the stand mixer|stand mixers
+en airfryer	an air fryer	FD	2					n	airfryeren|airfryere	the air fryer|air fryers
+en pølsevogn	a hot dog stand	FD	2					n	pølsevognen|pølsevogne	the hot dog stand|hot dog stands
+en grillbar	a fast-food grill	FD	3					n	grillbaren|grillbarer	the fast-food grill|fast-food grills
 en pizzeria	a pizzeria	FD	2					n
-et konditori	a pastry shop / café	FD	3					n
-en vinbar	a wine bar	FD	2					n
-et værtshus	a pub	FD	3					n
-en bodega	a local bar (Danish)	FD	3					n
-et bryggeri	a brewery	FD	3					n
-en drink	a drink (cocktail)	FD	2					n
-et shot	a shot	FD	2					n
-en frugtsalat	a fruit salad	FD	2					n
-en risalamande	a Danish rice pudding with almonds	FD	3					n
-en æblekage	an apple dessert	FD	3					n
-en koldskål	a cold buttermilk dessert	FD	3					n
-en kammerjunker	a small Danish cookie	FD	4					n
-en brunsviger	a Funen brown-sugar cake	FD	4					n
-en hindbærsnitte	a raspberry slice (pastry)	FD	4					n
-en romkugle	a rum ball	FD	4					n
+et konditori	a pastry shop / café	FD	3					n	konditoriet|konditorier	the pastry shop / the café|pastry shops / cafés
+en vinbar	a wine bar	FD	2					n	vinbaren|vinbarer	the wine bar|wine bars
+et værtshus	a pub	FD	3					n	værtshuset|værtshuse	the pub|pubs
+en bodega	a local bar (Danish)	FD	3					n	bodegaen|bodegaer	the local bar (Danish)|local bars (Danish)
+et bryggeri	a brewery	FD	3					n	bryggeriet|bryggerier	the brewery|breweries
+en drink	a drink (cocktail)	FD	2					n	drinken	the drink (cocktail)
+et shot	a shot	FD	2					n	shott	the shot
+en frugtsalat	a fruit salad	FD	2					n	frugtsalaten|frugtsalater	the fruit salad|fruit salads
+en risalamande	a Danish rice pudding with almonds	FD	3					n	risalamanden	the Danish rice pudding with almonds
+en æblekage	an apple dessert	FD	3					n	æblekagen|æblekager	the apple dessert|apple desserts
+en koldskål	a cold buttermilk dessert	FD	3					n	koldskålen	the cold buttermilk dessert
+en kammerjunker	a small Danish cookie	FD	4					n	kammerjunkeren|kammerjunkere	the small Danish cookie|small Danish cookies
+en brunsviger	a Funen brown-sugar cake	FD	4					n	brunsvigeren|brunsvigere	the Funen brown-sugar cake|Funen brown-sugar cakes
+en hindbærsnitte	a raspberry slice (pastry)	FD	4					n	hindbærsnitten|hindbærsnitter	the raspberry slice (pastry)|raspberry slices (pastry)
+en romkugle	a rum ball	FD	4					n	romkuglen|romkugler	the rum ball|rum balls
 stegt flæsk	fried pork belly	FD	3		et			n
-en tartelet	a tartlet (vol-au-vent)	FD	4					n
-en hakkebøf	a hamburger steak	FD	3					n
+en tartelet	a tartlet (vol-au-vent)	FD	4					n	tarteletten|tarteletter	the tartlet (vol-au-vent)|tartlets (vol-au-vent)
+en hakkebøf	a hamburger steak	FD	3					n	hakkebøffen|hakkebøffer	the hamburger steak|hamburger steaks
 boller i karry	meatballs in curry sauce	FD	3		pl			n
-en medisterpølse	a Danish pork sausage	FD	4					n
-en rullepølse	a rolled pork sausage (cold cut)	FD	3					n
-en fiskefrikadelle	a fish cake	FD	3					n
-en rejemad	a shrimp open sandwich	FD	3					n
-en æggemad	an egg open sandwich	FD	3					n
-en ostemad	a cheese sandwich	FD	2					n
-en toast	a toasted sandwich	FD	2					n
-en wrap	a wrap	FD	2					n
-en smoothie	a smoothie	FD	2					n
-en milkshake	a milkshake	FD	2					n
-kakaomælk	chocolate milk	FD	2		en			n
-skummetmælk	skim milk	FD	3		en			n
-letmælk	low-fat milk	FD	3		en			n
-sødmælk	whole milk	FD	3		en			n
-kærnemælk	buttermilk	FD	3		en			n
-ymer	ymer (Danish soured milk)	FD	3		en			n
-skyr	skyr	FD	3		en			n
-smøreost	cream cheese	FD	3		en			n
-flødeost	cream cheese	FD	3		en			n
-hytteost	cottage cheese	FD	3		en			n
-mozzarella	mozzarella	FD	2		en			n
-parmesan	parmesan	FD	2		en			n
-feta	feta	FD	2		en			n
-havremælk	oat milk	FD	2		en			n
-sojamælk	soy milk	FD	3		en			n
-tofu	tofu	FD	2		en			n
+en medisterpølse	a Danish pork sausage	FD	4					n	medisterpølsen|medisterpølser	the Danish pork sausage|Danish pork sausages
+en rullepølse	a rolled pork sausage (cold cut)	FD	3					n	rullepølsen|rullepølser	the rolled pork sausage (cold cut)|rolled pork sausages (cold cut)
+en fiskefrikadelle	a fish cake	FD	3					n	fiskefrikadellen|fiskefrikadeller	the fish cake|fish cakes
+en rejemad	a shrimp open sandwich	FD	3					n	rejemadden|rejemadder	the shrimp open sandwich|shrimp open sandwiches
+en æggemad	an egg open sandwich	FD	3					n	æggemadden|æggemadder	the egg open sandwich|egg open sandwiches
+en ostemad	a cheese sandwich	FD	2					n	ostemadden|ostemadder	the cheese sandwich|cheese sandwiches
+en toast	a toasted sandwich	FD	2					n	toasten	the toasted sandwich
+en wrap	a wrap	FD	2					n	wrappen	the wrap
+en smoothie	a smoothie	FD	2					n	smoothien|smoothier	the smoothie|smoothies
+en milkshake	a milkshake	FD	2					n	milkshaken	the milkshake
+kakaomælk	chocolate milk	FD	2		en			n	kakaomælken	the chocolate milk
+skummetmælk	skim milk	FD	3		en			n	skummetmælken	the skim milk
+letmælk	low-fat milk	FD	3		en			n	letmælken	the low-fat milk
+sødmælk	whole milk	FD	3		en			n	sødmælken	the whole milk
+kærnemælk	buttermilk	FD	3		en			n	kærnemælken	the buttermilk
+ymer	ymer (Danish soured milk)	FD	3		en			n	ymeren	the ymer (Danish soured milk)
+skyr	skyr	FD	3		en			n	skyren	the skyr
+smøreost	cream cheese	FD	3		en			n	smøreosten	the cream cheese
+flødeost	cream cheese	FD	3		en			n	flødeosten	the cream cheese
+hytteost	cottage cheese	FD	3		en			n	hytteosten	the cottage cheese
+mozzarella	mozzarella	FD	2		en			n	mozzarellaen	the mozzarella
+parmesan	parmesan	FD	2		en			n	parmesanen	the parmesan
+feta	feta	FD	2		en			n	fetaen	the feta
+havremælk	oat milk	FD	2		en			n	havremælken	the oat milk
+sojamælk	soy milk	FD	3		en			n	sojamælken	the soy milk
+tofu	tofu	FD	2		en			n	tofuen	the tofu
 linser	lentils	FD	3		pl			n
 kikærter	chickpeas	FD	3		pl			n
-quinoa	quinoa	FD	3		en			n
-bulgur	bulgur	FD	3		en			n
-couscous	couscous	FD	3		en			n
-en tortilla	a tortilla	FD	2					n
+quinoa	quinoa	FD	3		en			n	quinoaen	the quinoa
+bulgur	bulgur	FD	3		en			n	bulguren	the bulgur
+couscous	couscous	FD	3		en			n	couscoussen	the couscous
+en tortilla	a tortilla	FD	2					n	tortillaen|tortillaer	the tortilla|tortillas
 en pita	a pita	FD	2					n
-en baguette	a baguette	FD	2					n
-en croissant	a croissant	FD	2					n
+en baguette	a baguette	FD	2					n	baguetten|baguetter	the baguette|baguettes
+en croissant	a croissant	FD	2					n	croissanten|croissanter	the croissant|croissants
 en muffin	a muffin	FD	2					n
-en donut	a donut	FD	2					n
-en cheesecake	a cheesecake	FD	2					n
-en brownie	a brownie	FD	2					n
+en donut	a donut	FD	2					n	donutten	the donut
+en cheesecake	a cheesecake	FD	2					n	cheesecaken	the cheesecake
+en brownie	a brownie	FD	2					n	brownien|brownier	the brownie|brownies
 flormelis	powdered sugar	FD	3		et			n
-rørsukker	cane sugar	FD	3		et			n
-sirup	syrup	FD	3		en			n
+rørsukker	cane sugar	FD	3		et			n	rørsukkeret	the cane sugar
+sirup	syrup	FD	3		en			n	siruppen	the syrup
 nødder	nuts	FD	2		pl			n
 tørret frugt	dried fruit	FD	2		en			n
-fuldkorn	whole grain	FD	3		et			n
-en madplan	a meal plan	FD	3					n
-en madvare	a food product	FD	3					n
-alkohol	alcohol	FD	2		en			n
+fuldkorn	whole grain	FD	3		et			n	fuldkornet	the whole grain
+en madplan	a meal plan	FD	3					n	madplanen|madplaner	the meal plan|meal plans
+en madvare	a food product	FD	3					n	madvaren|madvarer	the food product|food products
+alkohol	alcohol	FD	2		en			n	alkoholen	the alcohol
 brunede kartofler	caramelized potatoes	FD	3		pl			n
-et bær	a berry	FD	2					n
-flæsk	pork (belly)	FD	3		et			n
+et bær	a berry	FD	2					n	bærret|bærr	the berry|berries
+flæsk	pork (belly)	FD	3		et			n	flæsket	the pork (belly)
 gluten	gluten	FD	3		et			n
-havre	oats	FD	3		en			n
-en kødbolle	a meatball (dumpling)	FD	3					n
-en livret	a favorite dish	FD	2					n
-en madpakke	a packed lunch	FD	1					n
-en menu	a menu	FD	2					n
-spaghetti	spaghetti	FD	2		en			n
-gløgg	mulled wine	FD	3		en			n
-en fastelavnsbolle	a Shrovetide bun	FD	4					n
-en fødselsdagskage	a birthday cake	FD	2					n
+havre	oats	FD	3		en			n	havren	the oats
+en kødbolle	a meatball (dumpling)	FD	3					n	kødbollen|kødboller	the meatball (dumpling)|meatballs (dumpling)
+en livret	a favorite dish	FD	2					n	livretten|livretter	the favorite dish|favorite dishes
+en madpakke	a packed lunch	FD	1					n	madpakken|madpakker	the packed lunch|packed lunches
+en menu	a menu	FD	2					n	menuen|menuer	the menu|menus
+spaghetti	spaghetti	FD	2		en			n	spaghettien	the spaghetti
+gløgg	mulled wine	FD	3		en			n	gløggen	the mulled wine
+en fastelavnsbolle	a Shrovetide bun	FD	4					n	fastelavnsbollen|fastelavnsboller	the Shrovetide bun|Shrovetide buns
+en fødselsdagskage	a birthday cake	FD	2					n	fødselsdagskagen|fødselsdagskager	the birthday cake|birthday cakes
 at faste	to fast	FD	3	faster|fastede|fastet		jeg faster|jeg fastede|jeg har fastet	I fast|I fasted|I have fasted	v
-appelsinjuice	orange juice	FD	2		en			n
-en bid	a bite	FD	2					n
-en chokoladekage	a chocolate cake	FD	2					n
-en fødevare	a food item	FD	3					n
-hvedemel	wheat flour	FD	3		et			n
-en kaffeautomat	a coffee machine (vending)	FD	3					n
-en kagedej	a cake batter	FD	3					n
-en dej	a dough	FD	2					n
-en madkultur	a food culture	FD	3					n
-en søndagsmiddag	a Sunday dinner	FD	3					n
-et kaffebord	a coffee table (with cake)	FD	3					n
-en krydderurt	a herb	FD	3					n
-et spisested	an eatery	FD	3					n
-madspild	food waste	FD	3		et			n
-en madrest	a food scrap	FD	3					n
-et kaffefilter	a coffee filter	FD	4					n
-en tepose	a tea bag	FD	2					n
-et sugerør	a drinking straw	FD	3					n
-en frysepose	a freezer bag	FD	4					n
-madpapir	sandwich paper	FD	3		et			n
-sølvpapir	aluminum foil	FD	3		et			n
-bagepapir	baking paper	FD	3		et			n
-husholdningsfilm	cling film	FD	3		en			n
-en køkkenvægt	a kitchen scale	FD	4					n
-et målebæger	a measuring cup	FD	4					n
-en si	a sieve / strainer	FD	3					n
-et dørslag	a colander	FD	4					n
-et rivejern	a grater	FD	4					n
-en skrællekniv	a paring knife	FD	4					n
-en stegepande	a frying pan	FD	3					n
-en kasserolle	a saucepan	FD	4					n
-et fad	a dish (serving)	FD	2					n
+appelsinjuice	orange juice	FD	2		en			n	appelsinjuicen	the orange juice
+en bid	a bite	FD	2					n	bidden|bidder	the bite|bites
+en chokoladekage	a chocolate cake	FD	2					n	chokoladekagen|chokoladekager	the chocolate cake|chocolate cakes
+en fødevare	a food item	FD	3					n	fødevaren|fødevarer	the food item|food items
+hvedemel	wheat flour	FD	3		et			n	hvedemelet	the wheat flour
+en kaffeautomat	a coffee machine (vending)	FD	3					n	kaffeautomaten|kaffeautomater	the coffee machine (vending)|coffee machines (vending)
+en kagedej	a cake batter	FD	3					n	kagedejen|kagedeje	the cake batter|cake batters
+en dej	a dough	FD	2					n	dejen|deje	the dough|doughs
+en madkultur	a food culture	FD	3					n	madkulturen|madkulturer	the food culture|food cultures
+en søndagsmiddag	a Sunday dinner	FD	3					n	søndagsmiddagen|søndagsmiddage	the Sunday dinner|Sunday dinners
+et kaffebord	a coffee table (with cake)	FD	3					n	kaffebordet|kaffeborde	the coffee table (with cake)|coffee tables (with cake)
+en krydderurt	a herb	FD	3					n	krydderurten|krydderurter	the herb|herbs
+et spisested	an eatery	FD	3					n	spisestedet|spisesteder	the eatery|eateries
+madspild	food waste	FD	3		et			n	madspildet	the food waste
+en madrest	a food scrap	FD	3					n	madresten|madreste	the food scrap|food scraps
+et kaffefilter	a coffee filter	FD	4					n	kaffefiltret|kaffefiltre	the coffee filter|coffee filters
+en tepose	a tea bag	FD	2					n	teposen|teposer	the tea bag|tea bags
+et sugerør	a drinking straw	FD	3					n	sugerøret	the drinking straw
+en frysepose	a freezer bag	FD	4					n	fryseposen|fryseposer	the freezer bag|freezer bags
+madpapir	sandwich paper	FD	3		et			n	madpapiret	the sandwich paper
+sølvpapir	aluminum foil	FD	3		et			n	sølvpapiret	the aluminum foil
+bagepapir	baking paper	FD	3		et			n	bagepapiret	the baking paper
+husholdningsfilm	cling film	FD	3		en			n	husholdningsfilmen	the cling film
+en køkkenvægt	a kitchen scale	FD	4					n	køkkenvægten|køkkenvægte	the kitchen scale|kitchen scales
+et målebæger	a measuring cup	FD	4					n	målebægret|målebægre	the measuring cup|measuring cups
+en si	a sieve / strainer	FD	3					n	sien|sier	the sieve / the strainer|sieves / strainers
+et dørslag	a colander	FD	4					n	dørslaget	the colander
+et rivejern	a grater	FD	4					n	rivejernet	the grater
+en skrællekniv	a paring knife	FD	4					n	skrællekniven|skrælleknive	the paring knife|paring knives
+en stegepande	a frying pan	FD	3					n	stegepanden|stegepander	the frying pan|frying pans
+en kasserolle	a saucepan	FD	4					n	kasserollen|kasseroller	the saucepan|saucepans
+et fad	a dish (serving)	FD	2					n	fadet|fade	the dish (serving)|dishes (serving)
 et ildfast fad	an ovenproof dish	FD	4					n
-en muffinform	a muffin tin	FD	4					n
-en kageform	a cake tin	FD	4					n
-en termokop	a travel mug	FD	3					n
-en vandkaraffel	a water carafe	FD	4					n
-en isterning	an ice cube	FD	2					n
-en flaskeåbner	a bottle opener	FD	3					n
-en morgenkaffe	a morning coffee	FD	2					n
-en eftermiddagskaffe	an afternoon coffee	FD	3					n
-en frugtskål	a fruit bowl	FD	3					n
-en brødkurv	a bread basket	FD	3					n
-bestik	cutlery	FD	2		et			n
-porcelæn	china / porcelain	FD	3		et			n
-en morgenmadsbuffet	a breakfast buffet	FD	3					n
-en buffet	a buffet	FD	2					n
-en vinliste	a wine list	FD	3					n
-en børnemenu	a kids' menu	FD	3					n
+en muffinform	a muffin tin	FD	4					n	muffinformen|muffinformer	the muffin tin|muffin tins
+en kageform	a cake tin	FD	4					n	kageformen|kageforme	the cake tin|cake tins
+en termokop	a travel mug	FD	3					n	termokoppen|termokopper	the travel mug|travel mugs
+en vandkaraffel	a water carafe	FD	4					n	vandkaraflen|vandkarafler	the water carafe|water carafes
+en isterning	an ice cube	FD	2					n	isterningen|isterninge	the ice cube|ice cubes
+en flaskeåbner	a bottle opener	FD	3					n	flaskeåbneren|flaskeåbnere	the bottle opener|bottle openers
+en morgenkaffe	a morning coffee	FD	2					n	morgenkaffen	the morning coffee
+en eftermiddagskaffe	an afternoon coffee	FD	3					n	eftermiddagskaffen	the afternoon coffee
+en frugtskål	a fruit bowl	FD	3					n	frugtskålen|frugtskåle	the fruit bowl|fruit bowls
+en brødkurv	a bread basket	FD	3					n	brødkurven|brødkurve	the bread basket|bread baskets
+bestik	cutlery	FD	2		et			n	bestikket	the cutlery
+porcelæn	china / porcelain	FD	3		et			n	porcelænet	the china / the porcelain
+en morgenmadsbuffet	a breakfast buffet	FD	3					n	morgenmadsbuffeten|morgenmadsbuffeter	the breakfast buffet|breakfast buffets
+en buffet	a buffet	FD	2					n	buffeten|buffeter	the buffet|buffets
+en vinliste	a wine list	FD	3					n	vinlisten|vinlister	the wine list|wine lists
+en børnemenu	a kids' menu	FD	3					n	børnemenuen|børnemenuer	the kids' menu|kids' menus
 dagens ret	dish of the day	FD	2		en			n
-en hovedingrediens	a main ingredient	FD	4					n
-en yndlingsret	a favorite dish	FD	2					n
-en kødspiser	a meat eater	FD	4					n
-en restaurantgæst	a restaurant guest	FD	3					n
-en madanmelder	a food critic	FD	4					n
-en smagsprøve	a taste / sample	FD	3					n
-saftevand	diluted cordial	FD	2		en			n
-en isvaffel	an ice cream cone	FD	2					n
-en sodavandsis	a popsicle	FD	3					n
-en slikpind	a lollipop	FD	3					n
-en pebernød	a small Christmas spice cookie	FD	4					n
-en vaniljekrans	a vanilla butter cookie	FD	4					n
-en honningkage	a honey cake / gingerbread	FD	4					n
-en brunkage	a Danish spice cookie	FD	4					n
-en klejne	a Christmas cruller	FD	4					n
-en kransekage	a marzipan ring cake	FD	4					n
-marcipan	marzipan	FD	3		en			n
-nougat	nougat	FD	3		en			n
-en karamel	a caramel	FD	3					n
-en lejlighed	an apartment	HH	1					n
-et værelse	a room	HH	1					n
-et soveværelse	a bedroom	HH	1					n
-et badeværelse	a bathroom	HH	1					n
-et køkken	a kitchen	HH	1					n
-en stue	a living room	HH	1					n
-en entré	a hallway	HH	2					n
-en altan	a balcony	HH	2					n
-en kælder	a basement	HH	2					n
-en garage	a garage	HH	2					n
-en nøgle	a key	HH	1					n
-en lås	a lock	HH	2					n
-en lampe	a lamp	HH	1					n
-et ur	a clock / watch	HH	1					n
-et spejl	a mirror	HH	1					n
-et gardin	a curtain	HH	2					n
-et tæppe	a rug / blanket	HH	2					n
-en pude	a pillow	HH	1					n
-en dyne	a duvet	HH	2					n
-et håndklæde	a towel	HH	1					n
-sæbe	soap	HH	1					n
-shampoo	shampoo	HH	2					n
-en tandbørste	a toothbrush	HH	1					n
-tandpasta	toothpaste	HH	2					n
-et toilet	a toilet	HH	1					n
-et badekar	a bathtub	HH	2					n
-en bruser	a shower	HH	2					n
-en vask	a sink	HH	2					n
-et komfur	a stove	HH	2					n
-en ovn	an oven	HH	2					n
-et køleskab	a fridge	HH	1					n
-en fryser	a freezer	HH	2					n
-en opvaskemaskine	a dishwasher	HH	2					n
-en vaskemaskine	a washing machine	HH	2					n
-en tørretumbler	a dryer	HH	2					n
-en støvsuger	a vacuum cleaner	HH	2					n
-affald	trash	HH	2					n
-en skraldespand	a trash can	HH	2					n
-en kost	a broom	HH	2					n
-en moppe	a mop	HH	3					n
-en stikkontakt	an outlet	HH	2					n
-en fjernbetjening	a remote control	HH	2					n
+en hovedingrediens	a main ingredient	FD	4					n	hovedingrediensen|hovedingredienser	the main ingredient|main ingredients
+en yndlingsret	a favorite dish	FD	2					n	yndlingsretten|yndlingsretter	the favorite dish|favorite dishes
+en kødspiser	a meat eater	FD	4					n	kødspiseren|kødspisere	the meat eater|meat eaters
+en restaurantgæst	a restaurant guest	FD	3					n	restaurantgæsten|restaurantgæster	the restaurant guest|restaurant guests
+en madanmelder	a food critic	FD	4					n	madanmelderen|madanmeldere	the food critic|food critics
+en smagsprøve	a taste / sample	FD	3					n	smagsprøven|smagsprøver	the taste / the sample|tastes / samples
+saftevand	diluted cordial	FD	2		en			n	saftevanden	the diluted cordial
+en isvaffel	an ice cream cone	FD	2					n	isvaflen|isvafler	the ice cream cone|ice cream cones
+en sodavandsis	a popsicle	FD	3					n	sodavandsisen	the popsicle
+en slikpind	a lollipop	FD	3					n	slikpinden|slikpinde	the lollipop|lollipops
+en pebernød	a small Christmas spice cookie	FD	4					n	pebernødden|pebernødde	the small Christmas spice cookie|small Christmas spice cookies
+en vaniljekrans	a vanilla butter cookie	FD	4					n	vaniljekransen|vaniljekranse	the vanilla butter cookie|vanilla butter cookies
+en honningkage	a honey cake / gingerbread	FD	4					n	honningkagen|honningkager	the honey cake / the gingerbread|honey cakes / gingerbreads
+en brunkage	a Danish spice cookie	FD	4					n	brunkagen|brunkager	the Danish spice cookie|Danish spice cookies
+en klejne	a Christmas cruller	FD	4					n	klejnen|klejner	the Christmas cruller|Christmas crullers
+en kransekage	a marzipan ring cake	FD	4					n	kransekagen|kransekager	the marzipan ring cake|marzipan ring cakes
+marcipan	marzipan	FD	3		en			n	marcipanen	the marzipan
+nougat	nougat	FD	3		en			n	nougaten	the nougat
+en karamel	a caramel	FD	3					n	karamellen|karameller	the caramel|caramels
+en lejlighed	an apartment	HH	1					n	lejligheden|lejligheder	the apartment|apartments
+et værelse	a room	HH	1					n	værelset|værelser	the room|rooms
+et soveværelse	a bedroom	HH	1					n	soveværelset|soveværelser	the bedroom|bedrooms
+et badeværelse	a bathroom	HH	1					n	badeværelset|badeværelser	the bathroom|bathrooms
+et køkken	a kitchen	HH	1					n	køkkenet|køkkener	the kitchen|kitchens
+en stue	a living room	HH	1					n	stuen|stuer	the living room|living rooms
+en entré	a hallway	HH	2					n	entréen|entréer	the hallway|hallways
+en altan	a balcony	HH	2					n	altanen|altaner	the balcony|balconies
+en kælder	a basement	HH	2					n	kælderen|kældere	the basement|basements
+en garage	a garage	HH	2					n	garagen|garager	the garage|garages
+en nøgle	a key	HH	1					n	nøglen|nøgler	the key|keys
+en lås	a lock	HH	2					n	låsen|låse	the lock|locks
+en lampe	a lamp	HH	1					n	lampen|lamper	the lamp|lamps
+et ur	a clock / watch	HH	1					n	uret|ure	the clock / the watch|clocks / watches
+et spejl	a mirror	HH	1					n	spejlet|spejle	the mirror|mirrors
+et gardin	a curtain	HH	2					n	gardinet|gardiner	the curtain|curtains
+et tæppe	a rug / blanket	HH	2					n	tæppet|tæpper	the rug / the blanket|rugs / blankets
+en pude	a pillow	HH	1					n	puden|puder	the pillow|pillows
+en dyne	a duvet	HH	2					n	dynen|dyner	the duvet|duvets
+et håndklæde	a towel	HH	1					n	håndklædet|håndklæder	the towel|towels
+sæbe	soap	HH	1					n	sæben	the soap
+shampoo	shampoo	HH	2					n	shampooen	the shampoo
+en tandbørste	a toothbrush	HH	1					n	tandbørsten|tandbørster	the toothbrush|toothbrushes
+tandpasta	toothpaste	HH	2					n	tandpastaen	the toothpaste
+et toilet	a toilet	HH	1					n	toilettet|toiletter	the toilet|toilets
+et badekar	a bathtub	HH	2					n	badekarret|badekarr	the bathtub|bathtubs
+en bruser	a shower	HH	2					n	bruseren|brusere	the shower|showers
+en vask	a sink	HH	2					n	vasken|vaske	the sink|sinks
+et komfur	a stove	HH	2					n	komfuret|komfurer	the stove|stoves
+en ovn	an oven	HH	2					n	ovnen|ovne	the oven|ovens
+et køleskab	a fridge	HH	1					n	køleskabet|køleskabe	the fridge|fridges
+en fryser	a freezer	HH	2					n	fryseren|frysere	the freezer|freezers
+en opvaskemaskine	a dishwasher	HH	2					n	opvaskemaskinen|opvaskemaskiner	the dishwasher|dishwashers
+en vaskemaskine	a washing machine	HH	2					n	vaskemaskinen|vaskemaskiner	the washing machine|washing machines
+en tørretumbler	a dryer	HH	2					n	tørretumbleren|tørretumblere	the dryer|dryers
+en støvsuger	a vacuum cleaner	HH	2					n	støvsugeren|støvsugere	the vacuum cleaner|vacuum cleaners
+affald	trash	HH	2					n	affaldet	the trash
+en skraldespand	a trash can	HH	2					n	skraldespanden|skraldespande	the trash can|trash cans
+en kost	a broom	HH	2					n	kosten|koste	the broom|brooms
+en moppe	a mop	HH	3					n	moppen|mopper	the mop|mops
+en stikkontakt	an outlet	HH	2					n	stikkontakten|stikkontakter	the outlet|outlets
+en fjernbetjening	a remote control	HH	2					n	fjernbetjeningen|fjernbetjeninger	the remote control|remote controls
 et tv	a TV	HH	1					n
-en radio	a radio	TM	2					n
-en computer	a computer	TM	1					n
-en telefon	a phone	TM	1					n
-en oplader	a charger	TM	2					n
-et møbel	a piece of furniture	HH	2					n
-en reol	a bookshelf	HH	2					n
-et skrivebord	a desk	HH	1					n
-en sofa	a sofa	HH	1					n
-en lænestol	an armchair	HH	2					n
-en trappe	a staircase / stairs	HH	1					n
-en elevator	an elevator	HH	2					n
-en postkasse	a mailbox	HH	2					n
-husleje	rent	HH	2					n
-forsikring	insurance	MB	2					n
-et abonnement	a subscription	HH	2					n
+en radio	a radio	TM	2					n	radioen|radioer	the radio|radios
+en computer	a computer	TM	1					n	computeren|computere	the computer|computers
+en telefon	a phone	TM	1					n	telefonen|telefoner	the phone|phones
+en oplader	a charger	TM	2					n	opladeren|opladere	the charger|chargers
+et møbel	a piece of furniture	HH	2					n	møblet|møbler	the piece of furniture|pieces of furniture
+en reol	a bookshelf	HH	2					n	reolen|reoler	the bookshelf|bookshelves
+et skrivebord	a desk	HH	1					n	skrivebordet|skriveborde	the desk|desks
+en sofa	a sofa	HH	1					n	sofaen|sofaer	the sofa|sofas
+en lænestol	an armchair	HH	2					n	lænestolen|lænestole	the armchair|armchairs
+en trappe	a staircase / stairs	HH	1					n	trappen|trapper	the staircase / the stairs|staircases / stairss
+en elevator	an elevator	HH	2					n	elevatoren|elevatorer	the elevator|elevators
+en postkasse	a mailbox	HH	2					n	postkassen|postkasser	the mailbox|mailboxes
+husleje	rent	HH	2					n	huslejen	the rent
+forsikring	insurance	MB	2					n	forsikringen	the insurance
+et abonnement	a subscription	HH	2					n	abonnementet|abonnementer	the subscription|subscriptions
 internet	internet	TM	2					n
 wifi	wifi	TM	1					n
-en husholdning	a household	HH	3					n
-et gøremål	a chore	HH	3					n
-et indkøb	a purchase	CS	2					n
-en indkøbsliste	a shopping list	CS	2					n
+en husholdning	a household	HH	3					n	husholdningen|husholdninger	the household|households
+et gøremål	a chore	HH	3					n	gøremålet	the chore
+et indkøb	a purchase	CS	2					n	indkøbet	the purchase
+en indkøbsliste	a shopping list	CS	2					n	indkøbslisten|indkøbslister	the shopping list|shopping lists
 at feje	to sweep	HH	2	fejer|fejede|fejet		jeg fejer|jeg fejede|jeg har fejet	I sweep|I swept|I have swept	v
 at stryge	to iron	HH	2	stryger|strøg|strøget		jeg stryger|jeg strøg|jeg har strøget	I iron|I ironed|I have ironed	v
-tøj	clothes	CS	1					n
-en lyspære	a lightbulb	HH	2					n
-en alarm	an alarm	HH	2					n
-et vækkeur	an alarm clock	HH	2					n
-en kalender	a calendar	TC	2					n
-en seddel	a note	HH	2					n
-en liste	a list	HH	1					n
-en pose	a bag	HH	2					n
-en kurv	a basket	HH	2					n
-en flaske	a bottle	HH	1					n
-en dåse	a can	HH	2					n
-en pakke	a package	HH	1					n
-en æske	a box	HH	2					n
-en taske	a bag / purse	CS	1					n
-en rygsæk	a backpack	HH	2					n
-en paraply	an umbrella	HH	2					n
-en bolig	a home/residence	HH	2					n
-en villa	a detached house	HH	2					n
-en udlejer	a landlord	HH	3					n
-en lejer	a tenant	HH	3					n
-et depositum	a deposit	HH	3					n
-en lejekontrakt	a lease	HH	3					n
-en ejendom	a property	HH	3					n
-en ejendomsmægler	a real estate agent	WJ	3					n
-et boligmarked	a housing market	HH	3					n
-et lån	a loan	MB	2					n
-et realkreditlån	a mortgage	MB	3					n
-en renovering	a renovation	HH	3					n
-en ombygning	a remodel	HH	3					n
-en flytning	a move	HH	2					n
-en flyttekasse	a moving box	HH	3					n
-et byggeri	a construction	HH	3					n
-en terrasse	a terrace	HH	3					n
-en indretning	a layout / furnishing	HH	3					n
-vedligeholdelse	maintenance	HH	3		en			n
-en rengøring	a cleaning	HH	2					n
-en støvsugning	a vacuuming	HH	3					n
-en opvask	a dishwashing	HH	3					n
-en tøjvask	a laundry	HH	3					n
-en strygning	an ironing	HH	3					n
-en oprydning	a tidying up	HH	3					n
-en affaldssortering	a waste sorting	HH	3					n
-madlavning	cooking	FD	2		en			n
-en græsslåning	a lawn mowing	HH	3					n
-en snerydning	a snow removal	HH	3					n
-en reparation	a repair	HH	3					n
-et rengøringsmiddel	a cleaning product	HH	3					n
-en gulvvask	a floor washing	HH	3					n
-en vinduespudsning	a window cleaning	HH	3					n
+tøj	clothes	CS	1					n	tøjet	the clothes
+en lyspære	a lightbulb	HH	2					n	lyspæren|lyspærer	the lightbulb|lightbulbs
+en alarm	an alarm	HH	2					n	alarmen|alarmer	the alarm|alarms
+et vækkeur	an alarm clock	HH	2					n	vækkeuret|vækkeure	the alarm clock|alarm clocks
+en kalender	a calendar	TC	2					n	kalenderen|kalendere	the calendar|calendars
+en seddel	a note	HH	2					n	sedlen|sedler	the note|notes
+en liste	a list	HH	1					n	listen|lister	the list|lists
+en pose	a bag	HH	2					n	posen|poser	the bag|bags
+en kurv	a basket	HH	2					n	kurven|kurve	the basket|baskets
+en flaske	a bottle	HH	1					n	flasken|flasker	the bottle|bottles
+en dåse	a can	HH	2					n	dåsen|dåser	the can|cans
+en pakke	a package	HH	1					n	pakken|pakker	the package|packages
+en æske	a box	HH	2					n	æsken|æsker	the box|boxes
+en taske	a bag / purse	CS	1					n	tasken|tasker	the bag / the purse|bags / purses
+en rygsæk	a backpack	HH	2					n	rygsækken|rygsække	the backpack|backpacks
+en paraply	an umbrella	HH	2					n	paraplyen|paraplyer	the umbrella|umbrellas
+en bolig	a home/residence	HH	2					n	boligen|boliger	the home/residence|home/residences
+en villa	a detached house	HH	2					n	villaen|villaer	the detached house|detached houses
+en udlejer	a landlord	HH	3					n	udlejeren|udlejere	the landlord|landlords
+en lejer	a tenant	HH	3					n	lejeren|lejere	the tenant|tenants
+et depositum	a deposit	HH	3					n	depositummet|deposita	the deposit|deposits
+en lejekontrakt	a lease	HH	3					n	lejekontrakten|lejekontrakter	the lease|leases
+en ejendom	a property	HH	3					n	ejendommen|ejendomme	the property|properties
+en ejendomsmægler	a real estate agent	WJ	3					n	ejendomsmægleren|ejendomsmæglere	the real estate agent|real estate agents
+et boligmarked	a housing market	HH	3					n	boligmarkedet|boligmarkeder	the housing market|housing markets
+et lån	a loan	MB	2					n	lånet|lån	the loan|loans
+et realkreditlån	a mortgage	MB	3					n	realkreditlånet|realkreditlån	the mortgage|mortgages
+en renovering	a renovation	HH	3					n	renoveringen|renoveringer	the renovation|renovations
+en ombygning	a remodel	HH	3					n	ombygningen|ombygninger	the remodel|remodels
+en flytning	a move	HH	2					n	flytningen|flytninger	the move|moves
+en flyttekasse	a moving box	HH	3					n	flyttekassen|flyttekasser	the moving box|moving boxes
+et byggeri	a construction	HH	3					n	byggeriet|byggerier	the construction|constructions
+en terrasse	a terrace	HH	3					n	terrassen|terrasser	the terrace|terraces
+en indretning	a layout / furnishing	HH	3					n	indretningen|indretninger	the layout / the furnishing|layouts / furnishings
+vedligeholdelse	maintenance	HH	3		en			n	vedligeholdelsen	the maintenance
+en rengøring	a cleaning	HH	2					n	rengøringen|rengøringer	the cleaning|cleanings
+en støvsugning	a vacuuming	HH	3					n	støvsugningen|støvsugninger	the vacuuming|vacuumings
+en opvask	a dishwashing	HH	3					n	opvasken|opvaske	the dishwashing|dishwashings
+en tøjvask	a laundry	HH	3					n	tøjvasken|tøjvaske	the laundry|laundries
+en strygning	an ironing	HH	3					n	strygningen|strygninger	the ironing|ironings
+en oprydning	a tidying up	HH	3					n	oprydningen|oprydninger	the tidying up|tidying ups
+en affaldssortering	a waste sorting	HH	3					n	affaldssorteringen|affaldssorteringer	the waste sorting|waste sortings
+madlavning	cooking	FD	2		en			n	madlavningen	the cooking
+en græsslåning	a lawn mowing	HH	3					n	græsslåningen|græsslåninger	the lawn mowing|lawn mowings
+en snerydning	a snow removal	HH	3					n	snerydningen|snerydninger	the snow removal|snow removals
+en reparation	a repair	HH	3					n	reparationen|reparationer	the repair|repairs
+et rengøringsmiddel	a cleaning product	HH	3					n	rengøringsmidlet|rengøringsmidler	the cleaning product|cleaning products
+en gulvvask	a floor washing	HH	3					n	gulvvasken|gulvvaske	the floor washing|floor washings
+en vinduespudsning	a window cleaning	HH	3					n	vinduespudsningen|vinduespudsninger	the window cleaning|window cleanings
 at tørre støv af	to dust	HH	2	tørrer støv af|tørrede støv af|tørret støv af		jeg tørrer støv af|jeg tørrede støv af|jeg har tørret støv af	I dust|I dusted|I have dusted	v
-en ventetid	a wait time	TS	2					n
-en kø	a queue	TS	2					n
-en åbningstid	an opening hour	TS	2					n
-en lukketid	a closing time	TS	3					n
-en ombytning	an exchange	CS	3					n
-en returnering	a return	CS	3					n
-en garanti	a warranty	CS	2					n
-en undtagelse	an exception		3					n
-en betingelse	a condition		3					n
-et krav	a requirement		2					n
-en tilladelse	a permission		2					n
-et forbud	a ban	SP	2					n
-et rum	a room / space	HH	1					n
-strøm	electricity / current	HH	2		en			n
-en mur	a wall (outer)	HH	2					n
-et rør	a pipe / tube / receiver	HH	2					n
-en hytte	a cabin / hut	HH	2					n
-et værktøj	a tool	HH	2					n
-en port	a gate	HH	3					n
-post	mail / post	HH	2		en			n
-støv	dust	HH	2		et			n
+en ventetid	a wait time	TS	2					n	ventetiden	the wait time
+en kø	a queue	TS	2					n	køen|køer	the queue|queues
+en åbningstid	an opening hour	TS	2					n	åbningstiden|åbningstider	the opening hour|opening hours
+en lukketid	a closing time	TS	3					n	lukketiden	the closing time
+en ombytning	an exchange	CS	3					n	ombytningen|ombytninger	the exchange|exchanges
+en returnering	a return	CS	3					n	returneringen|returneringer	the return|returns
+en garanti	a warranty	CS	2					n	garantien|garantier	the warranty|warranties
+en undtagelse	an exception		3					n	undtagelsen|undtagelser	the exception|exceptions
+en betingelse	a condition		3					n	betingelsen|betingelser	the condition|conditions
+et krav	a requirement		2					n	kravet	the requirement
+en tilladelse	a permission		2					n	tilladelsen	the permission
+et forbud	a ban	SP	2					n	forbuddet	the ban
+et rum	a room / space	HH	1					n	rummet	the room / the space
+strøm	electricity / current	HH	2		en			n	strømmen	the electricity / the current
+en mur	a wall (outer)	HH	2					n	muren|mure	the wall (outer)|walls (outer)
+et rør	a pipe / tube / receiver	HH	2					n	røret	the pipe / the tube / the receiver
+en hytte	a cabin / hut	HH	2					n	hytten|hytter	the cabin / the hut|cabins / huts
+et værktøj	a tool	HH	2					n	værktøjet|værktøjer	the tool|tools
+en port	a gate	HH	3					n	porten|porte	the gate|gates
+post	mail / post	HH	2		en			n	posten	the mail / the post
+støv	dust	HH	2		et			n	støvet	the dust
 ejendele	belongings	HH	3		pl			n
-sengetid	bedtime	HH	2		en			n
-et ærinde	an errand	HH	3					n
-en indgang	an entrance	HH	2					n
-en spand	a bucket	HH	2					n
-et nabolag	a neighborhood	TS	2					n
-skrald	garbage	HH	2		et			n
-en rutine	a routine		2					n
-en livsstil	a lifestyle		2					n
-et hegn	a fence	HH	3					n
+sengetid	bedtime	HH	2		en			n	sengetiden	the bedtime
+et ærinde	an errand	HH	3					n	ærindet|ærinder	the errand|errands
+en indgang	an entrance	HH	2					n	indgangen|indgange	the entrance|entrances
+en spand	a bucket	HH	2					n	spanden|spande	the bucket|buckets
+et nabolag	a neighborhood	TS	2					n	nabolaget	the neighborhood
+skrald	garbage	HH	2		et			n	skraldet	the garbage
+en rutine	a routine		2					n	rutinen|rutiner	the routine|routines
+en livsstil	a lifestyle		2					n	livsstilen|livsstile	the lifestyle|lifestyles
+et hegn	a fence	HH	3					n	hegnet	the fence
 elektricitet	electricity	HH	2		en			n
-et brusebad	a shower	HH	2					n
-en hoveddør	a front door	HH	2					n
-en sal	a hall	HH	2					n
-en saks	a pair of scissors	HH	2					n
-en økse	an axe	HH	3					n
-snavs	dirt	HH	3		et			n
+et brusebad	a shower	HH	2					n	brusebadet|brusebade	the shower|showers
+en hoveddør	a front door	HH	2					n	hoveddøren|hoveddøre	the front door|front doors
+en sal	a hall	HH	2					n	salen|sale	the hall|halls
+en saks	a pair of scissors	HH	2					n	saksen|sakse	the pair of scissors|pairs of scissors
+en økse	an axe	HH	3					n	øksen|økser	the axe|axes
+snavs	dirt	HH	3		et			n	snavset	the dirt
 at vaske op	to do the dishes	HH	2	vasker op|vaskede op|vasket op		jeg vasker op|jeg vaskede op|jeg har vasket op	I do the dishes|I did the dishes|I have done the dishes	v
 at tørre af	to wipe / dry (dishes)	HH	2	tørrer af|tørrede af|tørret af		jeg tørrer af|jeg tørrede af|jeg har tørret af	I wipe / dry (dishes)|I wiped / dried (dishes)|I have wiped / dried (dishes)	v
-et rækkehus	a terraced house / townhouse	HH	2					n
-et sommerhus	a summer house / cottage	HH	2					n
-en opgang	a stairwell / entrance	HH	3					n
-et loftsrum	an attic room	HH	3					n
-en gang	a hallway / corridor	HH	2					n
-et børneværelse	a children's room	HH	2					n
-et gæsteværelse	a guest room	HH	2					n
-et skur	a shed	HH	2					n
-en carport	a carport	HH	3					n
-en indkørsel	a driveway	HH	3					n
-en dørklokke	a doorbell	HH	3					n
-et håndtag	a handle	HH	2					n
-en vindueskarm	a windowsill	HH	3					n
-en persienne	a blind (window)	HH	4					n
-en radiator	a radiator	HH	2					n
-en lyskontakt	a light switch	HH	2					n
-en elpære	a light bulb	HH	3					n
-en loftslampe	a ceiling light	HH	3					n
-et stearinlys	a candle	HH	2					n
-en lysestage	a candlestick	HH	3					n
-et sofabord	a coffee table	HH	2					n
-et spisebord	a dining table	HH	2					n
-en hylde	a shelf	HH	2					n
-en kommode	a chest of drawers	HH	3					n
-en skuffe	a drawer	HH	2					n
-et klædeskab	a wardrobe	HH	2					n
-en knage	a coat hook	HH	4					n
-et lagen	a sheet	HH	3					n
-et dynebetræk	a duvet cover	HH	3					n
-et pudebetræk	a pillowcase	HH	3					n
-en madras	a mattress	HH	2					n
-en vugge	a cradle	HH	3					n
-en køjeseng	a bunk bed	HH	3					n
-en natlampe	a bedside lamp	HH	2					n
-en plakat	a poster	HH	2					n
-en potteplante	a houseplant	HH	2					n
-en vase	a vase	HH	2					n
-en håndvask	a sink (bathroom)	HH	3					n
-en vandhane	a faucet / tap	HH	2					n
-balsam	conditioner	HH	3		en			n
-en deodorant	a deodorant	HH	2					n
-en kam	a comb	HH	2					n
-en hårbørste	a hairbrush	HH	2					n
-en føntørrer	a hairdryer	HH	3					n
-en barbermaskine	a razor / shaver	HH	3					n
-toiletpapir	toilet paper	HH	2		et			n
-en vatpind	a cotton swab	HH	3					n
-et tørrestativ	a drying rack	HH	4					n
-vasketøj	laundry	HH	2		et			n
-vaskepulver	laundry detergent	HH	3		et			n
-et strygejern	an iron	HH	3					n
-et strygebræt	an ironing board	HH	3					n
-en fejebakke	a dustpan	HH	3					n
-en klud	a cloth / rag	HH	3					n
-opvaskemiddel	dish soap	HH	3		et			n
-en skraldepose	a garbage bag	HH	3					n
-en container	a container	HH	3					n
-en stige	a ladder	HH	2					n
-en hammer	a hammer	HH	2					n
-en skrue	a screw	HH	2					n
-et søm	a nail	HH	2					n
-en tang	a pair of pliers / seaweed	HH	3					n
-et målebånd	a tape measure	HH	3					n
-maling	paint	HH	2		en			n
+et rækkehus	a terraced house / townhouse	HH	2					n	rækkehuset|rækkehuse	the terraced house / the townhouse|terraced houses / townhouses
+et sommerhus	a summer house / cottage	HH	2					n	sommerhuset|sommerhuse	the summer house / the cottage|summer houses / cottages
+en opgang	a stairwell / entrance	HH	3					n	opgangen|opgange	the stairwell / the entrance|stairwells / entrances
+et loftsrum	an attic room	HH	3					n	loftsrummet	the attic room
+en gang	a hallway / once	HH	2					n	gangen|gange	the hallway / the corridor|hallways / corridors
+et børneværelse	a children's room	HH	2					n	børneværelset|børneværelser	the children's room|children's rooms
+et gæsteværelse	a guest room	HH	2					n	gæsteværelset|gæsteværelser	the guest room|guest rooms
+et skur	a shed	HH	2					n	skuret|skure	the shed|sheds
+en carport	a carport	HH	3					n	carporten|carporte	the carport|carports
+en indkørsel	a driveway	HH	3					n	indkørslen|indkørsler	the driveway|driveways
+en dørklokke	a doorbell	HH	3					n	dørklokken|dørklokker	the doorbell|doorbells
+et håndtag	a handle	HH	2					n	håndtaget	the handle
+en vindueskarm	a windowsill	HH	3					n	vindueskarmen|vindueskarme	the windowsill|windowsills
+en persienne	a blind (window)	HH	4					n	persiennen|persienner	the blind (window)|blinds (window)
+en radiator	a radiator	HH	2					n	radiatoren|radiatorer	the radiator|radiators
+en lyskontakt	a light switch	HH	2					n	lyskontakten|lyskontakter	the light switch|light switches
+en elpære	a light bulb	HH	3					n	elpæren|elpærer	the light bulb|light bulbs
+en loftslampe	a ceiling light	HH	3					n	loftslampen|loftslamper	the ceiling light|ceiling lights
+et stearinlys	a candle	HH	2					n	stearinlyset	the candle
+en lysestage	a candlestick	HH	3					n	lysestagen|lysestager	the candlestick|candlesticks
+et sofabord	a coffee table	HH	2					n	sofabordet|sofaborde	the coffee table|coffee tables
+et spisebord	a dining table	HH	2					n	spisebordet|spiseborde	the dining table|dining tables
+en hylde	a shelf	HH	2					n	hylden|hylder	the shelf|shelves
+en kommode	a chest of drawers	HH	3					n	kommoden|kommoder	the chest of drawers|chests of drawers
+en skuffe	a drawer	HH	2					n	skuffen|skuffer	the drawer|drawers
+et klædeskab	a wardrobe	HH	2					n	klædeskabet|klædeskabe	the wardrobe|wardrobes
+en knage	a coat hook	HH	4					n	knagen|knager	the coat hook|coat hooks
+et lagen	a sheet	HH	3					n	lagnet|lagner	the sheet|sheets
+et dynebetræk	a duvet cover	HH	3					n	dynebetrækket	the duvet cover
+et pudebetræk	a pillowcase	HH	3					n	pudebetrækket	the pillowcase
+en madras	a mattress	HH	2					n	madrassen|madrasser	the mattress|mattresses
+en vugge	a cradle	HH	3					n	vuggen|vugger	the cradle|cradles
+en køjeseng	a bunk bed	HH	3					n	køjesengen|køjesenge	the bunk bed|bunk beds
+en natlampe	a bedside lamp	HH	2					n	natlampen|natlamper	the bedside lamp|bedside lamps
+en plakat	a poster	HH	2					n	plakaten|plakater	the poster|posters
+en potteplante	a houseplant	HH	2					n	potteplanten|potteplanter	the houseplant|houseplants
+en vase	a vase	HH	2					n	vasen|vaser	the vase|vases
+en håndvask	a sink (bathroom)	HH	3					n	håndvasken|håndvaske	the sink (bathroom)|sinks (bathroom)
+en vandhane	a faucet / tap	HH	2					n	vandhanen|vandhaner	the faucet / the tap|faucets / taps
+balsam	conditioner	HH	3		en			n	balsammen	the conditioner
+en deodorant	a deodorant	HH	2					n	deodoranten|deodoranter	the deodorant|deodorants
+en kam	a comb	HH	2					n	kammen|kamme	the comb|combs
+en hårbørste	a hairbrush	HH	2					n	hårbørsten|hårbørster	the hairbrush|hairbrushes
+en føntørrer	a hairdryer	HH	3					n	føntørreren|føntørrer	the hairdryer|hairdryers
+en barbermaskine	a razor / shaver	HH	3					n	barbermaskinen|barbermaskiner	the razor / the shaver|razors / shavers
+toiletpapir	toilet paper	HH	2		et			n	toiletpapiret	the toilet paper
+en vatpind	a cotton swab	HH	3					n	vatpinden|vatpinde	the cotton swab|cotton swabs
+et tørrestativ	a drying rack	HH	4					n	tørrestativet|tørrestativer	the drying rack|drying racks
+vasketøj	laundry	HH	2		et			n	vasketøjet	the laundry
+vaskepulver	laundry detergent	HH	3		et			n	vaskepulveret	the laundry detergent
+et strygejern	an iron	HH	3					n	strygejernet	the iron
+et strygebræt	an ironing board	HH	3					n	strygebrætt|strygebrætter	the ironing board|ironing boards
+en fejebakke	a dustpan	HH	3					n	fejebakken|fejebakker	the dustpan|dustpans
+en klud	a cloth / rag	HH	3					n	kluden|klude	the cloth / the rag|cloths / rags
+opvaskemiddel	dish soap	HH	3		et			n	opvaskemidlet	the dish soap
+en skraldepose	a garbage bag	HH	3					n	skraldeposen|skraldeposer	the garbage bag|garbage bags
+en container	a container	HH	3					n	containeren|containere	the container|containers
+en stige	a ladder	HH	2					n	stigen|stigende	the ladder|ladders
+en hammer	a hammer	HH	2					n	hammeren|hamre	the hammer|hammers
+en skrue	a screw	HH	2					n	skruen|skruer	the screw|screws
+et søm	a nail	HH	2					n	sømmet	the nail
+en tang	a pair of pliers / seaweed	HH	3					n	tangen|tænger	the pair of pliers / the seaweed|pairs of pliers / seaweeds
+et målebånd	a tape measure	HH	3					n	målebåndet	the tape measure
+maling	paint	HH	2		en			n	malingen	the paint
 tapet	wallpaper	HH	3		et			n
-et gulvtæppe	a carpet	HH	3					n
-en flise	a tile	HH	3					n
-en ventilator	a fan	HH	3					n
-en emhætte	a cooker hood	HH	4					n
-en kogeplade	a hotplate	HH	3					n
-en plæne	a lawn	HH	3					n
-en græsslåmaskine	a lawnmower	HH	3					n
-en rive	a rake	HH	3					n
-en skovl	a shovel	HH	3					n
-en vandkande	a watering can	HH	3					n
-en haveslange	a garden hose	HH	3					n
-et bed	a flower bed	HH	3					n
-en hæk	a hedge	HH	3					n
-en låge	a gate (small)	HH	3					n
-husarbejde	housework	HH	3		et			n
+et gulvtæppe	a carpet	HH	3					n	gulvtæppet|gulvtæpper	the carpet|carpets
+en flise	a tile	HH	3					n	flisen|fliser	the tile|tiles
+en ventilator	a fan	HH	3					n	ventilatoren|ventilatorer	the fan|fans
+en emhætte	a cooker hood	HH	4					n	emhætten|emhætter	the cooker hood|cooker hoods
+en kogeplade	a hotplate	HH	3					n	kogepladen|kogeplader	the hotplate|hotplates
+en plæne	a lawn	HH	3					n	plænen|plæner	the lawn|lawns
+en græsslåmaskine	a lawnmower	HH	3					n	græsslåmaskinen|græsslåmaskiner	the lawnmower|lawnmowers
+en rive	a rake	HH	3					n	riven|river	the rake|rakes
+en skovl	a shovel	HH	3					n	skovlen|skovle	the shovel|shovels
+en vandkande	a watering can	HH	3					n	vandkanden|vandkander	the watering can|watering cans
+en haveslange	a garden hose	HH	3					n	haveslangen|haveslanger	the garden hose|garden hoses
+et bed	a flower bed	HH	3					n	bedet|bede	the flower bed|flower beds
+en hæk	a hedge	HH	3					n	hækken|hække	the hedge|hedges
+en låge	a gate (small)	HH	3					n	lågen|låger	the gate (small)|gates (small)
+husarbejde	housework	HH	3		et			n	husarbejdet	the housework
 at gøre rent	to clean	HH	2	gør rent|gjorde rent|gjort rent		jeg gør rent|jeg gjorde rent|jeg har gjort rent	I clean|I cleaned|I have cleaned	v
 at støvsuge	to vacuum	HH	2	støvsuger|støvsugede|støvsuget		jeg støvsuger|jeg støvsugede|jeg har støvsuget	I vacuum|I vacuumed|I have vacuumed	v
 at vaske gulv	to mop the floor	HH	2	vasker gulv|vaskede gulv|vasket gulv		jeg vasker gulv|jeg vaskede gulv|jeg har vasket gulv	I mop the floor|I mopped the floor|I have mopped the floor	v
@@ -5661,292 +5664,292 @@ at snooze	to snooze	HH	2	snoozer|snoozede|snoozet		jeg snoozer|jeg snoozede|jeg 
 at sove over sig	to oversleep	HH	2	sover over sig|sov over sig|sovet over sig		jeg sover over mig|jeg sov over mig|jeg har sovet over mig	I oversleep|I overslept|I have overslept	v
 at få besøg	to have visitors	HH	2	får besøg|fik besøg|fået besøg		jeg får besøg|jeg fik besøg|jeg har fået besøg	I have visitors|I had visitors|I have had visitors	v
 rodet	messy	HH	2					a
-ryddelig	tidy	HH	2					a
+ryddelig	tidy	HH	2					a	ryddeligere|ryddeligst	tidier|tidiest
 møbleret	furnished	HH	3					a
-lun	warm / cozy	HH	3					a
-kølig	cool	HH	2					a
-fugtig	damp / humid	HH	2					a
+lun	warm / cozy	HH	3					a	lunere|lunest	warmer / cozier|warmest / coziest
+kølig	cool	HH	2					a	køligere|køligst	cooler|coolest
+fugtig	damp / humid	HH	2					a	fugtigere|fugtigst	damper / more humid|dampest / most humid
 støjende	noisy	HH	3					a
-rummelig	spacious	HH	3					a
-trang	cramped	HH	3					a
-en boligforening	a housing association	HH	3					n
-en andelsbolig	a cooperative apartment	HH	3					n
-en ejerlejlighed	a condominium	HH	3					n
-en lejebolig	a rental home	HH	3					n
+rummelig	spacious	HH	3					a	rummeligere|rummeligst	more spacious|most spacious
+trang	cramped	HH	3					a	trangere|trangest	more cramped|most cramped
+en boligforening	a housing association	HH	3					n	boligforeningen|boligforeninger	the housing association|housing associations
+en andelsbolig	a cooperative apartment	HH	3					n	andelsboligen|andelsboliger	the cooperative apartment|cooperative apartments
+en ejerlejlighed	a condominium	HH	3					n	ejerlejligheden|ejerlejligheder	the condominium|condominiums
+en lejebolig	a rental home	HH	3					n	lejeboligen|lejeboliger	the rental home|rental homes
 et kollegium	a student dormitory	HH	3					n
-en husstand	a household	HH	3					n
-en opslagstavle	a bulletin board	HH	3					n
-en brugsanvisning	a user manual	HH	3					n
-en indflytning	a move-in	HH	3					n
-en køkkenrulle	a roll of paper towels	HH	3					n
-en opvaskebørste	a dish brush	HH	4					n
-et viskestykke	a dish towel	HH	3					n
-en grydelap	a pot holder	HH	4					n
-et køkkenur	a kitchen timer	HH	4					n
-et spisekammer	a pantry	HH	3					n
-et bryggers	a utility room	HH	4					n
-et vaskerum	a laundry room	HH	3					n
-en tørresnor	a clothesline	HH	4					n
-en klemme	a clothespin / clip	HH	3					n
-en bøjle	a hanger / brace	HH	3					n
-et skohorn	a shoehorn	HH	4					n
-en dørmåtte	a doormat	HH	3					n
-et paraplystativ	an umbrella stand	HH	4					n
-en brevsprække	a mail slot	HH	4					n
-en røgalarm	a smoke alarm	HH	3					n
-en sikringsboks	a fuse box	HH	4					n
-en varmepumpe	a heat pump	HH	4					n
-fjernvarme	district heating	HH	3		en			n
-en elregning	an electricity bill	HH	3					n
-en vandregning	a water bill	HH	3					n
-et strømstik	a power plug	HH	4					n
-en forlængerledning	an extension cord	HH	3					n
-en stikdåse	a power strip	HH	4					n
-et natbord	a nightstand	HH	3					n
-en sengegavl	a headboard	HH	4					n
-en skammel	a stool	HH	3					n
-en havestol	a garden chair	HH	3					n
-en parasol	a parasol	HH	3					n
+en husstand	a household	HH	3					n	husstanden|husstande	the household|households
+en opslagstavle	a bulletin board	HH	3					n	opslagstavlen|opslagstavler	the bulletin board|bulletin boards
+en brugsanvisning	a user manual	HH	3					n	brugsanvisningen|brugsanvisninger	the user manual|user manuals
+en indflytning	a move-in	HH	3					n	indflytningen|indflytninger	the move-in|move-ins
+en køkkenrulle	a roll of paper towels	HH	3					n	køkkenrullen|køkkenruller	the roll of paper towels|rolls of paper towels
+en opvaskebørste	a dish brush	HH	4					n	opvaskebørsten|opvaskebørster	the dish brush|dish brushes
+et viskestykke	a dish towel	HH	3					n	viskestykket|viskestykker	the dish towel|dish towels
+en grydelap	a pot holder	HH	4					n	grydelappen|grydelapper	the pot holder|pot holders
+et køkkenur	a kitchen timer	HH	4					n	køkkenuret|køkkenure	the kitchen timer|kitchen timers
+et spisekammer	a pantry	HH	3					n	spisekammeret|spisekamre	the pantry|pantries
+et bryggers	a utility room	HH	4					n	bryggerset|bryggerser	the utility room|utility rooms
+et vaskerum	a laundry room	HH	3					n	vaskerummet	the laundry room
+en tørresnor	a clothesline	HH	4					n	tørresnoren|tørresnore	the clothesline|clotheslines
+en klemme	a clothespin / clip	HH	3					n	klemmen|klemmer	the clothespin / the clip|clothespins / clips
+en bøjle	a hanger / brace	HH	3					n	bøjlen|bøjler	the hanger / the brace|hangers / braces
+et skohorn	a shoehorn	HH	4					n	skohornet	the shoehorn
+en dørmåtte	a doormat	HH	3					n	dørmåtten|dørmåtter	the doormat|doormats
+et paraplystativ	an umbrella stand	HH	4					n	paraplystativet|paraplystativer	the umbrella stand|umbrella stands
+en brevsprække	a mail slot	HH	4					n	brevsprækken|brevsprækker	the mail slot|mail slots
+en røgalarm	a smoke alarm	HH	3					n	røgalarmen|røgalarmer	the smoke alarm|smoke alarms
+en sikringsboks	a fuse box	HH	4					n	sikringsboksen|sikringsbokse	the fuse box|fuse boxes
+en varmepumpe	a heat pump	HH	4					n	varmepumpen|varmepumper	the heat pump|heat pumps
+fjernvarme	district heating	HH	3		en			n	fjernvarmen	the district heating
+en elregning	an electricity bill	HH	3					n	elregningen|elregninger	the electricity bill|electricity bills
+en vandregning	a water bill	HH	3					n	vandregningen|vandregninger	the water bill|water bills
+et strømstik	a power plug	HH	4					n	strømstikket	the power plug
+en forlængerledning	an extension cord	HH	3					n	forlængerledningen|forlængerledninger	the extension cord|extension cords
+en stikdåse	a power strip	HH	4					n	stikdåsen|stikdåser	the power strip|power strips
+et natbord	a nightstand	HH	3					n	natbordet|natborde	the nightstand|nightstands
+en sengegavl	a headboard	HH	4					n	sengegavlen|sengegavle	the headboard|headboards
+en skammel	a stool	HH	3					n	skamlen|skamler	the stool|stools
+en havestol	a garden chair	HH	3					n	havestolen|havestole	the garden chair|garden chairs
+en parasol	a parasol	HH	3					n	parasollen|parasoller	the parasol|parasols
 grillkul	charcoal	HH	4		pl			n
-en tøjkurv	a laundry basket	HH	3					n
-en boremaskine	a drill	HH	3					n
-et bræt	a board	HH	3					n
-en børste	a brush	HH	2					n
-en etage	a floor (story)	HH	2					n
-et fjernsyn	a television	TM	2					n
+en tøjkurv	a laundry basket	HH	3					n	tøjkurven|tøjkurve	the laundry basket|laundry baskets
+en boremaskine	a drill	HH	3					n	boremaskinen|boremaskiner	the drill|drills
+et bræt	a board	HH	3					n	brættet|brædder	the board|boards
+en børste	a brush	HH	2					n	børsten|børster	the brush|brushes
+en etage	a floor (story)	HH	2					n	etagen|etager	the floor (story)|floors (story)
+et fjernsyn	a television	TM	2					n	fjernsynet	the television
 gør det selv	do it yourself	HH	3					f
 hjemme	at home	HH	1					d
 hjem	home (direction)	HH	1					d
-et køkkenbord	a kitchen table / counter	HH	2					n
-en ledning	a cord / cable	HH	2					n
-en planke	a plank	HH	3					n
-en skruetrækker	a screwdriver	HH	3					n
-en skorsten	a chimney	HH	3					n
-en tagrende	a gutter	HH	4					n
-en facade	a facade	HH	3					n
-et fundament	a foundation	HH	3					n
-isolering	insulation	HH	3		en			n
-en mursten	a brick	HH	3					n
-en dørkarm	a door frame	HH	4					n
-en rude	a window pane	HH	3					n
-en lampeskærm	a lampshade	HH	3					n
-en plaid	a throw blanket	HH	3					n
-en sovesofa	a sofa bed	HH	3					n
-en vaskekælder	a laundry room (in basement)	HH	4					n
-et fællesvaskeri	a shared laundry room	HH	4					n
-en vicevært	a caretaker / janitor	HH	3					n
-et bad	a bath / shower	HH	1					n
-et vaskeri	a laundromat	TS	3					n
-et kvarter	a neighborhood	TS	2					n
-en boligkarré	a city block	HH	4					n
-et husnummer	a house number	HH	2					n
-et postnummer	a postal code	HH	2					n
-en etagebolig	an apartment in a multi-story building	HH	4					n
-en brandtrappe	a fire escape	HH	3					n
-en tagterrasse	a roof terrace	HH	3					n
-en gårdhave	a courtyard garden	HH	4					n
-en balkon	a balcony	HH	2					n
-en dekoration	a decoration	HH	3					n
-en mikrobølgeovn	a microwave oven	HH	2					n
-en tremmeseng	a crib	HH	4					n
-belysning	lighting	HH	3		en			n
-en bogreol	a bookcase	HH	2					n
-en bordplade	a tabletop / countertop	HH	3					n
-en gadedør	a street door	HH	3					n
-en hushjælp	a domestic helper	HH	3					n
-en husregel	a house rule	HH	2					n
-en morgenrutine	a morning routine	HH	2					n
-en aftenrutine	an evening routine	HH	2					n
-pladsmangel	lack of space	HH	3		en			n
-en spisestue	a dining room	HH	2					n
-et hobbyrum	a hobby room	HH	3					n
-barberskum	shaving foam	HH	3		et			n
-en badevægt	a bathroom scale	HH	3					n
-en bademåtte	a bath mat	HH	3					n
-et bruseforhæng	a shower curtain	HH	3					n
-en toiletbørste	a toilet brush	HH	3					n
-et tandkrus	a toothbrush cup	HH	3					n
-et medicinskab	a medicine cabinet	HH	3					n
-en rejse	a trip / journey	TT	1					n
-et pas	a passport	TT	1					n
-et visum	a visa	TT	2					n
-en billet	a ticket	TT	1					n
-bagage	luggage	TT	2					n
-en kuffert	a suitcase	TT	1					n
-en taxa	a taxi	TT	1					n
-en metro	a metro	TT	1					n
-en færge	a ferry	TT	2					n
-en motorcykel	a motorcycle	TT	2					n
-en motorvej	a motorway	TT	2					n
-en sti	a path	WN	2					n
-et kort	a map	TT	1					n
-en afgang	a departure	TT	2					n
-en ankomst	an arrival	TT	2					n
-en forsinkelse	a delay	TT	2					n
+et køkkenbord	a kitchen table / counter	HH	2					n	køkkenbordet|køkkenborde	the kitchen table / the counter|kitchen tables / counters
+en ledning	a cord / cable	HH	2					n	ledningen|ledninger	the cord / the cable|cords / cables
+en planke	a plank	HH	3					n	planken|planker	the plank|planks
+en skruetrækker	a screwdriver	HH	3					n	skruetrækkeren|skruetrækkere	the screwdriver|screwdrivers
+en skorsten	a chimney	HH	3					n	skorstenen|skorstene	the chimney|chimneys
+en tagrende	a gutter	HH	4					n	tagrenden|tagrender	the gutter|gutters
+en facade	a facade	HH	3					n	facaden|facader	the facade|facades
+et fundament	a foundation	HH	3					n	fundamentet|fundamenter	the foundation|foundations
+isolering	insulation	HH	3		en			n	isoleringen	the insulation
+en mursten	a brick	HH	3					n	murstenen	the brick
+en dørkarm	a door frame	HH	4					n	dørkarmen|dørkarme	the door frame|door frames
+en rude	a window pane	HH	3					n	ruden|ruder	the window pane|window panes
+en lampeskærm	a lampshade	HH	3					n	lampeskærmen|lampeskærme	the lampshade|lampshades
+en plaid	a throw blanket	HH	3					n	plaiden|plaider	the throw blanket|throw blankets
+en sovesofa	a sofa bed	HH	3					n	sovesofaen|sovesofaer	the sofa bed|sofa beds
+en vaskekælder	a laundry room (in basement)	HH	4					n	vaskekælderen|vaskekældere	the laundry room (in basement)|laundry rooms (in basement)
+et fællesvaskeri	a shared laundry room	HH	4					n	fællesvaskeriet|fællesvaskerier	the shared laundry room|shared laundry rooms
+en vicevært	a caretaker / janitor	HH	3					n	viceværten|viceværter	the caretaker / the janitor|caretakers / janitors
+et bad	a bath / shower	HH	1					n	badet|bade	the bath / the shower|baths / showers
+et vaskeri	a laundromat	TS	3					n	vaskeriet|vaskerier	the laundromat|laundromats
+et kvarter	a neighborhood	TS	2					n	kvarteret|kvarterer	the neighborhood|neighborhoods
+en boligkarré	a city block	HH	4					n	boligkarréen|boligkarréer	the city block|city blocks
+et husnummer	a house number	HH	2					n	husnummeret|husnumre	the house number|house numbers
+et postnummer	a postal code	HH	2					n	postnummeret|postnumre	the postal code|postal codes
+en etagebolig	an apartment in a multi-story building	HH	4					n	etageboligen|etageboliger	the apartment in a multi-story building|apartments in multi-story buildings
+en brandtrappe	a fire escape	HH	3					n	brandtrappen|brandtrapper	the fire escape|fire escapes
+en tagterrasse	a roof terrace	HH	3					n	tagterrassen|tagterrasser	the roof terrace|roof terraces
+en gårdhave	a courtyard garden	HH	4					n	gårdhaven|gårdhaver	the courtyard garden|courtyard gardens
+en balkon	a balcony	HH	2					n	balkonen|balkoner	the balcony|balconies
+en dekoration	a decoration	HH	3					n	dekorationen|dekorationer	the decoration|decorations
+en mikrobølgeovn	a microwave oven	HH	2					n	mikrobølgeovnen|mikrobølgeovne	the microwave oven|microwave ovens
+en tremmeseng	a crib	HH	4					n	tremmesengen|tremmesenge	the crib|cribs
+belysning	lighting	HH	3		en			n	belysningen	the lighting
+en bogreol	a bookcase	HH	2					n	bogreolen|bogreoler	the bookcase|bookcases
+en bordplade	a tabletop / countertop	HH	3					n	bordpladen|bordplader	the tabletop / the countertop|tabletops / countertops
+en gadedør	a street door	HH	3					n	gadedøren|gadedøre	the street door|street doors
+en hushjælp	a domestic helper	HH	3					n	hushjælpen	the domestic helper
+en husregel	a house rule	HH	2					n	husreglen|husregler	the house rule|house rules
+en morgenrutine	a morning routine	HH	2					n	morgenrutinen|morgenrutiner	the morning routine|morning routines
+en aftenrutine	an evening routine	HH	2					n	aftenrutinen|aftenrutiner	the evening routine|evening routines
+pladsmangel	lack of space	HH	3		en			n	pladsmanglen	the lack of space
+en spisestue	a dining room	HH	2					n	spisestuen|spisestuer	the dining room|dining rooms
+et hobbyrum	a hobby room	HH	3					n	hobbyrummet	the hobby room
+barberskum	shaving foam	HH	3		et			n	barberskummet	the shaving foam
+en badevægt	a bathroom scale	HH	3					n	badevægten|badevægte	the bathroom scale|bathroom scales
+en bademåtte	a bath mat	HH	3					n	bademåtten|bademåtter	the bath mat|bath mats
+et bruseforhæng	a shower curtain	HH	3					n	bruseforhænget	the shower curtain
+en toiletbørste	a toilet brush	HH	3					n	toiletbørsten|toiletbørster	the toilet brush|toilet brushes
+et tandkrus	a toothbrush cup	HH	3					n	tandkruset	the toothbrush cup
+et medicinskab	a medicine cabinet	HH	3					n	medicinskabet|medicinskabe	the medicine cabinet|medicine cabinets
+en rejse	a trip / journey	TT	1					n	rejsen|rejser	the trip / the journey|trips / journeys
+et pas	a passport	TT	1					n	passet|passer	the passport|passports
+et visum	a visa	TT	2					n	visummet|visa	the visa|visas
+en billet	a ticket	TT	1					n	billetten|billetter	the ticket|tickets
+bagage	luggage	TT	2					n	bagagen	the luggage
+en kuffert	a suitcase	TT	1					n	kufferten|kufferter	the suitcase|suitcases
+en taxa	a taxi	TT	1					n	taxaen|taxaer	the taxi|taxis
+en metro	a metro	TT	1					n	metroen|metroer	the metro|metros
+en færge	a ferry	TT	2					n	færgen|færger	the ferry|ferries
+en motorcykel	a motorcycle	TT	2					n	motorcyklen|motorcykler	the motorcycle|motorcycles
+en motorvej	a motorway	TT	2					n	motorvejen|motorveje	the motorway|motorways
+en sti	a path	WN	2					n	stien|stier	the path|paths
+et kort	a map	TT	1					n	kortet	the map
+en afgang	a departure	TT	2					n	afgangen|afgange	the departure|departures
+en ankomst	an arrival	TT	2					n	ankomsten|ankomster	the arrival|arrivals
+en forsinkelse	a delay	TT	2					n	forsinkelsen|forsinkelser	the delay|delays
 en gate	a gate	TT	2					n
-en perron	a platform	TT	2					n
-en pilot	a pilot	TT	2					n
-en stewardesse	a flight attendant	TT	2					n
-en destination	a destination	TT	3					n
-en grænse	a border	TT	2					n
-told	customs	TT	3					n
-en campingplads	a campsite	TT	2					n
-et telt	a tent	TT	2					n
-en sovepose	a sleeping bag	TT	2					n
-et bagagerum	a trunk	TT	3					n
-et sæde	a seat	TT	2					n
-en sikkerhedssele	a seatbelt	TT	3					n
-en tank	a tank	TT	2					n
-benzin	petrol	TT	2					n
-diesel	diesel	TT	2					n
-en tankstation	a gas station	TT	2					n
-parkering	parking	TT	2					n
-en p-plads	a parking spot	TT	2					n
-trafik	traffic	TT	2					n
-et trafiklys	a traffic light	TT	2					n
-et fortov	a sidewalk	TT	2					n
-en fodgænger	a pedestrian	TT	2					n
-en rundkørsel	a roundabout	TT	3					n
-et kryds	an intersection	TT	3					n
-en adresse	an address	TS	1					n
-et kompas	a compass	TT	3					n
-en rute	a route	TT	2					n
-en udflugt	an excursion	TT	2					n
-en seværdighed	an attraction	TT	2					n
-en guide	a guide	TT	2					n
-en reservation	a reservation	TT	2					n
-en afrejse	a departure (trip)	TT	3					n
-en hjemrejse	a return trip	TT	3					n
-jetlag	jet lag	TT	3					n
-en souvenir	a souvenir	TT	2					n
-en landsby	a village	TS	2					n
-en hovedstad	a capital city	TS	2					n
-en region	a region	SP	3					n
-en kyst	a coast	WN	2					n
-en ø	an island	WN	2					n
-en halvø	a peninsula	WN	3					n
-en fjord	a fjord	WN	2					n
-en dal	a valley	WN	2					n
-en slette	a plain	WN	3					n
-en rejseplan	an itinerary	TT	3					n
-en aflysning	a cancellation	TT	3					n
-et boardingpas	a boarding pass	TT	3					n
-en toldkontrol	a customs check	TT	3					n
-en ambassade	an embassy	TS	3					n
-en rejseforsikring	a travel insurance policy	TT	3					n
-en vaccination	a vaccination	BH	3					n
-en tidszone	a time zone	TC	3					n
-en lokalbefolkning	a local population	TS	4					n
-et vandrerhjem	a hostel	TT	3					n
-en udlejningsbil	a rental car	TT	3					n
-en tur	a trip / turn	TT	1					n
-et dæk	a tire / deck	TT	2					n
-en lift	a lift (ride)	TT	2					n
-en fart	a speed	TT	2					n
-en kurs	a course (direction) / exchange rate	TT	3					n
+en perron	a platform	TT	2					n	perronen|perroner	the platform|platforms
+en pilot	a pilot	TT	2					n	piloten|piloter	the pilot|pilots
+en stewardesse	a flight attendant	TT	2					n	stewardessen|stewardesser	the flight attendant|flight attendants
+en destination	a destination	TT	3					n	destinationen|destinationer	the destination|destinations
+en grænse	a border	TT	2					n	grænsen|grænser	the border|borders
+told	customs	TT	3					n	tolden	the customs
+en campingplads	a campsite	TT	2					n	campingpladsen|campingpladser	the campsite|campsites
+et telt	a tent	TT	2					n	teltet|telte	the tent|tents
+en sovepose	a sleeping bag	TT	2					n	soveposen|soveposer	the sleeping bag|sleeping bags
+et bagagerum	a trunk	TT	3					n	bagagerummet	the trunk
+et sæde	a seat	TT	2					n	sædet|sæder	the seat|seats
+en sikkerhedssele	a seatbelt	TT	3					n	sikkerhedsselen|sikkerhedsseler	the seatbelt|seatbelts
+en tank	a tank	TT	2					n	tanken|tanke	the tank|tanks
+benzin	petrol	TT	2					n	benzinen	the petrol
+diesel	diesel	TT	2					n	dieselen	the diesel
+en tankstation	a gas station	TT	2					n	tankstationen|tankstationer	the gas station|gas stations
+parkering	parking	TT	2					n	parkeringen	the parking
+en p-plads	a parking spot	TT	2					n	p-pladsen|p-pladser	the parking spot|parking spots
+trafik	traffic	TT	2					n	trafikken	the traffic
+et trafiklys	a traffic light	TT	2					n	trafiklyset	the traffic light
+et fortov	a sidewalk	TT	2					n	fortovet|fortove	the sidewalk|sidewalks
+en fodgænger	a pedestrian	TT	2					n	fodgængeren|fodgængere	the pedestrian|pedestrians
+en rundkørsel	a roundabout	TT	3					n	rundkørslen|rundkørsler	the roundabout|roundabouts
+et kryds	an intersection	TT	3					n	krydset|krydser	the intersection|intersections
+en adresse	an address	TS	1					n	adressen|adresser	the address|addresses
+et kompas	a compass	TT	3					n	kompasset|kompasser	the compass|compasses
+en rute	a route	TT	2					n	ruten|ruter	the route|routes
+en udflugt	an excursion	TT	2					n	udflugten|udflugter	the excursion|excursions
+en seværdighed	an attraction	TT	2					n	seværdigheden|seværdigheder	the attraction|attractions
+en guide	a guide	TT	2					n	guiden|guider	the guide|guides
+en reservation	a reservation	TT	2					n	reservationen|reservationer	the reservation|reservations
+en afrejse	a departure (trip)	TT	3					n	afrejsen|afrejser	the departure (trip)|departures (trip)
+en hjemrejse	a return trip	TT	3					n	hjemrejsen|hjemrejser	the return trip|return trips
+jetlag	jet lag	TT	3					n	jetlaggen	the jet lag
+en souvenir	a souvenir	TT	2					n	souveniren|souvenirer	the souvenir|souvenirs
+en landsby	a village	TS	2					n	landsbyen|landsbyer	the village|villages
+en hovedstad	a capital city	TS	2					n	hovedstaden|hovedstæder	the capital city|capital cities
+en region	a region	SP	3					n	regionen|regioner	the region|regions
+en kyst	a coast	WN	2					n	kysten|kyster	the coast|coasts
+en ø	an island	WN	2					n	øen|øer	the island|islands
+en halvø	a peninsula	WN	3					n	halvøen|halvøer	the peninsula|peninsulas
+en fjord	a fjord	WN	2					n	fjorden|fjorde	the fjord|fjords
+en dal	a valley	WN	2					n	dalen|dale	the valley|valleys
+en slette	a plain	WN	3					n	sletten|sletter	the plain|plains
+en rejseplan	an itinerary	TT	3					n	rejseplanen|rejseplaner	the itinerary|itineraries
+en aflysning	a cancellation	TT	3					n	aflysningen|aflysninger	the cancellation|cancellations
+et boardingpas	a boarding pass	TT	3					n	boardingpasset	the boarding pass
+en toldkontrol	a customs check	TT	3					n	toldkontrollen|toldkontroller	the customs check|customs checks
+en ambassade	an embassy	TS	3					n	ambassaden|ambassader	the embassy|embassies
+en rejseforsikring	a travel insurance policy	TT	3					n	rejseforsikringen|rejseforsikringer	the travel insurance policy|travel insurance policies
+en vaccination	a vaccination	BH	3					n	vaccinationen|vaccinationer	the vaccination|vaccinations
+en tidszone	a time zone	TC	3					n	tidszonen|tidszoner	the time zone|time zones
+en lokalbefolkning	a local population	TS	4					n	lokalbefolkningen|lokalbefolkninger	the local population|local populations
+et vandrerhjem	a hostel	TT	3					n	vandrerhjemmet	the hostel
+en udlejningsbil	a rental car	TT	3					n	udlejningsbilen|udlejningsbiler	the rental car|rental cars
+en tur	a trip / turn	TT	1					n	turen|ture	the trip / the turn|trips / turns
+et dæk	a tire / deck	TT	2					n	dækket	the tire / the deck
+en lift	a lift (ride)	TT	2					n	liften|lifte	the lift (ride)|lifts (ride)
+en fart	a speed	TT	2					n	farten	the speed
+en kurs	a course (direction) / exchange rate	TT	3					n	kursen|kurser	the course (direction) / the exchange rate|courses (direction) / exchange rates
 ombord	on board	TT	2					d
 øst	east	TT	2					d
-en motor	an engine	TT	2					n
-en helikopter	a helicopter	TT	2					n
+en motor	an engine	TT	2					n	motoren|motorer	the engine|engines
+en helikopter	a helicopter	TT	2					n	helikopteren|helikoptere	the helicopter|helicopters
 nordpå	northward	TT	3					d
-en lastbil	a truck	TT	2					n
-et kørekort	a driver's license	TT	2					n
-et sving	a turn / curve	TT	3					n
-en udsigt	a view / prospect	TT	2					n
-brændstof	fuel	TT	3		et			n
-et motel	a motel	TT	2					n
-et hjul	a wheel	TT	2					n
-en hastighed	a speed	TT	3					n
-en besætning	a crew	TT	3					n
+en lastbil	a truck	TT	2					n	lastbilen|lastbiler	the truck|trucks
+et kørekort	a driver's license	TT	2					n	kørekortet	the driver's license
+et sving	a turn / curve	TT	3					n	svinget	the turn / the curve
+en udsigt	a view / prospect	TT	2					n	udsigten|udsigter	the view / the prospect|views / prospects
+brændstof	fuel	TT	3		et			n	brændstoffet	the fuel
+et motel	a motel	TT	2					n	motellet|moteller	the motel|motels
+et hjul	a wheel	TT	2					n	hjulet	the wheel
+en hastighed	a speed	TT	3					n	hastigheden|hastigheder	the speed|speeds
+en besætning	a crew	TT	3					n	besætningen|besætninger	the crew|crews
 sydpå	southward	TT	3					d
-sydlig	southern		3					a
-nordlig	northern		3					a
-et rat	a steering wheel	TT	3					n
-en udgang	an exit	TT	2					n
+sydlig	southern		3					a	sydligere|sydligst	more southern|most southern
+nordlig	northern		3					a	nordligere|nordligst	more northern|most northern
+et rat	a steering wheel	TT	3					n	rattet	the steering wheel
+en udgang	an exit	TT	2					n	udgangen|udgange	the exit|exits
 i udlandet	abroad	TT	2					d
-en passager	a passenger	TT	2					n
-et ophold	a stay	TT	3					n
-et fartøj	a vessel / craft	TT	4					n
-et køretøj	a vehicle	TT	3					n
-en bilulykke	a car accident	TT	2					n
-en varevogn	a van	TT	3					n
-en landing	a landing	TT	3					n
-en parkeringsplads	a parking space / lot	TT	2					n
-en koordinat	a coordinate	TT	4					n
-en reception	a reception (desk)	TT	2					n
-en suite	a suite	TT	3					n
+en passager	a passenger	TT	2					n	passageren|passagerer	the passenger|passengers
+et ophold	a stay	TT	3					n	opholdet	the stay
+et fartøj	a vessel / craft	TT	4					n	fartøjet|fartøjer	the vessel / the craft|vessels / craft
+et køretøj	a vehicle	TT	3					n	køretøjet|køretøjer	the vehicle|vehicles
+en bilulykke	a car accident	TT	2					n	bilulykken|bilulykker	the car accident|car accidents
+en varevogn	a van	TT	3					n	varevognen|varevogne	the van|vans
+en landing	a landing	TT	3					n	landingen|landinger	the landing|landings
+en parkeringsplads	a parking space / lot	TT	2					n	parkeringspladsen|parkeringspladser	the parking space / the lot|parking spaces / lots
+en koordinat	a coordinate	TT	4					n	koordinaten|koordinater	the coordinate|coordinates
+en reception	a reception (desk)	TT	2					n	receptionen|receptioner	the reception (desk)|receptions (desk)
+en suite	a suite	TT	3					n	suiten|suiter	the suite|suites
 vestpå	westward	TT	3					d
-en færd	a journey / conduct	TT	4					n
-vestlig	western		3					a
+en færd	a journey / conduct	TT	4					n	færden|færde	the journey / the conduct|journeys / conducts
+vestlig	western		3					a	vestligere|vestligst	more western|most western
 en rejsende	a traveler	TT	3					n
 parkeret	parked	TT	3					a
 østpå	eastward	TT	3					d
-en gyde	an alley	TS	4					n
-en lobby	a lobby	TT	3					n
-en last	a cargo / vice	TT	4					n
-en ubåd	a submarine	TT	4					n
-en weekendtur	a weekend trip	TT	2					n
-en turistattraktion	a tourist attraction	TT	2					n
-et landkort	a map	TT	2					n
-en guidebog	a guidebook	TT	3					n
-håndbagage	carry-on luggage	TT	3		en			n
-en flybillet	a plane ticket	TT	2					n
-en returbillet	a return ticket	TT	2					n
-en enkeltbillet	a one-way ticket	TT	2					n
-et rejsekort	a travel card (Danish transit card)	TT	3					n
-en køreplan	a timetable	TT	3					n
+en gyde	an alley	TS	4					n	gyden|gyder	the alley|alleys
+en lobby	a lobby	TT	3					n	lobbyen|lobbyer	the lobby|lobbies
+en last	a cargo / vice	TT	4					n	lasten|laster	the cargo / the vice|cargoes / vices
+en ubåd	a submarine	TT	4					n	ubåden|ubåde	the submarine|submarines
+en weekendtur	a weekend trip	TT	2					n	weekendturen|weekendture	the weekend trip|weekend trips
+en turistattraktion	a tourist attraction	TT	2					n	turistattraktionen|turistattraktioner	the tourist attraction|tourist attractions
+et landkort	a map	TT	2					n	landkortet	the map
+en guidebog	a guidebook	TT	3					n	guidebogen|guidebøger	the guidebook|guidebooks
+håndbagage	carry-on luggage	TT	3		en			n	håndbagagen	the carry-on luggage
+en flybillet	a plane ticket	TT	2					n	flybilletten|flybilletter	the plane ticket|plane tickets
+en returbillet	a return ticket	TT	2					n	returbilletten|returbilletter	the return ticket|return tickets
+en enkeltbillet	a one-way ticket	TT	2					n	enkeltbilletten|enkeltbilletter	the one-way ticket|one-way tickets
+et rejsekort	a travel card (Danish transit card)	TT	3					n	rejsekortet	the travel card (Danish transit card)
+en køreplan	a timetable	TT	3					n	køreplanen|køreplaner	the timetable|timetables
 et check-in	a check-in	TT	3					n
-en sikkerhedskontrol	a security check	TT	3					n
-en flyrejse	a flight (trip)	TT	2					n
-en landingsbane	a runway	TT	3					n
-en vinduesplads	a window seat	TT	3					n
-en midtergang	an aisle	TT	3					n
-en togstation	a train station	TT	2					n
-en hovedbanegård	a central station	TT	2					n
-et S-tog	an S-train (Copenhagen commuter train)	TT	2					n
-en letbane	a light rail	TT	3					n
-en sporvogn	a tram	TT	3					n
-et busstoppested	a bus stop	TT	2					n
-en buschauffør	a bus driver	TT	2					n
-en havn	a harbor / port	TT	2					n
-et krydstogt	a cruise	TT	3					n
-en elbil	an electric car	TT	2					n
-en knallert	a moped	TT	3					n
-en scooter	a scooter	TT	2					n
-en ladcykel	a cargo bike	TT	3					n
-en cykelsti	a bike lane	TT	2					n
-en cykelhjelm	a bike helmet	TT	2					n
-en landevej	a country road	TT	3					n
-et lyskryds	an intersection with traffic lights	TT	3					n
-et fodgængerfelt	a crosswalk	TT	3					n
-en omkørsel	a detour	TT	3					n
-en ladestander	a charging station	TT	3					n
-en parkeringsbøde	a parking ticket	TT	3					n
-en fartbøde	a speeding ticket	TT	3					n
-et enkeltværelse	a single room	TT	2					n
-et dobbeltværelse	a double room	TT	2					n
-et nøglekort	a key card	TT	3					n
-en overnatning	an overnight stay	TT	3					n
-en storby	a big city	TS	2					n
-en forstad	a suburb	TS	3					n
-en bydel	a district / part of town	TS	3					n
-et torv	a (market) square	TS	2					n
-en gågade	a pedestrian street	TS	3					n
-et tårn	a tower	TS	2					n
-et monument	a monument	TS	3					n
-en statue	a statue	TS	2					n
-et springvand	a fountain	TS	3					n
-en katedral	a cathedral	TS	3					n
-et galleri	a gallery	TS	3					n
-en forlystelsespark	an amusement park	TS	3					n
+en sikkerhedskontrol	a security check	TT	3					n	sikkerhedskontrollen|sikkerhedskontroller	the security check|security checks
+en flyrejse	a flight (trip)	TT	2					n	flyrejsen|flyrejser	the flight (trip)|flights (trip)
+en landingsbane	a runway	TT	3					n	landingsbanen|landingsbaner	the runway|runways
+en vinduesplads	a window seat	TT	3					n	vinduespladsen|vinduespladser	the window seat|window seats
+en midtergang	an aisle	TT	3					n	midtergangen|midtergange	the aisle|aisles
+en togstation	a train station	TT	2					n	togstationen|togstationer	the train station|train stations
+en hovedbanegård	a central station	TT	2					n	hovedbanegården|hovedbanegårde	the central station|central stations
+et S-tog	an S-train (Copenhagen commuter train)	TT	2					n	S-toget|S-tog	the S-train (Copenhagen commuter train)|S-trains (Copenhagen commuter train)
+en letbane	a light rail	TT	3					n	letbanen|letbaner	the light rail|light rails
+en sporvogn	a tram	TT	3					n	sporvognen|sporvogne	the tram|trams
+et busstoppested	a bus stop	TT	2					n	busstoppestedet|busstoppesteder	the bus stop|bus stops
+en buschauffør	a bus driver	TT	2					n	buschaufføren|buschauffører	the bus driver|bus drivers
+en havn	a harbor / port	TT	2					n	havnen|havne	the harbor / the port|harbors / ports
+et krydstogt	a cruise	TT	3					n	krydstogtet|krydstogter	the cruise|cruises
+en elbil	an electric car	TT	2					n	elbilen|elbiler	the electric car|electric cars
+en knallert	a moped	TT	3					n	knallerten|knallerter	the moped|mopeds
+en scooter	a scooter	TT	2					n	scooteren|scootere	the scooter|scooters
+en ladcykel	a cargo bike	TT	3					n	ladcyklen|ladcykler	the cargo bike|cargo bikes
+en cykelsti	a bike lane	TT	2					n	cykelstien|cykelstier	the bike lane|bike lanes
+en cykelhjelm	a bike helmet	TT	2					n	cykelhjelmen|cykelhjelme	the bike helmet|bike helmets
+en landevej	a country road	TT	3					n	landevejen|landeveje	the country road|country roads
+et lyskryds	an intersection with traffic lights	TT	3					n	lyskrydset	the intersection with traffic lights
+et fodgængerfelt	a crosswalk	TT	3					n	fodgængerfeltet|fodgængerfelter	the crosswalk|crosswalks
+en omkørsel	a detour	TT	3					n	omkørslen|omkørsler	the detour|detours
+en ladestander	a charging station	TT	3					n	ladestanderen|ladestandere	the charging station|charging stations
+en parkeringsbøde	a parking ticket	TT	3					n	parkeringsbøden|parkeringsbøder	the parking ticket|parking tickets
+en fartbøde	a speeding ticket	TT	3					n	fartbøden|fartbøder	the speeding ticket|speeding tickets
+et enkeltværelse	a single room	TT	2					n	enkeltværelset|enkeltværelser	the single room|single rooms
+et dobbeltværelse	a double room	TT	2					n	dobbeltværelset|dobbeltværelser	the double room|double rooms
+et nøglekort	a key card	TT	3					n	nøglekortet	the key card
+en overnatning	an overnight stay	TT	3					n	overnatningen|overnatninger	the overnight stay|overnight stays
+en storby	a big city	TS	2					n	storbyen|storbyer	the big city|big cities
+en forstad	a suburb	TS	3					n	forstaden|forstæder	the suburb|suburbs
+en bydel	a district / part of town	TS	3					n	bydelen|bydele	the district / the part of town|districts / parts of town
+et torv	a (market) square	TS	2					n	torvet|torve	the (market) square|(market) squares
+en gågade	a pedestrian street	TS	3					n	gågaden|gågader	the pedestrian street|pedestrian streets
+et tårn	a tower	TS	2					n	tårnet|tårne	the tower|towers
+et monument	a monument	TS	3					n	monumentet|monumenter	the monument|monuments
+en statue	a statue	TS	2					n	statuen|statuer	the statue|statues
+et springvand	a fountain	TS	3					n	springvandet	the fountain
+en katedral	a cathedral	TS	3					n	katedralen|katedraler	the cathedral|cathedrals
+et galleri	a gallery	TS	3					n	galleriet|gallerier	the gallery|galleries
+en forlystelsespark	an amusement park	TS	3					n	forlystelsesparken|forlystelsesparker	the amusement park|amusement parks
 et akvarium	an aquarium	TS	3					n
-en strandpromenade	a beach promenade	TS	3					n
-en bænk	a bench	TS	2					n
-en legeplads	a playground	TS	2					n
+en strandpromenade	a beach promenade	TS	3					n	strandpromenaden|strandpromenader	the beach promenade|beach promenades
+en bænk	a bench	TS	2					n	bænken|bænke	the bench|benches
+en legeplads	a playground	TS	2					n	legepladsen|legepladser	the playground|playgrounds
 et offentligt toilet	a public restroom	TS	3					n
-et konsulat	a consulate	TS	4					n
-et posthus	a post office	TS	2					n
-en brandstation	a fire station	TS	3					n
+et konsulat	a consulate	TS	4					n	konsulatet|konsulater	the consulate|consulates
+et posthus	a post office	TS	2					n	posthuset|posthuse	the post office|post offices
+en brandstation	a fire station	TS	3					n	brandstationen|brandstationer	the fire station|fire stations
 at gå en tur	to go for a walk	TT	2	går en tur|gik en tur|gået en tur		jeg går en tur|jeg gik en tur|jeg har gået en tur	I go for a walk|I went for a walk|I have been for a walk	v
 at tage toget	to take the train	TT	1	tager toget|tog toget|taget toget		jeg tager toget|jeg tog toget|jeg har taget toget	I take the train|I took the train|I have taken the train	v
 at tage bussen	to take the bus	TT	1	tager bussen|tog bussen|taget bussen		jeg tager bussen|jeg tog bussen|jeg har taget bussen	I take the bus|I took the bus|I have taken the bus	v
@@ -5982,266 +5985,266 @@ aflyst	cancelled	TT	2					a
 fuldt booket	fully booked	TT	3					a
 udenlands	abroad	TT	3					d
 indenlandsk	domestic	TT	3					a
-en ankomsthal	an arrivals hall	TT	3					n
-en kørsel	a drive / trip	TT	4					n
-en togbillet	a train ticket	TT	2					n
-en busbillet	a bus ticket	TT	2					n
-et månedskort	a monthly pass	TT	3					n
-et ungdomskort	a youth travel pass	TT	4					n
-et klippekort	a punch card	TT	3					n
-en billetautomat	a ticket machine	TT	3					n
-en billetkontrollør	a ticket inspector	TT	3					n
-en kontrolafgift	a penalty fare	TT	4					n
-en togfører	a train conductor	TT	4					n
-en lokomotivfører	a train driver	TT	4					n
-en endestation	a terminus / last stop	TT	3					n
-en mellemlanding	a layover	TT	3					n
-et flyselskab	an airline	TT	3					n
-et boardingkort	a boarding pass	TT	3					n
-et bagagebånd	a baggage carousel	TT	4					n
-hittegods	lost and found	TT	3		et			n
-et rejsebureau	a travel agency	TT	3					n
-et sommerhusområde	a summer house area	TT	3					n
-en badestrand	a bathing beach	TT	3					n
-en livredder	a lifeguard	TT	3					n
-solcreme	sunscreen	TT	2		en			n
-en isbod	an ice cream stand	TS	3					n
-en båd	a boat	TT	1					n
-en banegård	a railway station	TT	3					n
-et centrum	a center (of town)	TS	2					n
-en hjelm	a helmet	TT	2					n
+en ankomsthal	an arrivals hall	TT	3					n	ankomsthallen|ankomsthaller	the arrivals hall|arrivals halls
+en kørsel	a drive / trip	TT	4					n	kørslen|kørsler	the drive / the trip|drives / trips
+en togbillet	a train ticket	TT	2					n	togbilletten|togbilletter	the train ticket|train tickets
+en busbillet	a bus ticket	TT	2					n	busbilletten|busbilletter	the bus ticket|bus tickets
+et månedskort	a monthly pass	TT	3					n	månedskortet	the monthly pass
+et ungdomskort	a youth travel pass	TT	4					n	ungdomskortet	the youth travel pass
+et klippekort	a punch card	TT	3					n	klippekortet	the punch card
+en billetautomat	a ticket machine	TT	3					n	billetautomaten|billetautomater	the ticket machine|ticket machines
+en billetkontrollør	a ticket inspector	TT	3					n	billetkontrolløren|billetkontrollører	the ticket inspector|ticket inspectors
+en kontrolafgift	a penalty fare	TT	4					n	kontrolafgiften|kontrolafgifter	the penalty fare|penalty fares
+en togfører	a train conductor	TT	4					n	togføreren|togførere	the train conductor|train conductors
+en lokomotivfører	a train driver	TT	4					n	lokomotivføreren|lokomotivførere	the train driver|train drivers
+en endestation	a terminus / last stop	TT	3					n	endestationen|endestationer	the terminus / the last stop|terminuses / last stops
+en mellemlanding	a layover	TT	3					n	mellemlandingen|mellemlandinger	the layover|layovers
+et flyselskab	an airline	TT	3					n	flyselskabet|flyselskaber	the airline|airlines
+et boardingkort	a boarding pass	TT	3					n	boardingkortet	the boarding pass
+et bagagebånd	a baggage carousel	TT	4					n	bagagebåndet	the baggage carousel
+hittegods	lost and found	TT	3		et			n	hittegodset	the lost and found
+et rejsebureau	a travel agency	TT	3					n	rejsebureauet|rejsebureauer	the travel agency|travel agencies
+et sommerhusområde	a summer house area	TT	3					n	sommerhusområdet|sommerhusområder	the summer house area|summer house areas
+en badestrand	a bathing beach	TT	3					n	badestranden|badestrande	the bathing beach|bathing beaches
+en livredder	a lifeguard	TT	3					n	livredderen|livreddere	the lifeguard|lifeguards
+solcreme	sunscreen	TT	2		en			n	solcremen	the sunscreen
+en isbod	an ice cream stand	TS	3					n	isboden|isboder	the ice cream stand|ice cream stands
+en båd	a boat	TT	1					n	båden|både	the boat|boats
+en banegård	a railway station	TT	3					n	banegården|banegårde	the railway station|railway stations
+et centrum	a center (of town)	TS	2					n	centrummet|centrummer	the center (of town)|centers (of town)
+en hjelm	a helmet	TT	2					n	hjelmen|hjelme	the helmet|helmets
 højre	right (side)	TT	1					a
 venstre	left (side)	TT	1					a
 i nærheden	nearby	TT	2					d
-en kro	an inn	TT	2					n
+en kro	an inn	TT	2					n	kroen|kroer	the inn|inns
 langt fra	far from		1					r
 nord	north	TT	2					d
 syd	south	TT	2					d
 vest	west	TT	2					d
-et stoppested	a stop (bus)	TT	2					n
-en tunnel	a tunnel	TT	2					n
+et stoppested	a stop (bus)	TT	2					n	stoppestedet|stoppesteder	the stop (bus)|stops (bus)
+en tunnel	a tunnel	TT	2					n	tunnelen|tunneler	the tunnel|tunnels
 tæt på	close to		1					r
-en vogn	a wagon / cart	TT	2					n
-en afkørsel	an exit (highway)	TT	3					n
-en tilkørsel	an on-ramp	TT	3					n
-en motorcyklist	a motorcyclist	TT	3					n
-en cyklist	a cyclist	TT	2					n
-en bilist	a motorist	TT	3					n
-en passagerfærge	a passenger ferry	TT	3					n
-vejarbejde	roadworks	TT	3		et			n
-en fartgrænse	a speed limit	TT	3					n
-et fartkamera	a speed camera	TT	3					n
-en sele	a seat belt / harness	TT	3					n
-en airbag	an airbag	TT	3					n
-en bagagebærer	a luggage rack / bike rack	TT	4					n
-en forrude	a windshield	TT	4					n
-en vinduesvisker	a windshield wiper	TT	4					n
-en kofanger	a bumper	TT	4					n
-en nummerplade	a license plate	TT	3					n
-en udstødning	an exhaust	TT	4					n
-et gear	a gear	TT	3					n
-en kobling	a clutch	TT	4					n
-en speeder	an accelerator	TT	4					n
-en bremse	a brake	TT	2					n
-et blinklys	a turn signal	TT	4					n
-en forlygte	a headlight	TT	4					n
-en baglygte	a taillight	TT	4					n
-en reservedel	a spare part	TT	3					n
-en køreprøve	a driving test	TT	3					n
-en køreskole	a driving school	TT	3					n
-en kørelærer	a driving instructor	TT	3					n
-et postkontor	a post office	TS	3					n
-porto	postage	TS	3		en			n
-et autoværksted	a car repair shop	TS	4					n
-en bilvask	a car wash	TS	3					n
-et parkeringshus	a parking garage	TT	3					n
-en parkeringsautomat	a parking meter	TT	3					n
-en parkeringsvagt	a parking attendant	TT	4					n
-en P-skive	a parking disc	TT	4					n
-en cykelparkering	a bike parking	TT	3					n
-en fodgængerzone	a pedestrian zone	TS	4					n
-et gadekryds	a street corner / junction	TS	4					n
-et udsigtspunkt	a viewpoint	TT	3					n
-en havnepromenade	a harbor promenade	TS	4					n
-en havnebus	a harbor bus	TT	4					n
-en kanalrundfart	a canal tour	TT	3					n
-en benzinstation	a gas station	TT	2					n
-en bilnøgle	a car key	TT	2					n
-en brandbil	a fire truck	TS	2					n
-en dagsrejse	a day trip	TT	3					n
-en fiskerby	a fishing village	TS	3					n
-en flyvetid	a flight time	TT	3					n
-en hovedgade	a main street	TS	2					n
-en kystby	a coastal town	TS	3					n
-en rundvisning	a guided tour	TT	3					n
-en skraldebil	a garbage truck	TS	3					n
-en togrejse	a train journey	TT	2					n
-en udenrigsrejse	a trip abroad	TT	3					n
-et cykelstativ	a bike rack	TT	3					n
-et feriested	a holiday resort	TT	3					n
-et hotelværelse	a hotel room	TT	2					n
-et pasfoto	a passport photo	TT	3					n
-et rejsemål	a destination	TT	2					n
-et udflugtsmål	a destination for an outing	TT	3					n
-et vejskilt	a road sign	TT	3					n
-blæst	wind	WN	2		en			n
-en storm	a storm	WN	2					n
-et tordenvejr	a thunderstorm	WN	2					n
-lyn	lightning	WN	2		et			n
+en vogn	a wagon / cart	TT	2					n	vognen|vogne	the wagon / the cart|wagons / carts
+en afkørsel	an exit (highway)	TT	3					n	afkørslen|afkørsler	the exit (highway)|exits (highway)
+en tilkørsel	an on-ramp	TT	3					n	tilkørslen|tilkørsler	the on-ramp|on-ramps
+en motorcyklist	a motorcyclist	TT	3					n	motorcyklisten|motorcyklister	the motorcyclist|motorcyclists
+en cyklist	a cyclist	TT	2					n	cyklisten|cyklister	the cyclist|cyclists
+en bilist	a motorist	TT	3					n	bilisten|bilister	the motorist|motorists
+en passagerfærge	a passenger ferry	TT	3					n	passagerfærgen|passagerfærger	the passenger ferry|passenger ferries
+vejarbejde	roadworks	TT	3		et			n	vejarbejdet	the roadworks
+en fartgrænse	a speed limit	TT	3					n	fartgrænsen|fartgrænser	the speed limit|speed limits
+et fartkamera	a speed camera	TT	3					n	fartkameraet|fartkameraer	the speed camera|speed cameras
+en sele	a seat belt / harness	TT	3					n	selen|seler	the seat belt / the harness|seat belts / harnesses
+en airbag	an airbag	TT	3					n	airbaggen	the airbag
+en bagagebærer	a luggage rack / bike rack	TT	4					n	bagagebæreren|bagagebærere	the luggage rack / the bike rack|luggage racks / bike racks
+en forrude	a windshield	TT	4					n	forruden|forruder	the windshield|windshields
+en vinduesvisker	a windshield wiper	TT	4					n	vinduesviskeren|vinduesviskere	the windshield wiper|windshield wipers
+en kofanger	a bumper	TT	4					n	kofangeren|kofangere	the bumper|bumpers
+en nummerplade	a license plate	TT	3					n	nummerpladen|nummerplader	the license plate|license plates
+en udstødning	an exhaust	TT	4					n	udstødningen|udstødninger	the exhaust|exhausts
+et gear	a gear	TT	3					n	gearet	the gear
+en kobling	a clutch	TT	4					n	koblingen|koblinger	the clutch|clutches
+en speeder	an accelerator	TT	4					n	speederen|speedere	the accelerator|accelerators
+en bremse	a brake	TT	2					n	bremsen|bremser	the brake|brakes
+et blinklys	a turn signal	TT	4					n	blinklyset	the turn signal
+en forlygte	a headlight	TT	4					n	forlygten|forlygter	the headlight|headlights
+en baglygte	a taillight	TT	4					n	baglygten|baglygter	the taillight|taillights
+en reservedel	a spare part	TT	3					n	reservedelen|reservedele	the spare part|spare parts
+en køreprøve	a driving test	TT	3					n	køreprøven|køreprøver	the driving test|driving tests
+en køreskole	a driving school	TT	3					n	køreskolen|køreskoler	the driving school|driving schools
+en kørelærer	a driving instructor	TT	3					n	kørelæreren|kørelærere	the driving instructor|driving instructors
+et postkontor	a post office	TS	3					n	postkontoret|postkontorer	the post office|post offices
+porto	postage	TS	3		en			n	portoen	the postage
+et autoværksted	a car repair shop	TS	4					n	autoværkstedet|autoværksteder	the car repair shop|car repair shops
+en bilvask	a car wash	TS	3					n	bilvasken|bilvaske	the car wash|car washes
+et parkeringshus	a parking garage	TT	3					n	parkeringshuset|parkeringshuse	the parking garage|parking garages
+en parkeringsautomat	a parking meter	TT	3					n	parkeringsautomaten|parkeringsautomater	the parking meter|parking meters
+en parkeringsvagt	a parking attendant	TT	4					n	parkeringsvagten|parkeringsvagter	the parking attendant|parking attendants
+en P-skive	a parking disc	TT	2					n	P-skiven|P-skiver	the parking disc|parking discs
+en cykelparkering	a bike parking	TT	3					n	cykelparkeringen|cykelparkeringer	the bike parking|bike parkings
+en fodgængerzone	a pedestrian zone	TS	4					n	fodgængerzonen|fodgængerzoner	the pedestrian zone|pedestrian zones
+et gadekryds	a street corner / junction	TS	4					n	gadekrydset	the street corner / the junction
+et udsigtspunkt	a viewpoint	TT	3					n	udsigtspunktet|udsigtspunkter	the viewpoint|viewpoints
+en havnepromenade	a harbor promenade	TS	4					n	havnepromenaden|havnepromenader	the harbor promenade|harbor promenades
+en havnebus	a harbor bus	TT	4					n	havnebussen|havnebusser	the harbor bus|harbor buses
+en kanalrundfart	a canal tour	TT	3					n	kanalrundfarten|kanalrundfarter	the canal tour|canal tours
+en benzinstation	a gas station	TT	2					n	benzinstationen|benzinstationer	the gas station|gas stations
+en bilnøgle	a car key	TT	2					n	bilnøglen|bilnøgler	the car key|car keys
+en brandbil	a fire truck	TS	2					n	brandbilen|brandbiler	the fire truck|fire trucks
+en dagsrejse	a day trip	TT	3					n	dagsrejsen|dagsrejser	the day trip|day trips
+en fiskerby	a fishing village	TS	3					n	fiskerbyen|fiskerbyer	the fishing village|fishing villages
+en flyvetid	a flight time	TT	3					n	flyvetiden	the flight time
+en hovedgade	a main street	TS	2					n	hovedgaden|hovedgader	the main street|main streets
+en kystby	a coastal town	TS	3					n	kystbyen|kystbyer	the coastal town|coastal towns
+en rundvisning	a guided tour	TT	3					n	rundvisningen|rundvisninger	the guided tour|guided tours
+en skraldebil	a garbage truck	TS	3					n	skraldebilen|skraldebiler	the garbage truck|garbage trucks
+en togrejse	a train journey	TT	2					n	togrejsen|togrejser	the train journey|train journeys
+en udenrigsrejse	a trip abroad	TT	3					n	udenrigsrejsen|udenrigsrejser	the trip abroad|trip abroads
+et cykelstativ	a bike rack	TT	3					n	cykelstativet|cykelstativer	the bike rack|bike racks
+et feriested	a holiday resort	TT	3					n	feriestedet|feriesteder	the holiday resort|holiday resorts
+et hotelværelse	a hotel room	TT	2					n	hotelværelset|hotelværelser	the hotel room|hotel rooms
+et pasfoto	a passport photo	TT	3					n	pasfotoet|pasfotoer	the passport photo|passport photos
+et rejsemål	a destination	TT	2					n	rejsemålet	the destination
+et udflugtsmål	a destination for an outing	TT	3					n	udflugtsmålet	the destination for an outing
+et vejskilt	a road sign	TT	3					n	vejskiltet|vejskilte	the road sign|road signs
+blæst	wind	WN	2		en			n	blæsten	the wind
+en storm	a storm	WN	2					n	stormen|storme	the storm|storms
+et tordenvejr	a thunderstorm	WN	2					n	tordenvejret	the thunderstorm
+lyn	lightning	WN	2		et			n	lynet	the lightning
 torden	thunder	WN	2		en			n
-tåge	fog	WN	2		en			n
-frost	frost	WN	2		en			n
-varme	heat	WN	2					n
-kulde	cold (noun)	WN	2					n
-en temperatur	a temperature	WN	2					n
-grader	degrees	WN	2					n
-et klima	a climate	WN	2					n
-en årstid	a season	WN	2					n
+tåge	fog	WN	2		en			n	tågen	the fog
+frost	frost	WN	2		en			n	frosten	the frost
+varme	heat	WN	2					n	varmen	the heat
+kulde	cold (noun)	WN	2					n	kulden	the cold (noun)
+en temperatur	a temperature	WN	2					n	temperaturen|temperaturer	the temperature|temperatures
+grader	degrees	WN	2					n	graderen	the degrees
+et klima	a climate	WN	2					n	klimaet|klimaer	the climate|climates
+en årstid	a season	WN	2					n	årstiden|årstider	the season|seasons
 skyet	cloudy	WN	2					a
 solrigt	sunny	WN	2					a
 regnfuldt	rainy	WN	3					a
 fugtigt	humid	WN	3					a
-en regnbue	a rainbow	WN	2					n
-en rod	a root	WN	2					n
-en gren	a branch	WN	2					n
-en plante	a plant	WN	2					n
-et frø	a seed	WN	3					n
-en busk	a bush	WN	2					n
-en mark	a field	WN	2					n
-en eng	a meadow	WN	3					n
-en bakke	a hill	WN	2					n
-en klippe	a cliff / rock	WN	2					n
-en flod	a river	WN	2					n
-en å	a stream	WN	2					n
-en bølge	a wave	WN	2					n
-sand	sand	WN	2					n
-et insekt	an insect	AN	2					n
-en bi	a bee	AN	2					n
-en sommerfugl	a butterfly	AN	2					n
-en myre	an ant	AN	2					n
-en edderkop	a spider	AN	2					n
-en flue	a fly	AN	2					n
-en myg	a mosquito	AN	2					n
-en orm	a worm	AN	2					n
-en slange	a snake	AN	2					n
-en frø	a frog	AN	2					n
-en skildpadde	a turtle	AN	2					n
-en ræv	a fox	AN	2					n
-en ulv	a wolf	AN	2					n
-en bjørn	a bear	AN	2					n
-en hjort	a deer	AN	2					n
-et egern	a squirrel	AN	2					n
-en kanin	a rabbit	AN	1					n
-en rotte	a rat	AN	2					n
-dug	dew	WN	3					n
-hagl	hail	WN	3					n
-et snefnug	a snowflake	WN	2					n
-en solnedgang	a sunset	WN	2					n
-en solopgang	a sunrise	WN	2					n
-en skygge	a shadow	WN	2					n
-en ørken	a desert	WN	2					n
-en vulkan	a volcano	WN	2					n
-en gletsjer	a glacier	WN	3					n
-et jordskælv	an earthquake	WN	2					n
+en regnbue	a rainbow	WN	2					n	regnbuen|regnbuer	the rainbow|rainbows
+en rod	a root	WN	2					n	roden|rødder	the root|roots
+en gren	a branch	WN	2					n	grenen|grene	the branch|branches
+en plante	a plant	WN	2					n	planten|planter	the plant|plants
+et frø	a seed	WN	3					n	frøet	the seed
+en busk	a bush	WN	2					n	busken|buske	the bush|bushes
+en mark	a field	WN	2					n	marken|marker	the field|fields
+en eng	a meadow	WN	3					n	engen|enge	the meadow|meadows
+en bakke	a hill	WN	2					n	bakken|bakker	the hill|hills
+en klippe	a cliff / rock	WN	2					n	klippen|klipper	the cliff / the rock|cliffs / rocks
+en flod	a river	WN	2					n	floden|floder	the river|rivers
+en å	a stream	WN	2					n	åen|åer	the stream|streams
+en bølge	a wave	WN	2					n	bølgen|bølger	the wave|waves
+sand	sand	WN	2					n	sandet	the sand
+et insekt	an insect	AN	2					n	insektet|insekter	the insect|insects
+en bi	a bee	AN	2					n	bien|bier	the bee|bees
+en sommerfugl	a butterfly	AN	2					n	sommerfuglen|sommerfugle	the butterfly|butterflies
+en myre	an ant	AN	2					n	myren|myrer	the ant|ants
+en edderkop	a spider	AN	2					n	edderkoppen|edderkopper	the spider|spiders
+en flue	a fly	AN	2					n	fluen|fluer	the fly|flies
+en myg	a mosquito	AN	2					n	myggen|mygge	the mosquito|mosquitoes
+en orm	a worm	AN	2					n	ormen|orme	the worm|worms
+en slange	a snake	AN	2					n	slangen|slanger	the snake|snakes
+en frø	a frog	AN	2					n	frøen|frøer	the frog|frogs
+en skildpadde	a turtle	AN	2					n	skildpadden|skildpadder	the turtle|turtles
+en ræv	a fox	AN	2					n	ræven|ræve	the fox|foxes
+en ulv	a wolf	AN	2					n	ulven|ulve	the wolf|wolves
+en bjørn	a bear	AN	2					n	bjørnen|bjørne	the bear|bears
+en hjort	a deer	AN	2					n	hjorten|hjorte	the deer|deer
+et egern	a squirrel	AN	2					n	egernet	the squirrel
+en kanin	a rabbit	AN	1					n	kaninen|kaniner	the rabbit|rabbits
+en rotte	a rat	AN	2					n	rotten|rotter	the rat|rats
+dug	dew	WN	3					n	dugen	the dew
+hagl	hail	WN	3					n	haglet	the hail
+et snefnug	a snowflake	WN	2					n	snefnugget	the snowflake
+en solnedgang	a sunset	WN	2					n	solnedgangen|solnedgange	the sunset|sunsets
+en solopgang	a sunrise	WN	2					n	solopgangen|solopgange	the sunrise|sunrises
+en skygge	a shadow	WN	2					n	skyggen|skygger	the shadow|shadows
+en ørken	a desert	WN	2					n	ørkenen|ørkner	the desert|deserts
+en vulkan	a volcano	WN	2					n	vulkanen|vulkaner	the volcano|volcanoes
+en gletsjer	a glacier	WN	3					n	gletsjeren|gletsjere	the glacier|glaciers
+et jordskælv	an earthquake	WN	2					n	jordskælvet	the earthquake
 biodiversitet	biodiversity	WN	3					n
-en udryddelse	an extinction	WN	4					n
-en emission	an emission	WN	3					n
-en klode	a planet	WN	4					n
-forurening	pollution	WN	3					n
-genbrug	recycling	WN	3					n
-bæredygtighed	sustainability	WN	3					n
-en ressource	a resource	WN	3					n
-energi	energy	WN	2					n
-et landskab	a landscape	WN	3					n
-en art	a species	WN	3					n
-et økosystem	an ecosystem	WN	4					n
-klimaforandring	climate change	WN	3					n
-en drivhuseffekt	a greenhouse effect	WN	4					n
-en naturkatastrofe	a natural disaster	WN	3					n
-en oversvømmelse	a flood	WN	3					n
-en tørke	a drought	WN	3					n
-en skovbrand	a wildfire	WN	3					n
-en byge	a shower	WN	2					n
-isslag	black ice / freezing rain	WN	3		et			n
-en solskoldning	a sunburn	BH	3					n
-en brise	a breeze	WN	3					n
-en kuling	a gale	WN	3					n
-fugtighed	humidity	WN	3					n
-en varmebølge	a heatwave	WN	3					n
-en brand	a fire (blaze)	WN	2					n
-en planet	a planet	WN	2					n
-et univers	a universe	WN	3					n
-en rede	a nest	AN	3					n
-en hule	a cave	WN	3					n
-en hale	a tail	AN	2					n
-en tiger	a tiger	AN	2					n
-ilt	oxygen	WN	3		en			n
-en jungle	a jungle	WN	2					n
-et horn	a horn	AN	3					n
-en klo	a claw	AN	3					n
-en abe	a monkey / ape	AN	2					n
-et kredsløb	a circuit / circulation	WN	4					n
-aske	ash	WN	3		en			n
-en haj	a shark	AN	2					n
+en udryddelse	an extinction	WN	4					n	udryddelsen|udryddelser	the extinction|extinctions
+en emission	an emission	WN	3					n	emissionen|emissioner	the emission|emissions
+en klode	a planet	WN	4					n	kloden|kloder	the planet|planets
+forurening	pollution	WN	3					n	forureningen	the pollution
+genbrug	recycling	WN	3					n	genbruget	the recycling
+bæredygtighed	sustainability	WN	3					n	bæredygtigheden	the sustainability
+en ressource	a resource	WN	3					n	ressourcen|ressourcer	the resource|resources
+energi	energy	WN	2					n	energien	the energy
+et landskab	a landscape	WN	3					n	landskabet|landskaber	the landscape|landscapes
+en art	a species	WN	3					n	arten|arter	the species|species
+et økosystem	an ecosystem	WN	4					n	økosystemet|økosystemer	the ecosystem|ecosystems
+klimaforandring	climate change	WN	3					n	klimaforandringen	the climate change
+en drivhuseffekt	a greenhouse effect	WN	4					n	drivhuseffekten	the greenhouse effect
+en naturkatastrofe	a natural disaster	WN	3					n	naturkatastrofen|naturkatastrofer	the natural disaster|natural disasters
+en oversvømmelse	a flood	WN	3					n	oversvømmelsen|oversvømmelser	the flood|floods
+en tørke	a drought	WN	3					n	tørken|tørker	the drought|droughts
+en skovbrand	a wildfire	WN	3					n	skovbranden|skovbrande	the wildfire|wildfires
+en byge	a shower	WN	2					n	bygen|byger	the shower|showers
+isslag	black ice / freezing rain	WN	3		et			n	isslaget	the black ice / the freezing rain
+en solskoldning	a sunburn	BH	3					n	solskoldningen|solskoldninger	the sunburn|sunburns
+en brise	a breeze	WN	3					n	brisen|briser	the breeze|breezes
+en kuling	a gale	WN	3					n	kulingen|kulinger	the gale|gales
+fugtighed	humidity	WN	3					n	fugtigheden	the humidity
+en varmebølge	a heatwave	WN	3					n	varmebølgen|varmebølger	the heatwave|heatwaves
+en brand	a fire (blaze)	WN	2					n	branden|brande	the fire (blaze)|fires (blaze)
+en planet	a planet	WN	2					n	planeten|planeter	the planet|planets
+et univers	a universe	WN	3					n	universet|universer	the universe|universes
+en rede	a nest	AN	3					n	reden|reder	the nest|nests
+en hule	a cave	WN	3					n	hulen|huler	the cave|caves
+en hale	a tail	AN	2					n	halen|haler	the tail|tails
+en tiger	a tiger	AN	2					n	tigeren|tigre	the tiger|tigers
+ilt	oxygen	WN	3		en			n	ilten	the oxygen
+en jungle	a jungle	WN	2					n	junglen|jungler	the jungle|jungles
+et horn	a horn	AN	3					n	hornet	the horn
+en klo	a claw	AN	3					n	kloen|kløer	the claw|claws
+en abe	a monkey / ape	AN	2					n	aben|aber	the monkey / the ape|monkeys / apes
+et kredsløb	a circuit / circulation	WN	4					n	kredsløbet	the circuit / the circulation
+aske	ash	WN	3		en			n	asken	the ash
+en haj	a shark	AN	2					n	hajen|hajer	the shark|sharks
 biologisk	biological	WN	3					a
-kvæg	cattle	AN	3		et			n
-et miljø	an environment	WN	2					n
-en tyr	a bull	AN	3					n
-en svans	a tail	AN	3					n
-en dråbe	a drop	WN	3					n
-en løve	a lion	AN	2					n
-en flamme	a flame	WN	3					n
-en hvalp	a puppy	AN	2					n
-mudder	mud	WN	3		et			n
-et æsel	a donkey	AN	3					n
-stråling	radiation	WN	4		en			n
-en skabning	a creature	AN	4					n
-et bæst	a beast	AN	4					n
-et skind	a skin / hide	AN	3					n
-kul	coal	WN	3		et			n
-et rovdyr	a predator	AN	3					n
-dagslys	daylight	WN	3		et			n
-en galakse	a galaxy	WN	4					n
-en svamp	a mushroom / fungus	WN	2					n
-en bugt	a bay	WN	3					n
-en bæk	a brook	WN	4					n
-en mose	a bog / marsh	WN	3					n
-en klit	a sand dune	WN	4					n
-en regnskov	a rainforest	WN	3					n
-en horisont	a horizon	WN	3					n
-tidevand	tide	WN	4		et			n
-ler	clay	WN	3		et			n
-en rose	a rose	WN	2					n
-en tulipan	a tulip	WN	2					n
-en mælkebøtte	a dandelion	WN	3					n
-en solsikke	a sunflower	WN	2					n
-en frugtplantage	an orchard	WN	4					n
-en bøg	a beech	WN	3					n
-en eg	an oak	WN	3					n
-en birk	a birch	WN	3					n
-en gran	a spruce / fir	WN	3					n
-et fyrretræ	a pine tree	WN	3					n
-en orkan	a hurricane	WN	3					n
-en tornado	a tornado	WN	3					n
-en vejrudsigt	a weather forecast	WN	2					n
-solskin	sunshine	WN	2		et			n
-en regnbyge	a rain shower	WN	3					n
-støvregn	drizzle	WN	3		en			n
-slud	sleet	WN	3		en			n
-en snemand	a snowman	WN	2					n
-en istap	an icicle	WN	4					n
-et lavtryk	a low-pressure system	WN	3					n
-en fuldmåne	a full moon	WN	3					n
-en komet	a comet	WN	4					n
-solrig	sunny	WN	2					a
+kvæg	cattle	AN	3		et			n	kvæget	the cattle
+et miljø	an environment	WN	2					n	miljøet|miljøer	the environment|environments
+en tyr	a bull	AN	3					n	tyren|tyre	the bull|bulls
+en svans	a tail	AN	3					n	svansen|svanse	the tail|tails
+en dråbe	a drop	WN	3					n	dråben|dråber	the drop|drops
+en løve	a lion	AN	2					n	løven|løver	the lion|lions
+en flamme	a flame	WN	3					n	flammen|flammer	the flame|flames
+en hvalp	a puppy	AN	2					n	hvalpen|hvalpe	the puppy|puppies
+mudder	mud	WN	3		et			n	mudderet	the mud
+et æsel	a donkey	AN	3					n	æslet|æsler	the donkey|donkeys
+stråling	radiation	WN	4		en			n	strålingen	the radiation
+en skabning	a creature	AN	4					n	skabningen|skabninger	the creature|creatures
+et bæst	a beast	AN	4					n	bæstet|bæster	the beast|beasts
+et skind	a skin / hide	AN	3					n	skindet	the skin / the hide
+kul	coal	WN	3		et			n	kullet	the coal
+et rovdyr	a predator	AN	3					n	rovdyret	the predator
+dagslys	daylight	WN	3		et			n	dagslyset	the daylight
+en galakse	a galaxy	WN	4					n	galaksen|galakser	the galaxy|galaxies
+en svamp	a mushroom / fungus	WN	2					n	svampen|svampe	the mushroom / the fungus|mushrooms / funguses
+en bugt	a bay	WN	3					n	bugten|bugter	the bay|bays
+en bæk	a brook	WN	4					n	bækken|bække	the brook|brooks
+en mose	a bog / marsh	WN	3					n	mosen|moser	the bog / the marsh|bogs / marshes
+en klit	a sand dune	WN	4					n	klitten|klitter	the sand dune|sand dunes
+en regnskov	a rainforest	WN	3					n	regnskoven|regnskove	the rainforest|rainforests
+en horisont	a horizon	WN	3					n	horisonten|horisonter	the horizon|horizons
+tidevand	tide	WN	4		et			n	tidevandet	the tide
+ler	clay	WN	3		et			n	leret	the clay
+en rose	a rose	WN	2					n	rosen|roseer	the rose|roses
+en tulipan	a tulip	WN	2					n	tulipanen|tulipaner	the tulip|tulips
+en mælkebøtte	a dandelion	WN	3					n	mælkebøtten|mælkebøtter	the dandelion|dandelions
+en solsikke	a sunflower	WN	2					n	solsikken|solsikker	the sunflower|sunflowers
+en frugtplantage	an orchard	WN	4					n	frugtplantagen|frugtplantager	the orchard|orchards
+en bøg	a beech	WN	3					n	bøgen|bøge	the beech|beeches
+en eg	an oak	WN	3					n	egen|ege	the oak|oaks
+en birk	a birch	WN	3					n	birken|birke	the birch|birches
+en gran	a spruce / fir	WN	3					n	grann	the spruce / the fir
+et fyrretræ	a pine tree	WN	3					n	fyrretræet|fyrretræer	the pine tree|pine trees
+en orkan	a hurricane	WN	3					n	orkanen|orkaner	the hurricane|hurricanes
+en tornado	a tornado	WN	3					n	tornadoen|tornadoer	the tornado|tornadoes
+en vejrudsigt	a weather forecast	WN	2					n	vejrudsigten|vejrudsigter	the weather forecast|weather forecasts
+solskin	sunshine	WN	2		et			n	solskinnet	the sunshine
+en regnbyge	a rain shower	WN	3					n	regnbygen|regnbyger	the rain shower|rain showers
+støvregn	drizzle	WN	3		en			n	støvregnen	the drizzle
+slud	sleet	WN	3		en			n	sluden	the sleet
+en snemand	a snowman	WN	2					n	snemanden|snemænd	the snowman|snowmen
+en istap	an icicle	WN	4					n	istappen|istappe	the icicle|icicles
+et lavtryk	a low-pressure system	WN	3					n	lavtrykket	the low-pressure system
+en fuldmåne	a full moon	WN	3					n	fuldmånen|fuldmåner	the full moon|full moons
+en komet	a comet	WN	4					n	kometen|kometer	the comet|comets
+solrig	sunny	WN	2					a	solrigere|solrigest	sunnier|sunniest
 overskyet	overcast	WN	2					a
-regnfuld	rainy	WN	3					a
+regnfuld	rainy	WN	3					a	regnfuldere|regnfuldest	rainier|rainiest
 blæsende	windy	WN	2					a
 diset	hazy	WN	4					a
-frostklar	crisp and frosty	WN	4					a
-hed	hot	WN	2					a
-lummer	muggy	WN	4					a
-iskold	ice-cold	WN	2					a
+frostklar	crisp and frosty	WN	4					a	frostklarere|frostklarest	more crisp and frosty|most crisp and frosty
+hed	hot	WN	2					a	hedere|hedest	hotter|hottest
+lummer	muggy	WN	4					a	lumrere|lumrest	muggier|muggiest
+iskold	ice-cold	WN	2					a	iskoldere|iskoldest	more ice-cold|most ice-cold
 at regne	to rain	WN	1	regner|regnede|regnet		det regner|det regnede|det har regnet	it rains|it rained|it has rained	v
 at sne	to snow	WN	1	sner|sneede|sneet		det sner|det sneede|det har sneet	it snows|it snowed|it has snowed	v
 at blæse	to blow	WN	2	blæser|blæste|blæst		det blæser|det blæste|det har blæst	it blows|it blew|it has blown	v
@@ -6252,491 +6255,491 @@ at hagle	to hail	WN	3	hagler|haglede|haglet		det hagler|det haglede|det har hagl
 at klare op	to clear up	WN	2	klarer op|klarede op|klaret op		det klarer op|det klarede op|det har klaret op	it clears up|it cleared up|it has cleared up	v
 at blomstre	to bloom	WN	2	blomstrer|blomstrede|blomstret		blomsten blomstrer|blomsten blomstrede|blomsten har blomstret	the flower blooms|the flower bloomed|the flower has bloomed	v
 at visne	to wither	WN	3	visner|visnede|visnet		blomsten visner|blomsten visnede|blomsten er visnet	the flower withers|the flower withered|the flower has withered	v
-et husdyr	a domestic animal / pet	AN	2					n
-en killing	a kitten	AN	2					n
-en hamster	a hamster	AN	2					n
-et marsvin	a guinea pig / porpoise	AN	3					n
-en guldfisk	a goldfish	AN	2					n
-en papegøje	a parrot	AN	2					n
-en ged	a goat	AN	2					n
-et lam	a lamb	AN	2					n
-en kalv	a calf	AN	2					n
-en høne	a hen	AN	2					n
-en hane	a rooster / tap	AN	2					n
-en and	a duck	AN	1					n
-en gås	a goose	AN	2					n
-en svane	a swan	AN	2					n
-en due	a pigeon / dove	AN	2					n
-en måge	a seagull	AN	2					n
-en krage	a crow	AN	3					n
-en ugle	an owl	AN	2					n
-en ørn	an eagle	AN	2					n
-en stork	a stork	AN	3					n
-en spurv	a sparrow	AN	3					n
-en solsort	a blackbird	AN	4					n
-et rådyr	a roe deer	AN	3					n
-en elg	a moose / elk	AN	3					n
-et pindsvin	a hedgehog	AN	3					n
-en grævling	a badger	AN	4					n
-en hare	a hare	AN	2					n
-en flagermus	a bat	AN	3					n
-en tudse	a toad	AN	4					n
-et firben	a lizard	AN	3					n
-en krokodille	a crocodile	AN	2					n
-en elefant	an elephant	AN	2					n
-en giraf	a giraffe	AN	2					n
-en zebra	a zebra	AN	2					n
-en kamel	a camel	AN	2					n
-en leopard	a leopard	AN	3					n
-en gorilla	a gorilla	AN	2					n
-en isbjørn	a polar bear	AN	2					n
-en pingvin	a penguin	AN	2					n
-en sæl	a seal	AN	2					n
-en hval	a whale	AN	2					n
-en delfin	a dolphin	AN	2					n
-en blæksprutte	an octopus / squid	AN	3					n
-en vandmand	a jellyfish	AN	3					n
-en søstjerne	a starfish	AN	3					n
-en hveps	a wasp	AN	3					n
-en mariehøne	a ladybug	AN	3					n
-en snegl	a snail / slug	AN	3					n
-en flåt	a tick	AN	4					n
-en bille	a beetle	AN	3					n
-en pote	a paw	AN	3					n
-en vinge	a wing	AN	3					n
-et næb	a beak	AN	3					n
+et husdyr	a domestic animal / pet	AN	2					n	husdyret	the domestic animal / the pet
+en killing	a kitten	AN	2					n	killingen|killinger	the kitten|kittens
+en hamster	a hamster	AN	2					n	hamsteren|hamstere	the hamster|hamsters
+et marsvin	a guinea pig / porpoise	AN	3					n	marsvinet|marsvin	the guinea pig / the porpoise|guinea pigs / porpoises
+en guldfisk	a goldfish	AN	2					n	guldfisken|guldfiske	the goldfish|goldfish
+en papegøje	a parrot	AN	2					n	papegøjen|papegøjer	the parrot|parrots
+en ged	a goat	AN	2					n	geden|geder	the goat|goats
+et lam	a lamb	AN	2					n	lammet|lamme	the lamb|lambs
+en kalv	a calf	AN	2					n	kalven|kalve	the calf|calves
+en høne	a hen	AN	2					n	hønen|høns	the hen|hens
+en hane	a rooster / tap	AN	2					n	hanen|haner	the rooster / the tap|roosters / taps
+en and	a duck	AN	1					n	anden|ænder	the duck|ducks
+en gås	a goose	AN	2					n	gåsen|gæs	the goose|geese
+en svane	a swan	AN	2					n	svanen|svaner	the swan|swans
+en due	a pigeon / dove	AN	2					n	duen|duer	the pigeon / the dove|pigeons / doves
+en måge	a seagull	AN	2					n	mågen|måger	the seagull|seagulls
+en krage	a crow	AN	3					n	kragen|krager	the crow|crows
+en ugle	an owl	AN	2					n	uglen|ugler	the owl|owls
+en ørn	an eagle	AN	2					n	ørnen|ørne	the eagle|eagles
+en stork	a stork	AN	3					n	storken|storke	the stork|storks
+en spurv	a sparrow	AN	3					n	spurven|spurve	the sparrow|sparrows
+en solsort	a blackbird	AN	4					n	solsorten|solsorte	the blackbird|blackbirds
+et rådyr	a roe deer	AN	3					n	rådyret	the roe deer
+en elg	a moose / elk	AN	3					n	elgen|elge	the moose / the elk|moose / elks
+et pindsvin	a hedgehog	AN	3					n	pindsvinet|pindsvin	the hedgehog|hedgehogs
+en grævling	a badger	AN	4					n	grævlingen|grævlinge	the badger|badgers
+en hare	a hare	AN	2					n	haren|harer	the hare|hares
+en flagermus	a bat	AN	3					n	flagermusen	the bat
+en tudse	a toad	AN	4					n	tudsen|tudser	the toad|toads
+et firben	a lizard	AN	3					n	firbenet	the lizard
+en krokodille	a crocodile	AN	2					n	krokodillen|krokodiller	the crocodile|crocodiles
+en elefant	an elephant	AN	2					n	elefanten|elefanter	the elephant|elephants
+en giraf	a giraffe	AN	2					n	giraffen|giraffer	the giraffe|giraffes
+en zebra	a zebra	AN	2					n	zebraen|zebraer	the zebra|zebras
+en kamel	a camel	AN	2					n	kamelen|kameler	the camel|camels
+en leopard	a leopard	AN	3					n	leoparden|leoparder	the leopard|leopards
+en gorilla	a gorilla	AN	2					n	gorillaen|gorillaer	the gorilla|gorillas
+en isbjørn	a polar bear	AN	2					n	isbjørnen|isbjørne	the polar bear|polar bears
+en pingvin	a penguin	AN	2					n	pingvinen|pingviner	the penguin|penguins
+en sæl	a seal	AN	2					n	sælen|sæler	the seal|seals
+en hval	a whale	AN	2					n	hvalen|hvaler	the whale|whales
+en delfin	a dolphin	AN	2					n	delfinen|delfiner	the dolphin|dolphins
+en blæksprutte	an octopus / squid	AN	3					n	blæksprutten|blæksprutter	the octopus / the squid|octopuses / squids
+en vandmand	a jellyfish	AN	3					n	vandmanden|vandmænd	the jellyfish|jellyfish
+en søstjerne	a starfish	AN	3					n	søstjernen|søstjerner	the starfish|starfish
+en hveps	a wasp	AN	3					n	hvepsen|hvepse	the wasp|wasps
+en mariehøne	a ladybug	AN	3					n	mariehønen|mariehøns	the ladybug|ladybugs
+en snegl	a snail / slug	AN	3					n	sneglen|snegle	the snail / the slug|snails / slugs
+en flåt	a tick	AN	4					n	flåten|flåter	the tick|ticks
+en bille	a beetle	AN	3					n	billen|biller	the beetle|beetles
+en pote	a paw	AN	3					n	poten|poter	the paw|paws
+en vinge	a wing	AN	3					n	vingen|vinger	the wing|wings
+et næb	a beak	AN	3					n	næbbet	the beak
 en fjer	a feather	AN	2					n
-en finne	a fin	AN	4					n
-et gevir	a set of antlers	AN	4					n
-en stald	a stable	AN	2					n
-et bur	a cage	AN	3					n
+en finne	a fin	AN	4					n	finnen|finner	the fin|fins
+et gevir	a set of antlers	AN	4					n	geviret|gevirer	the set of antlers|sets of antlers
+en stald	a stable	AN	2					n	stalden|stalde	the stable|stables
+et bur	a cage	AN	3					n	buret|bure	the cage|cages
 at gø	to bark	AN	2	gør|gøede|gøet		hunden gør|hunden gøede|hunden har gøet	the dog barks|the dog barked|the dog has barked	v
 at mjave	to meow	AN	2	mjaver|mjavede|mjavet		katten mjaver|katten mjavede|katten har mjavet	the cat meows|the cat meowed|the cat has meowed	v
 at kvidre	to chirp	AN	4	kvidrer|kvidrede|kvidret		fuglen kvidrer|fuglen kvidrede|fuglen har kvidret	the bird chirps|the bird chirped|the bird has chirped	v
 at summe	to buzz	AN	3	summer|summede|summet		bien summer|bien summede|bien har summet	the bee buzzes|the bee buzzed|the bee has buzzed	v
 at lufte hunden	to walk the dog	AN	2	lufter hunden|luftede hunden|luftet hunden		jeg lufter hunden|jeg luftede hunden|jeg har luftet hunden	I walk the dog|I walked the dog|I have walked the dog	v
-en energikilde	an energy source	WN	4					n
+en energikilde	an energy source	WN	4					n	energikilden|energikilder	the energy source|energy sources
 vedvarende energi	renewable energy	WN	3		en			n
-vindenergi	wind power	WN	3		en			n
-solenergi	solar power	WN	3		en			n
-en vindmølle	a wind turbine / windmill	WN	3					n
-et solpanel	a solar panel	WN	3					n
-et kraftværk	a power plant	WN	3					n
-atomkraft	nuclear power	WN	3		en			n
-naturgas	natural gas	WN	3		en			n
+vindenergi	wind power	WN	3		en			n	vindenergien	the wind power
+solenergi	solar power	WN	3		en			n	solenergien	the solar power
+en vindmølle	a wind turbine / windmill	WN	3					n	vindmøllen|vindmøller	the wind turbine / the windmill|wind turbines / windmills
+et solpanel	a solar panel	WN	3					n	solpanelet|solpaneler	the solar panel|solar panels
+et kraftværk	a power plant	WN	3					n	kraftværket|kraftværker	the power plant|power plants
+atomkraft	nuclear power	WN	3		en			n	atomkraften	the nuclear power
+naturgas	natural gas	WN	3		en			n	naturgassen	the natural gas
 CO2	CO2 / carbon dioxide	WN	3		en			n
-et udslip	an emission / leak	WN	3					n
+et udslip	an emission / leak	WN	3					n	udslippet	the emission / the leak
 global opvarmning	global warming	WN	3		en			n
-plastikaffald	plastic waste	WN	3		et			n
-en genbrugsstation	a recycling center	TS	3					n
-et atom	an atom	WN	3					n
-et gen	a gene	WN	3					n
+plastikaffald	plastic waste	WN	3		et			n	plastikaffaldet	the plastic waste
+en genbrugsstation	a recycling center	TS	3					n	genbrugsstationen|genbrugsstationer	the recycling center|recycling centers
+et atom	an atom	WN	3					n	atomet|atomer	the atom|atoms
+et gen	a gene	WN	3					n	genet|gener	the gene|genes
 DNA	DNA	WN	3		et			n
 solsystemet	the solar system	WN	3					n
-en astronaut	an astronaut	WN	3					n
-en raket	a rocket	WN	3					n
-tyngdekraft	gravity	WN	3		en			n
-et grundstof	a chemical element	WN	4					n
-brint	hydrogen	WN	4		en			n
-kulstof	carbon	WN	4		et			n
-kobber	copper	WN	3		et			n
-stål	steel	WN	2		et			n
-aluminium	aluminum	WN	3		et			n
-papir	paper		1		et			n
+en astronaut	an astronaut	WN	3					n	astronauten|astronauter	the astronaut|astronauts
+en raket	a rocket	WN	3					n	raketten|raketter	the rocket|rockets
+tyngdekraft	gravity	WN	3		en			n	tyngdekraften	the gravity
+et grundstof	a chemical element	WN	4					n	grundstoffet|grundstoffer	the chemical element|chemical elements
+brint	hydrogen	WN	4		en			n	brinten	the hydrogen
+kulstof	carbon	WN	4		et			n	kulstoffet	the carbon
+kobber	copper	WN	3		et			n	kobberet	the copper
+stål	steel	WN	2		et			n	stålet	the steel
+aluminium	aluminum	WN	3		et			n	aluminiummet	the aluminum
+papir	paper		1		et			n	papiret	the paper
 pap	cardboard	WN	2		et			n
-gummi	rubber	WN	2		et			n
-beton	concrete	WN	3		en			n
-marmor	marble	WN	3		et			n
-en måling	a measurement	WN	3					n
-et verdenshav	an ocean	WN	4					n
+gummi	rubber	WN	2		et			n	gummiet	the rubber
+beton	concrete	WN	3		en			n	betonen	the concrete
+marmor	marble	WN	3		et			n	marmoret	the marble
+en måling	a measurement	WN	3					n	målingen|målinger	the measurement|measurements
+et verdenshav	an ocean	WN	4					n	verdenshavet|verdenshave	the ocean|oceans
 Atlanterhavet	the Atlantic Ocean	WN	3					n
 Stillehavet	the Pacific Ocean	WN	3					n
 Østersøen	the Baltic Sea	WN	3					n
 Nordsøen	the North Sea	WN	3					n
-en verdensdel	a continent	WN	3					n
-et kontinent	a continent	WN	3					n
+en verdensdel	a continent	WN	3					n	verdensdelen|verdensdele	the continent|continents
+et kontinent	a continent	WN	3					n	kontinentet|kontinenter	the continent|continents
 Afrika	Africa	CL	2					n
 Asien	Asia	CL	2					n
-Nordamerika	North America	CL	2					n
-Sydamerika	South America	CL	2					n
+Nordamerika	North America	CL	2					n	Nordamerikaen	the North America
+Sydamerika	South America	CL	2					n	Sydamerikaen	the South America
 Australien	Australia	CL	2					n
-Antarktis	Antarctica	CL	3					n
-en vandpyt	a puddle	WN	3					n
-en pyt	a puddle	WN	3					n
-en brønd	a well	WN	3					n
-et bælt	a strait (e.g. Storebælt)	WN	4					n
-en kraft	a force / power	WN	3					n
-et kæledyr	a pet	AN	2					n
-lava	lava	WN	3		en			n
-mos	moss / mash	WN	3		et			n
-natur	nature	WN	2		en			n
-nordlys	northern lights	WN	3		et			n
-en okse	an ox	AN	3					n
-rav	amber	WN	3		et			n
-en solcelle	a solar cell	WN	3					n
-et svin	a pig / swine	AN	2					n
-en ælling	a duckling	AN	3					n
-et landbrug	agriculture / a farm	WN	3					n
-en afgrøde	a crop	WN	4					n
-en høst	a harvest	WN	3					n
-hvede	wheat	WN	3		en			n
-rug	rye	WN	3		en			n
-byg	barley	WN	3		en			n
-raps	rapeseed	WN	4		en			n
-en halmballe	a straw bale	WN	4					n
-halm	straw	WN	3		en			n
-hø	hay	WN	3		et			n
-gødning	fertilizer / manure	WN	3		en			n
-en plov	a plow	WN	4					n
-en mejetærsker	a combine harvester	WN	4					n
-en frugthave	an orchard	WN	4					n
-en køkkenhave	a vegetable garden	WN	3					n
-et drivhus	a greenhouse	WN	3					n
-en kolonihave	an allotment garden	FS	3					n
-et blomsterbed	a flower bed	WN	3					n
-en frøpose	a seed packet	WN	4					n
-en stikling	a cutting (plant)	WN	4					n
-en potte	a pot (plant)	HH	3					n
-en trillebør	a wheelbarrow	WN	3					n
-en beskæresaks	(a pair of) pruning shears	WN	4					n
-en spade	a spade	WN	3					n
-ukrudt	weeds	WN	3		et			n
-kompost	compost	WN	3		en			n
-et bistade	a beehive	AN	4					n
-en biavler	a beekeeper	AN	4					n
-en fåreflok	a flock of sheep	AN	4					n
-en hønsegård	a chicken yard	AN	4					n
-en kostald	a cowshed	AN	4					n
-en svinestald	a pigsty	AN	4					n
-et føl	a foal	AN	3					n
-en pony	a pony	AN	2					n
-en hingst	a stallion	AN	4					n
-en hoppe	a mare	AN	4					n
-en sadel	a saddle	AN	3					n
-en hov	a hoof	AN	3					n
-en manke	a mane	AN	4					n
-en vædder	a ram	AN	4					n
-en tyrekalv	a bull calf	AN	4					n
-fjerkræ	poultry	FD	3		et			n
-vildt	game (wild animals)	AN	3		et			n
-en fiskestang	a fishing rod	FS	3					n
-en madding	a bait	AN	4					n
-en ål	an eel	AN	3					n
-en rødspætte	a plaice	FD	3					n
-en makrel	a mackerel	FD	3					n
-en ørred	a trout	AN	3					n
-en gedde	a pike	AN	4					n
-en aborre	a perch	AN	4					n
-en østers	an oyster	FD	3					n
-en muslingeskal	a seashell	WN	3					n
-et vandfald	a waterfall	WN	3					n
-en dam	a pond	WN	2					n
-et vådområde	a wetland	WN	4					n
-en hede	a heath / moor	WN	4					n
-en skovsti	a forest path	WN	4					n
-en lysning	a clearing	WN	4					n
-et krat	a thicket	WN	4					n
-en bregne	a fern	WN	4					n
-et siv	a reed	WN	4					n
-en åkande	a water lily	WN	4					n
-en hyld	an elder (tree)	WN	3					n
-en hyldeblomst	an elderflower	FD	3					n
-en brændenælde	a stinging nettle	WN	4					n
-en tidsel	a thistle	WN	4					n
-en kløver	a clover	WN	3					n
+Antarktis	Antarctica	CL	3					n	Antarktisset	the Antarctica
+en vandpyt	a puddle	WN	3					n	vandpytten|vandpytter	the puddle|puddles
+en pyt	a puddle	WN	3					n	pytten|pytter	the puddle|puddles
+en brønd	a well	WN	3					n	brønden|brønde	the well|wells
+et bælt	a strait (e.g. Storebælt)	WN	4					n	bæltet	the strait (e.g. Storebælt)
+en kraft	a force / power	WN	3					n	kraften|kræfter	the force / the power|forces / powers
+et kæledyr	a pet	AN	2					n	kæledyret	the pet
+lava	lava	WN	3		en			n	lavaen	the lava
+mos	moss / mash	WN	3		et			n	mosset	the moss / the mash
+natur	nature	WN	2		en			n	naturen	the nature
+nordlys	northern lights	WN	3		et			n	nordlyset	the northern lights
+en okse	an ox	AN	3					n	oksen|okser	the ox|oxen
+rav	amber	WN	3		et			n	ravet	the amber
+en solcelle	a solar cell	WN	3					n	solcellen|solceller	the solar cell|solar cells
+et svin	a pig / swine	AN	2					n	svinet|svin	the pig / the swine|pigs / swines
+en ælling	a duckling	AN	3					n	ællingen|ællinge	the duckling|ducklings
+et landbrug	agriculture / a farm	WN	3					n	landbruget	the agriculture / the farm
+en afgrøde	a crop	WN	4					n	afgrøden|afgrøder	the crop|crops
+en høst	a harvest	WN	3					n	høsten|høster	the harvest|harvests
+hvede	wheat	WN	3		en			n	hveden	the wheat
+rug	rye	WN	3		en			n	rugen	the rye
+byg	barley	WN	3		en			n	byggen	the barley
+raps	rapeseed	WN	4		en			n	rapsen	the rapeseed
+en halmballe	a straw bale	WN	4					n	halmballen|halmballer	the straw bale|straw bales
+halm	straw	WN	3		en			n	halmen	the straw
+hø	hay	WN	3		et			n	høet	the hay
+gødning	fertilizer / manure	WN	3		en			n	gødningen	the fertilizer / the manure
+en plov	a plow	WN	4					n	ploven|plove	the plow|plows
+en mejetærsker	a combine harvester	WN	4					n	mejetærskeren|mejetærskere	the combine harvester|combine harvesters
+en frugthave	an orchard	WN	4					n	frugthaven|frugthaver	the orchard|orchards
+en køkkenhave	a vegetable garden	WN	3					n	køkkenhaven|køkkenhaver	the vegetable garden|vegetable gardens
+et drivhus	a greenhouse	WN	3					n	drivhuset|drivhuse	the greenhouse|greenhouses
+en kolonihave	an allotment garden	FS	3					n	kolonihaven|kolonihaver	the allotment garden|allotment gardens
+et blomsterbed	a flower bed	WN	3					n	blomsterbedet|blomsterbede	the flower bed|flower beds
+en frøpose	a seed packet	WN	4					n	frøposen|frøposer	the seed packet|seed packets
+en stikling	a cutting (plant)	WN	4					n	stiklingen|stiklinger	the cutting (plant)|cuttings (plant)
+en potte	a pot (plant)	HH	3					n	potten|potter	the pot (plant)|pots (plant)
+en trillebør	a wheelbarrow	WN	3					n	trillebøren|trillebøre	the wheelbarrow|wheelbarrows
+en beskæresaks	(a pair of) pruning shears	WN	4					n	beskæresaksen|beskæresakse	the (a pair of) pruning shears|(a pair of) pruning shears
+en spade	a spade	WN	3					n	spaden|spader	the spade|spades
+ukrudt	weeds	WN	3		et			n	ukrudtet	the weeds
+kompost	compost	WN	3		en			n	komposten	the compost
+et bistade	a beehive	AN	4					n	bistadet|bistader	the beehive|beehives
+en biavler	a beekeeper	AN	4					n	biavleren|biavlere	the beekeeper|beekeepers
+en fåreflok	a flock of sheep	AN	4					n	fåreflokken|fåreflokke	the flock of sheep|flocks of sheep
+en hønsegård	a chicken yard	AN	4					n	hønsegården|hønsegårde	the chicken yard|chicken yards
+en kostald	a cowshed	AN	4					n	kostalden|kostalde	the cowshed|cowsheds
+en svinestald	a pigsty	AN	4					n	svinestalden|svinestalde	the pigsty|pigsties
+et føl	a foal	AN	3					n	føllet	the foal
+en pony	a pony	AN	2					n	ponyen|ponyer	the pony|ponies
+en hingst	a stallion	AN	4					n	hingsten|hingste	the stallion|stallions
+en hoppe	a mare	AN	4					n	hoppen|hopper	the mare|mares
+en sadel	a saddle	AN	3					n	sadlen|sadler	the saddle|saddles
+en hov	a hoof	AN	3					n	hoven|hove	the hoof|hoofs
+en manke	a mane	AN	4					n	manken|manker	the mane|manes
+en vædder	a ram	AN	4					n	vædderen|væddere	the ram|rams
+en tyrekalv	a bull calf	AN	4					n	tyrekalven|tyrekalve	the bull calf|bull calves
+fjerkræ	poultry	FD	3		et			n	fjerkræet	the poultry
+vildt	really / wild / game (animals)	AN	2		et			d	vildtet	the game (wild animals)
+en fiskestang	a fishing rod	FS	3					n	fiskestangen|fiskestænger	the fishing rod|fishing rods
+en madding	a bait	AN	4					n	maddingen|maddinger	the bait|baits
+en ål	an eel	AN	3					n	ålen|åle	the eel|eels
+en rødspætte	a plaice	FD	3					n	rødspætten|rødspætter	the plaice|plaices
+en makrel	a mackerel	FD	3					n	makrellen|makreller	the mackerel|mackerel
+en ørred	a trout	AN	3					n	ørreden|ørreder	the trout|trout
+en gedde	a pike	AN	4					n	gedden|gedder	the pike|pikes
+en aborre	a perch	AN	4					n	aborren|aborrer	the perch|perches
+en østers	an oyster	FD	3					n	østersen	the oyster
+en muslingeskal	a seashell	WN	3					n	muslingeskallen|muslingeskaller	the seashell|seashells
+et vandfald	a waterfall	WN	3					n	vandfaldet	the waterfall
+en dam	a pond	WN	2					n	dammen|damme	the pond|ponds
+et vådområde	a wetland	WN	4					n	vådområdet|vådområder	the wetland|wetlands
+en hede	a heath / moor	WN	4					n	heden|heder	the heath / the moor|heaths / moors
+en skovsti	a forest path	WN	4					n	skovstien|skovstier	the forest path|forest paths
+en lysning	a clearing	WN	4					n	lysningen|lysninger	the clearing|clearings
+et krat	a thicket	WN	4					n	kratt	the thicket
+en bregne	a fern	WN	4					n	bregnen|bregner	the fern|ferns
+et siv	a reed	WN	4					n	sivet	the reed
+en åkande	a water lily	WN	4					n	åkanden|åkander	the water lily|water lilies
+en hyld	an elder (tree)	WN	3					n	hylden|hylde	the elder (tree)|elders (tree)
+en hyldeblomst	an elderflower	FD	3					n	hyldeblomsten|hyldeblomster	the elderflower|elderflowers
+en brændenælde	a stinging nettle	WN	4					n	brændenælden|brændenælder	the stinging nettle|stinging nettles
+en tidsel	a thistle	WN	4					n	tidslen|tidsler	the thistle|thistles
+en kløver	a clover	WN	3					n	kløveren|kløvere	the clover|clovers
 en vissen blomst	a withered flower	WN	4					n
-en knop	a bud	WN	4					n
-et kronblad	a petal	WN	4					n
-en torn	a thorn	WN	3					n
-en kogle	a pine cone	WN	4					n
-et agern	an acorn	WN	4					n
-en kastanje	a chestnut	WN	3					n
-løvfald	autumn leaf fall	WN	4		et			n
-en årring	a tree ring	WN	4					n
-et naturområde	a nature area	WN	3					n
-en nationalpark	a national park	WN	3					n
+en knop	a bud	WN	4					n	knoppen|knopper	the bud|buds
+et kronblad	a petal	WN	4					n	kronbladet|kronblade	the petal|petals
+en torn	a thorn	WN	3					n	tornen|torne	the thorn|thorns
+en kogle	a pine cone	WN	4					n	koglen|kogler	the pine cone|pine cones
+et agern	an acorn	WN	4					n	agernet	the acorn
+en kastanje	a chestnut	WN	3					n	kastanjen|kastanjer	the chestnut|chestnuts
+løvfald	autumn leaf fall	WN	4		et			n	løvfaldet	the autumn leaf fall
+en årring	a tree ring	WN	4					n	årringen|årringe	the tree ring|tree rings
+et naturområde	a nature area	WN	3					n	naturområdet|naturområder	the nature area|nature areas
+en nationalpark	a national park	WN	3					n	nationalparken|nationalparker	the national park|national parks
 et fredet område	a protected area	WN	4					n
-en naturvejleder	a nature guide	WN	4					n
-en fugletur	a birdwatching trip	AN	4					n
-en shelter	a shelter (open hut)	WN	4					n
-et fuglekvidder	a birdsong	AN	4					n
-en fugleunge	a baby bird	AN	4					n
-en trækfugl	a migratory bird	AN	4					n
+en naturvejleder	a nature guide	WN	4					n	naturvejlederen|naturvejledere	the nature guide|nature guides
+en fugletur	a birdwatching trip	AN	4					n	fugleturen|fugleture	the birdwatching trip|birdwatching trips
+en shelter	a shelter (open hut)	WN	4					n	shelteren|sheltere	the shelter (open hut)|shelters (open hut)
+et fuglekvidder	a birdsong	AN	4					n	fuglekvidderet	the birdsong
+en fugleunge	a baby bird	AN	4					n	fugleungen|fugleunger	the baby bird|baby birds
+en trækfugl	a migratory bird	AN	4					n	trækfuglen|trækfugle	the migratory bird|migratory birds
 en flok fugle	a flock of birds	AN	3					n
-en sværm	a swarm	AN	4					n
-en hvalros	a walrus	AN	3					n
-en ren	a reindeer	AN	3					n
-en bæver	a beaver	AN	3					n
-en odder	an otter	AN	4					n
-en mår	a marten	AN	4					n
-en muldvarp	a mole (animal)	AN	4					n
-en spidsmus	a shrew	AN	4					n
-en hugorm	an adder / viper	AN	4					n
-en snog	a grass snake	AN	4					n
-en salamander	a salamander	AN	4					n
-en græshoppe	a grasshopper	AN	3					n
-en guldsmed	a dragonfly	AN	4					n
-en humlebi	a bumblebee	AN	3					n
-en larve	a caterpillar / larva	AN	3					n
-en kakerlak	a cockroach	AN	3					n
-en loppe	a flea	AN	3					n
-en lus	a louse	AN	3					n
-en sølvfisk	a silverfish	AN	4					n
-et spindelvæv	a spiderweb	AN	3					n
-en myretue	an anthill	AN	4					n
-en fodring	a feeding (time)	AN	4					n
-et hundehalsbånd	a dog collar	AN	4					n
-en hundekurv	a dog bed	AN	4					n
-en kattebakke	a litter box	AN	4					n
-et foder	a feed / pet food	AN	3					n
-en kæledyrsforsikring	a pet insurance policy	AN	4					n
-lyng	heather	WN	3		en			n
-bark	bark (tree)	WN	3		en			n
-en atmosfære	an atmosphere	WN	3					n
-en bølgelængde	a wavelength	WN	4					n
-en dyreart	an animal species	AN	3					n
-en planteskole	a nursery (plants)	WN	4					n
-en sandstrand	a sandy beach	WN	3					n
-en hedebølge	a heat wave	WN	3					n
-en kuldebølge	a cold spell	WN	3					n
-en snestorm	a snowstorm	WN	3					n
-et skybrud	a cloudburst	WN	3					n
-en stormflod	a storm surge	WN	4					n
-regnvejr	rainy weather	WN	2		et			n
-solskinsvejr	sunny weather	WN	2		et			n
-gråvejr	gray / overcast weather	WN	2		et			n
-en vejrmelding	a weather report	WN	3					n
-en varmerekord	a temperature record	WN	3					n
-et solhverv	a solstice	WN	4					n
-mørketid	the dark season (winter)	WN	3		en			n
-en gadekat	a stray cat	AN	4					n
-en hundelufter	a dog walker	AN	4					n
-en hundeejer	a dog owner	AN	3					n
-kattemad	cat food	AN	2		en			n
-hundemad	dog food	AN	2		en			n
-en fuglekasse	a birdhouse	AN	4					n
-et foderbræt	a bird feeder	AN	4					n
-en akvariefisk	an aquarium fish	AN	4					n
-en dyreven	an animal lover	AN	4					n
-et dyreinternat	an animal shelter	AN	4					n
-dyrevelfærd	animal welfare	AN	3		en			n
-en krop	a body	BH	1					n
-et hoved	a head	BH	1					n
-hår	hair	BH	1		et			n
-et ansigt	a face	BH	1					n
-et øje	an eye	BH	1					n
-et øre	an ear	BH	1					n
-en næse	a nose	BH	1					n
-en mund	a mouth	BH	1					n
-en tand	a tooth	BH	1					n
-en tunge	a tongue	BH	2					n
-en hals	a throat / neck	BH	1					n
-en skulder	a shoulder	BH	2					n
-en arm	an arm	BH	1					n
-en albue	an elbow	BH	2					n
-en hånd	a hand	BH	1					n
-en finger	a finger	BH	1					n
-et bryst	a chest	BH	2					n
-en mave	a stomach	BH	1					n
-en ryg	a back	BH	1					n
-et ben	a leg / bone	BH	1					n
-et knæ	a knee	BH	1					n
-en fod	a foot	BH	1					n
-en tå	a toe	BH	2					n
-et hjerte	a heart	BH	1					n
-en lunge	a lung	BH	2					n
-hud	skin	BH	2					n
-en muskel	a muscle	BH	2					n
-en knogle	a bone	BH	3					n
-blod	blood	BH	1					n
-en hjerne	a brain	BH	2					n
-en nerve	a nerve	BH	3					n
-en sygdom	a disease	BH	2					n
-en smerte	a pain	BH	2					n
-en hovedpine	a headache	BH	1					n
-en mavepine	a stomachache	BH	2					n
-en feber	a fever	BH	2					n
-en forkølelse	a cold (illness)	BH	2					n
-en hoste	a cough	BH	2					n
-influenza	the flu	BH	2		en			n
-medicin	medicine	BH	1		en			n
-en pille	a pill	BH	2					n
-en recept	a prescription	BH	2					n
-en tandlæge	a dentist	BH	1					n
-en klinik	a clinic	BH	2					n
-en ambulance	an ambulance	BH	2					n
-en skadestue	an ER	BH	2					n
-en operation	a surgery	BH	2					n
-en undersøgelse	an examination	BH	3					n
-et symptom	a symptom	BH	3					n
-en diagnose	a diagnosis	BH	3					n
-en behandling	a treatment	BH	2					n
-helbred	health	BH	2					n
-sund	healthy	BH	2					a
-usund	unhealthy	BH	2					a
-motion	exercise	BH	2					n
-træning	training / exercise	BH	2		en			n
-en diæt	a diet	BH	3					n
-søvn	sleep	BH	2					n
-træthed	tiredness	BH	3					n
-stress	stress	BH	3					n
-angst	anxiety	FP	3					n
-en graviditet	a pregnancy	BH	3					n
-en fødsel	a birth	BH	3					n
-en vaccine	a vaccine	BH	3					n
-et plaster	a band-aid	BH	2					n
-en bandage	a bandage	BH	3					n
-en krykke	a crutch	BH	3					n
-en kørestol	a wheelchair	BH	3					n
-briller	glasses	BH	1					n
-en kontaktlinse	a contact lens	BH	3					n
-et høreapparat	a hearing aid	BH	3					n
-et smil	a smile	BH	2					n
-en latter	a laugh	BH	3					n
-et blik	a look	BH	2					n
-en gestus	a gesture	BH	3					n
-et nik	a nod	BH	3					n
-et håndtryk	a handshake	BH	3					n
+en sværm	a swarm	AN	4					n	sværmen|sværme	the swarm|swarms
+en hvalros	a walrus	AN	3					n	hvalrossen|hvalrosser	the walrus|walruses
+en ren	a reindeer	AN	3					n	renen|renum	the reindeer|reindeer
+en bæver	a beaver	AN	3					n	bæveren|bævere	the beaver|beavers
+en odder	an otter	AN	4					n	odderen|oddere	the otter|otters
+en mår	a marten	AN	4					n	måren|måre	the marten|martens
+en muldvarp	a mole (animal)	AN	4					n	muldvarpen|muldvarpe	the mole (animal)|moles (animal)
+en spidsmus	a shrew	AN	4					n	spidsmusen	the shrew
+en hugorm	an adder / viper	AN	4					n	hugormen|hugorme	the adder / the viper|adders / vipers
+en snog	a grass snake	AN	4					n	snogen|snoge	the grass snake|grass snakes
+en salamander	a salamander	AN	4					n	salamanderen|salamandre	the salamander|salamanders
+en græshoppe	a grasshopper	AN	3					n	græshoppen|græshopper	the grasshopper|grasshoppers
+en guldsmed	a dragonfly	AN	4					n	guldsmeden|guldsmede	the dragonfly|dragonflies
+en humlebi	a bumblebee	AN	3					n	humlebien|humlebier	the bumblebee|bumblebees
+en larve	a caterpillar / larva	AN	3					n	larven|larver	the caterpillar / the larva|caterpillars / larvas
+en kakerlak	a cockroach	AN	3					n	kakerlakken|kakerlakker	the cockroach|cockroaches
+en loppe	a flea	AN	3					n	loppen|lopper	the flea|fleas
+en lus	a louse	AN	3					n	lusen|luse	the louse|lice
+en sølvfisk	a silverfish	AN	4					n	sølvfisken	the silverfish
+et spindelvæv	a spiderweb	AN	3					n	spindelvævet	the spiderweb
+en myretue	an anthill	AN	4					n	myretuen|myretuer	the anthill|anthills
+en fodring	a feeding (time)	AN	4					n	fodringen|fodringer	the feeding (time)|feedings (time)
+et hundehalsbånd	a dog collar	AN	4					n	hundehalsbåndet	the dog collar
+en hundekurv	a dog bed	AN	4					n	hundekurven|hundekurve	the dog bed|dog beds
+en kattebakke	a litter box	AN	4					n	kattebakken|kattebakker	the litter box|litter boxes
+et foder	a feed / pet food	AN	3					n	foderet	the feed / the pet food
+en kæledyrsforsikring	a pet insurance policy	AN	4					n	kæledyrsforsikringen|kæledyrsforsikringer	the pet insurance policy|pet insurance policies
+lyng	heather	WN	3		en			n	lyngen	the heather
+bark	bark (tree)	WN	3		en			n	barken	the bark (tree)
+en atmosfære	an atmosphere	WN	3					n	atmosfæren|atmosfærer	the atmosphere|atmospheres
+en bølgelængde	a wavelength	WN	4					n	bølgelængden|bølgelængder	the wavelength|wavelengths
+en dyreart	an animal species	AN	3					n	dyrearten|dyrearter	the animal species|animal species
+en planteskole	a nursery (plants)	WN	4					n	planteskolen|planteskoler	the nursery (plants)|nurseries (plants)
+en sandstrand	a sandy beach	WN	3					n	sandstranden|sandstrande	the sandy beach|sandy beaches
+en hedebølge	a heat wave	WN	3					n	hedebølgen|hedebølger	the heat wave|heat waves
+en kuldebølge	a cold spell	WN	3					n	kuldebølgen|kuldebølger	the cold spell|cold spells
+en snestorm	a snowstorm	WN	3					n	snestormen|snestorme	the snowstorm|snowstorms
+et skybrud	a cloudburst	WN	3					n	skybruddet	the cloudburst
+en stormflod	a storm surge	WN	4					n	stormfloden|stormfloder	the storm surge|storm surges
+regnvejr	rainy weather	WN	2		et			n	regnvejret	the rainy weather
+solskinsvejr	sunny weather	WN	2		et			n	solskinsvejret	the sunny weather
+gråvejr	gray / overcast weather	WN	2		et			n	gråvejret	the gray / the overcast weather
+en vejrmelding	a weather report	WN	3					n	vejrmeldingen|vejrmeldinger	the weather report|weather reports
+en varmerekord	a temperature record	WN	3					n	varmerekorden|varmerekorder	the temperature record|temperature records
+et solhverv	a solstice	WN	4					n	solhvervet	the solstice
+mørketid	the dark season (winter)	WN	3		en			n	mørketiden	the dark season (winter)
+en gadekat	a stray cat	AN	4					n	gadekatten|gadekatte	the stray cat|stray cats
+en hundelufter	a dog walker	AN	4					n	hundelufteren|hundeluftere	the dog walker|dog walkers
+en hundeejer	a dog owner	AN	3					n	hundeejeren|hundeejere	the dog owner|dog owners
+kattemad	cat food	AN	2		en			n	kattemaden	the cat food
+hundemad	dog food	AN	2		en			n	hundemaden	the dog food
+en fuglekasse	a birdhouse	AN	4					n	fuglekassen|fuglekasser	the birdhouse|birdhouses
+et foderbræt	a bird feeder	AN	4					n	foderbrætt|foderbrætter	the bird feeder|bird feeders
+en akvariefisk	an aquarium fish	AN	4					n	akvariefisken|akvariefiske	the aquarium fish|aquarium fish
+en dyreven	an animal lover	AN	4					n	dyrevenn|dyrevenne	the animal lover|animal lovers
+et dyreinternat	an animal shelter	AN	4					n	dyreinternatet|dyreinternater	the animal shelter|animal shelters
+dyrevelfærd	animal welfare	AN	3		en			n	dyrevelfærden	the animal welfare
+en krop	a body	BH	1					n	kroppen|kroppe	the body|bodies
+et hoved	a head	BH	1					n	hovedet|hoveder	the head|heads
+hår	hair	BH	1		et			n	håret	the hair
+et ansigt	a face	BH	1					n	ansigtet|ansigter	the face|faces
+et øje	an eye	BH	1					n	øjet|øjne	the eye|eyes
+et øre	an ear	BH	1					n	øret|ører	the ear|ears
+en næse	a nose	BH	1					n	næsen|næser	the nose|noses
+en mund	a mouth	BH	1					n	munden|munde	the mouth|mouths
+en tand	a tooth	BH	1					n	tanden|tænder	the tooth|teeth
+en tunge	a tongue	BH	2					n	tungen|tunger	the tongue|tongues
+en hals	a throat / neck	BH	1					n	halsen|halse	the throat / the neck|throats / necks
+en skulder	a shoulder	BH	2					n	skulderen|skuldre	the shoulder|shoulders
+en arm	an arm	BH	1					n	armen|arme	the arm|arms
+en albue	an elbow	BH	2					n	albuen|albuer	the elbow|elbows
+en hånd	a hand	BH	1					n	hånden|hænder	the hand|hands
+en finger	a finger	BH	1					n	fingeren|fingre	the finger|fingers
+et bryst	a chest	BH	2					n	brystet|bryster	the chest|chests
+en mave	a stomach	BH	1					n	maven|maver	the stomach|stomachs
+en ryg	a back	BH	1					n	ryggen|rygge	the back|backs
+et ben	a leg / bone	BH	1					n	benet	the leg / the bone
+et knæ	a knee	BH	1					n	knæet	the knee
+en fod	a foot	BH	1					n	foden|fødder	the foot|feet
+en tå	a toe	BH	2					n	tåen|tæer	the toe|toes
+et hjerte	a heart	BH	1					n	hjertet|hjerter	the heart|hearts
+en lunge	a lung	BH	2					n	lungen|lunger	the lung|lungs
+hud	skin	BH	2					n	huden	the skin
+en muskel	a muscle	BH	2					n	musklen|muskler	the muscle|muscles
+en knogle	a bone	BH	3					n	knoglen|knogler	the bone|bones
+blod	blood	BH	1					n	blodet	the blood
+en hjerne	a brain	BH	2					n	hjernen|hjerner	the brain|brains
+en nerve	a nerve	BH	3					n	nerven|nerver	the nerve|nerves
+en sygdom	a disease	BH	2					n	sygdommen|sygdomme	the disease|diseases
+en smerte	a pain	BH	2					n	smerten|smerter	the pain|pains
+en hovedpine	a headache	BH	1					n	hovedpinen|hovedpiner	the headache|headaches
+en mavepine	a stomachache	BH	2					n	mavepinen|mavepiner	the stomachache|stomachaches
+en feber	a fever	BH	2					n	feberen|febre	the fever|fevers
+en forkølelse	a cold (illness)	BH	2					n	forkølelsen|forkølelser	the cold (illness)|colds (illness)
+en hoste	a cough	BH	2					n	hosten	the cough
+influenza	the flu	BH	2		en			n	influenzaen	the flu
+medicin	medicine	BH	1		en			n	medicinen	the medicine
+en pille	a pill	BH	2					n	pillen|piller	the pill|pills
+en recept	a prescription	BH	2					n	recepten|recepter	the prescription|prescriptions
+en tandlæge	a dentist	BH	1					n	tandlægen|tandlæger	the dentist|dentists
+en klinik	a clinic	BH	2					n	klinikken|klinikker	the clinic|clinics
+en ambulance	an ambulance	BH	2					n	ambulancen|ambulancer	the ambulance|ambulances
+en skadestue	an ER	BH	2					n	skadestuen|skadestuer	the ER|ERS
+en operation	a surgery	BH	2					n	operationen|operationer	the surgery|surgeries
+en undersøgelse	an examination	BH	3					n	undersøgelsen|undersøgelser	the examination|examinations
+et symptom	a symptom	BH	3					n	symptomet|symptomer	the symptom|symptoms
+en diagnose	a diagnosis	BH	3					n	diagnosen|diagnoser	the diagnosis|diagnoses
+en behandling	a treatment	BH	2					n	behandlingen|behandlinger	the treatment|treatments
+helbred	health	BH	2					n	helbredet	the health
+sund	healthy	BH	2					a	sundere|sundest	healthier|healthiest
+usund	unhealthy	BH	2					a	usundere|usundest	more unhealthy|most unhealthy
+motion	exercise	BH	2					n	motionen	the exercise
+træning	training / exercise	BH	2		en			n	træningen	the training / the exercise
+en diæt	a diet	BH	3					n	diæten|diæter	the diet|diets
+søvn	sleep	BH	2					n	søvnen	the sleep
+træthed	tiredness	BH	3					n	trætheden	the tiredness
+stress	stress	BH	3					n	stresset	the stress
+angst	anxiety	FP	3					n	angsten	the anxiety
+en graviditet	a pregnancy	BH	3					n	graviditeten|graviditeter	the pregnancy|pregnancies
+en fødsel	a birth	BH	3					n	fødslen|fødsler	the birth|births
+en vaccine	a vaccine	BH	3					n	vaccinen|vacciner	the vaccine|vaccines
+et plaster	a band-aid	BH	2					n	plastret|plastre	the band-aid|band-aids
+en bandage	a bandage	BH	3					n	bandagen|bandager	the bandage|bandages
+en krykke	a crutch	BH	3					n	krykken|krykker	the crutch|crutches
+en kørestol	a wheelchair	BH	3					n	kørestolen|kørestole	the wheelchair|wheelchairs
+briller	glasses	BH	1					n	brilleret	the glasses
+en kontaktlinse	a contact lens	BH	3					n	kontaktlinsen|kontaktlinser	the contact lens|contact lenses
+et høreapparat	a hearing aid	BH	3					n	høreapparatet|høreapparater	the hearing aid|hearing aids
+et smil	a smile	BH	2					n	smilet|smil	the smile|smiles
+en latter	a laugh	BH	3					n	latteren	the laugh
+et blik	a look	BH	2					n	blikket|blikke	the look|looks
+en gestus	a gesture	BH	3					n	gestussen	the gesture
+et nik	a nod	BH	3					n	nikket	the nod
+et håndtryk	a handshake	BH	3					n	håndtrykket	the handshake
 en gaben	a yawn	BH	4					n
-et suk	a sigh	BH	3					n
-en grimasse	a grimace	BH	4					n
-en tåre	a tear	BH	2					n
+et suk	a sigh	BH	3					n	sukket	the sigh
+en grimasse	a grimace	BH	4					n	grimassen|grimasser	the grimace|grimaces
+en tåre	a tear	BH	2					n	tåren|tårer	the tear|tears
 en rødmen	a blush	BH	4					n
-en rysten	a shiver	BH	4					n
-et gys	a shudder	BH	4					n
-en stirren	a stare	BH	4					n
-en doktor	a doctor	BH	2					n
-en patient	a patient	BH	2					n
-et syn	a sight / vision	BH	2					n
-et ar	a scar	BH	3					n
-en nakke	a neck (back of)	BH	2					n
-kræft	cancer	BH	2		en			n
+en rysten	a shiver	BH	4					n	rystenen|rystene	the shiver|shivers
+et gys	a shudder	BH	4					n	gyset	the shudder
+en stirren	a stare	BH	4					n	stirrenen|stirrenum	the stare|stares
+en doktor	a doctor	BH	2					n	doktoren|doktorer	the doctor|doctors
+en patient	a patient	BH	2					n	patienten|patienter	the patient|patients
+et syn	a sight / vision	BH	2					n	synet|syner	the sight / the vision|sights / visions
+et ar	a scar	BH	3					n	arret|arr	the scar|scars
+en nakke	a neck (back of)	BH	2					n	nakken|nakker	the neck (back of)|necks (back of)
+kræft	cancer	BH	2		en			n	kræften	the cancer
 ondt	pain / hurt ("have ondt")	BH	1					a
-en kur	a cure / treatment	BH	3					n
-terapi	therapy	BH	3		en			n
-en læbe	a lip	BH	2					n
-en sans	a sense	BH	3					n
-et udseende	an appearance / look	BH	3					n
+en kur	a cure / treatment	BH	3					n	kuren|kure	the cure / the treatment|cures / treatments
+terapi	therapy	BH	3		en			n	terapien	the therapy
+en læbe	a lip	BH	2					n	læben|læber	the lip|lips
+en sans	a sense	BH	3					n	sansen|sanser	the sense|senses
+et udseende	an appearance / look	BH	3					n	udseendet|udseender	the appearance / the look|appearances / looks
 et koma	a coma	BH	3					n
-en puls	a pulse	BH	3					n
-bevidstløs	unconscious	BH	3					a
-døv	deaf	BH	3					a
-et hjerteanfald	a heart attack	BH	3					n
-kvalme	nausea	BH	3		en			n
-en tatovering	a tattoo	BH	3					n
-seksuel	sexual	BH	3					a
-en psykolog	a psychologist	BH	2					n
-en lidelse	a suffering / disorder	BH	3					n
+en puls	a pulse	BH	3					n	pulsen|pulse	the pulse|pulses
+bevidstløs	unconscious	BH	3					a	bevidstløsere|bevidstløsest	more unconscious|most unconscious
+døv	deaf	BH	3					a	døvere|døvest	deafer|deafest
+et hjerteanfald	a heart attack	BH	3					n	hjerteanfaldet	the heart attack
+kvalme	nausea	BH	3		en			n	kvalmen	the nausea
+en tatovering	a tattoo	BH	3					n	tatoveringen|tatoveringer	the tattoo|tattoos
+seksuel	sexual	BH	3					a	seksuellere|seksuellest	more sexual|most sexual
+en psykolog	a psychologist	BH	2					n	psykologen|psykologer	the psychologist|psychologists
+en lidelse	a suffering / disorder	BH	3					n	lidelsen|lidelser	the suffering / the disorder|sufferings / disorders
 medicinsk	medical	BH	3					a
-et organ	an organ	BH	3					n
-et fjæs	a face (colloquial)	BH	4					n
+et organ	an organ	BH	3					n	organet|organer	the organ|organs
+et fjæs	a face (colloquial)	BH	4					n	fjæset	the face (colloquial)
 svimmel	dizzy	BH	2					a
-et ribben	a rib	BH	3					n
-sult	hunger	BH	2		en			n
+et ribben	a rib	BH	3					n	ribbenet	the rib
+sult	hunger	BH	2		en			n	sulten	the hunger
 allergisk	allergic	BH	2					a
-en indånding	an inhalation / breath	BH	3					n
-en terapeut	a therapist	BH	3					n
-en sprøjte	a syringe / sprayer	BH	3					n
-en dosis	a dose	BH	3					n
-pleje	care	BH	3		en			n
-en massage	a massage	BH	3					n
-en overdosis	an overdose	BH	3					n
-en frisure	a hairstyle	BH	3					n
-en abort	an abortion / miscarriage	BH	3					n
-karantæne	quarantine	BH	3		en			n
+en indånding	an inhalation / breath	BH	3					n	indåndingen|indåndinger	the inhalation / the breath|inhalations / breaths
+en terapeut	a therapist	BH	3					n	terapeuten|terapeuter	the therapist|therapists
+en sprøjte	a syringe / sprayer	BH	3					n	sprøjten|sprøjter	the syringe / the sprayer|syringes / sprayers
+en dosis	a dose	BH	3					n	dosissen|doser	the dose|doses
+pleje	care	BH	3		en			n	plejen	the care
+en massage	a massage	BH	3					n	massagen|massager	the massage|massages
+en overdosis	an overdose	BH	3					n	overdosissen|overdoser	the overdose|overdoses
+en frisure	a hairstyle	BH	3					n	frisuren|frisurer	the hairstyle|hairstyles
+en abort	an abortion / miscarriage	BH	3					n	aborten|aborter	the abortion / the miscarriage|abortions / miscarriages
+karantæne	quarantine	BH	3		en			n	karantænen	the quarantine
 et kranie	a skull	BH	3					n
-blodtryk	blood pressure	BH	3		et			n
+blodtryk	blood pressure	BH	3		et			n	blodtrykket	the blood pressure
 psykisk	mental / psychological	BH	3					a
-sved	sweat	BH	3		en			n
-et overskæg	a mustache	BH	3					n
-en kirurg	a surgeon	BH	3					n
+sved	sweat	BH	3		en			n	sveden	the sweat
+et overskæg	a mustache	BH	3					n	overskægget	the mustache
+en kirurg	a surgeon	BH	3					n	kirurgen|kirurger	the surgeon|surgeons
 genetisk	genetic	BH	3					a
-et håndled	a wrist	BH	3					n
-et hjertestop	a cardiac arrest	BH	3					n
-en alkoholiker	an alcoholic	BH	3					n
-smertefuld	painful	BH	3					a
+et håndled	a wrist	BH	3					n	håndleddet	the wrist
+et hjertestop	a cardiac arrest	BH	3					n	hjertestoppet	the cardiac arrest
+en alkoholiker	an alcoholic	BH	3					n	alkoholikeren|alkoholikere	the alcoholic|alcoholics
+smertefuld	painful	BH	3					a	smertefuldere|smertefuldest	more painful|most painful
 lammet	paralyzed	BH	3					a
-et nødstilfælde	an emergency	BH	3					n
+et nødstilfælde	an emergency	BH	3					n	nødstilfældet	the emergency
 bedøvet	sedated / numb	BH	3					a
 tømmermænd	a hangover	BH	3		pl			n
-bleg	pale	BH	3					a
-et hjerteslag	a heartbeat	BH	3					n
-en infektion	an infection	BH	3					n
+bleg	pale	BH	3					a	blegere|blegest	paler|palest
+et hjerteslag	a heartbeat	BH	3					n	hjerteslaget	the heartbeat
+en infektion	an infection	BH	3					n	infektionen|infektioner	the infection|infections
 smertestillende	painkillers	BH	3		pl			n
 immunitet	immunity	BH	4		en			n
-et kondom	a condom	BH	3					n
-en nyre	a kidney	BH	3					n
+et kondom	a condom	BH	3					n	kondomet|kondomer	the condom|condoms
+en nyre	a kidney	BH	3					n	nyren|nyrer	the kidney|kidneys
 skaldet	bald	BH	3					a
 psykiatrisk	psychiatric	BH	3					a
-en hæl	a heel	BH	2					n
-et væv	a tissue / weave	BH	4					n
-blond	blond	BH	2					a
-en blødning	a bleeding	BH	3					n
-en hjernerystelse	a concussion	BH	3					n
-afvænning	rehab / detox	BH	4		en			n
-bedring	recovery	BH	3		en			n
-en pest	a plague	BH	3					n
-en narkoman	a drug addict	BH	3					n
+en hæl	a heel	BH	2					n	hælen|hæle	the heel|heels
+et væv	a tissue / weave	BH	4					n	vævet	the tissue / the weave
+blond	blond	BH	2					a	blondere|blondest	blonder|blondest
+en blødning	a bleeding	BH	3					n	blødningen|blødninger	the bleeding|bleedings
+en hjernerystelse	a concussion	BH	3					n	hjernerystelsen|hjernerystelser	the concussion|concussions
+afvænning	rehab / detox	BH	4		en			n	afvænningen	the rehab / the detox
+bedring	recovery	BH	3		en			n	bedringen	the recovery
+en pest	a plague	BH	3					n	pesten	the plague
+en narkoman	a drug addict	BH	3					n	narkomanen|narkomaner	the drug addict|drug addicts
 forkølet	having a cold	BH	2					a
 inficeret	infected	BH	3					a
-et slagtilfælde	a stroke	BH	3					n
-et skudsår	a gunshot wound	BH	4					n
-en depression	a depression	BH	3					n
-et ansigtsudtryk	a facial expression	BH	3					n
-en bagdel	a behind / bottom	BH	3					n
-en kind	a cheek	BH	2					n
-en hage	a chin	BH	3					n
-en kæbe	a jaw	BH	3					n
-et øjenbryn	an eyebrow	BH	2					n
-en øjenvippe	an eyelash	BH	3					n
-et øjenlåg	an eyelid	BH	3					n
-en strube	a throat	BH	4					n
-en navle	a navel	BH	3					n
-en hofte	a hip	BH	3					n
-en håndflade	a palm	BH	3					n
-en tommelfinger	a thumb	BH	2					n
-en pegefinger	an index finger	BH	3					n
-en negl	a nail (finger / toe)	BH	2					n
-et lår	a thigh	BH	2					n
-en læg	a calf (of the leg)	BH	3					n
-en ankel	an ankle	BH	3					n
-et skæg	a beard	BH	2					n
-en lever	a liver	BH	3					n
-en mavesæk	a stomach (organ)	BH	4					n
-en tarm	an intestine	BH	3					n
-en blære	a bladder / blister	BH	3					n
-et skelet	a skeleton	BH	3					n
-en rygrad	a spine	BH	3					n
-en sene	a tendon	BH	4					n
-en blodåre	a blood vessel / vein	BH	3					n
-et led	a joint	BH	3					n
-en halsbetændelse	a sore throat / strep throat	BH	3					n
-tandpine	toothache	BH	2		en			n
-et sår	a wound	BH	2					n
-en forstuvning	a sprain	BH	4					n
+et slagtilfælde	a stroke	BH	3					n	slagtilfældet	the stroke
+et skudsår	a gunshot wound	BH	4					n	skudsåret	the gunshot wound
+en depression	a depression	BH	3					n	depressionen|depressioner	the depression|depressions
+et ansigtsudtryk	a facial expression	BH	3					n	ansigtsudtrykket	the facial expression
+en bagdel	a behind / bottom	BH	3					n	bagdelen|bagdele	the behind / the bottom|behinds / bottoms
+en kind	a cheek	BH	2					n	kinden|kinder	the cheek|cheeks
+en hage	a chin	BH	3					n	hagen|hager	the chin|chins
+en kæbe	a jaw	BH	3					n	kæben|kæber	the jaw|jaws
+et øjenbryn	an eyebrow	BH	2					n	øjenbrynet	the eyebrow
+en øjenvippe	an eyelash	BH	3					n	øjenvippen|øjenvipper	the eyelash|eyelashes
+et øjenlåg	an eyelid	BH	3					n	øjenlåget	the eyelid
+en strube	a throat	BH	4					n	struben|struber	the throat|throats
+en navle	a navel	BH	3					n	navlen|navler	the navel|navels
+en hofte	a hip	BH	3					n	hoften|hofter	the hip|hips
+en håndflade	a palm	BH	3					n	håndfladen|håndflader	the palm|palms
+en tommelfinger	a thumb	BH	2					n	tommelfingeren|tommelfingre	the thumb|thumbs
+en pegefinger	an index finger	BH	3					n	pegefingeren|pegefingre	the index finger|index fingers
+en negl	a nail (finger / toe)	BH	2					n	neglen|negle	the nail (finger / the toe)|nail (fingers / toe)s
+et lår	a thigh	BH	2					n	låret	the thigh
+en læg	a calf (of the leg)	BH	3					n	læggen|lægge	the calf (of the leg)|calves (of the leg)
+en ankel	an ankle	BH	3					n	anklen|ankler	the ankle|ankles
+et skæg	a beard	BH	2					n	skægget	the beard
+en lever	a liver	BH	3					n	leveren|levere	the liver|livers
+en mavesæk	a stomach (organ)	BH	4					n	mavesækken|mavesække	the stomach (organ)|stomachs (organ)
+en tarm	an intestine	BH	3					n	tarmen|tarme	the intestine|intestines
+en blære	a bladder / blister	BH	3					n	blæren|blærer	the bladder / the blister|bladders / blisters
+et skelet	a skeleton	BH	3					n	skelettet|skeletter	the skeleton|skeletons
+en rygrad	a spine	BH	3					n	rygraden|rygrade	the spine|spines
+en sene	a tendon	BH	4					n	senen|sener	the tendon|tendons
+en blodåre	a blood vessel / vein	BH	3					n	blodåren|blodårer	the blood vessel / the vein|blood vessels / veins
+et led	a joint	BH	3					n	leddet	the joint
+en halsbetændelse	a sore throat / strep throat	BH	3					n	halsbetændelsen|halsbetændelser	the sore throat / the strep throat|sore throats / strep throats
+tandpine	toothache	BH	2		en			n	tandpinen	the toothache
+et sår	a wound	BH	2					n	såret	the wound
+en forstuvning	a sprain	BH	4					n	forstuvningen|forstuvninger	the sprain|sprains
 et blåt mærke	a bruise	BH	3					n
-en bums	a pimple	BH	3					n
-et udslæt	a rash	BH	3					n
-astma	asthma	BH	3		en			n
-diabetes	diabetes	BH	3		en			n
-en betændelse	an inflammation	BH	3					n
-en bakterie	a bacterium	BH	3					n
-en indsprøjtning	an injection	BH	3					n
-et apotek	a pharmacy	TS	1					n
+en bums	a pimple	BH	3					n	bumsen|bumser	the pimple|pimples
+et udslæt	a rash	BH	3					n	udslætt	the rash
+astma	asthma	BH	3		en			n	astmaen	the asthma
+diabetes	diabetes	BH	3		en			n	diabetesen	the diabetes
+en betændelse	an inflammation	BH	3					n	betændelsen|betændelser	the inflammation|inflammations
+en bakterie	a bacterium	BH	3					n	bakterien|bakterier	the bacterium|bacteria
+en indsprøjtning	an injection	BH	3					n	indsprøjtningen|indsprøjtninger	the injection|injections
+et apotek	a pharmacy	TS	1					n	apoteket|apoteker	the pharmacy|pharmacies
 en praktiserende læge	a general practitioner	BH	3					n
-en jordemoder	a midwife	WJ	3					n
-en fysioterapeut	a physiotherapist	WJ	3					n
-en blodprøve	a blood test	BH	2					n
-et røntgenbillede	an X-ray image	BH	3					n
-en bivirkning	a side effect	BH	3					n
+en jordemoder	a midwife	WJ	3					n	jordemoderen	the midwife
+en fysioterapeut	a physiotherapist	WJ	3					n	fysioterapeuten|fysioterapeuter	the physiotherapist|physiotherapists
+en blodprøve	a blood test	BH	2					n	blodprøven|blodprøver	the blood test|blood tests
+et røntgenbillede	an X-ray image	BH	3					n	røntgenbilledet|røntgenbilleder	the X-ray image|X-ray images
+en bivirkning	a side effect	BH	3					n	bivirkningen|bivirkninger	the side effect|side effects
 en tid hos lægen	a doctor's appointment	BH	2					n
-et sundhedskort	a health insurance card	BH	3					n
-øm	sore	BH	2					a
+et sundhedskort	a health insurance card	BH	3					n	sundhedskortet	the health insurance card
+øm	sore	BH	2					a	ømmere|ømmest	sorer|sorest
 hævet	swollen	BH	3					a
 kvalm	nauseous	BH	3					a
 forstoppet	constipated	BH	3					a
 blødende	bleeding	BH	3					a
-smitsom	contagious	BH	3					a
+smitsom	contagious	BH	3					a	smitsommere|smitsomst	more contagious|most contagious
 at blive syg	to get sick	BH	1	bliver syg|blev syg|blevet syg		jeg bliver syg|jeg blev syg|jeg er blevet syg	I get sick|I got sick|I have gotten sick	v
 at blive rask	to get better	BH	2	bliver rask|blev rask|blevet rask		jeg bliver rask|jeg blev rask|jeg er blevet rask	I get better|I got better|I have gotten better	v
 at hoste	to cough	BH	2	hoster|hostede|hostet		jeg hoster|jeg hostede|jeg har hostet	I cough|I coughed|I have coughed	v
@@ -6759,87 +6762,87 @@ at ryste på hovedet	to shake one's head	BH	3	ryster på hovedet|rystede på hov
 at trække på skuldrene	to shrug	BH	3	trækker på skuldrene|trak på skuldrene|trukket på skuldrene		jeg trækker på skuldrene|jeg trak på skuldrene|jeg har trukket på skuldrene	I shrug|I shrugged|I have shrugged	v
 at vinke	to wave	BH	2	vinker|vinkede|vinket		jeg vinker|jeg vinkede|jeg har vinket	I wave|I waved|I have waved	v
 at knibe	to pinch / squint	BH	3	kniber|kneb|knebet		jeg kniber|jeg kneb|jeg har knebet	I pinch / squint|I pinched / squinted|I have pinched / squinted	v
-en vagtlæge	an on-call doctor	BH	3					n
-en lægevagt	an after-hours medical service	BH	3					n
-en afhængighed	an addiction / dependence	BH	3					n
-en berøring	a touch	BH	3					n
-en fyldning	a filling	BH	3					n
-en henvisning	a referral / reference	BH	3					n
-et hospital	a hospital	TS	1					n
-sundhed	health	BH	2		en			n
-en krampe	a cramp	BH	3					n
-en journal	a medical record	BH	3					n
-en speciallæge	a specialist	BH	3					n
-en øjenlæge	an eye doctor	BH	3					n
-en hudlæge	a dermatologist	BH	4					n
-en børnelæge	a pediatrician	BH	3					n
-en fødegang	a maternity ward	BH	4					n
-en scanning	a scan	BH	3					n
-en ultralydsscanning	an ultrasound scan	BH	4					n
-narkose	anesthesia	BH	4		en			n
-en bedøvelse	an anesthetic	BH	3					n
-et sting	a stitch	BH	3					n
-en forbinding	a dressing (wound)	BH	4					n
-en skinne	a splint / rail	BH	3					n
-genoptræning	rehabilitation	BH	3		en			n
-en indlæggelse	a hospitalization	BH	3					n
-en udskrivning	a discharge (from hospital)	BH	4					n
+en vagtlæge	an on-call doctor	BH	3					n	vagtlægen|vagtlæger	the on-call doctor|on-call doctors
+en lægevagt	an after-hours medical service	BH	3					n	lægevagten|lægevagter	the after-hours medical service|after-hours medical services
+en afhængighed	an addiction / dependence	BH	3					n	afhængigheden|afhængigheder	the addiction / the dependence|addictions / dependences
+en berøring	a touch	BH	3					n	berøringen|berøringer	the touch|touches
+en fyldning	a filling	BH	3					n	fyldningen|fyldninger	the filling|fillings
+en henvisning	a referral / reference	BH	3					n	henvisningen|henvisninger	the referral / the reference|referrals / references
+et hospital	a hospital	TS	1					n	hospitalet|hospitaler	the hospital|hospitals
+sundhed	health	BH	2		en			n	sundheden	the health
+en krampe	a cramp	BH	3					n	krampen|kramper	the cramp|cramps
+en journal	a medical record	BH	3					n	journalen|journaler	the medical record|medical records
+en speciallæge	a specialist	BH	3					n	speciallægen|speciallæger	the specialist|specialists
+en øjenlæge	an eye doctor	BH	3					n	øjenlægen|øjenlæger	the eye doctor|eye doctors
+en hudlæge	a dermatologist	BH	4					n	hudlægen|hudlæger	the dermatologist|dermatologists
+en børnelæge	a pediatrician	BH	3					n	børnelægen|børnelæger	the pediatrician|pediatricians
+en fødegang	a maternity ward	BH	4					n	fødegangen|fødegange	the maternity ward|maternity wards
+en scanning	a scan	BH	3					n	scanningen|scanninger	the scan|scans
+en ultralydsscanning	an ultrasound scan	BH	4					n	ultralydsscanningen|ultralydsscanninger	the ultrasound scan|ultrasound scans
+narkose	anesthesia	BH	4		en			n	narkosen	the anesthesia
+en bedøvelse	an anesthetic	BH	3					n	bedøvelsen|bedøvelser	the anesthetic|anesthetics
+et sting	a stitch	BH	3					n	stinget	the stitch
+en forbinding	a dressing (wound)	BH	4					n	forbindingen|forbindinger	the dressing (wound)|dressings (wound)
+en skinne	a splint / rail	BH	3					n	skinnen|skinner	the splint / the rail|splints / rails
+genoptræning	rehabilitation	BH	3		en			n	genoptræningen	the rehabilitation
+en indlæggelse	a hospitalization	BH	3					n	indlæggelsen|indlæggelser	the hospitalization|hospitalizations
+en udskrivning	a discharge (from hospital)	BH	4					n	udskrivningen|udskrivninger	the discharge (from hospital)|discharges (from hospital)
 en kronisk sygdom	a chronic illness	BH	3					n
-blodsukker	blood sugar	BH	3		et			n
-kolesterol	cholesterol	BH	3		et			n
-en blodprop	a blood clot	BH	3					n
-en migræne	a migraine	BH	3					n
-svimmelhed	dizziness	BH	3		en			n
-søvnløshed	insomnia	BH	3		en			n
-diarré	diarrhea	BH	3		en			n
-opkast	vomit	BH	3		et			n
-næseblod	nosebleed	BH	3		et			n
-snue	a head cold	BH	3		en			n
-en halspastil	a throat lozenge	BH	4					n
-en næsespray	a nasal spray	BH	3					n
-en hostesaft	a cough syrup	BH	3					n
+blodsukker	blood sugar	BH	3		et			n	blodsukkeret	the blood sugar
+kolesterol	cholesterol	BH	3		et			n	kolesterolet	the cholesterol
+en blodprop	a blood clot	BH	3					n	blodproppen|blodpropper	the blood clot|blood clots
+en migræne	a migraine	BH	3					n	migrænen|migræner	the migraine|migraines
+svimmelhed	dizziness	BH	3		en			n	svimmelheden	the dizziness
+søvnløshed	insomnia	BH	3		en			n	søvnløsheden	the insomnia
+diarré	diarrhea	BH	3		en			n	diarréen	the diarrhea
+opkast	vomit	BH	3		et			n	opkastet	the vomit
+næseblod	nosebleed	BH	3		et			n	næseblodet	the nosebleed
+snue	a head cold	BH	3		en			n	snuen	the head cold
+en halspastil	a throat lozenge	BH	4					n	halspastillen|halspastiller	the throat lozenge|throat lozenges
+en næsespray	a nasal spray	BH	3					n	næsesprayen|næsesprayer	the nasal spray|nasal sprays
+en hostesaft	a cough syrup	BH	3					n	hostesaften	the cough syrup
 antibiotika	antibiotics	BH	3		pl			n
-en salve	an ointment	BH	3					n
-en vitamin	a vitamin	BH	2					n
-et kosttilskud	a dietary supplement	BH	4					n
-en kalorie	a calorie	BH	2					n
-protein	protein	BH	3		et			n
-kulhydrat	carbohydrate	BH	3		et			n
-fedt	fat	BH	2		et			n
+en salve	an ointment	BH	3					n	salven|salver	the ointment|ointments
+en vitamin	a vitamin	BH	2					n	vitaminen|vitaminer	the vitamin|vitamins
+et kosttilskud	a dietary supplement	BH	4					n	kosttilskuddet	the dietary supplement
+en kalorie	a calorie	BH	2					n	kalorien|kalorier	the calorie|calories
+protein	protein	BH	3		et			n	proteinet	the protein
+kulhydrat	carbohydrate	BH	3		et			n	kulhydratet	the carbohydrate
+fedt	fat	BH	2		et			n	fedtet	the fat
 fibre	fiber	BH	4		pl			n
-overvægt	overweight / obesity	BH	3		en			n
-en sundhedsplejerske	a health visitor	BH	4					n
+overvægt	overweight / obesity	BH	3		en			n	overvægten	the overweight / the obesity
+en sundhedsplejerske	a health visitor	BH	4					n	sundhedsplejersken|sundhedsplejersker	the health visitor|health visitors
 mental sundhed	mental health	BH	3		en			n
-trivsel	well-being	BH	3		en			n
-et handicap	a disability	BH	3					n
-hørelse	hearing	BH	3		en			n
-vejrtrækning	breathing	BH	3		en			n
-tandtråd	dental floss	BH	3		en			n
-en tandbøjle	a brace (teeth)	BH	3					n
-en rynke	a wrinkle	BH	3					n
-en fregne	a freckle	BH	3					n
-et modermærke	a mole	BH	4					n
-en vorte	a wart	BH	4					n
-en hårfarve	a hair color	BH	2					n
-en hestehale	a ponytail	BH	3					n
-en fletning	a braid	BH	4					n
-pandehår	bangs	BH	3		et			n
+trivsel	well-being	BH	3		en			n	trivslen	the well-being
+et handicap	a disability	BH	3					n	handicappet	the disability
+hørelse	hearing	BH	3		en			n	hørelsen	the hearing
+vejrtrækning	breathing	BH	3		en			n	vejrtrækningen	the breathing
+tandtråd	dental floss	BH	3		en			n	tandtråden	the dental floss
+en tandbøjle	a brace (teeth)	BH	3					n	tandbøjlen|tandbøjler	the brace (teeth)|braces (teeth)
+en rynke	a wrinkle	BH	3					n	rynken|rynker	the wrinkle|wrinkles
+en fregne	a freckle	BH	3					n	fregnen|fregner	the freckle|freckles
+et modermærke	a mole	BH	4					n	modermærket|modermærker	the mole|moles
+en vorte	a wart	BH	4					n	vorten|vorter	the wart|warts
+en hårfarve	a hair color	BH	2					n	hårfarven|hårfarver	the hair color|hair colors
+en hestehale	a ponytail	BH	3					n	hestehalen|hestehaler	the ponytail|ponytails
+en fletning	a braid	BH	4					n	fletningen|fletninger	the braid|braids
+pandehår	bangs	BH	3		et			n	pandehåret	the bangs
 krøllet	curly	BH	2					a
 lyshåret	fair-haired	BH	3					a
 mørkhåret	dark-haired	BH	3					a
 rødhåret	red-haired	BH	3					a
 buttet	chubby	BH	3					a
-muskuløs	muscular	BH	3					a
+muskuløs	muscular	BH	3					a	muskuløsere|muskuløsest	more muscular|most muscular
 rynket	wrinkled	BH	4					a
 solbrændt	sunburned / tanned	BH	3					a
 tatoveret	tattooed	BH	3					a
-et ansigtstræk	a facial feature	BH	4					n
-en øjenfarve	an eye color	BH	2					n
-et grin	a laugh	BH	2					n
-et gab	a yawn	BH	4					n
-et nys	a sneeze	BH	3					n
-en håndbevægelse	a hand gesture	BH	3					n
-et øjekast	a glance	BH	4					n
+et ansigtstræk	a facial feature	BH	4					n	ansigtstrækket	the facial feature
+en øjenfarve	an eye color	BH	2					n	øjenfarven|øjenfarver	the eye color|eye colors
+et grin	a laugh	BH	2					n	grinet	the laugh
+et gab	a yawn	BH	4					n	gabet|gab	the yawn|yawns
+et nys	a sneeze	BH	3					n	nyset	the sneeze
+en håndbevægelse	a hand gesture	BH	3					n	håndbevægelsen|håndbevægelser	the hand gesture|hand gestures
+et øjekast	a glance	BH	4					n	øjekastet	the glance
 at rødme	to blush	BH	3	rødmer|rødmede|rødmet		jeg rødmer|jeg rødmede|jeg har rødmet	I blush|I blushed|I have blushed	v
 at skælve	to tremble	BH	3	skælver|skælvede|skælvet		jeg skælver|jeg skælvede|jeg har skælvet	I tremble|I trembled|I have trembled	v
 at hikke	to hiccup	BH	2	hikker|hikkede|hikket		jeg hikker|jeg hikkede|jeg har hikket	I hiccup|I hiccuped|I have hiccuped	v
@@ -6863,216 +6866,216 @@ at blive udskrevet	to be discharged	BH	3	bliver udskrevet|blev udskrevet|blevet 
 at bestille tid	to make an appointment	BH	2	bestiller tid|bestilte tid|bestilt tid		jeg bestiller tid|jeg bestilte tid|jeg har bestilt tid	I make an appointment|I made an appointment|I have made an appointment	v
 at tage medicin	to take medicine	BH	2	tager medicin|tog medicin|taget medicin		jeg tager medicin|jeg tog medicin|jeg har taget medicin	I take medicine|I took medicine|I have taken medicine	v
 at meditere	to meditate	BH	3	mediterer|mediterede|mediteret		jeg mediterer|jeg mediterede|jeg har mediteret	I meditate|I meditated|I have meditated	v
-en middagslur	a nap	BH	3					n
-en lur	a nap	BH	3					n
-et venteværelse	a waiting room	BH	2					n
-en epidemi	an epidemic	BH	3					n
-en pandemi	a pandemic	BH	3					n
-en nattesøvn	a night's sleep	BH	3					n
-en tandlægetid	a dentist appointment	BH	3					n
-en madallergi	a food allergy	BH	3					n
-en nøddeallergi	a nut allergy	BH	3					n
-en pollenallergi	a pollen allergy	BH	3					n
-høfeber	hay fever	BH	3		en			n
-et solstik	a sunstroke	BH	3					n
-et smagsløg	a taste bud	BH	4					n
-en opgave	a task	WJ	2					n
-et projekt	a project	WJ	2					n
-en deadline	a deadline	WJ	2					n
-en rapport	a report	WJ	2					n
-en præsentation	a presentation	WJ	2					n
-en kontrakt	a contract	WJ	3					n
-en løn	a salary	MB	2					n
-en lønseddel	a paystub	MB	3					n
-en sygemelding	a sick note / sick leave	WJ	3					n
-en opsigelse	a resignation	WJ	3					n
-en ansættelsessamtale	a job interview	WJ	3					n
+en middagslur	a nap	BH	3					n	middagsluren|middagslure	the nap|naps
+en lur	a nap	BH	3					n	luren|lurer	the nap|naps
+et venteværelse	a waiting room	BH	2					n	venteværelset|venteværelser	the waiting room|waiting rooms
+en epidemi	an epidemic	BH	3					n	epidemien|epidemier	the epidemic|epidemics
+en pandemi	a pandemic	BH	3					n	pandemien|pandemier	the pandemic|pandemics
+en nattesøvn	a night's sleep	BH	3					n	nattesøvnen	the night's sleep
+en tandlægetid	a dentist appointment	BH	3					n	tandlægetiden|tandlægetider	the dentist appointment|dentist appointments
+en madallergi	a food allergy	BH	3					n	madallergien|madallergier	the food allergy|food allergies
+en nøddeallergi	a nut allergy	BH	3					n	nøddeallergien|nøddeallergier	the nut allergy|nut allergies
+en pollenallergi	a pollen allergy	BH	3					n	pollenallergien|pollenallergier	the pollen allergy|pollen allergies
+høfeber	hay fever	BH	3		en			n	høfeberen	the hay fever
+et solstik	a sunstroke	BH	3					n	solstikket	the sunstroke
+et smagsløg	a taste bud	BH	4					n	smagsløget	the taste bud
+en opgave	a task	WJ	2					n	opgaven|opgaver	the task|tasks
+et projekt	a project	WJ	2					n	projektet|projekter	the project|projects
+en deadline	a deadline	WJ	2					n	deadlinen	the deadline
+en rapport	a report	WJ	2					n	rapporten|rapporter	the report|reports
+en præsentation	a presentation	WJ	2					n	præsentationen|præsentationer	the presentation|presentations
+en kontrakt	a contract	WJ	3					n	kontrakten|kontrakter	the contract|contracts
+en løn	a salary	MB	2					n	lønnen|lønne	the salary|salaries
+en lønseddel	a paystub	MB	3					n	lønsedlen|lønsedler	the paystub|paystubs
+en sygemelding	a sick note / sick leave	WJ	3					n	sygemeldingen|sygemeldinger	the sick note / the sick leave|sick notes / sick leaves
+en opsigelse	a resignation	WJ	3					n	opsigelsen|opsigelser	the resignation|resignations
+en ansættelsessamtale	a job interview	WJ	3					n	ansættelsessamtalen|ansættelsessamtaler	the job interview|job interviews
 et cv	a CV	WJ	2					n
-en ansøgning	an application	WJ	2					n
-en karriere	a career	WJ	2					n
-en erfaring	an experience	WJ	2					n
-en kvalifikation	a qualification	WJ	3					n
-en uddannelse	an education	SL	2					n
+en ansøgning	an application	WJ	2					n	ansøgningen|ansøgninger	the application|applications
+en karriere	a career	WJ	2					n	karrieren|karrierer	the career|careers
+en erfaring	an experience	WJ	2					n	erfaringen|erfaringer	the experience|experiences
+en kvalifikation	a qualification	WJ	3					n	kvalifikationen|kvalifikationer	the qualification|qualifications
+en uddannelse	an education	SL	2					n	uddannelsen|uddannelser	the education|educations
 et gymnasium	a high school	SL	2					n
-en folkeskole	a primary school	SL	2					n
-en børnehave	a kindergarten	SL	1					n
-en klasse	a class / classroom	SL	1					n
-en klassekammerat	a classmate	SL	2					n
-en karakter	a grade	SL	2					n
-en eksamen	an exam	SL	2					n
-en prøve	a test / quiz	SL	2					n
-lektier	homework	SL	1					n
-et skema	a schedule	SL	2					n
-et fag	a subject	SL	2					n
-matematik	math	SL	1					n
+en folkeskole	a primary school	SL	2					n	folkeskolen|folkeskoler	the primary school|primary schools
+en børnehave	a kindergarten	SL	1					n	børnehaven|børnehaver	the kindergarten|kindergartens
+en klasse	a class / classroom	SL	1					n	klassen|klasser	the class / the classroom|classes / classrooms
+en klassekammerat	a classmate	SL	2					n	klassekammeraten|klassekammerater	the classmate|classmates
+en karakter	a grade	SL	2					n	karakteren|karakterer	the grade|grades
+en eksamen	an exam	SL	2					n	eksamenen|eksaminer	the exam|exams
+en prøve	a test / quiz	SL	2					n	prøven|prøver	the test / the quiz|tests / quizzes
+lektier	homework	SL	1					n	lektieren	the homework
+et skema	a schedule	SL	2					n	skemaet|skemaer	the schedule|schedules
+et fag	a subject	SL	2					n	faget	the subject
+matematik	math	SL	1					n	matematikken	the math
 dansk	Danish (subject)	CL	1					a
 engelsk	English (subject)	CL	1					a
-geografi	geography	SL	2					n
-fysik	physics	SL	2					n
-kemi	chemistry	SL	2					n
-biologi	biology	SL	2					n
-idræt	PE / sports	SL	2					n
-musik	music	FS	1					n
-kunst	art	CH	2					n
-en pause	a break	WJ	1					n
-et frikvarter	a recess / break	SL	2					n
-en skoletaske	a school bag	SL	2					n
-en blyant	a pencil	SL	1					n
-en pen	a pen	SL	1					n
-et viskelæder	an eraser	SL	2					n
-en lineal	a ruler	SL	2					n
-en tavle	a blackboard	SL	2					n
-et whiteboard	a whiteboard	SL	2					n
-et studiekort	a student card	SL	3					n
+geografi	geography	SL	2					n	geografien	the geography
+fysik	physics	SL	2					n	fysikken	the physics
+kemi	chemistry	SL	2					n	kemien	the chemistry
+biologi	biology	SL	2					n	biologien	the biology
+idræt	PE / sports	SL	2					n	idrætt	the PE / the sports
+musik	music	FS	1					n	musikken	the music
+kunst	art	CH	2					n	kunsten	the art
+en pause	a break	WJ	1					n	pausen|pauser	the break|breaks
+et frikvarter	a recess / break	SL	2					n	frikvarteret|frikvarterer	the recess / the break|recesses / breaks
+en skoletaske	a school bag	SL	2					n	skoletasken|skoletasker	the school bag|school bags
+en blyant	a pencil	SL	1					n	blyanten|blyanter	the pencil|pencils
+en pen	a pen	SL	1					n	pennen|penne	the pen|pens
+et viskelæder	an eraser	SL	2					n	viskelæderet|viskelædere	the eraser|erasers
+en lineal	a ruler	SL	2					n	linealen|linealer	the ruler|rulers
+en tavle	a blackboard	SL	2					n	tavlen|tavler	the blackboard|blackboards
+et whiteboard	a whiteboard	SL	2					n	whiteboardet	the whiteboard
+et studiekort	a student card	SL	3					n	studiekortet	the student card
 et stipendium	a scholarship	SL	3					n
-et studielån	a student loan	SL	3					n
-en afgangseksamen	a final exam	SL	4					n
-et diplom	a diploma	SL	3					n
-en grad	a degree	SL	3					n
-en lektion	a lesson	SL	2					n
-en vikar	a substitute teacher	SL	2					n
-en rektor	a principal	SL	3					n
-en opsparing	savings	MB	3					n
-en investering	an investment	MB	3					n
-en aktie	a stock/share	MB	3					n
-et budget	a budget	MB	2					n
-en udgift	an expense	MB	3					n
-en indtægt	an income	MB	3					n
-en faktura	an invoice	MB	3					n
-en gæld	a debt	MB	3					n
-en rente	an interest rate	MB	3					n
-en pension	a pension	MB	3					n
-en bonus	a bonus	MB	3					n
-en overførsel	a transfer	MB	3					n
-et kontantbeløb	a cash amount	MB	4					n
-en valuta	a currency	MB	3					n
-en vekselkurs	an exchange rate	MB	3					n
-en bank	a bank	MB	1					n
-et kreditkort	a credit card	MB	2					n
-en transaktion	a transaction	MB	3					n
-en underskrift	a signature	WJ	2					n
-et dokument	a document	WJ	2					n
-undervisning	teaching / instruction	SL	3		en			n
-et pensum	a curriculum	SL	3					n
-en lærebog	a textbook	SL	2					n
-en aflevering	a submission	SL	2					n
-en frist	a deadline	WJ	3					n
-en forelæsning	a lecture	SL	3					n
-et kursus	a course	SL	2					n
+et studielån	a student loan	SL	3					n	studielånet|studielån	the student loan|student loans
+en afgangseksamen	a final exam	SL	4					n	afgangseksamenen|afgangseksaminer	the final exam|final exams
+et diplom	a diploma	SL	3					n	diplomet|diplomer	the diploma|diplomas
+en grad	a degree	SL	3					n	graden|grader	the degree|degrees
+en lektion	a lesson	SL	2					n	lektionen|lektioner	the lesson|lessons
+en vikar	a substitute teacher	SL	2					n	vikaren|vikarer	the substitute teacher|substitute teachers
+en rektor	a principal	SL	3					n	rektoren|rektorer	the principal|principals
+en opsparing	savings	MB	3					n	opsparingen|opsparinger	the savings|savings
+en investering	an investment	MB	3					n	investeringen|investeringer	the investment|investments
+en aktie	a stock/share	MB	3					n	aktien|aktier	the stock/share|stock/shares
+et budget	a budget	MB	2					n	budgettet|budgetter	the budget|budgets
+en udgift	an expense	MB	3					n	udgiften|udgifter	the expense|expenses
+en indtægt	an income	MB	3					n	indtægten|indtægter	the income|incomes
+en faktura	an invoice	MB	3					n	fakturaen|fakturaer	the invoice|invoices
+en gæld	a debt	MB	3					n	gælden	the debt
+en rente	an interest rate	MB	3					n	renten|renter	the interest rate|interest rates
+en pension	a pension	MB	3					n	pensionen|pensioner	the pension|pensions
+en bonus	a bonus	MB	3					n	bonussen|bonusser	the bonus|bonuses
+en overførsel	a transfer	MB	3					n	overførslen|overførsler	the transfer|transfers
+et kontantbeløb	a cash amount	MB	4					n	kontantbeløbet	the cash amount
+en valuta	a currency	MB	3					n	valutaen|valutaer	the currency|currencies
+en vekselkurs	an exchange rate	MB	3					n	vekselkursen|vekselkurser	the exchange rate|exchange rates
+en bank	a bank	MB	1					n	banken|banker	the bank|banks
+et kreditkort	a credit card	MB	2					n	kreditkortet	the credit card
+en transaktion	a transaction	MB	3					n	transaktionen|transaktioner	the transaction|transactions
+en underskrift	a signature	WJ	2					n	underskriften|underskrifter	the signature|signatures
+et dokument	a document	WJ	2					n	dokumentet|dokumenter	the document|documents
+undervisning	teaching / instruction	SL	3		en			n	undervisningen	the teaching / the instruction
+et pensum	a curriculum	SL	3					n	pensummet|pensa	the curriculum|curriculums
+en lærebog	a textbook	SL	2					n	lærebogen|lærebøger	the textbook|textbooks
+en aflevering	a submission	SL	2					n	afleveringen|afleveringer	the submission|submissions
+en frist	a deadline	WJ	3					n	fristen|frister	the deadline|deadlines
+en forelæsning	a lecture	SL	3					n	forelæsningen|forelæsninger	the lecture|lectures
+et kursus	a course	SL	2					n	kursuset	the course
 et studium	a study program	SL	3					n
-et klasseværelse	a classroom	SL	3					n
-en studiegruppe	a study group	SL	3					n
-en eksaminator	an examiner	SL	4					n
-en vejleder	a supervisor	SL	3					n
-en note	a note	SL	2					n
-en færdighed	a skill	SL	3					n
-en evne	an ability	WJ	2					n
-en fremgangsmåde	a procedure	WJ	4					n
-en indlæring	a learning process	SL	4					n
-en hukommelse	a memory		2					n
-en koncentration	a concentration		3					n
-en agent	an agent	SP	3					n
-en kaptajn	a captain	SP	3					n
-en betjent	a police officer	SP	2					n
-en oberst	a colonel	SP	4					n
-en general	a general	SP	3					n
-en ordre	an order (command)	SP	3					n
-en vagt	a guard / shift	WJ	2					n
-en løjtnant	a lieutenant	SP	4					n
-en sergent	a sergeant	SP	4					n
-en major	a major	SP	4					n
-en sherif	a sheriff	SP	4					n
-et team	a team	WJ	2					n
-en afdeling	a department	WJ	2					n
+et klasseværelse	a classroom	SL	3					n	klasseværelset|klasseværelser	the classroom|classrooms
+en studiegruppe	a study group	SL	3					n	studiegruppen|studiegrupper	the study group|study groups
+en eksaminator	an examiner	SL	4					n	eksaminatoren|eksaminatorer	the examiner|examiners
+en vejleder	a supervisor	SL	3					n	vejlederen|vejledere	the supervisor|supervisors
+en note	a note	SL	2					n	noten|noter	the note|notes
+en færdighed	a skill	SL	3					n	færdigheden|færdigheder	the skill|skills
+en evne	an ability	WJ	2					n	evnen|evner	the ability|abilities
+en fremgangsmåde	a procedure	WJ	4					n	fremgangsmåden|fremgangsmåder	the procedure|procedures
+en indlæring	a learning process	SL	4					n	indlæringen|indlæringer	the learning process|learning processes
+en hukommelse	a memory		2					n	hukommelsen|hukommelser	the memory|memories
+en koncentration	a concentration		3					n	koncentrationen|koncentrationer	the concentration|concentrations
+en agent	an agent	SP	3					n	agenten|agenter	the agent|agents
+en kaptajn	a captain	SP	3					n	kaptajnen|kaptajner	the captain|captains
+en betjent	a police officer	SP	2					n	betjenten|betjente	the police officer|police officers
+en oberst	a colonel	SP	4					n	obersten|oberster	the colonel|colonels
+en general	a general	SP	3					n	generalen|generaler	the general|generals
+en ordre	an order (command)	SP	3					n	ordren|ordrer	the order (command)|orders (command)
+en vagt	a guard / shift	WJ	2					n	vagten|vagter	the guard / the shift|guards / shifts
+en løjtnant	a lieutenant	SP	4					n	løjtnanten|løjtnanter	the lieutenant|lieutenants
+en sergent	a sergeant	SP	4					n	sergenten|sergenter	the sergeant|sergeants
+en major	a major	SP	4					n	majoren|majus	the major|majors
+en sherif	a sheriff	SP	4					n	sheriffen|sheriffer	the sheriff|sheriffs
+et team	a team	WJ	2					n	teamet	the team
+en afdeling	a department	WJ	2					n	afdelingen|afdelinger	the department|departments
 en ansat	an employee	WJ	2					n
-en assistent	an assistant	WJ	2					n
-en stilling	a position / job	WJ	2					n
-en officer	an officer	SP	3					n
-en inspektør	an inspector	SP	3					n
-et skift	a shift / change	WJ	2					n
-forskning	research	SL	3		en			n
-et emne	a subject / topic	SL	2					n
-en kommandør	a commander	SP	4					n
-en strisser	a cop (slang)	SP	4					n
-en formand	a chairman	WJ	3					n
-en korporal	a corporal	SP	4					n
-en rådgiver	an adviser	WJ	3					n
-personale	staff	WJ	3		et			n
-en admiral	an admiral	SP	4					n
-en manager	a manager	WJ	3					n
-en kommando	a command	SP	3					n
-et hovedkvarter	a headquarters	SP	3					n
+en assistent	an assistant	WJ	2					n	assistenten|assistenter	the assistant|assistants
+en stilling	a position / job	WJ	2					n	stillingen|stillinger	the position / the job|positions / jobs
+en officer	an officer	SP	3					n	officeren|officerer	the officer|officers
+en inspektør	an inspector	SP	3					n	inspektøren|inspektører	the inspector|inspectors
+et skift	a shift / change	WJ	2					n	skiftet|skift	the shift / the change|shifts / changes
+forskning	research	SL	3		en			n	forskningen	the research
+et emne	a subject / topic	SL	2					n	emnet|emner	the subject / the topic|subjects / topics
+en kommandør	a commander	SP	4					n	kommandøren|kommandører	the commander|commanders
+en strisser	a cop (slang)	SP	4					n	strisseren|strissere	the cop (slang)|cops (slang)
+en formand	a chairman	WJ	3					n	formanden|formænd	the chairman|chairmen
+en korporal	a corporal	SP	4					n	korporalen|korporaler	the corporal|corporals
+en rådgiver	an adviser	WJ	3					n	rådgiveren|rådgivere	the adviser|advisers
+personale	staff	WJ	3		et			n	personalet	the staff
+en admiral	an admiral	SP	4					n	admiralen|admiraler	the admiral|admirals
+en manager	a manager	WJ	3					n	manageren|managere	the manager|managers
+en kommando	a command	SP	3					n	kommandoen|kommandoer	the command|commands
+et hovedkvarter	a headquarters	SP	3					n	hovedkvarteret|hovedkvarterer	the headquarters|headquarters
 uddannet	educated / qualified	WJ	3					a
-et bogstav	a letter (of the alphabet)	SL	2					n
-en kuglepen	a ballpoint pen	SL	1					n
-en formel	a formula	SL	3					n
-et bureau	an agency / office	WJ	3					n
-en rang	a rank	WJ	3					n
-latin	Latin	SL	3		en			n
-en bartender	a bartender	WJ	2					n
-et speciale	a specialty / master's thesis	SL	3					n
-jura	law (the study)	SL	3		en			n
-en overbetjent	a police sergeant	SP	4					n
-en fotograf	a photographer	WJ	2					n
-en forfremmelse	a promotion	WJ	3					n
-arbejdsløs	unemployed	WJ	2					a
-en servitrice	a waitress	WJ	2					n
-en slagter	a butcher	WJ	2					n
-et mandskab	a crew	WJ	4					n
-en afløser	a substitute / replacement	WJ	3					n
-en instruks	an instruction	WJ	3					n
-et kompagni	a company (military / business)	SP	4					n
+et bogstav	a letter (of the alphabet)	SL	2					n	bogstavet|bogstaver	the letter (of the alphabet)|letters (of the alphabet)
+en kuglepen	a ballpoint pen	SL	1					n	kuglepenn|kuglepenne	the ballpoint pen|ballpoint pens
+en formel	a formula	SL	3					n	formlen|formler	the formula|formulas
+et bureau	an agency / office	WJ	3					n	bureauet|bureauer	the agency / the office|agencies / offices
+en rang	a rank	WJ	3					n	rangen	the rank
+latin	Latin	SL	3		en			n	latinen	the Latin
+en bartender	a bartender	WJ	2					n	bartenderen|bartendere	the bartender|bartenders
+et speciale	a specialty / master's thesis	SL	3					n	specialet|specialer	the specialty / the master's thesis|specialties / master's theses
+jura	law (the study)	SL	3		en			n	juraen	the law (the study)
+en overbetjent	a police sergeant	SP	4					n	overbetjenten|overbetjente	the police sergeant|police sergeants
+en fotograf	a photographer	WJ	2					n	fotografen|fotografer	the photographer|photographers
+en forfremmelse	a promotion	WJ	3					n	forfremmelsen|forfremmelser	the promotion|promotions
+arbejdsløs	unemployed	WJ	2					a	arbejdsløsere|arbejdsløsest	more unemployed|most unemployed
+en servitrice	a waitress	WJ	2					n	servitricen|servitricer	the waitress|waitresses
+en slagter	a butcher	WJ	2					n	slagteren|slagtere	the butcher|butchers
+et mandskab	a crew	WJ	4					n	mandskabet|mandskaber	the crew|crews
+en afløser	a substitute / replacement	WJ	3					n	afløseren|afløsere	the substitute / the replacement|substitutes / replacements
+en instruks	an instruction	WJ	3					n	instruksen|instrukser	the instruction|instructions
+et kompagni	a company (military / business)	SP	4					n	kompagniet|kompagnier	the company (military / the business)|company (militaries / business)s
 pensioneret	retired	WJ	2					a
 kvalificeret	qualified	WJ	3					a
 kemisk	chemical		3					a
-en fridag	a day off	WJ	2					n
-filosofi	philosophy	SL	3		en			n
-et studie	a study	SL	3					n
-en mentor	a mentor	SL	3					n
-en mekaniker	a mechanic	WJ	2					n
+en fridag	a day off	WJ	2					n	fridagen|fridage	the day off|day offs
+filosofi	philosophy	SL	3		en			n	filosofien	the philosophy
+et studie	a study	SL	3					n	studiet|studier	the study|studies
+en mentor	a mentor	SL	3					n	mentoren|mentorer	the mentor|mentors
+en mekaniker	a mechanic	WJ	2					n	mekanikeren|mekanikere	the mechanic|mechanics
 videnskabelig	scientific		3					a
 at sygemelde sig	to call in sick	WJ	2	sygemelder sig|sygemeldte sig|sygemeldt sig		jeg sygemelder mig|jeg sygemeldte mig|jeg har sygemeldt mig	I call in sick|I called in sick|I have called in sick	v
-en arbejdsplads	a workplace	WJ	2					n
-en stillingsannonce	a job ad	WJ	3					n
-en jobsamtale	a job interview	WJ	2					n
-en prøvetid	a probation period	WJ	3					n
-en fyring	a dismissal	WJ	3					n
-arbejdsløshed	unemployment	WJ	3		en			n
-en lønforhøjelse	a raise	MB	3					n
-barsel	maternity / parental leave	WJ	3		en			n
-overarbejde	overtime	WJ	3		et			n
-arbejdstid	working hours	WJ	2		en			n
+en arbejdsplads	a workplace	WJ	2					n	arbejdspladsen|arbejdspladser	the workplace|workplaces
+en stillingsannonce	a job ad	WJ	3					n	stillingsannoncen|stillingsannoncer	the job ad|job ads
+en jobsamtale	a job interview	WJ	2					n	jobsamtalen|jobsamtaler	the job interview|job interviews
+en prøvetid	a probation period	WJ	3					n	prøvetiden|prøvetider	the probation period|probation periods
+en fyring	a dismissal	WJ	3					n	fyringen|fyringer	the dismissal|dismissals
+arbejdsløshed	unemployment	WJ	3		en			n	arbejdsløsheden	the unemployment
+en lønforhøjelse	a raise	MB	3					n	lønforhøjelsen|lønforhøjelser	the raise|raises
+barsel	maternity / parental leave	WJ	3		en			n	barslen	the maternity / the parental leave
+overarbejde	overtime	WJ	3		et			n	overarbejdet	the overtime
+arbejdstid	working hours	WJ	2		en			n	arbejdstiden	the working hours
 på deltid	part-time	WJ	2					d
 på fuldtid	full-time	WJ	2					d
-en fagforening	a trade union	WJ	3					n
-en leverandør	a supplier	WJ	3					n
-en praktikant	an intern	WJ	3					n
-en lærling	an apprentice	WJ	3					n
-en afdelingsleder	a department manager	WJ	3					n
-en frokostpause	a lunch break	WJ	2					n
-en kaffepause	a coffee break	WJ	2					n
-en printer	a printer	WJ	2					n
-en kopimaskine	a copier	WJ	2					n
-en hæftemaskine	a stapler	WJ	3					n
-en papirclips	a paper clip	WJ	3					n
-et visitkort	a business card	WJ	3					n
-en vuggestue	a nursery (daycare)	SL	2					n
+en fagforening	a trade union	WJ	3					n	fagforeningen|fagforeninger	the trade union|trade unions
+en leverandør	a supplier	WJ	3					n	leverandøren|leverandører	the supplier|suppliers
+en praktikant	an intern	WJ	3					n	praktikanten|praktikanter	the intern|interns
+en lærling	an apprentice	WJ	3					n	lærlingen|lærlinge	the apprentice|apprentices
+en afdelingsleder	a department manager	WJ	3					n	afdelingslederen|afdelingsledere	the department manager|department managers
+en frokostpause	a lunch break	WJ	2					n	frokostpausen|frokostpauser	the lunch break|lunch breaks
+en kaffepause	a coffee break	WJ	2					n	kaffepausen|kaffepauser	the coffee break|coffee breaks
+en printer	a printer	WJ	2					n	printeren|printere	the printer|printers
+en kopimaskine	a copier	WJ	2					n	kopimaskinen|kopimaskiner	the copier|copiers
+en hæftemaskine	a stapler	WJ	3					n	hæftemaskinen|hæftemaskiner	the stapler|staplers
+en papirclips	a paper clip	WJ	3					n	papirclipsen|papirclipse	the paper clip|paper clips
+et visitkort	a business card	WJ	3					n	visitkortet	the business card
+en vuggestue	a nursery (daycare)	SL	2					n	vuggestuen|vuggestuer	the nursery (daycare)|nurseries (daycare)
 en SFO	an after-school club	SL	3					n
-en efterskole	a boarding school (for 14–18-year-olds)	SL	3					n
-en højskole	a folk high school	SL	3					n
-en erhvervsuddannelse	a vocational education	SL	3					n
-en underviser	an instructor	SL	2					n
-et eksamensbevis	a diploma	SL	3					n
-en studentereksamen	a high school diploma	SL	3					n
-en bachelor	a bachelor's degree	SL	3					n
-en ph.d.	a PhD	SL	3					n
-et semester	a semester	SL	2					n
-et fagområde	a field of study	SL	3					n
-billedkunst	art (school subject)	SL	3		en			n
-samfundsfag	social studies	SL	3		et			n
-et penalhus	a pencil case	SL	2					n
-en lommeregner	a calculator	SL	2					n
-et hæfte	a notebook	SL	2					n
+en efterskole	a boarding school (for 14–18-year-olds)	SL	3					n	efterskolen|efterskoler	the boarding school (for 14–18-year-olds)|boarding schools (for 14–18-year-olds)
+en højskole	a folk high school	SL	3					n	højskolen|højskoler	the folk high school|folk high schools
+en erhvervsuddannelse	a vocational education	SL	3					n	erhvervsuddannelsen|erhvervsuddannelser	the vocational education|vocational educations
+en underviser	an instructor	SL	2					n	underviseren|undervisere	the instructor|instructors
+et eksamensbevis	a diploma	SL	3					n	eksamensbeviset|eksamensbeviser	the diploma|diplomas
+en studentereksamen	a high school diploma	SL	3					n	studentereksamenen|studentereksaminer	the high school diploma|high school diplomas
+en bachelor	a bachelor's degree	SL	3					n	bacheloren|bachelorer	the bachelor's degree|bachelor's degrees
+en ph.d.	a PhD	SL	3					n	ph.d.en|ph.d.er	the PhD|PhDs
+et semester	a semester	SL	2					n	semestret|semestre	the semester|semesters
+et fagområde	a field of study	SL	3					n	fagområdet|fagområder	the field of study|fields of study
+billedkunst	art (school subject)	SL	3		en			n	billedkunsten	the art (school subject)
+samfundsfag	social studies	SL	3		et			n	samfundsfaget	the social studies
+et penalhus	a pencil case	SL	2					n	penalhuset|penalhuse	the pencil case|pencil cases
+en lommeregner	a calculator	SL	2					n	lommeregneren|lommeregnere	the calculator|calculators
+et hæfte	a notebook	SL	2					n	hæftet|hæfter	the notebook|notebooks
 at søge job	to apply for a job	WJ	2	søger job|søgte job|søgt job		jeg søger job|jeg søgte job|jeg har søgt job	I apply for a job|I applied for a job|I have applied for a job	v
 at sige op	to resign / quit	WJ	2	siger op|sagde op|sagt op		jeg siger op|jeg sagde op|jeg har sagt op	I resign / quit|I resigned / quit|I have resigned / quit	v
 at gå på pension	to retire	WJ	3	går på pension|gik på pension|gået på pension		jeg går på pension|jeg gik på pension|jeg er gået på pension	I retire|I retired|I have retired	v
@@ -7100,191 +7103,191 @@ at række hånden op	to raise one's hand	SL	2	rækker hånden op|rakte hånden o
 at pjække	to skip school / play hooky	SL	3	pjækker|pjækkede|pjækket		jeg pjækker|jeg pjækkede|jeg har pjækket	I skip school / play hooky|I skipped school / played hooky|I have skipped school / played hooky	v
 erfaren	experienced	WJ	3					a
 kompetent	competent	WJ	3					a
-produktiv	productive	WJ	3					a
-selvstændig	self-employed / independent	WJ	3					a
-faglig	professional / academic	WJ	3					a
+produktiv	productive	WJ	3					a	produktivere|produktivest	more productive|most productive
+selvstændig	self-employed / independent	WJ	3					a	selvstændigere|selvstændigst	more self-employed / more independent|most self-employed / most independent
+faglig	professional / academic	WJ	3					a	fagligere|fagligst	more professional / more academic|most professional / most academic
 akademisk	academic	WJ	3					a
-et erhverv	a profession	WJ	3					n
-en arkitekt	an architect	WJ	2					n
-en økonom	an economist	MB	3					n
-en bankrådgiver	a bank adviser	MB	3					n
-en kassedame	a cashier	WJ	2					n
-en frisør	a hairdresser	WJ	2					n
-en bager	a baker	WJ	2					n
-en landmand	a farmer	WJ	2					n
-en tømrer	a carpenter	WJ	2					n
-en murer	a bricklayer	WJ	3					n
-en elektriker	an electrician	WJ	2					n
-en blikkenslager	a plumber	WJ	3					n
-en maler	a painter	WJ	2					n
-en gartner	a gardener	WJ	2					n
-en lastbilchauffør	a truck driver	WJ	2					n
-et postbud	a mail carrier	WJ	2					n
-en politimand	a policeman	SP	2					n
-en pædagog	a daycare / youth worker	WJ	2					n
-en socialrådgiver	a social worker	WJ	3					n
-en sosu-assistent	a health care assistant	WJ	4					n
-en videnskabsmand	a scientist	SL	2					n
-en designer	a designer	WJ	2					n
-en oversætter	a translator	WJ	2					n
-en konsulent	a consultant	WJ	3					n
-en rengøringsassistent	a cleaner	WJ	3					n
-en dyrlæge	a veterinarian	AN	2					n
-en apoteker	a pharmacist	WJ	3					n
-en bibliotekar	a librarian	WJ	2					n
-et jobcenter	a job center	WJ	3					n
-en sprogskole	a language school	SL	2					n
-et danskkursus	a Danish course	SL	2					n
-en ansøgningsfrist	an application deadline	WJ	3					n
-en blanket	a form	WJ	3					n
-en formular	a form	WJ	3					n
-en afløsning	a relief / replacement	WJ	4					n
-en ansættelse	an employment / hiring	WJ	3					n
-en arbejdsdag	a working day	WJ	2					n
-en arbejdsopgave	a work task	WJ	3					n
-en bedømmelse	an assessment	SL	3					n
-en beregning	a calculation	SL	3					n
-en dannelse	an education / formation	SL	4					n
-en forkortelse	an abbreviation	SL	3					n
-en gennemgang	a review / walkthrough	SL	3					n
-en henvendelse	an inquiry	WJ	3					n
-en indkaldelse	a summons / notice	WJ	4					n
-en indledning	an introduction	SL	3					n
-en indskrivning	an enrollment	SL	4					n
-en læsning	a reading	SL	3					n
-en rettelse	a correction	SL	3					n
-en tilbagemelding	a feedback / response	WJ	3					n
-en tilmelding	a registration / sign-up	WJ	2					n
-en udnævnelse	an appointment	WJ	4					n
-en vejledning	a guide / guidance	WJ	2					n
-et oplæg	a presentation / proposal	WJ	3					n
-et udkast	a draft	WJ	3					n
-en kontorstol	an office chair	WJ	2					n
-datalogi	computer science	SL	3		en			n
-et eksperiment	an experiment	SL	2					n
+et erhverv	a profession	WJ	3					n	erhvervet	the profession
+en arkitekt	an architect	WJ	2					n	arkitekten|arkitekter	the architect|architects
+en økonom	an economist	MB	3					n	økonomen|økonomer	the economist|economists
+en bankrådgiver	a bank adviser	MB	3					n	bankrådgiveren|bankrådgivere	the bank adviser|bank advisers
+en kassedame	a cashier	WJ	2					n	kassedamen|kassedamer	the cashier|cashiers
+en frisør	a hairdresser	WJ	2					n	frisøren|frisører	the hairdresser|hairdressers
+en bager	a baker	WJ	2					n	bageren|bagere	the baker|bakers
+en landmand	a farmer	WJ	2					n	landmanden|landmænd	the farmer|farmers
+en tømrer	a carpenter	WJ	2					n	tømreren|tømrere	the carpenter|carpenters
+en murer	a bricklayer	WJ	3					n	mureren|murere	the bricklayer|bricklayers
+en elektriker	an electrician	WJ	2					n	elektrikeren|elektrikere	the electrician|electricians
+en blikkenslager	a plumber	WJ	3					n	blikkenslageren|blikkenslagere	the plumber|plumbers
+en maler	a painter	WJ	2					n	maleren|malere	the painter|painters
+en gartner	a gardener	WJ	2					n	gartneren|gartnere	the gardener|gardeners
+en lastbilchauffør	a truck driver	WJ	2					n	lastbilchaufføren|lastbilchauffører	the truck driver|truck drivers
+et postbud	a mail carrier	WJ	2					n	postbuddet|postbude	the mail carrier|mail carriers
+en politimand	a policeman	SP	2					n	politimanden|politimænd	the policeman|policemen
+en pædagog	a daycare / youth worker	WJ	2					n	pædagogen|pædagoger	the daycare / the youth worker|daycares / youth workers
+en socialrådgiver	a social worker	WJ	3					n	socialrådgiveren|socialrådgivere	the social worker|social workers
+en sosu-assistent	a health care assistant	WJ	4					n	sosu-assistenten|sosu-assistenter	the health care assistant|health care assistants
+en videnskabsmand	a scientist	SL	2					n	videnskabsmanden|videnskabsmænd	the scientist|scientists
+en designer	a designer	WJ	2					n	designeren|designere	the designer|designers
+en oversætter	a translator	WJ	2					n	oversætteren|oversættere	the translator|translators
+en konsulent	a consultant	WJ	3					n	konsulenten|konsulenter	the consultant|consultants
+en rengøringsassistent	a cleaner	WJ	3					n	rengøringsassistenten|rengøringsassistenter	the cleaner|cleaners
+en dyrlæge	a veterinarian	AN	2					n	dyrlægen|dyrlæger	the veterinarian|veterinarians
+en apoteker	a pharmacist	WJ	3					n	apotekeren|apotekere	the pharmacist|pharmacists
+en bibliotekar	a librarian	WJ	2					n	bibliotekaren|bibliotekarer	the librarian|librarians
+et jobcenter	a job center	WJ	3					n	jobcentret|jobcentre	the job center|job centers
+en sprogskole	a language school	SL	2					n	sprogskolen|sprogskoler	the language school|language schools
+et danskkursus	a Danish course	SL	2					n	danskkursuset	the Danish course
+en ansøgningsfrist	an application deadline	WJ	3					n	ansøgningsfristen|ansøgningsfrister	the application deadline|application deadlines
+en blanket	a form	WJ	3					n	blanketten|blanketter	the form|forms
+en formular	a form	WJ	3					n	formularen|formularer	the form|forms
+en afløsning	a relief / replacement	WJ	4					n	afløsningen|afløsninger	the relief / the replacement|reliefs / replacements
+en ansættelse	an employment / hiring	WJ	3					n	ansættelsen|ansættelser	the employment / the hiring|employments / hirings
+en arbejdsdag	a working day	WJ	2					n	arbejdsdagen|arbejdsdage	the working day|working days
+en arbejdsopgave	a work task	WJ	3					n	arbejdsopgaven|arbejdsopgaver	the work task|work tasks
+en bedømmelse	an assessment	SL	3					n	bedømmelsen|bedømmelser	the assessment|assessments
+en beregning	a calculation	SL	3					n	beregningen|beregninger	the calculation|calculations
+en dannelse	an education / formation	SL	4					n	dannelsen|dannelser	the education / the formation|educations / formations
+en forkortelse	an abbreviation	SL	3					n	forkortelsen|forkortelser	the abbreviation|abbreviations
+en gennemgang	a review / walkthrough	SL	3					n	gennemgangen|gennemgange	the review / the walkthrough|reviews / walkthroughs
+en henvendelse	an inquiry	WJ	3					n	henvendelsen|henvendelser	the inquiry|inquiries
+en indkaldelse	a summons / notice	WJ	4					n	indkaldelsen|indkaldelser	the summons / the notice|summonss / notices
+en indledning	an introduction	SL	3					n	indledningen|indledninger	the introduction|introductions
+en indskrivning	an enrollment	SL	4					n	indskrivningen|indskrivninger	the enrollment|enrollments
+en læsning	a reading	SL	3					n	læsningen|læsninger	the reading|readings
+en rettelse	a correction	SL	3					n	rettelsen|rettelser	the correction|corrections
+en tilbagemelding	a feedback / response	WJ	3					n	tilbagemeldingen|tilbagemeldinger	the feedback / the response|feedbacks / responses
+en tilmelding	a registration / sign-up	WJ	2					n	tilmeldingen|tilmeldinger	the registration / the sign-up|registrations / sign-ups
+en udnævnelse	an appointment	WJ	4					n	udnævnelsen|udnævnelser	the appointment|appointments
+en vejledning	a guide / guidance	WJ	2					n	vejledningen|vejledninger	the guide / the guidance|guides / guidances
+et oplæg	a presentation / proposal	WJ	3					n	oplægget	the presentation / the proposal
+et udkast	a draft	WJ	3					n	udkastet	the draft
+en kontorstol	an office chair	WJ	2					n	kontorstolen|kontorstole	the office chair|office chairs
+datalogi	computer science	SL	3		en			n	datalogien	the computer science
+et eksperiment	an experiment	SL	2					n	eksperimentet|eksperimenter	the experiment|experiments
 i skole	at school / to school	SL	1					d
-et institut	an institute	SL	3					n
-et kemikalie	a chemical	SL	3					n
-en ordbog	a dictionary	SL	1					n
-en sekretær	a secretary	WJ	2					n
-en syre	an acid	SL	3					n
-en snedker	a joiner / cabinetmaker	WJ	3					n
-en smed	a smith	WJ	3					n
-en skorstensfejer	a chimney sweep	WJ	4					n
-en skraldemand	a garbage collector	WJ	2					n
-en taxachauffør	a taxi driver	WJ	2					n
-en kassemedarbejder	a cashier	WJ	3					n
-en lagerarbejder	a warehouse worker	WJ	3					n
-en fabriksarbejder	a factory worker	WJ	3					n
-en kontorassistent	an office assistant	WJ	3					n
-en receptionist	a receptionist	WJ	2					n
-en projektleder	a project manager	WJ	3					n
-en udvikler	a developer	WJ	3					n
-en dataanalytiker	a data analyst	WJ	4					n
-en marketingchef	a marketing manager	WJ	3					n
-en HR-medarbejder	an HR employee	WJ	3					n
-en jurist	a lawyer (legal professional)	SP	3					n
-en diplomat	a diplomat	SP	3					n
-en kunsthistoriker	an art historian	WJ	4					n
-en historiker	a historian	WJ	3					n
-en filosof	a philosopher	WJ	3					n
-en matematiker	a mathematician	WJ	3					n
-en fysiker	a physicist	WJ	3					n
-en kemiker	a chemist	WJ	3					n
-en biolog	a biologist	WJ	3					n
-en tandplejer	a dental hygienist	WJ	4					n
-en optiker	an optician	WJ	3					n
-en ergoterapeut	an occupational therapist	WJ	4					n
-en psykiater	a psychiatrist	WJ	3					n
-en kosmetolog	a beautician	WJ	4					n
-stavning	spelling	SL	2		en			n
-et navneord	a noun	SL	3					n
-et udsagnsord	a verb	SL	3					n
-et tillægsord	an adjective	SL	3					n
-et biord	an adverb	SL	3					n
-et forholdsord	a preposition	SL	3					n
-et stedord	a pronoun	SL	3					n
-et bindeord	a conjunction	SL	3					n
-en bøjning	an inflection	SL	3					n
-nutid	present tense	SL	3		en			n
-datid	past tense	SL	3		en			n
-førnutid	present perfect	SL	3		en			n
-førdatid	past perfect	SL	3		en			n
-navnemåde	infinitive	SL	3		en			n
-bydemåde	imperative	SL	3		en			n
-ental	singular	SL	3		et			n
+et institut	an institute	SL	3					n	instituttet|institutter	the institute|institutes
+et kemikalie	a chemical	SL	3					n	kemikaliet|kemikalier	the chemical|chemicals
+en ordbog	a dictionary	SL	1					n	ordbogen|ordbøger	the dictionary|dictionaries
+en sekretær	a secretary	WJ	2					n	sekretæren|sekretærer	the secretary|secretaries
+en syre	an acid	SL	3					n	syren|syrer	the acid|acids
+en snedker	a joiner / cabinetmaker	WJ	3					n	snedkeren|snedkere	the joiner / the cabinetmaker|joiners / cabinetmakers
+en smed	a smith	WJ	3					n	smeden|smede	the smith|smiths
+en skorstensfejer	a chimney sweep	WJ	4					n	skorstensfejeren|skorstensfejere	the chimney sweep|chimney sweeps
+en skraldemand	a garbage collector	WJ	2					n	skraldemanden|skraldemænd	the garbage collector|garbage collectors
+en taxachauffør	a taxi driver	WJ	2					n	taxachaufføren|taxachauffører	the taxi driver|taxi drivers
+en kassemedarbejder	a cashier	WJ	3					n	kassemedarbejderen|kassemedarbejdere	the cashier|cashiers
+en lagerarbejder	a warehouse worker	WJ	3					n	lagerarbejderen|lagerarbejdere	the warehouse worker|warehouse workers
+en fabriksarbejder	a factory worker	WJ	3					n	fabriksarbejderen|fabriksarbejdere	the factory worker|factory workers
+en kontorassistent	an office assistant	WJ	3					n	kontorassistenten|kontorassistenter	the office assistant|office assistants
+en receptionist	a receptionist	WJ	2					n	receptionisten|receptionister	the receptionist|receptionists
+en projektleder	a project manager	WJ	3					n	projektlederen|projektledere	the project manager|project managers
+en udvikler	a developer	WJ	3					n	udvikleren|udviklere	the developer|developers
+en dataanalytiker	a data analyst	WJ	4					n	dataanalytikeren|dataanalytikere	the data analyst|data analysts
+en marketingchef	a marketing manager	WJ	3					n	marketingchefen|marketingchefer	the marketing manager|marketing managers
+en HR-medarbejder	an HR employee	WJ	3					n	HR-medarbejderen|HR-medarbejdere	the HR employee|HR employees
+en jurist	a lawyer (legal professional)	SP	3					n	juristen|jurister	the lawyer (legal professional)|lawyers (legal professional)
+en diplomat	a diplomat	SP	3					n	diplomaten|diplomater	the diplomat|diplomats
+en kunsthistoriker	an art historian	WJ	4					n	kunsthistorikeren|kunsthistorikere	the art historian|art historians
+en historiker	a historian	WJ	3					n	historikeren|historikere	the historian|historians
+en filosof	a philosopher	WJ	3					n	filosoffen|filosoffer	the philosopher|philosophers
+en matematiker	a mathematician	WJ	3					n	matematikeren|matematikere	the mathematician|mathematicians
+en fysiker	a physicist	WJ	3					n	fysikeren|fysikere	the physicist|physicists
+en kemiker	a chemist	WJ	3					n	kemikeren|kemikere	the chemist|chemists
+en biolog	a biologist	WJ	3					n	biologen|biologer	the biologist|biologists
+en tandplejer	a dental hygienist	WJ	4					n	tandplejeren|tandplejere	the dental hygienist|dental hygienists
+en optiker	an optician	WJ	3					n	optikeren|optikere	the optician|opticians
+en ergoterapeut	an occupational therapist	WJ	4					n	ergoterapeuten|ergoterapeuter	the occupational therapist|occupational therapists
+en psykiater	a psychiatrist	WJ	3					n	psykiateren|psykiatere	the psychiatrist|psychiatrists
+en kosmetolog	a beautician	WJ	4					n	kosmetologen|kosmetologer	the beautician|beauticians
+stavning	spelling	SL	2		en			n	stavningen	the spelling
+et navneord	a noun	SL	3					n	navneordet	the noun
+et udsagnsord	a verb	SL	3					n	udsagnsordet	the verb
+et tillægsord	an adjective	SL	3					n	tillægsordet	the adjective
+et biord	an adverb	SL	3					n	biordet	the adverb
+et forholdsord	a preposition	SL	3					n	forholdsordet	the preposition
+et stedord	a pronoun	SL	3					n	stedordet	the pronoun
+et bindeord	a conjunction	SL	3					n	bindeordet	the conjunction
+en bøjning	an inflection	SL	3					n	bøjningen|bøjninger	the inflection|inflections
+nutid	present tense	SL	3		en			n	nutiden	the present tense
+datid	past tense	SL	3		en			n	datiden	the past tense
+førnutid	present perfect	SL	3		en			n	førnutiden	the present perfect
+førdatid	past perfect	SL	3		en			n	førdatiden	the past perfect
+navnemåde	infinitive	SL	3		en			n	navnemåden	the infinitive
+bydemåde	imperative	SL	3		en			n	bydemåden	the imperative
+ental	singular	SL	3		et			n	entallet	the singular
 bestemt form	definite form	SL	3		en			n
 ubestemt form	indefinite form	SL	3		en			n
-et køn	a gender	SL	3					n
-fælleskøn	common gender (en-words)	SL	3		et			n
-intetkøn	neuter gender (et-words)	SL	3		et			n
-en endelse	an ending (word)	SL	3					n
-et ordsprog	a proverb	SL	3					n
-et fremmedord	a foreign word	SL	3					n
-et synonym	a synonym	SL	3					n
-et modsætningsord	an antonym	SL	4					n
-retskrivning	spelling rules / orthography	SL	3		en			n
-tegnsætning	punctuation	SL	3		en			n
-et punktum	a period (punctuation)	SL	2					n
-et komma	a comma	SL	2					n
-et spørgsmålstegn	a question mark	SL	2					n
-et udråbstegn	an exclamation mark	SL	3					n
-et kolon	a colon	SL	3					n
-en bindestreg	a hyphen	SL	3					n
-et anførselstegn	a quotation mark	SL	4					n
-et alfabet	an alphabet	SL	2					n
-en vokal	a vowel	SL	2					n
-en konsonant	a consonant	SL	2					n
-en stavelse	a syllable	SL	3					n
-et tryk	a stress (emphasis)	SL	3					n
-en samtaleøvelse	a conversation exercise	SL	3					n
-en lytteøvelse	a listening exercise	SL	3					n
-læseforståelse	reading comprehension	SL	3		en			n
-en diktat	a dictation	SL	3					n
-et essay	an essay	SL	3					n
-mundtlig	oral / spoken	SL	2					a
-skriftlig	written	SL	2					a
+et køn	a gender	SL	3					n	kønnet	the gender
+fælleskøn	common gender (en-words)	SL	3		et			n	fælleskønnet	the common gender (en-words)
+intetkøn	neuter gender (et-words)	SL	3		et			n	intetkønnet	the neuter gender (et-words)
+en endelse	an ending (word)	SL	3					n	endelsen|endelser	the ending (word)|endings (word)
+et ordsprog	a proverb	SL	3					n	ordsproget	the proverb
+et fremmedord	a foreign word	SL	3					n	fremmedordet	the foreign word
+et synonym	a synonym	SL	3					n	synonymet|synonymer	the synonym|synonyms
+et modsætningsord	an antonym	SL	4					n	modsætningsordet	the antonym
+retskrivning	spelling rules / orthography	SL	3		en			n	retskrivningen	the spelling rules / the orthography
+tegnsætning	punctuation	SL	3		en			n	tegnsætningen	the punctuation
+et punktum	a period (punctuation)	SL	2					n	punktummet|punktummer	the period (punctuation)|periods (punctuation)
+et komma	a comma	SL	2					n	kommaet|kommaer	the comma|commas
+et spørgsmålstegn	a question mark	SL	2					n	spørgsmålstegnet	the question mark
+et udråbstegn	an exclamation mark	SL	3					n	udråbstegnet	the exclamation mark
+et kolon	a colon	SL	3					n	kolonet|koloner	the colon|colons
+en bindestreg	a hyphen	SL	3					n	bindestregen|bindestreger	the hyphen|hyphens
+et anførselstegn	a quotation mark	SL	4					n	anførselstegnet	the quotation mark
+et alfabet	an alphabet	SL	2					n	alfabetet|alfabeter	the alphabet|alphabets
+en vokal	a vowel	SL	2					n	vokalen|vokaler	the vowel|vowels
+en konsonant	a consonant	SL	2					n	konsonanten|konsonanter	the consonant|consonants
+en stavelse	a syllable	SL	3					n	stavelsen|stavelser	the syllable|syllables
+et tryk	a stress (emphasis)	SL	3					n	trykket	the stress (emphasis)
+en samtaleøvelse	a conversation exercise	SL	3					n	samtaleøvelsen|samtaleøvelser	the conversation exercise|conversation exercises
+en lytteøvelse	a listening exercise	SL	3					n	lytteøvelsen|lytteøvelser	the listening exercise|listening exercises
+læseforståelse	reading comprehension	SL	3		en			n	læseforståelsen	the reading comprehension
+en diktat	a dictation	SL	3					n	diktaten|diktater	the dictation|dictations
+et essay	an essay	SL	3					n	essayet	the essay
+mundtlig	oral / spoken	SL	2					a	mundtligere|mundtligst	more oral / more spoken|most oral / most spoken
+skriftlig	written	SL	2					a	skriftligere|skriftligst	more written|most written
 flydende	fluent / liquid		2					a
-en studiekammerat	a fellow student	SL	3					n
-en censor	an external examiner	SL	4					n
-et studiejob	a student job	SL	3					n
-et kollegieværelse	a dorm room	SL	3					n
-en læsesal	a reading room	SL	4					n
+en studiekammerat	a fellow student	SL	3					n	studiekammeraten|studiekammerater	the fellow student|fellow students
+en censor	an external examiner	SL	4					n	censoren|censorer	the external examiner|external examiners
+et studiejob	a student job	SL	3					n	studiejobbet	the student job
+et kollegieværelse	a dorm room	SL	3					n	kollegieværelset|kollegieværelser	the dorm room|dorm rooms
+en læsesal	a reading room	SL	4					n	læsesalen|læsesale	the reading room|reading rooms
 et auditorium	an auditorium / lecture hall	SL	3					n
-en campus	a campus	SL	3					n
-et adgangskrav	an admission requirement	SL	4					n
-et karaktergennemsnit	a grade point average	SL	4					n
-en studieplan	a study plan	SL	3					n
-en studieretning	a field of study (high school)	SL	4					n
-en afleveringsfrist	a submission deadline	SL	3					n
-en litteraturliste	a bibliography	SL	4					n
-et citat	a quote	SL	3					n
-en fodnote	a footnote	SL	3					n
-et resumé	a summary	SL	3					n
-et spørgeskema	a questionnaire	SL	3					n
-en graf	a graph	SL	3					n
-en ligning	an equation	SL	3					n
-et decimaltal	a decimal number	SL	4					n
+en campus	a campus	SL	3					n	campussen|campusser	the campus|campuses
+et adgangskrav	an admission requirement	SL	4					n	adgangskravet	the admission requirement
+et karaktergennemsnit	a grade point average	SL	4					n	karaktergennemsnitt	the grade point average
+en studieplan	a study plan	SL	3					n	studieplanen|studieplaner	the study plan|study plans
+en studieretning	a field of study (high school)	SL	4					n	studieretningen|studieretninger	the field of study (high school)|fields of study (high school)
+en afleveringsfrist	a submission deadline	SL	3					n	afleveringsfristen|afleveringsfrister	the submission deadline|submission deadlines
+en litteraturliste	a bibliography	SL	4					n	litteraturlisten|litteraturlister	the bibliography|bibliographies
+et citat	a quote	SL	3					n	citatet|citater	the quote|quotes
+en fodnote	a footnote	SL	3					n	fodnoten|fodnoter	the footnote|footnotes
+et resumé	a summary	SL	3					n	resuméet|resuméer	the summary|summaries
+et spørgeskema	a questionnaire	SL	3					n	spørgeskemaet|spørgeskemaer	the questionnaire|questionnaires
+en graf	a graph	SL	3					n	grafen|grafer	the graph|graphs
+en ligning	an equation	SL	3					n	ligningen|ligninger	the equation|equations
+et decimaltal	a decimal number	SL	4					n	decimaltallet	the decimal number
 ulige	odd (number)	NC	3					a
-en radius	a radius	SL	4					n
-et areal	an area	SL	3					n
-en kvadratmeter	a square meter	SL	2					n
-en opgavebog	an exercise book	SL	3					n
-en ordliste	a word list / glossary	SL	3					n
-et kartotekskort	an index card	SL	4					n
-et skoleår	a school year	SL	2					n
-en efterårsferie	an autumn break	SL	2					n
-en vinterferie	a winter break	SL	2					n
-en juleferie	a Christmas vacation	SL	2					n
-en påskeferie	an Easter vacation	SL	2					n
-en skoledag	a school day	SL	2					n
-en madordning	a school meal program	SL	4					n
-en skolegård	a schoolyard	SL	3					n
-en gymnastiksal	a gym (school)	SL	3					n
-et forældremøde	a parent-teacher meeting	SL	3					n
-en skole-hjem-samtale	a parent-teacher conference	SL	3					n
-en lejrskole	a school camp trip	SL	3					n
-en ekskursion	a field trip	SL	3					n
+en radius	a radius	SL	4					n	radiussen|radii	the radius|radiuses
+et areal	an area	SL	3					n	arealet|arealer	the area|areas
+en kvadratmeter	a square meter	SL	2					n	kvadratmeteren	the square meter
+en opgavebog	an exercise book	SL	3					n	opgavebogen|opgavebøger	the exercise book|exercise books
+en ordliste	a word list / glossary	SL	3					n	ordlisten|ordlister	the word list / the glossary|word lists / glossaries
+et kartotekskort	an index card	SL	4					n	kartotekskortet	the index card
+et skoleår	a school year	SL	2					n	skoleåret	the school year
+en efterårsferie	an autumn break	SL	2					n	efterårsferien|efterårsferier	the autumn break|autumn breaks
+en vinterferie	a winter break	SL	2					n	vinterferien|vinterferier	the winter break|winter breaks
+en juleferie	a Christmas vacation	SL	2					n	juleferien|juleferier	the Christmas vacation|Christmas vacations
+en påskeferie	an Easter vacation	SL	2					n	påskeferien|påskeferier	the Easter vacation|Easter vacations
+en skoledag	a school day	SL	2					n	skoledagen|skoledage	the school day|school days
+en madordning	a school meal program	SL	4					n	madordningen|madordninger	the school meal program|school meal programs
+en skolegård	a schoolyard	SL	3					n	skolegården|skolegårde	the schoolyard|schoolyards
+en gymnastiksal	a gym (school)	SL	3					n	gymnastiksalen|gymnastiksale	the gym (school)|gyms (school)
+et forældremøde	a parent-teacher meeting	SL	3					n	forældremødet|forældremøder	the parent-teacher meeting|parent-teacher meetings
+en skole-hjem-samtale	a parent-teacher conference	SL	3					n	skole-hjem-samtalen|skole-hjem-samtaler	the parent-teacher conference|parent-teacher conferences
+en lejrskole	a school camp trip	SL	3					n	lejrskolen|lejrskoler	the school camp trip|school camp trips
+en ekskursion	a field trip	SL	3					n	ekskursionen|ekskursioner	the field trip|field trips
 at lære udenad	to memorize	SL	2	lærer udenad|lærte udenad|lært udenad		jeg lærer udenad|jeg lærte udenad|jeg har lært udenad	I memorize|I memorized|I have memorized	v
 at skrive af	to copy (write out)	SL	3	skriver af|skrev af|skrevet af		jeg skriver af|jeg skrev af|jeg har skrevet af	I copy (write out)|I copied (wrote out)|I have copied (written out)	v
 at gå til eksamen	to take an exam	SL	2	går til eksamen|gik til eksamen|gået til eksamen		jeg går til eksamen|jeg gik til eksamen|jeg er gået til eksamen	I take an exam|I took an exam|I have taken an exam	v
@@ -7296,249 +7299,249 @@ at tage noter	to take notes	SL	2	tager noter|tog noter|taget noter		jeg tager no
 at holde oplæg	to give a presentation	SL	3	holder oplæg|holdt oplæg|holdt oplæg		jeg holder oplæg|jeg holdt oplæg|jeg har holdt oplæg	I give a presentation|I gave a presentation|I have given a presentation	v
 at runde op	to round up	NC	2	runder op|rundede op|rundet op		jeg runder op|jeg rundede op|jeg har rundet op	I round up|I rounded up|I have rounded up	v
 at runde ned	to round down	NC	2	runder ned|rundede ned|rundet ned		jeg runder ned|jeg rundede ned|jeg har rundet ned	I round down|I rounded down|I have rounded down	v
-en skomager	a shoemaker / cobbler	WJ	4					n
-en urmager	a watchmaker	WJ	4					n
-et cykelbud	a bike courier	WJ	4					n
-et madbud	a food delivery person	WJ	3					n
-et arkiv	an archive	SL	3					n
-en blok	a notepad / block	WJ	3					n
-dokumentation	documentation	WJ	4		en			n
-en encyklopædi	an encyclopedia	SL	3					n
-en historiebog	a history book	SL	2					n
-en hjemmeopgave	a homework assignment	SL	3					n
-et leksikon	an encyclopedia	SL	3					n
-et foredrag	a talk / lecture	SL	3					n
-en aftenskole	an evening class	SL	3					n
-en arbejdsbyrde	a workload	WJ	3					n
-et arbejdsmiljø	a work environment	WJ	3					n
-arbejdskraft	labor / workforce	WJ	3		en			n
+en skomager	a shoemaker / cobbler	WJ	4					n	skomageren|skomagere	the shoemaker / the cobbler|shoemakers / cobblers
+en urmager	a watchmaker	WJ	4					n	urmageren|urmagere	the watchmaker|watchmakers
+et cykelbud	a bike courier	WJ	4					n	cykelbuddet|cykelbude	the bike courier|bike couriers
+et madbud	a food delivery person	WJ	3					n	madbuddet|madbude	the food delivery person|food delivery people
+et arkiv	an archive	SL	3					n	arkivet|arkiver	the archive|archives
+en blok	a notepad / block	WJ	3					n	blokken|blokke	the notepad / the block|notepads / blocks
+dokumentation	documentation	WJ	4		en			n	dokumentationen	the documentation
+en encyklopædi	an encyclopedia	SL	3					n	encyklopædien|encyklopædier	the encyclopedia|encyclopedias
+en historiebog	a history book	SL	2					n	historiebogen|historiebøger	the history book|history books
+en hjemmeopgave	a homework assignment	SL	3					n	hjemmeopgaven|hjemmeopgaver	the homework assignment|homework assignments
+et leksikon	an encyclopedia	SL	3					n	leksikonet|leksika	the encyclopedia|encyclopedias
+et foredrag	a talk / lecture	SL	3					n	foredraget	the talk / the lecture
+en aftenskole	an evening class	SL	3					n	aftenskolen|aftenskoler	the evening class|evening classes
+en arbejdsbyrde	a workload	WJ	3					n	arbejdsbyrden|arbejdsbyrder	the workload|workloads
+et arbejdsmiljø	a work environment	WJ	3					n	arbejdsmiljøet|arbejdsmiljøer	the work environment|work environments
+arbejdskraft	labor / workforce	WJ	3		en			n	arbejdskraften	the labor / the workforce
 en daglig leder	a general manager	WJ	4					n
-et drømmejob	a dream job	WJ	2					n
-en farmaceut	a pharmacist	WJ	4					n
-en forretningsrejse	a business trip	WJ	3					n
-en fritidsordning	an after-school program	SL	3					n
-en grundskole	a primary school	SL	3					n
-et højskoleophold	a folk high school stay	SL	4					n
-en indretningsarkitekt	an interior designer	WJ	4					n
-en jobannonce	a job ad	WJ	3					n
-en klasselærer	a class teacher	SL	3					n
-en kontorplads	a desk (workspace)	WJ	3					n
+et drømmejob	a dream job	WJ	2					n	drømmejobbet	the dream job
+en farmaceut	a pharmacist	WJ	4					n	farmaceuten|farmaceuter	the pharmacist|pharmacists
+en forretningsrejse	a business trip	WJ	3					n	forretningsrejsen|forretningsrejser	the business trip|business trips
+en fritidsordning	an after-school program	SL	3					n	fritidsordningen|fritidsordninger	the after-school program|after-school programs
+en grundskole	a primary school	SL	3					n	grundskolen|grundskoler	the primary school|primary schools
+et højskoleophold	a folk high school stay	SL	4					n	højskoleopholdet	the folk high school stay
+en indretningsarkitekt	an interior designer	WJ	4					n	indretningsarkitekten|indretningsarkitekter	the interior designer|interior designers
+en jobannonce	a job ad	WJ	3					n	jobannoncen|jobannoncer	the job ad|job ads
+en klasselærer	a class teacher	SL	3					n	klasselæreren|klasselærere	the class teacher|class teachers
+en kontorplads	a desk (workspace)	WJ	3					n	kontorpladsen|kontorpladser	the desk (workspace)|desks (workspace)
 ordblind	dyslexic	BH	3					a
-en papirkurv	a wastepaper basket	WJ	3					n
-et personalemøde	a staff meeting	WJ	3					n
-en skoletur	a school trip	SL	2					n
-et sommerjob	a summer job	WJ	2					n
+en papirkurv	a wastepaper basket	WJ	3					n	papirkurven|papirkurve	the wastepaper basket|wastepaper baskets
+et personalemøde	a staff meeting	WJ	3					n	personalemødet|personalemøder	the staff meeting|staff meetings
+en skoletur	a school trip	SL	2					n	skoleturen|skoleture	the school trip|school trips
+et sommerjob	a summer job	WJ	2					n	sommerjobbet	the summer job
 sprogkundskaber	language skills	SL	3		pl			n
-en studietur	a study trip	SL	3					n
-en ugeplan	a weekly plan	WJ	3					n
-et kontorhus	an office building	WJ	4					n
-et mødelokale	a meeting room	WJ	3					n
-et opholdsrum	a lounge / common room	WJ	3					n
-et skolefag	a school subject	SL	2					n
-et studieår	an academic year	SL	3					n
-en køkkenchef	a head chef	WJ	3					n
-en kokkeelev	a chef apprentice	WJ	4					n
-en opvasker	a dishwasher (person)	WJ	4					n
-en barista	a barista	WJ	3					n
-en sommelier	a sommelier	WJ	4					n
-en hovmester	a head waiter	WJ	4					n
-vrede	anger	FP	2		en			n
-jalousi	jealousy	FP	2		en			n
-skyld	guilt / fault	FP	2		en			n
-skam	shame	FP	2		en			n
-stolthed	pride	FP	2		en			n
-medlidenhed	pity	FP	3		en			n
-en overraskelse	a surprise	FP	2					n
-forvirring	confusion	FP	2		en			n
-lettelse	relief	FP	2		en			n
-ensomhed	loneliness	FP	2		en			n
-kedsomhed	boredom	FP	3		en			n
-spænding	excitement / tension	FP	2		en			n
-ro	calm / peace and quiet	FP	2		en			n
-tillid	trust	FP	2		en			n
-mistillid	distrust	FP	3		en			n
-respekt	respect	FP	2		en			n
-tålmodighed	patience	FP	2		en			n
-utålmodighed	impatience	FP	3		en			n
-mod	courage	FP	2		et			n
-fejhed	cowardice	FP	3		en			n
+en studietur	a study trip	SL	3					n	studieturen|studieture	the study trip|study trips
+en ugeplan	a weekly plan	WJ	3					n	ugeplanen|ugeplaner	the weekly plan|weekly plans
+et kontorhus	an office building	WJ	4					n	kontorhuset|kontorhuse	the office building|office buildings
+et mødelokale	a meeting room	WJ	3					n	mødelokalet|mødelokaler	the meeting room|meeting rooms
+et opholdsrum	a lounge / common room	WJ	3					n	opholdsrummet	the lounge / the common room
+et skolefag	a school subject	SL	2					n	skolefaget	the school subject
+et studieår	an academic year	SL	3					n	studieåret	the academic year
+en køkkenchef	a head chef	WJ	3					n	køkkenchefen|køkkenchefer	the head chef|head chefs
+en kokkeelev	a chef apprentice	WJ	4					n	kokkeeleven|kokkeelever	the chef apprentice|chef apprentices
+en opvasker	a dishwasher (person)	WJ	4					n	opvaskeren|opvaskere	the dishwasher (person)|dishwashers (person)
+en barista	a barista	WJ	3					n	baristaen|baristaer	the barista|baristas
+en sommelier	a sommelier	WJ	4					n	sommelieren|sommelierer	the sommelier|sommeliers
+en hovmester	a head waiter	WJ	4					n	hovmesteren|hovmestre	the head waiter|head waiters
+vrede	anger	FP	2		en			n	vreden	the anger
+jalousi	jealousy	FP	2		en			n	jalousien	the jealousy
+skyld	guilt / fault	FP	2		en			n	skylden	the guilt / the fault
+skam	shame	FP	2		en			n	skammen	the shame
+stolthed	pride	FP	2		en			n	stoltheden	the pride
+medlidenhed	pity	FP	3		en			n	medlidenheden	the pity
+en overraskelse	a surprise	FP	2					n	overraskelsen|overraskelser	the surprise|surprises
+forvirring	confusion	FP	2		en			n	forvirringen	the confusion
+lettelse	relief	FP	2		en			n	lettelsen	the relief
+ensomhed	loneliness	FP	2		en			n	ensomheden	the loneliness
+kedsomhed	boredom	FP	3		en			n	kedsomheden	the boredom
+spænding	excitement / tension	FP	2		en			n	spændingen	the excitement / the tension
+ro	calm / peace and quiet	FP	2		en			n	roen	the calm / the peace and quiet
+tillid	trust	FP	2		en			n	tilliden	the trust
+mistillid	distrust	FP	3		en			n	mistilliden	the distrust
+respekt	respect	FP	2		en			n	respekten	the respect
+tålmodighed	patience	FP	2		en			n	tålmodigheden	the patience
+utålmodighed	impatience	FP	3		en			n	utålmodigheden	the impatience
+mod	against / toward / courage	FP	1		et			r	modet	the courage
+fejhed	cowardice	FP	3		en			n	fejheden	the cowardice
 generøsitet	generosity	FP	3		en			n
-gerrighed	greed	FP	3		en			n
-upålidelig	unreliable	FP	3					a
-pålidelig	reliable	FP	3					a
-doven	lazy	FP	2					a
-flittig	diligent	FP	2					a
-nysgerrig	curious	FP	2					a
+gerrighed	greed	FP	3		en			n	gerrigheden	the greed
+upålidelig	unreliable	FP	3					a	upålideligere|upålideligst	more unreliable|most unreliable
+pålidelig	reliable	FP	3					a	pålideligere|pålideligst	more reliable|most reliable
+doven	lazy	FP	2					a	dovnere|dovnest	lazier|laziest
+flittig	diligent	FP	2					a	flittigere|flittigst	more diligent|most diligent
+nysgerrig	curious	FP	2					a	nysgerrigere|nysgerrigst	more curious|most curious
 kreativ	creative	FP	2					a
 logisk	logical	FP	2					a
-fornuftig	sensible	FP	2					a
-stædig	stubborn	FP	2					a
+fornuftig	sensible	FP	2					a	fornuftigere|fornuftigst	more sensible|most sensible
+stædig	stubborn	FP	2					a	stædigere|stædigst	more stubborn|most stubborn
 fleksibel	flexible	FP	2					a
 sky	shy	FP	3					a
 udadvendt	outgoing	FP	2					a
 indadvendt	introverted	FP	3					a
-selvsikker	confident	FP	2					a
-ydmyg	humble	FP	3					a
+selvsikker	confident	FP	2					a	selvsikrere|selvsikrest	more confident|most confident
+ydmyg	humble	FP	3					a	ydmygere|ydmygest	humbler|humblest
 arrogant	arrogant	FP	3					a
 sympatisk	likeable	FP	2					a
 usympatisk	unlikeable	FP	3					a
 sarkastisk	sarcastic	FP	3					a
-seriøs	serious	FP	2					a
-munter	cheerful	FP	3					a
+seriøs	serious	FP	2					a	seriøsere|seriøsest	more serious|most serious
+munter	cheerful	FP	3					a	muntrere|muntrest	more cheerful|most cheerful
 gnaven	grumpy	FP	3					a
 optimistisk	optimistic	FP	2					a
 pessimistisk	pessimistic	FP	2					a
-hjælpsom	helpful	FP	2					a
-ansvarlig	responsible	FP	2					a
-uansvarlig	irresponsible	FP	3					a
-loyal	loyal	FP	3					a
-sensitiv	sensitive	FP	3					a
-rationel	rational	FP	3					a
-impulsiv	impulsive	FP	3					a
+hjælpsom	helpful	FP	2					a	hjælpsommere|hjælpsomst	more helpful|most helpful
+ansvarlig	responsible	FP	2					a	ansvarligere|ansvarligst	more responsible|most responsible
+uansvarlig	irresponsible	FP	3					a	uansvarligere|uansvarligst	more irresponsible|most irresponsible
+loyal	loyal	FP	3					a	loyalere|loyalest	loyaler|loyalest
+sensitiv	sensitive	FP	3					a	sensitivere|sensitivest	more sensitive|most sensitive
+rationel	rational	FP	3					a	rationellere|rationellest	more rational|most rational
+impulsiv	impulsive	FP	3					a	impulsivere|impulsivest	more impulsive|most impulsive
 energisk	energetic	FP	2					a
 målrettet	goal-oriented	FP	3					a
-tilfredshed	satisfaction	FP	4		en			n
-utilfredshed	dissatisfaction	FP	4		en			n
-flovhed	embarrassment	FP	4		en			n
-en frustration	a frustration	FP	2					n
-en irritation	an irritation	FP	3					n
+tilfredshed	satisfaction	FP	4		en			n	tilfredsheden	the satisfaction
+utilfredshed	dissatisfaction	FP	4		en			n	utilfredsheden	the dissatisfaction
+flovhed	embarrassment	FP	4		en			n	flovheden	the embarrassment
+en frustration	a frustration	FP	2					n	frustrationen|frustrationer	the frustration|frustrations
+en irritation	an irritation	FP	3					n	irritationen|irritationer	the irritation|irritations
 nervøsitet	nervousness	FP	4		en			n
-nysgerrighed	curiosity	FP	3		en			n
-taknemmelighed	gratitude	FP	3		en			n
-medfølelse	compassion	FP	3		en			n
-empati	empathy	FP	4		en			n
-afmagt	powerlessness	FP	4		en			n
-skyldfølelse	guilt / feeling of guilt	FP	4		en			n
+nysgerrighed	curiosity	FP	3		en			n	nysgerrigheden	the curiosity
+taknemmelighed	gratitude	FP	3		en			n	taknemmeligheden	the gratitude
+medfølelse	compassion	FP	3		en			n	medfølelsen	the compassion
+empati	empathy	FP	4		en			n	empatien	the empathy
+afmagt	powerlessness	FP	4		en			n	afmagten	the powerlessness
+skyldfølelse	guilt / feeling of guilt	FP	4		en			n	skyldfølelsen	the guilt / the feeling of guilt
 en følelse af lettelse	a sense of relief	FP	3					n
 overvældet	overwhelmed	FP	3					a
 ligeglad	indifferent	FP	2					a
 rørt	touched	FP	2					a
 chokeret	shocked	FP	2					a
 fortvivlet	desperate	FP	3					a
-generøs	generous	FP	2					a
-gerrig	stingy	FP	3					a
+generøs	generous	FP	2					a	generøsere|generøsest	more generous|most generous
+gerrig	stingy	FP	3					a	gerrigere|gerrigst	stingier|stingiest
 egoistisk	selfish	FP	2					a
 uselvisk	unselfish	FP	3					a
-modig	brave	FP	2					a
-fej	cowardly	FP	3					a
-ambitiøs	ambitious	FP	2					a
-følsom	sensitive	FP	2					a
+modig	brave	FP	2					a	modigere|modigst	braver|bravest
+fej	cowardly	FP	3					a	fejere|fejest	more cowardly|most cowardly
+ambitiøs	ambitious	FP	2					a	ambitiøsere|ambitiøsest	more ambitious|most ambitious
+følsom	sensitive	FP	2					a	følsommere|følsomst	more sensitive|most sensitive
 hårdhudet	thick-skinned	FP	4					a
 beskeden	modest	FP	2					a
 charmerende	charming	FP	2					a
 irriterende	annoying	FP	2					a
 spontan	spontaneous	FP	2					a
-forsigtig	cautious	FP	2					a
-skødesløs	careless	FP	4					a
-en idiot	an idiot	FP	2					n
-et fjols	a fool	FP	3					n
-en fornøjelse	a pleasure	FP	2					n
-et mareridt	a nightmare	FP	2					n
-panik	panic	FP	2		en			n
-en løgner	a liar	FP	2					n
-vanvid	madness	FP	3		et			n
-et geni	a genius	FP	2					n
-opførsel	behavior	FP	2		en			n
+forsigtig	cautious	FP	2					a	forsigtigere|forsigtigst	more cautious|most cautious
+skødesløs	careless	FP	4					a	skødesløsere|skødesløsest	more careless|most careless
+en idiot	an idiot	FP	2					n	idioten|idioter	the idiot|idiots
+et fjols	a fool	FP	3					n	fjolset|fjolser	the fool|fools
+en fornøjelse	a pleasure	FP	2					n	fornøjelsen|fornøjelser	the pleasure|pleasures
+et mareridt	a nightmare	FP	2					n	mareridtet	the nightmare
+panik	panic	FP	2		en			n	panikken	the panic
+en løgner	a liar	FP	2					n	løgneren|løgnere	the liar|liars
+vanvid	madness	FP	3		et			n	vanviddet	the madness
+et geni	a genius	FP	2					n	geniet|genier	the genius|geniuses
+opførsel	behavior	FP	2		en			n	opførslen	the behavior
 knust	crushed / heartbroken	FP	2					a
-urolig	uneasy / restless	FP	2					a
+urolig	uneasy / restless	FP	2					a	uroligere|uroligst	more uneasy / more restless|most uneasy / most restless
 skuffet	disappointed	FP	2					a
-pinlig	embarrassing	FP	2					a
+pinlig	embarrassing	FP	2					a	pinligere|pinligst	more embarrassing|most embarrassing
 desperat	desperate	FP	2					a
-en fornemmelse	a feeling / sense	FP	2					n
+en fornemmelse	a feeling / sense	FP	2					n	fornemmelsen|fornemmelser	the feeling / the sense|feelings / senses
 imponeret	impressed	FP	2					a
-taknemmelig	grateful	FP	2					a
-had	hatred	FP	2		et			n
-et chok	a shock	FP	2					n
-en kujon	a coward	FP	4					n
-ærgerlig	annoying / a shame	FP	2					a
+taknemmelig	grateful	FP	2					a	taknemmeligere|taknemmeligst	more grateful|most grateful
+had	hatred	FP	2		et			n	hadet	the hatred
+et chok	a shock	FP	2					n	chokket	the shock
+en kujon	a coward	FP	4					n	kujonen|kujone	the coward|cowards
+ærgerlig	annoying / a shame	FP	2					a	ærgerligere|ærgerligst	more annoying / more a shame|most annoying / most a shame
 rasende	furious	FP	2					a
-en psykopat	a psychopath	FP	3					n
+en psykopat	a psychopath	FP	3					n	psykopaten|psykopater	the psychopath|psychopaths
 skræmt	scared	FP	2					a
-en svaghed	a weakness	FP	3					n
-fræk	cheeky / naughty	FP	2					a
-en galning	a madman	FP	4					n
-flov	embarrassed	FP	2					a
-paranoid	paranoid	FP	3					a
-trøst	comfort / consolation	FP	2		en			n
-humor	humor	FP	2		en			n
-tryg	safe / secure	FP	2					a
-ulykkelig	unhappy	FP	2					a
+en svaghed	a weakness	FP	3					n	svagheden|svagheder	the weakness|weaknesses
+fræk	cheeky / naughty	FP	2					a	frækkere|frækkest	cheekier / naughtier|cheekiest / naughtiest
+en galning	a madman	FP	4					n	galningen|galninge	the madman|madmen
+flov	embarrassed	FP	2					a	flovere|flovest	more embarrassed|most embarrassed
+paranoid	paranoid	FP	3					a	paranoidere|paranoidest	more paranoid|most paranoid
+trøst	comfort / consolation	FP	2		en			n	trøsten	the comfort / the consolation
+humor	humor	FP	2		en			n	humoren	the humor
+tryg	safe / secure	FP	2					a	tryggere|tryggest	safer / more secure|safest / most secure
+ulykkelig	unhappy	FP	2					a	ulykkeligere|ulykkeligst	more unhappy|most unhappy
 oprevet	upset	FP	3					a
 genert	shy	FP	2					a
 rystet	shaken	FP	3					a
 lettet	relieved	FP	2					a
 afslappet	relaxed	FP	2					a
 deprimeret	depressed	FP	3					a
-en stakkel	a poor thing	FP	3					n
-en personlighed	a personality	FP	2					n
-en tåbe	a fool	FP	4					n
-en nørd	a nerd	FP	2					n
-sørgelig	sad / pathetic	FP	3					a
+en stakkel	a poor thing	FP	3					n	staklen|stakler	the poor thing|poor things
+en personlighed	a personality	FP	2					n	personligheden|personligheder	the personality|personalities
+en tåbe	a fool	FP	4					n	tåben|tåber	the fool|fools
+en nørd	a nerd	FP	2					n	nørden|nørder	the nerd|nerds
+sørgelig	sad / pathetic	FP	3					a	sørgeligere|sørgeligst	sadder / more pathetic|saddest / most pathetic
 udmattet	exhausted	FP	3					a
-kærlig	loving / affectionate	FP	2					a
+kærlig	loving / affectionate	FP	2					a	kærligere|kærligst	more loving / more affectionate|most loving / most affectionate
 anspændt	tense	FP	3					a
 tiltrukket	attracted	FP	3					a
 ophidset	agitated / excited	FP	3					a
-lidenskab	passion	FP	3		en			n
+lidenskab	passion	FP	3		en			n	lidenskaben	the passion
 akavet	awkward	FP	3					a
-sårbar	vulnerable	FP	3					a
-selvtillid	self-confidence	FP	2		en			n
+sårbar	vulnerable	FP	3					a	sårbarere|sårbarest	more vulnerable|most vulnerable
+selvtillid	self-confidence	FP	2		en			n	selvtilliden	the self-confidence
 fornærmet	offended	FP	3					a
-ivrig	eager	FP	3					a
+ivrig	eager	FP	3					a	ivrigere|ivrigst	more eager|most eager
 uforskammet	rude / impertinent	FP	3					a
-høflig	polite	FP	2					a
-ærlighed	honesty	FP	2		en			n
-et ego	an ego	FP	3					n
+høflig	polite	FP	2					a	høfligere|høfligst	more polite|most polite
+ærlighed	honesty	FP	2		en			n	ærligheden	the honesty
+et ego	an ego	FP	3					n	egoet|egoer	the ego|egoes
 oprørt	upset	FP	3					a
-charme	charm	FP	2		en			n
-misundelig	envious	FP	2					a
-troskab	loyalty	FP	4		en			n
-håbløs	hopeless	FP	3					a
-venlighed	kindness	FP	2		en			n
-begær	desire / lust	FP	4		et			n
-sympati	sympathy	FP	3		en			n
+charme	charm	FP	2		en			n	charmen	the charm
+misundelig	envious	FP	2					a	misundeligere|misundeligst	more envious|most envious
+troskab	loyalty	FP	4		en			n	troskaben	the loyalty
+håbløs	hopeless	FP	3					a	håbløsere|håbløsest	more hopeless|most hopeless
+venlighed	kindness	FP	2		en			n	venligheden	the kindness
+begær	desire / lust	FP	4		et			n	begæret	the desire / the lust
+sympati	sympathy	FP	3		en			n	sympatien	the sympathy
 inspireret	inspired	FP	3					a
-aggressiv	aggressive	FP	2					a
+aggressiv	aggressive	FP	2					a	aggressivere|aggressivest	more aggressive|most aggressive
 deprimerende	depressing	FP	3					a
 beæret	honored	FP	3					a
-tiltro	confidence / trust	FP	4		en			n
-en attitude	an attitude	FP	3					n
+tiltro	confidence / trust	FP	4		en			n	tiltroen	the confidence / the trust
+en attitude	an attitude	FP	3					n	attituden|attituder	the attitude|attitudes
 distraheret	distracted	FP	3					a
-et temperament	a temper / temperament	FP	3					n
+et temperament	a temper / temperament	FP	3					n	temperamentet|temperamenter	the temper / the temperament|tempers / temperaments
 rørende	touching / moving	FP	3					a
 smigret	flattered	FP	3					a
-galskab	madness	FP	3		en			n
-en trang	an urge	FP	3					n
-en stemning	a mood / atmosphere	FP	2					n
-skræk	fear / terror	FP	2		en			n
-godhed	goodness	FP	3		en			n
+galskab	madness	FP	3		en			n	galskaben	the madness
+en trang	an urge	FP	3					n	trangen	the urge
+en stemning	a mood / atmosphere	FP	2					n	stemningen|stemninger	the mood / the atmosphere|moods / atmospheres
+skræk	fear / terror	FP	2		en			n	skrækken	the fear / the terror
+godhed	goodness	FP	3		en			n	godheden	the goodness
 hysterisk	hysterical	FP	3					a
-uartig	naughty	FP	3					a
-en fornærmelse	an insult	FP	3					n
-anger	remorse	FP	4		en			n
-lykke	happiness	FP	2		en			n
-misundelse	envy	FP	3		en			n
-en egenskab	a quality / trait	FP	3					n
-et humør	a mood	FP	2					n
+uartig	naughty	FP	3					a	uartigere|uartigst	naughtier|naughtiest
+en fornærmelse	an insult	FP	3					n	fornærmelsen|fornærmelser	the insult|insults
+anger	remorse	FP	4		en			n	angeren	the remorse
+lykke	happiness	FP	2		en			n	lykken	the happiness
+misundelse	envy	FP	3		en			n	misundelsen	the envy
+en egenskab	a quality / trait	FP	3					n	egenskaben|egenskaber	the quality / the trait|qualities / traits
+et humør	a mood	FP	2					n	humøret	the mood
 irriteret	irritated	FP	2					a
 frustreret	frustrated	FP	2					a
 stresset	stressed	FP	2					a
 træt af	tired of / fed up with	FP	2					f
-forventningsfuld	expectant	FP	4					a
+forventningsfuld	expectant	FP	4					a	forventningsfuldere|forventningsfuldest	more expectant|most expectant
 forskrækket	startled	FP	3					a
 rædselsslagen	terrified	FP	4					a
-modløs	discouraged	FP	4					a
-uvenlig	unfriendly	FP	2					a
-gavmild	generous	FP	3					a
-nærig	stingy	FP	3					a
-grådig	greedy	FP	3					a
+modløs	discouraged	FP	4					a	modløsere|modløsest	more discouraged|most discouraged
+uvenlig	unfriendly	FP	2					a	uvenligere|uvenligst	more unfriendly|most unfriendly
+gavmild	generous	FP	3					a	gavmildere|gavmildest	more generous|most generous
+nærig	stingy	FP	3					a	nærigere|nærigst	stingier|stingiest
+grådig	greedy	FP	3					a	grådigere|grådigst	greedier|greediest
 selvglad	smug / conceited	FP	4					a
-hidsig	hot-tempered	FP	3					a
-social	social	FP	2					a
+hidsig	hot-tempered	FP	3					a	hidsigere|hidsigst	more hot-tempered|most hot-tempered
+social	social	FP	2					a	socialere|socialest	more social|most social
 humoristisk	humorous	FP	3					a
-omsorgsfuld	caring	FP	3					a
-hensynsfuld	considerate	FP	3					a
-punktlig	punctual	FP	3					a
+omsorgsfuld	caring	FP	3					a	omsorgsfuldere|omsorgsfuldest	more caring|most caring
+hensynsfuld	considerate	FP	3					a	hensynsfuldere|hensynsfuldest	more considerate|most considerate
+punktlig	punctual	FP	3					a	punktligere|punktligst	more punctual|most punctual
 organiseret	organized	FP	2					a
 at føle sig	to feel (a certain way)	FP	2	føler sig|følte sig|følt sig		jeg føler mig|jeg følte mig|jeg har følt mig	I feel (a certain way)|I felt (a certain way)|I have felt (a certain way)	v
 at glæde sig til	to look forward to	FP	2	glæder sig til|glædede sig til|glædet sig til		jeg glæder mig til|jeg glædede mig til|jeg har glædet mig til	I look forward to|I looked forward to|I have looked forward to	v
@@ -7555,154 +7558,154 @@ at blive forelsket	to fall in love	FP	2	bliver forelsket|blev forelsket|blevet f
 at forskrække	to frighten	FP	4	forskrækker|forskrækkede|forskrækket		jeg forskrækker|jeg forskrækkede|jeg har forskrækket	I frighten|I frightened|I have frightened	v
 at glæde	to please / delight	FP	3	glæder|glædede|glædet		jeg glæder|jeg glædede|jeg har glædet	I please / delight|I pleased / delighted|I have pleased / delighted	v
 at ærgre sig	to be annoyed	FP	2	ærgrer sig|ærgrede sig|ærgret sig		jeg ærgrer mig|jeg ærgrede mig|jeg har ærgret mig	I am annoyed|I was annoyed|I have been annoyed	v
-en opmuntring	an encouragement	FP	3					n
+en opmuntring	an encouragement	FP	3					n	opmuntringen|opmuntringer	the encouragement|encouragements
 forelsket	in love	FP	2					a
-en følelse	a feeling	FP	2					n
-hygge	coziness / hygge	FP	2		en			n
+en følelse	a feeling	FP	2					n	følelsen|følelser	the feeling|feelings
+hygge	coziness / hygge	FP	2		en			n	hyggen	the coziness / the hygge
 jaloux	jealous	FP	2					a
-lykkelig	happy	FP	2					a
+lykkelig	happy	FP	2					a	lykkeligere|lykkeligst	happier|happiest
 trist	sad	FP	1					a
-træls	annoying (Jutland slang)	FP	3					a
+træls	annoying (Jutland slang)	FP	3					a	trælsere|trælsest	more annoying (Jutland slang)|most annoying (Jutland slang)
 forbavset	astonished	FP	3					a
 forbløffet	amazed	FP	4					a
 misfornøjet	dissatisfied	FP	3					a
 nedtrykt	depressed / down	FP	3					a
-skamfuld	ashamed	FP	3					a
-sørgmodig	sorrowful	FP	4					a
-utilfreds	dissatisfied	FP	2					a
-vemodig	wistful / melancholic	FP	4					a
-en forkærlighed	a fondness / preference	FP	4					n
-adfærd	behavior	FP	3		en			n
-gavmildhed	generosity	FP	4		en			n
-livsglæde	joy of life / zest for life	FP	3		en			n
-en skjorte	a shirt	CS	1					n
+skamfuld	ashamed	FP	3					a	skamfuldere|skamfuldest	more ashamed|most ashamed
+sørgmodig	sorrowful	FP	4					a	sørgmodigere|sørgmodigst	more sorrowful|most sorrowful
+utilfreds	dissatisfied	FP	2					a	utilfredsere|utilfredsest	more dissatisfied|most dissatisfied
+vemodig	wistful / melancholic	FP	4					a	vemodigere|vemodigst	more wistful / more melancholic|most wistful / most melancholic
+en forkærlighed	a fondness / preference	FP	4					n	forkærligheden	the fondness / the preference
+adfærd	behavior	FP	3		en			n	adfærden	the behavior
+gavmildhed	generosity	FP	4		en			n	gavmildheden	the generosity
+livsglæde	joy of life / zest for life	FP	3		en			n	livsglæden	the joy of life / the zest for life
+en skjorte	a shirt	CS	1					n	skjorten|skjorter	the shirt|shirts
 en t-shirt	a t-shirt	CS	1					n
-en bluse	a blouse	CS	2					n
+en bluse	a blouse	CS	2					n	blusen|bluser	the blouse|blouses
 bukser	pants	CS	1					n
 et par jeans	a pair of jeans	CS	2					n
-en nederdel	a skirt	CS	2					n
-en kjole	a dress	CS	1					n
-en jakke	a jacket	CS	1					n
-en frakke	a coat	CS	1					n
-en sweater	a sweater	CS	1					n
-en trøje	a sweater / jumper	CS	1					n
+en nederdel	a skirt	CS	2					n	nederdelen|nederdele	the skirt|skirts
+en kjole	a dress	CS	1					n	kjolen|kjoler	the dress|dresses
+en jakke	a jacket	CS	1					n	jakken|jakker	the jacket|jackets
+en frakke	a coat	CS	1					n	frakken|frakker	the coat|coats
+en sweater	a sweater	CS	1					n	sweateren|sweatre	the sweater|sweaters
+en trøje	a sweater / jumper	CS	1					n	trøjen|trøjer	the sweater / the jumper|sweaters / jumpers
 underbukser	underwear	CS	2					n
 en bh	a bra	CS	2					n
-sokker	socks	CS	1					n
-sko	shoes	CS	1					n
-støvler	boots	CS	2					n
-sandaler	sandals	CS	2					n
-en hue	a beanie	CS	1					n
-en hat	a hat	CS	1					n
+sokker	socks	CS	1					n	sokkeren	the socks
+sko	shoes	CS	1					n	skoen	the shoes
+støvler	boots	CS	2					n	støvleret	the boots
+sandaler	sandals	CS	2					n	sandaleren	the sandals
+en hue	a beanie	CS	1					n	huen|huer	the beanie|beanies
+en hat	a hat	CS	1					n	hatten|hatte	the hat|hats
 handsker	gloves	CS	2					n
-et tørklæde	a scarf	CS	2					n
-et bælte	a belt	CS	2					n
-et slips	a tie	CS	2					n
-en pyjamas	a pair of pajamas	CS	2					n
-badetøj	swimwear	CS	2		et			n
-en regnjakke	a rain jacket	CS	2					n
-en størrelse	a size	CS	1					n
-en farve	a color	CO	1					n
-et stof	a fabric	CS	2					n
-et mønster	a pattern	CS	2					n
-mode	fashion	CS	2					n
-en stil	a style	CS	2					n
-et smykke	a piece of jewelry	CS	2					n
-en ring	a ring	CS	2					n
-en halskæde	a necklace	CS	2					n
-et armbånd	a bracelet	CS	2					n
+et tørklæde	a scarf	CS	2					n	tørklædet|tørklæder	the scarf|scarves
+et bælte	a belt	CS	2					n	bæltet|bælter	the belt|belts
+et slips	a tie	CS	2					n	slipset|slips	the tie|ties
+en pyjamas	a pair of pajamas	CS	2					n	pyjamassen|pyjamasser	the pair of pajamas|pairs of pajamas
+badetøj	swimwear	CS	2		et			n	badetøjet	the swimwear
+en regnjakke	a rain jacket	CS	2					n	regnjakken|regnjakker	the rain jacket|rain jackets
+en størrelse	a size	CS	1					n	størrelsen|størrelser	the size|sizes
+en farve	a color	CO	1					n	farven|farver	the color|colors
+et stof	a fabric	CS	2					n	stoffet|stoffer	the fabric|fabrics
+et mønster	a pattern	CS	2					n	mønstret|mønstre	the pattern|patterns
+mode	fashion	CS	2					n	moden	the fashion
+en stil	a style	CS	2					n	stilen|stile	the style|styles
+et smykke	a piece of jewelry	CS	2					n	smykket|smykker	the piece of jewelry|pieces of jewelry
+en ring	a ring	CS	2					n	ringen|ringe	the ring|rings
+en halskæde	a necklace	CS	2					n	halskæden|halskæder	the necklace|necklaces
+et armbånd	a bracelet	CS	2					n	armbåndet	the bracelet
 øreringe	earrings	CS	2					n
-en pung	a wallet	CS	2					n
-et prøverum	a fitting room	CS	2					n
-en kvittering	a receipt	CS	2					n
-et tilbud	an offer / deal	CS	2					n
-et udsalg	a sale	CS	2					n
-en rabat	a discount	CS	2					n
-et medlemskab	a membership	CS	3					n
-en betaling	a payment	CS	2					n
+en pung	a wallet	CS	2					n	pungen|punge	the wallet|wallets
+et prøverum	a fitting room	CS	2					n	prøverummet	the fitting room
+en kvittering	a receipt	CS	2					n	kvitteringen|kvitteringer	the receipt|receipts
+et tilbud	an offer / deal	CS	2					n	tilbuddet	the offer / the deal
+et udsalg	a sale	CS	2					n	udsalget	the sale
+en rabat	a discount	CS	2					n	rabatten|rabatter	the discount|discounts
+et medlemskab	a membership	CS	3					n	medlemskabet|medlemskaber	the membership|memberships
+en betaling	a payment	CS	2					n	betalingen|betalinger	the payment|payments
 kontant	cash	CS	2					d
-et betalingskort	a payment card	CS	2					n
+et betalingskort	a payment card	CS	2					n	betalingskortet	the payment card
 byttepenge	change (money)	CS	2					n
 at returnere	to return an item	CS	2	returnerer|returnerede|returneret		jeg returnerer|jeg returnerede|jeg har returneret	I return an item|I returned an item|I have returned an item	v
 at bytte	to exchange	CS	2	bytter|byttede|byttet		jeg bytter|jeg byttede|jeg har byttet	I exchange|I exchanged|I have exchanged	v
-en ekspedient	a shop assistant	CS	2					n
-et indkøbscenter	a shopping mall	TS	2					n
-et stormagasin	a department store	CS	3					n
+en ekspedient	a shop assistant	CS	2					n	ekspedienten|ekspedienter	the shop assistant|shop assistants
+et indkøbscenter	a shopping mall	TS	2					n	indkøbscentret|indkøbscentre	the shopping mall|shopping malls
+et stormagasin	a department store	CS	3					n	stormagasinet|stormagasiner	the department store|department stores
 gratis	free (no cost)	CS	1					d
-en kasse	a box / checkout	CS	2					n
-et jakkesæt	a suit (clothing)	CS	2					n
-en uniform	a uniform	CS	2					n
-en lomme	a pocket	CS	2					n
-undertøj	underwear	CS	2		et			n
-en dragt	a suit / costume	CS	3					n
-en knap	a button	CS	2					n
-uld	wool	CS	2		en			n
-en parfume	a perfume	CS	2					n
-en tegnebog	a wallet	CS	2					n
-makeup	makeup	CS	2		en			n
-en kappe	a cloak / robe	CS	3					n
-en læbestift	a lipstick	CS	2					n
-luksus	luxury	CS	2		en			n
-en pels	a fur (coat)	CS	3					n
-en levering	a delivery	CS	2					n
+en kasse	a box / checkout	CS	2					n	kassen|kasser	the box / the checkout|boxes / checkouts
+et jakkesæt	a suit (clothing)	CS	2					n	jakkesætt	the suit (clothing)
+en uniform	a uniform	CS	2					n	uniformen|uniformer	the uniform|uniforms
+en lomme	a pocket	CS	2					n	lommen|lommer	the pocket|pockets
+undertøj	underwear	CS	2		et			n	undertøjet	the underwear
+en dragt	a suit / costume	CS	3					n	dragten|dragter	the suit / the costume|suits / costumes
+en knap	a button	CS	2					n	knappen|knapper	the button|buttons
+uld	wool	CS	2		en			n	ulden	the wool
+en parfume	a perfume	CS	2					n	parfumen|parfumer	the perfume|perfumes
+en tegnebog	a wallet	CS	2					n	tegnebogen|tegnebøger	the wallet|wallets
+makeup	makeup	CS	2		en			n	makeuppen	the makeup
+en kappe	a cloak / robe	CS	3					n	kappen|kapper	the cloak / the robe|cloaks / robes
+en læbestift	a lipstick	CS	2					n	læbestiften|læbestifter	the lipstick|lipsticks
+luksus	luxury	CS	2		en			n	luksussen	the luxury
+en pels	a fur (coat)	CS	3					n	pelsen|pelse	the fur (coat)|furs (coat)
+en levering	a delivery	CS	2					n	leveringen|leveringer	the delivery|deliveries
 shorts	shorts	CS	1		pl			n
-en vinterjakke	a winter jacket	CS	2					n
-en vest	a vest	CS	2					n
-en hættetrøje	a hoodie	CS	2					n
-en cardigan	a cardigan	CS	2					n
-en polo	a polo shirt	CS	2					n
-en top	a top	CS	2					n
-en undertrøje	an undershirt	CS	3					n
+en vinterjakke	a winter jacket	CS	2					n	vinterjakken|vinterjakker	the winter jacket|winter jackets
+en vest	a vest	CS	2					n	vesten|veste	the vest|vests
+en hættetrøje	a hoodie	CS	2					n	hættetrøjen|hættetrøjer	the hoodie|hoodies
+en cardigan	a cardigan	CS	2					n	cardiganen|cardiganer	the cardigan|cardigans
+en polo	a polo shirt	CS	2					n	poloen|poloer	the polo shirt|polo shirts
+en top	a top	CS	2					n	toppen|toppe	the top|tops
+en undertrøje	an undershirt	CS	3					n	undertrøjen|undertrøjer	the undershirt|undershirts
 trusser	panties / briefs	CS	2		pl			n
 strømpebukser	tights	CS	2		pl			n
-en strømpe	a stocking / sock	CS	2					n
+en strømpe	a stocking / sock	CS	2					n	strømpen|strømper	the stocking / the sock|stockings / socks
 leggings	leggings	CS	2		pl			n
-en badedragt	a swimsuit	CS	2					n
+en badedragt	a swimsuit	CS	2					n	badedragten|badedragter	the swimsuit|swimsuits
 badebukser	swim trunks	CS	2		pl			n
-en bikini	a bikini	CS	2					n
-en morgenkåbe	a bathrobe	CS	3					n
-en kasket	a cap	CS	2					n
-en vante	a mitten	CS	3					n
-en handske	a glove	CS	2					n
-en sko	a shoe	CS	1					n
-en støvle	a boot	CS	2					n
-en gummistøvle	a rubber boot	CS	2					n
+en bikini	a bikini	CS	2					n	bikinien|bikinier	the bikini|bikinis
+en morgenkåbe	a bathrobe	CS	3					n	morgenkåben|morgenkåber	the bathrobe|bathrobes
+en kasket	a cap	CS	2					n	kasketten|kasketter	the cap|caps
+en vante	a mitten	CS	3					n	vanten|vanter	the mitten|mittens
+en handske	a glove	CS	2					n	handsken|handsker	the glove|gloves
+en sko	a shoe	CS	1					n	skoen	the shoe
+en støvle	a boot	CS	2					n	støvlen|støvler	the boot|boots
+en gummistøvle	a rubber boot	CS	2					n	gummistøvlen|gummistøvler	the rubber boot|rubber boots
 en sneaker	a sneaker	CS	2					n
-en hjemmesko	a slipper	CS	2					n
-en sandal	a sandal	CS	2					n
-en lynlås	a zipper	CS	3					n
-et ærme	a sleeve	CS	2					n
-en krave	a collar	CS	3					n
-et snørebånd	a shoelace	CS	3					n
-en håndtaske	a handbag	CS	2					n
-et armbåndsur	a wristwatch	CS	3					n
+en hjemmesko	a slipper	CS	2					n	hjemmeskoen	the slipper
+en sandal	a sandal	CS	2					n	sandalen|sandaler	the sandal|sandals
+en lynlås	a zipper	CS	3					n	lynlåsen|lynlåse	the zipper|zippers
+et ærme	a sleeve	CS	2					n	ærmet|ærmer	the sleeve|sleeves
+en krave	a collar	CS	3					n	kraven|kraver	the collar|collars
+et snørebånd	a shoelace	CS	3					n	snørebåndet	the shoelace
+en håndtaske	a handbag	CS	2					n	håndtasken|håndtasker	the handbag|handbags
+et armbåndsur	a wristwatch	CS	3					n	armbåndsuret|armbåndsure	the wristwatch|wristwatches
 solbriller	sunglasses	CS	2		pl			n
-en ørering	an earring	CS	2					n
-bomuld	cotton	CS	3		en			n
-silke	silk	CS	2		en			n
-læder	leather	CS	2		et			n
-denim	denim	CS	3		en			n
-polyester	polyester	CS	3		en			n
-et mærke	a brand / mark	CS	2					n
-en tøjbutik	a clothing store	CS	2					n
-en skobutik	a shoe store	CS	2					n
-en kiosk	a kiosk / convenience store	TS	2					n
-et loppemarked	a flea market	CS	2					n
-en genbrugsbutik	a secondhand shop	CS	2					n
-en webshop	an online store	CS	2					n
-en indkøbskurv	a shopping basket	CS	2					n
-en indkøbsvogn	a shopping cart	CS	2					n
-en selvbetjeningskasse	a self-checkout	CS	3					n
-et prisskilt	a price tag	CS	3					n
-en returret	a right of return	CS	4					n
-en bytteseddel	a gift receipt	CS	3					n
-et gavekort	a gift card	CS	2					n
+en ørering	an earring	CS	2					n	øreringen|øreringe	the earring|earrings
+bomuld	cotton	CS	3		en			n	bomulden	the cotton
+silke	silk	CS	2		en			n	silken	the silk
+læder	leather	CS	2		et			n	læderet	the leather
+denim	denim	CS	3		en			n	denimmen	the denim
+polyester	polyester	CS	3		en			n	polyesteren	the polyester
+et mærke	a brand / mark	CS	2					n	mærket|mærker	the brand / the mark|brands / marks
+en tøjbutik	a clothing store	CS	2					n	tøjbutikken|tøjbutikker	the clothing store|clothing stores
+en skobutik	a shoe store	CS	2					n	skobutikken|skobutikker	the shoe store|shoe stores
+en kiosk	a kiosk / convenience store	TS	2					n	kiosken|kiosker	the kiosk / the convenience store|kiosks / convenience stores
+et loppemarked	a flea market	CS	2					n	loppemarkedet|loppemarkeder	the flea market|flea markets
+en genbrugsbutik	a secondhand shop	CS	2					n	genbrugsbutikken|genbrugsbutikker	the secondhand shop|secondhand shops
+en webshop	an online store	CS	2					n	webshoppen|webshopper	the online store|online stores
+en indkøbskurv	a shopping basket	CS	2					n	indkøbskurven|indkøbskurve	the shopping basket|shopping baskets
+en indkøbsvogn	a shopping cart	CS	2					n	indkøbsvognen|indkøbsvogne	the shopping cart|shopping carts
+en selvbetjeningskasse	a self-checkout	CS	3					n	selvbetjeningskassen|selvbetjeningskasser	the self-checkout|self-checkouts
+et prisskilt	a price tag	CS	3					n	prisskiltet|prisskilte	the price tag|price tags
+en returret	a right of return	CS	4					n	returretten	the right of return
+en bytteseddel	a gift receipt	CS	3					n	byttesedlen|byttesedler	the gift receipt|gift receipts
+et gavekort	a gift card	CS	2					n	gavekortet	the gift card
 pant	deposit (on bottles)	CS	2		en			n
 åbningstider	opening hours	CS	2		pl			n
 at shoppe	to shop	CS	2	shopper|shoppede|shoppet		jeg shopper|jeg shoppede|jeg har shoppet	I shop|I shopped|I have shopped	v
 at prøve tøj	to try on clothes	CS	2	prøver tøj|prøvede tøj|prøvet tøj		jeg prøver tøj|jeg prøvede tøj|jeg har prøvet tøj	I try on clothes|I tried on clothes|I have tried on clothes	v
 at tage af	to take off	CS	2	tager af|tog af|taget af		jeg tager af|jeg tog af|jeg har taget af	I take off|I took off|I have taken off	v
-at have på	to wear	CS	2	har på|havde på|haft på		jeg har på|jeg havde på|jeg har haft på	I wear|I wore|I have worn	v
+at have på	to wear	CS	1	har på|havde på|haft på		jeg har på|jeg havde på|jeg har haft på	I wear|I wore|I have worn	v
 at skifte tøj	to change clothes	CS	2	skifter tøj|skiftede tøj|skiftet tøj		jeg skifter tøj|jeg skiftede tøj|jeg har skiftet tøj	I change clothes|I changed clothes|I have changed clothes	v
 at knappe	to button	CS	3	knapper|knappede|knappet		jeg knapper|jeg knappede|jeg har knappet	I button|I buttoned|I have buttoned	v
 at lyne op	to unzip	CS	3	lyner op|lynede op|lynet op		jeg lyner op|jeg lynede op|jeg har lynet op	I unzip|I unzipped|I have unzipped	v
@@ -7712,228 +7715,228 @@ at betale med kort	to pay by card	CS	2	betaler med kort|betalte med kort|betalt 
 at købe ind	to buy groceries	CS	2	køber ind|købte ind|købt ind		jeg køber ind|jeg købte ind|jeg har købt ind	I buy groceries|I bought groceries|I have bought groceries	v
 udsolgt	sold out	CS	2					a
 på tilbud	on sale	CS	2					d
-moderigtig	fashionable	CS	3					a
+moderigtig	fashionable	CS	3					a	moderigtigere|moderigtigst	more fashionable|most fashionable
 prikket	polka-dotted	CS	3					a
 brugt	used / secondhand	CS	2					a
-en bestilling	an order	CS	2					n
-regntøj	rain gear	CS	2		et			n
-en flyverdragt	a snowsuit	CS	3					n
-en halsedisse	a neck warmer	CS	4					n
-en bæltetaske	a fanny pack	CS	4					n
-en skuldertaske	a shoulder bag	CS	3					n
-en tøjbøjle	a clothes hanger	CS	3					n
-en dagligvare	a grocery item	CS	3					n
+en bestilling	an order	CS	2					n	bestillingen|bestillinger	the order|orders
+regntøj	rain gear	CS	2		et			n	regntøjet	the rain gear
+en flyverdragt	a snowsuit	CS	3					n	flyverdragten|flyverdragter	the snowsuit|snowsuits
+en halsedisse	a neck warmer	CS	4					n	halsedissen|halsedisser	the neck warmer|neck warmers
+en bæltetaske	a fanny pack	CS	4					n	bæltetasken|bæltetasker	the fanny pack|fanny packs
+en skuldertaske	a shoulder bag	CS	3					n	skuldertasken|skuldertasker	the shoulder bag|shoulder bags
+en tøjbøjle	a clothes hanger	CS	3					n	tøjbøjlen|tøjbøjler	the clothes hanger|clothes hangers
+en dagligvare	a grocery item	CS	3					n	dagligvaren|dagligvarer	the grocery item|grocery items
 dagligvarer	groceries	CS	2		pl			n
 frostvarer	frozen foods	CS	3		pl			n
-en tilbudsavis	a flyer with offers	CS	3					n
-en pantautomat	a bottle return machine	CS	3					n
-en pantbon	a deposit receipt	CS	4					n
-et bonuskort	a loyalty card	CS	3					n
-en bon	a receipt	CS	2					n
+en tilbudsavis	a flyer with offers	CS	3					n	tilbudsavisen|tilbudsaviser	the flyer with offers|flyers with offers
+en pantautomat	a bottle return machine	CS	3					n	pantautomaten|pantautomater	the bottle return machine|bottle return machines
+en pantbon	a deposit receipt	CS	4					n	pantbonen|pantboner	the deposit receipt|deposit receipts
+et bonuskort	a loyalty card	CS	3					n	bonuskortet	the loyalty card
+en bon	a receipt	CS	2					n	bonen|boner	the receipt|receipts
 en butiksansat	a store employee	CS	3					n
-en varedeklaration	a list of ingredients / product label	CS	4					n
-en holdbarhedsdato	a best-before date	CS	3					n
+en varedeklaration	a list of ingredients / product label	CS	4					n	varedeklarationen|varedeklarationer	the list of ingredients / the product label|lists of ingredients / product labels
+en holdbarhedsdato	a best-before date	CS	3					n	holdbarhedsdatoen|holdbarhedsdatoer	the best-before date|best-before dates
 bedst før	best before	FD	2					d
-en boghandel	a bookstore	CS	2					n
-creme	cream (lotion)	CS	2		en			n
-en diamant	a diamond	CS	3					n
-en sok	a sock	CS	1					n
-et supermarked	a supermarket	TS	1					n
-en ekspedition	a service / transaction	CS	4					n
-en skranke	a counter	CS	3					n
-et kønummer	a queue number	CS	3					n
-en åbningsdag	an opening day	CS	3					n
-en lukkedag	a closing day	CS	3					n
-et renseri	a dry cleaner's	TS	3					n
-en optikerforretning	an optician's shop	CS	4					n
-en blomsterhandler	a florist	CS	3					n
-en boghandler	a bookseller	CS	3					n
-en isenkræmmer	a hardware dealer	CS	3					n
-et byggemarked	a DIY store	CS	3					n
-en møbelforretning	a furniture store	CS	3					n
-en elektronikbutik	an electronics store	CS	3					n
-en legetøjsbutik	a toy store	CS	3					n
-en sportsforretning	a sports store	CS	3					n
-en dyrehandel	a pet shop	CS	3					n
-en vinhandel	a wine shop	CS	3					n
-en slikbutik	a candy store	CS	2					n
-en fiskehandler	a fishmonger	CS	4					n
-en ostehandler	a cheesemonger	CS	4					n
-en torvehal	a market hall	CS	4					n
-en markedsbod	a market stall	CS	4					n
-en stand	a stand / booth	CS	3					n
-en købmand	a grocer / shopkeeper	CS	2					n
+en boghandel	a bookstore	CS	2					n	boghandlen|boghandler	the bookstore|bookstores
+creme	cream (lotion)	CS	2		en			n	cremen	the cream (lotion)
+en diamant	a diamond	CS	3					n	diamanten|diamanter	the diamond|diamonds
+en sok	a sock	CS	1					n	sokken|sokker	the sock|socks
+et supermarked	a supermarket	TS	1					n	supermarkedet|supermarkeder	the supermarket|supermarkets
+en ekspedition	a service / transaction	CS	4					n	ekspeditionen|ekspeditioner	the service / the transaction|services / transactions
+en skranke	a counter	CS	3					n	skranken|skranker	the counter|counters
+et kønummer	a queue number	CS	3					n	kønummeret|kønumre	the queue number|queue numbers
+en åbningsdag	an opening day	CS	3					n	åbningsdagen|åbningsdage	the opening day|opening days
+en lukkedag	a closing day	CS	3					n	lukkedagen|lukkedage	the closing day|closing days
+et renseri	a dry cleaner's	TS	3					n	renseriet|renserier	the dry cleaner's|dry cleaner'ss
+en optikerforretning	an optician's shop	CS	4					n	optikerforretningen|optikerforretninger	the optician's shop|optician's shops
+en blomsterhandler	a florist	CS	3					n	blomsterhandleren|blomsterhandlere	the florist|florists
+en boghandler	a bookseller	CS	3					n	boghandleren|boghandlere	the bookseller|booksellers
+en isenkræmmer	a hardware dealer	CS	3					n	isenkræmmeren|isenkræmmere	the hardware dealer|hardware dealers
+et byggemarked	a DIY store	CS	3					n	byggemarkedet|byggemarkeder	the DIY store|DIY stores
+en møbelforretning	a furniture store	CS	3					n	møbelforretningen|møbelforretninger	the furniture store|furniture stores
+en elektronikbutik	an electronics store	CS	3					n	elektronikbutikken|elektronikbutikker	the electronics store|electronics stores
+en legetøjsbutik	a toy store	CS	3					n	legetøjsbutikken|legetøjsbutikker	the toy store|toy stores
+en sportsforretning	a sports store	CS	3					n	sportsforretningen|sportsforretninger	the sports store|sports stores
+en dyrehandel	a pet shop	CS	3					n	dyrehandlen|dyrehandler	the pet shop|pet shops
+en vinhandel	a wine shop	CS	3					n	vinhandlen|vinhandler	the wine shop|wine shops
+en slikbutik	a candy store	CS	2					n	slikbutikken|slikbutikker	the candy store|candy stores
+en fiskehandler	a fishmonger	CS	4					n	fiskehandleren|fiskehandlere	the fishmonger|fishmongers
+en ostehandler	a cheesemonger	CS	4					n	ostehandleren|ostehandlere	the cheesemonger|cheesemongers
+en torvehal	a market hall	CS	4					n	torvehallen|torvehaller	the market hall|market halls
+en markedsbod	a market stall	CS	4					n	markedsboden|markedsboder	the market stall|market stalls
+en stand	a stand / booth	CS	3					n	standen|stænder	the stand / the booth|stands / booths
+en købmand	a grocer / shopkeeper	CS	2					n	købmanden|købmænd	the grocer / the shopkeeper|grocers / shopkeepers
 en sælgerske	a saleswoman	CS	4					n
-en butiksindehaver	a shop owner	CS	4					n
-et vareudvalg	a range of goods	CS	4					n
-et sortiment	an assortment	CS	4					n
-en vare	an item / product	CS	2					n
-en prisforskel	a price difference	CS	4					n
-et prisfald	a price drop	CS	4					n
-en prisstigning	a price increase	CS	3					n
-en betalingsmetode	a payment method	CS	3					n
+en butiksindehaver	a shop owner	CS	4					n	butiksindehaveren|butiksindehavere	the shop owner|shop owners
+et vareudvalg	a range of goods	CS	4					n	vareudvalget	the range of goods
+et sortiment	an assortment	CS	4					n	sortimentet|sortimenter	the assortment|assortments
+en vare	an item / product	CS	2					n	varen|varer	the item / the product|items / products
+en prisforskel	a price difference	CS	4					n	prisforskellen|prisforskelle	the price difference|price differences
+et prisfald	a price drop	CS	4					n	prisfaldet	the price drop
+en prisstigning	a price increase	CS	3					n	prisstigningen|prisstigninger	the price increase|price increases
+en betalingsmetode	a payment method	CS	3					n	betalingsmetoden|betalingsmetoder	the payment method|payment methods
 MobilePay	MobilePay (Danish mobile payment app)	MB	2					n
 en kontaktløs betaling	a contactless payment	CS	3					n
-en pinkode	a PIN code	CS	2					n
-en afbetaling	an installment plan	CS	3					n
-fragt	shipping / freight	CS	3		en			n
-en leveringstid	a delivery time	CS	3					n
-en pakkeshop	a parcel shop	CS	3					n
-en pakkeboks	a parcel locker	CS	4					n
-en afhentning	a pickup / collection	CS	3					n
-en reklamation	a complaint (faulty item)	CS	3					n
-en indkøbstur	a shopping trip	CS	2					n
-et storindkøb	a big grocery shop	CS	4					n
-et tilbudskatalog	a sale catalog	CS	4					n
-et julesalg	a Christmas sale	CS	4					n
-en vareprøve	a product sample	CS	4					n
-gavepapir	wrapping paper	CS	2		et			n
-en gaveindpakning	a gift wrapping	CS	4					n
-en indkøbspose	a shopping bag	CS	2					n
-en frisørsalon	a hair salon	TS	2					n
-en klipning	a haircut	CS	3					n
-en neglesalon	a nail salon	TS	4					n
-en skønhedssalon	a beauty salon	TS	3					n
-et solcenter	a tanning salon	TS	4					n
-et katalog	a catalog	CS	2					n
-et modeshow	a fashion show	CS	3					n
-en cykelhandler	a bike shop	CS	4					n
-en kassebon	a till receipt	CS	3					n
-en pengepung	a purse	CS	2					n
-et vaskemærke	a care label	CS	4					n
-en tøjstørrelse	a clothing size	CS	3					n
-en skostørrelse	a shoe size	CS	3					n
-en vinterstøvle	a winter boot	CS	2					n
-en sommerkjole	a summer dress	CS	2					n
-en solhat	a sun hat	CS	2					n
-en strikhue	a knitted hat	CS	3					n
-en uldsweater	a wool sweater	CS	3					n
-en butterfly	a bow tie	CS	3					n
-en manchetknap	a cufflink	CS	4					n
-en hårelastik	a hair tie	CS	3					n
-et hårspænde	a hair clip	CS	3					n
-neglelak	nail polish	CS	3		en			n
-en mascara	a mascara	CS	3					n
-en ansigtscreme	a face cream	CS	3					n
-en bodylotion	a body lotion	CS	3					n
+en pinkode	a PIN code	CS	2					n	pinkoden|pinkoder	the PIN code|PIN codes
+en afbetaling	an installment plan	CS	3					n	afbetalingen|afbetalinger	the installment plan|installment plans
+fragt	shipping / freight	CS	3		en			n	fragten	the shipping / the freight
+en leveringstid	a delivery time	CS	3					n	leveringstiden	the delivery time
+en pakkeshop	a parcel shop	CS	3					n	pakkeshoppen|pakkeshoppenes	the parcel shop|parcel shops
+en pakkeboks	a parcel locker	CS	4					n	pakkeboksen|pakkebokse	the parcel locker|parcel lockers
+en afhentning	a pickup / collection	CS	3					n	afhentningen|afhentninger	the pickup / the collection|pickups / collections
+en reklamation	a complaint (faulty item)	CS	3					n	reklamationen|reklamationer	the complaint (faulty item)|complaints (faulty item)
+en indkøbstur	a shopping trip	CS	2					n	indkøbsturen|indkøbsture	the shopping trip|shopping trips
+et storindkøb	a big grocery shop	CS	4					n	storindkøbet	the big grocery shop
+et tilbudskatalog	a sale catalog	CS	4					n	tilbudskataloget|tilbudskataloger	the sale catalog|sale catalogs
+et julesalg	a Christmas sale	CS	4					n	julesalget	the Christmas sale
+en vareprøve	a product sample	CS	4					n	vareprøven|vareprøver	the product sample|product samples
+gavepapir	wrapping paper	CS	2		et			n	gavepapiret	the wrapping paper
+en gaveindpakning	a gift wrapping	CS	4					n	gaveindpakningen|gaveindpakninger	the gift wrapping|gift wrappings
+en indkøbspose	a shopping bag	CS	2					n	indkøbsposen|indkøbsposer	the shopping bag|shopping bags
+en frisørsalon	a hair salon	TS	2					n	frisørsalonen|frisørsaloner	the hair salon|hair salons
+en klipning	a haircut	CS	3					n	klipningen|klipninger	the haircut|haircuts
+en neglesalon	a nail salon	TS	4					n	neglesalonen|neglesaloner	the nail salon|nail salons
+en skønhedssalon	a beauty salon	TS	3					n	skønhedssalonen|skønhedssaloner	the beauty salon|beauty salons
+et solcenter	a tanning salon	TS	4					n	solcentret|solcentre	the tanning salon|tanning salons
+et katalog	a catalog	CS	2					n	kataloget|kataloger	the catalog|catalogs
+et modeshow	a fashion show	CS	3					n	modeshowet	the fashion show
+en cykelhandler	a bike shop	CS	4					n	cykelhandleren|cykelhandlere	the bike shop|bike shops
+en kassebon	a till receipt	CS	3					n	kassebonen|kasseboner	the till receipt|till receipts
+en pengepung	a purse	CS	2					n	pengepungen|pengepunge	the purse|purses
+et vaskemærke	a care label	CS	4					n	vaskemærket|vaskemærker	the care label|care labels
+en tøjstørrelse	a clothing size	CS	3					n	tøjstørrelsen|tøjstørrelser	the clothing size|clothing sizes
+en skostørrelse	a shoe size	CS	3					n	skostørrelsen|skostørrelser	the shoe size|shoe sizes
+en vinterstøvle	a winter boot	CS	2					n	vinterstøvlen|vinterstøvler	the winter boot|winter boots
+en sommerkjole	a summer dress	CS	2					n	sommerkjolen|sommerkjoler	the summer dress|summer dresses
+en solhat	a sun hat	CS	2					n	solhatten|solhatte	the sun hat|sun hats
+en strikhue	a knitted hat	CS	3					n	strikhuen|strikhuer	the knitted hat|knitted hats
+en uldsweater	a wool sweater	CS	3					n	uldsweateren|uldsweatre	the wool sweater|wool sweaters
+en butterfly	a bow tie	CS	3					n	butterflyen	the bow tie
+en manchetknap	a cufflink	CS	4					n	manchetknappen|manchetknapper	the cufflink|cufflinks
+en hårelastik	a hair tie	CS	3					n	hårelastikken|hårelastikker	the hair tie|hair ties
+et hårspænde	a hair clip	CS	3					n	hårspændet|hårspænder	the hair clip|hair clips
+neglelak	nail polish	CS	3		en			n	neglelakken	the nail polish
+en mascara	a mascara	CS	3					n	mascaraen|mascaraer	the mascara|mascaras
+en ansigtscreme	a face cream	CS	3					n	ansigtscremen|ansigtscremer	the face cream|face creams
+en bodylotion	a body lotion	CS	3					n	bodylotionen|bodylotioner	the body lotion|body lotions
 en smartphone	a smartphone	TM	2					n
-en tablet	a tablet	TM	2					n
-en skærm	a screen	TM	2					n
-et tastatur	a keyboard	TM	2					n
-en computermus	a computer mouse	TM	2					n
-en hjemmeside	a website	TM	2					n
-en app	an app	TM	1					n
-et program	a program	TM	2					n
-software	software	TM	2					n
-en fil	a file	TM	2					n
-en mappe	a folder	TM	2					n
-et download	a download	TM	3					n
-et upload	an upload	TM	3					n
-et kodeord	a password	TM	2					n
-en bruger	a user	TM	2					n
-en konto	an account	TM	2					n
-en profil	a profile	TM	2					n
-en besked	a message	TM	1					n
+en tablet	a tablet	TM	2					n	tabletten|tabletter	the tablet|tablets
+en skærm	a screen	TM	2					n	skærmen|skærme	the screen|screens
+et tastatur	a keyboard	TM	2					n	tastaturet|tastaturer	the keyboard|keyboards
+en computermus	a computer mouse	TM	2					n	computermusen|computermuse	the computer mouse|computer mice
+en hjemmeside	a website	TM	2					n	hjemmesiden|hjemmesider	the website|websites
+en app	an app	TM	1					n	appen|apper	the app|apps
+et program	a program	TM	2					n	programmet|programmer	the program|programs
+software	software	TM	2					n	softwaren	the software
+en fil	a file	TM	2					n	filen|filer	the file|files
+en mappe	a folder	TM	2					n	mappen|mapper	the folder|folders
+et download	a download	TM	3					n	downloadet	the download
+et upload	an upload	TM	3					n	uploadet	the upload
+et kodeord	a password	TM	2					n	kodeordet	the password
+en bruger	a user	TM	2					n	brugeren|brugere	the user|users
+en konto	an account	TM	2					n	kontoen|konti	the account|accounts
+en profil	a profile	TM	2					n	profilen|profiler	the profile|profiles
+en besked	a message	TM	1					n	beskeden|beskeder	the message|messages
 en sms	a text message	TM	1					n
-en e-mail	an email	TM	1					n
-et opkald	a phone call	TM	2					n
-et kamera	a camera	TM	1					n
-et billede	a picture	TM	1					n
-en video	a video	TM	1					n
-en playliste	a playlist	TM	2					n
-streaming	streaming	TM	2					n
-en podcast	a podcast	TM	2					n
+en e-mail	an email	TM	1					n	e-mailen	the email
+et opkald	a phone call	TM	2					n	opkaldet	the phone call
+et kamera	a camera	TM	1					n	kameraet|kameraer	the camera|cameras
+et billede	a picture	TM	1					n	billedet|billeder	the picture|pictures
+en video	a video	TM	1					n	videoen|videoer	the video|videos
+en playliste	a playlist	TM	2					n	playlisten|playlister	the playlist|playlists
+streaming	streaming	TM	2					n	streamingen	the streaming
+en podcast	a podcast	TM	2					n	podcasten	the podcast
 nyheder	news	TM	1					n
-en blog	a blog	TM	2					n
+en blog	a blog	TM	2					n	bloggen	the blog
 sociale medier	social media	TM	2					n
-et opslag	a post	TM	2					n
-en kommentar	a comment	TM	2					n
+et opslag	a post	TM	2					n	opslaget	the post
+en kommentar	a comment	TM	2					n	kommentaren|kommentarer	the comment|comments
 et like	a like	TM	2					n
-en følger	a follower	TM	2					n
-et hashtag	a hashtag	TM	2					n
-en reklame	an advertisement	TM	2					n
-en opdatering	an update	TM	2					n
-en version	a version	TM	2					n
-en fejl	an error / bug	TM	1					n
-en virus	a virus	TM	2					n
-sikkerhed	security	SP	2					n
-en backup	a backup	TM	3					n
-en server	a server	TM	3					n
-et netværk	a network	TM	2					n
-en router	a router	TM	2					n
-et batteri	a battery	TM	2					n
-opladning	charging	TM	3					n
-et skærmbillede	a screenshot	TM	3					n
-hardware	hardware	TM	3					n
-en robot	a robot	TM	3					n
+en følger	a follower	TM	2					n	følgeren|følgere	the follower|followers
+et hashtag	a hashtag	TM	2					n	hashtagget	the hashtag
+en reklame	an advertisement	TM	2					n	reklamen|reklamer	the advertisement|advertisements
+en opdatering	an update	TM	2					n	opdateringen|opdateringer	the update|updates
+en version	a version	TM	2					n	versionen|versioner	the version|versions
+en fejl	an error / bug	TM	1					n	fejlen	the error / the bug
+en virus	a virus	TM	2					n	virussen|vira	the virus|viruses
+sikkerhed	security	SP	2					n	sikkerheden	the security
+en backup	a backup	TM	3					n	backuppen|backupper	the backup|backups
+en server	a server	TM	3					n	serveren|servere	the server|servers
+et netværk	a network	TM	2					n	netværket|netværker	the network|networks
+en router	a router	TM	2					n	routeren|routere	the router|routers
+et batteri	a battery	TM	2					n	batteriet|batterier	the battery|batteries
+opladning	charging	TM	3					n	opladningen	the charging
+et skærmbillede	a screenshot	TM	3					n	skærmbilledet|skærmbilleder	the screenshot|screenshots
+hardware	hardware	TM	3					n	hardwaren	the hardware
+en robot	a robot	TM	3					n	robotten|robotter	the robot|robots
 kunstig intelligens	artificial intelligence	TM	2		en			n
-en artikel	an article	TM	2					n
-en overskrift	a headline	TM	2					n
-en udsendelse	a broadcast	TM	3					n
-en kanal	a channel	TM	2					n
-en serie	a series	TM	2					n
-et afsnit	an episode	TM	3					n
-en instruktør	a director	TM	3					n
-en rolle	a role	TM	2					n
-en anmeldelse	a review	TM	3					n
-en genre	a genre	TM	3					n
-et soundtrack	a soundtrack	TM	4					n
-en sang	a song	TM	1					n
-en tekst	a text	SL	2					n
-et interview	an interview	SL	3					n
-en dokumentar	a documentary	TM	2					n
-en streamingtjeneste	a streaming service	TM	3					n
-en nyhed	a piece of news	TM	2					n
-en udgivelse	a release	TM	3					n
-en adgangskode	a password	TM	2					n
-en indstilling	a setting	TM	3					n
-et link	a link	TM	2					n
-en browser	a browser	TM	2					n
-et nedbrud	a crash	TM	4					n
-en genstart	a restart	TM	3					n
-en installation	an installation	TM	3					n
-en synkronisering	a sync	TM	4					n
-en enhed	a device	TM	3					n
-en forbindelse	a connection	TM	2					n
-en firewall	a firewall	TM	4					n
-en sikkerhedskopi	a backup	TM	4					n
-et signal	a signal	TM	3					n
-en presse	a press	TM	3					n
-en kopi	a copy	TM	2					n
-en kode	a code	TM	2					n
-et foto	a photo	TM	2					n
-en mobiltelefon	a mobile phone	TM	1					n
-kommunikation	communication	TM	3		en			n
-en optagelse	a recording	TM	3					n
-en forside	a front page / front	TM	3					n
-en udgave	an edition / version	TM	3					n
-en opringning	a phone call	TM	3					n
-en episode	an episode	TM	3					n
-et klip	a cut / clip	TM	3					n
+en artikel	an article	TM	2					n	artiklen|artikler	the article|articles
+en overskrift	a headline	TM	2					n	overskriften|overskrifter	the headline|headlines
+en udsendelse	a broadcast	TM	3					n	udsendelsen|udsendelser	the broadcast|broadcasts
+en kanal	a channel	TM	2					n	kanalen|kanaler	the channel|channels
+en serie	a series	TM	2					n	serien|serier	the series|series
+et afsnit	an episode	TM	3					n	afsnittet	the episode
+en instruktør	a director	TM	3					n	instruktøren|instruktører	the director|directors
+en rolle	a role	TM	2					n	rollen|roller	the role|roles
+en anmeldelse	a review	TM	3					n	anmeldelsen|anmeldelser	the review|reviews
+en genre	a genre	TM	3					n	genren|genrer	the genre|genres
+et soundtrack	a soundtrack	TM	4					n	soundtracket	the soundtrack
+en sang	a song	TM	1					n	sangen|sange	the song|songs
+en tekst	a text	SL	2					n	teksten|tekster	the text|texts
+et interview	an interview	SL	3					n	interviewet	the interview
+en dokumentar	a documentary	TM	2					n	dokumentaren|dokumentarer	the documentary|documentaries
+en streamingtjeneste	a streaming service	TM	3					n	streamingtjenesten|streamingtjenester	the streaming service|streaming services
+en nyhed	a piece of news	TM	2					n	nyheden|nyheder	the piece of news|pieces of news
+en udgivelse	a release	TM	3					n	udgivelsen|udgivelser	the release|releases
+en adgangskode	a password	TM	2					n	adgangskoden|adgangskoder	the password|passwords
+en indstilling	a setting	TM	3					n	indstillingen|indstillinger	the setting|settings
+et link	a link	TM	2					n	linket	the link
+en browser	a browser	TM	2					n	browseren|browsere	the browser|browsers
+et nedbrud	a crash	TM	4					n	nedbruddet	the crash
+en genstart	a restart	TM	3					n	genstarten|genstarter	the restart|restarts
+en installation	an installation	TM	3					n	installationen|installationer	the installation|installations
+en synkronisering	a sync	TM	4					n	synkroniseringen|synkroniseringer	the sync|syncs
+en enhed	a device	TM	3					n	enheden|enheder	the device|devices
+en forbindelse	a connection	TM	2					n	forbindelsen|forbindelser	the connection|connections
+en firewall	a firewall	TM	4					n	firewallen	the firewall
+en sikkerhedskopi	a backup	TM	4					n	sikkerhedskopien|sikkerhedskopier	the backup|backups
+et signal	a signal	TM	3					n	signalet|signaler	the signal|signals
+en presse	a press	TM	3					n	pressen|presser	the press|presses
+en kopi	a copy	TM	2					n	kopien|kopier	the copy|copies
+en kode	a code	TM	2					n	koden|koder	the code|codes
+et foto	a photo	TM	2					n	fotoet|fotoer	the photo|photos
+en mobiltelefon	a mobile phone	TM	1					n	mobiltelefonen|mobiltelefoner	the mobile phone|mobile phones
+kommunikation	communication	TM	3		en			n	kommunikationen	the communication
+en optagelse	a recording	TM	3					n	optagelsen|optagelser	the recording|recordings
+en forside	a front page / front	TM	3					n	forsiden|forsider	the front page / the front|front pages / fronts
+en udgave	an edition / version	TM	3					n	udgaven|udgaver	the edition / the version|editions / versions
+en opringning	a phone call	TM	3					n	opringningen|opringninger	the phone call|phone calls
+en episode	an episode	TM	3					n	episoden|episoder	the episode|episodes
+et klip	a cut / clip	TM	3					n	klippet	the cut / the clip
 elektrisk	electric		2					a
-en satellit	a satellite	TM	3					n
-et rumskib	a spaceship	TM	3					n
-en laser	a laser	TM	3					n
+en satellit	a satellite	TM	3					n	satellitten|satellitter	the satellite|satellites
+et rumskib	a spaceship	TM	3					n	rumskibet|rumskibe	the spaceship|spaceships
+en laser	a laser	TM	3					n	laseren|lasere	the laser|lasers
 automatisk	automatic		2					a
-en skandale	a scandal	SP	3					n
-en database	a database	TM	3					n
-en redaktør	an editor	TM	3					n
-en frekvens	a frequency	TM	4					n
-en radar	a radar	TM	4					n
-en producer	a producer	TM	4					n
+en skandale	a scandal	SP	3					n	skandalen|skandaler	the scandal|scandals
+en database	a database	TM	3					n	databasen|databaser	the database|databases
+en redaktør	an editor	TM	3					n	redaktøren|redaktører	the editor|editors
+en frekvens	a frequency	TM	4					n	frekvensen|frekvenser	the frequency|frequencies
+en radar	a radar	TM	4					n	radaren|radarer	the radar|radars
+en producer	a producer	TM	4					n	produceren|producere	the producer|producers
 opdateret	updated	TM	2					a
 en bærbar computer	a laptop	TM	2					n
-et headset	a headset	TM	3					n
+et headset	a headset	TM	3					n	headsetet	the headset
 høretelefoner	headphones	TM	2		pl			n
-en harddisk	a hard drive	TM	3					n
-en USB-nøgle	a USB stick	TM	3					n
-et brugernavn	a username	TM	2					n
+en harddisk	a hard drive	TM	3					n	harddisken|harddiske	the hard drive|hard drives
+en USB-nøgle	a USB stick	TM	3					n	USB-nøglen|USB-nøgler	the USB stick|USB sticks
+et brugernavn	a username	TM	2					n	brugernavnet|brugernavne	the username|usernames
 en vedhæftet fil	an attachment	TM	3					n
-en indbakke	an inbox	TM	2					n
-en søgemaskine	a search engine	TM	3					n
-en nyhedsside	a news site	TM	3					n
-et magasin	a magazine	TM	2					n
-en algoritme	an algorithm	TM	3					n
+en indbakke	an inbox	TM	2					n	indbakken|indbakker	the inbox|inboxes
+en søgemaskine	a search engine	TM	3					n	søgemaskinen|søgemaskiner	the search engine|search engines
+en nyhedsside	a news site	TM	3					n	nyhedssiden|nyhedssider	the news site|news sites
+et magasin	a magazine	TM	2					n	magasinet|magasiner	the magazine|magazines
+en algoritme	an algorithm	TM	3					n	algoritmen|algoritmer	the algorithm|algorithms
 at tænde for	to turn on	TM	2	tænder for|tændte for|tændt for		jeg tænder for|jeg tændte for|jeg har tændt for	I turn on|I turned on|I have turned on	v
 at slukke for	to turn off	TM	2	slukker for|slukkede for|slukket for		jeg slukker for|jeg slukkede for|jeg har slukket for	I turn off|I turned off|I have turned off	v
 at genstarte	to restart	TM	2	genstarter|genstartede|genstartet		jeg genstarter|jeg genstartede|jeg har genstartet	I restart|I restarted|I have restarted	v
@@ -7961,590 +7964,590 @@ at taste	to type / enter	TM	2	taster|tastede|tastet		jeg taster|jeg tastede|jeg 
 online	online	TM	2					d
 offline	offline	TM	2					d
 digital	digital	TM	2					a
-trådløs	wireless	TM	3					a
-en nyhedsudsendelse	a news broadcast	TM	3					n
-en debattør	a debater	TM	4					n
-en kronik	an op-ed (feature article)	TM	4					n
-misinformation	misinformation	TM	3		en			n
-en sending	a shipment / broadcast	TM	4					n
-indhold	content	TM	3		et			n
-et indlæg	a post / contribution	TM	3					n
-et slagord	a slogan	TM	4					n
-en internetforbindelse	an internet connection	TM	3					n
-bærbar	portable / laptop	TM	2					a
-en højttaler	a speaker	TM	2					n
-en influencer	an influencer	TM	2					n
-en mail	an email	TM	1					n
+trådløs	wireless	TM	3					a	trådløsere|trådløsest	more wireless|most wireless
+en nyhedsudsendelse	a news broadcast	TM	3					n	nyhedsudsendelsen|nyhedsudsendelser	the news broadcast|news broadcasts
+en debattør	a debater	TM	4					n	debattøren|debattører	the debater|debaters
+en kronik	an op-ed (feature article)	TM	4					n	kronikken|kronikker	the op-ed (feature article)|op-eds (feature article)
+misinformation	misinformation	TM	3		en			n	misinformationen	the misinformation
+en sending	a shipment / broadcast	TM	4					n	sendingen|sendinger	the shipment / the broadcast|shipments / broadcasts
+indhold	content	TM	3		et			n	indholdet	the content
+et indlæg	a post / contribution	TM	3					n	indlægget	the post / the contribution
+et slagord	a slogan	TM	4					n	slagordet	the slogan
+en internetforbindelse	an internet connection	TM	3					n	internetforbindelsen|internetforbindelser	the internet connection|internet connections
+bærbar	portable / laptop	TM	2					a	bærbarere|bærbarest	more portable / more laptop|most portable / most laptop
+en højttaler	a speaker	TM	2					n	højttaleren|højttalere	the speaker|speakers
+en influencer	an influencer	TM	2					n	influenceren|influencere	the influencer|influencers
+en mail	an email	TM	1					n	mailen	the email
 et medie	a medium (media outlet)	TM	3					n
-en mikrofon	a microphone	TM	2					n
-en mobil	a mobile phone	TM	1					n
-et net	a net / internet	TM	2					n
-et telefonnummer	a phone number	TM	1					n
+en mikrofon	a microphone	TM	2					n	mikrofonen|mikrofoner	the microphone|microphones
+en mobil	a mobile phone	TM	1					n	mobilen|mobiler	the mobile phone|mobile phones
+et net	a net / internet	TM	2					n	nettet	the net / the internet
+et telefonnummer	a phone number	TM	1					n	telefonnummeret|telefonnumre	the phone number|phone numbers
 viral	viral	TM	3					a
-en anmelder	a reviewer / critic	TM	3					n
-en annonce	an advertisement	TM	3					n
-en brochure	a brochure	TM	3					n
-en detektor	a detector	TM	4					n
-elektronik	electronics	TM	3		en			n
-en emoji	an emoji	TM	2					n
-en føljeton	a serial (story)	TM	4					n
-en karikatur	a caricature	TM	4					n
-en kommentator	a commentator	TM	4					n
-en nyhedsvært	a news anchor	TM	3					n
-et nyhedsbrev	a newsletter	TM	3					n
-en platform	a platform	TM	3					n
-en publikation	a publication	TM	4					n
-en radioavis	a radio news broadcast	TM	4					n
-en redaktion	an editorial office	TM	4					n
-en seer	a viewer	TM	3					n
-en skribent	a writer	TM	4					n
-et talkshow	a talk show	TM	3					n
-en tv-serie	a TV series	TM	2					n
-en tv-kanal	a TV channel	TM	2					n
-en ugeavis	a weekly local paper	TM	4					n
-en undertekst	a subtitle	TM	2					n
-en vejviser	a directory / signpost	TM	4					n
-et videoopkald	a video call	TM	2					n
-en webside	a web page	TM	3					n
-et forlag	a publisher	TM	3					n
-et tv-program	a TV program	TM	2					n
-et underholdningsprogram	an entertainment show	TM	3					n
-en brevkasse	an advice column / mailbox	TM	4					n
-en gratisavis	a free newspaper	TM	3					n
-en lokalavis	a local newspaper	TM	3					n
-et nyhedsprogram	a news program	TM	3					n
-en hensigt	an intention	IO	3					n
-en antagelse	an assumption	IO	4					n
-en betragtning	a consideration	IO	3					n
-en mening	an opinion	IO	2					n
-en holdning	an attitude	IO	3					n
-et synspunkt	a viewpoint	IO	3					n
-en påstand	a claim	IO	3					n
-et argument	an argument	IO	4					n
-en årsag	a reason	IO	2					n
-en konsekvens	a consequence	IO	3					n
-et resultat	a result	IO	2					n
-en mulighed	a possibility	IO	2					n
-en fordel	an advantage	IO	2					n
-en ulempe	a disadvantage	IO	2					n
-en udfordring	a challenge	IO	3					n
-en forskel	a difference	IO	2					n
-en lighed	a similarity	IO	3					n
-et forhold	a relationship	IO	2					n
-en sammenhæng	a connection	IO	3					n
-en betydning	a meaning	IO	3					n
-en tendens	a trend	IO	3					n
-en udvikling	a development	IO	3					n
-en forandring	a change	IO	2					n
-en forbedring	an improvement	IO	3					n
-en forværring	a worsening	IO	4					n
-et formål	a purpose	IO	3					n
-en beslutning	a decision	IO	2					n
-et valg	a choice	IO	2					n
-en handling	an action	IO	3					n
-en indsats	an effort	IO	3					n
-fremgang	progress	IO	3		en			n
-et fremskridt	an advance	IO	3					n
-en oplevelse	an experience	IO	2					n
-et indtryk	an impression	IO	3					n
-en vurdering	an assessment	IO	3					n
-en forventning	an expectation	IO	3					n
-en skuffelse	a disappointment	IO	3					n
-en bekymring	a worry	IO	3					n
-en tvivl	a doubt	IO	2					n
-en overbevisning	a conviction	IO	4					n
-en værdi	a value	IO	3					n
-et princip	a principle	IO	3					n
-en teori	a theory	SL	2					n
-et begreb	a concept	IO	3					n
-en påvirkning	an influence	IO	4					n
-en risiko	a risk	IO	2					n
-en fordom	a prejudice	IO	3					n
-en hindring	an obstacle	IO	4					n
-en forhindring	a hurdle	IO	3					n
-en begrænsning	a limitation	IO	3					n
-en mangel	a shortage	IO	3					n
-et underskud	a deficit	IO	3					n
-et overskud	a surplus	IO	3					n
-en nødsituation	an emergency	IO	3					n
-en fejltagelse	a mistake	IO	2					n
-en uenighed	a disagreement	IO	3					n
-en modsætning	a contradiction	IO	3					n
-et kompromis	a compromise	IO	3					n
-et alternativ	an alternative	IO	3					n
-en udvej	a way out	IO	3					n
-en genvej	a shortcut	IO	2					n
-en omvej	a detour	IO	2					n
-en beslutningstager	a decision-maker	IO	4					n
-en igangsætter	an initiator	IO	4					n
-en efterfølger	a successor	IO	4					n
-en forgænger	a predecessor	IO	4					n
-en fortolkning	an interpretation	IO	3					n
-en implikation	an implication	IO	4					n
-en fortaler	an advocate	IO	4					n
-en formidler	a communicator / intermediary	IO	4					n
-en iagttager	an observer	IO	4					n
-en deltagerliste	a list of participants	IO	4					n
-en prioritet	a priority	IO	3					n
-en dagsorden	an agenda	IO	3					n
-et referat	a summary/minutes	IO	3					n
-en beslutningsproces	a decision-making process	IO	4					n
-en høring	a hearing	SP	4					n
-en afklaring	a clarification	IO	3					n
-en uklarhed	an ambiguity	IO	4					n
-en tvetydighed	an ambiguity	IO	4					n
-en nuance	a nuance	IO	4					n
-en detalje	a detail	IO	2					n
-en helhed	a whole	IO	4					n
-en delmængde	a subset	IO	4					n
-en kategori	a category	IO	3					n
-en klassificering	a classification	IO	4					n
-en rangorden	a ranking	IO	4					n
-en prioritering	a prioritization	IO	4					n
-en tilpasning	an adaptation	IO	4					n
-en tilvænning	an adjustment	IO	4					n
-en overgang	a transition	IO	3					n
-en milepæl	a milestone	IO	3					n
-en fase	a phase	IO	3					n
+en anmelder	a reviewer / critic	TM	3					n	anmelderen|anmeldere	the reviewer / the critic|reviewers / critics
+en annonce	an advertisement	TM	3					n	annoncen|annoncer	the advertisement|advertisements
+en brochure	a brochure	TM	3					n	brochuren|brochurer	the brochure|brochures
+en detektor	a detector	TM	4					n	detektoren|detektorer	the detector|detectors
+elektronik	electronics	TM	3		en			n	elektronikken	the electronics
+en emoji	an emoji	TM	2					n	emojien|emojier	the emoji|emojis
+en føljeton	a serial (story)	TM	4					n	føljetonen|føljetoner	the serial (story)|serials (story)
+en karikatur	a caricature	TM	4					n	karikaturen|karikaturer	the caricature|caricatures
+en kommentator	a commentator	TM	4					n	kommentatoren|kommentatorer	the commentator|commentators
+en nyhedsvært	a news anchor	TM	3					n	nyhedsværten|nyhedsværter	the news anchor|news anchors
+et nyhedsbrev	a newsletter	TM	3					n	nyhedsbrevet|nyhedsbreve	the newsletter|newsletters
+en platform	a platform	TM	3					n	platformen|platforme	the platform|platforms
+en publikation	a publication	TM	4					n	publikationen|publikationer	the publication|publications
+en radioavis	a radio news broadcast	TM	4					n	radioavisen|radioaviser	the radio news broadcast|radio news broadcasts
+en redaktion	an editorial office	TM	4					n	redaktionen|redaktioner	the editorial office|editorial offices
+en seer	a viewer	TM	3					n	seeren|seere	the viewer|viewers
+en skribent	a writer	TM	4					n	skribenten|skribenter	the writer|writers
+et talkshow	a talk show	TM	3					n	talkshowet	the talk show
+en tv-serie	a TV series	TM	2					n	tv-serien|tv-serier	the TV series|TV series
+en tv-kanal	a TV channel	TM	2					n	tv-kanalen|tv-kanaler	the TV channel|TV channels
+en ugeavis	a weekly local paper	TM	4					n	ugeavisen	the weekly local paper
+en undertekst	a subtitle	TM	2					n	underteksten|undertekster	the subtitle|subtitles
+en vejviser	a directory / signpost	TM	4					n	vejviseren|vejvisere	the directory / the signpost|directories / signposts
+et videoopkald	a video call	TM	2					n	videoopkaldet	the video call
+en webside	a web page	TM	3					n	websiden|websider	the web page|web pages
+et forlag	a publisher	TM	3					n	forlaget	the publisher
+et tv-program	a TV program	TM	2					n	tv-programmet|tv-programmer	the TV program|TV programs
+et underholdningsprogram	an entertainment show	TM	3					n	underholdningsprogrammet|underholdningsprogrammer	the entertainment show|entertainment shows
+en brevkasse	an advice column / mailbox	TM	4					n	brevkassen|brevkasser	the advice column / the mailbox|advice columns / mailboxes
+en gratisavis	a free newspaper	TM	3					n	gratisavisen|gratisaviser	the free newspaper|free newspapers
+en lokalavis	a local newspaper	TM	3					n	lokalavisen|lokalaviser	the local newspaper|local newspapers
+et nyhedsprogram	a news program	TM	3					n	nyhedsprogrammet|nyhedsprogrammer	the news program|news programs
+en hensigt	an intention	IO	3					n	hensigten|hensigter	the intention|intentions
+en antagelse	an assumption	IO	4					n	antagelsen|antagelser	the assumption|assumptions
+en betragtning	a consideration	IO	3					n	betragtningen|betragtninger	the consideration|considerations
+en mening	an opinion	IO	2					n	meningen|meninger	the opinion|opinions
+en holdning	an attitude	IO	3					n	holdningen|holdninger	the attitude|attitudes
+et synspunkt	a viewpoint	IO	3					n	synspunktet|synspunkter	the viewpoint|viewpoints
+en påstand	a claim	IO	3					n	påstanden|påstande	the claim|claims
+et argument	an argument	IO	4					n	argumentet|argumenter	the argument|arguments
+en årsag	a reason	IO	2					n	årsagen|årsager	the reason|reasons
+en konsekvens	a consequence	IO	3					n	konsekvensen|konsekvenser	the consequence|consequences
+et resultat	a result	IO	2					n	resultatet|resultater	the result|results
+en mulighed	a possibility	IO	2					n	muligheden|muligheder	the possibility|possibilities
+en fordel	an advantage	IO	2					n	fordelen|fordele	the advantage|advantages
+en ulempe	a disadvantage	IO	2					n	ulempen|ulemper	the disadvantage|disadvantages
+en udfordring	a challenge	IO	3					n	udfordringen|udfordringer	the challenge|challenges
+en forskel	a difference	IO	2					n	forskellen|forskelle	the difference|differences
+en lighed	a similarity	IO	3					n	ligheden|ligheder	the similarity|similarities
+et forhold	a relationship	IO	2					n	forholdet	the relationship
+en sammenhæng	a connection	IO	3					n	sammenhængen|sammenhænge	the connection|connections
+en betydning	a meaning	IO	3					n	betydningen|betydninger	the meaning|meanings
+en tendens	a trend	IO	3					n	tendensen|tendenser	the trend|trends
+en udvikling	a development	IO	2					n	udviklingen|udviklinger	the development|developments
+en forandring	a change	IO	2					n	forandringen|forandringer	the change|changes
+en forbedring	an improvement	IO	3					n	forbedringen|forbedringer	the improvement|improvements
+en forværring	a worsening	IO	4					n	forværringen|forværringer	the worsening|worsenings
+et formål	a purpose	IO	3					n	formålet	the purpose
+en beslutning	a decision	IO	2					n	beslutningen|beslutninger	the decision|decisions
+et valg	a choice	IO	2					n	valget	the choice
+en handling	an action	IO	3					n	handlingen|handlinger	the action|actions
+en indsats	an effort	IO	3					n	indsatsen|indsatser	the effort|efforts
+fremgang	progress	IO	3		en			n	fremgangen	the progress
+et fremskridt	an advance	IO	3					n	fremskridtet	the advance
+en oplevelse	an experience	IO	2					n	oplevelsen|oplevelser	the experience|experiences
+et indtryk	an impression	IO	3					n	indtrykket	the impression
+en vurdering	an assessment	IO	3					n	vurderingen|vurderinger	the assessment|assessments
+en forventning	an expectation	IO	3					n	forventningen|forventninger	the expectation|expectations
+en skuffelse	a disappointment	IO	3					n	skuffelsen|skuffelser	the disappointment|disappointments
+en bekymring	a worry	IO	3					n	bekymringen|bekymringer	the worry|worries
+en tvivl	a doubt	IO	2					n	tvivlen	the doubt
+en overbevisning	a conviction	IO	4					n	overbevisningen|overbevisninger	the conviction|convictions
+en værdi	a value	IO	3					n	værdien|værdier	the value|values
+et princip	a principle	IO	3					n	princippet|principper	the principle|principles
+en teori	a theory	SL	2					n	teorien|teorier	the theory|theories
+et begreb	a concept	IO	3					n	begrebet|begreber	the concept|concepts
+en påvirkning	an influence	IO	4					n	påvirkningen|påvirkninger	the influence|influences
+en risiko	a risk	IO	2					n	risikoen|risici	the risk|risks
+en fordom	a prejudice	IO	3					n	fordommen|fordomme	the prejudice|prejudices
+en hindring	an obstacle	IO	4					n	hindringen|hindringer	the obstacle|obstacles
+en forhindring	a hurdle	IO	3					n	forhindringen|forhindringer	the hurdle|hurdles
+en begrænsning	a limitation	IO	3					n	begrænsningen|begrænsninger	the limitation|limitations
+en mangel	a shortage	IO	3					n	manglen|mangler	the shortage|shortages
+et underskud	a deficit	IO	3					n	underskuddet	the deficit
+et overskud	a surplus	IO	3					n	overskuddet	the surplus
+en nødsituation	an emergency	IO	3					n	nødsituationen|nødsituationer	the emergency|emergencies
+en fejltagelse	a mistake	IO	2					n	fejltagelsen|fejltagelser	the mistake|mistakes
+en uenighed	a disagreement	IO	3					n	uenigheden|uenigheder	the disagreement|disagreements
+en modsætning	a contradiction	IO	3					n	modsætningen|modsætninger	the contradiction|contradictions
+et kompromis	a compromise	IO	3					n	kompromiset|kompromiser	the compromise|compromises
+et alternativ	an alternative	IO	3					n	alternativt|alternativer	the alternative|alternatives
+en udvej	a way out	IO	3					n	udvejen|udveje	the way out|way outs
+en genvej	a shortcut	IO	2					n	genvejen|genveje	the shortcut|shortcuts
+en omvej	a detour	IO	2					n	omvejen|omveje	the detour|detours
+en beslutningstager	a decision-maker	IO	4					n	beslutningstageren|beslutningstagere	the decision-maker|decision-makers
+en igangsætter	an initiator	IO	4					n	igangsætteren|igangsættere	the initiator|initiators
+en efterfølger	a successor	IO	4					n	efterfølgeren|efterfølgere	the successor|successors
+en forgænger	a predecessor	IO	4					n	forgængeren|forgængere	the predecessor|predecessors
+en fortolkning	an interpretation	IO	3					n	fortolkningen|fortolkninger	the interpretation|interpretations
+en implikation	an implication	IO	4					n	implikationen|implikationer	the implication|implications
+en fortaler	an advocate	IO	4					n	fortaleren|fortalere	the advocate|advocates
+en formidler	a communicator / intermediary	IO	4					n	formidleren|formidlere	the communicator / the intermediary|communicators / intermediaries
+en iagttager	an observer	IO	4					n	iagttageren|iagttagere	the observer|observers
+en deltagerliste	a list of participants	IO	4					n	deltagerlisten|deltagerlister	the list of participants|lists of participants
+en prioritet	a priority	IO	3					n	prioriteten|prioriteter	the priority|priorities
+en dagsorden	an agenda	IO	3					n	dagsordenen|dagsordner	the agenda|agendas
+et referat	a summary/minutes	IO	3					n	referatet|referater	the summary/minutes|summary/minutess
+en beslutningsproces	a decision-making process	IO	4					n	beslutningsprocessen|beslutningsprocesser	the decision-making process|decision-making processes
+en høring	a hearing	SP	4					n	høringen|høringer	the hearing|hearings
+en afklaring	a clarification	IO	3					n	afklaringen	the clarification
+en uklarhed	an ambiguity	IO	4					n	uklarheden|uklarheder	the ambiguity|ambiguities
+en tvetydighed	an ambiguity	IO	4					n	tvetydigheden|tvetydigheder	the ambiguity|ambiguities
+en nuance	a nuance	IO	4					n	nuancen|nuancer	the nuance|nuances
+en detalje	a detail	IO	2					n	detaljen|detaljer	the detail|details
+en helhed	a whole	IO	4					n	helheden|helheder	the whole|wholes
+en delmængde	a subset	IO	4					n	delmængden|delmængder	the subset|subsets
+en kategori	a category	IO	3					n	kategorien|kategorier	the category|categories
+en klassificering	a classification	IO	4					n	klassificeringen|klassificeringer	the classification|classifications
+en rangorden	a ranking	IO	4					n	rangordenen|rangordner	the ranking|rankings
+en prioritering	a prioritization	IO	4					n	prioriteringen|prioriteringer	the prioritization|prioritizations
+en tilpasning	an adaptation	IO	4					n	tilpasningen|tilpasninger	the adaptation|adaptations
+en tilvænning	an adjustment	IO	4					n	tilvænningen|tilvænninger	the adjustment|adjustments
+en overgang	a transition	IO	3					n	overgangen|overgange	the transition|transitions
+en milepæl	a milestone	IO	3					n	milepælen|milepæle	the milestone|milestones
+en fase	a phase	IO	3					n	fasen|faser	the phase|phases
 et stadie	a stage	IO	4					n
-et niveau	a level	IO	2					n
-en skala	a scale	IO	3					n
-en tærskel	a threshold	IO	4					n
-en grænseværdi	a limit value	IO	4					n
-en variation	a variation	IO	4					n
-en afvigelse	a deviation	IO	4					n
-en uregelmæssighed	an irregularity	IO	4					n
-sammenhængskraft	social cohesion	IO	4		en			n
-en balance	a balance	IO	3					n
-en ubalance	an imbalance	IO	3					n
-en ligevægt	an equilibrium	IO	4					n
-en harmoni	a harmony	IO	3					n
-en disharmoni	a discord	IO	4					n
-en modvilje	a reluctance	IO	4					n
-villighed	willingness	IO	4		en			n
-beredvillighed	readiness / willingness	IO	4		en			n
-en tøven	a hesitation	IO	4					n
-beslutsomhed	determination	IO	4		en			n
-vedholdenhed	persistence	IO	4		en			n
-en opgivelse	a giving up	IO	4					n
-en genopretning	a recovery	IO	4					n
+et niveau	a level	IO	2					n	niveauet|niveauer	the level|levels
+en skala	a scale	IO	3					n	skalaen|skalaer	the scale|scales
+en tærskel	a threshold	IO	4					n	tærsklen|tærskler	the threshold|thresholds
+en grænseværdi	a limit value	IO	4					n	grænseværdien|grænseværdier	the limit value|limit values
+en variation	a variation	IO	4					n	variationen|variationer	the variation|variations
+en afvigelse	a deviation	IO	4					n	afvigelsen|afvigelser	the deviation|deviations
+en uregelmæssighed	an irregularity	IO	4					n	uregelmæssigheden|uregelmæssigheder	the irregularity|irregularities
+sammenhængskraft	social cohesion	IO	4		en			n	sammenhængskraften	the social cohesion
+en balance	a balance	IO	3					n	balancen|balancer	the balance|balances
+en ubalance	an imbalance	IO	3					n	ubalancen|ubalancer	the imbalance|imbalances
+en ligevægt	an equilibrium	IO	4					n	ligevægten|ligevægte	the equilibrium|equilibriums
+en harmoni	a harmony	IO	3					n	harmonien|harmonier	the harmony|harmonies
+en disharmoni	a discord	IO	4					n	disharmonien|disharmonier	the discord|discords
+en modvilje	a reluctance	IO	4					n	modviljen	the reluctance
+villighed	willingness	IO	4		en			n	villigheden	the willingness
+beredvillighed	readiness / willingness	IO	4		en			n	beredvilligheden	the readiness / the willingness
+en tøven	a hesitation	IO	4					n	tøvennen|tøvenner	the hesitation|hesitations
+beslutsomhed	determination	IO	4		en			n	beslutsomheden	the determination
+vedholdenhed	persistence	IO	4		en			n	vedholdenheden	the persistence
+en opgivelse	a giving up	IO	4					n	opgivelsen|opgivelser	the giving up|giving ups
+en genopretning	a recovery	IO	4					n	genopretningen|genopretninger	the recovery|recoveries
 en tilbagevenden	a return	IO	4					n
-en tilbagegang	a decline	IO	4					n
-en stagnation	a stagnation	IO	4					n
-en sandhed	a truth	IO	2					n
-fred	peace	IO	2		en			n
-held	luck	IO	2		et			n
-ære	honor	IO	3		en			n
-en sjæl	a soul	IO	3					n
-en vilje	a will	IO	2					n
-et ansvar	a responsibility	IO	2					n
-en hemmelighed	a secret	IO	2					n
-en skæbne	a fate / destiny	IO	3					n
-hævn	revenge	IO	3		en			n
-opmærksomhed	attention	IO	2		en			n
-nåde	mercy / grace	IO	3		en			n
-en succes	a success	IO	2					n
-en virkelighed	a reality	IO	2					n
-et sind	a mind	IO	2					n
-en anelse	a hint / slight idea	IO	3					n
-et forslag	a suggestion / proposal	IO	2					n
-et behov	a need	IO	2					n
-en pointe	a point (of an argument)	IO	2					n
-et hensyn	a consideration	IO	3					n
-en fantasi	an imagination / fantasy	IO	2					n
-en skønhed	a beauty	IO	2					n
-en samvittighed	a conscience	IO	3					n
-alvor	seriousness ("i alvor" = seriously)	IO	2		en			n
-en omstændighed	a circumstance	IO	3					n
-en reaktion	a reaction	IO	3					n
-kaos	chaos	IO	3		et			n
-fornuft	reason / common sense	IO	3		en			n
-ondskab	evil / malice	IO	3		en			n
-en mistanke	a suspicion	IO	3					n
-et faktum	a fact	IO	3					n
-en indflydelse	an influence	IO	3					n
-nytte	use / benefit	IO	3		en			n
-privatliv	privacy	IO	3		et			n
-et motiv	a motive / subject	IO	3					n
-et ry	a reputation	IO	3					n
-et fokus	a focus	IO	3					n
-en forstand	a mind / sense	IO	3					n
-en fiasko	a failure / fiasco	IO	3					n
-bevidsthed	consciousness	IO	3		en			n
-en tragedie	a tragedy	IO	3					n
-en vane	a habit	IO	2					n
-et budskab	a message	IO	3					n
-en byrde	a burden	IO	3					n
-tilstedeværelse	presence	IO	4		en			n
-en strategi	a strategy	IO	3					n
-en undergang	a downfall / doom	IO	3					n
-en forståelse	an understanding	IO	3					n
-intelligens	intelligence	IO	3		en			n
-værdighed	dignity	IO	4		en			n
-overlevelse	survival	IO	3		en			n
-et potentiale	a potential	IO	3					n
-en effekt	an effect	IO	3					n
-en eksistens	an existence	IO	3					n
-et instinkt	an instinct	IO	3					n
-en gerning	a deed	IO	3					n
-et perspektiv	a perspective	IO	3					n
+en tilbagegang	a decline	IO	4					n	tilbagegangen|tilbagegange	the decline|declines
+en stagnation	a stagnation	IO	4					n	stagnationen|stagnationer	the stagnation|stagnations
+en sandhed	a truth	IO	2					n	sandheden|sandheder	the truth|truths
+fred	peace	IO	2		en			n	freden	the peace
+held	luck	IO	2		et			n	heldet	the luck
+ære	honor	IO	3		en			n	æren	the honor
+en sjæl	a soul	IO	3					n	sjælen|sjæle	the soul|souls
+en vilje	a will	IO	2					n	viljen|viljer	the will|wills
+et ansvar	a responsibility	IO	2					n	ansvaret	the responsibility
+en hemmelighed	a secret	IO	2					n	hemmeligheden|hemmeligheder	the secret|secrets
+en skæbne	a fate / destiny	IO	3					n	skæbnen|skæbner	the fate / the destiny|fates / destinies
+hævn	revenge	IO	3		en			n	hævnen	the revenge
+opmærksomhed	attention	IO	2		en			n	opmærksomheden	the attention
+nåde	mercy / grace	IO	3		en			n	nåden	the mercy / the grace
+en succes	a success	IO	2					n	succesen|succeser	the success|successes
+en virkelighed	a reality	IO	2					n	virkeligheden|virkeligheder	the reality|realities
+et sind	a mind	IO	2					n	sindet	the mind
+en anelse	a hint / slight idea	IO	3					n	anelsen|anelser	the hint / the slight idea|hints / slight ideas
+et forslag	a suggestion / proposal	IO	2					n	forslaget	the suggestion / the proposal
+et behov	a need	IO	2					n	behovet	the need
+en pointe	a point (of an argument)	IO	2					n	pointen|pointer	the point (of an argument)|points (of an argument)
+et hensyn	a consideration	IO	3					n	hensynet	the consideration
+en fantasi	an imagination / fantasy	IO	2					n	fantasien|fantasier	the imagination / the fantasy|imaginations / fantasies
+en skønhed	a beauty	IO	2					n	skønheden|skønheder	the beauty|beauties
+en samvittighed	a conscience	IO	3					n	samvittigheden|samvittigheder	the conscience|consciences
+alvor	seriousness ("i alvor" = seriously)	IO	2		en			n	alvoren	the seriousness ("i alvor" = seriously)
+en omstændighed	a circumstance	IO	3					n	omstændigheden|omstændigheder	the circumstance|circumstances
+en reaktion	a reaction	IO	3					n	reaktionen|reaktioner	the reaction|reactions
+kaos	chaos	IO	3		et			n	kaosset	the chaos
+fornuft	reason / common sense	IO	3		en			n	fornuften	the reason / the common sense
+ondskab	evil / malice	IO	3		en			n	ondskaben	the evil / the malice
+en mistanke	a suspicion	IO	3					n	mistanken|mistanker	the suspicion|suspicions
+et faktum	a fact	IO	3					n	faktummet|fakta	the fact|facts
+en indflydelse	an influence	IO	3					n	indflydelsen|indflydelser	the influence|influences
+nytte	use / benefit	IO	3		en			n	nytten	the use / the benefit
+privatliv	privacy	IO	3		et			n	privatlivet	the privacy
+et motiv	a motive / subject	IO	3					n	motivet|motiver	the motive / the subject|motives / subjects
+et ry	a reputation	IO	3					n	ryet	the reputation
+et fokus	a focus	IO	3					n	fokusset	the focus
+en forstand	a mind / sense	IO	3					n	forstanden	the mind / the sense
+en fiasko	a failure / fiasco	IO	3					n	fiaskoen|fiaskoer	the failure / the fiasco|failures / fiascos
+bevidsthed	consciousness	IO	3		en			n	bevidstheden	the consciousness
+en tragedie	a tragedy	IO	3					n	tragedien|tragedier	the tragedy|tragedies
+en vane	a habit	IO	2					n	vanen|vaner	the habit|habits
+et budskab	a message	IO	3					n	budskabet|budskaber	the message|messages
+en byrde	a burden	IO	3					n	byrden|byrder	the burden|burdens
+tilstedeværelse	presence	IO	4		en			n	tilstedeværelsen	the presence
+en strategi	a strategy	IO	3					n	strategien|strategier	the strategy|strategies
+en undergang	a downfall / doom	IO	3					n	undergangen|undergange	the downfall / the doom|downfalls / dooms
+en forståelse	an understanding	IO	3					n	forståelsen|forståelser	the understanding|understandings
+intelligens	intelligence	IO	3		en			n	intelligensen	the intelligence
+værdighed	dignity	IO	4		en			n	værdigheden	the dignity
+overlevelse	survival	IO	3		en			n	overlevelsen	the survival
+et potentiale	a potential	IO	3					n	potentialet|potentialer	the potential|potentials
+en effekt	an effect	IO	3					n	effekten|effekter	the effect|effects
+en eksistens	an existence	IO	3					n	eksistensen|eksistenser	the existence|existences
+et instinkt	an instinct	IO	3					n	instinktet|instinkter	the instinct|instincts
+en gerning	a deed	IO	3					n	gerningen|gerninger	the deed|deeds
+et perspektiv	a perspective	IO	3					n	perspektivet|perspektiver	the perspective|perspectives
 moralsk	moral	IO	3					a
-en vision	a vision	IO	3					n
-en moral	a moral / morale	IO	3					n
+en vision	a vision	IO	3					n	visionen|visioner	the vision|visions
+en moral	a moral / morale	IO	3					n	moralen|moraler	the moral / the morale|morals / morales
 et mysterium	a mystery	IO	3					n
 gavn	benefit / use	IO	4		en			n
-et gennembrud	a breakthrough	IO	3					n
-dømmekraft	judgment	IO	4		en			n
-visdom	wisdom	IO	3		en			n
-kendskab	knowledge (of something)	IO	3		et			n
-ødelæggelse	destruction	IO	3		en			n
-en lærestreg	a lesson (learned the hard way)	IO	3					n
-en opfattelse	a perception / view	IO	3					n
-isolation	isolation	IO	3		en			n
-et omdømme	a reputation	IO	3					n
-uskyld	innocence	IO	3		en			n
-en inspiration	an inspiration	IO	3					n
-en taktik	a tactic	IO	3					n
-en vanskelighed	a difficulty	IO	3					n
-disciplin	discipline	IO	2		en			n
-en ambition	an ambition	IO	3					n
-en virkning	an effect	IO	3					n
-fravær	absence	IO	3		et			n
-modgang	adversity	IO	4		en			n
-en illusion	an illusion	IO	3					n
-et sammentræf	a coincidence	IO	3					n
-indsigt	insight	IO	3		en			n
-barmhjertighed	mercy	IO	4		en			n
-logik	logic	IO	3		en			n
-kritik	criticism	IO	2		en			n
-en anledning	an occasion	IO	3					n
-en definition	a definition	IO	3					n
-en dimension	a dimension	IO	4					n
-en faktor	a factor	IO	3					n
-en forudsætning	a precondition	IO	3					n
-en fortsættelse	a continuation	IO	3					n
-en funktion	a function	IO	3					n
-en kontekst	a context	IO	3					n
-en kontrast	a contrast	IO	3					n
-en norm	a norm	IO	3					n
-en nødvendighed	a necessity	IO	3					n
-en oprindelse	an origin	IO	3					n
-en ordning	an arrangement / scheme	IO	3					n
-en position	a position	IO	3					n
-en sandsynlighed	a probability	IO	3					n
-en struktur	a structure	IO	3					n
-en tanke	a thought	IO	2					n
-en tilgang	an approach	IO	3					n
-en usikkerhed	an uncertainty	IO	3					n
-en valgmulighed	an option	IO	3					n
+et gennembrud	a breakthrough	IO	3					n	gennembruddet	the breakthrough
+dømmekraft	judgment	IO	4		en			n	dømmekraften	the judgment
+visdom	wisdom	IO	3		en			n	visdommen	the wisdom
+kendskab	knowledge (of something)	IO	3		et			n	kendskabet	the knowledge (of something)
+ødelæggelse	destruction	IO	3		en			n	ødelæggelsen	the destruction
+en lærestreg	a lesson (learned the hard way)	IO	3					n	lærestregen|lærestreger	the lesson (learned the hard way)|lessons (learned the hard way)
+en opfattelse	a perception / view	IO	3					n	opfattelsen|opfattelser	the perception / the view|perceptions / views
+isolation	isolation	IO	3		en			n	isolationen	the isolation
+et omdømme	a reputation	IO	3					n	omdømmet|omdømmer	the reputation|reputations
+uskyld	innocence	IO	3		en			n	uskylden	the innocence
+en inspiration	an inspiration	IO	3					n	inspirationen|inspirationer	the inspiration|inspirations
+en taktik	a tactic	IO	3					n	taktikken|taktikker	the tactic|tactics
+en vanskelighed	a difficulty	IO	3					n	vanskeligheden|vanskeligheder	the difficulty|difficulties
+disciplin	discipline	IO	2		en			n	disciplinen	the discipline
+en ambition	an ambition	IO	3					n	ambitionen|ambitioner	the ambition|ambitions
+en virkning	an effect	IO	3					n	virkningen|virkninger	the effect|effects
+fravær	absence	IO	3		et			n	fraværet	the absence
+modgang	adversity	IO	4		en			n	modgangen	the adversity
+en illusion	an illusion	IO	3					n	illusionen|illusioner	the illusion|illusions
+et sammentræf	a coincidence	IO	3					n	sammentræffet	the coincidence
+indsigt	insight	IO	3		en			n	indsigten	the insight
+barmhjertighed	mercy	IO	4		en			n	barmhjertigheden	the mercy
+logik	logic	IO	3		en			n	logikken	the logic
+kritik	criticism	IO	2		en			n	kritikken	the criticism
+en anledning	an occasion	IO	3					n	anledningen|anledninger	the occasion|occasions
+en definition	a definition	IO	3					n	definitionen|definitioner	the definition|definitions
+en dimension	a dimension	IO	4					n	dimensionen|dimensioner	the dimension|dimensions
+en faktor	a factor	IO	3					n	faktoren|faktorer	the factor|factors
+en forudsætning	a precondition	IO	3					n	forudsætningen|forudsætninger	the precondition|preconditions
+en fortsættelse	a continuation	IO	3					n	fortsættelsen|fortsættelser	the continuation|continuations
+en funktion	a function	IO	3					n	funktionen|funktioner	the function|functions
+en kontekst	a context	IO	3					n	konteksten|kontekster	the context|contexts
+en kontrast	a contrast	IO	3					n	kontrasten|kontraster	the contrast|contrasts
+en norm	a norm	IO	3					n	normen|normer	the norm|norms
+en nødvendighed	a necessity	IO	3					n	nødvendigheden|nødvendigheder	the necessity|necessities
+en oprindelse	an origin	IO	3					n	oprindelsen|oprindelser	the origin|origins
+en ordning	an arrangement / scheme	IO	3					n	ordningen|ordninger	the arrangement / the scheme|arrangements / schemes
+en position	a position	IO	3					n	positionen|positioner	the position|positions
+en sandsynlighed	a probability	IO	3					n	sandsynligheden|sandsynligheder	the probability|probabilities
+en struktur	a structure	IO	3					n	strukturen|strukturer	the structure|structures
+en tanke	a thought	IO	2					n	tanken|tanker	the thought|thoughts
+en tilgang	an approach	IO	3					n	tilgangen|tilgange	the approach|approaches
+en usikkerhed	an uncertainty	IO	3					n	usikkerheden|usikkerheder	the uncertainty|uncertainties
+en valgmulighed	an option	IO	3					n	valgmuligheden|valgmuligheder	the option|options
 viden	knowledge	IO	2		en			n
-vækst	growth	IO	2		en			n
-et aspekt	an aspect	IO	3					n
-et fænomen	a phenomenon	IO	3					n
-et grundlag	a basis	IO	3					n
-et initiativ	an initiative	IO	3					n
+vækst	growth	IO	2		en			n	væksten	the growth
+et aspekt	an aspect	IO	3					n	aspektet|aspekter	the aspect|aspects
+et fænomen	a phenomenon	IO	3					n	fænomenet|fænomener	the phenomenon|phenomena
+et grundlag	a basis	IO	3					n	grundlaget	the basis
+et initiativ	an initiative	IO	3					n	initiativet|initiativer	the initiative|initiatives
 et kriterium	a criterion	IO	4					n
-et overblik	an overview	IO	3					n
-et samarbejde	a cooperation	IO	2					n
-et standpunkt	a point of view	IO	4					n
-et tema	a theme	IO	3					n
-et udgangspunkt	a starting point	IO	3					n
-et vendepunkt	a turning point	IO	3					n
-et vidnesbyrd	a testimony / evidence	IO	4					n
-et ønske	a wish	IO	2					n
-etik	ethics	IO	3		en			n
+et overblik	an overview	IO	3					n	overblikket	the overview
+et samarbejde	a cooperation	IO	2					n	samarbejdet|samarbejder	the cooperation|cooperations
+et standpunkt	a point of view	IO	4					n	standpunktet|standpunkter	the point of view|points of view
+et tema	a theme	IO	3					n	temaet|temaer	the theme|themes
+et udgangspunkt	a starting point	IO	3					n	udgangspunktet|udgangspunkter	the starting point|starting points
+et vendepunkt	a turning point	IO	3					n	vendepunktet|vendepunkter	the turning point|turning points
+et vidnesbyrd	a testimony / evidence	IO	4					n	vidnesbyrdet	the testimony / the evidence
+et ønske	a wish	IO	2					n	ønsket|ønsker	the wish|wishes
+etik	ethics	IO	3		en			n	etikken	the ethics
 fleksibilitet	flexibility	IO	3		en			n
-hjælpsomhed	helpfulness	IO	3		en			n
+hjælpsomhed	helpfulness	IO	3		en			n	hjælpsomheden	the helpfulness
 kreativitet	creativity	IO	3		en			n
-kundskab	knowledge	IO	3		en			n
+kundskab	knowledge	IO	3		en			n	kundskaben	the knowledge
 livskvalitet	quality of life	IO	3		en			n
-mangfoldighed	diversity	IO	3		en			n
-motivation	motivation	IO	3		en			n
-selvstændighed	independence	IO	3		en			n
-sammenhold	solidarity	IO	3		et			n
-tryghed	security / safety	IO	2		en			n
-uafhængighed	independence	IO	3		en			n
-uvidenhed	ignorance	IO	4		en			n
-en antydning	a hint	IO	4					n
-en begrundelse	a justification / reason	IO	3					n
-en belastning	a strain / burden	IO	4					n
-en bidragyder	a contributor	IO	4					n
-deltagelse	participation	IO	3		en			n
-en drivkraft	a driving force	IO	4					n
-en erindring	a memory / recollection	IO	4					n
-en erkendelse	a realization	IO	4					n
-en fordeling	a distribution	IO	3					n
-en forlængelse	an extension	IO	4					n
-en formidling	a communication / mediation	IO	4					n
-en fornyelse	a renewal	IO	4					n
-en forudsigelse	a prediction	IO	3					n
-en fremstilling	a production / portrayal	IO	4					n
-en fremvisning	a showing / display	IO	4					n
-en indblanding	an interference	IO	4					n
-en inddragelse	an involvement	IO	4					n
-en markering	a marking / demonstration	IO	4					n
-en modtagelse	a reception	IO	3					n
-en omstilling	an adjustment / transition	IO	4					n
-opbakning	support / backing	IO	4		en			n
-en opdeling	a division	IO	4					n
-en opfordring	a call / request	IO	3					n
-en optælling	a count	IO	4					n
-en overvejelse	a consideration	IO	3					n
-planlægning	planning	IO	2		en			n
-en sammenligning	a comparison	IO	3					n
-en støtte	a support	IO	2					n
-en tilføjelse	an addition	IO	3					n
-en tolkning	an interpretation	IO	4					n
-en udskiftning	a replacement	IO	3					n
-en udveksling	an exchange	IO	3					n
-en afbrydelse	an interruption	IO	4					n
-et belæg	a basis / evidence	IO	4					n
-et bytte	an exchange / prey	IO	3					n
-et kendetegn	a characteristic	IO	4					n
-et påfund	an idea / invention	IO	4					n
-et sammenstød	a clash / collision	IO	4					n
-et skøn	an estimate / judgment	IO	3					n
-et tilbageslag	a setback	IO	3					n
-et træk	a feature / move / draft	IO	3					n
-et udfald	an outcome	IO	4					n
-et udsagn	a statement	IO	4					n
-et eksempel	an example	IO	2					n
-et liv	a life	IO	1					n
-en udvidelse	an expansion	IO	3					n
-en opsang	a telling-off	IO	4					n
-en sidebemærkning	a side note	IO	4					n
-en synsvinkel	a point of view / angle	IO	4					n
-et sidespor	a digression / sidetrack	IO	4					n
-en afveksling	a variety / change	IO	4					n
-en bedrift	an achievement / feat	IO	4					n
-en begavelse	a talent	IO	4					n
-en straf	a punishment	SP	2					n
-en forpligtelse	an obligation	SP	3					n
-en institution	an institution	SP	3					n
-en minoritet	a minority	SP	3					n
-et flertal	a majority	SP	3					n
-en afstemning	a vote	SP	3					n
-en kultur	a culture	CH	2					n
-en tradition	a tradition	CH	2					n
-en regel	a rule	SP	2					n
-en pligt	a duty	SP	2					n
-en frihed	a freedom	SP	2					n
-ligestilling	equality	SP	4		en			n
-en økonomi	an economy	MB	3					n
-en valgkreds	a constituency	SP	4					n
-en borger	a citizen	SP	3					n
-en organisation	an organization	SP	3					n
-en industri	an industry	MB	4					n
-en handel	a trade / deal	MB	2					n
-en skat	a tax	MB	2					n
-en indkomst	an income	MB	4					n
-fattigdom	poverty	SP	2		en			n
-rigdom	wealth	SP	2		en			n
-en generation	a generation	PF	3					n
-en befolkning	a population	SP	3					n
-et fællesskab	a community	SP	3					n
-en integration	an integration	SP	3					n
-en identitet	an identity	IO	3					n
-en religion	a religion	CH	3					n
-ytringsfrihed	freedom of speech	SP	4		en			n
-en debat	a debate	SP	3					n
-en konflikt	a conflict	SP	3					n
-en krise	a crisis	SP	3					n
-en protest	a protest	SP	3					n
-en demonstration	a demonstration	SP	3					n
-en rettighed	a right	SP	3					n
-en pligtfølelse	a sense of duty	SP	4					n
-en forbrydelse	a crime	SP	3					n
-et tyveri	a theft	SP	3					n
-et indbrud	a burglary	SP	3					n
-et bedrageri	a fraud	SP	3					n
-en anklage	an accusation	SP	3					n
-en efterforskning	an investigation	SP	3					n
-en anholdelse	an arrest	SP	3					n
-en dom	a verdict	SP	3					n
-en retssag	a court case	SP	3					n
-en dommer	a judge	SP	2					n
-et vidne	a witness	SP	2					n
-et bevis	a proof	SP	2					n
-et fængsel	a prison	SP	2					n
-et offer	a victim	SP	2					n
-en gerningsmand	a perpetrator	SP	3					n
-en fare	a danger	SP	2					n
-et overfald	an assault	SP	3					n
-en trussel	a threat	SP	2					n
-en ulykke	an accident	SP	2					n
-en skade	a damage/injury	BH	2					n
-en redning	a rescue	SP	3					n
-en evakuering	an evacuation	SP	4					n
-et brandvæsen	a fire department	SP	3					n
-et nødopkald	an emergency call	SP	3					n
-en videnskab	a science	SL	3					n
-en forsker	a researcher	SL	3					n
-et forsøg	an experiment	SL	2					n
-en opdagelse	a discovery	SL	3					n
-en opfindelse	an invention	SL	3					n
-en hypotese	a hypothesis	SL	4					n
-en metode	a method	SL	3					n
-en analyse	an analysis	SL	3					n
-data	data	SL	2					n
-en statistik	a statistic	SL	3					n
-en konklusion	a conclusion	SL	3					n
-en teknologi	a technology	TM	2					n
-en innovation	an innovation	SL	3					n
-en opfinder	an inventor	SL	3					n
+mangfoldighed	diversity	IO	3		en			n	mangfoldigheden	the diversity
+motivation	motivation	IO	3		en			n	motivationen	the motivation
+selvstændighed	independence	IO	3		en			n	selvstændigheden	the independence
+sammenhold	solidarity	IO	3		et			n	sammenholdet	the solidarity
+tryghed	security / safety	IO	2		en			n	trygheden	the security / the safety
+uafhængighed	independence	IO	3		en			n	uafhængigheden	the independence
+uvidenhed	ignorance	IO	4		en			n	uvidenheden	the ignorance
+en antydning	a hint	IO	4					n	antydningen|antydninger	the hint|hints
+en begrundelse	a justification / reason	IO	3					n	begrundelsen|begrundelser	the justification / the reason|justifications / reasons
+en belastning	a strain / burden	IO	4					n	belastningen|belastninger	the strain / the burden|strains / burdens
+en bidragyder	a contributor	IO	4					n	bidragyderen|bidragydere	the contributor|contributors
+deltagelse	participation	IO	3		en			n	deltagelsen	the participation
+en drivkraft	a driving force	IO	4					n	drivkraften|drivkræfter	the driving force|driving forces
+en erindring	a memory / recollection	IO	4					n	erindringen|erindringer	the memory / the recollection|memories / recollections
+en erkendelse	a realization	IO	4					n	erkendelsen|erkendelser	the realization|realizations
+en fordeling	a distribution	IO	3					n	fordelingen|fordelinger	the distribution|distributions
+en forlængelse	an extension	IO	4					n	forlængelsen|forlængelser	the extension|extensions
+en formidling	a communication / mediation	IO	4					n	formidlingen|formidlinger	the communication / the mediation|communications / mediations
+en fornyelse	a renewal	IO	4					n	fornyelsen|fornyelser	the renewal|renewals
+en forudsigelse	a prediction	IO	3					n	forudsigelsen|forudsigelser	the prediction|predictions
+en fremstilling	a production / portrayal	IO	4					n	fremstillingen|fremstillinger	the production / the portrayal|productions / portrayals
+en fremvisning	a showing / display	IO	4					n	fremvisningen|fremvisninger	the showing / the display|showings / displays
+en indblanding	an interference	IO	4					n	indblandingen|indblandinger	the interference|interferences
+en inddragelse	an involvement	IO	4					n	inddragelsen|inddragelser	the involvement|involvements
+en markering	a marking / demonstration	IO	4					n	markeringen|markeringer	the marking / the demonstration|markings / demonstrations
+en modtagelse	a reception	IO	3					n	modtagelsen|modtagelser	the reception|receptions
+en omstilling	an adjustment / transition	IO	4					n	omstillingen|omstillinger	the adjustment / the transition|adjustments / transitions
+opbakning	support / backing	IO	4		en			n	opbakningen	the support / the backing
+en opdeling	a division	IO	4					n	opdelingen|opdelinger	the division|divisions
+en opfordring	a call / request	IO	3					n	opfordringen|opfordringer	the call / the request|calls / requests
+en optælling	a count	IO	4					n	optællingen|optællinger	the count|counts
+en overvejelse	a consideration	IO	3					n	overvejelsen|overvejelser	the consideration|considerations
+planlægning	planning	IO	2		en			n	planlægningen	the planning
+en sammenligning	a comparison	IO	3					n	sammenligningen|sammenligninger	the comparison|comparisons
+en støtte	a support	IO	2					n	støtten|støtter	the support|supports
+en tilføjelse	an addition	IO	3					n	tilføjelsen|tilføjelser	the addition|additions
+en tolkning	an interpretation	IO	4					n	tolkningen|tolkninger	the interpretation|interpretations
+en udskiftning	a replacement	IO	3					n	udskiftningen|udskiftninger	the replacement|replacements
+en udveksling	an exchange	IO	3					n	udvekslingen|udvekslinger	the exchange|exchanges
+en afbrydelse	an interruption	IO	4					n	afbrydelsen|afbrydelser	the interruption|interruptions
+et belæg	a basis / evidence	IO	4					n	belægget	the basis / the evidence
+et bytte	an exchange / prey	IO	3					n	byttet	the exchange / the prey
+et kendetegn	a characteristic	IO	4					n	kendetegnet	the characteristic
+et påfund	an idea / invention	IO	4					n	påfundet	the idea / the invention
+et sammenstød	a clash / collision	IO	4					n	sammenstødet	the clash / the collision
+et skøn	an estimate / judgment	IO	3					n	skønnet	the estimate / the judgment
+et tilbageslag	a setback	IO	3					n	tilbageslaget	the setback
+et træk	a feature / move / draft	IO	3					n	trækket	the feature / the move / the draft
+et udfald	an outcome	IO	4					n	udfaldet	the outcome
+et udsagn	a statement	IO	4					n	udsagnet	the statement
+et eksempel	an example	IO	2					n	eksemplet|eksempler	the example|examples
+et liv	a life	IO	1					n	livet	the life
+en udvidelse	an expansion	IO	3					n	udvidelsen|udvidelser	the expansion|expansions
+en opsang	a telling-off	IO	4					n	opsangen|opsange	the telling-off|telling-offs
+en sidebemærkning	a side note	IO	4					n	sidebemærkningen|sidebemærkninger	the side note|side notes
+en synsvinkel	a point of view / angle	IO	4					n	synsvinklen|synsvinkler	the point of view / the angle|points of view / angles
+et sidespor	a digression / sidetrack	IO	4					n	sidesporet	the digression / the sidetrack
+en afveksling	a variety / change	IO	4					n	afvekslingen|afvekslinger	the variety / the change|varieties / changes
+en bedrift	an achievement / feat	IO	4					n	bedriften|bedrifter	the achievement / the feat|achievements / feats
+en begavelse	a talent	IO	4					n	begavelsen|begavelser	the talent|talents
+en straf	a punishment	SP	2					n	straffen|straffe	the punishment|punishments
+en forpligtelse	an obligation	SP	3					n	forpligtelsen|forpligtelser	the obligation|obligations
+en institution	an institution	SP	3					n	institutionen|institutioner	the institution|institutions
+en minoritet	a minority	SP	3					n	minoriteten|minoriteter	the minority|minorities
+et flertal	a majority	SP	3					n	flertallet	the majority
+en afstemning	a vote	SP	3					n	afstemningen|afstemninger	the vote|votes
+en kultur	a culture	CH	2					n	kulturen|kulturer	the culture|cultures
+en tradition	a tradition	CH	2					n	traditionen|traditioner	the tradition|traditions
+en regel	a rule	SP	2					n	reglen|regler	the rule|rules
+en pligt	a duty	SP	2					n	pligten|pligter	the duty|duties
+en frihed	a freedom	SP	2					n	friheden|friheder	the freedom|freedoms
+ligestilling	equality	SP	4		en			n	ligestillingen	the equality
+en økonomi	an economy	MB	2					n	økonomien|økonomier	the economy|economies
+en valgkreds	a constituency	SP	4					n	valgkredsen|valgkredse	the constituency|constituencies
+en borger	a citizen	SP	3					n	borgeren|borgere	the citizen|citizens
+en organisation	an organization	SP	3					n	organisationen|organisationer	the organization|organizations
+en industri	an industry	MB	3					n	industrien|industrier	the industry|industries
+en handel	a trade / deal	MB	2					n	handlen|handler	the trade / the deal|trades / deals
+en skat	a tax	MB	2					n	skatten|skatter	the tax|taxes
+en indkomst	an income	MB	4					n	indkomsten|indkomster	the income|incomes
+fattigdom	poverty	SP	2		en			n	fattigdommen	the poverty
+rigdom	wealth	SP	2		en			n	rigdommen	the wealth
+en generation	a generation	PF	3					n	generationen|generationer	the generation|generations
+en befolkning	a population	SP	3					n	befolkningen|befolkninger	the population|populations
+et fællesskab	a community	SP	3					n	fællesskabet|fællesskaber	the community|communities
+en integration	an integration	SP	3					n	integrationen|integrationer	the integration|integrations
+en identitet	an identity	IO	3					n	identiteten|identiteter	the identity|identities
+en religion	a religion	CH	3					n	religionen|religioner	the religion|religions
+ytringsfrihed	freedom of speech	SP	4		en			n	ytringsfriheden	the freedom of speech
+en debat	a debate	SP	3					n	debatten|debatter	the debate|debates
+en konflikt	a conflict	SP	3					n	konflikten|konflikter	the conflict|conflicts
+en krise	a crisis	SP	3					n	krisen|kriser	the crisis|crises
+en protest	a protest	SP	3					n	protesten|protester	the protest|protests
+en demonstration	a demonstration	SP	3					n	demonstrationen|demonstrationer	the demonstration|demonstrations
+en rettighed	a right	SP	3					n	rettigheden|rettigheder	the right|rights
+en pligtfølelse	a sense of duty	SP	4					n	pligtfølelsen	the sense of duty
+en forbrydelse	a crime	SP	3					n	forbrydelsen|forbrydelser	the crime|crimes
+et tyveri	a theft	SP	3					n	tyveriet|tyverier	the theft|thefts
+et indbrud	a burglary	SP	3					n	indbruddet	the burglary
+et bedrageri	a fraud	SP	3					n	bedrageriet|bedragerier	the fraud|frauds
+en anklage	an accusation	SP	3					n	anklagen|anklager	the accusation|accusations
+en efterforskning	an investigation	SP	3					n	efterforskningen|efterforskninger	the investigation|investigations
+en anholdelse	an arrest	SP	3					n	anholdelsen|anholdelser	the arrest|arrests
+en dom	a verdict	SP	3					n	dommen|domme	the verdict|verdicts
+en retssag	a court case	SP	3					n	retssagen|retssager	the court case|court cases
+en dommer	a judge	SP	2					n	dommeren|dommere	the judge|judges
+et vidne	a witness	SP	2					n	vidnet|vidner	the witness|witnesses
+et bevis	a proof	SP	2					n	beviset|beviser	the proof|proofs
+et fængsel	a prison	SP	2					n	fængslet|fængsler	the prison|prisons
+et offer	a victim	SP	2					n	ofret|ofre	the victim|victims
+en gerningsmand	a perpetrator	SP	3					n	gerningsmanden|gerningsmænd	the perpetrator|perpetrators
+en fare	a danger	SP	2					n	faren|for	the danger|dangers
+et overfald	an assault	SP	3					n	overfaldet	the assault
+en trussel	a threat	SP	2					n	truslen|trusler	the threat|threats
+en ulykke	an accident	SP	2					n	ulykken|ulykker	the accident|accidents
+en skade	a damage/injury	BH	2					n	skaden|skader	the damage/injury|damage/injuries
+en redning	a rescue	SP	3					n	redningen|redninger	the rescue|rescues
+en evakuering	an evacuation	SP	4					n	evakueringen|evakueringer	the evacuation|evacuations
+et brandvæsen	a fire department	SP	3					n	brandvæsenet|brandvæsner	the fire department|fire departments
+et nødopkald	an emergency call	SP	3					n	nødopkaldet	the emergency call
+en videnskab	a science	SL	3					n	videnskaben|videnskaber	the science|sciences
+en forsker	a researcher	SL	3					n	forskeren|forskere	the researcher|researchers
+et forsøg	an experiment	SL	2					n	forsøget	the experiment
+en opdagelse	a discovery	SL	3					n	opdagelsen|opdagelser	the discovery|discoveries
+en opfindelse	an invention	SL	3					n	opfindelsen|opfindelser	the invention|inventions
+en hypotese	a hypothesis	SL	4					n	hypotesen|hypoteser	the hypothesis|hypotheses
+en metode	a method	SL	3					n	metoden|metoder	the method|methods
+en analyse	an analysis	SL	3					n	analysen|analyser	the analysis|analyses
+data	data	SL	2					n	dataet	the data
+en statistik	a statistic	SL	3					n	statistikken|statistikker	the statistic|statistics
+en konklusion	a conclusion	SL	3					n	konklusionen|konklusioner	the conclusion|conclusions
+en teknologi	a technology	TM	2					n	teknologien|teknologier	the technology|technologies
+en innovation	an innovation	SL	3					n	innovationen|innovationer	the innovation|innovations
+en opfinder	an inventor	SL	3					n	opfinderen|opfindere	the inventor|inventors
 et laboratorium	a laboratory	SL	3					n
-en afhandling	a thesis	SL	4					n
-genetik	genetics	SL	4					n
-et molekyle	a molecule	SL	4					n
-en celle	a cell	SL	3					n
-en samtale	a conversation	IO	2					n
-en diskussion	a discussion	IO	2					n
-en forhandling	a negotiation	IO	3					n
-en meddelelse	an announcement	IO	3					n
-en forespørgsel	an inquiry	IO	4					n
-en anmodning	a request	IO	3					n
-en instruktion	an instruction	IO	3					n
-en forklaring	an explanation	IO	2					n
-en beskrivelse	a description	IO	3					n
-en oversættelse	a translation	SL	3					n
-en dialekt	a dialect	SL	3					n
-en accent	an accent	SL	3					n
-en udtale	a pronunciation	SL	2					n
-en grammatik	a grammar	SL	2					n
-et ordforråd	a vocabulary	SL	3					n
-en sætning	a sentence	SL	2					n
-et udtryk	an expression	SL	2					n
-en talemåde	a saying	SL	4					n
-en tolk	an interpreter	SL	3					n
-en tavshed	a silence	IO	3					n
-høflighed	politeness	IO	4		en			n
-en gud	a god	CH	2					n
-politi	police	SP	1		et			n
-helvede	hell	CH	3		et			n
-et våben	a weapon	SP	3					n
-et lig	a corpse	SP	3					n
-en pistol	a pistol / gun	SP	3					n
-magi	magic	CH	3		en			n
-et kors	a cross	CH	3					n
-en majestæt	a majesty	CH	4					n
-en engel	an angel	CH	3					n
-et monster	a monster	CH	3					n
-en ånd	a spirit / ghost	CH	3					n
-en grav	a grave	CH	3					n
-et mirakel	a miracle	CH	3					n
-en begravelse	a funeral	CH	2					n
-en vampyr	a vampire	CH	3					n
-et spøgelse	a ghost	CH	3					n
-kokain	cocaine	SP	4		en			n
-en russer	a Russian	CL	2					n
-en dæmon	a demon	CH	4					n
-en julemand	a Santa Claus	CH	2					n
-en bøn	a prayer / request	CH	3					n
-en højhed	a highness	CH	4					n
-en pastor	a pastor	CH	3					n
-en synder	a sinner	CH	4					n
-narko	drugs (slang)	SP	3		en			n
-menneskehed	humanity	SP	4		en			n
-en race	a race / breed	AN	3					n
-en forbandelse	a curse	CH	3					n
-en jøde	a Jew	CH	3					n
+en afhandling	a thesis	SL	4					n	afhandlingen|afhandlinger	the thesis|theses
+genetik	genetics	SL	4					n	genetikken	the genetics
+et molekyle	a molecule	SL	4					n	molekylet|molekyler	the molecule|molecules
+en celle	a cell	SL	3					n	cellen|celler	the cell|cells
+en samtale	a conversation	IO	2					n	samtalen|samtaler	the conversation|conversations
+en diskussion	a discussion	IO	2					n	diskussionen|diskussioner	the discussion|discussions
+en forhandling	a negotiation	IO	3					n	forhandlingen|forhandlinger	the negotiation|negotiations
+en meddelelse	an announcement	IO	3					n	meddelelsen|meddelelser	the announcement|announcements
+en forespørgsel	an inquiry	IO	4					n	forespørgslen|forespørgsler	the inquiry|inquiries
+en anmodning	a request	IO	3					n	anmodningen|anmodninger	the request|requests
+en instruktion	an instruction	IO	3					n	instruktionen|instruktioner	the instruction|instructions
+en forklaring	an explanation	IO	2					n	forklaringen|forklaringer	the explanation|explanations
+en beskrivelse	a description	IO	3					n	beskrivelsen|beskrivelser	the description|descriptions
+en oversættelse	a translation	SL	3					n	oversættelsen|oversættelser	the translation|translations
+en dialekt	a dialect	SL	3					n	dialekten|dialekter	the dialect|dialects
+en accent	an accent	SL	3					n	accenten|accenter	the accent|accents
+en udtale	a pronunciation	SL	2					n	udtalen|udtaler	the pronunciation|pronunciations
+en grammatik	a grammar	SL	2					n	grammatikken	the grammar
+et ordforråd	a vocabulary	SL	3					n	ordforrådet	the vocabulary
+en sætning	a sentence	SL	2					n	sætningen|sætninger	the sentence|sentences
+et udtryk	an expression	SL	2					n	udtrykket	the expression
+en talemåde	a saying	SL	4					n	talemåden|talemåder	the saying|sayings
+en tolk	an interpreter	SL	3					n	tolken|tolke	the interpreter|interpreters
+en tavshed	a silence	IO	3					n	tavsheden	the silence
+høflighed	politeness	IO	4		en			n	høfligheden	the politeness
+en gud	a god	CH	2					n	guden|guder	the god|gods
+politi	police	SP	1		et			n	politiet	the police
+helvede	hell	CH	3		et			n	helvedet	the hell
+et våben	a weapon	SP	3					n	våbent|våbne	the weapon|weapons
+et lig	a corpse	SP	3					n	liget	the corpse
+en pistol	a pistol / gun	SP	3					n	pistolen|pistoler	the pistol / the gun|pistols / guns
+magi	magic	CH	3		en			n	magien	the magic
+et kors	a cross	CH	3					n	korset	the cross
+en majestæt	a majesty	CH	4					n	majestæten|majestæter	the majesty|majesties
+en engel	an angel	CH	3					n	englen|engle	the angel|angels
+et monster	a monster	CH	3					n	monstret|monstre	the monster|monsters
+en ånd	a spirit / ghost	CH	3					n	ånden|ånder	the spirit / the ghost|spirits / ghosts
+en grav	a grave	CH	3					n	graven|grave	the grave|graves
+et mirakel	a miracle	CH	3					n	miraklet|mirakler	the miracle|miracles
+en begravelse	a funeral	CH	2					n	begravelsen|begravelser	the funeral|funerals
+en vampyr	a vampire	CH	3					n	vampyren|vampyrer	the vampire|vampires
+et spøgelse	a ghost	CH	3					n	spøgelset|spøgelser	the ghost|ghosts
+kokain	cocaine	SP	4		en			n	kokainen	the cocaine
+en russer	a Russian	CL	2					n	russeren|russere	the Russian|Russians
+en dæmon	a demon	CH	4					n	dæmonen|dæmoner	the demon|demons
+en julemand	a Santa Claus	CH	2					n	julemanden|julemænd	the Santa Claus|Santa Clauses
+en bøn	a prayer / request	CH	3					n	bønnen|bønner	the prayer / the request|prayers / requests
+en højhed	a highness	CH	4					n	højheden|højheder	the highness|highnesses
+en pastor	a pastor	CH	3					n	pastoren|pastorer	the pastor|pastors
+en synder	a sinner	CH	4					n	synderen|syndere	the sinner|sinners
+narko	drugs (slang)	SP	3		en			n	narkoen	the drugs (slang)
+menneskehed	humanity	SP	4		en			n	menneskeheden	the humanity
+en race	a race / breed	AN	3					n	racen|racer	the race / the breed|races / breeds
+en forbandelse	a curse	CH	3					n	forbandelsen|forbandelser	the curse|curses
+en jøde	a Jew	CH	3					n	jøden|jøder	the Jew|Jews
 spansk	Spanish	CL	2					a
-en cigaret	a cigarette	BH	2					n
-et flag	a flag	CH	2					n
-et paradis	a paradise	CH	3					n
-en djævel	a devil	CH	3					n
-en ridder	a knight	CH	3					n
+en cigaret	a cigarette	BH	2					n	cigaretten|cigaretter	the cigarette|cigarettes
+et flag	a flag	CH	2					n	flaget	the flag
+et paradis	a paradise	CH	3					n	paradiset|paradiser	the paradise|paradises
+en djævel	a devil	CH	3					n	djævlen|djævle	the devil|devils
+en ridder	a knight	CH	3					n	ridderen|riddere	the knight|knights
 britisk	British	CL	2					a
-et slot	a castle / palace	CH	2					n
-en velsignelse	a blessing	CH	3					n
+et slot	a castle / palace	CH	2					n	slottet|slotte	the castle / the palace|castles / palaces
+en velsignelse	a blessing	CH	3					n	velsignelsen|velsignelser	the blessing|blessings
 italiensk	Italian	CL	2					a
-en troldmand	a wizard	CH	4					n
-kongelig	royal	CH	3					a
-en legende	a legend	CH	3					n
-frelse	salvation	CH	4		en			n
-en kejser	an emperor	CH	3					n
-velgørenhed	charity	SP	3		en			n
-et optog	a parade	CH	3					n
-offentlighed	the public	SP	4		en			n
-marihuana	marijuana	SP	4		en			n
-en stamme	a tribe / trunk	CH	3					n
-en trone	a throne	CH	4					n
-en kirkegård	a cemetery	CH	2					n
+en troldmand	a wizard	CH	4					n	troldmanden|troldmænd	the wizard|wizards
+kongelig	royal	CH	3					a	kongeligere|kongeligst	royaler|royalest
+en legende	a legend	CH	3					n	legenden|legender	the legend|legends
+frelse	salvation	CH	4		en			n	frelsen	the salvation
+en kejser	an emperor	CH	3					n	kejseren|kejsere	the emperor|emperors
+velgørenhed	charity	SP	3		en			n	velgørenheden	the charity
+et optog	a parade	CH	3					n	optoget	the parade
+offentlighed	the public	SP	4		en			n	offentligheden	the public
+marihuana	marijuana	SP	4		en			n	marihuanaen	the marijuana
+en stamme	a tribe / trunk	CH	3					n	stammen|stammer	the tribe / the trunk|tribes / trunks
+en trone	a throne	CH	4					n	tronen|troner	the throne|thrones
+en kirkegård	a cemetery	CH	2					n	kirkegården|kirkegårde	the cemetery|cemeteries
 hjemløs	homeless	SP	3					a
-religiøs	religious	CH	3					a
-et rådhus	a town hall	TS	2					n
-et rumvæsen	an alien	CH	3					n
-en pave	a pope	CH	3					n
-en myte	a myth	CH	3					n
+religiøs	religious	CH	3					a	religiøsere|religiøsest	more religious|most religious
+et rådhus	a town hall	TS	2					n	rådhuset|rådhuse	the town hall|town halls
+et rumvæsen	an alien	CH	3					n	rumvæsnet|rumvæsner	the alien|aliens
+en pave	a pope	CH	3					n	paven|paver	the pope|popes
+en myte	a myth	CH	3					n	myten|myter	the myth|myths
 almægtig	almighty	CH	4					a
-dommedag	doomsday / Judgment Day	CH	4		en			n
+dommedag	doomsday / Judgment Day	CH	4		en			n	dommedagen	the doomsday / the Judgment Day
 græsk	Greek	CL	2					a
 Mellemøsten	the Middle East	CL	3					n
-et ritual	a ritual	CH	3					n
+et ritual	a ritual	CH	3					n	ritualet|ritualer	the ritual|rituals
 narkotika	narcotics	SP	3		pl			n
-en politistation	a police station	TS	2					n
-et spyd	a spear	CH	4					n
-en klokke	a bell	CH	2					n
+en politistation	a police station	TS	2					n	politistationen|politistationer	the police station|police stations
+et spyd	a spear	CH	4					n	spyddet	the spear
+en klokke	a bell	CH	2					n	klokken|klokker	the bell|bells
 jødisk	Jewish	CH	3					a
 svensk	Swedish	CL	2					a
-en frelser	a savior	CH	4					n
+en frelser	a savior	CH	4					n	frelseren|frelsere	the savior|saviors
 troende	believing / religious	CH	3					a
-et tempel	a temple	CH	3					n
-et palads	a palace	CH	3					n
-en dværg	a dwarf	CH	3					n
-en ceremoni	a ceremony	CH	3					n
-en julegave	a Christmas present	CH	2					n
-en indbygger	an inhabitant	CL	3					n
-en tigger	a beggar	SP	4					n
+et tempel	a temple	CH	3					n	templet|templer	the temple|temples
+et palads	a palace	CH	3					n	paladset|paladser	the palace|palaces
+en dværg	a dwarf	CH	3					n	dværgen|dværge	the dwarf|dwarves
+en ceremoni	a ceremony	CH	3					n	ceremonien|ceremonier	the ceremony|ceremonies
+en julegave	a Christmas present	CH	2					n	julegaven|julegaver	the Christmas present|Christmas presents
+en indbygger	an inhabitant	CL	3					n	indbyggeren|indbyggere	the inhabitant|inhabitants
+en tigger	a beggar	SP	4					n	tiggeren|tiggere	the beggar|beggars
 indfødt	native	CH	4					a
-fyrværkeri	fireworks	CH	2		et			n
-en englænder	an Englishman / English person	CL	2					n
+fyrværkeri	fireworks	CH	2		et			n	fyrværkeriet	the fireworks
+en englænder	an Englishman / English person	CL	2					n	englænderen|englændere	the Englishman / the English person|Englishmen / English people
 udenlandsk	foreign	CL	2					a
-et juletræ	a Christmas tree	CH	2					n
-en skik	a custom	CH	3					n
-en højtid	a holiday (religious/major)	CH	3					n
-en helligdag	a public holiday	CH	2					n
-jul	Christmas	CH	1		en			n
+et juletræ	a Christmas tree	CH	2					n	juletræet|juletræer	the Christmas tree|Christmas trees
+en skik	a custom	CH	3					n	skikken|skikke	the custom|customs
+en højtid	a holiday (religious/major)	CH	3					n	højtiden|højtider	the holiday (religious/major)|holidays (religious/major)
+en helligdag	a public holiday	CH	2					n	helligdagen|helligdage	the public holiday|public holidays
+jul	Christmas	CH	1		en			n	julen	the Christmas
 juleaften	Christmas Eve	CH	2		en			n
-påske	Easter	CH	1		en			n
-pinse	Pentecost / Whitsun	CH	3		en			n
-fastelavn	Shrovetide (Danish carnival)	CH	3		en			n
+påske	Easter	CH	1		en			n	påsken	the Easter
+pinse	Pentecost / Whitsun	CH	3		en			n	pinsen	the Pentecost / the Whitsun
+fastelavn	Shrovetide (Danish carnival)	CH	3		en			n	fastelavnen	the Shrovetide (Danish carnival)
 sankthans	Midsummer (St. John's Eve)	CH	3		en			n
 nytårsaften	New Year's Eve	CH	2		en			n
-grundlovsdag	Constitution Day (5 June)	CH	3		en			n
-en konfirmation	a confirmation	CH	2					n
-en barnedåb	a christening	CH	3					n
-kristendom	Christianity	CH	3		en			n
-islam	Islam	CH	3		en			n
-jødedom	Judaism	CH	3		en			n
-buddhisme	Buddhism	CH	3		en			n
-tro	faith / belief	CH	2		en			n
-en moské	a mosque	CH	3					n
-en synagoge	a synagogue	CH	3					n
-en bibel	a bible	CH	3					n
-en synd	a sin	CH	3					n
-et samfundsproblem	a social problem	SP	3					n
-velfærd	welfare	SP	3		en			n
+grundlovsdag	Constitution Day (5 June)	CH	3		en			n	grundlovsdagen	the Constitution Day (5 June)
+en konfirmation	a confirmation	CH	2					n	konfirmationen|konfirmationer	the confirmation|confirmations
+en barnedåb	a christening	CH	3					n	barnedåben	the christening
+kristendom	Christianity	CH	3		en			n	kristendommen	the Christianity
+islam	Islam	CH	3		en			n	islammen	the Islam
+jødedom	Judaism	CH	3		en			n	jødedommen	the Judaism
+buddhisme	Buddhism	CH	3		en			n	buddhismen	the Buddhism
+tro	faith / belief	CH	2		en			n	troen	the faith / the belief
+en moské	a mosque	CH	3					n	moskéen|moskéer	the mosque|mosques
+en synagoge	a synagogue	CH	3					n	synagogen|synagoger	the synagogue|synagogues
+en bibel	a bible	CH	3					n	bibelen|bibler	the bible|bibles
+en synd	a sin	CH	3					n	synden|synder	the sin|sins
+et samfundsproblem	a social problem	SP	3					n	samfundsproblemet|samfundsproblemer	the social problem|social problems
+velfærd	welfare	SP	3		en			n	velfærden	the welfare
 velfærdssamfundet	the welfare society	SP	4					n
-en skatteyder	a taxpayer	SP	3					n
+en skatteyder	a taxpayer	SP	3					n	skatteyderen|skatteydere	the taxpayer|taxpayers
 den offentlige sektor	the public sector	SP	3					n
 sundhedsvæsenet	the healthcare system	BH	3					n
-en forening	an association / club	SP	2					n
+en forening	an association / club	SP	2					n	foreningen|foreninger	the association / the club|associations / clubs
 en frivillig	a volunteer	SP	3					n
 middelalderen	the Middle Ages	TC	3					n
 vikingetiden	the Viking Age	TC	3					n
-en viking	a Viking	CH	3					n
-et kongehus	a royal family	CH	3					n
-en prins	a prince	CH	2					n
-en prinsesse	a princess	CH	2					n
-en nationalitet	a nationality	CL	3					n
-et modersmål	a mother tongue	CL	3					n
-en dansker	a Dane	CL	1					n
-en udlænding	a foreigner	CL	2					n
-en nordmand	a Norwegian	CL	2					n
-en svensker	a Swede	CL	2					n
-en tysker	a German	CL	2					n
-en amerikaner	an American	CL	2					n
+en viking	a Viking	CH	3					n	vikingen|vikinger	the Viking|Vikings
+et kongehus	a royal family	CH	3					n	kongehuset|kongehuse	the royal family|royal families
+en prins	a prince	CH	2					n	prinsen|prinser	the prince|princes
+en prinsesse	a princess	CH	2					n	prinsessen|prinsesser	the princess|princesses
+en nationalitet	a nationality	CL	3					n	nationaliteten|nationaliteter	the nationality|nationalities
+et modersmål	a mother tongue	CL	3					n	modersmålet	the mother tongue
+en dansker	a Dane	CL	1					n	danskeren|danskere	the Dane|Danes
+en udlænding	a foreigner	CL	2					n	udlændingen|udlændinge	the foreigner|foreigners
+en nordmand	a Norwegian	CL	2					n	nordmanden|nordmænd	the Norwegian|Norwegians
+en svensker	a Swede	CL	2					n	svenskeren|svenskere	the Swede|Swedes
+en tysker	a German	CL	2					n	tyskeren|tyskere	the German|Germans
+en amerikaner	an American	CL	2					n	amerikaneren|amerikanere	the American|Americans
 Norden	the Nordic countries	CL	3					n
 Skandinavien	Scandinavia	CL	3					n
 Europa	Europe	CL	2					n
@@ -8559,34 +8562,34 @@ muslimsk	Muslim	CH	3					a
 at tro på	to believe in	CH	2	tror på|troede på|troet på		jeg tror på|jeg troede på|jeg har troet på	I believe in|I believed in|I have believed in	v
 at døbe	to baptize	CH	3	døber|døbte|døbt		jeg døber|jeg døbte|jeg har døbt	I baptize|I baptized|I have baptized	v
 at konfirmere	to confirm (church)	CH	3	konfirmerer|konfirmerede|konfirmeret		jeg konfirmerer|jeg konfirmerede|jeg har konfirmeret	I confirm (church)|I confirmed (church)|I have confirmed (church)	v
-Grønland	Greenland	CL	2					n
+Grønland	Greenland	CL	2					n	Grønlandet	the Greenland
 Færøerne	the Faroe Islands	CL	3					n
-Sverige	Sweden	CL	2					n
+Sverige	Sweden	CL	2					n	Sveriget	the Sweden
 Norge	Norway	CL	2					n
-Tyskland	Germany	CL	2					n
-Frankrig	France	CL	2					n
-England	England	CL	2					n
+Tyskland	Germany	CL	2					n	Tysklandet	the Germany
+Frankrig	France	CL	2					n	Frankrigen	the France
+England	England	CL	2					n	Englandet	the England
 Storbritannien	Great Britain	CL	2					n
 Spanien	Spain	CL	2					n
 Italien	Italy	CL	2					n
-Holland	the Netherlands	CL	2					n
+Holland	the Netherlands	CL	2					n	Hollandet	the Netherlands
 Polen	Poland	CL	2					n
-Finland	Finland	CL	2					n
-Island	Iceland	CL	2					n
+Finland	Finland	CL	2					n	Finlandet	the Finland
+Island	Iceland	CL	2					n	Islandet	the Iceland
 USA	the USA	CL	2					n
 Kina	China	CL	2					n
 Japan	Japan	CL	2					n
 Indien	India	CL	2					n
-Rusland	Russia	CL	2					n
+Rusland	Russia	CL	2					n	Ruslandet	the Russia
 Ukraine	Ukraine	CL	2					n
 Tyrkiet	Turkey	CL	2					n
-Grækenland	Greece	CL	2					n
-Jylland	Jutland	CL	2					n
-Sjælland	Zealand	CL	2					n
+Grækenland	Greece	CL	2					n	Grækenlandet	the Greece
+Jylland	Jutland	CL	2					n	Jyllandet	the Jutland
+Sjælland	Zealand	CL	2					n	Sjællandet	the Zealand
 Fyn	Funen	CL	2					n
-Bornholm	Bornholm	CL	2					n
-København	Copenhagen	CL	1					n
-Aarhus	Aarhus	CL	2					n
+Bornholm	Bornholm	CL	2					n	Bornholmen	the Bornholm
+København	Copenhagen	CL	1					n	Københavnen	the Copenhagen
+Aarhus	Aarhus	CL	2					n	Aarhuset	the Aarhus
 finsk	Finnish	CL	2					a
 islandsk	Icelandic	CL	2					a
 hollandsk	Dutch	CL	2					a
@@ -8603,256 +8606,256 @@ asiatisk	Asian	CL	2					a
 grønlandsk	Greenlandic	CL	3					a
 færøsk	Faroese	CL	3					a
 jysk	Jutlandic	CL	3					a
-en københavner	a Copenhagener	CL	2					n
-en jyde	a Jutlander	CL	3					n
-en fynbo	a person from Funen	CL	3					n
-en franskmand	a Frenchman / French person	CL	2					n
-en italiener	an Italian	CL	2					n
-en spanier	a Spaniard	CL	2					n
-en polak	a Pole	CL	2					n
-en kineser	a Chinese person	CL	2					n
-en japaner	a Japanese person	CL	2					n
-en inder	an Indian (from India)	CL	3					n
-en araber	an Arab	CL	3					n
-en tyrker	a Turk	CL	2					n
-en grønlænder	a Greenlander	CL	3					n
-en islænding	an Icelander	CL	3					n
-en brite	a Brit	CL	3					n
-en europæer	a European	CL	2					n
-en afrikaner	an African	CL	3					n
-en asiat	an Asian	CL	3					n
-et CPR-nummer	a CPR number (Danish personal ID number)	TS	2					n
+en københavner	a Copenhagener	CL	2					n	københavneren|københavnere	the Copenhagener|Copenhageners
+en jyde	a Jutlander	CL	3					n	jyden|jyder	the Jutlander|Jutlanders
+en fynbo	a person from Funen	CL	3					n	fynboen|fynboer	the person from Funen|people from Funen
+en franskmand	a Frenchman / French person	CL	2					n	franskmanden|franskmænd	the Frenchman / the French person|Frenchmen / French people
+en italiener	an Italian	CL	2					n	italieneren|italienere	the Italian|Italians
+en spanier	a Spaniard	CL	2					n	spanieren|spaniere	the Spaniard|Spaniards
+en polak	a Pole	CL	2					n	polakken|polakker	the Pole|Poles
+en kineser	a Chinese person	CL	2					n	kineseren|kinesere	the Chinese person|Chinese people
+en japaner	a Japanese person	CL	2					n	japaneren|japanere	the Japanese person|Japanese people
+en inder	an Indian (from India)	CL	3					n	inderen|indere	the Indian (from India)|Indians (from India)
+en araber	an Arab	CL	3					n	araberen|arabere	the Arab|Arabs
+en tyrker	a Turk	CL	2					n	tyrkeren|tyrkere	the Turk|Turks
+en grønlænder	a Greenlander	CL	3					n	grønlænderen|grønlændere	the Greenlander|Greenlanders
+en islænding	an Icelander	CL	3					n	islændingen|islændinge	the Icelander|Icelanders
+en brite	a Brit	CL	3					n	briten|briter	the Brit|Brits
+en europæer	a European	CL	2					n	europæeren|europæere	the European|Europeans
+en afrikaner	an African	CL	3					n	afrikaneren|afrikanere	the African|Africans
+en asiat	an Asian	CL	3					n	asiaten|asiater	the Asian|Asians
+et CPR-nummer	a CPR number (Danish personal ID number)	TS	2					n	CPR-nummeret|CPR-numre	the CPR number (Danish personal ID number)|CPR numbers (Danish personal ID number)
 MitID	MitID (Danish digital ID)	TS	2					n
 e-Boks	e-Boks (digital mailbox for official letters)	TS	2					n
-Borgerservice	Citizen Services (municipal office)	TS	2					n
+Borgerservice	Citizen Services (municipal office)	TS	2					n	Borgerservicet	the Citizen Services (municipal office)
 Skattestyrelsen	the Danish Tax Agency	TS	3					n
-en venteliste	a waiting list	TS	2					n
-en bosætning	a settlement	SP	4					n
-byplanlægning	urban planning	SP	3		en			n
-en fejring	a celebration	CH	3					n
-en indsamling	a collection (fundraiser)	CH	3					n
-en bersærk	a berserker	CH	4					n
-en borg	a castle (fortress)	CH	3					n
-en dronning	a queen	CH	2					n
-en havfrue	a mermaid	CH	3					n
-en heks	a witch	CH	2					n
-hellig	holy	CH	3					a
+en venteliste	a waiting list	TS	2					n	ventelisten|ventelister	the waiting list|waiting lists
+en bosætning	a settlement	SP	4					n	bosætningen|bosætninger	the settlement|settlements
+byplanlægning	urban planning	SP	3		en			n	byplanlægningen	the urban planning
+en fejring	a celebration	CH	3					n	fejringen|fejringer	the celebration|celebrations
+en indsamling	a collection (fundraiser)	CH	3					n	indsamlingen|indsamlinger	the collection (fundraiser)|collections (fundraiser)
+en bersærk	a berserker	CH	4					n	bersærken|bersærker	the berserker|berserkers
+en borg	a castle (fortress)	CH	3					n	borgen|borge	the castle (fortress)|castles (fortress)
+en dronning	a queen	CH	2					n	dronningen|dronninger	the queen|queens
+en havfrue	a mermaid	CH	3					n	havfruen|havfruer	the mermaid|mermaids
+en heks	a witch	CH	2					n	heksen|hekse	the witch|witches
+hellig	holy	CH	3					a	helligere|helligst	holier|holiest
 historisk	historic / historical	CH	2					a
-en høvding	a chieftain	CH	4					n
-en jætte	a giant (Norse mythology)	CH	4					n
-et kloster	a monastery / convent	CH	3					n
-en konge	a king	CH	2					n
+en høvding	a chieftain	CH	4					n	høvdingen|høvdinge	the chieftain|chieftains
+en jætte	a giant (Norse mythology)	CH	4					n	jætten|jætter	the giant (Norse mythology)|giants (Norse mythology)
+et kloster	a monastery / convent	CH	3					n	klosteret|klostre	the monastery / the convent|monasteries / convents
+en konge	a king	CH	2					n	kongen|konger	the king|kings
 mexicansk	Mexican	CL	2					a
-en munk	a monk	CH	3					n
-mytologi	mythology	CH	3		en			n
-en nisse	a Christmas elf / pixie	CH	2					n
+en munk	a monk	CH	3					n	munken|munke	the monk|monks
+mytologi	mythology	CH	3		en			n	mytologien	the mythology
+en nisse	a Christmas elf / pixie	CH	2					n	nissen|nisser	the Christmas elf / the pixie|Christmas elves / pixies
 oldnordisk	Old Norse	CL	4					a
-pynt	decoration(s)	CH	3		en			n
-en rune	a rune	CH	4					n
-et skjold	a shield	CH	3					n
-en slave	a slave	CH	3					n
-et sværd	a sword	CH	3					n
-et værk	a work (of art) / plant	CH	3					n
-en æggejagt	an egg hunt	CH	3					n
-en studenterhue	a graduation cap	CH	3					n
-en julefrokost	a Christmas lunch (party)	CH	2					n
-en adventskrans	an Advent wreath	CH	3					n
-et kalenderlys	an Advent calendar candle	CH	3					n
-en pakkekalender	a gift Advent calendar	CH	3					n
-en julesang	a Christmas carol	CH	2					n
-en julestjerne	a poinsettia / Christmas star	CH	3					n
-et påskeæg	an Easter egg	CH	2					n
-en påskefrokost	an Easter lunch	CH	3					n
-et sankthansbål	a Midsummer bonfire	CH	3					n
-en fødselsdagsgave	a birthday present	CH	2					n
-en flagstang	a flagpole	CH	3					n
-en guirlande	a garland / streamer	CH	4					n
-konfetti	confetti	CH	3		en			n
-en festtale	a (celebratory) speech	CH	4					n
-en indflytningsgave	a housewarming gift	CH	4					n
-en værtindegave	a hostess gift	CH	4					n
-et takkekort	a thank-you card	CH	3					n
-et lykønskningskort	a greeting card	CH	4					n
-en brudekjole	a wedding dress	CH	3					n
-et guldbryllup	a golden wedding anniversary	CH	3					n
-et sølvbryllup	a silver wedding anniversary	CH	3					n
-en mindehøjtidelighed	a memorial service	CH	4					n
-en kondolence	a condolence	CH	4					n
-en gravsten	a gravestone	CH	3					n
-en krans	a wreath	CH	3					n
-en urne	an urn	CH	4					n
+pynt	decoration(s)	CH	3		en			n	pynten	the decoration(s)
+en rune	a rune	CH	4					n	runen|runer	the rune|runes
+et skjold	a shield	CH	3					n	skjoldet|skjolde	the shield|shields
+en slave	a slave	CH	3					n	slaven|slaver	the slave|slaves
+et sværd	a sword	CH	3					n	sværdet	the sword
+et værk	a work (of art) / plant	CH	3					n	værket	the work (of art) / the plant
+en æggejagt	an egg hunt	CH	3					n	æggejagten|æggejagter	the egg hunt|egg hunts
+en studenterhue	a graduation cap	CH	3					n	studenterhuen|studenterhuer	the graduation cap|graduation caps
+en julefrokost	a Christmas lunch (party)	CH	2					n	julefrokosten|julefrokoster	the Christmas lunch (party)|Christmas lunches (party)
+en adventskrans	an Advent wreath	CH	3					n	adventskransen|adventskranse	the Advent wreath|Advent wreaths
+et kalenderlys	an Advent calendar candle	CH	3					n	kalenderlyset	the Advent calendar candle
+en pakkekalender	a gift Advent calendar	CH	3					n	pakkekalenderen|pakkekalendere	the gift Advent calendar|gift Advent calendars
+en julesang	a Christmas carol	CH	2					n	julesangen|julesange	the Christmas carol|Christmas carols
+en julestjerne	a poinsettia / Christmas star	CH	3					n	julestjernen|julestjerner	the poinsettia / the Christmas star|poinsettias / Christmas stars
+et påskeæg	an Easter egg	CH	2					n	påskeægget	the Easter egg
+en påskefrokost	an Easter lunch	CH	3					n	påskefrokosten|påskefrokoster	the Easter lunch|Easter lunches
+et sankthansbål	a Midsummer bonfire	CH	3					n	sankthansbålet	the Midsummer bonfire
+en fødselsdagsgave	a birthday present	CH	2					n	fødselsdagsgaven|fødselsdagsgaver	the birthday present|birthday presents
+en flagstang	a flagpole	CH	3					n	flagstangen|flagstænger	the flagpole|flagpoles
+en guirlande	a garland / streamer	CH	4					n	guirlanden|guirlander	the garland / the streamer|garlands / streamers
+konfetti	confetti	CH	3		en			n	konfettien	the confetti
+en festtale	a (celebratory) speech	CH	4					n	festtalen|festtaler	the (celebratory) speech|(celebratory) speeches
+en indflytningsgave	a housewarming gift	CH	4					n	indflytningsgaven|indflytningsgaver	the housewarming gift|housewarming gifts
+en værtindegave	a hostess gift	CH	4					n	værtindegaven|værtindegaver	the hostess gift|hostess gifts
+et takkekort	a thank-you card	CH	3					n	takkekortet	the thank-you card
+et lykønskningskort	a greeting card	CH	4					n	lykønskningskortet	the greeting card
+en brudekjole	a wedding dress	CH	3					n	brudekjolen|brudekjoler	the wedding dress|wedding dresses
+et guldbryllup	a golden wedding anniversary	CH	3					n	guldbrylluppet|guldbryllupper	the golden wedding anniversary|golden wedding anniversaries
+et sølvbryllup	a silver wedding anniversary	CH	3					n	sølvbrylluppet|sølvbryllupper	the silver wedding anniversary|silver wedding anniversaries
+en mindehøjtidelighed	a memorial service	CH	4					n	mindehøjtideligheden|mindehøjtideligheder	the memorial service|memorial services
+en kondolence	a condolence	CH	4					n	kondolencen|kondolencer	the condolence|condolences
+en gravsten	a gravestone	CH	3					n	gravstenen|gravstene	the gravestone|gravestones
+en krans	a wreath	CH	3					n	kransen|kranse	the wreath|wreaths
+en urne	an urn	CH	4					n	urnen|urner	the urn|urns
 et offentligt rum	a public space	SP	3					n
-arkitektur	architecture	CH	3		en			n
-en fællesspisning	a communal dinner	CH	3					n
-en ønskeseddel	a wish list (gifts)	CH	2					n
-en blomsterbuket	a bouquet	CH	3					n
-en byfest	a town festival	CH	3					n
-en festdag	a festive day	CH	3					n
-julepynt	Christmas decorations	CH	3		en			n
-en kulturforskel	a cultural difference	CL	3					n
-langfredag	Good Friday	CH	3		en			n
-skærtorsdag	Maundy Thursday	CH	3		en			n
-påskedag	Easter Sunday	CH	3		en			n
-en privatperson	a private individual	SP	3					n
-et hjemland	a home country	CL	3					n
-et ungdomshus	a youth center	CH	3					n
+arkitektur	architecture	CH	3		en			n	arkitekturen	the architecture
+en fællesspisning	a communal dinner	CH	3					n	fællesspisningen|fællesspisninger	the communal dinner|communal dinners
+en ønskeseddel	a wish list (gifts)	CH	2					n	ønskesedlen|ønskesedler	the wish list (gifts)|wish lists (gifts)
+en blomsterbuket	a bouquet	CH	3					n	blomsterbuketten|blomsterbuketter	the bouquet|bouquets
+en byfest	a town festival	CH	3					n	byfesten|byfester	the town festival|town festivals
+en festdag	a festive day	CH	3					n	festdagen|festdage	the festive day|festive days
+julepynt	Christmas decorations	CH	3		en			n	julepynten	the Christmas decorations
+en kulturforskel	a cultural difference	CL	3					n	kulturforskellen|kulturforskelle	the cultural difference|cultural differences
+langfredag	Good Friday	CH	3		en			n	langfredagen	the Good Friday
+skærtorsdag	Maundy Thursday	CH	3		en			n	skærtorsdagen	the Maundy Thursday
+påskedag	Easter Sunday	CH	3		en			n	påskedagen	the Easter Sunday
+en privatperson	a private individual	SP	3					n	privatpersonen|privatpersoner	the private individual|private individuals
+et hjemland	a home country	CL	3					n	hjemlandet|hjemlande	the home country|home countries
+et ungdomshus	a youth center	CH	3					n	ungdomshuset|ungdomshuse	the youth center|youth centers
 et åbent hus	an open house	CH	2					n
-en fødselsdagsfest	a birthday party	CH	1					n
-en julemiddag	a Christmas dinner	CH	2					n
-en nytårskur	a New Year's reception	CH	4					n
-fritid	free time	FS	2					n
-en interesse	an interest	FS	2					n
-et talent	a talent	FS	2					n
-en hobby	a hobby	FS	1					n
-en samling	a collection	FS	3					n
-et håndarbejde	a handicraft	FS	3					n
-strikning	knitting	FS	3					n
-syning	sewing	FS	3					n
-et maleri	a painting	CH	2					n
-en tegning	a drawing	CH	2					n
-et fotografi	a photograph	CH	2					n
-en koncert	a concert	CH	2					n
-en udstilling	an exhibition	CH	2					n
-en biograf	a cinema	TS	1					n
-et teater	a theatre	TS	2					n
-en forestilling	a performance	CH	2					n
-en klub	a club	FS	2					n
-en konkurrence	a competition	FS	2					n
-en turnering	a tournament	FS	3					n
-en sejr	a victory	FS	2					n
-et nederlag	a defeat	FS	3					n
-en holdkammerat	a teammate	FS	3					n
-en fanklub	a fan club	FS	3					n
-en tilskuer	a spectator	FS	3					n
-yoga	yoga	FS	2					n
-en meditation	a meditation	FS	3					n
-en vandretur	a hike	FS	2					n
-en cykeltur	a bike ride	FS	2					n
-fiskeri	fishing	FS	3					n
-en jagt	a hunt	FS	3					n
-havearbejde	gardening	FS	3		et			n
-en gåtur	a walk	FS	2					n
-et brætspil	a board game	FS	2					n
-et puslespil	a puzzle	FS	2					n
-en gætteleg	a guessing game	FS	4					n
-et håndværk	a craft	FS	3					n
-en øvelse	an exercise	SL	2					n
-en styrke	a strength	FS	2					n
-udholdenhed	endurance	FS	4		en			n
-kondition	fitness	FS	3					n
-et fitnesscenter	a gym	FS	2					n
-en træner	a coach	FS	2					n
-et hold	a team	FS	2					n
-en modstander	an opponent	FS	3					n
-en bane	a field/court	FS	2					n
-en runde	a round	FS	2					n
-en rekord	a record	FS	3					n
-en medalje	a medal	FS	2					n
-en præstation	a performance	FS	3					n
-en opvarmning	a warm-up	FS	3					n
-en udstrækning	a stretch	FS	3					n
-en løbetur	a run	FS	2					n
-en svømmetur	a swim	FS	2					n
-en fodboldkamp	a football match	FS	2					n
-et mesterskab	a championship	FS	3					n
-en spøg	a joke / prank	FS	2					n
-en scene	a stage / scene	CH	2					n
-en maske	a mask	FS	2					n
-publikum	audience	CH	3		et			n
+en fødselsdagsfest	a birthday party	CH	1					n	fødselsdagsfesten|fødselsdagsfester	the birthday party|birthday parties
+en julemiddag	a Christmas dinner	CH	2					n	julemiddagen|julemiddage	the Christmas dinner|Christmas dinners
+en nytårskur	a New Year's reception	CH	4					n	nytårskuren|nytårskure	the New Year's reception|New Year's receptions
+fritid	free time	FS	2					n	fritiden	the free time
+en interesse	an interest	FS	2					n	interessen|interesser	the interest|interests
+et talent	a talent	FS	2					n	talentet|talenter	the talent|talents
+en hobby	a hobby	FS	1					n	hobbyen|hobbyer	the hobby|hobbies
+en samling	a collection	FS	3					n	samlingen|samlinger	the collection|collections
+et håndarbejde	a handicraft	FS	3					n	håndarbejdet|håndarbejder	the handicraft|handicraft
+strikning	knitting	FS	3					n	strikningen	the knitting
+syning	sewing	FS	3					n	syningen	the sewing
+et maleri	a painting	CH	2					n	maleriet|malerier	the painting|paintings
+en tegning	a drawing	CH	2					n	tegningen|tegninger	the drawing|drawings
+et fotografi	a photograph	CH	2					n	fotografiet|fotografier	the photograph|photographs
+en koncert	a concert	CH	2					n	koncerten|koncerter	the concert|concerts
+en udstilling	an exhibition	CH	2					n	udstillingen|udstillinger	the exhibition|exhibitions
+en biograf	a cinema	TS	1					n	biografen|biografer	the cinema|cinemas
+et teater	a theatre	TS	2					n	teatret|teatre	the theatre|theatres
+en forestilling	a performance	CH	2					n	forestillingen|forestillinger	the performance|performances
+en klub	a club	FS	2					n	klubben|klubber	the club|clubs
+en konkurrence	a competition	FS	2					n	konkurrencen|konkurrencer	the competition|competitions
+en turnering	a tournament	FS	3					n	turneringen|turneringer	the tournament|tournaments
+en sejr	a victory	FS	2					n	sejren|sejre	the victory|victories
+et nederlag	a defeat	FS	3					n	nederlaget	the defeat
+en holdkammerat	a teammate	FS	3					n	holdkammeraten|holdkammerater	the teammate|teammates
+en fanklub	a fan club	FS	3					n	fanklubben|fanklubber	the fan club|fan clubs
+en tilskuer	a spectator	FS	3					n	tilskueren|tilskuere	the spectator|spectators
+yoga	yoga	FS	2					n	yogaen	the yoga
+en meditation	a meditation	FS	3					n	meditationen|meditationer	the meditation|meditations
+en vandretur	a hike	FS	2					n	vandreturen|vandreture	the hike|hikes
+en cykeltur	a bike ride	FS	2					n	cykelturen|cykelture	the bike ride|bike rides
+fiskeri	fishing	FS	3					n	fiskeriet	the fishing
+en jagt	a hunt	FS	3					n	jagten|jagter	the hunt|hunts
+havearbejde	gardening	FS	3		et			n	havearbejdet	the gardening
+en gåtur	a walk	FS	2					n	gåturen|gåture	the walk|walks
+et brætspil	a board game	FS	2					n	brætspillet	the board game
+et puslespil	a puzzle	FS	2					n	puslespillet	the puzzle
+en gætteleg	a guessing game	FS	4					n	gættelegen|gættelege	the guessing game|guessing games
+et håndværk	a craft	FS	3					n	håndværket	the craft
+en øvelse	an exercise	SL	2					n	øvelsen|øvelser	the exercise|exercises
+en styrke	a strength	FS	2					n	styrken|styrker	the strength|strengths
+udholdenhed	endurance	FS	4		en			n	udholdenheden	the endurance
+kondition	fitness	FS	3					n	konditionen	the fitness
+et fitnesscenter	a gym	FS	2					n	fitnesscentret|fitnesscentre	the gym|gyms
+en træner	a coach	FS	2					n	træneren|trænere	the coach|coaches
+et hold	a team	FS	2					n	holdet	the team
+en modstander	an opponent	FS	3					n	modstanderen|modstandere	the opponent|opponents
+en bane	a field/court	FS	2					n	banen|baner	the field/court|field/courts
+en runde	a round	FS	2					n	runden|runder	the round|rounds
+en rekord	a record	FS	3					n	rekorden|rekorder	the record|records
+en medalje	a medal	FS	2					n	medaljen|medaljer	the medal|medals
+en præstation	a performance	FS	3					n	præstationen|præstationer	the performance|performances
+en opvarmning	a warm-up	FS	3					n	opvarmningen|opvarmninger	the warm-up|warm-ups
+en udstrækning	a stretch	FS	3					n	udstrækningen|udstrækninger	the stretch|stretches
+en løbetur	a run	FS	2					n	løbeturen|løbeture	the run|runs
+en svømmetur	a swim	FS	2					n	svømmeturen|svømmeture	the swim|swims
+en fodboldkamp	a football match	FS	2					n	fodboldkampen|fodboldkampe	the football match|football matches
+et mesterskab	a championship	FS	3					n	mesterskabet|mesterskaber	the championship|championships
+en spøg	a joke / prank	FS	2					n	spøgen|spøge	the joke / the prank|jokes / pranks
+en scene	a stage / scene	CH	2					n	scenen|scener	the stage / the scene|stages / scenes
+en maske	a mask	FS	2					n	masken|masker	the mask|masks
+publikum	audience	CH	3		et			n	publikummet	the audience
 en fan	a fan	FS	2					n
-et trick	a trick	FS	2					n
-legetøj	toys	FS	2		et			n
-en drage	a dragon / kite	FS	2					n
-en lejr	a camp	FS	2					n
-et hit	a hit	FS	3					n
-en score	a score	FS	2					n
-en klovn	a clown	CH	2					n
-en dagbog	a diary	FS	2					n
-et skuespil	a play (theater)	CH	3					n
-en vinder	a winner	FS	2					n
-en pool	a pool	FS	2					n
-en aktivitet	an activity	FS	2					n
-et cirkus	a circus	CH	2					n
-skak	chess	FS	2		en			n
-en jæger	a hunter	FS	3					n
-en skurk	a villain	CH	3					n
-et væddemål	a bet	FS	3					n
-en vits	a joke	FS	3					n
-et digt	a poem	CH	2					n
-et kostume	a costume	CH	2					n
-et drama	a drama	CH	3					n
+et trick	a trick	FS	2					n	tricket	the trick
+legetøj	toys	FS	2		et			n	legetøjet	the toys
+en drage	a dragon / kite	FS	2					n	dragen|drager	the dragon / the kite|dragons / kites
+en lejr	a camp	FS	2					n	lejren|lejre	the camp|camps
+et hit	a hit	FS	3					n	hitt	the hit
+en score	a score	FS	2					n	scoren|scorer	the score|scores
+en klovn	a clown	CH	2					n	klovnen|klovne	the clown|clowns
+en dagbog	a diary	FS	2					n	dagbogen|dagbøger	the diary|diaries
+et skuespil	a play (theater)	CH	3					n	skuespillet	the play (theater)
+en vinder	a winner	FS	2					n	vinderen|vindere	the winner|winners
+en pool	a pool	FS	2					n	poolen|pooler	the pool|pools
+en aktivitet	an activity	FS	2					n	aktiviteten|aktiviteter	the activity|activities
+et cirkus	a circus	CH	2					n	cirkusset|cirkusser	the circus|circuses
+skak	chess	FS	2		en			n	skakken	the chess
+en jæger	a hunter	FS	3					n	jægeren|jægere	the hunter|hunters
+en skurk	a villain	CH	3					n	skurken|skurke	the villain|villains
+et væddemål	a bet	FS	3					n	væddemålet	the bet
+en vits	a joke	FS	3					n	vitsen|vitser	the joke|jokes
+et digt	a poem	CH	2					n	digtet|digte	the poem|poems
+et kostume	a costume	CH	2					n	kostumet|kostumer	the costume|costumes
+et drama	a drama	CH	3					n	dramaet|dramaer	the drama|dramas
 basketball	basketball	FS	2		en			n
 odds	odds	FS	3		pl			n
-et kor	a choir	CH	2					n
-en vittighed	a joke	FS	3					n
-et kasino	a casino	FS	3					n
-en finale	a final	FS	3					n
-poesi	poetry	CH	3		en			n
-et bal	a ball (dance)	FS	3					n
+et kor	a choir	CH	2					n	koret	the choir
+en vittighed	a joke	FS	3					n	vittigheden|vittigheder	the joke|jokes
+et kasino	a casino	FS	3					n	kasinoet|kasinoer	the casino|casinos
+en finale	a final	FS	3					n	finalen|finaler	the final|finals
+poesi	poetry	CH	3		en			n	poesien	the poetry
+et bal	a ball (dance)	FS	3					n	ballet|baller	the ball (dance)|balls (dance)
 en optræden	a performance	CH	3					n
-en coach	a coach	FS	3					n
-underholdning	entertainment	FS	3		en			n
-et sejl	a sail	FS	3					n
-en gevinst	a prize / winnings	FS	3					n
-en komedie	a comedy	CH	3					n
-en fabel	a fable	CH	3					n
-en pirat	a pirate	CH	3					n
-jazz	jazz	CH	2		en			n
-en brik	a piece (game) / tile	FS	3					n
-et forspring	a head start / lead	FS	3					n
-et manuskript	a manuscript / script	CH	3					n
-en natklub	a nightclub	FS	2					n
-en spejder	a scout	FS	3					n
-en bamse	a teddy bear	FS	2					n
-bifald	applause	FS	3		et			n
-et album	an album	CH	2					n
+en coach	a coach	FS	3					n	coachen|coache	the coach|coaches
+underholdning	entertainment	FS	3		en			n	underholdningen	the entertainment
+et sejl	a sail	FS	3					n	sejlet	the sail
+en gevinst	a prize / winnings	FS	3					n	gevinsten|gevinster	the prize / the winnings|prizes / winningss
+en komedie	a comedy	CH	3					n	komedien|komedier	the comedy|comedies
+en fabel	a fable	CH	3					n	fablen|fabler	the fable|fables
+en pirat	a pirate	CH	3					n	piraten|pirater	the pirate|pirates
+jazz	jazz	CH	2		en			n	jazzen	the jazz
+en brik	a piece (game) / tile	FS	3					n	brikken|brikker	the piece (game) / the tile|pieces (game) / tiles
+et forspring	a head start / lead	FS	3					n	forspringet	the head start / the lead
+et manuskript	a manuscript / script	CH	3					n	manuskriptet|manuskripter	the manuscript / the script|manuscripts / scripts
+en natklub	a nightclub	FS	2					n	natklubben|natklubber	the nightclub|nightclubs
+en spejder	a scout	FS	3					n	spejderen|spejdere	the scout|scouts
+en bamse	a teddy bear	FS	2					n	bamsen|bamser	the teddy bear|teddy bears
+bifald	applause	FS	3		et			n	bifaldet	the applause
+et album	an album	CH	2					n	albummet|albummer	the album|albums
 en zoologisk have	a zoo	FS	2					n
-en fritidsaktivitet	a leisure activity	FS	3					n
-sport	sport	FS	1		en			n
-en sportsgren	a sport (type)	FS	3					n
-en spiller	a player	FS	2					n
-en kamp	a match / game	FS	2					n
-en pokal	a trophy / cup	FS	3					n
+en fritidsaktivitet	a leisure activity	FS	3					n	fritidsaktiviteten|fritidsaktiviteter	the leisure activity|leisure activities
+sport	sport	FS	1		en			n	sporten	the sport
+en sportsgren	a sport (type)	FS	3					n	sportsgrenen|sportsgrene	the sport (type)|sports (type)
+en spiller	a player	FS	2					n	spilleren|spillere	the player|players
+en kamp	a match / game	FS	2					n	kampen|kampe	the match / the game|matches / games
+en pokal	a trophy / cup	FS	3					n	pokalen|pokaler	the trophy / the cup|trophies / cups
 uafgjort	drawn / tied (game)	FS	4					a
-et stadion	a stadium	FS	2					n
-en svømmehal	a swimming pool (indoor)	FS	2					n
-en idrætshal	a sports hall	FS	3					n
-en ketsjer	a racket	FS	3					n
-et cykelløb	a bike race	FS	3					n
-et maraton	a marathon	FS	2					n
-golf	golf	FS	2		en			n
-ishockey	ice hockey	FS	2		en			n
+et stadion	a stadium	FS	2					n	stadionet|stadioner	the stadium|stadiums
+en svømmehal	a swimming pool (indoor)	FS	2					n	svømmehallen|svømmehaller	the swimming pool (indoor)|swimming pools (indoor)
+en idrætshal	a sports hall	FS	3					n	idrætshallen|idrætshaller	the sports hall|sports halls
+en ketsjer	a racket	FS	3					n	ketsjeren|ketsjere	the racket|rackets
+et cykelløb	a bike race	FS	3					n	cykelløbet	the bike race
+et maraton	a marathon	FS	2					n	maratonet|maratoner	the marathon|marathons
+golf	golf	FS	2		en			n	golfen	the golf
+ishockey	ice hockey	FS	2		en			n	ishockeyen	the ice hockey
 volleyball	volleyball	FS	2		en			n
-ridning	horse riding	FS	3		en			n
-sejlads	sailing	FS	3		en			n
-roning	rowing	FS	3		en			n
-kajak	kayaking / a kayak	FS	3		en			n
-klatring	climbing	FS	3		en			n
-skiløb	skiing	FS	3		et			n
-skøjteløb	ice skating	FS	3		et			n
-en skøjte	a skate	FS	3					n
-en ski	a ski	FS	2					n
-et kortspil	a card game	FS	2					n
-et computerspil	a computer game	FS	2					n
-en terning	a die / cube	FS	2					n
-en krydsogtværs	a crossword	FS	3					n
-en skulptur	a sculpture	CH	3					n
-en digter	a poet	CH	3					n
-en novelle	a short story	CH	3					n
-en krimi	a crime novel / show	CH	2					n
-en tegneserie	a comic	CH	2					n
-en hovedperson	a main character	CH	3					n
-en melodi	a melody	CH	2					n
-et band	a band	CH	2					n
-et instrument	an instrument	CH	2					n
-en tromme	a drum	CH	2					n
-en trompet	a trumpet	CH	2					n
-en festival	a festival	CH	2					n
-en tegnefilm	a cartoon	CH	2					n
-en opera	an opera	CH	2					n
-en ballet	a ballet	CH	3					n
-en picnic	a picnic	FS	2					n
-en grillfest	a barbecue party	FS	2					n
+ridning	horse riding	FS	3		en			n	ridningen	the horse riding
+sejlads	sailing	FS	3		en			n	sejladsen	the sailing
+roning	rowing	FS	3		en			n	roningen	the rowing
+kajak	kayaking / a kayak	FS	3		en			n	kajakken	the kayaking / the kayak
+klatring	climbing	FS	3		en			n	klatringen	the climbing
+skiløb	skiing	FS	3		et			n	skiløbet	the skiing
+skøjteløb	ice skating	FS	3		et			n	skøjteløbet	the ice skating
+en skøjte	a skate	FS	3					n	skøjten|skøjter	the skate|skates
+en ski	a ski	FS	2					n	skien	the ski
+et kortspil	a card game	FS	2					n	kortspillet	the card game
+et computerspil	a computer game	FS	2					n	computerspillet	the computer game
+en terning	a die / cube	FS	2					n	terningen|terninger	the die / the cube|dice / cubes
+en krydsogtværs	a crossword	FS	3					n	krydsogtværsen|krydsogtværser	the crossword|crosswords
+en skulptur	a sculpture	CH	3					n	skulpturen|skulpturer	the sculpture|sculptures
+en digter	a poet	CH	3					n	digteren|digtere	the poet|poets
+en novelle	a short story	CH	3					n	novellen|noveller	the short story|short stories
+en krimi	a crime novel / show	CH	2					n	krimien|krimier	the crime novel / the show|crime novels / shows
+en tegneserie	a comic	CH	2					n	tegneserien|tegneserier	the comic|comics
+en hovedperson	a main character	CH	3					n	hovedpersonen|hovedpersoner	the main character|main characters
+en melodi	a melody	CH	2					n	melodien|melodier	the melody|melodies
+et band	a band	CH	2					n	bandet	the band
+et instrument	an instrument	CH	2					n	instrumentet|instrumenter	the instrument|instruments
+en tromme	a drum	CH	2					n	trommen|trommer	the drum|drums
+en trompet	a trumpet	CH	2					n	trompeten|trompeter	the trumpet|trumpets
+en festival	a festival	CH	2					n	festivalen|festivaler	the festival|festivals
+en tegnefilm	a cartoon	CH	2					n	tegnefilmen	the cartoon
+en opera	an opera	CH	2					n	operaen|operaer	the opera|operas
+en ballet	a ballet	CH	3					n	balletten|balletter	the ballet|ballets
+en picnic	a picnic	FS	2					n	picnicen|picnicer	the picnic|picnics
+en grillfest	a barbecue party	FS	2					n	grillfesten|grillfester	the barbecue party|barbecue parties
 at dyrke sport	to do sports	FS	2	dyrker sport|dyrkede sport|dyrket sport		jeg dyrker sport|jeg dyrkede sport|jeg har dyrket sport	I do sports|I did sports|I have done sports	v
 at spille fodbold	to play soccer	FS	1	spiller fodbold|spillede fodbold|spillet fodbold		jeg spiller fodbold|jeg spillede fodbold|jeg har spillet fodbold	I play soccer|I played soccer|I have played soccer	v
 at dykke	to dive	FS	2	dykker|dykkede|dykket		jeg dykker|jeg dykkede|jeg har dykket	I dive|I dove|I have dived	v
@@ -8874,315 +8877,315 @@ at feste	to party	FS	2	fester|festede|festet		jeg fester|jeg festede|jeg har fes
 underholdende	entertaining	FS	3					a
 sportslig	sporty / athletic	FS	3					a
 musikalsk	musical	FS	2					a
-en arrangør	an organizer	FS	3					n
-en fortælling	a story / narrative	CH	3					n
-en opførelse	a construction / performance	CH	4					n
-en skildring	a depiction	CH	4					n
-en hængekøje	a hammock	FS	3					n
-en autograf	an autograph	FS	2					n
-badminton	badminton	FS	2		en			n
-et bål	a bonfire / campfire	FS	2					n
-en bold	a ball	FS	1					n
+en arrangør	an organizer	FS	3					n	arrangøren|arrangører	the organizer|organizers
+en fortælling	a story / narrative	CH	3					n	fortællingen|fortællinger	the story / the narrative|stories / narratives
+en opførelse	a construction / performance	CH	4					n	opførelsen|opførelser	the construction / the performance|constructions / performances
+en skildring	a depiction	CH	4					n	skildringen|skildringer	the depiction|depictions
+en hængekøje	a hammock	FS	3					n	hængekøjen|hængekøjer	the hammock|hammocks
+en autograf	an autograph	FS	2					n	autografen|autografer	the autograph|autographs
+badminton	badminton	FS	2		en			n	badmintonen	the badminton
+et bål	a bonfire / campfire	FS	2					n	bålet	the bonfire / the campfire
+en bold	a ball	FS	1					n	bolden|bolde	the ball|balls
 en botanisk have	botanical garden	FS	3		en			n
 at cykle	to cycle	FS	1	cykler|cyklede|cyklet		jeg cykler|jeg cyklede|jeg har cyklet	I cycle|I cycled|I have cycled	v
-cykling	cycling	FS	2		en			n
-en dans	a dance	FS	1					n
-et eventyr	a fairy tale / adventure	CH	2					n
-en film	a film / movie	CH	1					n
+cykling	cycling	FS	2		en			n	cyklingen	the cycling
+en dans	a dance	FS	1					n	dansen|danse	the dance|dances
+et eventyr	a fairy tale / adventure	CH	2					n	eventyret	the fairy tale / the adventure
+en film	a film / movie	CH	1					n	filmen	the film / the movie
 fitness	fitness (gym training)	FS	2		et			n
-en fløjte	a flute / whistle	CH	2					n
-fodbold	soccer / football	FS	1		en			n
-en fodboldspiller	a soccer player	FS	2					n
-en guitar	a guitar	CH	2					n
-gymnastik	gymnastics	FS	2		en			n
-en hal	a hall (sports / large room)	FS	2					n
-håndbold	handball	FS	2		en			n
-en joke	a joke	FS	2					n
-et kapitel	a chapter	CH	2					n
+en fløjte	a flute / whistle	CH	2					n	fløjten|fløjter	the flute / the whistle|flutes / whistles
+fodbold	soccer / football	FS	1		en			n	fodbolden	the soccer / the football
+en fodboldspiller	a soccer player	FS	2					n	fodboldspilleren|fodboldspillere	the soccer player|soccer players
+en guitar	a guitar	CH	2					n	guitaren|guitarer	the guitar|guitars
+gymnastik	gymnastics	FS	2		en			n	gymnastikken	the gymnastics
+en hal	a hall (sports / large room)	FS	2					n	hallen|haller	the hall (sports / the large room)|hall (sportss / large room)s
+håndbold	handball	FS	2		en			n	håndbolden	the handball
+en joke	a joke	FS	2					n	joken	the joke
+et kapitel	a chapter	CH	2					n	kapitlet|kapitler	the chapter|chapters
 klassisk	classical / classic	CH	2					a
-et klaver	a piano	CH	2					n
-en komiker	a comedian	CH	3					n
-en leg	a game (play)	FS	2					n
+et klaver	a piano	CH	2					n	klaveret|klaverer	the piano|pianos
+en komiker	a comedian	CH	3					n	komikeren|komikere	the comedian|comedians
+en leg	a game (play)	FS	2					n	legen|lege	the game (play)|games (play)
 lotto	lottery	FS	3		en			n
-en medspiller	a teammate	FS	3					n
-en modspiller	an opponent (in a game)	FS	3					n
+en medspiller	a teammate	FS	3					n	medspilleren|medspillere	the teammate|teammates
+en modspiller	an opponent (in a game)	FS	3					n	modspilleren|modspillere	the opponent (in a game)|opponents (in a game)
 at mime	to mime	FS	3	mimer|mimede|mimet		jeg mimer|jeg mimede|jeg har mimet	I mime|I mimed|I have mimed	v
-en pensel	a paintbrush	CH	3					n
-et point	a point (score)	FS	2					n
-rock	rock (music)	CH	2		en			n
-en roman	a novel	CH	2					n
-en rytme	a rhythm	CH	3					n
-en sommerferie	a summer vacation	FS	1					n
-et spil	a game	FS	1					n
-svømning	swimming	FS	2		en			n
-tennis	tennis	FS	2		en			n
-en udklædning	a costume / dress-up	FS	3					n
-en violin	a violin	CH	2					n
-en skuespillerinde	an actress	CH	3					n
-en danser	a dancer	CH	2					n
-en billedhugger	a sculptor	CH	4					n
-en komponist	a composer	CH	3					n
-en dirigent	a conductor	CH	3					n
+en pensel	a paintbrush	CH	3					n	penslen|pensler	the paintbrush|paintbrushes
+et point	a point (score)	FS	2					n	pointet	the point (score)
+rock	rock (music)	CH	2		en			n	rocken	the rock (music)
+en roman	a novel	CH	2					n	romanen|romaner	the novel|novels
+en rytme	a rhythm	CH	3					n	rytmen|rytmer	the rhythm|rhythms
+en sommerferie	a summer vacation	FS	1					n	sommerferien|sommerferier	the summer vacation|summer vacations
+et spil	a game	FS	1					n	spillet	the game
+svømning	swimming	FS	2		en			n	svømningen	the swimming
+tennis	tennis	FS	2		en			n	tennissen	the tennis
+en udklædning	a costume / dress-up	FS	3					n	udklædningen|udklædninger	the costume / the dress-up|costumes / dress-ups
+en violin	a violin	CH	2					n	violinen|violiner	the violin|violins
+en skuespillerinde	an actress	CH	3					n	skuespillerinden|skuespillerinder	the actress|actresses
+en danser	a dancer	CH	2					n	danseren|dansere	the dancer|dancers
+en billedhugger	a sculptor	CH	4					n	billedhuggeren|billedhuggere	the sculptor|sculptors
+en komponist	a composer	CH	3					n	komponisten|komponister	the composer|composers
+en dirigent	a conductor	CH	3					n	dirigenten|dirigenter	the conductor|conductors
 en personlig træner	a personal trainer	FS	3					n
-en målmand	a goalkeeper	FS	2					n
-en angriber	a forward / attacker	FS	3					n
-en forsvarsspiller	a defender	FS	3					n
-en anfører	a captain (team)	FS	3					n
-et straffespark	a penalty kick	FS	3					n
-et frispark	a free kick	FS	3					n
-et hjørnespark	a corner kick	FS	3					n
-en offside	an offside	FS	4					n
-en halvleg	a half (of a game)	FS	3					n
-en omkamp	a rematch	FS	4					n
-en landskamp	an international match	FS	3					n
-et landshold	a national team	FS	2					n
-en liga	a league	FS	3					n
-en sæsonbillet	a season ticket	FS	3					n
-et træningspas	a training session	FS	3					n
-en løbesko	a running shoe	FS	2					n
-træningstøj	workout clothes	FS	2		et			n
-en yogamåtte	a yoga mat	FS	3					n
-en håndvægt	a dumbbell	FS	4					n
-en kondicykel	an exercise bike	FS	3					n
-et løbebånd	a treadmill	FS	3					n
-styrketræning	strength training	FS	3		en			n
-en armbøjning	a push-up	FS	3					n
-en mavebøjning	a sit-up	FS	3					n
+en målmand	a goalkeeper	FS	2					n	målmanden|målmænd	the goalkeeper|goalkeepers
+en angriber	a forward / attacker	FS	3					n	angriberen|angribere	the forward / the attacker|forwards / attackers
+en forsvarsspiller	a defender	FS	3					n	forsvarsspilleren|forsvarsspillere	the defender|defenders
+en anfører	a captain (team)	FS	3					n	anføreren|anførere	the captain (team)|captains (team)
+et straffespark	a penalty kick	FS	3					n	straffesparket	the penalty kick
+et frispark	a free kick	FS	3					n	frisparket	the free kick
+et hjørnespark	a corner kick	FS	3					n	hjørnesparket	the corner kick
+en offside	an offside	FS	4					n	offsiden|offsider	the offside|offsides
+en halvleg	a half (of a game)	FS	3					n	halvlegen|halvlege	the half (of a game)|halves (of a game)
+en omkamp	a rematch	FS	4					n	omkampen|omkampe	the rematch|rematches
+en landskamp	an international match	FS	3					n	landskampen|landskampe	the international match|international matches
+et landshold	a national team	FS	2					n	landsholdet	the national team
+en liga	a league	FS	3					n	ligaen|ligaer	the league|leagues
+en sæsonbillet	a season ticket	FS	3					n	sæsonbilletten|sæsonbilletter	the season ticket|season tickets
+et træningspas	a training session	FS	3					n	træningspasset	the training session
+en løbesko	a running shoe	FS	2					n	løbeskoen	the running shoe
+træningstøj	workout clothes	FS	2		et			n	træningstøjet	the workout clothes
+en yogamåtte	a yoga mat	FS	3					n	yogamåtten|yogamåtter	the yoga mat|yoga mats
+en håndvægt	a dumbbell	FS	4					n	håndvægten|håndvægte	the dumbbell|dumbbells
+en kondicykel	an exercise bike	FS	3					n	kondicyklen|kondicykler	the exercise bike|exercise bikes
+et løbebånd	a treadmill	FS	3					n	løbebåndet	the treadmill
+styrketræning	strength training	FS	3		en			n	styrketræningen	the strength training
+en armbøjning	a push-up	FS	3					n	armbøjningen|armbøjninger	the push-up|push-ups
+en mavebøjning	a sit-up	FS	3					n	mavebøjningen|mavebøjninger	the sit-up|sit-ups
 en squat	a squat	FS	4					n
-en sportstaske	a gym bag	FS	2					n
-et omklædningsrum	a locker room	FS	3					n
-en sauna	a sauna	FS	2					n
-en svømmebane	a swimming lane	FS	3					n
-en vippe	a diving board / seesaw	FS	3					n
-en redningskrans	a lifebuoy	FS	4					n
-et vandland	a water park	FS	3					n
-en skøjtebane	an ice rink	FS	3					n
-en bowlinghal	a bowling alley	FS	3					n
-minigolf	mini golf	FS	3		en			n
+en sportstaske	a gym bag	FS	2					n	sportstasken|sportstasker	the gym bag|gym bags
+et omklædningsrum	a locker room	FS	3					n	omklædningsrummet	the locker room
+en sauna	a sauna	FS	2					n	saunaen|saunaer	the sauna|saunas
+en svømmebane	a swimming lane	FS	3					n	svømmebanen|svømmebaner	the swimming lane|swimming lanes
+en vippe	a diving board / seesaw	FS	3					n	vippen|vipper	the diving board / the seesaw|diving boards / seesaws
+en redningskrans	a lifebuoy	FS	4					n	redningskransen|redningskranse	the lifebuoy|lifebuoys
+et vandland	a water park	FS	3					n	vandlandet|vandlande	the water park|water parks
+en skøjtebane	an ice rink	FS	3					n	skøjtebanen|skøjtebaner	the ice rink|ice rinks
+en bowlinghal	a bowling alley	FS	3					n	bowlinghallen|bowlinghaller	the bowling alley|bowling alleys
+minigolf	mini golf	FS	3		en			n	minigolfen	the mini golf
 et escape room	an escape room	FS	4					n
-en quiz	a quiz	FS	2					n
+en quiz	a quiz	FS	2					n	quizzen|quizzer	the quiz|quizzes
 banko	bingo	FS	3		et			n
-en tombola	a raffle	FS	4					n
-et lotteri	a lottery	FS	3					n
-en præmie	a prize	FS	2					n
-en skattejagt	a treasure hunt	FS	3					n
-et kostumebal	a costume party	FS	3					n
-en sammenkomst	a get-together	FS	3					n
-et middagsselskab	a dinner party	FS	3					n
-et sammenskudsgilde	a potluck	FS	4					n
-en havefest	a garden party	FS	3					n
-en studenterfest	a graduation party	FS	3					n
-et bibliotekskort	a library card	FS	2					n
-en udlånstid	a loan period	FS	4					n
-en hundeskov	a dog park	FS	3					n
-et badested	a swimming spot	FS	3					n
-et havnebad	a harbor bath (outdoor pool)	FS	3					n
-en vinterbader	a winter swimmer	FS	4					n
-vinterbadning	winter swimming	FS	3		en			n
-en anekdote	an anecdote	CH	3					n
-en bestseller	a bestseller	CH	3					n
-en biografi	a biography	CH	3					n
-en debut	a debut	CH	3					n
-en dialog	a dialogue	CH	3					n
-en digtsamling	a poetry collection	CH	4					n
-et dukketeater	a puppet theater	CH	3					n
-en festsal	a banquet hall	FS	4					n
-en filmstjerne	a film star	CH	2					n
-en fotobog	a photo book	CH	3					n
-en gallerist	a gallery owner	CH	4					n
-en hovedrolle	a leading role	CH	3					n
-en illustration	an illustration	CH	3					n
-jubel	cheering / jubilation	FS	3		en			n
-en klassiker	a classic	CH	3					n
-et klimaks	a climax	CH	4					n
-en kunstudstilling	an art exhibition	CH	3					n
-et kunstværk	a work of art	CH	3					n
-litteratur	literature	CH	3		en			n
-en lydbog	an audiobook	CH	2					n
-en læser	a reader	CH	2					n
-et ordspil	a pun / wordplay	CH	4					n
-en parodi	a parody	CH	3					n
-en pladespiller	a record player	FS	3					n
-en premiere	a premiere	CH	3					n
-en replik	a line (in a play) / retort	CH	4					n
-en sangtekst	a song lyric	CH	3					n
-en spillefilm	a feature film	CH	3					n
-en spændingsroman	a thriller (novel)	CH	3					n
-en strofe	a stanza	CH	4					n
-en tegner	an illustrator / cartoonist	CH	3					n
-en tekstforfatter	a lyricist / copywriter	CH	4					n
-en tilhører	a listener	CH	3					n
-en titelsang	a theme song	CH	4					n
-et forord	a preface	CH	3					n
-et pseudonym	a pseudonym	CH	4					n
-et repertoire	a repertoire	CH	4					n
-et show	a show	CH	2					n
-et teaterstykke	a stage play	CH	3					n
-et vers	a verse	CH	3					n
-en aftentur	an evening walk	FS	3					n
-en bjergbestigning	a mountain climb	FS	4					n
-en fagbog	a nonfiction book	CH	3					n
-en filmaften	a movie night	FS	2					n
-en fredagsbar	a Friday bar	FS	3					n
-en gåde	a riddle / mystery	FS	3					n
-en musikfestival	a music festival	CH	2					n
-en sommerfest	a summer party	FS	2					n
-en sportsklub	a sports club	FS	2					n
-en strandtur	a trip to the beach	FS	2					n
-et fitnessabonnement	a gym membership	FS	3					n
-et koncerthus	a concert hall	CH	3					n
-et tilholdssted	a hangout / haunt	FS	4					n
+en tombola	a raffle	FS	4					n	tombolaen|tombolaer	the raffle|raffles
+et lotteri	a lottery	FS	3					n	lotteriet|lotterier	the lottery|lotteries
+en præmie	a prize	FS	2					n	præmien|præmier	the prize|prizes
+en skattejagt	a treasure hunt	FS	3					n	skattejagten|skattejagter	the treasure hunt|treasure hunts
+et kostumebal	a costume party	FS	3					n	kostumeballet|kostumeballer	the costume party|costume parties
+en sammenkomst	a get-together	FS	3					n	sammenkomsten|sammenkomster	the get-together|get-togethers
+et middagsselskab	a dinner party	FS	3					n	middagsselskabet|middagsselskaber	the dinner party|dinner parties
+et sammenskudsgilde	a potluck	FS	4					n	sammenskudsgildet|sammenskudsgilder	the potluck|potlucks
+en havefest	a garden party	FS	3					n	havefesten|havefester	the garden party|garden parties
+en studenterfest	a graduation party	FS	3					n	studenterfesten|studenterfester	the graduation party|graduation parties
+et bibliotekskort	a library card	FS	2					n	bibliotekskortet	the library card
+en udlånstid	a loan period	FS	4					n	udlånstiden|udlånstider	the loan period|loan periods
+en hundeskov	a dog park	FS	3					n	hundeskoven|hundeskove	the dog park|dog parks
+et badested	a swimming spot	FS	3					n	badestedet|badesteder	the swimming spot|swimming spots
+et havnebad	a harbor bath (outdoor pool)	FS	3					n	havnebadet|havnebade	the harbor bath (outdoor pool)|harbor baths (outdoor pool)
+en vinterbader	a winter swimmer	FS	4					n	vinterbaderen|vinterbadere	the winter swimmer|winter swimmers
+vinterbadning	winter swimming	FS	3		en			n	vinterbadningen	the winter swimming
+en anekdote	an anecdote	CH	3					n	anekdoten|anekdoter	the anecdote|anecdotes
+en bestseller	a bestseller	CH	3					n	bestselleren|bestsellere	the bestseller|bestsellers
+en biografi	a biography	CH	3					n	biografien|biografier	the biography|biographies
+en debut	a debut	CH	3					n	debuten|debuter	the debut|debuts
+en dialog	a dialogue	CH	3					n	dialogen|dialoger	the dialogue|dialogues
+en digtsamling	a poetry collection	CH	4					n	digtsamlingen|digtsamlinger	the poetry collection|poetry collections
+et dukketeater	a puppet theater	CH	3					n	dukketeatret|dukketeatre	the puppet theater|puppet theaters
+en festsal	a banquet hall	FS	4					n	festsalen|festsale	the banquet hall|banquet halls
+en filmstjerne	a film star	CH	2					n	filmstjernen|filmstjerner	the film star|film stars
+en fotobog	a photo book	CH	3					n	fotobogen|fotobøger	the photo book|photo books
+en gallerist	a gallery owner	CH	4					n	galleristen|gallerister	the gallery owner|gallery owners
+en hovedrolle	a leading role	CH	3					n	hovedrollen|hovedroller	the leading role|leading roles
+en illustration	an illustration	CH	3					n	illustrationen|illustrationer	the illustration|illustrations
+jubel	cheering / jubilation	FS	3		en			n	jublen	the cheering / the jubilation
+en klassiker	a classic	CH	3					n	klassikeren|klassikere	the classic|classics
+et klimaks	a climax	CH	4					n	klimakset|klimakser	the climax|climaxes
+en kunstudstilling	an art exhibition	CH	3					n	kunstudstillingen|kunstudstillinger	the art exhibition|art exhibitions
+et kunstværk	a work of art	CH	3					n	kunstværket|kunstværker	the work of art|works of art
+litteratur	literature	CH	3		en			n	litteraturen	the literature
+en lydbog	an audiobook	CH	2					n	lydbogen|lydbøger	the audiobook|audiobooks
+en læser	a reader	CH	2					n	læseren|læsere	the reader|readers
+et ordspil	a pun / wordplay	CH	4					n	ordspillet	the pun / the wordplay
+en parodi	a parody	CH	3					n	parodien|parodier	the parody|parodies
+en pladespiller	a record player	FS	3					n	pladespilleren|pladespillere	the record player|record players
+en premiere	a premiere	CH	3					n	premieren|premierer	the premiere|premieres
+en replik	a line (in a play) / retort	CH	4					n	replikken|replikker	the line (in a play) / the retort|lines (in a play) / retorts
+en sangtekst	a song lyric	CH	3					n	sangteksten|sangtekster	the song lyric|song lyrics
+en spillefilm	a feature film	CH	3					n	spillefilmen	the feature film
+en spændingsroman	a thriller (novel)	CH	3					n	spændingsromanen|spændingsromaner	the thriller (novel)|thrillers (novel)
+en strofe	a stanza	CH	4					n	strofen|strofer	the stanza|stanzas
+en tegner	an illustrator / cartoonist	CH	3					n	tegneren|tegnere	the illustrator / the cartoonist|illustrators / cartoonists
+en tekstforfatter	a lyricist / copywriter	CH	4					n	tekstforfatteren|tekstforfattere	the lyricist / the copywriter|lyricists / copywriters
+en tilhører	a listener	CH	3					n	tilhøreren|tilhørere	the listener|listeners
+en titelsang	a theme song	CH	4					n	titelsangen|titelsange	the theme song|theme songs
+et forord	a preface	CH	3					n	forordet	the preface
+et pseudonym	a pseudonym	CH	4					n	pseudonymt|pseudonymer	the pseudonym|pseudonyms
+et repertoire	a repertoire	CH	4					n	repertoiret|repertoirer	the repertoire|repertoires
+et show	a show	CH	2					n	showet	the show
+et teaterstykke	a stage play	CH	3					n	teaterstykket|teaterstykker	the stage play|stage plays
+et vers	a verse	CH	3					n	verset|vers	the verse|verses
+en aftentur	an evening walk	FS	3					n	aftenturen|aftenture	the evening walk|evening walks
+en bjergbestigning	a mountain climb	FS	4					n	bjergbestigningen|bjergbestigninger	the mountain climb|mountain climbs
+en fagbog	a nonfiction book	CH	3					n	fagbogen|fagbøger	the nonfiction book|nonfiction books
+en filmaften	a movie night	FS	2					n	filmaftenen|filmaftner	the movie night|movie nights
+en fredagsbar	a Friday bar	FS	3					n	fredagsbaren|fredagsbarer	the Friday bar|Friday bars
+en gåde	a riddle / mystery	FS	3					n	gåden|gåder	the riddle / the mystery|riddles / mysteries
+en musikfestival	a music festival	CH	2					n	musikfestivallen|musikfestivaller	the music festival|music festivals
+en sommerfest	a summer party	FS	2					n	sommerfesten|sommerfester	the summer party|summer parties
+en sportsklub	a sports club	FS	2					n	sportsklubben|sportsklubber	the sports club|sports clubs
+en strandtur	a trip to the beach	FS	2					n	strandturen|strandture	the trip to the beach|trips to the beach
+et fitnessabonnement	a gym membership	FS	3					n	fitnessabonnementet|fitnessabonnementer	the gym membership|gym memberships
+et koncerthus	a concert hall	CH	3					n	koncerthuset|koncerthuse	the concert hall|concert halls
+et tilholdssted	a hangout / haunt	FS	4					n	tilholdsstedet|tilholdssteder	the hangout / the haunt|hangouts / haunts
 et tidsfordriv	a pastime	FS	4					n
-en yndlingsbog	a favorite book	CH	2					n
-en yndlingsfilm	a favorite movie	CH	2					n
-en yndlingssang	a favorite song	CH	2					n
-en krig	a war	SP	2					n
-et mord	a murder	SP	3					n
-en præsident	a president	SP	2					n
-et angreb	an attack	SP	3					n
-en magt	a power	SP	3					n
-en morder	a murderer	SP	3					n
-en hær	an army	SP	3					n
-vold	violence	SP	3		en			n
-et fingeraftryk	a fingerprint	SP	3					n
-en senator	a senator	SP	4					n
-en stat	a state	SP	3					n
-retfærdighed	justice	SP	3		en			n
-et forsvar	a defense	SP	3					n
-en spion	a spy	SP	3					n
-en tyv	a thief	SP	2					n
-et røveri	a robbery	SP	2					n
-en kriminalbetjent	a detective	SP	3					n
-en kommissær	a commissioner	SP	4					n
-et militær	a military	SP	3					n
-en flåde	a fleet / navy / raft	SP	3					n
-en modstand	a resistance	SP	3					n
-et gerningssted	a crime scene	SP	3					n
-et drab	a killing / homicide	SP	3					n
-politisk	political	SP	3					a
-en forræder	a traitor	SP	3					n
-en kriminalassistent	a detective sergeant	SP	4					n
-en kanon	a cannon	SP	3					n
-et gevær	a rifle	SP	3					n
-et håndjern	a handcuff	SP	3					n
-en bøde	a fine (penalty)	SP	3					n
-et oprør	a rebellion / uprising	SP	3					n
-en trop	a troop	SP	4					n
-en terrorist	a terrorist	SP	3					n
-et forræderi	a betrayal / treason	SP	3					n
-en guvernør	a governor	SP	3					n
-en anklager	a prosecutor	SP	3					n
-ammunition	ammunition	SP	4		en			n
-et alibi	an alibi	SP	3					n
+en yndlingsbog	a favorite book	CH	2					n	yndlingsbogen|yndlingsbøger	the favorite book|favorite books
+en yndlingsfilm	a favorite movie	CH	2					n	yndlingsfilmen	the favorite movie
+en yndlingssang	a favorite song	CH	2					n	yndlingssangen|yndlingssange	the favorite song|favorite songs
+en krig	a war	SP	2					n	krigen|krige	the war|wars
+et mord	a murder	SP	3					n	mordet	the murder
+en præsident	a president	SP	2					n	præsidenten|præsidenter	the president|presidents
+et angreb	an attack	SP	3					n	angrebet	the attack
+en magt	a power	SP	3					n	magten|magter	the power|powers
+en morder	a murderer	SP	3					n	morderen|mordere	the murderer|murderers
+en hær	an army	SP	3					n	hæren|hære	the army|armies
+vold	violence	SP	3		en			n	volden	the violence
+et fingeraftryk	a fingerprint	SP	3					n	fingeraftrykket	the fingerprint
+en senator	a senator	SP	4					n	senatoren|senatorer	the senator|senators
+en stat	a state	SP	3					n	staten|stater	the state|states
+retfærdighed	justice	SP	3		en			n	retfærdigheden	the justice
+et forsvar	a defense	SP	3					n	forsvaret	the defense
+en spion	a spy	SP	3					n	spionen|spioner	the spy|spies
+en tyv	a thief	SP	2					n	tyven|tyve	the thief|thiefs
+et røveri	a robbery	SP	2					n	røveriet|røverier	the robbery|robberies
+en kriminalbetjent	a detective	SP	3					n	kriminalbetjenten|kriminalbetjente	the detective|detectives
+en kommissær	a commissioner	SP	4					n	kommissæren|kommissærer	the commissioner|commissioners
+et militær	a military	SP	3					n	militæret	the military
+en flåde	a fleet / navy / raft	SP	3					n	flåden|flåder	the fleet / the navy / the raft|fleets / navies / rafts
+en modstand	a resistance	SP	3					n	modstanden|modstande	the resistance|resistances
+et gerningssted	a crime scene	SP	3					n	gerningsstedet|gerningssteder	the crime scene|crime scenes
+et drab	a killing / homicide	SP	3					n	drabet	the killing / the homicide
+politisk	political	SP	2					a
+en forræder	a traitor	SP	3					n	forræderen|forrædere	the traitor|traitors
+en kriminalassistent	a detective sergeant	SP	4					n	kriminalassistenten|kriminalassistenter	the detective sergeant|detective sergeants
+en kanon	a cannon	SP	3					n	kanonen|kanoner	the cannon|cannons
+et gevær	a rifle	SP	3					n	geværet|geværer	the rifle|rifles
+et håndjern	a handcuff	SP	3					n	håndjernet	the handcuff
+en bøde	a fine (penalty)	SP	3					n	bøden|bøder	the fine (penalty)|fines (penalty)
+et oprør	a rebellion / uprising	SP	3					n	oprøret	the rebellion / the uprising
+en trop	a troop	SP	4					n	troppen|tropper	the troop|troops
+en terrorist	a terrorist	SP	3					n	terroristen|terrorister	the terrorist|terrorists
+et forræderi	a betrayal / treason	SP	3					n	forræderiet|forræderier	the betrayal / the treason|betrayals / treasons
+en guvernør	a governor	SP	3					n	guvernøren|guvernører	the governor|governors
+en anklager	a prosecutor	SP	3					n	anklageren|anklagere	the prosecutor|prosecutors
+ammunition	ammunition	SP	4		en			n	ammunitionen	the ammunition
+et alibi	an alibi	SP	3					n	alibiet|alibier	the alibi|alibis
 kriminalitet	crime	SP	3		en			n
-en forbryder	a criminal	SP	3					n
-militær	military	SP	3					a
-overvågning	surveillance	SP	3		en			n
+en forbryder	a criminal	SP	3					n	forbryderen|forbrydere	the criminal|criminals
+militær	military	SP	3					a	militærere|militærest	more military|most military
+overvågning	surveillance	SP	3		en			n	overvågningen	the surveillance
 national	national	SP	3					a
-en efterforsker	an investigator	SP	3					n
-lovlig	legal	SP	3					a
-en allieret	an ally	SP	4					n
-et gidsel	a hostage	SP	3					n
-et parti	a (political) party / game	SP	3					n
-en detektiv	a detective	SP	3					n
-forstærkning	reinforcement	SP	4		en			n
-en kandidat	a candidate	SP	3					n
-international	international	SP	3					a
-en nation	a nation	SP	3					n
-en jury	a jury	SP	3					n
-en kendelse	a ruling / warrant	SP	3					n
-en ambassadør	an ambassador	SP	3					n
-tortur	torture	SP	3		en			n
-en tilståelse	a confession	SP	3					n
-en verdenskrig	a world war	SP	3					n
-en minister	a minister	SP	3					n
-selvforsvar	self-defense	SP	3		et			n
-en udtalelse	a statement	SP	3					n
-en kaution	a bail / guarantee	SP	4					n
-et distrikt	a district	SP	3					n
-en hersker	a ruler	SP	4					n
-en aftrækker	a trigger	SP	4					n
-varetægt	custody	SP	4		en			n
-en bedrager	a fraud / con artist	SP	3					n
-ulovlig	illegal	SP	3					a
-en kidnapning	a kidnapping	SP	3					n
-et testamente	a will (legal) / testament	SP	3					n
-et senat	a senate	SP	4					n
-en kampagne	a campaign	SP	3					n
-en revolution	a revolution	SP	3					n
+en efterforsker	an investigator	SP	3					n	efterforskeren|efterforskere	the investigator|investigators
+lovlig	legal	SP	3					a	lovligere|lovligst	more legal|most legal
+en allieret	an ally	SP	4					n	allieretten|allieretter	the ally|allies
+et gidsel	a hostage	SP	3					n	gidslet|gidsler	the hostage|hostages
+et parti	a (political) party / game	SP	3					n	partiet|partier	the (political) party / the game|(political) partys / games
+en detektiv	a detective	SP	3					n	detektiven|detektiver	the detective|detectives
+forstærkning	reinforcement	SP	4		en			n	forstærkningen	the reinforcement
+en kandidat	a candidate	SP	3					n	kandidaten|kandidater	the candidate|candidates
+international	international	SP	3					a	internationalere|internationalest	more international|most international
+en nation	a nation	SP	3					n	nationen|nationer	the nation|nations
+en jury	a jury	SP	3					n	juryen|juryer	the jury|juries
+en kendelse	a ruling / warrant	SP	3					n	kendelsen|kendelser	the ruling / the warrant|rulings / warrants
+en ambassadør	an ambassador	SP	3					n	ambassadøren|ambassadører	the ambassador|ambassadors
+tortur	torture	SP	3		en			n	torturen	the torture
+en tilståelse	a confession	SP	3					n	tilståelsen|tilståelser	the confession|confessions
+en verdenskrig	a world war	SP	3					n	verdenskrigen|verdenskrige	the world war|world wars
+en minister	a minister	SP	3					n	ministeren|ministre	the minister|ministers
+selvforsvar	self-defense	SP	3		et			n	selvforsvaret	the self-defense
+en udtalelse	a statement	SP	3					n	udtalelsen|udtalelser	the statement|statements
+en kaution	a bail / guarantee	SP	4					n	kautionen|kautioner	the bail / the guarantee|bails / guarantees
+et distrikt	a district	SP	3					n	distriktet|distrikter	the district|districts
+en hersker	a ruler	SP	4					n	herskeren|herskere	the ruler|rulers
+en aftrækker	a trigger	SP	4					n	aftrækkeren|aftrækkere	the trigger|triggers
+varetægt	custody	SP	4		en			n	varetægten	the custody
+en bedrager	a fraud / con artist	SP	3					n	bedrageren|bedragere	the fraud / the con artist|frauds / con artists
+ulovlig	illegal	SP	3					a	ulovligere|ulovligst	more illegal|most illegal
+en kidnapning	a kidnapping	SP	3					n	kidnapningen|kidnapninger	the kidnapping|kidnappings
+et testamente	a will (legal) / testament	SP	3					n	testamentet|testamenter	the will (legal) / the testament|wills (legal) / testaments
+et senat	a senate	SP	4					n	senatet|senater	the senate|senates
+en kampagne	a campaign	SP	3					n	kampagnen|kampagner	the campaign|campaigns
+en revolution	a revolution	SP	3					n	revolutionen|revolutioner	the revolution|revolutions
 FN	the UN	SP	3					n
-en mafia	a mafia	SP	3					n
-en bande	a gang	SP	3					n
-en vicepræsident	a vice president	SP	3					n
-en indsat	an inmate	SP	3					n
+en mafia	a mafia	SP	3					n	mafiaen|mafiaer	the mafia|mafias
+en bande	a gang	SP	3					n	banden|bander	the gang|gangs
+en vicepræsident	a vice president	SP	3					n	vicepræsidenten|vicepræsidenter	the vice president|vice presidents
+en indsat	an inmate	SP	3					n	indsatten|indsatte	the inmate|inmates
 korrupt	corrupt	SP	3					a
-en alliance	an alliance	SP	3					n
-bestikkelse	bribery	SP	4		en			n
-et vidneudsagn	a testimony	SP	3					n
-sprængstof	explosives	SP	4		et			n
-bevismateriale	evidence	SP	4		et			n
+en alliance	an alliance	SP	3					n	alliancen|alliancer	the alliance|alliances
+bestikkelse	bribery	SP	4		en			n	bestikkelsen	the bribery
+et vidneudsagn	a testimony	SP	3					n	vidneudsagnet	the testimony
+sprængstof	explosives	SP	4		et			n	sprængstoffet	the explosives
+bevismateriale	evidence	SP	4		et			n	bevismaterialet	the evidence
 efterlyst	wanted (by police)	SP	3					a
-afpresning	blackmail	SP	4		en			n
+afpresning	blackmail	SP	4		en			n	afpresningen	the blackmail
 eftersøgt	wanted / sought	SP	3					a
-et kup	a coup / heist	SP	3					n
+et kup	a coup / heist	SP	3					n	kuppet	the coup / the heist
 juridisk	legal	SP	3					a
-et baghold	an ambush	SP	4					n
-en seriemorder	a serial killer	SP	3					n
-en fange	a prisoner	SP	3					n
-et kongerige	a kingdom	SP	3					n
-en røver	a robber	SP	3					n
-en strid	a dispute / conflict	SP	3					n
+et baghold	an ambush	SP	4					n	bagholdet	the ambush
+en seriemorder	a serial killer	SP	3					n	seriemorderen|seriemordere	the serial killer|serial killers
+en fange	a prisoner	SP	3					n	fangen|fanger	the prisoner|prisoners
+et kongerige	a kingdom	SP	3					n	kongeriget|kongeriger	the kingdom|kingdoms
+en røver	a robber	SP	3					n	røveren|røvere	the robber|robbers
+en strid	a dispute / conflict	SP	3					n	striden	the dispute / the conflict
 et territorium	a territory	SP	4					n
-en patrulje	a patrol	SP	4					n
-en union	a union	SP	3					n
-en afhøring	an interrogation	SP	3					n
-et demokrati	a democracy	SP	3					n
-en tiltalt	a defendant	SP	4					n
-en front	a front	SP	3					n
-et kongresmedlem	a member of Congress	SP	4					n
-en skytte	a shooter / marksman	SP	3					n
-en svindler	a swindler	SP	3					n
-en erklæring	a declaration / statement	SP	3					n
-en besættelse	an occupation / obsession	SP	3					n
-et missil	a missile	SP	3					n
-et skydevåben	a firearm	SP	3					n
-krudt	gunpowder	SP	4		et			n
-et forhør	an interrogation / hearing	SP	3					n
-en statsadvokat	a public prosecutor	SP	4					n
-en granat	a grenade	SP	4					n
-dødsstraf	death penalty	SP	3		en			n
-en afgørelse	a decision / ruling	SP	3					n
-et forlig	a settlement	SP	4					n
-en revolver	a revolver	SP	3					n
-en straffeattest	a criminal record	SP	4					n
+en patrulje	a patrol	SP	4					n	patruljen|patruljer	the patrol|patrols
+en union	a union	SP	3					n	unionen|unioner	the union|unions
+en afhøring	an interrogation	SP	3					n	afhøringen|afhøringer	the interrogation|interrogations
+et demokrati	a democracy	SP	3					n	demokratiet|demokratier	the democracy|democracies
+en tiltalt	a defendant	SP	4					n	tiltalten|tiltalter	the defendant|defendants
+en front	a front	SP	3					n	fronten|fronter	the front|fronts
+et kongresmedlem	a member of Congress	SP	4					n	kongresmedlemmet|kongresmedlemmer	the member of Congress|members of Congress
+en skytte	a shooter / marksman	SP	3					n	skytten|skytter	the shooter / the marksman|shooters / marksmen
+en svindler	a swindler	SP	3					n	svindleren|svindlere	the swindler|swindlers
+en erklæring	a declaration / statement	SP	3					n	erklæringen|erklæringer	the declaration / the statement|declarations / statements
+en besættelse	an occupation / obsession	SP	3					n	besættelsen|besættelser	the occupation / the obsession|occupations / obsessions
+et missil	a missile	SP	3					n	missilet|missiler	the missile|missiles
+et skydevåben	a firearm	SP	3					n	skydevåbent|skydevåbne	the firearm|firearms
+krudt	gunpowder	SP	4		et			n	krudtet	the gunpowder
+et forhør	an interrogation / hearing	SP	3					n	forhøret	the interrogation / the hearing
+en statsadvokat	a public prosecutor	SP	4					n	statsadvokaten|statsadvokater	the public prosecutor|public prosecutors
+en granat	a grenade	SP	4					n	granaten|granater	the grenade|grenades
+dødsstraf	death penalty	SP	3		en			n	dødsstraffen	the death penalty
+en afgørelse	a decision / ruling	SP	3					n	afgørelsen|afgørelser	the decision / the ruling|decisions / rulings
+et forlig	a settlement	SP	4					n	forliget	the settlement
+en revolver	a revolver	SP	3					n	revolveren|revolvere	the revolver|revolvers
+en straffeattest	a criminal record	SP	4					n	straffeattesten|straffeattester	the criminal record|criminal records
 et imperium	an empire	SP	4					n
-en flygtning	a refugee	SP	3					n
-et bedrag	a deception / fraud	SP	3					n
-en sammensværgelse	a conspiracy	SP	4					n
-en snigskytte	a sniper	SP	4					n
+en flygtning	a refugee	SP	3					n	flygtningen|flygtninge	the refugee|refugees
+et bedrag	a deception / fraud	SP	3					n	bedraget	the deception / the fraud
+en sammensværgelse	a conspiracy	SP	4					n	sammensværgelsen|sammensværgelser	the conspiracy|conspiracies
+en snigskytte	a sniper	SP	4					n	snigskytten|snigskytter	the sniper|snipers
 Folketinget	the Danish Parliament	SP	2					n
-en politiker	a politician	SP	2					n
-en vælger	a voter	SP	3					n
-en kommune	a municipality	TS	2					n
-et statsborgerskab	a citizenship	SP	3					n
-en opholdstilladelse	a residence permit	SP	3					n
-en arbejdstilladelse	a work permit	SP	3					n
-en indvandrer	an immigrant	SP	3					n
-et mindretal	a minority	SP	4					n
-et lovforslag	a bill (law)	SP	4					n
-en grundlov	a constitution	SP	3					n
-diskrimination	discrimination	SP	3		en			n
-en strejke	a strike	SP	3					n
-en reform	a reform	SP	3					n
-terrorisme	terrorism	SP	3		en			n
-en domstol	a court	SP	3					n
-svindel	fraud	SP	3		en			n
+en politiker	a politician	SP	2					n	politikeren|politikere	the politician|politicians
+en vælger	a voter	SP	3					n	vælgeren|vælgere	the voter|voters
+en kommune	a municipality	TS	2					n	kommunen|kommuner	the municipality|municipalities
+et statsborgerskab	a citizenship	SP	3					n	statsborgerskabet|statsborgerskaber	the citizenship|citizenships
+en opholdstilladelse	a residence permit	SP	3					n	opholdstilladelsen|opholdstilladelser	the residence permit|residence permits
+en arbejdstilladelse	a work permit	SP	3					n	arbejdstilladelsen|arbejdstilladelser	the work permit|work permits
+en indvandrer	an immigrant	SP	3					n	indvandreren|indvandrere	the immigrant|immigrants
+et mindretal	a minority	SP	4					n	mindretallet	the minority
+et lovforslag	a bill (law)	SP	4					n	lovforslaget	the bill (law)
+en grundlov	a constitution	SP	3					n	grundloven|grundlove	the constitution|constitutions
+diskrimination	discrimination	SP	3		en			n	diskriminationen	the discrimination
+en strejke	a strike	SP	3					n	strejken|strejker	the strike|strikes
+en reform	a reform	SP	3					n	reformen|reformer	the reform|reforms
+terrorisme	terrorism	SP	3		en			n	terrorismen	the terrorism
+en domstol	a court	SP	3					n	domstolen|domstole	the court|courts
+svindel	fraud	SP	3		en			n	svindlen	the fraud
 EU	the EU	SP	2					n
 demokratisk	democratic	SP	3					a
 liberal	liberal	SP	3					a
 konservativ	conservative	SP	3					a
 socialistisk	socialist	SP	3					a
-radikal	radical	SP	3					a
+radikal	radical	SP	3					a	radikalere|radikalest	more radical|most radical
 at regere	to govern / rule	SP	3	regerer|regerede|regeret		jeg regerer|jeg regerede|jeg har regeret	I govern / rule|I governed / ruled|I have governed / ruled	v
 at vedtage	to pass (a law) / adopt	SP	3	vedtager|vedtog|vedtaget		jeg vedtager|jeg vedtog|jeg har vedtaget	I pass (a law) / adopt|I passed (a law) / adopted|I have passed (a law) / adopted	v
 at demonstrere	to demonstrate	SP	3	demonstrerer|demonstrerede|demonstreret		jeg demonstrerer|jeg demonstrerede|jeg har demonstreret	I demonstrate|I demonstrated|I have demonstrated	v
@@ -9196,151 +9199,158 @@ at bryde loven	to break the law	SP	3	bryder loven|brød loven|brudt loven		jeg b
 at melde til politiet	to report to the police	SP	2	melder til politiet|meldte til politiet|meldt til politiet		jeg melder til politiet|jeg meldte til politiet|jeg har meldt til politiet	I report to the police|I reported to the police|I have reported to the police	v
 at integrere	to integrate	SP	3	integrerer|integrerede|integreret		jeg integrerer|jeg integrerede|jeg har integreret	I integrate|I integrated|I have integrated	v
 indfødsret	citizenship	SP	3		en			n
-en indfødsretsprøve	a citizenship test	SP	4					n
-en medborgerskabsprøve	a civics test	SP	4					n
-en meningsmåling	an opinion poll	SP	3					n
-et folketingsvalg	a general election	SP	3					n
-et kommunalvalg	a local election	SP	3					n
-en folkeafstemning	a referendum	SP	3					n
-en koalition	a coalition	SP	4					n
-en opposition	an opposition	SP	3					n
-et regeringsparti	a governing party	SP	4					n
-et støtteparti	a supporting party	SP	4					n
-en finanslov	a national budget (Finance Act)	SP	4					n
-et udspil	a proposal / initiative	SP	4					n
-en lobbyist	a lobbyist	SP	4					n
+en indfødsretsprøve	a citizenship test	SP	4					n	indfødsretsprøven|indfødsretsprøver	the citizenship test|citizenship tests
+en medborgerskabsprøve	a civics test	SP	4					n	medborgerskabsprøven|medborgerskabsprøver	the civics test|civics tests
+en meningsmåling	an opinion poll	SP	3					n	meningsmålingen|meningsmålinger	the opinion poll|opinion polls
+et folketingsvalg	a general election	SP	3					n	folketingsvalget	the general election
+et kommunalvalg	a local election	SP	3					n	kommunalvalget	the local election
+en folkeafstemning	a referendum	SP	3					n	folkeafstemningen|folkeafstemninger	the referendum|referendums
+en koalition	a coalition	SP	4					n	koalitionen|koalitioner	the coalition|coalitions
+en opposition	an opposition	SP	3					n	oppositionen|oppositioner	the opposition|oppositions
+et regeringsparti	a governing party	SP	4					n	regeringspartiet|regeringspartier	the governing party|governing parties
+et støtteparti	a supporting party	SP	4					n	støttepartiet|støttepartier	the supporting party|supporting parties
+en finanslov	a national budget (Finance Act)	SP	4					n	finansloven|finanslove	the national budget (Finance Act)|national budgets (Finance Act)
+et udspil	a proposal / initiative	SP	4					n	udspillet	the proposal / the initiative
+en lobbyist	a lobbyist	SP	4					n	lobbyisten|lobbyister	the lobbyist|lobbyists
 et ministerium	a ministry	SP	3					n
-en styrelse	an agency (government)	SP	4					n
-en forvaltning	an administration	SP	4					n
-en ombudsmand	an ombudsman	SP	4					n
-en retsstat	a state governed by law	SP	4					n
-pressefrihed	freedom of the press	SP	3		en			n
+en styrelse	an agency (government)	SP	4					n	styrelsen|styrelser	the agency (government)|agencies (government)
+en forvaltning	an administration	SP	4					n	forvaltningen|forvaltninger	the administration|administrations
+en ombudsmand	an ombudsman	SP	4					n	ombudsmanden|ombudsmænd	the ombudsman|ombudsmen
+en retsstat	a state governed by law	SP	4					n	retsstaten|retsstater	the state governed by law|state governeds by law
+pressefrihed	freedom of the press	SP	3		en			n	pressefriheden	the freedom of the press
 menneskerettigheder	human rights	SP	3		pl			n
-en flygtningestrøm	a flow of refugees	SP	4					n
-en asylansøger	an asylum seeker	SP	3					n
-udlændingepolitik	immigration policy	SP	3		en			n
-klimapolitik	climate policy	SP	3		en			n
-en sanktion	a sanction	SP	4					n
-en traktat	a treaty	SP	4					n
-et topmøde	a summit	SP	3					n
+en flygtningestrøm	a flow of refugees	SP	4					n	flygtningestrømmen|flygtningestrømme	the flow of refugees|flows of refugees
+en asylansøger	an asylum seeker	SP	3					n	asylansøgeren|asylansøgere	the asylum seeker|asylum seekers
+udlændingepolitik	immigration policy	SP	3		en			n	udlændingepolitikken	the immigration policy
+klimapolitik	climate policy	SP	3		en			n	klimapolitikken	the climate policy
+en sanktion	a sanction	SP	4					n	sanktionen|sanktioner	the sanction|sanctions
+en traktat	a treaty	SP	4					n	traktaten|traktater	the treaty|treaties
+et topmøde	a summit	SP	3					n	topmødet|topmøder	the summit|summits
 NATO	NATO	SP	3					n
-en udenrigsminister	a foreign minister	SP	3					n
-en statsleder	a head of state	SP	4					n
-et diktatur	a dictatorship	SP	3					n
-en diktator	a dictator	SP	3					n
-en invasion	an invasion	SP	3					n
-en våbenhvile	a ceasefire	SP	3					n
-en fredsaftale	a peace agreement	SP	3					n
-nødhjælp	emergency aid	SP	3		en			n
-en bekendtgørelse	an announcement / regulation	SP	4					n
-en beskyldning	an accusation	SP	3					n
-en bestemmelse	a provision / rule	SP	4					n
-lovgivning	legislation	SP	3		en			n
-en ophævelse	an abolition / cancellation	SP	4					n
-en redegørelse	an account / report	SP	4					n
-en regulering	a regulation / adjustment	SP	4					n
-et tiltag	an initiative / measure	SP	4					n
-et værn	a defense / protection	SP	4					n
-en bombe	a bomb	SP	2					n
-en stemmeseddel	a ballot	SP	3					n
-en befrielse	a liberation	SP	3					n
-en dollar	a dollar	MB	2					n
-en forretning	a business / shop	MB	2					n
-en klient	a client	MB	3					n
-et pund	a pound	MB	3					n
-et salg	a sale	MB	3					n
-en formue	a fortune	MB	3					n
-en andel	a share / portion	MB	3					n
-et lager	a warehouse / stock	MB	3					n
-en cent	a cent	MB	3					n
-en bestyrelse	a board (of directors)	MB	3					n
-en arv	an inheritance	MB	3					n
-en branche	an industry / line of business	MB	3					n
-en sektor	a sector	MB	3					n
-et beløb	an amount (of money)	MB	3					n
+en udenrigsminister	a foreign minister	SP	3					n	udenrigsministeren|udenrigsministre	the foreign minister|foreign ministers
+en statsleder	a head of state	SP	4					n	statslederen|statsledere	the head of state|heads of state
+et diktatur	a dictatorship	SP	3					n	diktaturet|diktaturer	the dictatorship|dictatorships
+en diktator	a dictator	SP	3					n	diktatoren|diktatorer	the dictator|dictators
+en invasion	an invasion	SP	3					n	invasionen|invasioner	the invasion|invasions
+en våbenhvile	a ceasefire	SP	3					n	våbenhvilen|våbenhviler	the ceasefire|ceasefires
+en fredsaftale	a peace agreement	SP	3					n	fredsaftalen|fredsaftaler	the peace agreement|peace agreements
+nødhjælp	emergency aid	SP	3		en			n	nødhjælpen	the emergency aid
+en bekendtgørelse	an announcement / regulation	SP	4					n	bekendtgørelsen|bekendtgørelser	the announcement / the regulation|announcements / regulations
+en beskyldning	an accusation	SP	3					n	beskyldningen|beskyldninger	the accusation|accusations
+en bestemmelse	a provision / rule	SP	4					n	bestemmelsen|bestemmelser	the provision / the rule|provisions / rules
+lovgivning	legislation	SP	3		en			n	lovgivningen	the legislation
+en ophævelse	an abolition / cancellation	SP	4					n	ophævelsen|ophævelser	the abolition / the cancellation|abolitions / cancellations
+en redegørelse	an account / report	SP	4					n	redegørelsen|redegørelser	the account / the report|accounts / reports
+en regulering	a regulation / adjustment	SP	4					n	reguleringen|reguleringer	the regulation / the adjustment|regulations / adjustments
+et tiltag	an initiative / measure	SP	4					n	tiltaget	the initiative / the measure
+et værn	a defense / protection	SP	4					n	værnet	the defense / the protection
+en bombe	a bomb	SP	2					n	bomben|bomber	the bomb|bombs
+en stemmeseddel	a ballot	SP	3					n	stemmesedlen|stemmesedler	the ballot|ballots
+en befrielse	a liberation	SP	3					n	befrielsen|befrielser	the liberation|liberations
+en dollar	a dollar	MB	2					n	dollaren	the dollar
+en forretning	a business / shop	MB	2					n	forretningen|forretninger	the business / the shop|businesses / shops
+en klient	a client	MB	3					n	klienten|klienter	the client|clients
+et pund	a pound	MB	3					n	pundet	the pound
+et salg	a sale	MB	3					n	salget	the sale
+en formue	a fortune	MB	3					n	formuen|formuer	the fortune|fortunes
+en andel	a share / portion	MB	3					n	andelen|andele	the share / the portion|shares / portions
+et lager	a warehouse / stock	MB	3					n	lageret|lagre	the warehouse / the stock|warehouses / stocks
+en cent	a cent	MB	3					n	centen	the cent
+en bestyrelse	a board (of directors)	MB	3					n	bestyrelsen|bestyrelser	the board (of directors)|boards (of directors)
+en arv	an inheritance	MB	3					n	arven|arve	the inheritance|inheritances
+en branche	an industry / line of business	MB	3					n	branchen|brancher	the industry / the line of business|industries / lines of business
+en sektor	a sector	MB	3					n	sektoren|sektorer	the sector|sectors
+et beløb	an amount (of money)	MB	3					n	beløbet	the amount (of money)
 økonomisk	economic / financial	MB	3					a
-en ledelse	a management / leadership	MB	3					n
-et produkt	a product	MB	2					n
-en mønt	a coin	MB	2					n
-en erstatning	a compensation / replacement	MB	3					n
-et regnskab	accounts	MB	3					n
-kredit	credit	MB	3		en			n
-et pengeskab	a safe	MB	3					n
-et forskud	an advance (payment)	MB	3					n
+en ledelse	a management / leadership	MB	3					n	ledelsen|ledelser	the management / the leadership|managements / leaderships
+et produkt	a product	MB	2					n	produktet|produkter	the product|products
+en mønt	a coin	MB	2					n	mønten|mønter	the coin|coins
+en erstatning	a compensation / replacement	MB	3					n	erstatningen|erstatninger	the compensation / the replacement|compensations / replacements
+et regnskab	accounts	MB	3					n	regnskabet|regnskaber	the accounts|accounts
+kredit	credit	MB	3		en			n	kreditten	the credit
+et pengeskab	a safe	MB	3					n	pengeskabet|pengeskabe	the safe|safes
+et forskud	an advance (payment)	MB	3					n	forskuddet	the advance (payment)
 konkurs	bankrupt / bankruptcy	MB	3					a
-en fortjeneste	a profit / merit	MB	3					n
-en auktion	an auction	MB	3					n
-en revisor	an accountant (auditor)	MB	3					n
+en fortjeneste	a profit / merit	MB	3					n	fortjenesten|fortjenester	the profit / the merit|profits / merits
+en auktion	an auction	MB	3					n	auktionen|auktioner	the auction|auctions
+en revisor	an accountant (auditor)	MB	3					n	revisoren|revisorer	the accountant (auditor)|accountants (auditor)
 småpenge	small change	MB	2		pl			n
-en sum	a sum	MB	3					n
-en bankkonto	a bank account	MB	2					n
-en hæveautomat	an ATM	MB	2					n
-et dankort	a Dankort (Danish debit card)	MB	2					n
-moms	VAT / sales tax	MB	3		en			n
-en forsikring	an insurance	MB	2					n
-en butikskæde	a store chain	MB	3					n
-en konkurrent	a competitor	MB	3					n
-en omsætning	a turnover / revenue	MB	4					n
-inflation	inflation	MB	3		en			n
+en sum	a sum	MB	3					n	summen|summer	the sum|sums
+en bankkonto	a bank account	MB	2					n	bankkontoen|bankkonti	the bank account|bank accounts
+en hæveautomat	an ATM	MB	2					n	hæveautomaten|hæveautomater	the ATM|ATMS
+et dankort	a Dankort (Danish debit card)	MB	2					n	dankortet	the Dankort (Danish debit card)
+moms	VAT / sales tax	MB	3		en			n	momsen	the VAT / the sales tax
+en forsikring	an insurance	MB	2					n	forsikringen|forsikringer	the insurance|insurances
+en butikskæde	a store chain	MB	3					n	butikskæden|butikskæder	the store chain|store chains
+en konkurrent	a competitor	MB	3					n	konkurrenten|konkurrenter	the competitor|competitors
+en omsætning	a turnover / revenue	MB	4					n	omsætningen|omsætninger	the turnover / the revenue|turnovers / revenues
+inflation	inflation	MB	3		en			n	inflationen	the inflation
 at spare op	to save up	MB	2	sparer op|sparede op|sparet op		jeg sparer op|jeg sparede op|jeg har sparet op	I save up|I saved up|I have saved up	v
 at skylde	to owe	MB	2	skylder|skyldte|skyldt		jeg skylder|jeg skyldte|jeg har skyldt	I owe|I owed|I have owed	v
 at betale af	to pay off	MB	3	betaler af|betalte af|betalt af		jeg betaler af|jeg betalte af|jeg har betalt af	I pay off|I paid off|I have paid off	v
 at hæve penge	to withdraw money	MB	2	hæver penge|hævede penge|hævet penge		jeg hæver penge|jeg hævede penge|jeg har hævet penge	I withdraw money|I withdrew money|I have withdrawn money	v
 at overføre penge	to transfer money	MB	2	overfører penge|overførte penge|overført penge		jeg overfører penge|jeg overførte penge|jeg har overført penge	I transfer money|I transferred money|I have transferred money	v
 at bruge penge	to spend money	MB	1	bruger penge|brugte penge|brugt penge		jeg bruger penge|jeg brugte penge|jeg har brugt penge	I spend money|I spent money|I have spent money	v
-en årsopgørelse	an annual tax statement	MB	3					n
-en forskudsopgørelse	a preliminary income assessment	MB	4					n
-et skattekort	a tax card	MB	3					n
-et fradrag	a deduction	MB	4					n
-boligstøtte	housing benefit	MB	3		en			n
+en årsopgørelse	an annual tax statement	MB	3					n	årsopgørelsen|årsopgørelser	the annual tax statement|annual tax statements
+en forskudsopgørelse	a preliminary income assessment	MB	4					n	forskudsopgørelsen|forskudsopgørelser	the preliminary income assessment|preliminary income assessments
+et skattekort	a tax card	MB	3					n	skattekortet	the tax card
+et fradrag	a deduction	MB	4					n	fradraget	the deduction
+boligstøtte	housing benefit	MB	3		en			n	boligstøtten	the housing benefit
 SU	Danish student grant	MB	3		en			n
 dagpenge	unemployment benefits	MB	3		pl			n
-kontanthjælp	social welfare benefit	MB	3		en			n
-en a-kasse	an unemployment insurance fund	MB	3					n
-et gebyr	a fee	MB	3					n
-en stigning	a rise / increase	MB	3					n
-et fald	a fall / drop	MB	2					n
-en nedgang	a decline	MB	4					n
-en recession	a recession	MB	3					n
+kontanthjælp	social welfare benefit	MB	3		en			n	kontanthjælpen	the social welfare benefit
+en a-kasse	an unemployment insurance fund	MB	3					n	a-kassen|a-kasser	the unemployment insurance fund|unemployment insurance funds
+et gebyr	a fee	MB	3					n	gebyret|gebyrer	the fee|fees
+en stigning	a rise / increase	MB	3					n	stigningen|stigninger	the rise / the increase|rises / increases
+et fald	a fall / drop	MB	2					n	faldet	the fall / the drop
+en nedgang	a decline	MB	4					n	nedgangen|nedgange	the decline|declines
+en recession	a recession	MB	3					n	recessionen|recessioner	the recession|recessions
 boligmarkedet	the housing market	MB	3					n
-en huspris	a house price	MB	3					n
-en rentestigning	an interest rate rise	MB	4					n
-en nationalbank	a central bank	MB	4					n
-en aktiekurs	a share price	MB	4					n
-et aktieselskab	a public limited company	MB	4					n
-et anpartsselskab	a private limited company	MB	4					n
-en startup	a startup	MB	3					n
-en fusion	a merger	MB	4					n
-et opkøb	an acquisition / buyout	MB	4					n
-eksport	export	MB	3		en			n
-import	import	MB	3		en			n
-en forbruger	a consumer	MB	3					n
-forbrug	consumption	MB	3		et			n
-efterspørgsel	demand	MB	3		en			n
-et udbud	a supply / tender	MB	4					n
-en markedsandel	a market share	MB	4					n
-en målgruppe	a target group	MB	3					n
-kundeservice	customer service	MB	3		en			n
-en klage	a complaint	MB	2					n
-en tilbagebetaling	a refund / repayment	MB	3					n
-en afgift	a tax / duty / fee	MB	3					n
-en bevilling	a grant	MB	4					n
-en bygherre	a developer (building)	MB	4					n
-en forhøjelse	an increase	MB	4					n
-en godtgørelse	a reimbursement	MB	4					n
-en nedskæring	a cutback	MB	4					n
-en omkostning	a cost	MB	3					n
-en omlægning	a restructuring	MB	4					n
-en opgørelse	a statement / count	MB	4					n
-en udbetaling	a payment / payout	MB	3					n
-et udbytte	a yield / benefit	MB	4					n
-en euro	a euro	MB	2					n
-en filial	a branch (office)	MB	4					n
-en bundlinje	a bottom line	MB	4					n
-en forhandler	a dealer / retailer	MB	3					n
-en gennemsnitsløn	an average salary	MB	4					n
+en huspris	a house price	MB	3					n	husprisen|huspriser	the house price|house prices
+en rentestigning	an interest rate rise	MB	4					n	rentestigningen|rentestigninger	the interest rate rise|interest rate rises
+en nationalbank	a central bank	MB	4					n	nationalbanken|nationalbanker	the central bank|central banks
+en aktiekurs	a share price	MB	4					n	aktiekursen|aktiekurser	the share price|share prices
+et aktieselskab	a public limited company	MB	4					n	aktieselskabet|aktieselskaber	the public limited company|public limited companies
+et anpartsselskab	a private limited company	MB	4					n	anpartsselskabet|anpartsselskaber	the private limited company|private limited companies
+en startup	a startup	MB	3					n	startuppen|startupper	the startup|startups
+en fusion	a merger	MB	4					n	fusionen|fusioner	the merger|mergers
+et opkøb	an acquisition / buyout	MB	4					n	opkøbet	the acquisition / the buyout
+eksport	export	MB	3		en			n	eksporten	the export
+import	import	MB	3		en			n	importen	the import
+en forbruger	a consumer	MB	3					n	forbrugeren|forbrugere	the consumer|consumers
+forbrug	consumption	MB	3		et			n	forbruget	the consumption
+efterspørgsel	demand	MB	3		en			n	efterspørgslen	the demand
+et udbud	a supply / tender	MB	4					n	udbuddet	the supply / the tender
+en markedsandel	a market share	MB	4					n	markedsandelen|markedsandele	the market share|market shares
+en målgruppe	a target group	MB	3					n	målgruppen|målgrupper	the target group|target groups
+kundeservice	customer service	MB	3		en			n	kundeservicen	the customer service
+en klage	a complaint	MB	2					n	klagen|klager	the complaint|complaints
+en tilbagebetaling	a refund / repayment	MB	3					n	tilbagebetalingen|tilbagebetalinger	the refund / the repayment|refunds / repayments
+en afgift	a tax / duty / fee	MB	3					n	afgiften|afgifter	the tax / the duty / the fee|taxes / duties / fees
+en bevilling	a grant	MB	4					n	bevillingen|bevillinger	the grant|grants
+en bygherre	a developer (building)	MB	4					n	bygherren|bygherrer	the developer (building)|developers (building)
+en forhøjelse	an increase	MB	4					n	forhøjelsen|forhøjelser	the increase|increases
+en godtgørelse	a reimbursement	MB	4					n	godtgørelsen|godtgørelser	the reimbursement|reimbursements
+en nedskæring	a cutback	MB	4					n	nedskæringen|nedskæringer	the cutback|cutbacks
+en omkostning	a cost	MB	3					n	omkostningen|omkostninger	the cost|costs
+en omlægning	a restructuring	MB	4					n	omlægningen|omlægninger	the restructuring|restructurings
+en opgørelse	a statement / count	MB	4					n	opgørelsen|opgørelser	the statement / the count|statements / counts
+en udbetaling	a payment / payout	MB	3					n	udbetalingen|udbetalinger	the payment / the payout|payments / payouts
+et udbytte	a yield / benefit	MB	4					n	udbyttet|udbytter	the yield / the benefit|yields / benefits
+en euro	a euro	MB	2					n	euroen	the euro
+en filial	a branch (office)	MB	4					n	filialen|filialer	the branch (office)|branches (office)
+en bundlinje	a bottom line	MB	4					n	bundlinjen|bundlinjer	the bottom line|bottom lines
+en forhandler	a dealer / retailer	MB	3					n	forhandleren|forhandlere	the dealer / the retailer|dealers / retailers
+en gennemsnitsløn	an average salary	MB	4					n	gennemsnitslønnen	the average salary
 lommepenge	pocket money	MB	2		pl			n
-et forsikringsselskab	an insurance company	MB	3					n`;
+et forsikringsselskab	an insurance company	MB	3					n	forsikringsselskabet|forsikringsselskaber	the insurance company|insurance companies
+alene	alone		1					d
+inden	before		2					r
+en slags	a kind of / a sort of		2					n
+masser af	lots of		2					d
+eneste	only / single		2					a
+resten	the rest		2					n
+dermed	thereby / with that		3					d`;
 
 // Built once at startup from WORD_DATA: the starter deck grouped by
 // category (same shape the rest of the app has always used), plus a
@@ -9350,7 +9360,7 @@ const WORD_META = {};
 TOPIC_NAMES.forEach((name) => (STARTER_WORDS[name] = []));
 STARTER_WORDS[""] = []; // words with no topic
 WORD_DATA.split("\n").forEach((line) => {
-  const [da, en, code, level, forms, gender, tenseDa, tenseEn, cls] = line.split("\t");
+  const [da, en, code, level, forms, gender, tenseDa, tenseEn, cls, upDa, upEn] = line.split("\t");
   if (!da || !en) return;
   const topic = WORD_CATEGORY_NAMES[code] || "";
   STARTER_WORDS[topic].push([da, en]);
@@ -9363,6 +9373,10 @@ WORD_DATA.split("\n").forEach((line) => {
     // Full example forms for the tense option, e.g. "jeg spiste" / "I ate".
     tenseDa: tenseDa ? tenseDa.split("|") : null,
     tenseEn: tenseEn ? tenseEn.split("|") : null,
+    // Other forms of a noun (the book, books) or adjective (bigger,
+    // biggest), shown once each after the word is known.
+    upDa: upDa ? upDa.split("|") : null,
+    upEn: upEn ? upEn.split("|") : null,
   };
 });
 
@@ -9403,6 +9417,56 @@ function tenseDataFor(card) {
   if (!card || card.type !== "word") return null;
   const meta = WORD_META[(card.front || "").trim().toLowerCase()];
   return meta && meta.tenseDa && meta.tenseEn ? { da: meta.tenseDa, en: meta.tenseEn } : null;
+}
+
+// ---------- Level-up: known words come back in a new form ----------
+// A word marked known never comes back as itself. Instead it returns,
+// a few days later, once in each of its other forms: a verb in the past
+// and the perfect (jeg gik, jeg er gået), a noun as "the …" and in the
+// plural (bogen, bøger), an adjective compared (større, størst). Each
+// form is shown once; then the word is done. Seeing it counts — there
+// is no right/wrong, and nothing ever takes "known" away.
+const DAY_MS = 24 * 60 * 60 * 1000;
+const LEVELUP_FIRST_GAP = 3 * DAY_MS; // known → first new form
+const LEVELUP_NEXT_GAP = 7 * DAY_MS; // first form → second form
+// Words that were already known before this existed have no start date;
+// they're spread over three weeks from launch so they don't all arrive
+// at once.
+const LEVELUP_START = Date.UTC(2026, 9, 2);
+
+function levelUpFormsFor(card) {
+  if (!card || card.type !== "word") return [];
+  const t = tenseDataFor(card);
+  if (t) return [1, 2].filter((i) => t.da[i] && t.en[i]).map((i) => ({ da: t.da[i], en: t.en[i] }));
+  const meta = WORD_META[(card.front || "").trim().toLowerCase()];
+  if (!meta || !meta.upDa || !meta.upEn) return [];
+  return meta.upDa.map((da, i) => ({ da, en: meta.upEn[i] })).filter((f) => f.da && f.en);
+}
+
+function hashString(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+// When this known card's next new form is due (ms), or null when it has
+// nothing left to show.
+function levelUpDueAt(card) {
+  if (!card.known || card.ignored) return null;
+  const stage = card.upStage || 0;
+  if (stage >= levelUpFormsFor(card).length) return null;
+  if (card.upDue) return card.upDue;
+  return LEVELUP_START + (hashString(card.id || card.front || "") % 21) * DAY_MS;
+}
+
+// Base words (gå, tid, god …) inside a phrase card, for putting phrases
+// of words you know near the front of a session.
+function phraseWords(card) {
+  return (card.front || "")
+    .toLowerCase()
+    .replace(/^(at|en|et)\s+/, "")
+    .split(/[\s.…?!\/,]+/)
+    .filter(Boolean);
 }
 
 // Looks up level / verb forms for any word card whose Danish text is in
@@ -10028,7 +10092,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "If: hvis",
-    level: 3,
+    level: 2,
     rule: "Hvis (if) is followed by subject and verb. In the main part that comes after, the verb comes first. For something unlikely or imaginary, use the past tense after hvis and ville in the main part.",
     pattern: "**Hvis** jeg har tid, **kommer** jeg.",
     examples: [
@@ -10039,7 +10103,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Who and which: som",
-    level: 3,
+    level: 2,
     rule: "Som links a description to a noun. It means “who”, “which” or “that”. It can't be left out if it's the subject, but it can be left out if it's the object.",
     pattern: "Manden, **som** bor her, er lærer.",
     examples: [
@@ -10095,7 +10159,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Let's: lad os, and lad = let",
-    level: 3,
+    level: 2,
     rule: "Lad os plus a verb means 'let's' (no 'at' before the verb). The verb lade also means 'let' or 'allow': lade + person + verb. The forms are lade, lader (now), lod (past) and lad (command).",
     pattern: "**Lad os** gå · Hun **lader** mig gå · Han **lod** os blive",
     examples: [
@@ -10262,7 +10326,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Negative words: ingen, intet, aldrig",
-    level: 3,
+    level: 2,
     rule: "Use ingen (no, for en-words and plurals), intet (no, for et-words, rather formal), ingenting (nothing) and aldrig (never). Danish does not stack negatives: use either ingen/ingenting, or ikke nogen/ikke noget, but not both together.",
     pattern: "ingen penge = ikke nogen penge · ingenting = ikke noget · aldrig + noget",
     examples: [
@@ -10273,7 +10337,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Quantity words: nogen, nogle, noget",
-    level: 3,
+    level: 2,
     rule: "Nogle means some (plural) and nogen usually means any, in questions and with ikke. For one thing, use nogen with en-words and noget with et-words. Alle means all, hver means each, enhver means any or every, and begge means both.",
     pattern: "**nogle** æbler · **nogen** børn · **noget** brød · **alle** · **begge**",
     examples: [
@@ -10295,7 +10359,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Measures without 'of': en kop kaffe",
-    level: 3,
+    level: 1,
     rule: "Danish does not use a word for of after a measure. Say the measure with its own en or et, then the thing directly: no af, no article. Af is only used when you take part of a specific, definite thing: et stykke af kagen, et glas af den gode vin. In the plural only the measure changes.",
     pattern: "**en kop** kaffe · **et stykke** kage · **to flasker** vand",
     examples: [
@@ -10306,7 +10370,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Fractions and amounts: halv, procent",
-    level: 3,
+    level: 1,
     rule: "Halv is an adjective and agrees: en halv, et halvt, halve. Halvanden means one and a half (halvandet with et-words). Danish writes decimals with a comma, so 2,5 is read two comma five. Fractions are en tredjedel, en fjerdedel; a quarter of an hour is usually et kvarter.",
     pattern: "**en halv** liter · **et halvt** æble · **halvanden** time · 2**,**5 **procent**",
     examples: [
@@ -10340,7 +10404,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Indirect objects: giver ham bogen",
-    level: 3,
+    level: 2,
     rule: "With verbs like give, send and show, the person usually comes first with no little word: giver ham bogen. You can also put the thing first and add til: giver bogen til ham. The til version puts more focus on the person.",
     pattern: "Jeg giver **ham** bogen · Jeg giver bogen **til ham**",
     examples: [
@@ -10531,7 +10595,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Large numbers and years",
-    level: 4,
+    level: 2,
     rule: "Years are said as hundreds: 1980 is nitten hundrede og firs, but from 2000 you say tusind: 2020 is to tusind og tyve. A Danish milliard is a thousand million (an English billion), and a Danish billion is a million million. Numbers are written with a dot for thousands and a comma for decimals.",
     pattern: "1980 → **nitten hundrede og firs** · 2020 → **to tusind og tyve** · 1.000.000 → en **million** · 1.000.000.000 → en **milliard**",
     examples: [
@@ -10542,7 +10606,7 @@ const STARTER_GRAMMAR = [
   },
   {
     name: "Time expressions: i går, i morges, til daglig",
-    level: 4,
+    level: 1,
     rule: "Use i går, i morges and i aftes for one moment in the past (yesterday, this morning, last night). For habits use om morgenen (in the mornings) or hver anden dag (every other day). Til daglig means normally or in everyday life. Do not confuse i morges (past) with i morgen (tomorrow).",
     pattern: "i går · **i morges** · i aftes · om morgenen · **til daglig** · **hver anden dag**",
     examples: [
@@ -10658,6 +10722,8 @@ function mergeProgress(a, b) {
     ignored: !!(a.ignored || b.ignored),
     notes: [a.notes, b.notes].filter((n) => n && n.trim()).filter((n, i, all) => all.indexOf(n) === i).join("\n"),
     recentTouch: Math.max(a.recentTouch || 0, b.recentTouch || 0) || undefined,
+    upStage: Math.max(a.upStage || 0, b.upStage || 0),
+    upDue: Math.max(a.upDue || 0, b.upDue || 0),
     starter: !!(a.starter && b.starter),
   };
 }
@@ -10682,7 +10748,7 @@ function snapshotProgress(cards) {
   const ownCards = [];
   cards.forEach((c) => {
     const key = canonicalKey(c.type, c.front);
-    if (c.known || c.starred || c.ignored || (c.notes && c.notes.trim())) {
+    if (c.known || c.starred || c.ignored || c.upStage || (c.notes && c.notes.trim())) {
       const prev = progress.get(key);
       progress.set(key, prev ? mergeProgress(prev, c) : c);
     }
@@ -10704,7 +10770,7 @@ function restoreProgress(cards, snapshot) {
     if (!before) return c;
     const merged = mergeProgress(c, before);
     merged.starter = c.starter; // keep the card's own origin
-    if (merged.known === !!c.known && merged.starred === !!c.starred && merged.ignored === !!c.ignored && (merged.notes || "") === (c.notes || "")) return c;
+    if (merged.known === !!c.known && merged.starred === !!c.starred && merged.ignored === !!c.ignored && (merged.notes || "") === (c.notes || "") && (merged.upStage || 0) === (c.upStage || 0)) return c;
     changed = true;
     return merged;
   });
@@ -10919,7 +10985,7 @@ function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "9";
+const GRAMMAR_VERSION = "10";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
@@ -11063,6 +11129,31 @@ const WORD_INSIGHT_SYSTEM_PROMPT =
   "Then write a short explanation in plain English, 2-4 sentences, covering anything genuinely useful the forms alone don't already show — irregularities, usage notes, common mixups with a similar word. If the forms already say everything worth saying, keep the explanation to one brief sentence rather than padding it. Always finish the last sentence completely — never trail off. " +
   "Finally, related words: if the word has a genuinely useful word family — common Danish words built from it or sharing its root that a learner will meet, e.g. for \"tale\": \"en samtale\"/\"a conversation\", \"en aftale\"/\"an agreement\" — give 2-4 of them with translations. Only real, common words; leave the list empty rather than stretch. " +
   'Respond ONLY with JSON, no other text: {"forms": [{"da": "...", "en": "..."}], "explanation": "...", "related": [{"da": "...", "en": "..."}]} — 3-4 entries in forms for nouns/verbs/adjectives, 2-3 for other word types; related may be empty.';
+
+// Words the learner has marked known, kept up to date by the app, so the
+// AI can build its example phrases and sentences out of familiar words:
+// the only new thing in an example is then the word or rule being taught,
+// and every example quietly reviews words already learned.
+let knownWordsForAI = [];
+function setKnownWordsForAI(cards) {
+  knownWordsForAI = cards
+    .filter((c) => c.known && c.type === "word" && !c.ignored)
+    .map((c) => c.front.replace(/^(at|en|et)\s+/i, "").trim())
+    .filter((w) => w && w.split(/\s+/).length <= 2);
+}
+function knownWordsHint() {
+  if (knownWordsForAI.length < 20) return "";
+  const pick = [...knownWordsForAI];
+  for (let i = pick.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pick[i], pick[j]] = [pick[j], pick[i]];
+  }
+  return (
+    " Words this learner already knows: " +
+    pick.slice(0, 80).join(", ") +
+    ". Where it reads naturally, build example phrases and sentences from these and other very common words, so the word or rule being taught is the only new thing in each example."
+  );
+}
 
 function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
@@ -12085,6 +12176,7 @@ function LevelMenu({ value, onChange }) {
 export default function DanishFlashcards() {
   const [loaded, setLoaded] = useState(false);
   const [cards, setCards] = useState([]);
+  useEffect(() => setKnownWordsForAI(cards), [cards]);
   const [categories, setCategories] = useState(DEFAULT_CATEGORIES);
   const [tab, setTab] = useState("study");
   const degradedWarned = useRef(false);
@@ -12507,7 +12599,14 @@ export default function DanishFlashcards() {
 
   const updateCard = useCallback(
     (id, patch) => {
-      persistCards(cardsRef.current.map((c) => (c.id === id ? { ...c, ...patch } : c)));
+      persistCards(
+        cardsRef.current.map((c) => {
+          if (c.id !== id) return c;
+          // Newly marked known: its first new form comes a few days later.
+          const extra = patch.known === true && !c.known && !("upDue" in patch) ? { upDue: Date.now() + LEVELUP_FIRST_GAP } : {};
+          return { ...c, ...patch, ...extra };
+        })
+      );
     },
     [persistCards]
   );
@@ -12871,6 +12970,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     storeSet("verbForms", JSON.stringify(next)).catch(() => {});
   }
   const [poolTenses, setPoolTenses] = useState([]);
+  const [poolUps, setPoolUps] = useState([]); // per pool slot: a level-up form index, or null
   const tenseActive = verbForms.some((f) => f !== "base");
   // Past and perfect verb forms count as Intermediate at the least, so a
   // Basic-only session shows "at gå" / "jeg går", never "jeg gik". Returns
@@ -12894,6 +12994,20 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     if (!allowedForms(c).length) return false;
     if (starredOnly && !c.starred) return false;
     return true;
+  };
+  // A known word's new forms count as one level above the word itself,
+  // so a Basic word's "gik" / "bøger" turn up once Intermediate is chosen.
+  const inLevelUpScope = (c) => {
+    if (c.ignored || c.type !== "word") return false;
+    if (scope === "mine" && c.starter) return false;
+    if (!cardInCategory(c, catFilter, scope === "mine")) return false;
+    if (catFilter === "g:noun") {
+      const g = nounGenderFor(c);
+      const wanted = nounOpts.filter((o) => o === "en" || o === "et");
+      if (wanted.length < 2 && !wanted.includes(g)) return false;
+    }
+    if (starredOnly && !c.starred) return false;
+    return levelOn(Math.min((c.level || 1) + 1, 4));
   };
   const [starredOnly, setStarredOnly] = useState(false);
   const [unknownOnly, setUnknownOnly] = useState(true);
@@ -12957,7 +13071,23 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   // under you — it just turns the badge green. Future sessions won't
   // include it.
   useEffect(() => {
-    const filtered = cards.filter((c) => inScope(c) && !(unknownOnly && c.known));
+    const now = Date.now();
+    // Known words whose next new form is due (see levelUpDueAt). They
+    // replace the plain card — a known word never comes back as itself —
+    // and are kept to a small share of the session, earliest due first.
+    const dueUps = cards
+      .filter((c) => inLevelUpScope(c))
+      .map((c) => ({ c, due: levelUpDueAt(c) }))
+      .filter((x) => x.due != null && x.due <= now)
+      .sort((x, y) => x.due - y.due);
+    const dueIds = new Set(dueUps.map((x) => x.c.id));
+    const filtered = cards.filter((c) => inScope(c) && !(unknownOnly && c.known) && !dueIds.has(c.id));
+    // Phrases built on a word you already know (at gå → at gå ud fra)
+    // come earlier in the session, so the known word helps carry the new one.
+    const knownBase = new Set(
+      cards.filter((c) => c.known && c.type === "word" && phraseWords(c).length === 1).map((c) => phraseWords(c)[0])
+    );
+    const buildsOnKnown = (c) => !c.known && c.type === "word" && phraseWords(c).length > 1 && phraseWords(c).some((w) => knownBase.has(w));
     // Starred cards, and cards touched recently (just added, or an
     // attempted duplicate-add signaling "I want to prioritize this"),
     // get extra copies in the pool so they naturally come up more often
@@ -12967,25 +13097,26 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     // is. Take the higher of the two rather than stacking them, so a
     // card that's both doesn't balloon to an extreme repeat count.
     const RECENT_WINDOW_MS = 3 * 24 * 60 * 60 * 1000;
-    const now = Date.now();
-    const ids = [];
+    const entries = [];
     filtered.forEach((c) => {
       const isRecent = c.recentTouch && now - c.recentTouch < RECENT_WINDOW_MS;
       const copies = Math.max(c.starred ? 3 : 1, isRecent ? 3 : 1);
-      for (let i = 0; i < copies; i++) ids.push(c.id);
+      // A random sort key shuffles the session; phrases of known words
+      // get a smaller key, so they land nearer the start.
+      for (let i = 0; i < copies; i++) entries.push({ id: c.id, up: null, key: Math.random() * (buildsOnKnown(c) ? 0.5 : 1) });
     });
-    // Shuffle so each session (and each "Restart session") is a fresh
-    // order, rather than always working through the deck in the same
-    // sequence it happens to be stored in.
-    for (let i = ids.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [ids[i], ids[j]] = [ids[j], ids[i]];
-    }
+    // About one card in five at most is a known word's new form.
+    const upCap = entries.length ? Math.max(2, Math.floor(entries.length / 4)) : 10;
+    dueUps.slice(0, upCap).forEach(({ c }) => entries.push({ id: c.id, up: c.upStage || 0, key: Math.random() }));
+    entries.sort((x, y) => x.key - y.key);
+    const ids = entries.map((e) => e.id);
     setPoolIds(ids);
+    setPoolUps(entries.map((e) => e.up));
     const TENSE_INDEX = { base: null, present: 0, past: 1, perfect: 2 };
     setPoolTenses(
-      ids.map((id) => {
-        const card = cards.find((c) => c.id === id);
+      entries.map((e) => {
+        if (e.up != null) return null;
+        const card = cards.find((c) => c.id === e.id);
         if (!tenseActive || !tenseDataFor(card)) return null;
         const forms = allowedForms(card);
         return TENSE_INDEX[forms[Math.floor(Math.random() * forms.length)]];
@@ -13001,14 +13132,16 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const current = cards.find((c) => c.id === poolIds[idx]);
   // What the card actually shows: the normal word, or — in a tense
   // session — the verb in the chosen tense in both languages.
-  const tenseIdx = current && tenseActive ? poolTenses[idx] : null;
+  const upIdx = current && poolUps[idx] != null ? poolUps[idx] : null;
+  const upForm = upIdx != null ? levelUpFormsFor(current)[upIdx] || null : null;
+  const tenseIdx = current && tenseActive && !upForm ? poolTenses[idx] : null;
   const tenseData = tenseIdx != null ? tenseDataFor(current) : null;
   // "Hide en/et": show "hund" instead of "en hund" when Danish comes
   // first, and reveal the full word on the back.
   const hideArticle =
-    !tenseData && nounOpts.includes("hide") && langDir === "da-first" && current && current.type === "word" && /^(en|et)\s/i.test(current.front);
-  const shownFront = tenseData ? tenseData.da[tenseIdx] : current ? (hideArticle ? current.front.replace(/^(en|et)\s+/i, "") : current.front) : "";
-  const shownBack = tenseData ? tenseData.en[tenseIdx] : current ? current.back : "";
+    !tenseData && !upForm && nounOpts.includes("hide") && langDir === "da-first" && current && current.type === "word" && /^(en|et)\s/i.test(current.front);
+  const shownFront = upForm ? upForm.da : tenseData ? tenseData.da[tenseIdx] : current ? (hideArticle ? current.front.replace(/^(en|et)\s+/i, "") : current.front) : "";
+  const shownBack = upForm ? upForm.en : tenseData ? tenseData.en[tenseIdx] : current ? current.back : "";
   // Scoped to the current filter selection (category, starred, and the
   // same grammar-inclusion rule the pool itself uses) so switching to
   // Grammar Lessons shows progress within that category, not a leftover
@@ -13051,7 +13184,15 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
 
   function requestNext() {
     if (exiting) return;
+    markLevelUpSeen();
     setExiting("left");
+  }
+
+  // Moving on from a known word's new form counts it as seen: the next
+  // form comes a week later, and after the last one the word is done.
+  function markLevelUpSeen() {
+    if (!current || upIdx == null || (current.upStage || 0) !== upIdx) return;
+    updateCard(current.id, { upStage: upIdx + 1, upDue: Date.now() + LEVELUP_NEXT_GAP });
   }
 
   function requestBack() {
@@ -13098,7 +13239,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       setFlipped((f) => !f);
       return;
     }
-    if (dx <= -threshold) setExiting("left");
+    if (dx <= -threshold) {
+      markLevelUpSeen();
+      setExiting("left");
+    }
     else if (dx >= threshold) setExiting("right");
     else setDragX(0); // didn't clear the threshold — snap back
   }
@@ -13111,7 +13255,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     try {
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
-        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front),
+        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + knownWordsHint(),
         { maxTokens: 900 }
       );
       const parsed = parseJSONLoose(reply);
@@ -13186,6 +13330,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       [ids[i], ids[j]] = [ids[j], ids[i]];
     }
     setPoolIds(ids);
+    setPoolUps([]); // a re-review shows plain cards
     setIdx(0);
     setFlipped(false);
     setDragX(0);
@@ -13811,7 +13956,7 @@ function LibraryView({ cards, categories, updateCard, deleteCard, persistCategor
     try {
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
-        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front),
+        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + knownWordsHint(),
         { maxTokens: 900 }
       );
       const parsed = parseJSONLoose(reply);
@@ -14290,7 +14435,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
     setLookupError("");
     try {
       const reply = await callAI(
-        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName. Then explain the point and give exactly 3 example sentences (Danish and English) illustrating it." + GRAMMAR_CARD_STYLE,
+        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName. Then explain the point and give exactly 3 example sentences (Danish and English) illustrating it." + GRAMMAR_CARD_STYLE + knownWordsHint(),
         'Grammar point: "' +
           front.trim() +
           '"\n\nRespond ONLY with JSON, no other text: {"grammarName": "...", "explanation": "...", "examples": [{"da": "...", "en": "..."}]}',
@@ -15413,7 +15558,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
         "You turn a Danish-tutor question and answer into the single most useful flashcard for the learner to review later. Choose whichever type genuinely fits best: " +
           "'word' if this was really just about one word or a short bit of vocabulary (front = the Danish word, back = ONE clean English translation only — never a list of synonyms or a parenthetical part-of-speech note); " +
           "'sentence' if this was about how to say or understand one specific sentence (front = the Danish sentence, back = the English translation); " +
-          "'grammar' if this was about a rule, pattern, or structure that's more useful explained than just translated (front = a short name for the grammar point, back = a concise plain-English explanation, plus exactly 3 short example sentences)." + GRAMMAR_CARD_STYLE + " " +
+          "'grammar' if this was about a rule, pattern, or structure that's more useful explained than just translated (front = a short name for the grammar point, back = a concise plain-English explanation, plus exactly 3 short example sentences)." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
           "Don't overuse 'grammar' — most simple vocabulary questions should be 'word' or 'sentence'. " +
           "For 'word' or 'sentence' types, also pick the single best-fitting category." + CATEGORY_RULE + " " +
           "If the front is a Danish noun, include its grammatical article (en/et), and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
@@ -15710,7 +15855,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     try {
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
-        'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word),
+        'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word) + knownWordsHint(),
         { maxTokens: 700 }
       );
       const parsed = parseJSONLoose(reply);
@@ -15806,7 +15951,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
           "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
           "If what they wrote in Danish has a grammar mistake anywhere in it, you must catch it and clearly point out what was wrong and why, referencing the specific part that was incorrect — don't silently correct it without mentioning the error. If they wrote in English, or their Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
           '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
         text.trim(),
         { maxTokens: 2200 }
@@ -16334,7 +16479,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     try {
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
-        'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word),
+        'Danish word or phrase: "' + word + '"' + (meaning ? " (means: " + meaning + ")" : "") + irregularVerbFactsHint(word) + irregularPluralFactsHint(word) + knownWordsHint(),
         { maxTokens: 700 }
       );
       const parsed = parseJSONLoose(reply);
@@ -16395,7 +16540,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
       const categoryNames = topicNamesForAI(categories);
       const reply = await callVision(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
           '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
         "Analyze the grammar of the text in this photo."
       );

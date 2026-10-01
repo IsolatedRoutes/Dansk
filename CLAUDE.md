@@ -42,6 +42,18 @@ update — and any future App Store or desktop version — must keep it.
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and only ship when it prints ALL PASSED.
 
+## Smart learning (level-up)
+Owner wants smart learning without new features, buttons or gamification.
+- A word marked known never comes back as itself. It returns once in each
+  other form, one level above the word: verbs past + perfect (from the
+  tense columns), nouns "the …" + plural, adjectives comparative +
+  superlative (WORD_DATA columns 10–11, `upDa` / `upEn`, forms checked
+  against the Stavekontrolden dictionary). 3 days after known, then 7.
+  Seeing a form counts; nothing takes "known" away. Card fields: `upStage`,
+  `upDue`. At most ~1 in 4 session cards.
+- Phrases built on a known word come earlier in a session.
+- AI examples are built from the learner's known words (`knownWordsHint`).
+
 ## Building
 `danish-flashcards.jsx` is the source; `index.html` contains the bundled
 build (esbuild, React 18). Bump `CACHE_NAME` in `sw.js` when shell files change.
