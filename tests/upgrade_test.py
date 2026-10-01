@@ -58,7 +58,7 @@ with sync_playwright() as p:
       cards.push({ id: "own2", type: "word", front: "en rugbrødsmad", back: "an open sandwich", category: "mine", starred: true, createdAt: 1 });
       cards.push({ id: "own3", type: "sentence", front: "Jeg elsker Danmark.", back: "I love Denmark.", category: "mine", createdAt: 1 });
       // A lesson renamed later (Flavour -> Attitude words) must keep its mark.
-      const flav = cards.find(c => c.type === "grammar" && /^(Flavour|Attitude) words/.test(c.front)); if (flav) { flav.known = true; flav.starred = true; }
+      const flav = cards.find(c => c.type === "grammar" && /^(Flavour words|Attitude words|Modal particles)/.test(c.front)); if (flav) { flav.known = true; flav.starred = true; }
       // The old Add tab put new cards in whichever category came first: Grammar Lessons.
       const de = cards.find(c => c.front === "de" && c.starter); if (de) { de.category = "grammar-lessons"; de.known = true; }
       const hendes = cards.find(c => c.front === "hendes" && c.starter); if (hendes) { hendes.category = "grammar-lessons"; hendes.starred = true; }
