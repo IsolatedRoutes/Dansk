@@ -57,6 +57,8 @@ with sync_playwright() as p:
       cards.push({ id: "own1", type: "word", front: "springe over", back: "to skip", category: cats[0].id, known: true, createdAt: 1 });
       cards.push({ id: "own2", type: "word", front: "en rugbrødsmad", back: "an open sandwich", category: "mine", starred: true, createdAt: 1 });
       cards.push({ id: "own3", type: "sentence", front: "Jeg elsker Danmark.", back: "I love Denmark.", category: "mine", createdAt: 1 });
+      // A lesson renamed later (Flavour -> Attitude words) must keep its mark.
+      const flav = cards.find(c => c.type === "grammar" && /^Flavour words/.test(c.front)); if (flav) { flav.known = true; flav.starred = true; }
       // The old Add tab put new cards in whichever category came first: Grammar Lessons.
       const de = cards.find(c => c.front === "de" && c.starter); if (de) { de.category = "grammar-lessons"; de.known = true; }
       const hendes = cards.find(c => c.front === "hendes" && c.starter); if (hendes) { hendes.category = "grammar-lessons"; hendes.starred = true; }
@@ -81,6 +83,8 @@ with sync_playwright() as p:
       return { notGrammarInLessons: cards.filter(c => ids.includes(c.category) && c.type !== 'grammar').map(c => c.front),
                grammarOutside: cards.filter(c => c.type === 'grammar' && !ids.includes(c.category)).map(c => c.front),
                de: cards.find(c => c.front === 'de'), own4: cards.find(c => c.front === 'en tøjrulle'), own6: cards.find(c => c.front === 'Min egen regel') } }""")
+    att = page.evaluate("() => JSON.parse(localStorage.cards).filter(c => c.type === 'grammar' && /^(Attitude|Flavour) words/.test(c.front)).map(c => [c.front, !!c.known, !!c.starred])")
+    check(att == [["Attitude words: jo, nok, vel, bare", True, True]], "renamed lesson keeps known+starred, no duplicate " + str(att))
     check(stray["notGrammarInLessons"] == [], "Grammar Lessons holds only lessons " + str(stray["notGrammarInLessons"]))
     check(stray["grammarOutside"] == [], "every lesson is in Grammar Lessons " + str(stray["grammarOutside"]))
     check(bool(stray["de"] and stray["de"].get("known")), "known mark kept on a card moved out of Grammar Lessons")

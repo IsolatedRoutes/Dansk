@@ -9836,7 +9836,7 @@ const STARTER_GRAMMAR = [
     examples: [
       ["Det er dejlig**t**.", "It's lovely."],
       ["Det er svær**t**.", "It is difficult."],
-      ["At rejse er dyr**t**.", "Travelling is expensive."],
+      ["At rejse er dyr**t**.", "Traveling is expensive."],
     ],
   },
   {
@@ -10126,7 +10126,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Flavour words: jo, nok, vel, bare",
+    name: "Attitude words: jo, nok, vel, bare",
+    was: ["Flavour words: jo, nok, vel, bare"],
     level: 3,
     rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main clause they come right after the verb, or after the subject if the subject follows the verb (Det ved du jo godt), and before ikke: Det er jo ikke sandt. You can't translate them word for word, so learn them in whole sentences.",
     pattern: "Det er **jo** ikke sandt · Han kommer **nok** · Det er **vel** i orden?",
@@ -10889,7 +10890,7 @@ function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "6";
+const GRAMMAR_VERSION = "7";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
