@@ -1405,10 +1405,10 @@ at begynde	to begin		1	begynder|begyndte|begyndt		jeg begynder|jeg begyndte|jeg 
 at starte	to start		1	starter|startede|startet		jeg starter|jeg startede|jeg har startet	I start|I started|I have started	v
 at stoppe	to stop		1	stopper|stoppede|stoppet		jeg stopper|jeg stoppede|jeg har stoppet	I stop|I stopped|I have stopped	v
 at slutte	to end / finish		1	slutter|sluttede|sluttet		jeg slutter|jeg sluttede|jeg har sluttet	I end / finish|I ended / finished|I have ended / finished	v
-at fortsætte	to continue		1	fortsætter|fortsatte|fortsat		jeg fortsætter|jeg fortsatte|jeg har fortsat	I continue|I continued|I have continued	v
+at fortsætte	to continue		2	fortsætter|fortsatte|fortsat		jeg fortsætter|jeg fortsatte|jeg har fortsat	I continue|I continued|I have continued	v
 at vente	to wait		1	venter|ventede|ventet		jeg venter|jeg ventede|jeg har ventet	I wait|I waited|I have waited	v
 at håbe	to hope		1	håber|håbede|håbet		jeg håber|jeg håbede|jeg har håbet	I hope|I hoped|I have hoped	v
-at ønske	to wish		1	ønsker|ønskede|ønsket		jeg ønsker|jeg ønskede|jeg har ønsket	I wish|I wished|I have wished	v
+at ønske	to wish		2	ønsker|ønskede|ønsket		jeg ønsker|jeg ønskede|jeg har ønsket	I wish|I wished|I have wished	v
 at elske	to love		1	elsker|elskede|elsket		jeg elsker|jeg elskede|jeg har elsket	I love|I loved|I have loved	v
 at kunne lide	to like		1	kan lide|kunne lide|kunnet lide		jeg kan lide|jeg kunne lide|jeg har kunnet lide	I like|I liked|I have liked	v
 at hade	to hate		1	hader|hadede|hadet		jeg hader|jeg hadede|jeg har hadet	I hate|I hated|I have hated	v
@@ -1419,7 +1419,7 @@ at forklare	to explain		1	forklarer|forklarede|forklaret		jeg forklarer|jeg fork
 at spørge	to ask		1	spørger|spurgte|spurgt		jeg spørger|jeg spurgte|jeg har spurgt	I ask|I asked|I have asked	v
 at svare	to answer		1	svarer|svarede|svaret		jeg svarer|jeg svarede|jeg har svaret	I answer|I answered|I have answered	v
 at bede	to ask / pray		1	beder|bad|bedt		jeg beder|jeg bad|jeg har bedt	I ask / pray|I asked / prayed|I have asked / prayed	v
-at takke	to thank		1	takker|takkede|takket		jeg takker|jeg takkede|jeg har takket	I thank|I thanked|I have thanked	v
+at takke	to thank		2	takker|takkede|takket		jeg takker|jeg takkede|jeg har takket	I thank|I thanked|I have thanked	v
 at undskylde	to apologize		1	undskylder|undskyldte|undskyldt		jeg undskylder|jeg undskyldte|jeg har undskyldt	I apologize|I apologized|I have apologized	v
 at hjælpe	to help		1	hjælper|hjalp|hjulpet		jeg hjælper|jeg hjalp|jeg har hjulpet	I help|I helped|I have helped	v
 at bruge	to use		1	bruger|brugte|brugt		jeg bruger|jeg brugte|jeg har brugt	I use|I used|I have used	v
@@ -1429,15 +1429,15 @@ at sælge	to sell	MB	1	sælger|solgte|solgt		jeg sælger|jeg solgte|jeg har solg
 at købe	to buy	CS	1	køber|købte|købt		jeg køber|jeg købte|jeg har købt	I buy|I bought|I have bought	v
 at låne	to borrow / lend	MB	1	låner|lånte|lånt		jeg låner|jeg lånte|jeg har lånt	I borrow / lend|I borrowed / lent|I have borrowed / lent	v
 at sende	to send		1	sender|sendte|sendt		jeg sender|jeg sendte|jeg har sendt	I send|I sent|I have sent	v
-at modtage	to receive		1	modtager|modtog|modtaget		jeg modtager|jeg modtog|jeg har modtaget	I receive|I received|I have received	v
+at modtage	to receive		2	modtager|modtog|modtaget		jeg modtager|jeg modtog|jeg har modtaget	I receive|I received|I have received	v
 at ringe	to call (phone)		1	ringer|ringede|ringet		jeg ringer|jeg ringede|jeg har ringet	I call (phone)|I called (phone)|I have called (phone)	v
 at besøge	to visit		1	besøger|besøgte|besøgt		jeg besøger|jeg besøgte|jeg har besøgt	I visit|I visited|I have visited	v
 at rejse	to travel	TT	1	rejser|rejste|rejst		jeg rejser|jeg rejste|jeg er rejst	I travel|I traveled|I have traveled	v
 at flytte	to move		1	flytter|flyttede|flyttet		jeg flytter|jeg flyttede|jeg er flyttet	I move|I moved|I have moved	v
 at bo	to live / reside	HH	1	bor|boede|boet		jeg bor|jeg boede|jeg har boet	I live / reside|I lived / resided|I have lived / resided	v
-at bygge	to build		1	bygger|byggede|bygget		jeg bygger|jeg byggede|jeg har bygget	I build|I built|I have built	v
+at bygge	to build		2	bygger|byggede|bygget		jeg bygger|jeg byggede|jeg har bygget	I build|I built|I have built	v
 at reparere	to repair		2	reparerer|reparerede|repareret		jeg reparerer|jeg reparerede|jeg har repareret	I repair|I repaired|I have repaired	v
-at ødelægge	to destroy / break		1	ødelægger|ødelagde|ødelagt		jeg ødelægger|jeg ødelagde|jeg har ødelagt	I destroy / break|I destroyed / broke|I have destroyed / broken	v
+at ødelægge	to destroy / break		2	ødelægger|ødelagde|ødelagt		jeg ødelægger|jeg ødelagde|jeg har ødelagt	I destroy / break|I destroyed / broke|I have destroyed / broken	v
 at åbne	to open		1	åbner|åbnede|åbnet		jeg åbner|jeg åbnede|jeg har åbnet	I open|I opened|I have opened	v
 at lukke	to close		1	lukker|lukkede|lukket		jeg lukker|jeg lukkede|jeg har lukket	I close|I closed|I have closed	v
 at slukke	to turn off		1	slukker|slukkede|slukket		jeg slukker|jeg slukkede|jeg har slukket	I turn off|I turned off|I have turned off	v
@@ -1454,7 +1454,7 @@ at græde	to cry		1	græder|græd|grædt		jeg græder|jeg græd|jeg har grædt	I
 at smile	to smile		1	smiler|smilede|smilet		jeg smiler|jeg smilede|jeg har smilet	I smile|I smiled|I have smiled	v
 at råbe	to shout		2	råber|råbte|råbt		jeg råber|jeg råbte|jeg har råbt	I shout|I shouted|I have shouted	v
 at hviske	to whisper		2	hvisker|hviskede|hvisket		jeg hvisker|jeg hviskede|jeg har hvisket	I whisper|I whispered|I have whispered	v
-at passe	to fit / suit		1	passer|passede|passet		jeg passer|jeg passede|jeg har passet	I fit / suit|I fit / suited|I have fit / suited	v
+at passe	to fit / suit		2	passer|passede|passet		jeg passer|jeg passede|jeg har passet	I fit / suit|I fit / suited|I have fit / suited	v
 at invitere	to invite		1	inviterer|inviterede|inviteret		jeg inviterer|jeg inviterede|jeg har inviteret	I invite|I invited|I have invited	v
 at acceptere	to accept		2	accepterer|accepterede|accepteret		jeg accepterer|jeg accepterede|jeg har accepteret	I accept|I accepted|I have accepted	v
 at nægte	to refuse		2	nægter|nægtede|nægtet		jeg nægter|jeg nægtede|jeg har nægtet	I refuse|I refused|I have refused	v
@@ -1470,9 +1470,9 @@ at male	to paint		2	maler|malede|malet		jeg maler|jeg malede|jeg har malet	I pai
 at tegne	to draw	FS	1	tegner|tegnede|tegnet		jeg tegner|jeg tegnede|jeg har tegnet	I draw|I drew|I have drawn	v
 at optage	to record	TM	3	optager|optog|optaget		jeg optager|jeg optog|jeg har optaget	I record|I recorded|I have recorded	v
 at ansætte	to hire	WJ	2	ansætter|ansatte|ansat		jeg ansætter|jeg ansatte|jeg har ansat	I hire|I hired|I have hired	v
-at søge	to search / apply		1	søger|søgte|søgt		jeg søger|jeg søgte|jeg har søgt	I search / apply|I searched / applied|I have searched / applied	v
+at søge	to search / apply		2	søger|søgte|søgt		jeg søger|jeg søgte|jeg har søgt	I search / apply|I searched / applied|I have searched / applied	v
 at holde	to hold / keep		1	holder|holdt|holdt		jeg holder|jeg holdt|jeg har holdt	I hold / keep|I held / kept|I have held / kept	v
-at miste	to lose (something)		1	mister|mistede|mistet		jeg mister|jeg mistede|jeg har mistet	I lose (something)|I lost (something)|I have lost (something)	v
+at miste	to lose (something)		2	mister|mistede|mistet		jeg mister|jeg mistede|jeg har mistet	I lose (something)|I lost (something)|I have lost (something)	v
 at dele	to share / divide		1	deler|delte|delt		jeg deler|jeg delte|jeg har delt	I share / divide|I shared / divided|I have shared / divided	v
 at samle	to gather / collect		2	samler|samlede|samlet		jeg samler|jeg samlede|jeg har samlet	I gather / collect|I gathered / collected|I have gathered / collected	v
 at sætte	to put / place		1	sætter|satte|sat		jeg sætter|jeg satte|jeg har sat	I put / place|I put / placed|I have put / placed	v
@@ -1498,7 +1498,7 @@ at dukke op	to show up		2	dukker op|dukkede op|dukket op		jeg dukker op|jeg dukk
 at opdage	to discover		2	opdager|opdagede|opdaget		jeg opdager|jeg opdagede|jeg har opdaget	I discover|I discovered|I have discovered	v
 at afsløre	to reveal		3	afslører|afslørede|afsløret		jeg afslører|jeg afslørede|jeg har afsløret	I reveal|I revealed|I have revealed	v
 at skjule	to hide		2	skjuler|skjulte|skjult		jeg skjuler|jeg skjulte|jeg har skjult	I hide|I hid|I have hidden	v
-at gemme	to save/hide		1	gemmer|gemte|gemt		jeg gemmer|jeg gemte|jeg har gemt	I save / hide|I saved / hid|I have saved / hidden	v
+at gemme	to save/hide		2	gemmer|gemte|gemt		jeg gemmer|jeg gemte|jeg har gemt	I save / hide|I saved / hid|I have saved / hidden	v
 at bekræfte	to confirm		2	bekræfter|bekræftede|bekræftet		jeg bekræfter|jeg bekræftede|jeg har bekræftet	I confirm|I confirmed|I have confirmed	v
 at benægte	to deny		3	benægter|benægtede|benægtet		jeg benægter|jeg benægtede|jeg har benægtet	I deny|I denied|I have denied	v
 at klage	to complain		2	klager|klagede|klaget		jeg klager|jeg klagede|jeg har klaget	I complain|I complained|I have complained	v
@@ -1530,20 +1530,20 @@ at veje	to weigh		2	vejer|vejede|vejet		jeg vejer|jeg vejede|jeg har vejet	I wei
 at tælle	to count		1	tæller|talte|talt		jeg tæller|jeg talte|jeg har talt	I count|I counted|I have counted	v
 at beregne	to calculate		3	beregner|beregnede|beregnet		jeg beregner|jeg beregnede|jeg har beregnet	I calculate|I calculated|I have calculated	v
 at anslå	to estimate		4	anslår|anslog|anslået		jeg anslår|jeg anslog|jeg har anslået	I estimate|I estimated|I have estimated	v
-at lade	to let		1	lader|lod|ladet		jeg lader|jeg lod|jeg har ladet	I let|I let|I have let	v
-at burde	ought to / should		1	bør|burde|burdet		jeg bør|jeg burde|jeg har burdet	I ought to|I ought to / should have|I have been obliged to	v
+at lade	to let		2	lader|lod|ladet		jeg lader|jeg lod|jeg har ladet	I let|I let|I have let	v
+at burde	ought to / should		2	bør|burde|burdet		jeg bør|jeg burde|jeg har burdet	I ought to|I ought to / should have|I have been obliged to	v
 at behøve	to need		1	behøver|behøvede|behøvet		jeg behøver|jeg behøvede|jeg har behøvet	I need|I needed|I have needed	v
 at betyde	to mean		1	betyder|betød|betydet		jeg betyder|jeg betød|jeg har betydet	I mean|I meant|I have meant	v
 at dræbe	to kill	SP	2	dræber|dræbte|dræbt		jeg dræber|jeg dræbte|jeg har dræbt	I kill|I killed|I have killed	v
-at lyde	to sound		1	lyder|lød|lydt		det lyder|det lød|det har lydt	it sounds|it sounded|it has sounded	v
-at virke	to work / seem		1	virker|virkede|virket		jeg virker|jeg virkede|jeg har virket	I work / seem|I worked / seemed|I have worked / seemed	v
-at ligne	to look like		1	ligner|lignede|lignet		jeg ligner|jeg lignede|jeg har lignet	I look like|I looked like|I have looked like	v
+at lyde	to sound		2	lyder|lød|lydt		det lyder|det lød|det har lydt	it sounds|it sounded|it has sounded	v
+at virke	to work / seem		2	virker|virkede|virket		jeg virker|jeg virkede|jeg har virket	I work / seem|I worked / seemed|I have worked / seemed	v
+at ligne	to look like		2	ligner|lignede|lignet		jeg ligner|jeg lignede|jeg har lignet	I look like|I looked like|I have looked like	v
 at føle	to feel		1	føler|følte|følt		jeg føler|jeg følte|jeg har følt	I feel|I felt|I have felt	v
-at kalde	to call		1	kalder|kaldte|kaldt		jeg kalder|jeg kaldte|jeg har kaldt	I call|I called|I have called	v
+at kalde	to call		2	kalder|kaldte|kaldt		jeg kalder|jeg kaldte|jeg har kaldt	I call|I called|I have called	v
 at snakke	to talk / chat		1	snakker|snakkede|snakket		jeg snakker|jeg snakkede|jeg har snakket	I talk / chat|I talked / chatted|I have talked / chatted	v
 at leve	to live (be alive)		1	lever|levede|levet		jeg lever|jeg levede|jeg har levet	I live (be alive)|I lived (be alive)|I have lived (be alive)	v
 at redde	to save / rescue		2	redder|reddede|reddet		jeg redder|jeg reddede|jeg har reddet	I save / rescue|I saved / rescued|I have saved / rescued	v
-at slå	to hit / beat		1	slår|slog|slået		jeg slår|jeg slog|jeg har slået	I hit / beat|I hit / beat|I have hit / beaten	v
+at slå	to hit / beat		2	slår|slog|slået		jeg slår|jeg slog|jeg har slået	I hit / beat|I hit / beat|I have hit / beaten	v
 at foregå	to take place / happen		2	foregår|foregik|foregået		det foregår|det foregik|det har foregået	it takes place / happens|it took place / happened|it has taken place / happened	v
 at ane	to have an idea / suspect		3	aner|anede|anet		jeg aner|jeg anede|jeg har anet	I have an idea / suspect|I had an idea / suspected|I have had an idea / suspected	v
 at slippe	to let go / escape		2	slipper|slap|sluppet		jeg slipper|jeg slap|jeg har sluppet	I let go / escape|I let go / escaped|I have let go / escaped	v
@@ -1553,15 +1553,15 @@ at skynde sig	to hurry		2	skynder sig|skyndte sig|skyndt sig		jeg skynder mig|je
 at mangle	to lack / be missing		2	mangler|manglede|manglet		jeg mangler|jeg manglede|jeg har manglet	I lack / am missing|I lacked / was missing|I have lacked / been missing	v
 at føles	to feel (seem)		2	føles|føltes|føltes		det føles|det føltes|det har føltes	it feels (seem)|it felt (seem)|it has felt (seem)	v
 at mærke	to feel / notice		2	mærker|mærkede|mærket		jeg mærker|jeg mærkede|jeg har mærket	I feel / notice|I felt / noticed|I have felt / noticed	v
-at følge	to follow		1	følger|fulgte|fulgt		jeg følger|jeg fulgte|jeg har fulgt	I follow|I followed|I have followed	v
-at trække	to pull		1	trækker|trak|trukket		jeg trækker|jeg trak|jeg har trukket	I pull|I pulled|I have pulled	v
+at følge	to follow		2	følger|fulgte|fulgt		jeg følger|jeg fulgte|jeg har fulgt	I follow|I followed|I have followed	v
+at trække	to pull		2	trækker|trak|trukket		jeg trækker|jeg trak|jeg har trukket	I pull|I pulled|I have pulled	v
 at gide	to bother / can be bothered		2	gider|gad|gidet		jeg gider|jeg gad|jeg har gidet	I can be bothered to|I could be bothered to|I have bothered to	v
 at skyde	to shoot		3	skyder|skød|skudt		jeg skyder|jeg skød|jeg har skudt	I shoot|I shot|I have shot	v
 at lyve	to lie (tell a lie)		2	lyver|løj|løjet		jeg lyver|jeg løj|jeg har løjet	I lie (tell a lie)|I lied|I have lied	v
 at fange	to catch		2	fanger|fangede|fanget		jeg fanger|jeg fangede|jeg har fanget	I catch|I caught|I have caught	v
 at fortjene	to deserve		3	fortjener|fortjente|fortjent		jeg fortjener|jeg fortjente|jeg har fortjent	I deserve|I deserved|I have deserved	v
 at stjæle	to steal		2	stjæler|stjal|stjålet		jeg stjæler|jeg stjal|jeg har stjålet	I steal|I stole|I have stolen	v
-at vende	to turn		1	vender|vendte|vendt		jeg vender|jeg vendte|jeg har vendt	I turn|I turned|I have turned	v
+at vende	to turn		2	vender|vendte|vendt		jeg vender|jeg vendte|jeg har vendt	I turn|I turned|I have turned	v
 at bryde	to break		2	bryder|brød|brudt		jeg bryder|jeg brød|jeg har brudt	I break|I broke|I have broken	v
 at skaffe	to get / obtain		2	skaffer|skaffede|skaffet		jeg skaffer|jeg skaffede|jeg har skaffet	I get / obtain|I got / obtained|I have gotten / obtained	v
 at ordne	to fix / sort out		2	ordner|ordnede|ordnet		jeg ordner|jeg ordnede|jeg har ordnet	I fix / sort out|I fixed / sorted out|I have fixed / sorted out	v
@@ -1577,9 +1577,9 @@ at myrde	to murder	SP	3	myrder|myrdede|myrdet		jeg myrder|jeg myrdede|jeg har my
 at tjene	to earn / serve		2	tjener|tjente|tjent		jeg tjener|jeg tjente|jeg har tjent	I earn / serve|I earned / served|I have earned / served	v
 at bringe	to bring		2	bringer|bragte|bragt		jeg bringer|jeg bragte|jeg har bragt	I bring|I brought|I have brought	v
 at fungere	to work / function		2	fungerer|fungerede|fungeret		jeg fungerer|jeg fungerede|jeg har fungeret	I work / function|I worked / functioned|I have worked / functioned	v
-at mødes	to meet (each other)		1	mødes|mødtes|mødtes		vi mødes|vi mødtes|vi har mødtes	we meet|we met|we have met	v
+at mødes	to meet (each other)		2	mødes|mødtes|mødtes		vi mødes|vi mødtes|vi har mødtes	we meet|we met|we have met	v
 at kæmpe	to fight / struggle		2	kæmper|kæmpede|kæmpet		jeg kæmper|jeg kæmpede|jeg har kæmpet	I fight / struggle|I fought / struggled|I have fought / struggled	v
-at kysse	to kiss		1	kysser|kyssede|kysset		jeg kysser|jeg kyssede|jeg har kysset	I kiss|I kissed|I have kissed	v
+at kysse	to kiss		2	kysser|kyssede|kysset		jeg kysser|jeg kyssede|jeg har kysset	I kiss|I kissed|I have kissed	v
 at anholde	to arrest	SP	3	anholder|anholdt|anholdt		jeg anholder|jeg anholdt|jeg har anholdt	I arrest|I arrested|I have arrested	v
 at overleve	to survive		3	overlever|overlevede|overlevet		jeg overlever|jeg overlevede|jeg har overlevet	I survive|I survived|I have survived	v
 at efterlade	to leave behind		3	efterlader|efterlod|efterladt		jeg efterlader|jeg efterlod|jeg har efterladt	I leave behind|I left behind|I have left behind	v
@@ -1608,7 +1608,7 @@ at trænge	to need / push through		3	trænger|trængte|trængt		jeg trænger|jeg
 at undersøge	to examine / investigate		2	undersøger|undersøgte|undersøgt		jeg undersøger|jeg undersøgte|jeg har undersøgt	I examine / investigate|I examined / investigated|I have examined / investigated	v
 at hvile	to rest		2	hviler|hvilede|hvilet		jeg hviler|jeg hvilede|jeg har hvilet	I rest|I rested|I have rested	v
 at dække	to cover		2	dækker|dækkede|dækket		jeg dækker|jeg dækkede|jeg har dækket	I cover|I covered|I have covered	v
-at nå	to reach / make it		1	når|nåede|nået		jeg når|jeg nåede|jeg har nået	I reach / make it|I reached / made it|I have reached / made it	v
+at nå	to reach / make it		2	når|nåede|nået		jeg når|jeg nåede|jeg har nået	I reach / make it|I reached / made it|I have reached / made it	v
 at ende	to end		2	ender|endte|endt		jeg ender|jeg endte|jeg er endt	I end|I ended|I have ended	v
 at droppe	to drop / skip		2	dropper|droppede|droppet		jeg dropper|jeg droppede|jeg har droppet	I drop / skip|I dropped / skipped|I have dropped / skipped	v
 at nævne	to mention		2	nævner|nævnte|nævnt		jeg nævner|jeg nævnte|jeg har nævnt	I mention|I mentioned|I have mentioned	v
@@ -1653,7 +1653,7 @@ at behandle	to treat		2	behandler|behandlede|behandlet		jeg behandler|jeg behand
 at standse	to stop		3	standser|standsede|standset		jeg standser|jeg standsede|jeg har standset	I stop|I stopped|I have stopped	v
 at kontrollere	to control / check		2	kontrollerer|kontrollerede|kontrolleret		jeg kontrollerer|jeg kontrollerede|jeg har kontrolleret	I control / check|I controlled / checked|I have controlled / checked	v
 at formode	to suppose / presume		3	formoder|formodede|formodet		jeg formoder|jeg formodede|jeg har formodet	I suppose / presume|I supposed / presumed|I have supposed / presumed	v
-at drømme	to dream		1	drømmer|drømte|drømt		jeg drømmer|jeg drømte|jeg har drømt	I dream|I dreamed|I have dreamed	v
+at drømme	to dream		2	drømmer|drømte|drømt		jeg drømmer|jeg drømte|jeg har drømt	I dream|I dreamed|I have dreamed	v
 at udføre	to carry out		2	udfører|udførte|udført		jeg udfører|jeg udførte|jeg har udført	I carry out|I carried out|I have carried out	v
 at aflevere	to hand in / deliver		2	afleverer|afleverede|afleveret		jeg afleverer|jeg afleverede|jeg har afleveret	I hand in / deliver|I handed in / delivered|I have handed in / delivered	v
 at genkende	to recognize		2	genkender|genkendte|genkendt		jeg genkender|jeg genkendte|jeg har genkendt	I recognize|I recognized|I have recognized	v
@@ -1946,7 +1946,7 @@ at anse	to regard / consider		4	anser|anså|anset		jeg anser|jeg anså|jeg har a
 at anskaffe	to acquire		4	anskaffer|anskaffede|anskaffet		jeg anskaffer|jeg anskaffede|jeg har anskaffet	I acquire|I acquired|I have acquired	v
 at anvende	to use / apply		3	anvender|anvendte|anvendt		jeg anvender|jeg anvendte|jeg har anvendt	I use / apply|I used / applied|I have used / applied	v
 at argumentere	to argue		3	argumenterer|argumenterede|argumenteret		jeg argumenterer|jeg argumenterede|jeg har argumenteret	I argue|I argued|I have argued	v
-at bede om	to ask for		1	beder om|bad om|bedt om		jeg beder om|jeg bad om|jeg har bedt om	I ask for|I asked for|I have asked for	v
+at bede om	to ask for		2	beder om|bad om|bedt om		jeg beder om|jeg bad om|jeg har bedt om	I ask for|I asked for|I have asked for	v
 at begrunde	to justify		3	begrunder|begrundede|begrundet		jeg begrunder|jeg begrundede|jeg har begrundet	I justify|I justified|I have justified	v
 at begrænse	to limit		3	begrænser|begrænsede|begrænset		jeg begrænser|jeg begrænsede|jeg har begrænset	I limit|I limited|I have limited	v
 at belyse	to shed light on		4	belyser|belyste|belyst		jeg belyser|jeg belyste|jeg har belyst	I shed light on|I shed light on|I have shed light on	v
@@ -2022,7 +2022,7 @@ at inddrage	to involve		4	inddrager|inddrog|inddraget		jeg inddrager|jeg inddrog
 at interessere sig for	to be interested in		2	interesserer sig for|interesserede sig for|interesseret sig for		jeg interesserer mig for|jeg interesserede mig for|jeg har interesseret mig for	I am interested in|I was interested in|I have been interested in	v
 at justere	to adjust		3	justerer|justerede|justeret		jeg justerer|jeg justerede|jeg har justeret	I adjust|I adjusted|I have adjusted	v
 at kalde på	to call for		2	kalder på|kaldte på|kaldt på		jeg kalder på|jeg kaldte på|jeg har kaldt på	I call for|I called for|I have called for	v
-at klare	to manage / cope		1	klarer|klarede|klaret		jeg klarer|jeg klarede|jeg har klaret	I manage / cope|I managed / coped|I have managed / coped	v
+at klare	to manage / cope		2	klarer|klarede|klaret		jeg klarer|jeg klarede|jeg har klaret	I manage / cope|I managed / coped|I have managed / coped	v
 at klare sig	to get by / do well		2	klarer sig|klarede sig|klaret sig		jeg klarer mig|jeg klarede mig|jeg har klaret mig	I get by / do well|I got by / did well|I have gotten by / done well	v
 at kombinere	to combine		3	kombinerer|kombinerede|kombineret		jeg kombinerer|jeg kombinerede|jeg har kombineret	I combine|I combined|I have combined	v
 at kommentere	to comment		3	kommenterer|kommenterede|kommenteret		jeg kommenterer|jeg kommenterede|jeg har kommenteret	I comment|I commented|I have commented	v
@@ -2075,7 +2075,7 @@ at sammensætte	to put together		3	sammensætter|sammensatte|sammensat		jeg samm
 at sanse	to sense		4	sanser|sansede|sanset		jeg sanser|jeg sansede|jeg har sanset	I sense|I sensed|I have sensed	v
 at se ud	to look (appear)		2	ser ud|så ud|set ud		jeg ser ud|jeg så ud|jeg har set ud	I look (appear)|I looked (appear)|I have looked (appear)	v
 at se frem til	to look forward to		2	ser frem til|så frem til|set frem til		jeg ser frem til|jeg så frem til|jeg har set frem til	I look forward to|I looked forward to|I have looked forward to	v
-at se på	to look at		1	ser på|så på|set på		jeg ser på|jeg så på|jeg har set på	I look at|I looked at|I have looked at	v
+at se på	to look at		2	ser på|så på|set på		jeg ser på|jeg så på|jeg har set på	I look at|I looked at|I have looked at	v
 at sidde fast	to be stuck		2	sidder fast|sad fast|siddet fast		jeg sidder fast|jeg sad fast|jeg har siddet fast	I am stuck|I was stuck|I have been stuck	v
 at sige til	to tell / let know		2	siger til|sagde til|sagt til		jeg siger til|jeg sagde til|jeg har sagt til	I tell / let know|I told / let know|I have told / let know	v
 at skabe	to create		2	skaber|skabte|skabt		jeg skaber|jeg skabte|jeg har skabt	I create|I created|I have created	v
@@ -2104,7 +2104,7 @@ at tage imod	to receive / accept		2	tager imod|tog imod|taget imod		jeg tager im
 at tage med	to bring along / come along		2	tager med|tog med|taget med		jeg tager med|jeg tog med|jeg har taget med	I bring along / come along|I brought along / came along|I have brought along / come along	v
 at tage stilling til	to take a position on		3	tager stilling til|tog stilling til|taget stilling til		jeg tager stilling til|jeg tog stilling til|jeg har taget stilling til	I take a position on|I took a position on|I have taken a position on	v
 at tage sig sammen	to pull oneself together		3	tager sig sammen|tog sig sammen|taget sig sammen		jeg tager mig sammen|jeg tog mig sammen|jeg har taget mig sammen	I pull myself together|I pulled myself together|I have pulled myself together	v
-at tale om	to talk about		1	taler om|talte om|talt om		jeg taler om|jeg talte om|jeg har talt om	I talk about|I talked about|I have talked about	v
+at tale om	to talk about		2	taler om|talte om|talt om		jeg taler om|jeg talte om|jeg har talt om	I talk about|I talked about|I have talked about	v
 at tale sammen	to talk (with each other)		2	taler sammen|talte sammen|talt sammen		vi taler sammen|vi talte sammen|vi har talt sammen	we talk (with each other)|we talked (with each other)|we have talked (with each other)	v
 at tilbagebetale	to pay back		3	tilbagebetaler|tilbagebetalte|tilbagebetalt		jeg tilbagebetaler|jeg tilbagebetalte|jeg har tilbagebetalt	I pay back|I paid back|I have paid back	v
 at tilføje	to add		2	tilføjer|tilføjede|tilføjet		jeg tilføjer|jeg tilføjede|jeg har tilføjet	I add|I added|I have added	v
@@ -2113,7 +2113,7 @@ at træde i kraft	to take effect		3	træder i kraft|trådte i kraft|trådt i kra
 at trække sig	to withdraw		3	trækker sig|trak sig|trukket sig		jeg trækker mig|jeg trak mig|jeg har trukket mig	I withdraw|I withdrew|I have withdrawn	v
 at tvivle	to doubt		2	tvivler|tvivlede|tvivlet		jeg tvivler|jeg tvivlede|jeg har tvivlet	I doubt|I doubted|I have doubted	v
 at tænke over	to think about		2	tænker over|tænkte over|tænkt over		jeg tænker over|jeg tænkte over|jeg har tænkt over	I think about|I thought about|I have thought about	v
-at tænke på	to think of		1	tænker på|tænkte på|tænkt på		jeg tænker på|jeg tænkte på|jeg har tænkt på	I think of|I thought of|I have thought of	v
+at tænke på	to think of		2	tænker på|tænkte på|tænkt på		jeg tænker på|jeg tænkte på|jeg har tænkt på	I think of|I thought of|I have thought of	v
 at udarbejde	to prepare / draw up		4	udarbejder|udarbejdede|udarbejdet		jeg udarbejder|jeg udarbejdede|jeg har udarbejdet	I prepare / draw up|I prepared / drew up|I have prepared / drawn up	v
 at udbrede	to spread		4	udbreder|udbredte|udbredt		jeg udbreder|jeg udbredte|jeg har udbredt	I spread|I spread|I have spread	v
 at uddanne	to educate / train	SL	3	uddanner|uddannede|uddannet		jeg uddanner|jeg uddannede|jeg har uddannet	I educate / train|I educated / trained|I have educated / trained	v
@@ -2151,8 +2151,8 @@ at nusse	to cuddle / stroke		4	nusser|nussede|nusset		jeg nusser|jeg nussede|jeg
 at pudse	to polish		4	pudser|pudsede|pudset		jeg pudser|jeg pudsede|jeg har pudset	I polish|I polished|I have polished	v
 at puste	to blow / puff		2	puster|pustede|pustet		jeg puster|jeg pustede|jeg har pustet	I blow / puff|I blew / puffed|I have blown / puffed	v
 at rive i stykker	to tear to pieces		2	river i stykker|rev i stykker|revet i stykker		jeg river i stykker|jeg rev i stykker|jeg har revet i stykker	I tear to pieces|I tore to pieces|I have torn to pieces	v
-at sige farvel	to say goodbye	GR	1	siger farvel|sagde farvel|sagt farvel		jeg siger farvel|jeg sagde farvel|jeg har sagt farvel	I say goodbye|I said goodbye|I have said goodbye	v
-at sige goddag	to say hello	GR	1	siger goddag|sagde goddag|sagt goddag		jeg siger goddag|jeg sagde goddag|jeg har sagt goddag	I say hello|I said hello|I have said hello	v
+at sige farvel	to say goodbye	GR	2	siger farvel|sagde farvel|sagt farvel		jeg siger farvel|jeg sagde farvel|jeg har sagt farvel	I say goodbye|I said goodbye|I have said goodbye	v
+at sige goddag	to say hello	GR	2	siger goddag|sagde goddag|sagt goddag		jeg siger goddag|jeg sagde goddag|jeg har sagt goddag	I say hello|I said hello|I have said hello	v
 at skrabe	to scrape		3	skraber|skrabede|skrabet		jeg skraber|jeg skrabede|jeg har skrabet	I scrape|I scraped|I have scraped	v
 at skrubbe	to scrub		3	skrubber|skrubbede|skrubbet		jeg skrubber|jeg skrubbede|jeg har skrubbet	I scrub|I scrubbed|I have scrubbed	v
 at snorke	to snore		2	snorker|snorkede|snorket		jeg snorker|jeg snorkede|jeg har snorket	I snore|I snored|I have snored	v
@@ -2252,7 +2252,7 @@ at gruppere	to group		4	grupperer|grupperede|grupperet		jeg grupperer|jeg gruppe
 at gå af	to resign / go off		3	går af|gik af|gået af		jeg går af|jeg gik af|jeg er gået af	I resign / go off|I resigned / went off|I have resigned / gone off	v
 at gå forbi	to pass by		2	går forbi|gik forbi|gået forbi		jeg går forbi|jeg gik forbi|jeg er gået forbi	I pass by|I passed by|I have passed by	v
 at gå i stykker	to break		2	går i stykker|gik i stykker|gået i stykker		det går i stykker|det gik i stykker|det er gået i stykker	it breaks|it broke|it has broken	v
-at gå ind	to go in		1	går ind|gik ind|gået ind		jeg går ind|jeg gik ind|jeg er gået ind	I go in|I went in|I have gone in	v
+at gå ind	to go in		2	går ind|gik ind|gået ind		jeg går ind|jeg gik ind|jeg er gået ind	I go in|I went in|I have gone in	v
 at gå med til	to agree to		3	går med til|gik med til|gået med til		jeg går med til|jeg gik med til|jeg er gået med til	I agree to|I agreed to|I have agreed to	v
 at gå tabt	to be lost		3	går tabt|gik tabt|gået tabt		det går tabt|det gik tabt|det er gået tabt	it is lost|it was lost|it has been lost	v
 at gå til	to go to (regularly) / perish		3	går til|gik til|gået til		jeg går til|jeg gik til|jeg har gået til	I go to (regularly)|I went to (regularly)|I have gone to (regularly)	v
@@ -2294,7 +2294,7 @@ at legalisere	to legalize	SP	4	legaliserer|legaliserede|legaliseret		jeg legalis
 at lindre	to relieve		4	lindrer|lindrede|lindret		jeg lindrer|jeg lindrede|jeg har lindret	I relieve|I relieved|I have relieved	v
 at lokalisere	to locate		4	lokaliserer|lokaliserede|lokaliseret		jeg lokaliserer|jeg lokaliserede|jeg har lokaliseret	I locate|I located|I have located	v
 at lyse op	to light up		2	lyser op|lyste op|lyst op		jeg lyser op|jeg lyste op|jeg har lyst op	I light up|I lit up|I have lit up	v
-at lytte til	to listen to		1	lytter til|lyttede til|lyttet til		jeg lytter til|jeg lyttede til|jeg har lyttet til	I listen to|I listened to|I have listened to	v
+at lytte til	to listen to		2	lytter til|lyttede til|lyttet til		jeg lytter til|jeg lyttede til|jeg har lyttet til	I listen to|I listened to|I have listened to	v
 at lægge sig	to lie down		2	lægger sig|lagde sig|lagt sig		jeg lægger mig|jeg lagde mig|jeg har lagt mig	I lie down|I lay down|I have lain down	v
 at lægge fra sig	to put down		2	lægger fra sig|lagde fra sig|lagt fra sig		jeg lægger fra mig|jeg lagde fra mig|jeg har lagt fra mig	I put down|I put down|I have put down	v
 at lække	to leak		3	lækker|lækkede|lækket		jeg lækker|jeg lækkede|jeg har lækket	I leak|I leaked|I have leaked	v
@@ -2428,16 +2428,16 @@ at sparke	to kick		2	sparker|sparkede|sparket		jeg sparker|jeg sparkede|jeg har 
 at sy	to sew		2	syr|syede|syet		jeg syr|jeg syede|jeg har syet	I sew|I sewed|I have sewn	v
 at tørre	to dry		2	tørrer|tørrede|tørret		jeg tørrer|jeg tørrede|jeg har tørret	I dry|I dried|I have dried	v
 at være med	to take part / be in on it		2	er med|var med|været med		jeg er med|jeg var med|jeg har været med	I take part / am in on it|I took part / was in on it|I have taken part / been in on it	v
-at gå ned	to go down		1	går ned|gik ned|gået ned		jeg går ned|jeg gik ned|jeg er gået ned	I go down|I went down|I have gone down	v
-at gå op	to go up		1	går op|gik op|gået op		jeg går op|jeg gik op|jeg er gået op	I go up|I went up|I have gone up	v
+at gå ned	to go down		2	går ned|gik ned|gået ned		jeg går ned|jeg gik ned|jeg er gået ned	I go down|I went down|I have gone down	v
+at gå op	to go up		2	går op|gik op|gået op		jeg går op|jeg gik op|jeg er gået op	I go up|I went up|I have gone up	v
 at gå hjem	to go home		1	går hjem|gik hjem|gået hjem		jeg går hjem|jeg gik hjem|jeg er gået hjem	I go home|I went home|I have gone home	v
 at gå rundt	to walk around		2	går rundt|gik rundt|gået rundt		jeg går rundt|jeg gik rundt|jeg har gået rundt	I walk around|I walked around|I have walked around	v
 at gå igennem	to go through		2	går igennem|gik igennem|gået igennem		jeg går igennem|jeg gik igennem|jeg har gået igennem	I go through|I went through|I have gone through	v
 at gå tilbage	to go back		2	går tilbage|gik tilbage|gået tilbage		jeg går tilbage|jeg gik tilbage|jeg er gået tilbage	I go back|I went back|I have gone back	v
 at komme hjem	to come home		1	kommer hjem|kom hjem|kommet hjem		jeg kommer hjem|jeg kom hjem|jeg er kommet hjem	I come home|I came home|I have come home	v
 at komme forbi	to come by		2	kommer forbi|kom forbi|kommet forbi		jeg kommer forbi|jeg kom forbi|jeg er kommet forbi	I come by|I came by|I have come by	v
-at komme op	to come up / get up		1	kommer op|kom op|kommet op		jeg kommer op|jeg kom op|jeg er kommet op	I come up / get up|I came up / got up|I have come up / gotten up	v
-at komme ned	to come down		1	kommer ned|kom ned|kommet ned		jeg kommer ned|jeg kom ned|jeg er kommet ned	I come down|I came down|I have come down	v
+at komme op	to come up / get up		2	kommer op|kom op|kommet op		jeg kommer op|jeg kom op|jeg er kommet op	I come up / get up|I came up / got up|I have come up / gotten up	v
+at komme ned	to come down		2	kommer ned|kom ned|kommet ned		jeg kommer ned|jeg kom ned|jeg er kommet ned	I come down|I came down|I have come down	v
 at løbe ind i	to run into		2	løber ind i|løb ind i|løbet ind i		jeg løber ind i|jeg løb ind i|jeg har løbet ind i	I run into|I ran into|I have run into	v
 at løbe efter	to run after		2	løber efter|løb efter|løbet efter		jeg løber efter|jeg løb efter|jeg har løbet efter	I run after|I ran after|I have run after	v
 at køre forbi	to drive past		2	kører forbi|kørte forbi|kørt forbi		jeg kører forbi|jeg kørte forbi|jeg er kørt forbi	I drive past|I drove past|I have driven past	v
@@ -2449,7 +2449,7 @@ at stille op	to line up / run (for office)		3	stiller op|stillede op|stillet op	
 at tage af sted	to set off		2	tager af sted|tog af sted|taget af sted		jeg tager af sted|jeg tog af sted|jeg er taget af sted	I set off|I set off|I have set off	v
 at tage fri	to take time off		2	tager fri|tog fri|taget fri		jeg tager fri|jeg tog fri|jeg har taget fri	I take time off|I took time off|I have taken time off	v
 at tage på ferie	to go on vacation		2	tager på ferie|tog på ferie|taget på ferie		jeg tager på ferie|jeg tog på ferie|jeg er taget på ferie	I go on vacation|I went on vacation|I have gone on vacation	v
-at tage et billede	to take a picture		1	tager et billede|tog et billede|taget et billede		jeg tager et billede|jeg tog et billede|jeg har taget et billede	I take a picture|I took a picture|I have taken a picture	v
+at tage et billede	to take a picture		2	tager et billede|tog et billede|taget et billede		jeg tager et billede|jeg tog et billede|jeg har taget et billede	I take a picture|I took a picture|I have taken a picture	v
 at give besked	to let someone know		2	giver besked|gav besked|givet besked		jeg giver besked|jeg gav besked|jeg har givet besked	I let someone know|I let someone know|I have let someone know	v
 at få besked	to be notified		2	får besked|fik besked|fået besked		jeg får besked|jeg fik besked|jeg har fået besked	I am notified|I was notified|I have been notified	v
 at få fri	to get off (work / school)		2	får fri|fik fri|fået fri		jeg får fri|jeg fik fri|jeg har fået fri	I get off (work / school)|I got off (work / school)|I have gotten off (work / school)	v
@@ -2480,21 +2480,21 @@ at se tilbage	to look back		2	ser tilbage|så tilbage|set tilbage		jeg ser tilba
 at høre om	to hear about		2	hører om|hørte om|hørt om		jeg hører om|jeg hørte om|jeg har hørt om	I hear about|I heard about|I have heard about	v
 at høre fra	to hear from		2	hører fra|hørte fra|hørt fra		jeg hører fra|jeg hørte fra|jeg har hørt fra	I hear from|I heard from|I have heard from	v
 at tale med	to talk to		1	taler med|talte med|talt med		jeg taler med|jeg talte med|jeg har talt med	I talk to|I talked to|I have talked to	v
-at snakke om	to talk about		1	snakker om|snakkede om|snakket om		jeg snakker om|jeg snakkede om|jeg har snakket om	I talk about|I talked about|I have talked about	v
-at spørge om	to ask about		1	spørger om|spurgte om|spurgt om		jeg spørger om|jeg spurgte om|jeg har spurgt om	I ask about|I asked about|I have asked about	v
+at snakke om	to talk about		2	snakker om|snakkede om|snakket om		jeg snakker om|jeg snakkede om|jeg har snakket om	I talk about|I talked about|I have talked about	v
+at spørge om	to ask about		2	spørger om|spurgte om|spurgt om		jeg spørger om|jeg spurgte om|jeg har spurgt om	I ask about|I asked about|I have asked about	v
 at svare igen	to talk back		3	svarer igen|svarede igen|svaret igen		jeg svarer igen|jeg svarede igen|jeg har svaret igen	I talk back|I talked back|I have talked back	v
-at skrive til	to write to		1	skriver til|skrev til|skrevet til		jeg skriver til|jeg skrev til|jeg har skrevet til	I write to|I wrote to|I have written to	v
+at skrive til	to write to		2	skriver til|skrev til|skrevet til		jeg skriver til|jeg skrev til|jeg har skrevet til	I write to|I wrote to|I have written to	v
 at læse om	to read about		2	læser om|læste om|læst om		jeg læser om|jeg læste om|jeg har læst om	I read about|I read about|I have read about	v
 at tænke sig om	to think carefully		2	tænker sig om|tænkte sig om|tænkt sig om		jeg tænker mig om|jeg tænkte mig om|jeg har tænkt mig om	I think carefully|I thought carefully|I have thought carefully	v
 at vente på	to wait for		1	venter på|ventede på|ventet på		jeg venter på|jeg ventede på|jeg har ventet på	I wait for|I waited for|I have waited for	v
 at passe til	to go with / suit		2	passer til|passede til|passet til		jeg passer til|jeg passede til|jeg har passet til	I go with / suit|I went with / suited|I have gone with / suited	v
 at passe ind	to fit in		2	passer ind|passede ind|passet ind		jeg passer ind|jeg passede ind|jeg har passet ind	I fit in|I fit in|I have fit in	v
 at ringe til	to call (someone)		1	ringer til|ringede til|ringet til		jeg ringer til|jeg ringede til|jeg har ringet til	I call (someone)|I called (someone)|I have called (someone)	v
-at betale for	to pay for	MB	1	betaler for|betalte for|betalt for		jeg betaler for|jeg betalte for|jeg har betalt for	I pay for|I paid for|I have paid for	v
+at betale for	to pay for	MB	2	betaler for|betalte for|betalt for		jeg betaler for|jeg betalte for|jeg har betalt for	I pay for|I paid for|I have paid for	v
 at spare på	to save on		2	sparer på|sparede på|sparet på		jeg sparer på|jeg sparede på|jeg har sparet på	I save on|I saved on|I have saved on	v
 at stemme på	to vote for	SP	2	stemmer på|stemte på|stemt på		jeg stemmer på|jeg stemte på|jeg har stemt på	I vote for|I voted for|I have voted for	v
 at kæmpe for	to fight for		2	kæmper for|kæmpede for|kæmpet for		jeg kæmper for|jeg kæmpede for|jeg har kæmpet for	I fight for|I fought for|I have fought for	v
-at arbejde med	to work with	WJ	1	arbejder med|arbejdede med|arbejdet med		jeg arbejder med|jeg arbejdede med|jeg har arbejdet med	I work with|I worked with|I have worked with	v
+at arbejde med	to work with	WJ	2	arbejder med|arbejdede med|arbejdet med		jeg arbejder med|jeg arbejdede med|jeg har arbejdet med	I work with|I worked with|I have worked with	v
 at arbejde på	to work on	WJ	2	arbejder på|arbejdede på|arbejdet på		jeg arbejder på|jeg arbejdede på|jeg har arbejdet på	I work on|I worked on|I have worked on	v
 at interessere	to interest		2	interesserer|interesserede|interesseret		jeg interesserer|jeg interesserede|jeg har interesseret	I interest|I interested|I have interested	v
 at vænne sig af med	to get out of the habit of		3	vænner sig af med|vænnede sig af med|vænnet sig af med		jeg vænner mig af med|jeg vænnede mig af med|jeg har vænnet mig af med	I get out of the habit of|I got out of the habit of|I have gotten out of the habit of	v
@@ -2512,7 +2512,7 @@ at ende med	to end up with		2	ender med|endte med|endt med		jeg ender med|jeg en
 at starte på	to start on		2	starter på|startede på|startet på		jeg starter på|jeg startede på|jeg har startet på	I start on|I started on|I have started on	v
 at begynde på	to begin on		2	begynder på|begyndte på|begyndt på		jeg begynder på|jeg begyndte på|jeg har begyndt på	I begin on|I began on|I have begun on	v
 at fortsætte med	to continue with		2	fortsætter med|fortsatte med|fortsat med		jeg fortsætter med|jeg fortsatte med|jeg har fortsat med	I continue with|I continued with|I have continued with	v
-at hjælpe med	to help with		1	hjælper med|hjalp med|hjulpet med		jeg hjælper med|jeg hjalp med|jeg har hjulpet med	I help with|I helped with|I have helped with	v
+at hjælpe med	to help with		2	hjælper med|hjalp med|hjulpet med		jeg hjælper med|jeg hjalp med|jeg har hjulpet med	I help with|I helped with|I have helped with	v
 at lade som om	to pretend		2	lader som om|lod som om|ladet som om		jeg lader som om|jeg lod som om|jeg har ladet som om	I pretend|I pretended|I have pretended	v
 at være vild med	to be crazy about		2	er vild med|var vild med|været vild med		jeg er vild med|jeg var vild med|jeg har været vild med	I am crazy about|I was crazy about|I have been crazy about	v
 at være træt af	to be tired of		2	er træt af|var træt af|været træt af		jeg er træt af|jeg var træt af|jeg har været træt af	I am tired of|I was tired of|I have been tired of	v
@@ -2520,7 +2520,7 @@ at være i tvivl	to be in doubt		2	er i tvivl|var i tvivl|været i tvivl		jeg er
 at være på vej	to be on one's way		2	er på vej|var på vej|været på vej		jeg er på vej|jeg var på vej|jeg har været på vej	I am on my way|I was on my way|I have been on my way	v
 at være væk	to be gone		1	er væk|var væk|været væk		jeg er væk|jeg var væk|jeg har været væk	I am gone|I was gone|I have been gone	v
 at være syg	to be sick	BH	1	er syg|var syg|været syg		jeg er syg|jeg var syg|jeg har været syg	I am sick|I was sick|I have been sick	v
-at have det sjovt	to have fun		1	har det sjovt|havde det sjovt|haft det sjovt		jeg har det sjovt|jeg havde det sjovt|jeg har haft det sjovt	I have fun|I had fun|I have had fun	v
+at have det sjovt	to have fun		2	har det sjovt|havde det sjovt|haft det sjovt		jeg har det sjovt|jeg havde det sjovt|jeg har haft det sjovt	I have fun|I had fun|I have had fun	v
 at have mulighed for	to have the opportunity to		2	har mulighed for|havde mulighed for|haft mulighed for		jeg har mulighed for|jeg havde mulighed for|jeg har haft mulighed for	I have the opportunity to|I had the opportunity to|I have had the opportunity to	v
 at have tid til	to have time for		2	har tid til|havde tid til|haft tid til		jeg har tid til|jeg havde tid til|jeg har haft tid til	I have time for|I had time for|I have had time for	v
 at have fødselsdag	to have a birthday		1	har fødselsdag|havde fødselsdag|haft fødselsdag		jeg har fødselsdag|jeg havde fødselsdag|jeg har haft fødselsdag	I have a birthday|I had a birthday|I have had a birthday	v
@@ -2768,13 +2768,13 @@ en måde	a way / manner	IO	2					n
 et sted	a place	TS	1					n
 en retning	a direction	TT	2					n
 en side	a page / side		1					n
-en del	a part		1					n
+en del	a part		2					n
 et stykke	a piece		1					n
 en ting	a thing		1					n
 en sag	a matter / case	IO	2					n
 en person	a person	PF	1					n
 et menneske	a human being	PF	1					n
-et folk	a people	PF	1					n
+et folk	a people	PF	2					n
 et samfund	a society	SP	2					n
 en regering	a government	SP	3					n
 en politik	a policy	SP	2					n
@@ -2789,12 +2789,12 @@ et møde	a meeting	WJ	1					n
 en aftale	an appointment / agreement	WJ	1					n
 en plan	a plan	IO	1					n
 et mål	a goal	IO	2					n
-en drøm	a dream	IO	1					n
+en drøm	a dream	IO	2					n
 håb	hope	IO	2		et			n
 frygt	fear	FP	2		en			n
 glæde	joy	FP	2		en			n
 sorg	sorrow / grief	FP	2		en			n
-kærlighed	love	FP	1		en			n
+kærlighed	love	FP	2		en			n
 et venskab	a friendship	PF	2					n
 en familie	a family	PF	1					n
 en ven	a friend	PF	1					n
@@ -2828,11 +2828,11 @@ en masse	a lot / a mass		1					n
 en kæmpe	a giant		2					n
 en tjeneste	a favor / service		2					n
 et spor	a track / trace / clue		2					n
-en stemme	a voice / vote		1					n
+en stemme	a voice / vote		2					n
 en kontakt	a contact / switch		2					n
 et tegn	a sign		2					n
 adgang	access / entry		2		en			n
-et hul	a hole		1					n
+et hul	a hole		2					n
 en form	a form / shape	CO	2					n
 en kontrol	a control / check		2					n
 et tilfælde	a case / coincidence	IO	2					n
@@ -3236,7 +3236,7 @@ hel	whole / entire		2					a
 samme	same		1					a
 tæt	close / tight		2					a
 død	dead		1					a
-egen	own		1					a
+egen	own		2					a
 dum	stupid		1					a
 rar	nice / kind		2					a
 tidlig	early	TC	2					a
@@ -3772,7 +3772,7 @@ dit	your / yours (et-word)		1					p
 dine	your / yours (plural)		1					p
 hans	his		1					p
 hendes	her / hers		1					p
-dens	its (en-word)		1					p
+dens	its (en-word)		2					p
 dets	its (et-word)		2					p
 vores	our / ours		1					p
 jeres	your / yours (plural)		1					p
@@ -4172,7 +4172,7 @@ held og lykke	good luck	GR	1					f
 tillykke	congratulations	GR	1					f
 vi ses	see you	GR	1					f
 vi tales ved	talk soon	GR	2					f
-pas på dig selv	take care	GR	1					f
+pas på dig selv	take care	GR	2					f
 god weekend	have a good weekend	GR	1					f
 god appetit	bon appétit	GR	1					f
 hvad så?	what's up?	GR	1					f
@@ -4316,7 +4316,7 @@ ses i morgen	see you tomorrow	GR	1					f
 hej med dig	hi there / bye	GR	2					f
 det lyder godt	that sounds good	GR	1					f
 det er fint med mig	that's fine with me	GR	2					f
-det er en god idé	that's a good idea	GR	1					f
+det er en god idé	that's a good idea	GR	2					f
 det er rigtigt	that's right	GR	1					f
 det passer	that's true	GR	2					f
 det passer ikke	that's not true	GR	2					f
@@ -4459,7 +4459,7 @@ firs	eighty	NC	1					u
 halvfems	ninety	NC	1					u
 hundrede	hundred	NC	1					u
 tusind	thousand	NC	1					u
-million	million	NC	1					u
+million	million	NC	2					u
 første	first	NC	1					u
 anden	second	NC	1					u
 tredje	third	NC	1					u
@@ -4515,7 +4515,7 @@ nul	zero	NC	1					u
 i sidste ende	in the end	TC	2					d
 i første omgang	at first	TC	3					d
 efterhånden	gradually	TC	2					d
-pludselig	suddenly	TC	1					d
+pludselig	suddenly	TC	2					d
 i forvejen	in advance	TC	3					d
 bagefter	afterwards	TC	1					d
 undervejs	along the way	TC	3					d
@@ -4553,7 +4553,7 @@ en brøk	a fraction	SL	3					n
 et gennemsnit	an average	NC	3					n
 en mængde	an amount	NC	2					n
 et tidspunkt	a point in time	TC	2					n
-en alder	an age	TC	1					n
+en alder	an age	TC	2					n
 en fortid	a past	TC	2					n
 midnat	midnight	TC	2		en			n
 en evighed	an eternity	TC	3					n
@@ -4765,7 +4765,7 @@ en knægt	a lad / kid	PF	3					n
 en dame	a lady	PF	1					n
 en frøken	a miss / young lady	PF	3					n
 en kammerat	a buddy / comrade	PF	2					n
-et kys	a kiss	PF	1					n
+et kys	a kiss	PF	2					n
 en partner	a partner	PF	2					n
 en hustru	a wife (formal)	PF	3					n
 en affære	an affair	PF	3					n
@@ -4901,7 +4901,7 @@ at holde et løfte	to keep a promise	PF	2	holder et løfte|holdt et løfte|holdt
 at bryde et løfte	to break a promise	PF	2	bryder et løfte|brød et løfte|brudt et løfte		jeg bryder et løfte|jeg brød et løfte|jeg har brudt et løfte	I break a promise|I broke a promise|I have broken a promise	v
 at blive uvenner	to fall out	PF	3	bliver uvenner|blev uvenner|blevet uvenner		vi bliver uvenner|vi blev uvenner|vi er blevet uvenner	we fall out|we fell out|we have fallen out	v
 at slutte fred	to make peace	PF	3	slutter fred|sluttede fred|sluttet fred		jeg slutter fred|jeg sluttede fred|jeg har sluttet fred	I make peace|I made peace|I have made peace	v
-at sige undskyld	to say sorry	PF	1	siger undskyld|sagde undskyld|sagt undskyld		jeg siger undskyld|jeg sagde undskyld|jeg har sagt undskyld	I say sorry|I said sorry|I have said sorry	v
+at sige undskyld	to say sorry	PF	2	siger undskyld|sagde undskyld|sagt undskyld		jeg siger undskyld|jeg sagde undskyld|jeg har sagt undskyld	I say sorry|I said sorry|I have said sorry	v
 at holde sammen	to stick together	PF	2	holder sammen|holdt sammen|holdt sammen		vi holder sammen|vi holdt sammen|vi har holdt sammen	we stick together|we stuck together|we have stuck together	v
 at flytte sammen	to move in together	PF	2	flytter sammen|flyttede sammen|flyttet sammen		vi flytter sammen|vi flyttede sammen|vi er flyttet sammen	we move in together|we moved in together|we have moved in together	v
 at gå ud med	to go out with	PF	2	går ud med|gik ud med|gået ud med		jeg går ud med|jeg gik ud med|jeg er gået ud med	I go out with|I went out with|I have gone out with	v
@@ -6577,7 +6577,7 @@ usund	unhealthy	BH	2					a
 motion	exercise	BH	2					n
 træning	training / exercise	BH	2		en			n
 en diæt	a diet	BH	3					n
-søvn	sleep	BH	1					n
+søvn	sleep	BH	2					n
 træthed	tiredness	BH	3					n
 stress	stress	BH	3					n
 angst	anxiety	FP	3					n
@@ -7560,7 +7560,7 @@ forelsket	in love	FP	2					a
 en følelse	a feeling	FP	2					n
 hygge	coziness / hygge	FP	2		en			n
 jaloux	jealous	FP	2					a
-lykkelig	happy	FP	1					a
+lykkelig	happy	FP	2					a
 trist	sad	FP	1					a
 træls	annoying (Jutland slang)	FP	3					a
 forbavset	astonished	FP	3					a
@@ -7836,7 +7836,7 @@ en profil	a profile	TM	2					n
 en besked	a message	TM	1					n
 en sms	a text message	TM	1					n
 en e-mail	an email	TM	1					n
-et opkald	a phone call	TM	1					n
+et opkald	a phone call	TM	2					n
 et kamera	a camera	TM	1					n
 et billede	a picture	TM	1					n
 en video	a video	TM	1					n
