@@ -9453,7 +9453,7 @@ const STARTER_GRAMMAR = [
     name: "Negation: ikke",
     was: ["Negation with ikke"],
     level: 1,
-    rule: "Ikke means “not”. In a normal sentence it comes right after the verb, and there's no helper word like English “don't”. If the sentence has a short object like ham or det, ikke goes after it.",
+    rule: "Ikke means “not”. In a normal sentence it comes right after the verb (after the subject, if the subject comes after the verb), and there's no helper word like English “don't”. If there is only one verb and a short object like ham or det, ikke goes after the object: Jeg kender ham ikke. With two verbs it doesn't: Jeg kan ikke se ham.",
     pattern: "verb + **ikke**",
     examples: [
       ["Jeg forstår **ikke**.", "I don't understand."],
@@ -9477,7 +9477,7 @@ const STARTER_GRAMMAR = [
     name: "Commands: the imperative",
     was: ["Giving commands: the imperative"],
     level: 1,
-    rule: "To tell someone to do something, use the verb without at and without its final -e. It's the same for one person or several.",
+    rule: "To tell someone to do something, use the verb without at and without its final -e. If that leaves a double consonant at the end, write just one (lukke → luk, komme → kom). It's the same for one person or several.",
     pattern: "lukke → **luk** · komme → **kom** · gå → **gå**",
     examples: [
       ["**Luk** døren!", "Close the door!"],
@@ -9494,7 +9494,7 @@ const STARTER_GRAMMAR = [
     examples: [
       ["**Der er** en kat i haven.", "There is a cat in the garden."],
       ["**Der er** mange mennesker her.", "There are many people here."],
-      ["**Er der** en bus i aften?", "Is there a bus tonight?"],
+      ["**Er der** en bager her i nærheden?", "Is there a bakery near here?"],
     ],
   },
   {
@@ -9536,7 +9536,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Question words",
     level: 1,
-    rule: "Question words come first, then the verb, then the subject. The main ones are hvad (what), hvem (who), hvor (where), hvornår (when), hvorfor (why) and hvordan (how).",
+    rule: "Question words come first, then the verb, then the subject. If the question word is the subject itself, the verb just follows it: Hvem kommer? The main ones are hvad (what), hvem (who), hvor (where), hvornår (when), hvorfor (why) and hvordan (how).",
     pattern: "**Hvor** bor **du**? · **Hvad** hedder **du**?",
     examples: [
       ["**Hvad** hedder du?", "What's your name?"],
@@ -9552,7 +9552,7 @@ const STARTER_GRAMMAR = [
     pattern: "…, **men** jeg arbejder stadig.",
     examples: [
       ["Jeg er træt, **men** jeg arbejder stadig.", "I'm tired, but I'm still working."],
-      ["Vi spiser, **og** så går vi hjem.", "We eat, and then we go home."],
+      ["Hun læser, **og** han ser fjernsyn.", "She reads, and he watches TV."],
       ["Vil du have te **eller** kaffe?", "Do you want tea or coffee?"],
     ],
   },
@@ -9603,7 +9603,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Owning something: the -s ending",
     level: 1,
-    rule: "To show who owns something, add -s to the owner. There is no apostrophe, except after a name that already ends in s.",
+    rule: "To show who owns something, add -s to the owner. There is no apostrophe, except when the word already ends in s, x or z: then you write just an apostrophe (Jens' bog, Alex' cykel).",
     pattern: "Anna → Anna**s** bil · min mor → min mor**s** hus",
     examples: [
       ["Det er Anna**s** bil.", "It's Anna's car."],
@@ -9625,8 +9625,8 @@ const STARTER_GRAMMAR = [
   {
     name: "Liking things: kan lide",
     level: 1,
-    rule: "“To like” is kan lide. Use at after it when the next word is a verb. Add godt for “really do like”. For people you care about, holde af is also common.",
-    pattern: "Jeg **kan lide** kaffe · Jeg **kan lide at** svømme",
+    rule: "“To like” is kan lide, and in positive sentences Danes usually add godt: kan godt lide (it doesn't change the meaning). Use at after it when the next word is a verb. For “really like”, say kan rigtig godt lide. For people you care about, holde af is also common.",
+    pattern: "Jeg **kan godt lide** kaffe · Jeg **kan lide at** svømme",
     examples: [
       ["Jeg **kan lide** kaffe.", "I like coffee."],
       ["Hun **kan lide at** svømme.", "She likes to swim."],
@@ -9704,7 +9704,7 @@ const STARTER_GRAMMAR = [
     name: "Adjectives: -t and -e endings",
     was: ["Adjective agreement"],
     level: 2,
-    rule: "Adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals. Adjectives ending in -sk (dansk) or already in -t (flot) don't add another -t.",
+    rule: "Adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals. Nationality words and adjectives in -isk (dansk, typisk) and adjectives already ending in -t (flot) don't add -t.",
     pattern: "en stor bil · et stor**t** hus · stor**e** huse",
     examples: [
       ["Det er en **stor** hund.", "It's a big dog."],
@@ -9875,7 +9875,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Verbs with particles: stå op, tage på",
     level: 2,
-    rule: "Many Danish verbs have a small word that goes with them, like stå op (get up) or tage på (put on). The two parts stay together unless there is a short object, which goes between them, even in the infinitive.",
+    rule: "Many Danish verbs have a small word that goes with them, like stå op (get up) or tage på (put on). If the verb has an object, the object goes between the verb and the small word, even in the infinitive: tage jakken på, tage den på.",
     pattern: "at **stå op** · Jeg **står op** · at tage jakken **på**",
     examples: [
       ["Jeg **står op** klokken syv.", "I get up at seven."],
@@ -10029,7 +10029,7 @@ const STARTER_GRAMMAR = [
   {
     name: "The passive: -s and blive",
     level: 3,
-    rule: "To say something is done to something, add -s to the verb or use blive plus the participle. Blive is more common in everyday speech.",
+    rule: "To say something is done to something, add -s to the infinitive (lukke → lukkes) or use blive plus the past participle (bliver lukket). The -s form is mostly used in writing, signs and instructions, and with modal verbs (kan ses); blive is more common in everyday speech and in the past tense (blev bygget).",
     pattern: "Døren luk**kes** · Huset **bliver** bygget",
     examples: [
       ["Døren luk**kes** klokken seks.", "The door is closed at six."],
@@ -10128,7 +10128,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Flavour words: jo, nok, vel, bare",
     level: 3,
-    rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main clause they usually sit right after the verb, and before ikke: 'Det er jo ikke sandt'. You can't translate them word for word, so learn them in whole sentences.",
+    rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main clause they come right after the verb, or after the subject if the subject follows the verb (Det ved du jo godt), and before ikke: Det er jo ikke sandt. You can't translate them word for word, so learn them in whole sentences.",
     pattern: "Det er **jo** ikke sandt · Han kommer **nok** · Det er **vel** i orden?",
     examples: [
       ["Det er **jo** ikke min skyld.", "It's not my fault, you know."],
@@ -10166,7 +10166,7 @@ const STARTER_GRAMMAR = [
     examples: [
       ["Jeg fandt en **glemt** nøgle på bordet.", "I found a forgotten key on the table."],
       ["Han købte en **brugt** bil.", "He bought a used car."],
-      ["De gamle planer er **ødelagte**.", "The old plans are ruined."],
+      ["Vi smed de **ødelagte** planer ud.", "We threw out the ruined plans."],
     ],
   },
   {
@@ -10271,7 +10271,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Measures without 'of': en kop kaffe",
     level: 3,
-    rule: "Danish does not use a word for of after a measure. Say the measure with its own en or et, then the thing directly: no af, no article. Af is only used before a definite noun: en kop af kaffen. In the plural only the measure changes.",
+    rule: "Danish does not use a word for of after a measure. Say the measure with its own en or et, then the thing directly: no af, no article. Af is only used when you take part of a specific, definite thing: et stykke af kagen, et glas af den gode vin. In the plural only the measure changes.",
     pattern: "**en kop** kaffe · **et stykke** kage · **to flasker** vand",
     examples: [
       ["Jeg vil gerne have **en kop kaffe**.", "I would like a cup of coffee."],
@@ -10337,7 +10337,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Formal writing: såfremt, idet, hvorledes",
     level: 4,
-    rule: "Written Danish, especially in official texts and literature, uses words that sound stiff in speech: såfremt (if), idet (as, while), hvorledes (how) and thi (for, because; now very old-fashioned). In everyday talk you would say hvis, mens or da, and hvordan. Dog (however, yet) and således (thus) are common in writing but also fine in careful speech.",
+    rule: "Written Danish, especially in official texts and literature, uses words that sound stiff in speech: såfremt (if), idet (as, just as; also since), hvorledes (how) and thi (for, because; now very old-fashioned). In everyday talk you would say hvis, da or når, and hvordan. Dog (however, yet) and således (thus) are common in writing but also fine in careful speech.",
     pattern: "hvis → **såfremt** · hvordan → **hvorledes** · fordi → **thi** · sådan → **således**",
     examples: [
       ["**Såfremt** du ikke er tilfreds, kan du få pengene tilbage.", "If you are not satisfied, you can get your money back."],
@@ -10386,7 +10386,7 @@ const STARTER_GRAMMAR = [
     examples: [
       ["Jeg **synes**, at maden er rigtig god.", "I think the food is really good."],
       ["Det **lykkedes** mig at få billetter.", "I managed to get tickets."],
-      ["Børnene **trives** i den nye skole.", "The children are thriving at the new school."],
+      ["Børnene **trives** på den nye skole.", "The children are thriving at the new school."],
     ],
   },
   {
@@ -10403,10 +10403,10 @@ const STARTER_GRAMMAR = [
   {
     name: "Comparison clauses: end hvad, end at",
     level: 4,
-    rule: "After a comparative, end means than. It can be followed by a whole clause (end jeg troede, or more formally end hvad jeg troede) or by at plus a verb (end at gætte). Ikke andet end means nothing but, and mere end means more than.",
-    pattern: "bedre **end hvad** jeg troede · bedre **end at** gætte · **ikke andet end** · **mere end**",
+    rule: "After a comparative, end means than. It can be followed by a whole clause (end jeg troede, sometimes end hvad jeg troede) or by at plus a verb (end at gætte). Ikke andet end means nothing but, and mere end means more than.",
+    pattern: "bedre **end** jeg troede · bedre **end at** gætte · **ikke andet end** · **mere end**",
     examples: [
-      ["Filmen var bedre, **end hvad** jeg havde troet.", "The film was better than I had thought."],
+      ["Filmen var bedre, **end** jeg havde troet.", "The film was better than I had thought."],
       ["Det er bedre at spørge **end at** gætte.", "It is better to ask than to guess."],
       ["Jeg ønsker **ikke andet end** lidt ro.", "I want nothing but a little peace."],
     ],
@@ -10469,7 +10469,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Commas with subordinate clauses",
     level: 4,
-    rule: "In careful writing, put a comma before a subordinate clause (starting with at, fordi, hvis, når, som and so on), and also after one that comes first. Since 2020 the official rules let writers leave out some commas, so you will see both styles.",
+    rule: "Many writers put a comma before a subordinate clause (starting with at, fordi, hvis, når, som and so on). This comma has been optional since 2004, so you will see both styles; just be consistent within a text. A comma after a subordinate clause that comes first is always required.",
     pattern: "Jeg ved**,** at han kommer · Når du kommer**,** ringer jeg",
     examples: [
       ["Jeg ved**,** **at** han kommer i morgen.", "I know that he is coming tomorrow."],
@@ -10889,7 +10889,7 @@ function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "5";
+const GRAMMAR_VERSION = "6";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
