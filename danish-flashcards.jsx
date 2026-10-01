@@ -12005,6 +12005,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   const inProgressScope = inScope;
   const knownWordCount = cards.filter((c) => inProgressScope(c) && c.known).length;
   const scopeTotal = cards.filter(inProgressScope).length;
+  // "Card X of Y": Y is every card in this view (known ones included, so
+  // it doesn't shrink when "Unknown" is on); X counts distinct cards, since
+  // starred cards come up more than once in a session.
+  const cardNumber = useMemo(() => new Set(poolIds.slice(0, idx + 1)).size, [poolIds, idx]);
   // Grammar cards store an English name in front, not Danish — speaking
   // that mangles English phonetically instead of pronouncing anything
   // real. Use the first example's genuine Danish sentence instead.
@@ -12315,7 +12319,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
         <>
           <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", marginBottom: 8, display: "flex", gap: 16 }}>
             <span>
-              Card {idx + 1} of {poolIds.length}
+              Card {Math.min(cardNumber, scopeTotal)} of {scopeTotal}
             </span>
             <span>
               <span style={{ color: "var(--sage)", fontWeight: 700 }}>{knownWordCount}</span> known
