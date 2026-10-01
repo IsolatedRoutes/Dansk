@@ -57,6 +57,12 @@ with sync_playwright() as p:
       cards.push({ id: "own1", type: "word", front: "springe over", back: "to skip", category: cats[0].id, known: true, createdAt: 1 });
       cards.push({ id: "own2", type: "word", front: "en rugbrødsmad", back: "an open sandwich", category: "mine", starred: true, createdAt: 1 });
       cards.push({ id: "own3", type: "sentence", front: "Jeg elsker Danmark.", back: "I love Denmark.", category: "mine", createdAt: 1 });
+      // The old Add tab put new cards in whichever category came first: Grammar Lessons.
+      const de = cards.find(c => c.front === "de" && c.starter); if (de) { de.category = "grammar-lessons"; de.known = true; }
+      const hendes = cards.find(c => c.front === "hendes" && c.starter); if (hendes) { hendes.category = "grammar-lessons"; hendes.starred = true; }
+      cards.push({ id: "own4", type: "word", front: "en tøjrulle", back: "a lint roller", category: "grammar-lessons", known: true, createdAt: 1 });
+      cards.push({ id: "own5", type: "sentence", front: "Jeg bor her.", back: "I live here.", category: "grammar-lessons", createdAt: 1 });
+      cards.push({ id: "own6", type: "grammar", front: "Min egen regel", back: "My own note.", category: "mine", createdAt: 1 });
       localStorage.cards = JSON.stringify(cards); localStorage.categories = JSON.stringify(cats);
       localStorage.verbForms = JSON.stringify(["present", "past"]);
     }""")
@@ -70,6 +76,23 @@ with sync_playwright() as p:
     check(page.evaluate("localStorage.verbForms") == '["present","past"]', "settings kept")
     check("My Words" in page.evaluate("localStorage.categories"), "own category kept")
     check(not errors, "no errors on upgrade " + str(errors[:2]))
+    stray = page.evaluate("""() => { const cats = JSON.parse(localStorage.categories); const ids = cats.filter(c => c.id === 'grammar-lessons' || c.name === 'Grammar Lessons').map(c => c.id);
+      const cards = JSON.parse(localStorage.cards);
+      return { notGrammarInLessons: cards.filter(c => ids.includes(c.category) && c.type !== 'grammar').map(c => c.front),
+               grammarOutside: cards.filter(c => c.type === 'grammar' && !ids.includes(c.category)).map(c => c.front),
+               de: cards.find(c => c.front === 'de'), own4: cards.find(c => c.front === 'en tøjrulle'), own6: cards.find(c => c.front === 'Min egen regel') } }""")
+    check(stray["notGrammarInLessons"] == [], "Grammar Lessons holds only lessons " + str(stray["notGrammarInLessons"]))
+    check(stray["grammarOutside"] == [], "every lesson is in Grammar Lessons " + str(stray["grammarOutside"]))
+    check(bool(stray["de"] and stray["de"].get("known")), "known mark kept on a card moved out of Grammar Lessons")
+    check(bool(stray["own4"] and stray["own4"].get("known")) and stray["own4"].get("category") in ("", None), "own word moved out, progress kept")
+    check(bool(stray["own6"]) and stray["own6"].get("category") == "grammar-lessons", "own grammar note moved into Grammar Lessons")
+    # "My cards" switch: only the person's own cards
+    page.get_by_role("button", name=re.compile("^All cards")).click(); page.wait_for_timeout(300)
+    page.get_by_role("button", name=re.compile("^My cards")).click(); page.wait_for_timeout(300)
+    page.get_by_role("button", name="Any category").click(); page.wait_for_timeout(700)
+    mine = page.evaluate("JSON.parse(localStorage.cards).filter(c => !c.starter && !c.ignored).length")
+    m = re.search(r"Card \d+ of (\d+)", page.inner_text("body"))
+    check(bool(m) and int(m.group(1)) == mine, "My cards shows exactly the %d cards added by the person (%s)" % (mine, m.group(1) if m else "none"))
 
     # 2. a deleted built-in card stays deleted after reload
     page.evaluate("""() => { const c = JSON.parse(localStorage.cards);

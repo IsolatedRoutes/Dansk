@@ -4,7 +4,7 @@
 // network call every time and are deliberately never cached here; if
 // there's no connection, those fail with the app's own error message
 // rather than silently returning something stale.
-const CACHE_NAME = "dansk-shell-v7";
+const CACHE_NAME = "dansk-shell-v8";
 const SHELL_FILES = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {

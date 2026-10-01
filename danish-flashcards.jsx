@@ -353,6 +353,33 @@ function CheckBadgeIcon({ size = 16, filled = false, style, onClick, onPointerDo
 
 const DEFAULT_CATEGORIES = [{ id: "grammar-lessons", name: "Grammar Lessons", custom: false }];
 
+// Grammar Lessons holds grammar lessons and nothing else. Words and
+// sentences go in a topic, or in no category at all (they're still found
+// through "My cards" and, for words, their grammar group).
+const LESSONS_ID = "grammar-lessons";
+const isLessonsCategory = (c) => !!c && (c.id === LESSONS_ID || c.name === "Grammar Lessons");
+
+// Names the AI sometimes hands back as a "category" that aren't topics:
+// word types (those are sorted automatically) or placeholders. Treated as
+// "no category".
+const NOT_A_TOPIC = new Set([
+  "", "uncategorized", "uncategorised", "none", "n/a", "other", "misc", "miscellaneous", "general", "from chat",
+  "grammar", "grammar lessons", "verbs", "nouns", "adjectives", "adverbs", "pronouns", "prepositions", "conjunctions",
+  "verb", "noun", "adjective", "adverb", "pronoun", "preposition", "conjunction", "common nouns", "basic verbs",
+  "pronouns & adverbs", "prepositions & connectors", "phrases", "words", "vocabulary",
+]);
+function aiCategoryName(name) {
+  const n = (name || "").trim();
+  return NOT_A_TOPIC.has(n.toLowerCase()) ? "" : n;
+}
+// What the AI is shown as "existing categories": topics only.
+function topicNamesForAI(categories) {
+  return categories.filter((c) => !isLessonsCategory(c)).map((c) => c.name).join(", ");
+}
+// The text added to every prompt that picks a category.
+const CATEGORY_RULE =
+  " A category is a TOPIC (like Food & Drink or Travel & Transport), never a part of speech — verbs, nouns, adjectives and so on are sorted automatically. Use one of the existing categories if its topic fits; if none does, use an empty string rather than inventing one.";
+
 // The vocabulary buildout created a lot of thin, overlapping categories
 // (e.g. "More Verbs", "Emotions in Depth"). This maps each one to the
 // broader category it was consolidated into, so a one-time migration can
@@ -404,6 +431,8 @@ const CATEGORY_MERGE_MAP = {
 // seeded card gets fixed in place, rather than the corrected word being
 // added as a duplicate alongside the old wrong one.
 const VOCAB_CORRECTIONS = {
+  "at du": "at duge",
+  "et afbræk": "en afbrydelse",
   // 8,000-word update: verbs now always start with "at", and uncountable
   // nouns drop the en/et they don't take in normal Danish.
   "kunne": "at kunne",
@@ -1320,30 +1349,30 @@ at synes	to think (an opinion)		1	synes|syntes|syntes		jeg synes|jeg syntes|jeg 
 at mene	to mean / think		1	mener|mente|ment		jeg mener|jeg mente|jeg har ment	I mean / think|I meant / thought|I have meant / thought	v
 at finde	to find		1	finder|fandt|fundet		jeg finder|jeg fandt|jeg har fundet	I find|I found|I have found	v
 at lave	to make / do		1	laver|lavede|lavet		jeg laver|jeg lavede|jeg har lavet	I make / do|I made / did|I have made / done	v
-at spise	to eat		1	spiser|spiste|spist		jeg spiser|jeg spiste|jeg har spist	I eat|I ate|I have eaten	v
-at drikke	to drink		1	drikker|drak|drukket		jeg drikker|jeg drak|jeg har drukket	I drink|I drank|I have drunk	v
+at spise	to eat	FD	1	spiser|spiste|spist		jeg spiser|jeg spiste|jeg har spist	I eat|I ate|I have eaten	v
+at drikke	to drink	FD	1	drikker|drak|drukket		jeg drikker|jeg drak|jeg har drukket	I drink|I drank|I have drunk	v
 at sove	to sleep		1	sover|sov|sovet		jeg sover|jeg sov|jeg har sovet	I sleep|I slept|I have slept	v
 at vågne	to wake up		1	vågner|vågnede|vågnet		jeg vågner|jeg vågnede|jeg er vågnet	I wake up|I woke up|I have woken up	v
 at stå	to stand		1	står|stod|stået		jeg står|jeg stod|jeg har stået	I stand|I stood|I have stood	v
 at sidde	to sit		1	sidder|sad|siddet		jeg sidder|jeg sad|jeg har siddet	I sit|I sat|I have sat	v
 at ligge	to lie down		1	ligger|lå|ligget		jeg ligger|jeg lå|jeg har ligget	I lie down|I lay down|I have lain down	v
-at løbe	to run		1	løber|løb|løbet		jeg løber|jeg løb|jeg har løbet	I run|I ran|I have run	v
-at køre	to drive		1	kører|kørte|kørt		jeg kører|jeg kørte|jeg har kørt	I drive|I drove|I have driven	v
-at flyve	to fly		1	flyver|fløj|fløjet		jeg flyver|jeg fløj|jeg har fløjet	I fly|I flew|I have flown	v
-at svømme	to swim		1	svømmer|svømmede|svømmet		jeg svømmer|jeg svømmede|jeg har svømmet	I swim|I swam|I have swum	v
-at læse	to read		1	læser|læste|læst		jeg læser|jeg læste|jeg har læst	I read|I read|I have read	v
-at skrive	to write		1	skriver|skrev|skrevet		jeg skriver|jeg skrev|jeg har skrevet	I write|I wrote|I have written	v
+at løbe	to run	FS	1	løber|løb|løbet		jeg løber|jeg løb|jeg har løbet	I run|I ran|I have run	v
+at køre	to drive	TT	1	kører|kørte|kørt		jeg kører|jeg kørte|jeg har kørt	I drive|I drove|I have driven	v
+at flyve	to fly	TT	1	flyver|fløj|fløjet		jeg flyver|jeg fløj|jeg har fløjet	I fly|I flew|I have flown	v
+at svømme	to swim	FS	1	svømmer|svømmede|svømmet		jeg svømmer|jeg svømmede|jeg har svømmet	I swim|I swam|I have swum	v
+at læse	to read	SL	1	læser|læste|læst		jeg læser|jeg læste|jeg har læst	I read|I read|I have read	v
+at skrive	to write	SL	1	skriver|skrev|skrevet		jeg skriver|jeg skrev|jeg har skrevet	I write|I wrote|I have written	v
 at lytte	to listen		1	lytter|lyttede|lyttet		jeg lytter|jeg lyttede|jeg har lyttet	I listen|I listened|I have listened	v
 at høre	to hear		1	hører|hørte|hørt		jeg hører|jeg hørte|jeg har hørt	I hear|I heard|I have heard	v
 at kigge	to look		1	kigger|kiggede|kigget		jeg kigger|jeg kiggede|jeg har kigget	I look|I looked|I have looked	v
 at vise	to show		1	viser|viste|vist		jeg viser|jeg viste|jeg har vist	I show|I showed|I have shown	v
 at forstå	to understand		1	forstår|forstod|forstået		jeg forstår|jeg forstod|jeg har forstået	I understand|I understood|I have understood	v
-at lære	to learn		1	lærer|lærte|lært		jeg lærer|jeg lærte|jeg har lært	I learn|I learned|I have learned	v
-at undervise	to teach		2	underviser|underviste|undervist		jeg underviser|jeg underviste|jeg har undervist	I teach|I taught|I have taught	v
-at studere	to study		1	studerer|studerede|studeret		jeg studerer|jeg studerede|jeg har studeret	I study|I studied|I have studied	v
-at arbejde	to work		1	arbejder|arbejdede|arbejdet		jeg arbejder|jeg arbejdede|jeg har arbejdet	I work|I worked|I have worked	v
-at spille	to play (game/instrument)		1	spiller|spillede|spillet		jeg spiller|jeg spillede|jeg har spillet	I play (game/instrument)|I played (game/instrument)|I have played (game/instrument)	v
-at lege	to play (children)		1	leger|legede|leget		jeg leger|jeg legede|jeg har leget	I play (children)|I played (children)|I have played (children)	v
+at lære	to learn	SL	1	lærer|lærte|lært		jeg lærer|jeg lærte|jeg har lært	I learn|I learned|I have learned	v
+at undervise	to teach	SL	2	underviser|underviste|undervist		jeg underviser|jeg underviste|jeg har undervist	I teach|I taught|I have taught	v
+at studere	to study	SL	1	studerer|studerede|studeret		jeg studerer|jeg studerede|jeg har studeret	I study|I studied|I have studied	v
+at arbejde	to work	WJ	1	arbejder|arbejdede|arbejdet		jeg arbejder|jeg arbejdede|jeg har arbejdet	I work|I worked|I have worked	v
+at spille	to play (game/instrument)	FS	1	spiller|spillede|spillet		jeg spiller|jeg spillede|jeg har spillet	I play (game/instrument)|I played (game/instrument)|I have played (game/instrument)	v
+at lege	to play (children)	FS	1	leger|legede|leget		jeg leger|jeg legede|jeg har leget	I play (children)|I played (children)|I have played (children)	v
 at vinde	to win		1	vinder|vandt|vundet		jeg vinder|jeg vandt|jeg har vundet	I win|I won|I have won	v
 at tabe	to lose		1	taber|tabte|tabt		jeg taber|jeg tabte|jeg har tabt	I lose|I lost|I have lost	v
 at prøve	to try		1	prøver|prøvede|prøvet		jeg prøver|jeg prøvede|jeg har prøvet	I try|I tried|I have tried	v
@@ -1370,18 +1399,18 @@ at takke	to thank		1	takker|takkede|takket		jeg takker|jeg takkede|jeg har takke
 at undskylde	to apologize		1	undskylder|undskyldte|undskyldt		jeg undskylder|jeg undskyldte|jeg har undskyldt	I apologize|I apologized|I have apologized	v
 at hjælpe	to help		1	hjælper|hjalp|hjulpet		jeg hjælper|jeg hjalp|jeg har hjulpet	I help|I helped|I have helped	v
 at bruge	to use		1	bruger|brugte|brugt		jeg bruger|jeg brugte|jeg har brugt	I use|I used|I have used	v
-at betale	to pay		1	betaler|betalte|betalt		jeg betaler|jeg betalte|jeg har betalt	I pay|I paid|I have paid	v
-at koste	to cost		1	koster|kostede|kostet		det koster|det kostede|det har kostet	it costs|it cost|it has cost	v
-at sælge	to sell		1	sælger|solgte|solgt		jeg sælger|jeg solgte|jeg har solgt	I sell|I sold|I have sold	v
-at købe	to buy		1	køber|købte|købt		jeg køber|jeg købte|jeg har købt	I buy|I bought|I have bought	v
-at låne	to borrow / lend		1	låner|lånte|lånt		jeg låner|jeg lånte|jeg har lånt	I borrow / lend|I borrowed / lent|I have borrowed / lent	v
+at betale	to pay	MB	1	betaler|betalte|betalt		jeg betaler|jeg betalte|jeg har betalt	I pay|I paid|I have paid	v
+at koste	to cost	MB	1	koster|kostede|kostet		det koster|det kostede|det har kostet	it costs|it cost|it has cost	v
+at sælge	to sell	MB	1	sælger|solgte|solgt		jeg sælger|jeg solgte|jeg har solgt	I sell|I sold|I have sold	v
+at købe	to buy	CS	1	køber|købte|købt		jeg køber|jeg købte|jeg har købt	I buy|I bought|I have bought	v
+at låne	to borrow / lend	MB	1	låner|lånte|lånt		jeg låner|jeg lånte|jeg har lånt	I borrow / lend|I borrowed / lent|I have borrowed / lent	v
 at sende	to send		1	sender|sendte|sendt		jeg sender|jeg sendte|jeg har sendt	I send|I sent|I have sent	v
 at modtage	to receive		1	modtager|modtog|modtaget		jeg modtager|jeg modtog|jeg har modtaget	I receive|I received|I have received	v
 at ringe	to call (phone)		1	ringer|ringede|ringet		jeg ringer|jeg ringede|jeg har ringet	I call (phone)|I called (phone)|I have called (phone)	v
 at besøge	to visit		1	besøger|besøgte|besøgt		jeg besøger|jeg besøgte|jeg har besøgt	I visit|I visited|I have visited	v
-at rejse	to travel		1	rejser|rejste|rejst		jeg rejser|jeg rejste|jeg er rejst	I travel|I traveled|I have traveled	v
+at rejse	to travel	TT	1	rejser|rejste|rejst		jeg rejser|jeg rejste|jeg er rejst	I travel|I traveled|I have traveled	v
 at flytte	to move		1	flytter|flyttede|flyttet		jeg flytter|jeg flyttede|jeg er flyttet	I move|I moved|I have moved	v
-at bo	to live / reside		1	bor|boede|boet		jeg bor|jeg boede|jeg har boet	I live / reside|I lived / resided|I have lived / resided	v
+at bo	to live / reside	HH	1	bor|boede|boet		jeg bor|jeg boede|jeg har boet	I live / reside|I lived / resided|I have lived / resided	v
 at bygge	to build		1	bygger|byggede|bygget		jeg bygger|jeg byggede|jeg har bygget	I build|I built|I have built	v
 at reparere	to repair		2	reparerer|reparerede|repareret		jeg reparerer|jeg reparerede|jeg har repareret	I repair|I repaired|I have repaired	v
 at ødelægge	to destroy / break		1	ødelægger|ødelagde|ødelagt		jeg ødelægger|jeg ødelagde|jeg har ødelagt	I destroy / break|I destroyed / broke|I have destroyed / broken	v
@@ -1393,9 +1422,9 @@ at skifte	to change / switch		1	skifter|skiftede|skiftet		jeg skifter|jeg skifte
 at ændre	to change / alter		2	ændrer|ændrede|ændret		jeg ændrer|jeg ændrede|jeg har ændret	I change / alter|I changed / altered|I have changed / altered	v
 at vokse	to grow		2	vokser|voksede|vokset		jeg vokser|jeg voksede|jeg har vokset	I grow|I grew|I have grown	v
 at falde	to fall		1	falder|faldt|faldet		jeg falder|jeg faldt|jeg er faldet	I fall|I fell|I have fallen	v
-at hoppe	to jump		1	hopper|hoppede|hoppet		jeg hopper|jeg hoppede|jeg har hoppet	I jump|I jumped|I have jumped	v
-at danse	to dance		1	danser|dansede|danset		jeg danser|jeg dansede|jeg har danset	I dance|I danced|I have danced	v
-at synge	to sing		1	synger|sang|sunget		jeg synger|jeg sang|jeg har sunget	I sing|I sang|I have sung	v
+at hoppe	to jump	FS	1	hopper|hoppede|hoppet		jeg hopper|jeg hoppede|jeg har hoppet	I jump|I jumped|I have jumped	v
+at danse	to dance	FS	1	danser|dansede|danset		jeg danser|jeg dansede|jeg har danset	I dance|I danced|I have danced	v
+at synge	to sing	FS	1	synger|sang|sunget		jeg synger|jeg sang|jeg har sunget	I sing|I sang|I have sung	v
 at grine	to laugh		1	griner|grinede|grinet		jeg griner|jeg grinede|jeg har grinet	I laugh|I laughed|I have laughed	v
 at græde	to cry		1	græder|græd|grædt		jeg græder|jeg græd|jeg har grædt	I cry|I cried|I have cried	v
 at smile	to smile		1	smiler|smilede|smilet		jeg smiler|jeg smilede|jeg har smilet	I smile|I smiled|I have smiled	v
@@ -1412,11 +1441,11 @@ at bestemme	to decide		2	bestemmer|bestemte|bestemt		jeg bestemmer|jeg bestemte|
 at vælge	to choose		1	vælger|valgte|valgt		jeg vælger|jeg valgte|jeg har valgt	I choose|I chose|I have chosen	v
 at planlægge	to plan		2	planlægger|planlagde|planlagt		jeg planlægger|jeg planlagde|jeg har planlagt	I plan|I planned|I have planned	v
 at forberede	to prepare		2	forbereder|forberedte|forberedt		jeg forbereder|jeg forberedte|jeg har forberedt	I prepare|I prepared|I have prepared	v
-at vaske	to wash		1	vasker|vaskede|vasket		jeg vasker|jeg vaskede|jeg har vasket	I wash|I washed|I have washed	v
+at vaske	to wash	HH	1	vasker|vaskede|vasket		jeg vasker|jeg vaskede|jeg har vasket	I wash|I washed|I have washed	v
 at male	to paint		2	maler|malede|malet		jeg maler|jeg malede|jeg har malet	I paint|I painted|I have painted	v
-at tegne	to draw		1	tegner|tegnede|tegnet		jeg tegner|jeg tegnede|jeg har tegnet	I draw|I drew|I have drawn	v
-at optage	to record		3	optager|optog|optaget		jeg optager|jeg optog|jeg har optaget	I record|I recorded|I have recorded	v
-at ansætte	to hire		2	ansætter|ansatte|ansat		jeg ansætter|jeg ansatte|jeg har ansat	I hire|I hired|I have hired	v
+at tegne	to draw	FS	1	tegner|tegnede|tegnet		jeg tegner|jeg tegnede|jeg har tegnet	I draw|I drew|I have drawn	v
+at optage	to record	TM	3	optager|optog|optaget		jeg optager|jeg optog|jeg har optaget	I record|I recorded|I have recorded	v
+at ansætte	to hire	WJ	2	ansætter|ansatte|ansat		jeg ansætter|jeg ansatte|jeg har ansat	I hire|I hired|I have hired	v
 at søge	to search / apply		1	søger|søgte|søgt		jeg søger|jeg søgte|jeg har søgt	I search / apply|I searched / applied|I have searched / applied	v
 at holde	to hold / keep		1	holder|holdt|holdt		jeg holder|jeg holdt|jeg har holdt	I hold / keep|I held / kept|I have held / kept	v
 at miste	to lose (something)		1	mister|mistede|mistet		jeg mister|jeg mistede|jeg har mistet	I lose (something)|I lost (something)|I have lost (something)	v
@@ -1481,7 +1510,7 @@ at lade	to let		1	lader|lod|ladet		jeg lader|jeg lod|jeg har ladet	I let|I let|I
 at burde	ought to / should		1	bør|burde|burdet		jeg bør|jeg burde|jeg har burdet	I ought to|I ought to (have)|I have ought to	v
 at behøve	to need		1	behøver|behøvede|behøvet		jeg behøver|jeg behøvede|jeg har behøvet	I need|I needed|I have needed	v
 at betyde	to mean		1	betyder|betød|betydet		jeg betyder|jeg betød|jeg har betydet	I mean|I meant|I have meant	v
-at dræbe	to kill		2	dræber|dræbte|dræbt		jeg dræber|jeg dræbte|jeg har dræbt	I kill|I killed|I have killed	v
+at dræbe	to kill	SP	2	dræber|dræbte|dræbt		jeg dræber|jeg dræbte|jeg har dræbt	I kill|I killed|I have killed	v
 at lyde	to sound		1	lyder|lød|lydt		det lyder|det lød|det har lydt	it sounds|it sounded|it has sounded	v
 at virke	to work / seem		1	virker|virkede|virket		jeg virker|jeg virkede|jeg har virket	I work / seem|I worked / seemed|I have worked / seemed	v
 at ligne	to look like		1	ligner|lignede|lignet		jeg ligner|jeg lignede|jeg har lignet	I look like|I looked like|I have looked like	v
@@ -1520,20 +1549,20 @@ at røre	to touch / stir		2	rører|rørte|rørt		jeg rører|jeg rørte|jeg har r
 at ramme	to hit (a target)		2	rammer|ramte|ramt		jeg rammer|jeg ramte|jeg har ramt	I hit (a target)|I hit (a target)|I have hit (a target)	v
 at tjekke	to check		1	tjekker|tjekkede|tjekket		jeg tjekker|jeg tjekkede|jeg har tjekket	I check|I checked|I have checked	v
 at fatte	to grasp / understand		3	fatter|fattede|fattet		jeg fatter|jeg fattede|jeg har fattet	I grasp / understand|I grasped / understood|I have grasped / understood	v
-at myrde	to murder		3	myrder|myrdede|myrdet		jeg myrder|jeg myrdede|jeg har myrdet	I murder|I murdered|I have murdered	v
+at myrde	to murder	SP	3	myrder|myrdede|myrdet		jeg myrder|jeg myrdede|jeg har myrdet	I murder|I murdered|I have murdered	v
 at tjene	to earn / serve		2	tjener|tjente|tjent		jeg tjener|jeg tjente|jeg har tjent	I earn / serve|I earned / served|I have earned / served	v
 at bringe	to bring		2	bringer|bragte|bragt		jeg bringer|jeg bragte|jeg har bragt	I bring|I brought|I have brought	v
 at fungere	to work / function		2	fungerer|fungerede|fungeret		jeg fungerer|jeg fungerede|jeg har fungeret	I work / function|I worked / functioned|I have worked / functioned	v
 at mødes	to meet (each other)		1	mødes|mødtes|mødtes		jeg mødes|jeg mødtes|jeg har mødtes	I meet (each other)|I met (each other)|I have met (each other)	v
 at kæmpe	to fight / struggle		2	kæmper|kæmpede|kæmpet		jeg kæmper|jeg kæmpede|jeg har kæmpet	I fight / struggle|I fought / struggled|I have fought / struggled	v
 at kysse	to kiss		1	kysser|kyssede|kysset		jeg kysser|jeg kyssede|jeg har kysset	I kiss|I kissed|I have kissed	v
-at anholde	to arrest		3	anholder|anholdt|anholdt		jeg anholder|jeg anholdt|jeg har anholdt	I arrest|I arrested|I have arrested	v
+at anholde	to arrest	SP	3	anholder|anholdt|anholdt		jeg anholder|jeg anholdt|jeg har anholdt	I arrest|I arrested|I have arrested	v
 at overleve	to survive		3	overlever|overlevede|overlevet		jeg overlever|jeg overlevede|jeg har overlevet	I survive|I survived|I have survived	v
 at efterlade	to leave behind		3	efterlader|efterlod|efterladt		jeg efterlader|jeg efterlod|jeg har efterladt	I leave behind|I left behind|I have left behind	v
 at støtte	to support		2	støtter|støttede|støttet		jeg støtter|jeg støttede|jeg har støttet	I support|I supported|I have supported	v
 at gifte sig	to get married		2	gifter sig|giftede sig|giftet sig		jeg gifter mig|jeg giftede mig|jeg har giftet mig	I get married|I got married|I have gotten married	v
 at styre	to control / steer		2	styrer|styrede|styret		jeg styrer|jeg styrede|jeg har styret	I control / steer|I controlled / steered|I have controlled / steered	v
-at fyre	to fire (dismiss)		3	fyrer|fyrede|fyret		jeg fyrer|jeg fyrede|jeg har fyret	I fire (dismiss)|I fired (dismiss)|I have fired (dismiss)	v
+at fyre	to fire (dismiss)	WJ	3	fyrer|fyrede|fyret		jeg fyrer|jeg fyrede|jeg har fyret	I fire (dismiss)|I fired (dismiss)|I have fired (dismiss)	v
 at fjerne	to remove		2	fjerner|fjernede|fjernet		jeg fjerner|jeg fjernede|jeg har fjernet	I remove|I removed|I have removed	v
 at hænge	to hang		2	hænger|hang|hængt		jeg hænger|jeg hang|jeg har hængt	I hang|I hung|I have hung	v
 at forestille sig	to imagine		2	forestiller sig|forestillede sig|forestillet sig		jeg forestiller mig|jeg forestillede mig|jeg har forestillet mig	I imagine|I imagined|I have imagined	v
@@ -1569,11 +1598,11 @@ at samarbejde	to cooperate		2	samarbejder|samarbejdede|samarbejdet		jeg samarbej
 at træde	to step		2	træder|trådte|trådt		jeg træder|jeg trådte|jeg har trådt	I step|I stepped|I have stepped	v
 at skændes	to argue		2	skændes|skændtes|skændtes		jeg skændes|jeg skændtes|jeg har skændtes	I argue|I argued|I have argued	v
 at tilgive	to forgive		2	tilgiver|tilgav|tilgivet		jeg tilgiver|jeg tilgav|jeg har tilgivet	I forgive|I forgave|I have forgiven	v
-at begå	to commit (a crime)		3	begår|begik|begået		jeg begår|jeg begik|jeg har begået	I commit (a crime)|I committed (a crime)|I have committed (a crime)	v
+at begå	to commit (a crime)	SP	3	begår|begik|begået		jeg begår|jeg begik|jeg har begået	I commit (a crime)|I committed (a crime)|I have committed (a crime)	v
 at kaste	to throw		2	kaster|kastede|kastet		jeg kaster|jeg kastede|jeg har kastet	I throw|I threw|I have thrown	v
 at præsentere	to present / introduce		2	præsenterer|præsenterede|præsenteret		jeg præsenterer|jeg præsenterede|jeg har præsenteret	I present / introduce|I presented / introduced|I have presented / introduced	v
 at gætte	to guess		2	gætter|gættede|gættet		jeg gætter|jeg gættede|jeg har gættet	I guess|I guessed|I have guessed	v
-at fejre	to celebrate		2	fejrer|fejrede|fejret		jeg fejrer|jeg fejrede|jeg har fejret	I celebrate|I celebrated|I have celebrated	v
+at fejre	to celebrate	CH	2	fejrer|fejrede|fejret		jeg fejrer|jeg fejrede|jeg har fejret	I celebrate|I celebrated|I have celebrated	v
 at indrømme	to admit		2	indrømmer|indrømmede|indrømmet		jeg indrømmer|jeg indrømmede|jeg har indrømmet	I admit|I admitted|I have admitted	v
 at hilse	to greet / say hello		2	hilser|hilste|hilst		jeg hilser|jeg hilste|jeg har hilst	I greet / say hello|I greeted / said hello|I have greeted / said hello	v
 at spore	to track / trace		3	sporer|sporede|sporet		jeg sporer|jeg sporede|jeg har sporet	I track / trace|I tracked / traced|I have tracked / traced	v
@@ -1595,7 +1624,7 @@ at afslutte	to finish / end		2	afslutter|afsluttede|afsluttet		jeg afslutter|jeg
 at grave	to dig		2	graver|gravede|gravet		jeg graver|jeg gravede|jeg har gravet	I dig|I dug|I have dug	v
 at tvinge	to force		2	tvinger|tvang|tvunget		jeg tvinger|jeg tvang|jeg har tvunget	I force|I forced|I have forced	v
 at drive	to run (a business) / drift		3	driver|drev|drevet		jeg driver|jeg drev|jeg har drevet	I run (a business) / drift|I ran (a business) / drifted|I have run (a business) / drifted	v
-at dømme	to judge / sentence		3	dømmer|dømte|dømt		jeg dømmer|jeg dømte|jeg har dømt	I judge / sentence|I judged / sentenced|I have judged / sentenced	v
+at dømme	to judge / sentence	SP	3	dømmer|dømte|dømt		jeg dømmer|jeg dømte|jeg har dømt	I judge / sentence|I judged / sentenced|I have judged / sentenced	v
 at behandle	to treat		2	behandler|behandlede|behandlet		jeg behandler|jeg behandlede|jeg har behandlet	I treat|I treated|I have treated	v
 at standse	to stop		3	standser|standsede|standset		jeg standser|jeg standsede|jeg har standset	I stop|I stopped|I have stopped	v
 at kontrollere	to control / check		2	kontrollerer|kontrollerede|kontrolleret		jeg kontrollerer|jeg kontrollerede|jeg har kontrolleret	I control / check|I controlled / checked|I have controlled / checked	v
@@ -1606,25 +1635,25 @@ at aflevere	to hand in / deliver		2	afleverer|afleverede|afleveret		jeg aflevere
 at genkende	to recognize		2	genkender|genkendte|genkendt		jeg genkender|jeg genkendte|jeg har genkendt	I recognize|I recognized|I have recognized	v
 at gentage	to repeat		2	gentager|gentog|gentaget		jeg gentager|jeg gentog|jeg har gentaget	I repeat|I repeated|I have repeated	v
 at rydde op	to tidy up		2	rydder op|ryddede op|ryddet op		jeg rydder op|jeg ryddede op|jeg har ryddet op	I tidy up|I tidied up|I have tidied up	v
-at bløde	to bleed		2	bløder|blødte|blødt		jeg bløder|jeg blødte|jeg har blødt	I bleed|I bled|I have bled	v
+at bløde	to bleed	BH	2	bløder|blødte|blødt		jeg bløder|jeg blødte|jeg har blødt	I bleed|I bled|I have bled	v
 at skyldes	to be due to		3	skyldes|skyldtes|skyldtes		det skyldes|det skyldtes|det har skyldtes	it ams due to|it was due to|it has been due to	v
 at afhænge af	to depend on		2	afhænger af|afhang af|afhængt af		jeg afhænger af|jeg afhang af|jeg har afhængt af	I depend on|I depended on|I have depended on	v
 at træffe	to meet / make (a decision)		3	træffer|traf|truffet		jeg træffer|jeg traf|jeg har truffet	I meet / make (a decision)|I met / made (a decision)|I have met / made (a decision)	v
 at jage	to hunt / chase		2	jager|jagede|jaget		jeg jager|jeg jagede|jeg har jaget	I hunt / chase|I hunted / chased|I have hunted / chased	v
-at brække	to break (a bone) / to vomit		2	brækker|brækkede|brækket		jeg brækker|jeg brækkede|jeg har brækket	I break (a bone) / vomit|I broke (a bone) / vomited|I have broken (a bone) / vomited	v
-at ride	to ride (a horse)		2	rider|red|redet		jeg rider|jeg red|jeg har redet	I ride (a horse)|I rode (a horse)|I have ridden (a horse)	v
+at brække	to break (a bone) / to vomit	BH	2	brækker|brækkede|brækket		jeg brækker|jeg brækkede|jeg har brækket	I break (a bone) / vomit|I broke (a bone) / vomited|I have broken (a bone) / vomited	v
+at ride	to ride (a horse)	FS	2	rider|red|redet		jeg rider|jeg red|jeg har redet	I ride (a horse)|I rode (a horse)|I have ridden (a horse)	v
 at ankomme	to arrive		2	ankommer|ankom|ankommet		jeg ankommer|jeg ankom|jeg er ankommet	I arrive|I arrived|I have arrived	v
 at narre	to fool / trick		3	narrer|narrede|narret		jeg narrer|jeg narrede|jeg har narret	I fool / trick|I fooled / tricked|I have fooled / tricked	v
 at vække	to wake (someone)		2	vækker|vækkede|vækket		jeg vækker|jeg vækkede|jeg har vækket	I wake (someone)|I woke (someone)|I have woken (someone)	v
-at oversætte	to translate		2	oversætter|oversatte|oversat		jeg oversætter|jeg oversatte|jeg har oversat	I translate|I translated|I have translated	v
+at oversætte	to translate	SL	2	oversætter|oversatte|oversat		jeg oversætter|jeg oversatte|jeg har oversat	I translate|I translated|I have translated	v
 at risikere	to risk		2	risikerer|risikerede|risikeret		jeg risikerer|jeg risikerede|jeg har risikeret	I risk|I risked|I have risked	v
 at genere	to bother		2	generer|generede|generet		jeg generer|jeg generede|jeg har generet	I bother|I bothered|I have bothered	v
 at melde	to report / announce		3	melder|meldte|meldt		jeg melder|jeg meldte|jeg har meldt	I report / announce|I reported / announced|I have reported / announced	v
-at du	to be any good / work		4	duer|duede|duet		jeg duer|jeg duede|jeg har duet	I am any good / work|I was any good / worked|I have been any good / worked	v
+at duge	to be any good / work		4	duer|duede|duet		jeg duer|jeg duede|jeg har duet	I am any good / work|I was any good / worked|I have been any good / worked	v
 at fortryde	to regret		2	fortryder|fortrød|fortrudt		jeg fortryder|jeg fortrød|jeg har fortrudt	I regret|I regretted|I have regretted	v
 at rykke	to move / pull		3	rykker|rykkede|rykket		jeg rykker|jeg rykkede|jeg har rykket	I move / pull|I moved / pulled|I have moved / pulled	v
 at påstå	to claim		3	påstår|påstod|påstået		jeg påstår|jeg påstod|jeg har påstået	I claim|I claimed|I have claimed	v
-at tisse	to pee		2	tisser|tissede|tisset		jeg tisser|jeg tissede|jeg har tisset	I pee|I peed|I have peed	v
+at tisse	to pee	BH	2	tisser|tissede|tisset		jeg tisser|jeg tissede|jeg har tisset	I pee|I peed|I have peed	v
 at sprænge	to blow up		3	sprænger|sprængte|sprængt		jeg sprænger|jeg sprængte|jeg har sprængt	I blow up|I blew up|I have blown up	v
 at opleve	to experience		2	oplever|oplevede|oplevet		jeg oplever|jeg oplevede|jeg har oplevet	I experience|I experienced|I have experienced	v
 at glo	to stare		3	glor|gloede|gloet		jeg glor|jeg gloede|jeg har gloet	I stare|I stared|I have stared	v
@@ -1637,9 +1666,9 @@ at opgive	to give up		3	opgiver|opgav|opgivet		jeg opgiver|jeg opgav|jeg har opg
 at fokusere	to focus		3	fokuserer|fokuserede|fokuseret		jeg fokuserer|jeg fokuserede|jeg har fokuseret	I focus|I focused|I have focused	v
 at knuse	to crush		2	knuser|knuste|knust		jeg knuser|jeg knuste|jeg har knust	I crush|I crushed|I have crushed	v
 at fylde	to fill / take up space		2	fylder|fyldte|fyldt		jeg fylder|jeg fyldte|jeg har fyldt	I fill / take up space|I filled / took up space|I have filled / taken up space	v
-at arrestere	to arrest		3	arresterer|arresterede|arresteret		jeg arresterer|jeg arresterede|jeg har arresteret	I arrest|I arrested|I have arrested	v
+at arrestere	to arrest	SP	3	arresterer|arresterede|arresteret		jeg arresterer|jeg arresterede|jeg har arresteret	I arrest|I arrested|I have arrested	v
 at løfte	to lift		2	løfter|løftede|løftet		jeg løfter|jeg løftede|jeg har løftet	I lift|I lifted|I have lifted	v
-at føde	to give birth		3	føder|fødte|født		jeg føder|jeg fødte|jeg har født	I give birth|I gave birth|I have given birth	v
+at føde	to give birth	BH	3	føder|fødte|født		jeg føder|jeg fødte|jeg har født	I give birth|I gave birth|I have given birth	v
 at løse	to solve		2	løser|løste|løst		jeg løser|jeg løste|jeg har løst	I solve|I solved|I have solved	v
 at smadre	to smash		3	smadrer|smadrede|smadret		jeg smadrer|jeg smadrede|jeg har smadret	I smash|I smashed|I have smashed	v
 at stamme	to stutter / come from		3	stammer|stammede|stammet		jeg stammer|jeg stammede|jeg har stammet	I stutter / come from|I stuttered / came from|I have stuttered / come from	v
@@ -1658,23 +1687,23 @@ at tilbringe	to spend (time)		2	tilbringer|tilbragte|tilbragt		jeg tilbringer|je
 at række	to reach / hand		2	rækker|rakte|rakt		jeg rækker|jeg rakte|jeg har rakt	I reach / hand|I reached / handed|I have reached / handed	v
 at sænke	to lower		3	sænker|sænkede|sænket		jeg sænker|jeg sænkede|jeg har sænket	I lower|I lowered|I have lowered	v
 at indeholde	to contain		3	indeholder|indeholdt|indeholdt		jeg indeholder|jeg indeholdt|jeg har indeholdt	I contain|I contained|I have contained	v
-at træne	to train		1	træner|trænede|trænet		jeg træner|jeg trænede|jeg har trænet	I train|I trained|I have trained	v
-at pakke	to pack		1	pakker|pakkede|pakket		jeg pakker|jeg pakkede|jeg har pakket	I pack|I packed|I have packed	v
+at træne	to train	FS	1	træner|trænede|trænet		jeg træner|jeg trænede|jeg har trænet	I train|I trained|I have trained	v
+at pakke	to pack	TT	1	pakker|pakkede|pakket		jeg pakker|jeg pakkede|jeg har pakket	I pack|I packed|I have packed	v
 at skrige	to scream		2	skriger|skreg|skreget		jeg skriger|jeg skreg|jeg har skreget	I scream|I screamed|I have screamed	v
 at skubbe	to push		2	skubber|skubbede|skubbet		jeg skubber|jeg skubbede|jeg har skubbet	I push|I pushed|I have pushed	v
 at forhandle	to negotiate		3	forhandler|forhandlede|forhandlet		jeg forhandler|jeg forhandlede|jeg har forhandlet	I negotiate|I negotiated|I have negotiated	v
-at løslade	to release (from prison)		3	løslader|løslod|løsladt		jeg løslader|jeg løslod|jeg har løsladt	I release (from prison)|I released (from prison)|I have released (from prison)	v
+at løslade	to release (from prison)	SP	3	løslader|løslod|løsladt		jeg løslader|jeg løslod|jeg har løsladt	I release (from prison)|I released (from prison)|I have released (from prison)	v
 at bide	to bite		2	bider|bed|bidt		jeg bider|jeg bed|jeg har bidt	I bite|I bit|I have bitten	v
 at befri	to free / liberate		3	befrier|befriede|befriet		jeg befrier|jeg befriede|jeg har befriet	I free / liberate|I freed / liberated|I have freed / liberated	v
 at afgøre	to decide / settle		3	afgør|afgjorde|afgjort		jeg afgør|jeg afgjorde|jeg har afgjort	I decide / settle|I decided / settled|I have decided / settled	v
 at trykke	to press / print		2	trykker|trykkede|trykket		jeg trykker|jeg trykkede|jeg har trykket	I press / print|I pressed / printed|I have pressed / printed	v
 at skinne	to shine		2	skinner|skinnede|skinnet		jeg skinner|jeg skinnede|jeg har skinnet	I shine|I shone|I have shone	v
-at spare	to save (money)		2	sparer|sparede|sparet		jeg sparer|jeg sparede|jeg har sparet	I save (money)|I saved (money)|I have saved (money)	v
+at spare	to save (money)	MB	2	sparer|sparede|sparet		jeg sparer|jeg sparede|jeg har sparet	I save (money)|I saved (money)|I have saved (money)	v
 at foretage	to make / carry out		3	foretager|foretog|foretaget		jeg foretager|jeg foretog|jeg har foretaget	I make / carry out|I made / carried out|I have made / carried out	v
-at hyre	to hire		3	hyrer|hyrede|hyret		jeg hyrer|jeg hyrede|jeg har hyret	I hire|I hired|I have hired	v
+at hyre	to hire	WJ	3	hyrer|hyrede|hyret		jeg hyrer|jeg hyrede|jeg har hyret	I hire|I hired|I have hired	v
 at undre sig	to wonder		3	undrer sig|undrede sig|undret sig		jeg undrer mig|jeg undrede mig|jeg har undret mig	I wonder|I wondered|I have wondered	v
 at skuffe	to disappoint		2	skuffer|skuffede|skuffet		jeg skuffer|jeg skuffede|jeg har skuffet	I disappoint|I disappointed|I have disappointed	v
-at kidnappe	to kidnap		3	kidnapper|kidnappede|kidnappet		jeg kidnapper|jeg kidnappede|jeg har kidnappet	I kidnap|I kidnapped|I have kidnapped	v
+at kidnappe	to kidnap	SP	3	kidnapper|kidnappede|kidnappet		jeg kidnapper|jeg kidnappede|jeg har kidnappet	I kidnap|I kidnapped|I have kidnapped	v
 at ryste	to shake		2	ryster|rystede|rystet		jeg ryster|jeg rystede|jeg har rystet	I shake|I shook|I have shaken	v
 at repræsentere	to represent		3	repræsenterer|repræsenterede|repræsenteret		jeg repræsenterer|jeg repræsenterede|jeg har repræsenteret	I represent|I represented|I have represented	v
 at dyrke	to grow / practice (a sport)		2	dyrker|dyrkede|dyrket		jeg dyrker|jeg dyrkede|jeg har dyrket	I grow / practice (a sport)|I grew / practiced (a sport)|I have grown / practiced (a sport)	v
@@ -1684,14 +1713,14 @@ at bestå	to pass (an exam) / consist		2	består|bestod|bestået		jeg består|je
 at kede sig	to be bored		2	keder sig|kedede sig|kedet sig		jeg keder mig|jeg kedede mig|jeg har kedet mig	I am bored|I was bored|I have been bored	v
 at antage	to assume		3	antager|antog|antaget		jeg antager|jeg antog|jeg har antaget	I assume|I assumed|I have assumed	v
 at skilles	to divorce / separate		3	skilles|skiltes|skiltes		jeg skilles|jeg skiltes|jeg har skiltes	I divorce / separate|I divorced / separated|I have divorced / separated	v
-at leje	to rent		2	lejer|lejede|lejet		jeg lejer|jeg lejede|jeg har lejet	I rent|I rented|I have rented	v
+at leje	to rent	MB	2	lejer|lejede|lejet		jeg lejer|jeg lejede|jeg har lejet	I rent|I rented|I have rented	v
 at afvise	to reject		3	afviser|afviste|afvist		jeg afviser|jeg afviste|jeg har afvist	I reject|I rejected|I have rejected	v
 at pege	to point		2	peger|pegede|peget		jeg peger|jeg pegede|jeg har peget	I point|I pointed|I have pointed	v
 at svigte	to let down / fail		3	svigter|svigtede|svigtet		jeg svigter|jeg svigtede|jeg har svigtet	I let down / fail|I let down / failed|I have let down / failed	v
 at binde	to tie / bind		2	binder|bandt|bundet		jeg binder|jeg bandt|jeg har bundet	I tie / bind|I tied / bound|I have tied / bound	v
 at bebrejde	to blame		3	bebrejder|bebrejdede|bebrejdet		jeg bebrejder|jeg bebrejdede|jeg har bebrejdet	I blame|I blamed|I have blamed	v
 at beskrive	to describe		2	beskriver|beskrev|beskrevet		jeg beskriver|jeg beskrev|jeg har beskrevet	I describe|I described|I have described	v
-at straffe	to punish		3	straffer|straffede|straffet		jeg straffer|jeg straffede|jeg har straffet	I punish|I punished|I have punished	v
+at straffe	to punish	SP	3	straffer|straffede|straffet		jeg straffer|jeg straffede|jeg har straffet	I punish|I punished|I have punished	v
 at forlange	to demand		3	forlanger|forlangte|forlangt		jeg forlanger|jeg forlangte|jeg har forlangt	I demand|I demanded|I have demanded	v
 at mindes	to remember / commemorate		3	mindes|mindedes|mindedes		jeg mindes|jeg mindedes|jeg har mindedes	I remember / commemorate|I remembered / commemorated|I have remembered / commemorated	v
 at rådne	to rot		3	rådner|rådnede|rådnet		jeg rådner|jeg rådnede|jeg har rådnet	I rot|I rotted|I have rotted	v
@@ -1705,7 +1734,7 @@ at besejre	to defeat		3	besejrer|besejrede|besejret		jeg besejrer|jeg besejrede|
 at insistere	to insist		3	insisterer|insisterede|insisteret		jeg insisterer|jeg insisterede|jeg har insisteret	I insist|I insisted|I have insisted	v
 at stirre	to stare		3	stirrer|stirrede|stirret		jeg stirrer|jeg stirrede|jeg har stirret	I stare|I stared|I have stared	v
 at ånde	to breathe		3	ånder|åndede|åndet		jeg ånder|jeg åndede|jeg har åndet	I breathe|I breathed|I have breathed	v
-at smitte	to infect		3	smitter|smittede|smittet		jeg smitter|jeg smittede|jeg har smittet	I infect|I infected|I have infected	v
+at smitte	to infect	BH	3	smitter|smittede|smittet		jeg smitter|jeg smittede|jeg har smittet	I infect|I infected|I have infected	v
 at hygge sig	to have a cozy / nice time		2	hygger sig|hyggede sig|hygget sig		jeg hygger mig|jeg hyggede mig|jeg har hygget mig	I have a cozy / nice time|I had a cozy / niced time|I have had a cozy / niced time	v
 at skamme sig	to be ashamed		3	skammer sig|skammede sig|skammet sig		jeg skammer mig|jeg skammede mig|jeg har skammet mig	I am ashamed|I was ashamed|I have been ashamed	v
 at hævne	to avenge		3	hævner|hævnede|hævnet		jeg hævner|jeg hævnede|jeg har hævnet	I avenge|I avenged|I have avenged	v
@@ -1716,7 +1745,7 @@ at bortføre	to abduct		4	bortfører|bortførte|bortført		jeg bortfører|jeg bo
 at flyde	to float / flow		3	flyder|flød|flydt		jeg flyder|jeg flød|jeg har flydt	I float / flow|I floated / flowed|I have floated / flowed	v
 at tåle	to tolerate / stand		3	tåler|tålte|tålt		jeg tåler|jeg tålte|jeg har tålt	I tolerate / stand|I tolerated / stood|I have tolerated / stood	v
 at sladre	to gossip / tell on		3	sladrer|sladrede|sladret		jeg sladrer|jeg sladrede|jeg har sladret	I gossip / tell on|I gossiped / told on|I have gossiped / told on	v
-at hæve	to raise / withdraw (money)		3	hæver|hævede|hævet		jeg hæver|jeg hævede|jeg har hævet	I raise / withdraw (money)|I raised / withdrew (money)|I have raised / withdrawn (money)	v
+at hæve	to raise / withdraw (money)	MB	3	hæver|hævede|hævet		jeg hæver|jeg hævede|jeg har hævet	I raise / withdraw (money)|I raised / withdrew (money)|I have raised / withdrawn (money)	v
 at modstå	to resist		3	modstår|modstod|modstået		jeg modstår|jeg modstod|jeg har modstået	I resist|I resisted|I have resisted	v
 at tilstå	to confess		3	tilstår|tilstod|tilstået		jeg tilstår|jeg tilstod|jeg har tilstået	I confess|I confessed|I have confessed	v
 at spytte	to spit		2	spytter|spyttede|spyttet		jeg spytter|jeg spyttede|jeg har spyttet	I spit|I spat|I have spat	v
@@ -1732,7 +1761,7 @@ at anmode	to request		3	anmoder|anmodede|anmodet		jeg anmoder|jeg anmodede|jeg h
 at forsikre	to assure / insure		3	forsikrer|forsikrede|forsikret		jeg forsikrer|jeg forsikrede|jeg har forsikret	I assure / insure|I assured / insured|I have assured / insured	v
 at udslette	to wipe out		4	udsletter|udslettede|udslettet		jeg udsletter|jeg udslettede|jeg har udslettet	I wipe out|I wiped out|I have wiped out	v
 at styrte	to rush / crash		3	styrter|styrtede|styrtet		jeg styrter|jeg styrtede|jeg har styrtet	I rush / crash|I rushed / crashed|I have rushed / crashed	v
-at røve	to rob		3	røver|røvede|røvet		jeg røver|jeg røvede|jeg har røvet	I rob|I robbed|I have robbed	v
+at røve	to rob	SP	3	røver|røvede|røvet		jeg røver|jeg røvede|jeg har røvet	I rob|I robbed|I have robbed	v
 at undvære	to do without		3	undværer|undværede|undværet		jeg undværer|jeg undværede|jeg har undværet	I do without|I did without|I have done without	v
 at omgås	to associate with / socialize		4	omgås|omgikkes|omgåedes		jeg omgås|jeg omgikkes|jeg har omgåedes	I associate with / socialize|I associated with / socialized|I have associated with / socialized	v
 at drukne	to drown		3	drukner|druknede|druknet		jeg drukner|jeg druknede|jeg har druknet	I drown|I drowned|I have drowned	v
@@ -1743,7 +1772,7 @@ at imponere	to impress		2	imponerer|imponerede|imponeret		jeg imponerer|jeg impo
 at spekulere	to speculate / wonder		3	spekulerer|spekulerede|spekuleret		jeg spekulerer|jeg spekulerede|jeg har spekuleret	I speculate / wonder|I speculated / wondered|I have speculated / wondered	v
 at udtrykke	to express		3	udtrykker|udtrykte|udtrykt		jeg udtrykker|jeg udtrykte|jeg har udtrykt	I express|I expressed|I have expressed	v
 at adlyde	to obey		3	adlyder|adlød|adlydt		jeg adlyder|jeg adlød|jeg har adlydt	I obey|I obeyed|I have obeyed	v
-at klatre	to climb		2	klatrer|klatrede|klatret		jeg klatrer|jeg klatrede|jeg har klatret	I climb|I climbed|I have climbed	v
+at klatre	to climb	FS	2	klatrer|klatrede|klatret		jeg klatrer|jeg klatrede|jeg har klatret	I climb|I climbed|I have climbed	v
 at rette	to correct / straighten		2	retter|rettede|rettet		jeg retter|jeg rettede|jeg har rettet	I correct / straighten|I corrected / straightened|I have corrected / straightened	v
 at designe	to design		3	designer|designede|designet		jeg designer|jeg designede|jeg har designet	I design|I designed|I have designed	v
 at plage	to pester / torment		3	plager|plagede|plaget		jeg plager|jeg plagede|jeg har plaget	I pester / torment|I pestered / tormented|I have pestered / tormented	v
@@ -1757,7 +1786,7 @@ at sutte	to suck		3	sutter|suttede|suttet		jeg sutter|jeg suttede|jeg har suttet
 at fornemme	to sense		3	fornemmer|fornemmede|fornemmet		jeg fornemmer|jeg fornemmede|jeg har fornemmet	I sense|I sensed|I have sensed	v
 at snuppe	to snatch / grab		3	snupper|snuppede|snuppet		jeg snupper|jeg snuppede|jeg har snuppet	I snatch / grab|I snatched / grabbed|I have snatched / grabbed	v
 at klemme	to squeeze / pinch		3	klemmer|klemte|klemt		jeg klemmer|jeg klemte|jeg har klemt	I squeeze / pinch|I squeezed / pinched|I have squeezed / pinched	v
-at forfremme	to promote		3	forfremmer|forfremmede|forfremmet		jeg forfremmer|jeg forfremmede|jeg har forfremmet	I promote|I promoted|I have promoted	v
+at forfremme	to promote	WJ	3	forfremmer|forfremmede|forfremmet		jeg forfremmer|jeg forfremmede|jeg har forfremmet	I promote|I promoted|I have promoted	v
 at overføre	to transfer		3	overfører|overførte|overført		jeg overfører|jeg overførte|jeg har overført	I transfer|I transferred|I have transferred	v
 at fornærme	to offend		3	fornærmer|fornærmede|fornærmet		jeg fornærmer|jeg fornærmede|jeg har fornærmet	I offend|I offended|I have offended	v
 at råde over	to have at one's disposal		4	råder over|rådede over|rådet over		jeg råder over|jeg rådede over|jeg har rådet over	I have at my disposal|I had at my disposal|I have had at my disposal	v
@@ -1770,23 +1799,23 @@ at undslippe	to escape		3	undslipper|undslap|undsluppet		jeg undslipper|jeg unds
 at erklære	to declare		3	erklærer|erklærede|erklæret		jeg erklærer|jeg erklærede|jeg har erklæret	I declare|I declared|I have declared	v
 at indgå	to enter into (an agreement)		3	indgår|indgik|indgået		jeg indgår|jeg indgik|jeg har indgået	I enter into (an agreement)|I entered into (an agreement)|I have entered into (an agreement)	v
 at garantere	to guarantee		3	garanterer|garanterede|garanteret		jeg garanterer|jeg garanterede|jeg har garanteret	I guarantee|I guaranteed|I have guaranteed	v
-at bade	to bathe / swim		2	bader|badede|badet		jeg bader|jeg badede|jeg har badet	I bathe / swim|I bathed / swam|I have bathed / swum	v
+at bade	to bathe / swim	FS	2	bader|badede|badet		jeg bader|jeg badede|jeg har badet	I bathe / swim|I bathed / swam|I have bathed / swum	v
 at betragte	to regard / consider		3	betragter|betragtede|betragtet		jeg betragter|jeg betragtede|jeg har betragtet	I regard / consider|I regarded / considered|I have regarded / considered	v
 at sigte	to aim / charge (with a crime)		3	sigter|sigtede|sigtet		jeg sigter|jeg sigtede|jeg har sigtet	I aim / charge (with a crime)|I aimed / charged (with a crime)|I have aimed / charged (with a crime)	v
 at opfinde	to invent		3	opfinder|opfandt|opfundet		jeg opfinder|jeg opfandt|jeg har opfundet	I invent|I invented|I have invented	v
 at underrette	to notify		4	underretter|underrettede|underrettet		jeg underretter|jeg underrettede|jeg har underrettet	I notify|I notified|I have notified	v
-at stemme	to vote		2	stemmer|stemte|stemt		jeg stemmer|jeg stemte|jeg har stemt	I vote|I voted|I have voted	v
+at stemme	to vote	SP	2	stemmer|stemte|stemt		jeg stemmer|jeg stemte|jeg har stemt	I vote|I voted|I have voted	v
 at forvandle	to transform		3	forvandler|forvandlede|forvandlet		jeg forvandler|jeg forvandlede|jeg har forvandlet	I transform|I transformed|I have transformed	v
 at trives	to thrive		3	trives|trivedes|trivedes		det trives|det trivedes|det har trivedes	it thrives|it thrived|it has thrived	v
-at besvime	to faint		3	besvimer|besvimede|besvimet		jeg besvimer|jeg besvimede|jeg har besvimet	I faint|I fainted|I have fainted	v
+at besvime	to faint	BH	3	besvimer|besvimede|besvimet		jeg besvimer|jeg besvimede|jeg har besvimet	I faint|I fainted|I have fainted	v
 at indhente	to catch up with		3	indhenter|indhentede|indhentet		jeg indhenter|jeg indhentede|jeg har indhentet	I catch up with|I caught up with|I have caught up with	v
 at fikse	to fix		2	fikser|fiksede|fikset		jeg fikser|jeg fiksede|jeg har fikset	I fix|I fixed|I have fixed	v
 at kravle	to crawl		2	kravler|kravlede|kravlet		jeg kravler|jeg kravlede|jeg har kravlet	I crawl|I crawled|I have crawled	v
 at sikre	to secure / ensure		3	sikrer|sikrede|sikret		jeg sikrer|jeg sikrede|jeg har sikret	I secure / ensure|I secured / ensured|I have secured / ensured	v
 at forårsage	to cause		3	forårsager|forårsagede|forårsaget		jeg forårsager|jeg forårsagede|jeg har forårsaget	I cause|I caused|I have caused	v
 at udfylde	to fill in / fill out		2	udfylder|udfyldte|udfyldt		jeg udfylder|jeg udfyldte|jeg har udfyldt	I fill in / fill out|I filled in / filled out|I have filled in / filled out	v
-at henrette	to execute		4	henretter|henrettede|henrettet		jeg henretter|jeg henrettede|jeg har henrettet	I execute|I executed|I have executed	v
-at bokse	to box		3	bokser|boksede|bokset		jeg bokser|jeg boksede|jeg har bokset	I box|I boxed|I have boxed	v
+at henrette	to execute	SP	4	henretter|henrettede|henrettet		jeg henretter|jeg henrettede|jeg har henrettet	I execute|I executed|I have executed	v
+at bokse	to box	FS	3	bokser|boksede|bokset		jeg bokser|jeg boksede|jeg har bokset	I box|I boxed|I have boxed	v
 at bøje	to bend		3	bøjer|bøjede|bøjet		jeg bøjer|jeg bøjede|jeg har bøjet	I bend|I bent|I have bent	v
 at bande	to swear (curse)		2	bander|bandede|bandet		jeg bander|jeg bandede|jeg har bandet	I swear (curse)|I swore (curse)|I have sworn (curse)	v
 at beordre	to order (command)		4	beordrer|beordrede|beordret		jeg beordrer|jeg beordrede|jeg har beordret	I order (command)|I ordered (command)|I have ordered (command)	v
@@ -1805,7 +1834,7 @@ at operere	to operate		3	opererer|opererede|opereret		jeg opererer|jeg opererede
 at overlade	to leave (to someone) / hand over		3	overlader|overlod|overladt		jeg overlader|jeg overlod|jeg har overladt	I leave (to someone) / hand over|I left (to someone) / handed over|I have left (to someone) / handed over	v
 at slæbe	to drag		3	slæber|slæbte|slæbt		jeg slæber|jeg slæbte|jeg har slæbt	I drag|I dragged|I have dragged	v
 at havne	to end up		3	havner|havnede|havnet		jeg havner|jeg havnede|jeg har havnet	I end up|I ended up|I have ended up	v
-at afhøre	to interrogate		3	afhører|afhørte|afhørt		jeg afhører|jeg afhørte|jeg har afhørt	I interrogate|I interrogated|I have interrogated	v
+at afhøre	to interrogate	SP	3	afhører|afhørte|afhørt		jeg afhører|jeg afhørte|jeg har afhørt	I interrogate|I interrogated|I have interrogated	v
 at anbringe	to place		4	anbringer|anbragte|anbragt		jeg anbringer|jeg anbragte|jeg har anbragt	I place|I placed|I have placed	v
 at tiltrække	to attract		3	tiltrækker|tiltrak|tiltrukket		jeg tiltrækker|jeg tiltrak|jeg har tiltrukket	I attract|I attracted|I have attracted	v
 at danne	to form		3	danner|dannede|dannet		jeg danner|jeg dannede|jeg har dannet	I form|I formed|I have formed	v
@@ -1830,8 +1859,8 @@ at tilpasse	to adapt		3	tilpasser|tilpassede|tilpasset		jeg tilpasser|jeg tilpas
 at indikere	to indicate		3	indikerer|indikerede|indikeret		jeg indikerer|jeg indikerede|jeg har indikeret	I indicate|I indicated|I have indicated	v
 at lokke	to lure / tempt		3	lokker|lokkede|lokket		jeg lokker|jeg lokkede|jeg har lokket	I lure / tempt|I lured / tempted|I have lured / tempted	v
 at blokere	to block		3	blokerer|blokerede|blokeret		jeg blokerer|jeg blokerede|jeg har blokeret	I block|I blocked|I have blocked	v
-at sagsøge	to sue		4	sagsøger|sagsøgte|sagsøgt		jeg sagsøger|jeg sagsøgte|jeg har sagsøgt	I sue|I sued|I have sued	v
-at hacke	to hack		3	hacker|hackede|hacket		jeg hacker|jeg hackede|jeg har hacket	I hack|I hacked|I have hacked	v
+at sagsøge	to sue	SP	4	sagsøger|sagsøgte|sagsøgt		jeg sagsøger|jeg sagsøgte|jeg har sagsøgt	I sue|I sued|I have sued	v
+at hacke	to hack	TM	3	hacker|hackede|hacket		jeg hacker|jeg hackede|jeg har hacket	I hack|I hacked|I have hacked	v
 at tigge	to beg		3	tigger|tiggede|tigget		jeg tigger|jeg tiggede|jeg har tigget	I beg|I begged|I have begged	v
 at klappe	to clap / pat		2	klapper|klappede|klappet		jeg klapper|jeg klappede|jeg har klappet	I clap / pat|I clapped / patted|I have clapped / patted	v
 at opklare	to solve (a case)		3	opklarer|opklarede|opklaret		jeg opklarer|jeg opklarede|jeg har opklaret	I solve (a case)|I solved (a case)|I have solved (a case)	v
@@ -1840,8 +1869,8 @@ at berolige	to calm / reassure		3	beroliger|beroligede|beroliget		jeg beroliger|
 at informere	to inform		3	informerer|informerede|informeret		jeg informerer|jeg informerede|jeg har informeret	I inform|I informed|I have informed	v
 at svinge	to swing		3	svinger|svingede|svinget		jeg svinger|jeg svingede|jeg har svinget	I swing|I swung|I have swung	v
 at opretholde	to maintain		3	opretholder|opretholdt|opretholdt		jeg opretholder|jeg opretholdt|jeg har opretholdt	I maintain|I maintained|I have maintained	v
-at vandre	to wander / hike		3	vandrer|vandrede|vandret		jeg vandrer|jeg vandrede|jeg har vandret	I wander / hike|I wandered / hiked|I have wandered / hiked	v
-at kurere	to cure		3	kurerer|kurerede|kureret		jeg kurerer|jeg kurerede|jeg har kureret	I cure|I cured|I have cured	v
+at vandre	to wander / hike	FS	3	vandrer|vandrede|vandret		jeg vandrer|jeg vandrede|jeg har vandret	I wander / hike|I wandered / hiked|I have wandered / hiked	v
+at kurere	to cure	BH	3	kurerer|kurerede|kureret		jeg kurerer|jeg kurerede|jeg har kureret	I cure|I cured|I have cured	v
 at hugge	to chop		3	hugger|huggede|hugget		jeg hugger|jeg huggede|jeg har hugget	I chop|I chopped|I have chopped	v
 at bluffe	to bluff		3	bluffer|bluffede|bluffet		jeg bluffer|jeg bluffede|jeg har bluffet	I bluff|I bluffed|I have bluffed	v
 at tømme	to empty		2	tømmer|tømte|tømt		jeg tømmer|jeg tømte|jeg har tømt	I empty|I emptied|I have emptied	v
@@ -1849,10 +1878,10 @@ at dæmpe	to dampen / turn down		3	dæmper|dæmpede|dæmpet		jeg dæmper|jeg dæ
 at trøste	to comfort		2	trøster|trøstede|trøstet		jeg trøster|jeg trøstede|jeg har trøstet	I comfort|I comforted|I have comforted	v
 at forbyde	to forbid / ban		2	forbyder|forbød|forbudt		jeg forbyder|jeg forbød|jeg har forbudt	I forbid / ban|I forbade / banned|I have forbidden / banned	v
 at forsørge	to support (financially)		3	forsørger|forsørgede|forsørget		jeg forsørger|jeg forsørgede|jeg har forsørget	I support (financially)|I supported (financially)|I have supported (financially)	v
-at overnatte	to stay overnight		2	overnatter|overnattede|overnattet		jeg overnatter|jeg overnattede|jeg har overnattet	I stay overnight|I stayed overnight|I have stayed overnight	v
+at overnatte	to stay overnight	TT	2	overnatter|overnattede|overnattet		jeg overnatter|jeg overnattede|jeg har overnattet	I stay overnight|I stayed overnight|I have stayed overnight	v
 at indtage	to consume / take		4	indtager|indtog|indtaget		jeg indtager|jeg indtog|jeg har indtaget	I consume / take|I consumed / took|I have consumed / taken	v
 at besidde	to possess		4	besidder|besad|besiddet		jeg besidder|jeg besad|jeg har besiddet	I possess|I possessed|I have possessed	v
-at investere	to invest		3	investerer|investerede|investeret		jeg investerer|jeg investerede|jeg har investeret	I invest|I invested|I have invested	v
+at investere	to invest	MB	3	investerer|investerede|investeret		jeg investerer|jeg investerede|jeg har investeret	I invest|I invested|I have invested	v
 at benytte	to use		3	benytter|benyttede|benyttet		jeg benytter|jeg benyttede|jeg har benyttet	I use|I used|I have used	v
 at placere	to place		3	placerer|placerede|placeret		jeg placerer|jeg placerede|jeg har placeret	I place|I placed|I have placed	v
 at manipulere	to manipulate		3	manipulerer|manipulerede|manipuleret		jeg manipulerer|jeg manipulerede|jeg har manipuleret	I manipulate|I manipulated|I have manipulated	v
@@ -1861,7 +1890,7 @@ at notere	to note down		3	noterer|noterede|noteret		jeg noterer|jeg noterede|jeg
 at omtale	to mention / refer to		3	omtaler|omtalte|omtalt		jeg omtaler|jeg omtalte|jeg har omtalt	I mention / refer to|I mentioned / referred to|I have mentioned / referred to	v
 at konkurrere	to compete		3	konkurrerer|konkurrerede|konkurreret		jeg konkurrerer|jeg konkurrerede|jeg har konkurreret	I compete|I competed|I have competed	v
 at distrahere	to distract		3	distraherer|distraherede|distraheret		jeg distraherer|jeg distraherede|jeg har distraheret	I distract|I distracted|I have distracted	v
-at stave	to spell		1	staver|stavede|stavet		jeg staver|jeg stavede|jeg har stavet	I spell|I spelled|I have spelled	v
+at stave	to spell	SL	1	staver|stavede|stavet		jeg staver|jeg stavede|jeg har stavet	I spell|I spelled|I have spelled	v
 at kvaje sig	to mess up		4	kvajer sig|kvajede sig|kvajet sig		jeg kvajer mig|jeg kvajede mig|jeg har kvajet mig	I mess up|I messed up|I have messed up	v
 at opbygge	to build up		3	opbygger|opbyggede|opbygget		jeg opbygger|jeg opbyggede|jeg har opbygget	I build up|I built up|I have built up	v
 at smugle	to smuggle		3	smugler|smuglede|smuglet		jeg smugler|jeg smuglede|jeg har smuglet	I smuggle|I smuggled|I have smuggled	v
@@ -1875,7 +1904,7 @@ at fuldføre	to complete		3	fuldfører|fuldførte|fuldført		jeg fuldfører|jeg 
 at suge	to suck		2	suger|sugede|suget		jeg suger|jeg sugede|jeg har suget	I suck|I sucked|I have sucked	v
 at fødes	to be born		4	fødes|fødtes|fødtes		jeg fødes|jeg fødtes|jeg har fødtes	I am born|I was born|I have been born	v
 at give afkald på	to give up / renounce		4	giver afkald på|gav afkald på|givet afkald på		jeg giver afkald på|jeg gav afkald på|jeg har givet afkald på	I give up / renounce|I gave up / renounced|I have given up / renounced	v
-at hele	to heal		3	heler|helede|helet		jeg heler|jeg helede|jeg har helet	I heal|I healed|I have healed	v
+at hele	to heal	BH	3	heler|helede|helet		jeg heler|jeg helede|jeg har helet	I heal|I healed|I have healed	v
 at opdrage	to raise (a child)		3	opdrager|opdrog|opdraget		jeg opdrager|jeg opdrog|jeg har opdraget	I raise (a child)|I raised (a child)|I have raised (a child)	v
 at larme	to make noise		2	larmer|larmede|larmet		jeg larmer|jeg larmede|jeg har larmet	I make noise|I made noise|I have made noise	v
 at oplyse	to inform / light up		3	oplyser|oplyste|oplyst		jeg oplyser|jeg oplyste|jeg har oplyst	I inform / light up|I informed / lit up|I have informed / lit up	v
@@ -1900,7 +1929,7 @@ at belyse	to shed light on		4	belyser|belyste|belyst		jeg belyser|jeg belyste|je
 at berøre	to touch / affect		3	berører|berørte|berørt		jeg berører|jeg berørte|jeg har berørt	I touch / affect|I touched / affected|I have touched / affected	v
 at beskæftige sig med	to deal with / work with		3	beskæftiger sig med|beskæftigede sig med|beskæftiget sig med		jeg beskæftiger mig med|jeg beskæftigede mig med|jeg har beskæftiget mig med	I deal with / work with|I dealt with / worked with|I have dealt with / worked with	v
 at bestemme sig	to make up one's mind		2	bestemmer sig|bestemte sig|bestemt sig		jeg bestemmer mig|jeg bestemte mig|jeg har bestemt mig	I make up my mind|I made up my mind|I have made up my mind	v
-at betale sig	to pay off (be worth it)		3	betaler sig|betalte sig|betalt sig		det betaler sig|det betalte sig|det har betalt sig	it pays off (be worth it)|it paid off (be worth it)|it has paid off (be worth it)	v
+at betale sig	to pay off (be worth it)	MB	3	betaler sig|betalte sig|betalt sig		det betaler sig|det betalte sig|det har betalt sig	it pays off (be worth it)|it paid off (be worth it)|it has paid off (be worth it)	v
 at bevise	to prove		3	beviser|beviste|bevist		jeg beviser|jeg beviste|jeg har bevist	I prove|I proved|I have proven	v
 at blande sig	to interfere		2	blander sig|blandede sig|blandet sig		jeg blander mig|jeg blandede mig|jeg har blandet mig	I interfere|I interfered|I have interfered	v
 at bygge om	to rebuild / convert		2	bygger om|byggede om|bygget om		jeg bygger om|jeg byggede om|jeg har bygget om	I rebuild / convert|I rebuilt / converted|I have rebuilt / converted	v
@@ -2063,13 +2092,13 @@ at tænke over	to think about		2	tænker over|tænkte over|tænkt over		jeg tæn
 at tænke på	to think of		1	tænker på|tænkte på|tænkt på		jeg tænker på|jeg tænkte på|jeg har tænkt på	I think of|I thought of|I have thought of	v
 at udarbejde	to prepare / draw up		4	udarbejder|udarbejdede|udarbejdet		jeg udarbejder|jeg udarbejdede|jeg har udarbejdet	I prepare / draw up|I prepared / drew up|I have prepared / drawn up	v
 at udbrede	to spread		4	udbreder|udbredte|udbredt		jeg udbreder|jeg udbredte|jeg har udbredt	I spread|I spread|I have spread	v
-at uddanne	to educate / train		3	uddanner|uddannede|uddannet		jeg uddanner|jeg uddannede|jeg har uddannet	I educate / train|I educated / trained|I have educated / trained	v
+at uddanne	to educate / train	SL	3	uddanner|uddannede|uddannet		jeg uddanner|jeg uddannede|jeg har uddannet	I educate / train|I educated / trained|I have educated / trained	v
 at uddele	to hand out		3	uddeler|uddelte|uddelt		jeg uddeler|jeg uddelte|jeg har uddelt	I hand out|I handed out|I have handed out	v
 at udgøre	to constitute		3	udgør|udgjorde|udgjort		jeg udgør|jeg udgjorde|jeg har udgjort	I constitute|I constituted|I have constituted	v
 at udløse	to trigger		3	udløser|udløste|udløst		jeg udløser|jeg udløste|jeg har udløst	I trigger|I triggered|I have triggered	v
 at udnævne	to appoint		4	udnævner|udnævnte|udnævnt		jeg udnævner|jeg udnævnte|jeg har udnævnt	I appoint|I appointed|I have appointed	v
 at udskifte	to replace		3	udskifter|udskiftede|udskiftet		jeg udskifter|jeg udskiftede|jeg har udskiftet	I replace|I replaced|I have replaced	v
-at udtale	to pronounce		2	udtaler|udtalte|udtalt		jeg udtaler|jeg udtalte|jeg har udtalt	I pronounce|I pronounced|I have pronounced	v
+at udtale	to pronounce	SL	2	udtaler|udtalte|udtalt		jeg udtaler|jeg udtalte|jeg har udtalt	I pronounce|I pronounced|I have pronounced	v
 at udvikle sig	to develop		3	udvikler sig|udviklede sig|udviklet sig		jeg udvikler mig|jeg udviklede mig|jeg har udviklet mig	I develop|I developed|I have developed	v
 at undervurdere	to underestimate		3	undervurderer|undervurderede|undervurderet		jeg undervurderer|jeg undervurderede|jeg har undervurderet	I underestimate|I underestimated|I have underestimated	v
 at vedligeholde	to maintain		3	vedligeholder|vedligeholdt|vedligeholdt		jeg vedligeholder|jeg vedligeholdt|jeg har vedligeholdt	I maintain|I maintained|I have maintained	v
@@ -2098,8 +2127,8 @@ at nusse	to cuddle / stroke		4	nusser|nussede|nusset		jeg nusser|jeg nussede|jeg
 at pudse	to polish		4	pudser|pudsede|pudset		jeg pudser|jeg pudsede|jeg har pudset	I polish|I polished|I have polished	v
 at puste	to blow / puff		2	puster|pustede|pustet		jeg puster|jeg pustede|jeg har pustet	I blow / puff|I blew / puffed|I have blown / puffed	v
 at rive i stykker	to tear to pieces		2	river i stykker|rev i stykker|revet i stykker		jeg river i stykker|jeg rev i stykker|jeg har revet i stykker	I tear to pieces|I tore to pieces|I have torn to pieces	v
-at sige farvel	to say goodbye		1	siger farvel|sagde farvel|sagt farvel		jeg siger farvel|jeg sagde farvel|jeg har sagt farvel	I say goodbye|I said goodbye|I have said goodbye	v
-at sige goddag	to say hello		1	siger goddag|sagde goddag|sagt goddag		jeg siger goddag|jeg sagde goddag|jeg har sagt goddag	I say hello|I said hello|I have said hello	v
+at sige farvel	to say goodbye	GR	1	siger farvel|sagde farvel|sagt farvel		jeg siger farvel|jeg sagde farvel|jeg har sagt farvel	I say goodbye|I said goodbye|I have said goodbye	v
+at sige goddag	to say hello	GR	1	siger goddag|sagde goddag|sagt goddag		jeg siger goddag|jeg sagde goddag|jeg har sagt goddag	I say hello|I said hello|I have said hello	v
 at skrabe	to scrape		3	skraber|skrabede|skrabet		jeg skraber|jeg skrabede|jeg har skrabet	I scrape|I scraped|I have scraped	v
 at skrubbe	to scrub		3	skrubber|skrubbede|skrubbet		jeg skrubber|jeg skrubbede|jeg har skrubbet	I scrub|I scrubed|I have scrubed	v
 at snorke	to snore		2	snorker|snorkede|snorket		jeg snorker|jeg snorkede|jeg har snorket	I snore|I snored|I have snored	v
@@ -2129,8 +2158,8 @@ at bekende	to confess		4	bekender|bekendte|bekendt		jeg bekender|jeg bekendte|je
 at belaste	to burden / strain		3	belaster|belastede|belastet		jeg belaster|jeg belastede|jeg har belastet	I burden / strain|I burdened / strained|I have burdened / strained	v
 at belønne	to reward		3	belønner|belønnede|belønnet		jeg belønner|jeg belønnede|jeg har belønnet	I reward|I rewarded|I have rewarded	v
 at berette	to report / tell		4	beretter|berettede|berettet		jeg beretter|jeg berettede|jeg har berettet	I report / tell|I reported / told|I have reported / told	v
-at beskatte	to tax		4	beskatter|beskattede|beskattet		jeg beskatter|jeg beskattede|jeg har beskattet	I tax|I taxed|I have taxed	v
-at beslaglægge	to confiscate		4	beslaglægger|beslaglagde|beslaglagt		jeg beslaglægger|jeg beslaglagde|jeg har beslaglagt	I confiscate|I confiscated|I have confiscated	v
+at beskatte	to tax	MB	4	beskatter|beskattede|beskattet		jeg beskatter|jeg beskattede|jeg har beskattet	I tax|I taxed|I have taxed	v
+at beslaglægge	to confiscate	SP	4	beslaglægger|beslaglagde|beslaglagt		jeg beslaglægger|jeg beslaglagde|jeg har beslaglagt	I confiscate|I confiscated|I have confiscated	v
 at bestige	to climb (a mountain)		3	bestiger|besteg|besteget		jeg bestiger|jeg besteg|jeg har besteget	I climb (a mountain)|I climbed (a mountain)|I have climbed (a mountain)	v
 at betjene	to serve / operate		3	betjener|betjente|betjent		jeg betjener|jeg betjente|jeg har betjent	I serve / operate|I served / operated|I have served / operated	v
 at betvivle	to question / doubt		4	betvivler|betvivlede|betvivlet		jeg betvivler|jeg betvivlede|jeg har betvivlet	I question / doubt|I questioned / doubted|I have questioned / doubted	v
@@ -2155,13 +2184,13 @@ at dyppe	to dip		3	dypper|dyppede|dyppet		jeg dypper|jeg dyppede|jeg har dyppet	
 at efterligne	to imitate		3	efterligner|efterlignede|efterlignet		jeg efterligner|jeg efterlignede|jeg har efterlignet	I imitate|I imitated|I have imitated	v
 at efterlyse	to call for / search for		3	efterlyser|efterlyste|efterlyst		jeg efterlyser|jeg efterlyste|jeg har efterlyst	I call for / search for|I called for / searched for|I have called for / searched for	v
 at eksperimentere	to experiment		3	eksperimenterer|eksperimenterede|eksperimenteret		jeg eksperimenterer|jeg eksperimenterede|jeg har eksperimenteret	I experiment|I experimented|I have experimented	v
-at eksportere	to export		3	eksporterer|eksporterede|eksporteret		jeg eksporterer|jeg eksporterede|jeg har eksporteret	I export|I exported|I have exported	v
-at importere	to import		3	importerer|importerede|importeret		jeg importerer|jeg importerede|jeg har importeret	I import|I imported|I have imported	v
+at eksportere	to export	MB	3	eksporterer|eksporterede|eksporteret		jeg eksporterer|jeg eksporterede|jeg har eksporteret	I export|I exported|I have exported	v
+at importere	to import	MB	3	importerer|importerede|importeret		jeg importerer|jeg importerede|jeg har importeret	I import|I imported|I have imported	v
 at etablere	to establish		3	etablerer|etablerede|etableret		jeg etablerer|jeg etablerede|jeg har etableret	I establish|I established|I have established	v
 at falde over	to trip over / come across		2	falder over|faldt over|faldet over		jeg falder over|jeg faldt over|jeg er faldet over	I trip over / come across|I tripped over / came across|I have tripped over / come across	v
 at fare	to rush		3	farer|for|faret		jeg farer|jeg for|jeg er faret	I rush|I rushed|I have rushed	v
-at farve	to color / dye		2	farver|farvede|farvet		jeg farver|jeg farvede|jeg har farvet	I color / dye|I colored / dyed|I have colored / dyed	v
-at finansiere	to finance		3	finansierer|finansierede|finansieret		jeg finansierer|jeg finansierede|jeg har finansieret	I finance|I financed|I have financed	v
+at farve	to color / dye	CO	2	farver|farvede|farvet		jeg farver|jeg farvede|jeg har farvet	I color / dye|I colored / dyed|I have colored / dyed	v
+at finansiere	to finance	MB	3	finansierer|finansierede|finansieret		jeg finansierer|jeg finansierede|jeg har finansieret	I finance|I financed|I have financed	v
 at flirte	to flirt		2	flirter|flirtede|flirtet		jeg flirter|jeg flirtede|jeg har flirtet	I flirt|I flirted|I have flirted	v
 at flække	to split		4	flækker|flækkede|flækket		jeg flækker|jeg flækkede|jeg har flækket	I split|I split|I have split	v
 at forfalde	to fall due / decay		4	forfalder|forfaldt|forfaldet		det forfalder|det forfaldt|det har forfaldet	it falls due / decay|it fell due / decayed|it has fallen due / decayed	v
@@ -2224,7 +2253,7 @@ at kildre	to tickle		2	kildrer|kildrede|kildret		jeg kildrer|jeg kildrede|jeg ha
 at klippe	to cut (with scissors)		2	klipper|klippede|klippet		jeg klipper|jeg klippede|jeg har klippet	I cut (with scissors)|I cut (with scissors)|I have cut (with scissors)	v
 at klynge sig	to cling		4	klynger sig|klyngede sig|klynget sig		jeg klynger mig|jeg klyngede mig|jeg har klynget mig	I cling|I clung|I have clung	v
 at knytte	to tie / connect		3	knytter|knyttede|knyttet		jeg knytter|jeg knyttede|jeg har knyttet	I tie / connect|I tied / connected|I have tied / connected	v
-at koge over	to boil over		3	koger over|kogte over|kogt over		det koger over|det kogte over|det har kogt over	it boils over|it boiled over|it has boiled over	v
+at koge over	to boil over	FD	3	koger over|kogte over|kogt over		det koger over|det kogte over|det har kogt over	it boils over|it boiled over|it has boiled over	v
 at kollidere	to collide		3	kolliderer|kolliderede|kollideret		jeg kolliderer|jeg kolliderede|jeg har kollideret	I collide|I collided|I have collided	v
 at komme ind	to come in		1	kommer ind|kom ind|kommet ind		jeg kommer ind|jeg kom ind|jeg er kommet ind	I come in|I came in|I have come in	v
 at komme ud	to come out / get out		1	kommer ud|kom ud|kommet ud		jeg kommer ud|jeg kom ud|jeg er kommet ud	I come out / get out|I came out / got out|I have come out / gotten out	v
@@ -2237,7 +2266,7 @@ at korrigere	to correct		3	korrigerer|korrigerede|korrigeret		jeg korrigerer|jeg
 at krybe	to creep / crawl		3	kryber|krøb|krøbet		jeg kryber|jeg krøb|jeg har krøbet	I creep / crawl|I crept / crawled|I have crept / crawled	v
 at kvittere	to acknowledge / sign for		4	kvitterer|kvitterede|kvitteret		jeg kvitterer|jeg kvitterede|jeg har kvitteret	I acknowledge / sign for|I acknowledged / signed for|I have acknowledged / signed for	v
 at kæle	to cuddle / pet		3	kæler|kælede|kælet		jeg kæler|jeg kælede|jeg har kælet	I cuddle / pet|I cuddled / petted|I have cuddled / petted	v
-at legalisere	to legalize		4	legaliserer|legaliserede|legaliseret		jeg legaliserer|jeg legaliserede|jeg har legaliseret	I legalize|I legalized|I have legalized	v
+at legalisere	to legalize	SP	4	legaliserer|legaliserede|legaliseret		jeg legaliserer|jeg legaliserede|jeg har legaliseret	I legalize|I legalized|I have legalized	v
 at lindre	to relieve		4	lindrer|lindrede|lindret		jeg lindrer|jeg lindrede|jeg har lindret	I relieve|I relieved|I have relieved	v
 at lokalisere	to locate		4	lokaliserer|lokaliserede|lokaliseret		jeg lokaliserer|jeg lokaliserede|jeg har lokaliseret	I locate|I located|I have located	v
 at lyse op	to light up		2	lyser op|lyste op|lyst op		jeg lyser op|jeg lyste op|jeg har lyst op	I light up|I lit up|I have lit up	v
@@ -2334,7 +2363,7 @@ at trodse	to defy		4	trodser|trodsede|trodset		jeg trodser|jeg trodsede|jeg har 
 at træde tilbage	to step down / resign		3	træder tilbage|trådte tilbage|trådt tilbage		jeg træder tilbage|jeg trådte tilbage|jeg har trådt tilbage	I step down / resign|I stepped down / resigned|I have stepped down / resigned	v
 at træffe en beslutning	to make a decision		3	træffer en beslutning|traf en beslutning|truffet en beslutning		jeg træffer en beslutning|jeg traf en beslutning|jeg har truffet en beslutning	I make a decision|I made a decision|I have made a decision	v
 at tyde	to interpret		4	tyder|tydede|tydet		jeg tyder|jeg tydede|jeg har tydet	I interpret|I interpreted|I have interpreted	v
-at udbetale	to pay out		3	udbetaler|udbetalte|udbetalt		jeg udbetaler|jeg udbetalte|jeg har udbetalt	I pay out|I paid out|I have paid out	v
+at udbetale	to pay out	MB	3	udbetaler|udbetalte|udbetalt		jeg udbetaler|jeg udbetalte|jeg har udbetalt	I pay out|I paid out|I have paid out	v
 at udelade	to leave out		4	udelader|udelod|udeladt		jeg udelader|jeg udelod|jeg har udeladt	I leave out|I left out|I have left out	v
 at udgå	to be dropped / originate		4	udgår|udgik|udgået		jeg udgår|jeg udgik|jeg har udgået	I am dropped / originate|I was dropped / originated|I have been dropped / originated	v
 at udløbe	to expire		3	udløber|udløb|udløbet		det udløber|det udløb|det har udløbet	it expires|it expired|it has expired	v
@@ -2347,7 +2376,7 @@ at variere	to vary		3	varierer|varierede|varieret		jeg varierer|jeg varierede|je
 at vaske sig	to wash (oneself)		2	vasker sig|vaskede sig|vasket sig		jeg vasker mig|jeg vaskede mig|jeg har vasket mig	I wash (oneself)|I washed (oneself)|I have washed (oneself)	v
 at vedkende sig	to acknowledge		4	vedkender sig|vedkendte sig|vedkendt sig		jeg vedkender mig|jeg vedkendte mig|jeg har vedkendt mig	I acknowledge|I acknowledged|I have acknowledged	v
 at vedrøre	to concern		4	vedrører|vedrørte|vedrørt		det vedrører|det vedrørte|det har vedrørt	it concerns|it concerned|it has concerned	v
-at veksle	to exchange (money)		3	veksler|vekslede|vekslet		jeg veksler|jeg vekslede|jeg har vekslet	I exchange (money)|I exchanged (money)|I have exchanged (money)	v
+at veksle	to exchange (money)	MB	3	veksler|vekslede|vekslet		jeg veksler|jeg vekslede|jeg har vekslet	I exchange (money)|I exchanged (money)|I have exchanged (money)	v
 at verificere	to verify		4	verificerer|verificerede|verificeret		jeg verificerer|jeg verificerede|jeg har verificeret	I verify|I verified|I have verified	v
 at værne om	to protect / safeguard		4	værner om|værnede om|værnet om		jeg værner om|jeg værnede om|jeg har værnet om	I protect / safeguard|I protected / safeguarded|I have protected / safeguarded	v
 at yde	to provide / perform		3	yder|ydede|ydet		jeg yder|jeg ydede|jeg har ydet	I provide / perform|I provided / performed|I have provided / performed	v
@@ -2412,7 +2441,7 @@ at holde sig i form	to stay in shape		2	holder sig i form|holdt sig i form|holdt
 at holde op med	to stop doing		2	holder op med|holdt op med|holdt op med		jeg holder op med|jeg holdt op med|jeg har holdt op med	I stop doing|I stopped doing|I have stopped doing	v
 at lægge planer	to make plans		2	lægger planer|lagde planer|lagt planer		jeg lægger planer|jeg lagde planer|jeg har lagt planer	I make plans|I made plans|I have made plans	v
 at lave sjov	to joke around		2	laver sjov|lavede sjov|lavet sjov		jeg laver sjov|jeg lavede sjov|jeg har lavet sjov	I joke around|I joked around|I have joked around	v
-at lave lektier	to do homework		1	laver lektier|lavede lektier|lavet lektier		jeg laver lektier|jeg lavede lektier|jeg har lavet lektier	I do homework|I did homework|I have done homework	v
+at lave lektier	to do homework	SL	1	laver lektier|lavede lektier|lavet lektier		jeg laver lektier|jeg lavede lektier|jeg har lavet lektier	I do homework|I did homework|I have done homework	v
 at lave om	to change / redo		2	laver om|lavede om|lavet om		jeg laver om|jeg lavede om|jeg har lavet om	I change / redo|I changed / redid|I have changed / redone	v
 at lave en fejl	to make a mistake		2	laver en fejl|lavede en fejl|lavet en fejl		jeg laver en fejl|jeg lavede en fejl|jeg har lavet en fejl	I make a mistake|I made a mistake|I have made a mistake	v
 at gøre klar	to get ready		2	gør klar|gjorde klar|gjort klar		jeg gør klar|jeg gjorde klar|jeg har gjort klar	I get ready|I got ready|I have gotten ready	v
@@ -2437,12 +2466,12 @@ at vente på	to wait for		1	venter på|ventede på|ventet på		jeg venter på|je
 at passe til	to go with / suit		2	passer til|passede til|passet til		jeg passer til|jeg passede til|jeg har passet til	I go with / suit|I went with / suited|I have gone with / suited	v
 at passe ind	to fit in		2	passer ind|passede ind|passet ind		jeg passer ind|jeg passede ind|jeg har passet ind	I fit in|I fit in|I have fit in	v
 at ringe til	to call (someone)		1	ringer til|ringede til|ringet til		jeg ringer til|jeg ringede til|jeg har ringet til	I call (someone)|I called (someone)|I have called (someone)	v
-at betale for	to pay for		1	betaler for|betalte for|betalt for		jeg betaler for|jeg betalte for|jeg har betalt for	I pay for|I paid for|I have paid for	v
+at betale for	to pay for	MB	1	betaler for|betalte for|betalt for		jeg betaler for|jeg betalte for|jeg har betalt for	I pay for|I paid for|I have paid for	v
 at spare på	to save on		2	sparer på|sparede på|sparet på		jeg sparer på|jeg sparede på|jeg har sparet på	I save on|I saved on|I have saved on	v
-at stemme på	to vote for		2	stemmer på|stemte på|stemt på		jeg stemmer på|jeg stemte på|jeg har stemt på	I vote for|I voted for|I have voted for	v
+at stemme på	to vote for	SP	2	stemmer på|stemte på|stemt på		jeg stemmer på|jeg stemte på|jeg har stemt på	I vote for|I voted for|I have voted for	v
 at kæmpe for	to fight for		2	kæmper for|kæmpede for|kæmpet for		jeg kæmper for|jeg kæmpede for|jeg har kæmpet for	I fight for|I fought for|I have fought for	v
-at arbejde med	to work with		1	arbejder med|arbejdede med|arbejdet med		jeg arbejder med|jeg arbejdede med|jeg har arbejdet med	I work with|I worked with|I have worked with	v
-at arbejde på	to work on		2	arbejder på|arbejdede på|arbejdet på		jeg arbejder på|jeg arbejdede på|jeg har arbejdet på	I work on|I worked on|I have worked on	v
+at arbejde med	to work with	WJ	1	arbejder med|arbejdede med|arbejdet med		jeg arbejder med|jeg arbejdede med|jeg har arbejdet med	I work with|I worked with|I have worked with	v
+at arbejde på	to work on	WJ	2	arbejder på|arbejdede på|arbejdet på		jeg arbejder på|jeg arbejdede på|jeg har arbejdet på	I work on|I worked on|I have worked on	v
 at interessere	to interest		2	interesserer|interesserede|interesseret		jeg interesserer|jeg interesserede|jeg har interesseret	I interest|I interested|I have interested	v
 at vænne sig af med	to get out of the habit of		3	vænner sig af med|vænnede sig af med|vænnet sig af med		jeg vænner mig af med|jeg vænnede mig af med|jeg har vænnet mig af med	I get out of the habit of|I got out of the habit of|I have gotten out of the habit of	v
 at melde afbud	to cancel (not attend)		2	melder afbud|meldte afbud|meldt afbud		jeg melder afbud|jeg meldte afbud|jeg har meldt afbud	I cancel (not attend)|I canceled (not attend)|I have canceled (not attend)	v
@@ -2466,7 +2495,7 @@ at være træt af	to be tired of		2	er træt af|var træt af|været træt af		je
 at være i tvivl	to be in doubt		2	er i tvivl|var i tvivl|været i tvivl		jeg er i tvivl|jeg var i tvivl|jeg har været i tvivl	I am in doubt|I was in doubt|I have been in doubt	v
 at være på vej	to be on one's way		2	er på vej|var på vej|været på vej		jeg er på vej|jeg var på vej|jeg har været på vej	I am on my way|I was on my way|I have been on my way	v
 at være væk	to be gone		1	er væk|var væk|været væk		jeg er væk|jeg var væk|jeg har været væk	I am gone|I was gone|I have been gone	v
-at være syg	to be sick		1	er syg|var syg|været syg		jeg er syg|jeg var syg|jeg har været syg	I am sick|I was sick|I have been sick	v
+at være syg	to be sick	BH	1	er syg|var syg|været syg		jeg er syg|jeg var syg|jeg har været syg	I am sick|I was sick|I have been sick	v
 at have det sjovt	to have fun		1	har det sjovt|havde det sjovt|haft det sjovt		jeg har det sjovt|jeg havde det sjovt|jeg har haft det sjovt	I have fun|I had fun|I have had fun	v
 at have mulighed for	to have the opportunity to		2	har mulighed for|havde mulighed for|haft mulighed for		jeg har mulighed for|jeg havde mulighed for|jeg har haft mulighed for	I have the opportunity to|I had the opportunity to|I have had the opportunity to	v
 at have tid til	to have time for		2	har tid til|havde tid til|haft tid til		jeg har tid til|jeg havde tid til|jeg har haft tid til	I have time for|I had time for|I have had time for	v
@@ -2496,7 +2525,7 @@ at berige	to enrich		4	beriger|berigede|beriget		jeg beriger|jeg berigede|jeg ha
 at beskadige	to damage		3	beskadiger|beskadigede|beskadiget		jeg beskadiger|jeg beskadigede|jeg har beskadiget	I damage|I damaged|I have damaged	v
 at beslutte sig	to decide		2	beslutter sig|besluttede sig|besluttet sig		jeg beslutter mig|jeg besluttede mig|jeg har besluttet mig	I decide|I decided|I have decided	v
 at bestræbe sig	to strive		4	bestræber sig|bestræbte sig|bestræbt sig		jeg bestræber mig|jeg bestræbte mig|jeg har bestræbt mig	I strive|I strove|I have striven	v
-at betale tilbage	to pay back		2	betaler tilbage|betalte tilbage|betalt tilbage		jeg betaler tilbage|jeg betalte tilbage|jeg har betalt tilbage	I pay back|I paid back|I have paid back	v
+at betale tilbage	to pay back	MB	2	betaler tilbage|betalte tilbage|betalt tilbage		jeg betaler tilbage|jeg betalte tilbage|jeg har betalt tilbage	I pay back|I paid back|I have paid back	v
 at betegne	to denote / describe		4	betegner|betegnede|betegnet		jeg betegner|jeg betegnede|jeg har betegnet	I denote / describe|I denoted / described|I have denoted / described	v
 at bevæge	to move		2	bevæger|bevægede|bevæget		jeg bevæger|jeg bevægede|jeg har bevæget	I move|I moved|I have moved	v
 at bistå	to assist		4	bistår|bistod|bistået		jeg bistår|jeg bistod|jeg har bistået	I assist|I assisted|I have assisted	v
@@ -2551,7 +2580,7 @@ at kortlægge	to map		4	kortlægger|kortlagde|kortlagt		jeg kortlægger|jeg kort
 at kvalificere	to qualify		3	kvalificerer|kvalificerede|kvalificeret		jeg kvalificerer|jeg kvalificerede|jeg har kvalificeret	I qualify|I qualified|I have qualified	v
 at legitimere	to legitimize / show ID		4	legitimerer|legitimerede|legitimeret		jeg legitimerer|jeg legitimerede|jeg har legitimeret	I legitimize / show ID|I legitimized / showed ID|I have legitimized / shown ID	v
 at lempe	to ease / relax (rules)		4	lemper|lempede|lempet		jeg lemper|jeg lempede|jeg har lempet	I ease / relax (rules)|I eased / relaxed (rules)|I have eased / relaxed (rules)	v
-at lovgive	to legislate		4	lovgiver|lovgav|lovgivet		jeg lovgiver|jeg lovgav|jeg har lovgivet	I legislate|I legislated|I have legislated	v
+at lovgive	to legislate	SP	4	lovgiver|lovgav|lovgivet		jeg lovgiver|jeg lovgav|jeg har lovgivet	I legislate|I legislated|I have legislated	v
 at modbevise	to disprove		4	modbeviser|modbeviste|modbevist		jeg modbeviser|jeg modbeviste|jeg har modbevist	I disprove|I disproved|I have disproved	v
 at modvirke	to counteract		4	modvirker|modvirkede|modvirket		jeg modvirker|jeg modvirkede|jeg har modvirket	I counteract|I counteracted|I have counteracted	v
 at nedbryde	to break down		4	nedbryder|nedbrød|nedbrudt		jeg nedbryder|jeg nedbrød|jeg har nedbrudt	I break down|I broke down|I have broken down	v
@@ -2589,7 +2618,7 @@ at tilbagekalde	to recall / revoke		4	tilbagekalder|tilbagekaldte|tilbagekaldt		
 at tilbagevise	to refute		4	tilbageviser|tilbageviste|tilbagevist		jeg tilbageviser|jeg tilbageviste|jeg har tilbagevist	I refute|I refuted|I have refuted	v
 at tilskynde	to encourage		4	tilskynder|tilskyndede|tilskyndet		jeg tilskynder|jeg tilskyndede|jeg har tilskyndet	I encourage|I encouraged|I have encouraged	v
 at tilsidesætte	to disregard / override		4	tilsidesætter|tilsidesatte|tilsidesat		jeg tilsidesætter|jeg tilsidesatte|jeg har tilsidesat	I disregard / override|I disregarded / overrode|I have disregarded / overridden	v
-at transportere	to transport		3	transporterer|transporterede|transporteret		jeg transporterer|jeg transporterede|jeg har transporteret	I transport|I transported|I have transported	v
+at transportere	to transport	TT	3	transporterer|transporterede|transporteret		jeg transporterer|jeg transporterede|jeg har transporteret	I transport|I transported|I have transported	v
 at tvivle på	to doubt		2	tvivler på|tvivlede på|tvivlet på		jeg tvivler på|jeg tvivlede på|jeg har tvivlet på	I doubt|I doubted|I have doubted	v
 at udbygge	to expand / extend		4	udbygger|udbyggede|udbygget		jeg udbygger|jeg udbyggede|jeg har udbygget	I expand / extend|I expanded / extended|I have expanded / extended	v
 at udfase	to phase out		4	udfaser|udfasede|udfaset		jeg udfaser|jeg udfasede|jeg har udfaset	I phase out|I phased out|I have phased out	v
@@ -2757,10 +2786,10 @@ en begynder	a beginner	WJ	2					n
 en veteran	a veteran	WJ	3					n
 en repræsentant	a representative	SP	3					n
 en talsperson	a spokesperson	SP	4					n
-en deltager	a participant	FS	3					n
+en deltager	a participant	PF	3					n
 en tilhænger	a supporter	SP	3					n
 en kritiker	a critic	SP	3					n
-en beundrer	an admirer	FS	3					n
+en beundrer	an admirer	PF	3					n
 en autoritet	an authority	SP	3					n
 en myndighed	an authority/agency	SP	3					n
 en embedsmand	a civil servant	SP	4					n
@@ -2860,7 +2889,7 @@ et knep	a trick		4					n
 en titel	a title		3					n
 en mine	a mine / facial expression		3					n
 en bagside	a back / downside		3					n
-vedkommende	the person concerned	PF	4					n
+vedkommende	the person concerned		4					p
 en blanding	a mixture		3					n
 et udbrud	an outbreak / outburst		3					n
 en hændelse	an incident	IO	3					n
@@ -3008,7 +3037,7 @@ en byggeplads	a construction site	TS	3					n
 en kran	a crane	TS	4					n
 et stillads	a scaffolding	TS	4					n
 en gravko	an excavator	TS	4					n
-en alarmklokke	an alarm bell	SP	4					n
+en alarmklokke	an alarm bell	HH	4					n
 stor	big		1					a
 lille	small		1					a
 lang	long		1					a
@@ -3043,33 +3072,33 @@ grim	ugly		1					a
 pæn	nice / neat		1					a
 sød	sweet / cute		1					a
 sur	sour / grumpy		1					a
-bitter	bitter		2					a
-rig	rich		1					a
-fattig	poor		1					a
-dyr	expensive		1					a
-billig	cheap		1					a
+bitter	bitter	FD	2					a
+rig	rich	MB	1					a
+fattig	poor	MB	1					a
+dyr	expensive	MB	1					a
+billig	cheap	MB	1					a
 fri	free		1					a
 optaget	busy / occupied		1					a
-træt	tired		1					a
-vågen	awake		2					a
-sulten	hungry		1					a
-tørstig	thirsty		1					a
-mæt	full / satisfied		1					a
-syg	sick		1					a
-rask	healthy / recovered		2					a
+træt	tired	BH	1					a
+vågen	awake	BH	2					a
+sulten	hungry	FD	1					a
+tørstig	thirsty	FD	1					a
+mæt	full / satisfied	FD	1					a
+syg	sick	BH	1					a
+rask	healthy / recovered	BH	2					a
 stærk	strong		1					a
 svag	weak		2					a
-glad	happy		1					a
-ked af det	sad		2					a
-vred	angry		1					a
-bange	afraid		1					a
-nervøs	nervous		2					a
-rolig	calm		1					a
+glad	happy	FP	1					a
+ked af det	sad	FP	2					f
+vred	angry	FP	1					a
+bange	afraid	FP	1					a
+nervøs	nervous	FP	2					a
+rolig	calm	FP	1					a
 stille	quiet		1					a
 højlydt	loud		2					a
-venlig	kind / friendly		1					a
-uhøflig	rude		2					a
-ærlig	honest		2					a
+venlig	kind / friendly	FP	1					a
+uhøflig	rude	FP	2					a
+ærlig	honest	FP	2					a
 utrolig	unbelievable		2					a
 sikker	sure / safe		1					a
 usikker	unsure		2					a
@@ -3150,11 +3179,11 @@ permanent	permanent		3					a
 konstant	constant		2					a
 stabil	stable		3					a
 ustabil	unstable		3					a
-tålmodig	patient		2					a
-utålmodig	impatient		3					a
-uærlig	dishonest		3					a
-mistænksom	suspicious		3					a
-naiv	naive		3					a
+tålmodig	patient	FP	2					a
+utålmodig	impatient	FP	3					a
+uærlig	dishonest	FP	3					a
+mistænksom	suspicious	FP	3					a
+naiv	naive	FP	3					a
 fordomsfri	unbiased		4					a
 fordomsfuld	prejudiced		4					a
 solid	solid		3					a
@@ -3186,7 +3215,7 @@ død	dead		1					a
 egen	own		1					a
 dum	stupid		1					a
 rar	nice / kind		2					a
-tidlig	early		2					a
+tidlig	early	TC	2					a
 værre	worse		2					a
 værd	worth		2					a
 kær	dear		2					a
@@ -3203,7 +3232,7 @@ forskellig	different		2					a
 enig	in agreement		2					a
 interesseret	interested		2					a
 særlig	special / particular		2					a
-såret	hurt / wounded		2					a
+såret	hurt / wounded	BH	2					a
 parat	ready		2					a
 dygtig	skilled / capable		2					a
 smart	smart		2					a
@@ -3213,14 +3242,14 @@ sindssyg	insane		3					a
 sej	tough / cool		2					a
 frisk	fresh		1					a
 korrekt	correct		2					a
-skyldig	guilty		2					a
-uskyldig	innocent		2					a
+skyldig	guilty	SP	2					a
+uskyldig	innocent	SP	2					a
 lokal	local		2					a
 privat	private		2					a
 tosset	silly / crazy		2					a
-tilfreds	satisfied / content		2					a
+tilfreds	satisfied / content	FP	2					a
 involveret	involved		2					a
-forvirret	confused		2					a
+forvirret	confused	FP	2					a
 blind	blind		2					a
 fælles	common / shared		2					a
 sexet	sexy		2					a
@@ -3234,8 +3263,8 @@ ligegyldig	indifferent / unimportant		2					a
 teknisk	technical		2					a
 hemmelig	secret		2					a
 frygtelig	terrible		2					a
-romantisk	romantic		2					a
-flink	kind / nice		2					a
+romantisk	romantic	FP	2					a
+flink	kind / nice	FP	2					a
 villig	willing		2					a
 indre	inner		3					a
 mistænkt	suspected		3					a
@@ -3251,8 +3280,8 @@ udsat	exposed / postponed		3					a
 menneskelig	human		3					a
 fjollet	silly		3					a
 elendig	miserable / terrible		3					a
-bevæbnet	armed		3					a
-kriminel	criminal		3					a
+bevæbnet	armed	SP	3					a
+kriminel	criminal	SP	3					a
 sædvanlig	usual		3					a
 ordentlig	proper / decent		3					a
 modsat	opposite		3					a
@@ -3281,7 +3310,7 @@ fascinerende	fascinating		3					a
 enorm	enormous		3					a
 enestående	unique / outstanding		3					a
 kvik	quick / bright		3					a
-ædru	sober		3					a
+ædru	sober	BH	3					a
 komplet	complete		3					a
 evig	eternal		3					a
 flad	flat		2					a
@@ -3305,7 +3334,7 @@ usynlig	invisible		3					a
 retfærdig	fair / just		3					a
 positiv	positive		2					a
 sandsynlig	probable / likely		3					a
-gylden	golden		3					a
+gylden	golden	CO	3					a
 uventet	unexpected		2					a
 indviklet	complicated		3					a
 voldsom	violent / intense		3					a
@@ -3330,7 +3359,7 @@ omgivet	surrounded		3					a
 bevidst	conscious / deliberate		3					a
 forrige	previous / last		2					a
 behagelig	comfortable / pleasant		2					a
-forgiftet	poisoned		3					a
+forgiftet	poisoned	BH	3					a
 absurd	absurd		3					a
 adskilt	separated		3					a
 skarp	sharp		2					a
@@ -3353,7 +3382,7 @@ misforstået	misunderstood		3					a
 forbløffende	astonishing		3					a
 avanceret	advanced		3					a
 magtfuld	powerful		3					a
-fremtidig	future		4					a
+fremtidig	future	TC	4					a
 indlysende	obvious		3					a
 isoleret	isolated		3					a
 vanskelig	difficult		3					a
@@ -3378,7 +3407,7 @@ forståelig	understandable		3					a
 stinkende	stinking		3					a
 ultimativ	ultimate		4					a
 øjeblikkelig	immediate		3					a
-ubevæbnet	unarmed		3					a
+ubevæbnet	unarmed	SP	3					a
 snu	cunning		4					a
 suspenderet	suspended		4					a
 sløret	blurred / veiled		4					a
@@ -3387,12 +3416,12 @@ fuldkommen	perfect / completely		3					a
 omfattende	extensive		3					a
 fortrolig	confidential / familiar		3					a
 pudsig	funny / odd		4					a
-daglig	daily		2					a
+daglig	daily	TC	2					a
 dødbringende	deadly		4					a
 tåbelig	foolish		4					a
 reserveret	reserved		3					a
 dyrebar	precious		3					a
-beruset	drunk / intoxicated		3					a
+beruset	drunk / intoxicated	BH	3					a
 anonym	anonymous		3					a
 ædel	noble		4					a
 fredelig	peaceful		3					a
@@ -3430,7 +3459,7 @@ dynamisk	dynamic		3					a
 eksisterende	existing		3					a
 enkelt	single / simple		2					a
 ens	identical / alike		2					a
-entusiastisk	enthusiastic		3					a
+entusiastisk	enthusiastic	FP	3					a
 eventuel	possible / any		3					a
 fast	fixed / firm / permanent		2					a
 fjern	distant / remote		2					a
@@ -3490,12 +3519,12 @@ vellykket	successful		3					a
 væsentlig	essential / significant		3					a
 ekstrem	extreme		3					a
 hjælpeløs	helpless		3					a
-håbefuld	hopeful		3					a
+håbefuld	hopeful	FP	3					a
 kostbar	costly / precious		3					a
 larmende	noisy		3					a
 livlig	lively		3					a
 sjusket	sloppy		3					a
-spiselig	edible		3					a
+spiselig	edible	FD	3					a
 træg	sluggish		4					a
 uforudsigelig	unpredictable		3					a
 uundværlig	indispensable		4					a
@@ -3513,22 +3542,22 @@ sammensat	composite / complex		4					a
 tilfældig	random / accidental		2					a
 tvivlsom	doubtful		3					a
 vedvarende	persistent / renewable		4					a
-vild med	crazy about		2					a
-glad for	fond of / happy with		2					a
-god til	good at		2					a
-dårlig til	bad at		2					a
-vant til	used to		2					a
-bange for	afraid of		2					a
-stolt af	proud of		2					a
-sur på	angry with		2					a
-vred på	angry at		2					a
-jaloux på	jealous of		2					a
-ked af	sorry about		2					a
-tilfreds med	satisfied with		2					a
-færdig med	finished with		2					a
-enig med	in agreement with		2					a
-afhængig af	dependent on		3					a
-opmærksom på	aware of		3					a
+vild med	crazy about	FP	2					f
+glad for	fond of / happy with	FP	2					f
+god til	good at		2					f
+dårlig til	bad at		2					f
+vant til	used to		2					f
+bange for	afraid of	FP	2					f
+stolt af	proud of	FP	2					f
+sur på	angry with	FP	2					f
+vred på	angry at	FP	2					f
+jaloux på	jealous of	FP	2					f
+ked af	sorry about	FP	2					f
+tilfreds med	satisfied with	FP	2					f
+færdig med	finished with		2					f
+enig med	in agreement with		2					f
+afhængig af	dependent on		3					f
+opmærksom på	aware of		3					f
 bedre	better		1					a
 bedst	best		1					a
 dejlig	lovely / nice		1					a
@@ -3536,8 +3565,8 @@ farlig	dangerous		1					a
 fin	fine / nice / fancy		1					a
 hård	hard		1					a
 hyggelig	cozy / nice		1					a
-i stykker	broken		2					a
-interesseret i	interested in		2					a
+i stykker	broken		2					f
+interesseret i	interested in		2					f
 klog	wise / clever		2					a
 længst	longest / the longest time		2					a
 nem	easy		1					a
@@ -3554,7 +3583,7 @@ vanvittig	crazy / insane		2					a
 vild	wild		2					a
 værst	worst		2					a
 yndlings-	favorite ...		2					a
-økologisk	organic		2					a
+økologisk	organic	FD	2					a
 anstrengende	strenuous / tiring		3					a
 anvendelig	applicable / usable		4					a
 begavet	gifted / intelligent		4					a
@@ -3564,14 +3593,14 @@ besværlig	troublesome		3					a
 betænkelig	doubtful / worrying		4					a
 blank	shiny / blank		4					a
 brændende	burning		3					a
-dristig	bold / daring		4					a
+dristig	bold / daring	FP	4					a
 dybtgående	thorough / profound		4					a
 dødkedelig	deadly boring		3					a
 eftertragtet	sought-after		4					a
 ejendommelig	peculiar		4					a
 eksklusiv	exclusive		3					a
 fantasifuld	imaginative		3					a
-festlig	festive		3					a
+festlig	festive	CH	3					a
 fiktiv	fictional		3					a
 fordelagtig	advantageous		4					a
 forgængelig	perishable / transient		4					a
@@ -3582,7 +3611,7 @@ forsømt	neglected		4					a
 forståelsesfuld	understanding		3					a
 fortjent	deserved		2					a
 fremtrædende	prominent		4					a
-frygtløs	fearless		4					a
+frygtløs	fearless	FP	4					a
 fyldestgørende	satisfactory		4					a
 fængslende	captivating		4					a
 gennemført	well done / consistent		4					a
@@ -3592,7 +3621,7 @@ gådefuld	mysterious		4					a
 hektisk	hectic		3					a
 hemmelighedsfuld	secretive		4					a
 hjemlig	homely / domestic		4					a
-hovedsagelig	mainly		4					a
+hovedsagelig	mainly		4					d
 højtidelig	solemn		4					a
 indbydende	inviting		4					a
 indflydelsesrig	influential		4					a
@@ -3602,10 +3631,10 @@ koncentreret	concentrated / focused		3					a
 kortvarig	short-lived		3					a
 langtrukken	long-winded		4					a
 levedygtig	viable		4					a
-lidenskabelig	passionate		4					a
+lidenskabelig	passionate	FP	4					a
 ligeværdig	equal		4					a
-lovpligtig	mandatory by law		4					a
-lydig	obedient		3					a
+lovpligtig	mandatory by law	SP	4					a
+lydig	obedient	FP	3					a
 lysegrøn	light green	CO	2					a
 mørkegrøn	dark green	CO	2					a
 malerisk	picturesque		4					a
@@ -3613,27 +3642,27 @@ mangelfuld	deficient / inadequate		4					a
 modstandsdygtig	resilient		4					a
 nedslående	disheartening		4					a
 nervepirrende	nerve-wracking		4					a
-næringsrig	nutritious		4					a
+næringsrig	nutritious	FD	4					a
 omhyggelig	careful / meticulous		4					a
 omstændelig	elaborate / long-winded		4					a
 opfindsom	inventive		4					a
-oprørsk	rebellious		4					a
+oprørsk	rebellious	FP	4					a
 overdreven	exaggerated		3					a
 overfladisk	superficial		3					a
 overfyldt	overcrowded		3					a
 overlegen	superior		4					a
-overmodig	overconfident		4					a
+overmodig	overconfident	FP	4					a
 overskuelig	manageable / clear		4					a
 paradoksal	paradoxical		4					a
 passiv	passive		3					a
 problemfri	problem-free		4					a
 påfaldende	striking		4					a
 påtrængende	pushy / pressing		4					a
-rastløs	restless		3					a
+rastløs	restless	FP	3					a
 rystende	shocking / shaking		4					a
 sammenhængende	coherent		4					a
 selvmodsigende	contradictory		4					a
-skeptisk	skeptical		3					a
+skeptisk	skeptical	FP	3					a
 skræmmende	frightening		2					a
 skuffende	disappointing		3					a
 smagløs	tasteless		4					a
@@ -3642,7 +3671,7 @@ snavset	dirty		2					a
 spartansk	spartan		4					a
 spinkel	slender / frail		4					a
 spirituel	spiritual		4					a
-sporty	sporty		3					a
+sporty	sporty	FS	3					a
 standhaftig	steadfast		4					a
 stemningsfuld	atmospheric		4					a
 stormfuld	stormy		4					a
@@ -3658,13 +3687,13 @@ tvetydig	ambiguous		4					a
 tvungen	forced		4					a
 uanstændig	indecent		4					a
 ubegribelig	incomprehensible		4					a
-ubekymret	carefree		4					a
+ubekymret	carefree	FP	4					a
 ubelejlig	inconvenient		4					a
 ubestemt	indefinite / vague		4					a
 uduelig	incompetent		4					a
 uerfaren	inexperienced		3					a
 uforglemmelig	unforgettable		3					a
-ulydig	disobedient		4					a
+ulydig	disobedient	FP	4					a
 umoden	immature		3					a
 undvigende	evasive		4					a
 uovervindelig	invincible		4					a
@@ -3679,7 +3708,7 @@ varsom	cautious		4					a
 velbegrundet	well-founded		4					a
 veldrevet	well-run		4					a
 velfortjent	well-deserved		4					a
-velhavende	wealthy		4					a
+velhavende	wealthy	MB	4					a
 velholdt	well-kept		4					a
 velklædt	well-dressed		4					a
 velopdragen	well-behaved		4					a
@@ -3688,7 +3717,7 @@ vindende	winning		4					a
 vittig	witty		4					a
 værdsat	appreciated		3					a
 ærefuld	honorable		4					a
-ærgerrig	ambitious		3					a
+ærgerrig	ambitious	FP	3					a
 ødelæggende	destructive		4					a
 ønskelig	desirable		4					a
 åndelig	spiritual / mental		4					a
@@ -3750,7 +3779,7 @@ tilbage	back		1					d
 sammen	together		1					d
 sådan	like that / such		1					p
 væk	away / gone		1					d
-gang	time (occasion) / walk		1					n
+gang	time (occasion) / walk	TC	1					n
 mange	many		1					p
 stadig	still		1					d
 virkelig	really		1					d
@@ -3814,7 +3843,7 @@ halvdelen	half (of it)	NC	2					n
 derhjemme	at home	HH	1					d
 totalt	totally		2					d
 næppe	hardly / barely		3					d
-seneste	latest / most recent		2					d
+seneste	latest / most recent		2					a
 visse	certain (some)		3					p
 muligvis	possibly		2					d
 bestemt	definitely / certain		2					d
@@ -3835,7 +3864,7 @@ forhåbentlig	hopefully		2					d
 sandsynligvis	probably		2					d
 temmelig	rather / fairly		2					d
 tydeligvis	obviously		3					d
-galt	wrong / bad		2					d
+galt	wrong / bad		2					a
 højst	at most / highly		2					d
 sagtens	easily / surely		2					d
 yderst	extremely / outermost		3					d
@@ -3883,7 +3912,7 @@ bagfra	from behind		3					d
 bogstaveligt	literally		3					d
 nødvendigvis	necessarily		3					d
 nøjagtigt	exactly		3					d
-kvit	even / quits		4					d
+kvit	even / quits		4					a
 halvvejs	halfway		3					d
 samtlige	all (every single one)		3					p
 færre	fewer		2					p
@@ -3914,7 +3943,7 @@ skarpt	sharply		3					d
 forrest	at the front		3					d
 til fælles	in common		2					d
 med forsæt	on purpose		4					d
-utallige	countless		3					d
+utallige	countless		3					a
 følelsesmæssigt	emotionally		3					d
 mentalt	mentally		3					d
 specifikt	specifically		3					d
@@ -3965,8 +3994,8 @@ indenfor	inside		1					d
 udenfor	outside		1					d
 man	one / you (general)		1					p
 nemt	easily		1					d
-nødt til	have to / forced to		2					d
-slut	over / finished		1					d
+nødt til	have to / forced to		2					f
+slut	over / finished		1					a
 som helst	at all / any (whatever)		2					p
 enkeltvis	one by one		4					d
 forholdsvis	relatively		3					d
@@ -3998,11 +4027,11 @@ så	so / then		1					c
 men	but		1					c
 og	and		1					c
 eller	or		1					c
-derfor	therefore		1					c
-altså	thus / so		1					c
-dog	however		2					c
-alligevel	nevertheless		2					c
-desuden	furthermore		2					c
+derfor	therefore		1					d
+altså	thus / so		1					d
+dog	however		2					d
+alligevel	nevertheless		2					d
+desuden	furthermore		2					d
 også	also		1					d
 kun	only		1					d
 både…og	both…and		2					c
@@ -4043,7 +4072,7 @@ ligesom	just like		1					c
 hvorimod	whereas		3					c
 hvorved	whereby		4					c
 hvorefter	after which		4					c
-som	who / which / that / as		1					c
+som	who / which / that / as		1					p
 end	than		1					c
 bag	behind		2					r
 igennem	through		1					r
@@ -4071,7 +4100,7 @@ blandt	among		2					r
 dels ... dels	partly ... partly		3					c
 efterhånden som	as (gradually)		3					c
 endskønt	although		4					c
-fremfor	rather than		3					c
+fremfor	rather than		3					r
 hvorvidt	whether		3					c
 i og med	since / given that		3					c
 idet	as / since		3					c
@@ -4109,8 +4138,8 @@ tal langsomt	speak slowly	GR	1					f
 hvad betyder det?	what does that mean?	GR	1					f
 det ved jeg ikke	I don't know	GR	1					f
 det tror jeg ikke	I don't think so	GR	1					f
-måske	maybe	GR	1					f
-selvfølgelig	of course	GR	1					f
+måske	maybe		1					d
+selvfølgelig	of course		1					d
 det er lige meget	it doesn't matter	GR	1					f
 hvor meget koster det?	how much does it cost?	GR	1					f
 må jeg få regningen?	may I have the bill?	GR	1					f
@@ -4125,7 +4154,7 @@ god weekend	have a good weekend	GR	1					f
 god appetit	bon appétit	GR	1					f
 hvad så?	what's up?	GR	1					f
 det er lige det	that's exactly it	GR	2					f
-i det store hele	all in all	GR	3					f
+i det store hele	all in all		3					d
 det kommer an på	it depends	GR	2					f
 sådan er det bare	that's just how it is	GR	2					f
 tag det roligt	take it easy / calm down	GR	2					f
@@ -4143,26 +4172,26 @@ jeg er enig	I agree	IO	2					f
 jeg er uenig	I disagree	IO	2					f
 det giver mening	that makes sense	GR	2					f
 det giver ikke mening	that doesn't make sense	GR	2					f
-i mellemtiden	in the meantime	GR	2					f
-med det samme	right away	GR	2					f
-lidt efter lidt	little by little	GR	2					f
-i hvert fald	in any case / at least	GR	2					f
-for eksempel	for example	GR	1					f
-med andre ord	in other words	GR	2					f
+i mellemtiden	in the meantime		2					d
+med det samme	right away		2					d
+lidt efter lidt	little by little		2					d
+i hvert fald	in any case / at least		2					d
+for eksempel	for example		1					d
+med andre ord	in other words		2					d
 det vil sige	that is to say	GR	2					f
-på trods af	despite	GR	2					f
-på grund af	because of	GR	2					f
-selvom	even though	GR	2					f
-i stedet for	instead of	GR	2					f
-i forhold til	in relation to	GR	2					f
-fra tid til anden	from time to time	GR	3					f
-en gang imellem	once in a while	GR	2					n
+på trods af	despite		2					r
+på grund af	because of		2					r
+selvom	even though		2					c
+i stedet for	instead of		2					r
+i forhold til	in relation to		2					r
+fra tid til anden	from time to time		3					d
+en gang imellem	once in a while		2					d
 det kan man ikke vide	you never know	GR	2					f
 lad os se	let's see	GR	2					f
 det håber jeg	I hope so	GR	1					f
 det tror jeg	I think so	GR	1					f
-stort set	basically	GR	2					f
-i det mindste	at least	GR	2					f
+stort set	basically		2					d
+i det mindste	at least		2					d
 hvis jeg var dig	if I were you	GR	2					f
 at være enig	to agree	IO	2	er enig|var enig|været enig		jeg er enig|jeg var enig|jeg har været enig	I agree|I agreed|I have agreed	v
 at være uenig	to disagree	IO	2	er uenig|var uenig|været uenig		jeg er uenig|jeg var uenig|jeg har været uenig	I disagree|I disagreed|I have disagreed	v
@@ -4182,9 +4211,9 @@ at rose	to praise	IO	2	roser|roste|rost		jeg roser|jeg roste|jeg har rost	I prai
 efter min mening	in my opinion	GR	2					f
 på den ene side	on one hand	GR	2					f
 på den anden side	on the other hand	GR	2					f
-i modsætning til	in contrast to	GR	3					f
-alt i alt	all in all	GR	2					f
-kort sagt	in short	GR	2					f
+i modsætning til	in contrast to		3					r
+alt i alt	all in all		2					d
+kort sagt	in short		2					d
 at slå to fluer med et smæk	to kill two birds with one stone	GR	3					f
 at tage tyren ved hornene	to take the bull by the horns	GR	3					f
 at falde med næsen i smøret	to strike lucky	GR	3					f
@@ -4208,7 +4237,7 @@ jamen	but / well	GR	2					f
 javel	I see / very well	GR	2					f
 nemlig	exactly / you see	GR	2					f
 venligst	please (formal)	GR	2					f
-forresten	by the way	GR	2					f
+forresten	by the way		2					d
 vrøvl	nonsense	GR	2		et			n
 goddag	good day / hello (formal)	GR	1					f
 hallo	hello	GR	1					f
@@ -4284,30 +4313,30 @@ jeg har det skidt	I'm not doing well	GR	1					f
 jeg er ked af det	I'm sorry	GR	1					f
 det er min skyld	it's my fault	GR	2					f
 først og fremmest	first and foremost	GR	2					f
-til gengæld	on the other hand / in return	GR	3					f
-blandt andet	among other things	GR	2					f
-i det hele taget	on the whole / generally	GR	2					f
-i virkeligheden	in reality / actually	GR	2					f
-i princippet	in principle	GR	2					f
-som regel	as a rule / usually	GR	2					f
-for det meste	mostly	GR	2					f
-lige om lidt	in just a moment	GR	2					f
-i gang med	busy with	GR	2					f
-på vej	on the way	GR	1					f
+til gengæld	on the other hand / in return		3					d
+blandt andet	among other things		2					d
+i det hele taget	on the whole / generally		2					d
+i virkeligheden	in reality / actually		2					d
+i princippet	in principle		2					d
+som regel	as a rule / usually		2					d
+for det meste	mostly		2					d
+lige om lidt	in just a moment		2					d
+i gang med	busy with		2					r
+på vej	on the way		1					d
 på tide	about time	GR	2					f
-ud over det	besides that	GR	2					f
-uden tvivl	without a doubt	GR	2					f
+ud over det	besides that		2					d
+uden tvivl	without a doubt		2					d
 i orden	all right / in order	GR	1					f
-ikke engang	not even	GR	2					f
-ikke endnu	not yet	GR	1					f
-ikke mere	no more / not anymore	GR	2					f
-slet ikke	not at all	GR	2					f
-næsten aldrig	almost never	GR	2					f
-lige meget hvad	no matter what	GR	2					f
-hvad som helst	anything	GR	2					f
-hvem som helst	anyone	GR	2					f
-hvor som helst	anywhere	GR	2					f
-når som helst	anytime	GR	2					f
+ikke engang	not even		2					d
+ikke endnu	not yet		1					d
+ikke mere	no more / not anymore		2					d
+slet ikke	not at all		2					d
+næsten aldrig	almost never		2					d
+lige meget hvad	no matter what		2					d
+hvad som helst	anything		2					p
+hvem som helst	anyone		2					p
+hvor som helst	anywhere		2					d
+når som helst	anytime		2					d
 hvad med dig?	what about you?	GR	1					f
 hvad er klokken?	what time is it?	TC	1					f
 klokken er fem	it's five o'clock	TC	1					f
@@ -4323,7 +4352,7 @@ at have svært ved	to find it hard to	GR	2	har svært ved|havde svært ved|haft 
 at have let ved	to find it easy to	GR	2	har let ved|havde let ved|haft let ved		jeg har let ved|jeg havde let ved|jeg har haft let ved	I find it easy to|I found it easy to|I have found it easy to	v
 at gøre sit bedste	to do one's best	GR	2	gør sit bedste|gjorde sit bedste|gjort sit bedste		jeg gør sit bedste|jeg gjorde sit bedste|jeg har gjort sit bedste	I do my best|I did my best|I have done my best	v
 at gøre grin med	to make fun of	GR	2	gør grin med|gjorde grin med|gjort grin med		jeg gør grin med|jeg gjorde grin med|jeg har gjort grin med	I make fun of|I made fun of|I have made fun of	v
-at gøre en forskel	to make a difference	GR	2	gør en forskel|gjorde en forskel|gjort en forskel		jeg gør en forskel|jeg gjorde en forskel|jeg har gjort en forskel	I make a difference|I made a difference|I have made a difference	v
+at gøre en forskel	to make a difference	IO	2	gør en forskel|gjorde en forskel|gjort en forskel		jeg gør en forskel|jeg gjorde en forskel|jeg har gjort en forskel	I make a difference|I made a difference|I have made a difference	v
 at tage det roligt	to take it easy	GR	2	tager det roligt|tog det roligt|taget det roligt		jeg tager det roligt|jeg tog det roligt|jeg har taget det roligt	I take it easy|I took it easy|I have taken it easy	v
 at tage en beslutning	to make a decision	GR	2	tager en beslutning|tog en beslutning|taget en beslutning		jeg tager en beslutning|jeg tog en beslutning|jeg har taget en beslutning	I make a decision|I made a decision|I have made a decision	v
 at tage sig tid	to take one's time	GR	2	tager sig tid|tog sig tid|taget sig tid		jeg tager mig tid|jeg tog mig tid|jeg har taget mig tid	I take my time|I took my time|I have taken my time	v
@@ -4339,7 +4368,7 @@ at gå i stå	to come to a standstill	GR	3	går i stå|gik i stå|gået i stå		
 at gå i panik	to panic	GR	2	går i panik|gik i panik|gået i panik		jeg går i panik|jeg gik i panik|jeg er gået i panik	I panic|I panicked|I have panicked	v
 at gå galt	to go wrong	GR	2	går galt|gik galt|gået galt		det går galt|det gik galt|det er gået galt	it goes wrong|it went wrong|it has gone wrong	v
 at gå som smurt	to go smoothly	GR	3	går som smurt|gik som smurt|gået som smurt		det går som smurt|det gik som smurt|det er gået som smurt	it goes smoothly|it went smoothly|it has gone smoothly	v
-at komme i gang	to get started	GR	2	kommer i gang|kom i gang|kommet i gang		jeg kommer i gang|jeg kom i gang|jeg er kommet i gang	I get started|I got started|I have gotten started	v
+at komme i gang	to get started		2	kommer i gang|kom i gang|kommet i gang		jeg kommer i gang|jeg kom i gang|jeg er kommet i gang	I get started|I got started|I have gotten started	v
 at komme til skade	to get hurt	GR	2	kommer til skade|kom til skade|kommet til skade		jeg kommer til skade|jeg kom til skade|jeg er kommet til skade	I get hurt|I got hurt|I have gotten hurt	v
 at falde i god jord	to go down well	GR	3	falder i god jord|faldt i god jord|faldet i god jord		det falder i god jord|det faldt i god jord|det er faldet i god jord	it goes down well|it went down well|it has gone down well	v
 at tale med store bogstaver	to speak bluntly	GR	4					f
@@ -4379,7 +4408,7 @@ sov godt	sleep well	GR	1					f
 stop	stop	GR	1					f
 velkommen	welcome	GR	1					f
 wow	wow	GR	1					f
-en / et	one	NC	1					n
+en / et	one	NC	1					u
 to	two	NC	1					u
 tre	three	NC	1					u
 fire	four	NC	1					u
@@ -4546,7 +4575,7 @@ en tredjedel	a third	NC	2					n
 et ciffer	a digit	NC	3					n
 niende	ninth	NC	1					u
 tiende	tenth	NC	1					u
-to gange	twice	NC	1					u
+to gange	twice	NC	1					d
 en halv time	half an hour	TC	1					n
 et årstal	a year (date)	TC	3					n
 sommertid	daylight saving time	TC	3		en			n
@@ -4561,7 +4590,7 @@ om natten	at night	TC	1					d
 om ugen	per week	TC	1					d
 om året	per year	TC	2					d
 hver dag	every day	TC	1					d
-en gang om ugen	once a week	TC	2					n
+en gang om ugen	once a week	TC	2					d
 for tiden	at the moment	TC	2					d
 lige nu	right now	TC	1					d
 for længe siden	a long time ago	TC	2					d
@@ -4960,12 +4989,12 @@ at blande	to mix	FD	2	blander|blandede|blandet		jeg blander|jeg blandede|jeg har
 at smage	to taste	FD	1	smager|smagte|smagt		jeg smager|jeg smagte|jeg har smagt	I taste|I tasted|I have tasted	v
 at servere	to serve	FD	2	serverer|serverede|serveret		jeg serverer|jeg serverede|jeg har serveret	I serve|I served|I have served	v
 at bestille	to order	FD	1	bestiller|bestilte|bestilt		jeg bestiller|jeg bestilte|jeg har bestilt	I order|I ordered|I have ordered	v
-drikkepenge	a tip (money)	FD	2		pl			n
+drikkepenge	a tip (money)	MB	2		pl			n
 en vegetar	a vegetarian	FD	2					n
 en veganer	a vegan	FD	2					n
 en allergi	an allergy	FD	2					n
 appetit	appetite	FD	2		en			n
-skål	cheers	GR	1					d
+skål	cheers	GR	1					f
 franskbrød	white bread	FD	2		et			n
 en bolle	a bun	FD	2					n
 en pandekage	a pancake	FD	1					n
@@ -5444,7 +5473,7 @@ en tøjvask	a laundry	HH	3					n
 en strygning	an ironing	HH	3					n
 en oprydning	a tidying up	HH	3					n
 en affaldssortering	a waste sorting	HH	3					n
-madlavning	cooking	HH	2		en			n
+madlavning	cooking	FD	2		en			n
 en græsslåning	a lawn mowing	HH	3					n
 en snerydning	a snow removal	HH	3					n
 en reparation	a repair	HH	3					n
@@ -5663,7 +5692,7 @@ et bræt	a board	HH	3					n
 en børste	a brush	HH	2					n
 en etage	a floor (story)	HH	2					n
 et fjernsyn	a television	TM	2					n
-gør det selv	do it yourself	HH	3					d
+gør det selv	do it yourself	HH	3					f
 hjemme	at home	HH	1					d
 hjem	home (direction)	HH	1					d
 et køkkenbord	a kitchen table / counter	HH	2					n
@@ -6298,10 +6327,10 @@ beton	concrete	WN	3		en			n
 marmor	marble	WN	3		et			n
 en måling	a measurement	WN	3					n
 et verdenshav	an ocean	WN	4					n
-Atlanterhavet	the Atlantic Ocean	CL	3					n
-Stillehavet	the Pacific Ocean	CL	3					n
-Østersøen	the Baltic Sea	CL	3					n
-Nordsøen	the North Sea	CL	3					n
+Atlanterhavet	the Atlantic Ocean	WN	3					n
+Stillehavet	the Pacific Ocean	WN	3					n
+Østersøen	the Baltic Sea	WN	3					n
+Nordsøen	the North Sea	WN	3					n
 en verdensdel	a continent	WN	3					n
 et kontinent	a continent	WN	3					n
 Afrika	Africa	CL	2					n
@@ -6341,7 +6370,7 @@ en mejetærsker	a combine harvester	WN	4					n
 en frugthave	an orchard	WN	4					n
 en køkkenhave	a vegetable garden	WN	3					n
 et drivhus	a greenhouse	WN	3					n
-en kolonihave	an allotment garden	CH	3					n
+en kolonihave	an allotment garden	FS	3					n
 et blomsterbed	a flower bed	WN	3					n
 en frøpose	a seed packet	WN	4					n
 en stikling	a cutting (plant)	WN	4					n
@@ -6516,7 +6545,7 @@ en klinik	a clinic	BH	2					n
 en ambulance	an ambulance	BH	2					n
 en skadestue	an ER	BH	2					n
 en operation	a surgery	BH	2					n
-en undersøgelse	an examination	SL	3					n
+en undersøgelse	an examination	BH	3					n
 et symptom	a symptom	BH	3					n
 en diagnose	a diagnosis	BH	3					n
 en behandling	a treatment	BH	2					n
@@ -6545,7 +6574,6 @@ en latter	a laugh	BH	3					n
 et blik	a look	BH	2					n
 en gestus	a gesture	BH	3					n
 et nik	a nod	BH	3					n
-en krammer	a hug	FP	2					n
 et håndtryk	a handshake	BH	3					n
 en gaben	a yawn	BH	4					n
 et suk	a sigh	BH	3					n
@@ -6561,7 +6589,7 @@ et syn	a sight / vision	BH	2					n
 et ar	a scar	BH	3					n
 en nakke	a neck (back of)	BH	2					n
 kræft	cancer	BH	2		en			n
-ondt	pain / hurt ("have ondt")	BH	1					d
+ondt	pain / hurt ("have ondt")	BH	1					a
 en kur	a cure / treatment	BH	3					n
 terapi	therapy	BH	3		en			n
 en læbe	a lip	BH	2					n
@@ -7474,7 +7502,7 @@ et humør	a mood	FP	2					n
 irriteret	irritated	FP	2					a
 frustreret	frustrated	FP	2					a
 stresset	stressed	FP	2					a
-træt af	tired of / fed up with	FP	2					d
+træt af	tired of / fed up with	FP	2					f
 forventningsfuld	expectant	FP	4					a
 forskrækket	startled	FP	3					a
 rædselsslagen	terrified	FP	4					a
@@ -8248,7 +8276,7 @@ en tilføjelse	an addition	IO	3					n
 en tolkning	an interpretation	IO	4					n
 en udskiftning	a replacement	IO	3					n
 en udveksling	an exchange	IO	3					n
-et afbræk	an interruption / break	IO	4					n
+en afbrydelse	an interruption	IO	4					n
 et belæg	a basis / evidence	IO	4					n
 et bytte	an exchange / prey	IO	3					n
 et kendetegn	a characteristic	IO	4					n
@@ -8396,7 +8424,7 @@ en pastor	a pastor	CH	3					n
 en synder	a sinner	CH	4					n
 narko	drugs (slang)	SP	3		en			n
 menneskehed	humanity	SP	4		en			n
-en race	a race / breed	CH	3					n
+en race	a race / breed	AN	3					n
 en forbandelse	a curse	CH	3					n
 en jøde	a Jew	CH	3					n
 spansk	Spanish	CL	2					a
@@ -9343,8 +9371,8 @@ function nounGenderFor(card) {
 // Whether a card belongs to what's picked in a category menu: "all", a
 // category id, or a grammar group ("g:verb" …). Grammar lesson cards
 // only show when their own category is picked.
-function cardInCategory(card, filter) {
-  if (filter === "all") return card.type !== "grammar";
+function cardInCategory(card, filter, includeLessons = false) {
+  if (filter === "all") return includeLessons || card.type !== "grammar";
   if (filter.startsWith("g:")) return wordClassFor(card) === filter.slice(2);
   return card.category === filter;
 }
@@ -9389,7 +9417,7 @@ const STARTER_GRAMMAR = [
     name: "Definite form: -en and -et",
     was: ["Definite articles as a suffix"],
     level: 1,
-    rule: "Danish says “the” with an ending on the noun, not a separate word. En-words add -en, et-words add -et (just -n or -t after an -e), and plurals add -ne.",
+    rule: "Danish says “the” with an ending on the noun, not a separate word. En-words add -en, et-words add -et (just -n or -t after an -e). In the plural, add -ne (or -ene if the plural has no ending).",
     pattern: "bil → bil**en** · hus → hus**et** · biler → biler**ne**",
     examples: [
       ["Bil**en** er rød.", "The car is red."],
@@ -9413,7 +9441,7 @@ const STARTER_GRAMMAR = [
     name: "Present tense: add -r",
     was: ["Present tense has one form for every subject"],
     level: 1,
-    rule: "For the present tense, add -r to the verb. It's the same for every person: jeg, du, han, hun, vi, I and de.",
+    rule: "For the present tense, add -r to the verb (the ending is the same for every person: jeg, du, han, hun, vi, I and de). A few common verbs are irregular, like er, har, kan, vil and skal.",
     pattern: "at spise → spise**r** · at gå → gå**r**",
     examples: [
       ["Jeg **spiser** morgenmad.", "I eat breakfast."],
@@ -9425,12 +9453,13 @@ const STARTER_GRAMMAR = [
     name: "Negation: ikke",
     was: ["Negation with ikke"],
     level: 1,
-    rule: "Ikke means “not”. In a normal sentence it comes right after the verb, and there's no helper word like English “don't”.",
+    rule: "Ikke means “not”. In a normal sentence it comes right after the verb, and there's no helper word like English “don't”. If the sentence has a short object like ham or det, ikke goes after it.",
     pattern: "verb + **ikke**",
     examples: [
       ["Jeg forstår **ikke**.", "I don't understand."],
       ["Hun er **ikke** hjemme.", "She isn't home."],
       ["Vi har **ikke** tid.", "We don't have time."],
+      ["Jeg kender ham **ikke**.", "I don't know him."],
     ],
   },
   {
@@ -9513,14 +9542,14 @@ const STARTER_GRAMMAR = [
     examples: [
       ["Jeg **går** i skole i dag.", "I go to school today."],
       ["I dag **går jeg** i skole.", "Today I go to school."],
-      ["I morgen **skal vi** rejse.", "Tomorrow we're travelling."],
+      ["I morgen **skal vi** rejse.", "Tomorrow we are going to travel."],
     ],
   },
   {
     name: "Adjectives: -t and -e endings",
     was: ["Adjective agreement"],
     level: 2,
-    rule: "Adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals.",
+    rule: "Adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals. Adjectives ending in -sk (dansk) or already in -t (flot) don't add another -t.",
     pattern: "en stor bil · et stor**t** hus · stor**e** huse",
     examples: [
       ["Det er en **stor** hund.", "It's a big dog."],
@@ -9544,7 +9573,7 @@ const STARTER_GRAMMAR = [
     name: "Comparison: -ere and -est",
     was: ["Comparing adjectives: -ere and -est"],
     level: 2,
-    rule: "Add -ere for “more” and -est for “most”. Long adjectives use mere and mest instead, and a few common ones are irregular, like god, bedre, bedst.",
+    rule: "Add -ere for “more” and -est for “most” (before a noun with den/det/de, the superlative takes -e: den varmeste). Long adjectives use mere and mest instead, and a few common ones are irregular, like god, bedre, bedst.",
     pattern: "varm → varm**ere** → varm**est**",
     examples: [
       ["Min bil er **hurtigere** end din.", "My car is faster than yours."],
@@ -9568,7 +9597,7 @@ const STARTER_GRAMMAR = [
     name: "Present perfect: har or er",
     was: ["Present perfect: har vs. er"],
     level: 2,
-    rule: "Use har with the past form, like English “have done”. Verbs about moving somewhere or changing, like rejse and blive, usually use er.",
+    rule: "Use har with the “done” form of the verb (the participle), like English “have done”. Verbs about moving somewhere or changing, like rejse and blive, usually use er.",
     pattern: "**har** spist · **er** rejst · **er** blevet",
     examples: [
       ["Jeg **har spist**.", "I have eaten."],
@@ -9580,7 +9609,7 @@ const STARTER_GRAMMAR = [
     name: "Word order: after at, fordi, hvis",
     was: ["Word order after fordi, hvis, når, at"],
     level: 2,
-    rule: "After at, fordi, hvis, når and da, the subject comes next and then the verb. Ikke and other short adverbs go before the verb.",
+    rule: "After at, fordi, hvis, når and da, the order is subject, then ikke or a short adverb, then the verb. This is different from a main sentence, where the verb comes before ikke.",
     pattern: "…, fordi jeg **ikke har** tid.",
     examples: [
       ["Jeg bliver hjemme, fordi jeg **ikke har** tid.", "I'm staying home because I don't have time."],
@@ -9602,7 +9631,7 @@ const STARTER_GRAMMAR = [
   {
     name: "Reflexive verbs: sig",
     level: 2,
-    rule: "Some verbs need a word for “oneself”: mig, dig, sig, os, jer or sig. English often leaves it out.",
+    rule: "Some verbs need a word for “oneself”: mig, dig, sig, os or jer. Sig is used for han, hun, den, det and de. English often leaves it out.",
     pattern: "jeg glæder **mig** · han glæder **sig** · vi glæder **os**",
     examples: [
       ["Jeg glæder **mig**.", "I'm looking forward to it."],
@@ -9894,7 +9923,7 @@ function buildStarterAdditions(existingCategories, existingFrontsSet, deletedKey
 // - every built-in word is filed under its new topic (or none).
 // The person's own categories are never touched. Runs once per layout
 // version, so a card moved by hand afterwards stays where it was put.
-const CATEGORY_LAYOUT_VERSION = "topics-2";
+const CATEGORY_LAYOUT_VERSION = "topics-3";
 const OLD_TO_TOPIC = {
   "Common Phrases & Idioms": "Greetings & Everyday Phrases",
   "Numbers & Time": "Time & Calendar",
@@ -9963,10 +9992,34 @@ function migrateToTopics(cards, categories) {
   return { cards: next, categories: [...topics, ...rest, ...lessons] };
 }
 
+// Keeps the rule above true for saved data: any word or sentence sitting in
+// Grammar Lessons is moved out (built-in words to their topic, the person's
+// own cards to "no category"), and any grammar lesson is moved in. Nothing
+// is deleted and no progress is touched. Returns null when nothing moved.
+function moveStrayCards(cards, categories) {
+  const lessonIds = new Set(categories.filter(isLessonsCategory).map((c) => c.id));
+  lessonIds.add(LESSONS_ID);
+  const topicId = (name) => (categories.find((c) => c.name === name) || {}).id || "";
+  let changed = false;
+  const next = cards.map((c) => {
+    const inLessons = lessonIds.has(c.category);
+    if (c.type === "grammar") {
+      if (inLessons) return c;
+      changed = true;
+      return { ...c, category: LESSONS_ID };
+    }
+    if (!inLessons) return c;
+    changed = true;
+    const meta = c.starter && c.type === "word" ? wordMetaFor(c.front) : null;
+    return { ...c, category: meta && meta.topic ? topicId(meta.topic) : "" };
+  });
+  return changed ? next : null;
+}
+
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "2";
+const GRAMMAR_VERSION = "3";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
@@ -10767,6 +10820,23 @@ function Field({ label, children }) {
   );
 }
 
+// <option>s for choosing where a new card goes: "No category" first, then
+// the topics (Grammar Lessons is reserved for lessons).
+function CategoryOptions({ categories }) {
+  return (
+    <>
+      <option value="">No category</option>
+      {categories
+        .filter((c) => !isLessonsCategory(c))
+        .map((c) => (
+          <option key={c.id} value={c.id}>
+            {c.name}
+          </option>
+        ))}
+    </>
+  );
+}
+
 function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAddCategory, withGrammar }) {
   const [adding, setAdding] = useState(false);
   const [name, setName] = useState("");
@@ -10816,7 +10886,7 @@ function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAdd
       style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
     >
       {allowAll && <option value="all">All categories</option>}
-      {!allowAll && !value && <option value="" disabled>Choose a category</option>}
+      {!allowAll && !withGrammar && <CategoryOptions categories={categories} />}
       {withGrammar ? (
         <>
           <optgroup label="Grammar">
@@ -10839,13 +10909,13 @@ function CategoryPicker({ categories, value, onChange, allowAll, allowNew, onAdd
             ))}
           </optgroup>
         </>
-      ) : (
+      ) : allowAll ? (
         categories.map((c) => (
           <option key={c.id} value={c.id}>
             {c.name}
           </option>
         ))
-      )}
+      ) : null}
       {allowNew && <option value="__new__">+ New category…</option>}
     </select>
   );
@@ -10964,15 +11034,14 @@ function MenuDropdown({ label, open, setOpen, align = "left", width = 320, child
   );
 }
 
-function StudyCategoryMenu({ categories, value, onChange, verbForms, onChangeVerbForms, nounOpts, onChangeNounOpts }) {
+function StudyCategoryMenu({ categories, value, onChange, scope, onChangeScope, ownCount, verbForms, onChangeVerbForms, nounOpts, onChangeNounOpts }) {
   const [open, setOpen] = useState(false);
   const [expanded, setExpanded] = useState(null); // "g:verb" | "g:noun" | null
   const lessons = categories.find((c) => c.id === "grammar-lessons" || c.name === "Grammar Lessons");
   const topics = categories.filter((c) => c !== lessons);
-  const current =
-    value === "all"
-      ? "All categories"
-      : (GRAMMAR_GROUPS.find((g) => g.id === value) || categories.find((c) => c.id === value) || { name: "All categories" }).name;
+  const categoryName =
+    value === "all" ? "" : (GRAMMAR_GROUPS.find((g) => g.id === value) || categories.find((c) => c.id === value) || { name: "" }).name;
+  const current = [scope === "mine" ? "My cards" : "", categoryName].filter(Boolean).join(" · ") || "All cards";
 
   function pick(id) {
     onChange(id);
@@ -11028,8 +11097,36 @@ function StudyCategoryMenu({ categories, value, onChange, verbForms, onChangeVer
 
   return (
     <MenuDropdown label={current} open={open} setOpen={setOpen}>
+      {/* Which cards: everything, or only the ones you added. Combines with the category below. */}
+      <div style={{ display: "flex", gap: 4, padding: 4, margin: "2px 4px 6px", background: "var(--paper)", borderRadius: 10 }}>
+        {[
+          { id: "all", label: "All cards" },
+          { id: "mine", label: "My cards" + (ownCount ? " · " + ownCount : "") },
+        ].map((o) => (
+          <button
+            key={o.id}
+            onClick={() => onChangeScope(o.id)}
+            aria-pressed={scope === o.id}
+            style={{
+              flex: 1,
+              border: "none",
+              borderRadius: 8,
+              padding: "8px 6px",
+              fontFamily: "var(--sans)",
+              fontSize: 13.5,
+              fontWeight: scope === o.id ? 700 : 500,
+              background: scope === o.id ? "var(--card)" : "transparent",
+              boxShadow: scope === o.id ? "0 1px 2px rgba(0,0,0,0.12)" : "none",
+              color: scope === o.id ? "var(--ink)" : "var(--muted)",
+              cursor: "pointer",
+            }}
+          >
+            {o.label}
+          </button>
+        ))}
+      </div>
       <button style={menuRowStyle(value === "all")} onClick={() => pick("all")}>
-        All categories
+        Any category
       </button>
       <div style={menuHeadingStyle}>Grammar</div>
       {GRAMMAR_GROUPS.map((g) => {
@@ -11290,6 +11387,14 @@ export default function DanishFlashcards() {
         grammarSynced = true;
       }
 
+      // Words and sentences never live in Grammar Lessons.
+      let strayMoved = false;
+      const strayResult = moveStrayCards(c, cat);
+      if (strayResult) {
+        c = strayResult;
+        strayMoved = true;
+      }
+
       // Attach level + verb forms to every word card that's in the list.
       let metaApplied = false;
       const metaResult = applyWordMeta(c);
@@ -11313,7 +11418,7 @@ export default function DanishFlashcards() {
       const existingFronts = new Set(c.map((card) => card.front.trim().toLowerCase()));
       const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts, deletedKeys);
       let savedOk = true;
-      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored) {
+      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored || strayMoved) {
         cat = combinedCategories;
         c = [
           ...c,
@@ -11443,6 +11548,13 @@ export default function DanishFlashcards() {
           ...c,
           front: String(c.front).trim(),
           back: String(c.back).trim(),
+          // Lessons go in Grammar Lessons; everything else never does.
+          category:
+            c.type === "grammar"
+              ? (categories.find(isLessonsCategory) || {}).id || LESSONS_ID
+              : isLessonsCategory(categories.find((x) => x.id === c.category)) || c.category === LESSONS_ID
+              ? ""
+              : c.category || "",
         }));
       if (stamped.length === 0 && touchedExistingIds.size === 0) {
         if (duplicateFronts.length > 0) {
@@ -11490,7 +11602,7 @@ export default function DanishFlashcards() {
         showToast(msg);
       }
     },
-    [cards, persistCards, showToast]
+    [cards, categories, persistCards, showToast]
   );
 
   const updateCard = useCallback(
@@ -11817,6 +11929,7 @@ function Toast({ msg }) {
 
 function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, engine }) {
   const [catFilter, setCatFilter] = useState("all");
+  const [scope, setScope] = useState("all"); // "all" | "mine" (only cards you added)
   const [levels, setLevels] = useState([]); // ticked levels; none = all
   const [nounOpts, setNounOpts] = useState(DEFAULT_NOUN_OPTS);
   // Which verb forms to show, chosen with checkboxes under "Verbs" in the
@@ -11871,7 +11984,8 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
   // One rule for both the session pool and the progress count.
   const inScope = (c) => {
     if (c.ignored) return false;
-    if (!cardInCategory(c, catFilter)) return false;
+    if (scope === "mine" && c.starter) return false;
+    if (!cardInCategory(c, catFilter, scope === "mine")) return false;
     if (catFilter === "g:noun") {
       const g = nounGenderFor(c);
       const wanted = nounOpts.filter((o) => o === "en" || o === "et");
@@ -11982,7 +12096,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     setDragX(0);
     setExiting(null);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catFilter, levels.join(","), nounOpts.join(","), starredOnly, unknownOnly, verbForms.join(","), sessionKey]);
+  }, [catFilter, scope, levels.join(","), nounOpts.join(","), starredOnly, unknownOnly, verbForms.join(","), sessionKey]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
   // What the card actually shows: the normal word, or — in a tense
@@ -12206,6 +12320,9 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
               categories={categories}
               value={catFilter}
               onChange={setCatFilter}
+              scope={scope}
+              onChangeScope={setScope}
+              ownCount={cards.filter((c) => !c.starter && !c.ignored).length}
               verbForms={verbForms}
               onChangeVerbForms={changeVerbForms}
               nounOpts={nounOpts}
@@ -12275,7 +12392,9 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
           </div>
           <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginTop: 4 }}>
             {poolIds.length === 0
-              ? "Everything in this view is marked known, or try a different filter."
+              ? scope === "mine" && !cards.some((c) => !c.starter)
+                ? "You haven't added any cards of your own yet. Add some from the Add tab, Chat or Photo and they'll show up here."
+                : "Everything in this view is marked known, or try a different filter."
               : knownNowCount + " known · " + stillUnknownCount + " still to review"}
           </div>
           {poolIds.length > 0 && (
@@ -13179,7 +13298,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
   const [back, setBack] = useState("");
   const [notes, setNotes] = useState("");
   const [examples, setExamples] = useState([{ da: "", en: "" }]);
-  const [category, setCategory] = useState(categories[0]?.id || "");
+  const [category, setCategory] = useState("");
   const [lookingUp, setLookingUp] = useState(false);
   const [lookupError, setLookupError] = useState("");
   const [autoFilling, setAutoFilling] = useState(false);
@@ -13226,15 +13345,15 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
     if (!trimmed || (type !== "word" && type !== "sentence")) return;
     setAutoFilling(true);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const reply = await callAI(
-        "You help fill in a Danish learner's flashcard. Given a single word or short phrase, give its natural translation and the single best-fitting category for it. Be precise about its actual part of speech before choosing a category — don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective; check the word's real grammatical role rather than assuming from its surface form. The translation must be ONLY in the target language — never repeat or include the original word/phrase alongside it. If it's a Danish noun, include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
+        "You help fill in a Danish learner's flashcard. Given a single word or short phrase, give its natural translation and the single best-fitting category for it. Be precise about its actual part of speech so the translation fits — don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective. The translation must be ONLY in the target language — never repeat or include the original word/phrase alongside it. If it's a Danish noun, include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
         (direction === "da" ? "Danish" : "English") +
           ' text: "' +
           trimmed +
           '"\n\nExisting categories to prefer if one genuinely fits: ' +
           (categoryNames || "(none yet)") +
-          '. If none fit well, suggest a short new category name instead (e.g. "Verbs", "Nouns", "Prepositions").' +
+          '.' + CATEGORY_RULE +
           '\n\nRespond ONLY with JSON, no other text: {"translation": "...", "category": "..."}',
         { maxTokens: 150 }
       );
@@ -13244,9 +13363,10 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
         if (direction === "da") setBack((prev) => (prev.trim() ? prev : clean));
         else setFront((prev) => (prev.trim() ? prev : clean));
       }
-      if (parsed.category && !categoryTouched.current) {
-        const existing = categories.find((c) => c.name.toLowerCase() === parsed.category.toLowerCase());
-        setCategory(existing ? existing.id : "__new__" + parsed.category);
+      const suggested = aiCategoryName(parsed.category);
+      if (suggested && !categoryTouched.current) {
+        const existing = categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === suggested.toLowerCase());
+        if (existing) setCategory(existing.id);
       }
     } catch (e) {
       // Auto-fill failing just means the learner fills it in themselves.
@@ -13302,8 +13422,8 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
       return;
     }
     setSubmitError("");
-    let catId = category;
-    if (category.startsWith("__new__")) catId = addCategory(category.replace("__new__", "") || "New category");
+    let catId = type === "grammar" ? LESSONS_ID : category;
+    if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New category");
     const cleanExamples = examples.filter((ex) => ex.da.trim() && ex.en.trim());
     addCards([
       {
@@ -13487,18 +13607,20 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
       <Field label="Notes (optional)">
         <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
       </Field>
-      <Field label="Category">
-        <CategoryPicker
-          categories={categories}
-          value={category}
-          onChange={(v) => {
-            categoryTouched.current = true;
-            setCategory(v);
-          }}
-          allowNew
-          onAddCategory={addCategory}
-        />
-      </Field>
+      {type !== "grammar" && (
+        <Field label="Category (optional)">
+          <CategoryPicker
+            categories={categories}
+            value={category}
+            onChange={(v) => {
+              categoryTouched.current = true;
+              setCategory(v);
+            }}
+            allowNew
+            onAddCategory={addCategory}
+          />
+        </Field>
+      )}
 
       {submitError && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, marginBottom: 8 }}>{submitError}</div>}
       <button
@@ -14287,12 +14409,13 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
     setInput("");
     setSending(true);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const history = next.slice(-20).map((m) => ({ role: m.role, content: m.content }));
       const reply = await callAI(
         "You are a knowledgeable Danish language reference for an intermediate, self-taught learner who has some foundational grammar gaps despite a decent vocabulary. For a plain question, answer directly and concisely in the reply field (1-3 sentences typically), then stop — don't pad with extra context they didn't ask for, and never end with a follow-up question or an invitation to continue (no \"let me know if...\", no \"would you like...\"). Use Danish examples with English translations whenever they help. " +
           "Separately: if the learner is asking you to CREATE one or more flashcards — a new topic (\"give me 10 words for the doctor\"), a single word or phrase (\"make a flashcard for hyggelig\"), or something from earlier in this conversation (\"make a flashcard from that\", \"save the last one\", \"turn that into a card\") — put those in the flashcards array. Use the conversation history to work out what \"that\" or \"it\" refers to when needed. Leave reply empty, or at most a short one-line confirmation, when the request was purely for flashcards. " +
-          "For each flashcard: type is \"word\" (a single word or short phrase), \"sentence\" (a full sentence), or \"grammar\" (a rule or pattern that needs explaining rather than just translating — include up to 3 short example sentences for grammar only). Don't overuse \"grammar\" — most vocabulary requests are \"word\" or \"sentence\". For word/sentence, the back field must be ONE clean, natural translation only — never a list of synonyms or alternatives, and never a parenthetical part-of-speech note like \"(adj.)\"; deeper detail like that belongs behind the lightbulb feature once the card exists, not crammed into the card itself. Pick the single best-fitting category, being precise about actual part of speech first (don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective) — prefer an existing category if one genuinely fits, otherwise suggest a short new one; skip category for grammar. Include Danish grammatical articles (en/et) matched with a natural English article, omitting both for mass/uncountable nouns. " +
+          "For each flashcard: type is \"word\" (a single word or short phrase), \"sentence\" (a full sentence), or \"grammar\" (a rule or pattern that needs explaining rather than just translating — include up to 3 short example sentences for grammar only). Don't overuse \"grammar\" — most vocabulary requests are \"word\" or \"sentence\". For word/sentence, the back field must be ONE clean, natural translation only — never a list of synonyms or alternatives, and never a parenthetical part-of-speech note like \"(adj.)\"; deeper detail like that belongs behind the lightbulb feature once the card exists, not crammed into the card itself. Pick the single best-fitting category for word/sentence cards (skip category for grammar)." + CATEGORY_RULE + " " +
+          "Include Danish grammatical articles (en/et) matched with a natural English article, omitting both for mass/uncountable nouns. " +
           "If nothing was asked to be saved, leave flashcards as an empty array.\n\nExisting categories to prefer if one fits: " +
           (categoryNames || "(none yet)"),
         text +
@@ -14308,7 +14431,8 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
       const workingCategories = [...categories];
       const flashcards = rawFlashcards.map((fc) => {
         if (fc.type === "grammar") return { ...fc, categoryId: "grammar-lessons" };
-        const name = (fc.category || "Uncategorized").trim();
+        const name = aiCategoryName(fc.category);
+        if (!name) return { ...fc, categoryId: "" };
         let existingCat = workingCategories.find((c) => c.name.toLowerCase() === name.toLowerCase());
         if (!existingCat) {
           const id = addCategory(name);
@@ -14332,7 +14456,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
     const cat = {};
     msg.flashcards.forEach((fc, i) => {
       sel[i] = true;
-      cat[i] = fc.categoryId || categories[0]?.id || "";
+      cat[i] = fc.categoryId || "";
     });
     setReviewingIdx(idx);
     setReviewSelected(sel);
@@ -14345,7 +14469,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
     const toAdd = [];
     msg.flashcards.forEach((fc, i) => {
       if (!reviewSelected[i]) return;
-      const catId = fc.type === "grammar" ? "grammar-lessons" : reviewCategory[i] || categories[0]?.id;
+      const catId = fc.type === "grammar" ? "grammar-lessons" : reviewCategory[i] || "";
       toAdd.push({ type: fc.type, front: fc.front, back: fc.back, category: catId, ...(fc.type === "grammar" ? { examples: fc.examples || [] } : {}) });
       if (fc.type === "grammar" && fc.examples) {
         fc.examples.slice(0, 3).forEach((ex) => toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId }));
@@ -14368,14 +14492,14 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
     }
     setSavingIdx(idx);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const reply = await callAI(
         "You turn a Danish-tutor question and answer into the single most useful flashcard for the learner to review later. Choose whichever type genuinely fits best: " +
           "'word' if this was really just about one word or a short bit of vocabulary (front = the Danish word, back = ONE clean English translation only — never a list of synonyms or a parenthetical part-of-speech note); " +
           "'sentence' if this was about how to say or understand one specific sentence (front = the Danish sentence, back = the English translation); " +
           "'grammar' if this was about a rule, pattern, or structure that's more useful explained than just translated (front = a short name for the grammar point, back = a concise plain-English explanation, plus exactly 3 short example sentences)." + GRAMMAR_CARD_STYLE + " " +
           "Don't overuse 'grammar' — most simple vocabulary questions should be 'word' or 'sentence'. " +
-          "For 'word' or 'sentence' types, also pick the single best-fitting category (e.g. by part of speech or topic) — be precise about the word's actual part of speech first (don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective) — prefer an existing category if one genuinely fits, otherwise suggest a short new one. " +
+          "For 'word' or 'sentence' types, also pick the single best-fitting category." + CATEGORY_RULE + " " +
           "If the front is a Danish noun, include its grammatical article (en/et), and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
         "Question: " +
           (userMsg ? userMsg.content : "(none)") +
@@ -14388,9 +14512,9 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
       );
       const parsed = parseJSONLoose(reply);
       const type = ["word", "sentence", "grammar"].includes(parsed.type) ? parsed.type : "word";
-      const catName = type === "grammar" ? "Grammar Lessons" : parsed.category || "From Chat";
-      const existing = categories.find((c) => c.name.toLowerCase() === catName.toLowerCase());
-      const catId = existing ? existing.id : addCategory(catName);
+      const catName = type === "grammar" ? "" : aiCategoryName(parsed.category);
+      const existing = catName ? categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === catName.toLowerCase()) : null;
+      const catId = type === "grammar" ? LESSONS_ID : !catName ? "" : existing ? existing.id : addCategory(catName);
       const examples = parsed.examples || [];
       const toAdd = [{ type, front: parsed.front, back: parsed.back, category: catId, ...(type === "grammar" ? { examples } : {}) }];
       if (type === "grammar") {
@@ -14608,11 +14732,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
                   onChange={(e) => setReviewCategory({ ...reviewCategory, [i]: e.target.value })}
                   style={{ ...inputStyle, width: "auto", padding: "5px 6px", fontSize: 11.5, marginLeft: 24 }}
                 >
-                  {categories.map((c) => (
-                    <option key={c.id} value={c.id}>
-                      {c.name}
-                    </option>
-                  ))}
+                  <CategoryOptions categories={categories} />
                 </select>
               )}
             </div>
@@ -14639,7 +14759,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
   const [lookupResult, setLookupResult] = useState(null);
   const [lookupLoading, setLookupLoading] = useState(false);
   const [lookupError, setLookupError] = useState("");
-  const [lookupCategory, setLookupCategory] = useState(categories[0]?.id || "");
+  const [lookupCategory, setLookupCategory] = useState("");
 
   // Analyze sentence — grammar breakdown, merged in from what used to be
   // its own separate tab. Lives here now so it can share one text box
@@ -14648,7 +14768,6 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
   const [sentenceError, setSentenceError] = useState("");
   const [sentenceResult, setSentenceResult] = useState(null);
   const [sentenceSelected, setSentenceSelected] = useState({});
-  const [pointCategory, setPointCategory] = useState({});
 
   // Extract text — pulls out vocabulary worth learning from a passage.
   const [analyzing, setAnalyzing] = useState(false);
@@ -14766,15 +14885,13 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     setSentenceError("");
     setSentenceResult(null);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const reply = await callAI(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
           "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
           "If what they wrote in Danish has a grammar mistake anywhere in it, you must catch it and clearly point out what was wrong and why, referencing the specific part that was incorrect — don't silently correct it without mentioning the error. If they wrote in English, or their Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
-          "Existing categories to prefer if one fits: " +
-          (categoryNames || "(none yet)") +
-          '. \n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}], "suggestedCategory": "..."}]} — correctionNote should be an empty string when there was nothing to correct.',
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
+          '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
         text.trim(),
         { maxTokens: 2200 }
       );
@@ -14786,14 +14903,10 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
       }
       setSentenceResult({ correctionNote: parsed.correctionNote || "", grammarPoints: points });
       const initialSelected = {};
-      const initialCategory = {};
       points.forEach((p, i) => {
         initialSelected[i] = { grammar: true, main: true, examples: { 0: true, 1: true } };
-        const existing = categories.find((c) => c.name.toLowerCase() === (p.suggestedCategory || "").toLowerCase());
-        initialCategory[i] = existing ? existing.id : "__new__" + (p.suggestedCategory || "");
       });
       setSentenceSelected(initialSelected);
-      setPointCategory(initialCategory);
     } catch (e) {
       setSentenceError(apiErrorMessage(e));
     } finally {
@@ -14806,8 +14919,8 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     const toAdd = [];
     sentenceResult.grammarPoints.forEach((point, i) => {
       const sel = sentenceSelected[i] || {};
-      let catId = pointCategory[i] || "";
-      if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New grammar point");
+      // Lessons go in Grammar Lessons; their example sentences need no category.
+      const catId = "";
       if (sel.grammar) {
         toAdd.push({
           type: "grammar",
@@ -14834,9 +14947,9 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     setError("");
     setAnalysis(null);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const reply = await callAI(
-        "You help an intermediate, self-taught Danish learner understand a piece of Danish text. First, give a natural, fluent English translation of the full passage. Then briefly explain the notable grammar and sentence structures used in this specific passage — reference actual phrases from the text, 2-4 sentences, plain English, no jargon overload. Then suggest the key vocabulary genuinely worth learning from it (not every word), with a natural English translation for each, and the single best-fitting category for each word individually (e.g. by part of speech or topic) — be precise about each word's actual part of speech as used in this passage before choosing a category (don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective) — prefer an existing category if one genuinely fits, otherwise suggest a short new one. Different words in the same passage can and should get different categories — a text usually mixes nouns, verbs, and other parts of speech, so don't give them all the same category.",
+        "You help an intermediate, self-taught Danish learner understand a piece of Danish text. First, give a natural, fluent English translation of the full passage. Then briefly explain the notable grammar and sentence structures used in this specific passage — reference actual phrases from the text, 2-4 sentences, plain English, no jargon overload. Then suggest the key vocabulary genuinely worth learning from it (not every word), with a natural English translation for each, and the single best-fitting category for each word individually." + CATEGORY_RULE + " Different words can get different categories, or none.",
         "Text:\n" +
           text.slice(0, 3000) +
           "\n\nExisting categories to prefer if one fits: " +
@@ -14855,15 +14968,15 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
       const sel = {};
       const cats = {};
       vocab.forEach((v) => {
-        const name = (v.category || "Uncategorized").trim();
-        let existing = workingCategories.find((c) => c.name.toLowerCase() === name.toLowerCase());
-        if (!existing) {
+        const name = aiCategoryName(v.category);
+        let existing = name ? workingCategories.find((c) => c.name.toLowerCase() === name.toLowerCase()) : null;
+        if (name && !existing) {
           const id = addCategory(name);
           existing = { id, name, custom: true };
           workingCategories.push(existing);
         }
         sel[v.da] = true;
-        cats[v.da] = existing.id;
+        cats[v.da] = existing ? existing.id : "";
       });
       setAnalysis(parsed);
       setSelected(sel);
@@ -14879,7 +14992,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     if (!analysis) return;
     const toAdd = (analysis.vocabulary || [])
       .filter((v) => selected[v.da])
-      .map((v) => ({ type: "word", front: v.da, back: v.en, category: itemCategory[v.da] || categories[0]?.id }));
+      .map((v) => ({ type: "word", front: v.da, back: v.en, category: itemCategory[v.da] || "" }));
     if (toAdd.length === 0) return;
     addCards(toAdd);
     setAnalysis(null);
@@ -15010,11 +15123,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
                 }}
                 style={{ ...inputStyle, width: "auto", padding: "6px 8px", fontSize: 12.5 }}
               >
-                {categories.map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.name}
-                  </option>
-                ))}
+                <CategoryOptions categories={categories} />
                 <option value="__new__cat">+ New category…</option>
               </select>
               <button
@@ -15147,20 +15256,6 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
                 ))}
               </div>
 
-              <Field label="Category">
-                <CategoryPicker
-                  categories={categories}
-                  value={(pointCategory[i] || "").startsWith("__new__") ? "" : pointCategory[i] || ""}
-                  onChange={(v) => setPointCategory({ ...pointCategory, [i]: v })}
-                  allowNew
-                  onAddCategory={(name) => addCategory(name)}
-                />
-                {(pointCategory[i] || "").startsWith("__new__") && (
-                  <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--fjord)", marginTop: 4 }}>
-                    Will create new category: {(pointCategory[i] || "").replace("__new__", "")}
-                  </div>
-                )}
-              </Field>
             </div>
           ))}
 
@@ -15203,11 +15298,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
                   onChange={(e) => setItemCategory({ ...itemCategory, [v.da]: e.target.value })}
                   style={{ ...inputStyle, width: "auto", padding: "5px 6px", fontSize: 11.5, flexShrink: 0 }}
                 >
-                  {categories.map((c) => (
-                    <option key={c.id} value={c.id}>
-                      {c.name}
-                    </option>
-                  ))}
+                  <CategoryOptions categories={categories} />
                 </select>
               </div>
             ))}
@@ -15242,14 +15333,13 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
   const [lookupLoading, setLookupLoading] = useState(false);
   const [lookupError, setLookupError] = useState("");
   const [lookupResult, setLookupResult] = useState(null);
-  const [lookupCategory, setLookupCategory] = useState(categories[0]?.id || "");
+  const [lookupCategory, setLookupCategory] = useState("");
 
   // Analyze sentence — same grammar-breakdown flow as the text panel.
   const [sentenceLoading, setSentenceLoading] = useState(false);
   const [sentenceError, setSentenceError] = useState("");
   const [sentenceResult, setSentenceResult] = useState(null);
   const [sentenceSelected, setSentenceSelected] = useState({});
-  const [pointCategory, setPointCategory] = useState({});
 
   // Word-insight popup for the Translate result, same as elsewhere.
   const [insightFor, setInsightFor] = useState(null);
@@ -15386,13 +15476,11 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     setSentenceError("");
     setSentenceResult(null);
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const reply = await callVision(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context, and suggest the single best-fitting category for it — prefer an existing category if one genuinely fits. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
-          "Existing categories to prefer if one fits: " +
-          (categoryNames || "(none yet)") +
-          '. \n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}], "suggestedCategory": "..."}]} — correctionNote should be an empty string when there was nothing to correct.',
+          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + " " +
+          '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
         "Analyze the grammar of the text in this photo."
       );
       const parsed = parseJSONLoose(reply);
@@ -15403,14 +15491,10 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
       }
       setSentenceResult({ correctionNote: parsed.correctionNote || "", grammarPoints: points });
       const initialSelected = {};
-      const initialCategory = {};
       points.forEach((p, i) => {
         initialSelected[i] = { grammar: true, main: true, examples: { 0: true, 1: true } };
-        const existing = categories.find((c) => c.name.toLowerCase() === (p.suggestedCategory || "").toLowerCase());
-        initialCategory[i] = existing ? existing.id : "__new__" + (p.suggestedCategory || "");
       });
       setSentenceSelected(initialSelected);
-      setPointCategory(initialCategory);
     } catch (e) {
       setSentenceError(apiErrorMessage(e));
     } finally {
@@ -15423,8 +15507,8 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     const toAdd = [];
     sentenceResult.grammarPoints.forEach((point, i) => {
       const sel = sentenceSelected[i] || {};
-      let catId = pointCategory[i] || "";
-      if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New grammar point");
+      // Lessons go in Grammar Lessons; their example sentences need no category.
+      const catId = "";
       if (sel.grammar) {
         toAdd.push({
           type: "grammar",
@@ -15450,9 +15534,9 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     setLoading(true);
     setError("");
     try {
-      const categoryNames = categories.map((c) => c.name).join(", ");
+      const categoryNames = topicNamesForAI(categories);
       const system =
-        "You help an intermediate self-taught Danish learner build flashcards from photos of text (book pages, signs, notes, apps). First, briefly note any grammar or sentence structures worth pointing out in this specific text (2-3 sentences, plain English) — skip this if the image is just a word list with nothing notable. Then extract every distinct Danish word or sentence visible, with a natural English translation for each, and the single best-fitting category for each item individually (e.g. by part of speech or topic) — be precise about each word's actual part of speech as used here before choosing a category (don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective) — prefer an existing category if one genuinely fits, otherwise suggest a short new one. Different items usually mix nouns, verbs, and other parts of speech, so don't give them all the same category. Keep the vocabulary list focused and useful — skip page numbers, headers, or noise. " +
+        "You help an intermediate self-taught Danish learner build flashcards from photos of text (book pages, signs, notes, apps). First, briefly note any grammar or sentence structures worth pointing out in this specific text (2-3 sentences, plain English) — skip this if the image is just a word list with nothing notable. Then extract every distinct Danish word or sentence visible, with a natural English translation for each, and the single best-fitting category for each item individually." + CATEGORY_RULE + " Different items can get different categories, or none. Keep the vocabulary list focused and useful — skip page numbers, headers, or noise. " +
         'Respond ONLY with JSON, no other text: {"grammarNotes": "...", "items": [{"danish": "...", "english": "...", "type": "word", "category": "..."}]} where "type" is "word" for single words/short phrases and "sentence" for full sentences. Use an empty string for grammarNotes if there is nothing worth noting. ' +
         "Existing categories to prefer if one fits: " +
         (categoryNames || "(none yet)");
@@ -15466,15 +15550,15 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
       const sel = {};
       const cats = {};
       list.forEach((it, i) => {
-        const name = (it.category || "Uncategorized").trim();
-        let existing = workingCategories.find((c) => c.name.toLowerCase() === name.toLowerCase());
-        if (!existing) {
+        const name = aiCategoryName(it.category);
+        let existing = name ? workingCategories.find((c) => c.name.toLowerCase() === name.toLowerCase()) : null;
+        if (name && !existing) {
           const id = addCategory(name);
           existing = { id, name, custom: true };
           workingCategories.push(existing);
         }
         sel[i] = true;
-        cats[i] = existing.id;
+        cats[i] = existing ? existing.id : "";
       });
       setItems(list);
       setGrammarNotes(parsed.grammarNotes || "");
@@ -15490,7 +15574,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
   function addSelected() {
     const toAdd = items
       .filter((_, i) => selected[i])
-      .map((it, i) => ({ type: it.type === "sentence" ? "sentence" : "word", front: it.danish, back: it.english, category: itemCategory[i] || categories[0]?.id }));
+      .map((it, i) => ({ type: it.type === "sentence" ? "sentence" : "word", front: it.danish, back: it.english, category: itemCategory[i] || "" }));
     if (toAdd.length === 0) return;
     addCards(toAdd);
     setItems([]);
@@ -15689,11 +15773,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
               }}
               style={{ ...inputStyle, width: "auto", padding: "6px 8px", fontSize: 12.5 }}
             >
-              {categories.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.name}
-                </option>
-              ))}
+              <CategoryOptions categories={categories} />
               <option value="__new__cat">+ New category…</option>
             </select>
             <button
@@ -15807,20 +15887,6 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
                   </label>
                 ))}
               </div>
-              <Field label="Category">
-                <CategoryPicker
-                  categories={categories}
-                  value={(pointCategory[i] || "").startsWith("__new__") ? "" : pointCategory[i] || ""}
-                  onChange={(v) => setPointCategory({ ...pointCategory, [i]: v })}
-                  allowNew
-                  onAddCategory={(name) => addCategory(name)}
-                />
-                {(pointCategory[i] || "").startsWith("__new__") && (
-                  <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--fjord)", marginTop: 4 }}>
-                    Will create new category: {(pointCategory[i] || "").replace("__new__", "")}
-                  </div>
-                )}
-              </Field>
             </div>
           ))}
           <button onClick={addSentenceSelected} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "10px", fontSize: 14, marginTop: 16 }}>
@@ -15857,11 +15923,7 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
                 onChange={(e) => setItemCategory({ ...itemCategory, [i]: e.target.value })}
                 style={{ ...inputStyle, width: "auto", padding: "5px 6px", fontSize: 11.5, flexShrink: 0 }}
               >
-                {categories.map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.name}
-                  </option>
-                ))}
+                <CategoryOptions categories={categories} />
               </select>
             </div>
           ))}
