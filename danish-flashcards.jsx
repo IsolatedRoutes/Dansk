@@ -9534,6 +9534,128 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
+    name: "Question words",
+    level: 1,
+    rule: "Question words come first, then the verb, then the subject. The main ones are hvad (what), hvem (who), hvor (where), hvornår (when), hvorfor (why) and hvordan (how).",
+    pattern: "**Hvor** bor **du**? · **Hvad** hedder **du**?",
+    examples: [
+      ["**Hvad** hedder du?", "What's your name?"],
+      ["**Hvem** er det?", "Who is that?"],
+      ["**Hvornår** kommer toget?", "When does the train come?"],
+      ["**Hvordan** har du det?", "How are you?"],
+    ],
+  },
+  {
+    name: "Joining sentences: og, men, eller",
+    level: 1,
+    rule: "Og (and), men (but) and eller (or) join two sentences without changing the word order. Each half stays a normal sentence.",
+    pattern: "…, **men** jeg arbejder stadig.",
+    examples: [
+      ["Jeg er træt, **men** jeg arbejder stadig.", "I'm tired, but I'm still working."],
+      ["Vi spiser, **og** så går vi hjem.", "We eat, and then we go home."],
+      ["Vil du have te **eller** kaffe?", "Do you want tea or coffee?"],
+    ],
+  },
+  {
+    name: "Place: i and på",
+    level: 1,
+    rule: "I means “in”. På means “on” or “at”. Use i with countries and cities (i Danmark, i Aarhus), and på with islands (på Fyn) and many everyday places, like på arbejde and på kontoret.",
+    pattern: "**i** Danmark · **på** Fyn · **på** arbejde",
+    examples: [
+      ["Jeg bor **i** Aarhus.", "I live in Aarhus."],
+      ["Bogen ligger **på** bordet.", "The book is on the table."],
+      ["Hun er **på** arbejde.", "She is at work."],
+    ],
+  },
+  {
+    name: "Telling the time: klokken",
+    level: 1,
+    rule: "Say klokken (“o'clock”) and then the number. Be careful with halv: it means half way to the next hour, so halv fire is 3:30, not 4:30.",
+    pattern: "Klokken er **halv** fire = 3:30",
+    examples: [
+      ["**Klokken** er otte.", "It's eight o'clock."],
+      ["**Klokken** er halv fem.", "It's half past four."],
+      ["Vi spiser **klokken** seks.", "We eat at six o'clock."],
+    ],
+  },
+  {
+    name: "Numbers: 21 and up",
+    level: 1,
+    rule: "From 21 to 99, the ones come first and then og and the tens, so 25 is “five-and-twenty”. The tens 50 to 90 are unusual: halvtreds, tres, halvfjerds, firs, halvfems.",
+    pattern: "21 = **en**og**tyve** · 25 = **fem**og**tyve** · 50 = halvtreds",
+    examples: [
+      ["Jeg er femogtredive år.", "I am thirty-five years old."],
+      ["Det koster niogfirs kroner.", "It costs eighty-nine kroner."],
+      ["Hun er toogtyve år gammel.", "She is twenty-two years old."],
+    ],
+  },
+  {
+    name: "No capital letters",
+    level: 1,
+    rule: "Danish uses small letters for days, months, languages and nationalities. Capitals are only for the start of a sentence and for names of people, places and so on.",
+    pattern: "mandag · januar · dansk · dansker",
+    examples: [
+      ["Vi ses i **januar**.", "See you in January."],
+      ["Hun taler **dansk**.", "She speaks Danish."],
+      ["Han er **dansker**.", "He is Danish."],
+    ],
+  },
+  {
+    name: "Owning something: the -s ending",
+    level: 1,
+    rule: "To show who owns something, add -s to the owner. There is no apostrophe, except after a name that already ends in s.",
+    pattern: "Anna → Anna**s** bil · min mor → min mor**s** hus",
+    examples: [
+      ["Det er Anna**s** bil.", "It's Anna's car."],
+      ["Hvor er min mor**s** hus?", "Where is my mother's house?"],
+      ["Jens**'** bog er ny.", "Jens's book is new."],
+    ],
+  },
+  {
+    name: "Many and much: mange, meget",
+    level: 1,
+    rule: "Mange goes with things you can count (plural). Meget goes with things you can't count (singular). The same split is få (few) and lidt (a little).",
+    pattern: "**mange** venner · **meget** vand · **få** biler · **lidt** tid",
+    examples: [
+      ["Jeg har **mange** venner.", "I have many friends."],
+      ["Der er **meget** vand.", "There is a lot of water."],
+      ["Jeg har kun **lidt** tid.", "I only have a little time."],
+    ],
+  },
+  {
+    name: "Liking things: kan lide",
+    level: 1,
+    rule: "“To like” is kan lide. Use at after it when the next word is a verb. Add godt for “really do like”. For people you care about, holde af is also common.",
+    pattern: "Jeg **kan lide** kaffe · Jeg **kan lide at** svømme",
+    examples: [
+      ["Jeg **kan lide** kaffe.", "I like coffee."],
+      ["Hun **kan lide at** svømme.", "She likes to swim."],
+      ["Jeg **holder af** dig.", "I care about you."],
+    ],
+  },
+  {
+    name: "It: den and det",
+    level: 1,
+    rule: "For “it”, use den for an en-word and det for an et-word. Det is also used when there is no real subject, like the weather.",
+    pattern: "**Bilen** → **den** · **Huset** → **det** · **Det** regner",
+    examples: [
+      ["Hvor er bilen? **Den** er der.", "Where is the car? It is there."],
+      ["Hvor er huset? **Det** er der.", "Where is the house? It is there."],
+      ["**Det** regner i dag.", "It's raining today."],
+    ],
+  },
+  {
+    name: "Jobs: no en or et",
+    level: 1,
+    rule: "When you say what someone is, you usually leave out en or et. Add it back if you also use an adjective.",
+    pattern: "Jeg er **lærer** · Hun er **en** god **læge**",
+    examples: [
+      ["Jeg er lærer.", "I am a teacher."],
+      ["Han er kok.", "He is a cook."],
+      ["Hun er **en** god læge.", "She is a good doctor."],
+    ],
+  },
+  {
     name: "Word order: verb second",
     was: ["V2 word order (verb-second)"],
     level: 2,
@@ -9649,6 +9771,160 @@ const STARTER_GRAMMAR = [
       ["Jeg **lægger** bogen på bordet.", "I put the book on the table."],
       ["Bogen **ligger** på bordet.", "The book is on the table."],
       ["Glasset **står** på bordet.", "The glass is on the table."],
+    ],
+  },
+  {
+    name: "Past participles: -et and -t",
+    level: 2,
+    rule: "The “done” form (participle) of a verb ends in -et if the past tense ends in -ede, and in -t if it ends in -te. Irregular verbs have their own, like gået and set.",
+    pattern: "arbejde → arbejd**et** · købe → købt · gå → gået",
+    examples: [
+      ["Jeg har arbejd**et**.", "I have worked."],
+      ["Vi har købt brød.", "We have bought bread."],
+      ["Han er gået hjem.", "He has gone home."],
+    ],
+  },
+  {
+    name: "Adverbs: the -t form",
+    level: 2,
+    rule: "To say how something is done, Danish often uses the same -t form of the adjective as et-words do. Some adverbs, like flot, already end in t.",
+    pattern: "hurtig → hurtig**t** · god → god**t**",
+    examples: [
+      ["Han taler hurtig**t**.", "He speaks quickly."],
+      ["Det går god**t**.", "It's going well."],
+      ["Hun synger flot.", "She sings beautifully."],
+    ],
+  },
+  {
+    name: "Det is + adjective with -t",
+    level: 2,
+    rule: "When det (or a whole activity) is the subject and no noun follows, the adjective takes -t, even though there is no et-word.",
+    pattern: "Det er dyr**t** · At rejse er dyr**t**",
+    examples: [
+      ["Det er dejlig**t**.", "It's lovely."],
+      ["Det er svær**t**.", "It is difficult."],
+      ["At rejse er dyr**t**.", "Travelling is expensive."],
+    ],
+  },
+  {
+    name: "Equal comparisons: lige så … som",
+    level: 2,
+    rule: "To say two things are equal, use lige så and som. To say one is less, use ikke så and som.",
+    pattern: "**lige så** høj **som** · **ikke så** høj **som**",
+    examples: [
+      ["Han er **lige så** høj **som** mig.", "He is as tall as me."],
+      ["Jeg er **ikke så** høj **som** dig.", "I'm not as tall as you."],
+      ["Det er **lige så** godt **som** før.", "It's just as good as before."],
+    ],
+  },
+  {
+    name: "Compound words",
+    level: 2,
+    rule: "Danish glues words together into one long word. The new word takes the gender of the last part, and sometimes an -s- or -e- joins the parts.",
+    pattern: "bil + nøgle = **bilnøgle** · arbejde + dag = **arbejdsdag**",
+    examples: [
+      ["en **bilnøgle**", "a car key"],
+      ["en **arbejdsdag**", "a working day"],
+      ["et **sommerhus**", "a summer house"],
+    ],
+  },
+  {
+    name: "When: da and når",
+    level: 2,
+    rule: "Both mean “when”. Use da for one time in the past, and når for the present, the future, or something that happens again and again.",
+    pattern: "**Da** jeg var barn… · **Når** jeg har tid…",
+    examples: [
+      ["**Da** jeg var barn, boede jeg her.", "When I was a child, I lived here."],
+      ["**Når** jeg har tid, læser jeg.", "When I have time, I read."],
+      ["Ring, **når** du kommer hjem.", "Call when you get home."],
+    ],
+  },
+  {
+    name: "Verbs with particles: stå op, tage på",
+    level: 2,
+    rule: "Many Danish verbs have a small word that goes with them, like stå op (get up) or tage på (put on). The two parts stay together unless there is a short object, which goes between them, even in the infinitive.",
+    pattern: "at **stå op** · Jeg **står op** · at tage jakken **på**",
+    examples: [
+      ["Jeg **står op** klokken syv.", "I get up at seven."],
+      ["Jeg skal **stå op** tidligt.", "I have to get up early."],
+      ["Hun **tager** jakken **på**.", "She puts the jacket on."],
+    ],
+  },
+  {
+    name: "Questions inside a sentence",
+    level: 2,
+    rule: "A question inside a longer sentence keeps the normal order: subject, then the verb. Use om for yes/no questions (“whether”).",
+    pattern: "Jeg ved ikke, **hvor han bor**.",
+    examples: [
+      ["Jeg ved ikke, **hvor han bor**.", "I don't know where he lives."],
+      ["Kan du sige, **hvornår toget kommer**?", "Can you tell me when the train comes?"],
+      ["Hun spurgte, **om jeg kunne komme**.", "She asked whether I could come."],
+    ],
+  },
+  {
+    name: "If: hvis",
+    level: 3,
+    rule: "Hvis (if) is followed by subject and verb. In the main part that comes after, the verb comes first. For something unlikely or imaginary, use the past tense after hvis and ville in the main part.",
+    pattern: "**Hvis** jeg har tid, **kommer** jeg.",
+    examples: [
+      ["**Hvis** det regner, bliver vi hjemme.", "If it rains, we'll stay home."],
+      ["**Hvis** jeg havde tid, ville jeg komme.", "If I had time, I would come."],
+      ["**Hvis** du vil, kan vi gå.", "If you want, we can go."],
+    ],
+  },
+  {
+    name: "Who and which: som",
+    level: 3,
+    rule: "Som links a description to a noun. It means “who”, “which” or “that”. It can't be left out if it's the subject, but it can be left out if it's the object.",
+    pattern: "Manden, **som** bor her, er lærer.",
+    examples: [
+      ["Manden, **som** bor her, er lærer.", "The man who lives here is a teacher."],
+      ["Det er bogen, **som** jeg læser.", "It's the book that I'm reading."],
+      ["Det er bogen, jeg læser.", "It's the book I'm reading."],
+    ],
+  },
+  {
+    name: "The passive: -s and blive",
+    level: 3,
+    rule: "To say something is done to something, add -s to the verb or use blive plus the participle. Blive is more common in everyday speech.",
+    pattern: "Døren luk**kes** · Huset **bliver** bygget",
+    examples: [
+      ["Døren luk**kes** klokken seks.", "The door is closed at six."],
+      ["Brevet **bliver** sendt i dag.", "The letter is being sent today."],
+      ["Huset **blev** bygget i 1990.", "The house was built in 1990."],
+    ],
+  },
+  {
+    name: "To do something: for at, uden at",
+    level: 3,
+    rule: "Some small phrases take at and a verb: for at (in order to), uden at (without) and i stedet for at (instead of).",
+    pattern: "**for at** lære · **uden at** sige · **i stedet for at** gå",
+    examples: [
+      ["Jeg læser **for at** lære dansk.", "I study in order to learn Danish."],
+      ["Hun gik **uden at** sige noget.", "She left without saying anything."],
+      ["Vi blev hjemme **i stedet for at** gå ud.", "We stayed home instead of going out."],
+    ],
+  },
+  {
+    name: "His own or someone else's: sin and hans",
+    level: 3,
+    rule: "Sin, sit and sine mean “his/her own” and point back to the subject. Hans and hendes mean someone else's. For “their”, use deres.",
+    pattern: "Han tager **sin** bog · Hun ser **hans** bog",
+    examples: [
+      ["Han tager **sin** bog.", "He takes his (own) book."],
+      ["Hun ser **hans** bog.", "She sees his (someone else's) book."],
+      ["Hun elsker **sin** mand.", "She loves her (own) husband."],
+    ],
+  },
+  {
+    name: "Past perfect: havde and var",
+    level: 3,
+    rule: "For something that happened before another past event, use havde or var with the participle. It works like har and er in the present perfect.",
+    pattern: "Jeg **havde** spist · Hun **var** rejst",
+    examples: [
+      ["Jeg **havde** spist, da han kom.", "I had eaten when he came."],
+      ["Hun **var** rejst, før jeg ringede.", "She had left before I called."],
+      ["Det **var** blevet mørkt.", "It had gotten dark."],
     ],
   },
 ];
@@ -10019,7 +10295,7 @@ function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "3";
+const GRAMMAR_VERSION = "4";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
