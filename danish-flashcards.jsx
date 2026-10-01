@@ -99,7 +99,16 @@ function unpackCards(list) {
   return list.map((card) => ({ ...CARD_DEFAULTS, examples: [], ...card }));
 }
 
-async function persistWithRetry(key, value) {
+// Saves go out one at a time, in order, so a slower earlier save can never
+// land after (and overwrite) a newer one.
+let saveQueue = Promise.resolve();
+function persistWithRetry(key, value) {
+  const run = saveQueue.then(() => persistNow(key, value));
+  saveQueue = run.catch(() => {});
+  return run;
+}
+
+async function persistNow(key, value) {
   if (key === "cards") value = packCards(value);
   let lastError = "unknown error";
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -9695,13 +9704,108 @@ function migrateVocabCorrections(cards) {
       } else {
         const idx = seen.get(key);
         const existing = deduped[idx];
-        deduped[idx] = { ...existing, known: existing.known || card.known, starred: existing.starred || card.starred };
+        deduped[idx] = mergeProgress(existing, card);
       }
     }
     newCards = deduped;
   }
 
   return changed ? newCards : null;
+}
+
+// ---------- protecting saved progress ----------
+// Progress = which cards are known / starred / hidden, any notes, and the
+// person's own cards. Every update to the built-in list (renamed words,
+// re-sorted topics, reworded lessons) must carry all of it across. The
+// helpers below are the safety net the startup code wraps around every
+// migration, so even a mistake in a future migration can't quietly lose it.
+
+// Combines two copies of the same card without losing anything either had.
+function mergeProgress(a, b) {
+  return {
+    ...a,
+    known: !!(a.known || b.known),
+    starred: !!(a.starred || b.starred),
+    ignored: !!(a.ignored || b.ignored),
+    notes: [a.notes, b.notes].filter((n) => n && n.trim()).filter((n, i, all) => all.indexOf(n) === i).join("\n"),
+    recentTouch: Math.max(a.recentTouch || 0, b.recentTouch || 0) || undefined,
+    starter: !!(a.starter && b.starter),
+  };
+}
+
+// The current spelling of a card's front, following any renames in
+// VOCAB_CORRECTIONS (words) or a lesson's earlier names (grammar), so a
+// card can be recognised across versions.
+function canonicalKey(type, front) {
+  let f = (front || "").trim();
+  if (type === "grammar") {
+    const point = STARTER_GRAMMAR.find((p) => (p.was || []).some((w) => w.toLowerCase() === f.toLowerCase()));
+    if (point) f = point.name;
+  } else {
+    for (let i = 0; i < 4 && VOCAB_CORRECTIONS[f] !== undefined; i++) f = VOCAB_CORRECTIONS[f];
+  }
+  return type + ":" + f.toLowerCase();
+}
+
+// Taken before any migration runs.
+function snapshotProgress(cards) {
+  const progress = new Map();
+  const ownCards = [];
+  cards.forEach((c) => {
+    const key = canonicalKey(c.type, c.front);
+    if (c.known || c.starred || c.ignored || (c.notes && c.notes.trim())) {
+      const prev = progress.get(key);
+      progress.set(key, prev ? mergeProgress(prev, c) : c);
+    }
+    if (!c.starter) ownCards.push({ key, card: c });
+  });
+  return { progress, ownCards };
+}
+
+// Run after all migrations: puts back any known / starred / hidden mark
+// or note that went missing, and any of the person's own cards that
+// disappeared. Returns null when nothing was lost (the normal case).
+function restoreProgress(cards, snapshot) {
+  let changed = false;
+  const byKey = new Map();
+  let next = cards.map((c) => {
+    const key = canonicalKey(c.type, c.front);
+    byKey.set(key, true);
+    const before = snapshot.progress.get(key);
+    if (!before) return c;
+    const merged = mergeProgress(c, before);
+    merged.starter = c.starter; // keep the card's own origin
+    if (merged.known === !!c.known && merged.starred === !!c.starred && merged.ignored === !!c.ignored && (merged.notes || "") === (c.notes || "")) return c;
+    changed = true;
+    return merged;
+  });
+  snapshot.ownCards.forEach(({ key, card }) => {
+    if (byKey.has(key)) return;
+    byKey.set(key, true);
+    next = [...next, card];
+    changed = true;
+  });
+  return changed ? next : null;
+}
+
+// Built-in cards the person deleted are remembered (by their Danish text)
+// so the "top up any missing starter words" step never brings them back.
+async function loadDeletedKeys() {
+  try {
+    const list = JSON.parse((await storeGet("deletedStarterCards")) || "[]");
+    return new Set(list.map((k) => {
+      const [type, ...rest] = k.split(":");
+      return canonicalKey(type, rest.join(":"));
+    }));
+  } catch (e) {
+    return new Set();
+  }
+}
+async function rememberDeleted(card) {
+  if (!card || !card.starter) return;
+  const keys = await loadDeletedKeys();
+  keys.add(canonicalKey(card.type, card.front));
+  await storeSet("deletedStarterCards", JSON.stringify([...keys]));
 }
 
 // Keeps every word card's level / verb forms in sync with the built-in
@@ -9721,7 +9825,7 @@ function applyWordMeta(cards) {
   return changed ? next : null;
 }
 
-function buildStarterAdditions(existingCategories, existingFrontsSet) {
+function buildStarterAdditions(existingCategories, existingFrontsSet, deletedKeys = new Set()) {
   const existingCatNames = new Set(existingCategories.map((c) => c.name.toLowerCase()));
   const newCategories = Object.keys(STARTER_WORDS)
     .filter((name) => name && !existingCatNames.has(name.toLowerCase()))
@@ -9742,7 +9846,7 @@ function buildStarterAdditions(existingCategories, existingFrontsSet) {
   Object.entries(STARTER_WORDS).forEach(([catName, list]) => {
     list.forEach(([da, en]) => {
       const key = da.trim().toLowerCase();
-      if (seen.has(key)) return;
+      if (seen.has(key) || deletedKeys.has("word:" + key)) return;
       seen.add(key);
       const meta = wordMetaFor(da) || {};
       newCards.push({
@@ -9762,7 +9866,7 @@ function buildStarterAdditions(existingCategories, existingFrontsSet) {
   const grammarLessonsId = nameToId["grammar lessons"];
   STARTER_GRAMMAR.forEach((point) => {
     const key = point.name.trim().toLowerCase();
-    if (seen.has(key) || (point.was || []).some((w) => seen.has(w.trim().toLowerCase()))) return;
+    if (seen.has(key) || deletedKeys.has("grammar:" + key) || (point.was || []).some((w) => seen.has(w.trim().toLowerCase()))) return;
     seen.add(key);
     newCards.push({
       id: stableStarterId(point.name),
@@ -11068,6 +11172,16 @@ export default function DanishFlashcards() {
     await performBackupExport(cards, categories, showToast);
   }
 
+  // If the app is open in two tabs, a change saved in one reloads the
+  // other, so an older tab can never save its stale copy over newer progress.
+  useEffect(() => {
+    function onStorage(e) {
+      if (e.key === "cards" || e.key === "categories") window.location.reload();
+    }
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
   const showToast = useCallback((msg) => {
     setToast(msg);
     setTimeout(() => setToast(null), 2400);
@@ -11077,14 +11191,29 @@ export default function DanishFlashcards() {
     (async () => {
       let c = [];
       let cat = DEFAULT_CATEGORIES;
-      try {
-        const raw = await storeGet("cards");
-        if (raw) c = unpackCards(JSON.parse(raw));
-      } catch (e) {}
+      // If saved data ever can't be read, it's moved aside (never just
+      // overwritten) so it can still be recovered.
+      const rawCards = await storeGet("cards");
+      if (rawCards) {
+        try {
+          c = unpackCards(JSON.parse(rawCards));
+          if (!Array.isArray(c)) throw new Error("not a list");
+        } catch (e) {
+          c = [];
+          await storeSet("cards_unreadable_" + Date.now(), rawCards);
+        }
+      }
       try {
         const raw = await storeGet("categories");
         if (raw) cat = JSON.parse(raw);
-      } catch (e) {}
+        if (!Array.isArray(cat)) cat = DEFAULT_CATEGORIES;
+      } catch (e) {
+        cat = DEFAULT_CATEGORIES;
+      }
+      // Everything the person has done, captured before any update below
+      // touches the data — put back at the end if anything went missing.
+      const progressBefore = snapshotProgress(c);
+      const deletedKeys = await loadDeletedKeys();
 
       // One-time cleanup for anyone who already has the old confusing
       // empty default categories saved — safe to drop only if nothing
@@ -11173,9 +11302,18 @@ export default function DanishFlashcards() {
       // button, no visible prompt. This quietly tops up anything missing,
       // whether that's a first-ever launch with nothing yet, or an
       // existing deck from before a later vocabulary expansion.
+      // Safety net: re-apply any progress or own cards an update lost.
+      let progressRestored = false;
+      const restored = restoreProgress(c, progressBefore);
+      if (restored) {
+        c = restored;
+        progressRestored = true;
+      }
+
       const existingFronts = new Set(c.map((card) => card.front.trim().toLowerCase()));
-      const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts);
-      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced) {
+      const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts, deletedKeys);
+      let savedOk = true;
+      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored) {
         cat = combinedCategories;
         c = [
           ...c,
@@ -11189,11 +11327,14 @@ export default function DanishFlashcards() {
             ...card,
           })),
         ];
-        await persistWithRetry("categories", JSON.stringify(cat));
-        await persistWithRetry("cards", JSON.stringify(c));
+        const catSaved = await persistWithRetry("categories", JSON.stringify(cat));
+        const cardsSaved = await persistWithRetry("cards", JSON.stringify(c));
+        savedOk = catSaved.ok && cardsSaved.ok;
       }
-      if (topicsMigrated) storeSet("categoryLayout", CATEGORY_LAYOUT_VERSION).catch(() => {});
-      if (grammarSynced) storeSet("grammarVersion", GRAMMAR_VERSION).catch(() => {});
+      // Only mark an update as done once its result is actually saved —
+      // otherwise it simply runs again next time.
+      if (savedOk && topicsMigrated) await storeSet("categoryLayout", CATEGORY_LAYOUT_VERSION);
+      if (savedOk && grammarSynced) await storeSet("grammarVersion", GRAMMAR_VERSION);
 
       setCards(c);
       setCategories(cat);
@@ -11201,8 +11342,13 @@ export default function DanishFlashcards() {
     })();
   }, []);
 
+  // Always the latest deck, so two quick taps (mark known, then star)
+  // can't each start from an old copy and undo one another.
+  const cardsRef = useRef(cards);
+  cardsRef.current = cards;
   const persistCards = useCallback(
     async (next) => {
+      cardsRef.current = next;
       setCards(next);
       const result = await persistWithRetry("cards", JSON.stringify(next));
       if (!result.ok) showToast("Couldn't save (" + result.error + ")");
@@ -11237,11 +11383,20 @@ export default function DanishFlashcards() {
   // Wholesale replace, for restoring an exported backup — bypasses the
   // normal incremental add/duplicate-check path since a restore should
   // just put back exactly what was exported.
+  // A backup may come from an older version of the app, so after restoring
+  // it, the one-time updates are reset and the app restarts — the restored
+  // deck then goes through the same safe update path as any old deck.
   const replaceAllData = useCallback(
     async (newCards, newCategories) => {
       const catResult = await persistCategories(newCategories);
-      const cardResult = await persistCards(newCards);
-      return catResult.ok && cardResult.ok;
+      const cardResult = await persistCards(unpackCards(newCards));
+      const ok = catResult.ok && cardResult.ok;
+      if (ok) {
+        await storeSet("categoryLayout", "");
+        await storeSet("grammarVersion", "");
+        setTimeout(() => window.location.reload(), 1200);
+      }
+      return ok;
     },
     [persistCategories, persistCards]
   );
@@ -11340,14 +11495,16 @@ export default function DanishFlashcards() {
 
   const updateCard = useCallback(
     (id, patch) => {
-      persistCards(cards.map((c) => (c.id === id ? { ...c, ...patch } : c)));
+      persistCards(cardsRef.current.map((c) => (c.id === id ? { ...c, ...patch } : c)));
     },
-    [cards, persistCards]
+    [persistCards]
   );
 
   const deleteCard = useCallback(
     async (id) => {
-      const result = await persistCards(cards.filter((c) => c.id !== id));
+      const gone = cardsRef.current.find((c) => c.id === id);
+      await rememberDeleted(gone);
+      const result = await persistCards(cardsRef.current.filter((c) => c.id !== id));
       if (result.ok) {
         let msg = "Card deleted";
         if (result.degraded && !degradedWarned.current) {
@@ -12998,10 +13155,10 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
           <button onClick={onExplore} style={iconBtn} aria-label="Explore related words">
             <Icon.Lightbulb size={15} />
           </button>
-          <button onClick={onEdit} style={iconBtn}>
+          <button onClick={onEdit} style={iconBtn} aria-label="Edit card">
             <Icon.Edit3 size={15} />
           </button>
-          <button onClick={() => setConfirmingDelete(true)} style={iconBtn}>
+          <button onClick={() => setConfirmingDelete(true)} style={iconBtn} aria-label="Delete card">
             <Icon.Trash2 size={15} />
           </button>
         </div>
@@ -13807,8 +13964,18 @@ function markBackedUp(cards, categories) {
 
 // Shared by the Backup panel's own Export button and the auto-backup
 // prompt, so there's exactly one implementation of the actual save flow.
+const BACKUP_SETTING_KEYS = ["verbForms", "studyLevels", "nounOptions", "deletedStarterCards"];
+
 async function performBackupExport(cards, categories, showToast) {
-  const payload = { exportedAt: new Date().toISOString(), cards, categories };
+  // Study settings and deleted built-in words travel with the backup, so
+  // restoring on a new phone, computer or a future app version brings
+  // everything back, not just the cards.
+  const settings = {};
+  for (const key of BACKUP_SETTING_KEYS) {
+    const v = await storeGet(key);
+    if (v != null) settings[key] = v;
+  }
+  const payload = { exportedAt: new Date().toISOString(), cards, categories, settings };
   // Deliberately the same name every time (no date suffix) so each export
   // replaces the last one in Files/Downloads rather than piling up a new
   // file every time — the export timestamp still lives inside the file
@@ -13899,6 +14066,11 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
         ? window.confirm("This replaces everything currently in your deck (" + cards.length + " cards) with the " + parsed.cards.length + " cards from this backup. Continue?")
         : true;
       if (!confirmed) return;
+      if (parsed.settings && typeof parsed.settings === "object") {
+        for (const key of BACKUP_SETTING_KEYS) {
+          if (typeof parsed.settings[key] === "string") await storeSet(key, parsed.settings[key]);
+        }
+      }
       const ok = await replaceAllData(parsed.cards, parsed.categories);
       showToast(ok ? "Backup restored (" + parsed.cards.length + " cards)" : "Couldn't restore the backup");
     } catch (e) {
