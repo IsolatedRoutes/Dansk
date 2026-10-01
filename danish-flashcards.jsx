@@ -13079,7 +13079,8 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       .filter((c) => inLevelUpScope(c))
       .map((c) => ({ c, due: levelUpDueAt(c) }))
       .filter((x) => x.due != null && x.due <= now)
-      .sort((x, y) => x.due - y.due);
+      .sort((x, y) => x.due - y.due)
+      .slice(0, 12); // never more than 12 per session, so a long break doesn't flood it
     const dueIds = new Set(dueUps.map((x) => x.c.id));
     const filtered = cards.filter((c) => inScope(c) && !(unknownOnly && c.known) && !dueIds.has(c.id));
     // Phrases built on a word you already know (at gå → at gå ud fra)
@@ -13105,10 +13106,12 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
       // get a smaller key, so they land nearer the start.
       for (let i = 0; i < copies; i++) entries.push({ id: c.id, up: null, key: Math.random() * (buildsOnKnown(c) ? 0.5 : 1) });
     });
-    // About one card in five at most is a known word's new form.
-    const upCap = entries.length ? Math.max(2, Math.floor(entries.length / 4)) : 10;
-    dueUps.slice(0, upCap).forEach(({ c }) => entries.push({ id: c.id, up: c.upStage || 0, key: Math.random() }));
     entries.sort((x, y) => x.key - y.key);
+    // Due new forms are spread through the start of the session, about one
+    // card in five. Whatever is left over stays due for next time.
+    dueUps.forEach(({ c }, k) => {
+      entries.splice(Math.min(3 + k * 5, entries.length), 0, { id: c.id, up: c.upStage || 0 });
+    });
     const ids = entries.map((e) => e.id);
     setPoolIds(ids);
     setPoolUps(entries.map((e) => e.up));
