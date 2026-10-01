@@ -431,6 +431,20 @@ const CATEGORY_MERGE_MAP = {
 // seeded card gets fixed in place, rather than the corrected word being
 // added as a duplicate alongside the old wrong one.
 const VOCAB_CORRECTIONS = {
+  "at give en hånd": "at give en hånd med",
+  "det er ikke raketvidenskab": "det er ikke så svært",
+  "sladderagtig": "sladrevorn",
+  "et sygesikringskort": "et sundhedskort",
+  "bydeform": "bydemåde",
+  "en lettet følelse": "en følelse af lettelse",
+  "en vaskeseddel": "et vaskemærke",
+  "en email": "en e-mail",
+  "en indflyttergave": "en indflytningsgave",
+  "botanisk have": "en botanisk have",
+  "en boardingpas": "et boardingpas",
+  "en linjal": "en lineal",
+  "både ... og": "både…og",
+  "jeg hedder ...": "jeg hedder…",
   "at du": "at duge",
   "et afbræk": "en afbrydelse",
   // 8,000-word update: verbs now always start with "at", and uncountable
@@ -903,6 +917,17 @@ const VOCAB_CORRECTIONS = {
   "en fængsel": "et fængsel",
 };
 const VOCAB_TRANSLATION_CORRECTIONS = {
+  "at lide": "to suffer",
+  "køn": "pretty",
+  "spirituel": "witty",
+  "tankefuld": "pensive",
+  "det er ikke raketvidenskab": "it's not that hard",
+  "en skrællekniv": "a paring knife",
+  "en etagebolig": "an apartment in a multi-story building",
+  "en isenkræmmer": "a hardware dealer",
+  "en afbetaling": "an installment plan",
+  "en vaskeseddel": "a care label",
+  "en debattør": "a debater",
   "blæst": "wind",
   "en is (frozen water)": "ice cream / ice",
   "is (frozen water)": "ice cream / ice",
@@ -1230,7 +1255,6 @@ const VOCAB_TRANSLATION_CORRECTIONS = {
   "et blodtryk": "blood pressure",
   "at handle": "to shop / to act",
   "at prøve på": "to try to",
-  "køn": "pretty / gender",
   "hovedsagelig": "mainly",
   "at falde med næsen i smøret": "to strike lucky",
   "en firkant": "a square / four-sided shape",
@@ -2392,7 +2416,7 @@ at filme	to film		2	filmer|filmede|filmet		jeg filmer|jeg filmede|jeg har filmet
 at forlade	to leave		2	forlader|forlod|forladt		jeg forlader|jeg forlod|jeg har forladt	I leave|I left|I have left	v
 at fortælle	to tell		1	fortæller|fortalte|fortalt		jeg fortæller|jeg fortalte|jeg har fortalt	I tell|I told|I have told	v
 at hedde	to be called		1	hedder|hed|heddet		jeg hedder|jeg hed|jeg har heddet	I am called|I was called|I have been called	v
-at lide	to suffer / like		2	lider|led|lidt		jeg lider|jeg led|jeg har lidt	I suffer / like|I suffered / liked|I have suffered / liked	v
+at lide	to suffer		2	lider|led|lidt		jeg lider|jeg led|jeg har lidt	I suffer / like|I suffered / liked|I have suffered / liked	v
 at plyndre	to plunder / loot		4	plyndrer|plyndrede|plyndret		jeg plyndrer|jeg plyndrede|jeg har plyndret	I plunder / loot|I plundered / looted|I have plundered / looted	v
 at putte	to put		2	putter|puttede|puttet		jeg putter|jeg puttede|jeg har puttet	I put|I put|I have put	v
 at rense	to clean		2	renser|rensede|renset		jeg renser|jeg rensede|jeg har renset	I clean|I cleaned|I have cleaned	v
@@ -3377,7 +3401,7 @@ informeret	informed		3					a
 dramatisk	dramatic		3					a
 kraftig	strong / powerful / heavy		3					a
 yngst	youngest		2					a
-køn	pretty / gender		2					a
+køn	pretty		2					a
 misforstået	misunderstood		3					a
 forbløffende	astonishing		3					a
 avanceret	advanced		3					a
@@ -3670,13 +3694,13 @@ smertelig	painful		4					a
 snavset	dirty		2					a
 spartansk	spartan		4					a
 spinkel	slender / frail		4					a
-spirituel	spiritual		4					a
+spirituel	witty		4					a
 sporty	sporty	FS	3					a
 standhaftig	steadfast		4					a
 stemningsfuld	atmospheric		4					a
 stormfuld	stormy		4					a
 succesfuld	successful		3					a
-tankefuld	thoughtful		4					a
+tankefuld	pensive		4					a
 tankeløs	thoughtless		4					a
 tidskrævende	time-consuming		3					a
 tilfredsstillende	satisfying		3					a
@@ -4112,7 +4136,6 @@ så længe	as long as		2					c
 så snart	as soon as		2					c
 så vidt	as far as		3					c
 hellere end	rather than		2					c
-både ... og	both ... and		2					c
 bagved	behind		2					r
 ved siden af	next to		2					r
 hej	hi	GR	1					f
@@ -4356,7 +4379,7 @@ at gøre en forskel	to make a difference	IO	2	gør en forskel|gjorde en forskel|
 at tage det roligt	to take it easy	GR	2	tager det roligt|tog det roligt|taget det roligt		jeg tager det roligt|jeg tog det roligt|jeg har taget det roligt	I take it easy|I took it easy|I have taken it easy	v
 at tage en beslutning	to make a decision	GR	2	tager en beslutning|tog en beslutning|taget en beslutning		jeg tager en beslutning|jeg tog en beslutning|jeg har taget en beslutning	I make a decision|I made a decision|I have made a decision	v
 at tage sig tid	to take one's time	GR	2	tager sig tid|tog sig tid|taget sig tid		jeg tager mig tid|jeg tog mig tid|jeg har taget mig tid	I take my time|I took my time|I have taken my time	v
-at give en hånd	to give a hand	GR	2	giver en hånd|gav en hånd|givet en hånd		jeg giver en hånd|jeg gav en hånd|jeg har givet en hånd	I give a hand|I gave a hand|I have given a hand	v
+at give en hånd med	to give a hand	GR	2	giver en hånd|gav en hånd|givet en hånd		jeg giver en hånd|jeg gav en hånd|jeg har givet en hånd	I give a hand|I gave a hand|I have given a hand	v
 at få ret	to be proven right	GR	2	får ret|fik ret|fået ret		jeg får ret|jeg fik ret|jeg har fået ret	I am proven right|I was proven right|I have been proven right	v
 at få styr på	to get control of / sort out	GR	2	får styr på|fik styr på|fået styr på		jeg får styr på|jeg fik styr på|jeg har fået styr på	I get control of / sort out|I got control of / sorted out|I have gotten control of / sorted out	v
 at få nok	to have had enough	GR	2	får nok|fik nok|fået nok		jeg får nok|jeg fik nok|jeg har fået nok	I have had enough|I had had enough|I have had had enough	v
@@ -4383,7 +4406,7 @@ at få kolde fødder	to get cold feet	GR	3					f
 at være på Herrens mark	to be completely lost	GR	4					f
 at snakke om vejret	to make small talk	GR	2					f
 der er ingen ko på isen	there's nothing to worry about	GR	3					f
-det er ikke raketvidenskab	it's not rocket science	GR	3					f
+det er ikke så svært	it's not that hard	GR	3					f
 nu skal du høre	now listen	GR	2					f
 det var på høje tid	it was high time	GR	3					f
 det er hip som hap	it's six of one, half a dozen of the other	GR	3					f
@@ -4396,7 +4419,6 @@ en hilsen	a greeting	GR	2					n
 jeg beklager	I'm sorry (formal)	GR	2					f
 det er	it is / that is	GR	1					f
 det var så lidt	you're welcome / don't mention it	GR	1					f
-jeg hedder ...	my name is ...	GR	1					f
 er det ...?	is it ...?	GR	1					f
 hvordan har du det?	how are you?	GR	1					f
 kan jeg købe ...?	can I buy ...?	GR	1					f
@@ -4897,7 +4919,7 @@ tolerant	tolerant	FP	3					a
 beskyttende	protective	FP	3					a
 nærværende	present / attentive	FP	3					a
 fraværende	absent / absent-minded	FP	3					a
-sladderagtig	gossipy	FP	4					a
+sladrevorn	gossipy	FP	4					a
 snakkesalig	chatty	FP	3					a
 diplomatisk	diplomatic	FP	3					a
 et familiemedlem	a family member	PF	2					n
@@ -5324,7 +5346,7 @@ et målebæger	a measuring cup	FD	4					n
 en si	a sieve / strainer	FD	3					n
 et dørslag	a colander	FD	4					n
 et rivejern	a grater	FD	4					n
-en skrællekniv	a peeler	FD	4					n
+en skrællekniv	a paring knife	FD	4					n
 en stegepande	a frying pan	FD	3					n
 en kasserolle	a saucepan	FD	4					n
 et fad	a dish (serving)	FD	2					n
@@ -5719,7 +5741,7 @@ et kvarter	a neighborhood	TS	2					n
 en boligkarré	a city block	HH	4					n
 et husnummer	a house number	HH	2					n
 et postnummer	a postal code	HH	2					n
-en etagebolig	an apartment building	HH	4					n
+en etagebolig	an apartment in a multi-story building	HH	4					n
 en brandtrappe	a fire escape	HH	3					n
 en tagterrasse	a roof terrace	HH	3					n
 en gårdhave	a courtyard garden	HH	4					n
@@ -5808,7 +5830,7 @@ en dal	a valley	WN	2					n
 en slette	a plain	WN	3					n
 en rejseplan	an itinerary	TT	3					n
 en aflysning	a cancellation	TT	3					n
-en boardingpas	a boarding pass	TT	3					n
+et boardingpas	a boarding pass	TT	3					n
 en toldkontrol	a customs check	TT	3					n
 en ambassade	an embassy	TS	3					n
 en rejseforsikring	a travel insurance policy	TT	3					n
@@ -6708,7 +6730,7 @@ en blodprøve	a blood test	BH	2					n
 et røntgenbillede	an X-ray image	BH	3					n
 en bivirkning	a side effect	BH	3					n
 en tid hos lægen	a doctor's appointment	BH	2					n
-et sygesikringskort	a health insurance card	BH	3					n
+et sundhedskort	a health insurance card	BH	3					n
 øm	sore	BH	2					a
 hævet	swollen	BH	3					a
 kvalm	nauseous	BH	3					a
@@ -6898,7 +6920,7 @@ en skoletaske	a school bag	SL	2					n
 en blyant	a pencil	SL	1					n
 en pen	a pen	SL	1					n
 et viskelæder	an eraser	SL	2					n
-en linjal	a ruler	SL	2					n
+en lineal	a ruler	SL	2					n
 en tavle	a blackboard	SL	2					n
 et whiteboard	a whiteboard	SL	2					n
 et studiekort	a student card	SL	3					n
@@ -7049,7 +7071,6 @@ et fagområde	a field of study	SL	3					n
 billedkunst	art (school subject)	SL	3		en			n
 samfundsfag	social studies	SL	3		et			n
 et penalhus	a pencil case	SL	2					n
-en lineal	a ruler	SL	2					n
 en lommeregner	a calculator	SL	2					n
 et hæfte	a notebook	SL	2					n
 at søge job	to apply for a job	WJ	2	søger job|søgte job|søgt job		jeg søger job|jeg søgte job|jeg har søgt job	I apply for a job|I applied for a job|I have applied for a job	v
@@ -7190,7 +7211,7 @@ datid	past tense	SL	3		en			n
 førnutid	present perfect	SL	3		en			n
 førdatid	past perfect	SL	3		en			n
 navnemåde	infinitive	SL	3		en			n
-bydeform	imperative	SL	3		en			n
+bydemåde	imperative	SL	3		en			n
 ental	singular	SL	3		et			n
 bestemt form	definite form	SL	3		en			n
 ubestemt form	indefinite form	SL	3		en			n
@@ -7388,7 +7409,7 @@ medfølelse	compassion	FP	3		en			n
 empati	empathy	FP	4		en			n
 afmagt	powerlessness	FP	4		en			n
 skyldfølelse	guilt / feeling of guilt	FP	4		en			n
-en lettet følelse	a sense of relief	FP	3					n
+en følelse af lettelse	a sense of relief	FP	3					n
 overvældet	overwhelmed	FP	3					a
 ligeglad	indifferent	FP	2					a
 rørt	touched	FP	2					a
@@ -7727,7 +7748,7 @@ et renseri	a dry cleaner's	TS	3					n
 en optikerforretning	an optician's shop	CS	4					n
 en blomsterhandler	a florist	CS	3					n
 en boghandler	a bookseller	CS	3					n
-en isenkræmmer	a hardware store	CS	3					n
+en isenkræmmer	a hardware dealer	CS	3					n
 et byggemarked	a DIY store	CS	3					n
 en møbelforretning	a furniture store	CS	3					n
 en elektronikbutik	an electronics store	CS	3					n
@@ -7754,7 +7775,7 @@ en betalingsmetode	a payment method	CS	3					n
 MobilePay	MobilePay (Danish mobile payment app)	MB	2					n
 en kontaktløs betaling	a contactless payment	CS	3					n
 en pinkode	a PIN code	CS	2					n
-en afbetaling	an installment	CS	3					n
+en afbetaling	an installment plan	CS	3					n
 fragt	shipping / freight	CS	3		en			n
 en leveringstid	a delivery time	CS	3					n
 en pakkeshop	a parcel shop	CS	3					n
@@ -7779,7 +7800,7 @@ et modeshow	a fashion show	CS	3					n
 en cykelhandler	a bike shop	CS	4					n
 en kassebon	a till receipt	CS	3					n
 en pengepung	a purse	CS	2					n
-en vaskeseddel	a care label	CS	4					n
+et vaskemærke	a care label	CS	4					n
 en tøjstørrelse	a clothing size	CS	3					n
 en skostørrelse	a shoe size	CS	3					n
 en vinterstøvle	a winter boot	CS	2					n
@@ -7814,7 +7835,7 @@ en konto	an account	TM	2					n
 en profil	a profile	TM	2					n
 en besked	a message	TM	1					n
 en sms	a text message	TM	1					n
-en email	an email	TM	1					n
+en e-mail	an email	TM	1					n
 et opkald	a phone call	TM	1					n
 et kamera	a camera	TM	1					n
 et billede	a picture	TM	1					n
@@ -7942,7 +7963,7 @@ offline	offline	TM	2					d
 digital	digital	TM	2					a
 trådløs	wireless	TM	3					a
 en nyhedsudsendelse	a news broadcast	TM	3					n
-en debattør	a commentator	TM	4					n
+en debattør	a debater	TM	4					n
 en kronik	an op-ed (feature article)	TM	4					n
 misinformation	misinformation	TM	3		en			n
 en sending	a shipment / broadcast	TM	4					n
@@ -8601,7 +8622,6 @@ en europæer	a European	CL	2					n
 en afrikaner	an African	CL	3					n
 en asiat	an Asian	CL	3					n
 et CPR-nummer	a CPR number (Danish personal ID number)	TS	2					n
-et sundhedskort	a health insurance card (yellow card)	TS	2					n
 MitID	MitID (Danish digital ID)	TS	2					n
 e-Boks	e-Boks (digital mailbox for official letters)	TS	2					n
 Borgerservice	Citizen Services (municipal office)	TS	2					n
@@ -8649,7 +8669,7 @@ en flagstang	a flagpole	CH	3					n
 en guirlande	a garland / streamer	CH	4					n
 konfetti	confetti	CH	3		en			n
 en festtale	a (celebratory) speech	CH	4					n
-en indflyttergave	a housewarming gift	CH	4					n
+en indflytningsgave	a housewarming gift	CH	4					n
 en værtindegave	a hostess gift	CH	4					n
 et takkekort	a thank-you card	CH	3					n
 et lykønskningskort	a greeting card	CH	4					n
@@ -8863,7 +8883,7 @@ en autograf	an autograph	FS	2					n
 badminton	badminton	FS	2		en			n
 et bål	a bonfire / campfire	FS	2					n
 en bold	a ball	FS	1					n
-botanisk have	botanical garden	FS	3		en			n
+en botanisk have	botanical garden	FS	3		en			n
 at cykle	to cycle	FS	1	cykler|cyklede|cyklet		jeg cykler|jeg cyklede|jeg har cyklet	I cycle|I cycled|I have cycled	v
 cykling	cycling	FS	2		en			n
 en dans	a dance	FS	1					n
@@ -9590,7 +9610,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "No capital letters",
+    name: "Capitalization: days, months, nationalities",
+    was: ["No capital letters"],
     level: 1,
     rule: "Danish uses small letters for days, months, languages and nationalities. Capitals are only for the start of a sentence and for names of people, places and so on.",
     pattern: "mandag · januar · dansk · dansker",
@@ -9795,8 +9816,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Putting vs. being: lægge and ligge",
-    was: ["Lægge/ligge, sætte/sidde, stille/stå"],
+    name: "Placing vs. position verbs: lægge/ligge",
+    was: ["Lægge/ligge, sætte/sidde, stille/stå", "Putting vs. being: lægge and ligge"],
     level: 2,
     rule: "Danish has pairs of verbs: one for putting something somewhere, one for where it is. Lægge, sætte and stille are the action; ligge, sidde and stå are the position.",
     pattern: "**lægge** → ligge · **sætte** → sidde · **stille** → stå",
@@ -9829,7 +9850,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Det is + adjective with -t",
+    name: "Det er + adjective: the -t ending",
+    was: ["Det is + adjective with -t"],
     level: 2,
     rule: "When det (or a whole activity) is the subject and no noun follows, the adjective takes -t, even though there is no et-word.",
     pattern: "Det er dyr**t** · At rejse er dyr**t**",
@@ -10038,7 +10060,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "To do something: for at, uden at",
+    name: "In order to, without: for at, uden at",
+    was: ["To do something: for at, uden at"],
     level: 3,
     rule: "Some small phrases take at and a verb: for at (in order to), uden at (without) and i stedet for at (instead of).",
     pattern: "**for at** lære · **uden at** sige · **i stedet for at** gå",
@@ -10126,8 +10149,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Attitude words: jo, nok, vel, bare",
-    was: ["Flavour words: jo, nok, vel, bare"],
+    name: "Modal particles: jo, nok, vel, bare",
+    was: ["Flavour words: jo, nok, vel, bare", "Attitude words: jo, nok, vel, bare"],
     level: 3,
     rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main clause they come right after the verb, or after the subject if the subject follows the verb (Det ved du jo godt), and before ikke: Det er jo ikke sandt. You can't translate them word for word, so learn them in whole sentences.",
     pattern: "Det er **jo** ikke sandt · Han kommer **nok** · Det er **vel** i orden?",
@@ -10149,7 +10172,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Would-be: ville and skulle in the past",
+    name: "Future in the past: ville and skulle",
+    was: ["Would-be: ville and skulle in the past"],
     level: 3,
     rule: "After a past-tense verb like sagde or troede, Danish uses ville for 'would' (future seen from the past): 'Han sagde, at han ville komme'. Skulle can mean 'was supposed to' or 'was going on to', as in 'Hun skulle senere blive læge'. Ville also gives polite or hypothetical 'would' with hvis.",
     pattern: "Han sagde, at han **ville** komme · Hun **skulle** blive læge",
@@ -10303,7 +10327,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Time and contrast: mens, inden, uanset",
+    name: "While, before, regardless: mens, inden, uanset",
+    was: ["Time and contrast: mens, inden, uanset"],
     level: 3,
     rule: "These words start a sub-clause, so ikke and other small words go before the verb. Mens means while, inden before, indtil until, efter at after, så snart as soon as, selvom even though, and uanset no matter. When the sub-clause comes first, the main verb follows it directly.",
     pattern: "**mens** jeg laver mad · **inden** vi spiser · **uanset** hvad",
@@ -10336,7 +10361,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Formal writing: såfremt, idet, hvorledes",
+    name: "Formal words: såfremt, hvorledes, således",
+    was: ["Formal writing: såfremt, idet, hvorledes"],
     level: 4,
     rule: "Written Danish, especially in official texts and literature, uses words that sound stiff in speech: såfremt (if), idet (as, just as; also since), hvorledes (how) and thi (for, because; now very old-fashioned). In everyday talk you would say hvis, da or når, and hvordan. Dog (however, yet) and således (thus) are common in writing but also fine in careful speech.",
     pattern: "hvis → **såfremt** · hvordan → **hvorledes** · fordi → **thi** · sådan → **således**",
@@ -10380,7 +10406,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Verbs that only exist with -s",
+    name: "Deponent verbs: synes, lykkes, findes",
+    was: ["Verbs that only exist with -s"],
     level: 4,
     rule: "A handful of Danish verbs always keep an -s, even though they are not passive. Some look like an -s-free verb with a different meaning (finde = find, findes = exist; minde = remind, mindes = recall), so learn them as separate verbs: synes (think, seem), lykkes (succeed), mindes (recall), findes (exist), færdes (move about) and trives (thrive, feel at home).",
     pattern: "**synes** · **lykkes** · **mindes** · **findes** · **færdes** · **trives**",
@@ -10402,7 +10429,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Comparison clauses: end hvad, end at",
+    name: "Than-clauses: end, end at, mere end",
+    was: ["Comparison clauses: end hvad, end at"],
     level: 4,
     rule: "After a comparative, end means than. It can be followed by a whole clause (end jeg troede, sometimes end hvad jeg troede) or by at plus a verb (end at gætte). Ikke andet end means nothing but, and mere end means more than.",
     pattern: "bedre **end** jeg troede · bedre **end at** gætte · **ikke andet end** · **mere end**",
@@ -10446,7 +10474,8 @@ const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adjective endings: -lig, -som, -løs, -fuld",
+    name: "Adjective suffixes: -lig, -ig, -som, -løs",
+    was: ["Adjective endings: -lig, -som, -løs, -fuld"],
     level: 4,
     rule: "Endings turn words into adjectives. -lig, -ig and -som say that something has a quality (farlig, modig, hjælpsom), -agtig means like or resembling, -løs means without, and -fuld means full of. The result then takes the normal adjective endings (-t, -e).",
     pattern: "fare → far**lig** · mod → mod**ig** · hjælp → hjælp**som** · barn → barn**agtig** · hjem → hjem**løs** · værdi → værdi**fuld**",
@@ -10794,7 +10823,7 @@ function buildStarterAdditions(existingCategories, existingFrontsSet, deletedKey
 // - every built-in word is filed under its new topic (or none).
 // The person's own categories are never touched. Runs once per layout
 // version, so a card moved by hand afterwards stays where it was put.
-const CATEGORY_LAYOUT_VERSION = "topics-3";
+const CATEGORY_LAYOUT_VERSION = "topics-4";
 const OLD_TO_TOPIC = {
   "Common Phrases & Idioms": "Greetings & Everyday Phrases",
   "Numbers & Time": "Time & Calendar",
@@ -10890,7 +10919,7 @@ function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-const GRAMMAR_VERSION = "7";
+const GRAMMAR_VERSION = "8";
 function syncGrammarLessons(cards) {
   let changed = false;
   const next = cards.map((card) => {
