@@ -14199,6 +14199,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
   const [notes, setNotes] = useState("");
   const [examples, setExamples] = useState([{ da: "", en: "" }]);
   const [category, setCategory] = useState("");
+  const [pos, setPos] = useState("");
   const [lookingUp, setLookingUp] = useState(false);
   const [lookupError, setLookupError] = useState("");
   const [autoFilling, setAutoFilling] = useState(false);
@@ -14332,6 +14333,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
         back: back.trim(),
         notes: notes.trim(),
         category: catId,
+        ...(type === "word" && pos ? { pos } : {}),
         ...(type === "grammar" && cleanExamples.length ? { examples: cleanExamples } : {}),
       },
     ]);
@@ -14340,6 +14342,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
     setNotes("");
     setExamples([{ da: "", en: "" }]);
     setLookupError("");
+    setPos("");
     categoryTouched.current = false;
   }
 
@@ -14351,6 +14354,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
     setLookupError("");
     setSubmitError("");
     setGrammarPreview(null);
+    setPos("");
     categoryTouched.current = false;
   }
 
@@ -14507,6 +14511,18 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
       <Field label="Notes (optional)">
         <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
       </Field>
+      {type === "word" && (
+        <Field label="Grammar group (optional)">
+          <select value={pos} onChange={(e) => setPos(e.target.value)} style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}>
+            <option value="">Detect automatically</option>
+            {GRAMMAR_GROUPS.map((g) => (
+              <option key={g.id} value={g.cls}>
+                {g.name}
+              </option>
+            ))}
+          </select>
+        </Field>
+      )}
       {type !== "grammar" && (
         <Field label="Category (optional)">
           <CategoryPicker
