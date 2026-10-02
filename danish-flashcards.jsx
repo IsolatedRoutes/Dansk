@@ -2749,10 +2749,10 @@ en kat	a cat	AN	1					n	katten|katte	the cat|cats
 en fugl	a bird	AN	1					n	fuglen|fugle	the bird|birds
 en fisk	a fish	AN	1					n	fisken|fiske	the fish|fish
 en hest	a horse	AN	1					n	hesten|heste	the horse|horses
-en ko	a cow	AN	2					n	koen|køer	the cow|cows
-en gris	a pig	AN	2					n	grisen|grise	the pig|pigs
-et får	a sheep	AN	2					n	fåret|får	the sheep|sheep
-en mus	a mouse	AN	2					n	musen|muse	the mouse|mice
+en ko	a cow	AN	1					n	koen|køer	the cow|cows
+en gris	a pig	AN	1					n	grisen|grise	the pig|pigs
+et får	a sheep	AN	1					n	fåret|får	the sheep|sheep
+en mus	a mouse	AN	1					n	musen|muse	the mouse|mice
 et navn	a name	PF	1					n	navnet|navne	the name|names
 et ord	a word	SL	1					n	ordet	the word
 et sprog	a language	CL	1					n	sproget	the language
@@ -4717,8 +4717,8 @@ en brandmand	a firefighter	WJ	3					n	brandmanden|brandmænd	the firefighter|fir
 en sælger	a salesperson	WJ	2					n	sælgeren|sælgere	the salesperson|salespeople
 en kunde	a customer	PF	2					n	kunden|kunder	the customer|customers
 en chauffør	a driver	WJ	2					n	chaufføren|chauffører	the driver|drivers
-en kok	a chef	WJ	2					n	kokken|kokke	the chef|chefs
-en tjener	a waiter	WJ	2					n	tjeneren|tjenere	the waiter|waiters
+en kok	a chef	WJ	1					n	kokken|kokke	the chef|chefs
+en tjener	a waiter	WJ	1					n	tjeneren|tjenere	the waiter|waiters
 en håndværker	a craftsman	WJ	2					n	håndværkeren|håndværkere	the craftsman|craftsmen
 en ingeniør	an engineer	WJ	2					n	ingeniøren|ingeniører	the engineer|engineers
 en programmør	a programmer	WJ	3					n	programmøren|programmører	the programmer|programmers
@@ -4949,33 +4949,33 @@ kød	meat	FD	1					n	kødet	the meat
 oksekød	beef	FD	2					n	oksekødet	the beef
 svinekød	pork	FD	2					n	svinekødet	the pork
 kylling	chicken (meat)	FD	1		en			n	kyllingen	the chicken (meat)
-en pølse	a sausage	FD	2					n	pølsen|pølser	the sausage|sausages
+en pølse	a sausage	FD	1					n	pølsen|pølser	the sausage|sausages
 laks	salmon	FD	2		en			n	laksen	the salmon
 en reje	a shrimp	FD	2					n	rejen|rejer	the shrimp|shrimps
 ris	rice	FD	1					n	risen	the rice
 pasta	pasta	FD	1					n	pastaen	the pasta
 en kartoffel	a potato	FD	1					n	kartoflen|kartofler	the potato|potatoes
 en grøntsag	a vegetable	FD	2					n	grøntsagen|grøntsager	the vegetable|vegetables
-en gulerod	a carrot	FD	2					n	guleroden|gulerødder	the carrot|carrots
+en gulerod	a carrot	FD	1					n	guleroden|gulerødder	the carrot|carrots
 et løg	an onion	FD	2					n	løget	the onion
 hvidløg	garlic	FD	2		et			n	hvidløget	the garlic
-en tomat	a tomato	FD	2					n	tomaten|tomater	the tomato|tomatoes
-en agurk	a cucumber	FD	2					n	agurken|agurker	the cucumber|cucumbers
+en tomat	a tomato	FD	1					n	tomaten|tomater	the tomato|tomatoes
+en agurk	a cucumber	FD	1					n	agurken|agurker	the cucumber|cucumbers
 en salat	a salad / lettuce	FD	1					n	salaten|salater	the salad / the lettuce|salads / lettuces
 en frugt	a fruit	FD	1					n	frugten	the fruit
 et æble	an apple	FD	1					n	æblet|æbler	the apple|apples
-en banan	a banana	FD	2					n	bananen|bananer	the banana|bananas
-en appelsin	an orange	FD	2					n	appelsinen|appelsiner	the orange|oranges
-en citron	a lemon	FD	2					n	citronen|citroner	the lemon|lemons
-et jordbær	a strawberry	FD	2					n	jordbærret|jordbærr	the strawberry|strawberries
+en banan	a banana	FD	1					n	bananen|bananer	the banana|bananas
+en appelsin	an orange	FD	1					n	appelsinen|appelsiner	the orange|oranges
+en citron	a lemon	FD	1					n	citronen|citroner	the lemon|lemons
+et jordbær	a strawberry	FD	1					n	jordbærret|jordbærr	the strawberry|strawberries
 en vindrue	a grape	FD	2					n	vindruen|vindruer	the grape|grapes
 en pære	a pear	FD	2					n	pæren|pærer	the pear|pears
 en nød	a nut	FD	2					n	nøden	the nut
 en mandel	an almond	FD	3					n	mandlen|mandler	the almond|almonds
-en suppe	a soup	FD	2					n	suppen|supper	the soup|soups
+en suppe	a soup	FD	1					n	suppen|supper	the soup|soups
 en sovs	a sauce / gravy	FD	2					n	sovsen|sovse	the sauce / the gravy|sauces / gravies
 et krydderi	a spice	FD	2					n	krydderiet|krydderier	the spice|spices
-peber	pepper	FD	2					n	peberen	the pepper
+peber	pepper	FD	1					n	peberen	the pepper
 sukker	sugar	FD	1					n	sukkeret	the sugar
 honning	honey	FD	2					n	honningen	the honey
 syltetøj	jam	FD	2					n	syltetøjet	the jam
@@ -4985,7 +4985,7 @@ chokolade	chocolate	FD	1		en			n	chokoladen	the chocolate
 slik	candy	FD	1					n	slikket	the candy
 en kiks	a biscuit	FD	2					n	kiksen|kikse	the biscuit|biscuits
 juice	juice	FD	1		en			n	juicen	the juice
-en sodavand	a soda	FD	2					n	sodavanden|sodavander	the soda|sodas
+en sodavand	a soda	FD	1					n	sodavanden|sodavander	the soda|sodas
 en øl	a beer	FD	1					n	øllen|øller	the beer|beers
 en vin	a wine	FD	1					n	vinen|vine	the wine|wines
 kaffe	coffee	FD	1		en			n	kaffen	the coffee
@@ -4994,9 +4994,9 @@ en drik	a drink	FD	2					n	drikken|drikke	the drink|drinks
 et glas	a glass	FD	1					n	glasset	the glass
 en kop	a cup	FD	1					n	koppen|kopper	the cup|cups
 en tallerken	a plate	FD	1					n	tallerkenen|tallerkner	the plate|plates
-en skål	a bowl	FD	2					n	skålen|skåle	the bowl|bowls
-en ske	a spoon	FD	2					n
-en gaffel	a fork	FD	2					n	gaflen|gafler	the fork|forks
+en skål	a bowl	FD	1					n	skålen|skåle	the bowl|bowls
+en ske	a spoon	FD	1					n
+en gaffel	a fork	FD	1					n	gaflen|gafler	the fork|forks
 en kniv	a knife	FD	1					n	kniven|knive	the knife|knives
 en serviet	a napkin	FD	2					n	servietten|servietter	the napkin|napkins
 en opskrift	a recipe	FD	2					n	opskriften|opskrifter	the recipe|recipes
@@ -5005,8 +5005,8 @@ en smag	a taste	FD	2					n	smagen|smage	the taste|tastes
 lækker	delicious	FD	1					a	lækrere|lækrest	more delicious|most delicious
 at tilberede	to prepare (food)	FD	3	tilbereder|tilberedte|tilberedt		jeg tilbereder|jeg tilberedte|jeg har tilberedt	I prepare (food)|I prepared (food)|I have prepared (food)	v
 at stege	to fry / roast	FD	2	steger|stegte|stegt		jeg steger|jeg stegte|jeg har stegt	I fry / roast|I fried / roasted|I have fried / roasted	v
-at koge	to boil	FD	2	koger|kogte|kogt		jeg koger|jeg kogte|jeg har kogt	I boil|I boiled|I have boiled	v
-at bage	to bake	FD	2	bager|bagte|bagt		jeg bager|jeg bagte|jeg har bagt	I bake|I baked|I have baked	v
+at koge	to boil	FD	1	koger|kogte|kogt		jeg koger|jeg kogte|jeg har kogt	I boil|I boiled|I have boiled	v
+at bage	to bake	FD	1	bager|bagte|bagt		jeg bager|jeg bagte|jeg har bagt	I bake|I baked|I have baked	v
 at grille	to grill	FD	3	griller|grillede|grillet		jeg griller|jeg grillede|jeg har grillet	I grill|I grilled|I have grilled	v
 at skære	to cut	FD	2	skærer|skar|skåret		jeg skærer|jeg skar|jeg har skåret	I cut|I cut|I have cut	v
 at rive	to grate	FD	2	river|rev|revet		jeg river|jeg rev|jeg har revet	I grate|I grated|I have grated	v
@@ -5402,15 +5402,15 @@ en kælder	a basement	HH	2					n	kælderen|kældere	the basement|basements
 en garage	a garage	HH	2					n	garagen|garager	the garage|garages
 en nøgle	a key	HH	1					n	nøglen|nøgler	the key|keys
 en lås	a lock	HH	2					n	låsen|låse	the lock|locks
-en lampe	a lamp	HH	2					n	lampen|lamper	the lamp|lamps
+en lampe	a lamp	HH	1					n	lampen|lamper	the lamp|lamps
 et ur	a clock / watch	HH	1					n	uret|ure	the clock / the watch|clocks / watches
-et spejl	a mirror	HH	2					n	spejlet|spejle	the mirror|mirrors
+et spejl	a mirror	HH	1					n	spejlet|spejle	the mirror|mirrors
 et gardin	a curtain	HH	2					n	gardinet|gardiner	the curtain|curtains
 et tæppe	a rug / blanket	HH	2					n	tæppet|tæpper	the rug / the blanket|rugs / blankets
-en pude	a pillow	HH	2					n	puden|puder	the pillow|pillows
+en pude	a pillow	HH	1					n	puden|puder	the pillow|pillows
 en dyne	a duvet	HH	2					n	dynen|dyner	the duvet|duvets
 et håndklæde	a towel	HH	2					n	håndklædet|håndklæder	the towel|towels
-sæbe	soap	HH	2					n	sæben	the soap
+sæbe	soap	HH	1					n	sæben	the soap
 shampoo	shampoo	HH	2					n	shampooen	the shampoo
 en tandbørste	a toothbrush	HH	2					n	tandbørsten|tandbørster	the toothbrush|toothbrushes
 tandpasta	toothpaste	HH	2					n	tandpastaen	the toothpaste
@@ -5440,7 +5440,7 @@ en oplader	a charger	TM	2					n	opladeren|opladere	the charger|chargers
 et møbel	a piece of furniture	HH	2					n	møblet|møbler	the piece of furniture|pieces of furniture
 en reol	a bookshelf	HH	2					n	reolen|reoler	the bookshelf|bookshelves
 et skrivebord	a desk	HH	2					n	skrivebordet|skriveborde	the desk|desks
-en sofa	a sofa	HH	2					n	sofaen|sofaer	the sofa|sofas
+en sofa	a sofa	HH	1					n	sofaen|sofaer	the sofa|sofas
 en lænestol	an armchair	HH	2					n	lænestolen|lænestole	the armchair|armchairs
 en trappe	a staircase / stairs	HH	2					n	trappen|trapper	the staircase / the stairs|staircases / stairss
 en elevator	an elevator	HH	2					n	elevatoren|elevatorer	the elevator|elevators
@@ -6134,7 +6134,7 @@ en ulv	a wolf	AN	2					n	ulven|ulve	the wolf|wolves
 en bjørn	a bear	AN	2					n	bjørnen|bjørne	the bear|bears
 en hjort	a deer	AN	2					n	hjorten|hjorte	the deer|deer
 et egern	a squirrel	AN	2					n	egernet	the squirrel
-en kanin	a rabbit	AN	2					n	kaninen|kaniner	the rabbit|rabbits
+en kanin	a rabbit	AN	1					n	kaninen|kaniner	the rabbit|rabbits
 en rotte	a rat	AN	2					n	rotten|rotter	the rat|rats
 dug	dew	WN	3					n	dugen	the dew
 hagl	hail	WN	3					n	haglet	the hail
@@ -6266,7 +6266,7 @@ et lam	a lamb	AN	2					n	lammet|lamme	the lamb|lambs
 en kalv	a calf	AN	2					n	kalven|kalve	the calf|calves
 en høne	a hen	AN	2					n	hønen|høns	the hen|hens
 en hane	a rooster / tap	AN	2					n	hanen|haner	the rooster / the tap|roosters / taps
-en and	a duck	AN	2					n	anden|ænder	the duck|ducks
+en and	a duck	AN	1					n	anden|ænder	the duck|ducks
 en gås	a goose	AN	2					n	gåsen|gæs	the goose|geese
 en svane	a swan	AN	2					n	svanen|svaner	the swan|swans
 en due	a pigeon / dove	AN	2					n	duen|duer	the pigeon / the dove|pigeons / doves
@@ -6551,7 +6551,7 @@ en lunge	a lung	BH	2					n	lungen|lunger	the lung|lungs
 hud	skin	BH	2					n	huden	the skin
 en muskel	a muscle	BH	2					n	musklen|muskler	the muscle|muscles
 en knogle	a bone	BH	3					n	knoglen|knogler	the bone|bones
-blod	blood	BH	2					n	blodet	the blood
+blod	blood	BH	1					n	blodet	the blood
 en hjerne	a brain	BH	2					n	hjernen|hjerner	the brain|brains
 en nerve	a nerve	BH	3					n	nerven|nerver	the nerve|nerves
 en sygdom	a disease	BH	2					n	sygdommen|sygdomme	the disease|diseases
@@ -6591,7 +6591,7 @@ et plaster	a band-aid	BH	2					n	plastret|plastre	the band-aid|band-aids
 en bandage	a bandage	BH	3					n	bandagen|bandager	the bandage|bandages
 en krykke	a crutch	BH	3					n	krykken|krykker	the crutch|crutches
 en kørestol	a wheelchair	BH	3					n	kørestolen|kørestole	the wheelchair|wheelchairs
-briller	glasses	BH	2					n	brilleret	the glasses
+briller	glasses	BH	1					n	brilleret	the glasses
 en kontaktlinse	a contact lens	BH	3					n	kontaktlinsen|kontaktlinser	the contact lens|contact lenses
 et høreapparat	a hearing aid	BH	3					n	høreapparatet|høreapparater	the hearing aid|hearing aids
 et smil	a smile	BH	2					n	smilet|smil	the smile|smiles
@@ -7586,17 +7586,17 @@ et par jeans	a pair of jeans	CS	2					n
 en nederdel	a skirt	CS	2					n	nederdelen|nederdele	the skirt|skirts
 en kjole	a dress	CS	1					n	kjolen|kjoler	the dress|dresses
 en jakke	a jacket	CS	1					n	jakken|jakker	the jacket|jackets
-en frakke	a coat	CS	2					n	frakken|frakker	the coat|coats
-en sweater	a sweater	CS	2					n	sweateren|sweatre	the sweater|sweaters
+en frakke	a coat	CS	1					n	frakken|frakker	the coat|coats
+en sweater	a sweater	CS	1					n	sweateren|sweatre	the sweater|sweaters
 en trøje	a sweater / jumper	CS	1					n	trøjen|trøjer	the sweater / the jumper|sweaters / jumpers
 underbukser	underwear	CS	2					n
 en bh	a bra	CS	2					n
-sokker	socks	CS	2					n	sokkeren	the socks
+sokker	socks	CS	1					n	sokkeren	the socks
 sko	shoes	CS	1					n	skoen	the shoes
 støvler	boots	CS	2					n	støvleret	the boots
 sandaler	sandals	CS	2					n	sandaleren	the sandals
-en hue	a beanie	CS	2					n	huen|huer	the beanie|beanies
-en hat	a hat	CS	2					n	hatten|hatte	the hat|hats
+en hue	a beanie	CS	1					n	huen|huer	the beanie|beanies
+en hat	a hat	CS	1					n	hatten|hatte	the hat|hats
 handsker	gloves	CS	2					n
 et tørklæde	a scarf	CS	2					n	tørklædet|tørklæder	the scarf|scarves
 et bælte	a belt	CS	2					n	bæltet|bælter	the belt|belts
@@ -7648,7 +7648,7 @@ en læbestift	a lipstick	CS	2					n	læbestiften|læbestifter	the lipstick|lipst
 luksus	luxury	CS	2		en			n	luksussen	the luxury
 en pels	a fur (coat)	CS	3					n	pelsen|pelse	the fur (coat)|furs (coat)
 en levering	a delivery	CS	2					n	leveringen|leveringer	the delivery|deliveries
-shorts	shorts	CS	2		pl			n
+shorts	shorts	CS	1		pl			n
 en vinterjakke	a winter jacket	CS	2					n	vinterjakken|vinterjakker	the winter jacket|winter jackets
 en vest	a vest	CS	2					n	vesten|veste	the vest|vests
 en hættetrøje	a hoodie	CS	2					n	hættetrøjen|hættetrøjer	the hoodie|hoodies
@@ -7740,7 +7740,7 @@ bedst før	best before	FD	2					d
 en boghandel	a bookstore	CS	2					n	boghandlen|boghandler	the bookstore|bookstores
 creme	cream (lotion)	CS	2		en			n	cremen	the cream (lotion)
 en diamant	a diamond	CS	3					n	diamanten|diamanter	the diamond|diamonds
-en sok	a sock	CS	2					n	sokken|sokker	the sock|socks
+en sok	a sock	CS	1					n	sokken|sokker	the sock|socks
 et supermarked	a supermarket	TS	1					n	supermarkedet|supermarkeder	the supermarket|supermarkets
 en ekspedition	a service / transaction	CS	4					n	ekspeditionen|ekspeditioner	the service / the transaction|services / transactions
 en skranke	a counter	CS	3					n	skranken|skranker	the counter|counters
