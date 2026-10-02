@@ -1506,7 +1506,7 @@ at bekræfte	to confirm		2	bekræfter|bekræftede|bekræftet		jeg bekræfter|jeg
 at benægte	to deny		3	benægter|benægtede|benægtet		jeg benægter|jeg benægtede|jeg har benægtet	I deny|I denied|I have denied	v
 at klage	to complain		2	klager|klagede|klaget		jeg klager|jeg klagede|jeg har klaget	I complain|I complained|I have complained	v
 at reagere	to react		2	reagerer|reagerede|reageret		jeg reagerer|jeg reagerede|jeg har reageret	I react|I reacted|I have reacted	v
-at handle	to shop / to act		2	handler|handlede|handlet		jeg handler|jeg handlede|jeg har handlet	I shop / act|I shopped / acted|I have shopped / acted	v
+at handle	to shop / to act		1	handler|handlede|handlet		jeg handler|jeg handlede|jeg har handlet	I shop / act|I shopped / acted|I have shopped / acted	v
 at undlade	to omit		4	undlader|undlod|undladt		jeg undlader|jeg undlod|jeg har undladt	I omit|I omitted|I have omitted	v
 at overtage	to take over		3	overtager|overtog|overtaget		jeg overtager|jeg overtog|jeg har overtaget	I take over|I took over|I have taken over	v
 at deltage	to participate		2	deltager|deltog|deltaget		jeg deltager|jeg deltog|jeg har deltaget	I participate|I participated|I have participated	v
@@ -1917,7 +1917,7 @@ at notere	to note down		3	noterer|noterede|noteret		jeg noterer|jeg noterede|jeg
 at omtale	to mention / refer to		3	omtaler|omtalte|omtalt		jeg omtaler|jeg omtalte|jeg har omtalt	I mention / refer to|I mentioned / referred to|I have mentioned / referred to	v
 at konkurrere	to compete		3	konkurrerer|konkurrerede|konkurreret		jeg konkurrerer|jeg konkurrerede|jeg har konkurreret	I compete|I competed|I have competed	v
 at distrahere	to distract		3	distraherer|distraherede|distraheret		jeg distraherer|jeg distraherede|jeg har distraheret	I distract|I distracted|I have distracted	v
-at stave	to spell	SL	2	staver|stavede|stavet		jeg staver|jeg stavede|jeg har stavet	I spell|I spelled|I have spelled	v
+at stave	to spell	SL	1	staver|stavede|stavet		jeg staver|jeg stavede|jeg har stavet	I spell|I spelled|I have spelled	v
 at kvaje sig	to mess up		4	kvajer sig|kvajede sig|kvajet sig		jeg kvajer mig|jeg kvajede mig|jeg har kvajet mig	I mess up|I messed up|I have messed up	v
 at opbygge	to build up		3	opbygger|opbyggede|opbygget		jeg opbygger|jeg opbyggede|jeg har opbygget	I build up|I built up|I have built up	v
 at smugle	to smuggle		3	smugler|smuglede|smuglet		jeg smugler|jeg smuglede|jeg har smuglet	I smuggle|I smuggled|I have smuggled	v
@@ -3105,7 +3105,7 @@ fattig	poor	MB	1					a	fattigere|fattigst	poorer|poorest
 dyr	expensive	MB	1					a	dyrere|dyrest	more expensive|most expensive
 billig	cheap	MB	1					a	billigere|billigst	cheaper|cheapest
 fri	free		1					a	friere|friest	freer|freest
-optaget	busy / occupied		2					a
+optaget	busy / occupied		1					a
 træt	tired	BH	1					a	trættere|trættest	more tired|most tired
 vågen	awake	BH	2					a
 sulten	hungry	FD	1					a
@@ -4713,7 +4713,7 @@ en studerende	a student	SL	2					n	studerenden|studerender	the student|students
 en professor	a professor	SL	2					n	professoren|professorer	the professor|professors
 en advokat	a lawyer	WJ	2					n	advokaten|advokater	the lawyer|lawyers
 en politibetjent	a police officer	WJ	2					n	politibetjenten|politibetjente	the police officer|police officers
-en brandmand	a firefighter	WJ	3					n	brandmanden|brandmænd	the firefighter|firefighters
+en brandmand	a firefighter	WJ	2					n	brandmanden|brandmænd	the firefighter|firefighters
 en sælger	a salesperson	WJ	2					n	sælgeren|sælgere	the salesperson|salespeople
 en kunde	a customer	PF	2					n	kunden|kunder	the customer|customers
 en chauffør	a driver	WJ	2					n	chaufføren|chauffører	the driver|drivers
@@ -4838,8 +4838,8 @@ et spædbarn	an infant	PF	3					n	spædbarnet|spædbørn	the infant|infants
 et småbarn	a toddler	PF	2					n	småbarnet|småbørn	the toddler|toddlers
 en samlever	a live-in partner	PF	3					n	samleveren|samlevere	the live-in partner|live-in partners
 en slægt	a family line / lineage	PF	3					n	slægten|slægter	the family line / the lineage|family lines / lineages
-et fornavn	a first name	PF	2					n	fornavnet|fornavne	the first name|first names
-et efternavn	a last name	PF	2					n	efternavnet|efternavne	the last name|last names
+et fornavn	a first name	PF	1					n	fornavnet|fornavne	the first name|first names
+et efternavn	a last name	PF	1					n	efternavnet|efternavne	the last name|last names
 et mellemnavn	a middle name	PF	3					n	mellemnavnet|mellemnavne	the middle name|middle names
 et kælenavn	a nickname	PF	3					n	kælenavnet|kælenavne	the nickname|nicknames
 en fødselsdato	a date of birth	PF	2					n	fødselsdatoen|fødselsdatoer	the date of birth|dates of birth
@@ -5045,7 +5045,7 @@ en hovedret	a main course	FD	2					n	hovedretten|hovedretter	the main course|mai
 en dessert	a dessert	FD	2					n	desserten|desserter	the dessert|desserts
 en duft	a smell	FD	2					n	duften|dufte	the smell|smells
 en konsistens	a texture	FD	3					n	konsistensen	the texture
-krydret	spicy	FD	3					a
+krydret	spicy	FD	2					a
 mild	mild	FD	2					a	mildere|mildest	milder|mildest
 mættende	filling	FD	3					a
 vegetarisk	vegetarian	FD	2					a
@@ -5086,7 +5086,7 @@ en brunch	a brunch	FD	2					n	brunchen|bruncher	the brunch|brunches
 drikkevarer	drinks / beverages	FD	2		pl			n
 kakao	cocoa / hot chocolate	FD	2		en			n	kakaoen	the cocoa / the hot chocolate
 saft	cordial / squash	FD	2		en			n	saften	the cordial / the squash
-et rundstykke	a bread roll	FD	2					n	rundstykket|rundstykker	the bread roll|bread rolls
+et rundstykke	a bread roll	FD	1					n	rundstykket|rundstykker	the bread roll|bread rolls
 et wienerbrød	a Danish pastry	FD	2					n	wienerbrødet	the Danish pastry
 en kanelsnegl	a cinnamon roll	FD	2					n	kanelsneglen|kanelsnegle	the cinnamon roll|cinnamon rolls
 en lagkage	a layer cake	FD	2					n	lagkagen|lagkager	the layer cake|layer cakes
@@ -5102,12 +5102,12 @@ cornflakes	cornflakes	FD	2		pl			n
 marmelade	marmalade / jam	FD	2		en			n	marmeladen	the marmalade / the jam
 pålæg	cold cuts / sandwich toppings	FD	2		et			n	pålægget	the cold cuts / the sandwich toppings
 en hotdog	a hot dog	FD	2					n
-en burger	a burger	FD	2					n	burgeren|burgere	the burger|burgers
+en burger	a burger	FD	1					n	burgeren|burgere	the burger|burgers
 en pizza	a pizza	FD	1					n	pizzaen|pizzaer	the pizza|pizzas
 nudler	noodles	FD	2		pl			n
 kartofler	potatoes	FD	1		pl			n
-pommes frites	French fries	FD	2		pl			n
-en sandwich	a sandwich	FD	2					n	sandwichen|sandwicher	the sandwich|sandwiches
+pommes frites	French fries	FD	1		pl			n
+en sandwich	a sandwich	FD	1					n	sandwichen|sandwicher	the sandwich|sandwiches
 lammekød	lamb (meat)	FD	2		et			n	lammekødet	the lamb (meat)
 hakket oksekød	ground beef	FD	2		et			n
 flæskesteg	roast pork	FD	3		en			n	flæskestegen	the roast pork
@@ -5653,7 +5653,7 @@ at stå op	to get up	HH	1	står op|stod op|stået op		jeg står op|jeg stod op|j
 at gå i seng	to go to bed	HH	1	går i seng|gik i seng|gået i seng		jeg går i seng|jeg gik i seng|jeg er gået i seng	I go to bed|I went to bed|I have gone to bed	v
 at falde i søvn	to fall asleep	HH	2	falder i søvn|faldt i søvn|faldet i søvn		jeg falder i søvn|jeg faldt i søvn|jeg er faldet i søvn	I fall asleep|I fell asleep|I have fallen asleep	v
 at tage bad	to take a shower	HH	1	tager bad|tog bad|taget bad		jeg tager bad|jeg tog bad|jeg har taget bad	I take a shower|I took a shower|I have taken a shower	v
-at børste tænder	to brush teeth	HH	2	børster tænder|børstede tænder|børstet tænder		jeg børster tænder|jeg børstede tænder|jeg har børstet tænder	I brush teeth|I brushed teeth|I have brushed teeth	v
+at børste tænder	to brush teeth	HH	1	børster tænder|børstede tænder|børstet tænder		jeg børster tænder|jeg børstede tænder|jeg har børstet tænder	I brush teeth|I brushed teeth|I have brushed teeth	v
 at klæde sig på	to get dressed	HH	2	klæder sig på|klædte sig på|klædt sig på		jeg klæder mig på|jeg klædte mig på|jeg har klædt mig på	I get dressed|I got dressed|I have gotten dressed	v
 at klæde sig af	to get undressed	HH	2	klæder sig af|klædte sig af|klædt sig af		jeg klæder mig af|jeg klædte mig af|jeg har klædt mig af	I get undressed|I got undressed|I have gotten undressed	v
 at barbere sig	to shave	HH	2	barberer sig|barberede sig|barberet sig		jeg barberer mig|jeg barberede mig|jeg har barberet mig	I shave|I shaved|I have shaved	v
@@ -5775,7 +5775,7 @@ et pas	a passport	TT	1					n	passet|passer	the passport|passports
 et visum	a visa	TT	2					n	visummet|visa	the visa|visas
 en billet	a ticket	TT	1					n	billetten|billetter	the ticket|tickets
 bagage	luggage	TT	2					n	bagagen	the luggage
-en kuffert	a suitcase	TT	2					n	kufferten|kufferter	the suitcase|suitcases
+en kuffert	a suitcase	TT	1					n	kufferten|kufferter	the suitcase|suitcases
 en taxa	a taxi	TT	1					n	taxaen|taxaer	the taxi|taxis
 en metro	a metro	TT	1					n	metroen|metroer	the metro|metros
 en færge	a ferry	TT	2					n	færgen|færger	the ferry|ferries
@@ -5948,7 +5948,7 @@ en bænk	a bench	TS	2					n	bænken|bænke	the bench|benches
 en legeplads	a playground	TS	2					n	legepladsen|legepladser	the playground|playgrounds
 et offentligt toilet	a public restroom	TS	3					n
 et konsulat	a consulate	TS	4					n	konsulatet|konsulater	the consulate|consulates
-et posthus	a post office	TS	3					n	posthuset|posthuse	the post office|post offices
+et posthus	a post office	TS	2					n	posthuset|posthuse	the post office|post offices
 en brandstation	a fire station	TS	3					n	brandstationen|brandstationer	the fire station|fire stations
 at gå en tur	to go for a walk	TT	2	går en tur|gik en tur|gået en tur		jeg går en tur|jeg gik en tur|jeg har gået en tur	I go for a walk|I went for a walk|I have been for a walk	v
 at tage toget	to take the train	TT	1	tager toget|tog toget|taget toget		jeg tager toget|jeg tog toget|jeg har taget toget	I take the train|I took the train|I have taken the train	v
@@ -5961,7 +5961,7 @@ at lette	to take off (plane)	TT	2	letter|lettede|lettet		flyet letter|flyet lett
 at checke ind	to check in	TT	2	checker ind|checkede ind|checket ind		jeg checker ind|jeg checkede ind|jeg har checket ind	I check in|I checked in|I have checked in	v
 at checke ud	to check out	TT	2	checker ud|checkede ud|checket ud		jeg checker ud|jeg checkede ud|jeg har checket ud	I check out|I checked out|I have checked out	v
 at pakke ud	to unpack	TT	2	pakker ud|pakkede ud|pakket ud		jeg pakker ud|jeg pakkede ud|jeg har pakket ud	I unpack|I unpacked|I have unpacked	v
-at booke	to book	TT	3	booker|bookede|booket		jeg booker|jeg bookede|jeg har booket	I book|I booked|I have booked	v
+at booke	to book	TT	2	booker|bookede|booket		jeg booker|jeg bookede|jeg har booket	I book|I booked|I have booked	v
 at reservere	to reserve	TT	2	reserverer|reserverede|reserveret		jeg reserverer|jeg reserverede|jeg har reserveret	I reserve|I reserved|I have reserved	v
 at aflyse	to cancel	TT	2	aflyser|aflyste|aflyst		jeg aflyser|jeg aflyste|jeg har aflyst	I cancel|I canceled|I have canceled	v
 at nå toget	to catch the train	TT	2	når toget|nåede toget|nået toget		jeg når toget|jeg nåede toget|jeg har nået toget	I catch the train|I caught the train|I have caught the train	v
@@ -6556,16 +6556,16 @@ en hjerne	a brain	BH	2					n	hjernen|hjerner	the brain|brains
 en nerve	a nerve	BH	3					n	nerven|nerver	the nerve|nerves
 en sygdom	a disease	BH	2					n	sygdommen|sygdomme	the disease|diseases
 en smerte	a pain	BH	2					n	smerten|smerter	the pain|pains
-en hovedpine	a headache	BH	2					n	hovedpinen|hovedpiner	the headache|headaches
+en hovedpine	a headache	BH	1					n	hovedpinen|hovedpiner	the headache|headaches
 en mavepine	a stomachache	BH	2					n	mavepinen|mavepiner	the stomachache|stomachaches
 en feber	a fever	BH	2					n	feberen|febre	the fever|fevers
 en forkølelse	a cold (illness)	BH	2					n	forkølelsen|forkølelser	the cold (illness)|colds (illness)
 en hoste	a cough	BH	2					n	hosten	the cough
 influenza	the flu	BH	2		en			n	influenzaen	the flu
-medicin	medicine	BH	2		en			n	medicinen	the medicine
+medicin	medicine	BH	1		en			n	medicinen	the medicine
 en pille	a pill	BH	2					n	pillen|piller	the pill|pills
 en recept	a prescription	BH	2					n	recepten|recepter	the prescription|prescriptions
-en tandlæge	a dentist	BH	2					n	tandlægen|tandlæger	the dentist|dentists
+en tandlæge	a dentist	BH	1					n	tandlægen|tandlæger	the dentist|dentists
 en klinik	a clinic	BH	2					n	klinikken|klinikker	the clinic|clinics
 en ambulance	an ambulance	BH	2					n	ambulancen|ambulancer	the ambulance|ambulances
 en skadestue	an ER	BH	2					n	skadestuen|skadestuer	the ER|ERS
@@ -6725,7 +6725,7 @@ diabetes	diabetes	BH	3		en			n	diabetesen	the diabetes
 en betændelse	an inflammation	BH	3					n	betændelsen|betændelser	the inflammation|inflammations
 en bakterie	a bacterium	BH	3					n	bakterien|bakterier	the bacterium|bacteria
 en indsprøjtning	an injection	BH	3					n	indsprøjtningen|indsprøjtninger	the injection|injections
-et apotek	a pharmacy	TS	2					n	apoteket|apoteker	the pharmacy|pharmacies
+et apotek	a pharmacy	TS	1					n	apoteket|apoteker	the pharmacy|pharmacies
 en praktiserende læge	a general practitioner	BH	3					n
 en jordemoder	a midwife	WJ	3					n	jordemoderen	the midwife
 en fysioterapeut	a physiotherapist	WJ	3					n	fysioterapeuten|fysioterapeuter	the physiotherapist|physiotherapists
@@ -7629,7 +7629,7 @@ byttepenge	change (money)	CS	2					n
 at returnere	to return an item	CS	2	returnerer|returnerede|returneret		jeg returnerer|jeg returnerede|jeg har returneret	I return an item|I returned an item|I have returned an item	v
 at bytte	to exchange	CS	2	bytter|byttede|byttet		jeg bytter|jeg byttede|jeg har byttet	I exchange|I exchanged|I have exchanged	v
 en ekspedient	a shop assistant	CS	2					n	ekspedienten|ekspedienter	the shop assistant|shop assistants
-et indkøbscenter	a shopping mall	TS	3					n	indkøbscentret|indkøbscentre	the shopping mall|shopping malls
+et indkøbscenter	a shopping mall	TS	2					n	indkøbscentret|indkøbscentre	the shopping mall|shopping malls
 et stormagasin	a department store	CS	3					n	stormagasinet|stormagasiner	the department store|department stores
 gratis	free (no cost)	CS	1					d
 en kasse	a box / checkout	CS	2					n	kassen|kasser	the box / the checkout|boxes / checkouts
@@ -7957,7 +7957,7 @@ at svare på	to answer / reply to	TM	2	svarer på|svarede på|svaret på		jeg sv
 at poste	to post	TM	2	poster|postede|postet		jeg poster|jeg postede|jeg har postet	I post|I posted|I have posted	v
 at like	to like (online)	TM	2	liker|likede|liket		jeg liker|jeg likede|jeg har liket	I like (online)|I liked (online)|I have liked (online)	v
 at streame	to stream	TM	3	streamer|streamede|streamet		jeg streamer|jeg streamede|jeg har streamet	I stream|I streamed|I have streamed	v
-at oplade	to charge	TM	3	oplader|opladede|opladet		jeg oplader|jeg opladede|jeg har opladet	I charge|I charged|I have charged	v
+at oplade	to charge	TM	2	oplader|opladede|opladet		jeg oplader|jeg opladede|jeg har opladet	I charge|I charged|I have charged	v
 at scanne	to scan	TM	2	scanner|scannede|scannet		jeg scanner|jeg scannede|jeg har scannet	I scan|I scanned|I have scanned	v
 at programmere	to program	TM	3	programmerer|programmerede|programmeret		jeg programmerer|jeg programmerede|jeg har programmeret	I program|I programmed|I have programmed	v
 at taste	to type / enter	TM	3	taster|tastede|tastet		jeg taster|jeg tastede|jeg har tastet	I type / enter|I typed / entered|I have typed / entered	v
@@ -7982,7 +7982,7 @@ et medie	a medium (media outlet)	TM	3					n
 en mikrofon	a microphone	TM	2					n	mikrofonen|mikrofoner	the microphone|microphones
 en mobil	a mobile phone	TM	1					n	mobilen|mobiler	the mobile phone|mobile phones
 et net	a net / internet	TM	2					n	nettet	the net / the internet
-et telefonnummer	a phone number	TM	2					n	telefonnummeret|telefonnumre	the phone number|phone numbers
+et telefonnummer	a phone number	TM	1					n	telefonnummeret|telefonnumre	the phone number|phone numbers
 viral	viral	TM	3					a
 en anmelder	a reviewer / critic	TM	3					n	anmelderen|anmeldere	the reviewer / the critic|reviewers / critics
 en annonce	an advertisement	TM	3					n	annoncen|annoncer	the advertisement|advertisements
@@ -8485,7 +8485,7 @@ græsk	Greek	CL	2					a
 Mellemøsten	the Middle East	CL	3					n
 et ritual	a ritual	CH	3					n	ritualet|ritualer	the ritual|rituals
 narkotika	narcotics	SP	3		pl			n
-en politistation	a police station	TS	3					n	politistationen|politistationer	the police station|police stations
+en politistation	a police station	TS	2					n	politistationen|politistationer	the police station|police stations
 et spyd	a spear	CH	4					n	spyddet	the spear
 en klokke	a bell	CH	2					n	klokken|klokker	the bell|bells
 jødisk	Jewish	CH	3					a

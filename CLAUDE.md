@@ -50,9 +50,18 @@ Owner wants smart learning without new features, buttons or gamification.
   superlative (WORD_DATA columns 10–11, `upDa` / `upEn`, forms checked
   against the Stavekontrolden dictionary). 3 days after known, then 7.
   Seeing a form counts; nothing takes "known" away. Card fields: `upStage`,
-  `upDue`. At most ~1 in 4 session cards.
+  `upDue`. At most 12 per session, about 1 card in 5, placed early.
 - Phrases built on a known word come earlier in a session.
 - AI examples are built from the learner's known words (`knownWordsHint`).
+
+## Word levels
+Level by what the word is *for*, not just how common or how compound it is.
+Words needed for forms (fornavn, efternavn, telefonnummer), travel (kuffert),
+health (apotek, medicin), shopping and ordering food stay Basic. Simple
+everyday words (banan, gaffel, ske, sok, hat, kok) stay Basic. Specific
+items and long compounds of simpler words (håndklæde, tandbørste) go to
+Intermediate. Level changes reach saved cards automatically and never touch
+known / starred marks.
 
 ## Building
 `danish-flashcards.jsx` is the source; `index.html` contains the bundled
