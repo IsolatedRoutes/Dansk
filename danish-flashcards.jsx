@@ -23,7 +23,6 @@ function inClaudeApp() {
 // adds delay before falling through. Once we see it fail, skip straight to
 // the fallback tiers for the rest of the session.
 let claudeStorageBroken = false;
-let storageDegraded = false; // true once we've ever had to fall back
 const memoryStore = {};
 
 async function storeGet(key) {
@@ -31,14 +30,14 @@ async function storeGet(key) {
     try {
       const r = await window.storage.get(key, false);
       if (r) return r.value;
-    } catch (e) {
+    } catch {
       claudeStorageBroken = true;
     }
   }
   try {
     const v = localStorage.getItem(key);
     if (v !== null) return v;
-  } catch (e) {}
+  } catch {}
   return key in memoryStore ? memoryStore[key] : null;
 }
 
@@ -48,7 +47,7 @@ async function storeSet(key, value) {
       const r = await window.storage.set(key, value, false);
       if (r) return { ok: true };
       claudeStorageBroken = true;
-    } catch (e) {
+    } catch {
       claudeStorageBroken = true;
     }
   }
@@ -58,11 +57,9 @@ async function storeSet(key, value) {
   // only in memory won't survive closing the tab.
   try {
     localStorage.setItem(key, value);
-    storageDegraded = true;
     return { ok: true, degraded: true };
-  } catch (e) {
+  } catch {
     memoryStore[key] = value;
-    storageDegraded = true;
     return { ok: true, degraded: true, memoryOnly: true };
   }
 }
@@ -91,7 +88,7 @@ function packCards(json) {
         return out;
       })
     );
-  } catch (e) {
+  } catch {
     return json;
   }
 }
@@ -180,7 +177,6 @@ const Icon = {
       <rect x="9" y="4" width="6" height="3" rx="1" />
     </>
   )),
-  Sparkles: makeIcon(() => <polygon points="12,3 14,10 21,12 14,14 12,21 10,14 3,12 10,10" />),
   Lightbulb: makeIcon(() => (
     <>
       <path d="M9 18h6" />
@@ -380,15 +376,11 @@ function topicNamesForAI(categories) {
 const CATEGORY_RULE =
   " A category is a TOPIC (like Food & Drink or Travel & Transport), never a part of speech — verbs, nouns, adjectives and so on are sorted automatically. Use one of the existing categories if its topic fits; if none does, use an empty string rather than inventing one.";
 
-// The vocabulary buildout created a lot of thin, overlapping categories
-// (e.g. "More Verbs", "Emotions in Depth"). This maps each one to the
-// broader category it was consolidated into, so a one-time migration can
-// re-point any of a user's existing cards at the surviving category
-// instead of leaving them scattered across dozens of near-duplicates.
+// Maps retired, overlapping category names (e.g. "More Verbs") to the
+// broader category that replaced them, so saved cards can be re-pointed.
 const CATEGORY_MERGE_MAP = {
-  // Renamed so it doesn't clash with the new "Basic" level. Listed first so
-  // the existing category is renamed in place (keeping its cards) before
-  // anything else is merged into it.
+  // Listed first so the existing category is renamed in place, keeping its
+  // cards, before anything else is merged into it.
   "Basic Verbs": "Verbs",
   "More Verbs": "Verbs",
   "Common Actions": "Verbs",
@@ -423,13 +415,9 @@ const CATEGORY_MERGE_MAP = {
   "Sports & Fitness": "Hobbies & Leisure",
 };
 
-// A small number of starter words turned out to have real accuracy
-// issues on review (mostly mass nouns that were mechanically given an
-// indefinite article they don't take in ordinary Danish usage — "en
-// regn" instead of just "regn", for example). Maps the old, incorrect
-// Danish text to the corrected version so an existing user's already-
-// seeded card gets fixed in place, rather than the corrected word being
-// added as a duplicate alongside the old wrong one.
+// Maps an earlier spelling of a built-in word (e.g. "en regn", "kunne") to
+// its current text, so a saved card is corrected in place and keeps its
+// progress instead of being duplicated.
 const VOCAB_CORRECTIONS = {
   "at give en hånd": "at give en hånd med",
   "det er ikke raketvidenskab": "det er ikke så svært",
@@ -447,8 +435,7 @@ const VOCAB_CORRECTIONS = {
   "jeg hedder ...": "jeg hedder…",
   "at du": "at duge",
   "et afbræk": "en afbrydelse",
-  // 8,000-word update: verbs now always start with "at", and uncountable
-  // nouns drop the en/et they don't take in normal Danish.
+  // Verbs start with "at"; uncountable nouns take no en/et.
   "kunne": "at kunne",
   "skulle": "at skulle",
   "måtte": "at måtte",
@@ -1274,11 +1261,8 @@ const VOCAB_TRANSLATION_CORRECTIONS = {
 };
 
 
-// These used to be pre-seeded alongside the starter vocabulary, but they
-// sat empty next to near-identically-named starter categories (e.g. an
-// empty "Verbs & Tense" right next to a populated "Basic Verbs") — purely
-// confusing, since nothing ever auto-filed cards into them. Cleaned up
-// below for anyone who already has them saved from before.
+// Ids of empty categories that may exist in older saved decks; they are
+// removed when still empty.
 const LEGACY_EMPTY_CATEGORY_IDS = ["verbs", "gender", "structure", "conditional", "prepositions", "phrases", "false-friends"];
 
 const TYPE_LABEL = { word: "Word", sentence: "Sentence", grammar: "Grammar" };
@@ -9429,9 +9413,8 @@ function tenseDataFor(card) {
 const DAY_MS = 24 * 60 * 60 * 1000;
 const LEVELUP_FIRST_GAP = 3 * DAY_MS; // known → first new form
 const LEVELUP_NEXT_GAP = 7 * DAY_MS; // first form → second form
-// Words that were already known before this existed have no start date;
-// they're spread over three weeks from launch so they don't all arrive
-// at once.
+// Known cards with no start date begin on this date, staggered over three
+// weeks so their forms don't all arrive at once.
 const LEVELUP_START = Date.UTC(2026, 9, 2);
 
 function levelUpFormsFor(card) {
@@ -10634,10 +10617,8 @@ function stableStarterId(front) {
   return "starter:" + slugify(front);
 }
 
-// One-time migration for existing users: re-points any card using one of
-// the old, since-consolidated category names at the surviving category,
-// then drops the now-empty old ones. Returns null if this user has none
-// of the old categories (nothing to do), so the caller can skip writing.
+// Re-points cards in retired category names at the surviving category and
+// drops the emptied ones. Returns null when there is nothing to change.
 function migrateConsolidatedCategories(cards, categories) {
   let changed = false;
   let newCategories = categories;
@@ -10792,7 +10773,7 @@ async function loadDeletedKeys() {
       const [type, ...rest] = k.split(":");
       return canonicalKey(type, rest.join(":"));
     }));
-  } catch (e) {
+  } catch {
     return new Set();
   }
 }
@@ -10879,14 +10860,11 @@ function buildStarterAdditions(existingCategories, existingFrontsSet, deletedKey
   return { newCategories, newCards, combinedCategories };
 }
 
-// Re-sort into topics (October 2026). The old categories mixed topics
-// ("Food & Drink") with word types ("Verbs", "Common Nouns"). Word types
-// are now their own "Grammar" groups, worked out per word, so:
-// - old topic-style categories are renamed to their new topic name;
-// - the old word-type categories are removed — the person's own cards in
-//   them keep their word type (so "Verbs" still finds them) and simply
-//   have no topic;
-// - every built-in word is filed under its new topic (or none).
+// Files cards under topics. Word types are separate "Grammar" groups, so:
+// - topic-style categories are renamed to their topic name;
+// - word-type categories are removed; the person's own cards in them keep
+//   their word type and simply have no topic;
+// - every built-in word is filed under its topic (or none).
 // The person's own categories are never touched. Runs once per layout
 // version, so a card moved by hand afterwards stays where it was put.
 const CATEGORY_LAYOUT_VERSION = "topics-5";
@@ -11180,12 +11158,8 @@ function renderInlineMarkdown(text) {
   return parts;
 }
 
-// Uses the browser's own built-in text-to-speech (Web Speech API) — no
-// network call, no AI involved, works offline. A prior attempt at
-// pronunciation generated audio via an AI call instead, which had
-// reliability problems and was removed; this is a completely different,
-// much simpler mechanism that's been a mature, well-supported browser
-// feature (including in Safari) for years.
+// Uses the browser's built-in text-to-speech (Web Speech API): no network
+// call, no AI, works offline.
 // The camera-capture button only makes sense where there's an actual
 // camera to open — on desktop, the capture="environment" attribute is
 // simply ignored and falls back to the same file picker as "choose a
@@ -11261,8 +11235,7 @@ let localEngineModelId = null;
 
 async function getLocalEngine(onProgress, modelId) {
   const targetModel = modelId || LOCAL_MODEL_ID;
-  // If a different model was previously loaded, a fresh engine is needed
-  // rather than reusing the cached one for the wrong model.
+  // A different model needs a fresh engine.
   if (localEnginePromise && localEngineModelId !== targetModel) {
     localEnginePromise = null;
   }
@@ -11275,7 +11248,7 @@ async function getLocalEngine(onProgress, modelId) {
       let webllm;
       try {
         webllm = await import("https://esm.run/@mlc-ai/web-llm");
-      } catch (e) {
+      } catch {
         throw new Error("LOCAL_MODEL_LOAD_FAILED");
       }
       let engine;
@@ -11377,7 +11350,7 @@ async function fetchAndParse(url, options) {
     let text;
     try {
       text = await res.text();
-    } catch (e) {
+    } catch {
       text = "";
     }
     if (res.ok && !text.trim() && !isLastAttempt) {
@@ -11387,7 +11360,7 @@ async function fetchAndParse(url, options) {
     let data;
     try {
       data = text ? JSON.parse(text) : {};
-    } catch (e) {
+    } catch {
       if (!isLastAttempt) {
         await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
         continue; // unparsable body — worth retrying
@@ -11529,7 +11502,7 @@ async function chromeTranslatorAvailability(sourceLanguage, targetLanguage) {
   if (!chromeTranslatorSupported()) return "unavailable";
   try {
     return await Translator.availability({ sourceLanguage, targetLanguage });
-  } catch (e) {
+  } catch {
     return "unavailable";
   }
 }
@@ -11549,7 +11522,7 @@ async function translateWithChromeTranslator(text, onProgress) {
         const top = results && results[0];
         if (top && String(top.detectedLanguage || "").toLowerCase().startsWith("en")) sourceLanguage = "en";
       }
-    } catch (e) {
+    } catch {
       // Detection failing just means we fall back to assuming Danish —
       // translation itself still proceeds normally.
     }
@@ -11573,7 +11546,7 @@ async function callOllamaText(system, userText, opts) {
   try {
     const raw = await storeGet("ollamaConfig");
     config = raw ? JSON.parse(raw) : null;
-  } catch (e) {
+  } catch {
     config = null;
   }
   if (!config || !config.url || !config.model) throw new Error("MISSING_OLLAMA_CONFIG");
@@ -11587,7 +11560,7 @@ async function callOllamaText(system, userText, opts) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ model: config.model, messages, max_tokens: maxTokens }),
     });
-  } catch (e) {
+  } catch {
     throw new Error("OLLAMA_UNREACHABLE");
   }
   if (!res.ok) {
@@ -12287,7 +12260,7 @@ export default function DanishFlashcards() {
         try {
           c = unpackCards(JSON.parse(rawCards));
           if (!Array.isArray(c)) throw new Error("not a list");
-        } catch (e) {
+        } catch {
           c = [];
           await storeSet("cards_unreadable_" + Date.now(), rawCards);
         }
@@ -12296,7 +12269,7 @@ export default function DanishFlashcards() {
         const raw = await storeGet("categories");
         if (raw) cat = JSON.parse(raw);
         if (!Array.isArray(cat)) cat = DEFAULT_CATEGORIES;
-      } catch (e) {
+      } catch {
         cat = DEFAULT_CATEGORIES;
       }
       // Everything the person has done, captured before any update below
@@ -12316,11 +12289,8 @@ export default function DanishFlashcards() {
         }
       }
 
-      // One-time migration: starter cards seeded before stable IDs existed
-      // have random per-device IDs — realign them to the deterministic
-      // scheme so this device's data can eventually merge cleanly with
-      // any other device's, instead of the same word colliding under two
-      // different IDs forever.
+      // Give starter cards their deterministic IDs so data from different
+      // devices merges cleanly.
       let idsMigrated = false;
       const claimedStableIds = new Set();
       c = c.map((card) => {
@@ -12341,10 +12311,7 @@ export default function DanishFlashcards() {
         return card;
       });
 
-      // One-time migration: re-point any card using one of the old,
-      // since-consolidated category names (from before the vocabulary
-      // buildout's many thin categories were merged down) at the
-      // surviving category.
+      // Re-point cards in retired category names at the surviving category.
       let consolidationMigrated = false;
       const consolidationResult = migrateConsolidatedCategories(c, cat);
       if (consolidationResult) {
@@ -12353,8 +12320,7 @@ export default function DanishFlashcards() {
         consolidationMigrated = true;
       }
 
-      // One-time migration: fix any already-seeded card whose Danish text
-      // or translation had a since-corrected accuracy issue.
+      // Apply VOCAB_CORRECTIONS to saved cards.
       let vocabCorrected = false;
       const correctionResult = migrateVocabCorrections(c);
       if (correctionResult) {
@@ -12562,9 +12528,8 @@ export default function DanishFlashcards() {
       }
       const withTouches = touchedExistingIds.size > 0 ? cards.map((c) => (touchedExistingIds.has(c.id) ? { ...c, recentTouch: Date.now() } : c)) : cards;
       if (stamped.length === 0) {
-        // Nothing new to add, but existing cards were touched — persist
-        // that and let the learner know their existing card was
-        // prioritized instead, rather than staying silent about it.
+        // Nothing new to add; save the touched cards and tell the learner
+        // their existing card was prioritized.
         const result = await persistCards(withTouches);
         if (result.ok) {
           showToast(
@@ -12575,10 +12540,8 @@ export default function DanishFlashcards() {
         }
         return;
       }
-      // Wait for the save to actually succeed before claiming it did —
-      // showing "Card added" regardless of whether it persisted was
-      // actively misleading. persistCards shows its own failure toast,
-      // so on failure we simply don't also claim success.
+      // Confirm only after the save succeeds; persistCards shows its own
+      // failure toast.
       const result = await persistCards([...stamped, ...withTouches]);
       if (result.ok) {
         let msg = stamped.length === 1 ? "Card added" : stamped.length + " cards added";
@@ -12724,15 +12687,13 @@ export default function DanishFlashcards() {
         )}
       </div>
       <div style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
-        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} onOpenSettings={() => setShowSettings(true)} showToast={showToast} engine={engine} />}
+        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
         {tab === "library" && (
           <LibraryView
             cards={cards}
             categories={categories}
             updateCard={updateCard}
             deleteCard={deleteCard}
-            persistCategories={persistCategories}
-            addCards={addCards}
             onOpenSettings={() => setShowSettings(true)}
           />
         )}
@@ -12926,7 +12887,7 @@ function Toast({ msg }) {
 
 // ---------- Study ----------
 
-function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, engine }) {
+function StudyView({ cards, categories, updateCard, onOpenSettings, showToast }) {
   const [catFilter, setCatFilter] = useState("all");
   const [scope, setScope] = useState("all"); // "all" | "mine" (only cards you added)
   const [levels, setLevels] = useState([]); // ticked levels; none = all
@@ -13129,7 +13090,6 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
     setFlipped(false);
     setDragX(0);
     setExiting(null);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [catFilter, scope, levels.join(","), nounOpts.join(","), starredOnly, unknownOnly, verbForms.join(","), sessionKey]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
@@ -13855,7 +13815,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast, e
 }
 
 
-function LibraryView({ cards, categories, updateCard, deleteCard, persistCategories, addCards, onOpenSettings }) {
+function LibraryView({ cards, categories, updateCard, deleteCard, onOpenSettings }) {
   const [catFilter, setCatFilter] = useState("all");
   const [levels, setLevels] = useState([]); // none ticked = all
   const [typeFilter, setTypeFilter] = useState("all");
@@ -14417,7 +14377,7 @@ function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
         const existing = categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === suggested.toLowerCase());
         if (existing) setCategory(existing.id);
       }
-    } catch (e) {
+    } catch {
       // Auto-fill failing just means the learner fills it in themselves.
     } finally {
       setAutoFilling(false);
@@ -14743,11 +14703,10 @@ function AISettingsPanel({ onClose }) {
       try {
         const raw = await storeGet("ollamaConfig");
         if (raw) setSavedOllamaConfig(JSON.parse(raw));
-      } catch (e) {}
+      } catch {}
       setChromeTranslatorEnabledState((await storeGet("chromeTranslatorEnabled")) === "true");
-      // Anthropic is the default, always-visible option now — only
-      // auto-expand "Use something else instead" if a different engine
-      // is the one actually in use, so it's not hidden from its owner.
+      // Anthropic is the default; expand "Use something else instead" only
+      // when a different engine is in use.
       if (e === "local" || e === "gemini" || e === "ollama") setShowMore(true);
     })();
   }, []);
@@ -14791,8 +14750,8 @@ function AISettingsPanel({ onClose }) {
         setChromeTranslatorLoading(false);
         return;
       }
-      // Pre-warm both directions now, so the actual Translate button never
-      // has to trigger a surprise download later.
+      // Download both directions up front so Translate never triggers a
+      // download later.
       await Promise.all([
         Translator.create({
           sourceLanguage: "da",
@@ -14812,7 +14771,7 @@ function AISettingsPanel({ onClose }) {
       setChromeTranslatorEnabledState(true);
       await storeSet("chromeTranslatorEnabled", "true");
       setConfirmingChromeTranslatorDownload(false);
-    } catch (e) {
+    } catch {
       setError("Couldn't set up Chrome's translator — it may not be available on this device or browser. Try again, or leave it off.");
     } finally {
       setChromeTranslatorLoading(false);
@@ -15263,7 +15222,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       }
       const ok = await replaceAllData(parsed.cards, parsed.categories);
       showToast(ok ? "Backup restored (" + parsed.cards.length + " cards)" : "Couldn't restore the backup");
-    } catch (e) {
+    } catch {
       showToast("Couldn't read that file — is it a Dansk backup?");
     }
   }
@@ -15447,7 +15406,7 @@ function ChatConversation({ engine, categories, addCategory, addCards, showToast
       try {
         const raw = await storeGet("chatHistory");
         if (raw) setMessages(JSON.parse(raw));
-      } catch (e) {}
+      } catch {}
       setReady(true);
     })();
   }, []);
@@ -15825,9 +15784,8 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
   const [lookupError, setLookupError] = useState("");
   const [lookupCategory, setLookupCategory] = useState("");
 
-  // Analyze sentence — grammar breakdown, merged in from what used to be
-  // its own separate tab. Lives here now so it can share one text box
-  // with Translate and Extract text, instead of needing its own.
+  // Analyze sentence: grammar breakdown, sharing one text box with
+  // Translate and Extract text.
   const [sentenceLoading, setSentenceLoading] = useState(false);
   const [sentenceError, setSentenceError] = useState("");
   const [sentenceResult, setSentenceResult] = useState(null);
@@ -15891,7 +15849,7 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
               return;
             }
           }
-        } catch (e) {
+        } catch {
           // fall through
         }
       }
@@ -15949,7 +15907,6 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     setSentenceError("");
     setSentenceResult(null);
     try {
-      const categoryNames = topicNamesForAI(categories);
       const reply = await callAI(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
           "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
@@ -16070,7 +16027,6 @@ function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSet
     setLookupError("");
     setSentenceResult(null);
     setSentenceSelected({});
-    setPointCategory({});
     setSentenceError("");
     setAnalysis(null);
     setSelected({});
@@ -16463,7 +16419,6 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     setLookupError("");
     setSentenceResult(null);
     setSentenceSelected({});
-    setPointCategory({});
     setSentenceError("");
   }
 
@@ -16540,7 +16495,6 @@ function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
     setSentenceError("");
     setSentenceResult(null);
     try {
-      const categoryNames = topicNamesForAI(categories);
       const reply = await callVision(
         "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
           "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
