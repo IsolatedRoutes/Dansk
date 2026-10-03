@@ -21,7 +21,7 @@ export const INFO_PAGES = [
     legendTitle: "On every card",
     legend: [
       ["star", "Star", "Star a card you want to see more often. It comes up several times in a session until you un-star it."],
-      ["check", "Known", "Mark a word as known and it leaves your study cards. A few days later it comes back in another form, such as the past tense or the plural."],
+      ["check", "Known", "Mark a word as known and it leaves your study cards. A few days later it comes back in another form, such as the past tense or the plural. On that card the check starts empty; tap it if you know this form too, and the word is finished."],
       ["bulb", "Explore", "Get an explanation of the word: where it comes from, how it is used, and related words. Needs an AI option in AI settings."],
       ["question", "Ask", "Ask your own question about the word or phrase on the card, for example why it is spelled that way or how to use it in a sentence. Needs an AI option in AI settings."],
       ["tap", "Tap, swipe, Back and Next", "Tap the card to flip it. Swipe left for the next card and right to go back, or use the Next and Back buttons."],

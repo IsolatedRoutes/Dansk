@@ -673,19 +673,25 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               transition: dragging ? "none" : "transform 0.28s ease, opacity 0.28s ease, height 0.2s ease",
             }}
           >
-            {/* A known word coming back in a new form shows no check: the card is the new form, not the word you already know. */}
-            {!(upForm && current.known) && (
-              <CheckBadgeIcon
-                size={17}
-                filled={!!current.known}
-                style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
-                onPointerDown={(e) => e.stopPropagation()}
-                onClick={(e) => {
-                  e.stopPropagation();
+            {/* On a known word's new form the check starts empty (the card is
+                the form, not the word); tapping it says "I know this form
+                too" and the word's remaining forms are skipped. */}
+            <CheckBadgeIcon
+              size={17}
+              filled={upForm && current.known ? (current.upStage || 0) > upIdx : !!current.known}
+              style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
+              onPointerDown={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                if (upForm && current.known) {
+                  const done = (current.upStage || 0) > upIdx;
+                  updateCard(current.id, done ? { upStage: upIdx, upDue: Date.now() + LEVELUP_NEXT_GAP } : { upStage: levelUpFormsFor(current).length, upDue: undefined });
+                  showToast(done ? "It will come back later" : "Got it — this word is finished");
+                } else {
                   updateCard(current.id, { known: !current.known });
-                }}
-              />
-            )}
+                }
+              }}
+            />
             <StarIcon
               size={17}
               filled={!!current.starred}
