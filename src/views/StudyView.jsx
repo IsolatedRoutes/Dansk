@@ -246,6 +246,8 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   }, [catFilter, scope, levelsKey, nounOptsKey, starredOnly, unknownOnly, verbFormsKey, sessionKey, welcomeReady]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
+  const cardsRef = useRef(cards);
+  cardsRef.current = cards;
   // What the card actually shows: the normal word, or — in a tense
   // session — the verb in the chosen tense in both languages.
   const upIdx = current && poolUps[idx] != null ? poolUps[idx] : null;
@@ -288,14 +290,28 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     const t = setTimeout(() => {
       setSlideDir(exiting === "left" ? "next" : "back");
       setFlipped(false);
+      // In the Unknown view, a card marked known since the session started
+      // (including its extra starred/recent copies) is stepped over.
+      const skip = (j) => {
+        if (!unknownOnly || poolUps[j] != null) return false;
+        const c = cardsRef.current.find((x) => x.id === poolIds[j]);
+        return !!c && c.known;
+      };
       setIdx((i) => {
-        if (exiting === "left") return i + 1 < poolIds.length ? i + 1 : poolIds.length;
-        return i > 0 ? i - 1 : 0;
+        if (exiting === "left") {
+          let j = i + 1;
+          while (j < poolIds.length && skip(j)) j++;
+          return j;
+        }
+        let j = i - 1;
+        while (j > 0 && skip(j)) j--;
+        return j >= 0 && !skip(j) ? j : i;
       });
       setDragX(0);
       setExiting(null);
     }, 280);
     return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exiting, poolIds.length]);
 
   function requestNext() {
