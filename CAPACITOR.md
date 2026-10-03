@@ -29,3 +29,19 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 - The on-device model, Ollama and Chrome translator options are hidden.
 - The service worker is not registered (the app is bundled inside).
 - Progress is stored separately from the website version. To move over, use Backup on the website and Restore in the app.
+
+## Release checklist (do on a real iPhone, via TestFlight)
+Release-blocking:
+- Update without losing anything: install the previous build, add a card, mark words known and starred, change a setting, then install the new build over it. Everything must still be there.
+- Backup, delete the app, reinstall, Import: progress, own cards and settings all come back.
+- Kill the app, turn on airplane mode, reopen: Study and the Library work, and earlier progress is intact.
+
+Also check:
+- Keyboard: Add tab, Library edit, Assistant chat and API key fields stay visible above the keyboard.
+- Notch and home bar: nothing clipped; tab bar and popups clear of the home bar.
+- Scrolling inside popups (AI settings, Backup, info pages) and the card swipe do not fight each other.
+- Reading Danish aloud works, including with the silent switch on and after a phone call.
+- Camera and photo picker: permission texts read well; denying permission shows a sensible message.
+- Switch away mid-AI request and come back: nothing is lost or half-saved.
+- Rotate the phone (or lock to portrait).
+- AI settings: the explanation, the I agree card and the cost note read clearly.
