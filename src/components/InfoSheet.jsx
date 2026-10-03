@@ -32,7 +32,7 @@ export function InfoSheet({ pageId, onClose }) {
           <details key={title} style={{ borderTop: "1px solid var(--line)", padding: "10px 0" }}>
             <summary style={{ cursor: "pointer", fontWeight: 600, listStyle: "none", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
               {title}
-              <Icon.ChevronDown size={14} color="var(--muted)" />
+              <span style={{ flexShrink: 0, display: "flex" }}><Icon.ChevronDown size={14} color="var(--muted)" /></span>
             </summary>
             <div style={{ color: "var(--muted)", marginTop: 6 }}>{text}</div>
             {legend && (
@@ -51,10 +51,13 @@ export function InfoSheet({ pageId, onClose }) {
           </details>
         ))}
         {(page.questions || []).map(([q, a]) => (
-          <div key={q} style={{ marginBottom: 14 }}>
-            <div style={{ fontWeight: 600, marginBottom: 3 }}>{q}</div>
-            <div style={{ color: "var(--muted)" }}>{a}</div>
-          </div>
+          <details key={q} style={{ borderTop: "1px solid var(--line)", padding: "10px 0" }}>
+            <summary style={{ cursor: "pointer", fontWeight: 600, listStyle: "none", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+              {q}
+              <span style={{ flexShrink: 0, display: "flex" }}><Icon.ChevronDown size={14} color="var(--muted)" /></span>
+            </summary>
+            <div style={{ color: "var(--muted)", marginTop: 6 }}>{a}</div>
+          </details>
         ))}
       </div>
     </CenteredOverlay>
