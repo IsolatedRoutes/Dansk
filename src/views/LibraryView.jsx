@@ -140,7 +140,7 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
         />
       </div>
 
-      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginBottom: 12 }}>
         <button
           onClick={() => setShowFilters((s) => !s)}
           style={{

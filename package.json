@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src",
-    "test": "python3 tests/upgrade_test.py"
+    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py"
   },
   "dependencies": {
     "react": "^18.3.1",

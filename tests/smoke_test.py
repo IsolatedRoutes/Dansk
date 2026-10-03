@@ -55,7 +55,7 @@ with sync_playwright() as p:
     check("xport" in body(), "Backup opens")
     page.mouse.click(5, 5); page.wait_for_timeout(300)
 
-    for name in ("About", "How it works", "Privacy", "FAQ"):
+    for name in ("About", "How it works", "Privacy", "Terms", "FAQ"):
         page.get_by_label("Menu").click(); page.wait_for_timeout(200)
         page.get_by_role("button", name=name, exact=True).click(); page.wait_for_timeout(300)
         check(name.lower() in body().lower(), "menu page: " + name)

@@ -1,4 +1,7 @@
-// ---------- about, privacy, FAQ ----------
+// ---------- about, privacy, terms, FAQ ----------
+
+// Shown as "Contact" in the menu once set; hidden while empty.
+export const CONTACT_EMAIL = "";
 
 export const INFO_PAGES = [
   {
@@ -35,6 +38,16 @@ export const INFO_PAGES = [
       "Your API key stays on your device and is sent only to its own provider.",
       "The on-device model downloads once and then works offline.",
       "Backups are files you save yourself. Removing the app deletes everything it stores.",
+    ],
+  },
+  {
+    id: "terms",
+    title: "Terms",
+    paragraphs: [
+      "Dansk is a learning aid, provided as it is. The word list, translations and grammar have been checked with care, but they can contain mistakes, and AI answers can be wrong. For anything important, check with a native speaker or a dictionary.",
+      "AI features run through the provider you choose, under that provider's own terms. If you use your own API key, any charges are between you and the provider.",
+      "Your data lives on your device. Keep a backup if your progress matters to you.",
+      "Word frequency data comes from FrequencyWords by Hermit Dave (CC BY-SA 4.0), based on OpenSubtitles.",
     ],
   },
   {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Icon } from "./icons";
-import { INFO_PAGES } from "../data/infoPages";
+import { CONTACT_EMAIL, INFO_PAGES } from "../data/infoPages";
 
 export function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen, backupOpen }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -66,6 +66,15 @@ export function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen,
                       {page.title}
                     </button>
                   ))}
+                  {CONTACT_EMAIL && (
+                    <a
+                      href={"mailto:" + CONTACT_EMAIL}
+                      onClick={() => setMenuOpen(false)}
+                      style={{ display: "block", textAlign: "left", color: "var(--ink)", fontFamily: "var(--sans)", fontSize: 14, padding: "10px 12px", borderRadius: 8, textDecoration: "none" }}
+                    >
+                      Contact
+                    </a>
+                  )}
                 </div>
               </>
             )}

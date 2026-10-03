@@ -49,8 +49,8 @@ update — and any future App Store or desktop version — must keep it.
   use the platform's persistent storage, not a plain WebView localStorage.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
-against `origin/main`) and `python3 tests/smoke_test.py`; only ship when
-both print ALL PASSED.
+against `origin/main`) and `python3 tests/smoke_test.py` and `python3 tests/e2e_test.py`
+(edit, backup, wipe, restore, offline); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -78,6 +78,9 @@ known / starred marks.
 - The in-app About / Privacy / FAQ text is `INFO_PAGES` in `src/data/infoPages.js`;
   `privacy.html` mirrors the privacy text. Keep them in step.
 - The opening screen is the `#splash` block in `src/index.html`.
+
+## Contact
+`CONTACT_EMAIL` in `src/data/infoPages.js` adds a Contact item to the menu; empty hides it. The privacy policy URL for the App Store needs a contact too.
 
 ## Naming
 The app is called Dansk. "Broen" ("the bridge") appears only on the opening
