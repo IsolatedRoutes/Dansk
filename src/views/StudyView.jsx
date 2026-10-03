@@ -16,10 +16,14 @@ import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor } from "../lib
 
 // ---------- Study ----------
 
+// Levels are chosen per launch: the app always opens on all levels, and the
+// choice survives switching tabs until the app is closed.
+let sessionLevels = [];
+
 export function StudyView({ cards, categories, updateCard, onOpenSettings, showToast }) {
   const [catFilter, setCatFilter] = useState("all");
   const [scope, setScope] = useState("all"); // "all" | "mine" (only cards you added)
-  const [levels, setLevels] = useState([]); // ticked levels; none = all
+  const [levels, setLevels] = useState(sessionLevels); // ticked levels; none = all
   const [nounOpts, setNounOpts] = useState(DEFAULT_NOUN_OPTS);
   // Which verb forms to show, chosen with checkboxes under "Verbs" in the
   // category menu. Applies to verbs wherever they come up (including All
@@ -38,13 +42,12 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     // the first card never changes after the opening screen fades.
     Promise.all([
       read("verbForms", (list) => Array.isArray(list) && list.length && setVerbForms(list)),
-      read("studyLevels", (list) => Array.isArray(list) && setLevels(list.filter((id) => LEVELS.some((l) => l.id === id)))),
       read("nounOptions", (list) => Array.isArray(list) && (list.includes("en") || list.includes("et")) && setNounOpts(list)),
     ]).then(() => setSettingsReady(true));
   }, []);
   function changeLevels(next) {
+    sessionLevels = next;
     setLevels(next);
-    storeSet("studyLevels", JSON.stringify(next)).catch(() => {});
   }
   function changeNounOpts(next) {
     setNounOpts(next);

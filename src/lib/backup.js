@@ -19,7 +19,7 @@ function markBackedUp(cards, categories) {
 
 // Shared by the Backup panel's own Export button and the auto-backup
 // prompt, so there's exactly one implementation of the actual save flow.
-export const BACKUP_SETTING_KEYS = ["verbForms", "studyLevels", "nounOptions", "deletedStarterCards"];
+export const BACKUP_SETTING_KEYS = ["verbForms", "nounOptions", "deletedStarterCards"];
 
 export async function performBackupExport(cards, categories, showToast) {
   // Study settings and deleted built-in words travel with the backup, so
