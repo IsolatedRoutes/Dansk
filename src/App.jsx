@@ -11,6 +11,7 @@ import { setKnownWordsForAI } from "./lib/ai/prompts";
 import { backupFingerprint, performBackupExport } from "./lib/backup";
 import { LEVELUP_FIRST_GAP } from "./lib/levelUp";
 import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAdditions, loadDeletedKeys, migrateConsolidatedCategories, migrateToTopics, migrateVocabCorrections, moveStrayCards, rememberDeleted, restoreProgress, snapshotProgress, stableStarterId, syncGrammarLessons } from "./lib/migrations";
+import { tidyOwnWordCases, tidyWordCase } from "./lib/vocabulary";
 import { hideSplash } from "./lib/splash";
 import { persistWithRetry, storeGet, storeGetStrict, storeSet, syncChannel, unpackCards } from "./lib/storage";
 import { frontKey, normalizeCardText, uid } from "./lib/text";
@@ -240,6 +241,18 @@ export default function DanishFlashcards() {
         strayMoved = true;
       }
 
+      // One-time: lowercase the person's own word cards that were capitalized
+      // only because a keyboard or AI started them like a sentence.
+      let caseTidied = false;
+      const caseDone = (await storeGet("caseTidied")) === "1";
+      if (!caseDone) {
+        const tidied = tidyOwnWordCases(c);
+        if (tidied) {
+          c = tidied;
+          caseTidied = true;
+        }
+      }
+
       // Attach level + verb forms to every word card that's in the list.
       let metaApplied = false;
       const metaResult = applyWordMeta(c);
@@ -263,7 +276,7 @@ export default function DanishFlashcards() {
       const existingFronts = new Set(c.map((card) => frontKey(card.front)));
       const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts, deletedKeys);
       let savedOk = true;
-      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored || strayMoved) {
+      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored || strayMoved || caseTidied) {
         cat = combinedCategories;
         c = [
           ...c,
@@ -285,6 +298,7 @@ export default function DanishFlashcards() {
       // otherwise it simply runs again next time.
       if (savedOk && topicsMigrated) await storeSet("categoryLayout", CATEGORY_LAYOUT_VERSION);
       if (savedOk && grammarSynced) await storeSet("grammarVersion", GRAMMAR_VERSION);
+      if (savedOk && !caseDone) await storeSet("caseTidied", "1");
 
       setCards(c);
       setCategories(cat);
@@ -345,6 +359,7 @@ export default function DanishFlashcards() {
       if (ok) {
         await storeSet("categoryLayout", "");
         await storeSet("grammarVersion", "");
+        await storeSet("caseTidied", "");
         setTimeout(() => window.location.reload(), 1200);
       }
       return ok;
@@ -392,8 +407,7 @@ export default function DanishFlashcards() {
           known: false,
           recentTouch: Date.now(),
           ...c,
-          front: String(c.front).trim(),
-          back: String(c.back).trim(),
+          ...(c.type === "word" ? tidyWordCase(String(c.front), String(c.back)) : { front: String(c.front).trim(), back: String(c.back).trim() }),
           // Lessons go in Grammar Lessons; everything else never does.
           category:
             c.type === "grammar"

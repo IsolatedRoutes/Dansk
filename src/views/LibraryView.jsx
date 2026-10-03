@@ -419,8 +419,8 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
   if (editing) {
     return (
       <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 10, padding: 12, marginBottom: 8 }}>
-        <input value={front} onChange={(e) => setFront(e.target.value)} style={inputStyle} placeholder="Danish" />
-        <input value={back} onChange={(e) => setBack(e.target.value)} style={{ ...inputStyle, marginTop: 6 }} placeholder="English" />
+        <input value={front} onChange={(e) => setFront(e.target.value)} autoCapitalize={card.type === "word" ? "none" : "sentences"} style={inputStyle} placeholder="Danish" />
+        <input value={back} onChange={(e) => setBack(e.target.value)} autoCapitalize={card.type === "word" ? "none" : "sentences"} style={{ ...inputStyle, marginTop: 6 }} placeholder="English" />
         <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, marginTop: 6, minHeight: 50 }} placeholder="Notes (optional)" />
         <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
           <button onClick={() => onSave({ front, back, notes })} style={smallBtn("var(--fjord)")}>

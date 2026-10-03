@@ -216,6 +216,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
             value={back}
             onChange={(e) => setBack(e.target.value)}
             onBlur={(e) => autoFill("en", e.target.value)}
+            autoCapitalize={type === "word" ? "none" : "sentences"}
             style={inputStyle}
             placeholder={copy.backPlaceholder}
           />
@@ -305,6 +306,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
           value={front}
           onChange={(e) => setFront(e.target.value)}
           onBlur={(e) => autoFill("da", e.target.value)}
+          autoCapitalize={type === "word" ? "none" : "sentences"}
           style={inputStyle}
           placeholder={copy.frontPlaceholder}
         />

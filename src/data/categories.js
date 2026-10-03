@@ -31,7 +31,7 @@ export function topicNamesForAI(categories) {
 
 // The text added to every prompt that picks a category.
 export const CATEGORY_RULE =
-  " A category is a TOPIC (like Food & Drink or Travel & Transport), never a part of speech — verbs, nouns, adjectives and so on are sorted automatically. Use one of the existing categories if its topic fits; if none does, use an empty string rather than inventing one.";
+  " A category is a TOPIC (like Food & Drink or Travel & Transport), never a part of speech — verbs, nouns, adjectives and so on are sorted automatically. Use one of the existing categories if its topic fits; if none does, use an empty string rather than inventing one. Write every card of type 'word' in lowercase, in both Danish and English, unless it is a name, an acronym or the English word I; only sentences start with a capital letter.";
 
 // Maps retired, overlapping category names (e.g. "More Verbs") to the
 // broader category that replaced them, so saved cards can be re-pointed.
