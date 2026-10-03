@@ -10,9 +10,9 @@ export const INFO_PAGES = [
     paragraphs: [
       "Broen\u2014meaning \u201cThe Bridge\u201d\u2014is a Danish learning app for curious people who learn best by tapping into the world around them.",
       "It\u2019s built on a deck of about 8,000 words and phrases that you can add to by uploading photos and text from the real Danish you encounter in your daily life.",
-      "Go deeper whenever you\u2019re curious: The AI companion enables you to ask questions, deep dive on grammar, and make connections between words. Each card allows you to hear the Danish read aloud.",
+      "Go deeper whenever you\u2019re curious: The optional AI companion, which runs through your own Claude or Gemini account, enables you to ask questions, deep dive on grammar, and make connections between words. Words and sentences can be read aloud in Danish.",
       "You can upload a photo or paste Danish text and the AI assistant will translate it, analyze the sentence structure, and pick out key words that you can turn into cards you keep and review.",
-      "Broen organizes your learning based on your level and area of grammatical focus. It uses smart repetition, based on established language-learning principles.",
+      "Broen lets you study by level, word type or topic, and words you know come back later in new forms, spaced over days, so you keep meeting them without drilling.",
     ],
   },
   {
