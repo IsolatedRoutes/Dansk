@@ -8,6 +8,7 @@ const LEGEND_ICONS = {
   bulb: <Icon.Lightbulb size={17} color="#A8A395" />,
   question: <Icon.HelpCircle size={17} color="#A8A395" />,
   tap: <Icon.RotateCcw size={15} color="#A8A395" />,
+  speaker: <Icon.Volume2 size={17} color="#C0714D" />,
 };
 
 export function InfoSheet({ pageId, onClose }) {
@@ -27,27 +28,26 @@ export function InfoSheet({ pageId, onClose }) {
             {text}
           </p>
         ))}
-        {page.legend && (
-          <div style={{ marginBottom: 6 }}>
-            <div style={{ fontWeight: 600, marginBottom: 8 }}>{page.legendTitle}</div>
-            {page.legend.map(([icon, title, text]) => (
-              <div key={icon} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: 10 }}>
-                <span style={{ width: 22, flexShrink: 0, display: "flex", justifyContent: "center", paddingTop: 2 }}>{LEGEND_ICONS[icon]}</span>
-                <div>
-                  <div style={{ fontWeight: 600 }}>{title}</div>
-                  <div style={{ color: "var(--muted)" }}>{text}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
-        {(page.sections || []).map(([title, text]) => (
+        {(page.sections || []).map(([title, text, legend]) => (
           <details key={title} style={{ borderTop: "1px solid var(--line)", padding: "10px 0" }}>
             <summary style={{ cursor: "pointer", fontWeight: 600, listStyle: "none", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
               {title}
               <Icon.ChevronDown size={14} color="var(--muted)" />
             </summary>
             <div style={{ color: "var(--muted)", marginTop: 6 }}>{text}</div>
+            {legend && (
+              <div style={{ marginTop: 12 }}>
+                {legend.map(([icon, name, desc]) => (
+                  <div key={icon} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: 10 }}>
+                    <span style={{ width: 22, flexShrink: 0, display: "flex", justifyContent: "center", paddingTop: 2 }}>{LEGEND_ICONS[icon]}</span>
+                    <div>
+                      <div style={{ fontWeight: 600, color: "var(--ink)" }}>{name}</div>
+                      <div style={{ color: "var(--muted)" }}>{desc}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </details>
         ))}
         {(page.questions || []).map(([q, a]) => (
