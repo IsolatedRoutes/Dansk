@@ -32,7 +32,14 @@ update — and any future App Store or desktop version — must keep it.
   so they aren't re-added.
 - Unreadable saved data is moved to `cards_unreadable_<time>`, never
   overwritten.
-- Saves are queued in order; a change saved in another tab reloads this one.
+- Saved data lives in IndexedDB (database `dansk`, store `kv`). On first
+  run everything in localStorage is copied over, read back and compared;
+  only then is `__legacyCopied` set. The localStorage copy is left in place
+  as a backup. If IndexedDB is unavailable, saves fall back to
+  localStorage, then memory. A native wrapper should store data in the
+  platform's persistent storage behind `storeGet` / `storeSet`.
+- Saves are queued in order; a change saved in another tab reloads this one
+  (BroadcastChannel).
 - Backups include settings; restoring an old backup resets the migration
   keys and restarts, so it is upgraded like any old deck.
 - A native app wrapper (App Store / desktop) has its own storage: carry data
@@ -62,6 +69,12 @@ everyday words (banan, gaffel, ske, sok, hat, kok) stay Basic. Specific
 items and long compounds of simpler words (håndklæde, tandbørste) go to
 Intermediate. Level changes reach saved cards automatically and never touch
 known / starred marks.
+
+## App Store
+- Study and Library work with no network; only AI features need one.
+- The in-app About / Privacy / FAQ text is `INFO_PAGES` in the jsx;
+  `privacy.html` mirrors the privacy text. Keep them in step.
+- The opening screen is the `#splash` block in `index.html`.
 
 ## Building
 `danish-flashcards.jsx` is the source; `index.html` contains the bundled

@@ -29,10 +29,21 @@ server = socketserver.TCPServer(("127.0.0.1", 0), handler)
 threading.Thread(target=server.serve_forever, daemon=True).start()
 BASE = "http://127.0.0.1:%d/" % server.server_address[1]
 
-COUNT = """() => { const c = JSON.parse(localStorage.cards);
+COUNT = """async () => { const c = JSON.parse(await K('cards'));
   return { known: c.filter(x => x.known).length, starred: c.filter(x => x.starred).length,
            ignored: c.filter(x => x.ignored).length, notes: c.filter(x => x.notes).length,
            fronts: c.map(x => x.front), total: c.length } }"""
+COUNT_OLD = COUNT.replace("async () =>", "() =>").replace("JSON.parse(await K('cards'))", "JSON.parse(localStorage.cards)")
+# The new build keeps saved data in IndexedDB; the old build used localStorage.
+IDB_GET = """(key) => new Promise((res) => { const r = indexedDB.open('dansk', 1);
+  r.onsuccess = () => { const g = r.result.transaction('kv').objectStore('kv').get(key); g.onsuccess = () => res(g.result === undefined ? null : g.result); g.onerror = () => res(null); };
+  r.onerror = () => res(null); })"""
+IDB_SET = """([key, value]) => new Promise((res) => { const r = indexedDB.open('dansk', 1);
+  r.onsuccess = () => { const t = r.result.transaction('kv', 'readwrite'); t.objectStore('kv').put(value, key); t.oncomplete = () => res(true); };
+  r.onerror = () => res(false); })"""
+IDB_KEYS = """() => new Promise((res) => { const r = indexedDB.open('dansk', 1);
+  r.onsuccess = () => { const g = r.result.transaction('kv').objectStore('kv').getAllKeys(); g.onsuccess = () => res(g.result); }; })"""
+def kv(page, key): return page.evaluate(IDB_GET, key)
 failures = []
 def check(ok, msg):
     print(("PASS  " if ok else "FAIL  ") + msg)
@@ -42,7 +53,7 @@ with sync_playwright() as p:
     browser = p.chromium.launch()
 
     # 1. upgrade keeps all progress
-    ctx = browser.new_context(); page = ctx.new_page(); errors = []
+    ctx = browser.new_context(); ctx.add_init_script("window.K = " + IDB_GET); page = ctx.new_page(); errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto(BASE + "old/index.html"); page.wait_for_timeout(6000)
     page.evaluate("""() => {
@@ -68,22 +79,25 @@ with sync_playwright() as p:
       localStorage.cards = JSON.stringify(cards); localStorage.categories = JSON.stringify(cats);
       localStorage.verbForms = JSON.stringify(["present", "past"]);
     }""")
-    before = page.evaluate(COUNT)
+    before = page.evaluate(COUNT_OLD)
     page.goto(BASE + "new/index.html"); page.wait_for_timeout(7000)
     after = page.evaluate(COUNT)
     for k in ("known", "starred", "ignored", "notes"):
         check(after[k] >= before[k], "%s kept after upgrade (%d before, %d after)" % (k, before[k], after[k]))
     for f in ("springe over", "en rugbrødsmad", "Jeg elsker Danmark."):
         check(f in after["fronts"], "own card kept: " + f)
-    check(page.evaluate("localStorage.verbForms") == '["present","past"]', "settings kept")
-    check("My Words" in page.evaluate("localStorage.categories"), "own category kept")
+    check(kv(page, "verbForms") == '["present","past"]', "settings kept")
+    check("My Words" in kv(page, "categories"), "own category kept")
+    legacy = page.evaluate("() => ({ cards: !!localStorage.cards, verbForms: localStorage.verbForms })")
+    check(legacy["cards"] and legacy["verbForms"] == '["present","past"]', "old storage copy left in place as a backup")
+    check(kv(page, "__legacyCopied") == "1", "move to the new storage is marked done")
     check(not errors, "no errors on upgrade " + str(errors[:2]))
-    stray = page.evaluate("""() => { const cats = JSON.parse(localStorage.categories); const ids = cats.filter(c => c.id === 'grammar-lessons' || c.name === 'Grammar Lessons').map(c => c.id);
-      const cards = JSON.parse(localStorage.cards);
+    stray = page.evaluate("""async () => { const cats = JSON.parse(await K('categories')); const ids = cats.filter(c => c.id === 'grammar-lessons' || c.name === 'Grammar Lessons').map(c => c.id);
+      const cards = JSON.parse(await K('cards'));
       return { notGrammarInLessons: cards.filter(c => ids.includes(c.category) && c.type !== 'grammar').map(c => c.front),
                grammarOutside: cards.filter(c => c.type === 'grammar' && !ids.includes(c.category)).map(c => c.front),
                de: cards.find(c => c.front === 'de'), own4: cards.find(c => c.front === 'en tøjrulle'), own6: cards.find(c => c.front === 'Min egen regel') } }""")
-    att = page.evaluate("() => JSON.parse(localStorage.cards).filter(c => c.type === 'grammar' && /^(Modal particles|Attitude words|Flavour words)/.test(c.front)).map(c => [c.front, !!c.known, !!c.starred])")
+    att = page.evaluate("async () => JSON.parse(await K('cards')).filter(c => c.type === 'grammar' && /^(Modal particles|Attitude words|Flavour words)/.test(c.front)).map(c => [c.front, !!c.known, !!c.starred])")
     check(att == [["Modal particles: jo, nok, vel, bare", True, True]], "renamed lesson keeps known+starred, no duplicate " + str(att))
     check(stray["notGrammarInLessons"] == [], "Grammar Lessons holds only lessons " + str(stray["notGrammarInLessons"]))
     check(stray["grammarOutside"] == [], "every lesson is in Grammar Lessons " + str(stray["grammarOutside"]))
@@ -94,12 +108,12 @@ with sync_playwright() as p:
     page.get_by_role("button", name=re.compile("^All cards")).click(); page.wait_for_timeout(300)
     page.get_by_role("button", name=re.compile("^My cards")).click(); page.wait_for_timeout(300)
     page.get_by_role("button", name="Any category").click(); page.wait_for_timeout(700)
-    mine = page.evaluate("JSON.parse(localStorage.cards).filter(c => !c.starter && !c.ignored).length")
+    mine = page.evaluate("(async () => JSON.parse(await K('cards')).filter(c => !c.starter && !c.ignored).length)()")
     m = re.search(r"Card \d+ of (\d+)", page.inner_text("body"))
     check(bool(m) and int(m.group(1)) == mine, "My cards shows exactly the %d cards added by the person (%s)" % (mine, m.group(1) if m else "none"))
 
     # 2. a deleted built-in card stays deleted after reload
-    page.evaluate("""() => { const c = JSON.parse(localStorage.cards);
+    page.evaluate("""async () => { const c = JSON.parse(await K('cards'));
       const victim = c.find(x => x.starter && x.type === 'word' && !x.known);
       window.__victim = victim.front; return victim.front }""")
     victim = page.evaluate("window.__victim")
@@ -116,16 +130,16 @@ with sync_playwright() as p:
     ctx.close()
 
     # 3. unreadable saved data is moved aside, not overwritten
-    ctx = browser.new_context(); page = ctx.new_page()
+    ctx = browser.new_context(); ctx.add_init_script("window.K = " + IDB_GET); page = ctx.new_page()
     page.goto(BASE + "new/index.html"); page.wait_for_timeout(6000)
-    page.evaluate("localStorage.cards = '{broken'")
+    page.evaluate(IDB_SET, ["cards", "{broken"])
     page.reload(); page.wait_for_timeout(6000)
-    keys = page.evaluate("Object.keys(localStorage)")
+    keys = page.evaluate(IDB_KEYS)
     check(any(k.startswith("cards_unreadable_") for k in keys), "unreadable data kept aside")
     ctx.close()
 
     # 4. fresh install
-    ctx = browser.new_context(); page = ctx.new_page(); errors = []
+    ctx = browser.new_context(); ctx.add_init_script("window.K = " + IDB_GET); page = ctx.new_page(); errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto(BASE + "new/index.html"); page.wait_for_timeout(6000)
     check(page.evaluate(COUNT)["total"] > 7900 and not errors, "fresh install loads (%d cards)" % page.evaluate(COUNT)["total"])

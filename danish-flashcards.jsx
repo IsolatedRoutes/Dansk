@@ -1,29 +1,101 @@
 import { useState, useEffect, useLayoutEffect, useRef, useCallback, useMemo } from "react";
 
 // ============================================================
-// Runtime environment
-// Inside a Claude artifact, window.storage exists and API calls
-// to api.anthropic.com are authenticated automatically. Outside
-// Claude (a standalone page — the main way this app is meant to
-// be used), neither is true: we fall back to localStorage, and
-// AI features run either as a small model in your own browser,
-// or via your own Anthropic API key — your choice, set in the
-// Chat tab's AI settings.
+// Runtime environment and storage
+// Saved data lives in IndexedDB (a large, asynchronous browser database).
+// Inside a Claude artifact, window.storage is used instead. Where neither
+// is available, saves fall back to localStorage, then to memory.
+// Outside Claude, AI features run either as a small model in the browser
+// or through the person's own API key, set in the Chat tab's AI settings.
 // ============================================================
 
-// Checked at call time (not cached) since window.storage can attach
-// slightly after this script starts running — a one-time check at load
-// could permanently misjudge the environment for the rest of the session.
+// Checked at call time: window.storage can attach after this script starts.
 function inClaudeApp() {
   return typeof window !== "undefined" && !!window.storage;
 }
 
-// If Claude's own artifact storage turns out to be unavailable in this
-// session, there's no point re-trying it on every single save — that just
-// adds delay before falling through. Once we see it fail, skip straight to
-// the fallback tiers for the rest of the session.
+// Once Claude's artifact storage fails, later saves skip straight to the
+// fallbacks.
 let claudeStorageBroken = false;
 const memoryStore = {};
+
+const IDB_NAME = "dansk";
+const IDB_STORE = "kv";
+const IDB_LEGACY_FLAG = "__legacyCopied";
+let idbPromise = null;
+
+function idbRequest(req) {
+  return new Promise((resolve, reject) => {
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+function idbTransaction(db, mode, work) {
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(IDB_STORE, mode);
+    const store = tx.objectStore(IDB_STORE);
+    let result;
+    Promise.resolve(work(store)).then((r) => (result = r), reject);
+    tx.oncomplete = () => resolve(result);
+    tx.onerror = () => reject(tx.error);
+    tx.onabort = () => reject(tx.error || new Error("transaction aborted"));
+  });
+}
+
+// Copies everything saved in localStorage (the earlier storage) into
+// IndexedDB once. The localStorage copy is left untouched as a backup, and
+// IndexedDB is used only after every value has been read back and matched.
+async function copyLegacyStorage(db) {
+  try {
+    const done = await idbTransaction(db, "readonly", (store) => idbRequest(store.get(IDB_LEGACY_FLAG)));
+    if (done) return db;
+    const entries = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      entries.push([key, localStorage.getItem(key)]);
+    }
+    await idbTransaction(db, "readwrite", (store) => {
+      for (const [key, value] of entries) store.put(value, key);
+    });
+    const stored = await idbTransaction(db, "readonly", (store) => Promise.all(entries.map(([key]) => idbRequest(store.get(key)))));
+    if (!entries.every(([, value], i) => stored[i] === value)) return null;
+    await idbTransaction(db, "readwrite", (store) => {
+      store.put("1", IDB_LEGACY_FLAG);
+    });
+    return db;
+  } catch {
+    return null;
+  }
+}
+
+function openIdb() {
+  if (!idbPromise) {
+    idbPromise = new Promise((resolve) => {
+      try {
+        if (typeof indexedDB === "undefined") return resolve(null);
+        const req = indexedDB.open(IDB_NAME, 1);
+        req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => resolve(null);
+        req.onblocked = () => resolve(null);
+      } catch {
+        resolve(null);
+      }
+    }).then((db) => {
+      if (!db) return null;
+      // Ask the browser not to clear this data when the device is low on space.
+      try {
+        if (navigator.storage && navigator.storage.persist) navigator.storage.persist();
+      } catch {}
+      return copyLegacyStorage(db);
+    });
+  }
+  return idbPromise;
+}
+
+// Tells other open tabs that saved data changed.
+const syncChannel = typeof BroadcastChannel !== "undefined" ? new BroadcastChannel("dansk-sync") : null;
 
 async function storeGet(key) {
   if (inClaudeApp() && !claudeStorageBroken) {
@@ -33,6 +105,14 @@ async function storeGet(key) {
     } catch {
       claudeStorageBroken = true;
     }
+  }
+  const db = await openIdb();
+  if (db) {
+    try {
+      const v = await idbTransaction(db, "readonly", (store) => idbRequest(store.get(key)));
+      if (v !== undefined) return v;
+      return key in memoryStore ? memoryStore[key] : null;
+    } catch {}
   }
   try {
     const v = localStorage.getItem(key);
@@ -51,10 +131,16 @@ async function storeSet(key, value) {
       claudeStorageBroken = true;
     }
   }
-  // Fall back to a normal browser store. This keeps saves working for the
-  // rest of the session even when the artifact's own storage doesn't —
-  // but it's a real degradation worth surfacing once, since data kept
-  // only in memory won't survive closing the tab.
+  const db = await openIdb();
+  if (db) {
+    try {
+      await idbTransaction(db, "readwrite", (store) => {
+        store.put(value, key);
+      });
+      if (syncChannel) syncChannel.postMessage(key);
+      return { ok: true, degraded: inClaudeApp() };
+    } catch {}
+  }
   try {
     localStorage.setItem(key, value);
     return { ok: true, degraded: true };
@@ -286,6 +372,13 @@ const Icon = {
       <line x1="12" y1="4" x2="12" y2="15" />
       <polyline points="7,10 12,15 17,10" />
       <line x1="5" y1="19" x2="19" y2="19" />
+    </>
+  )),
+  Menu: makeIcon(() => (
+    <>
+      <line x1="4" y1="7" x2="20" y2="7" />
+      <line x1="4" y1="12" x2="20" y2="12" />
+      <line x1="4" y1="17" x2="20" y2="17" />
     </>
   )),
   Key: makeIcon(() => (
@@ -12156,6 +12249,7 @@ export default function DanishFlashcards() {
   const [toast, setToast] = useState(null);
   const [engine, setEngine] = useState(undefined);
   const [showSettings, setShowSettings] = useState(false);
+  const [infoPage, setInfoPage] = useState(null);
   const [showBackup, setShowBackup] = useState(false);
   const [backupReminder, setBackupReminder] = useState(false);
   const [autoBackupDue, setAutoBackupDue] = useState(false);
@@ -12240,8 +12334,15 @@ export default function DanishFlashcards() {
     function onStorage(e) {
       if (e.key === "cards" || e.key === "categories") window.location.reload();
     }
+    function onSync(e) {
+      if (e.data === "cards" || e.data === "categories") window.location.reload();
+    }
     window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
+    if (syncChannel) syncChannel.addEventListener("message", onSync);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      if (syncChannel) syncChannel.removeEventListener("message", onSync);
+    };
   }, []);
 
   const showToast = useCallback((msg) => {
@@ -12551,8 +12652,8 @@ export default function DanishFlashcards() {
         if (result.degraded && !degradedWarned.current) {
           degradedWarned.current = true;
           msg += result.memoryOnly
-            ? " — but only for this session, this artifact's storage isn't available"
-            : " — to this browser only, this artifact's storage isn't available";
+            ? " — but only until you close the app, storage isn't available here"
+            : " — to this browser only";
         }
         showToast(msg);
       }
@@ -12584,14 +12685,18 @@ export default function DanishFlashcards() {
         if (result.degraded && !degradedWarned.current) {
           degradedWarned.current = true;
           msg += result.memoryOnly
-            ? " — but only for this session, this artifact's storage isn't available"
-            : " — to this browser only, this artifact's storage isn't available";
+            ? " — but only until you close the app, storage isn't available here"
+            : " — to this browser only";
         }
         showToast(msg);
       }
     },
     [cards, persistCards, showToast]
   );
+
+  useEffect(() => {
+    if (loaded) hideSplash();
+  }, [loaded]);
 
   if (!loaded) {
     return (
@@ -12610,6 +12715,7 @@ export default function DanishFlashcards() {
         <Header
           onOpenSettings={() => setShowSettings((s) => !s)}
           onOpenBackup={() => setShowBackup((s) => !s)}
+          onOpenInfo={setInfoPage}
           settingsOpen={showSettings}
           backupOpen={showBackup}
         />
@@ -12680,6 +12786,7 @@ export default function DanishFlashcards() {
             />
           </CenteredOverlay>
         )}
+        {infoPage && <InfoSheet pageId={infoPage} onClose={() => setInfoPage(null)} />}
         {showBackup && (
           <CenteredOverlay onClose={() => setShowBackup(false)}>
             <BackupPanel cards={cards} categories={categories} replaceAllData={replaceAllData} showToast={showToast} onClose={() => setShowBackup(false)} />
@@ -12780,7 +12887,80 @@ function Shell({ children }) {
   );
 }
 
-function Header({ onOpenSettings, onOpenBackup, settingsOpen, backupOpen }) {
+// Fades out the opening screen defined in index.html.
+function hideSplash() {
+  const el = document.getElementById("splash");
+  if (!el) return;
+  el.classList.add("splash-hide");
+  setTimeout(() => el.remove(), 500);
+}
+
+// ---------- about, privacy, FAQ ----------
+
+const INFO_PAGES = [
+  {
+    id: "about",
+    title: "About",
+    paragraphs: [
+      "Dansk is a Danish flashcard app for learners, with about 8,000 words and phrases arranged by level, from Basic to Fluent, and by topic, plus short grammar lessons.",
+      "A word you mark as known does not come back as itself. It returns in other forms, such as the past tense or the plural, a few days later and one level up, so you keep meeting it in new ways.",
+      "Word forms are checked against Stavekontrolden, the open Danish spelling dictionary.",
+    ],
+  },
+  {
+    id: "privacy",
+    title: "Privacy",
+    paragraphs: [
+      "Your cards, notes, progress and settings are stored on your device. There is no account, no advertising and no analytics.",
+      "The AI features (Assistant, translating, example sentences, reading text from a photo) are optional. When you use one, the text or photo you submit is sent to the provider you chose in AI settings: Anthropic or Google with your own key, a server of your own, or a model that runs on your device. Their privacy policies apply to what you send.",
+      "Your API key stays on your device and is sent only to its own provider.",
+      "The on-device model downloads once and then works offline.",
+      "Backups are files you save yourself. Removing the app deletes everything it stores.",
+    ],
+  },
+  {
+    id: "faq",
+    title: "FAQ",
+    questions: [
+      ["Is my progress saved?", "Yes, on this device. Use Backup in the top bar to keep a copy or move to another device."],
+      ["Do I need the internet?", "Studying and the Library work offline. Only the AI features need a connection, apart from the on-device model once it has downloaded."],
+      ["What happens when I mark a word as known?", "It leaves your study cards as itself and comes back later in other forms, one level above the word, within the levels you have chosen."],
+      ["How are the levels decided?", "By what a word is for. Everyday words and the ones you need for forms, travel, health and ordering food are Basic. More specific, abstract or longer words come later."],
+      ["Do I need an API key?", "Only if you want AI features through Anthropic or Google. You can instead use the on-device model in AI settings, which needs no key."],
+    ],
+  },
+];
+
+function InfoSheet({ pageId, onClose }) {
+  const page = INFO_PAGES.find((p) => p.id === pageId);
+  if (!page) return null;
+  return (
+    <CenteredOverlay onClose={onClose}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+        <div style={{ fontFamily: "var(--serif)", fontSize: 20 }}>{page.title}</div>
+        <button onClick={onClose} aria-label="Close" style={{ border: "none", background: "none", color: "var(--muted)", cursor: "pointer", padding: 4, display: "flex" }}>
+          <Icon.X size={16} />
+        </button>
+      </div>
+      <div style={{ fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.55, color: "var(--ink)" }}>
+        {(page.paragraphs || []).map((text, i) => (
+          <p key={i} style={{ margin: "0 0 12px" }}>
+            {text}
+          </p>
+        ))}
+        {(page.questions || []).map(([q, a]) => (
+          <div key={q} style={{ marginBottom: 14 }}>
+            <div style={{ fontWeight: 600, marginBottom: 3 }}>{q}</div>
+            <div style={{ color: "var(--muted)" }}>{a}</div>
+          </div>
+        ))}
+      </div>
+    </CenteredOverlay>
+  );
+}
+
+function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen, backupOpen }) {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div style={{ padding: "22px 18px 14px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
@@ -12805,6 +12985,48 @@ function Header({ onOpenSettings, onOpenBackup, settingsOpen, backupOpen }) {
             AI settings
             {settingsOpen ? <Icon.ChevronUp size={11} /> : null}
           </button>
+          <div style={{ position: "relative", display: "flex" }}>
+            <button
+              onClick={() => setMenuOpen((o) => !o)}
+              aria-label="Menu"
+              aria-expanded={menuOpen}
+              style={{ border: "none", background: "none", color: menuOpen ? "var(--fjord)" : "var(--muted)", cursor: "pointer", padding: 2, display: "flex" }}
+            >
+              <Icon.Menu size={17} />
+            </button>
+            {menuOpen && (
+              <>
+                <div onClick={() => setMenuOpen(false)} style={{ position: "fixed", inset: 0, zIndex: 90 }} />
+                <div
+                  className="popover"
+                  style={{
+                    position: "absolute",
+                    top: "calc(100% + 8px)",
+                    right: 0,
+                    zIndex: 91,
+                    minWidth: 150,
+                    background: "var(--card)",
+                    border: "1px solid var(--line)",
+                    borderRadius: 12,
+                    padding: 4,
+                  }}
+                >
+                  {INFO_PAGES.map((page) => (
+                    <button
+                      key={page.id}
+                      onClick={() => {
+                        setMenuOpen(false);
+                        onOpenInfo(page.id);
+                      }}
+                      style={{ display: "block", width: "100%", textAlign: "left", border: "none", background: "none", color: "var(--ink)", fontFamily: "var(--sans)", fontSize: 14, padding: "10px 12px", borderRadius: 8, cursor: "pointer" }}
+                    >
+                      {page.title}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </div>
