@@ -302,7 +302,7 @@ export function AISettingsPanel({ onClose }) {
           <div style={{ border: "1.5px solid " + (engine === "local" ? "var(--fjord)" : "var(--line)"), borderRadius: 10, padding: 14, marginTop: 10 }}>
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Local model</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
-              Free, no key, works offline after a one-time download. Needs WebGPU — recent Chrome/Edge, or Safari 26+
+              Free, no key, and your text stays on your device. Needs a one-time download of several hundred MB and a connection to load. Needs WebGPU — recent Chrome/Edge, or Safari 26+
               (iOS 26+ on iPhone). Weaker than Gemini at Danish, and can't do Photo import.
             </div>
             {modelReady && engine === "local" ? (
@@ -386,7 +386,7 @@ export function AISettingsPanel({ onClose }) {
           <div style={{ border: "1.5px solid " + (chromeTranslatorEnabled ? "var(--fjord)" : "var(--line)"), borderRadius: 10, padding: 14, marginTop: 10 }}>
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Chrome's built-in translator</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
-              Free, entirely on-device, zero network call — but desktop Chrome only (Chrome 138+). Not available on
+              Free, and your text never leaves your device — but desktop Chrome only (Chrome 138+). Not available on
               iPhone, Android, Safari, Firefox, or Edge, since it's tied to Chrome's own bundled model. When it's on,
               only the Translate button uses it; everything else still uses your main AI above.
             </div>

@@ -36,7 +36,7 @@ export const INFO_PAGES = [
       "Your cards, notes, progress and settings are stored on your device. There is no account, no advertising and no analytics.",
       "The AI features (Assistant, translating, example sentences, reading text from a photo) are optional. When you use one, the text or photo you submit is sent to the provider you chose in AI settings: Anthropic or Google with your own key, a server of your own, or a model that runs on your device. Their privacy policies apply to what you send.",
       "Your API key stays on your device and is sent only to its own provider.",
-      "The on-device model downloads once and then works offline.",
+      "If you choose the on-device model, its software loads from the jsDelivr network (esm.run) and its model files from Hugging Face. Those services can see your IP address, but not your text. Chrome's built-in translator keeps your text on your device.",
       "Backups are files you save yourself. Removing the app deletes everything it stores.",
     ],
   },
@@ -55,10 +55,10 @@ export const INFO_PAGES = [
     title: "FAQ",
     questions: [
       ["Is my progress saved?", "Yes, on this device. Use Backup in the top bar to keep a copy or move to another device."],
-      ["Do I need the internet?", "Studying and the Library work offline. Only the AI features need a connection, apart from the on-device model once it has downloaded."],
-      ["What happens when I mark a word as known?", "It leaves your study cards as itself and comes back later in other forms, one level above the word, within the levels you have chosen."],
+      ["Do I need the internet?", "Studying and the Library work offline. The AI features need a connection, and so does loading the on-device model."],
+      ["What happens when I mark a word as known?", "With Unknown ticked, it leaves your study cards as itself and comes back later in other forms, one level above the word, within the levels you have chosen."],
       ["How are the levels decided?", "By what a word is for. Everyday words and the ones you need for forms, travel, health and ordering food are Basic. More specific, abstract or longer words come later."],
-      ["Do I need an API key?", "Only if you want AI features through Anthropic or Google. You can instead use the on-device model in AI settings, which needs no key."],
+      ["Do I need an API key?", "Only if you want AI features through Anthropic or Google. The on-device model in AI settings needs no key, but takes a large download and a recent browser."],
     ],
   },
 ];
