@@ -1,6 +1,6 @@
-# Dansk — notes for Claude
+# Broen — notes for Claude
 
-Danish learning web app, live at https://isolatedroutes.github.io/Dansk.
+Broen, a Danish learning web app (repo and URL are still named Dansk), live at https://isolatedroutes.github.io/Dansk.
 Owner is not a coder: explain things in short, plain English.
 
 ## Release workflow (owner's standing instructions)
@@ -75,6 +75,12 @@ known / starred marks.
 - The in-app About / Privacy / FAQ text is `INFO_PAGES` in the jsx;
   `privacy.html` mirrors the privacy text. Keep them in step.
 - The opening screen is the `#splash` block in `index.html`.
+
+## Naming
+The app is called Broen ("the bridge"). Keep the storage names (`dansk`
+database, `dansk-sync` channel) as they are: renaming them would orphan
+every saved deck. Icons live in `icons/`; `icon-1024.png` is the App Store
+icon (full square, no transparency, no baked-in rounded corners).
 
 ## Building
 `danish-flashcards.jsx` is the source; `index.html` contains the bundled

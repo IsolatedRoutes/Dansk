@@ -12904,7 +12904,8 @@ const INFO_PAGES = [
     id: "about",
     title: "About",
     paragraphs: [
-      "Dansk is a Danish learning app for curious people who learn from the world around them.",
+      "Broen means the bridge: for learners past the beginner stage, and between the world you experience and the Danish you learn.",
+      "It is a Danish learning app for curious people who learn from the world around them.",
       "Behind it is a deck of about 8,000 words and phrases. Browse it by level, topic or word type, with grammar lessons alongside, and shape it with your own cards and the levels you choose. The deck follows established language-learning principles: a known word returns in a new form, so you keep meeting it in context.",
       "Go deeper whenever you're curious: ask questions, understand grammar, and make connections between words.",
       "Your learning emerges from intentionally using the Danish you experience. Photograph or paste text from a sign, a menu or a news article, then use the AI assistant to translate it, analyze the sentence structure and extract key words for future study.",
@@ -12991,8 +12992,20 @@ function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen, backup
   return (
     <div style={{ padding: "22px 18px 14px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <h1 style={{ fontFamily: "var(--serif)", fontSize: 26, margin: 0, fontWeight: 400, letterSpacing: 0.2 }}>
-          Dansk<span style={{ color: "var(--rust)" }}>.</span>
+        <h1 style={{ fontFamily: "var(--serif)", fontSize: 26, margin: 0, fontWeight: 400, letterSpacing: 0.2, display: "flex", alignItems: "center", gap: 10 }}>
+          <img
+            src="icons/icon-192.png"
+            alt=""
+            width={30}
+            height={30}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
+            style={{ borderRadius: 7, display: "block" }}
+          />
+          <span>
+            Broen<span style={{ color: "var(--rust)" }}>.</span>
+          </span>
         </h1>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <button
@@ -15378,7 +15391,7 @@ async function performBackupExport(cards, categories, showToast) {
   // replaces the last one in Files/Downloads rather than piling up a new
   // file every time — the export timestamp still lives inside the file
   // itself if it's ever needed.
-  const filename = "dansk-backup.json";
+  const filename = "broen-backup.json";
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
 
   // Share the file directly when possible, so the person gets a real
@@ -15391,7 +15404,7 @@ async function performBackupExport(cards, categories, showToast) {
     try {
       const file = new File([blob], filename, { type: "application/json" });
       if (navigator.canShare({ files: [file] })) {
-        await navigator.share({ files: [file], title: "Dansk backup" });
+        await navigator.share({ files: [file], title: "Broen backup" });
         markBackedUp(cards, categories);
         return;
       }
@@ -15410,7 +15423,7 @@ async function performBackupExport(cards, categories, showToast) {
       const handle = await window.showSaveFilePicker({
         id: "dansk-cloud-backup",
         suggestedName: filename,
-        types: [{ description: "Dansk backup", accept: { "application/json": [".json"] } }],
+        types: [{ description: "Broen backup", accept: { "application/json": [".json"] } }],
       });
       const writable = await handle.createWritable();
       await writable.write(blob);
@@ -15457,7 +15470,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
     try {
       const parsed = JSON.parse(text);
       if (!Array.isArray(parsed.cards) || !Array.isArray(parsed.categories)) {
-        showToast("That doesn't look like a Dansk backup file");
+        showToast("That doesn't look like a Broen backup file");
         return;
       }
       const confirmed = window.confirm
@@ -15472,7 +15485,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       const ok = await replaceAllData(parsed.cards, parsed.categories);
       showToast(ok ? "Backup restored (" + parsed.cards.length + " cards)" : "Couldn't restore the backup");
     } catch {
-      showToast("Couldn't read that file — is it a Dansk backup?");
+      showToast("Couldn't read that file — is it a Broen backup?");
     }
   }
 
@@ -15484,7 +15497,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       try {
         const [handle] = await window.showOpenFilePicker({
           id: "dansk-cloud-backup",
-          types: [{ description: "Dansk backup", accept: { "application/json": [".json"] } }],
+          types: [{ description: "Broen backup", accept: { "application/json": [".json"] } }],
         });
         const file = await handle.getFile();
         await processImportedBackup(await file.text());
@@ -15515,7 +15528,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.55, marginBottom: 16 }}>
         Export saves your deck to a file; Import loads one back in. To carry progress between devices, export into a
         synced folder (like iCloud Drive), then Import on the other device. Every export uses the same name,
-        "dansk-backup.json". Websites can't overwrite files on their own, so if your phone or browser asks, choose
+        "broen-backup.json". Websites can't overwrite files on their own, so if your phone or browser asks, choose
         Replace to keep a single backup instead of a new numbered copy.
       </div>
       <div
