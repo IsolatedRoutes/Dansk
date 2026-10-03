@@ -116,6 +116,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   const [langDir, setLangDir] = useState("da-first"); // da-first | en-first
   const [flipped, setFlipped] = useState(false);
   const [idx, setIdx] = useState(0);
+  const visitedRef = useRef([]);
   const [sessionKey, setSessionKey] = useState(0);
   const [poolIds, setPoolIds] = useState([]);
   const [slideDir, setSlideDir] = useState("next");
@@ -234,6 +235,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
       })
     );
     setIdx(0);
+    visitedRef.current = [];
     setFlipped(false);
     setDragX(0);
     setExiting(null);
@@ -325,16 +327,16 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
         const c = cardsRef.current.find((x) => x.id === poolIds[j]);
         return !!c && c.known;
       };
-      setIdx((i) => {
-        if (exiting === "left") {
-          let j = i + 1;
-          while (j < poolIds.length && skip(j)) j++;
-          return j;
-        }
-        let j = i - 1;
-        while (j > 0 && skip(j)) j--;
-        return j >= 0 && !skip(j) ? j : i;
-      });
+      // Back retraces the cards actually shown, so a card just marked known
+      // is still there when you return to it.
+      if (exiting === "left") {
+        let j = idx + 1;
+        while (j < poolIds.length && skip(j)) j++;
+        visitedRef.current.push(idx);
+        setIdx(j);
+      } else if (visitedRef.current.length) {
+        setIdx(visitedRef.current.pop());
+      }
       setDragX(0);
       setExiting(null);
     }, 280);
@@ -496,6 +498,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     setPoolIds(ids);
     setPoolUps([]); // a re-review shows plain cards
     setIdx(0);
+    visitedRef.current = [];
     setFlipped(false);
     setDragX(0);
     setExiting(null);

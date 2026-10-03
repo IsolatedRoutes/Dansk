@@ -8,7 +8,7 @@ export const INFO_PAGES = [
     id: "about",
     title: "About",
     paragraphs: [
-      "Dansk is a Danish learning app for curious people who learn from the world around them.",
+      "Broen is a Danish learning app for curious people who learn from the world around them. Broen means \"the bridge\" in Danish: a bridge between the Danish around you and the Danish you know.",
       "Behind it is a deck of about 8,000 words and phrases. Browse it by level, topic or word type, with grammar lessons alongside, and shape it with your own cards and the levels you choose. The deck follows established language-learning principles: a known word returns in a new form, so you keep meeting it in context.",
       "Go deeper whenever you're curious: ask questions, understand grammar, and make connections between words.",
       "Your learning emerges from intentionally using the Danish you experience. Photograph or paste text from a sign, a menu or a news article, then use the AI assistant to translate it, analyze the sentence structure and extract key words for future study.",
@@ -70,7 +70,7 @@ export const INFO_PAGES = [
       ["How are the levels decided?", "By what a word is for. Everyday words and the ones you need for forms, travel, health and ordering food are Basic. More specific, abstract or longer words come later."],
       ["What is the AI, and do I need it?", "The AI is optional. It powers the assistant, the lightbulb and question mark on cards, sentence analysis and reading text from photos. Studying, the Library and your own cards work without it. It is part of the app, but you connect your own AI account (Anthropic's Claude or Google's Gemini) in AI settings, so your questions go straight to that company and we never see your data."],
       ["What is an API key?", "What links the app to your own AI account, so your data goes straight to the AI company and never through us. It takes a couple of taps: sign in on the company's site with the link in AI settings, create a key, and paste it in. Treat it like a password and don't share it."],
-      ["How much does the AI cost?", "Dansk is free. The AI company charges you directly, only for what you use. With Anthropic, a lightbulb or question costs well under a cent, and reading a photo costs more, roughly a cent or two. You add a few dollars of credit first, and that goes a long way. Google's Gemini has a free tier with daily limits, but Google may use what you send on it to improve its products. Prices are set by the companies and can change."],
+      ["How much does the AI cost?", "Broen is free. The AI company charges you directly, only for what you use. With Anthropic, a lightbulb or question costs well under a cent, and reading a photo costs more, roughly a cent or two. You add a few dollars of credit first, and that goes a long way. Google's Gemini has a free tier with daily limits, but Google may use what you send on it to improve its products. Prices are set by the companies and can change."],
       ["Do I need an API key?", "Only if you want AI features through Anthropic or Google. The on-device model in AI settings needs no key, but takes a large download and a recent browser."],
       ["What permissions does the app ask for?", "Camera and photos, only when you tap Take a photo or choose a picture to read. Your phone asks the first time. You can change this any time in your phone's Settings (on iPhone, Settings, then Safari or the app) or in your browser's site settings. The app never uses your microphone or location."],
     ],

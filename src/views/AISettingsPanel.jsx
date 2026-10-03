@@ -165,7 +165,7 @@ export function AISettingsPanel({ onClose }) {
       </div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
         <div style={{ fontWeight: 600, marginBottom: 4 }}>Set up your AI</div>
-        <div>Dansk lets you use your own AI provider to power the tutor, so we never see your information.</div>
+        <div>Broen lets you use your own AI provider to power the tutor, so we never see your information.</div>
         <button
           onClick={() => setShowWhy((v) => !v)}
           style={{ border: "none", background: "none", color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12.5, padding: 0, marginTop: 6, cursor: "pointer", textDecoration: "underline" }}
@@ -174,7 +174,7 @@ export function AISettingsPanel({ onClose }) {
         </button>
         {showWhy && (
           <div style={{ marginTop: 8 }}>
-            <div style={{ marginBottom: 6 }}>The AI features are part of Dansk, but you connect your own AI account. Your questions and photos go straight to the AI company, never through us.</div>
+            <div style={{ marginBottom: 6 }}>The AI features are part of Broen, but you connect your own AI account. Your questions and photos go straight to the AI company, never through us.</div>
             <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting one takes a couple of taps: sign in on the company's site, create a key, and paste it here.</div>
             <div><b>Cost:</b> you pay the company only for what you use. A question or lightbulb is well under a cent, a photo roughly a cent or two. Prices can change.</div>
           </div>
