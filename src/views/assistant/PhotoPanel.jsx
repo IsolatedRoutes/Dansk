@@ -494,7 +494,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
             <CenteredOverlay onClose={() => setInsightFor(null)} maxWidth={380}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
                 <div style={{ fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)" }}>{insightFor}</div>
-                <button onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+                <button aria-label="Close" onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
                   <Icon.X size={16} />
                 </button>
               </div>
@@ -527,7 +527,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
       {sentenceResult && (
         <CenteredOverlay onClose={() => setSentenceResult(null)} maxWidth={460}>
           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button onClick={() => setSentenceResult(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setSentenceResult(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>
@@ -603,7 +603,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
       {items.length > 0 && (
         <CenteredOverlay onClose={() => setItems([])} maxWidth={460}>
           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button onClick={() => setItems([])} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setItems([])} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>

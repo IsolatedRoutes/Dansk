@@ -346,7 +346,7 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
                       {insightFor === c.id && (
                         <CenteredOverlay onClose={() => setInsightFor(null)} maxWidth={380}>
                           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 8 }}>
-                            <button onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+                            <button aria-label="Close" onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
                               <Icon.X size={16} />
                             </button>
                           </div>

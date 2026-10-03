@@ -281,7 +281,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         <CenteredOverlay onClose={() => setGrammarPreview(null)} maxWidth={440}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
             <div style={{ fontFamily: "var(--serif)", fontSize: 17, color: "var(--terracotta)" }}>{grammarPreview.grammarName}</div>
-            <button onClick={() => setGrammarPreview(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setGrammarPreview(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>

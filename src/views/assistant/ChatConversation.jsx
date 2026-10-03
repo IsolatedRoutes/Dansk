@@ -343,7 +343,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
       {reviewingIdx !== null && messages[reviewingIdx] && (
         <CenteredOverlay onClose={() => setReviewingIdx(null)} maxWidth={460}>
           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button onClick={() => setReviewingIdx(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setReviewingIdx(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>

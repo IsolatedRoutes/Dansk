@@ -417,7 +417,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
             <CenteredOverlay onClose={() => setInsightFor(null)} maxWidth={380}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
                 <div style={{ fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)" }}>{insightFor}</div>
-                <button onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+                <button aria-label="Close" onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
                   <Icon.X size={16} />
                 </button>
               </div>
@@ -450,7 +450,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
       {sentenceResult && (
         <CenteredOverlay onClose={() => setSentenceResult(null)} maxWidth={460}>
           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button onClick={() => setSentenceResult(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setSentenceResult(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>
@@ -533,7 +533,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
       {analysis && (
         <CenteredOverlay onClose={() => setAnalysis(null)} maxWidth={460}>
           <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button onClick={() => setAnalysis(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setAnalysis(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>

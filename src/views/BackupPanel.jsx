@@ -76,7 +76,7 @@ export function BackupPanel({ cards, categories, replaceAllData, showToast, onCl
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
         <div style={{ fontFamily: "var(--serif)", fontSize: 18 }}>Backup</div>
-        <button onClick={onClose} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+        <button aria-label="Close" onClick={onClose} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
           <Icon.X size={18} />
         </button>
       </div>

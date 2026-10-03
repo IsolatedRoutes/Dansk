@@ -685,7 +685,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
             <CheckBadgeIcon
               size={17}
               filled={upForm && current.known ? (current.upStage || 0) > upIdx : !!current.known}
-              style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
+              style={{ position: "absolute", top: 1, right: 1, padding: 13, boxSizing: "content-box", zIndex: 2, cursor: "pointer" }}
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => {
                 e.stopPropagation();
@@ -702,7 +702,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               size={17}
               filled={!!current.starred}
               color={current.starred ? "var(--rust)" : "#C9C4B6"}
-              style={{ position: "absolute", top: 14, left: 14, zIndex: 2, cursor: "pointer" }}
+              style={{ position: "absolute", top: 1, left: 1, padding: 13, boxSizing: "content-box", zIndex: 2, cursor: "pointer" }}
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => {
                 e.stopPropagation();
@@ -716,7 +716,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                 openAsk(current);
               }}
               aria-label="Ask about this word"
-              style={{ position: "absolute", bottom: 14, right: 14, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 0, display: "flex" }}
+              style={{ position: "absolute", bottom: 1, right: 1, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 13, display: "flex" }}
             >
               <Icon.HelpCircle size={17} />
             </button>
@@ -727,7 +727,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                 openInsight(current);
               }}
               aria-label="Explore related words"
-              style={{ position: "absolute", bottom: 14, left: 14, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 0, display: "flex" }}
+              style={{ position: "absolute", bottom: 1, left: 1, zIndex: 2, border: "none", background: "none", color: "#C9C4B6", cursor: "pointer", padding: 13, display: "flex" }}
             >
               <Icon.Lightbulb size={17} />
             </button>
@@ -923,7 +923,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
             <div style={{ fontFamily: "var(--serif)", fontSize: 18, color: "var(--terracotta)" }}>
               {cards.find((c) => c.id === insightFor)?.front}
             </div>
-            <button onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setInsightFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>
@@ -968,7 +968,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
             <div style={{ fontFamily: "var(--serif)", fontSize: 18, color: "var(--terracotta)" }}>
               Ask about "{cards.find((c) => c.id === askFor)?.front}"
             </div>
-            <button onClick={() => setAskFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <button aria-label="Close" onClick={() => setAskFor(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
               <Icon.X size={18} />
             </button>
           </div>

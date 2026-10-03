@@ -18,6 +18,8 @@ function makeIcon(renderChildren) {
         strokeLinejoin="round"
         className={className}
         style={style}
+        aria-hidden="true"
+        focusable="false"
       >
         {renderChildren()}
       </svg>
@@ -194,9 +196,30 @@ export const Icon = {
   )),
 };
 
-export function StarIcon({ size = 16, color = "currentColor", filled = false, strokeWidth = 1.8, style, onClick, onPointerDown }) {
+// Icons that can be tapped get button semantics (a label, pressed state and
+// Enter / Space) so screen readers and keyboards can use them. Icons that
+// are only decoration stay hidden from screen readers.
+function tapProps(onClick, label, pressed) {
+  if (!onClick) return { "aria-hidden": "true", focusable: "false" };
+  return {
+    role: "button",
+    tabIndex: 0,
+    "aria-label": label,
+    "aria-pressed": pressed,
+    onKeyDown: (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        e.stopPropagation();
+        onClick(e);
+      }
+    },
+  };
+}
+
+export function StarIcon({ size = 16, color = "currentColor", filled = false, strokeWidth = 1.8, style, onClick, onPointerDown, label = "Star this card" }) {
   return (
     <svg
+      {...tapProps(onClick, label, filled)}
       onClick={onClick}
       onPointerDown={onPointerDown}
       width={size}
@@ -216,10 +239,10 @@ export function StarIcon({ size = 16, color = "currentColor", filled = false, st
 
 // Small badge check, mirroring StarIcon's outline/filled pattern — outline
 // and muted until checked, filled green once marked known.
-export function CheckBadgeIcon({ size = 16, filled = false, style, onClick, onPointerDown }) {
+export function CheckBadgeIcon({ size = 16, filled = false, style, onClick, onPointerDown, label = "Mark as known" }) {
   const color = filled ? "#4C8A5E" : "#C9C4B6";
   return (
-    <svg onClick={onClick} onPointerDown={onPointerDown} width={size} height={size} viewBox="0 0 24 24" style={style}>
+    <svg {...tapProps(onClick, label, filled)} onClick={onClick} onPointerDown={onPointerDown} width={size} height={size} viewBox="0 0 24 24" style={style}>
       <circle cx="12" cy="12" r="9.5" fill={filled ? color : "none"} stroke={color} strokeWidth="1.8" />
       <polyline
         points="7.5,12.3 10.5,15.5 16.5,8.5"
