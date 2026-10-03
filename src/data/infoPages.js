@@ -8,12 +8,11 @@ export const INFO_PAGES = [
     id: "about",
     title: "About",
     paragraphs: [
-      "Broen is a Danish learning app for curious people who learn from the world around them. Broen means \"the bridge\" in Danish: a bridge between the Danish around you and the Danish you know.",
-      "Behind it is a deck of about 8,000 words and phrases. Browse it by level, topic or word type, with grammar lessons alongside, and shape it with your own cards and the levels you choose. The deck follows established language-learning principles: a known word returns in a new form, so you keep meeting it in context.",
-      "Go deeper whenever you're curious: ask questions, understand grammar, and make connections between words.",
-      "Your learning emerges from intentionally using the Danish you experience. In the Assistant tab, photograph or paste text from a sign, a menu or a news article, and the AI assistant will translate it, analyze the sentence structure and pick out key words to turn into cards. The Assistant needs an AI account of your own, which takes a couple of taps to connect in AI settings.",
-      "Hear it spoken: tap the speaker on a card to hear the Danish read aloud in your device's Danish voice. The app does not listen to you. It never uses your microphone, so it never asks for it.",
-      "What sets it apart: your surroundings become your classroom. There are no streaks, scores or drills, and an assistant is there for the why, whether that's grammar, word origin or any question about Danish.",
+      "Broen\u2014meaning \u201cThe Bridge\u201d\u2014is a Danish learning app for curious people who learn best by tapping into the world around them.",
+      "It\u2019s built on a deck of about 8,000 words and phrases that you can add to by uploading photos and text from the real Danish you encounter in your daily life.",
+      "Go deeper whenever you\u2019re curious: The AI companion enables you to ask questions, deep dive on grammar, and make connections between words. Each card allows you to hear the Danish read aloud.",
+      "You can upload a photo or paste Danish text and the AI assistant will translate it, analyze the sentence structure, and pick out key words that you can turn into cards you keep and review.",
+      "Broen organizes your learning based on your level and area of grammatical focus. It uses smart repetition, based on established language-learning principles.",
     ],
   },
   {
