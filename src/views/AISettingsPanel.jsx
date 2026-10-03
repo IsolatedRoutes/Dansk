@@ -160,7 +160,14 @@ export function AISettingsPanel({ onClose }) {
     <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 4 }}>Connect an AI</div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 14 }}>
-        Powers the tutor chat, sentence explanations, and article translation. Nothing else in this app needs it.
+        Powers the assistant, the lightbulb and question-mark on cards, sentence explanations, and reading text from photos. Studying cards never needs it.
+      </div>
+      <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
+        <div style={{ fontWeight: 600, marginBottom: 6 }}>New to AI? Start here</div>
+        <div style={{ marginBottom: 6 }}>The AI is not built into this app. It is a separate service run by a company such as Anthropic (Claude) or Google (Gemini). To use one, you need an <b>API key</b>: a long password that lets this app ask that service questions for you.</div>
+        <div style={{ marginBottom: 6 }}><b>To get one:</b> make a free account with the company, then tap "Get a key" below. Copy the key and paste it here. Anthropic needs a few dollars of credit added first. Google's free tier needs no payment.</div>
+        <div style={{ marginBottom: 6 }}><b>What it costs:</b> you pay the company directly, only for what you use. A lightbulb or question is well under a cent. Reading a photo costs more, roughly a cent or two. Prices are set by the companies and can change.</div>
+        <div><b>Your key</b> stays on this device and is sent only to the company that issued it. Don't share it with anyone.</div>
       </div>
 
       <div
@@ -173,7 +180,7 @@ export function AISettingsPanel({ onClose }) {
       >
         <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Anthropic key</div>
         <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
-          Best quality for Danish specifically, small per-use cost (typically well under a dollar for normal use).
+          Best quality for Danish. You pay per use: about half a cent for a question, a cent or two for a photo.
         </div>
         {!savedKey && (
           <a
@@ -243,7 +250,7 @@ export function AISettingsPanel({ onClose }) {
           >
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Google Gemini</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 12 }}>
-              Free, no credit card. Also handles Photo import, since it can read images. Good quality for everyday
+              Free, no credit card, with daily limits. On the free tier Google may use what you send to improve its products. Also reads photos. Good quality for everyday
               use, a step behind Claude on tricky grammar.
             </div>
 

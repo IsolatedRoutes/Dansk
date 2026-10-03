@@ -392,6 +392,12 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
         </label>
       )}
 
+      {!preview && isMobileDevice() && (
+        <div style={{ fontFamily: "var(--sans)", fontSize: 11.5, color: "var(--muted)", lineHeight: 1.45, marginTop: 6, textAlign: "center" }}>
+          Your phone will ask to use the camera. You can change this any time in Settings.
+        </div>
+      )}
+
       {file && (
         <div style={{ display: "flex", gap: 6, marginTop: 10 }}>
           <button
