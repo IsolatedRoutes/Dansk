@@ -12907,8 +12907,7 @@ const INFO_PAGES = [
     id: "about",
     title: "About",
     paragraphs: [
-      "Broen means the bridge: for learners past the beginner stage, and between the world you experience and the Danish you learn.",
-      "It is a Danish learning app for curious people who learn from the world around them.",
+      "Dansk is a Danish learning app for curious people who learn from the world around them.",
       "Behind it is a deck of about 8,000 words and phrases. Browse it by level, topic or word type, with grammar lessons alongside, and shape it with your own cards and the levels you choose. The deck follows established language-learning principles: a known word returns in a new form, so you keep meeting it in context.",
       "Go deeper whenever you're curious: ask questions, understand grammar, and make connections between words.",
       "Your learning emerges from intentionally using the Danish you experience. Photograph or paste text from a sign, a menu or a news article, then use the AI assistant to translate it, analyze the sentence structure and extract key words for future study.",
@@ -13185,6 +13184,18 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast })
   }
   const [poolTenses, setPoolTenses] = useState([]);
   const [poolUps, setPoolUps] = useState([]); // per pool slot: a level-up form index, or null
+  // The first card anyone sees is "broen" (the bridge), once.
+  const [welcomeReady, setWelcomeReady] = useState(false);
+  const welcomeCardId = useRef(null);
+  useEffect(() => {
+    storeGet("welcomeSeen").then((v) => {
+      if (v !== "1") {
+        const bridge = cards.find((c) => c.type === "word" && c.starter && c.front === "en bro" && !c.known && !c.ignored);
+        welcomeCardId.current = bridge ? bridge.id : null;
+      }
+      setWelcomeReady(true);
+    });
+  }, []);
   const tenseActive = verbForms.some((f) => f !== "base");
   // Past and perfect verb forms count as Intermediate at the least, so a
   // Basic-only session shows "at gå" / "jeg går", never "jeg gik". Returns
@@ -13296,7 +13307,8 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast })
       .sort((x, y) => x.due - y.due)
       .slice(0, 12); // never more than 12 per session, so a long break doesn't flood it
     const dueIds = new Set(dueUps.map((x) => x.c.id));
-    const filtered = cards.filter((c) => inScope(c) && !(unknownOnly && c.known) && !dueIds.has(c.id));
+    const welcomeId = welcomeCardId.current;
+    const filtered = cards.filter((c) => inScope(c) && !(unknownOnly && c.known) && !dueIds.has(c.id) && c.id !== welcomeId);
     // Phrases built on a word you already know (at gå → at gå ud fra)
     // come earlier in the session, so the known word helps carry the new one.
     const knownBase = new Set(
@@ -13326,6 +13338,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast })
     dueUps.forEach(({ c }, k) => {
       entries.splice(Math.min(3 + k * 5, entries.length), 0, { id: c.id, up: c.upStage || 0 });
     });
+    if (welcomeId) entries.unshift({ id: welcomeId, up: 0 });
     const ids = entries.map((e) => e.id);
     setPoolIds(ids);
     setPoolUps(entries.map((e) => e.up));
@@ -13343,7 +13356,7 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast })
     setFlipped(false);
     setDragX(0);
     setExiting(null);
-  }, [catFilter, scope, levels.join(","), nounOpts.join(","), starredOnly, unknownOnly, verbForms.join(","), sessionKey]);
+  }, [catFilter, scope, levels.join(","), nounOpts.join(","), starredOnly, unknownOnly, verbForms.join(","), sessionKey, welcomeReady]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
   // What the card actually shows: the normal word, or — in a tense
@@ -13407,6 +13420,10 @@ function StudyView({ cards, categories, updateCard, onOpenSettings, showToast })
   // Moving on from a known word's new form counts it as seen: the next
   // form comes a week later, and after the last one the word is done.
   function markLevelUpSeen() {
+    if (current && welcomeCardId.current === current.id) {
+      welcomeCardId.current = null;
+      storeSet("welcomeSeen", "1").catch(() => {});
+    }
     if (!current || upIdx == null || (current.upStage || 0) !== upIdx) return;
     updateCard(current.id, { upStage: upIdx + 1, upDue: Date.now() + LEVELUP_NEXT_GAP });
   }
