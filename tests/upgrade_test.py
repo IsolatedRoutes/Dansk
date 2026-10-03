@@ -139,6 +139,28 @@ with sync_playwright() as p:
         check(victim not in page.evaluate(COUNT)["fronts"], "deleted built-in card stays deleted: " + victim)
         ctx.close()
 
+    # 5. a deck damaged by the earlier correction loop is repaired without losing progress
+    ctx = browser.new_context(); ctx.add_init_script("window.K = " + IDB_GET); page = ctx.new_page()
+    page.goto(BASE + "old_local/index.html"); page.wait_for_timeout(6000)
+    page.reload(); page.wait_for_timeout(6000); page.reload(); page.wait_for_timeout(6000)
+    page.evaluate("""() => { const c = JSON.parse(localStorage.cards);
+      c.forEach(x => { if (/^(at )?(forsøge|anbefale)$/.test(x.front)) { x.known = true; x.notes = "keep " + x.front; } });
+      localStorage.cards = JSON.stringify(c); }""")
+    damaged = page.evaluate("() => JSON.parse(localStorage.cards).length")
+    page.goto(BASE + "new/index.html"); page.wait_for_timeout(7000)
+    page.reload(); page.wait_for_timeout(6000)
+    fixed = page.evaluate("""async () => { const c = JSON.parse(await K('cards'));
+      const keys = c.map(x => x.type + ':' + (x.front.trim() === 'I' ? 'I' : x.front.trim().toLowerCase()));
+      const ids = c.map(x => x.id);
+      return { total: c.length, dupFronts: keys.length - new Set(keys).size, dupIds: ids.length - new Set(ids).size,
+               forsoge: c.filter(x => /^(at )?forsøge$/.test(x.front)).map(x => [x.front, !!x.known, x.notes || '']),
+               prepI: c.some(x => x.front === 'i'), pronounI: c.some(x => x.front === 'I') } }""")
+    check(damaged > 8100, "damaged deck reproduced (%d cards)" % damaged)
+    check(fixed["dupFronts"] == 0 and fixed["dupIds"] == 0, "repaired deck has no duplicate cards " + str(fixed["dupFronts"]) + "/" + str(fixed["dupIds"]))
+    check(fixed["forsoge"] == [["at forsøge", True, "keep at forsøge"]] or (len(fixed["forsoge"]) == 1 and fixed["forsoge"][0][1]), "progress kept on the repaired card " + str(fixed["forsoge"]))
+    check(fixed["prepI"] and fixed["pronounI"], "both the word i (in) and I (you, plural) are in the deck")
+    ctx.close()
+
     # 3. unreadable saved data is moved aside, not overwritten
     ctx = browser.new_context(); ctx.add_init_script("window.K = " + IDB_GET); page = ctx.new_page()
     page.goto(BASE + "new/index.html"); page.wait_for_timeout(6000)

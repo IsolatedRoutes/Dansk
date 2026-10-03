@@ -5,9 +5,8 @@ Owner is not a coder: explain things in short, plain English.
 
 ## Release workflow (owner's standing instructions)
 1. Make and test the change.
-2. Send the owner the updated files to download first (`index-NEW.html`,
-   `danish-flashcards-NEW.jsx`, plus `sw-NEW.js` if it changed), with the
-   Terminal `mv` steps, so they have them even when away from their computer.
+2. Send the owner the updated project (zip, without `node_modules`) to
+   download first, so they have it even when away from their computer.
 3. Ask whether to push. Push to GitHub **only** when the owner says so.
 4. After pushing, remind them `git pull` keeps their computer's folder in sync.
 
@@ -36,7 +35,10 @@ update — and any future App Store or desktop version — must keep it.
   run everything in localStorage is copied over, read back and compared;
   only then is `__legacyCopied` set. The localStorage copy is left in place
   as a backup. If IndexedDB is unavailable, saves fall back to
-  localStorage, then memory. A native wrapper should store data in the
+  localStorage, then memory. A failed IndexedDB write is reported, never
+  redirected elsewhere. The deck is read with `storeGetStrict` at startup:
+  if it can't be read, the app shows "couldn't be opened" and changes
+  nothing. A native wrapper should store data in the
   platform's persistent storage behind `storeGet` / `storeSet`.
 - Saves are queued in order; a change saved in another tab reloads this one
   (BroadcastChannel).
@@ -47,7 +49,8 @@ update — and any future App Store or desktop version — must keep it.
   use the platform's persistent storage, not a plain WebView localStorage.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
-against `origin/main`) and only ship when it prints ALL PASSED.
+against `origin/main`) and `python3 tests/smoke_test.py`; only ship when
+both print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -72,9 +75,9 @@ known / starred marks.
 
 ## App Store
 - Study and Library work with no network; only AI features need one.
-- The in-app About / Privacy / FAQ text is `INFO_PAGES` in the jsx;
+- The in-app About / Privacy / FAQ text is `INFO_PAGES` in `src/data/infoPages.js`;
   `privacy.html` mirrors the privacy text. Keep them in step.
-- The opening screen is the `#splash` block in `index.html`.
+- The opening screen is the `#splash` block in `src/index.html`.
 
 ## Naming
 The app is called Dansk. "Broen" ("the bridge") appears only on the opening
@@ -83,6 +86,17 @@ screen and in About. Keep the storage names (`dansk` database,
 deck. Icons live in `icons/`; `icon-1024.png` is the App Store icon (full
 square, no transparency, no baked-in rounded corners).
 
-## Building
-`danish-flashcards.jsx` is the source; `index.html` contains the bundled
-build (esbuild, React 18). Bump `CACHE_NAME` in `sw.js` when shell files change.
+## Code layout and building
+Source is in `src/` (Vite + React 18):
+- `App.jsx` root component: startup pipeline, state, layout. `main.jsx` entry.
+- `data/` built-in content (categories, words.tsv, grammar, corrections).
+- `lib/` logic with no UI: storage, vocabulary, migrations, level-up,
+  backup, speech, `ai/` providers.
+- `components/` shared UI pieces; `views/` the screens (Study, Library,
+  Add, Assistant, settings panels).
+
+Commands: `npm install` once, then `npm run lint`, `npm run build`,
+`npm test`. `npx vite build` writes the single self-contained `index.html`
+at the repo root, which GitHub Pages serves — commit it with every release.
+Static root files: `sw.js`, `manifest.webmanifest`, `privacy.html`, `icons/`.
+Bump `CACHE_NAME` in `sw.js` when shell files change.
