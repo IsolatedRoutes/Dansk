@@ -242,7 +242,10 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [catFilter, scope, levelsKey, nounOptsKey, starredOnly, unknownOnly, verbFormsKey, sessionKey, welcomeReady, settingsReady]);
 
-  const current = cards.find((c) => c.id === poolIds[idx]);
+  // Looked up by id from a map: this runs on every drag frame, and scanning
+  // the whole deck each time made swiping and flipping sluggish.
+  const cardsById = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards]);
+  const current = cardsById.get(poolIds[idx]);
   const cardsRef = useRef(cards);
   cardsRef.current = cards;
   // What the card actually shows: the normal word, or — in a tense
@@ -265,8 +268,36 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   // visible even while looking at the unknown-only view. Computed fresh
   // from live cards every render, so it auto-updates immediately.
   const inProgressScope = inScope;
-  const knownWordCount = cards.filter((c) => inProgressScope(c) && c.known).length;
-  const scopeTotal = cards.filter(inProgressScope).length;
+  const ownCount = useMemo(() => cards.filter((c) => !c.starter && !c.ignored).length, [cards]);
+  const { knownWordCount, scopeTotal } = useMemo(() => {
+    let known = 0;
+    let total = 0;
+    for (const c of cards) {
+      if (!inProgressScope(c)) continue;
+      total++;
+      if (c.known) known++;
+    }
+    return { knownWordCount: known, scopeTotal: total };
+    // Only when the deck or a filter changes, not on every drag frame.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cards, catFilter, scope, starredOnly, levelsKey, nounOptsKey, verbFormsKey]);
+
+  // Session summary for the end-of-session screen. Starred cards can appear
+  // several times in the pool, so each card is counted once.
+  const { knownNowCount, stillUnknownCount, starredInSessionCount } = useMemo(() => {
+    const unique = new Map();
+    for (const id of poolIds) {
+      const c = cardsById.get(id);
+      if (c) unique.set(id, c);
+    }
+    let known = 0;
+    let starred = 0;
+    for (const c of unique.values()) {
+      if (c.known) known++;
+      if (c.starred) starred++;
+    }
+    return { knownNowCount: known, stillUnknownCount: unique.size - known, starredInSessionCount: starred };
+  }, [poolIds, cardsById]);
   // "Card X of Y": Y is every card in this view (known ones included, so
   // it doesn't shrink when "Unknown" is on); X counts distinct cards, since
   // starred cards come up more than once in a session.
@@ -453,7 +484,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   }
 
   function restartWith(mode) {
-    const sessionCards = poolIds.map((id) => cards.find((c) => c.id === id)).filter(Boolean);
+    const sessionCards = poolIds.map((id) => cardsById.get(id)).filter(Boolean);
     let ids;
     if (mode === "unknown") ids = sessionCards.filter((c) => !c.known).map((c) => c.id);
     else if (mode === "starred") ids = sessionCards.filter((c) => c.starred).map((c) => c.id);
@@ -480,15 +511,6 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     );
   }
 
-  const sessionCards = poolIds.map((id) => cards.find((c) => c.id === id)).filter(Boolean);
-  // Starred cards can appear multiple times in the pool (by design, so
-  // they cycle in more often) — de-duplicate before counting so the
-  // session-end summary reflects distinct cards, not raw pool entries.
-  const uniqueSessionCards = [...new Map(sessionCards.map((c) => [c.id, c])).values()];
-  const knownNowCount = uniqueSessionCards.filter((c) => c.known).length;
-  const stillUnknownCount = uniqueSessionCards.length - knownNowCount;
-  const starredInSessionCount = uniqueSessionCards.filter((c) => c.starred).length;
-
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
@@ -500,7 +522,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               onChange={setCatFilter}
               scope={scope}
               onChangeScope={setScope}
-              ownCount={cards.filter((c) => !c.starter && !c.ignored).length}
+              ownCount={ownCount}
               verbForms={verbForms}
               onChangeVerbForms={changeVerbForms}
               nounOpts={nounOpts}
