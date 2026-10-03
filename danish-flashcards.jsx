@@ -12893,8 +12893,11 @@ function Shell({ children }) {
 function hideSplash() {
   const el = document.getElementById("splash");
   if (!el) return;
-  el.classList.add("splash-hide");
-  setTimeout(() => el.remove(), 500);
+  const shownFor = Date.now() - (window.__splashStart || 0);
+  setTimeout(() => {
+    el.classList.add("splash-hide");
+    setTimeout(() => el.remove(), 1200);
+  }, Math.max(0, 2200 - shownFor));
 }
 
 // ---------- about, privacy, FAQ ----------
@@ -13004,7 +13007,7 @@ function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen, backup
             style={{ borderRadius: 7, display: "block" }}
           />
           <span>
-            Broen<span style={{ color: "var(--rust)" }}>.</span>
+            Dansk<span style={{ color: "var(--rust)" }}>.</span>
           </span>
         </h1>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
@@ -15391,7 +15394,7 @@ async function performBackupExport(cards, categories, showToast) {
   // replaces the last one in Files/Downloads rather than piling up a new
   // file every time — the export timestamp still lives inside the file
   // itself if it's ever needed.
-  const filename = "broen-backup.json";
+  const filename = "dansk-backup.json";
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
 
   // Share the file directly when possible, so the person gets a real
@@ -15404,7 +15407,7 @@ async function performBackupExport(cards, categories, showToast) {
     try {
       const file = new File([blob], filename, { type: "application/json" });
       if (navigator.canShare({ files: [file] })) {
-        await navigator.share({ files: [file], title: "Broen backup" });
+        await navigator.share({ files: [file], title: "Dansk backup" });
         markBackedUp(cards, categories);
         return;
       }
@@ -15423,7 +15426,7 @@ async function performBackupExport(cards, categories, showToast) {
       const handle = await window.showSaveFilePicker({
         id: "dansk-cloud-backup",
         suggestedName: filename,
-        types: [{ description: "Broen backup", accept: { "application/json": [".json"] } }],
+        types: [{ description: "Dansk backup", accept: { "application/json": [".json"] } }],
       });
       const writable = await handle.createWritable();
       await writable.write(blob);
@@ -15470,7 +15473,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
     try {
       const parsed = JSON.parse(text);
       if (!Array.isArray(parsed.cards) || !Array.isArray(parsed.categories)) {
-        showToast("That doesn't look like a Broen backup file");
+        showToast("That doesn't look like a Dansk backup file");
         return;
       }
       const confirmed = window.confirm
@@ -15485,7 +15488,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       const ok = await replaceAllData(parsed.cards, parsed.categories);
       showToast(ok ? "Backup restored (" + parsed.cards.length + " cards)" : "Couldn't restore the backup");
     } catch {
-      showToast("Couldn't read that file — is it a Broen backup?");
+      showToast("Couldn't read that file — is it a Dansk backup?");
     }
   }
 
@@ -15497,7 +15500,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       try {
         const [handle] = await window.showOpenFilePicker({
           id: "dansk-cloud-backup",
-          types: [{ description: "Broen backup", accept: { "application/json": [".json"] } }],
+          types: [{ description: "Dansk backup", accept: { "application/json": [".json"] } }],
         });
         const file = await handle.getFile();
         await processImportedBackup(await file.text());
@@ -15528,7 +15531,7 @@ function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) 
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.55, marginBottom: 16 }}>
         Export saves your deck to a file; Import loads one back in. To carry progress between devices, export into a
         synced folder (like iCloud Drive), then Import on the other device. Every export uses the same name,
-        "broen-backup.json". Websites can't overwrite files on their own, so if your phone or browser asks, choose
+        "dansk-backup.json". Websites can't overwrite files on their own, so if your phone or browser asks, choose
         Replace to keep a single backup instead of a new numbered copy.
       </div>
       <div
