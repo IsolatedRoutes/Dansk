@@ -12995,20 +12995,8 @@ function Header({ onOpenSettings, onOpenBackup, onOpenInfo, settingsOpen, backup
   return (
     <div style={{ padding: "22px 18px 14px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <h1 style={{ fontFamily: "var(--serif)", fontSize: 26, margin: 0, fontWeight: 400, letterSpacing: 0.2, display: "flex", alignItems: "center", gap: 10 }}>
-          <img
-            src="icons/icon-192.png"
-            alt=""
-            width={30}
-            height={30}
-            onError={(e) => {
-              e.currentTarget.style.display = "none";
-            }}
-            style={{ borderRadius: 7, display: "block" }}
-          />
-          <span>
-            Dansk<span style={{ color: "var(--rust)" }}>.</span>
-          </span>
+        <h1 style={{ fontFamily: "var(--serif)", fontSize: 26, margin: 0, fontWeight: 400, letterSpacing: 0.2 }}>
+          Dansk<span style={{ color: "var(--rust)" }}>.</span>
         </h1>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <button
