@@ -5,6 +5,6 @@ export function hideSplash() {
   const shownFor = Date.now() - (window.__splashStart || 0);
   setTimeout(() => {
     el.classList.add("splash-hide");
-    setTimeout(() => el.remove(), 1200);
-  }, Math.max(0, 2200 - shownFor));
+    setTimeout(() => el.remove(), 1000);
+  }, Math.max(0, 1600 - shownFor));
 }

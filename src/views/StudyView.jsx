@@ -27,25 +27,20 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   // that tense ("jeg spiste → I ate"). With several ticked, each verb card
   // picks one of them at random. Remembered on this device.
   const [verbForms, setVerbForms] = useState(["base"]);
+  const [settingsReady, setSettingsReady] = useState(false);
+  const [poolBuilt, setPoolBuilt] = useState(false);
   useEffect(() => {
-    storeGet("verbForms")
-      .then((v) => {
-        const list = v ? JSON.parse(v) : null;
-        if (Array.isArray(list) && list.length) setVerbForms(list);
-      })
-      .catch(() => {});
-    storeGet("studyLevels")
-      .then((v) => {
-        const list = v ? JSON.parse(v) : null;
-        if (Array.isArray(list)) setLevels(list);
-      })
-      .catch(() => {});
-    storeGet("nounOptions")
-      .then((v) => {
-        const list = v ? JSON.parse(v) : null;
-        if (Array.isArray(list) && (list.includes("en") || list.includes("et"))) setNounOpts(list);
-      })
-      .catch(() => {});
+    const read = (key, apply) =>
+      storeGet(key)
+        .then((v) => apply(v ? JSON.parse(v) : null))
+        .catch(() => {});
+    // The first session is built only once every saved setting is in, so
+    // the first card never changes after the opening screen fades.
+    Promise.all([
+      read("verbForms", (list) => Array.isArray(list) && list.length && setVerbForms(list)),
+      read("studyLevels", (list) => Array.isArray(list) && setLevels(list.filter((id) => LEVELS.some((l) => l.id === id)))),
+      read("nounOptions", (list) => Array.isArray(list) && (list.includes("en") || list.includes("et")) && setNounOpts(list)),
+    ]).then(() => setSettingsReady(true));
   }, []);
   function changeLevels(next) {
     setLevels(next);
@@ -180,6 +175,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   // under you — it just turns the badge green. Future sessions won't
   // include it.
   useEffect(() => {
+    if (!settingsReady || !welcomeReady) return;
     const now = Date.now();
     // Known words whose next new form is due (see levelUpDueAt). They
     // replace the plain card — a known word never comes back as itself —
@@ -225,6 +221,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     if (welcomeId) entries.unshift({ id: welcomeId, up: 0 });
     const ids = entries.map((e) => e.id);
     setPoolIds(ids);
+    setPoolBuilt(true);
     setPoolUps(entries.map((e) => e.up));
     const TENSE_INDEX = { base: null, present: 0, past: 1, perfect: 2 };
     setPoolTenses(
@@ -243,7 +240,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     // The order is built when the session starts or a filter changes, not
     // whenever a card changes, so marking a card known never reshuffles it.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catFilter, scope, levelsKey, nounOptsKey, starredOnly, unknownOnly, verbFormsKey, sessionKey, welcomeReady]);
+  }, [catFilter, scope, levelsKey, nounOptsKey, starredOnly, unknownOnly, verbFormsKey, sessionKey, welcomeReady, settingsReady]);
 
   const current = cards.find((c) => c.id === poolIds[idx]);
   const cardsRef = useRef(cards);
@@ -565,7 +562,9 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
         </div>
       </div>
 
-      {!current ? (
+      {!poolBuilt ? (
+        <div style={{ height: 300 }} />
+      ) : !current ? (
         <div style={{ textAlign: "center", padding: "40px 10px" }}>
           <Icon.Check size={26} color="var(--fjord)" style={{ marginBottom: 8 }} />
           <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>
