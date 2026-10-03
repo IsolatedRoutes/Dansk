@@ -1,4 +1,4 @@
-import { describeApiFailure, fetchAndParse } from "./http";
+import { describeApiFailure, fetchAndParse, requireConsent } from "./http";
 import { storeGet } from "../storage";
 
 // Google Gemini's free tier — no credit card, callable directly from a
@@ -8,6 +8,7 @@ import { storeGet } from "../storage";
 const GEMINI_MODEL_ID = "gemini-flash-latest";
 
 async function geminiHeaders() {
+  await requireConsent();
   const key = await storeGet("geminiApiKey");
   if (!key) throw new Error("MISSING_GEMINI_KEY");
   return { "Content-Type": "application/json", "x-goog-api-key": key };

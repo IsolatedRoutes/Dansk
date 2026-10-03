@@ -41,7 +41,7 @@
 </script>
 <script type="module" src="./main.jsx"></script>
 <script>
-  if ('serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator && !window.Capacitor) {
     window.addEventListener('load', function () {
       // updateViaCache 'none' makes the browser check for a new sw.js every time.
       navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(function (reg) {

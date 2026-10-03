@@ -8,13 +8,17 @@
     "build": "vite build",
     "lint": "eslint src",
     "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py",
-    "build:webllm": "vite build -c vite.webllm.config.js"
+    "build:webllm": "vite build -c vite.webllm.config.js",
+    "cap:sync": "vite build && node scripts/prepare-www.mjs && cap sync ios"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
     "@eslint/js": "^9.39.5",
     "@mlc-ai/web-llm": "^0.2.85",
     "@vitejs/plugin-react": "^6.1.1",

@@ -303,6 +303,8 @@ export default function DanishFlashcards() {
       setCards(c);
       setCategories(cat);
       setLoaded(true);
+      // Ask the device not to clear saved progress when it runs low on space.
+      try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch {}
     })();
   }, []);
 

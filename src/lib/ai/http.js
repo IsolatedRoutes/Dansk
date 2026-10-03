@@ -1,11 +1,17 @@
 import { inClaudeApp, storeGet } from "../storage";
 
+// Nothing is sent to an AI company until the person has agreed in AI settings.
+export async function requireConsent() {
+  if ((await storeGet("aiConsent")) !== "1") throw new Error("AI_CONSENT_REQUIRED");
+}
+
 export async function buildHeaders() {
   // anthropic-version is required by the API on every request, regardless
   // of how auth is handled — omitting it inside Claude (where auth is
   // otherwise automatic) was causing every call to fail.
   const headers = { "Content-Type": "application/json", "anthropic-version": "2023-06-01" };
   if (!inClaudeApp()) {
+    await requireConsent();
     const key = await storeGet("anthropicApiKey");
     if (!key) throw new Error("MISSING_API_KEY");
     headers["x-api-key"] = key;

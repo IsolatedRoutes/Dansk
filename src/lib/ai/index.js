@@ -2,6 +2,7 @@ import { callClaudeText } from "./claude";
 import { callGeminiText } from "./gemini";
 import { callLocalText } from "./local";
 import { callOllamaText } from "./ollama";
+import { isNativeApp } from "../platform";
 import { inClaudeApp, storeGet } from "../storage";
 
 export async function getAIEngine() {
@@ -9,6 +10,7 @@ export async function getAIEngine() {
   // wins — Claude's own model is only the zero-setup default when nothing
   // has been chosen yet.
   const v = await storeGet("aiEngine");
+  if (isNativeApp() && (v === "local" || v === "ollama")) return null;
   if (v === "local" || v === "api" || v === "gemini" || v === "ollama") return v;
   if (inClaudeApp()) return "api";
   return null;
@@ -35,6 +37,7 @@ export function apiErrorMessage(e) {
     return "Couldn't reach the server (" + msg.replace("NETWORK_ERROR: ", "") + "). Check your connection and try again.";
   if (msg && msg.indexOf("RESPONSE_NOT_JSON") === 0)
     return "Got an unexpected response instead of an answer (" + msg.replace("RESPONSE_NOT_JSON: ", "") + "). Try again — if it keeps happening, this is worth reporting.";
+  if (msg === "AI_CONSENT_REQUIRED") return "Open AI settings and tap I agree to confirm what is shared with the AI company first.";
   if (msg === "NO_ENGINE_CHOSEN") return "Choose an AI option in AI settings first.";
   if (msg === "MISSING_OLLAMA_CONFIG") return "Set up your Ollama address and model name in AI settings to use this.";
   if (msg === "TRANSLATION_DIDNT_HAPPEN") return "Didn't get an actual translation back — try again.";

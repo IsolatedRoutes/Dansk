@@ -3,6 +3,7 @@ import { inputStyle, smallBtn } from "../components/ui";
 import { chromeTranslatorAvailability, chromeTranslatorSupported } from "../lib/ai/chrome";
 import { apiErrorMessage } from "../lib/ai/index";
 import { LOCAL_MODEL_ID, LOCAL_MODEL_OPTIONS, getLocalEngine, localEnginePromise } from "../lib/ai/local";
+import { isNativeApp } from "../lib/platform";
 import { storeGet, storeSet } from "../lib/storage";
 
 // ============================================================
@@ -25,6 +26,7 @@ export function AISettingsPanel({ onClose }) {
   const [modelReady, setModelReady] = useState(!!localEnginePromise);
   const [showMore, setShowMore] = useState(false);
   const [showWhy, setShowWhy] = useState(false);
+  const [consented, setConsented] = useState(true);
   const [error, setError] = useState("");
   const [confirmingModel, setConfirmingModel] = useState(false);
   const [selectedModelId, setSelectedModelId] = useState(LOCAL_MODEL_ID);
@@ -40,6 +42,7 @@ export function AISettingsPanel({ onClose }) {
     (async () => {
       const e = await storeGet("aiEngine");
       setEngineState(e);
+      setConsented((await storeGet("aiConsent")) === "1");
       setSavedGeminiKey(await storeGet("geminiApiKey"));
       setSavedKey(await storeGet("anthropicApiKey"));
       try {
@@ -53,10 +56,21 @@ export function AISettingsPanel({ onClose }) {
     })();
   }, []);
 
+  async function agree() {
+    await storeSet("aiConsent", "1");
+    setConsented(true);
+    setError("");
+  }
+
   async function chooseEngine(next) {
+    if ((next === "api" || next === "gemini") && !consented) {
+      setError("Please tap \"I agree\" above first.");
+      return false;
+    }
     setEngineState(next);
     setError("");
     await storeSet("aiEngine", next);
+    return true;
   }
 
   async function saveOllamaConfig() {
@@ -123,19 +137,19 @@ export function AISettingsPanel({ onClose }) {
 
   async function saveGeminiKey() {
     if (!geminiKeyInput.trim()) return;
+    if (!(await chooseEngine("gemini"))) return;
     await storeSet("geminiApiKey", geminiKeyInput.trim());
     setSavedGeminiKey(geminiKeyInput.trim());
     setGeminiKeyInput("");
-    await chooseEngine("gemini");
     onClose("gemini");
   }
 
   async function saveKey() {
     if (!apiKeyInput.trim()) return;
+    if (!(await chooseEngine("api"))) return;
     await storeSet("anthropicApiKey", apiKeyInput.trim());
     setSavedKey(apiKeyInput.trim());
     setApiKeyInput("");
-    await chooseEngine("api");
     onClose("api");
   }
 
@@ -181,6 +195,13 @@ export function AISettingsPanel({ onClose }) {
         )}
       </div>
 
+      {!consented && (
+        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, border: "1.5px solid var(--rust)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
+          <div style={{ fontWeight: 600, marginBottom: 4 }}>Before you connect</div>
+          <div style={{ marginBottom: 8 }}>When you use an AI feature, the text or photo you send goes to the company you choose (Anthropic or Google), and their privacy policy applies. It does not go to us. AI answers can be wrong.</div>
+          <button onClick={agree} style={smallBtn("var(--rust)")}>I agree</button>
+        </div>
+      )}
       <div
         style={{
           border: "1.5px solid " + (apiActive ? "var(--fjord)" : "var(--line)"),
@@ -317,6 +338,8 @@ export function AISettingsPanel({ onClose }) {
             )}
           </div>
 
+          {!isNativeApp() && (
+          <>
           <div style={{ border: "1.5px solid " + (engine === "local" ? "var(--fjord)" : "var(--line)"), borderRadius: 10, padding: 14, marginTop: 10 }}>
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Local model</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
@@ -441,6 +464,8 @@ export function AISettingsPanel({ onClose }) {
               </label>
             )}
           </div>
+          </>
+          )}
         </>
       )}
 

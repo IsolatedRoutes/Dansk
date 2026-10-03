@@ -104,3 +104,6 @@ at the repo root, which GitHub Pages serves — commit it with every release.
 Static root files: `sw.js`, `manifest.webmanifest`, `privacy.html`, `icons/`.
 The on-device model's software is built into `vendor/web-llm.js` (`npm run build:webllm`, only after upgrading `@mlc-ai/web-llm`) and loaded from the app's own site, never from a third-party CDN; commit it. The model files themselves download once from Hugging Face / GitHub.
 Bump `CACHE_NAME` in `sw.js` when shell files change.
+
+## iPhone app
+See CAPACITOR.md. `npm run cap:sync` builds and copies into the Capacitor project. `isNativeApp()` (src/lib/platform.js) hides web-only AI options. AI calls are blocked until `aiConsent` is set in AI settings (requireConsent in src/lib/ai/http.js).
