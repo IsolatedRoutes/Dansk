@@ -102,4 +102,5 @@ Commands: `npm install` once, then `npm run lint`, `npm run build`,
 `npm test`. `npx vite build` writes the single self-contained `index.html`
 at the repo root, which GitHub Pages serves — commit it with every release.
 Static root files: `sw.js`, `manifest.webmanifest`, `privacy.html`, `icons/`.
+The on-device model's software is built into `vendor/web-llm.js` (`npm run build:webllm`, only after upgrading `@mlc-ai/web-llm`) and loaded from the app's own site, never from a third-party CDN; commit it. The model files themselves download once from Hugging Face / GitHub.
 Bump `CACHE_NAME` in `sw.js` when shell files change.

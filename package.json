@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src",
-    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py"
+    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py",
+    "build:webllm": "vite build -c vite.webllm.config.js"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
+    "@mlc-ai/web-llm": "^0.2.85",
     "@vitejs/plugin-react": "^6.1.1",
     "eslint": "^9.39.5",
     "eslint-plugin-react": "^7.37.5",

@@ -33,7 +33,7 @@ export async function getLocalEngine(onProgress, modelId) {
       }
       let webllm;
       try {
-        webllm = await import("https://esm.run/@mlc-ai/web-llm");
+        webllm = await import(/* @vite-ignore */ new URL("vendor/web-llm.js", document.baseURI).href);
       } catch {
         throw new Error("LOCAL_MODEL_LOAD_FAILED");
       }
