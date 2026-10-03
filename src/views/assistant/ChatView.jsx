@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Icon } from "../../components/icons";
-import { EmptyState, Pill, SectionTitle } from "../../components/ui";
+import { EmptyState, Pill, SectionTitle, smallBtn } from "../../components/ui";
 import { ChatConversation } from "./ChatConversation";
 import { PhotoPanel } from "./PhotoPanel";
 import { TextExtractPanel } from "./TextExtractPanel";
@@ -28,7 +28,14 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
       <div style={{ height: 12 }} />
 
       {!engine && (
-        <EmptyState icon={Icon.MessageCircle} title="Choose an AI option" body="Open AI settings above to use the local model or your own API key." />
+        <>
+          <EmptyState icon={Icon.MessageCircle} title="Set up your AI to use the Assistant" body="The Assistant answers questions about Danish, explains grammar, translates text and reads photos. To turn it on, connect your own AI account. It takes a couple of taps." />
+          <div style={{ textAlign: "center" }}>
+            <button onClick={onOpenSettings} style={{ ...smallBtn("var(--rust)"), padding: "10px 20px", fontSize: 13.5 }}>
+              Set up AI
+            </button>
+          </div>
+        </>
       )}
 
       {engine && (

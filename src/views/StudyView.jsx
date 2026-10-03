@@ -911,6 +911,25 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               Next
             </button>
           </div>
+
+          {welcomeCardId.current === current.id && (
+            <div style={{ fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.55, color: "var(--muted)", background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: "14px 16px", marginTop: 18 }}>
+              <div style={{ fontWeight: 600, color: "var(--ink)", marginBottom: 6 }}>Welcome to Broen, Danish one card at a time</div>
+              <div style={{ marginBottom: 8 }}>Tap the card to flip it and see the English. Tap Next, or swipe, for the next card.</div>
+              {[
+                [<StarIcon key="s" size={15} filled={false} color="#C9C4B6" />, "Star: see this card more often"],
+                [<CheckBadgeIcon key="c" size={15} filled />, "Check: I know this word, hide it"],
+                [<Icon.Lightbulb key="l" size={15} color="#A8A395" />, "Lightbulb: explain this word (needs AI)"],
+                [<Icon.HelpCircle key="q" size={15} color="#A8A395" />, "Question mark: ask about this word (needs AI)"],
+              ].map(([icon, text]) => (
+                <div key={text} style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                  <span style={{ width: 18, display: "flex", justifyContent: "center" }}>{icon}</span>
+                  {text}
+                </div>
+              ))}
+              <div style={{ marginTop: 8 }}>The menu at the top right has the full guide, "How it works".</div>
+            </div>
+          )}
         </>
       )}
 

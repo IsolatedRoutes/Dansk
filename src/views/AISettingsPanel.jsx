@@ -175,7 +175,7 @@ export function AISettingsPanel({ onClose }) {
     <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 4 }}>Connect an AI</div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 14 }}>
-        Powers the assistant, the lightbulb and question-mark on cards, sentence explanations, and reading text from photos. Studying cards never needs it.
+        Powers the Assistant tab, explaining or asking about a word on a card, sentence analysis, and reading text from photos. Studying cards never needs it.
       </div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
         <div style={{ fontWeight: 600, marginBottom: 4 }}>Set up your AI</div>
@@ -190,7 +190,7 @@ export function AISettingsPanel({ onClose }) {
           <div style={{ marginTop: 8 }}>
             <div style={{ marginBottom: 6 }}>The AI features are part of Broen, but you connect your own AI account. Your questions and photos go straight to the AI company, never through us.</div>
             <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting one takes a couple of taps: sign in on the company's site, create a key, and paste it here.</div>
-            <div><b>Cost:</b> you pay the company only for what you use. A question or lightbulb is well under a cent, a photo roughly a cent or two. Prices can change.</div>
+            <div><b>Cost:</b> you pay the company only for what you use. A question or word explanation is well under a cent, a photo roughly a cent or two. Prices can change.</div>
           </div>
         )}
       </div>
@@ -210,7 +210,7 @@ export function AISettingsPanel({ onClose }) {
           background: apiActive ? "#EEF2F0" : "transparent",
         }}
       >
-        <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Anthropic key</div>
+        <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Claude (by Anthropic)</div>
         <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
           Best quality for Danish. You pay per use: about half a cent for a question, a cent or two for a photo.
         </div>
@@ -280,7 +280,7 @@ export function AISettingsPanel({ onClose }) {
               background: engine === "gemini" ? "#EEF2F0" : "transparent",
             }}
           >
-            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Google Gemini</div>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Gemini (by Google)</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 12 }}>
               Free, no credit card, with daily limits. On the free tier Google may use what you send to improve its products. Also reads photos. Good quality for everyday
               use, a step behind Claude on tricky grammar.
