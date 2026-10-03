@@ -68,9 +68,12 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
   // letter grouping agree on the same real first letter instead of one
   // of them being thrown off by punctuation.
   const sortKey = (word) => {
-    const stripped = word.replace(/^(en|et|an?)\s+/i, "").trim();
+    const stripped = word.normalize("NFC").replace(/^(en|et|an?)\s+/i, "").trim();
     const match = stripped.match(/[a-zA-ZæøåÆØÅ].*/s);
-    return match ? match[0] : stripped;
+    const key = match ? match[0] : stripped;
+    // Danish collation files "aa" with å (Aarhus would land among the Å
+    // words); an invisible break keeps it with the A words.
+    return /^aa/i.test(key) ? key[0] + "\u200B" + key.slice(1) : key;
   };
   const sortField = (c) => (englishFirst ? c.back : c.front);
   const sorted = [...filtered].sort((a, b) => {

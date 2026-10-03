@@ -1,3 +1,22 @@
+// Danish letters can arrive as one character (å) or as a plain letter plus
+// a combining mark (a + ˚), which look identical but are not equal. Saved
+// text is kept in the single-character form so sorting, search and
+// duplicate checks agree.
+export const nfc = (s) => (typeof s === "string" ? s.normalize("NFC") : s);
+
+export function normalizeCardText(cards) {
+  let changed = false;
+  const next = cards.map((c) => {
+    const front = nfc(c.front);
+    const back = nfc(c.back);
+    const notes = nfc(c.notes);
+    if (front === c.front && back === c.back && notes === c.notes) return c;
+    changed = true;
+    return { ...c, front, back, notes };
+  });
+  return changed ? next : cards;
+}
+
 export function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
 }

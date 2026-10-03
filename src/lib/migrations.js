@@ -2,7 +2,7 @@ import { CATEGORY_MERGE_MAP, LESSONS_ID, TOPIC_NAMES, isLessonsCategory } from "
 import { STARTER_GRAMMAR } from "../data/grammarLessons";
 import { VOCAB_CORRECTIONS, VOCAB_TRANSLATION_CORRECTIONS } from "../data/vocabCorrections";
 import { storeGet, storeSet } from "./storage";
-import { frontKey, uid } from "./text";
+import { frontKey, normalizeCardText, uid } from "./text";
 import { STARTER_WORDS, wordMetaFor } from "./vocabulary";
 
 // Shared by the auto-seed on first launch and the manual "Add starter
@@ -56,8 +56,10 @@ export function migrateConsolidatedCategories(cards, categories) {
 // translation matches one of the corrections above, so a user who
 // already has the old (incorrect) version gets it updated rather than
 // ending up with both the old and the corrected word side by side.
-export function migrateVocabCorrections(cards) {
+export function migrateVocabCorrections(original) {
   let changed = false;
+  const cards = normalizeCardText(original);
+  if (cards !== original) changed = true;
   let newCards = cards.map((card) => {
     if (card.type !== "word") return card;
     const frontFix = VOCAB_CORRECTIONS[card.front];

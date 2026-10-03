@@ -13,7 +13,7 @@ import { LEVELUP_FIRST_GAP } from "./lib/levelUp";
 import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAdditions, loadDeletedKeys, migrateConsolidatedCategories, migrateToTopics, migrateVocabCorrections, moveStrayCards, rememberDeleted, restoreProgress, snapshotProgress, stableStarterId, syncGrammarLessons } from "./lib/migrations";
 import { hideSplash } from "./lib/splash";
 import { persistWithRetry, storeGet, storeGetStrict, storeSet, syncChannel, unpackCards } from "./lib/storage";
-import { frontKey, uid } from "./lib/text";
+import { frontKey, normalizeCardText, uid } from "./lib/text";
 import { AISettingsPanel } from "./views/AISettingsPanel";
 import { AddCardView } from "./views/AddCardView";
 import { BackupPanel } from "./views/BackupPanel";
@@ -298,6 +298,7 @@ export default function DanishFlashcards() {
   cardsRef.current = cards;
   const persistCards = useCallback(
     async (next) => {
+      next = normalizeCardText(next);
       cardsRef.current = next;
       setCards(next);
       const result = await persistWithRetry("cards", JSON.stringify(next));
