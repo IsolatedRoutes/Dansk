@@ -163,11 +163,10 @@ export function AISettingsPanel({ onClose }) {
         Powers the assistant, the lightbulb and question-mark on cards, sentence explanations, and reading text from photos. Studying cards never needs it.
       </div>
       <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
-        <div style={{ fontWeight: 600, marginBottom: 6 }}>New to AI? Start here</div>
-        <div style={{ marginBottom: 6 }}>The AI is not built into this app. It is a separate service run by a company such as Anthropic (Claude) or Google (Gemini). To use one, you need an <b>API key</b>: a long password that lets this app ask that service questions for you.</div>
-        <div style={{ marginBottom: 6 }}><b>To get one:</b> make a free account with the company, then tap "Get a key" below. Copy the key and paste it here. Anthropic needs a few dollars of credit added first. Google's free tier needs no payment.</div>
-        <div style={{ marginBottom: 6 }}><b>What it costs:</b> you pay the company directly, only for what you use. A lightbulb or question is well under a cent. Reading a photo costs more, roughly a cent or two. Prices are set by the companies and can change.</div>
-        <div><b>Your key</b> stays on this device and is sent only to the company that issued it. Don't share it with anyone.</div>
+        <div style={{ fontWeight: 600, marginBottom: 6 }}>Why your own key?</div>
+        <div style={{ marginBottom: 6 }}>The AI features are part of Dansk, but you connect your own AI account. That way your questions and photos go straight to the AI company and never through us, so we never see your data.</div>
+        <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting one takes a couple of taps: sign in on the company's site, create a key, and paste it here.</div>
+        <div><b>Cost:</b> you pay the company only for what you use. A question or lightbulb is well under a cent, a photo roughly a cent or two. Prices can change.</div>
       </div>
 
       <div
