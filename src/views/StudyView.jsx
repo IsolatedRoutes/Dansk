@@ -651,16 +651,19 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               transition: dragging ? "none" : "transform 0.28s ease, opacity 0.28s ease, height 0.2s ease",
             }}
           >
-            <CheckBadgeIcon
-              size={17}
-              filled={!!current.known}
-              style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
-              onPointerDown={(e) => e.stopPropagation()}
-              onClick={(e) => {
-                e.stopPropagation();
-                updateCard(current.id, { known: !current.known });
-              }}
-            />
+            {/* A known word coming back in a new form shows no check: the card is the new form, not the word you already know. */}
+            {!(upForm && current.known) && (
+              <CheckBadgeIcon
+                size={17}
+                filled={!!current.known}
+                style={{ position: "absolute", top: 14, right: 14, zIndex: 2, cursor: "pointer" }}
+                onPointerDown={(e) => e.stopPropagation()}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  updateCard(current.id, { known: !current.known });
+                }}
+              />
+            )}
             <StarIcon
               size={17}
               filled={!!current.starred}
