@@ -12,7 +12,8 @@ Owner is not a coder: explain things in short, plain English.
 
 ## Never lose saved progress
 Progress = known / starred / hidden marks, notes, the owner's own cards and
-categories, and study settings (verbForms, studyLevels, nounOptions). Every
+categories, and study settings (verbForms, nounOptions, studySettings: the
+Study screen's category, levels, Unknown / Starred filters and direction). Every
 update — and any future App Store or desktop version — must keep it.
 
 - Never delete or overwrite a saved card in a migration. Renaming a built-in
@@ -53,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) and `python3 tests/settings_test.py` (Study choices survive a restart); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.

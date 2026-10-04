@@ -17,9 +17,24 @@ import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor } from "../lib
 
 // ---------- Study ----------
 
-// Levels are chosen per launch: the app always opens on all levels, and the
-// choice survives switching tabs until the app is closed.
-let sessionLevels = [];
+// What the learner chose on the Study screen (category, levels, Unknown /
+// Starred, direction) is remembered on the device, so it is still the same
+// after switching tabs, closing the app, or installing an update. The copy
+// in `studyMemory` just avoids a flicker when coming back from another tab.
+const STUDY_SETTINGS_KEY = "studySettings";
+let studyMemory = null;
+
+function cleanStudySettings(raw) {
+  const o = raw && typeof raw === "object" ? raw : {};
+  const out = {};
+  if (typeof o.catFilter === "string") out.catFilter = o.catFilter;
+  if (o.scope === "all" || o.scope === "mine") out.scope = o.scope;
+  if (Array.isArray(o.levels) && o.levels.every((l) => typeof l === "string")) out.levels = o.levels;
+  if (typeof o.starredOnly === "boolean") out.starredOnly = o.starredOnly;
+  if (typeof o.unknownOnly === "boolean") out.unknownOnly = o.unknownOnly;
+  if (o.langDir === "da-first" || o.langDir === "en-first") out.langDir = o.langDir;
+  return out;
+}
 
 // Words and sentences share the same type sizes; only very long text steps
 // down a little so it still fits. Grammar lessons keep their own size.
@@ -33,9 +48,9 @@ function faceSize(text, base, type) {
 }
 
 export function StudyView({ cards, categories, updateCard, onOpenSettings, showToast }) {
-  const [catFilter, setCatFilter] = useState("all");
-  const [scope, setScope] = useState("all"); // "all" | "mine" (only cards you added)
-  const [levels, setLevels] = useState(sessionLevels); // ticked levels; none = all
+  const [catFilter, setCatFilter] = useState((studyMemory && studyMemory.catFilter) || "all");
+  const [scope, setScope] = useState((studyMemory && studyMemory.scope) || "all"); // "all" | "mine" (only cards you added)
+  const [levels, setLevels] = useState((studyMemory && studyMemory.levels) || []); // ticked levels; none = all
   const [nounOpts, setNounOpts] = useState(DEFAULT_NOUN_OPTS);
   // Which verb forms to show, chosen with checkboxes under "Verbs" in the
   // category menu. Applies to verbs wherever they come up (including All
@@ -53,12 +68,30 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
     // The first session is built only once every saved setting is in, so
     // the first card never changes after the opening screen fades.
     Promise.all([
+      studyMemory
+        ? Promise.resolve()
+        : read(STUDY_SETTINGS_KEY, (raw) => {
+            const saved = cleanStudySettings(raw);
+            // A category that no longer has any cards (e.g. one the learner
+            // deleted) falls back to all cards rather than an empty screen.
+            if (saved.catFilter && saved.catFilter !== "all" && !cards.some((c) => cardInCategory(c, saved.catFilter, saved.scope === "mine"))) {
+              saved.catFilter = "all";
+              saved.scope = "all";
+            }
+            if (saved.catFilter) setCatFilter(saved.catFilter);
+            if (saved.scope) setScope(saved.scope);
+            if (saved.levels) setLevels(saved.levels);
+            if (typeof saved.starredOnly === "boolean") setStarredOnly(saved.starredOnly);
+            if (typeof saved.unknownOnly === "boolean") setUnknownOnly(saved.unknownOnly);
+            if (saved.langDir) setLangDir(saved.langDir);
+          }),
       read("verbForms", (list) => Array.isArray(list) && list.length && setVerbForms(list)),
       read("nounOptions", (list) => Array.isArray(list) && (list.includes("en") || list.includes("et")) && setNounOpts(list)),
     ]).then(() => setSettingsReady(true));
+    // Runs once at startup; `cards` is only used to check the saved category.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   function changeLevels(next) {
-    sessionLevels = next;
     setLevels(next);
   }
   function changeNounOpts(next) {
@@ -129,6 +162,14 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   const [starredOnly, setStarredOnly] = useState(false);
   const [unknownOnly, setUnknownOnly] = useState(true);
   const [langDir, setLangDir] = useState("da-first"); // da-first | en-first
+  // Saved after every change, but only once the saved values have been read
+  // in, so the defaults can never overwrite what the learner had chosen.
+  useEffect(() => {
+    if (!settingsReady) return;
+    const current = { catFilter, scope, levels, starredOnly, unknownOnly, langDir };
+    studyMemory = current;
+    storeSet(STUDY_SETTINGS_KEY, JSON.stringify(current)).catch(() => {});
+  }, [settingsReady, catFilter, scope, levels, starredOnly, unknownOnly, langDir]);
   const [flipped, setFlipped] = useState(false);
   const [idx, setIdx] = useState(0);
   const visitedRef = useRef([]);
