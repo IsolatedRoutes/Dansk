@@ -14,7 +14,7 @@ function nativePlugin() {
     // like a Promise and would hang if they travelled through one.
     pluginPromise = import("@capacitor/haptics").then((m) => ({
       light: () => m.Haptics.impact({ style: m.ImpactStyle.Light }),
-      success: () => m.Haptics.notification({ type: m.NotificationType.Success }),
+      success: () => m.Haptics.impact({ style: m.ImpactStyle.Light }),
     }));
   }
   return pluginPromise;
@@ -32,7 +32,7 @@ export function hapticLight() {
   run("light");
 }
 
-// A softer double-tap feel for "this word is now known".
+// "This word is now known": one gentle tap (the stronger double buzz felt too intense).
 export function hapticSuccess() {
   run("success");
 }
