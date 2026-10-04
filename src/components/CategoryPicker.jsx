@@ -2,6 +2,7 @@ import { useState } from "react";
 import { inputStyle, smallBtn } from "./ui";
 import { GRAMMAR_GROUPS, isLessonsCategory } from "../data/categories";
 import { SENTENCES_FILTER } from "../lib/vocabulary";
+import { SENTENCES_LABEL } from "../data/sentenceCards";
 
 // <option>s for choosing where a new card goes: "No category" first, then
 // the topics (Grammar Lessons is reserved for lessons).
@@ -83,7 +84,7 @@ export function CategoryPicker({ categories, value, onChange, allowAll, allowNew
                 {c.name}
               </option>
             ))}
-            <option value={SENTENCES_FILTER}>Sentences</option>
+            <option value={SENTENCES_FILTER}>{SENTENCES_LABEL}</option>
           </optgroup>
           <optgroup label="Topics">
             {categories.filter((c) => c.id !== "grammar-lessons").map((c) => (

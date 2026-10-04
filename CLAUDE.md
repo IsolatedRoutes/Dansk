@@ -54,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) and `python3 tests/sentence_test.py` (lightbulb "In a sentence" + Add as card); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) and `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -77,11 +77,12 @@ Owner wants smart learning without new features, buttons or gamification.
   "Add as card" making it the learner's own sentence card. Phrases, sentences
   and lessons don't get one. The AI is told the word's level so the sentence
   is as simple as the word. Sentence cards are found in Study's and Library's
-  "Sentences" entry (`SENTENCES_FILTER` in vocabulary.js, a filter, not a
-  stored category) and also stay in their topic. It holds every card of type
-  "sentence" plus the built-in whole-sentence phrases listed in
-  `src/data/sentenceCards.js` (still stored as ordinary phrase cards, so
-  nothing saved changes).
+  "Sentences & phrases" entry (`SENTENCES_FILTER`, a filter, not a stored
+  category) and also stay in their topic. Rule (`src/data/sentenceCards.js`):
+  every card of type "sentence", plus any word card of more than one word
+  after dropping a leading en/et/at. Short "at + verb" phrases ("at gå glip
+  af") stay with the verbs; "at" phrases with 4+ words after it (idioms) count.
+  Nothing saved changes.
 
 ## Word levels
 Level by what the word is *for*, not just how common or how compound it is.
