@@ -14,7 +14,7 @@ import { speakDanish, speechSupported } from "../lib/speech";
 import { storeGet, storeSet } from "../lib/storage";
 import { parseJSONLoose } from "../lib/text";
 import { freshness, pickFresh, placeFresh } from "../lib/fresh";
-import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor } from "../lib/vocabulary";
+import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor, wordMetaFor } from "../lib/vocabulary";
 
 // ---------- Study ----------
 
@@ -477,6 +477,20 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     else setDragX(0); // didn't clear the threshold — snap back
   }
 
+  // Tells the AI how hard the example sentence may be: as simple as the word.
+  function sentenceLevelHint(card) {
+    const level = LEVELS.find((l) => l.id === ((card.level || (wordMetaFor(card.front) || {}).level) || 0));
+    if (!level) return "";
+    return (
+      "\nThe example sentence must suit a " + level.name.toLowerCase() + " (" + level.cefr + ") learner: " +
+      (level.id === 1
+        ? "very short and simple, present tense, only the most common everyday words."
+        : level.id === 2
+        ? "simple, with common everyday words and no rare vocabulary."
+        : "natural, but not harder than the word itself.")
+    );
+  }
+
   async function openInsight(card) {
     setInsightFor(card.id);
     setInsightError("");
@@ -485,7 +499,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     try {
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
-        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + knownWordsHint(),
+        'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + sentenceLevelHint(card) + knownWordsHint(),
         { maxTokens: 900 }
       );
       const parsed = parseJSONLoose(reply);

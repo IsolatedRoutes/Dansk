@@ -11,6 +11,7 @@ import { WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../lib/speech";
 import { parseJSONLoose } from "../lib/text";
 import { cardInCategory, wordClassFor } from "../lib/vocabulary";
+import { cardKind } from "../data/sentenceCards";
 
 export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenSettings }) {
   const [catFilter, setCatFilter] = useState("all");
@@ -48,7 +49,7 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
   const filtered = cards.filter((c) => {
     if (catFilter !== "all" && !cardInCategory(c, catFilter)) return false;
     if (levels.length && !levels.includes(c.level)) return false;
-    if (typeFilter !== "all" && c.type !== typeFilter) return false;
+    if (typeFilter !== "all" && cardKind(c) !== typeFilter) return false;
     if (starredOnly && !c.starred) return false;
     if (knownFilter === "known" && !c.known) return false;
     if (knownFilter === "unknown" && c.known) return false;

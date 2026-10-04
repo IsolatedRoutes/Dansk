@@ -28,6 +28,13 @@ PUT = """(v) => new Promise((res) => { const r = indexedDB.open('dansk'); r.onsu
   const t = r.result.transaction('kv', 'readwrite'); t.objectStore('kv').put(v, 'cards');
   t.oncomplete = () => res(true); t.onerror = () => res(false); }; r.onerror = () => res(false); })"""
 
+# Every built-in sentence in the list must match a real card (guards against typos).
+import re
+fronts = {l.split("\t")[0].strip().lower() for l in open(os.path.join(ROOT, "src/data/words.tsv"), encoding="utf-8") if l.strip()}
+js = open(os.path.join(ROOT, "src/data/sentenceCards.js"), encoding="utf-8").read()
+listed = re.findall(r'"([^"]+)"', js[js.index("[\n"):js.index("].map(frontKey)")])
+check(len(listed) >= 60 and all(x.lower() in fronts for x in listed), "built-in sentence list matches real cards (%d entries, missing: %s)" % (len(listed), [x for x in listed if x.lower() not in fronts]))
+
 with sync_playwright() as p:
     browser = p.chromium.launch()
     ctx = browser.new_context(viewport={"width": 400, "height": 800})
@@ -64,6 +71,21 @@ with sync_playwright() as p:
     check(len(new) == 1 and new[0].get("type") == "sentence" and not new[0].get("starter") and new[0].get("back") == "I like zzyx word every day",
           "a new own sentence card was saved")
     check(len(after) == len(cards) + 1, "exactly one card was added")
+
+    # The new card has a home: Study's "Sentences" entry collects every sentence card.
+    pg.get_by_role("button", name="Close", exact=True).first.click(); pg.wait_for_timeout(400)
+    pg.get_by_role("button", name="All cards").first.click(); pg.wait_for_timeout(400)
+    pg.get_by_role("button", name="Sentences", exact=True).click(); pg.wait_for_timeout(1500)
+    import re
+    m = re.search(r"Card \d+ of (\d+)", pg.inner_text("body"))
+    total = int(m.group(1)) if m else 0
+    check(total >= 60, "Sentences filter lists the built-in sentences too (%d cards)" % total)
+    seen = False
+    for i in range(min(total, 100) + 1):
+        if "Jeg kan lide zzyxord hver dag" in pg.inner_text("body"):
+            seen = True; break
+        pg.get_by_role("button", name="Next", exact=True).click(); pg.wait_for_timeout(450)
+    check(seen, "the new sentence card is found under Sentences")
     check(errors == [], "no page errors %s" % errors)
     browser.close()
 

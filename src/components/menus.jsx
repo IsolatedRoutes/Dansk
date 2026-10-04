@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Icon } from "./icons";
 import { CheckRow, inputStyle } from "./ui";
 import { GRAMMAR_GROUPS, LEVELS } from "../data/categories";
+import { SENTENCES_FILTER } from "../lib/vocabulary";
 
 // Study's category menu. Two ways in: by topic, or by grammar group.
 // "Verbs" and "Nouns" can be expanded for a few options; those apply to
@@ -102,7 +103,7 @@ export function StudyCategoryMenu({ categories, value, onChange, scope, onChange
   const lessons = categories.find((c) => c.id === "grammar-lessons" || c.name === "Grammar Lessons");
   const topics = categories.filter((c) => c !== lessons);
   const categoryName =
-    value === "all" ? "" : (GRAMMAR_GROUPS.find((g) => g.id === value) || categories.find((c) => c.id === value) || { name: "" }).name;
+    value === "all" ? "" : value === SENTENCES_FILTER ? "Sentences" : (GRAMMAR_GROUPS.find((g) => g.id === value) || categories.find((c) => c.id === value) || { name: "" }).name;
   const current = [scope === "mine" ? "My cards" : "", categoryName].filter(Boolean).join(" · ") || "All cards";
 
   function pick(id) {
@@ -205,6 +206,9 @@ export function StudyCategoryMenu({ categories, value, onChange, scope, onChange
           {lessons.name}
         </button>
       )}
+      <button style={menuRowStyle(value === SENTENCES_FILTER)} onClick={() => pick(SENTENCES_FILTER)}>
+        Sentences
+      </button>
       <div style={menuHeadingStyle}>Topics</div>
       {topics.map((c) => (
         <button key={c.id} style={menuRowStyle(value === c.id)} onClick={() => pick(c.id)}>

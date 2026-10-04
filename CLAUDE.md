@@ -75,7 +75,13 @@ Owner wants smart learning without new features, buttons or gamification.
 - The lightbulb popup starts with "In a sentence": the AI's example (part of the
   word-insight reply) or the card's first saved example (works offline), with
   "Add as card" making it the learner's own sentence card. Phrases, sentences
-  and lessons don't get one.
+  and lessons don't get one. The AI is told the word's level so the sentence
+  is as simple as the word. Sentence cards are found in Study's and Library's
+  "Sentences" entry (`SENTENCES_FILTER` in vocabulary.js, a filter, not a
+  stored category) and also stay in their topic. It holds every card of type
+  "sentence" plus the built-in whole-sentence phrases listed in
+  `src/data/sentenceCards.js` (still stored as ordinary phrase cards, so
+  nothing saved changes).
 
 ## Word levels
 Level by what the word is *for*, not just how common or how compound it is.

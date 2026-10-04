@@ -1,4 +1,5 @@
 import { frontKey } from "./text";
+import { isSentenceCard } from "../data/sentenceCards";
 import WORD_DATA from "../data/words.tsv?raw";
 import { TOPIC_NAMES, WORD_CATEGORY_NAMES, WORD_CLASS_CODES } from "../data/categories";
 
@@ -69,8 +70,13 @@ export function nounGenderFor(card) {
 // Whether a card belongs to what's picked in a category menu: "all", a
 // category id, or a grammar group ("g:verb" …). Grammar lesson cards
 // only show when their own category is picked.
+export const SENTENCES_FILTER = "t:sentences";
+
 export function cardInCategory(card, filter, includeLessons = false) {
   if (filter === "all") return includeLessons || card.type !== "grammar";
+  // "Sentences": every sentence card (made from the lightbulb, the Assistant,
+  // a photo or typed in), wherever its topic is.
+  if (filter === SENTENCES_FILTER) return isSentenceCard(card);
   if (filter.startsWith("g:")) return wordClassFor(card) === filter.slice(2);
   return card.category === filter;
 }
