@@ -8,6 +8,7 @@ import { LEVELS } from "../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../data/irregulars";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../lib/ai/prompts";
+import { hapticLight, hapticSuccess } from "../lib/haptics";
 import { LEVELUP_NEXT_GAP, levelUpDueAt, levelUpFormsFor } from "../lib/levelUp";
 import { speakDanish, speechSupported } from "../lib/speech";
 import { storeGet, storeSet } from "../lib/storage";
@@ -349,6 +350,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
 
   function requestNext() {
     if (exiting) return;
+    hapticLight();
     markLevelUpSeen();
     setExiting("left");
   }
@@ -366,6 +368,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
 
   function requestBack() {
     if (exiting) return;
+    hapticLight();
     setExiting("right");
   }
 
@@ -406,13 +409,18 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
       // Barely moved — a tap, not a swipe. Flip the card.
       setDragX(0);
       setFlipped((f) => !f);
+      hapticLight();
       return;
     }
     if (dx <= -threshold) {
+      hapticLight();
       markLevelUpSeen();
       setExiting("left");
     }
-    else if (dx >= threshold) setExiting("right");
+    else if (dx >= threshold) {
+      hapticLight();
+      setExiting("right");
+    }
     else setDragX(0); // didn't clear the threshold — snap back
   }
 
@@ -691,9 +699,11 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                 e.stopPropagation();
                 if (upForm && current.known) {
                   const done = (current.upStage || 0) > upIdx;
+                  if (done) hapticLight(); else hapticSuccess();
                   updateCard(current.id, done ? { upStage: upIdx, upDue: Date.now() + LEVELUP_NEXT_GAP } : { upStage: levelUpFormsFor(current).length, upDue: undefined });
                   showToast(done ? "It will come back later" : "Got it — this word is finished");
                 } else {
+                  if (current.known) hapticLight(); else hapticSuccess();
                   updateCard(current.id, { known: !current.known });
                 }
               }}
@@ -706,6 +716,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => {
                 e.stopPropagation();
+                hapticLight();
                 updateCard(current.id, { starred: !current.starred });
               }}
             />
