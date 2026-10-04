@@ -13,6 +13,7 @@ import { LEVELUP_NEXT_GAP, levelUpDueAt, levelUpFormsFor } from "../lib/levelUp"
 import { speakDanish, speechSupported } from "../lib/speech";
 import { storeGet, storeSet } from "../lib/storage";
 import { parseJSONLoose } from "../lib/text";
+import { freshness, pickFresh, placeFresh } from "../lib/fresh";
 import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor } from "../lib/vocabulary";
 
 // ---------- Study ----------
@@ -47,7 +48,7 @@ function faceSize(text, base, type) {
   return base - 11;
 }
 
-export function StudyView({ cards, categories, updateCard, onOpenSettings, showToast }) {
+export function StudyView({ cards, categories, updateCard, addCards, onOpenSettings, showToast }) {
   const [catFilter, setCatFilter] = useState((studyMemory && studyMemory.catFilter) || "all");
   const [scope, setScope] = useState((studyMemory && studyMemory.scope) || "all"); // "all" | "mine" (only cards you added)
   const [levels, setLevels] = useState((studyMemory && studyMemory.levels) || []); // ticked levels; none = all
@@ -217,6 +218,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   const [insightCache, setInsightCache] = useState({});
   const [insightLoading, setInsightLoading] = useState(false);
   const [insightError, setInsightError] = useState("");
+  const [sentenceAdded, setSentenceAdded] = useState(""); // Danish text of the sentence just made into a card
 
   // Ask-about-this-word popup — a free-form follow-up question about
   // whichever card is currently showing.
@@ -252,24 +254,23 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
       cards.filter((c) => c.known && c.type === "word" && phraseWords(c).length === 1).map((c) => phraseWords(c)[0])
     );
     const buildsOnKnown = (c) => !c.known && c.type === "word" && phraseWords(c).length > 1 && phraseWords(c).some((w) => knownBase.has(w));
-    // Starred cards, and cards touched recently (just added, or an
-    // attempted duplicate-add signaling "I want to prioritize this"),
-    // get extra copies in the pool so they naturally come up more often
-    // within a session, rather than at the same rate as everything else.
-    // Recency fades after a few days rather than staying elevated forever
-    // — it's a temporary nudge, not a permanent priority the way starred
-    // is. Take the higher of the two rather than stacking them, so a
-    // card that's both doesn't balloon to an extreme repeat count.
-    const RECENT_WINDOW_MS = 3 * 24 * 60 * 60 * 1000;
+    // Starred cards get extra copies in the pool so they come up more often.
+    // Cards you added yourself (or tried to add again) are boosted while
+    // they're new: the newest few are placed early and repeated (see
+    // lib/fresh.js), and anything added in the last two weeks is twice as
+    // likely as an ordinary card. It fades back to normal over time.
+    const freshIds = pickFresh(filtered, now);
+    const freshSet = new Set(freshIds);
     const entries = [];
     filtered.forEach((c) => {
-      const isRecent = c.recentTouch && now - c.recentTouch < RECENT_WINDOW_MS;
-      const copies = Math.max(c.starred ? 3 : 1, isRecent ? 3 : 1);
+      const level = freshness(c, now);
+      const copies = Math.max(c.starred ? 3 : 1, level === "mid" ? 2 : 1, level === "fresh" && !freshSet.has(c.id) ? 3 : 1);
       // A random sort key shuffles the session; phrases of known words
       // get a smaller key, so they land nearer the start.
       for (let i = 0; i < copies; i++) entries.push({ id: c.id, up: null, key: Math.random() * (buildsOnKnown(c) ? 0.5 : 1) });
     });
     entries.sort((x, y) => x.key - y.key);
+    placeFresh(entries, freshIds);
     // Due new forms are spread through the start of the session, about one
     // card in five. Whatever is left over stays due for next time.
     dueUps.forEach(({ c }, k) => {
@@ -488,12 +489,33 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
         { maxTokens: 900 }
       );
       const parsed = parseJSONLoose(reply);
-      setInsightCache((prev) => ({ ...prev, [card.id]: { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim(), related: Array.isArray(parsed.related) ? parsed.related : [] } }));
+      const sentence = parsed.sentence && typeof parsed.sentence.da === "string" && typeof parsed.sentence.en === "string" && parsed.sentence.da.trim() && parsed.sentence.en.trim() ? { da: parsed.sentence.da.trim(), en: parsed.sentence.en.trim() } : null;
+      setInsightCache((prev) => ({ ...prev, [card.id]: { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim(), related: Array.isArray(parsed.related) ? parsed.related : [], sentence } }));
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {
       setInsightLoading(false);
     }
+  }
+
+  // The example sentence shown in the lightbulb popup: one the AI just wrote,
+  // or one already saved on the card. Phrases, sentences and lessons are
+  // sentences already, so they don't get one.
+  function sentenceFor(card) {
+    if (!card || card.type === "sentence" || card.type === "grammar") return null;
+    const fromAI = insightCache[card.id] && insightCache[card.id].sentence;
+    if (fromAI) return fromAI;
+    const saved = card.examples && card.examples[0];
+    return saved && saved.da && saved.en ? { da: saved.da, en: saved.en } : null;
+  }
+
+  // Turns the example sentence into the learner's own card, which then comes
+  // back soon and often like any card they add.
+  function addSentenceCard(card, sentence) {
+    const da = sentence.da.replace(/\*\*/g, "").trim();
+    const en = sentence.en.replace(/\*\*/g, "").trim();
+    addCards([{ type: "sentence", front: da, back: en, category: card.category || "" }]);
+    setSentenceAdded(da);
   }
 
   function openAsk(card) {
@@ -993,6 +1015,29 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               <Icon.X size={18} />
             </button>
           </div>
+          {(() => {
+            const card = cards.find((c) => c.id === insightFor);
+            const sentence = sentenceFor(card);
+            if (!sentence) return null;
+            const plain = sentence.da.replace(/\*\*/g, "").trim();
+            const added = sentenceAdded === plain;
+            return (
+              <div style={{ background: "var(--paper)", borderRadius: 8, padding: "12px 14px", marginBottom: 10, fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.5 }}>
+                <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 6 }}>In a sentence</div>
+                <div style={{ color: "var(--terracotta)", fontFamily: "var(--serif)", fontSize: 16 }}>{renderInlineMarkdown(sentence.da)}</div>
+                <div style={{ color: "var(--sage)", fontStyle: "italic", marginTop: 2 }}>{renderInlineMarkdown(sentence.en)}</div>
+                {addCards && (
+                  <button
+                    onClick={() => !added && addSentenceCard(card, sentence)}
+                    disabled={added}
+                    style={{ ...smallBtn("var(--fjord)"), marginTop: 10, opacity: added ? 0.6 : 1 }}
+                  >
+                    {added ? "Added as a card" : "Add as card"}
+                  </button>
+                )}
+              </div>
+            );
+          })()}
           {insightLoading ? (
             <div style={{ textAlign: "center", padding: "24px 0" }}>
               <Icon.Loader2 className="spin" size={20} color="var(--muted)" />

@@ -653,7 +653,7 @@ export default function DanishFlashcards() {
         )}
       </div>
       <div style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
-        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
+        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} addCards={addCards} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
         {tab === "library" && (
           <LibraryView
             cards={cards}

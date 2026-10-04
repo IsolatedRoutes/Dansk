@@ -11,7 +11,8 @@ export const WORD_INSIGHT_SYSTEM_PROMPT =
   "For a preposition, adverb, or other word that doesn't inflect: instead give 2-3 short example phrases showing it in real use, each with its translation. " +
   "Then write a short explanation in plain English, 2-4 sentences, covering anything genuinely useful the forms alone don't already show — irregularities, usage notes, common mixups with a similar word. If the forms already say everything worth saying, keep the explanation to one brief sentence rather than padding it. Always finish the last sentence completely — never trail off. " +
   "Finally, related words: if the word has a genuinely useful word family — common Danish words built from it or sharing its root that a learner will meet, e.g. for \"tale\": \"en samtale\"/\"a conversation\", \"en aftale\"/\"an agreement\" — give 2-4 of them with translations. Only real, common words; leave the list empty rather than stretch. " +
-  'Respond ONLY with JSON, no other text: {"forms": [{"da": "...", "en": "..."}], "explanation": "...", "related": [{"da": "...", "en": "..."}]} — 3-4 entries in forms for nouns/verbs/adjectives, 2-3 for other word types; related may be empty.';
+  "Also give one short, natural example sentence that uses the word exactly as it appears on the card (same form), simple enough for a beginner, built mostly from everyday words. Put ** around the word in the Danish sentence, like \"Jeg kan **lide** kaffe\". " +
+  'Respond ONLY with JSON, no other text: {"forms": [{"da": "...", "en": "..."}], "explanation": "...", "related": [{"da": "...", "en": "..."}], "sentence": {"da": "...", "en": "..."}} — 3-4 entries in forms for nouns/verbs/adjectives, 2-3 for other word types; related may be empty.';
 
 // Words the learner has marked known, kept up to date by the app, so the
 // AI can build its example phrases and sentences out of familiar words:

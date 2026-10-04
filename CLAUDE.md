@@ -54,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) and `python3 tests/settings_test.py` (Study choices survive a restart); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) and `python3 tests/sentence_test.py` (lightbulb "In a sentence" + Add as card); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -66,7 +66,16 @@ Owner wants smart learning without new features, buttons or gamification.
   Seeing a form counts; nothing takes "known" away. Card fields: `upStage`,
   `upDue`. At most 12 per session, about 1 card in 5, placed early.
 - Phrases built on a known word come earlier in a session.
+- Cards the owner adds (typed, from a photo, or from the Assistant) come back
+  soon and often while new (`src/lib/fresh.js`): the 10 newest from the last
+  3 days are placed 3 times in the first ~30 cards, spaced out; cards from the
+  last 2 weeks are twice as likely; then ordinary. Known cards still never
+  return as themselves.
 - AI examples are built from the learner's known words (`knownWordsHint`).
+- The lightbulb popup starts with "In a sentence": the AI's example (part of the
+  word-insight reply) or the card's first saved example (works offline), with
+  "Add as card" making it the learner's own sentence card. Phrases, sentences
+  and lessons don't get one.
 
 ## Word levels
 Level by what the word is *for*, not just how common or how compound it is.
