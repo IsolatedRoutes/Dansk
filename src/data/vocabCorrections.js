@@ -789,7 +789,7 @@ export const VOCAB_TRANSLATION_CORRECTIONS = {
   "at passe": "to fit / suit / look after",
   "at gemme": "to save / hide / keep",
   "at forskyde": "to shift / displace",
-  "billig": "a back courtyard",
+  "billig": "cheap",
   "et stillads": "scaffolding",
   "grundlæggende": "basic / fundamental",
   "fuldkommen": "perfect / complete",
