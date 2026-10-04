@@ -163,21 +163,11 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
   const frontContentRef = useRef(null);
   const backContentRef = useRef(null);
   const [cardHeight, setCardHeight] = useState(220);
-  // On a tall (portrait) screen the card gets more room so the screen isn't
-  // mostly empty at the bottom; sideways or on a small screen it stays compact.
-  const [, setResizeTick] = useState(0);
-  useEffect(() => {
-    const onResize = () => setResizeTick((n) => n + 1);
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-  }, []);
   // Runs after every render: the content can change height at any time.
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useLayoutEffect(() => {
     const visible = flipped ? backContentRef.current : frontContentRef.current;
-    const portrait = window.innerHeight > window.innerWidth;
-    const minCard = portrait ? Math.min(520, Math.max(220, Math.round(window.innerHeight * 0.5))) : 220;
-    if (visible) setCardHeight(Math.max(minCard, visible.scrollHeight + V_CLEARANCE * 2));
+    if (visible) setCardHeight(Math.max(220, visible.scrollHeight + V_CLEARANCE * 2));
   });
 
   // Word-insight popup — cached per card so revisiting one in the same
@@ -681,6 +671,8 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
               <span style={{ color: "var(--sage)", fontWeight: 700 }}>{knownWordCount}</span> known
             </span>
           </div>
+          {/* Card and buttons sit in the middle of the free space on tall screens. */}
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", minHeight: "max(0px, calc(100dvh - 400px))" }}>
           <div
             key={current.id}
             className={slideDir === "back" ? "card-enter-back" : "card-enter-next"}
@@ -945,6 +937,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
             >
               Next
             </button>
+          </div>
           </div>
         </>
       )}
