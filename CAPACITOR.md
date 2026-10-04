@@ -5,16 +5,13 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 ## One-time setup
 1. `git pull`, then `npm install`.
 2. Check `capacitor.config.json`: `appId` is permanent once the app is submitted. Change `com.isolatedroutes.broen` if you want a different one.
-3. `npx cap add ios` (creates the `ios/` folder; commit it).
+3. The `ios/` folder already exists (icon, launch screen, camera/photo texts and the encryption answer are already set). Do not run `npx cap add ios` again.
 4. `npm run cap:sync` builds the app and copies it into the iPhone project. Run it after every change.
 5. `npx cap open ios` opens Xcode.
 
 ## In Xcode
 - Signing: choose your Apple Developer team.
-- App icon: drag `icons/icon-1024.png` into the AppIcon slot (no transparency).
-- Add these to `Info.plist` (Apple rejects the app without them):
-  - `NSCameraUsageDescription`: "Broen uses the camera so you can photograph Danish text to translate and learn from."
-  - `NSPhotoLibraryUsageDescription`: "Broen reads the photo you choose so you can translate and learn from the Danish in it."
+- App icon, camera/photo permission texts are already in the project. Just check they look right.
 - Version and build number: raise the build number for every upload.
 - Test on a real iPhone: studying, swipes, Back, Library, Backup (share sheet) and Restore, photo import with a key, reading aloud, no safe-area clipping.
 
@@ -44,5 +41,5 @@ Also check:
 - Reading Danish aloud works, including with the silent switch on and after a phone call.
 - Camera and photo picker: permission texts read well; denying permission shows a sensible message.
 - Switch away mid-AI request and come back: nothing is lost or half-saved.
-- Rotate the phone (or lock to portrait).
+- Rotate the phone: portrait and landscape are both allowed, so check both for clipping.
 - AI settings: the explanation, the I agree card and the cost note read clearly.
