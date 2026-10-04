@@ -49,8 +49,8 @@ update — and any future App Store or desktop version — must keep it.
   use the platform's persistent storage, not a plain WebView localStorage.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
-against `origin/main`) and `python3 tests/smoke_test.py` and `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline); only ship when all print ALL PASSED.
+against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
+(edit, backup, wipe, restore, offline) and `python3 tests/secrets_test.py` (AI keys); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -107,3 +107,13 @@ Bump `CACHE_NAME` in `sw.js` when shell files change.
 
 ## iPhone app
 See CAPACITOR.md. `npm run cap:sync` builds and copies into the Capacitor project. `isNativeApp()` (src/lib/platform.js) hides web-only AI options. AI calls are blocked until `aiConsent` is set in AI settings (requireConsent in src/lib/ai/http.js).
+
+## AI keys
+Every read or write of an AI key goes through `src/lib/secrets.js`
+(`secretGet` / `secretSet` / `secretRemove`), never `storeGet` / `storeSet`.
+In the iPhone app keys live in the iOS Keychain (`capacitor-secure-storage-plugin`);
+a failed Keychain write is reported and never redirected to ordinary storage.
+On the website they stay in the site's own storage. Keys are never in backups
+or URLs (they travel in request headers). Do not return the plugin object from
+a Promise (Capacitor plugins look like Promises and hang); `secrets.js` wraps it.
+`clearLeftoverSecrets` removes Keychain keys left by a deleted install.

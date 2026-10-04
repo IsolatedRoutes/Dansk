@@ -11,7 +11,7 @@ import { callGeminiImage } from "../../lib/ai/gemini";
 import { apiErrorMessage, callAI, getAIEngine } from "../../lib/ai/index";
 import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
-import { storeGet } from "../../lib/storage";
+import { secretGet } from "../../lib/secrets";
 import { cleanTranslation, fileToBase64, isMobileDevice, parseJSONLoose } from "../../lib/text";
 
 // ---------- Photo import panel (always uses the API — needs vision) ----------
@@ -52,8 +52,8 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
   useEffect(() => {
     (async () => {
       const engine = await getAIEngine();
-      const geminiKey = await storeGet("geminiApiKey");
-      const anthropicKey = await storeGet("anthropicApiKey");
+      const geminiKey = await secretGet("geminiApiKey");
+      const anthropicKey = await secretGet("anthropicApiKey");
       if (engine === "gemini" && geminiKey) setBackend("gemini");
       else if (engine === "api") setBackend("api"); // works whether via Claude's own auth or an explicit Anthropic key
       else if (anthropicKey) setBackend("api");

@@ -13,6 +13,7 @@ import { LEVELUP_FIRST_GAP } from "./lib/levelUp";
 import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAdditions, loadDeletedKeys, migrateConsolidatedCategories, migrateToTopics, migrateVocabCorrections, moveStrayCards, rememberDeleted, restoreProgress, snapshotProgress, stableStarterId, syncGrammarLessons } from "./lib/migrations";
 import { tidyOwnWordCases, tidyWordCase } from "./lib/vocabulary";
 import { hideSplash } from "./lib/splash";
+import { clearLeftoverSecrets } from "./lib/secrets";
 import { persistWithRetry, storeGet, storeGetStrict, storeSet, syncChannel, unpackCards } from "./lib/storage";
 import { frontKey, normalizeCardText, uid } from "./lib/text";
 import { AISettingsPanel } from "./views/AISettingsPanel";
@@ -144,6 +145,8 @@ export default function DanishFlashcards() {
         setLoadError(true);
         return;
       }
+      // iPhone app only: a fresh install clears AI keys an earlier install left in the Keychain.
+      await clearLeftoverSecrets();
       if (rawCards) {
         try {
           c = unpackCards(JSON.parse(rawCards));

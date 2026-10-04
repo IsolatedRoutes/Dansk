@@ -5,6 +5,7 @@ import { apiErrorMessage } from "../lib/ai/index";
 import { LOCAL_MODEL_ID, LOCAL_MODEL_OPTIONS, getLocalEngine, localEnginePromise } from "../lib/ai/local";
 import { isNativeApp } from "../lib/platform";
 import { storeGet, storeSet } from "../lib/storage";
+import { secretGet, secretRemove, secretSet } from "../lib/secrets";
 
 // ============================================================
 // Chat — the only place this app talks to an AI model. Every
@@ -43,8 +44,8 @@ export function AISettingsPanel({ onClose }) {
       const e = await storeGet("aiEngine");
       setEngineState(e);
       setConsented((await storeGet("aiConsent")) === "1");
-      setSavedGeminiKey(await storeGet("geminiApiKey"));
-      setSavedKey(await storeGet("anthropicApiKey"));
+      setSavedGeminiKey(await secretGet("geminiApiKey"));
+      setSavedKey(await secretGet("anthropicApiKey"));
       try {
         const raw = await storeGet("ollamaConfig");
         if (raw) setSavedOllamaConfig(JSON.parse(raw));
@@ -138,7 +139,11 @@ export function AISettingsPanel({ onClose }) {
   async function saveGeminiKey() {
     if (!geminiKeyInput.trim()) return;
     if (!(await chooseEngine("gemini"))) return;
-    await storeSet("geminiApiKey", geminiKeyInput.trim());
+    const saved = await secretSet("geminiApiKey", geminiKeyInput.trim());
+    if (!saved.ok) {
+      setError("Couldn't store the key securely on this device. Nothing was saved.");
+      return;
+    }
     setSavedGeminiKey(geminiKeyInput.trim());
     setGeminiKeyInput("");
     onClose("gemini");
@@ -147,7 +152,11 @@ export function AISettingsPanel({ onClose }) {
   async function saveKey() {
     if (!apiKeyInput.trim()) return;
     if (!(await chooseEngine("api"))) return;
-    await storeSet("anthropicApiKey", apiKeyInput.trim());
+    const saved = await secretSet("anthropicApiKey", apiKeyInput.trim());
+    if (!saved.ok) {
+      setError("Couldn't store the key securely on this device. Nothing was saved.");
+      return;
+    }
     setSavedKey(apiKeyInput.trim());
     setApiKeyInput("");
     onClose("api");
@@ -248,6 +257,15 @@ export function AISettingsPanel({ onClose }) {
               <button onClick={() => setSavedKey(null)} style={smallBtn("#A8A395")}>
                 Change key
               </button>
+              <button
+                onClick={async () => {
+                  await secretRemove("anthropicApiKey");
+                  setSavedKey(null);
+                }}
+                style={smallBtn("#A8A395")}
+              >
+                Remove
+              </button>
             </div>
           </div>
         ) : (
@@ -299,6 +317,15 @@ export function AISettingsPanel({ onClose }) {
                   )}
                   <button onClick={() => setSavedGeminiKey(null)} style={smallBtn("#A8A395")}>
                     Change key
+                  </button>
+                  <button
+                    onClick={async () => {
+                      await secretRemove("geminiApiKey");
+                      setSavedGeminiKey(null);
+                    }}
+                    style={smallBtn("#A8A395")}
+                  >
+                    Remove
                   </button>
                 </div>
               </div>

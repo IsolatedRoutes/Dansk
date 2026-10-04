@@ -171,6 +171,31 @@ export async function storeSet(key, value) {
   }
 }
 
+// Deletes one saved value everywhere it could be held.
+export async function storeRemove(key) {
+  delete memoryStore[key];
+  try {
+    localStorage.removeItem(key);
+  } catch {}
+  if (inClaudeApp() && !claudeStorageBroken) {
+    try {
+      if (window.storage.delete) await window.storage.delete(key, false);
+    } catch {}
+  }
+  const db = await openIdb();
+  if (db) {
+    try {
+      await idbTransaction(db, "readwrite", (store) => {
+        store.delete(key);
+      });
+    } catch (e) {
+      return { ok: false, error: String((e && e.message) || e) };
+    }
+    if (syncChannel) syncChannel.postMessage(key);
+  }
+  return { ok: true };
+}
+
 // The deck is saved in a compact form: fields that just hold their
 // default value (empty notes, no examples, not starred, not known, ...)
 // are left out, and filled back in on load. With 8,000 cards this keeps

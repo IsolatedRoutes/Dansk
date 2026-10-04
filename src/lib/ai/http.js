@@ -1,4 +1,5 @@
 import { inClaudeApp, storeGet } from "../storage";
+import { secretGet } from "../secrets";
 
 // Nothing is sent to an AI company until the person has agreed in AI settings.
 export async function requireConsent() {
@@ -12,7 +13,7 @@ export async function buildHeaders() {
   const headers = { "Content-Type": "application/json", "anthropic-version": "2023-06-01" };
   if (!inClaudeApp()) {
     await requireConsent();
-    const key = await storeGet("anthropicApiKey");
+    const key = await secretGet("anthropicApiKey");
     if (!key) throw new Error("MISSING_API_KEY");
     headers["x-api-key"] = key;
     headers["anthropic-dangerous-direct-browser-access"] = "true";

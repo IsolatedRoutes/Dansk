@@ -34,6 +34,7 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 Release-blocking:
 - Update without losing anything: install the previous build, add a card, mark words known and starred, change a setting, then install the new build over it. Everything must still be there.
 - Backup, delete the app, reinstall, Import: progress, own cards and settings all come back.
+- AI key: save a key, force-quit and reopen (it must still be there), tap Remove (it must be gone). Then delete the app, reinstall, and check AI settings asks for a key again. (The Keychain plugin is installed by `npm run cap:sync`; nothing else to set up.)
 - Kill the app, turn on airplane mode, reopen: Study and the Library work, and earlier progress is intact.
 
 Also check:

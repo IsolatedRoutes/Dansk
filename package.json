@@ -7,11 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src",
-    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py",
+    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py && python3 tests/secrets_test.py",
     "build:webllm": "vite build -c vite.webllm.config.js",
     "cap:sync": "vite build && node scripts/prepare-www.mjs && cap sync ios"
   },
   "dependencies": {
+    "capacitor-secure-storage-plugin": "^0.13.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
