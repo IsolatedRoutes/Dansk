@@ -221,7 +221,7 @@ at bekymre sig	to worry		2	bekymrer sig|bekymrede sig|bekymret sig		jeg bekymrer
 at røre	to touch / stir		2	rører|rørte|rørt		jeg rører|jeg rørte|jeg har rørt	I touch / stir|I touched / stirred|I have touched / stirred	v
 at ramme	to hit (a target)		2	rammer|ramte|ramt		jeg rammer|jeg ramte|jeg har ramt	I hit (a target)|I hit (a target)|I have hit (a target)	v
 at tjekke	to check		1	tjekker|tjekkede|tjekket		jeg tjekker|jeg tjekkede|jeg har tjekket	I check|I checked|I have checked	v
-at fatte	to grasp / understand		3	fatter|fattede|fattet		jeg fatter|jeg fattede|jeg har fattet	I grasp / understand|I grasped / understood|I have grasped / understood	v
+at fatte	to grasp / understand		4	fatter|fattede|fattet		jeg fatter|jeg fattede|jeg har fattet	I grasp / understand|I grasped / understood|I have grasped / understood	v
 at myrde	to murder	SP	3	myrder|myrdede|myrdet		jeg myrder|jeg myrdede|jeg har myrdet	I murder|I murdered|I have murdered	v
 at tjene	to earn / serve		2	tjener|tjente|tjent		jeg tjener|jeg tjente|jeg har tjent	I earn / serve|I earned / served|I have earned / served	v
 at bringe	to bring		2	bringer|bragte|bragt		jeg bringer|jeg bragte|jeg har bragt	I bring|I brought|I have brought	v
@@ -301,7 +301,7 @@ at dømme	to judge / sentence	SP	3	dømmer|dømte|dømt		jeg dømmer|jeg dømte|
 at behandle	to treat		2	behandler|behandlede|behandlet		jeg behandler|jeg behandlede|jeg har behandlet	I treat|I treated|I have treated	v
 at standse	to stop		2	standser|standsede|standset		jeg standser|jeg standsede|jeg har standset	I stop|I stopped|I have stopped	v
 at kontrollere	to control / check		2	kontrollerer|kontrollerede|kontrolleret		jeg kontrollerer|jeg kontrollerede|jeg har kontrolleret	I control / check|I controlled / checked|I have controlled / checked	v
-at formode	to suppose / presume		3	formoder|formodede|formodet		jeg formoder|jeg formodede|jeg har formodet	I suppose / presume|I supposed / presumed|I have supposed / presumed	v
+at formode	to suppose / presume		4	formoder|formodede|formodet		jeg formoder|jeg formodede|jeg har formodet	I suppose / presume|I supposed / presumed|I have supposed / presumed	v
 at drømme	to dream		2	drømmer|drømte|drømt		jeg drømmer|jeg drømte|jeg har drømt	I dream|I dreamed|I have dreamed	v
 at udføre	to carry out		2	udfører|udførte|udført		jeg udfører|jeg udførte|jeg har udført	I carry out|I carried out|I have carried out	v
 at aflevere	to hand in / deliver		2	afleverer|afleverede|afleveret		jeg afleverer|jeg afleverede|jeg har afleveret	I hand in / deliver|I handed in / delivered|I have handed in / delivered	v
@@ -333,7 +333,7 @@ at glo	to stare		3	glor|gloede|gloet		jeg glor|jeg gloede|jeg har gloet	I stare|
 at respektere	to respect		2	respekterer|respekterede|respekteret		jeg respekterer|jeg respekterede|jeg har respekteret	I respect|I respected|I have respected	v
 at værdsætte	to appreciate		3	værdsætter|værdsatte|værdsat		jeg værdsætter|jeg værdsatte|jeg har værdsat	I appreciate|I appreciated|I have appreciated	v
 at bevare	to preserve / keep		3	bevarer|bevarede|bevaret		jeg bevarer|jeg bevarede|jeg har bevaret	I preserve / keep|I preserved / kept|I have preserved / kept	v
-at velsigne	to bless		3	velsigner|velsignede|velsignet		jeg velsigner|jeg velsignede|jeg har velsignet	I bless|I blessed|I have blessed	v
+at velsigne	to bless		4	velsigner|velsignede|velsignet		jeg velsigner|jeg velsignede|jeg har velsignet	I bless|I blessed|I have blessed	v
 at snyde	to cheat		3	snyder|snød|snydt		jeg snyder|jeg snød|jeg har snydt	I cheat|I cheated|I have cheated	v
 at opgive	to give up		3	opgiver|opgav|opgivet		jeg opgiver|jeg opgav|jeg har opgivet	I give up|I gave up|I have given up	v
 at fokusere	to focus		3	fokuserer|fokuserede|fokuseret		jeg fokuserer|jeg fokuserede|jeg har fokuseret	I focus|I focused|I have focused	v
@@ -354,7 +354,7 @@ at forblive	to remain		3	forbliver|forblev|forblevet		jeg forbliver|jeg forblev|
 at stige	to rise / climb		2	stiger|steg|steget		jeg stiger|jeg steg|jeg er steget	I rise / climb|I rose / climbed|I have risen / climbed	v
 at udnytte	to exploit / make use of		3	udnytter|udnyttede|udnyttet		jeg udnytter|jeg udnyttede|jeg har udnyttet	I exploit / make use of|I exploited / made use of|I have exploited / made use of	v
 at bemærke	to notice / remark		3	bemærker|bemærkede|bemærket		jeg bemærker|jeg bemærkede|jeg har bemærket	I notice / remark|I noticed / remarked|I have noticed / remarked	v
-at tyde på	to suggest / indicate		3	tyder på|tydede på|tydet på		det tyder på|det tydede på|det har tydet på	it suggests / indicates|it suggested / indicated|it has suggested / indicated	v
+at tyde på	to suggest / indicate		4	tyder på|tydede på|tydet på		det tyder på|det tydede på|det har tydet på	it suggests / indicates|it suggested / indicated|it has suggested / indicated	v
 at bekæmpe	to fight / combat		3	bekæmper|bekæmpede|bekæmpet		jeg bekæmper|jeg bekæmpede|jeg har bekæmpet	I fight / combat|I fought / combated|I have fought / combated	v
 at tilbringe	to spend (time)		2	tilbringer|tilbragte|tilbragt		jeg tilbringer|jeg tilbragte|jeg har tilbragt	I spend (time)|I spent (time)|I have spent (time)	v
 at række	to reach / hand		2	rækker|rakte|rakt		jeg rækker|jeg rakte|jeg har rakt	I reach / hand|I reached / handed|I have reached / handed	v
@@ -365,7 +365,7 @@ at pakke	to pack	TT	1	pakker|pakkede|pakket		jeg pakker|jeg pakkede|jeg har pakk
 at skrige	to scream		2	skriger|skreg|skreget		jeg skriger|jeg skreg|jeg har skreget	I scream|I screamed|I have screamed	v
 at skubbe	to push		2	skubber|skubbede|skubbet		jeg skubber|jeg skubbede|jeg har skubbet	I push|I pushed|I have pushed	v
 at forhandle	to negotiate		3	forhandler|forhandlede|forhandlet		jeg forhandler|jeg forhandlede|jeg har forhandlet	I negotiate|I negotiated|I have negotiated	v
-at løslade	to release (from prison)	SP	3	løslader|løslod|løsladt		jeg løslader|jeg løslod|jeg har løsladt	I release (from prison)|I released (from prison)|I have released (from prison)	v
+at løslade	to release (from prison)	SP	4	løslader|løslod|løsladt		jeg løslader|jeg løslod|jeg har løsladt	I release (from prison)|I released (from prison)|I have released (from prison)	v
 at bide	to bite		2	bider|bed|bidt		jeg bider|jeg bed|jeg har bidt	I bite|I bit|I have bitten	v
 at befri	to free / liberate		3	befrier|befriede|befriet		jeg befrier|jeg befriede|jeg har befriet	I free / liberate|I freed / liberated|I have freed / liberated	v
 at afgøre	to decide / settle		3	afgør|afgjorde|afgjort		jeg afgør|jeg afgjorde|jeg har afgjort	I decide / settle|I decided / settled|I have decided / settled	v
@@ -391,13 +391,13 @@ at afvise	to reject		3	afviser|afviste|afvist		jeg afviser|jeg afviste|jeg har a
 at pege	to point		2	peger|pegede|peget		jeg peger|jeg pegede|jeg har peget	I point|I pointed|I have pointed	v
 at svigte	to let down / fail		3	svigter|svigtede|svigtet		jeg svigter|jeg svigtede|jeg har svigtet	I let down / fail|I let down / failed|I have let down / failed	v
 at binde	to tie / bind		2	binder|bandt|bundet		jeg binder|jeg bandt|jeg har bundet	I tie / bind|I tied / bound|I have tied / bound	v
-at bebrejde	to blame		3	bebrejder|bebrejdede|bebrejdet		jeg bebrejder|jeg bebrejdede|jeg har bebrejdet	I blame|I blamed|I have blamed	v
+at bebrejde	to blame		4	bebrejder|bebrejdede|bebrejdet		jeg bebrejder|jeg bebrejdede|jeg har bebrejdet	I blame|I blamed|I have blamed	v
 at beskrive	to describe		2	beskriver|beskrev|beskrevet		jeg beskriver|jeg beskrev|jeg har beskrevet	I describe|I described|I have described	v
 at straffe	to punish	SP	3	straffer|straffede|straffet		jeg straffer|jeg straffede|jeg har straffet	I punish|I punished|I have punished	v
 at forlange	to demand		3	forlanger|forlangte|forlangt		jeg forlanger|jeg forlangte|jeg har forlangt	I demand|I demanded|I have demanded	v
 at mindes	to remember / commemorate		3	mindes|mindedes|mindedes		jeg mindes|jeg mindedes|jeg har mindedes	I remember / commemorate|I remembered / commemorated|I have remembered / commemorated	v
 at rådne	to rot		3	rådner|rådnede|rådnet		det rådner|det rådnede|det er rådnet	it rots|it rotted|it has rotted	v
-at forråde	to betray		3	forråder|forrådte|forrådt		jeg forråder|jeg forrådte|jeg har forrådt	I betray|I betrayed|I have betrayed	v
+at forråde	to betray		4	forråder|forrådte|forrådt		jeg forråder|jeg forrådte|jeg har forrådt	I betray|I betrayed|I have betrayed	v
 at vænne sig til	to get used to		2	vænner sig til|vænnede sig til|vænnet sig til		jeg vænner mig til|jeg vænnede mig til|jeg har vænnet mig til	I get used to|I got used to|I have gotten used to	v
 at koncentrere sig	to concentrate		2	koncentrerer sig|koncentrerede sig|koncentreret sig		jeg koncentrerer mig|jeg koncentrerede mig|jeg har koncentreret mig	I concentrate|I concentrated|I have concentrated	v
 at overvåge	to monitor / watch		3	overvåger|overvågede|overvåget		jeg overvåger|jeg overvågede|jeg har overvåget	I monitor / watch|I monitored / watched|I have monitored / watched	v
@@ -420,7 +420,7 @@ at tåle	to tolerate / stand		3	tåler|tålte|tålt		jeg tåler|jeg tålte|jeg h
 at sladre	to gossip / tell on		3	sladrer|sladrede|sladret		jeg sladrer|jeg sladrede|jeg har sladret	I gossip / tell on|I gossiped / told on|I have gossiped / told on	v
 at hæve	to raise / withdraw (money)	MB	3	hæver|hævede|hævet		jeg hæver|jeg hævede|jeg har hævet	I raise / withdraw (money)|I raised / withdrew (money)|I have raised / withdrawn (money)	v
 at modstå	to resist		3	modstår|modstod|modstået		jeg modstår|jeg modstod|jeg har modstået	I resist|I resisted|I have resisted	v
-at tilstå	to confess		3	tilstår|tilstod|tilstået		jeg tilstår|jeg tilstod|jeg har tilstået	I confess|I confessed|I have confessed	v
+at tilstå	to confess		4	tilstår|tilstod|tilstået		jeg tilstår|jeg tilstod|jeg har tilstået	I confess|I confessed|I have confessed	v
 at spytte	to spit		3	spytter|spyttede|spyttet		jeg spytter|jeg spyttede|jeg har spyttet	I spit|I spat|I have spat	v
 at besvare	to answer		3	besvarer|besvarede|besvaret		jeg besvarer|jeg besvarede|jeg har besvaret	I answer|I answered|I have answered	v
 at drille	to tease		2	driller|drillede|drillet		jeg driller|jeg drillede|jeg har drillet	I tease|I teased|I have teased	v
@@ -430,7 +430,7 @@ at overgive sig	to surrender		3	overgiver sig|overgav sig|overgivet sig		jeg ove
 at affyre	to fire (a weapon)		4	affyrer|affyrede|affyret		jeg affyrer|jeg affyrede|jeg har affyret	I fire (a weapon)|I fired (a weapon)|I have fired (a weapon)	v
 at hævde	to claim		3	hævder|hævdede|hævdet		jeg hævder|jeg hævdede|jeg har hævdet	I claim|I claimed|I have claimed	v
 at flå	to rip / skin		4	flår|flåede|flået		jeg flår|jeg flåede|jeg har flået	I rip / skin|I ripped / skinned|I have ripped / skinned	v
-at anmode	to request		3	anmoder|anmodede|anmodet		jeg anmoder|jeg anmodede|jeg har anmodet	I request|I requested|I have requested	v
+at anmode	to request		4	anmoder|anmodede|anmodet		jeg anmoder|jeg anmodede|jeg har anmodet	I request|I requested|I have requested	v
 at forsikre	to assure / insure		3	forsikrer|forsikrede|forsikret		jeg forsikrer|jeg forsikrede|jeg har forsikret	I assure / insure|I assured / insured|I have assured / insured	v
 at udslette	to wipe out		4	udsletter|udslettede|udslettet		jeg udsletter|jeg udslettede|jeg har udslettet	I wipe out|I wiped out|I have wiped out	v
 at styrte	to rush / crash		3	styrter|styrtede|styrtet		jeg styrter|jeg styrtede|jeg er styrtet	I rush / crash|I rushed / crashed|I have rushed / crashed	v
@@ -444,7 +444,7 @@ at le	to laugh		1	ler|lo|leet		jeg ler|jeg lo|jeg har leet	I laugh|I laughed|I h
 at imponere	to impress		2	imponerer|imponerede|imponeret		jeg imponerer|jeg imponerede|jeg har imponeret	I impress|I impressed|I have impressed	v
 at spekulere	to speculate / wonder		3	spekulerer|spekulerede|spekuleret		jeg spekulerer|jeg spekulerede|jeg har spekuleret	I speculate / wonder|I speculated / wondered|I have speculated / wondered	v
 at udtrykke	to express		3	udtrykker|udtrykte|udtrykt		jeg udtrykker|jeg udtrykte|jeg har udtrykt	I express|I expressed|I have expressed	v
-at adlyde	to obey		3	adlyder|adlød|adlydt		jeg adlyder|jeg adlød|jeg har adlydt	I obey|I obeyed|I have obeyed	v
+at adlyde	to obey		4	adlyder|adlød|adlydt		jeg adlyder|jeg adlød|jeg har adlydt	I obey|I obeyed|I have obeyed	v
 at klatre	to climb	FS	2	klatrer|klatrede|klatret		jeg klatrer|jeg klatrede|jeg har klatret	I climb|I climbed|I have climbed	v
 at rette	to correct / straighten		2	retter|rettede|rettet		jeg retter|jeg rettede|jeg har rettet	I correct / straighten|I corrected / straightened|I have corrected / straightened	v
 at designe	to design		2	designer|designede|designet		jeg designer|jeg designede|jeg har designet	I design|I designed|I have designed	v
@@ -491,9 +491,9 @@ at henrette	to execute	SP	4	henretter|henrettede|henrettet		jeg henretter|jeg he
 at bokse	to box	FS	2	bokser|boksede|bokset		jeg bokser|jeg boksede|jeg har bokset	I box|I boxed|I have boxed	v
 at bøje	to bend		2	bøjer|bøjede|bøjet		jeg bøjer|jeg bøjede|jeg har bøjet	I bend|I bent|I have bent	v
 at bande	to swear (curse)		2	bander|bandede|bandet		jeg bander|jeg bandede|jeg har bandet	I swear (curse)|I swore (curse)|I have sworn (curse)	v
-at beordre	to order (command)		3	beordrer|beordrede|beordret		jeg beordrer|jeg beordrede|jeg har beordret	I order (command)|I ordered (command)|I have ordered (command)	v
-at udrydde	to exterminate / eradicate		3	udrydder|udryddede|udryddet		jeg udrydder|jeg udryddede|jeg har udryddet	I exterminate / eradicate|I exterminated / eradicated|I have exterminated / eradicated	v
-at drøfte	to discuss		3	drøfter|drøftede|drøftet		jeg drøfter|jeg drøftede|jeg har drøftet	I discuss|I discussed|I have discussed	v
+at beordre	to order (command)		4	beordrer|beordrede|beordret		jeg beordrer|jeg beordrede|jeg har beordret	I order (command)|I ordered (command)|I have ordered (command)	v
+at udrydde	to exterminate / eradicate		4	udrydder|udryddede|udryddet		jeg udrydder|jeg udryddede|jeg har udryddet	I exterminate / eradicate|I exterminated / eradicated|I have exterminated / eradicated	v
+at drøfte	to discuss		4	drøfter|drøftede|drøftet		jeg drøfter|jeg drøftede|jeg har drøftet	I discuss|I discussed|I have discussed	v
 at meddele	to announce / inform		3	meddeler|meddelte|meddelt		jeg meddeler|jeg meddelte|jeg har meddelt	I announce / inform|I announced / informed|I have announced / informed	v
 at vælte	to knock over / tip over		2	vælter|væltede|væltet		jeg vælter|jeg væltede|jeg har væltet	I knock over / tip over|I knocked over / tipped over|I have knocked over / tipped over	v
 at enes	to agree / get along		4	enes|enedes|enedes		vi enes|vi enedes|vi har enedes	we agree / get along|we agreed / got along|we have agreed / gotten along	v
@@ -507,7 +507,7 @@ at operere	to operate		2	opererer|opererede|opereret		jeg opererer|jeg opererede
 at overlade	to leave (to someone) / hand over		3	overlader|overlod|overladt		jeg overlader|jeg overlod|jeg har overladt	I leave (to someone) / hand over|I left (to someone) / handed over|I have left (to someone) / handed over	v
 at slæbe	to drag		3	slæber|slæbte|slæbt		jeg slæber|jeg slæbte|jeg har slæbt	I drag|I dragged|I have dragged	v
 at havne	to end up		3	havner|havnede|havnet		jeg havner|jeg havnede|jeg er havnet	I end up|I ended up|I have ended up	v
-at afhøre	to interrogate	SP	3	afhører|afhørte|afhørt		jeg afhører|jeg afhørte|jeg har afhørt	I interrogate|I interrogated|I have interrogated	v
+at afhøre	to interrogate	SP	4	afhører|afhørte|afhørt		jeg afhører|jeg afhørte|jeg har afhørt	I interrogate|I interrogated|I have interrogated	v
 at anbringe	to place		4	anbringer|anbragte|anbragt		jeg anbringer|jeg anbragte|jeg har anbragt	I place|I placed|I have placed	v
 at tiltrække	to attract		3	tiltrækker|tiltrak|tiltrukket		jeg tiltrækker|jeg tiltrak|jeg har tiltrukket	I attract|I attracted|I have attracted	v
 at danne	to form		3	danner|dannede|dannet		jeg danner|jeg dannede|jeg har dannet	I form|I formed|I have formed	v
@@ -550,7 +550,7 @@ at tømme	to empty		2	tømmer|tømte|tømt		jeg tømmer|jeg tømte|jeg har tømt
 at dæmpe	to dampen / turn down		3	dæmper|dæmpede|dæmpet		jeg dæmper|jeg dæmpede|jeg har dæmpet	I dampen / turn down|I dampened / turned down|I have dampened / turned down	v
 at trøste	to comfort		3	trøster|trøstede|trøstet		jeg trøster|jeg trøstede|jeg har trøstet	I comfort|I comforted|I have comforted	v
 at forbyde	to forbid / ban		2	forbyder|forbød|forbudt		jeg forbyder|jeg forbød|jeg har forbudt	I forbid / ban|I forbade / banned|I have forbidden / banned	v
-at forsørge	to support (financially)		3	forsørger|forsørgede|forsørget		jeg forsørger|jeg forsørgede|jeg har forsørget	I support (financially)|I supported (financially)|I have supported (financially)	v
+at forsørge	to support (financially)		4	forsørger|forsørgede|forsørget		jeg forsørger|jeg forsørgede|jeg har forsørget	I support (financially)|I supported (financially)|I have supported (financially)	v
 at overnatte	to stay overnight	TT	1	overnatter|overnattede|overnattet		jeg overnatter|jeg overnattede|jeg har overnattet	I stay overnight|I stayed overnight|I have stayed overnight	v
 at indtage	to consume / take		4	indtager|indtog|indtaget		jeg indtager|jeg indtog|jeg har indtaget	I consume / take|I consumed / took|I have consumed / taken	v
 at besidde	to possess		4	besidder|besad|besiddet		jeg besidder|jeg besad|jeg har besiddet	I possess|I possessed|I have possessed	v
@@ -695,10 +695,10 @@ at minde om	to remind of		2	minder om|mindede om|mindet om		jeg minder om|jeg mi
 at modarbejde	to counteract		4	modarbejder|modarbejdede|modarbejdet		jeg modarbejder|jeg modarbejdede|jeg har modarbejdet	I counteract|I counteracted|I have counteracted	v
 at motivere	to motivate		3	motiverer|motiverede|motiveret		jeg motiverer|jeg motiverede|jeg har motiveret	I motivate|I motivated|I have motivated	v
 at møde op	to show up		2	møder op|mødte op|mødt op		jeg møder op|jeg mødte op|jeg er mødt op	I show up|I showed up|I have shown up	v
-at nedsætte	to reduce		3	nedsætter|nedsatte|nedsat		jeg nedsætter|jeg nedsatte|jeg har nedsat	I reduce|I reduced|I have reduced	v
+at nedsætte	to reduce		4	nedsætter|nedsatte|nedsat		jeg nedsætter|jeg nedsatte|jeg har nedsat	I reduce|I reduced|I have reduced	v
 at observere	to observe		3	observerer|observerede|observeret		jeg observerer|jeg observerede|jeg har observeret	I observe|I observed|I have observed	v
 at omfatte	to include		3	omfatter|omfattede|omfattet		det omfatter|det omfattede|det har omfattet	it includes|it included|it has included	v
-at omgive	to surround		3	omgiver|omgav|omgivet		jeg omgiver|jeg omgav|jeg har omgivet	I surround|I surrounded|I have surrounded	v
+at omgive	to surround		4	omgiver|omgav|omgivet		jeg omgiver|jeg omgav|jeg har omgivet	I surround|I surrounded|I have surrounded	v
 at omstille sig	to adapt		3	omstiller sig|omstillede sig|omstillet sig		jeg omstiller mig|jeg omstillede mig|jeg har omstillet mig	I adapt|I adapted|I have adapted	v
 at opbevare	to store		3	opbevarer|opbevarede|opbevaret		jeg opbevarer|jeg opbevarede|jeg har opbevaret	I store|I stored|I have stored	v
 at opføre	to build / perform		3	opfører|opførte|opført		jeg opfører|jeg opførte|jeg har opført	I build / perform|I built / performed|I have built / performed	v
@@ -767,15 +767,15 @@ at udarbejde	to prepare / draw up		3	udarbejder|udarbejdede|udarbejdet		jeg udar
 at udbrede	to spread		3	udbreder|udbredte|udbredt		jeg udbreder|jeg udbredte|jeg har udbredt	I spread|I spread|I have spread	v
 at uddanne	to educate / train	SL	3	uddanner|uddannede|uddannet		jeg uddanner|jeg uddannede|jeg har uddannet	I educate / train|I educated / trained|I have educated / trained	v
 at uddele	to hand out		3	uddeler|uddelte|uddelt		jeg uddeler|jeg uddelte|jeg har uddelt	I hand out|I handed out|I have handed out	v
-at udgøre	to constitute		3	udgør|udgjorde|udgjort		jeg udgør|jeg udgjorde|jeg har udgjort	I constitute|I constituted|I have constituted	v
+at udgøre	to constitute		4	udgør|udgjorde|udgjort		jeg udgør|jeg udgjorde|jeg har udgjort	I constitute|I constituted|I have constituted	v
 at udløse	to trigger		3	udløser|udløste|udløst		jeg udløser|jeg udløste|jeg har udløst	I trigger|I triggered|I have triggered	v
-at udnævne	to appoint		3	udnævner|udnævnte|udnævnt		jeg udnævner|jeg udnævnte|jeg har udnævnt	I appoint|I appointed|I have appointed	v
+at udnævne	to appoint		4	udnævner|udnævnte|udnævnt		jeg udnævner|jeg udnævnte|jeg har udnævnt	I appoint|I appointed|I have appointed	v
 at udskifte	to replace		3	udskifter|udskiftede|udskiftet		jeg udskifter|jeg udskiftede|jeg har udskiftet	I replace|I replaced|I have replaced	v
 at udtale	to pronounce	SL	2	udtaler|udtalte|udtalt		jeg udtaler|jeg udtalte|jeg har udtalt	I pronounce|I pronounced|I have pronounced	v
 at udvikle sig	to develop		3	udvikler sig|udviklede sig|udviklet sig		jeg udvikler mig|jeg udviklede mig|jeg har udviklet mig	I develop|I developed|I have developed	v
 at undervurdere	to underestimate		3	undervurderer|undervurderede|undervurderet		jeg undervurderer|jeg undervurderede|jeg har undervurderet	I underestimate|I underestimated|I have underestimated	v
 at vedligeholde	to maintain		3	vedligeholder|vedligeholdt|vedligeholdt		jeg vedligeholder|jeg vedligeholdt|jeg har vedligeholdt	I maintain|I maintained|I have maintained	v
-at vejlede	to guide / advise		3	vejleder|vejledte|vejledt		jeg vejleder|jeg vejledte|jeg har vejledt	I guide / advise|I guided / advised|I have guided / advised	v
+at vejlede	to guide / advise		4	vejleder|vejledte|vejledt		jeg vejleder|jeg vejledte|jeg har vejledt	I guide / advise|I guided / advised|I have guided / advised	v
 at vende tilbage	to return		2	vender tilbage|vendte tilbage|vendt tilbage		jeg vender tilbage|jeg vendte tilbage|jeg er vendt tilbage	I return|I returned|I have returned	v
 at vise sig	to turn out		2	viser sig|viste sig|vist sig		det viser sig|det viste sig|det har vist sig	it turns out|it turned out|it has turned out	v
 at vågne op	to wake up		1	vågner op|vågnede op|vågnet op		jeg vågner op|jeg vågnede op|jeg er vågnet op	I wake up|I woke up|I have woken up	v
@@ -818,14 +818,14 @@ at afgå	to depart		3	afgår|afgik|afgået		jeg afgår|jeg afgik|jeg er afgået	
 at afholde	to hold (an event)		3	afholder|afholdt|afholdt		jeg afholder|jeg afholdt|jeg har afholdt	I hold (an event)|I held (an event)|I have held (an event)	v
 at afmelde	to cancel / unsubscribe		3	afmelder|afmeldte|afmeldt		jeg afmelder|jeg afmeldte|jeg har afmeldt	I cancel / unsubscribe|I canceled / unsubscribed|I have canceled / unsubscribed	v
 at afsende	to send / dispatch		3	afsender|afsendte|afsendt		jeg afsender|jeg afsendte|jeg har afsendt	I send / dispatch|I sent / dispatched|I have sent / dispatched	v
-at afskaffe	to abolish		3	afskaffer|afskaffede|afskaffet		jeg afskaffer|jeg afskaffede|jeg har afskaffet	I abolish|I abolished|I have abolished	v
+at afskaffe	to abolish		4	afskaffer|afskaffede|afskaffet		jeg afskaffer|jeg afskaffede|jeg har afskaffet	I abolish|I abolished|I have abolished	v
 at angre	to regret		2	angrer|angrede|angret		jeg angrer|jeg angrede|jeg har angret	I regret|I regretted|I have regretted	v
 at annoncere	to announce / advertise		3	annoncerer|annoncerede|annonceret		jeg annoncerer|jeg annoncerede|jeg har annonceret	I announce / advertise|I announced / advertised|I have announced / advertised	v
 at applaudere	to applaud		3	applauderer|applauderede|applauderet		jeg applauderer|jeg applauderede|jeg har applauderet	I applaud|I applauded|I have applauded	v
 at arve	to inherit		3	arver|arvede|arvet		jeg arver|jeg arvede|jeg har arvet	I inherit|I inherited|I have inherited	v
 at bakke op	to back up / support		3	bakker op|bakkede op|bakket op		jeg bakker op|jeg bakkede op|jeg har bakket op	I back up / support|I backed up / supported|I have backed up / supported	v
 at bebo	to inhabit		4	bebor|beboede|beboet		jeg bebor|jeg beboede|jeg har beboet	I inhabit|I inhabited|I have inhabited	v
-at bedrage	to deceive		3	bedrager|bedrog|bedraget		jeg bedrager|jeg bedrog|jeg har bedraget	I deceive|I deceived|I have deceived	v
+at bedrage	to deceive		4	bedrager|bedrog|bedraget		jeg bedrager|jeg bedrog|jeg har bedraget	I deceive|I deceived|I have deceived	v
 at begejstre	to inspire / excite		3	begejstrer|begejstrede|begejstret		jeg begejstrer|jeg begejstrede|jeg har begejstret	I inspire / excite|I inspired / excited|I have inspired / excited	v
 at bekende	to confess		3	bekender|bekendte|bekendt		jeg bekender|jeg bekendte|jeg har bekendt	I confess|I confessed|I have confessed	v
 at belaste	to burden / strain		3	belaster|belastede|belastet		jeg belaster|jeg belastede|jeg har belastet	I burden / strain|I burdened / strained|I have burdened / strained	v
@@ -877,11 +877,11 @@ at forsone sig	to reconcile		4	forsoner sig|forsonede sig|forsonet sig		jeg fors
 at forsyne	to supply		3	forsyner|forsynede|forsynet		jeg forsyner|jeg forsynede|jeg har forsynet	I supply|I supplied|I have supplied	v
 at fortage sig	to wear off		4	fortager sig|fortog sig|fortaget sig		det fortager sig|det fortog sig|det har fortaget sig	it wears off|it wore off|it has worn off	v
 at fortrænge	to repress / displace		4	fortrænger|fortrængte|fortrængt		jeg fortrænger|jeg fortrængte|jeg har fortrængt	I repress / displace|I repressed / displaced|I have repressed / displaced	v
-at forudse	to foresee		3	forudser|forudså|forudset		jeg forudser|jeg forudså|jeg har forudset	I foresee|I foresaw|I have foreseen	v
+at forudse	to foresee		4	forudser|forudså|forudset		jeg forudser|jeg forudså|jeg har forudset	I foresee|I foresaw|I have foreseen	v
 at forudsige	to predict		3	forudsiger|forudsagde|forudsagt		jeg forudsiger|jeg forudsagde|jeg har forudsagt	I predict|I predicted|I have predicted	v
 at forære	to give (as a gift)		4	forærer|forærede|foræret		jeg forærer|jeg forærede|jeg har foræret	I give (as a gift)|I gave (as a gift)|I have given (as a gift)	v
 at fremkalde	to cause / develop (film)		4	fremkalder|fremkaldte|fremkaldt		jeg fremkalder|jeg fremkaldte|jeg har fremkaldt	I cause / develop (film)|I caused / developed (film)|I have caused / developed (film)	v
-at fremme	to promote / further		3	fremmer|fremmede|fremmet		jeg fremmer|jeg fremmede|jeg har fremmet	I promote / further|I promoted / furthered|I have promoted / furthered	v
+at fremme	to promote / further		4	fremmer|fremmede|fremmet		jeg fremmer|jeg fremmede|jeg har fremmet	I promote / further|I promoted / furthered|I have promoted / furthered	v
 at fremvise	to display / show		4	fremviser|fremviste|fremvist		jeg fremviser|jeg fremviste|jeg har fremvist	I display / show|I displayed / showed|I have displayed / shown	v
 at fylde op	to fill up		2	fylder op|fyldte op|fyldt op		jeg fylder op|jeg fyldte op|jeg har fyldt op	I fill up|I filled up|I have filled up	v
 at få ondt af	to feel sorry for		2	får ondt af|fik ondt af|fået ondt af		jeg får ondt af|jeg fik ondt af|jeg har fået ondt af	I feel sorry for|I felt sorry for|I have felt sorry for	v
@@ -913,7 +913,7 @@ at holde tale	to give a speech		2	holder tale|holdt tale|holdt tale		jeg holder 
 at hyle	to howl		3	hyler|hylede|hylet		jeg hyler|jeg hylede|jeg har hylet	I howl|I howled|I have howled	v
 at hænge sammen	to make sense / be connected		2	hænger sammen|hang sammen|hængt sammen		det hænger sammen|det hang sammen|det har hængt sammen	it makes sense / is connected|it made sense / was connected|it has made sense / been connected	v
 at høste	to harvest		3	høster|høstede|høstet		jeg høster|jeg høstede|jeg har høstet	I harvest|I harvested|I have harvested	v
-at indlede	to begin / introduce		3	indleder|indledte|indledt		jeg indleder|jeg indledte|jeg har indledt	I begin / introduce|I began / introduced|I have begun / introduced	v
+at indlede	to begin / introduce		4	indleder|indledte|indledt		jeg indleder|jeg indledte|jeg har indledt	I begin / introduce|I began / introduced|I have begun / introduced	v
 at indsamle	to collect		3	indsamler|indsamlede|indsamlet		jeg indsamler|jeg indsamlede|jeg har indsamlet	I collect|I collected|I have collected	v
 at indsætte	to insert / deposit		3	indsætter|indsatte|indsat		jeg indsætter|jeg indsatte|jeg har indsat	I insert / deposit|I inserted / deposited|I have inserted / deposited	v
 at inspirere	to inspire		3	inspirerer|inspirerede|inspireret		jeg inspirerer|jeg inspirerede|jeg har inspireret	I inspire|I inspired|I have inspired	v
@@ -933,7 +933,7 @@ at komme ud	to come out / get out		1	kommer ud|kom ud|kommet ud		jeg kommer ud|j
 at komme med	to come along / bring		2	kommer med|kom med|kommet med		jeg kommer med|jeg kom med|jeg er kommet med	I come along / bring|I came along / brought|I have come along / brought	v
 at komme over	to get over		2	kommer over|kom over|kommet over		jeg kommer over|jeg kom over|jeg er kommet over	I get over|I got over|I have gotten over	v
 at komponere	to compose		3	komponerer|komponerede|komponeret		jeg komponerer|jeg komponerede|jeg har komponeret	I compose|I composed|I have composed	v
-at konstatere	to state / establish		3	konstaterer|konstaterede|konstateret		jeg konstaterer|jeg konstaterede|jeg har konstateret	I state / establish|I stated / established|I have stated / established	v
+at konstatere	to state / establish		4	konstaterer|konstaterede|konstateret		jeg konstaterer|jeg konstaterede|jeg har konstateret	I state / establish|I stated / established|I have stated / established	v
 at konstruere	to construct		3	konstruerer|konstruerede|konstrueret		jeg konstruerer|jeg konstruerede|jeg har konstrueret	I construct|I constructed|I have constructed	v
 at korrigere	to correct		3	korrigerer|korrigerede|korrigeret		jeg korrigerer|jeg korrigerede|jeg har korrigeret	I correct|I corrected|I have corrected	v
 at krybe	to creep / crawl		3	kryber|krøb|krøbet		jeg kryber|jeg krøb|jeg har krøbet	I creep / crawl|I crept / crawled|I have crept / crawled	v
@@ -966,13 +966,13 @@ at opdele	to divide		3	opdeler|opdelte|opdelt		jeg opdeler|jeg opdelte|jeg har o
 at opfordre	to urge / encourage		3	opfordrer|opfordrede|opfordret		jeg opfordrer|jeg opfordrede|jeg har opfordret	I urge / encourage|I urged / encouraged|I have urged / encouraged	v
 at opfatte	to perceive		3	opfatter|opfattede|opfattet		jeg opfatter|jeg opfattede|jeg har opfattet	I perceive|I perceived|I have perceived	v
 at opgradere	to upgrade		3	opgraderer|opgraderede|opgraderet		jeg opgraderer|jeg opgraderede|jeg har opgraderet	I upgrade|I upgraded|I have upgraded	v
-at opsige	to cancel / terminate		3	opsiger|opsagde|opsagt		jeg opsiger|jeg opsagde|jeg har opsagt	I cancel / terminate|I canceled / terminated|I have canceled / terminated	v
+at opsige	to cancel / terminate		4	opsiger|opsagde|opsagt		jeg opsiger|jeg opsagde|jeg har opsagt	I cancel / terminate|I canceled / terminated|I have canceled / terminated	v
 at opsummere	to summarize		3	opsummerer|opsummerede|opsummeret		jeg opsummerer|jeg opsummerede|jeg har opsummeret	I summarize|I summarized|I have summarized	v
 at opsætte	to set up		3	opsætter|opsatte|opsat		jeg opsætter|jeg opsatte|jeg har opsat	I set up|I set up|I have set up	v
 at optimere	to optimize		3	optimerer|optimerede|optimeret		jeg optimerer|jeg optimerede|jeg har optimeret	I optimize|I optimized|I have optimized	v
 at overdrage	to hand over / transfer		4	overdrager|overdrog|overdraget		jeg overdrager|jeg overdrog|jeg har overdraget	I hand over / transfer|I handed over / transferred|I have handed over / transferred	v
 at overgå	to exceed / surpass		4	overgår|overgik|overgået		jeg overgår|jeg overgik|jeg har overgået	I exceed / surpass|I exceeded / surpassed|I have exceeded / surpassed	v
-at overholde	to comply with		3	overholder|overholdt|overholdt		jeg overholder|jeg overholdt|jeg har overholdt	I comply with|I complied with|I have complied with	v
+at overholde	to comply with		4	overholder|overholdt|overholdt		jeg overholder|jeg overholdt|jeg har overholdt	I comply with|I complied with|I have complied with	v
 at overskride	to exceed		3	overskrider|overskred|overskredet		jeg overskrider|jeg overskred|jeg har overskredet	I exceed|I exceeded|I have exceeded	v
 at plukke	to pick		3	plukker|plukkede|plukket		jeg plukker|jeg plukkede|jeg har plukket	I pick|I picked|I have picked	v
 at praktisere	to practice		3	praktiserer|praktiserede|praktiseret		jeg praktiserer|jeg praktiserede|jeg har praktiseret	I practice|I practiced|I have practiced	v
@@ -980,7 +980,7 @@ at pynte	to decorate		2	pynter|pyntede|pyntet		jeg pynter|jeg pyntede|jeg har py
 at pådrage sig	to incur / catch (an illness)		4	pådrager sig|pådrog sig|pådraget sig		jeg pådrager mig|jeg pådrog mig|jeg har pådraget mig	I incur / catch (an illness)|I incurred / caught (an illness)|I have incurred / caught (an illness)	v
 at påføre	to inflict / apply		4	påfører|påførte|påført		jeg påfører|jeg påførte|jeg har påført	I inflict / apply|I inflicted / applied|I have inflicted / applied	v
 at påtage sig	to take on		4	påtager sig|påtog sig|påtaget sig		jeg påtager mig|jeg påtog mig|jeg har påtaget mig	I take on|I took on|I have taken on	v
-at påpege	to point out		3	påpeger|påpegede|påpeget		jeg påpeger|jeg påpegede|jeg har påpeget	I point out|I pointed out|I have pointed out	v
+at påpege	to point out		4	påpeger|påpegede|påpeget		jeg påpeger|jeg påpegede|jeg har påpeget	I point out|I pointed out|I have pointed out	v
 at rasle	to rattle		4	rasler|raslede|raslet		jeg rasler|jeg raslede|jeg har raslet	I rattle|I rattled|I have rattled	v
 at redigere	to edit		3	redigerer|redigerede|redigeret		jeg redigerer|jeg redigerede|jeg har redigeret	I edit|I edited|I have edited	v
 at reducere	to reduce		3	reducerer|reducerede|reduceret		jeg reducerer|jeg reducerede|jeg har reduceret	I reduce|I reduced|I have reduced	v
@@ -1043,7 +1043,7 @@ at udløbe	to expire		3	udløber|udløb|udløbet		det udløber|det udløb|det er
 at udmærke sig	to excel		4	udmærker sig|udmærkede sig|udmærket sig		jeg udmærker mig|jeg udmærkede mig|jeg har udmærket mig	I excel|I excelled|I have excelled	v
 at udsende	to broadcast / send out		3	udsender|udsendte|udsendt		jeg udsender|jeg udsendte|jeg har udsendt	I broadcast / send out|I broadcast / sent out|I have broadcast / sent out	v
 at udveksle	to exchange		3	udveksler|udvekslede|udvekslet		jeg udveksler|jeg udvekslede|jeg har udvekslet	I exchange|I exchanged|I have exchanged	v
-at undertrykke	to suppress / oppress		3	undertrykker|undertrykte|undertrykt		jeg undertrykker|jeg undertrykte|jeg har undertrykt	I suppress / oppress|I suppressed / oppressed|I have suppressed / oppressed	v
+at undertrykke	to suppress / oppress		4	undertrykker|undertrykte|undertrykt		jeg undertrykker|jeg undertrykte|jeg har undertrykt	I suppress / oppress|I suppressed / oppressed|I have suppressed / oppressed	v
 at vade	to wade		4	vader|vadede|vadet		jeg vader|jeg vadede|jeg har vadet	I wade|I waded|I have waded	v
 at variere	to vary		3	varierer|varierede|varieret		jeg varierer|jeg varierede|jeg har varieret	I vary|I varied|I have varied	v
 at vaske sig	to wash (oneself)		1	vasker sig|vaskede sig|vasket sig		jeg vasker mig|jeg vaskede mig|jeg har vasket mig	I wash (oneself)|I washed (oneself)|I have washed (oneself)	v
@@ -1052,7 +1052,7 @@ at vedrøre	to concern		4	vedrører|vedrørte|vedrørt		det vedrører|det vedrø
 at veksle	to exchange (money)	MB	3	veksler|vekslede|vekslet		jeg veksler|jeg vekslede|jeg har vekslet	I exchange (money)|I exchanged (money)|I have exchanged (money)	v
 at verificere	to verify		3	verificerer|verificerede|verificeret		jeg verificerer|jeg verificerede|jeg har verificeret	I verify|I verified|I have verified	v
 at værne om	to protect / safeguard		4	værner om|værnede om|værnet om		jeg værner om|jeg værnede om|jeg har værnet om	I protect / safeguard|I protected / safeguarded|I have protected / safeguarded	v
-at yde	to provide / perform		3	yder|ydede|ydet		jeg yder|jeg ydede|jeg har ydet	I provide / perform|I provided / performed|I have provided / performed	v
+at yde	to provide / perform		4	yder|ydede|ydet		jeg yder|jeg ydede|jeg har ydet	I provide / perform|I provided / performed|I have provided / performed	v
 at ytre	to express / utter		4	ytrer|ytrede|ytret		jeg ytrer|jeg ytrede|jeg har ytret	I express / utter|I expressed / uttered|I have expressed / uttered	v
 at æde	to eat (animals)		2	æder|åd|ædt		jeg æder|jeg åd|jeg har ædt	I eat (animals)|I ate (animals)|I have eaten (animals)	v
 at ændre sig	to change		2	ændrer sig|ændrede sig|ændret sig		jeg ændrer mig|jeg ændrede mig|jeg har ændret mig	I change|I changed|I have changed	v
@@ -1176,7 +1176,7 @@ at have fødselsdag	to have a birthday		1	har fødselsdag|havde fødselsdag|haft
 at have ansvar for	to be responsible for		2	har ansvar for|havde ansvar for|haft ansvar for		jeg har ansvar for|jeg havde ansvar for|jeg har haft ansvar for	I am responsible for|I was responsible for|I have been responsible for	v
 at have noget imod	to mind / object to		2	har noget imod|havde noget imod|haft noget imod		jeg har noget imod|jeg havde noget imod|jeg har haft noget imod	I mind / object to|I minded / objected to|I have minded / objected to	v
 at afkøle	to cool down		3	afkøler|afkølede|afkølet		jeg afkøler|jeg afkølede|jeg har afkølet	I cool down|I cooled down|I have cooled down	v
-at afslå	to decline / refuse		3	afslår|afslog|afslået		jeg afslår|jeg afslog|jeg har afslået	I decline / refuse|I declined / refused|I have declined / refused	v
+at afslå	to decline / refuse		4	afslår|afslog|afslået		jeg afslår|jeg afslog|jeg har afslået	I decline / refuse|I declined / refused|I have declined / refused	v
 at afbøde	to mitigate		4	afbøder|afbødede|afbødet		jeg afbøder|jeg afbødede|jeg har afbødet	I mitigate|I mitigated|I have mitigated	v
 at afkræfte	to disprove		4	afkræfter|afkræftede|afkræftet		jeg afkræfter|jeg afkræftede|jeg har afkræftet	I disprove|I disproved|I have disproved	v
 at aflaste	to relieve (a burden)		4	aflaster|aflastede|aflastet		jeg aflaster|jeg aflastede|jeg har aflastet	I relieve (a burden)|I relieved (a burden)|I have relieved (a burden)	v
@@ -1218,18 +1218,18 @@ at fordybe sig	to immerse oneself		4	fordyber sig|fordybede sig|fordybet sig		je
 at forenkle	to simplify		3	forenkler|forenklede|forenklet		jeg forenkler|jeg forenklede|jeg har forenklet	I simplify|I simplified|I have simplified	v
 at forføre	to seduce		4	forfører|forførte|forført		jeg forfører|jeg forførte|jeg har forført	I seduce|I seduced|I have seduced	v
 at forkorte	to shorten		3	forkorter|forkortede|forkortet		jeg forkorter|jeg forkortede|jeg har forkortet	I shorten|I shortened|I have shortened	v
-at formidle	to convey / mediate		3	formidler|formidlede|formidlet		jeg formidler|jeg formidlede|jeg har formidlet	I convey / mediate|I conveyed / mediated|I have conveyed / mediated	v
+at formidle	to convey / mediate		4	formidler|formidlede|formidlet		jeg formidler|jeg formidlede|jeg har formidlet	I convey / mediate|I conveyed / mediated|I have conveyed / mediated	v
 at forpligte	to commit / oblige		4	forpligter|forpligtede|forpligtet		jeg forpligter|jeg forpligtede|jeg har forpligtet	I commit / oblige|I committed / obliged|I have committed / obliged	v
 at forskyde	to shift / displace		4	forskyder|forskød|forskudt		jeg forskyder|jeg forskød|jeg har forskudt	I shift / postpone|I shifted / postponed|I have shifted / postponed	v
 at forstærke	to reinforce		3	forstærker|forstærkede|forstærket		jeg forstærker|jeg forstærkede|jeg har forstærket	I reinforce|I reinforced|I have reinforced	v
 at fortie	to conceal / keep quiet about		4	fortier|fortav|fortiet		jeg fortier|jeg fortav|jeg har fortiet	I conceal / keep quiet about|I concealed / kept quiet about|I have concealed / kept quiet about	v
 at fremkomme	to emerge / appear		4	fremkommer|fremkom|fremkommet		jeg fremkommer|jeg fremkom|jeg er fremkommet	I emerge / appear|I emerged / appeared|I have emerged / appeared	v
-at fremlægge	to present		3	fremlægger|fremlagde|fremlagt		jeg fremlægger|jeg fremlagde|jeg har fremlagt	I present|I presented|I have presented	v
+at fremlægge	to present		4	fremlægger|fremlagde|fremlagt		jeg fremlægger|jeg fremlagde|jeg har fremlagt	I present|I presented|I have presented	v
 at fritage	to exempt		4	fritager|fritog|fritaget		jeg fritager|jeg fritog|jeg har fritaget	I exempt|I exempted|I have exempted	v
 at fuldende	to complete		3	fuldender|fuldendte|fuldendt		jeg fuldender|jeg fuldendte|jeg har fuldendt	I complete|I completed|I have completed	v
 at genoverveje	to reconsider		3	genovervejer|genovervejede|genovervejet		jeg genovervejer|jeg genovervejede|jeg har genovervejet	I reconsider|I reconsidered|I have reconsidered	v
-at gennemskue	to see through		3	gennemskuer|gennemskuede|gennemskuet		jeg gennemskuer|jeg gennemskuede|jeg har gennemskuet	I see through|I saw through|I have seen through	v
-at godtage	to accept		3	godtager|godtog|godtaget		jeg godtager|jeg godtog|jeg har godtaget	I accept|I accepted|I have accepted	v
+at gennemskue	to see through		4	gennemskuer|gennemskuede|gennemskuet		jeg gennemskuer|jeg gennemskuede|jeg har gennemskuet	I see through|I saw through|I have seen through	v
+at godtage	to accept		4	godtager|godtog|godtaget		jeg godtager|jeg godtog|jeg har godtaget	I accept|I accepted|I have accepted	v
 at harmonere	to harmonize		4	harmonerer|harmonerede|harmoneret		jeg harmonerer|jeg harmonerede|jeg har harmoneret	I harmonize|I harmonized|I have harmonized	v
 at hævde sig	to assert oneself		4	hævder sig|hævdede sig|hævdet sig		jeg hævder mig|jeg hævdede mig|jeg har hævdet mig	I assert myself|I asserted myself|I have asserted myself	v
 at iagttage	to observe		4	iagttager|iagttog|iagttaget		jeg iagttager|jeg iagttog|jeg har iagttaget	I observe|I observed|I have observed	v
@@ -1269,7 +1269,7 @@ at opprioritere	to prioritize higher		4	opprioriterer|opprioriterede|opprioriter
 at optrappe	to escalate		4	optrapper|optrappede|optrappet		jeg optrapper|jeg optrappede|jeg har optrappet	I escalate|I escalated|I have escalated	v
 at overkomme	to overcome / manage		4	overkommer|overkom|overkommet		jeg overkommer|jeg overkom|jeg har overkommet	I overcome / manage|I overcame / managed|I have overcome / managed	v
 at overrække	to hand over / present		4	overrækker|overrakte|overrakt		jeg overrækker|jeg overrakte|jeg har overrakt	I hand over / present|I handed over / presented|I have handed over / presented	v
-at overskue	to get an overview of		3	overskuer|overskuede|overskuet		jeg overskuer|jeg overskuede|jeg har overskuet	I get an overview of|I got an overview of|I have gotten an overview of	v
+at overskue	to get an overview of		4	overskuer|overskuede|overskuet		jeg overskuer|jeg overskuede|jeg har overskuet	I get an overview of|I got an overview of|I have gotten an overview of	v
 at overtræde	to violate		4	overtræder|overtrådte|overtrådt		jeg overtræder|jeg overtrådte|jeg har overtrådt	I violate|I violated|I have violated	v
 at pålægge	to impose		4	pålægger|pålagde|pålagt		jeg pålægger|jeg pålagde|jeg har pålagt	I impose|I imposed|I have imposed	v
 at påberåbe sig	to invoke		4	påberåber sig|påberåbte sig|påberåbt sig		jeg påberåber mig|jeg påberåbte mig|jeg har påberåbt mig	I invoke|I invoked|I have invoked	v
@@ -1279,7 +1279,7 @@ at respondere	to respond		3	responderer|responderede|responderet		jeg respondere
 at rådføre sig	to consult		4	rådfører sig|rådførte sig|rådført sig		jeg rådfører mig|jeg rådførte mig|jeg har rådført mig	I consult|I consulted|I have consulted	v
 at sammenkalde	to convene		4	sammenkalder|sammenkaldte|sammenkaldt		jeg sammenkalder|jeg sammenkaldte|jeg har sammenkaldt	I convene|I convened|I have convened	v
 at skærpe	to sharpen / tighten		4	skærper|skærpede|skærpet		jeg skærper|jeg skærpede|jeg har skærpet	I sharpen / tighten|I sharpened / tightened|I have sharpened / tightened	v
-at slå igennem	to break through		3	slår igennem|slog igennem|slået igennem		jeg slår igennem|jeg slog igennem|jeg har slået igennem	I break through|I broke through|I have broken through	v
+at slå igennem	to break through		4	slår igennem|slog igennem|slået igennem		jeg slår igennem|jeg slog igennem|jeg har slået igennem	I break through|I broke through|I have broken through	v
 at slå ud	to knock out		3	slår ud|slog ud|slået ud		jeg slår ud|jeg slog ud|jeg har slået ud	I knock out|I knocked out|I have knocked out	v
 at specialisere sig	to specialize		3	specialiserer sig|specialiserede sig|specialiseret sig		jeg specialiserer mig|jeg specialiserede mig|jeg har specialiseret mig	I specialize|I specialized|I have specialized	v
 at stadfæste	to confirm / uphold		4	stadfæster|stadfæstede|stadfæstet		jeg stadfæster|jeg stadfæstede|jeg har stadfæstet	I confirm / uphold|I confirmed / upheld|I have confirmed / upheld	v
@@ -1521,7 +1521,7 @@ et trin	a step		2					n	trinet|trin	the step|steps
 en dækning	a cover / coverage		3					n	dækningen|dækninger	the cover / the coverage|covers / coverages
 en katastrofe	a disaster	IO	2					n	katastrofen|katastrofer	the disaster|disasters
 en bevægelse	a movement		2					n	bevægelsen|bevægelser	the movement|movements
-et væsen	a creature / being		3					n	væsenet|væsener	the creature / the being|creatures / beings
+et væsen	a creature / being		4					n	væsenet|væsener	the creature / the being|creatures / beings
 en favorit	a favorite	IO	2					n	favoritten|favoritter	the favorite|favorites
 udkig	lookout		3		et			n	udkigget	the lookout
 en sæk	a sack		2					n	sækken|sække	the sack|sacks
@@ -1543,28 +1543,28 @@ et symbol	a symbol	SL	2					n	symbolet|symboler	the symbol|symbols
 en zone	a zone		2					n	zonen|zoner	the zone|zones
 et lag	a layer		2					n	laget|lag	the layer|layers
 en forsyning	a supply	WJ	3					n	forsyningen|forsyninger	the supply|supplies
-en kiste	a chest / coffin	HH	3					n	kisten|kister	the chest / the coffin|chests / coffins
+en kiste	a chest / coffin	HH	4					n	kisten|kister	the chest / the coffin|chests / coffins
 en ændring	a change	IO	2					n	ændringen|ændringer	the change|changes
 en pil	an arrow / willow		2					n	pilen|pile	the arrow / the willow|arrows / willows
 et varsel	a notice / warning		4					n	varslet|varsler	the notice / the warning|notices / warnings
 et reb	a rope	HH	2					n	rebet|reb	the rope|ropes
-en rækkevidde	a range / reach		3					n	rækkevidden	the range / the reach
+en rækkevidde	a range / reach		4					n	rækkevidden	the range / the reach
 jern	iron	WN	2		et			n	jernet	the iron
 en belønning	a reward	IO	2					n	belønningen|belønninger	the reward|rewards
 en plade	a plate / record		2					n	pladen|plader	the plate / the record|plates / records
 et slagsmål	a fight	SP	2					n	slagsmålet|slagsmål	the fight|fights
 en proces	a process	IO	2					n	processen|processer	the process|processes
-et glimt	a glimpse / gleam		3					n	glimtet|glimt	the glimpse / the gleam|glimpses / gleams
+et glimt	a glimpse / gleam		4					n	glimtet|glimt	the glimpse / the gleam|glimpses / gleams
 en snor	a string / cord		2					n	snoren|snore	the string / the cord|strings / cords
 en begivenhed	an event	IO	2					n	begivenheden|begivenheder	the event|events
 en besiddelse	a possession		3					n	besiddelsen|besiddelser	the possession|possessions
 et knep	a trick		3					n
 en titel	a title		2					n	titlen|titler	the title|titles
-en mine	a mine / facial expression		3					n	minen|miner	the mine / the facial expression|mines / facial expressions
+en mine	a mine / facial expression		4					n	minen|miner	the mine / the facial expression|mines / facial expressions
 en bagside	a back / downside		3					n	bagsiden|bagsider	the back / the downside|backs / downsides
 vedkommende	the person concerned		4					p
 en blanding	a mixture		2					n	blandingen|blandinger	the mixture|mixtures
-et udbrud	an outbreak / outburst		3					n	udbruddet|udbrud	the outbreak / the outburst|outbreaks / outbursts
+et udbrud	an outbreak / outburst		4					n	udbruddet|udbrud	the outbreak / the outburst|outbreaks / outbursts
 en hændelse	an incident	IO	3					n	hændelsen|hændelser	the incident|incidents
 en gift	a poison		2					n	giften|gifte	the poison|poisons
 en pind	a stick		2					n	pinden|pinde	the stick|sticks
@@ -1858,9 +1858,9 @@ uærlig	dishonest	FP	2					a	uærligere|uærligst	more dishonest|most dishonest
 mistænksom	suspicious	FP	3					a	mistænksommere|mistænksomst	more suspicious|most suspicious
 naiv	naive	FP	2					a	mere naiv|mest naiv	more naive|most naive
 fordomsfri	unbiased		3					a	fordomsfriere|fordomsfriest	more unbiased|most unbiased
-fordomsfuld	prejudiced		3					a	fordomsfuldere|fordomsfuldest	more prejudiced|most prejudiced
+fordomsfuld	prejudiced		4					a	fordomsfuldere|fordomsfuldest	more prejudiced|most prejudiced
 solid	solid		2					a	solidere|solidest	more solid|most solid
-skrøbelig	fragile		3					a	skrøbeligere|skrøbeligst	more fragile|most fragile
+skrøbelig	fragile		4					a	skrøbeligere|skrøbeligst	more fragile|most fragile
 holdbar	durable		3					a	mere holdbar|mest holdbar	more durable|most durable
 slidt	worn		3					a
 intakt	intact		3					a
@@ -2000,7 +2000,7 @@ diskret	discreet		3					a
 åndssvag	idiotic		3					a	åndssvagere|åndssvagest	more idiotic|most idiotic
 tragisk	tragic		2					a
 nuttet	cute		2					a
-mægtig	mighty / powerful		3					a	mægtigere|mægtigst	mightier / more powerful|mightiest / most powerful
+mægtig	mighty / powerful		4					a	mægtigere|mægtigst	mightier / more powerful|mightiest / most powerful
 spærret	blocked / closed		3					a
 ledig	vacant / available / unemployed		2					a	ledigere|ledigst	more vacant / more available / more unemployed|most vacant / most available / most unemployed
 usynlig	invisible		2					a	usynligere|usynligst	more invisible|most invisible
@@ -2024,7 +2024,7 @@ begrænset	limited		3					a
 udelukket	ruled out / excluded		3					a
 ironisk	ironic		3					a
 stiv	stiff		2					a	stivere|stivest	stiffer|stiffest
-pragtfuld	splendid		3					a	pragtfuldere|pragtfuldest	more splendid|most splendid
+pragtfuld	splendid		4					a	pragtfuldere|pragtfuldest	more splendid|most splendid
 lovende	promising		3					a
 standard	standard		3					a
 ubehagelig	unpleasant		2					a	ubehageligere|ubehageligst	more unpleasant|most unpleasant
@@ -2081,13 +2081,13 @@ stinkende	stinking		3					a
 ultimativ	ultimate		3					a
 øjeblikkelig	immediate		3					a	øjeblikkeligere|øjeblikkeligst	more immediate|most immediate
 ubevæbnet	unarmed	SP	3					a
-snu	cunning		3					a
+snu	cunning		4					a
 suspenderet	suspended		3					a
 sløret	blurred / veiled		4					a
 overvældende	overwhelming		3					a
 fuldkommen	perfect / complete		4					a
 omfattende	extensive		3					a
-fortrolig	confidential / familiar		3					a	fortroligere|fortroligst	more confidential / more familiar|most confidential / most familiar
+fortrolig	confidential / familiar		4					a	fortroligere|fortroligst	more confidential / more familiar|most confidential / most familiar
 pudsig	funny / odd		4					a	pudsigere|pudsigst	funnier / odder|funniest / oddest
 daglig	daily	TC	2					a
 dødbringende	deadly		4					a
@@ -2156,7 +2156,7 @@ lignende	similar		2					a
 lydløs	silent		3					a	lydløsere|lydløsest	more silent|most silent
 lysende	bright / luminous		3					a
 maksimal	maximum		3					a
-markant	marked / distinctive		3					a
+markant	marked / distinctive		4					a
 materiel	material		3					a
 meningsfuld	meaningful		3					a	meningsfuldere|meningsfuldest	more meaningful|most meaningful
 minimal	minimal		3					a	mere minimal|mest minimal	more minimal|most minimal
@@ -2165,7 +2165,7 @@ mærkbar	noticeable		3					a	mere mærkbar|mest mærkbar	more noticeable|most no
 neutral	neutral		3					a	mere neutral|mest neutral	more neutral|most neutral
 nøgtern	sober / matter-of-fact		4					a
 objektiv	objective		3					a	mere objektiv|mest objektiv	more objective|most objective
-oplagt	obvious / in good form		3					a
+oplagt	obvious / in good form		4					a
 oprigtig	sincere		3					a	oprigtigere|oprigtigst	more sincere|most sincere
 primær	primary		3					a
 problematisk	problematic		3					a
@@ -2193,10 +2193,10 @@ væsentlig	essential / significant		3					a	væsentligere|væsentligst	more esse
 ekstrem	extreme		3					a
 hjælpeløs	helpless		3					a	hjælpeløsere|hjælpeløsest	more helpless|most helpless
 håbefuld	hopeful	FP	3					a	håbefuldere|håbefuldest	more hopeful|most hopeful
-kostbar	costly / precious		3					a	mere kostbar|mest kostbar	costlier / more precious|costliest / most precious
+kostbar	costly / precious		4					a	mere kostbar|mest kostbar	costlier / more precious|costliest / most precious
 larmende	noisy		3					a
 livlig	lively		3					a	livligere|livligst	more lively|most lively
-sjusket	sloppy		3					a
+sjusket	sloppy		4					a
 spiselig	edible	FD	3					a	spiseligere|spiseligst	more edible|most edible
 træg	sluggish		3					a	trægere|trægest	more sluggish|most sluggish
 uforudsigelig	unpredictable		3					a	uforudsigeligere|uforudsigeligst	more unpredictable|most unpredictable
@@ -2261,7 +2261,7 @@ anstrengende	strenuous / tiring		3					a
 anvendelig	applicable / usable		3					a	anvendeligere|anvendeligst	more applicable / more usable|most applicable / most usable
 begavet	gifted / intelligent		3					a
 bekendt	familiar / known		2					a
-berettiget	justified / entitled		3					a
+berettiget	justified / entitled		4					a
 besværlig	troublesome		3					a	besværligere|besværligst	more troublesome|most troublesome
 betænkelig	doubtful / worrying		4					a	betænkeligere|betænkeligst	more doubtful / more worrying|most doubtful / most worrying
 blank	shiny / blank		2					a	blankere|blankest	shinier / blanker|shiniest / blankest
@@ -2280,7 +2280,7 @@ forgængelig	perishable / transient		4					a	forgængeligere|forgængeligst	more
 forhastet	hasty		4					a
 forkælet	spoiled		3					a
 forladt	abandoned		2					a
-forsømt	neglected		3					a
+forsømt	neglected		4					a
 forståelsesfuld	understanding		3					a
 fortjent	deserved		2					a
 fremtrædende	prominent		4					a
@@ -2305,7 +2305,7 @@ kortvarig	short-lived		3					a	kortvarigere|kortvarigst	more short-lived|most sh
 langtrukken	long-winded		4					a
 levedygtig	viable		4					a	levedygtigere|levedygtigst	more viable|most viable
 lidenskabelig	passionate	FP	3					a	lidenskabeligere|lidenskabeligst	more passionate|most passionate
-ligeværdig	equal		3					a
+ligeværdig	equal		4					a
 lovpligtig	mandatory by law	SP	4					a
 lydig	obedient	FP	3					a	lydigere|lydigst	more obedient|most obedient
 lysegrøn	light green	CO	1					a
@@ -2314,7 +2314,7 @@ malerisk	picturesque		4					a
 mangelfuld	deficient / inadequate		4					a	mangelfuldere|mangelfuldest	more deficient / more inadequate|most deficient / most inadequate
 modstandsdygtig	resilient		4					a	modstandsdygtigere|modstandsdygtigst	more resilient|most resilient
 nedslående	disheartening		4					a
-nervepirrende	nerve-wracking		3					a
+nervepirrende	nerve-wracking		4					a
 næringsrig	nutritious	FD	3					a	næringsrigere|næringsrigest	more nutritious|most nutritious
 omhyggelig	careful / meticulous		3					a	omhyggeligere|omhyggeligst	more careful / more meticulous|most careful / most meticulous
 omstændelig	elaborate / long-winded		4					a	omstændeligere|omstændeligst	more elaborate / more long-winded|most elaborate / most long-winded
@@ -2333,7 +2333,7 @@ påfaldende	striking		4					a
 påtrængende	pushy / pressing		4					a
 rastløs	restless	FP	3					a
 rystende	shocking / shaking		4					a
-sammenhængende	coherent		3					a
+sammenhængende	coherent		4					a
 selvmodsigende	contradictory		4					a
 skeptisk	skeptical	FP	3					a
 skræmmende	frightening		2					a
@@ -2359,10 +2359,10 @@ tomhændet	empty-handed		3					a
 tvetydig	ambiguous		4					a	tvetydigere|tvetydigst	more ambiguous|most ambiguous
 tvungen	forced		3					a
 uanstændig	indecent		4					a	uanstændigere|uanstændigst	more indecent|most indecent
-ubegribelig	incomprehensible		3					a	ubegribeligere|ubegribeligst	more incomprehensible|most incomprehensible
+ubegribelig	incomprehensible		4					a	ubegribeligere|ubegribeligst	more incomprehensible|most incomprehensible
 ubekymret	carefree	FP	3					a
 ubelejlig	inconvenient		4					a	ubelejligere|ubelejligst	more inconvenient|most inconvenient
-ubestemt	indefinite / vague		3					a
+ubestemt	indefinite / vague		4					a
 uduelig	incompetent		4					a	udueligere|udueligst	more incompetent|most incompetent
 uerfaren	inexperienced		3					a
 uforglemmelig	unforgettable		3					a	uforglemmeligere|uforglemmeligst	more unforgettable|most unforgettable
@@ -2389,11 +2389,11 @@ vidtrækkende	far-reaching		4					a
 vindende	winning		3					a
 vittig	witty		3					a	vittigere|vittigst	wittier|wittiest
 værdsat	appreciated		3					a
-ærefuld	honorable		3					a	ærefuldere|ærefuldest	more honorable|most honorable
+ærefuld	honorable		4					a	ærefuldere|ærefuldest	more honorable|most honorable
 ærgerrig	ambitious	FP	3					a	ærgerrigere|ærgerrigst	more ambitious|most ambitious
 ødelæggende	destructive		3					a
-ønskelig	desirable		3					a	ønskeligere|ønskeligst	more desirable|most desirable
-åndelig	spiritual / mental		3					a	åndeligere|åndeligst	more spiritual / more mental|most spiritual / most mental
+ønskelig	desirable		4					a	ønskeligere|ønskeligst	more desirable|most desirable
+åndelig	spiritual / mental		4					a	åndeligere|åndeligst	more spiritual / more mental|most spiritual / most mental
 årvågen	alert / vigilant		4					a
 forestående	upcoming / impending		4					a
 jeg	I		1					p
@@ -2556,7 +2556,7 @@ omvendt	reverse / the other way around		3					d
 sandelig	indeed / truly		4					d
 hvorfra	from where		2					d
 fortsat	continued / still		3					d
-desto	the (more…) / all the		3					d
+desto	the (more…) / all the		4					d
 snarere	rather		3					d
 alverden	the whole world / all sorts		3					d
 bagud	behind (in time/score)		3					d
@@ -2571,9 +2571,9 @@ hermed	herewith / hereby		3					d
 tilfældigvis	by chance		3					d
 ethvert	any / every (et-word)		3					p
 enormt	enormously		2					d
-omgående	immediately	TC	3					d
+omgående	immediately	TC	4					d
 vældig	very / mighty		2					d
-nøje	closely / carefully		3					d
+nøje	closely / carefully		4					d
 ekstremt	extremely		2					d
 grundigt	thoroughly		3					d
 forgæves	in vain		3					d
@@ -2624,7 +2624,7 @@ lokalt	locally		3					d
 sågar	even		3					d
 nogenlunde	fairly / reasonably		3					d
 anonymt	anonymously		3					d
-foreløbig	for the time being / preliminary	TC	3					d
+foreløbig	for the time being / preliminary	TC	4					d
 aldeles	entirely / quite		3					d
 endeligt	definitively		3					d
 på forhånd	in advance	TC	2					d
@@ -2657,7 +2657,7 @@ utroligt	incredibly		2					d
 ganske vist	admittedly		3					d
 ikke desto mindre	nevertheless		3					d
 i stedet	instead		2					d
-ligeledes	likewise		3					d
+ligeledes	likewise		4					d
 navnlig	especially / in particular		3					d
 så at sige	so to speak		3					d
 under alle omstændigheder	in any case		3					d
@@ -2773,7 +2773,7 @@ blandt	among		2					r
 dels ... dels	partly ... partly		3					c
 efterhånden som	as (gradually)		3					c
 endskønt	although		4					c
-fremfor	rather than		3					r
+fremfor	rather than		4					r
 hvorvidt	whether		3					c
 i og med	since / given that		3					c
 idet	as / since		3					c
@@ -2826,7 +2826,7 @@ god weekend	have a good weekend	GR	1					f
 god appetit	bon appétit	GR	1					f
 hvad så?	what's up?	GR	1					f
 det er lige det	that's exactly it	GR	2					f
-i det store hele	all in all		3					d
+i det store hele	all in all		4					d
 det kommer an på	it depends	GR	2					f
 sådan er det bare	that's just how it is	GR	2					f
 tag det roligt	take it easy / calm down	GR	2					f
@@ -2867,12 +2867,12 @@ i det mindste	at least		2					d
 hvis jeg var dig	if I were you	GR	2					f
 at være enig	to agree	IO	2	er enig|var enig|været enig		jeg er enig|jeg var enig|jeg har været enig	I agree|I agreed|I have agreed	v
 at være uenig	to disagree	IO	2	er uenig|var uenig|været uenig		jeg er uenig|jeg var uenig|jeg har været uenig	I disagree|I disagreed|I have disagreed	v
-at modsige	to contradict	IO	3	modsiger|modsagde|modsagt		jeg modsiger|jeg modsagde|jeg har modsagt	I contradict|I contradicted|I have contradicted	v
+at modsige	to contradict	IO	4	modsiger|modsagde|modsagt		jeg modsiger|jeg modsagde|jeg har modsagt	I contradict|I contradicted|I have contradicted	v
 at understøtte	to support	IO	3	understøtter|understøttede|understøttet		jeg understøtter|jeg understøttede|jeg har understøttet	I support|I supported|I have supported	v
 at bestride	to dispute	IO	4	bestrider|bestred|bestridt		jeg bestrider|jeg bestred|jeg har bestridt	I dispute|I disputed|I have disputed	v
-at retfærdiggøre	to justify	IO	3	retfærdiggør|retfærdiggjorde|retfærdiggjort		jeg retfærdiggør|jeg retfærdiggjorde|jeg har retfærdiggjort	I justify|I justified|I have justified	v
+at retfærdiggøre	to justify	IO	4	retfærdiggør|retfærdiggjorde|retfærdiggjort		jeg retfærdiggør|jeg retfærdiggjorde|jeg har retfærdiggjort	I justify|I justified|I have justified	v
 at understrege	to emphasize	IO	3	understreger|understregede|understreget		jeg understreger|jeg understregede|jeg har understreget	I emphasize|I emphasized|I have emphasized	v
-at antyde	to imply	IO	3	antyder|antydede|antydet		jeg antyder|jeg antydede|jeg har antydet	I imply|I implied|I have implied	v
+at antyde	to imply	IO	4	antyder|antydede|antydet		jeg antyder|jeg antydede|jeg har antydet	I imply|I implied|I have implied	v
 at konkludere	to conclude	IO	3	konkluderer|konkluderede|konkluderet		jeg konkluderer|jeg konkluderede|jeg har konkluderet	I conclude|I concluded|I have concluded	v
 at generalisere	to generalize	IO	3	generaliserer|generaliserede|generaliseret		jeg generaliserer|jeg generaliserede|jeg har generaliseret	I generalize|I generalized|I have generalized	v
 at sammenligne	to compare	IO	2	sammenligner|sammenlignede|sammenlignet		jeg sammenligner|jeg sammenlignede|jeg har sammenlignet	I compare|I compared|I have compared	v
@@ -2898,7 +2898,7 @@ at tage skeen i den anden hånd	to change one's approach	GR	4					f
 at have hjertet på rette sted	to have one's heart in the right place	GR	3					f
 at gøre en dyd af nødvendigheden	to make a virtue of necessity	GR	4					f
 at være på bar bund	to be at a total loss	GR	4					f
-at ramme plet	to hit the mark	GR	3					f
+at ramme plet	to hit the mark	GR	4					f
 at gå agurk	to go crazy	GR	4					f
 at tale udenom	to beat around the bush	GR	3					f
 ja	yes	GR	1					f
@@ -2915,7 +2915,7 @@ goddag	good day / hello (formal)	GR	1					f
 hallo	hello	GR	1					f
 hvabehar	pardon? / excuse me?	GR	2					f
 tja	well (hesitating)	GR	2					f
-gudskelov	thank God	GR	3					f
+gudskelov	thank God	GR	4					f
 jaså	is that so	GR	2					f
 glædelig jul	merry Christmas	GR	1					f
 hold kæft	shut up	GR	2					f
@@ -3036,13 +3036,13 @@ at holde ord	to keep one's word	GR	3	holder ord|holdt ord|holdt ord		jeg holder 
 at holde med	to support (a team / side)	GR	2	holder med|holdt med|holdt med		jeg holder med|jeg holdt med|jeg har holdt med	I support (a team / side)|I supported (a team / side)|I have supported (a team / side)	v
 at slå et smut forbi	to drop by	GR	3	slår et smut forbi|slog et smut forbi|slået et smut forbi		jeg slår et smut forbi|jeg slog et smut forbi|jeg har slået et smut forbi	I drop by|I dropped by|I have dropped by	v
 at skifte mening	to change one's mind	GR	2	skifter mening|skiftede mening|skiftet mening		jeg skifter mening|jeg skiftede mening|jeg har skiftet mening	I change my mind|I changed my mind|I have changed my mind	v
-at gå i stå	to come to a standstill	GR	3	går i stå|gik i stå|gået i stå		det går i stå|det gik i stå|det er gået i stå	it comes to a standstill|it came to a standstill|it has come to a standstill	v
+at gå i stå	to come to a standstill	GR	4	går i stå|gik i stå|gået i stå		det går i stå|det gik i stå|det er gået i stå	it comes to a standstill|it came to a standstill|it has come to a standstill	v
 at gå i panik	to panic	GR	2	går i panik|gik i panik|gået i panik		jeg går i panik|jeg gik i panik|jeg er gået i panik	I panic|I panicked|I have panicked	v
 at gå galt	to go wrong	GR	2	går galt|gik galt|gået galt		det går galt|det gik galt|det er gået galt	it goes wrong|it went wrong|it has gone wrong	v
 at gå som smurt	to go smoothly	GR	3	går som smurt|gik som smurt|gået som smurt		det går som smurt|det gik som smurt|det er gået som smurt	it goes smoothly|it went smoothly|it has gone smoothly	v
 at komme i gang	to get started		2	kommer i gang|kom i gang|kommet i gang		jeg kommer i gang|jeg kom i gang|jeg er kommet i gang	I get started|I got started|I have gotten started	v
 at komme til skade	to get hurt	GR	2	kommer til skade|kom til skade|kommet til skade		jeg kommer til skade|jeg kom til skade|jeg er kommet til skade	I get hurt|I got hurt|I have gotten hurt	v
-at falde i god jord	to go down well	GR	3	falder i god jord|faldt i god jord|faldet i god jord		det falder i god jord|det faldt i god jord|det er faldet i god jord	it goes down well|it went down well|it has gone down well	v
+at falde i god jord	to go down well	GR	4	falder i god jord|faldt i god jord|faldet i god jord		det falder i god jord|det faldt i god jord|det er faldet i god jord	it goes down well|it went down well|it has gone down well	v
 at tale med store bogstaver	to speak bluntly	GR	4					f
 at feje noget ind under gulvtæppet	to sweep something under the rug	GR	4					f
 at være oppe at køre	to be worked up	GR	4					f
@@ -3051,13 +3051,13 @@ at have en høne at plukke med nogen	to have a bone to pick with someone	GR	4			
 at stikke en finger i jorden	to take stock / reflect	GR	4					f
 at have is i maven	to keep cool / stay calm	GR	4					f
 at holde tand for tunge	to keep quiet	GR	4					f
-at få kolde fødder	to get cold feet	GR	3					f
+at få kolde fødder	to get cold feet	GR	4					f
 at være på Herrens mark	to be completely lost	GR	4					f
 at snakke om vejret	to make small talk	GR	2					f
 der er ingen ko på isen	there's nothing to worry about	GR	4					f
 det er ikke så svært	it's not that hard	GR	1					f
 nu skal du høre	now listen	GR	2					f
-det var på høje tid	it was high time	GR	3					f
+det var på høje tid	it was high time	GR	4					f
 det er hip som hap	it's six of one, half a dozen of the other	GR	4					f
 bedre sent end aldrig	better late than never	GR	2					f
 øvelse gør mester	practice makes perfect	GR	3					f
@@ -3172,7 +3172,7 @@ indtil videre	for now / so far	TC	2					d
 fra nu af	from now on	TC	2					d
 indtil nu	until now	TC	2					d
 for evigt	forever	TC	2					d
-lejlighedsvis	occasionally	TC	3					d
+lejlighedsvis	occasionally	TC	4					d
 regelmæssigt	regularly	TC	3					d
 af og til	now and then	TC	1					d
 samtidig	simultaneously	TC	2					d
@@ -3335,7 +3335,7 @@ en nevø	a nephew	PF	2					n	nevøen|nevøer	the nephew|nephews
 en niece	a niece	PF	2					n	niecen|niecer	the niece|nieces
 en mand	a husband / man	PF	1					n	manden|mænd	the husband / the man|husbands / men
 en kone	a wife	PF	1					n	konen|koner	the wife|wives
-en ægtefælle	a spouse	PF	3					n	ægtefællen|ægtefæller	the spouse|spouses
+en ægtefælle	a spouse	PF	4					n	ægtefællen|ægtefæller	the spouse|spouses
 en kæreste	a girlfriend / boyfriend	PF	1					n	kæresten|kærester	the girlfriend / the boyfriend|girlfriends / boyfriends
 en veninde	a female friend	PF	1					n	veninden|veninder	the female friend|female friends
 en bekendt	an acquaintance	PF	2					n
@@ -3398,7 +3398,7 @@ et selskab	a company/gathering	PF	2					n	selskabet|selskaber	the company/gather
 en underordnet	a subordinate	WJ	4					n
 en misforståelse	a misunderstanding	PF	2					n	misforståelsen|misforståelser	the misunderstanding|misunderstandings
 et skænderi	an argument	PF	3					n	skænderiet|skænderier	the argument|arguments
-en forsoning	a reconciliation	PF	3					n	forsoningen|forsoninger	the reconciliation|reconciliations
+en forsoning	a reconciliation	PF	4					n	forsoningen|forsoninger	the reconciliation|reconciliations
 en undskyldning	an apology	PF	2					n	undskyldningen|undskyldninger	the apology|apologies
 tilgivelse	forgiveness	PF	3		en			n	tilgivelsen	the forgiveness
 loyalitet	loyalty	PF	3		en			n
@@ -3406,13 +3406,13 @@ en flirt	a flirt	PF	2					n	flirten|flirter	the flirt|flirts
 en eks	an ex	PF	2					n
 gensidighed	mutuality	PF	4		en			n	gensidigheden	the mutuality
 fortrolighed	confidentiality / familiarity	PF	4		en			n	fortroligheden	the confidentiality / the familiarity
-sladder	gossip	PF	3		en			n	sladderen	the gossip
+sladder	gossip	PF	4		en			n	sladderen	the gossip
 et rygte	a rumor	PF	2					n	rygtet|rygter	the rumor|rumors
 en fyr	a guy	PF	2					n	fyren|fyre	the guy|guys
 en herre	a gentleman / lord	PF	2					n	herren|herrer	the gentleman / the lord|gentlemen / lords
 en knægt	a lad / kid	PF	3					n	knægten|knægte	the lad / the kid|lads / kids
 en dame	a lady	PF	1					n	damen|damer	the lady|ladies
-en frøken	a miss / young lady	PF	3					n	frøkenen|frøkener	the miss / the young lady|misses / young ladies
+en frøken	a miss / young lady	PF	4					n	frøkenen|frøkener	the miss / the young lady|misses / young ladies
 en kammerat	a buddy / comrade	PF	2					n	kammeraten|kammerater	the buddy / the comrade|buddies / comrades
 et kys	a kiss	PF	2					n	kysset	the kiss
 en partner	a partner	PF	2					n	partneren|partnere	the partner|partners
@@ -3442,12 +3442,12 @@ søskende	siblings	PF	2		pl			n	søskendene|	the siblings|
 opdraget	brought up	PF	3					a
 en forælder	a parent	PF	2					n	forælderen|forældre	the parent|parents
 en bryllupsrejse	a honeymoon	PF	2					n	bryllupsrejsen|bryllupsrejser	the honeymoon|honeymoons
-en arving	an heir	PF	3					n	arvingen|arvinger	the heir|heirs
+en arving	an heir	PF	4					n	arvingen|arvinger	the heir|heirs
 en ekskæreste	an ex (boyfriend/girlfriend)	PF	2					n	ekskæresten|ekskærester	the ex (boyfriend/girlfriend)|exes (boyfriend/girlfriend)
 en slægtning	a relative	PF	2					n	slægtningen|slægtninge	the relative|relatives
 ungdom	youth	PF	2		en			n	ungdommen	the youth
 en elskerinde	a mistress	PF	3					n	elskerinden|elskerinder	the mistress|mistresses
-en ledsager	a companion / escort	PF	3					n	ledsageren|ledsagere	the companion / the escort|companions / escorts
+en ledsager	a companion / escort	PF	4					n	ledsageren|ledsagere	the companion / the escort|companions / escorts
 en moster	an aunt (mother's sister)	PF	2					n	mosteren|mostre	the aunt (mother's sister)|aunts (mother's sister)
 en faster	an aunt (father's sister)	PF	2					n	fasteren|fastre	the aunt (father's sister)|aunts (father's sister)
 en morbror	an uncle (mother's brother)	PF	2					n	morbroren|morbrødre	the uncle (mother's brother)|uncles (mother's brother)
@@ -3456,7 +3456,7 @@ en eksmand	an ex-husband	PF	2					n	eksmanden|eksmænd	the ex-husband|ex-husband
 en svoger	a brother-in-law	PF	2					n	svogeren|svogre	the brother-in-law|brothers-in-law
 en svigerinde	a sister-in-law	PF	2					n	svigerinden|svigerinder	the sister-in-law|sisters-in-law
 adopteret	adopted	PF	2					a
-en forlover	a best man / maid of honor	PF	3					n	forloveren|forlovere	the best man / the maid of honor|best men / maids of honor
+en forlover	a best man / maid of honor	PF	4					n	forloveren|forlovere	the best man / the maid of honor|best men / maids of honor
 omsorg	care	PF	3		en			n	omsorgen	the care
 enlig	single / solitary	PF	3					a	enligere|enligst	more single / more solitary|most single / most solitary
 en polterabend	a bachelor / bachelorette party	CH	3					n
@@ -3514,7 +3514,7 @@ en brudepige	a bridesmaid	PF	2					n	brudepigen|brudepiger	the bridesmaid|brides
 en vielsesring	a wedding ring	PF	2					n	vielsesringen|vielsesringe	the wedding ring|wedding rings
 en forlovelsesring	an engagement ring	PF	2					n	forlovelsesringen|forlovelsesringe	the engagement ring|engagement rings
 et løfte	a promise	PF	2					n	løftet|løfter	the promise|promises
-et afslag	a refusal / rejection	PF	3					n	afslaget	the refusal / the rejection
+et afslag	a refusal / rejection	PF	4					n	afslaget	the refusal / the rejection
 en barndomsven	a childhood friend	PF	2					n	barndomsvennen|barndomsvenner	the childhood friend|childhood friends
 en omgangskreds	a circle of friends	PF	3					n	omgangskredsen|omgangskredse	the circle of friends|circles of friends
 ros	praise	PF	2		en			n	rosen	the praise
@@ -3532,9 +3532,9 @@ et plejebarn	a foster child	PF	3					n	plejebarnet|plejebørn	the foster child|f
 en adoption	an adoption	PF	3					n	adoptionen|adoptioner	the adoption|adoptions
 en familiefest	a family party	PF	2					n	familiefesten|familiefester	the family party|family parties
 en generationskløft	a generation gap	PF	3					n	generationskløften|generationskløfter	the generation gap|generation gaps
-et samvær	a time together / custody visit	PF	3					n	samværet	the time together / the custody visit
-et samliv	a life together	PF	3					n	samlivet	the life together
-forældremyndighed	custody (parental)	PF	3		en			n	forældremyndigheden	the custody (parental)
+et samvær	a time together / custody visit	PF	4					n	samværet	the time together / the custody visit
+et samliv	a life together	PF	4					n	samlivet	the life together
+forældremyndighed	custody (parental)	PF	4		en			n	forældremyndigheden	the custody (parental)
 en opdragelse	an upbringing	PF	3					n	opdragelsen	the upbringing
 børnepasning	childcare	PF	3		en			n	børnepasningen	the childcare
 en dagplejer	a childminder	PF	3					n	dagplejeren|dagplejere	the childminder|childminders
@@ -3561,12 +3561,12 @@ at holde i hånd	to hold hands	PF	2	holder i hånd|holdt i hånd|holdt i hånd		
 at tage hensyn	to be considerate	PF	2	tager hensyn|tog hensyn|taget hensyn		jeg tager hensyn|jeg tog hensyn|jeg har taget hensyn	I am considerate|I was considerate|I have been considerate	v
 at gå på nerverne	to get on someone's nerves	PF	4	går på nerverne|gik på nerverne|gået på nerverne		jeg går ham på nerverne|jeg gik ham på nerverne|jeg er gået ham på nerverne	I get on his nerves|I got on his nerves|I have gotten on his nerves	v
 at gøre det forbi	to end it (a relationship)	PF	2	gør det forbi|gjorde det forbi|gjort det forbi		jeg gør det forbi|jeg gjorde det forbi|jeg har gjort det forbi	I end it (a relationship)|I ended it (a relationship)|I have ended it (a relationship)	v
-trofast	faithful	FP	3					a
+trofast	faithful	FP	4					a
 utro	unfaithful	PF	2					a
 forstående	understanding	FP	3					a
 tolerant	tolerant	FP	3					a
 beskyttende	protective	FP	3					a
-nærværende	present / attentive	FP	3					a
+nærværende	present / attentive	FP	4					a
 fraværende	absent / absent-minded	FP	3					a
 sladrevorn	gossipy	FP	4					a
 snakkesalig	chatty	FP	3					a	snakkesaligere|snakkesaligst	chattier|chattiest
@@ -3841,7 +3841,7 @@ at krydre	to season	FD	3	krydrer|krydrede|krydret		jeg krydrer|jeg krydrede|jeg 
 at smøre	to spread / butter	FD	2	smører|smurte|smurt		jeg smører|jeg smurte|jeg har smurt	I spread / butter|I spread / buttered|I have spread / buttered	v
 at dække bord	to set the table	FD	2	dækker bord|dækkede bord|dækket bord		jeg dækker bord|jeg dækkede bord|jeg har dækket bord	I set the table|I set the table|I have set the table	v
 at tage af bordet	to clear the table	FD	2	tager af bordet|tog af bordet|taget af bordet		jeg tager af bordet|jeg tog af bordet|jeg har taget af bordet	I clear the table|I cleared the table|I have cleared the table	v
-at skænke	to pour (a drink)	FD	3	skænker|skænkede|skænket		jeg skænker|jeg skænkede|jeg har skænket	I pour (a drink)|I poured (a drink)|I have poured (a drink)	v
+at skænke	to pour (a drink)	FD	4	skænker|skænkede|skænket		jeg skænker|jeg skænkede|jeg har skænket	I pour (a drink)|I poured (a drink)|I have poured (a drink)	v
 at nippe	to sip	FD	4	nipper|nippede|nippet		jeg nipper|jeg nippede|jeg har nippet	I sip|I sipped|I have sipped	v
 at tygge	to chew	FD	2	tygger|tyggede|tygget		jeg tygger|jeg tyggede|jeg har tygget	I chew|I chewed|I have chewed	v
 at mætte	to fill (up) / satisfy	FD	3	mætter|mættede|mættet		jeg mætter|jeg mættede|jeg har mættet	I fill (up) / satisfy|I filled (up) / satisfied|I have filled (up) / satisfied	v
@@ -3966,7 +3966,7 @@ spaghetti	spaghetti	FD	1		en			n	spaghettien	the spaghetti
 gløgg	mulled wine	FD	3		en			n	gløggen	the mulled wine
 en fastelavnsbolle	a Shrovetide bun	FD	2					n	fastelavnsbollen|fastelavnsboller	the Shrovetide bun|Shrovetide buns
 en fødselsdagskage	a birthday cake	FD	2					n	fødselsdagskagen|fødselsdagskager	the birthday cake|birthday cakes
-at faste	to fast	FD	3	faster|fastede|fastet		jeg faster|jeg fastede|jeg har fastet	I fast|I fasted|I have fasted	v
+at faste	to fast	FD	4	faster|fastede|fastet		jeg faster|jeg fastede|jeg har fastet	I fast|I fasted|I have fasted	v
 appelsinjuice	orange juice	FD	1		en			n	appelsinjuicen	the orange juice
 en bid	a bite	FD	2					n	bidden|bidder	the bite|bites
 en chokoladekage	a chocolate cake	FD	2					n	chokoladekagen|chokoladekager	the chocolate cake|chocolate cakes
@@ -4128,7 +4128,7 @@ en ejendom	a property	HH	3					n	ejendommen|ejendomme	the property|properties
 en ejendomsmægler	a real estate agent	WJ	3					n	ejendomsmægleren|ejendomsmæglere	the real estate agent|real estate agents
 et boligmarked	a housing market	HH	3					n	boligmarkedet|boligmarkeder	the housing market|housing markets
 et lån	a loan	MB	2					n	lånet|lån	the loan|loans
-et realkreditlån	a mortgage	MB	3					n	realkreditlånet|realkreditlån	the mortgage|mortgages
+et realkreditlån	a mortgage	MB	4					n	realkreditlånet|realkreditlån	the mortgage|mortgages
 en renovering	a renovation	HH	3					n	renoveringen|renoveringer	the renovation|renovations
 en ombygning	a remodel	HH	3					n	ombygningen|ombygninger	the remodel|remodels
 en flytning	a move	HH	2					n	flytningen|flytninger	the move|moves
@@ -4136,7 +4136,7 @@ en flyttekasse	a moving box	HH	2					n	flyttekassen|flyttekasser	the moving box|
 et byggeri	a construction	HH	3					n	byggeriet|byggerier	the construction|constructions
 en terrasse	a terrace	HH	2					n	terrassen|terrasser	the terrace|terraces
 en indretning	a layout / furnishing	HH	3					n	indretningen|indretninger	the layout / the furnishing|layouts / furnishings
-vedligeholdelse	maintenance	HH	3		en			n	vedligeholdelsen	the maintenance
+vedligeholdelse	maintenance	HH	4		en			n	vedligeholdelsen	the maintenance
 en rengøring	a cleaning	HH	2					n	rengøringen|rengøringer	the cleaning|cleanings
 en støvsugning	a vacuuming	HH	3					n	støvsugningen|støvsugninger	the vacuuming|vacuumings
 en opvask	a dishwashing	HH	3					n	opvasken	the dishwashing
@@ -4160,7 +4160,7 @@ en ombytning	an exchange	CS	3					n	ombytningen|ombytninger	the exchange|exchang
 en returnering	a return	CS	3					n	returneringen|returneringer	the return|returns
 en garanti	a warranty	CS	2					n	garantien|garantier	the warranty|warranties
 en undtagelse	an exception		3					n	undtagelsen|undtagelser	the exception|exceptions
-en betingelse	a condition		3					n	betingelsen|betingelser	the condition|conditions
+en betingelse	a condition		4					n	betingelsen|betingelser	the condition|conditions
 et krav	a requirement		3					n	kravet|krav	the requirement|requirements
 en tilladelse	a permission		3					n	tilladelsen|tilladelser	the permission|permissions
 et forbud	a ban	SP	3					n	forbuddet|forbud	the ban|bans
@@ -4323,7 +4323,7 @@ en andelsbolig	a cooperative apartment	HH	3					n	andelsboligen|andelsboliger	th
 en ejerlejlighed	a condominium	HH	3					n	ejerlejligheden|ejerlejligheder	the condominium|condominiums
 en lejebolig	a rental home	HH	3					n	lejeboligen|lejeboliger	the rental home|rental homes
 et kollegium	a student dormitory	HH	2					n
-en husstand	a household	HH	3					n	husstanden|husstande	the household|households
+en husstand	a household	HH	4					n	husstanden|husstande	the household|households
 en opslagstavle	a bulletin board	HH	2					n	opslagstavlen|opslagstavler	the bulletin board|bulletin boards
 en brugsanvisning	a user manual	HH	2					n	brugsanvisningen|brugsanvisninger	the user manual|user manuals
 en indflytning	a move-in	HH	3					n	indflytningen|indflytninger	the move-in|move-ins
@@ -4506,7 +4506,7 @@ brændstof	fuel	TT	2		et			n	brændstoffet	the fuel
 et motel	a motel	TT	2					n	motellet|moteller	the motel|motels
 et hjul	a wheel	TT	2					n	hjulet|hjul	the wheel|wheels
 en hastighed	a speed	TT	2					n	hastigheden|hastigheder	the speed|speeds
-en besætning	a crew	TT	3					n	besætningen|besætninger	the crew|crews
+en besætning	a crew	TT	4					n	besætningen|besætninger	the crew|crews
 sydpå	southward	TT	2					d
 sydlig	southern		2					a	mere sydlig|mest sydlig	more southern|most southern
 nordlig	northern		2					a	mere nordlig|mest nordlig	more northern|most northern
@@ -4843,7 +4843,7 @@ en flamme	a flame	WN	3					n	flammen|flammer	the flame|flames
 en hvalp	a puppy	AN	2					n	hvalpen|hvalpe	the puppy|puppies
 mudder	mud	WN	3		et			n	mudderet	the mud
 et æsel	a donkey	AN	3					n	æslet|æsler	the donkey|donkeys
-stråling	radiation	WN	3		en			n	strålingen	the radiation
+stråling	radiation	WN	4		en			n	strålingen	the radiation
 en skabning	a creature	AN	3					n	skabningen|skabninger	the creature|creatures
 et bæst	a beast	AN	4					n	bæstet|bæster	the beast|beasts
 et skind	a skin / hide	AN	3					n	skindet|skind	the skin / the hide|skins / hides
@@ -4858,7 +4858,7 @@ en mose	a bog / marsh	WN	4					n	mosen|moser	the bog / the marsh|bogs / marshes
 en klit	a sand dune	WN	4					n	klitten|klitter	the sand dune|sand dunes
 en regnskov	a rainforest	WN	2					n	regnskoven|regnskove	the rainforest|rainforests
 en horisont	a horizon	WN	3					n	horisonten|horisonter	the horizon|horizons
-tidevand	tide	WN	3		et			n	tidevandet	the tide
+tidevand	tide	WN	4		et			n	tidevandet	the tide
 ler	clay	WN	3		et			n	leret	the clay
 en rose	a rose	WN	1					n	rosen|roser	the rose|roses
 en tulipan	a tulip	WN	2					n	tulipanen|tulipaner	the tulip|tulips
@@ -5081,7 +5081,7 @@ en muslingeskal	a seashell	WN	3					n	muslingeskallen|muslingeskaller	the seashe
 et vandfald	a waterfall	WN	2					n	vandfaldet|vandfald	the waterfall|waterfalls
 en dam	a pond	WN	2					n	dammen|damme	the pond|ponds
 et vådområde	a wetland	WN	3					n	vådområdet|vådområder	the wetland|wetlands
-en hede	a heath / moor	WN	3					n	heden|heder	the heath / the moor|heaths / moors
+en hede	a heath / moor	WN	4					n	heden|heder	the heath / the moor|heaths / moors
 en skovsti	a forest path	WN	2					n	skovstien|skovstier	the forest path|forest paths
 en lysning	a clearing	WN	4					n	lysningen|lysninger	the clearing|clearings
 et krat	a thicket	WN	4					n	kratet|krat	the thicket|thickets
@@ -5261,7 +5261,7 @@ et ar	a scar	BH	3					n	arret|ar	the scar|scars
 en nakke	a neck (back of)	BH	2					n	nakken|nakker	the neck (back of)|necks (back of)
 kræft	cancer	BH	2		en			n	kræften	the cancer
 ondt	pain / hurt ("have ondt")	BH	1					a
-en kur	a cure / treatment	BH	3					n	kuren|kure	the cure / the treatment|cures / treatments
+en kur	a cure / treatment	BH	4					n	kuren|kure	the cure / the treatment|cures / treatments
 terapi	therapy	BH	3		en			n	terapien	the therapy
 en læbe	a lip	BH	1					n	læben|læber	the lip|lips
 en sans	a sense	BH	3					n	sansen|sanser	the sense|senses
@@ -5275,7 +5275,7 @@ kvalme	nausea	BH	3		en			n	kvalmen	the nausea
 en tatovering	a tattoo	BH	3					n	tatoveringen|tatoveringer	the tattoo|tattoos
 seksuel	sexual	BH	3					a	mere seksuel|mest seksuel	more sexual|most sexual
 en psykolog	a psychologist	BH	2					n	psykologen|psykologer	the psychologist|psychologists
-en lidelse	a suffering / disorder	BH	3					n	lidelsen|lidelser	the suffering / the disorder|sufferings / disorders
+en lidelse	a suffering / disorder	BH	4					n	lidelsen|lidelser	the suffering / the disorder|sufferings / disorders
 medicinsk	medical	BH	3					a
 et organ	an organ	BH	3					n	organet|organer	the organ|organs
 et fjæs	a face (colloquial)	BH	3					n	fjæset	the face (colloquial)
@@ -5306,8 +5306,8 @@ en alkoholiker	an alcoholic	BH	3					n	alkoholikeren|alkoholikere	the alcoholic|
 smertefuld	painful	BH	3					a	mere smertefuld|mest smertefuld	more painful|most painful
 lammet	paralyzed	BH	4					a
 et nødstilfælde	an emergency	BH	3					n	nødstilfældet	the emergency
-bedøvet	sedated / numb	BH	3					a
-tømmermænd	a hangover	BH	3		pl			n	tømmermændene	the hangover
+bedøvet	sedated / numb	BH	4					a
+tømmermænd	a hangover	BH	4		pl			n	tømmermændene	the hangover
 bleg	pale	BH	3					a	blegere|blegest	paler|palest
 et hjerteslag	a heartbeat	BH	3					n	hjerteslaget	the heartbeat
 en infektion	an infection	BH	3					n	infektionen|infektioner	the infection|infections
@@ -5321,8 +5321,8 @@ en hæl	a heel	BH	1					n	hælen|hæle	the heel|heels
 et væv	a tissue / weave	BH	3					n	vævet	the tissue / the weave
 blond	blond	BH	2					a	blondere|blondest	blonder|blondest
 en blødning	a bleeding	BH	3					n	blødningen|blødninger	the bleeding|bleedings
-en hjernerystelse	a concussion	BH	3					n	hjernerystelsen|hjernerystelser	the concussion|concussions
-afvænning	rehab / detox	BH	3		en			n	afvænningen	the rehab / the detox
+en hjernerystelse	a concussion	BH	4					n	hjernerystelsen|hjernerystelser	the concussion|concussions
+afvænning	rehab / detox	BH	4		en			n	afvænningen	the rehab / the detox
 bedring	recovery	BH	3		en			n	bedringen	the recovery
 en pest	a plague	BH	3					n	pesten	the plague
 en narkoman	a drug addict	BH	3					n	narkomanen|narkomaner	the drug addict|drug addicts
@@ -5353,18 +5353,18 @@ et skæg	a beard	BH	1					n	skægget	the beard
 en lever	a liver	BH	3					n	leveren|levere	the liver|livers
 en mavesæk	a stomach (organ)	BH	3					n	mavesækken|mavesække	the stomach (organ)|stomachs (organ)
 en tarm	an intestine	BH	3					n	tarmen|tarme	the intestine|intestines
-en blære	a bladder / blister	BH	3					n	blæren|blærer	the bladder / the blister|bladders / blisters
+en blære	a bladder / blister	BH	4					n	blæren|blærer	the bladder / the blister|bladders / blisters
 et skelet	a skeleton	BH	3					n	skelettet|skeletter	the skeleton|skeletons
 en rygrad	a spine	BH	3					n	rygraden|rygrader	the spine|spines
 en sene	a tendon	BH	3					n	senen|sener	the tendon|tendons
 en blodåre	a blood vessel / vein	BH	3					n	blodåren|blodårer	the blood vessel / the vein|blood vessels / veins
-et led	a joint	BH	3					n	leddet	the joint
+et led	a joint	BH	4					n	leddet	the joint
 en halsbetændelse	a sore throat / strep throat	BH	2					n	halsbetændelsen|halsbetændelser	the sore throat / the strep throat|sore throats / strep throats
 tandpine	toothache	BH	1		en			n	tandpinen	the toothache
 et sår	a wound	BH	1					n	såret	the wound
 en forstuvning	a sprain	BH	2					n	forstuvningen|forstuvninger	the sprain|sprains
 et blåt mærke	a bruise	BH	3					n
-en bums	a pimple	BH	3					n	bumsen|bumser	the pimple|pimples
+en bums	a pimple	BH	4					n	bumsen|bumser	the pimple|pimples
 et udslæt	a rash	BH	3					n	udslættet|udslæt	the rash|rashes
 astma	asthma	BH	3		en			n	astmaen	the asthma
 diabetes	diabetes	BH	3		en			n	diabetesen	the diabetes
@@ -5383,7 +5383,7 @@ et sundhedskort	a health insurance card	BH	2					n	sundhedskortet	the health ins
 øm	sore	BH	1					a	ømmere|ømmest	more sore|most sore
 hævet	swollen	BH	3					a
 kvalm	nauseous	BH	2					a
-forstoppet	constipated	BH	3					a
+forstoppet	constipated	BH	4					a
 blødende	bleeding	BH	3					a
 smitsom	contagious	BH	3					a	mere smitsom|mest smitsom	more contagious|most contagious
 at blive syg	to get sick	BH	1	bliver syg|blev syg|blevet syg		jeg bliver syg|jeg blev syg|jeg er blevet syg	I get sick|I got sick|I have gotten sick	v
@@ -5411,12 +5411,12 @@ at knibe	to pinch / squint	BH	4	kniber|kneb|knebet		jeg kniber|jeg kneb|jeg har 
 en vagtlæge	an on-call doctor	BH	3					n	vagtlægen|vagtlæger	the on-call doctor|on-call doctors
 en lægevagt	an after-hours medical service	BH	3					n	lægevagten|lægevagter	the after-hours medical service|after-hours medical services
 en afhængighed	an addiction / dependence	BH	3					n	afhængigheden|afhængigheder	the addiction / the dependence|addictions / dependences
-en berøring	a touch	BH	3					n	berøringen|berøringer	the touch|touches
+en berøring	a touch	BH	4					n	berøringen|berøringer	the touch|touches
 en fyldning	a filling	BH	3					n	fyldningen|fyldninger	the filling|fillings
-en henvisning	a referral / reference	BH	3					n	henvisningen|henvisninger	the referral / the reference|referrals / references
+en henvisning	a referral / reference	BH	4					n	henvisningen|henvisninger	the referral / the reference|referrals / references
 et hospital	a hospital	TS	1					n	hospitalet|hospitaler	the hospital|hospitals
 sundhed	health	BH	2		en			n	sundheden	the health
-en krampe	a cramp	BH	3					n	krampen|kramper	the cramp|cramps
+en krampe	a cramp	BH	4					n	krampen|kramper	the cramp|cramps
 en journal	a medical record	BH	3					n	journalen|journaler	the medical record|medical records
 en speciallæge	a specialist	BH	3					n	speciallægen|speciallæger	the specialist|specialists
 en øjenlæge	an eye doctor	BH	3					n	øjenlægen|øjenlæger	the eye doctor|eye doctors
@@ -5459,7 +5459,7 @@ fibre	fiber	BH	3		pl			n	fibrene	the fiber
 overvægt	overweight / obesity	BH	3		en			n	overvægten	the overweight / the obesity
 en sundhedsplejerske	a health visitor	BH	2					n	sundhedsplejersken|sundhedsplejersker	the health visitor|health visitors
 mental sundhed	mental health	BH	3		en			n
-trivsel	well-being	BH	3		en			n	trivslen	the well-being
+trivsel	well-being	BH	4		en			n	trivslen	the well-being
 et handicap	a disability	BH	3					n	handicappet	the disability
 hørelse	hearing	BH	3		en			n	hørelsen	the hearing
 vejrtrækning	breathing	BH	3		en			n	vejrtrækningen	the breathing
@@ -5486,11 +5486,11 @@ et ansigtstræk	a facial feature	BH	3					n	ansigtstrækket	the facial feature
 en øjenfarve	an eye color	BH	2					n	øjenfarven|øjenfarver	the eye color|eye colors
 et grin	a laugh	BH	2					n	grinet	the laugh
 et gab	a yawn	BH	3					n	gabet|gab	the yawn|yawns
-et nys	a sneeze	BH	3					n	nyset	the sneeze
+et nys	a sneeze	BH	4					n	nyset	the sneeze
 en håndbevægelse	a hand gesture	BH	3					n	håndbevægelsen|håndbevægelser	the hand gesture|hand gestures
-et øjekast	a glance	BH	3					n	øjekastet	the glance
+et øjekast	a glance	BH	4					n	øjekastet	the glance
 at rødme	to blush	BH	3	rødmer|rødmede|rødmet		jeg rødmer|jeg rødmede|jeg har rødmet	I blush|I blushed|I have blushed	v
-at skælve	to tremble	BH	3	skælver|skælvede|skælvet		jeg skælver|jeg skælvede|jeg har skælvet	I tremble|I trembled|I have trembled	v
+at skælve	to tremble	BH	4	skælver|skælvede|skælvet		jeg skælver|jeg skælvede|jeg har skælvet	I tremble|I trembled|I have trembled	v
 at hikke	to hiccup	BH	2	hikker|hikkede|hikket		jeg hikker|jeg hikkede|jeg har hikket	I hiccup|I hiccuped|I have hiccuped	v
 at bøvse	to burp	BH	2	bøvser|bøvsede|bøvset		jeg bøvser|jeg bøvsede|jeg har bøvset	I burp|I burped|I have burped	v
 at klø sig	to scratch oneself	BH	3	klør sig|kløede sig|kløet sig		jeg klør mig|jeg kløede mig|jeg har kløet mig	I scratch myself|I scratched myself|I have scratched myself	v
@@ -5499,7 +5499,7 @@ at bukke sig	to bend down	BH	3	bukker sig|bukkede sig|bukket sig		jeg bukker mig
 at knæle	to kneel	BH	3	knæler|knælede|knælet		jeg knæler|jeg knælede|jeg har knælet	I kneel|I knelt|I have knelt	v
 at snøfte	to sniff / sniffle	BH	4	snøfter|snøftede|snøftet		jeg snøfter|jeg snøftede|jeg har snøftet	I sniff / sniffle|I sniffed / sniffled|I have sniffed / sniffled	v
 at hulke	to sob	BH	4	hulker|hulkede|hulket		jeg hulker|jeg hulkede|jeg har hulket	I sob|I sobbed|I have sobbed	v
-at fnise	to giggle	BH	3	fniser|fnisede|fniset		jeg fniser|jeg fnisede|jeg har fniset	I giggle|I giggled|I have giggled	v
+at fnise	to giggle	BH	4	fniser|fnisede|fniset		jeg fniser|jeg fnisede|jeg har fniset	I giggle|I giggled|I have giggled	v
 at skraldgrine	to roar with laughter	BH	4	skraldgriner|skraldgrinede|skraldgrinet		jeg skraldgriner|jeg skraldgrinede|jeg har skraldgrinet	I roar with laughter|I roared with laughter|I have roared with laughter	v
 at gnave	to gnaw	BH	4	gnaver|gnavede|gnavet		jeg gnaver|jeg gnavede|jeg har gnavet	I gnaw|I gnawed|I have gnawed	v
 at slikke	to lick	BH	3	slikker|slikkede|slikket		jeg slikker|jeg slikkede|jeg har slikket	I lick|I licked|I have licked	v
@@ -5602,7 +5602,7 @@ en transaktion	a transaction	MB	3					n	transaktionen|transaktioner	the transact
 en underskrift	a signature	WJ	2					n	underskriften|underskrifter	the signature|signatures
 et dokument	a document	WJ	2					n	dokumentet|dokumenter	the document|documents
 undervisning	teaching / instruction	SL	3		en			n	undervisningen	the teaching / the instruction
-et pensum	a syllabus / required reading	SL	3					n	pensummet|pensa	the curriculum|curriculums
+et pensum	a syllabus / required reading	SL	4					n	pensummet|pensa	the curriculum|curriculums
 en lærebog	a textbook	SL	2					n	lærebogen|lærebøger	the textbook|textbooks
 en aflevering	a submission	SL	2					n	afleveringen|afleveringer	the submission|submissions
 en frist	a deadline	WJ	3					n	fristen|frister	the deadline|deadlines
@@ -5612,7 +5612,7 @@ et studium	a study program	SL	3					n
 et klasseværelse	a classroom	SL	2					n	klasseværelset|klasseværelser	the classroom|classrooms
 en studiegruppe	a study group	SL	3					n	studiegruppen|studiegrupper	the study group|study groups
 en eksaminator	an examiner	SL	3					n	eksaminatoren|eksaminatorer	the examiner|examiners
-en vejleder	a supervisor	SL	3					n	vejlederen|vejledere	the supervisor|supervisors
+en vejleder	a supervisor	SL	4					n	vejlederen|vejledere	the supervisor|supervisors
 en note	a note	SL	2					n	noten|noter	the note|notes
 en færdighed	a skill	SL	3					n	færdigheden|færdigheder	the skill|skills
 en evne	an ability	WJ	3					n	evnen|evner	the ability|abilities
@@ -5667,9 +5667,9 @@ en forfremmelse	a promotion	WJ	3					n	forfremmelsen|forfremmelser	the promotion
 arbejdsløs	unemployed	WJ	2					a
 en servitrice	a waitress	WJ	3					n	servitricen|servitricer	the waitress|waitresses
 en slagter	a butcher	WJ	2					n	slagteren|slagtere	the butcher|butchers
-et mandskab	a crew	WJ	3					n	mandskabet|mandskaber	the crew|crews
+et mandskab	a crew	WJ	4					n	mandskabet|mandskaber	the crew|crews
 en afløser	a substitute / replacement	WJ	4					n	afløseren|afløsere	the substitute / the replacement|substitutes / replacements
-en instruks	an instruction	WJ	3					n	instruksen|instrukser	the instruction|instructions
+en instruks	an instruction	WJ	4					n	instruksen|instrukser	the instruction|instructions
 et kompagni	a company (military / business)	SP	3					n	kompagniet|kompagnier	the company (military / business)|companies (military / business)
 pensioneret	retired	WJ	2					a
 kvalificeret	qualified	WJ	3					a
@@ -5751,7 +5751,7 @@ erfaren	experienced	WJ	3					a
 kompetent	competent	WJ	3					a
 produktiv	productive	WJ	3					a	mere produktiv|mest produktiv	more productive|most productive
 selvstændig	self-employed / independent	WJ	3					a	selvstændigere|selvstændigst	more self-employed / more independent|most self-employed / most independent
-faglig	professional / academic	WJ	3					a	fagligere|fagligst	more professional / more academic|most professional / most academic
+faglig	professional / academic	WJ	4					a	fagligere|fagligst	more professional / more academic|most professional / most academic
 akademisk	academic	WJ	3					a
 et erhverv	a profession	WJ	3					n	erhvervet|erhverv	the profession|professions
 en arkitekt	an architect	WJ	2					n	arkitekten|arkitekter	the architect|architects
@@ -5787,7 +5787,7 @@ et danskkursus	a Danish course	SL	2					n	danskkursuset|danskkurser	the Danish c
 en ansøgningsfrist	an application deadline	WJ	3					n	ansøgningsfristen|ansøgningsfrister	the application deadline|application deadlines
 en blanket	a form	WJ	1					n	blanketten|blanketter	the form|forms
 en formular	a form	WJ	3					n	formularen|formularer	the form|forms
-en afløsning	a relief / replacement	WJ	3					n	afløsningen|afløsninger	the relief / the replacement|reliefs / replacements
+en afløsning	a relief / replacement	WJ	4					n	afløsningen|afløsninger	the relief / the replacement|reliefs / replacements
 en ansættelse	an employment / hiring	WJ	3					n	ansættelsen|ansættelser	the employment / the hiring|employments / hirings
 en arbejdsdag	a working day	WJ	2					n	arbejdsdagen|arbejdsdage	the working day|working days
 en arbejdsopgave	a work task	WJ	3					n	arbejdsopgaven|arbejdsopgaver	the work task|work tasks
@@ -5797,14 +5797,14 @@ en dannelse	an education / formation	SL	4					n	dannelsen|dannelser	the educatio
 en forkortelse	an abbreviation	SL	3					n	forkortelsen|forkortelser	the abbreviation|abbreviations
 en gennemgang	a review / walkthrough	SL	3					n	gennemgangen|gennemgange	the review / the walkthrough|reviews / walkthroughs
 en henvendelse	an inquiry	WJ	3					n	henvendelsen|henvendelser	the inquiry|inquiries
-en indkaldelse	a summons / notice	WJ	3					n	indkaldelsen|indkaldelser	the summons / the notice|summonses / notices
+en indkaldelse	a summons / notice	WJ	4					n	indkaldelsen|indkaldelser	the summons / the notice|summonses / notices
 en indledning	an introduction	SL	3					n	indledningen|indledninger	the introduction|introductions
-en indskrivning	an enrollment	SL	3					n	indskrivningen|indskrivninger	the enrollment|enrollments
+en indskrivning	an enrollment	SL	4					n	indskrivningen|indskrivninger	the enrollment|enrollments
 en læsning	a reading	SL	3					n	læsningen|læsninger	the reading|readings
 en rettelse	a correction	SL	3					n	rettelsen|rettelser	the correction|corrections
 en tilbagemelding	feedback	WJ	3					n	tilbagemeldingen|tilbagemeldinger	the feedback / the response|feedback / responses
 en tilmelding	a registration / sign-up	WJ	2					n	tilmeldingen|tilmeldinger	the registration / the sign-up|registrations / sign-ups
-en udnævnelse	an appointment	WJ	3					n	udnævnelsen|udnævnelser	the appointment|appointments
+en udnævnelse	an appointment	WJ	4					n	udnævnelsen|udnævnelser	the appointment|appointments
 en vejledning	a guide / guidance	WJ	2					n	vejledningen|vejledninger	the guide / the guidance|guides / guidance
 et oplæg	a presentation / proposal	WJ	4					n	oplægget|oplæg	the presentation / the proposal|presentations / proposals
 et udkast	a draft	WJ	3					n	udkastet|udkast	the draft|drafts
@@ -6001,7 +6001,7 @@ en overraskelse	a surprise	FP	2					n	overraskelsen|overraskelser	the surprise|s
 forvirring	confusion	FP	2		en			n	forvirringen	the confusion
 lettelse	relief	FP	2		en			n	lettelsen	the relief
 ensomhed	loneliness	FP	2		en			n	ensomheden	the loneliness
-kedsomhed	boredom	FP	3		en			n	kedsomheden	the boredom
+kedsomhed	boredom	FP	4		en			n	kedsomheden	the boredom
 spænding	excitement / tension	FP	2		en			n	spændingen	the excitement / the tension
 ro	calm / peace and quiet	FP	2		en			n	roen	the calm / the peace and quiet
 tillid	trust	FP	2		en			n	tilliden	the trust
@@ -6027,14 +6027,14 @@ sky	shy	FP	3					a
 udadvendt	outgoing	FP	3					a
 indadvendt	introverted	FP	3					a
 selvsikker	confident	FP	2					a	selvsikrere|selvsikrest	more confident|most confident
-ydmyg	humble	FP	3					a	ydmygere|ydmygest	humbler|humblest
+ydmyg	humble	FP	4					a	ydmygere|ydmygest	humbler|humblest
 arrogant	arrogant	FP	3					a
 sympatisk	likeable	FP	2					a
 usympatisk	unlikeable	FP	3					a
 sarkastisk	sarcastic	FP	3					a
 seriøs	serious	FP	2					a	mere seriøs|mest seriøs	more serious|most serious
 munter	cheerful	FP	3					a	muntrere|muntrest	more cheerful|most cheerful
-gnaven	grumpy	FP	3					a
+gnaven	grumpy	FP	4					a
 optimistisk	optimistic	FP	2					a
 pessimistisk	pessimistic	FP	3					a
 hjælpsom	helpful	FP	2					a	hjælpsommere|hjælpsomst	more helpful|most helpful
@@ -6054,7 +6054,7 @@ en irritation	an irritation	FP	3					n	irritationen|irritationer	the irritation|
 nervøsitet	nervousness	FP	2		en			n	nervøsiteten	the nervousness
 nysgerrighed	curiosity	FP	3		en			n	nysgerrigheden	the curiosity
 taknemmelighed	gratitude	FP	3		en			n	taknemmeligheden	the gratitude
-medfølelse	compassion	FP	3		en			n	medfølelsen	the compassion
+medfølelse	compassion	FP	4		en			n	medfølelsen	the compassion
 empati	empathy	FP	3		en			n	empatien	the empathy
 afmagt	powerlessness	FP	4		en			n	afmagten	the powerlessness
 skyldfølelse	guilt / feeling of guilt	FP	3		en			n	skyldfølelsen	the guilt / the feeling of guilt
@@ -6065,20 +6065,20 @@ rørt	touched	FP	2					a
 chokeret	shocked	FP	2					a
 fortvivlet	distraught / in despair	FP	3					a
 generøs	generous	FP	2					a	mere generøs|mest generøs	more generous|most generous
-gerrig	stingy	FP	3					a	gerrigere|gerrigst	stingier|stingiest
+gerrig	stingy	FP	4					a	gerrigere|gerrigst	stingier|stingiest
 egoistisk	selfish	FP	2					a
 uselvisk	unselfish	FP	3					a
 modig	brave	FP	2					a	modigere|modigst	braver|bravest
 fej	cowardly	FP	3					a	fejere|fejest	more cowardly|most cowardly
 ambitiøs	ambitious	FP	2					a	mere ambitiøs|mest ambitiøs	more ambitious|most ambitious
 følsom	sensitive	FP	2					a	følsommere|følsomst	more sensitive|most sensitive
-hårdhudet	thick-skinned	FP	3					a
+hårdhudet	thick-skinned	FP	4					a
 beskeden	modest	FP	2					a
 charmerende	charming	FP	2					a
 irriterende	annoying	FP	2					a
 spontan	spontaneous	FP	2					a
 forsigtig	cautious	FP	2					a	forsigtigere|forsigtigst	more cautious|most cautious
-skødesløs	careless	FP	3					a	mere skødesløs|mest skødesløs	more careless|most careless
+skødesløs	careless	FP	4					a	mere skødesløs|mest skødesløs	more careless|most careless
 en idiot	an idiot	FP	2					n	idioten|idioter	the idiot|idiots
 et fjols	a fool	FP	4					n	fjolset|fjolser	the fool|fools
 en fornøjelse	a pleasure	FP	2					n	fornøjelsen|fornøjelser	the pleasure|pleasures
@@ -6122,10 +6122,10 @@ en stakkel	a poor thing	FP	4					n	staklen|stakler	the poor thing|poor things
 en personlighed	a personality	FP	2					n	personligheden|personligheder	the personality|personalities
 en tåbe	a fool	FP	4					n	tåben|tåber	the fool|fools
 en nørd	a nerd	FP	2					n	nørden|nørder	the nerd|nerds
-sørgelig	sad / pathetic	FP	3					a	sørgeligere|sørgeligst	sadder / more pathetic|saddest / most pathetic
-udmattet	exhausted	FP	3					a
+sørgelig	sad / pathetic	FP	4					a	sørgeligere|sørgeligst	sadder / more pathetic|saddest / most pathetic
+udmattet	exhausted	FP	4					a
 kærlig	loving / affectionate	FP	2					a	kærligere|kærligst	more loving / more affectionate|most loving / most affectionate
-anspændt	tense	FP	3					a
+anspændt	tense	FP	4					a
 tiltrukket	attracted	FP	3					a
 ophidset	agitated / excited	FP	3					a
 lidenskab	passion	FP	3		en			n	lidenskaben	the passion
@@ -6133,7 +6133,7 @@ akavet	awkward	FP	3					a
 sårbar	vulnerable	FP	3					a	mere sårbar|mest sårbar	more vulnerable|most vulnerable
 selvtillid	self-confidence	FP	2		en			n	selvtilliden	the self-confidence
 fornærmet	offended	FP	3					a
-ivrig	eager	FP	3					a	ivrigere|ivrigst	more eager|most eager
+ivrig	eager	FP	4					a	ivrigere|ivrigst	more eager|most eager
 uforskammet	rude / impertinent	FP	4					a
 høflig	polite	FP	2					a	høfligere|høfligst	more polite|most polite
 ærlighed	honesty	FP	2		en			n	ærligheden	the honesty
@@ -6163,30 +6163,30 @@ skræk	fear / terror	FP	2		en			n	skrækken	the fear / the terror
 godhed	goodness	FP	4		en			n	godheden	the goodness
 hysterisk	hysterical	FP	3					a
 uartig	naughty	FP	3					a	uartigere|uartigst	naughtier|naughtiest
-en fornærmelse	an insult	FP	3					n	fornærmelsen|fornærmelser	the insult|insults
+en fornærmelse	an insult	FP	4					n	fornærmelsen|fornærmelser	the insult|insults
 anger	remorse	FP	4		en			n	angeren	the remorse
 lykke	happiness / luck	FP	2		en			n	lykken	the happiness
 misundelse	envy	FP	4		en			n	misundelsen	the envy
-en egenskab	a quality / trait	FP	3					n	egenskaben|egenskaber	the quality / the trait|qualities / traits
+en egenskab	a quality / trait	FP	4					n	egenskaben|egenskaber	the quality / the trait|qualities / traits
 et humør	a mood	FP	2					n	humøret	the mood
 irriteret	irritated	FP	2					a
 frustreret	frustrated	FP	2					a
 stresset	stressed	FP	2					a
 træt af	tired of / fed up with	FP	2					f
 forventningsfuld	expectant	FP	4					a	mere forventningsfuld|mest forventningsfuld	more expectant|most expectant
-forskrækket	startled	FP	3					a
+forskrækket	startled	FP	4					a
 rædselsslagen	terrified	FP	3					a
-modløs	discouraged	FP	3					a	mere modløs|mest modløs	more discouraged|most discouraged
+modløs	discouraged	FP	4					a	mere modløs|mest modløs	more discouraged|most discouraged
 uvenlig	unfriendly	FP	2					a	uvenligere|uvenligst	more unfriendly|most unfriendly
 gavmild	generous	FP	3					a	gavmildere|gavmildest	more generous|most generous
 nærig	stingy	FP	3					a	nærigere|nærigst	stingier|stingiest
 grådig	greedy	FP	3					a	grådigere|grådigst	greedier|greediest
 selvglad	smug / conceited	FP	3					a
-hidsig	hot-tempered	FP	3					a	hidsigere|hidsigst	more hot-tempered|most hot-tempered
+hidsig	hot-tempered	FP	4					a	hidsigere|hidsigst	more hot-tempered|most hot-tempered
 social	social	FP	2					a	mere social|mest social	more social|most social
 humoristisk	humorous	FP	3					a
 omsorgsfuld	caring	FP	3					a	mere omsorgsfuld|mest omsorgsfuld	more caring|most caring
-hensynsfuld	considerate	FP	3					a	mere hensynsfuld|mest hensynsfuld	more considerate|most considerate
+hensynsfuld	considerate	FP	4					a	mere hensynsfuld|mest hensynsfuld	more considerate|most considerate
 punktlig	punctual	FP	3					a	punktligere|punktligst	more punctual|most punctual
 organiseret	organized	FP	2					a
 at føle sig	to feel (a certain way)	FP	2	føler sig|følte sig|følt sig		jeg føler mig|jeg følte mig|jeg har følt mig	I feel (a certain way)|I felt (a certain way)|I have felt (a certain way)	v
@@ -6201,7 +6201,7 @@ at stole på	to trust	FP	2	stoler på|stolede på|stolet på		jeg stoler på|jeg
 at falde til ro	to calm down	FP	4	falder til ro|faldt til ro|faldet til ro		jeg falder til ro|jeg faldt til ro|jeg er faldet til ro	I calm down|I calmed down|I have calmed down	v
 at gå amok	to go berserk	FP	4	går amok|gik amok|gået amok		jeg går amok|jeg gik amok|jeg er gået amok	I go berserk|I went berserk|I have gone berserk	v
 at blive forelsket	to fall in love	FP	2	bliver forelsket|blev forelsket|blevet forelsket		jeg bliver forelsket|jeg blev forelsket|jeg er blevet forelsket	I fall in love|I fell in love|I have fallen in love	v
-at forskrække	to frighten	FP	3	forskrækker|forskrækkede|forskrækket		jeg forskrækker|jeg forskrækkede|jeg har forskrækket	I frighten|I frightened|I have frightened	v
+at forskrække	to frighten	FP	4	forskrækker|forskrækkede|forskrækket		jeg forskrækker|jeg forskrækkede|jeg har forskrækket	I frighten|I frightened|I have frightened	v
 at glæde	to please / delight	FP	3	glæder|glædede|glædet		jeg glæder|jeg glædede|jeg har glædet	I please / delight|I pleased / delighted|I have pleased / delighted	v
 at ærgre sig	to be annoyed	FP	2	ærgrer sig|ærgrede sig|ærgret sig		jeg ærgrer mig|jeg ærgrede mig|jeg har ærgret mig	I am annoyed|I was annoyed|I have been annoyed	v
 en opmuntring	an encouragement	FP	3					n	opmuntringen|opmuntringer	the encouragement|encouragements
@@ -6213,7 +6213,7 @@ lykkelig	happy	FP	2					a	lykkeligere|lykkeligst	happier|happiest
 trist	sad	FP	1					a
 træls	annoying (Jutland slang)	FP	4					a	mere træls|mest træls	more annoying (Jutland slang)|most annoying (Jutland slang)
 forbavset	astonished	FP	3					a
-forbløffet	amazed	FP	3					a
+forbløffet	amazed	FP	4					a
 misfornøjet	dissatisfied	FP	3					a
 nedtrykt	depressed / down	FP	3					a
 skamfuld	ashamed	FP	3					a	mere skamfuld|mest skamfuld	more ashamed|most ashamed
@@ -6222,7 +6222,7 @@ utilfreds	dissatisfied	FP	2					a	mere utilfreds|mest utilfreds	more dissatisfie
 vemodig	wistful / melancholic	FP	4					a	vemodigere|vemodigst	more wistful / more melancholic|most wistful / most melancholic
 en forkærlighed	a fondness / preference	FP	4					n	forkærligheden|forkærligheder	the fondness / the preference|fondnesses / preferences
 adfærd	behavior	FP	3		en			n	adfærden	the behavior
-gavmildhed	generosity	FP	3		en			n	gavmildheden	the generosity
+gavmildhed	generosity	FP	4		en			n	gavmildheden	the generosity
 livsglæde	joy of life / zest for life	FP	3		en			n	livsglæden	the joy of life / the zest for life
 en skjorte	a shirt	CS	1					n	skjorten|skjorter	the shirt|shirts
 en t-shirt	a t-shirt	CS	1					n
@@ -6292,7 +6292,7 @@ makeup	makeup	CS	2		en			n	makeuppen	the makeup
 en kappe	a cloak / robe	CS	3					n	kappen|kapper	the cloak / the robe|cloaks / robes
 en læbestift	a lipstick	CS	2					n	læbestiften|læbestifter	the lipstick|lipsticks
 luksus	luxury	CS	2		en			n	luksussen	the luxury
-en pels	a fur (coat)	CS	3					n	pelsen|pelse	the fur (coat)|fur coats
+en pels	a fur (coat)	CS	4					n	pelsen|pelse	the fur (coat)|fur coats
 en levering	a delivery	CS	2					n	leveringen|leveringer	the delivery|deliveries
 shorts	shorts	CS	1		pl			n
 en vinterjakke	a winter jacket	CS	1					n	vinterjakken|vinterjakker	the winter jacket|winter jackets
@@ -6388,7 +6388,7 @@ creme	cream (lotion)	CS	2		en			n	cremen	the cream (lotion)
 en diamant	a diamond	CS	3					n	diamanten|diamanter	the diamond|diamonds
 en sok	a sock	CS	1					n	sokken|sokker	the sock|socks
 et supermarked	a supermarket	TS	1					n	supermarkedet|supermarkeder	the supermarket|supermarkets
-en ekspedition	a service / transaction	CS	3					n	ekspeditionen|ekspeditioner	the service / the transaction|services / transactions
+en ekspedition	a service / transaction	CS	4					n	ekspeditionen|ekspeditioner	the service / the transaction|services / transactions
 en skranke	a counter	CS	3					n	skranken|skranker	the counter|counters
 et kønummer	a queue number	CS	3					n	kønummeret|kønumre	the queue number|queue numbers
 en åbningsdag	an opening day	CS	3					n	åbningsdagen|åbningsdage	the opening day|opening days
@@ -6415,7 +6415,7 @@ en købmand	a grocer / shopkeeper	CS	2					n	købmanden|købmænd	the grocer / t
 en sælgerske	a saleswoman	CS	2					n
 en butiksindehaver	a shop owner	CS	2					n	butiksindehaveren|butiksindehavere	the shop owner|shop owners
 et vareudvalg	a range of goods	CS	2					n	vareudvalget|vareudvalg	the range of goods|ranges of goods
-et sortiment	an assortment	CS	3					n	sortimentet|sortimenter	the assortment|assortments
+et sortiment	an assortment	CS	4					n	sortimentet|sortimenter	the assortment|assortments
 en vare	an item / product	CS	2					n	varen|varer	the item / the product|items / products
 en prisforskel	a price difference	CS	2					n	prisforskellen|prisforskelle	the price difference|price differences
 et prisfald	a price drop	CS	2					n	prisfaldet|prisfald	the price drop|price drops
@@ -6613,7 +6613,7 @@ digital	digital	TM	2					a
 trådløs	wireless	TM	2					a	mere trådløs|mest trådløs	more wireless|most wireless
 en nyhedsudsendelse	a news broadcast	TM	3					n	nyhedsudsendelsen|nyhedsudsendelser	the news broadcast|news broadcasts
 en debattør	a debater	TM	3					n	debattøren|debattører	the debater|debaters
-en kronik	an op-ed (feature article)	TM	3					n	kronikken|kronikker	the op-ed (feature article)|op-eds (feature article)
+en kronik	an op-ed (feature article)	TM	4					n	kronikken|kronikker	the op-ed (feature article)|op-eds (feature article)
 misinformation	misinformation	TM	3		en			n	misinformationen	the misinformation
 en sending	a shipment / broadcast	TM	3					n	sendingen|sendinger	the shipment / the broadcast|shipments / broadcasts
 indhold	content	TM	3		et			n	indholdet	the content
@@ -6652,7 +6652,7 @@ en tv-serie	a TV series	TM	2					n	tv-serien|tv-serier	the TV series|TV series
 en tv-kanal	a TV channel	TM	2					n	tv-kanalen|tv-kanaler	the TV channel|TV channels
 en ugeavis	a weekly local paper	TM	2					n	ugeavisen|ugeaviser	the weekly local paper|weekly local papers
 en undertekst	a subtitle	TM	2					n	underteksten|undertekster	the subtitle|subtitles
-en vejviser	a directory / signpost	TM	3					n	vejviseren|vejvisere	the directory / the signpost|directories / signposts
+en vejviser	a directory / signpost	TM	4					n	vejviseren|vejvisere	the directory / the signpost|directories / signposts
 et videoopkald	a video call	TM	2					n	videoopkaldet|videoopkald	the video call|video calls
 en webside	a web page	TM	2					n	websiden|websider	the web page|web pages
 et forlag	a publisher	TM	3					n	forlaget|forlag	the publisher|publishers
@@ -6708,7 +6708,7 @@ en teori	a theory	SL	2					n	teorien|teorier	the theory|theories
 et begreb	a concept	IO	3					n	begrebet|begreber	the concept|concepts
 en påvirkning	an influence	IO	3					n	påvirkningen|påvirkninger	the influence|influences
 en risiko	a risk	IO	2					n	risikoen|risici	the risk|risks
-en fordom	a prejudice	IO	3					n	fordommen|fordomme	the prejudice|prejudices
+en fordom	a prejudice	IO	4					n	fordommen|fordomme	the prejudice|prejudices
 en hindring	an obstacle	IO	3					n	hindringen|hindringer	the obstacle|obstacles
 en forhindring	a hurdle	IO	3					n	forhindringen|forhindringer	the hurdle|hurdles
 en begrænsning	a limitation	IO	3					n	begrænsningen|begrænsninger	the limitation|limitations
@@ -6730,7 +6730,7 @@ en efterfølger	a successor	IO	3					n	efterfølgeren|efterfølgere	the successo
 en forgænger	a predecessor	IO	3					n	forgængeren|forgængere	the predecessor|predecessors
 en fortolkning	an interpretation	IO	3					n	fortolkningen|fortolkninger	the interpretation|interpretations
 en implikation	an implication	IO	3					n	implikationen|implikationer	the implication|implications
-en fortaler	an advocate	IO	3					n	fortaleren|fortalere	the advocate|advocates
+en fortaler	an advocate	IO	4					n	fortaleren|fortalere	the advocate|advocates
 en formidler	a communicator / intermediary	IO	4					n	formidleren|formidlere	the communicator / the intermediary|communicators / intermediaries
 en iagttager	an observer	IO	4					n	iagttageren|iagttagere	the observer|observers
 en deltagerliste	a list of participants	IO	2					n	deltagerlisten|deltagerlister	the list of participants|lists of participants
@@ -6741,54 +6741,54 @@ en beslutningsproces	a decision-making process	IO	4					n	beslutningsprocessen|b
 en høring	a hearing	SP	3					n	høringen|høringer	the hearing|hearings
 en afklaring	a clarification	IO	3					n	afklaringen|afklaringer	the clarification|clarifications
 en uklarhed	an ambiguity	IO	4					n	uklarheden|uklarheder	the ambiguity|ambiguities
-en tvetydighed	an ambiguity	IO	3					n	tvetydigheden|tvetydigheder	the ambiguity|ambiguities
+en tvetydighed	an ambiguity	IO	4					n	tvetydigheden|tvetydigheder	the ambiguity|ambiguities
 en nuance	a nuance	IO	3					n	nuancen|nuancer	the nuance|nuances
 en detalje	a detail	IO	2					n	detaljen|detaljer	the detail|details
 en helhed	a whole	IO	3					n	helheden|helheder	the whole|wholes
-en delmængde	a subset	IO	3					n	delmængden|delmængder	the subset|subsets
+en delmængde	a subset	IO	4					n	delmængden|delmængder	the subset|subsets
 en kategori	a category	IO	2					n	kategorien|kategorier	the category|categories
 en klassificering	a classification	IO	3					n	klassificeringen|klassificeringer	the classification|classifications
-en rangorden	a ranking	IO	3					n	rangordenen|rangordener	the ranking|rankings
+en rangorden	a ranking	IO	4					n	rangordenen|rangordener	the ranking|rankings
 en prioritering	a prioritization	IO	4					n	prioriteringen|prioriteringer	the prioritization|prioritizations
 en tilpasning	an adaptation	IO	3					n	tilpasningen|tilpasninger	the adaptation|adaptations
-en tilvænning	an adjustment	IO	3					n	tilvænningen|tilvænninger	the adjustment|adjustments
+en tilvænning	an adjustment	IO	4					n	tilvænningen|tilvænninger	the adjustment|adjustments
 en overgang	a transition	IO	3					n	overgangen|overgange	the transition|transitions
 en milepæl	a milestone	IO	3					n	milepælen|milepæle	the milestone|milestones
 en fase	a phase	IO	2					n	fasen|faser	the phase|phases
 et stadie	a stage	IO	3					n
 et niveau	a level	IO	2					n	niveauet|niveauer	the level|levels
 en skala	a scale	IO	3					n	skalaen|skalaer	the scale|scales
-en tærskel	a threshold	IO	3					n	tærsklen|tærskler	the threshold|thresholds
+en tærskel	a threshold	IO	4					n	tærsklen|tærskler	the threshold|thresholds
 en grænseværdi	a limit value	IO	4					n	grænseværdien|grænseværdier	the limit value|limit values
 en variation	a variation	IO	3					n	variationen|variationer	the variation|variations
-en afvigelse	a deviation	IO	3					n	afvigelsen|afvigelser	the deviation|deviations
+en afvigelse	a deviation	IO	4					n	afvigelsen|afvigelser	the deviation|deviations
 en uregelmæssighed	an irregularity	IO	4					n	uregelmæssigheden|uregelmæssigheder	the irregularity|irregularities
 sammenhængskraft	social cohesion	IO	4		en			n	sammenhængskraften	the social cohesion
 en balance	a balance	IO	2					n	balancen|balancer	the balance|balances
 en ubalance	an imbalance	IO	3					n	ubalancen|ubalancer	the imbalance|imbalances
-en ligevægt	an equilibrium	IO	3					n	ligevægten|ligevægte	the equilibrium|equilibriums
+en ligevægt	an equilibrium	IO	4					n	ligevægten|ligevægte	the equilibrium|equilibriums
 en harmoni	a harmony	IO	3					n	harmonien|harmonier	the harmony|harmonies
 en disharmoni	a discord	IO	4					n	disharmonien|disharmonier	the discord|discords
 en modvilje	a reluctance	IO	4					n	modviljen	the reluctance
-villighed	willingness	IO	3		en			n	villigheden	the willingness
+villighed	willingness	IO	4		en			n	villigheden	the willingness
 beredvillighed	readiness / willingness	IO	4		en			n	beredvilligheden	the readiness / the willingness
 en tøven	a hesitation	IO	4					n
 beslutsomhed	determination	IO	4		en			n	beslutsomheden	the determination
-vedholdenhed	persistence	IO	3		en			n	vedholdenheden	the persistence
+vedholdenhed	persistence	IO	4		en			n	vedholdenheden	the persistence
 en opgivelse	a giving up	IO	4					n	opgivelsen|opgivelser	the giving up|instances of giving up
 en genopretning	a recovery	IO	4					n	genopretningen|genopretninger	the recovery|recoveries
-en tilbagevenden	a return	IO	3					n
+en tilbagevenden	a return	IO	4					n
 en tilbagegang	a decline	IO	3					n	tilbagegangen|tilbagegange	the decline|declines
 en stagnation	a stagnation	IO	3					n	stagnationen|stagnationer	the stagnation|stagnations
 en sandhed	a truth	IO	2					n	sandheden|sandheder	the truth|truths
 fred	peace	IO	2		en			n	freden	the peace
 held	luck	IO	2		et			n	heldet	the luck
-ære	honor	IO	3		en			n	æren	the honor
+ære	honor	IO	4		en			n	æren	the honor
 en sjæl	a soul	IO	3					n	sjælen|sjæle	the soul|souls
 en vilje	a will	IO	2					n	viljen|viljer	the will|wills
 et ansvar	a responsibility	IO	2					n	ansvaret|ansvar	the responsibility|responsibilities
 en hemmelighed	a secret	IO	2					n	hemmeligheden|hemmeligheder	the secret|secrets
-en skæbne	a fate / destiny	IO	3					n	skæbnen|skæbner	the fate / the destiny|fates / destinies
+en skæbne	a fate / destiny	IO	4					n	skæbnen|skæbner	the fate / the destiny|fates / destinies
 hævn	revenge	IO	4		en			n	hævnen	the revenge
 opmærksomhed	attention	IO	2		en			n	opmærksomheden	the attention
 nåde	mercy / grace	IO	4		en			n	nåden	the mercy / the grace
@@ -6802,13 +6802,13 @@ en pointe	a point (of an argument)	IO	3					n	pointen|pointer	the point (of an a
 et hensyn	a consideration	IO	3					n	hensynet|hensyn	the consideration|considerations
 en fantasi	an imagination / fantasy	IO	2					n	fantasien|fantasier	the imagination / the fantasy|imaginations / fantasies
 en skønhed	a beauty	IO	2					n	skønheden|skønheder	the beauty|beauties
-en samvittighed	a conscience	IO	3					n	samvittigheden|samvittigheder	the conscience|consciences
+en samvittighed	a conscience	IO	4					n	samvittigheden|samvittigheder	the conscience|consciences
 alvor	seriousness ("i alvor" = seriously)	IO	2		en			n	alvoren	the seriousness ("i alvor" = seriously)
 en omstændighed	a circumstance	IO	3					n	omstændigheden|omstændigheder	the circumstance|circumstances
 en reaktion	a reaction	IO	2					n	reaktionen|reaktioner	the reaction|reactions
 kaos	chaos	IO	2		et			n	kaosset	the chaos
 fornuft	reason / common sense	IO	3		en			n	fornuften	the reason / the common sense
-ondskab	evil / malice	IO	3		en			n	ondskaben	the evil / the malice
+ondskab	evil / malice	IO	4		en			n	ondskaben	the evil / the malice
 en mistanke	a suspicion	IO	3					n	mistanken|mistanker	the suspicion|suspicions
 et faktum	a fact	IO	3					n	faktummet|fakta	the fact|facts
 en indflydelse	an influence	IO	3					n	indflydelsen|indflydelser	the influence|influences
@@ -6824,7 +6824,7 @@ en tragedie	a tragedy	IO	3					n	tragedien|tragedier	the tragedy|tragedies
 en vane	a habit	IO	2					n	vanen|vaner	the habit|habits
 et budskab	a message	IO	3					n	budskabet|budskaber	the message|messages
 en byrde	a burden	IO	3					n	byrden|byrder	the burden|burdens
-tilstedeværelse	presence	IO	3		en			n	tilstedeværelsen	the presence
+tilstedeværelse	presence	IO	4		en			n	tilstedeværelsen	the presence
 en strategi	a strategy	IO	3					n	strategien|strategier	the strategy|strategies
 en undergang	a downfall / doom	IO	4					n	undergangen|undergange	the downfall / the doom|downfalls / dooms
 en forståelse	an understanding	IO	3					n	forståelsen|forståelser	the understanding|understandings
@@ -6846,7 +6846,7 @@ et gennembrud	a breakthrough	IO	3					n	gennembruddet|gennembrud	the breakthroug
 dømmekraft	judgment	IO	4		en			n	dømmekraften	the judgment
 visdom	wisdom	IO	3		en			n	visdommen	the wisdom
 kendskab	knowledge (of something)	IO	3		et			n	kendskabet	the knowledge (of something)
-ødelæggelse	destruction	IO	3		en			n	ødelæggelsen	the destruction
+ødelæggelse	destruction	IO	4		en			n	ødelæggelsen	the destruction
 en lærestreg	a lesson (learned the hard way)	IO	4					n	lærestregen|lærestreger	the lesson (learned the hard way)|lessons (learned the hard way)
 en opfattelse	a perception / view	IO	3					n	opfattelsen|opfattelser	the perception / the view|perceptions / views
 isolation	isolation	IO	3		en			n	isolationen	the isolation
@@ -6914,7 +6914,7 @@ sammenhold	cohesion / togetherness	IO	4		et			n	sammenholdet	the solidarity
 tryghed	security / safety	IO	2		en			n	trygheden	the security / the safety
 uafhængighed	independence	IO	3		en			n	uafhængigheden	the independence
 uvidenhed	ignorance	IO	3		en			n	uvidenheden	the ignorance
-en antydning	a hint	IO	3					n	antydningen|antydninger	the hint|hints
+en antydning	a hint	IO	4					n	antydningen|antydninger	the hint|hints
 en begrundelse	a justification / reason	IO	3					n	begrundelsen|begrundelser	the justification / the reason|justifications / reasons
 en belastning	a strain / burden	IO	3					n	belastningen|belastninger	the strain / the burden|strains / burdens
 en bidragyder	a contributor	IO	4					n	bidragyderen|bidragydere	the contributor|contributors
@@ -6965,7 +6965,7 @@ en sidebemærkning	a side note	IO	4					n	sidebemærkningen|sidebemærkninger	th
 en synsvinkel	a point of view / angle	IO	3					n	synsvinklen|synsvinkler	the point of view / the angle|points of view / angles
 et sidespor	a digression / sidetrack	IO	4					n	sidesporet|sidespor	the digression / the sidetrack|digressions / sidetracks
 en afveksling	a variety / change	IO	4					n	afvekslingen|afvekslinger	the variety / the change|varieties / changes
-en bedrift	an achievement / feat	IO	3					n	bedriften|bedrifter	the achievement / the feat|achievements / feats
+en bedrift	an achievement / feat	IO	4					n	bedriften|bedrifter	the achievement / the feat|achievements / feats
 en begavelse	a talent	IO	4					n	begavelsen|begavelser	the talent|talents
 en straf	a punishment	SP	2					n	straffen|straffe	the punishment|punishments
 en forpligtelse	an obligation	SP	3					n	forpligtelsen|forpligtelser	the obligation|obligations
@@ -6988,7 +6988,7 @@ en handel	a trade / deal	MB	2					n	handlen|handler	the trade / the deal|trades 
 en skat	a tax	MB	2					n	skatten|skatter	the tax|taxes
 en indkomst	an income	MB	3					n	indkomsten|indkomster	the income|incomes
 fattigdom	poverty	SP	2		en			n	fattigdommen	the poverty
-rigdom	wealth	SP	3		en			n	rigdommen	the wealth
+rigdom	wealth	SP	4		en			n	rigdommen	the wealth
 en generation	a generation	PF	3					n	generationen|generationer	the generation|generations
 en befolkning	a population	SP	3					n	befolkningen|befolkninger	the population|populations
 et fællesskab	a community	SP	3					n	fællesskabet|fællesskaber	the community|communities
@@ -7078,7 +7078,7 @@ et kors	a cross	CH	3					n	korset|kors	the cross|crosses
 en majestæt	a majesty	CH	4					n	majestæten|majestæter	the majesty|majesties
 en engel	an angel	CH	2					n	englen|engle	the angel|angels
 et monster	a monster	CH	2					n	monstret|monstre	the monster|monsters
-en ånd	a spirit / ghost	CH	3					n	ånden|ånder	the spirit / the ghost|spirits / ghosts
+en ånd	a spirit / ghost	CH	4					n	ånden|ånder	the spirit / the ghost|spirits / ghosts
 en grav	a grave	CH	3					n	graven|grave	the grave|graves
 et mirakel	a miracle	CH	3					n	miraklet|mirakler	the miracle|miracles
 en begravelse	a funeral	CH	2					n	begravelsen|begravelser	the funeral|funerals
@@ -7088,7 +7088,7 @@ kokain	cocaine	SP	3		en			n	kokainen	the cocaine
 en russer	a Russian	CL	2					n	russeren|russere	the Russian|Russians
 en dæmon	a demon	CH	4					n	dæmonen|dæmoner	the demon|demons
 en julemand	a Santa Claus	CH	2					n	julemanden|julemænd	the Santa Claus|Santa Clauses
-en bøn	a prayer / request	CH	3					n	bønnen|bønner	the prayer / the request|prayers / requests
+en bøn	a prayer / request	CH	4					n	bønnen|bønner	the prayer / the request|prayers / requests
 en højhed	a highness	CH	4					n	højheden|højheder	the highness|highnesses
 en pastor	a pastor	CH	3					n	pastoren|pastorer	the pastor|pastors
 en synder	a sinner	CH	4					n	synderen|syndere	the sinner|sinners
@@ -7112,7 +7112,7 @@ kongelig	royal	CH	3					a	mere kongelig|mest kongelig	more royal|most royal
 en legende	a legend	CH	3					n	legenden|legender	the legend|legends
 frelse	salvation	CH	4		en			n	frelsen	the salvation
 en kejser	an emperor	CH	3					n	kejseren|kejsere	the emperor|emperors
-velgørenhed	charity	SP	3		en			n	velgørenheden	the charity
+velgørenhed	charity	SP	4		en			n	velgørenheden	the charity
 et optog	a parade	CH	4					n	optoget|optog	the parade|parades
 offentlighed	the public	SP	4		en			n	offentligheden	the public
 marihuana	marijuana	SP	3		en			n	marihuanaen	the marijuana
@@ -7137,7 +7137,7 @@ en klokke	a bell	CH	2					n	klokken|klokker	the bell|bells
 jødisk	Jewish	CH	3					a
 svensk	Swedish	CL	1					a
 en frelser	a savior	CH	4					n	frelseren|frelsere	the savior|saviors
-troende	believing / religious	CH	3					a
+troende	believing / religious	CH	4					a
 et tempel	a temple	CH	3					n	templet|templer	the temple|temples
 et palads	a palace	CH	3					n	paladset|paladser	the palace|palaces
 en dværg	a dwarf	CH	3					n	dværgen|dværge	the dwarf|dwarves
@@ -7145,7 +7145,7 @@ en ceremoni	a ceremony	CH	3					n	ceremonien|ceremonier	the ceremony|ceremonies
 en julegave	a Christmas present	CH	1					n	julegaven|julegaver	the Christmas present|Christmas presents
 en indbygger	an inhabitant	CL	2					n	indbyggeren|indbyggere	the inhabitant|inhabitants
 en tigger	a beggar	SP	4					n	tiggeren|tiggere	the beggar|beggars
-indfødt	native	CH	3					a
+indfødt	native	CH	4					a
 fyrværkeri	fireworks	CH	2		et			n	fyrværkeriet	the fireworks
 en englænder	an Englishman / English person	CL	2					n	englænderen|englændere	the Englishman / the English person|Englishmen / English people
 udenlandsk	foreign	CL	2					a
@@ -7171,7 +7171,7 @@ tro	faith / belief	CH	2		en			n	troen	the faith / the belief
 en moské	a mosque	CH	3					n	moskéen|moskéer	the mosque|mosques
 en synagoge	a synagogue	CH	3					n	synagogen|synagoger	the synagogue|synagogues
 en bibel	a bible	CH	3					n	bibelen|bibler	the bible|bibles
-en synd	a sin	CH	3					n	synden|synder	the sin|sins
+en synd	a sin	CH	4					n	synden|synder	the sin|sins
 et samfundsproblem	a social problem	SP	3					n	samfundsproblemet|samfundsproblemer	the social problem|social problems
 velfærd	welfare	SP	3		en			n	velfærden	the welfare
 velfærdssamfundet	the welfare society	SP	4		et			n
@@ -7276,7 +7276,7 @@ e-Boks	e-Boks (digital mailbox for official letters)	TS	1		en			n
 Borgerservice	Citizen Services (municipal office)	TS	1		en			n
 Skattestyrelsen	the Danish Tax Agency	TS	3		en			n
 en venteliste	a waiting list	TS	2					n	ventelisten|ventelister	the waiting list|waiting lists
-en bosætning	a settlement	SP	3					n	bosætningen|bosætninger	the settlement|settlements
+en bosætning	a settlement	SP	4					n	bosætningen|bosætninger	the settlement|settlements
 byplanlægning	urban planning	SP	3		en			n	byplanlægningen	the urban planning
 en fejring	a celebration	CH	3					n	fejringen|fejringer	the celebration|celebrations
 en indsamling	a collection (fundraiser)	CH	3					n	indsamlingen|indsamlinger	the collection (fundraiser)|collections (fundraiser)
@@ -7288,7 +7288,7 @@ en heks	a witch	CH	2					n	heksen|hekse	the witch|witches
 hellig	holy	CH	3					a	helligere|helligst	holier|holiest
 historisk	historic / historical	CH	2					a
 en høvding	a chieftain	CH	4					n	høvdingen|høvdinge	the chieftain|chieftains
-en jætte	a giant (Norse mythology)	CH	3					n	jætten|jætter	the giant (Norse mythology)|giants (Norse mythology)
+en jætte	a giant (Norse mythology)	CH	4					n	jætten|jætter	the giant (Norse mythology)|giants (Norse mythology)
 et kloster	a monastery / convent	CH	3					n	klosteret|klostre	the monastery / the convent|monasteries / convents
 en konge	a king	CH	2					n	kongen|konger	the king|kings
 mexicansk	Mexican	CL	2					a
@@ -7424,8 +7424,8 @@ en aktivitet	an activity	FS	2					n	aktiviteten|aktiviteter	the activity|activit
 et cirkus	a circus	CH	2					n	cirkusset|cirkusser	the circus|circuses
 skak	chess	FS	2		en			n
 en jæger	a hunter	FS	3					n	jægeren|jægere	the hunter|hunters
-en skurk	a villain	CH	3					n	skurken|skurke	the villain|villains
-et væddemål	a bet	FS	3					n	væddemålet|væddemål	the bet|bets
+en skurk	a villain	CH	4					n	skurken|skurke	the villain|villains
+et væddemål	a bet	FS	4					n	væddemålet|væddemål	the bet|bets
 en vits	a joke	FS	2					n	vitsen|vitser	the joke|jokes
 et digt	a poem	CH	2					n	digtet|digte	the poem|poems
 et kostume	a costume	CH	2					n	kostumet|kostumer	the costume|costumes
@@ -7649,7 +7649,7 @@ et kunstværk	a work of art	CH	3					n	kunstværket|kunstværker	the work of art
 litteratur	literature	CH	3		en			n	litteraturen	the literature
 en lydbog	an audiobook	CH	3					n	lydbogen|lydbøger	the audiobook|audiobooks
 en læser	a reader	CH	2					n	læseren|læsere	the reader|readers
-et ordspil	a pun / wordplay	CH	3					n	ordspillet	the pun / the wordplay
+et ordspil	a pun / wordplay	CH	4					n	ordspillet	the pun / the wordplay
 en parodi	a parody	CH	3					n	parodien|parodier	the parody|parodies
 en pladespiller	a record player	FS	3					n	pladespilleren|pladespillere	the record player|record players
 en premiere	a premiere	CH	3					n	premieren|premierer	the premiere|premieres
@@ -7681,7 +7681,7 @@ en strandtur	a trip to the beach	FS	2					n	strandturen|strandture	the trip to t
 et fitnessabonnement	a gym membership	FS	3					n	fitnessabonnementet|fitnessabonnementer	the gym membership|gym memberships
 et koncerthus	a concert hall	CH	3					n	koncerthuset|koncerthuse	the concert hall|concert halls
 et tilholdssted	a hangout / haunt	FS	4					n	tilholdsstedet|tilholdssteder	the hangout / the haunt|hangouts / haunts
-et tidsfordriv	a pastime	FS	3					n
+et tidsfordriv	a pastime	FS	4					n
 en yndlingsbog	a favorite book	CH	2					n	yndlingsbogen|yndlingsbøger	the favorite book|favorite books
 en yndlingsfilm	a favorite movie	CH	2					n	yndlingsfilmen	the favorite movie
 en yndlingssang	a favorite song	CH	2					n	yndlingssangen|yndlingssange	the favorite song|favorite songs
@@ -7731,7 +7731,7 @@ national	national	SP	2					a
 en efterforsker	an investigator	SP	3					n	efterforskeren|efterforskere	the investigator|investigators
 lovlig	legal	SP	2					a	lovligere|lovligst	more legal|most legal
 en allieret	an ally	SP	3					n	allieretten|allierede	the ally|allies
-et gidsel	a hostage	SP	3					n	gidslet|gidsler	the hostage|hostages
+et gidsel	a hostage	SP	4					n	gidslet|gidsler	the hostage|hostages
 et parti	a (political) party / game	SP	3					n	partiet|partier	the (political) party / the game|(political) parties / games
 en detektiv	a detective	SP	2					n	detektiven|detektiver	the detective|detectives
 forstærkning	reinforcement	SP	4		en			n	forstærkningen	the reinforcement
@@ -7742,7 +7742,7 @@ en jury	a jury	SP	3					n	juryen|juryer	the jury|juries
 en kendelse	a ruling / warrant	SP	4					n	kendelsen|kendelser	the ruling / the warrant|rulings / warrants
 en ambassadør	an ambassador	SP	3					n	ambassadøren|ambassadører	the ambassador|ambassadors
 tortur	torture	SP	3		en			n	torturen	the torture
-en tilståelse	a confession	SP	3					n	tilståelsen|tilståelser	the confession|confessions
+en tilståelse	a confession	SP	4					n	tilståelsen|tilståelser	the confession|confessions
 en verdenskrig	a world war	SP	3					n	verdenskrigen|verdenskrige	the world war|world wars
 en minister	a minister	SP	2					n	ministeren|ministre	the minister|ministers
 selvforsvar	self-defense	SP	3		et			n	selvforsvaret	the self-defense
@@ -7752,7 +7752,7 @@ et distrikt	a district	SP	3					n	distriktet|distrikter	the district|districts
 en hersker	a ruler	SP	4					n	herskeren|herskere	the ruler|rulers
 en aftrækker	a trigger	SP	4					n	aftrækkeren|aftrækkere	the trigger|triggers
 varetægt	custody	SP	4		en			n	varetægten	the custody
-en bedrager	a fraud / con artist	SP	3					n	bedrageren|bedragere	the fraud / the con artist|frauds / con artists
+en bedrager	a fraud / con artist	SP	4					n	bedrageren|bedragere	the fraud / the con artist|frauds / con artists
 ulovlig	illegal	SP	2					a	ulovligere|ulovligst	more illegal|most illegal
 en kidnapning	a kidnapping	SP	3					n	kidnapningen|kidnapninger	the kidnapping|kidnappings
 et testamente	a will (legal) / testament	SP	4					n	testamentet|testamenter	the will (legal) / the testament|wills (legal) / testaments
@@ -7767,7 +7767,7 @@ en indsat	an inmate	SP	3					n	indsatten|indsatte	the inmate|inmates
 korrupt	corrupt	SP	3					a
 en alliance	an alliance	SP	3					n	alliancen|alliancer	the alliance|alliances
 bestikkelse	bribery	SP	4		en			n	bestikkelsen	the bribery
-et vidneudsagn	a testimony	SP	3					n	vidneudsagnet	the testimony
+et vidneudsagn	a testimony	SP	4					n	vidneudsagnet	the testimony
 sprængstof	explosives	SP	4		et			n	sprængstoffet	the explosives
 bevismateriale	evidence	SP	4		et			n	bevismaterialet	the evidence
 efterlyst	wanted (by police)	SP	4					a
@@ -7784,23 +7784,23 @@ en strid	a dispute / conflict	SP	4					n	striden	the dispute / the conflict
 et territorium	a territory	SP	3					n
 en patrulje	a patrol	SP	3					n	patruljen|patruljer	the patrol|patrols
 en union	a union	SP	3					n	unionen|unioner	the union|unions
-en afhøring	an interrogation	SP	3					n	afhøringen|afhøringer	the interrogation|interrogations
+en afhøring	an interrogation	SP	4					n	afhøringen|afhøringer	the interrogation|interrogations
 et demokrati	a democracy	SP	3					n	demokratiet|demokratier	the democracy|democracies
 en tiltalt	a defendant	SP	4					n	tiltalten|tiltalte	the defendant|defendants
 en front	a front	SP	3					n	fronten|fronter	the front|fronts
 et kongresmedlem	a member of Congress	SP	4					n	kongresmedlemmet|kongresmedlemmer	the member of Congress|members of Congress
 en skytte	a shooter / marksman	SP	3					n	skytten|skytter	the shooter / the marksman|shooters / marksmen
-en svindler	a swindler	SP	3					n	svindleren|svindlere	the swindler|swindlers
+en svindler	a swindler	SP	4					n	svindleren|svindlere	the swindler|swindlers
 en erklæring	a declaration / statement	SP	3					n	erklæringen|erklæringer	the declaration / the statement|declarations / statements
 en besættelse	an occupation / obsession	SP	4					n	besættelsen|besættelser	the occupation / the obsession|occupations / obsessions
 et missil	a missile	SP	2					n	missilet|missiler	the missile|missiles
 et skydevåben	a firearm	SP	3					n	skydevåbnet|skydevåben	the firearm|firearms
-krudt	gunpowder	SP	3		et			n	krudtet	the gunpowder
+krudt	gunpowder	SP	4		et			n	krudtet	the gunpowder
 et forhør	an interrogation / hearing	SP	4					n	forhøret	the interrogation / the hearing
 en statsadvokat	a public prosecutor	SP	4					n	statsadvokaten|statsadvokater	the public prosecutor|public prosecutors
 en granat	a grenade	SP	4					n	granaten|granater	the grenade|grenades
 dødsstraf	death penalty	SP	3		en			n	dødsstraffen	the death penalty
-en afgørelse	a decision / ruling	SP	3					n	afgørelsen|afgørelser	the decision / the ruling|decisions / rulings
+en afgørelse	a decision / ruling	SP	4					n	afgørelsen|afgørelser	the decision / the ruling|decisions / rulings
 et forlig	a settlement	SP	4					n	forliget	the settlement
 en revolver	a revolver	SP	2					n	revolveren|revolvere	the revolver|revolvers
 en straffeattest	a criminal record	SP	4					n	straffeattesten|straffeattester	the criminal record|criminal records
@@ -7870,7 +7870,7 @@ en asylansøger	an asylum seeker	SP	3					n	asylansøgeren|asylansøgere	the asy
 udlændingepolitik	immigration policy	SP	3		en			n	udlændingepolitikken	the immigration policy
 klimapolitik	climate policy	SP	3		en			n	klimapolitikken	the climate policy
 en sanktion	a sanction	SP	3					n	sanktionen|sanktioner	the sanction|sanctions
-en traktat	a treaty	SP	3					n	traktaten|traktater	the treaty|treaties
+en traktat	a treaty	SP	4					n	traktaten|traktater	the treaty|treaties
 et topmøde	a summit	SP	3					n	topmødet|topmøder	the summit|summits
 NATO	NATO	SP	2		en			n
 en udenrigsminister	a foreign minister	SP	3					n	udenrigsministeren|udenrigsministre	the foreign minister|foreign ministers
@@ -7878,7 +7878,7 @@ en statsleder	a head of state	SP	4					n	statslederen|statsledere	the head of st
 et diktatur	a dictatorship	SP	3					n	diktaturet|diktaturer	the dictatorship|dictatorships
 en diktator	a dictator	SP	3					n	diktatoren|diktatorer	the dictator|dictators
 en invasion	an invasion	SP	3					n	invasionen|invasioner	the invasion|invasions
-en våbenhvile	a ceasefire	SP	3					n	våbenhvilen|våbenhviler	the ceasefire|ceasefires
+en våbenhvile	a ceasefire	SP	4					n	våbenhvilen|våbenhviler	the ceasefire|ceasefires
 en fredsaftale	a peace agreement	SP	3					n	fredsaftalen|fredsaftaler	the peace agreement|peace agreements
 nødhjælp	emergency aid	SP	3		en			n	nødhjælpen	the emergency aid
 en bekendtgørelse	an announcement / regulation	SP	4					n	bekendtgørelsen|bekendtgørelser	the announcement / the regulation|announcements / regulations
@@ -7902,7 +7902,7 @@ en formue	a fortune	MB	4					n	formuen|formuer	the fortune|fortunes
 en andel	a share / portion	MB	4					n	andelen|andele	the share / the portion|shares / portions
 et lager	a warehouse / stock	MB	3					n	lageret|lagre	the warehouse / the stock|warehouses / stocks
 en cent	a cent	MB	2					n	centen	the cent
-en bestyrelse	a board (of directors)	MB	3					n	bestyrelsen|bestyrelser	the board (of directors)|boards (of directors)
+en bestyrelse	a board (of directors)	MB	4					n	bestyrelsen|bestyrelser	the board (of directors)|boards (of directors)
 en arv	an inheritance	MB	4					n	arven|arve	the inheritance|inheritances
 en branche	an industry / line of business	MB	3					n	branchen|brancher	the industry / the line of business|industries / lines of business
 en sektor	a sector	MB	3					n	sektoren|sektorer	the sector|sectors
@@ -7919,7 +7919,7 @@ et forskud	an advance (payment)	MB	4					n	forskuddet	the advance (payment)
 konkurs	bankrupt / bankruptcy	MB	3					a
 en fortjeneste	a profit / merit	MB	4					n	fortjenesten|fortjenester	the profit / the merit|profits / merits
 en auktion	an auction	MB	3					n	auktionen|auktioner	the auction|auctions
-en revisor	an accountant (auditor)	MB	3					n	revisoren|revisorer	the accountant (auditor)|accountants (auditors)
+en revisor	an accountant (auditor)	MB	4					n	revisoren|revisorer	the accountant (auditor)|accountants (auditors)
 småpenge	small change	MB	2		pl			n
 en sum	a sum	MB	2					n	summen|summer	the sum|sums
 en bankkonto	a bank account	MB	1					n	bankkontoen|bankkonti	the bank account|bank accounts
@@ -7929,7 +7929,7 @@ moms	VAT / sales tax	MB	2		en			n	momsen	the VAT / the sales tax
 en forsikring	an insurance	MB	2					n	forsikringen|forsikringer	the insurance|insurances
 en butikskæde	a store chain	MB	3					n	butikskæden|butikskæder	the store chain|store chains
 en konkurrent	a competitor	MB	3					n	konkurrenten|konkurrenter	the competitor|competitors
-en omsætning	a turnover / revenue	MB	3					n	omsætningen|omsætninger	the turnover / the revenue|turnovers / revenues
+en omsætning	a turnover / revenue	MB	4					n	omsætningen|omsætninger	the turnover / the revenue|turnovers / revenues
 inflation	inflation	MB	3		en			n	inflationen	the inflation
 at spare op	to save up	MB	2	sparer op|sparede op|sparet op		jeg sparer op|jeg sparede op|jeg har sparet op	I save up|I saved up|I have saved up	v
 at skylde	to owe	MB	2	skylder|skyldte|skyldt		jeg skylder|jeg skyldte|jeg har skyldt	I owe|I owed|I have owed	v
@@ -7945,7 +7945,7 @@ boligstøtte	housing benefit	MB	3		en			n	boligstøtten	the housing benefit
 SU	Danish student grant	MB	3		en			n
 dagpenge	unemployment benefits	MB	3		pl			n
 kontanthjælp	social welfare benefit	MB	3		en			n	kontanthjælpen	the social welfare benefit
-en a-kasse	an unemployment insurance fund	MB	3					n	a-kassen|a-kasser	the unemployment insurance fund|unemployment insurance funds
+en a-kasse	an unemployment insurance fund	MB	4					n	a-kassen|a-kasser	the unemployment insurance fund|unemployment insurance funds
 et gebyr	a fee	MB	4					n	gebyret|gebyrer	the fee|fees
 en stigning	a rise / increase	MB	3					n	stigningen|stigninger	the rise / the increase|rises / increases
 et fald	a fall / drop	MB	2					n	faldet	the fall / the drop
@@ -7957,10 +7957,10 @@ en rentestigning	an interest rate rise	MB	3					n	rentestigningen|rentestigninge
 en nationalbank	a central bank	MB	3					n	nationalbanken|nationalbanker	the central bank|central banks
 en aktiekurs	a share price	MB	3					n	aktiekursen|aktiekurser	the share price|share prices
 et aktieselskab	a public limited company	MB	3					n	aktieselskabet|aktieselskaber	the public limited company|public limited companies
-et anpartsselskab	a private limited company	MB	3					n	anpartsselskabet|anpartsselskaber	the private limited company|private limited companies
+et anpartsselskab	a private limited company	MB	4					n	anpartsselskabet|anpartsselskaber	the private limited company|private limited companies
 en startup	a startup	MB	3					n	startuppen|startupper	the startup|startups
 en fusion	a merger	MB	3					n	fusionen|fusioner	the merger|mergers
-et opkøb	an acquisition / buyout	MB	3					n	opkøbet	the acquisition / the buyout
+et opkøb	an acquisition / buyout	MB	4					n	opkøbet	the acquisition / the buyout
 eksport	export	MB	3		en			n	eksporten	the export
 import	import	MB	3		en			n	importen	the import
 en forbruger	a consumer	MB	3					n	forbrugeren|forbrugere	the consumer|consumers
@@ -7971,8 +7971,8 @@ en markedsandel	a market share	MB	4					n	markedsandelen|markedsandele	the marke
 en målgruppe	a target group	MB	3					n	målgruppen|målgrupper	the target group|target groups
 kundeservice	customer service	MB	2		en			n	kundeservicen	the customer service
 en klage	a complaint	MB	2					n	klagen|klager	the complaint|complaints
-en tilbagebetaling	a refund / repayment	MB	3					n	tilbagebetalingen|tilbagebetalinger	the refund / the repayment|refunds / repayments
-en afgift	a tax / duty / fee	MB	3					n	afgiften|afgifter	the tax / the duty / the fee|taxes / duties / fees
+en tilbagebetaling	a refund / repayment	MB	4					n	tilbagebetalingen|tilbagebetalinger	the refund / the repayment|refunds / repayments
+en afgift	a tax / duty / fee	MB	4					n	afgiften|afgifter	the tax / the duty / the fee|taxes / duties / fees
 en bevilling	a grant	MB	4					n	bevillingen|bevillinger	the grant|grants
 en bygherre	a developer (building)	MB	4					n	bygherren|bygherrer	the developer (building)|developers (building)
 en forhøjelse	an increase	MB	4					n	forhøjelsen|forhøjelser	the increase|increases
@@ -7981,7 +7981,7 @@ en nedskæring	a cutback	MB	4					n	nedskæringen|nedskæringer	the cutback|cutb
 en omkostning	a cost	MB	3					n	omkostningen|omkostninger	the cost|costs
 en omlægning	a restructuring	MB	4					n	omlægningen|omlægninger	the restructuring|restructurings
 en opgørelse	a statement / count	MB	4					n	opgørelsen|opgørelser	the statement / the count|statements / counts
-en udbetaling	a payment / payout	MB	3					n	udbetalingen|udbetalinger	the payment / the payout|payments / payouts
+en udbetaling	a payment / payout	MB	4					n	udbetalingen|udbetalinger	the payment / the payout|payments / payouts
 et udbytte	a yield / benefit	MB	4					n	udbyttet|udbytter	the yield / the benefit|yields / benefits
 en euro	a euro	MB	1					n	euroen	the euro
 en filial	a branch (office)	MB	3					n	filialen|filialer	the branch (office)|branches (offices)
