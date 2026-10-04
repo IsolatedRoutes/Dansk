@@ -19,8 +19,11 @@ update — and any future App Store or desktop version — must keep it.
   word goes through `VOCAB_CORRECTIONS` / `VOCAB_TRANSLATION_CORRECTIONS`
   (old text → new), which merges progress; a renamed grammar lesson lists its
   old name in `was`.
-- Words dropped from the built-in list are simply left in place on devices
-  that already have them.
+- Words dropped from the built-in list are left in place on devices that
+  already have them, except retired starter cards the person never touched
+  (not known/starred/hidden/noted/practised), which are purged quietly
+  (`purgeRetiredStarters`). Translation changes to starter cards apply only
+  if the person hasn't edited the back (`migrateStarterTranslations`).
 - One-time migrations are guarded by a version key in storage
   (`categoryLayout`, `grammarVersion`) that is only written after the
   migrated data saved successfully. Bump the version to re-run one.

@@ -21,6 +21,17 @@ import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor } from "../lib
 // choice survives switching tabs until the app is closed.
 let sessionLevels = [];
 
+// Words and sentences share the same type sizes; only very long text steps
+// down a little so it still fits. Grammar lessons keep their own size.
+function faceSize(text, base, type) {
+  if (type === "grammar") return 21;
+  const len = String(text || "").length;
+  if (len <= 22) return base;
+  if (len <= 40) return base - 4;
+  if (len <= 70) return base - 8;
+  return base - 11;
+}
+
 export function StudyView({ cards, categories, updateCard, onOpenSettings, showToast }) {
   const [catFilter, setCatFilter] = useState("all");
   const [scope, setScope] = useState("all"); // "all" | "mine" (only cards you added)
@@ -771,7 +782,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                   <div ref={frontContentRef} style={{ width: "100%", boxSizing: "border-box", padding: "0 " + H_CLEARANCE + "px" }}>
                     {(langDir === "da-first" || current.type === "grammar") ? (
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, width: "100%" }}>
-                      <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
+                      <div style={{ fontFamily: "var(--serif)", fontSize: faceSize(shownFront, 30, current.type), lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
                         {shownFront}
                       </div>
                       {speechSupported() && currentSpeakableText && (
@@ -793,7 +804,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                       style={{
                         fontFamily: "var(--sans)",
                         fontStyle: current.type === "grammar" ? "normal" : "italic",
-                        fontSize: current.type === "word" ? 26 : current.type === "grammar" ? 15.5 : 18,
+                        fontSize: current.type === "grammar" ? 15.5 : faceSize(shownBack, 26, current.type),
                         lineHeight: current.type === "grammar" ? 1.55 : 1.4,
                         color: current.type === "grammar" ? "var(--ink)" : "var(--sage)",
                         width: "100%",
@@ -832,7 +843,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                       style={{
                         fontFamily: "var(--sans)",
                         fontStyle: current.type === "grammar" ? "normal" : "italic",
-                        fontSize: current.type === "word" ? 26 : current.type === "grammar" ? 15.5 : 18,
+                        fontSize: current.type === "grammar" ? 15.5 : faceSize(shownBack, 26, current.type),
                         lineHeight: current.type === "grammar" ? 1.55 : 1.4,
                         color: current.type === "grammar" ? "var(--ink)" : "var(--sage)",
                         width: "100%",
@@ -849,7 +860,7 @@ export function StudyView({ cards, categories, updateCard, onOpenSettings, showT
                     </>
                   ) : (
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, width: "100%" }}>
-                      <div style={{ fontFamily: "var(--serif)", fontSize: current.type === "word" ? 30 : 21, lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
+                      <div style={{ fontFamily: "var(--serif)", fontSize: faceSize(shownFront, 30, current.type), lineHeight: 1.35, color: "var(--terracotta)", textAlign: "center" }}>
                         {shownFront}
                       </div>
                       {speechSupported() && currentSpeakableText && (

@@ -1,5 +1,6 @@
 import { CATEGORY_MERGE_MAP, LESSONS_ID, TOPIC_NAMES, isLessonsCategory } from "../data/categories";
 import { STARTER_GRAMMAR } from "../data/grammarLessons";
+import { RETIRED_STARTER_FRONTS, STARTER_TRANSLATION_UPDATES } from "../data/translationUpdates";
 import { VOCAB_CORRECTIONS, VOCAB_TRANSLATION_CORRECTIONS } from "../data/vocabCorrections";
 import { storeGet, storeSet } from "./storage";
 import { frontKey, normalizeCardText, uid } from "./text";
@@ -93,6 +94,31 @@ export function migrateVocabCorrections(original) {
   }
 
   return changed ? newCards : null;
+}
+
+
+// Gives starter cards their cleaned-up single-meaning translation. A card is
+// only touched if its back still matches the old built-in wording, so any
+// translation the person edited themselves is left alone.
+export function migrateStarterTranslations(cards) {
+  let changed = false;
+  const next = cards.map((card) => {
+    if (card.type !== "word" || !card.starter) return card;
+    const upd = STARTER_TRANSLATION_UPDATES[card.front];
+    if (!upd || card.back !== upd[0]) return card;
+    changed = true;
+    return { ...card, back: upd[1] };
+  });
+  return changed ? next : null;
+}
+
+// Quietly drops starter words that were retired from the deck (proper
+// names, offensive words) - but only if the person never touched them.
+// Anything known, starred, hidden, noted or practised stays exactly as is.
+export function purgeRetiredStarters(cards) {
+  const retired = new Set(RETIRED_STARTER_FRONTS);
+  const next = cards.filter((c) => !(c.type === "word" && c.starter && retired.has(c.front) && !c.known && !c.starred && !c.ignored && !c.upStage && !(c.notes && c.notes.trim())));
+  return next.length !== cards.length ? next : null;
 }
 
 // ---------- protecting saved progress ----------

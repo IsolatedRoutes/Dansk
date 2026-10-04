@@ -11,7 +11,7 @@ import { getAIEngine } from "./lib/ai/index";
 import { setKnownWordsForAI } from "./lib/ai/prompts";
 import { backupFingerprint, performBackupExport } from "./lib/backup";
 import { LEVELUP_FIRST_GAP } from "./lib/levelUp";
-import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAdditions, loadDeletedKeys, migrateConsolidatedCategories, migrateToTopics, migrateVocabCorrections, moveStrayCards, rememberDeleted, restoreProgress, snapshotProgress, stableStarterId, syncGrammarLessons } from "./lib/migrations";
+import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAdditions, loadDeletedKeys, migrateConsolidatedCategories, migrateToTopics, migrateStarterTranslations, migrateVocabCorrections, moveStrayCards, purgeRetiredStarters, rememberDeleted, restoreProgress, snapshotProgress, stableStarterId, syncGrammarLessons } from "./lib/migrations";
 import { tidyOwnWordCases, tidyWordCase } from "./lib/vocabulary";
 import { hideSplash } from "./lib/splash";
 import { clearLeftoverSecrets } from "./lib/secrets";
@@ -249,6 +249,13 @@ export default function DanishFlashcards() {
         vocabCorrected = true;
       }
 
+      // Deck audit: single-meaning translations, retired words removed.
+      let deckAudited = false;
+      const transResult = migrateStarterTranslations(c);
+      if (transResult) { c = transResult; deckAudited = true; }
+      const purgeResult = purgeRetiredStarters(c);
+      if (purgeResult) { c = purgeResult; deckAudited = true; }
+
       // One-time re-sort into the topic layout.
       let topicsMigrated = false;
       if ((await storeGet("categoryLayout")) !== CATEGORY_LAYOUT_VERSION) {
@@ -309,7 +316,7 @@ export default function DanishFlashcards() {
       const existingFronts = new Set(c.map((card) => frontKey(card.front)));
       const { newCards, combinedCategories } = buildStarterAdditions(cat, existingFronts, deletedKeys);
       let savedOk = true;
-      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || metaApplied || topicsMigrated || grammarSynced || progressRestored || strayMoved || caseTidied) {
+      if (newCards.length > 0 || idsMigrated || consolidationMigrated || vocabCorrected || deckAudited || metaApplied || topicsMigrated || grammarSynced || progressRestored || strayMoved || caseTidied) {
         cat = combinedCategories;
         c = [
           ...c,
