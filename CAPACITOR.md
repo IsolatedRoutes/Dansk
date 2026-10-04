@@ -22,6 +22,11 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 - Review notes: explain that AI features need the user's own API key, and give the reviewer a low-limit test key you can delete afterwards.
 - Check the name Broen is available, and the word list license (FrequencyWords, CC BY-SA 4.0).
 
+## Supported iPhones
+- The app needs **iOS 16 or newer** (iPhone 8 and later). To change it, edit the iOS deployment target of the App target in Xcode (General tab).
+- The app code itself only uses features that also exist on iOS 15; Capacitor 8 cannot go lower than iOS 15.
+- Reading Danish aloud needs a spoken Danish language on the phone (Settings > Accessibility > Spoken Content > Voices > Danish). Without one, tapping a speaker shows a message instead of speaking in the wrong voice. Test this on an English-language phone.
+
 ## What the iPhone app does differently
 - The on-device model, Ollama and Chrome translator options are hidden.
 - The service worker is not registered (the app is bundled inside).

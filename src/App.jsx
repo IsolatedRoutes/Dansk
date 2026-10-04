@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Header } from "./components/Header";
+import { DanishVoiceNote } from "./components/DanishVoiceNote";
 import { InfoSheet } from "./components/InfoSheet";
 import { Shell } from "./components/Shell";
 import { TabBar } from "./components/TabBar";
@@ -14,6 +15,7 @@ import { CATEGORY_LAYOUT_VERSION, GRAMMAR_VERSION, applyWordMeta, buildStarterAd
 import { tidyOwnWordCases, tidyWordCase } from "./lib/vocabulary";
 import { hideSplash } from "./lib/splash";
 import { clearLeftoverSecrets } from "./lib/secrets";
+import { askForReview, recordOpenDay, shouldAskForReview } from "./lib/review";
 import { persistWithRetry, storeGet, storeGetStrict, storeSet, syncChannel, unpackCards } from "./lib/storage";
 import { frontKey, normalizeCardText, uid } from "./lib/text";
 import { AISettingsPanel } from "./views/AISettingsPanel";
@@ -96,6 +98,34 @@ export default function DanishFlashcards() {
     // Runs once when the deck has loaded, not on every later change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loaded]);
+
+  // Rating request (iPhone app only): remembers the days the app is opened,
+  // and asks Apple to show its rating popup right after a word is marked
+  // known, once the person has really used the app. Never while a menu or
+  // a backup popup is open.
+  const knownCount = cards.reduce((n, c) => n + (c.known ? 1 : 0), 0);
+  const calmRef = useRef(false);
+  calmRef.current = tab === "study" && !showSettings && !infoPage && !showBackup && !backupReminder && !autoBackupDue;
+  const prevKnownRef = useRef(null);
+  useEffect(() => {
+    if (loaded) recordOpenDay();
+  }, [loaded]);
+  useEffect(() => {
+    if (!loaded) return undefined;
+    const prev = prevKnownRef.current;
+    prevKnownRef.current = knownCount;
+    if (prev == null || knownCount <= prev) return undefined;
+    let cancelled = false;
+    shouldAskForReview(knownCount).then((yes) => {
+      if (!yes) return;
+      setTimeout(() => {
+        if (!cancelled && calmRef.current) askForReview();
+      }, 1500);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [knownCount, loaded]);
 
   function dismissBackupReminder() {
     setBackupReminder(false);
@@ -608,6 +638,7 @@ export default function DanishFlashcards() {
           </CenteredOverlay>
         )}
         {infoPage && <InfoSheet pageId={infoPage} onClose={() => setInfoPage(null)} />}
+        <DanishVoiceNote />
         {showBackup && (
           <CenteredOverlay onClose={() => setShowBackup(false)}>
             <BackupPanel cards={cards} categories={categories} replaceAllData={replaceAllData} showToast={showToast} onClose={() => setShowBackup(false)} />

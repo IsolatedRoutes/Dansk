@@ -322,6 +322,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
         />
         <button
           onClick={send}
+          aria-label="Send"
           disabled={sending || !input.trim()}
           style={{
             border: "none",
