@@ -92,7 +92,7 @@
     "en": "to Africa"
    }
   ],
-  "explanation": "\"Afrika\" means \"Africa\". It is spelled with a \"k\", not a \"c\" as in English. An African person is \"en afrikaner\" (an African), and \"afrikansk\" means \"African\".",
+  "explanation": "\"Afrika\" means \"Africa\". It is spelled with a \"k\", not a \"c\" as in English. Add \"syd\" (south) to get \"Sydafrika\" (South Africa).",
   "related": [
    {
     "da": "Asien",
@@ -131,7 +131,7 @@
     "en": "off you go!"
    }
   ],
-  "explanation": "\"Afsted\" means \"off\" or \"away\", and it is used about leaving for somewhere: \"Vi skal afsted\" (We have to get going). It can also be written as two words, \"af sted\". \"Tage afsted\" means \"to head off\".",
+  "explanation": "\"Afsted\" means \"off\" or \"away\", and it is used about leaving for somewhere: \"Vi skal afsted\" (We have to get going). \"Tage afsted\" means \"to head off\".",
   "related": [
    {
     "da": "væk",
@@ -209,7 +209,7 @@
     "en": "I have never tried it"
    }
   ],
-  "explanation": "\"Aldrig\" means \"never\". It already makes the sentence negative, so you do not add \"ikke\" (not): \"Jeg drikker aldrig kaffe\" (I never drink coffee). The opposite is \"altid\" (always).",
+  "explanation": "\"Aldrig\" means \"never\". It already makes the sentence negative, so you do not add \"ikke\" (not): \"Jeg drikker aldrig kaffe\" (I never drink coffee).",
   "related": [
    {
     "da": "altid",
@@ -478,7 +478,7 @@
     "en": "as always"
    }
   ],
-  "explanation": "\"Altid\" means \"always\", and it is written as one word: \"Jeg er altid træt\" (I am always tired). The opposite is \"aldrig\" (never), and \"ofte\" (often) is the milder word.",
+  "explanation": "\"Altid\" means \"always\": \"Jeg er altid træt\" (I am always tired). It usually comes right after the verb: \"Hun kommer altid for sent\" (She always comes too late).",
   "related": [
    {
     "da": "aldrig",
@@ -556,7 +556,7 @@
     "en": "American films"
    }
   ],
-  "explanation": "\"Amerikansk\" means \"American\", used for things from the USA. It is written with a small letter, where English \"American\" has a capital. A person from the USA is \"en amerikaner\" (an American).",
+  "explanation": "\"Amerikansk\" means \"American\", used for things from the USA. It is written with a small letter, where English \"American\" has a capital.",
   "related": [
    {
     "da": "USA",
@@ -630,7 +630,7 @@
     "en": "the orange juice"
    }
   ],
-  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from \"appelsin\" (orange) and \"juice\" (juice), and written as one word. \"Et glas appelsinjuice\" means \"a glass of orange juice\".",
+  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from \"appelsin\" (orange) and \"juice\" (juice). \"Et glas appelsinjuice\" means \"a glass of orange juice\".",
   "related": [
    {
     "da": "en appelsin",
@@ -747,7 +747,7 @@
     "en": "to Asia"
    }
   ],
-  "explanation": "\"Asien\" means \"Asia\". Related words are \"asiatisk\" (Asian) and \"en asiat\" (an Asian person).",
+  "explanation": "\"Asien\" means \"Asia\". Danish ends it in \"-en\", where English ends in \"-a\". Example: \"Hun har rejst meget i Asien\" (She has travelled a lot in Asia).",
   "related": [
    {
     "da": "Afrika",
@@ -903,7 +903,7 @@
     "en": "to Australia"
    }
   ],
-  "explanation": "\"Australien\" means \"Australia\". A person from there is \"en australier\" (an Australian person), and \"australsk\" means \"Australian\" when you describe something, as in \"australsk vin\" (Australian wine).",
+  "explanation": "\"Australien\" means \"Australia\". Use \"i\" for being there and \"til\" for going there: \"Jeg bor i Australien\" (I live in Australia), \"Jeg rejser til Australien\" (I am travelling to Australia).",
   "related": [
    {
     "da": "Asien",
@@ -989,7 +989,7 @@
     "en": "the departures"
    }
   ],
-  "explanation": "\"En afgang\" means \"a departure\", the time a train, bus or plane leaves. Its opposite is \"en ankomst\" (an arrival).",
+  "explanation": "\"En afgang\" means \"a departure\", the time a train, bus or plane leaves. You can ask \"Hvornår er næste afgang?\" (When is the next departure?).",
   "related": [
    {
     "da": "en ankomst",
@@ -1075,7 +1075,7 @@
     "en": "the evenings"
    }
   ],
-  "explanation": "\"En aften\" means \"an evening\". Useful phrases are \"i aften\" (tonight), \"om aftenen\" (in the evening, as a habit) and \"god aften\" (good evening). The word is also part of \"aftensmad\" (the evening meal).",
+  "explanation": "\"En aften\" means \"an evening\". Useful phrases are \"i aften\" (tonight), \"om aftenen\" (in the evening, as a habit) and \"god aften\" (good evening).",
   "related": [
    {
     "da": "en nat",
@@ -1325,7 +1325,7 @@
     "en": "the Americans"
    }
   ],
-  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA, and it is used for both men and women. Unlike in English, the Danish word does not start with a capital letter. The word that describes something as American is \"amerikansk\".",
+  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA, and it is used for both men and women. Unlike in English, the Danish word does not start with a capital letter.",
   "related": [
    {
     "da": "USA",
@@ -1454,7 +1454,7 @@
     "en": "the arrivals"
    }
   ],
-  "explanation": "\"En ankomst\" means \"an arrival\". On boards in stations and airports it sits opposite \"afgang\" (departure). The matching verb is \"at ankomme\" (to arrive).",
+  "explanation": "\"En ankomst\" means \"an arrival\". On boards in stations and airports it sits opposite \"afgang\" (departure).",
   "related": [
    {
     "da": "en afgang",
@@ -1747,7 +1747,7 @@
     "en": "the job / the work"
    }
   ],
-  "explanation": "\"Et arbejde\" means \"a job\" or \"work\". Danes say \"på arbejde\" (at work): \"Jeg er på arbejde\" means \"I am at work\", and \"at gå på arbejde\" means \"to go to work\". The action is \"at arbejde\" (to work).",
+  "explanation": "\"Et arbejde\" means \"a job\" or \"work\". Danes say \"på arbejde\" (at work): \"Jeg er på arbejde\" means \"I am at work\", and \"at gå på arbejde\" means \"to go to work\".",
   "related": [
    {
     "da": "at arbejde",

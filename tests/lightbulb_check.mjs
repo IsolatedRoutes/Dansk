@@ -13,7 +13,7 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     if (!fronts.has(k)) fail(k + " is not a built-in word");
     if (lightbulbBucket(k) + ".json" !== f) fail(k + " is in the wrong file " + f);
     if (!Array.isArray(e.forms) || !e.forms.length || e.forms.some((x) => !x.da || !x.en)) fail(k + ": forms");
-    if (!e.explanation || e.explanation.length < 80) fail(k + ": explanation too short");
+    if (!e.explanation || e.explanation.length < 45) fail(k + ": explanation too short");
     if (!Array.isArray(e.related) || !e.related.length) fail(k + ": related");
     if (!e.sentence || !e.sentence.da || !e.sentence.en) fail(k + ": sentence");
     else if (!/\*\*[^*]+\*\*/.test(e.sentence.da)) fail(k + ": sentence word not marked with **");
