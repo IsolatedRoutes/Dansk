@@ -106,6 +106,7 @@ something; nothing is repeated; right length. New and live-AI answers must match
 - Nothing already in the forms list or the related list is repeated; other words are mentioned
   only to prevent a real mix-up, show how a word is built, or show a usage contrast.
 - Every claim agrees with the card's own forms/related/sentence; uncertain rules are softened or left out.
+- Example sentence length follows the word's level: Basic = at most 8 words and one clause (no ", så …" / ", for …"), everyday words, adding at most ONE small new thing so the learner levels up a little. Higher levels may be longer.
 - Example sentence: the marked word is exactly the card's word (no en/et/at, no "the"/plural form),
   and the rest of the sentence makes its meaning guessable (not "I need a ___").
 `tests/lightbulb_check.mjs` enforces the form rule; the rest is enforced by the AI prompt

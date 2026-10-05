@@ -23,6 +23,7 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     else {
       // The marked word must be the card's own word (no en/et/at), not a "the" or plural form.
       const norm = (x) => x.toLowerCase().replace(/[^\p{L}\d ]/gu, "").trim();
+      if (e.sentence.da.replace(/\*\*/g, "").trim().split(/\s+/).length > 8) fail(k + ": Basic sentence longer than 8 words");
       const marked = e.sentence.da.match(/\*\*([^*]+)\*\*/)[1];
       const base = k.replace(/^(en|et|at) /, "");
       const loose = ["både…og", "enten…eller", "er det ...?", "en / et"];
