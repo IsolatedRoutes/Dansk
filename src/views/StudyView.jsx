@@ -1054,7 +1054,18 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
             return (
               <div style={{ background: "var(--paper)", borderRadius: 8, padding: "12px 14px", marginBottom: 10, fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.5 }}>
                 <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 6 }}>In a sentence</div>
-                <div style={{ color: "var(--terracotta)", fontFamily: "var(--serif)", fontSize: 16 }}>{renderInlineMarkdown(sentence.da)}</div>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <div style={{ color: "var(--terracotta)", fontFamily: "var(--serif)", fontSize: 16, flex: 1 }}>{renderInlineMarkdown(sentence.da)}</div>
+                  {speechSupported() && (
+                    <button
+                      onClick={() => speakDanish(plain)}
+                      aria-label="Hear this sentence"
+                      style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
+                    >
+                      <Icon.Volume2 size={20} />
+                    </button>
+                  )}
+                </div>
                 <div style={{ color: "var(--sage)", fontStyle: "italic", marginTop: 2 }}>{renderInlineMarkdown(sentence.en)}</div>
                 {addCards && (
                   <button
