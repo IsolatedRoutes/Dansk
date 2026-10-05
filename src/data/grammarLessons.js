@@ -349,7 +349,7 @@ export const STARTER_GRAMMAR = [
     name: "Talking about the past: -ede and -te",
     was: ["Simple past of regular verbs", "Past tense: -ede and -te"],
     level: 2,
-    rule: "To talk about the past, most verbs add -ede or -te to the base word, so learn which with each verb. Many common verbs are irregular, like gik and så.",
+    rule: "To talk about the past, most verbs add -ede or -te to the base word (bo → boede, købe → købte). Which one depends on the verb, and each word's lightbulb shows its past form. Some common verbs change completely instead, like gå → gik and se → så.",
     pattern: "arbejd**ede** · spis**te** · gik",
     examples: [
       ["Jeg **arbejdede** i går.", "I worked yesterday."],
@@ -733,7 +733,7 @@ export const STARTER_GRAMMAR = [
     name: "Verbs with a set small word",
     was: ["Verbs with fixed prepositions"],
     level: 3,
-    rule: "Many Danish verbs always come with a particular small word, and it often differs from English, so learn them as pairs. Common ones: tænke på, vente på, tale om, lede efter, glæde sig til and drømme om.",
+    rule: "Many Danish verbs always come with a particular small word, and it often differs from English, so always say the verb together with its small word. Common ones: tænke på, vente på, tale om, lede efter, glæde sig til and drømme om.",
     pattern: "tænke **på** · vente **på** · tale **om** · lede **efter** · glæde sig **til** · drømme **om**",
     examples: [
       ["Jeg **venter på** bussen.", "I am waiting for the bus."],
@@ -965,7 +965,7 @@ export const STARTER_GRAMMAR = [
     name: "Old wish phrases: Længe leve kongen",
     was: ["Old subjunctive: Længe leve kongen"],
     level: 4,
-    rule: "A few frozen phrases keep an old wish-form of the verb, which looks like the base word (leve, ske, være, bevare) instead of the normal form for now. You can't build new sentences this way; learn them as set expressions, such as Gud bevare Danmark (God save Denmark).",
+    rule: "A few frozen phrases keep an old wish-form of the verb, which looks like the base word (leve, ske, være, bevare) instead of the normal form for now. You can't build new sentences this way; they only live on in set expressions, such as Gud bevare Danmark (God save Denmark).",
     pattern: "**leve** · **ske** lov · Gud **bevare** · det **være** sig",
     examples: [
       ["**Længe leve** kongen!", "Long live the king!"],
@@ -1025,7 +1025,7 @@ export const STARTER_GRAMMAR = [
     name: "Verbs that always end in -s: synes, lykkes, findes",
     was: ["Verbs that only exist with -s", "Deponent verbs: synes, lykkes, findes"],
     level: 4,
-    rule: "A handful of Danish verbs always keep an -s, even though nothing is being done to anything. Some have a twin without the -s that means something else (finde = find, findes = exist; minde = remind, mindes = recall), so learn them as separate verbs: synes (think, seem), lykkes (succeed), mindes (recall), findes (exist), færdes (move about) and trives (thrive, feel at home).",
+    rule: "A handful of Danish verbs always keep an -s, even though nothing is being done to anything. Some have a twin without the -s that means something else (finde = find, findes = exist; minde = remind, mindes = recall), so treat them as two different verbs: synes (think, seem), lykkes (succeed), mindes (recall), findes (exist), færdes (move about) and trives (thrive, feel at home).",
     pattern: "**synes** · **lykkes** · **mindes** · **findes** · **færdes** · **trives**",
     examples: [
       ["Jeg **synes**, at maden er rigtig god.", "I think the food is really good."],
@@ -1108,7 +1108,7 @@ export const STARTER_GRAMMAR = [
     name: "Fixed verb pairs: tage en beslutning",
     was: ["Light-verb phrases: tage en beslutning"],
     level: 4,
-    rule: "Danish often uses a common verb plus a thing-word where English uses a single verb or a different verb. The pairing is fixed, so learn it as a unit: you stille a question, tage a decision, give besked and føre a conversation. Træffe is a slightly more formal choice for decisions and choices.",
+    rule: "Danish often uses a common verb plus a thing-word where English uses a single verb or a different verb. The pairing is fixed, so you can't swap in another verb: you stille a question, tage a decision, give besked and føre a conversation. Træffe is a slightly more formal choice for decisions and choices.",
     pattern: "**tage** en beslutning · **give** besked · **stille** et spørgsmål · **føre** en samtale · **træffe** et valg",
     examples: [
       ["Vi skal **tage en beslutning** inden fredag.", "We have to make a decision before Friday."],
