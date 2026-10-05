@@ -24,10 +24,6 @@ import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor, wordMetaFor }
 // after switching tabs, closing the app, or installing an update. The copy
 // in `studyMemory` just avoids a flicker when coming back from another tab.
 const STUDY_SETTINGS_KEY = "studySettings";
-function stampSettings() {
-  storeSet("settingsChangedAt", String(Date.now())).catch(() => {});
-  window.dispatchEvent(new Event("dansk-settings-stamped"));
-}
 let studyMemory = null;
 
 function cleanStudySettings(raw) {
@@ -65,9 +61,6 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   // picks one of them at random. Remembered on this device.
   const [verbForms, setVerbForms] = useState(["base"]);
   const [settingsReady, setSettingsReady] = useState(false);
-  // Changing a choice stamps the time, so the newest choice wins between devices.
-  const skipStamp = useRef(false);
-  const armed = useRef(false);
   const [poolBuilt, setPoolBuilt] = useState(false);
   const loadSavedSettings = () => {
     const read = (key, apply) =>
@@ -104,8 +97,6 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     loadSavedSettings();
     function onChanged() {
       studyMemory = null;
-      skipStamp.current = true;
-      setTimeout(() => { skipStamp.current = false; }, 800);
       loadSavedSettings();
     }
     window.addEventListener("dansk-settings-changed", onChanged);
@@ -118,12 +109,10 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   function changeNounOpts(next) {
     setNounOpts(next);
     storeSet("nounOptions", JSON.stringify(next)).catch(() => {});
-    stampSettings();
   }
   function changeVerbForms(next) {
     setVerbForms(next);
     storeSet("verbForms", JSON.stringify(next)).catch(() => {});
-    stampSettings();
   }
   const [poolTenses, setPoolTenses] = useState([]);
   const [poolUps, setPoolUps] = useState([]); // per pool slot: a level-up form index, or null
@@ -192,9 +181,6 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     const current = { catFilter, scope, levels, starredOnly, unknownOnly, langDir };
     studyMemory = current;
     storeSet(STUDY_SETTINGS_KEY, JSON.stringify(current)).catch(() => {});
-    // The first save after opening only repeats what was read, so it isn't a change.
-    if (armed.current && !skipStamp.current) stampSettings();
-    armed.current = true;
   }, [settingsReady, catFilter, scope, levels, starredOnly, unknownOnly, langDir]);
   const [flipped, setFlipped] = useState(false);
   const [idx, setIdx] = useState(0);

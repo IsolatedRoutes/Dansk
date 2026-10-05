@@ -52,6 +52,12 @@ export default function DanishFlashcards() {
     getAIEngine().then((e) => setEngine(e));
   }, []);
 
+  // The AI choice can arrive from another device through iCloud sync.
+  useEffect(() => {
+    window.addEventListener("dansk-settings-changed", refreshEngine);
+    return () => window.removeEventListener("dansk-settings-changed", refreshEngine);
+  }, [refreshEngine]);
+
   useEffect(() => {
     (async () => {
       const e = await getAIEngine();
@@ -519,7 +525,13 @@ export default function DanishFlashcards() {
           if (c.id !== id) return c;
           // Newly marked known: its first new form comes a few days later.
           const extra = patch.known === true && !c.known && !("upDue" in patch) ? { upDue: Date.now() + LEVELUP_FIRST_GAP } : {};
-          return { ...c, ...patch, ...extra };
+          // Remember when the person changed a mark or edited the card, so the
+          // newest change wins when iCloud sync combines their devices.
+          const now = Date.now();
+          const stamps = {};
+          if (["known", "starred", "ignored", "notes"].some((f) => f in patch)) stamps.progressAt = now;
+          if (["front", "back", "category", "examples", "pattern"].some((f) => f in patch)) stamps.editedAt = now;
+          return { ...c, ...patch, ...extra, ...stamps };
         })
       );
     },

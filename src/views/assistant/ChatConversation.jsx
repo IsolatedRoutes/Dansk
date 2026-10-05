@@ -24,13 +24,17 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    (async () => {
+    const load = async () => {
       try {
         const raw = await storeGet("chatHistory");
         if (raw) setMessages(JSON.parse(raw));
       } catch {}
       setReady(true);
-    })();
+    };
+    load();
+    // A newer chat can arrive from another device through iCloud sync.
+    window.addEventListener("dansk-settings-changed", load);
+    return () => window.removeEventListener("dansk-settings-changed", load);
   }, []);
 
   useEffect(() => {

@@ -61,11 +61,11 @@ def checksum(text):
     return out
 
 def other_device_copy(front_known, own_front, settings=None):
-    snap = {"v": 1, "at": 1, "marks": {"word:" + front_known: {"known": True, "starred": False, "ignored": False, "upStage": 0, "upDue": 0, "notes": "", "recentTouch": 0}},
+    snap = {"v": 2, "at": 1, "marks": {"starter:" + front_known: {"k": "word:" + front_known, "known": True, "starred": False, "ignored": False, "upStage": 0, "upDue": 0, "notes": "", "recentTouch": 0}},
             "own": [{"id": "from-other-phone", "type": "word", "front": own_front, "back": "from my other phone", "starter": False, "known": False, "starred": False, "ignored": False, "createdAt": 5, "category": ""}],
-            "categories": [], "deleted": [], "deletedOwn": [], "settings": settings}
+            "categories": [], "deleted": [], "deletedOwn": [], "keys": settings or {}}
     data = json.dumps(snap, separators=(",", ":"), ensure_ascii=False)
-    meta = {"v": 1, "enc": "json", "n": 1, "len": len(data), "sum": checksum(data), "at": 1, "by": "other"}
+    meta = {"v": 2, "enc": "json", "n": 1, "len": len(data), "sum": checksum(data), "at": 1, "by": "other"}
     return {"broen.sync.p0": data, "broen.sync.meta": json.dumps(meta)}
 
 GET = """(k) => new Promise((res) => { const r = indexedDB.open('dansk'); r.onsuccess = () => {
@@ -112,12 +112,17 @@ with sync_playwright() as p:
       const s = new DecompressionStream('gzip'); const w = s.writable.getWriter(); w.write(bytes); w.close();
       return new TextDecoder().decode(await new Response(s.readable).arrayBuffer());
     }""")) if meta else {}
-    check(bool(meta) and json.loads(meta).get("by") != "other" and "word:en kat" in saved.get("marks", {}) and "word:en hund" in saved.get("marks", {}), "this device saved the combined progress (both devices' marks) back to iCloud")
+    check(bool(meta) and json.loads(meta).get("by") != "other" and any(m.get("k") == "word:en kat" for m in saved.get("marks", {}).values()) and any(m.get("k") == "word:en hund" for m in saved.get("marks", {}).values()), "this device saved the combined progress (both devices' marks) back to iCloud")
     check(not errors, "no page errors: " + "; ".join(errors))
     ctx.close()
 
     # 1b. Study choices made on the other device (newer) arrive here.
-    theirs = {"at": 4102444800000, "values": {"studySettings": json.dumps({"catFilter": "all", "scope": "all", "levels": [1], "starredOnly": False, "unknownOnly": True, "langDir": "en-first"}), "verbForms": json.dumps(["base", "past"])}}
+    later = 4102444800000
+    theirs = {"studySettings": {"v": json.dumps({"catFilter": "all", "scope": "all", "levels": [1], "starredOnly": False, "unknownOnly": True, "langDir": "en-first"}), "at": later},
+              "verbForms": {"v": json.dumps(["base", "past"]), "at": later},
+              "aiEngine": {"v": "gemini", "at": later},
+              "autoBackupEnabled": {"v": "true", "at": later},
+              "chatHistory": {"v": json.dumps([{"role": "user", "text": "hej fra min anden telefon"}]), "at": later}}
     ctx, page, errors = first_run(browser, seed_icloud=other_device_copy("en hund", "min nye sætning", theirs))
     page.evaluate(PUT, ["icloudSync", "1"])
     page.reload(); page.wait_for_timeout(9000)
@@ -125,6 +130,10 @@ with sync_playwright() as p:
     print("got", got)
     check(got.get("langDir") == "en-first" and got.get("levels") == [1], "Study choices from the other device arrive here")
     check(json.loads(page.evaluate(GET, "verbForms") or "[]") == ["base", "past"], "verb-form choices arrive too")
+    check(page.evaluate(GET, "aiEngine") == "gemini", "the AI choice arrives too")
+    check(page.evaluate(GET, "autoBackupEnabled") == "true", "the backup-reminder choice arrives too")
+    check("hej fra min anden telefon" in (page.evaluate(GET, "chatHistory") or ""), "the Assistant chat arrives too")
+    check(page.evaluate(GET, "anthropicApiKey") is None and page.evaluate(GET, "geminiApiKey") is None, "no AI key was written by sync")
     ctx.close()
 
     # 2. The switch in Backup, and going back to an earlier version.
@@ -164,7 +173,34 @@ with sync_playwright() as p:
     check(page.evaluate(GET, "icloudSync") == "1", "'Turn on' in the offer turns sync on")
     ctx.close()
 
-    # 5. The website has none of this.
+    # 5. A change made here is stamped and shared, and un-doing it is shared too.
+    ctx, page, errors = first_run(browser)
+    page.evaluate(PUT, ["icloudSync", "1"])
+    page.reload(); page.wait_for_timeout(6000)
+    page.get_by_role("button", name="Library").last.click(); page.wait_for_timeout(700)
+    page.get_by_placeholder("Search your deck").fill("bortset fra"); page.wait_for_timeout(800)
+    page.get_by_text("B", exact=True).first.click(); page.wait_for_timeout(500)
+    DECODE = """async () => {
+      const m = JSON.parse(window.__icloud['broen.sync.meta']);
+      let data = ''; for (let i = 0; i < m.n; i++) data += window.__icloud['broen.sync.p' + i];
+      if (m.enc === 'json') return data;
+      const bytes = Uint8Array.from(atob(data), (c) => c.charCodeAt(0));
+      const s = new DecompressionStream('gzip'); const w = s.writable.getWriter(); w.write(bytes); w.close();
+      return new TextDecoder().decode(await new Response(s.readable).arrayBuffer());
+    }"""
+    def shared_ignored():
+        snap = json.loads(page.evaluate(DECODE))
+        m = next((m for m in snap["marks"].values() if m.get("k") == "word:bortset fra"), None)
+        return m
+    page.get_by_role("button", name="Ignore this card in Study").first.click(); page.wait_for_timeout(7000)
+    m = shared_ignored()
+    check(m is not None and m["ignored"] is True and m["progressAt"] > 0, "hiding a card is stamped and shared")
+    page.get_by_role("button", name="Stop ignoring this card").first.click(); page.wait_for_timeout(7000)
+    m = shared_ignored()
+    check(m is not None and m["ignored"] is False and m["progressAt"] > 0, "un-hiding it is shared too (not just adding)")
+    ctx.close()
+
+    # 6. The website has none of this.
     ctx, page, errors = first_run(browser, native=False)
     page.get_by_role("button", name="Backup and sync").click(); page.wait_for_timeout(600)
     check(page.get_by_text("Sync with iCloud").count() == 0, "the website does not show iCloud sync")

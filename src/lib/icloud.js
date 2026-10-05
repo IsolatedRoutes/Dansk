@@ -6,8 +6,8 @@
 // ============================================================
 import { isNativeApp } from "./platform";
 import { canonicalKey, loadDeletedKeys } from "./migrations";
-import { storeGet, storeSet } from "./storage";
-import { buildSnapshot, mergeSnapshot, readRemote, writeRemote } from "./sync";
+import { SYNCED_KEYS, loadKeyStamps, storeGet, storeSet, storeSetFromSync } from "./storage";
+import { buildSnapshot, mergeSnapshot, pickKeys, readRemote, writeRemote } from "./sync";
 import { uid } from "./text";
 
 let pluginObj = null;
@@ -86,28 +86,24 @@ export async function rememberDeletedOwn(card) {
   await storeSet("deletedOwnCards", JSON.stringify(list.slice(-500)));
 }
 
-// Study choices (category, levels, filters, direction, verb forms, noun
-// options) travel too. The newest change wins, judged by the time each device
-// stamped when its owner last changed a choice.
-const SETTING_KEYS = ["studySettings", "verbForms", "nounOptions"];
-
-async function loadSettings() {
-  const at = Number(await storeGet("settingsChangedAt")) || 0;
+// Settings and the Assistant chat travel too. The newest change wins,
+// judged by the time each device stamped when its owner last changed it.
+async function loadKeyValues() {
+  const stamps = await loadKeyStamps();
   const values = {};
-  for (const k of SETTING_KEYS) {
+  for (const k of SYNCED_KEYS) {
     const v = await storeGet(k);
-    if (typeof v === "string") values[k] = v;
+    if (typeof v === "string") values[k] = { v, at: stamps[k] || 0 };
   }
-  return { at, values };
+  return values;
 }
 
-async function adoptSettings(remote) {
-  const local = await loadSettings();
-  if (!remote || !remote.values || (remote.at || 0) <= local.at) return false;
-  for (const k of SETTING_KEYS) if (typeof remote.values[k] === "string") await storeSet(k, remote.values[k]);
-  await storeSet("settingsChangedAt", String(remote.at));
-  window.dispatchEvent(new Event("dansk-settings-changed"));
-  return true;
+async function adoptKeys(remoteKeys) {
+  const adopt = pickKeys(await loadKeyValues(), remoteKeys);
+  const names = Object.keys(adopt).filter((k) => SYNCED_KEYS.includes(k));
+  for (const k of names) await storeSetFromSync(k, adopt[k].v, adopt[k].at || 0);
+  if (names.length) window.dispatchEvent(new Event("dansk-settings-changed"));
+  return names.length > 0;
 }
 
 // The automatic copy taken before sync first touches the deck, so the
@@ -157,8 +153,8 @@ export async function syncOnce(deck) {
     }
   }
 
-  if (remote) await adoptSettings(remote.snapshot.settings);
-  const snapshot = buildSnapshot(cards, categories, deleted, canonicalKey, Date.now(), deletedOwn, await loadSettings());
+  if (remote) await adoptKeys(remote.snapshot.keys);
+  const snapshot = buildSnapshot(cards, categories, deleted, canonicalKey, Date.now(), deletedOwn, await loadKeyValues());
   const sameAsRemote = remote && JSON.stringify({ ...remote.snapshot, at: 0 }) === JSON.stringify({ ...snapshot, at: 0 });
   if (!sameAsRemote) await writeRemote(kv, snapshot, await deviceId());
   await storeSet("icloudLastSync", String(Date.now()));

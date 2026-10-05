@@ -140,7 +140,7 @@ export function BackupPanel({ cards, categories, replaceAllData, sync, showToast
             <div style={{ flex: 1 }}>
               <div style={{ fontFamily: "var(--sans)", fontSize: 13, fontWeight: 600 }}>Sync with iCloud</div>
               <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", lineHeight: 1.4, marginTop: 2 }}>
-                Shares your progress, notes and own cards between your own devices through your own iCloud. It only adds, so nothing is ever removed by syncing. Your AI key is never shared.
+                Keeps everything in step between your own devices through your own iCloud: marks, notes, edits, your own cards and topics, settings, AI choices and your Assistant chat. When two devices change the same thing, the newest change wins. Your AI key is never shared.
               </div>
             </div>
             <button

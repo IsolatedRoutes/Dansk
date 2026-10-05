@@ -74,13 +74,13 @@ export function useICloudSync({ loaded, cards, categories, cardsRef, categoriesR
     return () => clearTimeout(t);
   }, [supported, loaded, enabled, cards, categories, runSync]);
 
-  // A changed Study choice is shared a moment later too.
+  // A changed setting or chat is shared a moment later too.
   useEffect(() => {
     if (!supported || !loaded || !enabled) return undefined;
     let t;
     const onStamped = () => { clearTimeout(t); t = setTimeout(() => runSync(), 4000); };
-    window.addEventListener("dansk-settings-stamped", onStamped);
-    return () => { clearTimeout(t); window.removeEventListener("dansk-settings-stamped", onStamped); };
+    window.addEventListener("dansk-key-stamped", onStamped);
+    return () => { clearTimeout(t); window.removeEventListener("dansk-key-stamped", onStamped); };
   }, [supported, loaded, enabled, runSync]);
 
   const enable = useCallback(async () => {

@@ -138,7 +138,49 @@ export function storeGetStrict(key) {
   return readStore(key, true);
 }
 
+// Saved settings that follow the person between devices with iCloud sync
+// (everything except the AI key, which is never stored here on the phone).
+// Each remembers when the person last changed it, so the newest change wins.
+export const SYNCED_KEYS = ["studySettings", "verbForms", "nounOptions", "aiEngine", "aiConsent", "autoBackupEnabled", "welcomeSeen", "chatHistory"];
+const STAMPS_KEY = "keyStamps";
+
+export async function loadKeyStamps() {
+  try {
+    const o = JSON.parse((await readStore(STAMPS_KEY, false)) || "{}");
+    return o && typeof o === "object" ? o : {};
+  } catch {
+    return {};
+  }
+}
+
+async function stampKey(key, at) {
+  const stamps = await loadKeyStamps();
+  stamps[key] = at;
+  await writeRaw(STAMPS_KEY, JSON.stringify(stamps));
+}
+
+// A change made by the person: remembered with the time it happened. The
+// first time a setting is ever saved is not stamped (it is usually the app
+// writing a default), so a new device never overrules the one with real choices.
 export async function storeSet(key, value) {
+  if (!SYNCED_KEYS.includes(key)) return writeRaw(key, value);
+  const before = await readStore(key, false);
+  const result = await writeRaw(key, value);
+  if (result.ok && before !== null && before !== value) {
+    await stampKey(key, Date.now());
+    if (typeof window !== "undefined") window.dispatchEvent(new Event("dansk-key-stamped"));
+  }
+  return result;
+}
+
+// A value that arrived from another device, kept with that device's time.
+export async function storeSetFromSync(key, value, at) {
+  const result = await writeRaw(key, value);
+  if (result.ok) await stampKey(key, at);
+  return result;
+}
+
+async function writeRaw(key, value) {
   if (inClaudeApp() && !claudeStorageBroken) {
     try {
       const r = await window.storage.set(key, value, false);

@@ -100,22 +100,37 @@ key-value store (about 1 MB total, so the snapshot is gzipped and chunked).
   depends on it by `file:`; `cap sync` adds it to the iOS project.
   Xcode needs Signing & Capabilities → + Capability → iCloud → tick
   "Key-value storage" (one time, needs the paid developer team).
-- `src/lib/sync.js`: pure logic. Snapshot = marks on built-in cards (by
-  `canonicalKey`), the learner's own cards, own topics, deleted built-in words,
-  deleted own cards (tombstones). Merge only ever ADDS (known/starred/hidden
-  OR, notes combined line by line, level-up max), so syncing can't lose
-  progress; repeating a merge changes nothing. A card deleted on one device
-  is deleted on the others unless made again later.
+- `src/lib/sync.js`: pure logic. Everything except the AI key travels; when
+  the same thing changed on two devices the NEWEST change wins.
+  Snapshot = per built-in card: marks, notes, level-up, plus content if edited
+  (keyed by stable id, `k` = canonicalKey fallback); every added card whole;
+  own topics; deleted built-in words and deleted own cards (tombstones);
+  `keys` = settings and chat.
+  Cards carry `progressAt` (known/starred/hidden/notes changed) and `editedAt`
+  (front/back/topic/examples/pattern changed), stamped ONLY in `updateCard`
+  (App.jsx), so migrations never count as changes. Newer stamp wins per group;
+  with no stamps (older cards) marks are combined (OR, notes by line) so
+  nothing is lost. Level-up (`upStage`, `upDue`) takes the larger. Un-marking
+  a card on the newer device reaches the others. Repeating a merge changes
+  nothing. Deleting an added card deletes it everywhere unless made again.
+- Settings: `SYNCED_KEYS` in `src/lib/storage.js` (studySettings, verbForms,
+  nounOptions, aiEngine, aiConsent, autoBackupEnabled, welcomeSeen,
+  chatHistory). `storeSet` stamps the time (`keyStamps`) when the value really
+  changes; the very first save of a key is not stamped (usually a default), so a
+  new device never overrules real choices. `storeSetFromSync` stores what
+  arrives and fires `dansk-settings-changed` (Study, AI choice and chat reload).
+  The chat is the first thing left out if iCloud's ~1 MB runs short.
+  NOT synced: AI keys (secrets.js / Keychain), web-only options
+  (ollamaConfig, chromeTranslatorEnabled), per-device facts (backup times,
+  review prompt, deviceId, install marker, sync's own counters).
 - `src/lib/icloud.js` (phone bridge, `syncOnce`), `src/lib/useICloudSync.js`
   (on/off, sync at start / on return / when another device saves / 4 s after a
   change), `src/components/SyncOffer.jsx` (offer once after ~15 changes or the
   2nd opening, once more after 25 known words, then never; counters in
   `syncPrompt`), switch + "Go back to an earlier version" in BackupPanel.
   The copy taken when sync is turned on is `preSyncBackup`.
-- Study choices (`studySettings`, `verbForms`, `nounOptions`) travel too: newest
-  change wins by `settingsChangedAt`, applied via the `dansk-settings-changed`
-  event. Not synced: AI keys. The website has no sync (it uses backup files). Restoring a backup while sync is on gets re-merged with
-  iCloud.
+- The website has no sync (it uses backup files). Restoring a backup while
+  sync is on gets re-merged with iCloud.
 
 ## Plain English in AI answers
 Learners may not know grammar words. `PLAIN_ENGLISH_RULE` (src/lib/ai/prompts.js)
