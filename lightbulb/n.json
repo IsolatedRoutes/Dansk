@@ -1,5 +1,6 @@
 {
  "at nyse": {
+  "explanation": "\"At nyse\" means \"to sneeze\": \"Jeg nyser hele tiden\" (I sneeze all the time).",
   "forms": [
    {
     "da": "at nyse",
@@ -18,7 +19,6 @@
     "en": "I have sneezed"
    }
   ],
-  "explanation": "\"At nyse\" means \"to sneeze\": \"Jeg nyser hele tiden\" (I sneeze all the time). Do not mix it up with \"at hoste\" (to cough).",
   "related": [
    {
     "da": "at hoste",
@@ -43,6 +43,7 @@
   }
  },
  "en nabo": {
+  "explanation": "\"En nabo\" means \"a neighbor\", for a man or a woman. You can ask \"Kender du dine naboer?\" (Do you know your neighbors?).",
   "forms": [
    {
     "da": "en nabo",
@@ -61,7 +62,6 @@
     "en": "the neighbors"
    }
   ],
-  "explanation": "\"En nabo\" means \"a neighbor\", for a man or a woman. You can ask \"Kender du dine naboer?\" (Do you know your neighbors?).",
   "related": [
    {
     "da": "en ven",
@@ -86,6 +86,7 @@
   }
  },
  "en nat": {
+  "explanation": "\"En nat\" means \"a night\". Common phrases are \"i nat\" (tonight or last night), \"om natten\" (at night) and \"godnat\" (good night).",
   "forms": [
    {
     "da": "en nat",
@@ -104,7 +105,6 @@
     "en": "the nights"
    }
   ],
-  "explanation": "\"En nat\" means \"a night\". \"To nætter\" means \"two nights\". Common phrases are \"i nat\" (tonight or last night), \"om natten\" (at night) and \"godnat\" (good night).",
   "related": [
    {
     "da": "en aften",
@@ -119,8 +119,8 @@
     "en": "to sleep"
    },
    {
-    "da": "godnat",
-    "en": "good night"
+    "da": "mørk",
+    "en": "dark"
    }
   ],
   "sentence": {
@@ -129,6 +129,7 @@
   }
  },
  "en nederdel": {
+  "explanation": "\"En nederdel\" means \"a skirt\".",
   "forms": [
    {
     "da": "en nederdel",
@@ -147,7 +148,6 @@
     "en": "the skirts"
    }
   ],
-  "explanation": "\"En nederdel\" means \"a skirt\". The word is built from \"neder\" (down) and \"del\" (part), so it literally means \"lower part\".",
   "related": [
    {
     "da": "en kjole",
@@ -172,6 +172,7 @@
   }
  },
  "en negl": {
+  "explanation": "\"En negl\" means \"a nail\" on a finger or toe. A metal nail you hit with a hammer is a different word, \"et søm\" (a metal nail), so do not mix them up.",
   "forms": [
    {
     "da": "en negl",
@@ -190,7 +191,6 @@
     "en": "the nails"
    }
   ],
-  "explanation": "\"En negl\" means \"a nail\" on a finger or toe. A metal nail you hit with a hammer is a different word, \"et søm\" (a metal nail), so do not mix them up.",
   "related": [
    {
     "da": "en finger",
@@ -215,6 +215,7 @@
   }
  },
  "en næse": {
+  "explanation": "\"En næse\" means \"a nose\". You can say \"Jeg har en løbende næse\" (I have a runny nose).",
   "forms": [
    {
     "da": "en næse",
@@ -233,7 +234,6 @@
     "en": "the noses"
    }
   ],
-  "explanation": "\"En næse\" means \"a nose\". You can say \"Jeg har en løbende næse\" (I have a runny nose). \"At have næse for noget\" means \"to have a nose for something\", a good feel for it.",
   "related": [
    {
     "da": "en mund",
@@ -258,6 +258,7 @@
   }
  },
  "en nøgle": {
+  "explanation": "\"En nøgle\" means \"a key\", for a door or a hotel room. You can ask \"Hvor er min nøgle?\" (Where is my key?).",
   "forms": [
    {
     "da": "en nøgle",
@@ -276,7 +277,6 @@
     "en": "the keys"
    }
   ],
-  "explanation": "\"En nøgle\" means \"a key\", for a door or a hotel room. You can ask \"Hvor er min nøgle?\" (Where is my key?). The \"ø\" sounds a bit like the vowel in English \"bird\".",
   "related": [
    {
     "da": "en dør",
@@ -301,6 +301,7 @@
   }
  },
  "et navn": {
+  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes say \"Hvad hedder du?\", literally \"What are you called?\", or \"Hvad er dit navn?\" (What is your name?).",
   "forms": [
    {
     "da": "et navn",
@@ -319,7 +320,6 @@
     "en": "the names"
    }
   ],
-  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes say \"Hvad hedder du?\", literally \"What are you called?\", or \"Hvad er dit navn?\" (What is your name?).",
   "related": [
    {
     "da": "et fornavn",
@@ -344,6 +344,7 @@
   }
  },
  "et nummer": {
+  "explanation": "\"Et nummer\" means \"a number\" used as a label, such as a phone number or a house number. For counting or amounts use \"et tal\" (a number, a figure) instead. \"Hvad er dit telefonnummer?\" means \"What is your phone number?\".",
   "forms": [
    {
     "da": "et nummer",
@@ -362,7 +363,6 @@
     "en": "the numbers"
    }
   ],
-  "explanation": "\"Et nummer\" means \"a number\" used as a label, such as a phone number or a house number. For counting or amounts use \"et tal\" (a number, a figure) instead. \"Hvad er dit telefonnummer?\" means \"What is your phone number?\".",
   "related": [
    {
     "da": "et tal",
@@ -387,7 +387,12 @@
   }
  },
  "natur": {
+  "explanation": "\"Natur\" means \"nature\". It is used without \"en\": \"smuk natur\" (beautiful nature).",
   "forms": [
+   {
+    "da": "natur",
+    "en": "nature"
+   },
    {
     "da": "naturen",
     "en": "the nature"
@@ -401,7 +406,6 @@
     "en": "a trip in nature"
    }
   ],
-  "explanation": "\"Natur\" means \"nature\": forests, fields, lakes and animals. It is used without \"en\": \"smuk natur\" (beautiful nature).",
   "related": [
    {
     "da": "en skov",
@@ -426,6 +430,7 @@
   }
  },
  "ned": {
+  "explanation": "\"Ned\" means \"down\", for moving down. Compare \"Kom ned!\" (Come down!) with \"Han er nede i kælderen\" (He is down in the cellar). \"Nede\" says where someone is, \"ned\" says where someone is going.",
   "forms": [
    {
     "da": "Gå ned!",
@@ -440,7 +445,6 @@
     "en": "I walk down the stairs."
    }
   ],
-  "explanation": "\"Ned\" means \"down\", for moving down. Compare \"Kom ned!\" (Come down!) with \"Han er nede i kælderen\" (He is down in the cellar). \"Nede\" says where someone is, \"ned\" says where someone is going.",
   "related": [
    {
     "da": "op",
@@ -465,6 +469,7 @@
   }
  },
  "nej": {
+  "explanation": "\"Nej\" means \"no\". It can also mean \"oh!\" when you are surprised: \"Nej, hvor er det flot!\" (Oh, how beautiful!).",
   "forms": [
    {
     "da": "Nej, tak.",
@@ -479,15 +484,14 @@
     "en": "No, unfortunately."
    }
   ],
-  "explanation": "\"Nej\" means \"no\". It can also mean \"oh!\" when you are surprised: \"Nej, hvor er det flot!\" (Oh, how beautiful!). It sounds a bit like English \"nigh\".",
   "related": [
    {
     "da": "ja",
     "en": "yes"
    },
    {
-    "da": "nej tak",
-    "en": "no thank you"
+    "da": "ikke",
+    "en": "not"
    },
    {
     "da": "aldrig",
@@ -500,6 +504,7 @@
   }
  },
  "nem": {
+  "explanation": "\"Nem\" means \"easy\": \"en nem løsning\" (an easy solution).",
   "forms": [
    {
     "da": "en nem opgave",
@@ -514,7 +519,6 @@
     "en": "easy tasks"
    }
   ],
-  "explanation": "\"Nem\" means \"easy\". \"Let\" (light, easy) is another everyday word for it. Typical uses: \"en nem opgave\" (an easy task), \"en nem løsning\" (an easy solution).",
   "related": [
    {
     "da": "svær",
@@ -539,6 +543,7 @@
   }
  },
  "nemt": {
+  "explanation": "\"Nemt\" means \"easy\" or \"easily\". Compare \"Det er nemt\" (It is easy) with \"Han vinder nemt\" (He wins easily).",
   "forms": [
    {
     "da": "det er nemt",
@@ -553,11 +558,10 @@
     "en": "easy to learn"
    }
   ],
-  "explanation": "\"Nemt\" means \"easy\" or \"easily\". Compare \"Det er nemt\" (It is easy) with \"Han vinder nemt\" (He wins easily). The opposite is \"svært\" (hard): \"Det er svært\" (It is hard).",
   "related": [
    {
     "da": "nem",
-    "en": "easy (en-words)"
+    "en": "easy"
    },
    {
     "da": "let",
@@ -578,6 +582,7 @@
   }
  },
  "ni": {
+  "explanation": "\"Ni\" means \"nine\". Do not mix it up with \"nej\" (no): \"Jeg har ni børn\" (I have nine children) but \"Nej, tak\" (No, thank you).",
   "forms": [
    {
     "da": "ni børn",
@@ -592,7 +597,6 @@
     "en": "nine times"
    }
   ],
-  "explanation": "\"Ni\" means \"nine\". Do not mix it up with \"nej\" (no): \"Jeg har ni børn\" (I have nine children) but \"Nej, tak\" (No, thank you). \"Ni\" sounds like English \"nee\".",
   "related": [
    {
     "da": "otte",
@@ -617,6 +621,7 @@
   }
  },
  "niende": {
+  "explanation": "\"Niende\" means \"ninth\": \"den niende dag\" (the ninth day). It is also used for dates: \"den niende maj\" (the ninth of May).",
   "forms": [
    {
     "da": "den niende dag",
@@ -631,7 +636,6 @@
     "en": "the ninth time"
    }
   ],
-  "explanation": "\"Niende\" means \"ninth\". It is for order: \"den niende dag\" (the ninth day). It is also how you say dates: \"den niende maj\" (the ninth of May).",
   "related": [
    {
     "da": "ni",
@@ -656,6 +660,7 @@
   }
  },
  "nitten": {
+  "explanation": "\"Nitten\" means \"nineteen\". Compare \"ni børn\" (nine children) with \"nitten børn\" (nineteen children).",
   "forms": [
    {
     "da": "nitten år",
@@ -670,7 +675,6 @@
     "en": "nineteen kroner"
    }
   ],
-  "explanation": "\"Nitten\" means \"nineteen\". Compare \"ni børn\" (nine children) with \"nitten børn\" (nineteen children). The \"-ten\" at the end is like the \"-teen\" in English nineteen.",
   "related": [
    {
     "da": "atten",
@@ -695,6 +699,7 @@
   }
  },
  "nogen": {
+  "explanation": "\"Nogen\" means \"someone\" or \"anyone\": \"Jeg ser nogen\" (I see someone), \"Jeg ser ikke nogen\" (I do not see anyone). With more than one thing it means \"any\", in questions and with \"ikke\": \"Har du nogen børn?\" (Do you have any children?), \"Jeg har ikke nogen venner\" (I do not have any friends).",
   "forms": [
    {
     "da": "Er der nogen her?",
@@ -709,7 +714,6 @@
     "en": "Do you have any children?"
    }
   ],
-  "explanation": "\"Nogen\" means \"someone\" or \"anyone\". Compare \"Jeg ser nogen\" (I see someone), \"Er der nogen her?\" (Is anyone here?) and \"Jeg ser ikke nogen\" (I do not see anyone). It also means \"any\" with more than one thing, in questions and with \"ikke\": \"Har du nogen børn?\" (Do you have any children?), \"Jeg har ikke nogen børn\" (I do not have any children).",
   "related": [
    {
     "da": "ingen",
@@ -734,6 +738,7 @@
   }
  },
  "noget": {
+  "explanation": "\"Noget\" means \"something\" or \"anything\". Compare \"Jeg ser noget\" (I see something) with \"Jeg ser nogen\" (I see someone): \"noget\" is for things, \"nogen\" is for people. With things you cannot count it means \"some\": \"noget mælk\" (some milk).",
   "forms": [
    {
     "da": "Vil du have noget at spise?",
@@ -748,11 +753,10 @@
     "en": "something else"
    }
   ],
-  "explanation": "\"Noget\" means \"something\" or \"anything\". Compare \"Jeg ser noget\" (I see something) with \"Jeg ser nogen\" (I see someone): \"noget\" is for things, \"nogen\" is for people. With things you cannot count it means \"some\": \"noget mælk\" (some milk). \"Jeg har ikke noget\" means \"I do not have anything\".",
   "related": [
    {
     "da": "nogen",
-    "en": "someone, anyone, some"
+    "en": "someone / anyone"
    },
    {
     "da": "ingenting",
@@ -763,8 +767,8 @@
     "en": "everything"
    },
    {
-    "da": "noget andet",
-    "en": "something else"
+    "da": "lidt",
+    "en": "a little"
    }
   ],
   "sentence": {
@@ -773,6 +777,7 @@
   }
  },
  "nogle": {
+  "explanation": "\"Nogle\" means \"some\" or \"a few\". Compare \"Jeg har en ven\" (I have one friend) with \"Jeg har nogle venner\" (I have some friends). In a question or with \"ikke\", use \"nogen\" instead: \"Har du nogen venner?\" (Do you have any friends?).",
   "forms": [
    {
     "da": "nogle bøger",
@@ -787,7 +792,6 @@
     "en": "I have some friends."
    }
   ],
-  "explanation": "\"Nogle\" means \"some\" or \"a few\". Compare \"Jeg har en ven\" (I have one friend) with \"Jeg har nogle venner\" (I have some friends). In a question or with \"ikke\", use \"nogen\" instead: \"Har du nogen venner?\" (Do you have any friends?). For \"none\", use \"ingen\": \"Jeg har ingen venner\" (I have no friends).",
   "related": [
    {
     "da": "nogen",
@@ -812,6 +816,7 @@
   }
  },
  "nogle gange": {
+  "explanation": "\"Nogle gange\" means \"sometimes\", or word for word \"some times\": \"Jeg spiser nogle gange morgenmad\" (I sometimes eat breakfast).",
   "forms": [
    {
     "da": "nogle gange",
@@ -826,7 +831,6 @@
     "en": "only sometimes"
    }
   ],
-  "explanation": "\"Nogle gange\" means \"sometimes\", or word for word \"some times\". Compare \"Jeg spiser altid morgenmad\" (I always eat breakfast), \"Jeg spiser nogle gange morgenmad\" (I sometimes eat breakfast) and \"Jeg spiser aldrig morgenmad\" (I never eat breakfast).",
   "related": [
    {
     "da": "af og til",
@@ -851,6 +855,7 @@
   }
  },
  "nok": {
+  "explanation": "\"Nok\" means \"enough\" and also \"probably\". Compare \"Jeg har nok mad\" (I have enough food) with \"Han kommer nok\" (He will probably come). The first is about how much, the second is a guess. Alone, \"Det er nok!\" (That is enough!) tells someone to stop.",
   "forms": [
    {
     "da": "Det er nok.",
@@ -865,7 +870,6 @@
     "en": "I don't have enough time."
    }
   ],
-  "explanation": "\"Nok\" means \"enough\" and also \"probably\". Compare \"Jeg har nok mad\" (I have enough food) with \"Han kommer nok\" (He will probably come). The first is about how much, the second is a guess. Alone, \"Det er nok!\" (That is enough!) tells someone to stop.",
   "related": [
    {
     "da": "måske",
@@ -880,8 +884,8 @@
     "en": "too much"
    },
    {
-    "da": "tilstrækkelig",
-    "en": "sufficient"
+    "da": "for lidt",
+    "en": "too little"
    }
   ],
   "sentence": {
@@ -890,6 +894,7 @@
   }
  },
  "nord": {
+  "explanation": "\"Nord\" means \"north\". Compare \"Det er koldt i nord\" (It is cold in the north) with \"Det er varmt i syd\" (It is warm in the south).",
   "forms": [
    {
     "da": "nord",
@@ -904,7 +909,6 @@
     "en": "towards the north"
    }
   ],
-  "explanation": "\"Nord\" means \"north\". Compare \"Det er koldt i nord\" (It is cold in the north) with \"Det er varmt i syd\" (It is warm in the south). To say you are heading there: \"Vi kører mod nord\" (We drive north).",
   "related": [
    {
     "da": "syd",
@@ -929,6 +933,7 @@
   }
  },
  "norge": {
+  "explanation": "\"Norge\" means \"Norway\". The country is \"Norge\", but the language is \"norsk\" (Norwegian): \"Jeg bor i Norge og taler norsk\" (I live in Norway and speak Norwegian).",
   "forms": [
    {
     "da": "Norge",
@@ -943,7 +948,6 @@
     "en": "to Norway"
    }
   ],
-  "explanation": "\"Norge\" means \"Norway\". The country is \"Norge\", but the language and the adjective are \"norsk\": \"Jeg bor i Norge og taler norsk\" (I live in Norway and speak Norwegian).",
   "related": [
    {
     "da": "en nordmand",
@@ -968,6 +972,7 @@
   }
  },
  "normal": {
+  "explanation": "\"Normal\" means \"normal\", the same word as in English: \"Det er helt normalt\" (That is completely normal).",
   "forms": [
    {
     "da": "en normal dag",
@@ -982,7 +987,6 @@
     "en": "normal days"
    }
   ],
-  "explanation": "\"Normal\" means \"normal\", the same word and meaning as in English. It is often used to reassure someone: \"Det er helt normalt\" means \"That is completely normal\".",
   "related": [
    {
     "da": "almindelig",
@@ -1007,6 +1011,7 @@
   }
  },
  "norsk": {
+  "explanation": "\"Norsk\" means \"Norwegian\", both for things from Norway and for the language. Danish writes it with a small letter: \"Jeg taler norsk\" (I speak Norwegian).",
   "forms": [
    {
     "da": "en norsk bil",
@@ -1021,7 +1026,6 @@
     "en": "Norwegian cars"
    }
   ],
-  "explanation": "\"Norsk\" means \"Norwegian\", both for things from Norway and for the language. Danish writes it with a small letter: \"Jeg taler norsk\" (I speak Norwegian).",
   "related": [
    {
     "da": "Norge",
@@ -1046,6 +1050,7 @@
   }
  },
  "november": {
+  "explanation": "\"November\" means \"November\". Danish writes month names with a small letter, even in the middle of a sentence: \"i november\" (in November).",
   "forms": [
    {
     "da": "november",
@@ -1060,7 +1065,6 @@
     "en": "early in November"
    }
   ],
-  "explanation": "\"November\" means \"November\" and is spelled the same as in English. Danish writes month names with a small letter, even in the middle of a sentence: \"i november\" (in November).",
   "related": [
    {
     "da": "oktober",
@@ -1085,6 +1089,7 @@
   }
  },
  "nu": {
+  "explanation": "\"Nu\" means \"now\". Compare \"Jeg går nu\" (I am leaving now) with \"Jeg går senere\" (I am leaving later).",
   "forms": [
    {
     "da": "nu",
@@ -1099,7 +1104,6 @@
     "en": "nowadays"
    }
   ],
-  "explanation": "\"Nu\" means \"now\". Compare \"Jeg går nu\" (I am leaving now) with \"Jeg går senere\" (I am leaving later). Danes also drop \"nu\" into a sentence to soften it, with no idea of time: \"Det er nu ikke så svært\" (It is not that hard, really).",
   "related": [
    {
     "da": "senere",
@@ -1110,8 +1114,8 @@
     "en": "before"
    },
    {
-    "da": "lige nu",
-    "en": "right now"
+    "da": "i dag",
+    "en": "today"
    },
    {
     "da": "straks",
@@ -1124,6 +1128,7 @@
   }
  },
  "nudler": {
+  "explanation": "\"Nudler\" means \"noodles\", like in \"nudelsuppe\" (noodle soup).",
   "forms": [
    {
     "da": "nudler",
@@ -1138,7 +1143,6 @@
     "en": "noodles with vegetables"
    }
   ],
-  "explanation": "\"Nudler\" means \"noodles\". It is only used for several, so there is no \"en\" or \"et\" in front. \"Nudelsuppe\" means \"noodle soup\".",
   "related": [
    {
     "da": "ris",
@@ -1163,6 +1167,7 @@
   }
  },
  "nul": {
+  "explanation": "\"Nul\" means \"zero\". Compare \"Det er nul grader\" (It is zero degrees) with \"Det er ti grader\" (It is ten degrees). In sports it is also \"nil\": \"Vi vinder to–nul\" (We win two–nil).",
   "forms": [
    {
     "da": "nul",
@@ -1177,11 +1182,10 @@
     "en": "zero kroner"
    }
   ],
-  "explanation": "\"Nul\" means \"zero\". Compare \"Det er nul grader\" (It is zero degrees) with \"Det er ti grader\" (It is ten degrees). In sports it is also \"nil\": \"Vi vinder to–nul\" (We win two–nil).",
   "related": [
    {
-    "da": "en",
-    "en": "one"
+    "da": "to",
+    "en": "two"
    },
    {
     "da": "ti",
@@ -1202,6 +1206,7 @@
   }
  },
  "ny": {
+  "explanation": "\"Ny\" means \"new\". It is also part of \"nytår\" (new year), as in \"godt nytår\" (happy new year).",
   "forms": [
    {
     "da": "en ny bil",
@@ -1216,14 +1221,13 @@
     "en": "new cars"
    }
   ],
-  "explanation": "\"Ny\" means \"new\". It is also part of \"nytår\" (new year), as in \"godt nytår\" (happy new year).",
   "related": [
    {
     "da": "gammel",
     "en": "old"
    },
    {
-    "da": "nyhed",
+    "da": "en nyhed",
     "en": "a piece of news"
    },
    {
@@ -1241,6 +1245,7 @@
   }
  },
  "nyheder": {
+  "explanation": "\"Nyheder\" means \"news\". Where English says \"the news is bad\", Danish says \"nyhederne er dårlige\", literally \"the news are bad\", because the word is for more than one piece of news. One single piece of news is \"en nyhed\".",
   "forms": [
    {
     "da": "en nyhed",
@@ -1255,19 +1260,18 @@
     "en": "the news"
    }
   ],
-  "explanation": "\"Nyheder\" means \"news\". Where English says \"the news is bad\", Danish says \"nyhederne er dårlige\", literally \"the news are bad\", because the word is plural. One single piece of news is \"en nyhed\".",
   "related": [
    {
-    "da": "en nyhed",
-    "en": "a piece of news"
+    "da": "radio",
+    "en": "radio"
    },
    {
     "da": "en avis",
     "en": "a newspaper"
    },
    {
-    "da": "at se nyheder",
-    "en": "to watch the news"
+    "da": "en journalist",
+    "en": "a journalist"
    },
    {
     "da": "et tv",
@@ -1280,14 +1284,11 @@
   }
  },
  "nytårsaften": {
+  "explanation": "\"Nytårsaften\" means \"New Year's Eve\", the evening of 31 December. It is made from \"nytår\" (new year) and \"aften\" (evening).",
   "forms": [
    {
     "da": "nytårsaften",
     "en": "New Year's Eve"
-   },
-   {
-    "da": "nytårsaftensdag",
-    "en": "New Year's Eve day"
    },
    {
     "da": "til nytårsaften",
@@ -1298,7 +1299,6 @@
     "en": "on New Year's Eve"
    }
   ],
-  "explanation": "\"Nytårsaften\" means \"New Year's Eve\", the evening of 31 December. It is made from \"nytår\" (new year) and \"aften\" (evening).",
   "related": [
    {
     "da": "et nytår",
@@ -1323,6 +1323,7 @@
   }
  },
  "nå": {
+  "explanation": "\"Nå\" means \"oh\" or \"well\". You say it when you understand something or are a little surprised: \"Nå, jeg forstår\" (Oh, I see). Do not mix it up with \"nu\" (now).",
   "forms": [
    {
     "da": "Nå, okay.",
@@ -1330,14 +1331,13 @@
    },
    {
     "da": "Nå, hvad så?",
-    "en": "Well, what then?"
+    "en": "Well, what's up?"
    },
    {
     "da": "Nå, det var godt.",
     "en": "Oh, that was good."
    }
   ],
-  "explanation": "\"Nå\" is a small word like \"well\" or \"oh\". You say it when you understand something, when you move on to something new, or when you are a little surprised: \"Nå, jeg forstår\" means \"Oh, I see\". Do not mix it up with \"nu\" (now).",
   "related": [
    {
     "da": "nu",
@@ -1348,8 +1348,8 @@
     "en": "oh"
    },
    {
-    "da": "okay",
-    "en": "okay"
+    "da": "tja",
+    "en": "well"
    }
   ],
   "sentence": {
@@ -1358,6 +1358,7 @@
   }
  },
  "når": {
+  "explanation": "\"Når\" means \"when\" for things that happen every time or have not happened yet. Compare \"Når det regner, bliver jeg hjemme\" (Whenever it rains, I stay home) with \"Da jeg kom hjem, var det mørkt\" (When I came home, it was dark), which was one time in the past and uses \"da\". In a question use \"hvornår\": \"Hvornår kommer du?\" (When are you coming?).",
   "forms": [
    {
     "da": "når jeg kommer hjem",
@@ -1372,7 +1373,6 @@
     "en": "when?"
    }
   ],
-  "explanation": "\"Når\" means \"when\" for things that happen every time or have not happened yet. Compare \"Når det regner, bliver jeg hjemme\" (Whenever it rains, I stay home) with \"Da jeg kom hjem, var det mørkt\" (When I came home, it was dark), which was one time in the past and uses \"da\". In a question use \"hvornår\": \"Hvornår kommer du?\" (When are you coming?).",
   "related": [
    {
     "da": "da",
@@ -1397,6 +1397,7 @@
   }
  },
  "nær": {
+  "explanation": "\"Nær\" means \"close\" or \"near\". It is mostly used about people you are close to, like a friend or family member. For places, \"tæt på\" (close to) is more common: \"tæt på stationen\" means \"close to the station\".",
   "forms": [
    {
     "da": "en nær ven",
@@ -1411,7 +1412,6 @@
     "en": "close friends"
    }
   ],
-  "explanation": "\"Nær\" means \"close\" or \"near\". It is mostly used about people you are close to, like a friend or family member. For places, \"tæt på\" (close to) is more common: \"tæt på stationen\" means \"close to the station\".",
   "related": [
    {
     "da": "fjern",
@@ -1436,6 +1436,7 @@
   }
  },
  "næsten": {
+  "explanation": "\"Næsten\" means \"almost\". Compare \"Jeg er færdig\" (I am done) with \"Jeg er næsten færdig\" (I am almost done). Do not mix it up with \"næste\" (next): \"næste uge\" (next week).",
   "forms": [
    {
     "da": "næsten færdig",
@@ -1450,7 +1451,6 @@
     "en": "It is almost impossible."
    }
   ],
-  "explanation": "\"Næsten\" means \"almost\". Compare \"Jeg er færdig\" (I am done) with \"Jeg er næsten færdig\" (I am almost done). Do not mix it up with \"næste\" (next): \"næste uge\" (next week).",
   "related": [
    {
     "da": "helt",
@@ -1475,6 +1475,7 @@
   }
  },
  "nødt til": {
+  "explanation": "\"Nødt til\" means \"have to\" when you have no choice. It goes with \"at\" and an action: \"Jeg er nødt til at gå\" (I have to go). Compare it with \"Jeg vil gå\" (I want to go).",
   "forms": [
    {
     "da": "jeg er nødt til at gå",
@@ -1489,7 +1490,6 @@
     "en": "we have to talk"
    }
   ],
-  "explanation": "\"Nødt til\" means \"have to\" when you have no choice. It goes with \"at\" and an action: \"Jeg er nødt til at gå\" (I have to go). It is stronger than \"skal\" (must), because it means there is no other option.",
   "related": [
    {
     "da": "at skulle",

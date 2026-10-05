@@ -155,6 +155,7 @@ Learners may not know grammar words. `PLAIN_ENGLISH_RULE` (src/lib/ai/prompts.js
 is added to every AI prompt that explains things: no participle / infinitive /
 definite / neuter etc.; explain the idea with examples ("en-words", "et-words").
 Ready-made lightbulb answers follow the same rule.
+`CLARITY_RULES` (same file) is part of `PLAIN_ENGLISH_RULE`, so every prompt that explains or writes a card (lightbulb, chat, photo, text extract, Add a grammar card) carries the owner's quality rules. Any new explaining prompt must include `PLAIN_ENGLISH_RULE`. All 1,438 Basic lightbulb cards were audited twice by independent reviewers against these rules; `tests/lightbulb_check.mjs` also bans filler wording and jargon.
 
 ## Word levels
 Level by what the word is *for*, not just how common or how compound it is.

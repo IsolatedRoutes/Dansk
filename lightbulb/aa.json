@@ -1,5 +1,6 @@
 {
  "at åbne": {
+  "explanation": "\"At åbne\" means \"to open\". You can open a door, a shop or a bank account. \"Hvornår åbner I?\" (When do you open?) is what you ask a shop or office.",
   "forms": [
    {
     "da": "at åbne",
@@ -18,7 +19,6 @@
     "en": "I have opened"
    }
   ],
-  "explanation": "\"At åbne\" means \"to open\". You can open a door, a shop or a bank account. \"Hvornår åbner I?\" (When do you open?) is what you ask a shop or office.",
   "related": [
    {
     "da": "at lukke",
@@ -39,6 +39,7 @@
   }
  },
  "et år": {
+  "explanation": "\"Et år\" means \"a year\". It is also how you give your age: \"Jeg er tredive år gammel\" means \"I am thirty years old\". \"Næste år\" means \"next year\".",
   "forms": [
    {
     "da": "et år",
@@ -57,7 +58,6 @@
     "en": "the years"
    }
   ],
-  "explanation": "\"Et år\" means \"a year\". It is also how you give your age: \"Jeg er tredive år gammel\" means \"I am thirty years old\". \"Næste år\" means \"next year\".",
   "related": [
    {
     "da": "en måned",
@@ -82,6 +82,7 @@
   }
  },
  "åben": {
+  "explanation": "\"Åben\" means \"open\", for doors, shops and windows: \"Døren er åben\" (The door is open). \"At åbne\" (to open) is the action: \"Jeg åbner døren\" (I open the door).",
   "forms": [
    {
     "da": "en åben dør",
@@ -96,7 +97,6 @@
     "en": "open doors"
    }
   ],
-  "explanation": "\"Åben\" means \"open\", for doors, shops and windows, and also for people who are open-minded. The similar-looking \"at åbne\" means \"to open\" (an action), while \"åben\" describes how something is: \"Butikken er åben\" (The shop is open).",
   "related": [
    {
     "da": "lukket",
@@ -121,6 +121,7 @@
   }
  },
  "åbningstider": {
+  "explanation": "\"Åbningstider\" means \"opening hours\": \"Hvad er jeres åbningstider?\" (What are your opening hours?). It is built from \"åbning\" (opening) and \"tider\" (times).",
   "forms": [
    {
     "da": "åbningstiderne",
@@ -135,7 +136,6 @@
     "en": "long opening hours"
    }
   ],
-  "explanation": "\"Åbningstider\" means \"opening hours\", the times when a shop or an office is open. It is usually used in the plural: \"Hvad er jeres åbningstider?\" (What are your opening hours?). It is made of \"åbning\" (opening) and \"tider\" (times).",
   "related": [
    {
     "da": "åben",

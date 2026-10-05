@@ -1,5 +1,6 @@
 {
  "en weekend": {
+  "explanation": "\"En weekend\" means \"a weekend\". Say \"i weekenden\" for \"on the weekend\". On Fridays Danes say \"God weekend!\" (Have a good weekend!).",
   "forms": [
    {
     "da": "en weekend",
@@ -18,7 +19,6 @@
     "en": "the weekends"
    }
   ],
-  "explanation": "\"En weekend\" means \"a weekend\" and is the same word as in English. Say \"i weekenden\" for \"at the weekend\". On Fridays Danes say \"God weekend!\" (Have a good weekend!).",
   "related": [
    {
     "da": "en lørdag",
@@ -43,6 +43,7 @@
   }
  },
  "wifi": {
+  "explanation": "\"Wifi\" means \"wifi\": \"Er der wifi?\" (Is there wifi?).",
   "forms": [
    {
     "da": "wifi'et",
@@ -57,7 +58,6 @@
     "en": "a wifi password"
    }
   ],
-  "explanation": "\"Wifi\" means \"wifi\". In cafés, hotels and trains you can ask \"Er der wifi?\" (Is there wifi?) and \"Hvad er koden?\" (What is the code?).",
   "related": [
    {
     "da": "internet",
@@ -72,8 +72,8 @@
     "en": "a phone"
    },
    {
-    "da": "en café",
-    "en": "a café"
+    "da": "et netværk",
+    "en": "a network"
    }
   ],
   "sentence": {
@@ -82,6 +82,7 @@
   }
  },
  "wow": {
+  "explanation": "\"Wow\" means \"wow\", said when you are surprised or impressed. Add \"hvor\" (how) to say what impressed you: \"Wow, hvor stort!\" (Wow, how big!)",
   "forms": [
    {
     "da": "Wow!",
@@ -96,7 +97,6 @@
     "en": "Wow, that's big!"
    }
   ],
-  "explanation": "\"Wow\" means \"wow\" and shows surprise or being impressed, used just like in English. For the same feeling Danes also say \"hold da op\" (wow) or \"sikke noget\" (what a thing). Pair it with \"hvor\" (how) plus a describing word: \"wow, hvor flot!\" (wow, how beautiful!).",
   "related": [
    {
     "da": "hold da op",

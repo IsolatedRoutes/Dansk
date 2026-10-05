@@ -1,5 +1,6 @@
 {
  "at gifte sig": {
+  "explanation": "\"At gifte sig\" means \"to get married\". The little word \"sig\" changes to match who is marrying: \"du gifter dig\" (you get married), \"han gifter sig\" (he gets married). \"Gift\" on its own means \"married\": \"Jeg er gift\" (I am married).",
   "forms": [
    {
     "da": "at gifte sig",
@@ -18,7 +19,6 @@
     "en": "I have gotten married"
    }
   ],
-  "explanation": "\"At gifte sig\" means \"to get married\". The little word \"sig\" changes to match who is marrying: \"du gifter dig\" (you get married), \"han gifter sig\" (he gets married). \"Gift\" on its own means \"married\": \"Jeg er gift\" (I am married).",
   "related": [
    {
     "da": "gift",
@@ -39,6 +39,7 @@
   }
  },
  "at give": {
+  "explanation": "\"At give\" means \"to give\": \"Jeg giver dig bogen\" (I give you the book). It is part of many phrases, such as \"at give op\" (to give up) and \"at give besked\" (to let someone know).",
   "forms": [
    {
     "da": "at give",
@@ -57,7 +58,6 @@
     "en": "I have given"
    }
   ],
-  "explanation": "\"At give\" means \"to give\": \"Jeg giver dig bogen\" (I give you the book). It is part of many phrases, such as \"at give op\" (to give up) and \"at give besked\" (to let someone know).",
   "related": [
    {
     "da": "at tage",
@@ -78,6 +78,7 @@
   }
  },
  "at glemme": {
+  "explanation": "\"At glemme\" means \"to forget\", both facts and things you were meant to bring or do: \"Jeg glemte at ringe\" (I forgot to call).",
   "forms": [
    {
     "da": "at glemme",
@@ -96,7 +97,6 @@
     "en": "I have forgotten"
    }
   ],
-  "explanation": "\"At glemme\" means \"to forget\", both facts and things you were meant to bring or do: \"Jeg glemte at ringe\" (I forgot to call).",
   "related": [
    {
     "da": "at huske",
@@ -117,6 +117,7 @@
   }
  },
  "at godtage": {
+  "explanation": "\"At godtage\" means \"to accept\" something, like an explanation, an offer or a rule: \"Jeg kan ikke godtage forklaringen\" (I cannot accept the explanation). It sounds fairly formal; in everyday speech \"at acceptere\" (to accept) is the more usual word.",
   "forms": [
    {
     "da": "at godtage",
@@ -135,7 +136,6 @@
     "en": "I have accepted"
    }
   ],
-  "explanation": "\"At godtage\" means \"to accept\" something, like an explanation, an offer or a rule, and it sounds fairly formal. In everyday speech \"at acceptere\" (to accept) is just as common. \"At tage imod\" (to receive) is for taking something you are given.",
   "related": [
    {
     "da": "at acceptere",
@@ -160,6 +160,7 @@
   }
  },
  "at grine": {
+  "explanation": "\"At grine\" means \"to laugh\", usually out loud at something funny: \"Vi grinede meget\" (We laughed a lot). Be careful with \"grine af\" (to laugh at someone), which can sound unkind.",
   "forms": [
    {
     "da": "at grine",
@@ -178,7 +179,6 @@
     "en": "I have laughed"
    }
   ],
-  "explanation": "\"At grine\" means \"to laugh\", usually out loud at something funny: \"Vi grinede meget\" (We laughed a lot). Be careful with \"grine af\" (to laugh at someone), which can sound unkind.",
   "related": [
    {
     "da": "at le",
@@ -199,6 +199,7 @@
   }
  },
  "at græde": {
+  "explanation": "\"At græde\" means \"to cry\". \"Hvorfor græder du?\" means \"Why are you crying?\".",
   "forms": [
    {
     "da": "at græde",
@@ -217,7 +218,6 @@
     "en": "I have cried"
    }
   ],
-  "explanation": "\"At græde\" means \"to cry\", usually when people are sad. \"Hvorfor græder du?\" means \"Why are you crying?\".",
   "related": [
    {
     "da": "en tåre",
@@ -238,6 +238,7 @@
   }
  },
  "at gå": {
+  "explanation": "\"At gå\" means \"to go on foot\", so \"to walk\", and also \"to leave\": \"Jeg går nu\" (I am leaving now). It also describes how things are going (\"Det går godt\" means \"It is going well\") and buses and trains that run (\"Bussen går hver time\" means \"The bus runs every hour\"). For going by car or plane, use \"at køre\" (to drive) or \"at flyve\" (to fly) instead.",
   "forms": [
    {
     "da": "at gå",
@@ -256,7 +257,6 @@
     "en": "I have gone / walked"
    }
   ],
-  "explanation": "\"At gå\" means \"to go on foot\", so \"to walk\", and also \"to leave\": \"Jeg går nu\" (I am leaving now). It also describes how things are going (\"Det går godt\" means \"It is going well\") and is used for buses and trains that run. For going by car or plane, use \"at køre\" (to drive) or \"at flyve\" (to fly) instead.",
   "related": [
    {
     "da": "at komme",
@@ -277,6 +277,7 @@
   }
  },
  "at gå en tur": {
+  "explanation": "\"At gå en tur\" means \"to go for a walk\", just for pleasure or fresh air. You can add where: \"gå en tur i parken\" (go for a walk in the park). \"En tur\" can also mean \"a trip\", as in \"en tur til Aarhus\" (a trip to Aarhus), so the situation tells you which is meant.",
   "forms": [
    {
     "da": "at gå en tur",
@@ -295,7 +296,6 @@
     "en": "I have been for a walk"
    }
   ],
-  "explanation": "\"At gå en tur\" means \"to go for a walk\", just for pleasure or fresh air. You can add where: \"gå en tur i parken\" (go for a walk in the park). \"En tur\" can also mean \"a trip\", as in \"en tur til Aarhus\" (a trip to Aarhus), so the situation tells you which is meant.",
   "related": [
    {
     "da": "en tur",
@@ -320,6 +320,7 @@
   }
  },
  "at gå hjem": {
+  "explanation": "\"At gå hjem\" means \"to go home\", usually on foot: \"Jeg går hjem nu\" (I am going home now). By car, say \"at køre hjem\" (to drive home). \"At tage hjem\" (to head home) works whatever way you travel.",
   "forms": [
    {
     "da": "at gå hjem",
@@ -338,7 +339,6 @@
     "en": "I have gone home"
    }
   ],
-  "explanation": "\"At gå hjem\" means \"to walk home\", or more loosely \"to head home\". It is about going on foot. By car, say \"at køre hjem\" (to drive home). \"At tage hjem\" (to go home) works whatever way you travel.",
   "related": [
    {
     "da": "at tage hjem",
@@ -363,6 +363,7 @@
   }
  },
  "at gå i biografen": {
+  "explanation": "\"At gå i biografen\" means \"to go to the movies\". Literally it is \"to walk in the cinema\", but it is the normal phrase even if you drive. You can also say the shorter \"at gå i bio\" (to go to the movies).",
   "forms": [
    {
     "da": "at gå i biografen",
@@ -381,7 +382,6 @@
     "en": "I have gone to the movies"
    }
   ],
-  "explanation": "\"At gå i biografen\" means \"to go to the cinema\". Literally it is \"to walk in the cinema\", but it is the normal phrase even if you drive. Some Danes also say the shorter \"at gå i bio\" (to go to the cinema).",
   "related": [
    {
     "da": "en biograf",
@@ -406,6 +406,7 @@
   }
  },
  "at gå i seng": {
+  "explanation": "\"At gå i seng\" means \"to go to bed\": \"Godnat, jeg går i seng\" (Good night, I am going to bed). Falling asleep is something different: \"at falde i søvn\" (to fall asleep).",
   "forms": [
    {
     "da": "at gå i seng",
@@ -424,7 +425,6 @@
     "en": "I have gone to bed"
    }
   ],
-  "explanation": "\"At gå i seng\" means \"to go to bed\". Danish leaves out \"en\" (a) before \"seng\" (bed). Falling asleep is something different: \"at falde i søvn\" (to fall asleep).",
   "related": [
    {
     "da": "at stå op",
@@ -449,6 +449,7 @@
   }
  },
  "at gå ind": {
+  "explanation": "\"At gå ind\" means \"to go in\", walking into a place such as a room or a house. Danish has two little words: \"ind\" for going in, and \"inde\" for being inside: \"Han er inde i huset\" (He is inside the house).",
   "forms": [
    {
     "da": "at gå ind",
@@ -467,7 +468,6 @@
     "en": "I have gone in"
    }
   ],
-  "explanation": "\"At gå ind\" means \"to go in\", walking into a place such as a room or a house. Danish has two little words: \"ind\" for going in, and \"inde\" for being inside: \"Han er inde i huset\" (He is inside the house).",
   "related": [
    {
     "da": "at gå ud",
@@ -492,6 +492,7 @@
   }
  },
  "at gå ned": {
+  "explanation": "\"At gå ned\" means \"to go down\", such as walking down the stairs. It is also used for the sun: \"solen går ned\" means \"the sun sets\".",
   "forms": [
    {
     "da": "at gå ned",
@@ -510,7 +511,6 @@
     "en": "I have gone down"
    }
   ],
-  "explanation": "\"At gå ned\" means \"to go down\", such as walking down the stairs. It is also used for the sun: \"solen går ned\" means \"the sun sets\".",
   "related": [
    {
     "da": "at gå op",
@@ -535,6 +535,7 @@
   }
  },
  "at gå op": {
+  "explanation": "\"At gå op\" means \"to go up\", such as walking up the stairs or to an upper floor. It is also used for the sun: \"solen går op\" means \"the sun rises\".",
   "forms": [
    {
     "da": "at gå op",
@@ -553,7 +554,6 @@
     "en": "I have gone up"
    }
   ],
-  "explanation": "\"At gå op\" means \"to go up\", such as walking up the stairs or to an upper floor. It is also used for the sun: \"solen går op\" means \"the sun rises\".",
   "related": [
    {
     "da": "at gå ned",
@@ -578,6 +578,7 @@
   }
  },
  "at gå på café": {
+  "explanation": "\"At gå på café\" means \"to go to a café\". Danish says \"på café\" (literally \"on café\") with no \"en\" (a), and the same goes for \"på restaurant\" (to a restaurant).",
   "forms": [
    {
     "da": "at gå på café",
@@ -596,7 +597,6 @@
     "en": "I have gone to a café"
    }
   ],
-  "explanation": "\"At gå på café\" means \"to go to a café\". Danish says \"på café\" (literally \"on café\") with no \"en\" (a), and the same goes for \"på restaurant\" (to a restaurant).",
   "related": [
    {
     "da": "en café",
@@ -621,6 +621,7 @@
   }
  },
  "at gå tilbage": {
+  "explanation": "\"At gå tilbage\" means \"to go back\", returning to where you came from: \"Jeg går tilbage til hotellet\" (I walk back to the hotel). It is about going on foot. By car, say \"at køre tilbage\" (to drive back).",
   "forms": [
    {
     "da": "at gå tilbage",
@@ -639,7 +640,6 @@
     "en": "I have gone back"
    }
   ],
-  "explanation": "\"At gå tilbage\" means \"to go back\", returning to where you came from: \"Jeg går tilbage til hotellet\" (I walk back to the hotel). It is about going on foot. By car, say \"at køre tilbage\" (to drive back).",
   "related": [
    {
     "da": "tilbage",
@@ -664,6 +664,7 @@
   }
  },
  "at gå ud": {
+  "explanation": "\"At gå ud\" means \"to go out\", either to leave a place such as the house, or to go out for the evening, for example to a bar or restaurant: \"Skal vi gå ud?\" (Shall we go out?).",
   "forms": [
    {
     "da": "at gå ud",
@@ -682,7 +683,6 @@
     "en": "I have gone out"
    }
   ],
-  "explanation": "\"At gå ud\" means \"to go out\", either to leave a place such as the house, or to go out for the evening, for example to a bar or restaurant: \"Skal vi gå ud?\" (Shall we go out?).",
   "related": [
    {
     "da": "at gå ind",
@@ -707,6 +707,7 @@
   }
  },
  "at gå væk": {
+  "explanation": "\"At gå væk\" means \"to go away\" or \"to walk off\", leaving a place. As a command, \"Gå væk!\" means \"Go away!\", which sounds rude, so be careful.",
   "forms": [
    {
     "da": "at gå væk",
@@ -725,7 +726,6 @@
     "en": "I have gone away"
    }
   ],
-  "explanation": "\"At gå væk\" means \"to go away\" or \"to walk off\", leaving a place. As a command, \"Gå væk!\" means \"Go away!\", which sounds rude, so be careful.",
   "related": [
    {
     "da": "væk",
@@ -750,6 +750,7 @@
   }
  },
  "at gøre": {
+  "explanation": "\"At gøre\" means \"to do\", as in \"Hvad gør du?\" (What are you doing?). It can stand in for an action you do not want to repeat: \"Jeg læser, og det gør hun også\" (I am reading, and she does too). For making things, such as food, Danish uses \"at lave\" (to make): \"at lave mad\" (to cook).",
   "forms": [
    {
     "da": "at gøre",
@@ -768,15 +769,14 @@
     "en": "I have done"
    }
   ],
-  "explanation": "\"At gøre\" means \"to do\", as in \"Hvad gør du?\" (What are you doing?). It can stand in for an action you do not want to repeat: \"Jeg læser, og det gør hun også\" (I am reading, and she does too). For making things, such as food, Danish uses \"at lave\" (to make): \"at lave mad\" (to cook).",
   "related": [
    {
     "da": "at lave",
     "en": "to make / do"
    },
    {
-    "da": "at handle",
-    "en": "to act"
+    "da": "at udføre",
+    "en": "to carry out"
    },
    {
     "da": "en handling",
@@ -789,6 +789,7 @@
   }
  },
  "at gøre ondt": {
+  "explanation": "\"At gøre ondt\" means \"to hurt\". The part that hurts comes first: \"Min fod gør ondt\" (My foot hurts). You can also say \"Jeg har ondt i foden\" (I have a pain in the foot).",
   "forms": [
    {
     "da": "at gøre ondt",
@@ -807,7 +808,6 @@
     "en": "it has hurt"
    }
   ],
-  "explanation": "\"At gøre ondt\" means \"to hurt\", the standard way to say something is painful. The part that hurts comes first: \"Min fod gør ondt\" (My foot hurts). You can also say \"Jeg har ondt i foden\" (I have a pain in the foot), which literally says \"the foot\" where English says \"my foot\".",
   "related": [
    {
     "da": "ondt",
@@ -832,6 +832,7 @@
   }
  },
  "at gøre rent": {
+  "explanation": "\"At gøre rent\" means \"to clean\" a place, for example the house or the kitchen. It is built from \"gøre\" (to do) and \"rent\" (clean), so literally \"to make clean\".",
   "forms": [
    {
     "da": "at gøre rent",
@@ -850,7 +851,6 @@
     "en": "I have cleaned"
    }
   ],
-  "explanation": "\"At gøre rent\" means \"to clean\" a place, for example the house or the kitchen. It is built from \"gøre\" (to do) and \"rent\" (clean), so literally \"to make clean\". \"At rengøre\" (to clean) also exists.",
   "related": [
    {
     "da": "rengøring",
@@ -875,6 +875,7 @@
   }
  },
  "en gade": {
+  "explanation": "\"En gade\" means \"a street\", a road in a town with houses on both sides. For a bigger road, for example between towns, use \"en vej\" (a road).",
   "forms": [
    {
     "da": "en gade",
@@ -893,7 +894,6 @@
     "en": "the streets"
    }
   ],
-  "explanation": "\"En gade\" means \"a street\", a road in a town with houses on both sides. Street names often end in \"-gade\", like \"Nørregade\" (North Street). For a bigger road, for example between towns, use \"en vej\" (a road).",
   "related": [
    {
     "da": "en vej",
@@ -918,6 +918,7 @@
   }
  },
  "en gaffel": {
+  "explanation": "\"En gaffel\" means \"a fork\". You eat \"med en gaffel\" (with a fork), and \"kniv og gaffel\" means \"knife and fork\".",
   "forms": [
    {
     "da": "en gaffel",
@@ -936,7 +937,6 @@
     "en": "the forks"
    }
   ],
-  "explanation": "\"En gaffel\" means \"a fork\". You eat \"med en gaffel\" (with a fork), and \"kniv og gaffel\" means \"knife and fork\".",
   "related": [
    {
     "da": "en kniv",
@@ -961,6 +961,7 @@
   }
  },
  "en gang om ugen": {
+  "explanation": "\"En gang om ugen\" means \"once a week\". Change the number to say how often: \"tre gange om ugen\" (three times a week). Change the last word to change the time: \"en gang om dagen\" (once a day).",
   "forms": [
    {
     "da": "en gang om ugen",
@@ -975,16 +976,7 @@
     "en": "once a month"
    }
   ],
-  "explanation": "\"En gang om ugen\" means \"once a week\". Change the number to say how often: \"to gange om ugen\" (twice a week), \"tre gange om ugen\" (three times a week). Change the last word to change the time: \"en gang om dagen\" (once a day), \"en gang om måneden\" (once a month).",
   "related": [
-   {
-    "da": "en gang om dagen",
-    "en": "once a day"
-   },
-   {
-    "da": "en gang om måneden",
-    "en": "once a month"
-   },
    {
     "da": "hver uge",
     "en": "every week"
@@ -992,6 +984,14 @@
    {
     "da": "sjældent",
     "en": "rarely"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
    }
   ],
   "sentence": {
@@ -1000,6 +1000,7 @@
   }
  },
  "en giraf": {
+  "explanation": "\"En giraf\" means \"a giraffe\".",
   "forms": [
    {
     "da": "en giraf",
@@ -1018,7 +1019,6 @@
     "en": "the giraffes"
    }
   ],
-  "explanation": "\"En giraf\" means \"a giraffe\". Watch the spelling: \"giraf\" has one \"f\", but \"giraffen\" and \"giraffer\" have two.",
   "related": [
    {
     "da": "en elefant",
@@ -1043,6 +1043,7 @@
   }
  },
  "en gris": {
+  "explanation": "\"En gris\" means \"a pig\". Calling a person \"en gris\" is rude. A baby pig is \"en pattegris\" (a piglet).",
   "forms": [
    {
     "da": "en gris",
@@ -1061,7 +1062,6 @@
     "en": "the pigs"
    }
   ],
-  "explanation": "\"En gris\" means \"a pig\". Pork is \"svinekød\", built from \"et svin\" (a swine), another word for pig. Calling a person \"en gris\" is rude, as with \"pig\" in English. A baby pig is \"en pattegris\" (a piglet).",
   "related": [
    {
     "da": "et svin",
@@ -1086,6 +1086,7 @@
   }
  },
  "en grund": {
+  "explanation": "\"En grund\" means \"a reason\". \"Af den grund\" means \"for that reason\". It can also mean a plot of land that you build on.",
   "forms": [
    {
     "da": "en grund",
@@ -1104,7 +1105,6 @@
     "en": "the reasons"
    }
   ],
-  "explanation": "\"En grund\" means \"a reason\". \"Af den grund\" means \"for that reason\". It can also mean a plot of land that you build on.",
   "related": [
    {
     "da": "hvorfor",
@@ -1129,6 +1129,7 @@
   }
  },
  "en grøntsag": {
+  "explanation": "\"En grøntsag\" means \"a vegetable\". It is built from \"grøn\" (green) and \"sag\" (thing), so it is literally a \"green thing\". \"Spiser du grøntsager?\" means \"Do you eat vegetables?\".",
   "forms": [
    {
     "da": "en grøntsag",
@@ -1147,7 +1148,6 @@
     "en": "the vegetables"
    }
   ],
-  "explanation": "\"En grøntsag\" means \"a vegetable\". It is built from \"grøn\" (green) and \"sag\" (thing), so it is literally a \"green thing\". Ask \"Spiser du grøntsager?\" for \"Do you eat vegetables?\".",
   "related": [
    {
     "da": "en gulerod",
@@ -1172,6 +1172,7 @@
   }
  },
  "en guitar": {
+  "explanation": "\"En guitar\" means \"a guitar\". When you play it, Danish leaves out \"the\": \"Jeg spiller guitar\" means \"I play the guitar\", using \"at spille\" (to play).",
   "forms": [
    {
     "da": "en guitar",
@@ -1190,7 +1191,6 @@
     "en": "the guitars"
    }
   ],
-  "explanation": "\"En guitar\" means \"a guitar\". Danish has no word for \"the\" when you play it: \"Jeg spiller guitar\" is \"I play guitar\", using \"at spille\" (to play).",
   "related": [
    {
     "da": "et klaver",
@@ -1215,6 +1215,7 @@
   }
  },
  "en gulerod": {
+  "explanation": "\"En gulerod\" means \"a carrot\". It is built from \"gul\" (yellow) and \"rod\" (root), so it is literally a \"yellow root\".",
   "forms": [
    {
     "da": "en gulerod",
@@ -1233,7 +1234,6 @@
     "en": "the carrots"
    }
   ],
-  "explanation": "\"En gulerod\" means \"a carrot\". It is built from \"gul\" (yellow) and \"rod\" (root), so it is literally a \"yellow root\".",
   "related": [
    {
     "da": "en grøntsag",
@@ -1258,6 +1258,7 @@
   }
  },
  "en gåtur": {
+  "explanation": "\"En gåtur\" means \"a walk\". It is built from \"gå\" (walk) and \"tur\" (trip). You say \"at gå en tur\" or \"at tage på gåtur\", both meaning \"to go for a walk\".",
   "forms": [
    {
     "da": "en gåtur",
@@ -1276,7 +1277,6 @@
     "en": "the walks"
    }
   ],
-  "explanation": "\"En gåtur\" means \"a walk\", usually for pleasure or fresh air. It is built from \"gå\" (walk) and \"tur\" (trip). You say \"at gå en tur\" or \"at tage på gåtur\", both meaning \"to go for a walk\".",
   "related": [
    {
     "da": "at gå",
@@ -1301,6 +1301,7 @@
   }
  },
  "en gæst": {
+  "explanation": "\"En gæst\" means \"a guest\", for visitors in your home and also for hotel guests. \"Vi får gæster\" means \"We are having guests\".",
   "forms": [
    {
     "da": "en gæst",
@@ -1319,7 +1320,6 @@
     "en": "the guests"
    }
   ],
-  "explanation": "\"En gæst\" means \"a guest\", for visitors in your home and also for hotel guests. \"Vi får gæster\" means \"We are having guests\".",
   "related": [
    {
     "da": "et hotel",
@@ -1344,6 +1344,7 @@
   }
  },
  "et gavekort": {
+  "explanation": "\"Et gavekort\" means \"a gift card\", a card with money on it that you give as a present. It is made of \"en gave\" (a gift) and \"et kort\" (a card).",
   "forms": [
    {
     "da": "et gavekort",
@@ -1362,7 +1363,6 @@
     "en": "the gift cards"
    }
   ],
-  "explanation": "\"Et gavekort\" means \"a gift card\", a card with money on it that you give as a present. It is made of \"en gave\" (a gift) and \"et kort\" (a card).",
   "related": [
    {
     "da": "en gave",
@@ -1387,6 +1387,7 @@
   }
  },
  "et glas": {
+  "explanation": "\"Et glas\" means \"a glass\", both the material and a drinking glass. Danish has no word for \"of\" here: \"et glas vand\" is \"a glass of water\" and \"et glas vin\" is \"a glass of wine\".",
   "forms": [
    {
     "da": "et glas",
@@ -1405,7 +1406,6 @@
     "en": "the glasses"
    }
   ],
-  "explanation": "\"Et glas\" means \"a glass\", both the material and a drinking glass. Danish has no word for \"of\" here: \"et glas vand\" is \"a glass of water\" and \"et glas vin\" is \"a glass of wine\".",
   "related": [
    {
     "da": "en kop",
@@ -1430,6 +1430,7 @@
   }
  },
  "et gram": {
+  "explanation": "\"Et gram\" means \"a gram\", a unit of weight. \"Hundrede gram\" means \"a hundred grams\".",
   "forms": [
    {
     "da": "et gram",
@@ -1448,7 +1449,6 @@
     "en": "the grams"
    }
   ],
-  "explanation": "\"Et gram\" means \"a gram\", a unit of weight. \"Hundrede gram\" means \"a hundred grams\".",
   "related": [
    {
     "da": "et kilo",
@@ -1473,6 +1473,7 @@
   }
  },
  "et gulv": {
+  "explanation": "\"Et gulv\" means \"a floor\", the surface you walk on in a room. For a level of a building, such as \"the second floor\", Danes say \"en etage\" (a level of a building).",
   "forms": [
    {
     "da": "et gulv",
@@ -1491,7 +1492,6 @@
     "en": "the floors"
    }
   ],
-  "explanation": "\"Et gulv\" means \"a floor\", the surface you walk on in a room. For a level of a building, such as \"the second floor\", Danes say \"en etage\" (a level of a building).",
   "related": [
    {
     "da": "et loft",
@@ -1516,6 +1516,7 @@
   }
  },
  "gammel": {
+  "explanation": "\"Gammel\" means \"old\", for things (\"en gammel bil\", an old car) and for a person's age. To ask age you say \"Hvor gammel er du?\" (How old are you?) and answer \"Jeg er tredive år gammel\" (I am thirty years old).",
   "forms": [
    {
     "da": "en gammel mand",
@@ -1530,7 +1531,6 @@
     "en": "old houses"
    }
   ],
-  "explanation": "\"Gammel\" means \"old\", for things (\"en gammel bil\", an old car) and for a person's age. To ask age you say \"Hvor gammel er du?\" (How old are you?) and answer \"Jeg er tredive år gammel\" (I am thirty years old).",
   "related": [
    {
     "da": "ung",
@@ -1555,6 +1555,7 @@
   }
  },
  "gang": {
+  "explanation": "\"Gang\" means \"a time\" in the sense of an occasion: \"en gang\" means \"once\" and \"to gange\" means \"twice\". It can also mean a hallway in a house. Do not mix it up with \"tid\" (time in general). \"Hvor mange gange?\" means \"How many times?\".",
   "forms": [
    {
     "da": "en gang",
@@ -1573,7 +1574,6 @@
     "en": "the times"
    }
   ],
-  "explanation": "\"Gang\" means \"a time\" in the sense of an occasion: \"en gang\" means \"once\" and \"to gange\" means \"twice\". It can also mean a hallway in a house. Do not mix it up with \"tid\" (time in general). \"Hvor mange gange?\" means \"How many times?\".",
   "related": [
    {
     "da": "tid",
@@ -1598,6 +1598,7 @@
   }
  },
  "gerne": {
+  "explanation": "\"Gerne\" means \"gladly\" and makes you sound polite. Compare \"Jeg vil have kaffe\" (I want coffee), which sounds blunt, with \"Jeg vil gerne have kaffe\" (I would like coffee). On its own it is a friendly yes: \"Skal vi gå?\" - \"Ja, gerne!\" (Shall we go? - Yes, gladly!).",
   "forms": [
    {
     "da": "Jeg vil gerne have kaffe.",
@@ -1612,7 +1613,6 @@
     "en": "I am happy to do that."
    }
   ],
-  "explanation": "\"Gerne\" means \"gladly\" and makes you sound polite. Compare \"Jeg vil have kaffe\" (I want coffee), which sounds blunt, with \"Jeg vil gerne have kaffe\" (I would like coffee). On its own it is a friendly yes: \"Ska' vi gå?\" - \"Ja, gerne!\" (Shall we go? - Yes, gladly!). \"Det gør jeg gerne\" means \"I am happy to do that\".",
   "related": [
    {
     "da": "tak",
@@ -1637,6 +1637,7 @@
   }
  },
  "gift": {
+  "explanation": "\"Gift\" means \"married\". \"Jeg er gift\" means \"I am married\", and you add \"med\" (with) for the partner: \"gift med Peter\" (married to Peter). Careful: \"gift\" is also the word for poison, so context shows which one is meant.",
   "forms": [
    {
     "da": "en gift mand",
@@ -1651,7 +1652,6 @@
     "en": "married people"
    }
   ],
-  "explanation": "\"Gift\" means \"married\". \"Jeg er gift\" means \"I am married\", and you add \"med\" (with) for the partner: \"gift med Peter\" (married to Peter). Careful: \"gift\" is also the word for poison, so context shows which one is meant.",
   "related": [
    {
     "da": "ugift",
@@ -1676,6 +1676,7 @@
   }
  },
  "glad": {
+  "explanation": "\"Glad\" means \"happy\". \"Jeg er glad\" means \"I am happy\". Add \"for\" (for) to say what you are happy about: \"Jeg er glad for gaven\" means \"I am happy about the gift\".",
   "forms": [
    {
     "da": "en glad dreng",
@@ -1690,7 +1691,6 @@
     "en": "happy children"
    }
   ],
-  "explanation": "\"Glad\" means \"happy\" or \"glad\", and also pleased about something. \"Jeg er glad\" means \"I am happy\". Add \"for\" (for) to say what you are happy about: \"Jeg er glad for dig\" means \"I am fond of you\" (literally \"glad for you\").",
   "related": [
    {
     "da": "ked af det",
@@ -1715,10 +1715,11 @@
   }
  },
  "glad for": {
+  "explanation": "\"Glad for\" means \"fond of\" or \"happy with\" something or someone. It is milder than \"elske\" (to love): \"Jeg er glad for dig\" (I am fond of you) is a warm way to say you care about someone.",
   "forms": [
    {
     "da": "Jeg er glad for dig.",
-    "en": "I am happy with you / I am fond of you."
+    "en": "I am fond of you."
    },
    {
     "da": "Hun er glad for sin bil.",
@@ -1729,7 +1730,6 @@
     "en": "Do you like it?"
    }
   ],
-  "explanation": "\"Glad for\" means \"fond of\" or \"happy with\" something or someone. It is milder than \"elske\" (to love): \"Jeg er glad for dig\" (I am fond of you) is a warm way to say you care about someone.",
   "related": [
    {
     "da": "at holde af",
@@ -1754,6 +1754,7 @@
   }
  },
  "glædelig jul": {
+  "explanation": "\"Glædelig jul\" means \"merry Christmas\". \"Glædelig\" means \"merry\" and \"jul\" means \"Christmas\". A reply is \"i lige måde\" (same to you).",
   "forms": [
    {
     "da": "Glædelig jul!",
@@ -1768,7 +1769,6 @@
     "en": "Merry Christmas and happy New Year."
    }
   ],
-  "explanation": "\"Glædelig jul\" means \"merry Christmas\". \"Glædelig\" means \"merry\" and \"jul\" means \"Christmas\". A reply is \"i lige måde\" (same to you), and you can add \"og godt nytår\" (and happy New Year).",
   "related": [
    {
     "da": "jul",
@@ -1789,6 +1789,7 @@
   }
  },
  "god": {
+  "explanation": "\"God\" means \"good\", and it is in greetings like \"god morgen\" (good morning) and \"godt nytår\" (happy New Year). To say something goes well, use \"godt\": \"Det går godt\" (It is going well).",
   "forms": [
    {
     "da": "en god ven",
@@ -1803,7 +1804,6 @@
     "en": "good friends"
    }
   ],
-  "explanation": "\"God\" means \"good\", and it is in greetings like \"god morgen\" (good morning) and \"godt nytår\" (happy New Year). For \"better\" and \"best\" Danish uses different words: \"bedre\" and \"bedst\". To say something goes well, use \"godt\": \"Det går godt\" (It is going well).",
   "related": [
    {
     "da": "dårlig",
@@ -1828,6 +1828,7 @@
   }
  },
  "god appetit": {
+  "explanation": "\"God appetit\" means \"enjoy your meal\" and is said just before eating. A reply is \"tak\" (thanks) or \"i lige måde\" (same to you).",
   "forms": [
    {
     "da": "God appetit!",
@@ -1838,11 +1839,10 @@
     "en": "Thanks, you too."
    },
    {
-    "da": "Velbekomme.",
-    "en": "Enjoy / you're welcome."
+    "da": "God appetit, alle sammen!",
+    "en": "Enjoy your meal, everyone!"
    }
   ],
-  "explanation": "\"God appetit\" means \"enjoy your meal\", like \"bon appétit\", and is said just before eating. Danes also say \"velbekomme\" (enjoy / you're welcome), often when the food is served or after the meal. A reply is \"i lige måde\" (same to you) or \"tak\" (thanks).",
   "related": [
    {
     "da": "velbekomme",
@@ -1863,6 +1863,7 @@
   }
  },
  "god bedring": {
+  "explanation": "\"God bedring\" means \"get well soon\" and is said to someone who is ill or hurt. \"Bedring\" means \"improvement\". You can add \"med\" (with) and the problem: \"god bedring med benet\" (get well soon with your leg).",
   "forms": [
    {
     "da": "God bedring!",
@@ -1873,11 +1874,10 @@
     "en": "Get well soon with your cold."
    },
    {
-    "da": "Tak, det er pænt af dig.",
-    "en": "Thanks, that's kind of you."
+    "da": "God bedring, mor!",
+    "en": "Get well soon, Mom!"
    }
   ],
-  "explanation": "\"God bedring\" means \"get well soon\" and is said to someone who is ill or hurt. \"Bedring\" means \"improvement\". You can add \"med\" (with) and the problem: \"god bedring med benet\" (get well soon with your leg).",
   "related": [
    {
     "da": "syg",
@@ -1898,6 +1898,7 @@
   }
  },
  "god fornøjelse": {
+  "explanation": "\"God fornøjelse\" means \"enjoy\", said to someone who is about to see or do something fun. For a meal do not use it: say \"velbekomme\" or \"god appetit\" (both: enjoy your meal).",
   "forms": [
    {
     "da": "God fornøjelse!",
@@ -1912,7 +1913,6 @@
     "en": "Thanks, same to you."
    }
   ],
-  "explanation": "\"God fornøjelse\" means \"enjoy\", a wish that someone will have a good time at what they are about to do, such as a film, a concert or a party. It is not usually used for food: for meals Danes say \"velbekomme\" or \"god appetit\" (both: enjoy your meal).",
   "related": [
    {
     "da": "god tur",
@@ -1933,6 +1933,7 @@
   }
  },
  "god påske": {
+  "explanation": "\"God påske\" means \"happy Easter\" and is said before and during the Easter holiday. A reply is \"i lige måde\" (same to you).",
   "forms": [
    {
     "da": "God påske!",
@@ -1947,7 +1948,6 @@
     "en": "Thanks, you too."
    }
   ],
-  "explanation": "\"God påske\" means \"happy Easter\" and is said before and during the Easter holiday. A reply is \"i lige måde\" (same to you).",
   "related": [
    {
     "da": "påsken",
@@ -1968,6 +1968,7 @@
   }
  },
  "god til": {
+  "explanation": "\"God til\" means \"good at\" something. After \"til\" (to) you can put a thing (\"god til matematik\", good at maths) or an action with \"at\" (\"god til at synge\", good at singing).",
   "forms": [
    {
     "da": "Hun er god til dansk.",
@@ -1982,7 +1983,6 @@
     "en": "He is not good at sports."
    }
   ],
-  "explanation": "\"God til\" means \"good at\" something. After \"til\" (to) you can put a thing (\"god til matematik\", good at maths) or an action with \"at\" (\"god til at synge\", good at singing).",
   "related": [
    {
     "da": "dårlig til",
@@ -2007,6 +2007,7 @@
   }
  },
  "god tur": {
+  "explanation": "\"God tur\" means \"have a good trip\". For a longer journey you can also say \"god rejse\" (have a good journey).",
   "forms": [
    {
     "da": "God tur!",
@@ -2021,7 +2022,6 @@
     "en": "Thanks, you too."
    }
   ],
-  "explanation": "\"God tur\" means \"have a good trip\" and is said to anyone setting off, whether by car, train, bike or plane. \"Tur\" means \"trip\" or \"ride\". You can add the place: \"god tur til Aarhus\" (have a good trip to Aarhus). A reply is \"tak\" (thanks).",
   "related": [
    {
     "da": "en tur",
@@ -2042,6 +2042,7 @@
   }
  },
  "god weekend": {
+  "explanation": "\"God weekend\" means \"have a good weekend\". It is said when parting before the weekend. A reply is \"i lige måde\" (same to you). On Monday people ask \"Havde du en god weekend?\" (Did you have a good weekend?).",
   "forms": [
    {
     "da": "God weekend!",
@@ -2056,19 +2057,18 @@
     "en": "Have a good weekend, all of you."
    }
   ],
-  "explanation": "\"God weekend\" means \"have a good weekend\". It is said when parting before the weekend. A reply is \"i lige måde\" (same to you). On Monday people ask \"Havde du en god weekend?\" (Did you have a good weekend?).",
   "related": [
    {
     "da": "en weekend",
     "en": "a weekend"
    },
    {
-    "da": "i lige måde",
-    "en": "same to you"
+    "da": "hav en god dag",
+    "en": "have a good day"
    },
    {
-    "da": "god aften",
-    "en": "good evening"
+    "da": "god tur",
+    "en": "have a good trip"
    }
   ],
   "sentence": {
@@ -2077,6 +2077,7 @@
   }
  },
  "godaften": {
+  "explanation": "\"Godaften\" means \"good evening\". You say it when you meet someone in the evening. It is not used when you part for bed: then you say \"godnat\" (good night).",
   "forms": [
    {
     "da": "Godaften!",
@@ -2091,7 +2092,6 @@
     "en": "Say good evening."
    }
   ],
-  "explanation": "\"Godaften\" means \"good evening\". You say it when you meet someone in the evening. It is not used when you part for bed: then you say \"godnat\" (good night).",
   "related": [
    {
     "da": "godmorgen",
@@ -2111,11 +2111,12 @@
    }
   ],
   "sentence": {
-   "da": "Det er aften. **Godaften**, hvordan har du det?",
-   "en": "It is evening. Good evening, how are you?"
+   "da": "Solen er gået ned. **Godaften**, hvordan har du det?",
+   "en": "The sun has gone down. Good evening, how are you?"
   }
  },
  "goddag": {
+  "explanation": "\"Goddag\" means \"good day\", a polite, slightly formal way to say hello at any time of day. Friends usually say \"hej\" (hi) instead.",
   "forms": [
    {
     "da": "Goddag!",
@@ -2130,14 +2131,13 @@
     "en": "Hello, can I help?"
    }
   ],
-  "explanation": "\"Goddag\" means \"good day\", a polite, slightly formal way to say hello at any time of day. Friends usually say \"hej\" (hi) instead. You answer \"goddag\" with \"goddag\" back.",
   "related": [
    {
     "da": "hej",
     "en": "hi"
    },
    {
-    "da": "god morgen",
+    "da": "godmorgen",
     "en": "good morning"
    },
    {
@@ -2151,6 +2151,7 @@
   }
  },
  "godmorgen": {
+  "explanation": "\"Godmorgen\" means \"good morning\". Later in the day you switch to \"goddag\" (good day).",
   "forms": [
    {
     "da": "Godmorgen!",
@@ -2165,7 +2166,6 @@
     "en": "Say good morning."
    }
   ],
-  "explanation": "\"Godmorgen\" means \"good morning\". You can say it to anyone, at home, at work and in shops, until late morning. For later in the day you switch to \"goddag\" (good day).",
   "related": [
    {
     "da": "goddag",
@@ -2190,6 +2190,7 @@
   }
  },
  "godnat": {
+  "explanation": "\"Godnat\" means \"good night\" and is said when you or someone else is going to bed, or when you part late in the evening. It is not a greeting for meeting someone: for that use \"godaften\" (good evening).",
   "forms": [
    {
     "da": "Godnat!",
@@ -2204,7 +2205,6 @@
     "en": "Say good night."
    }
   ],
-  "explanation": "\"Godnat\" means \"good night\" and is said when you or someone else is going to bed, or when you part late in the evening. It is not a greeting for meeting someone: for that use \"godaften\" (good evening). You can add \"sov godt\" (sleep well).",
   "related": [
    {
     "da": "godaften",
@@ -2224,11 +2224,12 @@
    }
   ],
   "sentence": {
-   "da": "**Godnat**, sov godt!",
-   "en": "Good night, sleep well!"
+   "da": "Jeg er træt og går i seng. **Godnat**!",
+   "en": "I am tired and going to bed. Good night!"
   }
  },
  "godt nytår": {
+  "explanation": "\"Godt nytår\" means \"happy New Year\". Note the spelling: \"godt nytår\", not \"god nytår\". \"Nytår\" means \"New Year\" and \"godt\" means \"good\". A reply is \"i lige måde\" (same to you).",
   "forms": [
    {
     "da": "Godt nytår!",
@@ -2239,23 +2240,22 @@
     "en": "Happy New Year to you all."
    },
    {
-    "da": "Godt nytår, i lige måde.",
-    "en": "Happy New Year, same to you."
+    "da": "Tak, i lige måde.",
+    "en": "Thanks, same to you."
    }
   ],
-  "explanation": "\"Godt nytår\" means \"happy New Year\". Note the spelling: \"godt nytår\", not \"god nytår\". \"Nytår\" means \"New Year\" and \"godt\" means \"good\". A reply is \"i lige måde\" (same to you).",
   "related": [
    {
-    "da": "et nytår",
-    "en": "a new year"
+    "da": "en nytårsaften",
+    "en": "a New Year's Eve"
    },
    {
     "da": "glædelig jul",
     "en": "merry Christmas"
    },
    {
-    "da": "i lige måde",
-    "en": "same to you"
+    "da": "godt",
+    "en": "good"
    }
   ],
   "sentence": {
@@ -2264,21 +2264,21 @@
   }
  },
  "golf": {
+  "explanation": "\"Golf\" means \"golf\". You say \"at spille golf\" (to play golf), just like \"at spille tennis\" (to play tennis).",
   "forms": [
    {
     "da": "golf",
     "en": "golf"
    },
    {
-    "da": "golfen",
-    "en": "the golf"
-   },
-   {
     "da": "Jeg spiller golf.",
     "en": "I play golf."
+   },
+   {
+    "da": "en golfspiller",
+    "en": "a golf player"
    }
   ],
-  "explanation": "\"Golf\" means \"golf\", the sport. You say \"at spille golf\" (to play golf) with no \"a\" or \"the\" in front, just like \"at spille tennis\" (to play tennis).",
   "related": [
    {
     "da": "en golfbane",
@@ -2303,6 +2303,7 @@
   }
  },
  "grader": {
+  "explanation": "\"Grader\" means \"degrees\", and it is used for temperature: \"Det er fem grader\" means \"It is five degrees\". For below zero Danes say \"minus\": \"Det er minus to grader\" (It is minus two degrees).",
   "forms": [
    {
     "da": "en grad",
@@ -2321,7 +2322,6 @@
     "en": "the degrees"
    }
   ],
-  "explanation": "\"Grader\" means \"degrees\", and it is used for temperature: \"Det er fem grader\" means \"It is five degrees\". For below zero Danes say \"minus\": \"Det er minus to grader\" (It is minus two degrees).",
   "related": [
    {
     "da": "en temperatur",
@@ -2336,8 +2336,8 @@
     "en": "cold"
    },
    {
-    "da": "minus",
-    "en": "minus"
+    "da": "et vejr",
+    "en": "weather"
    }
   ],
   "sentence": {
@@ -2346,6 +2346,7 @@
   }
  },
  "gratis": {
+  "explanation": "\"Gratis\" means \"free\", as in costing no money: \"Kaffen er gratis\" (The coffee is free). Do not mix it up with \"fri\", which means free time or freedom: \"Jeg har fri i dag\" (I have the day off today).",
   "forms": [
    {
     "da": "gratis kaffe",
@@ -2360,7 +2361,6 @@
     "en": "free entry"
    }
   ],
-  "explanation": "\"Gratis\" means \"free\", as in costing no money: \"Kaffen er gratis\" (The coffee is free). Do not mix it up with \"fri\", which means free time or freedom: \"Jeg har fri i dag\" (I have the day off today).",
   "related": [
    {
     "da": "en rabat",
@@ -2385,6 +2385,7 @@
   }
  },
  "grim": {
+  "explanation": "\"Grim\" means \"ugly\", for people, buildings or things. It can also mean unpleasant: \"grimt vejr\" (nasty weather) and \"et grimt ord\" (a nasty word). Calling a person \"grim\" is quite blunt.",
   "forms": [
    {
     "da": "en grim bygning",
@@ -2399,7 +2400,6 @@
     "en": "ugly buildings"
    }
   ],
-  "explanation": "\"Grim\" means \"ugly\", for people, buildings or things. It can also mean unpleasant: \"grimt vejr\" (nasty weather) and \"et grimt ord\" (a nasty word). Calling a person \"grim\" is quite blunt.",
   "related": [
    {
     "da": "smuk",
@@ -2424,6 +2424,7 @@
   }
  },
  "grå": {
+  "explanation": "\"Grå\" means \"gray\". It is also used for weather: \"en grå dag\" (a gray day) is a dull, cloudy day.",
   "forms": [
    {
     "da": "en grå bil",
@@ -2438,7 +2439,6 @@
     "en": "gray cars"
    }
   ],
-  "explanation": "\"Grå\" means \"gray\". It is also used for weather: \"en grå dag\" (a gray day) is a dull, cloudy day.",
   "related": [
    {
     "da": "sort",
@@ -2463,6 +2463,7 @@
   }
  },
  "gråvejr": {
+  "explanation": "\"Gråvejr\" means \"gray weather\", dull, overcast weather with a gray sky, but not necessarily rain. It is made from \"grå\" (gray) and \"vejr\" (weather).",
   "forms": [
    {
     "da": "et gråvejr",
@@ -2477,7 +2478,6 @@
     "en": "in gray weather"
    }
   ],
-  "explanation": "\"Gråvejr\" means \"gray weather\", dull, overcast weather with a gray sky, but not necessarily rain. It is made from \"grå\" (gray) and \"vejr\" (weather).",
   "related": [
    {
     "da": "grå",
@@ -2502,6 +2502,7 @@
   }
  },
  "grækenland": {
+  "explanation": "\"Grækenland\" means \"Greece\". It is built from \"græker\" (a Greek person) and \"land\" (country).",
   "forms": [
    {
     "da": "Grækenland",
@@ -2516,7 +2517,6 @@
     "en": "I am travelling to Greece."
    }
   ],
-  "explanation": "\"Grækenland\" means \"Greece\". It is built from \"græker\" (a Greek person) and \"land\" (country).",
   "related": [
    {
     "da": "græsk",
@@ -2541,6 +2541,7 @@
   }
  },
  "græs": {
+  "explanation": "\"Græs\" means \"grass\". To mow the lawn Danes say \"at slå græs\" (literally \"to hit grass\").",
   "forms": [
    {
     "da": "græs",
@@ -2555,11 +2556,10 @@
     "en": "a lawn"
    }
   ],
-  "explanation": "\"Græs\" means \"grass\". To mow the lawn Danes say \"at slå græs\" (literally \"to hit grass\").",
   "related": [
    {
-    "da": "en græsplæne",
-    "en": "a lawn"
+    "da": "en have",
+    "en": "a garden"
    },
    {
     "da": "en mark",
@@ -2580,6 +2580,7 @@
   }
  },
  "græsk": {
+  "explanation": "\"Græsk\" means \"Greek\", for things from Greece and for the language: \"græsk mad\" (Greek food).",
   "forms": [
    {
     "da": "en græsk ø",
@@ -2594,7 +2595,6 @@
     "en": "Greek islands"
    }
   ],
-  "explanation": "\"Græsk\" means \"Greek\", for things from Greece and for the language. It has no capital letter in Danish.",
   "related": [
    {
     "da": "Grækenland",
@@ -2619,6 +2619,7 @@
   }
  },
  "grød": {
+  "explanation": "\"En grød\" means \"a porridge\", usually warm and made with milk or water. Name the kind with the grain: \"risengrød\" (rice porridge).",
   "forms": [
    {
     "da": "en grød",
@@ -2629,7 +2630,6 @@
     "en": "the porridge"
    }
   ],
-  "explanation": "\"En grød\" means \"a porridge\", a thick, warm dish of oats, rice or other grain cooked in milk or water. It is normally not counted, so you do not say \"two porridges\". Types are named by adding the grain: \"havregrød\" (oat porridge) and \"risengrød\" (rice porridge).",
   "related": [
    {
     "da": "havregrød",
@@ -2654,6 +2654,7 @@
   }
  },
  "grøn": {
+  "explanation": "\"Grøn\" means \"green\". It also means eco-friendly: \"grøn energi\" means \"green energy\". Vegetables are \"grøntsager\", literally \"green things\".",
   "forms": [
    {
     "da": "en grøn bil",
@@ -2668,7 +2669,6 @@
     "en": "green cars"
    }
   ],
-  "explanation": "\"Grøn\" means \"green\". It also means eco-friendly: \"grøn energi\" means \"green energy\". Vegetables are \"grøntsager\", literally \"green things\".",
   "related": [
    {
     "da": "lysegrøn",
@@ -2693,6 +2693,7 @@
   }
  },
  "grønland": {
+  "explanation": "\"Grønland\" means \"Greenland\". It is built from \"grøn\" (green) and \"land\" (country), so literally \"green land\".",
   "forms": [
    {
     "da": "Grønland",
@@ -2707,7 +2708,6 @@
     "en": "to Greenland"
    }
   ],
-  "explanation": "\"Grønland\" means \"Greenland\". It is built from \"grøn\" (green) and \"land\" (country), so literally \"green land\".",
   "related": [
    {
     "da": "en grønlænder",
@@ -2732,6 +2732,7 @@
   }
  },
  "grøntsager": {
+  "explanation": "\"Grøntsager\" means \"vegetables\": \"spis dine grøntsager\" (eat your vegetables). In shops you often see \"frugt og grønt\" (fruit and vegetables).",
   "forms": [
    {
     "da": "en grøntsag",
@@ -2750,7 +2751,6 @@
     "en": "the vegetables"
    }
   ],
-  "explanation": "\"Grøntsager\" means \"vegetables\". It is used for food in general: \"spis dine grøntsager\" means \"eat your vegetables\". In shops you often see \"frugt og grønt\" (fruit and vegetables).",
   "related": [
    {
     "da": "frugt",
@@ -2775,6 +2775,7 @@
   }
  },
  "gul": {
+  "explanation": "\"Gul\" means \"yellow\", the colour of \"smør\" (butter).",
   "forms": [
    {
     "da": "en gul bil",
@@ -2789,7 +2790,6 @@
     "en": "yellow cars"
    }
   ],
-  "explanation": "\"Gul\" means \"yellow\", for example the colour of \"en citron\" (a lemon) or \"smør\" (butter).",
   "related": [
    {
     "da": "rød",
@@ -2809,12 +2809,17 @@
    }
   ],
   "sentence": {
-   "da": "Citronen er **gul**.",
-   "en": "The lemon is yellow."
+   "da": "Solen er **gul**, og himlen er blå.",
+   "en": "The sun is yellow, and the sky is blue."
   }
  },
  "guld": {
+  "explanation": "\"Guld\" means \"gold\", the metal. It can also mean something very precious: \"Du er guld værd\" means \"You are worth your weight in gold\" (literally \"You are worth gold\").",
   "forms": [
+   {
+    "da": "guld",
+    "en": "gold"
+   },
    {
     "da": "guldet",
     "en": "the gold"
@@ -2824,7 +2829,6 @@
     "en": "a gold watch"
    }
   ],
-  "explanation": "\"Guld\" means \"gold\", the metal. It can also mean something very precious: \"Du er guld værd\" means \"You are worth your weight in gold\" (literally \"You are worth gold\").",
   "related": [
    {
     "da": "sølv",
@@ -2849,6 +2853,7 @@
   }
  },
  "gør det selv": {
+  "explanation": "\"Gør det selv\" means \"do it yourself\". It is made of \"gør\" (do), \"det\" (it) and \"selv\" (yourself).",
   "forms": [
    {
     "da": "Gør det selv!",
@@ -2863,7 +2868,6 @@
     "en": "a do-it-yourself project"
    }
   ],
-  "explanation": "\"Gør det selv\" means \"do it yourself\". It is made of \"gør\" (do), \"det\" (it) and \"selv\" (yourself).",
   "related": [
    {
     "da": "selv",

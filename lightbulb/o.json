@@ -1,5 +1,6 @@
 {
  "at overnatte": {
+  "explanation": "\"At overnatte\" means \"to stay overnight\", for example at a hotel, a hostel or a friend's house. \"Vi overnatter på hotel\" means \"We stay the night at a hotel\".",
   "forms": [
    {
     "da": "at overnatte",
@@ -18,7 +19,6 @@
     "en": "I have stayed overnight"
    }
   ],
-  "explanation": "\"At overnatte\" means \"to stay overnight\", for example at a hotel, a hostel or a friend's house. \"Vi overnatter på hotel\" means \"We stay the night at a hotel\".",
   "related": [
    {
     "da": "et hotel",
@@ -39,6 +39,7 @@
   }
  },
  "en onkel": {
+  "explanation": "\"En onkel\" means \"an uncle\". You say \"min onkel\" (my uncle), and \"onkel Peter\" means \"Uncle Peter\".",
   "forms": [
    {
     "da": "en onkel",
@@ -57,7 +58,6 @@
     "en": "the uncles"
    }
   ],
-  "explanation": "\"En onkel\" means \"an uncle\". Watch the spelling: \"the uncle\" is \"onklen\", not \"onkelen\", so the second \"e\" is dropped.",
   "related": [
    {
     "da": "en tante",
@@ -82,6 +82,7 @@
   }
  },
  "en ovn": {
+  "explanation": "\"En ovn\" means \"an oven\", the one you bake and roast in. Typical phrases are \"i ovnen\" (in the oven) and \"at tænde ovnen\" (to turn on the oven). The cooking surface on top is a different word, \"en kogeplade\" (a stovetop).",
   "forms": [
    {
     "da": "en ovn",
@@ -100,7 +101,6 @@
     "en": "the ovens"
    }
   ],
-  "explanation": "\"En ovn\" means \"an oven\", the one you bake and roast in. Typical phrases are \"i ovnen\" (in the oven) and \"at tænde ovnen\" (to turn on the oven). The cooking surface on top is a different word, \"en kogeplade\" (a hob).",
   "related": [
    {
     "da": "et komfur",
@@ -125,6 +125,7 @@
   }
  },
  "et offentligt toilet": {
+  "explanation": "\"Et offentligt toilet\" means \"a public restroom\", one that anyone can use, for example in a park or at a station.",
   "forms": [
    {
     "da": "et offentligt toilet",
@@ -139,7 +140,6 @@
     "en": "Where is the public restroom?"
    }
   ],
-  "explanation": "\"Et offentligt toilet\" means \"a public restroom\", one that anyone can use, for example in a park or at a station. It is built from \"offentligt\" (public) and \"toilet\" (toilet).",
   "related": [
    {
     "da": "et toilet",
@@ -164,6 +164,7 @@
   }
  },
  "et ord": {
+  "explanation": "\"Et ord\" means \"a word\". \"Hvad betyder det ord?\" means \"What does that word mean?\". A dictionary is \"en ordbog\", literally \"a word book\".",
   "forms": [
    {
     "da": "et ord",
@@ -182,7 +183,6 @@
     "en": "the words"
    }
   ],
-  "explanation": "\"Et ord\" means \"a word\". \"Hvad betyder det ord?\" means \"What does that word mean?\". A dictionary is \"en ordbog\", literally \"a word book\".",
   "related": [
    {
     "da": "en ordbog",
@@ -207,6 +207,7 @@
   }
  },
  "ofte": {
+  "explanation": "\"Ofte\" means \"often\": \"Jeg går ofte i skoven\" (I often walk in the forest). To ask, say \"Hvor ofte træner du?\" (How often do you work out?).",
   "forms": [
    {
     "da": "ofte",
@@ -221,7 +222,6 @@
     "en": "as often"
    }
   ],
-  "explanation": "\"Ofte\" means \"often\". Compare \"Jeg går ofte i skoven\" (I often walk in the forest) with \"Jeg går aldrig i skoven\" (I never walk in the forest). To ask, say \"Hvor ofte træner du?\" (How often do you work out?).",
   "related": [
    {
     "da": "altid",
@@ -246,6 +246,7 @@
   }
  },
  "og": {
+  "explanation": "\"Og\" means \"and\": \"Jeg har en bror og en søster\" (I have a brother and a sister). Do not mix it up with \"også\" (also, too): \"Jeg kan også lide te\" (I also like tea). \"Og\" sounds like a short \"o\", with no \"g\" sound.",
   "forms": [
    {
     "da": "kaffe og kage",
@@ -260,7 +261,6 @@
     "en": "and then"
    }
   ],
-  "explanation": "\"Og\" means \"and\": \"kaffe og kage\" (coffee and cake). Do not mix it up with \"også\" (also, too): \"Jeg kan lide kaffe og te\" (I like coffee and tea) but \"Jeg kan også lide te\" (I also like tea). \"Og\" sounds like a short \"o\", with no \"g\" sound.",
   "related": [
    {
     "da": "eller",
@@ -285,6 +285,7 @@
   }
  },
  "også": {
+  "explanation": "\"Også\" means \"also\" or \"too\". Compare \"Jeg kommer også\" (I am coming too) with \"Jeg kommer heller ikke\" (I am not coming either). Do not mix it up with \"og\" (and): \"te og kaffe\" (tea and coffee).",
   "forms": [
    {
     "da": "Jeg kommer også.",
@@ -299,7 +300,6 @@
     "en": "Me too!"
    }
   ],
-  "explanation": "\"Også\" means \"also\" or \"too\". Compare \"Jeg kommer også\" (I am coming too) with \"Jeg kommer heller ikke\" (I am not coming either). Do not mix it up with \"og\" (and): \"te og kaffe\" (tea and coffee).",
   "related": [
    {
     "da": "heller ikke",
@@ -324,6 +324,7 @@
   }
  },
  "okay": {
+  "explanation": "\"Okay\" means \"okay\", the same word as in English. You use it to agree or to show you understand.",
   "forms": [
    {
     "da": "Okay!",
@@ -338,7 +339,6 @@
     "en": "Okay, thanks."
    }
   ],
-  "explanation": "\"Okay\" means \"okay\", the same word as in English. You use it to agree or to show you understand.",
   "related": [
    {
     "da": "fint",
@@ -363,6 +363,7 @@
   }
  },
  "oksekød": {
+  "explanation": "\"Oksekød\" means \"beef\". It is made from \"okse\" (ox) and \"kød\" (meat), so it is literally \"ox meat\". \"Kød\" on its own means any kind of meat.",
   "forms": [
    {
     "da": "oksekød",
@@ -377,7 +378,6 @@
     "en": "minced beef"
    }
   ],
-  "explanation": "\"Oksekød\" means \"beef\". It is made from \"okse\" (ox) and \"kød\" (meat), so it is literally \"ox meat\". \"Kød\" on its own means any kind of meat.",
   "related": [
    {
     "da": "svinekød",
@@ -402,6 +402,7 @@
   }
  },
  "oktober": {
+  "explanation": "\"Oktober\" means \"October\". Danish spells it with a \"k\", where English has a \"c\". Like all month names, it is written with a small letter.",
   "forms": [
    {
     "da": "oktober",
@@ -416,7 +417,6 @@
     "en": "early in October"
    }
   ],
-  "explanation": "\"Oktober\" means \"October\". Danish spells it with a \"k\", where English has a \"c\". Like all month names, it is written with a small letter.",
   "related": [
    {
     "da": "september",
@@ -441,6 +441,7 @@
   }
  },
  "olie": {
+  "explanation": "\"Olie\" means \"oil\". Danish builds specific kinds by putting the kind in front: \"rapsolie\" (rapeseed oil).",
   "forms": [
    {
     "da": "en olie",
@@ -459,7 +460,6 @@
     "en": "the oils"
    }
   ],
-  "explanation": "\"Olie\" means \"oil\", for cooking oil and other kinds of oil. Danish builds specific kinds by putting the kind in front: \"rapsolie\" (rapeseed oil).",
   "related": [
    {
     "da": "olivenolie",
@@ -484,6 +484,7 @@
   }
  },
  "om": {
+  "explanation": "\"Om\" means \"about\", \"in\" (time from now) or \"if\". \"En bog om Danmark\" means \"a book about Denmark\". \"Om en uge\" means \"in a week\", unlike \"i en uge\" (for a week). And \"Jeg ved ikke, om han kommer\" means \"I do not know if he is coming\".",
   "forms": [
    {
     "da": "om bogen",
@@ -498,7 +499,6 @@
     "en": "in an hour"
    }
   ],
-  "explanation": "\"Om\" has three common meanings. \"En bog om Danmark\" means \"a book about Denmark\". \"Om en uge\" means \"in a week\" (from now), unlike \"i en uge\" (for a week). And \"Jeg ved ikke, om han kommer\" means \"I do not know if he is coming\".",
   "related": [
    {
     "da": "omkring",
@@ -523,6 +523,7 @@
   }
  },
  "om aftenen": {
+  "explanation": "\"Om aftenen\" means \"in the evening\", for something you do again and again. Compare \"Jeg læser om aftenen\" (I read in the evening, every evening) with \"Jeg læser i aften\" (I will read this evening, just today).",
   "forms": [
    {
     "da": "om aftenen",
@@ -533,11 +534,10 @@
     "en": "In the evening we watch TV."
    },
    {
-    "da": "Jeg læser om aftenen.",
-    "en": "I read in the evening."
+    "da": "Hvad laver du om aftenen?",
+    "en": "What do you do in the evening?"
    }
   ],
-  "explanation": "\"Om aftenen\" means \"in the evening\", for something you do again and again. Compare \"Jeg læser om aftenen\" (I read in the evening, every evening) with \"Jeg læser i aften\" (I will read this evening, just today).",
   "related": [
    {
     "da": "en aften",
@@ -562,6 +562,7 @@
   }
  },
  "om lidt": {
+  "explanation": "\"Om lidt\" means \"in a little while\" or \"soon\". Compare \"Jeg kommer nu\" (I am coming now) with \"Jeg kommer om lidt\" (I am coming in a little while).",
   "forms": [
    {
     "da": "om lidt",
@@ -576,7 +577,6 @@
     "en": "See you in a little while."
    }
   ],
-  "explanation": "\"Om lidt\" means \"in a little while\" or \"soon\". Compare \"Jeg kommer nu\" (I am coming now) with \"Jeg kommer om lidt\" (I am coming in a little while).",
   "related": [
    {
     "da": "lige nu",
@@ -601,6 +601,7 @@
   }
  },
  "om morgenen": {
+  "explanation": "\"Om morgenen\" means \"in the morning\", for something you do again and again. Compare \"Jeg drikker kaffe om morgenen\" (I drink coffee in the morning, every morning) with \"Jeg drak kaffe i morges\" (I drank coffee this morning, just today).",
   "forms": [
    {
     "da": "om morgenen",
@@ -615,7 +616,6 @@
     "en": "In the morning I drink coffee."
    }
   ],
-  "explanation": "\"Om morgenen\" means \"in the morning\", for something you do again and again. Compare \"Jeg drikker kaffe om morgenen\" (I drink coffee in the morning, every morning) with \"Jeg drak kaffe i morges\" (I drank coffee this morning, just today).",
   "related": [
    {
     "da": "en morgen",
@@ -640,6 +640,7 @@
   }
  },
  "om natten": {
+  "explanation": "\"Om natten\" means \"at night\", for something that happens every night. Compare \"Jeg sover om natten\" (I sleep at night) with \"Jeg sov dårligt i nat\" (I slept badly last night).",
   "forms": [
    {
     "da": "om natten",
@@ -654,7 +655,6 @@
     "en": "It is cold at night."
    }
   ],
-  "explanation": "\"Om natten\" means \"at night\", for something that happens every night. Compare \"Jeg sover om natten\" (I sleep at night) with \"Jeg sov dårligt i nat\" (I slept badly last night).",
   "related": [
    {
     "da": "en nat",
@@ -679,6 +679,7 @@
   }
  },
  "om ugen": {
+  "explanation": "\"Om ugen\" means \"per week\" or \"a week\". The same pattern works for a day: \"to gange om dagen\" (twice a day).",
   "forms": [
    {
     "da": "om ugen",
@@ -693,7 +694,6 @@
     "en": "I work five days a week."
    }
   ],
-  "explanation": "\"Om ugen\" means \"a week\" in \"how often\" answers. Compare \"tre gange om ugen\" (three times a week) with \"to gange om dagen\" (twice a day) and \"fem dage om ugen\" (five days a week).",
   "related": [
    {
     "da": "en uge",
@@ -718,6 +718,7 @@
   }
  },
  "omkring": {
+  "explanation": "\"Omkring\" means \"around\". It works for a place: \"Vi går omkring søen\" (We walk around the lake). It also works for a rough number or time: \"omkring tyve mennesker\" (about twenty people), \"omkring klokken otte\" (around eight o'clock).",
   "forms": [
    {
     "da": "omkring huset",
@@ -732,7 +733,6 @@
     "en": "around eight o'clock"
    }
   ],
-  "explanation": "\"Omkring\" means \"around\". It works for a place: \"Vi går omkring søen\" (We walk around the lake). It also works for a rough number or time: \"omkring tyve mennesker\" (about twenty people), \"omkring klokken otte\" (around eight o'clock).",
   "related": [
    {
     "da": "rundt",
@@ -748,15 +748,16 @@
    },
    {
     "da": "rundt om",
-    "en": "round (about)"
+    "en": "all around"
    }
   ],
   "sentence": {
-   "da": "Vi går **omkring** søen.",
-   "en": "We walk around the lake."
+   "da": "Der er mange træer **omkring** huset.",
+   "en": "There are many trees around the house."
   }
  },
  "ondt": {
+  "explanation": "\"Ondt\" means \"pain\" or \"hurt\". Danish says \"Jeg har ondt i maven\", literally \"I have pain in the stomach\", where English says \"my stomach hurts\". Do not say \"Jeg er ondt\" (I am pain).",
   "forms": [
    {
     "da": "Jeg har ondt i hovedet.",
@@ -771,7 +772,6 @@
     "en": "It hurts."
    }
   ],
-  "explanation": "\"Ondt\" means \"pain\" or \"hurt\". Danish says \"Jeg har ondt i maven\", literally \"I have pain in the stomach\", where English says \"my stomach hurts\". \"Det gør ondt\" means \"It hurts\". Do not say \"Jeg er ondt\" (I am pain).",
   "related": [
    {
     "da": "en smerte",
@@ -796,6 +796,7 @@
   }
  },
  "onsdag": {
+  "explanation": "\"Onsdag\" means \"Wednesday\". Like all day names, it starts with a small letter. Use \"på onsdag\" (on Wednesday, coming up) for the next one, and \"om onsdagen\" (on Wednesdays) for every week.",
   "forms": [
    {
     "da": "en onsdag",
@@ -814,15 +815,14 @@
     "en": "the Wednesdays"
    }
   ],
-  "explanation": "\"Onsdag\" means \"Wednesday\". Like all day names, it starts with a small letter. Use \"på onsdag\" (on Wednesday, coming up) for the next one, and \"om onsdagen\" (on Wednesdays) for every week.",
   "related": [
    {
     "da": "en tirsdag",
-    "en": "Tuesday"
+    "en": "a Tuesday"
    },
    {
     "da": "en torsdag",
-    "en": "Thursday"
+    "en": "a Thursday"
    },
    {
     "da": "en uge",
@@ -839,6 +839,7 @@
   }
  },
  "op": {
+  "explanation": "\"Op\" means \"up\", for moving up. Compare \"Kom op!\" (Come up!) with \"Han er oppe på loftet\" (He is up in the attic): \"oppe\" is for being there. It is also part of \"at stå op\" (to get up out of bed).",
   "forms": [
    {
     "da": "Gå op!",
@@ -853,7 +854,6 @@
     "en": "I walk up the stairs."
    }
   ],
-  "explanation": "\"Op\" means \"up\", for moving up. Compare \"Kom op!\" (Come up!) with \"Han er oppe på loftet\" (He is up in the attic): \"oppe\" is for being there. It is also part of \"at stå op\" (to get up out of bed).",
   "related": [
    {
     "da": "ned",
@@ -878,6 +878,7 @@
   }
  },
  "oppe": {
+  "explanation": "\"Oppe\" means \"up there\", for where something is. Compare \"Katten hopper op på bordet\" (The cat jumps up onto the table) with \"Katten er oppe på bordet\" (The cat is up on the table). \"Er du oppe?\" (Are you up?) asks whether someone is out of bed.",
   "forms": [
    {
     "da": "oppe på bordet",
@@ -892,7 +893,6 @@
     "en": "are you up (awake)?"
    }
   ],
-  "explanation": "\"Oppe\" means \"up there\", for where something is. Compare \"Katten hopper op på bordet\" (The cat jumps up onto the table) with \"Katten er oppe på bordet\" (The cat is up on the table). \"Er du oppe?\" (Are you up?) asks whether someone is out of bed.",
   "related": [
    {
     "da": "op",
@@ -917,6 +917,7 @@
   }
  },
  "optaget": {
+  "explanation": "\"Optaget\" means \"busy\", \"taken\" or \"occupied\". Use it for a phone line, a toilet, a seat, or a person who has no time. \"Er her optaget?\" (Is this taken?) asks whether a seat is taken.",
   "forms": [
    {
     "da": "en optaget linje",
@@ -931,7 +932,6 @@
     "en": "taken seats"
    }
   ],
-  "explanation": "\"Optaget\" means \"busy\" or \"taken\". Use it for a phone line, a toilet, a seat, or a person who has no time. \"Er her optaget?\" (Is this taken?) asks whether a seat is taken.",
   "related": [
    {
     "da": "ledig",
@@ -956,6 +956,7 @@
   }
  },
  "orange": {
+  "explanation": "\"Orange\" means \"orange\", the colour. For the fruit, Danes say \"en appelsin\" (an orange), not \"orange\".",
   "forms": [
    {
     "da": "en orange bil",
@@ -970,7 +971,6 @@
     "en": "orange cars"
    }
   ],
-  "explanation": "\"Orange\" means \"orange\", the colour. For the fruit, Danes say \"en appelsin\" (an orange), not \"orange\". The colour word never changes, whatever it describes.",
   "related": [
    {
     "da": "en appelsin",
@@ -995,6 +995,7 @@
   }
  },
  "os": {
+  "explanation": "\"Os\" means \"us\". Compare \"Vi ser ham\" (We see him) with \"Han ser os\" (He sees us): \"vi\" is \"we\", \"os\" is \"us\". It is also used after words like \"med\" (with): \"Kom med os!\" (Come with us!).",
   "forms": [
    {
     "da": "Han ser os.",
@@ -1009,7 +1010,6 @@
     "en": "Give us bread."
    }
   ],
-  "explanation": "\"Os\" means \"us\". Compare \"Vi ser ham\" (We see him) with \"Han ser os\" (He sees us): \"vi\" (we) does the action, \"os\" receives it. It is also used after words like \"med\" (with): \"Kom med os!\" (Come with us!).",
   "related": [
    {
     "da": "vi",
@@ -1034,6 +1034,7 @@
   }
  },
  "ost": {
+  "explanation": "\"Ost\" means \"cheese\". When you mean one kind of cheese, say \"en ost\": \"en fransk ost\" means \"a French cheese\". Without \"en\" it is cheese in general.",
   "forms": [
    {
     "da": "ost",
@@ -1048,7 +1049,6 @@
     "en": "a slice of cheese"
    }
   ],
-  "explanation": "\"Ost\" means \"cheese\". When you mean one kind of cheese, say \"en ost\": \"en fransk ost\" means \"a French cheese\". Without \"en\" it is cheese in general.",
   "related": [
    {
     "da": "smør",
@@ -1073,6 +1073,7 @@
   }
  },
  "otte": {
+  "explanation": "\"Otte\" means \"eight\". Do not mix it up with \"atten\" (eighteen): \"otte børn\" (eight children) but \"atten børn\" (eighteen children).",
   "forms": [
    {
     "da": "otte æbler",
@@ -1087,7 +1088,6 @@
     "en": "eight times"
    }
   ],
-  "explanation": "\"Otte\" means \"eight\". Compare \"otte børn\" (eight children) with \"atten børn\" (eighteen children): \"otte\" starts with \"o\", \"atten\" starts with \"a\".",
   "related": [
    {
     "da": "syv",
@@ -1112,6 +1112,7 @@
   }
  },
  "ottende": {
+  "explanation": "\"Ottende\" means \"eighth\": \"den ottende dag\" (the eighth day). It is also used for dates: \"den ottende marts\" (the eighth of March).",
   "forms": [
    {
     "da": "ottende",
@@ -1126,7 +1127,6 @@
     "en": "the eighth house"
    }
   ],
-  "explanation": "\"Ottende\" means \"eighth\". It is for order: \"den ottende dag\" (the eighth day). It is also how you say dates: \"den ottende marts\" (the eighth of March).",
   "related": [
    {
     "da": "syvende",
@@ -1151,6 +1151,7 @@
   }
  },
  "ovenpå": {
+  "explanation": "\"Ovenpå\" means \"upstairs\". It works for where something is and for going there: \"Jeg bor ovenpå\" (I live upstairs), \"Jeg går ovenpå\" (I go upstairs).",
   "forms": [
    {
     "da": "ovenpå",
@@ -1165,7 +1166,6 @@
     "en": "live upstairs"
    }
   ],
-  "explanation": "\"Ovenpå\" means \"upstairs\". It works for where something is and for going there: \"Jeg bor ovenpå\" (I live upstairs), \"Jeg går ovenpå\" (I go upstairs). Compare \"Soveværelset er ovenpå\" (The bedroom is upstairs) with \"Køkkenet er nedenunder\" (The kitchen is downstairs).",
   "related": [
    {
     "da": "nedenunder",
@@ -1190,6 +1190,7 @@
   }
  },
  "over": {
+  "explanation": "\"Over\" means \"over\", \"above\" or \"across\". Compare \"Lampen hænger over bordet\" (The lamp hangs above the table) with \"Han går over gaden\" (He walks across the street). With amounts it means \"more than\": \"over to timer\" (more than two hours).",
   "forms": [
    {
     "da": "over bordet",
@@ -1204,7 +1205,6 @@
     "en": "more than two hours"
    }
   ],
-  "explanation": "\"Over\" means \"over\", \"above\" or \"across\". Compare \"Lampen hænger over bordet\" (The lamp hangs above the table) with \"Han går over gaden\" (He walks across the street). With amounts it means \"more than\": \"over to timer\" (more than two hours).",
   "related": [
    {
     "da": "under",
@@ -1229,6 +1229,7 @@
   }
  },
  "overalt": {
+  "explanation": "\"Overalt\" means \"everywhere\".",
   "forms": [
    {
     "da": "overalt i byen",
@@ -1243,7 +1244,6 @@
     "en": "he looks everywhere"
    }
   ],
-  "explanation": "\"Overalt\" means \"everywhere\". Compare \"Jeg leder overalt\" (I look everywhere) with \"Den er ingen steder\" (It is nowhere). It can also start a sentence: \"Overalt er der blomster\" (Everywhere there are flowers).",
   "related": [
    {
     "da": "ingen steder",
@@ -1268,6 +1268,7 @@
   }
  },
  "overskyet": {
+  "explanation": "\"Overskyet\" means \"overcast\", with the whole sky covered by cloud. It is stronger than \"skyet\" (cloudy), which can mean only some clouds.",
   "forms": [
    {
     "da": "en overskyet dag",
@@ -1282,7 +1283,6 @@
     "en": "overcast days"
    }
   ],
-  "explanation": "\"Overskyet\" means \"overcast\", with the whole sky covered by cloud. It is stronger than \"skyet\" (cloudy), which can mean only some clouds.",
   "related": [
    {
     "da": "skyet",

@@ -1,5 +1,6 @@
 {
  "at undskylde": {
+  "explanation": "\"At undskylde\" means \"to apologize\", and also \"to excuse\". The short word \"Undskyld\" means both \"Sorry\" and \"Excuse me\". To say what you are sorry for, use \"Jeg undskylder for ...\" (I apologize for ...).",
   "forms": [
    {
     "da": "at undskylde",
@@ -18,7 +19,6 @@
     "en": "I have apologized"
    }
   ],
-  "explanation": "\"At undskylde\" means \"to apologize\", and also \"to excuse\". The short word \"Undskyld\" means both \"Sorry\" and \"Excuse me\". To say what you are sorry for, use \"Jeg undskylder for ...\" (I apologize for ...).",
   "related": [
    {
     "da": "undskyld",
@@ -39,6 +39,7 @@
   }
  },
  "en uge": {
+  "explanation": "\"En uge\" means \"a week\". \"I næste uge\" means \"next week\" and \"i denne uge\" means \"this week\". Weeks are counted by number: \"uge 42\" means \"week 42\".",
   "forms": [
    {
     "da": "en uge",
@@ -57,7 +58,6 @@
     "en": "the weeks"
    }
   ],
-  "explanation": "\"En uge\" means \"a week\". Useful phrases are \"i næste uge\" (next week) and \"i denne uge\" (this week). Weeks are counted by number: \"uge 42\" means \"week 42\".",
   "related": [
    {
     "da": "en dag",
@@ -82,6 +82,7 @@
   }
  },
  "en ugedag": {
+  "explanation": "\"En ugedag\" means \"a day of the week\", such as Monday or Friday. It is made from \"uge\" (week) and \"dag\" (day). Days of the week start with a small letter in Danish: \"mandag\" (Monday).",
   "forms": [
    {
     "da": "en ugedag",
@@ -100,7 +101,6 @@
     "en": "the days of the week"
    }
   ],
-  "explanation": "\"En ugedag\" means \"a day of the week\", such as Monday or Friday. It is made from \"uge\" (week) and \"dag\" (day). Days of the week start with a small letter in Danish: \"mandag\" (Monday).",
   "related": [
    {
     "da": "mandag",
@@ -125,6 +125,7 @@
   }
  },
  "et udsalg": {
+  "explanation": "\"Et udsalg\" means \"a sale\", when a shop sells things cheaper. \"Der er udsalg\" means \"There is a sale\".",
   "forms": [
    {
     "da": "et udsalg",
@@ -143,7 +144,6 @@
     "en": "the sales"
    }
   ],
-  "explanation": "\"Et udsalg\" means \"a sale\", a time when a shop sells things at lower prices. \"Der er udsalg\" means \"There is a sale\".",
   "related": [
    {
     "da": "et tilbud",
@@ -168,6 +168,7 @@
   }
  },
  "et ur": {
+  "explanation": "\"Et ur\" means \"a clock\" or \"a watch\". Do not mix it up with \"klokken\", used for telling the time: \"Hvad er klokken?\" means \"What time is it?\".",
   "forms": [
    {
     "da": "et ur",
@@ -186,7 +187,6 @@
     "en": "the clocks / watches"
    }
   ],
-  "explanation": "\"Et ur\" means \"a clock\" or \"a watch\". A watch on your wrist is \"et armbåndsur\" and a wall clock is \"et vægur\". Do not mix it up with \"klokken\", used for telling the time: \"Hvad er klokken?\" means \"What time is it?\".",
   "related": [
    {
     "da": "klokken",
@@ -197,8 +197,8 @@
     "en": "a wristwatch"
    },
    {
-    "da": "en tid",
-    "en": "a time"
+    "da": "et vækkeur",
+    "en": "an alarm clock"
    },
    {
     "da": "en time",
@@ -211,6 +211,7 @@
   }
  },
  "ud": {
+  "explanation": "\"Ud\" means \"out\" when you move from inside to outside. Compare \"Vi går ud\" (We go out) with \"Vi er ude\" (We are outside): \"ud\" is for going, \"ude\" is for being there. Careful: \"Hvordan ser det ud?\" means \"What does it look like?\".",
   "forms": [
    {
     "da": "Gå ud!",
@@ -225,7 +226,6 @@
     "en": "I go out into the garden."
    }
   ],
-  "explanation": "\"Ud\" means \"out\" when you move from inside to outside. Compare \"Vi går ud\" (We go out) with \"Vi er ude\" (We are outside): \"ud\" is for going, \"ude\" is for being there. Careful: \"Hvordan ser det ud?\" means \"What does it look like?\".",
   "related": [
    {
     "da": "ind",
@@ -250,6 +250,7 @@
   }
  },
  "uden": {
+  "explanation": "\"Uden\" means \"without\". Compare \"kaffe med mælk\" (coffee with milk) with \"kaffe uden mælk\" (coffee without milk). Before an action it is \"uden at\": \"uden at spise\" (without eating). Do not mix it up with \"udenfor\" (outside).",
   "forms": [
    {
     "da": "uden sukker",
@@ -264,7 +265,6 @@
     "en": "without saying anything"
    }
   ],
-  "explanation": "\"Uden\" means \"without\". Compare \"kaffe med mælk\" (coffee with milk) with \"kaffe uden mælk\" (coffee without milk). Before an action it is \"uden at\": \"uden at spise\" (without eating). Do not mix it up with \"udenfor\" (outside).",
   "related": [
    {
     "da": "med",
@@ -277,10 +277,6 @@
    {
     "da": "ingen",
     "en": "no / none"
-   },
-   {
-    "da": "uden at",
-    "en": "without doing"
    }
   ],
   "sentence": {
@@ -289,6 +285,7 @@
   }
  },
  "udenfor": {
+  "explanation": "\"Udenfor\" means \"outside\". It works both for being there and for going there: \"Vi er udenfor\" (We are outside) and \"Vi går udenfor\" (We go outside).",
   "forms": [
    {
     "da": "gå udenfor",
@@ -303,7 +300,6 @@
     "en": "play outside"
    }
   ],
-  "explanation": "\"Udenfor\" means \"outside\". Compare \"Børnene leger udenfor\" (The children play outside) with \"Børnene er inde\" (The children are inside). It works both for being there and for going there: \"Vi går udenfor\" (We go outside).",
   "related": [
    {
     "da": "indenfor",
@@ -328,6 +324,7 @@
   }
  },
  "udsolgt": {
+  "explanation": "\"Udsolgt\" means \"sold out\", with none left to buy. It is made of \"ud\" (out) and \"solgt\" (sold).",
   "forms": [
    {
     "da": "en udsolgt vare",
@@ -342,23 +339,22 @@
     "en": "sold-out tickets"
    }
   ],
-  "explanation": "\"Udsolgt\" means \"sold out\", with none left to buy. It is made of \"ud\" (out) and \"solgt\" (sold).",
   "related": [
    {
-    "da": "på tilbud",
-    "en": "on sale"
+    "da": "solgt",
+    "en": "sold"
+   },
+   {
+    "da": "at sælge",
+    "en": "to sell"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
    },
    {
     "da": "et udsalg",
     "en": "a sale"
-   },
-   {
-    "da": "åben",
-    "en": "open"
-   },
-   {
-    "da": "lukket",
-    "en": "closed"
    }
   ],
   "sentence": {
@@ -367,6 +363,7 @@
   }
  },
  "ugift": {
+  "explanation": "\"Ugift\" means \"unmarried\", the opposite of \"gift\" (married). \"U-\" in front of a word often makes its opposite, as in \"uvenlig\" (unfriendly), the opposite of \"venlig\" (friendly).",
   "forms": [
    {
     "da": "en ugift mand",
@@ -381,7 +378,6 @@
     "en": "unmarried people"
    }
   ],
-  "explanation": "\"Ugift\" means \"unmarried\", the opposite of \"gift\" (married). \"U-\" in front of a word often makes its opposite, as in \"uvenlig\" (unfriendly), the opposite of \"venlig\" (friendly).",
   "related": [
    {
     "da": "gift",
@@ -406,6 +402,7 @@
   }
  },
  "ukraine": {
+  "explanation": "\"Ukraine\" means \"Ukraine\", spelled just as in English. Example: \"Jeg bor i Ukraine\" (I live in Ukraine).",
   "forms": [
    {
     "da": "Ukraine",
@@ -420,7 +417,6 @@
     "en": "to Ukraine"
    }
   ],
-  "explanation": "\"Ukraine\" means \"Ukraine\", spelled just as in English. Countries take \"i\" for being there and \"til\" for going there: \"Jeg bor i Ukraine\" (I live in Ukraine).",
   "related": [
    {
     "da": "en ukrainer",
@@ -445,6 +441,7 @@
   }
  },
  "ukrainsk": {
+  "explanation": "\"Ukrainsk\" means \"Ukrainian\", for people, things and the language. It is written with a small letter, where English uses a capital.",
   "forms": [
    {
     "da": "en ukrainsk by",
@@ -459,7 +456,6 @@
     "en": "Ukrainian refugees"
    }
   ],
-  "explanation": "\"Ukrainsk\" means \"Ukrainian\", for people, things and the language. It is written with a small letter, where English uses a capital.",
   "related": [
    {
     "da": "Ukraine",
@@ -484,6 +480,7 @@
   }
  },
  "under": {
+  "explanation": "\"Under\" means \"under\" or \"during\": the same word works for a place and for a time. With numbers it means \"less than\": \"under ti\" (under ten).",
   "forms": [
    {
     "da": "under bordet",
@@ -498,7 +495,6 @@
     "en": "under ten"
    }
   ],
-  "explanation": "\"Under\" means \"under\" or \"during\". Compare \"Katten sover under sengen\" (The cat sleeps under the bed) with \"under ferien\" (during the holiday). With numbers it means \"less than\": \"under ti\" (under ten).",
   "related": [
    {
     "da": "over",
@@ -510,11 +506,11 @@
    },
    {
     "da": "nedenunder",
-    "en": "downstairs"
+    "en": "underneath"
    },
    {
-    "da": "ved",
-    "en": "by / at"
+    "da": "i løbet af",
+    "en": "during"
    }
   ],
   "sentence": {
@@ -523,6 +519,7 @@
   }
  },
  "underbukser": {
+  "explanation": "\"Underbukser\" means \"underpants\". It is built from \"under\" (under) and \"bukser\" (pants), and like \"bukser\" it is usually used in the plural.",
   "forms": [
    {
     "da": "underbukser",
@@ -537,7 +534,6 @@
     "en": "a pair of underpants"
    }
   ],
-  "explanation": "\"Underbukser\" means \"underpants\". It is built from \"under\" (under) and \"bukser\" (pants), and like \"bukser\" it is usually used in the plural.",
   "related": [
    {
     "da": "bukser",
@@ -553,7 +549,7 @@
    },
    {
     "da": "trusser",
-    "en": "underwear (women's)"
+    "en": "panties (women's)"
    }
   ],
   "sentence": {
@@ -562,6 +558,7 @@
   }
  },
  "undertøj": {
+  "explanation": "\"Undertøj\" means \"underwear\". It is built from \"under\" (under) and \"tøj\" (clothes): \"nyt undertøj\" (new underwear).",
   "forms": [
    {
     "da": "undertøj",
@@ -576,10 +573,9 @@
     "en": "the underwear"
    }
   ],
-  "explanation": "\"Undertøj\" means \"underwear\". It is built from \"under\" (under) and \"tøj\" (clothes). Like \"tøj\", it covers the whole category, so you do not count it: \"nyt undertøj\" (new underwear).",
   "related": [
    {
-    "da": "et tøj",
+    "da": "tøj",
     "en": "clothes"
    },
    {
@@ -601,6 +597,7 @@
   }
  },
  "undskyld": {
+  "explanation": "\"Undskyld\" means both \"sorry\" and \"excuse me\". You use it to apologise, as in \"Undskyld, jeg kom for sent\" (Sorry, I came too late), and to get someone's attention politely, as in \"Undskyld, må jeg komme forbi?\" (Excuse me, may I get past?). Said as a question, \"Undskyld?\" means \"Pardon?\" when you did not hear.",
   "forms": [
    {
     "da": "Undskyld!",
@@ -615,7 +612,6 @@
     "en": "Sorry, I am late."
    }
   ],
-  "explanation": "\"Undskyld\" means both \"sorry\" and \"excuse me\". You use it to apologise, as in \"Undskyld, jeg kom for sent\" (Sorry, I came too late), and to get someone's attention politely, as in \"Undskyld, må jeg komme forbi?\" (Excuse me, may I get past?). Said as a question, \"Undskyld?\" means \"Pardon?\" when you did not hear.",
   "related": [
    {
     "da": "beklager",
@@ -630,8 +626,8 @@
     "en": "pardon"
    },
    {
-    "da": "en undskyldning",
-    "en": "an excuse / apology"
+    "da": "undskyld mig",
+    "en": "excuse me"
    }
   ],
   "sentence": {
@@ -640,6 +636,7 @@
   }
  },
  "undskyld mig": {
+  "explanation": "\"Undskyld mig\" means \"excuse me\" and is used to get someone's attention or to pass by. Danes often shorten it to just \"undskyld\", which can also mean \"sorry\".",
   "forms": [
    {
     "da": "Undskyld mig!",
@@ -654,7 +651,6 @@
     "en": "Sorry, I was late."
    }
   ],
-  "explanation": "\"Undskyld mig\" means \"excuse me\" and is used to get someone's attention or to pass by. Danes often shorten it to just \"undskyld\", which can also mean \"sorry\".",
   "related": [
    {
     "da": "undskyld",
@@ -675,6 +671,7 @@
   }
  },
  "ung": {
+  "explanation": "\"Ung\" means \"young\". Compare \"Hun er ung, men han er gammel\" (She is young, but he is old). \"De unge\" (the young) means \"young people\".",
   "forms": [
    {
     "da": "en ung pige",
@@ -689,7 +686,6 @@
     "en": "young people"
    }
   ],
-  "explanation": "\"Ung\" means \"young\". \"De unge\" (literally \"the young ones\") means \"young people\". For a baby or small child Danes usually say \"et barn\" (a child) or \"lille\" (little) rather than \"ung\".",
   "related": [
    {
     "da": "gammel",
@@ -714,6 +710,7 @@
   }
  },
  "usa": {
+  "explanation": "\"USA\" means \"the USA\". You say \"Jeg bor i USA\" (I live in the USA), with no word for \"the\". It is said letter by letter, \"u-es-a\".",
   "forms": [
    {
     "da": "USA",
@@ -728,7 +725,6 @@
     "en": "to the USA"
    }
   ],
-  "explanation": "\"USA\" means \"the USA\". You say \"Jeg bor i USA\" (I live in the USA), with no word for \"the\". It is said letter by letter, \"u-es-a\".",
   "related": [
    {
     "da": "en amerikaner",
@@ -753,6 +749,7 @@
   }
  },
  "usund": {
+  "explanation": "\"Usund\" means \"unhealthy\". It is built from \"u\" (un-) and \"sund\" (healthy), like \"uvenlig\" (unfriendly).",
   "forms": [
    {
     "da": "en usund vane",
@@ -767,7 +764,6 @@
     "en": "unhealthy snacks"
    }
   ],
-  "explanation": "\"Usund\" means \"unhealthy\". It is built from \"u\" (un-) and \"sund\" (healthy), like \"uvenlig\" (unfriendly). It is used for food, habits and lifestyles.",
   "related": [
    {
     "da": "sund",

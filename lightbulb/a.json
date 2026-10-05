@@ -1,5 +1,6 @@
 {
  "af og til": {
+  "explanation": "\"Af og til\" means \"now and then\". Compare \"Jeg drikker kaffe hver dag\" (I drink coffee every day) with \"Jeg drikker kaffe af og til\" (I drink coffee now and then).",
   "forms": [
    {
     "da": "af og til",
@@ -14,7 +15,6 @@
     "en": "I go to the cinema now and then"
    }
   ],
-  "explanation": "\"Af og til\" means \"now and then\". Compare \"Jeg drikker kaffe hver dag\" (I drink coffee every day) with \"Jeg drikker kaffe af og til\" (I drink coffee now and then). It also means \"from time to time\".",
   "related": [
    {
     "da": "nogle gange",
@@ -39,6 +39,7 @@
   }
  },
  "aflyst": {
+  "explanation": "\"Aflyst\" means \"cancelled\", for example a train, a flight or an event that will not take place. It is different from \"forsinket\" (delayed): a delayed train still comes, a cancelled one does not.",
   "forms": [
    {
     "da": "en aflyst bus",
@@ -53,7 +54,6 @@
     "en": "cancelled departures"
    }
   ],
-  "explanation": "\"Aflyst\" means \"cancelled\", for example a train, a flight or an event that will not take place. It is different from \"forsinket\" (delayed): a delayed train still comes, a cancelled one does not.",
   "related": [
    {
     "da": "forsinket",
@@ -78,6 +78,7 @@
   }
  },
  "afrika": {
+  "explanation": "\"Afrika\" means \"Africa\". Add \"syd\" (south) to get \"Sydafrika\" (South Africa).",
   "forms": [
    {
     "da": "Afrika",
@@ -92,7 +93,6 @@
     "en": "to Africa"
    }
   ],
-  "explanation": "\"Afrika\" means \"Africa\". It is spelled with a \"k\", not a \"c\" as in English. Add \"syd\" (south) to get \"Sydafrika\" (South Africa).",
   "related": [
    {
     "da": "Asien",
@@ -117,6 +117,7 @@
   }
  },
  "afsted": {
+  "explanation": "\"Afsted\" means \"off\" or \"away\", for leaving a place. Compare \"Jeg er hjemme\" (I am at home) with \"Jeg skal afsted\" (I have to go / I am heading off).",
   "forms": [
    {
     "da": "jeg skal afsted",
@@ -131,7 +132,6 @@
     "en": "off you go!"
    }
   ],
-  "explanation": "\"Afsted\" means \"off\" or \"away\", for leaving a place. Compare \"Jeg er hjemme\" (I am at home) with \"Jeg skal afsted\" (I have to go / I am heading off). \"Han er afsted\" means \"He has gone\" and \"Afsted med dig!\" means \"Off you go!\".",
   "related": [
    {
     "da": "væk",
@@ -156,6 +156,7 @@
   }
  },
  "aftensmad": {
+  "explanation": "\"Aftensmad\" means \"dinner\". It is built from \"aften\" (evening) and \"mad\" (food).",
   "forms": [
    {
     "da": "aftensmad",
@@ -170,7 +171,6 @@
     "en": "for dinner"
    }
   ],
-  "explanation": "\"Aftensmad\" means \"dinner\", the meal you eat in the evening. It is built from \"aften\" (evening) and \"mad\" (food).",
   "related": [
    {
     "da": "morgenmad",
@@ -195,6 +195,7 @@
   }
  },
  "aldrig": {
+  "explanation": "\"Aldrig\" means \"never\". Compare \"Jeg drikker altid kaffe\" (I always drink coffee) with \"Jeg drikker aldrig kaffe\" (I never drink coffee). Do not add \"ikke\" (not) next to it.",
   "forms": [
    {
     "da": "aldrig",
@@ -209,7 +210,6 @@
     "en": "I have never tried it"
    }
   ],
-  "explanation": "\"Aldrig\" means \"never\". Compare \"Jeg drikker altid kaffe\" (I always drink coffee) with \"Jeg drikker aldrig kaffe\" (I never drink coffee). Do not add \"ikke\" (not) next to it.",
   "related": [
    {
     "da": "altid",
@@ -224,8 +224,8 @@
     "en": "sometimes"
    },
    {
-    "da": "aldrig mere",
-    "en": "never again"
+    "da": "sjældent",
+    "en": "rarely"
    }
   ],
   "sentence": {
@@ -234,6 +234,7 @@
   }
  },
  "alene": {
+  "explanation": "\"Alene\" means \"alone\" or \"on your own\". Compare \"Jeg bor alene\" (I live alone, nobody else is in my home) with \"Jeg er ensom\" (I feel lonely, which is a sad feeling).",
   "forms": [
    {
     "da": "Jeg er alene.",
@@ -248,7 +249,6 @@
     "en": "home alone"
    }
   ],
-  "explanation": "\"Alene\" means \"alone\" or \"on your own\". Compare \"Jeg bor alene\" (I live alone, nobody else is in my home) with \"Jeg er ensom\" (I feel lonely, which is a sad feeling). \"Alene\" only says nobody else is there.",
   "related": [
    {
     "da": "ensom",
@@ -263,8 +263,8 @@
     "en": "oneself"
    },
    {
-    "da": "en ven",
-    "en": "a friend"
+    "da": "ingen",
+    "en": "no one"
    }
   ],
   "sentence": {
@@ -273,17 +273,21 @@
   }
  },
  "alkohol": {
+  "explanation": "\"Alkohol\" means \"alcohol\". Danish does not put \"en\" (a) in front of it: \"Jeg drikker ikke alkohol\" (I do not drink alcohol).",
   "forms": [
    {
-    "da": "en alkohol",
-    "en": "an alcohol"
+    "da": "alkohol",
+    "en": "alcohol"
    },
    {
     "da": "alkoholen",
     "en": "the alcohol"
+   },
+   {
+    "da": "uden alkohol",
+    "en": "without alcohol"
    }
   ],
-  "explanation": "\"Alkohol\" means \"alcohol\". You usually say it without \"en\" in front: \"Jeg drikker ikke alkohol\" (I do not drink alcohol). \"Alkoholfri øl\" means \"alcohol-free beer\".",
   "related": [
    {
     "da": "alkoholfri",
@@ -308,6 +312,7 @@
   }
  },
  "alle": {
+  "explanation": "\"Alle\" means \"everyone\" or \"all\". Compare \"Alle er her\" (Everyone is here) with \"Alt er her\" (Everything is here).",
   "forms": [
    {
     "da": "Alle er her.",
@@ -322,7 +327,6 @@
     "en": "Hello everyone!"
    }
   ],
-  "explanation": "\"Alle\" means \"everyone\" or \"all\". Compare \"Alle er her\" (Everyone is here) with \"Alt er her\" (Everything is here). \"Alle sammen\" means \"all together\": \"Hej alle sammen!\" (Hello everyone!).",
   "related": [
    {
     "da": "alt",
@@ -347,6 +351,7 @@
   }
  },
  "allerede": {
+  "explanation": "\"Allerede\" means \"already\". Compare \"Han er her ikke endnu\" (He is not here yet) with \"Han er allerede her\" (He is already here, earlier than expected). Also \"Jeg har allerede spist\" (I have already eaten).",
   "forms": [
    {
     "da": "allerede",
@@ -361,7 +366,6 @@
     "en": "already yesterday"
    }
   ],
-  "explanation": "\"Allerede\" means \"already\". Compare \"Han er her ikke endnu\" (He is not here yet) with \"Han er allerede her\" (He is already here, earlier than expected). Also \"Jeg har allerede spist\" (I have already eaten).",
   "related": [
    {
     "da": "endnu",
@@ -386,6 +390,7 @@
   }
  },
  "allergisk": {
+  "explanation": "\"Allergisk\" means \"allergic\". To say what you are allergic to, add \"over for\" (to / towards): \"Jeg er allergisk over for nødder\" (I am allergic to nuts).",
   "forms": [
    {
     "da": "en allergisk dreng",
@@ -400,7 +405,6 @@
     "en": "allergic children"
    }
   ],
-  "explanation": "\"Allergisk\" means \"allergic\". To say what you are allergic to, Danish uses \"over for\" where English says \"to\": \"Jeg er allergisk over for nødder\" (I am allergic to nuts).",
   "related": [
    {
     "da": "en allergi",
@@ -411,12 +415,12 @@
     "en": "nuts"
    },
    {
-    "da": "en læge",
-    "en": "a doctor"
+    "da": "jordnødder",
+    "en": "peanuts"
    },
    {
-    "da": "syg",
-    "en": "sick"
+    "da": "høfeber",
+    "en": "hay fever"
    }
   ],
   "sentence": {
@@ -425,6 +429,7 @@
   }
  },
  "alt": {
+  "explanation": "\"Alt\" means \"everything\" or \"all\". Compare \"Alle er her\" (Everyone is here) with \"Alt er her\" (Everything is here). \"Alt for\" means \"far too\": \"alt for dyrt\" (far too expensive).",
   "forms": [
    {
     "da": "Jeg ved alt.",
@@ -439,7 +444,6 @@
     "en": "That is all."
    }
   ],
-  "explanation": "\"Alt\" means \"everything\" or \"all\". Compare \"Alle er her\" (Everyone is here) with \"Alt er her\" (Everything is here). \"Alt for\" means \"far too\": \"alt for dyrt\" (far too expensive).",
   "related": [
    {
     "da": "alle",
@@ -454,8 +458,8 @@
     "en": "something"
    },
    {
-    "da": "alt for",
-    "en": "far too"
+    "da": "hele",
+    "en": "the whole"
    }
   ],
   "sentence": {
@@ -464,6 +468,7 @@
   }
  },
  "altid": {
+  "explanation": "\"Altid\" means \"always\". Compare \"Jeg er aldrig træt\" (I am never tired) with \"Jeg er altid træt\" (I am always tired).",
   "forms": [
    {
     "da": "altid",
@@ -478,7 +483,6 @@
     "en": "as always"
    }
   ],
-  "explanation": "\"Altid\" means \"always\". Compare \"Jeg er aldrig træt\" (I am never tired) with \"Jeg er altid træt\" (I am always tired). \"Som altid\" means \"as always\", and \"for altid\" means \"forever\".",
   "related": [
    {
     "da": "aldrig",
@@ -503,6 +507,7 @@
   }
  },
  "altså": {
+  "explanation": "\"Altså\" means \"so\" or \"then\", when you sum up what was just said: \"Han er syg, så han kommer altså ikke\" (He is sick, so he is not coming then). It also adds emphasis, like \"really\": compare \"Det er dyrt\" (It is expensive) with \"Det er altså dyrt!\" (It really is expensive!).",
   "forms": [
    {
     "da": "så du kommer altså ikke?",
@@ -517,7 +522,6 @@
     "en": "well, I mean..."
    }
   ],
-  "explanation": "\"Altså\" means \"so\" or \"that means\". Use it to sum up: \"Du er syg, så du kommer altså ikke?\" (You are sick, so you are not coming then?). It also adds push, like \"really\": compare \"Det er dyrt\" (It is expensive) with \"Det er altså dyrt!\" (It really is expensive!).",
   "related": [
    {
     "da": "derfor",
@@ -542,6 +546,7 @@
   }
  },
  "amerikansk": {
+  "explanation": "\"Amerikansk\" means \"American\", used for things from the USA. It is written with a small letter, where English \"American\" has a capital.",
   "forms": [
    {
     "da": "en amerikansk film",
@@ -556,7 +561,6 @@
     "en": "American films"
    }
   ],
-  "explanation": "\"Amerikansk\" means \"American\", used for things from the USA. It is written with a small letter, where English \"American\" has a capital.",
   "related": [
    {
     "da": "USA",
@@ -581,6 +585,7 @@
   }
  },
  "anden": {
+  "explanation": "\"Anden\" means \"second\" and also \"other\". Compare \"min første dag\" (my first day) with \"min anden dag\" (my second day). \"Den anden bil\" can mean \"the second car\" or \"the other car\", and the situation tells you which. In dates: \"den anden juni\" (the second of June).",
   "forms": [
    {
     "da": "anden",
@@ -595,7 +600,6 @@
     "en": "the second day"
    }
   ],
-  "explanation": "\"Anden\" means \"second\" and also \"other\". Compare \"min første dag\" (my first day) with \"min anden dag\" (my second day). \"Den anden bil\" can mean \"the second car\" or \"the other car\", and the situation tells you which. In dates: \"den anden juni\" (the second of June).",
   "related": [
    {
     "da": "første",
@@ -620,6 +624,7 @@
   }
  },
  "appelsinjuice": {
+  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from \"appelsin\" (orange) and \"juice\" (juice).",
   "forms": [
    {
     "da": "en appelsinjuice",
@@ -630,15 +635,14 @@
     "en": "the orange juice"
    }
   ],
-  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from \"appelsin\" (orange) and \"juice\" (juice). \"Et glas appelsinjuice\" means \"a glass of orange juice\".",
   "related": [
    {
     "da": "en appelsin",
     "en": "an orange"
    },
    {
-    "da": "juice",
-    "en": "juice"
+    "da": "æblejuice",
+    "en": "apple juice"
    },
    {
     "da": "vand",
@@ -655,6 +659,7 @@
   }
  },
  "april": {
+  "explanation": "\"April\" means \"April\". Danish writes month names with a small letter, where English has a capital: \"i april\" (in April). \"Aprilsnar\" means \"April fool\", built from \"april\" and \"nar\" (fool).",
   "forms": [
    {
     "da": "april",
@@ -669,7 +674,6 @@
     "en": "early in April"
    }
   ],
-  "explanation": "\"April\" means \"April\". Danish writes month names with a small letter, where English has a capital: \"i april\" (in April). \"Aprilsnar\" means \"April fool\", built from \"april\" and \"nar\" (fool).",
   "related": [
    {
     "da": "marts",
@@ -684,8 +688,8 @@
     "en": "a month"
    },
    {
-    "da": "et år",
-    "en": "a year"
+    "da": "et forår",
+    "en": "a spring"
    }
   ],
   "sentence": {
@@ -694,6 +698,7 @@
   }
  },
  "arabisk": {
+  "explanation": "\"Arabisk\" means \"Arabic\", and it is used for the language and for things from the Arab world. It is written with a small letter, where English \"Arabic\" has a capital: \"Hun taler arabisk\" (She speaks Arabic).",
   "forms": [
    {
     "da": "en arabisk bog",
@@ -708,7 +713,6 @@
     "en": "Arabic words"
    }
   ],
-  "explanation": "\"Arabisk\" means \"Arabic\", and it is used for the language and for things from the Arab world. It is written with a small letter, where English \"Arabic\" has a capital: \"Hun taler arabisk\" (She speaks Arabic).",
   "related": [
    {
     "da": "arabere",
@@ -733,6 +737,7 @@
   }
  },
  "asien": {
+  "explanation": "\"Asien\" means \"Asia\": \"Hun har rejst meget i Asien\" (She has travelled a lot in Asia).",
   "forms": [
    {
     "da": "Asien",
@@ -747,7 +752,6 @@
     "en": "to Asia"
    }
   ],
-  "explanation": "\"Asien\" means \"Asia\". Danish ends it in \"-en\", where English ends in \"-a\". Example: \"Hun har rejst meget i Asien\" (She has travelled a lot in Asia).",
   "related": [
    {
     "da": "Afrika",
@@ -772,6 +776,7 @@
   }
  },
  "at arbejde": {
+  "explanation": "\"At arbejde\" means \"to work\": \"Jeg arbejder på et hospital\" (I work at a hospital). \"Et arbejde\" also means \"a job\" or \"work\" itself: \"Jeg har meget arbejde\" (I have a lot of work).",
   "forms": [
    {
     "da": "at arbejde",
@@ -790,15 +795,14 @@
     "en": "I have worked"
    }
   ],
-  "explanation": "\"At arbejde\" means \"to work\": \"Jeg arbejder på et hospital\" (I work at a hospital). \"Et arbejde\" also means \"a job\" or \"work\" itself: \"Jeg har meget arbejde\" (I have a lot of work). The \"j\" in \"arbejde\" is easy to leave out when you spell it.",
   "related": [
-   {
-    "da": "et arbejde",
-    "en": "a job / work"
-   },
    {
     "da": "en kollega",
     "en": "a colleague"
+   },
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
    },
    {
     "da": "at have fri",
@@ -811,6 +815,7 @@
   }
  },
  "atten": {
+  "explanation": "\"Atten\" means \"eighteen\". For age: \"Jeg er atten år\" (I am eighteen years old).",
   "forms": [
    {
     "da": "atten år",
@@ -825,7 +830,6 @@
     "en": "eighteen kroner"
    }
   ],
-  "explanation": "\"Atten\" means \"eighteen\". Count with it: \"sytten, atten, nitten\" (seventeen, eighteen, nineteen). For age: \"Jeg er atten år\" (I am eighteen years old).",
   "related": [
    {
     "da": "sytten",
@@ -840,8 +844,8 @@
     "en": "eight"
    },
    {
-    "da": "firs",
-    "en": "eighty"
+    "da": "tyve",
+    "en": "twenty"
    }
   ],
   "sentence": {
@@ -850,6 +854,7 @@
   }
  },
  "august": {
+  "explanation": "\"August\" means \"August\". Danish writes month names with a small letter, so you write \"i august\" (in August), not \"i August\".",
   "forms": [
    {
     "da": "august",
@@ -864,7 +869,6 @@
     "en": "early in August"
    }
   ],
-  "explanation": "\"August\" means \"August\". Danish writes month names with a small letter, so you write \"i august\" (in August), not \"i August\".",
   "related": [
    {
     "da": "juli",
@@ -889,6 +893,7 @@
   }
  },
  "australien": {
+  "explanation": "\"Australien\" means \"Australia\". Use \"i\" (in) for being there and \"til\" (to) for going there: \"Jeg bor i Australien\" (I live in Australia), \"Jeg rejser til Australien\" (I am travelling to Australia).",
   "forms": [
    {
     "da": "Australien",
@@ -903,7 +908,6 @@
     "en": "to Australia"
    }
   ],
-  "explanation": "\"Australien\" means \"Australia\". Use \"i\" for being there and \"til\" for going there: \"Jeg bor i Australien\" (I live in Australia), \"Jeg rejser til Australien\" (I am travelling to Australia).",
   "related": [
    {
     "da": "Asien",
@@ -928,6 +932,7 @@
   }
  },
  "en adresse": {
+  "explanation": "\"En adresse\" means \"an address\", the street and number where someone lives. You ask \"Hvad er din adresse?\" (What is your address?).",
   "forms": [
    {
     "da": "en adresse",
@@ -946,7 +951,6 @@
     "en": "the addresses"
    }
   ],
-  "explanation": "\"En adresse\" means \"an address\", the street and number where someone lives, as in \"Vestergade 12\" (a street name and a number).",
   "related": [
    {
     "da": "en gade",
@@ -971,6 +975,7 @@
   }
  },
  "en afgang": {
+  "explanation": "\"En afgang\" means \"a departure\", the time a train, bus or plane leaves. You can ask \"Hvornår er næste afgang?\" (When is the next departure?).",
   "forms": [
    {
     "da": "en afgang",
@@ -989,7 +994,6 @@
     "en": "the departures"
    }
   ],
-  "explanation": "\"En afgang\" means \"a departure\", the time a train, bus or plane leaves. You can ask \"Hvornår er næste afgang?\" (When is the next departure?).",
   "related": [
    {
     "da": "en ankomst",
@@ -1014,6 +1018,7 @@
   }
  },
  "en aftale": {
+  "explanation": "\"En aftale\" means \"an appointment\" or \"an agreement\". An appointment: \"en aftale med tandlægen\" (an appointment with the dentist). A deal: \"Det er en aftale!\" (It's a deal!).",
   "forms": [
    {
     "da": "en aftale",
@@ -1032,7 +1037,6 @@
     "en": "the appointments"
    }
   ],
-  "explanation": "\"En aftale\" means \"an appointment\" or \"an agreement\". \"At have en aftale\" (to have an appointment) is used for plans, for example at the doctor's. People also say \"Det er en aftale!\" for \"It's a deal!\".",
   "related": [
    {
     "da": "et møde",
@@ -1057,6 +1061,7 @@
   }
  },
  "en aften": {
+  "explanation": "\"En aften\" means \"an evening\". Useful phrases are \"i aften\" (tonight), \"om aftenen\" (in the evening, as a habit) and \"god aften\" (good evening).",
   "forms": [
    {
     "da": "en aften",
@@ -1075,7 +1080,6 @@
     "en": "the evenings"
    }
   ],
-  "explanation": "\"En aften\" means \"an evening\". Useful phrases are \"i aften\" (tonight), \"om aftenen\" (in the evening, as a habit) and \"god aften\" (good evening).",
   "related": [
    {
     "da": "en nat",
@@ -1100,6 +1104,7 @@
   }
  },
  "en agurk": {
+  "explanation": "\"En agurk\" means \"a cucumber\". Pickled ones are \"syltede agurker\" (pickled cucumbers).",
   "forms": [
    {
     "da": "en agurk",
@@ -1118,7 +1123,6 @@
     "en": "the cucumbers"
    }
   ],
-  "explanation": "\"En agurk\" means \"a cucumber\". Do not mix it up with \"en salat\", which means lettuce or a whole salad.",
   "related": [
    {
     "da": "en tomat",
@@ -1143,6 +1147,7 @@
   }
  },
  "en albue": {
+  "explanation": "\"En albue\" means \"an elbow\". Danish often says \"the elbow\" where English says \"my elbow\": \"Jeg har slået albuen\" is literally \"I have hit the elbow\", meaning \"I have hit my elbow\". \"Min albue\" is also fine.",
   "forms": [
    {
     "da": "en albue",
@@ -1161,7 +1166,6 @@
     "en": "the elbows"
    }
   ],
-  "explanation": "\"En albue\" means \"an elbow\". Danish says \"the elbow\" where English says \"my elbow\": \"Jeg har slået albuen\" is literally \"I have hit the elbow\", meaning \"I have hit my elbow\".",
   "related": [
    {
     "da": "en arm",
@@ -1186,6 +1190,7 @@
   }
  },
  "en alder": {
+  "explanation": "\"En alder\" means \"an age\", how old someone is. To ask, Danes say \"Hvor gammel er du?\" (How old are you?), because \"alder\" sounds formal, like on a form.",
   "forms": [
    {
     "da": "en alder",
@@ -1200,7 +1205,6 @@
     "en": "at your age"
    }
   ],
-  "explanation": "\"En alder\" means \"an age\", how old someone is. To ask someone's age, Danes say \"Hvor gammel er du?\" (How old are you?) rather than using \"alder\", which sounds more formal, like on a form. You will also see it in \"i min alder\" (at my age).",
   "related": [
    {
     "da": "gammel",
@@ -1216,11 +1220,12 @@
    }
   ],
   "sentence": {
-   "da": "Hvad er din **alder**? Jeg er tredive år gammel.",
-   "en": "What is your age? I am thirty years old."
+   "da": "På blanketten skal du skrive din **alder**.",
+   "en": "On the form you have to write your age."
   }
  },
  "en allergi": {
+  "explanation": "\"En allergi\" means \"an allergy\". In a restaurant you can say \"Jeg har en allergi\" (I have an allergy) or be specific, as in \"Jeg har en nøddeallergi\" (I have a nut allergy).",
   "forms": [
    {
     "da": "en allergi",
@@ -1239,7 +1244,6 @@
     "en": "the allergies"
    }
   ],
-  "explanation": "\"En allergi\" means \"an allergy\". In a restaurant you can say \"Jeg har en allergi\" (I have an allergy) or be specific, as in \"Jeg har en nøddeallergi\" (I have a nut allergy). The end is said like \"-ee\".",
   "related": [
    {
     "da": "en vegetar",
@@ -1264,6 +1268,7 @@
   }
  },
  "en ambulance": {
+  "explanation": "\"En ambulance\" means \"an ambulance\". In an emergency you can say \"Jeg har brug for en ambulance\" (I need an ambulance).",
   "forms": [
    {
     "da": "en ambulance",
@@ -1282,7 +1287,6 @@
     "en": "the ambulances"
    }
   ],
-  "explanation": "\"En ambulance\" means \"an ambulance\", and it looks much like the English word. In an emergency you can say \"Jeg har brug for en ambulance\" (I need an ambulance).",
   "related": [
    {
     "da": "en skadestue",
@@ -1307,6 +1311,7 @@
   }
  },
  "en amerikaner": {
+  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA.",
   "forms": [
    {
     "da": "en amerikaner",
@@ -1325,7 +1330,6 @@
     "en": "the Americans"
    }
   ],
-  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA, and it is used for both men and women. Unlike in English, the Danish word does not start with a capital letter.",
   "related": [
    {
     "da": "USA",
@@ -1350,6 +1354,7 @@
   }
  },
  "en ananas": {
+  "explanation": "\"En ananas\" means \"a pineapple\". Pineapple juice is \"ananasjuice\" (pineapple juice).",
   "forms": [
    {
     "da": "en ananas",
@@ -1368,7 +1373,6 @@
     "en": "the pineapples"
    }
   ],
-  "explanation": "\"En ananas\" means \"a pineapple\", the sweet yellow fruit with a spiky green top and a rough skin.",
   "related": [
    {
     "da": "en melon",
@@ -1393,6 +1397,7 @@
   }
  },
  "en and": {
+  "explanation": "\"En and\" means \"a duck\". Watch out: \"anden\" also means \"the other\" or \"second\", as in \"den anden\" (the other one), so the rest of the sentence shows which is meant.",
   "forms": [
    {
     "da": "en and",
@@ -1411,7 +1416,6 @@
     "en": "the ducks"
    }
   ],
-  "explanation": "\"En and\" means \"a duck\". Watch out: \"anden\" also means \"the other\" or \"second\", as in \"den anden\" (the other one), so the rest of the sentence shows which is meant.",
   "related": [
    {
     "da": "en gås",
@@ -1436,6 +1440,7 @@
   }
  },
  "en ankomst": {
+  "explanation": "\"En ankomst\" means \"an arrival\", the time a train, plane or person gets somewhere: \"Hvornår er ankomsten?\" (When is the arrival?)",
   "forms": [
    {
     "da": "en ankomst",
@@ -1454,7 +1459,6 @@
     "en": "the arrivals"
    }
   ],
-  "explanation": "\"En ankomst\" means \"an arrival\". On boards in stations and airports it sits opposite \"afgang\" (departure).",
   "related": [
    {
     "da": "en afgang",
@@ -1479,6 +1483,7 @@
   }
  },
  "en app": {
+  "explanation": "\"En app\" means \"an app\", a small program on your phone or tablet. To download one Danes say \"at hente en app\" (literally \"to fetch an app\"), and to open it \"at åbne appen\" (to open the app).",
   "forms": [
    {
     "da": "en app",
@@ -1497,7 +1502,6 @@
     "en": "the apps"
    }
   ],
-  "explanation": "\"En app\" means \"an app\", a small program on your phone or tablet, the same word as in English. To download one Danes say \"at hente en app\" (literally \"to fetch an app\"), and to open it \"at åbne appen\" (to open the app).",
   "related": [
    {
     "da": "en smartphone",
@@ -1512,8 +1516,8 @@
     "en": "to download / fetch"
    },
    {
-    "da": "et kodeord",
-    "en": "a password"
+    "da": "at åbne",
+    "en": "to open"
    }
   ],
   "sentence": {
@@ -1522,6 +1526,7 @@
   }
  },
  "en appelsin": {
+  "explanation": "\"En appelsin\" means \"an orange\", the fruit. The colour orange is \"orange\": \"en orange bold\" (an orange ball).",
   "forms": [
    {
     "da": "en appelsin",
@@ -1540,7 +1545,6 @@
     "en": "the oranges"
    }
   ],
-  "explanation": "\"En appelsin\" means \"an orange\", the fruit. English uses \"orange\" for both the fruit and the colour, but Danish has two words: \"appelsin\" for the fruit and \"orange\" for the colour. Orange juice is \"appelsinjuice\".",
   "related": [
    {
     "da": "en citron",
@@ -1565,6 +1569,7 @@
   }
  },
  "en arm": {
+  "explanation": "\"En arm\" means \"an arm\". Danish often says \"the arm\" where English says \"her arm\": \"Hun har brækket armen\" is literally \"She has broken the arm\", meaning \"She has broken her arm\".",
   "forms": [
    {
     "da": "en arm",
@@ -1583,7 +1588,6 @@
     "en": "the arms"
    }
   ],
-  "explanation": "\"En arm\" means \"an arm\". Danish often says \"the arm\" where English says \"her arm\": \"Hun har brækket armen\" is literally \"She has broken the arm\", meaning \"She has broken her arm\".",
   "related": [
    {
     "da": "en hånd",
@@ -1608,6 +1612,7 @@
   }
  },
  "en avis": {
+  "explanation": "\"En avis\" means \"a newspaper\", printed pages with the day's news. \"At læse avisen\" means \"to read the paper\". Do not mix it up with \"et blad\" (a magazine).",
   "forms": [
    {
     "da": "en avis",
@@ -1626,7 +1631,6 @@
     "en": "the newspapers"
    }
   ],
-  "explanation": "\"En avis\" means \"a newspaper\", printed pages with the day's news. \"At læse avisen\" means \"to read the paper\". Do not mix it up with \"et blad\" (a magazine).",
   "related": [
    {
     "da": "et blad",
@@ -1651,6 +1655,7 @@
   }
  },
  "et ansigt": {
+  "explanation": "\"Et ansigt\" means \"a face\". \"Vask dit ansigt\" means \"Wash your face\" and \"et glad ansigt\" means \"a happy face\".",
   "forms": [
    {
     "da": "et ansigt",
@@ -1669,7 +1674,6 @@
     "en": "the faces"
    }
   ],
-  "explanation": "\"Et ansigt\" means \"a face\", the part of the head with the eyes, nose and mouth. \"Vask dit ansigt\" means \"Wash your face\" and \"et glad ansigt\" means \"a happy face\".",
   "related": [
    {
     "da": "et hoved",
@@ -1694,6 +1698,7 @@
   }
  },
  "et apotek": {
+  "explanation": "\"Et apotek\" means \"a pharmacy\", the shop where you buy medicine. The person working there is \"en farmaceut\" (a pharmacist). Say \"på apoteket\" for \"at the pharmacy\".",
   "forms": [
    {
     "da": "et apotek",
@@ -1712,7 +1717,6 @@
     "en": "the pharmacies"
    }
   ],
-  "explanation": "\"Et apotek\" means \"a pharmacy\", the shop where you buy medicine. The person working there is \"en farmaceut\" (a pharmacist). Say \"på apoteket\" for \"at the pharmacy\".",
   "related": [
    {
     "da": "medicin",
@@ -1737,6 +1741,7 @@
   }
  },
  "et arbejde": {
+  "explanation": "\"Et arbejde\" means \"a job\" or \"work\". Danes say \"på arbejde\" (at work): \"Jeg er på arbejde\" means \"I am at work\", and \"at gå på arbejde\" means \"to go to work\".",
   "forms": [
    {
     "da": "et arbejde",
@@ -1747,7 +1752,6 @@
     "en": "the job / the work"
    }
   ],
-  "explanation": "\"Et arbejde\" means \"a job\" or \"work\". Danes say \"på arbejde\" (at work): \"Jeg er på arbejde\" means \"I am at work\", and \"at gå på arbejde\" means \"to go to work\".",
   "related": [
    {
     "da": "at arbejde",

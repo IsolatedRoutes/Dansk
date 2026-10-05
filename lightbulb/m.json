@@ -1,5 +1,6 @@
 {
  "at meditere": {
+  "explanation": "\"At meditere\" means \"to meditate\", to sit quietly and calm your mind. \"Jeg mediterer hver dag\" means \"I meditate every day\".",
   "forms": [
    {
     "da": "at meditere",
@@ -18,7 +19,6 @@
     "en": "I have meditated"
    }
   ],
-  "explanation": "\"At meditere\" means \"to meditate\", to sit quietly and calm your mind. \"Jeg mediterer hver dag\" means \"I meditate every day\".",
   "related": [
    {
     "da": "meditation",
@@ -33,8 +33,8 @@
     "en": "calm, peace"
    },
    {
-    "da": "mindfulness",
-    "en": "mindfulness"
+    "da": "stille",
+    "en": "quiet"
    }
   ],
   "sentence": {
@@ -43,6 +43,7 @@
   }
  },
  "at melde sig syg": {
+  "explanation": "\"At melde sig syg\" means \"to call in sick\", that is, to tell your work or school that you are ill and cannot come. It is about the act of reporting, not the illness itself: \"Jeg er syg\" (I am sick) just says how you feel.",
   "forms": [
    {
     "da": "at melde sig syg",
@@ -61,7 +62,6 @@
     "en": "I have called in sick"
    }
   ],
-  "explanation": "\"At melde sig syg\" means \"to call in sick\", that is, to tell your work or school that you are ill and cannot come. It is about the act of reporting, not the illness itself: \"Jeg er syg\" (I am sick) just says how you feel.",
   "related": [
    {
     "da": "syg",
@@ -86,6 +86,7 @@
   }
  },
  "at mene": {
+  "explanation": "\"At mene\" means \"to mean / think\": you hold an opinion. \"Jeg mener, at du har ret\" means \"I believe you are right\". \"Hvad mener du?\" means \"What do you mean?\". \"At synes\" (to think) is for feelings and taste: \"Jeg synes, at maden er god\" (I think the food is good). For the meaning of a word, Danish uses \"at betyde\" (to mean).",
   "forms": [
    {
     "da": "at mene",
@@ -104,7 +105,6 @@
     "en": "I have meant / thought"
    }
   ],
-  "explanation": "\"At mene\" means \"to mean / think\", and it is a bit stronger than \"at synes\" (to think): you hold a firm view. \"Jeg mener, at du har ret\" means \"I believe you are right\". \"Hvad mener du?\" means \"What do you mean?\". For the meaning of a word, Danish uses \"at betyde\" (to mean).",
   "related": [
    {
     "da": "at synes",
@@ -125,6 +125,7 @@
   }
  },
  "at måtte": {
+  "explanation": "\"At måtte\" means \"may / must\": it covers being allowed to and having to. \"Må jeg gå?\" means \"May I go?\", while \"Jeg må gå nu\" means \"I have to go now\". \"Du må ikke\" means \"You must not\", a strong warning. Another action word follows straight after it, with no \"at\".",
   "forms": [
    {
     "da": "at måtte",
@@ -143,7 +144,6 @@
     "en": "I have had to"
    }
   ],
-  "explanation": "\"At måtte\" means \"may / must\": it covers being allowed to and having to. \"Må jeg gå?\" means \"May I go?\", while \"Jeg må gå nu\" means \"I have to go now\". \"Du må ikke\" means \"You must not\", a strong warning. Another action word follows straight after it, with no \"at\".",
   "related": [
    {
     "da": "at kunne",
@@ -164,6 +164,7 @@
   }
  },
  "en mail": {
+  "explanation": "\"En mail\" means \"an email\". It is the short everyday word for \"en e-mail\" (an email): \"Jeg sender en mail\" means \"I am sending an email\".",
   "forms": [
    {
     "da": "en mail",
@@ -176,9 +177,12 @@
    {
     "da": "mails",
     "en": "emails"
+   },
+   {
+    "da": "mailene",
+    "en": "the emails"
    }
   ],
-  "explanation": "\"En mail\" means \"an email\". It is the short everyday word for \"en e-mail\" (an email): \"Jeg sender en mail\" means \"I am sending an email\".",
   "related": [
    {
     "da": "en e-mail",
@@ -203,14 +207,15 @@
   }
  },
  "en mand": {
+  "explanation": "\"En mand\" means \"a man\" or \"a husband\". With \"min\" (my) it means husband: \"min mand\" is \"my husband\".",
   "forms": [
    {
     "da": "en mand",
-    "en": "a husband / man"
+    "en": "a man / a husband"
    },
    {
     "da": "manden",
-    "en": "the husband / the man"
+    "en": "the man / the husband"
    },
    {
     "da": "mænd",
@@ -221,7 +226,6 @@
     "en": "the men"
    }
   ],
-  "explanation": "\"En mand\" means \"a man\" or \"a husband\". With \"min\" it means husband: \"min mand\" is \"my husband\".",
   "related": [
    {
     "da": "en kvinde",
@@ -236,8 +240,8 @@
     "en": "a boy"
    },
    {
-    "da": "en gift mand",
-    "en": "a married man"
+    "da": "en ægtemand",
+    "en": "a husband"
    }
   ],
   "sentence": {
@@ -246,6 +250,7 @@
   }
  },
  "en mave": {
+  "explanation": "\"En mave\" means \"a stomach\" or \"a belly\". You say \"Jeg har ondt i maven\" (My stomach hurts).",
   "forms": [
    {
     "da": "en mave",
@@ -264,7 +269,6 @@
     "en": "the stomachs"
    }
   ],
-  "explanation": "\"En mave\" means \"a stomach\" or \"a belly\". You say \"Jeg har ondt i maven\" (My stomach hurts), and \"mave\" also covers a round tummy.",
   "related": [
    {
     "da": "en mavepine",
@@ -289,6 +293,7 @@
   }
  },
  "en mavepine": {
+  "explanation": "\"En mavepine\" means \"a stomachache\", built from \"mave\" (stomach) and \"pine\" (pain). You say \"Jeg har mavepine\" (I have a stomachache) without \"en\". \"Jeg har ondt i maven\" (I have a pain in the stomach) means nearly the same.",
   "forms": [
    {
     "da": "en mavepine",
@@ -307,7 +312,6 @@
     "en": "the stomachaches"
    }
   ],
-  "explanation": "\"En mavepine\" means \"a stomachache\", built from \"mave\" (stomach) and \"pine\" (pain). You say \"Jeg har mavepine\" (I have a stomachache) without \"en\". \"Jeg har ondt i maven\" (I have a pain in the stomach) means nearly the same.",
   "related": [
    {
     "da": "en mave",
@@ -332,6 +336,7 @@
   }
  },
  "en melon": {
+  "explanation": "\"En melon\" means \"a melon\". Other kinds add a word in front, like \"en honningmelon\" (a honeydew melon).",
   "forms": [
    {
     "da": "en melon",
@@ -350,7 +355,6 @@
     "en": "the melons"
    }
   ],
-  "explanation": "\"En melon\" means \"a melon\". For a specific kind you say \"en vandmelon\" (a watermelon) or \"en honningmelon\" (a honeydew melon).",
   "related": [
    {
     "da": "en vandmelon",
@@ -375,6 +379,7 @@
   }
  },
  "en menu": {
+  "explanation": "\"En menu\" means \"a menu\", the list of food at a restaurant. You can ask \"Kan jeg få menuen?\" (Can I have the menu?). \"Dagens menu\" means \"the menu of the day\".",
   "forms": [
    {
     "da": "en menu",
@@ -393,7 +398,6 @@
     "en": "the menus"
    }
   ],
-  "explanation": "\"En menu\" means \"a menu\", the list of food at a restaurant. You can ask \"Kan jeg få menuen?\" (Can I have the menu?). \"Dagens menu\" means \"the menu of the day\".",
   "related": [
    {
     "da": "et menukort",
@@ -418,6 +422,7 @@
   }
  },
  "en meter": {
+  "explanation": "\"En meter\" means \"a meter\". It does not change after a number: \"to meter\" means \"two meters\", and \"to meter høj\" means \"two meters tall\".",
   "forms": [
    {
     "da": "en meter",
@@ -436,7 +441,6 @@
     "en": "the meters"
    }
   ],
-  "explanation": "\"En meter\" means \"a meter\". It does not change after a number: \"to meter\" means \"two meters\", and \"to meter høj\" means \"two meters tall\".",
   "related": [
    {
     "da": "en centimeter",
@@ -461,6 +465,7 @@
   }
  },
  "en metro": {
+  "explanation": "\"En metro\" means \"a metro\", the underground train. You travel \"med metroen\" (by metro). Do not mix it up with \"S-tog\" (the S-train), which is a different train line.",
   "forms": [
    {
     "da": "en metro",
@@ -479,7 +484,6 @@
     "en": "the metros"
    }
   ],
-  "explanation": "\"En metro\" means \"a metro\", the underground train. You travel \"med metroen\" (by metro). Do not mix it up with \"S-tog\" (the S-train), which is a different train line.",
   "related": [
    {
     "da": "et tog",
@@ -504,6 +508,7 @@
   }
  },
  "en middag": {
+  "explanation": "\"En middag\" means \"a dinner\", the main hot meal, eaten in the evening. It can also mean \"noon\", but the meal in the middle of the day is \"frokost\" (lunch).",
   "forms": [
    {
     "da": "en middag",
@@ -522,7 +527,6 @@
     "en": "the dinners"
    }
   ],
-  "explanation": "\"En middag\" means \"a dinner\", the main hot meal, usually eaten in the evening. It can also mean \"noon\", but in everyday talk it almost always means the evening meal. The meal in the middle of the day is \"frokost\" (lunch).",
   "related": [
    {
     "da": "en frokost",
@@ -547,6 +551,7 @@
   }
  },
  "en mobil": {
+  "explanation": "\"En mobil\" means \"a mobile phone\", the short everyday word for \"en mobiltelefon\" (a mobile phone). \"En telefon\" (a phone) can also be a landline.",
   "forms": [
    {
     "da": "en mobil",
@@ -565,7 +570,6 @@
     "en": "the mobile phones"
    }
   ],
-  "explanation": "\"En mobil\" means \"a mobile phone\", the short everyday word for \"en mobiltelefon\" (a mobile phone). \"En telefon\" (a phone) is wider: it can also be a phone that is not mobile.",
   "related": [
    {
     "da": "en mobiltelefon",
@@ -590,6 +594,7 @@
   }
  },
  "en mobiltelefon": {
+  "explanation": "\"En mobiltelefon\" means \"a mobile phone\", the full word, made from \"mobil\" (mobile) and \"telefon\" (phone). In daily speech people usually say \"en mobil\" (a mobile phone) instead.",
   "forms": [
    {
     "da": "en mobiltelefon",
@@ -608,7 +613,6 @@
     "en": "the mobile phones"
    }
   ],
-  "explanation": "\"En mobiltelefon\" means \"a mobile phone\", the full word, made from \"mobil\" (mobile) and \"telefon\" (phone). In daily speech Danes nearly always say \"en mobil\" (a mobile phone) instead.",
   "related": [
    {
     "da": "en mobil",
@@ -633,6 +637,7 @@
   }
  },
  "en mor": {
+  "explanation": "\"En mor\" means \"a mother\". To talk about your own, say \"min mor\" (my mother). You can also use \"mor\" like a name when speaking to her: \"Hej, mor!\" (Hi, mom!).",
   "forms": [
    {
     "da": "en mor",
@@ -651,7 +656,6 @@
     "en": "the mothers"
    }
   ],
-  "explanation": "\"En mor\" means \"a mother\". To talk about your own, say \"min mor\" (my mother). You can also use \"mor\" like a name when speaking to her: \"Hej, mor!\" (Hi, mom!).",
   "related": [
    {
     "da": "en far",
@@ -676,6 +680,7 @@
   }
  },
  "en morfar": {
+  "explanation": "\"En morfar\" means \"a grandfather\", your mother's father: \"mor\" (mother) plus \"far\" (father). Your father's father is \"en farfar\" (a grandfather, father's father).",
   "forms": [
    {
     "da": "en morfar",
@@ -694,7 +699,6 @@
     "en": "the grandfathers (mother's father)"
    }
   ],
-  "explanation": "\"En morfar\" means \"a grandfather\", your mother's father: \"mor\" (mother) plus \"far\" (father). Your father's father is \"en farfar\" (a grandfather, father's father). Danes also use \"morfar\" like a name when speaking to him.",
   "related": [
    {
     "da": "en farfar",
@@ -719,6 +723,7 @@
   }
  },
  "en morgen": {
+  "explanation": "\"En morgen\" means \"a morning\". Do not mix it up with \"i morgen\" (tomorrow) or \"i morges\" (this morning). \"Om morgenen\" means \"in the morning\" and \"godmorgen\" means \"good morning\".",
   "forms": [
    {
     "da": "en morgen",
@@ -737,7 +742,6 @@
     "en": "the mornings"
    }
   ],
-  "explanation": "\"En morgen\" means \"a morning\". Do not mix it up with \"i morgen\" (tomorrow) or \"i morges\" (this morning). \"Om morgenen\" means \"in the morning\" and \"godmorgen\" means \"good morning\".",
   "related": [
    {
     "da": "en formiddag",
@@ -762,6 +766,7 @@
   }
  },
  "en mormor": {
+  "explanation": "\"En mormor\" means \"a grandmother\", your mother's mother: \"mor\" (mother) plus \"mor\" (mother) again. Your father's mother is \"en farmor\" (a grandmother, father's mother).",
   "forms": [
    {
     "da": "en mormor",
@@ -780,7 +785,6 @@
     "en": "the grandmothers (mother's mother)"
    }
   ],
-  "explanation": "\"En mormor\" means \"a grandmother\", your mother's mother: \"mor\" (mother) plus \"mor\". Your father's mother is \"en farmor\" (a grandmother, father's mother). Children often use \"mormor\" like a name.",
   "related": [
    {
     "da": "en farmor",
@@ -805,6 +809,7 @@
   }
  },
  "en mund": {
+  "explanation": "\"En mund\" means \"a mouth\". \"Hold munden!\" means \"Shut up!\" and is rude. \"Åbn munden\" means \"Open your mouth\".",
   "forms": [
    {
     "da": "en mund",
@@ -823,7 +828,6 @@
     "en": "the mouths"
    }
   ],
-  "explanation": "\"En mund\" means \"a mouth\". \"Hold munden!\" means \"Shut up!\" and is rude. \"Åbn munden\" means \"Open your mouth\".",
   "related": [
    {
     "da": "en tand",
@@ -848,6 +852,7 @@
   }
  },
  "en mus": {
+  "explanation": "\"En mus\" means \"a mouse\". It also means the computer mouse, \"en computermus\" (a computer mouse). The plural looks the same: \"to mus\" means \"two mice\". Do not mix it up with \"en rotte\" (a rat).",
   "forms": [
    {
     "da": "en mus",
@@ -866,7 +871,6 @@
     "en": "the mice"
    }
   ],
-  "explanation": "\"En mus\" means \"a mouse\". It also means the computer mouse, \"en computermus\" (a computer mouse). The plural looks the same: \"to mus\" means \"two mice\". Do not mix it up with \"en rotte\" (a rat).",
   "related": [
    {
     "da": "en rotte",
@@ -891,6 +895,7 @@
   }
  },
  "en måde": {
+  "explanation": "\"En måde\" means \"a way\" of doing something. \"På den måde\" means \"in that way\", and \"på en eller anden måde\" means \"somehow\". Do not mix it up with \"en vej\" (a road or path).",
   "forms": [
    {
     "da": "en måde",
@@ -909,7 +914,6 @@
     "en": "the ways"
    }
   ],
-  "explanation": "\"En måde\" means \"a way\" of doing something. \"På den måde\" means \"in that way\", and \"på en eller anden måde\" means \"somehow\". Do not mix it up with \"en vej\" (a road or path).",
   "related": [
    {
     "da": "en vej",
@@ -934,6 +938,7 @@
   }
  },
  "en måne": {
+  "explanation": "\"En måne\" means \"a moon\". Do not mix it up with \"en måned\" (a month), which starts the same.",
   "forms": [
    {
     "da": "en måne",
@@ -952,7 +957,6 @@
     "en": "the moons"
    }
   ],
-  "explanation": "\"En måne\" means \"a moon\". Do not mix it up with \"en måned\" (a month), which starts the same.",
   "related": [
    {
     "da": "en sol",
@@ -977,6 +981,7 @@
   }
  },
  "en måned": {
+  "explanation": "\"En måned\" means \"a month\". \"Om måneden\" means \"per month\" and \"i denne måned\" means \"this month\".",
   "forms": [
    {
     "da": "en måned",
@@ -995,7 +1000,6 @@
     "en": "the months"
    }
   ],
-  "explanation": "\"En måned\" means \"a month\". Month names are written with a small letter in Danish: \"januar\", \"februar\" (January, February). \"Om måneden\" means \"per month\".",
   "related": [
    {
     "da": "en uge",
@@ -1020,6 +1024,7 @@
   }
  },
  "et marked": {
+  "explanation": "\"Et marked\" means \"a market\", such as an open-air place where people sell fruit, vegetables or second-hand things.",
   "forms": [
    {
     "da": "et marked",
@@ -1038,7 +1043,6 @@
     "en": "the markets"
    }
   ],
-  "explanation": "\"Et marked\" means \"a market\", such as an open-air place where people sell fruit, vegetables or second-hand things.",
   "related": [
    {
     "da": "en butik",
@@ -1063,6 +1067,7 @@
   }
  },
  "et mellemnavn": {
+  "explanation": "\"Et mellemnavn\" means \"a middle name\", a name between the first and last name. It is made of \"mellem\" (between) and \"et navn\" (a name).",
   "forms": [
    {
     "da": "et mellemnavn",
@@ -1081,7 +1086,6 @@
     "en": "the middle names"
    }
   ],
-  "explanation": "\"Et mellemnavn\" means \"a middle name\", a name between the first and last name. It is made of \"mellem\" (between) and \"et navn\" (a name).",
   "related": [
    {
     "da": "et fornavn",
@@ -1106,6 +1110,7 @@
   }
  },
  "et menneske": {
+  "explanation": "\"Et menneske\" means \"a human being\", as opposed to an animal. Its plural \"mennesker\" is the everyday word for \"people\", as in \"mange mennesker\" (many people).",
   "forms": [
    {
     "da": "et menneske",
@@ -1124,7 +1129,6 @@
     "en": "the human beings"
    }
   ],
-  "explanation": "\"Et menneske\" means \"a human being\", as opposed to an animal. Its plural \"mennesker\" is the everyday word for \"people\", as in \"mange mennesker\" (many people).",
   "related": [
    {
     "da": "en person",
@@ -1149,6 +1153,7 @@
   }
  },
  "et menukort": {
+  "explanation": "\"Et menukort\" means \"a menu\", the list of dishes and drinks in a restaurant. You can ask a waiter \"Må jeg se menukortet?\" (May I see the menu?). \"En menu\" is a set meal with several courses.",
   "forms": [
    {
     "da": "et menukort",
@@ -1167,7 +1172,6 @@
     "en": "the menus"
    }
   ],
-  "explanation": "\"Et menukort\" means \"a menu\", the list of dishes and drinks in a restaurant. You can ask a waiter \"Må jeg se menukortet?\" (May I see the menu?). \"En menu\" is a set meal with several courses.",
   "related": [
    {
     "da": "en tjener",
@@ -1192,6 +1196,7 @@
   }
  },
  "et minut": {
+  "explanation": "\"Et minut\" means \"a minute\". To ask someone to wait, you can say \"Vent et øjeblik\" (wait a moment) or \"Vent et minut\" (wait a minute).",
   "forms": [
    {
     "da": "et minut",
@@ -1210,7 +1215,6 @@
     "en": "the minutes"
    }
   ],
-  "explanation": "\"Et minut\" means \"a minute\", 60 seconds. To ask someone to wait, you can say \"Vent et øjeblik\" (wait a moment) or \"Vent et minut\" (wait a minute).",
   "related": [
    {
     "da": "en time",
@@ -1235,6 +1239,7 @@
   }
  },
  "et museum": {
+  "explanation": "\"Et museum\" means \"a museum\", a place with art, history or science to look at. You say \"på museet\" for \"at the museum\".",
   "forms": [
    {
     "da": "et museum",
@@ -1253,7 +1258,6 @@
     "en": "the museums"
    }
   ],
-  "explanation": "\"Et museum\" means \"a museum\", a place with art, history or science to look at. You say \"på museet\" for \"at the museum\".",
   "related": [
    {
     "da": "et galleri",
@@ -1278,6 +1282,7 @@
   }
  },
  "et måltid": {
+  "explanation": "\"Et måltid\" means \"a meal\", any occasion when you sit down to eat, like breakfast, lunch or dinner. It is the occasion, not the food itself: for \"food\" Danes say \"mad\".",
   "forms": [
    {
     "da": "et måltid",
@@ -1296,7 +1301,6 @@
     "en": "the meals"
    }
   ],
-  "explanation": "\"Et måltid\" means \"a meal\", any occasion when you sit down to eat, like breakfast, lunch or dinner. It is the occasion, not the food itself: for \"food\" Danes say \"mad\".",
   "related": [
    {
     "da": "morgenmad",
@@ -1321,6 +1325,7 @@
   }
  },
  "et møde": {
+  "explanation": "\"Et møde\" means \"a meeting\", for example at work. \"Mødet er i morgen\" means \"The meeting is tomorrow\".",
   "forms": [
    {
     "da": "et møde",
@@ -1339,7 +1344,6 @@
     "en": "the meetings"
    }
   ],
-  "explanation": "\"Et møde\" means \"a meeting\", for example at work. \"Jeg har et møde klokken ti\" means \"I have a meeting at ten\".",
   "related": [
    {
     "da": "at møde",
@@ -1364,6 +1368,7 @@
   }
  },
  "mad": {
+  "explanation": "\"Mad\" means \"food\" in general: \"Jeg elsker dansk mad\" (I love Danish food). For one dish use \"en ret\" (a dish). \"En mad\" means \"a sandwich\", so do not mix them up.",
   "forms": [
    {
     "da": "mad",
@@ -1378,7 +1383,6 @@
     "en": "good food"
    }
   ],
-  "explanation": "\"Mad\" means \"food\" in general: \"Jeg elsker dansk mad\" (I love Danish food). For one dish use \"en ret\" (a dish). \"En mad\" means \"a sandwich\", so do not mix them up.",
   "related": [
    {
     "da": "en ret",
@@ -1403,6 +1407,7 @@
   }
  },
  "maj": {
+  "explanation": "\"Maj\" means \"May\" and sounds like English \"my\". Month names start with a small letter in Danish.",
   "forms": [
    {
     "da": "maj",
@@ -1417,7 +1422,6 @@
     "en": "early in May"
    }
   ],
-  "explanation": "\"Maj\" means \"May\" and sounds like English \"my\". Month names are written with a small letter in Danish, so you write \"maj\" in the middle of a sentence.",
   "related": [
    {
     "da": "april",
@@ -1432,8 +1436,8 @@
     "en": "a month"
    },
    {
-    "da": "et år",
-    "en": "a year"
+    "da": "marts",
+    "en": "March"
    }
   ],
   "sentence": {
@@ -1442,17 +1446,21 @@
   }
  },
  "majs": {
+  "explanation": "\"Majs\" means \"corn\", the yellow kind you eat as a vegetable. It is used without \"en\": \"Jeg spiser majs\" (I eat corn).",
   "forms": [
    {
-    "da": "en majs",
-    "en": "a corn"
+    "da": "majs",
+    "en": "corn"
    },
    {
     "da": "majsen",
     "en": "the corn"
+   },
+   {
+    "da": "noget majs",
+    "en": "some corn"
    }
   ],
-  "explanation": "\"Majs\" means \"corn\", the yellow kind you eat as a vegetable. You say \"noget majs\" (some corn).",
   "related": [
    {
     "da": "popcorn",
@@ -1467,8 +1475,8 @@
     "en": "an ear of corn"
    },
    {
-    "da": "en salat",
-    "en": "a salad"
+    "da": "en grøntsag",
+    "en": "a vegetable"
    }
   ],
   "sentence": {
@@ -1477,6 +1485,7 @@
   }
  },
  "man": {
+  "explanation": "\"Man\" means \"you\" or \"one\" for anybody, people in general. Compare \"Du kan købe billetter\" (You can buy tickets — said to one person) with \"Man kan købe billetter her\" (You can buy tickets here — anyone can). Do not mix it up with \"en mand\" (a man).",
   "forms": [
    {
     "da": "man må ikke ryge her",
@@ -1491,7 +1500,6 @@
     "en": "how do you do that?"
    }
   ],
-  "explanation": "\"Man\" means \"you\" or \"one\" for anybody, people in general. Compare \"Du kan købe billetter\" (You can buy tickets — said to one person) with \"Man kan købe billetter her\" (You can buy tickets here — anyone can). Do not mix it up with \"en mand\" (a man).",
   "related": [
    {
     "da": "en mand",
@@ -1516,6 +1524,7 @@
   }
  },
  "mandag": {
+  "explanation": "\"En mandag\" means \"a Monday\". \"På mandag\" means \"on Monday\" (the coming one), \"om mandagen\" means \"on Mondays\" in general, and \"i mandags\" means \"last Monday\". Day names start with a small letter in Danish.",
   "forms": [
    {
     "da": "en mandag",
@@ -1534,7 +1543,6 @@
     "en": "the Mondays"
    }
   ],
-  "explanation": "\"En mandag\" means \"a Monday\". \"På mandag\" means \"on Monday\" (the coming one), \"om mandagen\" means \"on Mondays\" in general, and \"i mandags\" means \"last Monday\". Day names start with a small letter in Danish.",
   "related": [
    {
     "da": "en tirsdag",
@@ -1559,6 +1567,7 @@
   }
  },
  "mandlig": {
+  "explanation": "\"Mandlig\" means \"male\" and is built on \"mand\" (man). It is used for people and animals: \"en mandlig kollega\" (a male colleague).",
   "forms": [
    {
     "da": "en mandlig sygeplejerske",
@@ -1573,7 +1582,6 @@
     "en": "male chefs"
    }
   ],
-  "explanation": "\"Mandlig\" means \"male\" and is built on \"mand\" (man). It is used for people and animals: \"en mandlig kollega\" (a male colleague).",
   "related": [
    {
     "da": "kvindelig",
@@ -1588,8 +1596,8 @@
     "en": "a gentleman"
    },
    {
-    "da": "et køn",
-    "en": "a sex / gender"
+    "da": "en dreng",
+    "en": "a boy"
    }
   ],
   "sentence": {
@@ -1598,6 +1606,7 @@
   }
  },
  "mange": {
+  "explanation": "\"Mange\" means \"many\" for things you can count: \"mange biler\" (many cars). For things you cannot count, like water, use \"meget\" (a lot, much): \"meget vand\" (a lot of water).",
   "forms": [
    {
     "da": "mange mennesker",
@@ -1612,7 +1621,6 @@
     "en": "How many?"
    }
   ],
-  "explanation": "\"Mange\" means \"many\" for things you can count: \"mange biler\" (many cars). For things you cannot count, like water, use \"meget\" (a lot, much): \"meget vand\" (a lot of water).",
   "related": [
    {
     "da": "meget",
@@ -1637,6 +1645,7 @@
   }
  },
  "mange tak": {
+  "explanation": "\"Mange tak\" means \"many thanks\", a bit stronger than plain \"tak\" (thanks). Add \"for\" and what you are thankful for: \"Mange tak for hjælpen\" (Thank you very much for the help). The reply is \"selv tak\" (you're welcome) or \"ingen årsag\" (no problem).",
   "forms": [
    {
     "da": "Mange tak!",
@@ -1651,7 +1660,6 @@
     "en": "Many thanks for the food."
    }
   ],
-  "explanation": "\"Mange tak\" means \"many thanks\", a bit stronger than plain \"tak\" (thanks). Add \"for\" and what you are thankful for: \"Mange tak for hjælpen\" (Thank you very much for the help). The reply is \"selv tak\" (you're welcome) or \"ingen årsag\" (no problem).",
   "related": [
    {
     "da": "tak",
@@ -1672,6 +1680,7 @@
   }
  },
  "marts": {
+  "explanation": "\"Marts\" means \"March\". Month names start with a small letter in Danish. Dates are said like \"den tiende marts\" (the tenth of March).",
   "forms": [
    {
     "da": "marts",
@@ -1686,7 +1695,6 @@
     "en": "early in March"
    }
   ],
-  "explanation": "\"Marts\" means \"March\". Month names start with a small letter in Danish. Dates are said like \"den tiende marts\" (the tenth of March).",
   "related": [
    {
     "da": "februar",
@@ -1711,6 +1719,7 @@
   }
  },
  "masser af": {
+  "explanation": "\"Masser af\" means \"lots of\". It is informal, and it works for things you can count and things you cannot: \"masser af mad\" (lots of food), \"masser af venner\" (lots of friends).",
   "forms": [
    {
     "da": "masser af penge",
@@ -1725,7 +1734,6 @@
     "en": "lots of friends"
    }
   ],
-  "explanation": "\"Masser af\" means \"lots of\". It is informal, and it works for things you can count and things you cannot: \"masser af mad\" (lots of food), \"masser af venner\" (lots of friends).",
   "related": [
    {
     "da": "meget",
@@ -1750,6 +1758,7 @@
   }
  },
  "matematik": {
+  "explanation": "\"Matematik\" means \"math\" (maths), as a school subject or in general: \"Jeg er god til matematik\" (I am good at math).",
   "forms": [
    {
     "da": "matematik",
@@ -1764,11 +1773,10 @@
     "en": "I have math."
    }
   ],
-  "explanation": "\"Matematik\" means \"math\" (maths), as a school subject or in general. Danes often shorten it to \"matte\", and \"Jeg er god til matematik\" means \"I am good at math\".",
   "related": [
    {
     "da": "matte",
-    "en": "maths (short, informal)"
+    "en": "math (short, informal)"
    },
    {
     "da": "et regnestykke",
@@ -1789,17 +1797,21 @@
   }
  },
  "mayonnaise": {
+  "explanation": "\"Mayonnaise\" means \"mayonnaise\", the thick white sauce. In everyday talk Danes often shorten it to \"mayo\".",
   "forms": [
    {
-    "da": "en mayonnaise",
-    "en": "a mayonnaise"
+    "da": "mayonnaise",
+    "en": "mayonnaise"
    },
    {
     "da": "mayonnaisen",
     "en": "the mayonnaise"
+   },
+   {
+    "da": "noget mayonnaise",
+    "en": "some mayonnaise"
    }
   ],
-  "explanation": "\"Mayonnaise\" means \"mayonnaise\", the thick white sauce. In everyday talk Danes often shorten it to \"mayo\".",
   "related": [
    {
     "da": "ketchup",
@@ -1810,8 +1822,8 @@
     "en": "mustard"
    },
    {
-    "da": "en rejemad",
-    "en": "a shrimp sandwich"
+    "da": "en sauce",
+    "en": "a sauce"
    },
    {
     "da": "pommes frites",
@@ -1824,6 +1836,7 @@
   }
  },
  "med": {
+  "explanation": "\"Med\" means \"with\". Compare \"kaffe med mælk\" (coffee with milk) and \"kaffe uden mælk\" (coffee without milk). It is also used for coming or going along: \"Kom med!\" (Come along!), \"tage med\" (to go along).",
   "forms": [
    {
     "da": "med dig",
@@ -1838,7 +1851,6 @@
     "en": "Come along!"
    }
   ],
-  "explanation": "\"Med\" means \"with\". Compare \"kaffe med mælk\" (coffee with milk) and \"kaffe uden mælk\" (coffee without milk). It is also used for coming or going along: \"Kom med!\" (Come along!), \"tage med\" (to go along).",
   "related": [
    {
     "da": "uden",
@@ -1853,8 +1865,8 @@
     "en": "to take along, to go along"
    },
    {
-    "da": "også med",
-    "en": "along as well"
+    "da": "sammen",
+    "en": "together"
    }
   ],
   "sentence": {
@@ -1863,6 +1875,7 @@
   }
  },
  "med det samme": {
+  "explanation": "\"Med det samme\" means \"right away\" or \"immediately\": \"Ring til mig med det samme\" (Call me right away). For something a little later, use \"om lidt\" (in a little while).",
   "forms": [
    {
     "da": "Jeg kommer med det samme.",
@@ -1877,7 +1890,6 @@
     "en": "We are leaving right away."
    }
   ],
-  "explanation": "\"Med det samme\" means \"right away\" or \"immediately\". Word for word it says \"with the same\": \"Jeg kommer med det samme\" (I'm coming right away). For something softer, \"om lidt\" means \"in a little while\".",
   "related": [
    {
     "da": "straks",
@@ -1898,6 +1910,7 @@
   }
  },
  "medicin": {
+  "explanation": "\"En medicin\" means \"a medicine\", something you take when you are ill: \"Jeg tager medicin hver dag\" (I take medicine every day).",
   "forms": [
    {
     "da": "en medicin",
@@ -1912,7 +1925,6 @@
     "en": "to take medicine"
    }
   ],
-  "explanation": "\"En medicin\" means \"a medicine\", something you take when you are ill. You take it with \"at tage\": \"Jeg tager medicin hver dag\" (I take medicine every day).",
   "related": [
    {
     "da": "en pille",
@@ -1937,6 +1949,7 @@
   }
  },
  "meget": {
+  "explanation": "\"Meget\" means \"very\" before a describing word: \"meget god\" (very good). With amounts it means \"a lot\" or \"much\": \"meget vand\" (a lot of water). For things you can count, use \"mange\" (many) instead.",
   "forms": [
    {
     "da": "meget stor",
@@ -1951,7 +1964,6 @@
     "en": "I have a lot of time."
    }
   ],
-  "explanation": "\"Meget\" means \"very\" before a describing word: \"meget god\" (very good). With amounts it means \"a lot\" or \"much\": \"meget vand\" (a lot of water). For things you can count, use \"mange\" (many) instead.",
   "related": [
    {
     "da": "mange",
@@ -1976,10 +1988,11 @@
   }
  },
  "mel": {
+  "explanation": "\"Mel\" means \"flour\", the white powder you bake with. Do not mix it up with \"mælk\" (milk), which looks similar.",
   "forms": [
    {
-    "da": "et mel",
-    "en": "a flour"
+    "da": "mel",
+    "en": "flour"
    },
    {
     "da": "melet",
@@ -1990,7 +2003,6 @@
     "en": "some flour"
    }
   ],
-  "explanation": "\"Mel\" means \"flour\", the white powder you bake with. Do not mix it up with \"mælk\" (milk), which looks similar.",
   "related": [
    {
     "da": "sukker",
@@ -2015,6 +2027,7 @@
   }
  },
  "mellem": {
+  "explanation": "\"Mellem\" means \"between\", for places, times and amounts: \"mellem to og tre\" (between two and three). It also works for a difference: \"forskellen mellem dem\" (the difference between them).",
   "forms": [
    {
     "da": "mellem huset og skoven",
@@ -2029,7 +2042,6 @@
     "en": "between two and three"
    }
   ],
-  "explanation": "\"Mellem\" means \"between\", for places, times and amounts: \"mellem to og tre\" (between two and three). It also works for people and things: \"forskellen mellem dem\" (the difference between them).",
   "related": [
    {
     "da": "midt i",
@@ -2054,6 +2066,7 @@
   }
  },
  "men": {
+  "explanation": "\"Men\" means \"but\". It joins two ideas that go against each other: \"Jeg er træt, men jeg kommer\" (I am tired, but I am coming). Do not mix it up with \"mens\" (while).",
   "forms": [
    {
     "da": "men jeg vil gerne",
@@ -2068,7 +2081,6 @@
     "en": "but then"
    }
   ],
-  "explanation": "\"Men\" means \"but\". It joins two ideas that go against each other: \"Jeg er træt, men jeg kommer\" (I am tired, but I am coming). Do not mix it up with \"mens\" (while).",
   "related": [
    {
     "da": "og",
@@ -2093,6 +2105,7 @@
   }
  },
  "mens": {
+  "explanation": "\"Mens\" means \"while\". It joins two things that happen at the same time: \"Hun synger, mens hun laver mad\" (She sings while she cooks). Do not mix it up with \"men\" (but).",
   "forms": [
    {
     "da": "mens jeg venter",
@@ -2107,7 +2120,6 @@
     "en": "while we eat"
    }
   ],
-  "explanation": "\"Mens\" means \"while\". It joins two things that happen at the same time: \"Hun synger, mens hun laver mad\" (She sings while she cooks). Do not mix it up with \"men\" (but).",
   "related": [
    {
     "da": "imens",
@@ -2132,6 +2144,7 @@
   }
  },
  "mere": {
+  "explanation": "\"Mere\" means \"more\" for amounts you cannot count: \"mere vand\" (more water). Before a describing word it makes a comparison: \"mere interessant\" (more interesting). \"Ikke mere\" means \"no longer\": \"Jeg bor ikke her mere\" (I don't live here any more). For things you can count, use \"flere\": \"flere biler\" (more cars).",
   "forms": [
    {
     "da": "mere vand",
@@ -2146,7 +2159,6 @@
     "en": "no longer / no more"
    }
   ],
-  "explanation": "\"Mere\" means \"more\" for amounts you cannot count: \"mere vand\" (more water). Before a describing word it makes a comparison: \"mere interessant\" (more interesting). \"Ikke mere\" means \"no longer\": \"Jeg bor ikke her mere\" (I don't live here any more). For things you can count, use \"flere\": \"flere biler\" (more cars).",
   "related": [
    {
     "da": "flere",
@@ -2171,6 +2183,7 @@
   }
  },
  "mest": {
+  "explanation": "\"Mest\" means \"most\" or \"mostly\". Before a describing word it means \"the most\": \"mest interessant\" (most interesting). With \"kan lide\" (like) it means \"like best\": \"Jeg kan mest lide kaffe\" (I like coffee best).",
   "forms": [
    {
     "da": "mest af alt",
@@ -2185,7 +2198,6 @@
     "en": "It is mostly fun."
    }
   ],
-  "explanation": "\"Mest\" means \"most\" or \"mostly\". Before a describing word it gives the top level: \"mest interessant\" (most interesting). With \"lide\" it means \"like best\": \"Jeg kan mest lide kaffe\" (I like coffee best).",
   "related": [
    {
     "da": "mere",
@@ -2210,6 +2222,7 @@
   }
  },
  "mig": {
+  "explanation": "\"Mig\" means \"me\". Compare \"Jeg ser ham\" (I see him) with \"Han ser mig\" (He sees me). It also comes after little words: \"til mig\" (to me), \"med mig\" (with me). With some verbs it means \"myself\": \"Jeg vasker mig\" (I wash myself).",
   "forms": [
    {
     "da": "Han ser mig.",
@@ -2224,7 +2237,6 @@
     "en": "Give me water."
    }
   ],
-  "explanation": "\"Mig\" means \"me\". Compare \"Jeg ser ham\" (I see him) with \"Han ser mig\" (He sees me). It also comes after little words: \"til mig\" (to me), \"med mig\" (with me). With some verbs it means \"myself\": \"Jeg vasker mig\" (I wash myself).",
   "related": [
    {
     "da": "jeg",
@@ -2249,6 +2261,7 @@
   }
  },
  "million": {
+  "explanation": "\"En million\" means \"a million\". The thing you count comes after it: \"to millioner mennesker\" (two million people). Do not mix it up with \"en milliard\", which means \"a billion\" (1,000 million).",
   "forms": [
    {
     "da": "en million",
@@ -2267,7 +2280,6 @@
     "en": "the millions"
    }
   ],
-  "explanation": "\"En million\" means \"a million\". The thing you count comes after it: \"to millioner mennesker\" (two million people). Do not mix it up with \"en milliard\", which means \"a billion\" (1,000 million).",
   "related": [
    {
     "da": "tusind",
@@ -2280,10 +2292,6 @@
    {
     "da": "en milliard",
     "en": "a billion"
-   },
-   {
-    "da": "en million kroner",
-    "en": "a million kroner"
    }
   ],
   "sentence": {
@@ -2292,6 +2300,7 @@
   }
  },
  "min": {
+  "explanation": "\"Min\" means \"my\" or \"mine\" and is used with en-words: \"min bil\" (my car), \"min ven\" (my friend). For et-words use \"mit\" (my), as in \"mit hus\" (my house), and for several things use \"mine\", as in \"mine børn\" (my children).",
   "forms": [
    {
     "da": "min bil",
@@ -2306,7 +2315,6 @@
     "en": "The car is mine."
    }
   ],
-  "explanation": "\"Min\" means \"my\" or \"mine\" and is used with en-words: \"min bil\" (my car), \"min ven\" (my friend). For et-words use \"mit\" (my), as in \"mit hus\" (my house), and for several things use \"mine\", as in \"mine børn\" (my children).",
   "related": [
    {
     "da": "mit",
@@ -2331,6 +2339,7 @@
   }
  },
  "mindre": {
+  "explanation": "\"Mindre\" means both \"less\" (an amount) and \"smaller\" (a size): \"mindre kaffe\" (less coffee), \"et mindre hus\" (a smaller house).",
   "forms": [
    {
     "da": "mindre kaffe",
@@ -2345,7 +2354,6 @@
     "en": "less than"
    }
   ],
-  "explanation": "\"Mindre\" means both \"less\" (an amount) and \"smaller\" (a size): \"mindre kaffe\" (less coffee), \"et mindre hus\" (a smaller house).",
   "related": [
    {
     "da": "mere",
@@ -2370,6 +2378,7 @@
   }
  },
  "mine": {
+  "explanation": "\"Mine\" means \"my\" or \"mine\" when there is more than one thing. Compare \"min bog\" (my book) with \"mine bøger\" (my books), and \"mit hus\" (my house) with \"mine huse\" (my houses). It also works alone: \"Bøgerne er mine\" (The books are mine).",
   "forms": [
    {
     "da": "mine bøger",
@@ -2384,7 +2393,6 @@
     "en": "The books are mine."
    }
   ],
-  "explanation": "\"Mine\" means \"my\" or \"mine\" when there is more than one thing. Compare \"min bog\" (my book) with \"mine bøger\" (my books), and \"mit hus\" (my house) with \"mine huse\" (my houses). It also works alone: \"Bøgerne er mine\" (The books are mine).",
   "related": [
    {
     "da": "min",
@@ -2409,6 +2417,7 @@
   }
  },
  "mit": {
+  "explanation": "\"Mit\" means \"my\" or \"mine\" for words that go with \"et\". Compare \"mit hus\" (my house, because \"et hus\") with \"min bil\" (my car, because \"en bil\"), and \"mine huse\" (my houses, more than one). It also works alone: \"Huset er mit\" (The house is mine).",
   "forms": [
    {
     "da": "mit hus",
@@ -2423,7 +2432,6 @@
     "en": "The house is mine."
    }
   ],
-  "explanation": "\"Mit\" means \"my\" or \"mine\" for words that go with \"et\". Compare \"mit hus\" (my house, because \"et hus\") with \"min bil\" (my car, because \"en bil\"), and \"mine huse\" (my houses, more than one). It also works alone: \"Huset er mit\" (The house is mine).",
   "related": [
    {
     "da": "min",
@@ -2448,21 +2456,21 @@
   }
  },
  "mod": {
+  "explanation": "\"Mod\" means \"toward\" and also \"against\". Compare \"Han går mod døren\" (He walks toward the door) with \"Vi spiller mod Sverige\" (We play against Sweden). To say you are against an idea, use \"imod\": \"Jeg er imod det\" (I am against it).",
   "forms": [
    {
     "da": "Han kigger mod døren.",
     "en": "He looks toward the door."
    },
    {
-    "da": "Jeg er imod det.",
-    "en": "I am against it."
+    "da": "Vi spiller mod Sverige.",
+    "en": "We play against Sweden."
    },
    {
     "da": "mod syd",
     "en": "toward the south"
    }
   ],
-  "explanation": "\"Mod\" means \"toward\" and also \"against\". Compare \"Han går mod døren\" (He walks toward the door) with \"Vi spiller mod Sverige\" (We play against Sweden). For \"I am against it\", Danes usually say \"Jeg er imod det\" (I am against it).",
   "related": [
    {
     "da": "imod",
@@ -2487,6 +2495,7 @@
   }
  },
  "morgenmad": {
+  "explanation": "\"Morgenmad\" means \"breakfast\". It is \"morgen\" (morning) and \"mad\" (food) joined together. No \"a\" is needed: \"Jeg spiser morgenmad\" (I eat breakfast).",
   "forms": [
    {
     "da": "morgenmad",
@@ -2501,7 +2510,6 @@
     "en": "for breakfast"
    }
   ],
-  "explanation": "\"Morgenmad\" means \"breakfast\". It is \"morgen\" (morning) and \"mad\" (food) joined together. No \"a\" is needed: \"Jeg spiser morgenmad\" (I eat breakfast).",
   "related": [
    {
     "da": "frokost",
@@ -2526,6 +2534,7 @@
   }
  },
  "musik": {
+  "explanation": "\"Musik\" means \"music\". It is used without \"en\" or \"et\": \"Jeg elsker musik\" (I love music). For a school lesson, \"Jeg har musik\" means \"I have music class\".",
   "forms": [
    {
     "da": "musik",
@@ -2540,7 +2549,6 @@
     "en": "I listen to music."
    }
   ],
-  "explanation": "\"Musik\" means \"music\". It is used without \"en\" or \"et\", just like English \"music\": \"Jeg elsker musik\" (I love music). For a school lesson, \"Jeg har musik\" means \"I have music class\".",
   "related": [
    {
     "da": "en sang",
@@ -2565,6 +2573,7 @@
   }
  },
  "må jeg bede om regningen?": {
+  "explanation": "\"Må jeg bede om regningen?\" means \"May I have the bill?\" and is a polite way to ask for it at a restaurant. \"Må jeg bede om\" means \"may I ask for\". A shorter everyday way is \"Regningen, tak\" (The bill, please).",
   "forms": [
    {
     "da": "Må jeg bede om regningen?",
@@ -2579,7 +2588,6 @@
     "en": "The bill, please."
    }
   ],
-  "explanation": "\"Må jeg bede om regningen?\" means \"May I have the bill?\" and is a polite way to ask for it at a restaurant. \"Må jeg bede om\" means \"may I ask for\". A shorter everyday way is \"Regningen, tak\" (The bill, please).",
   "related": [
    {
     "da": "en regning",
@@ -2600,6 +2608,7 @@
   }
  },
  "må jeg få regningen?": {
+  "explanation": "\"Må jeg få regningen?\" means \"May I have the bill?\" \"Må jeg få\" works for anything you ask for politely: \"Må jeg få en kop kaffe?\" (May I have a cup of coffee?). Adding \"tak\" (please, thanks) at the end sounds friendly.",
   "forms": [
    {
     "da": "Må jeg få regningen?",
@@ -2614,7 +2623,6 @@
     "en": "May I have a cup of coffee?"
    }
   ],
-  "explanation": "\"Må jeg få regningen?\" means \"May I have the bill?\" \"Må jeg få\" works for anything you ask for politely: \"Må jeg få en kop kaffe?\" (May I have a cup of coffee?). Adding \"tak\" (please, thanks) at the end sounds friendly.",
   "related": [
    {
     "da": "en regning",
@@ -2639,6 +2647,7 @@
   }
  },
  "måske": {
+  "explanation": "\"Måske\" means \"maybe\" or \"perhaps\". Compare \"Kommer du?\" \"Ja!\" (Are you coming? Yes!) with \"Kommer du?\" \"Måske.\" (Are you coming? Maybe.). It can also start a sentence: \"Måske regner det i morgen\" (Maybe it will rain tomorrow).",
   "forms": [
    {
     "da": "Måske i morgen.",
@@ -2653,7 +2662,6 @@
     "en": "Yes, maybe."
    }
   ],
-  "explanation": "\"Måske\" means \"maybe\" or \"perhaps\". Compare \"Kommer du?\" \"Ja!\" (Are you coming? Yes!) with \"Kommer du?\" \"Måske.\" (Are you coming? Maybe.). At the start of a sentence, the verb comes next: \"Måske regner det i morgen\" (Maybe it will rain tomorrow).",
   "related": [
    {
     "da": "nok",
@@ -2668,8 +2676,8 @@
     "en": "of course"
    },
    {
-    "da": "aldrig",
-    "en": "never"
+    "da": "muligvis",
+    "en": "possibly"
    }
   ],
   "sentence": {
@@ -2678,6 +2686,7 @@
   }
  },
  "mælk": {
+  "explanation": "\"Mælk\" means \"milk\": \"Jeg drikker mælk\" (I drink milk). To count it, use a measure: \"en liter mælk\" (a litre of milk).",
   "forms": [
    {
     "da": "mælk",
@@ -2692,7 +2701,6 @@
     "en": "a glass of milk"
    }
   ],
-  "explanation": "\"Mælk\" means \"milk\", and you use it without \"a\": \"Jeg drikker mælk\" (I drink milk). For a bigger amount, say \"en liter mælk\" (a litre of milk).",
   "related": [
    {
     "da": "fløde",
@@ -2717,21 +2725,21 @@
   }
  },
  "mæt": {
+  "explanation": "\"Mæt\" means \"full\" after eating: \"Jeg er mæt\" (I am full) is a polite way to turn down more food. Do not use \"fuld\" after a meal: \"Jeg er fuld\" means \"I am drunk\".",
   "forms": [
    {
     "da": "en mæt mand",
-    "en": "a full man"
+    "en": "a man who is full"
    },
    {
     "da": "et mæt barn",
-    "en": "a full child"
+    "en": "a child who is full"
    },
    {
     "da": "mætte børn",
-    "en": "full children"
+    "en": "children who are full"
    }
   ],
-  "explanation": "\"Mæt\" means \"full\" after eating: \"Jeg er mæt\" (I am full) is a polite way to turn down more food. Do not use \"fuld\" after a meal: \"Jeg er fuld\" means \"I am drunk\".",
   "related": [
    {
     "da": "sulten",
@@ -2739,7 +2747,7 @@
    },
    {
     "da": "fuld",
-    "en": "full"
+    "en": "drunk / full"
    },
    {
     "da": "at spise",
@@ -2756,6 +2764,7 @@
   }
  },
  "mørk": {
+  "explanation": "\"Mørk\" means \"dark\": \"i mørket\" (in the dark). It also goes in front of colors: \"mørkeblå\" (dark blue).",
   "forms": [
    {
     "da": "en mørk nat",
@@ -2770,15 +2779,14 @@
     "en": "dark rooms"
    }
   ],
-  "explanation": "\"Mørk\" means \"dark\", for light, rooms and nights: \"i mørket\" (in the dark). It also appears in colours, such as \"mørkeblå\" (dark blue).",
   "related": [
    {
     "da": "lys",
     "en": "light / bright"
    },
    {
-    "da": "mørket",
-    "en": "the darkness"
+    "da": "sort",
+    "en": "black"
    },
    {
     "da": "en nat",
@@ -2786,7 +2794,7 @@
    },
    {
     "da": "en farve",
-    "en": "a colour"
+    "en": "a color"
    }
   ],
   "sentence": {
@@ -2795,6 +2803,7 @@
   }
  },
  "mørkeblå": {
+  "explanation": "\"Mørkeblå\" means \"dark blue\" or \"navy\". It is built from \"mørk\" (dark) and \"blå\" (blue).",
   "forms": [
    {
     "da": "en mørkeblå jakke",
@@ -2809,7 +2818,6 @@
     "en": "dark blue jackets"
    }
   ],
-  "explanation": "\"Mørkeblå\" means \"dark blue\" or \"navy\". It is built from \"mørk\" (dark) and \"blå\" (blue).",
   "related": [
    {
     "da": "lyseblå",
@@ -2824,8 +2832,8 @@
     "en": "dark"
    },
    {
-    "da": "sort",
-    "en": "black"
+    "da": "mørkegrøn",
+    "en": "dark green"
    }
   ],
   "sentence": {
@@ -2834,6 +2842,7 @@
   }
  },
  "mørkegrøn": {
+  "explanation": "\"Mørkegrøn\" means \"dark green\". It is built from \"mørk\" (dark) and \"grøn\" (green).",
   "forms": [
    {
     "da": "en mørkegrøn bil",
@@ -2848,7 +2857,6 @@
     "en": "dark green cars"
    }
   ],
-  "explanation": "\"Mørkegrøn\" means \"dark green\". It is built from \"mørk\" (dark) and \"grøn\" (green).",
   "related": [
    {
     "da": "lysegrøn",
@@ -2873,10 +2881,11 @@
   }
  },
  "müsli": {
+  "explanation": "\"Müsli\" means \"muesli\", the breakfast mix of oats, nuts and dried fruit. It is used without \"en\" or \"et\": \"Jeg spiser müsli\" (I eat muesli).",
   "forms": [
    {
-    "da": "en müsli",
-    "en": "a muesli"
+    "da": "müsli",
+    "en": "muesli"
    },
    {
     "da": "noget müsli",
@@ -2887,7 +2896,6 @@
     "en": "muesli and yoghurt"
    }
   ],
-  "explanation": "\"Müsli\" means \"muesli\", the breakfast mix of oats, nuts and dried fruit. It is used without \"en\" or \"et\": \"Jeg spiser müsli\" (I eat muesli).",
   "related": [
    {
     "da": "yoghurt",

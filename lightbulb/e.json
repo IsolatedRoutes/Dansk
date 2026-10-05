@@ -1,5 +1,6 @@
 {
  "at elske": {
+  "explanation": "\"At elske\" means \"to love\". It is a strong word, kept mostly for people you truly care about: \"Jeg elsker dig\" (I love you). For things and activities, Danes usually say \"Jeg kan godt lide\" (I like) or \"Jeg holder af\" (I am fond of). Saying you \"elsker\" (love) pizza is possible, but it sounds playful.",
   "forms": [
    {
     "da": "at elske",
@@ -18,7 +19,6 @@
     "en": "I have loved"
    }
   ],
-  "explanation": "\"At elske\" means \"to love\". It is a strong word, kept mostly for people you truly care about: \"Jeg elsker dig\" (I love you). For things and activities, Danes usually say \"Jeg kan godt lide\" (I like) or \"Jeg holder af\" (I am fond of). Saying you \"elsker\" (love) pizza is possible, but it sounds playful.",
   "related": [
    {
     "da": "at kunne lide",
@@ -39,6 +39,7 @@
   }
  },
  "e-boks": {
+  "explanation": "\"En e-Boks\" means \"an e-Boks\", the digital mailbox where public offices, banks and companies send you letters.",
   "forms": [
    {
     "da": "en e-Boks",
@@ -53,7 +54,6 @@
     "en": "I have a letter in e-Boks."
    }
   ],
-  "explanation": "\"En e-Boks\" means \"an e-Boks\", the digital mailbox where public offices, banks and companies send you letters.",
   "related": [
    {
     "da": "et brev",
@@ -78,6 +78,7 @@
   }
  },
  "efter": {
+  "explanation": "\"Efter\" means \"after\": \"efter arbejde\" (after work). In some phrases it means \"for\": \"at lede efter nøglerne\" (to look for the keys). Before a whole sentence, say \"efter at\": \"efter at jeg kom hjem\" (after I came home).",
   "forms": [
    {
     "da": "efter arbejde",
@@ -92,7 +93,6 @@
     "en": "to look for something"
    }
   ],
-  "explanation": "\"Efter\" means \"after\": \"efter arbejde\" (after work). In some phrases it means \"for\": \"at lede efter nøglerne\" (to look for the keys). Before a whole sentence, say \"efter at\": \"efter at jeg kom hjem\" (after I came home).",
   "related": [
    {
     "da": "før",
@@ -117,6 +117,7 @@
   }
  },
  "egen": {
+  "explanation": "\"Egen\" means \"own\", and it goes with words like \"min\" (my) or \"din\" (your): \"mit eget værelse\" (my own room), \"mine egne ting\" (my own things).",
   "forms": [
    {
     "da": "min egen bil",
@@ -131,7 +132,6 @@
     "en": "my own children"
    }
   ],
-  "explanation": "\"Egen\" means \"own\", and it goes with words like \"min\" (my) or \"din\" (your). It also stresses that something is yours alone: \"mit eget værelse\" (my own room).",
   "related": [
    {
     "da": "min",
@@ -156,6 +156,7 @@
   }
  },
  "ekstra": {
+  "explanation": "\"Ekstra\" means \"extra\", more than you already have. Before another word it makes that word stronger: \"ekstra god\" (extra good).",
   "forms": [
    {
     "da": "ekstra stor",
@@ -170,7 +171,6 @@
     "en": "an extra glass"
    }
   ],
-  "explanation": "\"Ekstra\" means \"extra\", more than you already have: \"en ekstra stol\" (an extra chair). Before another word it makes that word stronger: \"ekstra stor\" (extra large), \"ekstra god\" (extra good).",
   "related": [
    {
     "da": "mere",
@@ -195,6 +195,7 @@
   }
  },
  "eller": {
+  "explanation": "\"Eller\" means \"or\": \"te eller kaffe?\" (tea or coffee?). Added at the end of a question, it asks for agreement, like \"right?\": \"Du kommer, eller?\" (You are coming, right?). Don't mix it up with \"ellers\" (otherwise): \"Skynd dig, ellers kommer vi for sent\" (Hurry up, or we will be late).",
   "forms": [
    {
     "da": "te eller kaffe?",
@@ -209,7 +210,6 @@
     "en": "or what?"
    }
   ],
-  "explanation": "\"Eller\" means \"or\": \"te eller kaffe?\" (tea or coffee?). Added at the end of a question, it asks for agreement, like \"right?\": \"Du kommer, eller?\" (You are coming, right?). Don't mix it up with \"ellers\" (otherwise): \"Skynd dig, ellers kommer vi for sent\" (Hurry up, or we will be late).",
   "related": [
    {
     "da": "og",
@@ -234,6 +234,7 @@
   }
  },
  "ellers": {
+  "explanation": "\"Ellers\" means \"otherwise\" or \"or else\": \"Skynd dig, ellers kommer vi for sent\" (Hurry up, or else we will be late). It also means \"else\" in questions: \"Hvad ellers?\" (What else?). Don't mix it up with \"eller\" (or): \"te eller kaffe\" (tea or coffee).",
   "forms": [
    {
     "da": "skynd dig, ellers kommer vi for sent",
@@ -248,7 +249,6 @@
     "en": "otherwise all is well"
    }
   ],
-  "explanation": "\"Ellers\" means \"otherwise\" or \"or else\": \"Skynd dig, ellers kommer vi for sent\" (Hurry up, or else we will be late). It also means \"else\" in questions: \"Hvad ellers?\" (What else?). Don't mix it up with \"eller\" (or): \"te eller kaffe\" (tea or coffee).",
   "related": [
    {
     "da": "eller",
@@ -261,18 +261,15 @@
    {
     "da": "hvis",
     "en": "if"
-   },
-   {
-    "da": "ellers ikke",
-    "en": "otherwise not"
    }
   ],
   "sentence": {
-   "da": "Tag en jakke på, **ellers** bliver du kold.",
-   "en": "Put on a jacket, or else you will get cold."
+   "da": "Tag en jakke på, **ellers** fryser du.",
+   "en": "Put on a jacket, or else you will be cold."
   }
  },
  "elleve": {
+  "explanation": "\"Elleve\" means \"eleven\": \"Jeg er elleve år gammel\" (I am eleven years old).",
   "forms": [
    {
     "da": "elleve børn",
@@ -287,7 +284,6 @@
     "en": "eleven times"
    }
   ],
-  "explanation": "\"Elleve\" means \"eleven\": \"Der er elleve spillere på et fodboldhold\" (There are eleven players on a football team). The next number is \"tolv\" (twelve): \"tolv børn\" (twelve children).",
   "related": [
    {
     "da": "ti",
@@ -312,6 +308,7 @@
   }
  },
  "en e-mail": {
+  "explanation": "\"En e-mail\" means \"an email\". In daily speech people often shorten it to \"en mail\". You say \"at sende en e-mail\" (to send an email) and \"at modtage en e-mail\" (to receive an email).",
   "forms": [
    {
     "da": "en e-mail",
@@ -326,12 +323,7 @@
     "en": "emails"
    }
   ],
-  "explanation": "\"En e-mail\" means \"an email\". In daily speech people often shorten it to \"en mail\". You say \"at sende en e-mail\" (to send an email) and \"at modtage en e-mail\" (to receive an email).",
   "related": [
-   {
-    "da": "en mail",
-    "en": "an email (short)"
-   },
    {
     "da": "en besked",
     "en": "a message"
@@ -343,6 +335,10 @@
    {
     "da": "en adresse",
     "en": "an address"
+   },
+   {
+    "da": "en computer",
+    "en": "a computer"
    }
   ],
   "sentence": {
@@ -351,6 +347,7 @@
   }
  },
  "en eftermiddag": {
+  "explanation": "\"En eftermiddag\" means \"an afternoon\", the part of the day from lunch until evening. \"Om eftermiddagen\" means \"in the afternoon\", and \"i eftermiddag\" means \"this afternoon\". The word is built from \"efter\" (after) and \"middag\" (midday).",
   "forms": [
    {
     "da": "en eftermiddag",
@@ -369,7 +366,6 @@
     "en": "the afternoons"
    }
   ],
-  "explanation": "\"En eftermiddag\" means \"an afternoon\", the part of the day from lunch until evening. \"Om eftermiddagen\" means \"in the afternoon\" as a regular thing, and \"i eftermiddag\" means \"this afternoon\". The word is built from \"efter\" (after) and \"middag\" (midday).",
   "related": [
    {
     "da": "en morgen",
@@ -384,8 +380,8 @@
     "en": "noon / dinner"
    },
    {
-    "da": "i eftermiddag",
-    "en": "this afternoon"
+    "da": "en formiddag",
+    "en": "a late morning"
    }
   ],
   "sentence": {
@@ -394,6 +390,7 @@
   }
  },
  "en elefant": {
+  "explanation": "\"En elefant\" means \"an elephant\". Notice the spelling with \"f\", not \"ph\".",
   "forms": [
    {
     "da": "en elefant",
@@ -412,7 +409,6 @@
     "en": "the elephants"
    }
   ],
-  "explanation": "\"En elefant\" means \"an elephant\". It is spelled with \"f\" where English has \"ph\", and it sounds much like the English word.",
   "related": [
    {
     "da": "en giraf",
@@ -437,6 +433,7 @@
   }
  },
  "en elev": {
+  "explanation": "\"En elev\" means \"a pupil\", a child or young person who goes to school. It can also mean a trainee or apprentice at a workplace. Adults who study at university are usually called \"en studerende\" (a student) rather than \"elev\".",
   "forms": [
    {
     "da": "en elev",
@@ -455,7 +452,6 @@
     "en": "the pupils"
    }
   ],
-  "explanation": "\"En elev\" means \"a pupil\", a child or young person who goes to school. It can also mean a trainee or apprentice at a workplace. Adults who study at university are usually called \"en studerende\" (a student) rather than \"elev\".",
   "related": [
    {
     "da": "en lærer",
@@ -480,6 +476,7 @@
   }
  },
  "en elevator": {
+  "explanation": "\"En elevator\" means \"an elevator\". Danes also say \"en lift\" (a lift). You go \"med elevatoren\" (by the elevator) up or down.",
   "forms": [
    {
     "da": "en elevator",
@@ -498,12 +495,7 @@
     "en": "the elevators"
    }
   ],
-  "explanation": "\"En elevator\" means \"an elevator\". Danes also say \"en lift\" (a lift). You go \"med elevatoren\" (by the elevator) up or down.",
   "related": [
-   {
-    "da": "en lift",
-    "en": "a lift (elevator)"
-   },
    {
     "da": "en trappe",
     "en": "stairs"
@@ -511,6 +503,10 @@
    {
     "da": "en etage",
     "en": "a floor, storey"
+   },
+   {
+    "da": "en sal",
+    "en": "a floor (of a building)"
    },
    {
     "da": "en dør",
@@ -523,6 +519,7 @@
   }
  },
  "en enkeltbillet": {
+  "explanation": "\"En enkeltbillet\" means \"a one-way ticket\". It is built from \"enkelt\" (single) and \"billet\" (ticket). The ticket for the trip back is \"en returbillet\" (a return ticket).",
   "forms": [
    {
     "da": "en enkeltbillet",
@@ -541,7 +538,6 @@
     "en": "the one-way tickets"
    }
   ],
-  "explanation": "\"En enkeltbillet\" means \"a one-way ticket\", for a trip in only one direction. \"Enkelt\" means \"single\", so it is literally a single ticket.",
   "related": [
    {
     "da": "en returbillet",
@@ -552,8 +548,8 @@
     "en": "a ticket"
    },
    {
-    "da": "en bus",
-    "en": "a bus"
+    "da": "en rejse",
+    "en": "a trip"
    },
    {
     "da": "et tog",
@@ -566,6 +562,7 @@
   }
  },
  "en euro": {
+  "explanation": "\"En euro\" means \"a euro\". Denmark uses \"kroner\" (crowns), not euros.",
   "forms": [
    {
     "da": "en euro",
@@ -580,7 +577,6 @@
     "en": "ten euros"
    }
   ],
-  "explanation": "\"En euro\" means \"a euro\", the money used in many European countries. After a number it usually stays the same: \"ti euro\" (ten euros). Danish money is \"kroner\" (crowns).",
   "related": [
    {
     "da": "en dollar",
@@ -600,11 +596,12 @@
    }
   ],
   "sentence": {
-   "da": "Det koster tyve **euro**.",
-   "en": "It costs twenty euros."
+   "da": "Billetten til Paris koster tyve **euro**.",
+   "en": "The ticket to Paris costs twenty euros."
   }
  },
  "end": {
+  "explanation": "\"End\" means \"than\": \"Hun er højere end mig\" (She is taller than me). It comes after words like \"større\" (bigger) or \"bedre\" (better). Don't use \"som\" for \"than\". \"Som\" means \"as\": \"Han er lige så høj som mig\" (He is as tall as me).",
   "forms": [
    {
     "da": "større end mig",
@@ -619,7 +616,6 @@
     "en": "It is better than nothing."
    }
   ],
-  "explanation": "\"End\" means \"than\": \"Han er ældre end mig\" (He is older than me). It comes after words like \"større\" (bigger) or \"bedre\" (better): \"Det er bedre end ingenting\" (It is better than nothing). Don't use \"som\" for \"than\". \"Som\" means \"as\": \"Han er lige så høj som mig\" (He is as tall as me).",
   "related": [
    {
     "da": "som",
@@ -639,11 +635,12 @@
    }
   ],
   "sentence": {
-   "da": "Han er ældre **end** mig.",
-   "en": "He is older than me."
+   "da": "En bil er hurtigere **end** en cykel.",
+   "en": "A car is faster than a bicycle."
   }
  },
  "endnu": {
+  "explanation": "\"Endnu\" means \"yet\" or \"still\". \"Ikke endnu\" means \"not yet\": \"Har du spist? Nej, ikke endnu\" (Have you eaten? No, not yet). With \"en\" it means \"another\": \"endnu en kop kaffe\" (another cup of coffee). Before a word like \"bedre\" it means \"even\": \"endnu bedre\" (even better).",
   "forms": [
    {
     "da": "endnu",
@@ -658,7 +655,6 @@
     "en": "once more"
    }
   ],
-  "explanation": "\"Endnu\" means \"yet\" or \"still\". It is most common in \"ikke endnu\" (not yet): \"Har du spist? Nej, ikke endnu\" (Have you eaten? No, not yet). With \"en\" it means \"another\": \"endnu en kop kaffe\" (another cup of coffee). Before a word like \"bedre\" it means \"even\": \"endnu bedre\" (even better).",
   "related": [
    {
     "da": "allerede",
@@ -673,8 +669,8 @@
     "en": "soon"
    },
    {
-    "da": "endnu en",
-    "en": "one more"
+    "da": "igen",
+    "en": "again"
    }
   ],
   "sentence": {
@@ -683,6 +679,7 @@
   }
  },
  "eneste": {
+  "explanation": "\"Eneste\" means \"only\" or \"single\", as in \"the only one\". It normally comes after \"den\", \"det\" or \"de\" (the): \"den eneste\" for en-words, \"det eneste\" for et-words. Do not mix it up with \"kun\" (just, only): \"Jeg har kun én bil\" (I have only one car).",
   "forms": [
    {
     "da": "den eneste bil",
@@ -697,7 +694,6 @@
     "en": "the only money"
    }
   ],
-  "explanation": "\"Eneste\" means \"only\" or \"single\", as in \"the only one\". It normally comes after \"den\", \"det\" or \"de\" (the): \"den eneste\" for en-words, \"det eneste\" for et-words. Do not mix it up with \"kun\" (just, only): \"Jeg har kun én bil\" (I have only one car).",
   "related": [
    {
     "da": "kun",
@@ -717,11 +713,12 @@
    }
   ],
   "sentence": {
-   "da": "Det er den **eneste** bus i dag.",
-   "en": "It is the only bus today."
+   "da": "Der er kun én bus, så det er den **eneste** bus i dag.",
+   "en": "There is only one bus, so it is the only bus today."
   }
  },
  "engang": {
+  "explanation": "\"Engang\" (one word) means \"once\" or \"some day\", for a time you do not name exactly: \"Der var engang...\" (Once upon a time...), \"Kom og besøg mig engang\" (Come and visit me sometime). \"En gang\" (two words) means \"one time\": \"en gang om dagen\" (once a day).",
   "forms": [
    {
     "da": "Der var engang...",
@@ -736,7 +733,6 @@
     "en": "I was once a teacher."
    }
   ],
-  "explanation": "\"Engang\" (one word) means \"once upon a time\" or \"some day\": \"Der var engang...\" (Once upon a time...), \"Kom og besøg mig engang\" (Come and visit me sometime). \"En gang\" (two words) means \"one time\": \"en gang om dagen\" (once a day).",
   "related": [
    {
     "da": "en gang",
@@ -761,6 +757,7 @@
   }
  },
  "engelsk": {
+  "explanation": "\"Engelsk\" means \"English\", for the language and for things from England. As a school subject, say \"Jeg har engelsk\" (I have English, meaning an English lesson). Words for languages start with a small letter in Danish.",
   "forms": [
    {
     "da": "en engelsk bog",
@@ -775,7 +772,6 @@
     "en": "English books"
    }
   ],
-  "explanation": "\"Engelsk\" means \"English\", for the language and for things from England. As a school subject, say \"Jeg har engelsk\" (I have English, meaning an English lesson). Words for languages start with a small letter in Danish.",
   "related": [
    {
     "da": "England",
@@ -800,6 +796,7 @@
   }
  },
  "england": {
+  "explanation": "\"England\" means \"England\". It is only one part of the United Kingdom; for Great Britain as a whole, say \"Storbritannien\" (Great Britain).",
   "forms": [
    {
     "da": "England",
@@ -814,7 +811,6 @@
     "en": "to England"
    }
   ],
-  "explanation": "\"England\" means \"England\" and is spelled like the English word. It is only one part of the United Kingdom; for Great Britain as a whole, say \"Storbritannien\" (Great Britain).",
   "related": [
    {
     "da": "en englænder",
@@ -839,6 +835,7 @@
   }
  },
  "enogtyve": {
+  "explanation": "\"Enogtyve\" means \"twenty-one\". Danish says the one first: \"en-og-tyve\" is literally \"one-and-twenty\". The same goes for 22, \"toogtyve\" (two-and-twenty), and 31, \"enogtredive\" (one-and-thirty).",
   "forms": [
    {
     "da": "enogtyve",
@@ -853,7 +850,6 @@
     "en": "twenty-one kroner"
    }
   ],
-  "explanation": "\"Enogtyve\" means \"twenty-one\". Danish says the one first: \"en-og-tyve\" is literally \"one-and-twenty\". The same goes for 22, \"toogtyve\" (two-and-twenty), and 31, \"enogtredive\" (one-and-thirty).",
   "related": [
    {
     "da": "tyve",
@@ -878,6 +874,7 @@
   }
  },
  "enten…eller": {
+  "explanation": "\"Enten … eller\" means \"either … or\" and gives two choices: \"Enten i dag eller i morgen\" (Either today or tomorrow). \"Enten\" goes before the first choice and \"eller\" before the second. For \"neither … nor\", say \"hverken … eller\": \"Jeg vil hverken have kaffe eller te\" (I want neither coffee nor tea).",
   "forms": [
    {
     "da": "enten kaffe eller te",
@@ -892,7 +889,6 @@
     "en": "Either you are in, or you are not."
    }
   ],
-  "explanation": "\"Enten … eller\" means \"either … or\" and gives two choices: \"Enten i dag eller i morgen\" (Either today or tomorrow). \"Enten\" goes before the first choice and \"eller\" before the second. For \"neither … nor\", say \"hverken … eller\": \"Jeg vil hverken have kaffe eller te\" (I want neither coffee nor tea).",
   "related": [
    {
     "da": "eller",
@@ -917,6 +913,7 @@
   }
  },
  "er det ...?": {
+  "explanation": "\"Er det ...?\" means \"is it ...?\". Danish asks a question by putting \"er\" (is) first, with no extra word like \"do\": \"Er det rigtigt?\" (Is that right?). Fill the gap with whatever you want to ask about.",
   "forms": [
    {
     "da": "Er det dig?",
@@ -931,7 +928,6 @@
     "en": "Is it your car?"
    }
   ],
-  "explanation": "\"Er det ...?\" means \"is it ...?\". Danish asks a question by putting \"er\" (is) first, with no extra word like \"do\": \"Er det rigtigt?\" (Is that right?). Fill the gap with whatever you want to ask about.",
   "related": [
    {
     "da": "det er",
@@ -956,6 +952,7 @@
   }
  },
  "er du sikker?": {
+  "explanation": "\"Er du sikker?\" means \"are you sure?\". \"Sikker\" means \"sure\" or \"safe\". You can answer \"Ja, helt sikker\" (Yes, completely sure). To ask several people, say \"Er I sikre?\" (Are you all sure?).",
   "forms": [
    {
     "da": "Er du sikker?",
@@ -970,11 +967,10 @@
     "en": "No, I am not sure."
    }
   ],
-  "explanation": "\"Er du sikker?\" means \"are you sure?\". \"Sikker\" means \"sure\" or \"safe\". You can answer \"Ja, helt sikker\" (Yes, completely sure). To ask several people, say \"Er I sikre?\" (Are you all sure?).",
   "related": [
    {
-    "da": "sikker",
-    "en": "sure, safe"
+    "da": "helt",
+    "en": "completely"
    },
    {
     "da": "måske",
@@ -991,6 +987,7 @@
   }
  },
  "et efternavn": {
+  "explanation": "\"Et efternavn\" means \"a last name\", the family name you share with your family. It is made of \"efter\" (after) and \"et navn\" (a name).",
   "forms": [
    {
     "da": "et efternavn",
@@ -1009,7 +1006,6 @@
     "en": "the last names"
    }
   ],
-  "explanation": "\"Et efternavn\" means \"a last name\", the family name you share with your family. It is made of \"efter\" (after) and \"et navn\" (a name).",
   "related": [
    {
     "da": "et fornavn",
@@ -1034,6 +1030,7 @@
   }
  },
  "et efterår": {
+  "explanation": "\"Et efterår\" means \"an autumn\" (or \"a fall\" in American English), the season between summer and winter. It is made of \"efter\" (after) and \"et år\" (a year).",
   "forms": [
    {
     "da": "et efterår",
@@ -1048,7 +1045,6 @@
     "en": "in the autumn"
    }
   ],
-  "explanation": "\"Et efterår\" means \"an autumn\" (or \"a fall\" in American English), the season between summer and winter. It is made of \"efter\" (after) and \"et år\" (a year).",
   "related": [
    {
     "da": "et forår",
@@ -1073,6 +1069,7 @@
   }
  },
  "et enkeltværelse": {
+  "explanation": "\"Et enkeltværelse\" means \"a single room\", a hotel room for one person. It is made of \"enkelt\" (single) and \"et værelse\" (a room).",
   "forms": [
    {
     "da": "et enkeltværelse",
@@ -1091,7 +1088,6 @@
     "en": "the single rooms"
    }
   ],
-  "explanation": "\"Et enkeltværelse\" means \"a single room\", a hotel room for one person. It is made of \"enkelt\" (single) and \"et værelse\" (a room).",
   "related": [
    {
     "da": "et dobbeltværelse",
@@ -1116,6 +1112,7 @@
   }
  },
  "europa": {
+  "explanation": "\"Europa\" means \"Europe\". \"Jeg bor i Europa\" means \"I live in Europe\".",
   "forms": [
    {
     "da": "Europa",
@@ -1126,11 +1123,10 @@
     "en": "in Europe"
    },
    {
-    "da": "et europæisk land",
-    "en": "a European country"
+    "da": "til Europa",
+    "en": "to Europe"
    }
   ],
-  "explanation": "\"Europa\" means \"Europe\". It is written with a capital letter and has no word like \"the\" in front. \"I Europa\" means \"in Europe\": \"Jeg bor i Europa\" means \"I live in Europe\".",
   "related": [
    {
     "da": "en europæer",
@@ -1155,6 +1151,7 @@
   }
  },
  "europæisk": {
+  "explanation": "\"Europæisk\" means \"European\", for things that belong to Europe: \"europæisk mad\" means \"European food\" and \"europæisk musik\" means \"European music\".",
   "forms": [
    {
     "da": "en europæisk by",
@@ -1169,7 +1166,6 @@
     "en": "European countries"
    }
   ],
-  "explanation": "\"Europæisk\" means \"European\". Unlike in English it is written with a small letter, except inside a name like \"Den Europæiske Union\" (the European Union).",
   "related": [
    {
     "da": "Europa",

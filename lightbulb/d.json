@@ -1,5 +1,6 @@
 {
  "at danse": {
+  "explanation": "\"At danse\" means \"to dance\": \"Vil du danse?\" (Do you want to dance?). To say who with, use \"med\" (with): \"Jeg danser med Anna\" (I dance with Anna).",
   "forms": [
    {
     "da": "at danse",
@@ -18,7 +19,6 @@
     "en": "I have danced"
    }
   ],
-  "explanation": "\"At danse\" means \"to dance\": \"Vil du danse?\" (Do you want to dance?). To say who with, use \"med\" (with): \"Jeg danser med Anna\" (I dance with Anna).",
   "related": [
    {
     "da": "en dans",
@@ -39,6 +39,7 @@
   }
  },
  "at dele": {
+  "explanation": "\"At dele\" means \"to share\" and also \"to divide\". In maths it means divide: \"ti delt med to\" (ten divided by two).",
   "forms": [
    {
     "da": "at dele",
@@ -57,7 +58,6 @@
     "en": "I have shared / divided"
    }
   ],
-  "explanation": "\"At dele\" means \"to share\" and also \"to divide\". In maths it means divide: \"ti delt med to\" (ten divided by two).",
   "related": [
    {
     "da": "at give",
@@ -78,6 +78,7 @@
   }
  },
  "at drikke": {
+  "explanation": "\"At drikke\" means \"to drink\", for water, coffee, beer and so on: \"Jeg drikker kaffe\" (I drink coffee).",
   "forms": [
    {
     "da": "at drikke",
@@ -96,7 +97,6 @@
     "en": "I have drunk"
    }
   ],
-  "explanation": "\"At drikke\" means \"to drink\", for water, coffee, beer and so on: \"Jeg drikker kaffe\" (I drink coffee).",
   "related": [
    {
     "da": "at spise",
@@ -107,8 +107,8 @@
     "en": "a cup"
    },
    {
-    "da": "en skål",
-    "en": "a toast / bowl"
+    "da": "vand",
+    "en": "water"
    }
   ],
   "sentence": {
@@ -117,6 +117,7 @@
   }
  },
  "at dø": {
+  "explanation": "\"At dø\" means \"to die\". For \"have died\" Danish uses \"er\" (am / is), not \"har\" (have): \"Han er død\" (He has died).",
   "forms": [
    {
     "da": "at dø",
@@ -135,7 +136,6 @@
     "en": "I have died"
    }
   ],
-  "explanation": "\"At dø\" means \"to die\". For \"have died\" Danish uses \"er\" (am / is), not \"har\" (have): \"Han er død\" (He has died).",
   "related": [
    {
     "da": "død",
@@ -160,6 +160,7 @@
   }
  },
  "da": {
+  "explanation": "\"Da\" means \"when\", for something that happened once in the past. Compare \"Da jeg kom hjem, sov børnene\" (When I came home, the children were asleep) with \"Når jeg kommer hjem, sover børnene\" (When I get home, the children are asleep: now or later, not in the past).",
   "forms": [
    {
     "da": "da jeg var barn",
@@ -174,7 +175,6 @@
     "en": "when he called"
    }
   ],
-  "explanation": "\"Da\" means \"when\", for something that happened once in the past. Compare \"Da jeg kom hjem, sov børnene\" (When I came home, the children were asleep) with \"Når jeg kommer hjem, sover børnene\" (When I get home, the children are asleep, which is now or later, not in the past).",
   "related": [
    {
     "da": "når",
@@ -194,11 +194,12 @@
    }
   ],
   "sentence": {
-   "da": "**Da** jeg kom hjem, sov børnene.",
-   "en": "When I came home, the children were asleep."
+   "da": "**Da** det begyndte at regne, gik vi hjem.",
+   "en": "When it began to rain, we went home."
   }
  },
  "dagens ret": {
+  "explanation": "\"Dagens ret\" means \"dish of the day\". Word for word it is \"the day's dish\": \"dagens\" (the day's) and \"ret\" (dish).",
   "forms": [
    {
     "da": "en ret",
@@ -217,7 +218,6 @@
     "en": "the dishes"
    }
   ],
-  "explanation": "\"Dagens ret\" means \"dish of the day\". Word for word it is \"the day's dish\": \"dagens\" (the day's) and \"ret\" (dish).",
   "related": [
    {
     "da": "en menu",
@@ -242,6 +242,7 @@
   }
  },
  "dagligvarer": {
+  "explanation": "\"Dagligvarer\" means \"groceries\": everyday goods like food and household things. It is built from \"daglig\" (daily) and \"varer\" (goods) and is always plural.",
   "forms": [
    {
     "da": "dagligvarerne",
@@ -256,7 +257,6 @@
     "en": "a grocery store"
    }
   ],
-  "explanation": "\"Dagligvarer\" means \"groceries\": everyday goods like food and household things. It is built from \"daglig\" (daily) and \"varer\" (goods) and is always plural.",
   "related": [
    {
     "da": "et supermarked",
@@ -281,6 +281,7 @@
   }
  },
  "dansk": {
+  "explanation": "\"Dansk\" means \"Danish\", the language and also things from Denmark. As a school subject it is used without \"en\" or \"et\": \"Jeg har dansk\" (I have Danish class). Language names start with a small letter: \"dansk\" (Danish), \"engelsk\" (English).",
   "forms": [
    {
     "da": "en dansk bog",
@@ -295,7 +296,6 @@
     "en": "Danish books"
    }
   ],
-  "explanation": "\"Dansk\" means \"Danish\", the language and also things from Denmark. As a school subject it is used without \"en\" or \"et\": \"Jeg har dansk\" (I have Danish class). Language names start with a small letter: \"dansk\" (Danish), \"engelsk\" (English).",
   "related": [
    {
     "da": "Danmark",
@@ -320,6 +320,7 @@
   }
  },
  "davs": {
+  "explanation": "\"Davs\" means \"hi\", a casual greeting for people you know. \"Hej\" (hi) works with everyone.",
   "forms": [
    {
     "da": "Davs!",
@@ -334,7 +335,6 @@
     "en": "Hi to you."
    }
   ],
-  "explanation": "\"Davs\" means \"hi\", a short, casual greeting. It comes from \"goddag\" (good day). \"Hej\" (hi) is the everyday greeting that suits everyone.",
   "related": [
    {
     "da": "hej",
@@ -355,6 +355,7 @@
   }
  },
  "de": {
+  "explanation": "\"De\" means \"they\". Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them), where \"dem\" means \"them\". \"De\" is also \"the\" before many things: \"de store huse\" (the big houses).",
   "forms": [
    {
     "da": "De er hjemme.",
@@ -369,7 +370,6 @@
     "en": "the big houses"
    }
   ],
-  "explanation": "\"De\" means \"they\": \"De er hjemme\" (They are at home). Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them), where \"dem\" means \"them\". \"De\" is also \"the\" before many things: \"de store huse\" (the big houses).",
   "related": [
    {
     "da": "dem",
@@ -394,6 +394,7 @@
   }
  },
  "december": {
+  "explanation": "\"December\" means \"December\". Danish writes month names with a small letter, so you write \"i december\" (in December), not \"i December\".",
   "forms": [
    {
     "da": "december",
@@ -408,7 +409,6 @@
     "en": "early in December"
    }
   ],
-  "explanation": "\"December\" means \"December\". Danish writes month names with a small letter, so you write \"i december\" (in December), not \"i December\".",
   "related": [
    {
     "da": "november",
@@ -433,6 +433,7 @@
   }
  },
  "dejlig": {
+  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\". It is warmer than \"god\" (good): \"Dejligt!\" means \"Lovely!\".",
   "forms": [
    {
     "da": "en dejlig dag",
@@ -447,7 +448,6 @@
     "en": "lovely days"
    }
   ],
-  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\", and it is very common in everyday talk: \"Dejligt!\" means \"Lovely!\". It is warmer than \"god\" (good).",
   "related": [
    {
     "da": "hyggelig",
@@ -462,8 +462,8 @@
     "en": "good"
    },
    {
-    "da": "Dejligt!",
-    "en": "Lovely!"
+    "da": "skøn",
+    "en": "lovely / wonderful"
    }
   ],
   "sentence": {
@@ -472,6 +472,7 @@
   }
  },
  "dem": {
+  "explanation": "\"Dem\" means \"them\". Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them): \"de\" (they) is for the ones doing it, \"dem\" for the ones it happens to.",
   "forms": [
    {
     "da": "Jeg ser dem.",
@@ -486,7 +487,6 @@
     "en": "We are going with them."
    }
   ],
-  "explanation": "\"Dem\" means \"them\". Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them). It is also used after small words: \"Vi går med dem\" (We are going with them).",
   "related": [
    {
     "da": "de",
@@ -511,6 +511,7 @@
   }
  },
  "den": {
+  "explanation": "\"Den\" means \"it\" for words that take \"en\". Compare \"Jeg har en bil. Den er rød\" (I have a car. It is red) with \"Jeg har et hus. Det er rødt\" (I have a house. It is red). \"Den\" also means \"the\" before a describing word: \"den store bil\" (the big car).",
   "forms": [
    {
     "da": "Den er stor.",
@@ -525,7 +526,6 @@
     "en": "I like it."
    }
   ],
-  "explanation": "\"Den\" means \"it\" for words that take \"en\". Compare \"Jeg har en bil. Den er rød\" (I have a car. It is red) with \"Jeg har et hus. Det er rødt\" (I have a house. It is red). \"Den\" also means \"the\" before a describing word: \"den store bil\" (the big car).",
   "related": [
    {
     "da": "det",
@@ -545,11 +545,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en ny bil, og **den** er rød.",
-   "en": "I have a new car, and it is red."
+   "da": "Se på bilen! **Den** er meget stor.",
+   "en": "Look at the car! It is very big."
   }
  },
  "denne": {
+  "explanation": "\"Denne\" means \"this\" with words that take \"en\". Compare \"denne bil\" (this car) with \"dette hus\" (this house, as \"hus\" takes \"et\"). It sounds formal; in everyday speech people say \"den her bil\" (this car).",
   "forms": [
    {
     "da": "denne bil",
@@ -564,7 +565,6 @@
     "en": "Who is this person?"
    }
   ],
-  "explanation": "\"Denne\" means \"this\" with words that take \"en\". Compare \"denne bil\" (this car) with \"dette hus\" (this house, as \"hus\" takes \"et\"). It sounds formal; in everyday speech people say \"den her bil\" (this car).",
   "related": [
    {
     "da": "dette",
@@ -589,6 +589,7 @@
   }
  },
  "der": {
+  "explanation": "\"Der\" means \"there\". Compare \"Han er her\" (He is here) with \"Han er der\" (He is there). At the start of a sentence it says something exists: \"Der er mange børn\" (There are many children). It can also mean \"who\": \"manden, der bor her\" (the man who lives here).",
   "forms": [
    {
     "da": "Der er en bog.",
@@ -603,7 +604,6 @@
     "en": "the man who lives here"
    }
   ],
-  "explanation": "\"Der\" means \"there\". Compare \"Han er her\" (He is here) with \"Han er der\" (He is there). \"Der er en kat i haven\" (There is a cat in the garden) uses it to say something exists. It can also mean \"who\": \"manden, der bor her\" (the man who lives here).",
   "related": [
    {
     "da": "her",
@@ -628,6 +628,7 @@
   }
  },
  "derefter": {
+  "explanation": "\"Derefter\" means \"after that\". Compare \"efter maden\" (after the meal) with \"derefter\" (after that): \"Vi ser en film, og derefter går vi i seng\" (We watch a film, and after that we go to bed).",
   "forms": [
    {
     "da": "derefter spiser vi",
@@ -642,7 +643,6 @@
     "en": "the day after"
    }
   ],
-  "explanation": "\"Derefter\" means \"after that\". Compare \"efter maden\" (after the meal) with \"derefter\" (after that): \"Vi spiser, og derefter går vi hjem\" (We eat, and after that we go home). It puts one step after another.",
   "related": [
    {
     "da": "bagefter",
@@ -667,6 +667,7 @@
   }
  },
  "deres": {
+  "explanation": "\"Deres\" means \"their\". Compare \"Det er hans hus\" (It is his house) with \"Det er deres hus\" (It is their house). It stays the same for one thing or many: \"deres hund\" (their dog), \"deres hunde\" (their dogs).",
   "forms": [
    {
     "da": "deres bil",
@@ -681,7 +682,6 @@
     "en": "their children"
    }
   ],
-  "explanation": "\"Deres\" means \"their\". Compare \"Det er hans hus\" (It is his house) with \"Det er deres hus\" (It is their house). It stays the same with everything: \"deres børn\" (their children), \"deres bil\" (their car).",
   "related": [
    {
     "da": "de",
@@ -706,6 +706,7 @@
   }
  },
  "derfor": {
+  "explanation": "\"Derfor\" means \"that is why\". The same fact can be said two ways: \"Jeg er syg, derfor bliver jeg hjemme\" (I am sick, that is why I am staying home) and \"Jeg bliver hjemme, fordi jeg er syg\" (I am staying home because I am sick).",
   "forms": [
    {
     "da": "derfor er jeg her",
@@ -720,7 +721,6 @@
     "en": "that is why"
    }
   ],
-  "explanation": "\"Derfor\" means \"that is why\". The same fact can be said two ways: \"Jeg er syg, derfor bliver jeg hjemme\" (I am sick, that is why I am staying home) and \"Jeg bliver hjemme, fordi jeg er syg\" (I am staying home because I am sick).",
   "related": [
    {
     "da": "fordi",
@@ -740,11 +740,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er syg, og **derfor** bliver jeg hjemme.",
-   "en": "I am sick, and that is why I am staying home."
+   "da": "Det regner, og **derfor** tager jeg en paraply med.",
+   "en": "It is raining, and that is why I am taking an umbrella."
   }
  },
  "derfra": {
+  "explanation": "\"Derfra\" means \"from there\". Compare \"Jeg kommer herfra\" (I come from here) with \"Jeg kommer derfra\" (I come from there).",
   "forms": [
    {
     "da": "Jeg kommer derfra",
@@ -759,7 +760,6 @@
     "en": "We left there at ten"
    }
   ],
-  "explanation": "\"Derfra\" means \"from there\". Compare \"Jeg kommer herfra\" (I come from here) with \"Jeg kommer derfra\" (I come from there).",
   "related": [
    {
     "da": "herfra",
@@ -779,11 +779,12 @@
    }
   ],
   "sentence": {
-   "da": "Hvor langt er der **derfra** til stationen?",
-   "en": "How far is it from there to the station?"
+   "da": "Jeg bor ved havnen. **Derfra** er der kun fem minutter til stationen.",
+   "en": "I live by the harbor. From there it is only five minutes to the station."
   }
  },
  "derhjemme": {
+  "explanation": "\"Derhjemme\" means \"at home\", said about your home when you are not in it or about life there in general: \"Derhjemme har vi to katte\" (At home we have two cats). Compare \"Jeg er hjemme\" (I am at home, right now).",
   "forms": [
    {
     "da": "derhjemme hos os",
@@ -798,7 +799,6 @@
     "en": "what do you do at home?"
    }
   ],
-  "explanation": "\"Derhjemme\" means \"at home\", when you talk about home from somewhere else. \"Derhjemme har vi to katte\" (Back home we have two cats). Compare \"Jeg er hjemme\" (I am at home, right now) with \"Jeg går hjem\" (I am going home).",
   "related": [
    {
     "da": "hjemme",
@@ -823,6 +823,7 @@
   }
  },
  "derinde": {
+  "explanation": "\"Derinde\" means \"in there\". Compare \"Jeg er herinde\" (I am in here) with \"Katten er derinde\" (The cat is in there).",
   "forms": [
    {
     "da": "derinde i stuen",
@@ -837,7 +838,6 @@
     "en": "what is in there?"
    }
   ],
-  "explanation": "\"Derinde\" means \"in there\". Compare \"Jeg er herinde\" (I am in here) with \"Min mor er derinde\" (My mother is in there).",
   "related": [
    {
     "da": "herinde",
@@ -862,6 +862,7 @@
   }
  },
  "dernede": {
+  "explanation": "\"Dernede\" means \"down there\". Compare \"Katten er deroppe\" (The cat is up there) with \"Katten er dernede\" (The cat is down there).",
   "forms": [
    {
     "da": "dernede ved vandet",
@@ -876,7 +877,6 @@
     "en": "down there in the basement"
    }
   ],
-  "explanation": "\"Dernede\" means \"down there\". Compare \"Katten er deroppe\" (The cat is up there) with \"Katten er dernede\" (The cat is down there).",
   "related": [
    {
     "da": "nede",
@@ -901,6 +901,7 @@
   }
  },
  "derude": {
+  "explanation": "\"Derude\" means \"out there\". Compare \"Børnene er derinde\" (The children are in there) with \"Børnene er derude\" (The children are out there).",
   "forms": [
    {
     "da": "derude i haven",
@@ -915,7 +916,6 @@
     "en": "out there on the street"
    }
   ],
-  "explanation": "\"Derude\" means \"out there\". Compare \"Børnene er derinde\" (The children are in there) with \"Børnene er derude\" (The children are out there).",
   "related": [
    {
     "da": "herude",
@@ -940,6 +940,7 @@
   }
  },
  "desværre": {
+  "explanation": "\"Desværre\" means \"unfortunately\". Use it before bad news or a no: \"Desværre kan jeg ikke komme\" (Unfortunately I can't come). It sounds softer and more polite than just \"Nej\" (No).",
   "forms": [
    {
     "da": "desværre ikke",
@@ -954,7 +955,6 @@
     "en": "unfortunately it is sold"
    }
   ],
-  "explanation": "\"Desværre\" means \"unfortunately\". Use it before bad news or a no: \"Desværre kan jeg ikke komme\" (Unfortunately I can't come). It sounds softer and more polite than just \"Nej\" (No). Its opposite is \"heldigvis\": \"Heldigvis er du her\" (Luckily you are here).",
   "related": [
    {
     "da": "heldigvis",
@@ -969,8 +969,8 @@
     "en": "sorry"
    },
    {
-    "da": "tak",
-    "en": "thanks"
+    "da": "selvfølgelig",
+    "en": "of course"
    }
   ],
   "sentence": {
@@ -979,6 +979,7 @@
   }
  },
  "det": {
+  "explanation": "\"Det\" means \"it\" or \"that\". Use it for a thing that takes \"et\": \"Jeg har et hus, og det er stort\" (I have a house, and it is big). Things that take \"en\" use \"den\": \"Jeg har en bil, og den er stor\" (I have a car, and it is big). \"Det\" is also used for weather and general statements: \"Det regner\" (It is raining), \"Det er sjovt\" (That is fun).",
   "forms": [
    {
     "da": "Det er godt.",
@@ -993,7 +994,6 @@
     "en": "I know it / I know that."
    }
   ],
-  "explanation": "\"Det\" means \"it\" or \"that\". Use it for a thing that takes \"et\": \"Jeg har et hus, og det er stort\" (I have a house, and it is big). Things that take \"en\" use \"den\": \"Jeg har en bil, og den er stor\" (I have a car, and it is big). \"Det\" is also used for weather and general statements: \"Det regner\" (It is raining), \"Det er sjovt\" (That is fun).",
   "related": [
    {
     "da": "den",
@@ -1013,11 +1013,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har et hus, og **det** er stort.",
-   "en": "I have a house, and it is big."
+   "da": "Se på huset! **Det** er meget gammelt.",
+   "en": "Look at the house! It is very old."
   }
  },
  "det er": {
+  "explanation": "\"Det er\" means \"it is\" or \"that is\"; Danish uses the same two words for both. Use it to name things or describe them: \"Det er sent\" (It is late).",
   "forms": [
    {
     "da": "Det er godt.",
@@ -1032,7 +1033,6 @@
     "en": "Is it you?"
    }
   ],
-  "explanation": "\"Det er\" means \"it is\" or \"that is\"; Danish uses the same two words for both. Use it to name things or describe them: \"Det er sent\" (It is late).",
   "related": [
    {
     "da": "der er",
@@ -1057,6 +1057,7 @@
   }
  },
  "det er en god idé": {
+  "explanation": "\"Det er en god idé\" means \"that's a good idea\", said to agree with a suggestion. In everyday talk Danes often shorten it to \"god idé!\" (good idea!).",
   "forms": [
    {
     "da": "Det er en god idé.",
@@ -1071,7 +1072,6 @@
     "en": "That's a nice idea."
    }
   ],
-  "explanation": "\"Det er en god idé\" means \"that's a good idea\", a common way to agree with a suggestion. In everyday talk Danes often shorten it to \"god idé!\" (good idea!). To give a different opinion, swap \"god\" for \"dårlig\" (bad) or \"fin\" (nice).",
   "related": [
    {
     "da": "en idé",
@@ -1096,6 +1096,7 @@
   }
  },
  "det er i orden": {
+  "explanation": "\"Det er i orden\" means \"it's okay\" or \"that's fine\". Danes say it in reply to \"undskyld\" (sorry) and to agree to a plan. \"I orden\" literally means \"in order\". Ask \"er det i orden?\" (is that okay?) to check if something suits the other person.",
   "forms": [
    {
     "da": "Det er i orden.",
@@ -1110,7 +1111,6 @@
     "en": "Is that okay?"
    }
   ],
-  "explanation": "\"Det er i orden\" means \"it's okay\" or \"that's fine\". It is useful as a reply to \"undskyld\" (sorry) and as a way to agree to a plan. \"I orden\" literally means \"in order\". Ask \"er det i orden?\" (is that okay?) to check if something suits the other person.",
   "related": [
    {
     "da": "det er okay",
@@ -1131,6 +1131,7 @@
   }
  },
  "det er ikke så svært": {
+  "explanation": "\"Det er ikke så svært\" means \"it's not that hard\". \"Svært\" means \"difficult\" and \"ikke så\" means \"not so\".",
   "forms": [
    {
     "da": "Det er ikke så svært.",
@@ -1145,7 +1146,6 @@
     "en": "Is it hard?"
    }
   ],
-  "explanation": "\"Det er ikke så svært\" means \"it's not that hard\", a reassuring phrase. \"Svært\" means \"difficult\" and \"ikke så\" means \"not so\".",
   "related": [
    {
     "da": "nem",
@@ -1170,6 +1170,7 @@
   }
  },
  "det er lige meget": {
+  "explanation": "\"Det er lige meget\" means \"it doesn't matter\". Use it when you are happy with any choice. Careful with tone: \"Det er mig lige meget\" (I don't care) can sound rude, so say \"det gør ikke noget\" (it's no problem) when you want to be kind.",
   "forms": [
    {
     "da": "Det er lige meget.",
@@ -1177,14 +1178,13 @@
    },
    {
     "da": "Det er mig lige meget.",
-    "en": "I don't mind."
+    "en": "I don't care."
    },
    {
     "da": "Det er lige meget, hvad du vælger.",
     "en": "It doesn't matter what you choose."
    }
   ],
-  "explanation": "\"Det er lige meget\" means \"it doesn't matter\". Use it when you are happy with any choice. Careful with tone: \"Det er mig lige meget\" can sound like \"I don't care\", so say \"det gør ikke noget\" (it's no problem) when you want to be kind.",
   "related": [
    {
     "da": "det gør ikke noget",
@@ -1195,8 +1195,8 @@
     "en": "don't care"
    },
    {
-    "da": "jeg bryder mig ikke om",
-    "en": "I don't like"
+    "da": "hvad som helst",
+    "en": "anything"
    },
    {
     "da": "det er fint",
@@ -1209,6 +1209,7 @@
   }
  },
  "det er rigtigt": {
+  "explanation": "\"Det er rigtigt\" means \"that's right\". Be careful: \"rigtig\" also means \"really\" before another word, as in \"rigtig godt\" (really good).",
   "forms": [
    {
     "da": "Det er rigtigt.",
@@ -1223,7 +1224,6 @@
     "en": "That's completely right."
    }
   ],
-  "explanation": "\"Det er rigtigt\" means \"that's right\", said to agree that something is correct or true. Be careful: \"rigtig\" also means \"really\" before another word, as in \"rigtig godt\" (really good). A short alternative is \"ja, præcis\" (yes, exactly).",
   "related": [
    {
     "da": "forkert",
@@ -1248,6 +1248,7 @@
   }
  },
  "det er synd": {
+  "explanation": "\"Det er synd\" means \"that's a shame\" or \"that's too bad\", and shows sympathy when something goes wrong. To say you feel sorry for someone, add \"for\" and the person: \"Det er synd for ham\" (I feel sorry for him).",
   "forms": [
    {
     "da": "Det er synd.",
@@ -1262,7 +1263,6 @@
     "en": "I feel sorry for you."
    }
   ],
-  "explanation": "\"Det er synd\" means \"that's a shame\" or \"that's too bad\", and shows sympathy when something goes wrong. To say you feel sorry for someone, add \"for\" and the person: \"Det er synd for ham\" (I feel sorry for him). The word \"synd\" also means \"sin\", but in this phrase it is mild and everyday.",
   "related": [
    {
     "da": "desværre",
@@ -1283,6 +1283,7 @@
   }
  },
  "det går fint": {
+  "explanation": "\"Det går fint\" means \"it's going fine\" and is a common answer to \"Hvordan går det?\" (How is it going?). Swap \"fint\" (fine) for \"godt\" (well) or \"dårligt\" (badly) to change the mood.",
   "forms": [
    {
     "da": "Det går fint.",
@@ -1297,7 +1298,6 @@
     "en": "It's not going so well."
    }
   ],
-  "explanation": "\"Det går fint\" means \"it's going fine\" and is a common answer to \"Hvordan går det?\" (How is it going?). Swap \"fint\" (fine) for \"godt\" (well) or \"dårligt\" (badly) to change the mood.",
   "related": [
    {
     "da": "hvordan går det?",
@@ -1318,6 +1318,7 @@
   }
  },
  "det går godt": {
+  "explanation": "\"Det går godt\" means \"it's going well\" and is a standard answer to \"Hvordan går det?\" (How's it going?). After answering, it is polite to ask \"og dig?\" (and you?).",
   "forms": [
    {
     "da": "Det går godt.",
@@ -1332,7 +1333,6 @@
     "en": "It's going really well."
    }
   ],
-  "explanation": "\"Det går godt\" means \"it's going well\" and is a standard answer to \"Hvordan går det?\" (How's it going?). You can make it stronger with \"rigtig\" (really). It also works for anything going well, like a job or a project. After answering, it is polite to ask \"og dig?\" (and you?).",
   "related": [
    {
     "da": "hvordan går det?",
@@ -1357,6 +1357,7 @@
   }
  },
  "det gør ikke noget": {
+  "explanation": "\"Det gør ikke noget\" means \"it's ok\" or \"no problem\", what you say when someone says \"Undskyld\" (Sorry). Word for word it is \"it does not do anything\". Do not mix it up with \"det er lige meget\" (it doesn't matter), which is for choices.",
   "forms": [
    {
     "da": "Det gør ikke noget.",
@@ -1371,7 +1372,6 @@
     "en": "No problem, I'll wait."
    }
   ],
-  "explanation": "\"Det gør ikke noget\" means \"it's ok\" or \"no problem\". It is what you say when someone apologises, for example after \"Undskyld\", to show that you are not upset. Word for word it is \"it does not do anything\". It is close to \"det er lige meget\" (it doesn't matter), but it is warmer and more of a reply to an apology.",
   "related": [
    {
     "da": "undskyld",
@@ -1387,15 +1387,16 @@
    },
    {
     "da": "ingen årsag",
-    "en": "no worries"
+    "en": "don't mention it"
    }
   ],
   "sentence": {
-   "da": "\"Undskyld!\" - \"**Det gør ikke noget**.\"",
-   "en": "\"Sorry!\" - \"It's ok.\""
+   "da": "\"Undskyld!\" – \"**Det gør ikke noget.**\"",
+   "en": "\"Sorry!\" – \"It's ok.\""
   }
  },
  "det håber jeg": {
+  "explanation": "\"Det håber jeg\" means \"I hope so\", a short reply to a question about something that might happen. Word for word it is \"that hope I\".",
   "forms": [
    {
     "da": "Det håber jeg.",
@@ -1410,7 +1411,6 @@
     "en": "I really hope so."
    }
   ],
-  "explanation": "\"Det håber jeg\" means \"I hope so\", a short reply to a question about something that might happen. The word order differs from English: \"det\" (that) comes first, then \"håber jeg\" (hope I). To say \"I hope not\", add \"ikke\" (not) at the end.",
   "related": [
    {
     "da": "det tror jeg",
@@ -1431,6 +1431,7 @@
   }
  },
  "det lyder godt": {
+  "explanation": "\"Det lyder godt\" means \"that sounds good\". Use it to react positively to a plan, an offer or an idea. \"At lyde\" means \"to sound\".",
   "forms": [
    {
     "da": "Det lyder godt.",
@@ -1445,7 +1446,6 @@
     "en": "That sounds lovely."
    }
   ],
-  "explanation": "\"Det lyder godt\" means \"that sounds good\". Use it to react positively to a plan, an offer or an idea. \"At lyde\" means \"to sound\". Put \"rigtig\" (really) before \"godt\" (good) to sound more enthusiastic.",
   "related": [
    {
     "da": "det lyder dårligt",
@@ -1470,6 +1470,7 @@
   }
  },
  "det tror jeg": {
+  "explanation": "\"Det tror jeg\" means \"I think so\" or \"I believe so\", a slightly unsure reply when you aren't completely certain. Word for word it is \"that think I\".",
   "forms": [
    {
     "da": "Det tror jeg.",
@@ -1484,7 +1485,6 @@
     "en": "I think so too."
    }
   ],
-  "explanation": "\"Det tror jeg\" means \"I think so\" or \"I believe so\". It starts with \"det\" (that), and \"tror jeg\" (think I) follows. It is a polite, slightly unsure reply when you aren't completely certain.",
   "related": [
    {
     "da": "det håber jeg",
@@ -1505,6 +1505,7 @@
   }
  },
  "det tror jeg ikke": {
+  "explanation": "\"Det tror jeg ikke\" means \"I don't think so\", a soft way to say no. Word for word it is \"that think I not\". It sounds gentler than a plain \"nej\" (no).",
   "forms": [
    {
     "da": "Det tror jeg ikke.",
@@ -1519,7 +1520,6 @@
     "en": "I think so, yes."
    }
   ],
-  "explanation": "\"Det tror jeg ikke\" means \"I don't think so\", a polite, soft way to say no. It starts with \"det\" (that), and \"tror jeg\" (think I) follows. It sounds gentler than a plain \"nej\" (no).",
   "related": [
    {
     "da": "det tror jeg",
@@ -1544,6 +1544,7 @@
   }
  },
  "det var så lidt": {
+  "explanation": "\"Det var så lidt\" means \"you're welcome\" or \"don't mention it\". Word for word it is \"it was so little\", as if the favour was nothing. It is a warm, slightly informal answer to \"tak\" (thanks).",
   "forms": [
    {
     "da": "Det var så lidt.",
@@ -1554,11 +1555,10 @@
     "en": "Thanks! – Don't mention it."
    },
    {
-    "da": "Selv tak.",
-    "en": "You're welcome (also)."
+    "da": "Tak for hjælpen! – Det var så lidt.",
+    "en": "Thanks for the help! – Don't mention it."
    }
   ],
-  "explanation": "\"Det var så lidt\" means \"you're welcome\" or \"don't mention it\". Word for word it is \"it was so little\", as if the favour was nothing. It is a warm, slightly informal answer to \"tak\" (thanks).",
   "related": [
    {
     "da": "tak",
@@ -1583,6 +1583,7 @@
   }
  },
  "det ved jeg ikke": {
+  "explanation": "\"Det ved jeg ikke\" means \"I don't know\". \"Det\" (that) comes first, then \"ved jeg\" (know I). \"At vide\" (to know) is for facts; for knowing a person or place use \"at kende\" (to know).",
   "forms": [
    {
     "da": "Det ved jeg ikke.",
@@ -1597,7 +1598,6 @@
     "en": "I actually don't know."
    }
   ],
-  "explanation": "\"Det ved jeg ikke\" means \"I don't know\". \"Det\" (that) comes first for emphasis, then \"ved jeg\" (know I). The everyday \"Jeg ved det ikke\" (I don't know) is just as common. \"At vide\" (to know) is for facts; for knowing a person or place use \"at kende\" (to know).",
   "related": [
    {
     "da": "jeg ved det ikke",
@@ -1622,6 +1622,7 @@
   }
  },
  "dette": {
+  "explanation": "\"Dette\" means \"this\" with a word that takes \"et\": \"dette hus\" (this house). With a word that takes \"en\", use \"denne\": \"denne bil\" (this car). It sounds a bit formal; in everyday speech Danes say \"det her\": \"Jeg vil have det her\" (I want this one).",
   "forms": [
    {
     "da": "dette hus",
@@ -1636,7 +1637,6 @@
     "en": "This is my brother."
    }
   ],
-  "explanation": "\"Dette\" means \"this\" with a word that takes \"et\": \"dette hus\" (this house). With a word that takes \"en\", use \"denne\": \"denne bil\" (this car). It sounds a bit formal; in everyday speech Danes say \"det her\": \"Jeg vil have det her\" (I want this one).",
   "related": [
    {
     "da": "denne",
@@ -1661,6 +1661,7 @@
   }
  },
  "dig": {
+  "explanation": "\"Dig\" means \"you\" when something is done to you: \"Jeg elsker dig\" (I love you). \"Du\" is the one who does it: \"Du elsker mig\" (You love me). It is also used after little words like \"med\" (with): \"Jeg kommer med dig\" (I am coming with you). It is for one person; for several people say \"jer\" (you, many).",
   "forms": [
    {
     "da": "Jeg ser dig.",
@@ -1675,7 +1676,6 @@
     "en": "I miss you."
    }
   ],
-  "explanation": "\"Dig\" means \"you\" when something is done to you: \"Jeg elsker dig\" (I love you). \"Du\" is the one who does it: \"Du elsker mig\" (You love me). It is also used after little words like \"med\": \"Jeg kommer med dig\" (I am coming with you). It is for one person; for several people say \"jer\".",
   "related": [
    {
     "da": "du",
@@ -1700,6 +1700,7 @@
   }
  },
  "digital": {
+  "explanation": "\"Digital\" means \"digital\". It looks like the English word, but the stress is on the last part: di-gi-TAL.",
   "forms": [
    {
     "da": "en digital klokke",
@@ -1714,7 +1715,6 @@
     "en": "digital pictures"
    }
   ],
-  "explanation": "\"Digital\" means \"digital\". It looks like the English word, but the stress is on the last part: di-gi-TAL.",
   "related": [
    {
     "da": "analog",
@@ -1739,6 +1739,7 @@
   }
  },
  "din": {
+  "explanation": "\"Din\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"en\": \"din bil\" (your car). For a thing that takes \"et\" it is \"dit\": \"dit hus\" (your house). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "forms": [
    {
     "da": "din bil",
@@ -1753,7 +1754,6 @@
     "en": "The car is yours."
    }
   ],
-  "explanation": "\"Din\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"en\": \"din bil\" (your car). For a thing that takes \"et\" it is \"dit\": \"dit hus\" (your house). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "related": [
    {
     "da": "dit",
@@ -1778,6 +1778,7 @@
   }
  },
  "dine": {
+  "explanation": "\"Dine\" means \"your\" or \"yours\" when there is more than one thing: \"dine sko\" (your shoes). For one thing it is \"din\" or \"dit\": \"din sko\" (your shoe), \"dit hus\" (your house). It is also used on its own: \"Skoene er dine\" (The shoes are yours).",
   "forms": [
    {
     "da": "dine bøger",
@@ -1792,7 +1793,6 @@
     "en": "The books are yours."
    }
   ],
-  "explanation": "\"Dine\" means \"your\" or \"yours\" when there is more than one thing: \"dine sko\" (your shoes). For one thing it is \"din\" or \"dit\": \"din sko\" (your shoe), \"dit hus\" (your house). It is also used on its own: \"Skoene er dine\" (The shoes are yours).",
   "related": [
    {
     "da": "din",
@@ -1817,6 +1817,7 @@
   }
  },
  "disse": {
+  "explanation": "\"Disse\" means \"these\": \"disse sko\" (these shoes). For one thing it is \"denne\" or \"dette\": \"denne sko\" (this shoe), \"dette hus\" (this house). It sounds a bit formal; in everyday speech Danes say \"de her\": \"de her sko\" (these shoes).",
   "forms": [
    {
     "da": "disse biler",
@@ -1831,7 +1832,6 @@
     "en": "What are these?"
    }
   ],
-  "explanation": "\"Disse\" means \"these\": \"disse sko\" (these shoes). For one thing it is \"denne\" or \"dette\": \"denne sko\" (this shoe), \"dette hus\" (this house). It sounds a bit formal; in everyday speech Danes say \"de her\": \"de her sko\" (these shoes).",
   "related": [
    {
     "da": "denne",
@@ -1856,6 +1856,7 @@
   }
  },
  "dit": {
+  "explanation": "\"Dit\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"et\": \"dit hus\" (your house), \"dit navn\" (your name). For a thing that takes \"en\" it is \"din\": \"din bil\" (your car). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "forms": [
    {
     "da": "dit hus",
@@ -1870,7 +1871,6 @@
     "en": "The house is yours."
    }
   ],
-  "explanation": "\"Dit\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"et\": \"dit hus\" (your house), \"dit navn\" (your name). For a thing that takes \"en\" it is \"din\": \"din bil\" (your car). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "related": [
    {
     "da": "din",
@@ -1895,6 +1895,7 @@
   }
  },
  "dog": {
+  "explanation": "\"Dog\" means \"though\", \"still\" or \"anyway\". It adds a little contrast: \"Det er dyrt, men jeg køber det dog\" (It is expensive, but I am buying it anyway). In a command it makes the request friendlier: \"Kom dog ind!\" (Do come in!). It is not the same as \"men\" (but): \"Han er sød, men sur\" (He is sweet but grumpy).",
   "forms": [
    {
     "da": "Det er dog sjovt.",
@@ -1909,7 +1910,6 @@
     "en": "I am tired, though."
    }
   ],
-  "explanation": "\"Dog\" means \"though\" or \"still\". It is a small word that adds a little contrast: \"Jeg er træt, men jeg kommer dog\" (I am tired, but I am coming anyway). In a command it makes the request friendlier: \"Kom dog ind!\" (Do come in!). It is not the same as \"men\" (but), which joins two parts: \"Han er sød, men sur\" (He is sweet but grumpy).",
   "related": [
    {
     "da": "men",
@@ -1934,6 +1934,7 @@
   }
  },
  "du": {
+  "explanation": "\"Du\" means \"you\" when you talk to one person: \"Du er sød\" (You are sweet). Danes use it with almost everyone, even older people and your boss. When something is done to you, it is \"dig\": \"Jeg ser dig\" (I see you). When you talk to several people, say \"I\": \"I er søde\" (You are all sweet).",
   "forms": [
    {
     "da": "Du er sød.",
@@ -1948,7 +1949,6 @@
     "en": "Do you have time?"
    }
   ],
-  "explanation": "\"Du\" means \"you\" when you talk to one person: \"Du er sød\" (You are sweet). Danes use it with almost everyone, even older people and your boss. When something is done to you, it is \"dig\": \"Jeg ser dig\" (I see you). When you talk to several people, say \"I\": \"I er søde\" (You are sweet).",
   "related": [
    {
     "da": "dig",
@@ -1973,6 +1973,7 @@
   }
  },
  "dum": {
+  "explanation": "\"Dum\" means \"stupid\" or \"silly\". Said about a person it can sound rude: \"Du er dum\" (You are stupid). About things it is milder: \"Det var dumt\" (That was silly).",
   "forms": [
    {
     "da": "en dum idé",
@@ -1987,23 +1988,22 @@
     "en": "stupid ideas"
    }
   ],
-  "explanation": "\"Dum\" means \"stupid\" or \"silly\". It can sound rude when said about a person, so be careful. It is common for things: \"Det var dumt\" (That was silly).",
   "related": [
    {
     "da": "klog",
     "en": "smart / wise"
    },
    {
-    "da": "smart",
-    "en": "clever"
+    "da": "dygtig",
+    "en": "skilled / clever"
    },
    {
     "da": "en fejl",
     "en": "a mistake"
    },
    {
-    "da": "sjov",
-    "en": "funny"
+    "da": "fjollet",
+    "en": "silly"
    }
   ],
   "sentence": {
@@ -2012,6 +2012,7 @@
   }
  },
  "dyb": {
+  "explanation": "\"Dyb\" means \"deep\", as in deep water or a deep hole. It also works for sleep and voices: \"en dyb søvn\" (a deep sleep), \"en dyb stemme\" (a deep voice).",
   "forms": [
    {
     "da": "en dyb sø",
@@ -2026,7 +2027,6 @@
     "en": "deep lakes"
    }
   ],
-  "explanation": "\"Dyb\" means \"deep\", as in deep water or a deep hole. It also works for sleep and sounds: \"en dyb søvn\" (a deep sleep), \"en dyb stemme\" (a deep voice).",
   "related": [
    {
     "da": "lav",
@@ -2051,6 +2051,7 @@
   }
  },
  "dyr": {
+  "explanation": "\"Dyr\" means \"expensive\", as in \"Det er for dyrt\" (It is too expensive). Be careful: \"et dyr\" is also a word of its own meaning \"an animal\".",
   "forms": [
    {
     "da": "en dyr bil",
@@ -2065,7 +2066,6 @@
     "en": "expensive cars"
    }
   ],
-  "explanation": "\"Dyr\" means \"expensive\", as in \"Det er for dyrt\" (It is too expensive). Be careful: \"et dyr\" is also a word of its own meaning \"an animal\".",
   "related": [
    {
     "da": "billig",
@@ -2090,6 +2090,7 @@
   }
  },
  "dårlig": {
+  "explanation": "\"Dårlig\" means \"bad\", and it also means \"unwell\": \"Jeg har det dårligt\" means \"I feel bad\" or \"I feel ill\". Its \"worse\" and \"worst\" are different words: \"værre\" (worse) and \"værst\" (worst).",
   "forms": [
    {
     "da": "en dårlig dag",
@@ -2104,7 +2105,6 @@
     "en": "bad days"
    }
   ],
-  "explanation": "\"Dårlig\" means \"bad\", and it also means \"unwell\": \"Jeg har det dårligt\" means \"I feel bad\" or \"I feel ill\". Its \"worse\" and \"worst\" are different words: \"værre\" (worse) and \"værst\" (worst).",
   "related": [
    {
     "da": "god",
@@ -2129,6 +2129,7 @@
   }
  },
  "død": {
+  "explanation": "\"Død\" means \"dead\", for people, animals and plants. It is also used for things that have stopped working: \"Min telefon er død\" (My phone is dead).",
   "forms": [
    {
     "da": "en død fisk",
@@ -2143,7 +2144,6 @@
     "en": "dead animals"
    }
   ],
-  "explanation": "\"Død\" means \"dead\", for people, animals and plants. It is also used for things that have stopped working: \"Min telefon er død\" (My phone is dead).",
   "related": [
    {
     "da": "levende",
@@ -2168,6 +2168,7 @@
   }
  },
  "en dag": {
+  "explanation": "\"En dag\" means \"a day\", as in \"hver dag\" (every day) and \"god dag\" (hello, good day). The days of the week end in \"-dag\", for example \"mandag\" (Monday) and \"tirsdag\" (Tuesday).",
   "forms": [
    {
     "da": "en dag",
@@ -2186,7 +2187,6 @@
     "en": "the days"
    }
   ],
-  "explanation": "\"En dag\" means \"a day\". It is used in many everyday phrases: \"i dag\" (today, written as two words), \"hver dag\" (every day) and \"god dag\" (hello, good day). The days of the week end in \"-dag\", for example \"mandag\" (Monday) and \"tirsdag\" (Tuesday).",
   "related": [
    {
     "da": "en uge",
@@ -2211,6 +2211,7 @@
   }
  },
  "en dame": {
+  "explanation": "\"En dame\" means \"a lady\", a polite word for a woman. You often see \"Damer\" on a toilet door, meaning the women's toilet. \"Mine damer og herrer\" means \"Ladies and gentlemen\".",
   "forms": [
    {
     "da": "en dame",
@@ -2229,7 +2230,6 @@
     "en": "the ladies"
    }
   ],
-  "explanation": "\"En dame\" means \"a lady\", a polite word for a woman. It sounds a bit more formal than \"en kvinde\" (a woman). You often see \"Damer\" on a toilet door, meaning the women's toilet. \"Mine damer og herrer\" means \"Ladies and gentlemen\".",
   "related": [
    {
     "da": "en kvinde",
@@ -2254,6 +2254,7 @@
   }
  },
  "en dansker": {
+  "explanation": "\"En dansker\" means \"a Dane\", a person from Denmark. The word is the same for men and women. To say what nationality someone is, Danish leaves out \"en\": \"Han er dansker\" means \"He is a Dane\".",
   "forms": [
    {
     "da": "en dansker",
@@ -2272,7 +2273,6 @@
     "en": "the Danes"
    }
   ],
-  "explanation": "\"En dansker\" means \"a Dane\", a person from Denmark. The word is the same for men and women. To say what nationality someone is, Danish leaves out \"en\": \"Han er dansker\" means \"He is a Dane\".",
   "related": [
    {
     "da": "Danmark",
@@ -2297,6 +2297,7 @@
   }
  },
  "en dato": {
+  "explanation": "\"En dato\" means \"a date\" on the calendar, such as 5 March. Use it to ask: \"Hvad er datoen i dag?\" (What is the date today?). Do not mix it up with a romantic date, which is \"en date\" (borrowed from English).",
   "forms": [
    {
     "da": "en dato",
@@ -2315,7 +2316,6 @@
     "en": "the dates"
    }
   ],
-  "explanation": "\"En dato\" means \"a date\" on the calendar, such as 5 March. Use it to ask: \"Hvad er datoen i dag?\" (What is the date today?). Do not mix it up with a romantic date, which is \"en date\" (borrowed from English). Danes say dates like this: \"den femte marts\" (the fifth of March).",
   "related": [
    {
     "da": "en dag",
@@ -2340,6 +2340,7 @@
   }
  },
  "en datter": {
+  "explanation": "\"En datter\" means \"a daughter\".",
   "forms": [
    {
     "da": "en datter",
@@ -2358,7 +2359,6 @@
     "en": "the daughters"
    }
   ],
-  "explanation": "\"En datter\" means \"a daughter\". A common question is \"Hvor gammel er din datter?\" (How old is your daughter?).",
   "related": [
    {
     "da": "en søn",
@@ -2383,6 +2383,7 @@
   }
  },
  "en dessert": {
+  "explanation": "\"En dessert\" means \"a dessert\", the sweet dish at the end of a meal. It is spelled like the English word, but the stress is at the end: \"des-SERT\".",
   "forms": [
    {
     "da": "en dessert",
@@ -2401,7 +2402,6 @@
     "en": "the desserts"
    }
   ],
-  "explanation": "\"En dessert\" means \"a dessert\", the sweet dish at the end of a meal. It is spelled like the English word, but the stress is at the end: \"des-SERT\".",
   "related": [
    {
     "da": "en forret",
@@ -2426,6 +2426,7 @@
   }
  },
  "en doktor": {
+  "explanation": "\"En doktor\" means \"a doctor\", but in everyday Danish people mostly say \"en læge\" (a medical doctor). Still, \"Jeg skal til doktoren\" (I am going to the doctor) is fine in casual speech.",
   "forms": [
    {
     "da": "en doktor",
@@ -2444,7 +2445,6 @@
     "en": "the doctors"
    }
   ],
-  "explanation": "\"En doktor\" means \"a doctor\", but in everyday Danish people mostly say \"en læge\" (a medical doctor). \"Doktor\" is also a university title for someone with a PhD. You can still say \"Jeg skal til doktoren\" (I am going to the doctor) in casual speech.",
   "related": [
    {
     "da": "en læge",
@@ -2469,6 +2469,7 @@
   }
  },
  "en dollar": {
+  "explanation": "\"En dollar\" means \"a dollar\". Danish money is \"kroner\" (crowns), not dollars.",
   "forms": [
    {
     "da": "en dollar",
@@ -2483,7 +2484,6 @@
     "en": "five dollars"
    }
   ],
-  "explanation": "\"En dollar\" means \"a dollar\". After a number it stays the same: \"ti dollar\" (ten dollars). Danish money is \"kroner\" (crowns), not dollars.",
   "related": [
    {
     "da": "en euro",
@@ -2508,6 +2508,7 @@
   }
  },
  "en dreng": {
+  "explanation": "\"En dreng\" means \"a boy\", a young male child. For a young adult, say \"en ung mand\" (a young man).",
   "forms": [
    {
     "da": "en dreng",
@@ -2526,7 +2527,6 @@
     "en": "the boys"
    }
   ],
-  "explanation": "\"En dreng\" means \"a boy\", a young male child. For a young man, \"en ung mand\" (a young man) is more normal.",
   "related": [
    {
     "da": "en pige",
@@ -2551,6 +2551,7 @@
   }
  },
  "en drik": {
+  "explanation": "\"En drik\" means \"a drink\", from \"at drikke\" (to drink). In everyday speech people usually name the drink itself, like \"en kaffe\" (a coffee) or \"en øl\" (a beer).",
   "forms": [
    {
     "da": "en drik",
@@ -2569,7 +2570,6 @@
     "en": "the drinks"
    }
   ],
-  "explanation": "\"En drik\" means \"a drink\", a beverage. It comes from \"at drikke\" (to drink). In everyday speech people usually name the drink itself, like \"en kaffe\" (a coffee) or \"en øl\" (a beer).",
   "related": [
    {
     "da": "at drikke",
@@ -2594,6 +2594,7 @@
   }
  },
  "en dukke": {
+  "explanation": "\"En dukke\" means \"a doll\", a toy for children. A puppet in a show is also \"en dukke\", and \"dukketeater\" means \"puppet theatre\".",
   "forms": [
    {
     "da": "en dukke",
@@ -2612,7 +2613,6 @@
     "en": "the dolls"
    }
   ],
-  "explanation": "\"En dukke\" means \"a doll\", a toy for children. A puppet in a show is also \"en dukke\", and \"dukketeater\" means \"puppet theatre\".",
   "related": [
    {
     "da": "et legetøj",
@@ -2637,6 +2637,7 @@
   }
  },
  "en dør": {
+  "explanation": "\"En dør\" means \"a door\". Common phrases are \"at åbne døren\" (to open the door) and \"at lukke døren\" (to close the door). The letter \"ø\" sounds a bit like the \"u\" in \"fur\".",
   "forms": [
    {
     "da": "en dør",
@@ -2655,7 +2656,6 @@
     "en": "the doors"
    }
   ],
-  "explanation": "\"En dør\" means \"a door\". Common phrases are \"at åbne døren\" (to open the door) and \"at lukke døren\" (to close the door). The letter \"ø\" sounds a bit like the \"u\" in \"fur\".",
   "related": [
    {
     "da": "et vindue",
@@ -2680,6 +2680,7 @@
   }
  },
  "et dankort": {
+  "explanation": "\"Et dankort\" means \"a Dankort\", the Danish debit card. To ask if a shop takes it, say \"Kan jeg betale med dankort?\" (Can I pay by Dankort?). Note that Danish leaves out \"a\" after \"med\" here.",
   "forms": [
    {
     "da": "et dankort",
@@ -2690,11 +2691,14 @@
     "en": "the Dankort"
    },
    {
-    "da": "Jeg betaler med dankort.",
-    "en": "I pay with a Dankort."
+    "da": "dankort",
+    "en": "Dankorts"
+   },
+   {
+    "da": "dankortene",
+    "en": "the Dankorts"
    }
   ],
-  "explanation": "\"Et dankort\" means \"a Dankort\", the Danish debit card. To ask if a shop takes it, say \"Kan jeg betale med dankort?\" (Can I pay by Dankort?). Note that Danish leaves out \"a\" after \"med\" here.",
   "related": [
    {
     "da": "et kort",
@@ -2719,6 +2723,7 @@
   }
  },
  "et dobbeltværelse": {
+  "explanation": "\"Et dobbeltværelse\" means \"a double room\", a hotel room for two people. It is made of \"dobbelt\" (double) and \"et værelse\" (a room).",
   "forms": [
    {
     "da": "et dobbeltværelse",
@@ -2737,7 +2742,6 @@
     "en": "the double rooms"
    }
   ],
-  "explanation": "\"Et dobbeltværelse\" means \"a double room\", a hotel room for two people. It is made of \"dobbelt\" (double) and \"et værelse\" (a room).",
   "related": [
    {
     "da": "et enkeltværelse",
@@ -2762,6 +2766,7 @@
   }
  },
  "et dyr": {
+  "explanation": "\"Et dyr\" means \"an animal\". \"Et vildt dyr\" means \"a wild animal\".",
   "forms": [
    {
     "da": "et dyr",
@@ -2780,7 +2785,6 @@
     "en": "the animals"
    }
   ],
-  "explanation": "\"Et dyr\" means \"an animal\", any animal from a mouse to a horse. \"Et vildt dyr\" means \"a wild animal\".",
   "related": [
    {
     "da": "en hund",

@@ -1,5 +1,6 @@
 {
  "at bage": {
+  "explanation": "\"At bage\" means \"to bake\", for things like cakes and bread: \"Jeg bager et brød\" (I bake a loaf of bread).",
   "forms": [
    {
     "da": "at bage",
@@ -18,7 +19,6 @@
     "en": "I have baked"
    }
   ],
-  "explanation": "\"At bage\" means \"to bake\", for things like cakes and bread. Do not mix it up with \"at stege\" (to fry), which is what you do with meat or eggs in a pan.",
   "related": [
    {
     "da": "en kage",
@@ -43,6 +43,7 @@
   }
  },
  "at begynde": {
+  "explanation": "\"At begynde\" means \"to begin\" or \"to start\". You can use it with another action: \"Jeg begynder at læse\" (I begin to read). It also works alone: \"Skolen begynder i august\" (School begins in August).",
   "forms": [
    {
     "da": "at begynde",
@@ -61,7 +62,6 @@
     "en": "I have begun"
    }
   ],
-  "explanation": "\"At begynde\" means \"to begin\" or \"to start\". You can use it with another action: \"Jeg begynder at læse\" (I begin to read). It also works alone: \"Filmen begynder klokken otte\" (The film begins at eight).",
   "related": [
    {
     "da": "at starte",
@@ -82,6 +82,7 @@
   }
  },
  "at behøve": {
+  "explanation": "\"At behøve\" means \"to need\", and it is mostly used for needing to do something, usually with \"at\" (to): \"Du behøver ikke at komme\" (You do not need to come). For needing a thing, Danes usually say \"at have brug for\": \"Jeg har brug for hjælp\" (I need help).",
   "forms": [
    {
     "da": "at behøve",
@@ -100,7 +101,6 @@
     "en": "I have needed"
    }
   ],
-  "explanation": "\"At behøve\" means \"to need\", and it is mostly used for needing to do something, usually with \"at\" (to): \"Du behøver ikke at komme\" (You do not need to come). For needing a thing, Danes usually say \"at have brug for\": \"Jeg har brug for hjælp\" (I need help).",
   "related": [
    {
     "da": "at have brug for",
@@ -116,11 +116,12 @@
    }
   ],
   "sentence": {
-   "da": "Med billet vil du ikke **behøve** at betale mere.",
+   "da": "Med en billet vil du ikke **behøve** at betale mere.",
    "en": "With a ticket you will not need to pay more."
   }
  },
  "at bestille": {
+  "explanation": "\"At bestille\" means \"to order\" or \"to book\", for example food or a table: \"Jeg vil gerne bestille et bord\" (I would like to book a table). To ask for a meal you can also say \"Jeg vil gerne have...\" (I would like to have...).",
   "forms": [
    {
     "da": "at bestille",
@@ -139,7 +140,6 @@
     "en": "I have ordered"
    }
   ],
-  "explanation": "\"At bestille\" means \"to order\" or \"to book\", for example food or a table: \"Jeg vil gerne bestille et bord\" (I would like to book a table). To ask for a meal you can also say \"Jeg vil gerne have...\" (I would like to have...).",
   "related": [
    {
     "da": "en tjener",
@@ -164,6 +164,7 @@
   }
  },
  "at bestille tid": {
+  "explanation": "\"At bestille tid\" means \"to make an appointment\", for example at the doctor, dentist or hairdresser. It is literally \"to order time\": \"bestille\" (to book) and \"tid\" (time). To say who with, add \"hos\" (at / with): \"bestille tid hos lægen\" (make an appointment with the doctor).",
   "forms": [
    {
     "da": "at bestille tid",
@@ -182,7 +183,6 @@
     "en": "I have made an appointment"
    }
   ],
-  "explanation": "\"At bestille tid\" means \"to make an appointment\", for example at the doctor, dentist or hairdresser. It is literally \"to order time\": \"bestille\" (to book) and \"tid\" (time). To say who with, add \"hos\" (at / with): \"bestille tid hos lægen\" (make an appointment with the doctor).",
   "related": [
    {
     "da": "en tid",
@@ -207,6 +207,7 @@
   }
  },
  "at besøge": {
+  "explanation": "\"At besøge\" means \"to visit\". You put the person or place straight after it, with no word for \"to\": \"Jeg besøger Anna\" (I visit Anna). You can also say \"komme på besøg\" (to come for a visit).",
   "forms": [
    {
     "da": "at besøge",
@@ -225,7 +226,6 @@
     "en": "I have visited"
    }
   ],
-  "explanation": "\"At besøge\" means \"to visit\". You put the person or place straight after it, with no word for \"to\": \"Jeg besøger Anna\" (I visit Anna). You can also say \"komme på besøg\" (to come for a visit).",
   "related": [
    {
     "da": "et besøg",
@@ -246,6 +246,7 @@
   }
  },
  "at betale": {
+  "explanation": "\"At betale\" means \"to pay\". Say what you pay for with \"for\": \"Jeg betaler for billetten\" (I pay for the ticket). The amount comes straight after it: \"Jeg betaler hundrede kroner\" (I pay a hundred kroner).",
   "forms": [
    {
     "da": "at betale",
@@ -264,7 +265,6 @@
     "en": "I have paid"
    }
   ],
-  "explanation": "\"At betale\" means \"to pay\". Say what you pay for with \"for\": \"Jeg betaler for billetten\" (I pay for the ticket). The amount comes straight after it: \"Jeg betaler hundrede kroner\" (I pay a hundred kroner).",
   "related": [
    {
     "da": "en betaling",
@@ -285,6 +285,7 @@
   }
  },
  "at betale med kort": {
+  "explanation": "\"At betale med kort\" means \"to pay by card\". \"Med\" means \"with\", so it is literally \"to pay with card\". To pay in cash, say \"at betale kontant\" (to pay in cash).",
   "forms": [
    {
     "da": "at betale med kort",
@@ -303,7 +304,6 @@
     "en": "I have paid by card"
    }
   ],
-  "explanation": "\"At betale med kort\" means \"to pay by card\". \"Med\" means \"with\", so it is literally \"to pay with card\". To pay in cash, say \"at betale kontant\" (to pay in cash).",
   "related": [
    {
     "da": "kontant",
@@ -328,6 +328,7 @@
   }
  },
  "at betyde": {
+  "explanation": "\"At betyde\" means \"to mean\": \"Hvad betyder det?\" (What does that mean?). You answer with \"Det betyder...\" (It means...). It can also mean \"to matter\": \"Det betyder meget for mig\" (It means a lot to me).",
   "forms": [
    {
     "da": "at betyde",
@@ -346,7 +347,6 @@
     "en": "I have meant"
    }
   ],
-  "explanation": "\"At betyde\" means \"to mean\": \"Hvad betyder det?\" (What does that mean?). You answer with \"Det betyder...\" (It means...). It can also mean \"to matter\": \"Det betyder meget for mig\" (It means a lot to me).",
   "related": [
    {
     "da": "en betydning",
@@ -367,6 +367,7 @@
   }
  },
  "at blive": {
+  "explanation": "\"At blive\" means \"to become\" and also \"to stay\": \"Han bliver læge\" (He becomes a doctor) and \"Jeg bliver hjemme\" (I stay at home). It is also used for what will happen: \"Det bliver godt\" (It will be good). \"At være\" (to be) only says what is true right now.",
   "forms": [
    {
     "da": "at blive",
@@ -385,7 +386,6 @@
     "en": "I have become / stayed"
    }
   ],
-  "explanation": "\"At blive\" means \"to become\" and also \"to stay\": \"Han bliver læge\" (He becomes a doctor) and \"Jeg bliver hjemme\" (I stay at home). It is also used for what will happen: \"Det bliver godt\" (It will be good). \"At være\" (to be) only says what is true right now.",
   "related": [
    {
     "da": "at være",
@@ -406,6 +406,7 @@
   }
  },
  "at blive bange": {
+  "explanation": "\"At blive bange\" means \"to get scared\". \"Blive\" (to become) shows the change from calm to scared. To say you are scared right now, use \"at være bange\" (to be scared). Add what scares you with \"for\": \"bange for hunde\" (afraid of dogs).",
   "forms": [
    {
     "da": "at blive bange",
@@ -424,7 +425,6 @@
     "en": "I have gotten scared"
    }
   ],
-  "explanation": "\"At blive bange\" means \"to get scared\". \"Blive\" (to become) shows the change from calm to scared. To say you are scared right now, use \"at være bange\" (to be scared). Add what scares you with \"for\": \"bange for hunde\" (afraid of dogs).",
   "related": [
    {
     "da": "bange",
@@ -449,6 +449,7 @@
   }
  },
  "at blive gift": {
+  "explanation": "\"At blive gift\" means \"to get married\", the moment of marrying. To say you are already married, use \"at være gift\" (to be married). Add the person with \"med\" (with): \"at blive gift med ham\" (to marry him).",
   "forms": [
    {
     "da": "at blive gift",
@@ -467,7 +468,6 @@
     "en": "I have gotten married"
    }
   ],
-  "explanation": "\"At blive gift\" means \"to get married\", the moment of marrying. To say you are already married, use \"at være gift\" (to be married). Add the person with \"med\" (with): \"at blive gift med ham\" (to marry him).",
   "related": [
    {
     "da": "gift",
@@ -492,6 +492,7 @@
   }
  },
  "at blive hjemme": {
+  "explanation": "\"At blive hjemme\" means \"to stay home\". \"Blive\" means \"to stay\" here, and \"hjemme\" means \"at home\": \"Jeg bliver hjemme i dag\" (I am staying home today).",
   "forms": [
    {
     "da": "at blive hjemme",
@@ -510,7 +511,6 @@
     "en": "I have stayed home"
    }
   ],
-  "explanation": "\"At blive hjemme\" means \"to stay home\". \"Blive\" means \"to stay\" here, and \"hjemme\" means \"at home\": \"Jeg bliver hjemme i dag\" (I am staying home today).",
   "related": [
    {
     "da": "hjemme",
@@ -535,6 +535,7 @@
   }
  },
  "at blive rask": {
+  "explanation": "\"At blive rask\" means \"to get better\" after being sick. To someone who is ill you can say \"God bedring!\" (Get well soon!).",
   "forms": [
    {
     "da": "at blive rask",
@@ -553,7 +554,6 @@
     "en": "I have gotten better"
    }
   ],
-  "explanation": "\"At blive rask\" means \"to get better\" after being sick. \"Rask\" means \"healthy\" or \"recovered\". To someone who is ill you can say \"God bedring!\" (Get well soon!).",
   "related": [
    {
     "da": "rask",
@@ -564,8 +564,8 @@
     "en": "to get sick"
    },
    {
-    "da": "God bedring!",
-    "en": "Get well soon!"
+    "da": "syg",
+    "en": "sick"
    },
    {
     "da": "en læge",
@@ -578,6 +578,7 @@
   }
  },
  "at blive syg": {
+  "explanation": "\"At blive syg\" means \"to get sick\", the moment you fall ill. \"At være syg\" (to be sick) describes the state you are in afterwards.",
   "forms": [
    {
     "da": "at blive syg",
@@ -596,7 +597,6 @@
     "en": "I have gotten sick"
    }
   ],
-  "explanation": "\"At blive syg\" means \"to get sick\", the moment you fall ill. \"At være syg\" (to be sick) describes the state you are in afterwards.",
   "related": [
    {
     "da": "syg",
@@ -621,6 +621,7 @@
   }
  },
  "at blive træt": {
+  "explanation": "\"At blive træt\" means \"to get tired\", the change from not tired to tired. To say you are tired right now, use \"at være træt\" (to be tired).",
   "forms": [
    {
     "da": "at blive træt",
@@ -639,7 +640,6 @@
     "en": "I have gotten tired"
    }
   ],
-  "explanation": "\"At blive træt\" means \"to get tired\", the change from not tired to tired. To say you are tired right now, use \"at være træt\" (to be tired).",
   "related": [
    {
     "da": "træt",
@@ -664,25 +664,25 @@
   }
  },
  "at bo": {
+  "explanation": "\"At bo\" means \"to live\" in the sense of where your home is: \"Jeg bor i Odense\" (I live in Odense). For being alive, use \"at leve\" (to live, be alive).",
   "forms": [
    {
     "da": "at bo",
-    "en": "to live / reside"
+    "en": "to live (somewhere)"
    },
    {
     "da": "jeg bor",
-    "en": "I live / reside"
+    "en": "I live"
    },
    {
     "da": "jeg boede",
-    "en": "I lived / resided"
+    "en": "I lived"
    },
    {
     "da": "jeg har boet",
-    "en": "I have lived / resided"
+    "en": "I have lived"
    }
   ],
-  "explanation": "\"At bo\" means \"to live\" in the sense of where your home is: \"Jeg bor i Odense\" (I live in Odense). For being alive, use \"at leve\" (to live, be alive).",
   "related": [
    {
     "da": "at leve",
@@ -703,6 +703,7 @@
   }
  },
  "at bruge": {
+  "explanation": "\"At bruge\" means \"to use\", for example a tool or a phone. It also means \"to spend\" money or time: \"Jeg bruger mange penge\" (I spend a lot of money).",
   "forms": [
    {
     "da": "at bruge",
@@ -721,7 +722,6 @@
     "en": "I have used"
    }
   ],
-  "explanation": "\"At bruge\" means \"to use\", for example a tool or a phone. It also means \"to spend\" money or time: \"Jeg bruger mange penge\" (I spend a lot of money). What comes after it tells you which meaning is meant.",
   "related": [
    {
     "da": "at anvende",
@@ -742,6 +742,7 @@
   }
  },
  "at bruge penge": {
+  "explanation": "\"At bruge penge\" means \"to spend money\". \"At bruge\" (to use) also means \"to spend\", so \"at bruge penge på noget\" is \"to spend money on something\". \"Penge\" (money) is used without \"en\" or \"et\" (a).",
   "forms": [
    {
     "da": "at bruge penge",
@@ -760,7 +761,6 @@
     "en": "I have spent money"
    }
   ],
-  "explanation": "\"At bruge penge\" means \"to spend money\". \"At bruge\" (to use) also means \"to spend\", so \"at bruge penge på noget\" is \"to spend money on something\". \"Penge\" (money) is used without \"en\" or \"et\" (a).",
   "related": [
    {
     "da": "penge",
@@ -785,6 +785,7 @@
   }
  },
  "at bytte": {
+  "explanation": "\"At bytte\" means \"to exchange\" or \"to swap\", for example to get another size: \"Jeg vil gerne bytte den\" (I would like to exchange it).",
   "forms": [
    {
     "da": "at bytte",
@@ -803,7 +804,6 @@
     "en": "I have exchanged"
    }
   ],
-  "explanation": "\"At bytte\" means \"to exchange\" or \"to swap\", for example to get another size: \"Jeg vil gerne bytte den\" (I would like to exchange it).",
   "related": [
    {
     "da": "en kvittering",
@@ -828,6 +828,7 @@
   }
  },
  "at børste tænder": {
+  "explanation": "\"At børste tænder\" means \"to brush teeth\". Danish says just \"tænder\" (teeth), with no \"my\": \"Jeg børster tænder\", where English says \"I brush my teeth\".",
   "forms": [
    {
     "da": "at børste tænder",
@@ -846,7 +847,6 @@
     "en": "I have brushed my teeth"
    }
   ],
-  "explanation": "\"At børste tænder\" means \"to brush teeth\". Danish says just \"tænder\" (teeth), with no \"my\": \"Jeg børster tænder\", where English says \"I brush my teeth\".",
   "related": [
    {
     "da": "en tand",
@@ -871,6 +871,7 @@
   }
  },
  "badetøj": {
+  "explanation": "\"Badetøj\" means \"swimwear\": swimsuits, swim trunks and other clothes you swim in. It is built from \"bade\" (to swim) and \"tøj\" (clothes).",
   "forms": [
    {
     "da": "badetøj",
@@ -885,7 +886,6 @@
     "en": "the swimwear"
    }
   ],
-  "explanation": "\"Badetøj\" means \"swimwear\": swimsuits, swim trunks and other clothes you swim in. Like \"tøj\" (clothes), it is a group word, so you use it for all the pieces together and not in the plural.",
   "related": [
    {
     "da": "et tøj",
@@ -910,6 +910,7 @@
   }
  },
  "bag": {
+  "explanation": "\"Bag\" means \"behind\" and is always followed by a person or thing: \"bag stolen\" (behind the chair), \"bag mig\" (behind me). On its own, use \"bagved\" (at the back): \"Katten sidder bagved\" (The cat is sitting at the back).",
   "forms": [
    {
     "da": "bag huset",
@@ -924,7 +925,6 @@
     "en": "behind me"
    }
   ],
-  "explanation": "\"Bag\" means \"behind\", and the thing must follow it. Compare \"Katten sidder bag stolen\" (The cat is sitting behind the chair) with \"Katten sidder bagved\" (The cat is sitting at the back). \"Bag mig\" means \"behind me\".",
   "related": [
    {
     "da": "foran",
@@ -949,6 +949,7 @@
   }
  },
  "bagage": {
+  "explanation": "\"Bagage\" means \"luggage\", all your bags and suitcases together. There is no plural, so \"bagager\" is not used. It is said \"ba-GAH-sheh\". For one single bag, say \"en kuffert\" (a suitcase) or \"en taske\" (a bag).",
   "forms": [
    {
     "da": "bagagen",
@@ -963,7 +964,6 @@
     "en": "a lot of luggage"
    }
   ],
-  "explanation": "\"Bagage\" means \"luggage\", all your bags and suitcases together. There is no plural, so \"bagager\" is not used. It is said \"ba-GAH-sje\", with a soft \"sh\" sound at the end. For one single bag, say \"en kuffert\" (a suitcase) or \"en taske\" (a bag).",
   "related": [
    {
     "da": "en kuffert",
@@ -988,6 +988,7 @@
   }
  },
  "bagefter": {
+  "explanation": "\"Bagefter\" means \"afterwards\". Compare \"efter maden\" (after the meal) with \"bagefter\" (afterwards): \"Vi spiser, og bagefter ser vi film\" (We eat, and afterwards we watch a film). \"Efter\" (after) needs a thing after it, \"bagefter\" stands alone.",
   "forms": [
    {
     "da": "bagefter",
@@ -1002,7 +1003,6 @@
     "en": "and afterwards"
    }
   ],
-  "explanation": "\"Bagefter\" means \"afterwards\". Compare \"efter maden\" (after the meal) with \"bagefter\" (afterwards): \"Vi spiser, og bagefter ser vi film\" (We eat, and afterwards we watch a film). \"Efter\" needs a thing after it, \"bagefter\" stands alone.",
   "related": [
    {
     "da": "efter",
@@ -1027,21 +1027,21 @@
   }
  },
  "bagved": {
+  "explanation": "\"Bagved\" means \"at the back\". Compare \"Han står bag mig\" (He is standing behind me) with \"Han står bagved\" (He is standing at the back). With a thing after it, use \"bag\".",
   "forms": [
    {
     "da": "Han står bagved.",
-    "en": "He is standing behind."
+    "en": "He is standing at the back."
    },
    {
     "da": "Huset ligger bagved.",
-    "en": "The house is in the back."
+    "en": "The house is at the back."
    },
    {
     "da": "Se bagved!",
-    "en": "Look behind!"
+    "en": "Look at the back!"
    }
   ],
-  "explanation": "\"Bagved\" means \"at the back\". Compare \"Han står bag mig\" (He is standing behind me) with \"Han står bagved\" (He is standing at the back). With a thing after it, use \"bag\".",
   "related": [
    {
     "da": "bag",
@@ -1066,6 +1066,7 @@
   }
  },
  "bange": {
+  "explanation": "\"Bange\" means \"afraid\" or \"scared\". You say \"bange for\" (afraid of) before what you fear: \"Jeg er bange for edderkopper\" (I am afraid of spiders). \"Vær ikke bange\" means \"Do not be afraid\".",
   "forms": [
    {
     "da": "jeg er bange",
@@ -1080,7 +1081,6 @@
     "en": "the children are afraid"
    }
   ],
-  "explanation": "\"Bange\" means \"afraid\" or \"scared\". You say \"bange for\" before what you fear: \"Jeg er bange for edderkopper\" (I am afraid of spiders). \"Vær ikke bange\" means \"Do not be afraid\".",
   "related": [
    {
     "da": "at frygte",
@@ -1105,6 +1105,7 @@
   }
  },
  "bange for": {
+  "explanation": "\"Bange for\" means \"afraid of\". After it you can put a thing or \"at\" (to) plus an action: \"bange for at falde\" (afraid of falling). It can also mean \"I am afraid that...\": \"Jeg er bange for, at det er sandt\" (I am afraid it is true).",
   "forms": [
    {
     "da": "Jeg er bange for hunde.",
@@ -1119,7 +1120,6 @@
     "en": "Are you afraid of flying?"
    }
   ],
-  "explanation": "\"Bange for\" means \"afraid of\". After it you can put a thing or \"at\" (to) plus an action: \"bange for at falde\" (afraid of falling). It can also mean \"I am afraid that...\": \"Jeg er bange for, at det er sandt\" (I am afraid it is true).",
   "related": [
    {
     "da": "at være bange",
@@ -1144,6 +1144,7 @@
   }
  },
  "bare": {
+  "explanation": "\"Bare\" means \"just\" or \"only\". \"Jeg vil sove\" (I want to sleep) becomes \"Jeg vil bare sove\" (I just want to sleep). \"Det er bare mig\" means \"It is just me\". In an invitation it is friendly: \"Kom bare ind\" (Come on in).",
   "forms": [
    {
     "da": "Jeg vil bare sove.",
@@ -1158,7 +1159,6 @@
     "en": "It is only a test."
    }
   ],
-  "explanation": "\"Bare\" means \"just\" or \"only\", and it makes things smaller or softer. Compare \"Jeg vil sove\" (I want to sleep) with \"Jeg vil bare sove\" (I just want to sleep). \"Det er bare mig\" means \"It is just me\", and \"Kom bare ind\" means \"Do come in\".",
   "related": [
    {
     "da": "kun",
@@ -1183,6 +1183,7 @@
   }
  },
  "bedre": {
+  "explanation": "\"Bedre\" means \"better\". Use \"end\" (than) to compare: \"bedre end i går\" (better than yesterday). \"Jeg har det bedre\" means \"I feel better\".",
   "forms": [
    {
     "da": "en bedre bil",
@@ -1197,7 +1198,6 @@
     "en": "better cars"
    }
   ],
-  "explanation": "\"Bedre\" means \"better\". Use \"end\" (than) to compare: \"bedre end i går\" (better than yesterday). \"Jeg har det bedre\" means \"I feel better\".",
   "related": [
    {
     "da": "god",
@@ -1222,6 +1222,7 @@
   }
  },
  "bedst": {
+  "explanation": "\"Bedst\" means \"best\": \"Det er bedst\" (It is best). \"Jeg kan bedst lide kaffe\" means \"I like coffee best\".",
   "forms": [
    {
     "da": "den bedste bil",
@@ -1236,7 +1237,6 @@
     "en": "the best cars"
    }
   ],
-  "explanation": "\"Bedst\" means \"best\": \"Det er bedst\" (It is best). \"Jeg kan bedst lide kaffe\" means \"I like coffee best\". With a thing after it you see \"bedste\", as in \"den bedste ven\" (the best friend).",
   "related": [
    {
     "da": "god",
@@ -1251,8 +1251,8 @@
     "en": "worst"
    },
    {
-    "da": "en ven",
-    "en": "a friend"
+    "da": "dårlig",
+    "en": "bad"
    }
   ],
   "sentence": {
@@ -1261,6 +1261,7 @@
   }
  },
  "bedsteforældre": {
+  "explanation": "\"Bedsteforældre\" means \"grandparents\", grandmother and grandfather together. It is built from \"bedste\" (best) and \"forældre\" (parents). To say which one, use words like \"mormor\" (mother's mother) and \"farfar\" (father's father).",
   "forms": [
    {
     "da": "mine bedsteforældre",
@@ -1275,7 +1276,6 @@
     "en": "to visit grandparents"
    }
   ],
-  "explanation": "\"Bedsteforældre\" means \"grandparents\", grandmother and grandfather together. It is built from \"bedste\" (best) and \"forældre\" (parents). To say which one, use words like \"mormor\" (mother's mother) and \"farfar\" (father's father).",
   "related": [
    {
     "da": "en mormor",
@@ -1300,6 +1300,7 @@
   }
  },
  "begge": {
+  "explanation": "\"Begge\" means \"both\", and is only for two. Compare \"Begge er her\" (Both are here) with \"Alle er her\" (Everyone is here, any number). \"Jeg kender dem begge to\" means \"I know both of them\".",
   "forms": [
    {
     "da": "begge to",
@@ -1314,7 +1315,6 @@
     "en": "both children"
    }
   ],
-  "explanation": "\"Begge\" means \"both\", and is only for two. Compare \"Begge er her\" (Both are here) with \"Alle er her\" (Everyone is here, any number). \"Jeg kender dem begge to\" means \"I know both of them\".",
   "related": [
    {
     "da": "alle",
@@ -1339,6 +1339,7 @@
   }
  },
  "beskidt": {
+  "explanation": "\"Beskidt\" means \"dirty\". To say something got dirty, use \"blive\" (to become): \"Mine sko er blevet beskidte\" (My shoes have got dirty).",
   "forms": [
    {
     "da": "en beskidt jakke",
@@ -1353,7 +1354,6 @@
     "en": "dirty shoes"
    }
   ],
-  "explanation": "\"Beskidt\" means \"dirty\", for clothes, hands, dishes and floors. To say something got dirty, use \"blive\": \"Mine sko er blevet beskidte\" (My shoes have got dirty).",
   "related": [
    {
     "da": "ren",
@@ -1378,6 +1378,7 @@
   }
  },
  "bestik": {
+  "explanation": "\"Bestik\" means \"cutlery\": the things you eat with. \"Kan jeg få noget bestik?\" means \"Can I have some cutlery?\".",
   "forms": [
    {
     "da": "et bestik",
@@ -1392,7 +1393,6 @@
     "en": "some cutlery"
    }
   ],
-  "explanation": "\"Bestik\" means \"cutlery\": the knives, forks and spoons you eat with. It is used for the whole set, so for one piece you name it: \"en kniv\" (a knife), \"en gaffel\" (a fork) or \"en ske\" (a spoon). \"Kan jeg få noget bestik?\" means \"Can I have some cutlery?\".",
   "related": [
    {
     "da": "en kniv",
@@ -1417,6 +1417,7 @@
   }
  },
  "bevidsthed": {
+  "explanation": "\"Bevidsthed\" means \"consciousness\", both being awake and being aware of something. Common phrases are \"at miste bevidstheden\" (to lose consciousness) and \"at komme til bevidsthed\" (to regain consciousness).",
   "forms": [
    {
     "da": "bevidsthed",
@@ -1431,7 +1432,6 @@
     "en": "conscious, awake"
    }
   ],
-  "explanation": "\"Bevidsthed\" means \"consciousness\", both being awake and being aware of something. Common phrases are \"at miste bevidstheden\" (to lose consciousness) and \"at komme til bevidsthed\" (to regain consciousness).",
   "related": [
    {
     "da": "bevidst",
@@ -1452,6 +1452,7 @@
   }
  },
  "billig": {
+  "explanation": "\"Billig\" means \"cheap\". It can mean a low price or poor quality, and the situation usually makes clear which is meant. In a shop you can ask \"Har du noget billigere?\" (Do you have something cheaper?).",
   "forms": [
    {
     "da": "en billig billet",
@@ -1466,7 +1467,6 @@
     "en": "cheap tickets"
    }
   ],
-  "explanation": "\"Billig\" means \"cheap\", meaning a low price. It can also suggest poor quality, and the situation usually makes clear which is meant. In a shop you can ask \"Har du noget billigere?\" (Do you have something cheaper?).",
   "related": [
    {
     "da": "dyr",
@@ -1491,6 +1491,7 @@
   }
  },
  "blod": {
+  "explanation": "\"Blod\" means \"blood\". The \"d\" is very soft, so it sounds close to \"blo\". It is often part of longer words: \"blodprøve\" (blood test) and \"blodtryk\" (blood pressure).",
   "forms": [
    {
     "da": "blod",
@@ -1501,11 +1502,10 @@
     "en": "the blood"
    },
    {
-    "da": "blodtryk",
-    "en": "blood pressure"
+    "da": "mit blod",
+    "en": "my blood"
    }
   ],
-  "explanation": "\"Blod\" means \"blood\". The \"d\" is very soft, so it sounds close to \"blo\". It is often part of longer words: \"blodprøve\" (blood test) and \"blodtryk\" (blood pressure).",
   "related": [
    {
     "da": "et hjerte",
@@ -1530,6 +1530,7 @@
   }
  },
  "blomkål": {
+  "explanation": "\"Blomkål\" means \"cauliflower\". It is built from \"blomst\" (flower) and \"kål\" (cabbage), so it literally means \"flower cabbage\".",
   "forms": [
    {
     "da": "en blomkål",
@@ -1544,7 +1545,6 @@
     "en": "cauliflower"
    }
   ],
-  "explanation": "\"Blomkål\" means \"cauliflower\". It is built from \"blomst\" (flower) and \"kål\" (cabbage), so it literally means \"flower cabbage\". \"En blomkål\" is one whole head, and plain \"blomkål\" is the vegetable in general.",
   "related": [
    {
     "da": "broccoli",
@@ -1569,6 +1569,7 @@
   }
  },
  "blå": {
+  "explanation": "\"Blå\" means \"blue\".",
   "forms": [
    {
     "da": "en blå bil",
@@ -1583,7 +1584,6 @@
     "en": "blue cars"
    }
   ],
-  "explanation": "\"Blå\" means \"blue\". You can make shades with it: \"lyseblå\" is \"light blue\" and \"mørkeblå\" is \"dark blue\".",
   "related": [
    {
     "da": "lyseblå",
@@ -1594,8 +1594,8 @@
     "en": "dark blue"
    },
    {
-    "da": "himmel",
-    "en": "sky"
+    "da": "en himmel",
+    "en": "a sky"
    },
    {
     "da": "grøn",
@@ -1608,6 +1608,7 @@
   }
  },
  "blæsende": {
+  "explanation": "\"Blæsende\" means \"windy\", with strong wind blowing. It comes from \"at blæse\" (to blow), and \"Det blæser\" means \"It is windy\".",
   "forms": [
    {
     "da": "en blæsende dag",
@@ -1622,7 +1623,6 @@
     "en": "windy days"
    }
   ],
-  "explanation": "\"Blæsende\" means \"windy\", with strong wind blowing. It comes from \"at blæse\" (to blow), and \"Det blæser\" means \"It is windy\".",
   "related": [
    {
     "da": "en vind",
@@ -1647,6 +1647,7 @@
   }
  },
  "borgerservice": {
+  "explanation": "\"Borgerservice\" means \"Citizen Services\": the municipal office for practical matters like a health insurance card, a passport or registering your address. It is used like a name: \"på Borgerservice\" (at Citizen Services).",
   "forms": [
    {
     "da": "Borgerservice",
@@ -1661,7 +1662,6 @@
     "en": "I have to go to Citizen Services."
    }
   ],
-  "explanation": "\"Borgerservice\" means \"Citizen Services\": the municipal office for practical matters like a health insurance card, a passport or registering your address. It is used like a name: \"på Borgerservice\" (at Citizen Services).",
   "related": [
    {
     "da": "en kommune",
@@ -1686,6 +1686,7 @@
   }
  },
  "bortset fra": {
+  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\". \"Det er godt, bortset fra prisen\" (It is good, apart from the price). \"Vi har åbent hver dag, bortset fra søndag\" (We are open every day except Sunday).",
   "forms": [
    {
     "da": "bortset fra mig",
@@ -1700,7 +1701,6 @@
     "en": "apart from that"
    }
   ],
-  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\". \"Alle kom, bortset fra Lars\" (Everyone came, except Lars). \"Det er godt, bortset fra prisen\" (It is good, apart from the price).",
   "related": [
    {
     "da": "undtagen",
@@ -1715,8 +1715,8 @@
     "en": "besides, in addition to"
    },
    {
-    "da": "selv om",
-    "en": "even though"
+    "da": "kun",
+    "en": "only"
    }
   ],
   "sentence": {
@@ -1725,6 +1725,7 @@
   }
  },
  "bred": {
+  "explanation": "\"Bred\" means \"wide\" or \"broad\", for how far something stretches from side to side: a road, a river, a smile.",
   "forms": [
    {
     "da": "en bred vej",
@@ -1739,7 +1740,6 @@
     "en": "wide roads"
    }
   ],
-  "explanation": "\"Bred\" means \"wide\" or \"broad\", for how far something stretches from side to side: a road, a river, a smile.",
   "related": [
    {
     "da": "smal",
@@ -1764,6 +1764,7 @@
   }
  },
  "briller": {
+  "explanation": "\"Briller\" means \"glasses\" (for your eyes) and is only used in the plural. \"At have briller på\" means \"to wear glasses\".",
   "forms": [
    {
     "da": "briller",
@@ -1778,7 +1779,6 @@
     "en": "a pair of glasses"
    }
   ],
-  "explanation": "\"Briller\" means \"glasses\" (for your eyes) and is only used in the plural. \"At have briller på\" means \"to wear glasses\".",
   "related": [
    {
     "da": "et øje",
@@ -1789,8 +1789,8 @@
     "en": "sunglasses"
    },
    {
-    "da": "en næse",
-    "en": "a nose"
+    "da": "at se",
+    "en": "to see"
    },
    {
     "da": "en optiker",
@@ -1803,6 +1803,7 @@
   }
  },
  "britisk": {
+  "explanation": "\"Britisk\" means \"British\", from Great Britain. Do not mix it up with \"engelsk\" (English), which is about England and the English language.",
   "forms": [
    {
     "da": "en britisk bil",
@@ -1817,7 +1818,6 @@
     "en": "British cars"
    }
   ],
-  "explanation": "\"Britisk\" means \"British\", from Great Britain. Do not mix it up with \"engelsk\" (English), which is about England and the English language.",
   "related": [
    {
     "da": "Storbritannien",
@@ -1842,6 +1842,7 @@
   }
  },
  "broccoli": {
+  "explanation": "\"Broccoli\" means \"broccoli\". For an amount, say \"noget broccoli\" (some broccoli).",
   "forms": [
    {
     "da": "en broccoli",
@@ -1852,7 +1853,6 @@
     "en": "the broccoli"
    }
   ],
-  "explanation": "\"Broccoli\" means \"broccoli\", the green vegetable. It is not counted, so you say \"noget broccoli\" (some broccoli).",
   "related": [
    {
     "da": "blomkål",
@@ -1877,6 +1877,7 @@
   }
  },
  "brun": {
+  "explanation": "\"Brun\" means \"brown\". It is also used for a suntan: \"Du er blevet brun\" means \"You have got a tan\".",
   "forms": [
    {
     "da": "en brun hund",
@@ -1891,7 +1892,6 @@
     "en": "brown dogs"
    }
   ],
-  "explanation": "\"Brun\" means \"brown\". It is also used for a suntan: \"Du er blevet brun\" means \"You have got a tan\". \"Brunt brød\" means \"brown bread\".",
   "related": [
    {
     "da": "rød",
@@ -1906,8 +1906,8 @@
     "en": "dark"
    },
    {
-    "da": "en bjørn",
-    "en": "a bear"
+    "da": "grå",
+    "en": "gray"
    }
   ],
   "sentence": {
@@ -1916,6 +1916,7 @@
   }
  },
  "brød": {
+  "explanation": "\"Brød\" means \"bread\". \"Et brød\" is one loaf, and plain \"brød\" is bread in general: \"Jeg spiser brød\" (I eat bread). With a number it does not change: \"to brød\" (two loaves).",
   "forms": [
    {
     "da": "et brød",
@@ -1930,7 +1931,6 @@
     "en": "breads / loaves"
    }
   ],
-  "explanation": "\"Brød\" means \"bread\". \"Et brød\" is one loaf, and plain \"brød\" is bread in general: \"Jeg køber brød\" (I am buying bread). With a number it does not change: \"to brød\" (two loaves).",
   "related": [
    {
     "da": "rugbrød",
@@ -1955,6 +1955,7 @@
   }
  },
  "bukser": {
+  "explanation": "\"Bukser\" means \"pants\" or \"trousers\". For one pair, say \"et par bukser\" (a pair of pants).",
   "forms": [
    {
     "da": "bukser",
@@ -1969,7 +1970,6 @@
     "en": "a pair of pants"
    }
   ],
-  "explanation": "\"Bukser\" means \"pants\" or \"trousers\". Like English \"pants\", it is always plural, so you say \"et par bukser\" (a pair of pants) for one pair.",
   "related": [
    {
     "da": "et par jeans",
@@ -1994,6 +1994,7 @@
   }
  },
  "byttepenge": {
+  "explanation": "\"Byttepenge\" means \"change\", the money you get back when you pay more than the price. Like \"penge\" (money), it is always plural. It comes from \"at bytte\" (to exchange).",
   "forms": [
    {
     "da": "byttepenge",
@@ -2008,7 +2009,6 @@
     "en": "Here is your change"
    }
   ],
-  "explanation": "\"Byttepenge\" means \"change\", the money you get back when you pay more than the price. Like \"penge\" (money), it is always plural. It comes from \"at bytte\" (to exchange).",
   "related": [
    {
     "da": "penge",
@@ -2033,6 +2033,7 @@
   }
  },
  "både…og": {
+  "explanation": "\"Både … og\" means \"both … and\". Compare \"Hun taler dansk og engelsk\" (She speaks Danish and English) with \"Hun taler både dansk og engelsk\" (She speaks both Danish and English). \"Både\" goes before the first thing and \"og\" before the second.",
   "forms": [
    {
     "da": "både jeg og min bror",
@@ -2047,7 +2048,6 @@
     "en": "both today and tomorrow"
    }
   ],
-  "explanation": "\"Både … og\" means \"both … and\". Compare \"Hun taler dansk og engelsk\" (She speaks Danish and English) with \"Hun taler både dansk og engelsk\" (She speaks both Danish and English). \"Både\" goes before the first thing and \"og\" before the second.",
   "related": [
    {
     "da": "hverken…eller",
@@ -2072,6 +2072,7 @@
   }
  },
  "bønner": {
+  "explanation": "\"Bønner\" means \"beans\". The same word also means \"prayers\" (from \"en bøn\", a prayer), so the sentence shows which is meant.",
   "forms": [
    {
     "da": "en bønne",
@@ -2090,7 +2091,6 @@
     "en": "the beans"
    }
   ],
-  "explanation": "\"Bønner\" means \"beans\", and one bean is \"en bønne\" (a bean). The same word is also the plural of \"en bøn\" (a prayer), so the sentence shows which is meant.",
   "related": [
    {
     "da": "ærter",
@@ -2115,6 +2115,7 @@
   }
  },
  "en baby": {
+  "explanation": "\"En baby\" means \"a baby\", a very young child: \"Babyen sover\" (The baby is sleeping).",
   "forms": [
    {
     "da": "en baby",
@@ -2133,7 +2134,6 @@
     "en": "the babies"
    }
   ],
-  "explanation": "\"En baby\" means \"a baby\", a word borrowed from English. A typical sentence is \"Babyen sover\" (The baby is sleeping).",
   "related": [
    {
     "da": "et barn",
@@ -2158,6 +2158,7 @@
   }
  },
  "en bager": {
+  "explanation": "\"En bager\" means \"a baker\", the person who bakes bread and cakes. Danes say \"Jeg går til bageren\" (I am going to the baker's), literally \"to the baker\", when they mean the shop.",
   "forms": [
    {
     "da": "en bager",
@@ -2176,7 +2177,6 @@
     "en": "the bakers"
    }
   ],
-  "explanation": "\"En bager\" means \"a baker\", the person who bakes bread and cakes. Danes say \"Jeg går til bageren\" (I am going to the baker's), literally \"to the baker\", when they mean the shop.",
   "related": [
    {
     "da": "et bageri",
@@ -2184,7 +2184,7 @@
    },
    {
     "da": "et brød",
-    "en": "a bread"
+    "en": "a loaf of bread"
    },
    {
     "da": "en kage",
@@ -2201,6 +2201,7 @@
   }
  },
  "en ballon": {
+  "explanation": "\"En ballon\" means \"a balloon\". To blow one up you say \"at puste en ballon op\" (to blow up a balloon).",
   "forms": [
    {
     "da": "en ballon",
@@ -2219,7 +2220,6 @@
     "en": "the balloons"
    }
   ],
-  "explanation": "\"En ballon\" means \"a balloon\". To blow one up you say \"at puste en ballon op\" (to blow up a balloon).",
   "related": [
    {
     "da": "en fødselsdag",
@@ -2239,11 +2239,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg puster en **ballon** op, så den bliver stor og rund.",
-   "en": "I blow up a balloon so that it gets big and round."
+   "da": "Barnet slipper en rød **ballon**, og den flyver op i luften.",
+   "en": "The child lets go of a red balloon and it flies up into the air."
   }
  },
  "en bamse": {
+  "explanation": "\"En bamse\" means \"a teddy bear\". It can also be a friendly word for a big, cuddly person.",
   "forms": [
    {
     "da": "en bamse",
@@ -2262,7 +2263,6 @@
     "en": "the teddy bears"
    }
   ],
-  "explanation": "\"En bamse\" means \"a teddy bear\". It can also be a friendly word for a big, cuddly person.",
   "related": [
    {
     "da": "legetøj",
@@ -2287,6 +2287,7 @@
   }
  },
  "en banan": {
+  "explanation": "\"En banan\" means \"a banana\". The stress is on the last part: \"ba-NAN\".",
   "forms": [
    {
     "da": "en banan",
@@ -2305,7 +2306,6 @@
     "en": "the bananas"
    }
   ],
-  "explanation": "\"En banan\" means \"a banana\". It is spelled almost like in English, but the stress is on the last part, \"ba-NAN\".",
   "related": [
    {
     "da": "et æble",
@@ -2330,6 +2330,7 @@
   }
  },
  "en banegård": {
+  "explanation": "\"En banegård\" means \"a railway station\", where trains arrive and leave. To ask the way, say \"Hvor er banegården?\" (Where is the railway station?).",
   "forms": [
    {
     "da": "en banegård",
@@ -2348,7 +2349,6 @@
     "en": "the railway stations"
    }
   ],
-  "explanation": "\"En banegård\" means \"a railway station\", where trains arrive and leave. To ask the way, say \"Hvor er banegården?\" (Where is the railway station?).",
   "related": [
    {
     "da": "en station",
@@ -2373,6 +2373,7 @@
   }
  },
  "en bank": {
+  "explanation": "\"En bank\" means \"a bank\", where you keep and handle money. Danes say \"at gå i banken\" (to go to the bank).",
   "forms": [
    {
     "da": "en bank",
@@ -2391,7 +2392,6 @@
     "en": "the banks"
    }
   ],
-  "explanation": "\"En bank\" means \"a bank\", where you keep and handle money. Danes say \"at gå i banken\" (to go to the bank).",
   "related": [
    {
     "da": "et bankkort",
@@ -2416,6 +2416,7 @@
   }
  },
  "en bankkonto": {
+  "explanation": "\"En bankkonto\" means \"a bank account\", where your money is kept. It is built from \"bank\" (bank) and \"konto\" (account).",
   "forms": [
    {
     "da": "en bankkonto",
@@ -2434,7 +2435,6 @@
     "en": "the bank accounts"
    }
   ],
-  "explanation": "\"En bankkonto\" means \"a bank account\". It is built from \"bank\" (bank) and \"konto\" (account), where your money is kept.",
   "related": [
    {
     "da": "en bank",
@@ -2459,6 +2459,7 @@
   }
  },
  "en bedstefar": {
+  "explanation": "\"En bedstefar\" means \"a grandfather\" in general. In daily talk Danes usually say \"morfar\" (mother's father) or \"farfar\" (father's father), which tells you which side of the family he is on.",
   "forms": [
    {
     "da": "en bedstefar",
@@ -2477,7 +2478,6 @@
     "en": "the grandfathers"
    }
   ],
-  "explanation": "\"En bedstefar\" means \"a grandfather\" in general. In daily talk Danes usually say \"morfar\" (mother's father) or \"farfar\" (father's father), which tells you which side of the family he is on.",
   "related": [
    {
     "da": "en bedstemor",
@@ -2502,6 +2502,7 @@
   }
  },
  "en bedstemor": {
+  "explanation": "\"En bedstemor\" means \"a grandmother\" in general. In daily talk Danes usually say \"mormor\" (mother's mother) or \"farmor\" (father's mother). A short, warm form is \"bedste\" (grandma).",
   "forms": [
    {
     "da": "en bedstemor",
@@ -2520,7 +2521,6 @@
     "en": "the grandmothers"
    }
   ],
-  "explanation": "\"En bedstemor\" means \"a grandmother\" in general. In daily talk Danes usually say \"mormor\" (mother's mother) or \"farmor\" (father's mother). A short, warm form is \"bedste\" (grandma).",
   "related": [
    {
     "da": "en bedstefar",
@@ -2545,6 +2545,7 @@
   }
  },
  "en behandling": {
+  "explanation": "\"En behandling\" means \"a treatment\". It comes from \"at behandle\" (to treat). It can also mean the way someone is treated, as in \"dårlig behandling\" (bad treatment).",
   "forms": [
    {
     "da": "en behandling",
@@ -2563,7 +2564,6 @@
     "en": "the treatments"
    }
   ],
-  "explanation": "\"En behandling\" means \"a treatment\", medical care that helps a patient get better. It comes from \"at behandle\" (to treat). It can also mean the way someone is treated, as in \"dårlig behandling\" (bad treatment).",
   "related": [
    {
     "da": "en doktor",
@@ -2588,6 +2588,7 @@
   }
  },
  "en besked": {
+  "explanation": "\"En besked\" means \"a message\". People say \"at give besked\" (to let someone know) and \"at få besked\" (to be told).",
   "forms": [
    {
     "da": "en besked",
@@ -2606,7 +2607,6 @@
     "en": "the messages"
    }
   ],
-  "explanation": "\"En besked\" means \"a message\", or a piece of information that someone passes on to you. People say \"at give besked\" (to let someone know) and \"at få besked\" (to be told).",
   "related": [
    {
     "da": "en sms",
@@ -2631,6 +2631,7 @@
   }
  },
  "en bil": {
+  "explanation": "\"En bil\" means \"a car\". \"At køre i bil\" means to go by car.",
   "forms": [
    {
     "da": "en bil",
@@ -2649,7 +2650,6 @@
     "en": "the cars"
    }
   ],
-  "explanation": "\"En bil\" means \"a car\". \"At køre i bil\" means to go by car.",
   "related": [
    {
     "da": "at køre",
@@ -2674,6 +2674,7 @@
   }
  },
  "en billet": {
+  "explanation": "\"En billet\" means \"a ticket\" for a train, bus, film or concert. You say \"at købe en billet\" (to buy a ticket).",
   "forms": [
    {
     "da": "en billet",
@@ -2692,7 +2693,6 @@
     "en": "the tickets"
    }
   ],
-  "explanation": "\"En billet\" means \"a ticket\" for a train, bus, film or concert. You say \"at købe en billet\" (to buy a ticket).",
   "related": [
    {
     "da": "en flybillet",
@@ -2717,6 +2717,7 @@
   }
  },
  "en biograf": {
+  "explanation": "\"En biograf\" means \"a cinema\", the place where you watch films. You say \"at gå i biografen\" (to go to the cinema). Danes often shorten it to \"bio\", as in \"gå i bio\" (go to the cinema).",
   "forms": [
    {
     "da": "en biograf",
@@ -2735,7 +2736,6 @@
     "en": "the cinemas"
    }
   ],
-  "explanation": "\"En biograf\" means \"a cinema\", the place where you watch films. You say \"at gå i biografen\" (to go to the cinema). Danes often shorten it to \"bio\", as in \"gå i bio\" (go to the cinema).",
   "related": [
    {
     "da": "en film",
@@ -2760,6 +2760,7 @@
   }
  },
  "en blanket": {
+  "explanation": "\"En blanket\" means \"a form\" that you fill in, for example at the doctor's or the bank. To fill one in you say \"at udfylde en blanket\" (to fill in a form). Do not mix it up with \"en form\", which means a shape.",
   "forms": [
    {
     "da": "en blanket",
@@ -2778,7 +2779,6 @@
     "en": "the forms"
    }
   ],
-  "explanation": "\"En blanket\" means \"a form\" that you fill in, for example at the doctor's or the bank. To fill one in you say \"at udfylde en blanket\" (to fill in a form). Do not mix it up with \"en form\", which means a shape.",
   "related": [
    {
     "da": "at udfylde",
@@ -2803,6 +2803,7 @@
   }
  },
  "en ble": {
+  "explanation": "\"En ble\" means \"a diaper\" (a \"nappy\" in British English). \"At skifte ble\" means to change a diaper.",
   "forms": [
    {
     "da": "en ble",
@@ -2821,7 +2822,6 @@
     "en": "the diapers"
    }
   ],
-  "explanation": "\"En ble\" means \"a diaper\" (a \"nappy\" in British English). \"At skifte ble\" means to change a diaper.",
   "related": [
    {
     "da": "en baby",
@@ -2846,6 +2846,7 @@
   }
  },
  "en blodprøve": {
+  "explanation": "\"En blodprøve\" means \"a blood test\", a small sample of blood that is checked. It is built from \"blod\" (blood) and \"prøve\" (sample, test). You say \"at tage en blodprøve\" (to take a blood sample).",
   "forms": [
    {
     "da": "en blodprøve",
@@ -2864,7 +2865,6 @@
     "en": "the blood tests"
    }
   ],
-  "explanation": "\"En blodprøve\" means \"a blood test\", a small sample of blood that is checked. It is built from \"blod\" (blood) and \"prøve\" (sample, test). You say \"at tage en blodprøve\" (to take a blood sample).",
   "related": [
    {
     "da": "blod",
@@ -2889,6 +2889,7 @@
   }
  },
  "en blomst": {
+  "explanation": "\"En blomst\" means \"a flower\". It appears in compound words such as \"en blomsterbutik\" (a flower shop) and \"en blomstervase\" (a flower vase).",
   "forms": [
    {
     "da": "en blomst",
@@ -2907,7 +2908,6 @@
     "en": "the flowers"
    }
   ],
-  "explanation": "\"En blomst\" means \"a flower\". It appears in compound words such as \"en blomsterbutik\" (a flower shop) and \"en blomstervase\" (a flower vase).",
   "related": [
    {
     "da": "et træ",
@@ -2932,6 +2932,7 @@
   }
  },
  "en bluse": {
+  "explanation": "\"En bluse\" means \"a blouse\", a light top for a woman or girl.",
   "forms": [
    {
     "da": "en bluse",
@@ -2950,7 +2951,6 @@
     "en": "the blouses"
    }
   ],
-  "explanation": "\"En bluse\" means \"a blouse\", a light top often worn by women. Do not mix it up with \"en skjorte\" (a shirt).",
   "related": [
    {
     "da": "en skjorte",
@@ -2975,6 +2975,7 @@
   }
  },
  "en blyant": {
+  "explanation": "\"En blyant\" means \"a pencil\". \"At spidse en blyant\" means \"to sharpen a pencil\".",
   "forms": [
    {
     "da": "en blyant",
@@ -2993,7 +2994,6 @@
     "en": "the pencils"
    }
   ],
-  "explanation": "\"En blyant\" means \"a pencil\". Do not mix it up with \"en kuglepen\" (a ballpoint pen); a pencil can be rubbed out, a ballpoint pen cannot.",
   "related": [
    {
     "da": "en kuglepen",
@@ -3018,6 +3018,7 @@
   }
  },
  "en bog": {
+  "explanation": "\"En bog\" means \"a book\". Notice that \"o\" becomes \"ø\" in the plural: \"to bøger\" (two books).",
   "forms": [
    {
     "da": "en bog",
@@ -3036,7 +3037,6 @@
     "en": "the books"
    }
   ],
-  "explanation": "\"En bog\" means \"a book\". The plural is irregular: in \"bøger\" the \"o\" becomes \"ø\".",
   "related": [
    {
     "da": "at læse",
@@ -3061,6 +3061,7 @@
   }
  },
  "en bold": {
+  "explanation": "\"En bold\" means \"a ball\". Danes say \"at spille bold\" (to play ball).",
   "forms": [
    {
     "da": "en bold",
@@ -3079,7 +3080,6 @@
     "en": "the balls"
    }
   ],
-  "explanation": "\"En bold\" means \"a ball\". Danes say \"at spille bold\" (to play ball).",
   "related": [
    {
     "da": "fodbold",
@@ -3104,6 +3104,7 @@
   }
  },
  "en bolle": {
+  "explanation": "\"En bolle\" means \"a bun\" or \"a bread roll\". It can also mean a meatball in \"boller i karry\" (meatballs in curry), so the meaning depends on the dish.",
   "forms": [
    {
     "da": "en bolle",
@@ -3122,7 +3123,6 @@
     "en": "the buns"
    }
   ],
-  "explanation": "\"En bolle\" means \"a bun\" or \"a bread roll\". It can also mean a meatball in \"boller i karry\" (meatballs in curry), so the meaning depends on the dish.",
   "related": [
    {
     "da": "et brød",
@@ -3147,6 +3147,7 @@
   }
  },
  "en bon": {
+  "explanation": "\"En bon\" means \"a receipt\", especially the small paper one from the till. At the checkout you may hear \"Skal du have bonen med?\" (Do you want the receipt?).",
   "forms": [
    {
     "da": "en bon",
@@ -3165,7 +3166,6 @@
     "en": "the receipts"
    }
   ],
-  "explanation": "\"En bon\" means \"a receipt\", especially the small paper one from the till. At the checkout you may hear \"Skal du have bonen med?\" (Do you want the receipt?).",
   "related": [
    {
     "da": "en kvittering",
@@ -3190,6 +3190,7 @@
   }
  },
  "en bro": {
+  "explanation": "\"En bro\" means \"a bridge\", something you cross over a river, road or sea. You walk or drive \"over broen\" (over the bridge).",
   "forms": [
    {
     "da": "en bro",
@@ -3208,7 +3209,6 @@
     "en": "the bridges"
    }
   ],
-  "explanation": "\"En bro\" means \"a bridge\", something you cross over a river, road or sea. You walk or drive \"over broen\" (over the bridge).",
   "related": [
    {
     "da": "en vej",
@@ -3233,6 +3233,7 @@
   }
  },
  "en bror": {
+  "explanation": "\"En bror\" means \"a brother\". Danish has separate words for older and younger: \"storebror\" (big brother) and \"lillebror\" (little brother), as in \"Min lillebror er fem år\" (My little brother is five years old).",
   "forms": [
    {
     "da": "en bror",
@@ -3251,7 +3252,6 @@
     "en": "the brothers"
    }
   ],
-  "explanation": "\"En bror\" means \"a brother\". Danes tell brothers apart by age: \"storebror\" (big brother) is older and \"lillebror\" (little brother) is younger, as in \"Min lillebror er fem år\" (My little brother is five years old).",
   "related": [
    {
     "da": "en søster",
@@ -3262,12 +3262,12 @@
     "en": "brothers and sisters"
    },
    {
-    "da": "en lillebror",
-    "en": "a little brother"
+    "da": "en søn",
+    "en": "a son"
    },
    {
-    "da": "en storebror",
-    "en": "a big brother"
+    "da": "en far",
+    "en": "a father"
    }
   ],
   "sentence": {
@@ -3276,6 +3276,7 @@
   }
  },
  "en buffet": {
+  "explanation": "\"En buffet\" means \"a buffet\", a meal where you help yourself to food from a table. A breakfast buffet is \"en morgenmadsbuffet\".",
   "forms": [
    {
     "da": "en buffet",
@@ -3294,7 +3295,6 @@
     "en": "the buffets"
    }
   ],
-  "explanation": "\"En buffet\" means \"a buffet\", a meal where you help yourself to food from a table. Hotels often serve breakfast this way, called \"morgenmadsbuffet\" (breakfast buffet), usually for one fixed price.",
   "related": [
    {
     "da": "en morgenmad",
@@ -3319,6 +3319,7 @@
   }
  },
  "en burger": {
+  "explanation": "\"En burger\" means \"a burger\", a patty of meat in a bun. A vegetarian one is \"en vegetarburger\" (a vegetarian burger).",
   "forms": [
    {
     "da": "en burger",
@@ -3337,7 +3338,6 @@
     "en": "the burgers"
    }
   ],
-  "explanation": "\"En burger\" means \"a burger\", a patty of meat in a bun. A vegetarian one is \"en vegetarburger\" (a vegetarian burger).",
   "related": [
    {
     "da": "en hamburger",
@@ -3362,6 +3362,7 @@
   }
  },
  "en bus": {
+  "explanation": "\"En bus\" means \"a bus\". To say you go by bus, use \"at tage bussen\" (to take the bus) or \"at køre med bus\" (to travel by bus).",
   "forms": [
    {
     "da": "en bus",
@@ -3380,7 +3381,6 @@
     "en": "the buses"
    }
   ],
-  "explanation": "\"En bus\" means \"a bus\". To say you go by bus, use \"at tage bussen\" (to take the bus) or \"at køre med bus\" (to travel by bus).",
   "related": [
    {
     "da": "et busstoppested",
@@ -3405,6 +3405,7 @@
   }
  },
  "en busbillet": {
+  "explanation": "\"En busbillet\" means \"a bus ticket\", built from \"bus\" (bus) and \"billet\" (ticket).",
   "forms": [
    {
     "da": "en busbillet",
@@ -3423,7 +3424,6 @@
     "en": "the bus tickets"
    }
   ],
-  "explanation": "\"En busbillet\" means \"a bus ticket\", built from \"bus\" (bus) and \"billet\" (ticket).",
   "related": [
    {
     "da": "en togbillet",
@@ -3443,11 +3443,12 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg købe en **busbillet** her?",
-   "en": "May I buy a bus ticket here?"
+   "da": "Jeg køber en **busbillet** af chaufføren, og så kører bussen.",
+   "en": "I buy a bus ticket from the driver, and then the bus leaves."
   }
  },
  "en butik": {
+  "explanation": "\"En butik\" means \"a shop\", usually a smaller one that sells one kind of thing, such as clothes or shoes. For a big shop with food and everyday things, Danes say \"et supermarked\" (a supermarket).",
   "forms": [
    {
     "da": "en butik",
@@ -3466,7 +3467,6 @@
     "en": "the shops"
    }
   ],
-  "explanation": "\"En butik\" means \"a shop\", usually a smaller one that sells one kind of thing, such as clothes or shoes. For a big shop with food and everyday things, Danes say \"et supermarked\" (a supermarket).",
   "related": [
    {
     "da": "et supermarked",
@@ -3491,6 +3491,7 @@
   }
  },
  "en by": {
+  "explanation": "\"En by\" means \"a town\" or \"a city\", small or big. \"I byen\" means \"in town\", and \"Jeg skal ind til byen\" means \"I am going into town\".",
   "forms": [
    {
     "da": "en by",
@@ -3509,7 +3510,6 @@
     "en": "the towns"
    }
   ],
-  "explanation": "\"En by\" means \"a town\" or \"a city\". Danish uses one word for both, so \"by\" can be a small town or a big city. \"I byen\" means \"in town\", and \"Jeg skal ind til byen\" means \"I am going into town\".",
   "related": [
    {
     "da": "et land",
@@ -3534,6 +3534,7 @@
   }
  },
  "en båd": {
+  "explanation": "\"En båd\" means \"a boat\", from a small rowing boat to a bigger one. For a big ship, Danish uses \"et skib\" (a ship).",
   "forms": [
    {
     "da": "en båd",
@@ -3552,7 +3553,6 @@
     "en": "the boats"
    }
   ],
-  "explanation": "\"En båd\" means \"a boat\", from a small rowing boat to a bigger one. For a big ship Danish uses \"et skib\" (a ship), and for a ferry \"en færge\" (a ferry).",
   "related": [
    {
     "da": "et skib",
@@ -3577,6 +3577,7 @@
   }
  },
  "en bøf": {
+  "explanation": "\"En bøf\" means \"a steak\", a piece of cooked meat, most often beef. A ground-meat patty is \"en hakkebøf\" (a minced beef patty).",
   "forms": [
    {
     "da": "en bøf",
@@ -3595,12 +3596,7 @@
     "en": "the steaks"
    }
   ],
-  "explanation": "\"En bøf\" means \"a steak\", a piece of cooked meat, most often beef. A ground-meat patty is \"en hakkebøf\" (a minced beef patty).",
   "related": [
-   {
-    "da": "en hakkebøf",
-    "en": "a minced beef patty"
-   },
    {
     "da": "oksekød",
     "en": "beef"
@@ -3610,8 +3606,12 @@
     "en": "meat"
    },
    {
-    "da": "en steak",
-    "en": "a steak"
+    "da": "en frikadelle",
+    "en": "a meatball"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
    }
   ],
   "sentence": {
@@ -3620,6 +3620,7 @@
   }
  },
  "en børnehave": {
+  "explanation": "\"En børnehave\" means \"a kindergarten\", for children from about three to six, before school starts. It is built from \"børn\" (children) and \"have\" (garden).",
   "forms": [
    {
     "da": "en børnehave",
@@ -3638,7 +3639,6 @@
     "en": "the kindergartens"
    }
   ],
-  "explanation": "\"En børnehave\" means \"a kindergarten\", for children from about three to six, before school starts. It is built from \"børn\" (children) and \"have\" (garden). Danish says \"i børnehaven\" (literally \"in the kindergarten\") where English says \"in kindergarten\".",
   "related": [
    {
     "da": "et barn",
@@ -3663,6 +3663,7 @@
   }
  },
  "en børnemenu": {
+  "explanation": "\"En børnemenu\" means \"a kids' menu\", a smaller meal for children at a restaurant. It is built from \"børn\" (children) and \"menu\" (menu).",
   "forms": [
    {
     "da": "en børnemenu",
@@ -3681,7 +3682,6 @@
     "en": "the kids' menus"
    }
   ],
-  "explanation": "\"En børnemenu\" means \"a kids' menu\", a smaller meal for children at a restaurant. It is built from \"børn\" (children) and \"menu\" (menu).",
   "related": [
    {
     "da": "et barn",
@@ -3706,6 +3706,7 @@
   }
  },
  "et bad": {
+  "explanation": "\"Et bad\" means \"a bath\" or \"a shower\". To take one, say \"at tage et bad\" (to have a bath or shower). Do not mix it up with \"et badeværelse\" (a bathroom) or \"at bade\" (to swim or bathe).",
   "forms": [
    {
     "da": "et bad",
@@ -3724,7 +3725,6 @@
     "en": "the baths"
    }
   ],
-  "explanation": "\"Et bad\" means \"a bath\" or \"a shower\". To take one, say \"at tage et bad\" (to have a bath or shower). Do not mix it up with \"et badeværelse\" (a bathroom) or \"at bade\" (to swim or bathe).",
   "related": [
    {
     "da": "et badeværelse",
@@ -3749,6 +3749,7 @@
   }
  },
  "et badeværelse": {
+  "explanation": "\"Et badeværelse\" means \"a bathroom\", the room with the shower or bath. It is made from \"bad\" (bath) and \"værelse\" (room). To find a public toilet, ask for \"et toilet\" (a toilet), not \"badeværelse\".",
   "forms": [
    {
     "da": "et badeværelse",
@@ -3767,7 +3768,6 @@
     "en": "the bathrooms"
    }
   ],
-  "explanation": "\"Et badeværelse\" means \"a bathroom\", the room with the shower or bath. It is made from \"bad\" (bath) and \"værelse\" (room). To find a public toilet, ask for \"et toilet\" (a toilet), not \"badeværelse\".",
   "related": [
    {
     "da": "et toilet",
@@ -3792,6 +3792,7 @@
   }
  },
  "et bageri": {
+  "explanation": "\"Et bageri\" means \"a bakery\", a shop where bread and cakes are baked and sold.",
   "forms": [
    {
     "da": "et bageri",
@@ -3810,7 +3811,6 @@
     "en": "the bakeries"
    }
   ],
-  "explanation": "\"Et bageri\" means \"a bakery\", a shop where bread and cakes are baked and sold. To buy something, you can say \"Jeg vil gerne have et rundstykke\" (I would like a bread roll).",
   "related": [
    {
     "da": "en bager",
@@ -3835,6 +3835,7 @@
   }
  },
  "et barn": {
+  "explanation": "\"Et barn\" means \"a child\", and also your own child at any age: \"mit barn\" (my child). The plural \"børn\" looks quite different from \"barn\": \"to børn\" (two children).",
   "forms": [
    {
     "da": "et barn",
@@ -3853,7 +3854,6 @@
     "en": "the children"
    }
   ],
-  "explanation": "\"Et barn\" means \"a child\", and it is also used for a grown-up's own children: \"mit barn\" means \"my child\", at any age. The plural \"børn\" looks quite different from \"barn\": \"to børn\" means \"two children\".",
   "related": [
    {
     "da": "en baby",
@@ -3878,6 +3878,7 @@
   }
  },
  "et ben": {
+  "explanation": "\"Et ben\" means \"a leg\" and also \"a bone\"; the situation tells you which. \"Han har brækket benet\" literally says \"the leg\", but means \"He has broken his leg\". The plural is the same as the single word: \"to ben\" (two legs).",
   "forms": [
    {
     "da": "et ben",
@@ -3896,7 +3897,6 @@
     "en": "the legs / the bones"
    }
   ],
-  "explanation": "\"Et ben\" means \"a leg\" and also \"a bone\"; the situation tells you which. \"Han har brækket benet\" literally says \"the leg\", but means \"He has broken his leg\". The plural is the same as the single word: \"to ben\" (two legs).",
   "related": [
    {
     "da": "et knæ",
@@ -3921,6 +3921,7 @@
   }
  },
  "et besøg": {
+  "explanation": "\"Et besøg\" means \"a visit\". The plural is the same as the single word: \"to besøg\" (two visits). To be visiting someone, say \"på besøg\": \"Jeg er på besøg hos min mor\" (I am visiting my mother).",
   "forms": [
    {
     "da": "et besøg",
@@ -3935,7 +3936,6 @@
     "en": "visits"
    }
   ],
-  "explanation": "\"Et besøg\" means \"a visit\". The plural is the same as the single word: \"to besøg\" (two visits). To be visiting someone, say \"på besøg\": \"Jeg er på besøg hos min mor\" (I am visiting my mother).",
   "related": [
    {
     "da": "at besøge",
@@ -3946,8 +3946,8 @@
     "en": "a guest"
    },
    {
-    "da": "på besøg",
-    "en": "on a visit"
+    "da": "velkommen",
+    "en": "welcome"
    },
    {
     "da": "en tur",
@@ -3960,6 +3960,7 @@
   }
  },
  "et betalingskort": {
+  "explanation": "\"Et betalingskort\" means \"a payment card\", a debit or credit card you pay with. It is made from \"betaling\" (payment) and \"kort\" (card). The plural is the same as the single word: \"to betalingskort\" (two cards).",
   "forms": [
    {
     "da": "et betalingskort",
@@ -3978,7 +3979,6 @@
     "en": "the payment cards"
    }
   ],
-  "explanation": "\"Et betalingskort\" means \"a payment card\", a debit or credit card you pay with. It is made from \"betaling\" (payment) and \"kort\" (card). The plural is the same as the single word: \"to betalingskort\" (two cards).",
   "related": [
    {
     "da": "at betale med kort",
@@ -4003,6 +4003,7 @@
   }
  },
  "et bibliotek": {
+  "explanation": "\"Et bibliotek\" means \"a library\". You borrow books there: \"at låne en bog på biblioteket\" (to borrow a book at the library).",
   "forms": [
    {
     "da": "et bibliotek",
@@ -4021,7 +4022,6 @@
     "en": "the libraries"
    }
   ],
-  "explanation": "\"Et bibliotek\" means \"a library\", where you can borrow books for free. \"At låne\" (to borrow) is useful here: \"at låne en bog på biblioteket\" (to borrow a book at the library). Note the \"k\" in \"bibliotek\", where English \"library\" has a \"y\".",
   "related": [
    {
     "da": "en bog",
@@ -4046,6 +4046,7 @@
   }
  },
  "et billede": {
+  "explanation": "\"Et billede\" means \"a picture\", such as a photo, a painting or an image on a screen. Say \"at tage et billede\" (to take a picture) and \"at hænge et billede op\" (to hang up a picture). \"Et foto\" (a photo) is more specific.",
   "forms": [
    {
     "da": "et billede",
@@ -4064,7 +4065,6 @@
     "en": "the pictures"
    }
   ],
-  "explanation": "\"Et billede\" means \"a picture\", such as a photo, a painting or an image on a screen. Say \"at tage et billede\" (to take a picture) and \"at hænge et billede op\" (to hang up a picture). \"Et foto\" (a photo) is more specific.",
   "related": [
    {
     "da": "et foto",
@@ -4075,8 +4075,8 @@
     "en": "a painting"
    },
    {
-    "da": "at tage et billede",
-    "en": "to take a picture"
+    "da": "en tegning",
+    "en": "a drawing"
    },
    {
     "da": "et kamera",
@@ -4089,6 +4089,7 @@
   }
  },
  "et bjerg": {
+  "explanation": "\"Et bjerg\" means \"a mountain\". A smaller, lower one is \"en bakke\" (a hill). It is also part of longer words, like \"en bjergtur\" (a mountain trip).",
   "forms": [
    {
     "da": "et bjerg",
@@ -4107,7 +4108,6 @@
     "en": "the mountains"
    }
   ],
-  "explanation": "\"Et bjerg\" means \"a mountain\". A smaller, lower one is \"en bakke\" (a hill). Words can be built from it, like \"en bjergtur\" (a mountain trip).",
   "related": [
    {
     "da": "en bakke",
@@ -4132,6 +4132,7 @@
   }
  },
  "et boardingpas": {
+  "explanation": "\"Et boardingpas\" means \"a boarding pass\", the paper or phone ticket you show to get on a plane. Do not mix it up with \"et pas\" (a passport).",
   "forms": [
    {
     "da": "et boardingpas",
@@ -4150,7 +4151,6 @@
     "en": "the boarding passes"
    }
   ],
-  "explanation": "\"Et boardingpas\" means \"a boarding pass\", the paper or phone ticket you show to get on a plane. The word comes from English. Do not mix it up with \"et pas\" (a passport).",
   "related": [
    {
     "da": "et pas",
@@ -4175,6 +4175,7 @@
   }
  },
  "et bord": {
+  "explanation": "\"Et bord\" means \"a table\". In a restaurant you can ask \"Et bord til to, tak\" (A table for two, please). A desk is \"et skrivebord\" (literally a writing table).",
   "forms": [
    {
     "da": "et bord",
@@ -4193,7 +4194,6 @@
     "en": "the tables"
    }
   ],
-  "explanation": "\"Et bord\" means \"a table\". In a restaurant you can ask \"Et bord til to, tak\" (A table for two, please). A desk is \"et skrivebord\" (literally a writing table).",
   "related": [
    {
     "da": "en stol",
@@ -4218,6 +4218,7 @@
   }
  },
  "et brev": {
+  "explanation": "\"Et brev\" means \"a letter\" that you send in the post. For an email, say \"en mail\" (an email). \"At skrive et brev\" means \"to write a letter\".",
   "forms": [
    {
     "da": "et brev",
@@ -4236,7 +4237,6 @@
     "en": "the letters"
    }
   ],
-  "explanation": "\"Et brev\" means \"a letter\" that you send in the post. For an email, say \"en mail\" (an email). \"At skrive et brev\" means \"to write a letter\".",
   "related": [
    {
     "da": "en mail",
@@ -4261,6 +4261,7 @@
   }
  },
  "et bryllup": {
+  "explanation": "\"Et bryllup\" means \"a wedding\". You can say you are going to one with \"til bryllup\": \"Vi skal til bryllup\" (We are going to a wedding). \"At holde bryllup\" means \"to hold a wedding\".",
   "forms": [
    {
     "da": "et bryllup",
@@ -4279,7 +4280,6 @@
     "en": "the weddings"
    }
   ],
-  "explanation": "\"Et bryllup\" means \"a wedding\". You can say you are going to one with \"til bryllup\": \"Vi skal til bryllup\" (We are going to a wedding). \"At holde bryllup\" means \"to hold a wedding\".",
   "related": [
    {
     "da": "en fest",
@@ -4304,6 +4304,7 @@
   }
  },
  "et bryst": {
+  "explanation": "\"Et bryst\" means \"a chest\", the front of the upper body, and it can also mean \"a breast\". Danish often says \"the chest\" where English says \"my chest\": \"Jeg har smerter i brystet\" means \"I have pain in my chest\".",
   "forms": [
    {
     "da": "et bryst",
@@ -4322,7 +4323,6 @@
     "en": "the chests"
    }
   ],
-  "explanation": "\"Et bryst\" means \"a chest\", the front of the upper body, and it can also mean \"a breast\". Danish says \"the chest\" where English says \"my chest\": \"Jeg har smerter i brystet\" (I have pain in the chest) means \"I have chest pain\".",
   "related": [
    {
     "da": "et hjerte",
@@ -4347,6 +4347,7 @@
   }
  },
  "et busstoppested": {
+  "explanation": "\"Et busstoppested\" means \"a bus stop\". It is made from \"bus\" (bus) and \"stoppested\" (a place where something stops). People often shorten it to \"et stoppested\" (a stop).",
   "forms": [
    {
     "da": "et busstoppested",
@@ -4365,7 +4366,6 @@
     "en": "the bus stops"
    }
   ],
-  "explanation": "\"Et busstoppested\" means \"a bus stop\". It is made from \"bus\" (bus) and \"stoppested\" (a place where something stops). People often shorten it to \"et stoppested\" (a stop).",
   "related": [
    {
     "da": "et stoppested",
@@ -4390,6 +4390,7 @@
   }
  },
  "et bælte": {
+  "explanation": "\"Et bælte\" means \"a belt\". A seat belt in a car is \"et sikkerhedsbælte\", built on the same word.",
   "forms": [
    {
     "da": "et bælte",
@@ -4408,7 +4409,6 @@
     "en": "the belts"
    }
   ],
-  "explanation": "\"Et bælte\" means \"a belt\", the strip you wear around your waist to hold up trousers. A seat belt in a car is \"et sikkerhedsbælte\", which contains the same word.",
   "related": [
    {
     "da": "bukser",

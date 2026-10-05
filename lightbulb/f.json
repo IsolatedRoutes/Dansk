@@ -1,5 +1,6 @@
 {
  "at falde": {
+  "explanation": "\"At falde\" means \"to fall\", for example to fall down, or for rain and snow to fall. \"Jeg faldt af cyklen\" means \"I fell off the bike\".",
   "forms": [
    {
     "da": "at falde",
@@ -18,7 +19,6 @@
     "en": "I have fallen"
    }
   ],
-  "explanation": "\"At falde\" means \"to fall\", for example to fall down, or for rain and snow to fall. \"Jeg faldt af cyklen\" means \"I fell off the bike\".",
   "related": [
    {
     "da": "at snuble",
@@ -39,6 +39,7 @@
   }
  },
  "at finde": {
+  "explanation": "\"At finde\" means \"to find\", whether you look for something or come across it: \"Jeg finder mine nøgler\" (I find my keys). It is also used for opinions: \"Jeg finder det svært\" (I find it difficult).",
   "forms": [
    {
     "da": "at finde",
@@ -57,7 +58,6 @@
     "en": "I have found"
    }
   ],
-  "explanation": "\"At finde\" means \"to find\", whether you look for something or come across it: \"Jeg finder mine nøgler\" (I find my keys). It is also used for opinions: \"Jeg finder det svært\" (I find it difficult).",
   "related": [
    {
     "da": "at lede efter",
@@ -78,6 +78,7 @@
   }
  },
  "at flytte": {
+  "explanation": "\"At flytte\" means \"to move\", either to a new home or to shift something from one place to another. \"Vi flytter til Aarhus\" means \"We are moving to Aarhus\", and \"Kan du flytte bilen?\" means \"Can you move the car?\".",
   "forms": [
    {
     "da": "at flytte",
@@ -96,7 +97,6 @@
     "en": "I have moved"
    }
   ],
-  "explanation": "\"At flytte\" means \"to move\", either to a new home or to shift something from one place to another. \"Vi flytter til Aarhus\" means \"We are moving to Aarhus\", and \"Kan du flytte bilen?\" means \"Can you move the car?\".",
   "related": [
    {
     "da": "en flytning",
@@ -117,6 +117,7 @@
   }
  },
  "at flyve": {
+  "explanation": "\"At flyve\" means \"to fly\", for birds and for people travelling by plane: \"Vi flyver til Spanien\" (We are flying to Spain).",
   "forms": [
    {
     "da": "at flyve",
@@ -135,7 +136,6 @@
     "en": "I have flown"
    }
   ],
-  "explanation": "\"At flyve\" means \"to fly\", for birds and for people travelling by plane: \"Vi flyver til Spanien\" (We are flying to Spain).",
   "related": [
    {
     "da": "et fly",
@@ -156,6 +156,7 @@
   }
  },
  "at forhandle": {
+  "explanation": "\"At forhandle\" means \"to negotiate\", for example prices, contracts or pay. You negotiate about something with \"om\" (about): \"forhandle om prisen\" (negotiate the price). Be careful: \"en forhandler\" is not a negotiator but a dealer or retailer, such as a car dealer.",
   "forms": [
    {
     "da": "at forhandle",
@@ -174,7 +175,6 @@
     "en": "I have negotiated"
    }
   ],
-  "explanation": "\"At forhandle\" means \"to negotiate\", for example prices, contracts or pay. You negotiate about something with \"om\" (about): \"forhandle om prisen\" (negotiate the price). Be careful: \"en forhandler\" is not a negotiator but a dealer or retailer, such as a car dealer.",
   "related": [
    {
     "da": "en forhandling",
@@ -194,11 +194,12 @@
    }
   ],
   "sentence": {
-   "da": "De skal **forhandle** om prisen.",
-   "en": "They are going to negotiate the price."
+   "da": "Sælgeren og kunden vil **forhandle** om prisen på bilen.",
+   "en": "The seller and the customer will negotiate the price of the car."
   }
  },
  "at forklare": {
+  "explanation": "\"At forklare\" means \"to explain\". Danish says \"forklare noget for nogen\" (explain something to someone): \"Kan du forklare det for mig?\" (Can you explain it to me?).",
   "forms": [
    {
     "da": "at forklare",
@@ -217,7 +218,6 @@
     "en": "I have explained"
    }
   ],
-  "explanation": "\"At forklare\" means \"to explain\". Danish says \"forklare noget for nogen\" (explain something to someone): \"Kan du forklare det for mig?\" (Can you explain it to me?).",
   "related": [
    {
     "da": "en forklaring",
@@ -238,6 +238,7 @@
   }
  },
  "at forstå": {
+  "explanation": "\"At forstå\" means \"to understand\": \"Jeg forstår ikke\" (I don't understand). To say you know a fact, use \"at vide\" (to know) instead: \"Jeg ved det ikke\" (I don't know).",
   "forms": [
    {
     "da": "at forstå",
@@ -256,7 +257,6 @@
     "en": "I have understood"
    }
   ],
-  "explanation": "\"At forstå\" means \"to understand\": \"Jeg forstår ikke\" (I don't understand). To say you know a fact, use \"at vide\" (to know) instead: \"Jeg ved det ikke\" (I don't know).",
   "related": [
    {
     "da": "at vide",
@@ -277,6 +277,7 @@
   }
  },
  "at fortælle": {
+  "explanation": "\"At fortælle\" means \"to tell\", especially to tell a story or give someone information: \"Hun fortæller en historie\" (She tells a story). For simply saying a few words, use \"at sige\" (to say): \"Han siger hej\" (He says hello). You can add who you tell: \"fortælle nogen noget\" (tell someone something).",
   "forms": [
    {
     "da": "at fortælle",
@@ -295,7 +296,6 @@
     "en": "I have told"
    }
   ],
-  "explanation": "\"At fortælle\" means \"to tell\", especially to tell a story or give someone information. \"At sige\" (to say) is for simply saying something, while \"fortælle\" is for telling more. You can add who you tell: \"fortælle nogen noget\" (tell someone something).",
   "related": [
    {
     "da": "at sige",
@@ -320,6 +320,7 @@
   }
  },
  "at fryse": {
+  "explanation": "\"At fryse\" means \"to freeze\" and also \"to feel cold\". \"Jeg fryser\" means \"I am cold\" (literally \"I freeze\"). It also describes water or food turning to ice. Do not mix it up with \"en fryser\" (a freezer).",
   "forms": [
    {
     "da": "at fryse",
@@ -338,7 +339,6 @@
     "en": "I have frozen"
    }
   ],
-  "explanation": "\"At fryse\" means \"to freeze\" and also \"to feel cold\". \"Jeg fryser\" means \"I am cold\" (literally \"I freeze\"). It also describes water or food turning to ice. Do not mix it up with \"en fryser\" (a freezer).",
   "related": [
    {
     "da": "kold",
@@ -359,6 +359,7 @@
   }
  },
  "at fylde år": {
+  "explanation": "\"At fylde år\" means \"to have a birthday\", in the sense of turning a certain age. You can add the age: \"Jeg fylder tredive år\" (I am turning thirty). \"At have fødselsdag\" (to have a birthday) just says it is your birthday, without the age.",
   "forms": [
    {
     "da": "at fylde år",
@@ -377,7 +378,6 @@
     "en": "I have had a birthday"
    }
   ],
-  "explanation": "\"At fylde år\" means \"to have a birthday\", in the sense of turning a certain age. You can add the age: \"Jeg fylder tredive år\" (I am turning thirty). \"At have fødselsdag\" (to have a birthday) just says it is your birthday, without the age.",
   "related": [
    {
     "da": "en fødselsdag",
@@ -402,6 +402,7 @@
   }
  },
  "at få": {
+  "explanation": "\"At få\" means \"to get\" or \"to receive\": \"Jeg får en gave\" (I get a present). It also appears in \"få lov\" (to be allowed): \"Jeg fik lov\" (I was allowed). It does not mean to go and fetch something. That is \"at hente\" (to fetch).",
   "forms": [
    {
     "da": "at få",
@@ -420,7 +421,6 @@
     "en": "I have gotten"
    }
   ],
-  "explanation": "\"At få\" means \"to get\" or \"to receive\": \"Jeg får en gave\" (I get a present). It also appears in \"få lov\" (to be allowed): \"Jeg fik lov\" (I was allowed). It does not mean to go and fetch something. That is \"at hente\" (to fetch).",
   "related": [
    {
     "da": "at give",
@@ -441,6 +441,7 @@
   }
  },
  "at få hjælp": {
+  "explanation": "\"At få hjælp\" means \"to get help\": \"Kan jeg få hjælp?\" (Can I get help?).",
   "forms": [
    {
     "da": "at få hjælp",
@@ -459,7 +460,6 @@
     "en": "I have gotten help"
    }
   ],
-  "explanation": "\"At få hjælp\" means \"to get help\", that is, to receive it from someone. Danish says \"hjælp\" (help) with no \"en\" (a) in front: \"Jeg har brug for hjælp\" (I need help).",
   "related": [
    {
     "da": "hjælp",
@@ -474,8 +474,8 @@
     "en": "to need"
    },
    {
-    "da": "at give",
-    "en": "to give"
+    "da": "at bede om",
+    "en": "to ask for"
    }
   ],
   "sentence": {
@@ -484,6 +484,7 @@
   }
  },
  "at føle": {
+  "explanation": "\"At føle\" means \"to feel\", both emotions and things you touch. To say how you feel, add \"mig\" (me): \"Jeg føler mig glad\" means \"I feel happy\".",
   "forms": [
    {
     "da": "at føle",
@@ -502,7 +503,6 @@
     "en": "I have felt"
    }
   ],
-  "explanation": "\"At føle\" means \"to feel\", both emotions and things you touch. To say how you feel, add \"mig\" (myself): \"Jeg føler mig glad\" means \"I feel happy\".",
   "related": [
    {
     "da": "en følelse",
@@ -523,6 +523,7 @@
   }
  },
  "en familie": {
+  "explanation": "\"En familie\" means \"a family\": \"Har du en stor familie?\" (Do you have a big family?).",
   "forms": [
    {
     "da": "en familie",
@@ -541,7 +542,6 @@
     "en": "the families"
    }
   ],
-  "explanation": "\"En familie\" means \"a family\". A friendly question is \"Har du en stor familie?\" (Do you have a big family?).",
   "related": [
    {
     "da": "en mor",
@@ -566,6 +566,7 @@
   }
  },
  "en far": {
+  "explanation": "\"En far\" means \"a father\". You can also call him \"far\" directly: \"Hej, far!\" (Hi, Dad!).",
   "forms": [
    {
     "da": "en far",
@@ -584,7 +585,6 @@
     "en": "the fathers"
    }
   ],
-  "explanation": "\"En far\" means \"a father\". \"Far\" is also used like a name when you speak to him: \"Hej, far!\" (Hi, Dad!).",
   "related": [
    {
     "da": "en mor",
@@ -609,6 +609,7 @@
   }
  },
  "en farfar": {
+  "explanation": "\"En farfar\" means \"a grandfather\" on your father's side. It is built from \"far\" (father) and \"far\" (father): \"father's father\". On your mother's side he is \"en morfar\" (mother's father).",
   "forms": [
    {
     "da": "en farfar",
@@ -627,7 +628,6 @@
     "en": "the grandfathers (father's father)"
    }
   ],
-  "explanation": "\"En farfar\" means \"a grandfather\" on your father's side, literally \"father-father\". Danish keeps the four grandparents apart: \"mormor\" (mother's mother), \"morfar\" (mother's father), \"farmor\" (father's mother) and \"farfar\" (father's father). Children use \"Farfar\" like a name.",
   "related": [
    {
     "da": "en morfar",
@@ -652,6 +652,7 @@
   }
  },
  "en farmor": {
+  "explanation": "\"En farmor\" means \"a grandmother\" on your father's side. It is built from \"far\" (father) and \"mor\" (mother): \"father's mother\". You can call her \"farmor\" directly: \"Farmor kommer i dag\" (Grandma is coming today).",
   "forms": [
    {
     "da": "en farmor",
@@ -670,7 +671,6 @@
     "en": "the grandmothers (father's mother)"
    }
   ],
-  "explanation": "\"En farmor\" means \"a grandmother\" on your father's side. It is made from \"far\" (father) and \"mor\" (mother). Danes use these words like names, so you will hear \"Farmor kommer i dag\" (Grandma is coming today).",
   "related": [
    {
     "da": "en mormor",
@@ -695,6 +695,7 @@
   }
  },
  "en farve": {
+  "explanation": "\"En farve\" means \"a color\". In a shop you can ask \"Har I den i en anden farve?\" (Do you have it in another color?).",
   "forms": [
    {
     "da": "en farve",
@@ -713,7 +714,6 @@
     "en": "the colors"
    }
   ],
-  "explanation": "\"En farve\" means \"a color\". In a shop you may ask \"Har I den i en anden farve?\" (Do you have it in another color?). \"Farve\" is also used for hair dye or paint.",
   "related": [
    {
     "da": "rød",
@@ -724,12 +724,12 @@
     "en": "blue"
    },
    {
-    "da": "en størrelse",
-    "en": "a size"
+    "da": "gul",
+    "en": "yellow"
    },
    {
-    "da": "at male",
-    "en": "to paint"
+    "da": "grøn",
+    "en": "green"
    }
   ],
   "sentence": {
@@ -738,6 +738,7 @@
   }
  },
  "en feber": {
+  "explanation": "\"En feber\" means \"a fever\", a high body temperature when you are sick. Danes say \"Jeg har feber\" (I have a fever), usually without \"en\".",
   "forms": [
    {
     "da": "en feber",
@@ -756,7 +757,6 @@
     "en": "the fevers"
    }
   ],
-  "explanation": "\"En feber\" means \"a fever\", a high body temperature when you are sick. Danes say \"Jeg har feber\" (I have a fever), usually without \"en\".",
   "related": [
    {
     "da": "syg",
@@ -781,6 +781,7 @@
   }
  },
  "en ferie": {
+  "explanation": "\"En ferie\" means \"a vacation\" or holiday, a time away from work or school. You say \"på ferie\" (on vacation): \"Jeg er på ferie\" (I am on vacation). \"I ferien\" means \"during the vacation\".",
   "forms": [
    {
     "da": "en ferie",
@@ -799,7 +800,6 @@
     "en": "the vacations"
    }
   ],
-  "explanation": "\"En ferie\" means \"a vacation\" or holiday, a time away from work or school. You say \"på ferie\" (on vacation): \"Jeg er på ferie\" (I am on vacation). \"I ferien\" means \"during the vacation\".",
   "related": [
    {
     "da": "en sommerferie",
@@ -824,6 +824,7 @@
   }
  },
  "en fest": {
+  "explanation": "\"En fest\" means \"a party\" or a celebration. You say \"at holde fest\" (to have a party) or \"at gå til fest\" (to go to a party).",
   "forms": [
    {
     "da": "en fest",
@@ -842,7 +843,6 @@
     "en": "the parties"
    }
   ],
-  "explanation": "\"En fest\" means \"a party\" or a celebration. You say \"at holde fest\" (to have a party) or \"at gå til fest\" (to go to a party). \"God fest!\" means \"Have a good party!\".",
   "related": [
    {
     "da": "et bryllup",
@@ -867,6 +867,7 @@
   }
  },
  "en film": {
+  "explanation": "\"En film\" means \"a film\" or \"a movie\". More than one is also \"film\": \"to film\" means \"two films\" (\"to\" is the number two). \"At se en film\" means \"to watch a film\".",
   "forms": [
    {
     "da": "en film",
@@ -885,7 +886,6 @@
     "en": "the films / the movies"
    }
   ],
-  "explanation": "\"En film\" means \"a film\" or \"a movie\". The plural is just \"film\", so \"to film\" means \"two films\" (\"to\" is the number two). Typical phrases are \"at se en film\" (to watch a film) and \"en dansk film\" (a Danish film).",
   "related": [
    {
     "da": "en biograf",
@@ -901,15 +901,16 @@
    },
    {
     "da": "et program",
-    "en": "a programme"
+    "en": "a program"
    }
   ],
   "sentence": {
-   "da": "Vi ser en god **film** i aften.",
-   "en": "We are watching a good film tonight."
+   "da": "Vi ser en god **film** i biografen i aften.",
+   "en": "We are watching a good film at the cinema tonight."
   }
  },
  "en finger": {
+  "explanation": "\"En finger\" means \"a finger\". The thumb is \"tommelfinger\" and the index finger is \"pegefinger\". Danish says \"the finger\" where English says \"my finger\": \"Jeg har ondt i fingeren\" means \"I have a pain in the finger\", i.e. \"my finger hurts\".",
   "forms": [
    {
     "da": "en finger",
@@ -928,7 +929,6 @@
     "en": "the fingers"
    }
   ],
-  "explanation": "\"En finger\" means \"a finger\". The thumb is \"tommelfingeren\" (the thumb) and the index finger is \"pegefingeren\" (the index finger). Danish says \"the finger\" where English says \"my finger\": \"Jeg har ondt i fingeren\" means \"I have a pain in the finger\", i.e. \"my finger hurts\".",
   "related": [
    {
     "da": "en hånd",
@@ -953,6 +953,7 @@
   }
  },
  "en fisk": {
+  "explanation": "\"En fisk\" means \"a fish\", both the animal in the water and the food on your plate. The plural can be the same word as the single one: \"tre fisk\" (three fish).",
   "forms": [
    {
     "da": "en fisk",
@@ -971,7 +972,6 @@
     "en": "the fish (more than one)"
    }
   ],
-  "explanation": "\"En fisk\" means \"a fish\", both the animal in the water and the food on your plate. The plural can be the same word as the single one: \"tre fisk\" (three fish).",
   "related": [
    {
     "da": "at fiske",
@@ -996,6 +996,7 @@
   }
  },
  "en flaske": {
+  "explanation": "\"En flaske\" means \"a bottle\". Danish has no word for \"of\" here: \"en flaske vand\" is \"a bottle of water\", and \"et glas vand\" is \"a glass of water\".",
   "forms": [
    {
     "da": "en flaske",
@@ -1014,11 +1015,10 @@
     "en": "the bottles"
    }
   ],
-  "explanation": "\"En flaske\" means \"a bottle\". Danish has no word for \"of\" here: \"en flaske vand\" is \"a bottle of water\", and \"et glas vand\" is \"a glass of water\".",
   "related": [
    {
-    "da": "en vin",
-    "en": "a wine"
+    "da": "mælk",
+    "en": "milk"
    },
    {
     "da": "vand",
@@ -1039,6 +1039,7 @@
   }
  },
  "en flybillet": {
+  "explanation": "\"En flybillet\" means \"a plane ticket\". It is built from \"fly\" (plane) and \"billet\" (ticket).",
   "forms": [
    {
     "da": "en flybillet",
@@ -1057,7 +1058,6 @@
     "en": "the plane tickets"
    }
   ],
-  "explanation": "\"En flybillet\" means \"a plane ticket\". It is built from \"fly\" (plane) and \"billet\" (ticket).",
   "related": [
    {
     "da": "en billet",
@@ -1082,6 +1082,7 @@
   }
  },
  "en fod": {
+  "explanation": "\"En fod\" means \"a foot\". \"Til fods\" means \"on foot\" (walking). Danish often says \"the feet\" where English says \"my feet\": \"Jeg har ondt i fødderne\" means \"my feet hurt\" (literally \"I have a pain in the feet\").",
   "forms": [
    {
     "da": "en fod",
@@ -1100,7 +1101,6 @@
     "en": "the feet"
    }
   ],
-  "explanation": "\"En fod\" means \"a foot\". \"Til fods\" means \"on foot\" (walking). Danish often says \"the feet\" where English says \"my feet\": \"Jeg har ondt i fødderne\" means \"my feet hurt\" (literally \"I have a pain in the feet\").",
   "related": [
    {
     "da": "en tå",
@@ -1125,6 +1125,7 @@
   }
  },
  "en forfader": {
+  "explanation": "\"En forfader\" means \"an ancestor\", a family member who lived long ago. One step back from your grandparents is \"en oldefar\" (a great-grandfather).",
   "forms": [
    {
     "da": "en forfader",
@@ -1143,7 +1144,6 @@
     "en": "the ancestors"
    }
   ],
-  "explanation": "\"En forfader\" means \"an ancestor\". It is a little formal. For the nearest generations Danes often say \"mine oldeforældre\" (my great-grandparents).",
   "related": [
    {
     "da": "en efterkommer",
@@ -1158,8 +1158,8 @@
     "en": "a great-grandfather"
    },
    {
-    "da": "en historie",
-    "en": "a history, a story"
+    "da": "en familie",
+    "en": "a family"
    }
   ],
   "sentence": {
@@ -1168,6 +1168,7 @@
   }
  },
  "en forkølelse": {
+  "explanation": "\"En forkølelse\" means \"a cold\", the illness with a runny nose and a sore throat. In everyday talk Danes more often say \"Jeg er forkølet\" (I have a cold). Do not mix it up with \"kold\" (cold in temperature).",
   "forms": [
    {
     "da": "en forkølelse",
@@ -1186,7 +1187,6 @@
     "en": "the colds"
    }
   ],
-  "explanation": "\"En forkølelse\" means \"a cold\", the illness with a runny nose and a sore throat. In everyday talk Danes more often say \"Jeg er forkølet\" (I have a cold). Do not mix it up with \"kold\" (cold in temperature).",
   "related": [
    {
     "da": "en hoste",
@@ -1211,6 +1211,7 @@
   }
  },
  "en fornyelse": {
+  "explanation": "\"En fornyelse\" means \"a renewal\". It comes from \"at forny\" (to renew). You say \"en fornyelse af mit pas\" (a renewal of my passport).",
   "forms": [
    {
     "da": "en fornyelse",
@@ -1229,7 +1230,6 @@
     "en": "the renewals"
    }
   ],
-  "explanation": "\"En fornyelse\" means \"a renewal\". It comes from \"at forny\" (to renew). You say \"en fornyelse af mit pas\" (a renewal of my passport).",
   "related": [
    {
     "da": "at forny",
@@ -1254,6 +1254,7 @@
   }
  },
  "en forret": {
+  "explanation": "\"En forret\" means \"a starter\", the small dish you eat before the main one. On a menu you say \"til forret\" (as a starter): \"Til forret tager jeg suppe\" means \"As a starter I will have soup\".",
   "forms": [
    {
     "da": "en forret",
@@ -1272,7 +1273,6 @@
     "en": "the starters"
    }
   ],
-  "explanation": "\"En forret\" means \"a starter\", the small dish you eat before the main one. On a menu you say \"til forret\" (as a starter): \"Til forret tager jeg suppe\" means \"As a starter I will have soup\".",
   "related": [
    {
     "da": "en hovedret",
@@ -1297,6 +1297,7 @@
   }
  },
  "en forsinkelse": {
+  "explanation": "\"En forsinkelse\" means \"a delay\". To say something is late, use \"forsinket\": \"Toget er forsinket\" (The train is late).",
   "forms": [
    {
     "da": "en forsinkelse",
@@ -1315,7 +1316,6 @@
     "en": "the delays"
    }
   ],
-  "explanation": "\"En forsinkelse\" means \"a delay\". The related word \"forsinket\" means \"late\", as in \"Toget er forsinket\" (The train is late).",
   "related": [
    {
     "da": "forsinket",
@@ -1335,11 +1335,12 @@
    }
   ],
   "sentence": {
-   "da": "Der er **forsinkelse**, så toget kommer en time for sent.",
+   "da": "Der er en **forsinkelse**, så toget kommer en time for sent.",
    "en": "There is a delay, so the train comes an hour too late."
   }
  },
  "en frakke": {
+  "explanation": "\"En frakke\" means \"a coat\". It is longer and warmer than \"en jakke\" (a jacket). \"At tage frakken på\" means \"to put the coat on\".",
   "forms": [
    {
     "da": "en frakke",
@@ -1358,7 +1359,6 @@
     "en": "the coats"
    }
   ],
-  "explanation": "\"En frakke\" means \"a coat\". It is longer and warmer than \"en jakke\" (a jacket). \"At tage frakken på\" means \"to put the coat on\".",
   "related": [
    {
     "da": "en jakke",
@@ -1383,6 +1383,7 @@
   }
  },
  "en frikadelle": {
+  "explanation": "\"En frikadelle\" means \"a meatball\", a fried patty of minced meat.",
   "forms": [
    {
     "da": "en frikadelle",
@@ -1401,7 +1402,6 @@
     "en": "the meatballs"
    }
   ],
-  "explanation": "\"En frikadelle\" means \"a meatball\". It is usually flat rather than round, and is made of minced meat.",
   "related": [
    {
     "da": "en sovs",
@@ -1426,6 +1426,7 @@
   }
  },
  "en frisør": {
+  "explanation": "\"En frisør\" means \"a hairdresser\", and it also means the place where you get a haircut: \"Jeg har tid hos frisøren\" means \"I have an appointment at the hairdresser's\". A barber, who cuts men's hair, is \"en barber\".",
   "forms": [
    {
     "da": "en frisør",
@@ -1444,7 +1445,6 @@
     "en": "the hairdressers"
    }
   ],
-  "explanation": "\"En frisør\" means \"a hairdresser\", and it also means the place where you get a haircut: \"Jeg har tid hos frisøren\" means \"I have an appointment at the hairdresser's\". A barber, who cuts men's hair, is \"en barber\".",
   "related": [
    {
     "da": "et hår",
@@ -1469,6 +1469,7 @@
   }
  },
  "en frugt": {
+  "explanation": "\"En frugt\" means \"a fruit\". For fruit in general Danes usually leave out \"en\": \"Jeg spiser meget frugt\" (I eat a lot of fruit). One piece of fruit is \"et stykke frugt\".",
   "forms": [
    {
     "da": "en frugt",
@@ -1487,7 +1488,6 @@
     "en": "the fruits"
    }
   ],
-  "explanation": "\"En frugt\" means \"a fruit\". For fruit in general Danes usually leave out \"en\": \"Jeg spiser meget frugt\" (I eat a lot of fruit). One piece of fruit is \"et stykke frugt\".",
   "related": [
    {
     "da": "et æble",
@@ -1512,6 +1512,7 @@
   }
  },
  "en fugl": {
+  "explanation": "\"En fugl\" means \"a bird\". \"Fuglene synger\" means \"The birds are singing\".",
   "forms": [
    {
     "da": "en fugl",
@@ -1530,7 +1531,6 @@
     "en": "the birds"
    }
   ],
-  "explanation": "\"En fugl\" means \"a bird\". It appears in the saying \"en fugl i hånden er bedre end ti på taget\" (a bird in the hand is better than ten on the roof), the Danish version of \"a bird in the hand is worth two in the bush\".",
   "related": [
    {
     "da": "et dyr",
@@ -1555,6 +1555,7 @@
   }
  },
  "en fætter": {
+  "explanation": "\"En fætter\" means \"a male cousin\", the son of your aunt or uncle. Danish has a separate word for a female cousin, \"en kusine\", while English uses \"cousin\" for both.",
   "forms": [
    {
     "da": "en fætter",
@@ -1573,7 +1574,6 @@
     "en": "the male cousins"
    }
   ],
-  "explanation": "\"En fætter\" means \"a male cousin\", the son of your aunt or uncle. Danish has a separate word for a female cousin, \"en kusine\", while English uses \"cousin\" for both.",
   "related": [
    {
     "da": "en kusine",
@@ -1598,6 +1598,7 @@
   }
  },
  "en fødselsdag": {
+  "explanation": "\"En fødselsdag\" means \"a birthday\". The usual greeting is \"Tillykke med fødselsdagen!\" (Happy birthday!). Danes say \"Jeg har fødselsdag\" (literally \"I have birthday\") where English says \"It is my birthday\".",
   "forms": [
    {
     "da": "en fødselsdag",
@@ -1616,7 +1617,6 @@
     "en": "the birthdays"
    }
   ],
-  "explanation": "\"En fødselsdag\" means \"a birthday\". The usual greeting is \"Tillykke med fødselsdagen!\" (Happy birthday!). Danes say \"Jeg har fødselsdag\" (literally \"I have birthday\") where English says \"It is my birthday\".",
   "related": [
    {
     "da": "en gave",
@@ -1627,8 +1627,8 @@
     "en": "a cake"
    },
    {
-    "da": "et år",
-    "en": "a year"
+    "da": "en fest",
+    "en": "a party"
    },
    {
     "da": "tillykke",
@@ -1641,6 +1641,7 @@
   }
  },
  "en fødselsdagsfest": {
+  "explanation": "\"En fødselsdagsfest\" means \"a birthday party\". It is built from \"fødselsdag\" (birthday) and \"fest\" (party).",
   "forms": [
    {
     "da": "en fødselsdagsfest",
@@ -1659,7 +1660,6 @@
     "en": "the birthday parties"
    }
   ],
-  "explanation": "\"En fødselsdagsfest\" means \"a birthday party\". It is built from \"fødselsdag\" (birthday) and \"fest\" (party).",
   "related": [
    {
     "da": "en fest",
@@ -1684,6 +1684,7 @@
   }
  },
  "en fødselsdagsgave": {
+  "explanation": "\"En fødselsdagsgave\" means \"a birthday present\". It is built from \"fødselsdag\" (birthday) and \"gave\" (gift).",
   "forms": [
    {
     "da": "en fødselsdagsgave",
@@ -1702,7 +1703,6 @@
     "en": "the birthday presents"
    }
   ],
-  "explanation": "\"En fødselsdagsgave\" means \"a birthday present\". It is built from \"fødselsdag\" (birthday) and \"gave\" (gift).",
   "related": [
    {
     "da": "en gave",
@@ -1727,6 +1727,7 @@
   }
  },
  "en fødselsdato": {
+  "explanation": "\"En fødselsdato\" means \"a date of birth\", the day, month and year you were born. It is not the same as \"en fødselsdag\" (a birthday), the day you celebrate each year.",
   "forms": [
    {
     "da": "en fødselsdato",
@@ -1745,7 +1746,6 @@
     "en": "the dates of birth"
    }
   ],
-  "explanation": "\"En fødselsdato\" means \"a date of birth\", the day, month and year you were born. It is not the same as \"en fødselsdag\" (a birthday), the day you celebrate each year.",
   "related": [
    {
     "da": "en fødselsdag",
@@ -1770,6 +1770,7 @@
   }
  },
  "et fly": {
+  "explanation": "\"Et fly\" means \"a plane\", short for \"en flyvemaskine\" (an airplane).",
   "forms": [
    {
     "da": "et fly",
@@ -1788,7 +1789,6 @@
     "en": "the planes"
    }
   ],
-  "explanation": "\"Et fly\" means \"a plane\". \"En flyvemaskine\" (an airplane) also exists, but it is longer and \"et fly\" is the everyday word.",
   "related": [
    {
     "da": "en lufthavn",
@@ -1813,6 +1813,7 @@
   }
  },
  "et fornavn": {
+  "explanation": "\"Et fornavn\" means \"a first name\", the name you are given at birth, before the family name. It is made of \"for\" (before) and \"et navn\" (a name).",
   "forms": [
    {
     "da": "et fornavn",
@@ -1831,7 +1832,6 @@
     "en": "the first names"
    }
   ],
-  "explanation": "\"Et fornavn\" means \"a first name\", the name you are given at birth, before the family name. It is made of \"for\" (before) and \"et navn\" (a name).",
   "related": [
    {
     "da": "et efternavn",
@@ -1846,8 +1846,8 @@
     "en": "a name"
    },
    {
-    "da": "en fødselsdato",
-    "en": "a date of birth"
+    "da": "at hedde",
+    "en": "to be called"
    }
   ],
   "sentence": {
@@ -1856,6 +1856,7 @@
   }
  },
  "et forår": {
+  "explanation": "\"Et forår\" means \"a spring\", the season between winter and summer when the flowers come out. \"Om foråret blomstrer træerne\" means \"In spring the trees blossom\".",
   "forms": [
    {
     "da": "et forår",
@@ -1870,7 +1871,6 @@
     "en": "in the spring"
    }
   ],
-  "explanation": "\"Et forår\" means \"a spring\", the season between winter and summer when the flowers come out. \"Om foråret blomstrer træerne\" means \"In spring the trees blossom\".",
   "related": [
    {
     "da": "en sommer",
@@ -1895,6 +1895,7 @@
   }
  },
  "et får": {
+  "explanation": "\"Et får\" means \"a sheep\". Do not mix it up with \"får\" from \"at få\" (to get): \"Han får en gave\" means \"He gets a gift\".",
   "forms": [
    {
     "da": "et får",
@@ -1906,14 +1907,13 @@
    },
    {
     "da": "får",
-    "en": "sheep (several)"
+    "en": "sheep (more than one)"
    },
    {
     "da": "fårene",
-    "en": "the sheep (the ones)"
+    "en": "the sheep (more than one)"
    }
   ],
-  "explanation": "\"Et får\" means \"a sheep\". Do not mix it up with \"får\" from \"at få\" (to get): \"Han får en gave\" means \"He gets a gift\".",
   "related": [
    {
     "da": "et lam",
@@ -1938,6 +1938,7 @@
   }
  },
  "et fødested": {
+  "explanation": "\"Et fødested\" means \"a birthplace\", the town or country where someone was born. It is made of \"at føde\" (to give birth) and \"et sted\" (a place).",
   "forms": [
    {
     "da": "et fødested",
@@ -1956,7 +1957,6 @@
     "en": "the birthplaces"
    }
   ],
-  "explanation": "\"Et fødested\" means \"a birthplace\", the town or country where someone was born. It is made of \"at føde\" (to give birth) and \"et sted\" (a place).",
   "related": [
    {
     "da": "en fødselsdato",
@@ -1981,6 +1981,7 @@
   }
  },
  "faktisk": {
+  "explanation": "\"Faktisk\" means \"actually\" or \"in fact\". Use it when the truth is a bit different from what someone thinks: \"Jeg er faktisk dansk\" (I am actually Danish).",
   "forms": [
    {
     "da": "Det er faktisk rigtigt.",
@@ -1995,7 +1996,6 @@
     "en": "Actually, yes."
    }
   ],
-  "explanation": "\"Faktisk\" means \"actually\" or \"in fact\". Use it when the truth is a bit different from what someone thinks: \"Jeg er faktisk dansk\" (I am actually Danish). Alone, it can answer a question: \"Faktisk, ja\" (Actually, yes).",
   "related": [
    {
     "da": "virkelig",
@@ -2020,6 +2020,7 @@
   }
  },
  "fantastisk": {
+  "explanation": "\"Fantastisk\" means \"fantastic\". It is stronger than \"god\" (good), so save it for something really great.",
   "forms": [
    {
     "da": "en fantastisk dag",
@@ -2034,7 +2035,6 @@
     "en": "fantastic days"
    }
   ],
-  "explanation": "\"Fantastisk\" means \"fantastic\". It is stronger than \"god\" (good), so save it for something really great.",
   "related": [
    {
     "da": "super",
@@ -2059,6 +2059,7 @@
   }
  },
  "farlig": {
+  "explanation": "\"Farlig\" means \"dangerous\" and comes from \"fare\" (danger). \"Livsfarlig\" means \"life-threatening\".",
   "forms": [
    {
     "da": "en farlig vej",
@@ -2073,7 +2074,6 @@
     "en": "dangerous roads"
    }
   ],
-  "explanation": "\"Farlig\" means \"dangerous\" and comes from \"fare\" (danger). \"Livsfarlig\" means \"life-threatening\".",
   "related": [
    {
     "da": "en fare",
@@ -2098,6 +2098,7 @@
   }
  },
  "farvel": {
+  "explanation": "\"Farvel\" means \"goodbye\". It sounds more final than \"hej hej\" (bye bye) or \"vi ses\" (see you), which Danes use for everyday goodbyes.",
   "forms": [
    {
     "da": "Farvel!",
@@ -2112,7 +2113,6 @@
     "en": "a farewell"
    }
   ],
-  "explanation": "\"Farvel\" means \"goodbye\". It sounds more final than \"hej hej\" (bye bye) or \"vi ses\" (see you), which Danes use for everyday goodbyes. Use \"farvel\" when you will not see the person for a while.",
   "related": [
    {
     "da": "hej hej",
@@ -2137,6 +2137,7 @@
   }
  },
  "fattig": {
+  "explanation": "\"Fattig\" means \"poor\", with little money, for people and also for countries. \"Stakkels\" also means \"poor\", but in the sense of \"unlucky\": \"stakkels dig\" means \"poor you\".",
   "forms": [
    {
     "da": "en fattig mand",
@@ -2151,7 +2152,6 @@
     "en": "poor people"
    }
   ],
-  "explanation": "\"Fattig\" means \"poor\", with little money, for people and also for countries. \"Stakkels\" also means \"poor\", but in the sense of \"unlucky\": \"stakkels dig\" means \"poor you\".",
   "related": [
    {
     "da": "rig",
@@ -2166,7 +2166,7 @@
     "en": "money"
    },
    {
-    "da": "en fattigdom",
+    "da": "fattigdom",
     "en": "poverty"
    }
   ],
@@ -2176,6 +2176,7 @@
   }
  },
  "februar": {
+  "explanation": "\"Februar\" means \"February\". Month names start with a small letter in Danish: \"i februar\" means \"in February\".",
   "forms": [
    {
     "da": "februar",
@@ -2190,7 +2191,6 @@
     "en": "early in February"
    }
   ],
-  "explanation": "\"Februar\" means \"February\". Month names are written with a small letter in Danish, and the spelling ends in -ar, not -ary: write \"februar\", not \"february\".",
   "related": [
    {
     "da": "januar",
@@ -2215,6 +2215,7 @@
   }
  },
  "fem": {
+  "explanation": "\"Fem\" means \"five\": \"Jeg har fem børn\" means \"I have five children\".",
   "forms": [
    {
     "da": "fem kroner",
@@ -2229,7 +2230,6 @@
     "en": "five o'clock"
    }
   ],
-  "explanation": "\"Fem\" means \"five\": \"fem fingre\" (five fingers). \"Femten\" (fifteen) is built from it, but fifty is not \"femti\": it is \"halvtreds\".",
   "related": [
    {
     "da": "fire",
@@ -2254,6 +2254,7 @@
   }
  },
  "femogtredive": {
+  "explanation": "\"Femogtredive\" means \"thirty-five\". It is literally \"five-and-thirty\": \"fem\" (five), \"og\" (and), \"tredive\" (thirty).",
   "forms": [
    {
     "da": "femogtredive år",
@@ -2268,7 +2269,6 @@
     "en": "thirty-five percent"
    }
   ],
-  "explanation": "\"Femogtredive\" means \"thirty-five\". Danish says the five first: \"fem-og-tredive\" is literally \"five-and-thirty\". The same goes for 25, \"femogtyve\" (five-and-twenty), and 45, \"femogfyrre\" (five-and-forty).",
   "related": [
    {
     "da": "femogtyve",
@@ -2293,6 +2293,7 @@
   }
  },
  "femte": {
+  "explanation": "\"Femte\" means \"fifth\" and is used for order and dates: \"den femte marts\" (the fifth of March). \"Fem\" is the plain number: \"fem dage\" (five days), but \"den femte dag\" (the fifth day).",
   "forms": [
    {
     "da": "femte",
@@ -2307,7 +2308,6 @@
     "en": "the fifth house"
    }
   ],
-  "explanation": "\"Femte\" means \"fifth\" and is used for order and dates: \"den femte marts\" (the fifth of March). \"Fem\" is the plain number: \"fem dage\" (five days), but \"den femte dag\" (the fifth day).",
   "related": [
    {
     "da": "fjerde",
@@ -2332,6 +2332,7 @@
   }
  },
  "femten": {
+  "explanation": "\"Femten\" means \"fifteen\": \"Jeg kommer om femten minutter\" (I am coming in fifteen minutes).",
   "forms": [
    {
     "da": "femten minutter",
@@ -2346,7 +2347,6 @@
     "en": "fifteen kroner"
    }
   ],
-  "explanation": "\"Femten\" means \"fifteen\": \"Jeg kommer om femten minutter\" (I am coming in fifteen minutes). Danes also say \"en kvart\" (a quarter of an hour) for fifteen minutes.",
   "related": [
    {
     "da": "fjorten",
@@ -2371,6 +2371,7 @@
   }
  },
  "fin": {
+  "explanation": "\"Fin\" means \"fine\" or \"nice\". It can also mean \"fancy\" or \"elegant\": \"en fin restaurant\" means \"a fancy restaurant\". \"Fint!\" on its own means \"Great!\" or \"Okay, good!\".",
   "forms": [
    {
     "da": "en fin dag",
@@ -2385,7 +2386,6 @@
     "en": "nice days"
    }
   ],
-  "explanation": "\"Fin\" means \"fine\" or \"nice\". It can also mean \"fancy\" or \"elegant\": \"en fin restaurant\" means \"a fancy restaurant\". \"Fint!\" on its own means \"Great!\" or \"Okay, good!\".",
   "related": [
    {
     "da": "flot",
@@ -2397,7 +2397,7 @@
    },
    {
     "da": "pæn",
-    "en": "nice-looking"
+    "en": "pretty / neat"
    },
    {
     "da": "dejlig",
@@ -2410,6 +2410,7 @@
   }
  },
  "finland": {
+  "explanation": "\"Finland\" means \"Finland\": \"Jeg bor i Finland\" (I live in Finland).",
   "forms": [
    {
     "da": "Finland",
@@ -2424,7 +2425,6 @@
     "en": "to Finland"
    }
   ],
-  "explanation": "\"Finland\" means \"Finland\". It is written with a capital letter, as in English. \"Jeg kommer fra Finland\" means \"I come from Finland\".",
   "related": [
    {
     "da": "en finne",
@@ -2449,6 +2449,7 @@
   }
  },
  "finsk": {
+  "explanation": "\"Finsk\" means \"Finnish\" and describes things from Finland, including the language. It is written with a small letter, even for the language: \"Jeg taler finsk\" means \"I speak Finnish\".",
   "forms": [
    {
     "da": "en finsk bil",
@@ -2463,7 +2464,6 @@
     "en": "Finnish cars"
    }
   ],
-  "explanation": "\"Finsk\" means \"Finnish\" and describes things from Finland, including the language. It is written with a small letter, even for the language: \"Jeg taler finsk\" means \"I speak Finnish\".",
   "related": [
    {
     "da": "Finland",
@@ -2488,6 +2488,7 @@
   }
  },
  "fint": {
+  "explanation": "\"Fint\" means \"fine\" or \"nicely\". It is a common answer to \"Hvordan går det?\" (How is it going?): \"Det går fint\" (It is going fine). Alone, \"Fint!\" means \"Fine!\" and agrees with a plan: \"Skal vi mødes klokken tre?\" \"Fint!\" (\"Shall we meet at three?\" \"Fine!\").",
   "forms": [
    {
     "da": "Det går fint.",
@@ -2502,7 +2503,6 @@
     "en": "Thanks, that is fine."
    }
   ],
-  "explanation": "\"Fint\" means \"fine\" or \"nicely\". It is a common answer to \"Hvordan går det?\" (How is it going?): \"Det går fint\" (It is going fine). Alone, \"Fint!\" means \"Fine!\" and agrees with a plan: \"Skal vi mødes klokken tre?\" \"Fint!\" (\"Shall we meet at three?\" \"Fine!\").",
   "related": [
    {
     "da": "godt",
@@ -2510,7 +2510,7 @@
    },
    {
     "da": "flot",
-    "en": "beautiful / great"
+    "en": "good-looking / great"
    },
    {
     "da": "dårligt",
@@ -2527,6 +2527,7 @@
   }
  },
  "fire": {
+  "explanation": "\"Fire\" means \"four\": \"fire kroner\" (four kroner). Don't mix it up with \"fyrre\" (forty), which looks similar: \"fyrre kroner\" (forty kroner).",
   "forms": [
    {
     "da": "fire æbler",
@@ -2541,7 +2542,6 @@
     "en": "four times"
    }
   ],
-  "explanation": "\"Fire\" means \"four\": \"fire kroner\" (four kroner). Don't mix it up with \"fyrre\" (forty), which looks similar: \"fyrre kroner\" (forty kroner).",
   "related": [
    {
     "da": "tre",
@@ -2566,6 +2566,7 @@
   }
  },
  "fireogtyve": {
+  "explanation": "\"Fireogtyve\" means \"twenty-four\". It is built the other way round from English: \"fire\" (four) + \"og\" (and) + \"tyve\" (twenty), literally \"four-and-twenty\".",
   "forms": [
    {
     "da": "fireogtyve",
@@ -2580,7 +2581,6 @@
     "en": "twenty-four years"
    }
   ],
-  "explanation": "\"Fireogtyve\" means \"twenty-four\". Danish says the four first: \"fire-og-tyve\" is literally \"four-and-twenty\". The same goes for 25, \"femogtyve\" (five-and-twenty), and 26, \"seksogtyve\" (six-and-twenty).",
   "related": [
    {
     "da": "tyve",
@@ -2605,6 +2605,7 @@
   }
  },
  "firs": {
+  "explanation": "\"Firs\" means \"eighty\": \"firs kroner\" (eighty kroner). It is short for \"firsindstyve\", literally \"four times twenty\".",
   "forms": [
    {
     "da": "firs kroner",
@@ -2615,11 +2616,10 @@
     "en": "eighty years"
    },
    {
-    "da": "enogfirs",
-    "en": "eighty-one"
+    "da": "firs grader",
+    "en": "eighty degrees"
    }
   ],
-  "explanation": "\"Firs\" means \"eighty\": \"firs kroner\" (eighty kroner). Danish counts it as four twenties: \"firs\" is short for \"firsindstyve\" (four times twenty). Sixty works the same way: \"treds\" is three twenties.",
   "related": [
    {
     "da": "halvfjerds",
@@ -2644,6 +2644,7 @@
   }
  },
  "fjerde": {
+  "explanation": "\"Fjerde\" means \"fourth\" and is used for order and dates: \"den fjerde maj\" (the fourth of May). \"Fire\" is the plain number: \"fire dage\" (four days), but \"den fjerde dag\" (the fourth day).",
   "forms": [
    {
     "da": "fjerde",
@@ -2658,7 +2659,6 @@
     "en": "the fourth house"
    }
   ],
-  "explanation": "\"Fjerde\" means \"fourth\" and is used for order and dates: \"den fjerde maj\" (the fourth of May). \"Fire\" is the plain number: \"fire dage\" (four days), but \"den fjerde dag\" (the fourth day).",
   "related": [
    {
     "da": "tredje",
@@ -2683,6 +2683,7 @@
   }
  },
  "fjorten": {
+  "explanation": "\"Fjorten\" means \"fourteen\": \"fjorten børn\" (fourteen children). Danes say \"fjorten dage\" (fourteen days) for \"two weeks\": \"Vi ses om fjorten dage\" (See you in two weeks).",
   "forms": [
    {
     "da": "fjorten dage",
@@ -2697,7 +2698,6 @@
     "en": "fourteen children"
    }
   ],
-  "explanation": "\"Fjorten\" means \"fourteen\": \"fjorten børn\" (fourteen children). Danes say \"fjorten dage\" (fourteen days) for \"two weeks\": \"Vi ses om fjorten dage\" (See you in two weeks).",
   "related": [
    {
     "da": "tretten",
@@ -2718,10 +2718,11 @@
   ],
   "sentence": {
    "da": "Vi tager på ferie i **fjorten** dage.",
-   "en": "We're going on holiday for two weeks."
+   "en": "We are going on holiday for fourteen days (two weeks)."
   }
  },
  "flere": {
+  "explanation": "\"Flere\" means \"more\" or \"several\", for things you can count one by one: \"Jeg vil have flere kager\" (I want more cakes). For something you can't count, use \"mere\": \"Jeg vil have mere kage\" (I want more cake), \"mere vand\" (more water).",
   "forms": [
    {
     "da": "flere bøger",
@@ -2736,7 +2737,6 @@
     "en": "I want more."
    }
   ],
-  "explanation": "\"Flere\" means \"more\" or \"several\", for things you can count one by one: \"Jeg vil have flere kager\" (I want more cakes). For something you can't count, use \"mere\": \"Jeg vil have mere kage\" (I want more cake), \"mere vand\" (more water).",
   "related": [
    {
     "da": "mere",
@@ -2761,6 +2761,7 @@
   }
  },
  "flot": {
+  "explanation": "\"Flot\" means \"good-looking\" or \"impressive\", for people, clothes, places and even results. Saying \"Flot!\" to someone means \"Well done!\".",
   "forms": [
    {
     "da": "en flot mand",
@@ -2775,7 +2776,6 @@
     "en": "nice-looking houses"
    }
   ],
-  "explanation": "\"Flot\" means \"good-looking\" or \"impressive\", for people, clothes, places and even results. Saying \"Flot!\" to someone means \"Well done!\".",
   "related": [
    {
     "da": "køn",
@@ -2800,6 +2800,7 @@
   }
  },
  "fløde": {
+  "explanation": "\"Fløde\" means \"cream\". \"Piskefløde\" means \"whipping cream\" and is made of \"piske\" (to whip) and \"fløde\".",
   "forms": [
    {
     "da": "fløde",
@@ -2814,7 +2815,6 @@
     "en": "coffee with cream"
    }
   ],
-  "explanation": "\"Fløde\" means \"cream\", the thick, fatty part of milk. \"Piskefløde\" means \"whipping cream\" and is made of \"piske\" (to whip) and \"fløde\".",
   "related": [
    {
     "da": "mælk",
@@ -2839,6 +2839,7 @@
   }
  },
  "fodbold": {
+  "explanation": "\"Fodbold\" means \"soccer\". The game has no \"en\" in front: \"Jeg spiller fodbold\" means \"I play soccer\". \"En fodbold\" is the ball.",
   "forms": [
    {
     "da": "en fodbold",
@@ -2846,14 +2847,13 @@
    },
    {
     "da": "fodbolden",
-    "en": "the soccer / the football"
+    "en": "the soccer ball"
    },
    {
     "da": "Jeg elsker fodbold.",
     "en": "I love soccer."
    }
   ],
-  "explanation": "\"Fodbold\" means \"soccer\" (called \"football\" in British English). The game has no \"en\" in front: \"Jeg spiller fodbold\" means \"I play soccer\".",
   "related": [
    {
     "da": "en bold",
@@ -2878,6 +2878,7 @@
   }
  },
  "for": {
+  "explanation": "\"For\" means \"for\", \"too\" or \"ago\", depending on the sentence. Compare \"Suppen er varm\" (The soup is hot) with \"Suppen er for varm\" (The soup is too hot). With \"siden\" (ago) it counts back in time: \"for to dage siden\" (two days ago). For a gift, Danish usually says \"til\": \"en gave til dig\" (a gift for you).",
   "forms": [
    {
     "da": "for dig",
@@ -2892,7 +2893,6 @@
     "en": "two days ago"
    }
   ],
-  "explanation": "\"For\" means \"for\", \"too\" or \"ago\", depending on the sentence. Compare \"Suppen er varm\" (The soup is hot) with \"Suppen er for varm\" (The soup is too hot). With \"siden\" it counts back in time: \"for to dage siden\" (two days ago). For a gift, Danish usually says \"til\": \"en gave til dig\" (a gift for you).",
   "related": [
    {
     "da": "til",
@@ -2917,6 +2917,7 @@
   }
  },
  "for eksempel": {
+  "explanation": "\"For eksempel\" means \"for example\": \"Jeg spiser meget frugt, for eksempel bananer\" (I eat a lot of fruit, for example bananas).",
   "forms": [
    {
     "da": "for eksempel",
@@ -2931,7 +2932,6 @@
     "en": "We can meet, for example tomorrow."
    }
   ],
-  "explanation": "\"For eksempel\" means \"for example\". It goes right before the example: \"Jeg spiser meget frugt, for eksempel bananer\" (I eat a lot of fruit, for example bananas). In writing it is often shortened to \"fx\" (e.g.).",
   "related": [
    {
     "da": "fx",
@@ -2942,16 +2942,17 @@
     "en": "an example"
    },
    {
-    "da": "nemlig",
-    "en": "namely, indeed"
+    "da": "eksempelvis",
+    "en": "for instance"
    }
   ],
   "sentence": {
    "da": "Jeg kan lide mange sporter, **for eksempel** fodbold.",
-   "en": "I like many sports, for example football."
+   "en": "I like many sports, for example soccer."
   }
  },
  "for pokker": {
+  "explanation": "\"For pokker\" means \"darn it\" or \"for heaven's sake\". It is a mild thing to say when something annoying or surprising happens.",
   "forms": [
    {
     "da": "For pokker, jeg har glemt nøglen!",
@@ -2966,7 +2967,6 @@
     "en": "Well, darn it!"
    }
   ],
-  "explanation": "\"For pokker\" is a mild exclamation like \"darn it\" or \"for heaven's sake\", used when something annoying or surprising happens.",
   "related": [
    {
     "da": "for søren",
@@ -2977,8 +2977,8 @@
     "en": "ouch"
    },
    {
-    "da": "uheldigvis",
-    "en": "unfortunately"
+    "da": "du godeste",
+    "en": "goodness me"
    },
    {
     "da": "hold da op",
@@ -2991,6 +2991,7 @@
   }
  },
  "foran": {
+  "explanation": "\"Foran\" means \"in front of\". Compare \"Jeg står foran døren\" (I stand in front of the door) with \"Jeg står bag døren\" (I stand behind the door). \"Før\" (before) is only for time, not place: \"før klokken fem\" (before five o'clock).",
   "forms": [
    {
     "da": "foran huset",
@@ -3005,7 +3006,6 @@
     "en": "Go first / go in front."
    }
   ],
-  "explanation": "\"Foran\" means \"in front of\". Compare \"Bilen holder foran huset\" (The car is parked in front of the house) with \"Cyklen står bag huset\" (The bike is behind the house). \"Før\" (before) is only for time, not place: \"før klokken fem\" (before five o'clock).",
   "related": [
    {
     "da": "bag",
@@ -3030,6 +3030,7 @@
   }
  },
  "forbi": {
+  "explanation": "\"Forbi\" means \"past\" or \"by\". \"Han gik forbi huset\" means \"He walked past the house\" (he did not stop). It also means \"over\": \"Sommeren er forbi\" (The summer is over). \"Kom forbi i aften!\" means \"Drop by tonight!\".",
   "forms": [
    {
     "da": "Gå forbi!",
@@ -3044,7 +3045,6 @@
     "en": "The bus drove past."
    }
   ],
-  "explanation": "\"Forbi\" means \"past\" or \"by\". \"Han gik forbi huset\" means \"He walked past the house\" (he did not stop). It also means \"over\": \"Sommeren er forbi\" (The summer is over). \"Kom forbi i aften!\" means \"Drop by tonight!\".",
   "related": [
    {
     "da": "igennem",
@@ -3069,6 +3069,7 @@
   }
  },
  "fordi": {
+  "explanation": "\"Fordi\" means \"because\". It answers \"Hvorfor?\" (Why?): \"Hvorfor er du træt?\" (Why are you tired?) - \"Fordi jeg sover for lidt\" (Because I sleep too little). Do not mix it up with \"derfor\" (that is why): \"Jeg er træt, derfor går jeg i seng\" (I am tired, that is why I go to bed).",
   "forms": [
    {
     "da": "fordi jeg er træt",
@@ -3083,7 +3084,6 @@
     "en": "Why? Because..."
    }
   ],
-  "explanation": "\"Fordi\" means \"because\". It answers \"Hvorfor?\" (Why?): \"Hvorfor er du træt?\" (Why are you tired?) - \"Fordi jeg sover for lidt\" (Because I sleep too little). After \"fordi\", \"ikke\" (not) comes before the verb: \"Jeg kan ikke komme\" (I can't come), but \"fordi jeg ikke kan komme\" (because I can't come). Do not mix it up with \"derfor\" (that is why): \"Jeg er træt, derfor går jeg i seng\" (I am tired, that is why I go to bed).",
   "related": [
    {
     "da": "hvorfor",
@@ -3091,7 +3091,7 @@
    },
    {
     "da": "derfor",
-    "en": "therefore"
+    "en": "that is why"
    },
    {
     "da": "på grund af",
@@ -3108,6 +3108,7 @@
   }
  },
  "forkert": {
+  "explanation": "\"Forkert\" means \"wrong\" or \"incorrect\", for answers, directions, numbers or choices. To say you made a mistake, say \"Jeg tog fejl\" (I was mistaken).",
   "forms": [
    {
     "da": "en forkert vej",
@@ -3122,7 +3123,6 @@
     "en": "wrong answers"
    }
   ],
-  "explanation": "\"Forkert\" means \"wrong\" or \"incorrect\", for answers, directions, numbers or choices. To say you made a mistake, say \"Jeg tog fejl\" (I was mistaken).",
   "related": [
    {
     "da": "rigtig",
@@ -3147,6 +3147,7 @@
   }
  },
  "forkølet": {
+  "explanation": "\"Forkølet\" means \"having a cold\". \"Jeg er forkølet\" means \"I have a cold\". It is milder than \"syg\" (sick).",
   "forms": [
    {
     "da": "en forkølet dreng",
@@ -3161,7 +3162,6 @@
     "en": "children with colds"
    }
   ],
-  "explanation": "\"Forkølet\" means \"having a cold\". \"Jeg er forkølet\" means \"I have a cold\", literally \"I am colded\". It is milder than \"syg\" (sick).",
   "related": [
    {
     "da": "en forkølelse",
@@ -3186,6 +3186,7 @@
   }
  },
  "forsinket": {
+  "explanation": "\"Forsinket\" means \"delayed\" or \"late\", mostly for trains, buses and planes. About yourself you can also say \"Jeg er forsinket\" (I am late).",
   "forms": [
    {
     "da": "en forsinket bus",
@@ -3200,7 +3201,6 @@
     "en": "delayed planes"
    }
   ],
-  "explanation": "\"Forsinket\" means \"delayed\" or \"late\", mostly for trains, buses and planes. About yourself you can also say \"Jeg er forsinket\" (I am late).",
   "related": [
    {
     "da": "aflyst",
@@ -3225,6 +3225,7 @@
   }
  },
  "fortroligt": {
+  "explanation": "\"Fortroligt\" means \"confidential\" or \"in confidence\": \"Mødet er fortroligt\" (The meeting is confidential).",
   "forms": [
    {
     "da": "Det er fortroligt",
@@ -3239,7 +3240,6 @@
     "en": "a confidential document"
    }
   ],
-  "explanation": "\"Fortroligt\" means \"confidentially\" or \"in confidence\". It is for things you tell one person and they must keep to themselves: \"Jeg fortæller dig det fortroligt\" (I am telling you this in confidence). It also means \"confidential\": \"Dokumentet er fortroligt\" (The document is confidential).",
   "related": [
    {
     "da": "fortrolig",
@@ -3250,8 +3250,8 @@
     "en": "a secret"
    },
    {
-    "da": "tavshedspligt",
-    "en": "duty of confidentiality"
+    "da": "hemmelig",
+    "en": "secret"
    },
    {
     "da": "privat",
@@ -3264,6 +3264,7 @@
   }
  },
  "forældre": {
+  "explanation": "\"Forældre\" means \"parents\", mother and father together. For just one parent, say \"en forælder\" (a parent).",
   "forms": [
    {
     "da": "forældre",
@@ -3278,7 +3279,6 @@
     "en": "my parents"
    }
   ],
-  "explanation": "\"Forældre\" means \"parents\", mother and father together. It is only used for more than one person, so there is no \"en\" or \"et\" in front.",
   "related": [
    {
     "da": "en mor",
@@ -3303,6 +3303,7 @@
   }
  },
  "fra": {
+  "explanation": "\"Fra\" means \"from\". It works for places, people and times: \"Jeg er fra Danmark\" (I am from Denmark), \"fra mandag til fredag\" (from Monday to Friday). Compare \"en gave til mig\" (a gift for me) with \"en gave fra mig\" (a gift from me).",
   "forms": [
    {
     "da": "fra Danmark",
@@ -3317,11 +3318,10 @@
     "en": "a gift from me"
    }
   ],
-  "explanation": "\"Fra\" means \"from\". It works for places, people and times: \"Jeg er fra Danmark\" (I am from Denmark), \"en gave fra mig\" (a gift from me), \"fra mandag til fredag\" (from Monday to Friday). Its opposite is \"til\" (to): \"en gave fra mig\" is from me, \"en gave til mig\" is for me.",
   "related": [
    {
     "da": "til",
-    "en": "to"
+    "en": "to, for"
    },
    {
     "da": "af",
@@ -3332,8 +3332,8 @@
     "en": "out of"
    },
    {
-    "da": "hos",
-    "en": "at someone's place"
+    "da": "i",
+    "en": "in"
    }
   ],
   "sentence": {
@@ -3342,6 +3342,7 @@
   }
  },
  "frankrig": {
+  "explanation": "\"Frankrig\" means \"France\": \"Jeg bor i Frankrig\" means \"I live in France\".",
   "forms": [
    {
     "da": "Frankrig",
@@ -3356,7 +3357,6 @@
     "en": "to France"
    }
   ],
-  "explanation": "\"Frankrig\" means \"France\". It is written with a capital letter and has no word like \"the\" in front. The spelling ends in -rig, not -ce: \"Jeg bor i Frankrig\" means \"I live in France\".",
   "related": [
    {
     "da": "en franskmand",
@@ -3381,6 +3381,7 @@
   }
  },
  "fransk": {
+  "explanation": "\"Fransk\" means \"French\", for things from France and for the language: \"Jeg taler fransk\" means \"I speak French\".",
   "forms": [
    {
     "da": "en fransk ost",
@@ -3395,7 +3396,6 @@
     "en": "French cheeses"
    }
   ],
-  "explanation": "\"Fransk\" means \"French\", for things from France and for the language. Unlike in English, it has no capital letter: \"Jeg taler fransk\" means \"I speak French\".",
   "related": [
    {
     "da": "Frankrig",
@@ -3420,29 +3420,29 @@
   }
  },
  "franskbrød": {
+  "explanation": "\"Et franskbrød\" means \"a white loaf\", the ordinary light kind. It is made of \"fransk\" (French) and \"brød\" (bread). \"Rugbrød\" (rye bread) is the dark, heavy kind.",
   "forms": [
    {
     "da": "et franskbrød",
-    "en": "a white bread"
+    "en": "a white loaf"
    },
    {
     "da": "franskbrødet",
-    "en": "the white bread"
+    "en": "the white loaf"
    },
    {
     "da": "franskbrød",
-    "en": "white breads"
+    "en": "white loaves"
    },
    {
     "da": "franskbrødene",
-    "en": "the white breads"
+    "en": "the white loaves"
    }
   ],
-  "explanation": "\"Franskbrød\" means \"white bread\", usually a light loaf made from wheat flour. It is made of \"fransk\" (French) and \"brød\" (bread). \"Rugbrød\" (rye bread) is the dark, heavy kind.",
   "related": [
    {
     "da": "et brød",
-    "en": "a bread"
+    "en": "a loaf of bread"
    },
    {
     "da": "rugbrød",
@@ -3463,6 +3463,7 @@
   }
  },
  "fredag": {
+  "explanation": "\"Fredag\" means \"Friday\". \"På fredag\" means \"on Friday\" (the coming one) and \"om fredagen\" means \"on Fridays\" (every Friday). Day names are written with a small letter.",
   "forms": [
    {
     "da": "en fredag",
@@ -3481,7 +3482,6 @@
     "en": "the Fridays"
    }
   ],
-  "explanation": "\"Fredag\" means \"Friday\". \"På fredag\" means \"on Friday\" (the coming one) and \"om fredagen\" means \"on Fridays\" (every Friday). Day names are written with a small letter.",
   "related": [
    {
     "da": "en torsdag",
@@ -3506,6 +3506,7 @@
   }
  },
  "fri": {
+  "explanation": "\"Fri\" means \"free\" and also \"off\" from work or school: \"Jeg har fri\" means \"I am off work\". It does not mean free of charge; for that use \"gratis\".",
   "forms": [
    {
     "da": "en fri dag",
@@ -3520,7 +3521,6 @@
     "en": "days off"
    }
   ],
-  "explanation": "\"Fri\" means \"free\", as in not tied up, and also \"off\" from work or school: \"Jeg har fri\" means \"I am off work\". It does not mean free of charge; for that use \"gratis\".",
   "related": [
    {
     "da": "gratis",
@@ -3545,6 +3545,7 @@
   }
  },
  "frisk": {
+  "explanation": "\"Frisk\" means \"fresh\", for food and air. For a person it means \"healthy\": \"Jeg er frisk\" means \"I am well\".",
   "forms": [
    {
     "da": "en frisk salat",
@@ -3559,7 +3560,6 @@
     "en": "fresh vegetables"
    }
   ],
-  "explanation": "\"Frisk\" means \"fresh\", and it is used for food and air. It also describes a person who is healthy: \"Jeg er frisk\" means \"I am well\".",
   "related": [
    {
     "da": "syg",
@@ -3570,8 +3570,8 @@
     "en": "well / healthy"
    },
    {
-    "da": "gammel",
-    "en": "old"
+    "da": "ny",
+    "en": "new"
    },
    {
     "da": "frisk luft",
@@ -3584,9 +3584,10 @@
   }
  },
  "fritid": {
+  "explanation": "\"Fritid\" means \"free time\", the time when you are not at work or school. You say \"Jeg har ikke meget fritid\" (I do not have much free time).",
   "forms": [
    {
-    "da": "en fritid",
+    "da": "fritid",
     "en": "free time"
    },
    {
@@ -3598,7 +3599,6 @@
     "en": "in my free time"
    }
   ],
-  "explanation": "\"Fritid\" means \"free time\", the time when you are not at work or school. You say \"Jeg har ikke meget fritid\" (I do not have much free time).",
   "related": [
    {
     "da": "en hobby",
@@ -3623,6 +3623,7 @@
   }
  },
  "frokost": {
+  "explanation": "\"Frokost\" means \"lunch\", the meal around midday. \"Hvad skal vi have til frokost?\" means \"What are we having for lunch?\".",
   "forms": [
    {
     "da": "frokost",
@@ -3637,7 +3638,6 @@
     "en": "for lunch"
    }
   ],
-  "explanation": "\"Frokost\" means \"lunch\", the meal around midday. You say \"spise frokost\" (to eat lunch) with nothing in front of \"frokost\".",
   "related": [
    {
     "da": "morgenmad",
@@ -3662,6 +3662,7 @@
   }
  },
  "frossen": {
+  "explanation": "\"Frossen\" means \"frozen\", food that has been kept so cold that it is hard. For a person who feels cold, do not use it: Danes say \"jeg fryser\" (I am cold, literally \"I freeze\").",
   "forms": [
    {
     "da": "en frossen pizza",
@@ -3669,14 +3670,13 @@
    },
    {
     "da": "et frosset brød",
-    "en": "a frozen bread"
+    "en": "a frozen loaf of bread"
    },
    {
     "da": "frosne grøntsager",
     "en": "frozen vegetables"
    }
   ],
-  "explanation": "\"Frossen\" means \"frozen\", food that has been kept so cold that it is hard. For a person who feels cold, do not use it: Danes say \"jeg fryser\" (I am cold, literally \"I freeze\").",
   "related": [
    {
     "da": "en fryser",
@@ -3701,6 +3701,7 @@
   }
  },
  "fuld": {
+  "explanation": "\"Fuld\" means \"full\", for a glass, a bus or a room. When it describes a person, it means \"drunk\": \"Han er fuld\" means \"He is drunk\". To say you are full after a meal, use \"mæt\" (full after eating).",
   "forms": [
    {
     "da": "en fuld flaske",
@@ -3715,7 +3716,6 @@
     "en": "full bottles"
    }
   ],
-  "explanation": "\"Fuld\" means \"full\", for a glass, a bus or a room. When it describes a person, it means \"drunk\": \"Han er fuld\" means \"He is drunk\". To say you are full after a meal, use \"mæt\" (full after eating).",
   "related": [
    {
     "da": "tom",
@@ -3740,6 +3740,7 @@
   }
  },
  "fyrre": {
+  "explanation": "\"Fyrre\" means \"forty\". Do not mix it up with \"fire\" (four): \"fire kroner\" is four kroner, \"fyrre kroner\" is forty kroner. For 41 you say \"enogfyrre\", literally \"one-and-forty\".",
   "forms": [
    {
     "da": "fyrre kroner",
@@ -3754,7 +3755,6 @@
     "en": "forty-one"
    }
   ],
-  "explanation": "\"Fyrre\" means \"forty\". Do not mix it up with \"fire\" (four): \"fire kroner\" is four kroner, \"fyrre kroner\" is forty kroner. For 41, the ones come first: \"enogfyrre\" is literally \"one-and-forty\".",
   "related": [
    {
     "da": "tredive",
@@ -3769,8 +3769,8 @@
     "en": "four"
    },
    {
-    "da": "enogfyrre",
-    "en": "forty-one"
+    "da": "tyve",
+    "en": "twenty"
    }
   ],
   "sentence": {
@@ -3779,6 +3779,7 @@
   }
  },
  "færdig": {
+  "explanation": "\"Færdig\" means \"finished\" or \"done\", for example after a meal or at the end of work. Do not mix it up with \"klar\" (ready), which means prepared to start: \"Er du klar?\" (Are you ready?).",
   "forms": [
    {
     "da": "jeg er færdig",
@@ -3793,7 +3794,6 @@
     "en": "finished tasks"
    }
   ],
-  "explanation": "\"Færdig\" means \"finished\" or \"done\". \"Jeg er færdig\" means \"I am done\", for example after a meal or at the end of work. It is not the same as \"klar\" (ready), which means prepared to start.",
   "related": [
    {
     "da": "klar",
@@ -3808,8 +3808,8 @@
     "en": "unfinished"
    },
    {
-    "da": "begyndelsen",
-    "en": "the beginning"
+    "da": "at begynde",
+    "en": "to begin"
    }
   ],
   "sentence": {
@@ -3818,6 +3818,7 @@
   }
  },
  "færdig med": {
+  "explanation": "\"Færdig med\" means \"finished with\". After \"med\" (with) you put the thing (\"færdig med lektierne\", finished with the homework) or an action starting with \"at\" (\"færdig med at spise\", finished eating).",
   "forms": [
    {
     "da": "Jeg er færdig med arbejdet.",
@@ -3832,14 +3833,13 @@
     "en": "We are done eating."
    }
   ],
-  "explanation": "\"Færdig med\" means \"finished with\". After \"med\" (with) you put the thing (\"færdig med lektierne\", finished with the homework) or an action starting with \"at\" (\"færdig med at spise\", finished eating).",
   "related": [
    {
     "da": "at slutte",
     "en": "to end"
    },
    {
-    "da": "begynde",
+    "da": "at begynde",
     "en": "to begin"
    },
    {
@@ -3847,8 +3847,8 @@
     "en": "ready"
    },
    {
-    "da": "travl",
-    "en": "busy"
+    "da": "færdig",
+    "en": "finished"
    }
   ],
   "sentence": {
@@ -3857,6 +3857,7 @@
   }
  },
  "før": {
+  "explanation": "\"Før\" means \"before\" in time. \"Jeg kommer før klokken fem\" (I come before five o'clock), \"Jeg spiser, før du kommer\" (I eat before you come). For place, use \"foran\" (in front of): \"foran huset\" (in front of the house).",
   "forms": [
    {
     "da": "før klokken fem",
@@ -3871,7 +3872,6 @@
     "en": "before you go"
    }
   ],
-  "explanation": "\"Før\" means \"before\" in time. \"Jeg kommer før klokken fem\" (I come before five o'clock), \"Jeg spiser, før du kommer\" (I eat before you come). Its opposite is \"efter\" (after). For place, use \"foran\" (in front of): \"foran huset\" (in front of the house).",
   "related": [
    {
     "da": "efter",
@@ -3896,6 +3896,7 @@
   }
  },
  "først": {
+  "explanation": "\"Først\" means \"first\" or \"not until\". \"Først spiser vi, så går vi\" (First we eat, then we go). \"Jeg kommer først i morgen\" means \"I am not coming until tomorrow\". Do not mix it up with \"første\" (the first one): \"den første dag\" (the first day).",
   "forms": [
    {
     "da": "først og fremmest",
@@ -3910,7 +3911,6 @@
     "en": "You go first."
    }
   ],
-  "explanation": "\"Først\" means \"first\" or \"not until\". \"Først spiser vi, så går vi\" (First we eat, then we go). \"Jeg kommer først i morgen\" means \"I am not coming until tomorrow\". Do not mix it up with \"første\" (the first one): \"den første dag\" (the first day).",
   "related": [
    {
     "da": "sidst",
@@ -3935,6 +3935,7 @@
   }
  },
  "første": {
+  "explanation": "\"Første\" means \"first\" in a list or order. It is used in dates: \"den første maj\" (the first of May), written \"1. maj\". Do not mix it up with \"først\", which tells when something happens: \"Først spiser vi\" (First we eat).",
   "forms": [
    {
     "da": "første",
@@ -3949,7 +3950,6 @@
     "en": "the first house"
    }
   ],
-  "explanation": "\"Første\" means \"first\", for one thing in a row: \"den første dag\" (the first day), \"det første hus\" (the first house). It is used in dates: \"den første maj\" (the first of May), written \"1. maj\". Do not mix it up with \"først\", which tells when something happens: \"Først spiser vi\" (First we eat).",
   "related": [
    {
     "da": "sidste",

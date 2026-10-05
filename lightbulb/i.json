@@ -1,5 +1,6 @@
 {
  "I": {
+  "explanation": "\"I\" means \"you\" when you talk to two or more people. Compare \"Du er min ven\" (You are my friend, one person) with \"I er mine venner\" (You are my friends, a group). It is not \"jeg\" (I), and it is not the small word \"i\" (in): \"I bor i Aarhus\" (You live in Aarhus).",
   "forms": [
    {
     "da": "I er venner.",
@@ -14,7 +15,6 @@
     "en": "Are you (all) coming tomorrow?"
    }
   ],
-  "explanation": "\"I\" means \"you\" when you talk to two or more people. Compare \"Du er min ven\" (You are my friend, one person) with \"I er mine venner\" (You are my friends, a group). It is not \"jeg\" (I), and it is not the small word \"i\" (in): \"I bor i Aarhus\" (You live in Aarhus).",
   "related": [
    {
     "da": "du",
@@ -39,6 +39,7 @@
   }
  },
  "at invitere": {
+  "explanation": "\"At invitere\" means \"to invite\". \"Jeg inviterer dig til min fødselsdag\" means \"I invite you to my birthday\". \"Til\" (to) goes before the event you invite someone to.",
   "forms": [
    {
     "da": "at invitere",
@@ -57,7 +58,6 @@
     "en": "I have invited"
    }
   ],
-  "explanation": "\"At invitere\" means \"to invite\". \"Jeg inviterer dig til min fødselsdag\" means \"I invite you to my birthday\". \"Til\" (to) goes before the event you invite someone to.",
   "related": [
    {
     "da": "en invitation",
@@ -78,6 +78,7 @@
   }
  },
  "en idé": {
+  "explanation": "\"En idé\" means \"an idea\". \"Det er en god idé\" means \"That is a good idea\" and \"Jeg har ingen idé\" means \"I have no idea\".",
   "forms": [
    {
     "da": "en idé",
@@ -96,7 +97,6 @@
     "en": "the ideas"
    }
   ],
-  "explanation": "\"En idé\" means \"an idea\". Two phrases you will often hear are \"Det er en god idé\" (That is a good idea) and \"Jeg har ingen idé\" (I have no idea).",
   "related": [
    {
     "da": "en plan",
@@ -121,6 +121,7 @@
   }
  },
  "en indkøbskurv": {
+  "explanation": "\"En indkøbskurv\" means \"a shopping basket\", the kind you carry by hand in a shop. A bigger one on wheels is \"en indkøbsvogn\" (a shopping cart). The word is built from \"indkøb\" (shopping) and \"en kurv\" (a basket).",
   "forms": [
    {
     "da": "en indkøbskurv",
@@ -139,7 +140,6 @@
     "en": "the shopping baskets"
    }
   ],
-  "explanation": "\"En indkøbskurv\" means \"a shopping basket\", the kind you carry by hand in a shop. A bigger one on wheels is \"en indkøbsvogn\" (a shopping cart). The word is built from \"indkøb\" (shopping) and \"en kurv\" (a basket).",
   "related": [
    {
     "da": "en indkøbsvogn",
@@ -164,6 +164,7 @@
   }
  },
  "en indkøbspose": {
+  "explanation": "\"En indkøbspose\" means \"a shopping bag\". It is built from \"indkøb\" (shopping) and \"en pose\" (a bag).",
   "forms": [
    {
     "da": "en indkøbspose",
@@ -182,15 +183,14 @@
     "en": "the shopping bags"
    }
   ],
-  "explanation": "\"En indkøbspose\" means \"a shopping bag\", the bag you carry your groceries in. It is built from \"indkøb\" (shopping) and \"en pose\" (a bag).",
   "related": [
    {
     "da": "en pose",
     "en": "a bag"
    },
    {
-    "da": "et indkøb",
-    "en": "a purchase"
+    "da": "indkøb",
+    "en": "shopping"
    },
    {
     "da": "en kurv",
@@ -207,6 +207,7 @@
   }
  },
  "en indkøbsvogn": {
+  "explanation": "\"En indkøbsvogn\" means \"a shopping cart\", the kind on wheels that you push around a supermarket. It is built from \"indkøb\" (shopping) and \"en vogn\" (a cart).",
   "forms": [
    {
     "da": "en indkøbsvogn",
@@ -225,7 +226,6 @@
     "en": "the shopping carts"
    }
   ],
-  "explanation": "\"En indkøbsvogn\" means \"a shopping cart\", the kind on wheels that you push around a supermarket. It is built from \"indkøb\" (shopping) and \"en vogn\" (a cart).",
   "related": [
    {
     "da": "en indkøbskurv",
@@ -236,8 +236,8 @@
     "en": "a supermarket"
    },
    {
-    "da": "pant",
-    "en": "deposit"
+    "da": "at skubbe",
+    "en": "to push"
    },
    {
     "da": "en vogn",
@@ -250,6 +250,7 @@
   }
  },
  "et indkøbscenter": {
+  "explanation": "\"Et indkøbscenter\" means \"a shopping mall\", a large building with many shops. It is made of \"indkøb\" (shopping) and \"et center\" (a center).",
   "forms": [
    {
     "da": "et indkøbscenter",
@@ -268,7 +269,6 @@
     "en": "the shopping malls"
    }
   ],
-  "explanation": "\"Et indkøbscenter\" means \"a shopping mall\", a large building with many shops. It is made of \"indkøb\" (shopping) and \"et center\" (a center).",
   "related": [
    {
     "da": "et supermarked",
@@ -293,6 +293,7 @@
   }
  },
  "i": {
+  "explanation": "\"I\" means \"in\": \"i huset\" (in the house), \"i Danmark\" (in Denmark), \"i juni\" (in June). It is also used for how long something lasts: \"i to timer\" (for two hours). Compare \"på\" (on, at): \"på bordet\" (on the table), \"på Fyn\" (on Funen, an island).",
   "forms": [
    {
     "da": "i huset",
@@ -307,7 +308,6 @@
     "en": "for two hours"
    }
   ],
-  "explanation": "\"I\" means \"in\": \"i huset\" (in the house), \"i Danmark\" (in Denmark), \"i juni\" (in June). It also gives how long: \"i to timer\" (for two hours). Compare \"på\" (on, at): \"på bordet\" (on the table), \"på Fyn\" (on Funen, an island).",
   "related": [
    {
     "da": "på",
@@ -332,6 +332,7 @@
   }
  },
  "i aften": {
+  "explanation": "\"I aften\" means \"this evening\": \"Vi ses i aften\" (See you this evening). Compare \"Jeg ser en film i aften\" (I am watching a film this evening) with \"Jeg så en film i aftes\" (I watched a film last night): \"i aften\" is still to come, \"i aftes\" is over.",
   "forms": [
    {
     "da": "i aften",
@@ -346,7 +347,6 @@
     "en": "See you this evening."
    }
   ],
-  "explanation": "\"I aften\" means \"this evening\": \"Vi ses i aften\" (See you this evening). Compare \"Jeg ser en film i aften\" (I am watching a film this evening) with \"Jeg så en film i aftes\" (I watched a film last night): \"i aften\" is still to come, \"i aftes\" is over.",
   "related": [
    {
     "da": "en aften",
@@ -358,7 +358,7 @@
    },
    {
     "da": "i nat",
-    "en": "tonight"
+    "en": "tonight / last night"
    },
    {
     "da": "i dag",
@@ -371,6 +371,7 @@
   }
  },
  "i aftes": {
+  "explanation": "\"I aftes\" means \"last night\", meaning the evening just gone. Compare \"Jeg så en film i aftes\" (I watched a film last night) with \"Jeg ser en film i aften\" (I am watching a film this evening). For the hours when you were asleep, say \"i nat\": \"Jeg sov dårligt i nat\" (I slept badly last night).",
   "forms": [
    {
     "da": "i aftes",
@@ -385,7 +386,6 @@
     "en": "We ate late last night."
    }
   ],
-  "explanation": "\"I aftes\" means \"last night\", meaning the evening just gone. Compare \"Jeg så en film i aftes\" (I watched a film last night) with \"Jeg ser en film i aften\" (I am watching a film this evening). For the hours when you were asleep, say \"i nat\": \"Jeg sov dårligt i nat\" (I slept badly last night).",
   "related": [
    {
     "da": "i aften",
@@ -410,6 +410,7 @@
   }
  },
  "i dag": {
+  "explanation": "\"I dag\" means \"today\": \"I dag regner det\" (It is raining today).",
   "forms": [
    {
     "da": "i dag",
@@ -424,7 +425,6 @@
     "en": "today and tomorrow"
    }
   ],
-  "explanation": "\"I dag\" means \"today\": \"I dag regner det\" (It is raining today). For the evening of today, say \"i aften\" (this evening).",
   "related": [
    {
     "da": "i morgen",
@@ -444,11 +444,12 @@
    }
   ],
   "sentence": {
-   "da": "Det er sol **i dag**, men i går regnede det.",
-   "en": "It is sunny today, but yesterday it rained."
+   "da": "Solen skinner **i dag**, men i går regnede det.",
+   "en": "The sun is shining today, but yesterday it rained."
   }
  },
  "i eftermiddag": {
+  "explanation": "\"I eftermiddag\" means \"this afternoon\": \"Vi ses i eftermiddag\" (See you this afternoon). For something that happens every afternoon, say \"om eftermiddagen\": \"Jeg læser om eftermiddagen\" (I read in the afternoons).",
   "forms": [
    {
     "da": "i eftermiddag",
@@ -463,7 +464,6 @@
     "en": "What are you doing this afternoon?"
    }
   ],
-  "explanation": "\"I eftermiddag\" means \"this afternoon\": \"Vi ses i eftermiddag\" (See you this afternoon). For something that happens every afternoon, say \"om eftermiddagen\": \"Jeg læser om eftermiddagen\" (I read in the afternoons).",
   "related": [
    {
     "da": "en eftermiddag",
@@ -488,6 +488,7 @@
   }
  },
  "i forgårs": {
+  "explanation": "\"I forgårs\" means \"the day before yesterday\". Count back: \"i dag\" (today), \"i går\" (yesterday), \"i forgårs\".",
   "forms": [
    {
     "da": "i forgårs",
@@ -502,7 +503,6 @@
     "en": "It happened the day before yesterday."
    }
   ],
-  "explanation": "\"I forgårs\" means \"the day before yesterday\". Count back: \"i dag\" (today), \"i går\" (yesterday), \"i forgårs\". \"Jeg var syg i forgårs\" means \"I was sick the day before yesterday\".",
   "related": [
    {
     "da": "i går",
@@ -527,6 +527,7 @@
   }
  },
  "i går": {
+  "explanation": "\"I går\" means \"yesterday\": \"I går regnede det\" (It rained yesterday). Add a time of day for more detail: \"i går aftes\" (last night) and \"i går morges\" (yesterday morning).",
   "forms": [
    {
     "da": "i går",
@@ -537,11 +538,10 @@
     "en": "last night"
    },
    {
-    "da": "i forgårs",
-    "en": "the day before yesterday"
+    "da": "Jeg så ham i går.",
+    "en": "I saw him yesterday."
    }
   ],
-  "explanation": "\"I går\" means \"yesterday\": \"I går regnede det\" (It rained yesterday). For yesterday evening you say \"i går aftes\", and for yesterday morning \"i går morges\".",
   "related": [
    {
     "da": "i dag",
@@ -561,11 +561,12 @@
    }
   ],
   "sentence": {
-   "da": "I dag er det mandag, og det var søndag **i går**.",
+   "da": "I dag er det mandag, og **i går** var det søndag.",
    "en": "Today it is Monday, and yesterday it was Sunday."
   }
  },
  "i morgen": {
+  "explanation": "\"I morgen\" means \"tomorrow\": \"Vi ses i morgen\" (See you tomorrow). It looks like \"i morges\" (this morning, already past), so watch the last letters: \"Jeg har fri i morgen\" (I am off tomorrow) but \"Jeg stod op tidligt i morges\" (I got up early this morning). For tomorrow morning, say \"i morgen tidlig\".",
   "forms": [
    {
     "da": "i morgen",
@@ -580,7 +581,6 @@
     "en": "see you tomorrow"
    }
   ],
-  "explanation": "\"I morgen\" means \"tomorrow\": \"Vi ses i morgen\" (See you tomorrow). It looks like \"i morges\" (this morning, already past), so watch the last letters: \"Jeg har fri i morgen\" (I am off tomorrow) but \"Jeg stod op tidligt i morges\" (I got up early this morning). For tomorrow morning, say \"i morgen tidlig\".",
   "related": [
    {
     "da": "i dag",
@@ -605,6 +605,7 @@
   }
  },
  "i morges": {
+  "explanation": "\"I morges\" means \"this morning\", the morning of today that is already over: \"Hun ringede i morges\" (She called this morning). It looks like \"i morgen\" (tomorrow), so watch the last letters: \"i morges\" is behind you, \"i morgen\" is ahead.",
   "forms": [
    {
     "da": "i morges",
@@ -619,7 +620,6 @@
     "en": "She called this morning."
    }
   ],
-  "explanation": "\"I morges\" means \"this morning\", the morning of today that is already over: \"Hun ringede i morges\" (She called this morning). It looks like \"i morgen\" (tomorrow), so watch the last letters: \"i morges\" is behind you, \"i morgen\" is ahead.",
   "related": [
    {
     "da": "en morgen",
@@ -644,6 +644,7 @@
   }
  },
  "i nat": {
+  "explanation": "\"I nat\" means \"tonight\" or \"last night\", and the rest of the sentence shows which. \"Jeg sov dårligt i nat\" (I slept badly last night) is about the night just gone. \"Jeg sover hos Anna i nat\" (I am sleeping at Anna's tonight) is about the night to come.",
   "forms": [
    {
     "da": "i nat",
@@ -658,7 +659,6 @@
     "en": "I slept badly last night."
    }
   ],
-  "explanation": "\"I nat\" means \"tonight\" or \"last night\", and the rest of the sentence shows which. \"Jeg sov dårligt i nat\" (I slept badly last night) is about the night just gone. \"Jeg sover hos Anna i nat\" (I am sleeping at Anna's tonight) is about the night to come.",
   "related": [
    {
     "da": "en nat",
@@ -683,6 +683,7 @@
   }
  },
  "i nærheden": {
+  "explanation": "\"I nærheden\" means \"nearby\". Add \"af\" (of) and a place to say near that place: \"i nærheden af banegården\" (near the train station).",
   "forms": [
    {
     "da": "i nærheden",
@@ -697,7 +698,6 @@
     "en": "Is there a shop nearby?"
    }
   ],
-  "explanation": "\"I nærheden\" means \"nearby\". Add \"af\" (of) and a place to say near that place: \"i nærheden af banegården\" (near the train station).",
   "related": [
    {
     "da": "tæt på",
@@ -712,16 +712,17 @@
     "en": "right next to"
    },
    {
-    "da": "en nabo",
-    "en": "a neighbour"
+    "da": "nær",
+    "en": "near"
    }
   ],
   "sentence": {
-   "da": "Er der en bank **i nærheden**?",
-   "en": "Is there a bank nearby?"
+   "da": "Jeg er ny her. Er der en bank **i nærheden**?",
+   "en": "I am new here. Is there a bank nearby?"
   }
  },
  "i orden": {
+  "explanation": "\"I orden\" means \"all right\" or \"in order\". \"Det er i orden\" (That is all right) can answer an apology, like \"no problem\". \"Er alt i orden?\" (Is everything all right?) checks that nothing is wrong.",
   "forms": [
    {
     "da": "Det er i orden.",
@@ -736,7 +737,6 @@
     "en": "Everything is in order."
    }
   ],
-  "explanation": "\"I orden\" means \"all right\" or \"in order\". \"Det er i orden\" (That is all right) can answer an apology, like \"no problem\". \"Er alt i orden?\" (Is everything all right?) checks that nothing is wrong.",
   "related": [
    {
     "da": "en orden",
@@ -747,7 +747,7 @@
     "en": "fine"
    },
    {
-    "da": "ingen problem",
+    "da": "ingen problemer",
     "en": "no problem"
    },
    {
@@ -761,6 +761,7 @@
   }
  },
  "i overmorgen": {
+  "explanation": "\"I overmorgen\" means \"the day after tomorrow\". Count forward: \"i dag\" (today), \"i morgen\" (tomorrow), \"i overmorgen\".",
   "forms": [
    {
     "da": "i overmorgen",
@@ -775,7 +776,6 @@
     "en": "I am leaving the day after tomorrow."
    }
   ],
-  "explanation": "\"I overmorgen\" means \"the day after tomorrow\". Count forward: \"i dag\" (today), \"i morgen\" (tomorrow), \"i overmorgen\". \"Jeg rejser i overmorgen\" means \"I am leaving the day after tomorrow\".",
   "related": [
    {
     "da": "i morgen",
@@ -795,11 +795,12 @@
    }
   ],
   "sentence": {
-   "da": "Vores gæster kommer **i overmorgen**.",
-   "en": "Our guests are coming the day after tomorrow."
+   "da": "I dag er det mandag. Vores gæster kommer **i overmorgen**, altså onsdag.",
+   "en": "Today it is Monday. Our guests are coming the day after tomorrow, that is, Wednesday."
   }
  },
  "i skole": {
+  "explanation": "\"I skole\" means \"in school\" or \"at school\", as a pupil with lessons: \"Børnene er i skole\" (The children are at school). \"Jeg skal i skole i dag\" (I am going to school today).",
   "forms": [
    {
     "da": "i skole",
@@ -814,7 +815,6 @@
     "en": "The children are in school."
    }
   ],
-  "explanation": "\"I skole\" means \"in school\" or \"at school\", as a pupil with lessons. Danish leaves out \"the\": \"Børnene er i skole\" (The children are at school). \"Jeg skal i skole i dag\" means \"I am going to school today\".",
   "related": [
    {
     "da": "en skole",
@@ -839,6 +839,7 @@
   }
  },
  "i stykker": {
+  "explanation": "\"I stykker\" means \"broken\", literally \"in pieces\". Use it with \"er\" (is): \"Computeren er i stykker\" (The computer is broken).",
   "forms": [
    {
     "da": "Glasset er i stykker.",
@@ -853,7 +854,6 @@
     "en": "What is broken?"
    }
   ],
-  "explanation": "\"I stykker\" means \"broken\", literally \"in pieces\". Use it with \"er\" (is): \"Computeren er i stykker\" (The computer is broken). It is for things that are physically broken.",
   "related": [
    {
     "da": "at gå i stykker",
@@ -878,6 +878,7 @@
   }
  },
  "i udlandet": {
+  "explanation": "\"I udlandet\" means \"abroad\", in another country: \"Jeg bor i udlandet\" (I live abroad). To go there say \"til udlandet\": \"Jeg rejser til udlandet\" (I am travelling abroad). To come from there say \"fra udlandet\": \"Hun kommer fra udlandet\" (She comes from abroad).",
   "forms": [
    {
     "da": "Jeg bor i udlandet.",
@@ -892,7 +893,6 @@
     "en": "from abroad"
    }
   ],
-  "explanation": "\"I udlandet\" means \"abroad\", in another country: \"Jeg bor i udlandet\" (I live abroad). To go there say \"til udlandet\": \"Jeg rejser til udlandet\" (I am travelling abroad). To come from there say \"fra udlandet\": \"Hun kommer fra udlandet\" (She comes from abroad).",
   "related": [
    {
     "da": "et land",
@@ -917,6 +917,7 @@
   }
  },
  "i weekenden": {
+  "explanation": "\"I weekenden\" means \"this weekend\" or \"at the weekend\". It can look ahead: \"Vi ses i weekenden\" (See you this weekend). It can look back: \"Jeg var i Aarhus i weekenden\" (I was in Aarhus last weekend). It also covers every weekend: \"Jeg sover længe i weekenden\" (I sleep late at the weekend).",
   "forms": [
    {
     "da": "i weekenden",
@@ -931,7 +932,6 @@
     "en": "See you at the weekend."
    }
   ],
-  "explanation": "\"I weekenden\" means \"this weekend\" or \"at the weekend\". It can look ahead: \"Vi ses i weekenden\" (See you this weekend). It can look back: \"Jeg var i Aarhus i weekenden\" (I was in Aarhus last weekend). It also covers every weekend: \"Jeg sover længe i weekenden\" (I sleep late at the weekend).",
   "related": [
    {
     "da": "en weekend",
@@ -956,6 +956,7 @@
   }
  },
  "i år": {
+  "explanation": "\"I år\" means \"this year\": \"Det er varmt i år\" (It is warm this year). It is different from \"hvert år\" (every year): \"Vi rejser hvert år\" (We travel every year) repeats, while \"i år\" is only the current year.",
   "forms": [
    {
     "da": "i år",
@@ -970,7 +971,6 @@
     "en": "It is warm this year."
    }
   ],
-  "explanation": "\"I år\" means \"this year\": \"Det er varmt i år\" (It is warm this year). Compare \"hvert år\" (every year): \"Vi rejser hvert år\" (We travel every year) happens each year, while \"i år\" is just the current one.",
   "related": [
    {
     "da": "et år",
@@ -983,10 +983,6 @@
    {
     "da": "næste år",
     "en": "next year"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
    }
   ],
   "sentence": {
@@ -995,6 +991,7 @@
   }
  },
  "igen": {
+  "explanation": "\"Igen\" means \"again\": \"Prøv igen\" (Try again). Compare \"Jeg kommer igen\" (I will come again, or come back) with \"Jeg kommer også\" (I am coming too). \"Igen\" repeats something, while \"også\" adds one more person or thing.",
   "forms": [
    {
     "da": "prøv igen",
@@ -1009,15 +1006,14 @@
     "en": "again and again"
    }
   ],
-  "explanation": "\"Igen\" means \"again\": \"Prøv igen\" (Try again). Compare \"Jeg kommer igen\" (I will come again, or come back) with \"Jeg kommer også\" (I am coming too). \"Igen\" repeats something, while \"også\" adds one more person or thing.",
   "related": [
    {
     "da": "endnu en gang",
     "en": "once more"
    },
    {
-    "da": "atter",
-    "en": "once again (formal)"
+    "da": "at gentage",
+    "en": "to repeat"
    },
    {
     "da": "tilbage",
@@ -1034,6 +1030,7 @@
   }
  },
  "igennem": {
+  "explanation": "\"Igennem\" means \"through\", going from one side of something to the other: \"igennem skoven\" (through the forest). It also means \"all the way through\": \"Læs det igennem\" (Read it through).",
   "forms": [
    {
     "da": "gå igennem skoven",
@@ -1048,7 +1045,6 @@
     "en": "Read it through."
    }
   ],
-  "explanation": "\"Igennem\" means \"through\", going from one side of something to the other: \"igennem skoven\" (through the forest). It also means \"all the way through\": \"Læs det igennem\" (Read it through).",
   "related": [
    {
     "da": "gennem",
@@ -1073,6 +1069,7 @@
   }
  },
  "ikke": {
+  "explanation": "\"Ikke\" means \"not\" and goes right after words like \"er\" (is) and \"kan\" (can): \"Han er ikke her\" (He is not here), \"Jeg kan ikke\" (I cannot). It is not the answer \"no\": that is \"nej\", as in \"Nej, jeg er ikke sulten\" (No, I am not hungry). Before a thing you do not have, Danish often uses \"ingen\" (no): \"Jeg har ingen penge\" (I have no money).",
   "forms": [
    {
     "da": "Jeg ved det ikke.",
@@ -1087,7 +1084,6 @@
     "en": "Aren't you coming?"
    }
   ],
-  "explanation": "\"Ikke\" means \"not\" and goes right after words like \"er\" (is) and \"kan\" (can): \"Han er ikke her\" (He is not here), \"Jeg kan ikke\" (I cannot). It is not the answer \"no\": that is \"nej\", as in \"Nej, jeg er ikke sulten\" (No, I am not hungry). Before a thing you do not have, Danish often uses \"ingen\" (no): \"Jeg har ingen penge\" (I have no money).",
   "related": [
    {
     "da": "nej",
@@ -1112,6 +1108,7 @@
   }
  },
  "ikke endnu": {
+  "explanation": "\"Ikke endnu\" means \"not yet\" and answers a question like \"Are you ready?\" In a longer sentence \"endnu\" usually goes last: \"Jeg har ikke spist endnu\" (I have not eaten yet). Compare \"ikke mere\" (not anymore): \"Jeg spiser ikke mere\" (I am not eating anymore).",
   "forms": [
    {
     "da": "Ikke endnu.",
@@ -1126,7 +1123,6 @@
     "en": "Aren't you ready yet?"
    }
   ],
-  "explanation": "\"Ikke endnu\" means \"not yet\" and is a handy short answer to \"Are you ready?\" In a longer sentence \"endnu\" usually goes last: \"Jeg har ikke spist endnu\" (I have not eaten yet). Compare \"ikke mere\" (not anymore): \"Jeg spiser ikke mere\" (I am not eating anymore).",
   "related": [
    {
     "da": "allerede",
@@ -1146,11 +1142,12 @@
    }
   ],
   "sentence": {
-   "da": "Har du spist? – **Ikke endnu.**",
+   "da": "Har du spist? – **Ikke endnu**.",
    "en": "Have you eaten? – Not yet."
   }
  },
  "ikke mere": {
+  "explanation": "\"Ikke mere\" means \"no more\" (you have had enough) or \"not anymore\" (something has stopped). \"Ikke mere, tak\" (No more, thank you) is a polite way to refuse more food or drink.",
   "forms": [
    {
     "da": "Ikke mere, tak.",
@@ -1165,7 +1162,6 @@
     "en": "He doesn't live here anymore."
    }
   ],
-  "explanation": "\"Ikke mere\" means \"no more\" (you have had enough) or \"not anymore\" (something has stopped). \"Ikke mere, tak\" (No more, thank you) is a polite way to refuse more food or drink.",
   "related": [
    {
     "da": "mere",
@@ -1190,6 +1186,7 @@
   }
  },
  "ild": {
+  "explanation": "\"Ild\" means \"fire\", as in flames and burning. Do not mix it up with \"en brand\" (a fire that does damage) or \"et bål\" (a campfire).",
   "forms": [
    {
     "da": "ild",
@@ -1200,35 +1197,35 @@
     "en": "the fire"
    },
    {
-    "da": "ild!",
-    "en": "fire!"
+    "da": "ild og vand",
+    "en": "fire and water"
    }
   ],
-  "explanation": "\"Ild\" means \"fire\", as in flames and burning. Do not mix it up with \"en brand\" (a fire that does damage) or \"et bål\" (a campfire). You can say \"Der er ild i huset\" (the house is on fire).",
   "related": [
    {
     "da": "en brand",
-    "en": "a fire (emergency)"
+    "en": "a fire (that does damage)"
    },
    {
     "da": "et bål",
-    "en": "a bonfire"
+    "en": "a campfire"
    },
    {
     "da": "en flamme",
     "en": "a flame"
    },
    {
-    "da": "varm",
-    "en": "warm"
+    "da": "at brænde",
+    "en": "to burn"
    }
   ],
   "sentence": {
-   "da": "Der er **ild** i huset, og alle løber ud.",
-   "en": "There is a fire in the house, and everyone runs out."
+   "da": "Det er koldt, så vi tænder en **ild** og varmer os.",
+   "en": "It is cold, so we light a fire and warm ourselves."
   }
  },
  "imellem": {
+  "explanation": "\"Imellem\" means \"between\", as in \"Han står imellem to biler\" (He stands between two cars). In the phrase \"en gang imellem\" it means \"once in a while\". The shorter \"mellem\" (between) means the same and is more common.",
   "forms": [
    {
     "da": "imellem os",
@@ -1243,7 +1240,6 @@
     "en": "once in a while"
    }
   ],
-  "explanation": "\"Imellem\" means \"between\", as in \"Jeg sidder imellem Anna og Peter\" (I sit between Anna and Peter). In the phrase \"en gang imellem\" it means \"once in a while\". The shorter \"mellem\" (between) means the same and is more common.",
   "related": [
    {
     "da": "mellem",
@@ -1258,8 +1254,8 @@
     "en": "in the middle of"
    },
    {
-    "da": "en gang imellem",
-    "en": "once in a while"
+    "da": "blandt",
+    "en": "among"
    }
   ],
   "sentence": {
@@ -1268,6 +1264,7 @@
   }
  },
  "ind": {
+  "explanation": "\"Ind\" means \"in\". Compare \"Kom ind!\" (Come in! — you are outside and move inside) with \"Han er inde\" (He is inside — he is already there). \"Ind i\" means \"into\": \"Hun løber ind i butikken\" (She runs into the shop).",
   "forms": [
    {
     "da": "Kom ind!",
@@ -1282,7 +1279,6 @@
     "en": "Go in."
    }
   ],
-  "explanation": "\"Ind\" means \"in\". Compare \"Kom ind!\" (Come in! — you are outside and move inside) with \"Han er inde\" (He is inside — he is already there). \"Ind i\" means \"into\": \"Han går ind i huset\" (He goes into the house).",
   "related": [
    {
     "da": "ud",
@@ -1307,6 +1303,7 @@
   }
  },
  "inden": {
+  "explanation": "\"Inden\" means \"before\": \"Vask hænderne, inden du spiser\" (Wash your hands before you eat). \"Inden for\" means \"within\": \"inden for en uge\" (within a week).",
   "forms": [
    {
     "da": "inden jeg går",
@@ -1321,7 +1318,6 @@
     "en": "within an hour"
    }
   ],
-  "explanation": "\"Inden\" means \"before\". It is followed by a whole sentence: \"Ring til mig inden du kommer\" (Call me before you come). \"Inden for\" means \"within\": \"inden for en time\" (within an hour).",
   "related": [
    {
     "da": "før",
@@ -1334,10 +1330,6 @@
    {
     "da": "bagefter",
     "en": "afterwards"
-   },
-   {
-    "da": "under",
-    "en": "during"
    }
   ],
   "sentence": {
@@ -1346,6 +1338,7 @@
   }
  },
  "indenfor": {
+  "explanation": "\"Indenfor\" means \"inside\". You say it at the door to invite someone in: \"Kom indenfor!\" (Come in!). With a time it means \"within\": \"indenfor en uge\" (within a week).",
   "forms": [
    {
     "da": "kom indenfor!",
@@ -1360,7 +1353,6 @@
     "en": "within an hour"
    }
   ],
-  "explanation": "\"Indenfor\" means \"inside\". You say it at the door to invite someone in: \"Kom indenfor!\" (Come in!). With a time it means \"within\": \"indenfor en uge\" (within a week).",
   "related": [
    {
     "da": "udenfor",
@@ -1385,6 +1377,7 @@
   }
  },
  "indien": {
+  "explanation": "\"Indien\" means \"India\". A person from India is \"en inder\" (an Indian); do not mix it up with \"en indianer\" (a Native American).",
   "forms": [
    {
     "da": "Indien",
@@ -1399,7 +1392,6 @@
     "en": "to India"
    }
   ],
-  "explanation": "\"Indien\" means \"India\". Notice the spelling: it ends in \"-ien\", not \"-ia\". A person from India is \"en inder\" (an Indian); do not mix it up with \"en indianer\" (a Native American).",
   "related": [
    {
     "da": "en inder",
@@ -1424,6 +1416,7 @@
   }
  },
  "indisk": {
+  "explanation": "\"Indisk\" means \"Indian\", from India (\"Indien\"). It is written with a small letter (\"indisk\"), while English \"Indian\" has a capital letter. Do not mix it up with \"indianer\" (a Native American).",
   "forms": [
    {
     "da": "en indisk restaurant",
@@ -1438,7 +1431,6 @@
     "en": "Indian dishes"
    }
   ],
-  "explanation": "\"Indisk\" means \"Indian\", from India (\"Indien\"). It is written with a small letter (\"indisk\"), while English \"Indian\" has a capital letter. Do not mix it up with \"indianer\" (a Native American).",
   "related": [
    {
     "da": "Indien",
@@ -1463,6 +1455,7 @@
   }
  },
  "indtil": {
+  "explanation": "\"Indtil\" means \"until\": \"Jeg er her indtil fredag\" (I am here until Friday) and \"Bliv, indtil du er rask\" (Stay until you are well).",
   "forms": [
    {
     "da": "indtil i morgen",
@@ -1477,7 +1470,6 @@
     "en": "for now"
    }
   ],
-  "explanation": "\"Indtil\" means \"until\". Compare \"Vi venter indtil klokken seks\" (We wait until six o'clock) with \"Bliv, indtil du er rask\" (Stay until you are well). \"Indtil videre\" means \"for now\".",
   "related": [
    {
     "da": "til",
@@ -1502,10 +1494,11 @@
   }
  },
  "influenza": {
+  "explanation": "\"Influenza\" means \"flu\". Danes say \"Jeg har influenza\" (I have the flu) without \"en\" (a) in front.",
   "forms": [
    {
-    "da": "en influenza",
-    "en": "a flu"
+    "da": "influenza",
+    "en": "flu"
    },
    {
     "da": "influenzaen",
@@ -1516,7 +1509,6 @@
     "en": "to catch the flu"
    }
   ],
-  "explanation": "\"Influenza\" means \"the flu\", a stronger illness than a cold, often with fever and body aches. You say \"Jeg har influenza\" (I have the flu), usually without \"en\" (a) in front.",
   "related": [
    {
     "da": "en forkølelse",
@@ -1541,6 +1533,7 @@
   }
  },
  "ingen": {
+  "explanation": "\"Ingen\" means \"no one\" or \"no\". Compare \"nogen\" (anyone): \"Er der nogen hjemme?\" (Is anyone home?) — \"Nej, der er ingen hjemme\" (No, no one is home). Do not add \"ikke\" (not) next to \"ingen\"; the word already means \"not any\".",
   "forms": [
    {
     "da": "Ingen er hjemme.",
@@ -1555,7 +1548,6 @@
     "en": "No one can see it."
    }
   ],
-  "explanation": "\"Ingen\" means \"no one\" or \"no\". \"Ingen er hjemme\" (No one is home); \"Jeg har ingen penge\" (I have no money). Compare \"nogen\" (anyone): \"Er der nogen hjemme?\" (Is anyone home?) — \"Nej, der er ingen hjemme\" (No, no one is home). Do not add \"ikke\" (not) next to \"ingen\".",
   "related": [
    {
     "da": "nogen",
@@ -1576,10 +1568,11 @@
   ],
   "sentence": {
    "da": "Jeg ringer, men der er **ingen** hjemme.",
-   "en": "I ring, but no one is home."
+   "en": "I call, but no one is home."
   }
  },
  "ingen problemer": {
+  "explanation": "\"Ingen problemer\" means \"no problem\" and is a relaxed answer when someone asks you for help. A longer way to say it is \"det er ikke noget problem\" (it is not a problem).",
   "forms": [
    {
     "da": "Ingen problemer!",
@@ -1594,7 +1587,6 @@
     "en": "No problem, I'll help you."
    }
   ],
-  "explanation": "\"Ingen problemer\" means \"no problem\" and is a relaxed answer when someone asks you for help. A longer way to say it is \"det er ikke noget problem\" (it is not a problem).",
   "related": [
    {
     "da": "et problem",
@@ -1615,6 +1607,7 @@
   }
  },
  "ingen årsag": {
+  "explanation": "\"Ingen årsag\" means \"don't mention it\" and is a reply to thanks. It literally says \"no reason\".",
   "forms": [
    {
     "da": "Ingen årsag!",
@@ -1629,7 +1622,6 @@
     "en": "No problem, it was nothing."
    }
   ],
-  "explanation": "\"Ingen årsag\" literally means \"no reason\" and is a reply to thanks, like \"don't mention it\".",
   "related": [
    {
     "da": "selv tak",
@@ -1650,6 +1642,7 @@
   }
  },
  "ingenting": {
+  "explanation": "\"Ingenting\" means \"nothing\". Compare \"Jeg ser noget\" (I see something) with \"Jeg ser ingenting\" (I see nothing). Do not add \"ikke\" (not): the word already means \"not anything\". For people, use \"ingen\" (no one): \"Ingen er her\" (No one is here).",
   "forms": [
    {
     "da": "Jeg ser ingenting.",
@@ -1664,7 +1657,6 @@
     "en": "Nothing is impossible."
    }
   ],
-  "explanation": "\"Ingenting\" means \"nothing\". Compare \"Jeg ser noget\" (I see something) with \"Jeg ser ingenting\" (I see nothing). Do not add \"ikke\" (not): the word already means \"not anything\". For people, use \"ingen\" (no one): \"Ingen er her\" (No one is here).",
   "related": [
    {
     "da": "alt",
@@ -1679,7 +1671,7 @@
     "en": "no one"
    },
    {
-    "da": "et ting",
+    "da": "en ting",
     "en": "a thing"
    }
   ],
@@ -1689,6 +1681,7 @@
   }
  },
  "interessant": {
+  "explanation": "\"Interessant\" means \"interesting\". To say you are interested, use \"interesseret\", as in \"Jeg er interesseret i musik\" (I am interested in music).",
   "forms": [
    {
     "da": "en interessant bog",
@@ -1703,7 +1696,6 @@
     "en": "interesting books"
    }
   ],
-  "explanation": "\"Interessant\" means \"interesting\". To say you are interested, use \"interesseret\", as in \"Jeg er interesseret i musik\" (I am interested in music).",
   "related": [
    {
     "da": "kedelig",
@@ -1728,6 +1720,7 @@
   }
  },
  "internet": {
+  "explanation": "\"Internet\" means \"internet\", the same word as in English. It also means a connection: \"Der er ikke internet her\" (There is no internet here).",
   "forms": [
    {
     "da": "internettet",
@@ -1742,7 +1735,6 @@
     "en": "Do you have internet?"
    }
   ],
-  "explanation": "\"Internet\" means \"internet\". Danes say \"på internettet\" (on the internet), and they also often use the English word \"online\", as in \"Jeg er online\" (I am online).",
   "related": [
    {
     "da": "wifi",
@@ -1767,6 +1759,7 @@
   }
  },
  "is": {
+  "explanation": "\"Is\" means \"ice cream\" and also \"ice\". To order a scoop, you say \"en kugle is\" (a scoop of ice cream, literally \"a ball of ice cream\").",
   "forms": [
    {
     "da": "en is",
@@ -1781,15 +1774,14 @@
     "en": "two ice creams"
    }
   ],
-  "explanation": "\"Is\" means both \"ice cream\" and \"ice\", so the situation shows which one is meant. To order a scoop, you say \"en kugle is\" (a scoop of ice cream, literally \"a ball of ice cream\").",
   "related": [
    {
-    "da": "en kage",
-    "en": "a cake"
+    "da": "en isterning",
+    "en": "an ice cube"
    },
    {
-    "da": "en chokolade",
-    "en": "a chocolate"
+    "da": "en kugle",
+    "en": "a scoop / ball"
    },
    {
     "da": "kold",
@@ -1806,6 +1798,7 @@
   }
  },
  "island": {
+  "explanation": "\"Island\" means \"Iceland\". Watch out: it looks like the English word \"island\", but an island in Danish is \"en ø\".",
   "forms": [
    {
     "da": "Island",
@@ -1820,7 +1813,6 @@
     "en": "to Iceland"
    }
   ],
-  "explanation": "\"Island\" means \"Iceland\". Watch out: it looks like the English word \"island\", but an island in Danish is \"en ø\".",
   "related": [
    {
     "da": "en islænding",
@@ -1845,6 +1837,7 @@
   }
  },
  "isslag": {
+  "explanation": "\"Isslag\" means \"freezing rain\". It is built from \"is\" (ice) and \"slag\" (a blow, a hit).",
   "forms": [
    {
     "da": "et isslag",
@@ -1863,7 +1856,6 @@
     "en": "the freezing rains"
    }
   ],
-  "explanation": "\"Isslag\" means \"freezing rain\", rain that freezes as it hits the ground and makes roads and paths very slippery. It is built from \"is\" (ice) and \"slag\" (a blow, a hit).",
   "related": [
    {
     "da": "glat",
@@ -1888,6 +1880,7 @@
   }
  },
  "italien": {
+  "explanation": "\"Italien\" means \"Italy\": \"Vi skal på ferie i Italien\" (We are going on holiday in Italy).",
   "forms": [
    {
     "da": "Italien",
@@ -1902,7 +1895,6 @@
     "en": "to Italy"
    }
   ],
-  "explanation": "\"Italien\" means \"Italy\". Notice the spelling: it ends in \"-ien\", not \"-y\". \"Italiensk\" means \"Italian\", as in \"italiensk mad\" (Italian food).",
   "related": [
    {
     "da": "en italiener",
@@ -1927,6 +1919,7 @@
   }
  },
  "italiensk": {
+  "explanation": "\"Italiensk\" means \"Italian\", for things from Italy and for the language, as in \"Jeg taler italiensk\" (I speak Italian). It is written with a small letter (\"italiensk\"), while English \"Italian\" has a capital letter.",
   "forms": [
    {
     "da": "en italiensk bil",
@@ -1941,7 +1934,6 @@
     "en": "Italian cars"
    }
   ],
-  "explanation": "\"Italiensk\" means \"Italian\", for things from Italy and for the language, as in \"Jeg taler italiensk\" (I speak Italian). It is written with a small letter (\"italiensk\"), while English \"Italian\" has a capital letter.",
   "related": [
    {
     "da": "Italien",

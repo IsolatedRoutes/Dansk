@@ -1,5 +1,6 @@
 {
  "et æble": {
+  "explanation": "\"Et æble\" means \"an apple\". \"Æblekage\" means \"apple cake\", made from \"æble\" and \"kage\" (cake).",
   "forms": [
    {
     "da": "et æble",
@@ -18,7 +19,6 @@
     "en": "the apples"
    }
   ],
-  "explanation": "\"Et æble\" means \"an apple\". The letter \"æ\" at the start sounds like the \"e\" in \"bed\", but longer. Danish joins words together: \"æblekage\" is \"æble\" plus \"kage\" (cake), and \"æblejuice\" means \"apple juice\".",
   "related": [
    {
     "da": "en pære",
@@ -33,8 +33,8 @@
     "en": "a fruit"
    },
    {
-    "da": "en æblekage",
-    "en": "an apple cake"
+    "da": "en appelsin",
+    "en": "an orange"
    }
   ],
   "sentence": {
@@ -43,6 +43,7 @@
   }
  },
  "et æg": {
+  "explanation": "\"Et æg\" means \"an egg\". \"Kogt æg\" means \"boiled egg\" and \"spejlæg\" means \"fried egg\".",
   "forms": [
    {
     "da": "et æg",
@@ -61,7 +62,6 @@
     "en": "the eggs"
    }
   ],
-  "explanation": "\"Et æg\" means \"an egg\". The letter \"æ\" sounds like the \"e\" in \"bed\". Two common words with it are \"kogt æg\" (boiled egg) and \"spejlæg\" (fried egg).",
   "related": [
    {
     "da": "morgenmad",
@@ -86,6 +86,7 @@
   }
  },
  "ældre": {
+  "explanation": "\"Ældre\" means \"older\" or \"elderly\". It is the step up from \"gammel\" (old), as in \"ældre end mig\" (older than me). \"De ældre\" is a polite way to say \"elderly people\".",
   "forms": [
    {
     "da": "en ældre dame",
@@ -100,7 +101,6 @@
     "en": "older people"
    }
   ],
-  "explanation": "\"Ældre\" means \"older\" or \"elderly\". It is the step up from \"gammel\" (old), as in \"ældre end mig\" (older than me). \"De ældre\" is a polite way to say \"elderly people\".",
   "related": [
    {
     "da": "gammel",
@@ -125,6 +125,7 @@
   }
  },
  "ældst": {
+  "explanation": "\"Ældst\" means \"oldest\" and is the step up from \"ældre\" (older): \"Han er ældst\" (He is the oldest).",
   "forms": [
    {
     "da": "min ældste bror",
@@ -139,7 +140,6 @@
     "en": "the oldest children"
    }
   ],
-  "explanation": "\"Ældst\" means \"oldest\" and is the step up from \"ældre\" (older): \"Han er ældst\" (He is the oldest).",
   "related": [
    {
     "da": "gammel",
@@ -164,6 +164,7 @@
   }
  },
  "ærter": {
+  "explanation": "\"Ærter\" means \"peas\": \"Jeg kan godt lide ærter\" (I like peas).",
   "forms": [
    {
     "da": "en ært",
@@ -182,7 +183,6 @@
     "en": "the peas"
    }
   ],
-  "explanation": "\"Ærter\" means \"peas\". It starts with the special Danish letter \"æ\", said a little like the \"e\" in \"bed\".",
   "related": [
    {
     "da": "bønner",
