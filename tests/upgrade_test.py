@@ -107,8 +107,8 @@ with sync_playwright() as p:
           return { notGrammarInLessons: cards.filter(c => ids.includes(c.category) && c.type !== 'grammar').map(c => c.front),
                    grammarOutside: cards.filter(c => c.type === 'grammar' && !ids.includes(c.category)).map(c => c.front),
                    de: cards.find(c => c.front === 'de'), own4: cards.find(c => c.front === 'en tøjrulle'), own6: cards.find(c => c.front === 'Min egen regel') } }""")
-        att = page.evaluate("async () => JSON.parse(await K('cards')).filter(c => c.type === 'grammar' && /^(Modal particles|Attitude words|Flavour words)/.test(c.front)).map(c => [c.front, !!c.known, !!c.starred])")
-        check(att == [["Modal particles: jo, nok, vel, bare", True, True]], "renamed lesson keeps known+starred, no duplicate " + str(att))
+        att = page.evaluate("async () => JSON.parse(await K('cards')).filter(c => c.type === 'grammar' && /^(Modal particles|Little attitude words|Attitude words|Flavour words)/.test(c.front)).map(c => [c.front, !!c.known, !!c.starred])")
+        check(att == [["Little attitude words: jo, nok, vel, bare", True, True]], "renamed lesson keeps known+starred, no duplicate " + str(att))
         check(stray["notGrammarInLessons"] == [], "Grammar Lessons holds only lessons " + str(stray["notGrammarInLessons"]))
         check(stray["grammarOutside"] == [], "every lesson is in Grammar Lessons " + str(stray["grammarOutside"]))
         check(bool(stray["de"] and stray["de"].get("known")), "known mark kept on a card moved out of Grammar Lessons")

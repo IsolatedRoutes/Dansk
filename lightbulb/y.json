@@ -1,0 +1,119 @@
+{
+ "yngre": {
+  "forms": [
+   {
+    "da": "en yngre mand",
+    "en": "a younger man"
+   },
+   {
+    "da": "et yngre par",
+    "en": "a younger couple"
+   },
+   {
+    "da": "yngre mennesker",
+    "en": "younger people"
+   }
+  ],
+  "explanation": "\"Yngre\" means younger and never changes its ending. It is the comparing form of \"ung\" (young): \"Hun er yngre end mig\" means \"She is younger than me\". The next step up is \"yngst\" (youngest). The opposite is \"ældre\".",
+  "related": [
+   {
+    "da": "ung",
+    "en": "young"
+   },
+   {
+    "da": "yngst",
+    "en": "youngest"
+   },
+   {
+    "da": "ældre",
+    "en": "older"
+   },
+   {
+    "da": "en søster",
+    "en": "a sister"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster er **yngre** end mig.",
+   "en": "My sister is younger than me."
+  }
+ },
+ "yngst": {
+  "forms": [
+   {
+    "da": "min yngste søster",
+    "en": "my youngest sister"
+   },
+   {
+    "da": "det yngste barn",
+    "en": "the youngest child"
+   },
+   {
+    "da": "de yngste børn",
+    "en": "the youngest children"
+   }
+  ],
+  "explanation": "\"Yngst\" means youngest. After \"er\" it stays \"yngst\" (\"Hun er yngst\"), and before a word it adds an \"e\": \"den yngste\". It is the top step after \"ung\" and \"yngre\". The opposite is \"ældst\".",
+  "related": [
+   {
+    "da": "ung",
+    "en": "young"
+   },
+   {
+    "da": "yngre",
+    "en": "younger"
+   },
+   {
+    "da": "ældst",
+    "en": "oldest"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster er **yngst**.",
+   "en": "My sister is the youngest."
+  }
+ },
+ "yoghurt": {
+  "forms": [
+   {
+    "da": "en yoghurt",
+    "en": "a yogurt"
+   },
+   {
+    "da": "yoghurten",
+    "en": "the yogurt"
+   },
+   {
+    "da": "noget yoghurt",
+    "en": "some yogurt"
+   }
+  ],
+  "explanation": "\"Yoghurt\" is yogurt, an en-word, so \"the yogurt\" is \"yoghurten\". It is often eaten for breakfast with müsli or fruit. You can also write it \"yogurt\", but \"yoghurt\" is the more usual Danish spelling. It is also an easy word to use in a shop: \"en yoghurt\" is one pot.",
+  "related": [
+   {
+    "da": "müsli",
+    "en": "muesli"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **yoghurt** med jordbær.",
+   "en": "I take yogurt with strawberries."
+  }
+ }
+}

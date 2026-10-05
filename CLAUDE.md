@@ -91,7 +91,9 @@ files `lightbulb/<first letter>.json` (leading en/et/at ignored; æ ø å = ae o
 keyed by `frontKey`, fetched only when a lightbulb opens (`src/lib/lightbulb.js`).
 Words with no entry, and the learner's own cards, use the live AI call as before.
 `scripts/prepare-www.mjs` copies `lightbulb/` into the iPhone app. Written to the
-same quality as the live answer; do not shorten.
+same quality as the live answer; do not shorten. Covered so far: all Basic words
+(level 1) plus the original samples; other levels still use the live AI call. Checked by
+`tests/lightbulb_check.mjs` (keys, files, shape).
 
 ## iCloud sync (iPhone app only, opt-in)
 Shares progress between the owner's own Apple devices through their own iCloud

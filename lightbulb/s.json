@@ -1,209 +1,1306 @@
 {
- "en storm": {
+ "at savne": {
   "forms": [
    {
-    "da": "en storm",
-    "en": "a storm"
+    "da": "at savne",
+    "en": "to miss"
    },
    {
-    "da": "stormen",
-    "en": "the storm"
+    "da": "jeg savner",
+    "en": "I miss"
    },
    {
-    "da": "storme",
-    "en": "storms"
+    "da": "jeg savnede",
+    "en": "I missed"
    },
    {
-    "da": "stormene",
-    "en": "the storms"
+    "da": "jeg har savnet",
+    "en": "I have missed"
    }
   ],
-  "explanation": "\"Storm\" is a proper storm with strong wind, and Danes use it for the autumn and winter storms that sweep in from the North Sea. The plural is \"storme\" (not \"stormer\"), which is easy to get wrong. A gentler wind is just \"blæst\", and a hurricane is \"en orkan\".",
+  "explanation": "\"At savne\" means to miss someone or something that is not here, like a friend, family or home. It is also used for something that is gone: \"Jeg savner mine nøgler\" can mean you cannot find your keys. Do not use it for missing a bus or train; for that Danes say \"at misse\" or \"at komme for sent til\".",
   "related": [
    {
-    "da": "et uvejr",
-    "en": "bad weather"
+    "da": "at længes efter",
+    "en": "to long for"
    },
    {
-    "da": "en orkan",
-    "en": "a hurricane"
+    "da": "en ven",
+    "en": "a friend"
    },
    {
-    "da": "blæst",
-    "en": "wind, blustery weather"
-   },
-   {
-    "da": "en vind",
-    "en": "a wind"
+    "da": "at glemme",
+    "en": "to forget"
    }
   ],
   "sentence": {
-   "da": "Der kommer **en storm** i nat.",
-   "en": "A storm is coming tonight."
+   "da": "Jeg **savner** min familie.",
+   "en": "I miss my family."
   }
  },
- "en sten": {
+ "at se": {
   "forms": [
    {
-    "da": "en sten",
-    "en": "a stone"
+    "da": "at se",
+    "en": "to see"
    },
    {
-    "da": "stenen",
-    "en": "the stone"
+    "da": "jeg ser",
+    "en": "I see"
    },
    {
-    "da": "sten",
-    "en": "stones"
+    "da": "jeg så",
+    "en": "I saw"
    },
    {
-    "da": "stenene",
-    "en": "the stones"
+    "da": "jeg har set",
+    "en": "I have seen"
    }
   ],
-  "explanation": "\"Sten\" means a stone or a rock you can pick up. \"Stones\" looks exactly like \"a stone\" (\"sten\"), and only \"the stones\" (\"stenene\") shows it is more than one. As a material it has no article: \"et hus af sten\" is \"a house of stone\".",
+  "explanation": "\"At se\" means to see, and it covers looking at things like films and TV: \"Jeg ser en film\". It also means to understand, as in \"Jeg kan se\" (I see). \"Vi ses!\" is a very common goodbye meaning See you!. Do not mix it up with \"at kigge\", which is more about looking in a direction.",
   "related": [
    {
-    "da": "en klippe",
-    "en": "a cliff, a large rock"
+    "da": "at kigge",
+    "en": "to look"
    },
    {
-    "da": "et bjerg",
-    "en": "a mountain"
+    "da": "at høre",
+    "en": "to hear"
    },
    {
-    "da": "grus",
-    "en": "gravel"
-   },
-   {
-    "da": "en strand",
-    "en": "a beach"
+    "da": "et syn",
+    "en": "a sight / vision"
    }
   ],
   "sentence": {
-   "da": "Der ligger en **sten** på vejen.",
-   "en": "There is a stone on the road."
+   "da": "Jeg kan ikke **se** dig.",
+   "en": "I can't see you."
   }
  },
- "skandinavien": {
+ "at se på": {
   "forms": [
    {
-    "da": "Skandinavien",
-    "en": "Scandinavia"
+    "da": "at se på",
+    "en": "to look at"
    },
    {
-    "da": "i Skandinavien",
-    "en": "in Scandinavia"
+    "da": "jeg ser på",
+    "en": "I look at"
    },
    {
-    "da": "skandinavisk",
-    "en": "Scandinavian (adjective)"
+    "da": "jeg så på",
+    "en": "I looked at"
    },
    {
-    "da": "en skandinav",
-    "en": "a Scandinavian (person)"
+    "da": "jeg har set på",
+    "en": "I have looked at"
    }
   ],
-  "explanation": "\"Skandinavien\" is capitalised because it is a place name, but the adjective \"skandinavisk\" and the nationality words are not. In everyday Danish people often say \"Norden\" (the Nordic countries) when they also mean Finland and Iceland. Strictly, Scandinavia means Denmark, Norway and Sweden.",
+  "explanation": "\"At se på\" means to look at something, and the small word \"på\" is part of it. \"Jeg ser på billedet\" means \"I am looking at the picture\". It is different from \"at lede efter\" (to look for) and from \"at se\" on its own (to see). The past form is \"så på\" and the \"have\" form is \"set på\".",
   "related": [
    {
-    "da": "Norden",
-    "en": "the Nordic countries"
+    "da": "at se",
+    "en": "to see"
    },
    {
-    "da": "Danmark",
-    "en": "Denmark"
+    "da": "at kigge",
+    "en": "to look"
    },
    {
-    "da": "Sverige",
-    "en": "Sweden"
-   },
-   {
-    "da": "Norge",
-    "en": "Norway"
+    "da": "at lede efter",
+    "en": "to look for"
    }
   ],
   "sentence": {
-   "da": "Danmark ligger i **Skandinavien**.",
-   "en": "Denmark is in Scandinavia."
+   "da": "Jeg **ser på** billedet.",
+   "en": "I am looking at the picture."
   }
  },
- "sundhed": {
+ "at se tv": {
   "forms": [
    {
-    "da": "sundhed",
-    "en": "health"
+    "da": "at se tv",
+    "en": "to watch TV"
    },
    {
-    "da": "sundheden",
-    "en": "the health"
+    "da": "jeg ser tv",
+    "en": "I watch TV"
    },
    {
-    "da": "sundhedens",
-    "en": "the health's, of the health"
+    "da": "jeg så tv",
+    "en": "I watched TV"
+   },
+   {
+    "da": "jeg har set tv",
+    "en": "I have watched TV"
    }
   ],
-  "explanation": "\"Sundhed\" is health in a general sense, such as public health or how healthy a lifestyle is. It has no plural and no \"en\" or \"et\" in front. For your own personal health, for example when you ask how someone is doing physically, Danes usually say \"helbred\" instead.",
+  "explanation": "\"At se tv\" means to watch TV. Danes use \"se\" (see) for watching. You can say \"at se fjernsyn\" as well, which is a bit more formal and old-fashioned. \"Tv\" is pronounced like the two letters \"te-ve\".",
   "related": [
    {
-    "da": "helbred",
-    "en": "your own health"
+    "da": "et fjernsyn",
+    "en": "a television"
    },
    {
-    "da": "sund",
-    "en": "healthy"
+    "da": "en film",
+    "en": "a film"
    },
    {
-    "da": "et sundhedsvæsen",
-    "en": "a healthcare system"
+    "da": "et program",
+    "en": "a programme"
+   },
+   {
+    "da": "at se",
+    "en": "to see / to watch"
    }
   ],
   "sentence": {
-   "da": "**Sundhed** er vigtigere end penge.",
-   "en": "Health is more important than money."
+   "da": "Jeg **ser tv** om aftenen.",
+   "en": "I watch TV in the evening."
   }
  },
- "en spisning": {
+ "at sende": {
   "forms": [
    {
-    "da": "en spisning",
-    "en": "a meal (a shared event)"
+    "da": "at sende",
+    "en": "to send"
    },
    {
-    "da": "spisningen",
-    "en": "the meal"
+    "da": "jeg sender",
+    "en": "I send"
    },
    {
-    "da": "spisninger",
-    "en": "meals"
+    "da": "jeg sendte",
+    "en": "I sent"
    },
    {
-    "da": "spisningerne",
-    "en": "the meals"
+    "da": "jeg har sendt",
+    "en": "I have sent"
    }
   ],
-  "explanation": "\"Spisning\" is a meal as an event, usually an organised one where people sit down together, as in a club or a community dinner. For the plain food you eat on an ordinary day, Danes use \"et måltid\" or just \"mad\". You will often see it in \"fællesspisning\", a shared community dinner that is popular in Denmark.",
+  "explanation": "\"At sende\" means to send, for example a letter, a parcel, a message or an email. \"Jeg sender dig en besked\" means \"I will send you a message\". The past form \"sendte\" and the \"have\" form \"sendt\" are easy to remember because they simply add t. A related word for a parcel is \"en pakke\".",
   "related": [
+   {
+    "da": "en besked",
+    "en": "a message"
+   },
+   {
+    "da": "en pakke",
+    "en": "a parcel"
+   },
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **sender** dig en besked i aften.",
+   "en": "I will send you a message tonight."
+  }
+ },
+ "at sende en sms": {
+  "forms": [
+   {
+    "da": "at sende en sms",
+    "en": "to text"
+   },
+   {
+    "da": "jeg sender en sms",
+    "en": "I text"
+   },
+   {
+    "da": "jeg sendte en sms",
+    "en": "I texted"
+   },
+   {
+    "da": "jeg har sendt en sms",
+    "en": "I have texted"
+   }
+  ],
+  "explanation": "\"At sende en sms\" means to send a text message. Literally it is \"to send a text\". The word \"sende\" changes its ending in the past: \"jeg sendte\" and \"jeg har sendt\". To say who gets it, put the person after \"sende\": \"jeg sender dig en sms\" (I send you a text).",
+  "related": [
+   {
+    "da": "en sms",
+    "en": "a text message"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "at ringe op",
+    "en": "to call"
+   },
+   {
+    "da": "at svare",
+    "en": "to reply"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **sender** dig **en sms**, når jeg er hjemme.",
+   "en": "I will text you when I am home."
+  }
+ },
+ "at servere": {
+  "forms": [
+   {
+    "da": "at servere",
+    "en": "to serve"
+   },
+   {
+    "da": "jeg serverer",
+    "en": "I serve"
+   },
+   {
+    "da": "jeg serverede",
+    "en": "I served"
+   },
+   {
+    "da": "jeg har serveret",
+    "en": "I have served"
+   }
+  ],
+  "explanation": "\"At servere\" means to serve food or drinks, for example in a restaurant or at home for guests. It looks like the English word, but the stress is on the middle part, \"ser-VE-re\". You can say \"Maden bliver serveret kl. 18\" (The food is served at 6 pm).",
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **serverer** middag klokken seks.",
+   "en": "We serve dinner at six o'clock."
+  }
+ },
+ "at sidde": {
+  "forms": [
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   },
+   {
+    "da": "jeg sidder",
+    "en": "I sit"
+   },
+   {
+    "da": "jeg sad",
+    "en": "I sat"
+   },
+   {
+    "da": "jeg har siddet",
+    "en": "I have sat"
+   }
+  ],
+  "explanation": "\"At sidde\" means to sit, in the sense of being in a seated position: \"Jeg sidder på en stol\" (I am sitting on a chair). To sit down is \"at sætte sig\". People also \"sidder\" at a desk or at the computer for a long time. The past form is \"sad\", and the \"have done\" form is \"siddet\".",
+  "related": [
+   {
+    "da": "at stå",
+    "en": "to stand"
+   },
+   {
+    "da": "at ligge",
+    "en": "to lie (be lying)"
+   },
+   {
+    "da": "at sætte sig",
+    "en": "to sit down"
+   }
+  ],
+  "sentence": {
+   "da": "Han **sidder** på sofaen.",
+   "en": "He is sitting on the sofa."
+  }
+ },
+ "at sige": {
+  "forms": [
+   {
+    "da": "at sige",
+    "en": "to say"
+   },
+   {
+    "da": "jeg siger",
+    "en": "I say"
+   },
+   {
+    "da": "jeg sagde",
+    "en": "I said"
+   },
+   {
+    "da": "jeg har sagt",
+    "en": "I have said"
+   }
+  ],
+  "explanation": "\"At sige\" means to say or to tell: \"Hvad siger du?\" (What are you saying?). It is used when you pass on words, so you say something to someone. A useful phrase is \"Hvad betyder det?\" for what does it mean, but for saying hello to someone Danish uses \"at sige hej\". To tell a story, use \"at fortælle\".",
+  "related": [
+   {
+    "da": "at fortælle",
+    "en": "to tell (a story)"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad **siger** du?",
+   "en": "What are you saying?"
+  }
+ },
+ "at sige farvel": {
+  "forms": [
+   {
+    "da": "at sige farvel",
+    "en": "to say goodbye"
+   },
+   {
+    "da": "jeg siger farvel",
+    "en": "I say goodbye"
+   },
+   {
+    "da": "jeg sagde farvel",
+    "en": "I said goodbye"
+   },
+   {
+    "da": "jeg har sagt farvel",
+    "en": "I have said goodbye"
+   }
+  ],
+  "explanation": "\"At sige farvel\" means to say goodbye. You say \"Farvel\" when you leave, and it can sound a little final, as if you won't meet again soon. Among friends many Danes say \"hej hej\" or \"vi ses\" (see you) instead. Use \"farvel\" with people you are polite to, like shopkeepers.",
+  "related": [
+   {
+    "da": "at sige goddag",
+    "en": "to say hello"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "hej hej",
+    "en": "bye bye"
+   },
+   {
+    "da": "vi ses",
+    "en": "see you"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **siger farvel** til min ven.",
+   "en": "I say goodbye to my friend."
+  }
+ },
+ "at sige goddag": {
+  "forms": [
+   {
+    "da": "at sige goddag",
+    "en": "to say hello"
+   },
+   {
+    "da": "jeg siger goddag",
+    "en": "I say hello"
+   },
+   {
+    "da": "jeg sagde goddag",
+    "en": "I said hello"
+   },
+   {
+    "da": "jeg har sagt goddag",
+    "en": "I have said hello"
+   }
+  ],
+  "explanation": "\"At sige goddag\" means to say hello, literally \"to say good day\". \"Goddag\" is a polite, slightly old-fashioned greeting that you might use with older people or in formal settings. With friends you would normally just say \"hej\". The opposite is \"at sige farvel\".",
+  "related": [
+   {
+    "da": "at sige farvel",
+    "en": "to say goodbye"
+   },
+   {
+    "da": "goddag",
+    "en": "good day / hello"
+   },
+   {
+    "da": "hej",
+    "en": "hi"
+   },
+   {
+    "da": "god morgen",
+    "en": "good morning"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **siger goddag** til naboen.",
+   "en": "I say hello to the neighbor."
+  }
+ },
+ "at skifte tøj": {
+  "forms": [
+   {
+    "da": "at skifte tøj",
+    "en": "to change clothes"
+   },
+   {
+    "da": "jeg skifter tøj",
+    "en": "I change clothes"
+   },
+   {
+    "da": "jeg skiftede tøj",
+    "en": "I changed clothes"
+   },
+   {
+    "da": "jeg har skiftet tøj",
+    "en": "I have changed clothes"
+   }
+  ],
+  "explanation": "\"At skifte tøj\" means to change your clothes, for example after sport or before going out. \"At skifte\" means to change or switch something. For example you can \"skifte\" a shirt, a bus or a job. It is a good phrase for daily routines.",
+  "related": [
+   {
+    "da": "at have på",
+    "en": "to wear"
+   },
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "et tøj",
+    "en": "clothes"
+   },
+   {
+    "da": "et prøverum",
+    "en": "a fitting room"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **skifter tøj**, før vi går ud.",
+   "en": "I am changing clothes before we go out."
+  }
+ },
+ "at skrive": {
+  "forms": [
+   {
+    "da": "at skrive",
+    "en": "to write"
+   },
+   {
+    "da": "jeg skriver",
+    "en": "I write"
+   },
+   {
+    "da": "jeg skrev",
+    "en": "I wrote"
+   },
+   {
+    "da": "jeg har skrevet",
+    "en": "I have written"
+   }
+  ],
+  "explanation": "\"At skrive\" means to write: \"Jeg skriver et brev\" (I am writing a letter). It also covers typing and texting, so you can \"skrive en besked\". The past form \"skrev\" and the \"have done\" form \"skrevet\" are irregular. A writer is \"en forfatter\", while \"en skribent\" is someone who writes for a paper.",
+  "related": [
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **skriver** en besked til min ven.",
+   "en": "I am writing a message to my friend."
+  }
+ },
+ "at skulle": {
+  "forms": [
+   {
+    "da": "at skulle",
+    "en": "to have to / should"
+   },
+   {
+    "da": "jeg skal",
+    "en": "I have to / should"
+   },
+   {
+    "da": "jeg skulle",
+    "en": "I had to / should have"
+   },
+   {
+    "da": "jeg har skullet",
+    "en": "I have had to"
+   }
+  ],
+  "explanation": "\"At skulle\" means must, should, or to be supposed to, and it is also the usual way to say what is going to happen: \"Jeg skal i skole\" (I am going to school). It is followed straight by another action word, with no \"at\". It is more about a plan or a duty than about wanting, which is \"at ville\".",
+  "related": [
+   {
+    "da": "at ville",
+    "en": "to want to / will"
+   },
+   {
+    "da": "at måtte",
+    "en": "may / must"
+   },
+   {
+    "da": "en pligt",
+    "en": "a duty"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **skal** arbejde i morgen.",
+   "en": "I have to work tomorrow."
+  }
+ },
+ "at slappe af": {
+  "forms": [
+   {
+    "da": "at slappe af",
+    "en": "to relax"
+   },
+   {
+    "da": "jeg slapper af",
+    "en": "I relax"
+   },
+   {
+    "da": "jeg slappede af",
+    "en": "I relaxed"
+   },
+   {
+    "da": "jeg har slappet af",
+    "en": "I have relaxed"
+   }
+  ],
+  "explanation": "\"At slappe af\" means to relax or to take it easy. The little word \"af\" always goes at the end. People often say \"Slap af!\" to mean 'Calm down' or 'Take it easy'. A relaxing evening is \"en afslappet aften\".",
+  "related": [
+   {
+    "da": "at hvile sig",
+    "en": "to rest"
+   },
+   {
+    "da": "en pause",
+    "en": "a break"
+   },
+   {
+    "da": "afslappet",
+    "en": "relaxed"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **slapper af** på sofaen.",
+   "en": "I relax on the sofa."
+  }
+ },
+ "at slukke": {
+  "forms": [
+   {
+    "da": "at slukke",
+    "en": "to turn off"
+   },
+   {
+    "da": "jeg slukker",
+    "en": "I turn off"
+   },
+   {
+    "da": "jeg slukkede",
+    "en": "I turned off"
+   },
+   {
+    "da": "jeg har slukket",
+    "en": "I have turned off"
+   }
+  ],
+  "explanation": "\"At slukke\" means to turn something off, mostly a light, a fire or a device like a TV. \"Slukke lyset\" means to turn off the light. It is the opposite of \"at tænde\" (to turn on). For a phone or computer you can also say \"at slukke for\", as in \"slukke for telefonen\".",
+  "related": [
+   {
+    "da": "at tænde",
+    "en": "to turn on"
+   },
+   {
+    "da": "et lys",
+    "en": "a light"
+   },
+   {
+    "da": "et fjernsyn",
+    "en": "a TV"
+   }
+  ],
+  "sentence": {
+   "da": "Husk at **slukke** lyset, når du går.",
+   "en": "Remember to turn off the light when you leave."
+  }
+ },
+ "at slukke for": {
+  "forms": [
+   {
+    "da": "at slukke for",
+    "en": "to turn off"
+   },
+   {
+    "da": "jeg slukker for",
+    "en": "I turn off"
+   },
+   {
+    "da": "jeg slukkede for",
+    "en": "I turned off"
+   },
+   {
+    "da": "jeg har slukket for",
+    "en": "I have turned off"
+   }
+  ],
+  "explanation": "\"At slukke for\" means to turn off something like the TV, the radio, the water or the heating. The word \"for\" stays with it. For a light you say \"at slukke lyset\" with no \"for\". The opposite is \"at tænde for\". Do not mix it up with \"slukke\" in \"slukke en brand\" (put out a fire).",
+  "related": [
+   {
+    "da": "at tænde for",
+    "en": "to turn on"
+   },
+   {
+    "da": "at slukke",
+    "en": "to switch off / put out"
+   },
+   {
+    "da": "et fjernsyn",
+    "en": "a TV"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   }
+  ],
+  "sentence": {
+   "da": "Husk at **slukke for** vandet.",
+   "en": "Remember to turn off the water."
+  }
+ },
+ "at slutte": {
+  "forms": [
+   {
+    "da": "at slutte",
+    "en": "to end / finish"
+   },
+   {
+    "da": "jeg slutter",
+    "en": "I end / finish"
+   },
+   {
+    "da": "jeg sluttede",
+    "en": "I ended / finished"
+   },
+   {
+    "da": "jeg har sluttet",
+    "en": "I have ended / finished"
+   }
+  ],
+  "explanation": "\"At slutte\" means to end or to finish: \"Filmen slutter klokken ti\" (The film ends at ten). With \"med\" it means to stop doing something: \"Jeg slutter med at ryge\". A handy greeting at the end of an email is \"Med venlig hilsen\", which is not related. The end itself is \"en slutning\" or \"slutningen\".",
+  "related": [
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   },
+   {
+    "da": "en slutning",
+    "en": "an ending"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen **slutter** klokken tre.",
+   "en": "School finishes at three o'clock."
+  }
+ },
+ "at smage": {
+  "forms": [
+   {
+    "da": "at smage",
+    "en": "to taste"
+   },
+   {
+    "da": "jeg smager",
+    "en": "I taste"
+   },
+   {
+    "da": "jeg smagte",
+    "en": "I tasted"
+   },
+   {
+    "da": "jeg har smagt",
+    "en": "I have tasted"
+   }
+  ],
+  "explanation": "\"At smage\" means to taste, both to try food and to have a certain flavour. \"Det smager godt\" means \"It tastes good\" and \"Det smager af citron\" means \"It tastes of lemon\". The word for the thing itself is \"en smag\" (a taste).",
+  "related": [
+   {
+    "da": "en smag",
+    "en": "a taste"
+   },
+   {
+    "da": "lækker",
+    "en": "delicious"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   }
+  ],
+  "sentence": {
+   "da": "Maden **smager** rigtig godt.",
+   "en": "The food tastes really good."
+  }
+ },
+ "at smile": {
+  "forms": [
+   {
+    "da": "at smile",
+    "en": "to smile"
+   },
+   {
+    "da": "jeg smiler",
+    "en": "I smile"
+   },
+   {
+    "da": "jeg smilede",
+    "en": "I smiled"
+   },
+   {
+    "da": "jeg har smilet",
+    "en": "I have smiled"
+   }
+  ],
+  "explanation": "\"At smile\" means to smile, just like in English. \"Hun smilede til mig\" means \"She smiled at me\". You smile at someone with \"smile til\". The smile itself is \"et smil\". It is a regular word with simple endings, and a smile helps a lot when you are learning a language.",
+  "related": [
+   {
+    "da": "et smil",
+    "en": "a smile"
+   },
+   {
+    "da": "at grine",
+    "en": "to laugh"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **smiler** til mig hver morgen.",
+   "en": "She smiles at me every morning."
+  }
+ },
+ "at snakke": {
+  "forms": [
+   {
+    "da": "at snakke",
+    "en": "to talk / chat"
+   },
+   {
+    "da": "jeg snakker",
+    "en": "I talk / chat"
+   },
+   {
+    "da": "jeg snakkede",
+    "en": "I talked / chatted"
+   },
+   {
+    "da": "jeg har snakket",
+    "en": "I have talked / chatted"
+   }
+  ],
+  "explanation": "\"At snakke\" means to talk or to chat, and it is the everyday word Danes use for speaking. \"Kan vi snakke sammen?\" means \"Can we talk?\". \"At tale\" is a bit more formal. You can say \"Jeg snakker lidt dansk\" (I speak a little Danish), which is useful for learners.",
+  "related": [
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "at sige",
+    "en": "to say"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **snakker** lidt dansk.",
+   "en": "I speak a little Danish."
+  }
+ },
+ "at snakke om": {
+  "forms": [
+   {
+    "da": "at snakke om",
+    "en": "to talk about"
+   },
+   {
+    "da": "jeg snakker om",
+    "en": "I talk about"
+   },
+   {
+    "da": "jeg snakkede om",
+    "en": "I talked about"
+   },
+   {
+    "da": "jeg har snakket om",
+    "en": "I have talked about"
+   }
+  ],
+  "explanation": "\"At snakke om\" means to talk about something, and it is the casual everyday version of \"at tale om\". Danes say it all the time with friends. The little word \"om\" stays right after it, like 'about' in English.",
+  "related": [
+   {
+    "da": "at tale om",
+    "en": "to talk about"
+   },
+   {
+    "da": "at snakke med",
+    "en": "to chat with"
+   },
+   {
+    "da": "et emne",
+    "en": "a topic"
+   },
+   {
+    "da": "en snak",
+    "en": "a chat"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **snakker om** mad.",
+   "en": "We are talking about food."
+  }
+ },
+ "at sne": {
+  "forms": [
+   {
+    "da": "at sne",
+    "en": "to snow"
+   },
+   {
+    "da": "det sner",
+    "en": "it snows"
+   },
+   {
+    "da": "det sneede",
+    "en": "it snowed"
+   },
+   {
+    "da": "det har sneet",
+    "en": "it has snowed"
+   }
+  ],
+  "explanation": "\"At sne\" means to snow. It is used with \"det\" (it): \"det sner\" is \"it is snowing\". One form covers both \"it snows\" and \"it is snowing\". The word for snow itself is \"sne\" too, as in \"Der er sne\", so the context shows which one you mean.",
+  "related": [
+   {
+    "da": "sne",
+    "en": "snow"
+   },
+   {
+    "da": "at regne",
+    "en": "to rain"
+   },
+   {
+    "da": "en snemand",
+    "en": "a snowman"
+   },
+   {
+    "da": "vinter",
+    "en": "winter"
+   }
+  ],
+  "sentence": {
+   "da": "Det **sner** i Danmark om vinteren.",
+   "en": "It snows in Denmark in the winter."
+  }
+ },
+ "at sove": {
+  "forms": [
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "jeg sover",
+    "en": "I sleep"
+   },
+   {
+    "da": "jeg sov",
+    "en": "I slept"
+   },
+   {
+    "da": "jeg har sovet",
+    "en": "I have slept"
+   }
+  ],
+  "explanation": "\"At sove\" means to sleep: \"Jeg sover godt\" (I sleep well). It describes the state of sleeping, not the moment of going to bed, which is \"at gå i seng\". The word \"at sove over\" means to stay the night. A friendly goodnight is \"Sov godt\" (Sleep well).",
+  "related": [
+   {
+    "da": "at vågne",
+    "en": "to wake up"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **sover** nu.",
+   "en": "The children are sleeping now."
+  }
+ },
+ "at spille": {
+  "forms": [
+   {
+    "da": "at spille",
+    "en": "to play (game or instrument)"
+   },
+   {
+    "da": "jeg spiller",
+    "en": "I play (game or instrument)"
+   },
+   {
+    "da": "jeg spillede",
+    "en": "I played (game or instrument)"
+   },
+   {
+    "da": "jeg har spillet",
+    "en": "I have played (game or instrument)"
+   }
+  ],
+  "explanation": "\"At spille\" means to play a game, a sport or an instrument, or to play music: \"Jeg spiller guitar\" (I play the guitar) and \"Vi spiller fodbold\". It is also used for acting a part in a film. For children's play and for fun, Danish uses \"at lege\". A game is \"et spil\".",
+  "related": [
+   {
+    "da": "at lege",
+    "en": "to play (children)"
+   },
+   {
+    "da": "et spil",
+    "en": "a game"
+   },
+   {
+    "da": "en spiller",
+    "en": "a player"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **spiller** fodbold med mine venner.",
+   "en": "I play football with my friends."
+  }
+ },
+ "at spille fodbold": {
+  "forms": [
+   {
+    "da": "at spille fodbold",
+    "en": "to play soccer"
+   },
+   {
+    "da": "jeg spiller fodbold",
+    "en": "I play soccer"
+   },
+   {
+    "da": "jeg spillede fodbold",
+    "en": "I played soccer"
+   },
+   {
+    "da": "jeg har spillet fodbold",
+    "en": "I have played soccer"
+   }
+  ],
+  "explanation": "\"At spille fodbold\" means to play soccer (football). The verb \"spille\" is used for most games and sports, and also for playing music or a role. The word \"fodbold\" is used without \"en\" here, because you play the sport in general.",
+  "related": [
+   {
+    "da": "fodbold",
+    "en": "soccer / football"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "en bold",
+    "en": "a ball"
+   },
+   {
+    "da": "håndbold",
+    "en": "handball"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **spiller fodbold** hver tirsdag.",
+   "en": "The children play soccer every Tuesday."
+  }
+ },
+ "at spise": {
+  "forms": [
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "jeg spiser",
+    "en": "I eat"
+   },
+   {
+    "da": "jeg spiste",
+    "en": "I ate"
+   },
+   {
+    "da": "jeg har spist",
+    "en": "I have eaten"
+   }
+  ],
+  "explanation": "\"At spise\" means to eat and is used for any meal: \"Vi spiser aftensmad\" (We eat dinner). It is regular and easy. A useful phrase is \"Velbekomme\", which is what you say to someone who has just eaten, a bit like Enjoy your meal. For drinking, use \"at drikke\".",
+  "related": [
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
    {
     "da": "et måltid",
     "en": "a meal"
    },
    {
-    "da": "en middag",
-    "en": "a dinner"
-   },
-   {
-    "da": "en fællesspisning",
-    "en": "a shared community dinner"
-   },
-   {
-    "da": "at spise",
-    "en": "to eat"
+    "da": "en mad",
+    "en": "food"
    }
   ],
   "sentence": {
-   "da": "Der er en fælles **spisning** i aften.",
-   "en": "There is a shared dinner tonight."
+   "da": "Vi **spiser** aftensmad klokken seks.",
+   "en": "We eat dinner at six o'clock."
+  }
+ },
+ "at spørge": {
+  "forms": [
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   },
+   {
+    "da": "jeg spørger",
+    "en": "I ask"
+   },
+   {
+    "da": "jeg spurgte",
+    "en": "I asked"
+   },
+   {
+    "da": "jeg har spurgt",
+    "en": "I have asked"
+   }
+  ],
+  "explanation": "\"At spørge\" means to ask a question. You ask someone about something: \"Jeg spørger ham om vejen\" (I ask him about the way). Do not mix it up with \"at bede\", which means to ask for something or request it. The past form \"spurgte\" and the \"have\" form \"spurgt\" change the vowel, so learn them as they are.",
+  "related": [
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "at bede om",
+    "en": "to ask for"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **spørge** læreren om hjælp.",
+   "en": "I want to ask the teacher for help."
+  }
+ },
+ "at spørge om": {
+  "forms": [
+   {
+    "da": "at spørge om",
+    "en": "to ask about"
+   },
+   {
+    "da": "jeg spørger om",
+    "en": "I ask about"
+   },
+   {
+    "da": "jeg spurgte om",
+    "en": "I asked about"
+   },
+   {
+    "da": "jeg har spurgt om",
+    "en": "I have asked about"
+   }
+  ],
+  "explanation": "\"At spørge om\" means to ask about or to ask for something. You use it like \"spørge om vej\" (ask for directions) or \"spørge om hjælp\" (ask for help). To ask a plain question, \"at spørge\" alone is enough: \"Må jeg spørge dig om noget?\".",
+  "related": [
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   },
+   {
+    "da": "at bede om",
+    "en": "to ask for / request"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **spørger om** vej.",
+   "en": "I ask for directions."
+  }
+ },
+ "at spørge om vej": {
+  "forms": [
+   {
+    "da": "at spørge om vej",
+    "en": "to ask for directions"
+   },
+   {
+    "da": "jeg spørger om vej",
+    "en": "I ask for directions"
+   },
+   {
+    "da": "jeg spurgte om vej",
+    "en": "I asked for directions"
+   },
+   {
+    "da": "jeg har spurgt om vej",
+    "en": "I have asked for directions"
+   }
+  ],
+  "explanation": "\"At spørge om vej\" means to ask someone how to get somewhere. Notice that Danish says \"om vej\" (about way) and does not put \"the\" or \"a\" in front. A useful question is \"Undskyld, kan du fortælle mig vej til banegården?\". The past form \"spurgte\" is spelled a little differently from the base word, so learn it as it is.",
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road / a way"
+   },
+   {
+    "da": "at finde vej",
+    "en": "to find one's way"
+   },
+   {
+    "da": "til højre",
+    "en": "to the right"
+   },
+   {
+    "da": "til venstre",
+    "en": "to the left"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **spurgte om vej** til banegården.",
+   "en": "I asked for directions to the railway station."
+  }
+ },
+ "at starte": {
+  "forms": [
+   {
+    "da": "at starte",
+    "en": "to start"
+   },
+   {
+    "da": "jeg starter",
+    "en": "I start"
+   },
+   {
+    "da": "jeg startede",
+    "en": "I started"
+   },
+   {
+    "da": "jeg har startet",
+    "en": "I have started"
+   }
+  ],
+  "explanation": "\"At starte\" means to start, and it is used for both people and things: \"Bilen starter ikke\" (The car won't start) and \"Vi starter i morgen\". It is a bit more casual than \"at begynde\". It is a regular word, so the past form is \"startede\". It is used for engines, computers and businesses too.",
+  "related": [
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   },
+   {
+    "da": "en start",
+    "en": "a start"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **starter** på mandag.",
+   "en": "We start on Monday."
+  }
+ },
+ "at stave": {
+  "forms": [
+   {
+    "da": "at stave",
+    "en": "to spell"
+   },
+   {
+    "da": "jeg staver",
+    "en": "I spell"
+   },
+   {
+    "da": "jeg stavede",
+    "en": "I spelled"
+   },
+   {
+    "da": "jeg har stavet",
+    "en": "I have spelled"
+   }
+  ],
+  "explanation": "\"At stave\" means to spell. You will use it a lot when you give your name: \"Kan du stave det?\" means \"Can you spell that?\". It is a regular word. The spelling itself is \"stavning\". Danes often spell out names letter by letter in phone calls, so it is good to know the Danish alphabet.",
+  "related": [
+   {
+    "da": "et bogstav",
+    "en": "a letter"
+   },
+   {
+    "da": "en stavning",
+    "en": "a spelling"
+   },
+   {
+    "da": "et alfabet",
+    "en": "an alphabet"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **stave** dit navn?",
+   "en": "Can you spell your name?"
   }
  },
  "at stille uret": {
@@ -249,34 +1346,2996 @@
    "en": "This weekend we have to set the clock back an hour."
   }
  },
- "svensk": {
+ "at stoppe": {
   "forms": [
    {
-    "da": "en svensk bil",
-    "en": "a Swedish car"
+    "da": "at stoppe",
+    "en": "to stop"
    },
    {
-    "da": "et svensk hus",
-    "en": "a Swedish house"
+    "da": "jeg stopper",
+    "en": "I stop"
    },
    {
-    "da": "svenske biler",
-    "en": "Swedish cars"
+    "da": "jeg stoppede",
+    "en": "I stopped"
+   },
+   {
+    "da": "jeg har stoppet",
+    "en": "I have stopped"
    }
   ],
-  "explanation": "\"Svensk\" is written with a small letter, and the plural is \"svenske\". A Swedish person is \"en svensker\", and the language is also \"svensk\". Written Swedish and Danish are close, but spoken Swedish can be hard for Danes to follow at first.",
+  "explanation": "\"At stoppe\" means to stop, either because something ends or because you make it end: \"Bussen stopper her\" (The bus stops here). You can also stop doing something with \"at\": \"Jeg stopper med at ryge\" (I am quitting smoking). A bus stop is \"et stoppested\". The short, sharp command is \"Stop!\".",
   "related": [
    {
-    "da": "Sverige",
-    "en": "Sweden"
+    "da": "at starte",
+    "en": "to start"
    },
    {
-    "da": "en svensker",
-    "en": "a Swede"
+    "da": "at holde op",
+    "en": "to stop / quit"
    },
    {
-    "da": "norsk",
-    "en": "Norwegian"
+    "da": "et stoppested",
+    "en": "a stop"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen **stopper** ved stationen.",
+   "en": "The bus stops at the station."
+  }
+ },
+ "at studere": {
+  "forms": [
+   {
+    "da": "at studere",
+    "en": "to study"
+   },
+   {
+    "da": "jeg studerer",
+    "en": "I study"
+   },
+   {
+    "da": "jeg studerede",
+    "en": "I studied"
+   },
+   {
+    "da": "jeg har studeret",
+    "en": "I have studied"
+   }
+  ],
+  "explanation": "\"At studere\" means to study, especially at a university or in a serious way: \"Jeg studerer historie\" (I study history). A student is \"en studerende\" or \"en student\". For learning something at home, like for a test, Danes often say \"at læse til en eksamen\". Note that the word ends in -ere, so the past form is \"studerede\".",
+  "related": [
+   {
+    "da": "at læse",
+    "en": "to read / study"
+   },
+   {
+    "da": "en studerende",
+    "en": "a student"
+   },
+   {
+    "da": "en eksamen",
+    "en": "an exam"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **studerer** medicin i Aarhus.",
+   "en": "She studies medicine in Aarhus."
+  }
+ },
+ "at stå": {
+  "forms": [
+   {
+    "da": "at stå",
+    "en": "to stand"
+   },
+   {
+    "da": "jeg står",
+    "en": "I stand"
+   },
+   {
+    "da": "jeg stod",
+    "en": "I stood"
+   },
+   {
+    "da": "jeg har stået",
+    "en": "I have stood"
+   }
+  ],
+  "explanation": "\"At stå\" means to stand, but Danish uses it more broadly: things that stand upright (a bottle on a table) \"står\". It is also used for what is written: \"Der står noget på skiltet\" (Something is written on the sign). \"At stå op\" means to get up out of bed. The past form \"stod\" and the \"have done\" form \"stået\" are irregular.",
+  "related": [
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   },
+   {
+    "da": "at ligge",
+    "en": "to lie (be lying)"
+   },
+   {
+    "da": "at stå op",
+    "en": "to get up"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen **står** foran huset.",
+   "en": "The car is standing in front of the house."
+  }
+ },
+ "at stå i kø": {
+  "forms": [
+   {
+    "da": "at stå i kø",
+    "en": "to stand in line"
+   },
+   {
+    "da": "jeg står i kø",
+    "en": "I stand in line"
+   },
+   {
+    "da": "jeg stod i kø",
+    "en": "I stood in line"
+   },
+   {
+    "da": "jeg har stået i kø",
+    "en": "I have stood in line"
+   }
+  ],
+  "explanation": "\"At stå i kø\" means to stand in line or queue. \"Vi står i kø til biografen\" means \"We are standing in line for the cinema\". The word \"kø\" is an en-word: \"en kø\" (a queue). Danes are quite orderly in queues, and many shops use number tickets, so you take a number and wait.",
+  "related": [
+   {
+    "da": "en kø",
+    "en": "a queue"
+   },
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **står i kø** til biografen.",
+   "en": "We are standing in line for the cinema."
+  }
+ },
+ "at stå op": {
+  "forms": [
+   {
+    "da": "at stå op",
+    "en": "to get up"
+   },
+   {
+    "da": "jeg står op",
+    "en": "I get up"
+   },
+   {
+    "da": "jeg stod op",
+    "en": "I got up"
+   },
+   {
+    "da": "jeg er stået op",
+    "en": "I have gotten up"
+   }
+  ],
+  "explanation": "\"At stå op\" means to get up out of bed in the morning, and it is literally \"to stand up\". It is an irregular verb: \"stod\" is the past form. In the perfect it uses \"er\" (I am), not \"har\": \"Jeg er stået op\". It is not used for standing up from a chair, where Danes say \"at rejse sig\".",
+  "related": [
+   {
+    "da": "at rejse sig",
+    "en": "to stand up"
+   },
+   {
+    "da": "at vågne",
+    "en": "to wake up"
+   },
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "at gå i seng",
+    "en": "to go to bed"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **står op** klokken syv.",
+   "en": "I get up at seven o'clock."
+  }
+ },
+ "at stå på ski": {
+  "forms": [
+   {
+    "da": "at stå på ski",
+    "en": "to ski"
+   },
+   {
+    "da": "jeg står på ski",
+    "en": "I ski"
+   },
+   {
+    "da": "jeg stod på ski",
+    "en": "I skied"
+   },
+   {
+    "da": "jeg har stået på ski",
+    "en": "I have skied"
+   }
+  ],
+  "explanation": "\"At stå på ski\" means to ski. In Danish you literally say that you \"stand on skis\". The same pattern is used for water skiing: \"at stå på vandski\". You say \"ski\" without \"en\" or \"et\" in this phrase.",
+  "related": [
+   {
+    "da": "en ski",
+    "en": "a ski"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   },
+   {
+    "da": "at stå",
+    "en": "to stand"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **står på ski** i Norge hver vinter.",
+   "en": "We ski in Norway every winter."
+  }
+ },
+ "at svare": {
+  "forms": [
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "jeg svarer",
+    "en": "I answer"
+   },
+   {
+    "da": "jeg svarede",
+    "en": "I answered"
+   },
+   {
+    "da": "jeg har svaret",
+    "en": "I have answered"
+   }
+  ],
+  "explanation": "\"At svare\" means to answer or reply. You answer a person with \"svare nogen\" or answer a question with \"svare på et spørgsmål\". \"Svar!\" is the quick command and \"et svar\" is the answer itself. It is the natural partner of \"at spørge\" (to ask).",
+  "related": [
+   {
+    "da": "et svar",
+    "en": "an answer"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   },
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **svarer** på alle mine beskeder.",
+   "en": "She answers all my messages."
+  }
+ },
+ "at svømme": {
+  "forms": [
+   {
+    "da": "at svømme",
+    "en": "to swim"
+   },
+   {
+    "da": "jeg svømmer",
+    "en": "I swim"
+   },
+   {
+    "da": "jeg svømmede",
+    "en": "I swam"
+   },
+   {
+    "da": "jeg har svømmet",
+    "en": "I have swum"
+   }
+  ],
+  "explanation": "\"At svømme\" means to swim: \"Jeg svømmer i havet\" (I swim in the sea). It is regular and easy to use. You can say \"at gå til svømning\" for taking swimming classes, and \"at bade\" for going for a swim or bath for fun. A swimming pool is \"en svømmehal\".",
+  "related": [
+   {
+    "da": "at bade",
+    "en": "to bathe / go for a swim"
+   },
+   {
+    "da": "en svømmehal",
+    "en": "a swimming pool"
+   },
+   {
+    "da": "et hav",
+    "en": "a sea"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **svømmer** i poolen.",
+   "en": "The children are swimming in the pool."
+  }
+ },
+ "at synes": {
+  "forms": [
+   {
+    "da": "at synes",
+    "en": "to think (an opinion)"
+   },
+   {
+    "da": "jeg synes",
+    "en": "I think (in my opinion)"
+   },
+   {
+    "da": "jeg syntes",
+    "en": "I thought"
+   },
+   {
+    "da": "jeg har syntes",
+    "en": "I have thought"
+   }
+  ],
+  "explanation": "\"At synes\" means to think in the sense of having an opinion: \"Jeg synes, det er godt\" (I think it is good). Use it for tastes and views, while \"at tro\" is for guesses about facts. In the past, the form \"syntes\" looks just like the one for the \"have done\" form, which is easy to remember. \"Hvad synes du?\" is a very useful question.",
+  "related": [
+   {
+    "da": "at tro",
+    "en": "to believe"
+   },
+   {
+    "da": "at tænke",
+    "en": "to think"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **synes**, det er en god ide.",
+   "en": "I think it is a good idea."
+  }
+ },
+ "at synge": {
+  "forms": [
+   {
+    "da": "at synge",
+    "en": "to sing"
+   },
+   {
+    "da": "jeg synger",
+    "en": "I sing"
+   },
+   {
+    "da": "jeg sang",
+    "en": "I sang"
+   },
+   {
+    "da": "jeg har sunget",
+    "en": "I have sung"
+   }
+  ],
+  "explanation": "\"At synge\" means to sing. The past form \"sang\" and the \"have\" form \"sunget\" change the vowel, so learn them by heart. The song itself is \"en sang\", and \"en sanger\" is a male singer. Danes love singing together, and \"fællessang\" (singing together) is a popular tradition.",
+  "related": [
+   {
+    "da": "en sang",
+    "en": "a song"
+   },
+   {
+    "da": "en sanger",
+    "en": "a singer"
+   },
+   {
+    "da": "at danse",
+    "en": "to dance"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **synger** en smuk sang.",
+   "en": "She sings a beautiful song."
+  }
+ },
+ "at sælge": {
+  "forms": [
+   {
+    "da": "at sælge",
+    "en": "to sell"
+   },
+   {
+    "da": "jeg sælger",
+    "en": "I sell"
+   },
+   {
+    "da": "jeg solgte",
+    "en": "I sold"
+   },
+   {
+    "da": "jeg har solgt",
+    "en": "I have sold"
+   }
+  ],
+  "explanation": "\"At sælge\" means to sell. It is the opposite of \"at købe\" (to buy). The past form \"solgte\" and the \"have\" form \"solgt\" change the vowel, so learn them as they are. You will see \"Til salg\" on signs, which means \"for sale\".",
+  "related": [
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "et salg",
+    "en": "a sale"
+   },
+   {
+    "da": "en sælger",
+    "en": "a seller"
+   }
+  ],
+  "sentence": {
+   "da": "De **sælger** frisk brød i butikken.",
+   "en": "They sell fresh bread in the shop."
+  }
+ },
+ "at sætte": {
+  "forms": [
+   {
+    "da": "at sætte",
+    "en": "to put / place"
+   },
+   {
+    "da": "jeg sætter",
+    "en": "I put / place"
+   },
+   {
+    "da": "jeg satte",
+    "en": "I put / placed"
+   },
+   {
+    "da": "jeg har sat",
+    "en": "I have put / placed"
+   }
+  ],
+  "explanation": "\"At sætte\" means to put or to place something so that it sits or stands, like a cup on a table. \"Jeg sætter koppen på bordet\" means \"I put the cup on the table\". Be careful not to mix it up with \"at sidde\" (to sit), which describes where you are. \"Sæt dig\" means \"Sit down\".",
+  "related": [
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   },
+   {
+    "da": "at lægge",
+    "en": "to lay down"
+   },
+   {
+    "da": "at stille",
+    "en": "to stand something upright"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **sætter** koppen på bordet.",
+   "en": "I put the cup on the table."
+  }
+ },
+ "at sætte sig": {
+  "forms": [
+   {
+    "da": "at sætte sig",
+    "en": "to sit down"
+   },
+   {
+    "da": "jeg sætter mig",
+    "en": "I sit down"
+   },
+   {
+    "da": "jeg satte mig",
+    "en": "I sat down"
+   },
+   {
+    "da": "jeg har sat mig",
+    "en": "I have sat down"
+   }
+  ],
+  "explanation": "\"At sætte sig\" means to sit down: the movement of taking a seat. Notice the little word \"sig\" always stays with it, and it changes to \"mig\" when you talk about yourself (\"jeg sætter mig\"). To describe already sitting, use \"at sidde\" instead.",
+  "related": [
+   {
+    "da": "at sidde",
+    "en": "to sit (be seated)"
+   },
+   {
+    "da": "en stol",
+    "en": "a chair"
+   },
+   {
+    "da": "at rejse sig",
+    "en": "to stand up"
+   },
+   {
+    "da": "at stå",
+    "en": "to stand"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **sætter mig** ved bordet.",
+   "en": "I sit down at the table."
+  }
+ },
+ "en salat": {
+  "forms": [
+   {
+    "da": "en salat",
+    "en": "a salad / lettuce"
+   },
+   {
+    "da": "salaten",
+    "en": "the salad / the lettuce"
+   },
+   {
+    "da": "salater",
+    "en": "salads"
+   },
+   {
+    "da": "salaterne",
+    "en": "the salads"
+   }
+  ],
+  "explanation": "\"En salat\" can mean a mixed salad as a dish or the lettuce leaves themselves, so the context tells you which one is meant. In a restaurant you will often see it as a side dish, for example \"en grøn salat\" (a green salad). It is an en-word, so you say \"salaten\" for \"the salad\".",
+  "related": [
+   {
+    "da": "en agurk",
+    "en": "a cucumber"
+   },
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en dressing",
+    "en": "a dressing"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **salat** til frokost.",
+   "en": "I would like a salad for lunch."
+  }
+ },
+ "en sandal": {
+  "forms": [
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "sandalen",
+    "en": "the sandal"
+   },
+   {
+    "da": "sandaler",
+    "en": "sandals"
+   },
+   {
+    "da": "sandalerne",
+    "en": "the sandals"
+   }
+  ],
+  "explanation": "\"En sandal\" is one sandal, an open shoe for warm weather. You will mostly use the plural \"sandaler\", since you wear a pair. It is easy to remember, as it is almost the same as the English word. \"Sandalen\" means the sandal.",
+  "related": [
+   {
+    "da": "sandaler",
+    "en": "sandals"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
+   }
+  ],
+  "sentence": {
+   "da": "Min ene **sandal** er gået i stykker.",
+   "en": "One of my sandals has broken."
+  }
+ },
+ "en sandwich": {
+  "forms": [
+   {
+    "da": "en sandwich",
+    "en": "a sandwich"
+   },
+   {
+    "da": "sandwichen",
+    "en": "the sandwich"
+   },
+   {
+    "da": "sandwicher",
+    "en": "sandwiches"
+   },
+   {
+    "da": "sandwicherne",
+    "en": "the sandwiches"
+   }
+  ],
+  "explanation": "\"En sandwich\" is a sandwich, and it is an en-word. It usually means bread with filling that is eaten with your hands, often from a cafe. A traditional Danish lunch is instead \"smørrebrød\", which is open with no top slice of bread.",
+  "related": [
+   {
+    "da": "smørrebrød",
+    "en": "open sandwich"
+   },
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "en toast",
+    "en": "a toasted sandwich"
+   },
+   {
+    "da": "pålæg",
+    "en": "sandwich toppings"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager en **sandwich** med på arbejde.",
+   "en": "I take a sandwich to work."
+  }
+ },
+ "en seng": {
+  "forms": [
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "sengen",
+    "en": "the bed"
+   },
+   {
+    "da": "senge",
+    "en": "beds"
+   },
+   {
+    "da": "sengene",
+    "en": "the beds"
+   }
+  ],
+  "explanation": "\"En seng\" means a bed. It is an en-word, so 'the bed' is \"sengen\" and the plural is \"senge\". Useful phrases are \"at gå i seng\" (to go to bed) and \"at stå ud af sengen\" (to get out of bed). Notice that Danish says \"i seng\" with no word for 'the' or 'a' in the first phrase.",
+  "related": [
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "en pude",
+    "en": "a pillow"
+   },
+   {
+    "da": "et tæppe",
+    "en": "a blanket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg går i **seng** klokken ti.",
+   "en": "I go to bed at ten o'clock."
+  }
+ },
+ "en serviet": {
+  "forms": [
+   {
+    "da": "en serviet",
+    "en": "a napkin"
+   },
+   {
+    "da": "servietten",
+    "en": "the napkin"
+   },
+   {
+    "da": "servietter",
+    "en": "napkins"
+   },
+   {
+    "da": "servietterne",
+    "en": "the napkins"
+   }
+  ],
+  "explanation": "\"En serviet\" is a napkin, an en-word. You get one with your meal in a restaurant, and Danes often put one on their lap at a nice dinner. The plural doubles the \"t\": \"servietter\". It is pronounced \"ser-vi-ET\".",
+  "related": [
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   },
+   {
+    "da": "en gaffel",
+    "en": "a fork"
+   },
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   },
+   {
+    "da": "et bord",
+    "en": "a table"
+   }
+  ],
+  "sentence": {
+   "da": "Har du en **serviet** til mig?",
+   "en": "Do you have a napkin for me?"
+  }
+ },
+ "en side": {
+  "forms": [
+   {
+    "da": "en side",
+    "en": "a page / side"
+   },
+   {
+    "da": "siden",
+    "en": "the page / the side"
+   },
+   {
+    "da": "sider",
+    "en": "pages"
+   },
+   {
+    "da": "siderne",
+    "en": "the pages"
+   }
+  ],
+  "explanation": "\"En side\" can be a page in a book, a side of something, or a web page. It is an en-word, and the plural is \"sider\". \"På side ti\" means on page ten, and \"på den anden side\" means on the other side. \"På den ene side ... på den anden side\" is the Danish \"on the one hand ... on the other\".",
+  "related": [
+   {
+    "da": "en bog",
+    "en": "a book"
+   },
+   {
+    "da": "en hjemmeside",
+    "en": "a website"
+   },
+   {
+    "da": "højre",
+    "en": "right"
+   },
+   {
+    "da": "venstre",
+    "en": "left"
+   }
+  ],
+  "sentence": {
+   "da": "Åbn bogen på **side** ti.",
+   "en": "Open the book on page ten."
+  }
+ },
+ "en skadestue": {
+  "forms": [
+   {
+    "da": "en skadestue",
+    "en": "an ER"
+   },
+   {
+    "da": "skadestuen",
+    "en": "the ER"
+   },
+   {
+    "da": "skadestuer",
+    "en": "ERs"
+   },
+   {
+    "da": "skadestuerne",
+    "en": "the ERs"
+   }
+  ],
+  "explanation": "\"En skadestue\" is an emergency room, where you go for injuries and sudden problems. It is an en-word, made from \"skade\" (injury) and \"stue\" (room). You go \"på skadestuen\" (to the ER), using \"på\", not \"til\".",
+  "related": [
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "en smerte",
+    "en": "a pain"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kørte på **skadestuen**, fordi han faldt.",
+   "en": "We drove to the ER because he fell."
+  }
+ },
+ "en ske": {
+  "forms": [
+   {
+    "da": "en ske",
+    "en": "a spoon"
+   },
+   {
+    "da": "skeen",
+    "en": "the spoon"
+   },
+   {
+    "da": "skeer",
+    "en": "spoons"
+   },
+   {
+    "da": "skeerne",
+    "en": "the spoons"
+   }
+  ],
+  "explanation": "\"En ske\" is a spoon, an en-word. You use it for soup, yoghurt and porridge. The plural is \"skeer\", which looks odd, but it is the right form. \"En teske\" and \"en spiseske\" are a teaspoon and a tablespoon.",
+  "related": [
+   {
+    "da": "en gaffel",
+    "en": "a fork"
+   },
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser suppen med en **ske**.",
+   "en": "I eat the soup with a spoon."
+  }
+ },
+ "en skinke": {
+  "forms": [
+   {
+    "da": "en skinke",
+    "en": "a ham"
+   },
+   {
+    "da": "skinken",
+    "en": "the ham"
+   },
+   {
+    "da": "skinker",
+    "en": "hams"
+   },
+   {
+    "da": "skinkerne",
+    "en": "the hams"
+   }
+  ],
+  "explanation": "\"En skinke\" is ham, the cured pork you put on bread or eat with a meal. In daily talk people often say \"skinke\" for slices of ham, as in \"et stykke skinke\" (a piece of ham). It is very common on Danish open sandwiches and in toasties.",
+  "related": [
+   {
+    "da": "pålæg",
+    "en": "sandwich toppings / cold cuts"
+   },
+   {
+    "da": "en ost",
+    "en": "a cheese"
+   },
+   {
+    "da": "en bacon",
+    "en": "a bacon"
+   },
+   {
+    "da": "en pølse",
+    "en": "a sausage"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have brød med **skinke** og ost.",
+   "en": "I want bread with ham and cheese."
+  }
+ },
+ "en skive": {
+  "forms": [
+   {
+    "da": "en skive",
+    "en": "a slice"
+   },
+   {
+    "da": "skiven",
+    "en": "the slice"
+   },
+   {
+    "da": "skiver",
+    "en": "slices"
+   },
+   {
+    "da": "skiverne",
+    "en": "the slices"
+   }
+  ],
+  "explanation": "\"En skive\" is a slice, for example a slice of bread, cheese or sausage. You say \"en skive brød\" (a slice of bread) and \"to skiver ost\" (two slices of cheese). It is an en-word. A slice of cake is more often \"et stykke kage\".",
+  "related": [
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "ost",
+    "en": "cheese"
+   },
+   {
+    "da": "et stykke",
+    "en": "a piece"
+   },
+   {
+    "da": "en skive brød",
+    "en": "a slice of bread"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have en **skive** brød.",
+   "en": "I want a slice of bread."
+  }
+ },
+ "en skjorte": {
+  "forms": [
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   },
+   {
+    "da": "skjorten",
+    "en": "the shirt"
+   },
+   {
+    "da": "skjorter",
+    "en": "shirts"
+   },
+   {
+    "da": "skjorterne",
+    "en": "the shirts"
+   }
+  ],
+  "explanation": "\"En skjorte\" is a shirt with a collar and buttons. It is an en-word. A casual shirt without a collar is \"en t-shirt\" or \"en trøje\" in Danish. Note the \"j\" in the spelling: it is \"skjorte\", pronounced roughly like \"skyor-te\".",
+  "related": [
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "en t-shirt",
+    "en": "a t-shirt"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "bukser",
+    "en": "pants"
+   }
+  ],
+  "sentence": {
+   "da": "Han har en hvid **skjorte** på.",
+   "en": "He is wearing a white shirt."
+  }
+ },
+ "en sko": {
+  "forms": [
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "skoen",
+    "en": "the shoe"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "skoene",
+    "en": "the shoes"
+   }
+  ],
+  "explanation": "\"En sko\" is one shoe. The plural is the same as the single word, \"sko\", so \"to sko\" means two shoes. Add \"en\" for \"the shoe\" (\"skoen\") and \"ene\" for \"the shoes\" (\"skoene\"). Danes often take their shoes off when they come into someone's home.",
+  "related": [
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en hjemmesko",
+    "en": "a slipper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et hul i min **sko**.",
+   "en": "I have a hole in my shoe."
+  }
+ },
+ "en skobutik": {
+  "forms": [
+   {
+    "da": "en skobutik",
+    "en": "a shoe store"
+   },
+   {
+    "da": "skobutikken",
+    "en": "the shoe store"
+   },
+   {
+    "da": "skobutikker",
+    "en": "shoe stores"
+   },
+   {
+    "da": "skobutikkerne",
+    "en": "the shoe stores"
+   }
+  ],
+  "explanation": "\"En skobutik\" is a shoe store, from \"sko\" (shoes) and \"en butik\" (a shop). Danish likes to join words like this, so you can often guess a new word. \"Skobutikken\" means the shoe store. It is a good word to use when you ask for directions.",
+  "related": [
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "en tøjbutik",
+    "en": "a clothing store"
+   },
+   {
+    "da": "en størrelse",
+    "en": "a size"
+   },
+   {
+    "da": "et prøverum",
+    "en": "a fitting room"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal i **skobutikken** efter nye sko.",
+   "en": "I am going to the shoe store for new shoes."
+  }
+ },
+ "en skole": {
+  "forms": [
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "skolen",
+    "en": "the school"
+   },
+   {
+    "da": "skoler",
+    "en": "schools"
+   },
+   {
+    "da": "skolerne",
+    "en": "the schools"
+   }
+  ],
+  "explanation": "En skole is a school. Notice the small trick: to say that someone attends school, Danes say \"i skole\" with no \"en\" or \"the\", as in \"Børnene er i skole\". To talk about the building you say \"skolen\" (the school). It is an en-word, and the word is also used in compounds like \"en folkeskole\", the Danish state school.",
+  "related": [
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "en klasse",
+    "en": "a class"
+   },
+   {
+    "da": "et universitet",
+    "en": "a university"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter går i **skole**.",
+   "en": "My daughter goes to school."
+  }
+ },
+ "en skov": {
+  "forms": [
+   {
+    "da": "en skov",
+    "en": "a forest"
+   },
+   {
+    "da": "skoven",
+    "en": "the forest"
+   },
+   {
+    "da": "skove",
+    "en": "forests"
+   },
+   {
+    "da": "skovene",
+    "en": "the forests"
+   }
+  ],
+  "explanation": "\"En skov\" means a forest or woods. It is an en-word, so 'the forest' is \"skoven\" and the plural is \"skove\". Danes love a walk in the woods, called \"en skovtur\". Don't mix it up with \"et træ\" (a tree).",
+  "related": [
+   {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip / walk"
+   },
+   {
+    "da": "en natur",
+    "en": "nature"
+   },
+   {
+    "da": "en mark",
+    "en": "a field"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går en tur i **skoven**.",
+   "en": "We take a walk in the forest."
+  }
+ },
+ "en skulder": {
+  "forms": [
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   },
+   {
+    "da": "skulderen",
+    "en": "the shoulder"
+   },
+   {
+    "da": "skuldre",
+    "en": "shoulders"
+   },
+   {
+    "da": "skuldrene",
+    "en": "the shoulders"
+   }
+  ],
+  "explanation": "\"En skulder\" is a shoulder. It is an en-word, and the word for more than one drops the e: \"skuldre\". It is often used with pain: \"Jeg har ondt i skulderen\" (My shoulder hurts). It also shows up in \"at trække på skuldrene\" (to shrug).",
+  "related": [
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "en ryg",
+    "en": "a back"
+   },
+   {
+    "da": "en hals",
+    "en": "a throat / neck"
+   },
+   {
+    "da": "en albue",
+    "en": "an elbow"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i min **skulder**.",
+   "en": "My shoulder hurts."
+  }
+ },
+ "en sky": {
+  "forms": [
+   {
+    "da": "en sky",
+    "en": "a cloud"
+   },
+   {
+    "da": "skyen",
+    "en": "the cloud"
+   },
+   {
+    "da": "skyer",
+    "en": "clouds"
+   },
+   {
+    "da": "skyerne",
+    "en": "the clouds"
+   }
+  ],
+  "explanation": "En sky is a cloud. It is an en-word, so \"the cloud\" is \"skyen\", and more than one is \"skyer\". The same spelling also exists as a different word, \"sky\", which means shy (\"Han er sky\" means \"He is shy\"), so look at the whole sentence. \"Skyet\" means cloudy.",
+  "related": [
+   {
+    "da": "en himmel",
+    "en": "a sky"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "skyet",
+    "en": "cloudy"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en stor mørk **sky** over os.",
+   "en": "There is a big dark cloud over us."
+  }
+ },
+ "en skål": {
+  "forms": [
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   },
+   {
+    "da": "skålen",
+    "en": "the bowl"
+   },
+   {
+    "da": "skåle",
+    "en": "bowls"
+   },
+   {
+    "da": "skålene",
+    "en": "the bowls"
+   }
+  ],
+  "explanation": "\"En skål\" is a bowl, an en-word. The same word, \"Skål!\", is also what you say as a toast, like \"Cheers!\". Be careful: the toast is said without \"en\", while the bowl is \"en skål\" with an article. The plural \"skåle\" is used for several bowls.",
+  "related": [
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "en ske",
+    "en": "a spoon"
+   },
+   {
+    "da": "skål",
+    "en": "cheers"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser suppe af en **skål**.",
+   "en": "I eat soup from a bowl."
+  }
+ },
+ "en smartphone": {
+  "forms": [
+   {
+    "da": "en smartphone",
+    "en": "a smartphone"
+   },
+   {
+    "da": "smartphonen",
+    "en": "the smartphone"
+   },
+   {
+    "da": "smartphones",
+    "en": "smartphones"
+   },
+   {
+    "da": "smartphonerne",
+    "en": "the smartphones"
+   }
+  ],
+  "explanation": "\"En smartphone\" is a phone that can run apps and use the internet, just like in English. Danes often just say \"en mobil\" instead, which covers any mobile phone. It is an en-word, so you say \"en smartphone\" and \"min smartphone\".",
+  "related": [
+   {
+    "da": "en mobil",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "en app",
+    "en": "an app"
+   },
+   {
+    "da": "en skærm",
+    "en": "a screen"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
+   }
+  ],
+  "sentence": {
+   "da": "Min **smartphone** er næsten ny.",
+   "en": "My smartphone is almost new."
+  }
+ },
+ "en smerte": {
+  "forms": [
+   {
+    "da": "en smerte",
+    "en": "a pain"
+   },
+   {
+    "da": "smerten",
+    "en": "the pain"
+   },
+   {
+    "da": "smerter",
+    "en": "pains"
+   },
+   {
+    "da": "smerterne",
+    "en": "the pains"
+   }
+  ],
+  "explanation": "\"En smerte\" is a pain. It is an en-word. It is mostly used in the more than one form: \"Jeg har smerter\" means \"I am in pain\". For a pain in one place, Danes often say \"ondt\", as in \"Jeg har ondt i hovedet\". \"Smerte\" sounds a bit more formal or serious.",
+  "related": [
+   {
+    "da": "ondt",
+    "en": "pain / hurt"
+   },
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   },
+   {
+    "da": "en mavepine",
+    "en": "a stomachache"
+   },
+   {
+    "da": "en pille",
+    "en": "a pill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **smerter** i ryggen.",
+   "en": "I have pain in my back."
+  }
+ },
+ "en sms": {
+  "forms": [
+   {
+    "da": "en sms",
+    "en": "a text message"
+   },
+   {
+    "da": "smsen",
+    "en": "the text message"
+   },
+   {
+    "da": "sms'er",
+    "en": "text messages"
+   },
+   {
+    "da": "sms'erne",
+    "en": "the text messages"
+   }
+  ],
+  "explanation": "\"En sms\" is a text message sent from a phone, said \"es-em-es\". It is an en-word, and the plural has an apostrophe: \"sms'er\". Danes also use it as a verb: \"at sms'e\" or \"at sende en sms\". For messages in chat apps, \"en besked\" is more usual.",
+  "related": [
+   {
+    "da": "en besked",
+    "en": "a message"
+   },
+   {
+    "da": "at sende en sms",
+    "en": "to text"
+   },
+   {
+    "da": "en mobil",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sender dig en **sms** i aften.",
+   "en": "I will send you a text message tonight."
+  }
+ },
+ "en snack": {
+  "forms": [
+   {
+    "da": "en snack",
+    "en": "a snack"
+   },
+   {
+    "da": "snacken",
+    "en": "the snack"
+   },
+   {
+    "da": "snacks",
+    "en": "snacks"
+   }
+  ],
+  "explanation": "\"En snack\" is a small bite to eat between meals, borrowed from English, and it means the same thing. It can be something healthy like fruit or something like chips. In the plural the word is just \"snacks\". For a small thing to eat you can also say \"en bid mad\".",
+  "related": [
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "chips",
+    "en": "chips / crisps"
+   },
+   {
+    "da": "slik",
+    "en": "sweets / candy"
+   },
+   {
+    "da": "frugt",
+    "en": "fruit"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager en **snack** med i skole.",
+   "en": "I take a snack to school."
+  }
+ },
+ "en sodavand": {
+  "forms": [
+   {
+    "da": "en sodavand",
+    "en": "a soda"
+   },
+   {
+    "da": "sodavanden",
+    "en": "the soda"
+   },
+   {
+    "da": "sodavand",
+    "en": "sodas"
+   },
+   {
+    "da": "sodavandene",
+    "en": "the sodas"
+   }
+  ],
+  "explanation": "\"En sodavand\" is a fizzy soft drink, such as cola or lemonade, and it is an en-word. It is built from \"soda\" and \"vand\" (water). You can ask for \"en cola\" or \"en appelsinsodavand\" for a specific kind, and for more than one you say \"to sodavand\".",
+  "related": [
+   {
+    "da": "en drik",
+    "en": "a drink"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   },
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg få en **sodavand**, tak?",
+   "en": "May I have a soda, please?"
+  }
+ },
+ "en sofa": {
+  "forms": [
+   {
+    "da": "en sofa",
+    "en": "a sofa"
+   },
+   {
+    "da": "sofaen",
+    "en": "the sofa"
+   },
+   {
+    "da": "sofaer",
+    "en": "sofas"
+   },
+   {
+    "da": "sofaerne",
+    "en": "the sofas"
+   }
+  ],
+  "explanation": "\"Sofa\" is a sofa or couch, and it is an en-word. Danes say \"i sofaen\" for on the sofa, because you sit in it. It is the main seat of a living room, so you will meet it together with \"en stue\" (a living room) and \"et bord\" (a table).",
+  "related": [
+   {
+    "da": "en stol",
+    "en": "a chair"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "et bord",
+    "en": "a table"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   }
+  ],
+  "sentence": {
+   "da": "Katten sover i **sofaen**.",
+   "en": "The cat sleeps on the sofa."
+  }
+ },
+ "en sok": {
+  "forms": [
+   {
+    "da": "en sok",
+    "en": "a sock"
+   },
+   {
+    "da": "sokken",
+    "en": "the sock"
+   },
+   {
+    "da": "sokker",
+    "en": "socks"
+   },
+   {
+    "da": "sokkerne",
+    "en": "the socks"
+   }
+  ],
+  "explanation": "\"En sok\" is a sock. Like with shoes, you mostly say the plural \"sokker\", since socks come in pairs. A pair is \"et par sokker\". \"En strømpe\" is the more general word for sock or stocking. If one goes missing, say \"Jeg mangler en sok\" (I am missing a sock).",
+  "related": [
+   {
+    "da": "en strømpe",
+    "en": "a stocking / sock"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "undertøj",
+    "en": "underwear"
+   },
+   {
+    "da": "et par",
+    "en": "a pair"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg mangler en **sok**.",
+   "en": "I am missing a sock."
+  }
+ },
+ "en sol": {
+  "forms": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "solen",
+    "en": "the sun"
+   },
+   {
+    "da": "i solen",
+    "en": "in the sun"
+   }
+  ],
+  "explanation": "En sol is a sun. In daily life you almost always hear it as \"solen\" (the sun), as in \"Solen skinner\" (the sun is shining). You say \"i solen\" for \"in the sun\", for example when you sit outside. The word is an en-word. It is also found in many words about the weather and holidays, such as \"solskin\" (sunshine) and \"en solbrille\" (sunglasses).",
+  "related": [
+   {
+    "da": "en måne",
+    "en": "a moon"
+   },
+   {
+    "da": "en stjerne",
+    "en": "a star"
+   },
+   {
+    "da": "solskin",
+    "en": "sunshine"
+   },
+   {
+    "da": "varm",
+    "en": "warm"
+   }
+  ],
+  "sentence": {
+   "da": "**Solen** skinner i dag.",
+   "en": "The sun is shining today."
+  }
+ },
+ "en sommer": {
+  "forms": [
+   {
+    "da": "en sommer",
+    "en": "a summer"
+   },
+   {
+    "da": "sommeren",
+    "en": "the summer"
+   },
+   {
+    "da": "somre",
+    "en": "summers"
+   },
+   {
+    "da": "somrene",
+    "en": "the summers"
+   }
+  ],
+  "explanation": "En sommer is a summer. It is an en-word, and \"the summer\" is \"sommeren\". The more-than-one form is shorter than you might guess: \"somre\". Useful phrases are \"om sommeren\" (in the summer, in general) and \"i sommer\" (this summer). Danish summers are short but bright, with long evenings.",
+  "related": [
+   {
+    "da": "en vinter",
+    "en": "a winter"
+   },
+   {
+    "da": "et forår",
+    "en": "a spring"
+   },
+   {
+    "da": "et efterår",
+    "en": "an autumn"
+   },
+   {
+    "da": "varm",
+    "en": "warm"
+   }
+  ],
+  "sentence": {
+   "da": "Det er varmt om **sommeren**.",
+   "en": "It is warm in the summer."
+  }
+ },
+ "en sommerferie": {
+  "forms": [
+   {
+    "da": "en sommerferie",
+    "en": "a summer vacation"
+   },
+   {
+    "da": "sommerferien",
+    "en": "the summer vacation"
+   },
+   {
+    "da": "sommerferier",
+    "en": "summer vacations"
+   },
+   {
+    "da": "sommerferierne",
+    "en": "the summer vacations"
+   }
+  ],
+  "explanation": "\"En sommerferie\" is a summer vacation or summer holiday. It is made from \"sommer\" (summer) and \"ferie\" (holiday). Many Danes take several weeks off in July, so you will often hear \"i sommerferien\" (during the summer vacation).",
+  "related": [
+   {
+    "da": "en ferie",
+    "en": "a holiday"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
+   },
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager til Spanien i **sommerferien**.",
+   "en": "We are going to Spain in the summer vacation."
+  }
+ },
+ "en sovs": {
+  "forms": [
+   {
+    "da": "en sovs",
+    "en": "a sauce / gravy"
+   },
+   {
+    "da": "sovsen",
+    "en": "the sauce / the gravy"
+   },
+   {
+    "da": "sovse",
+    "en": "sauces"
+   },
+   {
+    "da": "sovsene",
+    "en": "the sauces"
+   }
+  ],
+  "explanation": "\"En sovs\" is a sauce or gravy, an en-word. It is the brown gravy you get with roast pork or meatballs in traditional Danish food. Another everyday spelling you may see is \"sauce\", but \"sovs\" is the usual Danish form.",
+  "related": [
+   {
+    "da": "en frikadelle",
+    "en": "a meatball"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "peber",
+    "en": "pepper"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   }
+  ],
+  "sentence": {
+   "da": "Frikadellerne smager godt med brun **sovs**.",
+   "en": "The meatballs taste good with brown gravy."
+  }
+ },
+ "en spisning": {
+  "forms": [
+   {
+    "da": "en spisning",
+    "en": "a meal (a shared event)"
+   },
+   {
+    "da": "spisningen",
+    "en": "the meal"
+   },
+   {
+    "da": "spisninger",
+    "en": "meals"
+   },
+   {
+    "da": "spisningerne",
+    "en": "the meals"
+   }
+  ],
+  "explanation": "\"Spisning\" is a meal as an event, usually an organised one where people sit down together, as in a club or a community dinner. For the plain food you eat on an ordinary day, Danes use \"et måltid\" or just \"mad\". You will often see it in \"fællesspisning\", a shared community dinner that is popular in Denmark.",
+  "related": [
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   },
+   {
+    "da": "en fællesspisning",
+    "en": "a shared community dinner"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en fælles **spisning** i aften.",
+   "en": "There is a shared dinner tonight."
+  }
+ },
+ "en station": {
+  "forms": [
+   {
+    "da": "en station",
+    "en": "a station"
+   },
+   {
+    "da": "stationen",
+    "en": "the station"
+   },
+   {
+    "da": "stationer",
+    "en": "stations"
+   },
+   {
+    "da": "stationerne",
+    "en": "the stations"
+   }
+  ],
+  "explanation": "En station is a station, a place where trains, metros or buses stop. You say \"på stationen\" for \"at the station\". It is an en-word, so \"the station\" is \"stationen\". If you want to be clear that it is for trains, you can say \"en togstation\". It is stressed on the last part, \"sta-SHOHN\".",
+  "related": [
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Toget kommer til **stationen** om fem minutter.",
+   "en": "The train comes to the station in five minutes."
+  }
+ },
+ "en stegepande": {
+  "forms": [
+   {
+    "da": "en stegepande",
+    "en": "a frying pan"
+   },
+   {
+    "da": "stegepanden",
+    "en": "the frying pan"
+   },
+   {
+    "da": "stegepander",
+    "en": "frying pans"
+   },
+   {
+    "da": "stegepanderne",
+    "en": "the frying pans"
+   }
+  ],
+  "explanation": "\"En stegepande\" is a frying pan, and it is an en-word. It is built from \"stege\" (to fry) and \"pande\" (pan), written as one word. You cook with it on the stove. Many Danes also say just \"en pande\". The ending \"-pande\" is the same as in \"en pande\" (a pan), so you can guess related words like \"en wokpande\".",
+  "related": [
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "en gryde",
+    "en": "a pot"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "olie",
+    "en": "oil"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg steger æg i **stegepanden**.",
+   "en": "I fry eggs in the frying pan."
+  }
+ },
+ "en sten": {
+  "forms": [
+   {
+    "da": "en sten",
+    "en": "a stone"
+   },
+   {
+    "da": "stenen",
+    "en": "the stone"
+   },
+   {
+    "da": "sten",
+    "en": "stones"
+   },
+   {
+    "da": "stenene",
+    "en": "the stones"
+   }
+  ],
+  "explanation": "\"Sten\" means a stone or a rock you can pick up. \"Stones\" looks exactly like \"a stone\" (\"sten\"), and only \"the stones\" (\"stenene\") shows it is more than one. As a material it has no article: \"et hus af sten\" is \"a house of stone\".",
+  "related": [
+   {
+    "da": "en klippe",
+    "en": "a cliff, a large rock"
+   },
+   {
+    "da": "et bjerg",
+    "en": "a mountain"
+   },
+   {
+    "da": "grus",
+    "en": "gravel"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   }
+  ],
+  "sentence": {
+   "da": "Der ligger en **sten** på vejen.",
+   "en": "There is a stone on the road."
+  }
+ },
+ "en stjerne": {
+  "forms": [
+   {
+    "da": "en stjerne",
+    "en": "a star"
+   },
+   {
+    "da": "stjernen",
+    "en": "the star"
+   },
+   {
+    "da": "stjerner",
+    "en": "stars"
+   },
+   {
+    "da": "stjernerne",
+    "en": "the stars"
+   }
+  ],
+  "explanation": "En stjerne is a star, either in the sky or as a rating, for example a hotel with \"fem stjerner\" (five stars). It is an en-word, so \"the star\" is \"stjernen\". The \"stj\" at the start is said a bit like \"st-y\", and the j is hardly heard. On a clear night you can see many stars.",
+  "related": [
+   {
+    "da": "en måne",
+    "en": "a moon"
+   },
+   {
+    "da": "en himmel",
+    "en": "a sky"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan se mange **stjerner** i nat.",
+   "en": "We can see many stars tonight."
+  }
+ },
+ "en stol": {
+  "forms": [
+   {
+    "da": "en stol",
+    "en": "a chair"
+   },
+   {
+    "da": "stolen",
+    "en": "the chair"
+   },
+   {
+    "da": "stole",
+    "en": "chairs"
+   },
+   {
+    "da": "stolene",
+    "en": "the chairs"
+   }
+  ],
+  "explanation": "\"En stol\" means a chair. It is an en-word, so 'the chair' is \"stolen\" and the plural is \"stole\". It goes naturally with the verb \"at sidde\": \"at sidde på en stol\" (to sit on a chair). A soft armchair is \"en lænestol\".",
+  "related": [
+   {
+    "da": "et bord",
+    "en": "a table"
+   },
+   {
+    "da": "en lænestol",
+    "en": "an armchair"
+   },
+   {
+    "da": "en sofa",
+    "en": "a sofa"
+   },
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   }
+  ],
+  "sentence": {
+   "da": "Sæt dig på **stolen**.",
+   "en": "Sit on the chair."
+  }
+ },
+ "en storebror": {
+  "forms": [
+   {
+    "da": "en storebror",
+    "en": "a big brother"
+   },
+   {
+    "da": "storebroren",
+    "en": "the big brother"
+   },
+   {
+    "da": "storebrødre",
+    "en": "big brothers"
+   },
+   {
+    "da": "storebrødrene",
+    "en": "the big brothers"
+   }
+  ],
+  "explanation": "\"En storebror\" is an older brother, literally \"big brother\". Danes use it for any brother who is older than you, whatever the gap. The younger one is \"en lillebror\". In the plural the vowel changes: \"storebrødre\".",
+  "related": [
+   {
+    "da": "en lillebror",
+    "en": "a little brother"
+   },
+   {
+    "da": "en storesøster",
+    "en": "a big sister"
+   },
+   {
+    "da": "en bror",
+    "en": "a brother"
+   },
+   {
+    "da": "søskende",
+    "en": "siblings"
+   }
+  ],
+  "sentence": {
+   "da": "Min **storebror** bor i København.",
+   "en": "My big brother lives in Copenhagen."
+  }
+ },
+ "en storesøster": {
+  "forms": [
+   {
+    "da": "en storesøster",
+    "en": "a big sister"
+   },
+   {
+    "da": "storesøsteren",
+    "en": "the big sister"
+   },
+   {
+    "da": "storesøstre",
+    "en": "big sisters"
+   },
+   {
+    "da": "storesøstrene",
+    "en": "the big sisters"
+   }
+  ],
+  "explanation": "\"En storesøster\" is an older sister, literally \"big sister\". It is used for any sister who is older than you. The younger one is \"en lillesøster\". The plural drops an e: \"storesøstre\".",
+  "related": [
+   {
+    "da": "en lillesøster",
+    "en": "a little sister"
+   },
+   {
+    "da": "en storebror",
+    "en": "a big brother"
+   },
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "søskende",
+    "en": "siblings"
+   }
+  ],
+  "sentence": {
+   "da": "Min **storesøster** er tre år ældre end mig.",
+   "en": "My big sister is three years older than me."
+  }
+ },
+ "en storm": {
+  "forms": [
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "stormen",
+    "en": "the storm"
+   },
+   {
+    "da": "storme",
+    "en": "storms"
+   },
+   {
+    "da": "stormene",
+    "en": "the storms"
+   }
+  ],
+  "explanation": "\"Storm\" is a proper storm with strong wind, and Danes use it for the autumn and winter storms that sweep in from the North Sea. The plural is \"storme\" (not \"stormer\"), which is easy to get wrong. A gentler wind is just \"blæst\", and a hurricane is \"en orkan\".",
+  "related": [
+   {
+    "da": "et uvejr",
+    "en": "bad weather"
+   },
+   {
+    "da": "en orkan",
+    "en": "a hurricane"
+   },
+   {
+    "da": "blæst",
+    "en": "wind, blustery weather"
+   },
+   {
+    "da": "en vind",
+    "en": "a wind"
+   }
+  ],
+  "sentence": {
+   "da": "Der kommer **en storm** i nat.",
+   "en": "A storm is coming tonight."
+  }
+ },
+ "en strand": {
+  "forms": [
+   {
+    "da": "en strand",
+    "en": "a beach"
+   },
+   {
+    "da": "stranden",
+    "en": "the beach"
+   },
+   {
+    "da": "strande",
+    "en": "beaches"
+   },
+   {
+    "da": "strandene",
+    "en": "the beaches"
+   }
+  ],
+  "explanation": "En strand is a beach, the sandy or stony edge of the sea. Danes love their beaches in summer. Note that you say \"på stranden\" (literally \"on the beach\") where English says \"at the beach\" or \"on the beach\". The word is an en-word, and \"the beach\" is \"stranden\".",
+  "related": [
+   {
+    "da": "et hav",
+    "en": "a sea"
+   },
+   {
+    "da": "en kyst",
+    "en": "a coast"
+   },
+   {
+    "da": "en bølge",
+    "en": "a wave"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går en tur på **stranden**.",
+   "en": "We are going for a walk on the beach."
+  }
+ },
+ "en strømpe": {
+  "forms": [
+   {
+    "da": "en strømpe",
+    "en": "a stocking / sock"
+   },
+   {
+    "da": "strømpen",
+    "en": "the stocking"
+   },
+   {
+    "da": "strømper",
+    "en": "stockings"
+   },
+   {
+    "da": "strømperne",
+    "en": "the stockings"
+   }
+  ],
+  "explanation": "\"En strømpe\" is a stocking or a sock. In everyday talk, many Danes say \"en sok\" for a short sock, and \"strømpe\" is used for longer ones or in a general way. You will also see \"strømpebukser\" (tights). The plural is \"strømper\".",
+  "related": [
+   {
+    "da": "en sok",
+    "en": "a sock"
+   },
+   {
+    "da": "strømpebukser",
+    "en": "tights"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "undertøj",
+    "en": "underwear"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et hul i min **strømpe**.",
+   "en": "I have a hole in my sock."
+  }
+ },
+ "en stue": {
+  "forms": [
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "stuen",
+    "en": "the living room"
+   },
+   {
+    "da": "stuer",
+    "en": "living rooms"
+   },
+   {
+    "da": "stuerne",
+    "en": "the living rooms"
+   }
+  ],
+  "explanation": "\"En stue\" is a living room, the room where you sit, relax and have guests, and it is an en-word. It also gives names to floors: \"stuen\" or \"stueetagen\" is the ground floor. Some people also say \"opholdsstue\" for it, but \"stue\" is the normal word.",
+  "related": [
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en sofa",
+    "en": "a sofa"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sidder i **stuen** og ser tv.",
+   "en": "We sit in the living room and watch TV."
+  }
+ },
+ "en størrelse": {
+  "forms": [
+   {
+    "da": "en størrelse",
+    "en": "a size"
+   },
+   {
+    "da": "størrelsen",
+    "en": "the size"
+   },
+   {
+    "da": "størrelser",
+    "en": "sizes"
+   },
+   {
+    "da": "størrelserne",
+    "en": "the sizes"
+   }
+  ],
+  "explanation": "\"En størrelse\" means a size, for clothes, shoes or anything else. In a shop you can ask \"Hvilken størrelse har du?\" (What size are you?) or \"Har I den i en større størrelse?\" (Do you have it in a bigger size?). It comes from \"stor\" (big). Clothing sizes are often just letters like S, M and L.",
+  "related": [
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "lille",
+    "en": "small"
+   },
+   {
+    "da": "en farve",
+    "en": "a color"
+   },
+   {
+    "da": "et prøverum",
+    "en": "a fitting room"
+   }
+  ],
+  "sentence": {
+   "da": "Har I den i en anden **størrelse**?",
+   "en": "Do you have it in another size?"
+  }
+ },
+ "en støvle": {
+  "forms": [
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   },
+   {
+    "da": "støvlen",
+    "en": "the boot"
+   },
+   {
+    "da": "støvler",
+    "en": "boots"
+   },
+   {
+    "da": "støvlerne",
+    "en": "the boots"
+   }
+  ],
+  "explanation": "\"En støvle\" is one boot. Most often you hear the plural \"støvler\", because boots come in pairs. They are made for cold or wet weather, and \"gummistøvler\" are rubber boots for rain. The word \"the\" goes on the end: \"støvlen\".",
+  "related": [
+   {
+    "da": "støvler",
+    "en": "boots"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en regnjakke",
+    "en": "a rain jacket"
+   }
+  ],
+  "sentence": {
+   "da": "Min venstre **støvle** er våd.",
+   "en": "My left boot is wet."
+  }
+ },
+ "en suppe": {
+  "forms": [
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "suppen",
+    "en": "the soup"
+   },
+   {
+    "da": "supper",
+    "en": "soups"
+   },
+   {
+    "da": "suppene",
+    "en": "the soups"
+   }
+  ],
+  "explanation": "\"En suppe\" is a soup, an en-word. Soups are popular in the cold Danish months, for example \"tomatsuppe\" or \"hønsekødssuppe\" (chicken soup). You eat soup with a spoon, \"en ske\", and the verb is \"at spise\" (to eat), not \"at drikke\".",
+  "related": [
+   {
+    "da": "en ske",
+    "en": "a spoon"
+   },
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   },
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **suppen** som forret.",
+   "en": "I would like the soup as a starter."
+  }
+ },
+ "en sweater": {
+  "forms": [
+   {
+    "da": "en sweater",
+    "en": "a sweater"
+   },
+   {
+    "da": "sweateren",
+    "en": "the sweater"
+   },
+   {
+    "da": "sweatere",
+    "en": "sweaters"
+   },
+   {
+    "da": "sweaterne",
+    "en": "the sweaters"
+   }
+  ],
+  "explanation": "\"En sweater\" is a sweater, borrowed from English. It is an en-word. In Danish, \"en sweater\" is a bit more modern than \"en trøje\", but both words are widely understood. The word for more than one is \"sweatere\".",
+  "related": [
+   {
+    "da": "en trøje",
+    "en": "a sweater / jumper"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en t-shirt",
+    "en": "a t-shirt"
+   },
+   {
+    "da": "bukser",
+    "en": "pants"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en grå **sweater** på.",
+   "en": "I am wearing a grey sweater."
+  }
+ },
+ "en sygdom": {
+  "forms": [
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   },
+   {
+    "da": "sygdommen",
+    "en": "the disease"
+   },
+   {
+    "da": "sygdomme",
+    "en": "diseases"
+   },
+   {
+    "da": "sygdommene",
+    "en": "the diseases"
+   }
+  ],
+  "explanation": "\"En sygdom\" is a disease or illness. It is an en-word and it comes from \"syg\" (sick). To say you are sick, use \"jeg er syg\", and for the thing you have, use \"en sygdom\". Be careful with \"smerte\", which is pain, not illness.",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "influenza",
+    "en": "the flu"
+   },
+   {
+    "da": "en behandling",
+    "en": "a treatment"
+   }
+  ],
+  "sentence": {
+   "da": "Han har en alvorlig **sygdom**.",
+   "en": "He has a serious illness."
+  }
+ },
+ "en sygeplejerske": {
+  "forms": [
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "sygeplejersken",
+    "en": "the nurse"
+   },
+   {
+    "da": "sygeplejersker",
+    "en": "nurses"
+   },
+   {
+    "da": "sygeplejerskerne",
+    "en": "the nurses"
+   }
+  ],
+  "explanation": "\"En sygeplejerske\" is a nurse. It is a long word, but it breaks into \"syge\" (ill), \"pleje\" (care) and \"-rske\" (a female worker). Many men work as nurses too, and they are also called \"sygeplejerske\" in Danish, so it is not only used for women.",
+  "related": [
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "et hospital",
+    "en": "a hospital"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   },
+   {
+    "da": "at pleje",
+    "en": "to care for"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster er **sygeplejerske** på et hospital.",
+   "en": "My sister is a nurse at a hospital."
+  }
+ },
+ "en sø": {
+  "forms": [
+   {
+    "da": "en sø",
+    "en": "a lake"
+   },
+   {
+    "da": "søen",
+    "en": "the lake"
+   },
+   {
+    "da": "søer",
+    "en": "lakes"
+   },
+   {
+    "da": "søerne",
+    "en": "the lakes"
+   }
+  ],
+  "explanation": "En sø is a lake, a body of fresh water with land all around it. Denmark has lots of them, especially in Jutland, so you will hear the word often when people talk about walks and swimming. It is an en-word, so \"the lake\" is \"søen\". Do not mix it up with \"et hav\" (the sea), which is much bigger and salty.",
+  "related": [
+   {
+    "da": "et hav",
+    "en": "a sea"
+   },
+   {
+    "da": "en å",
+    "en": "a stream"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   }
+  ],
+  "sentence": {
+   "da": "Vi svømmer i **søen** om sommeren.",
+   "en": "We swim in the lake in the summer."
+  }
+ },
+ "en søn": {
+  "forms": [
+   {
+    "da": "en søn",
+    "en": "a son"
+   },
+   {
+    "da": "sønnen",
+    "en": "the son"
+   },
+   {
+    "da": "sønner",
+    "en": "sons"
+   },
+   {
+    "da": "sønnerne",
+    "en": "the sons"
+   }
+  ],
+  "explanation": "\"En søn\" is a son. It is an en-word. Note the \"ø\", a letter that does not exist in English. It sounds a bit like the vowel in \"bird\". The word for a daughter is \"en datter\", and \"et barnebarn\" is a grandchild.",
+  "related": [
+   {
+    "da": "en datter",
+    "en": "a daughter"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en bror",
+    "en": "a brother"
+   },
+   {
+    "da": "en dreng",
+    "en": "a boy"
+   }
+  ],
+  "sentence": {
+   "da": "Min **søn** går i skole.",
+   "en": "My son goes to school."
+  }
+ },
+ "en søster": {
+  "forms": [
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "søsteren",
+    "en": "the sister"
+   },
+   {
+    "da": "søstre",
+    "en": "sisters"
+   },
+   {
+    "da": "søstrene",
+    "en": "the sisters"
+   }
+  ],
+  "explanation": "\"En søster\" is a sister. The plural is \"søstre\", with the \"e\" of the ending dropped. You can say \"storesøster\" for a big sister and \"lillesøster\" for a little sister. The word \"søskende\" covers brothers and sisters together.",
+  "related": [
+   {
+    "da": "en bror",
+    "en": "a brother"
+   },
+   {
+    "da": "søskende",
+    "en": "brothers and sisters"
+   },
+   {
+    "da": "en lillesøster",
+    "en": "a little sister"
+   },
+   {
+    "da": "en datter",
+    "en": "a daughter"
+   }
+  ],
+  "sentence": {
+   "da": "Min **søster** er lærer.",
+   "en": "My sister is a teacher."
+  }
+ },
+ "et sekund": {
+  "forms": [
+   {
+    "da": "et sekund",
+    "en": "a second"
+   },
+   {
+    "da": "sekundet",
+    "en": "the second"
+   },
+   {
+    "da": "sekunder",
+    "en": "seconds"
+   },
+   {
+    "da": "sekunderne",
+    "en": "the seconds"
+   }
+  ],
+  "explanation": "Et sekund is a second, the shortest normal unit of time. It is an et-word, so \"the second\" is \"sekundet\". Note that \"second\" in the sense of \"number two\" is a different word (\"anden\" or \"andet\"). In everyday speech \"et øjeblik\" (a moment) is a very common way to say that something will only take a short while.",
+  "related": [
+   {
+    "da": "et minut",
+    "en": "a minute"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   },
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "hurtig",
+    "en": "fast"
+   }
+  ],
+  "sentence": {
+   "da": "Det tager kun et **sekund**.",
+   "en": "It only takes a second."
+  }
+ },
+ "et skab": {
+  "forms": [
+   {
+    "da": "et skab",
+    "en": "a cupboard"
+   },
+   {
+    "da": "skabet",
+    "en": "the cupboard"
+   },
+   {
+    "da": "skabe",
+    "en": "cupboards"
+   },
+   {
+    "da": "skabene",
+    "en": "the cupboards"
+   }
+  ],
+  "explanation": "\"Et skab\" means a cupboard, a cabinet or a closet, any closed storage space. It is an et-word, so 'the cupboard' is \"skabet\". A kitchen cupboard, a clothes closet and a locker are all \"et skab\", with another word added to be exact.",
+  "related": [
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "en hylde",
+    "en": "a shelf"
+   },
+   {
+    "da": "en skuffe",
+    "en": "a drawer"
+   },
+   {
+    "da": "et køleskab",
+    "en": "a refrigerator"
+   }
+  ],
+  "sentence": {
+   "da": "Tallerkenerne er i **skabet**.",
+   "en": "The plates are in the cupboard."
+  }
+ },
+ "et skib": {
+  "forms": [
+   {
+    "da": "et skib",
+    "en": "a ship"
+   },
+   {
+    "da": "skibet",
+    "en": "the ship"
+   },
+   {
+    "da": "skibe",
+    "en": "ships"
+   },
+   {
+    "da": "skibene",
+    "en": "the ships"
+   }
+  ],
+  "explanation": "Et skib is a ship, a large boat that sails on the sea. For a small boat Danes use \"en båd\", and for a ferry \"en færge\". It is an et-word, so \"the ship\" is \"skibet\". Denmark has a long history of sailing and shipping, so the word is used a lot, also in compound words like \"et krydstogtskib\" (a cruise ship).",
+  "related": [
+   {
+    "da": "en båd",
+    "en": "a boat"
+   },
+   {
+    "da": "en færge",
+    "en": "a ferry"
+   },
+   {
+    "da": "en havn",
+    "en": "a harbour"
+   },
+   {
+    "da": "en kaptajn",
+    "en": "a captain"
+   }
+  ],
+  "sentence": {
+   "da": "**Skibet** sejler til Norge i aften.",
+   "en": "The ship sails to Norway tonight."
+  }
+ },
+ "et skæg": {
+  "forms": [
+   {
+    "da": "et skæg",
+    "en": "a beard"
+   },
+   {
+    "da": "skægget",
+    "en": "the beard"
+   },
+   {
+    "da": "skæg",
+    "en": "beards"
+   },
+   {
+    "da": "skæggene",
+    "en": "the beards"
+   }
+  ],
+  "explanation": "\"Et skæg\" is a beard. It is an et-word, and it looks the same when you talk about more than one. \"En mand med skæg\" means a man with a beard. A moustache is \"et overskæg\", and \"at barbere sig\" means to shave.",
+  "related": [
+   {
+    "da": "et overskæg",
+    "en": "a moustache"
+   },
+   {
+    "da": "et hår",
+    "en": "hair"
+   },
+   {
+    "da": "en barber",
+    "en": "a barber"
+   },
+   {
+    "da": "en frisør",
+    "en": "a hairdresser"
+   }
+  ],
+  "sentence": {
+   "da": "Min far har et langt **skæg**.",
+   "en": "My father has a long beard."
+  }
+ },
+ "et soveværelse": {
+  "forms": [
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
+   },
+   {
+    "da": "soveværelset",
+    "en": "the bedroom"
+   },
+   {
+    "da": "soveværelser",
+    "en": "bedrooms"
+   },
+   {
+    "da": "soveværelserne",
+    "en": "the bedrooms"
+   }
+  ],
+  "explanation": "\"Et soveværelse\" is a bedroom, and it is an et-word. It is built from \"sove\" (to sleep) and \"værelse\" (room), so it is a sleeping room. When people describe a home they often say how many they have: \"en lejlighed med to soveværelser\".",
+  "related": [
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   }
+  ],
+  "sentence": {
+   "da": "Vores lejlighed har to **soveværelser**.",
+   "en": "Our apartment has two bedrooms."
+  }
+ },
+ "et spejl": {
+  "forms": [
+   {
+    "da": "et spejl",
+    "en": "a mirror"
+   },
+   {
+    "da": "spejlet",
+    "en": "the mirror"
+   },
+   {
+    "da": "spejle",
+    "en": "mirrors"
+   },
+   {
+    "da": "spejlene",
+    "en": "the mirrors"
+   }
+  ],
+  "explanation": "\"Et spejl\" is a mirror, and it is an et-word. You find one in the bathroom or hall. The word looks hard to say, so practise: \"spejl\" sounds a little like \"spile\". You look \"i spejlet\" (in the mirror).",
+  "related": [
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "et vindue",
+    "en": "a window"
+   },
+   {
+    "da": "en væg",
+    "en": "a wall"
+   },
+   {
+    "da": "et billede",
+    "en": "a picture"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et stort **spejl** i badeværelset.",
+   "en": "There is a big mirror in the bathroom."
+  }
+ },
+ "et spil": {
+  "forms": [
+   {
+    "da": "et spil",
+    "en": "a game"
+   },
+   {
+    "da": "spillet",
+    "en": "the game"
+   },
+   {
+    "da": "spil",
+    "en": "games"
+   },
+   {
+    "da": "spillene",
+    "en": "the games"
+   }
+  ],
+  "explanation": "\"Et spil\" is a game, like a board game, card game or computer game. It is an et-word, and the plural is the same as the single form: \"spil\". It comes from the verb \"at spille\" (to play).",
+  "related": [
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "et brætspil",
+    "en": "a board game"
+   },
+   {
+    "da": "en leg",
+    "en": "a play / game"
+   },
+   {
+    "da": "legetøj",
+    "en": "toys"
+   }
+  ],
+  "sentence": {
+   "da": "Skal vi spille et **spil**?",
+   "en": "Shall we play a game?"
+  }
+ },
+ "et sprog": {
+  "forms": [
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "sproget",
+    "en": "the language"
+   },
+   {
+    "da": "sprog",
+    "en": "languages"
+   },
+   {
+    "da": "sprogene",
+    "en": "the languages"
+   }
+  ],
+  "explanation": "\"Et sprog\" is a language, and it is an et-word. The plural is the same as the singular: \"tre sprog\" is three languages. Useful questions are \"Hvilket sprog taler du?\" (Which language do you speak?) and \"Taler du engelsk?\". The verb for speaking is \"at tale\" or \"at snakke\".",
+  "related": [
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "at snakke",
+    "en": "to talk"
+   },
+   {
+    "da": "et ord",
+    "en": "a word"
    },
    {
     "da": "dansk",
@@ -284,8 +4343,434 @@
    }
   ],
   "sentence": {
-   "da": "Min nabo er **svensk**.",
-   "en": "My neighbour is Swedish."
+   "da": "Dansk er et svært **sprog**.",
+   "en": "Danish is a difficult language."
+  }
+ },
+ "et spørgsmål": {
+  "forms": [
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "spørgsmålet",
+    "en": "the question"
+   },
+   {
+    "da": "spørgsmål",
+    "en": "questions"
+   },
+   {
+    "da": "spørgsmålene",
+    "en": "the questions"
+   }
+  ],
+  "explanation": "\"Et spørgsmål\" is a question, and it is an et-word. The plural is the same as the singular, so \"to spørgsmål\" means two questions. The verb \"at spørge\" means to ask. A polite way to start is \"Må jeg stille et spørgsmål?\" (May I ask a question?), literally \"put a question\".",
+  "related": [
+   {
+    "da": "et svar",
+    "en": "an answer"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "et problem",
+    "en": "a problem"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et **spørgsmål**.",
+   "en": "I have a question."
+  }
+ },
+ "et sted": {
+  "forms": [
+   {
+    "da": "et sted",
+    "en": "a place"
+   },
+   {
+    "da": "stedet",
+    "en": "the place"
+   },
+   {
+    "da": "steder",
+    "en": "places"
+   },
+   {
+    "da": "stederne",
+    "en": "the places"
+   }
+  ],
+  "explanation": "\"Et sted\" is a place or a spot, and it is an et-word. It combines nicely: \"et sted\" (somewhere), \"alle steder\" (everywhere), \"ingen steder\" (nowhere). The plural is \"steder\". For a spot where you sit or stand, \"en plads\" is also common.",
+  "related": [
+   {
+    "da": "en plads",
+    "en": "a seat/room"
+   },
+   {
+    "da": "overalt",
+    "en": "everywhere"
+   },
+   {
+    "da": "ingen steder",
+    "en": "nowhere"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   }
+  ],
+  "sentence": {
+   "da": "Er der et **sted** at spise her?",
+   "en": "Is there a place to eat here?"
+  }
+ },
+ "et stoppested": {
+  "forms": [
+   {
+    "da": "et stoppested",
+    "en": "a stop"
+   },
+   {
+    "da": "stoppestedet",
+    "en": "the stop"
+   },
+   {
+    "da": "stoppesteder",
+    "en": "stops"
+   },
+   {
+    "da": "stoppestederne",
+    "en": "the stops"
+   }
+  ],
+  "explanation": "\"Et stoppested\" is a place where a bus or other transport stops to let people on and off. It is built from \"stoppe\" (stop) and \"sted\" (place), and it is an et-word. For a bus you can also say \"et busstoppested\". Look for the next one on the display inside the bus.",
+  "related": [
+   {
+    "da": "et busstoppested",
+    "en": "a bus stop"
+   },
+   {
+    "da": "et sted",
+    "en": "a place"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   }
+  ],
+  "sentence": {
+   "da": "Næste **stoppested** er banegården.",
+   "en": "The next stop is the railway station."
+  }
+ },
+ "et stykke": {
+  "forms": [
+   {
+    "da": "et stykke",
+    "en": "a piece"
+   },
+   {
+    "da": "stykket",
+    "en": "the piece"
+   },
+   {
+    "da": "stykker",
+    "en": "pieces"
+   },
+   {
+    "da": "stykkerne",
+    "en": "the pieces"
+   }
+  ],
+  "explanation": "\"Et stykke\" is a piece or a slice of something, such as cake or bread. It is an et-word, and the plural is \"stykker\". In shops it also means \"each\", so \"ti kroner stykket\" means ten kroner each. \"Et stykke kage\" is a piece of cake.",
+  "related": [
+   {
+    "da": "en skive",
+    "en": "a slice"
+   },
+   {
+    "da": "en bid",
+    "en": "a bite"
+   },
+   {
+    "da": "en del",
+    "en": "a part"
+   },
+   {
+    "da": "kage",
+    "en": "cake"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg få et **stykke** kage?",
+   "en": "May I have a piece of cake?"
+  }
+ },
+ "et supermarked": {
+  "forms": [
+   {
+    "da": "et supermarked",
+    "en": "a supermarket"
+   },
+   {
+    "da": "supermarkedet",
+    "en": "the supermarket"
+   },
+   {
+    "da": "supermarkeder",
+    "en": "supermarkets"
+   },
+   {
+    "da": "supermarkederne",
+    "en": "the supermarkets"
+   }
+  ],
+  "explanation": "\"Et supermarked\" is a supermarket, a big shop with food and everyday goods. It is an et-word, so \"the\" goes on the end: \"supermarkedet\". Common Danish chains include Netto, Føtex and Rema 1000. Many Danes just say \"Jeg skal i Netto\" (I am going to Netto).",
+  "related": [
+   {
+    "da": "dagligvarer",
+    "en": "groceries"
+   },
+   {
+    "da": "en indkøbsvogn",
+    "en": "a shopping cart"
+   },
+   {
+    "da": "at købe ind",
+    "en": "to buy groceries"
+   },
+   {
+    "da": "en kiosk",
+    "en": "a kiosk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal i **supermarkedet** efter mælk.",
+   "en": "I am going to the supermarket for milk."
+  }
+ },
+ "et svar": {
+  "forms": [
+   {
+    "da": "et svar",
+    "en": "an answer"
+   },
+   {
+    "da": "svaret",
+    "en": "the answer"
+   },
+   {
+    "da": "svar",
+    "en": "answers"
+   },
+   {
+    "da": "svarene",
+    "en": "the answers"
+   }
+  ],
+  "explanation": "\"Et svar\" is an answer, and it is an et-word. The plural is the same as the singular. The verb is \"at svare\", to answer, as in \"Svar mig!\". \"Tak for svaret\" means thanks for the reply. It is the natural partner of \"et spørgsmål\".",
+  "related": [
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "et ja",
+    "en": "a yes"
+   },
+   {
+    "da": "et nej",
+    "en": "a no"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kender **svaret**.",
+   "en": "I know the answer."
+  }
+ },
+ "et svin": {
+  "forms": [
+   {
+    "da": "et svin",
+    "en": "a pig"
+   },
+   {
+    "da": "svinet",
+    "en": "the pig"
+   },
+   {
+    "da": "svin",
+    "en": "pigs"
+   },
+   {
+    "da": "svinene",
+    "en": "the pigs"
+   }
+  ],
+  "explanation": "\"Et svin\" is a pig, the animal. It is an et-word and the word for more than one stays the same: \"to svin\". Be careful: calling a person \"et svin\" is an insult, a bit like \"swine\". For the meat, Danes say \"svinekød\" (pork).",
+  "related": [
+   {
+    "da": "en gris",
+    "en": "a piglet / pig"
+   },
+   {
+    "da": "et svinekød",
+    "en": "pork"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en gård",
+    "en": "a farm"
+   }
+  ],
+  "sentence": {
+   "da": "Bonden har et **svin** på gården.",
+   "en": "The farmer has a pig on the farm."
+  }
+ },
+ "et sygehus": {
+  "forms": [
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "sygehuset",
+    "en": "the hospital"
+   },
+   {
+    "da": "sygehuse",
+    "en": "hospitals"
+   },
+   {
+    "da": "sygehusene",
+    "en": "the hospitals"
+   }
+  ],
+  "explanation": "Et sygehus is a hospital. It is built from \"syg\" (sick) and \"hus\" (house), so it is easy to remember. You say \"på sygehuset\" for \"at the hospital\". Danes also say \"et hospital\" and use both words, so you will hear both. It is an et-word, so \"the hospital\" is \"sygehuset\".",
+  "related": [
+   {
+    "da": "et hospital",
+    "en": "a hospital"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   }
+  ],
+  "sentence": {
+   "da": "Han er på **sygehuset**.",
+   "en": "He is at the hospital."
+  }
+ },
+ "et sår": {
+  "forms": [
+   {
+    "da": "et sår",
+    "en": "a wound"
+   },
+   {
+    "da": "såret",
+    "en": "the wound"
+   },
+   {
+    "da": "sår",
+    "en": "wounds"
+   },
+   {
+    "da": "sårene",
+    "en": "the wounds"
+   }
+  ],
+  "explanation": "\"Et sår\" is a wound or a sore, such as a cut or a scrape. It is an et-word, and it looks the same with more than one. You put a plaster on it: \"et plaster\". A small cut can also be called \"et lille sår\".",
+  "related": [
+   {
+    "da": "et plaster",
+    "en": "a plaster"
+   },
+   {
+    "da": "en skramme",
+    "en": "a scrape"
+   },
+   {
+    "da": "at bløde",
+    "en": "to bleed"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et **sår** på knæet.",
+   "en": "I have a wound on my knee."
+  }
+ },
+ "salt": {
+  "forms": [
+   {
+    "da": "et salt",
+    "en": "a salt"
+   },
+   {
+    "da": "saltet",
+    "en": "the salt"
+   },
+   {
+    "da": "noget salt",
+    "en": "some salt"
+   }
+  ],
+  "explanation": "\"Salt\" is salt, and it is an et-word, so \"the salt\" is \"saltet\". It is not counted, so you say \"noget salt\" for some. The same word also describes taste: \"det er for salt\" means \"it is too salty\". At the table you might ask \"kan du give mig saltet?\".",
+  "related": [
+   {
+    "da": "peber",
+    "en": "pepper"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   },
+   {
+    "da": "krydderier",
+    "en": "spices"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du give mig **saltet**?",
+   "en": "Can you give me the salt?"
   }
  },
  "saltet": {
@@ -327,6 +4812,1168 @@
    "en": "I like eating salted fish."
   }
  },
+ "samme": {
+  "forms": [
+   {
+    "da": "den samme bil",
+    "en": "the same car"
+   },
+   {
+    "da": "det samme hus",
+    "en": "the same house"
+   },
+   {
+    "da": "de samme biler",
+    "en": "the same cars"
+   }
+  ],
+  "explanation": "\"Samme\" means same, and it never changes its ending. It is almost always used after \"den\", \"det\" or \"de\" (the): \"den samme\" for en-words, \"det samme\" for et-words and \"de samme\" for more than one. \"Det samme\" is also a handy reply meaning \"the same to you\".",
+  "related": [
+   {
+    "da": "anderledes",
+    "en": "different"
+   },
+   {
+    "da": "ens",
+    "en": "alike"
+   },
+   {
+    "da": "lige",
+    "en": "equal / just"
+   },
+   {
+    "da": "forskellig",
+    "en": "different"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har den **samme** bil.",
+   "en": "We have the same car."
+  }
+ },
+ "sammen": {
+  "forms": [
+   {
+    "da": "Vi går sammen.",
+    "en": "We walk together."
+   },
+   {
+    "da": "alle sammen",
+    "en": "all together / everyone"
+   },
+   {
+    "da": "Hvad er det sammen?",
+    "en": "What is that all together?"
+   }
+  ],
+  "explanation": "\"Sammen\" means \"together\". It goes after the verb: \"Vi spiser sammen\" (We eat together). \"Alle sammen\" is a very common phrase meaning \"everyone together\", as in \"Hej alle sammen!\". The opposite is \"alene\" (alone) or \"hver for sig\" (each on their own).",
+  "related": [
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "fælles",
+    "en": "shared / common"
+   },
+   {
+    "da": "sammen med",
+    "en": "together with"
+   },
+   {
+    "da": "hver for sig",
+    "en": "each on their own"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor **sammen**.",
+   "en": "We live together."
+  }
+ },
+ "sandaler": {
+  "forms": [
+   {
+    "da": "sandalerne",
+    "en": "the sandals"
+   },
+   {
+    "da": "brune sandaler",
+    "en": "brown sandals"
+   },
+   {
+    "da": "sandaler om sommeren",
+    "en": "sandals in the summer"
+   }
+  ],
+  "explanation": "\"Sandaler\" means sandals, the plural of \"en sandal\". Danes mostly wear them in the short summer, on the beach or on warm days. Like most plural words for clothes, you use it when you mean a pair. Add \"ne\" on the end to say \"the sandals\": \"sandalerne\".",
+  "related": [
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "støvler",
+    "en": "boots"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **sandaler** på stranden.",
+   "en": "I use sandals on the beach."
+  }
+ },
+ "seks": {
+  "forms": [
+   {
+    "da": "seks æg",
+    "en": "six eggs"
+   },
+   {
+    "da": "klokken seks",
+    "en": "six o'clock"
+   },
+   {
+    "da": "seks gange",
+    "en": "six times"
+   }
+  ],
+  "explanation": "Means \"six\". It is spelled like English \"sex\" in sound, but with \"seks\". It is the base of \"seksten\" (sixteen) and \"tres\" (sixty) is a different word. It looks the same before en-words and et-words.",
+  "related": [
+   {
+    "da": "fem",
+    "en": "five"
+   },
+   {
+    "da": "syv",
+    "en": "seven"
+   },
+   {
+    "da": "seksten",
+    "en": "sixteen"
+   },
+   {
+    "da": "sjette",
+    "en": "sixth"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg står op klokken **seks**.",
+   "en": "I get up at six o'clock."
+  }
+ },
+ "seksten": {
+  "forms": [
+   {
+    "da": "seksten år",
+    "en": "sixteen years"
+   },
+   {
+    "da": "seksten børn",
+    "en": "sixteen children"
+   },
+   {
+    "da": "seksten kroner",
+    "en": "sixteen kroner"
+   }
+  ],
+  "explanation": "Means \"sixteen\". It is \"seks\" (six) plus \"-ten\". The first \"s\" and the \"k\" make a clear sound. Do not mix it up with \"tres\" (sixty) which sounds different. The word is the same before en-words and et-words.",
+  "related": [
+   {
+    "da": "femten",
+    "en": "fifteen"
+   },
+   {
+    "da": "sytten",
+    "en": "seventeen"
+   },
+   {
+    "da": "seks",
+    "en": "six"
+   },
+   {
+    "da": "tres",
+    "en": "sixty"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter er **seksten** år.",
+   "en": "My daughter is sixteen years old."
+  }
+ },
+ "selv": {
+  "forms": [
+   {
+    "da": "Jeg gør det selv.",
+    "en": "I do it myself."
+   },
+   {
+    "da": "Selv børn kan det.",
+    "en": "Even children can do it."
+   },
+   {
+    "da": "Hun lavede maden selv.",
+    "en": "She made the food herself."
+   }
+  ],
+  "explanation": "\"Selv\" has two main jobs. After a person or thing it means \"myself\", \"yourself\" or \"herself\", as in \"Jeg gør det selv\" (I do it myself). At the start it means \"even\", as in \"Selv min mor ved det\" (Even my mother knows it). The meaning is usually clear from where it stands. Don't mix it up with \"sig selv\", which means \"himself\" or \"themselves\".",
+  "related": [
+   {
+    "da": "selvom",
+    "en": "even though"
+   },
+   {
+    "da": "sig selv",
+    "en": "himself / herself / themselves"
+   },
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver maden **selv**.",
+   "en": "I make the food myself."
+  }
+ },
+ "selv tak": {
+  "forms": [
+   {
+    "da": "Selv tak!",
+    "en": "You're welcome!"
+   },
+   {
+    "da": "Nej, selv tak.",
+    "en": "No, thank you."
+   },
+   {
+    "da": "Ja, selv tak.",
+    "en": "Yes, and thanks to you too."
+   }
+  ],
+  "explanation": "\"Selv tak\" is the standard reply when someone says \"tak\" to you, and it means \"you're welcome\". It literally means \"thanks yourself\". It can also be used to return thanks, as in \"Tak for i aftes\" - \"Selv tak\" (Thanks for last night - Thanks to you too). Another way of saying it is \"det var så lidt\" (it was nothing).",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "tak for det",
+    "en": "thanks for that"
+   },
+   {
+    "da": "det var så lidt",
+    "en": "it was nothing"
+   },
+   {
+    "da": "velbekomme",
+    "en": "enjoy your meal"
+   }
+  ],
+  "sentence": {
+   "da": "\"Tak for hjælpen!\" - \"**Selv tak**!\"",
+   "en": "\"Thanks for the help!\" - \"You're welcome!\""
+  }
+ },
+ "selvfølgelig": {
+  "forms": [
+   {
+    "da": "Ja, selvfølgelig!",
+    "en": "Yes, of course!"
+   },
+   {
+    "da": "Selvfølgelig ikke.",
+    "en": "Of course not."
+   },
+   {
+    "da": "Det er selvfølgelig muligt.",
+    "en": "It is of course possible."
+   }
+  ],
+  "explanation": "\"Selvfølgelig\" means \"of course\" and shows that something is obvious or that you are happy to agree, as in \"Må jeg låne din pen?\" - \"Selvfølgelig!\" (May I borrow your pen? - Of course!). It is a long word, so take it one piece at a time: selv-følge-lig. It is also used as a polite way to accept a request. For \"of course not\", say \"selvfølgelig ikke\".",
+  "related": [
+   {
+    "da": "ja",
+    "en": "yes"
+   },
+   {
+    "da": "naturligvis",
+    "en": "naturally"
+   },
+   {
+    "da": "gerne",
+    "en": "gladly"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
+   }
+  ],
+  "sentence": {
+   "da": "**Selvfølgelig** kan du låne den.",
+   "en": "Of course you can borrow it."
+  }
+ },
+ "senere": {
+  "forms": [
+   {
+    "da": "senere",
+    "en": "later"
+   },
+   {
+    "da": "til senere",
+    "en": "until later"
+   },
+   {
+    "da": "vi ses senere",
+    "en": "see you later"
+   }
+  ],
+  "explanation": "\"Senere\" means later, and it can be used about time (\"Vi ses senere\", See you later) and as a comparison, \"later than\". You can add \"på dagen\" or \"i dag\" to be clear, for example \"senere i dag\" (later today). Be careful: \"sent\" means late, as in \"Det er sent\" (It is late), while \"senere\" is the version meaning later.",
+  "related": [
+   {
+    "da": "sent",
+    "en": "late"
+   },
+   {
+    "da": "tidligere",
+    "en": "earlier"
+   },
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   },
+   {
+    "da": "nu",
+    "en": "now"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer til dig **senere**.",
+   "en": "I will call you later."
+  }
+ },
+ "sennep": {
+  "forms": [
+   {
+    "da": "en sennep",
+    "en": "a mustard"
+   },
+   {
+    "da": "senneppen",
+    "en": "the mustard"
+   }
+  ],
+  "explanation": "\"Sennep\" is mustard, and it is an en-word. Notice that the \"p\" is doubled when you add \"the\": \"senneppen\". It is not counted, so you say \"noget sennep\". Danes put it on hot dogs, which are called \"pølser\", and on pork.",
+  "related": [
+   {
+    "da": "ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "en pølse",
+    "en": "a sausage"
+   },
+   {
+    "da": "salt",
+    "en": "salt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have **sennep** på pølsen.",
+   "en": "I want mustard on the sausage."
+  }
+ },
+ "sent": {
+  "forms": [
+   {
+    "da": "sent",
+    "en": "late"
+   },
+   {
+    "da": "meget sent",
+    "en": "very late"
+   },
+   {
+    "da": "det er sent",
+    "en": "it is late"
+   }
+  ],
+  "explanation": "\"Sent\" means late, as in not early: \"Vi kom sent hjem\" (We came home late). Do not confuse it with \"senere\", which means later. When you want to say you are late for something, you say \"Jeg er forsinket\" or \"Jeg kommer for sent\". The opposite is \"tidligt\" (early).",
+  "related": [
+   {
+    "da": "tidligt",
+    "en": "early"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   },
+   {
+    "da": "forsinket",
+    "en": "delayed / late"
+   },
+   {
+    "da": "for sent",
+    "en": "too late"
+   }
+  ],
+  "sentence": {
+   "da": "Det er for **sent** at ringe nu.",
+   "en": "It is too late to call now."
+  }
+ },
+ "september": {
+  "forms": [
+   {
+    "da": "september",
+    "en": "September"
+   },
+   {
+    "da": "i september",
+    "en": "in September"
+   },
+   {
+    "da": "i starten af september",
+    "en": "early in September"
+   }
+  ],
+  "explanation": "\"September\" is September, written with a small letter. You say \"i september\" for in September. The spelling is the same as in English, apart from the small letter. The month names from September to December all end in -ber, which is a handy pattern to remember.",
+  "related": [
+   {
+    "da": "august",
+    "en": "August"
+   },
+   {
+    "da": "oktober",
+    "en": "October"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Det bliver køligere i **september**.",
+   "en": "It gets cooler in September."
+  }
+ },
+ "ses i morgen": {
+  "forms": [
+   {
+    "da": "Ses i morgen!",
+    "en": "See you tomorrow!"
+   },
+   {
+    "da": "Vi ses i morgen.",
+    "en": "We'll see each other tomorrow."
+   },
+   {
+    "da": "Ses vi i morgen?",
+    "en": "Will we see each other tomorrow?"
+   }
+  ],
+  "explanation": "A friendly way to say goodbye when you know you will meet the person again tomorrow. It is short for \"vi ses i morgen\", which literally means \"we are seen tomorrow\". It works with friends, classmates and colleagues. You can swap \"i morgen\" for another time, like \"ses i aften\" (see you tonight).",
+  "related": [
+   {
+    "da": "vi ses",
+    "en": "see you"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "hej hej",
+    "en": "bye (informal)"
+   },
+   {
+    "da": "i morgen",
+    "en": "tomorrow"
+   }
+  ],
+  "sentence": {
+   "da": "**Ses i morgen**, og sov godt!",
+   "en": "See you tomorrow, and sleep well!"
+  }
+ },
+ "shampoo": {
+  "forms": [
+   {
+    "da": "en shampoo",
+    "en": "a shampoo"
+   },
+   {
+    "da": "shampooen",
+    "en": "the shampoo"
+   }
+  ],
+  "explanation": "\"Shampoo\" is shampoo, and it is an en-word. It is the same as in English, with the Danish spelling \"shampoo\". It is not counted, so you say \"noget shampoo\". Hotels often have it in the bathroom as \"gratis shampoo\".",
+  "related": [
+   {
+    "da": "sæbe",
+    "en": "soap"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   },
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
+   }
+  ],
+  "sentence": {
+   "da": "Har du **shampoo** til mig?",
+   "en": "Do you have shampoo for me?"
+  }
+ },
+ "shorts": {
+  "forms": [
+   {
+    "da": "shorts",
+    "en": "shorts"
+   },
+   {
+    "da": "mine shorts",
+    "en": "my shorts"
+   },
+   {
+    "da": "nye shorts",
+    "en": "new shorts"
+   }
+  ],
+  "explanation": "\"Shorts\" is the same word as in English, used for short trousers. In Danish it is always plural and nothing is added to it: you say \"mine shorts\". The Danish word for trousers is \"bukser\", and you could say \"korte bukser\" (short trousers) too. People wear shorts in the warm summer months.",
+  "related": [
+   {
+    "da": "bukser",
+    "en": "trousers"
+   },
+   {
+    "da": "korte bukser",
+    "en": "short trousers"
+   },
+   {
+    "da": "badetøj",
+    "en": "swimwear"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
+   }
+  ],
+  "sentence": {
+   "da": "Det er varmt, så jeg tager **shorts** på.",
+   "en": "It is warm, so I am putting on shorts."
+  }
+ },
+ "siden": {
+  "forms": [
+   {
+    "da": "siden i går",
+    "en": "since yesterday"
+   },
+   {
+    "da": "for to år siden",
+    "en": "two years ago"
+   },
+   {
+    "da": "siden da",
+    "en": "since then"
+   }
+  ],
+  "explanation": "\"Siden\" means since, and it also gives \"ago\" in \"for to år siden\" (two years ago). A tip: Danish says \"Jeg har boet her siden 2020\", with \"har\", where English says \"I have lived\". It can also mean \"later\" at the start of a sentence.",
+  "related": [
+   {
+    "da": "for ... siden",
+    "en": "... ago"
+   },
+   {
+    "da": "indtil",
+    "en": "until"
+   },
+   {
+    "da": "fra",
+    "en": "from"
+   },
+   {
+    "da": "efter",
+    "en": "after"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har boet her **siden** 2020.",
+   "en": "I have lived here since 2020."
+  }
+ },
+ "sidst": {
+  "forms": [
+   {
+    "da": "sidst",
+    "en": "last / lastly"
+   },
+   {
+    "da": "Jeg kom sidst.",
+    "en": "I came last."
+   },
+   {
+    "da": "sidst på dagen",
+    "en": "late in the day"
+   }
+  ],
+  "explanation": "\"Sidst\" means last, in order, or at the end. It can also be about time: \"sidst på dagen\" is late in the day. For something that is the last one of its kind, you say \"sidste\" (\"sidste gang\", the last time). The opposite is \"først\" (first).",
+  "related": [
+   {
+    "da": "først",
+    "en": "first"
+   },
+   {
+    "da": "sidste",
+    "en": "last (the final one)"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   },
+   {
+    "da": "til sidst",
+    "en": "in the end"
+   }
+  ],
+  "sentence": {
+   "da": "Han kom **sidst** til festen.",
+   "en": "He came last to the party."
+  }
+ },
+ "sidste": {
+  "forms": [
+   {
+    "da": "sidste",
+    "en": "last"
+   },
+   {
+    "da": "den sidste bus",
+    "en": "the last bus"
+   },
+   {
+    "da": "sidste uge",
+    "en": "last week"
+   }
+  ],
+  "explanation": "\"Sidste\" means last, both in the sense of final (\"den sidste bus\") and most recent (\"sidste uge\" is last week, \"sidste år\" is last year). It never changes its ending. The opposite is \"første\" (first), and \"næste\" is the word for next.",
+  "related": [
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "næste",
+    "en": "next"
+   },
+   {
+    "da": "sidste år",
+    "en": "last year"
+   },
+   {
+    "da": "til sidst",
+    "en": "at last"
+   }
+  ],
+  "sentence": {
+   "da": "Det er den **sidste** bus i dag.",
+   "en": "It is the last bus today."
+  }
+ },
+ "sig": {
+  "forms": [
+   {
+    "da": "Han vasker sig.",
+    "en": "He washes himself."
+   },
+   {
+    "da": "Hun glæder sig.",
+    "en": "She is looking forward to it."
+   },
+   {
+    "da": "De skynder sig.",
+    "en": "They hurry."
+   }
+  ],
+  "explanation": "\"Sig\" is used when the person doing something is also the one it happens to, for he, she, it and they. It means \"himself\", \"herself\", \"itself\" or \"themselves\". Many Danish verbs always come with it, such as \"at glæde sig\" (to look forward) and \"at skynde sig\" (to hurry). For I and you the words are \"mig\" and \"dig\" instead.",
+  "related": [
+   {
+    "da": "mig",
+    "en": "myself / me"
+   },
+   {
+    "da": "dig",
+    "en": "yourself / you"
+   },
+   {
+    "da": "sin",
+    "en": "one's own (en-word)"
+   },
+   {
+    "da": "at glæde sig",
+    "en": "to look forward"
+   }
+  ],
+  "sentence": {
+   "da": "Han vasker **sig** hver morgen.",
+   "en": "He washes himself every morning."
+  }
+ },
+ "sikker": {
+  "forms": [
+   {
+    "da": "en sikker bil",
+    "en": "a safe car"
+   },
+   {
+    "da": "et sikkert sted",
+    "en": "a safe place"
+   },
+   {
+    "da": "sikre steder",
+    "en": "safe places"
+   }
+  ],
+  "explanation": "\"Sikker\" means sure or safe. \"Er du sikker?\" means \"Are you sure?\" and \"Jeg er sikker\" means \"I am sure\". For safe things it fits a place, a car or a plan. Watch the spelling: \"et sikkert sted\" with \"t\", and \"sikre steder\" where the \"e\" before the \"r\" disappears. The opposite is \"usikker\" (unsure or unsafe).",
+  "related": [
+   {
+    "da": "usikker",
+    "en": "unsure"
+   },
+   {
+    "da": "sikkert",
+    "en": "safe / certainly"
+   },
+   {
+    "da": "tryg",
+    "en": "secure"
+   },
+   {
+    "da": "en sikkerhed",
+    "en": "a safety"
+   }
+  ],
+  "sentence": {
+   "da": "Er du **sikker** på det?",
+   "en": "Are you sure about that?"
+  }
+ },
+ "sin": {
+  "forms": [
+   {
+    "da": "Han tager sin jakke.",
+    "en": "He takes his (own) jacket."
+   },
+   {
+    "da": "Hun elsker sin mor.",
+    "en": "She loves her (own) mother."
+   },
+   {
+    "da": "De har deres egen bil.",
+    "en": "They have their own car."
+   }
+  ],
+  "explanation": "\"Sin\" means \"his own\", \"her own\" or \"its own\", and goes with en-words. It points back to the person doing the action: \"Han ser sin bror\" means he sees his own brother. \"Han ser hans bror\" would mean someone else's brother. It is not used for \"I\" or \"you\"; there you say \"min\" and \"din\".",
+  "related": [
+   {
+    "da": "sit",
+    "en": "one's own (et-word)"
+   },
+   {
+    "da": "sine",
+    "en": "one's own (many)"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "sig",
+    "en": "himself / herself"
+   }
+  ],
+  "sentence": {
+   "da": "Hun elsker **sin** hund.",
+   "en": "She loves her (own) dog."
+  }
+ },
+ "sine": {
+  "forms": [
+   {
+    "da": "Han ser sine venner.",
+    "en": "He sees his (own) friends."
+   },
+   {
+    "da": "Hun tager sine bøger.",
+    "en": "She takes her (own) books."
+   },
+   {
+    "da": "De elsker sine børn.",
+    "en": "They love their (own) children."
+   }
+  ],
+  "explanation": "\"Sine\" means \"his own\", \"her own\" or \"their own\" when you talk about more than one thing, like \"sine venner\". It points back to the person doing the action. It is the same for en-words and et-words. For one thing use \"sin\" or \"sit\".",
+  "related": [
+   {
+    "da": "sin",
+    "en": "one's own (en-word)"
+   },
+   {
+    "da": "sit",
+    "en": "one's own (et-word)"
+   },
+   {
+    "da": "deres",
+    "en": "their / theirs"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   }
+  ],
+  "sentence": {
+   "da": "Hun ringer til **sine** forældre.",
+   "en": "She calls her (own) parents."
+  }
+ },
+ "sit": {
+  "forms": [
+   {
+    "da": "Han elsker sit hus.",
+    "en": "He loves his (own) house."
+   },
+   {
+    "da": "Hun har sit eget værelse.",
+    "en": "She has her own room."
+   },
+   {
+    "da": "Barnet tager sit legetøj.",
+    "en": "The child takes its toy."
+   }
+  ],
+  "explanation": "\"Sit\" means \"his own\", \"her own\" or \"its own\", and goes with et-words, like \"sit hus\" or \"sit barn\". It points back to the person doing the action. For en-words use \"sin\", and for many things \"sine\". If you mean someone else's thing, use \"hans\" or \"hendes\".",
+  "related": [
+   {
+    "da": "sin",
+    "en": "one's own (en-word)"
+   },
+   {
+    "da": "sine",
+    "en": "one's own (many)"
+   },
+   {
+    "da": "hendes",
+    "en": "her / hers"
+   },
+   {
+    "da": "sig",
+    "en": "himself / herself"
+   }
+  ],
+  "sentence": {
+   "da": "Han passer på **sit** barn.",
+   "en": "He looks after his (own) child."
+  }
+ },
+ "sjette": {
+  "forms": [
+   {
+    "da": "den sjette dag",
+    "en": "the sixth day"
+   },
+   {
+    "da": "det sjette hus",
+    "en": "the sixth house"
+   },
+   {
+    "da": "sjette gang",
+    "en": "the sixth time"
+   }
+  ],
+  "explanation": "\"Sjette\" means sixth. It comes from \"seks\" (six), but the spelling changes, so watch out. It is used for the order of things and for dates: \"den sjette maj\" is the sixth of May. In writing you can use \"6.\" with a dot.",
+  "related": [
+   {
+    "da": "seks",
+    "en": "six"
+   },
+   {
+    "da": "femte",
+    "en": "fifth"
+   },
+   {
+    "da": "syvende",
+    "en": "seventh"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bor på **sjette** sal.",
+   "en": "She lives on the sixth floor."
+  }
+ },
+ "sjov": {
+  "forms": [
+   {
+    "da": "en sjov film",
+    "en": "a fun film"
+   },
+   {
+    "da": "et sjovt spil",
+    "en": "a fun game"
+   },
+   {
+    "da": "sjove film",
+    "en": "fun films"
+   }
+  ],
+  "explanation": "\"Sjov\" means fun or funny. It covers both: a joke can be \"sjov\" and so can a party. \"Det var sjovt\" means \"That was fun\". It is also used on its own to mean fun: \"for sjov\" means \"for fun\" or \"as a joke\". Add \"t\" for et-words (\"et sjovt spil\") and \"-e\" for more than one. The opposite is \"kedelig\" (boring).",
+  "related": [
+   {
+    "da": "kedelig",
+    "en": "boring"
+   },
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   },
+   {
+    "da": "at le",
+    "en": "to laugh"
+   },
+   {
+    "da": "morsom",
+    "en": "amusing"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **sjov** aften.",
+   "en": "That was a fun evening."
+  }
+ },
+ "skandinavien": {
+  "forms": [
+   {
+    "da": "Skandinavien",
+    "en": "Scandinavia"
+   },
+   {
+    "da": "i Skandinavien",
+    "en": "in Scandinavia"
+   },
+   {
+    "da": "skandinavisk",
+    "en": "Scandinavian (adjective)"
+   },
+   {
+    "da": "en skandinav",
+    "en": "a Scandinavian (person)"
+   }
+  ],
+  "explanation": "\"Skandinavien\" is capitalised because it is a place name, but the adjective \"skandinavisk\" and the nationality words are not. In everyday Danish people often say \"Norden\" (the Nordic countries) when they also mean Finland and Iceland. Strictly, Scandinavia means Denmark, Norway and Sweden.",
+  "related": [
+   {
+    "da": "Norden",
+    "en": "the Nordic countries"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "Norge",
+    "en": "Norway"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark ligger i **Skandinavien**.",
+   "en": "Denmark is in Scandinavia."
+  }
+ },
+ "sko": {
+  "forms": [
+   {
+    "da": "skoene",
+    "en": "the shoes"
+   },
+   {
+    "da": "mine sko",
+    "en": "my shoes"
+   },
+   {
+    "da": "nye sko",
+    "en": "new shoes"
+   }
+  ],
+  "explanation": "\"Sko\" is the word for shoes, and it is almost always used in the plural. The word looks the same for one shoe and many, so you can tell by the \"en\" in front (\"en sko\" is one shoe) or by the context. Add \"ene\" to get \"skoene\" (the shoes). You say \"tage skoene på\" to put your shoes on.",
+  "related": [
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en skobutik",
+    "en": "a shoe store"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt nye **sko**.",
+   "en": "I have bought new shoes."
+  }
+ },
+ "skyet": {
+  "forms": [
+   {
+    "da": "en skyet dag",
+    "en": "a cloudy day"
+   },
+   {
+    "da": "et skyet vejr",
+    "en": "cloudy weather"
+   },
+   {
+    "da": "skyede dage",
+    "en": "cloudy days"
+   }
+  ],
+  "explanation": "\"Skyet\" means cloudy, with clouds in the sky. It comes from \"en sky\" (a cloud). It stays the same for en-words and et-words, but gets an \"-e\" when you talk about more than one thing. The opposite is \"solrig\". Weather forecasts also use \"overskyet\" for a sky fully covered by clouds.",
+  "related": [
+   {
+    "da": "overskyet",
+    "en": "overcast"
+   },
+   {
+    "da": "solrig",
+    "en": "sunny"
+   },
+   {
+    "da": "en sky",
+    "en": "a cloud"
+   },
+   {
+    "da": "regnvejr",
+    "en": "rainy weather"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **skyet** i dag.",
+   "en": "It is cloudy today."
+  }
+ },
+ "skynd dig": {
+  "forms": [
+   {
+    "da": "Skynd dig!",
+    "en": "Hurry up!"
+   },
+   {
+    "da": "Skynd dig, vi er sent på den.",
+    "en": "Hurry up, we are late."
+   },
+   {
+    "da": "Skynd jer!",
+    "en": "Hurry up! (to several people)"
+   }
+  ],
+  "explanation": "\"Skynd dig\" means \"hurry up\" and is said to one person. If you speak to more than one person, say \"skynd jer\". The words \"dig\" and \"jer\" are small words meaning \"yourself\" and \"yourselves\". It can sound a bit pushy, so soften it with \"tak\" or a smile.",
+  "related": [
+   {
+    "da": "kom nu",
+    "en": "come on"
+   },
+   {
+    "da": "hurtig",
+    "en": "fast, quick"
+   },
+   {
+    "da": "at skynde sig",
+    "en": "to hurry"
+   }
+  ],
+  "sentence": {
+   "da": "**Skynd dig**, toget går om fem minutter!",
+   "en": "Hurry up, the train leaves in five minutes!"
+  }
+ },
+ "skål": {
+  "forms": [
+   {
+    "da": "Skål!",
+    "en": "Cheers!"
+   },
+   {
+    "da": "Skål for dig!",
+    "en": "Cheers to you!"
+   },
+   {
+    "da": "Skål, alle sammen!",
+    "en": "Cheers, everyone!"
+   }
+  ],
+  "explanation": "\"Skål\" is what you say as a toast when you raise your glass, like \"Cheers\". Danes often look the other person in the eye when they say it. It is the same word as \"en skål\" (a bowl), but as a toast it is used on its own.",
+  "related": [
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "en vin",
+    "en": "a wine"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   }
+  ],
+  "sentence": {
+   "da": "**Skål**, og tillykke med fødselsdagen!",
+   "en": "Cheers, and happy birthday!"
+  }
+ },
  "slidt": {
   "forms": [
    {
@@ -364,6 +6011,201 @@
   "sentence": {
    "da": "Sofaen er meget **slidt**.",
    "en": "The sofa is very worn."
+  }
+ },
+ "slik": {
+  "forms": [
+   {
+    "da": "noget slik",
+    "en": "some candy"
+   },
+   {
+    "da": "slikket",
+    "en": "the candy"
+   },
+   {
+    "da": "en slikpose",
+    "en": "a bag of candy"
+   }
+  ],
+  "explanation": "\"Slik\" is candy or sweets, and it is an et-word, so \"the candy\" is \"slikket\". It is normally used for sweets in general, without \"et\": \"Jeg spiser for meget slik\". Many Danish children get \"lørdagsslik\" (Saturday candy) as a weekly treat.",
+  "related": [
+   {
+    "da": "chokolade",
+    "en": "chocolate"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   }
+  ],
+  "sentence": {
+   "da": "Børn elsker **slik**.",
+   "en": "Children love candy."
+  }
+ },
+ "slut": {
+  "forms": [
+   {
+    "da": "filmen er slut",
+    "en": "the film is over"
+   },
+   {
+    "da": "maden er slut",
+    "en": "the food is all gone"
+   },
+   {
+    "da": "til slut",
+    "en": "in the end"
+   }
+  ],
+  "explanation": "\"Slut\" means over or finished, and it is used after \"er\": \"Ferien er slut\" (The holiday is over). It can also mean that something has run out, as in \"Mælken er slut\". \"Til slut\" means \"in the end\" or \"finally\".",
+  "related": [
+   {
+    "da": "at slutte",
+    "en": "to finish"
+   },
+   {
+    "da": "en slutning",
+    "en": "an ending"
+   },
+   {
+    "da": "en start",
+    "en": "a start"
+   },
+   {
+    "da": "til sidst",
+    "en": "at last"
+   }
+  ],
+  "sentence": {
+   "da": "Skoledagen er **slut**.",
+   "en": "The school day is over."
+  }
+ },
+ "smal": {
+  "forms": [
+   {
+    "da": "en smal gade",
+    "en": "a narrow street"
+   },
+   {
+    "da": "et smalt vindue",
+    "en": "a narrow window"
+   },
+   {
+    "da": "smalle gader",
+    "en": "narrow streets"
+   }
+  ],
+  "explanation": "\"Smal\" means narrow, for streets, paths, doors, windows or even a thin face. It is the opposite of \"bred\" (wide). Add \"t\" for et-words (\"et smalt hus\") and \"-e\" when you talk about more than one thing or when \"the\" is in front (\"de smalle gader\"). It is about width, not about being thin like paper; for that use \"tynd\".",
+  "related": [
+   {
+    "da": "bred",
+    "en": "wide"
+   },
+   {
+    "da": "tynd",
+    "en": "thin"
+   },
+   {
+    "da": "en gade",
+    "en": "a street"
+   },
+   {
+    "da": "trang",
+    "en": "cramped"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **smal** sti ned til stranden.",
+   "en": "There is a narrow path down to the beach."
+  }
+ },
+ "smuk": {
+  "forms": [
+   {
+    "da": "en smuk by",
+    "en": "a beautiful city"
+   },
+   {
+    "da": "et smukt billede",
+    "en": "a beautiful picture"
+   },
+   {
+    "da": "smukke byer",
+    "en": "beautiful cities"
+   }
+  ],
+  "explanation": "\"Smuk\" means beautiful, for people, places, views and things. It is a little stronger than \"pæn\" (nice-looking). Add \"t\" for et-words (\"et smukt hus\") and \"-ke\" for more than one: \"smukke\" with a double \"k\". The opposite is \"grim\" (ugly). To compliment someone's day you can say \"Hvor er det smukt!\" (How beautiful it is!).",
+  "related": [
+   {
+    "da": "pæn",
+    "en": "nice-looking"
+   },
+   {
+    "da": "grim",
+    "en": "ugly"
+   },
+   {
+    "da": "en skønhed",
+    "en": "a beauty"
+   },
+   {
+    "da": "flot",
+    "en": "handsome / great"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **smuk** dag i dag.",
+   "en": "It is a beautiful day today."
+  }
+ },
+ "smør": {
+  "forms": [
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "smørret",
+    "en": "the butter"
+   },
+   {
+    "da": "smør på brødet",
+    "en": "butter on the bread"
+   }
+  ],
+  "explanation": "\"Smør\" means butter. It is an et-word, so \"the butter\" is \"smørret\", with a doubled r. It is also the word for putting butter on something, \"at smøre\". Danes say \"smør på brødet\" for butter on the bread, and \"smørrebrød\" literally means bread with butter.",
+  "related": [
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "ost",
+    "en": "cheese"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "at smøre",
+    "en": "to spread"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have **smør** på dit brød?",
+   "en": "Do you want butter on your bread?"
   }
  },
  "snart": {
@@ -405,6 +6247,1909 @@
    "en": "The food will be ready soon."
   }
  },
+ "snavset": {
+  "forms": [
+   {
+    "da": "en snavset skjorte",
+    "en": "a dirty shirt"
+   },
+   {
+    "da": "et snavset glas",
+    "en": "a dirty glass"
+   },
+   {
+    "da": "snavsede sko",
+    "en": "dirty shoes"
+   }
+  ],
+  "explanation": "\"Snavset\" means dirty. It does not change with et-words (\"et snavset glas\"), but with more than one it becomes \"snavsede\" (\"snavsede sko\"). It comes from \"snavs\", which means dirt. The opposite is \"ren\" (clean).",
+  "related": [
+   {
+    "da": "ren",
+    "en": "clean"
+   },
+   {
+    "da": "snavs",
+    "en": "dirt"
+   },
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   },
+   {
+    "da": "beskidt",
+    "en": "filthy"
+   }
+  ],
+  "sentence": {
+   "da": "Dine sko er meget **snavsede**.",
+   "en": "Your shoes are very dirty."
+  }
+ },
+ "sne": {
+  "forms": [
+   {
+    "da": "sne",
+    "en": "snow"
+   },
+   {
+    "da": "sneen",
+    "en": "the snow"
+   },
+   {
+    "da": "det sner",
+    "en": "it is snowing"
+   }
+  ],
+  "explanation": "Sne is snow. It is an en-word, so \"the snow\" is \"sneen\". To say that it is snowing, you use the verb: \"Det sner\". Danes do not get much snow every winter, so when it falls it is a big event for children. It is also in \"en snemand\" (a snowman) and \"en snebold\" (a snowball).",
+  "related": [
+   {
+    "da": "at sne",
+    "en": "to snow"
+   },
+   {
+    "da": "en snemand",
+    "en": "a snowman"
+   },
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "en vinter",
+    "en": "a winter"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene leger i **sneen**.",
+   "en": "The children are playing in the snow."
+  }
+ },
+ "sokker": {
+  "forms": [
+   {
+    "da": "sokker",
+    "en": "socks"
+   },
+   {
+    "da": "sokkerne",
+    "en": "the socks"
+   },
+   {
+    "da": "et par sokker",
+    "en": "a pair of socks"
+   },
+   {
+    "da": "en sok",
+    "en": "a sock"
+   }
+  ],
+  "explanation": "\"Sokker\" means socks. One sock is \"en sok\", and more than one is \"sokker\". The usual way to count them is by pairs: \"et par sokker\". The word \"sokkerne\" means \"the socks\". Wool socks in winter are \"uldsokker\".",
+  "related": [
+   {
+    "da": "en sok",
+    "en": "a sock"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "strømper",
+    "en": "stockings, tights"
+   },
+   {
+    "da": "bukser",
+    "en": "pants"
+   }
+  ],
+  "sentence": {
+   "da": "Mine **sokker** er våde.",
+   "en": "My socks are wet."
+  }
+ },
+ "solbriller": {
+  "forms": [
+   {
+    "da": "solbrillerne",
+    "en": "the sunglasses"
+   },
+   {
+    "da": "mine solbriller",
+    "en": "my sunglasses"
+   },
+   {
+    "da": "et par solbriller",
+    "en": "a pair of sunglasses"
+   }
+  ],
+  "explanation": "\"Solbriller\" means sunglasses, from \"sol\" (sun) and \"briller\" (glasses). It is always plural in Danish, and \"et par solbriller\" means a pair. You say \"solbrillerne\" for the sunglasses. The plain word for glasses you see with is \"briller\".",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "briller",
+    "en": "glasses"
+   },
+   {
+    "da": "en kasket",
+    "en": "a cap"
+   },
+   {
+    "da": "en hat",
+    "en": "a hat"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt mine **solbriller**.",
+   "en": "I have forgotten my sunglasses."
+  }
+ },
+ "solcreme": {
+  "forms": [
+   {
+    "da": "en solcreme",
+    "en": "a sunscreen"
+   },
+   {
+    "da": "solcremen",
+    "en": "the sunscreen"
+   },
+   {
+    "da": "Jeg bruger solcreme.",
+    "en": "I use sunscreen."
+   }
+  ],
+  "explanation": "\"Solcreme\" is sunscreen, the cream you put on your skin to protect it from the sun. It is built from \"sol\" (sun) and \"creme\" (cream), and it is an en-word, so \"the sunscreen\" is \"solcremen\". It is normally used without \"a\" when you speak in general: \"Husk solcreme!\".",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   },
+   {
+    "da": "solbrændt",
+    "en": "sunburnt"
+   },
+   {
+    "da": "en creme",
+    "en": "a cream"
+   }
+  ],
+  "sentence": {
+   "da": "Husk at tage **solcreme** med på stranden.",
+   "en": "Remember to bring sunscreen to the beach."
+  }
+ },
+ "solrig": {
+  "forms": [
+   {
+    "da": "en solrig dag",
+    "en": "a sunny day"
+   },
+   {
+    "da": "et solrigt sted",
+    "en": "a sunny place"
+   },
+   {
+    "da": "solrige dage",
+    "en": "sunny days"
+   }
+  ],
+  "explanation": "\"Solrig\" means sunny. It describes a day, a place or the weather. With en-words you use \"solrig\", with et-words \"solrigt\", and with more than one \"solrige\". The opposite is \"skyet\" or \"overskyet\". The stronger forms are \"solrigere\" (sunnier) and \"solrigest\" (sunniest).",
+  "related": [
+   {
+    "da": "solrigt",
+    "en": "sunny (et-word)"
+   },
+   {
+    "da": "skyet",
+    "en": "cloudy"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "solskin",
+    "en": "sunshine"
+   }
+  ],
+  "sentence": {
+   "da": "I dag er det en **solrig** dag.",
+   "en": "Today is a sunny day."
+  }
+ },
+ "solrigt": {
+  "forms": [
+   {
+    "da": "en solrig dag",
+    "en": "a sunny day"
+   },
+   {
+    "da": "et solrigt vejr",
+    "en": "sunny weather"
+   },
+   {
+    "da": "solrige dage",
+    "en": "sunny days"
+   }
+  ],
+  "explanation": "\"Solrigt\" is the form of \"solrig\" (sunny) used with et-words and when you describe the weather with \"det\": \"Det er solrigt\". Since \"vejr\" (weather) is an et-word, you say \"solrigt vejr\". It is the opposite of \"skyet\" or \"overskyet\".",
+  "related": [
+   {
+    "da": "solrig",
+    "en": "sunny"
+   },
+   {
+    "da": "skyet",
+    "en": "cloudy"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "et vejr",
+    "en": "weather"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **solrigt** på stranden.",
+   "en": "It is sunny at the beach."
+  }
+ },
+ "solskin": {
+  "forms": [
+   {
+    "da": "et solskin",
+    "en": "sunshine"
+   },
+   {
+    "da": "solskinnet",
+    "en": "the sunshine"
+   },
+   {
+    "da": "Der er solskin.",
+    "en": "There is sunshine."
+   }
+  ],
+  "explanation": "\"Solskin\" means sunshine, the light and warmth from the sun. It is an et-word, so \"the sunshine\" is \"solskinnet\". It is made from \"sol\" (sun) and \"skin\" (shine). A weather forecast might say \"solskin og sol hele dagen\", or just \"der er solskin\".",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "solrig",
+    "en": "sunny"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "et vejr",
+    "en": "weather"
+   }
+  ],
+  "sentence": {
+   "da": "Vi nyder **solskinnet** i haven.",
+   "en": "We are enjoying the sunshine in the garden."
+  }
+ },
+ "solskinsvejr": {
+  "forms": [
+   {
+    "da": "et solskinsvejr",
+    "en": "sunny weather"
+   },
+   {
+    "da": "solskinsvejret",
+    "en": "the sunny weather"
+   },
+   {
+    "da": "i solskinsvejr",
+    "en": "in sunny weather"
+   }
+  ],
+  "explanation": "\"Solskinsvejr\" means sunny weather, built from \"solskin\" (sunshine) and \"vejr\" (weather). It is an et-word. It is the opposite of \"regnvejr\" and \"gråvejr\", and Danes often use it in plans: \"Hvis det er solskinsvejr, tager vi på stranden.\"",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "regnvejr",
+    "en": "rainy weather"
+   },
+   {
+    "da": "gråvejr",
+    "en": "gray weather"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   }
+  ],
+  "sentence": {
+   "da": "Det er dejligt at gå tur i **solskinsvejr**.",
+   "en": "It is lovely to go for a walk in sunny weather."
+  }
+ },
+ "som": {
+  "forms": [
+   {
+    "da": "en bil, som er rød",
+    "en": "a car that is red"
+   },
+   {
+    "da": "Han er som sin far.",
+    "en": "He is like his father."
+   },
+   {
+    "da": "Jeg arbejder som lærer.",
+    "en": "I work as a teacher."
+   }
+  ],
+  "explanation": "\"Som\" is a small word with several jobs. It can mean \"that\", \"who\" or \"which\" and joins a describing part to a person or thing, as in \"manden, som bor her\" (the man who lives here). It also means \"like\" or \"as\", as in \"Jeg arbejder som lærer\" (I work as a teacher). When in doubt, \"som\" can nearly always be used for \"who\", \"which\" and \"that\".",
+  "related": [
+   {
+    "da": "der",
+    "en": "that / who (also joins parts)"
+   },
+   {
+    "da": "ligesom",
+    "en": "just like"
+   },
+   {
+    "da": "end",
+    "en": "than"
+   },
+   {
+    "da": "hvad",
+    "en": "what"
+   }
+  ],
+  "sentence": {
+   "da": "Det er den bog, **som** jeg læser.",
+   "en": "That is the book that I am reading."
+  }
+ },
+ "somme tider": {
+  "forms": [
+   {
+    "da": "somme tider regner det",
+    "en": "sometimes it rains"
+   },
+   {
+    "da": "kun somme tider",
+    "en": "only sometimes"
+   },
+   {
+    "da": "somme tider er jeg træt",
+    "en": "sometimes I am tired"
+   }
+  ],
+  "explanation": "\"Somme tider\" means sometimes, and it is just the two-word way of writing \"sommetider\". Both are correct and mean the same. It is used for things that happen now and then, not always. \"Nogle gange\" is another everyday way to say it.",
+  "related": [
+   {
+    "da": "sommetider",
+    "en": "sometimes (one word)"
+   },
+   {
+    "da": "nogle gange",
+    "en": "some times"
+   },
+   {
+    "da": "tit",
+    "en": "often"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **somme tider** træt om morgenen.",
+   "en": "I am sometimes tired in the morning."
+  }
+ },
+ "sommetider": {
+  "forms": [
+   {
+    "da": "sommetider regner det",
+    "en": "sometimes it rains"
+   },
+   {
+    "da": "kun sommetider",
+    "en": "only sometimes"
+   },
+   {
+    "da": "jeg går sommetider en tur",
+    "en": "I sometimes go for a walk"
+   }
+  ],
+  "explanation": "\"Sommetider\" means sometimes, and it is used for things that happen now and then but not always. You can also write it as two words, \"somme tider\", with the same meaning. \"Nogle gange\" is another everyday way to say it.",
+  "related": [
+   {
+    "da": "nogle gange",
+    "en": "some times"
+   },
+   {
+    "da": "tit",
+    "en": "often"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   },
+   {
+    "da": "altid",
+    "en": "always"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **sommetider** cyklen.",
+   "en": "Sometimes I take the bike."
+  }
+ },
+ "sort": {
+  "forms": [
+   {
+    "da": "en sort bil",
+    "en": "a black car"
+   },
+   {
+    "da": "et sort hus",
+    "en": "a black house"
+   },
+   {
+    "da": "sorte biler",
+    "en": "black cars"
+   }
+  ],
+  "explanation": "\"Sort\" means black. Unlike most colour words, it does not get a \"t\" with et-words: \"et sort hus\". When there is more than one, it adds an \"e\": \"sorte biler\". The opposite is \"hvid\" (white).",
+  "related": [
+   {
+    "da": "hvid",
+    "en": "white"
+   },
+   {
+    "da": "grå",
+    "en": "gray"
+   },
+   {
+    "da": "mørk",
+    "en": "dark"
+   },
+   {
+    "da": "sort kaffe",
+    "en": "black coffee"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **sort** taske.",
+   "en": "She has a black bag."
+  }
+ },
+ "sov godt": {
+  "forms": [
+   {
+    "da": "Sov godt!",
+    "en": "Sleep well!"
+   },
+   {
+    "da": "Sov godt, og drøm sødt.",
+    "en": "Sleep well, and sweet dreams."
+   },
+   {
+    "da": "Godnat!",
+    "en": "Good night!"
+   }
+  ],
+  "explanation": "Said to wish someone a good sleep, most often at bedtime. \"Sov\" is the command form of \"at sove\" (to sleep), and \"godt\" means well. It is often paired with \"godnat\" (good night). You can add \"drøm sødt\" for \"sweet dreams\".",
+  "related": [
+   {
+    "da": "godnat",
+    "en": "good night"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "drøm sødt",
+    "en": "sweet dreams"
+   }
+  ],
+  "sentence": {
+   "da": "Godnat, **sov godt!**",
+   "en": "Good night, sleep well!"
+  }
+ },
+ "spaghetti": {
+  "forms": [
+   {
+    "da": "en spaghetti",
+    "en": "a spaghetti"
+   },
+   {
+    "da": "spaghettien",
+    "en": "the spaghetti"
+   }
+  ],
+  "explanation": "\"Spaghetti\" is spaghetti, and in Danish it is an en-word, so \"the spaghetti\" is \"spaghettien\". It is not counted, so you say \"noget spaghetti\". A very common family dinner is \"spaghetti med kødsovs\" (spaghetti with meat sauce).",
+  "related": [
+   {
+    "da": "pasta",
+    "en": "pasta"
+   },
+   {
+    "da": "nudler",
+    "en": "noodles"
+   },
+   {
+    "da": "kødsovs",
+    "en": "meat sauce"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **spaghetti** med kødsovs.",
+   "en": "We eat spaghetti with meat sauce."
+  }
+ },
+ "spanien": {
+  "forms": [
+   {
+    "da": "Spanien",
+    "en": "Spain"
+   },
+   {
+    "da": "i Spanien",
+    "en": "in Spain"
+   },
+   {
+    "da": "til Spanien",
+    "en": "to Spain"
+   }
+  ],
+  "explanation": "\"Spanien\" is Spain. Place names like this are written with a capital letter and used without \"the\": \"i Spanien\" means \"in Spain\" and \"til Spanien\" means \"to Spain\". A person is \"en spanier\" and the language is \"spansk\". Many Danes go there on holiday for the sun.",
+  "related": [
+   {
+    "da": "en spanier",
+    "en": "a Spaniard"
+   },
+   {
+    "da": "spansk",
+    "en": "Spanish"
+   },
+   {
+    "da": "Portugal",
+    "en": "Portugal"
+   },
+   {
+    "da": "Italien",
+    "en": "Italy"
+   }
+  ],
+  "sentence": {
+   "da": "Vi holder ferie i **Spanien**.",
+   "en": "We are on holiday in Spain."
+  }
+ },
+ "spansk": {
+  "forms": [
+   {
+    "da": "en spansk bil",
+    "en": "a Spanish car"
+   },
+   {
+    "da": "et spansk hus",
+    "en": "a Spanish house"
+   },
+   {
+    "da": "spanske biler",
+    "en": "Spanish cars"
+   }
+  ],
+  "explanation": "\"Spansk\" means Spanish, both for things from Spain and for the language. Danish does not use a capital letter for it. Before an et-word it stays \"spansk\" (no extra t), and before more than one thing it becomes \"spanske\". For the language you can say \"jeg taler spansk\".",
+  "related": [
+   {
+    "da": "Spanien",
+    "en": "Spain"
+   },
+   {
+    "da": "en spanier",
+    "en": "a Spaniard"
+   },
+   {
+    "da": "italiensk",
+    "en": "Italian"
+   },
+   {
+    "da": "fransk",
+    "en": "French"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lærer **spansk** i aften.",
+   "en": "I am learning Spanish tonight."
+  }
+ },
+ "spinat": {
+  "forms": [
+   {
+    "da": "en spinat",
+    "en": "a spinach"
+   },
+   {
+    "da": "spinaten",
+    "en": "the spinach"
+   }
+  ],
+  "explanation": "\"Spinat\" is spinach, and it is an en-word. It is not counted, so you say \"noget spinat\" for some spinach. You can eat it raw in a salad (\"rå spinat\") or cooked, for example in a lasagne or soup. The frozen kind is \"frossen spinat\".",
+  "related": [
+   {
+    "da": "broccoli",
+    "en": "broccoli"
+   },
+   {
+    "da": "en salat",
+    "en": "a salad"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "frossen",
+    "en": "frozen"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **spinat** i suppen.",
+   "en": "There is spinach in the soup."
+  }
+ },
+ "sport": {
+  "forms": [
+   {
+    "da": "en sport",
+    "en": "a sport"
+   },
+   {
+    "da": "sporten",
+    "en": "the sport"
+   },
+   {
+    "da": "Jeg kan godt lide sport.",
+    "en": "I like sport."
+   }
+  ],
+  "explanation": "\"Sport\" is the general word for sport, and it is an en-word. It usually has no \"en\" in front when you talk about sport in general: \"Jeg kan lide sport\". To talk about a specific sport you can say \"en sportsgren\", and \"at dyrke sport\" means to do sports.",
+  "related": [
+   {
+    "da": "at dyrke sport",
+    "en": "to do sports"
+   },
+   {
+    "da": "fodbold",
+    "en": "soccer"
+   },
+   {
+    "da": "tennis",
+    "en": "tennis"
+   },
+   {
+    "da": "svømning",
+    "en": "swimming"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ser **sport** i fjernsynet hver weekend.",
+   "en": "I watch sport on TV every weekend."
+  }
+ },
+ "spændende": {
+  "forms": [
+   {
+    "da": "en spændende bog",
+    "en": "an exciting book"
+   },
+   {
+    "da": "et spændende job",
+    "en": "an exciting job"
+   },
+   {
+    "da": "spændende bøger",
+    "en": "exciting books"
+   }
+  ],
+  "explanation": "\"Spændende\" means exciting or interesting, and it never changes its ending. It is a very handy word: \"Det lyder spændende\" means \"That sounds exciting\". It comes from \"spænding\" (excitement). Do not mix it up with \"interessant\", which is milder.",
+  "related": [
+   {
+    "da": "interessant",
+    "en": "interesting"
+   },
+   {
+    "da": "kedelig",
+    "en": "boring"
+   },
+   {
+    "da": "sjov",
+    "en": "fun"
+   },
+   {
+    "da": "en spænding",
+    "en": "an excitement"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **spændende** film.",
+   "en": "It is an exciting film."
+  }
+ },
+ "stadig": {
+  "forms": [
+   {
+    "da": "Jeg er stadig her.",
+    "en": "I am still here."
+   },
+   {
+    "da": "Er du stadig sulten?",
+    "en": "Are you still hungry?"
+   },
+   {
+    "da": "Det regner stadig.",
+    "en": "It is still raining."
+   }
+  ],
+  "explanation": "\"Stadig\" means \"still\", meaning something is continuing: \"Han sover stadig\" (He is still sleeping). It usually comes right after the verb. A similar word \"endnu\" can mean \"yet\" or \"still\", but \"stadig\" is the safe one for ongoing things. It can also mean \"steady\" for a thing.",
+  "related": [
+   {
+    "da": "endnu",
+    "en": "yet / still"
+   },
+   {
+    "da": "allerede",
+    "en": "already"
+   },
+   {
+    "da": "ikke længere",
+    "en": "no longer"
+   },
+   {
+    "da": "igen",
+    "en": "again"
+   }
+  ],
+  "sentence": {
+   "da": "Han sover **stadig**.",
+   "en": "He is still sleeping."
+  }
+ },
+ "stadigvæk": {
+  "forms": [
+   {
+    "da": "jeg bor stadigvæk her",
+    "en": "I still live here"
+   },
+   {
+    "da": "er du stadigvæk syg?",
+    "en": "are you still sick?"
+   },
+   {
+    "da": "han sover stadigvæk",
+    "en": "he is still sleeping"
+   }
+  ],
+  "explanation": "\"Stadigvæk\" means still, as in \"it keeps on being so\". You will also hear the shorter \"stadig\" with the same meaning, and it is just as common. Do not mix it up with \"endnu\", which is used in questions and with \"ikke\": \"ikke endnu\" (not yet).",
+  "related": [
+   {
+    "da": "stadig",
+    "en": "still"
+   },
+   {
+    "da": "endnu",
+    "en": "yet / still"
+   },
+   {
+    "da": "allerede",
+    "en": "already"
+   },
+   {
+    "da": "ikke længere",
+    "en": "no longer"
+   }
+  ],
+  "sentence": {
+   "da": "Han sover **stadigvæk**.",
+   "en": "He is still sleeping."
+  }
+ },
+ "stegt": {
+  "forms": [
+   {
+    "da": "en stegt fisk",
+    "en": "a fried fish"
+   },
+   {
+    "da": "et stegt æg",
+    "en": "a fried egg"
+   },
+   {
+    "da": "stegte kartofler",
+    "en": "fried potatoes"
+   }
+  ],
+  "explanation": "\"Stegt\" means fried or roasted, depending on the food. It comes from the verb \"at stege\", and \"stegte\" is used before plural words. It is used for fish, eggs, potatoes and meat that is cooked in a pan or oven. \"Stegt flæsk\" (fried pork) is often called Denmark's national dish.",
+  "related": [
+   {
+    "da": "kogt",
+    "en": "boiled"
+   },
+   {
+    "da": "rå",
+    "en": "raw"
+   },
+   {
+    "da": "at stege",
+    "en": "to fry / roast"
+   },
+   {
+    "da": "en stegepande",
+    "en": "a frying pan"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **stegt** fisk.",
+   "en": "I would like fried fish."
+  }
+ },
+ "stille": {
+  "forms": [
+   {
+    "da": "en stille gade",
+    "en": "a quiet street"
+   },
+   {
+    "da": "et stille værelse",
+    "en": "a quiet room"
+   },
+   {
+    "da": "stille børn",
+    "en": "quiet children"
+   }
+  ],
+  "explanation": "\"Stille\" means quiet, silent or still. It does not change for en-words, et-words or more than one, which makes it easy to use. \"Vær stille\" means \"Be quiet\". It is also a verb, \"at stille\" (to put or place, to ask a question: \"at stille et spørgsmål\"), which is a different use. For a quiet and calm person you can also use \"rolig\".",
+  "related": [
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "høj",
+    "en": "loud"
+   },
+   {
+    "da": "en lyd",
+    "en": "a sound"
+   },
+   {
+    "da": "stilhed",
+    "en": "silence"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er meget **stille** i klassen.",
+   "en": "She is very quiet in class."
+  }
+ },
+ "stop": {
+  "forms": [
+   {
+    "da": "Stop!",
+    "en": "Stop!"
+   },
+   {
+    "da": "Stop lige!",
+    "en": "Stop for a moment!"
+   },
+   {
+    "da": "Bussen stopper her.",
+    "en": "The bus stops here."
+   }
+  ],
+  "explanation": "The same as in English, and used the same way as a quick order to halt. \"Stop\" is also the base of the Danish word \"at stoppe\" (to stop): \"bussen stopper her\". On a sign it also means \"stop\". Add \"lige\" to soften it: \"stop lige\" is \"hold on a moment\".",
+  "related": [
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   },
+   {
+    "da": "vent",
+    "en": "wait"
+   },
+   {
+    "da": "en stoppested",
+    "en": "a bus stop"
+   },
+   {
+    "da": "færdig",
+    "en": "finished"
+   }
+  ],
+  "sentence": {
+   "da": "**Stop!** Jeg har glemt min taske.",
+   "en": "Stop! I forgot my bag."
+  }
+ },
+ "stor": {
+  "forms": [
+   {
+    "da": "en stor bil",
+    "en": "a big car"
+   },
+   {
+    "da": "et stort hus",
+    "en": "a big house"
+   },
+   {
+    "da": "store biler",
+    "en": "big cars"
+   }
+  ],
+  "explanation": "\"Stor\" means big or large. It changes with the word it describes: nothing extra for an en-word, \"-t\" for an et-word (stort), and \"-e\" for many things or after \"the\" (store). It can also mean tall for a person. The opposite is \"lille\" (small), and \"større\" means bigger.",
+  "related": [
+   {
+    "da": "lille",
+    "en": "small"
+   },
+   {
+    "da": "større",
+    "en": "bigger"
+   },
+   {
+    "da": "kæmpe",
+    "en": "huge"
+   },
+   {
+    "da": "høj",
+    "en": "tall"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **stort** hus.",
+   "en": "It is a big house."
+  }
+ },
+ "storbritannien": {
+  "forms": [
+   {
+    "da": "Storbritannien",
+    "en": "Great Britain"
+   },
+   {
+    "da": "i Storbritannien",
+    "en": "in Great Britain"
+   },
+   {
+    "da": "til Storbritannien",
+    "en": "to Great Britain"
+   }
+  ],
+  "explanation": "\"Storbritannien\" is Great Britain. Place names like this are written with a capital letter and used without \"the\": \"i Storbritannien\" means \"in Great Britain\" and \"til Storbritannien\" means \"to Great Britain\". It is a long word made from \"stor\" (big) and \"Britannien\". People are \"briter\" and the describing word is \"britisk\". It covers England, Scotland and Wales.",
+  "related": [
+   {
+    "da": "britisk",
+    "en": "British"
+   },
+   {
+    "da": "England",
+    "en": "England"
+   },
+   {
+    "da": "Irland",
+    "en": "Ireland"
+   },
+   {
+    "da": "Skotland",
+    "en": "Scotland"
+   }
+  ],
+  "sentence": {
+   "da": "Han kommer fra **Storbritannien**.",
+   "en": "He comes from Great Britain."
+  }
+ },
+ "stærk": {
+  "forms": [
+   {
+    "da": "en stærk mand",
+    "en": "a strong man"
+   },
+   {
+    "da": "et stærkt smil",
+    "en": "a strong smile"
+   },
+   {
+    "da": "stærke mænd",
+    "en": "strong men"
+   }
+  ],
+  "explanation": "\"Stærk\" means strong, for people, coffee, tea, drinks, wind, spices and feelings. For a strong cup of coffee you say \"stærk kaffe\", and for strong cheese or chilli, \"stærk\" also means hot or spicy. Add \"t\" for et-words (\"et stærkt hold\") and \"-e\" for more than one. The opposite is \"svag\" (weak).",
+  "related": [
+   {
+    "da": "svag",
+    "en": "weak"
+   },
+   {
+    "da": "styrke",
+    "en": "strength"
+   },
+   {
+    "da": "kraftig",
+    "en": "powerful"
+   },
+   {
+    "da": "mild",
+    "en": "mild"
+   }
+  ],
+  "sentence": {
+   "da": "Han er meget **stærk**.",
+   "en": "He is very strong."
+  }
+ },
+ "størst": {
+  "forms": [
+   {
+    "da": "den største by",
+    "en": "the biggest city"
+   },
+   {
+    "da": "det største hus",
+    "en": "the biggest house"
+   },
+   {
+    "da": "de største byer",
+    "en": "the biggest cities"
+   }
+  ],
+  "explanation": "\"Størst\" means biggest or largest. It is the top step after \"stor\" (big) and \"større\" (bigger). Alone it stays \"størst\" (\"Han er størst\"), but before a word it adds an \"e\": \"den største\". Note that the \"-st\" sound ends the word, like English \"-est\".",
+  "related": [
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "større",
+    "en": "bigger"
+   },
+   {
+    "da": "mindst",
+    "en": "smallest"
+   },
+   {
+    "da": "en by",
+    "en": "a city"
+   }
+  ],
+  "sentence": {
+   "da": "København er den **største** by i Danmark.",
+   "en": "Copenhagen is the biggest city in Denmark."
+  }
+ },
+ "støvler": {
+  "forms": [
+   {
+    "da": "støvlerne",
+    "en": "the boots"
+   },
+   {
+    "da": "varme støvler",
+    "en": "warm boots"
+   },
+   {
+    "da": "gummistøvler",
+    "en": "rubber boots"
+   }
+  ],
+  "explanation": "\"Støvler\" means boots, the plural of \"en støvle\". Danes wear them a lot in the wet and cold months, and rubber boots are called \"gummistøvler\". When you want to say the boots, the word \"the\" goes on the end: \"støvlerne\". It is a good word for the clothes and shopping topics.",
+  "related": [
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   },
+   {
+    "da": "sandaler",
+    "en": "sandals"
+   },
+   {
+    "da": "en hjemmesko",
+    "en": "a slipper"
+   }
+  ],
+  "sentence": {
+   "da": "Det regner, så jeg tager **støvler** på.",
+   "en": "It is raining, so I am putting boots on."
+  }
+ },
+ "sukker": {
+  "forms": [
+   {
+    "da": "noget sukker",
+    "en": "some sugar"
+   },
+   {
+    "da": "sukkeret",
+    "en": "the sugar"
+   },
+   {
+    "da": "et stykke sukker",
+    "en": "a lump of sugar"
+   }
+  ],
+  "explanation": "\"Sukker\" is sugar, an et-word, so \"the sugar\" is \"sukkeret\". Like in English it is usually used without \"et\": \"lidt sukker\" (a little sugar). Danes often ask \"Vil du have sukker i kaffen?\" (Do you want sugar in your coffee?).",
+  "related": [
+   {
+    "da": "honning",
+    "en": "honey"
+   },
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have **sukker** i kaffen?",
+   "en": "Do you want sugar in your coffee?"
+  }
+ },
+ "sulten": {
+  "forms": [
+   {
+    "da": "en sulten dreng",
+    "en": "a hungry boy"
+   },
+   {
+    "da": "et sultent barn",
+    "en": "a hungry child"
+   },
+   {
+    "da": "sultne børn",
+    "en": "hungry children"
+   }
+  ],
+  "explanation": "\"Sulten\" means hungry. You say \"Jeg er sulten\" (I am hungry) just like in English. Add \"t\" for et-words (\"et sultent barn\") and the \"e\" drops out for more than one: \"sultne\". The word for hunger is \"sult\" (hunger). The opposite is \"mæt\" (full after eating). Do not use \"sulten\" for something you want in a general way; it only means being hungry for food.",
+  "related": [
+   {
+    "da": "mæt",
+    "en": "full"
+   },
+   {
+    "da": "tørstig",
+    "en": "thirsty"
+   },
+   {
+    "da": "sult",
+    "en": "hunger"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er rigtig **sulten**.",
+   "en": "I am really hungry."
+  }
+ },
+ "sund": {
+  "forms": [
+   {
+    "da": "en sund kost",
+    "en": "a healthy diet"
+   },
+   {
+    "da": "et sundt valg",
+    "en": "a healthy choice"
+   },
+   {
+    "da": "sunde børn",
+    "en": "healthy children"
+   }
+  ],
+  "explanation": "\"Sund\" means healthy, for food, habits or a person. It adds a \"t\" with et-words (\"sundt\") and an \"e\" for more than one (\"sunde\"). Do not confuse it with \"rask\", which means well or not sick right now. \"Sund\" is how good something is for you in general.",
+  "related": [
+   {
+    "da": "usund",
+    "en": "unhealthy"
+   },
+   {
+    "da": "rask",
+    "en": "well / healthy"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "helbred",
+    "en": "health"
+   }
+  ],
+  "sentence": {
+   "da": "Frugt er **sundt**.",
+   "en": "Fruit is healthy."
+  }
+ },
+ "sundhed": {
+  "forms": [
+   {
+    "da": "sundhed",
+    "en": "health"
+   },
+   {
+    "da": "sundheden",
+    "en": "the health"
+   },
+   {
+    "da": "sundhedens",
+    "en": "the health's, of the health"
+   }
+  ],
+  "explanation": "\"Sundhed\" is health in a general sense, such as public health or how healthy a lifestyle is. It has no plural and no \"en\" or \"et\" in front. For your own personal health, for example when you ask how someone is doing physically, Danes usually say \"helbred\" instead.",
+  "related": [
+   {
+    "da": "helbred",
+    "en": "your own health"
+   },
+   {
+    "da": "sund",
+    "en": "healthy"
+   },
+   {
+    "da": "et sundhedsvæsen",
+    "en": "a healthcare system"
+   }
+  ],
+  "sentence": {
+   "da": "**Sundhed** er vigtigere end penge.",
+   "en": "Health is more important than money."
+  }
+ },
+ "super": {
+  "forms": [
+   {
+    "da": "en super dag",
+    "en": "a great day"
+   },
+   {
+    "da": "et super tilbud",
+    "en": "a great offer"
+   },
+   {
+    "da": "super gode ideer",
+    "en": "really good ideas"
+   }
+  ],
+  "explanation": "\"Super\" means super or great, and it never changes its ending. Danes use it a lot, alone as \"Super!\" or before another word to make it stronger: \"super god\" is really good. It is casual and friendly, so it fits everyday talk.",
+  "related": [
+   {
+    "da": "fantastisk",
+    "en": "fantastic"
+   },
+   {
+    "da": "perfekt",
+    "en": "perfect"
+   },
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "fin",
+    "en": "nice"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **super** idé!",
+   "en": "That is a great idea!"
+  }
+ },
+ "svensk": {
+  "forms": [
+   {
+    "da": "en svensk bil",
+    "en": "a Swedish car"
+   },
+   {
+    "da": "et svensk hus",
+    "en": "a Swedish house"
+   },
+   {
+    "da": "svenske biler",
+    "en": "Swedish cars"
+   }
+  ],
+  "explanation": "\"Svensk\" is written with a small letter, and the plural is \"svenske\". A Swedish person is \"en svensker\", and the language is also \"svensk\". Written Swedish and Danish are close, but spoken Swedish can be hard for Danes to follow at first.",
+  "related": [
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "en svensker",
+    "en": "a Swede"
+   },
+   {
+    "da": "norsk",
+    "en": "Norwegian"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **svensk**.",
+   "en": "My neighbour is Swedish."
+  }
+ },
+ "sverige": {
+  "forms": [
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "i Sverige",
+    "en": "in Sweden"
+   },
+   {
+    "da": "til Sverige",
+    "en": "to Sweden"
+   }
+  ],
+  "explanation": "\"Sverige\" is Sweden. Place names like this are written with a capital letter and used without \"the\": \"i Sverige\" means \"in Sweden\" and \"til Sverige\" means \"to Sweden\". The people are \"svenskere\" (one person is \"en svensker\"), and the language is \"svensk\". It lies just across the water from Denmark, over the Øresund bridge.",
+  "related": [
+   {
+    "da": "en svensker",
+    "en": "a Swede"
+   },
+   {
+    "da": "svensk",
+    "en": "Swedish"
+   },
+   {
+    "da": "Norge",
+    "en": "Norway"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kører til **Sverige** i weekenden.",
+   "en": "We are driving to Sweden at the weekend."
+  }
+ },
+ "svimmel": {
+  "forms": [
+   {
+    "da": "en svimmel mand",
+    "en": "a dizzy man"
+   },
+   {
+    "da": "et svimmelt barn",
+    "en": "a dizzy child"
+   },
+   {
+    "da": "svimle børn",
+    "en": "dizzy children"
+   }
+  ],
+  "explanation": "\"Svimmel\" means dizzy, the feeling that the room is spinning. It adds a \"t\" with et-words (\"svimmelt\"), and for more than one it becomes \"svimle\" and drops one m. You often say \"Jeg er svimmel\" or \"Jeg bliver svimmel\" (I get dizzy).",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
+   },
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   },
+   {
+    "da": "en feber",
+    "en": "a fever"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **svimmel**, fordi jeg ikke har spist.",
+   "en": "I am dizzy because I have not eaten."
+  }
+ },
+ "svinekød": {
+  "forms": [
+   {
+    "da": "svinekød",
+    "en": "pork"
+   },
+   {
+    "da": "svinekødet",
+    "en": "the pork"
+   },
+   {
+    "da": "stegt svinekød",
+    "en": "roast pork"
+   }
+  ],
+  "explanation": "\"Svinekød\" is pork. It is built from \"svin\" (pig) and \"kød\" (meat), and it is an et-word. Pork is very common in Danish cooking, for example in \"frikadeller\" (meatballs) and \"flæskesteg\" (roast pork).",
+  "related": [
+   {
+    "da": "oksekød",
+    "en": "beef"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "en pølse",
+    "en": "a sausage"
+   },
+   {
+    "da": "et svin",
+    "en": "a pig"
+   }
+  ],
+  "sentence": {
+   "da": "Danskerne spiser meget **svinekød**.",
+   "en": "Danes eat a lot of pork."
+  }
+ },
+ "svær": {
+  "forms": [
+   {
+    "da": "en svær opgave",
+    "en": "a difficult task"
+   },
+   {
+    "da": "et svært ord",
+    "en": "a difficult word"
+   },
+   {
+    "da": "svære ord",
+    "en": "difficult words"
+   }
+  ],
+  "explanation": "\"Svær\" means difficult or hard to do. Add \"t\" for et-words (\"et svært ord\") and \"-e\" for more than one. It can also mean big or heavy in older or fixed phrases, but as a beginner you will mostly need the meaning difficult. Its opposites are \"let\" and \"nem\" (easy). Danes often say \"Det er svært\" when something is hard to do.",
+  "related": [
+   {
+    "da": "let",
+    "en": "easy"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "en udfordring",
+    "en": "a challenge"
+   },
+   {
+    "da": "sværere",
+    "en": "more difficult"
+   }
+  ],
+  "sentence": {
+   "da": "Danske ord kan være **svære** at sige.",
+   "en": "Danish words can be difficult to say."
+  }
+ },
+ "svømning": {
+  "forms": [
+   {
+    "da": "en svømning",
+    "en": "swimming"
+   },
+   {
+    "da": "svømningen",
+    "en": "the swimming"
+   },
+   {
+    "da": "Jeg går til svømning.",
+    "en": "I go to swimming (lessons)."
+   }
+  ],
+  "explanation": "\"Svømning\" is swimming as a sport or activity. It is an en-word and usually has no \"en\" in front. The verb is \"at svømme\" (to swim). A typical phrase is \"Jeg går til svømning\", which means you have regular swimming lessons or training.",
+  "related": [
+   {
+    "da": "at svømme",
+    "en": "to swim"
+   },
+   {
+    "da": "en svømmehal",
+    "en": "a swimming pool (indoor)"
+   },
+   {
+    "da": "sport",
+    "en": "sport"
+   },
+   {
+    "da": "en pool",
+    "en": "a pool"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene går til **svømning** om mandagen.",
+   "en": "The children go to swimming on Mondays."
+  }
+ },
+ "syd": {
+  "forms": [
+   {
+    "da": "syd",
+    "en": "south"
+   },
+   {
+    "da": "i syd",
+    "en": "in the south"
+   },
+   {
+    "da": "mod syd",
+    "en": "towards the south"
+   }
+  ],
+  "explanation": "\"Syd\" means south, one of the four main directions. It is used in compound words such as \"Sydjylland\" (southern Jutland) and \"sydpå\" (towards the south). It is the opposite of \"nord\". Warm holiday places are often said to be \"i syd\" or \"sydpå\".",
+  "related": [
+   {
+    "da": "nord",
+    "en": "north"
+   },
+   {
+    "da": "øst",
+    "en": "east"
+   },
+   {
+    "da": "vest",
+    "en": "west"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   }
+  ],
+  "sentence": {
+   "da": "Mange tager **syd** på ferie om sommeren.",
+   "en": "Many people go south on holiday in the summer."
+  }
+ },
+ "sydamerika": {
+  "forms": [
+   {
+    "da": "Sydamerika",
+    "en": "South America"
+   },
+   {
+    "da": "i Sydamerika",
+    "en": "in South America"
+   },
+   {
+    "da": "til Sydamerika",
+    "en": "to South America"
+   }
+  ],
+  "explanation": "\"Sydamerika\" is South America, written as one word with a capital letter. It is made of \"syd\" (south) and \"Amerika\". Say \"i Sydamerika\" for being there and \"til Sydamerika\" for going there. The matching word for North America is \"Nordamerika\".",
+  "related": [
+   {
+    "da": "Nordamerika",
+    "en": "North America"
+   },
+   {
+    "da": "syd",
+    "en": "south"
+   },
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en verdensdel",
+    "en": "a continent"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har rejst rundt i **Sydamerika**.",
+   "en": "She has travelled around South America."
+  }
+ },
+ "syg": {
+  "forms": [
+   {
+    "da": "en syg mand",
+    "en": "a sick man"
+   },
+   {
+    "da": "et sygt barn",
+    "en": "a sick child"
+   },
+   {
+    "da": "syge børn",
+    "en": "sick people"
+   }
+  ],
+  "explanation": "\"Syg\" means sick or ill. \"Jeg er syg\" is what you say when you cannot go to work or school. To report in sick, Danes say \"melde sig syg\". Add \"t\" for et-words (\"et sygt barn\") and \"-e\" for more than one. The opposite is \"rask\" (healthy, recovered). \"Sygdom\" is the word for an illness and \"en læge\" is a doctor.",
+  "related": [
+   {
+    "da": "rask",
+    "en": "healthy"
+   },
+   {
+    "da": "en sygdom",
+    "en": "an illness"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "at melde sig syg",
+    "en": "to call in sick"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn er **syg** i dag.",
+   "en": "My son is sick today."
+  }
+ },
+ "syltetøj": {
+  "forms": [
+   {
+    "da": "noget syltetøj",
+    "en": "some jam"
+   },
+   {
+    "da": "syltetøjet",
+    "en": "the jam"
+   },
+   {
+    "da": "jordbærsyltetøj",
+    "en": "strawberry jam"
+   }
+  ],
+  "explanation": "\"Syltetøj\" is jam, an et-word, so \"the jam\" is \"syltetøjet\". It is a long word, but it breaks into \"sylte\" (to preserve) and \"tøj\" (stuff). You spread it on bread, pancakes or porridge, and it is often said as \"lidt syltetøj\" without \"et\".",
+  "related": [
+   {
+    "da": "honning",
+    "en": "honey"
+   },
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "en pandekage",
+    "en": "a pancake"
+   },
+   {
+    "da": "et jordbær",
+    "en": "a strawberry"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have **syltetøj** på mit brød.",
+   "en": "I want jam on my bread."
+  }
+ },
+ "sytten": {
+  "forms": [
+   {
+    "da": "sytten år",
+    "en": "seventeen years"
+   },
+   {
+    "da": "sytten børn",
+    "en": "seventeen children"
+   },
+   {
+    "da": "sytten kroner",
+    "en": "seventeen kroner"
+   }
+  ],
+  "explanation": "Means \"seventeen\". It comes from \"syv\" (seven), but the \"v\" drops out, so it is \"sytten\" and not \"syvten\". The ending is shared with the other teens. It stays the same before en-words and et-words, for example \"sytten år\" (seventeen years).",
+  "related": [
+   {
+    "da": "seksten",
+    "en": "sixteen"
+   },
+   {
+    "da": "atten",
+    "en": "eighteen"
+   },
+   {
+    "da": "syv",
+    "en": "seven"
+   },
+   {
+    "da": "halvfjerds",
+    "en": "seventy"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **sytten** år gammel.",
+   "en": "He is seventeen years old."
+  }
+ },
+ "syv": {
+  "forms": [
+   {
+    "da": "syv dage",
+    "en": "seven days"
+   },
+   {
+    "da": "klokken syv",
+    "en": "seven o'clock"
+   },
+   {
+    "da": "syv gange",
+    "en": "seven times"
+   }
+  ],
+  "explanation": "Means \"seven\". The \"v\" at the end is soft and sounds almost like a short \"u\". It stays the same before en-words and et-words. Seventeen is \"sytten\", where the \"v\" drops out, and seventy is \"halvfjerds\".",
+  "related": [
+   {
+    "da": "seks",
+    "en": "six"
+   },
+   {
+    "da": "otte",
+    "en": "eight"
+   },
+   {
+    "da": "sytten",
+    "en": "seventeen"
+   },
+   {
+    "da": "syvende",
+    "en": "seventh"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **syv** dage i en uge.",
+   "en": "There are seven days in a week."
+  }
+ },
+ "syvende": {
+  "forms": [
+   {
+    "da": "den syvende dag",
+    "en": "the seventh day"
+   },
+   {
+    "da": "det syvende hus",
+    "en": "the seventh house"
+   },
+   {
+    "da": "syvende gang",
+    "en": "the seventh time"
+   }
+  ],
+  "explanation": "\"Syvende\" means seventh. It comes from \"syv\" (seven). It is used for the order of things and for dates: \"den syvende juli\" is the seventh of July. In writing you can use \"7.\" with a dot after the number.",
+  "related": [
+   {
+    "da": "syv",
+    "en": "seven"
+   },
+   {
+    "da": "sjette",
+    "en": "sixth"
+   },
+   {
+    "da": "ottende",
+    "en": "eighth"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   }
+  ],
+  "sentence": {
+   "da": "Det er min **syvende** uge i Danmark.",
+   "en": "It is my seventh week in Denmark."
+  }
+ },
+ "så": {
+  "forms": [
+   {
+    "da": "så stor",
+    "en": "so big"
+   },
+   {
+    "da": "og så",
+    "en": "and then"
+   },
+   {
+    "da": "så meget",
+    "en": "so much"
+   }
+  ],
+  "explanation": "\"Så\" means so or then. It can show a result (\"Det regner, så vi bliver hjemme\"), a next step (\"og så går vi\") or strength (\"så stor\"). Careful: \"så\" is also the past form of \"at se\", as in \"Jeg så ham\" (I saw him).",
+  "related": [
+   {
+    "da": "derefter",
+    "en": "after that"
+   },
+   {
+    "da": "derfor",
+    "en": "therefore"
+   },
+   {
+    "da": "meget",
+    "en": "very / much"
+   },
+   {
+    "da": "at se",
+    "en": "to see"
+   }
+  ],
+  "sentence": {
+   "da": "Først spiser vi, og **så** går vi hjem.",
+   "en": "First we eat, and then we go home."
+  }
+ },
  "så længe": {
   "forms": [
    {
@@ -442,6 +8187,205 @@
   "sentence": {
    "da": "Du må bo her, **så længe** du vil.",
    "en": "You may live here as long as you want."
+  }
+ },
+ "sådan": {
+  "forms": [
+   {
+    "da": "sådan en bil",
+    "en": "a car like that"
+   },
+   {
+    "da": "Sådan!",
+    "en": "There you go!"
+   },
+   {
+    "da": "Gør det sådan.",
+    "en": "Do it like this."
+   }
+  ],
+  "explanation": "\"Sådan\" means \"like that\", \"such\" or \"this way\". \"Sådan en bil\" is \"a car like that\" and \"Gør det sådan\" is \"Do it like this\". Said on its own, \"Sådan!\" is like \"There you go!\". It is also used in \"sådan set\" (more or less). For et-words you will see \"sådant\".",
+  "related": [
+   {
+    "da": "således",
+    "en": "thus (formal)"
+   },
+   {
+    "da": "på den måde",
+    "en": "in that way"
+   },
+   {
+    "da": "så",
+    "en": "so / like this"
+   },
+   {
+    "da": "sådan her",
+    "en": "like this"
+   }
+  ],
+  "sentence": {
+   "da": "Man gør det **sådan**.",
+   "en": "You do it like this."
+  }
+ },
+ "sæbe": {
+  "forms": [
+   {
+    "da": "en sæbe",
+    "en": "a soap"
+   },
+   {
+    "da": "sæben",
+    "en": "the soap"
+   }
+  ],
+  "explanation": "\"Sæbe\" is soap, and it is an en-word. It is not counted, so you say \"noget sæbe\". For a single bar you can say \"et stykke sæbe\" (a piece of soap). Hand soap is \"håndsæbe\" and dish soap is \"opvaskemiddel\" (a different word).",
+  "related": [
+   {
+    "da": "shampoo",
+    "en": "shampoo"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vasker hænder med **sæbe**.",
+   "en": "I wash my hands with soap."
+  }
+ },
+ "sød": {
+  "forms": [
+   {
+    "da": "en sød pige",
+    "en": "a sweet girl"
+   },
+   {
+    "da": "et sødt barn",
+    "en": "a sweet child"
+   },
+   {
+    "da": "søde børn",
+    "en": "sweet children"
+   }
+  ],
+  "explanation": "\"Sød\" means sweet in taste (\"sød kage\") and also sweet or cute for people, animals and small children. Calling someone \"sød\" is friendly and warm. A common phrase is \"Tak, det er sødt af dig\" (Thank you, that is sweet of you). Add \"t\" for et-words (\"et sødt barn\") and \"-e\" for more than one. The opposite for taste is \"sur\" (sour) or \"bitter\".",
+  "related": [
+   {
+    "da": "sur",
+    "en": "sour"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   },
+   {
+    "da": "sødme",
+    "en": "sweetness"
+   },
+   {
+    "da": "venlig",
+    "en": "kind"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er hun **sød**!",
+   "en": "How sweet she is!"
+  }
+ },
+ "sølv": {
+  "forms": [
+   {
+    "da": "sølv",
+    "en": "silver"
+   },
+   {
+    "da": "sølvet",
+    "en": "the silver"
+   },
+   {
+    "da": "en sølvring",
+    "en": "a silver ring"
+   },
+   {
+    "da": "et sølvur",
+    "en": "a silver watch"
+   }
+  ],
+  "explanation": "\"Sølv\" is silver, both the metal and the color. It is an et-word, and there is no plural because it is a material. Put it in front of another word to make things: \"en sølvring\" is a silver ring. The color is also used for the second-place medal.",
+  "related": [
+   {
+    "da": "guld",
+    "en": "gold"
+   },
+   {
+    "da": "bronze",
+    "en": "bronze"
+   },
+   {
+    "da": "en medalje",
+    "en": "a medal"
+   },
+   {
+    "da": "grå",
+    "en": "gray"
+   }
+  ],
+  "sentence": {
+   "da": "Min ring er lavet af **sølv**.",
+   "en": "My ring is made of silver."
+  }
+ },
+ "søndag": {
+  "forms": [
+   {
+    "da": "en søndag",
+    "en": "a Sunday"
+   },
+   {
+    "da": "søndagen",
+    "en": "the Sunday"
+   },
+   {
+    "da": "søndage",
+    "en": "Sundays"
+   },
+   {
+    "da": "søndagene",
+    "en": "the Sundays"
+   }
+  ],
+  "explanation": "\"Søndag\" is Sunday, the day many families spend together, and traditionally a day when many shops are closed or open shorter hours. Say \"på søndag\" for the coming Sunday and \"om søndagen\" for every Sunday. Remember the ø, and write it with a small letter.",
+  "related": [
+   {
+    "da": "en lørdag",
+    "en": "Saturday"
+   },
+   {
+    "da": "en mandag",
+    "en": "Monday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Vi besøger min mor på **søndag**.",
+   "en": "We are visiting my mother on Sunday."
   }
  }
 }

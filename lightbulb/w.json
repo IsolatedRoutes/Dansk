@@ -1,0 +1,123 @@
+{
+ "en weekend": {
+  "forms": [
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   },
+   {
+    "da": "weekenden",
+    "en": "the weekend"
+   },
+   {
+    "da": "weekender",
+    "en": "weekends"
+   },
+   {
+    "da": "weekenderne",
+    "en": "the weekends"
+   }
+  ],
+  "explanation": "\"En weekend\" is a weekend, and it is the same word as in English. It is an en-word. In Danish you say \"i weekenden\" for at the weekend, and the usual greeting on Friday is \"God weekend!\" (Have a good weekend). \"Weekenden\" is the Saturday and Sunday part of the week, when most people are off work.",
+  "related": [
+   {
+    "da": "en lørdag",
+    "en": "a Saturday"
+   },
+   {
+    "da": "en søndag",
+    "en": "a Sunday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad skal du lave i **weekenden**?",
+   "en": "What are you going to do at the weekend?"
+  }
+ },
+ "wifi": {
+  "forms": [
+   {
+    "da": "wifi'et",
+    "en": "the wifi"
+   },
+   {
+    "da": "Har I wifi?",
+    "en": "Do you have wifi?"
+   },
+   {
+    "da": "en wifi-kode",
+    "en": "a wifi password"
+   }
+  ],
+  "explanation": "\"Wifi\" is said much like in English and is an et-word, so \"the wifi\" is \"wifi'et\" with an apostrophe. In cafés, hotels and trains Danes ask \"Er der wifi?\" (Is there wifi?) and \"Hvad er koden?\" (What is the code?).",
+  "related": [
+   {
+    "da": "internet",
+    "en": "internet"
+   },
+   {
+    "da": "en kode",
+    "en": "a code"
+   },
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "en café",
+    "en": "a café"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er koden til **wifi**?",
+   "en": "What is the code for the wifi?"
+  }
+ },
+ "wow": {
+  "forms": [
+   {
+    "da": "Wow!",
+    "en": "Wow!"
+   },
+   {
+    "da": "Wow, hvor flot!",
+    "en": "Wow, how beautiful!"
+   },
+   {
+    "da": "Wow, det er stort!",
+    "en": "Wow, that's big!"
+   }
+  ],
+  "explanation": "A small word showing surprise or being impressed, used just like in English. It is casual and very common among younger people. Danes may also say \"hold da op\" or \"sikke noget\" for the same feeling. Pair it with \"hvor\" (how) plus a describing word: \"wow, hvor flot!\".",
+  "related": [
+   {
+    "da": "hold da op",
+    "en": "wow / hold on"
+   },
+   {
+    "da": "flot",
+    "en": "beautiful"
+   },
+   {
+    "da": "fedt",
+    "en": "cool"
+   },
+   {
+    "da": "sikke noget",
+    "en": "what a thing"
+   }
+  ],
+  "sentence": {
+   "da": "**Wow**, hvor er det flot!",
+   "en": "Wow, how beautiful it is!"
+  }
+ }
+}

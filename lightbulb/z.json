@@ -1,0 +1,45 @@
+{
+ "en zebra": {
+  "forms": [
+   {
+    "da": "en zebra",
+    "en": "a zebra"
+   },
+   {
+    "da": "zebraen",
+    "en": "the zebra"
+   },
+   {
+    "da": "zebraer",
+    "en": "zebras"
+   },
+   {
+    "da": "zebraerne",
+    "en": "the zebras"
+   }
+  ],
+  "explanation": "\"En zebra\" is a zebra, an en-word, spelled just like the English word. \"Zebraen\" is \"the zebra\". The same word is used in \"en zebrastribe\", a pedestrian crossing, because the white stripes on the road look like a zebra's.",
+  "related": [
+   {
+    "da": "en giraf",
+    "en": "a giraffe"
+   },
+   {
+    "da": "en hest",
+    "en": "a horse"
+   },
+   {
+    "da": "en stribe",
+    "en": "a stripe"
+   },
+   {
+    "da": "en zebrastribe",
+    "en": "a pedestrian crossing"
+   }
+  ],
+  "sentence": {
+   "da": "**Zebraen** har sorte og hvide striber.",
+   "en": "The zebra has black and white stripes."
+  }
+ }
+}

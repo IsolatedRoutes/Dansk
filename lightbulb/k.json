@@ -1,4 +1,125 @@
 {
+ "at kaste op": {
+  "forms": [
+   {
+    "da": "at kaste op",
+    "en": "to throw up"
+   },
+   {
+    "da": "jeg kaster op",
+    "en": "I throw up"
+   },
+   {
+    "da": "jeg kastede op",
+    "en": "I threw up"
+   },
+   {
+    "da": "jeg har kastet op",
+    "en": "I have thrown up"
+   }
+  ],
+  "explanation": "\"At kaste op\" means to throw up or vomit. \"Kaste\" means to throw and \"op\" means up, so it is the same idea as in English. The word \"op\" stays at the end: \"Han kastede op\". Another way to say it is \"at brække sig\".",
+  "related": [
+   {
+    "da": "at brække sig",
+    "en": "to vomit"
+   },
+   {
+    "da": "kvalme",
+    "en": "nausea"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "ondt i maven",
+    "en": "stomach ache"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet **kastede op** i nat.",
+   "en": "The child threw up last night."
+  }
+ },
+ "at kende": {
+  "forms": [
+   {
+    "da": "at kende",
+    "en": "to know (a person or place)"
+   },
+   {
+    "da": "jeg kender",
+    "en": "I know (a person or place)"
+   },
+   {
+    "da": "jeg kendte",
+    "en": "I knew (a person or place)"
+   },
+   {
+    "da": "jeg har kendt",
+    "en": "I have known (a person or place)"
+   }
+  ],
+  "explanation": "\"At kende\" means to know a person, a place or something you are familiar with: \"Jeg kender Anna\" (I know Anna). To know a fact, use \"at vide\" instead, as in \"Jeg ved, at hun bor her\". A simple way to remember it: \"kende\" is knowing someone, \"vide\" is knowing something.",
+  "related": [
+   {
+    "da": "at vide",
+    "en": "to know (a fact)"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "at genkende",
+    "en": "to recognise"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kender** ham godt.",
+   "en": "I know him well."
+  }
+ },
+ "at kigge": {
+  "forms": [
+   {
+    "da": "at kigge",
+    "en": "to look"
+   },
+   {
+    "da": "jeg kigger",
+    "en": "I look"
+   },
+   {
+    "da": "jeg kiggede",
+    "en": "I looked"
+   },
+   {
+    "da": "jeg har kigget",
+    "en": "I have looked"
+   }
+  ],
+  "explanation": "\"At kigge\" means to look or to have a look, and it feels casual and friendly: \"Kig her!\" (Look here!). It is often used with \"på\" (at), like \"Jeg kigger på billedet\". It is a little more relaxed than \"at se\". In a shop you may hear \"Jeg kigger bare\", meaning I'm just looking.",
+  "related": [
+   {
+    "da": "at se",
+    "en": "to see"
+   },
+   {
+    "da": "at kigge på",
+    "en": "to look at"
+   },
+   {
+    "da": "et billede",
+    "en": "a picture"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kigger** på billedet.",
+   "en": "I am looking at the picture."
+  }
+ },
  "at klemme": {
   "forms": [
    {
@@ -40,6 +161,3497 @@
   "sentence": {
    "da": "Pas på, du ikke **klemmer** fingrene i døren.",
    "en": "Be careful you don't pinch your fingers in the door."
+  }
+ },
+ "at klæde sig på": {
+  "forms": [
+   {
+    "da": "at klæde sig på",
+    "en": "to get dressed"
+   },
+   {
+    "da": "jeg klæder mig på",
+    "en": "I get dressed"
+   },
+   {
+    "da": "jeg klædte mig på",
+    "en": "I got dressed"
+   },
+   {
+    "da": "jeg har klædt mig på",
+    "en": "I have gotten dressed"
+   }
+  ],
+  "explanation": "\"At klæde sig på\" means to get dressed. The little word \"sig\" changes with the person: \"jeg klæder mig på\", \"du klæder dig på\", \"han klæder sig på\". The opposite is \"at klæde sig af\" (to undress). To put on one item, Danes say \"at tage på\", such as \"at tage en jakke på\".",
+  "related": [
+   {
+    "da": "at klæde sig af",
+    "en": "to undress"
+   },
+   {
+    "da": "tøj",
+    "en": "clothes"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "at tage på",
+    "en": "to put on"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **klæder sig på**.",
+   "en": "The children are getting dressed."
+  }
+ },
+ "at koge": {
+  "forms": [
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "jeg koger",
+    "en": "I boil"
+   },
+   {
+    "da": "jeg kogte",
+    "en": "I boiled"
+   },
+   {
+    "da": "jeg har kogt",
+    "en": "I have boiled"
+   }
+  ],
+  "explanation": "\"At koge\" means to boil or to cook in boiling water, for example eggs, pasta and potatoes. It can also mean that water is boiling: \"Vandet koger\". Do not mix it up with \"at lave mad\", which means to make food in general.",
+  "related": [
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **koger** kartofler til middag.",
+   "en": "I boil potatoes for dinner."
+  }
+ },
+ "at komme": {
+  "forms": [
+   {
+    "da": "at komme",
+    "en": "to come"
+   },
+   {
+    "da": "jeg kommer",
+    "en": "I come"
+   },
+   {
+    "da": "jeg kom",
+    "en": "I came"
+   },
+   {
+    "da": "jeg er kommet",
+    "en": "I have come"
+   }
+  ],
+  "explanation": "\"At komme\" means to come, and Danes use it for arriving and for being on the way: \"Jeg kommer nu\" (I am coming now). \"Hvor kommer du fra?\" asks where you are from. It is also used for what will happen next, as in \"Det kommer til at regne\" (It is going to rain). The opposite direction is \"at gå\".",
+  "related": [
+   {
+    "da": "at gå",
+    "en": "to go / walk"
+   },
+   {
+    "da": "at ankomme",
+    "en": "to arrive"
+   },
+   {
+    "da": "at tage med",
+    "en": "to come along"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kommer** fra England.",
+   "en": "I come from England."
+  }
+ },
+ "at komme hjem": {
+  "forms": [
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
+   },
+   {
+    "da": "jeg kommer hjem",
+    "en": "I come home"
+   },
+   {
+    "da": "jeg kom hjem",
+    "en": "I came home"
+   },
+   {
+    "da": "jeg er kommet hjem",
+    "en": "I have come home"
+   }
+  ],
+  "explanation": "\"At komme hjem\" means to come home or to arrive home. It focuses on the moment of arriving. A common question is \"Hvornår kommer du hjem?\" (When do you get home?). For 'have come home' Danish uses \"er\".",
+  "related": [
+   {
+    "da": "at tage hjem",
+    "en": "to go home"
+   },
+   {
+    "da": "at blive hjemme",
+    "en": "to stay home"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kommer hjem** klokken seks.",
+   "en": "I get home at six o'clock."
+  }
+ },
+ "at komme ind": {
+  "forms": [
+   {
+    "da": "at komme ind",
+    "en": "to come in"
+   },
+   {
+    "da": "jeg kommer ind",
+    "en": "I come in"
+   },
+   {
+    "da": "jeg kom ind",
+    "en": "I came in"
+   },
+   {
+    "da": "jeg er kommet ind",
+    "en": "I have come in"
+   }
+  ],
+  "explanation": "\"At komme ind\" means to come in or to get in. Use it when someone enters, or when you manage to get inside somewhere. \"Kom ind!\" is what you say to invite someone in. The opposite is \"at komme ud\".",
+  "related": [
+   {
+    "da": "at komme ud",
+    "en": "to come out / get out"
+   },
+   {
+    "da": "at gå ind",
+    "en": "to go in"
+   },
+   {
+    "da": "en dør",
+    "en": "a door"
+   },
+   {
+    "da": "velkommen",
+    "en": "welcome"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **komme ind** nu.",
+   "en": "You can come in now."
+  }
+ },
+ "at komme ned": {
+  "forms": [
+   {
+    "da": "at komme ned",
+    "en": "to come down"
+   },
+   {
+    "da": "jeg kommer ned",
+    "en": "I come down"
+   },
+   {
+    "da": "jeg kom ned",
+    "en": "I came down"
+   },
+   {
+    "da": "jeg er kommet ned",
+    "en": "I have come down"
+   }
+  ],
+  "explanation": "\"At komme ned\" means to come down, such as coming down the stairs or from a higher floor. It can also mean getting down from somewhere. The opposite is \"at komme op\". For 'have come down' Danish uses \"er\".",
+  "related": [
+   {
+    "da": "at komme op",
+    "en": "to come up"
+   },
+   {
+    "da": "at gå ned",
+    "en": "to go down"
+   },
+   {
+    "da": "ned",
+    "en": "down"
+   },
+   {
+    "da": "en trappe",
+    "en": "a staircase"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **komme ned** og hjælpe mig?",
+   "en": "Can you come down and help me?"
+  }
+ },
+ "at komme op": {
+  "forms": [
+   {
+    "da": "at komme op",
+    "en": "to come up / get up"
+   },
+   {
+    "da": "jeg kommer op",
+    "en": "I come up / get up"
+   },
+   {
+    "da": "jeg kom op",
+    "en": "I came up / got up"
+   },
+   {
+    "da": "jeg er kommet op",
+    "en": "I have come up / gotten up"
+   }
+  ],
+  "explanation": "\"At komme op\" means to come up, and also to get up, for example out of bed or up from a chair. In daily talk, \"Kom op!\" can mean 'Come on!' or 'Get a move on!'. The opposite is \"at komme ned\".",
+  "related": [
+   {
+    "da": "at komme ned",
+    "en": "to come down"
+   },
+   {
+    "da": "at gå op",
+    "en": "to go up"
+   },
+   {
+    "da": "at stå op",
+    "en": "to get up (out of bed)"
+   },
+   {
+    "da": "op",
+    "en": "up"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **komme op** til mig.",
+   "en": "You must come up to me."
+  }
+ },
+ "at komme tilbage": {
+  "forms": [
+   {
+    "da": "at komme tilbage",
+    "en": "to come back"
+   },
+   {
+    "da": "jeg kommer tilbage",
+    "en": "I come back"
+   },
+   {
+    "da": "jeg kom tilbage",
+    "en": "I came back"
+   },
+   {
+    "da": "jeg er kommet tilbage",
+    "en": "I have come back"
+   }
+  ],
+  "explanation": "\"At komme tilbage\" means to come back or to return. \"Jeg kommer snart tilbage\" means \"I will be back soon\". The \"have\" form uses \"er\": \"Jeg er kommet tilbage\" (I have come back). The small word \"tilbage\" always stays after the main word, so it can end up at the end of the sentence.",
+  "related": [
+   {
+    "da": "at gå tilbage",
+    "en": "to go back"
+   },
+   {
+    "da": "at vende hjem",
+    "en": "to return home"
+   },
+   {
+    "da": "snart",
+    "en": "soon"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kommer** snart **tilbage**.",
+   "en": "I will be back soon."
+  }
+ },
+ "at komme ud": {
+  "forms": [
+   {
+    "da": "at komme ud",
+    "en": "to come out / get out"
+   },
+   {
+    "da": "jeg kommer ud",
+    "en": "I come out / get out"
+   },
+   {
+    "da": "jeg kom ud",
+    "en": "I came out / got out"
+   },
+   {
+    "da": "jeg er kommet ud",
+    "en": "I have come out / gotten out"
+   }
+  ],
+  "explanation": "\"At komme ud\" means to come out or to get out, of a room, house or building. It is also used when you finally get outside for a while, like \"jeg kommer ud i dag\". The opposite is \"at komme ind\". For 'have come out' Danish uses \"er\".",
+  "related": [
+   {
+    "da": "at komme ind",
+    "en": "to come in"
+   },
+   {
+    "da": "at gå ud",
+    "en": "to go out"
+   },
+   {
+    "da": "ud",
+    "en": "out"
+   },
+   {
+    "da": "en dør",
+    "en": "a door"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kommer ud** af bilen.",
+   "en": "I get out of the car."
+  }
+ },
+ "at koste": {
+  "forms": [
+   {
+    "da": "at koste",
+    "en": "to cost"
+   },
+   {
+    "da": "det koster",
+    "en": "it costs"
+   },
+   {
+    "da": "det kostede",
+    "en": "it cost"
+   },
+   {
+    "da": "det har kostet",
+    "en": "it has cost"
+   }
+  ],
+  "explanation": "\"At koste\" means to cost. It is mostly used with \"det\" (it) or \"de\" (they): \"Hvad koster det?\" (How much does it cost?), which is one of the most useful shopping questions. It does not describe a person doing something, so the forms start with \"det\" instead of \"jeg\".",
+  "related": [
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "dyr",
+    "en": "expensive"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad **koster** den her bluse?",
+   "en": "How much does this blouse cost?"
+  }
+ },
+ "at kunne": {
+  "forms": [
+   {
+    "da": "at kunne",
+    "en": "can / to be able to"
+   },
+   {
+    "da": "jeg kan",
+    "en": "I can"
+   },
+   {
+    "da": "jeg kunne",
+    "en": "I could"
+   },
+   {
+    "da": "jeg har kunnet",
+    "en": "I have been able to"
+   }
+  ],
+  "explanation": "\"At kunne\" means can or to be able to, so it says what you are able to do or what is possible. It is followed straight by another action word, with no \"at\" in between: \"Jeg kan svømme\". The form \"kan\" is the same for every person. Do not mix it up with \"at måtte\", which is about permission or need.",
+  "related": [
+   {
+    "da": "at ville",
+    "en": "to want to / will"
+   },
+   {
+    "da": "at skulle",
+    "en": "to have to / should"
+   },
+   {
+    "da": "en evne",
+    "en": "an ability"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kan** tale lidt dansk.",
+   "en": "I can speak a little Danish."
+  }
+ },
+ "at kunne lide": {
+  "forms": [
+   {
+    "da": "at kunne lide",
+    "en": "to like"
+   },
+   {
+    "da": "jeg kan lide",
+    "en": "I like"
+   },
+   {
+    "da": "jeg kunne lide",
+    "en": "I liked"
+   },
+   {
+    "da": "jeg har kunnet lide",
+    "en": "I have liked"
+   }
+  ],
+  "explanation": "\"At kunne lide\" means to like, and it is made of three small words: \"Jeg kan lide kaffe\" (I like coffee). It is a fixed phrase, so the \"at\" goes in front only once. The word \"godt\" can be added to make it a bit warmer: \"Jeg kan godt lide dig\". To say you do not like something, add \"ikke\": \"Jeg kan ikke lide det\".",
+  "related": [
+   {
+    "da": "at elske",
+    "en": "to love"
+   },
+   {
+    "da": "at hade",
+    "en": "to hate"
+   },
+   {
+    "da": "at holde af",
+    "en": "to be fond of"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kan lide** kaffe.",
+   "en": "I like coffee."
+  }
+ },
+ "at købe": {
+  "forms": [
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "jeg køber",
+    "en": "I buy"
+   },
+   {
+    "da": "jeg købte",
+    "en": "I bought"
+   },
+   {
+    "da": "jeg har købt",
+    "en": "I have bought"
+   }
+  ],
+  "explanation": "\"At købe\" means to buy. It is one of the first words you need for shopping: \"Jeg vil gerne købe en billet\" (I would like to buy a ticket). It is the opposite of \"at sælge\" (to sell). The past form \"købte\" and the \"have\" form \"købt\" are regular.",
+  "related": [
+   {
+    "da": "at sælge",
+    "en": "to sell"
+   },
+   {
+    "da": "at handle",
+    "en": "to shop"
+   },
+   {
+    "da": "en butik",
+    "en": "a shop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **købe** en billet.",
+   "en": "I would like to buy a ticket."
+  }
+ },
+ "at købe ind": {
+  "forms": [
+   {
+    "da": "at købe ind",
+    "en": "to buy groceries"
+   },
+   {
+    "da": "jeg køber ind",
+    "en": "I buy groceries"
+   },
+   {
+    "da": "jeg købte ind",
+    "en": "I bought groceries"
+   },
+   {
+    "da": "jeg har købt ind",
+    "en": "I have bought groceries"
+   }
+  ],
+  "explanation": "\"At købe ind\" means to do your shopping, mostly for food and things for the home. \"At købe\" on its own just means to buy, but \"købe ind\" is about the weekly shop. You often say \"Jeg skal ud og købe ind\" (I am going out to shop). The word \"ind\" here does not mean \"in\".",
+  "related": [
+   {
+    "da": "et supermarked",
+    "en": "a supermarket"
+   },
+   {
+    "da": "dagligvarer",
+    "en": "groceries"
+   },
+   {
+    "da": "en indkøbsvogn",
+    "en": "a shopping cart"
+   },
+   {
+    "da": "at købe",
+    "en": "to buy"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **købe ind** til aftensmad.",
+   "en": "I need to buy groceries for dinner."
+  }
+ },
+ "at køre": {
+  "forms": [
+   {
+    "da": "at køre",
+    "en": "to drive"
+   },
+   {
+    "da": "jeg kører",
+    "en": "I drive"
+   },
+   {
+    "da": "jeg kørte",
+    "en": "I drove"
+   },
+   {
+    "da": "jeg har kørt",
+    "en": "I have driven"
+   }
+  ],
+  "explanation": "\"At køre\" means to drive or to ride in a vehicle: \"Jeg kører i bil\" (I go by car). It is used for anyone who drives, but also for a bus or train that runs. For a bike you usually say \"at cykle\". A tip: when someone just rides along as a passenger, Danes also say \"at køre med\".",
+  "related": [
+   {
+    "da": "at cykle",
+    "en": "to cycle"
+   },
+   {
+    "da": "at flyve",
+    "en": "to fly"
+   },
+   {
+    "da": "en bil",
+    "en": "a car"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kører** til arbejde hver dag.",
+   "en": "I drive to work every day."
+  }
+ },
+ "at køre hjem": {
+  "forms": [
+   {
+    "da": "at køre hjem",
+    "en": "to drive home"
+   },
+   {
+    "da": "jeg kører hjem",
+    "en": "I drive home"
+   },
+   {
+    "da": "jeg kørte hjem",
+    "en": "I drove home"
+   },
+   {
+    "da": "jeg er kørt hjem",
+    "en": "I have driven home"
+   }
+  ],
+  "explanation": "\"At køre hjem\" means to drive home, in a car or on a bike or bus, anything with wheels. For going on foot, use \"at gå hjem\". For 'have driven home' Danish uses \"er\" in this phrase: \"jeg er kørt hjem\".",
+  "related": [
+   {
+    "da": "at køre",
+    "en": "to drive"
+   },
+   {
+    "da": "at gå hjem",
+    "en": "to walk home"
+   },
+   {
+    "da": "at tage hjem",
+    "en": "to go home"
+   },
+   {
+    "da": "en bil",
+    "en": "a car"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **kører hjem** efter arbejde.",
+   "en": "I drive home after work."
+  }
+ },
+ "en kage": {
+  "forms": [
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "kagen",
+    "en": "the cake"
+   },
+   {
+    "da": "kager",
+    "en": "cakes"
+   },
+   {
+    "da": "kagerne",
+    "en": "the cakes"
+   }
+  ],
+  "explanation": "\"En kage\" is a cake, an en-word. In Danish it covers many things: birthday cakes, pastries and cookies are often all called \"kager\". \"At bage en kage\" is to bake a cake, and \"kage\" is a big part of Danish coffee and birthday culture.",
+  "related": [
+   {
+    "da": "en bolle",
+    "en": "a bun"
+   },
+   {
+    "da": "en kiks",
+    "en": "a biscuit"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "slik",
+    "en": "candy"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **kage**, når jeg har fødselsdag.",
+   "en": "We eat cake when it is my birthday."
+  }
+ },
+ "en kalender": {
+  "forms": [
+   {
+    "da": "en kalender",
+    "en": "a calendar"
+   },
+   {
+    "da": "kalenderen",
+    "en": "the calendar"
+   },
+   {
+    "da": "kalendere",
+    "en": "calendars"
+   },
+   {
+    "da": "kalenderne",
+    "en": "the calendars"
+   }
+  ],
+  "explanation": "\"Kalender\" is a calendar, on a wall or in your phone. It is also the thing where you write down appointments, so Danes say \"Jeg tjekker min kalender\" (I'll check my calendar). The plural is \"kalendere\".",
+  "related": [
+   {
+    "da": "en dato",
+    "en": "a date"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en aftale",
+    "en": "an appointment"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kigger i min **kalender**.",
+   "en": "I look in my calendar."
+  }
+ },
+ "en kanin": {
+  "forms": [
+   {
+    "da": "en kanin",
+    "en": "a rabbit"
+   },
+   {
+    "da": "kaninen",
+    "en": "the rabbit"
+   },
+   {
+    "da": "kaniner",
+    "en": "rabbits"
+   },
+   {
+    "da": "kaninerne",
+    "en": "the rabbits"
+   }
+  ],
+  "explanation": "\"En kanin\" is a rabbit, an en-word. Many children keep a rabbit as a pet. A wild rabbit or hare is \"en hare\", which is a different animal. At Easter you will see \"påskeharen\" (the Easter bunny), which uses \"hare\" and not \"kanin\".",
+  "related": [
+   {
+    "da": "en hare",
+    "en": "a hare"
+   },
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter har en **kanin**.",
+   "en": "My daughter has a rabbit."
+  }
+ },
+ "en kartoffel": {
+  "forms": [
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   },
+   {
+    "da": "kartoflen",
+    "en": "the potato"
+   },
+   {
+    "da": "kartofler",
+    "en": "potatoes"
+   },
+   {
+    "da": "kartoflerne",
+    "en": "the potatoes"
+   }
+  ],
+  "explanation": "\"En kartoffel\" is a potato, and potatoes are a classic part of Danish dinners. Notice that the \"the\" form drops an e: \"kartoflen\". The plural is \"kartofler\". Danes often shorten it to \"kartofler\" in talk, as in \"kogte kartofler\" (boiled potatoes).",
+  "related": [
+   {
+    "da": "ris",
+    "en": "rice"
+   },
+   {
+    "da": "pasta",
+    "en": "pasta"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **kartofler** til aftensmad.",
+   "en": "We eat potatoes for dinner."
+  }
+ },
+ "en kasket": {
+  "forms": [
+   {
+    "da": "en kasket",
+    "en": "a cap"
+   },
+   {
+    "da": "kasketten",
+    "en": "the cap"
+   },
+   {
+    "da": "kasketter",
+    "en": "caps"
+   },
+   {
+    "da": "kasketterne",
+    "en": "the caps"
+   }
+  ],
+  "explanation": "\"En kasket\" is a cap with a peak at the front, like a baseball cap. It is not the same as \"en hue\" (a warm knitted beanie) or \"en hat\" (a hat with a brim). Notice the double t when you add endings: \"kasketten\", \"kasketter\". People wear it for the sun or for style.",
+  "related": [
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "en hat",
+    "en": "a hat"
+   },
+   {
+    "da": "solbriller",
+    "en": "sunglasses"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   }
+  ],
+  "sentence": {
+   "da": "Han har en rød **kasket** på.",
+   "en": "He is wearing a red cap."
+  }
+ },
+ "en kat": {
+  "forms": [
+   {
+    "da": "en kat",
+    "en": "a cat"
+   },
+   {
+    "da": "katten",
+    "en": "the cat"
+   },
+   {
+    "da": "katte",
+    "en": "cats"
+   },
+   {
+    "da": "kattene",
+    "en": "the cats"
+   }
+  ],
+  "explanation": "\"En kat\" is a cat, and it is an en-word. The plural is \"katte\", with an -e on the end. A kitten is \"en killing\", and a cat's sound is \"mjav\". Cats and dogs are the most common pets, so this word comes up a lot in everyday chat.",
+  "related": [
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "en killing",
+    "en": "a kitten"
+   },
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   },
+   {
+    "da": "en mus",
+    "en": "a mouse"
+   }
+  ],
+  "sentence": {
+   "da": "**Katten** sover på sofaen.",
+   "en": "The cat is sleeping on the sofa."
+  }
+ },
+ "en kiks": {
+  "forms": [
+   {
+    "da": "en kiks",
+    "en": "a biscuit"
+   },
+   {
+    "da": "kiksen",
+    "en": "the biscuit"
+   },
+   {
+    "da": "kiks",
+    "en": "biscuits"
+   },
+   {
+    "da": "kiksene",
+    "en": "the biscuits"
+   }
+  ],
+  "explanation": "\"En kiks\" is a biscuit, cracker or cookie, an en-word. The plural is the same as the single form: \"to kiks\" (two biscuits). It is not the same as \"en kage\" (cake), and \"en småkage\" is the word for a sweet cookie.",
+  "related": [
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en småkage",
+    "en": "a cookie"
+   },
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "en ost",
+    "en": "a cheese"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser en **kiks** med ost.",
+   "en": "I eat a cracker with cheese."
+  }
+ },
+ "en kilometer": {
+  "forms": [
+   {
+    "da": "en kilometer",
+    "en": "a kilometer"
+   },
+   {
+    "da": "kilometeren",
+    "en": "the kilometer"
+   },
+   {
+    "da": "kilometer",
+    "en": "kilometers"
+   },
+   {
+    "da": "kilometerne",
+    "en": "the kilometers"
+   }
+  ],
+  "explanation": "\"En kilometer\" is a kilometer, 1,000 meters. It is an en-word and stays the same after a number: \"fem kilometer\". Distances in Denmark are always in kilometers, and speed is \"kilometer i timen\" (kilometers per hour). In writing it is \"km\".",
+  "related": [
+   {
+    "da": "en meter",
+    "en": "a meter"
+   },
+   {
+    "da": "en afstand",
+    "en": "a distance"
+   },
+   {
+    "da": "langt",
+    "en": "far"
+   },
+   {
+    "da": "tæt på",
+    "en": "close by"
+   }
+  ],
+  "sentence": {
+   "da": "Der er tre **kilometer** til stationen.",
+   "en": "It is three kilometers to the station."
+  }
+ },
+ "en kind": {
+  "forms": [
+   {
+    "da": "en kind",
+    "en": "a cheek"
+   },
+   {
+    "da": "kinden",
+    "en": "the cheek"
+   },
+   {
+    "da": "kinder",
+    "en": "cheeks"
+   },
+   {
+    "da": "kinderne",
+    "en": "the cheeks"
+   }
+  ],
+  "explanation": "\"En kind\" is the cheek on your face. It is an en-word. In Denmark people sometimes greet close friends or family with a kiss or a touch on the cheek, but a handshake is more common with new people. Do not confuse it with the cheeks of your bottom, which have a different word.",
+  "related": [
+   {
+    "da": "et ansigt",
+    "en": "a face"
+   },
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "en næse",
+    "en": "a nose"
+   },
+   {
+    "da": "et øje",
+    "en": "an eye"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har røde **kinder**.",
+   "en": "She has red cheeks."
+  }
+ },
+ "en kiosk": {
+  "forms": [
+   {
+    "da": "en kiosk",
+    "en": "a kiosk / convenience store"
+   },
+   {
+    "da": "kiosken",
+    "en": "the kiosk"
+   },
+   {
+    "da": "kiosker",
+    "en": "kiosks"
+   },
+   {
+    "da": "kioskerne",
+    "en": "the kiosks"
+   }
+  ],
+  "explanation": "\"En kiosk\" is a small shop that sells things like drinks, sweets, newspapers and snacks, and it often has long opening hours. You can pop in for a quick small purchase. It is not as big as \"et supermarked\" (a supermarket). The plural is \"kiosker\".",
+  "related": [
+   {
+    "da": "et supermarked",
+    "en": "a supermarket"
+   },
+   {
+    "da": "åbningstider",
+    "en": "opening hours"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "slik",
+    "en": "sweets"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber en avis i **kiosken**.",
+   "en": "I am buying a newspaper at the kiosk."
+  }
+ },
+ "en kirke": {
+  "forms": [
+   {
+    "da": "en kirke",
+    "en": "a church"
+   },
+   {
+    "da": "kirken",
+    "en": "the church"
+   },
+   {
+    "da": "kirker",
+    "en": "churches"
+   },
+   {
+    "da": "kirkerne",
+    "en": "the churches"
+   }
+  ],
+  "explanation": "En kirke is a church. Almost every Danish town and village has an old one, often white with a pointed tower. You say \"i kirken\" for \"in the church\". It is an en-word, so \"the church\" is \"kirken\". Do not confuse it with \"kirkegård\", which is a cemetery.",
+  "related": [
+   {
+    "da": "en præst",
+    "en": "a priest / pastor"
+   },
+   {
+    "da": "en klokke",
+    "en": "a bell"
+   },
+   {
+    "da": "en kirkegård",
+    "en": "a cemetery"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en gammel **kirke** i byen.",
+   "en": "There is an old church in the town."
+  }
+ },
+ "en kjole": {
+  "forms": [
+   {
+    "da": "en kjole",
+    "en": "a dress"
+   },
+   {
+    "da": "kjolen",
+    "en": "the dress"
+   },
+   {
+    "da": "kjoler",
+    "en": "dresses"
+   },
+   {
+    "da": "kjolerne",
+    "en": "the dresses"
+   }
+  ],
+  "explanation": "\"En kjole\" is a dress. It is an en-word. Note the \"j\" in the spelling, which is said roughly like a \"y\" sound. You can build words from it, such as \"en festkjole\" for a party dress and \"en sommerkjole\" for a summer dress.",
+  "related": [
+   {
+    "da": "en nederdel",
+    "en": "a skirt"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "en frakke",
+    "en": "a coat"
+   },
+   {
+    "da": "sko",
+    "en": "shoes"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en smuk **kjole** på.",
+   "en": "She is wearing a beautiful dress."
+  }
+ },
+ "en klasse": {
+  "forms": [
+   {
+    "da": "en klasse",
+    "en": "a class / classroom"
+   },
+   {
+    "da": "klassen",
+    "en": "the class"
+   },
+   {
+    "da": "klasser",
+    "en": "classes"
+   },
+   {
+    "da": "klasserne",
+    "en": "the classes"
+   }
+  ],
+  "explanation": "\"En klasse\" means a school class, the group of pupils, and also the classroom. It is an en-word. Danish schools count years as classes: \"2. klasse\" is second grade. A classmate is \"en klassekammerat\".",
+  "related": [
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "en klassekammerat",
+    "en": "a classmate"
+   }
+  ],
+  "sentence": {
+   "da": "Der er tyve børn i min **klasse**.",
+   "en": "There are twenty children in my class."
+  }
+ },
+ "en klinik": {
+  "forms": [
+   {
+    "da": "en klinik",
+    "en": "a clinic"
+   },
+   {
+    "da": "klinikken",
+    "en": "the clinic"
+   },
+   {
+    "da": "klinikker",
+    "en": "clinics"
+   },
+   {
+    "da": "klinikkerne",
+    "en": "the clinics"
+   }
+  ],
+  "explanation": "\"En klinik\" is a clinic, a place where you see a doctor or dentist without staying overnight. It is an en-word, and the word for more than one doubles the k: \"klinikker\". A hospital is \"et hospital\" or \"et sygehus\", which is bigger.",
+  "related": [
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   }
+  ],
+  "sentence": {
+   "da": "**Klinikken** åbner klokken otte.",
+   "en": "The clinic opens at eight o'clock."
+  }
+ },
+ "en kniv": {
+  "forms": [
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   },
+   {
+    "da": "kniven",
+    "en": "the knife"
+   },
+   {
+    "da": "knive",
+    "en": "knives"
+   },
+   {
+    "da": "knivene",
+    "en": "the knives"
+   }
+  ],
+  "explanation": "\"En kniv\" is a knife, an en-word. The \"k\" at the start is pronounced, which is different from English, so say \"k-niv\". The plural is \"knive\", without an \"r\". Be careful with sharp ones: \"Den kniv er skarp\" (That knife is sharp).",
+  "related": [
+   {
+    "da": "en gaffel",
+    "en": "a fork"
+   },
+   {
+    "da": "en ske",
+    "en": "a spoon"
+   },
+   {
+    "da": "skarp",
+    "en": "sharp"
+   },
+   {
+    "da": "et bestik",
+    "en": "cutlery"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg låne en **kniv**?",
+   "en": "Can I borrow a knife?"
+  }
+ },
+ "en ko": {
+  "forms": [
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "koen",
+    "en": "the cow"
+   },
+   {
+    "da": "køer",
+    "en": "cows"
+   },
+   {
+    "da": "køerne",
+    "en": "the cows"
+   }
+  ],
+  "explanation": "\"En ko\" is a cow, and it is an en-word. Watch the plural: it changes the vowel and becomes \"køer\" (with an ø), so it is not just \"-er\" added to ko. You will see cows on every Danish farm, and \"mælk\" (milk) comes from them.",
+  "related": [
+   {
+    "da": "en gris",
+    "en": "a pig"
+   },
+   {
+    "da": "en hest",
+    "en": "a horse"
+   },
+   {
+    "da": "et får",
+    "en": "a sheep"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   }
+  ],
+  "sentence": {
+   "da": "**Koen** står på marken.",
+   "en": "The cow is standing in the field."
+  }
+ },
+ "en kok": {
+  "forms": [
+   {
+    "da": "en kok",
+    "en": "a chef"
+   },
+   {
+    "da": "kokken",
+    "en": "the chef"
+   },
+   {
+    "da": "kokke",
+    "en": "chefs"
+   },
+   {
+    "da": "kokkene",
+    "en": "the chefs"
+   }
+  ],
+  "explanation": "\"En kok\" is a cook or chef, a person who prepares food, often as a job in a restaurant. Do not mix it up with \"at koge\", which means to boil. The plural is \"kokke\", and the word is the same for men and women.",
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "at lave mad",
+    "en": "to cook"
+   }
+  ],
+  "sentence": {
+   "da": "**Kokken** laver god mad.",
+   "en": "The chef makes good food."
+  }
+ },
+ "en kollega": {
+  "forms": [
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "kollegaen",
+    "en": "the colleague"
+   },
+   {
+    "da": "kolleger",
+    "en": "colleagues"
+   },
+   {
+    "da": "kollegerne",
+    "en": "the colleagues"
+   }
+  ],
+  "explanation": "\"En kollega\" is a colleague, someone you work with, and it is an en-word. Be careful with the plural: it is \"kolleger\", with the -a dropped. Danish workplaces are fairly informal, so you will often say \"mine kolleger\" about people you chat with at coffee breaks.",
+  "related": [
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "et job",
+    "en": "a job"
+   },
+   {
+    "da": "et arbejde",
+    "en": "work"
+   },
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   }
+  ],
+  "sentence": {
+   "da": "Min **kollega** hedder Peter.",
+   "en": "My colleague is called Peter."
+  }
+ },
+ "en koncert": {
+  "forms": [
+   {
+    "da": "en koncert",
+    "en": "a concert"
+   },
+   {
+    "da": "koncerten",
+    "en": "the concert"
+   },
+   {
+    "da": "koncerter",
+    "en": "concerts"
+   },
+   {
+    "da": "koncerterne",
+    "en": "the concerts"
+   }
+  ],
+  "explanation": "\"En koncert\" is a concert, a live music event. You \"går til koncert\" (go to a concert) or \"hører en koncert\". Remember it is an en-word, so \"the concert\" is \"koncerten\".",
+  "related": [
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en sanger",
+    "en": "a singer"
+   },
+   {
+    "da": "et band",
+    "en": "a band"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal til **koncert** i aften.",
+   "en": "We are going to a concert tonight."
+  }
+ },
+ "en kone": {
+  "forms": [
+   {
+    "da": "en kone",
+    "en": "a wife"
+   },
+   {
+    "da": "konen",
+    "en": "the wife"
+   },
+   {
+    "da": "koner",
+    "en": "wives"
+   },
+   {
+    "da": "konerne",
+    "en": "the wives"
+   }
+  ],
+  "explanation": "\"En kone\" is a wife. It is an en-word with regular forms. People say \"min kone\" for my wife. Its pair is \"en mand\" (a husband). For a woman in general, use \"en kvinde\", not \"kone\", which only means a married partner.",
+  "related": [
+   {
+    "da": "en mand",
+    "en": "a husband / man"
+   },
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a partner"
+   },
+   {
+    "da": "at gifte sig",
+    "en": "to get married"
+   }
+  ],
+  "sentence": {
+   "da": "Min **kone** arbejder i en bank.",
+   "en": "My wife works in a bank."
+  }
+ },
+ "en kop": {
+  "forms": [
+   {
+    "da": "en kop",
+    "en": "a cup"
+   },
+   {
+    "da": "koppen",
+    "en": "the cup"
+   },
+   {
+    "da": "kopper",
+    "en": "cups"
+   },
+   {
+    "da": "koppene",
+    "en": "the cups"
+   }
+  ],
+  "explanation": "\"En kop\" is a cup, an en-word. It is typically used for hot drinks: \"en kop kaffe\" (a cup of coffee) or \"en kop te\". Do not mix it up with \"et glas\" (a glass), which is for cold drinks. A small one for coffee is \"en kaffekop\", which is built from the same word.",
+  "related": [
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "te",
+    "en": "tea"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **kop** kaffe.",
+   "en": "I would like a cup of coffee."
+  }
+ },
+ "en krokodille": {
+  "forms": [
+   {
+    "da": "en krokodille",
+    "en": "a crocodile"
+   },
+   {
+    "da": "krokodillen",
+    "en": "the crocodile"
+   },
+   {
+    "da": "krokodiller",
+    "en": "crocodiles"
+   },
+   {
+    "da": "krokodillerne",
+    "en": "the crocodiles"
+   }
+  ],
+  "explanation": "\"En krokodille\" is a crocodile, an en-word. It is spelled with a \"k\" instead of a \"c\" and has two \"l\"s, but it sounds a bit like the English word. \"Krokodillen\" is \"the crocodile\". You will mostly meet it in the zoo or in children's books and songs.",
+  "related": [
+   {
+    "da": "en alligator",
+    "en": "an alligator"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en slange",
+    "en": "a snake"
+   },
+   {
+    "da": "en flod",
+    "en": "a river"
+   }
+  ],
+  "sentence": {
+   "da": "**Krokodillen** ligger i floden.",
+   "en": "The crocodile is lying in the river."
+  }
+ },
+ "en krone": {
+  "forms": [
+   {
+    "da": "en krone",
+    "en": "a crown (currency)"
+   },
+   {
+    "da": "kronen",
+    "en": "the crown (currency)"
+   },
+   {
+    "da": "kroner",
+    "en": "crowns (currency)"
+   },
+   {
+    "da": "kronerne",
+    "en": "the crowns (currency)"
+   }
+  ],
+  "explanation": "En krone is a crown, the money used in Denmark. The short form for the price is \"kr.\" and it is said \"kroner\" when there is more than one: \"tyve kroner\" is twenty crowns. It is an en-word, so \"the crown\" is \"kronen\". One hundredth of a krone is \"en øre\", but you hardly see coins that small today.",
+  "related": [
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "en mønt",
+    "en": "a coin"
+   },
+   {
+    "da": "en øre",
+    "en": "a hundredth of a krone"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   }
+  ],
+  "sentence": {
+   "da": "Den koster tyve **kroner**.",
+   "en": "It costs twenty crowns."
+  }
+ },
+ "en krop": {
+  "forms": [
+   {
+    "da": "en krop",
+    "en": "a body"
+   },
+   {
+    "da": "kroppen",
+    "en": "the body"
+   },
+   {
+    "da": "kroppe",
+    "en": "bodies"
+   },
+   {
+    "da": "kroppene",
+    "en": "the bodies"
+   }
+  ],
+  "explanation": "\"En krop\" is the body, a person's or an animal's physical self. It is an en-word. When Danes say a body part hurts, they usually name the part itself, for example \"hovedet\" or \"maven\", and use \"kroppen\" for general talk like \"Kroppen har brug for søvn\".",
+  "related": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "et ben",
+    "en": "a leg"
+   },
+   {
+    "da": "helbred",
+    "en": "health"
+   }
+  ],
+  "sentence": {
+   "da": "Min **krop** er træt efter turen.",
+   "en": "My body is tired after the trip."
+  }
+ },
+ "en kuffert": {
+  "forms": [
+   {
+    "da": "en kuffert",
+    "en": "a suitcase"
+   },
+   {
+    "da": "kufferten",
+    "en": "the suitcase"
+   },
+   {
+    "da": "kufferter",
+    "en": "suitcases"
+   },
+   {
+    "da": "kufferterne",
+    "en": "the suitcases"
+   }
+  ],
+  "explanation": "\"Kuffert\" is a suitcase, and it is an en-word. You pack it with \"at pakke en kuffert\" and unpack with \"at pakke ud\". Danes also use it for a big trunk. Remember the double f and the plural \"kufferter\".",
+  "related": [
+   {
+    "da": "bagage",
+    "en": "luggage"
+   },
+   {
+    "da": "en rygsæk",
+    "en": "a backpack"
+   },
+   {
+    "da": "håndbagage",
+    "en": "carry-on luggage"
+   },
+   {
+    "da": "at pakke",
+    "en": "to pack"
+   }
+  ],
+  "sentence": {
+   "da": "Min **kuffert** er tung.",
+   "en": "My suitcase is heavy."
+  }
+ },
+ "en kuglepen": {
+  "forms": [
+   {
+    "da": "en kuglepen",
+    "en": "a ballpoint pen"
+   },
+   {
+    "da": "kuglepennen",
+    "en": "the ballpoint pen"
+   },
+   {
+    "da": "kuglepenne",
+    "en": "ballpoint pens"
+   },
+   {
+    "da": "kuglepennene",
+    "en": "the ballpoint pens"
+   }
+  ],
+  "explanation": "\"En kuglepen\" is a ballpoint pen. It is an en-word built from \"kugle\" (ball) and \"pen\" (pen), because of the tiny ball at the tip. It is the pen most people use to write and to fill in forms, so it is handy to know at the bank or the doctor.",
+  "related": [
+   {
+    "da": "en pen",
+    "en": "a pen"
+   },
+   {
+    "da": "en blyant",
+    "en": "a pencil"
+   },
+   {
+    "da": "en blanket",
+    "en": "a form"
+   },
+   {
+    "da": "et papir",
+    "en": "paper"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg låne din **kuglepen**?",
+   "en": "May I borrow your ballpoint pen?"
+  }
+ },
+ "en kusine": {
+  "forms": [
+   {
+    "da": "en kusine",
+    "en": "a female cousin"
+   },
+   {
+    "da": "kusinen",
+    "en": "the female cousin"
+   },
+   {
+    "da": "kusiner",
+    "en": "female cousins"
+   },
+   {
+    "da": "kusinerne",
+    "en": "the female cousins"
+   }
+  ],
+  "explanation": "\"En kusine\" is a female cousin, the daughter of an aunt or uncle. Danish has separate words for male and female cousins. The male one is \"en fætter\". The word is spelled with a \"k\" and an \"s\", sounding like the French word.",
+  "related": [
+   {
+    "da": "en fætter",
+    "en": "a male cousin"
+   },
+   {
+    "da": "en tante",
+    "en": "an aunt"
+   },
+   {
+    "da": "en onkel",
+    "en": "an uncle"
+   },
+   {
+    "da": "en slægtning",
+    "en": "a relative"
+   }
+  ],
+  "sentence": {
+   "da": "Min **kusine** kommer på besøg i morgen.",
+   "en": "My cousin is visiting tomorrow."
+  }
+ },
+ "en kvinde": {
+  "forms": [
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "kvinden",
+    "en": "the woman"
+   },
+   {
+    "da": "kvinder",
+    "en": "women"
+   },
+   {
+    "da": "kvinderne",
+    "en": "the women"
+   }
+  ],
+  "explanation": "\"En kvinde\" is the ordinary word for a woman, an adult female person. It is an en-word, and the plural \"kvinder\" is easy to remember. The opposite is \"en mand\" (a man), and \"en pige\" is used for a girl or a young woman.",
+  "related": [
+   {
+    "da": "en mand",
+    "en": "a man"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   },
+   {
+    "da": "en dame",
+    "en": "a lady"
+   },
+   {
+    "da": "kvindelig",
+    "en": "female"
+   }
+  ],
+  "sentence": {
+   "da": "Den **kvinde** bor ved siden af os.",
+   "en": "That woman lives next to us."
+  }
+ },
+ "en kvittering": {
+  "forms": [
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "kvitteringen",
+    "en": "the receipt"
+   },
+   {
+    "da": "kvitteringer",
+    "en": "receipts"
+   },
+   {
+    "da": "kvitteringerne",
+    "en": "the receipts"
+   }
+  ],
+  "explanation": "\"En kvittering\" is a receipt, the paper or message that proves you have paid. You need it if you want to exchange something, so shops often ask \"Skal du have kvitteringen?\" (Do you want the receipt?). The short everyday word is \"en bon\", and both are used. It is a longer word, so say it slowly: kvi-te-ring.",
+  "related": [
+   {
+    "da": "en bon",
+    "en": "a receipt"
+   },
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "en rabat",
+    "en": "a discount"
+   }
+  ],
+  "sentence": {
+   "da": "Gem **kvitteringen**, hvis du vil bytte.",
+   "en": "Keep the receipt if you want to exchange it."
+  }
+ },
+ "en kæreste": {
+  "forms": [
+   {
+    "da": "en kæreste",
+    "en": "a partner (romantic)"
+   },
+   {
+    "da": "kæresten",
+    "en": "the partner"
+   },
+   {
+    "da": "kærester",
+    "en": "partners"
+   },
+   {
+    "da": "kærestene",
+    "en": "the partners"
+   }
+  ],
+  "explanation": "\"En kæreste\" is a boyfriend or girlfriend, a romantic partner you are not necessarily married to. It can be a man or a woman, so it works for anyone. The word comes from \"kær\" (dear), so it is a warm word. It is used for \"my partner\" in everyday talk.",
+  "related": [
+   {
+    "da": "en kone",
+    "en": "a wife"
+   },
+   {
+    "da": "en mand",
+    "en": "a husband"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "kær",
+    "en": "dear"
+   }
+  ],
+  "sentence": {
+   "da": "Min **kæreste** hedder Emma.",
+   "en": "My partner is called Emma."
+  }
+ },
+ "et kilo": {
+  "forms": [
+   {
+    "da": "et kilo",
+    "en": "a kilo"
+   },
+   {
+    "da": "kiloet",
+    "en": "the kilo"
+   },
+   {
+    "da": "kilo",
+    "en": "kilos"
+   },
+   {
+    "da": "kiloene",
+    "en": "the kilos"
+   }
+  ],
+  "explanation": "\"Et kilo\" is short for kilogram and is how Danes talk about weight when shopping. It is an et-word. After a number it usually stays the same, so you say \"to kilo\" (two kilos). Shop signs often write \"kr. pr. kg\" (price per kilo).",
+  "related": [
+   {
+    "da": "et gram",
+    "en": "a gram"
+   },
+   {
+    "da": "et pund",
+    "en": "a pound (500 grams)"
+   },
+   {
+    "da": "en liter",
+    "en": "a liter"
+   },
+   {
+    "da": "at veje",
+    "en": "to weigh"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have et **kilo** æbler.",
+   "en": "I would like a kilo of apples."
+  }
+ },
+ "et klaver": {
+  "forms": [
+   {
+    "da": "et klaver",
+    "en": "a piano"
+   },
+   {
+    "da": "klaveret",
+    "en": "the piano"
+   },
+   {
+    "da": "klaverer",
+    "en": "pianos"
+   },
+   {
+    "da": "klaverne",
+    "en": "the pianos"
+   }
+  ],
+  "explanation": "\"Et klaver\" is a piano. Be careful: it is an et-word, so \"the piano\" is \"klaveret\". To play it you say \"at spille klaver\". The word \"piano\" is also understood, but \"klaver\" is the normal Danish word.",
+  "related": [
+   {
+    "da": "en guitar",
+    "en": "a guitar"
+   },
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "en koncert",
+    "en": "a concert"
+   }
+  ],
+  "sentence": {
+   "da": "Hun øver sig på **klaver** hver dag.",
+   "en": "She practises the piano every day."
+  }
+ },
+ "et knæ": {
+  "forms": [
+   {
+    "da": "et knæ",
+    "en": "a knee"
+   },
+   {
+    "da": "knæet",
+    "en": "the knee"
+   },
+   {
+    "da": "knæ",
+    "en": "knees"
+   },
+   {
+    "da": "knæene",
+    "en": "the knees"
+   }
+  ],
+  "explanation": "\"Et knæ\" is a knee. It is an et-word and the word for more than one stays the same: \"to knæ\". The k is pronounced, unlike in English. \"Jeg har ondt i knæet\" (My knee hurts) is a typical sentence, and you will use it at the doctor's.",
+  "related": [
+   {
+    "da": "et ben",
+    "en": "a leg"
+   },
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "en albue",
+    "en": "an elbow"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i **knæet**.",
+   "en": "My knee hurts."
+  }
+ },
+ "et kodeord": {
+  "forms": [
+   {
+    "da": "et kodeord",
+    "en": "a password"
+   },
+   {
+    "da": "kodeordet",
+    "en": "the password"
+   },
+   {
+    "da": "kodeord",
+    "en": "passwords"
+   },
+   {
+    "da": "kodeordene",
+    "en": "the passwords"
+   }
+  ],
+  "explanation": "\"Et kodeord\" is a password, literally a \"code word\". It is an et-word, so you say \"mit kodeord\" and \"kodeordet\" for \"the password\". The word does not change in the plural: \"to kodeord\" means two passwords. Danish websites often ask for your \"brugernavn og kodeord\".",
+  "related": [
+   {
+    "da": "et brugernavn",
+    "en": "a username"
+   },
+   {
+    "da": "en kode",
+    "en": "a code"
+   },
+   {
+    "da": "et ord",
+    "en": "a word"
+   },
+   {
+    "da": "at logge ind",
+    "en": "to log in"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt mit **kodeord**.",
+   "en": "I have forgotten my password."
+  }
+ },
+ "et kontor": {
+  "forms": [
+   {
+    "da": "et kontor",
+    "en": "an office"
+   },
+   {
+    "da": "kontoret",
+    "en": "the office"
+   },
+   {
+    "da": "kontorer",
+    "en": "offices"
+   },
+   {
+    "da": "kontorerne",
+    "en": "the offices"
+   }
+  ],
+  "explanation": "Et kontor is an office, the room or building where people do desk work. You say \"på kontoret\" for \"at the office\". Do not use it for a post office, which is \"et posthus\". It is an et-word, so \"the office\" is \"kontoret\". A person who works there is often just said to \"arbejde på et kontor\".",
+  "related": [
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   },
+   {
+    "da": "et posthus",
+    "en": "a post office"
+   }
+  ],
+  "sentence": {
+   "da": "Hun arbejder på **kontoret**.",
+   "en": "She works at the office."
+  }
+ },
+ "et kort": {
+  "forms": [
+   {
+    "da": "et kort",
+    "en": "a map, card"
+   },
+   {
+    "da": "kortet",
+    "en": "the map"
+   },
+   {
+    "da": "kort",
+    "en": "maps, cards"
+   },
+   {
+    "da": "kortene",
+    "en": "the maps"
+   }
+  ],
+  "explanation": "\"Kort\" is a map and also a card, depending on the situation. \"Et kort over byen\" is a map of the town, and \"et kreditkort\" is a credit card. It is an et-word, and the plural looks the same as the single word, so \"to kort\" means two cards or maps. Also note that \"kort\" can mean short, so use context.",
+  "related": [
+   {
+    "da": "et kreditkort",
+    "en": "a credit card"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "kort",
+    "en": "short"
+   }
+  ],
+  "sentence": {
+   "da": "Har du **et kort** over byen?",
+   "en": "Do you have a map of the town?"
+  }
+ },
+ "et kæledyr": {
+  "forms": [
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   },
+   {
+    "da": "kæledyret",
+    "en": "the pet"
+   },
+   {
+    "da": "kæledyr",
+    "en": "pets"
+   },
+   {
+    "da": "kæledyrene",
+    "en": "the pets"
+   }
+  ],
+  "explanation": "\"Et kæledyr\" is an animal you keep at home for company, such as a dog or a cat. It is an et-word, and the word for more than one looks exactly the same: \"to kæledyr\" (two pets). Farm animals are not kæledyr; they are \"husdyr\".",
+  "related": [
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en kanin",
+    "en": "a rabbit"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har to **kæledyr**: en hund og en kat.",
+   "en": "We have two pets: a dog and a cat."
+  }
+ },
+ "et køkken": {
+  "forms": [
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "køkkenet",
+    "en": "the kitchen"
+   },
+   {
+    "da": "køkkener",
+    "en": "kitchens"
+   },
+   {
+    "da": "køkkenerne",
+    "en": "the kitchens"
+   }
+  ],
+  "explanation": "\"Et køkken\" is a kitchen, and it is an et-word. The \"ø\" is a Danish letter, a bit like the vowel in English \"bird\". It also appears in \"at lave mad i køkkenet\" (cooking in the kitchen). In a small home people often eat in the kitchen too.",
+  "related": [
+   {
+    "da": "at lave mad",
+    "en": "to cook"
+   },
+   {
+    "da": "en stegepande",
+    "en": "a frying pan"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "et bord",
+    "en": "a table"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver mad i **køkkenet**.",
+   "en": "I cook in the kitchen."
+  }
+ },
+ "et køleskab": {
+  "forms": [
+   {
+    "da": "et køleskab",
+    "en": "a fridge"
+   },
+   {
+    "da": "køleskabet",
+    "en": "the fridge"
+   },
+   {
+    "da": "køleskabe",
+    "en": "fridges"
+   },
+   {
+    "da": "køleskabene",
+    "en": "the fridges"
+   }
+  ],
+  "explanation": "\"Køleskab\" is the fridge. It is built from \"køle\" (cool) and \"skab\" (cupboard), so it is literally a cooling cupboard. It is an et-word, so you say \"i køleskabet\" for in the fridge. The freezer is \"en fryser\".",
+  "related": [
+   {
+    "da": "en fryser",
+    "en": "a freezer"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "et skab",
+    "en": "a cupboard"
+   }
+  ],
+  "sentence": {
+   "da": "Mælken står i **køleskabet**.",
+   "en": "The milk is in the fridge."
+  }
+ },
+ "kaffe": {
+  "forms": [
+   {
+    "da": "en kaffe",
+    "en": "a coffee"
+   },
+   {
+    "da": "kaffen",
+    "en": "the coffee"
+   },
+   {
+    "da": "to kaffe",
+    "en": "two coffees"
+   }
+  ],
+  "explanation": "\"Kaffe\" is coffee, an en-word, so \"the coffee\" is \"kaffen\". Danes drink a lot of it, and you will hear \"Skal vi have en kop kaffe?\" (Shall we have a cup of coffee?) all the time. Note that when you order it you can say \"en kaffe, tak\" or just \"kaffe, tak\".",
+  "related": [
+   {
+    "da": "en kop",
+    "en": "a cup"
+   },
+   {
+    "da": "te",
+    "en": "tea"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have en kop **kaffe**?",
+   "en": "Do you want a cup of coffee?"
+  }
+ },
+ "kakao": {
+  "forms": [
+   {
+    "da": "en kakao",
+    "en": "a cocoa"
+   },
+   {
+    "da": "kakaoen",
+    "en": "the cocoa"
+   }
+  ],
+  "explanation": "\"Kakao\" is cocoa, both the powder and the hot chocolate drink. It is an en-word. Danes often order \"en varm kakao\" in the cold months, and children love it. The word is mostly used on its own for the drink, and there is no everyday plural.",
+  "related": [
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "te",
+    "en": "tea"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "chokolade",
+    "en": "chocolate"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene drikker varm **kakao**.",
+   "en": "The children drink hot cocoa."
+  }
+ },
+ "kan du gentage det?": {
+  "forms": [
+   {
+    "da": "Kan du gentage det?",
+    "en": "Can you repeat that?"
+   },
+   {
+    "da": "Kan du sige det igen?",
+    "en": "Can you say it again?"
+   },
+   {
+    "da": "Kan du tale langsommere?",
+    "en": "Can you speak more slowly?"
+   }
+  ],
+  "explanation": "\"Kan du gentage det?\" means \"Can you repeat that?\" and is a polite way to ask someone to say something again. \"At gentage\" means to repeat. It is useful when someone speaks fast and you did not catch it. You can also say \"Kan du sige det igen?\" (Can you say it again?) or add \"langsommere\" (more slowly). Add \"tak\" to be extra polite.",
+  "related": [
+   {
+    "da": "at gentage",
+    "en": "to repeat"
+   },
+   {
+    "da": "igen",
+    "en": "again"
+   },
+   {
+    "da": "langsomt",
+    "en": "slowly"
+   },
+   {
+    "da": "jeg forstår ikke",
+    "en": "I don't understand"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **kan du gentage det**?",
+   "en": "Sorry, can you repeat that?"
+  }
+ },
+ "kan jeg betale med kort?": {
+  "forms": [
+   {
+    "da": "Kan jeg betale med kort?",
+    "en": "Can I pay by card?"
+   },
+   {
+    "da": "Kan jeg betale kontant?",
+    "en": "Can I pay cash?"
+   },
+   {
+    "da": "Ja, det kan du godt.",
+    "en": "Yes, you can."
+   }
+  ],
+  "explanation": "\"Kan jeg betale med kort?\" means \"can I pay by card?\". In Denmark almost everywhere takes cards, often even for small things. \"Med\" means \"with\", and \"kort\" is an et-word for card. For cash, say \"kan jeg betale kontant?\".",
+  "related": [
+   {
+    "da": "et kort",
+    "en": "a card"
+   },
+   {
+    "da": "kontant",
+    "en": "in cash"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   }
+  ],
+  "sentence": {
+   "da": "**Kan jeg betale med kort?** Jeg har ingen kontanter.",
+   "en": "Can I pay by card? I have no cash."
+  }
+ },
+ "kan jeg købe ...?": {
+  "forms": [
+   {
+    "da": "Kan jeg købe en kaffe?",
+    "en": "Can I buy a coffee?"
+   },
+   {
+    "da": "Kan jeg købe en billet?",
+    "en": "Can I buy a ticket?"
+   },
+   {
+    "da": "Kan jeg købe det her?",
+    "en": "Can I buy this?"
+   }
+  ],
+  "explanation": "A polite way to ask to buy something in a shop or cafe. \"Kan jeg\" means \"can I\", and \"købe\" is \"buy\". Put what you want in place of the dots. For a more casual order, Danes often say \"jeg vil gerne have ...\" (I would like ...).",
+  "related": [
+   {
+    "da": "jeg vil gerne have",
+    "en": "I would like"
+   },
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "hvad koster det?",
+    "en": "how much is it?"
+   },
+   {
+    "da": "en butik",
+    "en": "a shop"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **kan jeg købe** en kop kaffe?",
+   "en": "Excuse me, can I buy a cup of coffee?"
+  }
+ },
+ "kartofler": {
+  "forms": [
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   },
+   {
+    "da": "kartoflen",
+    "en": "the potato"
+   },
+   {
+    "da": "kartofler",
+    "en": "potatoes"
+   },
+   {
+    "da": "kartoflerne",
+    "en": "the potatoes"
+   }
+  ],
+  "explanation": "\"Kartofler\" means potatoes. The single potato is \"en kartoffel\", and the plural, which you use most, is \"kartofler\". Potatoes are a main part of traditional Danish dinners, boiled, fried or mashed. A common pattern is \"kogte kartofler\" (boiled potatoes) with meat and sauce.",
+  "related": [
+   {
+    "da": "kogte kartofler",
+    "en": "boiled potatoes"
+   },
+   {
+    "da": "pommes frites",
+    "en": "French fries"
+   },
+   {
+    "da": "en bøf",
+    "en": "a steak"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **kartofler** til middag.",
+   "en": "We eat potatoes for dinner."
+  }
+ },
+ "ked af": {
+  "forms": [
+   {
+    "da": "Jeg er ked af det.",
+    "en": "I am sorry about it / I am sad about it."
+   },
+   {
+    "da": "Hun er ked af det.",
+    "en": "She is sad."
+   },
+   {
+    "da": "Jeg er ked af, at jeg kom for sent.",
+    "en": "I am sorry that I came too late."
+   }
+  ],
+  "explanation": "\"Ked af\" means sorry or sad. \"Jeg er ked af det\" is the standard way to say you are sorry and also that you feel sad. Add \"at\" and a sentence to say why: \"ked af, at jeg kom for sent\". It is softer than \"undskyld\", which is a quick \"excuse me\".",
+  "related": [
+   {
+    "da": "undskyld",
+    "en": "sorry / excuse me"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "at græde",
+    "en": "to cry"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **ked af** det.",
+   "en": "I am sorry about that."
+  }
+ },
+ "ked af det": {
+  "forms": [
+   {
+    "da": "jeg er ked af det",
+    "en": "I am sad"
+   },
+   {
+    "da": "hun er ked af det",
+    "en": "she is sad"
+   },
+   {
+    "da": "er du ked af det?",
+    "en": "are you sad?"
+   }
+  ],
+  "explanation": "\"Ked af det\" means sad or upset, and it is always used as a fixed phrase after \"er\" (am, is, are): \"Jeg er ked af det.\" It is not the same as \"ked af\", which also means sorry: \"Jeg er ked af det\" can mean both \"I am sad\" and \"I am sorry\", and context tells you which. The opposite is \"glad\" (happy). In writing, keep all three words together.",
+  "related": [
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   },
+   {
+    "da": "at græde",
+    "en": "to cry"
+   }
+  ],
+  "sentence": {
+   "da": "Hvorfor er du **ked af det**?",
+   "en": "Why are you sad?"
+  }
+ },
+ "kedelig": {
+  "forms": [
+   {
+    "da": "en kedelig bog",
+    "en": "a boring book"
+   },
+   {
+    "da": "et kedeligt møde",
+    "en": "a boring meeting"
+   },
+   {
+    "da": "kedelige film",
+    "en": "boring films"
+   }
+  ],
+  "explanation": "\"Kedelig\" means boring, for things and people. It can also mean unfortunate or a pity: \"Det er kedeligt\" often means \"That is too bad\". Add \"t\" for et-words (\"et kedeligt møde\") and \"-e\" for more than one. If you are bored yourself, say \"Jeg keder mig\" (I am bored). The opposite is \"interessant\" or \"sjov\".",
+  "related": [
+   {
+    "da": "interessant",
+    "en": "interesting"
+   },
+   {
+    "da": "sjov",
+    "en": "fun"
+   },
+   {
+    "da": "at kede sig",
+    "en": "to be bored"
+   },
+   {
+    "da": "spændende",
+    "en": "exciting"
+   }
+  ],
+  "sentence": {
+   "da": "Filmen var meget **kedelig**.",
+   "en": "The film was very boring."
+  }
+ },
+ "ketchup": {
+  "forms": [
+   {
+    "da": "en ketchup",
+    "en": "a ketchup"
+   },
+   {
+    "da": "ketchuppen",
+    "en": "the ketchup"
+   }
+  ],
+  "explanation": "\"Ketchup\" is ketchup, the red tomato sauce, and it is an en-word. With \"the\" the \"p\" is doubled: \"ketchuppen\". It is not counted, so you say \"noget ketchup\". The English spelling is the same, so it is easy to remember.",
+  "related": [
+   {
+    "da": "sennep",
+    "en": "mustard"
+   },
+   {
+    "da": "mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "pommes frites",
+    "en": "French fries"
+   },
+   {
+    "da": "en burger",
+    "en": "a burger"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have **ketchup** til pommes frites?",
+   "en": "Do you want ketchup with the fries?"
+  }
+ },
+ "kina": {
+  "forms": [
+   {
+    "da": "Kina",
+    "en": "China"
+   },
+   {
+    "da": "i Kina",
+    "en": "in China"
+   },
+   {
+    "da": "til Kina",
+    "en": "to China"
+   }
+  ],
+  "explanation": "\"Kina\" is China. Place names like this are written with a capital letter and used without \"the\": \"i Kina\" means \"in China\" and \"til Kina\" means \"to China\". A person is \"en kineser\" and the language is \"kinesisk\". The word is spelled with a K in Danish, not a C.",
+  "related": [
+   {
+    "da": "en kineser",
+    "en": "a Chinese person"
+   },
+   {
+    "da": "kinesisk",
+    "en": "Chinese"
+   },
+   {
+    "da": "Japan",
+    "en": "Japan"
+   },
+   {
+    "da": "Indien",
+    "en": "India"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne se **Kina**.",
+   "en": "I would like to see China."
+  }
+ },
+ "kinesisk": {
+  "forms": [
+   {
+    "da": "en kinesisk restaurant",
+    "en": "a Chinese restaurant"
+   },
+   {
+    "da": "et kinesisk skrifttegn",
+    "en": "a Chinese character"
+   },
+   {
+    "da": "kinesiske venner",
+    "en": "Chinese friends"
+   }
+  ],
+  "explanation": "\"Kinesisk\" means Chinese, for the language and for things from China. It is written with a small letter. It stays the same before an et-word, because it already ends in -sk. \"Kinesisk mad\" is Chinese food.",
+  "related": [
+   {
+    "da": "Kina",
+    "en": "China"
+   },
+   {
+    "da": "en kineser",
+    "en": "a Chinese person"
+   },
+   {
+    "da": "japansk",
+    "en": "Japanese"
+   },
+   {
+    "da": "indisk",
+    "en": "Indian"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lærer **kinesisk** på aftenskole.",
+   "en": "I am learning Chinese at evening school."
+  }
+ },
+ "klar": {
+  "forms": [
+   {
+    "da": "en klar dag",
+    "en": "a clear day"
+   },
+   {
+    "da": "et klart svar",
+    "en": "a clear answer"
+   },
+   {
+    "da": "klare svar",
+    "en": "clear answers"
+   }
+  ],
+  "explanation": "\"Klar\" means ready or clear. \"Er du klar?\" means \"Are you ready?\" and \"Det er klart\" means \"Of course\" or \"That is clear\". It is also used for clear weather, water and sky. Add \"t\" for et-words (\"et klart svar\") and \"-e\" for more than one. The word \"færdig\" is also related, but it means finished, not ready.",
+  "related": [
+   {
+    "da": "færdig",
+    "en": "finished"
+   },
+   {
+    "da": "parat",
+    "en": "ready"
+   },
+   {
+    "da": "tydelig",
+    "en": "clear"
+   },
+   {
+    "da": "uklar",
+    "en": "unclear"
+   }
+  ],
+  "sentence": {
+   "da": "Er du **klar** til at gå?",
+   "en": "Are you ready to go?"
+  }
+ },
+ "klokken": {
+  "forms": [
+   {
+    "da": "klokken tre",
+    "en": "three o'clock"
+   },
+   {
+    "da": "klokken er halv fire",
+    "en": "it is half past three"
+   },
+   {
+    "da": "Hvad er klokken?",
+    "en": "What time is it?"
+   }
+  ],
+  "explanation": "\"Klokken\" is used for telling the time. \"Hvad er klokken?\" means What time is it?, and \"Klokken er tre\" means It is three o'clock. It is literally \"the clock\". Use it to say at what time something happens too: \"Vi mødes klokken otte\". In writing, \"kl.\" is a short form.",
+  "related": [
+   {
+    "da": "en klokke",
+    "en": "a clock / a bell"
+   },
+   {
+    "da": "et ur",
+    "en": "a watch / a clock"
+   },
+   {
+    "da": "halv",
+    "en": "half"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   }
+  ],
+  "sentence": {
+   "da": "**Klokken** er otte om morgenen.",
+   "en": "It is eight o'clock in the morning."
+  }
+ },
+ "klokken er fem": {
+  "forms": [
+   {
+    "da": "Klokken er fem.",
+    "en": "It's five o'clock."
+   },
+   {
+    "da": "Klokken er tre.",
+    "en": "It's three o'clock."
+   },
+   {
+    "da": "Klokken er otte.",
+    "en": "It's eight o'clock."
+   }
+  ],
+  "explanation": "This is how to tell the time on the hour: \"klokken er\" plus the number. Danes use the 24-hour clock in writing and on schedules, so 17:00 is \"klokken er sytten\" there, but in speech \"fem\" is common. The word \"klokken\" is often left out in short answers: just \"fem\".",
+  "related": [
+   {
+    "da": "hvad er klokken?",
+    "en": "what time is it?"
+   },
+   {
+    "da": "halv tre",
+    "en": "half past two"
+   },
+   {
+    "da": "kvart over",
+    "en": "quarter past"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   }
+  ],
+  "sentence": {
+   "da": "**Klokken er fem**, og jeg skal hjem.",
+   "en": "It's five o'clock, and I have to go home."
+  }
+ },
+ "kogt": {
+  "forms": [
+   {
+    "da": "en kogt kartoffel",
+    "en": "a boiled potato"
+   },
+   {
+    "da": "et kogt æg",
+    "en": "a boiled egg"
+   },
+   {
+    "da": "kogte kartofler",
+    "en": "boiled potatoes"
+   }
+  ],
+  "explanation": "\"Kogt\" means boiled or cooked in water. It comes from the verb \"at koge\" and gets an extra -e before plural words, like \"kogte æg\". It is common in food talk: \"kogte kartofler\" and \"et kogt æg\". The opposite in meaning is \"rå\" (raw), and a fried egg is \"et stegt æg\".",
+  "related": [
+   {
+    "da": "stegt",
+    "en": "fried / roasted"
+   },
+   {
+    "da": "rå",
+    "en": "raw"
+   },
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "et æg",
+    "en": "an egg"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser et **kogt** æg til morgenmad.",
+   "en": "I eat a boiled egg for breakfast."
+  }
+ },
+ "kold": {
+  "forms": [
+   {
+    "da": "en kold dag",
+    "en": "a cold day"
+   },
+   {
+    "da": "et koldt glas vand",
+    "en": "a cold glass of water"
+   },
+   {
+    "da": "kolde dage",
+    "en": "cold days"
+   }
+  ],
+  "explanation": "\"Kold\" means cold, for weather, drinks, food and also people who seem unfriendly. Add \"t\" for et-words (\"et koldt værelse\") and \"-e\" for more than one. When you tell someone you feel cold you say \"Jeg fryser\" (I am freezing), not \"jeg er kold\", which would sound as though you are an unfriendly person.",
+  "related": [
+   {
+    "da": "varm",
+    "en": "warm"
+   },
+   {
+    "da": "en kulde",
+    "en": "a cold (temperature)"
+   },
+   {
+    "da": "at fryse",
+    "en": "to freeze"
+   },
+   {
+    "da": "kølig",
+    "en": "cool"
+   }
+  ],
+  "sentence": {
+   "da": "Det er for **koldt** i dag.",
+   "en": "It is too cold today."
+  }
+ },
+ "kom nu": {
+  "forms": [
+   {
+    "da": "Kom nu!",
+    "en": "Come on!"
+   },
+   {
+    "da": "Kom nu, vi skal af sted.",
+    "en": "Come on, we have to go."
+   },
+   {
+    "da": "Åh, kom nu!",
+    "en": "Oh, come on!"
+   }
+  ],
+  "explanation": "\"Kom nu\" literally means \"come now\" and works like \"come on\". It can be encouraging, impatient or a little disbelieving, depending on your tone. Use it to hurry someone up or to say \"oh, really?\". It works the same with one person or many.",
+  "related": [
+   {
+    "da": "skynd dig",
+    "en": "hurry up"
+   },
+   {
+    "da": "vent lidt",
+    "en": "wait a bit"
+   },
+   {
+    "da": "at komme",
+    "en": "to come"
+   }
+  ],
+  "sentence": {
+   "da": "**Kom nu**, bussen kører snart!",
+   "en": "Come on, the bus leaves soon!"
+  }
+ },
+ "kontant": {
+  "forms": [
+   {
+    "da": "kontant betaling",
+    "en": "cash payment"
+   },
+   {
+    "da": "betale kontant",
+    "en": "to pay in cash"
+   },
+   {
+    "da": "Kun kontant",
+    "en": "Cash only"
+   }
+  ],
+  "explanation": "\"Kontant\" means in cash, as in real coins and notes. You use it with paying: \"Jeg betaler kontant\" (I pay in cash). Most Danish shops prefer cards, and some do not take cash at all, so \"Tager I kontanter?\" (Do you take cash?) is a useful question. The word does not change, whatever it describes.",
+  "related": [
+   {
+    "da": "kontanter",
+    "en": "cash (the money)"
+   },
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "byttepenge",
+    "en": "change"
+   },
+   {
+    "da": "en pung",
+    "en": "a wallet"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne betale **kontant**.",
+   "en": "I would like to pay in cash."
+  }
+ },
+ "kort": {
+  "forms": [
+   {
+    "da": "en kort tur",
+    "en": "a short trip"
+   },
+   {
+    "da": "et kort brev",
+    "en": "a short letter"
+   },
+   {
+    "da": "korte dage",
+    "en": "short days"
+   }
+  ],
+  "explanation": "\"Kort\" means short, for length or time, and it also works for a distance. With an et-word it keeps the same form (kort, not kort-t), and with many things or after \"the\" it takes \"-e\" (korte). It is also a thing-word: \"et kort\" means a card or a map. The opposite of the adjective is \"lang\".",
+  "related": [
+   {
+    "da": "lang",
+    "en": "long"
+   },
+   {
+    "da": "kortere",
+    "en": "shorter"
+   },
+   {
+    "da": "et kort",
+    "en": "a card/map"
+   },
+   {
+    "da": "hurtig",
+    "en": "quick"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **kort** pause.",
+   "en": "I have a short break."
+  }
+ },
+ "kulde": {
+  "forms": [
+   {
+    "da": "en kulde",
+    "en": "a cold"
+   },
+   {
+    "da": "kulden",
+    "en": "the cold"
+   },
+   {
+    "da": "Jeg kan ikke lide kulde.",
+    "en": "I don't like the cold."
+   }
+  ],
+  "explanation": "\"Kulde\" is the word for cold as a thing, as in cold weather or the feeling of cold. It is an en-word, so \"the cold\" is \"kulden\". Do not mix it up with \"kold\", which you use to describe something that is cold (\"koldt vand\"). The opposite is \"varme\".",
+  "related": [
+   {
+    "da": "varme",
+    "en": "heat"
+   },
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "frost",
+    "en": "frost"
+   },
+   {
+    "da": "vinter",
+    "en": "winter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er ikke vant til **kulden** her.",
+   "en": "I am not used to the cold here."
+  }
+ },
+ "kun": {
+  "forms": [
+   {
+    "da": "Jeg har kun én bror.",
+    "en": "I only have one brother."
+   },
+   {
+    "da": "Kun i dag.",
+    "en": "Only today."
+   },
+   {
+    "da": "Det koster kun ti kroner.",
+    "en": "It only costs ten kroner."
+   }
+  ],
+  "explanation": "\"Kun\" means \"only\" or \"just\", and it limits whatever word comes after it. \"Kun jeg ved det\" means only I know it, while \"Jeg ved kun det\" means that is all I know. In everyday speech Danes also say \"bare\" for the same idea, but \"kun\" works everywhere.",
+  "related": [
+   {
+    "da": "bare",
+    "en": "just / only (casual)"
+   },
+   {
+    "da": "næsten",
+    "en": "almost"
+   },
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "kun én",
+    "en": "only one"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **kun** to timer.",
+   "en": "I only have two hours."
+  }
+ },
+ "kvart": {
+  "forms": [
+   {
+    "da": "kvart",
+    "en": "quarter"
+   },
+   {
+    "da": "kvart over tre",
+    "en": "a quarter past three"
+   },
+   {
+    "da": "kvart i fire",
+    "en": "a quarter to four"
+   }
+  ],
+  "explanation": "\"Kvart\" means a quarter, and it is used in telling time. \"Kvart over tre\" is a quarter past three, and \"kvart i fire\" is a quarter to four. The same word is also used in \"et kvarter\" (a quarter of an hour, 15 minutes), so it is a useful word to know.",
+  "related": [
+   {
+    "da": "halv",
+    "en": "half"
+   },
+   {
+    "da": "et kvarter",
+    "en": "a quarter of an hour"
+   },
+   {
+    "da": "klokken",
+    "en": "the clock / o'clock"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ses **kvart** over tre.",
+   "en": "See you at a quarter past three."
+  }
+ },
+ "kvart i": {
+  "forms": [
+   {
+    "da": "kvart i tre",
+    "en": "quarter to three"
+   },
+   {
+    "da": "Klokken er kvart i fem.",
+    "en": "It's quarter to five."
+   },
+   {
+    "da": "kvart i otte",
+    "en": "quarter to eight"
+   }
+  ],
+  "explanation": "Means \"quarter to\". The hour that follows is the one coming up: \"kvart i tre\" is 2:45, fifteen minutes before three. Do not mix it up with \"kvart over\" (quarter past). A tip: \"i\" here works like \"to\" in \"quarter to\".",
+  "related": [
+   {
+    "da": "kvart over",
+    "en": "quarter past"
+   },
+   {
+    "da": "halv tre",
+    "en": "half past two"
+   },
+   {
+    "da": "fem i",
+    "en": "five to"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   }
+  ],
+  "sentence": {
+   "da": "Filmen starter **kvart i** syv.",
+   "en": "The film starts at quarter to seven."
+  }
+ },
+ "kvart over": {
+  "forms": [
+   {
+    "da": "kvart over tre",
+    "en": "quarter past three"
+   },
+   {
+    "da": "Klokken er kvart over fem.",
+    "en": "It's quarter past five."
+   },
+   {
+    "da": "kvart over otte",
+    "en": "quarter past eight"
+   }
+  ],
+  "explanation": "Means \"quarter past\". Put the hour after it: \"kvart over tre\" is 3:15. A quarter is \"en kvart\", and \"over\" means \"past\". Compare \"kvart i\" (quarter to), where the hour that follows is the next hour.",
+  "related": [
+   {
+    "da": "kvart i",
+    "en": "quarter to"
+   },
+   {
+    "da": "halv tre",
+    "en": "half past two"
+   },
+   {
+    "da": "fem over",
+    "en": "five past"
+   },
+   {
+    "da": "en kvart",
+    "en": "a quarter"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen kommer **kvart over** otte.",
+   "en": "The bus comes at quarter past eight."
+  }
+ },
+ "kvindelig": {
+  "forms": [
+   {
+    "da": "en kvindelig læge",
+    "en": "a female doctor"
+   },
+   {
+    "da": "et kvindeligt navn",
+    "en": "a female name"
+   },
+   {
+    "da": "kvindelige lærere",
+    "en": "female teachers"
+   }
+  ],
+  "explanation": "\"Kvindelig\" means female or feminine, and you use it to describe people or things connected to women. It is built from \"kvinde\" (woman). It is used on forms and in descriptions. The opposite is \"mandlig\".",
+  "related": [
+   {
+    "da": "mandlig",
+    "en": "male"
+   },
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "en dame",
+    "en": "a lady"
+   },
+   {
+    "da": "et køn",
+    "en": "a sex / gender"
+   }
+  ],
+  "sentence": {
+   "da": "Min læge er **kvindelig**.",
+   "en": "My doctor is female."
+  }
+ },
+ "kylling": {
+  "forms": [
+   {
+    "da": "en kylling",
+    "en": "a chicken"
+   },
+   {
+    "da": "kyllingen",
+    "en": "the chicken"
+   },
+   {
+    "da": "kylling med ris",
+    "en": "chicken with rice"
+   }
+  ],
+  "explanation": "\"Kylling\" is chicken, both the bird and the meat you eat. It is an en-word, so \"the chicken\" is \"kyllingen\". The plural \"kyllinger\" is used for the birds. For the meat you simply say \"kylling\" with no \"a\".",
+  "related": [
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "et æg",
+    "en": "an egg"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
+   },
+   {
+    "da": "fisk",
+    "en": "fish"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **kylling** til aftensmad.",
+   "en": "We are eating chicken for dinner."
+  }
+ },
+ "kærlighed": {
+  "forms": [
+   {
+    "da": "kærlighed",
+    "en": "love"
+   },
+   {
+    "da": "kærligheden",
+    "en": "the love"
+   }
+  ],
+  "explanation": "\"Kærlighed\" means love, and it is an en-word, so \"the love\" is \"kærligheden\". It is usually used without \"en\" in front, as in \"Kærlighed er vigtigt\". It is the big, general word. For saying \"I love you\" you use the verb: \"Jeg elsker dig\". A loved one is \"en kæreste\".",
+  "related": [
+   {
+    "da": "at elske",
+    "en": "to love"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend/girlfriend"
+   },
+   {
+    "da": "at holde af",
+    "en": "to be fond of"
+   },
+   {
+    "da": "et hjerte",
+    "en": "a heart"
+   }
+  ],
+  "sentence": {
+   "da": "**Kærlighed** er det vigtigste i livet.",
+   "en": "Love is the most important thing in life."
+  }
+ },
+ "kød": {
+  "forms": [
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "kødet",
+    "en": "the meat"
+   },
+   {
+    "da": "lidt kød",
+    "en": "some meat"
+   }
+  ],
+  "explanation": "\"Kød\" means meat. It is an et-word, so \"the meat\" is \"kødet\". It is used for all kinds of meat as a group. To say what kind, you add a word in front, as in \"oksekød\" (beef) or \"svinekød\" (pork). People who do not eat meat are \"vegetarer\".",
+  "related": [
+   {
+    "da": "oksekød",
+    "en": "beef"
+   },
+   {
+    "da": "svinekød",
+    "en": "pork"
+   },
+   {
+    "da": "kylling",
+    "en": "chicken"
+   },
+   {
+    "da": "fisk",
+    "en": "fish"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser ikke meget **kød**.",
+   "en": "I do not eat much meat."
+  }
+ },
+ "køn": {
+  "forms": [
+   {
+    "da": "en køn pige",
+    "en": "a pretty girl"
+   },
+   {
+    "da": "et kønt hus",
+    "en": "a pretty house"
+   },
+   {
+    "da": "kønne piger",
+    "en": "pretty girls"
+   }
+  ],
+  "explanation": "\"Køn\" means pretty, usually about a person, a face or a place. With et-words it gets a \"t\" (\"et kønt hus\") and with more than one \"ne\" (\"kønne piger\"). Do not mix it up with \"et køn\", which means gender (male or female).",
+  "related": [
+   {
+    "da": "smuk",
+    "en": "beautiful"
+   },
+   {
+    "da": "flot",
+    "en": "handsome / nice-looking"
+   },
+   {
+    "da": "pæn",
+    "en": "nice-looking"
+   },
+   {
+    "da": "grim",
+    "en": "ugly"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **kønt** hus.",
+   "en": "It is a pretty house."
   }
  }
 }

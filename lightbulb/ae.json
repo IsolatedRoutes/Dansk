@@ -1,0 +1,209 @@
+{
+ "et æble": {
+  "forms": [
+   {
+    "da": "et æble",
+    "en": "an apple"
+   },
+   {
+    "da": "æblet",
+    "en": "the apple"
+   },
+   {
+    "da": "æbler",
+    "en": "apples"
+   },
+   {
+    "da": "æblerne",
+    "en": "the apples"
+   }
+  ],
+  "explanation": "\"Et æble\" is an apple, and it is an et-word. Note the letter \"æ\" at the start, which sounds a bit like the \"a\" in \"cat\" but longer. Apples are very common in Denmark, and \"æblekage\" (apple cake) and \"æblejuice\" are everyday treats.",
+  "related": [
+   {
+    "da": "en pære",
+    "en": "a pear"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "en æblekage",
+    "en": "an apple cake"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser et **æble** hver morgen.",
+   "en": "I eat an apple every morning."
+  }
+ },
+ "et æg": {
+  "forms": [
+   {
+    "da": "et æg",
+    "en": "an egg"
+   },
+   {
+    "da": "ægget",
+    "en": "the egg"
+   },
+   {
+    "da": "æg",
+    "en": "eggs"
+   },
+   {
+    "da": "æggene",
+    "en": "the eggs"
+   }
+  ],
+  "explanation": "\"Et æg\" is an egg. It is an et-word. The plural is the same as the singular, so \"to æg\" means two eggs, and \"the eggs\" is \"æggene\". Remember the letter æ, which sounds like the e in \"bed\". Common phrases are \"kogt æg\" (boiled egg) and \"spejlæg\" (fried egg).",
+  "related": [
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "en høne",
+    "en": "a hen"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser et **æg** til morgenmad.",
+   "en": "I eat an egg for breakfast."
+  }
+ },
+ "ældre": {
+  "forms": [
+   {
+    "da": "en ældre dame",
+    "en": "an elderly lady"
+   },
+   {
+    "da": "et ældre hus",
+    "en": "an older house"
+   },
+   {
+    "da": "ældre mennesker",
+    "en": "older people"
+   }
+  ],
+  "explanation": "\"Ældre\" means older or elderly, and it never changes its ending. It is both the comparing form of \"gammel\" (old), as in \"ældre end mig\" (older than me), and a polite word for elderly: \"de ældre\" means elderly people. The next step is \"ældst\" (oldest).",
+  "related": [
+   {
+    "da": "gammel",
+    "en": "old"
+   },
+   {
+    "da": "ældst",
+    "en": "oldest"
+   },
+   {
+    "da": "yngre",
+    "en": "younger"
+   },
+   {
+    "da": "ung",
+    "en": "young"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror er **ældre** end mig.",
+   "en": "My brother is older than me."
+  }
+ },
+ "ældst": {
+  "forms": [
+   {
+    "da": "min ældste bror",
+    "en": "my oldest brother"
+   },
+   {
+    "da": "det ældste hus",
+    "en": "the oldest house"
+   },
+   {
+    "da": "de ældste børn",
+    "en": "the oldest children"
+   }
+  ],
+  "explanation": "\"Ældst\" means oldest. Alone it is used after \"er\" (\"Han er ældst\"), and when it comes before a word it adds an \"e\" and is used with \"den\", \"det\" or \"de\": \"den ældste\". It is the top step after \"gammel\" and \"ældre\". The opposite is \"yngst\".",
+  "related": [
+   {
+    "da": "gammel",
+    "en": "old"
+   },
+   {
+    "da": "ældre",
+    "en": "older"
+   },
+   {
+    "da": "yngst",
+    "en": "youngest"
+   },
+   {
+    "da": "en bror",
+    "en": "a brother"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror er **ældst**.",
+   "en": "My brother is the oldest."
+  }
+ },
+ "ærter": {
+  "forms": [
+   {
+    "da": "en ært",
+    "en": "a pea"
+   },
+   {
+    "da": "ærten",
+    "en": "the pea"
+   },
+   {
+    "da": "ærter",
+    "en": "peas"
+   },
+   {
+    "da": "ærterne",
+    "en": "the peas"
+   }
+  ],
+  "explanation": "\"Ærter\" means peas. One single pea is \"en ært\", but you mostly use the plural. The letter \"æ\" is a special Danish letter, said a little like the \"e\" in \"bed\". Peas are used in soups, with meat, or frozen as a side. \"Gule ærter\" is a traditional yellow pea soup.",
+  "related": [
+   {
+    "da": "bønner",
+    "en": "beans"
+   },
+   {
+    "da": "majs",
+    "en": "corn"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene spiser **ærter** med kartofler.",
+   "en": "The children eat peas with potatoes."
+  }
+ }
+}

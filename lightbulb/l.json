@@ -42,6 +42,287 @@
    "en": "What are we going to do tonight?"
   }
  },
+ "at lave lektier": {
+  "forms": [
+   {
+    "da": "at lave lektier",
+    "en": "to do homework"
+   },
+   {
+    "da": "jeg laver lektier",
+    "en": "I do homework"
+   },
+   {
+    "da": "jeg lavede lektier",
+    "en": "I did homework"
+   },
+   {
+    "da": "jeg har lavet lektier",
+    "en": "I have done homework"
+   }
+  ],
+  "explanation": "\"At lave lektier\" means to do homework. Danish says \"make\" (lave) where English says 'do'. \"Lektier\" only exists as a plural, so you never say 'a lektie' for homework. Many people just say \"jeg laver lektier\" to mean they are studying after school.",
+  "related": [
+   {
+    "da": "en lektie",
+    "en": "a piece of homework"
+   },
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
+   },
+   {
+    "da": "at læse",
+    "en": "to read / study"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **laver lektier** efter skole.",
+   "en": "The children do homework after school."
+  }
+ },
+ "at lave mad": {
+  "forms": [
+   {
+    "da": "at lave mad",
+    "en": "to cook"
+   },
+   {
+    "da": "jeg laver mad",
+    "en": "I cook"
+   },
+   {
+    "da": "jeg lavede mad",
+    "en": "I cooked"
+   },
+   {
+    "da": "jeg har lavet mad",
+    "en": "I have cooked"
+   }
+  ],
+  "explanation": "\"At lave mad\" means to cook, and it is made of \"lave\" (to make) and \"mad\" (food). So it literally means \"to make food\". The verb \"at koge\" is more specific, meaning to boil. Use \"lave mad\" for any cooking, and add a dish if you want: \"jeg laver pasta\".",
+  "related": [
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "mad",
+    "en": "food"
+   }
+  ],
+  "sentence": {
+   "da": "Min far **laver mad** hver dag.",
+   "en": "My father cooks every day."
+  }
+ },
+ "at le": {
+  "forms": [
+   {
+    "da": "at le",
+    "en": "to laugh"
+   },
+   {
+    "da": "jeg ler",
+    "en": "I laugh"
+   },
+   {
+    "da": "jeg lo",
+    "en": "I laughed"
+   },
+   {
+    "da": "jeg har leet",
+    "en": "I have laughed"
+   }
+  ],
+  "explanation": "\"At le\" means to laugh, and it is a short, slightly more formal word than \"at grine\". \"Vi lo meget\" means \"We laughed a lot\". The past form \"lo\" and the \"have\" form \"leet\" are irregular, so learn them as they are. \"Latter\" is the word for laughter.",
+  "related": [
+   {
+    "da": "at grine",
+    "en": "to laugh"
+   },
+   {
+    "da": "latter",
+    "en": "laughter"
+   },
+   {
+    "da": "sjov",
+    "en": "funny"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **lo** hele aftenen.",
+   "en": "We laughed all evening."
+  }
+ },
+ "at lede efter": {
+  "forms": [
+   {
+    "da": "at lede efter",
+    "en": "to look for"
+   },
+   {
+    "da": "jeg leder efter",
+    "en": "I look for"
+   },
+   {
+    "da": "jeg ledte efter",
+    "en": "I looked for"
+   },
+   {
+    "da": "jeg har ledt efter",
+    "en": "I have looked for"
+   }
+  ],
+  "explanation": "\"At lede efter\" means to look for something that you cannot find yet. \"Jeg leder efter mine nøgler\" means \"I am looking for my keys\". Do not mix it up with \"at se på\" (to look at). The small word \"efter\" stays with it. The past form is \"ledte efter\" and the \"have\" form is \"ledt efter\".",
+  "related": [
+   {
+    "da": "at finde",
+    "en": "to find"
+   },
+   {
+    "da": "at søge",
+    "en": "to search"
+   },
+   {
+    "da": "at se på",
+    "en": "to look at"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **leder efter** mine nøgler.",
+   "en": "I am looking for my keys."
+  }
+ },
+ "at lege": {
+  "forms": [
+   {
+    "da": "at lege",
+    "en": "to play (children)"
+   },
+   {
+    "da": "jeg leger",
+    "en": "I play (children)"
+   },
+   {
+    "da": "jeg legede",
+    "en": "I played (children)"
+   },
+   {
+    "da": "jeg har leget",
+    "en": "I have played (children)"
+   }
+  ],
+  "explanation": "\"At lege\" means to play in the way children do, just for fun: \"Børnene leger i haven\" (The children are playing in the garden). It is not used for sports or instruments, where Danish uses \"at spille\". Adults say \"at lege\" too when they are being playful. A toy is \"et legetøj\" and a playground is \"en legeplads\".",
+  "related": [
+   {
+    "da": "at spille",
+    "en": "to play (game or instrument)"
+   },
+   {
+    "da": "et legetøj",
+    "en": "a toy"
+   },
+   {
+    "da": "en legeplads",
+    "en": "a playground"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **leger** i haven.",
+   "en": "The children are playing in the garden."
+  }
+ },
+ "at leve": {
+  "forms": [
+   {
+    "da": "at leve",
+    "en": "to live (be alive)"
+   },
+   {
+    "da": "jeg lever",
+    "en": "I live (be alive)"
+   },
+   {
+    "da": "jeg levede",
+    "en": "I lived (be alive)"
+   },
+   {
+    "da": "jeg har levet",
+    "en": "I have lived (be alive)"
+   }
+  ],
+  "explanation": "\"At leve\" means to live in the sense of being alive. \"Hun lever stadig\" means \"She is still alive\". It is also used for how you live your life: \"leve et godt liv\". Do not use it for where your home is; for that Danes say \"at bo\". \"Længe leve!\" is a cheer meaning \"Long live!\".",
+  "related": [
+   {
+    "da": "et liv",
+    "en": "a life"
+   },
+   {
+    "da": "at bo",
+    "en": "to live (reside)"
+   },
+   {
+    "da": "levende",
+    "en": "alive"
+   }
+  ],
+  "sentence": {
+   "da": "Min bedstefar **lever** stadig.",
+   "en": "My grandfather is still alive."
+  }
+ },
+ "at ligge": {
+  "forms": [
+   {
+    "da": "at ligge",
+    "en": "to lie (be lying)"
+   },
+   {
+    "da": "jeg ligger",
+    "en": "I lie / am lying"
+   },
+   {
+    "da": "jeg lå",
+    "en": "I lay / was lying"
+   },
+   {
+    "da": "jeg har ligget",
+    "en": "I have lain"
+   }
+  ],
+  "explanation": "\"At ligge\" means to lie, to be lying down or to be placed flat: \"Bogen ligger på bordet\" (The book is lying on the table). It also tells where places are, as in \"Byen ligger ved havet\". Do not mix it up with \"at lægge\", which is to put something down. The past form \"lå\" is short and irregular.",
+  "related": [
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   },
+   {
+    "da": "at stå",
+    "en": "to stand"
+   },
+   {
+    "da": "at lægge",
+    "en": "to put / lay"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen **ligger** på bordet.",
+   "en": "The book is lying on the table."
+  }
+ },
  "at like": {
   "forms": [
    {
@@ -83,6 +364,2020 @@
   "sentence": {
    "da": "Hun plejer at **like** mine billeder.",
    "en": "She usually likes my pictures."
+  }
+ },
+ "at lukke": {
+  "forms": [
+   {
+    "da": "at lukke",
+    "en": "to close"
+   },
+   {
+    "da": "jeg lukker",
+    "en": "I close"
+   },
+   {
+    "da": "jeg lukkede",
+    "en": "I closed"
+   },
+   {
+    "da": "jeg har lukket",
+    "en": "I have closed"
+   }
+  ],
+  "explanation": "\"At lukke\" means to close, for a door, a window, a shop or a bag. \"Kan du lukke døren?\" means \"Can you close the door?\". It is the opposite of \"at åbne\" (to open). In shops you may hear \"Vi lukker om ti minutter\" (We close in ten minutes).",
+  "related": [
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "lukket",
+    "en": "closed"
+   },
+   {
+    "da": "en dør",
+    "en": "a door"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **lukke** vinduet, tak?",
+   "en": "Can you close the window, please?"
+  }
+ },
+ "at lytte": {
+  "forms": [
+   {
+    "da": "at lytte",
+    "en": "to listen"
+   },
+   {
+    "da": "jeg lytter",
+    "en": "I listen"
+   },
+   {
+    "da": "jeg lyttede",
+    "en": "I listened"
+   },
+   {
+    "da": "jeg har lyttet",
+    "en": "I have listened"
+   }
+  ],
+  "explanation": "\"At lytte\" means to listen on purpose: \"Jeg lytter til musik\" (I am listening to music). It is normally used with \"til\" (to). It is different from \"at høre\", which is simply to hear something, whether you want to or not. Compare \"Jeg hørte en lyd\" (I heard a sound) with \"Jeg lyttede til musikken\".",
+  "related": [
+   {
+    "da": "at høre",
+    "en": "to hear"
+   },
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "en lyd",
+    "en": "a sound"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **lytter** til radio om morgenen.",
+   "en": "I listen to the radio in the morning."
+  }
+ },
+ "at låne": {
+  "forms": [
+   {
+    "da": "at låne",
+    "en": "to borrow / lend"
+   },
+   {
+    "da": "jeg låner",
+    "en": "I borrow / lend"
+   },
+   {
+    "da": "jeg lånte",
+    "en": "I borrowed / lent"
+   },
+   {
+    "da": "jeg har lånt",
+    "en": "I have borrowed / lent"
+   }
+  ],
+  "explanation": "\"At låne\" means both to borrow and to lend, so the context tells you which. \"Kan jeg låne din pen?\" means you want to borrow it. \"Jeg låner dig min cykel\" means you lend it to someone. To make the meaning clear, Danes sometimes say \"låne af\" (borrow from) and \"låne ud\" (lend out).",
+  "related": [
+   {
+    "da": "at låne ud",
+    "en": "to lend out"
+   },
+   {
+    "da": "et lån",
+    "en": "a loan"
+   },
+   {
+    "da": "at give",
+    "en": "to give"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg **låne** din pen?",
+   "en": "Can I borrow your pen?"
+  }
+ },
+ "at lægge": {
+  "forms": [
+   {
+    "da": "at lægge",
+    "en": "to lay down"
+   },
+   {
+    "da": "jeg lægger",
+    "en": "I lay down"
+   },
+   {
+    "da": "jeg lagde",
+    "en": "I laid down"
+   },
+   {
+    "da": "jeg har lagt",
+    "en": "I have laid down"
+   }
+  ],
+  "explanation": "\"At lægge\" means to lay or to put something down flat, like a book on a table or a baby in bed. \"Jeg lægger bogen på bordet\" means \"I put the book on the table\". Compare it with \"at sætte\" (put something so it sits up) and \"at ligge\" (to be lying somewhere). \"Læg dig ned\" means \"Lie down\".",
+  "related": [
+   {
+    "da": "at ligge",
+    "en": "to lie (be lying)"
+   },
+   {
+    "da": "at sætte",
+    "en": "to put"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **lægger** bogen på bordet.",
+   "en": "She puts the book on the table."
+  }
+ },
+ "at lære": {
+  "forms": [
+   {
+    "da": "at lære",
+    "en": "to learn / teach"
+   },
+   {
+    "da": "jeg lærer",
+    "en": "I learn"
+   },
+   {
+    "da": "jeg lærte",
+    "en": "I learned"
+   },
+   {
+    "da": "jeg har lært",
+    "en": "I have learned"
+   }
+  ],
+  "explanation": "\"At lære\" means both to learn and to teach, and the context tells you which: \"Jeg lærer dansk\" (I learn Danish) and \"Hun lærer mig dansk\" (She teaches me Danish). For the second use, you can add \"at lære fra sig\". A teacher is \"en lærer\", which looks just like \"lærer\" in \"jeg lærer\". Do not mix it up with \"at læse\".",
+  "related": [
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "at undervise",
+    "en": "to teach"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **lærer** dansk hver dag.",
+   "en": "I am learning Danish every day."
+  }
+ },
+ "at læse": {
+  "forms": [
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "jeg læser",
+    "en": "I read"
+   },
+   {
+    "da": "jeg læste",
+    "en": "I read"
+   },
+   {
+    "da": "jeg har læst",
+    "en": "I have read"
+   }
+  ],
+  "explanation": "\"At læse\" means to read: \"Jeg læser en bog\" (I am reading a book). It is also the Danish word for studying a field at university, as in \"Hun læser medicin\" (She studies medicine). The word \"læser\" without \"at\" is a reader. Do not mix it up with \"at lære\" (to learn).",
+  "related": [
+   {
+    "da": "at skrive",
+    "en": "to write"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn / teach"
+   },
+   {
+    "da": "en bog",
+    "en": "a book"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **læser** en bog i sengen.",
+   "en": "I am reading a book in bed."
+  }
+ },
+ "at løbe": {
+  "forms": [
+   {
+    "da": "at løbe",
+    "en": "to run"
+   },
+   {
+    "da": "jeg løber",
+    "en": "I run"
+   },
+   {
+    "da": "jeg løb",
+    "en": "I ran"
+   },
+   {
+    "da": "jeg har løbet",
+    "en": "I have run"
+   }
+  ],
+  "explanation": "\"At løbe\" means to run, for sport or in a hurry: \"Jeg løber hver morgen\" (I run every morning). It also describes a nose or a river that flows. A fun phrase is \"at løbe tør for\", which means to run out of something. The past form \"løb\" and the \"have done\" form \"løbet\" are irregular.",
+  "related": [
+   {
+    "da": "at gå",
+    "en": "to go / walk"
+   },
+   {
+    "da": "at jogge",
+    "en": "to jog"
+   },
+   {
+    "da": "en løbetur",
+    "en": "a run"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **løber** i parken hver morgen.",
+   "en": "I run in the park every morning."
+  }
+ },
+ "en lampe": {
+  "forms": [
+   {
+    "da": "en lampe",
+    "en": "a lamp"
+   },
+   {
+    "da": "lampen",
+    "en": "the lamp"
+   },
+   {
+    "da": "lamper",
+    "en": "lamps"
+   },
+   {
+    "da": "lamperne",
+    "en": "the lamps"
+   }
+  ],
+  "explanation": "\"En lampe\" is a lamp, and it is an en-word. It is used for a table lamp or a floor lamp, and a ceiling light is \"en loftlampe\". To switch it on you say \"tænd lampen\", and \"sluk lampen\" turns it off. Lamps are everywhere in Danish homes, where soft lighting is part of the cosy feeling called \"hygge\".",
+  "related": [
+   {
+    "da": "et lys",
+    "en": "a light"
+   },
+   {
+    "da": "at tænde",
+    "en": "to switch on"
+   },
+   {
+    "da": "at slukke",
+    "en": "to switch off"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du tænde **lampen**?",
+   "en": "Can you switch on the lamp?"
+  }
+ },
+ "en landmand": {
+  "forms": [
+   {
+    "da": "en landmand",
+    "en": "a farmer"
+   },
+   {
+    "da": "landmanden",
+    "en": "the farmer"
+   },
+   {
+    "da": "landmænd",
+    "en": "farmers"
+   },
+   {
+    "da": "landmændene",
+    "en": "the farmers"
+   }
+  ],
+  "explanation": "\"En landmand\" is a farmer. It is an en-word built from \"land\" (country) and \"mand\" (man). The word for more than one changes its vowel: \"landmænd\". A farm is \"en gård\", and farming as a trade is \"landbrug\". Danish farms are often family-run.",
+  "related": [
+   {
+    "da": "en gård",
+    "en": "a farm"
+   },
+   {
+    "da": "et landbrug",
+    "en": "farming"
+   },
+   {
+    "da": "en mark",
+    "en": "a field"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   }
+  ],
+  "sentence": {
+   "da": "**Landmanden** arbejder på marken.",
+   "en": "The farmer works in the field."
+  }
+ },
+ "en lejlighed": {
+  "forms": [
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   },
+   {
+    "da": "lejligheden",
+    "en": "the apartment"
+   },
+   {
+    "da": "lejligheder",
+    "en": "apartments"
+   },
+   {
+    "da": "lejlighederne",
+    "en": "the apartments"
+   }
+  ],
+  "explanation": "\"En lejlighed\" is an apartment or flat, and it is an en-word. You can rent one (\"at leje en lejlighed\") or buy one, while a whole house is \"et hus\". The word is long, so say it in parts: lej-lig-hed. People often describe size by rooms, for example \"en lejlighed med tre værelser\".",
+  "related": [
+   {
+    "da": "et hus",
+    "en": "a house"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en husleje",
+    "en": "rent"
+   },
+   {
+    "da": "en nabo",
+    "en": "a neighbour"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i en lille **lejlighed**.",
+   "en": "We live in a small apartment."
+  }
+ },
+ "en lillebror": {
+  "forms": [
+   {
+    "da": "en lillebror",
+    "en": "a little brother"
+   },
+   {
+    "da": "lillebroren",
+    "en": "the little brother"
+   },
+   {
+    "da": "lillebrødre",
+    "en": "little brothers"
+   },
+   {
+    "da": "lillebrødrene",
+    "en": "the little brothers"
+   }
+  ],
+  "explanation": "\"En lillebror\" is a younger brother, literally \"little brother\". It is used for any brother who is younger than you. The older one is \"en storebror\". Notice the plural \"lillebrødre\", where the vowel changes.",
+  "related": [
+   {
+    "da": "en storebror",
+    "en": "a big brother"
+   },
+   {
+    "da": "en lillesøster",
+    "en": "a little sister"
+   },
+   {
+    "da": "en bror",
+    "en": "a brother"
+   },
+   {
+    "da": "søskende",
+    "en": "siblings"
+   }
+  ],
+  "sentence": {
+   "da": "Min **lillebror** går i børnehave.",
+   "en": "My little brother goes to nursery school."
+  }
+ },
+ "en lillesøster": {
+  "forms": [
+   {
+    "da": "en lillesøster",
+    "en": "a little sister"
+   },
+   {
+    "da": "lillesøsteren",
+    "en": "the little sister"
+   },
+   {
+    "da": "lillesøstre",
+    "en": "little sisters"
+   },
+   {
+    "da": "lillesøstrene",
+    "en": "the little sisters"
+   }
+  ],
+  "explanation": "\"En lillesøster\" is a younger sister, literally \"little sister\". It is used for any sister who is younger than you. The older one is \"en storesøster\". The plural is \"lillesøstre\".",
+  "related": [
+   {
+    "da": "en storesøster",
+    "en": "a big sister"
+   },
+   {
+    "da": "en lillebror",
+    "en": "a little brother"
+   },
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "søskende",
+    "en": "siblings"
+   }
+  ],
+  "sentence": {
+   "da": "Min **lillesøster** elsker at tegne.",
+   "en": "My little sister loves to draw."
+  }
+ },
+ "en liste": {
+  "forms": [
+   {
+    "da": "en liste",
+    "en": "a list"
+   },
+   {
+    "da": "listen",
+    "en": "the list"
+   },
+   {
+    "da": "lister",
+    "en": "lists"
+   },
+   {
+    "da": "listerne",
+    "en": "the lists"
+   }
+  ],
+  "explanation": "\"Liste\" is a list, just like in English. Danes make \"en indkøbsliste\" (a shopping list) and \"en huskeliste\" (a reminder list) all the time. It is an en-word and the plural is \"lister\". To put something on a list you say \"at skrive noget på listen\".",
+  "related": [
+   {
+    "da": "en indkøbsliste",
+    "en": "a shopping list"
+   },
+   {
+    "da": "at skrive",
+    "en": "to write"
+   },
+   {
+    "da": "et papir",
+    "en": "a piece of paper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skriver **en liste**.",
+   "en": "I am writing a list."
+  }
+ },
+ "en liter": {
+  "forms": [
+   {
+    "da": "en liter",
+    "en": "a liter"
+   },
+   {
+    "da": "literen",
+    "en": "the liter"
+   },
+   {
+    "da": "liter",
+    "en": "liters"
+   },
+   {
+    "da": "literne",
+    "en": "the liters"
+   }
+  ],
+  "explanation": "\"En liter\" is a liter, used for milk, water and fuel. In the plural it stays \"liter\": \"to liter mælk\" (two liters of milk). Danish shops use the metric system, so you will see \"liter\" and \"deciliter\" in recipes. Half a liter is \"en halv liter\".",
+  "related": [
+   {
+    "da": "en halv liter",
+    "en": "half a liter"
+   },
+   {
+    "da": "et gram",
+    "en": "a gram"
+   },
+   {
+    "da": "et kilo",
+    "en": "a kilo"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber to **liter** mælk.",
+   "en": "I am buying two liters of milk."
+  }
+ },
+ "en lomme": {
+  "forms": [
+   {
+    "da": "en lomme",
+    "en": "a pocket"
+   },
+   {
+    "da": "lommen",
+    "en": "the pocket"
+   },
+   {
+    "da": "lommer",
+    "en": "pockets"
+   },
+   {
+    "da": "lommerne",
+    "en": "the pockets"
+   }
+  ],
+  "explanation": "\"En lomme\" means a pocket on clothes. You can say \"Det er i min lomme\" (It is in my pocket). Pocket money for children is called \"lommepenge\", and a flashlight is \"en lommelygte\". It is an easy word that you will find in many compound words.",
+  "related": [
+   {
+    "da": "lommepenge",
+    "en": "pocket money"
+   },
+   {
+    "da": "en lommelygte",
+    "en": "a flashlight"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en pung",
+    "en": "a wallet"
+   }
+  ],
+  "sentence": {
+   "da": "Mine nøgler er i min **lomme**.",
+   "en": "My keys are in my pocket."
+  }
+ },
+ "en lufthavn": {
+  "forms": [
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "lufthavnen",
+    "en": "the airport"
+   },
+   {
+    "da": "lufthavne",
+    "en": "airports"
+   },
+   {
+    "da": "lufthavnene",
+    "en": "the airports"
+   }
+  ],
+  "explanation": "En lufthavn is an airport. It is made of \"luft\" (air) and \"havn\" (harbour), so it is a harbour for the air. It is an en-word, and \"the airport\" is \"lufthavnen\". You say \"i lufthavnen\" for \"at the airport\". The big Danish one near Copenhagen is called Kastrup.",
+  "related": [
+   {
+    "da": "et fly",
+    "en": "a plane"
+   },
+   {
+    "da": "en havn",
+    "en": "a harbour"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal til **lufthavnen** klokken seks.",
+   "en": "We are going to the airport at six o'clock."
+  }
+ },
+ "en læbe": {
+  "forms": [
+   {
+    "da": "en læbe",
+    "en": "a lip"
+   },
+   {
+    "da": "læben",
+    "en": "the lip"
+   },
+   {
+    "da": "læber",
+    "en": "lips"
+   },
+   {
+    "da": "læberne",
+    "en": "the lips"
+   }
+  ],
+  "explanation": "\"En læbe\" is a lip. It is an en-word. You will mostly use it in the form for more than one, \"læber\", for example \"røde læber\" (red lips) or \"tørre læber\" (dry lips). It is often a part of beauty words like \"læbestift\" (lipstick).",
+  "related": [
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en tunge",
+    "en": "a tongue"
+   },
+   {
+    "da": "et ansigt",
+    "en": "a face"
+   }
+  ],
+  "sentence": {
+   "da": "Mine **læber** er tørre.",
+   "en": "My lips are dry."
+  }
+ },
+ "en læge": {
+  "forms": [
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "lægen",
+    "en": "the doctor"
+   },
+   {
+    "da": "læger",
+    "en": "doctors"
+   },
+   {
+    "da": "lægerne",
+    "en": "the doctors"
+   }
+  ],
+  "explanation": "\"En læge\" is a doctor, the person you see when you are ill. In Danish you often just say \"lægen\" (the doctor) for your own family doctor. Remember the phrase \"at gå til lægen\" for going to see the doctor, and note that \"en læge\" can be a man or a woman.",
+  "related": [
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "et hospital",
+    "en": "a hospital"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "at være syg",
+    "en": "to be ill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal til **lægen** i morgen.",
+   "en": "I am going to the doctor tomorrow."
+  }
+ },
+ "en lærer": {
+  "forms": [
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "læreren",
+    "en": "the teacher"
+   },
+   {
+    "da": "lærere",
+    "en": "teachers"
+   },
+   {
+    "da": "lærerne",
+    "en": "the teachers"
+   }
+  ],
+  "explanation": "\"En lærer\" is a teacher, someone who works at a school. The word is the same for men and women. Notice that the \"the\" form doubles the ending: \"læreren\". A tip: \"at lære\" means both to learn and to teach, and \"en lærer\" is the person who teaches.",
+  "related": [
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn / to teach"
+   },
+   {
+    "da": "en klasse",
+    "en": "a class"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **lærer** er meget venlig.",
+   "en": "Our teacher is very kind."
+  }
+ },
+ "en løve": {
+  "forms": [
+   {
+    "da": "en løve",
+    "en": "a lion"
+   },
+   {
+    "da": "løven",
+    "en": "the lion"
+   },
+   {
+    "da": "løver",
+    "en": "lions"
+   },
+   {
+    "da": "løverne",
+    "en": "the lions"
+   }
+  ],
+  "explanation": "\"En løve\" is a lion, an en-word. Note the letter \"ø\", which is said like the vowel in \"bird\" in English. \"Løven\" is \"the lion\". The lion is often called the king of animals, \"dyrenes konge\".",
+  "related": [
+   {
+    "da": "en tiger",
+    "en": "a tiger"
+   },
+   {
+    "da": "en elefant",
+    "en": "an elephant"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en giraf",
+    "en": "a giraffe"
+   }
+  ],
+  "sentence": {
+   "da": "**Løven** brølede højt.",
+   "en": "The lion roared loudly."
+  }
+ },
+ "et land": {
+  "forms": [
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "landet",
+    "en": "the country"
+   },
+   {
+    "da": "lande",
+    "en": "countries"
+   },
+   {
+    "da": "landene",
+    "en": "the countries"
+   }
+  ],
+  "explanation": "\"Et land\" means a country, but it can also mean countryside or land. \"På landet\" means 'in the countryside', and \"i udlandet\" means 'abroad'. It is an et-word, so 'the country' is \"landet\" and the plural is \"lande\". Careful with \"landet\": it can also mean 'the countryside'.",
+  "related": [
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "et udland",
+    "en": "a foreign country"
+   },
+   {
+    "da": "en verden",
+    "en": "a world"
+   },
+   {
+    "da": "en grænse",
+    "en": "a border"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark er et lille **land**.",
+   "en": "Denmark is a small country."
+  }
+ },
+ "et liv": {
+  "forms": [
+   {
+    "da": "et liv",
+    "en": "a life"
+   },
+   {
+    "da": "livet",
+    "en": "the life"
+   },
+   {
+    "da": "liv",
+    "en": "lives"
+   },
+   {
+    "da": "livene",
+    "en": "the lives"
+   }
+  ],
+  "explanation": "\"Et liv\" means life, both a person's life and life in general. It is an et-word. The word does not change in the plural: \"to liv\" is two lives. Common phrases are \"livet er godt\" (life is good) and \"at have et godt liv\". It also appears in \"i live\" (alive), but that is a different thing to learn later.",
+  "related": [
+   {
+    "da": "at leve",
+    "en": "to live"
+   },
+   {
+    "da": "en død",
+    "en": "a death"
+   },
+   {
+    "da": "et menneske",
+    "en": "a human being"
+   },
+   {
+    "da": "en hverdag",
+    "en": "an everyday life"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et godt **liv** i Danmark.",
+   "en": "I have a good life in Denmark."
+  }
+ },
+ "et lår": {
+  "forms": [
+   {
+    "da": "et lår",
+    "en": "a thigh"
+   },
+   {
+    "da": "låret",
+    "en": "the thigh"
+   },
+   {
+    "da": "lår",
+    "en": "thighs"
+   },
+   {
+    "da": "lårene",
+    "en": "the thighs"
+   }
+  ],
+  "explanation": "\"Et lår\" is the thigh, the top part of your leg between the hip and the knee. It is an et-word, and the word for more than one looks the same: \"to lår\". Cooks use it too, for example \"kyllingelår\" is a chicken thigh.",
+  "related": [
+   {
+    "da": "et ben",
+    "en": "a leg"
+   },
+   {
+    "da": "et knæ",
+    "en": "a knee"
+   },
+   {
+    "da": "en hofte",
+    "en": "a hip"
+   },
+   {
+    "da": "en læg",
+    "en": "a calf"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i mit **lår**.",
+   "en": "I have pain in my thigh."
+  }
+ },
+ "et løg": {
+  "forms": [
+   {
+    "da": "et løg",
+    "en": "an onion"
+   },
+   {
+    "da": "løget",
+    "en": "the onion"
+   },
+   {
+    "da": "løg",
+    "en": "onions"
+   },
+   {
+    "da": "løgene",
+    "en": "the onions"
+   }
+  ],
+  "explanation": "\"Et løg\" is an onion. It is an et-word, and the plural is the same as the singular, so \"to løg\" means two onions. Danes use \"løg\" in cooking a lot and also as a topping, for example \"ristede løg\" (fried onions) on a hot dog. The letter ø sounds a bit like the u in \"fur\".",
+  "related": [
+   {
+    "da": "hvidløg",
+    "en": "garlic"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   },
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skærer et **løg**.",
+   "en": "I am cutting an onion."
+  }
+ },
+ "lad os se": {
+  "forms": [
+   {
+    "da": "Lad os se.",
+    "en": "Let's see."
+   },
+   {
+    "da": "Lad os se, hvad klokken er.",
+    "en": "Let's see what time it is."
+   },
+   {
+    "da": "Lad os se, om han kommer.",
+    "en": "Let's see if he comes."
+   }
+  ],
+  "explanation": "\"Lad os se\" means \"let's see\" and is what you say while you think, check something or wait for a result. It is also useful as a mild \"we'll find out\". The word \"lad\" works like \"let\", so \"lad os gå\" means \"let's go\".",
+  "related": [
+   {
+    "da": "lad os gå",
+    "en": "let's go"
+   },
+   {
+    "da": "vi må se",
+    "en": "we'll have to see"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
+   }
+  ],
+  "sentence": {
+   "da": "**Lad os se**, hvad der er i køleskabet.",
+   "en": "Let's see what is in the fridge."
+  }
+ },
+ "laks": {
+  "forms": [
+   {
+    "da": "laks",
+    "en": "salmon"
+   },
+   {
+    "da": "laksen",
+    "en": "the salmon"
+   },
+   {
+    "da": "røget laks",
+    "en": "smoked salmon"
+   }
+  ],
+  "explanation": "\"Laks\" means salmon, the fish. It is an en-word, so \"the salmon\" is \"laksen\". It is eaten smoked (\"røget laks\") on bread or baked with potatoes. Notice that it needs no \"a\": \"Jeg spiser laks\".",
+  "related": [
+   {
+    "da": "fisk",
+    "en": "fish"
+   },
+   {
+    "da": "en reje",
+    "en": "a shrimp"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **laks** med kartofler.",
+   "en": "I eat salmon with potatoes."
+  }
+ },
+ "lang": {
+  "forms": [
+   {
+    "da": "en lang vej",
+    "en": "a long road"
+   },
+   {
+    "da": "et langt møde",
+    "en": "a long meeting"
+   },
+   {
+    "da": "lange dage",
+    "en": "long days"
+   }
+  ],
+  "explanation": "\"Lang\" means long, in distance or in time. With an et-word it takes a \"-t\" (langt), and with many things it takes \"-e\" (lange). \"Langt\" on its own also means far: \"Det er langt væk\" is \"It is far away\". The opposite is \"kort\" (short), and \"længere\" means longer.",
+  "related": [
+   {
+    "da": "kort",
+    "en": "short"
+   },
+   {
+    "da": "længere",
+    "en": "longer"
+   },
+   {
+    "da": "høj",
+    "en": "tall"
+   },
+   {
+    "da": "langt",
+    "en": "far"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **lang** dag.",
+   "en": "It is a long day."
+  }
+ },
+ "langsom": {
+  "forms": [
+   {
+    "da": "en langsom bil",
+    "en": "a slow car"
+   },
+   {
+    "da": "et langsomt tog",
+    "en": "a slow train"
+   },
+   {
+    "da": "langsomme biler",
+    "en": "slow cars"
+   }
+  ],
+  "explanation": "\"Langsom\" means slow. Add \"t\" for et-words (\"et langsomt tog\") and \"-me\" for more than one: \"langsomme\" with a double \"m\". To say that something happens slowly, use \"langsomt\": \"Tal langsomt, tak\" (Speak slowly, please). A good phrase for learners to know. The opposite is \"hurtig\" (fast).",
+  "related": [
+   {
+    "da": "hurtig",
+    "en": "fast"
+   },
+   {
+    "da": "langsomt",
+    "en": "slowly"
+   },
+   {
+    "da": "en fart",
+    "en": "a speed"
+   },
+   {
+    "da": "travl",
+    "en": "busy"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du tale lidt mere **langsomt**?",
+   "en": "Can you speak a little more slowly?"
+  }
+ },
+ "langt fra": {
+  "forms": [
+   {
+    "da": "langt fra stationen",
+    "en": "far from the station"
+   },
+   {
+    "da": "Hotellet er langt fra byen.",
+    "en": "The hotel is far from the town."
+   },
+   {
+    "da": "langt fra hjemme",
+    "en": "far from home"
+   }
+  ],
+  "explanation": "\"Langt fra\" means far from something, and the place or thing you mean comes after it. It is the opposite of \"tæt på\" (close to). Note that on its own \"langt fra\" can also be used to mean \"far from it\", as a way to say \"not at all\".",
+  "related": [
+   {
+    "da": "tæt på",
+    "en": "close to"
+   },
+   {
+    "da": "langt væk",
+    "en": "far away"
+   },
+   {
+    "da": "i nærheden",
+    "en": "nearby"
+   },
+   {
+    "da": "en afstand",
+    "en": "a distance"
+   }
+  ],
+  "sentence": {
+   "da": "Vores hus ligger **langt fra** byen.",
+   "en": "Our house is far from the town."
+  }
+ },
+ "langt væk": {
+  "forms": [
+   {
+    "da": "langt væk",
+    "en": "far away"
+   },
+   {
+    "da": "Det er langt væk.",
+    "en": "It is far away."
+   },
+   {
+    "da": "Hun bor langt væk.",
+    "en": "She lives far away."
+   }
+  ],
+  "explanation": "\"Langt væk\" means far away. \"Langt\" means long or far, and \"væk\" means away. It is used when something is a great distance from you, whether on foot or by car. The opposite idea is \"tæt på\" or \"i nærheden\".",
+  "related": [
+   {
+    "da": "i nærheden",
+    "en": "nearby"
+   },
+   {
+    "da": "tæt på",
+    "en": "close to"
+   },
+   {
+    "da": "langt fra",
+    "en": "far from"
+   },
+   {
+    "da": "en afstand",
+    "en": "a distance"
+   }
+  ],
+  "sentence": {
+   "da": "Min familie bor **langt væk**.",
+   "en": "My family lives far away."
+  }
+ },
+ "lav": {
+  "forms": [
+   {
+    "da": "en lav stol",
+    "en": "a low chair"
+   },
+   {
+    "da": "et lavt bord",
+    "en": "a low table"
+   },
+   {
+    "da": "lave huse",
+    "en": "low houses"
+   }
+  ],
+  "explanation": "\"Lav\" means low, and it is also used for a person who is short. With an et-word it takes \"-t\" (lavt), and with many things \"-e\" (lave). It can also describe prices: \"lave priser\" means low prices. The opposite is \"høj\", and \"lavere\" means lower.",
+  "related": [
+   {
+    "da": "høj",
+    "en": "tall/high"
+   },
+   {
+    "da": "lavere",
+    "en": "lower"
+   },
+   {
+    "da": "kort",
+    "en": "short"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen er meget **lav**.",
+   "en": "The price is very low."
+  }
+ },
+ "legetøj": {
+  "forms": [
+   {
+    "da": "legetøj",
+    "en": "toys"
+   },
+   {
+    "da": "legetøjet",
+    "en": "the toys"
+   },
+   {
+    "da": "noget legetøj",
+    "en": "some toys"
+   }
+  ],
+  "explanation": "\"Legetøj\" means toys as a group. In Danish it is an et-word that does not have a normal plural, so you say \"mit legetøj\" for \"my toys\". For one toy you can say \"et stykke legetøj\" or use a specific word like \"en bamse\" or \"en bil\".",
+  "related": [
+   {
+    "da": "at lege",
+    "en": "to play"
+   },
+   {
+    "da": "en bamse",
+    "en": "a teddy bear"
+   },
+   {
+    "da": "et spil",
+    "en": "a game"
+   },
+   {
+    "da": "en dukke",
+    "en": "a doll"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene har meget **legetøj**.",
+   "en": "The children have a lot of toys."
+  }
+ },
+ "lektier": {
+  "forms": [
+   {
+    "da": "en lektie",
+    "en": "a piece of homework"
+   },
+   {
+    "da": "lektier",
+    "en": "homework"
+   },
+   {
+    "da": "lektierne",
+    "en": "the homework"
+   },
+   {
+    "da": "mine lektier",
+    "en": "my homework"
+   }
+  ],
+  "explanation": "\"Lektier\" means homework. It is always used in this form, which looks like more than one, so you say \"mange lektier\" (a lot of homework) and \"lektierne\" (the homework). The usual verb is \"at lave\": \"Jeg laver lektier\". \"En lektie\" is one piece of homework, but it is rarely used.",
+  "related": [
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har mange **lektier** i dag.",
+   "en": "I have a lot of homework today."
+  }
+ },
+ "let": {
+  "forms": [
+   {
+    "da": "en let opgave",
+    "en": "an easy task"
+   },
+   {
+    "da": "et let svar",
+    "en": "an easy answer"
+   },
+   {
+    "da": "lette opgaver",
+    "en": "easy tasks"
+   }
+  ],
+  "explanation": "\"Let\" has two meanings: easy (\"en let opgave\") and light in weight (\"en let taske\"). Context makes it clear which one you mean. It does not change for en-words and et-words, but you add \"-e\" for more than one (\"lette opgaver\"). The opposite is \"svær\" (difficult) or \"tung\" (heavy). Also note that the other word for easy in daily talk is \"nem\".",
+  "related": [
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "en opgave",
+    "en": "a task"
+   }
+  ],
+  "sentence": {
+   "da": "Dansk er ikke så **let**.",
+   "en": "Danish is not that easy."
+  }
+ },
+ "lidt": {
+  "forms": [
+   {
+    "da": "lidt kaffe",
+    "en": "a little coffee"
+   },
+   {
+    "da": "Jeg taler lidt dansk.",
+    "en": "I speak a little Danish."
+   },
+   {
+    "da": "Lidt mere, tak.",
+    "en": "A little more, please."
+   }
+  ],
+  "explanation": "\"Lidt\" means \"a little\" or \"a bit\" and works for both amounts and degrees, as in \"lidt mælk\" (a little milk) and \"lidt træt\" (a bit tired). It is very handy for being polite, like \"Jeg taler lidt dansk\". Don't mix it up with \"lille\" (small), which describes how big something is. \"Lidt\" is the opposite of \"meget\" (a lot).",
+  "related": [
+   {
+    "da": "meget",
+    "en": "very / a lot"
+   },
+   {
+    "da": "lille",
+    "en": "small"
+   },
+   {
+    "da": "lidt efter lidt",
+    "en": "little by little"
+   },
+   {
+    "da": "nogle",
+    "en": "some"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg taler **lidt** dansk.",
+   "en": "I speak a little Danish."
+  }
+ },
+ "lidt langsommere, tak": {
+  "forms": [
+   {
+    "da": "Lidt langsommere, tak.",
+    "en": "A bit slower, please."
+   },
+   {
+    "da": "Kan du tale lidt langsommere?",
+    "en": "Can you speak a bit slower?"
+   },
+   {
+    "da": "Jeg forstår ikke helt.",
+    "en": "I don't quite understand."
+   }
+  ],
+  "explanation": "\"Lidt langsommere, tak\" means \"a bit slower, please\" and is what a learner says when Danish is spoken too fast. \"Langsom\" means slow, and \"langsommere\" is \"slower\". Add \"kan du sige det igen?\" if you also want it repeated.",
+  "related": [
+   {
+    "da": "langsom",
+    "en": "slow"
+   },
+   {
+    "da": "kan du gentage det?",
+    "en": "can you repeat that?"
+   },
+   {
+    "da": "jeg forstår ikke",
+    "en": "I don't understand"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er ny i Danmark. **Lidt langsommere, tak.**",
+   "en": "I am new in Denmark. A bit slower, please."
+  }
+ },
+ "lige": {
+  "forms": [
+   {
+    "da": "en lige vej",
+    "en": "a straight road"
+   },
+   {
+    "da": "et lige tal",
+    "en": "an even number"
+   },
+   {
+    "da": "lige linjer",
+    "en": "straight lines"
+   }
+  ],
+  "explanation": "\"Lige\" as a describing word means straight or equal, and it never changes its ending. It is also a very common little word meaning \"just\" or \"right\": \"lige nu\" is right now and \"lige ved siden af\" is right next to. The opposite of straight is \"skæv\" (crooked).",
+  "related": [
+   {
+    "da": "skæv",
+    "en": "crooked"
+   },
+   {
+    "da": "lige nu",
+    "en": "right now"
+   },
+   {
+    "da": "lige meget",
+    "en": "no matter"
+   },
+   {
+    "da": "ens",
+    "en": "alike"
+   }
+  ],
+  "sentence": {
+   "da": "Gaden er **lige**.",
+   "en": "The street is straight."
+  }
+ },
+ "lige nu": {
+  "forms": [
+   {
+    "da": "lige nu",
+    "en": "right now"
+   },
+   {
+    "da": "Jeg har travlt lige nu.",
+    "en": "I am busy right now."
+   },
+   {
+    "da": "Hvad laver du lige nu?",
+    "en": "What are you doing right now?"
+   }
+  ],
+  "explanation": "\"Lige nu\" means right now, at this very moment. \"Nu\" means now, and \"lige\" makes it more exact. It is very common in everyday talk. For something later, use \"om lidt\" (in a little while), and for a longer stretch, \"for tiden\" (at the moment).",
+  "related": [
+   {
+    "da": "nu",
+    "en": "now"
+   },
+   {
+    "da": "om lidt",
+    "en": "in a little while"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   },
+   {
+    "da": "i dag",
+    "en": "today"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ikke tid **lige nu**.",
+   "en": "I do not have time right now."
+  }
+ },
+ "ligesom": {
+  "forms": [
+   {
+    "da": "ligesom mig",
+    "en": "just like me"
+   },
+   {
+    "da": "Han er ligesom sin far.",
+    "en": "He is just like his father."
+   },
+   {
+    "da": "Det er ligesom i går.",
+    "en": "It is just like yesterday."
+   }
+  ],
+  "explanation": "\"Ligesom\" means \"just like\" or \"the same as\" and is used when you compare two things that are alike. \"Du er ligesom din mor\" means \"You are just like your mother\". It can also mean \"as if\" in casual talk. It is stronger than \"som\" (like, as), because \"lige\" means \"exactly\".",
+  "related": [
+   {
+    "da": "som",
+    "en": "like / as"
+   },
+   {
+    "da": "lige",
+    "en": "just / exactly"
+   },
+   {
+    "da": "på samme måde",
+    "en": "in the same way"
+   },
+   {
+    "da": "forskellig",
+    "en": "different"
+   }
+  ],
+  "sentence": {
+   "da": "Du er **ligesom** din far.",
+   "en": "You are just like your father."
+  }
+ },
+ "lilla": {
+  "forms": [
+   {
+    "da": "en lilla bluse",
+    "en": "a purple blouse"
+   },
+   {
+    "da": "et lilla tørklæde",
+    "en": "a purple scarf"
+   },
+   {
+    "da": "lilla blomster",
+    "en": "purple flowers"
+   }
+  ],
+  "explanation": "\"Lilla\" means purple. It never changes its ending, so you say \"en lilla bluse\", \"et lilla tørklæde\" and \"lilla blomster\". It is also what you call lilac or violet shades in everyday speech.",
+  "related": [
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "lyserød",
+    "en": "pink"
+   },
+   {
+    "da": "rød",
+    "en": "red"
+   },
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **lilla** taske.",
+   "en": "I have a purple bag."
+  }
+ },
+ "lille": {
+  "forms": [
+   {
+    "da": "en lille bil",
+    "en": "a small car"
+   },
+   {
+    "da": "et lille hus",
+    "en": "a small house"
+   },
+   {
+    "da": "små biler",
+    "en": "small cars"
+   }
+  ],
+  "explanation": "\"Lille\" means small or little. It is a bit special: it stays \"lille\" with both en-words and et-words, but with many things it becomes \"små\" (små biler). \"Mindre\" means smaller. The opposite is \"stor\" (big). Use it with children too: \"en lille dreng\" is a little boy.",
+  "related": [
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "mindre",
+    "en": "smaller"
+   },
+   {
+    "da": "lav",
+    "en": "low"
+   },
+   {
+    "da": "kort",
+    "en": "short"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en **lille** lejlighed.",
+   "en": "We have a small apartment."
+  }
+ },
+ "luft": {
+  "forms": [
+   {
+    "da": "luft",
+    "en": "air"
+   },
+   {
+    "da": "luften",
+    "en": "the air"
+   },
+   {
+    "da": "frisk luft",
+    "en": "fresh air"
+   }
+  ],
+  "explanation": "Luft is air. It is an en-word, so \"the air\" is \"luften\", and you say \"i luften\" for \"in the air\". A common phrase is \"frisk luft\" (fresh air), as in going outside for some. It is also the first part of \"en lufthavn\" (an airport), a harbour for planes.",
+  "related": [
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "vind",
+    "en": "wind"
+   },
+   {
+    "da": "at trække vejret",
+    "en": "to breathe"
+   },
+   {
+    "da": "et fly",
+    "en": "a plane"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg trænger til frisk **luft**.",
+   "en": "I need some fresh air."
+  }
+ },
+ "lukket": {
+  "forms": [
+   {
+    "da": "en lukket dør",
+    "en": "a closed door"
+   },
+   {
+    "da": "et lukket vindue",
+    "en": "a closed window"
+   },
+   {
+    "da": "lukkede døre",
+    "en": "closed doors"
+   }
+  ],
+  "explanation": "\"Lukket\" means closed, for doors, shops, windows and roads. It is the opposite of \"åben\" (open). It already ends in \"t\", so it stays the same for en-words and et-words, and you add \"-de\" for more than one: \"lukkede\". You will see \"Lukket\" on shop doors outside opening hours. The verb is \"at lukke\" (to close).",
+  "related": [
+   {
+    "da": "åben",
+    "en": "open"
+   },
+   {
+    "da": "at lukke",
+    "en": "to close"
+   },
+   {
+    "da": "en lukketid",
+    "en": "a closing time"
+   },
+   {
+    "da": "aflåst",
+    "en": "locked"
+   }
+  ],
+  "sentence": {
+   "da": "Banken er **lukket** i dag.",
+   "en": "The bank is closed today."
+  }
+ },
+ "lys": {
+  "forms": [
+   {
+    "da": "en lys dag",
+    "en": "a bright day"
+   },
+   {
+    "da": "et lyst rum",
+    "en": "a bright room"
+   },
+   {
+    "da": "lyse dage",
+    "en": "bright days"
+   }
+  ],
+  "explanation": "\"Lys\" means light or bright, and it works for colours (light colours) and for rooms or days full of daylight. Note that an et-word needs a \"t\": \"et lyst rum\". The opposite is \"mørk\" (dark). It also works for a thing: \"et lys\" is a candle or a light.",
+  "related": [
+   {
+    "da": "mørk",
+    "en": "dark"
+   },
+   {
+    "da": "et lys",
+    "en": "a light / candle"
+   },
+   {
+    "da": "lyseblå",
+    "en": "light blue"
+   },
+   {
+    "da": "lysere",
+    "en": "lighter"
+   }
+  ],
+  "sentence": {
+   "da": "Køkkenet er meget **lyst** om morgenen.",
+   "en": "The kitchen is very bright in the morning."
+  }
+ },
+ "lyseblå": {
+  "forms": [
+   {
+    "da": "en lyseblå bil",
+    "en": "a light blue car"
+   },
+   {
+    "da": "et lyseblåt hus",
+    "en": "a light blue house"
+   },
+   {
+    "da": "lyseblå biler",
+    "en": "light blue cars"
+   }
+  ],
+  "explanation": "\"Lyseblå\" means light blue. It is made from \"lys\" (light) and \"blå\" (blue) joined into one word. With et-words it gets a \"t\" (\"et lyseblåt hus\"), and with more than one it stays \"lyseblå\". The darker one is \"mørkeblå\".",
+  "related": [
+   {
+    "da": "mørkeblå",
+    "en": "dark blue"
+   },
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "lys",
+    "en": "light"
+   },
+   {
+    "da": "himmel",
+    "en": "sky"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **lyseblå** skjorte.",
+   "en": "She has a light blue shirt."
+  }
+ },
+ "lysegrøn": {
+  "forms": [
+   {
+    "da": "en lysegrøn bil",
+    "en": "a light green car"
+   },
+   {
+    "da": "et lysegrønt hus",
+    "en": "a light green house"
+   },
+   {
+    "da": "lysegrønne biler",
+    "en": "light green cars"
+   }
+  ],
+  "explanation": "\"Lysegrøn\" means light green. It is made of \"lys\" (light) and \"grøn\" (green) joined into one word. With et-words it gets a \"t\" (\"et lysegrønt hus\") and with more than one \"ne\" (\"lysegrønne biler\"). The darker one is \"mørkegrøn\".",
+  "related": [
+   {
+    "da": "mørkegrøn",
+    "en": "dark green"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
+   },
+   {
+    "da": "lys",
+    "en": "light"
+   },
+   {
+    "da": "et blad",
+    "en": "a leaf"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **lysegrøn** kjole.",
+   "en": "She has a light green dress."
+  }
+ },
+ "lyserød": {
+  "forms": [
+   {
+    "da": "en lyserød kjole",
+    "en": "a pink dress"
+   },
+   {
+    "da": "et lyserødt hus",
+    "en": "a pink house"
+   },
+   {
+    "da": "lyserøde kjoler",
+    "en": "pink dresses"
+   }
+  ],
+  "explanation": "\"Lyserød\" means pink. It is built from \"lys\" (light) and \"rød\" (red), so it is literally \"light red\". With et-words it gets a \"t\" (\"et lyserødt hus\") and with more than one an \"e\" (\"lyserøde kjoler\").",
+  "related": [
+   {
+    "da": "rød",
+    "en": "red"
+   },
+   {
+    "da": "lys",
+    "en": "light"
+   },
+   {
+    "da": "lilla",
+    "en": "purple"
+   },
+   {
+    "da": "hvid",
+    "en": "white"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet har en **lyserød** trøje.",
+   "en": "The child has a pink sweater."
+  }
+ },
+ "lækker": {
+  "forms": [
+   {
+    "da": "en lækker kage",
+    "en": "a delicious cake"
+   },
+   {
+    "da": "et lækkert æble",
+    "en": "a delicious apple"
+   },
+   {
+    "da": "lækre kager",
+    "en": "delicious cakes"
+   }
+  ],
+  "explanation": "\"Lækker\" means delicious or tasty, and it is the word Danes use most when they praise food. It can also mean attractive, as in \"en lækker bil\" (a nice car), so it is used for more than food. Look at the forms: an et-word adds \"t\" (\"lækkert\") and the plural drops the second \"k\" (\"lækre\").",
+  "related": [
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "dejlig",
+    "en": "lovely"
+   },
+   {
+    "da": "en ret",
+    "en": "a dish"
+   },
+   {
+    "da": "at smage",
+    "en": "to taste"
+   }
+  ],
+  "sentence": {
+   "da": "Suppen er virkelig **lækker**.",
+   "en": "The soup is really delicious."
+  }
+ },
+ "længe": {
+  "forms": [
+   {
+    "da": "længe",
+    "en": "for a long time"
+   },
+   {
+    "da": "i lang tid",
+    "en": "for a long time"
+   },
+   {
+    "da": "hvor længe?",
+    "en": "how long?"
+   }
+  ],
+  "explanation": "\"Længe\" means for a long time: \"Jeg har ventet længe\" (I have waited a long time). You often see it in questions: \"Hvor længe?\" is How long? It is also used in the phrase \"for længe siden\" (a long time ago). Do not mix it up with \"lang\", which describes length of things.",
+  "related": [
+   {
+    "da": "lang",
+    "en": "long"
+   },
+   {
+    "da": "kort",
+    "en": "short"
+   },
+   {
+    "da": "for længe siden",
+    "en": "long ago"
+   },
+   {
+    "da": "snart",
+    "en": "soon"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har boet her **længe**.",
+   "en": "I have lived here for a long time."
+  }
+ },
+ "lørdag": {
+  "forms": [
+   {
+    "da": "en lørdag",
+    "en": "a Saturday"
+   },
+   {
+    "da": "lørdagen",
+    "en": "the Saturday"
+   },
+   {
+    "da": "lørdage",
+    "en": "Saturdays"
+   },
+   {
+    "da": "lørdagene",
+    "en": "the Saturdays"
+   }
+  ],
+  "explanation": "\"Lørdag\" is Saturday. The word \"lørdag\" is also used in \"lørdagsgodt\", the sweets that Danish children traditionally get on Saturday. Say \"på lørdag\" for the coming Saturday and \"om lørdagen\" for every Saturday. Remember the letter ø, and write day names with a small letter.",
+  "related": [
+   {
+    "da": "en fredag",
+    "en": "Friday"
+   },
+   {
+    "da": "en søndag",
+    "en": "Sunday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Vi handler ind om **lørdagen**.",
+   "en": "We do the shopping on Saturdays."
   }
  }
 }

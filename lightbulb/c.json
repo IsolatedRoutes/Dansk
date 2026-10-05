@@ -1,0 +1,623 @@
+{
+ "at cykle": {
+  "forms": [
+   {
+    "da": "at cykle",
+    "en": "to cycle"
+   },
+   {
+    "da": "jeg cykler",
+    "en": "I cycle"
+   },
+   {
+    "da": "jeg cyklede",
+    "en": "I cycled"
+   },
+   {
+    "da": "jeg har cyklet",
+    "en": "I have cycled"
+   }
+  ],
+  "explanation": "\"At cykle\" means to ride a bicycle. Denmark has many cyclists, so you will hear it a lot, for example \"Jeg cykler på arbejde\" (I cycle to work). It follows the regular pattern: add -r for now, -de for the past form.",
+  "related": [
+   {
+    "da": "en cykel",
+    "en": "a bicycle"
+   },
+   {
+    "da": "cykling",
+    "en": "cycling"
+   },
+   {
+    "da": "en cykeltur",
+    "en": "a bike ride"
+   },
+   {
+    "da": "at gå",
+    "en": "to walk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **cykler** på arbejde hver dag.",
+   "en": "I cycle to work every day."
+  }
+ },
+ "chips": {
+  "forms": [
+   {
+    "da": "chips",
+    "en": "chips / crisps"
+   },
+   {
+    "da": "en pose chips",
+    "en": "a bag of chips"
+   },
+   {
+    "da": "Jeg spiser chips.",
+    "en": "I eat chips."
+   }
+  ],
+  "explanation": "\"Chips\" means crisps (what Americans call chips): thin fried potato slices sold in bags. It is a plural word with no \"en\" or \"et\". You say \"en pose chips\" for a bag. French fries are a different thing, called \"pommes frites\".",
+  "related": [
+   {
+    "da": "pommes frites",
+    "en": "French fries"
+   },
+   {
+    "da": "en snack",
+    "en": "a snack"
+   },
+   {
+    "da": "kartofler",
+    "en": "potatoes"
+   },
+   {
+    "da": "popcorn",
+    "en": "popcorn"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **chips** og ser film.",
+   "en": "We eat chips and watch a film."
+  }
+ },
+ "chokolade": {
+  "forms": [
+   {
+    "da": "en chokolade",
+    "en": "a chocolate"
+   },
+   {
+    "da": "chokoladen",
+    "en": "the chocolate"
+   },
+   {
+    "da": "noget chokolade",
+    "en": "some chocolate"
+   }
+  ],
+  "explanation": "\"Chokolade\" is chocolate, an en-word, so \"the chocolate\" is \"chokoladen\". It is also used for the drink: \"en varm chokolade\" is a hot chocolate. The \"ch\" at the start sounds like \"sh\" in many Danish speakers' speech, so listen to how it is said.",
+  "related": [
+   {
+    "da": "slik",
+    "en": "candy"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "en is",
+    "en": "an ice cream"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker mørk **chokolade**.",
+   "en": "I love dark chocolate."
+  }
+ },
+ "cirka": {
+  "forms": [
+   {
+    "da": "cirka tre timer",
+    "en": "about three hours"
+   },
+   {
+    "da": "cirka tyve kroner",
+    "en": "about twenty kroner"
+   },
+   {
+    "da": "cirka klokken ti",
+    "en": "around ten o'clock"
+   }
+  ],
+  "explanation": "\"Cirka\" means approximately or about, and it is used with numbers, times and amounts. In writing it is often shortened to \"ca.\". It sounds a bit more careful than \"omkring\", but the meaning is much the same.",
+  "related": [
+   {
+    "da": "omkring",
+    "en": "around"
+   },
+   {
+    "da": "næsten",
+    "en": "almost"
+   },
+   {
+    "da": "præcis",
+    "en": "exactly"
+   },
+   {
+    "da": "ca.",
+    "en": "approx."
+   }
+  ],
+  "sentence": {
+   "da": "Turen tager **cirka** en time.",
+   "en": "The trip takes about an hour."
+  }
+ },
+ "cornflakes": {
+  "forms": [
+   {
+    "da": "cornflakes og mælk",
+    "en": "cornflakes and milk"
+   },
+   {
+    "da": "en skål cornflakes",
+    "en": "a bowl of cornflakes"
+   },
+   {
+    "da": "Jeg spiser cornflakes.",
+    "en": "I eat cornflakes."
+   }
+  ],
+  "explanation": "\"Cornflakes\" is the same breakfast cereal as in English, and it is used as a plural word with no \"en\" or \"et\" in front. You say \"nogle cornflakes\" for some, or \"en skål cornflakes\" for a bowl. A more general word for breakfast cereal is \"morgenmadsprodukter\", but most people just say what they eat.",
+  "related": [
+   {
+    "da": "havregryn",
+    "en": "oats"
+   },
+   {
+    "da": "müsli",
+    "en": "muesli"
+   },
+   {
+    "da": "en morgenmad",
+    "en": "a breakfast"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **cornflakes** til morgenmad.",
+   "en": "I eat cornflakes for breakfast."
+  }
+ },
+ "cykling": {
+  "forms": [
+   {
+    "da": "en cykling",
+    "en": "cycling"
+   },
+   {
+    "da": "cyklingen",
+    "en": "the cycling"
+   },
+   {
+    "da": "Jeg kan godt lide cykling.",
+    "en": "I like cycling."
+   }
+  ],
+  "explanation": "\"Cykling\" is cycling as an activity or sport. It is an en-word, but it is normally used without \"en\". It is not the same as the verb \"at cykle\", which describes what you do. Say \"Jeg elsker cykling\" for the activity and \"Jeg cykler\" for the action.",
+  "related": [
+   {
+    "da": "at cykle",
+    "en": "to cycle"
+   },
+   {
+    "da": "en cykel",
+    "en": "a bicycle"
+   },
+   {
+    "da": "sport",
+    "en": "sport"
+   },
+   {
+    "da": "en cykeltur",
+    "en": "a bike ride"
+   }
+  ],
+  "sentence": {
+   "da": "**Cykling** er sundt og godt for miljøet.",
+   "en": "Cycling is healthy and good for the environment."
+  }
+ },
+ "en café": {
+  "forms": [
+   {
+    "da": "en café",
+    "en": "a cafe"
+   },
+   {
+    "da": "caféen",
+    "en": "the cafe"
+   },
+   {
+    "da": "caféer",
+    "en": "cafes"
+   },
+   {
+    "da": "caféerne",
+    "en": "the cafes"
+   }
+  ],
+  "explanation": "En café is a cafe, a place for coffee, cake or a light meal. It is spelled with the accent on the e, just like in French, and it stays there in \"caféen\" (the cafe) and \"caféer\" (cafes). It is an en-word. Cafes are less formal and usually cheaper than \"en restaurant\", so it is a good place to meet people.",
+  "related": [
+   {
+    "da": "en kaffe",
+    "en": "a coffee"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes på **caféen**.",
+   "en": "We are meeting at the cafe."
+  }
+ },
+ "en centimeter": {
+  "forms": [
+   {
+    "da": "en centimeter",
+    "en": "a centimeter"
+   },
+   {
+    "da": "centimeteren",
+    "en": "the centimeter"
+   },
+   {
+    "da": "centimeter",
+    "en": "centimeters"
+   },
+   {
+    "da": "centimeterne",
+    "en": "the centimeters"
+   }
+  ],
+  "explanation": "\"En centimeter\" is a centimeter, a hundredth of a meter. It is an en-word, and after a number it normally stays the same: \"ti centimeter\" (ten centimeters). In writing it is shortened to \"cm\". Danes use the metric system for all lengths.",
+  "related": [
+   {
+    "da": "en meter",
+    "en": "a meter"
+   },
+   {
+    "da": "en kilometer",
+    "en": "a kilometer"
+   },
+   {
+    "da": "en millimeter",
+    "en": "a millimeter"
+   },
+   {
+    "da": "lang",
+    "en": "long"
+   }
+  ],
+  "sentence": {
+   "da": "Bordet er hundrede **centimeter** langt.",
+   "en": "The table is a hundred centimeters long."
+  }
+ },
+ "en chef": {
+  "forms": [
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "chefen",
+    "en": "the boss"
+   },
+   {
+    "da": "chefer",
+    "en": "bosses"
+   },
+   {
+    "da": "cheferne",
+    "en": "the bosses"
+   }
+  ],
+  "explanation": "\"En chef\" is a boss or manager, and it is an en-word. The \"ch\" sounds like English \"sh\". The plural is \"chefer\". You can say \"min chef\" for your boss, and \"en kollega\" for someone you work alongside. It is also used for a head cook, \"en kok\" in charge, as \"en køkkenchef\".",
+  "related": [
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "et job",
+    "en": "a job"
+   },
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   },
+   {
+    "da": "en leder",
+    "en": "a leader"
+   }
+  ],
+  "sentence": {
+   "da": "Min **chef** er meget venlig.",
+   "en": "My boss is very friendly."
+  }
+ },
+ "en citron": {
+  "forms": [
+   {
+    "da": "en citron",
+    "en": "a lemon"
+   },
+   {
+    "da": "citronen",
+    "en": "the lemon"
+   },
+   {
+    "da": "citroner",
+    "en": "lemons"
+   },
+   {
+    "da": "citronerne",
+    "en": "the lemons"
+   }
+  ],
+  "explanation": "\"En citron\" is a lemon. Danes often squeeze a bit of lemon over fish or into a glass of water or tea. Be careful: the Danish word does not look like \"lemon\" at all, and the stress is on the last part, \"ci-TRON\".",
+  "related": [
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "sur",
+    "en": "sour"
+   },
+   {
+    "da": "en te",
+    "en": "a tea"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg få en skive **citron** i teen?",
+   "en": "Can I have a slice of lemon in the tea?"
+  }
+ },
+ "en computer": {
+  "forms": [
+   {
+    "da": "en computer",
+    "en": "a computer"
+   },
+   {
+    "da": "computeren",
+    "en": "the computer"
+   },
+   {
+    "da": "computere",
+    "en": "computers"
+   },
+   {
+    "da": "computerne",
+    "en": "the computers"
+   }
+  ],
+  "explanation": "\"Computer\" is the everyday word for a computer, and it is an en-word. The plural is \"computere\", not \"computers\". Danes say it with the English-looking spelling but a Danish sound. A laptop is usually \"en bærbar\" (a portable one) or just \"en computer\".",
+  "related": [
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "internet",
+    "en": "internet"
+   },
+   {
+    "da": "en skærm",
+    "en": "a screen"
+   },
+   {
+    "da": "et tastatur",
+    "en": "a keyboard"
+   }
+  ],
+  "sentence": {
+   "da": "Min **computer** er ny.",
+   "en": "My computer is new."
+  }
+ },
+ "en cykel": {
+  "forms": [
+   {
+    "da": "en cykel",
+    "en": "a bicycle"
+   },
+   {
+    "da": "cyklen",
+    "en": "the bicycle"
+   },
+   {
+    "da": "cykler",
+    "en": "bicycles"
+   },
+   {
+    "da": "cyklerne",
+    "en": "the bicycles"
+   }
+  ],
+  "explanation": "En cykel is a bicycle, and cycling is a big part of daily life in Denmark. Notice the spelling with y, and that the e drops out when you add \"the\": \"cyklen\", not \"cykelen\". To go by bike you say \"på cykel\" or \"at tage cyklen\". The verb is \"at cykle\" (to cycle).",
+  "related": [
+   {
+    "da": "at cykle",
+    "en": "to cycle"
+   },
+   {
+    "da": "en cykelsti",
+    "en": "a bike path"
+   },
+   {
+    "da": "en hjelm",
+    "en": "a helmet"
+   },
+   {
+    "da": "en bil",
+    "en": "a car"
+   }
+  ],
+  "sentence": {
+   "da": "Min **cykel** er ny.",
+   "en": "My bike is new."
+  }
+ },
+ "en cykeltur": {
+  "forms": [
+   {
+    "da": "en cykeltur",
+    "en": "a bike ride"
+   },
+   {
+    "da": "cykelturen",
+    "en": "the bike ride"
+   },
+   {
+    "da": "cykelture",
+    "en": "bike rides"
+   },
+   {
+    "da": "cykelturene",
+    "en": "the bike rides"
+   }
+  ],
+  "explanation": "\"En cykeltur\" is a bike ride or a trip on a bicycle. It is made from \"cykel\" (bicycle) and \"tur\" (trip). You often say \"tage på cykeltur\" or \"cykle en tur\" for going out for a ride.",
+  "related": [
+   {
+    "da": "en cykel",
+    "en": "a bicycle"
+   },
+   {
+    "da": "at cykle",
+    "en": "to cycle"
+   },
+   {
+    "da": "en gåtur",
+    "en": "a walk"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på **cykeltur** i weekenden.",
+   "en": "We are going on a bike ride at the weekend."
+  }
+ },
+ "et check-in": {
+  "forms": [
+   {
+    "da": "et check-in",
+    "en": "a check-in"
+   },
+   {
+    "da": "check-in'et",
+    "en": "the check-in"
+   },
+   {
+    "da": "online check-in",
+    "en": "online check-in"
+   }
+  ],
+  "explanation": "\"Check-in\" is the place or process where you register for a flight or a hotel, and it is an et-word. When \"the\" is added, you use an apostrophe: \"check-in'et\". The word is borrowed straight from English. Airports have \"check-in\" desks, and many Danes do it online beforehand.",
+  "related": [
+   {
+    "da": "et boardingpas",
+    "en": "a boarding pass"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en reservation",
+    "en": "a reservation"
+   },
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   }
+  ],
+  "sentence": {
+   "da": "**Check-in** åbner klokken seks.",
+   "en": "Check-in opens at six o'clock."
+  }
+ },
+ "et cpr-nummer": {
+  "forms": [
+   {
+    "da": "et CPR-nummer",
+    "en": "a CPR number"
+   },
+   {
+    "da": "CPR-nummeret",
+    "en": "the CPR number"
+   },
+   {
+    "da": "CPR-numre",
+    "en": "CPR numbers"
+   },
+   {
+    "da": "CPR-numrene",
+    "en": "the CPR numbers"
+   }
+  ],
+  "explanation": "Your CPR number is the personal ID number every person living in Denmark gets. It has ten digits: your birth date (six digits), then four more. You need it at the doctor, the bank, the library and for many forms. People often just say \"CPR-nummer\" or \"CPR\".",
+  "related": [
+   {
+    "da": "et sygesikringskort",
+    "en": "a health insurance card"
+   },
+   {
+    "da": "et navn",
+    "en": "a name"
+   },
+   {
+    "da": "en fødselsdato",
+    "en": "a birth date"
+   },
+   {
+    "da": "et nummer",
+    "en": "a number"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er dit **CPR-nummer**?",
+   "en": "What is your CPR number?"
+  }
+ }
+}

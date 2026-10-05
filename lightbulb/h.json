@@ -1,4 +1,664 @@
 {
+ "at hade": {
+  "forms": [
+   {
+    "da": "at hade",
+    "en": "to hate"
+   },
+   {
+    "da": "jeg hader",
+    "en": "I hate"
+   },
+   {
+    "da": "jeg hadede",
+    "en": "I hated"
+   },
+   {
+    "da": "jeg har hadet",
+    "en": "I have hated"
+   }
+  ],
+  "explanation": "\"At hade\" means to hate, and it is a strong word. Danes often use something milder like \"Jeg kan ikke lide\" (I don't like) for everyday things. You can still say \"Jeg hader at vente\" (I hate waiting) when you really mean it. The opposite is \"at elske\". The word for hate is \"et had\".",
+  "related": [
+   {
+    "da": "at elske",
+    "en": "to love"
+   },
+   {
+    "da": "at kunne lide",
+    "en": "to like"
+   },
+   {
+    "da": "et had",
+    "en": "hatred"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **hader** at stå tidligt op.",
+   "en": "I hate getting up early."
+  }
+ },
+ "at handle": {
+  "forms": [
+   {
+    "da": "at handle",
+    "en": "to shop / to act"
+   },
+   {
+    "da": "jeg handler",
+    "en": "I shop / act"
+   },
+   {
+    "da": "jeg handlede",
+    "en": "I shopped / acted"
+   },
+   {
+    "da": "jeg har handlet",
+    "en": "I have shopped / acted"
+   }
+  ],
+  "explanation": "\"At handle\" means to shop, and also to act. \"Jeg handler i supermarkedet\" means \"I shop at the supermarket\". You can say \"at handle ind\" for doing the grocery shopping. A shopping trip is \"en indkøbstur\". With a different meaning, \"handle om\" means to be about: \"Filmen handler om kærlighed\".",
+  "related": [
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "at handle ind",
+    "en": "to do the shopping"
+   },
+   {
+    "da": "en handel",
+    "en": "a trade / a shop deal"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **handler** ind i supermarkedet.",
+   "en": "I do my shopping at the supermarket."
+  }
+ },
+ "at have": {
+  "forms": [
+   {
+    "da": "at have",
+    "en": "to have"
+   },
+   {
+    "da": "jeg har",
+    "en": "I have"
+   },
+   {
+    "da": "jeg havde",
+    "en": "I had"
+   },
+   {
+    "da": "jeg har haft",
+    "en": "I have had"
+   }
+  ],
+  "explanation": "\"At have\" means to have or to own, and Danes also use it to build the \"have done\" form of most other words: \"Jeg har spist\" (I have eaten). The form \"har\" is the same for every person. A tip: Danish says \"Jeg har fødselsdag\" (I have birthday) where English says \"It's my birthday\".",
+  "related": [
+   {
+    "da": "at eje",
+    "en": "to own"
+   },
+   {
+    "da": "at få",
+    "en": "to get"
+   },
+   {
+    "da": "at mangle",
+    "en": "to lack"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **har** en bror og to søstre.",
+   "en": "I have a brother and two sisters."
+  }
+ },
+ "at have brug for": {
+  "forms": [
+   {
+    "da": "at have brug for",
+    "en": "to need"
+   },
+   {
+    "da": "jeg har brug for",
+    "en": "I need"
+   },
+   {
+    "da": "jeg havde brug for",
+    "en": "I needed"
+   },
+   {
+    "da": "jeg har haft brug for",
+    "en": "I have needed"
+   }
+  ],
+  "explanation": "Means \"to need\" and is followed by whatever you need: \"jeg har brug for hjælp\" (I need help). Literally it is \"have use for\". Another way to say need is \"at behøve\", but \"have brug for\" is the everyday choice for needing things.",
+  "related": [
+   {
+    "da": "en hjælp",
+    "en": "a help"
+   },
+   {
+    "da": "at behøve",
+    "en": "to need / have to"
+   },
+   {
+    "da": "at ville have",
+    "en": "to want"
+   },
+   {
+    "da": "nødvendig",
+    "en": "necessary"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **har brug for** hjælp.",
+   "en": "I need help."
+  }
+ },
+ "at have fødselsdag": {
+  "forms": [
+   {
+    "da": "at have fødselsdag",
+    "en": "to have a birthday"
+   },
+   {
+    "da": "jeg har fødselsdag",
+    "en": "I have a birthday"
+   },
+   {
+    "da": "jeg havde fødselsdag",
+    "en": "I had a birthday"
+   },
+   {
+    "da": "jeg har haft fødselsdag",
+    "en": "I have had a birthday"
+   }
+  ],
+  "explanation": "\"At have fødselsdag\" means to have a birthday, as in the day is your birthday. Danes say \"Jeg har fødselsdag i dag\" (It's my birthday today). To congratulate someone, you say \"Tillykke med fødselsdagen!\". Danes also often put out flags on birthdays.",
+  "related": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror **har fødselsdag** i morgen.",
+   "en": "My brother has a birthday tomorrow."
+  }
+ },
+ "at have ondt i": {
+  "forms": [
+   {
+    "da": "at have ondt i",
+    "en": "to have a pain in"
+   },
+   {
+    "da": "jeg har ondt i",
+    "en": "I have a pain in"
+   },
+   {
+    "da": "jeg havde ondt i",
+    "en": "I had a pain in"
+   },
+   {
+    "da": "jeg har haft ondt i",
+    "en": "I have had a pain in"
+   }
+  ],
+  "explanation": "Use this to say that a body part hurts. Put the body part after it: \"jeg har ondt i hovedet\" (I have a headache) or \"ondt i maven\" (a stomach ache). The body part has \"the\" on the end, like \"hovedet\" or \"maven\". Literally it means \"have pain in\".",
+  "related": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en hals",
+    "en": "a throat / neck"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **har ondt i** hovedet.",
+   "en": "I have a headache."
+  }
+ },
+ "at have på": {
+  "forms": [
+   {
+    "da": "at have på",
+    "en": "to wear"
+   },
+   {
+    "da": "jeg har på",
+    "en": "I wear"
+   },
+   {
+    "da": "jeg havde på",
+    "en": "I wore"
+   },
+   {
+    "da": "jeg har haft på",
+    "en": "I have worn"
+   }
+  ],
+  "explanation": "\"At have på\" means to wear, or to have something on. Literally it is \"to have on\". You say \"Hvad har du på?\" (What are you wearing?). To put something on is \"at tage på\", and to take it off is \"at tage af\". Do not use \"at bære\" for clothes in everyday talk, since it mostly means to carry.",
+  "related": [
+   {
+    "da": "at tage på",
+    "en": "to put on"
+   },
+   {
+    "da": "at tage af",
+    "en": "to take off"
+   },
+   {
+    "da": "at skifte tøj",
+    "en": "to change clothes"
+   },
+   {
+    "da": "tøj",
+    "en": "clothes"
+   }
+  ],
+  "sentence": {
+   "da": "Hun **har** en rød jakke **på**.",
+   "en": "She is wearing a red jacket."
+  }
+ },
+ "at have ret": {
+  "forms": [
+   {
+    "da": "at have ret",
+    "en": "to be right"
+   },
+   {
+    "da": "jeg har ret",
+    "en": "I am right"
+   },
+   {
+    "da": "jeg havde ret",
+    "en": "I was right"
+   },
+   {
+    "da": "jeg har haft ret",
+    "en": "I have been right"
+   }
+  ],
+  "explanation": "Danish says \"have right\" where English says \"be right\", so use \"have\", not \"er\". \"Du har ret\" means \"you are right\". The opposite is \"at have uret\" (to be wrong). Do not say \"jeg er rigtig\" for this, which sounds odd.",
+  "related": [
+   {
+    "da": "at have uret",
+    "en": "to be wrong"
+   },
+   {
+    "da": "rigtig",
+    "en": "right / correct"
+   },
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "enig",
+    "en": "in agreement"
+   }
+  ],
+  "sentence": {
+   "da": "Du **har ret**, det er for dyrt.",
+   "en": "You are right, it's too expensive."
+  }
+ },
+ "at have travlt": {
+  "forms": [
+   {
+    "da": "at have travlt",
+    "en": "to be busy"
+   },
+   {
+    "da": "jeg har travlt",
+    "en": "I am busy"
+   },
+   {
+    "da": "jeg havde travlt",
+    "en": "I was busy"
+   },
+   {
+    "da": "jeg har haft travlt",
+    "en": "I have been busy"
+   }
+  ],
+  "explanation": "\"At have travlt\" means to be busy or in a hurry. Danish says \"have\" (to have) where English says \"be\": \"Jeg har travlt\" is literally \"I have busy\". It covers both being busy with work and being in a rush. The opposite is \"at have tid\" (to have time).",
+  "related": [
+   {
+    "da": "at have tid",
+    "en": "to have time"
+   },
+   {
+    "da": "travl",
+    "en": "busy"
+   },
+   {
+    "da": "at skynde sig",
+    "en": "to hurry"
+   },
+   {
+    "da": "at have fri",
+    "en": "to be off work"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **har travlt** i dag.",
+   "en": "I am busy today."
+  }
+ },
+ "at hedde": {
+  "forms": [
+   {
+    "da": "at hedde",
+    "en": "to be called"
+   },
+   {
+    "da": "jeg hedder",
+    "en": "I am called"
+   },
+   {
+    "da": "jeg hed",
+    "en": "I was called"
+   },
+   {
+    "da": "jeg har heddet",
+    "en": "I have been called"
+   }
+  ],
+  "explanation": "\"At hedde\" means to be called, and it is how you give your name: \"Jeg hedder Anna\" means 'My name is Anna'. It is also used for things, for example \"Hvad hedder det på dansk?\" (What is that called in Danish?). The past form is \"hed\", which is short and easy to overlook.",
+  "related": [
+   {
+    "da": "et navn",
+    "en": "a name"
+   },
+   {
+    "da": "at kalde",
+    "en": "to call (name)"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a surname"
+   },
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **hedder** Peter.",
+   "en": "My name is Peter."
+  }
+ },
+ "at hente": {
+  "forms": [
+   {
+    "da": "at hente",
+    "en": "to fetch / pick up"
+   },
+   {
+    "da": "jeg henter",
+    "en": "I fetch / pick up"
+   },
+   {
+    "da": "jeg hentede",
+    "en": "I fetched / picked up"
+   },
+   {
+    "da": "jeg har hentet",
+    "en": "I have fetched / picked up"
+   }
+  ],
+  "explanation": "\"At hente\" means to fetch or to pick up, like collecting a person or a thing. \"Jeg henter børnene i skole\" means \"I pick the children up from school\". \"Kan du hente en kop kaffe?\" means \"Can you get a cup of coffee?\". It is a regular word with simple endings.",
+  "related": [
+   {
+    "da": "at aflevere",
+    "en": "to drop off"
+   },
+   {
+    "da": "at tage med",
+    "en": "to bring along"
+   },
+   {
+    "da": "at samle op",
+    "en": "to pick up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **henter** børnene klokken tre.",
+   "en": "I pick up the children at three o'clock."
+  }
+ },
+ "at hjælpe": {
+  "forms": [
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "jeg hjælper",
+    "en": "I help"
+   },
+   {
+    "da": "jeg hjalp",
+    "en": "I helped"
+   },
+   {
+    "da": "jeg har hjulpet",
+    "en": "I have helped"
+   }
+  ],
+  "explanation": "\"At hjælpe\" means to help. You help someone with \"hjælpe nogen\": \"Kan jeg hjælpe dig?\" (Can I help you?). The past form \"hjalp\" and the \"have\" form \"hjulpet\" are irregular, so they are worth learning by heart. \"Hjælp!\" is also what you shout in an emergency.",
+  "related": [
+   {
+    "da": "en hjælp",
+    "en": "a help"
+   },
+   {
+    "da": "hjælpsom",
+    "en": "helpful"
+   },
+   {
+    "da": "at støtte",
+    "en": "to support"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg **hjælpe** dig med noget?",
+   "en": "Can I help you with something?"
+  }
+ },
+ "at hjælpe med": {
+  "forms": [
+   {
+    "da": "at hjælpe med",
+    "en": "to help with"
+   },
+   {
+    "da": "jeg hjælper med",
+    "en": "I help with"
+   },
+   {
+    "da": "jeg hjalp med",
+    "en": "I helped with"
+   },
+   {
+    "da": "jeg har hjulpet med",
+    "en": "I have helped with"
+   }
+  ],
+  "explanation": "\"At hjælpe med\" means to help with something. After \"med\" comes the task: \"hjælpe med lektierne\" (help with the homework). To say who you help, put the person first: \"Jeg hjælper dig med maden\". The past form \"hjalp\" and the 'have helped' form \"hjulpet\" are irregular.",
+  "related": [
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "hjælp",
+    "en": "help"
+   },
+   {
+    "da": "at få hjælp",
+    "en": "to get help"
+   },
+   {
+    "da": "en hjælper",
+    "en": "a helper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **hjælper** dig **med** maden.",
+   "en": "I help you with the food."
+  }
+ },
+ "at holde": {
+  "forms": [
+   {
+    "da": "at holde",
+    "en": "to hold / keep"
+   },
+   {
+    "da": "jeg holder",
+    "en": "I hold / keep"
+   },
+   {
+    "da": "jeg holdt",
+    "en": "I held / kept"
+   },
+   {
+    "da": "jeg har holdt",
+    "en": "I have held / kept"
+   }
+  ],
+  "explanation": "\"At holde\" means to hold or to keep. \"Hold min taske\" means \"Hold my bag\". It is also used in many fixed phrases: \"holde en fest\" (to throw a party), \"holde af\" (to be fond of) and \"holde pause\" (to take a break). The past form \"holdt\" and the \"have\" form \"holdt\" look the same.",
+  "related": [
+   {
+    "da": "at holde af",
+    "en": "to be fond of"
+   },
+   {
+    "da": "at holde pause",
+    "en": "to take a break"
+   },
+   {
+    "da": "at tage fat i",
+    "en": "to grab"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **holde** min taske et øjeblik?",
+   "en": "Can you hold my bag for a moment?"
+  }
+ },
+ "at hoppe": {
+  "forms": [
+   {
+    "da": "at hoppe",
+    "en": "to jump"
+   },
+   {
+    "da": "jeg hopper",
+    "en": "I jump"
+   },
+   {
+    "da": "jeg hoppede",
+    "en": "I jumped"
+   },
+   {
+    "da": "jeg har hoppet",
+    "en": "I have jumped"
+   }
+  ],
+  "explanation": "\"At hoppe\" means to jump, for example into water, over a puddle or on a trampoline. It is a lively everyday word. You can add small words to show the direction: \"hoppe op\" (jump up), \"hoppe ned\" (jump down) and \"hoppe i\" (jump in). It is a regular word with simple endings.",
+  "related": [
+   {
+    "da": "at løbe",
+    "en": "to run"
+   },
+   {
+    "da": "at springe",
+    "en": "to leap"
+   },
+   {
+    "da": "en trampolin",
+    "en": "a trampoline"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene **hopper** i vandet.",
+   "en": "The children jump into the water."
+  }
+ },
+ "at hoste": {
+  "forms": [
+   {
+    "da": "at hoste",
+    "en": "to cough"
+   },
+   {
+    "da": "jeg hoster",
+    "en": "I cough"
+   },
+   {
+    "da": "jeg hostede",
+    "en": "I coughed"
+   },
+   {
+    "da": "jeg har hostet",
+    "en": "I have coughed"
+   }
+  ],
+  "explanation": "\"At hoste\" means to cough. The cough itself is \"en hoste\". You will hear it when someone has a cold: \"Jeg hoster meget\" means \"I cough a lot\". It follows the regular pattern, so the past form ends in \"-ede\" and the \"have\" form ends in \"-et\".",
+  "related": [
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "at nyse",
+    "en": "to sneeze"
+   },
+   {
+    "da": "forkølet",
+    "en": "having a cold"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **hoster** hele natten.",
+   "en": "I cough all night."
+  }
+ },
  "at huske": {
   "forms": [
    {
@@ -40,6 +700,4130 @@
   "sentence": {
    "da": "Jeg kan ikke **huske** hans navn.",
    "en": "I can't remember his name."
+  }
+ },
+ "at håbe": {
+  "forms": [
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "jeg håber",
+    "en": "I hope"
+   },
+   {
+    "da": "jeg håbede",
+    "en": "I hoped"
+   },
+   {
+    "da": "jeg har håbet",
+    "en": "I have hoped"
+   }
+  ],
+  "explanation": "\"At håbe\" means to hope: \"Jeg håber, det går godt\" (I hope it goes well). It is a very common way to be polite, as in \"Jeg håber, du har det godt\" (I hope you are well). The word for hope itself is \"et håb\". It is regular, so the past form is \"håbede\".",
+  "related": [
+   {
+    "da": "et håb",
+    "en": "a hope"
+   },
+   {
+    "da": "at ønske",
+    "en": "to wish"
+   },
+   {
+    "da": "at tro",
+    "en": "to believe"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **håber**, du har det godt.",
+   "en": "I hope you are well."
+  }
+ },
+ "at høre": {
+  "forms": [
+   {
+    "da": "at høre",
+    "en": "to hear"
+   },
+   {
+    "da": "jeg hører",
+    "en": "I hear"
+   },
+   {
+    "da": "jeg hørte",
+    "en": "I heard"
+   },
+   {
+    "da": "jeg har hørt",
+    "en": "I have heard"
+   }
+  ],
+  "explanation": "\"At høre\" means to hear: \"Jeg hører en lyd\" (I hear a sound). It is also used when you get news, as in \"Jeg har hørt, at han flytter\" (I have heard he is moving). On the phone, \"Vi hører fra dig\" is a way to say we will hear from you. For listening on purpose, use \"at lytte\".",
+  "related": [
+   {
+    "da": "at lytte",
+    "en": "to listen"
+   },
+   {
+    "da": "en lyd",
+    "en": "a sound"
+   },
+   {
+    "da": "at ringe",
+    "en": "to call"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke **høre** dig.",
+   "en": "I can't hear you."
+  }
+ },
+ "en hals": {
+  "forms": [
+   {
+    "da": "en hals",
+    "en": "a throat / neck"
+   },
+   {
+    "da": "halsen",
+    "en": "the throat / the neck"
+   },
+   {
+    "da": "halse",
+    "en": "throats / necks"
+   },
+   {
+    "da": "halsene",
+    "en": "the throats / the necks"
+   }
+  ],
+  "explanation": "\"En hals\" covers both the neck and the throat. Danish does not separate them, so the meaning comes from the situation. \"Jeg har ondt i halsen\" means \"I have a sore throat\", and a necklace is \"en halskæde\", which uses the same word.",
+  "related": [
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   },
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "et hoved",
+    "en": "a head"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i **halsen**.",
+   "en": "I have a sore throat."
+  }
+ },
+ "en halv time": {
+  "forms": [
+   {
+    "da": "en halv time",
+    "en": "half an hour"
+   },
+   {
+    "da": "om en halv time",
+    "en": "in half an hour"
+   },
+   {
+    "da": "for en halv time siden",
+    "en": "half an hour ago"
+   }
+  ],
+  "explanation": "\"En halv time\" means half an hour, 30 minutes. \"Halv\" means half, and \"time\" is hour. Careful with clock times: \"halv fem\" means half past four (half an hour toward five), not half past five. The set phrase \"en halv time\" is simple and safe.",
+  "related": [
+   {
+    "da": "en time",
+    "en": "an hour"
+   },
+   {
+    "da": "et minut",
+    "en": "a minute"
+   },
+   {
+    "da": "et kvarter",
+    "en": "a quarter of an hour"
+   },
+   {
+    "da": "halv",
+    "en": "half"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen kommer om **en halv time**.",
+   "en": "The bus comes in half an hour."
+  }
+ },
+ "en handske": {
+  "forms": [
+   {
+    "da": "en handske",
+    "en": "a glove"
+   },
+   {
+    "da": "handsken",
+    "en": "the glove"
+   },
+   {
+    "da": "handsker",
+    "en": "gloves"
+   },
+   {
+    "da": "handskerne",
+    "en": "the gloves"
+   }
+  ],
+  "explanation": "\"En handske\" is one glove. Since gloves come in pairs, you mostly hear the plural \"handsker\". The word starts with \"hånd\" (hand), so it is the thing you put on your hand. If you lose one, say \"Jeg har mistet en handske\" (I have lost a glove).",
+  "related": [
+   {
+    "da": "handsker",
+    "en": "gloves"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "et tørklæde",
+    "en": "a scarf"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har mistet en **handske**.",
+   "en": "I have lost a glove."
+  }
+ },
+ "en hat": {
+  "forms": [
+   {
+    "da": "en hat",
+    "en": "a hat"
+   },
+   {
+    "da": "hatten",
+    "en": "the hat"
+   },
+   {
+    "da": "hatte",
+    "en": "hats"
+   },
+   {
+    "da": "hattene",
+    "en": "the hats"
+   }
+  ],
+  "explanation": "\"En hat\" is a hat, usually one with a brim, like a sun hat or a fine hat for a party. It is not the same as \"en hue\" (a warm knitted cap) or \"en kasket\" (a cap with a peak). The plural just adds an \"e\", and you can say \"hatten\" for the hat. Note the double t: \"hatten\" and \"hatte\".",
+  "related": [
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "en kasket",
+    "en": "a cap"
+   },
+   {
+    "da": "en solhat",
+    "en": "a sun hat"
+   },
+   {
+    "da": "solbriller",
+    "en": "sunglasses"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en stor **hat** på.",
+   "en": "She is wearing a big hat."
+  }
+ },
+ "en have": {
+  "forms": [
+   {
+    "da": "en have",
+    "en": "a garden"
+   },
+   {
+    "da": "haven",
+    "en": "the garden"
+   },
+   {
+    "da": "haver",
+    "en": "gardens"
+   },
+   {
+    "da": "haverne",
+    "en": "the gardens"
+   }
+  ],
+  "explanation": "\"En have\" means a garden, the green area by a house. It is an en-word, so 'the garden' is \"haven\" and the plural is \"haver\". Be careful: \"at have\" is the verb 'to have', which looks the same. \"I haven\" means 'in the garden'.",
+  "related": [
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   },
+   {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
+    "da": "en plæne",
+    "en": "a lawn"
+   },
+   {
+    "da": "et drivhus",
+    "en": "a greenhouse"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sidder i **haven**.",
+   "en": "We are sitting in the garden."
+  }
+ },
+ "en hest": {
+  "forms": [
+   {
+    "da": "en hest",
+    "en": "a horse"
+   },
+   {
+    "da": "hesten",
+    "en": "the horse"
+   },
+   {
+    "da": "heste",
+    "en": "horses"
+   },
+   {
+    "da": "hestene",
+    "en": "the horses"
+   }
+  ],
+  "explanation": "\"En hest\" is a horse, and it is an en-word. The plural \"heste\" adds -e. To ride is \"at ride\", so \"at ride på hest\" is horseback riding. A small horse or pony is \"en pony\", and a farm with horses is a common sight in the Danish countryside.",
+  "related": [
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en gris",
+    "en": "a pig"
+   },
+   {
+    "da": "at ride",
+    "en": "to ride"
+   }
+  ],
+  "sentence": {
+   "da": "**Hesten** løber hurtigt.",
+   "en": "The horse runs fast."
+  }
+ },
+ "en himmel": {
+  "forms": [
+   {
+    "da": "en himmel",
+    "en": "a sky"
+   },
+   {
+    "da": "himlen",
+    "en": "the sky"
+   },
+   {
+    "da": "himlen er blå",
+    "en": "the sky is blue"
+   }
+  ],
+  "explanation": "En himmel is a sky, and it can also mean heaven. In daily talk you nearly always use \"himlen\" (the sky), which loses the \"me\" in the middle, so it is not \"himmelen\". You say \"på himlen\" for \"in the sky\". It is an en-word. If you want to say it is cloudy, say \"Himlen er grå\" or \"Det er skyet\".",
+  "related": [
+   {
+    "da": "en sky",
+    "en": "a cloud"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en stjerne",
+    "en": "a star"
+   },
+   {
+    "da": "blå",
+    "en": "blue"
+   }
+  ],
+  "sentence": {
+   "da": "**Himlen** er blå i dag.",
+   "en": "The sky is blue today."
+  }
+ },
+ "en historie": {
+  "forms": [
+   {
+    "da": "en historie",
+    "en": "a story / history"
+   },
+   {
+    "da": "historien",
+    "en": "the story / the history"
+   },
+   {
+    "da": "historier",
+    "en": "stories"
+   },
+   {
+    "da": "historierne",
+    "en": "the stories"
+   }
+  ],
+  "explanation": "\"En historie\" has two meanings: a story that someone tells, and history, the past (also the school lesson). Context makes it clear which one is meant. \"Fortæl en historie\" is \"tell a story\", while \"Danmarks historie\" is the history of Denmark. The plural is \"historier\".",
+  "related": [
+   {
+    "da": "at fortælle",
+    "en": "to tell"
+   },
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale"
+   },
+   {
+    "da": "en bog",
+    "en": "a book"
+   },
+   {
+    "da": "fortiden",
+    "en": "the past"
+   }
+  ],
+  "sentence": {
+   "da": "Han fortæller en sjov **historie**.",
+   "en": "He tells a funny story."
+  }
+ },
+ "en hjemmesko": {
+  "forms": [
+   {
+    "da": "en hjemmesko",
+    "en": "a slipper"
+   },
+   {
+    "da": "hjemmeskoen",
+    "en": "the slipper"
+   },
+   {
+    "da": "hjemmesko",
+    "en": "slippers"
+   },
+   {
+    "da": "hjemmeskoene",
+    "en": "the slippers"
+   }
+  ],
+  "explanation": "\"En hjemmesko\" is a slipper, a soft shoe you wear at home. It is built from \"hjemme\" (at home) and \"sko\" (shoe), so it means a shoe for home. Since many Danes take off their outdoor shoes in the hall, you will often see \"hjemmesko\" by the door. The plural is the same as the single word.",
+  "related": [
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en støvle",
+    "en": "a boot"
+   }
+  ],
+  "sentence": {
+   "da": "Tag dine **hjemmesko** på.",
+   "en": "Put your slippers on."
+  }
+ },
+ "en hobby": {
+  "forms": [
+   {
+    "da": "en hobby",
+    "en": "a hobby"
+   },
+   {
+    "da": "hobbyen",
+    "en": "the hobby"
+   },
+   {
+    "da": "hobbyer",
+    "en": "hobbies"
+   },
+   {
+    "da": "hobbyerne",
+    "en": "the hobbies"
+   }
+  ],
+  "explanation": "\"En hobby\" is something you like to do in your free time, just as in English. A common question is \"Hvad er din hobby?\" (What is your hobby?). Danes often say \"Jeg har mange hobbyer\" when they have several interests.",
+  "related": [
+   {
+    "da": "fritid",
+    "en": "free time"
+   },
+   {
+    "da": "at samle",
+    "en": "to collect"
+   },
+   {
+    "da": "en interesse",
+    "en": "an interest"
+   },
+   {
+    "da": "sport",
+    "en": "sport"
+   }
+  ],
+  "sentence": {
+   "da": "Min **hobby** er at male.",
+   "en": "My hobby is painting."
+  }
+ },
+ "en hoste": {
+  "forms": [
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "hosten",
+    "en": "the cough"
+   },
+   {
+    "da": "at hoste",
+    "en": "to cough"
+   },
+   {
+    "da": "jeg hoster",
+    "en": "I cough"
+   }
+  ],
+  "explanation": "\"En hoste\" is a cough. It is an en-word. The same word is also the action: \"at hoste\" means to cough. People say \"Jeg har en hoste\" or \"Jeg har hoste\". It is often paired with \"forkølelse\" (a cold).",
+  "related": [
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "en hals",
+    "en": "a throat"
+   },
+   {
+    "da": "en feber",
+    "en": "a fever"
+   },
+   {
+    "da": "medicin",
+    "en": "medicine"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en slem **hoste**.",
+   "en": "I have a bad cough."
+  }
+ },
+ "en hovedbanegård": {
+  "forms": [
+   {
+    "da": "en hovedbanegård",
+    "en": "a central station"
+   },
+   {
+    "da": "hovedbanegården",
+    "en": "the central station"
+   },
+   {
+    "da": "hovedbanegårde",
+    "en": "central stations"
+   },
+   {
+    "da": "hovedbanegårdene",
+    "en": "the central stations"
+   }
+  ],
+  "explanation": "\"Hovedbanegård\" is the main train station of a city, and in Copenhagen it is simply \"Hovedbanegården\". It is built from \"hoved\" (main), \"bane\" (railway) and \"gård\" (yard). The word is long, so say it in parts: HO-ved-ba-ne-gård. Note that \"gård\" becomes \"gården\" when you add \"the\".",
+  "related": [
+   {
+    "da": "en togstation",
+    "en": "a train station"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes på **hovedbanegården**.",
+   "en": "We meet at the central station."
+  }
+ },
+ "en hovedpine": {
+  "forms": [
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   },
+   {
+    "da": "hovedpinen",
+    "en": "the headache"
+   },
+   {
+    "da": "hovedpiner",
+    "en": "headaches"
+   },
+   {
+    "da": "hovedpinerne",
+    "en": "the headaches"
+   }
+  ],
+  "explanation": "\"En hovedpine\" is a headache, made from \"hoved\" (head) and \"pine\" (pain or torment). It is an en-word. You say \"Jeg har hovedpine\" without \"en\" when you mean you currently have one. You can use \"ondt i hovedet\" with the same meaning.",
+  "related": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "en mavepine",
+    "en": "a stomachache"
+   },
+   {
+    "da": "en pille",
+    "en": "a pill"
+   },
+   {
+    "da": "ondt",
+    "en": "pain / hurt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **hovedpine**, så jeg tager en pille.",
+   "en": "I have a headache, so I am taking a pill."
+  }
+ },
+ "en hovedret": {
+  "forms": [
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "hovedretten",
+    "en": "the main course"
+   },
+   {
+    "da": "hovedretter",
+    "en": "main courses"
+   },
+   {
+    "da": "hovedretterne",
+    "en": "the main courses"
+   }
+  ],
+  "explanation": "\"En hovedret\" is the main course of a meal. It is an en-word. It is built from \"hoved\" (head, main) and \"ret\" (dish), so it is the main dish. On menus the three parts are usually \"forret\", \"hovedret\" and \"dessert\".",
+  "related": [
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   },
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   },
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   }
+  ],
+  "sentence": {
+   "da": "Til **hovedret** tager jeg fisk.",
+   "en": "For the main course I will have fish."
+  }
+ },
+ "en hue": {
+  "forms": [
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "huen",
+    "en": "the beanie"
+   },
+   {
+    "da": "huer",
+    "en": "beanies"
+   },
+   {
+    "da": "huerne",
+    "en": "the beanies"
+   }
+  ],
+  "explanation": "\"En hue\" is a knitted or woollen cap that keeps your head warm, like a beanie. Danes wear it all through the cold, dark winter. It is different from \"en hat\", which has a brim, and \"en kasket\", which is a cap with a peak. A small tip: children's winter hats are always \"huer\".",
+  "related": [
+   {
+    "da": "en hat",
+    "en": "a hat"
+   },
+   {
+    "da": "en kasket",
+    "en": "a cap"
+   },
+   {
+    "da": "et tørklæde",
+    "en": "a scarf"
+   },
+   {
+    "da": "en handske",
+    "en": "a glove"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en varm **hue** på.",
+   "en": "I am wearing a warm beanie."
+  }
+ },
+ "en hund": {
+  "forms": [
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "hunden",
+    "en": "the dog"
+   },
+   {
+    "da": "hunde",
+    "en": "dogs"
+   },
+   {
+    "da": "hundene",
+    "en": "the dogs"
+   }
+  ],
+  "explanation": "\"En hund\" is a dog, and it is an en-word. Danes are very fond of dogs, and you will often hear \"Må jeg klappe din hund?\" (May I pet your dog?). A puppy is \"en hvalp\", and \"at gø\" is the verb for barking.",
+  "related": [
+   {
+    "da": "en hvalp",
+    "en": "a puppy"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "at gø",
+    "en": "to bark"
+   }
+  ],
+  "sentence": {
+   "da": "Min **hund** hedder Max.",
+   "en": "My dog is called Max."
+  }
+ },
+ "en hvidvin": {
+  "forms": [
+   {
+    "da": "en hvidvin",
+    "en": "a white wine"
+   },
+   {
+    "da": "hvidvinen",
+    "en": "the white wine"
+   },
+   {
+    "da": "hvidvine",
+    "en": "white wines"
+   },
+   {
+    "da": "hvidvinene",
+    "en": "the white wines"
+   }
+  ],
+  "explanation": "\"En hvidvin\" is a white wine, an en-word. It is made of \"hvid\" (white) and \"vin\" (wine) and written as one word. White wine is a common choice with fish, and you can order it by the glass: \"et glas hvidvin\".",
+  "related": [
+   {
+    "da": "en rødvin",
+    "en": "a red wine"
+   },
+   {
+    "da": "en vin",
+    "en": "a wine"
+   },
+   {
+    "da": "hvid",
+    "en": "white"
+   },
+   {
+    "da": "en fisk",
+    "en": "a fish"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bestiller en flaske **hvidvin** til fisken.",
+   "en": "We order a bottle of white wine for the fish."
+  }
+ },
+ "en hånd": {
+  "forms": [
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "hånden",
+    "en": "the hand"
+   },
+   {
+    "da": "hænder",
+    "en": "hands"
+   },
+   {
+    "da": "hænderne",
+    "en": "the hands"
+   }
+  ],
+  "explanation": "\"En hånd\" is a hand. It is an en-word and the word for more than one changes its vowel: \"hænder\". A very common phrase is \"Vask dine hænder\" (Wash your hands). Shaking hands is \"at give hånd\" or \"at give hinanden hånden\".",
+  "related": [
+   {
+    "da": "en finger",
+    "en": "a finger"
+   },
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   }
+  ],
+  "sentence": {
+   "da": "Vask dine **hænder**, før vi spiser.",
+   "en": "Wash your hands before we eat."
+  }
+ },
+ "en hæl": {
+  "forms": [
+   {
+    "da": "en hæl",
+    "en": "a heel"
+   },
+   {
+    "da": "hælen",
+    "en": "the heel"
+   },
+   {
+    "da": "hæle",
+    "en": "heels"
+   },
+   {
+    "da": "hælene",
+    "en": "the heels"
+   }
+  ],
+  "explanation": "\"En hæl\" is the back part of your foot, and also the raised back part of a shoe. It is an en-word, and the word for more than one is \"hæle\". If your heel hurts, say \"Min hæl gør ondt\". High-heeled shoes are called \"sko med høje hæle\".",
+  "related": [
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "et ben",
+    "en": "a leg"
+   }
+  ],
+  "sentence": {
+   "da": "Min **hæl** gør ondt.",
+   "en": "My heel hurts."
+  }
+ },
+ "en hæveautomat": {
+  "forms": [
+   {
+    "da": "en hæveautomat",
+    "en": "an ATM"
+   },
+   {
+    "da": "hæveautomaten",
+    "en": "the ATM"
+   },
+   {
+    "da": "hæveautomater",
+    "en": "ATMs"
+   },
+   {
+    "da": "hæveautomaterne",
+    "en": "the ATMs"
+   }
+  ],
+  "explanation": "\"En hæveautomat\" is an ATM, a machine where you take out cash. It comes from \"at hæve\" (to withdraw money) and \"automat\" (machine). You say \"at hæve penge\" for to withdraw money. Cash is less common in Denmark, and many shops prefer cards.",
+  "related": [
+   {
+    "da": "at hæve penge",
+    "en": "to withdraw money"
+   },
+   {
+    "da": "et dankort",
+    "en": "a Dankort"
+   },
+   {
+    "da": "en bankkonto",
+    "en": "a bank account"
+   },
+   {
+    "da": "kontanter",
+    "en": "cash"
+   }
+  ],
+  "sentence": {
+   "da": "Er der en **hæveautomat** i nærheden?",
+   "en": "Is there an ATM nearby?"
+  }
+ },
+ "et hav": {
+  "forms": [
+   {
+    "da": "et hav",
+    "en": "a sea"
+   },
+   {
+    "da": "havet",
+    "en": "the sea"
+   },
+   {
+    "da": "have",
+    "en": "seas"
+   },
+   {
+    "da": "havene",
+    "en": "the seas"
+   }
+  ],
+  "explanation": "Et hav is a sea or an ocean, a big body of salty water. It is an et-word, so \"the sea\" is \"havet\", and you say \"ved havet\" for \"by the sea\". For a lake with fresh water use \"en sø\" instead. Denmark is surrounded by sea, so this word comes up a lot in everyday talk about holidays and weather.",
+  "related": [
+   {
+    "da": "en sø",
+    "en": "a lake"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   },
+   {
+    "da": "en kyst",
+    "en": "a coast"
+   },
+   {
+    "da": "en bølge",
+    "en": "a wave"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene leger ved **havet**.",
+   "en": "The children are playing by the sea."
+  }
+ },
+ "et hjem": {
+  "forms": [
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "hjemmet",
+    "en": "the home"
+   },
+   {
+    "da": "hjem",
+    "en": "homes"
+   },
+   {
+    "da": "hjemmene",
+    "en": "the homes"
+   }
+  ],
+  "explanation": "\"Et hjem\" means a home, the place where you live and feel at home. It is not just the building (that is \"et hus\"). The word \"hjemme\" means 'at home' and \"hjem\" alone means 'toward home', as in \"jeg går hjem\". The plural is the same, \"hjem\".",
+  "related": [
+   {
+    "da": "et hus",
+    "en": "a house"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "hjem",
+    "en": "(toward) home"
+   },
+   {
+    "da": "en familie",
+    "en": "a family"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg savner mit **hjem**.",
+   "en": "I miss my home."
+  }
+ },
+ "et hjerte": {
+  "forms": [
+   {
+    "da": "et hjerte",
+    "en": "a heart"
+   },
+   {
+    "da": "hjertet",
+    "en": "the heart"
+   },
+   {
+    "da": "hjerter",
+    "en": "hearts"
+   },
+   {
+    "da": "hjerterne",
+    "en": "the hearts"
+   }
+  ],
+  "explanation": "\"Et hjerte\" is a heart. It is an et-word. The first letters \"hj\" sound like a simple \"y\". It is used both for the organ and for feelings, for example \"med hele mit hjerte\" (with all my heart). Hearts are also a card suit in card games.",
+  "related": [
+   {
+    "da": "et bryst",
+    "en": "a chest"
+   },
+   {
+    "da": "blod",
+    "en": "blood"
+   },
+   {
+    "da": "en kærlighed",
+    "en": "love"
+   },
+   {
+    "da": "en krop",
+    "en": "a body"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **hjerte** slår hurtigt.",
+   "en": "My heart is beating fast."
+  }
+ },
+ "et hospital": {
+  "forms": [
+   {
+    "da": "et hospital",
+    "en": "a hospital"
+   },
+   {
+    "da": "hospitalet",
+    "en": "the hospital"
+   },
+   {
+    "da": "hospitaler",
+    "en": "hospitals"
+   },
+   {
+    "da": "hospitalerne",
+    "en": "the hospitals"
+   }
+  ],
+  "explanation": "\"Et hospital\" is a hospital. It is an et-word. For an emergency you go to \"skadestuen\" (the emergency room), and the emergency number in Denmark is 112. Danes often say \"på hospitalet\" for being at the hospital.",
+  "related": [
+   {
+    "da": "en skadestue",
+    "en": "an emergency room"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   }
+  ],
+  "sentence": {
+   "da": "Min mor er på **hospitalet**.",
+   "en": "My mother is in the hospital."
+  }
+ },
+ "et hotel": {
+  "forms": [
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   },
+   {
+    "da": "hotellet",
+    "en": "the hotel"
+   },
+   {
+    "da": "hoteller",
+    "en": "hotels"
+   },
+   {
+    "da": "hotellerne",
+    "en": "the hotels"
+   }
+  ],
+  "explanation": "Et hotel is a hotel. It is an et-word, and the spelling changes a bit: \"the hotel\" is \"hotellet\" with a double l, and more than one is \"hoteller\". You say \"på hotellet\" for \"at the hotel\". For a cheaper place to sleep you can look for \"et vandrerhjem\" (a hostel).",
+  "related": [
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en reception",
+    "en": "a reception"
+   },
+   {
+    "da": "et vandrerhjem",
+    "en": "a hostel"
+   },
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor på **hotellet** i to nætter.",
+   "en": "We stay at the hotel for two nights."
+  }
+ },
+ "et hotelværelse": {
+  "forms": [
+   {
+    "da": "et hotelværelse",
+    "en": "a hotel room"
+   },
+   {
+    "da": "hotelværelset",
+    "en": "the hotel room"
+   },
+   {
+    "da": "hotelværelser",
+    "en": "hotel rooms"
+   },
+   {
+    "da": "hotelværelserne",
+    "en": "the hotel rooms"
+   }
+  ],
+  "explanation": "\"Et hotelværelse\" is a room in a hotel, built from \"hotel\" and \"værelse\" (room). It is an et-word. You can describe it with words such as \"enkeltværelse\" (single) or \"dobbeltværelse\" (double). The word \"værelse\" alone can also mean any room you rent or sleep in.",
+  "related": [
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "et enkeltværelse",
+    "en": "a single room"
+   },
+   {
+    "da": "et dobbeltværelse",
+    "en": "a double room"
+   },
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **hotelværelse** har udsigt til havnen.",
+   "en": "My hotel room has a view of the harbour."
+  }
+ },
+ "et hoved": {
+  "forms": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "hovedet",
+    "en": "the head"
+   },
+   {
+    "da": "hoveder",
+    "en": "heads"
+   },
+   {
+    "da": "hovederne",
+    "en": "the heads"
+   }
+  ],
+  "explanation": "\"Et hoved\" is the head. It is an et-word, and in Danish you use \"the\" form where English uses \"my\": \"Jeg har ondt i hovedet\" means \"My head hurts\". It also appears in compounds like \"hovedpine\" (headache) and \"hovedstad\" (capital city).",
+  "related": [
+   {
+    "da": "et ansigt",
+    "en": "a face"
+   },
+   {
+    "da": "hår",
+    "en": "hair"
+   },
+   {
+    "da": "en hals",
+    "en": "a neck"
+   },
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i **hovedet**.",
+   "en": "My head hurts."
+  }
+ },
+ "et hus": {
+  "forms": [
+   {
+    "da": "et hus",
+    "en": "a house"
+   },
+   {
+    "da": "huset",
+    "en": "the house"
+   },
+   {
+    "da": "huse",
+    "en": "houses"
+   },
+   {
+    "da": "husene",
+    "en": "the houses"
+   }
+  ],
+  "explanation": "\"Et hus\" means a house, a building where people live. It is an et-word, so it is \"huset\" for 'the house' and the plural is \"huse\". Don't mix it up with \"et hjem\" (a home), which is about the feeling of where you live rather than the building.",
+  "related": [
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   },
+   {
+    "da": "et tag",
+    "en": "a roof"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i et stort **hus**.",
+   "en": "We live in a big house."
+  }
+ },
+ "hallo": {
+  "forms": [
+   {
+    "da": "Hallo!",
+    "en": "Hello!"
+   },
+   {
+    "da": "Hallo, er du der?",
+    "en": "Hello, are you there?"
+   },
+   {
+    "da": "Hallo, kan du høre mig?",
+    "en": "Hello, can you hear me?"
+   }
+  ],
+  "explanation": "\"Hallo\" is used when you answer the phone and when you call out to get someone's attention. It is not the main word for a face-to-face greeting, where Danes prefer \"hej\". Said sharply, \"hallo!\" can also mean \"hey, listen!\".",
+  "related": [
+   {
+    "da": "hej",
+    "en": "hi"
+   },
+   {
+    "da": "goddag",
+    "en": "good day"
+   },
+   {
+    "da": "at ringe",
+    "en": "to call"
+   }
+  ],
+  "sentence": {
+   "da": "**Hallo**, kan du høre mig?",
+   "en": "Hello, can you hear me?"
+  }
+ },
+ "halv": {
+  "forms": [
+   {
+    "da": "halv",
+    "en": "half"
+   },
+   {
+    "da": "halv fire",
+    "en": "half past three"
+   },
+   {
+    "da": "en halv time",
+    "en": "half an hour"
+   }
+  ],
+  "explanation": "\"Halv\" means half, and Danish telling of time works in a tricky way here: \"halv fire\" means half past three, not half past four. It counts to the next hour, so think \"half way to four\". Also \"en halv\" is half, as in \"en halv liter\" (half a liter).",
+  "related": [
+   {
+    "da": "kvart",
+    "en": "quarter"
+   },
+   {
+    "da": "klokken",
+    "en": "the clock / o'clock"
+   },
+   {
+    "da": "en halv time",
+    "en": "half an hour"
+   },
+   {
+    "da": "hel",
+    "en": "whole"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes **halv** otte.",
+   "en": "We meet at half past seven."
+  }
+ },
+ "halv tre": {
+  "forms": [
+   {
+    "da": "Klokken er halv tre.",
+    "en": "It's half past two."
+   },
+   {
+    "da": "halv fire",
+    "en": "half past three"
+   },
+   {
+    "da": "Vi ses klokken halv syv.",
+    "en": "See you at half past six."
+   }
+  ],
+  "explanation": "Here is a big pitfall: \"halv tre\" means half past TWO, not half past three. Danes count half an hour toward the next hour, so \"halv tre\" is half way to three. So 2:30 is \"halv tre\", and 6:30 is \"halv syv\". Remember it as \"half to three\".",
+  "related": [
+   {
+    "da": "kvart over",
+    "en": "quarter past"
+   },
+   {
+    "da": "kvart i",
+    "en": "quarter to"
+   },
+   {
+    "da": "klokken er tre",
+    "en": "it's three o'clock"
+   },
+   {
+    "da": "en halv time",
+    "en": "half an hour"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser frokost **halv tolv**.",
+   "en": "We eat lunch at half past eleven."
+  }
+ },
+ "halvdelen": {
+  "forms": [
+   {
+    "da": "en halvdel",
+    "en": "a half"
+   },
+   {
+    "da": "halvdelen",
+    "en": "the half"
+   },
+   {
+    "da": "halvdele",
+    "en": "halves"
+   },
+   {
+    "da": "halvdelene",
+    "en": "the halves"
+   }
+  ],
+  "explanation": "\"Halvdelen\" means the half, with \"the\" added on the end of an en-word. You usually say what it is half of with \"af\": \"halvdelen af kagen\" (half of the cake). If you simply mean half a thing, use \"halv\" or \"en halv\", as in \"en halv liter\".",
+  "related": [
+   {
+    "da": "en del",
+    "en": "a part"
+   },
+   {
+    "da": "halv",
+    "en": "half"
+   },
+   {
+    "da": "hel",
+    "en": "whole"
+   },
+   {
+    "da": "en fjerdedel",
+    "en": "a quarter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har spist **halvdelen** af kagen.",
+   "en": "I have eaten half of the cake."
+  }
+ },
+ "halvfems": {
+  "forms": [
+   {
+    "da": "halvfems",
+    "en": "ninety"
+   },
+   {
+    "da": "halvfems år",
+    "en": "ninety years"
+   },
+   {
+    "da": "næsten halvfems",
+    "en": "almost ninety"
+   }
+  ],
+  "explanation": "\"Halvfems\" means ninety. It is short for \"halvfemsindstyve\", an old counting system based on twenties: it literally means \"half-way to five times twenty\" (4.5 x 20 = 90). That is why Danish numbers feel odd at first. Just learn it as one word; you say \"halvfems\" for 90 and \"enoghalvfems\" for 91.",
+  "related": [
+   {
+    "da": "firs",
+    "en": "eighty"
+   },
+   {
+    "da": "halvfjerds",
+    "en": "seventy"
+   },
+   {
+    "da": "hundrede",
+    "en": "hundred"
+   },
+   {
+    "da": "nioghalvfems",
+    "en": "ninety-nine"
+   }
+  ],
+  "sentence": {
+   "da": "Min bedstefar er **halvfems** år gammel.",
+   "en": "My grandfather is ninety years old."
+  }
+ },
+ "halvfjerds": {
+  "forms": [
+   {
+    "da": "halvfjerds kroner",
+    "en": "seventy kroner"
+   },
+   {
+    "da": "halvfjerds år",
+    "en": "seventy years"
+   },
+   {
+    "da": "enoghalvfjerds",
+    "en": "seventy-one"
+   }
+  ],
+  "explanation": "Means \"seventy\". It looks odd because Danish counts 70 as \"half of four twenties\", meaning 3.5 times twenty. It is shortened from an older, longer word. Just learn it as one fixed word, and note the \"fj\" at the start of the second part.",
+  "related": [
+   {
+    "da": "tres",
+    "en": "sixty"
+   },
+   {
+    "da": "firs",
+    "en": "eighty"
+   },
+   {
+    "da": "halvtreds",
+    "en": "fifty"
+   },
+   {
+    "da": "enoghalvfjerds",
+    "en": "seventy-one"
+   }
+  ],
+  "sentence": {
+   "da": "Min bedstemor er **halvfjerds** år.",
+   "en": "My grandmother is seventy years old."
+  }
+ },
+ "halvtreds": {
+  "forms": [
+   {
+    "da": "halvtreds kroner",
+    "en": "fifty kroner"
+   },
+   {
+    "da": "halvtreds år",
+    "en": "fifty years"
+   },
+   {
+    "da": "enoghalvtreds",
+    "en": "fifty-one"
+   }
+  ],
+  "explanation": "Means \"fifty\". It looks odd because Danish counts 50 as \"half of three twenties\", meaning 2.5 times twenty. It is shortened from an older, longer word. Just learn it as one fixed word. The next numbers, tres, halvfjerds and firs, follow the same system.",
+  "related": [
+   {
+    "da": "fyrre",
+    "en": "forty"
+   },
+   {
+    "da": "tres",
+    "en": "sixty"
+   },
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "enoghalvtreds",
+    "en": "fifty-one"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen koster **halvtreds** kroner.",
+   "en": "The book costs fifty kroner."
+  }
+ },
+ "ham": {
+  "forms": [
+   {
+    "da": "Jeg ser ham.",
+    "en": "I see him."
+   },
+   {
+    "da": "Hun kender ham.",
+    "en": "She knows him."
+   },
+   {
+    "da": "Giv det til ham.",
+    "en": "Give it to him."
+   }
+  ],
+  "explanation": "\"Ham\" means \"him\". It is used when something is done to a man or a boy, and also after words like \"til\" and \"med\". When he is the one doing it, you say \"han\". Be careful to keep it apart from \"hans\" (his).",
+  "related": [
+   {
+    "da": "han",
+    "en": "he"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "hende",
+    "en": "her"
+   },
+   {
+    "da": "dem",
+    "en": "them"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kender **ham** godt.",
+   "en": "I know him well."
+  }
+ },
+ "han": {
+  "forms": [
+   {
+    "da": "Han hedder Peter.",
+    "en": "His name is Peter."
+   },
+   {
+    "da": "Han er min bror.",
+    "en": "He is my brother."
+   },
+   {
+    "da": "Er han hjemme?",
+    "en": "Is he at home?"
+   }
+  ],
+  "explanation": "\"Han\" means he, and it is used for a man or a boy. Its other form is \"ham\" (him), used after the action: \"Jeg ser ham\" (I see him). The word for \"his\" is \"hans\", and it never changes. The word for \"she\" is \"hun\", and for things Danes use \"den\" or \"det\".",
+  "related": [
+   {
+    "da": "ham",
+    "en": "him"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "hun",
+    "en": "she"
+   },
+   {
+    "da": "de",
+    "en": "they"
+   }
+  ],
+  "sentence": {
+   "da": "**Han** arbejder i en bank.",
+   "en": "He works in a bank."
+  }
+ },
+ "handsker": {
+  "forms": [
+   {
+    "da": "handskerne",
+    "en": "the gloves"
+   },
+   {
+    "da": "varme handsker",
+    "en": "warm gloves"
+   },
+   {
+    "da": "et par handsker",
+    "en": "a pair of gloves"
+   }
+  ],
+  "explanation": "\"Handsker\" means gloves, the plural of \"en handske\". Gloves come in pairs, so you usually talk about them in the plural, and \"et par handsker\" means a pair of gloves. The word starts with \"hand\" (hand), which makes it easy to remember. You put gloves on your hands, and mittens are \"vanter\".",
+  "related": [
+   {
+    "da": "en handske",
+    "en": "a glove"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "et tørklæde",
+    "en": "a scarf"
+   },
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt mine **handsker** derhjemme.",
+   "en": "I have forgotten my gloves at home."
+  }
+ },
+ "hans": {
+  "forms": [
+   {
+    "da": "hans bil",
+    "en": "his car"
+   },
+   {
+    "da": "hans hus",
+    "en": "his house"
+   },
+   {
+    "da": "hans børn",
+    "en": "his children"
+   }
+  ],
+  "explanation": "\"Hans\" means \"his\". It never changes, whether the thing is an en-word, an et-word or many things: \"hans bil\", \"hans hus\", \"hans venner\". It is only for a man or a boy. Do not mix it up with \"ham\" (him) or \"han\" (he).",
+  "related": [
+   {
+    "da": "han",
+    "en": "he"
+   },
+   {
+    "da": "ham",
+    "en": "him"
+   },
+   {
+    "da": "hendes",
+    "en": "her / hers"
+   },
+   {
+    "da": "sin",
+    "en": "his own (en-word)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **hans** bil.",
+   "en": "That is his car."
+  }
+ },
+ "hav en god dag": {
+  "forms": [
+   {
+    "da": "Hav en god dag!",
+    "en": "Have a good day!"
+   },
+   {
+    "da": "Tak, i lige måde.",
+    "en": "Thanks, you too."
+   },
+   {
+    "da": "Hav en god aften.",
+    "en": "Have a good evening."
+   }
+  ],
+  "explanation": "\"Hav en god dag\" means \"have a good day\" and is a friendly goodbye in shops and offices. \"Hav\" is a command form of \"at have\". Swap \"dag\" for \"aften\" (evening) or \"weekend\". The reply is \"i lige måde\".",
+  "related": [
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "god weekend",
+    "en": "have a good weekend"
+   },
+   {
+    "da": "i lige måde",
+    "en": "same to you"
+   }
+  ],
+  "sentence": {
+   "da": "Tak for hjælpen. **Hav en god dag!**",
+   "en": "Thanks for the help. Have a good day!"
+  }
+ },
+ "hej": {
+  "forms": [
+   {
+    "da": "Hej!",
+    "en": "Hi!"
+   },
+   {
+    "da": "Hej hej!",
+    "en": "Bye bye!"
+   },
+   {
+    "da": "Hej med dig!",
+    "en": "Hello to you!"
+   }
+  ],
+  "explanation": "\"Hej\" means \"hi\" or \"hello\" and is used with almost everyone, friends and strangers, young and old. It is also used when you leave, often as \"hej hej\" (bye bye), which can be confusing at first. In shops people say \"hej\" both when you come in and when you go out. It is pronounced like the English \"hi\".",
+  "related": [
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "goddag",
+    "en": "good day"
+   },
+   {
+    "da": "davs",
+    "en": "hi (casual)"
+   },
+   {
+    "da": "vi ses",
+    "en": "see you"
+   }
+  ],
+  "sentence": {
+   "da": "**Hej**, jeg hedder Anna.",
+   "en": "Hi, my name is Anna."
+  }
+ },
+ "hej med dig": {
+  "forms": [
+   {
+    "da": "Hej med dig!",
+    "en": "Hi there! / Bye!"
+   },
+   {
+    "da": "Hej med jer!",
+    "en": "Hi to you all!"
+   },
+   {
+    "da": "Hej hej!",
+    "en": "Bye!"
+   }
+  ],
+  "explanation": "A warm, informal greeting that Danes use both when they meet and when they part, so the meaning depends on the moment. It is friendly and relaxed, good with friends, neighbours and shop staff. For several people, say \"hej med jer\". Tip: \"hej hej\" (said twice) is mostly used for saying goodbye.",
+  "related": [
+   {
+    "da": "hej",
+    "en": "hello / hi"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "goddag",
+    "en": "good day (more formal)"
+   },
+   {
+    "da": "hej med jer",
+    "en": "hi to you all"
+   }
+  ],
+  "sentence": {
+   "da": "**Hej med dig**, hvordan går det?",
+   "en": "Hi there, how is it going?"
+  }
+ },
+ "hejsa": {
+  "forms": [
+   {
+    "da": "Hejsa!",
+    "en": "Hi there!"
+   },
+   {
+    "da": "Hejsa, hvordan har du det?",
+    "en": "Hi there, how are you?"
+   },
+   {
+    "da": "Hejsa alle sammen.",
+    "en": "Hi everybody."
+   }
+  ],
+  "explanation": "\"Hejsa\" is a cheerful, informal version of \"hej\", like \"hi there\" or \"hey\". Use it with friends, family and children. It is not for formal situations, where \"goddag\" is better. You can also say \"hej hej\", but that is more often used for goodbye.",
+  "related": [
+   {
+    "da": "hej",
+    "en": "hi"
+   },
+   {
+    "da": "davs",
+    "en": "hi"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   }
+  ],
+  "sentence": {
+   "da": "**Hejsa**, hvad laver du?",
+   "en": "Hi there, what are you doing?"
+  }
+ },
+ "helbred": {
+  "forms": [
+   {
+    "da": "et helbred",
+    "en": "a health"
+   },
+   {
+    "da": "helbredet",
+    "en": "the health"
+   },
+   {
+    "da": "godt helbred",
+    "en": "good health"
+   }
+  ],
+  "explanation": "\"Helbred\" is health, meaning how well your body is doing. It is an et-word. \"Godt helbred\" is good health and \"dårligt helbred\" is poor health. \"Helbred\" is a little more formal than \"sundhed\", which is also used in general talk.",
+  "related": [
+   {
+    "da": "sund",
+    "en": "healthy"
+   },
+   {
+    "da": "usund",
+    "en": "unhealthy"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Han har et godt **helbred**.",
+   "en": "He has good health."
+  }
+ },
+ "held og lykke": {
+  "forms": [
+   {
+    "da": "Held og lykke!",
+    "en": "Good luck!"
+   },
+   {
+    "da": "Held og lykke med eksamen.",
+    "en": "Good luck with the exam."
+   },
+   {
+    "da": "Held og lykke i morgen.",
+    "en": "Good luck tomorrow."
+   }
+  ],
+  "explanation": "\"Held og lykke\" literally means \"luck and happiness\" and is the normal way to wish someone good luck before an exam, interview or new start. You can add \"med\" and what it is about: \"held og lykke med prøven\". A shorter, more casual version is just \"held!\" among friends.",
+  "related": [
+   {
+    "da": "en held",
+    "en": "a bit of luck"
+   },
+   {
+    "da": "lykkelig",
+    "en": "happy"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
+   }
+  ],
+  "sentence": {
+   "da": "**Held og lykke** med dit nye job!",
+   "en": "Good luck with your new job!"
+  }
+ },
+ "heldig": {
+  "forms": [
+   {
+    "da": "en heldig mand",
+    "en": "a lucky man"
+   },
+   {
+    "da": "et heldigt valg",
+    "en": "a lucky choice"
+   },
+   {
+    "da": "heldige mennesker",
+    "en": "lucky people"
+   }
+  ],
+  "explanation": "\"Heldig\" means lucky. It comes from \"held\" (luck), and it gets a \"t\" with et-words (\"et heldigt valg\"). A common phrase is \"Du er heldig\" (You are lucky). The opposite is \"uheldig\" (unlucky), made by adding \"u\" at the front.",
+  "related": [
+   {
+    "da": "uheldig",
+    "en": "unlucky"
+   },
+   {
+    "da": "held",
+    "en": "luck"
+   },
+   {
+    "da": "Held og lykke!",
+    "en": "Good luck!"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
+   }
+  ],
+  "sentence": {
+   "da": "Du er virkelig **heldig**.",
+   "en": "You are really lucky."
+  }
+ },
+ "hele tiden": {
+  "forms": [
+   {
+    "da": "hele tiden",
+    "en": "all the time"
+   },
+   {
+    "da": "Han taler hele tiden.",
+    "en": "He talks all the time."
+   },
+   {
+    "da": "Det regner hele tiden.",
+    "en": "It rains all the time."
+   }
+  ],
+  "explanation": "\"Hele tiden\" means all the time, or constantly. The word \"tiden\" is \"the time\" and \"hele\" is the whole. It can be a little negative, as in a thing that keeps happening and is annoying. For a milder \"often\", use \"tit\" or \"ofte\".",
+  "related": [
+   {
+    "da": "altid",
+    "en": "always"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   },
+   {
+    "da": "tit",
+    "en": "often"
+   }
+  ],
+  "sentence": {
+   "da": "Min telefon ringer **hele tiden**.",
+   "en": "My phone rings all the time."
+  }
+ },
+ "heller": {
+  "forms": [
+   {
+    "da": "jeg kan heller ikke",
+    "en": "I can't either"
+   },
+   {
+    "da": "ikke mig heller",
+    "en": "not me either"
+   },
+   {
+    "da": "heller ikke i dag",
+    "en": "not today either"
+   }
+  ],
+  "explanation": "\"Heller\" is used in sentences with \"ikke\" or \"aldrig\" to mean \"either\" or \"neither\", as in \"heller ikke\". In a positive sentence you use \"også\" (also) instead. A handy tip: \"også\" for yes-sentences, \"heller ikke\" for no-sentences.",
+  "related": [
+   {
+    "da": "også",
+    "en": "also"
+   },
+   {
+    "da": "ikke",
+    "en": "not"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   },
+   {
+    "da": "hverken ... eller",
+    "en": "neither ... nor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **heller** ikke komme i dag.",
+   "en": "I can't come today either."
+  }
+ },
+ "hellere": {
+  "forms": [
+   {
+    "da": "jeg vil hellere have te",
+    "en": "I would rather have tea"
+   },
+   {
+    "da": "du må hellere gå",
+    "en": "you had better go"
+   },
+   {
+    "da": "hellere i dag end i morgen",
+    "en": "better today than tomorrow"
+   }
+  ],
+  "explanation": "\"Hellere\" means rather, and it is used to say what you would prefer or what is the better choice: \"Jeg vil hellere have te\". It is the middle step between \"gerne\" (gladly) and \"helst\" (most of all). Do not mix it up with \"heller\" in \"heller ikke\".",
+  "related": [
+   {
+    "da": "gerne",
+    "en": "gladly"
+   },
+   {
+    "da": "helst",
+    "en": "preferably / most of all"
+   },
+   {
+    "da": "bedre",
+    "en": "better"
+   },
+   {
+    "da": "end",
+    "en": "than"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **hellere** have te end kaffe.",
+   "en": "I would rather have tea than coffee."
+  }
+ },
+ "helst": {
+  "forms": [
+   {
+    "da": "jeg vil helst have te",
+    "en": "I would most like tea"
+   },
+   {
+    "da": "helst ikke",
+    "en": "preferably not"
+   },
+   {
+    "da": "hvad vil du helst?",
+    "en": "what would you like most?"
+   }
+  ],
+  "explanation": "\"Helst\" means preferably or most of all, and it shows your first choice. Think of the three steps: \"gerne\" (gladly), \"hellere\" (rather), \"helst\" (most of all). \"Helst ikke\" is a soft way to say \"I would rather not\".",
+  "related": [
+   {
+    "da": "gerne",
+    "en": "gladly"
+   },
+   {
+    "da": "hellere",
+    "en": "rather"
+   },
+   {
+    "da": "mest",
+    "en": "most"
+   },
+   {
+    "da": "at foretrække",
+    "en": "to prefer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **helst** blive hjemme.",
+   "en": "I would most like to stay at home."
+  }
+ },
+ "helt": {
+  "forms": [
+   {
+    "da": "helt færdig",
+    "en": "completely done"
+   },
+   {
+    "da": "Det er helt rigtigt.",
+    "en": "That is completely right."
+   },
+   {
+    "da": "Jeg er helt enig.",
+    "en": "I totally agree."
+   }
+  ],
+  "explanation": "\"Helt\" means \"completely\", \"totally\" or \"entirely\". It makes the next word stronger, as in \"helt rigtigt\" (completely right) or \"helt sikker\" (totally sure). It is very common in everyday talk. It is related to \"hel\" (whole), which is a different word used for things being in one piece. Use \"helt\" when you want to say all the way.",
+  "related": [
+   {
+    "da": "næsten",
+    "en": "almost"
+   },
+   {
+    "da": "meget",
+    "en": "very / a lot"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "hel",
+    "en": "whole"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **helt** enig med dig.",
+   "en": "I completely agree with you."
+  }
+ },
+ "hende": {
+  "forms": [
+   {
+    "da": "Jeg ser hende.",
+    "en": "I see her."
+   },
+   {
+    "da": "Vi kender hende.",
+    "en": "We know her."
+   },
+   {
+    "da": "Giv det til hende.",
+    "en": "Give it to her."
+   }
+  ],
+  "explanation": "\"Hende\" means \"her\" when something is done to a woman or a girl, or after words like \"til\" and \"med\". When she is the one doing it, you say \"hun\". Do not mix it up with \"hendes\", which means \"her\" in the sense of belonging to her, like \"hendes bil\".",
+  "related": [
+   {
+    "da": "hun",
+    "en": "she"
+   },
+   {
+    "da": "hendes",
+    "en": "her / hers"
+   },
+   {
+    "da": "ham",
+    "en": "him"
+   },
+   {
+    "da": "dem",
+    "en": "them"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan lide **hende**.",
+   "en": "I like her."
+  }
+ },
+ "hendes": {
+  "forms": [
+   {
+    "da": "hendes bil",
+    "en": "her car"
+   },
+   {
+    "da": "hendes hus",
+    "en": "her house"
+   },
+   {
+    "da": "hendes børn",
+    "en": "her children"
+   }
+  ],
+  "explanation": "\"Hendes\" means \"her\" or \"hers\". It never changes, whether the thing is an en-word, an et-word or many things. It is only for a woman or a girl. Do not mix it up with \"hende\" (her, after a verb) or \"hun\" (she).",
+  "related": [
+   {
+    "da": "hun",
+    "en": "she"
+   },
+   {
+    "da": "hende",
+    "en": "her"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "sin",
+    "en": "her own (en-word)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **hendes** taske.",
+   "en": "That is her bag."
+  }
+ },
+ "her": {
+  "forms": [
+   {
+    "da": "Kom her!",
+    "en": "Come here!"
+   },
+   {
+    "da": "Jeg bor her.",
+    "en": "I live here."
+   },
+   {
+    "da": "Hvad er det her?",
+    "en": "What is this?"
+   }
+  ],
+  "explanation": "\"Her\" means \"here\", the place where you are. \"Kom her\" means \"Come here\". It also helps make \"this\" in everyday speech: \"den her bog\" (this book). Do not mix it up with \"der\" (there), and do not confuse it with \"hende\" (her).",
+  "related": [
+   {
+    "da": "der",
+    "en": "there"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "herfra",
+    "en": "from here"
+   },
+   {
+    "da": "hen",
+    "en": "to (a place)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor **her** i byen.",
+   "en": "I live here in the town."
+  }
+ },
+ "herinde": {
+  "forms": [
+   {
+    "da": "herinde i køkkenet",
+    "en": "in here in the kitchen"
+   },
+   {
+    "da": "herinde hos os",
+    "en": "in here with us"
+   },
+   {
+    "da": "kom ind",
+    "en": "come in"
+   }
+  ],
+  "explanation": "\"Herinde\" means in here, and it is used when you are inside and talking about the place around you. The partner word for further away is \"derinde\". When someone moves in, Danish uses \"ind\", as in \"Kom ind!\".",
+  "related": [
+   {
+    "da": "derinde",
+    "en": "in there"
+   },
+   {
+    "da": "herude",
+    "en": "out here"
+   },
+   {
+    "da": "inde",
+    "en": "inside"
+   },
+   {
+    "da": "ind",
+    "en": "in (movement)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er varmt **herinde**.",
+   "en": "It is warm in here."
+  }
+ },
+ "hinanden": {
+  "forms": [
+   {
+    "da": "de elsker hinanden",
+    "en": "they love each other"
+   },
+   {
+    "da": "vi hjælper hinanden",
+    "en": "we help each other"
+   },
+   {
+    "da": "se på hinanden",
+    "en": "look at each other"
+   }
+  ],
+  "explanation": "\"Hinanden\" means each other or one another, and it is used when two or more people do the same thing to one another. It never changes form. It usually comes after the action word, often with a small word like \"på\" or \"med\" in front: \"snakke med hinanden\".",
+  "related": [
+   {
+    "da": "begge",
+    "en": "both"
+   },
+   {
+    "da": "sammen",
+    "en": "together"
+   },
+   {
+    "da": "selv",
+    "en": "oneself / myself"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   }
+  ],
+  "sentence": {
+   "da": "De hjælper **hinanden**.",
+   "en": "They help each other."
+  }
+ },
+ "hjem": {
+  "forms": [
+   {
+    "da": "Jeg går hjem.",
+    "en": "I am going home."
+   },
+   {
+    "da": "på vej hjem",
+    "en": "on the way home"
+   },
+   {
+    "da": "Kom hjem!",
+    "en": "Come home!"
+   }
+  ],
+  "explanation": "\"Hjem\" means home when you are going or moving towards it, so it goes with verbs like \"gå\" (go), \"køre\" (drive) and \"komme\" (come). When you are already there it is \"hjemme\". Note that Danish needs no \"to\": \"gå hjem\" is simply to go home.",
+  "related": [
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
+   },
+   {
+    "da": "hjemmefra",
+    "en": "from home"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **hjem** nu.",
+   "en": "I am going home now."
+  }
+ },
+ "hjemme": {
+  "forms": [
+   {
+    "da": "Jeg er hjemme.",
+    "en": "I am at home."
+   },
+   {
+    "da": "hjemme hos mig",
+    "en": "at my place"
+   },
+   {
+    "da": "Er du hjemme?",
+    "en": "Are you home?"
+   }
+  ],
+  "explanation": "\"Hjemme\" means at home, and it tells you where someone is, not where they go. Use it with \"er\" (am, is, are) and \"bliver\" (stay): \"Jeg bliver hjemme\" (I'm staying home). When you are going there, use \"hjem\" instead. The two words are a classic pair to learn together.",
+  "related": [
+   {
+    "da": "hjem",
+    "en": "home (direction)"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "hjemmefra",
+    "en": "from home"
+   },
+   {
+    "da": "ude",
+    "en": "out, outside"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **hjemme** i aften.",
+   "en": "I am at home tonight."
+  }
+ },
+ "hjælp": {
+  "forms": [
+   {
+    "da": "hjælpen",
+    "en": "the help"
+   },
+   {
+    "da": "Tak for hjælpen",
+    "en": "Thanks for the help"
+   }
+  ],
+  "explanation": "\"Hjælp\" means help, and it is an en-word, so \"the help\" is \"hjælpen\". It is used without \"en\" in front, as in \"Jeg har brug for hjælp\" (I need help). It is also what you shout in an emergency: \"Hjælp!\". The verb is \"at hjælpe\". A polite way to thank someone is \"Tak for hjælpen\".",
+  "related": [
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "en hjælper",
+    "en": "a helper"
+   },
+   {
+    "da": "brug for",
+    "en": "need"
+   },
+   {
+    "da": "tak",
+    "en": "thanks"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har brug for **hjælp**.",
+   "en": "I need help."
+  }
+ },
+ "holland": {
+  "forms": [
+   {
+    "da": "Holland",
+    "en": "the Netherlands"
+   },
+   {
+    "da": "i Holland",
+    "en": "in the Netherlands"
+   },
+   {
+    "da": "til Holland",
+    "en": "to the Netherlands"
+   }
+  ],
+  "explanation": "\"Holland\" is the Netherlands. Place names like this are written with a capital letter and used without \"the\": \"i Holland\" means \"in the Netherlands\" and \"til Holland\" means \"to the Netherlands\". Danes say \"Holland\" for the whole country, although the official name is \"Nederlandene\". A person is \"en hollænder\" and the language is \"hollandsk\".",
+  "related": [
+   {
+    "da": "en hollænder",
+    "en": "a Dutchman"
+   },
+   {
+    "da": "hollandsk",
+    "en": "Dutch"
+   },
+   {
+    "da": "Belgien",
+    "en": "Belgium"
+   },
+   {
+    "da": "Tyskland",
+    "en": "Germany"
+   }
+  ],
+  "sentence": {
+   "da": "Mange cykler i **Holland**.",
+   "en": "Many people cycle in the Netherlands."
+  }
+ },
+ "hollandsk": {
+  "forms": [
+   {
+    "da": "en hollandsk cykel",
+    "en": "a Dutch bicycle"
+   },
+   {
+    "da": "et hollandsk hus",
+    "en": "a Dutch house"
+   },
+   {
+    "da": "hollandske cykler",
+    "en": "Dutch bicycles"
+   }
+  ],
+  "explanation": "\"Hollandsk\" means Dutch, both for things from the Netherlands and for the language. It is written with a small letter, and it stays the same before an et-word because it already ends in -sk. Danes say \"Holland\" for the country in everyday speech, and \"Nederlandene\" is the more formal name.",
+  "related": [
+   {
+    "da": "Holland",
+    "en": "Holland / the Netherlands"
+   },
+   {
+    "da": "en hollænder",
+    "en": "a Dutchman"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
+   },
+   {
+    "da": "belgisk",
+    "en": "Belgian"
+   }
+  ],
+  "sentence": {
+   "da": "Han taler **hollandsk** med sin familie.",
+   "en": "He speaks Dutch with his family."
+  }
+ },
+ "honning": {
+  "forms": [
+   {
+    "da": "noget honning",
+    "en": "some honey"
+   },
+   {
+    "da": "honningen",
+    "en": "the honey"
+   },
+   {
+    "da": "en skefuld honning",
+    "en": "a spoonful of honey"
+   }
+  ],
+  "explanation": "\"Honning\" is honey, an en-word, so \"the honey\" is \"honningen\". It is usually used without \"en\", like \"lidt honning\" (a little honey). It is common in tea, on bread and in yoghurt, and \"honningkage\" is a spiced Danish Christmas cake.",
+  "related": [
+   {
+    "da": "sukker",
+    "en": "sugar"
+   },
+   {
+    "da": "syltetøj",
+    "en": "jam"
+   },
+   {
+    "da": "en te",
+    "en": "a tea"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager lidt **honning** i min te.",
+   "en": "I take a little honey in my tea."
+  }
+ },
+ "hos": {
+  "forms": [
+   {
+    "da": "hos mig",
+    "en": "at my place"
+   },
+   {
+    "da": "hos lægen",
+    "en": "at the doctor's"
+   },
+   {
+    "da": "hos min mor",
+    "en": "at my mother's"
+   }
+  ],
+  "explanation": "\"Hos\" means at someone's place, and it is always followed by a person: \"hos mig\", \"hos lægen\", \"hos frisøren\". For places and buildings you use another word such as \"på\" or \"i\". It is very useful: \"Jeg er hos min ven\".",
+  "related": [
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "at besøge",
+    "en": "to visit"
+   },
+   {
+    "da": "ved",
+    "en": "by / at"
+   },
+   {
+    "da": "på",
+    "en": "on / at"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sover **hos** min ven i nat.",
+   "en": "I am sleeping at my friend's place tonight."
+  }
+ },
+ "hud": {
+  "forms": [
+   {
+    "da": "en hud",
+    "en": "a skin"
+   },
+   {
+    "da": "huden",
+    "en": "the skin"
+   },
+   {
+    "da": "på huden",
+    "en": "on the skin"
+   }
+  ],
+  "explanation": "\"Hud\" is the skin, on your body, and it is an en-word. People mostly say \"huden\" (the skin) in sentences like \"Min hud er tør\" (My skin is dry). You will see it in pharmacy talk with \"hudcreme\" (skin cream).",
+  "related": [
+   {
+    "da": "en krop",
+    "en": "a body"
+   },
+   {
+    "da": "blod",
+    "en": "blood"
+   },
+   {
+    "da": "en creme",
+    "en": "a cream"
+   },
+   {
+    "da": "tør",
+    "en": "dry"
+   }
+  ],
+  "sentence": {
+   "da": "Min **hud** er meget tør.",
+   "en": "My skin is very dry."
+  }
+ },
+ "hun": {
+  "forms": [
+   {
+    "da": "Hun er her.",
+    "en": "She is here."
+   },
+   {
+    "da": "Hun hedder Anna.",
+    "en": "Her name is Anna."
+   },
+   {
+    "da": "Er hun din søster?",
+    "en": "Is she your sister?"
+   }
+  ],
+  "explanation": "\"Hun\" means she, and you use it for a woman or a girl. It is what you say when you are the one doing something. When it comes after a verb, like \"Ser hun?\", it still stays \"hun\". For the other direction, \"hende\" is used instead, as in \"Jeg ser hende\".",
+  "related": [
+   {
+    "da": "han",
+    "en": "he"
+   },
+   {
+    "da": "hende",
+    "en": "her / she (after a verb or word like 'to')"
+   },
+   {
+    "da": "hendes",
+    "en": "her / hers"
+   },
+   {
+    "da": "den",
+    "en": "it (en-word)"
+   }
+  ],
+  "sentence": {
+   "da": "**Hun** bor i København.",
+   "en": "She lives in Copenhagen."
+  }
+ },
+ "hundrede": {
+  "forms": [
+   {
+    "da": "hundrede",
+    "en": "hundred"
+   },
+   {
+    "da": "to hundrede",
+    "en": "two hundred"
+   },
+   {
+    "da": "hundrede kroner",
+    "en": "a hundred kroner"
+   }
+  ],
+  "explanation": "\"Hundrede\" means one hundred. It stays the same after other numbers, so you say \"to hundrede\" (200) and \"tre hundrede\" (300). You can say \"hundrede\" alone for 100, and Danes often say \"et hundrede\" only when they want to stress the exact number. Prices in kroner are a very common place to meet this word.",
+  "related": [
+   {
+    "da": "tusind",
+    "en": "thousand"
+   },
+   {
+    "da": "halvfems",
+    "en": "ninety"
+   },
+   {
+    "da": "en million",
+    "en": "a million"
+   },
+   {
+    "da": "nul",
+    "en": "zero"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen koster **hundrede** kroner.",
+   "en": "The book costs a hundred kroner."
+  }
+ },
+ "hurtig": {
+  "forms": [
+   {
+    "da": "en hurtig bil",
+    "en": "a fast car"
+   },
+   {
+    "da": "et hurtigt svar",
+    "en": "a quick answer"
+   },
+   {
+    "da": "hurtige biler",
+    "en": "fast cars"
+   }
+  ],
+  "explanation": "\"Hurtig\" means fast or quick, for people, cars, answers and actions. When you want to say that something happens quickly, use the form with \"t\" at the end: \"Han løber hurtigt\" (He runs fast). The opposite is \"langsom\" (slow). \"Skynd dig\" is the everyday way to tell someone to hurry up.",
+  "related": [
+   {
+    "da": "langsom",
+    "en": "slow"
+   },
+   {
+    "da": "hurtigt",
+    "en": "quickly"
+   },
+   {
+    "da": "at skynde sig",
+    "en": "to hurry"
+   },
+   {
+    "da": "en fart",
+    "en": "a speed"
+   }
+  ],
+  "sentence": {
+   "da": "Toget er meget **hurtigt**.",
+   "en": "The train is very fast."
+  }
+ },
+ "hvad": {
+  "forms": [
+   {
+    "da": "Hvad er det?",
+    "en": "What is that?"
+   },
+   {
+    "da": "Hvad hedder du?",
+    "en": "What is your name?"
+   },
+   {
+    "da": "Hvad laver du?",
+    "en": "What are you doing?"
+   }
+  ],
+  "explanation": "\"Hvad\" means \"what\" and is one of the most useful question words. \"Hvad er det?\" means \"What is that?\" and \"Hvad laver du?\" means \"What are you doing?\". Said by itself, \"Hvad?\" can mean \"Pardon?\", but it can sound a bit blunt, so \"Undskyld?\" is more polite. It is also used for \"what\" in sentences like \"Jeg ved, hvad du mener\" (I know what you mean).",
+  "related": [
+   {
+    "da": "hvem",
+    "en": "who"
+   },
+   {
+    "da": "hvilken",
+    "en": "which"
+   },
+   {
+    "da": "hvorfor",
+    "en": "why"
+   },
+   {
+    "da": "hvordan",
+    "en": "how"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvad** hedder du?",
+   "en": "What is your name?"
+  }
+ },
+ "hvad betyder det?": {
+  "forms": [
+   {
+    "da": "Hvad betyder det?",
+    "en": "What does that mean?"
+   },
+   {
+    "da": "Hvad betyder ordet?",
+    "en": "What does the word mean?"
+   },
+   {
+    "da": "Hvad betyder \"hej\"?",
+    "en": "What does \"hej\" mean?"
+   }
+  ],
+  "explanation": "\"Hvad betyder det?\" means \"What does that mean?\" and is great for learning new words. \"At betyde\" is the verb for \"to mean\". You can ask about a particular word with \"Hvad betyder ...?\", for example \"Hvad betyder 'dejlig'?\". You can also use it about a sign or a sentence you saw. Danes will often explain in simple Danish or English.",
+  "related": [
+   {
+    "da": "at betyde",
+    "en": "to mean"
+   },
+   {
+    "da": "et ord",
+    "en": "a word"
+   },
+   {
+    "da": "jeg forstår ikke",
+    "en": "I don't understand"
+   },
+   {
+    "da": "kan du forklare?",
+    "en": "can you explain?"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvad betyder det** ord?",
+   "en": "What does that word mean?"
+  }
+ },
+ "hvad er klokken?": {
+  "forms": [
+   {
+    "da": "Hvad er klokken?",
+    "en": "What time is it?"
+   },
+   {
+    "da": "Klokken er fem.",
+    "en": "It's five o'clock."
+   },
+   {
+    "da": "Hvad er klokken nu?",
+    "en": "What time is it now?"
+   }
+  ],
+  "explanation": "The standard way to ask what time it is. \"Klokken\" literally means \"the clock\", so the question is \"what is the clock?\". You answer with \"klokken er\" plus the time. Another polite way is \"ved du, hvad klokken er?\" (do you know what time it is?).",
+  "related": [
+   {
+    "da": "en klokke",
+    "en": "a clock"
+   },
+   {
+    "da": "et ur",
+    "en": "a watch / clock"
+   },
+   {
+    "da": "klokken er fem",
+    "en": "it's five o'clock"
+   },
+   {
+    "da": "hvornår?",
+    "en": "when?"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **hvad er klokken?**",
+   "en": "Excuse me, what time is it?"
+  }
+ },
+ "hvad hedder det på dansk?": {
+  "forms": [
+   {
+    "da": "Hvad hedder det på dansk?",
+    "en": "What is that called in Danish?"
+   },
+   {
+    "da": "Hvad hedder det på engelsk?",
+    "en": "What is that called in English?"
+   },
+   {
+    "da": "Det hedder en bog.",
+    "en": "It is called a book."
+   }
+  ],
+  "explanation": "\"Hvad hedder det på dansk?\" is a great question for learners: \"what is that called in Danish?\". The verb \"hedder\" means \"is called\", the same word used for names (\"jeg hedder Anna\"). Swap \"dansk\" for another language to ask about it. Point at something while you ask.",
+  "related": [
+   {
+    "da": "at hedde",
+    "en": "to be called"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   },
+   {
+    "da": "engelsk",
+    "en": "English"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er det? **Hvad hedder det på dansk?**",
+   "en": "What is that? What is that called in Danish?"
+  }
+ },
+ "hvad hedder du?": {
+  "forms": [
+   {
+    "da": "Hvad hedder du?",
+    "en": "What's your name?"
+   },
+   {
+    "da": "Hvad hedder han?",
+    "en": "What is his name?"
+   },
+   {
+    "da": "Og hvad hedder du?",
+    "en": "And what is your name?"
+   }
+  ],
+  "explanation": "\"Hvad hedder du?\" means \"What's your name?\" and literally \"What are you called?\". It uses the verb \"at hedde\" (to be called), not \"at have\" or \"at være\". You answer with \"Jeg hedder ...\" (My name is ...). For another person, use \"hvad hedder han?\" or \"hvad hedder hun?\". It is polite and used with all ages.",
+  "related": [
+   {
+    "da": "jeg hedder…",
+    "en": "my name is…"
+   },
+   {
+    "da": "at hedde",
+    "en": "to be called"
+   },
+   {
+    "da": "hvem er du?",
+    "en": "who are you?"
+   },
+   {
+    "da": "fornavn",
+    "en": "first name (et fornavn)"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvad hedder du?** - Jeg hedder Anna.",
+   "en": "What's your name? - My name is Anna."
+  }
+ },
+ "hvad koster det?": {
+  "forms": [
+   {
+    "da": "Hvad koster det?",
+    "en": "How much does it cost?"
+   },
+   {
+    "da": "Hvad koster den?",
+    "en": "How much is it? (en-word)"
+   },
+   {
+    "da": "Det koster halvtreds kroner.",
+    "en": "It costs fifty kroner."
+   }
+  ],
+  "explanation": "\"Hvad koster det?\" means \"how much does it cost?\". Use \"det\" for et-words and \"den\" for en-words, so \"hvad koster den?\" for an en-word like \"en bog\". For several things say \"hvad koster de?\". Good for shops and markets.",
+  "related": [
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   },
+   {
+    "da": "dyr",
+    "en": "expensive"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvad koster det?** Jeg vil gerne købe den.",
+   "en": "How much does it cost? I'd like to buy it."
+  }
+ },
+ "hvad laver du?": {
+  "forms": [
+   {
+    "da": "Hvad laver du?",
+    "en": "What are you doing?"
+   },
+   {
+    "da": "Hvad laver du i weekenden?",
+    "en": "What are you doing at the weekend?"
+   },
+   {
+    "da": "Ikke noget særligt.",
+    "en": "Nothing special."
+   }
+  ],
+  "explanation": "\"Hvad laver du?\" means \"what are you doing?\" and can mean right now or in general, like \"what do you do?\". The word \"laver\" comes from \"at lave\", to make or do. For a job question, \"hvad arbejder du med?\" is clearer. Use \"hvad laver I?\" with several people.",
+  "related": [
+   {
+    "da": "at lave",
+    "en": "to make, to do"
+   },
+   {
+    "da": "hvad hedder du?",
+    "en": "what is your name?"
+   },
+   {
+    "da": "hvordan går det?",
+    "en": "how is it going?"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvad laver du** i aften?",
+   "en": "What are you doing tonight?"
+  }
+ },
+ "hvad med dig?": {
+  "forms": [
+   {
+    "da": "Hvad med dig?",
+    "en": "What about you?"
+   },
+   {
+    "da": "Hvad med jer?",
+    "en": "What about you (all)?"
+   },
+   {
+    "da": "Og hvad med ham?",
+    "en": "And what about him?"
+   }
+  ],
+  "explanation": "Use this to turn a question back to the other person, like \"How about you?\" in English. It is a very handy way to keep a conversation going after answering. Use \"hvad med jer?\" for more than one person. You can put anyone in place of \"dig\", for example \"hvad med Anna?\".",
+  "related": [
+   {
+    "da": "og dig?",
+    "en": "and you?"
+   },
+   {
+    "da": "hvordan har du det?",
+    "en": "how are you?"
+   },
+   {
+    "da": "hvad med i morgen?",
+    "en": "what about tomorrow?"
+   },
+   {
+    "da": "jer",
+    "en": "you (all)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har det godt. **Hvad med dig?**",
+   "en": "I'm doing well. What about you?"
+  }
+ },
+ "hvad så?": {
+  "forms": [
+   {
+    "da": "Hvad så?",
+    "en": "What's up?"
+   },
+   {
+    "da": "Hej, hvad så?",
+    "en": "Hi, what's up?"
+   },
+   {
+    "da": "Ikke så meget.",
+    "en": "Not much."
+   }
+  ],
+  "explanation": "\"Hvad så?\" literally means \"what then?\" and is a casual greeting like \"what's up?\" or \"how's it going?\". Friends use it in place of \"hvordan har du det?\". You can reply \"det går fint\", \"ikke så meget\" or just \"hvad så med dig?\". Keep it for friends and people your own age.",
+  "related": [
+   {
+    "da": "hvordan går det?",
+    "en": "how is it going?"
+   },
+   {
+    "da": "det går fint",
+    "en": "it's going fine"
+   },
+   {
+    "da": "ikke så meget",
+    "en": "not much"
+   }
+  ],
+  "sentence": {
+   "da": "Hej Anna, **hvad så?**",
+   "en": "Hi Anna, what's up?"
+  }
+ },
+ "hvem": {
+  "forms": [
+   {
+    "da": "Hvem er det?",
+    "en": "Who is that?"
+   },
+   {
+    "da": "Hvem er du?",
+    "en": "Who are you?"
+   },
+   {
+    "da": "Hvem har gjort det?",
+    "en": "Who has done it?"
+   }
+  ],
+  "explanation": "\"Hvem\" means \"who\" and is used when you ask about a person, as in \"Hvem er det?\" (Who is that?). It is the same word whether you ask about one person or many. It also works after a word like \"til\" or \"med\", as in \"Med hvem?\" (With whom?). The word \"hvis\" means \"whose\", but it is also a different word meaning \"if\", so be careful.",
+  "related": [
+   {
+    "da": "hvad",
+    "en": "what"
+   },
+   {
+    "da": "hvilken",
+    "en": "which"
+   },
+   {
+    "da": "nogen",
+    "en": "somebody"
+   },
+   {
+    "da": "ingen",
+    "en": "nobody"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvem** er din lærer?",
+   "en": "Who is your teacher?"
+  }
+ },
+ "hver": {
+  "forms": [
+   {
+    "da": "hver dag",
+    "en": "every day"
+   },
+   {
+    "da": "hver uge",
+    "en": "every week"
+   },
+   {
+    "da": "hver for sig",
+    "en": "each on their own"
+   }
+  ],
+  "explanation": "\"Hver\" means \"each\" or \"every\" and is used with one thing, like \"hver dag\" (every day) or \"hver morgen\" (every morning). It is used with en-words; for et-words you say \"hvert\", as in \"hvert år\" (every year). For \"all\" of them together, use \"alle\".",
+  "related": [
+   {
+    "da": "alle",
+    "en": "everyone / all"
+   },
+   {
+    "da": "hvert",
+    "en": "each (et-word)"
+   },
+   {
+    "da": "hver dag",
+    "en": "every day"
+   },
+   {
+    "da": "hver anden",
+    "en": "every other"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg løber **hver** morgen.",
+   "en": "I run every morning."
+  }
+ },
+ "hver dag": {
+  "forms": [
+   {
+    "da": "hver dag",
+    "en": "every day"
+   },
+   {
+    "da": "Jeg træner hver dag.",
+    "en": "I work out every day."
+   },
+   {
+    "da": "hver uge",
+    "en": "every week"
+   }
+  ],
+  "explanation": "\"Hver dag\" means every day. \"Hver\" means each or every and is used with an en-word like \"dag\". With an et-word, it is \"hvert\", as in \"hvert år\" (every year). Another way to say the same thing is \"alle dage\", but \"hver dag\" is far more common.",
+  "related": [
+   {
+    "da": "hver uge",
+    "en": "every week"
+   },
+   {
+    "da": "hvert år",
+    "en": "every year"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "hver morgen",
+    "en": "every morning"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker kaffe **hver dag**.",
+   "en": "I drink coffee every day."
+  }
+ },
+ "hvert": {
+  "forms": [
+   {
+    "da": "hvert år",
+    "en": "every year"
+   },
+   {
+    "da": "hvert hus",
+    "en": "each house"
+   },
+   {
+    "da": "hvert barn",
+    "en": "each child"
+   }
+  ],
+  "explanation": "\"Hvert\" means each or every, and it is used with et-words: \"hvert år\", \"hvert hus\". With en-words you use \"hver\" instead: \"hver dag\", \"hver bil\". Both are followed by a single thing, not a plural.",
+  "related": [
+   {
+    "da": "hver",
+    "en": "each / every (en-words)"
+   },
+   {
+    "da": "alle",
+    "en": "all"
+   },
+   {
+    "da": "hver dag",
+    "en": "every day"
+   },
+   {
+    "da": "begge",
+    "en": "both"
+   }
+  ],
+  "sentence": {
+   "da": "Vi rejser **hvert** år til Sverige.",
+   "en": "We travel to Sweden every year."
+  }
+ },
+ "hvid": {
+  "forms": [
+   {
+    "da": "en hvid bil",
+    "en": "a white car"
+   },
+   {
+    "da": "et hvidt hus",
+    "en": "a white house"
+   },
+   {
+    "da": "hvide biler",
+    "en": "white cars"
+   }
+  ],
+  "explanation": "\"Hvid\" means white. Like most colour words, it gets a \"t\" with et-words (\"et hvidt hus\") and an \"e\" when there is more than one (\"hvide biler\"). The opposite is \"sort\" (black). Watch the \"hv\" at the start: the h is silent, so it sounds like \"vi(th)\".",
+  "related": [
+   {
+    "da": "sort",
+    "en": "black"
+   },
+   {
+    "da": "grå",
+    "en": "gray"
+   },
+   {
+    "da": "hvidvin",
+    "en": "white wine"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **hvid** kat.",
+   "en": "I have a white cat."
+  }
+ },
+ "hvidløg": {
+  "forms": [
+   {
+    "da": "hvidløg",
+    "en": "garlic"
+   },
+   {
+    "da": "hvidløget",
+    "en": "the garlic"
+   },
+   {
+    "da": "et fed hvidløg",
+    "en": "a clove of garlic"
+   }
+  ],
+  "explanation": "\"Hvidløg\" is garlic. It is built from \"hvid\" (white) and \"løg\" (onion), so it is literally a white onion. It is an et-word, so \"the garlic\" is \"hvidløget\". One clove is \"et fed hvidløg\". It is used for flavour in many dishes.",
+  "related": [
+   {
+    "da": "et løg",
+    "en": "an onion"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "hvid",
+    "en": "white"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg putter **hvidløg** i saucen.",
+   "en": "I put garlic in the sauce."
+  }
+ },
+ "hvilken": {
+  "forms": [
+   {
+    "da": "Hvilken bil?",
+    "en": "Which car?"
+   },
+   {
+    "da": "Hvilket hus?",
+    "en": "Which house?"
+   },
+   {
+    "da": "Hvilke bøger?",
+    "en": "Which books?"
+   }
+  ],
+  "explanation": "\"Hvilken\" means \"which\" and asks you to choose between things. It changes its ending to match the word that follows it: \"hvilken\" for en-words (hvilken bil), \"hvilket\" for et-words (hvilket hus), and \"hvilke\" for more than one (hvilke bøger). It is also used for \"what kind\" in questions like \"Hvilken farve?\" (Which colour?). Use \"hvad\" when you don't mean a choice.",
+  "related": [
+   {
+    "da": "hvad",
+    "en": "what"
+   },
+   {
+    "da": "hvem",
+    "en": "who"
+   },
+   {
+    "da": "denne",
+    "en": "this (en-word)"
+   },
+   {
+    "da": "dette",
+    "en": "this (et-word)"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvilken** farve kan du bedst lide?",
+   "en": "Which colour do you like best?"
+  }
+ },
+ "hvis": {
+  "forms": [
+   {
+    "da": "hvis det regner",
+    "en": "if it rains"
+   },
+   {
+    "da": "hvis du vil",
+    "en": "if you want"
+   },
+   {
+    "da": "hvis ikke",
+    "en": "if not"
+   }
+  ],
+  "explanation": "\"Hvis\" means if, and it sets a condition: \"Hvis det regner, bliver vi hjemme\". Do not mix it up with \"om\", which means \"whether\": \"Jeg ved ikke, om han kommer\". \"Hvis\" can also mean \"whose\", but \"if\" is far more common.",
+  "related": [
+   {
+    "da": "om",
+    "en": "whether"
+   },
+   {
+    "da": "når",
+    "en": "when"
+   },
+   {
+    "da": "ellers",
+    "en": "otherwise"
+   },
+   {
+    "da": "så",
+    "en": "then"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvis** det regner, bliver vi hjemme.",
+   "en": "If it rains, we stay at home."
+  }
+ },
+ "hvor": {
+  "forms": [
+   {
+    "da": "Hvor er du?",
+    "en": "Where are you?"
+   },
+   {
+    "da": "Hvor bor du?",
+    "en": "Where do you live?"
+   },
+   {
+    "da": "Hvor er toilettet?",
+    "en": "Where is the toilet?"
+   }
+  ],
+  "explanation": "\"Hvor\" means \"where\" and starts questions about a place, as in \"Hvor bor du?\" (Where do you live?). It also joins with other words: \"hvor meget\" (how much), \"hvor mange\" (how many), \"hvor gammel\" (how old). When you ask about direction, use \"hvorhen\" (where to) or \"hvor ... hen\". Danish uses \"hvor\" in many question starters, so it is worth learning well.",
+  "related": [
+   {
+    "da": "her",
+    "en": "here"
+   },
+   {
+    "da": "der",
+    "en": "there"
+   },
+   {
+    "da": "hvor meget",
+    "en": "how much"
+   },
+   {
+    "da": "hvor mange",
+    "en": "how many"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvor** bor du?",
+   "en": "Where do you live?"
+  }
+ },
+ "hvor er toilettet?": {
+  "forms": [
+   {
+    "da": "Hvor er toilettet?",
+    "en": "Where is the restroom?"
+   },
+   {
+    "da": "Hvor er toilettet henne?",
+    "en": "Where is the restroom, again?"
+   },
+   {
+    "da": "Det er derovre.",
+    "en": "It is over there."
+   }
+  ],
+  "explanation": "\"Hvor er toilettet?\" means \"where is the restroom?\". The word \"toilet\" is an et-word, and \"the\" is added on the end to give \"toilettet\". You may see \"WC\" on signs. Add \"henne\" for a natural, friendly feel. Say \"undskyld\" first to be polite.",
+  "related": [
+   {
+    "da": "et toilet",
+    "en": "a toilet"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
+   },
+   {
+    "da": "hvor?",
+    "en": "where?"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **hvor er toilettet?**",
+   "en": "Excuse me, where is the restroom?"
+  }
+ },
+ "hvor gammel er du?": {
+  "forms": [
+   {
+    "da": "Hvor gammel er du?",
+    "en": "How old are you?"
+   },
+   {
+    "da": "Jeg er tredive år gammel.",
+    "en": "I am thirty years old."
+   },
+   {
+    "da": "Hvor gammel er han?",
+    "en": "How old is he?"
+   }
+  ],
+  "explanation": "\"Hvor gammel er du?\" means \"How old are you?\" and it is built from \"hvor\" (how) and \"gammel\" (old). You answer with \"Jeg er ... år (gammel)\" (I am ... years old). The word \"år\" means \"year\", and in Danish you often leave out \"gammel\" in the answer. Danish uses \"er\" (am/are) here, not \"have\" as some languages do. It is fine with friends, but think about whether it fits with adults you don't know.",
+  "related": [
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "gammel",
+    "en": "old"
+   },
+   {
+    "da": "ung",
+    "en": "young"
+   },
+   {
+    "da": "jeg er … år",
+    "en": "I am … years old"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvor gammel er du?** - Jeg er tyve år.",
+   "en": "How old are you? - I am twenty years old."
+  }
+ },
+ "hvor kommer du fra?": {
+  "forms": [
+   {
+    "da": "Hvor kommer du fra?",
+    "en": "Where are you from?"
+   },
+   {
+    "da": "Hvor kommer han fra?",
+    "en": "Where does he come from?"
+   },
+   {
+    "da": "Hvor kommer I fra?",
+    "en": "Where do you all come from?"
+   }
+  ],
+  "explanation": "\"Hvor kommer du fra?\" means \"Where are you from?\" and literally \"Where do you come from?\". You answer with \"Jeg kommer fra ...\" and then the country or town. Note that \"fra\" stays at the end of the question, which is different from the way some English speakers might say it. It is a common way to start a conversation with someone new.",
+  "related": [
+   {
+    "da": "jeg kommer fra…",
+    "en": "I'm from…"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "hvor bor du?",
+    "en": "where do you live?"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvor kommer du fra?** - Jeg kommer fra England.",
+   "en": "Where are you from? - I'm from England."
+  }
+ },
+ "hvor meget koster det?": {
+  "forms": [
+   {
+    "da": "Hvor meget koster det?",
+    "en": "How much does it cost?"
+   },
+   {
+    "da": "Hvor meget koster den?",
+    "en": "How much does it cost? (an en-word)"
+   },
+   {
+    "da": "Hvor meget koster de?",
+    "en": "How much do they cost?"
+   }
+  ],
+  "explanation": "\"Hvor meget koster det?\" means \"How much does it cost?\" and is a must for shopping. \"At koste\" is the verb for \"to cost\". \"Det\" means \"it\". For an en-word you can say \"den\" instead, as in \"Hvor meget koster den?\", and for more than one thing, \"de\". The price is given in \"kroner\" (crowns), so you may hear \"tyve kroner\" (twenty kroner).",
+  "related": [
+   {
+    "da": "en krone",
+    "en": "a crown (Danish money)"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "dyr",
+    "en": "expensive"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **hvor meget koster det**?",
+   "en": "Excuse me, how much does it cost?"
+  }
+ },
+ "hvordan": {
+  "forms": [
+   {
+    "da": "Hvordan har du det?",
+    "en": "How are you?"
+   },
+   {
+    "da": "Hvordan gør man det?",
+    "en": "How do you do that?"
+   },
+   {
+    "da": "Hvordan staver man det?",
+    "en": "How do you spell that?"
+   }
+  ],
+  "explanation": "\"Hvordan\" means \"how\" and asks about the way something is done or what something is like. \"Hvordan har du det?\" is a common way to ask how someone is doing. \"Hvordan går det?\" means \"How is it going?\". Don't use \"hvordan\" for \"how much\" or \"how many\"; use \"hvor meget\" and \"hvor mange\" for those.",
+  "related": [
+   {
+    "da": "hvor meget",
+    "en": "how much"
+   },
+   {
+    "da": "hvor mange",
+    "en": "how many"
+   },
+   {
+    "da": "hvorfor",
+    "en": "why"
+   },
+   {
+    "da": "sådan",
+    "en": "like this / this way"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvordan** kommer jeg til stationen?",
+   "en": "How do I get to the station?"
+  }
+ },
+ "hvordan går det?": {
+  "forms": [
+   {
+    "da": "Hvordan går det?",
+    "en": "How's it going?"
+   },
+   {
+    "da": "Hvordan går det med dig?",
+    "en": "How are you doing?"
+   },
+   {
+    "da": "Det går fint, tak.",
+    "en": "It's going fine, thanks."
+   }
+  ],
+  "explanation": "\"Hvordan går det?\" means \"How's it going?\" and is a very common way to ask how someone is doing. It is friendlier and more casual than a long formal greeting. A normal answer is \"Det går godt, tak\" (It's going well, thanks), and you can add \"og dig?\" (and you?) to ask back. Another very common choice is \"Hvordan har du det?\".",
+  "related": [
+   {
+    "da": "det går godt",
+    "en": "it's going well"
+   },
+   {
+    "da": "hvordan har du det?",
+    "en": "how are you?"
+   },
+   {
+    "da": "og dig?",
+    "en": "and you?"
+   },
+   {
+    "da": "det går ok",
+    "en": "it's going OK"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvordan går det?** - Det går godt, tak.",
+   "en": "How's it going? - It's going well, thanks."
+  }
+ },
+ "hvordan har du det?": {
+  "forms": [
+   {
+    "da": "Hvordan har du det?",
+    "en": "How are you?"
+   },
+   {
+    "da": "Hvordan har I det?",
+    "en": "How are you (all)?"
+   },
+   {
+    "da": "Hvordan går det?",
+    "en": "How is it going?"
+   }
+  ],
+  "explanation": "The usual way to ask someone how they are. Literally it means \"how have you it?\". Answer with \"jeg har det godt\" or \"fint, tak\". With more than one person, say \"hvordan har I det?\". In a quick chat, Danes also say \"hvordan går det?\" (how is it going?).",
+  "related": [
+   {
+    "da": "jeg har det godt",
+    "en": "I'm doing well"
+   },
+   {
+    "da": "hvad med dig?",
+    "en": "what about you?"
+   },
+   {
+    "da": "hvordan går det?",
+    "en": "how's it going?"
+   },
+   {
+    "da": "fint, tak",
+    "en": "fine, thanks"
+   }
+  ],
+  "sentence": {
+   "da": "Hej Peter! **Hvordan har du det?**",
+   "en": "Hi Peter! How are you?"
+  }
+ },
+ "hvorfor": {
+  "forms": [
+   {
+    "da": "Hvorfor ikke?",
+    "en": "Why not?"
+   },
+   {
+    "da": "Hvorfor er du træt?",
+    "en": "Why are you tired?"
+   },
+   {
+    "da": "Hvorfor gør du det?",
+    "en": "Why do you do that?"
+   }
+  ],
+  "explanation": "\"Hvorfor\" means \"why\" and asks for a reason. The answer often starts with \"fordi\" (because). Note the order: after \"hvorfor\", the verb comes next, as in \"Hvorfor kommer du?\" (Why are you coming?). It is built from \"hvor\" and \"for\", which is why it has two parts. Short and handy: \"Hvorfor ikke?\" (Why not?).",
+  "related": [
+   {
+    "da": "fordi",
+    "en": "because"
+   },
+   {
+    "da": "derfor",
+    "en": "therefore / that is why"
+   },
+   {
+    "da": "hvad",
+    "en": "what"
+   },
+   {
+    "da": "hvordan",
+    "en": "how"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvorfor** er du så glad?",
+   "en": "Why are you so happy?"
+  }
+ },
+ "hvornår": {
+  "forms": [
+   {
+    "da": "Hvornår kommer du?",
+    "en": "When are you coming?"
+   },
+   {
+    "da": "Hvornår åbner butikken?",
+    "en": "When does the shop open?"
+   },
+   {
+    "da": "Fra hvornår?",
+    "en": "From when?"
+   }
+  ],
+  "explanation": "\"Hvornår\" means \"when\" in a question, as in \"Hvornår kommer toget?\" (When does the train come?). It only asks about time. For \"when\" in the middle of a sentence, as in \"I was happy when you came\", Danish uses \"da\" or \"når\" instead. A tip: the \"når\" part inside \"hvornår\" is a small clue that both words are about time.",
+  "related": [
+   {
+    "da": "når",
+    "en": "when (in a sentence, repeated or in the future)"
+   },
+   {
+    "da": "klokken",
+    "en": "o'clock"
+   },
+   {
+    "da": "i dag",
+    "en": "today"
+   },
+   {
+    "da": "hvor",
+    "en": "where"
+   }
+  ],
+  "sentence": {
+   "da": "**Hvornår** åbner butikken?",
+   "en": "When does the shop open?"
+  }
+ },
+ "hyggelig": {
+  "forms": [
+   {
+    "da": "en hyggelig aften",
+    "en": "a cozy evening"
+   },
+   {
+    "da": "et hyggeligt sted",
+    "en": "a cozy place"
+   },
+   {
+    "da": "hyggelige aftener",
+    "en": "cozy evenings"
+   }
+  ],
+  "explanation": "\"Hyggelig\" means cozy, pleasant or nice, and it comes from the Danish idea of \"hygge\". It describes a place, an evening or a person: \"Han er hyggelig\" is \"He is nice to be around\". With et-words it gets a \"t\" (\"et hyggeligt sted\"). There is no perfect English word for it.",
+  "related": [
+   {
+    "da": "hygge",
+    "en": "coziness"
+   },
+   {
+    "da": "dejlig",
+    "en": "lovely"
+   },
+   {
+    "da": "rar",
+    "en": "nice"
+   },
+   {
+    "da": "kedelig",
+    "en": "boring"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **hyggelig** aften.",
+   "en": "It was a cozy evening."
+  }
+ },
+ "hyggeligt at møde dig": {
+  "forms": [
+   {
+    "da": "Hyggeligt at møde dig.",
+    "en": "Nice to meet you."
+   },
+   {
+    "da": "Det er også hyggeligt.",
+    "en": "Nice to meet you too."
+   },
+   {
+    "da": "Hyggeligt at se dig.",
+    "en": "Nice to see you."
+   }
+  ],
+  "explanation": "\"Hyggeligt at møde dig\" is the phrase for \"nice to meet you\". The word \"hyggelig\" is a warm, cozy word that Danes love, and it fits many situations. Reply \"i lige måde\" or \"i lige måde, hyggeligt\". For a friend you already know, use \"hyggeligt at se dig\" instead.",
+  "related": [
+   {
+    "da": "hygge",
+    "en": "cosiness"
+   },
+   {
+    "da": "at møde",
+    "en": "to meet"
+   },
+   {
+    "da": "i lige måde",
+    "en": "same to you"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hedder Maja. **Hyggeligt at møde dig.**",
+   "en": "I'm Maja. Nice to meet you."
+  }
+ },
+ "håndbagage": {
+  "forms": [
+   {
+    "da": "håndbagagen",
+    "en": "the carry-on luggage"
+   },
+   {
+    "da": "min håndbagage",
+    "en": "my carry-on luggage"
+   },
+   {
+    "da": "kun håndbagage",
+    "en": "only carry-on luggage"
+   }
+  ],
+  "explanation": "\"Håndbagage\" is the small luggage you take with you on to a plane, built from \"hånd\" (hand) and \"bagage\" (luggage). It is an en-word with no plural, like \"bagage\". Airlines say \"Du må have en stk. håndbagage\" about the size and number you may bring.",
+  "related": [
+   {
+    "da": "bagage",
+    "en": "luggage"
+   },
+   {
+    "da": "en kuffert",
+    "en": "a suitcase"
+   },
+   {
+    "da": "en taske",
+    "en": "a bag"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg rejser kun med **håndbagage**.",
+   "en": "I am only travelling with carry-on luggage."
+  }
+ },
+ "håndbold": {
+  "forms": [
+   {
+    "da": "en håndbold",
+    "en": "a handball"
+   },
+   {
+    "da": "håndbolden",
+    "en": "the handball"
+   },
+   {
+    "da": "Jeg spiller håndbold.",
+    "en": "I play handball."
+   }
+  ],
+  "explanation": "\"Håndbold\" is handball, a team sport that is very popular in Denmark. The word is used without \"en\" when you talk about the sport: \"Jeg spiller håndbold\". It is built from \"hånd\" (hand) and \"bold\" (ball).",
+  "related": [
+   {
+    "da": "fodbold",
+    "en": "soccer"
+   },
+   {
+    "da": "en bold",
+    "en": "a ball"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "sport",
+    "en": "sport"
+   }
+  ],
+  "sentence": {
+   "da": "Hun spiller **håndbold** to gange om ugen.",
+   "en": "She plays handball twice a week."
+  }
+ },
+ "hår": {
+  "forms": [
+   {
+    "da": "et hår",
+    "en": "a hair"
+   },
+   {
+    "da": "håret",
+    "en": "the hair"
+   },
+   {
+    "da": "hår",
+    "en": "hairs"
+   },
+   {
+    "da": "hårene",
+    "en": "the hairs"
+   }
+  ],
+  "explanation": "\"Hår\" is hair, and it is an et-word. Unlike English, \"hår\" on your head is normally just \"håret\" (the hair): \"Hun har langt hår\" (She has long hair). One single strand is \"et hår\", and \"at have langt hår\" is the usual way to describe it.",
+  "related": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "en frisør",
+    "en": "a hairdresser"
+   },
+   {
+    "da": "lang",
+    "en": "long"
+   },
+   {
+    "da": "kort",
+    "en": "short"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har langt **hår**.",
+   "en": "She has long hair."
+  }
+ },
+ "hård": {
+  "forms": [
+   {
+    "da": "en hård seng",
+    "en": "a hard bed"
+   },
+   {
+    "da": "et hårdt valg",
+    "en": "a hard choice"
+   },
+   {
+    "da": "hårde sten",
+    "en": "hard stones"
+   }
+  ],
+  "explanation": "\"Hård\" means hard, either physically (hard like a rock) or hard to deal with (\"et hårdt job\"). With et-words it gets a \"t\" (\"et hårdt job\") and with more than one an \"e\" (\"hårde sten\"). Be careful: for \"hard\" meaning \"difficult\", Danes usually say \"svær\".",
+  "related": [
+   {
+    "da": "blød",
+    "en": "soft"
+   },
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
+   },
+   {
+    "da": "en sten",
+    "en": "a stone"
+   }
+  ],
+  "sentence": {
+   "da": "Sengen er for **hård**.",
+   "en": "The bed is too hard."
+  }
+ },
+ "høj": {
+  "forms": [
+   {
+    "da": "en høj mand",
+    "en": "a tall man"
+   },
+   {
+    "da": "et højt hus",
+    "en": "a tall house"
+   },
+   {
+    "da": "høje træer",
+    "en": "tall trees"
+   }
+  ],
+  "explanation": "\"Høj\" means tall or high, both for people and for things. With an et-word it takes \"-t\" (højt), and with many things \"-e\" (høje). \"Højt\" is also how you say \"loudly\": \"Tal højt\" means \"Speak loudly\". The opposite is \"lav\" (low or short), and \"højere\" means taller or higher.",
+  "related": [
+   {
+    "da": "lav",
+    "en": "low"
+   },
+   {
+    "da": "højere",
+    "en": "taller"
+   },
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "en bakke",
+    "en": "a hill"
+   }
+  ],
+  "sentence": {
+   "da": "Han er meget **høj**.",
+   "en": "He is very tall."
+  }
+ },
+ "højre": {
+  "forms": [
+   {
+    "da": "højre hånd",
+    "en": "right hand"
+   },
+   {
+    "da": "på højre side",
+    "en": "on the right side"
+   },
+   {
+    "da": "Han bruger sin højre arm.",
+    "en": "He uses his right arm."
+   }
+  ],
+  "explanation": "\"Højre\" means right, as in the right side or the right hand. It stays the same whatever word it describes. It is the opposite of \"venstre\" (left). For directions you usually say \"til højre\" (to the right), and \"højre\" can also be a word for the right side of the road.",
+  "related": [
+   {
+    "da": "venstre",
+    "en": "left (side)"
+   },
+   {
+    "da": "til højre",
+    "en": "to the right"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en side",
+    "en": "a side"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skriver med min **højre** hånd.",
+   "en": "I write with my right hand."
   }
  }
 }

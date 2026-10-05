@@ -8,10 +8,10 @@
 // `was` lists earlier names, so already-saved lessons are updated in place.
 export const STARTER_GRAMMAR = [
   {
-    name: "Noun gender: en and et",
-    was: ["En/et gender"],
+    name: "En-words and et-words",
+    was: ["En/et gender", "Noun gender: en and et"],
     level: 1,
-    rule: "Every Danish noun is either an en-word or an et-word. About three in four are en-words, but there's no reliable rule, so learn each noun with its en or et.",
+    rule: "Every Danish word for a thing is either an en-word or an et-word. About three in four are en-words, but there's no reliable rule, so learn each word with its en or et.",
     pattern: "**en** bil · **et** hus",
     examples: [
       ["Jeg har **en** hund.", "I have a dog."],
@@ -20,10 +20,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Definite form: -en and -et",
-    was: ["Definite articles as a suffix"],
+    name: "Saying “the”: -en and -et",
+    was: ["Definite articles as a suffix", "Definite form: -en and -et"],
     level: 1,
-    rule: "Danish says “the” with an ending on the noun, not a separate word. En-words add -en, et-words add -et (just -n or -t after an -e). In the plural, add -ne (or -ene if the plural has no ending).",
+    rule: "Danish says “the” with an ending on the word, not a separate word in front. En-words add -en, et-words add -et (just -n or -t after an -e). When there is more than one, add -ne (or -ene if the “more than one” form has no ending).",
     pattern: "bil → bil**en** · hus → hus**et** · biler → biler**ne**",
     examples: [
       ["Bil**en** er rød.", "The car is red."],
@@ -35,7 +35,7 @@ export const STARTER_GRAMMAR = [
     name: "Plurals: -er, -e or no ending",
     was: ["Plural noun patterns"],
     level: 1,
-    rule: "Most nouns add -er or -e in the plural, and some don't change at all. A few change their vowel, like mand → mænd, so learn the plural with the word.",
+    rule: "Most words add -er or -e in the plural (when there is more than one), and some don't change at all. A few change their vowel, like mand → mænd, so learn the plural with the word.",
     pattern: "bil → bil**er** · hund → hund**e** · år → år",
     examples: [
       ["Jeg har to **biler**.", "I have two cars."],
@@ -44,10 +44,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Present tense: add -r",
-    was: ["Present tense has one form for every subject"],
+    name: "Talking about now: add -r",
+    was: ["Present tense has one form for every subject", "Present tense: add -r"],
     level: 1,
-    rule: "For the present tense, add -r to the verb (the ending is the same for every person: jeg, du, han, hun, vi, I and de). A few common verbs are irregular, like er, har, kan, vil and skal.",
+    rule: "To talk about now, add -r to the base word of the verb (the form that comes after at). The ending is the same for every person: jeg, du, han, hun, vi, I and de. A few common verbs are irregular, like er, har, kan, vil and skal.",
     pattern: "at spise → spise**r** · at gå → gå**r**",
     examples: [
       ["Jeg **spiser** morgenmad.", "I eat breakfast."],
@@ -56,10 +56,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Negation: ikke",
-    was: ["Negation with ikke"],
+    name: "Saying not: ikke",
+    was: ["Negation with ikke", "Negation: ikke"],
     level: 1,
-    rule: "Ikke means “not”. In a normal sentence it comes right after the verb (after the subject, if the subject comes after the verb), and there's no helper word like English “don't”. If there is only one verb and the object is a pronoun like ham, hende or det, ikke goes after the pronoun: Jeg kender ham ikke (but Jeg kender ikke Peter). With two verbs it doesn't: Jeg kan ikke se ham.",
+    rule: "Ikke means “not”. In a normal sentence it comes right after the verb (after the person doing it, if that comes after the verb), and there's no helper word like English “don't”. If there is only one verb and the thing it happens to is a small word like ham, hende or det, ikke goes after that small word: Jeg kender ham ikke (but Jeg kender ikke Peter). With two verbs it doesn't: Jeg kan ikke se ham.",
     pattern: "verb + **ikke**",
     examples: [
       ["Jeg forstår **ikke**.", "I don't understand."],
@@ -71,7 +71,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Questions: verb first",
     level: 1,
-    rule: "For a yes/no question, put the verb first and the subject second. With a question word like hvad or hvor, the question word comes first and the verb second.",
+    rule: "For a yes/no question, put the verb first and the person doing it second. With a question word like hvad or hvor, the question word comes first and the verb second.",
     pattern: "Du taler dansk. → **Taler du** dansk?",
     examples: [
       ["**Taler du** dansk?", "Do you speak Danish?"],
@@ -80,10 +80,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Commands: the imperative",
-    was: ["Giving commands: the imperative"],
+    name: "Commands",
+    was: ["Giving commands: the imperative", "Commands: the imperative"],
     level: 1,
-    rule: "To tell someone to do something, use the verb without at and without its final -e. If that leaves a double consonant at the end, write just one (lukke → luk, komme → kom). It's the same for one person or several.",
+    rule: "To tell someone to do something, use the verb without at and without its final -e. If that leaves a double letter at the end, write just one (lukke → luk, komme → kom). It's the same for one person or several.",
     pattern: "lukke → **luk** · komme → **kom** · gå → **gå**",
     examples: [
       ["**Luk** døren!", "Close the door!"],
@@ -96,7 +96,7 @@ export const STARTER_GRAMMAR = [
     was: ["Der er — 'there is/are'"],
     level: 1,
     rule: "Der er means both “there is” and “there are”. It never changes, whether there's one thing or many.",
-    pattern: "**der er** + noun · **er der** …?",
+    pattern: "**der er** + the thing · **er der** …?",
     examples: [
       ["**Der er** en kat i haven.", "There is a cat in the garden."],
       ["**Der er** mange mennesker her.", "There are many people here."],
@@ -104,10 +104,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Pronouns: jeg and mig",
-    was: ["Personal pronouns: subject vs. object"],
+    name: "I and me: jeg and mig",
+    was: ["Personal pronouns: subject vs. object", "Pronouns: jeg and mig"],
     level: 1,
-    rule: "Most pronouns have one form for the person doing something and another for the person it's done to, like English I and me. Den and det (“it”) never change.",
+    rule: "Most of these small words (I, you, he, she, we, they) have one form for the person doing something and another for the person it's done to, like English I and me. Den and det (“it”) never change.",
     pattern: "jeg/**mig** · du/**dig** · han/**ham** · hun/**hende** · vi/**os** · I/**jer** · de/**dem**",
     examples: [
       ["Jeg kan se **dig**.", "I can see you."],
@@ -116,10 +116,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Possessives: min, mit, mine",
-    was: ["Possessive pronouns: min, mit, mine"],
+    name: "My and your: min, mit, mine",
+    was: ["Possessive pronouns: min, mit, mine", "Possessives: min, mit, mine"],
     level: 1,
-    rule: "Min, din and sin change to match the noun: min with en-words, mit with et-words, mine with plurals. Hans, hendes, vores, jeres and deres never change.",
+    rule: "Min, din and sin change to match the word they go with: min with en-words, mit with et-words, mine when there is more than one. Hans, hendes, vores, jeres and deres never change.",
     pattern: "**min** bil · **mit** hus · **mine** bøger",
     examples: [
       ["Det er **min** bil.", "It's my car."],
@@ -128,8 +128,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Modal verbs: kan, skal, vil, må",
-    was: ["Modal verbs + bare infinitive"],
+    name: "Verbs like kan, skal, vil, må",
+    was: ["Modal verbs + bare infinitive", "Modal verbs: kan, skal, vil, må"],
     level: 1,
     rule: "After kan, skal, vil or må, the next verb comes straight after, without at. Most other verbs need at before the next verb.",
     pattern: "**kan** svømme · prøver **at** svømme",
@@ -142,7 +142,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Question words",
     level: 1,
-    rule: "Question words come first, then the verb, then the subject. If the question word is the subject itself, the verb just follows it: Hvem kommer? The main ones are hvad (what), hvem (who), hvor (where), hvornår (when), hvorfor (why) and hvordan (how).",
+    rule: "Question words come first, then the verb, then the person or thing doing it. If the question word is itself the one doing it, the verb just follows it: Hvem kommer? The main ones are hvad (what), hvem (who), hvor (where), hvornår (when), hvorfor (why) and hvordan (how).",
     pattern: "**Hvor** bor **du**? · **Hvad** hedder **du**?",
     examples: [
       ["**Hvad** hedder du?", "What's your name?"],
@@ -221,7 +221,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Many and much: mange, meget",
     level: 1,
-    rule: "Mange goes with things you can count (plural). Meget goes with things you can't count (singular). The same split is få (few) and lidt (a little).",
+    rule: "Mange goes with things you can count (many cars, in the plural). Meget goes with things you can't count (much water). The same split is få (few) and lidt (a little).",
     pattern: "**mange** venner · **meget** vand · **få** biler · **lidt** tid",
     examples: [
       ["Jeg har **mange** venner.", "I have many friends."],
@@ -243,7 +243,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "It: den and det",
     level: 1,
-    rule: "For “it”, use den for an en-word and det for an et-word. Det is also used when there is no real subject, like the weather.",
+    rule: "For “it”, use den for an en-word and det for an et-word. Det is also used when there is no real person or thing doing it, like the weather.",
     pattern: "**Bilen** → **den** · **Huset** → **det** · **Det** regner",
     examples: [
       ["Hvor er bilen? **Den** er der.", "Where is the car? It is there."],
@@ -254,7 +254,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Jobs: no en or et",
     level: 1,
-    rule: "When you say what someone is, you usually leave out en or et. Add it back if you also use an adjective.",
+    rule: "When you say what someone is, you usually leave out en or et. Add it back if you also use a describing word.",
     pattern: "Jeg er **lærer** · Hun er **en** god **læge**",
     examples: [
       ["Jeg er lærer.", "I am a teacher."],
@@ -263,9 +263,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Ja, nej and jo: answering a negative question",
+    name: "Ja, nej and jo: answering a question with ikke",
+    was: ["Ja, nej and jo: answering a negative question"],
     level: 1,
-    rule: "After a question with ikke, Danish uses jo for 'yes' and nej for 'no'. Plain ja is for questions without a negative. So 'Er du ikke træt?' is answered 'Jo' if you are tired, and 'Nej' if you are not.",
+    rule: "After a question with ikke, Danish uses jo for 'yes' and nej for 'no'. Plain ja is for questions without ikke. So 'Er du ikke træt?' is answered 'Jo' if you are tired, and 'Nej' if you are not.",
     pattern: "Har du ikke tid? → **Jo**, det har jeg. · → **Nej**, det har jeg ikke.",
     examples: [
       ["Kan du ikke lide kaffe? **Jo**, jeg kan godt lide kaffe.", "Don't you like coffee? Yes, I do like coffee."],
@@ -274,7 +275,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Modal verbs: what they really mean",
+    name: "Kan, skal, vil, må: what they really mean",
+    was: ["Modal verbs: what they really mean"],
     level: 1,
     rule: "Kan means can (ability or permission), skal means must or is going to, vil means want to, and må means may or must. Bør means should. Trap: må ikke means must not, but behøver ikke (at) means you don't have to.",
     pattern: "må ikke = must not · **behøver ikke** at = don't have to · **bør** = should",
@@ -299,7 +301,7 @@ export const STARTER_GRAMMAR = [
     name: "Word order: verb second",
     was: ["V2 word order (verb-second)"],
     level: 2,
-    rule: "In a main sentence the verb is always the second part. If something else comes first, like a time, the subject moves to just after the verb.",
+    rule: "In a main sentence the verb is always the second part. If something else comes first, like a time, the person doing it moves to just after the verb.",
     pattern: "I dag **går jeg** i skole.",
     examples: [
       ["Jeg **går** i skole i dag.", "I go to school today."],
@@ -308,10 +310,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adjectives: -t and -e endings",
-    was: ["Adjective agreement"],
+    name: "Describing words: -t and -e endings",
+    was: ["Adjective agreement", "Adjectives: -t and -e endings"],
     level: 2,
-    rule: "In the indefinite form (after en/et, or with no article) adjectives change to match the noun: no ending with en-words, -t with et-words, and -e with plurals. After den, det, de or words like min/din, it is always -e (den store bil, det store hus). Nationality words and adjectives in -isk (dansk, typisk), and adjectives already ending in -t (flot), don't add -t.",
+    rule: "A describing word changes to match the thing it describes when it comes after en/et, or with no “the” word: no ending with en-words, -t with et-words, and -e when there is more than one. After den, det, de or words like min/din, it is always -e (den store bil, det store hus). Words for nationalities, words ending in -isk (dansk, typisk), and words already ending in -t (flot), don't add -t.",
     pattern: "en stor bil · et stor**t** hus · stor**e** huse",
     examples: [
       ["Det er en **stor** hund.", "It's a big dog."],
@@ -320,10 +322,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Definite + adjective: den store hund",
-    was: ["Double definiteness with adjectives"],
+    name: "“The” + describing word: den store hund",
+    was: ["Double definiteness with adjectives", "Definite + adjective: den store hund"],
     level: 2,
-    rule: "With an adjective, “the” becomes a separate word in front (den, det or de) and the adjective takes -e. The noun then has no -en or -et ending.",
+    rule: "With a describing word, “the” becomes a separate word in front (den, det or de) and the describing word takes -e. The word for the thing then has no -en or -et ending.",
     pattern: "**den** stor**e** hund · **det** stor**e** hus · **de** stor**e** huse",
     examples: [
       ["**Den store** hund sover.", "The big dog is sleeping."],
@@ -335,7 +337,7 @@ export const STARTER_GRAMMAR = [
     name: "Comparison: -ere and -est",
     was: ["Comparing adjectives: -ere and -est"],
     level: 2,
-    rule: "Add -ere for “more” and -est for “most” (before a noun with den/det/de, the superlative takes -e: den varmeste). Long adjectives use mere and mest instead, and a few common ones are irregular, like god, bedre, bedst.",
+    rule: "Add -ere for “more” and -est for “most” (when den/det/de comes in front, the -est form takes -e: den varmeste). Long describing words use mere and mest instead, and a few common ones are irregular, like god, bedre, bedst.",
     pattern: "varm → varm**ere** → varm**est**",
     examples: [
       ["Min bil er **hurtigere** end din.", "My car is faster than yours."],
@@ -344,10 +346,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Past tense: -ede and -te",
-    was: ["Simple past of regular verbs"],
+    name: "Talking about the past: -ede and -te",
+    was: ["Simple past of regular verbs", "Past tense: -ede and -te"],
     level: 2,
-    rule: "Most verbs add -ede or -te for the past tense, so learn which with each verb. Many common verbs are irregular, like gik and så.",
+    rule: "To talk about the past, most verbs add -ede or -te to the base word, so learn which with each verb. Many common verbs are irregular, like gik and så.",
     pattern: "arbejd**ede** · spis**te** · gik",
     examples: [
       ["Jeg **arbejdede** i går.", "I worked yesterday."],
@@ -356,10 +358,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Present perfect: har or er",
-    was: ["Present perfect: har vs. er"],
+    name: "Have done: har or er",
+    was: ["Present perfect: har vs. er", "Present perfect: har or er"],
     level: 2,
-    rule: "Use har with the “done” form of the verb (the participle), like English “have done”. Verbs about moving somewhere or changing, like rejse and blive, usually use er.",
+    rule: "Use har with the “have” form of the verb (the one that ends like spist, købt or gået), like English “have done”. Verbs about moving somewhere or changing, like rejse and blive, usually use er.",
     pattern: "**har** spist · **er** rejst · **er** blevet",
     examples: [
       ["Jeg **har spist**.", "I have eaten."],
@@ -371,7 +373,7 @@ export const STARTER_GRAMMAR = [
     name: "Word order: after at, fordi, hvis",
     was: ["Word order after fordi, hvis, når, at"],
     level: 2,
-    rule: "After at, fordi, hvis, når and da, the order is subject, then ikke or a short adverb, then the verb. This is different from a main sentence, where the verb comes before ikke.",
+    rule: "After at, fordi, hvis, når and da, the order is the person doing it, then ikke or a short word like altid, then the verb. This is different from a main sentence, where the verb comes before ikke.",
     pattern: "…, fordi jeg **ikke har** tid.",
     examples: [
       ["Jeg bliver hjemme, fordi jeg **ikke har** tid.", "I'm staying home because I don't have time."],
@@ -382,7 +384,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Future: skal and kommer til at",
     level: 2,
-    rule: "Danish often uses the present tense for the future. Skal is used for plans, and kommer til at for what's going to happen.",
+    rule: "Danish often uses the same form as for now when talking about the future. Skal is used for plans, and kommer til at for what's going to happen.",
     pattern: "jeg **ringer** i morgen · vi **skal** … · det **kommer til at** …",
     examples: [
       ["Jeg **ringer** i morgen.", "I'll call tomorrow."],
@@ -391,9 +393,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Reflexive verbs: sig",
+    name: "Doing it to yourself: sig, mig, dig",
+    was: ["Reflexive verbs: sig"],
     level: 2,
-    rule: "Some verbs need a word for “oneself”: mig, dig, sig, os or jer. Sig is used for han, hun, den, det and de. English often leaves it out.",
+    rule: "Some verbs need a small word for “oneself”: mig, dig, sig, os or jer. Sig is used for han, hun, den, det and de. English often leaves it out.",
     pattern: "jeg glæder **mig** · han glæder **sig** · vi glæder **os**",
     examples: [
       ["Jeg glæder **mig**.", "I'm looking forward to it."],
@@ -402,8 +405,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Placing vs. position verbs: lægge/ligge",
-    was: ["Lægge/ligge, sætte/sidde, stille/stå", "Putting vs. being: lægge and ligge"],
+    name: "Putting vs. being: lægge/ligge",
+    was: ["Lægge/ligge, sætte/sidde, stille/stå", "Putting vs. being: lægge and ligge", "Placing vs. position verbs: lægge/ligge"],
     level: 2,
     rule: "Danish has pairs of verbs: one for putting something somewhere, one for where it is. Lægge, sætte and stille are the action; ligge, sidde and stå are the position.",
     pattern: "**lægge** → ligge · **sætte** → sidde · **stille** → stå",
@@ -414,9 +417,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Past participles: -et and -t",
+    name: "The “have” form: -et and -t",
+    was: ["Past participles: -et and -t"],
     level: 2,
-    rule: "The “done” form (participle) of a verb ends in -et if the past tense ends in -ede, and in -t if it ends in -te. Irregular verbs have their own, like gået and set.",
+    rule: "The “have” form of a verb (the one you use after har) ends in -et if the past form ends in -ede, and in -t if it ends in -te. Irregular verbs have their own, like gået and set.",
     pattern: "arbejde → arbejd**et** · købe → købt · gå → gået",
     examples: [
       ["Jeg har arbejd**et**.", "I have worked."],
@@ -425,9 +429,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adverbs: the -t form",
+    name: "Saying how: the -t form",
+    was: ["Adverbs: the -t form"],
     level: 2,
-    rule: "To say how something is done, Danish often uses the same -t form of the adjective as et-words do. Some adverbs, like flot, already end in t.",
+    rule: "To say how something is done, Danish often uses the same -t form of the describing word as et-words do. Some, like flot, already end in t.",
     pattern: "hurtig → hurtig**t** · god → god**t**",
     examples: [
       ["Han taler hurtig**t**.", "He speaks quickly."],
@@ -436,10 +441,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Det er + adjective: the -t ending",
-    was: ["Det is + adjective with -t"],
+    name: "Det er + describing word: the -t ending",
+    was: ["Det is + adjective with -t", "Det er + adjective: the -t ending"],
     level: 2,
-    rule: "When det (or a whole activity) is the subject and no noun follows, the adjective takes -t, even though there is no et-word.",
+    rule: "When a sentence starts with det (or an activity like at rejse) and no thing is named, the describing word takes -t, even though there is no et-word.",
     pattern: "Det er dyr**t** · At rejse er dyr**t**",
     examples: [
       ["Det er dejlig**t**.", "It's lovely."],
@@ -448,7 +453,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Equal comparisons: lige så … som",
+    name: "As … as: lige så … som",
+    was: ["Equal comparisons: lige så … som"],
     level: 2,
     rule: "To say two things are equal, use lige så and som. To say one is less, use ikke så and som.",
     pattern: "**lige så** høj **som** · **ikke så** høj **som**",
@@ -459,9 +465,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Compound words",
+    name: "Long glued-together words",
+    was: ["Compound words"],
     level: 2,
-    rule: "Danish glues words together into one long word. The new word takes the gender of the last part, and sometimes an -s- or -e- joins the parts.",
+    rule: "Danish glues words together into one long word. The new word is an en-word or an et-word according to its last part, and sometimes an -s- or -e- joins the parts.",
     pattern: "bil + nøgle = **bilnøgle** · arbejde + dag = **arbejdsdag**",
     examples: [
       ["en **bilnøgle**", "a car key"],
@@ -481,9 +488,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Verbs with particles: stå op, tage på",
+    name: "Verbs with a small extra word: stå op, tage på",
+    was: ["Verbs with particles: stå op, tage på"],
     level: 2,
-    rule: "Many Danish verbs have a small word that goes with them, like stå op (get up) or tage på (put on). If the verb has an object, the object goes between the verb and the small word, even in the infinitive: tage jakken på, tage den på. (This doesn't apply when the small word is an ordinary preposition, as in vente på bussen.)",
+    rule: "Many Danish verbs have a small word that goes with them, like stå op (get up) or tage på (put on). If the thing the action happens to is named, it goes between the verb and the small word, even after at: tage jakken på, tage den på. (This doesn't apply when the small word is an ordinary linking word, as in vente på bussen.)",
     pattern: "at **stå op** · Jeg **står op** · at tage jakken **på**",
     examples: [
       ["Jeg **står op** klokken syv.", "I get up at seven."],
@@ -494,7 +502,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Questions inside a sentence",
     level: 2,
-    rule: "A question inside a longer sentence keeps the normal order: subject, then the verb. Use om for yes/no questions (“whether”).",
+    rule: "A question inside a longer sentence keeps the normal order: the person doing it, then the verb. Use om for yes/no questions (“whether”).",
     pattern: "Jeg ved ikke, **hvor han bor**.",
     examples: [
       ["Jeg ved ikke, **hvor han bor**.", "I don't know where he lives."],
@@ -503,9 +511,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Ordinal numbers and dates",
+    name: "First, second, third: numbers and dates",
+    was: ["Ordinal numbers and dates"],
     level: 2,
-    rule: "Ordinals are første, anden, tredje, fjerde, femte and so on. Dates use den plus the ordinal, as in 'den første maj', and are written 1. maj. Anden changes to andet with et-words, as in det andet hus.",
+    rule: "The words for first, second, third are første, anden, tredje, fjerde, femte and so on. Dates use den plus that word, as in 'den første maj', and are written 1. maj. Anden changes to andet with et-words, as in det andet hus.",
     pattern: "**første** · **anden/andet** · **tredje** · **fjerde** · den **første** maj = 1. maj",
     examples: [
       ["Min fødselsdag er **den første** maj.", "My birthday is on the first of May."],
@@ -516,7 +525,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Man: one, you, they",
     level: 2,
-    rule: "Man is a general subject meaning 'one', 'you' or 'people'. It takes the same verb form as han and hun. It is only used as a subject, so after a verb or preposition Danish uses en instead.",
+    rule: "Man is a general word for the person doing it, meaning 'one', 'you' or 'people'. It takes the same verb form as han and hun. It is only used for the person doing it, so after a verb or a small linking word Danish uses en instead.",
     pattern: "**man** + verb · **man** kan · kan **man**?",
     examples: [
       ["**Man** kan ikke parkere her.", "You can't park here."],
@@ -525,9 +534,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Strong verbs: drikke, drak, drukket",
+    name: "Verbs that change their vowel: drikke, drak, drukket",
+    was: ["Strong verbs: drikke, drak, drukket"],
     level: 2,
-    rule: "Many common verbs do not add -ede or -te in the past. Instead the vowel changes, and the 'have' form (the past participle) usually ends in -et. These must be learned one by one.",
+    rule: "Many common verbs do not add -ede or -te for the past. Instead the vowel changes, and the 'have' form usually ends in -et. These must be learned one by one.",
     pattern: "drikke → **drak** → **drukket** · skrive → **skrev** → **skrevet** · finde → **fandt** → **fundet**",
     examples: [
       ["I går **drak** jeg to kopper kaffe.", "Yesterday I drank two cups of coffee."],
@@ -536,9 +546,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Frequency adverbs: altid, aldrig, ofte",
+    name: "How often: altid, aldrig, ofte",
+    was: ["Frequency adverbs: altid, aldrig, ofte"],
     level: 2,
-    rule: "Altid (always), ofte (often), nogle gange (sometimes), sjældent (rarely) and aldrig (never) usually come right after the verb in a main clause. In a clause after at or fordi they come before the verb. If one starts the sentence, the verb comes next.",
+    rule: "Altid (always), ofte (often), nogle gange (sometimes), sjældent (rarely) and aldrig (never) usually come right after the verb in a main sentence. In a part of a sentence after at or fordi they come before the verb. If one starts the sentence, the verb comes next.",
     pattern: "Jeg tager **altid** bussen · ..., at jeg **altid** tager bussen · **Nogle gange** tager jeg bussen",
     examples: [
       ["Jeg spiser **altid** morgenmad.", "I always eat breakfast."],
@@ -547,7 +558,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Time prepositions: i, om, på, til, fra",
+    name: "Time words: i, om, på, til, fra",
+    was: ["Time prepositions: i, om, på, til, fra"],
     level: 2,
     rule: "Use i for the recent past and for lengths of time (i går, i en time), om for 'in' a stretch of time from now (om en uge), på for coming weekdays (på mandag = next Monday), and til for holidays and deadlines (til jul). Fra means from, and efter and før mean after and before.",
     pattern: "**i** går · **om** en uge · **på** mandag · **til** jul · **fra** ni **til** fem · **efter** / **før** arbejde",
@@ -580,7 +592,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Prepositions at the end of questions",
+    name: "Little words at the end of questions",
+    was: ["Prepositions at the end of questions"],
     level: 2,
     rule: "In questions with hvad, hvem or hvor, Danish usually leaves the little word (om, med, på, efter) at the very end, just like casual English. Do not move it to the front the way a textbook English sentence might.",
     pattern: "Hvad taler du **om**? · Hvem bor du sammen **med**? · Hvad leder du **efter**?",
@@ -602,9 +615,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Irregular plurals: børn, mænd, fødder",
+    name: "Odd plurals: børn, mænd, fødder",
+    was: ["Irregular plurals: børn, mænd, fødder"],
     level: 2,
-    rule: "A few common nouns change their vowel in the plural and must simply be learned. Some nouns, especially many et-words like år (year) and ben (leg), do not change at all in the plural.",
+    rule: "A few common words change their vowel in the plural and must simply be learned. Some words, especially many et-words like år (year) and ben (leg), do not change at all in the plural.",
     pattern: "barn → **børn** · mand → **mænd** · fod → **fødder** · bog → **bøger** · et år → to **år**",
     examples: [
       ["Vi har to **børn**.", "We have two children."],
@@ -615,7 +629,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "If: hvis",
     level: 2,
-    rule: "Hvis (if) is followed by subject and verb. In the main part that comes after, the verb comes first. For something unlikely or imaginary, use the past tense after hvis and ville in the main part.",
+    rule: "Hvis (if) is followed by the person doing it and then the verb. In the main part that comes after, the verb comes first. For something unlikely or imaginary, use the past form after hvis and ville in the main part.",
     pattern: "**Hvis** jeg har tid, **kommer** jeg.",
     examples: [
       ["**Hvis** det regner, bliver vi hjemme.", "If it rains, we'll stay home."],
@@ -626,7 +640,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Who and which: som",
     level: 2,
-    rule: "Som links a description to a noun. It means “who”, “which” or “that”. It can't be left out if it's the subject, but it can be left out if it's the object.",
+    rule: "Som links a description to a person or thing. It means “who”, “which” or “that”. It can't be left out if it stands for the one doing the action, but it can be left out if it stands for the thing the action happens to.",
     pattern: "Manden, **som** bor her, er lærer.",
     examples: [
       ["Manden, **som** bor her, er lærer.", "The man who lives here is a teacher."],
@@ -635,9 +649,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "The passive: -s and blive",
+    name: "Something is done to it: -s and blive",
+    was: ["The passive: -s and blive"],
     level: 3,
-    rule: "To say something is done to something, add -s to the infinitive (lukke → lukkes) or use blive plus the past participle (bliver lukket). The -s form is used for things that happen generally or as a rule, and is common in writing, signs, instructions and after modal verbs (kan ses). Blive is used for a specific event and is more common in everyday speech, including the past tense (blev bygget).",
+    rule: "To say something is done to something, add -s to the base word of the verb (lukke → lukkes) or use blive plus the “have” form (bliver lukket). The -s form is used for things that happen generally or as a rule, and is common in writing, signs, instructions and after kan, skal, må, vil (kan ses). Blive is used for a specific event and is more common in everyday speech, including the past (blev bygget).",
     pattern: "Døren lukke**s** · Huset **bliver** bygget",
     examples: [
       ["Døren lukke**s** klokken seks.", "The door is closed at six (every day)."],
@@ -660,7 +675,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "His own or someone else's: sin and hans",
     level: 3,
-    rule: "Sin, sit and sine mean “his/her own” and point back to the subject. Hans and hendes mean someone else's. For “their”, use deres.",
+    rule: "Sin, sit and sine mean “his/her own” and point back to the person doing it. Hans and hendes mean someone else's. For “their”, use deres.",
     pattern: "Han tager **sin** bog · Hun ser **hans** bog",
     examples: [
       ["Han tager **sin** bog.", "He takes his (own) book."],
@@ -669,9 +684,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Past perfect: havde and var",
+    name: "Had done: havde and var",
+    was: ["Past perfect: havde and var"],
     level: 3,
-    rule: "For something that happened before another past event, use havde or var with the participle. It works like har and er in the present perfect.",
+    rule: "For something that happened before another event in the past, use havde or var with the “have” form of the verb. It works like har and er in “have done”.",
     pattern: "Jeg **havde** spist · Hun **var** rejst",
     examples: [
       ["Jeg **havde** spist, da han kom.", "I had eaten when he came."],
@@ -691,9 +707,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Der as a placeholder subject",
+    name: "Starting with der: Der kommer en bus",
+    was: ["Der as a placeholder subject"],
     level: 3,
-    rule: "When the subject is something new or unspecified (en bus, noget), Danish often starts with der and puts the real subject after the verb. This is common with verbs like komme, bo and ske, and in passives. With a known subject, skip der: Bussen kommer.",
+    rule: "When the person or thing doing it is something new or unspecified (en bus, noget), Danish often starts with der and puts the real one after the verb. This is common with verbs like komme, bo and ske, and when something is done to something (Der blev sagt noget). With a known one, skip der: Bussen kommer.",
     pattern: "**Der** kommer en bus · **Der** bor en dame her · **Der** blev sagt noget",
     examples: [
       ["**Der** kommer en bus om fem minutter.", "A bus is coming in five minutes."],
@@ -704,7 +721,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Highlighting: det er ... der/som",
     level: 3,
-    rule: "To stress one part of a sentence, start with Det er, then the word you want to highlight, then a clause. If the highlighted word is the one doing the action, use der. If it is the object, use som, or often nothing at all.",
+    rule: "To stress one part of a sentence, start with Det er, then the word you want to highlight, then the rest. If the highlighted word is the one doing the action, use der. If it is the thing the action happens to, use som, or often nothing at all.",
     pattern: "**Det er** mig, **der** har ret · **Det er** bilen, **som** jeg vil have",
     examples: [
       ["**Det er** mig, **der** har ret.", "I am the one who is right."],
@@ -713,7 +730,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Verbs with fixed prepositions",
+    name: "Verbs with a set small word",
+    was: ["Verbs with fixed prepositions"],
     level: 3,
     rule: "Many Danish verbs always come with a particular small word, and it often differs from English, so learn them as pairs. Common ones: tænke på, vente på, tale om, lede efter, glæde sig til and drømme om.",
     pattern: "tænke **på** · vente **på** · tale **om** · lede **efter** · glæde sig **til** · drømme **om**",
@@ -724,9 +742,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adjectives with fixed prepositions",
+    name: "Describing words with a set small word",
+    was: ["Adjectives with fixed prepositions"],
     level: 3,
-    rule: "Like verbs, many adjectives take a set small word: glad for, god til, interesseret i, ked af and træt af. They often differ from English, for example god til means 'good at'. Ked af can mean sad or sorry.",
+    rule: "Like verbs, many describing words take a set small word: glad for, god til, interesseret i, ked af and træt af. They often differ from English, for example god til means 'good at'. Ked af can mean sad or sorry.",
     pattern: "glad **for** · god **til** · interesseret **i** · ked **af** · træt **af**",
     examples: [
       ["Jeg er **glad for** min nye lejlighed.", "I am happy with my new flat."],
@@ -735,10 +754,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Modal particles: jo, nok, vel, bare",
-    was: ["Flavour words: jo, nok, vel, bare", "Attitude words: jo, nok, vel, bare"],
+    name: "Little attitude words: jo, nok, vel, bare",
+    was: ["Flavour words: jo, nok, vel, bare", "Attitude words: jo, nok, vel, bare", "Modal particles: jo, nok, vel, bare"],
     level: 3,
-    rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main clause they come right after the verb, or after the subject if the subject follows the verb (Det ved du jo godt), and before ikke: Det er jo ikke sandt. You can't translate them word for word, so learn them in whole sentences.",
+    rule: "Small words like jo (as you know), nok (probably), vel (I suppose), bare (just), altså (so, I mean) and skam (really, in fact) add attitude rather than facts. In a main sentence they come right after the verb, or after the person doing it if that comes after the verb (Det ved du jo godt), and before ikke: Det er jo ikke sandt. You can't translate them word for word, so learn them in whole sentences.",
     pattern: "Det er **jo** ikke sandt · Han kommer **nok** · Det er **vel** i orden?",
     examples: [
       ["Det er **jo** ikke min skyld.", "It's not my fault, you know."],
@@ -747,9 +766,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Modals in the perfect: har kunnet",
+    name: "Have been able to: har kunnet",
+    was: ["Modals in the perfect: har kunnet"],
     level: 3,
-    rule: "To say 'have been able to / wanted to / had to', use har plus the special participle: kunnet, villet, skullet, måttet. For 'should have / could have done', use the past modal plus have and a participle: 'skulle have ringet' means should have called.",
+    rule: "To say 'have been able to / wanted to / had to', use har plus the special “have” form: kunnet, villet, skullet, måttet. For 'should have / could have done', use the past form of kan, skal or vil plus have and the “have” form: 'skulle have ringet' means should have called.",
     pattern: "har ikke **kunnet** komme · skulle **have ringet** · kunne **have sagt**",
     examples: [
       ["Jeg har ikke **kunnet** komme i dag.", "I haven't been able to come today."],
@@ -758,10 +778,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Future in the past: ville and skulle",
-    was: ["Would-be: ville and skulle in the past"],
+    name: "Looking ahead from the past: ville and skulle",
+    was: ["Would-be: ville and skulle in the past", "Future in the past: ville and skulle"],
     level: 3,
-    rule: "After a past-tense verb like sagde or troede, Danish uses ville for 'would' (future seen from the past): 'Han sagde, at han ville komme'. Skulle can mean 'was supposed to' or 'was going on to', as in 'Hun skulle senere blive læge'. Ville also gives polite or hypothetical 'would' with hvis.",
+    rule: "After a verb about the past like sagde or troede, Danish uses ville for 'would' (looking ahead from the past): 'Han sagde, at han ville komme'. Skulle can mean 'was supposed to' or 'was going on to', as in 'Hun skulle senere blive læge'. Ville also gives polite or imaginary 'would' with hvis.",
     pattern: "Han sagde, at han **ville** komme · Hun **skulle** blive læge",
     examples: [
       ["Han sagde, at han **ville** komme senere.", "He said that he would come later."],
@@ -770,9 +790,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Past participle as adjective: en lukket dør",
+    name: "The “have” form as a describing word: en lukket dør",
+    was: ["Past participle as adjective: en lukket dør"],
     level: 3,
-    rule: "A past participle (the verb form used after har, like lukket) can also work as an adjective. It stays the same with en- and et-words. In the plural and after den/det, -et usually becomes -ede (lukkede) and -t adds -e (brugte). Some irregular verbs use -ne instead (skrevet → skrevne, stjålet → stjålne).",
+    rule: "The “have” form of a verb (the one used after har, like lukket) can also describe a thing. It stays the same with en- and et-words. When there is more than one, and after den/det, -et usually becomes -ede (lukkede) and -t adds -e (brugte). Some irregular verbs use -ne instead (skrevet → skrevne, stjålet → stjålne).",
     pattern: "en **lukket** dør · et **lukket** vindue · **ødelagte** planer",
     examples: [
       ["Jeg fandt en **glemt** nøgle på bordet.", "I found a forgotten key on the table."],
@@ -781,9 +802,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Present participle: -ende",
+    name: "The -ing form: -ende",
+    was: ["Present participle: -ende"],
     level: 3,
-    rule: "Add -nde to the infinitive (the 'to' form) to make words like spændende (exciting); if the infinitive doesn't end in -e, add -ende (gå → gående). It works as an adjective or describes how someone does something: 'Hun kom grædende'. It does not replace English '-ing' for actions in progress: 'I am reading' is just 'Jeg læser'.",
+    rule: "Add -nde to the base word (the form after at) to make words like spændende (exciting); if the base word doesn't end in -e, add -ende (gå → gående). It works as a describing word or says how someone does something: 'Hun kom grædende'. It does not replace English '-ing' for things in progress: 'I am reading' is just 'Jeg læser'.",
     pattern: "spænde → **spændende** · rinde → **rindende** · græde → **grædende**",
     examples: [
       ["Filmen var meget **spændende**.", "The film was very exciting."],
@@ -792,9 +814,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Relative clauses with prepositions and hvis",
+    name: "Who, which, whose: the little word at the end",
+    was: ["Relative clauses with prepositions and hvis"],
     level: 3,
-    rule: "In 'the man I talk to', the preposition goes at the end of the relative clause: 'den mand, jeg taler med'. Som can be left out when it stands for the object, not the subject. For 'whose' use hvis, which never changes for gender or number.",
+    rule: "In 'the man I talk to', the little word goes at the end: 'den mand, jeg taler med'. Som can be left out when it stands for the thing the action happens to, not the one doing it. For 'whose' use hvis, which never changes for en-words, et-words or more than one.",
     pattern: "den mand (som) jeg taler **med** · en pige, **hvis** far er pilot",
     examples: [
       ["Det er den mand, jeg taler **med**.", "That is the man I'm talking to."],
@@ -805,7 +828,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "The more…the more: jo … desto",
     level: 3,
-    rule: "Use jo plus a comparative, then desto (or jo) plus a comparative: 'the more…the more'. After desto + adjective the verb comes before the subject. For 'more and more', use stadig plus flere (with plural nouns) or mere.",
+    rule: "Use jo plus a “more” word (mere, før, bedre), then desto (or jo) plus another: 'the more…the more'. After desto and a describing word, the verb comes before the person doing it. For 'more and more', use stadig plus flere (when there is more than one) or mere.",
     pattern: "**jo** mere … **desto** bedre · **stadig flere** turister",
     examples: [
       ["**Jo** mere jeg øver mig, **desto** bedre bliver jeg.", "The more I practise, the better I get."],
@@ -814,9 +837,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Object first for emphasis: Bogen har jeg læst",
+    name: "Thing first for emphasis: Bogen har jeg læst",
+    was: ["Object first for emphasis: Bogen har jeg læst"],
     level: 3,
-    rule: "To stress or contrast something, you can start with the object instead of the subject. The verb must still come second, so the subject moves behind it: 'Bogen har jeg læst'. Words like ikke and aldrig keep their place after the subject.",
+    rule: "To stress or contrast something, you can start with the thing the action happens to instead of the person doing it. The verb must still come second, so the person doing it moves behind it: 'Bogen har jeg læst'. Words like ikke and aldrig keep their place after the person doing it.",
     pattern: "Jeg har læst bogen → **Bogen** har jeg læst",
     examples: [
       ["**Bogen** har jeg læst, men ikke filmen.", "I've read the book, but not the film."],
@@ -827,7 +851,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Så, derfor, alligevel: verb comes next",
     level: 3,
-    rule: "Adverbs such as så (then), derfor (therefore), alligevel (anyway) and dog (however, formal) are not like og or men. When they start a clause, the verb must come right after them, before the subject: 'Derfor bliver jeg'.",
+    rule: "Small words such as så (then), derfor (therefore), alligevel (anyway) and dog (however, formal) are not like og or men. When they start a part of a sentence, the verb must come right after them, before the person doing it: 'Derfor bliver jeg'.",
     pattern: "og **så gik** vi · **Derfor bliver** jeg · **Alligevel gik** vi",
     examples: [
       ["Først spiste vi, og **så gik** vi en tur.", "First we ate, and then we went for a walk."],
@@ -836,9 +860,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Tag questions: ikke? and ikke sandt?",
+    name: "Checking questions: ikke? and ikke sandt?",
+    was: ["Tag questions: ikke? and ikke sandt?"],
     level: 3,
-    rule: "To check that someone agrees, add a short tag at the end: ikke?, ikke sandt? (a bit more formal) or the casual ikke også?. Use jo to say yes to a negative question or statement, and never as a plain yes to a positive one.",
+    rule: "To check that someone agrees, add a short tag at the end: ikke?, ikke sandt? (a bit more formal) or the casual ikke også?. Use jo to say yes to a question or statement with ikke in it, and never as a plain yes to a positive one.",
     pattern: "Det er koldt, **ikke**? · Du kommer, **ikke sandt**? · Kommer du ikke? – **Jo**!",
     examples: [
       ["Det er koldt i dag, **ikke**?", "It's cold today, isn't it?"],
@@ -849,7 +874,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Negative words: ingen, intet, aldrig",
     level: 2,
-    rule: "Use ingen (no, for en-words and plurals), intet (no, for et-words, rather formal), ingenting (nothing) and aldrig (never). Danish does not stack negatives: use either ingen/ingenting, or ikke nogen/ikke noget, but not both together.",
+    rule: "Use ingen (no, for en-words and when there is more than one), intet (no, for et-words, rather formal), ingenting (nothing) and aldrig (never). Danish does not pile up “no” words: use either ingen/ingenting, or ikke nogen/ikke noget, but not both together.",
     pattern: "ingen penge = ikke nogen penge · ingenting = ikke noget · aldrig + noget",
     examples: [
       ["Jeg har **ingen** penge på mig.", "I have no money on me."],
@@ -860,7 +885,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Quantity words: nogen, nogle, noget",
     level: 2,
-    rule: "Nogle means some (plural) and nogen usually means any, in questions and with ikke. For one thing, use nogen with en-words and noget with et-words. Alle means all, hver means each, enhver means any or every, and begge means both.",
+    rule: "Nogle means some (more than one) and nogen usually means any, in questions and with ikke. For one thing, use nogen with en-words and noget with et-words. Alle means all, hver means each, enhver means any or every, and begge means both.",
     pattern: "**nogle** æbler · **nogen** børn · **noget** brød · **alle** · **begge**",
     examples: [
       ["Har du **nogen** børn?", "Do you have any children?"],
@@ -871,7 +896,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Selv and selve: myself, itself",
     level: 3,
-    rule: "Selv means myself, yourself, itself and so on, and never changes form. Selve goes before a noun with the, and means the very or the actual thing itself. Selvom (even though) can also be written as two words, selv om; both are correct.",
+    rule: "Selv means myself, yourself, itself and so on, and never changes form. Selve goes before a word with “the” (selve byen), and means the very or the actual thing itself. Selvom (even though) can also be written as two words, selv om; both are correct.",
     pattern: "Jeg gjorde det **selv** · **selve** byen · **selvom** / **selv om**",
     examples: [
       ["Jeg lavede maden **selv**.", "I made the food myself."],
@@ -882,7 +907,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Measures without 'of': en kop kaffe",
     level: 1,
-    rule: "Danish does not use a word for of after a measure. Say the measure with its own en or et, then the thing directly: no af, no article. Af is only used when you take part of a specific, definite thing: et stykke af kagen, et glas af den gode vin. In the plural only the measure changes.",
+    rule: "Danish does not use a word for of after a measure. Say the measure with its own en or et, then the thing directly: no af, no “the” word. Af is only used when you take part of a specific thing you already know about: et stykke af kagen, et glas af den gode vin. When there is more than one, only the measure changes.",
     pattern: "**en kop** kaffe · **et stykke** kage · **to flasker** vand",
     examples: [
       ["Jeg vil gerne have **en kop kaffe**.", "I would like a cup of coffee."],
@@ -893,7 +918,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Fractions and amounts: halv, procent",
     level: 1,
-    rule: "Halv is an adjective and agrees: en halv, et halvt, halve. Halvanden means one and a half (halvandet with et-words). Danish writes decimals with a comma, so 2,5 is read two comma five. Fractions are en tredjedel, en fjerdedel; a quarter of an hour is usually et kvarter.",
+    rule: "Halv is a describing word and changes to match: en halv, et halvt, halve. Halvanden means one and a half (halvandet with et-words). Danish writes decimals with a comma, so 2,5 is read two comma five. Fractions are en tredjedel, en fjerdedel; a quarter of an hour is usually et kvarter.",
     pattern: "**en halv** liter · **et halvt** æble · **halvanden** time · 2**,**5 **procent**",
     examples: [
       ["Jeg tager **en halv** liter mælk.", "I'll take half a litre of milk."],
@@ -916,7 +941,7 @@ export const STARTER_GRAMMAR = [
     name: "While, before, regardless: mens, inden, uanset",
     was: ["Time and contrast: mens, inden, uanset"],
     level: 3,
-    rule: "These words start a sub-clause, so ikke and other small words go before the verb. Mens means while, inden before, indtil until, efter at after, så snart as soon as, selvom even though, and uanset no matter. When the sub-clause comes first, the main verb follows it directly.",
+    rule: "These words start the second part of a sentence, so ikke and other small words go before the verb. Mens means while, inden before, indtil until, efter at after, så snart as soon as, selvom even though, and uanset no matter. When that part comes first, the main verb follows it directly.",
     pattern: "**mens** jeg laver mad · **inden** vi spiser · **uanset** hvad",
     examples: [
       ["Han lyttede til radio, **mens** han lavede mad.", "He listened to the radio while he cooked."],
@@ -925,7 +950,8 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Indirect objects: giver ham bogen",
+    name: "Giving to someone: giver ham bogen",
+    was: ["Indirect objects: giver ham bogen"],
     level: 2,
     rule: "With verbs like give, send and show, the person usually comes first with no little word: giver ham bogen. You can also put the thing first and add til: giver bogen til ham. The til version puts more focus on the person.",
     pattern: "Jeg giver **ham** bogen · Jeg giver bogen **til ham**",
@@ -936,9 +962,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Old subjunctive: Længe leve kongen",
+    name: "Old wish phrases: Længe leve kongen",
+    was: ["Old subjunctive: Længe leve kongen"],
     level: 4,
-    rule: "A few frozen phrases keep an old wish-form of the verb, which looks like the plain infinitive (leve, ske, være, bevare) instead of the normal present tense. You can't build new sentences this way; learn them as set expressions, such as Gud bevare Danmark (God save Denmark).",
+    rule: "A few frozen phrases keep an old wish-form of the verb, which looks like the base word (leve, ske, være, bevare) instead of the normal form for now. You can't build new sentences this way; learn them as set expressions, such as Gud bevare Danmark (God save Denmark).",
     pattern: "**leve** · **ske** lov · Gud **bevare** · det **være** sig",
     examples: [
       ["**Længe leve** kongen!", "Long live the king!"],
@@ -959,9 +986,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Group genitive: the s goes last",
+    name: "Owning with several words: the s goes last",
+    was: ["Group genitive: the s goes last"],
     level: 4,
-    rule: "When two nouns or a longer phrase own something together, the -s goes on the very last word of the phrase, not on the noun that actually owns it. If each person owns something separately, each noun gets its own -s.",
+    rule: "When two people or things, or a longer phrase, own something together, the -s goes on the very last word of the phrase, not on the one that actually owns it. If each person owns something separately, each one gets its own -s.",
     pattern: "kongen af Danmark**s** bil · min bror og søster**s** hus",
     examples: [
       ["**Kongen af Danmarks** fødselsdag fejres hvert år i maj.", "The King of Denmark's birthday is celebrated every May."],
@@ -970,9 +998,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adjectives as nouns: de fattige",
+    name: "Describing words used alone: de fattige",
+    was: ["Adjectives as nouns: de fattige"],
     level: 4,
-    rule: "Danish lets an adjective stand alone as a noun, usually with den, de or det in front and an -e ending. Den gamle and de unge mean the old person and young people; det gode means the good thing, the good side. De fattige means the poor, as a group.",
+    rule: "Danish lets a describing word stand alone, usually with den, de or det in front and an -e ending. Den gamle and de unge mean the old person and young people; det gode means the good thing, the good side. De fattige means the poor, as a group.",
     pattern: "**de** fattig**e** · **den** gaml**e** · **de** ung**e** · **det** god**e**",
     examples: [
       ["**De fattige** har ofte ikke råd til tandlæge.", "The poor often cannot afford a dentist."],
@@ -981,9 +1010,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Passive with modals: kan ses",
+    name: "Something is done to it, after kan or skal: kan ses",
+    was: ["Passive with modals: kan ses"],
     level: 4,
-    rule: "To make a passive after kan, skal, må or vil, put -s on the infinitive: se → ses, gøre → gøres. This is very common in writing and in set phrases like Det må siges. It sounds more impersonal than man kan se.",
+    rule: "To say something is done to something after kan, skal, må or vil, put -s on the base word of the verb: se → ses, gøre → gøres. This is very common in writing and in set phrases like Det må siges. It sounds more impersonal than man kan se.",
     pattern: "kan **ses** · skal **gøres** · må **siges**",
     examples: [
       ["Det **kan ses** på hende, at hun er træt.", "You can tell by looking at her that she is tired."],
@@ -992,10 +1022,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Deponent verbs: synes, lykkes, findes",
-    was: ["Verbs that only exist with -s"],
+    name: "Verbs that always end in -s: synes, lykkes, findes",
+    was: ["Verbs that only exist with -s", "Deponent verbs: synes, lykkes, findes"],
     level: 4,
-    rule: "A handful of Danish verbs always keep an -s, even though they are not passive. Some look like an -s-free verb with a different meaning (finde = find, findes = exist; minde = remind, mindes = recall), so learn them as separate verbs: synes (think, seem), lykkes (succeed), mindes (recall), findes (exist), færdes (move about) and trives (thrive, feel at home).",
+    rule: "A handful of Danish verbs always keep an -s, even though nothing is being done to anything. Some have a twin without the -s that means something else (finde = find, findes = exist; minde = remind, mindes = recall), so learn them as separate verbs: synes (think, seem), lykkes (succeed), mindes (recall), findes (exist), færdes (move about) and trives (thrive, feel at home).",
     pattern: "**synes** · **lykkes** · **mindes** · **findes** · **færdes** · **trives**",
     examples: [
       ["Jeg **synes**, at maden er rigtig god.", "I think the food is really good."],
@@ -1004,9 +1034,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Counterfactual past: hvis jeg havde",
+    name: "What if it had happened: hvis jeg havde",
+    was: ["Counterfactual past: hvis jeg havde"],
     level: 4,
-    rule: "To talk about something that did not happen, use havde plus the past participle in the hvis-part. In the result, Danish usually uses var or havde plus the participle where English says would have; ville have is also possible. You can also drop hvis and start with the verb: Havde jeg vidst det, ...",
+    rule: "To talk about something that did not happen, use havde plus the “have” form in the hvis-part. In the result, Danish usually uses var or havde plus the “have” form where English says would have; ville have is also possible. You can also drop hvis and start with the verb: Havde jeg vidst det, ...",
     pattern: "**Hvis** jeg **havde** vidst det, **var** jeg ikke kommet · **Havde** jeg vidst det, ...",
     examples: [
       ["**Hvis** jeg **havde** vidst det, **var** jeg ikke kommet.", "If I had known, I wouldn't have come."],
@@ -1015,10 +1046,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Than-clauses: end, end at, mere end",
-    was: ["Comparison clauses: end hvad, end at"],
+    name: "Than: end, end at, mere end",
+    was: ["Comparison clauses: end hvad, end at", "Than-clauses: end, end at, mere end"],
     level: 4,
-    rule: "After a comparative, end means than. It can be followed by a whole clause (end jeg troede, sometimes end hvad jeg troede) or by at plus a verb (end at gætte). Ikke andet end means nothing but, and mere end means more than.",
+    rule: "After a “more” word (bedre, større), end means than. It can be followed by a whole part of a sentence (end jeg troede, sometimes end hvad jeg troede) or by at plus a verb (end at gætte). Ikke andet end means nothing but, and mere end means more than.",
     pattern: "bedre **end** jeg troede · bedre **end at** gætte · **ikke andet end** · **mere end**",
     examples: [
       ["Filmen var bedre, **end** jeg havde troet.", "The film was better than I had thought."],
@@ -1029,7 +1060,7 @@ export const STARTER_GRAMMAR = [
   {
     name: "Whatever and however: hvor … end",
     level: 4,
-    rule: "To say however or whatever, put end after the subject inside the clause: hvor hurtigt han end løber, hvad du end siger. Uanset hvad, hvem or hvor means no matter what, who or where and is the everyday alternative. The main clause that follows often starts with its verb.",
+    rule: "To say however or whatever, put end after the person doing it inside that part: hvor hurtigt han end løber, hvad du end siger. Uanset hvad, hvem or hvor means no matter what, who or where and is the everyday alternative. The main part that follows often starts with its verb.",
     pattern: "**hvor** hurtigt han **end** løber · **hvad** du **end** siger · **uanset** hvad/hvem",
     examples: [
       ["**Hvor** hurtigt han **end** løber, når han ikke bussen.", "However fast he runs, he won't catch the bus."],
@@ -1038,9 +1069,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Nouns from verbs: -ing, -else, -hed, -skab",
+    name: "New words from old: -ing, -else, -hed, -skab",
+    was: ["Nouns from verbs: -ing, -else, -hed, -skab"],
     level: 4,
-    rule: "Danish builds nouns by adding endings: -ing or -else to verbs, -hed to adjectives, and -skab mostly to nouns. Nouns in -ing and -hed are en-words, -else nouns are nearly always en-words (but et værelse), and -skab nouns are usually et-words (et venskab), with exceptions like en egenskab. Learn each noun as a whole word.",
+    rule: "Danish builds new words by adding endings: -ing or -else to verbs, -hed to describing words, and -skab mostly to words for things. Words in -ing and -hed are en-words, -else words are nearly always en-words (but et værelse), and -skab words are usually et-words (et venskab), with exceptions like en egenskab. Learn each one as a whole word.",
     pattern: "forklare → forklar**ing** · øve → øv**else** · fri → fri**hed** · ven → ven**skab**",
     examples: [
       ["Jeg har brug for en bedre **forklaring**.", "I need a better explanation."],
@@ -1049,9 +1081,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Useful prefixes: be-, for-, mis-, u-, ud-, over-",
+    name: "Useful word beginnings: be-, for-, mis-, u-, ud-, over-",
+    was: ["Useful prefixes: be-, for-, mis-, u-, ud-, over-"],
     level: 4,
-    rule: "Prefixes change the meaning of a word: mis- means wrongly, u- means not or the opposite, ud- often means out or completely, and over- means over, above or too much (overse means overlook, miss). Be- and for- are less predictable, so learn those words as they come, for example besøge and forklare.",
+    rule: "Small beginnings change the meaning of a word: mis- means wrongly, u- means not or the opposite, ud- often means out or completely, and over- means over, above or too much (overse means overlook, miss). Be- and for- are less predictable, so learn those words as they come, for example besøge and forklare.",
     pattern: "forstå → **mis**forstå · tilfreds → **u**tilfreds · fylde → **ud**fylde · se → **over**se",
     examples: [
       ["Jeg har **mis**forstået spørgsmålet.", "I have misunderstood the question."],
@@ -1060,10 +1093,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Adjective suffixes: -lig, -ig, -som, -løs",
-    was: ["Adjective endings: -lig, -som, -løs, -fuld"],
+    name: "Endings that describe: -lig, -ig, -som, -løs",
+    was: ["Adjective endings: -lig, -som, -løs, -fuld", "Adjective suffixes: -lig, -ig, -som, -løs"],
     level: 4,
-    rule: "Endings turn words into adjectives. -lig, -ig and -som say that something has a quality (farlig, modig, hjælpsom), -agtig means like or resembling, -løs means without, and -fuld means full of. The result then takes the normal adjective endings (-t, -e).",
+    rule: "Endings turn words into describing words. -lig, -ig and -som say that something has a quality (farlig, modig, hjælpsom), -agtig means like or resembling, -løs means without, and -fuld means full of. The result then takes the normal describing-word endings (-t, -e).",
     pattern: "fare → far**lig** · mod → mod**ig** · hjælp → hjælp**som** · barn → barn**agtig** · hjem → hjem**løs** · værdi → værdi**fuld**",
     examples: [
       ["Det er **farligt** at køre så hurtigt.", "It is dangerous to drive so fast."],
@@ -1072,9 +1105,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Light-verb phrases: tage en beslutning",
+    name: "Fixed verb pairs: tage en beslutning",
+    was: ["Light-verb phrases: tage en beslutning"],
     level: 4,
-    rule: "Danish often uses a common verb plus a noun where English uses a single verb or a different verb. The pairing is fixed, so learn it as a unit: you stille a question, tage a decision, give besked and føre a conversation. Træffe is a slightly more formal choice for decisions and choices.",
+    rule: "Danish often uses a common verb plus a thing-word where English uses a single verb or a different verb. The pairing is fixed, so learn it as a unit: you stille a question, tage a decision, give besked and føre a conversation. Træffe is a slightly more formal choice for decisions and choices.",
     pattern: "**tage** en beslutning · **give** besked · **stille** et spørgsmål · **føre** en samtale · **træffe** et valg",
     examples: [
       ["Vi skal **tage en beslutning** inden fredag.", "We have to make a decision before Friday."],
@@ -1083,9 +1117,10 @@ export const STARTER_GRAMMAR = [
     ],
   },
   {
-    name: "Commas with subordinate clauses",
+    name: "Commas: at, fordi, hvis, når",
+    was: ["Commas with subordinate clauses"],
     level: 4,
-    rule: "Many writers put a comma before a subordinate clause (starting with at, fordi, hvis, når, som and so on). This comma has been optional since 2004, so you will see both styles; just be consistent within a text. A comma after a subordinate clause that comes first is always required. Clauses inserted as an extra comment in the middle of a sentence always get commas on both sides: Min fætter, der er læge, bor i Aarhus.",
+    rule: "Many writers put a comma before a part of a sentence that starts with at, fordi, hvis, når, som and so on. This comma has been optional since 2004, so you will see both styles; just be consistent within a text. A comma after such a part that comes first is always required. An extra comment dropped into the middle of a sentence always gets commas on both sides: Min fætter, der er læge, bor i Aarhus.",
     pattern: "Jeg ved**,** at han kommer · Når du kommer**,** ringer jeg",
     examples: [
       ["Jeg ved**,** **at** han kommer i morgen.", "I know that he is coming tomorrow."],

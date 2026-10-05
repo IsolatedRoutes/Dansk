@@ -1,4 +1,332 @@
 {
+ "en jakke": {
+  "forms": [
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "jakken",
+    "en": "the jacket"
+   },
+   {
+    "da": "jakker",
+    "en": "jackets"
+   },
+   {
+    "da": "jakkerne",
+    "en": "the jackets"
+   }
+  ],
+  "explanation": "\"En jakke\" is a jacket. It is an en-word. In Denmark the weather often changes, so people carry one a lot: \"Tag en jakke med\" means \"bring a jacket\". A thicker, longer one is \"en frakke\", which means a coat.",
+  "related": [
+   {
+    "da": "en frakke",
+    "en": "a coat"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   },
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   },
+   {
+    "da": "en hat",
+    "en": "a hat"
+   }
+  ],
+  "sentence": {
+   "da": "Tag din **jakke** på, det er koldt.",
+   "en": "Put your jacket on, it is cold."
+  }
+ },
+ "en julegave": {
+  "forms": [
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "julegaven",
+    "en": "the Christmas present"
+   },
+   {
+    "da": "julegaver",
+    "en": "Christmas presents"
+   },
+   {
+    "da": "julegaverne",
+    "en": "the Christmas presents"
+   }
+  ],
+  "explanation": "\"En julegave\" is a Christmas present, from \"jul\" and \"gave\" (gift). It is an en-word. In Denmark gifts are opened on Christmas Eve, the evening of the 24th, not on Christmas morning. Danes often say \"at købe julegaver\" for Christmas shopping.",
+  "related": [
+   {
+    "da": "jul",
+    "en": "Christmas"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt en **julegave** til min mor.",
+   "en": "I have bought a Christmas present for my mother."
+  }
+ },
+ "et job": {
+  "forms": [
+   {
+    "da": "et job",
+    "en": "a job"
+   },
+   {
+    "da": "jobbet",
+    "en": "the job"
+   },
+   {
+    "da": "job",
+    "en": "jobs"
+   },
+   {
+    "da": "jobbene",
+    "en": "the jobs"
+   }
+  ],
+  "explanation": "\"Et job\" is a job, and it is an et-word borrowed from English. Note that \"jobbet\" has two b's when \"the\" is added. The plural is the same as the singular. \"Et arbejde\" means about the same, and \"at have et job\" means to have a job.",
+  "related": [
+   {
+    "da": "et arbejde",
+    "en": "work/a job"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en løn",
+    "en": "a salary"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et nyt **job**.",
+   "en": "I have a new job."
+  }
+ },
+ "et jordbær": {
+  "forms": [
+   {
+    "da": "et jordbær",
+    "en": "a strawberry"
+   },
+   {
+    "da": "jordbærret",
+    "en": "the strawberry"
+   },
+   {
+    "da": "jordbær",
+    "en": "strawberries"
+   },
+   {
+    "da": "jordbærrene",
+    "en": "the strawberries"
+   }
+  ],
+  "explanation": "\"Et jordbær\" is a strawberry, an et-word. It is built from \"jord\" (earth, ground) and \"bær\" (berry). Notice that the plural is the same as the single form: \"et jordbær\" becomes \"mange jordbær\". Strawberries are a big part of Danish summer.",
+  "related": [
+   {
+    "da": "et bær",
+    "en": "a berry"
+   },
+   {
+    "da": "en is",
+    "en": "an ice cream"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   }
+  ],
+  "sentence": {
+   "da": "Om sommeren spiser vi **jordbær** med fløde.",
+   "en": "In the summer we eat strawberries with cream."
+  }
+ },
+ "et juletræ": {
+  "forms": [
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "juletræet",
+    "en": "the Christmas tree"
+   },
+   {
+    "da": "juletræer",
+    "en": "Christmas trees"
+   },
+   {
+    "da": "juletræerne",
+    "en": "the Christmas trees"
+   }
+  ],
+  "explanation": "\"Et juletræ\" is a Christmas tree, from \"jul\" and \"træ\" (tree). It is an et-word. In Denmark the tree is usually put up shortly before Christmas Eve and decorated with hearts, flags and often real candles. Families sing and dance around it on the evening of the 24th.",
+  "related": [
+   {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
+    "da": "jul",
+    "en": "Christmas"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   }
+  ],
+  "sentence": {
+   "da": "Vi pynter **juletræet** i dag.",
+   "en": "We are decorating the Christmas tree today."
+  }
+ },
+ "ja": {
+  "forms": [
+   {
+    "da": "Ja, tak.",
+    "en": "Yes, please."
+   },
+   {
+    "da": "Ja, det er rigtigt.",
+    "en": "Yes, that's right."
+   },
+   {
+    "da": "Ja, selvfølgelig.",
+    "en": "Yes, of course."
+   }
+  ],
+  "explanation": "\"Ja\" means \"yes\" and is used just like in English. \"Ja tak\" is \"yes please\" and is the polite way to accept an offer. You will often hear \"jaja\" or \"ja ja\" in a relaxed way. If someone asks a negative question, Danes answer \"jo\" instead, not \"ja\".",
+  "related": [
+   {
+    "da": "nej",
+    "en": "no"
+   },
+   {
+    "da": "jo",
+    "en": "yes (to a negative question)"
+   },
+   {
+    "da": "selvfølgelig",
+    "en": "of course"
+   }
+  ],
+  "sentence": {
+   "da": "**Ja**, jeg vil gerne have en kop kaffe.",
+   "en": "Yes, I would like a cup of coffee."
+  }
+ },
+ "januar": {
+  "forms": [
+   {
+    "da": "januar",
+    "en": "January"
+   },
+   {
+    "da": "i januar",
+    "en": "in January"
+   },
+   {
+    "da": "i starten af januar",
+    "en": "early in January"
+   }
+  ],
+  "explanation": "\"Januar\" is January, the first month. It is an et-word, but you almost always use it without \"et\" and say \"i januar\" (in January). Month names are written with a small letter in Danish. Use \"i begyndelsen af januar\" for early January and \"midt i januar\" for mid-January.",
+  "related": [
+   {
+    "da": "februar",
+    "en": "February"
+   },
+   {
+    "da": "december",
+    "en": "December"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Det er koldt i **januar**.",
+   "en": "It is cold in January."
+  }
+ },
+ "japan": {
+  "forms": [
+   {
+    "da": "Japan",
+    "en": "Japan"
+   },
+   {
+    "da": "i Japan",
+    "en": "in Japan"
+   },
+   {
+    "da": "til Japan",
+    "en": "to Japan"
+   }
+  ],
+  "explanation": "\"Japan\" is Japan. Place names like this are written with a capital letter and used without \"the\": \"i Japan\" means \"in Japan\" and \"til Japan\" means \"to Japan\". A person is \"en japaner\" and the language is \"japansk\". It is spelled the same as in English, but said with Danish sounds.",
+  "related": [
+   {
+    "da": "en japaner",
+    "en": "a Japanese person"
+   },
+   {
+    "da": "japansk",
+    "en": "Japanese"
+   },
+   {
+    "da": "Kina",
+    "en": "China"
+   },
+   {
+    "da": "Korea",
+    "en": "Korea"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven rejser til **Japan**.",
+   "en": "My friend is travelling to Japan."
+  }
+ },
  "japansk": {
   "forms": [
    {
@@ -36,6 +364,704 @@
   "sentence": {
    "da": "Jeg elsker **japansk** mad.",
    "en": "I love Japanese food."
+  }
+ },
+ "jeg": {
+  "forms": [
+   {
+    "da": "Jeg hedder Anna.",
+    "en": "My name is Anna."
+   },
+   {
+    "da": "Jeg er glad.",
+    "en": "I am happy."
+   },
+   {
+    "da": "Jeg kan godt lide kaffe.",
+    "en": "I like coffee."
+   }
+  ],
+  "explanation": "\"Jeg\" means I. Unlike English \"I\", it is not capitalised in the middle of a sentence, only at the start. It is said a bit like \"yai\", and the \"g\" is silent. Its other form is \"mig\" (me), used after a word like \"til\" or after the action: \"Han ser mig\" (He sees me). The word for \"my\" is \"min\", \"mit\" or \"mine\".",
+  "related": [
+   {
+    "da": "mig",
+    "en": "me"
+   },
+   {
+    "da": "min",
+    "en": "my"
+   },
+   {
+    "da": "du",
+    "en": "you"
+   },
+   {
+    "da": "vi",
+    "en": "we"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg** bor i København.",
+   "en": "I live in Copenhagen."
+  }
+ },
+ "jeg er enig": {
+  "forms": [
+   {
+    "da": "Jeg er enig.",
+    "en": "I agree."
+   },
+   {
+    "da": "Jeg er helt enig.",
+    "en": "I completely agree."
+   },
+   {
+    "da": "Jeg er ikke enig.",
+    "en": "I don't agree."
+   }
+  ],
+  "explanation": "\"Jeg er enig\" means \"I agree\". Notice that Danish says \"I am agreed\", not \"I agree\" with a verb. Add \"helt\" for \"completely\" or \"ikke\" to disagree. The opposite word is \"uenig\". Use \"enig med\" before the person: \"jeg er enig med dig\".",
+  "related": [
+   {
+    "da": "uenig",
+    "en": "in disagreement"
+   },
+   {
+    "da": "helt enig",
+    "en": "completely agree"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg er enig** med dig.",
+   "en": "I agree with you."
+  }
+ },
+ "jeg er ked af det": {
+  "forms": [
+   {
+    "da": "Jeg er ked af det.",
+    "en": "I'm sad. / I'm sorry."
+   },
+   {
+    "da": "Hun er ked af det.",
+    "en": "She is sad."
+   },
+   {
+    "da": "Er du ked af det?",
+    "en": "Are you sad?"
+   }
+  ],
+  "explanation": "This phrase means \"I am sad\", and also \"I am sorry\" when you regret something. Note the small word \"af det\" at the end; \"jeg er ked\" alone is incomplete. For a quick apology like bumping into someone, \"undskyld\" is more common. \"Jeg er ked af det\" sounds more heartfelt.",
+  "related": [
+   {
+    "da": "undskyld",
+    "en": "sorry / excuse me"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "det er ærgerligt",
+    "en": "that's a pity"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg er ked af det**, men jeg kan ikke komme i dag.",
+   "en": "I'm sorry, but I can't come today."
+  }
+ },
+ "jeg forstår ikke": {
+  "forms": [
+   {
+    "da": "Jeg forstår ikke.",
+    "en": "I don't understand."
+   },
+   {
+    "da": "Jeg forstår det ikke.",
+    "en": "I don't understand it."
+   },
+   {
+    "da": "Jeg forstår ikke dansk.",
+    "en": "I don't understand Danish."
+   }
+  ],
+  "explanation": "\"Jeg forstår ikke\" means \"I don't understand\" and is very useful when you are learning. \"Forstår\" is the present form of \"at forstå\" (to understand), and \"ikke\" (not) comes after it. Add \"det\" for \"it\", as in \"Jeg forstår det ikke\". Together with \"kan du gentage det?\" (can you repeat that?), it will help you in many talks.",
+  "related": [
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "kan du gentage det?",
+    "en": "can you repeat that?"
+   },
+   {
+    "da": "langsomt",
+    "en": "slowly"
+   },
+   {
+    "da": "hvad betyder det?",
+    "en": "what does that mean?"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **jeg forstår ikke**.",
+   "en": "Sorry, I don't understand."
+  }
+ },
+ "jeg har det godt": {
+  "forms": [
+   {
+    "da": "Jeg har det godt.",
+    "en": "I'm doing well."
+   },
+   {
+    "da": "Jeg har det rigtig godt.",
+    "en": "I'm doing really well."
+   },
+   {
+    "da": "Har du det godt?",
+    "en": "Are you doing well?"
+   }
+  ],
+  "explanation": "This is the usual answer to \"hvordan har du det?\" (how are you?). Danish says \"have it good\" where English says \"be doing well\", so \"det\" is needed. Do not say \"jeg er godt\", which sounds wrong. Add \"rigtig\" for \"really well\", or say \"det går godt\" (it's going well) for much the same idea.",
+  "related": [
+   {
+    "da": "jeg har det skidt",
+    "en": "I'm not doing well"
+   },
+   {
+    "da": "hvordan har du det?",
+    "en": "how are you?"
+   },
+   {
+    "da": "det går godt",
+    "en": "it's going well"
+   },
+   {
+    "da": "tak, i lige måde",
+    "en": "thanks, same to you"
+   }
+  ],
+  "sentence": {
+   "da": "Tak, **jeg har det godt**. Og dig?",
+   "en": "Thanks, I'm doing well. And you?"
+  }
+ },
+ "jeg har det skidt": {
+  "forms": [
+   {
+    "da": "Jeg har det skidt.",
+    "en": "I'm not doing well."
+   },
+   {
+    "da": "Jeg har det lidt skidt.",
+    "en": "I'm not feeling so good."
+   },
+   {
+    "da": "Har du det skidt?",
+    "en": "Are you feeling bad?"
+   }
+  ],
+  "explanation": "Use this when you feel unwell or are having a hard time. \"Skidt\" means badly or poorly, and the phrase works for feeling ill as well as feeling down. It is a bit informal and very common. A milder option is \"jeg har det ikke så godt\" (I'm not doing so well).",
+  "related": [
+   {
+    "da": "jeg har det godt",
+    "en": "I'm doing well"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "ked af det",
+    "en": "sad"
+   },
+   {
+    "da": "det går dårligt",
+    "en": "it's going badly"
+   }
+  ],
+  "sentence": {
+   "da": "I dag **har jeg det skidt**, fordi jeg er syg.",
+   "en": "Today I'm not doing well, because I'm sick."
+  }
+ },
+ "jeg hedder…": {
+  "forms": [
+   {
+    "da": "Jeg hedder Anna.",
+    "en": "My name is Anna."
+   },
+   {
+    "da": "Jeg hedder Peter Hansen.",
+    "en": "My name is Peter Hansen."
+   },
+   {
+    "da": "Hvad hedder du? Jeg hedder Lars.",
+    "en": "What's your name? I'm Lars."
+   }
+  ],
+  "explanation": "\"Jeg hedder ...\" means \"My name is ...\" and you add your name after it. It literally means \"I am called ...\". The verb is \"at hedde\" (to be called), and it is the normal way to introduce yourself. Danes then usually say \"Dejligt at møde dig\" (Nice to meet you). You do not use \"jeg er\" for your name, even though English uses \"I am\".",
+  "related": [
+   {
+    "da": "hvad hedder du?",
+    "en": "what's your name?"
+   },
+   {
+    "da": "at hedde",
+    "en": "to be called"
+   },
+   {
+    "da": "dejligt at møde dig",
+    "en": "nice to meet you"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a last name"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg hedder** Anna, og du?",
+   "en": "My name is Anna, and you?"
+  }
+ },
+ "jeg kommer fra…": {
+  "forms": [
+   {
+    "da": "Jeg kommer fra USA.",
+    "en": "I'm from the USA."
+   },
+   {
+    "da": "Jeg kommer fra London.",
+    "en": "I'm from London."
+   },
+   {
+    "da": "Hun kommer fra Tyskland.",
+    "en": "She is from Germany."
+   }
+  ],
+  "explanation": "\"Jeg kommer fra ...\" means \"I'm from ...\" and you add a country or town after it. It literally means \"I come from ...\". It is the usual answer to \"Hvor kommer du fra?\" (Where are you from?). Use \"jeg bor i ...\" (I live in ...) for where you live now, because that is a different thing from where you come from.",
+  "related": [
+   {
+    "da": "hvor kommer du fra?",
+    "en": "where are you from?"
+   },
+   {
+    "da": "jeg bor i…",
+    "en": "I live in…"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg kommer fra** Canada.",
+   "en": "I'm from Canada."
+  }
+ },
+ "jeg vil gerne have": {
+  "forms": [
+   {
+    "da": "Jeg vil gerne have en kaffe.",
+    "en": "I would like a coffee."
+   },
+   {
+    "da": "Jeg vil gerne have regningen.",
+    "en": "I would like the bill."
+   },
+   {
+    "da": "Jeg vil gerne have to billetter.",
+    "en": "I would like two tickets."
+   }
+  ],
+  "explanation": "\"Jeg vil gerne have\" means \"I would like\" and is the polite way to order or ask for something. Put the thing you want after \"have\". \"Gerne\" softens it, so it sounds friendly, not demanding. Without \"gerne\", \"jeg vil have\" is blunt, like \"I want\".",
+  "related": [
+   {
+    "da": "gerne",
+    "en": "gladly"
+   },
+   {
+    "da": "tak",
+    "en": "thanks / please"
+   },
+   {
+    "da": "en bestilling",
+    "en": "an order"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg vil gerne have** en kop te.",
+   "en": "I would like a cup of tea."
+  }
+ },
+ "jer": {
+  "forms": [
+   {
+    "da": "Jeg ser jer.",
+    "en": "I see you (all)."
+   },
+   {
+    "da": "Jeg savner jer.",
+    "en": "I miss you (all)."
+   },
+   {
+    "da": "Kom med jer!",
+    "en": "Come with you (all)!"
+   }
+  ],
+  "explanation": "\"Jer\" means \"you\" when you speak to more than one person and something is done to them, such as \"Jeg kan se jer\". When they are the ones doing it, you say \"I\". For one person the word is \"dig\". It is also used after words like \"til\" and \"med\".",
+  "related": [
+   {
+    "da": "I",
+    "en": "you (all)"
+   },
+   {
+    "da": "jeres",
+    "en": "your / yours (many)"
+   },
+   {
+    "da": "dig",
+    "en": "you (one person)"
+   },
+   {
+    "da": "os",
+    "en": "us"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en gave til **jer**.",
+   "en": "I have a gift for you (all)."
+  }
+ },
+ "jeres": {
+  "forms": [
+   {
+    "da": "jeres bil",
+    "en": "your car (you all)"
+   },
+   {
+    "da": "jeres hus",
+    "en": "your house (you all)"
+   },
+   {
+    "da": "jeres børn",
+    "en": "your children (you all)"
+   }
+  ],
+  "explanation": "\"Jeres\" means \"your\" or \"yours\" when you speak to more than one person, as in \"jeres hus\". It never changes. For one person you use \"din\", \"dit\" or \"dine\". It comes from \"I\" and \"jer\".",
+  "related": [
+   {
+    "da": "I",
+    "en": "you (all)"
+   },
+   {
+    "da": "jer",
+    "en": "you (all, after a verb)"
+   },
+   {
+    "da": "din",
+    "en": "your (one person, en-word)"
+   },
+   {
+    "da": "vores",
+    "en": "our / ours"
+   }
+  ],
+  "sentence": {
+   "da": "Er det **jeres** bil?",
+   "en": "Is that your car (you all)?"
+  }
+ },
+ "jo": {
+  "forms": [
+   {
+    "da": "Jo, det gør jeg.",
+    "en": "Yes, I do."
+   },
+   {
+    "da": "Det er jo rigtigt.",
+    "en": "It is, you know, true."
+   },
+   {
+    "da": "Du kommer jo.",
+    "en": "You are coming, of course."
+   }
+  ],
+  "explanation": "\"Jo\" has two uses. It is \"yes\" when you answer a question with \"not\" in it: \"Kommer du ikke?\" \"Jo!\" (\"Aren't you coming?\" \"Yes, I am!\"). Inside a sentence it adds a feeling of \"you know\" or \"of course\", like \"det er jo rigtigt\". Use \"ja\" for ordinary yes answers.",
+  "related": [
+   {
+    "da": "ja",
+    "en": "yes"
+   },
+   {
+    "da": "nej",
+    "en": "no"
+   },
+   {
+    "da": "selvfølgelig",
+    "en": "of course"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du ikke lide kaffe? **Jo**, det kan jeg.",
+   "en": "Don't you like coffee? Yes, I do."
+  }
+ },
+ "jord": {
+  "forms": [
+   {
+    "da": "jord",
+    "en": "earth / soil"
+   },
+   {
+    "da": "jorden",
+    "en": "the earth / the soil"
+   },
+   {
+    "da": "på jorden",
+    "en": "on the ground / on earth"
+   }
+  ],
+  "explanation": "Jord is earth in two senses: the soil that plants grow in, and the ground you stand on. It is an en-word, so \"the earth\" is \"jorden\". When it is written with a capital letter, \"Jorden\" is the planet we live on. \"På jorden\" means \"on the ground\" or \"on earth\". Inside a house you do not say \"jord\" for the floor, you say \"gulv\".",
+  "related": [
+   {
+    "da": "et gulv",
+    "en": "a floor"
+   },
+   {
+    "da": "en have",
+    "en": "a garden"
+   },
+   {
+    "da": "en planet",
+    "en": "a planet"
+   },
+   {
+    "da": "en mark",
+    "en": "a field"
+   }
+  ],
+  "sentence": {
+   "da": "Planterne vokser i **jorden**.",
+   "en": "The plants grow in the soil."
+  }
+ },
+ "juice": {
+  "forms": [
+   {
+    "da": "en juice",
+    "en": "a juice"
+   },
+   {
+    "da": "juicen",
+    "en": "the juice"
+   },
+   {
+    "da": "et glas juice",
+    "en": "a glass of juice"
+   }
+  ],
+  "explanation": "\"Juice\" is juice, an en-word, so \"the juice\" is \"juicen\". The word is borrowed from English but is said in a Danish way. People usually say what type it is, such as \"appelsinjuice\" (orange juice) or \"æblejuice\" (apple juice).",
+  "related": [
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   },
+   {
+    "da": "et æble",
+    "en": "an apple"
+   },
+   {
+    "da": "en drik",
+    "en": "a drink"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker et glas **juice** til morgenmad.",
+   "en": "I drink a glass of juice for breakfast."
+  }
+ },
+ "jul": {
+  "forms": [
+   {
+    "da": "jul",
+    "en": "Christmas"
+   },
+   {
+    "da": "julen",
+    "en": "the Christmas season"
+   },
+   {
+    "da": "glædelig jul",
+    "en": "Merry Christmas"
+   },
+   {
+    "da": "til jul",
+    "en": "at Christmas"
+   }
+  ],
+  "explanation": "\"Jul\" means Christmas and is an en-word, though you rarely use \"en\" with it. You say \"til jul\" (at Christmas) and \"i julen\" (during the Christmas season). The greeting is \"Glædelig jul!\". Jul is also the old Nordic midwinter feast, which is why Danes use this word and not a word like \"Christ\".",
+  "related": [
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "påske",
+    "en": "Easter"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fejrer **jul** hos min mormor.",
+   "en": "We celebrate Christmas at my grandmother's."
+  }
+ },
+ "juleaften": {
+  "forms": [
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   },
+   {
+    "da": "juleaftensdag",
+    "en": "Christmas Eve day"
+   },
+   {
+    "da": "til juleaften",
+    "en": "for Christmas Eve"
+   },
+   {
+    "da": "på juleaften",
+    "en": "on Christmas Eve"
+   }
+  ],
+  "explanation": "\"Juleaften\" is Christmas Eve, the evening of the 24th of December. It is the most important day of Danish Christmas: families eat a big dinner, dance around the tree and open presents. It is an en-word but is normally used with no \"en\". You say \"juleaften\" or \"juleaftensdag\".",
+  "related": [
+   {
+    "da": "jul",
+    "en": "Christmas"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "nytårsaften",
+    "en": "New Year's Eve"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser and hos mormor til **juleaften**.",
+   "en": "We eat duck at grandmother's for Christmas Eve."
+  }
+ },
+ "juli": {
+  "forms": [
+   {
+    "da": "juli",
+    "en": "July"
+   },
+   {
+    "da": "i juli",
+    "en": "in July"
+   },
+   {
+    "da": "i starten af juli",
+    "en": "early in July"
+   }
+  ],
+  "explanation": "\"Juli\" is July, written with a small letter. You say \"i juli\" for in July. It sounds close to \"juni\", so listen for the difference in the middle: \"juli\" has an l. July is the main summer holiday month for most Danes, and many places close.",
+  "related": [
+   {
+    "da": "juni",
+    "en": "June"
+   },
+   {
+    "da": "august",
+    "en": "August"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Mange danskere har ferie i **juli**.",
+   "en": "Many Danes are on vacation in July."
+  }
+ },
+ "juni": {
+  "forms": [
+   {
+    "da": "juni",
+    "en": "June"
+   },
+   {
+    "da": "i juni",
+    "en": "in June"
+   },
+   {
+    "da": "i starten af juni",
+    "en": "early in June"
+   }
+  ],
+  "explanation": "\"Juni\" is June, written with a small letter. You say \"i juni\" for in June. In Denmark June has very long, light evenings, and the midsummer festival \"sankthans\" is celebrated on 23 June with bonfires. Take care not to mix it up with \"juli\" (July), which sounds similar.",
+  "related": [
+   {
+    "da": "maj",
+    "en": "May"
+   },
+   {
+    "da": "juli",
+    "en": "July"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Det er lyst længe i **juni**.",
+   "en": "It stays light for a long time in June."
   }
  }
 }

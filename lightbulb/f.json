@@ -1,88 +1,158 @@
 {
- "en forfader": {
+ "at falde": {
   "forms": [
    {
-    "da": "en forfader",
-    "en": "an ancestor"
+    "da": "at falde",
+    "en": "to fall"
    },
    {
-    "da": "forfaderen",
-    "en": "the ancestor"
+    "da": "jeg falder",
+    "en": "I fall"
    },
    {
-    "da": "forfædre",
-    "en": "ancestors"
+    "da": "jeg faldt",
+    "en": "I fell"
    },
    {
-    "da": "forfædrene",
-    "en": "the ancestors"
+    "da": "jeg er faldet",
+    "en": "I have fallen"
    }
   ],
-  "explanation": "\"Forfader\" is made of \"for\" (before) and \"fader\" (an old form of \"far\", father), so it is literally a \"before-father\". The plural is irregular: \"forfædre\", not \"forfadere\". It is slightly formal; in casual talk Danes might say \"mine oldeforældre\" (my great-grandparents) for the nearer generations.",
+  "explanation": "\"At falde\" means to fall, for example to fall down or for rain and snow to fall. \"Jeg faldt på cyklen\" means \"I fell off the bike\". The \"have\" form uses \"er\": \"Jeg er faldet\" (I have fallen), because it describes a change of position. Danes also say \"falde i søvn\" for falling asleep.",
   "related": [
    {
-    "da": "en efterkommer",
-    "en": "a descendant"
+    "da": "at snuble",
+    "en": "to trip"
    },
    {
-    "da": "en slægt",
-    "en": "a family line"
+    "da": "at falde i søvn",
+    "en": "to fall asleep"
    },
    {
-    "da": "en oldefar",
-    "en": "a great-grandfather"
-   },
-   {
-    "da": "en historie",
-    "en": "a history, a story"
+    "da": "et fald",
+    "en": "a fall"
    }
   ],
   "sentence": {
-   "da": "Min **forfader** var bonde i Jylland.",
-   "en": "My ancestor was a farmer in Jutland."
+   "da": "Pas på, du **falder**!",
+   "en": "Careful, you will fall!"
   }
  },
- "en fornyelse": {
+ "at finde": {
   "forms": [
    {
-    "da": "en fornyelse",
-    "en": "a renewal"
+    "da": "at finde",
+    "en": "to find"
    },
    {
-    "da": "fornyelsen",
-    "en": "the renewal"
+    "da": "jeg finder",
+    "en": "I find"
    },
    {
-    "da": "fornyelser",
-    "en": "renewals"
+    "da": "jeg fandt",
+    "en": "I found"
    },
    {
-    "da": "fornyelserne",
-    "en": "the renewals"
+    "da": "jeg har fundet",
+    "en": "I have found"
    }
   ],
-  "explanation": "\"Fornyelse\" is the noun for renewing something, from the verb \"at forny\" (to renew). It is used for things like passports, contracts and subscriptions, and it can also mean a fresh start or renewal in a more general sense. The prefix \"for-\" here does not mean \"before\" but \"making it new again\", the same pattern as in \"forbedring\" (improvement).",
+  "explanation": "\"At finde\" means to find, whether you look for something or come across it: \"Jeg finder mine nøgler\" (I find my keys). It also works for opinions, as in \"Jeg finder det svært\" (I find it difficult). The opposite is \"at miste\" (to lose something), not \"at tabe\", which is for losing a game.",
   "related": [
    {
-    "da": "at forny",
-    "en": "to renew"
+    "da": "at lede efter",
+    "en": "to look for"
    },
    {
-    "da": "ny",
-    "en": "new"
+    "da": "at miste",
+    "en": "to lose"
    },
    {
-    "da": "en forlængelse",
-    "en": "an extension"
-   },
-   {
-    "da": "en forbedring",
-    "en": "an improvement"
+    "da": "at opdage",
+    "en": "to discover"
    }
   ],
   "sentence": {
-   "da": "Det er tid til **fornyelse** af kontrakten.",
-   "en": "It is time for renewal of the contract."
+   "da": "Jeg kan ikke **finde** mine nøgler.",
+   "en": "I can't find my keys."
+  }
+ },
+ "at flytte": {
+  "forms": [
+   {
+    "da": "at flytte",
+    "en": "to move"
+   },
+   {
+    "da": "jeg flytter",
+    "en": "I move"
+   },
+   {
+    "da": "jeg flyttede",
+    "en": "I moved"
+   },
+   {
+    "da": "jeg er flyttet",
+    "en": "I have moved"
+   }
+  ],
+  "explanation": "\"At flytte\" means to move, either to a new home or to move something (like a car or a chair). \"Vi flytter til Aarhus\" means you are moving house. \"Kan du flytte bilen?\" means you ask someone to move a car. When you move house the \"have\" form uses \"er\": \"Jeg er flyttet\" (I have moved).",
+  "related": [
+   {
+    "da": "en flytning",
+    "en": "a move"
+   },
+   {
+    "da": "at bo",
+    "en": "to live"
+   },
+   {
+    "da": "en bolig",
+    "en": "a home"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **flytter** til en ny lejlighed i næste måned.",
+   "en": "We are moving to a new flat next month."
+  }
+ },
+ "at flyve": {
+  "forms": [
+   {
+    "da": "at flyve",
+    "en": "to fly"
+   },
+   {
+    "da": "jeg flyver",
+    "en": "I fly"
+   },
+   {
+    "da": "jeg fløj",
+    "en": "I flew"
+   },
+   {
+    "da": "jeg har fløjet",
+    "en": "I have flown"
+   }
+  ],
+  "explanation": "\"At flyve\" means to fly, for birds and for people on a plane: \"Vi flyver til Spanien\" (We are flying to Spain). The past form \"fløj\" and the \"have done\" form \"fløjet\" are irregular and worth learning. A flight is \"en flyvetur\" and a plane is \"et fly\".",
+  "related": [
+   {
+    "da": "et fly",
+    "en": "a plane"
+   },
+   {
+    "da": "en fugl",
+    "en": "a bird"
+   },
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **flyver** til Spanien i sommer.",
+   "en": "We are flying to Spain this summer."
   }
  },
  "at forhandle": {
@@ -128,43 +198,2059 @@
    "en": "They are going to negotiate the price."
   }
  },
- "fortroligt": {
+ "at forklare": {
   "forms": [
    {
-    "da": "Det er fortroligt",
-    "en": "It is confidential"
+    "da": "at forklare",
+    "en": "to explain"
    },
    {
-    "da": "Jeg fortæller dig det fortroligt",
-    "en": "I am telling you this in confidence"
+    "da": "jeg forklarer",
+    "en": "I explain"
    },
    {
-    "da": "et fortroligt dokument",
-    "en": "a confidential document"
+    "da": "jeg forklarede",
+    "en": "I explained"
+   },
+   {
+    "da": "jeg har forklaret",
+    "en": "I have explained"
    }
   ],
-  "explanation": "\"Fortroligt\" is the form of \"fortrolig\" (confidential, trusted) that you use with et-words, and it is also the word for \"confidentially\". It is common in work and official settings, for example on documents that are not to be shared.",
+  "explanation": "\"At forklare\" means to explain. You explain something to someone, so Danish often says \"forklare noget for nogen\": \"Kan du forklare det for mig?\". A handy phrase for learners is \"Kan du forklare det igen?\" (Can you explain it again?). It is a regular word, so the endings are easy.",
   "related": [
    {
-    "da": "fortrolig",
-    "en": "confidential, close"
+    "da": "en forklaring",
+    "en": "an explanation"
    },
    {
-    "da": "en hemmelighed",
-    "en": "a secret"
+    "da": "at fortælle",
+    "en": "to tell"
    },
    {
-    "da": "tavshedspligt",
-    "en": "duty of confidentiality"
-   },
-   {
-    "da": "privat",
-    "en": "private"
+    "da": "at forstå",
+    "en": "to understand"
    }
   ],
   "sentence": {
-   "da": "Jeg siger det **fortroligt**, så sig det ikke til andre.",
-   "en": "I'm telling you in confidence, so don't tell anyone else."
+   "da": "Kan du **forklare** det igen, tak?",
+   "en": "Can you explain it again, please?"
+  }
+ },
+ "at forstå": {
+  "forms": [
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "jeg forstår",
+    "en": "I understand"
+   },
+   {
+    "da": "jeg forstod",
+    "en": "I understood"
+   },
+   {
+    "da": "jeg har forstået",
+    "en": "I have understood"
+   }
+  ],
+  "explanation": "\"At forstå\" means to understand: \"Jeg forstår ikke\" (I don't understand). It is one of the most useful words for a learner, together with \"Kan du gentage det?\" (Can you repeat that?). The form \"forstår\" is the same for every person. The past form \"forstod\" is irregular.",
+  "related": [
+   {
+    "da": "at vide",
+    "en": "to know (a fact)"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "en forståelse",
+    "en": "an understanding"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **forstår** ikke spørgsmålet.",
+   "en": "I don't understand the question."
+  }
+ },
+ "at fortælle": {
+  "forms": [
+   {
+    "da": "at fortælle",
+    "en": "to tell"
+   },
+   {
+    "da": "jeg fortæller",
+    "en": "I tell"
+   },
+   {
+    "da": "jeg fortalte",
+    "en": "I told"
+   },
+   {
+    "da": "jeg har fortalt",
+    "en": "I have told"
+   }
+  ],
+  "explanation": "\"At fortælle\" means to tell, especially to tell a story or give someone information. Use \"at sige\" for simple 'say' and \"at fortælle\" when you explain more. You can add who you tell: \"fortælle nogen noget\" (tell someone something).",
+  "related": [
+   {
+    "da": "at sige",
+    "en": "to say"
+   },
+   {
+    "da": "en historie",
+    "en": "a story"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
+   }
+  ],
+  "sentence": {
+   "da": "Min mormor **fortæller** en historie.",
+   "en": "My grandmother tells a story."
+  }
+ },
+ "at fryse": {
+  "forms": [
+   {
+    "da": "at fryse",
+    "en": "to freeze"
+   },
+   {
+    "da": "jeg fryser",
+    "en": "I freeze"
+   },
+   {
+    "da": "jeg frøs",
+    "en": "I froze"
+   },
+   {
+    "da": "jeg har frosset",
+    "en": "I have frozen"
+   }
+  ],
+  "explanation": "\"At fryse\" means to freeze or to feel cold. \"Jeg fryser\" means \"I am cold\", which is how Danes say it in winter. It is also what happens to water or food when it turns to ice. The past form \"frøs\" and the \"have\" form \"frosset\" are irregular. The machine that keeps food frozen is \"en fryser\" (a freezer).",
+  "related": [
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "en fryser",
+    "en": "a freezer"
+   },
+   {
+    "da": "is",
+    "en": "ice"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **fryser**, fordi det er koldt.",
+   "en": "I am cold because it is chilly."
+  }
+ },
+ "at fylde år": {
+  "forms": [
+   {
+    "da": "at fylde år",
+    "en": "to have a birthday"
+   },
+   {
+    "da": "jeg fylder år",
+    "en": "I have a birthday"
+   },
+   {
+    "da": "jeg fyldte år",
+    "en": "I had a birthday"
+   },
+   {
+    "da": "jeg har fyldt år",
+    "en": "I have had a birthday"
+   }
+  ],
+  "explanation": "\"At fylde år\" means to have a birthday, in the sense of turning a certain age. You say how old you become right after: \"Jeg fylder tredive år\" means \"I am turning thirty\". It is used when talking about the birthday itself, so it feels a little different from \"at have fødselsdag\" (to have a birthday party).",
+  "related": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
+   },
+   {
+    "da": "at fejre",
+    "en": "to celebrate"
+   },
+   {
+    "da": "en gave",
+    "en": "a present"
+   }
+  ],
+  "sentence": {
+   "da": "Min far **fylder år** i morgen.",
+   "en": "My dad has a birthday tomorrow."
+  }
+ },
+ "at få": {
+  "forms": [
+   {
+    "da": "at få",
+    "en": "to get"
+   },
+   {
+    "da": "jeg får",
+    "en": "I get"
+   },
+   {
+    "da": "jeg fik",
+    "en": "I got"
+   },
+   {
+    "da": "jeg har fået",
+    "en": "I have gotten"
+   }
+  ],
+  "explanation": "\"At få\" means to get or to receive: \"Jeg får en gave\" (I get a present). It is also used for \"to have a baby\", \"to get to\" and, with another action word, for becoming able to do something: \"Jeg fik lov\" (I was allowed). Do not use it for \"to fetch\", which is \"at hente\".",
+  "related": [
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   },
+   {
+    "da": "at hente",
+    "en": "to fetch"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **får** en gave til min fødselsdag.",
+   "en": "I get a present for my birthday."
+  }
+ },
+ "at få hjælp": {
+  "forms": [
+   {
+    "da": "at få hjælp",
+    "en": "to get help"
+   },
+   {
+    "da": "jeg får hjælp",
+    "en": "I get help"
+   },
+   {
+    "da": "jeg fik hjælp",
+    "en": "I got help"
+   },
+   {
+    "da": "jeg har fået hjælp",
+    "en": "I have gotten help"
+   }
+  ],
+  "explanation": "\"At få hjælp\" means to get help, that is, to receive it from someone. To give help, use \"at give hjælp\" or \"at hjælpe\". A very useful call is \"Jeg har brug for hjælp\" (I need help). Notice \"hjælp\" is used with no \"a\" or \"the\" in front.",
+  "related": [
+   {
+    "da": "hjælp",
+    "en": "help"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "at have brug for",
+    "en": "to need"
+   },
+   {
+    "da": "at give",
+    "en": "to give"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **få hjælp** på kontoret.",
+   "en": "I can get help at the office."
+  }
+ },
+ "at føle": {
+  "forms": [
+   {
+    "da": "at føle",
+    "en": "to feel"
+   },
+   {
+    "da": "jeg føler",
+    "en": "I feel"
+   },
+   {
+    "da": "jeg følte",
+    "en": "I felt"
+   },
+   {
+    "da": "jeg har følt",
+    "en": "I have felt"
+   }
+  ],
+  "explanation": "\"At føle\" means to feel, both emotions and things you touch. \"Jeg føler mig glad\" means \"I feel happy\". You use \"føle sig\" together with a describing word like \"glad\" (happy) to describe how you feel. \"En følelse\" is a feeling. The past form \"følte\" and the \"have\" form \"følt\" are regular.",
+  "related": [
+   {
+    "da": "en følelse",
+    "en": "a feeling"
+   },
+   {
+    "da": "at mærke",
+    "en": "to feel (sense)"
+   },
+   {
+    "da": "at røre",
+    "en": "to touch"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **føler** mig glad i dag.",
+   "en": "I feel happy today."
+  }
+ },
+ "en familie": {
+  "forms": [
+   {
+    "da": "en familie",
+    "en": "a family"
+   },
+   {
+    "da": "familien",
+    "en": "the family"
+   },
+   {
+    "da": "familier",
+    "en": "families"
+   },
+   {
+    "da": "familierne",
+    "en": "the families"
+   }
+  ],
+  "explanation": "\"En familie\" is a family, and it is an en-word. The plural is \"familier\". Say \"min familie\" for your family. It includes parents and children, but the wider family can also be \"slægten\". A friendly question is \"Har du en stor familie?\" (Do you have a big family?).",
+  "related": [
+   {
+    "da": "en mor",
+    "en": "a mother"
+   },
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en slægtning",
+    "en": "a relative"
+   }
+  ],
+  "sentence": {
+   "da": "Min **familie** bor i Aarhus.",
+   "en": "My family lives in Aarhus."
+  }
+ },
+ "en far": {
+  "forms": [
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "faren",
+    "en": "the father"
+   },
+   {
+    "da": "fædre",
+    "en": "fathers"
+   },
+   {
+    "da": "fædrene",
+    "en": "the fathers"
+   }
+  ],
+  "explanation": "\"En far\" is a father. When talking about your own, Danes say \"min far\" with no \"en\". The plural \"fædre\" has a changed vowel. \"Far\" is also used like a name when speaking to him: \"Hej, far!\". Its pair is \"en mor\" (a mother).",
+  "related": [
+   {
+    "da": "en mor",
+    "en": "a mother"
+   },
+   {
+    "da": "en forælder",
+    "en": "a parent"
+   },
+   {
+    "da": "en bedstefar",
+    "en": "a grandfather"
+   },
+   {
+    "da": "en farfar",
+    "en": "a father's father"
+   }
+  ],
+  "sentence": {
+   "da": "Min **far** arbejder på et hospital.",
+   "en": "My father works at a hospital."
+  }
+ },
+ "en farfar": {
+  "forms": [
+   {
+    "da": "en farfar",
+    "en": "a grandfather (father's father)"
+   },
+   {
+    "da": "farfaren",
+    "en": "the grandfather (father's father)"
+   },
+   {
+    "da": "farfædre",
+    "en": "grandfathers (father's father)"
+   },
+   {
+    "da": "farfædrene",
+    "en": "the grandfathers (father's father)"
+   }
+  ],
+  "explanation": "\"En farfar\" is your father's father: \"far\" and \"far\" together. Danish keeps the four grandparents apart with the words \"mormor\", \"morfar\", \"farmor\" and \"farfar\". The plural \"farfædre\" is rarely used. Children usually just say \"farfar\" like a name.",
+  "related": [
+   {
+    "da": "en morfar",
+    "en": "a grandfather (mother's father)"
+   },
+   {
+    "da": "en farmor",
+    "en": "a grandmother (father's mother)"
+   },
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "bedsteforældre",
+    "en": "grandparents"
+   }
+  ],
+  "sentence": {
+   "da": "Min **farfar** er firs år gammel.",
+   "en": "My grandfather is eighty years old."
+  }
+ },
+ "en farmor": {
+  "forms": [
+   {
+    "da": "en farmor",
+    "en": "a grandmother (father's mother)"
+   },
+   {
+    "da": "farmoren",
+    "en": "the grandmother (father's mother)"
+   },
+   {
+    "da": "farmødre",
+    "en": "grandmothers (father's mother)"
+   },
+   {
+    "da": "farmødrene",
+    "en": "the grandmothers (father's mother)"
+   }
+  ],
+  "explanation": "\"En farmor\" is your father's mother. It is made from \"far\" (father) and \"mor\" (mother). Her counterpart on the mother's side is \"mormor\". Danes use these words as names too, so you will hear \"Farmor kommer i dag\" for \"Grandma is coming today\".",
+  "related": [
+   {
+    "da": "en mormor",
+    "en": "a grandmother (mother's mother)"
+   },
+   {
+    "da": "en farfar",
+    "en": "a grandfather (father's father)"
+   },
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "bedsteforældre",
+    "en": "grandparents"
+   }
+  ],
+  "sentence": {
+   "da": "Min **farmor** bager gode boller.",
+   "en": "My grandmother bakes good buns."
+  }
+ },
+ "en farve": {
+  "forms": [
+   {
+    "da": "en farve",
+    "en": "a color"
+   },
+   {
+    "da": "farven",
+    "en": "the color"
+   },
+   {
+    "da": "farver",
+    "en": "colors"
+   },
+   {
+    "da": "farverne",
+    "en": "the colors"
+   }
+  ],
+  "explanation": "\"En farve\" means a color. In a shop you may ask \"Har I den i en anden farve?\" (Do you have it in another color?). \"Farve\" is also what you use for hair dye or paint. Tip: \"hvilken farve\" means \"what color\", and it is a handy question when you shop.",
+  "related": [
+   {
+    "da": "rød",
+    "en": "red"
+   },
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "en størrelse",
+    "en": "a size"
+   },
+   {
+    "da": "at male",
+    "en": "to paint"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilken **farve** kan du bedst lide?",
+   "en": "Which color do you like best?"
+  }
+ },
+ "en feber": {
+  "forms": [
+   {
+    "da": "en feber",
+    "en": "a fever"
+   },
+   {
+    "da": "feberen",
+    "en": "the fever"
+   },
+   {
+    "da": "febre",
+    "en": "fevers"
+   },
+   {
+    "da": "febrene",
+    "en": "the fevers"
+   }
+  ],
+  "explanation": "\"En feber\" is a fever, a high body temperature when you are sick. It is an en-word. Say \"Jeg har feber\" (I have a fever), usually without \"en\". The word for more than one is \"febre\" and drops the e. The temperature is measured with \"et termometer\".",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "influenza",
+    "en": "the flu"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har **feber** og bliver i sengen.",
+   "en": "She has a fever and stays in bed."
+  }
+ },
+ "en ferie": {
+  "forms": [
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   },
+   {
+    "da": "ferien",
+    "en": "the vacation"
+   },
+   {
+    "da": "ferier",
+    "en": "vacations"
+   },
+   {
+    "da": "ferierne",
+    "en": "the vacations"
+   }
+  ],
+  "explanation": "\"En ferie\" is a vacation or a holiday period away from work or school. You say \"på ferie\" for being on vacation: \"Jeg er på ferie\". In Danish it is used in the singular for the time off: \"i ferien\" (during the vacation). \"Sommerferie\" is the summer vacation, a big deal in Denmark.",
+  "related": [
+   {
+    "da": "en sommerferie",
+    "en": "a summer vacation"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   },
+   {
+    "da": "fri",
+    "en": "off / free"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på **ferie** i juli.",
+   "en": "We are going on vacation in July."
+  }
+ },
+ "en fest": {
+  "forms": [
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "festen",
+    "en": "the party"
+   },
+   {
+    "da": "fester",
+    "en": "parties"
+   },
+   {
+    "da": "festerne",
+    "en": "the parties"
+   }
+  ],
+  "explanation": "\"En fest\" is a party or a celebration. You \"holder en fest\" (have a party) or \"går til fest\" (go to a party). It can be a small gathering at home or a big event. \"Fest\" is also used in phrases like \"god fest!\", which means \"have a good party!\".",
+  "related": [
+   {
+    "da": "et bryllup",
+    "en": "a wedding"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "at fejre",
+    "en": "to celebrate"
+   },
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   }
+  ],
+  "sentence": {
+   "da": "Vi holder **fest** på lørdag.",
+   "en": "We are having a party on Saturday."
+  }
+ },
+ "en film": {
+  "forms": [
+   {
+    "da": "en film",
+    "en": "a film / movie"
+   },
+   {
+    "da": "filmen",
+    "en": "the film / the movie"
+   },
+   {
+    "da": "film",
+    "en": "films / movies"
+   },
+   {
+    "da": "filmene",
+    "en": "the films / the movies"
+   }
+  ],
+  "explanation": "\"En film\" is a film or movie. It is an en-word, and the plural is just \"film\", so \"to film\" means \"two films\" (the number \"to\" is two). Typical phrases are \"at se en film\" (to watch a film) and \"en dansk film\".",
+  "related": [
+   {
+    "da": "en biograf",
+    "en": "a cinema"
+   },
+   {
+    "da": "en skuespiller",
+    "en": "an actor"
+   },
+   {
+    "da": "at se",
+    "en": "to watch"
+   },
+   {
+    "da": "et program",
+    "en": "a programme"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ser en god **film** i aften.",
+   "en": "We are watching a good film tonight."
+  }
+ },
+ "en finger": {
+  "forms": [
+   {
+    "da": "en finger",
+    "en": "a finger"
+   },
+   {
+    "da": "fingeren",
+    "en": "the finger"
+   },
+   {
+    "da": "fingre",
+    "en": "fingers"
+   },
+   {
+    "da": "fingrene",
+    "en": "the fingers"
+   }
+  ],
+  "explanation": "\"En finger\" is a finger. It is an en-word, and the word for more than one drops the e: \"fingre\". The thumb is \"tommelfingeren\" and the index finger is \"pegefingeren\". Pain is described like this: \"Jeg har ondt i fingeren\".",
+  "related": [
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "en negl",
+    "en": "a nail"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har skåret mig i **fingeren**.",
+   "en": "I have cut my finger."
+  }
+ },
+ "en fisk": {
+  "forms": [
+   {
+    "da": "en fisk",
+    "en": "a fish"
+   },
+   {
+    "da": "fisken",
+    "en": "the fish"
+   },
+   {
+    "da": "fiske",
+    "en": "fish (several)"
+   },
+   {
+    "da": "fiskene",
+    "en": "the fish (the ones)"
+   }
+  ],
+  "explanation": "\"En fisk\" is a fish, both the animal in the water and the food on your plate. It is an en-word. The plural is usually \"fisk\" or \"fiske\" when you mean several fish. The verb \"at fiske\" means to fish, and \"fisk og kartofler\" is a classic dinner.",
+  "related": [
+   {
+    "da": "at fiske",
+    "en": "to fish"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en laks",
+    "en": "a salmon"
+   },
+   {
+    "da": "en torsk",
+    "en": "a cod"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **fisk** hver fredag.",
+   "en": "I eat fish every Friday."
+  }
+ },
+ "en flaske": {
+  "forms": [
+   {
+    "da": "en flaske",
+    "en": "a bottle"
+   },
+   {
+    "da": "flasken",
+    "en": "the bottle"
+   },
+   {
+    "da": "flasker",
+    "en": "bottles"
+   },
+   {
+    "da": "flaskerne",
+    "en": "the bottles"
+   }
+  ],
+  "explanation": "\"Flaske\" is a bottle. Danes talk about \"en flaske vand\" (a bottle of water) with no word for \"of\". In Denmark you pay a small deposit on bottles, called \"pant\", and get it back when you return them at the shop.",
+  "related": [
+   {
+    "da": "pant",
+    "en": "bottle deposit"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "en dåse",
+    "en": "a can"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber **en flaske** vand.",
+   "en": "I am buying a bottle of water."
+  }
+ },
+ "en flybillet": {
+  "forms": [
+   {
+    "da": "en flybillet",
+    "en": "a plane ticket"
+   },
+   {
+    "da": "flybilletten",
+    "en": "the plane ticket"
+   },
+   {
+    "da": "flybilletter",
+    "en": "plane tickets"
+   },
+   {
+    "da": "flybilletterne",
+    "en": "the plane tickets"
+   }
+  ],
+  "explanation": "\"Flybillet\" is a plane ticket, built from \"fly\" (plane) and \"billet\" (ticket). Many Danish words are made by putting two words together, so you can guess a lot of them. You book one \"online\" and say \"at købe en flybillet\".",
+  "related": [
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "et fly",
+    "en": "a plane"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en returbillet",
+    "en": "a return ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt **en flybillet** til Paris.",
+   "en": "I have bought a plane ticket to Paris."
+  }
+ },
+ "en fod": {
+  "forms": [
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "foden",
+    "en": "the foot"
+   },
+   {
+    "da": "fødder",
+    "en": "feet"
+   },
+   {
+    "da": "fødderne",
+    "en": "the feet"
+   }
+  ],
+  "explanation": "\"En fod\" is a foot. It is an en-word and the word for more than one changes its vowel: \"fødder\" (feet), like English \"foot, feet\". \"Til fods\" means on foot (walking). \"Jeg har ondt i fødderne\" means \"My feet hurt\".",
+  "related": [
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "et ben",
+    "en": "a leg"
+   },
+   {
+    "da": "et knæ",
+    "en": "a knee"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   }
+  ],
+  "sentence": {
+   "da": "Mine **fødder** er kolde.",
+   "en": "My feet are cold."
+  }
+ },
+ "en forfader": {
+  "forms": [
+   {
+    "da": "en forfader",
+    "en": "an ancestor"
+   },
+   {
+    "da": "forfaderen",
+    "en": "the ancestor"
+   },
+   {
+    "da": "forfædre",
+    "en": "ancestors"
+   },
+   {
+    "da": "forfædrene",
+    "en": "the ancestors"
+   }
+  ],
+  "explanation": "\"Forfader\" is made of \"for\" (before) and \"fader\" (an old form of \"far\", father), so it is literally a \"before-father\". The plural is irregular: \"forfædre\", not \"forfadere\". It is slightly formal; in casual talk Danes might say \"mine oldeforældre\" (my great-grandparents) for the nearer generations.",
+  "related": [
+   {
+    "da": "en efterkommer",
+    "en": "a descendant"
+   },
+   {
+    "da": "en slægt",
+    "en": "a family line"
+   },
+   {
+    "da": "en oldefar",
+    "en": "a great-grandfather"
+   },
+   {
+    "da": "en historie",
+    "en": "a history, a story"
+   }
+  ],
+  "sentence": {
+   "da": "Min **forfader** var bonde i Jylland.",
+   "en": "My ancestor was a farmer in Jutland."
+  }
+ },
+ "en forkølelse": {
+  "forms": [
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "forkølelsen",
+    "en": "the cold"
+   },
+   {
+    "da": "forkølelser",
+    "en": "colds"
+   },
+   {
+    "da": "forkølelserne",
+    "en": "the colds"
+   }
+  ],
+  "explanation": "\"En forkølelse\" is a common cold, the illness with a runny nose and a sore throat. It is an en-word. In everyday speech, people say \"Jeg er forkølet\" (I have a cold), which is more natural than using the long word. Do not mix it up with \"kold\" (cold in temperature).",
+  "related": [
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "en feber",
+    "en": "a fever"
+   },
+   {
+    "da": "influenza",
+    "en": "the flu"
+   },
+   {
+    "da": "en næse",
+    "en": "a nose"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **forkølelse** og en hoste.",
+   "en": "I have a cold and a cough."
+  }
+ },
+ "en fornyelse": {
+  "forms": [
+   {
+    "da": "en fornyelse",
+    "en": "a renewal"
+   },
+   {
+    "da": "fornyelsen",
+    "en": "the renewal"
+   },
+   {
+    "da": "fornyelser",
+    "en": "renewals"
+   },
+   {
+    "da": "fornyelserne",
+    "en": "the renewals"
+   }
+  ],
+  "explanation": "\"Fornyelse\" is the noun for renewing something, from the verb \"at forny\" (to renew). It is used for things like passports, contracts and subscriptions, and it can also mean a fresh start or renewal in a more general sense. The prefix \"for-\" here does not mean \"before\" but \"making it new again\", the same pattern as in \"forbedring\" (improvement).",
+  "related": [
+   {
+    "da": "at forny",
+    "en": "to renew"
+   },
+   {
+    "da": "ny",
+    "en": "new"
+   },
+   {
+    "da": "en forlængelse",
+    "en": "an extension"
+   },
+   {
+    "da": "en forbedring",
+    "en": "an improvement"
+   }
+  ],
+  "sentence": {
+   "da": "Det er tid til **fornyelse** af kontrakten.",
+   "en": "It is time for renewal of the contract."
+  }
+ },
+ "en forret": {
+  "forms": [
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "forretten",
+    "en": "the starter"
+   },
+   {
+    "da": "forretter",
+    "en": "starters"
+   },
+   {
+    "da": "forretterne",
+    "en": "the starters"
+   }
+  ],
+  "explanation": "\"En forret\" is the first small dish of a meal, the starter. It is an en-word. The word \"for\" in front means before, and \"ret\" is a dish, so it is the dish before the main one. After it comes \"hovedretten\" (the main course).",
+  "related": [
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager en suppe som **forret**.",
+   "en": "I will have a soup as a starter."
+  }
+ },
+ "en forsinkelse": {
+  "forms": [
+   {
+    "da": "en forsinkelse",
+    "en": "a delay"
+   },
+   {
+    "da": "forsinkelsen",
+    "en": "the delay"
+   },
+   {
+    "da": "forsinkelser",
+    "en": "delays"
+   },
+   {
+    "da": "forsinkelserne",
+    "en": "the delays"
+   }
+  ],
+  "explanation": "\"Forsinkelse\" is a delay, like a train or flight running late. You hear it in announcements: \"Der er forsinkelse\" (There is a delay). The matching describing word is \"forsinket\" (delayed, late): \"Toget er forsinket.\" It is an en-word.",
+  "related": [
+   {
+    "da": "forsinket",
+    "en": "delayed, late"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   },
+   {
+    "da": "for sent",
+    "en": "too late"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **en forsinkelse** på tyve minutter.",
+   "en": "There is a delay of twenty minutes."
+  }
+ },
+ "en frakke": {
+  "forms": [
+   {
+    "da": "en frakke",
+    "en": "a coat"
+   },
+   {
+    "da": "frakken",
+    "en": "the coat"
+   },
+   {
+    "da": "frakker",
+    "en": "coats"
+   },
+   {
+    "da": "frakkerne",
+    "en": "the coats"
+   }
+  ],
+  "explanation": "\"En frakke\" is a coat, a longer and warmer piece of clothing than a jacket. It is an en-word. Danish winters are cold and damp, so a winter coat is a common sight. To put it on, you say \"at tage frakken på\".",
+  "related": [
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   },
+   {
+    "da": "en hat",
+    "en": "a hat"
+   },
+   {
+    "da": "handsker",
+    "en": "gloves"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager min **frakke** på.",
+   "en": "I put my coat on."
+  }
+ },
+ "en frikadelle": {
+  "forms": [
+   {
+    "da": "en frikadelle",
+    "en": "a meatball"
+   },
+   {
+    "da": "frikadellen",
+    "en": "the meatball"
+   },
+   {
+    "da": "frikadeller",
+    "en": "meatballs"
+   },
+   {
+    "da": "frikadellerne",
+    "en": "the meatballs"
+   }
+  ],
+  "explanation": "\"En frikadelle\" is a Danish meatball, flatter than the round ones in other countries, usually made of pork and fried in a pan. It is an en-word and a national classic that is eaten hot with potatoes and gravy or cold on rye bread.",
+  "related": [
+   {
+    "da": "en sovs",
+    "en": "a sauce / gravy"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "rugbrød",
+    "en": "rye bread"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **frikadeller** med kartofler.",
+   "en": "We eat meatballs with potatoes."
+  }
+ },
+ "en frisør": {
+  "forms": [
+   {
+    "da": "en frisør",
+    "en": "a hairdresser"
+   },
+   {
+    "da": "frisøren",
+    "en": "the hairdresser"
+   },
+   {
+    "da": "frisører",
+    "en": "hairdressers"
+   },
+   {
+    "da": "frisørerne",
+    "en": "the hairdressers"
+   }
+  ],
+  "explanation": "\"En frisør\" is a hairdresser, and it is also the place where you get your hair cut. It is an en-word. You say \"Jeg skal til frisør\" for \"I'm going to the hairdresser\". For a man's haircut at a barber, you may hear \"en barber\".",
+  "related": [
+   {
+    "da": "et hår",
+    "en": "hair"
+   },
+   {
+    "da": "at klippe",
+    "en": "to cut"
+   },
+   {
+    "da": "en barber",
+    "en": "a barber"
+   },
+   {
+    "da": "at bestille tid",
+    "en": "to make an appointment"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal til **frisør** i morgen.",
+   "en": "I am going to the hairdresser tomorrow."
+  }
+ },
+ "en frugt": {
+  "forms": [
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "frugten",
+    "en": "the fruit"
+   },
+   {
+    "da": "frugter",
+    "en": "fruits"
+   },
+   {
+    "da": "frugterne",
+    "en": "the fruits"
+   }
+  ],
+  "explanation": "\"En frugt\" is the general word for fruit as a type of food, such as apples, pears and bananas. In Danish you often say \"frugt\" without \"en\" when you mean fruit in general: \"Jeg spiser meget frugt\". If you mean one specific piece of fruit, you can say \"et stykke frugt\" (a piece of fruit).",
+  "related": [
+   {
+    "da": "et æble",
+    "en": "an apple"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene spiser **frugt** hver dag.",
+   "en": "The children eat fruit every day."
+  }
+ },
+ "en fugl": {
+  "forms": [
+   {
+    "da": "en fugl",
+    "en": "a bird"
+   },
+   {
+    "da": "fuglen",
+    "en": "the bird"
+   },
+   {
+    "da": "fugle",
+    "en": "birds"
+   },
+   {
+    "da": "fuglene",
+    "en": "the birds"
+   }
+  ],
+  "explanation": "\"En fugl\" is a bird of any kind, and it is an en-word. The plural \"fugle\" just adds -e. You will hear it in the saying \"en fugl i hånden er bedre end ti på taget\", like \"a bird in the hand is worth two in the bush\". Birdsong is \"fuglesang\".",
+  "related": [
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en and",
+    "en": "a duck"
+   },
+   {
+    "da": "en svane",
+    "en": "a swan"
+   },
+   {
+    "da": "en fisk",
+    "en": "a fish"
+   }
+  ],
+  "sentence": {
+   "da": "Der sidder en **fugl** i træet.",
+   "en": "There is a bird sitting in the tree."
+  }
+ },
+ "en fætter": {
+  "forms": [
+   {
+    "da": "en fætter",
+    "en": "a male cousin"
+   },
+   {
+    "da": "fætteren",
+    "en": "the male cousin"
+   },
+   {
+    "da": "fætre",
+    "en": "male cousins"
+   },
+   {
+    "da": "fætrene",
+    "en": "the male cousins"
+   }
+  ],
+  "explanation": "\"En fætter\" is a male cousin, the son of an aunt or uncle. Danish has separate words for male and female cousins, which English does not. The female one is \"en kusine\". The plural is \"fætre\".",
+  "related": [
+   {
+    "da": "en kusine",
+    "en": "a female cousin"
+   },
+   {
+    "da": "en onkel",
+    "en": "an uncle"
+   },
+   {
+    "da": "en tante",
+    "en": "an aunt"
+   },
+   {
+    "da": "en slægtning",
+    "en": "a relative"
+   }
+  ],
+  "sentence": {
+   "da": "Min **fætter** er på min alder.",
+   "en": "My cousin is my age."
+  }
+ },
+ "en fødselsdag": {
+  "forms": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "fødselsdagen",
+    "en": "the birthday"
+   },
+   {
+    "da": "fødselsdage",
+    "en": "birthdays"
+   },
+   {
+    "da": "fødselsdagene",
+    "en": "the birthdays"
+   }
+  ],
+  "explanation": "\"En fødselsdag\" is a birthday. The usual greeting is \"Tillykke med fødselsdagen!\" (Happy birthday!). The Danes love birthdays, and they often decorate the house with flags. Say \"Hvornår har du fødselsdag?\" to ask when someone's birthday is, with the verb \"har\" (have), not \"er\".",
+  "related": [
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
+   }
+  ],
+  "sentence": {
+   "da": "Hvornår har du **fødselsdag**?",
+   "en": "When is your birthday?"
+  }
+ },
+ "en fødselsdagsfest": {
+  "forms": [
+   {
+    "da": "en fødselsdagsfest",
+    "en": "a birthday party"
+   },
+   {
+    "da": "fødselsdagsfesten",
+    "en": "the birthday party"
+   },
+   {
+    "da": "fødselsdagsfester",
+    "en": "birthday parties"
+   },
+   {
+    "da": "fødselsdagsfesterne",
+    "en": "the birthday parties"
+   }
+  ],
+  "explanation": "A \"fødselsdagsfest\" is a birthday party. It combines \"fødselsdag\" (birthday) and \"fest\" (party). Danes often celebrate with cake, flags and a birthday song, and you say \"til en fødselsdagsfest\" for \"at a birthday party\".",
+  "related": [
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "at fejre",
+    "en": "to celebrate"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **fødselsdagsfest** hos Anna i lørdag.",
+   "en": "There is a birthday party at Anna's on Saturday."
+  }
+ },
+ "en fødselsdagsgave": {
+  "forms": [
+   {
+    "da": "en fødselsdagsgave",
+    "en": "a birthday present"
+   },
+   {
+    "da": "fødselsdagsgaven",
+    "en": "the birthday present"
+   },
+   {
+    "da": "fødselsdagsgaver",
+    "en": "birthday presents"
+   },
+   {
+    "da": "fødselsdagsgaverne",
+    "en": "the birthday presents"
+   }
+  ],
+  "explanation": "A \"fødselsdagsgave\" is a present you give for someone's birthday. It is built from \"fødselsdag\" (birthday) and \"gave\" (gift). Danes also say just \"en gave\" (a gift), which works for any occasion.",
+  "related": [
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "et kort",
+    "en": "a card"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt en **fødselsdagsgave** til min mor.",
+   "en": "I have bought a birthday present for my mother."
+  }
+ },
+ "en fødselsdato": {
+  "forms": [
+   {
+    "da": "en fødselsdato",
+    "en": "a date of birth"
+   },
+   {
+    "da": "fødselsdatoen",
+    "en": "the date of birth"
+   },
+   {
+    "da": "fødselsdatoer",
+    "en": "dates of birth"
+   },
+   {
+    "da": "fødselsdatoerne",
+    "en": "the dates of birth"
+   }
+  ],
+  "explanation": "\"En fødselsdato\" is your date of birth, the day, month and year you were born. It is built from \"fødsel\" (birth) and \"dato\" (date). You will see it on forms. In Danish the date is written day first, for example 14.03.1990. Do not confuse it with \"en fødselsdag\", which is the birthday you celebrate.",
+  "related": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "en dato",
+    "en": "a date"
+   },
+   {
+    "da": "et fødested",
+    "en": "a birthplace"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
+   }
+  ],
+  "sentence": {
+   "da": "Skriv din **fødselsdato** her.",
+   "en": "Write your date of birth here."
+  }
+ },
+ "et fly": {
+  "forms": [
+   {
+    "da": "et fly",
+    "en": "a plane"
+   },
+   {
+    "da": "flyet",
+    "en": "the plane"
+   },
+   {
+    "da": "fly",
+    "en": "planes"
+   },
+   {
+    "da": "flyene",
+    "en": "the planes"
+   }
+  ],
+  "explanation": "Et fly is a plane. It is an et-word, so \"the plane\" is \"flyet\", and more than one is still \"fly\". It looks like the verb \"at flyve\" (to fly), and they belong together. Some people also say \"en flyvemaskine\", which is longer and a bit old-fashioned, but \"et fly\" is the normal everyday word.",
+  "related": [
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "at flyve",
+    "en": "to fly"
+   },
+   {
+    "da": "en pilot",
+    "en": "a pilot"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "**Flyet** lander klokken otte.",
+   "en": "The plane lands at eight o'clock."
+  }
+ },
+ "et fornavn": {
+  "forms": [
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   },
+   {
+    "da": "fornavnet",
+    "en": "the first name"
+   },
+   {
+    "da": "fornavne",
+    "en": "first names"
+   },
+   {
+    "da": "fornavnene",
+    "en": "the first names"
+   }
+  ],
+  "explanation": "\"Et fornavn\" is your first name, the one that comes before the family name. \"For\" here means \"before\". On forms you will see \"Fornavn\" next to a box for your first name. Many Danes also have a middle name, \"et mellemnavn\".",
+  "related": [
+   {
+    "da": "et efternavn",
+    "en": "a last name"
+   },
+   {
+    "da": "et mellemnavn",
+    "en": "a middle name"
+   },
+   {
+    "da": "et navn",
+    "en": "a name"
+   },
+   {
+    "da": "en fødselsdato",
+    "en": "a date of birth"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **fornavn** er Anna.",
+   "en": "My first name is Anna."
+  }
+ },
+ "et forår": {
+  "forms": [
+   {
+    "da": "et forår",
+    "en": "a spring"
+   },
+   {
+    "da": "foråret",
+    "en": "the spring"
+   },
+   {
+    "da": "om foråret",
+    "en": "in the spring"
+   }
+  ],
+  "explanation": "Et forår is the season spring, the time between winter and summer. It is an et-word, so \"the spring\" is \"foråret\". Do not mix it up with the English word \"spring\" meaning to jump. Use \"om foråret\" for \"in the spring\" in general. It is made of \"for\" and \"år\", and it is the time when flowers and green leaves come back.",
+  "related": [
+   {
+    "da": "en sommer",
+    "en": "a summer"
+   },
+   {
+    "da": "en vinter",
+    "en": "a winter"
+   },
+   {
+    "da": "et efterår",
+    "en": "an autumn"
+   },
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   }
+  ],
+  "sentence": {
+   "da": "Blomsterne kommer frem om **foråret**.",
+   "en": "The flowers come out in the spring."
+  }
+ },
+ "et får": {
+  "forms": [
+   {
+    "da": "et får",
+    "en": "a sheep"
+   },
+   {
+    "da": "fåret",
+    "en": "the sheep"
+   },
+   {
+    "da": "får",
+    "en": "sheep (several)"
+   },
+   {
+    "da": "fårene",
+    "en": "the sheep (the ones)"
+   }
+  ],
+  "explanation": "\"Et får\" is a sheep, and it is an et-word. Note that the plural looks exactly like the singular: \"to får\" means two sheep, just as in English. When you say \"the sheep\" the word ends in -et, \"fåret\". Lamb meat is \"lammekød\", and a young sheep is \"et lam\".",
+  "related": [
+   {
+    "da": "et lam",
+    "en": "a lamb"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en ged",
+    "en": "a goat"
+   },
+   {
+    "da": "uld",
+    "en": "wool"
+   }
+  ],
+  "sentence": {
+   "da": "**Fårene** står på marken.",
+   "en": "The sheep are standing in the field."
+  }
+ },
+ "et fødested": {
+  "forms": [
+   {
+    "da": "et fødested",
+    "en": "a birthplace"
+   },
+   {
+    "da": "fødestedet",
+    "en": "the birthplace"
+   },
+   {
+    "da": "fødesteder",
+    "en": "birthplaces"
+   },
+   {
+    "da": "fødestederne",
+    "en": "the birthplaces"
+   }
+  ],
+  "explanation": "\"Et fødested\" is a birthplace, the town or country where someone was born. It is built from \"fødsel\" (birth) and \"sted\" (place). You may see it on forms next to \"Fødselsdato\". A simple way to answer is just the town: \"København\".",
+  "related": [
+   {
+    "da": "en fødselsdato",
+    "en": "a date of birth"
+   },
+   {
+    "da": "et sted",
+    "en": "a place"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **fødested** er Odense.",
+   "en": "My birthplace is Odense."
+  }
+ },
+ "faktisk": {
+  "forms": [
+   {
+    "da": "Det er faktisk rigtigt.",
+    "en": "It is actually true."
+   },
+   {
+    "da": "Jeg ved det faktisk ikke.",
+    "en": "I actually do not know."
+   },
+   {
+    "da": "Faktisk, ja.",
+    "en": "Actually, yes."
+   }
+  ],
+  "explanation": "\"Faktisk\" means \"actually\" or \"in fact\". It is used to give a fact, a surprise or a small correction: \"Jeg bor faktisk her\" (I actually live here). It is a nice word to sound natural. Be careful with the spelling: \"faktisk\" has a \"k\" in the middle and ends in \"-isk\".",
+  "related": [
+   {
+    "da": "virkelig",
+    "en": "really"
+   },
+   {
+    "da": "egentlig",
+    "en": "really / actually"
+   },
+   {
+    "da": "sandt",
+    "en": "true"
+   },
+   {
+    "da": "i virkeligheden",
+    "en": "in reality"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **faktisk** ret sulten.",
+   "en": "I am actually quite hungry."
+  }
+ },
+ "fantastisk": {
+  "forms": [
+   {
+    "da": "en fantastisk dag",
+    "en": "a fantastic day"
+   },
+   {
+    "da": "et fantastisk sted",
+    "en": "a fantastic place"
+   },
+   {
+    "da": "fantastiske dage",
+    "en": "fantastic days"
+   }
+  ],
+  "explanation": "\"Fantastisk\" means fantastic or wonderful, and you can use it a lot like in English. It does not change with et-words (\"et fantastisk sted\"), and it adds an \"e\" with more than one (\"fantastiske dage\"). It is stronger than \"god\" (good), so save it for something really great.",
+  "related": [
+   {
+    "da": "super",
+    "en": "super / great"
+   },
+   {
+    "da": "dejlig",
+    "en": "lovely"
+   },
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "perfekt",
+    "en": "perfect"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **fantastisk** film.",
+   "en": "It was a fantastic film."
+  }
+ },
+ "farlig": {
+  "forms": [
+   {
+    "da": "en farlig vej",
+    "en": "a dangerous road"
+   },
+   {
+    "da": "et farligt dyr",
+    "en": "a dangerous animal"
+   },
+   {
+    "da": "farlige veje",
+    "en": "dangerous roads"
+   }
+  ],
+  "explanation": "\"Farlig\" means dangerous, from \"fare\" (danger). With et-words it gets a \"t\" (\"et farligt dyr\") and with more than one an \"e\" (\"farlige veje\"). The opposite is \"sikker\" (safe). You may see \"Livsfarlig!\" on signs, which means life-threatening.",
+  "related": [
+   {
+    "da": "en fare",
+    "en": "a danger"
+   },
+   {
+    "da": "sikker",
+    "en": "safe"
+   },
+   {
+    "da": "forsigtig",
+    "en": "careful"
+   },
+   {
+    "da": "giftig",
+    "en": "poisonous"
+   }
+  ],
+  "sentence": {
+   "da": "Vejen er meget **farlig**.",
+   "en": "The road is very dangerous."
+  }
+ },
+ "farvel": {
+  "forms": [
+   {
+    "da": "Farvel!",
+    "en": "Goodbye!"
+   },
+   {
+    "da": "Sig farvel.",
+    "en": "Say goodbye."
+   },
+   {
+    "da": "et farvel",
+    "en": "a farewell"
+   }
+  ],
+  "explanation": "\"Farvel\" means \"goodbye\" and sounds a little more final or formal than \"hej hej\" or \"vi ses\" (see you). Danes often use \"hej hej\" or \"vi ses\" for casual goodbyes. You can say \"farvel\" in a shop or when you leave for a longer time. The word can also be \"et farvel\" (a farewell) when you speak about leaving someone.",
+  "related": [
+   {
+    "da": "hej hej",
+    "en": "bye bye"
+   },
+   {
+    "da": "vi ses",
+    "en": "see you"
+   },
+   {
+    "da": "på gensyn",
+    "en": "until we meet again"
+   },
+   {
+    "da": "hej",
+    "en": "hi"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg siger **farvel** til min ven.",
+   "en": "I say goodbye to my friend."
+  }
+ },
+ "fattig": {
+  "forms": [
+   {
+    "da": "en fattig mand",
+    "en": "a poor man"
+   },
+   {
+    "da": "et fattigt land",
+    "en": "a poor country"
+   },
+   {
+    "da": "fattige mennesker",
+    "en": "poor people"
+   }
+  ],
+  "explanation": "\"Fattig\" means poor, with little money. It is used for people and also for countries or areas. Add \"t\" for et-words (\"et fattigt land\") and \"-e\" for more than one. The opposite is \"rig\" (rich). When you feel sorry for someone Danes say \"stakkels\", which means poor in the sense of unlucky: \"stakkels dig\" (poor you).",
+  "related": [
+   {
+    "da": "rig",
+    "en": "rich"
+   },
+   {
+    "da": "stakkels",
+    "en": "poor (unlucky)"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "en fattigdom",
+    "en": "poverty"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **fattig**, da han var ung.",
+   "en": "He was poor when he was young."
+  }
+ },
+ "februar": {
+  "forms": [
+   {
+    "da": "februar",
+    "en": "February"
+   },
+   {
+    "da": "i februar",
+    "en": "in February"
+   },
+   {
+    "da": "i starten af februar",
+    "en": "early in February"
+   }
+  ],
+  "explanation": "\"Februar\" is February, the shortest month, with 28 days or 29 in a leap year. Like all month names it is written with a small letter and used with \"i\": \"i februar\" (in February). The Danish spelling is close to the English, but the ending is a plain -ar, so write \"februar\", not \"february\".",
+  "related": [
+   {
+    "da": "januar",
+    "en": "January"
+   },
+   {
+    "da": "marts",
+    "en": "March"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Min fødselsdag er i **februar**.",
+   "en": "My birthday is in February."
+  }
+ },
+ "fem": {
+  "forms": [
+   {
+    "da": "fem kroner",
+    "en": "five kroner"
+   },
+   {
+    "da": "fem minutter",
+    "en": "five minutes"
+   },
+   {
+    "da": "klokken fem",
+    "en": "five o'clock"
+   }
+  ],
+  "explanation": "Means \"five\". A short word that is easy to say, and the same before en-words and et-words. It is the start of \"femten\" (fifteen). Note that fifty is not \"femti\" but \"halvtreds\", so the pattern changes after forty.",
+  "related": [
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "seks",
+    "en": "six"
+   },
+   {
+    "da": "femten",
+    "en": "fifteen"
+   },
+   {
+    "da": "femte",
+    "en": "fifth"
+   }
+  ],
+  "sentence": {
+   "da": "Klokken er **fem**.",
+   "en": "It's five o'clock."
   }
  },
  "femogtredive": {
@@ -206,6 +2292,665 @@
    "en": "My brother is thirty-five years old."
   }
  },
+ "femte": {
+  "forms": [
+   {
+    "da": "femte",
+    "en": "fifth"
+   },
+   {
+    "da": "den femte dag",
+    "en": "the fifth day"
+   },
+   {
+    "da": "det femte hus",
+    "en": "the fifth house"
+   }
+  ],
+  "explanation": "\"Femte\" means fifth. It comes from \"fem\" (five) and is used for order, dates and places in a line. It does not change, so you can use it with both en-words and et-words. A date like \"den femte marts\" is the fifth of March.",
+  "related": [
+   {
+    "da": "fjerde",
+    "en": "fourth"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "fem",
+    "en": "five"
+   },
+   {
+    "da": "sidste",
+    "en": "last"
+   }
+  ],
+  "sentence": {
+   "da": "Min fødselsdag er den **femte** marts.",
+   "en": "My birthday is the fifth of March."
+  }
+ },
+ "femten": {
+  "forms": [
+   {
+    "da": "femten minutter",
+    "en": "fifteen minutes"
+   },
+   {
+    "da": "femten år",
+    "en": "fifteen years"
+   },
+   {
+    "da": "femten kroner",
+    "en": "fifteen kroner"
+   }
+  ],
+  "explanation": "Means \"fifteen\". It is \"fem\" (five) plus the ending that the teens share. For time, Danes say \"en kvart\" for fifteen minutes, but \"femten minutter\" is also fine. It stays the same before en-words and et-words.",
+  "related": [
+   {
+    "da": "fjorten",
+    "en": "fourteen"
+   },
+   {
+    "da": "seksten",
+    "en": "sixteen"
+   },
+   {
+    "da": "fem",
+    "en": "five"
+   },
+   {
+    "da": "halvtreds",
+    "en": "fifty"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **femten** elever i klassen.",
+   "en": "There are fifteen students in the class."
+  }
+ },
+ "fin": {
+  "forms": [
+   {
+    "da": "en fin dag",
+    "en": "a nice day"
+   },
+   {
+    "da": "et fint hus",
+    "en": "a nice house"
+   },
+   {
+    "da": "fine dage",
+    "en": "nice days"
+   }
+  ],
+  "explanation": "\"Fin\" means fine, nice or smart-looking, and Danes use it a lot to say something is good. With et-words it gets a \"t\" (\"et fint hus\") and with more than one an \"e\" (\"fine dage\"). \"Fint!\" works as \"Great!\" or \"Okay, good!\". It can also mean fancy or elegant.",
+  "related": [
+   {
+    "da": "flot",
+    "en": "nice-looking"
+   },
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "pæn",
+    "en": "nice-looking"
+   },
+   {
+    "da": "dejlig",
+    "en": "lovely"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **fint** hus.",
+   "en": "It is a nice house."
+  }
+ },
+ "finland": {
+  "forms": [
+   {
+    "da": "Finland",
+    "en": "Finland"
+   },
+   {
+    "da": "i Finland",
+    "en": "in Finland"
+   },
+   {
+    "da": "til Finland",
+    "en": "to Finland"
+   }
+  ],
+  "explanation": "\"Finland\" is Finland. Place names like this are written with a capital letter and used without \"the\": \"i Finland\" means \"in Finland\" and \"til Finland\" means \"to Finland\". A person is \"en finne\" and the language is \"finsk\". It is one of the Nordic countries, along with Denmark, Sweden, Norway and Iceland.",
+  "related": [
+   {
+    "da": "en finne",
+    "en": "a Finn"
+   },
+   {
+    "da": "finsk",
+    "en": "Finnish"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "Norge",
+    "en": "Norway"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal rejse til **Finland** i vinter.",
+   "en": "We are going to travel to Finland this winter."
+  }
+ },
+ "finsk": {
+  "forms": [
+   {
+    "da": "en finsk bil",
+    "en": "a Finnish car"
+   },
+   {
+    "da": "et finsk hus",
+    "en": "a Finnish house"
+   },
+   {
+    "da": "finske biler",
+    "en": "Finnish cars"
+   }
+  ],
+  "explanation": "\"Finsk\" means Finnish and describes things from Finland, including the language. Words for nationalities and languages are written with a small letter in Danish, unlike in English. It does not add a -t before an et-word, because it already ends in -sk: \"et finsk hus\".",
+  "related": [
+   {
+    "da": "Finland",
+    "en": "Finland"
+   },
+   {
+    "da": "en finne",
+    "en": "a Finn"
+   },
+   {
+    "da": "svensk",
+    "en": "Swedish"
+   },
+   {
+    "da": "norsk",
+    "en": "Norwegian"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven spiser **finsk** mad.",
+   "en": "My friend eats Finnish food."
+  }
+ },
+ "fint": {
+  "forms": [
+   {
+    "da": "Det går fint.",
+    "en": "It is going fine."
+   },
+   {
+    "da": "Det er fint.",
+    "en": "It is nice / fine."
+   },
+   {
+    "da": "Tak, det er fint.",
+    "en": "Thanks, that is fine."
+   }
+  ],
+  "explanation": "\"Fint\" means \"fine\" or \"nicely\". It is a very common answer to \"Hvordan går det?\": \"Det går fint\" (It is going fine). It can also mean \"nice-looking\", like \"et fint hus\" (a nice house). Saying \"Fint!\" alone is a friendly way to agree.",
+  "related": [
+   {
+    "da": "godt",
+    "en": "good / well"
+   },
+   {
+    "da": "flot",
+    "en": "beautiful / great"
+   },
+   {
+    "da": "dårligt",
+    "en": "badly"
+   },
+   {
+    "da": "okay",
+    "en": "okay"
+   }
+  ],
+  "sentence": {
+   "da": "Det går **fint**, tak.",
+   "en": "It is going fine, thanks."
+  }
+ },
+ "fire": {
+  "forms": [
+   {
+    "da": "fire æbler",
+    "en": "four apples"
+   },
+   {
+    "da": "klokken fire",
+    "en": "four o'clock"
+   },
+   {
+    "da": "fire gange",
+    "en": "four times"
+   }
+  ],
+  "explanation": "Means \"four\". It ends in a soft \"e\" sound. Be careful not to mix it up with \"fyrre\" (forty), which looks and sounds similar. The ordinal is \"fjerde\" (fourth), and 14 is \"fjorten\", which changes the spelling a little.",
+  "related": [
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "fem",
+    "en": "five"
+   },
+   {
+    "da": "fyrre",
+    "en": "forty"
+   },
+   {
+    "da": "fjerde",
+    "en": "fourth"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **fire** brødre.",
+   "en": "I have four brothers."
+  }
+ },
+ "fireogtyve": {
+  "forms": [
+   {
+    "da": "fireogtyve",
+    "en": "twenty-four"
+   },
+   {
+    "da": "fireogtyve timer",
+    "en": "twenty-four hours"
+   },
+   {
+    "da": "fireogtyve år",
+    "en": "twenty-four years"
+   }
+  ],
+  "explanation": "\"Fireogtyve\" is twenty-four. It means \"four and twenty\", with the small number said first, written as one word. A day has \"fireogtyve timer\". The same pattern works for 21 to 29: \"treogtyve\" (23), \"femogtyve\" (25).",
+  "related": [
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "treogtyve",
+    "en": "twenty-three"
+   },
+   {
+    "da": "femogtyve",
+    "en": "twenty-five"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **fireogtyve** timer i et døgn.",
+   "en": "There are twenty-four hours in a day."
+  }
+ },
+ "firs": {
+  "forms": [
+   {
+    "da": "firs kroner",
+    "en": "eighty kroner"
+   },
+   {
+    "da": "firs år",
+    "en": "eighty years"
+   },
+   {
+    "da": "enogfirs",
+    "en": "eighty-one"
+   }
+  ],
+  "explanation": "Means \"eighty\". It is short for \"firsindstyve\", which means four times twenty. Today people only say \"firs\". It is a typical Danish number you must learn by heart, since it is not like English \"eighty\".",
+  "related": [
+   {
+    "da": "halvfjerds",
+    "en": "seventy"
+   },
+   {
+    "da": "halvfems",
+    "en": "ninety"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "enogfirs",
+    "en": "eighty-one"
+   }
+  ],
+  "sentence": {
+   "da": "Huset koster **firs** tusind kroner.",
+   "en": "The house costs eighty thousand kroner."
+  }
+ },
+ "fjerde": {
+  "forms": [
+   {
+    "da": "fjerde",
+    "en": "fourth"
+   },
+   {
+    "da": "den fjerde dag",
+    "en": "the fourth day"
+   },
+   {
+    "da": "det fjerde hus",
+    "en": "the fourth house"
+   }
+  ],
+  "explanation": "\"Fjerde\" means fourth. It comes from \"fire\" (four), with the ending changed. Use it for order, such as floors, dates and places in a line. It does not change for en-words and et-words, so \"den fjerde bil\" and \"det fjerde hus\" both work.",
+  "related": [
+   {
+    "da": "tredje",
+    "en": "third"
+   },
+   {
+    "da": "femte",
+    "en": "fifth"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   }
+  ],
+  "sentence": {
+   "da": "Han kom i **fjerde** række.",
+   "en": "He sat in the fourth row."
+  }
+ },
+ "fjorten": {
+  "forms": [
+   {
+    "da": "fjorten dage",
+    "en": "two weeks"
+   },
+   {
+    "da": "fjorten år",
+    "en": "fourteen years"
+   },
+   {
+    "da": "fjorten børn",
+    "en": "fourteen children"
+   }
+  ],
+  "explanation": "Means \"fourteen\". It is built from \"fire\" (four) plus the ending for the teens, but the spelling changes to \"fjorten\". A common way to say \"two weeks\" is \"fjorten dage\", literally fourteen days. It stays the same before en-words and et-words.",
+  "related": [
+   {
+    "da": "tretten",
+    "en": "thirteen"
+   },
+   {
+    "da": "femten",
+    "en": "fifteen"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "fyrre",
+    "en": "forty"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på ferie i **fjorten** dage.",
+   "en": "We're going on holiday for two weeks."
+  }
+ },
+ "flere": {
+  "forms": [
+   {
+    "da": "flere bøger",
+    "en": "more books"
+   },
+   {
+    "da": "flere mennesker",
+    "en": "several people"
+   },
+   {
+    "da": "Jeg vil have flere.",
+    "en": "I want more."
+   }
+  ],
+  "explanation": "\"Flere\" means \"more\" in number or \"several\", for things you can count: \"flere biler\" (more cars). For things you cannot count, like water, use \"mere\". \"De fleste\" means \"most of them\". It does not change, whatever the word it goes with.",
+  "related": [
+   {
+    "da": "mere",
+    "en": "more (amount)"
+   },
+   {
+    "da": "mange",
+    "en": "many"
+   },
+   {
+    "da": "nogle",
+    "en": "some"
+   },
+   {
+    "da": "de fleste",
+    "en": "most (of them)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **flere** venner i Danmark.",
+   "en": "I have several friends in Denmark."
+  }
+ },
+ "flot": {
+  "forms": [
+   {
+    "da": "en flot mand",
+    "en": "a handsome man"
+   },
+   {
+    "da": "et flot hus",
+    "en": "a nice-looking house"
+   },
+   {
+    "da": "flotte huse",
+    "en": "nice-looking houses"
+   }
+  ],
+  "explanation": "\"Flot\" means good-looking or impressive, for people, clothes, places and even results. It does not change with et-words, so it is \"et flot hus\". With more than one it adds \"te\": \"flotte huse\". Saying \"Flot!\" to someone also means \"Well done!\".",
+  "related": [
+   {
+    "da": "køn",
+    "en": "pretty"
+   },
+   {
+    "da": "smuk",
+    "en": "beautiful"
+   },
+   {
+    "da": "pæn",
+    "en": "nice-looking / neat"
+   },
+   {
+    "da": "grim",
+    "en": "ugly"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en meget **flot** bil.",
+   "en": "It is a very nice-looking car."
+  }
+ },
+ "fløde": {
+  "forms": [
+   {
+    "da": "fløde",
+    "en": "cream"
+   },
+   {
+    "da": "fløden",
+    "en": "the cream"
+   },
+   {
+    "da": "kaffe med fløde",
+    "en": "coffee with cream"
+   }
+  ],
+  "explanation": "\"Fløde\" means cream, the thick part of milk. It is an en-word, so \"the cream\" is \"fløden\". It is used in coffee and in cooking. \"Piskefløde\" is whipping cream, and \"flødeis\" is ice cream.",
+  "related": [
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "ost",
+    "en": "cheese"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have **fløde** i kaffen?",
+   "en": "Do you want cream in your coffee?"
+  }
+ },
+ "fodbold": {
+  "forms": [
+   {
+    "da": "en fodbold",
+    "en": "a soccer ball"
+   },
+   {
+    "da": "fodbolden",
+    "en": "the soccer / the football"
+   },
+   {
+    "da": "Jeg elsker fodbold.",
+    "en": "I love soccer."
+   }
+  ],
+  "explanation": "\"Fodbold\" is the Danish word for soccer, or football as it is called in British English. The game is used without \"en\": \"Jeg spiller fodbold\". But the ball itself can be \"en fodbold\". Fodbold is very popular in Denmark.",
+  "related": [
+   {
+    "da": "en bold",
+    "en": "a ball"
+   },
+   {
+    "da": "håndbold",
+    "en": "handball"
+   },
+   {
+    "da": "at spille fodbold",
+    "en": "to play soccer"
+   },
+   {
+    "da": "en kamp",
+    "en": "a match"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn elsker **fodbold**.",
+   "en": "My son loves soccer."
+  }
+ },
+ "for": {
+  "forms": [
+   {
+    "da": "for dig",
+    "en": "for you"
+   },
+   {
+    "da": "for meget",
+    "en": "too much"
+   },
+   {
+    "da": "for to dage siden",
+    "en": "two days ago"
+   }
+  ],
+  "explanation": "\"For\" has many uses. Before a describing word it means too: \"for varm\" (too hot), \"for sent\" (too late). It also appears in \"for ... siden\" (ago) and in fixed phrases. Often Danish uses \"til\" where English says \"for\", as in \"en gave til dig\".",
+  "related": [
+   {
+    "da": "til",
+    "en": "to / for"
+   },
+   {
+    "da": "fordi",
+    "en": "because"
+   },
+   {
+    "da": "for meget",
+    "en": "too much"
+   },
+   {
+    "da": "siden",
+    "en": "since / ago"
+   }
+  ],
+  "sentence": {
+   "da": "Suppen er **for** varm.",
+   "en": "The soup is too hot."
+  }
+ },
+ "for eksempel": {
+  "forms": [
+   {
+    "da": "for eksempel",
+    "en": "for example"
+   },
+   {
+    "da": "Jeg kan godt lide frugt, for eksempel æbler.",
+    "en": "I like fruit, for example apples."
+   },
+   {
+    "da": "Vi kan mødes, for eksempel i morgen.",
+    "en": "We can meet, for example tomorrow."
+   }
+  ],
+  "explanation": "\"For eksempel\" means \"for example\" and introduces an example. In writing it is often shortened to \"fx\" or \"f.eks.\". It can come in the middle or at the start of a sentence, usually with a small pause. It is a very useful phrase when you explain things.",
+  "related": [
+   {
+    "da": "fx",
+    "en": "e.g. (short)"
+   },
+   {
+    "da": "et eksempel",
+    "en": "an example"
+   },
+   {
+    "da": "nemlig",
+    "en": "namely, indeed"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan lide mange sporter, **for eksempel** fodbold.",
+   "en": "I like many sports, for example football."
+  }
+ },
  "for pokker": {
   "forms": [
    {
@@ -243,6 +2988,989 @@
   "sentence": {
    "da": "**For pokker**, nu har jeg glemt min nøgle!",
    "en": "Darn it, now I've forgotten my key!"
+  }
+ },
+ "foran": {
+  "forms": [
+   {
+    "da": "foran huset",
+    "en": "in front of the house"
+   },
+   {
+    "da": "foran mig",
+    "en": "in front of me"
+   },
+   {
+    "da": "Gå foran.",
+    "en": "Go first / go in front."
+   }
+  ],
+  "explanation": "\"Foran\" means \"in front of\", as in \"Bilen holder foran huset\" (The car is parked in front of the house). It can also be used on its own, as in \"Gå foran\" (Go in front). The opposite is \"bag\" (behind). Be careful not to mix it up with \"for\", which has many other meanings.",
+  "related": [
+   {
+    "da": "bag",
+    "en": "behind"
+   },
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   },
+   {
+    "da": "imellem",
+    "en": "between"
+   },
+   {
+    "da": "forrest",
+    "en": "at the very front"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen holder **foran** huset.",
+   "en": "The car is parked in front of the house."
+  }
+ },
+ "forbi": {
+  "forms": [
+   {
+    "da": "Gå forbi!",
+    "en": "Walk past!"
+   },
+   {
+    "da": "Det er forbi.",
+    "en": "It is over."
+   },
+   {
+    "da": "Bussen kørte forbi.",
+    "en": "The bus drove past."
+   }
+  ],
+  "explanation": "\"Forbi\" means \"past\" or \"by\", as in \"Han gik forbi huset\" (He walked past the house). It also means \"over\" or \"finished\" when something has ended: \"Det er forbi\" (It is over). In everyday talk, \"komme forbi\" means to drop by, as in \"Kom forbi i aften!\" (Drop by tonight!). It always has the feeling of going past something.",
+  "related": [
+   {
+    "da": "igennem",
+    "en": "through"
+   },
+   {
+    "da": "omkring",
+    "en": "around"
+   },
+   {
+    "da": "slut",
+    "en": "finished"
+   },
+   {
+    "da": "at besøge",
+    "en": "to visit"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen kører **forbi** skolen.",
+   "en": "The bus goes past the school."
+  }
+ },
+ "fordi": {
+  "forms": [
+   {
+    "da": "fordi jeg er træt",
+    "en": "because I am tired"
+   },
+   {
+    "da": "fordi det regner",
+    "en": "because it rains"
+   },
+   {
+    "da": "Hvorfor? Fordi...",
+    "en": "Why? Because..."
+   }
+  ],
+  "explanation": "\"Fordi\" means because, and it gives a reason. It is the usual answer to \"hvorfor?\" (why?). A tip: after \"fordi\", \"ikke\" comes before the action word: \"fordi jeg ikke kan\". Do not mix it up with \"derfor\", which means \"that is why\".",
+  "related": [
+   {
+    "da": "hvorfor",
+    "en": "why"
+   },
+   {
+    "da": "derfor",
+    "en": "therefore"
+   },
+   {
+    "da": "på grund af",
+    "en": "because of"
+   },
+   {
+    "da": "så",
+    "en": "so"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bliver hjemme, **fordi** jeg er syg.",
+   "en": "I am staying home because I am sick."
+  }
+ },
+ "forkert": {
+  "forms": [
+   {
+    "da": "en forkert vej",
+    "en": "a wrong road"
+   },
+   {
+    "da": "et forkert svar",
+    "en": "a wrong answer"
+   },
+   {
+    "da": "forkerte svar",
+    "en": "wrong answers"
+   }
+  ],
+  "explanation": "\"Forkert\" means wrong or incorrect, for answers, directions, numbers or choices. It does not change for en-words and et-words (\"en forkert vej\", \"et forkert svar\"), but it gets an \"-e\" for more than one (\"forkerte svar\"). It is the opposite of \"rigtig\". To say you made a mistake you can say \"Jeg tog fejl\" (I was wrong).",
+  "related": [
+   {
+    "da": "rigtig",
+    "en": "correct"
+   },
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   },
+   {
+    "da": "at tage fejl",
+    "en": "to be mistaken"
+   },
+   {
+    "da": "sandt",
+    "en": "true"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **forkert** nummer.",
+   "en": "That is a wrong number."
+  }
+ },
+ "forkølet": {
+  "forms": [
+   {
+    "da": "en forkølet dreng",
+    "en": "a boy with a cold"
+   },
+   {
+    "da": "et forkølet barn",
+    "en": "a child with a cold"
+   },
+   {
+    "da": "forkølede børn",
+    "en": "children with colds"
+   }
+  ],
+  "explanation": "\"Forkølet\" describes someone who has a cold. You say \"Jeg er forkølet\" (I have a cold, literally \"I am colded\"). The cold itself is \"en forkølelse\". It is milder than \"syg\" (sick) and often used as a reason to stay home or to apologise for a runny nose.",
+  "related": [
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "at hoste",
+    "en": "to cough"
+   },
+   {
+    "da": "at nyse",
+    "en": "to sneeze"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **forkølet** og bliver hjemme.",
+   "en": "I have a cold and am staying home."
+  }
+ },
+ "forsinket": {
+  "forms": [
+   {
+    "da": "en forsinket bus",
+    "en": "a delayed bus"
+   },
+   {
+    "da": "et forsinket tog",
+    "en": "a delayed train"
+   },
+   {
+    "da": "forsinkede fly",
+    "en": "delayed planes"
+   }
+  ],
+  "explanation": "\"Forsinket\" means delayed or late, and is mostly used for trains, buses and planes. It does not change for en-words and et-words, but it adds \"-e\" when you talk about more than one thing: \"forsinkede tog\". You can also say about yourself \"Jeg er forsinket\" (I am late).",
+  "related": [
+   {
+    "da": "aflyst",
+    "en": "cancelled"
+   },
+   {
+    "da": "for sent",
+    "en": "too late"
+   },
+   {
+    "da": "til tiden",
+    "en": "on time"
+   },
+   {
+    "da": "en forsinkelse",
+    "en": "a delay"
+   }
+  ],
+  "sentence": {
+   "da": "Toget er **forsinket** med tyve minutter.",
+   "en": "The train is delayed by twenty minutes."
+  }
+ },
+ "fortroligt": {
+  "forms": [
+   {
+    "da": "Det er fortroligt",
+    "en": "It is confidential"
+   },
+   {
+    "da": "Jeg fortæller dig det fortroligt",
+    "en": "I am telling you this in confidence"
+   },
+   {
+    "da": "et fortroligt dokument",
+    "en": "a confidential document"
+   }
+  ],
+  "explanation": "\"Fortroligt\" is the form of \"fortrolig\" (confidential, trusted) that you use with et-words, and it is also the word for \"confidentially\". It is common in work and official settings, for example on documents that are not to be shared.",
+  "related": [
+   {
+    "da": "fortrolig",
+    "en": "confidential, close"
+   },
+   {
+    "da": "en hemmelighed",
+    "en": "a secret"
+   },
+   {
+    "da": "tavshedspligt",
+    "en": "duty of confidentiality"
+   },
+   {
+    "da": "privat",
+    "en": "private"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg siger det **fortroligt**, så sig det ikke til andre.",
+   "en": "I'm telling you in confidence, so don't tell anyone else."
+  }
+ },
+ "forældre": {
+  "forms": [
+   {
+    "da": "forældre",
+    "en": "parents"
+   },
+   {
+    "da": "forældrene",
+    "en": "the parents"
+   },
+   {
+    "da": "mine forældre",
+    "en": "my parents"
+   }
+  ],
+  "explanation": "\"Forældre\" means parents, both mother and father together. It is only used in the plural, so there is no \"en\" or \"et\" in front. To say the parents, add \"ne\" on the end: \"forældrene\". For one parent, say \"en forælder\".",
+  "related": [
+   {
+    "da": "en mor",
+    "en": "a mother"
+   },
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "en forælder",
+    "en": "a parent"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   }
+  ],
+  "sentence": {
+   "da": "Mine **forældre** bor i Aarhus.",
+   "en": "My parents live in Aarhus."
+  }
+ },
+ "fra": {
+  "forms": [
+   {
+    "da": "fra Danmark",
+    "en": "from Denmark"
+   },
+   {
+    "da": "fra klokken otte til fire",
+    "en": "from eight until four"
+   },
+   {
+    "da": "en gave fra mig",
+    "en": "a gift from me"
+   }
+  ],
+  "explanation": "\"Fra\" means from, and it is used for places, people and the start of a time. \"Hvor kommer du fra?\" means \"Where are you from?\". It is the opposite of \"til\" (to). A tip: it is often paired with \"til\", as in \"fra mandag til fredag\" (from Monday to Friday).",
+  "related": [
+   {
+    "da": "til",
+    "en": "to"
+   },
+   {
+    "da": "af",
+    "en": "of / by"
+   },
+   {
+    "da": "ud af",
+    "en": "out of"
+   },
+   {
+    "da": "hos",
+    "en": "at someone's place"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kommer **fra** Norge.",
+   "en": "She comes from Norway."
+  }
+ },
+ "frankrig": {
+  "forms": [
+   {
+    "da": "Frankrig",
+    "en": "France"
+   },
+   {
+    "da": "i Frankrig",
+    "en": "in France"
+   },
+   {
+    "da": "til Frankrig",
+    "en": "to France"
+   }
+  ],
+  "explanation": "\"Frankrig\" is France. Place names like this are written with a capital letter and used without \"the\": \"i Frankrig\" means \"in France\" and \"til Frankrig\" means \"to France\". A person is \"en franskmand\" and the language is \"fransk\". Note the Danish spelling is quite different from English.",
+  "related": [
+   {
+    "da": "en franskmand",
+    "en": "a Frenchman"
+   },
+   {
+    "da": "fransk",
+    "en": "French"
+   },
+   {
+    "da": "Spanien",
+    "en": "Spain"
+   },
+   {
+    "da": "Tyskland",
+    "en": "Germany"
+   }
+  ],
+  "sentence": {
+   "da": "Hun rejser til **Frankrig** i sommer.",
+   "en": "She is travelling to France this summer."
+  }
+ },
+ "fransk": {
+  "forms": [
+   {
+    "da": "en fransk ost",
+    "en": "a French cheese"
+   },
+   {
+    "da": "et fransk brød",
+    "en": "a French loaf"
+   },
+   {
+    "da": "franske oste",
+    "en": "French cheeses"
+   }
+  ],
+  "explanation": "\"Fransk\" means French, for things from France and for the language. It has no capital letter in Danish. It stays \"fransk\" before an et-word and becomes \"franske\" for more than one thing. You often meet it on menus: \"fransk løgsuppe\" is French onion soup. A person from France is \"en franskmand\".",
+  "related": [
+   {
+    "da": "Frankrig",
+    "en": "France"
+   },
+   {
+    "da": "en franskmand",
+    "en": "a Frenchman"
+   },
+   {
+    "da": "spansk",
+    "en": "Spanish"
+   },
+   {
+    "da": "italiensk",
+    "en": "Italian"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan lide **fransk** ost.",
+   "en": "I like French cheese."
+  }
+ },
+ "franskbrød": {
+  "forms": [
+   {
+    "da": "et franskbrød",
+    "en": "a white bread"
+   },
+   {
+    "da": "franskbrødet",
+    "en": "the white bread"
+   },
+   {
+    "da": "franskbrød",
+    "en": "white breads"
+   },
+   {
+    "da": "franskbrødene",
+    "en": "the white breads"
+   }
+  ],
+  "explanation": "\"Franskbrød\" is white bread, usually a light loaf made from wheat flour. It is an et-word, so \"the bread\" is \"franskbrødet\". Danes often compare it with \"rugbrød\" (rye bread), the dark and heavy traditional kind.",
+  "related": [
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "rugbrød",
+    "en": "rye bread"
+   },
+   {
+    "da": "en bolle",
+    "en": "a bun"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber et **franskbrød** hos bageren.",
+   "en": "I buy a white bread at the baker's."
+  }
+ },
+ "fredag": {
+  "forms": [
+   {
+    "da": "en fredag",
+    "en": "a Friday"
+   },
+   {
+    "da": "fredagen",
+    "en": "the Friday"
+   },
+   {
+    "da": "fredage",
+    "en": "Fridays"
+   },
+   {
+    "da": "fredagene",
+    "en": "the Fridays"
+   }
+  ],
+  "explanation": "\"Fredag\" is Friday, and for many Danes it is the best day of the week because of \"fredagsbar\" and \"fredagsmad\" (Friday food, often something cosy). Say \"på fredag\" for the coming Friday and \"om fredagen\" for every Friday. Day names are written with a small letter.",
+  "related": [
+   {
+    "da": "en torsdag",
+    "en": "Thursday"
+   },
+   {
+    "da": "en lørdag",
+    "en": "Saturday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg glæder mig til **fredag**.",
+   "en": "I am looking forward to Friday."
+  }
+ },
+ "fri": {
+  "forms": [
+   {
+    "da": "en fri dag",
+    "en": "a day off"
+   },
+   {
+    "da": "et frit valg",
+    "en": "a free choice"
+   },
+   {
+    "da": "frie dage",
+    "en": "days off"
+   }
+  ],
+  "explanation": "\"Fri\" means free, in the sense of not being tied up or not locked in, and also off from work or school: \"Jeg har fri\" means \"I am off work\". It does not mean free of charge; for that use \"gratis\". Add \"t\" for et-words (\"et frit valg\") and \"-e\" for more than one.",
+  "related": [
+   {
+    "da": "gratis",
+    "en": "free of charge"
+   },
+   {
+    "da": "en fridag",
+    "en": "a day off"
+   },
+   {
+    "da": "optaget",
+    "en": "busy"
+   },
+   {
+    "da": "en frihed",
+    "en": "a freedom"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **fri** på fredag.",
+   "en": "I am off on Friday."
+  }
+ },
+ "frisk": {
+  "forms": [
+   {
+    "da": "en frisk salat",
+    "en": "a fresh salad"
+   },
+   {
+    "da": "et frisk æble",
+    "en": "a fresh apple"
+   },
+   {
+    "da": "friske grøntsager",
+    "en": "fresh vegetables"
+   }
+  ],
+  "explanation": "\"Frisk\" means fresh, for food and air, but also healthy and well for a person: \"Jeg er frisk\" means \"I am well\". It does not change with et-words. With more than one it adds an \"e\" (\"friske blomster\"). The opposite for food is \"gammel\" (old, stale).",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "rask",
+    "en": "well / healthy"
+   },
+   {
+    "da": "gammel",
+    "en": "old"
+   },
+   {
+    "da": "frisk luft",
+    "en": "fresh air"
+   }
+  ],
+  "sentence": {
+   "da": "Brødet er **friskt**.",
+   "en": "The bread is fresh."
+  }
+ },
+ "fritid": {
+  "forms": [
+   {
+    "da": "en fritid",
+    "en": "free time"
+   },
+   {
+    "da": "fritiden",
+    "en": "the free time"
+   },
+   {
+    "da": "i min fritid",
+    "en": "in my free time"
+   }
+  ],
+  "explanation": "\"Fritid\" means free time, the time when you are not at work or school. It is usually used without \"en\" and has no everyday plural. A very common phrase is \"i min fritid\" (in my free time), often used when talking about hobbies.",
+  "related": [
+   {
+    "da": "en hobby",
+    "en": "a hobby"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   },
+   {
+    "da": "arbejde",
+    "en": "work"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "I min **fritid** læser jeg bøger.",
+   "en": "In my free time I read books."
+  }
+ },
+ "frokost": {
+  "forms": [
+   {
+    "da": "frokost",
+    "en": "lunch"
+   },
+   {
+    "da": "frokosten",
+    "en": "the lunch"
+   },
+   {
+    "da": "til frokost",
+    "en": "for lunch"
+   }
+  ],
+  "explanation": "\"Frokost\" is lunch, the meal around midday. In Denmark it is often rye bread with toppings, called \"smørrebrød\". It is an en-word. You say \"spise frokost\" (eat lunch) and \"til frokost\" (for lunch). It is also the word for a lunch break at work.",
+  "related": [
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "aftensmad",
+    "en": "dinner"
+   },
+   {
+    "da": "et smørrebrød",
+    "en": "an open sandwich"
+   },
+   {
+    "da": "rugbrød",
+    "en": "rye bread"
+   }
+  ],
+  "sentence": {
+   "da": "Skal vi spise **frokost** sammen?",
+   "en": "Shall we have lunch together?"
+  }
+ },
+ "frossen": {
+  "forms": [
+   {
+    "da": "en frossen pizza",
+    "en": "a frozen pizza"
+   },
+   {
+    "da": "et frosset brød",
+    "en": "a frozen bread"
+   },
+   {
+    "da": "frosne grøntsager",
+    "en": "frozen vegetables"
+   }
+  ],
+  "explanation": "\"Frossen\" means frozen, and it is used for food, as in \"frossen pizza\". The ending changes: \"et frosset brød\" with an et-word, and \"frosne\" with plural words. A freezer is \"en fryser\". For a cold person you use a different word: \"jeg fryser\" means \"I am cold\".",
+  "related": [
+   {
+    "da": "en fryser",
+    "en": "a freezer"
+   },
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "frisk",
+    "en": "fresh"
+   },
+   {
+    "da": "at fryse",
+    "en": "to freeze"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **frosne** grøntsager i fryseren.",
+   "en": "We have frozen vegetables in the freezer."
+  }
+ },
+ "fuld": {
+  "forms": [
+   {
+    "da": "en fuld flaske",
+    "en": "a full bottle"
+   },
+   {
+    "da": "et fuldt glas",
+    "en": "a full glass"
+   },
+   {
+    "da": "fulde flasker",
+    "en": "full bottles"
+   }
+  ],
+  "explanation": "\"Fuld\" means full, for a glass, a bus, a room or a stomach. When it describes a person, \"fuld\" means drunk: \"Han er fuld\" means \"He is drunk\", so use \"mæt\" for being full after a meal. Add \"t\" for et-words (\"et fuldt glas\") and \"-e\" for more than one. The opposite is \"tom\" (empty).",
+  "related": [
+   {
+    "da": "tom",
+    "en": "empty"
+   },
+   {
+    "da": "mæt",
+    "en": "full (after eating)"
+   },
+   {
+    "da": "fuldstændig",
+    "en": "complete"
+   },
+   {
+    "da": "at fylde",
+    "en": "to fill"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen er helt **fuld**.",
+   "en": "The bus is completely full."
+  }
+ },
+ "fyrre": {
+  "forms": [
+   {
+    "da": "fyrre kroner",
+    "en": "forty kroner"
+   },
+   {
+    "da": "fyrre år",
+    "en": "forty years"
+   },
+   {
+    "da": "enogfyrre",
+    "en": "forty-one"
+   }
+  ],
+  "explanation": "Means \"forty\". It is spelled with \"y\" and is not built from \"fire\" in an obvious way, so learn it as its own word. Do not mix it up with \"fire\" (four). After forty, the next numbers use a different system, from \"halvtreds\" onwards.",
+  "related": [
+   {
+    "da": "tredive",
+    "en": "thirty"
+   },
+   {
+    "da": "halvtreds",
+    "en": "fifty"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "enogfyrre",
+    "en": "forty-one"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **fyrre** elever på skolen.",
+   "en": "There are forty students at the school."
+  }
+ },
+ "færdig": {
+  "forms": [
+   {
+    "da": "jeg er færdig",
+    "en": "I am finished"
+   },
+   {
+    "da": "et færdigt hus",
+    "en": "a finished house"
+   },
+   {
+    "da": "færdige opgaver",
+    "en": "finished tasks"
+   }
+  ],
+  "explanation": "\"Færdig\" means finished or done. \"Jeg er færdig\" means \"I am done\", for example after a meal or at the end of work. It is not the same as \"klar\", which means ready to start. Add \"t\" for et-words (\"et færdigt hus\") and \"-e\" for more than one. The opposite is \"ufærdig\" (unfinished). \"Er du færdig?\" is a common thing to hear at a table.",
+  "related": [
+   {
+    "da": "klar",
+    "en": "ready"
+   },
+   {
+    "da": "at slutte",
+    "en": "to finish"
+   },
+   {
+    "da": "ufærdig",
+    "en": "unfinished"
+   },
+   {
+    "da": "begyndelsen",
+    "en": "the beginning"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er næsten **færdig** med at spise.",
+   "en": "I have almost finished eating."
+  }
+ },
+ "færdig med": {
+  "forms": [
+   {
+    "da": "Jeg er færdig med arbejdet.",
+    "en": "I am finished with work."
+   },
+   {
+    "da": "Er du færdig med bogen?",
+    "en": "Are you finished with the book?"
+   },
+   {
+    "da": "Vi er færdige med at spise.",
+    "en": "We are done eating."
+   }
+  ],
+  "explanation": "\"Færdig med\" means finished with something. After \"med\" you put the thing (\"færdig med lektierne\") or an action with \"at\" (\"færdig med at spise\"). \"Færdig\" alone means done or ready, and adds an \"e\" with more than one person: \"vi er færdige\".",
+  "related": [
+   {
+    "da": "at slutte",
+    "en": "to end"
+   },
+   {
+    "da": "begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "klar",
+    "en": "ready"
+   },
+   {
+    "da": "travl",
+    "en": "busy"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **færdig med** mine lektier.",
+   "en": "I am finished with my homework."
+  }
+ },
+ "før": {
+  "forms": [
+   {
+    "da": "før klokken fem",
+    "en": "before five o'clock"
+   },
+   {
+    "da": "før i tiden",
+    "en": "in the past"
+   },
+   {
+    "da": "før du går",
+    "en": "before you go"
+   }
+  ],
+  "explanation": "\"Før\" means before, and it works for times (\"før klokken fem\") and for linking two actions (\"før du går\"). The opposite is \"efter\" (after). \"Inden\" is another everyday word with a very similar meaning.",
+  "related": [
+   {
+    "da": "efter",
+    "en": "after"
+   },
+   {
+    "da": "inden",
+    "en": "before"
+   },
+   {
+    "da": "først",
+    "en": "first"
+   },
+   {
+    "da": "tidligere",
+    "en": "earlier"
+   }
+  ],
+  "sentence": {
+   "da": "Ring til mig **før** klokken fem.",
+   "en": "Call me before five o'clock."
+  }
+ },
+ "først": {
+  "forms": [
+   {
+    "da": "først og fremmest",
+    "en": "first of all"
+   },
+   {
+    "da": "Jeg kommer først kl. 8.",
+    "en": "I do not come until 8."
+   },
+   {
+    "da": "Du går først.",
+    "en": "You go first."
+   }
+  ],
+  "explanation": "\"Først\" means \"first\" in order: \"Først spiser vi\" (First we eat). It can also mean \"not until\", as in \"Jeg kommer først i morgen\" (I am not coming until tomorrow). It is used for time. \"Først og fremmest\" means \"first and foremost\". The opposite is \"sidst\" (last).",
+  "related": [
+   {
+    "da": "sidst",
+    "en": "last"
+   },
+   {
+    "da": "derefter",
+    "en": "after that"
+   },
+   {
+    "da": "så",
+    "en": "then"
+   },
+   {
+    "da": "første",
+    "en": "first (the first one)"
+   }
+  ],
+  "sentence": {
+   "da": "**Først** skal vi spise.",
+   "en": "First we are going to eat."
+  }
+ },
+ "første": {
+  "forms": [
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "den første dag",
+    "en": "the first day"
+   },
+   {
+    "da": "det første hus",
+    "en": "the first house"
+   }
+  ],
+  "explanation": "\"Første\" means first. It is the same for en-words and et-words, with \"den første\" for en-words and \"det første\" for et-words. Dates use it too: \"den første maj\" is the first of May. In writing, Danes put a dot after the number (1.) for ordinals like this.",
+  "related": [
+   {
+    "da": "sidste",
+    "en": "last"
+   },
+   {
+    "da": "anden",
+    "en": "second"
+   },
+   {
+    "da": "tredje",
+    "en": "third"
+   },
+   {
+    "da": "først",
+    "en": "first (at first)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er min **første** dag på arbejde.",
+   "en": "It is my first day at work."
   }
  }
 }

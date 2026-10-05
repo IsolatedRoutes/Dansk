@@ -2,7 +2,8 @@
 // word, sits in the right file, and has everything the popup shows.
 import { readFileSync, readdirSync } from "node:fs";
 import { lightbulbBucket } from "../src/lib/lightbulb.js";
-const fronts = new Set(readFileSync("src/data/words.tsv", "utf8").split("\n").map((l) => l.split("\t")[0].trim().toLowerCase()).filter(Boolean));
+import { frontKey } from "../src/lib/text.js";
+const fronts = new Set(readFileSync("src/data/words.tsv", "utf8").split("\n").map((l) => frontKey(l.split("\t")[0])).filter(Boolean));
 let bad = 0, n = 0;
 const fail = (m) => { bad++; console.log("  problem: " + m); };
 for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {

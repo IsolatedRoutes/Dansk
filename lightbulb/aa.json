@@ -1,0 +1,162 @@
+{
+ "at åbne": {
+  "forms": [
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "jeg åbner",
+    "en": "I open"
+   },
+   {
+    "da": "jeg åbnede",
+    "en": "I opened"
+   },
+   {
+    "da": "jeg har åbnet",
+    "en": "I have opened"
+   }
+  ],
+  "explanation": "\"At åbne\" means to open. You can open a door, a shop or a bank account. For shops and offices, \"Hvornår åbner I?\" means \"When do you open?\". It is the opposite of \"at lukke\" (to close). On signs you will often see \"Åben\" (open) and \"Lukket\" (closed).",
+  "related": [
+   {
+    "da": "at lukke",
+    "en": "to close"
+   },
+   {
+    "da": "åben",
+    "en": "open"
+   },
+   {
+    "da": "en dør",
+    "en": "a door"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken **åbner** klokken ni.",
+   "en": "The shop opens at nine o'clock."
+  }
+ },
+ "et år": {
+  "forms": [
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "året",
+    "en": "the year"
+   },
+   {
+    "da": "år",
+    "en": "years"
+   },
+   {
+    "da": "årene",
+    "en": "the years"
+   }
+  ],
+  "explanation": "Et år is a year. It is an et-word, so \"the year\" is \"året\". The word does not change with more than one: \"to år\" is two years. It is also how you say your age: \"Jeg er tredive år gammel\" (I am thirty years old). \"I år\" means this year, and \"næste år\" means next year.",
+  "related": [
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "i år",
+    "en": "this year"
+   },
+   {
+    "da": "et nytår",
+    "en": "a new year"
+   }
+  ],
+  "sentence": {
+   "da": "Han er tyve **år** gammel.",
+   "en": "He is twenty years old."
+  }
+ },
+ "åben": {
+  "forms": [
+   {
+    "da": "en åben dør",
+    "en": "an open door"
+   },
+   {
+    "da": "et åbent vindue",
+    "en": "an open window"
+   },
+   {
+    "da": "åbne døre",
+    "en": "open doors"
+   }
+  ],
+  "explanation": "\"Åben\" means open, for doors, shops, windows and also people who are honest and open-minded. Add \"t\" for et-words (\"et åbent vindue\") and the \"e\" drops out for more than one: \"åbne\". The opposite is \"lukket\" (closed). Do not mix it up with the verb \"at åbne\" (to open); you will see both on shop doors: \"Åben\" and \"Lukket\".",
+  "related": [
+   {
+    "da": "lukket",
+    "en": "closed"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "en åbningstid",
+    "en": "an opening time"
+   },
+   {
+    "da": "at lukke",
+    "en": "to close"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken er **åben** til klokken seks.",
+   "en": "The shop is open until six o'clock."
+  }
+ },
+ "åbningstider": {
+  "forms": [
+   {
+    "da": "åbningstiderne",
+    "en": "the opening hours"
+   },
+   {
+    "da": "Hvad er åbningstiderne?",
+    "en": "What are the opening hours?"
+   },
+   {
+    "da": "lange åbningstider",
+    "en": "long opening hours"
+   }
+  ],
+  "explanation": "\"Åbningstider\" means opening hours, the times when a shop or an office is open. It is always plural and is made of \"åbning\" (opening) and \"tider\" (times). You can ask \"Hvad er jeres åbningstider?\" (What are your opening hours?). Many shops show them on the door or on their website.",
+  "related": [
+   {
+    "da": "åben",
+    "en": "open"
+   },
+   {
+    "da": "lukket",
+    "en": "closed"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "at lukke",
+    "en": "to close"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er **åbningstiderne** i dag?",
+   "en": "What are the opening hours today?"
+  }
+ }
+}

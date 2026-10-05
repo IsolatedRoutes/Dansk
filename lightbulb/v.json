@@ -1,45 +1,127 @@
 {
- "en vaccine": {
+ "at vaske": {
   "forms": [
    {
-    "da": "en vaccine",
-    "en": "a vaccine"
+    "da": "at vaske",
+    "en": "to wash"
    },
    {
-    "da": "vaccinen",
-    "en": "the vaccine"
+    "da": "jeg vasker",
+    "en": "I wash"
    },
    {
-    "da": "vacciner",
-    "en": "vaccines"
+    "da": "jeg vaskede",
+    "en": "I washed"
    },
    {
-    "da": "vaccinerne",
-    "en": "the vaccines"
+    "da": "jeg har vasket",
+    "en": "I have washed"
    }
   ],
-  "explanation": "\"Vaccine\" is borrowed from Latin and looks almost like the English word, but the stress falls on the middle: vak-SEE-ne. The matching verb is \"at vaccinere\" (to vaccinate), and the act of getting it is \"en vaccination\". Denmark has a national vaccination programme for children, which people often just call \"børnevaccinationsprogrammet\".",
+  "explanation": "\"At vaske\" means to wash, for clothes, dishes, your hands or the car. \"Jeg vasker tøj\" means \"I wash clothes\". With your body you say \"vaske sig\" (wash yourself). \"At vaske op\" means to do the dishes, and \"at vaske tøj\" means to do the laundry.",
   "related": [
    {
-    "da": "at vaccinere",
-    "en": "to vaccinate"
+    "da": "at vaske op",
+    "en": "to do the dishes"
    },
    {
-    "da": "en vaccination",
-    "en": "a vaccination"
+    "da": "en vaskemaskine",
+    "en": "a washing machine"
    },
    {
-    "da": "en sprøjte",
-    "en": "a syringe"
-   },
-   {
-    "da": "en sygdom",
-    "en": "a disease"
+    "da": "rengøring",
+    "en": "cleaning"
    }
   ],
   "sentence": {
-   "da": "Hun fik **en vaccine** i går.",
-   "en": "She got a vaccine yesterday."
+   "da": "Jeg **vasker** tøj hver søndag.",
+   "en": "I wash clothes every Sunday."
+  }
+ },
+ "at vaske op": {
+  "forms": [
+   {
+    "da": "at vaske op",
+    "en": "to do the dishes"
+   },
+   {
+    "da": "jeg vasker op",
+    "en": "I do the dishes"
+   },
+   {
+    "da": "jeg vaskede op",
+    "en": "I did the dishes"
+   },
+   {
+    "da": "jeg har vasket op",
+    "en": "I have done the dishes"
+   }
+  ],
+  "explanation": "\"At vaske op\" means to do the dishes by hand. The little word \"op\" belongs to the verb and stays after it: \"Jeg vasker op.\" Do not mix it up with \"at vaske\" (to wash), which is for clothes, hands or the car. The pile of dirty dishes is called \"opvasken\".",
+  "related": [
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   },
+   {
+    "da": "en opvaskemaskine",
+    "en": "a dishwasher"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **vasker op** efter aftensmad.",
+   "en": "I do the dishes after dinner."
+  }
+ },
+ "at vaske sig": {
+  "forms": [
+   {
+    "da": "at vaske sig",
+    "en": "to wash (oneself)"
+   },
+   {
+    "da": "jeg vasker mig",
+    "en": "I wash (oneself)"
+   },
+   {
+    "da": "jeg vaskede mig",
+    "en": "I washed (oneself)"
+   },
+   {
+    "da": "jeg har vasket mig",
+    "en": "I have washed (oneself)"
+   }
+  ],
+  "explanation": "\"At vaske sig\" means to wash yourself. The little word \"sig\" means 'oneself', and it changes to \"mig\" when you talk about yourself: \"jeg vasker mig\". If you wash something else, you drop it: \"at vaske hænder\" or \"at vaske tøj\".",
+  "related": [
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   },
+   {
+    "da": "en sæbe",
+    "en": "a soap"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   },
+   {
+    "da": "at tage et bad",
+    "en": "to take a shower/bath"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **vasker mig** hver morgen.",
+   "en": "I wash myself every morning."
   }
  },
  "at veje": {
@@ -83,6 +165,2211 @@
   "sentence": {
    "da": "Kan du **veje** pakken for mig?",
    "en": "Can you weigh the package for me?"
+  }
+ },
+ "at vente": {
+  "forms": [
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "jeg venter",
+    "en": "I wait"
+   },
+   {
+    "da": "jeg ventede",
+    "en": "I waited"
+   },
+   {
+    "da": "jeg har ventet",
+    "en": "I have waited"
+   }
+  ],
+  "explanation": "\"At vente\" means to wait: \"Jeg venter på bussen\" (I am waiting for the bus). You \"vente på\" something, which means wait for it. A useful phrase is \"Vent lidt\" (Wait a moment). It also means to expect: \"Hun venter barn\" means She is expecting a baby.",
+  "related": [
+   {
+    "da": "en ventetid",
+    "en": "a waiting time"
+   },
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "at vente på",
+    "en": "to wait for"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **venter** på bussen.",
+   "en": "I am waiting for the bus."
+  }
+ },
+ "at vente på": {
+  "forms": [
+   {
+    "da": "at vente på",
+    "en": "to wait for"
+   },
+   {
+    "da": "jeg venter på",
+    "en": "I wait for"
+   },
+   {
+    "da": "jeg ventede på",
+    "en": "I waited for"
+   },
+   {
+    "da": "jeg har ventet på",
+    "en": "I have waited for"
+   }
+  ],
+  "explanation": "\"At vente på\" means to wait for someone or something. In Danish you need \"på\" (on), where English says 'for'. So it is \"Jeg venter på bussen\" (I'm waiting for the bus). A simple \"Vent!\" means 'Wait!'.",
+  "related": [
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "tålmodig",
+    "en": "patient"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **venter på** bussen.",
+   "en": "I am waiting for the bus."
+  }
+ },
+ "at vide": {
+  "forms": [
+   {
+    "da": "at vide",
+    "en": "to know (a fact)"
+   },
+   {
+    "da": "jeg ved",
+    "en": "I know"
+   },
+   {
+    "da": "jeg vidste",
+    "en": "I knew"
+   },
+   {
+    "da": "jeg har vidst",
+    "en": "I have known"
+   }
+  ],
+  "explanation": "\"At vide\" means to know a fact, as in \"Jeg ved det\" (I know it) or \"Jeg ved ikke\" (I don't know). Danish has a second word, \"at kende\", for knowing a person or a place. A tip: \"Jeg ved det ikke\" is the usual way to say I don't know. The form \"ved\" is the same for every person.",
+  "related": [
+   {
+    "da": "at kende",
+    "en": "to know (a person or place)"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "en viden",
+    "en": "knowledge"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **ved** ikke, hvor han er.",
+   "en": "I don't know where he is."
+  }
+ },
+ "at ville": {
+  "forms": [
+   {
+    "da": "at ville",
+    "en": "to want to / will"
+   },
+   {
+    "da": "jeg vil",
+    "en": "I want to / will"
+   },
+   {
+    "da": "jeg ville",
+    "en": "I wanted to / would"
+   },
+   {
+    "da": "jeg har villet",
+    "en": "I have wanted to"
+   }
+  ],
+  "explanation": "\"At ville\" means to want to, and it can also say that something will happen. \"Jeg vil have en kop kaffe\" means I want a cup of coffee, and a polite way to ask for something. It is followed straight by another action word, with no \"at\". Note that \"vil\" is not just \"will\": it is about wanting, so use \"skal\" for plans and duties.",
+  "related": [
+   {
+    "da": "at skulle",
+    "en": "to have to / should"
+   },
+   {
+    "da": "at ønske",
+    "en": "to wish"
+   },
+   {
+    "da": "en vilje",
+    "en": "a will"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **vil** gerne have en kop te.",
+   "en": "I would like a cup of tea."
+  }
+ },
+ "at vinde": {
+  "forms": [
+   {
+    "da": "at vinde",
+    "en": "to win"
+   },
+   {
+    "da": "jeg vinder",
+    "en": "I win"
+   },
+   {
+    "da": "jeg vandt",
+    "en": "I won"
+   },
+   {
+    "da": "jeg har vundet",
+    "en": "I have won"
+   }
+  ],
+  "explanation": "\"At vinde\" means to win: \"Vi vinder kampen\" (We win the match). You can win a game, a prize or a race. The opposite is \"at tabe\" (to lose). The past form \"vandt\" and the \"have done\" form \"vundet\" are irregular. A winner is \"en vinder\", and \"en gevinst\" is a prize you win.",
+  "related": [
+   {
+    "da": "at tabe",
+    "en": "to lose"
+   },
+   {
+    "da": "en vinder",
+    "en": "a winner"
+   },
+   {
+    "da": "en gevinst",
+    "en": "a prize / winnings"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **vinder** kampen i dag.",
+   "en": "We are winning the match today."
+  }
+ },
+ "at vise": {
+  "forms": [
+   {
+    "da": "at vise",
+    "en": "to show"
+   },
+   {
+    "da": "jeg viser",
+    "en": "I show"
+   },
+   {
+    "da": "jeg viste",
+    "en": "I showed"
+   },
+   {
+    "da": "jeg har vist",
+    "en": "I have shown"
+   }
+  ],
+  "explanation": "\"At vise\" means to show: \"Jeg viser dig vej\" (I show you the way). You show something to someone, so the person comes first without \"til\": \"Hun viser mig bogen\". A handy phrase is \"Vis mig\" (Show me). It is also used when a clock or a meter shows something.",
+  "related": [
+   {
+    "da": "at se",
+    "en": "to see"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "en vej",
+    "en": "a way / road"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **vise** mig vej?",
+   "en": "Can you show me the way?"
+  }
+ },
+ "at vågne": {
+  "forms": [
+   {
+    "da": "at vågne",
+    "en": "to wake up"
+   },
+   {
+    "da": "jeg vågner",
+    "en": "I wake up"
+   },
+   {
+    "da": "jeg vågnede",
+    "en": "I woke up"
+   },
+   {
+    "da": "jeg er vågnet",
+    "en": "I have woken up"
+   }
+  ],
+  "explanation": "\"At vågne\" means to wake up by yourself, as in \"Jeg vågner klokken syv\" (I wake up at seven). When someone else wakes you, Danish says \"at vække\". A related phrase is \"at stå op\" (to get up). Note that for the \"have done\" form, Danish uses \"er\" here: \"Jeg er vågnet\".",
+  "related": [
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "at stå op",
+    "en": "to get up"
+   },
+   {
+    "da": "at vække",
+    "en": "to wake someone"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **vågner** tidligt hver dag.",
+   "en": "I wake up early every day."
+  }
+ },
+ "at vågne op": {
+  "forms": [
+   {
+    "da": "at vågne op",
+    "en": "to wake up"
+   },
+   {
+    "da": "jeg vågner op",
+    "en": "I wake up"
+   },
+   {
+    "da": "jeg vågnede op",
+    "en": "I woke up"
+   },
+   {
+    "da": "jeg er vågnet op",
+    "en": "I have woken up"
+   }
+  ],
+  "explanation": "\"At vågne op\" means to wake up, meaning the moment you become awake. Often people just say \"at vågne\" and the \"op\" is optional. Don't mix it up with \"at stå op\", which means getting out of bed.",
+  "related": [
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "at stå op",
+    "en": "to get up (out of bed)"
+   },
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "at falde i søvn",
+    "en": "to fall asleep"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **vågner op** klokken syv.",
+   "en": "I wake up at seven o'clock."
+  }
+ },
+ "at vælge": {
+  "forms": [
+   {
+    "da": "at vælge",
+    "en": "to choose"
+   },
+   {
+    "da": "jeg vælger",
+    "en": "I choose"
+   },
+   {
+    "da": "jeg valgte",
+    "en": "I chose"
+   },
+   {
+    "da": "jeg har valgt",
+    "en": "I have chosen"
+   }
+  ],
+  "explanation": "\"At vælge\" means to choose or to pick. \"Jeg vælger den røde\" means \"I choose the red one\". The past form \"valgte\" and the \"have\" form \"valgt\" are irregular, so learn them as they are. The act of choosing is \"et valg\" (a choice), which is also the word for an election.",
+  "related": [
+   {
+    "da": "et valg",
+    "en": "a choice / an election"
+   },
+   {
+    "da": "at tage",
+    "en": "to take"
+   },
+   {
+    "da": "at beslutte",
+    "en": "to decide"
+   }
+  ],
+  "sentence": {
+   "da": "Du må **vælge** en farve.",
+   "en": "You may choose a colour."
+  }
+ },
+ "at være": {
+  "forms": [
+   {
+    "da": "at være",
+    "en": "to be"
+   },
+   {
+    "da": "jeg er",
+    "en": "I am"
+   },
+   {
+    "da": "jeg var",
+    "en": "I was"
+   },
+   {
+    "da": "jeg har været",
+    "en": "I have been"
+   }
+  ],
+  "explanation": "\"At være\" means to be, and it is the most important word in Danish. It is used for describing people and things (\"Jeg er træt\"), for saying where something is, and for saying what someone is. Its forms are very irregular, so learn \"er\", \"var\" and \"været\" by heart. Unlike English, Danish uses the same form \"er\" for I, you, he, we and they.",
+  "related": [
+   {
+    "da": "at blive",
+    "en": "to become / stay"
+   },
+   {
+    "da": "at have",
+    "en": "to have"
+   },
+   {
+    "da": "at findes",
+    "en": "to exist"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **er** hjemme i dag.",
+   "en": "I am at home today."
+  }
+ },
+ "at være syg": {
+  "forms": [
+   {
+    "da": "at være syg",
+    "en": "to be sick"
+   },
+   {
+    "da": "jeg er syg",
+    "en": "I am sick"
+   },
+   {
+    "da": "jeg var syg",
+    "en": "I was sick"
+   },
+   {
+    "da": "jeg har været syg",
+    "en": "I have been sick"
+   }
+  ],
+  "explanation": "\"At være syg\" means to be sick or ill. You use it to describe the state of being unwell: \"Jeg er syg\" (I am sick). It covers anything from a cold to a serious illness. To get sick, say \"at blive syg\". The way to tell work you can't come is \"at melde sig syg\".",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "at blive syg",
+    "en": "to get sick"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "at melde sig syg",
+    "en": "to call in sick"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn **er syg** i dag.",
+   "en": "My son is sick today."
+  }
+ },
+ "at være væk": {
+  "forms": [
+   {
+    "da": "at være væk",
+    "en": "to be gone"
+   },
+   {
+    "da": "jeg er væk",
+    "en": "I am gone"
+   },
+   {
+    "da": "jeg var væk",
+    "en": "I was gone"
+   },
+   {
+    "da": "jeg har været væk",
+    "en": "I have been gone"
+   }
+  ],
+  "explanation": "\"At være væk\" means to be gone or to be away. It is used for people who are not there (\"Han er væk\") and for things that have disappeared (\"Min nøgle er væk\"). It describes the state of being gone, not the act of leaving.",
+  "related": [
+   {
+    "da": "væk",
+    "en": "away / gone"
+   },
+   {
+    "da": "at gå væk",
+    "en": "to go away"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   }
+  ],
+  "sentence": {
+   "da": "Min nøgle **er væk**.",
+   "en": "My key is gone."
+  }
+ },
+ "en vaccine": {
+  "forms": [
+   {
+    "da": "en vaccine",
+    "en": "a vaccine"
+   },
+   {
+    "da": "vaccinen",
+    "en": "the vaccine"
+   },
+   {
+    "da": "vacciner",
+    "en": "vaccines"
+   },
+   {
+    "da": "vaccinerne",
+    "en": "the vaccines"
+   }
+  ],
+  "explanation": "\"Vaccine\" is borrowed from Latin and looks almost like the English word, but the stress falls on the middle: vak-SEE-ne. The matching verb is \"at vaccinere\" (to vaccinate), and the act of getting it is \"en vaccination\". Denmark has a national vaccination programme for children, which people often just call \"børnevaccinationsprogrammet\".",
+  "related": [
+   {
+    "da": "at vaccinere",
+    "en": "to vaccinate"
+   },
+   {
+    "da": "en vaccination",
+    "en": "a vaccination"
+   },
+   {
+    "da": "en sprøjte",
+    "en": "a syringe"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fik **en vaccine** i går.",
+   "en": "She got a vaccine yesterday."
+  }
+ },
+ "en vegetar": {
+  "forms": [
+   {
+    "da": "en vegetar",
+    "en": "a vegetarian"
+   },
+   {
+    "da": "vegetaren",
+    "en": "the vegetarian"
+   },
+   {
+    "da": "vegetarer",
+    "en": "vegetarians"
+   },
+   {
+    "da": "vegetarerne",
+    "en": "the vegetarians"
+   }
+  ],
+  "explanation": "\"En vegetar\" is a person who does not eat meat, an en-word. Use it to say what you are: \"Jeg er vegetar\". The word that describes food is \"vegetarisk\", for example \"en vegetarisk ret\" (a vegetarian dish).",
+  "related": [
+   {
+    "da": "vegetarisk",
+    "en": "vegetarian"
+   },
+   {
+    "da": "en allergi",
+    "en": "an allergy"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **vegetar**, så jeg spiser ikke kød.",
+   "en": "I am a vegetarian, so I do not eat meat."
+  }
+ },
+ "en vej": {
+  "forms": [
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "vejen",
+    "en": "the road"
+   },
+   {
+    "da": "veje",
+    "en": "roads"
+   },
+   {
+    "da": "vejene",
+    "en": "the roads"
+   }
+  ],
+  "explanation": "\"En vej\" means a road or a way. It is used for roads and also for a route you take: \"at spørge om vej\" means to ask for directions. Street names in Denmark often end in \"-vej\", like \"Strandvejen\". It is an en-word, so 'the road' is \"vejen\".",
+  "related": [
+   {
+    "da": "en gade",
+    "en": "a street"
+   },
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "en motorvej",
+    "en": "a highway"
+   },
+   {
+    "da": "at spørge om vej",
+    "en": "to ask for directions"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilken **vej** skal jeg gå?",
+   "en": "Which way should I go?"
+  }
+ },
+ "en vejrudsigt": {
+  "forms": [
+   {
+    "da": "en vejrudsigt",
+    "en": "a weather forecast"
+   },
+   {
+    "da": "vejrudsigten",
+    "en": "the weather forecast"
+   },
+   {
+    "da": "vejrudsigter",
+    "en": "weather forecasts"
+   },
+   {
+    "da": "vejrudsigterne",
+    "en": "the weather forecasts"
+   }
+  ],
+  "explanation": "\"En vejrudsigt\" is a weather forecast, a description of what the weather will be like. It is built from \"vejr\" (weather) and \"udsigt\" (outlook). It is an en-word. You can check it on TV, on the radio or on your phone.",
+  "related": [
+   {
+    "da": "et vejr",
+    "en": "weather"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "en temperatur",
+    "en": "a temperature"
+   },
+   {
+    "da": "i morgen",
+    "en": "tomorrow"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad siger **vejrudsigten** for i morgen?",
+   "en": "What does the weather forecast say for tomorrow?"
+  }
+ },
+ "en ven": {
+  "forms": [
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "vennen",
+    "en": "the friend"
+   },
+   {
+    "da": "venner",
+    "en": "friends"
+   },
+   {
+    "da": "vennerne",
+    "en": "the friends"
+   }
+  ],
+  "explanation": "\"En ven\" is a male friend or a friend in general, and it is an en-word. The plural is \"venner\". A female friend is \"en veninde\". Be careful with \"kæreste\", which is a boyfriend or girlfriend, not just a friend. \"Min bedste ven\" is my best friend.",
+  "related": [
+   {
+    "da": "en veninde",
+    "en": "a female friend"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend/girlfriend"
+   },
+   {
+    "da": "en nabo",
+    "en": "a neighbor"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   }
+  ],
+  "sentence": {
+   "da": "Han er min bedste **ven**.",
+   "en": "He is my best friend."
+  }
+ },
+ "en veninde": {
+  "forms": [
+   {
+    "da": "en veninde",
+    "en": "a female friend"
+   },
+   {
+    "da": "veninden",
+    "en": "the female friend"
+   },
+   {
+    "da": "veninder",
+    "en": "female friends"
+   },
+   {
+    "da": "veninderne",
+    "en": "the female friends"
+   }
+  ],
+  "explanation": "\"En veninde\" is a female friend. Danish has a separate word for a man's or boy's friend: \"en ven\". The word \"veninde\" is used for a woman's friend or a girl's friend. It is regular, and the plural is \"veninder\".",
+  "related": [
+   {
+    "da": "en ven",
+    "en": "a friend (male)"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a partner"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en nabo",
+    "en": "a neighbor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal ud med min **veninde**.",
+   "en": "I am going out with my friend."
+  }
+ },
+ "en verden": {
+  "forms": [
+   {
+    "da": "en verden",
+    "en": "a world"
+   },
+   {
+    "da": "verdenen",
+    "en": "the world"
+   },
+   {
+    "da": "verdener",
+    "en": "worlds"
+   },
+   {
+    "da": "verdenerne",
+    "en": "the worlds"
+   }
+  ],
+  "explanation": "\"En verden\" means a world, and with 'the' it is \"verdenen\", often 'the whole world'. You'll hear it in phrases like \"i hele verden\" (all over the world). It is an en-word, and the word \"verdens\" is used for 'the world's' like \"verdens bedste\" (the best in the world).",
+  "related": [
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "et univers",
+    "en": "a universe"
+   },
+   {
+    "da": "en jord",
+    "en": "an earth"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   }
+  ],
+  "sentence": {
+   "da": "Hun rejser rundt i **verden**.",
+   "en": "She travels around the world."
+  }
+ },
+ "en vin": {
+  "forms": [
+   {
+    "da": "en vin",
+    "en": "a wine"
+   },
+   {
+    "da": "vinen",
+    "en": "the wine"
+   },
+   {
+    "da": "vine",
+    "en": "wines"
+   },
+   {
+    "da": "vinene",
+    "en": "the wines"
+   }
+  ],
+  "explanation": "\"En vin\" is a wine, an en-word. Usually you say the colour: \"en rødvin\" (red) or \"en hvidvin\" (white). In a restaurant you can order \"et glas vin\" (a glass of wine) or \"en flaske vin\" (a bottle of wine).",
+  "related": [
+   {
+    "da": "en rødvin",
+    "en": "a red wine"
+   },
+   {
+    "da": "en hvidvin",
+    "en": "a white wine"
+   },
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bestiller en flaske **vin** til maden.",
+   "en": "We order a bottle of wine for the meal."
+  }
+ },
+ "en vinter": {
+  "forms": [
+   {
+    "da": "en vinter",
+    "en": "a winter"
+   },
+   {
+    "da": "vinteren",
+    "en": "the winter"
+   },
+   {
+    "da": "vintre",
+    "en": "winters"
+   },
+   {
+    "da": "vintrene",
+    "en": "the winters"
+   }
+  ],
+  "explanation": "En vinter is a winter. It is an en-word, so \"the winter\" is \"vinteren\", and the more-than-one form is \"vintre\", where the e before the r drops out. Use \"om vinteren\" for \"in the winter\" in general, and \"i vinter\" for this winter. Danish winters are dark and often grey, which is why Danes love candles.",
+  "related": [
+   {
+    "da": "en sommer",
+    "en": "a summer"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
+   },
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "et efterår",
+    "en": "an autumn"
+   }
+  ],
+  "sentence": {
+   "da": "Det bliver tidligt mørkt om **vinteren**.",
+   "en": "It gets dark early in the winter."
+  }
+ },
+ "en vinterjakke": {
+  "forms": [
+   {
+    "da": "en vinterjakke",
+    "en": "a winter jacket"
+   },
+   {
+    "da": "vinterjakken",
+    "en": "the winter jacket"
+   },
+   {
+    "da": "vinterjakker",
+    "en": "winter jackets"
+   },
+   {
+    "da": "vinterjakkerne",
+    "en": "the winter jackets"
+   }
+  ],
+  "explanation": "\"En vinterjakke\" is a warm jacket for winter. It is built from \"vinter\" (winter) and \"jakke\" (jacket). Danish winters are cold, wet and windy, so a good one is important. You can put other words in front of \"jakke\" in the same way, like \"regnjakke\" (rain jacket).",
+  "related": [
+   {
+    "da": "en regnjakke",
+    "en": "a rain jacket"
+   },
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "handsker",
+    "en": "gloves"
+   },
+   {
+    "da": "et tørklæde",
+    "en": "a scarf"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal have en ny **vinterjakke**.",
+   "en": "I need a new winter jacket."
+  }
+ },
+ "en væg": {
+  "forms": [
+   {
+    "da": "en væg",
+    "en": "a wall"
+   },
+   {
+    "da": "væggen",
+    "en": "the wall"
+   },
+   {
+    "da": "vægge",
+    "en": "walls"
+   },
+   {
+    "da": "væggene",
+    "en": "the walls"
+   }
+  ],
+  "explanation": "\"En væg\" means a wall, such as a wall inside a room. It is an en-word, so 'the wall' is \"væggen\" and the plural is \"vægge\". Notice the double 'g' in the forms with an ending. A big outer wall, such as a garden wall, can also be \"en mur\".",
+  "related": [
+   {
+    "da": "et gulv",
+    "en": "a floor"
+   },
+   {
+    "da": "et loft",
+    "en": "a ceiling"
+   },
+   {
+    "da": "en mur",
+    "en": "a (brick) wall"
+   },
+   {
+    "da": "et rum",
+    "en": "a room"
+   }
+  ],
+  "sentence": {
+   "da": "Der hænger et billede på **væggen**.",
+   "en": "A picture is hanging on the wall."
+  }
+ },
+ "et vandrerhjem": {
+  "forms": [
+   {
+    "da": "et vandrerhjem",
+    "en": "a hostel"
+   },
+   {
+    "da": "vandrerhjemmet",
+    "en": "the hostel"
+   },
+   {
+    "da": "vandrerhjem",
+    "en": "hostels"
+   },
+   {
+    "da": "vandrerhjemmene",
+    "en": "the hostels"
+   }
+  ],
+  "explanation": "\"Vandrerhjem\" is a hostel, a cheap place to stay, and it literally means \"a hiker's home\". Denmark has many of them, and some are very good for families. It is an et-word and the plural has the same form, with the double m when \"the\" is added: \"vandrerhjemmet\".",
+  "related": [
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "en overnatning",
+    "en": "an overnight stay"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor på **et vandrerhjem**.",
+   "en": "We are staying at a hostel."
+  }
+ },
+ "et venteværelse": {
+  "forms": [
+   {
+    "da": "et venteværelse",
+    "en": "a waiting room"
+   },
+   {
+    "da": "venteværelset",
+    "en": "the waiting room"
+   },
+   {
+    "da": "venteværelser",
+    "en": "waiting rooms"
+   },
+   {
+    "da": "venteværelserne",
+    "en": "the waiting rooms"
+   }
+  ],
+  "explanation": "\"Et venteværelse\" is a waiting room, such as at the doctor or dentist. It is an et-word built from \"vente\" (wait) and \"værelse\" (room). \"Sid i venteværelset\" means \"sit in the waiting room\" and is what the receptionist may say to you.",
+  "related": [
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en tid hos lægen",
+    "en": "a doctor's appointment"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sidder i **venteværelset**.",
+   "en": "We are sitting in the waiting room."
+  }
+ },
+ "et vindue": {
+  "forms": [
+   {
+    "da": "et vindue",
+    "en": "a window"
+   },
+   {
+    "da": "vinduet",
+    "en": "the window"
+   },
+   {
+    "da": "vinduer",
+    "en": "windows"
+   },
+   {
+    "da": "vinduerne",
+    "en": "the windows"
+   }
+  ],
+  "explanation": "\"Et vindue\" means a window. It is an et-word, so 'the window' is \"vinduet\" and the plural is \"vinduer\". You can say \"at åbne vinduet\" (to open the window). The ending sounds a bit like 'dew', so say it softly.",
+  "related": [
+   {
+    "da": "en dør",
+    "en": "a door"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "en væg",
+    "en": "a wall"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et **vindue** i køkkenet.",
+   "en": "There is a window in the kitchen."
+  }
+ },
+ "et visum": {
+  "forms": [
+   {
+    "da": "et visum",
+    "en": "a visa"
+   },
+   {
+    "da": "visummet",
+    "en": "the visa"
+   },
+   {
+    "da": "visa",
+    "en": "visas"
+   },
+   {
+    "da": "visaene",
+    "en": "the visas"
+   }
+  ],
+  "explanation": "\"Visum\" is a visa, the permission to enter or live in a country. It is an et-word, and the plural \"visa\" is a Latin-style form that looks different from the single word. Use it with \"at søge om\" (to apply for): \"Jeg søger om et visum.\"",
+  "related": [
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "en grænse",
+    "en": "a border"
+   },
+   {
+    "da": "at søge",
+    "en": "to apply, to search"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal bruge **et visum**.",
+   "en": "I need a visa."
+  }
+ },
+ "et værelse": {
+  "forms": [
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "værelset",
+    "en": "the room"
+   },
+   {
+    "da": "værelser",
+    "en": "rooms"
+   },
+   {
+    "da": "værelserne",
+    "en": "the rooms"
+   }
+  ],
+  "explanation": "\"Et værelse\" is a room, in a home or in a hotel, and it is an et-word. At a hotel you book \"et værelse\" for the night. The word means a room in the sense of a space to live or sleep in, and not room as in space (that is \"plads\").",
+  "related": [
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har booket et **værelse** til to nætter.",
+   "en": "I have booked a room for two nights."
+  }
+ },
+ "vand": {
+  "forms": [
+   {
+    "da": "vand",
+    "en": "water"
+   },
+   {
+    "da": "vandet",
+    "en": "the water"
+   },
+   {
+    "da": "et glas vand",
+    "en": "a glass of water"
+   }
+  ],
+  "explanation": "Vand is water. It is an et-word, so \"the water\" is \"vandet\". You use it without \"et\" when you mean water in general, as in \"Jeg drikker vand\" (I drink water). To ask for some in a restaurant, say \"Må jeg få et glas vand?\". Tap water is safe to drink in Denmark, and \"koldt vand\" means cold water.",
+  "related": [
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "et hav",
+    "en": "a sea"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg bede om et glas **vand**?",
+   "en": "May I have a glass of water?"
+  }
+ },
+ "varm": {
+  "forms": [
+   {
+    "da": "en varm dag",
+    "en": "a warm day"
+   },
+   {
+    "da": "et varmt hus",
+    "en": "a warm house"
+   },
+   {
+    "da": "varme dage",
+    "en": "warm days"
+   }
+  ],
+  "explanation": "\"Varm\" means warm or hot, for weather, food, drinks and rooms. Danish does not have separate everyday words for warm and hot like English does; \"varm\" covers both, and for very hot weather people say \"meget varmt\" or \"hedt\". You add \"t\" for et-words (\"et varmt værelse\"). The opposite is \"kold\" (cold).",
+  "related": [
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "en varme",
+    "en": "a warmth / heat"
+   },
+   {
+    "da": "lun",
+    "en": "lukewarm"
+   },
+   {
+    "da": "en sommer",
+    "en": "a summer"
+   }
+  ],
+  "sentence": {
+   "da": "Kaffen er stadig **varm**.",
+   "en": "The coffee is still hot."
+  }
+ },
+ "varme": {
+  "forms": [
+   {
+    "da": "en varme",
+    "en": "a heat"
+   },
+   {
+    "da": "varmen",
+    "en": "the heat"
+   },
+   {
+    "da": "Jeg kan ikke tåle varmen.",
+    "en": "I can't stand the heat."
+   }
+  ],
+  "explanation": "\"Varme\" as an en-word means heat or warmth. \"Varmen\" is \"the heat\", for example on a hot summer day. It looks like the verb \"at varme\" (to warm) and the plural word \"varme\" (warm), so the context tells you which one it is. The opposite is \"kulde\".",
+  "related": [
+   {
+    "da": "kulde",
+    "en": "cold"
+   },
+   {
+    "da": "varm",
+    "en": "warm / hot"
+   },
+   {
+    "da": "at varme",
+    "en": "to heat"
+   },
+   {
+    "da": "en temperatur",
+    "en": "a temperature"
+   }
+  ],
+  "sentence": {
+   "da": "**Varmen** er svær at holde ud i dag.",
+   "en": "The heat is hard to bear today."
+  }
+ },
+ "ved": {
+  "forms": [
+   {
+    "da": "ved vinduet",
+    "en": "by the window"
+   },
+   {
+    "da": "ved bordet",
+    "en": "at the table"
+   },
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   }
+  ],
+  "explanation": "\"Ved\" means by or at, and it shows something is close to or next to something else: \"ved vinduet\". Careful: \"ved\" is also the \"I know\" form of \"at vide\": \"Jeg ved det\". The meaning is clear from the sentence.",
+  "related": [
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   },
+   {
+    "da": "hos",
+    "en": "at someone's place"
+   },
+   {
+    "da": "nær",
+    "en": "near"
+   },
+   {
+    "da": "i",
+    "en": "in"
+   }
+  ],
+  "sentence": {
+   "da": "Han sidder **ved** vinduet.",
+   "en": "He is sitting by the window."
+  }
+ },
+ "ved siden af": {
+  "forms": [
+   {
+    "da": "ved siden af mig",
+    "en": "next to me"
+   },
+   {
+    "da": "ved siden af huset",
+    "en": "next to the house"
+   },
+   {
+    "da": "lige ved siden af",
+    "en": "right next to"
+   }
+  ],
+  "explanation": "\"Ved siden af\" means \"next to\" or \"beside\". It is made of three small words and is often used to tell where things are, like \"Banken ligger ved siden af posthuset\" (The bank is next to the post office). You can also say \"lige ved siden af\" for \"right next to\". It can also mean \"alongside\", as in \"ved siden af mit arbejde\" (alongside my job).",
+  "related": [
+   {
+    "da": "foran",
+    "en": "in front of"
+   },
+   {
+    "da": "bag",
+    "en": "behind"
+   },
+   {
+    "da": "imellem",
+    "en": "between"
+   },
+   {
+    "da": "nær",
+    "en": "near"
+   }
+  ],
+  "sentence": {
+   "da": "Banken ligger **ved siden af** posthuset.",
+   "en": "The bank is next to the post office."
+  }
+ },
+ "vegetarisk": {
+  "forms": [
+   {
+    "da": "en vegetarisk ret",
+    "en": "a vegetarian dish"
+   },
+   {
+    "da": "et vegetarisk måltid",
+    "en": "a vegetarian meal"
+   },
+   {
+    "da": "vegetariske retter",
+    "en": "vegetarian dishes"
+   }
+  ],
+  "explanation": "\"Vegetarisk\" means vegetarian, so without meat, and you use it to describe food. The form for an et-word is the same, \"vegetarisk\", with no \"t\" added; the plural adds \"e\": \"vegetariske\". You can ask \"Har I noget vegetarisk?\" (Do you have anything vegetarian?).",
+  "related": [
+   {
+    "da": "en vegetar",
+    "en": "a vegetarian"
+   },
+   {
+    "da": "en ret",
+    "en": "a dish"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Har I en **vegetarisk** ret?",
+   "en": "Do you have a vegetarian dish?"
+  }
+ },
+ "vejr": {
+  "forms": [
+   {
+    "da": "vejret",
+    "en": "the weather"
+   },
+   {
+    "da": "godt vejr",
+    "en": "good weather"
+   },
+   {
+    "da": "dårligt vejr",
+    "en": "bad weather"
+   }
+  ],
+  "explanation": "Vejr is the weather. It is an et-word, so you never say \"a weather\", and \"the weather\" is \"vejret\". Weather is a favourite topic of small talk in Denmark. A good question is \"Hvordan er vejret?\" (How is the weather?), and you can answer with \"Det er godt vejr\" or \"Det er dårligt vejr\". Note that \"godt\" gets a t because the word is an et-word.",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "en vind",
+    "en": "a wind"
+   },
+   {
+    "da": "en temperatur",
+    "en": "a temperature"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan er **vejret** i dag?",
+   "en": "How is the weather today?"
+  }
+ },
+ "velbekomme": {
+  "forms": [
+   {
+    "da": "Velbekomme!",
+    "en": "Enjoy! / You're welcome!"
+   },
+   {
+    "da": "Tak for mad. Velbekomme.",
+    "en": "Thanks for the meal. You're welcome."
+   },
+   {
+    "da": "Velbekomme, det var så lidt.",
+    "en": "You're welcome, it was nothing."
+   }
+  ],
+  "explanation": "\"Velbekomme\" is a mealtime word. It can be said while serving food to mean \"enjoy\", and it is the reply when someone says \"tak for mad\" afterwards, meaning \"you're welcome\". It is only used about food and drink. For other thanks, use \"selv tak\" or \"det var så lidt\".",
+  "related": [
+   {
+    "da": "tak for mad",
+    "en": "thanks for the meal"
+   },
+   {
+    "da": "god appetit",
+    "en": "enjoy your meal"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   }
+  ],
+  "sentence": {
+   "da": "Her er suppen. **Velbekomme!**",
+   "en": "Here is the soup. Enjoy!"
+  }
+ },
+ "velkommen": {
+  "forms": [
+   {
+    "da": "Velkommen!",
+    "en": "Welcome!"
+   },
+   {
+    "da": "Velkommen til Danmark.",
+    "en": "Welcome to Denmark."
+   },
+   {
+    "da": "Velkommen hjem.",
+    "en": "Welcome home."
+   }
+  ],
+  "explanation": "Means \"welcome\". Use it when greeting guests, and add \"til\" plus the place: \"velkommen til Danmark\". It stays the same for one or many people. Do not use it to mean \"you're welcome\", which is \"selv tak\" or \"det var så lidt\".",
+  "related": [
+   {
+    "da": "velkommen til",
+    "en": "welcome to"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   },
+   {
+    "da": "hej",
+    "en": "hello"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   }
+  ],
+  "sentence": {
+   "da": "**Velkommen** til vores hjem!",
+   "en": "Welcome to our home!"
+  }
+ },
+ "venlig": {
+  "forms": [
+   {
+    "da": "en venlig mand",
+    "en": "a kind man"
+   },
+   {
+    "da": "et venligt smil",
+    "en": "a friendly smile"
+   },
+   {
+    "da": "venlige mennesker",
+    "en": "friendly people"
+   }
+  ],
+  "explanation": "\"Venlig\" means friendly or kind, for people, voices and smiles. It is a good word to describe polite and pleasant behaviour. Add \"t\" for et-words (\"et venligt svar\") and \"-e\" for more than one. \"Venlig hilsen\" (kind regards) is the usual way to end a Danish email. The opposite is \"uvenlig\" (unfriendly).",
+  "related": [
+   {
+    "da": "uvenlig",
+    "en": "unfriendly"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "sød",
+    "en": "sweet / nice"
+   },
+   {
+    "da": "høflig",
+    "en": "polite"
+   }
+  ],
+  "sentence": {
+   "da": "Alle er meget **venlige** her.",
+   "en": "Everyone is very friendly here."
+  }
+ },
+ "venstre": {
+  "forms": [
+   {
+    "da": "venstre hånd",
+    "en": "left hand"
+   },
+   {
+    "da": "på venstre side",
+    "en": "on the left side"
+   },
+   {
+    "da": "Hun bruger sin venstre arm.",
+    "en": "She uses her left arm."
+   }
+  ],
+  "explanation": "\"Venstre\" means left, as in the left side or the left hand. It stays the same whatever word it describes. It is the opposite of \"højre\" (right). In directions you usually say \"til venstre\" (to the left).",
+  "related": [
+   {
+    "da": "højre",
+    "en": "right (side)"
+   },
+   {
+    "da": "til venstre",
+    "en": "to the left"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en side",
+    "en": "a side"
+   }
+  ],
+  "sentence": {
+   "da": "Tag den første vej til **venstre**.",
+   "en": "Take the first road on the left."
+  }
+ },
+ "vent lidt": {
+  "forms": [
+   {
+    "da": "Vent lidt!",
+    "en": "Wait a bit!"
+   },
+   {
+    "da": "Vent lidt, tak.",
+    "en": "Wait a moment, please."
+   },
+   {
+    "da": "Kan du vente lidt?",
+    "en": "Can you wait a bit?"
+   }
+  ],
+  "explanation": "\"Vent lidt\" means \"wait a bit\" and is how you ask someone to hold on for a moment. The word \"lidt\" means \"a little\", so it softens the request. Add \"tak\" to be polite. It is also what you say when you need a second to think or find something.",
+  "related": [
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "skynd dig",
+    "en": "hurry up"
+   }
+  ],
+  "sentence": {
+   "da": "**Vent lidt**, jeg finder min taske.",
+   "en": "Wait a bit, I'm finding my bag."
+  }
+ },
+ "vest": {
+  "forms": [
+   {
+    "da": "vest",
+    "en": "west"
+   },
+   {
+    "da": "i vest",
+    "en": "in the west"
+   },
+   {
+    "da": "mod vest",
+    "en": "towards the west"
+   }
+  ],
+  "explanation": "\"Vest\" means west, one of the four main directions. It is used in names such as \"Vestjylland\" (western Jutland), which faces the North Sea. The opposite is \"øst\" (east). In Copenhagen \"Vesterbro\" is a part of town named after the west.",
+  "related": [
+   {
+    "da": "øst",
+    "en": "east"
+   },
+   {
+    "da": "nord",
+    "en": "north"
+   },
+   {
+    "da": "syd",
+    "en": "south"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   }
+  ],
+  "sentence": {
+   "da": "Solen går ned i **vest**.",
+   "en": "The sun goes down in the west."
+  }
+ },
+ "vi": {
+  "forms": [
+   {
+    "da": "Vi er hjemme.",
+    "en": "We are at home."
+   },
+   {
+    "da": "Vi spiser nu.",
+    "en": "We are eating now."
+   },
+   {
+    "da": "Skal vi gå?",
+    "en": "Shall we go?"
+   }
+  ],
+  "explanation": "\"Vi\" means \"we\". It always comes first when you are the one doing something, like \"Vi bor her\". After a verb or word like \"to\" you use \"os\" instead: \"Han ser os\" (He sees us). In questions the verb jumps in front, as in \"Skal vi gå?\" meaning \"Shall we go?\".",
+  "related": [
+   {
+    "da": "jeg",
+    "en": "I"
+   },
+   {
+    "da": "os",
+    "en": "us"
+   },
+   {
+    "da": "vores",
+    "en": "our / ours"
+   },
+   {
+    "da": "sammen",
+    "en": "together"
+   }
+  ],
+  "sentence": {
+   "da": "**Vi** skal i biografen i aften.",
+   "en": "We are going to the cinema tonight."
+  }
+ },
+ "vi ses": {
+  "forms": [
+   {
+    "da": "Vi ses!",
+    "en": "See you!"
+   },
+   {
+    "da": "Vi ses i morgen.",
+    "en": "See you tomorrow."
+   },
+   {
+    "da": "Vi ses senere.",
+    "en": "See you later."
+   }
+  ],
+  "explanation": "\"Vi ses\" literally means \"we are seen\" and is the everyday way to say \"see you\" when parting. Add a time to be specific: \"vi ses i morgen\" or \"vi ses på fredag\". It is casual and fine with friends, colleagues and shop staff. Use \"på gensyn\" in a more formal setting.",
+  "related": [
+   {
+    "da": "på gensyn",
+    "en": "see you again (formal)"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "hej hej",
+    "en": "bye"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal gå nu. **Vi ses** i morgen!",
+   "en": "I have to go now. See you tomorrow!"
+  }
+ },
+ "vi tales ved": {
+  "forms": [
+   {
+    "da": "Vi tales ved!",
+    "en": "Talk soon!"
+   },
+   {
+    "da": "Vi tales ved i morgen.",
+    "en": "We'll talk tomorrow."
+   },
+   {
+    "da": "Vi tales ved senere.",
+    "en": "We'll talk later."
+   }
+  ],
+  "explanation": "\"Vi tales ved\" means \"we will talk\" and is a friendly goodbye, mostly after a phone call or message, when you expect to speak again soon. It sounds a little like \"talk to you soon\". Use \"vi ses\" instead when you expect to meet in person.",
+  "related": [
+   {
+    "da": "vi ses",
+    "en": "see you"
+   },
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "at ringe",
+    "en": "to call"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer i aften. **Vi tales ved!**",
+   "en": "I'll call tonight. Talk soon!"
+  }
+ },
+ "vigtig": {
+  "forms": [
+   {
+    "da": "en vigtig dag",
+    "en": "an important day"
+   },
+   {
+    "da": "et vigtigt møde",
+    "en": "an important meeting"
+   },
+   {
+    "da": "vigtige møder",
+    "en": "important meetings"
+   }
+  ],
+  "explanation": "\"Vigtig\" means important, for things, people, news and decisions. \"Det er vigtigt\" is a common phrase meaning \"It is important\". Add \"t\" for et-words (\"et vigtigt møde\") and \"-e\" for more than one. The word \"vigtigt\" is also used alone like \"important\": \"Det er vigtigt at sove\" (It is important to sleep). An opposite is \"uvigtig\" or \"ligegyldig\".",
+  "related": [
+   {
+    "da": "ligegyldig",
+    "en": "unimportant"
+   },
+   {
+    "da": "en betydning",
+    "en": "a meaning"
+   },
+   {
+    "da": "nødvendig",
+    "en": "necessary"
+   },
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **vigtigt** at drikke vand.",
+   "en": "It is important to drink water."
+  }
+ },
+ "vind": {
+  "forms": [
+   {
+    "da": "vind",
+    "en": "wind"
+   },
+   {
+    "da": "vinden",
+    "en": "the wind"
+   },
+   {
+    "da": "det blæser",
+    "en": "it is windy"
+   }
+  ],
+  "explanation": "Vind is wind. It is an en-word, so \"the wind\" is \"vinden\". To say that it is windy you use the verb \"at blæse\": \"Det blæser\". Denmark is quite windy, so people talk about it a lot, and Danish wind turbines are known worldwide. A very strong wind is \"en storm\" (a storm).",
+  "related": [
+   {
+    "da": "at blæse",
+    "en": "to blow"
+   },
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "luft",
+    "en": "air"
+   },
+   {
+    "da": "vejr",
+    "en": "weather"
+   }
+  ],
+  "sentence": {
+   "da": "**Vinden** er kold i dag.",
+   "en": "The wind is cold today."
+  }
+ },
+ "virkelig": {
+  "forms": [
+   {
+    "da": "Det er virkelig godt.",
+    "en": "It is really good."
+   },
+   {
+    "da": "Er det virkelig sandt?",
+    "en": "Is that really true?"
+   },
+   {
+    "da": "Jeg er virkelig træt.",
+    "en": "I am really tired."
+   }
+  ],
+  "explanation": "\"Virkelig\" means \"really\" and adds strength: \"virkelig god\" (really good). It can also mean \"truly\" when you doubt something: \"Virkelig?\" (Really?). It comes from \"virke\" (to work / seem). The everyday way to show surprise is just \"Nåh, virkelig?\".",
+  "related": [
+   {
+    "da": "meget",
+    "en": "very"
+   },
+   {
+    "da": "rigtig",
+    "en": "really / right"
+   },
+   {
+    "da": "sand",
+    "en": "true"
+   },
+   {
+    "da": "faktisk",
+    "en": "actually"
+   }
+  ],
+  "sentence": {
+   "da": "Det var **virkelig** dejligt.",
+   "en": "That was really lovely."
+  }
+ },
+ "vores": {
+  "forms": [
+   {
+    "da": "vores bil",
+    "en": "our car"
+   },
+   {
+    "da": "vores hus",
+    "en": "our house"
+   },
+   {
+    "da": "vores børn",
+    "en": "our children"
+   }
+  ],
+  "explanation": "\"Vores\" means \"our\" or \"ours\". It never changes, so it fits en-words, et-words and many things: \"vores hus\", \"vores bil\", \"vores venner\". It comes from \"vi\" (we) and \"os\" (us). It is easy to use because there is only this one form.",
+  "related": [
+   {
+    "da": "vi",
+    "en": "we"
+   },
+   {
+    "da": "os",
+    "en": "us"
+   },
+   {
+    "da": "jeres",
+    "en": "your (group of people)"
+   },
+   {
+    "da": "deres",
+    "en": "their / theirs"
+   }
+  ],
+  "sentence": {
+   "da": "**Vores** hus ligger tæt på havnen.",
+   "en": "Our house is close to the harbour."
+  }
+ },
+ "vred": {
+  "forms": [
+   {
+    "da": "en vred mand",
+    "en": "an angry man"
+   },
+   {
+    "da": "et vredt barn",
+    "en": "an angry child"
+   },
+   {
+    "da": "vrede børn",
+    "en": "angry children"
+   }
+  ],
+  "explanation": "\"Vred\" means angry. To say you are angry at someone, use \"vred på\": \"Jeg er vred på ham\". It is a fairly strong word; for being a little annoyed Danes use \"irriteret\" or \"sur\". Add \"t\" for et-words (\"et vredt barn\") and \"-e\" for more than one. The word for anger itself is \"vrede\", and the opposite feeling is \"rolig\" (calm).",
+  "related": [
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "sur",
+    "en": "grumpy"
+   },
+   {
+    "da": "irriteret",
+    "en": "annoyed"
+   },
+   {
+    "da": "en vrede",
+    "en": "an anger"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **vred** på sin bror.",
+   "en": "She is angry with her brother."
+  }
+ },
+ "våd": {
+  "forms": [
+   {
+    "da": "en våd hund",
+    "en": "a wet dog"
+   },
+   {
+    "da": "et vådt håndklæde",
+    "en": "a wet towel"
+   },
+   {
+    "da": "våde hunde",
+    "en": "wet dogs"
+   }
+  ],
+  "explanation": "\"Våd\" means wet, for clothes, hair, the ground, or anything soaked with water. Add \"t\" for et-words (\"et vådt håndklæde\") and \"-e\" for more than one. The opposite is \"tør\" (dry). Danish weather is often wet, so you will meet this word a lot in talk about rain: \"Det er vådt udenfor\" (It is wet outside).",
+  "related": [
+   {
+    "da": "tør",
+    "en": "dry"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "fugtig",
+    "en": "damp"
+   },
+   {
+    "da": "en pyt",
+    "en": "a puddle"
+   }
+  ],
+  "sentence": {
+   "da": "Mine sko er helt **våde**.",
+   "en": "My shoes are completely wet."
+  }
+ },
+ "vågen": {
+  "forms": [
+   {
+    "da": "en vågen mand",
+    "en": "an awake man"
+   },
+   {
+    "da": "et vågent barn",
+    "en": "an awake child"
+   },
+   {
+    "da": "vågne børn",
+    "en": "awake children"
+   }
+  ],
+  "explanation": "\"Vågen\" means awake. \"Er du vågen?\" asks whether someone is awake. The verb \"at vågne\" means to wake up, as in \"Jeg vågnede klokken syv\" (I woke up at seven). Add \"t\" for et-words (\"et vågent barn\") and the form for more than one drops the \"e\": \"vågne\". The opposite is \"i søvn\" or \"søvnig\" (sleepy).",
+  "related": [
+   {
+    "da": "træt",
+    "en": "tired"
+   },
+   {
+    "da": "at vågne",
+    "en": "to wake up"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "søvnig",
+    "en": "sleepy"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg var **vågen** hele natten.",
+   "en": "I was awake all night."
+  }
+ },
+ "væk": {
+  "forms": [
+   {
+    "da": "Han er væk.",
+    "en": "He is gone."
+   },
+   {
+    "da": "Gå væk!",
+    "en": "Go away!"
+   },
+   {
+    "da": "Tag den væk.",
+    "en": "Take it away."
+   }
+  ],
+  "explanation": "\"Væk\" means \"away\" or \"gone\". It is used with verbs of moving or taking: \"Gå væk\" (Go away) and \"Hun løber væk\" (She runs away). \"Min nøgle er væk\" means \"My key is gone\" or missing. It is quite blunt as an order, so \"Gå væk!\" can sound rude.",
+  "related": [
+   {
+    "da": "tilbage",
+    "en": "back"
+   },
+   {
+    "da": "borte",
+    "en": "gone / away (a state)"
+   },
+   {
+    "da": "ud",
+    "en": "out"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   }
+  ],
+  "sentence": {
+   "da": "Min taske er **væk**.",
+   "en": "My bag is gone."
+  }
+ },
+ "værre": {
+  "forms": [
+   {
+    "da": "en værre sag",
+    "en": "a worse matter"
+   },
+   {
+    "da": "et værre rod",
+    "en": "a worse mess"
+   },
+   {
+    "da": "værre dage",
+    "en": "worse days"
+   }
+  ],
+  "explanation": "\"Værre\" means worse. It is the \"-er\" form of \"dårlig\" (bad) and never changes its ending. The next step up is \"værst\" (worst). Use it to compare: \"Det er værre end før\" means \"It is worse than before\".",
+  "related": [
+   {
+    "da": "dårlig",
+    "en": "bad"
+   },
+   {
+    "da": "værst",
+    "en": "worst"
+   },
+   {
+    "da": "bedre",
+    "en": "better"
+   },
+   {
+    "da": "slem",
+    "en": "bad / naughty"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **værre** end før.",
+   "en": "It is worse than before."
+  }
+ },
+ "værsgo": {
+  "forms": [
+   {
+    "da": "Værsgo, her er din kaffe.",
+    "en": "Here you go, here is your coffee."
+   },
+   {
+    "da": "Værsgo at sidde ned.",
+    "en": "Please, have a seat."
+   },
+   {
+    "da": "Værsgo!",
+    "en": "Go ahead!"
+   }
+  ],
+  "explanation": "\"Værsgo\" is what you say when you hand someone something or invite them to go ahead. It covers \"here you go\", \"please, help yourself\" and \"go ahead\". The reply is usually \"tak\". It is not the same as \"you're welcome\", although Danes sometimes say it that way too when handing over something.",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   },
+   {
+    "da": "vær så venlig",
+    "en": "please (more formal)"
+   }
+  ],
+  "sentence": {
+   "da": "**Værsgo**, her er din billet.",
+   "en": "Here you go, here is your ticket."
+  }
+ },
+ "værst": {
+  "forms": [
+   {
+    "da": "det værste",
+    "en": "the worst thing"
+   },
+   {
+    "da": "den værste dag",
+    "en": "the worst day"
+   },
+   {
+    "da": "de værste dage",
+    "en": "the worst days"
+   }
+  ],
+  "explanation": "\"Værst\" means worst. It is the top step after \"dårlig\" (bad) and \"værre\" (worse). Alone it stays \"værst\" (\"Det er værst\"), and before a word it adds an \"e\": \"den værste dag\". The opposite is \"bedst\" (best).",
+  "related": [
+   {
+    "da": "dårlig",
+    "en": "bad"
+   },
+   {
+    "da": "værre",
+    "en": "worse"
+   },
+   {
+    "da": "bedst",
+    "en": "best"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   }
+  ],
+  "sentence": {
+   "da": "Det var den **værste** dag i mit liv.",
+   "en": "It was the worst day of my life."
   }
  }
 }

@@ -1,4 +1,1421 @@
 {
+ "at bage": {
+  "forms": [
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "jeg bager",
+    "en": "I bake"
+   },
+   {
+    "da": "jeg bagte",
+    "en": "I baked"
+   },
+   {
+    "da": "jeg har bagt",
+    "en": "I have baked"
+   }
+  ],
+  "explanation": "\"At bage\" means to bake, such as cakes, bread and buns. It is the base of \"en bager\" (a baker) and \"et bageri\" (a bakery). Be careful: baking in an oven is \"at bage\", but frying in a pan is \"at stege\".",
+  "related": [
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "at koge",
+    "en": "to boil"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bager** en kage til din fødselsdag.",
+   "en": "I am baking a cake for your birthday."
+  }
+ },
+ "at begynde": {
+  "forms": [
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "jeg begynder",
+    "en": "I begin"
+   },
+   {
+    "da": "jeg begyndte",
+    "en": "I began"
+   },
+   {
+    "da": "jeg har begyndt",
+    "en": "I have begun"
+   }
+  ],
+  "explanation": "\"At begynde\" means to begin or to start, and it is a little more formal than \"at starte\". You can say \"Filmen begynder nu\" (The film begins now) or use it with another action word: \"Jeg begynder at læse\". The opposite is \"at slutte\" (to end). A beginning is \"en begyndelse\".",
+  "related": [
+   {
+    "da": "at starte",
+    "en": "to start"
+   },
+   {
+    "da": "at slutte",
+    "en": "to end / finish"
+   },
+   {
+    "da": "en begyndelse",
+    "en": "a beginning"
+   }
+  ],
+  "sentence": {
+   "da": "Filmen **begynder** klokken otte.",
+   "en": "The film starts at eight o'clock."
+  }
+ },
+ "at behøve": {
+  "forms": [
+   {
+    "da": "at behøve",
+    "en": "to need"
+   },
+   {
+    "da": "jeg behøver",
+    "en": "I need"
+   },
+   {
+    "da": "jeg behøvede",
+    "en": "I needed"
+   },
+   {
+    "da": "jeg har behøvet",
+    "en": "I have needed"
+   }
+  ],
+  "explanation": "\"At behøve\" means to need, but it is mostly used with \"at\" and another action: \"Du behøver ikke at komme\" means \"You do not need to come\". For needing a thing, Danes usually say \"at have brug for\": \"Jeg har brug for hjælp\". So \"behøve\" is mainly for needing to do something.",
+  "related": [
+   {
+    "da": "at have brug for",
+    "en": "to need (a thing)"
+   },
+   {
+    "da": "nødvendig",
+    "en": "necessary"
+   },
+   {
+    "da": "at måtte",
+    "en": "to have to / may"
+   }
+  ],
+  "sentence": {
+   "da": "Du **behøver** ikke at komme i dag.",
+   "en": "You do not need to come today."
+  }
+ },
+ "at bestille": {
+  "forms": [
+   {
+    "da": "at bestille",
+    "en": "to order"
+   },
+   {
+    "da": "jeg bestiller",
+    "en": "I order"
+   },
+   {
+    "da": "jeg bestilte",
+    "en": "I ordered"
+   },
+   {
+    "da": "jeg har bestilt",
+    "en": "I have ordered"
+   }
+  ],
+  "explanation": "\"At bestille\" means to order or to book something, like food in a restaurant or a table in advance. \"Jeg vil gerne bestille et bord\" means \"I would like to book a table\". For ordering a meal you can also say \"Jeg vil gerne have...\" (I would like to have...).",
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   },
+   {
+    "da": "at servere",
+    "en": "to serve"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **bestille** et bord til to.",
+   "en": "I would like to book a table for two."
+  }
+ },
+ "at bestille tid": {
+  "forms": [
+   {
+    "da": "at bestille tid",
+    "en": "to make an appointment"
+   },
+   {
+    "da": "jeg bestiller tid",
+    "en": "I make an appointment"
+   },
+   {
+    "da": "jeg bestilte tid",
+    "en": "I made an appointment"
+   },
+   {
+    "da": "jeg har bestilt tid",
+    "en": "I have made an appointment"
+   }
+  ],
+  "explanation": "\"At bestille tid\" means to book an appointment, for example at the doctor, dentist or hairdresser. \"Bestille\" means to order or book, and \"tid\" here means a time slot. You can add where: \"bestille tid hos lægen\".",
+  "related": [
+   {
+    "da": "en tid",
+    "en": "an appointment, a time"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order, to book"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en frisør",
+    "en": "a hairdresser"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **bestille tid** hos lægen.",
+   "en": "I would like to make an appointment at the doctor."
+  }
+ },
+ "at besøge": {
+  "forms": [
+   {
+    "da": "at besøge",
+    "en": "to visit"
+   },
+   {
+    "da": "jeg besøger",
+    "en": "I visit"
+   },
+   {
+    "da": "jeg besøgte",
+    "en": "I visited"
+   },
+   {
+    "da": "jeg har besøgt",
+    "en": "I have visited"
+   }
+  ],
+  "explanation": "\"At besøge\" means to visit a person or a place. It takes the person or place directly: \"Jeg besøger min mormor\" (I visit my grandmother). You can also say \"komme på besøg\" (come for a visit). The thing you do is \"et besøg\" and a person who visits is \"en gæst\" (a guest).",
+  "related": [
+   {
+    "da": "et besøg",
+    "en": "a visit"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "at komme forbi",
+    "en": "to drop by"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **besøger** min mormor hver søndag.",
+   "en": "We visit my grandmother every Sunday."
+  }
+ },
+ "at betale": {
+  "forms": [
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "jeg betaler",
+    "en": "I pay"
+   },
+   {
+    "da": "jeg betalte",
+    "en": "I paid"
+   },
+   {
+    "da": "jeg har betalt",
+    "en": "I have paid"
+   }
+  ],
+  "explanation": "\"At betale\" means to pay. You pay for something with \"betale for\": \"Jeg betaler for kaffen\". You can pay with \"kort\" (card) or \"kontanter\" (cash), and in shops you will hear \"Hvordan vil du betale?\" (How do you want to pay?). It is a regular and very useful word for shopping.",
+  "related": [
+   {
+    "da": "en betaling",
+    "en": "a payment"
+   },
+   {
+    "da": "kontanter",
+    "en": "cash"
+   },
+   {
+    "da": "et kort",
+    "en": "a card"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **betaler** med kort.",
+   "en": "I pay by card."
+  }
+ },
+ "at betale med kort": {
+  "forms": [
+   {
+    "da": "at betale med kort",
+    "en": "to pay by card"
+   },
+   {
+    "da": "jeg betaler med kort",
+    "en": "I pay by card"
+   },
+   {
+    "da": "jeg betalte med kort",
+    "en": "I paid by card"
+   },
+   {
+    "da": "jeg har betalt med kort",
+    "en": "I have paid by card"
+   }
+  ],
+  "explanation": "\"At betale med kort\" means to pay by card. In Denmark nearly everything can be paid for like this, even small amounts. The cashier may ask \"Kort eller kontant?\" (Card or cash?). To pay in cash is \"at betale kontant\". \"Med\" means with.",
+  "related": [
+   {
+    "da": "kontant",
+    "en": "cash"
+   },
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **betale med kort**.",
+   "en": "I would like to pay by card."
+  }
+ },
+ "at betyde": {
+  "forms": [
+   {
+    "da": "at betyde",
+    "en": "to mean"
+   },
+   {
+    "da": "jeg betyder",
+    "en": "I mean"
+   },
+   {
+    "da": "jeg betød",
+    "en": "I meant"
+   },
+   {
+    "da": "jeg har betydet",
+    "en": "I have meant"
+   }
+  ],
+  "explanation": "\"At betyde\" means to mean. It is the word you need when learning a language: \"Hvad betyder det?\" (What does that mean?). \"Det betyder ...\" is the answer. It can also mean to matter, as in \"Det betyder meget for mig\" (It means a lot to me).",
+  "related": [
+   {
+    "da": "en betydning",
+    "en": "a meaning"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad **betyder** det ord?",
+   "en": "What does that word mean?"
+  }
+ },
+ "at blive": {
+  "forms": [
+   {
+    "da": "at blive",
+    "en": "to become / stay"
+   },
+   {
+    "da": "jeg bliver",
+    "en": "I become / stay"
+   },
+   {
+    "da": "jeg blev",
+    "en": "I became / stayed"
+   },
+   {
+    "da": "jeg er blevet",
+    "en": "I have become / stayed"
+   }
+  ],
+  "explanation": "\"At blive\" means to become, and also to stay or remain. \"Han bliver læge\" means he becomes a doctor, and \"Jeg bliver hjemme\" means I stay at home. It is also used to talk about what will happen: \"Det bliver godt\" (It will be good). Do not mix it up with \"at være\", which only says what is true right now.",
+  "related": [
+   {
+    "da": "at være",
+    "en": "to be"
+   },
+   {
+    "da": "at forblive",
+    "en": "to remain"
+   },
+   {
+    "da": "at ende",
+    "en": "to end up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bliver** hjemme i aften.",
+   "en": "I am staying home tonight."
+  }
+ },
+ "at blive bange": {
+  "forms": [
+   {
+    "da": "at blive bange",
+    "en": "to get scared"
+   },
+   {
+    "da": "jeg bliver bange",
+    "en": "I get scared"
+   },
+   {
+    "da": "jeg blev bange",
+    "en": "I got scared"
+   },
+   {
+    "da": "jeg er blevet bange",
+    "en": "I have gotten scared"
+   }
+  ],
+  "explanation": "\"At blive bange\" means to get scared, to become frightened. \"Blive\" means 'become' here. To say you are scared right now, use \"at være bange\". You can add what scares you with \"for\": \"bange for hunde\" (afraid of dogs).",
+  "related": [
+   {
+    "da": "bange",
+    "en": "scared"
+   },
+   {
+    "da": "at være bange",
+    "en": "to be scared"
+   },
+   {
+    "da": "en frygt",
+    "en": "a fear"
+   },
+   {
+    "da": "modig",
+    "en": "brave"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet **bliver bange** i mørket.",
+   "en": "The child gets scared in the dark."
+  }
+ },
+ "at blive gift": {
+  "forms": [
+   {
+    "da": "at blive gift",
+    "en": "to get married"
+   },
+   {
+    "da": "jeg bliver gift",
+    "en": "I get married"
+   },
+   {
+    "da": "jeg blev gift",
+    "en": "I got married"
+   },
+   {
+    "da": "jeg er blevet gift",
+    "en": "I have gotten married"
+   }
+  ],
+  "explanation": "\"At blive gift\" means to get married, the act of becoming married. Notice that the \"have\" form uses \"er\" (am) with \"blevet\", so you say \"jeg er blevet gift\". Add \"med\" for the person: \"at blive gift med ham\". To say you are already married, use \"at være gift\".",
+  "related": [
+   {
+    "da": "gift",
+    "en": "married"
+   },
+   {
+    "da": "ugift",
+    "en": "unmarried"
+   },
+   {
+    "da": "et bryllup",
+    "en": "a wedding"
+   },
+   {
+    "da": "at blive skilt",
+    "en": "to get divorced"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **blive gift** i sommer.",
+   "en": "We are going to get married this summer."
+  }
+ },
+ "at blive hjemme": {
+  "forms": [
+   {
+    "da": "at blive hjemme",
+    "en": "to stay home"
+   },
+   {
+    "da": "jeg bliver hjemme",
+    "en": "I stay home"
+   },
+   {
+    "da": "jeg blev hjemme",
+    "en": "I stayed home"
+   },
+   {
+    "da": "jeg er blevet hjemme",
+    "en": "I have stayed home"
+   }
+  ],
+  "explanation": "\"At blive hjemme\" means to stay home, not to go out. \"Blive\" here means 'stay' or 'remain'. It is a handy phrase for saying you aren't going anywhere: \"Jeg bliver hjemme i dag\". For 'have stayed home' Danish uses \"er\": \"jeg er blevet hjemme\".",
+  "related": [
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "at blive",
+    "en": "to stay / become"
+   },
+   {
+    "da": "at gå ud",
+    "en": "to go out"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
+   }
+  ],
+  "sentence": {
+   "da": "I dag **bliver** jeg **hjemme**.",
+   "en": "Today I'm staying home."
+  }
+ },
+ "at blive rask": {
+  "forms": [
+   {
+    "da": "at blive rask",
+    "en": "to get better"
+   },
+   {
+    "da": "jeg bliver rask",
+    "en": "I get better"
+   },
+   {
+    "da": "jeg blev rask",
+    "en": "I got better"
+   },
+   {
+    "da": "jeg er blevet rask",
+    "en": "I have gotten better"
+   }
+  ],
+  "explanation": "\"At blive rask\" means to get well again after being sick. \"Rask\" means healthy or recovered. People often say \"God bedring!\" (get well soon) to someone who is ill. It uses \"er\" in the \"have\" form: \"Jeg er blevet rask\".",
+  "related": [
+   {
+    "da": "rask",
+    "en": "healthy, recovered"
+   },
+   {
+    "da": "at blive syg",
+    "en": "to get sick"
+   },
+   {
+    "da": "God bedring!",
+    "en": "Get well soon!"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg håber, du **bliver rask** snart.",
+   "en": "I hope you get better soon."
+  }
+ },
+ "at blive syg": {
+  "forms": [
+   {
+    "da": "at blive syg",
+    "en": "to get sick"
+   },
+   {
+    "da": "jeg bliver syg",
+    "en": "I get sick"
+   },
+   {
+    "da": "jeg blev syg",
+    "en": "I got sick"
+   },
+   {
+    "da": "jeg er blevet syg",
+    "en": "I have gotten sick"
+   }
+  ],
+  "explanation": "\"At blive syg\" means to become sick, the moment you fall ill. It is different from \"at være syg\" (to be sick), which describes the state you are in. Notice the \"have\" word is \"er\" here: \"Jeg er blevet syg\", not \"har\".",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "at blive rask",
+    "en": "to get better"
+   },
+   {
+    "da": "forkølet",
+    "en": "having a cold"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **blev syg** i går.",
+   "en": "I got sick yesterday."
+  }
+ },
+ "at blive træt": {
+  "forms": [
+   {
+    "da": "at blive træt",
+    "en": "to get tired"
+   },
+   {
+    "da": "jeg bliver træt",
+    "en": "I get tired"
+   },
+   {
+    "da": "jeg blev træt",
+    "en": "I got tired"
+   },
+   {
+    "da": "jeg er blevet træt",
+    "en": "I have gotten tired"
+   }
+  ],
+  "explanation": "\"At blive træt\" means to get tired. \"Blive\" means 'become', so it describes the change from not tired to tired. To say you are tired right now, use \"at være træt\". For 'have got tired' Danish uses \"er blevet\".",
+  "related": [
+   {
+    "da": "træt",
+    "en": "tired"
+   },
+   {
+    "da": "at være træt",
+    "en": "to be tired"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "at hvile sig",
+    "en": "to rest"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bliver** hurtigt **træt**.",
+   "en": "I get tired quickly."
+  }
+ },
+ "at bo": {
+  "forms": [
+   {
+    "da": "at bo",
+    "en": "to live / reside"
+   },
+   {
+    "da": "jeg bor",
+    "en": "I live / reside"
+   },
+   {
+    "da": "jeg boede",
+    "en": "I lived / resided"
+   },
+   {
+    "da": "jeg har boet",
+    "en": "I have lived / resided"
+   }
+  ],
+  "explanation": "\"At bo\" means to live in a place, meaning where your home is. \"Jeg bor i Odense\" means \"I live in Odense\". Do not use it for being alive; for that Danes say \"at leve\". The past form \"boede\" and the \"have\" form \"boet\" are regular. It is one of the first things you say when you introduce yourself.",
+  "related": [
+   {
+    "da": "at leve",
+    "en": "to live (be alive)"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "en nabo",
+    "en": "a neighbour"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bor** i en lille by.",
+   "en": "I live in a small town."
+  }
+ },
+ "at bruge": {
+  "forms": [
+   {
+    "da": "at bruge",
+    "en": "to use"
+   },
+   {
+    "da": "jeg bruger",
+    "en": "I use"
+   },
+   {
+    "da": "jeg brugte",
+    "en": "I used"
+   },
+   {
+    "da": "jeg har brugt",
+    "en": "I have used"
+   }
+  ],
+  "explanation": "\"At bruge\" means to use something, like a tool or a phone. It is also the word for spending money or time: \"Jeg bruger mange penge\" (I spend a lot of money). So the meaning depends on what comes after it. \"Man bruger\" is also a common way to say \"people use\" or \"you use\".",
+  "related": [
+   {
+    "da": "at anvende",
+    "en": "to use (more formal)"
+   },
+   {
+    "da": "at bruge penge",
+    "en": "to spend money"
+   },
+   {
+    "da": "en bruger",
+    "en": "a user"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bruger** min telefon hver dag.",
+   "en": "I use my phone every day."
+  }
+ },
+ "at bruge penge": {
+  "forms": [
+   {
+    "da": "at bruge penge",
+    "en": "to spend money"
+   },
+   {
+    "da": "jeg bruger penge",
+    "en": "I spend money"
+   },
+   {
+    "da": "jeg brugte penge",
+    "en": "I spent money"
+   },
+   {
+    "da": "jeg har brugt penge",
+    "en": "I have spent money"
+   }
+  ],
+  "explanation": "\"At bruge penge\" means to spend money. The verb \"bruge\" has two main meanings: to use something, and to spend money. So \"at bruge penge på noget\" is to spend money on something. The word \"penge\" is always plural in Danish and has no \"en\" or \"et\".",
+  "related": [
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "at spare",
+    "en": "to save"
+   },
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **bruger** for mange **penge** på mad.",
+   "en": "I spend too much money on food."
+  }
+ },
+ "at bytte": {
+  "forms": [
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "jeg bytter",
+    "en": "I exchange"
+   },
+   {
+    "da": "jeg byttede",
+    "en": "I exchanged"
+   },
+   {
+    "da": "jeg har byttet",
+    "en": "I have exchanged"
+   }
+  ],
+  "explanation": "\"At bytte\" means to exchange or swap. In a shop you use it for returning something for another size or color: \"Jeg vil gerne bytte den\" (I would like to exchange it). You can also swap things with friends. Keep your receipt, since shops often ask for it when you want to \"bytte\" something.",
+  "related": [
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "at returnere",
+    "en": "to return"
+   },
+   {
+    "da": "byttepenge",
+    "en": "change"
+   },
+   {
+    "da": "at skifte",
+    "en": "to change"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **bytte** den til en større størrelse.",
+   "en": "I would like to exchange it for a bigger size."
+  }
+ },
+ "at børste tænder": {
+  "forms": [
+   {
+    "da": "at børste tænder",
+    "en": "to brush teeth"
+   },
+   {
+    "da": "jeg børster tænder",
+    "en": "I brush my teeth"
+   },
+   {
+    "da": "jeg børstede tænder",
+    "en": "I brushed my teeth"
+   },
+   {
+    "da": "jeg har børstet tænder",
+    "en": "I have brushed my teeth"
+   }
+  ],
+  "explanation": "\"At børste tænder\" means to brush your teeth, and in Danish it is just \"tænder\" with no \"my\": \"Jeg børster tænder\". The word for one tooth is \"en tand\" and for teeth \"tænder\". A toothbrush is \"en tandbørste\", and toothpaste is \"tandpasta\".",
+  "related": [
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
+   },
+   {
+    "da": "tandpasta",
+    "en": "toothpaste"
+   },
+   {
+    "da": "en børste",
+    "en": "a brush"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **børster tænder** to gange om dagen.",
+   "en": "I brush my teeth twice a day."
+  }
+ },
+ "badetøj": {
+  "forms": [
+   {
+    "da": "badetøj",
+    "en": "swimwear"
+   },
+   {
+    "da": "mit badetøj",
+    "en": "my swimwear"
+   },
+   {
+    "da": "badetøjet",
+    "en": "the swimwear"
+   }
+  ],
+  "explanation": "\"Badetøj\" means swimwear, all the clothes you use for swimming, like swimsuits and trunks. It is an et-word and it works like \"tøj\" (clothes): you do not normally say it in the plural. You say \"badetøjet\" for the swimwear. Bring your \"badetøj\" if you go to the beach or the swimming pool.",
+  "related": [
+   {
+    "da": "et tøj",
+    "en": "clothes"
+   },
+   {
+    "da": "at bade",
+    "en": "to swim/bathe"
+   },
+   {
+    "da": "en badedragt",
+    "en": "a swimsuit"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   }
+  ],
+  "sentence": {
+   "da": "Glem ikke dit **badetøj**.",
+   "en": "Do not forget your swimwear."
+  }
+ },
+ "bag": {
+  "forms": [
+   {
+    "da": "bag huset",
+    "en": "behind the house"
+   },
+   {
+    "da": "bag døren",
+    "en": "behind the door"
+   },
+   {
+    "da": "bag mig",
+    "en": "behind me"
+   }
+  ],
+  "explanation": "\"Bag\" means \"behind\" and shows where something is, as in \"Katten sidder bag stolen\" (The cat sits behind the chair). It is followed by what is in front, like \"bag huset\" (behind the house). A closely related word is \"bagved\" (at the back, behind), which is used on its own without anything after it. The opposite is \"foran\" (in front of).",
+  "related": [
+   {
+    "da": "foran",
+    "en": "in front of"
+   },
+   {
+    "da": "bagved",
+    "en": "behind (on its own)"
+   },
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   },
+   {
+    "da": "et bagsæde",
+    "en": "a back seat"
+   }
+  ],
+  "sentence": {
+   "da": "Katten sidder **bag** stolen.",
+   "en": "The cat is sitting behind the chair."
+  }
+ },
+ "bagage": {
+  "forms": [
+   {
+    "da": "bagagen",
+    "en": "the luggage"
+   },
+   {
+    "da": "min bagage",
+    "en": "my luggage"
+   },
+   {
+    "da": "meget bagage",
+    "en": "a lot of luggage"
+   }
+  ],
+  "explanation": "\"Bagage\" means luggage, all the bags you take on a trip taken together. It is an en-word and it has no plural, so you say \"meget bagage\", not \"bagager\". It is pronounced ba-GAH-sje, with a soft \"sh\" sound at the end. A single bag is \"en kuffert\" or \"en taske\".",
+  "related": [
+   {
+    "da": "en kuffert",
+    "en": "a suitcase"
+   },
+   {
+    "da": "håndbagage",
+    "en": "carry-on luggage"
+   },
+   {
+    "da": "en taske",
+    "en": "a bag"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er min **bagage**?",
+   "en": "Where is my luggage?"
+  }
+ },
+ "bagefter": {
+  "forms": [
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   },
+   {
+    "da": "lige bagefter",
+    "en": "right afterwards"
+   },
+   {
+    "da": "og bagefter",
+    "en": "and afterwards"
+   }
+  ],
+  "explanation": "\"Bagefter\" means afterwards, after something has happened: \"Vi spiser først og går en tur bagefter\" (We eat first and go for a walk afterwards). It is used on its own and does not need anything after it. If you want to say after something, use \"efter\", as in \"efter maden\" (after the meal).",
+  "related": [
+   {
+    "da": "efter",
+    "en": "after"
+   },
+   {
+    "da": "før",
+    "en": "before"
+   },
+   {
+    "da": "først",
+    "en": "first"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser først og går en tur **bagefter**.",
+   "en": "We eat first and go for a walk afterwards."
+  }
+ },
+ "bagved": {
+  "forms": [
+   {
+    "da": "Han står bagved.",
+    "en": "He is standing behind."
+   },
+   {
+    "da": "Huset ligger bagved.",
+    "en": "The house is in the back."
+   },
+   {
+    "da": "Se bagved!",
+    "en": "Look behind!"
+   }
+  ],
+  "explanation": "\"Bagved\" means \"behind\" or \"at the back\". Unlike \"bag\", it is used without anything after it, as in \"Han står bagved\" (He stands at the back). Use \"bag\" with a thing (bag huset) and \"bagved\" when you just say the place. The opposite is \"foran\" (in front).",
+  "related": [
+   {
+    "da": "bag",
+    "en": "behind"
+   },
+   {
+    "da": "foran",
+    "en": "in front"
+   },
+   {
+    "da": "bagerst",
+    "en": "at the very back"
+   },
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden står **bagved**.",
+   "en": "The dog is standing at the back."
+  }
+ },
+ "bange": {
+  "forms": [
+   {
+    "da": "jeg er bange",
+    "en": "I am afraid"
+   },
+   {
+    "da": "han er bange for hunde",
+    "en": "he is afraid of dogs"
+   },
+   {
+    "da": "børnene er bange",
+    "en": "the children are afraid"
+   }
+  ],
+  "explanation": "\"Bange\" means afraid or scared. It never changes: the same form is used for en-words, et-words and more than one. You say \"bange for\" before the thing you fear, for example \"Jeg er bange for edderkopper\" (I am afraid of spiders). \"Frygte\" is a more formal word. A useful phrase is \"Vær ikke bange\" (Do not be afraid).",
+  "related": [
+   {
+    "da": "at frygte",
+    "en": "to fear"
+   },
+   {
+    "da": "modig",
+    "en": "brave"
+   },
+   {
+    "da": "en frygt",
+    "en": "a fear"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **bange** for mørke.",
+   "en": "I am afraid of the dark."
+  }
+ },
+ "bange for": {
+  "forms": [
+   {
+    "da": "Jeg er bange for hunde.",
+    "en": "I am afraid of dogs."
+   },
+   {
+    "da": "Hun er bange for mørket.",
+    "en": "She is afraid of the dark."
+   },
+   {
+    "da": "Er du bange for at flyve?",
+    "en": "Are you afraid of flying?"
+   }
+  ],
+  "explanation": "\"Bange for\" means afraid of, and \"for\" always follows it. Use it for things and with \"at\" plus an action: \"bange for at falde\" (afraid of falling). It is also used to say \"I am afraid that...\" politely: \"Jeg er bange for, at det er sandt\".",
+  "related": [
+   {
+    "da": "at være bange",
+    "en": "to be afraid"
+   },
+   {
+    "da": "modig",
+    "en": "brave"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   },
+   {
+    "da": "frygt",
+    "en": "fear"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene er **bange for** mørket.",
+   "en": "The children are afraid of the dark."
+  }
+ },
+ "bare": {
+  "forms": [
+   {
+    "da": "Jeg vil bare sove.",
+    "en": "I just want to sleep."
+   },
+   {
+    "da": "Kom bare!",
+    "en": "Just come!"
+   },
+   {
+    "da": "Det er bare en test.",
+    "en": "It is only a test."
+   }
+  ],
+  "explanation": "\"Bare\" means \"just\" or \"only\" and makes a sentence softer or smaller. \"Det er bare mig\" means \"It is just me\". In an order it is friendly, like \"Kom bare ind\" (Do come in). Be careful: it is spelled like the English word \"bare\", but it does not mean that.",
+  "related": [
+   {
+    "da": "kun",
+    "en": "only"
+   },
+   {
+    "da": "lige",
+    "en": "just / right now"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   },
+   {
+    "da": "blot",
+    "en": "merely (more formal)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **bare** lige ringe.",
+   "en": "I just need to make a quick call."
+  }
+ },
+ "bedre": {
+  "forms": [
+   {
+    "da": "en bedre bil",
+    "en": "a better car"
+   },
+   {
+    "da": "et bedre hus",
+    "en": "a better house"
+   },
+   {
+    "da": "bedre biler",
+    "en": "better cars"
+   }
+  ],
+  "explanation": "\"Bedre\" means better. It is the \"-er\" step of \"god\" (good) and \"godt\" (well), and it never changes its ending. Use \"end\" to compare: \"bedre end i går\" (better than yesterday). It also means \"feeling better\": \"Jeg har det bedre\". The next step is \"bedst\".",
+  "related": [
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "bedst",
+    "en": "best"
+   },
+   {
+    "da": "værre",
+    "en": "worse"
+   },
+   {
+    "da": "dårlig",
+    "en": "bad"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **bedre** end i går.",
+   "en": "It is better than yesterday."
+  }
+ },
+ "bedst": {
+  "forms": [
+   {
+    "da": "den bedste bil",
+    "en": "the best car"
+   },
+   {
+    "da": "det bedste hus",
+    "en": "the best house"
+   },
+   {
+    "da": "de bedste biler",
+    "en": "the best cars"
+   }
+  ],
+  "explanation": "\"Bedst\" means best. Alone it stays \"bedst\" (\"Det er bedst\"), and before a word it adds an \"e\" with \"den\", \"det\" or \"de\": \"den bedste ven\". It is the top step after \"god\" and \"bedre\". \"Bedst\" also means \"best of all\" in sentences like \"Jeg kan bedst lide kaffe\" (I like coffee best).",
+  "related": [
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "bedre",
+    "en": "better"
+   },
+   {
+    "da": "værst",
+    "en": "worst"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   }
+  ],
+  "sentence": {
+   "da": "Han er min **bedste** ven.",
+   "en": "He is my best friend."
+  }
+ },
+ "bedsteforældre": {
+  "forms": [
+   {
+    "da": "mine bedsteforældre",
+    "en": "my grandparents"
+   },
+   {
+    "da": "bedsteforældrene",
+    "en": "the grandparents"
+   },
+   {
+    "da": "besøge bedsteforældre",
+    "en": "to visit grandparents"
+   }
+  ],
+  "explanation": "\"Bedsteforældre\" means grandparents, both grandmother and grandfather together. It is only used in the plural, so there is no \"a\" version. It comes from \"bedste\" (best) and \"forældre\" (parents). To add \"the\", you put \"-ne\" on the end: \"bedsteforældrene\".",
+  "related": [
+   {
+    "da": "en mormor",
+    "en": "a grandmother (mother's mother)"
+   },
+   {
+    "da": "en farfar",
+    "en": "a grandfather (father's father)"
+   },
+   {
+    "da": "forældre",
+    "en": "parents"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Vi besøger vores **bedsteforældre** i weekenden.",
+   "en": "We are visiting our grandparents at the weekend."
+  }
+ },
+ "begge": {
+  "forms": [
+   {
+    "da": "begge to",
+    "en": "both of them"
+   },
+   {
+    "da": "vi er begge her",
+    "en": "we are both here"
+   },
+   {
+    "da": "begge børn",
+    "en": "both children"
+   }
+  ],
+  "explanation": "\"Begge\" means both, and it is used when you talk about exactly two people or things. You often hear \"begge to\" for extra clarity. If you mean more than two, use \"alle\" (all) instead. It is a very handy word for talking about a pair.",
+  "related": [
+   {
+    "da": "alle",
+    "en": "all"
+   },
+   {
+    "da": "to",
+    "en": "two"
+   },
+   {
+    "da": "hver",
+    "en": "each"
+   },
+   {
+    "da": "hinanden",
+    "en": "each other"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **begge** lide pizza.",
+   "en": "We both like pizza."
+  }
+ },
+ "beskidt": {
+  "forms": [
+   {
+    "da": "en beskidt jakke",
+    "en": "a dirty jacket"
+   },
+   {
+    "da": "et beskidt glas",
+    "en": "a dirty glass"
+   },
+   {
+    "da": "beskidte sko",
+    "en": "dirty shoes"
+   }
+  ],
+  "explanation": "\"Beskidt\" means dirty, for clothes, hands, dishes and floors. It already ends in \"t\", so it stays the same for en-words and et-words, and you only add \"-e\" for more than one (\"beskidte sko\"). A softer everyday word with the same meaning is \"snavset\". The opposite is \"ren\" (clean). \"Skidt\" is the plain word for dirt.",
+  "related": [
+   {
+    "da": "ren",
+    "en": "clean"
+   },
+   {
+    "da": "snavset",
+    "en": "dirty"
+   },
+   {
+    "da": "skidt",
+    "en": "dirt"
+   },
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   }
+  ],
+  "sentence": {
+   "da": "Dine hænder er meget **beskidte**.",
+   "en": "Your hands are very dirty."
+  }
+ },
+ "bestik": {
+  "forms": [
+   {
+    "da": "et bestik",
+    "en": "a cutlery"
+   },
+   {
+    "da": "bestikket",
+    "en": "the cutlery"
+   },
+   {
+    "da": "noget bestik",
+    "en": "some cutlery"
+   }
+  ],
+  "explanation": "\"Bestik\" means cutlery: the knives, forks and spoons you eat with. It is an et-word and is used as a group word, so you do not count it. For one piece you name it, such as \"en kniv\", \"en gaffel\" or \"en ske\". At a restaurant you can ask \"kan jeg få noget bestik?\".",
+  "related": [
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   },
+   {
+    "da": "en gaffel",
+    "en": "a fork"
+   },
+   {
+    "da": "en ske",
+    "en": "a spoon"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mangler **bestik** på bordet.",
+   "en": "We are missing cutlery on the table."
+  }
+ },
  "bevidsthed": {
   "forms": [
    {
@@ -32,6 +1449,240 @@
   "sentence": {
    "da": "Efter ulykken kom han til **bevidsthed** igen.",
    "en": "After the accident he regained consciousness."
+  }
+ },
+ "billig": {
+  "forms": [
+   {
+    "da": "en billig billet",
+    "en": "a cheap ticket"
+   },
+   {
+    "da": "et billigt hotel",
+    "en": "a cheap hotel"
+   },
+   {
+    "da": "billige billetter",
+    "en": "cheap tickets"
+   }
+  ],
+  "explanation": "\"Billig\" means cheap, as in a low price. Add \"t\" for et-words (\"et billigt hotel\") and \"-e\" for more than one. It is neutral and not always negative; \"billig\" can also mean poor quality, but then the context usually makes it clear. The opposite is \"dyr\" (expensive). A good shopping question is \"Har du noget billigere?\" (Do you have something cheaper?).",
+  "related": [
+   {
+    "da": "dyr",
+    "en": "expensive"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "et tilbud",
+    "en": "an offer"
+   },
+   {
+    "da": "gratis",
+    "en": "free of charge"
+   }
+  ],
+  "sentence": {
+   "da": "Maden er **billig** her.",
+   "en": "The food is cheap here."
+  }
+ },
+ "blod": {
+  "forms": [
+   {
+    "da": "et blod",
+    "en": "a blood"
+   },
+   {
+    "da": "blodet",
+    "en": "the blood"
+   },
+   {
+    "da": "blodtryk",
+    "en": "blood pressure"
+   }
+  ],
+  "explanation": "\"Blod\" is blood, and it is an et-word. Danes say it mostly as \"blodet\" (the blood) or in compounds like \"blodprøve\" (blood test) and \"blodtryk\" (blood pressure). The d is soft in speech, so it sounds close to \"blo\".",
+  "related": [
+   {
+    "da": "et hjerte",
+    "en": "a heart"
+   },
+   {
+    "da": "hud",
+    "en": "skin"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen tager en prøve af mit **blod**.",
+   "en": "The doctor takes a sample of my blood."
+  }
+ },
+ "blomkål": {
+  "forms": [
+   {
+    "da": "en blomkål",
+    "en": "a cauliflower"
+   },
+   {
+    "da": "blomkålen",
+    "en": "the cauliflower"
+   },
+   {
+    "da": "blomkål",
+    "en": "cauliflower"
+   }
+  ],
+  "explanation": "\"Blomkål\" is cauliflower, and it is an en-word. The word is built from \"blomst\" (flower) and \"kål\" (cabbage), so it means flower cabbage. You can say \"en blomkål\" for a whole head, or just \"blomkål\" for the vegetable. It is often served boiled, with sauce, or in soup.",
+  "related": [
+   {
+    "da": "broccoli",
+    "en": "broccoli"
+   },
+   {
+    "da": "kål",
+    "en": "cabbage"
+   },
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg koger **blomkål** til middag.",
+   "en": "I am boiling cauliflower for dinner."
+  }
+ },
+ "blå": {
+  "forms": [
+   {
+    "da": "en blå bil",
+    "en": "a blue car"
+   },
+   {
+    "da": "et blåt hus",
+    "en": "a blue house"
+   },
+   {
+    "da": "blå biler",
+    "en": "blue cars"
+   }
+  ],
+  "explanation": "\"Blå\" means blue. With et-words it becomes \"blåt\" (\"et blåt hus\"). When there is more than one, it stays \"blå\" and does not change. You can build new colours from it: \"lyseblå\" is light blue and \"mørkeblå\" is dark blue.",
+  "related": [
+   {
+    "da": "lyseblå",
+    "en": "light blue"
+   },
+   {
+    "da": "mørkeblå",
+    "en": "dark blue"
+   },
+   {
+    "da": "himmel",
+    "en": "sky"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
+   }
+  ],
+  "sentence": {
+   "da": "Himlen er **blå** i dag.",
+   "en": "The sky is blue today."
+  }
+ },
+ "blæsende": {
+  "forms": [
+   {
+    "da": "en blæsende dag",
+    "en": "a windy day"
+   },
+   {
+    "da": "et blæsende vejr",
+    "en": "windy weather"
+   },
+   {
+    "da": "blæsende dage",
+    "en": "windy days"
+   }
+  ],
+  "explanation": "\"Blæsende\" means windy, with strong wind blowing. It comes from the verb \"at blæse\" (to blow). It never changes, whatever it describes. You can also say \"Det blæser\" (It is windy). Denmark is a windy country, especially on the coast.",
+  "related": [
+   {
+    "da": "en vind",
+    "en": "a wind"
+   },
+   {
+    "da": "at blæse",
+    "en": "to blow"
+   },
+   {
+    "da": "stormfuld",
+    "en": "stormy"
+   },
+   {
+    "da": "en storm",
+    "en": "a storm"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **blæsende** dag ved havet.",
+   "en": "It was a windy day by the sea."
+  }
+ },
+ "borgerservice": {
+  "forms": [
+   {
+    "da": "Borgerservice",
+    "en": "Citizen Services"
+   },
+   {
+    "da": "på Borgerservice",
+    "en": "at Citizen Services"
+   },
+   {
+    "da": "Jeg skal på Borgerservice.",
+    "en": "I have to go to Citizen Services."
+   }
+  ],
+  "explanation": "Borgerservice is the municipal office where you deal with practical matters like getting a health insurance card, a passport or registering your address. It is an en-word, but it is normally used like a name, so you say \"på Borgerservice\" (at Citizen Services). Opening hours can be short, so booking a time online is often needed.",
+  "related": [
+   {
+    "da": "en kommune",
+    "en": "a municipality"
+   },
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "en adresse",
+    "en": "an address"
+   },
+   {
+    "da": "en tid",
+    "en": "an appointment / a time"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en tid på **Borgerservice** i morgen.",
+   "en": "I have an appointment at Citizen Services tomorrow."
   }
  },
  "bortset fra": {
@@ -73,6 +1724,314 @@
    "en": "Everyone came except Lars."
   }
  },
+ "bred": {
+  "forms": [
+   {
+    "da": "en bred vej",
+    "en": "a wide road"
+   },
+   {
+    "da": "et bredt smil",
+    "en": "a wide smile"
+   },
+   {
+    "da": "brede veje",
+    "en": "wide roads"
+   }
+  ],
+  "explanation": "\"Bred\" means wide or broad, and it describes how far something stretches from side to side, like a road, a river, a smile or shoulders. Remember the extra \"t\" when it goes with an et-word: \"et bredt smil\". The opposite is \"smal\" (narrow). Do not mix it up with \"bredde\", which is the width itself.",
+  "related": [
+   {
+    "da": "smal",
+    "en": "narrow"
+   },
+   {
+    "da": "en bredde",
+    "en": "a width"
+   },
+   {
+    "da": "lang",
+    "en": "long"
+   },
+   {
+    "da": "tyk",
+    "en": "thick"
+   }
+  ],
+  "sentence": {
+   "da": "Floden er meget **bred** her.",
+   "en": "The river is very wide here."
+  }
+ },
+ "briller": {
+  "forms": [
+   {
+    "da": "briller",
+    "en": "glasses"
+   },
+   {
+    "da": "brillerne",
+    "en": "the glasses"
+   },
+   {
+    "da": "et par briller",
+    "en": "a pair of glasses"
+   }
+  ],
+  "explanation": "\"Briller\" are eyeglasses. In Danish the word is always in the form for more than one, just like English \"glasses\". Say \"et par briller\" for a pair, and \"mine briller\" for my glasses. \"Solbriller\" are sunglasses, and \"at have briller på\" means to wear glasses.",
+  "related": [
+   {
+    "da": "et øje",
+    "en": "an eye"
+   },
+   {
+    "da": "solbriller",
+    "en": "sunglasses"
+   },
+   {
+    "da": "en næse",
+    "en": "a nose"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke finde mine **briller**.",
+   "en": "I cannot find my glasses."
+  }
+ },
+ "britisk": {
+  "forms": [
+   {
+    "da": "en britisk bil",
+    "en": "a British car"
+   },
+   {
+    "da": "et britisk hus",
+    "en": "a British house"
+   },
+   {
+    "da": "britiske biler",
+    "en": "British cars"
+   }
+  ],
+  "explanation": "\"Britisk\" means British, as in from Great Britain. It is not written with a capital letter in Danish. It stays \"britisk\" before an et-word and becomes \"britiske\" for more than one thing. Do not mix it up with \"engelsk\" (English), which is about England and the language.",
+  "related": [
+   {
+    "da": "Storbritannien",
+    "en": "Great Britain"
+   },
+   {
+    "da": "engelsk",
+    "en": "English"
+   },
+   {
+    "da": "en brite",
+    "en": "a Briton"
+   },
+   {
+    "da": "amerikansk",
+    "en": "American"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **britisk**, men bor i København.",
+   "en": "He is British but lives in Copenhagen."
+  }
+ },
+ "broccoli": {
+  "forms": [
+   {
+    "da": "en broccoli",
+    "en": "a broccoli"
+   },
+   {
+    "da": "broccolien",
+    "en": "the broccoli"
+   }
+  ],
+  "explanation": "\"Broccoli\" is the green vegetable, and it is an en-word. As in English it is normally not counted, so you say \"noget broccoli\" for some broccoli. It is usually boiled or steamed and served as a side with meat or fish. Many Danes also like it raw in salads.",
+  "related": [
+   {
+    "da": "blomkål",
+    "en": "cauliflower"
+   },
+   {
+    "da": "spinat",
+    "en": "spinach"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide **broccoli**.",
+   "en": "I like broccoli."
+  }
+ },
+ "brun": {
+  "forms": [
+   {
+    "da": "en brun hund",
+    "en": "a brown dog"
+   },
+   {
+    "da": "et brunt bord",
+    "en": "a brown table"
+   },
+   {
+    "da": "brune hunde",
+    "en": "brown dogs"
+   }
+  ],
+  "explanation": "\"Brun\" means brown. With et-words it gets a \"t\" (\"et brunt bord\") and with more than one an \"e\" (\"brune hunde\"). It also describes tanned skin: \"brun\" can mean suntanned, and \"brunt brød\" is brown bread.",
+  "related": [
+   {
+    "da": "rød",
+    "en": "red"
+   },
+   {
+    "da": "sort",
+    "en": "black"
+   },
+   {
+    "da": "mørk",
+    "en": "dark"
+   },
+   {
+    "da": "en bjørn",
+    "en": "a bear"
+   }
+  ],
+  "sentence": {
+   "da": "Min taske er **brun**.",
+   "en": "My bag is brown."
+  }
+ },
+ "brød": {
+  "forms": [
+   {
+    "da": "et brød",
+    "en": "a loaf of bread"
+   },
+   {
+    "da": "brødet",
+    "en": "the bread"
+   },
+   {
+    "da": "brød",
+    "en": "breads / loaves"
+   }
+  ],
+  "explanation": "\"Brød\" means bread. It is an et-word: \"et brød\" is one loaf, and \"brødet\" is the bread you already know about. You can also say just \"brød\" for bread in general, as in \"Jeg køber brød\". The plural has the same form: \"to brød\".",
+  "related": [
+   {
+    "da": "rugbrød",
+    "en": "rye bread"
+   },
+   {
+    "da": "en bolle",
+    "en": "a bun"
+   },
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber **brød** hos bageren.",
+   "en": "I buy bread at the baker's."
+  }
+ },
+ "bukser": {
+  "forms": [
+   {
+    "da": "bukser",
+    "en": "pants"
+   },
+   {
+    "da": "bukserne",
+    "en": "the pants"
+   },
+   {
+    "da": "et par bukser",
+    "en": "a pair of pants"
+   }
+  ],
+  "explanation": "\"Bukser\" means pants or trousers. It is always used in this form, with more than one, just as English says \"pants\". For one pair, say \"et par bukser\". \"En bukse\" exists but is rarely used. Short pants are \"shorts\".",
+  "related": [
+   {
+    "da": "et par jeans",
+    "en": "a pair of jeans"
+   },
+   {
+    "da": "en nederdel",
+    "en": "a skirt"
+   },
+   {
+    "da": "sokker",
+    "en": "socks"
+   },
+   {
+    "da": "underbukser",
+    "en": "underpants"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har nye **bukser** på.",
+   "en": "I am wearing new pants."
+  }
+ },
+ "byttepenge": {
+  "forms": [
+   {
+    "da": "byttepenge",
+    "en": "change (money)"
+   },
+   {
+    "da": "få byttepenge",
+    "en": "to get change"
+   },
+   {
+    "da": "Her er dine byttepenge",
+    "en": "Here is your change"
+   }
+  ],
+  "explanation": "\"Byttepenge\" is the change you get back when you pay with more money than the price. It is always used in the plural, like \"penge\" (money). In a shop you may hear \"Her er dine byttepenge\" (Here is your change). It comes from \"at bytte\" (to exchange).",
+  "related": [
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "kontant",
+    "en": "cash"
+   },
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "en pung",
+    "en": "a wallet"
+   }
+  ],
+  "sentence": {
+   "da": "Du får 20 kroner i **byttepenge**.",
+   "en": "You get 20 kroner in change."
+  }
+ },
  "både…og": {
   "forms": [
    {
@@ -110,6 +2069,2367 @@
   "sentence": {
    "da": "Hun taler **både** dansk **og** engelsk.",
    "en": "She speaks both Danish and English."
+  }
+ },
+ "bønner": {
+  "forms": [
+   {
+    "da": "en bønne",
+    "en": "a bean"
+   },
+   {
+    "da": "bønnen",
+    "en": "the bean"
+   },
+   {
+    "da": "bønner",
+    "en": "beans"
+   },
+   {
+    "da": "bønnerne",
+    "en": "the beans"
+   }
+  ],
+  "explanation": "\"Bønner\" means beans, and one bean is \"en bønne\". Be careful, \"en bøn\" is a prayer, so the word \"bønner\" can also mean prayers, but in food talk it is always beans. There are many kinds, such as \"hvide bønner\" (white beans) and \"kaffebønner\" (coffee beans).",
+  "related": [
+   {
+    "da": "ærter",
+    "en": "peas"
+   },
+   {
+    "da": "majs",
+    "en": "corn"
+   },
+   {
+    "da": "kaffebønner",
+    "en": "coffee beans"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **bønner** i chili.",
+   "en": "We have beans in chili."
+  }
+ },
+ "en baby": {
+  "forms": [
+   {
+    "da": "en baby",
+    "en": "a baby"
+   },
+   {
+    "da": "babyen",
+    "en": "the baby"
+   },
+   {
+    "da": "babyer",
+    "en": "babies"
+   },
+   {
+    "da": "babyerne",
+    "en": "the babies"
+   }
+  ],
+  "explanation": "\"En baby\" is a baby, borrowed from English. It is an en-word, and the plural is \"babyer\", not \"babies\". You can also say \"et spædbarn\" for a very young baby. The word is said much like in English.",
+  "related": [
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "et spædbarn",
+    "en": "an infant"
+   },
+   {
+    "da": "en dreng",
+    "en": "a boy"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **baby** sover meget.",
+   "en": "Our baby sleeps a lot."
+  }
+ },
+ "en bager": {
+  "forms": [
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "bageren",
+    "en": "the baker"
+   },
+   {
+    "da": "bagere",
+    "en": "bakers"
+   },
+   {
+    "da": "bagerne",
+    "en": "the bakers"
+   }
+  ],
+  "explanation": "\"En bager\" is a baker, the person who bakes bread and cakes. It is an en-word. The shop is \"et bageri\", so you say \"Jeg går til bageren\" for going to the bakery. Danish bakeries sell rye bread (rugbrød) and pastries.",
+  "related": [
+   {
+    "da": "et bageri",
+    "en": "a bakery"
+   },
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   }
+  ],
+  "sentence": {
+   "da": "**Bageren** laver friskt brød hver morgen.",
+   "en": "The baker makes fresh bread every morning."
+  }
+ },
+ "en ballon": {
+  "forms": [
+   {
+    "da": "en ballon",
+    "en": "a balloon"
+   },
+   {
+    "da": "ballonen",
+    "en": "the balloon"
+   },
+   {
+    "da": "balloner",
+    "en": "balloons"
+   },
+   {
+    "da": "ballonerne",
+    "en": "the balloons"
+   }
+  ],
+  "explanation": "\"En ballon\" is a balloon, and it is an en-word. The plural is \"balloner\". It is pronounced with a nasal ending, close to \"ballong\". Balloons are common at birthday parties, along with \"en gave\" (a gift) and \"kage\". The verb for blowing up is \"at pumpe op\".",
+  "related": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet har en rød **ballon**.",
+   "en": "The child has a red balloon."
+  }
+ },
+ "en bamse": {
+  "forms": [
+   {
+    "da": "en bamse",
+    "en": "a teddy bear"
+   },
+   {
+    "da": "bamsen",
+    "en": "the teddy bear"
+   },
+   {
+    "da": "bamser",
+    "en": "teddy bears"
+   },
+   {
+    "da": "bamserne",
+    "en": "the teddy bears"
+   }
+  ],
+  "explanation": "\"En bamse\" is a teddy bear. It is also used for a big, cuddly person, and \"Bamse\" is a very famous Danish cartoon bear. Children often have a favourite bamse that they take to bed.",
+  "related": [
+   {
+    "da": "legetøj",
+    "en": "toys"
+   },
+   {
+    "da": "en dukke",
+    "en": "a doll"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en bold",
+    "en": "a ball"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter sover med sin **bamse**.",
+   "en": "My daughter sleeps with her teddy bear."
+  }
+ },
+ "en banan": {
+  "forms": [
+   {
+    "da": "en banan",
+    "en": "a banana"
+   },
+   {
+    "da": "bananen",
+    "en": "the banana"
+   },
+   {
+    "da": "bananer",
+    "en": "bananas"
+   },
+   {
+    "da": "bananerne",
+    "en": "the bananas"
+   }
+  ],
+  "explanation": "\"En banan\" is a banana and is an en-word. It is spelled almost like in English, but the stress is on the second part, \"ba-NAN\". Bananas are a typical quick snack for children and people on the go.",
+  "related": [
+   {
+    "da": "et æble",
+    "en": "an apple"
+   },
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "et jordbær",
+    "en": "a strawberry"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn elsker **bananer**.",
+   "en": "My son loves bananas."
+  }
+ },
+ "en banegård": {
+  "forms": [
+   {
+    "da": "en banegård",
+    "en": "a railway station"
+   },
+   {
+    "da": "banegården",
+    "en": "the railway station"
+   },
+   {
+    "da": "banegårde",
+    "en": "railway stations"
+   },
+   {
+    "da": "banegårdene",
+    "en": "the railway stations"
+   }
+  ],
+  "explanation": "\"En banegård\" is a railway station, where trains arrive and leave. It is an en-word, and the name of a town's station is often just \"banegården\". People also say \"en station\" or \"en togstation\". The main station in Copenhagen is called \"Københavns Hovedbanegård\".",
+  "related": [
+   {
+    "da": "en station",
+    "en": "a station"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "et spor",
+    "en": "a platform / track"
+   },
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor ligger **banegården**?",
+   "en": "Where is the railway station?"
+  }
+ },
+ "en bank": {
+  "forms": [
+   {
+    "da": "en bank",
+    "en": "a bank"
+   },
+   {
+    "da": "banken",
+    "en": "the bank"
+   },
+   {
+    "da": "banker",
+    "en": "banks"
+   },
+   {
+    "da": "bankerne",
+    "en": "the banks"
+   }
+  ],
+  "explanation": "\"En bank\" is a bank, where you keep and handle money. It is an en-word. \"I banken\" means in the bank, and \"et bankkort\" is a bank card. Banks in Denmark mostly work with cards and apps, so you may need an appointment for bigger matters.",
+  "related": [
+   {
+    "da": "et bankkort",
+    "en": "a bank card"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "en konto",
+    "en": "an account"
+   },
+   {
+    "da": "en pengeautomat",
+    "en": "a cash machine"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal i **banken** i dag.",
+   "en": "I need to go to the bank today."
+  }
+ },
+ "en bankkonto": {
+  "forms": [
+   {
+    "da": "en bankkonto",
+    "en": "a bank account"
+   },
+   {
+    "da": "bankkontoen",
+    "en": "the bank account"
+   },
+   {
+    "da": "bankkonti",
+    "en": "bank accounts"
+   },
+   {
+    "da": "bankkontiene",
+    "en": "the bank accounts"
+   }
+  ],
+  "explanation": "\"En bankkonto\" is a bank account. It is built from \"bank\" and \"konto\" (account). The plural \"bankkonti\" looks unusual, because it follows the pattern of \"konto\". You often need a bankkonto and a CPR number to get paid in Denmark.",
+  "related": [
+   {
+    "da": "en bank",
+    "en": "a bank"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "et dankort",
+    "en": "a Dankort"
+   },
+   {
+    "da": "en hæveautomat",
+    "en": "an ATM"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal åbne en **bankkonto** i dag.",
+   "en": "I need to open a bank account today."
+  }
+ },
+ "en bedstefar": {
+  "forms": [
+   {
+    "da": "en bedstefar",
+    "en": "a grandfather"
+   },
+   {
+    "da": "bedstefaren",
+    "en": "the grandfather"
+   },
+   {
+    "da": "bedstefædre",
+    "en": "grandfathers"
+   },
+   {
+    "da": "bedstefædrene",
+    "en": "the grandfathers"
+   }
+  ],
+  "explanation": "\"En bedstefar\" is a grandfather in general. It follows \"far\" and has the same changed vowel in the plural. In daily talk many Danes say \"morfar\" for a mother's father and \"farfar\" for a father's father, which tells you which side of the family.",
+  "related": [
+   {
+    "da": "en bedstemor",
+    "en": "a grandmother"
+   },
+   {
+    "da": "en morfar",
+    "en": "a mother's father"
+   },
+   {
+    "da": "en farfar",
+    "en": "a father's father"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Min **bedstefar** er firs år gammel.",
+   "en": "My grandfather is eighty years old."
+  }
+ },
+ "en bedstemor": {
+  "forms": [
+   {
+    "da": "en bedstemor",
+    "en": "a grandmother"
+   },
+   {
+    "da": "bedstemoren",
+    "en": "the grandmother"
+   },
+   {
+    "da": "bedstemødre",
+    "en": "grandmothers"
+   },
+   {
+    "da": "bedstemødrene",
+    "en": "the grandmothers"
+   }
+  ],
+  "explanation": "\"En bedstemor\" is a grandmother in general. It follows \"mor\" and has the same changed vowel in the plural. Many Danes say \"mormor\" for a mother's mother and \"farmor\" for a father's mother, which is more usual in daily talk. A short and warm form is \"bedste\".",
+  "related": [
+   {
+    "da": "en bedstefar",
+    "en": "a grandfather"
+   },
+   {
+    "da": "en mormor",
+    "en": "a mother's mother"
+   },
+   {
+    "da": "en farmor",
+    "en": "a father's mother"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Min **bedstemor** bager hver søndag.",
+   "en": "My grandmother bakes every Sunday."
+  }
+ },
+ "en behandling": {
+  "forms": [
+   {
+    "da": "en behandling",
+    "en": "a treatment"
+   },
+   {
+    "da": "behandlingen",
+    "en": "the treatment"
+   },
+   {
+    "da": "behandlinger",
+    "en": "treatments"
+   },
+   {
+    "da": "behandlingerne",
+    "en": "the treatments"
+   }
+  ],
+  "explanation": "\"En behandling\" is a treatment, medical care that helps a patient get better. It is an en-word and it comes from \"at behandle\" (to treat). It can also mean how someone is treated, for example a good or bad \"behandling\" at a shop.",
+  "related": [
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   },
+   {
+    "da": "medicin",
+    "en": "medicine"
+   },
+   {
+    "da": "en klinik",
+    "en": "a clinic"
+   }
+  ],
+  "sentence": {
+   "da": "Hun får **behandling** på sygehuset.",
+   "en": "She is getting treatment at the hospital."
+  }
+ },
+ "en besked": {
+  "forms": [
+   {
+    "da": "en besked",
+    "en": "a message"
+   },
+   {
+    "da": "beskeden",
+    "en": "the message"
+   },
+   {
+    "da": "beskeder",
+    "en": "messages"
+   },
+   {
+    "da": "beskederne",
+    "en": "the messages"
+   }
+  ],
+  "explanation": "\"En besked\" is a message or a piece of news that someone passes on to you. You can send one by text, by app or by leaving a note. The common phrase \"give besked\" means to let someone know, and \"få besked\" means to be told. It is an en-word.",
+  "related": [
+   {
+    "da": "en sms",
+    "en": "a text message"
+   },
+   {
+    "da": "en e-mail",
+    "en": "an email"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har fået en **besked** fra min chef.",
+   "en": "I have received a message from my boss."
+  }
+ },
+ "en bil": {
+  "forms": [
+   {
+    "da": "en bil",
+    "en": "a car"
+   },
+   {
+    "da": "bilen",
+    "en": "the car"
+   },
+   {
+    "da": "biler",
+    "en": "cars"
+   },
+   {
+    "da": "bilerne",
+    "en": "the cars"
+   }
+  ],
+  "explanation": "\"En bil\" means a car. It is an en-word, so 'the car' is \"bilen\" and the plural is \"biler\". You drive it with \"at køre\", and you can say \"at køre i bil\" (to go by car). Cars in Denmark are expensive, so many people cycle too.",
+  "related": [
+   {
+    "da": "at køre",
+    "en": "to drive"
+   },
+   {
+    "da": "en cykel",
+    "en": "a bike"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   }
+  ],
+  "sentence": {
+   "da": "Min far har en rød **bil**.",
+   "en": "My dad has a red car."
+  }
+ },
+ "en billet": {
+  "forms": [
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "billetten",
+    "en": "the ticket"
+   },
+   {
+    "da": "billetter",
+    "en": "tickets"
+   },
+   {
+    "da": "billetterne",
+    "en": "the tickets"
+   }
+  ],
+  "explanation": "\"Billet\" is a ticket for a train, bus, film or concert. Danes say \"at købe en billet\" (to buy a ticket). Note the double t in the plural \"billetter\". Many compound words use it: \"en togbillet\" (train ticket), \"en flybillet\" (plane ticket).",
+  "related": [
+   {
+    "da": "en flybillet",
+    "en": "a plane ticket"
+   },
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   },
+   {
+    "da": "en returbillet",
+    "en": "a return ticket"
+   },
+   {
+    "da": "en enkeltbillet",
+    "en": "a one-way ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt **en billet**.",
+   "en": "I have bought a ticket."
+  }
+ },
+ "en biograf": {
+  "forms": [
+   {
+    "da": "en biograf",
+    "en": "a cinema"
+   },
+   {
+    "da": "biografen",
+    "en": "the cinema"
+   },
+   {
+    "da": "biografer",
+    "en": "cinemas"
+   },
+   {
+    "da": "biograferne",
+    "en": "the cinemas"
+   }
+  ],
+  "explanation": "\"En biograf\" is a cinema, the place where you watch films. In Danish you say \"i biografen\" (in the cinema) and \"at gå i biografen\" (to go to the movies). A short word for it, used more rarely, is \"bio\".",
+  "related": [
+   {
+    "da": "en film",
+    "en": "a film"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "popcorn",
+    "en": "popcorn"
+   },
+   {
+    "da": "at se film",
+    "en": "to watch a film"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes ved **biografen**.",
+   "en": "We are meeting at the cinema."
+  }
+ },
+ "en blanket": {
+  "forms": [
+   {
+    "da": "en blanket",
+    "en": "a form"
+   },
+   {
+    "da": "blanketten",
+    "en": "the form"
+   },
+   {
+    "da": "blanketter",
+    "en": "forms"
+   },
+   {
+    "da": "blanketterne",
+    "en": "the forms"
+   }
+  ],
+  "explanation": "\"En blanket\" is a form that you fill in, such as at the doctor, the bank or the town hall. It is an en-word. The verb is \"at udfylde\" (to fill in), as in \"udfylde en blanket\". Do not mix it up with \"en form\", which means a shape.",
+  "related": [
+   {
+    "da": "at udfylde",
+    "en": "to fill in"
+   },
+   {
+    "da": "en underskrift",
+    "en": "a signature"
+   },
+   {
+    "da": "et skema",
+    "en": "a form, schedule"
+   },
+   {
+    "da": "en kuglepen",
+    "en": "a ballpoint pen"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal udfylde denne **blanket**.",
+   "en": "You have to fill in this form."
+  }
+ },
+ "en ble": {
+  "forms": [
+   {
+    "da": "en ble",
+    "en": "a diaper"
+   },
+   {
+    "da": "blen",
+    "en": "the diaper"
+   },
+   {
+    "da": "bleer",
+    "en": "diapers"
+   },
+   {
+    "da": "blerne",
+    "en": "the diapers"
+   }
+  ],
+  "explanation": "\"En ble\" is a diaper (nappy), and it is an en-word. The plural is \"bleer\". It is a handy word if you have a baby or look after small children. \"At skifte ble\" means to change a diaper. A baby is \"en baby\" or \"et spædbarn\".",
+  "related": [
+   {
+    "da": "en baby",
+    "en": "a baby"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "at skifte",
+    "en": "to change"
+   },
+   {
+    "da": "en sut",
+    "en": "a pacifier"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal have en ny **ble** på babyen.",
+   "en": "We need to put a new diaper on the baby."
+  }
+ },
+ "en blodprøve": {
+  "forms": [
+   {
+    "da": "en blodprøve",
+    "en": "a blood test"
+   },
+   {
+    "da": "blodprøven",
+    "en": "the blood test"
+   },
+   {
+    "da": "blodprøver",
+    "en": "blood tests"
+   },
+   {
+    "da": "blodprøverne",
+    "en": "the blood tests"
+   }
+  ],
+  "explanation": "\"En blodprøve\" is a blood test, a small sample of blood taken to be checked. It is an en-word, built from \"blod\" (blood) and \"prøve\" (test or sample). You usually say \"at tage en blodprøve\" (to take a blood test), which is what the nurse or doctor does.",
+  "related": [
+   {
+    "da": "blod",
+    "en": "blood"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "en prøve",
+    "en": "a test"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen vil tage en **blodprøve**.",
+   "en": "The doctor wants to take a blood test."
+  }
+ },
+ "en blomst": {
+  "forms": [
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   },
+   {
+    "da": "blomsten",
+    "en": "the flower"
+   },
+   {
+    "da": "blomster",
+    "en": "flowers"
+   },
+   {
+    "da": "blomsterne",
+    "en": "the flowers"
+   }
+  ],
+  "explanation": "En blomst is a flower. It is an en-word, so \"the flower\" is \"blomsten\". More than one is \"blomster\", with an r at the end. Giving flowers is common for birthdays and visits, as in \"at give blomster\". The word is also found in \"en blomsterbutik\" (a flower shop) and \"en blomstervase\" (a vase).",
+  "related": [
+   {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
+    "da": "en have",
+    "en": "a garden"
+   },
+   {
+    "da": "en rose",
+    "en": "a rose"
+   },
+   {
+    "da": "et blad",
+    "en": "a leaf"
+   }
+  ],
+  "sentence": {
+   "da": "Hun giver mig en **blomst**.",
+   "en": "She gives me a flower."
+  }
+ },
+ "en bluse": {
+  "forms": [
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "blusen",
+    "en": "the blouse"
+   },
+   {
+    "da": "bluser",
+    "en": "blouses"
+   },
+   {
+    "da": "blusene",
+    "en": "the blouses"
+   }
+  ],
+  "explanation": "\"En bluse\" is a blouse, a light top that is often worn by women. It is an en-word, and the word for more than one is \"bluser\". For a shirt with a collar and buttons, \"en skjorte\" is the more general word. A warm knitted top is \"en trøje\".",
+  "related": [
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   },
+   {
+    "da": "en kjole",
+    "en": "a dress"
+   },
+   {
+    "da": "en nederdel",
+    "en": "a skirt"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en rød **bluse** på.",
+   "en": "She is wearing a red blouse."
+  }
+ },
+ "en blyant": {
+  "forms": [
+   {
+    "da": "en blyant",
+    "en": "a pencil"
+   },
+   {
+    "da": "blyanten",
+    "en": "the pencil"
+   },
+   {
+    "da": "blyanter",
+    "en": "pencils"
+   },
+   {
+    "da": "blyanterne",
+    "en": "the pencils"
+   }
+  ],
+  "explanation": "\"En blyant\" is a pencil. It is an en-word. A pencil can be erased with \"et viskelæder\" (an eraser). A pencil sharpener is \"en blyantspidser\". Do not confuse it with \"en kuglepen\", which is a ballpoint pen.",
+  "related": [
+   {
+    "da": "en kuglepen",
+    "en": "a ballpoint pen"
+   },
+   {
+    "da": "et viskelæder",
+    "en": "an eraser"
+   },
+   {
+    "da": "en blyantspidser",
+    "en": "a pencil sharpener"
+   },
+   {
+    "da": "et papir",
+    "en": "paper"
+   }
+  ],
+  "sentence": {
+   "da": "Har du en **blyant**?",
+   "en": "Do you have a pencil?"
+  }
+ },
+ "en bog": {
+  "forms": [
+   {
+    "da": "en bog",
+    "en": "a book"
+   },
+   {
+    "da": "bogen",
+    "en": "the book"
+   },
+   {
+    "da": "bøger",
+    "en": "books"
+   },
+   {
+    "da": "bøgerne",
+    "en": "the books"
+   }
+  ],
+  "explanation": "\"En bog\" is a book, and it is an en-word. The plural changes the vowel to ø and becomes \"bøger\", so remember it as a small irregular pair. A library is \"et bibliotek\" and a bookshop is \"en boghandel\". \"At læse en bog\" means to read a book.",
+  "related": [
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "et bibliotek",
+    "en": "a library"
+   },
+   {
+    "da": "en boghandel",
+    "en": "a bookshop"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læser en god **bog**.",
+   "en": "I am reading a good book."
+  }
+ },
+ "en bold": {
+  "forms": [
+   {
+    "da": "en bold",
+    "en": "a ball"
+   },
+   {
+    "da": "bolden",
+    "en": "the ball"
+   },
+   {
+    "da": "bolde",
+    "en": "balls"
+   },
+   {
+    "da": "boldene",
+    "en": "the balls"
+   }
+  ],
+  "explanation": "\"En bold\" is a ball, used for soccer, handball, tennis and other games. It is an en-word, so \"the ball\" is \"bolden\". It is also found in many compound words like \"fodbold\" (soccer) and \"håndbold\" (handball).",
+  "related": [
+   {
+    "da": "fodbold",
+    "en": "soccer"
+   },
+   {
+    "da": "håndbold",
+    "en": "handball"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "legetøj",
+    "en": "toys"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet kaster **bolden** til sin far.",
+   "en": "The child throws the ball to its father."
+  }
+ },
+ "en bolle": {
+  "forms": [
+   {
+    "da": "en bolle",
+    "en": "a bun"
+   },
+   {
+    "da": "bollen",
+    "en": "the bun"
+   },
+   {
+    "da": "boller",
+    "en": "buns"
+   },
+   {
+    "da": "bollerne",
+    "en": "the buns"
+   }
+  ],
+  "explanation": "\"En bolle\" is a bun or a bread roll, an en-word. It is also used for a meatball in the dish \"boller i karry\" (meatballs in curry), a Danish classic, so the meaning depends on the context. Do not mix it up with \"en kage\" (a cake) when you are ordering at the bakery.",
+  "related": [
+   {
+    "da": "et brød",
+    "en": "a bread"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en frikadelle",
+    "en": "a meatball"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser en **bolle** med smør.",
+   "en": "I eat a bun with butter."
+  }
+ },
+ "en bon": {
+  "forms": [
+   {
+    "da": "en bon",
+    "en": "a receipt"
+   },
+   {
+    "da": "bonen",
+    "en": "the receipt"
+   },
+   {
+    "da": "boner",
+    "en": "receipts"
+   },
+   {
+    "da": "bonerne",
+    "en": "the receipts"
+   }
+  ],
+  "explanation": "\"En bon\" is a receipt, especially the little paper from the till. It means the same as \"en kvittering\", but \"bon\" is the shorter, more everyday word. At the checkout you may hear \"Skal du have bonen med?\" (Do you want the receipt?). Keep it if you may want to return or exchange something.",
+  "related": [
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "kontant",
+    "en": "cash"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg få **bonen**?",
+   "en": "May I have the receipt?"
+  }
+ },
+ "en bro": {
+  "forms": [
+   {
+    "da": "en bro",
+    "en": "a bridge"
+   },
+   {
+    "da": "broen",
+    "en": "the bridge"
+   },
+   {
+    "da": "broer",
+    "en": "bridges"
+   },
+   {
+    "da": "broerne",
+    "en": "the bridges"
+   }
+  ],
+  "explanation": "En bro is a bridge, something you cross over a river, road or sea. Denmark has famous ones such as the Great Belt bridge (\"Storebæltsbroen\") and the Oresund bridge (\"Øresundsbroen\") to Sweden. It is an en-word, so \"the bridge\" is \"broen\". You walk or drive \"over broen\".",
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "en flod",
+    "en": "a river"
+   },
+   {
+    "da": "en tunnel",
+    "en": "a tunnel"
+   },
+   {
+    "da": "en å",
+    "en": "a stream"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går over **broen**.",
+   "en": "We walk over the bridge."
+  }
+ },
+ "en bror": {
+  "forms": [
+   {
+    "da": "en bror",
+    "en": "a brother"
+   },
+   {
+    "da": "broren",
+    "en": "the brother"
+   },
+   {
+    "da": "brødre",
+    "en": "brothers"
+   },
+   {
+    "da": "brødrene",
+    "en": "the brothers"
+   }
+  ],
+  "explanation": "\"En bror\" is a brother. The plural is irregular: \"brødre\" has a changed vowel, which is also like \"brød\" (bread) in spelling. Another word is \"søskende\" for brothers and sisters together. In speech you can also say \"storebror\" (big brother) and \"lillebror\" (little brother).",
+  "related": [
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "søskende",
+    "en": "brothers and sisters"
+   },
+   {
+    "da": "en lillebror",
+    "en": "a little brother"
+   },
+   {
+    "da": "en storebror",
+    "en": "a big brother"
+   }
+  ],
+  "sentence": {
+   "da": "Min **bror** bor i København.",
+   "en": "My brother lives in Copenhagen."
+  }
+ },
+ "en buffet": {
+  "forms": [
+   {
+    "da": "en buffet",
+    "en": "a buffet"
+   },
+   {
+    "da": "buffeten",
+    "en": "the buffet"
+   },
+   {
+    "da": "buffeter",
+    "en": "buffets"
+   },
+   {
+    "da": "buffeterne",
+    "en": "the buffets"
+   }
+  ],
+  "explanation": "\"En buffet\" is a buffet, a meal where you help yourself to food from a table. It is an en-word. Hotels often serve breakfast as \"morgenmadsbuffet\", and you pay one price for all you can eat. A \"buffet\" at a restaurant is often \"all you can eat\" for one set price.",
+  "related": [
+   {
+    "da": "en morgenmad",
+    "en": "a breakfast"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   },
+   {
+    "da": "en menu",
+    "en": "a menu"
+   }
+  ],
+  "sentence": {
+   "da": "Hotellet har en stor **buffet** til morgenmad.",
+   "en": "The hotel has a big buffet for breakfast."
+  }
+ },
+ "en burger": {
+  "forms": [
+   {
+    "da": "en burger",
+    "en": "a burger"
+   },
+   {
+    "da": "burgeren",
+    "en": "the burger"
+   },
+   {
+    "da": "burgere",
+    "en": "burgers"
+   },
+   {
+    "da": "burgerne",
+    "en": "the burgers"
+   }
+  ],
+  "explanation": "\"En burger\" is the same food as the English word, a patty of meat in a bun. It is an en-word. You will also hear \"hamburger\", which means the same, and fast food places use both. A vegetarian one is \"en vegetarburger\".",
+  "related": [
+   {
+    "da": "en hamburger",
+    "en": "a hamburger"
+   },
+   {
+    "da": "pommes frites",
+    "en": "French fries"
+   },
+   {
+    "da": "en pizza",
+    "en": "a pizza"
+   },
+   {
+    "da": "en sandwich",
+    "en": "a sandwich"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **burger** og pommes frites.",
+   "en": "I would like a burger and French fries."
+  }
+ },
+ "en bus": {
+  "forms": [
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "bussen",
+    "en": "the bus"
+   },
+   {
+    "da": "busser",
+    "en": "buses"
+   },
+   {
+    "da": "busserne",
+    "en": "the buses"
+   }
+  ],
+  "explanation": "En bus is a bus. It is an en-word, so \"the bus\" is \"bussen\" with a double s, and more than one is \"busser\". To say you go by bus, you can say \"at tage bussen\" or \"at køre med bus\". The place where it stops is \"et busstoppested\", which is a long word but easy to read.",
+  "related": [
+   {
+    "da": "et busstoppested",
+    "en": "a bus stop"
+   },
+   {
+    "da": "en chauffør",
+    "en": "a driver"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "**Bussen** kommer om ti minutter.",
+   "en": "The bus comes in ten minutes."
+  }
+ },
+ "en busbillet": {
+  "forms": [
+   {
+    "da": "en busbillet",
+    "en": "a bus ticket"
+   },
+   {
+    "da": "busbilletten",
+    "en": "the bus ticket"
+   },
+   {
+    "da": "busbilletter",
+    "en": "bus tickets"
+   },
+   {
+    "da": "busbilletterne",
+    "en": "the bus tickets"
+   }
+  ],
+  "explanation": "A \"busbillet\" is a ticket for the bus, built from \"bus\" and \"billet\" (ticket). It is an en-word. You can often buy one from the driver, in an app or with a travel card, depending on the town. It works just like \"en togbillet\", only for the bus.",
+  "related": [
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "et busstoppested",
+    "en": "a bus stop"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg købe en **busbillet** her?",
+   "en": "May I buy a bus ticket here?"
+  }
+ },
+ "en butik": {
+  "forms": [
+   {
+    "da": "en butik",
+    "en": "a shop"
+   },
+   {
+    "da": "butikken",
+    "en": "the shop"
+   },
+   {
+    "da": "butikker",
+    "en": "shops"
+   },
+   {
+    "da": "butikkerne",
+    "en": "the shops"
+   }
+  ],
+  "explanation": "En butik is a shop, usually a smaller one that sells one kind of thing, such as clothes or shoes. It is stressed on the last part (\"bu-TEEK\") and \"the shop\" is \"butikken\" with a double k. For a big shop with food and everyday things, Danes say \"et supermarked\". You say \"i butikken\" for \"in the shop\".",
+  "related": [
+   {
+    "da": "et supermarked",
+    "en": "a supermarket"
+   },
+   {
+    "da": "et marked",
+    "en": "a market"
+   },
+   {
+    "da": "at handle",
+    "en": "to shop"
+   },
+   {
+    "da": "at købe",
+    "en": "to buy"
+   }
+  ],
+  "sentence": {
+   "da": "**Butikken** åbner klokken ni.",
+   "en": "The shop opens at nine o'clock."
+  }
+ },
+ "en by": {
+  "forms": [
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "byen",
+    "en": "the town"
+   },
+   {
+    "da": "byer",
+    "en": "towns"
+   },
+   {
+    "da": "byerne",
+    "en": "the towns"
+   }
+  ],
+  "explanation": "\"En by\" means a town or a city. Danish does not separate the two words as sharply as English, so \"by\" can be a small town or a big city. \"I byen\" means 'in town', and \"at tage ind til byen\" means going into the center.",
+  "related": [
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "en landsby",
+    "en": "a village"
+   },
+   {
+    "da": "en gade",
+    "en": "a street"
+   },
+   {
+    "da": "en hovedstad",
+    "en": "a capital"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor i en lille **by**.",
+   "en": "I live in a small town."
+  }
+ },
+ "en båd": {
+  "forms": [
+   {
+    "da": "en båd",
+    "en": "a boat"
+   },
+   {
+    "da": "båden",
+    "en": "the boat"
+   },
+   {
+    "da": "både",
+    "en": "boats"
+   },
+   {
+    "da": "bådene",
+    "en": "the boats"
+   }
+  ],
+  "explanation": "\"En båd\" is a boat, from a small rowing boat to a bigger boat. It is an en-word. Note that the plural \"både\" has no \"-er\" on the end, and the vowel is said a bit differently than in the short form. A big ship is \"et skib\", and a ferry is \"en færge\".",
+  "related": [
+   {
+    "da": "et skib",
+    "en": "a ship"
+   },
+   {
+    "da": "en færge",
+    "en": "a ferry"
+   },
+   {
+    "da": "en havn",
+    "en": "a harbour"
+   },
+   {
+    "da": "at sejle",
+    "en": "to sail"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager en **båd** til øen.",
+   "en": "We are taking a boat to the island."
+  }
+ },
+ "en bøf": {
+  "forms": [
+   {
+    "da": "en bøf",
+    "en": "a steak"
+   },
+   {
+    "da": "bøffen",
+    "en": "the steak"
+   },
+   {
+    "da": "bøffer",
+    "en": "steaks"
+   },
+   {
+    "da": "bøfferne",
+    "en": "the steaks"
+   }
+  ],
+  "explanation": "\"En bøf\" is a piece of cooked meat, most often beef, such as a steak. It can also be a ground-meat patty, like a hamburger patty (\"en hakkebøf\"). On a menu you will often see it with potatoes and sauce, and you can say how you want it done, for example \"medium\".",
+  "related": [
+   {
+    "da": "en hakkebøf",
+    "en": "a minced beef patty"
+   },
+   {
+    "da": "oksekød",
+    "en": "beef"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
+   },
+   {
+    "da": "en steak",
+    "en": "a steak"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **bøf** med kartofler.",
+   "en": "I would like a steak with potatoes."
+  }
+ },
+ "en børnehave": {
+  "forms": [
+   {
+    "da": "en børnehave",
+    "en": "a kindergarten"
+   },
+   {
+    "da": "børnehaven",
+    "en": "the kindergarten"
+   },
+   {
+    "da": "børnehaver",
+    "en": "kindergartens"
+   },
+   {
+    "da": "børnehaverne",
+    "en": "the kindergartens"
+   }
+  ],
+  "explanation": "\"En børnehave\" is a kindergarten for young children, usually from about three to six years old, before school starts. It is an en-word built from \"børn\" (children) and \"have\" (garden). Children who go there are \"børnehavebørn\". You say \"i børnehaven\" for being at it.",
+  "related": [
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en vuggestue",
+    "en": "a nursery"
+   },
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "en pædagog",
+    "en": "an early-years teacher"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter går i **børnehave**.",
+   "en": "My daughter goes to kindergarten."
+  }
+ },
+ "en børnemenu": {
+  "forms": [
+   {
+    "da": "en børnemenu",
+    "en": "a kids' menu"
+   },
+   {
+    "da": "børnemenuen",
+    "en": "the kids' menu"
+   },
+   {
+    "da": "børnemenuer",
+    "en": "kids' menus"
+   },
+   {
+    "da": "børnemenuerne",
+    "en": "the kids' menus"
+   }
+  ],
+  "explanation": "\"En børnemenu\" is a kids' menu, a smaller and cheaper meal for children at a restaurant. It is built from \"børn\" (children) and \"menu\", written as one word, and it is an en-word. Ask \"har I en børnemenu?\" (do you have a kids' menu?) when you eat out with a family.",
+  "related": [
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en menu",
+    "en": "a menu"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   }
+  ],
+  "sentence": {
+   "da": "Har I en **børnemenu**?",
+   "en": "Do you have a kids' menu?"
+  }
+ },
+ "et bad": {
+  "forms": [
+   {
+    "da": "et bad",
+    "en": "a bath, shower"
+   },
+   {
+    "da": "badet",
+    "en": "the bath"
+   },
+   {
+    "da": "bade",
+    "en": "baths"
+   },
+   {
+    "da": "badene",
+    "en": "the baths"
+   }
+  ],
+  "explanation": "\"Bad\" can mean a bath, a shower, or the bathroom itself, depending on what people are talking about. \"Et bad\" is the thing you take, and the phrase \"at tage bad\" (to have a shower) uses it with no \"et\". Also remember \"et badeværelse\" for the bathroom and \"at bade\" for to swim.",
+  "related": [
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "et brusebad",
+    "en": "a shower"
+   },
+   {
+    "da": "at bade",
+    "en": "to swim, bathe"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **et bad**.",
+   "en": "I would like a bath."
+  }
+ },
+ "et badeværelse": {
+  "forms": [
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "badeværelset",
+    "en": "the bathroom"
+   },
+   {
+    "da": "badeværelser",
+    "en": "bathrooms"
+   },
+   {
+    "da": "badeværelserne",
+    "en": "the bathrooms"
+   }
+  ],
+  "explanation": "\"Et badeværelse\" is a bathroom, the room with the shower or bath, and it is an et-word. It is built from \"bad\" (bath) and \"værelse\" (room). For a public toilet people say \"et toilet\" instead, so do not use \"badeværelse\" to look for one in town.",
+  "related": [
+   {
+    "da": "et toilet",
+    "en": "a toilet"
+   },
+   {
+    "da": "et brusebad",
+    "en": "a shower"
+   },
+   {
+    "da": "sæbe",
+    "en": "soap"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   }
+  ],
+  "sentence": {
+   "da": "**Badeværelset** er ved siden af soveværelset.",
+   "en": "The bathroom is next to the bedroom."
+  }
+ },
+ "et bageri": {
+  "forms": [
+   {
+    "da": "et bageri",
+    "en": "a bakery"
+   },
+   {
+    "da": "bageriet",
+    "en": "the bakery"
+   },
+   {
+    "da": "bagerier",
+    "en": "bakeries"
+   },
+   {
+    "da": "bagerierne",
+    "en": "the bakeries"
+   }
+  ],
+  "explanation": "\"Et bageri\" is a bakery, a shop where bread and cakes are baked and sold. It is an et-word. The person who works there is \"en bager\". Danish bakeries are known for \"rundstykker\" in the morning and pastries called \"wienerbrød\".",
+  "related": [
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "et rundstykke",
+    "en": "a bread roll"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber rundstykker i **bageriet**.",
+   "en": "I buy bread rolls at the bakery."
+  }
+ },
+ "et barn": {
+  "forms": [
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "barnet",
+    "en": "the child"
+   },
+   {
+    "da": "børn",
+    "en": "children"
+   },
+   {
+    "da": "børnene",
+    "en": "the children"
+   }
+  ],
+  "explanation": "\"Et barn\" is a child. It is an et-word, and the plural \"børn\" is irregular: it has a changed vowel and no ending. \"Børnene\" means the children. It is also used for a grown-up's own children, so \"mit barn\" is my child at any age.",
+  "related": [
+   {
+    "da": "en baby",
+    "en": "a baby"
+   },
+   {
+    "da": "en dreng",
+    "en": "a boy"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   },
+   {
+    "da": "forældre",
+    "en": "parents"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har to **børn**.",
+   "en": "We have two children."
+  }
+ },
+ "et ben": {
+  "forms": [
+   {
+    "da": "et ben",
+    "en": "a leg / bone"
+   },
+   {
+    "da": "benet",
+    "en": "the leg / the bone"
+   },
+   {
+    "da": "ben",
+    "en": "legs / bones"
+   },
+   {
+    "da": "benene",
+    "en": "the legs / the bones"
+   }
+  ],
+  "explanation": "\"Et ben\" means a leg and also a bone. It is an et-word and the word for more than one stays the same: \"to ben\". Context decides: \"Han har brækket benet\" is usually \"He has broken his leg\". For the part of the body, the foot is \"en fod\".",
+  "related": [
+   {
+    "da": "et knæ",
+    "en": "a knee"
+   },
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "en krop",
+    "en": "a body"
+   }
+  ],
+  "sentence": {
+   "da": "Han har brækket **benet**.",
+   "en": "He has broken his leg."
+  }
+ },
+ "et besøg": {
+  "forms": [
+   {
+    "da": "et besøg",
+    "en": "a visit"
+   },
+   {
+    "da": "besøget",
+    "en": "the visit"
+   },
+   {
+    "da": "besøg",
+    "en": "visits"
+   }
+  ],
+  "explanation": "\"Et besøg\" is a visit, when you go to see someone or somewhere. It is an et-word and has no separate plural form: \"to besøg\" means two visits. Use \"på besøg\" for being on a visit: \"Jeg er på besøg hos min mor.\" The matching action is \"at besøge\".",
+  "related": [
+   {
+    "da": "at besøge",
+    "en": "to visit"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "på besøg",
+    "en": "on a visit"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   }
+  ],
+  "sentence": {
+   "da": "Tak for dit **besøg**!",
+   "en": "Thank you for your visit!"
+  }
+ },
+ "et betalingskort": {
+  "forms": [
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "betalingskortet",
+    "en": "the payment card"
+   },
+   {
+    "da": "betalingskort",
+    "en": "payment cards"
+   },
+   {
+    "da": "betalingskortene",
+    "en": "the payment cards"
+   }
+  ],
+  "explanation": "\"Et betalingskort\" is a payment card, a debit or credit card you pay with. It is built from \"betaling\" (payment) and \"et kort\" (a card). The Danish card \"Dankort\" is the most common one. The plural is the same as the single word, and you say \"betalingskortet\" for the card.",
+  "related": [
+   {
+    "da": "at betale med kort",
+    "en": "to pay by card"
+   },
+   {
+    "da": "kontant",
+    "en": "cash"
+   },
+   {
+    "da": "et gavekort",
+    "en": "a gift card"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg bruge mit **betalingskort** her?",
+   "en": "Can I use my payment card here?"
+  }
+ },
+ "et bibliotek": {
+  "forms": [
+   {
+    "da": "et bibliotek",
+    "en": "a library"
+   },
+   {
+    "da": "biblioteket",
+    "en": "the library"
+   },
+   {
+    "da": "biblioteker",
+    "en": "libraries"
+   },
+   {
+    "da": "bibliotekerne",
+    "en": "the libraries"
+   }
+  ],
+  "explanation": "Et bibliotek is a library, where you can borrow books for free. The word for borrowing is \"at låne\", so \"at låne en bog på biblioteket\" is a very useful phrase. It is an et-word and \"the library\" is \"biblioteket\". Be careful with the spelling: it has \"bibliotek\" with a k, not \"librar\".",
+  "related": [
+   {
+    "da": "en bog",
+    "en": "a book"
+   },
+   {
+    "da": "at låne",
+    "en": "to borrow"
+   },
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "en bibliotekar",
+    "en": "a librarian"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg låner en bog på **biblioteket**.",
+   "en": "I borrow a book at the library."
+  }
+ },
+ "et billede": {
+  "forms": [
+   {
+    "da": "et billede",
+    "en": "a picture"
+   },
+   {
+    "da": "billedet",
+    "en": "the picture"
+   },
+   {
+    "da": "billeder",
+    "en": "pictures"
+   },
+   {
+    "da": "billederne",
+    "en": "the pictures"
+   }
+  ],
+  "explanation": "\"Et billede\" is a picture, which can be a photo, a painting or an image on a screen. It is an et-word. To take a photo you say \"at tage et billede\", and to hang one on the wall is \"at hænge et billede op\". A more specific word for a photo is \"et foto\".",
+  "related": [
+   {
+    "da": "et foto",
+    "en": "a photo"
+   },
+   {
+    "da": "et maleri",
+    "en": "a painting"
+   },
+   {
+    "da": "at tage et billede",
+    "en": "to take a picture"
+   },
+   {
+    "da": "et kamera",
+    "en": "a camera"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager et **billede** af dig.",
+   "en": "I am taking a picture of you."
+  }
+ },
+ "et bjerg": {
+  "forms": [
+   {
+    "da": "et bjerg",
+    "en": "a mountain"
+   },
+   {
+    "da": "bjerget",
+    "en": "the mountain"
+   },
+   {
+    "da": "bjerge",
+    "en": "mountains"
+   },
+   {
+    "da": "bjergene",
+    "en": "the mountains"
+   }
+  ],
+  "explanation": "Et bjerg is a mountain. Denmark is very flat, so Danes use \"en bakke\" (a hill) for most high ground, and \"bjerg\" is mostly used about real mountains abroad, for example in Norway or the Alps. It is an et-word, so \"the mountain\" is \"bjerget\". Words like \"en bjergtur\" (a mountain trip) are built from it.",
+  "related": [
+   {
+    "da": "en bakke",
+    "en": "a hill"
+   },
+   {
+    "da": "en dal",
+    "en": "a valley"
+   },
+   {
+    "da": "en top",
+    "en": "a peak"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   }
+  ],
+  "sentence": {
+   "da": "Der er sne på **bjerget**.",
+   "en": "There is snow on the mountain."
+  }
+ },
+ "et boardingpas": {
+  "forms": [
+   {
+    "da": "et boardingpas",
+    "en": "a boarding pass"
+   },
+   {
+    "da": "boardingpasset",
+    "en": "the boarding pass"
+   },
+   {
+    "da": "boardingpas",
+    "en": "boarding passes"
+   },
+   {
+    "da": "boardingpassene",
+    "en": "the boarding passes"
+   }
+  ],
+  "explanation": "\"Boardingpas\" is the paper or phone card you show to board a plane. The word is borrowed from English, but it is written together as one word and it is an et-word. It ends in \"pas\", like \"et pas\" (passport), so do not mix them up. The plural looks like the single word.",
+  "related": [
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en gate",
+    "en": "a gate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt mit **boardingpas**.",
+   "en": "I have forgotten my boarding pass."
+  }
+ },
+ "et bord": {
+  "forms": [
+   {
+    "da": "et bord",
+    "en": "a table"
+   },
+   {
+    "da": "bordet",
+    "en": "the table"
+   },
+   {
+    "da": "borde",
+    "en": "tables"
+   },
+   {
+    "da": "bordene",
+    "en": "the tables"
+   }
+  ],
+  "explanation": "\"Et bord\" means a table, but also a desk, so the exact meaning depends on context. It is an et-word, so 'the table' is \"bordet\". At a restaurant you can ask \"Et bord til to\" (a table for two). \"Et skrivebord\" is a desk.",
+  "related": [
+   {
+    "da": "en stol",
+    "en": "a chair"
+   },
+   {
+    "da": "et skrivebord",
+    "en": "a desk"
+   },
+   {
+    "da": "et køkkenbord",
+    "en": "a kitchen table"
+   },
+   {
+    "da": "at dække bord",
+    "en": "to set the table"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen ligger på **bordet**.",
+   "en": "The book is on the table."
+  }
+ },
+ "et brev": {
+  "forms": [
+   {
+    "da": "et brev",
+    "en": "a letter"
+   },
+   {
+    "da": "brevet",
+    "en": "the letter"
+   },
+   {
+    "da": "breve",
+    "en": "letters"
+   },
+   {
+    "da": "brevene",
+    "en": "the letters"
+   }
+  ],
+  "explanation": "\"Et brev\" is a letter you send in the post, and it is an et-word. The plural is \"breve\". For an email you say \"en mail\", and a letter box is \"en postkasse\". The verb \"at skrive et brev\" means to write a letter.",
+  "related": [
+   {
+    "da": "en mail",
+    "en": "an email"
+   },
+   {
+    "da": "et postkort",
+    "en": "a postcard"
+   },
+   {
+    "da": "en postkasse",
+    "en": "a mailbox"
+   },
+   {
+    "da": "at skrive",
+    "en": "to write"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har fået et **brev** fra min ven.",
+   "en": "I have received a letter from my friend."
+  }
+ },
+ "et bryllup": {
+  "forms": [
+   {
+    "da": "et bryllup",
+    "en": "a wedding"
+   },
+   {
+    "da": "brylluppet",
+    "en": "the wedding"
+   },
+   {
+    "da": "bryllupper",
+    "en": "weddings"
+   },
+   {
+    "da": "bryllupperne",
+    "en": "the weddings"
+   }
+  ],
+  "explanation": "\"Et bryllup\" is a wedding, the celebration where two people get married. It is an et-word. Danes often say \"til et bryllup\" for going to a wedding, and \"at holde bryllup\" means to hold a wedding. A wedding party is \"en bryllupsfest\".",
+  "related": [
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "at blive gift",
+    "en": "to get married"
+   },
+   {
+    "da": "gift",
+    "en": "married"
+   },
+   {
+    "da": "en brud",
+    "en": "a bride"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal til **bryllup** næste weekend.",
+   "en": "We are going to a wedding next weekend."
+  }
+ },
+ "et bryst": {
+  "forms": [
+   {
+    "da": "et bryst",
+    "en": "a chest"
+   },
+   {
+    "da": "brystet",
+    "en": "the chest"
+   },
+   {
+    "da": "bryster",
+    "en": "chests"
+   },
+   {
+    "da": "brysterne",
+    "en": "the chests"
+   }
+  ],
+  "explanation": "\"Et bryst\" is the chest, the front of the upper body. It is an et-word. It can also mean a breast. In a doctor's office, \"Jeg har smerter i brystet\" means \"I have pain in my chest\", which is a serious thing to say.",
+  "related": [
+   {
+    "da": "et hjerte",
+    "en": "a heart"
+   },
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en ryg",
+    "en": "a back"
+   },
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har smerter i **brystet**.",
+   "en": "I have pain in my chest."
+  }
+ },
+ "et busstoppested": {
+  "forms": [
+   {
+    "da": "et busstoppested",
+    "en": "a bus stop"
+   },
+   {
+    "da": "busstoppestedet",
+    "en": "the bus stop"
+   },
+   {
+    "da": "busstoppesteder",
+    "en": "bus stops"
+   },
+   {
+    "da": "busstoppestederne",
+    "en": "the bus stops"
+   }
+  ],
+  "explanation": "A \"busstoppested\" is the place where the bus stops to let people on and off. It is an et-word, so \"the bus stop\" is \"busstoppestedet\". In everyday speech people often just say \"et stoppested\" or \"en busstop\". Look for the sign with the bus number and timetable.",
+  "related": [
+   {
+    "da": "et stoppested",
+    "en": "a stop"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en rutetabel",
+    "en": "a timetable"
+   },
+   {
+    "da": "en banegård",
+    "en": "a railway station"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et **busstoppested** lige ved hotellet.",
+   "en": "There is a bus stop right by the hotel."
+  }
+ },
+ "et bælte": {
+  "forms": [
+   {
+    "da": "et bælte",
+    "en": "a belt"
+   },
+   {
+    "da": "bæltet",
+    "en": "the belt"
+   },
+   {
+    "da": "bælter",
+    "en": "belts"
+   },
+   {
+    "da": "bælterne",
+    "en": "the belts"
+   }
+  ],
+  "explanation": "\"Et bælte\" is a belt, the thing you wear around your waist to hold up trousers. It is an et-word, so the word \"the\" goes on the end as \"bæltet\". The plural is \"bælter\". In a car, a seat belt is \"et sikkerhedsbælte\", which uses the same word.",
+  "related": [
+   {
+    "da": "bukser",
+    "en": "trousers"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en lomme",
+    "en": "a pocket"
+   },
+   {
+    "da": "en størrelse",
+    "en": "a size"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal bruge et nyt **bælte** til bukserne.",
+   "en": "I need a new belt for the trousers."
   }
  }
 }

@@ -9,7 +9,7 @@ import { frontKey } from "./text.js";
 // so the file names are plain.
 export function lightbulbBucket(front) {
   const key = frontKey(front).replace(/^(en|et|at) /, "");
-  const ch = key.charAt(0);
+  const ch = key.charAt(0).toLowerCase();
   if (ch === "æ") return "ae";
   if (ch === "ø") return "oe";
   if (ch === "å") return "aa";

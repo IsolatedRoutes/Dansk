@@ -1,47 +1,4 @@
 {
- "en måned": {
-  "forms": [
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "måneden",
-    "en": "the month"
-   },
-   {
-    "da": "måneder",
-    "en": "months"
-   },
-   {
-    "da": "månederne",
-    "en": "the months"
-   }
-  ],
-  "explanation": "\"Måned\" is the ordinary word for a month. Months of the year are written with a small letter in Danish (januar, februar), unlike in English. You will often hear \"om måneden\" meaning \"per month\", for example when talking about rent or pay.",
-  "related": [
-   {
-    "da": "en uge",
-    "en": "a week"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
-   },
-   {
-    "da": "en dag",
-    "en": "a day"
-   },
-   {
-    "da": "hver måned",
-    "en": "every month"
-   }
-  ],
-  "sentence": {
-   "da": "Jeg betaler husleje hver **måned**.",
-   "en": "I pay rent every month."
-  }
- },
  "at meditere": {
   "forms": [
    {
@@ -85,6 +42,1787 @@
    "en": "I try to meditate every morning."
   }
  },
+ "at melde sig syg": {
+  "forms": [
+   {
+    "da": "at melde sig syg",
+    "en": "to call in sick"
+   },
+   {
+    "da": "jeg melder mig syg",
+    "en": "I call in sick"
+   },
+   {
+    "da": "jeg meldte mig syg",
+    "en": "I called in sick"
+   },
+   {
+    "da": "jeg har meldt mig syg",
+    "en": "I have called in sick"
+   }
+  ],
+  "explanation": "\"At melde sig syg\" means to call in sick, that is, to tell your work or school that you are ill and can't come. The little word \"sig\" turns into \"mig\" for yourself: \"jeg melder mig syg\". It describes the act of reporting, not the illness itself.",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "en sygdom",
+    "en": "an illness"
+   },
+   {
+    "da": "at være syg",
+    "en": "to be sick"
+   },
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   }
+  ],
+  "sentence": {
+   "da": "I dag **melder** jeg **mig syg**.",
+   "en": "Today I'm calling in sick."
+  }
+ },
+ "at mene": {
+  "forms": [
+   {
+    "da": "at mene",
+    "en": "to mean / think"
+   },
+   {
+    "da": "jeg mener",
+    "en": "I mean / think"
+   },
+   {
+    "da": "jeg mente",
+    "en": "I meant / thought"
+   },
+   {
+    "da": "jeg har ment",
+    "en": "I have meant / thought"
+   }
+  ],
+  "explanation": "\"At mene\" means to mean or to think, and it is a bit stronger than \"at synes\": you hold a firm view. \"Jeg mener, at du har ret\" means I believe you are right. It is also used for what you intend: \"Hvad mener du?\" (What do you mean?). For the meaning of a word, Danish uses \"at betyde\".",
+  "related": [
+   {
+    "da": "at synes",
+    "en": "to think (an opinion)"
+   },
+   {
+    "da": "at betyde",
+    "en": "to mean (word)"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad **mener** du med det?",
+   "en": "What do you mean by that?"
+  }
+ },
+ "at måtte": {
+  "forms": [
+   {
+    "da": "at måtte",
+    "en": "may / must"
+   },
+   {
+    "da": "jeg må",
+    "en": "I may / must"
+   },
+   {
+    "da": "jeg måtte",
+    "en": "I was allowed to / had to"
+   },
+   {
+    "da": "jeg har måttet",
+    "en": "I have had to"
+   }
+  ],
+  "explanation": "\"At måtte\" means to be allowed to (may) and also to have to (must). \"Må jeg gå?\" asks May I go?, while \"Jeg må gå nu\" says I have to go now. The meaning comes from the situation. In the negative, \"Du må ikke\" means you are not allowed to, a strong warning. It is followed straight by another action word, with no \"at\".",
+  "related": [
+   {
+    "da": "at kunne",
+    "en": "can / to be able to"
+   },
+   {
+    "da": "at skulle",
+    "en": "to have to / should"
+   },
+   {
+    "da": "at tillade",
+    "en": "to allow"
+   }
+  ],
+  "sentence": {
+   "da": "**Må** jeg spørge om noget?",
+   "en": "May I ask something?"
+  }
+ },
+ "en mail": {
+  "forms": [
+   {
+    "da": "en mail",
+    "en": "an email"
+   },
+   {
+    "da": "mailen",
+    "en": "the email"
+   },
+   {
+    "da": "mails",
+    "en": "emails"
+   }
+  ],
+  "explanation": "\"En mail\" is the everyday short word for an email. Danes say \"jeg sender en mail\" far more often than the longer \"e-mail\". It is an en-word, so \"mailen\" means \"the email\". You can also use it as a verb, \"at maile\", but \"at sende en mail\" is the safe choice.",
+  "related": [
+   {
+    "da": "en e-mail",
+    "en": "an email"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "en sms",
+    "en": "a text message"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skriver en **mail** til læreren.",
+   "en": "I am writing an email to the teacher."
+  }
+ },
+ "en mand": {
+  "forms": [
+   {
+    "da": "en mand",
+    "en": "a husband / man"
+   },
+   {
+    "da": "manden",
+    "en": "the husband / the man"
+   },
+   {
+    "da": "mænd",
+    "en": "men"
+   },
+   {
+    "da": "mændene",
+    "en": "the men"
+   }
+  ],
+  "explanation": "\"En mand\" means a man, and also a husband when you say \"min mand\" (my husband). It is an en-word. The plural \"mænd\" has a changed vowel. Its pair is \"en kvinde\" (a woman) or \"en kone\" (a wife).",
+  "related": [
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "en kone",
+    "en": "a wife"
+   },
+   {
+    "da": "en dreng",
+    "en": "a boy"
+   },
+   {
+    "da": "en gift mand",
+    "en": "a married man"
+   }
+  ],
+  "sentence": {
+   "da": "Min **mand** laver mad i dag.",
+   "en": "My husband is cooking today."
+  }
+ },
+ "en mave": {
+  "forms": [
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "maven",
+    "en": "the stomach"
+   },
+   {
+    "da": "maver",
+    "en": "stomachs"
+   },
+   {
+    "da": "maverne",
+    "en": "the stomachs"
+   }
+  ],
+  "explanation": "\"En mave\" is the stomach or belly. It is an en-word. Danes use it for both: \"Jeg har ondt i maven\" (My stomach hurts), and also for a round tummy. It forms \"mavepine\" (stomachache) and \"mavesyre\" (stomach acid).",
+  "related": [
+   {
+    "da": "en mavepine",
+    "en": "a stomachache"
+   },
+   {
+    "da": "et bryst",
+    "en": "a chest"
+   },
+   {
+    "da": "en ryg",
+    "en": "a back"
+   },
+   {
+    "da": "sulten",
+    "en": "hungry"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i **maven**.",
+   "en": "My stomach hurts."
+  }
+ },
+ "en mavepine": {
+  "forms": [
+   {
+    "da": "en mavepine",
+    "en": "a stomachache"
+   },
+   {
+    "da": "mavepinen",
+    "en": "the stomachache"
+   },
+   {
+    "da": "mavepiner",
+    "en": "stomachaches"
+   },
+   {
+    "da": "mavepinerne",
+    "en": "the stomachaches"
+   }
+  ],
+  "explanation": "\"En mavepine\" is a stomachache, built from \"mave\" (stomach) and \"pine\" (pain). It is an en-word. Like with headaches, you normally say \"Jeg har mavepine\" without \"en\". A near-equal is \"ondt i maven\".",
+  "related": [
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   },
+   {
+    "da": "ondt",
+    "en": "pain / hurt"
+   },
+   {
+    "da": "en pille",
+    "en": "a pill"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet har **mavepine** og vil ikke spise.",
+   "en": "The child has a stomachache and does not want to eat."
+  }
+ },
+ "en melon": {
+  "forms": [
+   {
+    "da": "en melon",
+    "en": "a melon"
+   },
+   {
+    "da": "melonen",
+    "en": "the melon"
+   },
+   {
+    "da": "meloner",
+    "en": "melons"
+   },
+   {
+    "da": "melonerne",
+    "en": "the melons"
+   }
+  ],
+  "explanation": "\"En melon\" is a melon, and it is an en-word. The word covers the whole family, so for a specific kind you say \"en vandmelon\" (watermelon) or \"en honningmelon\" (honeydew melon). It is a popular fruit in summer.",
+  "related": [
+   {
+    "da": "en vandmelon",
+    "en": "a watermelon"
+   },
+   {
+    "da": "frugt",
+    "en": "fruit"
+   },
+   {
+    "da": "en ananas",
+    "en": "a pineapple"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber en **melon** i butikken.",
+   "en": "I buy a melon in the shop."
+  }
+ },
+ "en menu": {
+  "forms": [
+   {
+    "da": "en menu",
+    "en": "a menu"
+   },
+   {
+    "da": "menuen",
+    "en": "the menu"
+   },
+   {
+    "da": "menuer",
+    "en": "menus"
+   },
+   {
+    "da": "menuerne",
+    "en": "the menus"
+   }
+  ],
+  "explanation": "\"En menu\" is a menu, the list of food at a restaurant, and it is an en-word. You ask \"kan jeg få menuen?\" to get one. It can also mean a set meal, like \"dagens menu\" (the menu of the day), which has fixed courses for one price. Another word for the list is \"et menukort\".",
+  "related": [
+   {
+    "da": "et menukort",
+    "en": "a menu card"
+   },
+   {
+    "da": "en børnemenu",
+    "en": "a kids' menu"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg få **menuen**, tak?",
+   "en": "Can I have the menu, please?"
+  }
+ },
+ "en meter": {
+  "forms": [
+   {
+    "da": "en meter",
+    "en": "a meter"
+   },
+   {
+    "da": "meteren",
+    "en": "the meter"
+   },
+   {
+    "da": "meter",
+    "en": "meters"
+   },
+   {
+    "da": "meterne",
+    "en": "the meters"
+   }
+  ],
+  "explanation": "\"En meter\" is a meter, a unit of length. It is an en-word and stays the same after a number: \"to meter\". It is written \"m\". Danes use meters for height and distance, so \"to meter høj\" is two meters tall.",
+  "related": [
+   {
+    "da": "en centimeter",
+    "en": "a centimeter"
+   },
+   {
+    "da": "en kilometer",
+    "en": "a kilometer"
+   },
+   {
+    "da": "høj",
+    "en": "tall"
+   },
+   {
+    "da": "lang",
+    "en": "long"
+   }
+  ],
+  "sentence": {
+   "da": "Huset er ti **meter** højt.",
+   "en": "The house is ten meters tall."
+  }
+ },
+ "en metro": {
+  "forms": [
+   {
+    "da": "en metro",
+    "en": "a metro"
+   },
+   {
+    "da": "metroen",
+    "en": "the metro"
+   },
+   {
+    "da": "metroer",
+    "en": "metros"
+   },
+   {
+    "da": "metroerne",
+    "en": "the metros"
+   }
+  ],
+  "explanation": "\"Metro\" is the underground train, which in Denmark exists in Copenhagen. You travel \"med metroen\" (by the metro). It is an en-word. The S-train is a different thing, called \"S-tog\", so do not mix them up.",
+  "related": [
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en station",
+    "en": "a station"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **metroen** på arbejde.",
+   "en": "I take the metro to work."
+  }
+ },
+ "en middag": {
+  "forms": [
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   },
+   {
+    "da": "middagen",
+    "en": "the dinner"
+   },
+   {
+    "da": "middage",
+    "en": "dinners"
+   },
+   {
+    "da": "middagene",
+    "en": "the dinners"
+   }
+  ],
+  "explanation": "\"En middag\" is the main hot meal of the day, usually eaten in the evening, so it is what English speakers call dinner or supper. Many Danes eat it around 18:00. Be careful: the same word can also mean noon (\"midt på dagen\"), but in daily talk, \"middag\" almost always means the evening meal, while lunch is \"frokost\".",
+  "related": [
+   {
+    "da": "en frokost",
+    "en": "a lunch"
+   },
+   {
+    "da": "en morgenmad",
+    "en": "a breakfast"
+   },
+   {
+    "da": "aftensmad",
+    "en": "evening meal / supper"
+   },
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **middag** klokken seks.",
+   "en": "We eat dinner at six o'clock."
+  }
+ },
+ "en mobil": {
+  "forms": [
+   {
+    "da": "en mobil",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "mobilen",
+    "en": "the mobile phone"
+   },
+   {
+    "da": "mobiler",
+    "en": "mobile phones"
+   },
+   {
+    "da": "mobilerne",
+    "en": "the mobile phones"
+   }
+  ],
+  "explanation": "\"En mobil\" is what Danes call their phone in daily life. It is short for \"mobiltelefon\". It is an en-word, so you say \"min mobil\" and \"mobilen\". A common phrase is \"Har du din mobil?\" (Do you have your phone?). Many Danes also say \"telefon\", which means the same.",
+  "related": [
+   {
+    "da": "en mobiltelefon",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "en smartphone",
+    "en": "a smartphone"
+   },
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er min **mobil**?",
+   "en": "Where is my phone?"
+  }
+ },
+ "en mobiltelefon": {
+  "forms": [
+   {
+    "da": "en mobiltelefon",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "mobiltelefonen",
+    "en": "the mobile phone"
+   },
+   {
+    "da": "mobiltelefoner",
+    "en": "mobile phones"
+   },
+   {
+    "da": "mobiltelefonerne",
+    "en": "the mobile phones"
+   }
+  ],
+  "explanation": "\"En mobiltelefon\" is the full word for a mobile phone, from \"mobil\" (mobile) and \"telefon\" (phone). In daily speech Danes nearly always shorten it to \"en mobil\". The longer form is more common in writing, on signs and in rules like \"Mobiltelefoner forbudt\". It is an en-word.",
+  "related": [
+   {
+    "da": "en mobil",
+    "en": "a mobile phone (short)"
+   },
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "en smartphone",
+    "en": "a smartphone"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
+   }
+  ],
+  "sentence": {
+   "da": "Min **mobiltelefon** ligger på bordet.",
+   "en": "My mobile phone is on the table."
+  }
+ },
+ "en mor": {
+  "forms": [
+   {
+    "da": "en mor",
+    "en": "a mother"
+   },
+   {
+    "da": "moren",
+    "en": "the mother"
+   },
+   {
+    "da": "mødre",
+    "en": "mothers"
+   },
+   {
+    "da": "mødrene",
+    "en": "the mothers"
+   }
+  ],
+  "explanation": "\"En mor\" is a mother. When talking about your own, Danes say \"min mor\" with no \"en\". The plural \"mødre\" has a changed vowel. \"Mor\" is also used like a name when speaking to her: \"Hej, mor!\".",
+  "related": [
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "en forælder",
+    "en": "a parent"
+   },
+   {
+    "da": "en bedstemor",
+    "en": "a grandmother"
+   },
+   {
+    "da": "en mormor",
+    "en": "a mother's mother"
+   }
+  ],
+  "sentence": {
+   "da": "Min **mor** laver god mad.",
+   "en": "My mother makes good food."
+  }
+ },
+ "en morfar": {
+  "forms": [
+   {
+    "da": "en morfar",
+    "en": "a grandfather (mother's father)"
+   },
+   {
+    "da": "morfaren",
+    "en": "the grandfather (mother's father)"
+   },
+   {
+    "da": "morfædre",
+    "en": "grandfathers (mother's father)"
+   },
+   {
+    "da": "morfædrene",
+    "en": "the grandfathers (mother's father)"
+   }
+  ],
+  "explanation": "\"En morfar\" is your mother's father: \"mor\" (mother) plus \"far\" (father). The word for your father's father is \"farfar\". Note that in the plural the vowel changes, so you get \"morfædre\". In everyday talk the word is also used as a name for grandpa.",
+  "related": [
+   {
+    "da": "en farfar",
+    "en": "a grandfather (father's father)"
+   },
+   {
+    "da": "en mormor",
+    "en": "a grandmother (mother's mother)"
+   },
+   {
+    "da": "en far",
+    "en": "a father"
+   },
+   {
+    "da": "bedsteforældre",
+    "en": "grandparents"
+   }
+  ],
+  "sentence": {
+   "da": "Min **morfar** går tur hver dag.",
+   "en": "My grandfather goes for a walk every day."
+  }
+ },
+ "en morgen": {
+  "forms": [
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "morgenen",
+    "en": "the morning"
+   },
+   {
+    "da": "morgener",
+    "en": "mornings"
+   },
+   {
+    "da": "morgenerne",
+    "en": "the mornings"
+   }
+  ],
+  "explanation": "En morgen is a morning, the early part of the day. Watch out for two similar phrases: \"i morgen\" means tomorrow, while \"i morges\" means this morning. \"Om morgenen\" means \"in the morning\", for something you do regularly. It is an en-word, and \"the morning\" is \"morgenen\". \"Godmorgen\" is how you greet someone in the morning.",
+  "related": [
+   {
+    "da": "en formiddag",
+    "en": "a late morning"
+   },
+   {
+    "da": "en middag",
+    "en": "midday / dinner"
+   },
+   {
+    "da": "en aften",
+    "en": "an evening"
+   },
+   {
+    "da": "i morgen",
+    "en": "tomorrow"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker kaffe om **morgenen**.",
+   "en": "I drink coffee in the morning."
+  }
+ },
+ "en mormor": {
+  "forms": [
+   {
+    "da": "en mormor",
+    "en": "a grandmother (mother's mother)"
+   },
+   {
+    "da": "mormoren",
+    "en": "the grandmother (mother's mother)"
+   },
+   {
+    "da": "mormødre",
+    "en": "grandmothers (mother's mother)"
+   },
+   {
+    "da": "mormødrene",
+    "en": "the grandmothers (mother's mother)"
+   }
+  ],
+  "explanation": "\"En mormor\" is your mother's mother. Danish has a separate word for each grandparent, so you can tell which side of the family you mean: \"mor\" (mother) plus \"mor\" (mother) gives \"mormor\". Your father's mother is \"farmor\". Children often say \"mormor\" like a name.",
+  "related": [
+   {
+    "da": "en farmor",
+    "en": "a grandmother (father's mother)"
+   },
+   {
+    "da": "en morfar",
+    "en": "a grandfather (mother's father)"
+   },
+   {
+    "da": "en mor",
+    "en": "a mother"
+   },
+   {
+    "da": "bedsteforældre",
+    "en": "grandparents"
+   }
+  ],
+  "sentence": {
+   "da": "Min **mormor** bor i Aarhus.",
+   "en": "My grandmother lives in Aarhus."
+  }
+ },
+ "en mund": {
+  "forms": [
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "munden",
+    "en": "the mouth"
+   },
+   {
+    "da": "munde",
+    "en": "mouths"
+   },
+   {
+    "da": "mundene",
+    "en": "the mouths"
+   }
+  ],
+  "explanation": "\"En mund\" is a mouth. It is an en-word. You will often hear it in the saying \"Hold munden!\" (Be quiet!), which is rude, and in \"Luk munden op\" (Open your mouth), which is what a dentist says. Learn it together with \"tand\" and \"tunge\".",
+  "related": [
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en tunge",
+    "en": "a tongue"
+   },
+   {
+    "da": "en læbe",
+    "en": "a lip"
+   },
+   {
+    "da": "en næse",
+    "en": "a nose"
+   }
+  ],
+  "sentence": {
+   "da": "Åbn **munden**, tak.",
+   "en": "Open your mouth, please."
+  }
+ },
+ "en mus": {
+  "forms": [
+   {
+    "da": "en mus",
+    "en": "a mouse"
+   },
+   {
+    "da": "musen",
+    "en": "the mouse"
+   },
+   {
+    "da": "mus",
+    "en": "mice"
+   },
+   {
+    "da": "musene",
+    "en": "the mice"
+   }
+  ],
+  "explanation": "\"En mus\" is a mouse, and it is an en-word. The plural is the same as the singular, so \"to mus\" means two mice. You also use it for the computer mouse, so \"en computermus\" is the thing you click with. A rat is \"en rotte\".",
+  "related": [
+   {
+    "da": "en rotte",
+    "en": "a rat"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en computer",
+    "en": "a computer"
+   }
+  ],
+  "sentence": {
+   "da": "Der løber en **mus** hen over gulvet.",
+   "en": "A mouse runs across the floor."
+  }
+ },
+ "en måde": {
+  "forms": [
+   {
+    "da": "en måde",
+    "en": "a way / manner"
+   },
+   {
+    "da": "måden",
+    "en": "the way / the manner"
+   },
+   {
+    "da": "måder",
+    "en": "ways"
+   },
+   {
+    "da": "måderne",
+    "en": "the ways"
+   }
+  ],
+  "explanation": "\"En måde\" is a way of doing something, and it is an en-word. \"På den måde\" means in that way, and \"på en eller anden måde\" means somehow. Do not mix it up with a road or path, which is \"en vej\". The plural is \"måder\".",
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road/way"
+   },
+   {
+    "da": "en metode",
+    "en": "a method"
+   },
+   {
+    "da": "en grund",
+    "en": "a reason"
+   },
+   {
+    "da": "ligesom",
+    "en": "just like"
+   }
+  ],
+  "sentence": {
+   "da": "Det kan man gøre på mange **måder**.",
+   "en": "You can do that in many ways."
+  }
+ },
+ "en måne": {
+  "forms": [
+   {
+    "da": "en måne",
+    "en": "a moon"
+   },
+   {
+    "da": "månen",
+    "en": "the moon"
+   },
+   {
+    "da": "måner",
+    "en": "moons"
+   },
+   {
+    "da": "månerne",
+    "en": "the moons"
+   }
+  ],
+  "explanation": "En måne is a moon. In daily life you mostly say \"månen\" (the moon), as in \"Månen er stor i aften\". The word is an en-word. Be careful not to mix it up with \"en måned\", which means a month. They look alike and share a start, but they mean different things, and only \"måned\" is about the calendar.",
+  "related": [
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en stjerne",
+    "en": "a star"
+   },
+   {
+    "da": "en himmel",
+    "en": "a sky"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   }
+  ],
+  "sentence": {
+   "da": "**Månen** er stor i aften.",
+   "en": "The moon is big tonight."
+  }
+ },
+ "en måned": {
+  "forms": [
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "måneden",
+    "en": "the month"
+   },
+   {
+    "da": "måneder",
+    "en": "months"
+   },
+   {
+    "da": "månederne",
+    "en": "the months"
+   }
+  ],
+  "explanation": "\"Måned\" is the ordinary word for a month. Months of the year are written with a small letter in Danish (januar, februar), unlike in English. You will often hear \"om måneden\" meaning \"per month\", for example when talking about rent or pay.",
+  "related": [
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "hver måned",
+    "en": "every month"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler husleje hver **måned**.",
+   "en": "I pay rent every month."
+  }
+ },
+ "et marked": {
+  "forms": [
+   {
+    "da": "et marked",
+    "en": "a market"
+   },
+   {
+    "da": "markedet",
+    "en": "the market"
+   },
+   {
+    "da": "markeder",
+    "en": "markets"
+   },
+   {
+    "da": "markederne",
+    "en": "the markets"
+   }
+  ],
+  "explanation": "Et marked is a market, such as an open-air place where people sell fruit, vegetables or second-hand things. It is an et-word, so \"the market\" is \"markedet\". \"Et loppemarked\" is a flea market. The same word is also used for the economy side of things, for example when people talk about \"markedet\" in the news.",
+  "related": [
+   {
+    "da": "en butik",
+    "en": "a shop"
+   },
+   {
+    "da": "et loppemarked",
+    "en": "a flea market"
+   },
+   {
+    "da": "et torv",
+    "en": "a square"
+   },
+   {
+    "da": "at sælge",
+    "en": "to sell"
+   }
+  ],
+  "sentence": {
+   "da": "Vi køber grøntsager på **markedet**.",
+   "en": "We buy vegetables at the market."
+  }
+ },
+ "et mellemnavn": {
+  "forms": [
+   {
+    "da": "et mellemnavn",
+    "en": "a middle name"
+   },
+   {
+    "da": "mellemnavnet",
+    "en": "the middle name"
+   },
+   {
+    "da": "mellemnavne",
+    "en": "middle names"
+   },
+   {
+    "da": "mellemnavnene",
+    "en": "the middle names"
+   }
+  ],
+  "explanation": "\"Et mellemnavn\" is a middle name, one that sits between the first and last name. \"Mellem\" means \"between\". Many Danes have one, and it is often an old family name. Some forms ask for it, but you can leave it empty if you have none.",
+  "related": [
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a last name"
+   },
+   {
+    "da": "et navn",
+    "en": "a name"
+   },
+   {
+    "da": "mellem",
+    "en": "between"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ikke noget **mellemnavn**.",
+   "en": "I do not have a middle name."
+  }
+ },
+ "et menneske": {
+  "forms": [
+   {
+    "da": "et menneske",
+    "en": "a human being"
+   },
+   {
+    "da": "mennesket",
+    "en": "the human being"
+   },
+   {
+    "da": "mennesker",
+    "en": "human beings"
+   },
+   {
+    "da": "menneskerne",
+    "en": "the human beings"
+   }
+  ],
+  "explanation": "\"Et menneske\" is a human being, and it is an et-word, even though it refers to a person. The plural \"mennesker\" is the common word for \"people\" in everyday speech: \"mange mennesker\" means lots of people. Use it when speaking about people in general.",
+  "related": [
+   {
+    "da": "en person",
+    "en": "a person"
+   },
+   {
+    "da": "en mand",
+    "en": "a man"
+   },
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "folk",
+    "en": "people"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mange **mennesker** i byen.",
+   "en": "There are many people in town."
+  }
+ },
+ "et menukort": {
+  "forms": [
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   },
+   {
+    "da": "menukortet",
+    "en": "the menu"
+   },
+   {
+    "da": "menukort",
+    "en": "menus"
+   },
+   {
+    "da": "menukortene",
+    "en": "the menus"
+   }
+  ],
+  "explanation": "\"Et menukort\" is the menu in a restaurant, the list of dishes and drinks. It is an et-word, so \"the menu\" is \"menukortet\". You can ask a waiter \"Må jeg se menukortet?\" (May I see the menu?). People also say \"en menu\" for a set meal with several courses.",
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order"
+   },
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg se **menukortet**, tak?",
+   "en": "Can I see the menu, please?"
+  }
+ },
+ "et minut": {
+  "forms": [
+   {
+    "da": "et minut",
+    "en": "a minute"
+   },
+   {
+    "da": "minuttet",
+    "en": "the minute"
+   },
+   {
+    "da": "minutter",
+    "en": "minutes"
+   },
+   {
+    "da": "minutterne",
+    "en": "the minutes"
+   }
+  ],
+  "explanation": "Et minut is a minute, 60 seconds. It is an et-word, which can be surprising for English speakers, so remember \"et minut\" and \"minuttet\" (the minute). More than one is \"minutter\". People often ask others to wait with \"Vent et øjeblik\" (wait a moment), but \"Vent et minut\" is also fine.",
+  "related": [
+   {
+    "da": "en time",
+    "en": "an hour"
+   },
+   {
+    "da": "et sekund",
+    "en": "a second"
+   },
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "et kvarter",
+    "en": "a quarter of an hour"
+   }
+  ],
+  "sentence": {
+   "da": "Vent et **minut**, tak.",
+   "en": "Wait a minute, please."
+  }
+ },
+ "et museum": {
+  "forms": [
+   {
+    "da": "et museum",
+    "en": "a museum"
+   },
+   {
+    "da": "museet",
+    "en": "the museum"
+   },
+   {
+    "da": "museer",
+    "en": "museums"
+   },
+   {
+    "da": "museerne",
+    "en": "the museums"
+   }
+  ],
+  "explanation": "Et museum is a museum, a place with art, history or science to look at. It is an et-word, and it behaves in a special way: for \"the museum\" the end \"-um\" is dropped and you get \"museet\", and for more than one you get \"museer\". You say \"på museet\" for \"at the museum\".",
+  "related": [
+   {
+    "da": "et galleri",
+    "en": "a gallery"
+   },
+   {
+    "da": "en udstilling",
+    "en": "an exhibition"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en kunstner",
+    "en": "an artist"
+   }
+  ],
+  "sentence": {
+   "da": "Vi besøger **museet** i dag.",
+   "en": "We are visiting the museum today."
+  }
+ },
+ "et måltid": {
+  "forms": [
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "måltidet",
+    "en": "the meal"
+   },
+   {
+    "da": "måltider",
+    "en": "meals"
+   },
+   {
+    "da": "måltiderne",
+    "en": "the meals"
+   }
+  ],
+  "explanation": "\"Et måltid\" is a meal, any occasion when you sit down to eat, like breakfast, lunch or dinner. It is an et-word. In Danish people also use \"et måltid mad\" (a meal of food). It is built from \"mål\" (a set time) and \"tid\" (time).",
+  "related": [
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "frokost",
+    "en": "lunch"
+   },
+   {
+    "da": "aftensmad",
+    "en": "dinner"
+   },
+   {
+    "da": "mad",
+    "en": "food"
+   }
+  ],
+  "sentence": {
+   "da": "Dagens vigtigste **måltid** er morgenmad.",
+   "en": "The most important meal of the day is breakfast."
+  }
+ },
+ "et møde": {
+  "forms": [
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   },
+   {
+    "da": "mødet",
+    "en": "the meeting"
+   },
+   {
+    "da": "møder",
+    "en": "meetings"
+   },
+   {
+    "da": "møderne",
+    "en": "the meetings"
+   }
+  ],
+  "explanation": "\"Et møde\" is a meeting, and it is an et-word. The plural is \"møder\". It comes from the verb \"at møde\", to meet. \"Jeg har et møde klokken ti\" means \"I have a meeting at ten\". For meeting a person by chance you can also say \"at møde nogen\".",
+  "related": [
+   {
+    "da": "at møde",
+    "en": "to meet"
+   },
+   {
+    "da": "en aftale",
+    "en": "an appointment"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har et **møde** i morgen.",
+   "en": "We have a meeting tomorrow."
+  }
+ },
+ "mad": {
+  "forms": [
+   {
+    "da": "mad",
+    "en": "food"
+   },
+   {
+    "da": "maden",
+    "en": "the food"
+   },
+   {
+    "da": "god mad",
+    "en": "good food"
+   }
+  ],
+  "explanation": "\"Mad\" means food, in general. It is an en-word and is used for what you eat, as a whole. You say \"Jeg elsker dansk mad\". For one dish Danish uses \"en ret\" (a dish), and \"en mad\" can mean a sandwich.",
+  "related": [
+   {
+    "da": "en ret",
+    "en": "a dish"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "sulten",
+    "en": "hungry"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide dansk **mad**.",
+   "en": "I like Danish food."
+  }
+ },
+ "maj": {
+  "forms": [
+   {
+    "da": "maj",
+    "en": "May"
+   },
+   {
+    "da": "i maj",
+    "en": "in May"
+   },
+   {
+    "da": "i starten af maj",
+    "en": "early in May"
+   }
+  ],
+  "explanation": "\"Maj\" is May. It is a short word that sounds like English \"my\", and it is written with a small letter. You say \"i maj\" for in May. It is a lovely month in Denmark, with the first warm days and several public holidays.",
+  "related": [
+   {
+    "da": "april",
+    "en": "April"
+   },
+   {
+    "da": "juni",
+    "en": "June"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på ferie i **maj**.",
+   "en": "We are going on vacation in May."
+  }
+ },
+ "majs": {
+  "forms": [
+   {
+    "da": "en majs",
+    "en": "a corn"
+   },
+   {
+    "da": "majsen",
+    "en": "the corn"
+   }
+  ],
+  "explanation": "\"Majs\" is corn, the yellow kind that you eat as a vegetable. It is an en-word and is not counted, so you say \"noget majs\". A whole ear is \"en majskolbe\", and \"popcorn\" is the snack made from it. It is often sold in cans and used in salads.",
+  "related": [
+   {
+    "da": "popcorn",
+    "en": "popcorn"
+   },
+   {
+    "da": "ærter",
+    "en": "peas"
+   },
+   {
+    "da": "en majskolbe",
+    "en": "an ear of corn"
+   },
+   {
+    "da": "en salat",
+    "en": "a salad"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have **majs** i salaten.",
+   "en": "I want corn in the salad."
+  }
+ },
+ "man": {
+  "forms": [
+   {
+    "da": "man må ikke ryge her",
+    "en": "you may not smoke here"
+   },
+   {
+    "da": "man kan købe billetter her",
+    "en": "you can buy tickets here"
+   },
+   {
+    "da": "hvordan gør man det?",
+    "en": "how do you do that?"
+   }
+  ],
+  "explanation": "\"Man\" means \"one\" or \"you\" in the general sense of people, anyone. It is very common in Danish, much more than \"one\" is in English, for rules and tips. Do not confuse it with \"en mand\" (a man) or \"du\" (you, a specific person).",
+  "related": [
+   {
+    "da": "en mand",
+    "en": "a man"
+   },
+   {
+    "da": "du",
+    "en": "you"
+   },
+   {
+    "da": "vi",
+    "en": "we"
+   },
+   {
+    "da": "folk",
+    "en": "people"
+   }
+  ],
+  "sentence": {
+   "da": "Her må **man** ikke parkere.",
+   "en": "You may not park here."
+  }
+ },
+ "mandag": {
+  "forms": [
+   {
+    "da": "en mandag",
+    "en": "a Monday"
+   },
+   {
+    "da": "mandagen",
+    "en": "the Monday"
+   },
+   {
+    "da": "mandage",
+    "en": "Mondays"
+   },
+   {
+    "da": "mandagene",
+    "en": "the Mondays"
+   }
+  ],
+  "explanation": "Monday is the start of the Danish working week. Use \"på mandag\" for \"on Monday\" (next one) and \"om mandagen\" for \"on Mondays\" in general. Day names are written with a small letter in Danish, unlike in English. A tip: \"i mandags\" means last Monday.",
+  "related": [
+   {
+    "da": "en tirsdag",
+    "en": "Tuesday"
+   },
+   {
+    "da": "en søndag",
+    "en": "Sunday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har fri **mandag**.",
+   "en": "I am off on Monday."
+  }
+ },
+ "mandlig": {
+  "forms": [
+   {
+    "da": "en mandlig sygeplejerske",
+    "en": "a male nurse"
+   },
+   {
+    "da": "et mandligt navn",
+    "en": "a male name"
+   },
+   {
+    "da": "mandlige kokke",
+    "en": "male chefs"
+   }
+  ],
+  "explanation": "\"Mandlig\" means male or masculine. It comes from \"mand\" (man). You will see it on forms, for example when asked about sex, and in job descriptions. The opposite is \"kvindelig\". Note the extra -t with et-words: \"et mandligt navn\".",
+  "related": [
+   {
+    "da": "kvindelig",
+    "en": "female"
+   },
+   {
+    "da": "en mand",
+    "en": "a man"
+   },
+   {
+    "da": "en herre",
+    "en": "a gentleman"
+   },
+   {
+    "da": "et køn",
+    "en": "a sex / gender"
+   }
+  ],
+  "sentence": {
+   "da": "Han er en **mandlig** sygeplejerske.",
+   "en": "He is a male nurse."
+  }
+ },
+ "mange": {
+  "forms": [
+   {
+    "da": "mange mennesker",
+    "en": "many people"
+   },
+   {
+    "da": "mange gange",
+    "en": "many times"
+   },
+   {
+    "da": "Hvor mange?",
+    "en": "How many?"
+   }
+  ],
+  "explanation": "\"Mange\" means \"many\" and is used for things you can count: \"mange biler\" (many cars). It never changes. The question \"Hvor mange?\" means \"How many?\". For things you cannot count, like water or time, use \"meget\" instead.",
+  "related": [
+   {
+    "da": "meget",
+    "en": "much / a lot"
+   },
+   {
+    "da": "få",
+    "en": "few"
+   },
+   {
+    "da": "nogle",
+    "en": "some"
+   },
+   {
+    "da": "flere",
+    "en": "more / several"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **mange** mennesker her.",
+   "en": "There are many people here."
+  }
+ },
+ "mange tak": {
+  "forms": [
+   {
+    "da": "Mange tak!",
+    "en": "Thank you very much!"
+   },
+   {
+    "da": "Mange tak for hjælpen.",
+    "en": "Thank you very much for the help."
+   },
+   {
+    "da": "Mange tak for maden.",
+    "en": "Many thanks for the food."
+   }
+  ],
+  "explanation": "\"Mange tak\" means \"many thanks\" and is a bit stronger than plain \"tak\". Add \"for\" and the thing you are thankful for. It is polite and useful in shops, restaurants and with strangers. The reply is \"selv tak\" or \"ingen årsag\".",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "tusind tak",
+    "en": "thanks a lot"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   }
+  ],
+  "sentence": {
+   "da": "**Mange tak** for gaven!",
+   "en": "Thank you very much for the gift!"
+  }
+ },
+ "marts": {
+  "forms": [
+   {
+    "da": "marts",
+    "en": "March"
+   },
+   {
+    "da": "i marts",
+    "en": "in March"
+   },
+   {
+    "da": "i starten af marts",
+    "en": "early in March"
+   }
+  ],
+  "explanation": "\"Marts\" is March. Notice that it ends in -s, which is easy to forget, and it is written with a small letter. You say \"i marts\" for in March. Danes often use it with dates: \"den tiende marts\" is the tenth of March.",
+  "related": [
+   {
+    "da": "februar",
+    "en": "February"
+   },
+   {
+    "da": "april",
+    "en": "April"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Foråret begynder i **marts**.",
+   "en": "Spring begins in March."
+  }
+ },
+ "masser af": {
+  "forms": [
+   {
+    "da": "masser af penge",
+    "en": "lots of money"
+   },
+   {
+    "da": "masser af tid",
+    "en": "lots of time"
+   },
+   {
+    "da": "masser af venner",
+    "en": "lots of friends"
+   }
+  ],
+  "explanation": "\"Masser af\" means lots of, a large amount of something. It is informal and common in everyday talk, and it works with both things you can count and things you cannot. \"Masser\" does not change, and \"af\" is always followed by the thing: \"masser af mad\" (lots of food).",
+  "related": [
+   {
+    "da": "meget",
+    "en": "much / a lot"
+   },
+   {
+    "da": "mange",
+    "en": "many"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "nogle",
+    "en": "some"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **masser af** mad i køleskabet.",
+   "en": "There is lots of food in the fridge."
+  }
+ },
+ "matematik": {
+  "forms": [
+   {
+    "da": "matematik",
+    "en": "math"
+   },
+   {
+    "da": "matematikken",
+    "en": "the math"
+   },
+   {
+    "da": "Jeg har matematik.",
+    "en": "I have math."
+   }
+  ],
+  "explanation": "\"Matematik\" means maths (math), the school lesson or the topic in general. It is an en-word and you use it without \"en\" in front. In school talk Danes often shorten it to \"matte\". Say \"Jeg er god til matematik\" for \"I am good at math\".",
+  "related": [
+   {
+    "da": "matte",
+    "en": "maths (short, informal)"
+   },
+   {
+    "da": "et regnestykke",
+    "en": "a sum"
+   },
+   {
+    "da": "et tal",
+    "en": "a number"
+   },
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **matematik** klokken ni.",
+   "en": "I have math at nine o'clock."
+  }
+ },
+ "mayonnaise": {
+  "forms": [
+   {
+    "da": "en mayonnaise",
+    "en": "a mayonnaise"
+   },
+   {
+    "da": "mayonnaisen",
+    "en": "the mayonnaise"
+   }
+  ],
+  "explanation": "\"Mayonnaise\" is mayonnaise, and it is an en-word. It is usually said as \"mayo\" in everyday talk, and in Denmark it is common on open sandwiches and with fries. It is not counted, so you say \"noget mayonnaise\". Its spelling is tricky, so learn it as a whole.",
+  "related": [
+   {
+    "da": "ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "sennep",
+    "en": "mustard"
+   },
+   {
+    "da": "en rejemad",
+    "en": "a shrimp sandwich"
+   },
+   {
+    "da": "pommes frites",
+    "en": "French fries"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have lidt **mayonnaise** på brødet.",
+   "en": "I want a little mayonnaise on the bread."
+  }
+ },
  "med": {
   "forms": [
    {
@@ -122,6 +1860,1055 @@
   "sentence": {
    "da": "Jeg bor **med** min bror.",
    "en": "I live with my brother."
+  }
+ },
+ "med det samme": {
+  "forms": [
+   {
+    "da": "Jeg kommer med det samme.",
+    "en": "I'm coming right away."
+   },
+   {
+    "da": "Gør det med det samme.",
+    "en": "Do it right away."
+   },
+   {
+    "da": "Vi går med det samme.",
+    "en": "We are leaving right away."
+   }
+  ],
+  "explanation": "\"Med det samme\" means \"right away\" or \"immediately\". It literally says \"with the same\", but just learn it as a fixed phrase. It goes at the end of a sentence, like \"jeg kommer med det samme\". For something slightly softer, \"om lidt\" means \"in a little while\".",
+  "related": [
+   {
+    "da": "straks",
+    "en": "at once"
+   },
+   {
+    "da": "om lidt",
+    "en": "in a little while"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer til dig **med det samme**.",
+   "en": "I'll call you right away."
+  }
+ },
+ "medicin": {
+  "forms": [
+   {
+    "da": "en medicin",
+    "en": "a medicine"
+   },
+   {
+    "da": "medicinen",
+    "en": "the medicine"
+   },
+   {
+    "da": "at tage medicin",
+    "en": "to take medicine"
+   }
+  ],
+  "explanation": "\"Medicin\" is medicine, the drugs you take when you are sick. It is an en-word. You say \"at tage medicin\" (to take medicine), and \"medicinen\" when you mean the specific one. It is often used with \"recept\" (a prescription) at the pharmacy.",
+  "related": [
+   {
+    "da": "en pille",
+    "en": "a pill"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager min **medicin** hver morgen.",
+   "en": "I take my medicine every morning."
+  }
+ },
+ "meget": {
+  "forms": [
+   {
+    "da": "meget stor",
+    "en": "very big"
+   },
+   {
+    "da": "Tak for meget!",
+    "en": "Thank you very much!"
+   },
+   {
+    "da": "Jeg har meget tid.",
+    "en": "I have a lot of time."
+   }
+  ],
+  "explanation": "\"Meget\" means \"very\" in front of a describing word, as in \"meget god\" (very good), and \"a lot\" or \"much\" with amounts, as in \"meget vand\" (a lot of water). It is also used alone: \"Tak for meget\" is a way to say a big thank you. For things you can count, Danes use \"mange\" (many) instead. A tip: \"meget\" never changes its ending.",
+  "related": [
+   {
+    "da": "mange",
+    "en": "many"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "rigtig",
+    "en": "really"
+   },
+   {
+    "da": "ret",
+    "en": "fairly"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **meget** koldt i dag.",
+   "en": "It is very cold today."
+  }
+ },
+ "mel": {
+  "forms": [
+   {
+    "da": "et mel",
+    "en": "a flour"
+   },
+   {
+    "da": "melet",
+    "en": "the flour"
+   },
+   {
+    "da": "noget mel",
+    "en": "some flour"
+   }
+  ],
+  "explanation": "\"Mel\" is flour, and it is an et-word, so \"the flour\" is \"melet\". It is not counted, so you say \"noget mel\" or \"to dl mel\" (two decilitres of flour). It is used for baking bread and cakes, and for thickening sauces. Short and simple to spell, but don't mix it up with \"mælk\" (milk).",
+  "related": [
+   {
+    "da": "sukker",
+    "en": "sugar"
+   },
+   {
+    "da": "et æg",
+    "en": "an egg"
+   },
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal bruge **mel** til kagen.",
+   "en": "We need flour for the cake."
+  }
+ },
+ "mellem": {
+  "forms": [
+   {
+    "da": "mellem huset og skoven",
+    "en": "between the house and the forest"
+   },
+   {
+    "da": "mellem os",
+    "en": "between us"
+   },
+   {
+    "da": "mellem to og tre",
+    "en": "between two and three"
+   }
+  ],
+  "explanation": "\"Mellem\" means between, and it is used for places, times and amounts. It often goes with \"og\" (and): \"mellem to og tre\". It is also used for \"among two or more\", like \"forskellen mellem dem\" (the difference between them).",
+  "related": [
+   {
+    "da": "midt i",
+    "en": "in the middle of"
+   },
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   },
+   {
+    "da": "blandt",
+    "en": "among"
+   },
+   {
+    "da": "imellem",
+    "en": "in between"
+   }
+  ],
+  "sentence": {
+   "da": "Banken ligger **mellem** posthuset og skolen.",
+   "en": "The bank is between the post office and the school."
+  }
+ },
+ "men": {
+  "forms": [
+   {
+    "da": "men jeg vil gerne",
+    "en": "but I would like to"
+   },
+   {
+    "da": "ikke dyr, men god",
+    "en": "not expensive, but good"
+   },
+   {
+    "da": "men så",
+    "en": "but then"
+   }
+  ],
+  "explanation": "\"Men\" means but, and it joins two ideas that go against each other. It is one of the most common words in Danish and very easy to use. After \"men\", the sentence continues with the normal word order: \"Jeg er træt, men jeg kommer\".",
+  "related": [
+   {
+    "da": "og",
+    "en": "and"
+   },
+   {
+    "da": "eller",
+    "en": "or"
+   },
+   {
+    "da": "dog",
+    "en": "however"
+   },
+   {
+    "da": "alligevel",
+    "en": "anyway"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er træt, **men** jeg kommer.",
+   "en": "I am tired, but I am coming."
+  }
+ },
+ "mens": {
+  "forms": [
+   {
+    "da": "mens jeg venter",
+    "en": "while I wait"
+   },
+   {
+    "da": "mens hun laver mad",
+    "en": "while she cooks"
+   },
+   {
+    "da": "mens vi spiser",
+    "en": "while we eat"
+   }
+  ],
+  "explanation": "\"Mens\" means while, and it joins two things that happen at the same time. After \"mens\", the doer comes first: \"mens jeg venter\". A close friend is \"imens\", which means \"meanwhile\". It is very common when telling a story or describing a daily routine.",
+  "related": [
+   {
+    "da": "imens",
+    "en": "meanwhile"
+   },
+   {
+    "da": "da",
+    "en": "when (past)"
+   },
+   {
+    "da": "når",
+    "en": "when"
+   },
+   {
+    "da": "under",
+    "en": "during"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker kaffe, **mens** jeg læser.",
+   "en": "I drink coffee while I read."
+  }
+ },
+ "mere": {
+  "forms": [
+   {
+    "da": "mere vand",
+    "en": "more water"
+   },
+   {
+    "da": "Jeg vil have mere.",
+    "en": "I want more."
+   },
+   {
+    "da": "ikke mere",
+    "en": "no longer / no more"
+   }
+  ],
+  "explanation": "\"Mere\" means \"more\" and is used for amounts you cannot count, like \"mere vand\" or \"mere tid\". Put it before a describing word to make a comparison: \"mere interessant\" (more interesting). \"Ikke mere\" means \"no longer\" or \"no more\". For things you can count, \"flere\" is the usual word.",
+  "related": [
+   {
+    "da": "flere",
+    "en": "more (in number)"
+   },
+   {
+    "da": "mest",
+    "en": "most"
+   },
+   {
+    "da": "mindre",
+    "en": "less"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg få **mere** kaffe?",
+   "en": "Can I have more coffee?"
+  }
+ },
+ "mest": {
+  "forms": [
+   {
+    "da": "mest af alt",
+    "en": "most of all"
+   },
+   {
+    "da": "Jeg kan lide det mest.",
+    "en": "I like it the most."
+   },
+   {
+    "da": "Det er mest sjovt.",
+    "en": "It is mostly fun."
+   }
+  ],
+  "explanation": "\"Mest\" means \"most\" or \"mostly\". \"Mest af alt\" means \"most of all\". Put it before a describing word to say the top level, like \"mest interessant\" (most interesting). The pattern is \"mere\" (more), then \"mest\" (most).",
+  "related": [
+   {
+    "da": "mere",
+    "en": "more"
+   },
+   {
+    "da": "mindst",
+    "en": "least"
+   },
+   {
+    "da": "de fleste",
+    "en": "most (of them)"
+   },
+   {
+    "da": "mange",
+    "en": "many"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **mest** lide kaffe.",
+   "en": "I like coffee the most."
+  }
+ },
+ "mig": {
+  "forms": [
+   {
+    "da": "Han ser mig.",
+    "en": "He sees me."
+   },
+   {
+    "da": "Kan du hjælpe mig?",
+    "en": "Can you help me?"
+   },
+   {
+    "da": "Giv mig vand.",
+    "en": "Give me water."
+   }
+  ],
+  "explanation": "\"Mig\" means \"me\". You use it when something is done to you, or after words like \"til\" and \"med\". When you are the one doing it, you say \"jeg\" instead. The Danish for \"with me\" is \"med mig\", and \"to me\" is \"til mig\".",
+  "related": [
+   {
+    "da": "jeg",
+    "en": "I"
+   },
+   {
+    "da": "min",
+    "en": "my (en-word)"
+   },
+   {
+    "da": "dig",
+    "en": "you (after a verb)"
+   },
+   {
+    "da": "os",
+    "en": "us"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du hjælpe **mig**?",
+   "en": "Can you help me?"
+  }
+ },
+ "million": {
+  "forms": [
+   {
+    "da": "en million",
+    "en": "a million"
+   },
+   {
+    "da": "millionen",
+    "en": "the million"
+   },
+   {
+    "da": "millioner",
+    "en": "millions"
+   },
+   {
+    "da": "millionerne",
+    "en": "the millions"
+   }
+  ],
+  "explanation": "\"En million\" is a million. It is an en-word, so you say \"en million\" for one, and add -er for more: \"to millioner\" (two million). After a number, the thing counted goes after \"million\": \"en million mennesker\" (a million people). Do not mix it up with \"milliard\", which means a billion (1,000 million).",
+  "related": [
+   {
+    "da": "tusind",
+    "en": "thousand"
+   },
+   {
+    "da": "hundrede",
+    "en": "hundred"
+   },
+   {
+    "da": "en milliard",
+    "en": "a billion"
+   },
+   {
+    "da": "en million kroner",
+    "en": "a million kroner"
+   }
+  ],
+  "sentence": {
+   "da": "Der bor over fem **millioner** mennesker i Danmark.",
+   "en": "More than five million people live in Denmark."
+  }
+ },
+ "min": {
+  "forms": [
+   {
+    "da": "min bil",
+    "en": "my car"
+   },
+   {
+    "da": "min mor",
+    "en": "my mother"
+   },
+   {
+    "da": "Bilen er min.",
+    "en": "The car is mine."
+   }
+  ],
+  "explanation": "\"Min\" means \"my\" or \"mine\" and goes with en-words, such as \"min bil\" (my car) or \"min ven\" (my friend). For et-words use \"mit\", and for many things \"mine\". It comes before the thing, just like in English, and in Danish it does not take \"the\" with it.",
+  "related": [
+   {
+    "da": "mit",
+    "en": "my (et-word)"
+   },
+   {
+    "da": "mine",
+    "en": "my (many)"
+   },
+   {
+    "da": "din",
+    "en": "your (en-word)"
+   },
+   {
+    "da": "jeg",
+    "en": "I"
+   }
+  ],
+  "sentence": {
+   "da": "**Min** mor bor i Odense.",
+   "en": "My mother lives in Odense."
+  }
+ },
+ "mindre": {
+  "forms": [
+   {
+    "da": "mindre kaffe",
+    "en": "less coffee"
+   },
+   {
+    "da": "et mindre hus",
+    "en": "a smaller house"
+   },
+   {
+    "da": "mindre end",
+    "en": "less than"
+   }
+  ],
+  "explanation": "\"Mindre\" means both less (an amount) and smaller (a size). It is the \"more small\" form of \"lille\" and \"lidt\", which is why one word covers both ideas. The opposite is \"mere\" for more amount or \"større\" for bigger size.",
+  "related": [
+   {
+    "da": "mere",
+    "en": "more"
+   },
+   {
+    "da": "lille",
+    "en": "small"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "større",
+    "en": "bigger"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **mindre** brød nu.",
+   "en": "I eat less bread now."
+  }
+ },
+ "mine": {
+  "forms": [
+   {
+    "da": "mine bøger",
+    "en": "my books"
+   },
+   {
+    "da": "mine venner",
+    "en": "my friends"
+   },
+   {
+    "da": "Bøgerne er mine.",
+    "en": "The books are mine."
+   }
+  ],
+  "explanation": "\"Mine\" means \"my\" or \"mine\" when you talk about more than one thing, such as \"mine børn\" (my children). It works for both en-words and et-words, so you do not have to choose. For one thing you use \"min\" or \"mit\" instead.",
+  "related": [
+   {
+    "da": "min",
+    "en": "my (en-word)"
+   },
+   {
+    "da": "mit",
+    "en": "my (et-word)"
+   },
+   {
+    "da": "dine",
+    "en": "your (many)"
+   },
+   {
+    "da": "mig",
+    "en": "me"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **mine** nøgler.",
+   "en": "Those are my keys."
+  }
+ },
+ "mit": {
+  "forms": [
+   {
+    "da": "mit hus",
+    "en": "my house"
+   },
+   {
+    "da": "mit barn",
+    "en": "my child"
+   },
+   {
+    "da": "Huset er mit.",
+    "en": "The house is mine."
+   }
+  ],
+  "explanation": "\"Mit\" means \"my\" or \"mine\" and goes with et-words, such as \"mit hus\" (my house) or \"mit navn\" (my name). For en-words you say \"min\", and for many things \"mine\". A good tip is to learn each word together with en or et, so you know which one to pick.",
+  "related": [
+   {
+    "da": "min",
+    "en": "my (en-word)"
+   },
+   {
+    "da": "mine",
+    "en": "my (many)"
+   },
+   {
+    "da": "dit",
+    "en": "your (et-word)"
+   },
+   {
+    "da": "et hus",
+    "en": "a house"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **mit** hus.",
+   "en": "That is my house."
+  }
+ },
+ "mod": {
+  "forms": [
+   {
+    "da": "Han kigger mod døren.",
+    "en": "He looks toward the door."
+   },
+   {
+    "da": "Jeg er imod det.",
+    "en": "I am against it."
+   },
+   {
+    "da": "mod syd",
+    "en": "toward the south"
+   }
+  ],
+  "explanation": "\"Mod\" means against or toward, depending on the sentence. It can mean opposing something (\"imod\" is often used for that) or heading in a direction (\"mod nord\"). As a different word, \"et mod\" means courage. A tip: \"Jeg er imod\" is the common way to say \"I am against it\".",
+  "related": [
+   {
+    "da": "imod",
+    "en": "against, opposed"
+   },
+   {
+    "da": "mod",
+    "en": "toward"
+   },
+   {
+    "da": "et mod",
+    "en": "courage"
+   },
+   {
+    "da": "for",
+    "en": "for"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går **mod** stationen.",
+   "en": "We are walking toward the station."
+  }
+ },
+ "morgenmad": {
+  "forms": [
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "morgenmaden",
+    "en": "the breakfast"
+   },
+   {
+    "da": "til morgenmad",
+    "en": "for breakfast"
+   }
+  ],
+  "explanation": "\"Morgenmad\" is breakfast, built from \"morgen\" (morning) and \"mad\" (food). It is an en-word, and you say \"til morgenmad\" for \"for breakfast\". To eat it, you use \"at spise morgenmad\". Notice that no \"a\" is needed: \"Jeg spiser morgenmad\".",
+  "related": [
+   {
+    "da": "frokost",
+    "en": "lunch"
+   },
+   {
+    "da": "aftensmad",
+    "en": "dinner"
+   },
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **morgenmad** klokken syv.",
+   "en": "We eat breakfast at seven o'clock."
+  }
+ },
+ "musik": {
+  "forms": [
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "musikken",
+    "en": "the music"
+   },
+   {
+    "da": "Jeg lytter til musik.",
+    "en": "I listen to music."
+   }
+  ],
+  "explanation": "\"Musik\" means music. It is an en-word and is used without \"en\" when you mean music in general. You listen to it: \"at lytte til musik\". For a lesson at school you say \"Jeg har musik\". A musician is \"en musiker\".",
+  "related": [
+   {
+    "da": "en sang",
+    "en": "a song"
+   },
+   {
+    "da": "en musiker",
+    "en": "a musician"
+   },
+   {
+    "da": "at synge",
+    "en": "to sing"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **musik**.",
+   "en": "I love music."
+  }
+ },
+ "må jeg bede om regningen?": {
+  "forms": [
+   {
+    "da": "Må jeg bede om regningen?",
+    "en": "May I have the bill?"
+   },
+   {
+    "da": "Må jeg bede om menukortet?",
+    "en": "May I have the menu?"
+   },
+   {
+    "da": "Regningen, tak.",
+    "en": "The bill, please."
+   }
+  ],
+  "explanation": "\"Må jeg bede om regningen?\" is a very polite way to ask for the bill at a restaurant. \"Må jeg bede om\" means \"may I ask for\". A shorter, normal way is \"regningen, tak\". \"Regning\" is an en-word, so it becomes \"regningen\" with \"the\" on the end.",
+  "related": [
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   }
+  ],
+  "sentence": {
+   "da": "**Må jeg bede om regningen?** Vi skal af sted.",
+   "en": "May I have the bill? We have to go."
+  }
+ },
+ "må jeg få regningen?": {
+  "forms": [
+   {
+    "da": "Må jeg få regningen?",
+    "en": "May I have the bill?"
+   },
+   {
+    "da": "Må jeg få menuen?",
+    "en": "May I have the menu?"
+   },
+   {
+    "da": "Må jeg få en kop kaffe?",
+    "en": "May I have a cup of coffee?"
+   }
+  ],
+  "explanation": "\"Må jeg få regningen?\" means \"May I have the bill?\" and is polite to say in a restaurant or café. \"Må jeg få ...?\" is a general polite way to ask for something, so you can use it for \"menuen\" (the menu) or \"en kop kaffe\" (a cup of coffee). \"Regningen\" is \"the bill\", which is \"en regning\" plus the ending \"-en\" for \"the\". Danes often say \"tak\" afterwards.",
+  "related": [
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en menu",
+    "en": "a menu"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "tak",
+    "en": "thanks / please"
+   }
+  ],
+  "sentence": {
+   "da": "**Må jeg få regningen**, tak?",
+   "en": "May I have the bill, please?"
+  }
+ },
+ "måske": {
+  "forms": [
+   {
+    "da": "Måske i morgen.",
+    "en": "Maybe tomorrow."
+   },
+   {
+    "da": "Måske har du ret.",
+    "en": "Maybe you are right."
+   },
+   {
+    "da": "Ja, måske.",
+    "en": "Yes, maybe."
+   }
+  ],
+  "explanation": "\"Måske\" means \"maybe\" or \"perhaps\" and shows that you are not sure. When it starts a sentence, the verb comes next, as in \"Måske kommer han\" (Maybe he will come). In the middle of the sentence, it goes after the verb, as in \"Han kommer måske\". A tip: it is a good, polite answer when you don't want to say yes or no right away.",
+  "related": [
+   {
+    "da": "nok",
+    "en": "probably"
+   },
+   {
+    "da": "sikkert",
+    "en": "surely"
+   },
+   {
+    "da": "selvfølgelig",
+    "en": "of course"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "**Måske** kommer han i morgen.",
+   "en": "Maybe he will come tomorrow."
+  }
+ },
+ "mælk": {
+  "forms": [
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "mælken",
+    "en": "the milk"
+   },
+   {
+    "da": "et glas mælk",
+    "en": "a glass of milk"
+   }
+  ],
+  "explanation": "\"Mælk\" means milk. It is an en-word, so \"the milk\" is \"mælken\". It takes no \"a\" in front: you say \"Jeg drikker mælk\". For quantity use \"et glas mælk\" (a glass of milk) or \"en liter mælk\" (a litre of milk).",
+  "related": [
+   {
+    "da": "fløde",
+    "en": "cream"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker et glas **mælk** hver morgen.",
+   "en": "I drink a glass of milk every morning."
+  }
+ },
+ "mæt": {
+  "forms": [
+   {
+    "da": "en mæt mand",
+    "en": "a full man"
+   },
+   {
+    "da": "et mæt barn",
+    "en": "a full child"
+   },
+   {
+    "da": "mætte børn",
+    "en": "full children"
+   }
+  ],
+  "explanation": "\"Mæt\" means full after eating, with no more room for food. \"Jeg er mæt\" is the polite way to say you have had enough, and you can use it to refuse seconds. It already ends in \"t\", so it stays the same for en-words and et-words, and the form for more than one is \"mætte\". The opposite is \"sulten\". Do not use it to say a room is full; for that use \"fuld\".",
+  "related": [
+   {
+    "da": "sulten",
+    "en": "hungry"
+   },
+   {
+    "da": "fuld",
+    "en": "full"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "nok",
+    "en": "enough"
+   }
+  ],
+  "sentence": {
+   "da": "Tak, jeg er **mæt**.",
+   "en": "Thank you, I am full."
+  }
+ },
+ "mørk": {
+  "forms": [
+   {
+    "da": "en mørk nat",
+    "en": "a dark night"
+   },
+   {
+    "da": "et mørkt rum",
+    "en": "a dark room"
+   },
+   {
+    "da": "mørke rum",
+    "en": "dark rooms"
+   }
+  ],
+  "explanation": "\"Mørk\" means dark, for light, rooms, nights and colours: \"mørkeblå\" is dark blue. Danes also use it for dark hair and dark chocolate. Add \"t\" for et-words (\"et mørkt rum\") and \"-e\" for more than one. The word \"mørke\" is the darkness itself, as in \"i mørket\" (in the dark). The opposite is \"lys\" (light, bright).",
+  "related": [
+   {
+    "da": "lys",
+    "en": "light / bright"
+   },
+   {
+    "da": "mørket",
+    "en": "the darkness"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   },
+   {
+    "da": "en farve",
+    "en": "a colour"
+   }
+  ],
+  "sentence": {
+   "da": "Det er meget **mørkt** udenfor.",
+   "en": "It is very dark outside."
+  }
+ },
+ "mørkeblå": {
+  "forms": [
+   {
+    "da": "en mørkeblå jakke",
+    "en": "a dark blue jacket"
+   },
+   {
+    "da": "et mørkeblåt tørklæde",
+    "en": "a dark blue scarf"
+   },
+   {
+    "da": "mørkeblå jakker",
+    "en": "dark blue jackets"
+   }
+  ],
+  "explanation": "\"Mørkeblå\" means dark blue or navy. It is made from \"mørk\" (dark) and \"blå\" (blue) joined into one word. With et-words it gets a \"t\" (\"et mørkeblåt tørklæde\"), and with more than one it stays \"mørkeblå\".",
+  "related": [
+   {
+    "da": "lyseblå",
+    "en": "light blue"
+   },
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "mørk",
+    "en": "dark"
+   },
+   {
+    "da": "sort",
+    "en": "black"
+   }
+  ],
+  "sentence": {
+   "da": "Min jakke er **mørkeblå**.",
+   "en": "My jacket is dark blue."
+  }
+ },
+ "mørkegrøn": {
+  "forms": [
+   {
+    "da": "en mørkegrøn bil",
+    "en": "a dark green car"
+   },
+   {
+    "da": "et mørkegrønt hus",
+    "en": "a dark green house"
+   },
+   {
+    "da": "mørkegrønne biler",
+    "en": "dark green cars"
+   }
+  ],
+  "explanation": "\"Mørkegrøn\" means dark green. It is made of \"mørk\" (dark) and \"grøn\" (green) joined into one word. With et-words it gets a \"t\" (\"et mørkegrønt hus\") and with more than one \"ne\" (\"mørkegrønne biler\"). The lighter one is \"lysegrøn\".",
+  "related": [
+   {
+    "da": "lysegrøn",
+    "en": "light green"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
+   },
+   {
+    "da": "mørk",
+    "en": "dark"
+   },
+   {
+    "da": "en skov",
+    "en": "a forest"
+   }
+  ],
+  "sentence": {
+   "da": "Min jakke er **mørkegrøn**.",
+   "en": "My jacket is dark green."
+  }
+ },
+ "müsli": {
+  "forms": [
+   {
+    "da": "en müsli",
+    "en": "a muesli"
+   },
+   {
+    "da": "noget müsli",
+    "en": "some muesli"
+   },
+   {
+    "da": "müsli og yoghurt",
+    "en": "muesli and yoghurt"
+   }
+  ],
+  "explanation": "\"Müsli\" is muesli, the breakfast mix of oats, nuts and dried fruit. It is an en-word, but is normally used without \"en\": \"Jeg spiser müsli\". Note the letter \"ü\", which is kept from the original word, though Danes often write it as \"musli\" too.",
+  "related": [
+   {
+    "da": "yoghurt",
+    "en": "yogurt"
+   },
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **müsli** til morgenmad.",
+   "en": "I eat muesli for breakfast."
   }
  }
 }

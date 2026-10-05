@@ -1,4 +1,426 @@
 {
+ "at regne": {
+  "forms": [
+   {
+    "da": "at regne",
+    "en": "to rain"
+   },
+   {
+    "da": "det regner",
+    "en": "it rains"
+   },
+   {
+    "da": "det regnede",
+    "en": "it rained"
+   },
+   {
+    "da": "det har regnet",
+    "en": "it has rained"
+   }
+  ],
+  "explanation": "\"At regne\" means to rain. It is used with \"det\" (it): \"det regner\" is \"it is raining\". Danish does not need a separate \"is raining\" form, so one word covers both \"it rains\" and \"it is raining\". The word for the rain itself is \"regn\".",
+  "related": [
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "at sne",
+    "en": "to snow"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   },
+   {
+    "da": "regnvejr",
+    "en": "rainy weather"
+   }
+  ],
+  "sentence": {
+   "da": "Det **regner** hele dagen i dag.",
+   "en": "It is raining all day today."
+  }
+ },
+ "at rejse": {
+  "forms": [
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   },
+   {
+    "da": "jeg rejser",
+    "en": "I travel"
+   },
+   {
+    "da": "jeg rejste",
+    "en": "I traveled"
+   },
+   {
+    "da": "jeg er rejst",
+    "en": "I have traveled"
+   }
+  ],
+  "explanation": "\"At rejse\" means to travel or to go away on a trip. \"Jeg rejser til Danmark\" means \"I am travelling to Denmark\". The \"have\" form uses \"er\" instead of \"har\": \"Jeg er rejst\" (I have left / travelled), because the word is about going from one place to another. Another useful word is \"en rejse\" (a trip).",
+  "related": [
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   },
+   {
+    "da": "at tage af sted",
+    "en": "to leave"
+   },
+   {
+    "da": "en kuffert",
+    "en": "a suitcase"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **rejser** til København i morgen.",
+   "en": "I am travelling to Copenhagen tomorrow."
+  }
+ },
+ "at ringe": {
+  "forms": [
+   {
+    "da": "at ringe",
+    "en": "to call (phone)"
+   },
+   {
+    "da": "jeg ringer",
+    "en": "I call (phone)"
+   },
+   {
+    "da": "jeg ringede",
+    "en": "I called (phone)"
+   },
+   {
+    "da": "jeg har ringet",
+    "en": "I have called (phone)"
+   }
+  ],
+  "explanation": "\"At ringe\" means to call someone on the phone. You say \"ringe til nogen\": \"Jeg ringer til dig i morgen\" (I will call you tomorrow). It can also mean to ring, like a bell or a doorbell. A common phrase is \"Ring til mig\" (Call me).",
+  "related": [
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "et opkald",
+    "en": "a call"
+   },
+   {
+    "da": "at ringe tilbage",
+    "en": "to call back"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **ringer** til dig i morgen.",
+   "en": "I will call you tomorrow."
+  }
+ },
+ "at ringe op": {
+  "forms": [
+   {
+    "da": "at ringe op",
+    "en": "to call (phone)"
+   },
+   {
+    "da": "jeg ringer op",
+    "en": "I call"
+   },
+   {
+    "da": "jeg ringede op",
+    "en": "I called"
+   },
+   {
+    "da": "jeg har ringet op",
+    "en": "I have called"
+   }
+  ],
+  "explanation": "\"At ringe op\" means to phone someone. You put the person between the two parts: \"jeg ringer dig op\" (I call you up). The short form \"at ringe til\" someone is just as common: \"jeg ringer til dig\". When the phone rings, you say \"telefonen ringer\".",
+  "related": [
+   {
+    "da": "at ringe til",
+    "en": "to call"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   },
+   {
+    "da": "at lægge på",
+    "en": "to hang up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **ringer** dig **op** i morgen.",
+   "en": "I will call you tomorrow."
+  }
+ },
+ "at ringe til": {
+  "forms": [
+   {
+    "da": "at ringe til",
+    "en": "to call (someone)"
+   },
+   {
+    "da": "jeg ringer til",
+    "en": "I call (someone)"
+   },
+   {
+    "da": "jeg ringede til",
+    "en": "I called (someone)"
+   },
+   {
+    "da": "jeg har ringet til",
+    "en": "I have called (someone)"
+   }
+  ],
+  "explanation": "\"At ringe til\" means to call someone on the phone. You need \"til\" (to) before the person: \"Jeg ringer til min mor\". If you just say \"at ringe\", it can also mean a bell ringing. A phone call itself is \"et opkald\".",
+  "related": [
+   {
+    "da": "at ringe",
+    "en": "to ring / call"
+   },
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "et opkald",
+    "en": "a call"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **ringer til** min mor i aften.",
+   "en": "I'm calling my mom tonight."
+  }
+ },
+ "en rabat": {
+  "forms": [
+   {
+    "da": "en rabat",
+    "en": "a discount"
+   },
+   {
+    "da": "rabatten",
+    "en": "the discount"
+   },
+   {
+    "da": "rabatter",
+    "en": "discounts"
+   },
+   {
+    "da": "rabatterne",
+    "en": "the discounts"
+   }
+  ],
+  "explanation": "\"En rabat\" means a discount, an amount taken off the price. You can ask \"Kan jeg få rabat?\" (Can I get a discount?), though in Denmark people do not haggle much in normal shops. Students, older people and members often get \"rabat\". \"Rabatten\" is the word for the discount.",
+  "related": [
+   {
+    "da": "et tilbud",
+    "en": "an offer / deal"
+   },
+   {
+    "da": "et udsalg",
+    "en": "a sale"
+   },
+   {
+    "da": "gratis",
+    "en": "free"
+   },
+   {
+    "da": "et gavekort",
+    "en": "a gift card"
+   }
+  ],
+  "sentence": {
+   "da": "Får jeg **rabat**, hvis jeg køber to?",
+   "en": "Do I get a discount if I buy two?"
+  }
+ },
+ "en radio": {
+  "forms": [
+   {
+    "da": "en radio",
+    "en": "a radio"
+   },
+   {
+    "da": "radioen",
+    "en": "the radio"
+   },
+   {
+    "da": "radioer",
+    "en": "radios"
+   },
+   {
+    "da": "radioerne",
+    "en": "the radios"
+   }
+  ],
+  "explanation": "\"Radio\" is the same idea as in English: a radio set, or the radio as a way of listening to news and music. You say \"i radioen\" for on the radio. The word is easy because it sounds close to English, but the Danish \"r\" is softer.",
+  "related": [
+   {
+    "da": "en tv",
+    "en": "a TV"
+   },
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "nyheder",
+    "en": "news"
+   },
+   {
+    "da": "at lytte",
+    "en": "to listen"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hører **radio** i bilen.",
+   "en": "I listen to the radio in the car."
+  }
+ },
+ "en recept": {
+  "forms": [
+   {
+    "da": "en recept",
+    "en": "a prescription"
+   },
+   {
+    "da": "recepten",
+    "en": "the prescription"
+   },
+   {
+    "da": "recepter",
+    "en": "prescriptions"
+   },
+   {
+    "da": "recepterne",
+    "en": "the prescriptions"
+   }
+  ],
+  "explanation": "\"En recept\" is a prescription from a doctor, which you take to the pharmacy to get medicine. It is an en-word. For a cooking recipe, \"en opskrift\" is the usual word.",
+  "related": [
+   {
+    "da": "medicin",
+    "en": "medicine"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   },
+   {
+    "da": "en pille",
+    "en": "a pill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal have en **recept** fra lægen.",
+   "en": "I need a prescription from the doctor."
+  }
+ },
+ "en regning": {
+  "forms": [
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "regningen",
+    "en": "the bill"
+   },
+   {
+    "da": "regninger",
+    "en": "bills"
+   },
+   {
+    "da": "regningerne",
+    "en": "the bills"
+   }
+  ],
+  "explanation": "En regning is a bill, either at a restaurant or one that you get at home, for example for electricity. The polite question in a restaurant is \"Må jeg bede om regningen?\" (May I ask for the bill?). It is an en-word, so \"the bill\" is \"regningen\". In school the same word can also mean sums or arithmetic, but the bill meaning is the one you need most.",
+  "related": [
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg bede om **regningen**?",
+   "en": "May I have the bill?"
+  }
+ },
+ "en regnjakke": {
+  "forms": [
+   {
+    "da": "en regnjakke",
+    "en": "a rain jacket"
+   },
+   {
+    "da": "regnjakken",
+    "en": "the rain jacket"
+   },
+   {
+    "da": "regnjakker",
+    "en": "rain jackets"
+   },
+   {
+    "da": "regnjakkerne",
+    "en": "the rain jackets"
+   }
+  ],
+  "explanation": "\"En regnjakke\" is a rain jacket, built from \"regn\" (rain) and \"jakke\" (jacket). Danish weather changes quickly, so most people own one. Danish often builds new words by putting two words together, so you can guess many words like this. The word \"the\" goes on the end: \"regnjakken\".",
+  "related": [
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en vinterjakke",
+    "en": "a winter jacket"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   }
+  ],
+  "sentence": {
+   "da": "Tag din **regnjakke** med, det regner.",
+   "en": "Take your rain jacket with you, it is raining."
+  }
+ },
  "en regnskov": {
   "forms": [
    {
@@ -42,6 +464,635 @@
    "en": "It rains all year in a rainforest."
   }
  },
+ "en reje": {
+  "forms": [
+   {
+    "da": "en reje",
+    "en": "a shrimp"
+   },
+   {
+    "da": "rejen",
+    "en": "the shrimp"
+   },
+   {
+    "da": "rejer",
+    "en": "shrimps"
+   },
+   {
+    "da": "rejerne",
+    "en": "the shrimps"
+   }
+  ],
+  "explanation": "\"En reje\" is a shrimp or prawn. You often use it in the plural, \"rejer\", because you usually eat several. Danes eat them on bread with mayonnaise, called \"rejemad\". Pay attention to the j, which sounds like a y: \"RAI-eh\".",
+  "related": [
+   {
+    "da": "laks",
+    "en": "salmon"
+   },
+   {
+    "da": "fisk",
+    "en": "fish"
+   },
+   {
+    "da": "mad",
+    "en": "food"
+   },
+   {
+    "da": "en kylling",
+    "en": "a chicken"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have **rejer** på mit brød.",
+   "en": "I want shrimps on my bread."
+  }
+ },
+ "en rejse": {
+  "forms": [
+   {
+    "da": "en rejse",
+    "en": "a trip, journey"
+   },
+   {
+    "da": "rejsen",
+    "en": "the trip"
+   },
+   {
+    "da": "rejser",
+    "en": "trips"
+   },
+   {
+    "da": "rejserne",
+    "en": "the trips"
+   }
+  ],
+  "explanation": "\"Rejse\" is a trip or journey, usually a longer one far from home, such as a holiday abroad. It is also the verb \"at rejse\" (to travel). A short outing is more often \"en tur\". Danes say \"God rejse!\" to wish someone a good trip.",
+  "related": [
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   },
+   {
+    "da": "en tur",
+    "en": "a short trip"
+   },
+   {
+    "da": "en ferie",
+    "en": "a holiday"
+   },
+   {
+    "da": "en rejsende",
+    "en": "a traveller"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **en rejse** til Spanien.",
+   "en": "We have a trip to Spain."
+  }
+ },
+ "en reservation": {
+  "forms": [
+   {
+    "da": "en reservation",
+    "en": "a reservation"
+   },
+   {
+    "da": "reservationen",
+    "en": "the reservation"
+   },
+   {
+    "da": "reservationer",
+    "en": "reservations"
+   },
+   {
+    "da": "reservationerne",
+    "en": "the reservations"
+   }
+  ],
+  "explanation": "\"Reservation\" is a reservation, such as a table at a restaurant, a seat on a train or a hotel room. Danes say \"Jeg har en reservation\" (I have a reservation) or \"at bestille bord\" (to book a table). The verb is \"at reservere\".",
+  "related": [
+   {
+    "da": "at reservere",
+    "en": "to reserve"
+   },
+   {
+    "da": "at bestille",
+    "en": "to book, to order"
+   },
+   {
+    "da": "et bord",
+    "en": "a table"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **en reservation** i aften.",
+   "en": "I have a reservation tonight."
+  }
+ },
+ "en restaurant": {
+  "forms": [
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "restauranten",
+    "en": "the restaurant"
+   },
+   {
+    "da": "restauranter",
+    "en": "restaurants"
+   },
+   {
+    "da": "restauranterne",
+    "en": "the restaurants"
+   }
+  ],
+  "explanation": "En restaurant is a restaurant, a place where you sit down and have a meal. Danes say \"på restaurant\" with no \"en\" for \"at a restaurant\" when they talk about eating out, and \"at spise på restaurant\" is the common way to say it. The word is an en-word, and \"the restaurant\" is \"restauranten\".",
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "et bord",
+    "en": "a table"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en café",
+    "en": "a cafe"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser på **restaurant** i aften.",
+   "en": "We are eating at a restaurant tonight."
+  }
+ },
+ "en returbillet": {
+  "forms": [
+   {
+    "da": "en returbillet",
+    "en": "a return ticket"
+   },
+   {
+    "da": "returbilletten",
+    "en": "the return ticket"
+   },
+   {
+    "da": "returbilletter",
+    "en": "return tickets"
+   },
+   {
+    "da": "returbilletterne",
+    "en": "the return tickets"
+   }
+  ],
+  "explanation": "\"Returbillet\" is a return ticket, one that takes you there and back again. The opposite is \"en enkeltbillet\" (one-way ticket). At a counter you can say \"En returbillet til Aarhus, tak.\" Note the double t in the plural \"returbilletter\".",
+  "related": [
+   {
+    "da": "en enkeltbillet",
+    "en": "a one-way ticket"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   }
+  ],
+  "sentence": {
+   "da": "**En returbillet** til Aarhus, tak.",
+   "en": "A return ticket to Aarhus, please."
+  }
+ },
+ "en rose": {
+  "forms": [
+   {
+    "da": "en rose",
+    "en": "a rose"
+   },
+   {
+    "da": "rosen",
+    "en": "the rose"
+   },
+   {
+    "da": "roser",
+    "en": "roses"
+   },
+   {
+    "da": "roserne",
+    "en": "the roses"
+   }
+  ],
+  "explanation": "\"En rose\" is a rose, the flower, and it is an en-word. Giving \"roser\" is a classic romantic gesture. The same word is also used for the colour pink in \"rosa\", which is a related word. A rose bush is \"en rosenbusk\".",
+  "related": [
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   },
+   {
+    "da": "rosa",
+    "en": "pink"
+   },
+   {
+    "da": "en have",
+    "en": "a garden"
+   },
+   {
+    "da": "en buket",
+    "en": "a bouquet"
+   }
+  ],
+  "sentence": {
+   "da": "Han gav hende en **rose**.",
+   "en": "He gave her a rose."
+  }
+ },
+ "en ryg": {
+  "forms": [
+   {
+    "da": "en ryg",
+    "en": "a back"
+   },
+   {
+    "da": "ryggen",
+    "en": "the back"
+   },
+   {
+    "da": "rygge",
+    "en": "backs"
+   },
+   {
+    "da": "ryggene",
+    "en": "the backs"
+   }
+  ],
+  "explanation": "\"En ryg\" is the back of your body. It is an en-word. The y is a rounded sound, a bit like the French u. It is used for pain: \"Jeg har ondt i ryggen\" (My back hurts). \"At ligge på ryggen\" means to lie on your back.",
+  "related": [
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   },
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "et bryst",
+    "en": "a chest"
+   },
+   {
+    "da": "en smerte",
+    "en": "a pain"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i **ryggen**.",
+   "en": "My back hurts."
+  }
+ },
+ "en rygsæk": {
+  "forms": [
+   {
+    "da": "en rygsæk",
+    "en": "a backpack"
+   },
+   {
+    "da": "rygsækken",
+    "en": "the backpack"
+   },
+   {
+    "da": "rygsække",
+    "en": "backpacks"
+   },
+   {
+    "da": "rygsækkene",
+    "en": "the backpacks"
+   }
+  ],
+  "explanation": "\"Rygsæk\" is a backpack, built from \"ryg\" (back) and \"sæk\" (sack). Danes use it for school, hiking and travel. Note the plural \"rygsække\" and \"the backpacks\" as \"rygsækkene\". The word for a person with a backpack, \"rygsækrejsende\", means a backpacker.",
+  "related": [
+   {
+    "da": "en taske",
+    "en": "a bag"
+   },
+   {
+    "da": "en kuffert",
+    "en": "a suitcase"
+   },
+   {
+    "da": "en ryg",
+    "en": "a back"
+   },
+   {
+    "da": "at vandre",
+    "en": "to hike"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har bøgerne i min **rygsæk**.",
+   "en": "I have the books in my backpack."
+  }
+ },
+ "en rødvin": {
+  "forms": [
+   {
+    "da": "en rødvin",
+    "en": "a red wine"
+   },
+   {
+    "da": "rødvinen",
+    "en": "the red wine"
+   },
+   {
+    "da": "rødvine",
+    "en": "red wines"
+   },
+   {
+    "da": "rødvinene",
+    "en": "the red wines"
+   }
+  ],
+  "explanation": "\"En rødvin\" is a red wine, an en-word. It is made of \"rød\" (red) and \"vin\" (wine), put together as one word. In a restaurant you can say \"et glas rødvin\" (a glass of red wine) or \"en flaske rødvin\" (a bottle of red wine).",
+  "related": [
+   {
+    "da": "en hvidvin",
+    "en": "a white wine"
+   },
+   {
+    "da": "en vin",
+    "en": "a wine"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   },
+   {
+    "da": "rød",
+    "en": "red"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager et glas **rødvin** til maden.",
+   "en": "I will have a glass of red wine with the meal."
+  }
+ },
+ "et rundstykke": {
+  "forms": [
+   {
+    "da": "et rundstykke",
+    "en": "a bread roll"
+   },
+   {
+    "da": "rundstykket",
+    "en": "the bread roll"
+   },
+   {
+    "da": "rundstykker",
+    "en": "bread rolls"
+   },
+   {
+    "da": "rundstykkerne",
+    "en": "the bread rolls"
+   }
+  ],
+  "explanation": "\"Et rundstykke\" is a small round bread roll, very common for breakfast in Denmark. It is often eaten fresh from the bakery with butter, cheese or jam. Many Danes buy them at the weekend, and it is an et-word, so you say \"et rundstykke\" and \"rundstykket\".",
+  "related": [
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "en ost",
+    "en": "a cheese"
+   },
+   {
+    "da": "en morgenmad",
+    "en": "a breakfast"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser et **rundstykke** med ost.",
+   "en": "I eat a bread roll with cheese."
+  }
+ },
+ "rask": {
+  "forms": [
+   {
+    "da": "en rask mand",
+    "en": "a healthy man"
+   },
+   {
+    "da": "et raskt barn",
+    "en": "a healthy child"
+   },
+   {
+    "da": "raske børn",
+    "en": "healthy children"
+   }
+  ],
+  "explanation": "\"Rask\" means healthy or well again, especially after being ill. \"Jeg er rask igen\" means \"I am well again\". Danes use \"at blive rask\" for recovering. It also can mean quick and lively, as in \"et raskt tempo\" (a brisk pace). Add \"t\" for et-words and \"-e\" for more than one. The opposite is \"syg\". \"God bedring\" is what you say to someone who is ill.",
+  "related": [
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "sund",
+    "en": "healthy (good for you)"
+   },
+   {
+    "da": "frisk",
+    "en": "fresh"
+   },
+   {
+    "da": "god bedring",
+    "en": "get well soon"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg håber, du bliver **rask** snart.",
+   "en": "I hope you get well soon."
+  }
+ },
+ "regn": {
+  "forms": [
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "regnet",
+    "en": "the rain"
+   },
+   {
+    "da": "det regner",
+    "en": "it is raining"
+   }
+  ],
+  "explanation": "Regn is rain. It is an et-word, so \"the rain\" is \"regnet\", and you do not say \"a rain\". When you want to say that it is raining, you use the verb: \"Det regner\" (It is raining). It is also in \"en regnfrakke\" (a raincoat) and \"en paraply\" (an umbrella) is what you bring when \"det regner\".",
+  "related": [
+   {
+    "da": "at regne",
+    "en": "to rain"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   },
+   {
+    "da": "en sky",
+    "en": "a cloud"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
+   }
+  ],
+  "sentence": {
+   "da": "Der kommer meget **regn** i efteråret.",
+   "en": "A lot of rain comes in the autumn."
+  }
+ },
+ "regnvejr": {
+  "forms": [
+   {
+    "da": "et regnvejr",
+    "en": "rainy weather"
+   },
+   {
+    "da": "regnvejret",
+    "en": "the rainy weather"
+   },
+   {
+    "da": "i regnvejr",
+    "en": "in rainy weather"
+   }
+  ],
+  "explanation": "\"Regnvejr\" is rainy weather, made from \"regn\" (rain) and \"vejr\" (weather). It is an et-word, like \"vejr\" itself. You often hear \"Det er regnvejr\" or \"i regnvejr\" when talking about days when you need an umbrella.",
+  "related": [
+   {
+    "da": "en regn",
+    "en": "rain"
+   },
+   {
+    "da": "et vejr",
+    "en": "weather"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   },
+   {
+    "da": "solskinsvejr",
+    "en": "sunny weather"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bliver hjemme i **regnvejr**.",
+   "en": "We stay at home in rainy weather."
+  }
+ },
+ "rejer": {
+  "forms": [
+   {
+    "da": "en reje",
+    "en": "a shrimp"
+   },
+   {
+    "da": "rejen",
+    "en": "the shrimp"
+   },
+   {
+    "da": "rejer",
+    "en": "shrimp"
+   },
+   {
+    "da": "rejerne",
+    "en": "the shrimp"
+   }
+  ],
+  "explanation": "\"Rejer\" means shrimp or prawns. One shrimp is \"en reje\", but you mostly hear the plural \"rejer\". They are popular on Danish open sandwiches (\"rejemad\") and in salads. \"En rejemad\" is a classic lunch with shrimp, egg and mayonnaise.",
+  "related": [
+   {
+    "da": "fisk",
+    "en": "fish"
+   },
+   {
+    "da": "en rejemad",
+    "en": "a shrimp sandwich"
+   },
+   {
+    "da": "mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "skaldyr",
+    "en": "shellfish"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **rejer** med citron.",
+   "en": "I love shrimp with lemon."
+  }
+ },
+ "ren": {
+  "forms": [
+   {
+    "da": "en ren skjorte",
+    "en": "a clean shirt"
+   },
+   {
+    "da": "et rent glas",
+    "en": "a clean glass"
+   },
+   {
+    "da": "rene skjorter",
+    "en": "clean shirts"
+   }
+  ],
+  "explanation": "\"Ren\" means clean, and also pure, as in \"rent vand\" (clean water) or \"ren luft\" (clean air). Add \"t\" for et-words (\"et rent hus\") and \"-e\" for more than one. The opposite is \"beskidt\" or \"snavset\" (dirty). The verb \"at rengøre\" means to clean, and \"at gøre rent\" is the everyday way to say you are cleaning the house.",
+  "related": [
+   {
+    "da": "beskidt",
+    "en": "dirty"
+   },
+   {
+    "da": "snavset",
+    "en": "dirty"
+   },
+   {
+    "da": "at gøre rent",
+    "en": "to clean"
+   },
+   {
+    "da": "vask",
+    "en": "washing"
+   }
+  ],
+  "sentence": {
+   "da": "Er dit værelse **rent**?",
+   "en": "Is your room clean?"
+  }
+ },
  "reserveret": {
   "forms": [
    {
@@ -81,6 +1132,240 @@
    "en": "This table is reserved."
   }
  },
+ "resten": {
+  "forms": [
+   {
+    "da": "resten",
+    "en": "the rest"
+   },
+   {
+    "da": "resten af dagen",
+    "en": "the rest of the day"
+   },
+   {
+    "da": "resten af maden",
+    "en": "the rest of the food"
+   }
+  ],
+  "explanation": "\"Resten\" means the rest, whatever is left over. It is often used with \"af\": \"resten af maden\" (the rest of the food). It has the word \"the\" built into the end already, so you do not add anything more. The plain form is \"en rest\", a remainder.",
+  "related": [
+   {
+    "da": "en rest",
+    "en": "a remainder"
+   },
+   {
+    "da": "alt",
+    "en": "everything"
+   },
+   {
+    "da": "noget",
+    "en": "something"
+   },
+   {
+    "da": "det andet",
+    "en": "the other"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan få **resten** af kagen.",
+   "en": "You can have the rest of the cake."
+  }
+ },
+ "rig": {
+  "forms": [
+   {
+    "da": "en rig mand",
+    "en": "a rich man"
+   },
+   {
+    "da": "et rigt land",
+    "en": "a rich country"
+   },
+   {
+    "da": "rige mennesker",
+    "en": "rich people"
+   }
+  ],
+  "explanation": "\"Rig\" means rich, with a lot of money, but also rich in other things: \"en rig historie\" is a rich story. Add \"t\" for et-words (\"et rigt land\") and \"-e\" for more than one. The opposite is \"fattig\" (poor). Beware: \"Riget\" is a word for the kingdom, so you will see the same letters in \"Danmarks rige\".",
+  "related": [
+   {
+    "da": "fattig",
+    "en": "poor"
+   },
+   {
+    "da": "rigdom",
+    "en": "wealth"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "et rige",
+    "en": "a kingdom"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er blevet meget **rig**.",
+   "en": "She has become very rich."
+  }
+ },
+ "rigtig": {
+  "forms": [
+   {
+    "da": "en rigtig ret",
+    "en": "a correct dish"
+   },
+   {
+    "da": "et rigtigt svar",
+    "en": "a correct answer"
+   },
+   {
+    "da": "rigtige svar",
+    "en": "correct answers"
+   }
+  ],
+  "explanation": "\"Rigtig\" means correct or right, as in \"et rigtigt svar\". It also means real or proper: \"en rigtig cowboy\" is a real cowboy. Used alone before another word it can mean very, in casual speech: \"rigtig god\" (really good). Do not mix it up with \"ret\", which is about rights and law. Its opposite is \"forkert\" (wrong).",
+  "related": [
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "ægte",
+    "en": "genuine"
+   },
+   {
+    "da": "rigtigt",
+    "en": "correctly / really"
+   },
+   {
+    "da": "rette",
+    "en": "right"
+   }
+  ],
+  "sentence": {
+   "da": "Er det den **rigtige** vej?",
+   "en": "Is this the right way?"
+  }
+ },
+ "ris": {
+  "forms": [
+   {
+    "da": "ris",
+    "en": "rice"
+   },
+   {
+    "da": "risen",
+    "en": "the rice"
+   },
+   {
+    "da": "kylling med ris",
+    "en": "chicken with rice"
+   }
+  ],
+  "explanation": "\"Ris\" means rice. It is an en-word, so \"the rice\" is \"risen\". It needs no \"a\" in front: \"Jeg spiser ris\". Be careful not to mix it up with the English \"rise\". You usually eat it with meat or fish, as in \"kylling og ris\".",
+  "related": [
+   {
+    "da": "pasta",
+    "en": "pasta"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   },
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "kylling",
+    "en": "chicken"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **ris** til aftensmad.",
+   "en": "We eat rice for dinner."
+  }
+ },
+ "rolig": {
+  "forms": [
+   {
+    "da": "en rolig mand",
+    "en": "a calm man"
+   },
+   {
+    "da": "et roligt sted",
+    "en": "a quiet place"
+   },
+   {
+    "da": "rolige børn",
+    "en": "calm children"
+   }
+  ],
+  "explanation": "\"Rolig\" means calm or relaxed, and also peaceful or quiet for places. \"Vær rolig\" means \"Stay calm\" or \"Calm down\". Add \"t\" for et-words (\"et roligt sted\"), and \"-e\" for more than one. The word \"roligt\" is also used for \"calmly\": \"Tal roligt\". The opposite is \"urolig\" (restless, worried).",
+  "related": [
+   {
+    "da": "urolig",
+    "en": "restless"
+   },
+   {
+    "da": "stille",
+    "en": "quiet"
+   },
+   {
+    "da": "ro",
+    "en": "calm"
+   },
+   {
+    "da": "vred",
+    "en": "angry"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er altid så **rolig**.",
+   "en": "She is always so calm."
+  }
+ },
+ "rugbrød": {
+  "forms": [
+   {
+    "da": "rugbrød",
+    "en": "rye bread"
+   },
+   {
+    "da": "rugbrødet",
+    "en": "the rye bread"
+   },
+   {
+    "da": "en skive rugbrød",
+    "en": "a slice of rye bread"
+   }
+  ],
+  "explanation": "\"Rugbrød\" is rye bread, the dark, heavy bread that is typical in Denmark. It is built from \"rug\" (rye) and \"brød\" (bread). It is an et-word. It is the base for \"smørrebrød\", the Danish open sandwiches, and Danes eat it for lunch and breakfast.",
+  "related": [
+   {
+    "da": "brød",
+    "en": "bread"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "en skive",
+    "en": "a slice"
+   },
+   {
+    "da": "frokost",
+    "en": "lunch"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **rugbrød** til frokost.",
+   "en": "I eat rye bread for lunch."
+  }
+ },
  "rundt om hjørnet": {
   "forms": [
    {
@@ -118,6 +1403,123 @@
   "sentence": {
    "da": "Posthuset ligger lige **rundt om hjørnet**.",
    "en": "The post office is just around the corner."
+  }
+ },
+ "rusland": {
+  "forms": [
+   {
+    "da": "Rusland",
+    "en": "Russia"
+   },
+   {
+    "da": "i Rusland",
+    "en": "in Russia"
+   },
+   {
+    "da": "til Rusland",
+    "en": "to Russia"
+   }
+  ],
+  "explanation": "\"Rusland\" is Russia. Place names like this are written with a capital letter and used without \"the\": \"i Rusland\" means \"in Russia\" and \"til Rusland\" means \"to Russia\". A person is \"en russer\" and the language is \"russisk\". Danish adds \"-land\" to many country names, as in \"Finland\", \"Tyskland\" and \"Island\".",
+  "related": [
+   {
+    "da": "en russer",
+    "en": "a Russian"
+   },
+   {
+    "da": "russisk",
+    "en": "Russian"
+   },
+   {
+    "da": "Ukraine",
+    "en": "Ukraine"
+   },
+   {
+    "da": "Polen",
+    "en": "Poland"
+   }
+  ],
+  "sentence": {
+   "da": "**Rusland** er et stort land.",
+   "en": "Russia is a big country."
+  }
+ },
+ "russisk": {
+  "forms": [
+   {
+    "da": "en russisk bog",
+    "en": "a Russian book"
+   },
+   {
+    "da": "et russisk ord",
+    "en": "a Russian word"
+   },
+   {
+    "da": "russiske penge",
+    "en": "Russian money"
+   }
+  ],
+  "explanation": "\"Russisk\" means Russian, for the language and for things from Russia. It is written with a small letter and gets no extra -t before an et-word. The person is \"en russer\" and the country is \"Rusland\".",
+  "related": [
+   {
+    "da": "Rusland",
+    "en": "Russia"
+   },
+   {
+    "da": "en russer",
+    "en": "a Russian"
+   },
+   {
+    "da": "ukrainsk",
+    "en": "Ukrainian"
+   },
+   {
+    "da": "polsk",
+    "en": "Polish"
+   }
+  ],
+  "sentence": {
+   "da": "Han kan læse **russisk**.",
+   "en": "He can read Russian."
+  }
+ },
+ "rød": {
+  "forms": [
+   {
+    "da": "en rød bil",
+    "en": "a red car"
+   },
+   {
+    "da": "et rødt hus",
+    "en": "a red house"
+   },
+   {
+    "da": "røde biler",
+    "en": "red cars"
+   }
+  ],
+  "explanation": "\"Rød\" means red. With et-words it gets a \"t\" (\"et rødt hus\"), and with more than one thing it gets an \"e\" (\"røde biler\"). You will see it in food too: \"rødvin\" is red wine and \"rød pølse\" is the famous Danish red hot dog.",
+  "related": [
+   {
+    "da": "grøn",
+    "en": "green"
+   },
+   {
+    "da": "lyserød",
+    "en": "pink"
+   },
+   {
+    "da": "rødvin",
+    "en": "red wine"
+   },
+   {
+    "da": "gul",
+    "en": "yellow"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide den **røde** jakke.",
+   "en": "I like the red jacket."
   }
  }
 }

@@ -1,4 +1,203 @@
 {
+ "at danse": {
+  "forms": [
+   {
+    "da": "at danse",
+    "en": "to dance"
+   },
+   {
+    "da": "jeg danser",
+    "en": "I dance"
+   },
+   {
+    "da": "jeg dansede",
+    "en": "I danced"
+   },
+   {
+    "da": "jeg har danset",
+    "en": "I have danced"
+   }
+  ],
+  "explanation": "\"At danse\" means to dance, and it works like the English word. \"Vil du danse?\" means \"Do you want to dance?\". The thing you do is \"en dans\" (a dance). It is a regular word, so the endings are easy: just add -r, -de and -t on the end.",
+  "related": [
+   {
+    "da": "en dans",
+    "en": "a dance"
+   },
+   {
+    "da": "at synge",
+    "en": "to sing"
+   },
+   {
+    "da": "musik",
+    "en": "music"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **danser** til musikken.",
+   "en": "We dance to the music."
+  }
+ },
+ "at dele": {
+  "forms": [
+   {
+    "da": "at dele",
+    "en": "to share / divide"
+   },
+   {
+    "da": "jeg deler",
+    "en": "I share / divide"
+   },
+   {
+    "da": "jeg delte",
+    "en": "I shared / divided"
+   },
+   {
+    "da": "jeg har delt",
+    "en": "I have shared / divided"
+   }
+  ],
+  "explanation": "\"At dele\" means to share, and also to divide. \"Vi deler en pizza\" means \"We share a pizza\". It is also used in maths, for example \"ti delt med to\" (ten divided by two). A person you share a flat with is called \"en sambo\" or \"en bofælle\". It is a regular word.",
+  "related": [
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "en del",
+    "en": "a part"
+   },
+   {
+    "da": "sammen",
+    "en": "together"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **deler** en pizza.",
+   "en": "We share a pizza."
+  }
+ },
+ "at drikke": {
+  "forms": [
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "jeg drikker",
+    "en": "I drink"
+   },
+   {
+    "da": "jeg drak",
+    "en": "I drank"
+   },
+   {
+    "da": "jeg har drukket",
+    "en": "I have drunk"
+   }
+  ],
+  "explanation": "\"At drikke\" means to drink, for water, coffee, beer and so on: \"Jeg drikker kaffe\". A tip for the \"have done\" form: it is \"drukket\", with a changed vowel and a doubled k. In Danish you can also drink to someone, as in \"Skål!\" which is Cheers!. For eating, use \"at spise\".",
+  "related": [
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
+   },
+   {
+    "da": "en skål",
+    "en": "a toast / bowl"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **drikker** en kop kaffe hver morgen.",
+   "en": "I drink a cup of coffee every morning."
+  }
+ },
+ "at dø": {
+  "forms": [
+   {
+    "da": "at dø",
+    "en": "to die"
+   },
+   {
+    "da": "jeg dør",
+    "en": "I die"
+   },
+   {
+    "da": "jeg døde",
+    "en": "I died"
+   },
+   {
+    "da": "jeg er død",
+    "en": "I have died"
+   }
+  ],
+  "explanation": "\"At dø\" means to die. The past form is \"døde\", and for 'have died' Danish uses \"er død\" rather than \"har\". The word \"død\" also works on its own to mean 'dead'. It is used for people, animals and plants, and sometimes for batteries or phones that run out.",
+  "related": [
+   {
+    "da": "død",
+    "en": "dead"
+   },
+   {
+    "da": "et liv",
+    "en": "a life"
+   },
+   {
+    "da": "at leve",
+    "en": "to live"
+   },
+   {
+    "da": "at blive født",
+    "en": "to be born"
+   }
+  ],
+  "sentence": {
+   "da": "Blomsten **dør**, hvis den ikke får vand.",
+   "en": "The flower dies if it doesn't get water."
+  }
+ },
+ "da": {
+  "forms": [
+   {
+    "da": "da jeg var barn",
+    "en": "when I was a child"
+   },
+   {
+    "da": "da vi kom hjem",
+    "en": "when we came home"
+   },
+   {
+    "da": "da han ringede",
+    "en": "when he called"
+   }
+  ],
+  "explanation": "\"Da\" means when, but only for something that happened once in the past: \"Da jeg kom hjem...\". For habits and for the future you use \"når\" instead. \"Da\" can also mean \"then\" or \"well\" in some sentences.",
+  "related": [
+   {
+    "da": "når",
+    "en": "when (general or future)"
+   },
+   {
+    "da": "dengang",
+    "en": "back then"
+   },
+   {
+    "da": "mens",
+    "en": "while"
+   },
+   {
+    "da": "som barn",
+    "en": "as a child"
+   }
+  ],
+  "sentence": {
+   "da": "**Da** jeg kom hjem, sov børnene.",
+   "en": "When I came home, the children were asleep."
+  }
+ },
  "dagens ret": {
   "forms": [
    {
@@ -42,43 +241,1462 @@
    "en": "What is the dish of the day?"
   }
  },
- "dårlig": {
+ "dagligvarer": {
   "forms": [
    {
-    "da": "en dårlig dag",
-    "en": "a bad day"
+    "da": "dagligvarerne",
+    "en": "the groceries"
    },
    {
-    "da": "et dårligt år",
-    "en": "a bad year"
+    "da": "dagligvarer og drikkevarer",
+    "en": "groceries and drinks"
    },
    {
-    "da": "dårlige dage",
-    "en": "bad days"
+    "da": "en dagligvarebutik",
+    "en": "a grocery store"
    }
   ],
-  "explanation": "\"Dårlig\" means bad, and it also means unwell: \"Jeg har det dårligt\" is \"I feel bad\" or \"I feel ill\". Add -t for et-words and -e for more than one. It changes in an unusual way when you compare it: dårlig, værre, værst (bad, worse, worst).",
+  "explanation": "\"Dagligvarer\" means groceries, the everyday goods like food and household things. It comes from \"daglig\" (daily) and \"varer\" (goods). The word is always plural. A \"dagligvarebutik\" is a normal grocery store. You will see it in news and shop talk more than in a chat with friends.",
   "related": [
+   {
+    "da": "et supermarked",
+    "en": "a supermarket"
+   },
+   {
+    "da": "at købe ind",
+    "en": "to buy groceries"
+   },
+   {
+    "da": "en vare",
+    "en": "a product"
+   },
+   {
+    "da": "en indkøbsvogn",
+    "en": "a shopping cart"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber **dagligvarer** i supermarkedet.",
+   "en": "I buy groceries at the supermarket."
+  }
+ },
+ "dansk": {
+  "forms": [
+   {
+    "da": "en dansk bog",
+    "en": "a Danish book"
+   },
+   {
+    "da": "et dansk hus",
+    "en": "a Danish house"
+   },
+   {
+    "da": "danske bøger",
+    "en": "Danish books"
+   }
+  ],
+  "explanation": "\"Dansk\" means Danish. It is used for the language and also for things from Denmark. As a school lesson, \"dansk\" is the Danish lesson, and it has no \"en\" or \"et\": \"Jeg har dansk\". Languages are written with a small letter in Danish, unlike English.",
+  "related": [
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   },
+   {
+    "da": "en dansker",
+    "en": "a Dane"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "engelsk",
+    "en": "English"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **dansk** i dag.",
+   "en": "I have Danish today."
+  }
+ },
+ "davs": {
+  "forms": [
+   {
+    "da": "Davs!",
+    "en": "Hi!"
+   },
+   {
+    "da": "Davs, hvordan går det?",
+    "en": "Hi, how's it going?"
+   },
+   {
+    "da": "Davs med dig.",
+    "en": "Hi to you."
+   }
+  ],
+  "explanation": "\"Davs\" is a short, casual greeting, a little old-fashioned and cheerful, like \"howdy\". It comes from \"goddag\". Friends and people of the older generation use it. It is fine to say, but \"hej\" is safer if you are unsure.",
+  "related": [
+   {
+    "da": "hej",
+    "en": "hi"
+   },
+   {
+    "da": "hejsa",
+    "en": "hi there"
+   },
+   {
+    "da": "goddag",
+    "en": "good day"
+   }
+  ],
+  "sentence": {
+   "da": "**Davs**, hvordan går det?",
+   "en": "Hi, how's it going?"
+  }
+ },
+ "de": {
+  "forms": [
+   {
+    "da": "De er hjemme.",
+    "en": "They are at home."
+   },
+   {
+    "da": "De bor i Aarhus.",
+    "en": "They live in Aarhus."
+   },
+   {
+    "da": "de store huse",
+    "en": "the big houses"
+   }
+  ],
+  "explanation": "\"De\" means \"they\", for people or things. It is also the word for \"the\" in front of many things when a describing word comes first, like \"de store hunde\" (the big dogs). It is said almost like \"dee\" but in everyday speech it often sounds like \"di\". After a verb or word like \"to\", \"they\" turns into \"dem\".",
+  "related": [
+   {
+    "da": "dem",
+    "en": "them"
+   },
+   {
+    "da": "deres",
+    "en": "their / theirs"
+   },
+   {
+    "da": "vi",
+    "en": "we"
+   },
+   {
+    "da": "I",
+    "en": "you (all)"
+   }
+  ],
+  "sentence": {
+   "da": "**De** kommer fra Norge.",
+   "en": "They come from Norway."
+  }
+ },
+ "december": {
+  "forms": [
+   {
+    "da": "december",
+    "en": "December"
+   },
+   {
+    "da": "i december",
+    "en": "in December"
+   },
+   {
+    "da": "i starten af december",
+    "en": "early in December"
+   }
+  ],
+  "explanation": "\"December\" is December, written with a small letter. You say \"i december\" for in December. It is the month of Christmas, and many Danes celebrate on the evening of 24 December, \"juleaften\". Things like \"julekalender\" (Advent calendar) are a big part of it.",
+  "related": [
+   {
+    "da": "november",
+    "en": "November"
+   },
+   {
+    "da": "januar",
+    "en": "January"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fejrer jul i **december**.",
+   "en": "We celebrate Christmas in December."
+  }
+ },
+ "dejlig": {
+  "forms": [
+   {
+    "da": "en dejlig dag",
+    "en": "a lovely day"
+   },
+   {
+    "da": "et dejligt sted",
+    "en": "a lovely place"
+   },
+   {
+    "da": "dejlige dage",
+    "en": "lovely days"
+   }
+  ],
+  "explanation": "\"Dejlig\" means lovely or nice, and it is very common in everyday talk: \"Dejligt!\" means \"Lovely!\". With et-words it gets a \"t\" (\"et dejligt sted\") and with more than one an \"e\" (\"dejlige dage\"). It is warmer than \"god\" (good).",
+  "related": [
+   {
+    "da": "hyggelig",
+    "en": "cozy / nice"
+   },
+   {
+    "da": "fantastisk",
+    "en": "fantastic"
+   },
    {
     "da": "god",
     "en": "good"
    },
    {
-    "da": "værre",
-    "en": "worse"
-   },
-   {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
-    "da": "at have det dårligt",
-    "en": "to feel bad"
+    "da": "dejligt",
+    "en": "lovely (alone)"
    }
   ],
   "sentence": {
-   "da": "Det var en **dårlig** idé.",
-   "en": "That was a bad idea."
+   "da": "Det er en **dejlig** dag i dag.",
+   "en": "It is a lovely day today."
+  }
+ },
+ "dem": {
+  "forms": [
+   {
+    "da": "Jeg ser dem.",
+    "en": "I see them."
+   },
+   {
+    "da": "Hun kender dem.",
+    "en": "She knows them."
+   },
+   {
+    "da": "Vi går med dem.",
+    "en": "We are going with them."
+   }
+  ],
+  "explanation": "\"Dem\" means \"them\". It is used when something is done to a group of people or things, or after words like \"med\" and \"til\". When they are the ones doing it, you say \"de\". Do not mix it up with \"deres\", which means \"their\".",
+  "related": [
+   {
+    "da": "de",
+    "en": "they"
+   },
+   {
+    "da": "deres",
+    "en": "their / theirs"
+   },
+   {
+    "da": "os",
+    "en": "us"
+   },
+   {
+    "da": "ham",
+    "en": "him"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kender **dem** ikke.",
+   "en": "I do not know them."
+  }
+ },
+ "den": {
+  "forms": [
+   {
+    "da": "Den er stor.",
+    "en": "It is big (about an en-word)."
+   },
+   {
+    "da": "den store bil",
+    "en": "the big car"
+   },
+   {
+    "da": "Jeg kan godt lide den.",
+    "en": "I like it."
+   }
+  ],
+  "explanation": "\"Den\" has two jobs. It means \"it\" when you talk about something that is an en-word, like \"en bil\" (a car): \"Den er rød.\" It also means \"the\" when a describing word comes first, as in \"den store bil\". For et-words, the matching word is \"det\".",
+  "related": [
+   {
+    "da": "det",
+    "en": "it (et-word) / that"
+   },
+   {
+    "da": "en",
+    "en": "a / an (en-word)"
+   },
+   {
+    "da": "de",
+    "en": "they / the (many)"
+   },
+   {
+    "da": "her",
+    "en": "here"
+   }
+  ],
+  "sentence": {
+   "da": "**Den** er meget god.",
+   "en": "It is very good."
+  }
+ },
+ "denne": {
+  "forms": [
+   {
+    "da": "denne bil",
+    "en": "this car"
+   },
+   {
+    "da": "denne mand",
+    "en": "this man"
+   },
+   {
+    "da": "Hvem er denne person?",
+    "en": "Who is this person?"
+   }
+  ],
+  "explanation": "\"Denne\" means \"this\" and goes with en-words, such as \"denne bil\" (this car). It sounds a little formal or written; in everyday speech people often say \"den her\" instead, as in \"den her bil\". For et-words use \"dette\", and for many things \"disse\".",
+  "related": [
+   {
+    "da": "dette",
+    "en": "this (et-word)"
+   },
+   {
+    "da": "disse",
+    "en": "these"
+   },
+   {
+    "da": "den her",
+    "en": "this one (everyday)"
+   },
+   {
+    "da": "den",
+    "en": "it (en-word)"
+   }
+  ],
+  "sentence": {
+   "da": "**Denne** bog er meget god.",
+   "en": "This book is very good."
+  }
+ },
+ "der": {
+  "forms": [
+   {
+    "da": "Der er en bog.",
+    "en": "There is a book."
+   },
+   {
+    "da": "Hvem er der?",
+    "en": "Who is there?"
+   },
+   {
+    "da": "manden, der bor her",
+    "en": "the man who lives here"
+   }
+  ],
+  "explanation": "\"Der\" has a few jobs. It means \"there\", as in \"Han er der\" (He is there). It starts sentences like \"Der er en bog på bordet\" (There is a book on the table). It can also mean \"who\" or \"that\" in the middle of a sentence: \"Manden, der bor her, er min ven\". Do not mix it up with \"her\" (here).",
+  "related": [
+   {
+    "da": "her",
+    "en": "here"
+   },
+   {
+    "da": "derfor",
+    "en": "therefore / that is why"
+   },
+   {
+    "da": "derhjemme",
+    "en": "at home (there)"
+   },
+   {
+    "da": "hvor",
+    "en": "where"
+   }
+  ],
+  "sentence": {
+   "da": "**Der** er en kat i haven.",
+   "en": "There is a cat in the garden."
+  }
+ },
+ "derefter": {
+  "forms": [
+   {
+    "da": "derefter spiser vi",
+    "en": "after that we eat"
+   },
+   {
+    "da": "først ... og derefter ...",
+    "en": "first ... and then ..."
+   },
+   {
+    "da": "dagen derefter",
+    "en": "the day after"
+   }
+  ],
+  "explanation": "\"Derefter\" means after that, and it puts one thing after another in a story or a list of steps. It fits well with \"først\" (first). When it starts a sentence, the action word comes next: \"Derefter går vi hjem\".",
+  "related": [
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   },
+   {
+    "da": "først",
+    "en": "first"
+   },
+   {
+    "da": "så",
+    "en": "then"
+   },
+   {
+    "da": "før",
+    "en": "before"
+   }
+  ],
+  "sentence": {
+   "da": "Først spiser vi, og **derefter** går vi en tur.",
+   "en": "First we eat, and after that we go for a walk."
+  }
+ },
+ "deres": {
+  "forms": [
+   {
+    "da": "deres bil",
+    "en": "their car"
+   },
+   {
+    "da": "deres hus",
+    "en": "their house"
+   },
+   {
+    "da": "deres børn",
+    "en": "their children"
+   }
+  ],
+  "explanation": "\"Deres\" means \"their\" or \"theirs\". It never changes, so it fits en-words, et-words and many things. A capital \"Deres\" is also the very formal \"your\", but you will mostly see it in letters. Do not mix it up with \"dem\" (them).",
+  "related": [
+   {
+    "da": "de",
+    "en": "they"
+   },
+   {
+    "da": "dem",
+    "en": "them"
+   },
+   {
+    "da": "vores",
+    "en": "our / ours"
+   },
+   {
+    "da": "jeres",
+    "en": "your (group of people)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **deres** hus.",
+   "en": "That is their house."
+  }
+ },
+ "derfor": {
+  "forms": [
+   {
+    "da": "derfor er jeg her",
+    "en": "that is why I am here"
+   },
+   {
+    "da": "derfor kom jeg",
+    "en": "that is why I came"
+   },
+   {
+    "da": "det er derfor",
+    "en": "that is why"
+   }
+  ],
+  "explanation": "\"Derfor\" means therefore or that is why, and it shows a result of what you just said. A tip: when \"derfor\" starts a sentence, the action word comes right after it: \"Derfor er jeg her\". It pairs with \"fordi\" (because).",
+  "related": [
+   {
+    "da": "fordi",
+    "en": "because"
+   },
+   {
+    "da": "hvorfor",
+    "en": "why"
+   },
+   {
+    "da": "så",
+    "en": "so"
+   },
+   {
+    "da": "altså",
+    "en": "so / thus"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er syg, og **derfor** bliver jeg hjemme.",
+   "en": "I am sick, and that is why I am staying home."
+  }
+ },
+ "derfra": {
+  "forms": [
+   {
+    "da": "Jeg kommer derfra",
+    "en": "I come from there"
+   },
+   {
+    "da": "Hvad kan man se derfra?",
+    "en": "What can you see from there?"
+   },
+   {
+    "da": "Vi tog derfra klokken ti",
+    "en": "We left there at ten"
+   }
+  ],
+  "explanation": "\"Derfra\" is \"der\" (there) and \"fra\" (from) written as one word, meaning from there. It belongs to a family of useful little place words: \"herfra\" (from here), \"derhen\" (to there) and \"hvorfra\" (from where). Danish loves joining small words like this where English uses two or three.",
+  "related": [
+   {
+    "da": "herfra",
+    "en": "from here"
+   },
+   {
+    "da": "derhen",
+    "en": "(to) there"
+   },
+   {
+    "da": "hvorfra",
+    "en": "from where"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor langt er der **derfra** til stationen?",
+   "en": "How far is it from there to the station?"
+  }
+ },
+ "derhjemme": {
+  "forms": [
+   {
+    "da": "derhjemme hos os",
+    "en": "at home with us"
+   },
+   {
+    "da": "derhjemme taler vi dansk",
+    "en": "at home we speak Danish"
+   },
+   {
+    "da": "hvad laver du derhjemme?",
+    "en": "what do you do at home?"
+   }
+  ],
+  "explanation": "\"Derhjemme\" means at home, and it is often used when you talk about your own home from somewhere else. \"Hjemme\" is the plain word for at home. \"Hjem\" is used for going home: \"Jeg går hjem\". Danes use it a lot when comparing life at home with life elsewhere.",
+  "related": [
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "hjem",
+    "en": "home (going)"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   },
+   {
+    "da": "ude",
+    "en": "out"
+   }
+  ],
+  "sentence": {
+   "da": "**Derhjemme** taler vi engelsk.",
+   "en": "At home we speak English."
+  }
+ },
+ "derinde": {
+  "forms": [
+   {
+    "da": "derinde i stuen",
+    "en": "in there in the living room"
+   },
+   {
+    "da": "han er derinde",
+    "en": "he is in there"
+   },
+   {
+    "da": "hvad er derinde?",
+    "en": "what is in there?"
+   }
+  ],
+  "explanation": "\"Derinde\" means in there, and it points to a place inside, away from where you are. Its partner \"herinde\" means in here. It describes where something is; to move in you use \"ind\": \"gå ind\" (go in).",
+  "related": [
+   {
+    "da": "herinde",
+    "en": "in here"
+   },
+   {
+    "da": "derude",
+    "en": "out there"
+   },
+   {
+    "da": "inde",
+    "en": "inside"
+   },
+   {
+    "da": "ind",
+    "en": "in (movement)"
+   }
+  ],
+  "sentence": {
+   "da": "Min mor er **derinde**.",
+   "en": "My mother is in there."
+  }
+ },
+ "dernede": {
+  "forms": [
+   {
+    "da": "dernede ved vandet",
+    "en": "down there by the water"
+   },
+   {
+    "da": "er han dernede?",
+    "en": "is he down there?"
+   },
+   {
+    "da": "dernede i kælderen",
+    "en": "down there in the basement"
+   }
+  ],
+  "explanation": "\"Dernede\" means down there, and it points to a place lower than you and away from you. It describes where something is, not movement. The opposite is \"deroppe\" (up there). It is handy for pointing out places such as a basement or a street below.",
+  "related": [
+   {
+    "da": "nede",
+    "en": "down"
+   },
+   {
+    "da": "deroppe",
+    "en": "up there"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
+   },
+   {
+    "da": "derude",
+    "en": "out there"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen står **dernede**.",
+   "en": "The car is down there."
+  }
+ },
+ "derude": {
+  "forms": [
+   {
+    "da": "derude i haven",
+    "en": "out there in the garden"
+   },
+   {
+    "da": "er han derude?",
+    "en": "is he out there?"
+   },
+   {
+    "da": "derude på gaden",
+    "en": "out there on the street"
+   }
+  ],
+  "explanation": "\"Derude\" means out there, so it points to a place outside and away from you. The matching word for outside and close to you is \"herude\". It describes where something is; for moving out you say \"derud\" or \"ud\".",
+  "related": [
+   {
+    "da": "herude",
+    "en": "out here"
+   },
+   {
+    "da": "udenfor",
+    "en": "outside"
+   },
+   {
+    "da": "derinde",
+    "en": "in there"
+   },
+   {
+    "da": "ude",
+    "en": "out / outside"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene leger **derude**.",
+   "en": "The children are playing out there."
+  }
+ },
+ "desværre": {
+  "forms": [
+   {
+    "da": "desværre ikke",
+    "en": "unfortunately not"
+   },
+   {
+    "da": "desværre kan jeg ikke",
+    "en": "unfortunately I can't"
+   },
+   {
+    "da": "desværre er den solgt",
+    "en": "unfortunately it is sold"
+   }
+  ],
+  "explanation": "\"Desværre\" means unfortunately, and it is a polite way to start bad news or a refusal. It sounds softer than just saying \"Nej\". It is very common in shops, offices and when you turn down an invitation.",
+  "related": [
+   {
+    "da": "heldigvis",
+    "en": "luckily"
+   },
+   {
+    "da": "ærgerligt",
+    "en": "a pity"
+   },
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   },
+   {
+    "da": "tak",
+    "en": "thanks"
+   }
+  ],
+  "sentence": {
+   "da": "**Desværre** har jeg ikke tid i dag.",
+   "en": "Unfortunately I don't have time today."
+  }
+ },
+ "det": {
+  "forms": [
+   {
+    "da": "Det er godt.",
+    "en": "It is good."
+   },
+   {
+    "da": "Det regner.",
+    "en": "It is raining."
+   },
+   {
+    "da": "Jeg ved det.",
+    "en": "I know it / I know that."
+   }
+  ],
+  "explanation": "\"Det\" means \"it\" or \"that\". It is used for et-words, but also for general things, like \"Det er sjovt\" (It is fun), and for weather and time: \"Det regner\" (It is raining). \"Det\" also means \"the\" in a few set phrases such as \"det store hus\". If you are unsure, \"det er\" is a very safe way to start a sentence.",
+  "related": [
+   {
+    "da": "den",
+    "en": "it (en-word)"
+   },
+   {
+    "da": "de",
+    "en": "they"
+   },
+   {
+    "da": "dette",
+    "en": "this (et-word)"
+   },
+   {
+    "da": "hvad",
+    "en": "what"
+   }
+  ],
+  "sentence": {
+   "da": "**Det** er et godt spørgsmål.",
+   "en": "That is a good question."
+  }
+ },
+ "det er": {
+  "forms": [
+   {
+    "da": "Det er godt.",
+    "en": "It is good."
+   },
+   {
+    "da": "Det er en bil.",
+    "en": "It is a car."
+   },
+   {
+    "da": "Er det dig?",
+    "en": "Is it you?"
+   }
+  ],
+  "explanation": "Means \"it is\" or \"that is\". Danish uses \"det er\" for both, and it is one of the most useful starting points for a sentence. The word \"det\" does not change, whether you talk about an en-word or an et-word. Use it to name things, describe them, or say the time: \"det er sent\" (it is late).",
+  "related": [
+   {
+    "da": "der er",
+    "en": "there is"
+   },
+   {
+    "da": "det var",
+    "en": "it was"
+   },
+   {
+    "da": "er det ...?",
+    "en": "is it ...?"
+   },
+   {
+    "da": "her er",
+    "en": "here is"
+   }
+  ],
+  "sentence": {
+   "da": "**Det er** en god dag i dag.",
+   "en": "It is a good day today."
+  }
+ },
+ "det er en god idé": {
+  "forms": [
+   {
+    "da": "Det er en god idé.",
+    "en": "That's a good idea."
+   },
+   {
+    "da": "Det er en dårlig idé.",
+    "en": "That's a bad idea."
+   },
+   {
+    "da": "Det er en fin idé.",
+    "en": "That's a nice idea."
+   }
+  ],
+  "explanation": "A common way to agree with a suggestion. \"Idé\" is an en-word, which is why it says \"en god idé\". Danes often shorten it to just \"god idé!\" in everyday talk. To give a different opinion, swap \"god\" for \"dårlig\" (bad) or \"fin\" (nice).",
+  "related": [
+   {
+    "da": "en idé",
+    "en": "an idea"
+   },
+   {
+    "da": "et forslag",
+    "en": "a suggestion"
+   },
+   {
+    "da": "det lyder godt",
+    "en": "that sounds good"
+   },
+   {
+    "da": "enig",
+    "en": "agree"
+   }
+  ],
+  "sentence": {
+   "da": "Skal vi tage på café? **Det er en god idé.**",
+   "en": "Shall we go to a cafe? That's a good idea."
+  }
+ },
+ "det er i orden": {
+  "forms": [
+   {
+    "da": "Det er i orden.",
+    "en": "It's okay."
+   },
+   {
+    "da": "Ja, det er i orden.",
+    "en": "Yes, that's fine."
+   },
+   {
+    "da": "Er det i orden?",
+    "en": "Is that okay?"
+   }
+  ],
+  "explanation": "\"Det er i orden\" means \"it's okay\" or \"that's fine\". It is useful as a reply to \"sorry\" and as a way to agree to a plan. \"I orden\" literally means \"in order\". Ask \"er det i orden?\" to check if something suits the other person.",
+  "related": [
+   {
+    "da": "det er okay",
+    "en": "it's okay"
+   },
+   {
+    "da": "ingen problemer",
+    "en": "no problem"
+   },
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, jeg er sent på den. — **Det er i orden.**",
+   "en": "Sorry, I'm late. — It's okay."
+  }
+ },
+ "det er ikke så svært": {
+  "forms": [
+   {
+    "da": "Det er ikke så svært.",
+    "en": "It's not that hard."
+   },
+   {
+    "da": "Det er ret svært.",
+    "en": "It's quite hard."
+   },
+   {
+    "da": "Er det svært?",
+    "en": "Is it hard?"
+   }
+  ],
+  "explanation": "A reassuring phrase meaning \"it's not that hard\". \"Svært\" means difficult, and \"ikke så\" softens it to \"not so\". It is useful for encouraging a learner. The opposite idea is \"det er svært\" (it's hard), and the easy version is \"det er nemt\" (it's easy).",
+  "related": [
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "ret",
+    "en": "quite"
+   },
+   {
+    "da": "let",
+    "en": "easy / light"
+   }
+  ],
+  "sentence": {
+   "da": "Dansk? **Det er ikke så svært.**",
+   "en": "Danish? It's not that hard."
+  }
+ },
+ "det er lige meget": {
+  "forms": [
+   {
+    "da": "Det er lige meget.",
+    "en": "It doesn't matter."
+   },
+   {
+    "da": "Det er mig lige meget.",
+    "en": "I don't mind."
+   },
+   {
+    "da": "Det er lige meget, hvad du vælger.",
+    "en": "It doesn't matter what you choose."
+   }
+  ],
+  "explanation": "\"Det er lige meget\" means \"it doesn't matter\" or \"I don't mind\". You use it when you are happy with any choice. \"Det er mig lige meget\" means \"I don't mind\" or \"I don't care\". Careful with tone: in some situations it can sound like you don't care about the other person's feelings, so use \"det gør ikke noget\" when you want to be kind.",
+  "related": [
+   {
+    "da": "det gør ikke noget",
+    "en": "it's ok / no problem"
+   },
+   {
+    "da": "det er lige meget",
+    "en": "it doesn't matter"
+   },
+   {
+    "da": "jeg bryder mig ikke om",
+    "en": "I don't like"
+   },
+   {
+    "da": "det er fint",
+    "en": "that's fine"
+   }
+  ],
+  "sentence": {
+   "da": "**Det er lige meget**, jeg tager hvad som helst.",
+   "en": "It doesn't matter, I'll take anything."
+  }
+ },
+ "det er rigtigt": {
+  "forms": [
+   {
+    "da": "Det er rigtigt.",
+    "en": "That's right."
+   },
+   {
+    "da": "Det er ikke rigtigt.",
+    "en": "That's not right."
+   },
+   {
+    "da": "Det er helt rigtigt.",
+    "en": "That's completely right."
+   }
+  ],
+  "explanation": "Say this to agree that something is correct or true. \"Rigtigt\" is the form of \"rigtig\" (right, correct) used with \"det\". Be careful: \"rigtig\" also means \"really\" before another word, as in \"rigtig godt\" (really good). A short alternative is \"ja, præcis\" (yes, exactly).",
+  "related": [
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "at have ret",
+    "en": "to be right"
+   },
+   {
+    "da": "præcis",
+    "en": "exactly"
+   },
+   {
+    "da": "ja",
+    "en": "yes"
+   }
+  ],
+  "sentence": {
+   "da": "Du bor i Aarhus, ikke? **Det er rigtigt.**",
+   "en": "You live in Aarhus, right? That's right."
+  }
+ },
+ "det er synd": {
+  "forms": [
+   {
+    "da": "Det er synd.",
+    "en": "That's a shame."
+   },
+   {
+    "da": "Det er rigtig synd.",
+    "en": "That's really a shame."
+   },
+   {
+    "da": "Det er synd for dig.",
+    "en": "I feel sorry for you."
+   }
+  ],
+  "explanation": "\"Det er synd\" means \"that's a shame\" or \"that's too bad\" and shows sympathy when something goes wrong. Add \"for\" and a person to say you feel sorry for them: \"det er synd for ham\". The word \"synd\" also means \"sin\", but in this phrase it is mild and everyday.",
+  "related": [
+   {
+    "da": "desværre",
+    "en": "unfortunately"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan ikke komme? **Det er synd!**",
+   "en": "You can't come? That's a shame!"
+  }
+ },
+ "det går fint": {
+  "forms": [
+   {
+    "da": "Det går fint.",
+    "en": "It's going fine."
+   },
+   {
+    "da": "Det går fint, tak.",
+    "en": "It's going fine, thanks."
+   },
+   {
+    "da": "Det går ikke så godt.",
+    "en": "It's not going so well."
+   }
+  ],
+  "explanation": "\"Det går fint\" means \"it's going fine\" and is a common answer to \"hvordan går det?\" (\"how is it going?\"). The word \"fint\" means \"fine\" or \"nicely\". Swap it for \"godt\" (well), \"okay\" or \"dårligt\" (badly) to change the mood.",
+  "related": [
+   {
+    "da": "hvordan går det?",
+    "en": "how is it going?"
+   },
+   {
+    "da": "det går godt",
+    "en": "it's going well"
+   },
+   {
+    "da": "det går dårligt",
+    "en": "it's going badly"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan går det? **Det går fint**, tak.",
+   "en": "How is it going? It's going fine, thanks."
+  }
+ },
+ "det går godt": {
+  "forms": [
+   {
+    "da": "Det går godt.",
+    "en": "It's going well."
+   },
+   {
+    "da": "Det går godt, tak.",
+    "en": "It's going well, thanks."
+   },
+   {
+    "da": "Det går rigtig godt.",
+    "en": "It's going really well."
+   }
+  ],
+  "explanation": "\"Det går godt\" means \"it's going well\" and is a standard answer to \"Hvordan går det?\" (How's it going?). You can make it stronger with \"rigtig\" (really), or softer with \"det går fint\" (it's going fine) or \"det går OK\". It is also used about anything that is going well, like a job or a project. After the answer, it is polite to ask \"og dig?\" (and you?).",
+  "related": [
+   {
+    "da": "hvordan går det?",
+    "en": "how's it going?"
+   },
+   {
+    "da": "det går fint",
+    "en": "it's going fine"
+   },
+   {
+    "da": "det går dårligt",
+    "en": "it's going badly"
+   },
+   {
+    "da": "og dig?",
+    "en": "and you?"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan går det? **Det går godt**, tak.",
+   "en": "How's it going? It's going well, thanks."
+  }
+ },
+ "det gør ikke noget": {
+  "forms": [
+   {
+    "da": "Det gør ikke noget.",
+    "en": "It's ok."
+   },
+   {
+    "da": "Nej, det gør ikke noget.",
+    "en": "No, it doesn't matter."
+   },
+   {
+    "da": "Det gør ikke noget, jeg venter.",
+    "en": "No problem, I'll wait."
+   }
+  ],
+  "explanation": "\"Det gør ikke noget\" means \"it's ok\" or \"no problem\". It is what you say when someone apologises, for example after \"Undskyld\", to show that you are not upset. Word for word it is \"it does not do anything\". It is close to \"det er lige meget\" (it doesn't matter), but it is warmer and more of a reply to an apology.",
+  "related": [
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   },
+   {
+    "da": "det er lige meget",
+    "en": "it doesn't matter"
+   },
+   {
+    "da": "det er fint",
+    "en": "that's fine"
+   },
+   {
+    "da": "ingen årsag",
+    "en": "no worries"
+   }
+  ],
+  "sentence": {
+   "da": "\"Undskyld!\" - \"**Det gør ikke noget**.\"",
+   "en": "\"Sorry!\" - \"It's ok.\""
+  }
+ },
+ "det håber jeg": {
+  "forms": [
+   {
+    "da": "Det håber jeg.",
+    "en": "I hope so."
+   },
+   {
+    "da": "Det håber jeg ikke.",
+    "en": "I hope not."
+   },
+   {
+    "da": "Det håber jeg meget.",
+    "en": "I really hope so."
+   }
+  ],
+  "explanation": "\"Det håber jeg\" means \"I hope so\" and is a short reply to a question about something that might happen. The word order is the opposite of English: \"det\" comes first, then \"håber jeg\". Make it negative with \"ikke\" at the end: \"det håber jeg ikke\" means \"I hope not\".",
+  "related": [
+   {
+    "da": "det tror jeg",
+    "en": "I think so"
+   },
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "forhåbentlig",
+    "en": "hopefully"
+   }
+  ],
+  "sentence": {
+   "da": "Bliver det godt vejr? **Det håber jeg.**",
+   "en": "Will the weather be good? I hope so."
+  }
+ },
+ "det lyder godt": {
+  "forms": [
+   {
+    "da": "Det lyder godt.",
+    "en": "That sounds good."
+   },
+   {
+    "da": "Det lyder rigtig godt.",
+    "en": "That sounds really good."
+   },
+   {
+    "da": "Det lyder dejligt.",
+    "en": "That sounds lovely."
+   }
+  ],
+  "explanation": "Use this to react positively to a plan, an offer or an idea. \"At lyde\" means to sound, so it is just like English \"that sounds good\". You can put \"rigtig\" (really) before \"godt\" to sound more enthusiastic. The opposite is \"det lyder dårligt\" (that sounds bad).",
+  "related": [
+   {
+    "da": "det lyder dårligt",
+    "en": "that sounds bad"
+   },
+   {
+    "da": "det er en god idé",
+    "en": "that's a good idea"
+   },
+   {
+    "da": "fedt",
+    "en": "cool"
+   },
+   {
+    "da": "fint",
+    "en": "fine / nice"
+   }
+  ],
+  "sentence": {
+   "da": "Skal vi spise middag klokken seks? **Det lyder godt.**",
+   "en": "Shall we have dinner at six? That sounds good."
+  }
+ },
+ "det tror jeg": {
+  "forms": [
+   {
+    "da": "Det tror jeg.",
+    "en": "I think so."
+   },
+   {
+    "da": "Det tror jeg ikke.",
+    "en": "I don't think so."
+   },
+   {
+    "da": "Det tror jeg også.",
+    "en": "I think so too."
+   }
+  ],
+  "explanation": "\"Det tror jeg\" means \"I think so\" or \"I believe so\". Like \"det håber jeg\", the word \"det\" comes first and \"tror jeg\" follows. Add \"ikke\" to say \"I don't think so\". It is a polite, slightly unsure reply when you aren't completely certain.",
+  "related": [
+   {
+    "da": "det håber jeg",
+    "en": "I hope so"
+   },
+   {
+    "da": "at tro",
+    "en": "to believe, think"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
+   }
+  ],
+  "sentence": {
+   "da": "Er han hjemme? **Det tror jeg.**",
+   "en": "Is he home? I think so."
+  }
+ },
+ "det tror jeg ikke": {
+  "forms": [
+   {
+    "da": "Det tror jeg ikke.",
+    "en": "I don't think so."
+   },
+   {
+    "da": "Nej, det tror jeg ikke.",
+    "en": "No, I don't think so."
+   },
+   {
+    "da": "Det tror jeg godt.",
+    "en": "I think so, yes."
+   }
+  ],
+  "explanation": "\"Det tror jeg ikke\" means \"I don't think so\" and is a polite, soft way to say no. As in \"Det ved jeg ikke\", the word \"det\" comes first and the verb comes before \"jeg\". The opposite is \"det tror jeg\" or \"det tror jeg godt\" (I think so). It sounds gentler than a plain \"nej\" (no).",
+  "related": [
+   {
+    "da": "det tror jeg",
+    "en": "I think so"
+   },
+   {
+    "da": "at tro",
+    "en": "to think / believe"
+   },
+   {
+    "da": "det ved jeg ikke",
+    "en": "I don't know"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
+   }
+  ],
+  "sentence": {
+   "da": "**Det tror jeg ikke**, men jeg er ikke sikker.",
+   "en": "I don't think so, but I'm not sure."
+  }
+ },
+ "det var så lidt": {
+  "forms": [
+   {
+    "da": "Det var så lidt.",
+    "en": "You're welcome."
+   },
+   {
+    "da": "Tak! – Det var så lidt.",
+    "en": "Thanks! – Don't mention it."
+   },
+   {
+    "da": "Selv tak.",
+    "en": "You're welcome (also)."
+   }
+  ],
+  "explanation": "A friendly reply to \"tak\" (thanks). It literally means \"it was so little\", as if the favour was nothing. It is warm and a bit informal. A shorter alternative is \"selv tak\". Do not use it to start a thank you, only to answer one.",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "mange tak",
+    "en": "many thanks"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   },
+   {
+    "da": "værsgo",
+    "en": "here you are"
+   }
+  ],
+  "sentence": {
+   "da": "Tusind tak for hjælpen! – **Det var så lidt.**",
+   "en": "A thousand thanks for the help! – Don't mention it."
+  }
+ },
+ "det ved jeg ikke": {
+  "forms": [
+   {
+    "da": "Det ved jeg ikke.",
+    "en": "I don't know."
+   },
+   {
+    "da": "Det ved jeg ikke noget om.",
+    "en": "I know nothing about that."
+   },
+   {
+    "da": "Det ved jeg faktisk ikke.",
+    "en": "I actually don't know."
+   }
+  ],
+  "explanation": "\"Det ved jeg ikke\" means \"I don't know\" (that). Notice the word order: \"det\" comes first for emphasis, and then \"ved jeg\" with the verb before \"jeg\". The simple version \"Jeg ved det ikke\" is also correct and very common. \"At vide\" means to know a fact, and you use \"at kende\" for knowing a person or place.",
+  "related": [
+   {
+    "da": "jeg ved det ikke",
+    "en": "I don't know"
+   },
+   {
+    "da": "at vide",
+    "en": "to know (a fact)"
+   },
+   {
+    "da": "at kende",
+    "en": "to know (a person)"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
+   }
+  ],
+  "sentence": {
+   "da": "**Det ved jeg ikke**, men jeg kan spørge.",
+   "en": "I don't know, but I can ask."
+  }
+ },
+ "dette": {
+  "forms": [
+   {
+    "da": "dette hus",
+    "en": "this house"
+   },
+   {
+    "da": "dette barn",
+    "en": "this child"
+   },
+   {
+    "da": "Dette er min bror.",
+    "en": "This is my brother."
+   }
+  ],
+  "explanation": "\"Dette\" means \"this\" and goes with et-words, such as \"dette hus\" (this house). It can also stand alone at the start of a sentence, like \"Dette er min ven\". It sounds a bit formal; in speech people often say \"det her\". For en-words use \"denne\".",
+  "related": [
+   {
+    "da": "denne",
+    "en": "this (en-word)"
+   },
+   {
+    "da": "disse",
+    "en": "these"
+   },
+   {
+    "da": "det her",
+    "en": "this one (everyday)"
+   },
+   {
+    "da": "det",
+    "en": "it / that"
+   }
+  ],
+  "sentence": {
+   "da": "**Dette** er mit nye hus.",
+   "en": "This is my new house."
+  }
+ },
+ "dig": {
+  "forms": [
+   {
+    "da": "Jeg ser dig.",
+    "en": "I see you."
+   },
+   {
+    "da": "Jeg elsker dig.",
+    "en": "I love you."
+   },
+   {
+    "da": "Hvordan har du det? / Jeg savner dig.",
+    "en": "How are you? / I miss you."
+   }
+  ],
+  "explanation": "\"Dig\" means \"you\" when you speak to one person and something is done to them, such as \"Jeg kan se dig\". When they are doing it, use \"du\". It is also used after words like \"til\" and \"med\": \"med dig\" is \"with you\". For several people it is \"jer\".",
+  "related": [
+   {
+    "da": "du",
+    "en": "you (doing something)"
+   },
+   {
+    "da": "din",
+    "en": "your (en-word)"
+   },
+   {
+    "da": "jer",
+    "en": "you (many, after a verb)"
+   },
+   {
+    "da": "mig",
+    "en": "me"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan høre **dig**.",
+   "en": "I can hear you."
   }
  },
  "digital": {
@@ -120,43 +1738,1070 @@
    "en": "I have a digital calendar."
   }
  },
- "derfra": {
+ "din": {
   "forms": [
    {
-    "da": "Jeg kommer derfra",
-    "en": "I come from there"
+    "da": "din bil",
+    "en": "your car"
    },
    {
-    "da": "Hvad kan man se derfra?",
-    "en": "What can you see from there?"
+    "da": "din ven",
+    "en": "your friend"
    },
    {
-    "da": "Vi tog derfra klokken ti",
-    "en": "We left there at ten"
+    "da": "Bilen er din.",
+    "en": "The car is yours."
    }
   ],
-  "explanation": "\"Derfra\" is \"der\" (there) and \"fra\" (from) written as one word, meaning from there. It belongs to a family of useful little place words: \"herfra\" (from here), \"derhen\" (to there) and \"hvorfra\" (from where). Danish loves joining small words like this where English uses two or three.",
+  "explanation": "\"Din\" means \"your\" or \"yours\" when you speak to one person, and goes with en-words, like \"din mor\" (your mother). For et-words it is \"dit\", and for many things \"dine\". It is not used for a group of people; for that, say \"jeres\".",
   "related": [
    {
-    "da": "herfra",
-    "en": "from here"
+    "da": "dit",
+    "en": "your (et-word)"
    },
    {
-    "da": "derhen",
-    "en": "(to) there"
+    "da": "dine",
+    "en": "your (many)"
    },
    {
-    "da": "hvorfra",
-    "en": "from where"
+    "da": "min",
+    "en": "my (en-word)"
    },
    {
-    "da": "derovre",
-    "en": "over there"
+    "da": "jeres",
+    "en": "your (group of people)"
    }
   ],
   "sentence": {
-   "da": "Hvor langt er der **derfra** til stationen?",
-   "en": "How far is it from there to the station?"
+   "da": "Er det **din** taske?",
+   "en": "Is that your bag?"
+  }
+ },
+ "dine": {
+  "forms": [
+   {
+    "da": "dine bøger",
+    "en": "your books"
+   },
+   {
+    "da": "dine børn",
+    "en": "your children"
+   },
+   {
+    "da": "Bøgerne er dine.",
+    "en": "The books are yours."
+   }
+  ],
+  "explanation": "\"Dine\" means \"your\" or \"yours\" when you speak to one person and mean more than one thing, like \"dine venner\" (your friends). It is the same for en-words and et-words. For one thing you use \"din\" or \"dit\".",
+  "related": [
+   {
+    "da": "din",
+    "en": "your (en-word)"
+   },
+   {
+    "da": "dit",
+    "en": "your (et-word)"
+   },
+   {
+    "da": "mine",
+    "en": "my (many)"
+   },
+   {
+    "da": "jeres",
+    "en": "your (group of people)"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er **dine** sko?",
+   "en": "Where are your shoes?"
+  }
+ },
+ "disse": {
+  "forms": [
+   {
+    "da": "disse biler",
+    "en": "these cars"
+   },
+   {
+    "da": "disse huse",
+    "en": "these houses"
+   },
+   {
+    "da": "Hvad er disse?",
+    "en": "What are these?"
+   }
+  ],
+  "explanation": "\"Disse\" means \"these\" and is used with more than one thing, whether the words are en-words or et-words. It is a bit formal, and in everyday speech people often say \"de her\", as in \"de her bøger\". For one thing use \"denne\" or \"dette\".",
+  "related": [
+   {
+    "da": "denne",
+    "en": "this (en-word)"
+   },
+   {
+    "da": "dette",
+    "en": "this (et-word)"
+   },
+   {
+    "da": "de her",
+    "en": "these (everyday)"
+   },
+   {
+    "da": "de",
+    "en": "they / the (many)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide **disse** sko.",
+   "en": "I like these shoes."
+  }
+ },
+ "dit": {
+  "forms": [
+   {
+    "da": "dit hus",
+    "en": "your house"
+   },
+   {
+    "da": "dit navn",
+    "en": "your name"
+   },
+   {
+    "da": "Huset er dit.",
+    "en": "The house is yours."
+   }
+  ],
+  "explanation": "\"Dit\" means \"your\" or \"yours\" when you speak to one person, and goes with et-words, like \"dit barn\" (your child). For en-words it is \"din\", and for many things \"dine\". Learn each word with en or et so you pick the right one.",
+  "related": [
+   {
+    "da": "din",
+    "en": "your (en-word)"
+   },
+   {
+    "da": "dine",
+    "en": "your (many)"
+   },
+   {
+    "da": "mit",
+    "en": "my (et-word)"
+   },
+   {
+    "da": "jeres",
+    "en": "your (group of people)"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er **dit** navn?",
+   "en": "What is your name?"
+  }
+ },
+ "dog": {
+  "forms": [
+   {
+    "da": "Det er dog sjovt.",
+    "en": "It is funny, though."
+   },
+   {
+    "da": "Kom dog ind!",
+    "en": "Do come in!"
+   },
+   {
+    "da": "Jeg er dog træt.",
+    "en": "I am tired, though."
+   }
+  ],
+  "explanation": "\"Dog\" means \"however\" or \"though\", but it is used much more softly than the English \"however\". It sits inside the sentence and adds a little surprise, contrast or friendliness, as in \"Det er dog mærkeligt\" (That is odd, though). In commands it makes the request warmer, like \"Kom dog ind\" (Do come in). Don't confuse it with \"men\" (but), which joins two sentences.",
+  "related": [
+   {
+    "da": "men",
+    "en": "but"
+   },
+   {
+    "da": "alligevel",
+    "en": "anyway / all the same"
+   },
+   {
+    "da": "selvom",
+    "en": "even though"
+   },
+   {
+    "da": "imidlertid",
+    "en": "however (more formal)"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **dog** en god idé.",
+   "en": "That is a good idea, though."
+  }
+ },
+ "du": {
+  "forms": [
+   {
+    "da": "Du er sød.",
+    "en": "You are sweet."
+   },
+   {
+    "da": "Hvad hedder du?",
+    "en": "What is your name?"
+   },
+   {
+    "da": "Har du tid?",
+    "en": "Do you have time?"
+   }
+  ],
+  "explanation": "\"Du\" means you when talking to one person, and it is the normal word in nearly all situations, even with older people or at work. Its other form is \"dig\" (you), used after the action: \"Jeg ser dig\" (I see you). The word for \"your\" is \"din\", \"dit\" or \"dine\". For several people, use \"I\".",
+  "related": [
+   {
+    "da": "dig",
+    "en": "you (after the action)"
+   },
+   {
+    "da": "din",
+    "en": "your"
+   },
+   {
+    "da": "I",
+    "en": "you (more than one)"
+   },
+   {
+    "da": "De",
+    "en": "you (very formal)"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor bor **du**?",
+   "en": "Where do you live?"
+  }
+ },
+ "dum": {
+  "forms": [
+   {
+    "da": "en dum idé",
+    "en": "a stupid idea"
+   },
+   {
+    "da": "et dumt svar",
+    "en": "a stupid answer"
+   },
+   {
+    "da": "dumme ideer",
+    "en": "stupid ideas"
+   }
+  ],
+  "explanation": "\"Dum\" means stupid or silly. It can sound rude when said about a person, so be careful. It is common for things: \"Det var dumt\" means \"That was silly\". With et-words it gets a \"t\" (\"et dumt svar\") and with more than one \"me\" (\"dumme ideer\").",
+  "related": [
+   {
+    "da": "klog",
+    "en": "smart / wise"
+   },
+   {
+    "da": "smart",
+    "en": "clever"
+   },
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   },
+   {
+    "da": "sjov",
+    "en": "funny"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **dum** fejl.",
+   "en": "That was a stupid mistake."
+  }
+ },
+ "dyb": {
+  "forms": [
+   {
+    "da": "en dyb sø",
+    "en": "a deep lake"
+   },
+   {
+    "da": "et dybt hul",
+    "en": "a deep hole"
+   },
+   {
+    "da": "dybe søer",
+    "en": "deep lakes"
+   }
+  ],
+  "explanation": "\"Dyb\" means deep, as in deep water, a deep hole or a deep sleep. It can also be used for feelings and ideas, for example \"en dyb tak\" (a deep thanks) or \"en dyb stemme\" (a deep voice). The opposite is \"lav\" for water or holes that are shallow, and \"lavvandet\" is a handy word for shallow water.",
+  "related": [
+   {
+    "da": "lav",
+    "en": "low / shallow"
+   },
+   {
+    "da": "en dybde",
+    "en": "a depth"
+   },
+   {
+    "da": "høj",
+    "en": "tall / high"
+   },
+   {
+    "da": "dybt",
+    "en": "deeply"
+   }
+  ],
+  "sentence": {
+   "da": "Havet er meget **dybt** her.",
+   "en": "The sea is very deep here."
+  }
+ },
+ "dyr": {
+  "forms": [
+   {
+    "da": "en dyr bil",
+    "en": "an expensive car"
+   },
+   {
+    "da": "et dyrt hotel",
+    "en": "an expensive hotel"
+   },
+   {
+    "da": "dyre biler",
+    "en": "expensive cars"
+   }
+  ],
+  "explanation": "\"Dyr\" means expensive, so it is very handy when shopping. It has a second meaning as a word of its own: \"et dyr\" is an animal, with the plural \"dyr\". The word gets \"t\" for et-words (\"et dyrt hotel\") and \"-e\" for more than one. The opposite is \"billig\" (cheap). \"Det er for dyrt\" means \"It is too expensive\".",
+  "related": [
+   {
+    "da": "billig",
+    "en": "cheap"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "at koste",
+    "en": "to cost"
+   }
+  ],
+  "sentence": {
+   "da": "Den jakke er meget **dyr**.",
+   "en": "That jacket is very expensive."
+  }
+ },
+ "dårlig": {
+  "forms": [
+   {
+    "da": "en dårlig dag",
+    "en": "a bad day"
+   },
+   {
+    "da": "et dårligt år",
+    "en": "a bad year"
+   },
+   {
+    "da": "dårlige dage",
+    "en": "bad days"
+   }
+  ],
+  "explanation": "\"Dårlig\" means bad, and it also means unwell: \"Jeg har det dårligt\" is \"I feel bad\" or \"I feel ill\". Add -t for et-words and -e for more than one. It changes in an unusual way when you compare it: dårlig, værre, værst (bad, worse, worst).",
+  "related": [
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "værre",
+    "en": "worse"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "at have det dårligt",
+    "en": "to feel bad"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **dårlig** idé.",
+   "en": "That was a bad idea."
+  }
+ },
+ "død": {
+  "forms": [
+   {
+    "da": "en død fisk",
+    "en": "a dead fish"
+   },
+   {
+    "da": "et dødt dyr",
+    "en": "a dead animal"
+   },
+   {
+    "da": "døde dyr",
+    "en": "dead animals"
+   }
+  ],
+  "explanation": "\"Død\" means dead. With et-words it gets a \"t\" (\"et dødt dyr\") and with more than one an \"e\" (\"døde dyr\"). The thing-word is \"døden\", meaning death. The opposite is \"levende\" (alive).",
+  "related": [
+   {
+    "da": "levende",
+    "en": "alive"
+   },
+   {
+    "da": "døden",
+    "en": "death"
+   },
+   {
+    "da": "at dø",
+    "en": "to die"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   }
+  ],
+  "sentence": {
+   "da": "Blomsten er **død**.",
+   "en": "The flower is dead."
+  }
+ },
+ "en dag": {
+  "forms": [
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "dagen",
+    "en": "the day"
+   },
+   {
+    "da": "dage",
+    "en": "days"
+   },
+   {
+    "da": "dagene",
+    "en": "the days"
+   }
+  ],
+  "explanation": "En dag is a day. It is an en-word, so \"the day\" is \"dagen\", and more than one is \"dage\". It is used in many everyday phrases: \"i dag\" (today, written as two words), \"hver dag\" (every day) and \"god dag\" (hello or good day). The days of the week also end in \"-dag\", for example \"mandag\" and \"tirsdag\".",
+  "related": [
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   },
+   {
+    "da": "i dag",
+    "en": "today"
+   },
+   {
+    "da": "i går",
+    "en": "yesterday"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en dejlig **dag**.",
+   "en": "It is a lovely day."
+  }
+ },
+ "en dame": {
+  "forms": [
+   {
+    "da": "en dame",
+    "en": "a lady"
+   },
+   {
+    "da": "damen",
+    "en": "the lady"
+   },
+   {
+    "da": "damer",
+    "en": "ladies"
+   },
+   {
+    "da": "damerne",
+    "en": "the ladies"
+   }
+  ],
+  "explanation": "\"En dame\" is a lady, a polite word for a woman. It sounds a bit more formal than \"en kvinde\". You often see \"Damer\" on a toilet door. In a shop or restaurant you might hear \"Mine damer og herrer\", which means \"Ladies and gentlemen\".",
+  "related": [
+   {
+    "da": "en kvinde",
+    "en": "a woman"
+   },
+   {
+    "da": "en herre",
+    "en": "a gentleman"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   },
+   {
+    "da": "kvindelig",
+    "en": "female"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle **dame** sidder på bænken.",
+   "en": "The old lady is sitting on the bench."
+  }
+ },
+ "en dansker": {
+  "forms": [
+   {
+    "da": "en dansker",
+    "en": "a Dane"
+   },
+   {
+    "da": "danskeren",
+    "en": "the Dane"
+   },
+   {
+    "da": "danskere",
+    "en": "Danes"
+   },
+   {
+    "da": "danskerne",
+    "en": "the Danes"
+   }
+  ],
+  "explanation": "\"En dansker\" is a person from Denmark. It is an en-word. The plural is \"danskere\", and \"danskerne\" means \"the Danes\". The language is \"dansk\" and the country is \"Danmark\", all written with a small letter except the country. A woman can also be called \"en dansker\"; the word is the same for both.",
+  "related": [
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   },
+   {
+    "da": "en tysker",
+    "en": "a German"
+   },
+   {
+    "da": "en svensker",
+    "en": "a Swede"
+   }
+  ],
+  "sentence": {
+   "da": "Min mand er **dansker**.",
+   "en": "My husband is a Dane."
+  }
+ },
+ "en dato": {
+  "forms": [
+   {
+    "da": "en dato",
+    "en": "a date (calendar)"
+   },
+   {
+    "da": "datoen",
+    "en": "the date"
+   },
+   {
+    "da": "datoer",
+    "en": "dates"
+   },
+   {
+    "da": "datoerne",
+    "en": "the dates"
+   }
+  ],
+  "explanation": "\"En dato\" is a calendar date, such as 5 March. Use it to ask: \"Hvad er datoen i dag?\" (What is the date today?). Do not mix it up with a romantic date, which is \"en date\" (borrowed from English). In Danish, dates are said with ordinal numbers: \"den femte marts\".",
+  "related": [
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "en kalender",
+    "en": "a calendar"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er **datoen** i dag?",
+   "en": "What is the date today?"
+  }
+ },
+ "en datter": {
+  "forms": [
+   {
+    "da": "en datter",
+    "en": "a daughter"
+   },
+   {
+    "da": "datteren",
+    "en": "the daughter"
+   },
+   {
+    "da": "døtre",
+    "en": "daughters"
+   },
+   {
+    "da": "døtrene",
+    "en": "the daughters"
+   }
+  ],
+  "explanation": "\"En datter\" is a daughter. It is an en-word. The plural is irregular: \"døtre\", with a changed vowel and no \"r\" before the ending. The word for a son is \"en søn\". For both together, say \"børn\" (children).",
+  "related": [
+   {
+    "da": "en søn",
+    "en": "a son"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   }
+  ],
+  "sentence": {
+   "da": "Min **datter** er fem år gammel.",
+   "en": "My daughter is five years old."
+  }
+ },
+ "en dessert": {
+  "forms": [
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   },
+   {
+    "da": "desserten",
+    "en": "the dessert"
+   },
+   {
+    "da": "desserter",
+    "en": "desserts"
+   },
+   {
+    "da": "desserterne",
+    "en": "the desserts"
+   }
+  ],
+  "explanation": "\"En dessert\" is a dessert, the sweet dish at the end of a meal. It is an en-word. It is spelled like in English but the stress is at the end, \"des-SERT\". You may be asked \"Vil du have en dessert?\" (Would you like a dessert?).",
+  "related": [
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en is",
+    "en": "an ice cream"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have en **dessert**?",
+   "en": "Would you like a dessert?"
+  }
+ },
+ "en doktor": {
+  "forms": [
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "doktoren",
+    "en": "the doctor"
+   },
+   {
+    "da": "doktorer",
+    "en": "doctors"
+   },
+   {
+    "da": "doktorerne",
+    "en": "the doctors"
+   }
+  ],
+  "explanation": "\"En doktor\" is a doctor, but in everyday Danish people mostly say \"en læge\" for a medical doctor. \"Doktor\" is also a university title for someone with a PhD. You can still say \"Jeg skal til doktoren\" in casual speech.",
+  "related": [
+   {
+    "da": "en læge",
+    "en": "a doctor (medical)"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   },
+   {
+    "da": "en klinik",
+    "en": "a clinic"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal til **doktoren** i morgen.",
+   "en": "I am going to the doctor tomorrow."
+  }
+ },
+ "en dollar": {
+  "forms": [
+   {
+    "da": "en dollar",
+    "en": "a dollar"
+   },
+   {
+    "da": "dollaren",
+    "en": "the dollar"
+   },
+   {
+    "da": "fem dollar",
+    "en": "five dollars"
+   }
+  ],
+  "explanation": "\"En dollar\" is a dollar. It is an en-word, and after a number it normally stays the same: \"ti dollar\" (ten dollars). Danish money is \"kroner\", and in shops you will mostly pay in kroner, not dollars.",
+  "related": [
+   {
+    "da": "en euro",
+    "en": "a euro"
+   },
+   {
+    "da": "en krone",
+    "en": "a krone"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "en valuta",
+    "en": "a currency"
+   }
+  ],
+  "sentence": {
+   "da": "Det koster ti **dollar**.",
+   "en": "It costs ten dollars."
+  }
+ },
+ "en dreng": {
+  "forms": [
+   {
+    "da": "en dreng",
+    "en": "a boy"
+   },
+   {
+    "da": "drengen",
+    "en": "the boy"
+   },
+   {
+    "da": "drenge",
+    "en": "boys"
+   },
+   {
+    "da": "drengene",
+    "en": "the boys"
+   }
+  ],
+  "explanation": "\"En dreng\" is a boy. It is an en-word. The plural is \"drenge\", with an \"e\" on the end. You can use it for a young male child. For a young man, \"en ung mand\" is more normal. Its pair is \"en pige\" (a girl).",
+  "related": [
+   {
+    "da": "en pige",
+    "en": "a girl"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en mand",
+    "en": "a man"
+   },
+   {
+    "da": "en søn",
+    "en": "a son"
+   }
+  ],
+  "sentence": {
+   "da": "Den lille **dreng** spiller fodbold med sin far.",
+   "en": "The little boy plays soccer with his father."
+  }
+ },
+ "en drik": {
+  "forms": [
+   {
+    "da": "en drik",
+    "en": "a drink"
+   },
+   {
+    "da": "drikken",
+    "en": "the drink"
+   },
+   {
+    "da": "drikke",
+    "en": "drinks"
+   },
+   {
+    "da": "drikkene",
+    "en": "the drinks"
+   }
+  ],
+  "explanation": "\"En drik\" is a drink as a thing, like a beverage. It is an en-word and comes from the verb \"at drikke\" (to drink). On a menu you often see \"drikkevarer\" or just \"drikke\" for the section with drinks. In everyday speech you often say the specific thing instead, like \"en kaffe\" or \"en øl\".",
+  "related": [
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "en sodavand",
+    "en": "a soda"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du have en **drik** til maden?",
+   "en": "Would you like a drink with the meal?"
+  }
+ },
+ "en dukke": {
+  "forms": [
+   {
+    "da": "en dukke",
+    "en": "a doll"
+   },
+   {
+    "da": "dukken",
+    "en": "the doll"
+   },
+   {
+    "da": "dukker",
+    "en": "dolls"
+   },
+   {
+    "da": "dukkerne",
+    "en": "the dolls"
+   }
+  ],
+  "explanation": "\"En dukke\" is a doll, and it is an en-word. The plural is \"dukker\". It is a toy for children, so it often shows up next to \"legetøj\" (toys). A puppet in a show is also \"en dukke\", and \"dukketeater\" means puppet theatre.",
+  "related": [
+   {
+    "da": "et legetøj",
+    "en": "a toy"
+   },
+   {
+    "da": "et barn",
+    "en": "a child"
+   },
+   {
+    "da": "en bamse",
+    "en": "a teddy bear"
+   },
+   {
+    "da": "en bold",
+    "en": "a ball"
+   }
+  ],
+  "sentence": {
+   "da": "Pigen leger med sin **dukke**.",
+   "en": "The girl is playing with her doll."
+  }
+ },
+ "en dør": {
+  "forms": [
+   {
+    "da": "en dør",
+    "en": "a door"
+   },
+   {
+    "da": "døren",
+    "en": "the door"
+   },
+   {
+    "da": "døre",
+    "en": "doors"
+   },
+   {
+    "da": "dørene",
+    "en": "the doors"
+   }
+  ],
+  "explanation": "\"En dør\" means a door. It is an en-word, so 'the door' is \"døren\" and the plural is \"døre\". Common phrases are \"at åbne døren\" (open the door) and \"at lukke døren\" (close the door). Take care with the letter \"ø\": it sounds a bit like the 'u' in 'fur'.",
+  "related": [
+   {
+    "da": "et vindue",
+    "en": "a window"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "at lukke",
+    "en": "to close"
+   },
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du åbne **døren**?",
+   "en": "Can you open the door?"
+  }
+ },
+ "et dankort": {
+  "forms": [
+   {
+    "da": "et dankort",
+    "en": "a Dankort"
+   },
+   {
+    "da": "dankortet",
+    "en": "the Dankort"
+   },
+   {
+    "da": "Jeg betaler med dankort.",
+    "en": "I pay with a Dankort."
+   }
+  ],
+  "explanation": "A Dankort is the Danish debit card used in most shops and online. It is an et-word, so \"the Dankort\" is \"dankortet\". People say \"Kan jeg betale med dankort?\" to ask if a shop accepts it. Visitors from abroad usually use a Visa or Mastercard instead.",
+  "related": [
+   {
+    "da": "et kort",
+    "en": "a card"
+   },
+   {
+    "da": "en hæveautomat",
+    "en": "an ATM"
+   },
+   {
+    "da": "en bankkonto",
+    "en": "a bank account"
+   },
+   {
+    "da": "kontanter",
+    "en": "cash"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler altid med **dankort**.",
+   "en": "I always pay with a Dankort."
+  }
+ },
+ "et dobbeltværelse": {
+  "forms": [
+   {
+    "da": "et dobbeltværelse",
+    "en": "a double room"
+   },
+   {
+    "da": "dobbeltværelset",
+    "en": "the double room"
+   },
+   {
+    "da": "dobbeltværelser",
+    "en": "double rooms"
+   },
+   {
+    "da": "dobbeltværelserne",
+    "en": "the double rooms"
+   }
+  ],
+  "explanation": "A \"dobbeltværelse\" is a hotel room for two people. It is built from \"dobbelt\" (double) and \"værelse\" (room), and it is an et-word. Use it when you book a hotel for a couple or two friends. Ask whether there are two beds or one big bed if it matters to you.",
+  "related": [
+   {
+    "da": "et enkeltværelse",
+    "en": "a single room"
+   },
+   {
+    "da": "et hotelværelse",
+    "en": "a hotel room"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har brug for et **dobbeltværelse** med udsigt.",
+   "en": "We need a double room with a view."
+  }
+ },
+ "et dyr": {
+  "forms": [
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "dyret",
+    "en": "the animal"
+   },
+   {
+    "da": "dyr",
+    "en": "animals"
+   },
+   {
+    "da": "dyrene",
+    "en": "the animals"
+   }
+  ],
+  "explanation": "\"Et dyr\" is the general word for an animal, from a mouse to a horse. It is an et-word, and the plural is the same as the singular: \"to dyr\" means two animals. For pets people often say \"et kæledyr\", and \"et vildt dyr\" is a wild animal.",
+  "related": [
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
+   },
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   },
+   {
+    "da": "en fugl",
+    "en": "a bird"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **dyr**.",
+   "en": "I love animals."
   }
  }
 }

@@ -1,0 +1,41 @@
+{
+ "en / et": {
+  "forms": [
+   {
+    "da": "en bil",
+    "en": "a car (en-word)"
+   },
+   {
+    "da": "et hus",
+    "en": "a house (et-word)"
+   },
+   {
+    "da": "en / et",
+    "en": "one"
+   }
+  ],
+  "explanation": "This is \"one\" and also \"a\" or \"an\". Every Danish thing is either an en-word or an et-word, and you must learn which one goes with each. Use \"en\" before en-words (en bil) and \"et\" before et-words (et hus). Most words are en-words, about three quarters.",
+  "related": [
+   {
+    "da": "ingen",
+    "en": "no / none"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "et",
+    "en": "one (et-word)"
+   },
+   {
+    "da": "en gang",
+    "en": "once"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **en** bil og **et** hus.",
+   "en": "I have a car and a house."
+  }
+ }
+}

@@ -1,84 +1,80 @@
 {
- "at tjekke": {
+ "at tabe": {
   "forms": [
    {
-    "da": "at tjekke",
-    "en": "to check"
+    "da": "at tabe",
+    "en": "to lose"
    },
    {
-    "da": "jeg tjekker",
-    "en": "I check"
+    "da": "jeg taber",
+    "en": "I lose"
    },
    {
-    "da": "jeg tjekkede",
-    "en": "I checked"
+    "da": "jeg tabte",
+    "en": "I lost"
    },
    {
-    "da": "jeg har tjekket",
-    "en": "I have checked"
+    "da": "jeg har tabt",
+    "en": "I have lost"
    }
   ],
-  "explanation": "\"At tjekke\" is borrowed from English \"check\" and is very common in everyday Danish, for checking your phone, a time, or whether something is right. It follows the usual pattern for Danish verbs: tjekker, tjekkede, tjekket. A more formal word is \"at kontrollere\", and for looking into something more deeply Danes say \"at undersøge\".",
+  "explanation": "\"At tabe\" means to lose a game, a fight or a bet: \"Vi taber kampen\" (We lose the match). It can also mean to drop something, as in \"Jeg tabte min telefon\" (I dropped my phone). For losing an item you cannot find, use \"at miste\" instead. The opposite is \"at vinde\".",
   "related": [
    {
-    "da": "at kontrollere",
-    "en": "to check, to control"
+    "da": "at vinde",
+    "en": "to win"
    },
    {
-    "da": "at undersøge",
-    "en": "to investigate"
+    "da": "at miste",
+    "en": "to lose (something)"
    },
    {
-    "da": "en kontrol",
-    "en": "a check, a control"
+    "da": "at tabe noget",
+    "en": "to drop something"
    }
   ],
   "sentence": {
-   "da": "Jeg skal lige **tjekke** min telefon.",
-   "en": "I just need to check my phone."
+   "da": "Jeg **tabte** min telefon på gulvet.",
+   "en": "I dropped my phone on the floor."
   }
  },
- "at tale": {
+ "at tage": {
   "forms": [
    {
-    "da": "at tale",
-    "en": "to speak"
+    "da": "at tage",
+    "en": "to take"
    },
    {
-    "da": "jeg taler",
-    "en": "I speak"
+    "da": "jeg tager",
+    "en": "I take"
    },
    {
-    "da": "jeg talte",
-    "en": "I spoke"
+    "da": "jeg tog",
+    "en": "I took"
    },
    {
-    "da": "jeg har talt",
-    "en": "I have spoken"
+    "da": "jeg har taget",
+    "en": "I have taken"
    }
   ],
-  "explanation": "\"At tale\" is the everyday verb for speaking a language or giving a speech, so \"Jeg taler dansk\" means \"I speak Danish\". For casual chatting, Danes prefer \"at snakke\". You say \"at tale med nogen\" (to speak with someone) and \"at tale om noget\" (to talk about something).",
+  "explanation": "\"At tage\" means to take, but Danish uses it more widely than English. You \"tager\" a bus, a train, a photo, a shower or a day off. A handy example is \"Jeg tager til København\" (I am going to Copenhagen). Also look out for \"tag\" on its own, meaning take it or here you go.",
   "related": [
    {
-    "da": "at snakke",
-    "en": "to chat, to talk"
+    "da": "at give",
+    "en": "to give"
    },
    {
-    "da": "et sprog",
-    "en": "a language"
+    "da": "at hente",
+    "en": "to fetch"
    },
    {
-    "da": "en tale",
-    "en": "a speech"
-   },
-   {
-    "da": "at sige",
-    "en": "to say"
+    "da": "en tur",
+    "en": "a trip"
    }
   ],
   "sentence": {
-   "da": "Kan du **tale** dansk?",
-   "en": "Can you speak Danish?"
+   "da": "Jeg **tager** bussen til arbejde.",
+   "en": "I take the bus to work."
   }
  },
  "at tage af": {
@@ -124,43 +120,2325 @@
    "en": "Do you want to take your jacket off?"
   }
  },
- "tal langsomt": {
+ "at tage bad": {
   "forms": [
    {
-    "da": "Tal langsomt, tak",
-    "en": "Speak slowly, please"
+    "da": "at tage bad",
+    "en": "to take a shower"
    },
    {
-    "da": "Kan du tale langsommere?",
-    "en": "Can you speak more slowly?"
+    "da": "jeg tager bad",
+    "en": "I take a shower"
    },
    {
-    "da": "Jeg forstår, når du taler langsomt",
-    "en": "I understand when you speak slowly"
+    "da": "jeg tog bad",
+    "en": "I took a shower"
+   },
+   {
+    "da": "jeg har taget bad",
+    "en": "I have taken a shower"
    }
   ],
-  "explanation": "\"Tal langsomt\" is a command: \"tal\" is the short \"do it\" form of \"at tale\" (to speak), and \"langsomt\" means slowly. Adding \"tak\" makes it polite, and asking \"Kan du tale langsommere?\" is even softer. It is one of the most useful phrases when you are learning, because Danes tend to speak fast.",
+  "explanation": "\"At tage bad\" means to wash yourself in the shower or bath, and it is a fixed phrase with no \"et\" before \"bad\". It is a form of \"at tage\" (to take), which is irregular: \"tog\" is the past form. If you want to say exactly a shower, use \"at tage brusebad\"; a long soak is \"at tage et karbad\".",
   "related": [
    {
-    "da": "langsom",
-    "en": "slow"
+    "da": "et bad",
+    "en": "a bath, shower"
    },
    {
-    "da": "hurtigt",
-    "en": "quickly"
+    "da": "et brusebad",
+    "en": "a shower"
    },
    {
-    "da": "Kan du gentage det?",
-    "en": "Can you repeat that?"
+    "da": "et håndklæde",
+    "en": "a towel"
    },
    {
-    "da": "tal højere",
-    "en": "speak louder"
+    "da": "sæbe",
+    "en": "soap"
    }
   ],
   "sentence": {
-   "da": "Undskyld, vil du være sød at **tale langsomt**?",
-   "en": "Excuse me, would you be kind enough to speak slowly?"
+   "da": "Jeg **tager bad** hver morgen.",
+   "en": "I take a shower every morning."
+  }
+ },
+ "at tage bussen": {
+  "forms": [
+   {
+    "da": "at tage bussen",
+    "en": "to take the bus"
+   },
+   {
+    "da": "jeg tager bussen",
+    "en": "I take the bus"
+   },
+   {
+    "da": "jeg tog bussen",
+    "en": "I took the bus"
+   },
+   {
+    "da": "jeg har taget bussen",
+    "en": "I have taken the bus"
+   }
+  ],
+  "explanation": "\"At tage bussen\" means to go by bus. Danish uses \"at tage\" (to take) for ways of travelling, just like \"at tage toget\". The word for bus is \"en bus\" and \"bussen\" means \"the bus\". It is the normal way to say \"I go by bus\" in daily life.",
+  "related": [
+   {
+    "da": "at tage toget",
+    "en": "to take the train"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en busbillet",
+    "en": "a bus ticket"
+   },
+   {
+    "da": "et busstoppested",
+    "en": "a bus stop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tager bussen** på arbejde hver dag.",
+   "en": "I take the bus to work every day."
+  }
+ },
+ "at tage et billede": {
+  "forms": [
+   {
+    "da": "at tage et billede",
+    "en": "to take a picture"
+   },
+   {
+    "da": "jeg tager et billede",
+    "en": "I take a picture"
+   },
+   {
+    "da": "jeg tog et billede",
+    "en": "I took a picture"
+   },
+   {
+    "da": "jeg har taget et billede",
+    "en": "I have taken a picture"
+   }
+  ],
+  "explanation": "\"At tage et billede\" means to take a picture. Danish uses \"tage\" (take) just like English, and \"billede\" is an et-word. You can also say \"at tage et foto\". The 'have taken' form uses \"har\": \"jeg har taget et billede\". Ask \"Må jeg tage et billede?\" when you want permission.",
+  "related": [
+   {
+    "da": "et billede",
+    "en": "a picture"
+   },
+   {
+    "da": "et foto",
+    "en": "a photo"
+   },
+   {
+    "da": "et kamera",
+    "en": "a camera"
+   },
+   {
+    "da": "at filme",
+    "en": "to film"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg **tage et billede**?",
+   "en": "May I take a picture?"
+  }
+ },
+ "at tage hjem": {
+  "forms": [
+   {
+    "da": "at tage hjem",
+    "en": "to go home"
+   },
+   {
+    "da": "jeg tager hjem",
+    "en": "I go home"
+   },
+   {
+    "da": "jeg tog hjem",
+    "en": "I went home"
+   },
+   {
+    "da": "jeg er taget hjem",
+    "en": "I have gone home"
+   }
+  ],
+  "explanation": "\"At tage hjem\" means to go home, usually with the feeling of leaving a place to travel home, for example from work or a party. \"Tage\" normally means 'to take', but here it just means going. For 'have gone home' Danish uses \"er\": \"jeg er taget hjem\".",
+  "related": [
+   {
+    "da": "at gå hjem",
+    "en": "to walk home"
+   },
+   {
+    "da": "at køre hjem",
+    "en": "to drive home"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **tager hjem** klokken fem.",
+   "en": "We go home at five o'clock."
+  }
+ },
+ "at tage medicin": {
+  "forms": [
+   {
+    "da": "at tage medicin",
+    "en": "to take medicine"
+   },
+   {
+    "da": "jeg tager medicin",
+    "en": "I take medicine"
+   },
+   {
+    "da": "jeg tog medicin",
+    "en": "I took medicine"
+   },
+   {
+    "da": "jeg har taget medicin",
+    "en": "I have taken medicine"
+   }
+  ],
+  "explanation": "\"At tage medicin\" means to take medicine. \"Medicin\" has no \"en\" or \"et\" in front when you mean medicine in general. \"At tage\" is irregular: \"jeg tog\" in the past and \"jeg har taget\" for the \"have\" form. The same verb is used for a pill: \"at tage en tablet\".",
+  "related": [
+   {
+    "da": "medicin",
+    "en": "medicine"
+   },
+   {
+    "da": "en tablet",
+    "en": "a tablet"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tager medicin** to gange om dagen.",
+   "en": "I take medicine twice a day."
+  }
+ },
+ "at tage på ferie": {
+  "forms": [
+   {
+    "da": "at tage på ferie",
+    "en": "to go on vacation"
+   },
+   {
+    "da": "jeg tager på ferie",
+    "en": "I go on vacation"
+   },
+   {
+    "da": "jeg tog på ferie",
+    "en": "I went on vacation"
+   },
+   {
+    "da": "jeg er taget på ferie",
+    "en": "I have gone on vacation"
+   }
+  ],
+  "explanation": "\"At tage på ferie\" means to go on vacation. Note the little word \"på\" (on), which is natural here. You can add where you go: \"tage på ferie til Spanien\". If you are already on holiday, you say \"at være på ferie\".",
+  "related": [
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   },
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   },
+   {
+    "da": "at være på ferie",
+    "en": "to be on vacation"
+   },
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **tager på ferie** i juli.",
+   "en": "We go on vacation in July."
+  }
+ },
+ "at tage toget": {
+  "forms": [
+   {
+    "da": "at tage toget",
+    "en": "to take the train"
+   },
+   {
+    "da": "jeg tager toget",
+    "en": "I take the train"
+   },
+   {
+    "da": "jeg tog toget",
+    "en": "I took the train"
+   },
+   {
+    "da": "jeg har taget toget",
+    "en": "I have taken the train"
+   }
+  ],
+  "explanation": "\"At tage toget\" means to go by train. Danish uses the verb \"at tage\" (to take) with the type of transport, so you also say \"at tage bussen\" and \"at tage taxaen\". The word for train is \"et tog\", and \"toget\" means \"the train\". Note the past form \"tog\" looks the same as the word for train, so context matters.",
+  "related": [
+   {
+    "da": "at tage bussen",
+    "en": "to take the bus"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   },
+   {
+    "da": "en banegård",
+    "en": "a railway station"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tager toget** til København i morgen.",
+   "en": "I am taking the train to Copenhagen tomorrow."
+  }
+ },
+ "at takke": {
+  "forms": [
+   {
+    "da": "at takke",
+    "en": "to thank"
+   },
+   {
+    "da": "jeg takker",
+    "en": "I thank"
+   },
+   {
+    "da": "jeg takkede",
+    "en": "I thanked"
+   },
+   {
+    "da": "jeg har takket",
+    "en": "I have thanked"
+   }
+  ],
+  "explanation": "\"At takke\" means to thank someone. Danes use it in more formal moments, for example \"Jeg vil gerne takke dig\" (I would like to thank you). In daily life people simply say \"tak\" (thanks) or \"tusind tak\" (thank you very much). Use \"at takke\" when you are thanking someone with a bit more weight.",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "en tak",
+    "en": "a thanks"
+   },
+   {
+    "da": "at undskylde",
+    "en": "to apologize"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **takke** dig for hjælpen.",
+   "en": "I would like to thank you for the help."
+  }
+ },
+ "at tale": {
+  "forms": [
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "jeg taler",
+    "en": "I speak"
+   },
+   {
+    "da": "jeg talte",
+    "en": "I spoke"
+   },
+   {
+    "da": "jeg har talt",
+    "en": "I have spoken"
+   }
+  ],
+  "explanation": "\"At tale\" is the everyday verb for speaking a language or giving a speech, so \"Jeg taler dansk\" means \"I speak Danish\". For casual chatting, Danes prefer \"at snakke\". You say \"at tale med nogen\" (to speak with someone) and \"at tale om noget\" (to talk about something).",
+  "related": [
+   {
+    "da": "at snakke",
+    "en": "to chat, to talk"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "en tale",
+    "en": "a speech"
+   },
+   {
+    "da": "at sige",
+    "en": "to say"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **tale** dansk?",
+   "en": "Can you speak Danish?"
+  }
+ },
+ "at tale med": {
+  "forms": [
+   {
+    "da": "at tale med",
+    "en": "to talk to"
+   },
+   {
+    "da": "jeg taler med",
+    "en": "I talk to"
+   },
+   {
+    "da": "jeg talte med",
+    "en": "I talked to"
+   },
+   {
+    "da": "jeg har talt med",
+    "en": "I have talked to"
+   }
+  ],
+  "explanation": "\"At tale med\" means to talk to or to talk with someone. The little word \"med\" (with) always follows it, so you say \"tale med nogen\". You can use it as a polite way to start: \"Kan jeg tale med Anna?\" (Can I speak to Anna?), common on the phone.",
+  "related": [
+   {
+    "da": "at tale om",
+    "en": "to talk about"
+   },
+   {
+    "da": "at snakke med",
+    "en": "to chat with"
+   },
+   {
+    "da": "at ringe til",
+    "en": "to call (someone)"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **tale med** dig.",
+   "en": "I would like to talk to you."
+  }
+ },
+ "at tale om": {
+  "forms": [
+   {
+    "da": "at tale om",
+    "en": "to talk about"
+   },
+   {
+    "da": "jeg taler om",
+    "en": "I talk about"
+   },
+   {
+    "da": "jeg talte om",
+    "en": "I talked about"
+   },
+   {
+    "da": "jeg har talt om",
+    "en": "I have talked about"
+   }
+  ],
+  "explanation": "\"At tale om\" means to talk about a topic. The little word \"om\" always follows it, just like \"about\" in English. It is a bit more formal than \"at snakke om\", but you can use either in everyday life.",
+  "related": [
+   {
+    "da": "at snakke om",
+    "en": "to talk about (chat)"
+   },
+   {
+    "da": "at tale med",
+    "en": "to talk to"
+   },
+   {
+    "da": "et emne",
+    "en": "a topic"
+   }
+  ],
+  "sentence": {
+   "da": "Vi **taler om** vejret.",
+   "en": "We are talking about the weather."
+  }
+ },
+ "at tisse": {
+  "forms": [
+   {
+    "da": "at tisse",
+    "en": "to pee"
+   },
+   {
+    "da": "jeg tisser",
+    "en": "I pee"
+   },
+   {
+    "da": "jeg tissede",
+    "en": "I peed"
+   },
+   {
+    "da": "jeg har tisset",
+    "en": "I have peed"
+   }
+  ],
+  "explanation": "\"At tisse\" means to pee. It is an informal, everyday word that children and adults use among friends and family. \"Jeg skal tisse\" means \"I need to pee\". In a polite or formal setting you can say \"Jeg skal på toilettet\" (I need to go to the toilet), which sounds more polite.",
+  "related": [
+   {
+    "da": "et toilet",
+    "en": "a toilet"
+   },
+   {
+    "da": "at gå på toilettet",
+    "en": "to go to the toilet"
+   },
+   {
+    "da": "en ble",
+    "en": "a nappy / diaper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal lige **tisse**.",
+   "en": "I just need to pee."
+  }
+ },
+ "at tjekke": {
+  "forms": [
+   {
+    "da": "at tjekke",
+    "en": "to check"
+   },
+   {
+    "da": "jeg tjekker",
+    "en": "I check"
+   },
+   {
+    "da": "jeg tjekkede",
+    "en": "I checked"
+   },
+   {
+    "da": "jeg har tjekket",
+    "en": "I have checked"
+   }
+  ],
+  "explanation": "\"At tjekke\" is borrowed from English \"check\" and is very common in everyday Danish, for checking your phone, a time, or whether something is right. It follows the usual pattern for Danish verbs: tjekker, tjekkede, tjekket. A more formal word is \"at kontrollere\", and for looking into something more deeply Danes say \"at undersøge\".",
+  "related": [
+   {
+    "da": "at kontrollere",
+    "en": "to check, to control"
+   },
+   {
+    "da": "at undersøge",
+    "en": "to investigate"
+   },
+   {
+    "da": "en kontrol",
+    "en": "a check, a control"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal lige **tjekke** min telefon.",
+   "en": "I just need to check my phone."
+  }
+ },
+ "at tro": {
+  "forms": [
+   {
+    "da": "at tro",
+    "en": "to believe"
+   },
+   {
+    "da": "jeg tror",
+    "en": "I believe"
+   },
+   {
+    "da": "jeg troede",
+    "en": "I believed"
+   },
+   {
+    "da": "jeg har troet",
+    "en": "I have believed"
+   }
+  ],
+  "explanation": "\"At tro\" means to believe or to think something is probably true: \"Jeg tror, det er rigtigt\" (I think it is right). It is also used for faith, as in \"at tro på Gud\". Compared with \"at synes\", which is for your own opinion, \"at tro\" is more a guess about facts, so it is like I suppose.",
+  "related": [
+   {
+    "da": "at synes",
+    "en": "to think (an opinion)"
+   },
+   {
+    "da": "at tvivle",
+    "en": "to doubt"
+   },
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tror**, han kommer snart.",
+   "en": "I think he is coming soon."
+  }
+ },
+ "at trække vejret": {
+  "forms": [
+   {
+    "da": "at trække vejret",
+    "en": "to breathe"
+   },
+   {
+    "da": "jeg trækker vejret",
+    "en": "I breathe"
+   },
+   {
+    "da": "jeg trak vejret",
+    "en": "I breathed"
+   },
+   {
+    "da": "jeg har trukket vejret",
+    "en": "I have breathed"
+   }
+  ],
+  "explanation": "\"At trække vejret\" means to breathe. Literally it is \"to pull the breath\", with \"vejret\" meaning the breath. Do not mix it up with \"vejret\" meaning the weather. At the doctor you may hear \"træk vejret dybt\" (breathe deeply).",
+  "related": [
+   {
+    "da": "vejret",
+    "en": "the breath; the weather"
+   },
+   {
+    "da": "en lunge",
+    "en": "a lung"
+   },
+   {
+    "da": "at hoste",
+    "en": "to cough"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   }
+  ],
+  "sentence": {
+   "da": "**Træk vejret** dybt, siger lægen.",
+   "en": "Breathe deeply, says the doctor."
+  }
+ },
+ "at træne": {
+  "forms": [
+   {
+    "da": "at træne",
+    "en": "to train"
+   },
+   {
+    "da": "jeg træner",
+    "en": "I train"
+   },
+   {
+    "da": "jeg trænede",
+    "en": "I trained"
+   },
+   {
+    "da": "jeg har trænet",
+    "en": "I have trained"
+   }
+  ],
+  "explanation": "\"At træne\" means to train or to work out, and also to practise. \"Jeg træner tre gange om ugen\" means \"I work out three times a week\". It is used for sports, the gym and also for practising a skill like \"træne dansk\". The person who coaches you is \"en træner\" and the exercise is \"træning\".",
+  "related": [
+   {
+    "da": "træning",
+    "en": "exercise / training"
+   },
+   {
+    "da": "en træner",
+    "en": "a coach"
+   },
+   {
+    "da": "at øve",
+    "en": "to practise"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **træner** tre gange om ugen.",
+   "en": "I work out three times a week."
+  }
+ },
+ "at tælle": {
+  "forms": [
+   {
+    "da": "at tælle",
+    "en": "to count"
+   },
+   {
+    "da": "jeg tæller",
+    "en": "I count"
+   },
+   {
+    "da": "jeg talte",
+    "en": "I counted"
+   },
+   {
+    "da": "jeg har talt",
+    "en": "I have counted"
+   }
+  ],
+  "explanation": "\"At tælle\" means to count. \"Jeg tæller til ti\" means \"I count to ten\". The past form \"talte\" and the \"have\" form \"talt\" are irregular, and they look just like the forms of \"at tale\" (to speak). The context makes the difference clear, so listen for it. A number is \"et tal\".",
+  "related": [
+   {
+    "da": "et tal",
+    "en": "a number / digit"
+   },
+   {
+    "da": "at regne",
+    "en": "to calculate"
+   },
+   {
+    "da": "at tale",
+    "en": "to speak"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tæller** til ti.",
+   "en": "I count to ten."
+  }
+ },
+ "at tænde": {
+  "forms": [
+   {
+    "da": "at tænde",
+    "en": "to turn on"
+   },
+   {
+    "da": "jeg tænder",
+    "en": "I turn on"
+   },
+   {
+    "da": "jeg tændte",
+    "en": "I turned on"
+   },
+   {
+    "da": "jeg har tændt",
+    "en": "I have turned on"
+   }
+  ],
+  "explanation": "\"At tænde\" means to turn on, for a light, a TV or a candle, and also to light a fire. \"Tænd lyset\" means \"Turn on the light\". It is the opposite of \"at slukke\" (to turn off). Do not mix it up with \"at tænke\" (to think), which looks almost the same.",
+  "related": [
+   {
+    "da": "at slukke",
+    "en": "to turn off"
+   },
+   {
+    "da": "et lys",
+    "en": "a light"
+   },
+   {
+    "da": "et stearinlys",
+    "en": "a candle"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tænder** lyset, fordi det er mørkt.",
+   "en": "I turn on the light because it is dark."
+  }
+ },
+ "at tænde for": {
+  "forms": [
+   {
+    "da": "at tænde for",
+    "en": "to turn on"
+   },
+   {
+    "da": "jeg tænder for",
+    "en": "I turn on"
+   },
+   {
+    "da": "jeg tændte for",
+    "en": "I turned on"
+   },
+   {
+    "da": "jeg har tændt for",
+    "en": "I have turned on"
+   }
+  ],
+  "explanation": "\"At tænde for\" means to turn on something that runs or flows, such as the TV, the radio, the water or the heating. The little word \"for\" is part of it. For a light, you can just say \"at tænde lyset\" with no \"for\". The opposite is \"at slukke for\".",
+  "related": [
+   {
+    "da": "at slukke for",
+    "en": "to turn off"
+   },
+   {
+    "da": "at tænde",
+    "en": "to light / switch on"
+   },
+   {
+    "da": "et tv",
+    "en": "a TV"
+   },
+   {
+    "da": "en radio",
+    "en": "a radio"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tænder for** fjernsynet.",
+   "en": "I turn on the TV."
+  }
+ },
+ "at tænke": {
+  "forms": [
+   {
+    "da": "at tænke",
+    "en": "to think"
+   },
+   {
+    "da": "jeg tænker",
+    "en": "I think"
+   },
+   {
+    "da": "jeg tænkte",
+    "en": "I thought"
+   },
+   {
+    "da": "jeg har tænkt",
+    "en": "I have thought"
+   }
+  ],
+  "explanation": "\"At tænke\" means to think in the sense of using your mind: \"Jeg tænker på dig\" (I am thinking of you). It is usually used with \"på\" (about). It is not the word for giving an opinion, which is \"at synes\". A tip: \"Lad mig tænke\" means Let me think.",
+  "related": [
+   {
+    "da": "at synes",
+    "en": "to think (an opinion)"
+   },
+   {
+    "da": "at huske",
+    "en": "to remember"
+   },
+   {
+    "da": "en tanke",
+    "en": "a thought"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **tænker** på min familie.",
+   "en": "I am thinking about my family."
+  }
+ },
+ "en t-shirt": {
+  "forms": [
+   {
+    "da": "en t-shirt",
+    "en": "a t-shirt"
+   },
+   {
+    "da": "t-shirten",
+    "en": "the t-shirt"
+   },
+   {
+    "da": "t-shirts",
+    "en": "t-shirts"
+   }
+  ],
+  "explanation": "\"En t-shirt\" is a t-shirt, borrowed from English. It is an en-word, and you pronounce it close to the English word. The word for more than one is \"t-shirts\". Use \"have ... på\" for wearing it: \"Jeg har en t-shirt på\".",
+  "related": [
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "bukser",
+    "en": "pants"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en blå **t-shirt** på.",
+   "en": "I am wearing a blue t-shirt."
+  }
+ },
+ "en tallerken": {
+  "forms": [
+   {
+    "da": "en tallerken",
+    "en": "a plate"
+   },
+   {
+    "da": "tallerkenen",
+    "en": "the plate"
+   },
+   {
+    "da": "tallerkner",
+    "en": "plates"
+   },
+   {
+    "da": "tallerknerne",
+    "en": "the plates"
+   }
+  ],
+  "explanation": "\"En tallerken\" is a plate, an en-word. Note that the \"e\" before the last \"n\" drops out in the plural: \"tallerkner\". It is a long word to say, so listen for the stress at the start, \"TAL-ler-ken\". You can ask for \"en tallerken til\" (one more plate) at the table.",
+  "related": [
+   {
+    "da": "en skål",
+    "en": "a bowl"
+   },
+   {
+    "da": "en gaffel",
+    "en": "a fork"
+   },
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mad på min **tallerken**.",
+   "en": "There is food on my plate."
+  }
+ },
+ "en tand": {
+  "forms": [
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "tanden",
+    "en": "the tooth"
+   },
+   {
+    "da": "tænder",
+    "en": "teeth"
+   },
+   {
+    "da": "tænderne",
+    "en": "the teeth"
+   }
+  ],
+  "explanation": "\"En tand\" is a tooth. It is an en-word and the word for more than one changes its vowel: \"tænder\" (teeth), like English \"tooth, teeth\". A common daily phrase is \"at børste tænder\" (to brush your teeth). \"Tandlæge\" is a dentist.",
+  "related": [
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "en tunge",
+    "en": "a tongue"
+   },
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg børster mine **tænder** hver aften.",
+   "en": "I brush my teeth every evening."
+  }
+ },
+ "en tandlæge": {
+  "forms": [
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "tandlægen",
+    "en": "the dentist"
+   },
+   {
+    "da": "tandlæger",
+    "en": "dentists"
+   },
+   {
+    "da": "tandlægerne",
+    "en": "the dentists"
+   }
+  ],
+  "explanation": "\"En tandlæge\" is a dentist, made from \"tand\" (tooth) and \"læge\" (doctor). It is an en-word. You go \"til tandlægen\" (to the dentist), and Danes say it with \"til\": \"Jeg skal til tandlægen\" (I have a dentist appointment).",
+  "related": [
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en klinik",
+    "en": "a clinic"
+   },
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal til **tandlægen** i morgen.",
+   "en": "I am going to the dentist tomorrow."
+  }
+ },
+ "en tante": {
+  "forms": [
+   {
+    "da": "en tante",
+    "en": "an aunt"
+   },
+   {
+    "da": "tanten",
+    "en": "the aunt"
+   },
+   {
+    "da": "tanter",
+    "en": "aunts"
+   },
+   {
+    "da": "tanterne",
+    "en": "the aunts"
+   }
+  ],
+  "explanation": "\"En tante\" is an aunt, the sister of a parent or the wife of an uncle. It is an en-word with regular forms. Danes use it for any aunt, on either side of the family. Its pair is \"en onkel\" (uncle).",
+  "related": [
+   {
+    "da": "en onkel",
+    "en": "an uncle"
+   },
+   {
+    "da": "en fætter",
+    "en": "a male cousin"
+   },
+   {
+    "da": "en kusine",
+    "en": "a female cousin"
+   },
+   {
+    "da": "en niece",
+    "en": "a niece"
+   }
+  ],
+  "sentence": {
+   "da": "Min **tante** bor i Odense.",
+   "en": "My aunt lives in Odense."
+  }
+ },
+ "en taske": {
+  "forms": [
+   {
+    "da": "en taske",
+    "en": "a bag, purse"
+   },
+   {
+    "da": "tasken",
+    "en": "the bag"
+   },
+   {
+    "da": "tasker",
+    "en": "bags"
+   },
+   {
+    "da": "taskerne",
+    "en": "the bags"
+   }
+  ],
+  "explanation": "\"Taske\" is a bag that you carry with a handle or strap, for example a handbag, a school bag or a sports bag. A soft plastic shop bag is \"en pose\" instead. You often put something before it: \"en håndtaske\" (a handbag), \"en skoletaske\" (a school bag).",
+  "related": [
+   {
+    "da": "en pose",
+    "en": "a shopping bag"
+   },
+   {
+    "da": "en rygsæk",
+    "en": "a backpack"
+   },
+   {
+    "da": "en håndtaske",
+    "en": "a handbag"
+   },
+   {
+    "da": "en pung",
+    "en": "a wallet"
+   }
+  ],
+  "sentence": {
+   "da": "Min **taske** er tung.",
+   "en": "My bag is heavy."
+  }
+ },
+ "en taxa": {
+  "forms": [
+   {
+    "da": "en taxa",
+    "en": "a taxi"
+   },
+   {
+    "da": "taxaen",
+    "en": "the taxi"
+   },
+   {
+    "da": "taxaer",
+    "en": "taxis"
+   },
+   {
+    "da": "taxaerne",
+    "en": "the taxis"
+   }
+  ],
+  "explanation": "\"Taxa\" is a taxi, spelled with an \"a\" at the end, not \"taxi\". It is an en-word. You go \"med en taxa\" (by taxi) or \"i en taxa\" (in a taxi), and you ring or book one with \"at bestille en taxa\". In Denmark taxis are pricey, so many people use the bus or metro.",
+  "related": [
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en metro",
+    "en": "a metro"
+   },
+   {
+    "da": "en chauffør",
+    "en": "a driver"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order, to book"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager **en taxa** til lufthavnen.",
+   "en": "We take a taxi to the airport."
+  }
+ },
+ "en taxachauffør": {
+  "forms": [
+   {
+    "da": "en taxachauffør",
+    "en": "a taxi driver"
+   },
+   {
+    "da": "taxachaufføren",
+    "en": "the taxi driver"
+   },
+   {
+    "da": "taxachauffører",
+    "en": "taxi drivers"
+   },
+   {
+    "da": "taxachaufførerne",
+    "en": "the taxi drivers"
+   }
+  ],
+  "explanation": "\"En taxachauffør\" is a taxi driver. It is an en-word built from \"taxa\" (taxi) and \"chauffør\" (driver). In Danish the taxi itself is \"en taxa\", not \"taxi\". Say \"Til banegården, tak\" to the driver for \"To the station, please\".",
+  "related": [
+   {
+    "da": "en taxa",
+    "en": "a taxi"
+   },
+   {
+    "da": "en chauffør",
+    "en": "a driver"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   }
+  ],
+  "sentence": {
+   "da": "**Taxachaufføren** kører os til stationen.",
+   "en": "The taxi driver drives us to the station."
+  }
+ },
+ "en tegnebog": {
+  "forms": [
+   {
+    "da": "en tegnebog",
+    "en": "a wallet"
+   },
+   {
+    "da": "tegnebogen",
+    "en": "the wallet"
+   },
+   {
+    "da": "tegnebøger",
+    "en": "wallets"
+   },
+   {
+    "da": "tegnebøgerne",
+    "en": "the wallets"
+   }
+  ],
+  "explanation": "\"En tegnebog\" is a wallet, the kind that holds notes and cards. The word is a little more formal than \"en pung\", though both are used. The plural changes the vowel: \"tegnebøger\". Literally it means \"a drawing book\", but today it only means a wallet.",
+  "related": [
+   {
+    "da": "en pung",
+    "en": "a wallet"
+   },
+   {
+    "da": "et betalingskort",
+    "en": "a payment card"
+   },
+   {
+    "da": "kontant",
+    "en": "cash"
+   },
+   {
+    "da": "en lomme",
+    "en": "a pocket"
+   }
+  ],
+  "sentence": {
+   "da": "Han tager sin **tegnebog** op af lommen.",
+   "en": "He takes his wallet out of his pocket."
+  }
+ },
+ "en telefon": {
+  "forms": [
+   {
+    "da": "en telefon",
+    "en": "a phone"
+   },
+   {
+    "da": "telefonen",
+    "en": "the phone"
+   },
+   {
+    "da": "telefoner",
+    "en": "phones"
+   },
+   {
+    "da": "telefonerne",
+    "en": "the phones"
+   }
+  ],
+  "explanation": "\"Telefon\" means a phone, both the device and the thing you talk on. A mobile phone is \"en mobiltelefon\" or just \"en mobil\", and Danes use \"mobil\" all the time. To phone someone is \"at ringe til\" someone. The stress is on the last part: te-le-FOHN.",
+  "related": [
+   {
+    "da": "en mobil",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   },
+   {
+    "da": "at ringe",
+    "en": "to call"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er min **telefon**?",
+   "en": "Where is my phone?"
+  }
+ },
+ "en temperatur": {
+  "forms": [
+   {
+    "da": "en temperatur",
+    "en": "a temperature"
+   },
+   {
+    "da": "temperaturen",
+    "en": "the temperature"
+   },
+   {
+    "da": "temperaturer",
+    "en": "temperatures"
+   },
+   {
+    "da": "temperaturerne",
+    "en": "the temperatures"
+   }
+  ],
+  "explanation": "\"En temperatur\" is a temperature, how hot or cold something is, such as the weather. It is an en-word. In Denmark temperatures are given in degrees Celsius. You can also say \"at have feber\" about a fever, but \"temperatur\" is used for both weather and body.",
+  "related": [
+   {
+    "da": "grader",
+    "en": "degrees"
+   },
+   {
+    "da": "varme",
+    "en": "heat"
+   },
+   {
+    "da": "kulde",
+    "en": "cold"
+   },
+   {
+    "da": "en vejrudsigt",
+    "en": "a weather forecast"
+   }
+  ],
+  "sentence": {
+   "da": "**Temperaturen** er tyve grader i dag.",
+   "en": "The temperature is twenty degrees today."
+  }
+ },
+ "en tid": {
+  "forms": [
+   {
+    "da": "en tid",
+    "en": "a time"
+   },
+   {
+    "da": "tiden",
+    "en": "the time"
+   },
+   {
+    "da": "tider",
+    "en": "times"
+   },
+   {
+    "da": "tiderne",
+    "en": "the times"
+   }
+  ],
+  "explanation": "En tid means time in the sense of a period or how much time you have: \"Jeg har tid\" means \"I have time\". English has one word, but Danish splits it up: \"en tid\" is time in general, \"en gang\" is one occasion (once, twice), and \"en time\" is an hour. It is an en-word, so \"the time\" is \"tiden\", and the clock time is asked with \"Hvad er klokken?\".",
+  "related": [
+   {
+    "da": "en gang",
+    "en": "an occasion / a time"
+   },
+   {
+    "da": "en time",
+    "en": "an hour"
+   },
+   {
+    "da": "et tidspunkt",
+    "en": "a point in time"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ikke **tid** i dag.",
+   "en": "I do not have time today."
+  }
+ },
+ "en tid hos lægen": {
+  "forms": [
+   {
+    "da": "en tid hos lægen",
+    "en": "a doctor's appointment"
+   },
+   {
+    "da": "Jeg har en tid hos lægen.",
+    "en": "I have a doctor's appointment."
+   },
+   {
+    "da": "Jeg skal have en tid hos lægen.",
+    "en": "I need to get a doctor's appointment."
+   }
+  ],
+  "explanation": "\"En tid hos lægen\" literally means \"a time at the doctor\", and it is the usual way to say a doctor's appointment. \"En tid\" is used for any booked time, such as at the dentist or hairdresser too. To book one, say \"at bestille en tid\".",
+  "related": [
+   {
+    "da": "at bestille tid",
+    "en": "to make an appointment"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "et venteværelse",
+    "en": "a waiting room"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **en tid hos lægen** klokken ti.",
+   "en": "I have a doctor's appointment at ten o'clock."
+  }
+ },
+ "en tiger": {
+  "forms": [
+   {
+    "da": "en tiger",
+    "en": "a tiger"
+   },
+   {
+    "da": "tigeren",
+    "en": "the tiger"
+   },
+   {
+    "da": "tigre",
+    "en": "tigers"
+   },
+   {
+    "da": "tigrene",
+    "en": "the tigers"
+   }
+  ],
+  "explanation": "\"En tiger\" is a tiger, an en-word. Notice that the plural \"tigre\" drops the \"e\" before the \"r\", so it is not \"tigerer\". The word is spelled almost like the English one. You will meet it in the zoo or in children's books.",
+  "related": [
+   {
+    "da": "en løve",
+    "en": "a lion"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "en zoologisk have",
+    "en": "a zoo"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene så en **tiger** i zoologisk have.",
+   "en": "The children saw a tiger at the zoo."
+  }
+ },
+ "en time": {
+  "forms": [
+   {
+    "da": "en time",
+    "en": "a hour"
+   },
+   {
+    "da": "timen",
+    "en": "the hour"
+   },
+   {
+    "da": "timer",
+    "en": "hours"
+   },
+   {
+    "da": "timerne",
+    "en": "the hours"
+   }
+  ],
+  "explanation": "En time is an hour, not the general idea of time (that is \"tid\"). It is an en-word, so \"the hour\" is \"timen\", and more than one is \"timer\". It also means a lesson or class, so \"en dansktime\" is a Danish lesson. \"Om en time\" means \"in an hour\", which is a useful phrase for plans.",
+  "related": [
+   {
+    "da": "et minut",
+    "en": "a minute"
+   },
+   {
+    "da": "et sekund",
+    "en": "a second"
+   },
+   {
+    "da": "et døgn",
+    "en": "24 hours"
+   },
+   {
+    "da": "en tid",
+    "en": "a time"
+   }
+  ],
+  "sentence": {
+   "da": "Toget kommer om en **time**.",
+   "en": "The train comes in an hour."
+  }
+ },
+ "en ting": {
+  "forms": [
+   {
+    "da": "en ting",
+    "en": "a thing"
+   },
+   {
+    "da": "tingen",
+    "en": "the thing"
+   },
+   {
+    "da": "ting",
+    "en": "things"
+   },
+   {
+    "da": "tingene",
+    "en": "the things"
+   }
+  ],
+  "explanation": "\"En ting\" is a thing, and it is an en-word. The plural is the same as the singular, so \"mange ting\" means many things. It is a handy filler word when you do not know the right name: \"Hvad er den ting?\" means \"What is that thing?\". \"Alle tingene\" is all the things.",
+  "related": [
+   {
+    "da": "noget",
+    "en": "something"
+   },
+   {
+    "da": "ingenting",
+    "en": "nothing"
+   },
+   {
+    "da": "alting",
+    "en": "everything"
+   },
+   {
+    "da": "en sag",
+    "en": "a matter/item"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har mange **ting** at lave.",
+   "en": "I have many things to do."
+  }
+ },
+ "en tjener": {
+  "forms": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "tjeneren",
+    "en": "the waiter"
+   },
+   {
+    "da": "tjenere",
+    "en": "waiters"
+   },
+   {
+    "da": "tjenerne",
+    "en": "the waiters"
+   }
+  ],
+  "explanation": "\"En tjener\" is a waiter in a restaurant or café. You can call out \"Hallo!\" or say \"Undskyld\" to get the waiter's attention. The word is used for men and women alike. It can also mean a servant, but in everyday life you will mostly meet it in restaurants.",
+  "related": [
+   {
+    "da": "en kok",
+    "en": "a chef"
+   },
+   {
+    "da": "en restaurant",
+    "en": "a restaurant"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en menu",
+    "en": "a menu"
+   }
+  ],
+  "sentence": {
+   "da": "**Tjeneren** kommer med maden.",
+   "en": "The waiter is coming with the food."
+  }
+ },
+ "en togbillet": {
+  "forms": [
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   },
+   {
+    "da": "togbilletten",
+    "en": "the train ticket"
+   },
+   {
+    "da": "togbilletter",
+    "en": "train tickets"
+   },
+   {
+    "da": "togbilletterne",
+    "en": "the train tickets"
+   }
+  ],
+  "explanation": "A \"togbillet\" is a ticket for the train, built from \"tog\" (train) and \"billet\" (ticket). It is an en-word. You can buy one at the station, at a machine or in an app. Many people also use a travel card or a ticket app instead of paper.",
+  "related": [
+   {
+    "da": "en busbillet",
+    "en": "a bus ticket"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en banegård",
+    "en": "a railway station"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt en **togbillet** til Odense.",
+   "en": "I have bought a train ticket to Odense."
+  }
+ },
+ "en togstation": {
+  "forms": [
+   {
+    "da": "en togstation",
+    "en": "a train station"
+   },
+   {
+    "da": "togstationen",
+    "en": "the train station"
+   },
+   {
+    "da": "togstationer",
+    "en": "train stations"
+   },
+   {
+    "da": "togstationerne",
+    "en": "the train stations"
+   }
+  ],
+  "explanation": "\"Togstation\" is a train station, a small to medium one, and it is made from \"tog\" (train) and \"station\" (station). The big main station in a city is \"hovedbanegården\". It is an en-word. Say \"på togstationen\" for at the train station.",
+  "related": [
+   {
+    "da": "en hovedbanegård",
+    "en": "a central station"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes på **togstationen**.",
+   "en": "We meet at the train station."
+  }
+ },
+ "en tomat": {
+  "forms": [
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "tomaten",
+    "en": "the tomato"
+   },
+   {
+    "da": "tomater",
+    "en": "tomatoes"
+   },
+   {
+    "da": "tomaterne",
+    "en": "the tomatoes"
+   }
+  ],
+  "explanation": "\"En tomat\" is a tomato. It is an en-word, and the plural is \"tomater\". The word is easy to remember since it looks like the English one. Danes eat tomatoes in salads, on bread and in sauces, such as \"tomatsovs\".",
+  "related": [
+   {
+    "da": "en agurk",
+    "en": "a cucumber"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "et løg",
+    "en": "an onion"
+   },
+   {
+    "da": "pasta",
+    "en": "pasta"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skærer en **tomat**.",
+   "en": "I am cutting a tomato."
+  }
+ },
+ "en tommelfinger": {
+  "forms": [
+   {
+    "da": "en tommelfinger",
+    "en": "a thumb"
+   },
+   {
+    "da": "tommelfingeren",
+    "en": "the thumb"
+   },
+   {
+    "da": "tommelfingre",
+    "en": "thumbs"
+   },
+   {
+    "da": "tommelfingrene",
+    "en": "the thumbs"
+   }
+  ],
+  "explanation": "\"En tommelfinger\" is your thumb. It is an en-word, and the word for more than one drops the \"e\" in the middle: \"tommelfingre\". \"Tommelfinger op\" means thumbs up, just like in English. It is built from \"tommel\" and \"finger\".",
+  "related": [
+   {
+    "da": "en finger",
+    "en": "a finger"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en negl",
+    "en": "a nail"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har slået min **tommelfinger**.",
+   "en": "I have hit my thumb."
+  }
+ },
+ "en trøje": {
+  "forms": [
+   {
+    "da": "en trøje",
+    "en": "a sweater / jumper"
+   },
+   {
+    "da": "trøjen",
+    "en": "the sweater"
+   },
+   {
+    "da": "trøjer",
+    "en": "sweaters"
+   },
+   {
+    "da": "trøjerne",
+    "en": "the sweaters"
+   }
+  ],
+  "explanation": "\"En trøje\" is a sweater, jumper or top in general, so it is a very common word for knitted or warm tops. It is an en-word. A football shirt is also called \"en trøje\". Note the letter \"ø\" in the spelling.",
+  "related": [
+   {
+    "da": "en sweater",
+    "en": "a sweater"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en t-shirt",
+    "en": "a t-shirt"
+   },
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   }
+  ],
+  "sentence": {
+   "da": "Min **trøje** er for lille.",
+   "en": "My sweater is too small."
+  }
+ },
+ "en tunge": {
+  "forms": [
+   {
+    "da": "en tunge",
+    "en": "a tongue"
+   },
+   {
+    "da": "tungen",
+    "en": "the tongue"
+   },
+   {
+    "da": "tunger",
+    "en": "tongues"
+   },
+   {
+    "da": "tungerne",
+    "en": "the tongues"
+   }
+  ],
+  "explanation": "\"En tunge\" is the tongue in your mouth. It is an en-word. It is also used for speaking a language: \"et sprog\" is the word for a language itself. A fun phrase is \"at række tunge\" (to stick out your tongue).",
+  "related": [
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en læbe",
+    "en": "a lip"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen sagde: Vis mig din **tunge**.",
+   "en": "The doctor said: Show me your tongue."
+  }
+ },
+ "en tur": {
+  "forms": [
+   {
+    "da": "en tur",
+    "en": "a trip, turn"
+   },
+   {
+    "da": "turen",
+    "en": "the trip"
+   },
+   {
+    "da": "ture",
+    "en": "trips"
+   },
+   {
+    "da": "turene",
+    "en": "the trips"
+   }
+  ],
+  "explanation": "\"Tur\" is a short trip, walk or ride, and also someone's turn. \"At gå en tur\" is to go for a walk, \"at tage på tur\" is to go on a trip, and \"Det er din tur\" means \"It's your turn\". It is a very useful word with many uses. A longer, bigger journey is \"en rejse\".",
+  "related": [
+   {
+    "da": "en rejse",
+    "en": "a journey"
+   },
+   {
+    "da": "at gå en tur",
+    "en": "to go for a walk"
+   },
+   {
+    "da": "en cykeltur",
+    "en": "a bike ride"
+   },
+   {
+    "da": "en weekendtur",
+    "en": "a weekend trip"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går **en tur** i parken.",
+   "en": "We are going for a walk in the park."
+  }
+ },
+ "en tysker": {
+  "forms": [
+   {
+    "da": "en tysker",
+    "en": "a German"
+   },
+   {
+    "da": "tyskeren",
+    "en": "the German"
+   },
+   {
+    "da": "tyskere",
+    "en": "Germans"
+   },
+   {
+    "da": "tyskerne",
+    "en": "the Germans"
+   }
+  ],
+  "explanation": "\"En tysker\" is a person from Germany. It is an en-word and is used for both men and women. The plural is \"tyskere\". The language and the describing word is \"tysk\", and the country is \"Tyskland\". Germany is Denmark's only land neighbour, so Danes meet many Germans.",
+  "related": [
+   {
+    "da": "Tyskland",
+    "en": "Germany"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
+   },
+   {
+    "da": "en dansker",
+    "en": "a Dane"
+   },
+   {
+    "da": "en franskmand",
+    "en": "a Frenchman"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **tysker**.",
+   "en": "My neighbour is a German."
+  }
+ },
+ "en tå": {
+  "forms": [
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "tåen",
+    "en": "the toe"
+   },
+   {
+    "da": "tæer",
+    "en": "toes"
+   },
+   {
+    "da": "tæerne",
+    "en": "the toes"
+   }
+  ],
+  "explanation": "\"En tå\" is a toe. It is an en-word and the word for more than one is \"tæer\", with a different vowel. \"Stortå\" is the big toe. Say \"Jeg har slået tåen\" for \"I have hit my toe\". It sits at the end of the foot, so learn it with \"fod\".",
+  "related": [
+   {
+    "da": "en fod",
+    "en": "a foot"
+   },
+   {
+    "da": "en finger",
+    "en": "a finger"
+   },
+   {
+    "da": "et ben",
+    "en": "a leg"
+   },
+   {
+    "da": "en sok",
+    "en": "a sock"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg slog **tåen** mod døren.",
+   "en": "I hit my toe on the door."
+  }
+ },
+ "en tøjbutik": {
+  "forms": [
+   {
+    "da": "en tøjbutik",
+    "en": "a clothing store"
+   },
+   {
+    "da": "tøjbutikken",
+    "en": "the clothing store"
+   },
+   {
+    "da": "tøjbutikker",
+    "en": "clothing stores"
+   },
+   {
+    "da": "tøjbutikkerne",
+    "en": "the clothing stores"
+   }
+  ],
+  "explanation": "\"En tøjbutik\" is a clothing store, built from \"tøj\" (clothes) and \"en butik\" (a shop). You can use the same idea with other words, like \"skobutik\" (shoe store). \"Tøjbutikken\" means the clothing store. In town you will often find them on the pedestrian streets.",
+  "related": [
+   {
+    "da": "et tøj",
+    "en": "clothes"
+   },
+   {
+    "da": "en skobutik",
+    "en": "a shoe store"
+   },
+   {
+    "da": "et prøverum",
+    "en": "a fitting room"
+   },
+   {
+    "da": "et udsalg",
+    "en": "a sale"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mange **tøjbutikker** i byen.",
+   "en": "There are many clothing stores in town."
+  }
+ },
+ "et tal": {
+  "forms": [
+   {
+    "da": "et tal",
+    "en": "a number"
+   },
+   {
+    "da": "tallet",
+    "en": "the number"
+   },
+   {
+    "da": "tal",
+    "en": "numbers"
+   },
+   {
+    "da": "tallene",
+    "en": "the numbers"
+   }
+  ],
+  "explanation": "\"Et tal\" is a number, like 5 or 12, as a figure or a count. It is an et-word, and the plural is the same as the single form: \"tal\". For a phone number or house number, Danes use \"et nummer\" instead. For counting, \"at tælle\" is the verb.",
+  "related": [
+   {
+    "da": "et nummer",
+    "en": "a number (phone, house)"
+   },
+   {
+    "da": "at tælle",
+    "en": "to count"
+   },
+   {
+    "da": "en mængde",
+    "en": "an amount"
+   },
+   {
+    "da": "et ciffer",
+    "en": "a digit"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilket **tal** tænker jeg på?",
+   "en": "Which number am I thinking of?"
+  }
+ },
+ "et telefonnummer": {
+  "forms": [
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   },
+   {
+    "da": "telefonnummeret",
+    "en": "the phone number"
+   },
+   {
+    "da": "telefonnumre",
+    "en": "phone numbers"
+   },
+   {
+    "da": "telefonnumrene",
+    "en": "the phone numbers"
+   }
+  ],
+  "explanation": "\"Et telefonnummer\" is a phone number, from \"telefon\" and \"nummer\". It is an et-word. Notice the plural drops one letter: \"telefonnumre\", not \"telefonnummere\". Danish phone numbers have 8 digits and are often said in pairs. You often need to write one on forms.",
+  "related": [
+   {
+    "da": "et nummer",
+    "en": "a number"
+   },
+   {
+    "da": "en mobil",
+    "en": "a mobile phone"
+   },
+   {
+    "da": "en adresse",
+    "en": "an address"
+   },
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er dit **telefonnummer**?",
+   "en": "What is your phone number?"
+  }
+ },
+ "et tilbud": {
+  "forms": [
+   {
+    "da": "et tilbud",
+    "en": "an offer / deal"
+   },
+   {
+    "da": "tilbuddet",
+    "en": "the offer"
+   },
+   {
+    "da": "tilbud",
+    "en": "offers"
+   },
+   {
+    "da": "tilbuddene",
+    "en": "the offers"
+   }
+  ],
+  "explanation": "\"Et tilbud\" means an offer or a deal. In a shop it is a lower price for a short time, and the phrase \"på tilbud\" means \"on sale\". Supermarkets send out \"tilbudsaviser\" (leaflets with deals) every week. The plural is the same as the single word, \"tilbud\", and note the double d in \"tilbuddet\".",
+  "related": [
+   {
+    "da": "på tilbud",
+    "en": "on sale"
+   },
+   {
+    "da": "et udsalg",
+    "en": "a sale"
+   },
+   {
+    "da": "en rabat",
+    "en": "a discount"
+   },
+   {
+    "da": "gratis",
+    "en": "free"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et godt **tilbud** på kaffe i dag.",
+   "en": "There is a good deal on coffee today."
+  }
+ },
+ "et tog": {
+  "forms": [
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "toget",
+    "en": "the train"
+   },
+   {
+    "da": "tog",
+    "en": "trains"
+   },
+   {
+    "da": "togene",
+    "en": "the trains"
+   }
+  ],
+  "explanation": "Et tog is a train. It is an et-word, so \"the train\" is \"toget\". The word does not change when there is more than one: \"to tog\" means two trains. The usual way to say you travel by train is \"at tage toget\", which is literally \"to take the train\", and it is used for both short and long trips.",
+  "related": [
+   {
+    "da": "en station",
+    "en": "a station"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **toget** på arbejde.",
+   "en": "I take the train to work."
+  }
+ },
+ "et toilet": {
+  "forms": [
+   {
+    "da": "et toilet",
+    "en": "a toilet"
+   },
+   {
+    "da": "toilettet",
+    "en": "the toilet"
+   },
+   {
+    "da": "toiletter",
+    "en": "toilets"
+   },
+   {
+    "da": "toiletterne",
+    "en": "the toilets"
+   }
+  ],
+  "explanation": "\"Toilet\" is the normal everyday word for the toilet or the bathroom with the toilet in it. Danes say \"Hvor er toilettet?\" to ask where the restroom is, and you will also see \"Herrer\" (men) and \"Damer\" (women) on the doors. It is an et-word, so it is \"et toilet\" and \"toilettet\".",
+  "related": [
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "et håndklæde",
+    "en": "a towel"
+   },
+   {
+    "da": "en håndvask",
+    "en": "a sink"
+   },
+   {
+    "da": "toiletpapir",
+    "en": "toilet paper"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor er **toilettet**?",
+   "en": "Where is the toilet?"
+  }
+ },
+ "et træ": {
+  "forms": [
+   {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
+    "da": "træet",
+    "en": "the tree"
+   },
+   {
+    "da": "træer",
+    "en": "trees"
+   },
+   {
+    "da": "træerne",
+    "en": "the trees"
+   }
+  ],
+  "explanation": "Et træ is a tree, and it also means wood as a material. So \"et bord af træ\" is a table made of wood. It is an et-word, so \"the tree\" is \"træet\", and more than one is \"træer\". For a whole group of trees growing together, Danes use \"en skov\" (a forest).",
+  "related": [
+   {
+    "da": "en skov",
+    "en": "a forest"
+   },
+   {
+    "da": "et blad",
+    "en": "a leaf"
+   },
+   {
+    "da": "en gren",
+    "en": "a branch"
+   },
+   {
+    "da": "en blomst",
+    "en": "a flower"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et stort **træ** i haven.",
+   "en": "There is a big tree in the garden."
+  }
+ },
+ "et tv": {
+  "forms": [
+   {
+    "da": "et tv",
+    "en": "a TV"
+   },
+   {
+    "da": "tv'et",
+    "en": "the TV"
+   },
+   {
+    "da": "tv'er",
+    "en": "TVs"
+   },
+   {
+    "da": "tv'erne",
+    "en": "the TVs"
+   }
+  ],
+  "explanation": "\"Tv\" is said \"te-ve\" and means a television set. It is an et-word, and the word for \"the\" is added with an apostrophe: \"tv'et\". Watching TV is \"at se tv\" with no word for \"the\" in between. You may also hear the longer word \"et fjernsyn\".",
+  "related": [
+   {
+    "da": "et fjernsyn",
+    "en": "a television"
+   },
+   {
+    "da": "en fjernbetjening",
+    "en": "a remote control"
+   },
+   {
+    "da": "et program",
+    "en": "a programme"
+   },
+   {
+    "da": "en radio",
+    "en": "a radio"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ser **tv** hver aften.",
+   "en": "I watch TV every evening."
+  }
+ },
+ "et tørklæde": {
+  "forms": [
+   {
+    "da": "et tørklæde",
+    "en": "a scarf"
+   },
+   {
+    "da": "tørklædet",
+    "en": "the scarf"
+   },
+   {
+    "da": "tørklæder",
+    "en": "scarves"
+   },
+   {
+    "da": "tørklæderne",
+    "en": "the scarves"
+   }
+  ],
+  "explanation": "\"Et tørklæde\" is a scarf, the kind you wrap around your neck or head. It is an et-word, so you say \"et tørklæde\" and \"tørklædet\" for the scarf. In winter many Danes wear a thick one with a hat and gloves. Be careful with the spelling: it has the letter æ in the middle and the ending \"-klæde\".",
+  "related": [
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "handsker",
+    "en": "gloves"
+   },
+   {
+    "da": "en vinterjakke",
+    "en": "a winter jacket"
+   },
+   {
+    "da": "et klæde",
+    "en": "a cloth"
+   }
+  ],
+  "sentence": {
+   "da": "Det er koldt, så tag dit **tørklæde** på.",
+   "en": "It is cold, so put your scarf on."
   }
  },
  "tak": {
@@ -200,6 +2478,1905 @@
   "sentence": {
    "da": "**Tak** for maden!",
    "en": "Thanks for the meal!"
+  }
+ },
+ "tak for det": {
+  "forms": [
+   {
+    "da": "Tak for det!",
+    "en": "Thanks for that!"
+   },
+   {
+    "da": "Tak for hjælpen.",
+    "en": "Thanks for the help."
+   },
+   {
+    "da": "Tak for i dag.",
+    "en": "Thanks for today."
+   }
+  ],
+  "explanation": "\"Tak for det\" means \"thanks for that\" and is a friendly way to thank someone for something that just happened, like advice, help or a small favour. It is a bit more casual than \"mange tak\" (thank you very much). Danes often say \"tak for\" followed by what they are thanking for, as in \"Tak for maden\" (Thanks for the food).",
+  "related": [
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "mange tak",
+    "en": "thank you very much"
+   },
+   {
+    "da": "tak for mad",
+    "en": "thanks for the food"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   }
+  ],
+  "sentence": {
+   "da": "**Tak for det**, det var rart!",
+   "en": "Thanks for that, it was nice!"
+  }
+ },
+ "tak for i dag": {
+  "forms": [
+   {
+    "da": "Tak for i dag!",
+    "en": "Thanks for today!"
+   },
+   {
+    "da": "Tak for i dag, vi ses.",
+    "en": "Thanks for today, see you."
+   },
+   {
+    "da": "Tak for i aften.",
+    "en": "Thanks for tonight."
+   }
+  ],
+  "explanation": "\"Tak for i dag\" means \"thanks for today\" and is said when you part after a day together, such as work, a course or a meeting. It is polite and warm. Change \"i dag\" to \"i aften\" for an evening, or to \"sidst\" (\"for last time\") when you meet again.",
+  "related": [
+   {
+    "da": "tak for sidst",
+    "en": "thanks for last time"
+   },
+   {
+    "da": "tak for hjælpen",
+    "en": "thanks for the help"
+   },
+   {
+    "da": "vi ses",
+    "en": "see you"
+   }
+  ],
+  "sentence": {
+   "da": "**Tak for i dag**, det var en god dag.",
+   "en": "Thanks for today, it was a good day."
+  }
+ },
+ "tak for mad": {
+  "forms": [
+   {
+    "da": "Tak for mad!",
+    "en": "Thanks for the meal!"
+   },
+   {
+    "da": "Velbekomme.",
+    "en": "You're welcome."
+   },
+   {
+    "da": "Tak for mad, det var lækkert.",
+    "en": "Thanks for the meal, it was delicious."
+   }
+  ],
+  "explanation": "\"Tak for mad\" is what Danes say at the end of a meal to thank whoever cooked or paid. It is a polite habit, even in the family. The answer is \"velbekomme\". Notice there is no \"the\" before \"mad\": it is a fixed phrase, not \"tak for maden\".",
+  "related": [
+   {
+    "da": "velbekomme",
+    "en": "you're welcome (meal)"
+   },
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   },
+   {
+    "da": "lækker",
+    "en": "tasty"
+   }
+  ],
+  "sentence": {
+   "da": "**Tak for mad**, det var rigtig lækkert.",
+   "en": "Thanks for the meal, it was really delicious."
+  }
+ },
+ "tal langsomt": {
+  "forms": [
+   {
+    "da": "Tal langsomt, tak",
+    "en": "Speak slowly, please"
+   },
+   {
+    "da": "Kan du tale langsommere?",
+    "en": "Can you speak more slowly?"
+   },
+   {
+    "da": "Jeg forstår, når du taler langsomt",
+    "en": "I understand when you speak slowly"
+   }
+  ],
+  "explanation": "\"Tal langsomt\" is a command: \"tal\" is the short \"do it\" form of \"at tale\" (to speak), and \"langsomt\" means slowly. Adding \"tak\" makes it polite, and asking \"Kan du tale langsommere?\" is even softer. It is one of the most useful phrases when you are learning, because Danes tend to speak fast.",
+  "related": [
+   {
+    "da": "langsom",
+    "en": "slow"
+   },
+   {
+    "da": "hurtigt",
+    "en": "quickly"
+   },
+   {
+    "da": "Kan du gentage det?",
+    "en": "Can you repeat that?"
+   },
+   {
+    "da": "tal højere",
+    "en": "speak louder"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, vil du være sød at **tale langsomt**?",
+   "en": "Excuse me, would you be kind enough to speak slowly?"
+  }
+ },
+ "taler du engelsk?": {
+  "forms": [
+   {
+    "da": "Taler du engelsk?",
+    "en": "Do you speak English?"
+   },
+   {
+    "da": "Ja, lidt.",
+    "en": "Yes, a little."
+   },
+   {
+    "da": "Jeg taler kun lidt dansk.",
+    "en": "I only speak a little Danish."
+   }
+  ],
+  "explanation": "\"Taler du engelsk?\" means \"do you speak English?\". Most Danes speak very good English, so it often works well. It is polite to try a little Danish first: \"jeg taler lidt dansk\". Use \"taler I engelsk?\" for a group, and \"taler De engelsk?\" for a very formal setting.",
+  "related": [
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "jeg forstår ikke",
+    "en": "I don't understand"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, **taler du engelsk?**",
+   "en": "Excuse me, do you speak English?"
+  }
+ },
+ "tandpine": {
+  "forms": [
+   {
+    "da": "en tandpine",
+    "en": "a toothache"
+   },
+   {
+    "da": "tandpinen",
+    "en": "the toothache"
+   },
+   {
+    "da": "Jeg har tandpine.",
+    "en": "I have a toothache."
+   }
+  ],
+  "explanation": "\"Tandpine\" means toothache. It is an en-word and is normally used only for one at a time, with no \"en\" in front when you say \"Jeg har tandpine\". It is built from \"tand\" (tooth) and \"pine\" (pain). In Danish you can also say \"Det gør ondt i min tand\".",
+  "related": [
+   {
+    "da": "en tand",
+    "en": "a tooth"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "hovedpine",
+    "en": "headache"
+   },
+   {
+    "da": "ondt i maven",
+    "en": "stomach ache"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **tandpine** og skal til tandlægen.",
+   "en": "I have a toothache and need to go to the dentist."
+  }
+ },
+ "te": {
+  "forms": [
+   {
+    "da": "en te",
+    "en": "a tea"
+   },
+   {
+    "da": "teen",
+    "en": "the tea"
+   },
+   {
+    "da": "en kop te",
+    "en": "a cup of tea"
+   }
+  ],
+  "explanation": "\"Te\" is tea and is an en-word, so \"the tea\" is \"teen\". It is a short word and said \"teh\", not like English \"tea\". You often say \"en kop te\" (a cup of tea) and may be asked \"med mælk eller citron?\" (with milk or lemon?).",
+  "related": [
+   {
+    "da": "kaffe",
+    "en": "coffee"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
+   },
+   {
+    "da": "en citron",
+    "en": "a lemon"
+   },
+   {
+    "da": "honning",
+    "en": "honey"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg drikker **te** om aftenen.",
+   "en": "I drink tea in the evening."
+  }
+ },
+ "tennis": {
+  "forms": [
+   {
+    "da": "en tennis",
+    "en": "tennis"
+   },
+   {
+    "da": "tennissen",
+    "en": "the tennis"
+   },
+   {
+    "da": "Jeg spiller tennis.",
+    "en": "I play tennis."
+   }
+  ],
+  "explanation": "\"Tennis\" is tennis, and it is an en-word. It is used without \"en\" when you talk about the sport: \"Jeg spiller tennis\". The spelling is the same as English, but the Danish pronunciation is a little different.",
+  "related": [
+   {
+    "da": "en bold",
+    "en": "a ball"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "golf",
+    "en": "golf"
+   },
+   {
+    "da": "en bane",
+    "en": "a court"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiller **tennis** i parken.",
+   "en": "We play tennis in the park."
+  }
+ },
+ "ti": {
+  "forms": [
+   {
+    "da": "ti kroner",
+    "en": "ten kroner"
+   },
+   {
+    "da": "klokken ti",
+    "en": "ten o'clock"
+   },
+   {
+    "da": "ti minutter",
+    "en": "ten minutes"
+   }
+  ],
+  "explanation": "Means \"ten\". A short word, said like \"tee\". Do not mix it up with \"tid\" (time), which has a \"d\" at the end. It is used in counting and prices, like \"ti kroner\", and the ordinal is \"tiende\" (tenth).",
+  "related": [
+   {
+    "da": "ni",
+    "en": "nine"
+   },
+   {
+    "da": "elleve",
+    "en": "eleven"
+   },
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "tiende",
+    "en": "tenth"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg venter i **ti** minutter.",
+   "en": "I wait for ten minutes."
+  }
+ },
+ "tidlig": {
+  "forms": [
+   {
+    "da": "en tidlig morgen",
+    "en": "an early morning"
+   },
+   {
+    "da": "et tidligt tog",
+    "en": "an early train"
+   },
+   {
+    "da": "tidlige tog",
+    "en": "early trains"
+   }
+  ],
+  "explanation": "\"Tidlig\" means early. With et-words it gets a \"t\" (\"et tidligt tog\") and with more than one an \"e\" (\"tidlige tog\"). The small word \"tidligt\" with a \"t\" is also used alone, as in \"Jeg står tidligt op\" (I get up early). The opposite is \"sen\" (late).",
+  "related": [
+   {
+    "da": "sen",
+    "en": "late"
+   },
+   {
+    "da": "tidligere",
+    "en": "earlier"
+   },
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "i tide",
+    "en": "in time"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg står **tidligt** op hver dag.",
+   "en": "I get up early every day."
+  }
+ },
+ "tidligt": {
+  "forms": [
+   {
+    "da": "tidligt",
+    "en": "early"
+   },
+   {
+    "da": "meget tidligt",
+    "en": "very early"
+   },
+   {
+    "da": "stå tidligt op",
+    "en": "get up early"
+   }
+  ],
+  "explanation": "\"Tidligt\" means early, in the sense of at an early time: \"Jeg står tidligt op\" (I get up early). It is the form used when it describes how something happens. When it describes a thing, use \"tidlig\", as in \"en tidlig morgen\". The opposite is \"sent\" (late).",
+  "related": [
+   {
+    "da": "sent",
+    "en": "late"
+   },
+   {
+    "da": "tidlig",
+    "en": "early (with en-words)"
+   },
+   {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
+    "da": "i tide",
+    "en": "on time"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg står **tidligt** op hver dag.",
+   "en": "I get up early every day."
+  }
+ },
+ "tiende": {
+  "forms": [
+   {
+    "da": "den tiende dag",
+    "en": "the tenth day"
+   },
+   {
+    "da": "det tiende hus",
+    "en": "the tenth house"
+   },
+   {
+    "da": "tiende gang",
+    "en": "the tenth time"
+   }
+  ],
+  "explanation": "\"Tiende\" means tenth. It comes from \"ti\" (ten) and is used for the order of things and for dates: \"den tiende juni\" is the tenth of June. In writing you can use \"10.\" with a dot after the number.",
+  "related": [
+   {
+    "da": "ti",
+    "en": "ten"
+   },
+   {
+    "da": "niende",
+    "en": "ninth"
+   },
+   {
+    "da": "ellevte",
+    "en": "eleventh"
+   },
+   {
+    "da": "anden",
+    "en": "second"
+   }
+  ],
+  "sentence": {
+   "da": "Det er min **tiende** dag på arbejde.",
+   "en": "It is my tenth day at work."
+  }
+ },
+ "til": {
+  "forms": [
+   {
+    "da": "til Danmark",
+    "en": "to Denmark"
+   },
+   {
+    "da": "en gave til dig",
+    "en": "a gift for you"
+   },
+   {
+    "da": "til morgenmad",
+    "en": "for breakfast"
+   }
+  ],
+  "explanation": "\"Til\" means to, and it shows where you are going or who something is for. It also appears in set phrases: \"til jul\" (at Christmas), \"til morgenmad\" (for breakfast). It is the opposite of \"fra\" (from).",
+  "related": [
+   {
+    "da": "fra",
+    "en": "from"
+   },
+   {
+    "da": "hos",
+    "en": "at someone's place"
+   },
+   {
+    "da": "mod",
+    "en": "towards / against"
+   },
+   {
+    "da": "indtil",
+    "en": "until"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg rejser **til** Aarhus i morgen.",
+   "en": "I am travelling to Aarhus tomorrow."
+  }
+ },
+ "til højre": {
+  "forms": [
+   {
+    "da": "til højre",
+    "en": "to the right"
+   },
+   {
+    "da": "Drej til højre.",
+    "en": "Turn right."
+   },
+   {
+    "da": "Banken er til højre.",
+    "en": "The bank is on the right."
+   }
+  ],
+  "explanation": "\"Til højre\" means to the right, or on the right side. It is used when giving or asking for directions, usually with \"at dreje\" (to turn). The opposite is \"til venstre\". Remember \"Drej til højre\" as the standard way to say \"Turn right\".",
+  "related": [
+   {
+    "da": "til venstre",
+    "en": "to the left"
+   },
+   {
+    "da": "ligeud",
+    "en": "straight ahead"
+   },
+   {
+    "da": "at dreje",
+    "en": "to turn"
+   },
+   {
+    "da": "højre",
+    "en": "right (side)"
+   }
+  ],
+  "sentence": {
+   "da": "Gå ligeud og **drej til højre**.",
+   "en": "Go straight ahead and turn right."
+  }
+ },
+ "til venstre": {
+  "forms": [
+   {
+    "da": "til venstre",
+    "en": "to the left"
+   },
+   {
+    "da": "Drej til venstre.",
+    "en": "Turn left."
+   },
+   {
+    "da": "Posthuset er til venstre.",
+    "en": "The post office is on the left."
+   }
+  ],
+  "explanation": "\"Til venstre\" means to the left, or on the left side. You use it in directions together with \"at dreje\" (to turn). The opposite is \"til højre\". It is one of the first phrases to learn when finding your way around a new town.",
+  "related": [
+   {
+    "da": "til højre",
+    "en": "to the right"
+   },
+   {
+    "da": "ligeud",
+    "en": "straight ahead"
+   },
+   {
+    "da": "at dreje",
+    "en": "to turn"
+   },
+   {
+    "da": "venstre",
+    "en": "left (side)"
+   }
+  ],
+  "sentence": {
+   "da": "Toilettet er **til venstre**.",
+   "en": "The restroom is on the left."
+  }
+ },
+ "tilbage": {
+  "forms": [
+   {
+    "da": "Jeg kommer tilbage.",
+    "en": "I will come back."
+   },
+   {
+    "da": "Giv det tilbage!",
+    "en": "Give it back!"
+   },
+   {
+    "da": "Der er lidt tilbage.",
+    "en": "There is a little left."
+   }
+  ],
+  "explanation": "\"Tilbage\" means \"back\", as in going or giving back: \"Hun går tilbage\" (She goes back). It also means \"left over\": \"Der er to tilbage\" (There are two left). A handy phrase is \"Kom tilbage!\" (Come back!). Do not use it for the body part; that is \"ryg\".",
+  "related": [
+   {
+    "da": "frem",
+    "en": "forward"
+   },
+   {
+    "da": "hjem",
+    "en": "home (to)"
+   },
+   {
+    "da": "igen",
+    "en": "again"
+   },
+   {
+    "da": "tilbage til",
+    "en": "back to"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kommer snart **tilbage**.",
+   "en": "I will be back soon."
+  }
+ },
+ "tillykke": {
+  "forms": [
+   {
+    "da": "Tillykke!",
+    "en": "Congratulations!"
+   },
+   {
+    "da": "Tillykke med dagen.",
+    "en": "Congratulations on the day."
+   },
+   {
+    "da": "Tillykke med jobbet.",
+    "en": "Congratulations on the job."
+   }
+  ],
+  "explanation": "\"Tillykke\" means congratulations and is also used for birthdays. Add \"med\" and the thing you are celebrating: \"tillykke med bilen\". Danes say it a lot, for exams, new babies, weddings and birthdays alike. For a birthday you can say \"tillykke med fødselsdagen\".",
+  "related": [
+   {
+    "da": "tillykke med fødselsdagen",
+    "en": "happy birthday"
+   },
+   {
+    "da": "held og lykke",
+    "en": "good luck"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
+   }
+  ],
+  "sentence": {
+   "da": "**Tillykke** med din nye lejlighed!",
+   "en": "Congratulations on your new flat!"
+  }
+ },
+ "tillykke med fødselsdagen": {
+  "forms": [
+   {
+    "da": "Tillykke med fødselsdagen!",
+    "en": "Happy birthday!"
+   },
+   {
+    "da": "Tillykke med dagen!",
+    "en": "Congratulations on the day!"
+   },
+   {
+    "da": "Hurra!",
+    "en": "Hooray!"
+   }
+  ],
+  "explanation": "\"Tillykke med fødselsdagen\" is what you say on someone's birthday, literally \"congratulations with the birthday\". Danes also shorten it to \"tillykke med dagen\". A birthday song \"I dag er det Peters fødselsdag\" is often sung. \"En fødselsdag\" is an en-word, so \"the\" goes on the end.",
+  "related": [
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
+   },
+   {
+    "da": "en gave",
+    "en": "a present"
+   }
+  ],
+  "sentence": {
+   "da": "**Tillykke med fødselsdagen**, Anna!",
+   "en": "Happy birthday, Anna!"
+  }
+ },
+ "tirsdag": {
+  "forms": [
+   {
+    "da": "en tirsdag",
+    "en": "a Tuesday"
+   },
+   {
+    "da": "tirsdagen",
+    "en": "the Tuesday"
+   },
+   {
+    "da": "tirsdage",
+    "en": "Tuesdays"
+   },
+   {
+    "da": "tirsdagene",
+    "en": "the Tuesdays"
+   }
+  ],
+  "explanation": "\"Tirsdag\" is Tuesday. Day names are written with a small letter in Danish, and you say \"på tirsdag\" for the coming Tuesday. To say you do something every Tuesday, use \"om tirsdagen\" or \"hver tirsdag\". The name comes from the old god Tyr, just like the English word.",
+  "related": [
+   {
+    "da": "en mandag",
+    "en": "Monday"
+   },
+   {
+    "da": "en onsdag",
+    "en": "Wednesday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ses **tirsdag**.",
+   "en": "See you on Tuesday."
+  }
+ },
+ "to": {
+  "forms": [
+   {
+    "da": "to børn",
+    "en": "two children"
+   },
+   {
+    "da": "to kaffe",
+    "en": "two coffees"
+   },
+   {
+    "da": "to gange",
+    "en": "twice"
+   }
+  ],
+  "explanation": "Means \"two\". It is the same word before en-words and et-words, so \"to biler\" and \"to huse\" both work. In Danish, 22 is \"toogtyve\", with the ones first. Also common in \"to gange\" (twice) and \"begge to\" (both of them).",
+  "related": [
+   {
+    "da": "en",
+    "en": "one"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "en toer",
+    "en": "a number two"
+   },
+   {
+    "da": "begge to",
+    "en": "both"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **to** børn.",
+   "en": "I have two children."
+  }
+ },
+ "to gange": {
+  "forms": [
+   {
+    "da": "to gange",
+    "en": "twice"
+   },
+   {
+    "da": "to gange om dagen",
+    "en": "twice a day"
+   },
+   {
+    "da": "tre gange",
+    "en": "three times"
+   }
+  ],
+  "explanation": "\"To gange\" means twice, or two times. \"Gang\" is a time or occasion, and \"gange\" is more than one of them. Put a number in front to say how often: \"tre gange\" is three times. Use \"en gang\" for once.",
+  "related": [
+   {
+    "da": "en gang",
+    "en": "once"
+   },
+   {
+    "da": "tre gange",
+    "en": "three times"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har været i Paris **to gange**.",
+   "en": "I have been to Paris twice."
+  }
+ },
+ "tolv": {
+  "forms": [
+   {
+    "da": "tolv æg",
+    "en": "twelve eggs"
+   },
+   {
+    "da": "klokken tolv",
+    "en": "twelve o'clock"
+   },
+   {
+    "da": "tolv måneder",
+    "en": "twelve months"
+   }
+  ],
+  "explanation": "Means \"twelve\". It is one of the numbers that does not follow a pattern, like \"elleve\" (eleven). You hear it for midday: \"klokken tolv\" (twelve o'clock). A dozen is \"et dusin\", and the ordinal is \"tolvte\" (twelfth).",
+  "related": [
+   {
+    "da": "elleve",
+    "en": "eleven"
+   },
+   {
+    "da": "tretten",
+    "en": "thirteen"
+   },
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "en dusin",
+    "en": "a dozen"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser frokost klokken **tolv**.",
+   "en": "We eat lunch at twelve o'clock."
+  }
+ },
+ "tom": {
+  "forms": [
+   {
+    "da": "en tom flaske",
+    "en": "an empty bottle"
+   },
+   {
+    "da": "et tomt glas",
+    "en": "an empty glass"
+   },
+   {
+    "da": "tomme flasker",
+    "en": "empty bottles"
+   }
+  ],
+  "explanation": "\"Tom\" means empty, for a bottle, a room, a street or a plate. Add \"t\" for et-words (\"et tomt glas\") and \"-me\" for more than one: \"tomme\" with a double \"m\". The opposite is \"fuld\" (full). Be careful: \"fuld\" can also mean drunk when it describes a person.",
+  "related": [
+   {
+    "da": "fuld",
+    "en": "full"
+   },
+   {
+    "da": "at tømme",
+    "en": "to empty"
+   },
+   {
+    "da": "en flaske",
+    "en": "a bottle"
+   },
+   {
+    "da": "ledig",
+    "en": "vacant"
+   }
+  ],
+  "sentence": {
+   "da": "Køleskabet er helt **tomt**.",
+   "en": "The fridge is completely empty."
+  }
+ },
+ "torsdag": {
+  "forms": [
+   {
+    "da": "en torsdag",
+    "en": "a Thursday"
+   },
+   {
+    "da": "torsdagen",
+    "en": "the Thursday"
+   },
+   {
+    "da": "torsdage",
+    "en": "Thursdays"
+   },
+   {
+    "da": "torsdagene",
+    "en": "the Thursdays"
+   }
+  ],
+  "explanation": "\"Torsdag\" is Thursday, named after the god Thor, like the English name. Day names start with a small letter in Danish. Say \"på torsdag\" for the coming Thursday and \"om torsdagen\" for every Thursday. Do not mix it up with \"tirsdag\" (Tuesday), which looks and sounds quite similar.",
+  "related": [
+   {
+    "da": "en onsdag",
+    "en": "Wednesday"
+   },
+   {
+    "da": "en fredag",
+    "en": "Friday"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har tandlæge **torsdag**.",
+   "en": "She has the dentist on Thursday."
+  }
+ },
+ "travl": {
+  "forms": [
+   {
+    "da": "en travl dag",
+    "en": "a busy day"
+   },
+   {
+    "da": "et travlt job",
+    "en": "a busy job"
+   },
+   {
+    "da": "travle dage",
+    "en": "busy days"
+   }
+  ],
+  "explanation": "\"Travl\" means busy, for a person or for a day, a street or a shop. With et-words it gets a \"t\" (\"et travlt job\") and with more than one an \"e\" (\"travle dage\"). A common phrase is \"Jeg har det travlt\" (I am in a hurry or busy).",
+  "related": [
+   {
+    "da": "optaget",
+    "en": "busy / taken"
+   },
+   {
+    "da": "stille",
+    "en": "quiet"
+   },
+   {
+    "da": "tid",
+    "en": "time"
+   },
+   {
+    "da": "et job",
+    "en": "a job"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **travl** uge.",
+   "en": "I have a busy week."
+  }
+ },
+ "tre": {
+  "forms": [
+   {
+    "da": "tre æbler",
+    "en": "three apples"
+   },
+   {
+    "da": "tre gange",
+    "en": "three times"
+   },
+   {
+    "da": "klokken tre",
+    "en": "three o'clock"
+   }
+  ],
+  "explanation": "Means \"three\". It is a short word and stays the same before en-words and et-words. Careful with the Danish \"r\", which is softer and further back in the throat than in English. The ordinal is \"tredje\" (third), and 13 is \"tretten\".",
+  "related": [
+   {
+    "da": "to",
+    "en": "two"
+   },
+   {
+    "da": "fire",
+    "en": "four"
+   },
+   {
+    "da": "tredive",
+    "en": "thirty"
+   },
+   {
+    "da": "tredje",
+    "en": "third"
+   }
+  ],
+  "sentence": {
+   "da": "Vi er **tre** i familien.",
+   "en": "There are three of us in the family."
+  }
+ },
+ "tredive": {
+  "forms": [
+   {
+    "da": "tredive kroner",
+    "en": "thirty kroner"
+   },
+   {
+    "da": "tredive minutter",
+    "en": "thirty minutes"
+   },
+   {
+    "da": "enogtredive",
+    "en": "thirty-one"
+   }
+  ],
+  "explanation": "Means \"thirty\". It is built from \"tre\" (three) plus an ending for tens. The \"d\" in the middle is almost silent when spoken. Numbers after it put the ones first, like \"enogtredive\" (thirty-one).",
+  "related": [
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "fyrre",
+    "en": "forty"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "enogtredive",
+    "en": "thirty-one"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **tredive** år gammel.",
+   "en": "I am thirty years old."
+  }
+ },
+ "tredje": {
+  "forms": [
+   {
+    "da": "tredje",
+    "en": "third"
+   },
+   {
+    "da": "den tredje dag",
+    "en": "the third day"
+   },
+   {
+    "da": "det tredje barn",
+    "en": "the third child"
+   }
+  ],
+  "explanation": "\"Tredje\" means third. It is the same for en-words and et-words, like most of the higher ordinals. It is made from \"tre\" but spelled differently, so learn it as its own word. You can use it for dates too: \"den tredje oktober\" is the third of October.",
+  "related": [
+   {
+    "da": "anden",
+    "en": "second"
+   },
+   {
+    "da": "fjerde",
+    "en": "fourth"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor på **tredje** sal.",
+   "en": "I live on the third floor."
+  }
+ },
+ "tres": {
+  "forms": [
+   {
+    "da": "tres kroner",
+    "en": "sixty kroner"
+   },
+   {
+    "da": "tres år",
+    "en": "sixty years"
+   },
+   {
+    "da": "enogtres",
+    "en": "sixty-one"
+   }
+  ],
+  "explanation": "Means \"sixty\". It is short for a longer older word (\"tresindstyve\", three times twenty). Today we just say \"tres\". It is one of the numbers that follows the twenties system, so say it as one fixed word.",
+  "related": [
+   {
+    "da": "halvtreds",
+    "en": "fifty"
+   },
+   {
+    "da": "halvfjerds",
+    "en": "seventy"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "enogtres",
+    "en": "sixty-one"
+   }
+  ],
+  "sentence": {
+   "da": "Min far er **tres** år.",
+   "en": "My father is sixty years old."
+  }
+ },
+ "tretten": {
+  "forms": [
+   {
+    "da": "tretten år",
+    "en": "thirteen years"
+   },
+   {
+    "da": "tretten børn",
+    "en": "thirteen children"
+   },
+   {
+    "da": "klokken tretten",
+    "en": "13:00"
+   }
+  ],
+  "explanation": "Means \"thirteen\". It is built from \"tre\" (three) and \"-ten\", which stands for ten. The teens from 13 to 19 all end in \"-ten\" (or \"-ten\" like \"tretten\", \"fjorten\"). Notice the spelling: two t's in the middle.",
+  "related": [
+   {
+    "da": "tolv",
+    "en": "twelve"
+   },
+   {
+    "da": "fjorten",
+    "en": "fourteen"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "tredive",
+    "en": "thirty"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn er **tretten** år.",
+   "en": "My son is thirteen years old."
+  }
+ },
+ "trist": {
+  "forms": [
+   {
+    "da": "en trist film",
+    "en": "a sad film"
+   },
+   {
+    "da": "et trist ansigt",
+    "en": "a sad face"
+   },
+   {
+    "da": "triste dage",
+    "en": "sad days"
+   }
+  ],
+  "explanation": "\"Trist\" means sad. It can describe a person who feels sad (\"Jeg er trist\") and also a thing that is sad or dull, such as a film or weather. It is a little stronger than \"ked af det\", which is the way to say \"upset\" or \"sorry\". Add a \"-e\" when describing more than one: \"triste børn\".",
+  "related": [
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "ked af det",
+    "en": "upset, sad"
+   },
+   {
+    "da": "ensom",
+    "en": "lonely"
+   },
+   {
+    "da": "at græde",
+    "en": "to cry"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **trist** i dag.",
+   "en": "She is sad today."
+  }
+ },
+ "trusser": {
+  "forms": [
+   {
+    "da": "trusser",
+    "en": "panties / briefs"
+   },
+   {
+    "da": "mine trusser",
+    "en": "my panties"
+   },
+   {
+    "da": "et par trusser",
+    "en": "a pair of panties"
+   }
+  ],
+  "explanation": "\"Trusser\" means panties or briefs, women's underwear. It is always used in the plural, and \"et par trusser\" means a pair. It is the same idea as the English word, and it is part of \"undertøj\" (underwear). For men, the word is usually \"underbukser\".",
+  "related": [
+   {
+    "da": "undertøj",
+    "en": "underwear"
+   },
+   {
+    "da": "underbukser",
+    "en": "men's underwear"
+   },
+   {
+    "da": "en strømpe",
+    "en": "a sock / stocking"
+   },
+   {
+    "da": "et par",
+    "en": "a pair"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt tre par **trusser**.",
+   "en": "I have bought three pairs of panties."
+  }
+ },
+ "træt": {
+  "forms": [
+   {
+    "da": "en træt mand",
+    "en": "a tired man"
+   },
+   {
+    "da": "et træt barn",
+    "en": "a tired child"
+   },
+   {
+    "da": "trætte børn",
+    "en": "tired children"
+   }
+  ],
+  "explanation": "\"Træt\" means tired. You can use it about being sleepy or worn out: \"Jeg er træt\" (I am tired). The same word also means fed up in \"træt af det\" (tired of it). \"Træt\" already ends in \"t\", so it stays the same for en-words and et-words, and you add \"-te\" for more than one (\"trætte\" with a double \"t\"). The opposite is \"frisk\" (fresh, full of energy).",
+  "related": [
+   {
+    "da": "vågen",
+    "en": "awake"
+   },
+   {
+    "da": "frisk",
+    "en": "fresh"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "udmattet",
+    "en": "exhausted"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er meget **træt** i dag.",
+   "en": "I am very tired today."
+  }
+ },
+ "tung": {
+  "forms": [
+   {
+    "da": "en tung taske",
+    "en": "a heavy bag"
+   },
+   {
+    "da": "et tungt skridt",
+    "en": "a heavy step"
+   },
+   {
+    "da": "tunge tasker",
+    "en": "heavy bags"
+   }
+  ],
+  "explanation": "\"Tung\" means heavy, for things with a lot of weight like a bag, a box or a bag of shopping. It can also describe food that feels heavy in the stomach (\"tung mad\") and moods or music in a figurative way. Add \"t\" for et-words (\"et tungt læs\"), and \"-e\" for more than one. The opposite is \"let\" (light).",
+  "related": [
+   {
+    "da": "let",
+    "en": "light"
+   },
+   {
+    "da": "en taske",
+    "en": "a bag"
+   },
+   {
+    "da": "at løfte",
+    "en": "to lift"
+   },
+   {
+    "da": "tungere",
+    "en": "heavier"
+   }
+  ],
+  "sentence": {
+   "da": "Min kuffert er meget **tung**.",
+   "en": "My suitcase is very heavy."
+  }
+ },
+ "turkis": {
+  "forms": [
+   {
+    "da": "en turkis bil",
+    "en": "a turquoise car"
+   },
+   {
+    "da": "et turkis hus",
+    "en": "a turquoise house"
+   },
+   {
+    "da": "turkis biler",
+    "en": "turquoise cars"
+   }
+  ],
+  "explanation": "\"Turkis\" is the color turquoise, a blue-green. The word does not change: it looks the same with en-words, et-words and in the plural. It is also the name of the gemstone, and it is spelled with a k, not a q as in English.",
+  "related": [
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
+   },
+   {
+    "da": "en farve",
+    "en": "a color"
+   },
+   {
+    "da": "lyseblå",
+    "en": "light blue"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes kjole er **turkis**.",
+   "en": "Her dress is turquoise."
+  }
+ },
+ "tusind": {
+  "forms": [
+   {
+    "da": "tusind",
+    "en": "thousand"
+   },
+   {
+    "da": "to tusind",
+    "en": "two thousand"
+   },
+   {
+    "da": "tusind kroner",
+    "en": "a thousand kroner"
+   }
+  ],
+  "explanation": "\"Tusind\" means one thousand. Like \"hundrede\", it does not change after another number: \"to tusind\", \"fem tusind\". Years are said in a special way, so 1999 is \"nitten hundrede og nioghalvfems\", but \"tusind\" is used for amounts, prices and distances.",
+  "related": [
+   {
+    "da": "hundrede",
+    "en": "hundred"
+   },
+   {
+    "da": "en million",
+    "en": "a million"
+   },
+   {
+    "da": "en kilometer",
+    "en": "a kilometer"
+   },
+   {
+    "da": "en krone",
+    "en": "a krone"
+   }
+  ],
+  "sentence": {
+   "da": "Cyklen koster fem **tusind** kroner.",
+   "en": "The bike costs five thousand kroner."
+  }
+ },
+ "tusind tak": {
+  "forms": [
+   {
+    "da": "Tusind tak!",
+    "en": "Thanks a lot!"
+   },
+   {
+    "da": "Tusind tak for din hjælp.",
+    "en": "Thanks a lot for your help."
+   },
+   {
+    "da": "Tusind tak, det var pænt af dig.",
+    "en": "Thanks a lot, that was kind of you."
+   }
+  ],
+  "explanation": "\"Tusind tak\" literally means \"a thousand thanks\" and is a warm way to say \"thanks a lot\". It is a little stronger than \"mange tak\". Use it when someone has really helped you. The reply is \"selv tak\" or \"ingen årsag\".",
+  "related": [
+   {
+    "da": "mange tak",
+    "en": "thank you very much"
+   },
+   {
+    "da": "tak",
+    "en": "thanks"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   }
+  ],
+  "sentence": {
+   "da": "**Tusind tak** for i aften!",
+   "en": "Thanks a lot for tonight!"
+  }
+ },
+ "tyk": {
+  "forms": [
+   {
+    "da": "en tyk bog",
+    "en": "a thick book"
+   },
+   {
+    "da": "et tykt lag",
+    "en": "a thick layer"
+   },
+   {
+    "da": "tykke bøger",
+    "en": "thick books"
+   }
+  ],
+  "explanation": "\"Tyk\" means thick, such as a thick book or a thick coat. It can also mean fat when talking about a person, but that can sound rude, so use it carefully. With an et-word it takes \"-t\" (tykt), and with many things \"-e\" (tykke). The opposite is \"tynd\" (thin).",
+  "related": [
+   {
+    "da": "tynd",
+    "en": "thin"
+   },
+   {
+    "da": "bred",
+    "en": "wide"
+   },
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "en bog",
+    "en": "a book"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en meget **tyk** bog.",
+   "en": "It is a very thick book."
+  }
+ },
+ "tynd": {
+  "forms": [
+   {
+    "da": "en tynd bog",
+    "en": "a thin book"
+   },
+   {
+    "da": "et tyndt lag",
+    "en": "a thin layer"
+   },
+   {
+    "da": "tynde bøger",
+    "en": "thin books"
+   }
+  ],
+  "explanation": "\"Tynd\" means thin, for things like a book, a layer, a slice or a piece of cloth. It is also used for liquids that are watery, such as \"tynd suppe\" (thin soup). It does not usually describe a person: for someone slim Danes say \"slank\" or \"tynd\" depending on the tone, and \"tynd\" can sound a bit negative. The opposite is \"tyk\".",
+  "related": [
+   {
+    "da": "tyk",
+    "en": "thick"
+   },
+   {
+    "da": "slank",
+    "en": "slim"
+   },
+   {
+    "da": "smal",
+    "en": "narrow"
+   },
+   {
+    "da": "en skive",
+    "en": "a slice"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **tynd** skive brød.",
+   "en": "I would like a thin slice of bread."
+  }
+ },
+ "tyrkiet": {
+  "forms": [
+   {
+    "da": "Tyrkiet",
+    "en": "Turkey"
+   },
+   {
+    "da": "i Tyrkiet",
+    "en": "in Turkey"
+   },
+   {
+    "da": "til Tyrkiet",
+    "en": "to Turkey"
+   }
+  ],
+  "explanation": "\"Tyrkiet\" is Turkey. Place names like this are written with a capital letter and used without \"the\": \"i Tyrkiet\" means \"in Turkey\" and \"til Tyrkiet\" means \"to Turkey\". A person is \"en tyrker\" and the language is \"tyrkisk\". Take care with the spelling: \"Tyrkiet\" is not the same as \"tyrker\".",
+  "related": [
+   {
+    "da": "en tyrker",
+    "en": "a Turk"
+   },
+   {
+    "da": "tyrkisk",
+    "en": "Turkish"
+   },
+   {
+    "da": "Grækenland",
+    "en": "Greece"
+   },
+   {
+    "da": "Europa",
+    "en": "Europe"
+   }
+  ],
+  "sentence": {
+   "da": "Vi holder ferie i **Tyrkiet**.",
+   "en": "We are on holiday in Turkey."
+  }
+ },
+ "tyrkisk": {
+  "forms": [
+   {
+    "da": "en tyrkisk restaurant",
+    "en": "a Turkish restaurant"
+   },
+   {
+    "da": "et tyrkisk bad",
+    "en": "a Turkish bath"
+   },
+   {
+    "da": "tyrkiske kager",
+    "en": "Turkish cakes"
+   }
+  ],
+  "explanation": "\"Tyrkisk\" means Turkish, for people and things from Turkey and for the language. It is written with a small letter, and it stays the same before an et-word because it ends in -sk. Turkish food is very popular in Denmark, so you will hear this word often.",
+  "related": [
+   {
+    "da": "Tyrkiet",
+    "en": "Turkey"
+   },
+   {
+    "da": "en tyrker",
+    "en": "a Turk"
+   },
+   {
+    "da": "græsk",
+    "en": "Greek"
+   },
+   {
+    "da": "arabisk",
+    "en": "Arabic"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser på en **tyrkisk** restaurant i aften.",
+   "en": "We are eating at a Turkish restaurant tonight."
+  }
+ },
+ "tysk": {
+  "forms": [
+   {
+    "da": "en tysk bil",
+    "en": "a German car"
+   },
+   {
+    "da": "et tysk hus",
+    "en": "a German house"
+   },
+   {
+    "da": "tyske biler",
+    "en": "German cars"
+   }
+  ],
+  "explanation": "\"Tysk\" means German, for things from Germany and for the language. It has no capital letter in Danish. It stays \"tysk\" before an et-word and becomes \"tyske\" for more than one thing. \"At tale tysk\" means to speak German. The person is \"en tysker\" and the country is \"Tyskland\".",
+  "related": [
+   {
+    "da": "Tyskland",
+    "en": "Germany"
+   },
+   {
+    "da": "en tysker",
+    "en": "a German"
+   },
+   {
+    "da": "fransk",
+    "en": "French"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   }
+  ],
+  "sentence": {
+   "da": "Min lærer taler **tysk**.",
+   "en": "My teacher speaks German."
+  }
+ },
+ "tyskland": {
+  "forms": [
+   {
+    "da": "Tyskland",
+    "en": "Germany"
+   },
+   {
+    "da": "i Tyskland",
+    "en": "in Germany"
+   },
+   {
+    "da": "til Tyskland",
+    "en": "to Germany"
+   }
+  ],
+  "explanation": "\"Tyskland\" is Germany. Place names like this are written with a capital letter and used without \"the\": \"i Tyskland\" means \"in Germany\" and \"til Tyskland\" means \"to Germany\". It is Denmark's only land neighbour, to the south. A person is \"en tysker\" and the language is \"tysk\".",
+  "related": [
+   {
+    "da": "en tysker",
+    "en": "a German"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   },
+   {
+    "da": "Frankrig",
+    "en": "France"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i **Tyskland**.",
+   "en": "We live in Germany."
+  }
+ },
+ "tyve": {
+  "forms": [
+   {
+    "da": "tyve kroner",
+    "en": "twenty kroner"
+   },
+   {
+    "da": "tyve år",
+    "en": "twenty years"
+   },
+   {
+    "da": "enogtyve",
+    "en": "twenty-one"
+   }
+  ],
+  "explanation": "Means \"twenty\". It is an important number because Danish counts 50, 60, 70, 80 and 90 using twenties. For numbers like 21, Danish says the ones first: \"enogtyve\", literally one-and-twenty. The \"v\" is soft.",
+  "related": [
+   {
+    "da": "nitten",
+    "en": "nineteen"
+   },
+   {
+    "da": "enogtyve",
+    "en": "twenty-one"
+   },
+   {
+    "da": "tredive",
+    "en": "thirty"
+   },
+   {
+    "da": "ti",
+    "en": "ten"
+   }
+  ],
+  "sentence": {
+   "da": "Det koster **tyve** kroner.",
+   "en": "It costs twenty kroner."
+  }
+ },
+ "tåge": {
+  "forms": [
+   {
+    "da": "en tåge",
+    "en": "a fog"
+   },
+   {
+    "da": "tågen",
+    "en": "the fog"
+   },
+   {
+    "da": "tåger",
+    "en": "fogs"
+   },
+   {
+    "da": "Der er tåge.",
+    "en": "There is fog."
+   }
+  ],
+  "explanation": "\"Tåge\" means fog, the low cloud that makes it hard to see. It is an en-word, so \"the fog\" is \"tågen\". You usually say \"der er tåge\" (there is fog) when talking about the weather. Fog is common in Denmark in autumn and on the coast.",
+  "related": [
+   {
+    "da": "tæt tåge",
+    "en": "thick fog"
+   },
+   {
+    "da": "en sky",
+    "en": "a cloud"
+   },
+   {
+    "da": "et vejr",
+    "en": "weather"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
+   }
+  ],
+  "sentence": {
+   "da": "I morges var der tæt **tåge**.",
+   "en": "This morning there was thick fog."
+  }
+ },
+ "tæt på": {
+  "forms": [
+   {
+    "da": "tæt på",
+    "en": "close to"
+   },
+   {
+    "da": "tæt på stranden",
+    "en": "close to the beach"
+   },
+   {
+    "da": "Det er tæt på.",
+    "en": "It is close by."
+   }
+  ],
+  "explanation": "\"Tæt på\" means close to, and what it is close to comes after it: \"tæt på stationen\". It can also be used alone to mean \"close by\". The opposite is \"langt fra\" (far from). It is a very common way to describe where a hotel or shop is.",
+  "related": [
+   {
+    "da": "langt fra",
+    "en": "far from"
+   },
+   {
+    "da": "i nærheden",
+    "en": "nearby"
+   },
+   {
+    "da": "lige ved",
+    "en": "right next to"
+   },
+   {
+    "da": "langt væk",
+    "en": "far away"
+   }
+  ],
+  "sentence": {
+   "da": "Hotellet ligger **tæt på** stranden.",
+   "en": "The hotel is close to the beach."
+  }
+ },
+ "tøj": {
+  "forms": [
+   {
+    "da": "tøj",
+    "en": "clothes"
+   },
+   {
+    "da": "tøjet",
+    "en": "the clothes"
+   },
+   {
+    "da": "rent tøj",
+    "en": "clean clothes"
+   }
+  ],
+  "explanation": "\"Tøj\" means clothes in general, like a group of things you wear. It has no plural and no \"et\" in front: you say \"mit tøj\" (my clothes) or \"noget tøj\" (some clothes). A single item is called by its own name, such as \"en trøje\" (a sweater). It is an et-word, so \"the clothes\" is \"tøjet\".",
+  "related": [
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   },
+   {
+    "da": "bukser",
+    "en": "trousers"
+   },
+   {
+    "da": "at tage tøj på",
+    "en": "to put clothes on"
+   },
+   {
+    "da": "vasketøj",
+    "en": "laundry"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **tøj** er i skabet.",
+   "en": "My clothes are in the cupboard."
+  }
+ },
+ "tør": {
+  "forms": [
+   {
+    "da": "en tør hånd",
+    "en": "a dry hand"
+   },
+   {
+    "da": "et tørt klæde",
+    "en": "a dry cloth"
+   },
+   {
+    "da": "tørre hænder",
+    "en": "dry hands"
+   }
+  ],
+  "explanation": "\"Tør\" means dry, for clothes, weather, skin, bread or a dry joke. Add \"t\" for et-words (\"et tørt klæde\") and \"-re\" for more than one: \"tørre\" with a double \"r\". The verb is \"at tørre\" (to dry), as in \"at tørre hænder\". Do not mix it up with \"tør\" in \"jeg tør ikke\", which means \"I dare not\"; it is a different word that happens to look the same.",
+  "related": [
+   {
+    "da": "våd",
+    "en": "wet"
+   },
+   {
+    "da": "at tørre",
+    "en": "to dry"
+   },
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   },
+   {
+    "da": "tørstig",
+    "en": "thirsty"
+   }
+  ],
+  "sentence": {
+   "da": "Min jakke er allerede **tør**.",
+   "en": "My jacket is already dry."
+  }
+ },
+ "tørstig": {
+  "forms": [
+   {
+    "da": "en tørstig mand",
+    "en": "a thirsty man"
+   },
+   {
+    "da": "et tørstigt barn",
+    "en": "a thirsty child"
+   },
+   {
+    "da": "tørstige børn",
+    "en": "thirsty children"
+   }
+  ],
+  "explanation": "\"Tørstig\" means thirsty. You say \"Jeg er tørstig\" (I am thirsty). A related word is \"tørst\", the thirst itself, as in \"Jeg har tørst\". Add \"t\" for et-words (\"et tørstigt barn\") and \"-e\" for more than one. A friendly offer is \"Er du tørstig? Vil du have lidt vand?\" (Are you thirsty? Would you like some water?).",
+  "related": [
+   {
+    "da": "sulten",
+    "en": "hungry"
+   },
+   {
+    "da": "tørst",
+    "en": "thirst"
+   },
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er meget **tørstig**.",
+   "en": "I am very thirsty."
   }
  }
 }

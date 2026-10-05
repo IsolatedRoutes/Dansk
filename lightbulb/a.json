@@ -1,4 +1,1190 @@
 {
+ "af og til": {
+  "forms": [
+   {
+    "da": "af og til",
+    "en": "now and then"
+   },
+   {
+    "da": "kun af og til",
+    "en": "only now and then"
+   },
+   {
+    "da": "jeg går i biografen af og til",
+    "en": "I go to the cinema now and then"
+   }
+  ],
+  "explanation": "\"Af og til\" means now and then, or from time to time. It is a set phrase of three words and means about the same as \"nogle gange\" (sometimes). It is not as often as \"ofte\", but more often than \"sjældent\" (rarely). It is good in everyday talk: \"Jeg cykler af og til\".",
+  "related": [
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ser min familie **af og til**.",
+   "en": "I see my family now and then."
+  }
+ },
+ "aflyst": {
+  "forms": [
+   {
+    "da": "en aflyst bus",
+    "en": "a cancelled bus"
+   },
+   {
+    "da": "et aflyst tog",
+    "en": "a cancelled train"
+   },
+   {
+    "da": "aflyste afgange",
+    "en": "cancelled departures"
+   }
+  ],
+  "explanation": "\"Aflyst\" means cancelled, for example a train, a flight or an event that will not take place. You will see it on departure boards at stations and airports. It adds \"-e\" when you talk about more than one thing: \"aflyste tog\". It is a bit different from \"forsinket\", which only means delayed.",
+  "related": [
+   {
+    "da": "forsinket",
+    "en": "delayed"
+   },
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   }
+  ],
+  "sentence": {
+   "da": "Mit fly er **aflyst**.",
+   "en": "My flight is cancelled."
+  }
+ },
+ "afrika": {
+  "forms": [
+   {
+    "da": "Afrika",
+    "en": "Africa"
+   },
+   {
+    "da": "i Afrika",
+    "en": "in Africa"
+   },
+   {
+    "da": "til Afrika",
+    "en": "to Africa"
+   }
+  ],
+  "explanation": "\"Afrika\" is the Danish name for Africa, and it is written with a capital letter. You say \"i Afrika\" for being there and \"til Afrika\" for going there. A person from Africa is \"en afrikaner\", and the describing word is \"afrikansk\". It is one of the seven continents, \"verdensdele\".",
+  "related": [
+   {
+    "da": "Asien",
+    "en": "Asia"
+   },
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en afrikaner",
+    "en": "an African person"
+   },
+   {
+    "da": "afrikansk",
+    "en": "African"
+   }
+  ],
+  "sentence": {
+   "da": "Han rejser til **Afrika** i næste måned.",
+   "en": "He is travelling to Africa next month."
+  }
+ },
+ "afsted": {
+  "forms": [
+   {
+    "da": "jeg skal afsted",
+    "en": "I have to go (off)"
+   },
+   {
+    "da": "han er afsted",
+    "en": "he is away"
+   },
+   {
+    "da": "afsted med dig!",
+    "en": "off you go!"
+   }
+  ],
+  "explanation": "\"Afsted\" means off or away, and it is used about leaving for somewhere: \"Vi skal afsted\" means \"We have to get going\". You will also see it written as two words, \"af sted\". It often goes with \"at tage\" (to take) or \"at komme\" (to come).",
+  "related": [
+   {
+    "da": "væk",
+    "en": "away / gone"
+   },
+   {
+    "da": "at tage",
+    "en": "to take / to go"
+   },
+   {
+    "da": "hjem",
+    "en": "home (movement)"
+   },
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **afsted** nu.",
+   "en": "We have to go now."
+  }
+ },
+ "aftensmad": {
+  "forms": [
+   {
+    "da": "aftensmad",
+    "en": "dinner"
+   },
+   {
+    "da": "aftensmaden",
+    "en": "the dinner"
+   },
+   {
+    "da": "til aftensmad",
+    "en": "for dinner"
+   }
+  ],
+  "explanation": "\"Aftensmad\" is dinner, the main meal of the day, eaten in the evening. It is built from \"aften\" (evening) and \"mad\" (food). Danes often eat it early, around six o'clock. A common phrase is \"Hvad skal vi have til aftensmad?\".",
+  "related": [
+   {
+    "da": "morgenmad",
+    "en": "breakfast"
+   },
+   {
+    "da": "frokost",
+    "en": "lunch"
+   },
+   {
+    "da": "en aften",
+    "en": "an evening"
+   },
+   {
+    "da": "at lave mad",
+    "en": "to cook"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad skal vi have til **aftensmad**?",
+   "en": "What are we having for dinner?"
+  }
+ },
+ "aldrig": {
+  "forms": [
+   {
+    "da": "aldrig",
+    "en": "never"
+   },
+   {
+    "da": "aldrig mere",
+    "en": "never again"
+   },
+   {
+    "da": "jeg har aldrig prøvet det",
+    "en": "I have never tried it"
+   }
+  ],
+  "explanation": "\"Aldrig\" means never. In a main sentence it goes right after the verb: \"Jeg drikker aldrig kaffe\" (I never drink coffee). You do not need another \"not\" word, because \"aldrig\" already makes the sentence negative. The opposite is \"altid\" (always).",
+  "related": [
+   {
+    "da": "altid",
+    "en": "always"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "aldrig mere",
+    "en": "never again"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **aldrig** kød.",
+   "en": "I never eat meat."
+  }
+ },
+ "alene": {
+  "forms": [
+   {
+    "da": "Jeg er alene.",
+    "en": "I am alone."
+   },
+   {
+    "da": "Hun bor alene.",
+    "en": "She lives alone."
+   },
+   {
+    "da": "alene hjemme",
+    "en": "home alone"
+   }
+  ],
+  "explanation": "\"Alene\" means alone or on your own. It stays the same no matter who is alone, so it never changes its ending. It describes being without other people, not necessarily lonely, and for the feeling of being lonely Danes say \"ensom\". \"Helt alene\" means all alone.",
+  "related": [
+   {
+    "da": "ensom",
+    "en": "lonely"
+   },
+   {
+    "da": "sammen",
+    "en": "together"
+   },
+   {
+    "da": "selv",
+    "en": "oneself"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor **alene** i en lille lejlighed.",
+   "en": "I live alone in a small apartment."
+  }
+ },
+ "alkohol": {
+  "forms": [
+   {
+    "da": "en alkohol",
+    "en": "an alcohol"
+   },
+   {
+    "da": "alkoholen",
+    "en": "the alcohol"
+   }
+  ],
+  "explanation": "\"Alkohol\" is alcohol, and it is an en-word. It is the same idea as in English and is not counted. You will often see \"alkoholfri\" (alcohol-free) on drink menus, and \"med alkohol\" means with alcohol. Danes also say \"en øl\" for a beer and \"en vin\" for a wine.",
+  "related": [
+   {
+    "da": "alkoholfri",
+    "en": "alcohol-free"
+   },
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "en vin",
+    "en": "a wine"
+   },
+   {
+    "da": "en drink",
+    "en": "a drink"
+   }
+  ],
+  "sentence": {
+   "da": "Er der **alkohol** i den drik?",
+   "en": "Is there alcohol in that drink?"
+  }
+ },
+ "alle": {
+  "forms": [
+   {
+    "da": "Alle er her.",
+    "en": "Everyone is here."
+   },
+   {
+    "da": "alle børn",
+    "en": "all children"
+   },
+   {
+    "da": "Hej alle sammen!",
+    "en": "Hello everyone!"
+   }
+  ],
+  "explanation": "\"Alle\" means \"everyone\" or \"all\" when you talk about people or many things: \"Alle kan komme\" (Everyone can come). \"Alle sammen\" means \"all together\" or \"all of you\". For \"everything\" use \"alt\", and for one single thing \"hver\".",
+  "related": [
+   {
+    "da": "alt",
+    "en": "everything"
+   },
+   {
+    "da": "hver",
+    "en": "each / every"
+   },
+   {
+    "da": "ingen",
+    "en": "no one"
+   },
+   {
+    "da": "mange",
+    "en": "many"
+   }
+  ],
+  "sentence": {
+   "da": "**Alle** i klassen kan svømme.",
+   "en": "Everyone in the class can swim."
+  }
+ },
+ "allerede": {
+  "forms": [
+   {
+    "da": "allerede",
+    "en": "already"
+   },
+   {
+    "da": "allerede nu",
+    "en": "already now"
+   },
+   {
+    "da": "allerede i går",
+    "en": "already yesterday"
+   }
+  ],
+  "explanation": "\"Allerede\" means already. It is placed after the verb in a normal sentence: \"Han er allerede her\" (He is already here). It often shows that something happened sooner than expected. The matching word for the opposite is \"endnu ikke\" (not yet).",
+  "related": [
+   {
+    "da": "endnu",
+    "en": "yet / still"
+   },
+   {
+    "da": "snart",
+    "en": "soon"
+   },
+   {
+    "da": "stadig",
+    "en": "still"
+   },
+   {
+    "da": "tidligt",
+    "en": "early"
+   }
+  ],
+  "sentence": {
+   "da": "Du er **allerede** her!",
+   "en": "You are here already!"
+  }
+ },
+ "allergisk": {
+  "forms": [
+   {
+    "da": "en allergisk dreng",
+    "en": "an allergic boy"
+   },
+   {
+    "da": "et allergisk barn",
+    "en": "an allergic child"
+   },
+   {
+    "da": "allergiske børn",
+    "en": "allergic children"
+   }
+  ],
+  "explanation": "\"Allergisk\" means allergic. To say what you are allergic to, use \"over for\": \"Jeg er allergisk over for nødder\". Pharmacies and doctors ask about this often, so it is a very useful word when you travel or visit the doctor.",
+  "related": [
+   {
+    "da": "en allergi",
+    "en": "an allergy"
+   },
+   {
+    "da": "nødder",
+    "en": "nuts"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **allergisk** over for nødder.",
+   "en": "I am allergic to nuts."
+  }
+ },
+ "alt": {
+  "forms": [
+   {
+    "da": "Jeg ved alt.",
+    "en": "I know everything."
+   },
+   {
+    "da": "alt godt",
+    "en": "all the best"
+   },
+   {
+    "da": "Det er alt.",
+    "en": "That is all."
+   }
+  ],
+  "explanation": "\"Alt\" means \"everything\" or \"all\", as in \"Alt er godt\" (Everything is good). \"Det er alt\" means \"That is all\". It can also come before a describing word to mean \"too\" in some phrases, like \"alt for dyrt\" (far too expensive). For people, use \"alle\" instead.",
+  "related": [
+   {
+    "da": "alle",
+    "en": "everyone / all"
+   },
+   {
+    "da": "ingenting",
+    "en": "nothing"
+   },
+   {
+    "da": "noget",
+    "en": "something"
+   },
+   {
+    "da": "alt for",
+    "en": "far too"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har glemt **alt**.",
+   "en": "She has forgotten everything."
+  }
+ },
+ "altid": {
+  "forms": [
+   {
+    "da": "altid",
+    "en": "always"
+   },
+   {
+    "da": "altid glad",
+    "en": "always happy"
+   },
+   {
+    "da": "som altid",
+    "en": "as always"
+   }
+  ],
+  "explanation": "\"Altid\" means always. It usually goes right after the verb in a normal sentence: \"Jeg er altid træt\" (I am always tired). It is a very common word, and it is written as one word. The opposite is \"aldrig\" (never), and \"ofte\" is the milder word for often.",
+  "related": [
+   {
+    "da": "aldrig",
+    "en": "never"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "for altid",
+    "en": "forever"
+   }
+  ],
+  "sentence": {
+   "da": "Han kommer **altid** for sent.",
+   "en": "He always comes too late."
+  }
+ },
+ "altså": {
+  "forms": [
+   {
+    "da": "så du kommer altså ikke?",
+    "en": "so you are not coming?"
+   },
+   {
+    "da": "det er altså sandt",
+    "en": "it really is true"
+   },
+   {
+    "da": "altså, jeg mener...",
+    "en": "well, I mean..."
+   }
+  ],
+  "explanation": "\"Altså\" is a small word that can mean so, thus or well, and it is often used to sum up or to add emphasis. Danes use it a lot in speech: \"Det er altså rigtigt!\" means \"It really is true!\". Its exact meaning depends on the situation, so learn it from examples.",
+  "related": [
+   {
+    "da": "derfor",
+    "en": "therefore"
+   },
+   {
+    "da": "så",
+    "en": "so"
+   },
+   {
+    "da": "nemlig",
+    "en": "indeed"
+   },
+   {
+    "da": "faktisk",
+    "en": "actually"
+   }
+  ],
+  "sentence": {
+   "da": "Så du kommer **altså** ikke?",
+   "en": "So you are not coming after all?"
+  }
+ },
+ "amerikansk": {
+  "forms": [
+   {
+    "da": "en amerikansk film",
+    "en": "an American film"
+   },
+   {
+    "da": "et amerikansk firma",
+    "en": "an American company"
+   },
+   {
+    "da": "amerikanske film",
+    "en": "American films"
+   }
+  ],
+  "explanation": "\"Amerikansk\" means American, for things from the USA. It has no capital letter in Danish. It stays \"amerikansk\" before an et-word and becomes \"amerikanske\" for more than one thing. The person is \"en amerikaner\". Danes often see \"amerikanske film\" and \"amerikanske serier\" on TV.",
+  "related": [
+   {
+    "da": "USA",
+    "en": "the USA"
+   },
+   {
+    "da": "en amerikaner",
+    "en": "an American"
+   },
+   {
+    "da": "britisk",
+    "en": "British"
+   },
+   {
+    "da": "engelsk",
+    "en": "English"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **amerikansk** film.",
+   "en": "It is an American film."
+  }
+ },
+ "anden": {
+  "forms": [
+   {
+    "da": "anden",
+    "en": "second (with en-words)"
+   },
+   {
+    "da": "andet",
+    "en": "second (with et-words)"
+   },
+   {
+    "da": "den anden dag",
+    "en": "the second day"
+   }
+  ],
+  "explanation": "\"Anden\" means second, and it also means \"other\". With en-words you use \"anden\" (\"min anden bil\"), with et-words \"andet\" (\"det andet hus\"), and with plural words \"andre\". The context tells you whether it means second or other. For dates, \"den anden juni\" is the second of June.",
+  "related": [
+   {
+    "da": "første",
+    "en": "first"
+   },
+   {
+    "da": "tredje",
+    "en": "third"
+   },
+   {
+    "da": "andre",
+    "en": "others"
+   },
+   {
+    "da": "en anden",
+    "en": "someone else / another"
+   }
+  ],
+  "sentence": {
+   "da": "Det er den **anden** dør til højre.",
+   "en": "It is the second door on the right."
+  }
+ },
+ "appelsinjuice": {
+  "forms": [
+   {
+    "da": "en appelsinjuice",
+    "en": "an orange juice"
+   },
+   {
+    "da": "appelsinjuicen",
+    "en": "the orange juice"
+   }
+  ],
+  "explanation": "\"Appelsinjuice\" is orange juice, and it is an en-word. The word is built from \"appelsin\" (orange) and \"juice\" (juice), and written as one word. Ask for \"et glas appelsinjuice\" (a glass of orange juice) in a cafe. It is often on the breakfast table.",
+  "related": [
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   },
+   {
+    "da": "juice",
+    "en": "juice"
+   },
+   {
+    "da": "vand",
+    "en": "water"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have et glas **appelsinjuice**.",
+   "en": "I would like a glass of orange juice."
+  }
+ },
+ "april": {
+  "forms": [
+   {
+    "da": "april",
+    "en": "April"
+   },
+   {
+    "da": "i april",
+    "en": "in April"
+   },
+   {
+    "da": "i starten af april",
+    "en": "early in April"
+   }
+  ],
+  "explanation": "\"April\" is April, written with a small letter. You say \"i april\" for in April. The weather in Denmark in April is famously unpredictable, and there is an old saying about \"aprilsnar\" (April fool), which is the Danish way to say \"April fool!\".",
+  "related": [
+   {
+    "da": "marts",
+    "en": "March"
+   },
+   {
+    "da": "maj",
+    "en": "May"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Vejret er skiftende i **april**.",
+   "en": "The weather is changeable in April."
+  }
+ },
+ "arabisk": {
+  "forms": [
+   {
+    "da": "en arabisk bog",
+    "en": "an Arabic book"
+   },
+   {
+    "da": "et arabisk ord",
+    "en": "an Arabic word"
+   },
+   {
+    "da": "arabiske ord",
+    "en": "Arabic words"
+   }
+  ],
+  "explanation": "\"Arabisk\" means Arabic and is used both for the language and for things connected to the Arab world. It is written with a small letter and does not add -t before an et-word. Many people in Denmark speak Arabic at home, so it is a useful word to know.",
+  "related": [
+   {
+    "da": "arabere",
+    "en": "Arabs"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "tyrkisk",
+    "en": "Turkish"
+   },
+   {
+    "da": "kinesisk",
+    "en": "Chinese"
+   }
+  ],
+  "sentence": {
+   "da": "Hun taler både dansk og **arabisk**.",
+   "en": "She speaks both Danish and Arabic."
+  }
+ },
+ "asien": {
+  "forms": [
+   {
+    "da": "Asien",
+    "en": "Asia"
+   },
+   {
+    "da": "i Asien",
+    "en": "in Asia"
+   },
+   {
+    "da": "til Asien",
+    "en": "to Asia"
+   }
+  ],
+  "explanation": "\"Asien\" is the Danish name for Asia, written with a capital letter. Say \"i Asien\" for being there and \"til Asien\" for going there. A person from Asia is \"en asiat\", and the describing word is \"asiatisk\". It is the biggest of the continents.",
+  "related": [
+   {
+    "da": "Afrika",
+    "en": "Africa"
+   },
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en asiat",
+    "en": "an Asian person"
+   },
+   {
+    "da": "asiatisk",
+    "en": "Asian"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal på ferie i **Asien**.",
+   "en": "We are going on holiday in Asia."
+  }
+ },
+ "at arbejde": {
+  "forms": [
+   {
+    "da": "at arbejde",
+    "en": "to work"
+   },
+   {
+    "da": "jeg arbejder",
+    "en": "I work"
+   },
+   {
+    "da": "jeg arbejdede",
+    "en": "I worked"
+   },
+   {
+    "da": "jeg har arbejdet",
+    "en": "I have worked"
+   }
+  ],
+  "explanation": "\"At arbejde\" means to work: \"Jeg arbejder på et hospital\" (I work at a hospital). It is used for jobs and for effort. \"Arbejde\" is also a word for work itself, as in \"Jeg har meget arbejde\" (I have a lot of work), and then it is an et-word. Remember the spelling with -ejd-, which is not spelled like it sounds.",
+  "related": [
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "at have fri",
+    "en": "to have time off"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **arbejder** på et kontor.",
+   "en": "I work in an office."
+  }
+ },
+ "atten": {
+  "forms": [
+   {
+    "da": "atten år",
+    "en": "eighteen years"
+   },
+   {
+    "da": "atten børn",
+    "en": "eighteen children"
+   },
+   {
+    "da": "atten kroner",
+    "en": "eighteen kroner"
+   }
+  ],
+  "explanation": "Means \"eighteen\". It comes from \"otte\" (eight), but the spelling changes to \"atten\". The ending is shared with the other teens. In Denmark 18 is the age at which a person becomes an adult, so you may hear \"atten år\" often.",
+  "related": [
+   {
+    "da": "sytten",
+    "en": "seventeen"
+   },
+   {
+    "da": "nitten",
+    "en": "nineteen"
+   },
+   {
+    "da": "otte",
+    "en": "eight"
+   },
+   {
+    "da": "firs",
+    "en": "eighty"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **atten** år og bor hjemme.",
+   "en": "She is eighteen and lives at home."
+  }
+ },
+ "august": {
+  "forms": [
+   {
+    "da": "august",
+    "en": "August"
+   },
+   {
+    "da": "i august",
+    "en": "in August"
+   },
+   {
+    "da": "i starten af august",
+    "en": "early in August"
+   }
+  ],
+  "explanation": "\"August\" is August, written with a small letter, and you say \"i august\" for in August. It is the end of the summer holidays in Denmark, and school starts again around this time. The spelling is the same as in English, but with a small letter.",
+  "related": [
+   {
+    "da": "juli",
+    "en": "July"
+   },
+   {
+    "da": "september",
+    "en": "September"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen starter igen i **august**.",
+   "en": "School starts again in August."
+  }
+ },
+ "australien": {
+  "forms": [
+   {
+    "da": "Australien",
+    "en": "Australia"
+   },
+   {
+    "da": "i Australien",
+    "en": "in Australia"
+   },
+   {
+    "da": "til Australien",
+    "en": "to Australia"
+   }
+  ],
+  "explanation": "\"Australien\" is the Danish name for Australia, with a capital letter. It ends in \"-ien\", like \"Asien\". Say \"i Australien\" for being there and \"til Australien\" for going there. A person from there is \"en australier\", and the describing word is \"australsk\".",
+  "related": [
+   {
+    "da": "Asien",
+    "en": "Asia"
+   },
+   {
+    "da": "en australier",
+    "en": "an Australian person"
+   },
+   {
+    "da": "australsk",
+    "en": "Australian"
+   },
+   {
+    "da": "en kænguru",
+    "en": "a kangaroo"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror bor i **Australien**.",
+   "en": "My brother lives in Australia."
+  }
+ },
+ "en adresse": {
+  "forms": [
+   {
+    "da": "en adresse",
+    "en": "an address"
+   },
+   {
+    "da": "adressen",
+    "en": "the address"
+   },
+   {
+    "da": "adresser",
+    "en": "addresses"
+   },
+   {
+    "da": "adresserne",
+    "en": "the addresses"
+   }
+  ],
+  "explanation": "\"Adresse\" is an address, like where someone lives. In Danish addresses the street name comes first and the number follows, for example \"Vestergade 12\", and the postcode comes before the town. It is an en-word and the plural is \"adresser\".",
+  "related": [
+   {
+    "da": "en gade",
+    "en": "a street"
+   },
+   {
+    "da": "et postnummer",
+    "en": "a postcode"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er din **adresse**?",
+   "en": "What is your address?"
+  }
+ },
+ "en afgang": {
+  "forms": [
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   },
+   {
+    "da": "afgangen",
+    "en": "the departure"
+   },
+   {
+    "da": "afgange",
+    "en": "departures"
+   },
+   {
+    "da": "afgangene",
+    "en": "the departures"
+   }
+  ],
+  "explanation": "\"Afgang\" is a departure, for example of a train, bus or plane. You will see it on timetable boards at stations and airports, next to \"ankomst\" (arrival). It is an en-word. For people leaving, Danes more often use the verb \"at tage afsted\" or \"at rejse\".",
+  "related": [
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   },
+   {
+    "da": "en forsinkelse",
+    "en": "a delay"
+   },
+   {
+    "da": "et tog",
+    "en": "a train"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   }
+  ],
+  "sentence": {
+   "da": "**Afgangen** er klokken ni.",
+   "en": "The departure is at nine o'clock."
+  }
+ },
+ "en aftale": {
+  "forms": [
+   {
+    "da": "en aftale",
+    "en": "an appointment / agreement"
+   },
+   {
+    "da": "aftalen",
+    "en": "the appointment / the agreement"
+   },
+   {
+    "da": "aftaler",
+    "en": "appointments"
+   },
+   {
+    "da": "aftalerne",
+    "en": "the appointments"
+   }
+  ],
+  "explanation": "\"En aftale\" is an agreement or an appointment you have made, and it is an en-word. People say \"Det er en aftale!\" for \"It's a deal!\". \"At have en aftale\" means to have plans or an appointment, for example at the doctor's. The plural is \"aftaler\".",
+  "related": [
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   },
+   {
+    "da": "en plan",
+    "en": "a plan"
+   },
+   {
+    "da": "at aftale",
+    "en": "to agree/arrange"
+   },
+   {
+    "da": "en tid",
+    "en": "a time slot"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **aftale** med lægen.",
+   "en": "I have an appointment with the doctor."
+  }
+ },
+ "en aften": {
+  "forms": [
+   {
+    "da": "en aften",
+    "en": "an evening"
+   },
+   {
+    "da": "aftenen",
+    "en": "the evening"
+   },
+   {
+    "da": "aftener",
+    "en": "evenings"
+   },
+   {
+    "da": "aftenerne",
+    "en": "the evenings"
+   }
+  ],
+  "explanation": "En aften is an evening. It is an en-word, so \"the evening\" is \"aftenen\". Useful phrases are \"i aften\" (this evening, tonight), \"om aftenen\" (in the evening, as a habit) and \"god aften\" (good evening). The meal people eat in the evening is \"aftensmad\" (evening food), so Danish builds on this word often.",
+  "related": [
+   {
+    "da": "en nat",
+    "en": "a night"
+   },
+   {
+    "da": "en middag",
+    "en": "dinner"
+   },
+   {
+    "da": "en aftensmad",
+    "en": "an evening meal"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser sammen i **aften**.",
+   "en": "We are eating together tonight."
+  }
+ },
+ "en agurk": {
+  "forms": [
+   {
+    "da": "en agurk",
+    "en": "a cucumber"
+   },
+   {
+    "da": "agurken",
+    "en": "the cucumber"
+   },
+   {
+    "da": "agurker",
+    "en": "cucumbers"
+   },
+   {
+    "da": "agurkerne",
+    "en": "the cucumbers"
+   }
+  ],
+  "explanation": "\"En agurk\" is a cucumber, an en-word. It is a very common ingredient in Danish salads and on open sandwiches, and pickled cucumber (\"asier\" or \"syltede agurker\") is a classic topping on hot dogs. Be careful not to mix it up with \"en salat\", which is lettuce or a whole salad.",
+  "related": [
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "en salat",
+    "en": "a salad / lettuce"
+   },
+   {
+    "da": "en grøntsag",
+    "en": "a vegetable"
+   },
+   {
+    "da": "et løg",
+    "en": "an onion"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skærer en **agurk** til salaten.",
+   "en": "I am cutting a cucumber for the salad."
+  }
+ },
+ "en albue": {
+  "forms": [
+   {
+    "da": "en albue",
+    "en": "an elbow"
+   },
+   {
+    "da": "albuen",
+    "en": "the elbow"
+   },
+   {
+    "da": "albuer",
+    "en": "elbows"
+   },
+   {
+    "da": "albuerne",
+    "en": "the elbows"
+   }
+  ],
+  "explanation": "\"En albue\" is an elbow. It is an en-word. The u is pronounced like a w sound, so it sounds like \"al-boo-e\". It is the joint in the middle of your arm, and a common injury phrase is \"Jeg har slået albuen\" (I have hit my elbow).",
+  "related": [
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   },
+   {
+    "da": "et knæ",
+    "en": "a knee"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg slog **albuen** mod bordet.",
+   "en": "I hit my elbow on the table."
+  }
+ },
  "en alder": {
   "forms": [
    {
@@ -32,6 +1218,557 @@
   "sentence": {
    "da": "Hvad er din **alder**?",
    "en": "What is your age?"
+  }
+ },
+ "en allergi": {
+  "forms": [
+   {
+    "da": "en allergi",
+    "en": "an allergy"
+   },
+   {
+    "da": "allergien",
+    "en": "the allergy"
+   },
+   {
+    "da": "allergier",
+    "en": "allergies"
+   },
+   {
+    "da": "allergierne",
+    "en": "the allergies"
+   }
+  ],
+  "explanation": "\"En allergi\" is an allergy, an en-word. In a restaurant you can say \"Jeg har en allergi\" or be specific, for example \"Jeg har en nøddeallergi\" (a nut allergy). Pronounce the end like \"-ee\", and note that the plural is \"allergier\".",
+  "related": [
+   {
+    "da": "en vegetar",
+    "en": "a vegetarian"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "en nød",
+    "en": "a nut"
+   },
+   {
+    "da": "et menukort",
+    "en": "a menu"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **allergi** over for nødder.",
+   "en": "I have an allergy to nuts."
+  }
+ },
+ "en ambulance": {
+  "forms": [
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
+   },
+   {
+    "da": "ambulancen",
+    "en": "the ambulance"
+   },
+   {
+    "da": "ambulancer",
+    "en": "ambulances"
+   },
+   {
+    "da": "ambulancerne",
+    "en": "the ambulances"
+   }
+  ],
+  "explanation": "\"En ambulance\" is an ambulance. It is an en-word. The emergency number in Denmark is 112, and you say \"Ring efter en ambulance\" (Call for an ambulance). The word is spoken a bit like the English one, with a French-style \"ng\" in the middle.",
+  "related": [
+   {
+    "da": "en skadestue",
+    "en": "an ER"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   }
+  ],
+  "sentence": {
+   "da": "Ring efter en **ambulance**!",
+   "en": "Call for an ambulance!"
+  }
+ },
+ "en amerikaner": {
+  "forms": [
+   {
+    "da": "en amerikaner",
+    "en": "an American"
+   },
+   {
+    "da": "amerikaneren",
+    "en": "the American"
+   },
+   {
+    "da": "amerikanere",
+    "en": "Americans"
+   },
+   {
+    "da": "amerikanerne",
+    "en": "the Americans"
+   }
+  ],
+  "explanation": "\"En amerikaner\" is a person from the USA. It is an en-word and is used for both men and women. The plural is \"amerikanere\". The describing word is \"amerikansk\". Note that the Danish word is not capitalised, unlike English.",
+  "related": [
+   {
+    "da": "USA",
+    "en": "the USA"
+   },
+   {
+    "da": "amerikansk",
+    "en": "American"
+   },
+   {
+    "da": "en dansker",
+    "en": "a Dane"
+   },
+   {
+    "da": "en canadier",
+    "en": "a Canadian"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **amerikaner**, men bor i Danmark.",
+   "en": "She is American but lives in Denmark."
+  }
+ },
+ "en ananas": {
+  "forms": [
+   {
+    "da": "en ananas",
+    "en": "a pineapple"
+   },
+   {
+    "da": "ananassen",
+    "en": "the pineapple"
+   },
+   {
+    "da": "ananasser",
+    "en": "pineapples"
+   },
+   {
+    "da": "ananasserne",
+    "en": "the pineapples"
+   }
+  ],
+  "explanation": "\"En ananas\" is a pineapple. It is an en-word, and the word is the same as in many languages. The extra \"s\" appears in the forms: \"ananassen\" and \"ananasser\". Pineapple is a favourite on some pizzas, which Danes joke about.",
+  "related": [
+   {
+    "da": "en melon",
+    "en": "a melon"
+   },
+   {
+    "da": "frugt",
+    "en": "fruit"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
+   },
+   {
+    "da": "en pizza",
+    "en": "a pizza"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker frisk **ananas**.",
+   "en": "I love fresh pineapple."
+  }
+ },
+ "en and": {
+  "forms": [
+   {
+    "da": "en and",
+    "en": "a duck"
+   },
+   {
+    "da": "anden",
+    "en": "the duck"
+   },
+   {
+    "da": "ænder",
+    "en": "ducks"
+   },
+   {
+    "da": "ænderne",
+    "en": "the ducks"
+   }
+  ],
+  "explanation": "\"En and\" is a duck, an en-word. The plural is irregular: \"ænder\", with an \"æ\" instead of an \"a\". Be careful that \"anden\" means \"the duck\" but also \"the other\" or \"second\" (as in \"den anden\"), so the context matters. Feeding the ducks at a pond is a common activity with children.",
+  "related": [
+   {
+    "da": "en gås",
+    "en": "a goose"
+   },
+   {
+    "da": "en fugl",
+    "en": "a bird"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene fodrer **anden** ved søen.",
+   "en": "The children are feeding the duck by the lake."
+  }
+ },
+ "en ankomst": {
+  "forms": [
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   },
+   {
+    "da": "ankomsten",
+    "en": "the arrival"
+   },
+   {
+    "da": "ankomster",
+    "en": "arrivals"
+   },
+   {
+    "da": "ankomsterne",
+    "en": "the arrivals"
+   }
+  ],
+  "explanation": "\"Ankomst\" is an arrival, the time or place where someone or something arrives. On boards in stations and airports it sits opposite \"afgang\" (departure). Look for the word on the screens to see when your train or plane comes in. The matching verb is \"at ankomme\".",
+  "related": [
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   },
+   {
+    "da": "at ankomme",
+    "en": "to arrive"
+   },
+   {
+    "da": "at komme",
+    "en": "to come"
+   },
+   {
+    "da": "en forsinkelse",
+    "en": "a delay"
+   }
+  ],
+  "sentence": {
+   "da": "**Ankomsten** er klokken tolv.",
+   "en": "The arrival is at twelve o'clock."
+  }
+ },
+ "en app": {
+  "forms": [
+   {
+    "da": "en app",
+    "en": "an app"
+   },
+   {
+    "da": "appen",
+    "en": "the app"
+   },
+   {
+    "da": "apper",
+    "en": "apps"
+   },
+   {
+    "da": "apperne",
+    "en": "the apps"
+   }
+  ],
+  "explanation": "\"En app\" is a small program on your phone or tablet, the same as in English. It is an en-word, and the word \"the\" goes on the end: \"appen\". You will also hear \"apps\" for more than one, but \"apper\" is the Danish-style form. You \"henter\" (download) or \"åbner\" (open) an app.",
+  "related": [
+   {
+    "da": "en smartphone",
+    "en": "a smartphone"
+   },
+   {
+    "da": "et program",
+    "en": "a program"
+   },
+   {
+    "da": "at hente",
+    "en": "to download / fetch"
+   },
+   {
+    "da": "et kodeord",
+    "en": "a password"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **appen** hver dag.",
+   "en": "I use the app every day."
+  }
+ },
+ "en appelsin": {
+  "forms": [
+   {
+    "da": "en appelsin",
+    "en": "an orange"
+   },
+   {
+    "da": "appelsinen",
+    "en": "the orange"
+   },
+   {
+    "da": "appelsiner",
+    "en": "oranges"
+   },
+   {
+    "da": "appelsinerne",
+    "en": "the oranges"
+   }
+  ],
+  "explanation": "\"En appelsin\" is the fruit orange. The word \"orange\" is also used in Danish for the colour, so the fruit and the colour have different words. Fresh orange juice is \"appelsinjuice\", which you will see on most breakfast tables and menus.",
+  "related": [
+   {
+    "da": "en citron",
+    "en": "a lemon"
+   },
+   {
+    "da": "en frugt",
+    "en": "a fruit"
+   },
+   {
+    "da": "en juice",
+    "en": "a juice"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skrællede en **appelsin** til børnene.",
+   "en": "I peeled an orange for the children."
+  }
+ },
+ "en arm": {
+  "forms": [
+   {
+    "da": "en arm",
+    "en": "an arm"
+   },
+   {
+    "da": "armen",
+    "en": "the arm"
+   },
+   {
+    "da": "arme",
+    "en": "arms"
+   },
+   {
+    "da": "armene",
+    "en": "the arms"
+   }
+  ],
+  "explanation": "\"En arm\" is an arm. It is an en-word and the word for more than one is \"arme\". Say \"Hun har brækket armen\" for \"She has broken her arm\". Remember that Danish uses \"armen\" (the arm) where English would say \"her arm\".",
+  "related": [
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "en albue",
+    "en": "an elbow"
+   },
+   {
+    "da": "en skulder",
+    "en": "a shoulder"
+   },
+   {
+    "da": "en finger",
+    "en": "a finger"
+   }
+  ],
+  "sentence": {
+   "da": "Han har brækket **armen**.",
+   "en": "He has broken his arm."
+  }
+ },
+ "en avis": {
+  "forms": [
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "avisen",
+    "en": "the newspaper"
+   },
+   {
+    "da": "aviser",
+    "en": "newspapers"
+   },
+   {
+    "da": "aviserne",
+    "en": "the newspapers"
+   }
+  ],
+  "explanation": "\"En avis\" is a newspaper, and it is an en-word. The plural \"aviser\" adds -er. You read it with \"at læse avisen\", and a journalist is \"en journalist\". Many Danes now read the news online, and then \"nyheder\" (news) is a handy word too.",
+  "related": [
+   {
+    "da": "et blad",
+    "en": "a magazine"
+   },
+   {
+    "da": "nyheder",
+    "en": "news"
+   },
+   {
+    "da": "at læse",
+    "en": "to read"
+   },
+   {
+    "da": "en bog",
+    "en": "a book"
+   }
+  ],
+  "sentence": {
+   "da": "Min far læser **avisen** hver morgen.",
+   "en": "My dad reads the newspaper every morning."
+  }
+ },
+ "et ansigt": {
+  "forms": [
+   {
+    "da": "et ansigt",
+    "en": "a face"
+   },
+   {
+    "da": "ansigtet",
+    "en": "the face"
+   },
+   {
+    "da": "ansigter",
+    "en": "faces"
+   },
+   {
+    "da": "ansigterne",
+    "en": "the faces"
+   }
+  ],
+  "explanation": "\"Et ansigt\" is the face. It is an et-word. Remember the g and the t are both pronounced softly, so it sounds a bit like \"an-seet\". Danes say \"Vask dit ansigt\" (Wash your face), and \"et glad ansigt\" would be \"a happy face\" in everyday talk.",
+  "related": [
+   {
+    "da": "et hoved",
+    "en": "a head"
+   },
+   {
+    "da": "et øje",
+    "en": "an eye"
+   },
+   {
+    "da": "en næse",
+    "en": "a nose"
+   },
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har et smukt **ansigt**.",
+   "en": "She has a beautiful face."
+  }
+ },
+ "et apotek": {
+  "forms": [
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   },
+   {
+    "da": "apoteket",
+    "en": "the pharmacy"
+   },
+   {
+    "da": "apoteker",
+    "en": "pharmacies"
+   },
+   {
+    "da": "apotekerne",
+    "en": "the pharmacies"
+   }
+  ],
+  "explanation": "\"Et apotek\" is a pharmacy, where you buy medicine. It is an et-word. In Denmark many medicines, even simple ones like painkillers, are sold only at the pharmacy, not in ordinary shops. The person working there is \"en apoteker\" or \"en farmaceut\".",
+  "related": [
+   {
+    "da": "medicin",
+    "en": "medicine"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
+   },
+   {
+    "da": "et hospital",
+    "en": "a hospital"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal på **apoteket** og købe medicin.",
+   "en": "I need to go to the pharmacy and buy medicine."
+  }
+ },
+ "et arbejde": {
+  "forms": [
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   },
+   {
+    "da": "arbejdet",
+    "en": "the job / the work"
+   }
+  ],
+  "explanation": "\"Et arbejde\" is work or a job, and it is an et-word. It is used a lot: \"Jeg er på arbejde\" means \"I am at work\", and \"at gå på arbejde\" is to go to work. Use \"et job\" when you mean a specific position, and \"arbejde\" for work in general. The verb is \"at arbejde\".",
+  "related": [
+   {
+    "da": "at arbejde",
+    "en": "to work"
+   },
+   {
+    "da": "et job",
+    "en": "a job"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal på **arbejde** nu.",
+   "en": "I have to go to work now."
   }
  }
 }

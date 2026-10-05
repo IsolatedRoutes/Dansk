@@ -1,4 +1,738 @@
 {
+ "at nyse": {
+  "forms": [
+   {
+    "da": "at nyse",
+    "en": "to sneeze"
+   },
+   {
+    "da": "jeg nyser",
+    "en": "I sneeze"
+   },
+   {
+    "da": "jeg nøs",
+    "en": "I sneezed"
+   },
+   {
+    "da": "jeg har nyst",
+    "en": "I have sneezed"
+   }
+  ],
+  "explanation": "\"At nyse\" means to sneeze. It has an irregular past form, \"jeg nøs\", and the \"have\" form is \"nyst\". Danes do not have a set phrase everyone says after a sneeze, so a simple \"Undskyld\" (excuse me) from you is polite. The sneeze itself is \"et nys\".",
+  "related": [
+   {
+    "da": "at hoste",
+    "en": "to cough"
+   },
+   {
+    "da": "forkølet",
+    "en": "having a cold"
+   },
+   {
+    "da": "allergisk",
+    "en": "allergic"
+   },
+   {
+    "da": "et nys",
+    "en": "a sneeze"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg **nyser**, fordi jeg er allergisk.",
+   "en": "I sneeze because I am allergic."
+  }
+ },
+ "en nabo": {
+  "forms": [
+   {
+    "da": "en nabo",
+    "en": "a neighbor"
+   },
+   {
+    "da": "naboen",
+    "en": "the neighbor"
+   },
+   {
+    "da": "naboer",
+    "en": "neighbors"
+   },
+   {
+    "da": "naboerne",
+    "en": "the neighbors"
+   }
+  ],
+  "explanation": "\"En nabo\" is a neighbor, and it is an en-word. The plural is \"naboer\". The same word is used for a man or a woman. Danes often say \"naboen\" for the person next door, and \"nabolaget\" for the neighborhood. A friendly hello to your neighbors is normal.",
+  "related": [
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "et naboland",
+    "en": "a neighboring country"
+   },
+   {
+    "da": "at bo",
+    "en": "to live"
+   },
+   {
+    "da": "en gade",
+    "en": "a street"
+   }
+  ],
+  "sentence": {
+   "da": "Min **nabo** har en stor hund.",
+   "en": "My neighbor has a big dog."
+  }
+ },
+ "en nat": {
+  "forms": [
+   {
+    "da": "en nat",
+    "en": "a night"
+   },
+   {
+    "da": "natten",
+    "en": "the night"
+   },
+   {
+    "da": "nætter",
+    "en": "nights"
+   },
+   {
+    "da": "nætterne",
+    "en": "the nights"
+   }
+  ],
+  "explanation": "En nat is a night. Be careful with the more-than-one form: it is \"nætter\" with an æ, and \"the night\" is \"natten\" with a double t. It is used in \"i nat\" (tonight or last night), \"om natten\" (at night) and \"godnat\" (good night). When you say how long you stay somewhere, Danes count nights: \"to nætter\" is two nights.",
+  "related": [
+   {
+    "da": "en aften",
+    "en": "an evening"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "godnat",
+    "en": "good night"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sover godt om **natten**.",
+   "en": "I sleep well at night."
+  }
+ },
+ "en nederdel": {
+  "forms": [
+   {
+    "da": "en nederdel",
+    "en": "a skirt"
+   },
+   {
+    "da": "nederdelen",
+    "en": "the skirt"
+   },
+   {
+    "da": "nederdele",
+    "en": "skirts"
+   },
+   {
+    "da": "nederdelene",
+    "en": "the skirts"
+   }
+  ],
+  "explanation": "\"En nederdel\" is a skirt. It is an en-word. The name means \"lower part\" (\"neder\" is down and \"del\" is part), as a skirt covers the lower half of the body. The word for more than one is \"nederdele\", with no \"r\".",
+  "related": [
+   {
+    "da": "en kjole",
+    "en": "a dress"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "bukser",
+    "en": "pants"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en lang **nederdel** på.",
+   "en": "She is wearing a long skirt."
+  }
+ },
+ "en negl": {
+  "forms": [
+   {
+    "da": "en negl",
+    "en": "a nail"
+   },
+   {
+    "da": "neglen",
+    "en": "the nail"
+   },
+   {
+    "da": "negle",
+    "en": "nails"
+   },
+   {
+    "da": "neglene",
+    "en": "the nails"
+   }
+  ],
+  "explanation": "\"En negl\" is a nail on a finger or toe. It is an en-word. You will hear it when talking about the hairdresser or beauty salon, or when you hurt yourself. A hammer nail is a different word, \"et søm\", so do not mix them up.",
+  "related": [
+   {
+    "da": "en finger",
+    "en": "a finger"
+   },
+   {
+    "da": "en tå",
+    "en": "a toe"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   },
+   {
+    "da": "et søm",
+    "en": "a nail (metal)"
+   }
+  ],
+  "sentence": {
+   "da": "Hun maler sine **negle** røde.",
+   "en": "She paints her nails red."
+  }
+ },
+ "en næse": {
+  "forms": [
+   {
+    "da": "en næse",
+    "en": "a nose"
+   },
+   {
+    "da": "næsen",
+    "en": "the nose"
+   },
+   {
+    "da": "næser",
+    "en": "noses"
+   },
+   {
+    "da": "næserne",
+    "en": "the noses"
+   }
+  ],
+  "explanation": "\"En næse\" is a nose. It is an en-word. A useful phrase is \"Jeg har en løbende næse\" (I have a runny nose). The word is also used in the saying \"at have næse for noget\", meaning to have a good sense for something.",
+  "related": [
+   {
+    "da": "en mund",
+    "en": "a mouth"
+   },
+   {
+    "da": "et øje",
+    "en": "an eye"
+   },
+   {
+    "da": "et ansigt",
+    "en": "a face"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold (illness)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en løbende **næse**.",
+   "en": "I have a runny nose."
+  }
+ },
+ "en nøgle": {
+  "forms": [
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   },
+   {
+    "da": "nøglen",
+    "en": "the key"
+   },
+   {
+    "da": "nøgler",
+    "en": "keys"
+   },
+   {
+    "da": "nøglerne",
+    "en": "the keys"
+   }
+  ],
+  "explanation": "\"En nøgle\" is a key, and it is an en-word. You can use it for a door key or a hotel key. A common question is \"hvor er min nøgle?\" (where is my key?). The \"ø\" is a Danish letter, and the end \"-le\" is said very softly.",
+  "related": [
+   {
+    "da": "en dør",
+    "en": "a door"
+   },
+   {
+    "da": "at låse",
+    "en": "to lock"
+   },
+   {
+    "da": "et hotel",
+    "en": "a hotel"
+   },
+   {
+    "da": "et nøglekort",
+    "en": "a key card"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt min **nøgle**.",
+   "en": "I have forgotten my key."
+  }
+ },
+ "et navn": {
+  "forms": [
+   {
+    "da": "et navn",
+    "en": "a name"
+   },
+   {
+    "da": "navnet",
+    "en": "the name"
+   },
+   {
+    "da": "navne",
+    "en": "names"
+   },
+   {
+    "da": "navnene",
+    "en": "the names"
+   }
+  ],
+  "explanation": "\"Et navn\" is a name, and it is an et-word. The question \"Hvad hedder du?\" literally means \"What are you called?\", but you can also ask \"Hvad er dit navn?\". A first name is \"et fornavn\" and a last name is \"et efternavn\". The word is useful on forms.",
+  "related": [
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a last name"
+   },
+   {
+    "da": "at hedde",
+    "en": "to be called"
+   },
+   {
+    "da": "en adresse",
+    "en": "an address"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **navn** er Anna.",
+   "en": "My name is Anna."
+  }
+ },
+ "et nummer": {
+  "forms": [
+   {
+    "da": "et nummer",
+    "en": "a number"
+   },
+   {
+    "da": "nummeret",
+    "en": "the number"
+   },
+   {
+    "da": "numre",
+    "en": "numbers"
+   },
+   {
+    "da": "numrene",
+    "en": "the numbers"
+   }
+  ],
+  "explanation": "\"Et nummer\" is a number used as a label, such as a phone number or a house number. It is an et-word. The plural is \"numre\", with the second e dropped. For counting things use \"et tal\" instead. \"Hvad er dit telefonnummer?\" means \"What is your phone number?\".",
+  "related": [
+   {
+    "da": "et tal",
+    "en": "a number (figure)"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   },
+   {
+    "da": "en adresse",
+    "en": "an address"
+   },
+   {
+    "da": "et husnummer",
+    "en": "a house number"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er dit **nummer**?",
+   "en": "What is your number?"
+  }
+ },
+ "natur": {
+  "forms": [
+   {
+    "da": "naturen",
+    "en": "the nature"
+   },
+   {
+    "da": "i naturen",
+    "en": "in nature"
+   },
+   {
+    "da": "en tur i naturen",
+    "en": "a trip in nature"
+   }
+  ],
+  "explanation": "\"Natur\" is an en-word meaning nature, the outdoors with forests, fields, lakes and animals. You mostly hear it with \"the\" added on the end: \"naturen\". Danes love to be \"i naturen\" (out in nature), and the word also appears in compounds like \"naturskøn\" (scenic).",
+  "related": [
+   {
+    "da": "en skov",
+    "en": "a forest"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   },
+   {
+    "da": "et landskab",
+    "en": "a landscape"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker at gå en tur i **naturen**.",
+   "en": "I love going for a walk in nature."
+  }
+ },
+ "ned": {
+  "forms": [
+   {
+    "da": "Gå ned!",
+    "en": "Go down!"
+   },
+   {
+    "da": "Sæt dig ned.",
+    "en": "Sit down."
+   },
+   {
+    "da": "Jeg går ned ad trappen.",
+    "en": "I walk down the stairs."
+   }
+  ],
+  "explanation": "\"Ned\" means \"down\" and shows movement downwards, as in \"Kom ned!\" (Come down!). Danish separates movement from position: \"ned\" is for going down, and \"nede\" is for being down there. It is used in many everyday phrases, like \"Sæt dig ned\" (Sit down). Its opposite is \"op\" (up).",
+  "related": [
+   {
+    "da": "op",
+    "en": "up"
+   },
+   {
+    "da": "nede",
+    "en": "down (being there)"
+   },
+   {
+    "da": "nedenunder",
+    "en": "downstairs / underneath"
+   },
+   {
+    "da": "at sætte sig",
+    "en": "to sit down"
+   }
+  ],
+  "sentence": {
+   "da": "Han går **ned** i kælderen.",
+   "en": "He goes down to the cellar."
+  }
+ },
+ "nej": {
+  "forms": [
+   {
+    "da": "Nej, tak.",
+    "en": "No, thank you."
+   },
+   {
+    "da": "Nej, det er ikke rigtigt.",
+    "en": "No, that's not right."
+   },
+   {
+    "da": "Nej, desværre.",
+    "en": "No, unfortunately."
+   }
+  ],
+  "explanation": "\"Nej\" means \"no\". \"Nej tak\" is the polite way to turn something down, like \"no thank you\". It is also used as \"oh!\" when you are surprised, as in \"nej, hvor er det flot!\" (\"oh, how beautiful!\"). Say the \"j\" like English \"y\".",
+  "related": [
+   {
+    "da": "ja",
+    "en": "yes"
+   },
+   {
+    "da": "nej tak",
+    "en": "no thank you"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "**Nej**, tak, jeg er mæt.",
+   "en": "No, thank you, I am full."
+  }
+ },
+ "nem": {
+  "forms": [
+   {
+    "da": "en nem opgave",
+    "en": "an easy task"
+   },
+   {
+    "da": "et nemt svar",
+    "en": "an easy answer"
+   },
+   {
+    "da": "nemme opgaver",
+    "en": "easy tasks"
+   }
+  ],
+  "explanation": "\"Nem\" means easy. With et-words it gets a \"t\" (\"et nemt svar\") and with more than one \"me\" (\"nemme opgaver\"). The opposite is \"svær\" (difficult). It is often used with \"det\": \"Det er nemt\" (It is easy). A common alternative is \"let\".",
+  "related": [
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "let",
+    "en": "light / easy"
+   },
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "enkel",
+    "en": "simple"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **nemt** at lære.",
+   "en": "It is easy to learn."
+  }
+ },
+ "nemt": {
+  "forms": [
+   {
+    "da": "det er nemt",
+    "en": "it is easy"
+   },
+   {
+    "da": "det går nemt",
+    "en": "it goes easily"
+   },
+   {
+    "da": "nemt at lære",
+    "en": "easy to learn"
+   }
+  ],
+  "explanation": "\"Nemt\" means easily or easy. It is the form of \"nem\" used with et-words (\"et nemt spil\") and also the way to say \"easily\": \"Det går nemt\". \"Let\" is another everyday word for easy. The opposite is \"svært\" (hard).",
+  "related": [
+   {
+    "da": "nem",
+    "en": "easy (en-words)"
+   },
+   {
+    "da": "let",
+    "en": "easy / light"
+   },
+   {
+    "da": "svær",
+    "en": "hard"
+   },
+   {
+    "da": "svært",
+    "en": "hard / with difficulty"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **nemt** at finde vej.",
+   "en": "It is easy to find the way."
+  }
+ },
+ "ni": {
+  "forms": [
+   {
+    "da": "ni børn",
+    "en": "nine children"
+   },
+   {
+    "da": "klokken ni",
+    "en": "nine o'clock"
+   },
+   {
+    "da": "ni gange",
+    "en": "nine times"
+   }
+  ],
+  "explanation": "Means \"nine\". A very short word, said like \"nee\". Do not mix it up with \"nej\" (no), which has a \"j\" sound at the end. Nineteen is \"nitten\", and the ordinal is \"niende\" (ninth). Its form does not change before en-words and et-words.",
+  "related": [
+   {
+    "da": "otte",
+    "en": "eight"
+   },
+   {
+    "da": "ti",
+    "en": "ten"
+   },
+   {
+    "da": "nitten",
+    "en": "nineteen"
+   },
+   {
+    "da": "niende",
+    "en": "ninth"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **ni** gæster i aften.",
+   "en": "We have nine guests tonight."
+  }
+ },
+ "niende": {
+  "forms": [
+   {
+    "da": "den niende dag",
+    "en": "the ninth day"
+   },
+   {
+    "da": "det niende hus",
+    "en": "the ninth house"
+   },
+   {
+    "da": "niende gang",
+    "en": "the ninth time"
+   }
+  ],
+  "explanation": "\"Niende\" means ninth. It comes from \"ni\" (nine). Numbers like this are used for the order of things and for dates: \"den niende maj\" is the ninth of May. In writing you can use \"9.\" with a dot after the number.",
+  "related": [
+   {
+    "da": "ni",
+    "en": "nine"
+   },
+   {
+    "da": "ottende",
+    "en": "eighth"
+   },
+   {
+    "da": "tiende",
+    "en": "tenth"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   }
+  ],
+  "sentence": {
+   "da": "Min fødselsdag er den **niende** marts.",
+   "en": "My birthday is the ninth of March."
+  }
+ },
+ "nitten": {
+  "forms": [
+   {
+    "da": "nitten år",
+    "en": "nineteen years"
+   },
+   {
+    "da": "nitten børn",
+    "en": "nineteen children"
+   },
+   {
+    "da": "nitten kroner",
+    "en": "nineteen kroner"
+   }
+  ],
+  "explanation": "Means \"nineteen\". It is built from \"ni\" (nine) and the ending shared by the teens, with a double \"t\" in the spelling. It is the last number before twenty. When listening, do not mix it up with \"ni\" (nine) or \"niende\" (ninth).",
+  "related": [
+   {
+    "da": "atten",
+    "en": "eighteen"
+   },
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "ni",
+    "en": "nine"
+   },
+   {
+    "da": "halvfems",
+    "en": "ninety"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **nitten** mennesker her.",
+   "en": "There are nineteen people here."
+  }
+ },
+ "nogen": {
+  "forms": [
+   {
+    "da": "Er der nogen her?",
+    "en": "Is anyone here?"
+   },
+   {
+    "da": "Jeg ser nogen.",
+    "en": "I see someone."
+   },
+   {
+    "da": "Har du nogen børn?",
+    "en": "Do you have any children?"
+   }
+  ],
+  "explanation": "\"Nogen\" means \"someone\" or \"anyone\", and also \"any\" in front of things. It is used a lot in questions and with \"ikke\": \"Er der nogen her?\" (Is anyone here?). \"Jeg ser ikke nogen\" means \"I do not see anyone\". For \"no one\" you say \"ingen\".",
+  "related": [
+   {
+    "da": "ingen",
+    "en": "no one"
+   },
+   {
+    "da": "nogle",
+    "en": "some / a few"
+   },
+   {
+    "da": "alle",
+    "en": "everyone / all"
+   },
+   {
+    "da": "noget",
+    "en": "something / anything"
+   }
+  ],
+  "sentence": {
+   "da": "Er der **nogen** hjemme?",
+   "en": "Is anyone at home?"
+  }
+ },
  "noget": {
   "forms": [
    {
@@ -36,6 +770,747 @@
   "sentence": {
    "da": "Har du **noget** at drikke?",
    "en": "Do you have something to drink?"
+  }
+ },
+ "nogle": {
+  "forms": [
+   {
+    "da": "nogle bøger",
+    "en": "some books"
+   },
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "Jeg har nogle venner.",
+    "en": "I have some friends."
+   }
+  ],
+  "explanation": "\"Nogle\" means \"some\" or \"a few\" and is used with more than one thing, like \"nogle bøger\" (some books). Put \"gange\" after it and you get \"nogle gange\", which means \"sometimes\". For \"no\" before many things, use \"ingen\".",
+  "related": [
+   {
+    "da": "nogen",
+    "en": "someone / any"
+   },
+   {
+    "da": "mange",
+    "en": "many"
+   },
+   {
+    "da": "flere",
+    "en": "more / several"
+   },
+   {
+    "da": "ingen",
+    "en": "none"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt **nogle** æbler.",
+   "en": "I have bought some apples."
+  }
+ },
+ "nogle gange": {
+  "forms": [
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "nogle gange regner det",
+    "en": "sometimes it rains"
+   },
+   {
+    "da": "kun nogle gange",
+    "en": "only sometimes"
+   }
+  ],
+  "explanation": "\"Nogle gange\" means sometimes, and it is two words. It is literally \"some times\". It sits well at the start of a sentence: \"Nogle gange er jeg træt\" (Sometimes I am tired). A shorter option is \"somme tider\", and \"af og til\" means about the same.",
+  "related": [
+   {
+    "da": "af og til",
+    "en": "now and then"
+   },
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "altid",
+    "en": "always"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "**Nogle gange** tager jeg bussen.",
+   "en": "Sometimes I take the bus."
+  }
+ },
+ "nok": {
+  "forms": [
+   {
+    "da": "Det er nok.",
+    "en": "That is enough."
+   },
+   {
+    "da": "Han kommer nok i morgen.",
+    "en": "He will probably come tomorrow."
+   },
+   {
+    "da": "Jeg har ikke nok tid.",
+    "en": "I don't have enough time."
+   }
+  ],
+  "explanation": "\"Nok\" has two main meanings. It can mean \"enough\", as in \"Det er nok\" (That is enough), and it can mean \"probably\" or \"I guess\", as in \"Det regner nok\" (It is probably raining). The meaning depends on the sentence. When it is in the middle of a sentence next to a verb, it usually means \"probably\".",
+  "related": [
+   {
+    "da": "måske",
+    "en": "maybe"
+   },
+   {
+    "da": "sikkert",
+    "en": "surely / most likely"
+   },
+   {
+    "da": "for meget",
+    "en": "too much"
+   },
+   {
+    "da": "tilstrækkelig",
+    "en": "sufficient"
+   }
+  ],
+  "sentence": {
+   "da": "Han kommer **nok** i morgen.",
+   "en": "He will probably come tomorrow."
+  }
+ },
+ "nord": {
+  "forms": [
+   {
+    "da": "nord",
+    "en": "north"
+   },
+   {
+    "da": "i nord",
+    "en": "in the north"
+   },
+   {
+    "da": "mod nord",
+    "en": "towards the north"
+   }
+  ],
+  "explanation": "\"Nord\" means north, one of the four main directions. Danes often add it with other words: \"Nordjylland\" is northern Jutland, and \"nordpå\" means towards the north. The word is written with a small letter, except in names. The other directions are \"syd\", \"øst\" and \"vest\".",
+  "related": [
+   {
+    "da": "syd",
+    "en": "south"
+   },
+   {
+    "da": "øst",
+    "en": "east"
+   },
+   {
+    "da": "vest",
+    "en": "west"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kører mod **nord**.",
+   "en": "We are driving north."
+  }
+ },
+ "norge": {
+  "forms": [
+   {
+    "da": "Norge",
+    "en": "Norway"
+   },
+   {
+    "da": "i Norge",
+    "en": "in Norway"
+   },
+   {
+    "da": "til Norge",
+    "en": "to Norway"
+   }
+  ],
+  "explanation": "\"Norge\" is Norway. Place names like this are written with a capital letter and used without \"the\": \"i Norge\" means \"in Norway\" and \"til Norge\" means \"to Norway\". A person from there is \"en nordmand\" and the language is \"norsk\". It is a neighbouring country to the north.",
+  "related": [
+   {
+    "da": "en nordmand",
+    "en": "a Norwegian"
+   },
+   {
+    "da": "norsk",
+    "en": "Norwegian"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven bor i **Norge**.",
+   "en": "My friend lives in Norway."
+  }
+ },
+ "normal": {
+  "forms": [
+   {
+    "da": "en normal dag",
+    "en": "a normal day"
+   },
+   {
+    "da": "et normalt liv",
+    "en": "a normal life"
+   },
+   {
+    "da": "normale dage",
+    "en": "normal days"
+   }
+  ],
+  "explanation": "\"Normal\" means normal or ordinary, just like in English. With et-words it gets a \"t\" (\"et normalt liv\") and with more than one an \"e\" (\"normale dage\"). It is often used in the short phrase \"Det er helt normalt\" (That is completely normal).",
+  "related": [
+   {
+    "da": "almindelig",
+    "en": "ordinary / common"
+   },
+   {
+    "da": "unormal",
+    "en": "abnormal"
+   },
+   {
+    "da": "sædvanlig",
+    "en": "usual"
+   },
+   {
+    "da": "speciel",
+    "en": "special"
+   }
+  ],
+  "sentence": {
+   "da": "Det er helt **normalt**.",
+   "en": "That is completely normal."
+  }
+ },
+ "norsk": {
+  "forms": [
+   {
+    "da": "en norsk bil",
+    "en": "a Norwegian car"
+   },
+   {
+    "da": "et norsk hus",
+    "en": "a Norwegian house"
+   },
+   {
+    "da": "norske biler",
+    "en": "Norwegian cars"
+   }
+  ],
+  "explanation": "\"Norsk\" means Norwegian, both for things from Norway and for the language. It has no capital letter in Danish. It stays \"norsk\" before an et-word and becomes \"norske\" for more than one thing. Danes and Norwegians can mostly understand each other, so Danes often say \"jeg forstår norsk\".",
+  "related": [
+   {
+    "da": "Norge",
+    "en": "Norway"
+   },
+   {
+    "da": "en nordmand",
+    "en": "a Norwegian"
+   },
+   {
+    "da": "svensk",
+    "en": "Swedish"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg forstår lidt **norsk**.",
+   "en": "I understand a little Norwegian."
+  }
+ },
+ "november": {
+  "forms": [
+   {
+    "da": "november",
+    "en": "November"
+   },
+   {
+    "da": "i november",
+    "en": "in November"
+   },
+   {
+    "da": "i starten af november",
+    "en": "early in November"
+   }
+  ],
+  "explanation": "\"November\" is November, written with a small letter. You say \"i november\" for in November. It is often the darkest, greyest month in Denmark, so Danes talk a lot about being cosy (\"hygge\") then. The spelling is the same as in English.",
+  "related": [
+   {
+    "da": "oktober",
+    "en": "October"
+   },
+   {
+    "da": "december",
+    "en": "December"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   }
+  ],
+  "sentence": {
+   "da": "Det er mørkt og gråt i **november**.",
+   "en": "It is dark and grey in November."
+  }
+ },
+ "nu": {
+  "forms": [
+   {
+    "da": "nu",
+    "en": "now"
+   },
+   {
+    "da": "lige nu",
+    "en": "right now"
+   },
+   {
+    "da": "nu om dage",
+    "en": "nowadays"
+   }
+  ],
+  "explanation": "\"Nu\" means now and is one of the most useful little words. \"Lige nu\" means right now, and \"nu om dage\" means nowadays. In conversation Danes also use \"nu\" to soften or stress a sentence, as in \"Det er nu ikke så svært\" (It is not that hard, really). The opposite is \"før\" (before) or \"senere\" (later).",
+  "related": [
+   {
+    "da": "senere",
+    "en": "later"
+   },
+   {
+    "da": "før",
+    "en": "before"
+   },
+   {
+    "da": "lige nu",
+    "en": "right now"
+   },
+   {
+    "da": "straks",
+    "en": "immediately"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal gå **nu**.",
+   "en": "I have to go now."
+  }
+ },
+ "nudler": {
+  "forms": [
+   {
+    "da": "nudler",
+    "en": "noodles"
+   },
+   {
+    "da": "kogte nudler",
+    "en": "boiled noodles"
+   },
+   {
+    "da": "nudler med grøntsager",
+    "en": "noodles with vegetables"
+   }
+  ],
+  "explanation": "\"Nudler\" means noodles and is normally used in the plural, with no \"en\" or \"et\" in front. You say \"nogle nudler\" for some noodles. Noodle dishes are often found in Asian restaurants, and you can also hear \"en nudelsuppe\" for noodle soup.",
+  "related": [
+   {
+    "da": "ris",
+    "en": "rice"
+   },
+   {
+    "da": "spaghetti",
+    "en": "spaghetti"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
+   },
+   {
+    "da": "en wok",
+    "en": "a wok"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser **nudler** med grøntsager.",
+   "en": "I eat noodles with vegetables."
+  }
+ },
+ "nul": {
+  "forms": [
+   {
+    "da": "nul",
+    "en": "zero"
+   },
+   {
+    "da": "nul grader",
+    "en": "zero degrees"
+   },
+   {
+    "da": "nul kroner",
+    "en": "zero kroner"
+   }
+  ],
+  "explanation": "\"Nul\" means zero. You use it for numbers and in phone numbers, for temperatures (\"nul grader\") and in scores: \"to–nul\" is two nil. It is also used in expressions like \"nul problem\" (no problem). The word is short, and the l is pronounced clearly.",
+  "related": [
+   {
+    "da": "en",
+    "en": "one"
+   },
+   {
+    "da": "ti",
+    "en": "ten"
+   },
+   {
+    "da": "ingen",
+    "en": "none / no one"
+   },
+   {
+    "da": "en grad",
+    "en": "a degree"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **nul** grader udenfor.",
+   "en": "It is zero degrees outside."
+  }
+ },
+ "ny": {
+  "forms": [
+   {
+    "da": "en ny bil",
+    "en": "a new car"
+   },
+   {
+    "da": "et nyt hus",
+    "en": "a new house"
+   },
+   {
+    "da": "nye biler",
+    "en": "new cars"
+   }
+  ],
+  "explanation": "\"Ny\" means new, for things you have just bought or that have just appeared. It adds \"t\" with et-words (\"et nyt hus\") and \"-e\" for more than one (\"nye venner\"). The opposite is \"gammel\" (old). A useful phrase is \"godt nytår\" (happy new year), where the \"nyt\" part comes from the same word.",
+  "related": [
+   {
+    "da": "gammel",
+    "en": "old"
+   },
+   {
+    "da": "nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "brugt",
+    "en": "used / second-hand"
+   },
+   {
+    "da": "nylig",
+    "en": "recently"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt en **ny** telefon.",
+   "en": "I have bought a new phone."
+  }
+ },
+ "nyheder": {
+  "forms": [
+   {
+    "da": "en nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "nyheder",
+    "en": "news"
+   },
+   {
+    "da": "nyhederne",
+    "en": "the news"
+   }
+  ],
+  "explanation": "\"Nyheder\" is the Danish word for \"news\", and it is always used in the plural. English says \"the news is\", but Danish says \"nyhederne er\". One single piece of news is \"en nyhed\". On TV, the evening news is called \"nyhederne\" or \"tv-avisen\".",
+  "related": [
+   {
+    "da": "en nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "at se nyheder",
+    "en": "to watch the news"
+   },
+   {
+    "da": "et tv",
+    "en": "a TV"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ser **nyheder** hver aften.",
+   "en": "I watch the news every evening."
+  }
+ },
+ "nytårsaften": {
+  "forms": [
+   {
+    "da": "nytårsaften",
+    "en": "New Year's Eve"
+   },
+   {
+    "da": "nytårsaftensdag",
+    "en": "New Year's Eve day"
+   },
+   {
+    "da": "til nytårsaften",
+    "en": "for New Year's Eve"
+   },
+   {
+    "da": "på nytårsaften",
+    "en": "on New Year's Eve"
+   }
+  ],
+  "explanation": "\"Nytårsaften\" is New Year's Eve, the 31st of December. It is built from \"nytår\" (new year) and \"aften\" (evening). It is an en-word, normally used with no \"en\". Danes watch the Queen or King's speech on TV, eat kransekage and set off fireworks at midnight.",
+  "related": [
+   {
+    "da": "et nytår",
+    "en": "a new year"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   },
+   {
+    "da": "et fyrværkeri",
+    "en": "fireworks"
+   },
+   {
+    "da": "en aften",
+    "en": "an evening"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fejrer **nytårsaften** med venner.",
+   "en": "We celebrate New Year's Eve with friends."
+  }
+ },
+ "nå": {
+  "forms": [
+   {
+    "da": "Nå, okay.",
+    "en": "Oh, okay."
+   },
+   {
+    "da": "Nå, hvad så?",
+    "en": "Well, what then?"
+   },
+   {
+    "da": "Nå, det var godt.",
+    "en": "Oh, that was good."
+   }
+  ],
+  "explanation": "\"Nå\" is a small sound word like \"well\" or \"oh\". You say it when you understand something, when you move on to something new, or when you are a little surprised. \"Nå, jeg forstår\" means \"oh, I see\". It is very common in speech. Don't mix it up with \"nu\", which means \"now\".",
+  "related": [
+   {
+    "da": "nu",
+    "en": "now"
+   },
+   {
+    "da": "åh",
+    "en": "oh"
+   },
+   {
+    "da": "okay",
+    "en": "okay"
+   }
+  ],
+  "sentence": {
+   "da": "**Nå**, skal vi så gå?",
+   "en": "Well, shall we go then?"
+  }
+ },
+ "når": {
+  "forms": [
+   {
+    "da": "når jeg kommer hjem",
+    "en": "when I get home"
+   },
+   {
+    "da": "når det regner",
+    "en": "when it rains"
+   },
+   {
+    "da": "hvornår?",
+    "en": "when?"
+   }
+  ],
+  "explanation": "\"Når\" means when, and it is used for things that happen again and again, or for the future: \"Når det regner, bliver jeg hjemme\". For one single event in the past use \"da\". For asking a question, use \"hvornår\".",
+  "related": [
+   {
+    "da": "da",
+    "en": "when (past)"
+   },
+   {
+    "da": "hvornår",
+    "en": "when (question)"
+   },
+   {
+    "da": "hvis",
+    "en": "if"
+   },
+   {
+    "da": "altid",
+    "en": "always"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer, **når** jeg kommer hjem.",
+   "en": "I will call when I get home."
+  }
+ },
+ "nær": {
+  "forms": [
+   {
+    "da": "en nær ven",
+    "en": "a close friend"
+   },
+   {
+    "da": "et nært forhold",
+    "en": "a close relationship"
+   },
+   {
+    "da": "nære venner",
+    "en": "close friends"
+   }
+  ],
+  "explanation": "\"Nær\" means near or close, and it is often used about people who are close to you: \"en nær ven\". With et-words it gets a \"t\" (\"et nært forhold\") and with more than one an \"e\" (\"nære venner\"). The opposite is \"fjern\" (far). To say \"near the station\", Danes often say \"tæt på stationen\".",
+  "related": [
+   {
+    "da": "fjern",
+    "en": "far / distant"
+   },
+   {
+    "da": "tæt på",
+    "en": "close to"
+   },
+   {
+    "da": "nærmere",
+    "en": "closer"
+   },
+   {
+    "da": "en ven",
+    "en": "a friend"
+   }
+  ],
+  "sentence": {
+   "da": "Han er en **nær** ven.",
+   "en": "He is a close friend."
+  }
+ },
+ "næsten": {
+  "forms": [
+   {
+    "da": "næsten færdig",
+    "en": "almost done"
+   },
+   {
+    "da": "Klokken er næsten otte.",
+    "en": "It is almost eight o'clock."
+   },
+   {
+    "da": "Det er næsten umuligt.",
+    "en": "It is almost impossible."
+   }
+  ],
+  "explanation": "\"Næsten\" means \"almost\" or \"nearly\" and goes before the word it softens, as in \"næsten færdig\" (almost done). It is also used for \"nearly\" with numbers and times. The word looks like \"næste\" (next), so watch the spelling: \"næsten\" has an extra n at the end. With a negative idea it can mean \"hardly\", as in \"næsten ingen\" (almost nobody).",
+  "related": [
+   {
+    "da": "helt",
+    "en": "completely"
+   },
+   {
+    "da": "ret",
+    "en": "fairly"
+   },
+   {
+    "da": "lidt",
+    "en": "a little"
+   },
+   {
+    "da": "næste",
+    "en": "next"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **næsten** færdig.",
+   "en": "I am almost done."
+  }
+ },
+ "nødt til": {
+  "forms": [
+   {
+    "da": "jeg er nødt til at gå",
+    "en": "I have to go"
+   },
+   {
+    "da": "du er nødt til at vente",
+    "en": "you have to wait"
+   },
+   {
+    "da": "vi er nødt til at tale",
+    "en": "we have to talk"
+   }
+  ],
+  "explanation": "\"Nødt til\" means have to, forced to, and it is used when you have no choice. It always comes as \"er nødt til at\" followed by an action word: \"Jeg er nødt til at gå\". It sounds a bit stronger than \"skal\" and often comes with a feeling of \"I have no other option\".",
+  "related": [
+   {
+    "da": "at skulle",
+    "en": "to have to / shall"
+   },
+   {
+    "da": "at måtte",
+    "en": "must / may"
+   },
+   {
+    "da": "at kunne",
+    "en": "to be able to"
+   },
+   {
+    "da": "tvunget",
+    "en": "forced"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **nødt til** at gå nu.",
+   "en": "I have to go now."
   }
  }
 }

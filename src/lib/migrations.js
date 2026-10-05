@@ -400,7 +400,7 @@ export function moveStrayCards(cards, categories) {
 // Brings the built-in grammar lessons someone already has up to date with
 // STARTER_GRAMMAR (new names, rules, patterns, examples, level). Only
 // touches built-in lessons; runs once per GRAMMAR_VERSION.
-export const GRAMMAR_VERSION = "10";
+export const GRAMMAR_VERSION = "11";
 
 export function syncGrammarLessons(cards) {
   let changed = false;
