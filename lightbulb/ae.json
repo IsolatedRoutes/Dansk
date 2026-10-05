@@ -38,8 +38,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser et **æble** hver morgen.",
-   "en": "I eat an apple every morning."
+   "da": "Jeg spiser et rødt **æble** og en gul banan.",
+   "en": "I eat a red apple and a yellow banana."
   }
  },
  "et æg": {
@@ -81,8 +81,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser et **æg** til morgenmad.",
-   "en": "I eat an egg for breakfast."
+   "da": "Jeg koger et **æg** til morgenmad.",
+   "en": "I boil an egg for breakfast."
   }
  },
  "ældre": {
@@ -139,7 +139,7 @@
     "en": "the oldest children"
    }
   ],
-  "explanation": "\"Ældst\" means \"oldest\". On its own it stays \"ældst\": \"Han er ældst\" (He is the oldest). The opposite is \"yngst\" (youngest).",
+  "explanation": "\"Ældst\" means \"oldest\" and is the step up from \"ældre\" (older): \"Han er ældst\" (He is the oldest). The opposite is \"yngst\" (youngest).",
   "related": [
    {
     "da": "gammel",
@@ -159,8 +159,8 @@
    }
   ],
   "sentence": {
-   "da": "Min bror er **ældst**.",
-   "en": "My brother is the oldest."
+   "da": "Min bror er tyve, jeg er femten og min søster er ti, så min bror er **ældst**.",
+   "en": "My brother is twenty, I am fifteen and my sister is ten, so my brother is the oldest."
   }
  },
  "ærter": {
@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene spiser **ærter** med kartofler.",
-   "en": "The children eat peas with potatoes."
+   "da": "Suppen er fuld af små, grønne **ærter**.",
+   "en": "The soup is full of small green peas."
   }
  }
 }

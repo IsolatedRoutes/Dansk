@@ -34,8 +34,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vasker** tøj hver søndag.",
-   "en": "I wash clothes every Sunday."
+   "da": "Jeg vil **vaske** tøjet, for det er snavset.",
+   "en": "I want to wash the clothes, because they are dirty."
   }
  },
  "at vaske op": {
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vasker op** efter aftensmad.",
-   "en": "I do the dishes after dinner."
+   "da": "Efter maden skal jeg **vaske op**, så tallerkenerne bliver rene.",
+   "en": "After the meal I have to do the dishes so the plates get clean."
   }
  },
  "at vaske sig": {
@@ -120,8 +120,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vasker mig** hver morgen.",
-   "en": "I wash myself every morning."
+   "da": "Han er snavset, så han skal **vaske sig**.",
+   "en": "He is dirty, so he has to wash himself."
   }
  },
  "at veje": {
@@ -143,7 +143,7 @@
     "en": "I have weighed"
    }
   ],
-  "explanation": "\"At veje\" works in two ways, as in English: you can weigh something (\"Jeg vejer pakken\", I weigh the package) or have a certain weight (\"Jeg vejer 70 kilo\", I weigh 70 kilos). The word for a scale, and for weight, is \"en vægt\".",
+  "explanation": "\"At veje\" means \"to weigh\". You can weigh something (\"Jeg vejer pakken\", I weigh the package) or have a certain weight (\"Jeg vejer 70 kilo\", I weigh 70 kilos). A scale, and also weight, is \"en vægt\" (a scale, a weight).",
   "related": [
    {
     "da": "en vægt",
@@ -163,8 +163,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du **veje** pakken for mig?",
-   "en": "Can you weigh the package for me?"
+   "da": "Jeg vil **veje** pakken, så jeg kan se, hvor tung den er.",
+   "en": "I want to weigh the package so I can see how heavy it is."
   }
  },
  "at vente": {
@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **venter** på bussen.",
-   "en": "I am waiting for the bus."
+   "da": "Bussen er her ikke endnu, så vi må **vente**.",
+   "en": "The bus is not here yet, so we have to wait."
   }
  },
  "at vente på": {
@@ -245,8 +245,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **venter på** bussen.",
-   "en": "I am waiting for the bus."
+   "da": "Toget kommer ikke endnu, så jeg må **vente på** det.",
+   "en": "The train is not coming yet, so I have to wait for it."
   }
  },
  "at vide": {
@@ -268,7 +268,7 @@
     "en": "I have known"
    }
   ],
-  "explanation": "\"At vide\" means \"to know\" a fact: \"Jeg ved det\" (I know it). The usual way to say \"I don't know\" is \"Jeg ved det ikke\". For knowing a person or a place, Danish uses a different word, \"at kende\" (to know someone).",
+  "explanation": "\"At vide\" means \"to know\" a fact: \"Jeg ved det ikke\" (I do not know). For knowing a person or a place, Danish uses a different word, \"at kende\" (to know someone).",
   "related": [
    {
     "da": "at kende",
@@ -284,8 +284,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **ved** ikke, hvor han er.",
-   "en": "I don't know where he is."
+   "da": "Jeg vil gerne **vide**, hvor du bor.",
+   "en": "I would like to know where you live."
   }
  },
  "at ville": {
@@ -323,8 +323,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vil** gerne have en kop te.",
-   "en": "I would like a cup of tea."
+   "da": "Hun sagde, at hun **ville** have en kop te.",
+   "en": "She said that she wanted a cup of tea."
   }
  },
  "at vinde": {
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **vinder** kampen i dag.",
-   "en": "We are winning the match today."
+   "da": "Vi kan **vinde** kampen, hvis vi spiller godt.",
+   "en": "We can win the match if we play well."
   }
  },
  "at vise": {
@@ -401,8 +401,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du **vise** mig vej?",
-   "en": "Can you show me the way?"
+   "da": "Jeg kender ikke byen. Kan du **vise** mig vej?",
+   "en": "I don't know the city. Can you show me the way?"
   }
  },
  "at vågne": {
@@ -424,7 +424,7 @@
     "en": "I have woken up"
    }
   ],
-  "explanation": "\"At vågne\" means \"to wake up\" by yourself: \"Jeg vågner klokken syv\" (I wake up at seven). When someone else wakes you, Danish uses \"at vække\" (to wake someone). Notice that \"have woken up\" uses \"er\" (am), not \"har\" (have): \"Jeg er vågnet\".",
+  "explanation": "\"At vågne\" means \"to wake up\" by yourself: \"Jeg vågner klokken syv\" (I wake up at seven). When someone else wakes you, Danish uses \"at vække\" (to wake someone).",
   "related": [
    {
     "da": "at sove",
@@ -440,8 +440,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vågner** tidligt hver dag.",
-   "en": "I wake up early every day."
+   "da": "Jeg skal **vågne** klokken syv, så jeg sætter vækkeuret.",
+   "en": "I have to wake up at seven, so I set the alarm clock."
   }
  },
  "at vågne op": {
@@ -483,8 +483,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **vågner op** klokken syv.",
-   "en": "I wake up at seven o'clock."
+   "da": "Telefonen ringer, og jeg må **vågne op**.",
+   "en": "The phone rings, and I have to wake up."
   }
  },
  "at vælge": {
@@ -522,8 +522,8 @@
    }
   ],
   "sentence": {
-   "da": "Du må **vælge** en farve.",
-   "en": "You may choose a colour."
+   "da": "Der er rød, blå og grøn. Du må **vælge** en.",
+   "en": "There is red, blue and green. You may choose one."
   }
  },
  "at være": {
@@ -545,7 +545,7 @@
     "en": "I have been"
    }
   ],
-  "explanation": "\"At være\" means \"to be\", and it is one of the most important words in Danish: \"Jeg er træt\" (I am tired). It is used for saying how someone is, where something is, and what someone is. Unlike English, \"er\" stays the same for I, you, he, we and they: \"jeg er\", \"han er\", \"vi er\".",
+  "explanation": "\"At være\" means \"to be\", and it is one of the most important words in Danish: \"Jeg er træt\" (I am tired). It is used for saying how someone is, where something is, and what someone is. The present form \"er\" is the same for everyone: \"jeg er\" (I am), \"han er\" (he is), \"vi er\" (we are).",
   "related": [
    {
     "da": "at blive",
@@ -561,8 +561,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **er** hjemme i dag.",
-   "en": "I am at home today."
+   "da": "Jeg er træt, så jeg vil **være** hjemme i dag.",
+   "en": "I am tired, so I want to be at home today."
   }
  },
  "at være syg": {
@@ -604,8 +604,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søn **er syg** i dag.",
-   "en": "My son is sick today."
+   "da": "Jeg har feber og hoste, så jeg må **være syg** hjemme.",
+   "en": "I have a fever and a cough, so I have to be sick at home."
   }
  },
  "at være væk": {
@@ -647,8 +647,8 @@
    }
   ],
   "sentence": {
-   "da": "Min nøgle **er væk**.",
-   "en": "My key is gone."
+   "da": "Jeg kan ikke finde min nøgle. Den må **være væk**.",
+   "en": "I can't find my key. It must be gone."
   }
  },
  "en vaccine": {
@@ -690,8 +690,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun fik **en vaccine** i går.",
-   "en": "She got a vaccine yesterday."
+   "da": "Lægen gav mig en **vaccine** mod influenza.",
+   "en": "The doctor gave me a vaccine against the flu."
   }
  },
  "en vegetar": {
@@ -756,7 +756,7 @@
     "en": "the roads"
    }
   ],
-  "explanation": "\"En vej\" means \"a road\" and also \"a way\" or route. \"At spørge om vej\" means \"to ask for directions\", with no \"en\" before \"vej\". Street names often end in \"-vej\", like \"Strandvejen\" (the beach road).",
+  "explanation": "\"En vej\" means \"a road\" and also \"a way\" or route: \"Hvilken vej skal jeg gå?\" means \"Which way should I go?\". \"At spørge om vej\" means \"to ask for directions\", with no \"en\" before \"vej\".",
   "related": [
    {
     "da": "en gade",
@@ -776,8 +776,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvilken **vej** skal jeg gå?",
-   "en": "Which way should I go?"
+   "da": "Vi gik langs en lang **vej** med mange træer.",
+   "en": "We walked along a long road with many trees."
   }
  },
  "en vejrudsigt": {
@@ -819,8 +819,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvad siger **vejrudsigten** for i morgen?",
-   "en": "What does the weather forecast say for tomorrow?"
+   "da": "Jeg læser en **vejrudsigt** på nettet, og i morgen regner det.",
+   "en": "I read a weather forecast online, and tomorrow it will rain."
   }
  },
  "en ven": {
@@ -862,8 +862,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er min bedste **ven**.",
-   "en": "He is my best friend."
+   "da": "Min **ven** hjælper mig, når jeg er ked af det.",
+   "en": "My friend helps me when I am sad."
   }
  },
  "en veninde": {
@@ -905,8 +905,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal ud med min **veninde**.",
-   "en": "I am going out with my friend."
+   "da": "Jeg ringer til min **veninde**, for hun er syg.",
+   "en": "I am calling my (female) friend, because she is sick."
   }
  },
  "en verden": {
@@ -971,7 +971,7 @@
     "en": "the wines"
    }
   ],
-  "explanation": "\"En vin\" means \"a wine\". Danes often name the colour: \"en rødvin\" (a red wine) or \"en hvidvin\" (a white wine). To order, say \"et glas vin\" (a glass of wine) or \"en flaske vin\" (a bottle of wine).",
+  "explanation": "\"En vin\" means \"a wine\". You can name the colour: \"en rødvin\" (a red wine) or \"en hvidvin\" (a white wine). To order, say \"et glas vin\" (a glass of wine) or \"en flaske vin\" (a bottle of wine).",
   "related": [
    {
     "da": "en rødvin",
@@ -1014,7 +1014,7 @@
     "en": "the winters"
    }
   ],
-  "explanation": "\"En vinter\" means \"a winter\". Use \"om vinteren\" for \"in the winter\" in general, and \"i vinter\" for \"this winter\". The \"e\" before the \"r\" disappears in the plural \"vintre\".",
+  "explanation": "\"En vinter\" means \"a winter\". Use \"om vinteren\" for \"in the winter\" in general, and \"i vinter\" for \"this winter\". The plural is \"vintre\" (the \"e\" of \"vinter\" is dropped).",
   "related": [
    {
     "da": "en sommer",
@@ -1034,8 +1034,8 @@
    }
   ],
   "sentence": {
-   "da": "Det bliver tidligt mørkt om **vinteren**.",
-   "en": "It gets dark early in the winter."
+   "da": "En **vinter** i Danmark er kold og mørk.",
+   "en": "A winter in Denmark is cold and dark."
   }
  },
  "en vinterjakke": {
@@ -1077,8 +1077,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal have en ny **vinterjakke**.",
-   "en": "I need a new winter jacket."
+   "da": "Det er koldt i dag, så jeg tager min **vinterjakke** på.",
+   "en": "It is cold today, so I put on my winter jacket."
   }
  },
  "en væg": {
@@ -1120,8 +1120,8 @@
    }
   ],
   "sentence": {
-   "da": "Der hænger et billede på **væggen**.",
-   "en": "A picture is hanging on the wall."
+   "da": "Der hænger et billede på en **væg** i stuen.",
+   "en": "A picture hangs on a wall in the living room."
   }
  },
  "et vandrerhjem": {
@@ -1163,8 +1163,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi bor på **et vandrerhjem**.",
-   "en": "We are staying at a hostel."
+   "da": "Hotellet er dyrt, så vi bor på et **vandrerhjem**.",
+   "en": "The hotel is expensive, so we stay at a hostel."
   }
  },
  "et venteværelse": {
@@ -1206,8 +1206,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi sidder i **venteværelset**.",
-   "en": "We are sitting in the waiting room."
+   "da": "Vi sidder i et **venteværelse** og venter på lægen.",
+   "en": "We sit in a waiting room and wait for the doctor."
   }
  },
  "et vindue": {
@@ -1249,8 +1249,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er et **vindue** i køkkenet.",
-   "en": "There is a window in the kitchen."
+   "da": "Jeg åbner et **vindue**, fordi der er varmt.",
+   "en": "I open a window because it is warm."
   }
  },
  "et visum": {
@@ -1272,7 +1272,7 @@
     "en": "the visas"
    }
   ],
-  "explanation": "\"Et visum\" means \"a visa\", permission to enter or stay in a country. You apply for one with \"at søge om\" (to apply for): \"Jeg søger om et visum\" means \"I am applying for a visa\". The plural \"visa\" looks quite different from the single word.",
+  "explanation": "\"Et visum\" means \"a visa\", permission to enter or stay in a country. You apply for one with \"at søge om\" (to apply for): \"Jeg søger om et visum\" means \"I am applying for a visa\".",
   "related": [
    {
     "da": "et pas",
@@ -1292,8 +1292,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal bruge **et visum**.",
-   "en": "I need a visa."
+   "da": "Før du rejser til landet, skal du søge om et **visum**.",
+   "en": "Before you travel to the country, you must apply for a visa."
   }
  },
  "et værelse": {
@@ -1393,7 +1393,7 @@
     "en": "warm days"
    }
   ],
-  "explanation": "\"Varm\" means both \"warm\" and \"hot\", for weather, food, drinks and rooms. Danish does not split them like English; for very hot weather people say \"meget varmt\" (very hot) or \"hedt\" (hot). The opposite is \"kold\" (cold).",
+  "explanation": "\"Varm\" means both \"warm\" and \"hot\", for weather, food, drinks and rooms: \"varm kaffe\" (hot coffee) and \"en varm dag\" (a warm day). The opposite is \"kold\" (cold).",
   "related": [
    {
     "da": "kold",
@@ -1413,8 +1413,8 @@
    }
   ],
   "sentence": {
-   "da": "Kaffen er stadig **varm**.",
-   "en": "The coffee is still hot."
+   "da": "Suppen kommer lige fra komfuret, så den er meget **varm**.",
+   "en": "The soup comes straight from the stove, so it is very hot."
   }
  },
  "varme": {
@@ -1452,8 +1452,8 @@
    }
   ],
   "sentence": {
-   "da": "**Varmen** er svær at holde ud i dag.",
-   "en": "The heat is hard to bear today."
+   "da": "Jeg kan ikke tåle **varme**, så jeg bliver hjemme, når solen skinner.",
+   "en": "I can't stand heat, so I stay at home when the sun is shining."
   }
  },
  "ved": {
@@ -1549,7 +1549,7 @@
     "en": "vegetarian dishes"
    }
   ],
-  "explanation": "\"Vegetarisk\" means \"vegetarian\", meaning without meat, and describes food. In a restaurant you can ask \"Har I noget vegetarisk?\" (Do you have anything vegetarian?). For a person who is a vegetarian, say \"en vegetar\".",
+  "explanation": "\"Vegetarisk\" means \"vegetarian\", meaning without meat, and describes food. In a restaurant you can ask \"Har I noget vegetarisk?\" (Do you have anything vegetarian?). For a person who is a vegetarian, say \"en vegetar\" (a vegetarian).",
   "related": [
    {
     "da": "en vegetar",
@@ -1569,8 +1569,8 @@
    }
   ],
   "sentence": {
-   "da": "Har I en **vegetarisk** ret?",
-   "en": "Do you have a vegetarian dish?"
+   "da": "Jeg spiser ikke kød, så jeg vil gerne have en **vegetarisk** ret.",
+   "en": "I don't eat meat, so I would like a vegetarian dish."
   }
  },
  "vejr": {
@@ -1608,8 +1608,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvordan er **vejret** i dag?",
-   "en": "How is the weather today?"
+   "da": "Det er godt **vejr**, og solen skinner.",
+   "en": "The weather is good and the sun is shining."
   }
  },
  "velbekomme": {
@@ -1627,7 +1627,7 @@
     "en": "You're welcome, it was nothing."
    }
   ],
-  "explanation": "\"Velbekomme\" means \"enjoy your meal\" when you serve food, and \"you're welcome\" when someone says \"tak for mad\" (thanks for the meal). It is only used about food and drink. For other thanks, say \"selv tak\" or \"det var så lidt\" (you're welcome / it was nothing).",
+  "explanation": "\"Velbekomme\" means \"enjoy your meal\" when you serve food, and \"you're welcome\" when someone says \"tak for mad\" (thanks for the meal). It is only used about food and drink. For other thanks, say \"selv tak\" (you're welcome) or \"det var så lidt\" (it was nothing).",
   "related": [
    {
     "da": "tak for mad",
@@ -1643,7 +1643,7 @@
    }
   ],
   "sentence": {
-   "da": "Her er suppen. **Velbekomme!**",
+   "da": "Her er suppen. **Velbekomme**!",
    "en": "Here is the soup. Enjoy!"
   }
  },
@@ -1701,7 +1701,7 @@
     "en": "friendly people"
    }
   ],
-  "explanation": "\"Venlig\" means \"friendly\" or \"kind\", for people, voices and smiles. \"Venlig hilsen\" (kind regards) is the usual way to end an email. The opposite is \"uvenlig\" (unfriendly).",
+  "explanation": "\"Venlig\" means \"friendly\" or \"kind\", for people, voices and smiles. \"Venlig hilsen\" (kind regards) is how you end a letter or an email. The opposite is \"uvenlig\" (unfriendly).",
   "related": [
    {
     "da": "uvenlig",
@@ -1721,8 +1721,8 @@
    }
   ],
   "sentence": {
-   "da": "Alle er meget **venlige** her.",
-   "en": "Everyone is very friendly here."
+   "da": "Hun er så **venlig**, og hun smiler altid til mig.",
+   "en": "She is so friendly, and she always smiles at me."
   }
  },
  "venstre": {
@@ -1853,7 +1853,7 @@
     "en": "Shall we go?"
    }
   ],
-  "explanation": "\"Vi\" means \"we\". Use it when \"we\" are the ones doing something: \"Vi bor her\" (We live here). When \"we\" are on the receiving end, use \"os\" (us): \"Han ser os\" (He sees us). In questions \"vi\" moves behind the first word, as in \"Skal vi gå?\" (Shall we go?).",
+  "explanation": "\"Vi\" means \"we\". Use it when \"we\" are the ones doing something: \"Vi bor her\" (We live here). When \"we\" are on the receiving end, use \"os\" (us): \"Han ser os\" (He sees us).",
   "related": [
    {
     "da": "jeg",
@@ -1873,8 +1873,8 @@
    }
   ],
   "sentence": {
-   "da": "**Vi** skal i biografen i aften.",
-   "en": "We are going to the cinema tonight."
+   "da": "Min mand og jeg bor i Aarhus. **Vi** har to børn.",
+   "en": "My husband and I live in Aarhus. We have two children."
   }
  },
  "vi ses": {
@@ -1962,7 +1962,7 @@
     "en": "important meetings"
    }
   ],
-  "explanation": "\"Vigtig\" means \"important\", for things, people, news and decisions. After \"det er\" it gets a \"t\": \"Det er vigtigt at sove\" (It is important to sleep).",
+  "explanation": "\"Vigtig\" means \"important\", for things, people, news and decisions: \"en vigtig beslutning\" (an important decision).",
   "related": [
    {
     "da": "ligegyldig",
@@ -1982,8 +1982,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er **vigtigt** at drikke vand.",
-   "en": "It is important to drink water."
+   "da": "I morgen er en **vigtig** dag, så jeg går tidligt i seng.",
+   "en": "Tomorrow is an important day, so I am going to bed early."
   }
  },
  "vind": {
@@ -2021,8 +2021,8 @@
    }
   ],
   "sentence": {
-   "da": "**Vinden** er kold i dag.",
-   "en": "The wind is cold today."
+   "da": "Der er meget **vind** i dag, og min hat blæser af hovedet.",
+   "en": "There is a lot of wind today and my hat is blowing off my head."
   }
  },
  "virkelig": {
@@ -2060,8 +2060,8 @@
    }
   ],
   "sentence": {
-   "da": "Det var **virkelig** dejligt.",
-   "en": "That was really lovely."
+   "da": "Maden var **virkelig** god, jeg vil gerne have mere.",
+   "en": "The food was really good, I would like some more."
   }
  },
  "vores": {
@@ -2138,8 +2138,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun er **vred** på sin bror.",
-   "en": "She is angry with her brother."
+   "da": "Hun råber højt, fordi hun er **vred** på sin bror.",
+   "en": "She shouts loudly because she is angry with her brother."
   }
  },
  "våd": {
@@ -2157,7 +2157,7 @@
     "en": "wet dogs"
    }
   ],
-  "explanation": "\"Våd\" means \"wet\", for clothes, hair, the ground, or anything soaked with water. After \"det er\" it gets a \"t\": \"Det er vådt udenfor\" (It is wet outside). The opposite is \"tør\" (dry).",
+  "explanation": "\"Våd\" means \"wet\", for clothes, hair, the ground, or anything soaked with water: \"Det regner, så jakken er våd\" (It is raining, so the jacket is wet). The opposite is \"tør\" (dry).",
   "related": [
    {
     "da": "tør",
@@ -2177,8 +2177,8 @@
    }
   ],
   "sentence": {
-   "da": "Mine sko er helt **våde**.",
-   "en": "My shoes are completely wet."
+   "da": "Hunden har været i søen, så den er helt **våd**.",
+   "en": "The dog has been in the lake, so it is completely wet."
   }
  },
  "vågen": {
@@ -2216,8 +2216,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg var **vågen** hele natten.",
-   "en": "I was awake all night."
+   "da": "Jeg kan ikke sove, jeg er **vågen** hele natten.",
+   "en": "I can't sleep, I am awake all night."
   }
  },
  "væk": {
@@ -2255,8 +2255,8 @@
    }
   ],
   "sentence": {
-   "da": "Min taske er **væk**.",
-   "en": "My bag is gone."
+   "da": "Jeg kan ikke finde min taske. Den er **væk**!",
+   "en": "I can't find my bag. It is gone!"
   }
  },
  "værre": {
@@ -2274,7 +2274,7 @@
     "en": "worse days"
    }
   ],
-  "explanation": "\"Værre\" means \"worse\" and is the step up from \"dårlig\" (bad). Use it to compare: \"Det er værre end før\" (It is worse than before). The ending never changes, whatever it describes.",
+  "explanation": "\"Værre\" means \"worse\" and is the step up from \"dårlig\" (bad). Use it to compare: \"Det er værre end før\" (It is worse than before). \"Et værre rod\" (a real mess) is a set phrase.",
   "related": [
    {
     "da": "dårlig",
@@ -2294,8 +2294,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er **værre** end før.",
-   "en": "It is worse than before."
+   "da": "I går var det dårligt vejr, men i dag er det endnu **værre**.",
+   "en": "Yesterday the weather was bad, but today it is even worse."
   }
  },
  "værsgo": {
@@ -2348,7 +2348,7 @@
     "en": "the worst days"
    }
   ],
-  "explanation": "\"Værst\" means \"worst\" and is the step up from \"værre\" (worse), which comes from \"dårlig\" (bad). On its own it stays \"værst\": \"Det er værst\" (It is the worst). The opposite is \"bedst\" (best).",
+  "explanation": "\"Værst\" means \"worst\" and is the step up from \"værre\" (worse), which comes from \"dårlig\" (bad): \"Det er værst\" (It is the worst). The opposite is \"bedst\" (best).",
   "related": [
    {
     "da": "dårlig",
@@ -2368,8 +2368,8 @@
    }
   ],
   "sentence": {
-   "da": "Det var den **værste** dag i mit liv.",
-   "en": "It was the worst day of my life."
+   "da": "Mandag var en dårlig dag, men tirsdag var **værst**.",
+   "en": "Monday was a bad day, but Tuesday was the worst."
   }
  }
 }

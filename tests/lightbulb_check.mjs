@@ -17,6 +17,14 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     if (!Array.isArray(e.related) || !e.related.length) fail(k + ": related");
     if (!e.sentence || !e.sentence.da || !e.sentence.en) fail(k + ": sentence");
     else if (!/\*\*[^*]+\*\*/.test(e.sentence.da)) fail(k + ": sentence word not marked with **");
+    else {
+      // The marked word must be the card's own word (no en/et/at), not a "the" or plural form.
+      const norm = (x) => x.toLowerCase().replace(/[^\p{L}\d ]/gu, "").trim();
+      const marked = e.sentence.da.match(/\*\*([^*]+)\*\*/)[1];
+      const base = k.replace(/^(en|et|at) /, "");
+      const loose = ["både…og", "enten…eller", "er det ...?", "en / et"];
+      if (!loose.includes(k) && ![norm(base), norm(k)].includes(norm(marked))) fail(k + ": sentence marks '" + marked + "' instead of the card's word");
+    }
   }
 }
 console.log(n + " ready-made entries checked");

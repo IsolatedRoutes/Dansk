@@ -38,8 +38,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **cykler** på arbejde hver dag.",
-   "en": "I cycle to work every day."
+   "da": "Jeg vil **cykle** på arbejde, for jeg har en ny cykel.",
+   "en": "I want to cycle to work, because I have a new bike."
   }
  },
  "chips": {
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser **chips** og ser film.",
-   "en": "We eat chips and watch a film."
+   "da": "**Chips** er lavet af kartofler og smager salt.",
+   "en": "Chips are made of potatoes and taste salty."
   }
  },
  "chokolade": {
@@ -116,8 +116,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg elsker mørk **chokolade**.",
-   "en": "I love dark chocolate."
+   "da": "**Chokolade** er sød og brun, og den smelter i solen.",
+   "en": "Chocolate is sweet and brown, and it melts in the sun."
   }
  },
  "cirka": {
@@ -155,8 +155,8 @@
    }
   ],
   "sentence": {
-   "da": "Turen tager **cirka** en time.",
-   "en": "The trip takes about an hour."
+   "da": "Det er ikke præcis tre kilometer, men **cirka** tre.",
+   "en": "It is not exactly three kilometers, but about three."
   }
  },
  "cornflakes": {
@@ -174,7 +174,7 @@
     "en": "I eat cornflakes."
    }
   ],
-  "explanation": "\"Cornflakes\" means \"cornflakes\", the same breakfast cereal as in English. It is not counted: you say \"nogle cornflakes\" (some cornflakes) or \"en skål cornflakes\" (a bowl of cornflakes).",
+  "explanation": "\"Cornflakes\" means \"cornflakes\", the breakfast cereal. You say \"nogle cornflakes\" (some cornflakes), because you do not count them.",
   "related": [
    {
     "da": "havregryn",
@@ -194,8 +194,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser **cornflakes** til morgenmad.",
-   "en": "I eat cornflakes for breakfast."
+   "da": "Jeg hælder mælk over mine **cornflakes** og spiser dem til morgenmad.",
+   "en": "I pour milk over my cornflakes and eat them for breakfast."
   }
  },
  "cykling": {
@@ -233,8 +233,8 @@
    }
   ],
   "sentence": {
-   "da": "**Cykling** er sundt og godt for miljøet.",
-   "en": "Cycling is healthy and good for the environment."
+   "da": "Jeg har en ny cykel, og **cykling** er min hobby.",
+   "en": "I have a new bicycle, and cycling is my hobby."
   }
  },
  "en café": {
@@ -256,7 +256,7 @@
     "en": "the cafes"
    }
   ],
-  "explanation": "\"En café\" means \"a cafe\", a place for coffee, cake or a light meal. It is spelled with the accent on the e, like in French, and the accent stays in all forms. A cafe is less formal than \"en restaurant\" (a restaurant).",
+  "explanation": "\"En café\" means \"a cafe\", a place for coffee, cake or a light meal. It is written with an accent on the \"e\" (\"é\"). A cafe is less formal than \"en restaurant\" (a restaurant).",
   "related": [
    {
     "da": "en kaffe",
@@ -276,8 +276,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi mødes på **caféen**.",
-   "en": "We are meeting at the cafe."
+   "da": "Vi drikker kaffe og spiser kage på en **café**.",
+   "en": "We drink coffee and eat cake at a cafe."
   }
  },
  "en centimeter": {
@@ -342,7 +342,7 @@
     "en": "the bosses"
    }
   ],
-  "explanation": "\"En chef\" means \"a boss\" or manager. The \"ch\" sounds like English \"sh\". You can say \"min chef\" (my boss). It is also used for the head of a kitchen: \"en køkkenchef\" (a head chef).",
+  "explanation": "\"En chef\" means \"a boss\" or \"a manager\". The \"ch\" sounds like English \"sh\". For the head of a kitchen, Danish says \"en køkkenchef\" (a head chef).",
   "related": [
    {
     "da": "en kollega",
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **chef** er meget venlig.",
-   "en": "My boss is very friendly."
+   "da": "Min **chef** siger, at jeg skal arbejde i dag.",
+   "en": "My boss says that I must work today."
   }
  },
  "en citron": {
@@ -385,7 +385,7 @@
     "en": "the lemons"
    }
   ],
-  "explanation": "\"En citron\" means \"a lemon\". The Danish word looks nothing like \"lemon\", and the stress is on the last part: \"ci-TRON\".",
+  "explanation": "\"En citron\" means \"a lemon\", a sour yellow fruit. The stress is on the last part: \"ci-TRON\".",
   "related": [
    {
     "da": "en appelsin",
@@ -428,7 +428,7 @@
     "en": "the computers"
    }
   ],
-  "explanation": "\"En computer\" means \"a computer\". It is spelled like the English word but said with a Danish sound. A laptop is \"en bærbar computer\" (a portable computer) or just \"en bærbar\".",
+  "explanation": "\"En computer\" means \"a computer\", spelled just like the English word. A laptop is \"en bærbar computer\" (a portable computer) or just \"en bærbar\".",
   "related": [
    {
     "da": "en telefon",
@@ -448,8 +448,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **computer** er ny.",
-   "en": "My computer is new."
+   "da": "Jeg skriver en e-mail på min **computer**.",
+   "en": "I am writing an email on my computer."
   }
  },
  "en cykel": {
@@ -491,8 +491,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **cykel** er ny.",
-   "en": "My bike is new."
+   "da": "Jeg kører på **cykel** til skole.",
+   "en": "I ride a bike to school."
   }
  },
  "en cykeltur": {
@@ -514,7 +514,7 @@
     "en": "the bike rides"
    }
   ],
-  "explanation": "\"En cykeltur\" means \"a bike ride\" or a trip on a bicycle. It is made from \"cykel\" (bicycle) and \"tur\" (trip). You say \"tage på cykeltur\" (go on a bike ride) or \"cykle en tur\" (go for a ride).",
+  "explanation": "\"En cykeltur\" means \"a bike ride\". It is made from \"cykel\" (bicycle) and \"tur\" (trip). You say \"tage på cykeltur\" (go on a bike ride).",
   "related": [
    {
     "da": "en cykel",
@@ -534,8 +534,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi tager på **cykeltur** i weekenden.",
-   "en": "We are going on a bike ride at the weekend."
+   "da": "Vi tager på **cykeltur** i skoven på vores cykler.",
+   "en": "We go on a bike ride in the forest on our bicycles."
   }
  },
  "et check-in": {
@@ -553,7 +553,7 @@
     "en": "online check-in"
    }
   ],
-  "explanation": "\"Et check-in\" means \"a check-in\", the desk or process where you register for a flight or a hotel. It is borrowed from English, and \"online check-in\" is used the same way.",
+  "explanation": "\"Et check-in\" means \"a check-in\", the desk or moment where you register when you arrive at a hotel or an airport. It is borrowed from English and is written with a hyphen.",
   "related": [
    {
     "da": "et boardingpas",
@@ -573,8 +573,8 @@
    }
   ],
   "sentence": {
-   "da": "**Check-in** åbner klokken seks.",
-   "en": "Check-in opens at six o'clock."
+   "da": "Ved **check-in** får du nøglen til dit værelse.",
+   "en": "At check-in you get the key to your room."
   }
  },
  "et cpr-nummer": {
@@ -596,7 +596,7 @@
     "en": "the CPR numbers"
    }
   ],
-  "explanation": "\"Et CPR-nummer\" means \"a CPR number\", the ten-digit personal ID number everyone living in Denmark has: six digits for the birth date, then four more. You are asked for it at the doctor and the bank, and people often just say \"CPR\".",
+  "explanation": "\"Et CPR-nummer\" means \"a CPR number\", the ten-digit personal ID number that everyone living in Denmark has. The first six digits are the birth date (day, month, year).",
   "related": [
    {
     "da": "et sygesikringskort",
@@ -616,8 +616,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvad er dit **CPR-nummer**?",
-   "en": "What is your CPR number?"
+   "da": "Jeg skriver mit **CPR-nummer** på formularen hos lægen.",
+   "en": "I write my CPR number on the form at the doctor's."
   }
  }
 }

@@ -38,8 +38,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bager** en kage til din fødselsdag.",
-   "en": "I am baking a cake for your birthday."
+   "da": "Jeg vil **bage** en kage i ovnen.",
+   "en": "I want to bake a cake in the oven."
   }
  },
  "at begynde": {
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Filmen **begynder** klokken otte.",
-   "en": "The film starts at eight o'clock."
+   "da": "Filmen skal **begynde** klokken otte, og den slutter klokken ti.",
+   "en": "The film is going to start at eight, and it ends at ten."
   }
  },
  "at behøve": {
@@ -116,8 +116,8 @@
    }
   ],
   "sentence": {
-   "da": "Du **behøver** ikke at komme i dag.",
-   "en": "You do not need to come today."
+   "da": "Med billet vil du ikke **behøve** at betale mere.",
+   "en": "With a ticket you will not need to pay more."
   }
  },
  "at bestille": {
@@ -139,7 +139,7 @@
     "en": "I have ordered"
    }
   ],
-  "explanation": "\"At bestille\" means \"to order\" or \"to book\", for example food in a restaurant or a table in advance: \"Jeg vil gerne bestille et bord\" (I would like to book a table). To ask for a meal you can also say \"Jeg vil gerne have...\" (I would like to have...).",
+  "explanation": "\"At bestille\" means \"to order\" or \"to book\", for example food or a table: \"Jeg vil gerne bestille et bord\" (I would like to book a table). To ask for a meal you can also say \"Jeg vil gerne have...\" (I would like to have...).",
   "related": [
    {
     "da": "en tjener",
@@ -159,8 +159,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **bestille** et bord til to.",
-   "en": "I would like to book a table for two."
+   "da": "Jeg vil gerne **bestille** en pizza med ost til aftensmad.",
+   "en": "I would like to order a pizza with cheese for dinner."
   }
  },
  "at bestille tid": {
@@ -203,7 +203,7 @@
   ],
   "sentence": {
    "da": "Jeg vil gerne **bestille tid** hos lægen.",
-   "en": "I would like to make an appointment at the doctor."
+   "en": "I would like to make an appointment with the doctor."
   }
  },
  "at besøge": {
@@ -225,7 +225,7 @@
     "en": "I have visited"
    }
   ],
-  "explanation": "\"At besøge\" means \"to visit\". You put the person or place straight after it, with no word for \"to\": \"Jeg besøger min mormor\" (I visit my grandmother). You can also say \"komme på besøg\" (to come for a visit).",
+  "explanation": "\"At besøge\" means \"to visit\". You put the person or place straight after it, with no word for \"to\": \"Jeg besøger Anna\" (I visit Anna). You can also say \"komme på besøg\" (to come for a visit).",
   "related": [
    {
     "da": "et besøg",
@@ -241,8 +241,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **besøger** min mormor hver søndag.",
-   "en": "We visit my grandmother every Sunday."
+   "da": "Jeg vil **besøge** min mormor og drikke kaffe hos hende.",
+   "en": "I want to visit my grandmother and drink coffee at her place."
   }
  },
  "at betale": {
@@ -264,7 +264,7 @@
     "en": "I have paid"
    }
   ],
-  "explanation": "\"At betale\" means \"to pay\". Say what you pay for with \"for\": \"Jeg betaler for kaffen\" (I pay for the coffee). In shops you may hear \"Hvordan vil du betale?\" (How do you want to pay?).",
+  "explanation": "\"At betale\" means \"to pay\". Say what you pay for with \"for\": \"Jeg betaler for billetten\" (I pay for the ticket). The amount comes straight after it: \"Jeg betaler hundrede kroner\" (I pay a hundred kroner).",
   "related": [
    {
     "da": "en betaling",
@@ -280,8 +280,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **betaler** med kort.",
-   "en": "I pay by card."
+   "da": "Kaffen koster 40 kroner, så jeg skal **betale** 40 kroner.",
+   "en": "The coffee costs 40 kroner, so I have to pay 40 kroner."
   }
  },
  "at betale med kort": {
@@ -303,7 +303,7 @@
     "en": "I have paid by card"
    }
   ],
-  "explanation": "\"At betale med kort\" means \"to pay by card\". In shops you may hear \"Kort eller kontant?\" (Card or cash?). To pay in cash, say \"at betale kontant\". \"Med\" means \"with\".",
+  "explanation": "\"At betale med kort\" means \"to pay by card\". \"Med\" means \"with\", so it is literally \"to pay with card\". To pay in cash, say \"at betale kontant\" (to pay in cash).",
   "related": [
    {
     "da": "kontant",
@@ -323,8 +323,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **betale med kort**.",
-   "en": "I would like to pay by card."
+   "da": "Jeg har ingen kontanter, så jeg vil gerne **betale med kort**.",
+   "en": "I have no cash, so I would like to pay by card."
   }
  },
  "at betyde": {
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvad **betyder** det ord?",
-   "en": "What does that word mean?"
+   "da": "Hvad kan det ord **betyde**? Jeg forstår det ikke.",
+   "en": "What can that word mean? I do not understand it."
   }
  },
  "at blive": {
@@ -401,8 +401,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bliver** hjemme i aften.",
-   "en": "I am staying home tonight."
+   "da": "Når jeg er stor, vil jeg **blive** læge.",
+   "en": "When I am grown up, I want to become a doctor."
   }
  },
  "at blive bange": {
@@ -444,8 +444,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet **bliver bange** i mørket.",
-   "en": "The child gets scared in the dark."
+   "da": "Lyden er høj, så små børn kan **blive bange**.",
+   "en": "The sound is loud, so small children can get scared."
   }
  },
  "at blive gift": {
@@ -487,8 +487,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal **blive gift** i sommer.",
-   "en": "We are going to get married this summer."
+   "da": "Vi skal **blive gift**, og vi holder bryllup i sommer.",
+   "en": "We are going to get married, and we are having a wedding this summer."
   }
  },
  "at blive hjemme": {
@@ -510,7 +510,7 @@
     "en": "I have stayed home"
    }
   ],
-  "explanation": "\"At blive hjemme\" means \"to stay home\". \"Blive\" means \"to stay\" here, and \"hjemme\" means \"at home\". It is a handy phrase for saying you are not going out: \"Jeg bliver hjemme i dag\" (I am staying home today).",
+  "explanation": "\"At blive hjemme\" means \"to stay home\". \"Blive\" means \"to stay\" here, and \"hjemme\" means \"at home\": \"Jeg bliver hjemme i dag\" (I am staying home today).",
   "related": [
    {
     "da": "hjemme",
@@ -530,8 +530,8 @@
    }
   ],
   "sentence": {
-   "da": "I dag **bliver** jeg **hjemme**.",
-   "en": "Today I'm staying home."
+   "da": "Det regner, så jeg vil hellere **blive hjemme**.",
+   "en": "It is raining, so I would rather stay home."
   }
  },
  "at blive rask": {
@@ -573,8 +573,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg håber, du **bliver rask** snart.",
-   "en": "I hope you get better soon."
+   "da": "Du er syg nu, men du vil snart **blive rask**.",
+   "en": "You are sick now, but you will soon get better."
   }
  },
  "at blive syg": {
@@ -616,8 +616,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **blev syg** i går.",
-   "en": "I got sick yesterday."
+   "da": "Hvis man ikke sover nok, kan man **blive syg**.",
+   "en": "If you do not sleep enough, you can get sick."
   }
  },
  "at blive træt": {
@@ -659,8 +659,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bliver** hurtigt **træt**.",
-   "en": "I get tired quickly."
+   "da": "Når jeg løber langt, kan jeg **blive træt**.",
+   "en": "When I run far, I can get tired."
   }
  },
  "at bo": {
@@ -682,7 +682,7 @@
     "en": "I have lived / resided"
    }
   ],
-  "explanation": "\"At bo\" means \"to live\" in the sense of where your home is: \"Jeg bor i Odense\" (I live in Odense). For being alive, use \"at leve\" (to live, be alive). It is one of the first things you say when you introduce yourself.",
+  "explanation": "\"At bo\" means \"to live\" in the sense of where your home is: \"Jeg bor i Odense\" (I live in Odense). For being alive, use \"at leve\" (to live, be alive).",
   "related": [
    {
     "da": "at leve",
@@ -698,8 +698,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bor** i en lille by.",
-   "en": "I live in a small town."
+   "da": "Jeg vil gerne **bo** i et stort hus med en have.",
+   "en": "I would like to live in a big house with a garden."
   }
  },
  "at bruge": {
@@ -737,8 +737,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bruger** min telefon hver dag.",
-   "en": "I use my phone every day."
+   "da": "Du kan **bruge** en kniv til at skære brød.",
+   "en": "You can use a knife to cut bread."
   }
  },
  "at bruge penge": {
@@ -780,8 +780,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **bruger** for mange **penge** på mad.",
-   "en": "I spend too much money on food."
+   "da": "Jeg vil gerne **bruge penge** på en ny jakke.",
+   "en": "I would like to spend money on a new jacket."
   }
  },
  "at bytte": {
@@ -803,7 +803,7 @@
     "en": "I have exchanged"
    }
   ],
-  "explanation": "\"At bytte\" means \"to exchange\" or \"to swap\". In a shop you use it to ask for another size or color: \"Jeg vil gerne bytte den\" (I would like to exchange it). You can also swap things with friends.",
+  "explanation": "\"At bytte\" means \"to exchange\" or \"to swap\", for example to get another size: \"Jeg vil gerne bytte den\" (I would like to exchange it).",
   "related": [
    {
     "da": "en kvittering",
@@ -823,8 +823,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **bytte** den til en større størrelse.",
-   "en": "I would like to exchange it for a bigger size."
+   "da": "Skjorten er for lille, så jeg vil gerne **bytte** den til en større.",
+   "en": "The shirt is too small, so I would like to exchange it for a bigger one."
   }
  },
  "at børste tænder": {
@@ -866,8 +866,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **børster tænder** to gange om dagen.",
-   "en": "I brush my teeth twice a day."
+   "da": "Før jeg går i seng, vil jeg **børste tænder**.",
+   "en": "Before I go to bed, I want to brush my teeth."
   }
  },
  "badetøj": {
@@ -905,8 +905,8 @@
    }
   ],
   "sentence": {
-   "da": "Glem ikke dit **badetøj**.",
-   "en": "Do not forget your swimwear."
+   "da": "Jeg tager **badetøj** og håndklæde med til stranden.",
+   "en": "I am bringing swimwear and a towel to the beach."
   }
  },
  "bag": {
@@ -944,8 +944,8 @@
    }
   ],
   "sentence": {
-   "da": "Katten sidder **bag** stolen.",
-   "en": "The cat is sitting behind the chair."
+   "da": "Jeg kan ikke se katten, for den sidder **bag** stolen.",
+   "en": "I cannot see the cat, because it is sitting behind the chair."
   }
  },
  "bagage": {
@@ -963,7 +963,7 @@
     "en": "a lot of luggage"
    }
   ],
-  "explanation": "\"Bagage\" means \"luggage\", all the bags you take on a trip taken together. There is no plural, so you cannot say \"bagager\". It is said \"ba-GAH-sje\", with a soft \"sh\" sound at the end. For a single bag, say \"en kuffert\" (a suitcase) or \"en taske\" (a bag).",
+  "explanation": "\"Bagage\" means \"luggage\", all your bags and suitcases together. There is no plural, so \"bagager\" is not used. It is said \"ba-GAH-sje\", with a soft \"sh\" sound at the end. For one single bag, say \"en kuffert\" (a suitcase) or \"en taske\" (a bag).",
   "related": [
    {
     "da": "en kuffert",
@@ -983,8 +983,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvor er min **bagage**?",
-   "en": "Where is my luggage?"
+   "da": "Vi lander i lufthavnen og henter vores **bagage**.",
+   "en": "We land at the airport and pick up our luggage."
   }
  },
  "bagefter": {
@@ -1022,8 +1022,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser først og går en tur **bagefter**.",
-   "en": "We eat first and go for a walk afterwards."
+   "da": "Først laver jeg mad, og **bagefter** vasker jeg op.",
+   "en": "First I cook, and afterwards I wash the dishes."
   }
  },
  "bagved": {
@@ -1061,8 +1061,8 @@
    }
   ],
   "sentence": {
-   "da": "Hunden står **bagved**.",
-   "en": "The dog is standing at the back."
+   "da": "Alle børnene står foran, men Emma står **bagved**.",
+   "en": "All the children stand in front, but Emma stands at the back."
   }
  },
  "bange": {
@@ -1100,8 +1100,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er **bange** for mørke.",
-   "en": "I am afraid of the dark."
+   "da": "Jeg er **bange**, og mit hjerte banker hurtigt.",
+   "en": "I am scared, and my heart is beating fast."
   }
  },
  "bange for": {
@@ -1119,7 +1119,7 @@
     "en": "Are you afraid of flying?"
    }
   ],
-  "explanation": "\"Bange for\" means \"afraid of\", and \"for\" always stays with it. After it you can put a thing or \"at\" (to) plus an action: \"bange for at falde\" (afraid of falling). It is also a polite way to say \"I am afraid that...\": \"Jeg er bange for, at det er sandt\" (I am afraid it is true).",
+  "explanation": "\"Bange for\" means \"afraid of\", and \"for\" always stays with it. After it you can put a thing or \"at\" (to) plus an action: \"bange for at falde\" (afraid of falling). It can also mean \"I am afraid that...\": \"Jeg er bange for, at det er sandt\" (I am afraid it is true).",
   "related": [
    {
     "da": "at være bange",
@@ -1139,8 +1139,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene er **bange for** mørket.",
-   "en": "The children are afraid of the dark."
+   "da": "Børnene er **bange for** mørket og vil have lyset tændt.",
+   "en": "The children are afraid of the dark and want the light on."
   }
  },
  "bare": {
@@ -1178,8 +1178,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal **bare** lige ringe.",
-   "en": "I just need to make a quick call."
+   "da": "Jeg er ikke sulten, jeg vil **bare** sove.",
+   "en": "I am not hungry, I just want to sleep."
   }
  },
  "bedre": {
@@ -1197,7 +1197,7 @@
     "en": "better cars"
    }
   ],
-  "explanation": "\"Bedre\" means \"better\". Use \"end\" (than) to compare: \"bedre end i går\" (better than yesterday). \"Jeg har det bedre\" means \"I feel better\". It never changes its ending.",
+  "explanation": "\"Bedre\" means \"better\". Use \"end\" (than) to compare: \"bedre end i går\" (better than yesterday). \"Jeg har det bedre\" means \"I feel better\".",
   "related": [
    {
     "da": "god",
@@ -1217,8 +1217,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er **bedre** end i går.",
-   "en": "It is better than yesterday."
+   "da": "Min kaffe er god, men din kaffe er **bedre**.",
+   "en": "My coffee is good, but your coffee is better."
   }
  },
  "bedst": {
@@ -1236,7 +1236,7 @@
     "en": "the best cars"
    }
   ],
-  "explanation": "\"Bedst\" means \"best\". Before a thing it becomes \"bedste\", as in \"den bedste ven\" (the best friend); on its own it stays \"bedst\", as in \"Det er bedst\" (It is best). \"Jeg kan bedst lide kaffe\" means \"I like coffee best\".",
+  "explanation": "\"Bedst\" means \"best\": \"Det er bedst\" (It is best). \"Jeg kan bedst lide kaffe\" means \"I like coffee best\". With a thing after it you see \"bedste\", as in \"den bedste ven\" (the best friend).",
   "related": [
    {
     "da": "god",
@@ -1256,8 +1256,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er min **bedste** ven.",
-   "en": "He is my best friend."
+   "da": "Anna er god, Bo er bedre, men Carl er **bedst**.",
+   "en": "Anna is good, Bo is better, but Carl is best."
   }
  },
  "bedsteforældre": {
@@ -1275,7 +1275,7 @@
     "en": "to visit grandparents"
    }
   ],
-  "explanation": "\"Bedsteforældre\" means \"grandparents\", grandmother and grandfather together. It is built from \"bedste\" (best) and \"forældre\" (parents). To say which one, Danes use words like \"mormor\" (mother's mother) and \"farfar\" (father's father).",
+  "explanation": "\"Bedsteforældre\" means \"grandparents\", grandmother and grandfather together. It is built from \"bedste\" (best) and \"forældre\" (parents). To say which one, use words like \"mormor\" (mother's mother) and \"farfar\" (father's father).",
   "related": [
    {
     "da": "en mormor",
@@ -1295,8 +1295,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi besøger vores **bedsteforældre** i weekenden.",
-   "en": "We are visiting our grandparents at the weekend."
+   "da": "Min mormor og min farfar er mine **bedsteforældre**.",
+   "en": "My mother's mother and my father's father are my grandparents."
   }
  },
  "begge": {
@@ -1314,7 +1314,7 @@
     "en": "both children"
    }
   ],
-  "explanation": "\"Begge\" means \"both\" and is used for exactly two people or things. \"Begge to\" means \"both of them\" and is very common. For more than two, use \"alle\" (all).",
+  "explanation": "\"Begge\" means \"both\" and is used for exactly two people or things. \"Begge to\" means \"both of them\". For more than two, use \"alle\" (all).",
   "related": [
    {
     "da": "alle",
@@ -1334,8 +1334,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi kan **begge** lide pizza.",
-   "en": "We both like pizza."
+   "da": "Jeg har to børn, og **begge** går i skole.",
+   "en": "I have two children, and both go to school."
   }
  },
  "beskidt": {
@@ -1353,7 +1353,7 @@
     "en": "dirty shoes"
    }
   ],
-  "explanation": "\"Beskidt\" means \"dirty\", for clothes, hands, dishes and floors. A more casual word with the same meaning is \"snavset\". The opposite is \"ren\" (clean).",
+  "explanation": "\"Beskidt\" means \"dirty\", for clothes, hands, dishes and floors. \"Snavset\" (dirty) is a more casual word with the same meaning. The opposite is \"ren\" (clean).",
   "related": [
    {
     "da": "ren",
@@ -1373,8 +1373,8 @@
    }
   ],
   "sentence": {
-   "da": "Dine hænder er meget **beskidte**.",
-   "en": "Your hands are very dirty."
+   "da": "Din jakke er **beskidt**, så jeg vasker den.",
+   "en": "Your jacket is dirty, so I am washing it."
   }
  },
  "bestik": {
@@ -1412,8 +1412,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi mangler **bestik** på bordet.",
-   "en": "We are missing cutlery on the table."
+   "da": "Der er ingen kniv, gaffel eller ske – vi mangler **bestik**.",
+   "en": "There is no knife, fork or spoon – we are missing cutlery."
   }
  },
  "bevidsthed": {
@@ -1486,8 +1486,8 @@
    }
   ],
   "sentence": {
-   "da": "Maden er **billig** her.",
-   "en": "The food is cheap here."
+   "da": "Den bluse koster kun 20 kroner. Den er **billig**.",
+   "en": "That blouse costs only 20 kroner. It is cheap."
   }
  },
  "blod": {
@@ -1564,8 +1564,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg koger **blomkål** til middag.",
-   "en": "I am boiling cauliflower for dinner."
+   "da": "**Blomkål** er hvid og ligner en lille blomst.",
+   "en": "Cauliflower is white and looks like a small flower."
   }
  },
  "blå": {
@@ -1661,7 +1661,7 @@
     "en": "I have to go to Citizen Services."
    }
   ],
-  "explanation": "\"Borgerservice\" means \"Citizen Services\": the municipal office for practical matters like a health insurance card, a passport or registering your address. It is used like a name: \"på Borgerservice\" (at Citizen Services). You often have to book a time online first.",
+  "explanation": "\"Borgerservice\" means \"Citizen Services\": the municipal office for practical matters like a health insurance card, a passport or registering your address. It is used like a name: \"på Borgerservice\" (at Citizen Services).",
   "related": [
    {
     "da": "en kommune",
@@ -1681,8 +1681,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en tid på **Borgerservice** i morgen.",
-   "en": "I have an appointment at Citizen Services tomorrow."
+   "da": "Jeg skal have et nyt pas, så jeg skal på **Borgerservice**.",
+   "en": "I need a new passport, so I have to go to Citizen Services."
   }
  },
  "bortset fra": {
@@ -1759,8 +1759,8 @@
    }
   ],
   "sentence": {
-   "da": "Floden er meget **bred** her.",
-   "en": "The river is very wide here."
+   "da": "Vejen er **bred**, så to biler kan køre ved siden af hinanden.",
+   "en": "The road is wide, so two cars can drive side by side."
   }
  },
  "briller": {
@@ -1778,7 +1778,7 @@
     "en": "a pair of glasses"
    }
   ],
-  "explanation": "\"Briller\" means \"glasses\" (for your eyes) and is always used in the plural, just like English \"glasses\". \"Solbriller\" means \"sunglasses\", and \"at have briller på\" means \"to wear glasses\".",
+  "explanation": "\"Briller\" means \"glasses\" (for your eyes) and is only used in the plural. \"Solbriller\" means \"sunglasses\", and \"at have briller på\" means \"to wear glasses\".",
   "related": [
    {
     "da": "et øje",
@@ -1798,8 +1798,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan ikke finde mine **briller**.",
-   "en": "I cannot find my glasses."
+   "da": "Jeg kan ikke læse uden mine **briller**, for jeg ser dårligt.",
+   "en": "I cannot read without my glasses, because I see badly."
   }
  },
  "britisk": {
@@ -1817,7 +1817,7 @@
     "en": "British cars"
    }
   ],
-  "explanation": "\"Britisk\" means \"British\", from Great Britain. It is written with a small letter in Danish. Do not mix it up with \"engelsk\" (English), which is about England and the English language.",
+  "explanation": "\"Britisk\" means \"British\", from Great Britain. Do not mix it up with \"engelsk\" (English), which is about England and the English language.",
   "related": [
    {
     "da": "Storbritannien",
@@ -1837,8 +1837,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er **britisk**, men bor i København.",
-   "en": "He is British but lives in Copenhagen."
+   "da": "Han kommer fra Storbritannien, så han er **britisk**.",
+   "en": "He comes from Great Britain, so he is British."
   }
  },
  "broccoli": {
@@ -1852,7 +1852,7 @@
     "en": "the broccoli"
    }
   ],
-  "explanation": "\"Broccoli\" means \"broccoli\", the green vegetable. As in English, you do not count it, so you say \"noget broccoli\" (some broccoli).",
+  "explanation": "\"Broccoli\" means \"broccoli\", the green vegetable. It is not counted, so you say \"noget broccoli\" (some broccoli).",
   "related": [
    {
     "da": "blomkål",
@@ -1872,8 +1872,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan godt lide **broccoli**.",
-   "en": "I like broccoli."
+   "da": "**Broccoli** er grøn og ligner et lille træ.",
+   "en": "Broccoli is green and looks like a little tree."
   }
  },
  "brun": {
@@ -1911,8 +1911,8 @@
    }
   ],
   "sentence": {
-   "da": "Min taske er **brun**.",
-   "en": "My bag is brown."
+   "da": "Mælk er hvid, men chokolade er **brun**.",
+   "en": "Milk is white, but chocolate is brown."
   }
  },
  "brød": {
@@ -1989,8 +1989,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har nye **bukser** på.",
-   "en": "I am wearing new pants."
+   "da": "Jeg tager **bukser** og sko på, før jeg går ud.",
+   "en": "I put on pants and shoes before I go out."
   }
  },
  "byttepenge": {
@@ -2047,7 +2047,7 @@
     "en": "both today and tomorrow"
    }
   ],
-  "explanation": "\"Både … og\" means \"both … and\". Put \"både\" before the first thing and \"og\" (and) before the second: \"både sød og klog\" (both kind and clever). No comma is needed, and the two parts should be the same kind of thing.",
+  "explanation": "\"Både … og\" means \"both … and\". Put \"både\" before the first thing and \"og\" (and) before the second: \"både sød og klog\" (both kind and clever).",
   "related": [
    {
     "da": "hverken…eller",
@@ -2090,7 +2090,7 @@
     "en": "the beans"
    }
   ],
-  "explanation": "\"Bønner\" means \"beans\", and one bean is \"en bønne\". Be careful: \"en bøn\" is a prayer, so \"bønner\" can also mean \"prayers\", but in food talk it means beans. \"Kaffebønner\" means \"coffee beans\".",
+  "explanation": "\"Bønner\" means \"beans\", and one bean is \"en bønne\" (a bean). The same word is also the plural of \"en bøn\" (a prayer), so the sentence shows which is meant. \"Kaffebønner\" means \"coffee beans\".",
   "related": [
    {
     "da": "ærter",
@@ -2110,8 +2110,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har **bønner** i chili.",
-   "en": "We have beans in chili."
+   "da": "Jeg spiser **bønner**, ærter og majs.",
+   "en": "I eat beans, peas and corn."
   }
  },
  "en baby": {
@@ -2153,8 +2153,8 @@
    }
   ],
   "sentence": {
-   "da": "Vores **baby** sover meget.",
-   "en": "Our baby sleeps a lot."
+   "da": "Vores **baby** er kun to måneder gammel og drikker mælk.",
+   "en": "Our baby is only two months old and drinks milk."
   }
  },
  "en bager": {
@@ -2196,8 +2196,8 @@
    }
   ],
   "sentence": {
-   "da": "**Bageren** laver friskt brød hver morgen.",
-   "en": "The baker makes fresh bread every morning."
+   "da": "En **bager** står tidligt op og laver friskt brød.",
+   "en": "A baker gets up early and makes fresh bread."
   }
  },
  "en ballon": {
@@ -2239,8 +2239,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet har en rød **ballon**.",
-   "en": "The child has a red balloon."
+   "da": "Jeg puster en **ballon** op, så den bliver stor og rund.",
+   "en": "I blow up a balloon so that it gets big and round."
   }
  },
  "en bamse": {
@@ -2325,8 +2325,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søn elsker **bananer**.",
-   "en": "My son loves bananas."
+   "da": "Aben spiser en gul **banan**.",
+   "en": "The monkey eats a yellow banana."
   }
  },
  "en banegård": {
@@ -2348,7 +2348,7 @@
     "en": "the railway stations"
    }
   ],
-  "explanation": "\"En banegård\" means \"a railway station\", where trains arrive and leave. A town's station is often just called \"banegården\". People also say \"en station\" (a station) or \"en togstation\" (a train station).",
+  "explanation": "\"En banegård\" means \"a railway station\", where trains arrive and leave. A shorter word with the same meaning is \"en station\" (a station).",
   "related": [
    {
     "da": "en station",
@@ -2368,8 +2368,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvor ligger **banegården**?",
-   "en": "Where is the railway station?"
+   "da": "Vi venter på toget på en stor **banegård**.",
+   "en": "We wait for the train at a big railway station."
   }
  },
  "en bank": {
@@ -2411,8 +2411,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal i **banken** i dag.",
-   "en": "I need to go to the bank today."
+   "da": "Jeg sætter mine penge ind i en **bank**.",
+   "en": "I put my money into a bank."
   }
  },
  "en bankkonto": {
@@ -2434,7 +2434,7 @@
     "en": "the bank accounts"
    }
   ],
-  "explanation": "\"En bankkonto\" means \"a bank account\". It is built from \"bank\" (bank) and \"konto\" (account). The plural \"bankkonti\" (bank accounts) ends in \"-i\", like \"konti\" (accounts), instead of the usual \"-er\".",
+  "explanation": "\"En bankkonto\" means \"a bank account\". It is built from \"bank\" (bank) and \"konto\" (account), where your money is kept.",
   "related": [
    {
     "da": "en bank",
@@ -2454,8 +2454,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal åbne en **bankkonto** i dag.",
-   "en": "I need to open a bank account today."
+   "da": "Min løn kommer ind på min **bankkonto** hver måned.",
+   "en": "My pay goes into my bank account every month."
   }
  },
  "en bedstefar": {
@@ -2497,8 +2497,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **bedstefar** er firs år gammel.",
-   "en": "My grandfather is eighty years old."
+   "da": "Min **bedstefar** er far til min mor, og han er gammel.",
+   "en": "My grandfather is my mother's father, and he is old."
   }
  },
  "en bedstemor": {
@@ -2540,8 +2540,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **bedstemor** bager hver søndag.",
-   "en": "My grandmother bakes every Sunday."
+   "da": "Min **bedstemor** er mor til min far, og hun bager kager.",
+   "en": "My grandmother is my father's mother, and she bakes cakes."
   }
  },
  "en behandling": {
@@ -2583,8 +2583,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun får **behandling** på sygehuset.",
-   "en": "She is getting treatment at the hospital."
+   "da": "Hun er syg og får **behandling** på sygehuset.",
+   "en": "She is sick and is getting treatment at the hospital."
   }
  },
  "en besked": {
@@ -2626,8 +2626,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har fået en **besked** fra min chef.",
-   "en": "I have received a message from my boss."
+   "da": "Jeg sender en **besked** til dig, så du ved, hvornår vi mødes.",
+   "en": "I am sending you a message so that you know when we meet."
   }
  },
  "en bil": {
@@ -2669,8 +2669,8 @@
    }
   ],
   "sentence": {
-   "da": "Min far har en rød **bil**.",
-   "en": "My dad has a red car."
+   "da": "Min far kører til arbejde i sin røde **bil**.",
+   "en": "My dad drives to work in his red car."
   }
  },
  "en billet": {
@@ -2712,8 +2712,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har købt en **billet**.",
-   "en": "I have bought a ticket."
+   "da": "Jeg har købt en **billet** til toget.",
+   "en": "I have bought a ticket for the train."
   }
  },
  "en biograf": {
@@ -2735,7 +2735,7 @@
     "en": "the cinemas"
    }
   ],
-  "explanation": "\"En biograf\" means \"a cinema\", the place where you watch films. You say \"at gå i biografen\" (to go to the cinema). Danes often shorten it to \"bio\", as in \"gå i bio\".",
+  "explanation": "\"En biograf\" means \"a cinema\", the place where you watch films. You say \"at gå i biografen\" (to go to the cinema). Danes often shorten it to \"bio\", as in \"gå i bio\" (go to the cinema).",
   "related": [
    {
     "da": "en film",
@@ -2755,8 +2755,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi mødes ved **biografen**.",
-   "en": "We are meeting at the cinema."
+   "da": "Vi ser en film i en stor **biograf**.",
+   "en": "We watch a film in a big cinema."
   }
  },
  "en blanket": {
@@ -2778,7 +2778,7 @@
     "en": "the forms"
    }
   ],
-  "explanation": "\"En blanket\" means \"a form\" that you fill in, for example at the doctor's or the bank. To fill one in you say \"at udfylde en blanket\". Do not mix it up with \"en form\", which means a shape.",
+  "explanation": "\"En blanket\" means \"a form\" that you fill in, for example at the doctor's or the bank. To fill one in you say \"at udfylde en blanket\" (to fill in a form). Do not mix it up with \"en form\", which means a shape.",
   "related": [
    {
     "da": "at udfylde",
@@ -2841,8 +2841,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal have en ny **ble** på babyen.",
-   "en": "We need to put a new diaper on the baby."
+   "da": "Babyen græder, fordi den har en våd **ble**.",
+   "en": "The baby is crying because it has a wet diaper."
   }
  },
  "en blodprøve": {
@@ -2927,8 +2927,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun giver mig en **blomst**.",
-   "en": "She gives me a flower."
+   "da": "Hun plukker en smuk **blomst** i haven.",
+   "en": "She picks a pretty flower in the garden."
   }
  },
  "en bluse": {
@@ -3013,8 +3013,8 @@
    }
   ],
   "sentence": {
-   "da": "Har du en **blyant**?",
-   "en": "Do you have a pencil?"
+   "da": "Jeg skriver med en **blyant**, og jeg kan viske det ud.",
+   "en": "I write with a pencil, and I can rub it out."
   }
  },
  "en bog": {
@@ -3099,8 +3099,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet kaster **bolden** til sin far.",
-   "en": "The child throws the ball to their father."
+   "da": "Barnet kaster en rund **bold** til sin far.",
+   "en": "The child throws a round ball to their father."
   }
  },
  "en bolle": {
@@ -3185,8 +3185,8 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg få **bonen**?",
-   "en": "May I have the receipt?"
+   "da": "Jeg betaler i kassen og får en **bon**.",
+   "en": "I pay at the till and get a receipt."
   }
  },
  "en bro": {
@@ -3208,7 +3208,7 @@
     "en": "the bridges"
    }
   ],
-  "explanation": "\"En bro\" means \"a bridge\", something you cross over a river, road or sea. You walk or drive \"over broen\" (over the bridge). The bridge to Sweden is called \"Øresundsbroen\".",
+  "explanation": "\"En bro\" means \"a bridge\", something you cross over a river, road or sea. You walk or drive \"over broen\" (over the bridge).",
   "related": [
    {
     "da": "en vej",
@@ -3228,8 +3228,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi går over **broen**.",
-   "en": "We walk over the bridge."
+   "da": "Vi går over en **bro** og ser vandet under den.",
+   "en": "We walk over a bridge and see the water under it."
   }
  },
  "en bror": {
@@ -3271,8 +3271,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **bror** bor i København.",
-   "en": "My brother lives in Copenhagen."
+   "da": "Min mor har to børn: mig og min **bror**.",
+   "en": "My mother has two children: me and my brother."
   }
  },
  "en buffet": {
@@ -3314,8 +3314,8 @@
    }
   ],
   "sentence": {
-   "da": "Hotellet har en stor **buffet** til morgenmad.",
-   "en": "The hotel has a big buffet for breakfast."
+   "da": "Vi tager selv mad fra den store **buffet**.",
+   "en": "We take food ourselves from the big buffet."
   }
  },
  "en burger": {
@@ -3400,8 +3400,8 @@
    }
   ],
   "sentence": {
-   "da": "**Bussen** kommer om ti minutter.",
-   "en": "The bus comes in ten minutes."
+   "da": "Vi kører med **bus** til skolen.",
+   "en": "We travel by bus to school."
   }
  },
  "en busbillet": {
@@ -3486,8 +3486,8 @@
    }
   ],
   "sentence": {
-   "da": "**Butikken** åbner klokken ni.",
-   "en": "The shop opens at nine o'clock."
+   "da": "Jeg køber sko i en **butik** i byen.",
+   "en": "I buy shoes in a shop in town."
   }
  },
  "en by": {
@@ -3529,8 +3529,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg bor i en lille **by**.",
-   "en": "I live in a small town."
+   "da": "Der er mange huse og butikker i en **by**.",
+   "en": "There are many houses and shops in a town."
   }
  },
  "en båd": {
@@ -3658,8 +3658,8 @@
    }
   ],
   "sentence": {
-   "da": "Min datter går i **børnehave**.",
-   "en": "My daughter goes to kindergarten."
+   "da": "Min datter er fire år og går i **børnehave**, ikke i skole.",
+   "en": "My daughter is four years old and goes to kindergarten, not to school."
   }
  },
  "en børnemenu": {
@@ -3681,7 +3681,7 @@
     "en": "the kids' menus"
    }
   ],
-  "explanation": "\"En børnemenu\" means \"a kids' menu\", a smaller meal for children at a restaurant. It is built from \"børn\" (children) and \"menu\" (menu), written as one word. Ask \"Har I en børnemenu?\" (Do you have a kids' menu?) when you eat out with a family.",
+  "explanation": "\"En børnemenu\" means \"a kids' menu\", a smaller meal for children at a restaurant. It is built from \"børn\" (children) and \"menu\" (menu), written as one word.",
   "related": [
    {
     "da": "et barn",
@@ -3701,8 +3701,8 @@
    }
   ],
   "sentence": {
-   "da": "Har I en **børnemenu**?",
-   "en": "Do you have a kids' menu?"
+   "da": "Vi er på restaurant med to små børn. Har I en **børnemenu**?",
+   "en": "We are at a restaurant with two small children. Do you have a kids' menu?"
   }
  },
  "et bad": {
@@ -3744,8 +3744,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have **et bad**.",
-   "en": "I would like a bath."
+   "da": "Efter løbeturen tager jeg et **bad** og vasker mit hår.",
+   "en": "After the run I take a shower and wash my hair."
   }
  },
  "et badeværelse": {
@@ -3787,8 +3787,8 @@
    }
   ],
   "sentence": {
-   "da": "**Badeværelset** er ved siden af soveværelset.",
-   "en": "The bathroom is next to the bedroom."
+   "da": "Vi har et **badeværelse** med et brusebad og et stort spejl.",
+   "en": "We have a bathroom with a shower and a big mirror."
   }
  },
  "et bageri": {
@@ -3830,8 +3830,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg køber rundstykker i **bageriet**.",
-   "en": "I buy bread rolls at the bakery."
+   "da": "Jeg køber brød og kager i et **bageri**.",
+   "en": "I buy bread and cakes in a bakery."
   }
  },
  "et barn": {
@@ -3873,8 +3873,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har to **børn**.",
-   "en": "We have two children."
+   "da": "Hun har et **barn**, en dreng på tre år.",
+   "en": "She has a child, a boy of three."
   }
  },
  "et ben": {
@@ -3916,8 +3916,8 @@
    }
   ],
   "sentence": {
-   "da": "Han har brækket **benet**.",
-   "en": "He has broken his leg."
+   "da": "Han har brækket sit **ben** og kan ikke gå.",
+   "en": "He has broken his leg and cannot walk."
   }
  },
  "et besøg": {
@@ -3955,8 +3955,8 @@
    }
   ],
   "sentence": {
-   "da": "Tak for dit **besøg**!",
-   "en": "Thank you for your visit!"
+   "da": "Tak for dit **besøg**! Kom snart igen.",
+   "en": "Thank you for your visit! Come again soon."
   }
  },
  "et betalingskort": {
@@ -3998,8 +3998,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan jeg bruge mit **betalingskort** her?",
-   "en": "Can I use my payment card here?"
+   "da": "Jeg betaler med mit **betalingskort**, for jeg har ikke kontanter.",
+   "en": "I pay with my payment card, because I have no cash."
   }
  },
  "et bibliotek": {
@@ -4021,7 +4021,7 @@
     "en": "the libraries"
    }
   ],
-  "explanation": "\"Et bibliotek\" means \"a library\", where you can borrow books for free. \"At låne\" (to borrow) is useful here: \"at låne en bog på biblioteket\" (to borrow a book at the library). Note the spelling with a k, which looks different from English \"library\".",
+  "explanation": "\"Et bibliotek\" means \"a library\", where you can borrow books for free. \"At låne\" (to borrow) is useful here: \"at låne en bog på biblioteket\" (to borrow a book at the library). Note the \"k\" in \"bibliotek\", where English \"library\" has a \"y\".",
   "related": [
    {
     "da": "en bog",
@@ -4041,8 +4041,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg låner en bog på **biblioteket**.",
-   "en": "I borrow a book at the library."
+   "da": "I et **bibliotek** kan man låne bøger gratis.",
+   "en": "In a library you can borrow books for free."
   }
  },
  "et billede": {
@@ -4107,7 +4107,7 @@
     "en": "the mountains"
    }
   ],
-  "explanation": "\"Et bjerg\" means \"a mountain\". It is used for real mountains, such as in Norway; smaller high ground is \"en bakke\" (a hill). Words can be built from it, like \"en bjergtur\" (a mountain trip).",
+  "explanation": "\"Et bjerg\" means \"a mountain\". A smaller, lower one is \"en bakke\" (a hill). Words can be built from it, like \"en bjergtur\" (a mountain trip).",
   "related": [
    {
     "da": "en bakke",
@@ -4127,8 +4127,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er sne på **bjerget**.",
-   "en": "There is snow on the mountain."
+   "da": "Vi gik op på et stort **bjerg**, og der var sne på toppen.",
+   "en": "We walked up a big mountain, and there was snow on the top."
   }
  },
  "et boardingpas": {
@@ -4170,8 +4170,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har glemt mit **boardingpas**.",
-   "en": "I have forgotten my boarding pass."
+   "da": "Jeg viser mit **boardingpas**, og så går jeg ombord på flyet.",
+   "en": "I show my boarding pass, and then I board the plane."
   }
  },
  "et bord": {
@@ -4213,8 +4213,8 @@
    }
   ],
   "sentence": {
-   "da": "Bogen ligger på **bordet**.",
-   "en": "The book is on the table."
+   "da": "Bogen ligger på et **bord** ved siden af stolen.",
+   "en": "The book is lying on a table next to the chair."
   }
  },
  "et brev": {
@@ -4256,8 +4256,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har fået et **brev** fra min ven.",
-   "en": "I have received a letter from my friend."
+   "da": "Jeg skriver et **brev** og sender det med posten.",
+   "en": "I write a letter and send it in the post."
   }
  },
  "et bryllup": {
@@ -4299,8 +4299,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal til **bryllup** næste weekend.",
-   "en": "We are going to a wedding next weekend."
+   "da": "Bruden har en smuk kjole på til sit **bryllup**.",
+   "en": "The bride is wearing a beautiful dress at her wedding."
   }
  },
  "et bryst": {
@@ -4342,8 +4342,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har smerter i **brystet**.",
-   "en": "I have pain in my chest."
+   "da": "Hjertet slår i mit **bryst**.",
+   "en": "The heart beats in my chest."
   }
  },
  "et busstoppested": {
@@ -4385,8 +4385,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er et **busstoppested** lige ved hotellet.",
-   "en": "There is a bus stop right by the hotel."
+   "da": "Jeg venter på bussen ved et **busstoppested**.",
+   "en": "I am waiting for the bus at a bus stop."
   }
  },
  "et bælte": {
@@ -4428,8 +4428,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal bruge et nyt **bælte** til bukserne.",
-   "en": "I need a new belt for the trousers."
+   "da": "Mine bukser er for store, så jeg har brug for et **bælte**.",
+   "en": "My trousers are too big, so I need a belt."
   }
  }
 }

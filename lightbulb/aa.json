@@ -18,7 +18,7 @@
     "en": "I have opened"
    }
   ],
-  "explanation": "\"At åbne\" means \"to open\". You can open a door, a shop or a bank account. \"Hvornår åbner I?\" (When do you open?) is what you ask a shop or office. It is the opposite of \"at lukke\" (to close). On signs you will see \"Åben\" (open) and \"Lukket\" (closed).",
+  "explanation": "\"At åbne\" means \"to open\". You can open a door, a shop or a bank account. \"Hvornår åbner I?\" (When do you open?) is what you ask a shop or office. It is the opposite of \"at lukke\" (to close). \"Åben\" means \"open\" and \"Lukket\" means \"closed\".",
   "related": [
    {
     "da": "at lukke",
@@ -34,8 +34,8 @@
    }
   ],
   "sentence": {
-   "da": "Butikken **åbner** klokken ni.",
-   "en": "The shop opens at nine o'clock."
+   "da": "Døren er lukket, så jeg må **åbne** den.",
+   "en": "The door is closed, so I have to open it."
   }
  },
  "et år": {
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er tyve **år** gammel.",
-   "en": "He is twenty years old."
+   "da": "Der er tolv måneder i et **år**.",
+   "en": "There are twelve months in a year."
   }
  },
  "åben": {
@@ -155,8 +155,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvad er **åbningstiderne** i dag?",
-   "en": "What are the opening hours today?"
+   "da": "Butikkens **åbningstider** er fra ni til seks.",
+   "en": "The shop's opening hours are from nine to six."
   }
  }
 }

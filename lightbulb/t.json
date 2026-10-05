@@ -34,8 +34,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tabte** min telefon på gulvet.",
-   "en": "I dropped my phone on the floor."
+   "da": "Pas på, du skal ikke **tabe** glasset på gulvet!",
+   "en": "Careful, don't drop the glass on the floor!"
   }
  },
  "at tage": {
@@ -73,8 +73,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tager** bussen til arbejde.",
-   "en": "I take the bus to work."
+   "da": "Du kan **tage** en kage fra bordet.",
+   "en": "You can take a cake from the table."
   }
  },
  "at tage af": {
@@ -96,7 +96,7 @@
     "en": "I have taken off"
    }
   ],
-  "explanation": "\"At tage af\" means \"to take off\": \"Jeg tager jakken af\" (I take my jacket off). The little word \"af\" (off) goes after what you take off. In everyday talk it can also mean \"to lose weight\": \"Jeg har taget fire kilo af\" (I have lost four kilos).",
+  "explanation": "\"At tage af\" means \"to take off\" clothes: \"Jeg tager jakken af\" (I take my jacket off). The little word \"af\" (off) goes after the thing you take off.",
   "related": [
    {
     "da": "at tage på",
@@ -116,8 +116,8 @@
    }
   ],
   "sentence": {
-   "da": "Vil du **tage** jakken **af**?",
-   "en": "Do you want to take your jacket off?"
+   "da": "Her er varmt. Du kan godt **tage af**, hvis du vil.",
+   "en": "It is warm here. You can take your coat off if you like."
   }
  },
  "at tage bad": {
@@ -139,7 +139,7 @@
     "en": "I have taken a shower"
    }
   ],
-  "explanation": "\"At tage bad\" means \"to take a shower\" or \"to have a bath\", and there is no \"et\" (a) before \"bad\" in this phrase. For a shower in particular, say \"at tage brusebad\" (to take a shower); a long soak is \"at tage et karbad\" (to take a bath in a tub).",
+  "explanation": "\"At tage bad\" means \"to take a shower\" or \"to have a bath\", and there is no \"et\" (a) before \"bad\" in this phrase. For a shower in particular, say \"at tage brusebad\" (to take a shower); for a soak in the tub, \"at tage et karbad\" (to take a bath in a tub).",
   "related": [
    {
     "da": "et bad",
@@ -159,8 +159,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tager bad** hver morgen.",
-   "en": "I take a shower every morning."
+   "da": "Efter løbeturen vil jeg **tage bad** og vaske håret.",
+   "en": "After the run I want to take a shower and wash my hair."
   }
  },
  "at tage bussen": {
@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tager bussen** på arbejde hver dag.",
-   "en": "I take the bus to work every day."
+   "da": "Min bil er i stykker, så jeg må **tage bussen** til arbejde.",
+   "en": "My car is broken, so I have to take the bus to work."
   }
  },
  "at tage et billede": {
@@ -225,7 +225,7 @@
     "en": "I have taken a picture"
    }
   ],
-  "explanation": "\"At tage et billede\" means \"to take a picture\". You can also say \"at tage et foto\" (to take a photo). Ask \"Må jeg tage et billede?\" (May I take a picture?) when you want permission.",
+  "explanation": "\"At tage et billede\" means \"to take a picture\". \"At tage et foto\" (to take a photo) means the same, and the picture itself is \"et billede\" (a picture).",
   "related": [
    {
     "da": "et billede",
@@ -245,8 +245,8 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg **tage et billede**?",
-   "en": "May I take a picture?"
+   "da": "Du er så smuk! Må jeg **tage et billede** af dig?",
+   "en": "You look so pretty! May I take a picture of you?"
   }
  },
  "at tage hjem": {
@@ -268,7 +268,7 @@
     "en": "I have gone home"
    }
   ],
-  "explanation": "\"At tage hjem\" means \"to go home\", usually leaving a place such as work or a party to travel home. \"Tage\" normally means \"to take\", but here it just means \"to go\". Notice that \"have gone home\" uses \"er\" (am), not \"har\" (have): \"jeg er taget hjem\".",
+  "explanation": "\"At tage hjem\" means \"to go home\", usually leaving a place such as work or a party. Normally \"tage\" means \"to take\", but in this phrase it means \"to go\".",
   "related": [
    {
     "da": "at gå hjem",
@@ -288,8 +288,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **tager hjem** klokken fem.",
-   "en": "We go home at five o'clock."
+   "da": "Det er sent, så vi vil **tage hjem** nu.",
+   "en": "It is late, so we want to go home now."
   }
  },
  "at tage medicin": {
@@ -331,8 +331,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tager medicin** to gange om dagen.",
-   "en": "I take medicine twice a day."
+   "da": "Jeg er syg, så jeg skal **tage medicin** to gange om dagen.",
+   "en": "I am sick, so I have to take medicine twice a day."
   }
  },
  "at tage på ferie": {
@@ -374,8 +374,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **tager på ferie** i juli.",
-   "en": "We go on vacation in July."
+   "da": "Vi vil **tage på ferie** til Spanien, hvor solen skinner.",
+   "en": "We want to go on vacation to Spain, where the sun shines."
   }
  },
  "at tage toget": {
@@ -417,8 +417,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tager toget** til København i morgen.",
-   "en": "I am taking the train to Copenhagen tomorrow."
+   "da": "Toget kører hurtigt, så jeg vil **tage toget** til København.",
+   "en": "The train goes fast, so I want to take the train to Copenhagen."
   }
  },
  "at takke": {
@@ -565,7 +565,7 @@
     "en": "I have talked about"
    }
   ],
-  "explanation": "\"At tale om\" means \"to talk about\" a topic. The little word \"om\" (about) always follows it, just like \"about\" in English. It is a bit more formal than \"at snakke om\" (to chat about), but you can use either in everyday life.",
+  "explanation": "\"At tale om\" means \"to talk about\" a topic: \"Vi taler om vejret\" (We talk about the weather). It is a bit more formal than \"at snakke om\" (to chat about), but you can use either in everyday life.",
   "related": [
    {
     "da": "at snakke om",
@@ -581,8 +581,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **taler om** vejret.",
-   "en": "We are talking about the weather."
+   "da": "Vi vil **tale om** vejret, fordi det er så koldt.",
+   "en": "We want to talk about the weather, because it is so cold."
   }
  },
  "at tisse": {
@@ -620,8 +620,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal lige **tisse**.",
-   "en": "I just need to pee."
+   "da": "Barnet drikker meget, og nu skal det **tisse**.",
+   "en": "The child drinks a lot, and now it needs to pee."
   }
  },
  "at tjekke": {
@@ -643,7 +643,7 @@
     "en": "I have checked"
    }
   ],
-  "explanation": "\"At tjekke\" means \"to check\", and it is borrowed from English. It is very common in everyday Danish, for checking your phone, the time, or whether something is right. A more formal word is \"at kontrollere\" (to check, to inspect), and for looking into something more deeply Danes say \"at undersøge\" (to investigate).",
+  "explanation": "\"At tjekke\" means \"to check\", and it is borrowed from English. You can check your phone, the time, or whether something is right. A more formal word is \"at kontrollere\" (to check, to inspect), and \"at undersøge\" (to investigate) is for looking into something more deeply.",
   "related": [
    {
     "da": "at kontrollere",
@@ -698,8 +698,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tror**, han kommer snart.",
-   "en": "I think he is coming soon."
+   "da": "Jeg kan ikke **tro**, at han er her.",
+   "en": "I can't believe he is here."
   }
  },
  "at trække vejret": {
@@ -721,7 +721,7 @@
     "en": "I have breathed"
    }
   ],
-  "explanation": "\"At trække vejret\" means \"to breathe\". Literally it is \"to pull the breath\", with \"vejret\" meaning \"the breath\". The same word \"vejret\" also means \"the weather\", but the phrase makes the meaning clear. At the doctor you may hear \"træk vejret dybt\" (breathe deeply).",
+  "explanation": "\"At trække vejret\" means \"to breathe\". Literally it is \"to pull the breath\", with \"vejret\" meaning \"the breath\". The same word \"vejret\" also means \"the weather\", but the phrase makes the meaning clear.",
   "related": [
    {
     "da": "vejret",
@@ -741,8 +741,8 @@
    }
   ],
   "sentence": {
-   "da": "**Træk vejret** dybt, siger lægen.",
-   "en": "Breathe deeply, says the doctor."
+   "da": "Du skal **trække vejret** dybt, siger lægen.",
+   "en": "You must breathe deeply, says the doctor."
   }
  },
  "at træne": {
@@ -780,8 +780,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **træner** tre gange om ugen.",
-   "en": "I work out three times a week."
+   "da": "Jeg vil **træne** tre gange om ugen.",
+   "en": "I want to work out three times a week."
   }
  },
  "at tælle": {
@@ -819,8 +819,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tæller** til ti.",
-   "en": "I count to ten."
+   "da": "Jeg kan **tælle**: en, to, tre, fire.",
+   "en": "I can count: one, two, three, four."
   }
  },
  "at tænde": {
@@ -858,8 +858,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tænder** lyset, fordi det er mørkt.",
-   "en": "I turn on the light because it is dark."
+   "da": "Det er mørkt, så jeg vil **tænde** lyset.",
+   "en": "It is dark, so I want to turn on the light."
   }
  },
  "at tænde for": {
@@ -901,8 +901,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tænder for** fjernsynet.",
-   "en": "I turn on the TV."
+   "da": "Det er koldt, så jeg vil **tænde for** varmen.",
+   "en": "It is cold, so I want to turn on the heating."
   }
  },
  "at tænke": {
@@ -940,8 +940,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **tænker** på min familie.",
-   "en": "I am thinking about my family."
+   "da": "Det er et svært spørgsmål, så jeg må **tænke** lidt.",
+   "en": "It is a hard question, so I have to think a bit."
   }
  },
  "en t-shirt": {
@@ -959,7 +959,7 @@
     "en": "t-shirts"
    }
   ],
-  "explanation": "\"En t-shirt\" means \"a t-shirt\". It is borrowed from English and said almost the same way. To say you are wearing one, use \"have ... på\": \"Jeg har en t-shirt på\" (I am wearing a t-shirt).",
+  "explanation": "\"En t-shirt\" means \"a t-shirt\". It is borrowed from English. To say you are wearing one, use \"have ... på\" (literally \"have ... on\").",
   "related": [
    {
     "da": "en skjorte",
@@ -979,8 +979,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en blå **t-shirt** på.",
-   "en": "I am wearing a blue t-shirt."
+   "da": "Det er varmt, så jeg har kun en blå **t-shirt** på.",
+   "en": "It is warm, so I am only wearing a blue t-shirt."
   }
  },
  "en tallerken": {
@@ -1045,7 +1045,7 @@
     "en": "the teeth"
    }
   ],
-  "explanation": "\"En tand\" means \"a tooth\". A common daily phrase is \"at børste tænder\" (to brush your teeth). \"Tandlæge\" means \"dentist\".",
+  "explanation": "\"En tand\" means \"a tooth\". The plural is \"tænder\" (teeth), where \"a\" becomes \"æ\". \"At børste tænder\" means \"to brush teeth\", and \"tandlæge\" means \"dentist\".",
   "related": [
    {
     "da": "en tandlæge",
@@ -1065,8 +1065,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg børster mine **tænder** hver aften.",
-   "en": "I brush my teeth every evening."
+   "da": "Jeg har ondt i en **tand**, så jeg skal til tandlægen.",
+   "en": "I have a pain in a tooth, so I am going to the dentist."
   }
  },
  "en tandlæge": {
@@ -1108,8 +1108,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal til **tandlægen** i morgen.",
-   "en": "I am going to the dentist tomorrow."
+   "da": "Min **tandlæge** kigger på mine tænder.",
+   "en": "My dentist looks at my teeth."
   }
  },
  "en tante": {
@@ -1131,7 +1131,7 @@
     "en": "the aunts"
    }
   ],
-  "explanation": "\"En tante\" means \"an aunt\", the sister of a parent or the wife of an uncle. Danes use it for an aunt on either side of the family. The male pair is \"en onkel\" (an uncle).",
+  "explanation": "\"En tante\" means \"an aunt\", the sister of a parent or the wife of an uncle. The male pair is \"en onkel\" (an uncle).",
   "related": [
    {
     "da": "en onkel",
@@ -1151,8 +1151,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **tante** bor i Odense.",
-   "en": "My aunt lives in Odense."
+   "da": "Min **tante** er min mors søster.",
+   "en": "My aunt is my mother's sister."
   }
  },
  "en taske": {
@@ -1174,7 +1174,7 @@
     "en": "the bags"
    }
   ],
-  "explanation": "\"En taske\" means \"a bag\" that you carry with a handle or strap, such as a handbag or school bag. A thin plastic shop bag is \"en pose\" instead. Danes often add a word in front: \"en håndtaske\" (a handbag), \"en skoletaske\" (a school bag).",
+  "explanation": "\"En taske\" means \"a bag\" with a handle or strap, such as a handbag or school bag. A thin plastic shop bag is \"en pose\" (a plastic bag) instead. Words can go in front: \"en håndtaske\" (a handbag), \"en skoletaske\" (a school bag).",
   "related": [
    {
     "da": "en pose",
@@ -1194,8 +1194,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **taske** er tung.",
-   "en": "My bag is heavy."
+   "da": "Jeg har bøger i min **taske**, og jeg bærer den til skole.",
+   "en": "I have books in my bag, and I carry it to school."
   }
  },
  "en taxa": {
@@ -1237,8 +1237,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi tager **en taxa** til lufthavnen.",
-   "en": "We take a taxi to the airport."
+   "da": "Vi tager en **taxa**, og chaufføren kører os til lufthavnen.",
+   "en": "We take a taxi, and the driver takes us to the airport."
   }
  },
  "en taxachauffør": {
@@ -1280,8 +1280,8 @@
    }
   ],
   "sentence": {
-   "da": "**Taxachaufføren** kører os til stationen.",
-   "en": "The taxi driver drives us to the station."
+   "da": "Min far er **taxachauffør** og kører rundt i byen hele dagen.",
+   "en": "My father is a taxi driver and drives around the city all day."
   }
  },
  "en tegnebog": {
@@ -1323,8 +1323,8 @@
    }
   ],
   "sentence": {
-   "da": "Han tager sin **tegnebog** op af lommen.",
-   "en": "He takes his wallet out of his pocket."
+   "da": "Han tager penge og et kort ud af sin **tegnebog**.",
+   "en": "He takes money and a card out of his wallet."
   }
  },
  "en telefon": {
@@ -1366,8 +1366,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvor er min **telefon**?",
-   "en": "Where is my phone?"
+   "da": "Min **telefon** ringer, og jeg tager den.",
+   "en": "My phone is ringing, and I pick it up."
   }
  },
  "en temperatur": {
@@ -1389,7 +1389,7 @@
     "en": "the temperatures"
    }
   ],
-  "explanation": "\"En temperatur\" means \"a temperature\", how hot or cold something is, such as the weather. For a body temperature when you are ill, Danes usually say \"at have feber\" (to have a fever).",
+  "explanation": "\"En temperatur\" means \"a temperature\", how hot or cold something is. For a high body temperature when you are ill, say \"at have feber\" (to have a fever).",
   "related": [
    {
     "da": "grader",
@@ -1409,8 +1409,8 @@
    }
   ],
   "sentence": {
-   "da": "**Temperaturen** er tyve grader i dag.",
-   "en": "The temperature is twenty degrees today."
+   "da": "Med en **temperatur** på tyve grader er det en varm dag.",
+   "en": "With a temperature of twenty degrees it is a warm day."
   }
  },
  "en tid": {
@@ -1452,8 +1452,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har ikke **tid** i dag.",
-   "en": "I do not have time today."
+   "da": "Jeg har ikke **tid** nu, for jeg skal på arbejde.",
+   "en": "I do not have time now, because I have to go to work."
   }
  },
  "en tid hos lægen": {
@@ -1491,8 +1491,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **en tid hos lægen** klokken ti.",
-   "en": "I have a doctor's appointment at ten o'clock."
+   "da": "Jeg har en **tid hos lægen** klokken ti, fordi jeg er syg.",
+   "en": "I have a doctor's appointment at ten o'clock, because I am sick."
   }
  },
  "en tiger": {
@@ -1514,7 +1514,7 @@
     "en": "the tigers"
    }
   ],
-  "explanation": "\"En tiger\" means \"a tiger\", spelled almost like the English word. Its plural \"tigre\" drops the \"e\" before the \"r\", so it is not \"tigerer\".",
+  "explanation": "\"En tiger\" means \"a tiger\", spelled almost like the English word. The plural \"tigre\" (tigers) drops the \"e\" before the \"r\", so it is not \"tigerer\".",
   "related": [
    {
     "da": "en løve",
@@ -1534,8 +1534,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene så en **tiger** i zoo.",
-   "en": "The children saw a tiger at the zoo."
+   "da": "Børnene ser en stor **tiger** med striber i zoo.",
+   "en": "The children see a big tiger with stripes at the zoo."
   }
  },
  "en time": {
@@ -1557,7 +1557,7 @@
     "en": "the hours"
    }
   ],
-  "explanation": "\"En time\" means \"an hour\". It also means a lesson or class, so \"en dansktime\" is a Danish lesson. \"Om en time\" means \"in an hour\". For time in general, Danes say \"tid\" (time).",
+  "explanation": "\"En time\" means \"an hour\". It also means a lesson or class, so \"en dansktime\" is a Danish lesson. \"Om en time\" means \"in an hour\". For time in general, say \"tid\" (time).",
   "related": [
    {
     "da": "et minut",
@@ -1577,8 +1577,8 @@
    }
   ],
   "sentence": {
-   "da": "Toget kommer om en **time**.",
-   "en": "The train comes in an hour."
+   "da": "Der er tres minutter i en **time**.",
+   "en": "There are sixty minutes in an hour."
   }
  },
  "en ting": {
@@ -1620,8 +1620,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har mange **ting** at lave.",
-   "en": "I have many things to do."
+   "da": "I min taske har jeg mange **ting**: en bog, en telefon og en nøgle.",
+   "en": "In my bag I have many things: a book, a phone and a key."
   }
  },
  "en tjener": {
@@ -1643,7 +1643,7 @@
     "en": "the waiters"
    }
   ],
-  "explanation": "\"En tjener\" means \"a waiter\", for men and women alike. To get a waiter's attention you can say \"Undskyld\" (Excuse me). It can also mean \"a servant\".",
+  "explanation": "\"En tjener\" means \"a waiter\", for men and women alike. It can also mean \"a servant\".",
   "related": [
    {
     "da": "en kok",
@@ -1663,8 +1663,8 @@
    }
   ],
   "sentence": {
-   "da": "**Tjeneren** kommer med maden.",
-   "en": "The waiter is coming with the food."
+   "da": "Jeg bestiller mad, og en **tjener** kommer med menuen.",
+   "en": "I order food, and a waiter comes with the menu."
   }
  },
  "en togbillet": {
@@ -1706,8 +1706,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har købt en **togbillet** til Odense.",
-   "en": "I have bought a train ticket to Odense."
+   "da": "Jeg har købt en **togbillet**, så jeg kan køre med toget til Odense.",
+   "en": "I have bought a train ticket so I can travel by train to Odense."
   }
  },
  "en togstation": {
@@ -1749,8 +1749,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi mødes på **togstationen**.",
-   "en": "We meet at the train station."
+   "da": "Toget holder ved en **togstation**, og vi stiger af.",
+   "en": "The train stops at a train station, and we get off."
   }
  },
  "en tomat": {
@@ -1792,8 +1792,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skærer en **tomat**.",
-   "en": "I am cutting a tomato."
+   "da": "Jeg skærer en rød **tomat** til salaten.",
+   "en": "I cut a red tomato for the salad."
   }
  },
  "en tommelfinger": {
@@ -1815,7 +1815,7 @@
     "en": "the thumbs"
    }
   ],
-  "explanation": "\"En tommelfinger\" means \"a thumb\". \"Tommelfinger op\" means \"thumbs up\", just like in English. Danish says \"the thumb\" where English says \"my thumb\": \"Jeg har ondt i tommelfingeren\" = \"I have a pain in the thumb\", meaning \"my thumb hurts\".",
+  "explanation": "\"En tommelfinger\" means \"a thumb\". \"Tommelfinger op\" means \"thumbs up\". Danish says \"the thumb\" where English says \"my thumb\": \"Jeg har ondt i tommelfingeren\" means \"I have a pain in the thumb\", that is, \"my thumb hurts\".",
   "related": [
    {
     "da": "en finger",
@@ -1835,8 +1835,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har slået min **tommelfinger**.",
-   "en": "I have hit my thumb."
+   "da": "Jeg har slået min **tommelfinger** med en hammer, og den gør ondt.",
+   "en": "I hit my thumb with a hammer, and it hurts."
   }
  },
  "en trøje": {
@@ -1878,8 +1878,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **trøje** er for lille.",
-   "en": "My sweater is too small."
+   "da": "Det er koldt, så jeg tager min **trøje** på.",
+   "en": "It is cold, so I put on my sweater."
   }
  },
  "en tunge": {
@@ -1964,7 +1964,7 @@
    }
   ],
   "sentence": {
-   "da": "Vi går **en tur** i parken.",
+   "da": "Vi går en **tur** i parken.",
    "en": "We are going for a walk in the park."
   }
  },
@@ -2007,8 +2007,8 @@
    }
   ],
   "sentence": {
-   "da": "Min nabo er **tysker**.",
-   "en": "My neighbour is a German."
+   "da": "Hun er **tysker** og bor i Tyskland.",
+   "en": "She is a German and lives in Germany."
   }
  },
  "en tå": {
@@ -2030,7 +2030,7 @@
     "en": "the toes"
    }
   ],
-  "explanation": "\"En tå\" means \"a toe\". \"Stortå\" is the big toe. Danish says \"the toe\" where English says \"my toe\": \"Jeg slog tåen\" (I hit the toe) means \"I hit my toe\".",
+  "explanation": "\"En tå\" means \"a toe\". Danish often says \"the toe\" where English says \"my toe\": \"Jeg slog tåen\" means \"I hit my toe\". A big toe is \"en stortå\".",
   "related": [
    {
     "da": "en fod",
@@ -2050,8 +2050,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg slog **tåen** mod døren.",
-   "en": "I hit my toe on the door."
+   "da": "Jeg slog min **tå** mod døren, og det gjorde ondt.",
+   "en": "I hit my toe on the door and it hurt."
   }
  },
  "en tøjbutik": {
@@ -2093,8 +2093,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er mange **tøjbutikker** i byen.",
-   "en": "There are many clothing stores in town."
+   "da": "Jeg køber en trøje og bukser i en **tøjbutik**.",
+   "en": "I buy a sweater and trousers in a clothing store."
   }
  },
  "et tal": {
@@ -2136,8 +2136,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvilket **tal** tænker jeg på?",
-   "en": "Which number am I thinking of?"
+   "da": "Fem er et lille **tal**.",
+   "en": "Five is a small number."
   }
  },
  "et telefonnummer": {
@@ -2159,7 +2159,7 @@
     "en": "the phone numbers"
    }
   ],
-  "explanation": "\"Et telefonnummer\" means \"a phone number\", built from \"telefon\" (phone) and \"nummer\" (number). Danish phone numbers have 8 digits.",
+  "explanation": "\"Et telefonnummer\" means \"a phone number\", built from \"telefon\" (phone) and \"nummer\" (number). \"Hvad er dit telefonnummer?\" means \"What is your phone number?\".",
   "related": [
    {
     "da": "et nummer",
@@ -2179,8 +2179,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvad er dit **telefonnummer**?",
-   "en": "What is your phone number?"
+   "da": "Jeg kan ikke ringe til dig, for jeg har ikke dit **telefonnummer**.",
+   "en": "I cannot call you, because I do not have your phone number."
   }
  },
  "et tilbud": {
@@ -2245,7 +2245,7 @@
     "en": "the trains"
    }
   ],
-  "explanation": "\"Et tog\" means \"a train\". To say you travel by train, Danes say \"at tage toget\", literally \"to take the train\". It is used for both short and long trips.",
+  "explanation": "\"Et tog\" means \"a train\". To say you go by train, Danes say \"at tage toget\", literally \"to take the train\": \"Jeg tager toget\" means \"I take the train\".",
   "related": [
    {
     "da": "en station",
@@ -2265,8 +2265,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tager **toget** på arbejde.",
-   "en": "I take the train to work."
+   "da": "Vi venter på perronen, og vores **tog** kommer om fem minutter.",
+   "en": "We wait on the platform and our train comes in five minutes."
   }
  },
  "et toilet": {
@@ -2308,8 +2308,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvor er **toilettet**?",
-   "en": "Where is the toilet?"
+   "da": "Jeg skal på **toilet** og vaske hænder.",
+   "en": "I am going to the toilet to wash my hands."
   }
  },
  "et træ": {
@@ -2351,8 +2351,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er et stort **træ** i haven.",
-   "en": "There is a big tree in the garden."
+   "da": "Et stort **træ** med grønne blade står i haven.",
+   "en": "A big tree with green leaves stands in the garden."
   }
  },
  "et tv": {
@@ -2394,8 +2394,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg ser **tv** hver aften.",
-   "en": "I watch TV every evening."
+   "da": "Jeg sidder i sofaen og ser **tv**.",
+   "en": "I sit on the sofa and watch TV."
   }
  },
  "et tørklæde": {
@@ -2456,7 +2456,7 @@
     "en": "yes please, no thank you"
    }
   ],
-  "explanation": "\"Tak\" means \"thanks\", and Danish also uses it for \"please\": \"ja tak\" is \"yes, please\" and \"Kaffe, tak\" is \"Coffee, please\". The usual reply to thanks is \"selv tak\" (you're welcome). After a meal Danes say \"tak for mad\" (thanks for the meal).",
+  "explanation": "\"Tak\" means \"thanks\", and Danish also uses it for \"please\": \"ja tak\" is \"yes, please\" and \"Kaffe, tak\" is \"Coffee, please\". You answer thanks with \"selv tak\" (you're welcome).",
   "related": [
    {
     "da": "tusind tak",
@@ -2476,8 +2476,8 @@
    }
   ],
   "sentence": {
-   "da": "**Tak** for maden!",
-   "en": "Thanks for the meal!"
+   "da": "**Tak** for gaven, den er flot!",
+   "en": "Thanks for the gift, it is beautiful!"
   }
  },
  "tak for det": {
@@ -2569,7 +2569,7 @@
     "en": "Thanks for the meal, it was delicious."
    }
   ],
-  "explanation": "\"Tak for mad\" means \"thanks for the meal\" (\"mad\" is food). Danes say it at the end of a meal to thank whoever cooked or paid, even at home with family. The reply is \"velbekomme\" (you're welcome, said about food).",
+  "explanation": "\"Tak for mad\" means \"thanks for the meal\" (\"mad\" is food). You say it at the end of a meal to thank whoever made the food. The reply is \"velbekomme\" (you're welcome, said about food).",
   "related": [
    {
     "da": "velbekomme",
@@ -2604,7 +2604,7 @@
     "en": "I understand when you speak slowly"
    }
   ],
-  "explanation": "\"Tal langsomt\" means \"speak slowly\". It is an order or request, so it starts with \"tal\" instead of \"at tale\" (to speak). Adding \"tak\" (please) makes it polite, and \"Kan du tale langsommere?\" (Can you speak more slowly?) is even softer.",
+  "explanation": "\"Tal langsomt\" means \"speak slowly\". Adding \"tak\" (please) makes it polite, and \"Kan du tale langsommere?\" (Can you speak more slowly?) is even softer.",
   "related": [
    {
     "da": "langsom",
@@ -2624,8 +2624,8 @@
    }
   ],
   "sentence": {
-   "da": "Undskyld, vil du være sød at **tale langsomt**?",
-   "en": "Excuse me, would you be kind enough to speak slowly?"
+   "da": "Jeg forstår ikke, **tal langsomt**, tak.",
+   "en": "I do not understand, speak slowly, please."
   }
  },
  "taler du engelsk?": {
@@ -2643,7 +2643,7 @@
     "en": "I only speak a little Danish."
    }
   ],
-  "explanation": "\"Taler du engelsk?\" means \"Do you speak English?\". It is polite to try a little Danish first: \"Jeg taler lidt dansk\" (I speak a little Danish). For asking several people say \"Taler I engelsk?\", and for one person you address very formally, \"Taler De engelsk?\"",
+  "explanation": "\"Taler du engelsk?\" means \"Do you speak English?\". It is polite to try a little Danish first: \"Jeg taler lidt dansk\" (I speak a little Danish). To ask several people say \"Taler I engelsk?\" (Do you all speak English?), and for one person you address very formally, \"Taler De engelsk?\" (Do you speak English, sir or madam?).",
   "related": [
    {
     "da": "at tale",
@@ -2678,7 +2678,7 @@
     "en": "I have a toothache."
    }
   ],
-  "explanation": "\"Tandpine\" means \"toothache\". You say \"Jeg har tandpine\" without \"en\". It is built from \"tand\" (tooth) and \"pine\" (pain). You can also say \"Jeg har ondt i tanden\" (literally \"I have pain in the tooth\").",
+  "explanation": "\"Tandpine\" means \"toothache\". It is built from \"tand\" (tooth) and \"pine\" (pain). You can also say \"Jeg har ondt i tanden\" (literally \"I have pain in the tooth\").",
   "related": [
    {
     "da": "en tand",
@@ -2717,7 +2717,7 @@
     "en": "a cup of tea"
    }
   ],
-  "explanation": "\"Te\" means \"tea\". When you order it, you may be asked \"Med mælk eller citron?\" (With milk or lemon?).",
+  "explanation": "\"Te\" means \"tea\". It is said like English \"tay\", not like \"tee\". Do not mix it up with \"ti\" (ten), which is said like \"tee\".",
   "related": [
    {
     "da": "kaffe",
@@ -2737,8 +2737,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg drikker **te** om aftenen.",
-   "en": "I drink tea in the evening."
+   "da": "Jeg drikker varm **te** med citron.",
+   "en": "I drink hot tea with lemon."
   }
  },
  "tennis": {
@@ -2776,8 +2776,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiller **tennis** i parken.",
-   "en": "We play tennis in the park."
+   "da": "Vi spiller **tennis** med en bold på en bane.",
+   "en": "We play tennis with a ball on a court."
   }
  },
  "ti": {
@@ -2815,8 +2815,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg venter i **ti** minutter.",
-   "en": "I wait for ten minutes."
+   "da": "Efter ni kommer **ti**, og efter ti kommer elleve.",
+   "en": "After nine comes ten, and after ten comes eleven."
   }
  },
  "tidlig": {
@@ -2834,7 +2834,7 @@
     "en": "early trains"
    }
   ],
-  "explanation": "\"Tidlig\" means \"early\". The opposite is \"sen\" (late). When it says how something happens, Danish uses \"tidligt\": \"Jeg står tidligt op\" (I get up early).",
+  "explanation": "\"Tidlig\" means \"early\". The opposite is \"sen\" (late). To say you do something early, Danish uses \"tidligt\": \"Jeg står tidligt op\" (I get up early).",
   "related": [
    {
     "da": "sen",
@@ -2854,8 +2854,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en **tidlig** morgen.",
-   "en": "It is an early morning."
+   "da": "Klokken fem om morgenen er meget **tidlig**.",
+   "en": "Five o'clock in the morning is very early."
   }
  },
  "tidligt": {
@@ -2893,8 +2893,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg står **tidligt** op hver dag.",
-   "en": "I get up early every day."
+   "da": "Jeg skal stå **tidligt** op i morgen, klokken fem.",
+   "en": "I have to get up early tomorrow, at five o'clock."
   }
  },
  "tiende": {
@@ -2932,8 +2932,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er min **tiende** dag på arbejde.",
-   "en": "It is my tenth day at work."
+   "da": "Efter den niende kommer den **tiende**.",
+   "en": "After the ninth comes the tenth."
   }
  },
  "til": {
@@ -3010,7 +3010,7 @@
    }
   ],
   "sentence": {
-   "da": "Gå ligeud og **drej til højre**.",
+   "da": "Gå ligeud og drej **til højre**.",
    "en": "Go straight ahead and turn right."
   }
  },
@@ -3049,8 +3049,8 @@
    }
   ],
   "sentence": {
-   "da": "Toilettet er **til venstre**.",
-   "en": "The restroom is on the left."
+   "da": "Du skal dreje **til venstre**, ikke til højre.",
+   "en": "You have to turn left, not right."
   }
  },
  "tilbage": {
@@ -3088,8 +3088,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kommer snart **tilbage**.",
-   "en": "I will be back soon."
+   "da": "Jeg går nu, men jeg kommer snart **tilbage**.",
+   "en": "I am going now, but I will be back soon."
   }
  },
  "tillykke": {
@@ -3158,8 +3158,8 @@
    }
   ],
   "sentence": {
-   "da": "**Tillykke med fødselsdagen**, Anna!",
-   "en": "Happy birthday, Anna!"
+   "da": "Her er en kage og en gave. **Tillykke med fødselsdagen**, Anna!",
+   "en": "Here is a cake and a present. Happy birthday, Anna!"
   }
  },
  "tirsdag": {
@@ -3201,8 +3201,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi ses **tirsdag**.",
-   "en": "See you on Tuesday."
+   "da": "I dag er det mandag, og i morgen er det **tirsdag**.",
+   "en": "Today it is Monday, and tomorrow it is Tuesday."
   }
  },
  "to": {
@@ -3240,8 +3240,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **to** børn.",
-   "en": "I have two children."
+   "da": "En, **to**, tre, fire!",
+   "en": "One, two, three, four!"
   }
  },
  "to gange": {
@@ -3279,8 +3279,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har været i Paris **to gange**.",
-   "en": "I have been to Paris twice."
+   "da": "Én gang, **to gange**, tre gange!",
+   "en": "Once, twice, three times!"
   }
  },
  "tolv": {
@@ -3298,7 +3298,7 @@
     "en": "twelve months"
    }
   ],
-  "explanation": "\"Tolv\" means \"twelve\". \"Et dusin\" means \"a dozen\", and \"tolvte\" means \"twelfth\".",
+  "explanation": "\"Tolv\" means \"twelve\". \"Et dusin\" means \"a dozen\" (twelve of something), and \"tolvte\" means \"twelfth\".",
   "related": [
    {
     "da": "elleve",
@@ -3313,13 +3313,13 @@
     "en": "twenty"
    },
    {
-    "da": "en dusin",
+    "da": "et dusin",
     "en": "a dozen"
    }
   ],
   "sentence": {
-   "da": "Vi spiser frokost klokken **tolv**.",
-   "en": "We eat lunch at twelve o'clock."
+   "da": "Efter elleve kommer **tolv**.",
+   "en": "After eleven comes twelve."
   }
  },
  "tom": {
@@ -3357,8 +3357,8 @@
    }
   ],
   "sentence": {
-   "da": "Køleskabet er helt **tomt**.",
-   "en": "The fridge is completely empty."
+   "da": "Flasken er **tom**, der er ikke mere vand i den.",
+   "en": "The bottle is empty, there is no more water in it."
   }
  },
  "torsdag": {
@@ -3400,8 +3400,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun har tandlæge **torsdag**.",
-   "en": "She has the dentist on Thursday."
+   "da": "I morgen er det onsdag, og dagen efter er det **torsdag**.",
+   "en": "Tomorrow is Wednesday, and the day after is Thursday."
   }
  },
  "travl": {
@@ -3439,8 +3439,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en **travl** uge.",
-   "en": "I have a busy week."
+   "da": "Jeg har meget at lave i dag. Det er en **travl** dag.",
+   "en": "I have a lot to do today. It is a busy day."
   }
  },
  "tre": {
@@ -3478,8 +3478,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi er **tre** i familien.",
-   "en": "There are three of us in the family."
+   "da": "Jeg har **tre** æbler: et rødt, et grønt og et gult.",
+   "en": "I have three apples: a red one, a green one and a yellow one."
   }
  },
  "tredive": {
@@ -3517,8 +3517,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er **tredive** år gammel.",
-   "en": "I am thirty years old."
+   "da": "Ti, tyve, **tredive**, fyrre.",
+   "en": "Ten, twenty, thirty, forty."
   }
  },
  "tredje": {
@@ -3536,7 +3536,7 @@
     "en": "the third child"
    }
   ],
-  "explanation": "\"Tredje\" means \"third\". It is spelled a bit differently from \"tre\" (three). It is used for dates too: \"den tredje oktober\" is \"the third of October\".",
+  "explanation": "\"Tredje\" means \"third\". It is used for dates too: \"den tredje oktober\" is \"the third of October\".",
   "related": [
    {
     "da": "anden",
@@ -3556,8 +3556,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg bor på **tredje** sal.",
-   "en": "I live on the third floor."
+   "da": "Først kommer den første, så den anden og så den **tredje**.",
+   "en": "First comes the first, then the second and then the third."
   }
  },
  "tres": {
@@ -3575,7 +3575,7 @@
     "en": "sixty-one"
    }
   ],
-  "explanation": "\"Tres\" means \"sixty\". It is short for the old word \"tresindstyve\", literally \"three times twenty\", but Danes just say \"tres\".",
+  "explanation": "\"Tres\" means \"sixty\". It is short for the older word \"tresindstyve\", literally \"three times twenty\".",
   "related": [
    {
     "da": "halvtreds",
@@ -3595,8 +3595,8 @@
    }
   ],
   "sentence": {
-   "da": "Min far er **tres** år.",
-   "en": "My father is sixty years old."
+   "da": "Halvtreds, **tres**, halvfjerds.",
+   "en": "Fifty, sixty, seventy."
   }
  },
  "tretten": {
@@ -3634,8 +3634,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søn er **tretten** år.",
-   "en": "My son is thirteen years old."
+   "da": "Tolv, **tretten**, fjorten.",
+   "en": "Twelve, thirteen, fourteen."
   }
  },
  "trist": {
@@ -3673,8 +3673,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun er **trist** i dag.",
-   "en": "She is sad today."
+   "da": "Hun græder, fordi filmen er så **trist**.",
+   "en": "She is crying because the film is so sad."
   }
  },
  "trusser": {
@@ -3692,7 +3692,7 @@
     "en": "a pair of panties"
    }
   ],
-  "explanation": "\"Trusser\" means \"panties\" or \"briefs\", women's underwear, and it is always used in the plural. For men's underwear the usual word is \"underbukser\", and \"undertøj\" means underwear in general.",
+  "explanation": "\"Trusser\" means \"panties\" or \"briefs\", women's underwear, and it is always used in the plural. For men's underwear the word is \"underbukser\", and \"undertøj\" means underwear in general.",
   "related": [
    {
     "da": "undertøj",
@@ -3712,8 +3712,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har købt tre par **trusser**.",
-   "en": "I have bought three pairs of panties."
+   "da": "Hun tager **trusser**, bukser og en trøje på.",
+   "en": "She puts on panties, trousers and a sweater."
   }
  },
  "træt": {
@@ -3751,8 +3751,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er meget **træt** i dag.",
-   "en": "I am very tired today."
+   "da": "Jeg sov kun tre timer, så nu er jeg meget **træt**.",
+   "en": "I only slept three hours, so now I am very tired."
   }
  },
  "tung": {
@@ -3790,8 +3790,8 @@
    }
   ],
   "sentence": {
-   "da": "Min kuffert er meget **tung**.",
-   "en": "My suitcase is very heavy."
+   "da": "Kufferten er så **tung**, at jeg ikke kan løfte den.",
+   "en": "The suitcase is so heavy that I cannot lift it."
   }
  },
  "turkis": {
@@ -3829,8 +3829,8 @@
    }
   ],
   "sentence": {
-   "da": "Hendes kjole er **turkis**.",
-   "en": "Her dress is turquoise."
+   "da": "Når blå og grøn blandes, bliver farven **turkis**.",
+   "en": "When blue and green are mixed, the color becomes turquoise."
   }
  },
  "tusind": {
@@ -3848,7 +3848,7 @@
     "en": "a thousand kroner"
    }
   ],
-  "explanation": "\"Tusind\" means \"a thousand\". It is used for amounts, prices and distances: \"fem tusind\" is \"five thousand\". Years are said differently: 1999 is \"nitten hundrede og nioghalvfems\" (nineteen hundred and ninety-nine).",
+  "explanation": "\"Tusind\" means \"a thousand\". It is used for amounts, prices and distances: \"fem tusind\" is \"five thousand\". Years are said with hundreds instead: 1999 is \"nitten hundrede og nioghalvfems\" (nineteen hundred and ninety-nine).",
   "related": [
    {
     "da": "hundrede",
@@ -3868,8 +3868,8 @@
    }
   ],
   "sentence": {
-   "da": "Cyklen koster fem **tusind** kroner.",
-   "en": "The bike costs five thousand kroner."
+   "da": "Ti gange hundrede er **tusind**.",
+   "en": "Ten times a hundred is a thousand."
   }
  },
  "tusind tak": {
@@ -3903,8 +3903,8 @@
    }
   ],
   "sentence": {
-   "da": "**Tusind tak** for i aften!",
-   "en": "Thanks a lot for tonight!"
+   "da": "Du har hjulpet mig så meget. **Tusind tak**!",
+   "en": "You have helped me so much. Thanks a lot!"
   }
  },
  "tyk": {
@@ -3942,8 +3942,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en meget **tyk** bog.",
-   "en": "It is a very thick book."
+   "da": "Bogen har mange sider, så den er meget **tyk**.",
+   "en": "The book has many pages, so it is very thick."
   }
  },
  "tynd": {
@@ -3981,8 +3981,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en **tynd** skive brød.",
-   "en": "I would like a thin slice of bread."
+   "da": "Bogen har kun få sider, så den er meget **tynd**.",
+   "en": "The book has only a few pages, so it is very thin."
   }
  },
  "tyrkiet": {
@@ -4020,8 +4020,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi holder ferie i **Tyrkiet**.",
-   "en": "We are on holiday in Turkey."
+   "da": "Istanbul er en stor by i **Tyrkiet**.",
+   "en": "Istanbul is a big city in Turkey."
   }
  },
  "tyrkisk": {
@@ -4059,8 +4059,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser på en **tyrkisk** restaurant i aften.",
-   "en": "We are eating at a Turkish restaurant tonight."
+   "da": "Hun kommer fra Tyrkiet og taler **tyrkisk**.",
+   "en": "She comes from Turkey and speaks Turkish."
   }
  },
  "tysk": {
@@ -4098,8 +4098,8 @@
    }
   ],
   "sentence": {
-   "da": "Min lærer taler **tysk**.",
-   "en": "My teacher speaks German."
+   "da": "Han kommer fra Tyskland og taler **tysk**.",
+   "en": "He comes from Germany and speaks German."
   }
  },
  "tyskland": {
@@ -4137,8 +4137,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi bor i **Tyskland**.",
-   "en": "We live in Germany."
+   "da": "Berlin er en stor by i **Tyskland**.",
+   "en": "Berlin is a big city in Germany."
   }
  },
  "tyve": {
@@ -4176,8 +4176,8 @@
    }
   ],
   "sentence": {
-   "da": "Det koster **tyve** kroner.",
-   "en": "It costs twenty kroner."
+   "da": "Ti og ti er **tyve**.",
+   "en": "Ten and ten is twenty."
   }
  },
  "tåge": {
@@ -4199,7 +4199,7 @@
     "en": "There is fog."
    }
   ],
-  "explanation": "\"Tåge\" means \"fog\", the low cloud that makes it hard to see. Danish describes it with \"der er\" (there is): \"der er tåge\" means \"there is fog\", and \"tæt tåge\" means \"thick fog\".",
+  "explanation": "\"Tåge\" means \"fog\", the low cloud that makes it hard to see. \"Tæt tåge\" means \"thick fog\", and Danish says \"der er tåge\" (there is fog) where English says \"it is foggy\".",
   "related": [
    {
     "da": "tæt tåge",
@@ -4219,8 +4219,8 @@
    }
   ],
   "sentence": {
-   "da": "I morges var der tæt **tåge**.",
-   "en": "This morning there was thick fog."
+   "da": "Der er **tåge**, så jeg kan ikke se bilen foran mig.",
+   "en": "There is fog, so I cannot see the car in front of me."
   }
  },
  "tæt på": {
@@ -4297,8 +4297,8 @@
    }
   ],
   "sentence": {
-   "da": "Mit **tøj** er i skabet.",
-   "en": "My clothes are in the cupboard."
+   "da": "Bukser, trøjer og jakker er alt sammen **tøj**.",
+   "en": "Trousers, sweaters and jackets are all clothes."
   }
  },
  "tør": {
@@ -4336,8 +4336,8 @@
    }
   ],
   "sentence": {
-   "da": "Min jakke er allerede **tør**.",
-   "en": "My jacket is already dry."
+   "da": "Jakken var våd, men nu er den **tør**.",
+   "en": "The jacket was wet, but now it is dry."
   }
  },
  "tørstig": {
@@ -4375,8 +4375,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er meget **tørstig**.",
-   "en": "I am very thirsty."
+   "da": "Jeg er **tørstig**, så jeg drikker et glas vand.",
+   "en": "I am thirsty, so I drink a glass of water."
   }
  }
 }

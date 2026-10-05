@@ -18,7 +18,7 @@
     "en": "I have made, I have done"
    }
   ],
-  "explanation": "\"At lave\" means \"to make / do\" for activities. \"Hvad laver du?\" means \"What are you doing?\", and \"at lave mad\" means \"to cook\". \"At gøre\" (to do) is used with a specific thing, as in \"gøre noget ved det\" (do something about it).",
+  "explanation": "\"At lave\" means \"to make\" or \"to do\": \"Hvad laver du?\" (What are you doing?) and \"Jeg laver en kage\" (I am making a cake). \"At gøre\" (to do) is used with a specific thing, as in \"gøre noget ved det\" (do something about it).",
   "related": [
    {
     "da": "at gøre",
@@ -81,8 +81,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene **laver lektier** efter skole.",
-   "en": "The children do homework after school."
+   "da": "Børnene skal **lave lektier**, før de må se tv.",
+   "en": "The children have to do homework before they may watch TV."
   }
  },
  "at lave mad": {
@@ -104,7 +104,7 @@
     "en": "I have cooked"
    }
   ],
-  "explanation": "\"At lave mad\" means \"to cook\". It is made of \"lave\" (to make) and \"mad\" (food), so it literally means \"to make food\". \"At koge\" (to boil) is more specific. For any cooking, add the dish: \"Jeg laver pasta\" (I am making pasta).",
+  "explanation": "\"At lave mad\" means \"to cook\". It is made of \"lave\" (to make) and \"mad\" (food), so it literally means \"to make food\". Add the dish when you say what you cook: \"Jeg laver pasta\" (I am making pasta). \"At koge\" (to boil) is narrower.",
   "related": [
    {
     "da": "at koge",
@@ -124,8 +124,8 @@
    }
   ],
   "sentence": {
-   "da": "Min far **laver mad** hver dag.",
-   "en": "My father cooks every day."
+   "da": "Min far vil **lave mad** til os i aften.",
+   "en": "My father will cook for us tonight."
   }
  },
  "at le": {
@@ -163,8 +163,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **lo** hele aftenen.",
-   "en": "We laughed all evening."
+   "da": "Filmen er så sjov, at jeg må **le**.",
+   "en": "The film is so funny that I have to laugh."
   }
  },
  "at lede efter": {
@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **leder efter** mine nøgler.",
-   "en": "I am looking for my keys."
+   "da": "Jeg vil **lede efter** mine nøgler.",
+   "en": "I want to look for my keys."
   }
  },
  "at lege": {
@@ -241,8 +241,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene **leger** i haven.",
-   "en": "The children are playing in the garden."
+   "da": "Børnene vil **lege** med bolden i haven.",
+   "en": "The children want to play with the ball in the garden."
   }
  },
  "at leve": {
@@ -280,8 +280,8 @@
    }
   ],
   "sentence": {
-   "da": "Min bedstefar **lever** stadig.",
-   "en": "My grandfather is still alive."
+   "da": "Fisk kan ikke **leve** uden vand.",
+   "en": "Fish cannot live without water."
   }
  },
  "at ligge": {
@@ -319,8 +319,8 @@
    }
   ],
   "sentence": {
-   "da": "Bogen **ligger** på bordet.",
-   "en": "The book is lying on the table."
+   "da": "Jeg vil **ligge** i sengen og sove.",
+   "en": "I want to lie in bed and sleep."
   }
  },
  "at like": {
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun plejer at **like** mine billeder.",
-   "en": "She usually likes my pictures."
+   "da": "Jeg vil **like** dit billede på Instagram.",
+   "en": "I will like your picture on Instagram."
   }
  },
  "at lukke": {
@@ -401,8 +401,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du **lukke** vinduet, tak?",
-   "en": "Can you close the window, please?"
+   "da": "Kan du **lukke** vinduet? Det er koldt.",
+   "en": "Can you close the window? It is cold."
   }
  },
  "at lytte": {
@@ -440,8 +440,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **lytter** til radio om morgenen.",
-   "en": "I listen to the radio in the morning."
+   "da": "Jeg vil **lytte** til musik og slappe af.",
+   "en": "I want to listen to music and relax."
   }
  },
  "at låne": {
@@ -518,8 +518,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun **lægger** bogen på bordet.",
-   "en": "She puts the book on the table."
+   "da": "Jeg vil **lægge** barnet i sengen, for hun er træt.",
+   "en": "I want to put the child to bed because she is tired."
   }
  },
  "at lære": {
@@ -557,8 +557,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **lærer** dansk hver dag.",
-   "en": "I am learning Danish every day."
+   "da": "Jeg vil **lære** dansk, så jeg kan tale med mine naboer.",
+   "en": "I want to learn Danish so I can talk with my neighbours."
   }
  },
  "at læse": {
@@ -596,8 +596,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **læser** en bog i sengen.",
-   "en": "I am reading a book in bed."
+   "da": "Jeg vil **læse** en god bog i sengen i aften.",
+   "en": "I want to read a good book in bed tonight."
   }
  },
  "at løbe": {
@@ -635,8 +635,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **løber** i parken hver morgen.",
-   "en": "I run in the park every morning."
+   "da": "Jeg vil **løbe** hurtigt for at nå bussen.",
+   "en": "I want to run fast to catch the bus."
   }
  },
  "en lampe": {
@@ -678,8 +678,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du tænde **lampen**?",
-   "en": "Can you switch on the lamp?"
+   "da": "Det er mørkt, så jeg tænder en **lampe**.",
+   "en": "It is dark, so I switch on a lamp."
   }
  },
  "en landmand": {
@@ -721,8 +721,8 @@
    }
   ],
   "sentence": {
-   "da": "**Landmanden** arbejder på marken.",
-   "en": "The farmer works in the field."
+   "da": "En **landmand** har køer og arbejder på marken.",
+   "en": "A farmer has cows and works in the field."
   }
  },
  "en lejlighed": {
@@ -744,7 +744,7 @@
     "en": "the apartments"
    }
   ],
-  "explanation": "\"En lejlighed\" means \"an apartment\" or \"a flat\". \"At leje en lejlighed\" means \"to rent an apartment\", while a whole house is \"et hus\". Size is often given in rooms: \"en lejlighed med tre værelser\" means \"an apartment with three rooms\".",
+  "explanation": "\"En lejlighed\" means \"an apartment\" or \"a flat\". \"At leje en lejlighed\" means \"to rent an apartment\", while a whole house is \"et hus\". \"En lejlighed med tre værelser\" means \"an apartment with three rooms\".",
   "related": [
    {
     "da": "et hus",
@@ -764,8 +764,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi bor i en lille **lejlighed**.",
-   "en": "We live in a small apartment."
+   "da": "Vi bor i en **lejlighed** med to værelser og en lille balkon.",
+   "en": "We live in an apartment with two rooms and a small balcony."
   }
  },
  "en lillebror": {
@@ -807,8 +807,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **lillebror** går i børnehave.",
-   "en": "My little brother goes to nursery school."
+   "da": "Min **lillebror** er fem år, og jeg er ti.",
+   "en": "My little brother is five years old, and I am ten."
   }
  },
  "en lillesøster": {
@@ -850,8 +850,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **lillesøster** elsker at tegne.",
-   "en": "My little sister loves to draw."
+   "da": "Min **lillesøster** er tre år, og jeg er tolv.",
+   "en": "My little sister is three years old, and I am twelve."
   }
  },
  "en liste": {
@@ -873,7 +873,7 @@
     "en": "the lists"
    }
   ],
-  "explanation": "\"En liste\" means \"a list\", just like in English. Danes make \"en indkøbsliste\" (a shopping list) and \"en huskeliste\" (a reminder list). \"At skrive noget på listen\" means \"to write something on the list\".",
+  "explanation": "\"En liste\" means \"a list\". You can build words from it: \"en indkøbsliste\" (a shopping list) and \"en huskeliste\" (a reminder list). \"At skrive noget på listen\" means \"to write something on the list\".",
   "related": [
    {
     "da": "en indkøbsliste",
@@ -893,8 +893,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skriver **en liste**.",
-   "en": "I am writing a list."
+   "da": "Jeg skriver en **liste** over mælk, brød og ost.",
+   "en": "I write a list of milk, bread and cheese."
   }
  },
  "en liter": {
@@ -1022,8 +1022,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal til **lufthavnen** klokken seks.",
-   "en": "We are going to the airport at six o'clock."
+   "da": "Flyene lander og letter i en stor **lufthavn**.",
+   "en": "The planes land and take off at a big airport."
   }
  },
  "en læbe": {
@@ -1065,8 +1065,8 @@
    }
   ],
   "sentence": {
-   "da": "Mine **læber** er tørre.",
-   "en": "My lips are dry."
+   "da": "Jeg har et lille sår på min **læbe**.",
+   "en": "I have a small cut on my lip."
   }
  },
  "en læge": {
@@ -1108,8 +1108,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal til **lægen** i morgen.",
-   "en": "I am going to the doctor tomorrow."
+   "da": "Jeg er syg, så jeg ringer til en **læge**.",
+   "en": "I am ill, so I call a doctor."
   }
  },
  "en lærer": {
@@ -1151,8 +1151,8 @@
    }
   ],
   "sentence": {
-   "da": "Vores **lærer** er meget venlig.",
-   "en": "Our teacher is very kind."
+   "da": "Vores **lærer** underviser os i dansk i skolen.",
+   "en": "Our teacher teaches us Danish at school."
   }
  },
  "en løve": {
@@ -1194,8 +1194,8 @@
    }
   ],
   "sentence": {
-   "da": "**Løven** brølede højt.",
-   "en": "The lion roared loudly."
+   "da": "En **løve** er et stort dyr og brøler meget højt.",
+   "en": "A lion is a big animal and roars very loudly."
   }
  },
  "et land": {
@@ -1280,8 +1280,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har et godt **liv** i Danmark.",
-   "en": "I have a good life in Denmark."
+   "da": "Vi har kun ét **liv**, så jeg vil være glad.",
+   "en": "We only have one life, so I want to be happy."
   }
  },
  "et lår": {
@@ -1323,8 +1323,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har ondt i mit **lår**.",
-   "en": "I have pain in my thigh."
+   "da": "Mit **lår** sidder mellem min hofte og mit knæ.",
+   "en": "My thigh is between my hip and my knee."
   }
  },
  "et løg": {
@@ -1346,7 +1346,7 @@
     "en": "the onions"
    }
   ],
-  "explanation": "\"Et løg\" means \"an onion\". Danes use \"løg\" a lot in cooking, and \"ristede løg\" (fried onions) are a classic topping on a hot dog.",
+  "explanation": "\"Et løg\" means \"an onion\". It is also part of \"hvidløg\" (garlic), which is literally \"white onion\".",
   "related": [
    {
     "da": "hvidløg",
@@ -1366,8 +1366,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skærer et **løg**.",
-   "en": "I am cutting an onion."
+   "da": "Jeg skærer et **løg**, og så græder jeg.",
+   "en": "I cut an onion, and then I cry."
   }
  },
  "lad os se": {
@@ -1440,8 +1440,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser **laks** med kartofler.",
-   "en": "I eat salmon with potatoes."
+   "da": "**Laks** er en lyserød fisk.",
+   "en": "Salmon is a pink fish."
   }
  },
  "lang": {
@@ -1479,8 +1479,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en **lang** dag.",
-   "en": "It is a long day."
+   "da": "Det er en **lang** vej, så vi tager bussen.",
+   "en": "It is a long way, so we take the bus."
   }
  },
  "langsom": {
@@ -1518,8 +1518,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du tale lidt mere **langsomt**?",
-   "en": "Can you speak a little more slowly?"
+   "da": "Skildpadden er **langsom**, men bilen er hurtig.",
+   "en": "The turtle is slow, but the car is fast."
   }
  },
  "langt fra": {
@@ -1635,8 +1635,8 @@
    }
   ],
   "sentence": {
-   "da": "Prisen er meget **lav**.",
-   "en": "The price is very low."
+   "da": "Stolen er **lav**, men bordet er højt.",
+   "en": "The chair is low, but the table is high."
   }
  },
  "legetøj": {
@@ -1654,7 +1654,7 @@
     "en": "some toys"
    }
   ],
-  "explanation": "\"Legetøj\" means \"toys\", all of them as a group, and it stays the same for one or many. \"Mit legetøj\" means \"my toys\". For one toy, say \"et stykke legetøj\" (a piece of toys) or name it, like \"en bamse\" (a teddy bear).",
+  "explanation": "\"Legetøj\" means \"toys\", all of them as a group, and it stays the same for one or many. \"Mit legetøj\" means \"my toys\". For one toy, name it, like \"en bamse\" (a teddy bear).",
   "related": [
    {
     "da": "at lege",
@@ -1674,8 +1674,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene har meget **legetøj**.",
-   "en": "The children have a lot of toys."
+   "da": "Barnet leger med sit **legetøj**.",
+   "en": "The child plays with its toys."
   }
  },
  "lektier": {
@@ -1697,7 +1697,7 @@
     "en": "my homework"
    }
   ],
-  "explanation": "\"Lektier\" means \"homework\". It is always said in the \"more than one\" form, so \"mange lektier\" means \"a lot of homework\". The usual word for doing it is \"at lave\" (to do, to make): \"Jeg laver lektier\" (I do my homework). \"En lektie\" is one piece of homework, but it is rarely used.",
+  "explanation": "\"Lektier\" means \"homework\". You say \"mange lektier\" (a lot of homework) and \"Jeg laver lektier\" (I do my homework), using \"at lave\" (to do, to make). \"En lektie\" is one piece of homework, but it is rarely used.",
   "related": [
    {
     "da": "en skole",
@@ -1717,8 +1717,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har mange **lektier** i dag.",
-   "en": "I have a lot of homework today."
+   "da": "Efter skole sidder jeg og laver **lektier**.",
+   "en": "After school I sit and do homework."
   }
  },
  "let": {
@@ -1756,8 +1756,8 @@
    }
   ],
   "sentence": {
-   "da": "Dansk er ikke så **let**.",
-   "en": "Danish is not that easy."
+   "da": "Opgaven er **let**, så jeg bliver hurtigt færdig.",
+   "en": "The task is easy, so I finish quickly."
   }
  },
  "lidt": {
@@ -1795,8 +1795,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg taler **lidt** dansk.",
-   "en": "I speak a little Danish."
+   "da": "Jeg vil kun have **lidt** mad, for jeg er ikke sulten.",
+   "en": "I only want a little food, because I am not hungry."
   }
  },
  "lidt langsommere, tak": {
@@ -1830,8 +1830,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er ny i Danmark. **Lidt langsommere, tak.**",
-   "en": "I am new in Denmark. A bit slower, please."
+   "da": "Du taler for hurtigt. **Lidt langsommere, tak**!",
+   "en": "You speak too fast. A bit slower, please!"
   }
  },
  "lige": {
@@ -1869,8 +1869,8 @@
    }
   ],
   "sentence": {
-   "da": "Gaden er **lige**.",
-   "en": "The street is straight."
+   "da": "Stregen er **lige**, den er ikke skæv.",
+   "en": "The line is straight, it is not crooked."
   }
  },
  "lige nu": {
@@ -1966,7 +1966,7 @@
     "en": "purple flowers"
    }
   ],
-  "explanation": "\"Lilla\" means \"purple\", and in everyday speech it also covers lilac and violet shades. Unlike many colour words it never gets an ending, so it stays \"lilla\" even in \"et lilla tørklæde\".",
+  "explanation": "\"Lilla\" means \"purple\", and in everyday speech it also covers lilac and violet shades. Do not mix it up with \"lyserød\" (pink), which is a lighter, redder colour.",
   "related": [
    {
     "da": "blå",
@@ -1986,8 +1986,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en **lilla** taske.",
-   "en": "I have a purple bag."
+   "da": "Violer er **lilla**, og roser er røde.",
+   "en": "Violets are purple and roses are red."
   }
  },
  "lille": {
@@ -2025,8 +2025,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har en **lille** lejlighed.",
-   "en": "We have a small apartment."
+   "da": "En mus er **lille**, men en elefant er stor.",
+   "en": "A mouse is small, but an elephant is big."
   }
  },
  "luft": {
@@ -2064,8 +2064,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg trænger til frisk **luft**.",
-   "en": "I need some fresh air."
+   "da": "Vi åbner vinduet, så der kommer frisk **luft** ind.",
+   "en": "We open the window so fresh air comes in."
   }
  },
  "lukket": {
@@ -2083,7 +2083,7 @@
     "en": "closed doors"
    }
   ],
-  "explanation": "\"Lukket\" means \"closed\", for doors, shops, windows and roads. It is the opposite of \"åben\" (open). You will see \"Lukket\" on shop doors when the shop is shut. \"At lukke\" means \"to close\".",
+  "explanation": "\"Lukket\" means \"closed\", for doors, shops, windows and roads. It is the opposite of \"åben\" (open). \"At lukke\" means \"to close\".",
   "related": [
    {
     "da": "åben",
@@ -2103,8 +2103,8 @@
    }
   ],
   "sentence": {
-   "da": "Banken er **lukket** i dag.",
-   "en": "The bank is closed today."
+   "da": "Døren er **lukket**, så jeg kan ikke komme ind.",
+   "en": "The door is closed, so I can't get in."
   }
  },
  "lys": {
@@ -2142,8 +2142,8 @@
    }
   ],
   "sentence": {
-   "da": "Køkkenet er meget **lyst** om morgenen.",
-   "en": "The kitchen is very bright in the morning."
+   "da": "Stuen er **lys**, fordi solen skinner ind.",
+   "en": "The living room is bright because the sun shines in."
   }
  },
  "lyseblå": {
@@ -2181,8 +2181,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun har en **lyseblå** skjorte.",
-   "en": "She has a light blue shirt."
+   "da": "Himlen er **lyseblå**, og der er ingen skyer.",
+   "en": "The sky is light blue and there are no clouds."
   }
  },
  "lysegrøn": {
@@ -2220,8 +2220,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun har en **lysegrøn** kjole.",
-   "en": "She has a light green dress."
+   "da": "Salaten er **lysegrøn**, men agurken er mørkegrøn.",
+   "en": "The lettuce is light green, but the cucumber is dark green."
   }
  },
  "lyserød": {
@@ -2259,8 +2259,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet har en **lyserød** trøje.",
-   "en": "The child has a pink sweater."
+   "da": "Grisen er **lyserød**, og koen er sort og hvid.",
+   "en": "The pig is pink and the cow is black and white."
   }
  },
  "lækker": {
@@ -2278,7 +2278,7 @@
     "en": "delicious cakes"
    }
   ],
-  "explanation": "\"Lækker\" means \"delicious\" or \"tasty\", and Danes use it often to praise food. It can also mean \"nice-looking\", so \"en lækker bil\" is \"a great-looking car\", and it is used for more than food.",
+  "explanation": "\"Lækker\" means \"delicious\" or \"tasty\", and it also means \"nice-looking\": \"en lækker bil\" means \"a great-looking car\".",
   "related": [
    {
     "da": "god",
@@ -2298,8 +2298,8 @@
    }
   ],
   "sentence": {
-   "da": "Suppen er virkelig **lækker**.",
-   "en": "The soup is really delicious."
+   "da": "Kagen er **lækker**, og jeg vil gerne have mere.",
+   "en": "The cake is delicious and I want more."
   }
  },
  "længe": {
@@ -2337,8 +2337,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har boet her **længe**.",
-   "en": "I have lived here for a long time."
+   "da": "Jeg har ventet **længe** på bussen, og den er stadig ikke kommet.",
+   "en": "I have waited a long time for the bus, and it still has not come."
   }
  },
  "lørdag": {
@@ -2380,8 +2380,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi handler ind om **lørdagen**.",
-   "en": "We do the shopping on Saturdays."
+   "da": "Fredag kommer før **lørdag**, og så kommer søndag.",
+   "en": "Friday comes before Saturday, and then comes Sunday."
   }
  }
 }

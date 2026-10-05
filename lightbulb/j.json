@@ -81,8 +81,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har købt en **julegave** til min mor.",
-   "en": "I have bought a Christmas present for my mother."
+   "da": "Under juletræet ligger en **julegave** til dig.",
+   "en": "Under the Christmas tree there is a Christmas present for you."
   }
  },
  "et job": {
@@ -104,7 +104,7 @@
     "en": "the jobs"
    }
   ],
-  "explanation": "\"Et job\" means \"a job\" and is borrowed from English. \"Et arbejde\" (a job, work) means about the same. \"At have et job\" means \"to have a job\".",
+  "explanation": "\"Et job\" means \"a job\" and is borrowed from English. \"Et arbejde\" (work, a job) means about the same.",
   "related": [
    {
     "da": "et arbejde",
@@ -124,8 +124,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har et nyt **job**.",
-   "en": "I have a new job."
+   "da": "Jeg arbejder hver dag, og jeg kan lide mit **job**.",
+   "en": "I work every day, and I like my job."
   }
  },
  "et jordbær": {
@@ -210,8 +210,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi pynter **juletræet** i dag.",
-   "en": "We are decorating the Christmas tree today."
+   "da": "Til jul har vi et **juletræ** i stuen med lys på.",
+   "en": "At Christmas we have a Christmas tree in the living room with lights on it."
   }
  },
  "ja": {
@@ -229,7 +229,7 @@
     "en": "Yes, of course."
    }
   ],
-  "explanation": "\"Ja\" means \"yes\" and is used just like in English. \"Ja, tak\" means \"yes, please\" and is the polite way to accept an offer. If a question has \"ikke\" (not) in it, like \"Kommer du ikke?\" (Aren't you coming?), Danes answer \"jo\" (yes) instead of \"ja\".",
+  "explanation": "\"Ja\" means \"yes\". \"Ja, tak\" means \"yes, please\" and is the polite way to accept an offer. If a question has \"ikke\" (not) in it, like \"Kommer du ikke?\" (Aren't you coming?), Danes answer \"jo\" (yes) instead of \"ja\".",
   "related": [
    {
     "da": "nej",
@@ -245,8 +245,8 @@
    }
   ],
   "sentence": {
-   "da": "**Ja**, jeg vil gerne have en kop kaffe.",
-   "en": "Yes, I would like a cup of coffee."
+   "da": "Vil du have kaffe? **Ja**, tak.",
+   "en": "Do you want coffee? Yes, please."
   }
  },
  "januar": {
@@ -264,7 +264,7 @@
     "en": "early in January"
    }
   ],
-  "explanation": "\"Januar\" means \"January\". Month names are written with a small letter in Danish, unlike in English. You can say \"midt i januar\" (in the middle of January) or \"i begyndelsen af januar\" (at the beginning of January).",
+  "explanation": "\"Januar\" means \"January\". Month names are written with a small letter (\"januar\"), while English \"January\" has a capital letter. You can say \"midt i januar\" (in the middle of January).",
   "related": [
    {
     "da": "februar",
@@ -303,7 +303,7 @@
     "en": "to Japan"
    }
   ],
-  "explanation": "\"Japan\" means \"Japan\". It is spelled the same as in English, but said with Danish sounds. A person from Japan is \"en japaner\" (a Japanese person), and \"japansk\" means \"Japanese\".",
+  "explanation": "\"Japan\" means \"Japan\". A person from Japan is \"en japaner\" (a Japanese person), and \"japansk\" means \"Japanese\".",
   "related": [
    {
     "da": "en japaner",
@@ -323,8 +323,8 @@
    }
   ],
   "sentence": {
-   "da": "Min ven rejser til **Japan**.",
-   "en": "My friend is travelling to Japan."
+   "da": "Sushi kommer fra **Japan**.",
+   "en": "Sushi comes from Japan."
   }
  },
  "japansk": {
@@ -342,7 +342,7 @@
     "en": "Japanese cars"
    }
   ],
-  "explanation": "\"Japansk\" means \"Japanese\". It is written with a small letter in Danish, unlike \"Japanese\" in English. On its own it is also the name of the language: \"Jeg taler japansk\" (I speak Japanese). A Japanese person is \"en japaner\".",
+  "explanation": "\"Japansk\" means \"Japanese\". It is written with a small letter (\"japansk\"), while English \"Japanese\" has a capital letter. On its own it is also the name of the language: \"Jeg taler japansk\" (I speak Japanese). A Japanese person is \"en japaner\".",
   "related": [
    {
     "da": "Japan",
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg elsker **japansk** mad.",
-   "en": "I love Japanese food."
+   "da": "Sushi er **japansk** mad.",
+   "en": "Sushi is Japanese food."
   }
  },
  "jeg": {
@@ -381,7 +381,7 @@
     "en": "I like coffee."
    }
   ],
-  "explanation": "\"Jeg\" means \"I\". Unlike English, it only has a capital letter at the start of a sentence. It sounds roughly like \"yai\". When something is done to you, the word is \"mig\" (me), as in \"Han ser mig\" (He sees me).",
+  "explanation": "\"Jeg\" means \"I\" and is written with a capital letter only at the start of a sentence, as in \"Du og jeg\" (you and I). It sounds roughly like \"yai\". When it is \"me\" instead, the word is \"mig\", as in \"Han ser mig\" (He sees me).",
   "related": [
    {
     "da": "mig",
@@ -494,7 +494,7 @@
     "en": "I don't understand Danish."
    }
   ],
-  "explanation": "\"Jeg forstår ikke\" means \"I don't understand\" and is very useful when you are learning. \"Forstår\" means \"understand\" and \"ikke\" means \"not\". To say \"I don't understand it\", put \"det\" (it) before \"ikke\": \"Jeg forstår det ikke\". It goes well with \"kan du gentage det?\" (can you repeat that?).",
+  "explanation": "\"Jeg forstår ikke\" means \"I don't understand\". \"Forstår\" means \"understand\" and \"ikke\" means \"not\". To say \"I don't understand it\", put \"det\" (it) before \"ikke\": \"Jeg forstår det ikke\". To ask for help, add \"kan du gentage det?\" (can you repeat that?).",
   "related": [
    {
     "da": "at forstå",
@@ -514,8 +514,8 @@
    }
   ],
   "sentence": {
-   "da": "Undskyld, **jeg forstår ikke**.",
-   "en": "Sorry, I don't understand."
+   "da": "Du taler for hurtigt, **jeg forstår ikke**.",
+   "en": "You speak too fast, I don't understand."
   }
  },
  "jeg har det godt": {
@@ -592,8 +592,8 @@
    }
   ],
   "sentence": {
-   "da": "I dag **har jeg det skidt**, fordi jeg er syg.",
-   "en": "Today I'm not doing well, because I'm sick."
+   "da": "**Jeg har det skidt**, for jeg er syg.",
+   "en": "I'm not doing well, because I'm sick."
   }
  },
  "jeg hedder…": {
@@ -724,7 +724,7 @@
     "en": "Come with you (all)!"
    }
   ],
-  "explanation": "\"Jer\" means \"you\" when you talk to more than one person and something is done to them, as in \"Jeg kan se jer\" (I can see you all). When they are the ones doing something, you say \"I\", as in \"I er søde\" (you are nice). For one person the word is \"dig\". \"Jer\" is also used after words like \"til\" (to) and \"med\" (with).",
+  "explanation": "\"Jer\" means \"you\" when you talk to more than one person, as in \"Jeg kan se jer\" (I can see you all). It is also used after words like \"til\" (to) and \"med\" (with). When you say what the group does, the word is \"I\", as in \"I er søde\" (you all are nice). For one person the word is \"dig\".",
   "related": [
    {
     "da": "I",
@@ -744,8 +744,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en gave til **jer**.",
-   "en": "I have a gift for you (all)."
+   "da": "Børn, jeg har en gave til **jer**.",
+   "en": "Children, I have a gift for you all."
   }
  },
  "jeres": {
@@ -783,8 +783,8 @@
    }
   ],
   "sentence": {
-   "da": "Er det **jeres** bil?",
-   "en": "Is that your car (you all)?"
+   "da": "Mor og far, er det **jeres** bil?",
+   "en": "Mum and Dad, is that your car?"
   }
  },
  "jo": {
@@ -857,8 +857,8 @@
    }
   ],
   "sentence": {
-   "da": "Planterne vokser i **jorden**.",
-   "en": "The plants grow in the soil."
+   "da": "Planter har brug for vand og **jord**.",
+   "en": "Plants need water and soil."
   }
  },
  "juice": {
@@ -876,7 +876,7 @@
     "en": "a glass of juice"
    }
   ],
-  "explanation": "\"Juice\" means \"juice\". It is borrowed from English but said the Danish way. People usually say what kind it is, as in \"appelsinjuice\" (orange juice) or \"æblejuice\" (apple juice).",
+  "explanation": "\"Juice\" means \"juice\". To say what kind, put the fruit in front, as in \"appelsinjuice\" (orange juice) or \"æblejuice\" (apple juice).",
   "related": [
    {
     "da": "en appelsin",
@@ -939,8 +939,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi fejrer **jul** hos min mormor.",
-   "en": "We celebrate Christmas at my grandmother's."
+   "da": "Vi har et juletræ og får gaver til **jul**.",
+   "en": "We have a Christmas tree and get presents at Christmas."
   }
  },
  "juleaften": {
@@ -982,8 +982,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser flæskesteg hos mormor til **juleaften**.",
-   "en": "We eat roast pork at grandmother's for Christmas Eve."
+   "da": "På **juleaften** pynter vi juletræet og får gaver.",
+   "en": "On Christmas Eve we decorate the Christmas tree and get presents."
   }
  },
  "juli": {
@@ -1001,7 +1001,7 @@
     "en": "early in July"
    }
   ],
-  "explanation": "\"Juli\" means \"July\" and is written with a small letter, unlike in English. It sounds close to \"juni\" (June), so check the middle: \"juli\" has an l and \"juni\" has an n.",
+  "explanation": "\"Juli\" means \"July\" and is written with a small letter (\"juli\"), while English \"July\" has a capital letter. It looks close to \"juni\" (June), so check the end: \"juli\" ends in i and \"juni\" has an n in the middle.",
   "related": [
    {
     "da": "juni",
@@ -1040,7 +1040,7 @@
     "en": "early in June"
    }
   ],
-  "explanation": "\"Juni\" means \"June\" and is written with a small letter, unlike in English. It sounds close to \"juli\" (July), so check the middle: \"juni\" has an n and \"juli\" has an l.",
+  "explanation": "\"Juni\" means \"June\" and is written with a small letter (\"juni\"), while English \"June\" has a capital letter. It looks close to \"juli\" (July), so check the middle: \"juni\" has an n and \"juli\" has an l.",
   "related": [
    {
     "da": "maj",

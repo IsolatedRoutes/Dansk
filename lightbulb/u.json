@@ -18,7 +18,7 @@
     "en": "I have apologized"
    }
   ],
-  "explanation": "\"At undskylde\" means \"to apologize\", and also \"to excuse\". The short word \"Undskyld\" means both \"Sorry\" and \"Excuse me\", which is handy for getting past someone or getting a waiter's attention. To say you are sorry for something, use \"Jeg undskylder for ...\" (I apologize for ...).",
+  "explanation": "\"At undskylde\" means \"to apologize\", and also \"to excuse\". The short word \"Undskyld\" means both \"Sorry\" and \"Excuse me\". To say what you are sorry for, use \"Jeg undskylder for ...\" (I apologize for ...).",
   "related": [
    {
     "da": "undskyld",
@@ -34,8 +34,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg **undskylder** for at komme for sent.",
-   "en": "I apologize for being late."
+   "da": "Jeg vil gerne **undskylde** for at komme for sent.",
+   "en": "I would like to apologize for being late."
   }
  },
  "en uge": {
@@ -57,7 +57,7 @@
     "en": "the weeks"
    }
   ],
-  "explanation": "\"En uge\" means \"a week\". Danes often give a date as a week number, for example \"uge 42\" (week 42), especially at work and in school. Useful phrases are \"i næste uge\" (next week) and \"i denne uge\" (this week).",
+  "explanation": "\"En uge\" means \"a week\". Useful phrases are \"i næste uge\" (next week) and \"i denne uge\" (this week). Weeks are counted by number: \"uge 42\" means \"week 42\".",
   "related": [
    {
     "da": "en dag",
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi ses i næste **uge**.",
-   "en": "See you next week."
+   "da": "En **uge** har syv dage.",
+   "en": "A week has seven days."
   }
  },
  "en ugedag": {
@@ -100,7 +100,7 @@
     "en": "the days of the week"
    }
   ],
-  "explanation": "\"En ugedag\" means \"a day of the week\", such as Monday or Friday. It is made from \"uge\" (week) and \"dag\" (day). It can also mean a weekday, as opposed to the weekend. Days of the week start with a small letter in Danish: \"mandag\" (Monday).",
+  "explanation": "\"En ugedag\" means \"a day of the week\", such as Monday or Friday. It is made from \"uge\" (week) and \"dag\" (day). Days of the week start with a small letter in Danish: \"mandag\" (Monday).",
   "related": [
    {
     "da": "mandag",
@@ -120,8 +120,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvilken **ugedag** er det i dag?",
-   "en": "Which day of the week is it today?"
+   "da": "Hvilken **ugedag** er det i dag? Det er tirsdag.",
+   "en": "Which day of the week is it today? It is Tuesday."
   }
  },
  "et udsalg": {
@@ -143,7 +143,7 @@
     "en": "the sales"
    }
   ],
-  "explanation": "\"Et udsalg\" means \"a sale\", a time when a shop sells things at lower prices. \"Der er udsalg\" means \"There is a sale\". It is not the same as \"et tilbud\" (an offer), which is a deal on one item.",
+  "explanation": "\"Et udsalg\" means \"a sale\", a time when a shop sells things at lower prices. \"Der er udsalg\" means \"There is a sale\".",
   "related": [
    {
     "da": "et tilbud",
@@ -163,8 +163,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg købte jakken på **udsalg**.",
-   "en": "I bought the jacket at the sale."
+   "da": "Jakken var billig, for jeg købte den på **udsalg**.",
+   "en": "The jacket was cheap, because I bought it on sale."
   }
  },
  "et ur": {
@@ -206,8 +206,8 @@
    }
   ],
   "sentence": {
-   "da": "Mit **ur** er gammelt.",
-   "en": "My watch is old."
+   "da": "Jeg kigger på mit **ur**, og klokken er ti.",
+   "en": "I look at my watch and it is ten o'clock."
   }
  },
  "ud": {
@@ -245,8 +245,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi går **ud** i haven.",
-   "en": "We go out into the garden."
+   "da": "Solen skinner, så vi går **ud** i haven.",
+   "en": "The sun is shining, so we go out into the garden."
   }
  },
  "uden": {
@@ -284,8 +284,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg drikker kaffe **uden** sukker.",
-   "en": "I drink coffee without sugar."
+   "da": "Jeg vil have kaffe **uden** sukker, kun med mælk.",
+   "en": "I want coffee without sugar, only with milk."
   }
  },
  "udenfor": {
@@ -323,8 +323,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene leger **udenfor**.",
-   "en": "The children are playing outside."
+   "da": "Børnene er ikke inde i huset, de leger **udenfor**.",
+   "en": "The children are not inside the house, they are playing outside."
   }
  },
  "udsolgt": {
@@ -342,7 +342,7 @@
     "en": "sold-out tickets"
    }
   ],
-  "explanation": "\"Udsolgt\" means \"sold out\", with none left to buy. It is made of \"ud\" (out) and \"solgt\" (sold). You see it on a shelf, on a website or for a concert.",
+  "explanation": "\"Udsolgt\" means \"sold out\", with none left to buy. It is made of \"ud\" (out) and \"solgt\" (sold).",
   "related": [
    {
     "da": "på tilbud",
@@ -362,8 +362,8 @@
    }
   ],
   "sentence": {
-   "da": "Desværre er den **udsolgt**.",
-   "en": "Unfortunately it is sold out."
+   "da": "Der er ikke flere billetter, de er **udsolgt**.",
+   "en": "There are no more tickets, they are sold out."
   }
  },
  "ugift": {
@@ -381,7 +381,7 @@
     "en": "unmarried people"
    }
   ],
-  "explanation": "\"Ugift\" means \"unmarried\", the opposite of \"gift\" (married). Putting \"u-\" in front often turns a word into its opposite, as in \"uvenlig\" (unfriendly). On forms you may see \"gift / ugift\" as the choice for your status.",
+  "explanation": "\"Ugift\" means \"unmarried\", the opposite of \"gift\" (married). \"U-\" in front of a word often makes its opposite, as in \"uvenlig\" (unfriendly), the opposite of \"venlig\" (friendly).",
   "related": [
    {
     "da": "gift",
@@ -401,8 +401,8 @@
    }
   ],
   "sentence": {
-   "da": "Er du **ugift**?",
-   "en": "Are you unmarried?"
+   "da": "Han har ingen kone, han er **ugift**.",
+   "en": "He has no wife, he is unmarried."
   }
  },
  "ukraine": {
@@ -440,8 +440,8 @@
    }
   ],
   "sentence": {
-   "da": "Min nabo kommer fra **Ukraine**.",
-   "en": "My neighbour comes from Ukraine."
+   "da": "Kyiv er en stor by i **Ukraine**.",
+   "en": "Kyiv is a big city in Ukraine."
   }
  },
  "ukrainsk": {
@@ -479,8 +479,8 @@
    }
   ],
   "sentence": {
-   "da": "Min kollega taler **ukrainsk** og dansk.",
-   "en": "My colleague speaks Ukrainian and Danish."
+   "da": "Hun kommer fra Ukraine og taler **ukrainsk**.",
+   "en": "She comes from Ukraine and speaks Ukrainian."
   }
  },
  "under": {
@@ -557,8 +557,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har glemt mine **underbukser**.",
-   "en": "I have forgotten my underpants."
+   "da": "Jeg tager mine **underbukser** på, og så mine bukser.",
+   "en": "I put on my underpants, and then my pants."
   }
  },
  "undertøj": {
@@ -596,8 +596,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skal købe nyt **undertøj**.",
-   "en": "I need to buy new underwear."
+   "da": "Jeg tager rent **undertøj** på, før jeg tager bukser og trøje på.",
+   "en": "I put on clean underwear before I put on pants and a sweater."
   }
  },
  "undskyld": {
@@ -709,8 +709,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun er stadig meget **ung**.",
-   "en": "She is still very young."
+   "da": "Hun er kun femten år, så hun er meget **ung**.",
+   "en": "She is only fifteen years old, so she is very young."
   }
  },
  "usa": {
@@ -728,7 +728,7 @@
     "en": "to the USA"
    }
   ],
-  "explanation": "\"USA\" means \"the USA\". Unlike English, Danish has no word for \"the\" before it: \"Jeg bor i USA\" (I live in the USA). It is said letter by letter, \"u-es-a\". A person from there is \"en amerikaner\" (an American), and \"amerikansk\" means American, as in \"amerikansk mad\" (American food).",
+  "explanation": "\"USA\" means \"the USA\". You say \"Jeg bor i USA\" (I live in the USA), with no word for \"the\". It is said letter by letter, \"u-es-a\". A person from there is \"en amerikaner\" (an American), and \"amerikansk\" means American, as in \"amerikansk mad\" (American food).",
   "related": [
    {
     "da": "en amerikaner",
@@ -748,8 +748,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søster bor i **USA**.",
-   "en": "My sister lives in the USA."
+   "da": "New York ligger i **USA**.",
+   "en": "New York is in the USA."
   }
  },
  "usund": {
@@ -787,8 +787,8 @@
    }
   ],
   "sentence": {
-   "da": "Slik er **usundt**.",
-   "en": "Candy is unhealthy."
+   "da": "Slik og kage er **usund** mad, men frugt er sund.",
+   "en": "Candy and cake are unhealthy food, but fruit is healthy."
   }
  }
 }

@@ -34,8 +34,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi **overnatter** på et lille hotel.",
-   "en": "We stay the night at a small hotel."
+   "da": "Vi vil **overnatte** på et hotel og sove der i nat.",
+   "en": "We want to stay overnight at a hotel and sleep there tonight."
   }
  },
  "en onkel": {
@@ -57,7 +57,7 @@
     "en": "the uncles"
    }
   ],
-  "explanation": "\"En onkel\" means \"an uncle\". Watch the spelling: the \"e\" drops out before the ending, so \"the uncle\" is \"onklen\", not \"onkelen\". The matching word is \"en tante\" (an aunt).",
+  "explanation": "\"En onkel\" means \"an uncle\". Watch the spelling: \"the uncle\" is \"onklen\", not \"onkelen\", so the second \"e\" is dropped. The matching word is \"en tante\" (an aunt).",
   "related": [
    {
     "da": "en tante",
@@ -77,8 +77,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **onkel** har en stor have.",
-   "en": "My uncle has a big garden."
+   "da": "Min **onkel** er min fars bror.",
+   "en": "My uncle is my father's brother."
   }
  },
  "en ovn": {
@@ -120,8 +120,8 @@
    }
   ],
   "sentence": {
-   "da": "Kagen er i **ovnen**.",
-   "en": "The cake is in the oven."
+   "da": "Jeg bager en kage i en varm **ovn**.",
+   "en": "I am baking a cake in a hot oven."
   }
  },
  "et offentligt toilet": {
@@ -139,7 +139,7 @@
     "en": "Where is the public restroom?"
    }
   ],
-  "explanation": "\"Et offentligt toilet\" means \"a public restroom\", one anyone can use, for example in a park or at a station. \"Offentligt\" (public) ends in \"-t\" because \"toilet\" is an et-word; in \"det offentlige toilet\" (the public restroom) it ends in \"-e\" instead.",
+  "explanation": "\"Et offentligt toilet\" means \"a public restroom\", one that anyone can use, for example in a park or at a station. It is built from \"offentligt\" (public) and \"toilet\" (toilet).",
   "related": [
    {
     "da": "et toilet",
@@ -159,8 +159,8 @@
    }
   ],
   "sentence": {
-   "da": "Ved banegården er der et **offentligt toilet**.",
-   "en": "At the railway station there is a public restroom."
+   "da": "Butikken er lukket, men der er et **offentligt toilet** i parken.",
+   "en": "The shop is closed, but there is a public restroom in the park."
   }
  },
  "et ord": {
@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kender ikke det **ord**.",
-   "en": "I don't know that word."
+   "da": "Jeg kan ikke finde det **ord** i ordbogen.",
+   "en": "I cannot find that word in the dictionary."
   }
  },
  "ofte": {
@@ -241,8 +241,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser **ofte** ude.",
-   "en": "We often eat out."
+   "da": "Vi spiser **ofte** ude, næsten hver uge.",
+   "en": "We often eat out, almost every week."
   }
  },
  "og": {
@@ -319,8 +319,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **også** have en kop kaffe.",
-   "en": "I would like a cup of coffee too."
+   "da": "Du drikker kaffe, så jeg vil **også** have en kop.",
+   "en": "You are drinking coffee, so I want a cup too."
   }
  },
  "okay": {
@@ -338,7 +338,7 @@
     "en": "Okay, thanks."
    }
   ],
-  "explanation": "\"Okay\" means \"okay\", the same word as in English, and Danes use it all the time to agree or show they understand. It is casual but fine in most situations. For a more Danish option, try \"fint\" (fine) or \"i orden\" (all right).",
+  "explanation": "\"Okay\" means \"okay\", the same word as in English. You use it to agree or to show you understand. Other ways to say it are \"fint\" (fine) and \"i orden\" (all right).",
   "related": [
    {
     "da": "fint",
@@ -358,7 +358,7 @@
    }
   ],
   "sentence": {
-   "da": "Vi ses klokken fem. – **Okay!**",
+   "da": "Vi ses klokken fem. – **Okay**!",
    "en": "See you at five. – Okay!"
   }
  },
@@ -397,8 +397,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg køber **oksekød** i supermarkedet.",
-   "en": "I buy beef at the supermarket."
+   "da": "Jeg vil have **oksekød**, ikke svinekød eller kylling.",
+   "en": "I want beef, not pork or chicken."
   }
  },
  "oktober": {
@@ -416,7 +416,7 @@
     "en": "early in October"
    }
   ],
-  "explanation": "\"Oktober\" means \"October\". Danish spells it with a \"k\", unlike English. Like all month names, it is written with a small letter.",
+  "explanation": "\"Oktober\" means \"October\". Danish spells it with a \"k\", where English has a \"c\". Like all month names, it is written with a small letter.",
   "related": [
    {
     "da": "september",
@@ -436,8 +436,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er efterårsferie i **oktober**.",
-   "en": "There is autumn break in October."
+   "da": "Efter september kommer **oktober**, og så kommer november.",
+   "en": "After September comes October, and then comes November."
   }
  },
  "olie": {
@@ -459,7 +459,7 @@
     "en": "the oils"
    }
   ],
-  "explanation": "\"Olie\" means \"oil\". It is used for cooking oil and other kinds of oil. For a specific kind, Danes use one-word names like \"olivenolie\" (olive oil) and \"rapsolie\" (rapeseed oil).",
+  "explanation": "\"Olie\" means \"oil\", for cooking oil and other kinds of oil. Specific kinds are written as one word: \"olivenolie\" (olive oil) and \"rapsolie\" (rapeseed oil).",
   "related": [
    {
     "da": "olivenolie",
@@ -537,7 +537,7 @@
     "en": "I read in the evening."
    }
   ],
-  "explanation": "\"Om aftenen\" means \"in the evening\", as a habit or something that happens every day. For this evening only, use \"i aften\" (this evening). The ending \"-en\" in \"aftenen\" means \"the\": it is literally \"the evening\".",
+  "explanation": "\"Om aftenen\" means \"in the evening\", as a habit or something that happens every day. For this evening only, use \"i aften\" (this evening). It is made of \"om\" (in, at) and \"aftenen\" (the evening).",
   "related": [
    {
     "da": "en aften",
@@ -557,8 +557,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser sammen **om aftenen**.",
-   "en": "We eat together in the evening."
+   "da": "Det er mørkt **om aftenen**, og vi tænder lyset.",
+   "en": "It is dark in the evening, and we turn on the light."
   }
  },
  "om lidt": {
@@ -576,7 +576,7 @@
     "en": "See you in a little while."
    }
   ],
-  "explanation": "\"Om lidt\" means \"in a little while\" or \"soon\". It is a gentle way of saying you will do something soon but not right now. For right now, use \"lige nu\" (right now).",
+  "explanation": "\"Om lidt\" means \"in a little while\" or \"soon\". It looks ahead to a short time from now. For right now, use \"lige nu\" (right now).",
   "related": [
    {
     "da": "lige nu",
@@ -596,8 +596,8 @@
    }
   ],
   "sentence": {
-   "da": "Maden er klar **om lidt**.",
-   "en": "The food is ready in a little while."
+   "da": "Vent lidt, maden er klar **om lidt**.",
+   "en": "Wait a little, the food will be ready in a little while."
   }
  },
  "om morgenen": {
@@ -635,8 +635,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg løber en tur **om morgenen**.",
-   "en": "I go for a run in the morning."
+   "da": "Jeg står op klokken seks **om morgenen**.",
+   "en": "I get up at six in the morning."
   }
  },
  "om natten": {
@@ -654,7 +654,7 @@
     "en": "It is cold at night."
    }
   ],
-  "explanation": "\"Om natten\" means \"at night\", as something that usually happens. For tonight or last night, use \"i nat\" (tonight / last night). The ending \"-en\" in \"natten\" means \"the\": it is literally \"the night\".",
+  "explanation": "\"Om natten\" means \"at night\", as something that usually happens. For tonight or last night, use \"i nat\" (tonight / last night). The opposite is \"om dagen\" (during the day).",
   "related": [
    {
     "da": "en nat",
@@ -674,8 +674,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er stille her **om natten**.",
-   "en": "It is quiet here at night."
+   "da": "Det er mørkt, og alle sover **om natten**.",
+   "en": "It is dark and everyone sleeps at night."
   }
  },
  "om ugen": {
@@ -732,7 +732,7 @@
     "en": "around eight o'clock"
    }
   ],
-  "explanation": "\"Omkring\" means \"around\", for a place or for a rough number: \"omkring byen\" means \"around the town\" and \"omkring tyve mennesker\" means \"about twenty people\". For moving around, \"rundt\" (around) is more usual.",
+  "explanation": "\"Omkring\" means \"around\", for a place or for a rough number: \"omkring byen\" means \"around the town\" and \"omkring tyve mennesker\" means \"about twenty people\". \"Cirka\" (approximately) also fits a rough number.",
   "related": [
    {
     "da": "rundt",
@@ -771,7 +771,7 @@
     "en": "It hurts."
    }
   ],
-  "explanation": "\"Ondt\" means \"pain\" or \"hurt\". Danish says \"Jeg har ondt i maven\", literally \"I have pain in the stomach\", where English says \"my stomach hurts\". \"Det gør ondt\" means \"It hurts\". Do not say \"Jeg er ondt\".",
+  "explanation": "\"Ondt\" means \"pain\" or \"hurt\". Danish says \"Jeg har ondt i maven\", literally \"I have pain in the stomach\", where English says \"my stomach hurts\". \"Det gør ondt\" means \"It hurts\". Do not say \"Jeg er ondt\" (I am pain).",
   "related": [
    {
     "da": "en smerte",
@@ -791,8 +791,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **ondt** i maven.",
-   "en": "I have a stomachache."
+   "da": "Jeg har **ondt** i maven, så jeg ligger i sengen.",
+   "en": "I have a pain in my stomach, so I am lying in bed."
   }
  },
  "onsdag": {
@@ -814,7 +814,7 @@
     "en": "the Wednesdays"
    }
   ],
-  "explanation": "\"Onsdag\" means \"Wednesday\". Like all day names, it starts with a small letter. Use \"på onsdag\" (on Wednesday, coming up) for the next one, and \"om onsdagen\" (on Wednesdays) for every week. The \"d\" is silent but still written.",
+  "explanation": "\"Onsdag\" means \"Wednesday\". Like all day names, it starts with a small letter. Use \"på onsdag\" (on Wednesday, coming up) for the next one, and \"om onsdagen\" (on Wednesdays) for every week.",
   "related": [
    {
     "da": "en tirsdag",
@@ -834,8 +834,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene har fri **onsdag**.",
-   "en": "The children are off on Wednesday."
+   "da": "Efter tirsdag kommer **onsdag**, midt i ugen.",
+   "en": "After Tuesday comes Wednesday, in the middle of the week."
   }
  },
  "op": {
@@ -873,8 +873,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg går **op** ad trappen.",
-   "en": "I walk up the stairs."
+   "da": "Katten hopper **op** på bordet.",
+   "en": "The cat jumps up onto the table."
   }
  },
  "oppe": {
@@ -892,7 +892,7 @@
     "en": "are you up (awake)?"
    }
   ],
-  "explanation": "\"Oppe\" means \"up there\" and says where something is, not movement. For moving upward use \"op\" (up): \"gå op\" means \"go up\". \"Er du oppe?\" can also ask whether someone is out of bed.",
+  "explanation": "\"Oppe\" means \"up there\" and says where something is, not movement. For moving upward use \"op\" (up): \"gå op\" means \"go up\". \"Er du oppe?\" (Are you up?) can also ask whether someone is out of bed.",
   "related": [
    {
     "da": "op",
@@ -931,7 +931,7 @@
     "en": "taken seats"
    }
   ],
-  "explanation": "\"Optaget\" means \"busy\" or \"taken\". Use it for a phone line, a toilet, a seat, or a person who has no time. \"Er her optaget?\" asks whether a seat is taken. The opposite is \"ledig\" (free, available).",
+  "explanation": "\"Optaget\" means \"busy\" or \"taken\". Use it for a phone line, a toilet, a seat, or a person who has no time. \"Er her optaget?\" (Is this taken?) asks whether a seat is taken. The opposite is \"ledig\" (free, available).",
   "related": [
    {
     "da": "ledig",
@@ -951,8 +951,8 @@
    }
   ],
   "sentence": {
-   "da": "Er dette sæde **optaget**?",
-   "en": "Is this seat taken?"
+   "da": "Toilettet er **optaget**, så jeg venter udenfor.",
+   "en": "The toilet is occupied, so I wait outside."
   }
  },
  "orange": {
@@ -990,8 +990,8 @@
    }
   ],
   "sentence": {
-   "da": "Hendes jakke er **orange**.",
-   "en": "Her jacket is orange."
+   "da": "Gulerødder er **orange**, ligesom appelsiner.",
+   "en": "Carrots are orange, just like oranges."
   }
  },
  "os": {
@@ -1029,8 +1029,8 @@
    }
   ],
   "sentence": {
-   "da": "Vil du komme med **os**?",
-   "en": "Do you want to come with us?"
+   "da": "Vi skal i biografen. Vil du komme med **os**?",
+   "en": "We are going to the cinema. Do you want to come with us?"
   }
  },
  "ost": {
@@ -1107,8 +1107,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **otte** timer på arbejde.",
-   "en": "I have eight hours at work."
+   "da": "Efter syv kommer **otte**, og så kommer ni.",
+   "en": "After seven comes eight, and then comes nine."
   }
  },
  "ottende": {
@@ -1146,8 +1146,8 @@
    }
   ],
   "sentence": {
-   "da": "Han bor på **ottende** sal.",
-   "en": "He lives on the eighth floor."
+   "da": "Efter den syvende dag kommer den **ottende** dag.",
+   "en": "After the seventh day comes the eighth day."
   }
  },
  "ovenpå": {
@@ -1185,8 +1185,8 @@
    }
   ],
   "sentence": {
-   "da": "Soveværelset er **ovenpå**.",
-   "en": "The bedroom is upstairs."
+   "da": "Vi går op ad trappen, og soveværelset er **ovenpå**.",
+   "en": "We go up the stairs, and the bedroom is upstairs."
   }
  },
  "over": {
@@ -1224,8 +1224,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi går **over** broen.",
-   "en": "We walk over the bridge."
+   "da": "Lampen hænger **over** bordet, og katten sidder under det.",
+   "en": "The lamp hangs over the table, and the cat sits under it."
   }
  },
  "overalt": {
@@ -1263,8 +1263,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er snavs **overalt**.",
-   "en": "There is dirt everywhere."
+   "da": "Jeg har ledt efter nøglen **overalt**, men jeg kan ikke finde den.",
+   "en": "I have looked for the key everywhere, but I cannot find it."
   }
  },
  "overskyet": {
@@ -1302,8 +1302,8 @@
    }
   ],
   "sentence": {
-   "da": "Himlen er **overskyet** i dag.",
-   "en": "The sky is overcast today."
+   "da": "Himlen er **overskyet**, og solen kan slet ikke ses.",
+   "en": "The sky is overcast, and the sun cannot be seen at all."
   }
  }
 }
