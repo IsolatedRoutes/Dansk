@@ -100,6 +100,7 @@ Gold standard: `lightbulb/h.json` → "hvad". Every example makes sense and adds
 something; nothing is repeated; right length. New and live-AI answers must match it:
 - Opens `"X" means "meaning".` (en/et kept: `"En dukke" means "a doll"`).
 - Every other Danish word/phrase has its English right beside it.
+- Quotation marks only around the opening word and the English meanings after "means"; other Danish examples are unquoted with the English in (brackets) beside them. Too many quotes made cards busy.
 - Teaches with short translated example contrasts ("hvad" vs "hvem"), never abstract descriptions.
 - Only facts about the word itself: no trivia, no usage fluff, no "learn it as…", no vague
   contrasts with English, no ending mechanics (-t/-e/doubling), no grammar jargon.

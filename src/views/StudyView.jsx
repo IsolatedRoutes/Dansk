@@ -1060,9 +1060,9 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
                     <button
                       onClick={() => speakDanish(plain)}
                       aria-label="Hear this sentence"
-                      style={{ border: "none", background: "none", color: "var(--terracotta)", cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
+                      style={{ border: "none", background: "none", color: "var(--terracotta)", opacity: 0.5, cursor: "pointer", padding: 4, display: "flex", flexShrink: 0 }}
                     >
-                      <Icon.Volume2 size={20} />
+                      <Icon.Volume2 size={16} />
                     </button>
                   )}
                 </div>
