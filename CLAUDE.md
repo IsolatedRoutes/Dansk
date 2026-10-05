@@ -95,6 +95,22 @@ same quality as the live answer; do not shorten. Covered so far: all Basic words
 (level 1) plus the original samples; other levels still use the live AI call. Checked by
 `tests/lightbulb_check.mjs` (keys, files, shape).
 
+### Lightbulb answer quality bar (owner's rules; the model card is "hvad")
+Gold standard: `lightbulb/h.json` → "hvad". Every example makes sense and adds
+something; nothing is repeated; right length. New and live-AI answers must match it:
+- Opens `"X" means "meaning".` (en/et kept: `"En dukke" means "a doll"`).
+- Every other Danish word/phrase has its English right beside it.
+- Teaches with short translated example contrasts ("hvad" vs "hvem"), never abstract descriptions.
+- Only facts about the word itself: no trivia, no usage fluff, no "learn it as…", no vague
+  contrasts with English, no ending mechanics (-t/-e/doubling), no grammar jargon.
+- Nothing already in the forms list or the related list is repeated; other words are mentioned
+  only to prevent a real mix-up, show how a word is built, or show a usage contrast.
+- Every claim agrees with the card's own forms/related/sentence; uncertain rules are softened or left out.
+- Example sentence: the marked word is exactly the card's word (no en/et/at, no "the"/plural form),
+  and the rest of the sentence makes its meaning guessable (not "I need a ___").
+`tests/lightbulb_check.mjs` enforces the form rule; the rest is enforced by the AI prompt
+(`WORD_INSIGHT_SYSTEM_PROMPT`, src/lib/ai/prompts.js) and review.
+
 ## iCloud sync (iPhone app only, opt-in)
 Shares progress between the owner's own Apple devices through their own iCloud
 key-value store (about 1 MB total, so the snapshot is gzipped and chunked).

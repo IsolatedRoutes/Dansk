@@ -14,7 +14,7 @@
     "en": "Are you (all) coming tomorrow?"
    }
   ],
-  "explanation": "\"I\" means \"you\" when you talk to a group of people (more than one). It is not the English \"I\", which is \"jeg\". Use \"du\" (you, one person) for one person and \"I\" for a group. Do not mix it up with small \"i\", which means \"in\".",
+  "explanation": "\"I\" means \"you\" when you talk to two or more people. Compare \"Du er min ven\" (You are my friend, one person) with \"I er mine venner\" (You are my friends, a group). It is not \"jeg\" (I), and it is not the small word \"i\" (in): \"I bor i Aarhus\" (You live in Aarhus).",
   "related": [
    {
     "da": "du",
@@ -307,7 +307,7 @@
     "en": "for two hours"
    }
   ],
-  "explanation": "\"I\" means \"in\". It is used for places (\"i Danmark\", in Denmark), months (\"i juni\", in June) and how long something lasts (\"i to timer\", for two hours). Do not mix it up with \"på\" (on, at), which Danes use for islands: \"på Fyn\" (on Funen).",
+  "explanation": "\"I\" means \"in\": \"i huset\" (in the house), \"i Danmark\" (in Denmark), \"i juni\" (in June). It also gives how long: \"i to timer\" (for two hours). Compare \"på\" (on, at): \"på bordet\" (on the table), \"på Fyn\" (on Funen, an island).",
   "related": [
    {
     "da": "på",
@@ -346,7 +346,7 @@
     "en": "See you this evening."
    }
   ],
-  "explanation": "\"I aften\" means \"this evening\", the evening of today that is still to come. For the evening that has already passed, use \"i aftes\" (last night).",
+  "explanation": "\"I aften\" means \"this evening\": \"Vi ses i aften\" (See you this evening). Compare \"Jeg ser en film i aften\" (I am watching a film this evening) with \"Jeg så en film i aftes\" (I watched a film last night): \"i aften\" is still to come, \"i aftes\" is over.",
   "related": [
    {
     "da": "en aften",
@@ -385,7 +385,7 @@
     "en": "We ate late last night."
    }
   ],
-  "explanation": "\"I aftes\" means \"last night\", the evening that has just passed (yesterday evening). Do not mix it up with \"i aften\" (this evening, still to come). For the sleeping hours, \"i nat\" (last night) is more common.",
+  "explanation": "\"I aftes\" means \"last night\", meaning the evening just gone. Compare \"Jeg så en film i aftes\" (I watched a film last night) with \"Jeg ser en film i aften\" (I am watching a film this evening). For the hours when you were asleep, say \"i nat\": \"Jeg sov dårligt i nat\" (I slept badly last night).",
   "related": [
    {
     "da": "i aften",
@@ -463,7 +463,7 @@
     "en": "What are you doing this afternoon?"
    }
   ],
-  "explanation": "\"I eftermiddag\" means \"this afternoon\", the afternoon of today, usually for plans. For something that happens every afternoon, use \"om eftermiddagen\" (in the afternoons).",
+  "explanation": "\"I eftermiddag\" means \"this afternoon\": \"Vi ses i eftermiddag\" (See you this afternoon). For something that happens every afternoon, say \"om eftermiddagen\": \"Jeg læser om eftermiddagen\" (I read in the afternoons).",
   "related": [
    {
     "da": "en eftermiddag",
@@ -502,7 +502,7 @@
     "en": "It happened the day before yesterday."
    }
   ],
-  "explanation": "\"I forgårs\" means \"the day before yesterday\", two days ago. It is one step further back than \"i går\" (yesterday).",
+  "explanation": "\"I forgårs\" means \"the day before yesterday\". Count back: \"i dag\" (today), \"i går\" (yesterday), \"i forgårs\". \"Jeg var syg i forgårs\" means \"I was sick the day before yesterday\".",
   "related": [
    {
     "da": "i går",
@@ -580,7 +580,7 @@
     "en": "see you tomorrow"
    }
   ],
-  "explanation": "\"I morgen\" means \"tomorrow\". For tomorrow morning you say \"i morgen tidlig\" (early tomorrow), and for tomorrow evening \"i morgen aften\". Do not mix it up with \"en morgen\" (a morning).",
+  "explanation": "\"I morgen\" means \"tomorrow\": \"Vi ses i morgen\" (See you tomorrow). It looks like \"i morges\" (this morning, already past), so watch the last letters: \"Jeg har fri i morgen\" (I am off tomorrow) but \"Jeg stod op tidligt i morges\" (I got up early this morning). For tomorrow morning, say \"i morgen tidlig\".",
   "related": [
    {
     "da": "i dag",
@@ -619,7 +619,7 @@
     "en": "She called this morning."
    }
   ],
-  "explanation": "\"I morges\" means \"this morning\" and is used for something that has already happened: \"Hun ringede i morges\" (She called this morning). For a morning still to come, say \"i morgen tidlig\" (tomorrow morning).",
+  "explanation": "\"I morges\" means \"this morning\", the morning of today that is already over: \"Hun ringede i morges\" (She called this morning). It looks like \"i morgen\" (tomorrow), so watch the last letters: \"i morges\" is behind you, \"i morgen\" is ahead.",
   "related": [
    {
     "da": "en morgen",
@@ -658,7 +658,7 @@
     "en": "I slept badly last night."
    }
   ],
-  "explanation": "\"I nat\" can mean \"tonight\" or \"last night\". The rest of the sentence tells you which: talking about something that happened means last night, talking about plans means tonight.",
+  "explanation": "\"I nat\" means \"tonight\" or \"last night\", and the rest of the sentence shows which. \"Jeg sov dårligt i nat\" (I slept badly last night) is about the night just gone. \"Jeg sover hos Anna i nat\" (I am sleeping at Anna's tonight) is about the night to come.",
   "related": [
    {
     "da": "en nat",
@@ -775,7 +775,7 @@
     "en": "I am leaving the day after tomorrow."
    }
   ],
-  "explanation": "\"I overmorgen\" means \"the day after tomorrow\", two days from now. It is one step further ahead than \"i morgen\" (tomorrow) and is mostly used for plans.",
+  "explanation": "\"I overmorgen\" means \"the day after tomorrow\". Count forward: \"i dag\" (today), \"i morgen\" (tomorrow), \"i overmorgen\". \"Jeg rejser i overmorgen\" means \"I am leaving the day after tomorrow\".",
   "related": [
    {
     "da": "i morgen",
@@ -814,7 +814,7 @@
     "en": "The children are in school."
    }
   ],
-  "explanation": "\"I skole\" means \"in school\", as a pupil taking part in lessons. There is no \"a\" or \"the\" in it: \"Børnene er i skole\" (The children are in school). To go there: \"Jeg skal i skole\" (I am going to school). For the building, say \"i skolen\" (in the school).",
+  "explanation": "\"I skole\" means \"in school\" or \"at school\", as a pupil with lessons. Danish leaves out \"the\": \"Børnene er i skole\" (The children are at school). \"Jeg skal i skole i dag\" means \"I am going to school today\".",
   "related": [
    {
     "da": "en skole",
@@ -892,7 +892,7 @@
     "en": "from abroad"
    }
   ],
-  "explanation": "\"I udlandet\" means \"abroad\", in another country. Going there is \"til udlandet\" (to abroad), and coming from there is \"fra udlandet\" (from abroad).",
+  "explanation": "\"I udlandet\" means \"abroad\", in another country: \"Jeg bor i udlandet\" (I live abroad). To go there say \"til udlandet\": \"Jeg rejser til udlandet\" (I am travelling abroad). To come from there say \"fra udlandet\": \"Hun kommer fra udlandet\" (She comes from abroad).",
   "related": [
    {
     "da": "et land",
@@ -931,7 +931,7 @@
     "en": "See you at the weekend."
    }
   ],
-  "explanation": "\"I weekenden\" means \"this weekend\" or \"at the weekend\". Which weekend you mean depends on the sentence: coming up in \"Vi ses i weekenden\", already gone in a story about the past. It also covers weekends in general: \"Jeg sover længe i weekenden\" (I sleep late at the weekend).",
+  "explanation": "\"I weekenden\" means \"this weekend\" or \"at the weekend\". It can look ahead: \"Vi ses i weekenden\" (See you this weekend). It can look back: \"Jeg var i Aarhus i weekenden\" (I was in Aarhus last weekend). It also covers every weekend: \"Jeg sover længe i weekenden\" (I sleep late at the weekend).",
   "related": [
    {
     "da": "en weekend",
@@ -970,7 +970,7 @@
     "en": "It is warm this year."
    }
   ],
-  "explanation": "\"I år\" means \"this year\", the one you are in now. To say something happens every year, use \"hvert år\": \"Vi rejser hvert år\" (We travel every year).",
+  "explanation": "\"I år\" means \"this year\": \"Det er varmt i år\" (It is warm this year). Compare \"hvert år\" (every year): \"Vi rejser hvert år\" (We travel every year) happens each year, while \"i år\" is just the current one.",
   "related": [
    {
     "da": "et år",
@@ -1009,7 +1009,7 @@
     "en": "again and again"
    }
   ],
-  "explanation": "\"Igen\" means \"again\", and also \"back\": \"Jeg kommer igen\" can mean \"I'll come back\" or \"I'll come again\". Do not mix it up with \"også\" (also, too).",
+  "explanation": "\"Igen\" means \"again\": \"Prøv igen\" (Try again). Compare \"Jeg kommer igen\" (I will come again, or come back) with \"Jeg kommer også\" (I am coming too). \"Igen\" repeats something, while \"også\" adds one more person or thing.",
   "related": [
    {
     "da": "endnu en gang",
@@ -1087,7 +1087,7 @@
     "en": "Aren't you coming?"
    }
   ],
-  "explanation": "\"Ikke\" means \"not\". It comes after words like \"kan\" (can) and \"er\" (is): \"Jeg kan ikke\" (I cannot), \"Han er ikke her\" (He is not here). It does not mean \"no\": to answer \"no\", say \"nej\".",
+  "explanation": "\"Ikke\" means \"not\" and goes right after words like \"er\" (is) and \"kan\" (can): \"Han er ikke her\" (He is not here), \"Jeg kan ikke\" (I cannot). It is not the answer \"no\": that is \"nej\", as in \"Nej, jeg er ikke sulten\" (No, I am not hungry). Before a thing you do not have, Danish often uses \"ingen\" (no): \"Jeg har ingen penge\" (I have no money).",
   "related": [
    {
     "da": "nej",
@@ -1126,7 +1126,7 @@
     "en": "Aren't you ready yet?"
    }
   ],
-  "explanation": "\"Ikke endnu\" means \"not yet\" and is a handy short answer to \"Are you ready?\" In a longer sentence \"endnu\" (yet) usually goes at the end: \"Jeg har ikke spist endnu\" (I haven't eaten yet). Do not mix it up with \"ikke mere\" (no more).",
+  "explanation": "\"Ikke endnu\" means \"not yet\" and is a handy short answer to \"Are you ready?\" In a longer sentence \"endnu\" usually goes last: \"Jeg har ikke spist endnu\" (I have not eaten yet). Compare \"ikke mere\" (not anymore): \"Jeg spiser ikke mere\" (I am not eating anymore).",
   "related": [
    {
     "da": "allerede",
@@ -1282,7 +1282,7 @@
     "en": "Go in."
    }
   ],
-  "explanation": "\"Ind\" means \"in\" when something moves from outside to inside, as in \"Kom ind!\" (Come in!). When someone is already inside, Danes say \"inde\" (inside, being there) instead. \"Ind i\" means \"into\", as in \"ind i rummet\" (into the room).",
+  "explanation": "\"Ind\" means \"in\". Compare \"Kom ind!\" (Come in! — you are outside and move inside) with \"Han er inde\" (He is inside — he is already there). \"Ind i\" means \"into\": \"Han går ind i huset\" (He goes into the house).",
   "related": [
    {
     "da": "ud",
@@ -1321,7 +1321,7 @@
     "en": "within an hour"
    }
   ],
-  "explanation": "\"Inden\" means \"before\" and is used when saying what happens first, as in \"inden jeg går\" (before I go). The word \"før\" (before) means almost the same and is also common. \"Inden for\" means \"within\", as in \"inden for en time\" (within an hour).",
+  "explanation": "\"Inden\" means \"before\". It is followed by a whole sentence: \"Ring til mig inden du kommer\" (Call me before you come). \"Inden for\" means \"within\": \"inden for en time\" (within an hour).",
   "related": [
    {
     "da": "før",
@@ -1360,7 +1360,7 @@
     "en": "within an hour"
    }
   ],
-  "explanation": "\"Indenfor\" means \"inside\", and it is also the friendly invitation \"Kom indenfor!\" (Come on in!). With a time it means \"within\", as in \"indenfor en uge\" (within a week).",
+  "explanation": "\"Indenfor\" means \"inside\". You say it at the door to invite someone in: \"Kom indenfor!\" (Come in!). With a time it means \"within\": \"indenfor en uge\" (within a week).",
   "related": [
    {
     "da": "udenfor",
@@ -1477,7 +1477,7 @@
     "en": "for now"
    }
   ],
-  "explanation": "\"Indtil\" means \"until\" and marks the point when something stops. It works with a time (\"indtil klokken fem\", until five o'clock) and with a whole sentence (\"indtil du kommer\", until you come). \"Indtil videre\" is a common way to say \"for now\" or \"until further notice\".",
+  "explanation": "\"Indtil\" means \"until\". Compare \"Vi venter indtil klokken seks\" (We wait until six o'clock) with \"Bliv, indtil du er rask\" (Stay until you are well). \"Indtil videre\" means \"for now\".",
   "related": [
    {
     "da": "til",
@@ -1555,7 +1555,7 @@
     "en": "No one can see it."
    }
   ],
-  "explanation": "\"Ingen\" means \"no one\" or \"none\", and also \"no\" in front of a thing, as in \"ingen penge\" (no money). It already carries the \"not\", so you do not add \"ikke\" (not). For \"nothing\" use \"ingenting\".",
+  "explanation": "\"Ingen\" means \"no one\" or \"no\". \"Ingen er hjemme\" (No one is home); \"Jeg har ingen penge\" (I have no money). Compare \"nogen\" (anyone): \"Er der nogen hjemme?\" (Is anyone home?) — \"Nej, der er ingen hjemme\" (No, no one is home). Do not add \"ikke\" (not) next to \"ingen\".",
   "related": [
    {
     "da": "nogen",
@@ -1664,7 +1664,7 @@
     "en": "Nothing is impossible."
    }
   ],
-  "explanation": "\"Ingenting\" means \"nothing\". It is built from \"ingen\" (no) and \"ting\" (thing). Like \"ingen\", it already carries the \"not\", so you do not add \"ikke\" (not).",
+  "explanation": "\"Ingenting\" means \"nothing\". Compare \"Jeg ser noget\" (I see something) with \"Jeg ser ingenting\" (I see nothing). Do not add \"ikke\" (not): the word already means \"not anything\". For people, use \"ingen\" (no one): \"Ingen er her\" (No one is here).",
   "related": [
    {
     "da": "alt",

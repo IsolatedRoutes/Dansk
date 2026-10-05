@@ -924,7 +924,7 @@
     "en": "behind me"
    }
   ],
-  "explanation": "\"Bag\" means \"behind\" and is followed by the thing something is behind: \"Katten sidder bag stolen\" (The cat is sitting behind the chair). If nothing follows, use \"bagved\" (at the back) instead.",
+  "explanation": "\"Bag\" means \"behind\", and the thing must follow it. Compare \"Katten sidder bag stolen\" (The cat is sitting behind the chair) with \"Katten sidder bagved\" (The cat is sitting at the back). \"Bag mig\" means \"behind me\".",
   "related": [
    {
     "da": "foran",
@@ -1002,7 +1002,7 @@
     "en": "and afterwards"
    }
   ],
-  "explanation": "\"Bagefter\" means \"afterwards\": \"Vi spiser først og går en tur bagefter\" (We eat first and go for a walk afterwards). It stands alone with nothing after it. To say \"after something\", use \"efter\": \"efter maden\" (after the meal).",
+  "explanation": "\"Bagefter\" means \"afterwards\". Compare \"efter maden\" (after the meal) with \"bagefter\" (afterwards): \"Vi spiser, og bagefter ser vi film\" (We eat, and afterwards we watch a film). \"Efter\" needs a thing after it, \"bagefter\" stands alone.",
   "related": [
    {
     "da": "efter",
@@ -1041,7 +1041,7 @@
     "en": "Look behind!"
    }
   ],
-  "explanation": "\"Bagved\" means \"behind\" or \"at the back\" and stands alone: \"Han står bagved\" (He is standing at the back). With a thing after it, use \"bag\" (behind) instead: \"bag huset\" (behind the house).",
+  "explanation": "\"Bagved\" means \"at the back\". Compare \"Han står bag mig\" (He is standing behind me) with \"Han står bagved\" (He is standing at the back). With a thing after it, use \"bag\".",
   "related": [
    {
     "da": "bag",
@@ -1158,7 +1158,7 @@
     "en": "It is only a test."
    }
   ],
-  "explanation": "\"Bare\" means \"just\" or \"only\" and makes a sentence smaller or softer: \"Det er bare mig\" (It is just me). In a command it is friendly: \"Kom bare ind\" (Do come in). Be careful: it looks like English \"bare\", but it does not mean that.",
+  "explanation": "\"Bare\" means \"just\" or \"only\", and it makes things smaller or softer. Compare \"Jeg vil sove\" (I want to sleep) with \"Jeg vil bare sove\" (I just want to sleep). \"Det er bare mig\" means \"It is just me\", and \"Kom bare ind\" means \"Do come in\".",
   "related": [
    {
     "da": "kun",
@@ -1314,7 +1314,7 @@
     "en": "both children"
    }
   ],
-  "explanation": "\"Begge\" means \"both\" and is used for exactly two people or things. \"Begge to\" means \"both of them\". For more than two, use \"alle\" (all).",
+  "explanation": "\"Begge\" means \"both\", and is only for two. Compare \"Begge er her\" (Both are here) with \"Alle er her\" (Everyone is here, any number). \"Jeg kender dem begge to\" means \"I know both of them\".",
   "related": [
    {
     "da": "alle",
@@ -1700,7 +1700,7 @@
     "en": "apart from that"
    }
   ],
-  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\", and it is followed by what is left out. Before a full sentence add \"at\": \"bortset fra at det regner\" (apart from the fact that it is raining).",
+  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\". \"Alle kom, bortset fra Lars\" (Everyone came, except Lars). \"Det er godt, bortset fra prisen\" (It is good, apart from the price).",
   "related": [
    {
     "da": "undtagen",
@@ -2047,7 +2047,7 @@
     "en": "both today and tomorrow"
    }
   ],
-  "explanation": "\"Både … og\" means \"both … and\". Put \"både\" before the first thing and \"og\" (and) before the second: \"både sød og klog\" (both kind and clever).",
+  "explanation": "\"Både … og\" means \"both … and\". Compare \"Hun taler dansk og engelsk\" (She speaks Danish and English) with \"Hun taler både dansk og engelsk\" (She speaks both Danish and English). \"Både\" goes before the first thing and \"og\" before the second.",
   "related": [
    {
     "da": "hverken…eller",

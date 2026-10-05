@@ -174,7 +174,7 @@
     "en": "when he called"
    }
   ],
-  "explanation": "\"Da\" means \"when\", but only for one event in the past: \"Da jeg kom hjem\" (When I came home). For habits and the future use \"når\" (when) instead: \"Når jeg kommer hjem\" (When I get home).",
+  "explanation": "\"Da\" means \"when\", for something that happened once in the past. Compare \"Da jeg kom hjem, sov børnene\" (When I came home, the children were asleep) with \"Når jeg kommer hjem, sover børnene\" (When I get home, the children are asleep, which is now or later, not in the past).",
   "related": [
    {
     "da": "når",
@@ -369,7 +369,7 @@
     "en": "the big houses"
    }
   ],
-  "explanation": "\"De\" means \"they\". It also means \"the\" before more than one thing when a describing word comes first: \"de store hunde\" (the big dogs). When \"they\" is on the receiving end it becomes \"dem\" (them): \"Jeg ser dem\" (I see them).",
+  "explanation": "\"De\" means \"they\": \"De er hjemme\" (They are at home). Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them), where \"dem\" means \"them\". \"De\" is also \"the\" before many things: \"de store huse\" (the big houses).",
   "related": [
    {
     "da": "dem",
@@ -486,7 +486,7 @@
     "en": "We are going with them."
    }
   ],
-  "explanation": "\"Dem\" means \"them\". Use it when something is done to them, or after words like \"med\" (with) and \"til\" (to). When they are the ones doing something, you say \"de\" (they), as in \"De er hjemme\" (They are home).",
+  "explanation": "\"Dem\" means \"them\". Compare \"De ser mig\" (They see me) with \"Jeg ser dem\" (I see them). It is also used after small words: \"Vi går med dem\" (We are going with them).",
   "related": [
    {
     "da": "de",
@@ -525,7 +525,7 @@
     "en": "I like it."
    }
   ],
-  "explanation": "\"Den\" means \"it\" when you talk about something that takes \"en\", like \"en bil\" (a car): \"Den er rød\" (It is red). It also means \"the\" when a describing word comes first, as in \"den store bil\" (the big car).",
+  "explanation": "\"Den\" means \"it\" for words that take \"en\". Compare \"Jeg har en bil. Den er rød\" (I have a car. It is red) with \"Jeg har et hus. Det er rødt\" (I have a house. It is red). \"Den\" also means \"the\" before a describing word: \"den store bil\" (the big car).",
   "related": [
    {
     "da": "det",
@@ -564,7 +564,7 @@
     "en": "Who is this person?"
    }
   ],
-  "explanation": "\"Denne\" means \"this\" and goes with words that take \"en\", like \"en bil\" (a car). It sounds a little formal or written; in everyday speech people often say \"den her\" (this one) instead.",
+  "explanation": "\"Denne\" means \"this\" with words that take \"en\". Compare \"denne bil\" (this car) with \"dette hus\" (this house, as \"hus\" takes \"et\"). It sounds formal; in everyday speech people say \"den her bil\" (this car).",
   "related": [
    {
     "da": "dette",
@@ -603,7 +603,7 @@
     "en": "the man who lives here"
    }
   ],
-  "explanation": "\"Der\" means \"there\", as in \"Han er der\" (He is there). It also starts sentences like \"Der er en bog på bordet\" (There is a book on the table), and in the middle of a sentence it can mean \"who\" or \"that\": \"Manden, der bor her, er min ven\" (The man who lives here is my friend). Do not mix it up with \"her\" (here).",
+  "explanation": "\"Der\" means \"there\". Compare \"Han er her\" (He is here) with \"Han er der\" (He is there). \"Der er en kat i haven\" (There is a cat in the garden) uses it to say something exists. It can also mean \"who\": \"manden, der bor her\" (the man who lives here).",
   "related": [
    {
     "da": "her",
@@ -642,7 +642,7 @@
     "en": "the day after"
    }
   ],
-  "explanation": "\"Derefter\" means \"after that\". It puts one thing after another in a story or a list of steps. When it starts a sentence, \"går vi\" (go we) comes next, not \"vi går\": \"Derefter går vi hjem\" (After that we go home).",
+  "explanation": "\"Derefter\" means \"after that\". Compare \"efter maden\" (after the meal) with \"derefter\" (after that): \"Vi spiser, og derefter går vi hjem\" (We eat, and after that we go home). It puts one step after another.",
   "related": [
    {
     "da": "bagefter",
@@ -681,7 +681,7 @@
     "en": "their children"
    }
   ],
-  "explanation": "\"Deres\" means \"their\" or \"theirs\". It never changes, whatever it goes with. A capital \"Deres\" is also the very formal \"your\", but you will mostly see it in letters. Do not mix it up with \"dem\" (them).",
+  "explanation": "\"Deres\" means \"their\". Compare \"Det er hans hus\" (It is his house) with \"Det er deres hus\" (It is their house). It stays the same with everything: \"deres børn\" (their children), \"deres bil\" (their car).",
   "related": [
    {
     "da": "de",
@@ -720,7 +720,7 @@
     "en": "that is why"
    }
   ],
-  "explanation": "\"Derfor\" means \"that is why\" or \"therefore\", and it gives the result of what you just said. It is the other side of \"fordi\" (because): the reason comes with \"fordi\", the result with \"derfor\". When a sentence starts with \"derfor\", the next two words swap compared to English: \"Derfor er jeg her\" (That is why I am here).",
+  "explanation": "\"Derfor\" means \"that is why\". The same fact can be said two ways: \"Jeg er syg, derfor bliver jeg hjemme\" (I am sick, that is why I am staying home) and \"Jeg bliver hjemme, fordi jeg er syg\" (I am staying home because I am sick).",
   "related": [
    {
     "da": "fordi",
@@ -759,7 +759,7 @@
     "en": "We left there at ten"
    }
   ],
-  "explanation": "\"Derfra\" means \"from there\". It is \"der\" (there) and \"fra\" (from) joined into one word. The same trick gives \"herfra\" (from here) and \"hvorfra\" (from where).",
+  "explanation": "\"Derfra\" means \"from there\". Compare \"Jeg kommer herfra\" (I come from here) with \"Jeg kommer derfra\" (I come from there).",
   "related": [
    {
     "da": "herfra",
@@ -798,7 +798,7 @@
     "en": "what do you do at home?"
    }
   ],
-  "explanation": "\"Derhjemme\" means \"at home\", often your own home when you talk about it from somewhere else, like \"back home\". The plain word is \"hjemme\" (at home), and \"hjem\" is for going there: \"Jeg går hjem\" (I am going home).",
+  "explanation": "\"Derhjemme\" means \"at home\", when you talk about home from somewhere else. \"Derhjemme har vi to katte\" (Back home we have two cats). Compare \"Jeg er hjemme\" (I am at home, right now) with \"Jeg går hjem\" (I am going home).",
   "related": [
    {
     "da": "hjemme",
@@ -837,7 +837,7 @@
     "en": "what is in there?"
    }
   ],
-  "explanation": "\"Derinde\" means \"in there\", and it points to a place inside, away from where you are. It tells where something is; for moving in, you use \"ind\" (in): \"gå ind\" (go in).",
+  "explanation": "\"Derinde\" means \"in there\". Compare \"Jeg er herinde\" (I am in here) with \"Min mor er derinde\" (My mother is in there).",
   "related": [
    {
     "da": "herinde",
@@ -876,7 +876,7 @@
     "en": "down there in the basement"
    }
   ],
-  "explanation": "\"Dernede\" means \"down there\", a place lower than you and away from you. It tells where something is, not movement.",
+  "explanation": "\"Dernede\" means \"down there\". Compare \"Katten er deroppe\" (The cat is up there) with \"Katten er dernede\" (The cat is down there).",
   "related": [
    {
     "da": "nede",
@@ -915,7 +915,7 @@
     "en": "out there on the street"
    }
   ],
-  "explanation": "\"Derude\" means \"out there\", a place outside and away from you. It tells where something is; for moving out, use \"ud\" (out): \"gå ud\" (go out).",
+  "explanation": "\"Derude\" means \"out there\". Compare \"Børnene er derinde\" (The children are in there) with \"Børnene er derude\" (The children are out there).",
   "related": [
    {
     "da": "herude",
@@ -954,7 +954,7 @@
     "en": "unfortunately it is sold"
    }
   ],
-  "explanation": "\"Desværre\" means \"unfortunately\". It starts bad news or a refusal and sounds softer than just saying \"nej\" (no).",
+  "explanation": "\"Desværre\" means \"unfortunately\". Use it before bad news or a no: \"Desværre kan jeg ikke komme\" (Unfortunately I can't come). It sounds softer and more polite than just \"Nej\" (No). Its opposite is \"heldigvis\": \"Heldigvis er du her\" (Luckily you are here).",
   "related": [
    {
     "da": "heldigvis",
@@ -993,7 +993,7 @@
     "en": "I know it / I know that."
    }
   ],
-  "explanation": "\"Det\" means \"it\" or \"that\". It is used for things that take \"et\", like \"et hus\" (a house), but also for general things: \"Det er sjovt\" (It is fun), and for weather: \"Det regner\" (It is raining). It also means \"the\" in phrases like \"det store hus\" (the big house).",
+  "explanation": "\"Det\" means \"it\" or \"that\". Use it for a thing that takes \"et\": \"Jeg har et hus, og det er stort\" (I have a house, and it is big). Things that take \"en\" use \"den\": \"Jeg har en bil, og den er stor\" (I have a car, and it is big). \"Det\" is also used for weather and general statements: \"Det regner\" (It is raining), \"Det er sjovt\" (That is fun).",
   "related": [
    {
     "da": "den",
@@ -1636,7 +1636,7 @@
     "en": "This is my brother."
    }
   ],
-  "explanation": "\"Dette\" means \"this\" and goes with words that take \"et\", like \"et hus\" (a house). It can also stand alone at the start of a sentence: \"Dette er min ven\" (This is my friend). It sounds a bit formal; in speech people often say \"det her\" (this one).",
+  "explanation": "\"Dette\" means \"this\" with a word that takes \"et\": \"dette hus\" (this house). With a word that takes \"en\", use \"denne\": \"denne bil\" (this car). It sounds a bit formal; in everyday speech Danes say \"det her\": \"Jeg vil have det her\" (I want this one).",
   "related": [
    {
     "da": "denne",
@@ -1675,7 +1675,7 @@
     "en": "I miss you."
    }
   ],
-  "explanation": "\"Dig\" means \"you\" when you speak to one person and something is done to them: \"Jeg kan se dig\" (I can see you). When they are the one doing it, use \"du\" (you). It is also used after words like \"med\" (with): \"med dig\" (with you). For several people it is \"jer\" (you).",
+  "explanation": "\"Dig\" means \"you\" when something is done to you: \"Jeg elsker dig\" (I love you). \"Du\" is the one who does it: \"Du elsker mig\" (You love me). It is also used after little words like \"med\": \"Jeg kommer med dig\" (I am coming with you). It is for one person; for several people say \"jer\".",
   "related": [
    {
     "da": "du",
@@ -1753,7 +1753,7 @@
     "en": "The car is yours."
    }
   ],
-  "explanation": "\"Din\" means \"your\" or \"yours\" when you speak to one person and the thing takes \"en\", like \"din mor\" (your mother). For things that take \"et\" it is \"dit\" (your), and for many things \"dine\" (your). For a group of people, say \"jeres\" (your).",
+  "explanation": "\"Din\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"en\": \"din bil\" (your car). For a thing that takes \"et\" it is \"dit\": \"dit hus\" (your house). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "related": [
    {
     "da": "dit",
@@ -1792,7 +1792,7 @@
     "en": "The books are yours."
    }
   ],
-  "explanation": "\"Dine\" means \"your\" or \"yours\" when you speak to one person and mean more than one thing, like \"dine venner\" (your friends). For one thing you use \"din\" or \"dit\" (your).",
+  "explanation": "\"Dine\" means \"your\" or \"yours\" when there is more than one thing: \"dine sko\" (your shoes). For one thing it is \"din\" or \"dit\": \"din sko\" (your shoe), \"dit hus\" (your house). It is also used on its own: \"Skoene er dine\" (The shoes are yours).",
   "related": [
    {
     "da": "din",
@@ -1831,7 +1831,7 @@
     "en": "What are these?"
    }
   ],
-  "explanation": "\"Disse\" means \"these\" and is used for more than one thing. It is a bit formal, and in everyday speech people often say \"de her\" (these), as in \"de her bøger\" (these books).",
+  "explanation": "\"Disse\" means \"these\": \"disse sko\" (these shoes). For one thing it is \"denne\" or \"dette\": \"denne sko\" (this shoe), \"dette hus\" (this house). It sounds a bit formal; in everyday speech Danes say \"de her\": \"de her sko\" (these shoes).",
   "related": [
    {
     "da": "denne",
@@ -1870,7 +1870,7 @@
     "en": "The house is yours."
    }
   ],
-  "explanation": "\"Dit\" means \"your\" or \"yours\" when you speak to one person, and goes with words that take \"et\", like \"dit barn\" (your child). For words that take \"en\" it is \"din\" (your), and for many things \"dine\" (your).",
+  "explanation": "\"Dit\" means \"your\" or \"yours\" when you talk to one person and the thing takes \"et\": \"dit hus\" (your house), \"dit navn\" (your name). For a thing that takes \"en\" it is \"din\": \"din bil\" (your car). For more than one thing it is \"dine\": \"dine sko\" (your shoes).",
   "related": [
    {
     "da": "din",
@@ -1909,7 +1909,7 @@
     "en": "I am tired, though."
    }
   ],
-  "explanation": "\"Dog\" means \"however\" or \"though\", but it is used much more softly than the English \"however\". It sits inside the sentence and adds a little surprise, contrast or friendliness, as in \"Det er dog mærkeligt\" (That is odd, though). In commands it makes the request warmer, like \"Kom dog ind\" (Do come in). Don't confuse it with \"men\" (but), which joins two sentences.",
+  "explanation": "\"Dog\" means \"though\" or \"still\". It is a small word that adds a little contrast: \"Jeg er træt, men jeg kommer dog\" (I am tired, but I am coming anyway). In a command it makes the request friendlier: \"Kom dog ind!\" (Do come in!). It is not the same as \"men\" (but), which joins two parts: \"Han er sød, men sur\" (He is sweet but grumpy).",
   "related": [
    {
     "da": "men",
@@ -1929,8 +1929,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er **dog** en god idé.",
-   "en": "That is a good idea, though."
+   "da": "Jeg er træt, men jeg kommer **dog**.",
+   "en": "I am tired, but I am coming anyway."
   }
  },
  "du": {
@@ -1948,7 +1948,7 @@
     "en": "Do you have time?"
    }
   ],
-  "explanation": "\"Du\" means \"you\" when talking to one person, and it is the normal word in nearly all situations, even with older people or at work. When something is done to you, it is \"dig\" (you): \"Jeg ser dig\" (I see you). \"Your\" is \"din\", \"dit\" or \"dine\". For several people, say \"I\" (you).",
+  "explanation": "\"Du\" means \"you\" when you talk to one person: \"Du er sød\" (You are sweet). Danes use it with almost everyone, even older people and your boss. When something is done to you, it is \"dig\": \"Jeg ser dig\" (I see you). When you talk to several people, say \"I\": \"I er søde\" (You are sweet).",
   "related": [
    {
     "da": "dig",
