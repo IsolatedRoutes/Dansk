@@ -62,6 +62,10 @@
    {
     "da": "at aflyse",
     "en": "to cancel"
+   },
+   {
+    "da": "en aflysning",
+    "en": "a cancellation"
    }
   ],
   "sentence": {
@@ -70,7 +74,7 @@
   }
  },
  "afrika": {
-  "explanation": "\"Afrika\" means \"Africa\". Add syd (south) to get Sydafrika (South Africa).",
+  "explanation": "\"Afrika\" means \"Africa\". It is spelled with a k, not a c as in English. Add syd (south) to get Sydafrika (South Africa).",
   "forms": [
    {
     "da": "Afrika",
@@ -109,7 +113,7 @@
   }
  },
  "afsted": {
-  "explanation": "\"Afsted\" means \"off\" or \"away\", for leaving a place. Compare Jeg er hjemme (I am at home) with Jeg skal afsted (I have to go / I am heading off).",
+  "explanation": "\"Afsted\" means \"off\" or \"away\", for leaving a place. Compare Jeg er hjemme (I am at home) with Jeg skal afsted (I have to go / I am heading off). Han er afsted means \"He has gone\".",
   "forms": [
    {
     "da": "jeg skal afsted",
@@ -132,6 +136,10 @@
    {
     "da": "hjemme",
     "en": "at home"
+   },
+   {
+    "da": "tilbage",
+    "en": "back"
    }
   ],
   "sentence": {
@@ -241,6 +249,10 @@
    {
     "da": "sammen",
     "en": "together"
+   },
+   {
+    "da": "selv",
+    "en": "by oneself"
    }
   ],
   "sentence": {
@@ -249,7 +261,7 @@
   }
  },
  "alkohol": {
-  "explanation": "\"Alkohol\" means \"alcohol\". Danish does not put en (a) in front of it: Jeg drikker ikke alkohol (I do not drink alcohol).",
+  "explanation": "\"Alkohol\" means \"alcohol\". Danish does not put en (a) in front of it: Jeg drikker ikke alkohol (I do not drink alcohol). Alkoholfri øl means \"alcohol-free beer\".",
   "forms": [
    {
     "da": "alkohol",
@@ -268,6 +280,14 @@
    {
     "da": "alkoholfri",
     "en": "alcohol-free"
+   },
+   {
+    "da": "en alkoholiker",
+    "en": "an alcoholic"
+   },
+   {
+    "da": "fuld",
+    "en": "drunk"
    }
   ],
   "sentence": {
@@ -276,7 +296,7 @@
   }
  },
  "alle": {
-  "explanation": "\"Alle\" means \"everyone\" or \"all\". Compare Alle er her (Everyone is here) with Alt er her (Everything is here).",
+  "explanation": "\"Alle\" means \"everyone\" or \"all\". Alle sammen means \"all together\". Do not mix it up with alt (everything): Alt er her (Everything is here).",
   "forms": [
    {
     "da": "Alle er her.",
@@ -330,6 +350,14 @@
    {
     "da": "endnu",
     "en": "yet / still"
+   },
+   {
+    "da": "stadig",
+    "en": "still"
+   },
+   {
+    "da": "tidligt",
+    "en": "early"
    }
   ],
   "sentence": {
@@ -400,6 +428,10 @@
    {
     "da": "ingenting",
     "en": "nothing"
+   },
+   {
+    "da": "noget",
+    "en": "something"
    }
   ],
   "sentence": {
@@ -564,7 +596,7 @@
   }
  },
  "appelsinjuice": {
-  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from appelsin (orange) and juice (juice).",
+  "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from appelsin (orange) and juice (juice). Et glas appelsinjuice means \"a glass of orange juice\".",
   "forms": [
    {
     "da": "en appelsinjuice",
@@ -649,6 +681,14 @@
    {
     "da": "arabere",
     "en": "Arabs"
+   },
+   {
+    "da": "engelsk",
+    "en": "English"
+   },
+   {
+    "da": "tyrkisk",
+    "en": "Turkish"
    }
   ],
   "sentence": {
@@ -735,7 +775,7 @@
   }
  },
  "atten": {
-  "explanation": "\"Atten\" means \"eighteen\". For age: Jeg er atten år (I am eighteen years old).",
+  "explanation": "\"Atten\" means \"eighteen\". Count with it: sytten, atten, nitten (seventeen, eighteen, nineteen). For age: Jeg er atten år (I am eighteen years old).",
   "forms": [
    {
     "da": "atten år",
@@ -793,6 +833,10 @@
    {
     "da": "september",
     "en": "September"
+   },
+   {
+    "da": "oktober",
+    "en": "October"
    }
   ],
   "sentence": {
@@ -863,6 +907,14 @@
    {
     "da": "et postnummer",
     "en": "a postcode"
+   },
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "et husnummer",
+    "en": "a house number"
    }
   ],
   "sentence": {
@@ -898,6 +950,10 @@
    {
     "da": "at afgå",
     "en": "to depart"
+   },
+   {
+    "da": "en afrejse",
+    "en": "a departure (trip)"
    }
   ],
   "sentence": {
@@ -1011,6 +1067,10 @@
    {
     "da": "en grøntsag",
     "en": "a vegetable"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
    }
   ],
   "sentence": {
@@ -1062,7 +1122,7 @@
   }
  },
  "en alder": {
-  "explanation": "\"En alder\" means \"an age\", how old someone is. To ask, Danes say Hvor gammel er du? (How old are you?), because alder sounds formal, like on a form.",
+  "explanation": "\"En alder\" means \"an age\", how old someone is. To ask, Danes say Hvor gammel er du? (How old are you?), because alder sounds formal, like on a form. You will also see it in i min alder (at my age).",
   "forms": [
    {
     "da": "en alder",
@@ -1085,6 +1145,10 @@
    {
     "da": "ung",
     "en": "young"
+   },
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
    }
   ],
   "sentence": {
@@ -1116,6 +1180,14 @@
    {
     "da": "allergisk",
     "en": "allergic"
+   },
+   {
+    "da": "en allergiker",
+    "en": "a person with allergies"
+   },
+   {
+    "da": "en intolerance",
+    "en": "an intolerance"
    }
   ],
   "sentence": {
@@ -1124,7 +1196,7 @@
   }
  },
  "en ambulance": {
-  "explanation": "\"En ambulance\" means \"an ambulance\". In an emergency you can say Jeg har brug for en ambulance (I need an ambulance).",
+  "explanation": "\"En ambulance\" means \"an ambulance\": Jeg har brug for en ambulance (I need an ambulance).",
   "forms": [
    {
     "da": "en ambulance",
@@ -1143,14 +1215,27 @@
     "en": "the ambulances"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en brandbil",
+    "en": "a fire engine"
+   },
+   {
+    "da": "en politibil",
+    "en": "a police car"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   }
+  ],
   "sentence": {
    "da": "Han er meget syg. Ring efter en **ambulance**!",
    "en": "He is very sick. Call for an ambulance!"
   }
  },
  "en amerikaner": {
-  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA.",
+  "explanation": "\"En amerikaner\" means \"an American\", a person from the USA, used for both men and women. It does not start with a capital letter: Hun er amerikaner (She is an American).",
   "forms": [
    {
     "da": "en amerikaner",
@@ -1255,6 +1340,10 @@
    {
     "da": "en gås",
     "en": "a goose"
+   },
+   {
+    "da": "en svane",
+    "en": "a swan"
    }
   ],
   "sentence": {
@@ -1333,6 +1422,10 @@
    {
     "da": "en applikation",
     "en": "an application"
+   },
+   {
+    "da": "en hjemmeside",
+    "en": "a website"
    }
   ],
   "sentence": {
@@ -1341,7 +1434,7 @@
   }
  },
  "en appelsin": {
-  "explanation": "\"En appelsin\" means \"an orange\", the fruit. The colour orange is orange: en orange bold (an orange ball).",
+  "explanation": "\"En appelsin\" means \"an orange\", the fruit. English uses \"orange\" for both fruit and colour, but Danish has two words: appelsin for the fruit and orange for the colour, as in en orange bold (an orange ball). Orange juice is appelsinjuice.",
   "forms": [
    {
     "da": "en appelsin",
@@ -1446,6 +1539,14 @@
    {
     "da": "et blad",
     "en": "a magazine"
+   },
+   {
+    "da": "et dagblad",
+    "en": "a daily paper"
+   },
+   {
+    "da": "en avisartikel",
+    "en": "a newspaper article"
    }
   ],
   "sentence": {
@@ -1454,7 +1555,7 @@
   }
  },
  "et ansigt": {
-  "explanation": "\"Et ansigt\" means \"a face\". Vask dit ansigt means \"Wash your face\" and \"et glad ansigt\" means \"a happy face\".",
+  "explanation": "\"Et ansigt\" means \"a face\". Use it like this: Vask dit ansigt (Wash your face) and et glad ansigt (a happy face).",
   "forms": [
    {
     "da": "et ansigt",
@@ -1524,6 +1625,10 @@
    {
     "da": "en farmaceut",
     "en": "a pharmacist"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
    }
   ],
   "sentence": {

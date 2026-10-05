@@ -142,12 +142,16 @@
   ],
   "related": [
    {
-    "da": "et bad",
-    "en": "a bath, shower"
-   },
-   {
     "da": "et brusebad",
     "en": "a shower"
+   },
+   {
+    "da": "et karbad",
+    "en": "a bath in the tub"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
    }
   ],
   "sentence": {
@@ -199,7 +203,7 @@
   }
  },
  "at tage et billede": {
-  "explanation": "\"At tage et billede\" means \"to take a picture\". To say what is in the picture, use af (of): tage et billede af maden (to take a picture of the food).",
+  "explanation": "\"At tage et billede\" means \"to take a picture\". At tage et foto (to take a photo) means the same. To say what is in the picture, use af (of): tage et billede af maden (to take a picture of the food).",
   "forms": [
    {
     "da": "at tage et billede",
@@ -220,12 +224,16 @@
   ],
   "related": [
    {
-    "da": "et billede",
-    "en": "a picture"
-   },
-   {
     "da": "et foto",
     "en": "a photo"
+   },
+   {
+    "da": "et kamera",
+    "en": "a camera"
+   },
+   {
+    "da": "at fotografere",
+    "en": "to photograph"
    }
   ],
   "sentence": {
@@ -265,10 +273,6 @@
    {
     "da": "at komme hjem",
     "en": "to come home"
-   },
-   {
-    "da": "et hjem",
-    "en": "a home"
    }
   ],
   "sentence": {
@@ -298,12 +302,16 @@
   ],
   "related": [
    {
-    "da": "medicin",
-    "en": "medicine"
+    "da": "et medikament",
+    "en": "a medication"
    },
    {
-    "da": "at tage",
-    "en": "to take"
+    "da": "en tablet",
+    "en": "a tablet"
+   },
+   {
+    "da": "en pille",
+    "en": "a pill"
    }
   ],
   "sentence": {
@@ -333,16 +341,16 @@
   ],
   "related": [
    {
-    "da": "en ferie",
-    "en": "a vacation"
-   },
-   {
     "da": "at rejse",
     "en": "to travel"
    },
    {
     "da": "at være på ferie",
     "en": "to be on vacation"
+   },
+   {
+    "da": "en ferierejse",
+    "en": "a holiday trip"
    }
   ],
   "sentence": {
@@ -417,6 +425,10 @@
    {
     "da": "en tak",
     "en": "a thank-you"
+   },
+   {
+    "da": "tusind tak",
+    "en": "thank you very much"
    }
   ],
   "sentence": {
@@ -464,7 +476,7 @@
   }
  },
  "at tale med": {
-  "explanation": "\"At tale med\" means \"to talk to\" or \"to talk with\" someone: Kan jeg tale med Anna? (Can I speak to Anna?).",
+  "explanation": "\"At tale med\" means \"to talk to\" or \"to talk with\" someone. The little word med (with) comes after it: tale med nogen (to talk to someone). Kan jeg tale med Anna? means \"Can I speak to Anna?\".",
   "forms": [
    {
     "da": "at tale med",
@@ -530,6 +542,10 @@
    {
     "da": "at tale med",
     "en": "to talk to"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
    }
   ],
   "sentence": {
@@ -561,6 +577,14 @@
    {
     "da": "at gå på toilettet",
     "en": "to go to the toilet"
+   },
+   {
+    "da": "et toilet",
+    "en": "a toilet"
+   },
+   {
+    "da": "en potte",
+    "en": "a potty"
    }
   ],
   "sentence": {
@@ -569,7 +593,7 @@
   }
  },
  "at tjekke": {
-  "explanation": "\"At tjekke\" means \"to check\" something quickly: Jeg tjekker tiden (I check the time). For a careful check, use at kontrollere (to check carefully).",
+  "explanation": "\"At tjekke\" means \"to check\": Jeg tjekker tiden (I check the time). For a careful check, use at kontrollere (to check carefully); at undersøge (to examine) is for looking into something more deeply.",
   "forms": [
    {
     "da": "at tjekke",
@@ -668,12 +692,16 @@
   ],
   "related": [
    {
-    "da": "vejret",
-    "en": "the breath; the weather"
-   },
-   {
     "da": "et åndedræt",
     "en": "a breath, breathing"
+   },
+   {
+    "da": "at ånde",
+    "en": "to breathe (formal)"
+   },
+   {
+    "da": "at puste",
+    "en": "to blow / puff"
    }
   ],
   "sentence": {
@@ -824,8 +852,12 @@
     "en": "to turn off"
    },
    {
-    "da": "at tænde",
-    "en": "to light / switch on"
+    "da": "en kontakt",
+    "en": "a switch"
+   },
+   {
+    "da": "at skrue op",
+    "en": "to turn up"
    }
   ],
   "sentence": {
@@ -896,6 +928,10 @@
    {
     "da": "en trøje",
     "en": "a sweater"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
    }
   ],
   "sentence": {
@@ -904,7 +940,7 @@
   }
  },
  "en tallerken": {
-  "explanation": "\"En tallerken\" means \"a plate\". At the table you can ask for en tallerken til (one more plate).",
+  "explanation": "\"En tallerken\" means \"a plate\". At the table you can ask for en tallerken til (one more plate). The stress is at the start: TAL-ler-ken.",
   "forms": [
    {
     "da": "en tallerken",
@@ -943,7 +979,7 @@
   }
  },
  "en tand": {
-  "explanation": "\"En tand\" means \"a tooth\". At børste tænder means \"to brush teeth\".",
+  "explanation": "\"En tand\" means \"a tooth\". You say at børste tænder (to brush teeth). En tandlæge (a dentist) is literally a tooth doctor.",
   "forms": [
    {
     "da": "en tand",
@@ -1009,6 +1045,10 @@
    {
     "da": "en læge",
     "en": "a doctor"
+   },
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
    }
   ],
   "sentence": {
@@ -1126,6 +1166,10 @@
    {
     "da": "en chauffør",
     "en": "a driver"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
    }
   ],
   "sentence": {
@@ -1134,7 +1178,7 @@
   }
  },
  "en taxachauffør": {
-  "explanation": "\"En taxachauffør\" means \"a taxi driver\", built from taxa (taxi) and chauffør (driver).",
+  "explanation": "\"En taxachauffør\" means \"a taxi driver\", built from taxa (taxi) and chauffør (driver). You can tell the driver where to go with Til banegården, tak (To the railway station, please).",
   "forms": [
    {
     "da": "en taxachauffør",
@@ -1161,11 +1205,15 @@
    {
     "da": "en chauffør",
     "en": "a driver"
+   },
+   {
+    "da": "en buschauffør",
+    "en": "a bus driver"
    }
   ],
   "sentence": {
-   "da": "Min far er **taxachauffør** og kører mange gæster.",
-   "en": "My father is a taxi driver and drives many guests."
+   "da": "Min far er **taxachauffør** og kører mange passagerer.",
+   "en": "My father is a taxi driver and drives many passengers."
   }
  },
  "en tegnebog": {
@@ -1192,6 +1240,14 @@
    {
     "da": "en pung",
     "en": "a wallet"
+   },
+   {
+    "da": "et kreditkort",
+    "en": "a credit card"
+   },
+   {
+    "da": "en pengeseddel",
+    "en": "a banknote"
    }
   ],
   "sentence": {
@@ -1266,6 +1322,10 @@
    {
     "da": "kulde",
     "en": "cold"
+   },
+   {
+    "da": "en grad",
+    "en": "a degree"
    }
   ],
   "sentence": {
@@ -1375,6 +1435,10 @@
    {
     "da": "en kat",
     "en": "a cat"
+   },
+   {
+    "da": "en leopard",
+    "en": "a leopard"
    }
   ],
   "sentence": {
@@ -1496,6 +1560,10 @@
    {
     "da": "en servitrice",
     "en": "a waitress"
+   },
+   {
+    "da": "en kok",
+    "en": "a cook"
    }
   ],
   "sentence": {
@@ -1504,7 +1572,7 @@
   }
  },
  "en togbillet": {
-  "explanation": "\"En togbillet\" means \"a train ticket\", built from tog (train) and billet (ticket).",
+  "explanation": "\"En togbillet\" means \"a train ticket\", built from tog (train) and billet (ticket). Other tickets work the same way: en busbillet (a bus ticket).",
   "forms": [
    {
     "da": "en togbillet",
@@ -1543,7 +1611,7 @@
   }
  },
  "en togstation": {
-  "explanation": "\"En togstation\" means \"a train station\", built from tog (train) and station (station).",
+  "explanation": "\"En togstation\" means \"a train station\", built from tog (train) and station (station). You say på togstationen (at the train station).",
   "forms": [
    {
     "da": "en togstation",
@@ -1609,6 +1677,10 @@
    {
     "da": "en tomatsovs",
     "en": "tomato sauce"
+   },
+   {
+    "da": "en agurk",
+    "en": "a cucumber"
    }
   ],
   "sentence": {
@@ -1617,7 +1689,7 @@
   }
  },
  "en tommelfinger": {
-  "explanation": "\"En tommelfinger\" means \"a thumb\". Tommelfinger op means \"thumbs up\".",
+  "explanation": "\"En tommelfinger\" means \"a thumb\". Tommelfinger op means \"thumbs up\". Danish says the thumb: Jeg har ondt i tommelfingeren (My thumb hurts, literally I have pain in the thumb).",
   "forms": [
    {
     "da": "en tommelfinger",
@@ -1644,6 +1716,10 @@
    {
     "da": "en tå",
     "en": "a toe"
+   },
+   {
+    "da": "en pegefinger",
+    "en": "an index finger"
    }
   ],
   "sentence": {
@@ -1679,6 +1755,10 @@
    {
     "da": "en fodboldtrøje",
     "en": "a football shirt"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
    }
   ],
   "sentence": {
@@ -1726,7 +1806,7 @@
   }
  },
  "en tur": {
-  "explanation": "\"En tur\" means \"a trip\" or \"a turn\": at gå en tur (to go for a walk), at tage på tur (to go on a trip), Det er din tur (It is your turn).",
+  "explanation": "\"En tur\" means \"a trip\" or \"a turn\". You say at gå en tur (to go for a walk), at tage på tur (to go on a trip) and Det er din tur (It is your turn). A longer, bigger journey is en rejse (a journey).",
   "forms": [
    {
     "da": "en tur",
@@ -1851,7 +1931,7 @@
   }
  },
  "en tøjbutik": {
-  "explanation": "\"En tøjbutik\" means \"a clothing store\". It is made from tøj (clothes) and butik (shop).",
+  "explanation": "\"En tøjbutik\" means \"a clothing store\". It is made from tøj (clothes) and butik (shop), and Danish often joins words like this: en skobutik (a shoe store).",
   "forms": [
    {
     "da": "en tøjbutik",
@@ -2034,6 +2114,10 @@
    {
     "da": "en togbillet",
     "en": "a train ticket"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
    }
   ],
   "sentence": {
@@ -2042,7 +2126,7 @@
   }
  },
  "et toilet": {
-  "explanation": "\"Et toilet\" means \"a toilet\", and also the room that has one. Hvor er toilettet? means \"Where is the toilet?\".",
+  "explanation": "\"Et toilet\" means \"a toilet\", and also the room that has one. Hvor er toilettet? (Where is the toilet?) is how you ask for the restroom. On the doors you see Herrer (men) and Damer (women).",
   "forms": [
    {
     "da": "et toilet",
@@ -2081,7 +2165,7 @@
   }
  },
  "et træ": {
-  "explanation": "\"Et træ\" means \"a tree\", and also \"wood\" as a material: et bord af træ means \"a table made of wood\".",
+  "explanation": "\"Et træ\" means \"a tree\", and also \"wood\" as a material: et bord af træ (a table made of wood). For a large group of trees Danes say en skov (a forest).",
   "forms": [
    {
     "da": "et træ",
@@ -2108,6 +2192,10 @@
    {
     "da": "et frugttræ",
     "en": "a fruit tree"
+   },
+   {
+    "da": "en gren",
+    "en": "a branch"
    }
   ],
   "sentence": {
@@ -2116,7 +2204,7 @@
   }
  },
  "et tv": {
-  "explanation": "\"Et tv\" means \"a TV\" and is said te-ve. Watching TV is at se tv, literally to see TV.",
+  "explanation": "\"Et tv\" means \"a TV\" and is said te-ve. Watching TV is at se tv (literally to see TV): Vi ser tv i aften (We are watching TV tonight).",
   "forms": [
    {
     "da": "et tv",
@@ -2139,6 +2227,14 @@
    {
     "da": "et fjernsyn",
     "en": "a television"
+   },
+   {
+    "da": "en fjernbetjening",
+    "en": "a remote control"
+   },
+   {
+    "da": "en radio",
+    "en": "a radio"
    }
   ],
   "sentence": {
@@ -2174,6 +2270,10 @@
    {
     "da": "et håndklæde",
     "en": "a towel"
+   },
+   {
+    "da": "en hue",
+    "en": "a hat, a cap"
    }
   ],
   "sentence": {
@@ -2234,10 +2334,6 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
     "da": "mange tak",
     "en": "thank you very much"
    },
@@ -2256,7 +2352,7 @@
   }
  },
  "tak for i dag": {
-  "explanation": "\"Tak for i dag\" means \"thanks for today\", said when you part after a day together, such as work, a course or a meeting.",
+  "explanation": "\"Tak for i dag\" means \"thanks for today\", said when you part after a day together, such as work, a course or a meeting. Change i dag to i aften (tonight) for an evening, or say tak for sidst (thanks for last time) when you meet again.",
   "forms": [
    {
     "da": "Tak for i dag!",
@@ -2281,8 +2377,8 @@
     "en": "thanks for the help"
    },
    {
-    "da": "tak",
-    "en": "thanks"
+    "da": "tak for mad",
+    "en": "thanks for the meal"
    }
   ],
   "sentence": {
@@ -2291,7 +2387,7 @@
   }
  },
  "tak for mad": {
-  "explanation": "\"Tak for mad\" means thanks for the meal (mad is food). You say it to whoever made the food, and the reply is velbekomme (you're welcome).",
+  "explanation": "\"Tak for mad\" means \"thanks for the meal\" (mad is food). You say it at the end of a meal to thank whoever made the food, and the reply is velbekomme (you're welcome, said about food).",
   "forms": [
    {
     "da": "Tak for mad!",
@@ -2308,16 +2404,16 @@
   ],
   "related": [
    {
-    "da": "mad",
-    "en": "food"
-   },
-   {
     "da": "velbekomme",
     "en": "you're welcome (after a meal)"
    },
    {
     "da": "tak for i dag",
     "en": "thanks for today"
+   },
+   {
+    "da": "tak for sidst",
+    "en": "thanks for last time"
    }
   ],
   "sentence": {
@@ -2361,7 +2457,7 @@
   }
  },
  "taler du engelsk?": {
-  "explanation": "\"Taler du engelsk?\" means \"Do you speak English?\". To ask several people say Taler I engelsk? (Do you all speak English?).",
+  "explanation": "\"Taler du engelsk?\" means \"Do you speak English?\". It is polite to try a little Danish first: Jeg taler lidt dansk (I speak a little Danish). To ask several people say Taler I engelsk? (Do you all speak English?).",
   "forms": [
    {
     "da": "Taler du engelsk?",
@@ -2382,8 +2478,12 @@
     "en": "to speak"
    },
    {
-    "da": "engelsk",
-    "en": "English"
+    "da": "dansk",
+    "en": "Danish"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
    }
   ],
   "sentence": {
@@ -2454,6 +2554,10 @@
    {
     "da": "ti",
     "en": "ten"
+   },
+   {
+    "da": "kakao",
+    "en": "cocoa"
    }
   ],
   "sentence": {
@@ -2680,7 +2784,7 @@
   }
  },
  "til højre": {
-  "explanation": "\"Til højre\" means \"to the right\", or \"on the right\".",
+  "explanation": "\"Til højre\" means \"to the right\", or \"on the right\". It is used for directions: Drej til højre (Turn right), and for places: Banken er til højre (The bank is on the right).",
   "forms": [
    {
     "da": "til højre",
@@ -2705,8 +2809,8 @@
     "en": "straight ahead"
    },
    {
-    "da": "højre",
-    "en": "right (side)"
+    "da": "tilbage",
+    "en": "back"
    }
   ],
   "sentence": {
@@ -2715,7 +2819,7 @@
   }
  },
  "til venstre": {
-  "explanation": "\"Til venstre\" means \"to the left\", or \"on the left\".",
+  "explanation": "\"Til venstre\" means \"to the left\", or \"on the left\". It is used for directions: Drej til venstre (Turn left), and for places: Posthuset er til venstre (The post office is on the left).",
   "forms": [
    {
     "da": "til venstre",
@@ -2740,8 +2844,8 @@
     "en": "straight ahead"
    },
    {
-    "da": "venstre",
-    "en": "left (side)"
+    "da": "tilbage",
+    "en": "back"
    }
   ],
   "sentence": {
@@ -2773,6 +2877,10 @@
    {
     "da": "en ryg",
     "en": "a back (of the body)"
+   },
+   {
+    "da": "retur",
+    "en": "return"
    }
   ],
   "sentence": {
@@ -2816,7 +2924,7 @@
   }
  },
  "tillykke med fødselsdagen": {
-  "explanation": "\"Tillykke med fødselsdagen\" means \"happy birthday\", literally congratulations with the birthday.",
+  "explanation": "\"Tillykke med fødselsdagen\" means \"happy birthday\", literally congratulations with the birthday. It can be shortened to tillykke med dagen (congratulations on the day).",
   "forms": [
    {
     "da": "Tillykke med fødselsdagen!",
@@ -2837,8 +2945,12 @@
     "en": "a birthday"
    },
    {
-    "da": "tillykke",
-    "en": "congratulations"
+    "da": "glædelig jul",
+    "en": "merry Christmas"
+   },
+   {
+    "da": "godt nytår",
+    "en": "happy new year"
    }
   ],
   "sentence": {
@@ -2847,7 +2959,7 @@
   }
  },
  "tirsdag": {
-  "explanation": "\"Tirsdag\" means \"Tuesday\". På tirsdag means on Tuesday (the coming one), and \"om tirsdagen\" or \"hver tirsdag\" means \"every Tuesday\".",
+  "explanation": "\"Tirsdag\" means \"Tuesday\". Day names are written with a small letter in Danish. På tirsdag means on Tuesday (the coming one), and om tirsdagen or hver tirsdag means every Tuesday.",
   "forms": [
    {
     "da": "en tirsdag",
@@ -2869,15 +2981,15 @@
   "related": [
    {
     "da": "en mandag",
-    "en": "Monday"
+    "en": "a Monday"
    },
    {
     "da": "en onsdag",
-    "en": "Wednesday"
+    "en": "a Wednesday"
    },
    {
     "da": "en torsdag",
-    "en": "Thursday"
+    "en": "a Thursday"
    }
   ],
   "sentence": {
@@ -2886,7 +2998,7 @@
   }
  },
  "to": {
-  "explanation": "\"To\" means \"two\". In numbers like 22 it comes before twenty: toogtyve (twenty-two) is literally two-and-twenty.",
+  "explanation": "\"To\" means \"two\". It is the same before any word: to biler (two cars) and to huse (two houses). In numbers like 22 the ones come first: toogtyve (twenty-two) is literally two-and-twenty.",
   "forms": [
    {
     "da": "to børn",
@@ -2925,7 +3037,7 @@
   }
  },
  "to gange": {
-  "explanation": "\"To gange\" means \"twice\", literally two times. It works with any number: fem gange (five times).",
+  "explanation": "\"To gange\" means \"twice\", literally two times. Use it to say how often: Jeg løber to gange om ugen (I run twice a week).",
   "forms": [
    {
     "da": "to gange",
@@ -2950,8 +3062,8 @@
     "en": "sometimes"
    },
    {
-    "da": "to",
-    "en": "two"
+    "da": "dobbelt",
+    "en": "double"
    }
   ],
   "sentence": {
@@ -2960,7 +3072,7 @@
   }
  },
  "tolv": {
-  "explanation": "\"Tolv\" means \"twelve\". Compare tolv æg (twelve eggs) with et dusin æg (a dozen eggs).",
+  "explanation": "\"Tolv\" means \"twelve\". Example: Der er tolv måneder i et år (There are twelve months in a year). Compare tolv æg (twelve eggs) with et dusin æg (a dozen eggs).",
   "forms": [
    {
     "da": "tolv æg",
@@ -3018,6 +3130,10 @@
    {
     "da": "at tømme",
     "en": "to empty"
+   },
+   {
+    "da": "ledig",
+    "en": "vacant"
    }
   ],
   "sentence": {
@@ -3088,6 +3204,10 @@
    {
     "da": "stille",
     "en": "quiet"
+   },
+   {
+    "da": "stresset",
+    "en": "stressed"
    }
   ],
   "sentence": {
@@ -3096,7 +3216,7 @@
   }
  },
  "tre": {
-  "explanation": "\"Tre\" means \"three\". Example: Jeg har tre børn (I have three children).",
+  "explanation": "\"Tre\" means \"three\". Example: Jeg har tre børn (I have three children). It stays the same before any word: tre æbler (three apples), tre biler (three cars).",
   "forms": [
    {
     "da": "tre æbler",
@@ -3209,7 +3329,7 @@
   }
  },
  "tres": {
-  "explanation": "\"Tres\" means \"sixty\". Example: Det koster tres kroner (It costs sixty kroner).",
+  "explanation": "\"Tres\" means \"sixty\". Example: Det koster tres kroner (It costs sixty kroner). Do not mix it up with tre (three) or tredive (thirty): tre børn (three children), tres børn (sixty children).",
   "forms": [
    {
     "da": "tres kroner",
@@ -3306,6 +3426,10 @@
    {
     "da": "ked af det",
     "en": "upset, sad"
+   },
+   {
+    "da": "sørgelig",
+    "en": "sad, sorry"
    }
   ],
   "sentence": {
@@ -3314,7 +3438,7 @@
   }
  },
  "trusser": {
-  "explanation": "\"Trusser\" means \"panties\" or \"briefs\", women's underwear, and it is normally used in the plural. For men's underwear use underbukser (underpants).",
+  "explanation": "\"Trusser\" means \"panties\" or \"briefs\", women's underwear, and it is normally used in the plural. For men's underwear use underbukser (underpants), and undertøj (underwear) covers underwear in general.",
   "forms": [
    {
     "da": "trusser",
@@ -3337,6 +3461,10 @@
    {
     "da": "underbukser",
     "en": "men's underwear"
+   },
+   {
+    "da": "en bh",
+    "en": "a bra"
    }
   ],
   "sentence": {
@@ -3380,7 +3508,7 @@
   }
  },
  "tung": {
-  "explanation": "\"Tung\" means \"heavy\". It also describes food that feels heavy in the stomach: tung mad (heavy food).",
+  "explanation": "\"Tung\" means \"heavy\", for a bag, a box or shopping. It also describes food that feels heavy in the stomach: tung mad (heavy food).",
   "forms": [
    {
     "da": "en tung taske",
@@ -3399,6 +3527,14 @@
    {
     "da": "let",
     "en": "light"
+   },
+   {
+    "da": "en vægt",
+    "en": "a weight"
+   },
+   {
+    "da": "tyngde",
+    "en": "weight"
    }
   ],
   "sentence": {
@@ -3430,6 +3566,10 @@
    {
     "da": "grøn",
     "en": "green"
+   },
+   {
+    "da": "lyseblå",
+    "en": "light blue"
    }
   ],
   "sentence": {
@@ -3494,12 +3634,12 @@
     "en": "thank you very much"
    },
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
     "da": "selv tak",
     "en": "you're welcome"
+   },
+   {
+    "da": "tak for maden",
+    "en": "thanks for the food"
    }
   ],
   "sentence": {
@@ -3527,6 +3667,14 @@
    {
     "da": "tynd",
     "en": "thin"
+   },
+   {
+    "da": "slank",
+    "en": "slim"
+   },
+   {
+    "da": "en tykkelse",
+    "en": "a thickness"
    }
   ],
   "sentence": {
@@ -3628,6 +3776,10 @@
    {
     "da": "en tyrker",
     "en": "a Turk"
+   },
+   {
+    "da": "græsk",
+    "en": "Greek"
    }
   ],
   "sentence": {
@@ -3659,6 +3811,10 @@
    {
     "da": "en tysker",
     "en": "a German"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
    }
   ],
   "sentence": {
@@ -3702,7 +3858,7 @@
   }
  },
  "tyve": {
-  "explanation": "\"Tyve\" means \"twenty\". In 21 the one comes first: enogtyve (twenty-one) is literally one-and-twenty.",
+  "explanation": "\"Tyve\" means \"twenty\". In numbers like 21 the ones come first: enogtyve (twenty-one) is literally one-and-twenty, and 22 is toogtyve (twenty-two, literally two-and-twenty).",
   "forms": [
    {
     "da": "tyve kroner",
@@ -3737,7 +3893,7 @@
   }
  },
  "tåge": {
-  "explanation": "\"Tåge\" means \"fog\". Danish says der er tåge (there is fog) where English says it is foggy.",
+  "explanation": "\"Tåge\" means \"fog\". To say it is foggy, say Der er tåge (There is fog) or Det er tåget (It is foggy).",
   "forms": [
    {
     "da": "en tåge",
@@ -3764,6 +3920,10 @@
    {
     "da": "dis",
     "en": "haze, mist"
+   },
+   {
+    "da": "en sky",
+    "en": "a cloud"
    }
   ],
   "sentence": {
@@ -3772,7 +3932,7 @@
   }
  },
  "tæt på": {
-  "explanation": "\"Tæt på\" means \"close to\". Example: Vi bor tæt på skolen (We live close to the school).",
+  "explanation": "\"Tæt på\" means \"close to\". Example: Vi bor tæt på skolen (We live close to the school). On its own it means close by: Det er tæt på (It is close by). The opposite is langt fra (far from).",
   "forms": [
    {
     "da": "tæt på",
@@ -3900,6 +4060,10 @@
    {
     "da": "tørst",
     "en": "thirst"
+   },
+   {
+    "da": "tør",
+    "en": "dry"
    }
   ],
   "sentence": {

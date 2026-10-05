@@ -39,7 +39,7 @@
   }
  },
  "at lave lektier": {
-  "explanation": "\"At lave lektier\" means \"to do homework\". It is made of lave (to make) and lektier (homework).",
+  "explanation": "\"At lave lektier\" means \"to do homework\". Danish says lave (to make) where English says \"do\": Har du lavet dine lektier? (Have you done your homework?).",
   "forms": [
    {
     "da": "at lave lektier",
@@ -64,8 +64,16 @@
     "en": "a piece of homework"
    },
    {
-    "da": "at lave",
-    "en": "to make, to do"
+    "da": "lektiehjælp",
+    "en": "homework help"
+   },
+   {
+    "da": "en opgave",
+    "en": "an assignment"
+   },
+   {
+    "da": "at øve sig",
+    "en": "to practise"
    }
   ],
   "sentence": {
@@ -95,20 +103,20 @@
   ],
   "related": [
    {
-    "da": "at lave",
-    "en": "to make, to do"
-   },
-   {
-    "da": "mad",
-    "en": "food"
-   },
-   {
     "da": "at koge",
     "en": "to boil"
    },
    {
     "da": "at stege",
     "en": "to fry"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "madlavning",
+    "en": "cooking"
    }
   ],
   "sentence": {
@@ -144,6 +152,10 @@
    {
     "da": "latter",
     "en": "laughter"
+   },
+   {
+    "da": "at smile",
+    "en": "to smile"
    }
   ],
   "sentence": {
@@ -335,6 +347,10 @@
    {
     "da": "at synes om",
     "en": "to like, to approve of"
+   },
+   {
+    "da": "at dele",
+    "en": "to share"
    }
   ],
   "sentence": {
@@ -370,6 +386,10 @@
    {
     "da": "lukket",
     "en": "closed"
+   },
+   {
+    "da": "at låse",
+    "en": "to lock"
    }
   ],
   "sentence": {
@@ -405,6 +425,10 @@
    {
     "da": "en lytter",
     "en": "a listener"
+   },
+   {
+    "da": "at høre efter",
+    "en": "to pay attention"
    }
   ],
   "sentence": {
@@ -608,7 +632,7 @@
   }
  },
  "en lampe": {
-  "explanation": "\"En lampe\" means \"a lamp\". En loftlampe means \"a ceiling light\". Tænd lampen means \"Switch on the lamp\".",
+  "explanation": "\"En lampe\" means \"a lamp\". Tænd lampen means \"Turn on the lamp\", and sluk lampen means \"Turn off the lamp\".",
   "forms": [
    {
     "da": "en lampe",
@@ -669,11 +693,15 @@
   "related": [
    {
     "da": "et landbrug",
-    "en": "farming"
+    "en": "a farm"
    },
    {
-    "da": "et land",
-    "en": "a country / countryside"
+    "da": "en bonde",
+    "en": "a farmer"
+   },
+   {
+    "da": "en gård",
+    "en": "a farm (property)"
    }
   ],
   "sentence": {
@@ -682,7 +710,7 @@
   }
  },
  "en lejlighed": {
-  "explanation": "\"En lejlighed\" means \"an apartment\" or \"a flat\". At leje en lejlighed means \"to rent an apartment\", while a whole house is et hus.",
+  "explanation": "\"En lejlighed\" means \"an apartment\" or \"a flat\". At leje en lejlighed means \"to rent an apartment\". En lejlighed med tre værelser means \"an apartment with three rooms\".",
   "forms": [
    {
     "da": "en lejlighed",
@@ -709,6 +737,10 @@
    {
     "da": "at leje",
     "en": "to rent"
+   },
+   {
+    "da": "en lejer",
+    "en": "a tenant"
    }
   ],
   "sentence": {
@@ -885,7 +917,7 @@
   }
  },
  "en lomme": {
-  "explanation": "\"En lomme\" means \"a pocket\" on clothes: Det er i min lomme means \"It is in my pocket\".",
+  "explanation": "\"En lomme\" means \"a pocket\". Det er i min lomme means \"It is in my pocket\", and Jeg har hænderne i lommerne means \"I have my hands in my pockets\".",
   "forms": [
    {
     "da": "en lomme",
@@ -949,7 +981,11 @@
     "en": "a harbor"
    },
    {
-    "da": "luft",
+    "da": "et fly",
+    "en": "an airplane"
+   },
+   {
+    "da": "en luft",
     "en": "air"
    }
   ],
@@ -959,7 +995,7 @@
   }
  },
  "en læbe": {
-  "explanation": "\"En læbe\" means \"a lip\": Jeg har tørre læber means \"I have dry lips\". It is part of en læbestift (a lipstick).",
+  "explanation": "\"En læbe\" means \"a lip\". Røde læber means \"red lips\" and tørre læber means \"dry lips\". Words like en læbestift (a lipstick) are built from it.",
   "forms": [
    {
     "da": "en læbe",
@@ -1002,7 +1038,7 @@
   }
  },
  "en læge": {
-  "explanation": "\"En læge\" means \"a doctor\", the person you see when you are ill. At gå til lægen means \"to go to the doctor\".",
+  "explanation": "\"En læge\" means \"a doctor\". At gå til lægen means \"to go to the doctor\".",
   "forms": [
    {
     "da": "en læge",
@@ -1067,7 +1103,11 @@
    },
    {
     "da": "at lære",
-    "en": "to learn / to teach"
+    "en": "to learn"
+   },
+   {
+    "da": "en lærerinde",
+    "en": "a female teacher"
    }
   ],
   "sentence": {
@@ -1076,7 +1116,7 @@
   }
  },
  "en løve": {
-  "explanation": "\"En løve\" means \"a lion\".",
+  "explanation": "\"En løve\" means \"a lion\". Løven sover i solen means \"The lion sleeps in the sun\". A female lion is en løvinde (a lioness).",
   "forms": [
    {
     "da": "en løve",
@@ -1099,11 +1139,19 @@
    {
     "da": "en løvinde",
     "en": "a lioness"
+   },
+   {
+    "da": "en tiger",
+    "en": "a tiger"
+   },
+   {
+    "da": "en elefant",
+    "en": "an elephant"
    }
   ],
   "sentence": {
-   "da": "En **løve** er et stort dyr.",
-   "en": "A lion is a big animal."
+   "da": "En **løve** brøler højt.",
+   "en": "A lion roars loudly."
   }
  },
  "et land": {
@@ -1173,6 +1221,10 @@
    {
     "da": "døden",
     "en": "death"
+   },
+   {
+    "da": "levende",
+    "en": "alive"
    }
   ],
   "sentence": {
@@ -1247,6 +1299,10 @@
    {
     "da": "et rødløg",
     "en": "a red onion"
+   },
+   {
+    "da": "purløg",
+    "en": "chives"
    }
   ],
   "sentence": {
@@ -1278,6 +1334,10 @@
    {
     "da": "vi må se",
     "en": "we'll have to see"
+   },
+   {
+    "da": "lad os prøve",
+    "en": "let's try"
    }
   ],
   "sentence": {
@@ -1309,6 +1369,10 @@
    {
     "da": "torsk",
     "en": "cod"
+   },
+   {
+    "da": "sild",
+    "en": "herring"
    }
   ],
   "sentence": {
@@ -1375,6 +1439,10 @@
    {
     "da": "langsomt",
     "en": "slowly"
+   },
+   {
+    "da": "langsommere",
+    "en": "slower"
    }
   ],
   "sentence": {
@@ -1523,7 +1591,7 @@
   }
  },
  "lektier": {
-  "explanation": "\"Lektier\" means \"homework\". It goes with at lave (to do, to make): Jeg laver lektier (I do homework). Mange lektier means \"a lot of homework\".",
+  "explanation": "\"Lektier\" means \"homework\". It goes with at lave (to do, to make): Jeg laver lektier (I do my homework). Mange lektier means \"a lot of homework\". En lektie (one piece of homework) is rarely used.",
   "forms": [
    {
     "da": "en lektie",
@@ -1546,6 +1614,14 @@
    {
     "da": "en opgave",
     "en": "a task"
+   },
+   {
+    "da": "en lektion",
+    "en": "a lesson"
+   },
+   {
+    "da": "en skoleopgave",
+    "en": "a school assignment"
    }
   ],
   "sentence": {
@@ -1647,6 +1723,10 @@
    {
     "da": "hurtigere",
     "en": "faster"
+   },
+   {
+    "da": "langsomt",
+    "en": "slowly"
    }
   ],
   "sentence": {
@@ -1694,7 +1774,7 @@
   }
  },
  "lige nu": {
-  "explanation": "\"Lige nu\" means \"right now\". It is lige (just) and nu (now) put together. For something a little later, use om lidt (in a little while).",
+  "explanation": "\"Lige nu\" means \"right now\". It is built from lige (just) and nu (now). For something a little later, use om lidt (in a little while).",
   "forms": [
    {
     "da": "lige nu",
@@ -1711,16 +1791,16 @@
   ],
   "related": [
    {
-    "da": "nu",
-    "en": "now"
-   },
-   {
     "da": "om lidt",
     "en": "in a little while"
    },
    {
     "da": "senere",
     "en": "later"
+   },
+   {
+    "da": "med det samme",
+    "en": "right away"
    }
   ],
   "sentence": {
@@ -1729,7 +1809,7 @@
   }
  },
  "ligesom": {
-  "explanation": "\"Ligesom\" means \"just like\": Hun synger ligesom en fugl (She sings just like a bird).",
+  "explanation": "\"Ligesom\" means \"just like\". It is built from lige (just) and som (like). Use it to compare: Hun er ligesom sin mor (She is just like her mother).",
   "forms": [
    {
     "da": "ligesom mig",
@@ -1768,7 +1848,7 @@
   }
  },
  "lilla": {
-  "explanation": "\"Lilla\" means \"purple\": Min taske er lilla (My bag is purple).",
+  "explanation": "\"Lilla\" means \"purple\". Min taske er lilla means \"My bag is purple\". Do not mix it up with lyserød (pink).",
   "forms": [
    {
     "da": "en lilla bluse",
@@ -1803,7 +1883,7 @@
   }
  },
  "lille": {
-  "explanation": "\"Lille\" means \"small\" or \"little\": en lille dreng (a little boy).",
+  "explanation": "\"Lille\" means \"small\" or \"little\", and it is also used for children. Compare en lille dreng (a little boy) with en stor dreng (a big boy).",
   "forms": [
    {
     "da": "en lille bil",
@@ -1861,6 +1941,10 @@
    {
     "da": "at lufte",
     "en": "to air out"
+   },
+   {
+    "da": "en luftballon",
+    "en": "a balloon"
    }
   ],
   "sentence": {
@@ -2075,6 +2159,10 @@
    {
     "da": "dejlig",
     "en": "lovely"
+   },
+   {
+    "da": "ulækker",
+    "en": "yucky"
    }
   ],
   "sentence": {
@@ -2106,6 +2194,10 @@
    {
     "da": "kort tid",
     "en": "a short time"
+   },
+   {
+    "da": "i lang tid",
+    "en": "for a long time"
    }
   ],
   "sentence": {

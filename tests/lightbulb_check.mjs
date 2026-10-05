@@ -17,7 +17,16 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     if (!/^"[^"]+"/.test(e.explanation)) fail(k + ": explanation must open with the quoted word'");
     const banned = /learn (it|them) as|fixed phrase|written as one word|usual pattern|participle|infinitive|conjugat|declen|definite|indefinite|neuter|\bis the (head|doll)\b|useful for text|\bit is an? (en|et)-word/i;
     if (banned.test(e.explanation)) fail(k + ": explanation has banned wording");
-    if (!Array.isArray(e.related) || e.related.length > 4) fail(k + ": related");
+    {
+      const words = (x) => new Set((x.toLowerCase().replace(/^(at|en|et)\s+/, "").match(/[\p{L}\d]+/gu) || []));
+      const parts = words(k);
+      if (parts.size > 1 && Array.isArray(e.related))
+        for (const r of e.related) {
+          const rw = [...words(r.da || "")];
+          if (rw.length && rw.every((w) => parts.has(w))) fail(k + ": related '" + r.da + "' is just part of the card itself");
+        }
+    }
+    if (!Array.isArray(e.related) || e.related.length < 3 || e.related.length > 4) fail(k + ": related must have 3 or 4 words");
     if (!e.sentence || !e.sentence.da || !e.sentence.en) fail(k + ": sentence");
     else if (!/\*\*[^*]+\*\*/.test(e.sentence.da)) fail(k + ": sentence word not marked with **");
     else {

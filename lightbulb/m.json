@@ -23,6 +23,14 @@
    {
     "da": "meditation",
     "en": "meditation"
+   },
+   {
+    "da": "yoga",
+    "en": "yoga"
+   },
+   {
+    "da": "at slappe af",
+    "en": "to relax"
    }
   ],
   "sentence": {
@@ -52,16 +60,20 @@
   ],
   "related": [
    {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
     "da": "en sygdom",
     "en": "an illness"
    },
    {
     "da": "at være syg",
     "en": "to be sick"
+   },
+   {
+    "da": "en sygemelding",
+    "en": "a sick report"
+   },
+   {
+    "da": "rask",
+    "en": "well, healthy"
    }
   ],
   "sentence": {
@@ -136,6 +148,10 @@
    {
     "da": "at skulle",
     "en": "to have to / should"
+   },
+   {
+    "da": "at ville",
+    "en": "to want to"
    }
   ],
   "sentence": {
@@ -171,6 +187,10 @@
    {
     "da": "at maile",
     "en": "to email"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
    }
   ],
   "sentence": {
@@ -218,7 +238,7 @@
   }
  },
  "en mave": {
-  "explanation": "\"En mave\" means \"a stomach\" or \"a belly\". You say Jeg har ondt i maven (My stomach hurts).",
+  "explanation": "\"En mave\" means \"a stomach\" or \"a belly\". Jeg har ondt i maven means \"My stomach hurts\", and Han har en stor mave means \"He has a big belly\".",
   "forms": [
    {
     "da": "en mave",
@@ -241,6 +261,14 @@
    {
     "da": "en mavepine",
     "en": "a stomachache"
+   },
+   {
+    "da": "en tarm",
+    "en": "an intestine"
+   },
+   {
+    "da": "en mavesyre",
+    "en": "stomach acid"
    }
   ],
   "sentence": {
@@ -315,6 +343,10 @@
    {
     "da": "en honningmelon",
     "en": "a honeydew melon"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
    }
   ],
   "sentence": {
@@ -350,6 +382,10 @@
    {
     "da": "en børnemenu",
     "en": "a kids' menu"
+   },
+   {
+    "da": "et vinkort",
+    "en": "a wine list"
    }
   ],
   "sentence": {
@@ -385,6 +421,10 @@
    {
     "da": "en kilometer",
     "en": "a kilometer"
+   },
+   {
+    "da": "en millimeter",
+    "en": "a millimeter"
    }
   ],
   "sentence": {
@@ -420,6 +460,10 @@
    {
     "da": "et tog",
     "en": "a train"
+   },
+   {
+    "da": "en bus",
+    "en": "a bus"
    }
   ],
   "sentence": {
@@ -787,6 +831,10 @@
    {
     "da": "en computermus",
     "en": "a computer mouse"
+   },
+   {
+    "da": "en hamster",
+    "en": "a hamster"
    }
   ],
   "sentence": {
@@ -822,6 +870,10 @@
    {
     "da": "en metode",
     "en": "a method"
+   },
+   {
+    "da": "en fremgangsmåde",
+    "en": "a procedure"
    }
   ],
   "sentence": {
@@ -869,7 +921,7 @@
   }
  },
  "en måned": {
-  "explanation": "\"En måned\" means \"a month\". Om måneden means \"per month\" and \"i denne måned\" means \"this month\".",
+  "explanation": "\"En måned\" means \"a month\". Om måneden means \"per month\", i denne måned means \"this month\", and næste måned means \"next month\".",
   "forms": [
    {
     "da": "en måned",
@@ -939,6 +991,10 @@
    {
     "da": "et supermarked",
     "en": "a supermarket"
+   },
+   {
+    "da": "en markedsplads",
+    "en": "a marketplace"
    }
   ],
   "sentence": {
@@ -1054,8 +1110,12 @@
     "en": "a set meal"
    },
    {
-    "da": "et kort",
-    "en": "a card"
+    "da": "et vinkort",
+    "en": "a wine list"
+   },
+   {
+    "da": "dagens ret",
+    "en": "dish of the day"
    }
   ],
   "sentence": {
@@ -1134,6 +1194,10 @@
    {
     "da": "et kunstmuseum",
     "en": "an art museum"
+   },
+   {
+    "da": "en udstilling",
+    "en": "an exhibition"
    }
   ],
   "sentence": {
@@ -1259,7 +1323,7 @@
   }
  },
  "maj": {
-  "explanation": "\"Maj\" means \"May\" and sounds like English my. Month names start with a small letter in Danish.",
+  "explanation": "\"Maj\" means \"May\" and sounds like English my. Month names start with a small letter in Danish, so you write maj in the middle of a sentence: Det er varmt i maj (It is warm in May).",
   "forms": [
    {
     "da": "maj",
@@ -1313,6 +1377,14 @@
    {
     "da": "en majskolbe",
     "en": "an ear of corn"
+   },
+   {
+    "da": "ærter",
+    "en": "peas"
+   },
+   {
+    "da": "bønner",
+    "en": "beans"
    }
   ],
   "sentence": {
@@ -1383,6 +1455,10 @@
    {
     "da": "en søndag",
     "en": "Sunday"
+   },
+   {
+    "da": "en onsdag",
+    "en": "Wednesday"
    }
   ],
   "sentence": {
@@ -1414,6 +1490,10 @@
    {
     "da": "en mand",
     "en": "a man"
+   },
+   {
+    "da": "mandig",
+    "en": "manly"
    }
   ],
   "sentence": {
@@ -1478,16 +1558,16 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
     "da": "tusind tak",
     "en": "thanks a lot"
    },
    {
     "da": "selv tak",
     "en": "you're welcome"
+   },
+   {
+    "da": "tak for hjælpen",
+    "en": "thanks for the help"
    }
   ],
   "sentence": {
@@ -1519,6 +1599,10 @@
    {
     "da": "april",
     "en": "April"
+   },
+   {
+    "da": "maj",
+    "en": "May"
    }
   ],
   "sentence": {
@@ -1566,7 +1650,7 @@
   }
  },
  "matematik": {
-  "explanation": "\"Matematik\" means math (maths), as a school subject or in general: Jeg er god til matematik (I am good at math).",
+  "explanation": "\"Matematik\" means \"math\" (maths). Jeg er god til matematik means \"I am good at math\". The short form is matte.",
   "forms": [
    {
     "da": "matematik",
@@ -1585,6 +1669,14 @@
    {
     "da": "matte",
     "en": "math (short, informal)"
+   },
+   {
+    "da": "fysik",
+    "en": "physics"
+   },
+   {
+    "da": "at regne",
+    "en": "to calculate"
    }
   ],
   "sentence": {
@@ -1721,6 +1813,14 @@
    {
     "da": "en pille",
     "en": "a pill"
+   },
+   {
+    "da": "en tablet",
+    "en": "a tablet"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
    }
   ],
   "sentence": {
@@ -1783,6 +1883,14 @@
    {
     "da": "mælk",
     "en": "milk"
+   },
+   {
+    "da": "hvedemel",
+    "en": "wheat flour"
+   },
+   {
+    "da": "sukker",
+    "en": "sugar"
    }
   ],
   "sentence": {
@@ -2281,6 +2389,14 @@
    {
     "da": "en musiker",
     "en": "a musician"
+   },
+   {
+    "da": "musikalsk",
+    "en": "musical"
+   },
+   {
+    "da": "en sang",
+    "en": "a song"
    }
   ],
   "sentence": {
@@ -2312,6 +2428,10 @@
    {
     "da": "Må jeg få regningen?",
     "en": "May I have the bill?"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
    }
   ],
   "sentence": {
@@ -2343,6 +2463,10 @@
    {
     "da": "Må jeg bede om regningen?",
     "en": "May I have the bill? (more formal)"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
    }
   ],
   "sentence": {
@@ -2409,6 +2533,10 @@
    {
     "da": "letmælk",
     "en": "semi-skimmed milk"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
    }
   ],
   "sentence": {
@@ -2440,6 +2568,10 @@
    {
     "da": "fuld",
     "en": "drunk / full"
+   },
+   {
+    "da": "sult",
+    "en": "hunger"
    }
   ],
   "sentence": {
@@ -2471,6 +2603,10 @@
    {
     "da": "mørkeblå",
     "en": "dark blue"
+   },
+   {
+    "da": "mørkegrøn",
+    "en": "dark green"
    }
   ],
   "sentence": {
@@ -2572,7 +2708,20 @@
     "en": "muesli and yoghurt"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "havregryn",
+    "en": "oats"
+   },
+   {
+    "da": "cornflakes",
+    "en": "cornflakes"
+   },
+   {
+    "da": "grød",
+    "en": "porridge"
+   }
+  ],
   "sentence": {
    "da": "Jeg spiser **müsli** med mælk i en skål.",
    "en": "I eat muesli with milk in a bowl."

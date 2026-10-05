@@ -1,6 +1,6 @@
 {
  "at bage": {
-  "explanation": "\"At bage\" means \"to bake\", for things like cakes and bread: Jeg bager et brød (I bake a loaf of bread).",
+  "explanation": "\"At bage\" means \"to bake\", for things like cakes and bread: Jeg bager et brød (I bake a loaf of bread). Do not mix it up with at stege (to fry), which is what you do with meat or eggs in a pan.",
   "forms": [
    {
     "da": "at bage",
@@ -23,6 +23,14 @@
    {
     "da": "en bager",
     "en": "a baker"
+   },
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "bagværk",
+    "en": "baked goods"
    }
   ],
   "sentence": {
@@ -136,6 +144,10 @@
    {
     "da": "at reservere",
     "en": "to reserve"
+   },
+   {
+    "da": "at booke",
+    "en": "to book"
    }
   ],
   "sentence": {
@@ -165,16 +177,16 @@
   ],
   "related": [
    {
-    "da": "en tid",
-    "en": "an appointment, a time"
-   },
-   {
-    "da": "at bestille",
-    "en": "to order, to book"
-   },
-   {
     "da": "en aftale",
     "en": "an appointment"
+   },
+   {
+    "da": "at aftale",
+    "en": "to arrange"
+   },
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
    }
   ],
   "sentence": {
@@ -245,6 +257,14 @@
    {
     "da": "en betaling",
     "en": "a payment"
+   },
+   {
+    "da": "at købe",
+    "en": "to buy"
+   },
+   {
+    "da": "at betale tilbage",
+    "en": "to pay back"
    }
   ],
   "sentence": {
@@ -282,8 +302,8 @@
     "en": "a payment card"
    },
    {
-    "da": "at betale",
-    "en": "to pay"
+    "da": "et kreditkort",
+    "en": "a credit card"
    }
   ],
   "sentence": {
@@ -315,6 +335,14 @@
    {
     "da": "en betydning",
     "en": "a meaning"
+   },
+   {
+    "da": "at mene",
+    "en": "to mean, to think"
+   },
+   {
+    "da": "betydelig",
+    "en": "significant"
    }
   ],
   "sentence": {
@@ -350,6 +378,10 @@
    {
     "da": "at forblive",
     "en": "to remain"
+   },
+   {
+    "da": "at blive ved",
+    "en": "to keep on"
    }
   ],
   "sentence": {
@@ -378,10 +410,6 @@
    }
   ],
   "related": [
-   {
-    "da": "bange",
-    "en": "scared"
-   },
    {
     "da": "at være bange",
     "en": "to be scared"
@@ -422,10 +450,6 @@
   ],
   "related": [
    {
-    "da": "gift",
-    "en": "married"
-   },
-   {
     "da": "ugift",
     "en": "unmarried"
    },
@@ -465,16 +489,16 @@
   ],
   "related": [
    {
-    "da": "hjemme",
-    "en": "at home"
-   },
-   {
-    "da": "at blive",
-    "en": "to stay / become"
-   },
-   {
     "da": "at gå ud",
     "en": "to go out"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
+   },
+   {
+    "da": "at tage hjem",
+    "en": "to go home"
    }
   ],
   "sentence": {
@@ -483,7 +507,7 @@
   }
  },
  "at blive rask": {
-  "explanation": "\"At blive rask\" means \"to get better\" after being sick. To someone who is ill you can say God bedring! (Get well soon!).",
+  "explanation": "\"At blive rask\" means \"to get better\" after being sick. Rask means \"healthy\" or \"recovered\". To someone who is ill you can say God bedring! (Get well soon!).",
   "forms": [
    {
     "da": "at blive rask",
@@ -504,16 +528,20 @@
   ],
   "related": [
    {
-    "da": "rask",
-    "en": "healthy, recovered"
-   },
-   {
     "da": "at blive syg",
     "en": "to get sick"
    },
    {
     "da": "syg",
     "en": "sick"
+   },
+   {
+    "da": "at blive frisk",
+    "en": "to get well"
+   },
+   {
+    "da": "en bedring",
+    "en": "a recovery"
    }
   ],
   "sentence": {
@@ -543,12 +571,16 @@
   ],
   "related": [
    {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
     "da": "at blive rask",
     "en": "to get better"
+   },
+   {
+    "da": "at være syg",
+    "en": "to be sick"
+   },
+   {
+    "da": "en sygdom",
+    "en": "an illness"
    }
   ],
   "sentence": {
@@ -578,12 +610,16 @@
   ],
   "related": [
    {
-    "da": "træt",
-    "en": "tired"
-   },
-   {
     "da": "at være træt",
     "en": "to be tired"
+   },
+   {
+    "da": "udmattet",
+    "en": "exhausted"
+   },
+   {
+    "da": "søvnig",
+    "en": "sleepy"
    }
   ],
   "sentence": {
@@ -631,7 +667,7 @@
   }
  },
  "at bruge": {
-  "explanation": "\"At bruge\" means \"to use\", for example a tool or a phone. It also means \"to spend\" money or time: Jeg bruger mange penge (I spend a lot of money).",
+  "explanation": "\"At bruge\" means \"to use\", for example a tool or a phone. It also means \"to spend\" money or time: Jeg bruger mange penge (I spend a lot of money). What comes after it tells you which meaning is meant.",
   "forms": [
    {
     "da": "at bruge",
@@ -691,16 +727,16 @@
   ],
   "related": [
    {
-    "da": "penge",
-    "en": "money"
-   },
-   {
     "da": "at spare",
     "en": "to save"
    },
    {
-    "da": "at bruge",
-    "en": "to use, to spend"
+    "da": "at tjene penge",
+    "en": "to earn money"
+   },
+   {
+    "da": "at låne",
+    "en": "to borrow"
    }
   ],
   "sentence": {
@@ -736,6 +772,10 @@
    {
     "da": "at returnere",
     "en": "to return"
+   },
+   {
+    "da": "at udskifte",
+    "en": "to replace"
    }
   ],
   "sentence": {
@@ -773,8 +813,8 @@
     "en": "a toothbrush"
    },
    {
-    "da": "en børste",
-    "en": "a brush"
+    "da": "tandpasta",
+    "en": "toothpaste"
    }
   ],
   "sentence": {
@@ -783,7 +823,7 @@
   }
  },
  "badetøj": {
-  "explanation": "\"Badetøj\" means \"swimwear\": swimsuits, swim trunks and other clothes you swim in. It is built from bade (to swim) and tøj (clothes).",
+  "explanation": "\"Badetøj\" means \"swimwear\": swimsuits, swim trunks and other clothes you swim in. It is built from bade (to swim) and tøj (clothes). Like tøj, it is a group word for all the pieces together, so it has no plural.",
   "forms": [
    {
     "da": "badetøj",
@@ -985,6 +1025,10 @@
    {
     "da": "modig",
     "en": "brave"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
    }
   ],
   "sentence": {
@@ -1010,16 +1054,16 @@
   ],
   "related": [
    {
-    "da": "bange",
-    "en": "afraid"
-   },
-   {
     "da": "modig",
     "en": "brave"
    },
    {
     "da": "at frygte",
     "en": "to fear"
+   },
+   {
+    "da": "en frygt",
+    "en": "a fear"
    }
   ],
   "sentence": {
@@ -1230,6 +1274,10 @@
    {
     "da": "snavset",
     "en": "dirty"
+   },
+   {
+    "da": "snavs",
+    "en": "dirt"
    }
   ],
   "sentence": {
@@ -1238,7 +1286,7 @@
   }
  },
  "bestik": {
-  "explanation": "\"Bestik\" means \"cutlery\": the things you eat with. Kan jeg få noget bestik? means \"Can I have some cutlery?\".",
+  "explanation": "\"Bestik\" means \"cutlery\": the knives, forks and spoons you eat with. It is used for the whole set, so for one piece you name it: en kniv (a knife), en gaffel (a fork) or en ske (a spoon). Kan jeg få noget bestik? means \"Can I have some cutlery?\".",
   "forms": [
    {
     "da": "et bestik",
@@ -1327,6 +1375,14 @@
    {
     "da": "dyr",
     "en": "expensive"
+   },
+   {
+    "da": "gratis",
+    "en": "free"
+   },
+   {
+    "da": "et tilbud",
+    "en": "a special offer"
    }
   ],
   "sentence": {
@@ -1370,7 +1426,7 @@
   }
  },
  "blomkål": {
-  "explanation": "\"Blomkål\" means \"cauliflower\". It is built from blomst (flower) and kål (cabbage), so it literally means \"flower cabbage\".",
+  "explanation": "\"Blomkål\" means \"cauliflower\". It is built from blomst (flower) and kål (cabbage), so it literally means \"flower cabbage\". En blomkål is one whole head, and plain blomkål is the vegetable in general.",
   "forms": [
    {
     "da": "en blomkål",
@@ -1405,7 +1461,7 @@
   }
  },
  "blå": {
-  "explanation": "\"Blå\" means \"blue\".",
+  "explanation": "\"Blå\" means \"blue\". Put lyse (light) or mørke (dark) in front to make shades: lyseblå means \"light blue\" and mørkeblå means \"dark blue\".",
   "forms": [
    {
     "da": "en blå bil",
@@ -1496,8 +1552,12 @@
     "en": "a citizen"
    },
    {
-    "da": "service",
-    "en": "service"
+    "da": "et rådhus",
+    "en": "a town hall"
+   },
+   {
+    "da": "en kommune",
+    "en": "a municipality"
    }
   ],
   "sentence": {
@@ -1564,6 +1624,10 @@
    {
     "da": "en bredde",
     "en": "a width"
+   },
+   {
+    "da": "lang",
+    "en": "long"
    }
   ],
   "sentence": {
@@ -1595,6 +1659,10 @@
    {
     "da": "kontaktlinser",
     "en": "contact lenses"
+   },
+   {
+    "da": "en optiker",
+    "en": "an optician"
    }
   ],
   "sentence": {
@@ -1657,6 +1725,10 @@
    {
     "da": "kål",
     "en": "cabbage"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
    }
   ],
   "sentence": {
@@ -1735,7 +1807,7 @@
   }
  },
  "bukser": {
-  "explanation": "\"Bukser\" means \"pants\" or \"trousers\". For one pair, say et par bukser (a pair of pants).",
+  "explanation": "\"Bukser\" means \"pants\" or \"trousers\". Like English \"pants\", it is always plural, so for one pair say et par bukser (a pair of pants).",
   "forms": [
    {
     "da": "bukser",
@@ -1793,6 +1865,10 @@
    {
     "da": "at bytte",
     "en": "to exchange"
+   },
+   {
+    "da": "en mønt",
+    "en": "a coin"
    }
   ],
   "sentence": {
@@ -1863,6 +1939,10 @@
    {
     "da": "en bøn",
     "en": "a prayer"
+   },
+   {
+    "da": "ærter",
+    "en": "peas"
    }
   ],
   "sentence": {
@@ -1898,6 +1978,10 @@
    {
     "da": "et spædbarn",
     "en": "an infant"
+   },
+   {
+    "da": "en barnevogn",
+    "en": "a pram"
    }
   ],
   "sentence": {
@@ -1933,6 +2017,10 @@
    {
     "da": "at bage",
     "en": "to bake"
+   },
+   {
+    "da": "en slagter",
+    "en": "a butcher"
    }
   ],
   "sentence": {
@@ -1960,7 +2048,20 @@
     "en": "the balloons"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en luftballon",
+    "en": "a balloon"
+   },
+   {
+    "da": "en varmluftsballon",
+    "en": "a hot-air balloon"
+   },
+   {
+    "da": "en bold",
+    "en": "a ball"
+   }
+  ],
   "sentence": {
    "da": "Barnet slipper en **ballon** op i luften.",
    "en": "The child lets a balloon go up into the air."
@@ -1990,6 +2091,14 @@
    {
     "da": "en dukke",
     "en": "a doll"
+   },
+   {
+    "da": "et legetøj",
+    "en": "a toy"
+   },
+   {
+    "da": "en bjørn",
+    "en": "a bear"
    }
   ],
   "sentence": {
@@ -1998,7 +2107,7 @@
   }
  },
  "en banan": {
-  "explanation": "\"En banan\" means \"a banana\". The stress is on the last part: ba-NAN.",
+  "explanation": "\"En banan\" means \"a banana\". Say it with the stress on the last part: ba-NAN.",
   "forms": [
    {
     "da": "en banan",
@@ -2111,6 +2220,10 @@
    {
     "da": "en bankkonto",
     "en": "a bank account"
+   },
+   {
+    "da": "en pengeautomat",
+    "en": "an ATM"
    }
   ],
   "sentence": {
@@ -2146,6 +2259,10 @@
    {
     "da": "en konto",
     "en": "an account"
+   },
+   {
+    "da": "et bankkort",
+    "en": "a bank card"
    }
   ],
   "sentence": {
@@ -2263,6 +2380,14 @@
    {
     "da": "at behandle",
     "en": "to treat"
+   },
+   {
+    "da": "en undersøgelse",
+    "en": "an examination"
+   },
+   {
+    "da": "en kur",
+    "en": "a course of treatment"
    }
   ],
   "sentence": {
@@ -2271,7 +2396,7 @@
   }
  },
  "en besked": {
-  "explanation": "\"En besked\" means \"a message\". People say at give besked (to let someone know) and at få besked (to be told).",
+  "explanation": "\"En besked\" means \"a message\", or a piece of information someone passes on to you. Use at give besked (to let someone know) and at få besked (to be told).",
   "forms": [
    {
     "da": "en besked",
@@ -2298,6 +2423,10 @@
    {
     "da": "en e-mail",
     "en": "an email"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
    }
   ],
   "sentence": {
@@ -2415,6 +2544,14 @@
    {
     "da": "en bio",
     "en": "a cinema (short form)"
+   },
+   {
+    "da": "en film",
+    "en": "a film"
+   },
+   {
+    "da": "et teater",
+    "en": "a theatre"
    }
   ],
   "sentence": {
@@ -2450,6 +2587,10 @@
    {
     "da": "en form",
     "en": "a shape"
+   },
+   {
+    "da": "en ansøgning",
+    "en": "an application"
    }
   ],
   "sentence": {
@@ -2477,7 +2618,20 @@
     "en": "the diapers"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en baby",
+    "en": "a baby"
+   },
+   {
+    "da": "en sut",
+    "en": "a pacifier"
+   },
+   {
+    "da": "en sutteflaske",
+    "en": "a baby bottle"
+   }
+  ],
   "sentence": {
    "da": "Babyen har en våd **ble**.",
    "en": "The baby has a wet diaper."
@@ -2511,6 +2665,14 @@
    {
     "da": "en prøve",
     "en": "a test"
+   },
+   {
+    "da": "en urinprøve",
+    "en": "a urine sample"
+   },
+   {
+    "da": "et blodtryk",
+    "en": "blood pressure"
    }
   ],
   "sentence": {
@@ -2558,7 +2720,7 @@
   }
  },
  "en bluse": {
-  "explanation": "\"En bluse\" means \"a blouse\", a light top for a woman or girl.",
+  "explanation": "\"En bluse\" means \"a blouse\", a light top for a woman or girl. Do not mix it up with en skjorte (a shirt).",
   "forms": [
    {
     "da": "en bluse",
@@ -2628,6 +2790,10 @@
    {
     "da": "en blyantspidser",
     "en": "a pencil sharpener"
+   },
+   {
+    "da": "et viskelæder",
+    "en": "an eraser"
    }
   ],
   "sentence": {
@@ -2663,6 +2829,10 @@
    {
     "da": "en bogreol",
     "en": "a bookshelf"
+   },
+   {
+    "da": "et bibliotek",
+    "en": "a library"
    }
   ],
   "sentence": {
@@ -2698,6 +2868,14 @@
    {
     "da": "håndbold",
     "en": "handball"
+   },
+   {
+    "da": "basketball",
+    "en": "basketball"
+   },
+   {
+    "da": "en ballon",
+    "en": "a balloon"
    }
   ],
   "sentence": {
@@ -2768,6 +2946,14 @@
    {
     "da": "en kvittering",
     "en": "a receipt"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en kasse",
+    "en": "a till"
    }
   ],
   "sentence": {
@@ -2799,6 +2985,14 @@
    {
     "da": "en tunnel",
     "en": "a tunnel"
+   },
+   {
+    "da": "en færge",
+    "en": "a ferry"
+   },
+   {
+    "da": "en gangbro",
+    "en": "a footbridge"
    }
   ],
   "sentence": {
@@ -2850,7 +3044,7 @@
   }
  },
  "en buffet": {
-  "explanation": "\"En buffet\" means \"a buffet\", a meal where you help yourself to food from a table. A breakfast buffet is en morgenmadsbuffet.",
+  "explanation": "\"En buffet\" means \"a buffet\". Jeg tager mad fra buffeten means \"I take food from the buffet\".",
   "forms": [
    {
     "da": "en buffet",
@@ -2873,6 +3067,14 @@
    {
     "da": "en morgenmadsbuffet",
     "en": "a breakfast buffet"
+   },
+   {
+    "da": "en frokostbuffet",
+    "en": "a lunch buffet"
+   },
+   {
+    "da": "en salatbar",
+    "en": "a salad bar"
    }
   ],
   "sentence": {
@@ -2908,6 +3110,10 @@
    {
     "da": "en vegetarburger",
     "en": "a vegetarian burger"
+   },
+   {
+    "da": "en cheeseburger",
+    "en": "a cheeseburger"
    }
   ],
   "sentence": {
@@ -3037,7 +3243,7 @@
   }
  },
  "en by": {
-  "explanation": "\"En by\" means \"a town\" or \"a city\", small or big. I byen means \"in town\", and \"Jeg skal ind til byen\" means \"I am going into town\".",
+  "explanation": "\"En by\" means \"a town\" or \"a city\". Danish uses one word for both, so it can be small or big. I byen means \"in town\", and Jeg skal ind til byen means \"I am going into town\".",
   "forms": [
    {
     "da": "en by",
@@ -3064,6 +3270,14 @@
    {
     "da": "en storby",
     "en": "a big city"
+   },
+   {
+    "da": "en hovedstad",
+    "en": "a capital"
+   },
+   {
+    "da": "en bymidte",
+    "en": "a town centre"
    }
   ],
   "sentence": {
@@ -3134,6 +3348,14 @@
    {
     "da": "en hakkebøf",
     "en": "a minced beef patty"
+   },
+   {
+    "da": "en kotelet",
+    "en": "a chop"
+   },
+   {
+    "da": "en frikadelle",
+    "en": "a meatball"
    }
   ],
   "sentence": {
@@ -3208,6 +3430,10 @@
    {
     "da": "en menu",
     "en": "a menu"
+   },
+   {
+    "da": "en børnestol",
+    "en": "a high chair"
    }
   ],
   "sentence": {
@@ -3298,7 +3524,7 @@
   }
  },
  "et bageri": {
-  "explanation": "\"Et bageri\" means \"a bakery\", a shop where bread and cakes are baked and sold.",
+  "explanation": "\"Et bageri\" means \"a bakery\". To buy something there, you can say Jeg vil gerne have et rundstykke (I would like a bread roll).",
   "forms": [
    {
     "da": "et bageri",
@@ -3325,6 +3551,10 @@
    {
     "da": "at bage",
     "en": "to bake"
+   },
+   {
+    "da": "et brød",
+    "en": "a bread"
    }
   ],
   "sentence": {
@@ -3489,7 +3719,7 @@
   }
  },
  "et bibliotek": {
-  "explanation": "\"Et bibliotek\" means \"a library\". You borrow books there: at låne en bog på biblioteket (to borrow a book at the library).",
+  "explanation": "\"Et bibliotek\" means \"a library\". You say at låne en bog på biblioteket (to borrow a book at the library).",
   "forms": [
    {
     "da": "et bibliotek",
@@ -3516,6 +3746,10 @@
    {
     "da": "en boghandel",
     "en": "a bookshop"
+   },
+   {
+    "da": "en bog",
+    "en": "a book"
    }
   ],
   "sentence": {
@@ -3633,6 +3867,10 @@
    {
     "da": "en billet",
     "en": "a ticket"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
    }
   ],
   "sentence": {
@@ -3711,6 +3949,10 @@
    {
     "da": "et postkort",
     "en": "a postcard"
+   },
+   {
+    "da": "en konvolut",
+    "en": "an envelope"
    }
   ],
   "sentence": {
@@ -3828,6 +4070,10 @@
    {
     "da": "en bus",
     "en": "a bus"
+   },
+   {
+    "da": "en busbillet",
+    "en": "a bus ticket"
    }
   ],
   "sentence": {
@@ -3836,7 +4082,7 @@
   }
  },
  "et bælte": {
-  "explanation": "\"Et bælte\" means \"a belt\". A seat belt in a car is et sikkerhedsbælte, built on the same word.",
+  "explanation": "\"Et bælte\" means \"a belt\". Et sikkerhedsbælte (a seat belt) is built on the same word, from sikkerhed (safety).",
   "forms": [
    {
     "da": "et bælte",
@@ -3859,6 +4105,14 @@
    {
     "da": "et sikkerhedsbælte",
     "en": "a seat belt"
+   },
+   {
+    "da": "et slips",
+    "en": "a tie"
+   },
+   {
+    "da": "bukser",
+    "en": "trousers"
    }
   ],
   "sentence": {

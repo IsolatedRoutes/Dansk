@@ -27,6 +27,10 @@
    {
     "da": "et fald",
     "en": "a fall"
+   },
+   {
+    "da": "at snuble",
+    "en": "to trip"
    }
   ],
   "sentence": {
@@ -101,6 +105,10 @@
    {
     "da": "at flytte ind",
     "en": "to move in"
+   },
+   {
+    "da": "at flytte ud",
+    "en": "to move out"
    }
   ],
   "sentence": {
@@ -132,6 +140,14 @@
    {
     "da": "et fly",
     "en": "a plane"
+   },
+   {
+    "da": "en flyvemaskine",
+    "en": "an aeroplane"
+   },
+   {
+    "da": "en flyvetur",
+    "en": "a flight"
    }
   ],
   "sentence": {
@@ -167,6 +183,10 @@
    {
     "da": "en forhandler",
     "en": "a dealer, a retailer"
+   },
+   {
+    "da": "at aftale",
+    "en": "to agree"
    }
   ],
   "sentence": {
@@ -198,6 +218,14 @@
    {
     "da": "en forklaring",
     "en": "an explanation"
+   },
+   {
+    "da": "at beskrive",
+    "en": "to describe"
+   },
+   {
+    "da": "uforklarlig",
+    "en": "inexplicable"
    }
   ],
   "sentence": {
@@ -233,6 +261,14 @@
    {
     "da": "en forståelse",
     "en": "an understanding"
+   },
+   {
+    "da": "at misforstå",
+    "en": "to misunderstand"
+   },
+   {
+    "da": "forståelig",
+    "en": "understandable"
    }
   ],
   "sentence": {
@@ -268,6 +304,10 @@
    {
     "da": "en fortælling",
     "en": "a story, a tale"
+   },
+   {
+    "da": "en fortæller",
+    "en": "a narrator"
    }
   ],
   "sentence": {
@@ -338,6 +378,14 @@
    {
     "da": "en fødselsdag",
     "en": "a birthday"
+   },
+   {
+    "da": "at have fødselsdag",
+    "en": "to have a birthday"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
    }
   ],
   "sentence": {
@@ -385,7 +433,7 @@
   }
  },
  "at få hjælp": {
-  "explanation": "\"At få hjælp\" means \"to get help\": Kan jeg få hjælp? (Can I get help?).",
+  "explanation": "\"At få hjælp\" means \"to get help\": Kan jeg få hjælp? (Can I get help?). Danish says hjælp (help) with no en (a) in front: Jeg har brug for hjælp (I need help).",
   "forms": [
    {
     "da": "at få hjælp",
@@ -406,12 +454,16 @@
   ],
   "related": [
    {
-    "da": "hjælp",
-    "en": "help"
-   },
-   {
     "da": "at hjælpe",
     "en": "to help"
+   },
+   {
+    "da": "hjælpsom",
+    "en": "helpful"
+   },
+   {
+    "da": "at bede om hjælp",
+    "en": "to ask for help"
    }
   ],
   "sentence": {
@@ -447,6 +499,10 @@
    {
     "da": "at mærke",
     "en": "to feel (sense)"
+   },
+   {
+    "da": "følsom",
+    "en": "sensitive"
    }
   ],
   "sentence": {
@@ -740,6 +796,10 @@
    {
     "da": "en feriedag",
     "en": "a vacation day"
+   },
+   {
+    "da": "en feriebolig",
+    "en": "a vacation home"
    }
   ],
   "sentence": {
@@ -748,7 +808,7 @@
   }
  },
  "en fest": {
-  "explanation": "\"En fest\" means \"a party\" or a celebration. You say at holde fest (to have a party) or at gå til fest (to go to a party).",
+  "explanation": "\"En fest\" means \"a party\" or a celebration. You say at holde fest (to have a party) or at gå til fest (to go to a party). God fest! means \"Have a good party!\".",
   "forms": [
    {
     "da": "en fest",
@@ -775,6 +835,10 @@
    {
     "da": "en fødselsdagsfest",
     "en": "a birthday party"
+   },
+   {
+    "da": "et festmåltid",
+    "en": "a feast"
    }
   ],
   "sentence": {
@@ -806,6 +870,14 @@
    {
     "da": "at filme",
     "en": "to film"
+   },
+   {
+    "da": "en filmstjerne",
+    "en": "a film star"
+   },
+   {
+    "da": "en biograf",
+    "en": "a cinema"
    }
   ],
   "sentence": {
@@ -1161,6 +1233,10 @@
    {
     "da": "en dessert",
     "en": "a dessert"
+   },
+   {
+    "da": "en mellemret",
+    "en": "a side course"
    }
   ],
   "sentence": {
@@ -1196,6 +1272,10 @@
    {
     "da": "at forsinke",
     "en": "to delay"
+   },
+   {
+    "da": "en aflysning",
+    "en": "a cancellation"
    }
   ],
   "sentence": {
@@ -1231,6 +1311,10 @@
    {
     "da": "en vinterfrakke",
     "en": "a winter coat"
+   },
+   {
+    "da": "en regnfrakke",
+    "en": "a raincoat"
    }
   ],
   "sentence": {
@@ -1258,7 +1342,20 @@
     "en": "the meatballs"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en bøf",
+    "en": "a steak"
+   },
+   {
+    "da": "en fiskefrikadelle",
+    "en": "a fish cake"
+   },
+   {
+    "da": "en medister",
+    "en": "a pork sausage"
+   }
+  ],
   "sentence": {
    "da": "Han steger en **frikadelle** af svinekød i panden.",
    "en": "He fries a meatball of pork in the pan."
@@ -1343,7 +1440,7 @@
   }
  },
  "en fugl": {
-  "explanation": "\"En fugl\" means \"a bird\". Fuglene synger means \"The birds are singing\".",
+  "explanation": "\"En fugl\" means \"a bird\". Fuglene synger means \"The birds are singing\", and en fugl kan flyve means \"a bird can fly\".",
   "forms": [
    {
     "da": "en fugl",
@@ -1370,6 +1467,10 @@
    {
     "da": "en svane",
     "en": "a swan"
+   },
+   {
+    "da": "et fuglehus",
+    "en": "a birdhouse"
    }
   ],
   "sentence": {
@@ -1577,7 +1678,7 @@
   }
  },
  "et fly": {
-  "explanation": "\"Et fly\" means \"a plane\", short for en flyvemaskine (an airplane).",
+  "explanation": "\"Et fly\" means \"a plane\". En flyvemaskine (an airplane) also exists, but it is longer and et fly is the everyday word.",
   "forms": [
    {
     "da": "et fly",
@@ -1604,6 +1705,10 @@
    {
     "da": "en flyvemaskine",
     "en": "an airplane"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
    }
   ],
   "sentence": {
@@ -1713,6 +1818,10 @@
    {
     "da": "at få",
     "en": "to get"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
    }
   ],
   "sentence": {
@@ -1873,7 +1982,7 @@
   }
  },
  "farvel": {
-  "explanation": "\"Farvel\" means \"goodbye\". It sounds more final than hej hej (bye bye) or vi ses (see you), which Danes use for everyday goodbyes.",
+  "explanation": "\"Farvel\" means \"goodbye\". Danes often use hej hej (bye bye) or vi ses (see you) for everyday goodbyes, while farvel sounds more final.",
   "forms": [
    {
     "da": "Farvel!",
@@ -1947,7 +2056,7 @@
   }
  },
  "februar": {
-  "explanation": "\"Februar\" means \"February\". Month names start with a small letter in Danish: i februar means \"in February\".",
+  "explanation": "\"Februar\" means \"February\". Month names are written with a small letter: i februar (in February).",
   "forms": [
    {
     "da": "februar",
@@ -1970,6 +2079,10 @@
    {
     "da": "marts",
     "en": "March"
+   },
+   {
+    "da": "april",
+    "en": "April"
    }
   ],
   "sentence": {
@@ -1978,7 +2091,7 @@
   }
  },
  "fem": {
-  "explanation": "\"Fem\" means \"five\": Jeg har fem børn means \"I have five children\".",
+  "explanation": "\"Fem\" means \"five\": fem fingre (five fingers). Fifty is not \"femti\" but halvtreds (fifty).",
   "forms": [
    {
     "da": "fem kroner",
@@ -2017,7 +2130,7 @@
   }
  },
  "femogtredive": {
-  "explanation": "\"Femogtredive\" means \"thirty-five\". It is literally five-and-thirty: fem (five), og (and), tredive (thirty).",
+  "explanation": "\"Femogtredive\" means \"thirty-five\". Danish says the five first: fem-og-tredive is literally five-and-thirty. The same goes for 25, femogtyve (five-and-twenty), and 45, femogfyrre (five-and-forty).",
   "forms": [
    {
     "da": "femogtredive år",
@@ -2095,7 +2208,7 @@
   }
  },
  "femten": {
-  "explanation": "\"Femten\" means \"fifteen\": Jeg kommer om femten minutter (I am coming in fifteen minutes).",
+  "explanation": "\"Femten\" means \"fifteen\": Jeg kommer om femten minutter (I am coming in fifteen minutes). Danes also say en kvart (a quarter of an hour) for fifteen minutes.",
   "forms": [
    {
     "da": "femten minutter",
@@ -2196,6 +2309,14 @@
    {
     "da": "finsk",
     "en": "Finnish"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "Norge",
+    "en": "Norway"
    }
   ],
   "sentence": {
@@ -2321,7 +2442,7 @@
   }
  },
  "fireogtyve": {
-  "explanation": "\"Fireogtyve\" means \"twenty-four\". It is built the other way round from English: fire (four) + og (and) + tyve (twenty), literally four-and-twenty.",
+  "explanation": "\"Fireogtyve\" means \"twenty-four\". Danish says the four first: fire-og-tyve is literally four-and-twenty. The same goes for 25, femogtyve (five-and-twenty), and 26, seksogtyve (six-and-twenty).",
   "forms": [
    {
     "da": "fireogtyve",
@@ -2360,7 +2481,7 @@
   }
  },
  "firs": {
-  "explanation": "\"Firs\" means \"eighty\": firs kroner (eighty kroner). It is short for \"firsindstyve\", literally four times twenty.",
+  "explanation": "\"Firs\" means \"eighty\": firs kroner (eighty kroner). It is short for firsindstyve (four times twenty). Sixty works the same way: tres (sixty) is three twenties.",
   "forms": [
    {
     "da": "firs kroner",
@@ -2574,6 +2695,10 @@
    {
     "da": "mælk",
     "en": "milk"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
    }
   ],
   "sentence": {
@@ -2660,7 +2785,7 @@
   }
  },
  "for eksempel": {
-  "explanation": "\"For eksempel\" means \"for example\": Jeg spiser meget frugt, for eksempel bananer (I eat a lot of fruit, for example bananas).",
+  "explanation": "\"For eksempel\" means \"for example\". It goes right before the example: Jeg spiser meget frugt, for eksempel bananer (I eat a lot of fruit, for example bananas). In writing it is often shortened to fx (e.g.).",
   "forms": [
    {
     "da": "for eksempel",
@@ -2681,12 +2806,12 @@
     "en": "e.g. (short)"
    },
    {
-    "da": "et eksempel",
-    "en": "an example"
-   },
-   {
     "da": "eksempelvis",
     "en": "for instance"
+   },
+   {
+    "da": "som",
+    "en": "like / such as"
    }
   ],
   "sentence": {
@@ -2897,6 +3022,10 @@
    {
     "da": "syg",
     "en": "sick"
+   },
+   {
+    "da": "en hoste",
+    "en": "a cough"
    }
   ],
   "sentence": {
@@ -2940,7 +3069,7 @@
   }
  },
  "fortroligt": {
-  "explanation": "\"Fortroligt\" means \"confidential\" or \"in confidence\": Mødet er fortroligt (The meeting is confidential).",
+  "explanation": "\"Fortroligt\" means \"confidentially\" or \"in confidence\", for things you tell one person who must keep them to themselves: Jeg fortæller dig det fortroligt (I am telling you this in confidence). It also means \"confidential\": Dokumentet er fortroligt (The document is confidential).",
   "forms": [
    {
     "da": "Det er fortroligt",
@@ -3049,7 +3178,7 @@
   }
  },
  "frankrig": {
-  "explanation": "\"Frankrig\" means \"France\": Jeg bor i Frankrig means \"I live in France\".",
+  "explanation": "\"Frankrig\" means \"France\": Jeg bor i Frankrig (I live in France).",
   "forms": [
    {
     "da": "Frankrig",
@@ -3072,6 +3201,10 @@
    {
     "da": "fransk",
     "en": "French"
+   },
+   {
+    "da": "Spanien",
+    "en": "Spain"
    }
   ],
   "sentence": {
@@ -3080,7 +3213,7 @@
   }
  },
  "fransk": {
-  "explanation": "\"Fransk\" means \"French\", for things from France and for the language: Jeg taler fransk means \"I speak French\".",
+  "explanation": "\"Fransk\" means \"French\", for things from France and for the language. It is written with a small letter: Jeg taler fransk (I speak French).",
   "forms": [
    {
     "da": "en fransk ost",
@@ -3185,6 +3318,10 @@
    {
     "da": "en lørdag",
     "en": "a Saturday"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
    }
   ],
   "sentence": {
@@ -3321,6 +3458,10 @@
    {
     "da": "aftensmad",
     "en": "dinner"
+   },
+   {
+    "da": "en frokostpause",
+    "en": "a lunch break"
    }
   ],
   "sentence": {
@@ -3504,10 +3645,6 @@
    {
     "da": "klar",
     "en": "ready"
-   },
-   {
-    "da": "færdig",
-    "en": "finished"
    }
   ],
   "sentence": {

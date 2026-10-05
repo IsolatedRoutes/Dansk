@@ -58,6 +58,14 @@
    {
     "da": "en postkasse",
     "en": "a mailbox"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
+   },
+   {
+    "da": "en e-mail",
+    "en": "an email"
    }
   ],
   "sentence": {
@@ -140,7 +148,7 @@
   }
  },
  "ekstra": {
-  "explanation": "\"Ekstra\" means \"extra\", more than you already have. Before another word it makes that word stronger: ekstra god (extra good).",
+  "explanation": "\"Ekstra\" means \"extra\", more than you already have: en ekstra stol (an extra chair). Before another word it makes that word stronger: ekstra stor (extra large), ekstra god (extra good).",
   "forms": [
    {
     "da": "ekstra stor",
@@ -159,6 +167,14 @@
    {
     "da": "mere",
     "en": "more"
+   },
+   {
+    "da": "yderligere",
+    "en": "additional"
+   },
+   {
+    "da": "flere",
+    "en": "more, several"
    }
   ],
   "sentence": {
@@ -229,6 +245,14 @@
    {
     "da": "andet",
     "en": "other / else"
+   },
+   {
+    "da": "hvis",
+    "en": "if"
+   },
+   {
+    "da": "i øvrigt",
+    "en": "by the way"
    }
   ],
   "sentence": {
@@ -237,7 +261,7 @@
   }
  },
  "elleve": {
-  "explanation": "\"Elleve\" means \"eleven\": Jeg er elleve år gammel (I am eleven years old).",
+  "explanation": "\"Elleve\" means \"eleven\": Der er elleve spillere på et fodboldhold (There are eleven players on a football team).",
   "forms": [
    {
     "da": "elleve børn",
@@ -293,12 +317,16 @@
   ],
   "related": [
    {
-    "da": "en mail",
-    "en": "an email (short form)"
-   },
-   {
     "da": "en besked",
     "en": "a message"
+   },
+   {
+    "da": "en sms",
+    "en": "a text message"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
    }
   ],
   "sentence": {
@@ -350,7 +378,7 @@
   }
  },
  "en elefant": {
-  "explanation": "\"En elefant\" means \"an elephant\". Notice the spelling with f, not ph.",
+  "explanation": "\"En elefant\" means \"an elephant\". Elefanten spiser græs means \"The elephant eats grass\".",
   "forms": [
    {
     "da": "en elefant",
@@ -384,8 +412,8 @@
    }
   ],
   "sentence": {
-   "da": "En **elefant** er et stort dyr.",
-   "en": "An elephant is a big animal."
+   "da": "En **elefant** har en lang snabel.",
+   "en": "An elephant has a long trunk."
   }
  },
  "en elev": {
@@ -416,6 +444,10 @@
    {
     "da": "en studerende",
     "en": "a student"
+   },
+   {
+    "da": "en lærling",
+    "en": "an apprentice"
    }
   ],
   "sentence": {
@@ -447,6 +479,14 @@
    {
     "da": "en lift",
     "en": "a lift"
+   },
+   {
+    "da": "en rulletrappe",
+    "en": "an escalator"
+   },
+   {
+    "da": "en trappe",
+    "en": "stairs"
    }
   ],
   "sentence": {
@@ -482,6 +522,10 @@
    {
     "da": "en billet",
     "en": "a ticket"
+   },
+   {
+    "da": "en billetautomat",
+    "en": "a ticket machine"
    }
   ],
   "sentence": {
@@ -490,7 +534,7 @@
   }
  },
  "en euro": {
-  "explanation": "\"En euro\" means \"a euro\". Denmark uses kroner (crowns), not euros.",
+  "explanation": "\"En euro\" means \"a euro\". Hvad koster det i euro? means \"What does it cost in euros?\".",
   "forms": [
    {
     "da": "en euro",
@@ -583,6 +627,10 @@
    {
     "da": "stadig",
     "en": "still"
+   },
+   {
+    "da": "igen",
+    "en": "again"
    }
   ],
   "sentence": {
@@ -787,16 +835,16 @@
   ],
   "related": [
    {
-    "da": "eller",
-    "en": "or"
-   },
-   {
     "da": "både … og",
     "en": "both … and"
    },
    {
     "da": "hverken … eller",
     "en": "neither … nor"
+   },
+   {
+    "da": "og",
+    "en": "and"
    }
   ],
   "sentence": {
@@ -822,16 +870,16 @@
   ],
   "related": [
    {
-    "da": "det er",
-    "en": "it is"
-   },
-   {
     "da": "hvad er det?",
     "en": "what is it?"
    },
    {
     "da": "er der ...?",
     "en": "is there ...?"
+   },
+   {
+    "da": "hvem er det?",
+    "en": "who is it?"
    }
   ],
   "sentence": {
@@ -857,16 +905,16 @@
   ],
   "related": [
    {
-    "da": "sikker",
-    "en": "sure"
-   },
-   {
     "da": "usikker",
     "en": "unsure"
    },
    {
     "da": "sikkert",
     "en": "surely / probably"
+   },
+   {
+    "da": "en sikkerhed",
+    "en": "safety / security"
    }
   ],
   "sentence": {
@@ -988,7 +1036,7 @@
   }
  },
  "europa": {
-  "explanation": "\"Europa\" means \"Europe\". Jeg bor i Europa means \"I live in Europe\".",
+  "explanation": "\"Europa\" means \"Europe\": Jeg bor i Europa (I live in Europe).",
   "forms": [
    {
     "da": "Europa",

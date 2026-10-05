@@ -27,6 +27,10 @@
    {
     "da": "en nat",
     "en": "a night"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
    }
   ],
   "sentence": {
@@ -117,7 +121,7 @@
   }
  },
  "et offentligt toilet": {
-  "explanation": "\"Et offentligt toilet\" means \"a public restroom\", one that anyone can use, for example in a park or at a station.",
+  "explanation": "\"Et offentligt toilet\" means \"a public restroom\". On signs you may see et herretoilet (a men's toilet) or et dametoilet (a women's toilet).",
   "forms": [
    {
     "da": "et offentligt toilet",
@@ -134,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "et toilet",
-    "en": "a toilet"
-   },
-   {
     "da": "et herretoilet",
     "en": "a men's restroom"
    },
    {
     "da": "et dametoilet",
     "en": "a women's restroom"
+   },
+   {
+    "da": "et wc",
+    "en": "a WC, a toilet"
    }
   ],
   "sentence": {
@@ -179,6 +183,10 @@
    {
     "da": "et ordforråd",
     "en": "a vocabulary"
+   },
+   {
+    "da": "en sætning",
+    "en": "a sentence"
    }
   ],
   "sentence": {
@@ -187,7 +195,7 @@
   }
  },
  "ofte": {
-  "explanation": "\"Ofte\" means \"often\": Jeg går ofte i skoven (I often walk in the forest). To ask, say Hvor ofte træner du? (How often do you work out?).",
+  "explanation": "\"Ofte\" means \"often\". Compare Jeg går ofte i skoven (I often walk in the forest) with Jeg går aldrig i skoven (I never walk in the forest). To ask, say Hvor ofte træner du? (How often do you work out?).",
   "forms": [
    {
     "da": "ofte",
@@ -397,6 +405,10 @@
    {
     "da": "november",
     "en": "November"
+   },
+   {
+    "da": "december",
+    "en": "December"
    }
   ],
   "sentence": {
@@ -405,7 +417,7 @@
   }
  },
  "olie": {
-  "explanation": "\"Olie\" means \"oil\". Danish builds specific kinds by putting the kind in front: rapsolie (rapeseed oil).",
+  "explanation": "\"Olie\" means \"oil\". Put the kind in front to name it: rapsolie (rapeseed oil), olivenolie (olive oil).",
   "forms": [
    {
     "da": "en olie",
@@ -432,6 +444,10 @@
    {
     "da": "rapsolie",
     "en": "rapeseed oil"
+   },
+   {
+    "da": "eddike",
+    "en": "vinegar"
    }
   ],
   "sentence": {
@@ -631,7 +647,7 @@
   }
  },
  "om ugen": {
-  "explanation": "\"Om ugen\" means \"per week\" or \"a week\". The same pattern works for a day: to gange om dagen (twice a day).",
+  "explanation": "\"Om ugen\" means \"per week\" or \"a week\" in how-often answers. Compare tre gange om ugen (three times a week) with to gange om dagen (twice a day) and fem dage om ugen (five days a week).",
   "forms": [
    {
     "da": "om ugen",
@@ -767,6 +783,10 @@
    {
     "da": "en torsdag",
     "en": "a Thursday"
+   },
+   {
+    "da": "en mandag",
+    "en": "a Monday"
    }
   ],
   "sentence": {
@@ -880,7 +900,7 @@
   }
  },
  "orange": {
-  "explanation": "\"Orange\" means \"orange\", the colour. For the fruit, Danes say en appelsin (an orange), not orange.",
+  "explanation": "\"Orange\" means \"orange\", the colour. For the fruit, Danes say en appelsin (an orange), not orange. The colour word never changes, whatever it describes: en orange bil (an orange car), orange biler (orange cars).",
   "forms": [
    {
     "da": "en orange bil",
@@ -973,7 +993,20 @@
     "en": "a slice of cheese"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en ostemad",
+    "en": "a cheese sandwich"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "mælk",
+    "en": "milk"
+   }
+  ],
   "sentence": {
    "da": "Jeg kan godt lide **ost** på brød.",
    "en": "I like cheese on bread."
@@ -1058,7 +1091,7 @@
   }
  },
  "ovenpå": {
-  "explanation": "\"Ovenpå\" means \"upstairs\". It works for where something is and for going there: Jeg bor ovenpå (I live upstairs), Jeg går ovenpå (I go upstairs).",
+  "explanation": "\"Ovenpå\" means \"upstairs\". It works for where something is and for going there: Jeg bor ovenpå (I live upstairs), Jeg går ovenpå (I go upstairs). Compare Soveværelset er ovenpå (The bedroom is upstairs) with Køkkenet er nedenunder (The kitchen is downstairs).",
   "forms": [
    {
     "da": "ovenpå",
@@ -1081,6 +1114,10 @@
    {
     "da": "oppe",
     "en": "up (there)"
+   },
+   {
+    "da": "ovenover",
+    "en": "above"
    }
   ],
   "sentence": {
@@ -1124,7 +1161,7 @@
   }
  },
  "overalt": {
-  "explanation": "\"Overalt\" means \"everywhere\".",
+  "explanation": "\"Overalt\" means \"everywhere\". Compare Jeg leder overalt (I look everywhere) with Den er ingen steder (It is nowhere). It can also start a sentence: Overalt er der blomster (Everywhere there are flowers).",
   "forms": [
    {
     "da": "overalt i byen",

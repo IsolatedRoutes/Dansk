@@ -99,16 +99,16 @@
   ],
   "related": [
    {
-    "da": "at prøve",
-    "en": "to try"
-   },
-   {
     "da": "et prøverum",
     "en": "a fitting room"
    },
    {
-    "da": "tøj",
-    "en": "clothes"
+    "da": "at skifte tøj",
+    "en": "to change clothes"
+   },
+   {
+    "da": "at passe",
+    "en": "to fit"
    }
   ],
   "sentence": {
@@ -144,6 +144,10 @@
    {
     "da": "at pakke ud",
     "en": "to unpack"
+   },
+   {
+    "da": "at pakke ind",
+    "en": "to wrap"
    }
   ],
   "sentence": {
@@ -179,6 +183,10 @@
    {
     "da": "en pande",
     "en": "a frying pan"
+   },
+   {
+    "da": "en vaffel",
+    "en": "a waffle"
    }
   ],
   "sentence": {
@@ -187,7 +195,7 @@
   }
  },
  "en paraply": {
-  "explanation": "\"En paraply\" means \"an umbrella\". You can say Jeg har glemt min paraply (I have forgotten my umbrella).",
+  "explanation": "\"En paraply\" means \"an umbrella\", said pa-ra-PLY, with the stress on the last part. You can say Jeg har glemt min paraply (I have forgotten my umbrella).",
   "forms": [
    {
     "da": "en paraply",
@@ -210,6 +218,14 @@
    {
     "da": "en parasol",
     "en": "a parasol, sunshade"
+   },
+   {
+    "da": "en regnjakke",
+    "en": "a rain jacket"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
    }
   ],
   "sentence": {
@@ -245,6 +261,10 @@
    {
     "da": "at parkere",
     "en": "to park (a car)"
+   },
+   {
+    "da": "en parkering",
+    "en": "a parking lot"
    }
   ],
   "sentence": {
@@ -279,6 +299,10 @@
    },
    {
     "da": "en doktor",
+    "en": "a doctor"
+   },
+   {
+    "da": "en læge",
     "en": "a doctor"
    }
   ],
@@ -393,6 +417,10 @@
    {
     "da": "et spor",
     "en": "a track"
+   },
+   {
+    "da": "en banegård",
+    "en": "a train station"
    }
   ],
   "sentence": {
@@ -401,7 +429,7 @@
   }
  },
  "en person": {
-  "explanation": "\"En person\" means \"a person\". When booking you say et bord til to personer (a table for two people).",
+  "explanation": "\"En person\" means \"a person\". When booking you say et bord til to personer (a table for two people). For people in general, Danes often say mennesker (human beings).",
   "forms": [
    {
     "da": "en person",
@@ -506,6 +534,14 @@
    {
     "da": "en tablet",
     "en": "a tablet"
+   },
+   {
+    "da": "en kapsel",
+    "en": "a capsule"
+   },
+   {
+    "da": "medicin",
+    "en": "medicine"
    }
   ],
   "sentence": {
@@ -514,7 +550,7 @@
   }
  },
  "en pingvin": {
-  "explanation": "\"En pingvin\" means \"a penguin\".",
+  "explanation": "\"En pingvin\" means \"a penguin\". Pingviner lever i kulden means \"Penguins live in the cold\".",
   "forms": [
    {
     "da": "en pingvin",
@@ -533,7 +569,20 @@
     "en": "the penguins"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en isbjørn",
+    "en": "a polar bear"
+   },
+   {
+    "da": "en sæl",
+    "en": "a seal"
+   },
+   {
+    "da": "en hval",
+    "en": "a whale"
+   }
+  ],
   "sentence": {
    "da": "En **pingvin** er en fugl, der svømmer.",
    "en": "A penguin is a bird that swims."
@@ -563,6 +612,14 @@
    {
     "da": "en pizzeria",
     "en": "a pizza restaurant"
+   },
+   {
+    "da": "en burger",
+    "en": "a burger"
+   },
+   {
+    "da": "en pasta",
+    "en": "a pasta dish"
    }
   ],
   "sentence": {
@@ -610,7 +667,7 @@
   }
  },
  "en plan": {
-  "explanation": "\"En plan\" means \"a plan\". You can ask Har du planer i weekenden? (Do you have plans this weekend?). En køreplan means \"a timetable\".",
+  "explanation": "\"En plan\" means \"a plan\". You can ask Har du planer i weekenden? (Do you have plans this weekend?). En køreplan (a timetable) is a plan for trains and buses.",
   "forms": [
    {
     "da": "en plan",
@@ -637,6 +694,10 @@
    {
     "da": "en køreplan",
     "en": "a timetable"
+   },
+   {
+    "da": "en tidsplan",
+    "en": "a schedule"
    }
   ],
   "sentence": {
@@ -688,7 +749,7 @@
   }
  },
  "en politistation": {
-  "explanation": "\"En politistation\" means \"a police station\", built from politi (police) and station (station).",
+  "explanation": "\"En politistation\" means \"a police station\", built from politi (police) and station (station). You say på politistationen (at the police station).",
   "forms": [
    {
     "da": "en politistation",
@@ -746,7 +807,20 @@
     "en": "the portions"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   }
+  ],
   "sentence": {
    "da": "Jeg vil gerne have en stor **portion**.",
    "en": "I would like a big portion."
@@ -823,6 +897,10 @@
    {
     "da": "billig",
     "en": "cheap"
+   },
+   {
+    "da": "en præmie",
+    "en": "a prize"
    }
   ],
   "sentence": {
@@ -854,6 +932,14 @@
    {
     "da": "en hovedpude",
     "en": "a head pillow"
+   },
+   {
+    "da": "en dyne",
+    "en": "a duvet"
+   },
+   {
+    "da": "en madras",
+    "en": "a mattress"
    }
   ],
   "sentence": {
@@ -862,7 +948,7 @@
   }
  },
  "en pung": {
-  "explanation": "\"En pung\" means \"a wallet\", for money and cards. Jeg har glemt min pung means \"I have forgotten my wallet\".",
+  "explanation": "\"En pung\" means \"a wallet\". En tegnebog (a wallet) means the same, but pung is the everyday word: Jeg har glemt min pung (I have forgotten my wallet).",
   "forms": [
    {
     "da": "en pung",
@@ -885,6 +971,14 @@
    {
     "da": "en tegnebog",
     "en": "a wallet"
+   },
+   {
+    "da": "en taske",
+    "en": "a bag"
+   },
+   {
+    "da": "en lomme",
+    "en": "a pocket"
    }
   ],
   "sentence": {
@@ -916,6 +1010,14 @@
    {
     "da": "et nattøj",
     "en": "nightwear"
+   },
+   {
+    "da": "en natkjole",
+    "en": "a nightgown"
+   },
+   {
+    "da": "en morgenkåbe",
+    "en": "a bathrobe"
    }
   ],
   "sentence": {
@@ -951,6 +1053,10 @@
    {
     "da": "en elpære",
     "en": "a light bulb"
+   },
+   {
+    "da": "en fersken",
+    "en": "a peach"
    }
   ],
   "sentence": {
@@ -959,7 +1065,7 @@
   }
  },
  "en pølse": {
-  "explanation": "\"En pølse\" means \"a sausage\".",
+  "explanation": "\"En pølse\" means \"a sausage\". A hot dog is en hotdog (a hot dog) or en pølse i brød (a sausage in bread), and a street stand that sells them is en pølsevogn (a sausage wagon).",
   "forms": [
    {
     "da": "en pølse",
@@ -982,6 +1088,14 @@
    {
     "da": "en pølsevogn",
     "en": "a hot-dog stand"
+   },
+   {
+    "da": "en hotdog",
+    "en": "a hot dog"
+   },
+   {
+    "da": "en frikadelle",
+    "en": "a meatball"
    }
   ],
   "sentence": {
@@ -1052,6 +1166,10 @@
    {
     "da": "et par sko",
     "en": "a pair of shoes"
+   },
+   {
+    "da": "shorts",
+    "en": "shorts"
    }
   ],
   "sentence": {
@@ -1083,6 +1201,10 @@
    {
     "da": "at passe",
     "en": "to fit, to look after"
+   },
+   {
+    "da": "et visum",
+    "en": "a visa"
    }
   ],
   "sentence": {
@@ -1114,6 +1236,14 @@
    {
     "da": "en forbinding",
     "en": "a bandage"
+   },
+   {
+    "da": "et sår",
+    "en": "a wound"
+   },
+   {
+    "da": "en salve",
+    "en": "an ointment"
    }
   ],
   "sentence": {
@@ -1227,6 +1357,10 @@
    {
     "da": "at løse",
     "en": "to solve"
+   },
+   {
+    "da": "en udfordring",
+    "en": "a challenge"
    }
   ],
   "sentence": {
@@ -1235,7 +1369,7 @@
   }
  },
  "et prøverum": {
-  "explanation": "\"Et prøverum\" means \"a fitting room\". It is built from at prøve (to try) and et rum (a room).",
+  "explanation": "\"Et prøverum\" means \"a fitting room\". It is built from at prøve (to try) and et rum (a room). You can ask Hvor er prøverummet? (Where is the fitting room?).",
   "forms": [
    {
     "da": "et prøverum",
@@ -1297,6 +1431,10 @@
    {
     "da": "en pantautomat",
     "en": "a bottle-return machine"
+   },
+   {
+    "da": "en pantbon",
+    "en": "a deposit voucher"
    }
   ],
   "sentence": {
@@ -1332,6 +1470,10 @@
    {
     "da": "et dokument",
     "en": "a document"
+   },
+   {
+    "da": "en papirpose",
+    "en": "a paper bag"
    }
   ],
   "sentence": {
@@ -1392,12 +1534,16 @@
   ],
   "related": [
    {
-    "da": "pas på",
-    "en": "be careful"
-   },
-   {
     "da": "hav det godt",
     "en": "take care / be well"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "vi ses",
+    "en": "see you"
    }
   ],
   "sentence": {
@@ -1429,6 +1575,10 @@
    {
     "da": "nudler",
     "en": "noodles"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
    }
   ],
   "sentence": {
@@ -1464,6 +1614,10 @@
    {
     "da": "en peberfrugt",
     "en": "a bell pepper"
+   },
+   {
+    "da": "et krydderi",
+    "en": "a spice"
    }
   ],
   "sentence": {
@@ -1546,7 +1700,7 @@
   }
  },
  "pludselig": {
-  "explanation": "\"Pludselig\" means \"suddenly\" and also \"sudden\". Pludselig kom han ind means \"Suddenly he came in\".",
+  "explanation": "\"Pludselig\" means \"suddenly\" and also \"sudden\". Pludselig kom han ind means \"Suddenly he came in\". Lige pludselig is a bit stronger, like \"all of a sudden\".",
   "forms": [
    {
     "da": "pludselig",
@@ -1569,6 +1723,10 @@
    {
     "da": "gradvis",
     "en": "gradual"
+   },
+   {
+    "da": "overraskende",
+    "en": "surprising"
    }
   ],
   "sentence": {
@@ -1600,6 +1758,10 @@
    {
     "da": "polsk",
     "en": "Polish"
+   },
+   {
+    "da": "Tyskland",
+    "en": "Germany"
    }
   ],
   "sentence": {
@@ -1608,7 +1770,7 @@
   }
  },
  "politi": {
-  "explanation": "\"Politi\" means \"police\" and is used without a. One officer is en politibetjent (a police officer).",
+  "explanation": "\"Politi\" means \"police\" and is used without en (a). Danish treats it as one thing, so you say politiet er her (the police are here). One officer is en politibetjent (a police officer).",
   "forms": [
    {
     "da": "politi",
@@ -1666,6 +1828,10 @@
    {
     "da": "en polak",
     "en": "a Pole"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
    }
   ],
   "sentence": {
@@ -1691,12 +1857,16 @@
   ],
   "related": [
    {
-    "da": "pommes",
-    "en": "fries"
-   },
-   {
     "da": "kartofler",
     "en": "potatoes"
+   },
+   {
+    "da": "ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "en burger",
+    "en": "a burger"
    }
   ],
   "sentence": {
@@ -1732,6 +1902,10 @@
    {
     "da": "et posthus",
     "en": "a post office"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
    }
   ],
   "sentence": {
@@ -1849,7 +2023,7 @@
   }
  },
  "på tilbud": {
-  "explanation": "\"På tilbud\" means \"on sale\", cheaper than usual: Jeg køber kaffe, når den er på tilbud (I buy coffee when it is on sale).",
+  "explanation": "\"På tilbud\" means \"on sale\". Compare Kaffen er på tilbud (The coffee is on sale, cheaper than usual) with Kaffen er dyr (The coffee is expensive). Jeg køber kaffe, når den er på tilbud means \"I buy coffee when it is on sale\".",
   "forms": [
    {
     "da": "Den er på tilbud",
@@ -1866,16 +2040,16 @@
   ],
   "related": [
    {
-    "da": "et tilbud",
-    "en": "an offer / deal"
-   },
-   {
     "da": "et udsalg",
     "en": "a sale"
    },
    {
     "da": "en rabat",
     "en": "a discount"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
    }
   ],
   "sentence": {
@@ -1884,7 +2058,7 @@
   }
  },
  "på vej": {
-  "explanation": "\"På vej\" means \"on the way\". Say where you are going after it: på vej til arbejde (on the way to work).",
+  "explanation": "\"På vej\" means \"on the way\". Compare Jeg er på vej (I'm on my way) with Jeg er her (I'm here). Add where you are going: på vej hjem (on the way home), på vej til arbejde (on the way to work). It also works for things: Bussen er på vej (The bus is coming).",
   "forms": [
    {
     "da": "Jeg er på vej.",
@@ -1901,12 +2075,16 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road / way"
-   },
-   {
     "da": "undervejs",
     "en": "en route"
+   },
+   {
+    "da": "fremme",
+    "en": "arrived, there"
+   },
+   {
+    "da": "på farten",
+    "en": "on the move"
    }
   ],
   "sentence": {
@@ -1915,7 +2093,7 @@
   }
  },
  "påske": {
-  "explanation": "\"Påske\" means \"Easter\", as in Vi ses til påske (See you at Easter).",
+  "explanation": "\"Påske\" means \"Easter\". You use it without a or the in til påske (at Easter), but i påsken is how you say \"during Easter\". The greeting is Glædelig påske! (Happy Easter!).",
   "forms": [
    {
     "da": "påske",
@@ -1942,6 +2120,10 @@
    {
     "da": "et påskeæg",
     "en": "an Easter egg"
+   },
+   {
+    "da": "pinse",
+    "en": "Whitsun"
    }
   ],
   "sentence": {
@@ -1950,7 +2132,7 @@
   }
  },
  "pæn": {
-  "explanation": "\"Pæn\" means \"nice-looking\", neat or \"tidy\". It also means \"well-behaved\": Vær pæn (Be good).",
+  "explanation": "\"Pæn\" means \"nice-looking\", \"neat\" or \"tidy\": en pæn kjole (a nice dress), Værelset er pænt (The room is tidy). It also means \"well-behaved\": Vær pæn (Be good).",
   "forms": [
    {
     "da": "en pæn kjole",

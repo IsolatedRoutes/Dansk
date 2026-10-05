@@ -109,6 +109,10 @@
    {
     "da": "at få",
     "en": "to get"
+   },
+   {
+    "da": "at have brug for",
+    "en": "to need"
    }
   ],
   "sentence": {
@@ -181,12 +185,16 @@
   ],
   "related": [
    {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
     "da": "at fylde år",
     "en": "to turn (a new age)"
+   },
+   {
+    "da": "en fødselsdagsgave",
+    "en": "a birthday present"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
    }
   ],
   "sentence": {
@@ -220,12 +228,12 @@
     "en": "to hurt"
    },
    {
-    "da": "ondt",
-    "en": "pain, hurting"
-   },
-   {
     "da": "en smerte",
     "en": "a pain"
+   },
+   {
+    "da": "hovedpine",
+    "en": "headache"
    }
   ],
   "sentence": {
@@ -339,6 +347,14 @@
    {
     "da": "at skynde sig",
     "en": "to hurry"
+   },
+   {
+    "da": "at have tid",
+    "en": "to have time"
+   },
+   {
+    "da": "stresset",
+    "en": "stressed"
    }
   ],
   "sentence": {
@@ -374,6 +390,14 @@
    {
     "da": "at kalde",
     "en": "to call (name)"
+   },
+   {
+    "da": "et fornavn",
+    "en": "a first name"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a surname"
    }
   ],
   "sentence": {
@@ -409,6 +433,10 @@
    {
     "da": "at samle op",
     "en": "to pick up"
+   },
+   {
+    "da": "at bringe",
+    "en": "to bring"
    }
   ],
   "sentence": {
@@ -417,7 +445,7 @@
   }
  },
  "at hjælpe": {
-  "explanation": "\"At hjælpe\" means \"to help\". You help someone directly, with no extra word: Kan jeg hjælpe dig? (Can I help you?).",
+  "explanation": "\"At hjælpe\" means \"to help\": Kan jeg hjælpe dig? (Can I help you?). Hjælp! (Help!) is what you call out in an emergency.",
   "forms": [
    {
     "da": "at hjælpe",
@@ -476,10 +504,6 @@
    }
   ],
   "related": [
-   {
-    "da": "at hjælpe",
-    "en": "to help"
-   },
    {
     "da": "hjælp",
     "en": "help"
@@ -565,6 +589,10 @@
    {
     "da": "et hop",
     "en": "a jump"
+   },
+   {
+    "da": "at løbe",
+    "en": "to run"
    }
   ],
   "sentence": {
@@ -596,6 +624,14 @@
    {
     "da": "en hoste",
     "en": "a cough"
+   },
+   {
+    "da": "at nyse",
+    "en": "to sneeze"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold"
    }
   ],
   "sentence": {
@@ -647,7 +683,7 @@
   }
  },
  "at håbe": {
-  "explanation": "\"At håbe\" means \"to hope\": Jeg håber, det går godt (I hope it goes well).",
+  "explanation": "\"At håbe\" means \"to hope\": Jeg håber, det går godt (I hope it goes well) and Jeg håber, du har det godt (I hope you are well).",
   "forms": [
    {
     "da": "at håbe",
@@ -713,6 +749,10 @@
    {
     "da": "at høre efter",
     "en": "to listen / pay attention"
+   },
+   {
+    "da": "et øre",
+    "en": "an ear"
    }
   ],
   "sentence": {
@@ -721,7 +761,7 @@
   }
  },
  "en hals": {
-  "explanation": "\"En hals\" means \"a neck\" and also \"a throat\". Jeg har ondt i halsen means \"I have a sore throat\". A necklace is en halskæde (a neck chain).",
+  "explanation": "\"En hals\" means both \"a neck\" and \"a throat\", because Danish has one word for both. Jeg har ondt i halsen means \"I have a sore throat\". A necklace is en halskæde (a neck chain).",
   "forms": [
    {
     "da": "en hals",
@@ -747,7 +787,11 @@
    },
    {
     "da": "en nakke",
-    "en": "the back of the neck"
+    "en": "a neck (back)"
+   },
+   {
+    "da": "en halspastil",
+    "en": "a throat lozenge"
    }
   ],
   "sentence": {
@@ -773,10 +817,6 @@
   ],
   "related": [
    {
-    "da": "en time",
-    "en": "an hour"
-   },
-   {
     "da": "et minut",
     "en": "a minute"
    },
@@ -785,8 +825,8 @@
     "en": "a quarter of an hour"
    },
    {
-    "da": "halv",
-    "en": "half"
+    "da": "et sekund",
+    "en": "a second"
    }
   ],
   "sentence": {
@@ -795,7 +835,7 @@
   }
  },
  "en handske": {
-  "explanation": "\"En handske\" means \"a glove\". It comes from hånd (hand), the part of the body it covers.",
+  "explanation": "\"En handske\" means \"a glove\". Do not mix it up with en vante (a mitten). Jeg har mistet min handske means \"I have lost my glove\".",
   "forms": [
    {
     "da": "en handske",
@@ -822,6 +862,10 @@
    {
     "da": "en vante",
     "en": "a mitten"
+   },
+   {
+    "da": "en strømpe",
+    "en": "a sock"
    }
   ],
   "sentence": {
@@ -896,6 +940,10 @@
    {
     "da": "en køkkenhave",
     "en": "a vegetable garden"
+   },
+   {
+    "da": "en baghave",
+    "en": "a back garden"
    }
   ],
   "sentence": {
@@ -904,7 +952,7 @@
   }
  },
  "en hest": {
-  "explanation": "\"En hest\" means \"a horse\". At ride på hest means \"to go horse riding\".",
+  "explanation": "\"En hest\" means \"a horse\". At ride på hest means \"to go horse riding\", using at ride (to ride).",
   "forms": [
    {
     "da": "en hest",
@@ -931,6 +979,10 @@
    {
     "da": "at ride",
     "en": "to ride"
+   },
+   {
+    "da": "et føl",
+    "en": "a foal"
    }
   ],
   "sentence": {
@@ -939,7 +991,7 @@
   }
  },
  "en himmel": {
-  "explanation": "\"En himmel\" means \"a sky\" and also \"heaven\". Himlen er grå means \"The sky is grey\".",
+  "explanation": "\"En himmel\" means \"a sky\", and it can also mean \"heaven\". Danes mostly say himlen (the sky) for the sky. Himlen er grå means \"The sky is gray\".",
   "forms": [
    {
     "da": "en himmel",
@@ -954,6 +1006,14 @@
    {
     "da": "himmelblå",
     "en": "sky blue"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en sky",
+    "en": "a cloud"
    }
   ],
   "sentence": {
@@ -1030,8 +1090,12 @@
     "en": "a shoe"
    },
    {
-    "da": "hjemme",
-    "en": "at home"
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en støvle",
+    "en": "a boot"
    }
   ],
   "sentence": {
@@ -1067,6 +1131,10 @@
    {
     "da": "en fritidsinteresse",
     "en": "a leisure interest"
+   },
+   {
+    "da": "en fritid",
+    "en": "free time"
    }
   ],
   "sentence": {
@@ -1075,7 +1143,7 @@
   }
  },
  "en hoste": {
-  "explanation": "\"En hoste\" means \"a cough\". You can say Jeg har en hoste or \"Jeg har hoste\", both meaning \"I have a cough\".",
+  "explanation": "\"En hoste\" means \"a cough\". You can say Jeg har en hoste or Jeg har hoste, both meaning \"I have a cough\".",
   "forms": [
    {
     "da": "en hoste",
@@ -1097,11 +1165,15 @@
   "related": [
    {
     "da": "en forkølelse",
-    "en": "a cold (illness)"
+    "en": "a cold"
    },
    {
     "da": "hostesaft",
     "en": "cough syrup"
+   },
+   {
+    "da": "at hoste",
+    "en": "to cough"
    }
   ],
   "sentence": {
@@ -1258,6 +1330,10 @@
    {
     "da": "en kasket",
     "en": "a cap"
+   },
+   {
+    "da": "en vinterhue",
+    "en": "a winter hat"
    }
   ],
   "sentence": {
@@ -1456,7 +1532,11 @@
    },
    {
     "da": "en automat",
-    "en": "a machine"
+    "en": "a vending machine"
+   },
+   {
+    "da": "et hævekort",
+    "en": "a debit card"
    }
   ],
   "sentence": {
@@ -1492,6 +1572,10 @@
    {
     "da": "en have",
     "en": "a garden"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
    }
   ],
   "sentence": {
@@ -1527,6 +1611,10 @@
    {
     "da": "hjemme",
     "en": "at home"
+   },
+   {
+    "da": "et hjemland",
+    "en": "a home country"
    }
   ],
   "sentence": {
@@ -1558,6 +1646,18 @@
    {
     "da": "et hjerteanfald",
     "en": "a heart attack"
+   },
+   {
+    "da": "et hjerteslag",
+    "en": "a heartbeat"
+   },
+   {
+    "da": "en hjertesygdom",
+    "en": "a heart disease"
+   },
+   {
+    "da": "hjertelig",
+    "en": "warm, heartfelt"
    }
   ],
   "sentence": {
@@ -1589,6 +1689,14 @@
    {
     "da": "et sygehus",
     "en": "a hospital (lit. sick house)"
+   },
+   {
+    "da": "en skadestue",
+    "en": "an emergency room"
+   },
+   {
+    "da": "en klinik",
+    "en": "a clinic"
    }
   ],
   "sentence": {
@@ -1624,6 +1732,10 @@
    {
     "da": "et vandrerhjem",
     "en": "a hostel"
+   },
+   {
+    "da": "en campingplads",
+    "en": "a campsite"
    }
   ],
   "sentence": {
@@ -1702,6 +1814,14 @@
    {
     "da": "en hovedstad",
     "en": "a capital city"
+   },
+   {
+    "da": "en hovedgade",
+    "en": "a main street"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
    }
   ],
   "sentence": {
@@ -1737,6 +1857,10 @@
    {
     "da": "et sommerhus",
     "en": "a summer house"
+   },
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
    }
   ],
   "sentence": {
@@ -1768,6 +1892,10 @@
    {
     "da": "goddag",
     "en": "good day"
+   },
+   {
+    "da": "godmorgen",
+    "en": "good morning"
    }
   ],
   "sentence": {
@@ -1836,10 +1964,6 @@
     "en": "quarter to"
    },
    {
-    "da": "halv",
-    "en": "half"
-   },
-   {
     "da": "en halv time",
     "en": "half an hour"
    }
@@ -1893,7 +2017,7 @@
   }
  },
  "halvfems": {
-  "explanation": "\"Halvfems\" means \"ninety\". For 91 you say enoghalvfems (literally one-and-ninety).",
+  "explanation": "\"Halvfems\" means \"ninety\". It is short for halvfemsindstyve: half way to five twenties (4½ x 20 = 90). For 91 you say enoghalvfems (literally one-and-ninety).",
   "forms": [
    {
     "da": "halvfems",
@@ -1932,7 +2056,7 @@
   }
  },
  "halvfjerds": {
-  "explanation": "\"Halvfjerds\" means \"seventy\". For 71 you say enoghalvfjerds (literally one-and-seventy). Do not mix it up with halvfems (ninety).",
+  "explanation": "\"Halvfjerds\" means \"seventy\". Danes count it as half way to four twenties (3½ x 20 = 70). For 71 you say enoghalvfjerds (literally one-and-seventy). Do not mix it up with halvfems (ninety).",
   "forms": [
    {
     "da": "halvfjerds kroner",
@@ -1971,7 +2095,7 @@
   }
  },
  "halvtreds": {
-  "explanation": "\"Halvtreds\" means \"fifty\". For 51 you say enoghalvtreds (literally one-and-fifty).",
+  "explanation": "\"Halvtreds\" means \"fifty\". Danes count it as half way to three twenties (2½ x 20 = 50). En kaffe koster halvtreds kroner (A coffee costs fifty kroner). For 51 you say enoghalvtreds (literally one-and-fifty).",
   "forms": [
    {
     "da": "halvtreds kroner",
@@ -2088,7 +2212,7 @@
   }
  },
  "handsker": {
-  "explanation": "\"Handsker\" means \"gloves\". It is built from hånd (hand). Mittens, with no separate fingers, are vanter.",
+  "explanation": "\"Handsker\" means \"gloves\", built from hånd (hand). Gloves have separate fingers; mittens do not, and they are called vanter.",
   "forms": [
    {
     "da": "handskerne",
@@ -2179,16 +2303,16 @@
   ],
   "related": [
    {
-    "da": "en dag",
-    "en": "a day"
-   },
-   {
     "da": "god weekend",
     "en": "have a good weekend"
    },
    {
     "da": "i lige måde",
     "en": "same to you"
+   },
+   {
+    "da": "på gensyn",
+    "en": "see you again"
    }
   ],
   "sentence": {
@@ -2252,10 +2376,6 @@
    }
   ],
   "related": [
-   {
-    "da": "hej",
-    "en": "hello / hi"
-   },
    {
     "da": "farvel",
     "en": "goodbye"
@@ -2362,16 +2482,16 @@
   ],
   "related": [
    {
-    "da": "held",
-    "en": "luck"
-   },
-   {
     "da": "lykkelig",
     "en": "happy"
    },
    {
     "da": "tillykke",
     "en": "congratulations"
+   },
+   {
+    "da": "heldig",
+    "en": "lucky"
    }
   ],
   "sentence": {
@@ -2419,7 +2539,7 @@
   }
  },
  "hele tiden": {
-  "explanation": "\"Hele tiden\" means \"all the time\". It is literally the whole time, with no break: Hun ringer hele tiden (She calls all the time).",
+  "explanation": "\"Hele tiden\" means \"all the time\". It often sounds like a complaint: Telefonen ringer hele tiden (The phone rings all the time). For a neutral \"always\", say altid (always).",
   "forms": [
    {
     "da": "hele tiden",
@@ -2773,6 +2893,10 @@
    {
     "da": "selv",
     "en": "oneself / myself"
+   },
+   {
+    "da": "hinandens",
+    "en": "each other's"
    }
   ],
   "sentence": {
@@ -2855,7 +2979,7 @@
   }
  },
  "hjælp": {
-  "explanation": "\"Hjælp\" means \"help\": Jeg har brug for hjælp (I need help). It is also what you shout in an emergency: Hjælp! (Help!).",
+  "explanation": "\"Hjælp\" means \"help\", used without en (a) in front: Kan jeg få hjælp? (Can I get help?)",
   "forms": [
    {
     "da": "hjælpen",
@@ -2886,7 +3010,7 @@
   }
  },
  "holland": {
-  "explanation": "\"Holland\" means \"the Netherlands\". Danish uses no the with it: i Holland is in the Netherlands.",
+  "explanation": "\"Holland\" means \"the Netherlands\", with no word for the in front: Jeg bor i Holland (I live in the Netherlands). Danes use it for the whole country; the formal name Nederlandene (the Netherlands) is rarely heard.",
   "forms": [
    {
     "da": "Holland",
@@ -2909,6 +3033,10 @@
    {
     "da": "hollandsk",
     "en": "Dutch"
+   },
+   {
+    "da": "Tyskland",
+    "en": "Germany"
    }
   ],
   "sentence": {
@@ -2940,6 +3068,10 @@
    {
     "da": "en hollænder",
     "en": "a Dutchman"
+   },
+   {
+    "da": "tysk",
+    "en": "German"
    }
   ],
   "sentence": {
@@ -2967,6 +3099,14 @@
    {
     "da": "honningkage",
     "en": "honey cake"
+   },
+   {
+    "da": "en bi",
+    "en": "a bee"
+   },
+   {
+    "da": "marmelade",
+    "en": "jam"
    }
   ],
   "sentence": {
@@ -3033,6 +3173,10 @@
    {
     "da": "en hudlæge",
     "en": "a skin doctor"
+   },
+   {
+    "da": "et hår",
+    "en": "a hair"
    }
   ],
   "sentence": {
@@ -3208,6 +3352,10 @@
    {
     "da": "en betydning",
     "en": "a meaning"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
    }
   ],
   "sentence": {
@@ -3239,6 +3387,10 @@
    {
     "da": "et ur",
     "en": "a watch / clock"
+   },
+   {
+    "da": "et klokkeslæt",
+    "en": "a time of day"
    }
   ],
   "sentence": {
@@ -3270,6 +3422,10 @@
    {
     "da": "hvad hedder du?",
     "en": "what is your name?"
+   },
+   {
+    "da": "hvad betyder det?",
+    "en": "what does that mean?"
    }
   ],
   "sentence": {
@@ -3336,6 +3492,14 @@
    {
     "da": "en pris",
     "en": "a price"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   },
+   {
+    "da": "dyr",
+    "en": "expensive"
    }
   ],
   "sentence": {
@@ -3367,6 +3531,10 @@
    {
     "da": "hvad arbejder du med?",
     "en": "what do you work with?"
+   },
+   {
+    "da": "hvad skal du lave?",
+    "en": "what are you going to do?"
    }
   ],
   "sentence": {
@@ -3433,6 +3601,10 @@
    {
     "da": "hvordan har du det?",
     "en": "how are you?"
+   },
+   {
+    "da": "hvad nyt?",
+    "en": "what's new?"
    }
   ],
   "sentence": {
@@ -3464,6 +3636,10 @@
    {
     "da": "hvilken",
     "en": "which"
+   },
+   {
+    "da": "hvor",
+    "en": "where"
    }
   ],
   "sentence": {
@@ -3565,6 +3741,14 @@
    {
     "da": "hver",
     "en": "each / every (en-words)"
+   },
+   {
+    "da": "alle",
+    "en": "all"
+   },
+   {
+    "da": "hver anden",
+    "en": "every other"
    }
   ],
   "sentence": {
@@ -3608,7 +3792,7 @@
   }
  },
  "hvidløg": {
-  "explanation": "\"Hvidløg\" means \"garlic\". It is made of hvid (white) and løg (onion), so it is literally white onion.",
+  "explanation": "\"Hvidløg\" means \"garlic\". It is made of hvid (white) and løg (onion), so it is literally white onion. Garlic is counted in cloves: to fed hvidløg (two cloves of garlic).",
   "forms": [
    {
     "da": "hvidløg",
@@ -3631,6 +3815,10 @@
    {
     "da": "hvid",
     "en": "white"
+   },
+   {
+    "da": "peber",
+    "en": "pepper"
    }
   ],
   "sentence": {
@@ -3662,6 +3850,10 @@
    {
     "da": "hvem",
     "en": "who"
+   },
+   {
+    "da": "hvordan",
+    "en": "how"
    }
   ],
   "sentence": {
@@ -3693,6 +3885,14 @@
    {
     "da": "når",
     "en": "when"
+   },
+   {
+    "da": "medmindre",
+    "en": "unless"
+   },
+   {
+    "da": "selvom",
+    "en": "even if / although"
    }
   ],
   "sentence": {
@@ -3761,12 +3961,12 @@
     "en": "a toilet"
    },
    {
-    "da": "hvor?",
-    "en": "where?"
-   },
-   {
     "da": "Hvor er stationen?",
     "en": "Where is the station?"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
    }
   ],
   "sentence": {
@@ -3792,12 +3992,16 @@
   ],
   "related": [
    {
-    "da": "gammel",
-    "en": "old"
-   },
-   {
     "da": "ung",
     "en": "young"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
+   },
+   {
+    "da": "hvor høj er du?",
+    "en": "how tall are you?"
    }
   ],
   "sentence": {
@@ -3806,7 +4010,7 @@
   }
  },
  "hvor kommer du fra?": {
-  "explanation": "\"Hvor kommer du fra?\" means \"Where are you from?\" Literally it is Where do you come from? You answer Jeg kommer fra England (I come from England).",
+  "explanation": "\"Hvor kommer du fra?\" means \"Where are you from?\" Literally it is Where do you come from? You answer Jeg kommer fra England (I come from England). As in English, fra (from) goes at the end of the question.",
   "forms": [
    {
     "da": "Hvor kommer du fra?",
@@ -3969,6 +4173,10 @@
    {
     "da": "fint, tak",
     "en": "fine, thanks"
+   },
+   {
+    "da": "hvad så?",
+    "en": "what's up?"
    }
   ],
   "sentence": {
@@ -4000,6 +4208,10 @@
    {
     "da": "fordi",
     "en": "because"
+   },
+   {
+    "da": "hvornår",
+    "en": "when"
    }
   ],
   "sentence": {
@@ -4031,6 +4243,10 @@
    {
     "da": "da",
     "en": "when (in the past)"
+   },
+   {
+    "da": "hvordan",
+    "en": "how"
    }
   ],
   "sentence": {
@@ -4103,8 +4319,8 @@
     "en": "cozy / nice"
    },
    {
-    "da": "at møde",
-    "en": "to meet"
+    "da": "rart at møde dig",
+    "en": "pleased to meet you"
    }
   ],
   "sentence": {
@@ -4315,6 +4531,10 @@
    {
     "da": "rigtig",
     "en": "right (correct)"
+   },
+   {
+    "da": "ligeud",
+    "en": "straight ahead"
    }
   ],
   "sentence": {

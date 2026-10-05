@@ -60,12 +60,16 @@
   ],
   "related": [
    {
-    "da": "at vaske",
-    "en": "to wash"
-   },
-   {
     "da": "en opvaskemaskine",
     "en": "a dishwasher"
+   },
+   {
+    "da": "en opvask",
+    "en": "the dishes / washing-up"
+   },
+   {
+    "da": "opvaskemiddel",
+    "en": "dish soap"
    }
   ],
   "sentence": {
@@ -95,12 +99,16 @@
   ],
   "related": [
    {
-    "da": "at vaske",
-    "en": "to wash"
-   },
-   {
     "da": "at vaske op",
     "en": "to do the dishes"
+   },
+   {
+    "da": "at tage bad",
+    "en": "to take a shower"
+   },
+   {
+    "da": "en sæbe",
+    "en": "a soap"
    }
   ],
   "sentence": {
@@ -132,6 +140,14 @@
    {
     "da": "en vægt",
     "en": "a scale, a weight"
+   },
+   {
+    "da": "at måle",
+    "en": "to measure"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
    }
   ],
   "sentence": {
@@ -167,6 +183,10 @@
    {
     "da": "at vente på",
     "en": "to wait for"
+   },
+   {
+    "da": "et venteværelse",
+    "en": "a waiting room"
    }
   ],
   "sentence": {
@@ -196,12 +216,16 @@
   ],
   "related": [
    {
-    "da": "at vente",
-    "en": "to wait"
-   },
-   {
     "da": "en ventetid",
     "en": "a waiting time"
+   },
+   {
+    "da": "et venteværelse",
+    "en": "a waiting room"
+   },
+   {
+    "da": "at forvente",
+    "en": "to expect"
    }
   ],
   "sentence": {
@@ -350,6 +374,14 @@
    {
     "da": "at se",
     "en": "to see"
+   },
+   {
+    "da": "at skjule",
+    "en": "to hide"
+   },
+   {
+    "da": "en visning",
+    "en": "a showing"
    }
   ],
   "sentence": {
@@ -418,10 +450,6 @@
   ],
   "related": [
    {
-    "da": "at vågne",
-    "en": "to wake up"
-   },
-   {
     "da": "at sove",
     "en": "to sleep"
    },
@@ -440,7 +468,7 @@
   }
  },
  "at vælge": {
-  "explanation": "\"At vælge\" means \"to choose\" or \"to pick\": Jeg vælger den røde (I choose the red one).",
+  "explanation": "\"At vælge\" means \"to choose\" or \"to pick\": Jeg vælger den røde (I choose the red one). Et valg means both \"a choice\" and \"an election\".",
   "forms": [
    {
     "da": "at vælge",
@@ -467,6 +495,10 @@
    {
     "da": "at foretrække",
     "en": "to prefer"
+   },
+   {
+    "da": "en mulighed",
+    "en": "an option"
    }
   ],
   "sentence": {
@@ -502,6 +534,10 @@
    {
     "da": "at have",
     "en": "to have"
+   },
+   {
+    "da": "at findes",
+    "en": "to exist"
    }
   ],
   "sentence": {
@@ -530,10 +566,6 @@
    }
   ],
   "related": [
-   {
-    "da": "syg",
-    "en": "sick"
-   },
    {
     "da": "at blive syg",
     "en": "to get sick"
@@ -574,16 +606,16 @@
   ],
   "related": [
    {
-    "da": "væk",
-    "en": "away / gone"
-   },
-   {
     "da": "at gå væk",
     "en": "to go away"
    },
    {
     "da": "at forsvinde",
     "en": "to disappear"
+   },
+   {
+    "da": "fraværende",
+    "en": "absent"
    }
   ],
   "sentence": {
@@ -619,6 +651,10 @@
    {
     "da": "en vaccination",
     "en": "a vaccination"
+   },
+   {
+    "da": "en sprøjte",
+    "en": "a syringe"
    }
   ],
   "sentence": {
@@ -654,6 +690,10 @@
    {
     "da": "en veganer",
     "en": "a vegan"
+   },
+   {
+    "da": "kød",
+    "en": "meat"
    }
   ],
   "sentence": {
@@ -732,6 +772,10 @@
    {
     "da": "en udsigt",
     "en": "an outlook / a view"
+   },
+   {
+    "da": "en vejrmelding",
+    "en": "a weather report"
    }
   ],
   "sentence": {
@@ -1064,7 +1108,7 @@
   }
  },
  "et venteværelse": {
-  "explanation": "\"Et venteværelse\" means \"a waiting room\". It is built from at vente (to wait) and et værelse (a room).",
+  "explanation": "\"Et venteværelse\" means \"a waiting room\". It is built from at vente (to wait) and et værelse (a room). Sid i venteværelset (Sit in the waiting room).",
   "forms": [
    {
     "da": "et venteværelse",
@@ -1130,6 +1174,10 @@
    {
     "da": "en rude",
     "en": "a window pane"
+   },
+   {
+    "da": "en vindueskarm",
+    "en": "a windowsill"
    }
   ],
   "sentence": {
@@ -1161,6 +1209,14 @@
    {
     "da": "et pas",
     "en": "a passport"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "et id-kort",
+    "en": "an ID card"
    }
   ],
   "sentence": {
@@ -1169,7 +1225,7 @@
   }
  },
  "et værelse": {
-  "explanation": "\"Et værelse\" means \"a room\" in a home or hotel. For \"room\" as in free space, Danes say plads (space).",
+  "explanation": "\"Et værelse\" means \"a room\" in a home or hotel. For room in the sense of free space, say plads (space): Der er plads (There is room).",
   "forms": [
    {
     "da": "et værelse",
@@ -1208,7 +1264,7 @@
   }
  },
  "vand": {
-  "explanation": "\"Vand\" means \"water\". For water in general you need no a: Jeg drikker vand (I drink water) and koldt vand (cold water).",
+  "explanation": "\"Vand\" means \"water\". For water in general you need no a: Jeg drikker vand (I drink water). In a restaurant you can also ask Må jeg få et glas vand? (May I have a glass of water?), or ask for koldt vand (cold water).",
   "forms": [
    {
     "da": "vand",
@@ -1231,6 +1287,10 @@
    {
     "da": "at vande",
     "en": "to water"
+   },
+   {
+    "da": "en vandflaske",
+    "en": "a water bottle"
    }
   ],
   "sentence": {
@@ -1414,6 +1474,10 @@
    {
     "da": "vegansk",
     "en": "vegan"
+   },
+   {
+    "da": "kødfri",
+    "en": "meat-free"
    }
   ],
   "sentence": {
@@ -1422,7 +1486,7 @@
   }
  },
  "vejr": {
-  "explanation": "\"Vejr\" means \"weather\". You can ask Hvordan er vejret? (How is the weather?) and answer Det er koldt i dag (It is cold today).",
+  "explanation": "\"Vejr\" means \"weather\". You can ask Hvordan er vejret? (How is the weather?) and answer Det er koldt i dag (It is cold today) or Det er dårligt vejr (It is bad weather).",
   "forms": [
    {
     "da": "vejret",
@@ -1519,6 +1583,10 @@
    {
     "da": "en velkomst",
     "en": "a welcome"
+   },
+   {
+    "da": "goddag",
+    "en": "hello"
    }
   ],
   "sentence": {
@@ -1589,6 +1657,10 @@
    {
     "da": "lige ud",
     "en": "straight ahead"
+   },
+   {
+    "da": "venstrehåndet",
+    "en": "left-handed"
    }
   ],
   "sentence": {
@@ -1597,7 +1669,7 @@
   }
  },
  "vent lidt": {
-  "explanation": "\"Vent lidt\" means \"wait a bit\". Lidt means \"a little\", which softens the request, and adding tak (thanks / please) makes it politer.",
+  "explanation": "\"Vent lidt\" means \"wait a bit\". Lidt (a little) softens the request, and adding tak (thanks / please) makes it politer.",
   "forms": [
    {
     "da": "Vent lidt!",
@@ -1632,7 +1704,7 @@
   }
  },
  "vest": {
-  "explanation": "\"Vest\" means \"west\". Example: Vinden kommer fra vest (The wind comes from the west).",
+  "explanation": "\"Vest\" means \"west\": Vinden kommer fra vest (The wind comes from the west). It is also part of place names such as Vestjylland (western Jutland, the western part of the Danish mainland).",
   "forms": [
    {
     "da": "vest",
@@ -1667,7 +1739,7 @@
   }
  },
  "vi": {
-  "explanation": "\"Vi\" means \"we\", as in Vi bor her (We live here). After a word like ser (sees), we becomes os (us): Han ser os (He sees us).",
+  "explanation": "\"Vi\" means \"we\", as in Vi bor her (We live here). After a word like ser (sees), we becomes os (us): Vi ser ham (We see him) but Han ser os (He sees us).",
   "forms": [
    {
     "da": "Vi er hjemme.",
@@ -1760,6 +1832,10 @@
    {
     "da": "at tale",
     "en": "to speak"
+   },
+   {
+    "da": "farvel",
+    "en": "goodbye"
    }
   ],
   "sentence": {
@@ -1768,7 +1844,7 @@
   }
  },
  "vigtig": {
-  "explanation": "\"Vigtig\" means \"important\": en vigtig beslutning (an important decision).",
+  "explanation": "\"Vigtig\" means \"important\", for things, people, news and decisions: en vigtig beslutning (an important decision).",
   "forms": [
    {
     "da": "en vigtig dag",
@@ -1873,7 +1949,7 @@
   }
  },
  "vores": {
-  "explanation": "\"Vores\" means \"our\". Compare Det er mit hus (It is my house) with Det er vores hus (It is our house).",
+  "explanation": "\"Vores\" means \"our\". Compare Det er mit hus (It is my house) with Det er vores hus (It is our house). It never changes: vores bil (our car), vores børn (our children).",
   "forms": [
    {
     "da": "vores bil",
@@ -1951,7 +2027,7 @@
   }
  },
  "våd": {
-  "explanation": "\"Våd\" means \"wet\": Det regner, så jakken er våd (It is raining, so the jacket is wet).",
+  "explanation": "\"Våd\" means \"wet\", for clothes, hair, the ground, or anything soaked with water: Det regner, så jakken er våd (It is raining, so the jacket is wet).",
   "forms": [
    {
     "da": "en våd hund",
@@ -1974,6 +2050,10 @@
    {
     "da": "fugtig",
     "en": "damp"
+   },
+   {
+    "da": "gennemblødt",
+    "en": "soaked"
    }
   ],
   "sentence": {
@@ -1982,7 +2062,7 @@
   }
  },
  "vågen": {
-  "explanation": "\"Vågen\" means \"awake\". Do not mix it up with at vågne (to wake up): Jeg vågnede klokken syv (I woke up at seven).",
+  "explanation": "\"Vågen\" means \"awake\": Er du vågen? (Are you awake?) Do not mix it up with at vågne (to wake up): Jeg vågnede klokken syv (I woke up at seven).",
   "forms": [
    {
     "da": "en vågen mand",
@@ -2005,6 +2085,10 @@
    {
     "da": "at sove",
     "en": "to sleep"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
    }
   ],
   "sentence": {
@@ -2013,7 +2097,7 @@
   }
  },
  "væk": {
-  "explanation": "\"Væk\" means \"away\" or \"gone\". Compare Hun løber væk (She runs away) with Min nøgle er væk (My key is gone). Gå væk! (Go away!) sounds rude.",
+  "explanation": "\"Væk\" means \"away\" or \"gone\". Compare Hun løber væk (She runs away) with Min nøgle er væk (My key is gone). Tag den væk (Take it away) is fine, but Gå væk! (Go away!) sounds rude.",
   "forms": [
    {
     "da": "Han er væk.",
@@ -2036,6 +2120,10 @@
    {
     "da": "borte",
     "en": "gone / away"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
    }
   ],
   "sentence": {

@@ -27,6 +27,10 @@
    {
     "da": "en danser",
     "en": "a dancer"
+   },
+   {
+    "da": "et dansegulv",
+    "en": "a dance floor"
    }
   ],
   "sentence": {
@@ -58,6 +62,14 @@
    {
     "da": "en del",
     "en": "a part"
+   },
+   {
+    "da": "at fordele",
+    "en": "to distribute"
+   },
+   {
+    "da": "en halvdel",
+    "en": "a half"
    }
   ],
   "sentence": {
@@ -93,6 +105,10 @@
    {
     "da": "en drik",
     "en": "a drink"
+   },
+   {
+    "da": "tørstig",
+    "en": "thirsty"
    }
   ],
   "sentence": {
@@ -128,6 +144,10 @@
    {
     "da": "at leve",
     "en": "to live"
+   },
+   {
+    "da": "at blive født",
+    "en": "to be born"
    }
   ],
   "sentence": {
@@ -159,6 +179,10 @@
    {
     "da": "dengang",
     "en": "back then"
+   },
+   {
+    "da": "hvornår",
+    "en": "when (question)"
    }
   ],
   "sentence": {
@@ -229,6 +253,10 @@
    {
     "da": "daglig",
     "en": "daily"
+   },
+   {
+    "da": "madvarer",
+    "en": "food products"
    }
   ],
   "sentence": {
@@ -272,7 +300,7 @@
   }
  },
  "davs": {
-  "explanation": "\"Davs\" means \"hi\", a casual greeting for people you know. Hej (hi) works with everyone.",
+  "explanation": "\"Davs\" means \"hi\", a short, casual greeting for people you know. Hej (hi) is the everyday greeting that suits everyone.",
   "forms": [
    {
     "da": "Davs!",
@@ -365,6 +393,10 @@
    {
     "da": "januar",
     "en": "January"
+   },
+   {
+    "da": "oktober",
+    "en": "October"
    }
   ],
   "sentence": {
@@ -373,7 +405,7 @@
   }
  },
  "dejlig": {
-  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\". It is warmer than god (good): Dejligt! means \"Lovely!\".",
+  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\": Dejligt! means \"Lovely!\" and Det er dejligt vejr means \"It is lovely weather\".",
   "forms": [
    {
     "da": "en dejlig dag",
@@ -396,6 +428,10 @@
    {
     "da": "god",
     "en": "good"
+   },
+   {
+    "da": "fin",
+    "en": "nice / fine"
    }
   ],
   "sentence": {
@@ -645,6 +681,10 @@
    {
     "da": "hvorfor",
     "en": "why"
+   },
+   {
+    "da": "så",
+    "en": "so"
    }
   ],
   "sentence": {
@@ -863,6 +903,10 @@
    {
     "da": "ærgerligt",
     "en": "a pity"
+   },
+   {
+    "da": "uheldigvis",
+    "en": "unfortunately"
    }
   ],
   "sentence": {
@@ -941,7 +985,7 @@
   }
  },
  "det er en god idé": {
-  "explanation": "\"Det er en god idé\" means \"that's a good idea\", said to agree with a suggestion. In everyday talk Danes often shorten it to god idé! (good idea!).",
+  "explanation": "\"Det er en god idé\" means \"that's a good idea\", said to agree with a suggestion. You can shorten it to God idé! (Good idea!).",
   "forms": [
    {
     "da": "Det er en god idé.",
@@ -958,16 +1002,16 @@
   ],
   "related": [
    {
-    "da": "en idé",
-    "en": "an idea"
-   },
-   {
     "da": "et forslag",
     "en": "a suggestion"
    },
    {
     "da": "det lyder godt",
     "en": "that sounds good"
+   },
+   {
+    "da": "at foreslå",
+    "en": "to suggest"
    }
   ],
   "sentence": {
@@ -1081,7 +1125,7 @@
   }
  },
  "det er rigtigt": {
-  "explanation": "\"Det er rigtigt\" means \"that's right\". Be careful: rigtig also means \"really\" before another word, as in rigtig godt (really good).",
+  "explanation": "\"Det er rigtigt\" means \"that's right\", said to agree that something is correct or true. Be careful: rigtig also means \"really\" before another word, as in rigtig godt (really good). A short alternative is ja, præcis (yes, exactly).",
   "forms": [
    {
     "da": "Det er rigtigt.",
@@ -1143,6 +1187,10 @@
    {
     "da": "at have ondt af",
     "en": "to feel sorry for"
+   },
+   {
+    "da": "stakkels",
+    "en": "poor (thing)"
    }
   ],
   "sentence": {
@@ -1260,7 +1308,7 @@
   }
  },
  "det håber jeg": {
-  "explanation": "\"Det håber jeg\" means \"I hope so\", a short reply to a question about something that might happen. Word for word it is that hope I.",
+  "explanation": "\"Det håber jeg\" means \"I hope so\", a short reply to a question about something that might happen. To say \"I hope not\", add ikke (not) at the end: Det håber jeg ikke.",
   "forms": [
    {
     "da": "Det håber jeg.",
@@ -1295,7 +1343,7 @@
   }
  },
  "det lyder godt": {
-  "explanation": "\"Det lyder godt\" means \"that sounds good\". Use it to react positively to a plan, an offer or an idea. At lyde means \"to sound\".",
+  "explanation": "\"Det lyder godt\" means \"that sounds good\". Use it to react positively to a plan, an offer or an idea. At lyde means \"to sound\". Put rigtig (really) before godt (good) to sound more enthusiastic: Det lyder rigtig godt.",
   "forms": [
    {
     "da": "Det lyder godt.",
@@ -1330,7 +1378,7 @@
   }
  },
  "det tror jeg": {
-  "explanation": "\"Det tror jeg\" means \"I think so\" or \"I believe so\", a slightly unsure reply when you aren't completely certain. Word for word it is that think I.",
+  "explanation": "\"Det tror jeg\" means \"I think so\" or \"I believe so\", a polite, slightly unsure reply when you aren't completely certain. Add ikke (not) to say \"I don't think so\": Det tror jeg ikke.",
   "forms": [
    {
     "da": "Det tror jeg.",
@@ -1382,16 +1430,16 @@
   ],
   "related": [
    {
-    "da": "det tror jeg",
-    "en": "I think so"
-   },
-   {
     "da": "at tro",
     "en": "to think / believe"
    },
    {
     "da": "det ved jeg ikke",
     "en": "I don't know"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
    }
   ],
   "sentence": {
@@ -1452,16 +1500,16 @@
   ],
   "related": [
    {
-    "da": "jeg ved det ikke",
-    "en": "I don't know"
-   },
-   {
     "da": "at vide",
     "en": "to know (a fact)"
    },
    {
     "da": "at kende",
     "en": "to know (a person)"
+   },
+   {
+    "da": "det ved jeg godt",
+    "en": "I do know that"
    }
   ],
   "sentence": {
@@ -1571,6 +1619,10 @@
    {
     "da": "digitalisering",
     "en": "digitalisation"
+   },
+   {
+    "da": "elektronisk",
+    "en": "electronic"
    }
   ],
   "sentence": {
@@ -1758,6 +1810,10 @@
    {
     "da": "alligevel",
     "en": "anyway / all the same"
+   },
+   {
+    "da": "imidlertid",
+    "en": "however"
    }
   ],
   "sentence": {
@@ -1828,6 +1884,10 @@
    {
     "da": "fjollet",
     "en": "silly"
+   },
+   {
+    "da": "smart",
+    "en": "smart"
    }
   ],
   "sentence": {
@@ -1859,6 +1919,10 @@
    {
     "da": "en dybde",
     "en": "a depth"
+   },
+   {
+    "da": "lavvandet",
+    "en": "shallow"
    }
   ],
   "sentence": {
@@ -1890,6 +1954,14 @@
    {
     "da": "et dyr",
     "en": "an animal"
+   },
+   {
+    "da": "rimelig",
+    "en": "affordable"
+   },
+   {
+    "da": "gratis",
+    "en": "free"
    }
   ],
   "sentence": {
@@ -2038,6 +2110,10 @@
    {
     "da": "en herre",
     "en": "a gentleman"
+   },
+   {
+    "da": "en mand",
+    "en": "a man"
    }
   ],
   "sentence": {
@@ -2132,7 +2208,7 @@
   }
  },
  "en datter": {
-  "explanation": "\"En datter\" means \"a daughter\".",
+  "explanation": "\"En datter\" means \"a daughter\". Hvor gammel er din datter? means \"How old is your daughter?\".",
   "forms": [
    {
     "da": "en datter",
@@ -2159,6 +2235,14 @@
    {
     "da": "et barn",
     "en": "a child"
+   },
+   {
+    "da": "en søster",
+    "en": "a sister"
+   },
+   {
+    "da": "en mor",
+    "en": "a mother"
    }
   ],
   "sentence": {
@@ -2194,6 +2278,10 @@
    {
     "da": "en hovedret",
     "en": "a main course"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
    }
   ],
   "sentence": {
@@ -2225,6 +2313,14 @@
    {
     "da": "en læge",
     "en": "a doctor (medical)"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
    }
   ],
   "sentence": {
@@ -2233,7 +2329,7 @@
   }
  },
  "en dollar": {
-  "explanation": "\"En dollar\" means \"a dollar\". Danish money is kroner (crowns), not dollars.",
+  "explanation": "\"En dollar\" means \"a dollar\". Hvad koster det i dollar? means \"What does it cost in dollars?\".",
   "forms": [
    {
     "da": "en dollar",
@@ -2256,6 +2352,10 @@
    {
     "da": "en krone",
     "en": "a krone"
+   },
+   {
+    "da": "et pund",
+    "en": "a pound"
    }
   ],
   "sentence": {
@@ -2326,6 +2426,14 @@
    {
     "da": "at drikke",
     "en": "to drink"
+   },
+   {
+    "da": "en sodavand",
+    "en": "a soda"
+   },
+   {
+    "da": "en drikkevare",
+    "en": "a beverage"
    }
   ],
   "sentence": {
@@ -2361,6 +2469,10 @@
    {
     "da": "en bamse",
     "en": "a teddy bear"
+   },
+   {
+    "da": "et dukkehus",
+    "en": "a dollhouse"
    }
   ],
   "sentence": {
@@ -2396,6 +2508,10 @@
    {
     "da": "en dørklokke",
     "en": "a doorbell"
+   },
+   {
+    "da": "et vindue",
+    "en": "a window"
    }
   ],
   "sentence": {
@@ -2509,6 +2625,10 @@
    {
     "da": "en dyrlæge",
     "en": "a vet"
+   },
+   {
+    "da": "et husdyr",
+    "en": "a domestic animal"
    }
   ],
   "sentence": {

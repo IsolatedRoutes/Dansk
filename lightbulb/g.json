@@ -27,6 +27,10 @@
    {
     "da": "at blive skilt",
     "en": "to get divorced"
+   },
+   {
+    "da": "et bryllup",
+    "en": "a wedding"
    }
   ],
   "sentence": {
@@ -101,6 +105,10 @@
    {
     "da": "glemsom",
     "en": "forgetful"
+   },
+   {
+    "da": "at minde om",
+    "en": "to remind of"
    }
   ],
   "sentence": {
@@ -175,6 +183,10 @@
    {
     "da": "at græde",
     "en": "to cry"
+   },
+   {
+    "da": "at smile",
+    "en": "to smile"
    }
   ],
   "sentence": {
@@ -205,6 +217,14 @@
   "related": [
    {
     "da": "at grine",
+    "en": "to laugh"
+   },
+   {
+    "da": "en tåre",
+    "en": "a tear"
+   },
+   {
+    "da": "at le",
     "en": "to laugh"
    }
   ],
@@ -274,16 +294,16 @@
   ],
   "related": [
    {
-    "da": "en tur",
-    "en": "a walk / a trip"
-   },
-   {
-    "da": "at gå",
-    "en": "to walk / to go"
-   },
-   {
     "da": "at løbe en tur",
     "en": "to go for a run"
+   },
+   {
+    "da": "en gåtur",
+    "en": "a walk"
+   },
+   {
+    "da": "en spadseretur",
+    "en": "a stroll"
    }
   ],
   "sentence": {
@@ -362,6 +382,10 @@
    {
     "da": "at gå i bio",
     "en": "to go to the movies"
+   },
+   {
+    "da": "at gå i teatret",
+    "en": "to go to the theatre"
    }
   ],
   "sentence": {
@@ -395,12 +419,16 @@
     "en": "to get up"
    },
    {
-    "da": "en seng",
-    "en": "a bed"
-   },
-   {
     "da": "at falde i søvn",
     "en": "to fall asleep"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "at lægge sig",
+    "en": "to lie down"
    }
   ],
   "sentence": {
@@ -436,10 +464,6 @@
    {
     "da": "at komme ind",
     "en": "to come in"
-   },
-   {
-    "da": "ind",
-    "en": "in (into)"
    },
    {
     "da": "inde",
@@ -481,10 +505,6 @@
     "en": "to come down"
    },
    {
-    "da": "ned",
-    "en": "down"
-   },
-   {
     "da": "nede",
     "en": "down below"
    }
@@ -524,10 +544,6 @@
     "en": "to come up"
    },
    {
-    "da": "op",
-    "en": "up"
-   },
-   {
     "da": "oppe",
     "en": "up above"
    }
@@ -559,12 +575,16 @@
   ],
   "related": [
    {
-    "da": "en café",
-    "en": "a café"
-   },
-   {
     "da": "at gå på restaurant",
     "en": "to go to a restaurant"
+   },
+   {
+    "da": "at gå på bar",
+    "en": "to go to a bar"
+   },
+   {
+    "da": "at gå i byen",
+    "en": "to go out on the town"
    }
   ],
   "sentence": {
@@ -594,16 +614,16 @@
   ],
   "related": [
    {
-    "da": "tilbage",
-    "en": "back"
-   },
-   {
     "da": "at komme tilbage",
     "en": "to come back"
    },
    {
     "da": "at gå frem",
     "en": "to go forward"
+   },
+   {
+    "da": "at vende tilbage",
+    "en": "to return"
    }
   ],
   "sentence": {
@@ -641,8 +661,8 @@
     "en": "to come out"
    },
    {
-    "da": "ud",
-    "en": "out"
+    "da": "en udgang",
+    "en": "an exit"
    }
   ],
   "sentence": {
@@ -672,16 +692,16 @@
   ],
   "related": [
    {
-    "da": "væk",
-    "en": "away / gone"
-   },
-   {
     "da": "at gå tilbage",
     "en": "to go back"
    },
    {
     "da": "at være væk",
     "en": "to be gone"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
    }
   ],
   "sentence": {
@@ -750,16 +770,16 @@
   ],
   "related": [
    {
-    "da": "ondt",
-    "en": "pain, hurting"
-   },
-   {
     "da": "øm",
     "en": "sore"
    },
    {
     "da": "at have ondt i",
     "en": "to have a pain in"
+   },
+   {
+    "da": "en smerte",
+    "en": "a pain"
    }
   ],
   "sentence": {
@@ -811,7 +831,7 @@
   }
  },
  "en gade": {
-  "explanation": "\"En gade\" means \"a street\", a road in a town with houses on both sides. For a bigger road, for example between towns, use en vej (a road).",
+  "explanation": "\"En gade\" means \"a street\". For a bigger road, for example between towns, use en vej (a road).",
   "forms": [
    {
     "da": "en gade",
@@ -838,6 +858,10 @@
    {
     "da": "en sidegade",
     "en": "a side street"
+   },
+   {
+    "da": "en gågade",
+    "en": "a pedestrian street"
    }
   ],
   "sentence": {
@@ -920,7 +944,7 @@
   }
  },
  "en giraf": {
-  "explanation": "\"En giraf\" means \"a giraffe\".",
+  "explanation": "\"En giraf\" means \"a giraffe\". Giraffen spiser blade means \"The giraffe eats leaves\".",
   "forms": [
    {
     "da": "en giraf",
@@ -947,6 +971,10 @@
    {
     "da": "en zebra",
     "en": "a zebra"
+   },
+   {
+    "da": "en løve",
+    "en": "a lion"
    }
   ],
   "sentence": {
@@ -955,7 +983,7 @@
   }
  },
  "en gris": {
-  "explanation": "\"En gris\" means \"a pig\". Calling a person en gris is rude. A baby pig is en pattegris (a piglet).",
+  "explanation": "\"En gris\" means \"a pig\". Calling a person en gris is rude, so keep it for the animal. Pork is svinekød, built from et svin (a swine), another word for pig.",
   "forms": [
    {
     "da": "en gris",
@@ -1150,7 +1178,7 @@
   }
  },
  "en gåtur": {
-  "explanation": "\"En gåtur\" means \"a walk\". It is built from gå (walk) and tur (trip). You say at gå en tur or \"at tage på gåtur\", both meaning \"to go for a walk\".",
+  "explanation": "\"En gåtur\" means \"a walk\". It is built from gå (walk) and tur (trip). You say at gå en tur or at tage på gåtur, both meaning \"to go for a walk\".",
   "forms": [
    {
     "da": "en gåtur",
@@ -1255,6 +1283,10 @@
    {
     "da": "et kort",
     "en": "a card"
+   },
+   {
+    "da": "et fødselsdagskort",
+    "en": "a birthday card"
    }
   ],
   "sentence": {
@@ -1290,6 +1322,10 @@
    {
     "da": "et vinglas",
     "en": "a wine glass"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
    }
   ],
   "sentence": {
@@ -1446,6 +1482,10 @@
    {
     "da": "engang",
     "en": "once / some day"
+   },
+   {
+    "da": "en korridor",
+    "en": "a hallway"
    }
   ],
   "sentence": {
@@ -1477,6 +1517,10 @@
    {
     "da": "ja tak",
     "en": "yes please"
+   },
+   {
+    "da": "med glæde",
+    "en": "with pleasure"
    }
   ],
   "sentence": {
@@ -1586,10 +1630,6 @@
    {
     "da": "tilfreds med",
     "en": "satisfied with"
-   },
-   {
-    "da": "glad",
-    "en": "happy"
    }
   ],
   "sentence": {
@@ -1598,7 +1638,7 @@
   }
  },
  "glædelig jul": {
-  "explanation": "\"Glædelig jul\" means \"merry Christmas\". Glædelig means \"merry\" and \"jul\" means \"Christmas\". A reply is i lige måde (same to you).",
+  "explanation": "\"Glædelig jul\" means \"merry Christmas\". Glædelig means \"merry\" and jul means \"Christmas\". A reply is i lige måde (same to you), and you can add og godt nytår (and happy New Year).",
   "forms": [
    {
     "da": "Glædelig jul!",
@@ -1615,16 +1655,16 @@
   ],
   "related": [
    {
-    "da": "jul",
-    "en": "Christmas"
-   },
-   {
     "da": "godt nytår",
     "en": "happy New Year"
    },
    {
     "da": "i lige måde",
     "en": "same to you"
+   },
+   {
+    "da": "glædelig påske",
+    "en": "Happy Easter"
    }
   ],
   "sentence": {
@@ -1672,7 +1712,7 @@
   }
  },
  "god appetit": {
-  "explanation": "\"God appetit\" means \"enjoy your meal\" and is said just before eating. A reply is tak (thanks) or i lige måde (same to you).",
+  "explanation": "\"God appetit\" means \"enjoy your meal\", like bon appétit, and is said just before eating. Danes also say velbekomme (enjoy / you are welcome), often when the food is served or after the meal. A reply is i lige måde (same to you) or tak (thanks).",
   "forms": [
    {
     "da": "God appetit!",
@@ -1695,6 +1735,10 @@
    {
     "da": "tak for mad",
     "en": "thanks for the meal"
+   },
+   {
+    "da": "skål",
+    "en": "cheers"
    }
   ],
   "sentence": {
@@ -1726,6 +1770,10 @@
    {
     "da": "pas på dig selv",
     "en": "take care"
+   },
+   {
+    "da": "rask",
+    "en": "well, healthy"
    }
   ],
   "sentence": {
@@ -1759,8 +1807,8 @@
     "en": "enjoy your meal"
    },
    {
-    "da": "en fornøjelse",
-    "en": "a pleasure"
+    "da": "velbekomme",
+    "en": "enjoy your meal"
    }
   ],
   "sentence": {
@@ -1792,6 +1840,10 @@
    {
     "da": "glædelig jul",
     "en": "merry Christmas"
+   },
+   {
+    "da": "godt nytår",
+    "en": "happy New Year"
    }
   ],
   "sentence": {
@@ -1825,8 +1877,8 @@
     "en": "skilled"
    },
    {
-    "da": "god",
-    "en": "good"
+    "da": "flink til",
+    "en": "good at"
    }
   ],
   "sentence": {
@@ -1835,7 +1887,7 @@
   }
  },
  "god tur": {
-  "explanation": "\"God tur\" means \"have a good trip\". For a longer journey you can also say god rejse (have a good journey).",
+  "explanation": "\"God tur\" means \"have a good trip\" and is said to anyone setting off, whether by car, train, bike or plane. You can add the place: god tur til Aarhus (have a good trip to Aarhus). A reply is tak (thanks). For a longer journey you can say god rejse (have a good journey).",
   "forms": [
    {
     "da": "God tur!",
@@ -1852,16 +1904,16 @@
   ],
   "related": [
    {
-    "da": "en tur",
-    "en": "a trip"
-   },
-   {
     "da": "god rejse",
     "en": "have a good journey"
    },
    {
     "da": "pas på dig selv",
     "en": "take care"
+   },
+   {
+    "da": "god weekend",
+    "en": "have a good weekend"
    }
   ],
   "sentence": {
@@ -1887,16 +1939,16 @@
   ],
   "related": [
    {
-    "da": "en weekend",
-    "en": "a weekend"
-   },
-   {
     "da": "hav en god dag",
     "en": "have a good day"
    },
    {
     "da": "god tur",
     "en": "have a good trip"
+   },
+   {
+    "da": "god påske",
+    "en": "happy Easter"
    }
   ],
   "sentence": {
@@ -1944,7 +1996,7 @@
   }
  },
  "goddag": {
-  "explanation": "\"Goddag\" means \"good day\", a polite, slightly formal way to say hello at any time of day. Friends usually say hej (hi) instead.",
+  "explanation": "\"Goddag\" means \"good day\", a polite, slightly formal way to say hello at any time of day. Friends usually say hej (hi) instead. You answer goddag with goddag back.",
   "forms": [
    {
     "da": "Goddag!",
@@ -1979,7 +2031,7 @@
   }
  },
  "godmorgen": {
-  "explanation": "\"Godmorgen\" means \"good morning\". Later in the day you switch to goddag (good day).",
+  "explanation": "\"Godmorgen\" means \"good morning\", said until late morning. For later in the day you switch to goddag (good day).",
   "forms": [
    {
     "da": "Godmorgen!",
@@ -2078,8 +2130,8 @@
     "en": "merry Christmas"
    },
    {
-    "da": "nytår",
-    "en": "New Year"
+    "da": "nytårsdag",
+    "en": "New Year's Day"
    }
   ],
   "sentence": {
@@ -2088,7 +2140,7 @@
   }
  },
  "golf": {
-  "explanation": "\"Golf\" means \"golf\". You say at spille golf (to play golf), just like at spille tennis (to play tennis).",
+  "explanation": "\"Golf\" means \"golf\". You say at spille golf (to play golf) with no a or the in front, just like at spille tennis (to play tennis).",
   "forms": [
    {
     "da": "golf",
@@ -2360,6 +2412,14 @@
    {
     "da": "at slå græs",
     "en": "to mow the lawn"
+   },
+   {
+    "da": "en græsslåmaskine",
+    "en": "a lawn mower"
+   },
+   {
+    "da": "en eng",
+    "en": "a meadow"
    }
   ],
   "sentence": {
@@ -2391,6 +2451,10 @@
    {
     "da": "en græker",
     "en": "a Greek (person)"
+   },
+   {
+    "da": "tyrkisk",
+    "en": "Turkish"
    }
   ],
   "sentence": {
@@ -2399,7 +2463,7 @@
   }
  },
  "grød": {
-  "explanation": "\"En grød\" means \"a porridge\", usually warm and made with milk or water. Name the kind with the grain: risengrød (rice porridge).",
+  "explanation": "\"En grød\" means \"a porridge\". It is normally not counted, so you do not say two porridges. Add the grain in front to name the kind: havregrød (oat porridge).",
   "forms": [
    {
     "da": "en grød",
@@ -2418,6 +2482,14 @@
    {
     "da": "risengrød",
     "en": "rice porridge"
+   },
+   {
+    "da": "havregryn",
+    "en": "rolled oats"
+   },
+   {
+    "da": "en suppe",
+    "en": "a soup"
    }
   ],
   "sentence": {
@@ -2500,7 +2572,7 @@
   }
  },
  "grøntsager": {
-  "explanation": "\"Grøntsager\" means \"vegetables\": spis dine grøntsager (eat your vegetables). In shops you often see frugt og grønt (fruit and vegetables).",
+  "explanation": "\"Grøntsager\" means \"vegetables\": Spis dine grøntsager (Eat your vegetables). In shops you often see frugt og grønt (fruit and vegetables).",
   "forms": [
    {
     "da": "en grøntsag",
@@ -2527,6 +2599,14 @@
    {
     "da": "grøn",
     "en": "green"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   },
+   {
+    "da": "en agurk",
+    "en": "a cucumber"
    }
   ],
   "sentence": {
@@ -2622,12 +2702,16 @@
   ],
   "related": [
    {
-    "da": "selv",
-    "en": "self / even"
-   },
-   {
     "da": "at gøre",
     "en": "to do"
+   },
+   {
+    "da": "at lave",
+    "en": "to make / do"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
    }
   ],
   "sentence": {

@@ -1,6 +1,6 @@
 {
  "at nyse": {
-  "explanation": "\"At nyse\" means \"to sneeze\": Jeg nyser hele tiden (I sneeze all the time).",
+  "explanation": "\"At nyse\" means \"to sneeze\": Jeg nyser hele tiden (I sneeze all the time). Do not mix it up with at hoste (to cough).",
   "forms": [
    {
     "da": "at nyse",
@@ -27,6 +27,10 @@
    {
     "da": "at hoste",
     "en": "to cough"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold"
    }
   ],
   "sentence": {
@@ -62,6 +66,10 @@
    {
     "da": "et nabolag",
     "en": "a neighborhood"
+   },
+   {
+    "da": "en genbo",
+    "en": "a neighbor across the street"
    }
   ],
   "sentence": {
@@ -109,7 +117,7 @@
   }
  },
  "en nederdel": {
-  "explanation": "\"En nederdel\" means \"a skirt\".",
+  "explanation": "\"En nederdel\" means \"a skirt\". It is built from neder (down) and del (part), so it literally means a lower part.",
   "forms": [
    {
     "da": "en nederdel",
@@ -187,7 +195,7 @@
   }
  },
  "en næse": {
-  "explanation": "\"En næse\" means \"a nose\". You can say Jeg har en løbende næse (I have a runny nose).",
+  "explanation": "\"En næse\" means \"a nose\". You can say Jeg har en løbende næse (I have a runny nose). At have næse for noget (to have a nose for something) means to have a good feel for it.",
   "forms": [
    {
     "da": "en næse",
@@ -226,7 +234,7 @@
   }
  },
  "en nøgle": {
-  "explanation": "\"En nøgle\" means \"a key\", for a door or a hotel room. You can ask Hvor er min nøgle? (Where is my key?).",
+  "explanation": "\"En nøgle\" means \"a key\". You can ask Hvor er min nøgle? (Where is my key?) or say Jeg har glemt min nøgle (I have forgotten my key).",
   "forms": [
    {
     "da": "en nøgle",
@@ -347,7 +355,7 @@
   }
  },
  "natur": {
-  "explanation": "\"Natur\" means \"nature\". It is used without en: smuk natur (beautiful nature).",
+  "explanation": "\"Natur\" means \"nature\". You say it without en: smuk natur (beautiful nature). Add i naturen for \"out in nature\": Børnene leger i naturen (The children play in nature).",
   "forms": [
    {
     "da": "natur",
@@ -374,6 +382,14 @@
    {
     "da": "naturligvis",
     "en": "of course"
+   },
+   {
+    "da": "en by",
+    "en": "a city"
+   },
+   {
+    "da": "et landskab",
+    "en": "a landscape"
    }
   ],
   "sentence": {
@@ -405,6 +421,10 @@
    {
     "da": "nede",
     "en": "down (being there)"
+   },
+   {
+    "da": "nedenunder",
+    "en": "downstairs"
    }
   ],
   "sentence": {
@@ -436,6 +456,10 @@
    {
     "da": "ni",
     "en": "nine"
+   },
+   {
+    "da": "jo",
+    "en": "yes (to a negative)"
    }
   ],
   "sentence": {
@@ -444,7 +468,7 @@
   }
  },
  "nem": {
-  "explanation": "\"Nem\" means \"easy\": en nem løsning (an easy solution).",
+  "explanation": "\"Nem\" means \"easy\", as in en nem opgave (an easy task) and en nem løsning (an easy solution). The opposite is svær (hard).",
   "forms": [
    {
     "da": "en nem opgave",
@@ -479,7 +503,7 @@
   }
  },
  "nemt": {
-  "explanation": "\"Nemt\" means \"easy\" or \"easily\". Compare Det er nemt (It is easy) with Han vinder nemt (He wins easily).",
+  "explanation": "\"Nemt\" means \"easy\" or \"easily\". Compare Det er nemt (It is easy) with Han vinder nemt (He wins easily). The opposite is svært (hard): Det er svært (It is hard).",
   "forms": [
    {
     "da": "det er nemt",
@@ -596,7 +620,7 @@
   }
  },
  "nitten": {
-  "explanation": "\"Nitten\" means \"nineteen\". Compare ni børn (nine children) with nitten børn (nineteen children).",
+  "explanation": "\"Nitten\" means \"nineteen\". Compare ni børn (nine children) with nitten børn (nineteen children). The -ten at the end is like the -teen in English nineteen.",
   "forms": [
    {
     "da": "nitten år",
@@ -744,7 +768,7 @@
   }
  },
  "nogle gange": {
-  "explanation": "\"Nogle gange\" means \"sometimes\", or word for word some times: Jeg spiser nogle gange morgenmad (I sometimes eat breakfast).",
+  "explanation": "\"Nogle gange\" means \"sometimes\", or word for word some times. Compare Jeg spiser altid morgenmad (I always eat breakfast), Jeg spiser nogle gange morgenmad (I sometimes eat breakfast) and Jeg spiser aldrig morgenmad (I never eat breakfast).",
   "forms": [
    {
     "da": "nogle gange",
@@ -822,7 +846,7 @@
   }
  },
  "nord": {
-  "explanation": "\"Nord\" means \"north\". Compare Det er koldt i nord (It is cold in the north) with Det er varmt i syd (It is warm in the south).",
+  "explanation": "\"Nord\" means \"north\". Compare Det er koldt i nord (It is cold in the north) with Det er varmt i syd (It is warm in the south). To say you are heading there: Vi kører mod nord (We drive north).",
   "forms": [
    {
     "da": "nord",
@@ -880,6 +904,10 @@
    {
     "da": "norsk",
     "en": "Norwegian"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
    }
   ],
   "sentence": {
@@ -888,7 +916,7 @@
   }
  },
  "normal": {
-  "explanation": "\"Normal\" means \"normal\", the same word as in English: Det er helt normalt (That is completely normal).",
+  "explanation": "\"Normal\" means \"normal\", spelled the same as in English. Det er helt normalt (That is completely normal).",
   "forms": [
    {
     "da": "en normal dag",
@@ -966,7 +994,7 @@
   }
  },
  "november": {
-  "explanation": "\"November\" means \"November\". Danish writes month names with a small letter, even in the middle of a sentence: i november (in November).",
+  "explanation": "\"November\" means \"November\" and is spelled the same as in English. Danish writes month names with a small letter, even in the middle of a sentence: i november (in November).",
   "forms": [
    {
     "da": "november",
@@ -989,6 +1017,10 @@
    {
     "da": "december",
     "en": "December"
+   },
+   {
+    "da": "september",
+    "en": "September"
    }
   ],
   "sentence": {
@@ -997,7 +1029,7 @@
   }
  },
  "nu": {
-  "explanation": "\"Nu\" means \"now\". Compare Jeg går nu (I am leaving now) with Jeg går senere (I am leaving later).",
+  "explanation": "\"Nu\" means \"now\". Compare Jeg går nu (I am leaving now) with Jeg går senere (I am leaving later). Danes also drop nu into a sentence to soften it, with no idea of time: Det er nu ikke så svært (It is not that hard, really).",
   "forms": [
    {
     "da": "nu",
@@ -1036,7 +1068,7 @@
   }
  },
  "nudler": {
-  "explanation": "\"Nudler\" means \"noodles\", like in nudelsuppe (noodle soup).",
+  "explanation": "\"Nudler\" means \"noodles\". It is always plural, so there is no en or et in front.",
   "forms": [
    {
     "da": "nudler",
@@ -1055,6 +1087,14 @@
    {
     "da": "en nudelsuppe",
     "en": "a noodle soup"
+   },
+   {
+    "da": "pasta",
+    "en": "pasta"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
    }
   ],
   "sentence": {
@@ -1086,6 +1126,10 @@
    {
     "da": "ti",
     "en": "ten"
+   },
+   {
+    "da": "én",
+    "en": "one"
    }
   ],
   "sentence": {
@@ -1148,7 +1192,20 @@
     "en": "the news"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "ny",
+    "en": "new"
+   },
+   {
+    "da": "et nyhedsbrev",
+    "en": "a newsletter"
+   },
+   {
+    "da": "en nyhedsudsendelse",
+    "en": "a news broadcast"
+   }
+  ],
   "sentence": {
    "da": "Jeg læser **nyheder** i avisen hver morgen.",
    "en": "I read the news in the newspaper every morning."
@@ -1318,6 +1375,10 @@
    {
     "da": "næste",
     "en": "next"
+   },
+   {
+    "da": "nærmest",
+    "en": "nearly, practically"
    }
   ],
   "sentence": {

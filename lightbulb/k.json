@@ -25,8 +25,12 @@
     "en": "to vomit"
    },
    {
-    "da": "at kaste",
-    "en": "to throw"
+    "da": "kvalme",
+    "en": "nausea"
+   },
+   {
+    "da": "en opkastning",
+    "en": "vomiting"
    }
   ],
   "sentence": {
@@ -101,6 +105,10 @@
    {
     "da": "et kig",
     "en": "a look"
+   },
+   {
+    "da": "at se på",
+    "en": "to look at"
    }
   ],
   "sentence": {
@@ -136,6 +144,14 @@
    {
     "da": "at presse",
     "en": "to press, to squeeze"
+   },
+   {
+    "da": "at kramme",
+    "en": "to hug"
+   },
+   {
+    "da": "at knuse",
+    "en": "to crush"
    }
   ],
   "sentence": {
@@ -171,6 +187,10 @@
    {
     "da": "at tage tøj på",
     "en": "to put on clothes"
+   },
+   {
+    "da": "at klæde sig ud",
+    "en": "to dress up"
    }
   ],
   "sentence": {
@@ -245,6 +265,10 @@
    {
     "da": "at ankomme",
     "en": "to arrive"
+   },
+   {
+    "da": "at tage afsted",
+    "en": "to leave"
    }
   ],
   "sentence": {
@@ -284,10 +308,6 @@
    {
     "da": "hjemme",
     "en": "at home"
-   },
-   {
-    "da": "et hjem",
-    "en": "a home"
    }
   ],
   "sentence": {
@@ -364,10 +384,6 @@
     "en": "to go down"
    },
    {
-    "da": "ned",
-    "en": "down"
-   },
-   {
     "da": "nede",
     "en": "down below"
    }
@@ -409,10 +425,6 @@
    {
     "da": "at stå op",
     "en": "to get up (out of bed)"
-   },
-   {
-    "da": "op",
-    "en": "up"
    }
   ],
   "sentence": {
@@ -446,12 +458,12 @@
     "en": "to go back"
    },
    {
-    "da": "tilbage",
-    "en": "back"
-   },
-   {
     "da": "at vende tilbage",
     "en": "to return"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
    }
   ],
   "sentence": {
@@ -460,7 +472,7 @@
   }
  },
  "at komme ud": {
-  "explanation": "\"At komme ud\" means \"to come out\" or \"to get out\", of a room, house or building: Kom ud! means \"Come out!\".",
+  "explanation": "\"At komme ud\" means \"to come out\" or \"to get out\", of a room, house or building: Kom ud! means \"Come out!\" and Han kommer ud af skolen means \"He comes out of the school\".",
   "forms": [
    {
     "da": "at komme ud",
@@ -489,8 +501,8 @@
     "en": "to go out"
    },
    {
-    "da": "ud",
-    "en": "out"
+    "da": "en udgang",
+    "en": "an exit"
    }
   ],
   "sentence": {
@@ -522,6 +534,14 @@
    {
     "da": "en pris",
     "en": "a price"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   },
+   {
+    "da": "dyr",
+    "en": "expensive"
    }
   ],
   "sentence": {
@@ -668,16 +688,20 @@
   ],
   "related": [
    {
-    "da": "at købe",
-    "en": "to buy"
-   },
-   {
     "da": "at handle",
     "en": "to shop"
    },
    {
     "da": "et indkøb",
     "en": "a purchase"
+   },
+   {
+    "da": "en indkøbsliste",
+    "en": "a shopping list"
+   },
+   {
+    "da": "en indkøbskurv",
+    "en": "a shopping basket"
    }
   ],
   "sentence": {
@@ -746,16 +770,16 @@
   ],
   "related": [
    {
-    "da": "at køre",
-    "en": "to drive"
-   },
-   {
     "da": "at gå hjem",
     "en": "to walk home"
    },
    {
     "da": "at tage hjem",
     "en": "to go home"
+   },
+   {
+    "da": "at cykle hjem",
+    "en": "to cycle home"
    }
   ],
   "sentence": {
@@ -822,14 +846,27 @@
     "en": "the calendars"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en dato",
+    "en": "a date"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
+   }
+  ],
   "sentence": {
    "da": "Jeg skriver mødet i min **kalender**.",
    "en": "I write the meeting in my calendar."
   }
  },
  "en kanin": {
-  "explanation": "\"En kanin\" means \"a rabbit\". Do not mix it up with en hare (a hare), which is a different animal.",
+  "explanation": "\"En kanin\" means \"a rabbit\". Do not mix it up with en hare (a hare). Kaninen spiser en gulerod means \"The rabbit eats a carrot\".",
   "forms": [
    {
     "da": "en kanin",
@@ -852,6 +889,14 @@
    {
     "da": "en hare",
     "en": "a hare"
+   },
+   {
+    "da": "et marsvin",
+    "en": "a guinea pig"
+   },
+   {
+    "da": "en hamster",
+    "en": "a hamster"
    }
   ],
   "sentence": {
@@ -887,6 +932,10 @@
    {
     "da": "kartoffelsalat",
     "en": "potato salad"
+   },
+   {
+    "da": "en pommes frites",
+    "en": "a french fry"
    }
   ],
   "sentence": {
@@ -922,6 +971,10 @@
    {
     "da": "en hat",
     "en": "a hat"
+   },
+   {
+    "da": "en solhat",
+    "en": "a sun hat"
    }
   ],
   "sentence": {
@@ -930,7 +983,7 @@
   }
  },
  "en kat": {
-  "explanation": "\"En kat\" means \"a cat\".",
+  "explanation": "\"En kat\" means \"a cat\". Katten sover means \"The cat is sleeping\", and Jeg har to katte means \"I have two cats\".",
   "forms": [
    {
     "da": "en kat",
@@ -957,6 +1010,10 @@
    {
     "da": "en killing",
     "en": "a kitten"
+   },
+   {
+    "da": "en kattekasse",
+    "en": "a litter box"
    }
   ],
   "sentence": {
@@ -988,6 +1045,14 @@
    {
     "da": "en småkage",
     "en": "a cookie"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en cracker",
+    "en": "a cracker"
    }
   ],
   "sentence": {
@@ -1023,6 +1088,10 @@
    {
     "da": "en centimeter",
     "en": "a centimeter"
+   },
+   {
+    "da": "en millimeter",
+    "en": "a millimeter"
    }
   ],
   "sentence": {
@@ -1031,7 +1100,7 @@
   }
  },
  "en kind": {
-  "explanation": "\"En kind\" means \"a cheek\". Røde kinder means \"red cheeks\".",
+  "explanation": "\"En kind\" means \"a cheek\". Røde kinder means \"red cheeks\", and et kys på kinden means \"a kiss on the cheek\".",
   "forms": [
    {
     "da": "en kind",
@@ -1101,6 +1170,10 @@
    {
     "da": "en butik",
     "en": "a shop"
+   },
+   {
+    "da": "en købmand",
+    "en": "a grocer"
    }
   ],
   "sentence": {
@@ -1109,7 +1182,7 @@
   }
  },
  "en kirke": {
-  "explanation": "\"En kirke\" means \"a church\". Do not confuse it with en kirkegård (a cemetery), which contains the word kirke but is a place with graves.",
+  "explanation": "\"En kirke\" means \"a church\", and i kirken means \"in the church\". Do not confuse it with en kirkegård (a cemetery), which contains the word kirke but is a place with graves.",
   "forms": [
    {
     "da": "en kirke",
@@ -1132,6 +1205,14 @@
    {
     "da": "en kirkegård",
     "en": "a cemetery"
+   },
+   {
+    "da": "en præst",
+    "en": "a priest"
+   },
+   {
+    "da": "en kirkeklokke",
+    "en": "a church bell"
    }
   ],
   "sentence": {
@@ -1167,6 +1248,10 @@
    {
     "da": "en sommerkjole",
     "en": "a summer dress"
+   },
+   {
+    "da": "en nederdel",
+    "en": "a skirt"
    }
   ],
   "sentence": {
@@ -1202,6 +1287,10 @@
    {
     "da": "et klasseværelse",
     "en": "a classroom"
+   },
+   {
+    "da": "en skoleklasse",
+    "en": "a school class"
    }
   ],
   "sentence": {
@@ -1237,6 +1326,10 @@
    {
     "da": "et hospital",
     "en": "a hospital"
+   },
+   {
+    "da": "en lægeklinik",
+    "en": "a doctor's clinic"
    }
   ],
   "sentence": {
@@ -1245,7 +1338,7 @@
   }
  },
  "en kniv": {
-  "explanation": "\"En kniv\" means \"a knife\". Kniven er skarp means \"The knife is sharp\".",
+  "explanation": "\"En kniv\" means \"a knife\". Kniven er skarp means \"The knife is sharp\", and en kniv og en gaffel means \"a knife and a fork\".",
   "forms": [
    {
     "da": "en kniv",
@@ -1311,6 +1404,10 @@
    {
     "da": "en kalv",
     "en": "a calf"
+   },
+   {
+    "da": "en okse",
+    "en": "an ox"
    }
   ],
   "sentence": {
@@ -1319,7 +1416,7 @@
   }
  },
  "en kok": {
-  "explanation": "\"En kok\" means \"a chef\" or \"a cook\". Do not mix it up with at koge (to boil). The word is the same for men and women.",
+  "explanation": "\"En kok\" means \"a chef\" or \"a cook\". Do not mix it up with at koge (to boil). Kokken laver maden means \"The chef makes the food\".",
   "forms": [
    {
     "da": "en kok",
@@ -1342,6 +1439,14 @@
    {
     "da": "at koge",
     "en": "to boil"
+   },
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "en tjener",
+    "en": "a waiter"
    }
   ],
   "sentence": {
@@ -1373,6 +1478,14 @@
    {
     "da": "en medarbejder",
     "en": "an employee"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en arbejdskollega",
+    "en": "a work colleague"
    }
   ],
   "sentence": {
@@ -1404,6 +1517,14 @@
    {
     "da": "en koncertsal",
     "en": "a concert hall"
+   },
+   {
+    "da": "en koncertbillet",
+    "en": "a concert ticket"
+   },
+   {
+    "da": "en musiker",
+    "en": "a musician"
    }
   ],
   "sentence": {
@@ -1482,6 +1603,10 @@
    {
     "da": "et krus",
     "en": "a mug"
+   },
+   {
+    "da": "en tekop",
+    "en": "a teacup"
    }
   ],
   "sentence": {
@@ -1490,7 +1615,7 @@
   }
  },
  "en krokodille": {
-  "explanation": "\"En krokodille\" means \"a crocodile\".",
+  "explanation": "\"En krokodille\" means \"a crocodile\". Krokodillen åbner munden means \"The crocodile opens its mouth\".",
   "forms": [
    {
     "da": "en krokodille",
@@ -1513,6 +1638,14 @@
    {
     "da": "en alligator",
     "en": "an alligator"
+   },
+   {
+    "da": "en slange",
+    "en": "a snake"
+   },
+   {
+    "da": "en firben",
+    "en": "a lizard"
    }
   ],
   "sentence": {
@@ -1543,7 +1676,15 @@
   "related": [
    {
     "da": "en øre",
-    "en": "a hundredth of a krone"
+    "en": "an øre (1/100 krone)"
+   },
+   {
+    "da": "en mønt",
+    "en": "a coin"
+   },
+   {
+    "da": "en seddel",
+    "en": "a banknote"
    }
   ],
   "sentence": {
@@ -1552,7 +1693,7 @@
   }
  },
  "en krop": {
-  "explanation": "\"En krop\" means \"a body\". Jeg har ondt i kroppen means \"My whole body aches\".",
+  "explanation": "\"En krop\" means \"a body\". Jeg har ondt i kroppen means \"My whole body aches\". When one body part hurts, Danish says \"the\" where English says \"my\": Jeg har ondt i hovedet means \"My head hurts\".",
   "forms": [
    {
     "da": "en krop",
@@ -1657,6 +1798,10 @@
    {
     "da": "en blyant",
     "en": "a pencil"
+   },
+   {
+    "da": "en tusch",
+    "en": "a felt-tip pen"
    }
   ],
   "sentence": {
@@ -1708,7 +1853,7 @@
   }
  },
  "en kvinde": {
-  "explanation": "\"En kvinde\" means \"a woman\". En pige (a girl) is used for a girl or a young woman.",
+  "explanation": "\"En kvinde\" means \"a woman\". Use en pige (a girl) for a girl or a young woman.",
   "forms": [
    {
     "da": "en kvinde",
@@ -1773,7 +1918,15 @@
   "related": [
    {
     "da": "en bon",
-    "en": "a receipt"
+    "en": "a till receipt"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en faktura",
+    "en": "an invoice"
    }
   ],
   "sentence": {
@@ -1821,7 +1974,7 @@
   }
  },
  "et kilo": {
-  "explanation": "\"Et kilo\" means \"a kilo\", short for et kilogram (a kilogram).",
+  "explanation": "\"Et kilo\" means \"a kilo\", short for et kilogram (a kilogram). After a number it stays kilo: to kilo (two kilos).",
   "forms": [
    {
     "da": "et kilo",
@@ -1864,7 +2017,7 @@
   }
  },
  "et klaver": {
-  "explanation": "\"Et klaver\" means \"a piano\". Danish leaves out the when you play it: at spille klaver is to play the piano.",
+  "explanation": "\"Et klaver\" means \"a piano\". Danish leaves out the when you play it: at spille klaver (to play the piano). Klaver is the normal word, though et piano (a piano) is understood too.",
   "forms": [
    {
     "da": "et klaver",
@@ -1891,6 +2044,10 @@
    {
     "da": "et piano",
     "en": "a piano"
+   },
+   {
+    "da": "en violin",
+    "en": "a violin"
    }
   ],
   "sentence": {
@@ -1899,7 +2056,7 @@
   }
  },
  "et knæ": {
-  "explanation": "\"Et knæ\" means \"a knee\". Jeg har ondt i knæet means \"my knee hurts\".",
+  "explanation": "\"Et knæ\" means \"a knee\". The k is pronounced, so say k-næ. Jeg har ondt i knæet (My knee hurts).",
   "forms": [
    {
     "da": "et knæ",
@@ -1977,7 +2134,7 @@
   }
  },
  "et kontor": {
-  "explanation": "\"Et kontor\" means \"an office\", the room or building where people do desk work. På kontoret means \"at the office\".",
+  "explanation": "\"Et kontor\" means \"an office\". Hun er på kontoret (She is at the office). Et postkontor (a post office) is built on the same word.",
   "forms": [
    {
     "da": "et kontor",
@@ -2004,6 +2161,10 @@
    {
     "da": "en arbejdsplads",
     "en": "a workplace"
+   },
+   {
+    "da": "en kontorstol",
+    "en": "an office chair"
    }
   ],
   "sentence": {
@@ -2078,6 +2239,14 @@
    {
     "da": "at kæle",
     "en": "to cuddle"
+   },
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "en kat",
+    "en": "a cat"
    }
   ],
   "sentence": {
@@ -2109,6 +2278,14 @@
    {
     "da": "et køkkenbord",
     "en": "a kitchen counter"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
    }
   ],
   "sentence": {
@@ -2239,12 +2416,20 @@
   ],
   "related": [
    {
-    "da": "at gentage",
-    "en": "to repeat"
-   },
-   {
     "da": "igen",
     "en": "again"
+   },
+   {
+    "da": "hvad sagde du?",
+    "en": "what did you say?"
+   },
+   {
+    "da": "undskyld?",
+    "en": "pardon?"
+   },
+   {
+    "da": "lidt langsommere, tak",
+    "en": "a bit slower, please"
    }
   ],
   "sentence": {
@@ -2253,7 +2438,7 @@
   }
  },
  "kan jeg betale med kort?": {
-  "explanation": "\"Kan jeg betale med kort?\" means \"can I pay by card?\". Med means \"with\". For cash, swap med kort for kontant (in cash).",
+  "explanation": "\"Kan jeg betale med kort?\" means \"can I pay by card?\". Med means \"with\" and kort means \"card\". For cash, swap med kort for kontant (in cash): Kan jeg betale kontant? (Can I pay in cash?).",
   "forms": [
    {
     "da": "Kan jeg betale med kort?",
@@ -2270,16 +2455,16 @@
   ],
   "related": [
    {
-    "da": "et kort",
-    "en": "a card"
-   },
-   {
     "da": "kontant",
     "en": "in cash"
    },
    {
-    "da": "at betale",
-    "en": "to pay"
+    "da": "en regning",
+    "en": "a bill"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
    }
   ],
   "sentence": {
@@ -2309,12 +2494,12 @@
     "en": "I would like"
    },
    {
-    "da": "at købe",
-    "en": "to buy"
-   },
-   {
     "da": "at sælge",
     "en": "to sell"
+   },
+   {
+    "da": "kan jeg få…?",
+    "en": "can I have…?"
    }
   ],
   "sentence": {
@@ -2350,6 +2535,10 @@
    {
     "da": "kartoffelchips",
     "en": "potato chips"
+   },
+   {
+    "da": "kartoffelsalat",
+    "en": "potato salad"
    }
   ],
   "sentence": {
@@ -2393,7 +2582,7 @@
   }
  },
  "ked af det": {
-  "explanation": "\"Ked af det\" means \"sad\" or \"upset\". Jeg er ked af det can also mean \"I am sorry\", so the situation tells you which.",
+  "explanation": "\"Ked af det\" means \"sad\" or \"upset\". It is used after er (am, is, are). Jeg er ked af det can also mean \"I am sorry\", so the situation tells you which.",
   "forms": [
    {
     "da": "jeg er ked af det",
@@ -2467,7 +2656,7 @@
   }
  },
  "ketchup": {
-  "explanation": "\"Ketchup\" means \"ketchup\".",
+  "explanation": "\"Ketchup\" means \"ketchup\". You do not count it, so you say noget ketchup (some ketchup).",
   "forms": [
    {
     "da": "noget ketchup",
@@ -2490,6 +2679,10 @@
    {
     "da": "mayonnaise",
     "en": "mayonnaise"
+   },
+   {
+    "da": "remoulade",
+    "en": "remoulade"
    }
   ],
   "sentence": {
@@ -2521,6 +2714,10 @@
    {
     "da": "kinesisk",
     "en": "Chinese"
+   },
+   {
+    "da": "Japan",
+    "en": "Japan"
    }
   ],
   "sentence": {
@@ -2552,6 +2749,10 @@
    {
     "da": "en kineser",
     "en": "a Chinese person"
+   },
+   {
+    "da": "japansk",
+    "en": "Japanese"
    }
   ],
   "sentence": {
@@ -2801,6 +3002,10 @@
    {
     "da": "et betalingskort",
     "en": "a payment card"
+   },
+   {
+    "da": "et kreditkort",
+    "en": "a credit card"
    }
   ],
   "sentence": {
@@ -2867,6 +3072,10 @@
    {
     "da": "kold",
     "en": "cold"
+   },
+   {
+    "da": "frost",
+    "en": "frost"
    }
   ],
   "sentence": {
@@ -2898,6 +3107,10 @@
    {
     "da": "blot",
     "en": "merely / just"
+   },
+   {
+    "da": "udelukkende",
+    "en": "solely"
    }
   ],
   "sentence": {
@@ -2906,7 +3119,7 @@
   }
  },
  "kvart": {
-  "explanation": "\"Kvart\" means \"quarter\" and is used when telling the time: kvart over tre is 3:15 and \"kvart i fire\" is 3:45. A quarter of an hour is et kvarter.",
+  "explanation": "\"Kvart\" means \"quarter\" and is used when telling the time. Kvart over tre (a quarter past three) is 3:15, and kvart i fire (a quarter to four) is 3:45. A quarter of an hour is et kvarter (15 minutes).",
   "forms": [
    {
     "da": "kvart",
@@ -3081,6 +3294,10 @@
    {
     "da": "kyllingebryst",
     "en": "chicken breast"
+   },
+   {
+    "da": "en and",
+    "en": "a duck"
    }
   ],
   "sentence": {
@@ -3089,7 +3306,7 @@
   }
  },
  "kærlighed": {
-  "explanation": "\"Kærlighed\" means \"love\". To say I love you, Danes use at elske (to love) instead: Jeg elsker dig.",
+  "explanation": "\"Kærlighed\" means \"love\", the big general word for the feeling. To say I love you, Danes use at elske (to love) instead: Jeg elsker dig (I love you).",
   "forms": [
    {
     "da": "kærlighed",
@@ -3147,6 +3364,10 @@
    {
     "da": "svinekød",
     "en": "pork"
+   },
+   {
+    "da": "lammekød",
+    "en": "lamb"
    }
   ],
   "sentence": {

@@ -168,7 +168,7 @@
   }
  },
  "et ur": {
-  "explanation": "\"Et ur\" means \"a clock\" or \"a watch\". Do not mix it up with klokken, used for telling the time: Hvad er klokken? means \"What time is it?\".",
+  "explanation": "\"Et ur\" means \"a clock\" or \"a watch\". A watch on your wrist is et armbåndsur (a wristwatch) and a wall clock is et vægur (a wall clock). Do not mix it up with klokken, used for telling the time: Hvad er klokken? (What time is it?).",
   "forms": [
    {
     "da": "et ur",
@@ -265,6 +265,10 @@
    {
     "da": "udenfor",
     "en": "outside"
+   },
+   {
+    "da": "bortset fra",
+    "en": "except for"
    }
   ],
   "sentence": {
@@ -273,7 +277,7 @@
   }
  },
  "udenfor": {
-  "explanation": "\"Udenfor\" means \"outside\". It works both for being there and for going there: Vi er udenfor (We are outside) and Vi går udenfor (We go outside).",
+  "explanation": "\"Udenfor\" means \"outside\". Compare Børnene leger udenfor (The children play outside) with Børnene er inde (The children are inside). It works both for being there and for going there: Vi går udenfor (We go outside).",
   "forms": [
    {
     "da": "gå udenfor",
@@ -378,7 +382,7 @@
   }
  },
  "ukraine": {
-  "explanation": "\"Ukraine\" means \"Ukraine\", spelled just as in English. Example: Jeg bor i Ukraine (I live in Ukraine).",
+  "explanation": "\"Ukraine\" means \"Ukraine\". Countries take i for being there and til for going there: Jeg bor i Ukraine (I live in Ukraine), Vi rejser til Ukraine (We travel to Ukraine).",
   "forms": [
    {
     "da": "Ukraine",
@@ -401,6 +405,10 @@
    {
     "da": "ukrainsk",
     "en": "Ukrainian"
+   },
+   {
+    "da": "Polen",
+    "en": "Poland"
    }
   ],
   "sentence": {
@@ -432,6 +440,10 @@
    {
     "da": "en ukrainer",
     "en": "a Ukrainian"
+   },
+   {
+    "da": "russisk",
+    "en": "Russian"
    }
   ],
   "sentence": {
@@ -440,7 +452,7 @@
   }
  },
  "under": {
-  "explanation": "\"Under\" means \"under\" or \"during\": the same word works for a place and for a time. With numbers it means \"less than\": under ti (under ten).",
+  "explanation": "\"Under\" means \"under\" or \"during\". Compare Katten sover under sengen (The cat sleeps under the bed) with under ferien (during the holiday). With numbers it means \"less than\": under ti (under ten).",
   "forms": [
    {
     "da": "under bordet",
@@ -510,7 +522,7 @@
   }
  },
  "undertøj": {
-  "explanation": "\"Undertøj\" means \"underwear\". It is built from under (under) and tøj (clothes): nyt undertøj (new underwear).",
+  "explanation": "\"Undertøj\" means \"underwear\". It is built from under (under) and tøj (clothes). Like tøj, it covers the whole category, so you do not count it: nyt undertøj (new underwear).",
   "forms": [
    {
     "da": "undertøj",
@@ -601,12 +613,16 @@
   ],
   "related": [
    {
-    "da": "undskyld",
-    "en": "sorry"
-   },
-   {
     "da": "beklager",
     "en": "I'm sorry (formal)"
+   },
+   {
+    "da": "en undskyldning",
+    "en": "an apology"
+   },
+   {
+    "da": "det gør ikke noget",
+    "en": "it doesn't matter"
    }
   ],
   "sentence": {
@@ -615,7 +631,7 @@
   }
  },
  "ung": {
-  "explanation": "\"Ung\" means \"young\". Compare Hun er ung, men han er gammel (She is young, but he is old). De unge (the young) means \"young people\".",
+  "explanation": "\"Ung\" means \"young\". De unge (the young ones) means \"young people\". For a baby or small child Danes usually say et barn (a child) or lille (little) rather than ung.",
   "forms": [
    {
     "da": "en ung pige",
@@ -673,6 +689,10 @@
    {
     "da": "amerikansk",
     "en": "American"
+   },
+   {
+    "da": "Canada",
+    "en": "Canada"
    }
   ],
   "sentence": {
@@ -681,7 +701,7 @@
   }
  },
  "usund": {
-  "explanation": "\"Usund\" means \"unhealthy\". It is built from u (un-) and sund (healthy), like uvenlig (unfriendly).",
+  "explanation": "\"Usund\" means \"unhealthy\". It is built from u (un-) and sund (healthy), like uvenlig (unfriendly). You use it for food, habits and lifestyles: usund mad (unhealthy food).",
   "forms": [
    {
     "da": "en usund vane",
@@ -704,6 +724,10 @@
    {
     "da": "sundhed",
     "en": "health"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
    }
   ],
   "sentence": {

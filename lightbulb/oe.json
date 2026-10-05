@@ -27,6 +27,10 @@
    {
     "da": "at træne",
     "en": "to train"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
    }
   ],
   "sentence": {
@@ -62,6 +66,10 @@
    {
     "da": "en fadøl",
     "en": "a draught beer"
+   },
+   {
+    "da": "en cider",
+    "en": "a cider"
    }
   ],
   "sentence": {
@@ -148,7 +156,7 @@
   }
  },
  "et øre": {
-  "explanation": "\"Et øre\" means \"an ear\". Jeg har ondt i øret means \"My ear hurts\", literally I have pain in the ear.",
+  "explanation": "\"Et øre\" means \"an ear\". The same word is also a tiny coin worth a hundredth of a krone. Jeg har ondt i øret (My ear hurts).",
   "forms": [
    {
     "da": "et øre",
@@ -210,6 +218,10 @@
    {
     "da": "at gøre ondt",
     "en": "to hurt"
+   },
+   {
+    "da": "stiv",
+    "en": "stiff"
    }
   ],
   "sentence": {
@@ -218,7 +230,7 @@
   }
  },
  "øst": {
-  "explanation": "\"Øst\" means \"east\": Vinden kommer fra øst (The wind comes from the east).",
+  "explanation": "\"Øst\" means \"east\": Vinden kommer fra øst (The wind comes from the east). It is also part of place names such as Østjylland (eastern Jutland).",
   "forms": [
    {
     "da": "øst",

@@ -103,16 +103,20 @@
   ],
   "related": [
    {
-    "da": "at se",
-    "en": "to see"
-   },
-   {
     "da": "at kigge",
     "en": "to look"
    },
    {
     "da": "at lede efter",
     "en": "to look for"
+   },
+   {
+    "da": "at stirre",
+    "en": "to stare"
+   },
+   {
+    "da": "at se efter",
+    "en": "to check, to look after"
    }
   ],
   "sentence": {
@@ -121,7 +125,7 @@
   }
  },
  "at se tv": {
-  "explanation": "\"At se tv\" means \"to watch TV\". At se fjernsyn (to watch television) means the same. Tv is said as two letters, te-ve.",
+  "explanation": "\"At se tv\" means \"to watch TV\". Danish uses se (to see) where English says \"watch\", as in se en film (to watch a film). At se fjernsyn (to watch television) means the same. Tv is said as two letters, te-ve.",
   "forms": [
    {
     "da": "at se tv",
@@ -146,8 +150,16 @@
     "en": "a television"
    },
    {
-    "da": "at se",
-    "en": "to see / to watch"
+    "da": "en fjernbetjening",
+    "en": "a remote control"
+   },
+   {
+    "da": "en tv-serie",
+    "en": "a TV series"
+   },
+   {
+    "da": "en film",
+    "en": "a film"
    }
   ],
   "sentence": {
@@ -216,12 +228,16 @@
   ],
   "related": [
    {
-    "da": "en sms",
-    "en": "a text message"
+    "da": "en besked",
+    "en": "a message"
    },
    {
-    "da": "at sende",
-    "en": "to send"
+    "da": "en e-mail",
+    "en": "an email"
+   },
+   {
+    "da": "at modtage",
+    "en": "to receive"
    }
   ],
   "sentence": {
@@ -257,6 +273,10 @@
    {
     "da": "at betjene",
     "en": "to serve a customer"
+   },
+   {
+    "da": "at dække bord",
+    "en": "to set the table"
    }
   ],
   "sentence": {
@@ -368,10 +388,6 @@
     "en": "to say hello"
    },
    {
-    "da": "farvel",
-    "en": "goodbye"
-   },
-   {
     "da": "hej hej",
     "en": "bye bye"
    },
@@ -411,10 +427,6 @@
     "en": "to say goodbye"
    },
    {
-    "da": "goddag",
-    "en": "good day / hello"
-   },
-   {
     "da": "hej",
     "en": "hi"
    },
@@ -450,16 +462,16 @@
   ],
   "related": [
    {
-    "da": "at skifte",
-    "en": "to change"
-   },
-   {
     "da": "at bytte",
     "en": "to exchange"
    },
    {
-    "da": "tøj",
-    "en": "clothes"
+    "da": "at klæde sig på",
+    "en": "to get dressed"
+   },
+   {
+    "da": "at klæde sig af",
+    "en": "to undress"
    }
   ],
   "sentence": {
@@ -495,6 +507,10 @@
    {
     "da": "at skrive ned",
     "en": "to write down"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
    }
   ],
   "sentence": {
@@ -569,6 +585,14 @@
    {
     "da": "afslappet",
     "en": "relaxed"
+   },
+   {
+    "da": "at koble af",
+    "en": "to unwind"
+   },
+   {
+    "da": "en pause",
+    "en": "a break"
    }
   ],
   "sentence": {
@@ -604,6 +628,10 @@
    {
     "da": "at slukke for",
     "en": "to turn off (TV, radio)"
+   },
+   {
+    "da": "slukket",
+    "en": "off, out"
    }
   ],
   "sentence": {
@@ -637,8 +665,16 @@
     "en": "to turn on"
    },
    {
-    "da": "at slukke",
-    "en": "to switch off / put out"
+    "da": "at skrue op for",
+    "en": "to turn up"
+   },
+   {
+    "da": "at skrue ned for",
+    "en": "to turn down"
+   },
+   {
+    "da": "en kontakt",
+    "en": "a switch"
    }
   ],
   "sentence": {
@@ -709,6 +745,14 @@
    {
     "da": "en smag",
     "en": "a taste"
+   },
+   {
+    "da": "at lugte",
+    "en": "to smell"
+   },
+   {
+    "da": "en smagsprøve",
+    "en": "a taste sample"
    }
   ],
   "sentence": {
@@ -900,6 +944,14 @@
    {
     "da": "en søvn",
     "en": "sleep"
+   },
+   {
+    "da": "at drømme",
+    "en": "to dream"
+   },
+   {
+    "da": "søvnig",
+    "en": "sleepy"
    }
   ],
   "sentence": {
@@ -947,7 +999,7 @@
   }
  },
  "at spille fodbold": {
-  "explanation": "\"At spille fodbold\" means to play soccer (football in Britain). The word fodbold is built from fod (foot) and bold (ball).",
+  "explanation": "\"At spille fodbold\" means \"to play soccer\" (\"football\" in Britain). Spille (to play) is used for most games and sports. The word fodbold is built from fod (foot) and bold (ball), and there is no en (a) before it.",
   "forms": [
    {
     "da": "at spille fodbold",
@@ -968,16 +1020,20 @@
   ],
   "related": [
    {
-    "da": "fodbold",
-    "en": "soccer / football"
-   },
-   {
-    "da": "at spille",
-    "en": "to play"
-   },
-   {
     "da": "en bold",
     "en": "a ball"
+   },
+   {
+    "da": "håndbold",
+    "en": "handball"
+   },
+   {
+    "da": "tennis",
+    "en": "tennis"
+   },
+   {
+    "da": "en fodboldkamp",
+    "en": "a football match"
    }
   ],
   "sentence": {
@@ -986,7 +1042,7 @@
   }
  },
  "at spise": {
-  "explanation": "\"At spise\" means \"to eat\": Vi spiser aftensmad (We eat dinner). At spise ude means \"to eat out\".",
+  "explanation": "\"At spise\" means \"to eat\": Vi spiser aftensmad (We eat dinner). At spise ude means \"to eat out\". For drinking, use at drikke (to drink).",
   "forms": [
    {
     "da": "at spise",
@@ -1013,6 +1069,14 @@
    {
     "da": "at spise ude",
     "en": "to eat out"
+   },
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "sulten",
+    "en": "hungry"
    }
   ],
   "sentence": {
@@ -1089,10 +1153,6 @@
     "en": "a question"
    },
    {
-    "da": "at spørge",
-    "en": "to ask"
-   },
-   {
     "da": "at bede om",
     "en": "to ask for / request"
    }
@@ -1124,16 +1184,20 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road / a way"
-   },
-   {
     "da": "at finde vej",
     "en": "to find one's way"
    },
    {
-    "da": "at spørge",
-    "en": "to ask"
+    "da": "at fare vild",
+    "en": "to get lost"
+   },
+   {
+    "da": "et kort",
+    "en": "a map"
+   },
+   {
+    "da": "at vise vej",
+    "en": "to show the way"
    }
   ],
   "sentence": {
@@ -1142,7 +1206,7 @@
   }
  },
  "at starte": {
-  "explanation": "\"At starte\" means \"to start\", for people and for machines: Bilen starter ikke (The car won't start) and Vi starter i morgen (We start tomorrow).",
+  "explanation": "\"At starte\" means \"to start\", for people and for machines: Bilen starter ikke (The car won't start) and Vi starter i morgen (We start tomorrow). At begynde (to begin) means almost the same.",
   "forms": [
    {
     "da": "at starte",
@@ -1208,6 +1272,10 @@
    {
     "da": "en stavning",
     "en": "a spelling"
+   },
+   {
+    "da": "en stavefejl",
+    "en": "a spelling mistake"
    }
   ],
   "sentence": {
@@ -1243,6 +1311,10 @@
    {
     "da": "et vækkeur",
     "en": "an alarm clock"
+   },
+   {
+    "da": "sommertid",
+    "en": "summer time"
    }
   ],
   "sentence": {
@@ -1317,6 +1389,10 @@
    {
     "da": "en studerende",
     "en": "a student"
+   },
+   {
+    "da": "et studie",
+    "en": "a study, a course of study"
    }
   ],
   "sentence": {
@@ -1385,16 +1461,16 @@
   ],
   "related": [
    {
-    "da": "en kø",
-    "en": "a queue"
-   },
-   {
     "da": "at vente",
     "en": "to wait"
    },
    {
-    "da": "at stå",
-    "en": "to stand"
+    "da": "tålmodig",
+    "en": "patient"
+   },
+   {
+    "da": "en venteliste",
+    "en": "a waiting list"
    }
   ],
   "sentence": {
@@ -1463,12 +1539,16 @@
   ],
   "related": [
    {
-    "da": "en ski",
-    "en": "a ski"
+    "da": "en skiløber",
+    "en": "a skier"
    },
    {
-    "da": "at stå",
-    "en": "to stand"
+    "da": "at snowboarde",
+    "en": "to snowboard"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
    }
   ],
   "sentence": {
@@ -1543,6 +1623,10 @@
    {
     "da": "en svømmehal",
     "en": "a swimming pool"
+   },
+   {
+    "da": "en svømmer",
+    "en": "a swimmer"
    }
   ],
   "sentence": {
@@ -1617,6 +1701,10 @@
    {
     "da": "en sanger",
     "en": "a singer"
+   },
+   {
+    "da": "et kor",
+    "en": "a choir"
    }
   ],
   "sentence": {
@@ -1730,6 +1818,10 @@
    {
     "da": "at rejse sig",
     "en": "to stand up"
+   },
+   {
+    "da": "at lægge sig",
+    "en": "to lie down"
    }
   ],
   "sentence": {
@@ -1757,14 +1849,27 @@
     "en": "the salads"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "en dressing",
+    "en": "a dressing"
+   },
+   {
+    "da": "en kartoffelsalat",
+    "en": "a potato salad"
+   },
+   {
+    "da": "en frugtsalat",
+    "en": "a fruit salad"
+   }
+  ],
   "sentence": {
    "da": "Jeg spiser en **salat** med tomat og agurk.",
    "en": "I eat a salad with tomato and cucumber."
   }
  },
  "en sandal": {
-  "explanation": "\"En sandal\" means \"a sandal\", an open shoe for warm weather. Et par sandaler means \"a pair of sandals\".",
+  "explanation": "\"En sandal\" means \"a sandal\". Sandals come in pairs, so you will often see et par sandaler (a pair of sandals).",
   "forms": [
    {
     "da": "en sandal",
@@ -1791,6 +1896,10 @@
    {
     "da": "en støvle",
     "en": "a boot"
+   },
+   {
+    "da": "en hjemmesko",
+    "en": "a slipper"
    }
   ],
   "sentence": {
@@ -1826,6 +1935,10 @@
    {
     "da": "en toast",
     "en": "a toasted sandwich"
+   },
+   {
+    "da": "en burger",
+    "en": "a burger"
    }
   ],
   "sentence": {
@@ -1861,6 +1974,10 @@
    {
     "da": "at gå i seng",
     "en": "to go to bed"
+   },
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
    }
   ],
   "sentence": {
@@ -1974,6 +2091,10 @@
    {
     "da": "et sygehus",
     "en": "a hospital"
+   },
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
    }
   ],
   "sentence": {
@@ -2044,6 +2165,14 @@
    {
     "da": "pålæg",
     "en": "sandwich toppings / cold cuts"
+   },
+   {
+    "da": "leverpostej",
+    "en": "liver pâté"
+   },
+   {
+    "da": "bacon",
+    "en": "bacon"
    }
   ],
   "sentence": {
@@ -2079,6 +2208,10 @@
    {
     "da": "en brødskive",
     "en": "a slice of bread"
+   },
+   {
+    "da": "at skære",
+    "en": "to cut"
    }
   ],
   "sentence": {
@@ -2087,7 +2220,7 @@
   }
  },
  "en skjorte": {
-  "explanation": "\"En skjorte\" means \"a shirt\" with a collar and buttons. A T-shirt is en t-shirt, and \"en trøje\" is a sweater or a top.",
+  "explanation": "\"En skjorte\" means \"a shirt\". The j in skjorte is said like an English y.",
   "forms": [
    {
     "da": "en skjorte",
@@ -2114,6 +2247,10 @@
    {
     "da": "en t-shirt",
     "en": "a t-shirt"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
    }
   ],
   "sentence": {
@@ -2231,6 +2368,10 @@
    {
     "da": "en skoledag",
     "en": "a school day"
+   },
+   {
+    "da": "en børnehave",
+    "en": "a kindergarten"
    }
   ],
   "sentence": {
@@ -2262,6 +2403,14 @@
    {
     "da": "en skovtur",
     "en": "a trip to the forest"
+   },
+   {
+    "da": "en mark",
+    "en": "a field"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
    }
   ],
   "sentence": {
@@ -2309,7 +2458,7 @@
   }
  },
  "en sky": {
-  "explanation": "\"En sky\" means \"a cloud\". There is also a different word sky that means \"shy\": Han er sky means \"He is shy\".",
+  "explanation": "\"En sky\" means \"a cloud\". There is also a different word sky that means \"shy\": Han er sky (He is shy). The sentence tells you which one is meant.",
   "forms": [
    {
     "da": "en sky",
@@ -2375,6 +2524,10 @@
    {
     "da": "skål",
     "en": "cheers"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
    }
   ],
   "sentence": {
@@ -2410,6 +2563,10 @@
    {
     "da": "en telefon",
     "en": "a phone"
+   },
+   {
+    "da": "en computer",
+    "en": "a computer"
    }
   ],
   "sentence": {
@@ -2457,7 +2614,7 @@
   }
  },
  "en sms": {
-  "explanation": "\"En sms\" means \"a text message\", said es-em-es. At sms'e means \"to text\", and \"Jeg sender dig en sms\" means \"I will send you a text\".",
+  "explanation": "\"En sms\" means \"a text message\", said es-em-es. Jeg sender dig en sms (I am sending you a text). For messages in chat apps Danes usually say en besked (a message).",
   "forms": [
    {
     "da": "en sms",
@@ -2484,6 +2641,10 @@
    {
     "da": "at sms'e",
     "en": "to text"
+   },
+   {
+    "da": "en mail",
+    "en": "an email"
    }
   ],
   "sentence": {
@@ -2492,7 +2653,7 @@
   }
  },
  "en snack": {
-  "explanation": "\"En snack\" means \"a snack\", a small bite to eat between meals.",
+  "explanation": "\"En snack\" means \"a snack\". Another way to say it is en bid mad (a bite of food).",
   "forms": [
    {
     "da": "en snack",
@@ -2515,6 +2676,10 @@
    {
     "da": "en mellemmåltid",
     "en": "a snack between meals"
+   },
+   {
+    "da": "en bid mad",
+    "en": "a bite to eat"
    }
   ],
   "sentence": {
@@ -2562,7 +2727,7 @@
   }
  },
  "en sofa": {
-  "explanation": "\"En sofa\" means \"a sofa\" or \"a couch\", a long soft seat for several people.",
+  "explanation": "\"En sofa\" means \"a sofa\" or \"a couch\". The low table in front of it is et sofabord (a coffee table), built from sofa and bord (table).",
   "forms": [
    {
     "da": "en sofa",
@@ -2589,6 +2754,10 @@
    {
     "da": "en lænestol",
     "en": "an armchair"
+   },
+   {
+    "da": "en sofapude",
+    "en": "a sofa cushion"
    }
   ],
   "sentence": {
@@ -2620,6 +2789,14 @@
    {
     "da": "en strømpe",
     "en": "a stocking / sock"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "en handske",
+    "en": "a glove"
    }
   ],
   "sentence": {
@@ -2733,6 +2910,10 @@
    {
     "da": "sommer",
     "en": "summer"
+   },
+   {
+    "da": "en vinterferie",
+    "en": "a winter holiday"
    }
   ],
   "sentence": {
@@ -2741,7 +2922,7 @@
   }
  },
  "en sovs": {
-  "explanation": "\"En sovs\" means \"a sauce\" or \"gravy\". Tomatsovs is tomato sauce.",
+  "explanation": "\"En sovs\" means \"a sauce\" or \"gravy\". Tomatsovs (tomato sauce) is built on it. The spelling en sauce (a sauce) is also used.",
   "forms": [
    {
     "da": "en sovs",
@@ -2764,6 +2945,14 @@
    {
     "da": "en sauce",
     "en": "a sauce"
+   },
+   {
+    "da": "en ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "en sennep",
+    "en": "mustard"
    }
   ],
   "sentence": {
@@ -2838,6 +3027,10 @@
    {
     "da": "en togstation",
     "en": "a train station"
+   },
+   {
+    "da": "et stoppested",
+    "en": "a stop"
    }
   ],
   "sentence": {
@@ -2873,6 +3066,10 @@
    {
     "da": "en gryde",
     "en": "a pot"
+   },
+   {
+    "da": "et komfur",
+    "en": "a stove"
    }
   ],
   "sentence": {
@@ -2908,6 +3105,10 @@
    {
     "da": "en småsten",
     "en": "a pebble"
+   },
+   {
+    "da": "sand",
+    "en": "sand"
    }
   ],
   "sentence": {
@@ -2943,6 +3144,10 @@
    {
     "da": "en sol",
     "en": "a sun"
+   },
+   {
+    "da": "en planet",
+    "en": "a planet"
    }
   ],
   "sentence": {
@@ -3138,6 +3343,14 @@
    {
     "da": "en kyst",
     "en": "a coast"
+   },
+   {
+    "da": "et hav",
+    "en": "a sea"
+   },
+   {
+    "da": "sand",
+    "en": "sand"
    }
   ],
   "sentence": {
@@ -3173,6 +3386,10 @@
    {
     "da": "strømpebukser",
     "en": "tights"
+   },
+   {
+    "da": "en sko",
+    "en": "a shoe"
    }
   ],
   "sentence": {
@@ -3204,6 +3421,14 @@
    {
     "da": "et værelse",
     "en": "a room"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   },
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
    }
   ],
   "sentence": {
@@ -3239,6 +3464,14 @@
    {
     "da": "lille",
     "en": "small"
+   },
+   {
+    "da": "en tøjstørrelse",
+    "en": "a clothing size"
+   },
+   {
+    "da": "en skostørrelse",
+    "en": "a shoe size"
    }
   ],
   "sentence": {
@@ -3247,7 +3480,7 @@
   }
  },
  "en støvle": {
-  "explanation": "\"En støvle\" means \"a boot\", one single boot. Et par støvler means \"a pair of boots\".",
+  "explanation": "\"En støvle\" means \"a boot\". Boots come in pairs, so you often hear et par støvler (a pair of boots). Rubber boots are gummistøvler, built on the same word.",
   "forms": [
    {
     "da": "en støvle",
@@ -3274,6 +3507,10 @@
    {
     "da": "en sko",
     "en": "a shoe"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
    }
   ],
   "sentence": {
@@ -3309,6 +3546,10 @@
    {
     "da": "en suppeske",
     "en": "a soup spoon"
+   },
+   {
+    "da": "en gryderet",
+    "en": "a stew"
    }
   ],
   "sentence": {
@@ -3344,6 +3585,10 @@
    {
     "da": "en pullover",
     "en": "a pullover"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
    }
   ],
   "sentence": {
@@ -3457,6 +3702,10 @@
    {
     "da": "en dam",
     "en": "a pond"
+   },
+   {
+    "da": "en flod",
+    "en": "a river"
    }
   ],
   "sentence": {
@@ -3543,7 +3792,7 @@
   }
  },
  "et sekund": {
-  "explanation": "\"Et sekund\" means \"a second\", a unit of time. Do not mix it up with second as in number two, which is anden or \"andet\".",
+  "explanation": "\"Et sekund\" means \"a second\". Do not mix it up with second as in number two, which is anden (second). Et øjeblik (a moment) is a similar short wait: Et øjeblik, tak (One moment, please).",
   "forms": [
    {
     "da": "et sekund",
@@ -3613,6 +3862,10 @@
    {
     "da": "et klædeskab",
     "en": "a wardrobe"
+   },
+   {
+    "da": "en hylde",
+    "en": "a shelf"
    }
   ],
   "sentence": {
@@ -3621,7 +3874,7 @@
   }
  },
  "et skib": {
-  "explanation": "\"Et skib\" means \"a ship\". It is for big vessels; a small one is en båd (a boat).",
+  "explanation": "\"Et skib\" means \"a ship\". A smaller boat is en båd (a boat), and a cruise ship is et krydstogtskib (a cruise ship).",
   "forms": [
    {
     "da": "et skib",
@@ -3648,6 +3901,10 @@
    {
     "da": "en færge",
     "en": "a ferry"
+   },
+   {
+    "da": "en sejlbåd",
+    "en": "a sailboat"
    }
   ],
   "sentence": {
@@ -3679,6 +3936,14 @@
    {
     "da": "et overskæg",
     "en": "a moustache"
+   },
+   {
+    "da": "et hår",
+    "en": "a hair"
+   },
+   {
+    "da": "at barbere",
+    "en": "to shave"
    }
   ],
   "sentence": {
@@ -3749,6 +4014,14 @@
    {
     "da": "et bakspejl",
     "en": "a rear-view mirror"
+   },
+   {
+    "da": "et sidespejl",
+    "en": "a side mirror"
+   },
+   {
+    "da": "et spejlbillede",
+    "en": "a reflection"
    }
   ],
   "sentence": {
@@ -3913,7 +4186,7 @@
   }
  },
  "et stoppested": {
-  "explanation": "\"Et stoppested\" means \"a stop\" for a bus or tram. It is built from stoppe (to stop) and sted (place).",
+  "explanation": "\"Et stoppested\" means \"a stop\". It is built from stoppe (to stop) and sted (place). For a bus, say et busstoppested (a bus stop).",
   "forms": [
    {
     "da": "et stoppested",
@@ -3991,7 +4264,7 @@
   }
  },
  "et supermarked": {
-  "explanation": "\"Et supermarked\" means \"a supermarket\".",
+  "explanation": "\"Et supermarked\" means \"a supermarket\". It is built from super (super) and marked (market). You can ask Hvor er supermarkedet? (Where is the supermarket?).",
   "forms": [
    {
     "da": "et supermarked",
@@ -4018,6 +4291,10 @@
    {
     "da": "en butik",
     "en": "a shop"
+   },
+   {
+    "da": "et indkøbscenter",
+    "en": "a shopping centre"
    }
   ],
   "sentence": {
@@ -4053,6 +4330,10 @@
    {
     "da": "at svare",
     "en": "to answer"
+   },
+   {
+    "da": "at spørge",
+    "en": "to ask"
    }
   ],
   "sentence": {
@@ -4088,6 +4369,10 @@
    {
     "da": "svinekød",
     "en": "pork"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
    }
   ],
   "sentence": {
@@ -4096,7 +4381,7 @@
   }
  },
  "et sygehus": {
-  "explanation": "\"Et sygehus\" means \"a hospital\". It is built from syg (sick) and hus (house). Hun er på sygehuset means \"She is at the hospital\".",
+  "explanation": "\"Et sygehus\" means \"a hospital\". It is built from syg (sick) and hus (house). Et hospital (a hospital) means the same. Hun er på sygehuset (She is at the hospital).",
   "forms": [
    {
     "da": "et sygehus",
@@ -4162,6 +4447,10 @@
    {
     "da": "en skade",
     "en": "an injury"
+   },
+   {
+    "da": "et plaster",
+    "en": "a band-aid"
    }
   ],
   "sentence": {
@@ -4353,7 +4642,7 @@
   }
  },
  "seks": {
-  "explanation": "\"Seks\" means \"six\", as in seks æg (six eggs).",
+  "explanation": "\"Seks\" means \"six\". Compare seks børn (six children) with syv børn (seven children). It is used for time too: Klokken er seks (It is six o'clock).",
   "forms": [
    {
     "da": "seks æg",
@@ -4392,7 +4681,7 @@
   }
  },
  "seksten": {
-  "explanation": "\"Seksten\" means \"sixteen\". Do not mix it up with seks (six): seks børn (six children), seksten børn (sixteen children).",
+  "explanation": "\"Seksten\" means \"sixteen\". Do not mix it up with seks (six): seks børn (six children), seksten børn (sixteen children). It is used for age: Jeg er seksten år (I am sixteen years old).",
   "forms": [
    {
     "da": "seksten år",
@@ -4479,16 +4768,16 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
     "da": "tak for det",
     "en": "thanks for that"
    },
    {
     "da": "det var så lidt",
     "en": "it was nothing"
+   },
+   {
+    "da": "tusind tak",
+    "en": "thanks a lot"
    }
   ],
   "sentence": {
@@ -4532,7 +4821,7 @@
   }
  },
  "senere": {
-  "explanation": "\"Senere\" means \"later\", as in senere i dag (later today). Do not mix it up with sent, which means \"late\": Det er sent (It is late).",
+  "explanation": "\"Senere\" means \"later\", as in Vi ses senere (See you later) and senere i dag (later today). Do not mix it up with sent, which means \"late\": Det er sent (It is late).",
   "forms": [
    {
     "da": "senere",
@@ -4578,14 +4867,27 @@
     "en": "the mustard"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "remoulade",
+    "en": "remoulade"
+   }
+  ],
   "sentence": {
    "da": "Pølsen smager godt med ketchup og **sennep**.",
    "en": "The sausage tastes good with ketchup and mustard."
   }
  },
  "sent": {
-  "explanation": "\"Sent\" means \"late\", as in not early: Vi kom sent hjem (We came home late). Do not mix it up with senere, which means \"later\".",
+  "explanation": "\"Sent\" means \"late\", as in not early: Vi kom sent hjem (We came home late). Do not mix it up with senere, which means \"later\". To say you are running late, say Jeg kommer for sent (I am coming too late) or Jeg er forsinket (I am delayed).",
   "forms": [
    {
     "da": "sent",
@@ -4647,6 +4949,10 @@
    {
     "da": "oktober",
     "en": "October"
+   },
+   {
+    "da": "et efterår",
+    "en": "an autumn"
    }
   ],
   "sentence": {
@@ -4655,7 +4961,7 @@
   }
  },
  "ses i morgen": {
-  "explanation": "\"Ses i morgen\" means \"see you tomorrow\". You can swap i morgen for another time: ses i aften (see you tonight).",
+  "explanation": "\"Ses i morgen\" means \"see you tomorrow\". Swap i morgen for another time: ses i aften (see you tonight).",
   "forms": [
    {
     "da": "Ses i morgen!",
@@ -4680,10 +4986,6 @@
     "en": "see you tonight"
    },
    {
-    "da": "i morgen",
-    "en": "tomorrow"
-   },
-   {
     "da": "farvel",
     "en": "goodbye"
    }
@@ -4694,7 +4996,7 @@
   }
  },
  "shampoo": {
-  "explanation": "\"Shampoo\" means \"shampoo\". You do not count it, so you say noget shampoo (some shampoo).",
+  "explanation": "\"Shampoo\" means \"shampoo\" and is spelled the same as in English. You do not count it, so you say noget shampoo (some shampoo).",
   "forms": [
    {
     "da": "shampoo",
@@ -4713,6 +5015,14 @@
    {
     "da": "balsam",
     "en": "conditioner"
+   },
+   {
+    "da": "sæbe",
+    "en": "soap"
+   },
+   {
+    "da": "tandpasta",
+    "en": "toothpaste"
    }
   ],
   "sentence": {
@@ -4744,6 +5054,10 @@
    {
     "da": "korte bukser",
     "en": "short trousers"
+   },
+   {
+    "da": "badebukser",
+    "en": "swim trunks"
    }
   ],
   "sentence": {
@@ -4775,6 +5089,10 @@
    {
     "da": "indtil",
     "en": "until"
+   },
+   {
+    "da": "før",
+    "en": "before"
    }
   ],
   "sentence": {
@@ -5048,7 +5366,7 @@
   }
  },
  "sjette": {
-  "explanation": "\"Sjette\" means \"sixth\", as in det sjette æg (the sixth egg). It is used for dates too: den sjette maj (the sixth of May).",
+  "explanation": "\"Sjette\" means \"sixth\", as in det sjette æg (the sixth egg). It is used for dates too: den sjette maj (the sixth of May). It is not spelled sekste, even though seks (six) is the number it comes from.",
   "forms": [
    {
     "da": "den sjette dag",
@@ -5106,6 +5424,10 @@
    {
     "da": "morsom",
     "en": "amusing"
+   },
+   {
+    "da": "alvorlig",
+    "en": "serious"
    }
   ],
   "sentence": {
@@ -5192,7 +5514,7 @@
   }
  },
  "skyet": {
-  "explanation": "\"Skyet\" means \"cloudy\". It comes from en sky (a cloud).",
+  "explanation": "\"Skyet\" means \"cloudy\". It comes from en sky (a cloud). In weather forecasts you also hear overskyet (overcast), when clouds cover the whole sky.",
   "forms": [
    {
     "da": "en skyet dag",
@@ -5250,6 +5572,10 @@
    {
     "da": "at skynde sig",
     "en": "to hurry"
+   },
+   {
+    "da": "vent lidt",
+    "en": "wait a moment"
    }
   ],
   "sentence": {
@@ -5277,6 +5603,14 @@
    {
     "da": "en skål",
     "en": "a bowl"
+   },
+   {
+    "da": "velbekomme",
+    "en": "enjoy your meal"
+   },
+   {
+    "da": "en tallerken",
+    "en": "a plate"
    }
   ],
   "sentence": {
@@ -5339,6 +5673,14 @@
    {
     "da": "at slikke",
     "en": "to lick"
+   },
+   {
+    "da": "chokolade",
+    "en": "chocolate"
+   },
+   {
+    "da": "lakrids",
+    "en": "liquorice"
    }
   ],
   "sentence": {
@@ -5479,6 +5821,10 @@
    {
     "da": "smørrebrød",
     "en": "open sandwich"
+   },
+   {
+    "da": "margarine",
+    "en": "margarine"
    }
   ],
   "sentence": {
@@ -5561,7 +5907,7 @@
   }
  },
  "sne": {
-  "explanation": "\"Sne\" means \"snow\". It is part of words like en snemand (a snowman) and en snebold (a snowball).",
+  "explanation": "\"Sne\" means \"snow\". To say that it is snowing, use Det sner (It is snowing). It is also part of words like en snemand (a snowman) and en snebold (a snowball).",
   "forms": [
    {
     "da": "sne",
@@ -5623,6 +5969,10 @@
    {
     "da": "uldsokker",
     "en": "wool socks"
+   },
+   {
+    "da": "handsker",
+    "en": "gloves"
    }
   ],
   "sentence": {
@@ -5654,6 +6004,10 @@
    {
     "da": "briller",
     "en": "glasses"
+   },
+   {
+    "da": "solcreme",
+    "en": "sun cream"
    }
   ],
   "sentence": {
@@ -5962,7 +6316,7 @@
   }
  },
  "sort": {
-  "explanation": "\"Sort\" means \"black\": sort kaffe (black coffee).",
+  "explanation": "\"Sort\" means \"black\", as in en sort bil (a black car). It is also used in sort kaffe (black coffee).",
   "forms": [
    {
     "da": "en sort bil",
@@ -5997,7 +6351,7 @@
   }
  },
  "sov godt": {
-  "explanation": "\"Sov godt\" means \"sleep well\". Sov comes from at sove (to sleep) and \"godt\" means \"well\".",
+  "explanation": "\"Sov godt\" means \"sleep well\". Sov comes from at sove (to sleep) and godt means \"well\".",
   "forms": [
    {
     "da": "Sov godt!",
@@ -6020,6 +6374,10 @@
    {
     "da": "at sove",
     "en": "to sleep"
+   },
+   {
+    "da": "godmorgen",
+    "en": "good morning"
    }
   ],
   "sentence": {
@@ -6028,7 +6386,7 @@
   }
  },
  "spaghetti": {
-  "explanation": "\"Spaghetti\" means \"spaghetti\". You do not count it: en tallerken spaghetti (a plate of spaghetti).",
+  "explanation": "\"Spaghetti\" means \"spaghetti\", spelled the same as in English. You do not count it: en tallerken spaghetti (a plate of spaghetti).",
   "forms": [
    {
     "da": "noget spaghetti",
@@ -6047,6 +6405,10 @@
    {
     "da": "nudler",
     "en": "noodles"
+   },
+   {
+    "da": "lasagne",
+    "en": "lasagne"
    }
   ],
   "sentence": {
@@ -6055,7 +6417,7 @@
   }
  },
  "spanien": {
-  "explanation": "\"Spanien\" means \"Spain\": Jeg elsker Spanien (I love Spain).",
+  "explanation": "\"Spanien\" means \"Spain\". Example: Jeg elsker Spanien (I love Spain). Countries take i for being there and til for going there, as in the forms above.",
   "forms": [
    {
     "da": "Spanien",
@@ -6078,6 +6440,10 @@
    {
     "da": "spansk",
     "en": "Spanish"
+   },
+   {
+    "da": "Portugal",
+    "en": "Portugal"
    }
   ],
   "sentence": {
@@ -6140,6 +6506,14 @@
    {
     "da": "en grøntsag",
     "en": "a vegetable"
+   },
+   {
+    "da": "broccoli",
+    "en": "broccoli"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
    }
   ],
   "sentence": {
@@ -6167,6 +6541,14 @@
    {
     "da": "at dyrke",
     "en": "to do (a sport)"
+   },
+   {
+    "da": "motion",
+    "en": "exercise"
+   },
+   {
+    "da": "sportstøj",
+    "en": "sportswear"
    }
   ],
   "sentence": {
@@ -6440,7 +6822,7 @@
   }
  },
  "storbritannien": {
-  "explanation": "\"Storbritannien\" means \"Great Britain\". It is made from stor (big) and Britannien (Britain). A person from there is en brite (a Briton).",
+  "explanation": "\"Storbritannien\" means \"Great Britain\". It is built from stor (big) and Britannien (Britain). Example: Vi rejser til Storbritannien (We travel to Great Britain).",
   "forms": [
    {
     "da": "Storbritannien",
@@ -6518,7 +6900,7 @@
   }
  },
  "størst": {
-  "explanation": "\"Størst\" means \"biggest\" or \"largest\": Han er størst (He is the biggest). Compare Hun er større (She is bigger).",
+  "explanation": "\"Størst\" means \"biggest\" or \"largest\". Compare Hun er større (She is bigger) with Han er størst (He is the biggest).",
   "forms": [
    {
     "da": "den største by",
@@ -6619,6 +7001,10 @@
    {
     "da": "sukkerfri",
     "en": "sugar-free"
+   },
+   {
+    "da": "honning",
+    "en": "honey"
    }
   ],
   "sentence": {
@@ -6701,7 +7087,7 @@
   }
  },
  "sundhed": {
-  "explanation": "\"Sundhed\" means \"health\". Helbred is close and says how well one person is doing: Han har dårligt helbred (He is in poor health).",
+  "explanation": "\"Sundhed\" means \"health\" in a general sense, such as how healthy a lifestyle or a country is. For a person's own condition Danes usually say helbred (health): Han har dårligt helbred (He is in poor health).",
   "forms": [
    {
     "da": "sundhed",
@@ -6872,6 +7258,14 @@
    {
     "da": "en svimmelhed",
     "en": "dizziness"
+   },
+   {
+    "da": "kvalm",
+    "en": "nauseous"
+   },
+   {
+    "da": "utilpas",
+    "en": "unwell"
    }
   ],
   "sentence": {
@@ -6973,6 +7367,10 @@
    {
     "da": "en svømmehal",
     "en": "a swimming pool (indoor)"
+   },
+   {
+    "da": "en svømmer",
+    "en": "a swimmer"
    }
   ],
   "sentence": {
@@ -6981,7 +7379,7 @@
   }
  },
  "syd": {
-  "explanation": "\"Syd\" means \"south\": Det er varmt i syd (It is warm in the south). Use mod syd for the direction: Vi kører mod syd (We drive south).",
+  "explanation": "\"Syd\" means \"south\". Compare Det er varmt i syd (It is warm in the south) with Det er koldt i nord (It is cold in the north). Use mod syd for the direction: Vi kører mod syd (We drive south).",
   "forms": [
    {
     "da": "syd",
@@ -7074,6 +7472,10 @@
    {
     "da": "en sygdom",
     "en": "an illness"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
    }
   ],
   "sentence": {
@@ -7105,6 +7507,10 @@
    {
     "da": "et jordbær",
     "en": "a strawberry"
+   },
+   {
+    "da": "honning",
+    "en": "honey"
    }
   ],
   "sentence": {
@@ -7113,7 +7519,7 @@
   }
  },
  "sytten": {
-  "explanation": "\"Sytten\" means \"seventeen\". Do not mix it up with syv (seven): syv børn (seven children), sytten børn (seventeen children).",
+  "explanation": "\"Sytten\" means \"seventeen\". Do not mix it up with syv (seven): syv børn (seven children), sytten børn (seventeen children). Example: Jeg er sytten år (I am seventeen years old).",
   "forms": [
    {
     "da": "sytten år",
@@ -7354,6 +7760,10 @@
    {
     "da": "en sæbeboble",
     "en": "a soap bubble"
+   },
+   {
+    "da": "shampoo",
+    "en": "shampoo"
    }
   ],
   "sentence": {
@@ -7424,6 +7834,10 @@
    {
     "da": "bronze",
     "en": "bronze"
+   },
+   {
+    "da": "jern",
+    "en": "iron"
    }
   ],
   "sentence": {
@@ -7432,7 +7846,7 @@
   }
  },
  "søndag": {
-  "explanation": "\"Søndag\" means \"Sunday\". Say på søndag (on Sunday) for this coming Sunday and om søndagen (on Sundays) for every Sunday.",
+  "explanation": "\"Søndag\" means \"Sunday\". Day names are written with a small letter in Danish. Say på søndag (on Sunday) for this coming Sunday and om søndagen (on Sundays) for every Sunday.",
   "forms": [
    {
     "da": "en søndag",
@@ -7459,6 +7873,10 @@
    {
     "da": "en mandag",
     "en": "a Monday"
+   },
+   {
+    "da": "en weekend",
+    "en": "a weekend"
    }
   ],
   "sentence": {

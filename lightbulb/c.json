@@ -62,6 +62,10 @@
    {
     "da": "kartoffelchips",
     "en": "potato crisps"
+   },
+   {
+    "da": "popcorn",
+    "en": "popcorn"
    }
   ],
   "sentence": {
@@ -93,6 +97,10 @@
    {
     "da": "en chokoladekage",
     "en": "a chocolate cake"
+   },
+   {
+    "da": "slik",
+    "en": "sweets / candy"
    }
   ],
   "sentence": {
@@ -159,6 +167,10 @@
    {
     "da": "müsli",
     "en": "muesli"
+   },
+   {
+    "da": "havregrød",
+    "en": "porridge"
    }
   ],
   "sentence": {
@@ -225,6 +237,14 @@
    {
     "da": "en restaurant",
     "en": "a restaurant"
+   },
+   {
+    "da": "en bar",
+    "en": "a bar"
+   },
+   {
+    "da": "et konditori",
+    "en": "a pastry cafe"
    }
   ],
   "sentence": {
@@ -233,7 +253,7 @@
   }
  },
  "en centimeter": {
-  "explanation": "\"En centimeter\" means \"a centimeter\", a hundredth of a meter.",
+  "explanation": "\"En centimeter\" means \"a centimeter\". After a number it stays the same: ti centimeter (ten centimeters).",
   "forms": [
    {
     "da": "en centimeter",
@@ -299,6 +319,10 @@
    {
     "da": "en køkkenchef",
     "en": "a head chef"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "an employee"
    }
   ],
   "sentence": {
@@ -334,6 +358,10 @@
    {
     "da": "en frugt",
     "en": "a fruit"
+   },
+   {
+    "da": "en lime",
+    "en": "a lime"
    }
   ],
   "sentence": {
@@ -365,6 +393,14 @@
    {
     "da": "en bærbar",
     "en": "a laptop"
+   },
+   {
+    "da": "en skærm",
+    "en": "a screen"
+   },
+   {
+    "da": "et tastatur",
+    "en": "a keyboard"
    }
   ],
   "sentence": {
@@ -478,6 +514,10 @@
    {
     "da": "at tjekke ud",
     "en": "to check out"
+   },
+   {
+    "da": "et check-out",
+    "en": "a check-out"
    }
   ],
   "sentence": {
@@ -486,7 +526,7 @@
   }
  },
  "et cpr-nummer": {
-  "explanation": "\"Et CPR-nummer\" means \"a CPR number\", the ten-digit personal ID number given to everyone who lives in Denmark.",
+  "explanation": "\"Et CPR-nummer\" means \"a CPR number\", the personal ID number every person living in Denmark has.",
   "forms": [
    {
     "da": "et CPR-nummer",
@@ -507,12 +547,16 @@
   ],
   "related": [
    {
-    "da": "et nummer",
-    "en": "a number"
-   },
-   {
     "da": "et telefonnummer",
     "en": "a phone number"
+   },
+   {
+    "da": "et pasnummer",
+    "en": "a passport number"
+   },
+   {
+    "da": "et kontonummer",
+    "en": "an account number"
    }
   ],
   "sentence": {

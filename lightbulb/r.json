@@ -142,12 +142,16 @@
     "en": "to call"
    },
    {
-    "da": "at ringe",
-    "en": "to ring / call"
-   },
-   {
     "da": "at ringe tilbage",
     "en": "to call back"
+   },
+   {
+    "da": "at telefonere",
+    "en": "to phone"
+   },
+   {
+    "da": "et opkald",
+    "en": "a phone call"
    }
   ],
   "sentence": {
@@ -177,16 +181,20 @@
   ],
   "related": [
    {
-    "da": "at ringe",
-    "en": "to ring / call"
-   },
-   {
     "da": "at ringe op",
     "en": "to call"
    },
    {
     "da": "at ringe tilbage",
     "en": "to call back"
+   },
+   {
+    "da": "at telefonere",
+    "en": "to phone"
+   },
+   {
+    "da": "et opkald",
+    "en": "a phone call"
    }
   ],
   "sentence": {
@@ -222,6 +230,10 @@
    {
     "da": "et udsalg",
     "en": "a sale"
+   },
+   {
+    "da": "en kupon",
+    "en": "a coupon"
    }
   ],
   "sentence": {
@@ -249,7 +261,20 @@
     "en": "the radios"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "et fjernsyn",
+    "en": "a TV"
+   },
+   {
+    "da": "en højttaler",
+    "en": "a speaker"
+   },
+   {
+    "da": "en podcast",
+    "en": "a podcast"
+   }
+  ],
   "sentence": {
    "da": "Jeg hører **radio** og musik i bilen.",
    "en": "I listen to the radio and music in the car."
@@ -279,6 +304,14 @@
    {
     "da": "en opskrift",
     "en": "a recipe"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   },
+   {
+    "da": "medicin",
+    "en": "medicine"
    }
   ],
   "sentence": {
@@ -314,6 +347,10 @@
    {
     "da": "en faktura",
     "en": "an invoice"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
    }
   ],
   "sentence": {
@@ -423,6 +460,14 @@
    {
     "da": "rejemad",
     "en": "shrimp on bread"
+   },
+   {
+    "da": "en krabbe",
+    "en": "a crab"
+   },
+   {
+    "da": "en hummer",
+    "en": "a lobster"
    }
   ],
   "sentence": {
@@ -497,6 +542,10 @@
    {
     "da": "at bestille",
     "en": "to book, to order"
+   },
+   {
+    "da": "en booking",
+    "en": "a booking"
    }
   ],
   "sentence": {
@@ -528,6 +577,14 @@
    {
     "da": "en café",
     "en": "a cafe"
+   },
+   {
+    "da": "en bar",
+    "en": "a bar"
+   },
+   {
+    "da": "en kantine",
+    "en": "a canteen"
    }
   ],
   "sentence": {
@@ -563,6 +620,10 @@
    {
     "da": "en billet",
     "en": "a ticket"
+   },
+   {
+    "da": "et klippekort",
+    "en": "a multi-trip card"
    }
   ],
   "sentence": {
@@ -594,6 +655,14 @@
    {
     "da": "rosa",
     "en": "pink"
+   },
+   {
+    "da": "en tulipan",
+    "en": "a tulip"
+   },
+   {
+    "da": "en solsikke",
+    "en": "a sunflower"
    }
   ],
   "sentence": {
@@ -750,6 +819,10 @@
    {
     "da": "et stykke",
     "en": "a piece"
+   },
+   {
+    "da": "et rugbrød",
+    "en": "a loaf of rye bread"
    }
   ],
   "sentence": {
@@ -816,6 +889,10 @@
    {
     "da": "et regnvejr",
     "en": "rainy weather"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
    }
   ],
   "sentence": {
@@ -824,7 +901,7 @@
   }
  },
  "regnvejr": {
-  "explanation": "\"Regnvejr\" means \"rainy weather\". It is built from regn (rain) and vejr (weather). You can say Det er regnvejr (It is rainy weather).",
+  "explanation": "\"Regnvejr\" means \"rainy weather\". It is built from regn (rain) and vejr (weather). You can say Det er regnvejr (It is rainy weather) or i regnvejr (in rainy weather).",
   "forms": [
    {
     "da": "et regnvejr",
@@ -886,6 +963,10 @@
    {
     "da": "skaldyr",
     "en": "shellfish"
+   },
+   {
+    "da": "en krabbe",
+    "en": "a crab"
    }
   ],
   "sentence": {
@@ -1100,6 +1181,14 @@
    {
     "da": "risengrød",
     "en": "rice pudding"
+   },
+   {
+    "da": "pasta",
+    "en": "pasta"
+   },
+   {
+    "da": "nudler",
+    "en": "noodles"
    }
   ],
   "sentence": {
@@ -1236,6 +1325,10 @@
    {
     "da": "russisk",
     "en": "Russian"
+   },
+   {
+    "da": "Finland",
+    "en": "Finland"
    }
   ],
   "sentence": {
@@ -1267,6 +1360,10 @@
    {
     "da": "en russer",
     "en": "a Russian"
+   },
+   {
+    "da": "polsk",
+    "en": "Polish"
    }
   ],
   "sentence": {

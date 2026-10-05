@@ -43,7 +43,7 @@
   }
  },
  "wifi": {
-  "explanation": "\"Wifi\" means \"wifi\": Er der wifi? (Is there wifi?).",
+  "explanation": "\"Wifi\" means \"wifi\". You can ask Er der wifi? (Is there wifi?) and then Hvad er koden? (What is the code?).",
   "forms": [
    {
     "da": "wifi'et",
@@ -66,6 +66,10 @@
    {
     "da": "et netværk",
     "en": "a network"
+   },
+   {
+    "da": "en adgangskode",
+    "en": "a password"
    }
   ],
   "sentence": {
@@ -74,7 +78,7 @@
   }
  },
  "wow": {
-  "explanation": "\"Wow\" means \"wow\", said when you are surprised or impressed. Add hvor (how) to say what impressed you: Wow, hvor stort! (Wow, how big!)",
+  "explanation": "\"Wow\" means \"wow\". Add hvor (how) to say what impressed you: Wow, hvor stort! (Wow, how big!)",
   "forms": [
    {
     "da": "Wow!",

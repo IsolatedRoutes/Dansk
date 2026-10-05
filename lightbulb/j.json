@@ -27,6 +27,10 @@
    {
     "da": "en regnjakke",
     "en": "a rain jacket"
+   },
+   {
+    "da": "en vinterjakke",
+    "en": "a winter jacket"
    }
   ],
   "sentence": {
@@ -105,6 +109,10 @@
    {
     "da": "en jobsamtale",
     "en": "a job interview"
+   },
+   {
+    "da": "en jobansøgning",
+    "en": "a job application"
    }
   ],
   "sentence": {
@@ -234,7 +242,7 @@
   }
  },
  "januar": {
-  "explanation": "\"Januar\" means \"January\". Month names are written with a small letter (januar), while English January has a capital letter.",
+  "explanation": "\"Januar\" means \"January\". Month names are written with a small letter: midt i januar (in the middle of January).",
   "forms": [
    {
     "da": "januar",
@@ -257,6 +265,10 @@
    {
     "da": "december",
     "en": "December"
+   },
+   {
+    "da": "marts",
+    "en": "March"
    }
   ],
   "sentence": {
@@ -288,6 +300,10 @@
    {
     "da": "japansk",
     "en": "Japanese"
+   },
+   {
+    "da": "Kina",
+    "en": "China"
    }
   ],
   "sentence": {
@@ -319,6 +335,10 @@
    {
     "da": "en japaner",
     "en": "a Japanese person"
+   },
+   {
+    "da": "kinesisk",
+    "en": "Chinese"
    }
   ],
   "sentence": {
@@ -385,6 +405,14 @@
    {
     "da": "uenig",
     "en": "in disagreement"
+   },
+   {
+    "da": "det er rigtigt",
+    "en": "that's right"
+   },
+   {
+    "da": "det synes jeg også",
+    "en": "I think so too"
    }
   ],
   "sentence": {
@@ -449,8 +477,16 @@
     "en": "to understand"
    },
    {
-    "da": "jeg forstår",
-    "en": "I understand"
+    "da": "kan du gentage det?",
+    "en": "can you repeat that?"
+   },
+   {
+    "da": "lidt langsommere, tak",
+    "en": "a bit slower, please"
+   },
+   {
+    "da": "jeg ved ikke",
+    "en": "I don't know"
    }
   ],
   "sentence": {
@@ -533,7 +569,7 @@
   }
  },
  "jeg hedder…": {
-  "explanation": "\"Jeg hedder…\" means \"my name is…\" and you add your name after it. It literally says I am called….",
+  "explanation": "\"Jeg hedder…\" means \"my name is…\" and you add your name after it. It literally says I am called…, from at hedde (to be called). A common reply is Dejligt at møde dig (Nice to meet you).",
   "forms": [
    {
     "da": "Jeg hedder Anna.",
@@ -620,16 +656,16 @@
   ],
   "related": [
    {
-    "da": "gerne",
-    "en": "gladly"
-   },
-   {
-    "da": "jeg vil have",
-    "en": "I want"
-   },
-   {
     "da": "kan jeg få…?",
     "en": "can I have…?"
+   },
+   {
+    "da": "må jeg bede om…?",
+    "en": "may I ask for…?"
+   },
+   {
+    "da": "jeg vil gerne købe",
+    "en": "I would like to buy"
    }
   ],
   "sentence": {
@@ -677,7 +713,7 @@
   }
  },
  "jeres": {
-  "explanation": "\"Jeres\" means \"your\" when you talk to several people. Compare din bil (your car — one person) with jeres bil (your car — a group).",
+  "explanation": "\"Jeres\" means \"your\" when you talk to several people. Compare din bil (your car — one person) with jeres bil (your car — a group). It never changes: jeres bil, jeres hus (your house), jeres børn (your children).",
   "forms": [
    {
     "da": "jeres bil",
@@ -770,6 +806,14 @@
    {
     "da": "et gulv",
     "en": "a floor"
+   },
+   {
+    "da": "et jordskælv",
+    "en": "an earthquake"
+   },
+   {
+    "da": "et jordbær",
+    "en": "a strawberry"
    }
   ],
   "sentence": {
@@ -801,6 +845,10 @@
    {
     "da": "æblejuice",
     "en": "apple juice"
+   },
+   {
+    "da": "saft",
+    "en": "cordial / squash"
    }
   ],
   "sentence": {
@@ -809,7 +857,7 @@
   }
  },
  "jul": {
-  "explanation": "\"Jul\" means \"Christmas\". Compare til jul (at Christmas) with i julen (during the Christmas season).",
+  "explanation": "\"Jul\" means \"Christmas\". Compare til jul (at Christmas) with i julen (during the Christmas season). The greeting is Glædelig jul! (Merry Christmas!).",
   "forms": [
    {
     "da": "jul",
@@ -848,7 +896,7 @@
   }
  },
  "juleaften": {
-  "explanation": "\"Juleaften\" means \"Christmas Eve\". It is built from jul (Christmas) and aften (evening).",
+  "explanation": "\"Juleaften\" means \"Christmas Eve\". It is built from jul (Christmas) and aften (evening). Use it without en (a) in front: på juleaften (on Christmas Eve).",
   "forms": [
    {
     "da": "juleaften",
@@ -910,6 +958,10 @@
    {
     "da": "august",
     "en": "August"
+   },
+   {
+    "da": "en måned",
+    "en": "a month"
    }
   ],
   "sentence": {
@@ -941,6 +993,10 @@
    {
     "da": "juli",
     "en": "July"
+   },
+   {
+    "da": "august",
+    "en": "August"
    }
   ],
   "sentence": {

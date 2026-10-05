@@ -1,6 +1,6 @@
 {
  "et æble": {
-  "explanation": "\"Et æble\" means \"an apple\". Æblekage means \"apple cake\", made from æble and kage (cake).",
+  "explanation": "\"Et æble\" means \"an apple\". The letter æ sounds like the e in bed, but longer. Danish joins words together: æblekage (apple cake) is æble plus kage (cake), and æblejuice (apple juice) works the same way.",
   "forms": [
    {
     "da": "et æble",
@@ -39,7 +39,7 @@
   }
  },
  "et æg": {
-  "explanation": "\"Et æg\" means \"an egg\". Kogt æg means \"boiled egg\" and \"spejlæg\" means \"fried egg\".",
+  "explanation": "\"Et æg\" means \"an egg\". The letter æ sounds like the e in bed. Two common kinds are kogt æg (boiled egg) and spejlæg (fried egg).",
   "forms": [
    {
     "da": "et æg",
@@ -66,6 +66,10 @@
    {
     "da": "en æggeblomme",
     "en": "an egg yolk"
+   },
+   {
+    "da": "en æggehvide",
+    "en": "an egg white"
    }
   ],
   "sentence": {
@@ -148,7 +152,7 @@
   }
  },
  "ærter": {
-  "explanation": "\"Ærter\" means \"peas\": Jeg kan godt lide ærter (I like peas).",
+  "explanation": "\"Ærter\" means \"peas\". Example: Jeg kan godt lide ærter (I like peas). Peas in a dish: grønne ærter (green peas).",
   "forms": [
    {
     "da": "en ært",
@@ -175,6 +179,10 @@
    {
     "da": "majs",
     "en": "corn"
+   },
+   {
+    "da": "gulerødder",
+    "en": "carrots"
    }
   ],
   "sentence": {

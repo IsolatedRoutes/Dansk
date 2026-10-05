@@ -85,7 +85,20 @@
     "en": "some yogurt"
    }
   ],
-  "related": [],
+  "related": [
+   {
+    "da": "mælk",
+    "en": "milk"
+   },
+   {
+    "da": "ost",
+    "en": "cheese"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   }
+  ],
   "sentence": {
    "da": "Jeg spiser **yoghurt** hver morgen.",
    "en": "I eat yogurt every morning."
