@@ -1,0 +1,127 @@
+{
+ "en måned": {
+  "forms": [
+   {
+    "da": "en måned",
+    "en": "a month"
+   },
+   {
+    "da": "måneden",
+    "en": "the month"
+   },
+   {
+    "da": "måneder",
+    "en": "months"
+   },
+   {
+    "da": "månederne",
+    "en": "the months"
+   }
+  ],
+  "explanation": "\"Måned\" is the ordinary word for a month. Months of the year are written with a small letter in Danish (januar, februar), unlike in English. You will often hear \"om måneden\" meaning \"per month\", for example when talking about rent or pay.",
+  "related": [
+   {
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "en dag",
+    "en": "a day"
+   },
+   {
+    "da": "hver måned",
+    "en": "every month"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler husleje hver **måned**.",
+   "en": "I pay rent every month."
+  }
+ },
+ "at meditere": {
+  "forms": [
+   {
+    "da": "at meditere",
+    "en": "to meditate"
+   },
+   {
+    "da": "jeg mediterer",
+    "en": "I meditate"
+   },
+   {
+    "da": "jeg mediterede",
+    "en": "I meditated"
+   },
+   {
+    "da": "jeg har mediteret",
+    "en": "I have meditated"
+   }
+  ],
+  "explanation": "\"At meditere\" is borrowed from Latin, and the stress falls on the \"-ere\": med-i-TEE-re. Danish verbs ending in -ere all follow the same easy pattern: mediterer, mediterede, mediteret. The noun is \"meditation\", and the practice is often combined with \"mindfulness\", which Danes use as an English word.",
+  "related": [
+   {
+    "da": "meditation",
+    "en": "meditation"
+   },
+   {
+    "da": "at slappe af",
+    "en": "to relax"
+   },
+   {
+    "da": "ro",
+    "en": "calm, peace"
+   },
+   {
+    "da": "mindfulness",
+    "en": "mindfulness"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg prøver at **meditere** hver morgen.",
+   "en": "I try to meditate every morning."
+  }
+ },
+ "med": {
+  "forms": [
+   {
+    "da": "med dig",
+    "en": "with you"
+   },
+   {
+    "da": "en kop kaffe med mælk",
+    "en": "a cup of coffee with milk"
+   },
+   {
+    "da": "Kom med!",
+    "en": "Come along!"
+   }
+  ],
+  "explanation": "\"Med\" means with. It is also a small word meaning along: \"tage med\" is to take along or go along, and \"komme med\" is to come along. The opposite is \"uden\" (without).",
+  "related": [
+   {
+    "da": "uden",
+    "en": "without"
+   },
+   {
+    "da": "sammen med",
+    "en": "together with"
+   },
+   {
+    "da": "tage med",
+    "en": "to take along, to go along"
+   },
+   {
+    "da": "også med",
+    "en": "along as well"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor **med** min bror.",
+   "en": "I live with my brother."
+  }
+ }
+}

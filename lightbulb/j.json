@@ -1,0 +1,41 @@
+{
+ "japansk": {
+  "forms": [
+   {
+    "da": "en japansk bil",
+    "en": "a Japanese car"
+   },
+   {
+    "da": "et japansk hus",
+    "en": "a Japanese house"
+   },
+   {
+    "da": "japanske biler",
+    "en": "Japanese cars"
+   }
+  ],
+  "explanation": "\"Japansk\" is the adjective, and it is written with a small letter in Danish, unlike \"Japanese\" in English. Add -e for more than one: \"japanske\". On its own, with no noun, it is also the name of the language: \"Jeg taler japansk\". A Japanese person is \"en japaner\".",
+  "related": [
+   {
+    "da": "Japan",
+    "en": "Japan"
+   },
+   {
+    "da": "en japaner",
+    "en": "a Japanese person"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "asiatisk",
+    "en": "Asian"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **japansk** mad.",
+   "en": "I love Japanese food."
+  }
+ }
+}

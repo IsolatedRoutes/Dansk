@@ -1,0 +1,80 @@
+{
+ "europæisk": {
+  "forms": [
+   {
+    "da": "en europæisk by",
+    "en": "a European city"
+   },
+   {
+    "da": "et europæisk land",
+    "en": "a European country"
+   },
+   {
+    "da": "europæiske lande",
+    "en": "European countries"
+   }
+  ],
+  "explanation": "\"Europæisk\" is written with a small letter, and the plural is \"europæiske\". A European person is \"en europæer\". In the news you will often meet it in \"den Europæiske Union\" (the European Union), where it is capitalised because it is part of a name.",
+  "related": [
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en europæer",
+    "en": "a European person"
+   },
+   {
+    "da": "EU",
+    "en": "the EU"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark er et **europæisk** land.",
+   "en": "Denmark is a European country."
+  }
+ },
+ "efter": {
+  "forms": [
+   {
+    "da": "efter arbejde",
+    "en": "after work"
+   },
+   {
+    "da": "tre dage efter",
+    "en": "three days after"
+   },
+   {
+    "da": "kigge efter noget",
+    "en": "to look for something"
+   }
+  ],
+  "explanation": "\"Efter\" means after, for time and for order. It also appears in many verb phrases where English uses \"for\": \"lede efter\" (look for), \"spørge efter\" (ask for) and \"længes efter\" (long for). When a whole sentence with its own verb follows, you need \"efter at\", as in \"efter at jeg kom hjem\".",
+  "related": [
+   {
+    "da": "før",
+    "en": "before"
+   },
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   },
+   {
+    "da": "derefter",
+    "en": "after that"
+   },
+   {
+    "da": "efter at",
+    "en": "after (+ clause)"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går en tur **efter** middagen.",
+   "en": "We go for a walk after dinner."
+  }
+ }
+}

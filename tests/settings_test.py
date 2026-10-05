@@ -43,6 +43,13 @@ with sync_playwright() as p:
     check(data.get("langDir") == "en-first", "direction change is saved")
     check(data.get("unknownOnly") is False, "Unknown-only change is saved")
 
+    # Pick one level (Basic) and keep it.
+    page.get_by_text("All levels", exact=True).first.click(); page.wait_for_timeout(300)
+    page.get_by_text("Basic (A1–A2)").first.click(); page.wait_for_timeout(800)
+    saved = json.loads(page.evaluate(READ) or "{}")
+    check(saved.get("levels") == [1], "chosen level is saved (%r)" % saved.get("levels"))
+    page.keyboard.press("Escape")
+
     # Close and reopen the app (same storage).
     page.close()
     page2 = ctx.new_page()
@@ -53,6 +60,8 @@ with sync_playwright() as p:
     saved2 = json.loads(page2.evaluate(READ) or "{}")
     check(saved2.get("langDir") == "en-first" and saved2.get("unknownOnly") is False,
           "after reopening, saved settings were not reset to defaults")
+    check(saved2.get("levels") == [1], "after reopening, the chosen level is still saved")
+    check("Basic" in page2.inner_text("body") and "All levels" not in page2.inner_text("body"), "after reopening, the Study screen still shows Basic, not All levels")
     check(errors == [], "no page errors %s" % errors)
     browser.close()
 

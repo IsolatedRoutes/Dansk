@@ -8,6 +8,7 @@ import { LEVELS } from "../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../data/irregulars";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../lib/ai/prompts";
+import { prebuiltInsight } from "../lib/lightbulb";
 import { hapticLight, hapticSuccess } from "../lib/haptics";
 import { LEVELUP_NEXT_GAP, levelUpDueAt, levelUpFormsFor } from "../lib/levelUp";
 import { speakDanish, speechSupported } from "../lib/speech";
@@ -23,6 +24,10 @@ import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor, wordMetaFor }
 // after switching tabs, closing the app, or installing an update. The copy
 // in `studyMemory` just avoids a flicker when coming back from another tab.
 const STUDY_SETTINGS_KEY = "studySettings";
+function stampSettings() {
+  storeSet("settingsChangedAt", String(Date.now())).catch(() => {});
+  window.dispatchEvent(new Event("dansk-settings-stamped"));
+}
 let studyMemory = null;
 
 function cleanStudySettings(raw) {
@@ -30,7 +35,7 @@ function cleanStudySettings(raw) {
   const out = {};
   if (typeof o.catFilter === "string") out.catFilter = o.catFilter;
   if (o.scope === "all" || o.scope === "mine") out.scope = o.scope;
-  if (Array.isArray(o.levels) && o.levels.every((l) => typeof l === "string")) out.levels = o.levels;
+  if (Array.isArray(o.levels) && o.levels.every((l) => Number.isInteger(l) && l >= 1 && l <= 4)) out.levels = o.levels;
   if (typeof o.starredOnly === "boolean") out.starredOnly = o.starredOnly;
   if (typeof o.unknownOnly === "boolean") out.unknownOnly = o.unknownOnly;
   if (o.langDir === "da-first" || o.langDir === "en-first") out.langDir = o.langDir;
@@ -60,8 +65,11 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   // picks one of them at random. Remembered on this device.
   const [verbForms, setVerbForms] = useState(["base"]);
   const [settingsReady, setSettingsReady] = useState(false);
+  // Changing a choice stamps the time, so the newest choice wins between devices.
+  const skipStamp = useRef(false);
+  const armed = useRef(false);
   const [poolBuilt, setPoolBuilt] = useState(false);
-  useEffect(() => {
+  const loadSavedSettings = () => {
     const read = (key, apply) =>
       storeGet(key)
         .then((v) => apply(v ? JSON.parse(v) : null))
@@ -89,7 +97,19 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
       read("verbForms", (list) => Array.isArray(list) && list.length && setVerbForms(list)),
       read("nounOptions", (list) => Array.isArray(list) && (list.includes("en") || list.includes("et")) && setNounOpts(list)),
     ]).then(() => setSettingsReady(true));
-    // Runs once at startup; `cards` is only used to check the saved category.
+  };
+  // Read at startup, and again when iCloud brings in choices made on another
+  // device. `cards` is only used to check the saved category.
+  useEffect(() => {
+    loadSavedSettings();
+    function onChanged() {
+      studyMemory = null;
+      skipStamp.current = true;
+      setTimeout(() => { skipStamp.current = false; }, 800);
+      loadSavedSettings();
+    }
+    window.addEventListener("dansk-settings-changed", onChanged);
+    return () => window.removeEventListener("dansk-settings-changed", onChanged);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   function changeLevels(next) {
@@ -98,10 +118,12 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   function changeNounOpts(next) {
     setNounOpts(next);
     storeSet("nounOptions", JSON.stringify(next)).catch(() => {});
+    stampSettings();
   }
   function changeVerbForms(next) {
     setVerbForms(next);
     storeSet("verbForms", JSON.stringify(next)).catch(() => {});
+    stampSettings();
   }
   const [poolTenses, setPoolTenses] = useState([]);
   const [poolUps, setPoolUps] = useState([]); // per pool slot: a level-up form index, or null
@@ -170,6 +192,9 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     const current = { catFilter, scope, levels, starredOnly, unknownOnly, langDir };
     studyMemory = current;
     storeSet(STUDY_SETTINGS_KEY, JSON.stringify(current)).catch(() => {});
+    // The first save after opening only repeats what was read, so it isn't a change.
+    if (armed.current && !skipStamp.current) stampSettings();
+    armed.current = true;
   }, [settingsReady, catFilter, scope, levels, starredOnly, unknownOnly, langDir]);
   const [flipped, setFlipped] = useState(false);
   const [idx, setIdx] = useState(0);
@@ -497,6 +522,11 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     if (insightCache[card.id]) return; // already fetched this session
     setInsightLoading(true);
     try {
+      const ready = await prebuiltInsight(card); // built-in answer: no AI call
+      if (ready) {
+        setInsightCache((prev) => ({ ...prev, [card.id]: ready }));
+        return;
+      }
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
         'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + sentenceLevelHint(card) + knownWordsHint(),

@@ -1,0 +1,162 @@
+{
+ "dagens ret": {
+  "forms": [
+   {
+    "da": "en ret",
+    "en": "a dish"
+   },
+   {
+    "da": "retten",
+    "en": "the dish"
+   },
+   {
+    "da": "retter",
+    "en": "dishes"
+   },
+   {
+    "da": "retterne",
+    "en": "the dishes"
+   }
+  ],
+  "explanation": "\"Dagens ret\" is the fixed phrase for the dish of the day, and you will see it on chalkboards outside cafés and canteens. \"Dagens\" is \"dag\" (day) with an -s ending that works like \"of the\", so the whole thing literally means \"the day's dish\". The noun itself is \"en ret\", and the plural \"retter\" is also what you read on a menu.",
+  "related": [
+   {
+    "da": "en menu",
+    "en": "a menu"
+   },
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er **dagens ret**?",
+   "en": "What is the dish of the day?"
+  }
+ },
+ "dårlig": {
+  "forms": [
+   {
+    "da": "en dårlig dag",
+    "en": "a bad day"
+   },
+   {
+    "da": "et dårligt år",
+    "en": "a bad year"
+   },
+   {
+    "da": "dårlige dage",
+    "en": "bad days"
+   }
+  ],
+  "explanation": "\"Dårlig\" means bad, and it also means unwell: \"Jeg har det dårligt\" is \"I feel bad\" or \"I feel ill\". Add -t for et-words and -e for more than one. It changes in an unusual way when you compare it: dårlig, værre, værst (bad, worse, worst).",
+  "related": [
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "værre",
+    "en": "worse"
+   },
+   {
+    "da": "syg",
+    "en": "sick"
+   },
+   {
+    "da": "at have det dårligt",
+    "en": "to feel bad"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **dårlig** idé.",
+   "en": "That was a bad idea."
+  }
+ },
+ "digital": {
+  "forms": [
+   {
+    "da": "en digital klokke",
+    "en": "a digital clock"
+   },
+   {
+    "da": "et digitalt kamera",
+    "en": "a digital camera"
+   },
+   {
+    "da": "digitale billeder",
+    "en": "digital pictures"
+   }
+  ],
+  "explanation": "\"Digital\" follows the regular pattern, with -t for et-words and -e for more than one. It sounds almost like the English word, but with the stress on the last syllable: di-gi-TAL. Denmark is very digital in daily life, so you will meet it in words like \"digital post\" (the government's electronic mail) and \"digitalisering\" (digitalisation).",
+  "related": [
+   {
+    "da": "analog",
+    "en": "analogue"
+   },
+   {
+    "da": "teknologi",
+    "en": "technology"
+   },
+   {
+    "da": "en skærm",
+    "en": "a screen"
+   },
+   {
+    "da": "digitalisering",
+    "en": "digitalisation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **digital** kalender.",
+   "en": "I have a digital calendar."
+  }
+ },
+ "derfra": {
+  "forms": [
+   {
+    "da": "Jeg kommer derfra",
+    "en": "I come from there"
+   },
+   {
+    "da": "Hvad kan man se derfra?",
+    "en": "What can you see from there?"
+   },
+   {
+    "da": "Vi tog derfra klokken ti",
+    "en": "We left there at ten"
+   }
+  ],
+  "explanation": "\"Derfra\" is \"der\" (there) and \"fra\" (from) written as one word, meaning from there. It belongs to a family of useful little place words: \"herfra\" (from here), \"derhen\" (to there) and \"hvorfra\" (from where). Danish loves joining small words like this where English uses two or three.",
+  "related": [
+   {
+    "da": "herfra",
+    "en": "from here"
+   },
+   {
+    "da": "derhen",
+    "en": "(to) there"
+   },
+   {
+    "da": "hvorfra",
+    "en": "from where"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor langt er der **derfra** til stationen?",
+   "en": "How far is it from there to the station?"
+  }
+ }
+}

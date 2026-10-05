@@ -20,6 +20,9 @@ import { persistWithRetry, storeGet, storeGetStrict, storeSet, syncChannel, unpa
 import { frontKey, normalizeCardText, uid } from "./lib/text";
 import { AISettingsPanel } from "./views/AISettingsPanel";
 import { AddCardView } from "./views/AddCardView";
+import { SyncOffer } from "./components/SyncOffer";
+import { rememberDeletedOwn } from "./lib/icloud";
+import { useICloudSync } from "./lib/useICloudSync";
 import { BackupPanel } from "./views/BackupPanel";
 import { LibraryView } from "./views/LibraryView";
 import { StudyView } from "./views/StudyView";
@@ -106,6 +109,7 @@ export default function DanishFlashcards() {
   const knownCount = cards.reduce((n, c) => n + (c.known ? 1 : 0), 0);
   const calmRef = useRef(false);
   calmRef.current = tab === "study" && !showSettings && !infoPage && !showBackup && !backupReminder && !autoBackupDue;
+  const calm = tab === "study" && !showSettings && !infoPage && !showBackup && !backupReminder && !autoBackupDue;
   const prevKnownRef = useRef(null);
   useEffect(() => {
     if (loaded) recordOpenDay();
@@ -352,6 +356,8 @@ export default function DanishFlashcards() {
   // can't each start from an old copy and undo one another.
   const cardsRef = useRef(cards);
   cardsRef.current = cards;
+  const categoriesRef = useRef(categories);
+  categoriesRef.current = categories;
   const persistCards = useCallback(
     async (next) => {
       next = normalizeCardText(next);
@@ -408,6 +414,8 @@ export default function DanishFlashcards() {
     },
     [persistCategories, persistCards]
   );
+
+  const sync = useICloudSync({ loaded, cards, categories, cardsRef, categoriesRef, persistCards, persistCategories, replaceAllData });
 
   const addCards = useCallback(
     async (newCards) => {
@@ -522,6 +530,7 @@ export default function DanishFlashcards() {
     async (id) => {
       const gone = cardsRef.current.find((c) => c.id === id);
       await rememberDeleted(gone);
+      await rememberDeletedOwn(gone).catch(() => {});
       const result = await persistCards(cardsRef.current.filter((c) => c.id !== id));
       if (result.ok) {
         let msg = "Card deleted";
@@ -646,9 +655,10 @@ export default function DanishFlashcards() {
         )}
         {infoPage && <InfoSheet pageId={infoPage} onClose={() => setInfoPage(null)} />}
         <DanishVoiceNote />
+        <SyncOffer loaded={loaded} supported={sync.supported} enabled={sync.enabled} calm={calm} cards={cards} knownCount={knownCount} onTurnOn={sync.enable} />
         {showBackup && (
           <CenteredOverlay onClose={() => setShowBackup(false)}>
-            <BackupPanel cards={cards} categories={categories} replaceAllData={replaceAllData} showToast={showToast} onClose={() => setShowBackup(false)} />
+            <BackupPanel cards={cards} categories={categories} replaceAllData={replaceAllData} sync={sync} showToast={showToast} onClose={() => setShowBackup(false)} />
           </CenteredOverlay>
         )}
       </div>

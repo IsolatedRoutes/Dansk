@@ -1,0 +1,84 @@
+{
+ "at godtage": {
+  "forms": [
+   {
+    "da": "at godtage",
+    "en": "to accept"
+   },
+   {
+    "da": "jeg godtager",
+    "en": "I accept"
+   },
+   {
+    "da": "jeg godtog",
+    "en": "I accepted"
+   },
+   {
+    "da": "jeg har godtaget",
+    "en": "I have accepted"
+   }
+  ],
+  "explanation": "\"At godtage\" means to accept something, like an explanation, an offer or a rule, and it sounds fairly formal. It is built on \"at tage\" (to take), so it is irregular in the same way: tager, tog, taget. In everyday speech \"at acceptere\" is used just as often, and \"at tage imod\" is used for receiving something.",
+  "related": [
+   {
+    "da": "at acceptere",
+    "en": "to accept"
+   },
+   {
+    "da": "at tage imod",
+    "en": "to receive, to accept"
+   },
+   {
+    "da": "at afvise",
+    "en": "to reject"
+   },
+   {
+    "da": "at indrømme",
+    "en": "to admit"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan ikke **godtage** den forklaring.",
+   "en": "We cannot accept that explanation."
+  }
+ },
+ "gør det selv": {
+  "forms": [
+   {
+    "da": "Gør det selv!",
+    "en": "Do it yourself!"
+   },
+   {
+    "da": "Jeg gør det selv",
+    "en": "I'll do it myself"
+   },
+   {
+    "da": "et gør-det-selv-projekt",
+    "en": "a do-it-yourself project"
+   }
+  ],
+  "explanation": "\"Gør det selv\" is \"do it yourself\": \"gør\" is the short \"do it\" form of \"at gøre\" (to do), \"det\" is it, and \"selv\" adds the idea of yourself. It also exists as a noun in \"gør-det-selv\" (DIY), for example \"en gør-det-selv-butik\". The word \"selv\" can change who the \"self\" is: \"jeg gør det selv\" means \"I'll do it myself\".",
+  "related": [
+   {
+    "da": "selv",
+    "en": "oneself, even"
+   },
+   {
+    "da": "at gøre",
+    "en": "to do"
+   },
+   {
+    "da": "en gør-det-selv-butik",
+    "en": "a DIY shop"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   }
+  ],
+  "sentence": {
+   "da": "**Gør det selv**, hvis du vil have det rigtigt.",
+   "en": "Do it yourself if you want it done right."
+  }
+ }
+}

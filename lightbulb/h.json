@@ -1,0 +1,45 @@
+{
+ "at huske": {
+  "forms": [
+   {
+    "da": "at huske",
+    "en": "to remember"
+   },
+   {
+    "da": "jeg husker",
+    "en": "I remember"
+   },
+   {
+    "da": "jeg huskede",
+    "en": "I remembered"
+   },
+   {
+    "da": "jeg har husket",
+    "en": "I have remembered"
+   }
+  ],
+  "explanation": "\"At huske\" means to remember, both to recall something and to remember to do something. \"Husk at ringe\" is \"Remember to call\", and \"Husk!\" on its own is a quick reminder. The opposite is \"at glemme\" (to forget), and \"at huske på\" means to keep something in mind.",
+  "related": [
+   {
+    "da": "at glemme",
+    "en": "to forget"
+   },
+   {
+    "da": "en hukommelse",
+    "en": "a memory (the ability)"
+   },
+   {
+    "da": "et minde",
+    "en": "a memory (of an event)"
+   },
+   {
+    "da": "at minde om",
+    "en": "to remind of"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke **huske** hans navn.",
+   "en": "I can't remember his name."
+  }
+ }
+}

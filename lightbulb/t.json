@@ -1,0 +1,205 @@
+{
+ "at tjekke": {
+  "forms": [
+   {
+    "da": "at tjekke",
+    "en": "to check"
+   },
+   {
+    "da": "jeg tjekker",
+    "en": "I check"
+   },
+   {
+    "da": "jeg tjekkede",
+    "en": "I checked"
+   },
+   {
+    "da": "jeg har tjekket",
+    "en": "I have checked"
+   }
+  ],
+  "explanation": "\"At tjekke\" is borrowed from English \"check\" and is very common in everyday Danish, for checking your phone, a time, or whether something is right. It follows the usual pattern for Danish verbs: tjekker, tjekkede, tjekket. A more formal word is \"at kontrollere\", and for looking into something more deeply Danes say \"at undersøge\".",
+  "related": [
+   {
+    "da": "at kontrollere",
+    "en": "to check, to control"
+   },
+   {
+    "da": "at undersøge",
+    "en": "to investigate"
+   },
+   {
+    "da": "en kontrol",
+    "en": "a check, a control"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal lige **tjekke** min telefon.",
+   "en": "I just need to check my phone."
+  }
+ },
+ "at tale": {
+  "forms": [
+   {
+    "da": "at tale",
+    "en": "to speak"
+   },
+   {
+    "da": "jeg taler",
+    "en": "I speak"
+   },
+   {
+    "da": "jeg talte",
+    "en": "I spoke"
+   },
+   {
+    "da": "jeg har talt",
+    "en": "I have spoken"
+   }
+  ],
+  "explanation": "\"At tale\" is the everyday verb for speaking a language or giving a speech, so \"Jeg taler dansk\" means \"I speak Danish\". For casual chatting, Danes prefer \"at snakke\". You say \"at tale med nogen\" (to speak with someone) and \"at tale om noget\" (to talk about something).",
+  "related": [
+   {
+    "da": "at snakke",
+    "en": "to chat, to talk"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "en tale",
+    "en": "a speech"
+   },
+   {
+    "da": "at sige",
+    "en": "to say"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **tale** dansk?",
+   "en": "Can you speak Danish?"
+  }
+ },
+ "at tage af": {
+  "forms": [
+   {
+    "da": "at tage af",
+    "en": "to take off"
+   },
+   {
+    "da": "jeg tager af",
+    "en": "I take off"
+   },
+   {
+    "da": "jeg tog af",
+    "en": "I took off"
+   },
+   {
+    "da": "jeg har taget af",
+    "en": "I have taken off"
+   }
+  ],
+  "explanation": "\"At tage af\" is made of \"tage\" (to take) and the little word \"af\" (off). When you say what you take off, \"af\" goes after it: \"Jeg tager jakken af\" (I take my jacket off). It is irregular, because \"at tage\" is: tager, tog, taget. In everyday talk \"tage af\" can also mean to lose weight, as in \"Jeg har taget fire kilo af\".",
+  "related": [
+   {
+    "da": "at tage på",
+    "en": "to put on, to gain weight"
+   },
+   {
+    "da": "at tage med",
+    "en": "to take along"
+   },
+   {
+    "da": "at tage tøj på",
+    "en": "to get dressed"
+   },
+   {
+    "da": "at tage afsted",
+    "en": "to set off"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du **tage** jakken **af**?",
+   "en": "Do you want to take your jacket off?"
+  }
+ },
+ "tal langsomt": {
+  "forms": [
+   {
+    "da": "Tal langsomt, tak",
+    "en": "Speak slowly, please"
+   },
+   {
+    "da": "Kan du tale langsommere?",
+    "en": "Can you speak more slowly?"
+   },
+   {
+    "da": "Jeg forstår, når du taler langsomt",
+    "en": "I understand when you speak slowly"
+   }
+  ],
+  "explanation": "\"Tal langsomt\" is a command: \"tal\" is the short \"do it\" form of \"at tale\" (to speak), and \"langsomt\" means slowly. Adding \"tak\" makes it polite, and asking \"Kan du tale langsommere?\" is even softer. It is one of the most useful phrases when you are learning, because Danes tend to speak fast.",
+  "related": [
+   {
+    "da": "langsom",
+    "en": "slow"
+   },
+   {
+    "da": "hurtigt",
+    "en": "quickly"
+   },
+   {
+    "da": "Kan du gentage det?",
+    "en": "Can you repeat that?"
+   },
+   {
+    "da": "tal højere",
+    "en": "speak louder"
+   }
+  ],
+  "sentence": {
+   "da": "Undskyld, vil du være sød at **tale langsomt**?",
+   "en": "Excuse me, would you be kind enough to speak slowly?"
+  }
+ },
+ "tak": {
+  "forms": [
+   {
+    "da": "tak for hjælpen",
+    "en": "thanks for the help"
+   },
+   {
+    "da": "tusind tak",
+    "en": "thanks a lot"
+   },
+   {
+    "da": "ja tak, nej tak",
+    "en": "yes please, no thank you"
+   }
+  ],
+  "explanation": "\"Tak\" means thanks, and Danish uses it for \"please\" too: \"ja tak\" is \"yes, please\" and \"Kaffe, tak\" is \"Coffee, please\". The usual reply is \"selv tak\" (you're welcome). Danes say \"tak for mad\" after a meal, which is both a thank-you to the cook and a lovely custom to learn.",
+  "related": [
+   {
+    "da": "tusind tak",
+    "en": "a thousand thanks"
+   },
+   {
+    "da": "mange tak",
+    "en": "many thanks"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
+   },
+   {
+    "da": "værsgo",
+    "en": "here you are"
+   }
+  ],
+  "sentence": {
+   "da": "**Tak** for maden!",
+   "en": "Thanks for the meal!"
+  }
+ }
+}

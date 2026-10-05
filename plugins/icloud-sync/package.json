@@ -1,0 +1,9 @@
+{
+  "name": "icloud-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small iCloud key-value store plugin for Broen",
+  "files": ["ios/Sources", "Package.swift"],
+  "capacitor": { "ios": { "src": "ios" } },
+  "peerDependencies": { "@capacitor/core": ">=8.0.0" }
+}

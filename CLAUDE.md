@@ -54,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) and `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -83,6 +83,45 @@ Owner wants smart learning without new features, buttons or gamification.
   after dropping a leading en/et/at. Short "at + verb" phrases ("at gå glip
   af") stay with the verbs; "at" phrases with 4+ words after it (idioms) count.
   Nothing saved changes.
+
+## Ready-made lightbulb answers
+Built-in words can carry a ready-made lightbulb answer (forms, explanation,
+related words, level-matched sentence) so no AI call or key is needed. They are
+files `lightbulb/<first letter>.json` (leading en/et/at ignored; æ ø å = ae oe aa),
+keyed by `frontKey`, fetched only when a lightbulb opens (`src/lib/lightbulb.js`).
+Words with no entry, and the learner's own cards, use the live AI call as before.
+`scripts/prepare-www.mjs` copies `lightbulb/` into the iPhone app. Written to the
+same quality as the live answer; do not shorten.
+
+## iCloud sync (iPhone app only, opt-in)
+Shares progress between the owner's own Apple devices through their own iCloud
+key-value store (about 1 MB total, so the snapshot is gzipped and chunked).
+- `plugins/icloud-sync/`: tiny local Capacitor plugin (Swift). `package.json`
+  depends on it by `file:`; `cap sync` adds it to the iOS project.
+  Xcode needs Signing & Capabilities → + Capability → iCloud → tick
+  "Key-value storage" (one time, needs the paid developer team).
+- `src/lib/sync.js`: pure logic. Snapshot = marks on built-in cards (by
+  `canonicalKey`), the learner's own cards, own topics, deleted built-in words,
+  deleted own cards (tombstones). Merge only ever ADDS (known/starred/hidden
+  OR, notes combined line by line, level-up max), so syncing can't lose
+  progress; repeating a merge changes nothing. A card deleted on one device
+  is deleted on the others unless made again later.
+- `src/lib/icloud.js` (phone bridge, `syncOnce`), `src/lib/useICloudSync.js`
+  (on/off, sync at start / on return / when another device saves / 4 s after a
+  change), `src/components/SyncOffer.jsx` (offer once after ~15 changes or the
+  2nd opening, once more after 25 known words, then never; counters in
+  `syncPrompt`), switch + "Go back to an earlier version" in BackupPanel.
+  The copy taken when sync is turned on is `preSyncBackup`.
+- Study choices (`studySettings`, `verbForms`, `nounOptions`) travel too: newest
+  change wins by `settingsChangedAt`, applied via the `dansk-settings-changed`
+  event. Not synced: AI keys. The website has no sync (it uses backup files). Restoring a backup while sync is on gets re-merged with
+  iCloud.
+
+## Plain English in AI answers
+Learners may not know grammar words. `PLAIN_ENGLISH_RULE` (src/lib/ai/prompts.js)
+is added to every AI prompt that explains things: no participle / infinitive /
+definite / neuter etc.; explain the idea with examples ("en-words", "et-words").
+Ready-made lightbulb answers follow the same rule.
 
 ## Word levels
 Level by what the word is *for*, not just how common or how compound it is.

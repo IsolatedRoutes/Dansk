@@ -1,0 +1,123 @@
+{
+ "en regnskov": {
+  "forms": [
+   {
+    "da": "en regnskov",
+    "en": "a rainforest"
+   },
+   {
+    "da": "regnskoven",
+    "en": "the rainforest"
+   },
+   {
+    "da": "regnskove",
+    "en": "rainforests"
+   },
+   {
+    "da": "regnskovene",
+    "en": "the rainforests"
+   }
+  ],
+  "explanation": "\"Regnskov\" is two words joined together: \"regn\" (rain) and \"skov\" (forest). Danish builds a lot of words this way, and the last part decides en or et: since it is \"en skov\", it is also \"en regnskov\". The plural is \"regnskove\".",
+  "related": [
+   {
+    "da": "regn",
+    "en": "rain"
+   },
+   {
+    "da": "en skov",
+    "en": "a forest"
+   },
+   {
+    "da": "en jungle",
+    "en": "a jungle"
+   },
+   {
+    "da": "tropisk",
+    "en": "tropical"
+   }
+  ],
+  "sentence": {
+   "da": "Det regner hele året i en **regnskov**.",
+   "en": "It rains all year in a rainforest."
+  }
+ },
+ "reserveret": {
+  "forms": [
+   {
+    "da": "en reserveret plads",
+    "en": "a reserved seat"
+   },
+   {
+    "da": "et reserveret bord",
+    "en": "a reserved table"
+   },
+   {
+    "da": "reserverede pladser",
+    "en": "reserved seats"
+   }
+  ],
+  "explanation": "\"Reserveret\" means reserved, and it comes from the verb \"at reservere\" (to reserve). It stays \"reserveret\" with both en-words and et-words, and becomes \"reserverede\" when there is more than one. It is also used about people with a slightly different meaning: a \"reserveret\" person is reserved or a little distant.",
+  "related": [
+   {
+    "da": "at reservere",
+    "en": "to reserve"
+   },
+   {
+    "da": "en reservation",
+    "en": "a reservation"
+   },
+   {
+    "da": "optaget",
+    "en": "occupied, taken"
+   },
+   {
+    "da": "ledig",
+    "en": "free, vacant"
+   }
+  ],
+  "sentence": {
+   "da": "Dette bord er **reserveret**.",
+   "en": "This table is reserved."
+  }
+ },
+ "rundt om hjørnet": {
+  "forms": [
+   {
+    "da": "bageren ligger rundt om hjørnet",
+    "en": "the bakery is around the corner"
+   },
+   {
+    "da": "Julen er lige rundt om hjørnet",
+    "en": "Christmas is just around the corner"
+   },
+   {
+    "da": "gå rundt om hjørnet",
+    "en": "walk around the corner"
+   }
+  ],
+  "explanation": "\"Rundt om hjørnet\" works literally and figuratively, just like \"around the corner\" in English. The words are \"rundt\" (around), \"om\" (round/about) and \"hjørnet\" (the corner, from \"et hjørne\"). Add \"lige\" to say \"just around the corner\", for something very close in place or time.",
+  "related": [
+   {
+    "da": "et hjørne",
+    "en": "a corner"
+   },
+   {
+    "da": "lige om hjørnet",
+    "en": "just around the corner"
+   },
+   {
+    "da": "tæt på",
+    "en": "close by"
+   },
+   {
+    "da": "i nærheden",
+    "en": "nearby"
+   }
+  ],
+  "sentence": {
+   "da": "Posthuset ligger lige **rundt om hjørnet**.",
+   "en": "The post office is just around the corner."
+  }
+ }
+}

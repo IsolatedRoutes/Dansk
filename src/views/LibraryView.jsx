@@ -8,6 +8,7 @@ import { GRAMMAR_GROUPS, LEVELS, TYPE_LABEL } from "../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../data/irregulars";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../lib/ai/prompts";
+import { prebuiltInsight } from "../lib/lightbulb";
 import { speakDanish, speechSupported } from "../lib/speech";
 import { parseJSONLoose } from "../lib/text";
 import { cardInCategory, wordClassFor } from "../lib/vocabulary";
@@ -118,6 +119,11 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
     if (insightCache[card.id]) return;
     setInsightLoading(true);
     try {
+      const ready = await prebuiltInsight(card); // built-in answer: no AI call
+      if (ready) {
+        setInsightCache((prev) => ({ ...prev, [card.id]: ready }));
+        return;
+      }
       const reply = await callAI(
         WORD_INSIGHT_SYSTEM_PROMPT,
         'Danish word or phrase: "' + card.front + '"' + (card.back ? " (means: " + card.back + ")" : "") + irregularVerbFactsHint(card.front) + irregularPluralFactsHint(card.front) + knownWordsHint(),

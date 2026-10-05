@@ -10,6 +10,7 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 5. `npx cap open ios` opens Xcode.
 
 ## In Xcode
+- iCloud sync: Signing & Capabilities → + Capability → iCloud → tick "Key-value storage" (one time; needs the paid team). Without it the Sync switch reports iCloud isn't available.
 - Signing: choose your Apple Developer team.
 - App icon, camera/photo permission texts are already in the project. Just check they look right.
 - Version and build number: raise the build number for every upload.

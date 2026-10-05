@@ -1,0 +1,84 @@
+{
+ "isslag": {
+  "forms": [
+   {
+    "da": "et isslag",
+    "en": "a spell of freezing rain"
+   },
+   {
+    "da": "isslaget",
+    "en": "the freezing rain"
+   },
+   {
+    "da": "isslag",
+    "en": "freezing rain (plural)"
+   },
+   {
+    "da": "isslagene",
+    "en": "the freezing rains"
+   }
+  ],
+  "explanation": "\"Isslag\" is a weather word for rain that freezes as it hits the ground, making roads and paths very slippery. It is built from \"is\" (ice) and \"slag\" (a blow, a hit), and since \"slag\" is an et-word, so is \"isslag\". Weather services issue warnings for it, so it is a useful word to recognise in winter.",
+  "related": [
+   {
+    "da": "glat",
+    "en": "slippery"
+   },
+   {
+    "da": "is",
+    "en": "ice"
+   },
+   {
+    "da": "et slag",
+    "en": "a blow, a stroke"
+   },
+   {
+    "da": "et uvejr",
+    "en": "bad weather"
+   }
+  ],
+  "sentence": {
+   "da": "Der er varsel om **isslag** i nat.",
+   "en": "There is a warning of freezing rain tonight."
+  }
+ },
+ "igen": {
+  "forms": [
+   {
+    "da": "prøv igen",
+    "en": "try again"
+   },
+   {
+    "da": "vi ses igen",
+    "en": "we'll see each other again"
+   },
+   {
+    "da": "igen og igen",
+    "en": "again and again"
+   }
+  ],
+  "explanation": "\"Igen\" means again, and it also means back: \"Jeg kommer igen\" can be \"I'll come back\" or \"I'll come again\". In a Danish sentence it usually sits late. Do not mix it up with \"også\", which means also.",
+  "related": [
+   {
+    "da": "endnu en gang",
+    "en": "once more"
+   },
+   {
+    "da": "atter",
+    "en": "once again (formal)"
+   },
+   {
+    "da": "tilbage",
+    "en": "back"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du sige det **igen**?",
+   "en": "Can you say that again?"
+  }
+ }
+}

@@ -8,4 +8,5 @@ for (const f of ["index.html", "manifest.webmanifest", "privacy.html"]) {
   cpSync(f, "www/" + f);
 }
 cpSync("icons", "www/icons", { recursive: true });
+if (existsSync("lightbulb")) cpSync("lightbulb", "www/lightbulb", { recursive: true });
 console.log("www/ is ready");

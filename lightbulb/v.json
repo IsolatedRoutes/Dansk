@@ -1,0 +1,88 @@
+{
+ "en vaccine": {
+  "forms": [
+   {
+    "da": "en vaccine",
+    "en": "a vaccine"
+   },
+   {
+    "da": "vaccinen",
+    "en": "the vaccine"
+   },
+   {
+    "da": "vacciner",
+    "en": "vaccines"
+   },
+   {
+    "da": "vaccinerne",
+    "en": "the vaccines"
+   }
+  ],
+  "explanation": "\"Vaccine\" is borrowed from Latin and looks almost like the English word, but the stress falls on the middle: vak-SEE-ne. The matching verb is \"at vaccinere\" (to vaccinate), and the act of getting it is \"en vaccination\". Denmark has a national vaccination programme for children, which people often just call \"børnevaccinationsprogrammet\".",
+  "related": [
+   {
+    "da": "at vaccinere",
+    "en": "to vaccinate"
+   },
+   {
+    "da": "en vaccination",
+    "en": "a vaccination"
+   },
+   {
+    "da": "en sprøjte",
+    "en": "a syringe"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fik **en vaccine** i går.",
+   "en": "She got a vaccine yesterday."
+  }
+ },
+ "at veje": {
+  "forms": [
+   {
+    "da": "at veje",
+    "en": "to weigh"
+   },
+   {
+    "da": "jeg vejer",
+    "en": "I weigh"
+   },
+   {
+    "da": "jeg vejede",
+    "en": "I weighed"
+   },
+   {
+    "da": "jeg har vejet",
+    "en": "I have weighed"
+   }
+  ],
+  "explanation": "\"At veje\" works in two ways, just like in English: you can weigh something (\"Jeg vejer pakken\") or you can weigh a certain amount (\"Jeg vejer 70 kilo\"). It follows the usual pattern (vejer, vejede, vejet). The word for a scale, and for weight, is \"en vægt\".",
+  "related": [
+   {
+    "da": "en vægt",
+    "en": "a scale, a weight"
+   },
+   {
+    "da": "et kilo",
+    "en": "a kilogram"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
+   },
+   {
+    "da": "let",
+    "en": "light"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **veje** pakken for mig?",
+   "en": "Can you weigh the package for me?"
+  }
+ }
+}

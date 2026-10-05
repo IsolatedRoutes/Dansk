@@ -1,0 +1,447 @@
+{
+ "en storm": {
+  "forms": [
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "stormen",
+    "en": "the storm"
+   },
+   {
+    "da": "storme",
+    "en": "storms"
+   },
+   {
+    "da": "stormene",
+    "en": "the storms"
+   }
+  ],
+  "explanation": "\"Storm\" is a proper storm with strong wind, and Danes use it for the autumn and winter storms that sweep in from the North Sea. The plural is \"storme\" (not \"stormer\"), which is easy to get wrong. A gentler wind is just \"blæst\", and a hurricane is \"en orkan\".",
+  "related": [
+   {
+    "da": "et uvejr",
+    "en": "bad weather"
+   },
+   {
+    "da": "en orkan",
+    "en": "a hurricane"
+   },
+   {
+    "da": "blæst",
+    "en": "wind, blustery weather"
+   },
+   {
+    "da": "en vind",
+    "en": "a wind"
+   }
+  ],
+  "sentence": {
+   "da": "Der kommer **en storm** i nat.",
+   "en": "A storm is coming tonight."
+  }
+ },
+ "en sten": {
+  "forms": [
+   {
+    "da": "en sten",
+    "en": "a stone"
+   },
+   {
+    "da": "stenen",
+    "en": "the stone"
+   },
+   {
+    "da": "sten",
+    "en": "stones"
+   },
+   {
+    "da": "stenene",
+    "en": "the stones"
+   }
+  ],
+  "explanation": "\"Sten\" means a stone or a rock you can pick up. \"Stones\" looks exactly like \"a stone\" (\"sten\"), and only \"the stones\" (\"stenene\") shows it is more than one. As a material it has no article: \"et hus af sten\" is \"a house of stone\".",
+  "related": [
+   {
+    "da": "en klippe",
+    "en": "a cliff, a large rock"
+   },
+   {
+    "da": "et bjerg",
+    "en": "a mountain"
+   },
+   {
+    "da": "grus",
+    "en": "gravel"
+   },
+   {
+    "da": "en strand",
+    "en": "a beach"
+   }
+  ],
+  "sentence": {
+   "da": "Der ligger en **sten** på vejen.",
+   "en": "There is a stone on the road."
+  }
+ },
+ "skandinavien": {
+  "forms": [
+   {
+    "da": "Skandinavien",
+    "en": "Scandinavia"
+   },
+   {
+    "da": "i Skandinavien",
+    "en": "in Scandinavia"
+   },
+   {
+    "da": "skandinavisk",
+    "en": "Scandinavian (adjective)"
+   },
+   {
+    "da": "en skandinav",
+    "en": "a Scandinavian (person)"
+   }
+  ],
+  "explanation": "\"Skandinavien\" is capitalised because it is a place name, but the adjective \"skandinavisk\" and the nationality words are not. In everyday Danish people often say \"Norden\" (the Nordic countries) when they also mean Finland and Iceland. Strictly, Scandinavia means Denmark, Norway and Sweden.",
+  "related": [
+   {
+    "da": "Norden",
+    "en": "the Nordic countries"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
+   },
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "Norge",
+    "en": "Norway"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark ligger i **Skandinavien**.",
+   "en": "Denmark is in Scandinavia."
+  }
+ },
+ "sundhed": {
+  "forms": [
+   {
+    "da": "sundhed",
+    "en": "health"
+   },
+   {
+    "da": "sundheden",
+    "en": "the health"
+   },
+   {
+    "da": "sundhedens",
+    "en": "the health's, of the health"
+   }
+  ],
+  "explanation": "\"Sundhed\" is health in a general sense, such as public health or how healthy a lifestyle is. It has no plural and no \"en\" or \"et\" in front. For your own personal health, for example when you ask how someone is doing physically, Danes usually say \"helbred\" instead.",
+  "related": [
+   {
+    "da": "helbred",
+    "en": "your own health"
+   },
+   {
+    "da": "sund",
+    "en": "healthy"
+   },
+   {
+    "da": "et sundhedsvæsen",
+    "en": "a healthcare system"
+   }
+  ],
+  "sentence": {
+   "da": "**Sundhed** er vigtigere end penge.",
+   "en": "Health is more important than money."
+  }
+ },
+ "en spisning": {
+  "forms": [
+   {
+    "da": "en spisning",
+    "en": "a meal (a shared event)"
+   },
+   {
+    "da": "spisningen",
+    "en": "the meal"
+   },
+   {
+    "da": "spisninger",
+    "en": "meals"
+   },
+   {
+    "da": "spisningerne",
+    "en": "the meals"
+   }
+  ],
+  "explanation": "\"Spisning\" is a meal as an event, usually an organised one where people sit down together, as in a club or a community dinner. For the plain food you eat on an ordinary day, Danes use \"et måltid\" or just \"mad\". You will often see it in \"fællesspisning\", a shared community dinner that is popular in Denmark.",
+  "related": [
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   },
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   },
+   {
+    "da": "en fællesspisning",
+    "en": "a shared community dinner"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en fælles **spisning** i aften.",
+   "en": "There is a shared dinner tonight."
+  }
+ },
+ "at stille uret": {
+  "forms": [
+   {
+    "da": "at stille uret",
+    "en": "to set the clock"
+   },
+   {
+    "da": "jeg stiller uret",
+    "en": "I set the clock"
+   },
+   {
+    "da": "jeg stillede uret",
+    "en": "I set the clock (past)"
+   },
+   {
+    "da": "jeg har stillet uret",
+    "en": "I have set the clock"
+   }
+  ],
+  "explanation": "\"At stille uret\" is the phrase for setting a clock or watch, and you hear it most often twice a year when the clocks change. \"Stille\" here means to put or set, and \"uret\" is \"the clock\" (en ur is not used, it is \"et ur\"). You say whether it goes forward or back: \"stille uret en time frem\" (forward an hour) or \"tilbage\" (back).",
+  "related": [
+   {
+    "da": "et ur",
+    "en": "a clock, a watch"
+   },
+   {
+    "da": "et vækkeur",
+    "en": "an alarm clock"
+   },
+   {
+    "da": "sommertid",
+    "en": "summer time (daylight saving)"
+   },
+   {
+    "da": "vintertid",
+    "en": "winter time"
+   }
+  ],
+  "sentence": {
+   "da": "I weekenden skal vi **stille uret** en time tilbage.",
+   "en": "This weekend we have to set the clock back an hour."
+  }
+ },
+ "svensk": {
+  "forms": [
+   {
+    "da": "en svensk bil",
+    "en": "a Swedish car"
+   },
+   {
+    "da": "et svensk hus",
+    "en": "a Swedish house"
+   },
+   {
+    "da": "svenske biler",
+    "en": "Swedish cars"
+   }
+  ],
+  "explanation": "\"Svensk\" is written with a small letter, and the plural is \"svenske\". A Swedish person is \"en svensker\", and the language is also \"svensk\". Written Swedish and Danish are close, but spoken Swedish can be hard for Danes to follow at first.",
+  "related": [
+   {
+    "da": "Sverige",
+    "en": "Sweden"
+   },
+   {
+    "da": "en svensker",
+    "en": "a Swede"
+   },
+   {
+    "da": "norsk",
+    "en": "Norwegian"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **svensk**.",
+   "en": "My neighbour is Swedish."
+  }
+ },
+ "saltet": {
+  "forms": [
+   {
+    "da": "en saltet fisk",
+    "en": "a salted fish"
+   },
+   {
+    "da": "et saltet kød",
+    "en": "a salted meat"
+   },
+   {
+    "da": "saltede nødder",
+    "en": "salted nuts"
+   }
+  ],
+  "explanation": "\"Saltet\" means salted, and it comes from the verb \"at salte\" (to salt). It stays \"saltet\" with both en-words and et-words, and only changes to \"saltede\" when there is more than one. Do not confuse it with \"salt\", which as an adjective means salty in taste.",
+  "related": [
+   {
+    "da": "salt",
+    "en": "salt, salty"
+   },
+   {
+    "da": "usaltet",
+    "en": "unsalted"
+   },
+   {
+    "da": "at salte",
+    "en": "to salt"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser gerne **saltet** fisk.",
+   "en": "I like eating salted fish."
+  }
+ },
+ "slidt": {
+  "forms": [
+   {
+    "da": "en slidt sofa",
+    "en": "a worn sofa"
+   },
+   {
+    "da": "et slidt gulv",
+    "en": "a worn floor"
+   },
+   {
+    "da": "slidte sko",
+    "en": "worn shoes"
+   }
+  ],
+  "explanation": "\"Slidt\" means worn, and it comes from the verb \"at slide\" (to wear out, to toil): something worn from use. It stays \"slidt\" with both en-words and et-words, and becomes \"slidte\" when there is more than one. It is also used about people: \"Jeg er helt slidt\" means \"I'm completely worn out\".",
+  "related": [
+   {
+    "da": "at slide",
+    "en": "to wear out, to toil"
+   },
+   {
+    "da": "udmattet",
+    "en": "exhausted"
+   },
+   {
+    "da": "ny",
+    "en": "new"
+   },
+   {
+    "da": "gammel",
+    "en": "old"
+   }
+  ],
+  "sentence": {
+   "da": "Sofaen er meget **slidt**.",
+   "en": "The sofa is very worn."
+  }
+ },
+ "snart": {
+  "forms": [
+   {
+    "da": "vi ses snart",
+    "en": "see you soon"
+   },
+   {
+    "da": "Det er snart jul",
+    "en": "Christmas is almost here"
+   },
+   {
+    "da": "Klokken er snart ti",
+    "en": "it is almost ten o'clock"
+   }
+  ],
+  "explanation": "\"Snart\" means soon, and with a clock time it also means almost, as in \"Klokken er snart ti\". The phrase \"så snart\" means \"as soon as\" and starts a part of a sentence. For \"in a little while\" you can also say \"om lidt\".",
+  "related": [
+   {
+    "da": "så snart",
+    "en": "as soon as"
+   },
+   {
+    "da": "om lidt",
+    "en": "in a little while"
+   },
+   {
+    "da": "straks",
+    "en": "immediately"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   }
+  ],
+  "sentence": {
+   "da": "Maden er **snart** klar.",
+   "en": "The food will be ready soon."
+  }
+ },
+ "så længe": {
+  "forms": [
+   {
+    "da": "så længe du vil",
+    "en": "as long as you want"
+   },
+   {
+    "da": "så længe jeg lever",
+    "en": "as long as I live"
+   },
+   {
+    "da": "Bliv, så længe du vil",
+    "en": "Stay as long as you like"
+   }
+  ],
+  "explanation": "\"Så længe\" starts a part of a sentence and means \"as long as\". There, little words like \"ikke\" come before the verb (\"så længe du ikke vil\"), unlike in a simple sentence. On its own it can also mean \"for now\" or \"in the meantime\", as in \"Det er fint så længe\".",
+  "related": [
+   {
+    "da": "indtil",
+    "en": "until"
+   },
+   {
+    "da": "mens",
+    "en": "while"
+   },
+   {
+    "da": "så snart",
+    "en": "as soon as"
+   },
+   {
+    "da": "hvis",
+    "en": "if"
+   }
+  ],
+  "sentence": {
+   "da": "Du må bo her, **så længe** du vil.",
+   "en": "You may live here as long as you want."
+  }
+ }
+}

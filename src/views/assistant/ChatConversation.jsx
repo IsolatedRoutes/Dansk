@@ -5,7 +5,7 @@ import { renderInlineMarkdown } from "../../components/markdown";
 import { CenteredOverlay, EmptyState, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, LESSONS_ID, aiCategoryName, isLessonsCategory, topicNamesForAI } from "../../data/categories";
 import { apiErrorMessage, callAI, isSwitchableAIError } from "../../lib/ai/index";
-import { GRAMMAR_CARD_STYLE, knownWordsHint } from "../../lib/ai/prompts";
+import { GRAMMAR_CARD_STYLE, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { persistWithRetry, storeGet } from "../../lib/storage";
 import { parseJSONLoose } from "../../lib/text";
 
@@ -57,7 +57,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
       const categoryNames = topicNamesForAI(categories);
       const history = next.slice(-20).map((m) => ({ role: m.role, content: m.content }));
       const reply = await callAI(
-        "You are a knowledgeable Danish language reference for an intermediate, self-taught learner who has some foundational grammar gaps despite a decent vocabulary. For a plain question, answer directly and concisely in the reply field (1-3 sentences typically), then stop — don't pad with extra context they didn't ask for, and never end with a follow-up question or an invitation to continue (no \"let me know if...\", no \"would you like...\"). Use Danish examples with English translations whenever they help. " +
+        "You are a knowledgeable Danish language reference for an intermediate, self-taught learner who has some foundational grammar gaps despite a decent vocabulary. " + PLAIN_ENGLISH_RULE + "For a plain question, answer directly and concisely in the reply field (1-3 sentences typically), then stop — don't pad with extra context they didn't ask for, and never end with a follow-up question or an invitation to continue (no \"let me know if...\", no \"would you like...\"). Use Danish examples with English translations whenever they help. " +
           "Separately: if the learner is asking you to CREATE one or more flashcards — a new topic (\"give me 10 words for the doctor\"), a single word or phrase (\"make a flashcard for hyggelig\"), or something from earlier in this conversation (\"make a flashcard from that\", \"save the last one\", \"turn that into a card\") — put those in the flashcards array. Use the conversation history to work out what \"that\" or \"it\" refers to when needed. Leave reply empty, or at most a short one-line confirmation, when the request was purely for flashcards. " +
           "For each flashcard: type is \"word\" (a single word or short phrase), \"sentence\" (a full sentence), or \"grammar\" (a rule or pattern that needs explaining rather than just translating — include up to 3 short example sentences for grammar only). Don't overuse \"grammar\" — most vocabulary requests are \"word\" or \"sentence\". For word/sentence, the back field must be ONE clean, natural translation only — never a list of synonyms or alternatives, and never a parenthetical part-of-speech note like \"(adj.)\"; deeper detail like that belongs behind the lightbulb feature once the card exists, not crammed into the card itself. Pick the single best-fitting category for word/sentence cards (skip category for grammar)." + CATEGORY_RULE + " " +
           "Include Danish grammatical articles (en/et) matched with a natural English article, omitting both for mass/uncountable nouns. " +

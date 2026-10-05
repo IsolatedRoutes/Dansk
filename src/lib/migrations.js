@@ -146,7 +146,7 @@ function mergeProgress(a, b) {
 // The current spelling of a card's front, following any renames in
 // VOCAB_CORRECTIONS (words) or a lesson's earlier names (grammar), so a
 // card can be recognised across versions.
-function canonicalKey(type, front) {
+export function canonicalKey(type, front) {
   let f = (front || "").trim();
   if (type === "grammar") {
     const point = STARTER_GRAMMAR.find((p) => (p.was || []).some((w) => w.toLowerCase() === f.toLowerCase()));

@@ -8,7 +8,7 @@ import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categ
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
 import { apiErrorMessage, callAI } from "../../lib/ai/index";
-import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
+import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { storeGet } from "../../lib/storage";
 import { cleanTranslation, parseJSONLoose } from "../../lib/text";
@@ -153,7 +153,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     setSentenceResult(null);
     try {
       const reply = await callAI(
-        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
+        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. " + PLAIN_ENGLISH_RULE + "The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
           "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
           "If what they wrote in Danish has a grammar mistake anywhere in it, you must catch it and clearly point out what was wrong and why, referencing the specific part that was incorrect — don't silently correct it without mentioning the error. If they wrote in English, or their Danish was already correct, leave the correction note empty. " +
           "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +

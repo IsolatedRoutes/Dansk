@@ -4,7 +4,7 @@ import { smallBtn } from "../components/ui";
 import { BACKUP_SETTING_KEYS, performBackupExport } from "../lib/backup";
 import { storeGet, storeSet } from "../lib/storage";
 
-export function BackupPanel({ cards, categories, replaceAllData, showToast, onClose }) {
+export function BackupPanel({ cards, categories, replaceAllData, sync, showToast, onClose }) {
   const importInputRef = useRef(null);
   const [autoBackupEnabled, setAutoBackupEnabledState] = useState(false);
 
@@ -134,6 +134,48 @@ export function BackupPanel({ cards, categories, replaceAllData, showToast, onCl
           />
         </button>
       </div>
+      {sync && sync.supported && (
+        <div style={{ padding: "10px 12px", borderRadius: 10, background: "var(--card)", border: "1px solid var(--line)", marginBottom: 14 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: "var(--sans)", fontSize: 13, fontWeight: 600 }}>Sync with iCloud</div>
+              <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", lineHeight: 1.4, marginTop: 2 }}>
+                Shares your progress, notes and own cards between your own devices through your own iCloud. It only adds, so nothing is ever removed by syncing. Your AI key is never shared.
+              </div>
+            </div>
+            <button
+              onClick={() => (sync.enabled ? sync.disable() : sync.enable())}
+              aria-label="Toggle iCloud sync"
+              aria-pressed={sync.enabled}
+              style={{ flexShrink: 0, width: 42, height: 24, borderRadius: 999, border: "none", background: sync.enabled ? "var(--fjord)" : "#D8D4C8", position: "relative", cursor: "pointer", padding: 0 }}
+            >
+              <span style={{ position: "absolute", top: 2, left: sync.enabled ? 20 : 2, width: 20, height: 20, borderRadius: "50%", background: "#FBFAF7", transition: "left 0.15s ease" }} />
+            </button>
+          </div>
+          {(sync.enabled || sync.status.message) && (
+            <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: sync.status.state === "error" ? "var(--terracotta)" : "var(--muted)", marginTop: 8, lineHeight: 1.4 }}>
+              {sync.status.state === "error"
+                ? sync.status.message
+                : sync.status.state === "syncing"
+                ? "Syncing…"
+                : sync.status.at
+                ? "Last synced " + new Date(sync.status.at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })
+                : "Waiting for the first sync…"}
+            </div>
+          )}
+          {sync.earlierAt > 0 && (
+            <button
+              onClick={async () => {
+                const yes = window.confirm ? window.confirm("Go back to your deck as it was when you turned on iCloud sync? Sync will be turned off, and anything you changed since then will be replaced.") : true;
+                if (yes) await sync.goBack();
+              }}
+              style={{ marginTop: 8, border: "none", background: "none", padding: 0, color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12, textDecoration: "underline", cursor: "pointer" }}
+            >
+              Go back to an earlier version
+            </button>
+          )}
+        </div>
+      )}
       <div style={{ display: "flex", gap: 8 }}>
         <button onClick={exportDeck} style={{ ...smallBtn("var(--fjord)"), flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6 }}>
           <Icon.Download size={14} /> Export

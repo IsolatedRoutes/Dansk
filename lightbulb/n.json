@@ -1,0 +1,41 @@
+{
+ "noget": {
+  "forms": [
+   {
+    "da": "Vil du have noget at spise?",
+    "en": "Do you want something to eat?"
+   },
+   {
+    "da": "Jeg har ikke noget",
+    "en": "I don't have anything"
+   },
+   {
+    "da": "noget andet",
+    "en": "something else"
+   }
+  ],
+  "explanation": "\"Noget\" means something or anything, and also \"some\" with things that cannot be counted, such as \"noget mælk\" (some milk). For people or for counted things in the plural, Danish uses \"nogen\" instead. With a negative you can say \"ikke noget\" (not anything), or use \"ingenting\" for nothing.",
+  "related": [
+   {
+    "da": "nogen",
+    "en": "someone, anyone, some"
+   },
+   {
+    "da": "ingenting",
+    "en": "nothing"
+   },
+   {
+    "da": "alt",
+    "en": "everything"
+   },
+   {
+    "da": "noget andet",
+    "en": "something else"
+   }
+  ],
+  "sentence": {
+   "da": "Har du **noget** at drikke?",
+   "en": "Do you have something to drink?"
+  }
+ }
+}

@@ -60,6 +60,9 @@ export const Icon = {
       <rect x="9" y="4" width="6" height="3" rx="1" />
     </>
   )),
+  Cloud: makeIcon(() => (
+    <path d="M7 18a4.5 4.5 0 0 1-.5-8.97A6 6 0 0 1 18 10.5a3.75 3.75 0 0 1-.5 7.5H7z" />
+  )),
   Lightbulb: makeIcon(() => (
     <>
       <path d="M9 18h6" />

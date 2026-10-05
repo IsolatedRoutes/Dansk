@@ -6,7 +6,7 @@ import { renderInlineMarkdown } from "../components/markdown";
 import { CenteredOverlay, Field, Pill, SectionTitle, inputStyle, smallBtn } from "../components/ui";
 import { CATEGORY_RULE, GRAMMAR_GROUPS, LESSONS_ID, TYPE_COLOR, TYPE_LABEL, aiCategoryName, isLessonsCategory, topicNamesForAI } from "../data/categories";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
-import { GRAMMAR_CARD_STYLE, knownWordsHint } from "../lib/ai/prompts";
+import { GRAMMAR_CARD_STYLE, knownWordsHint, PLAIN_ENGLISH_RULE } from "../lib/ai/prompts";
 import { cleanTranslation, parseJSONLoose } from "../lib/text";
 
 // ---------- Add Card ----------
@@ -109,7 +109,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setLookupError("");
     try {
       const reply = await callAI(
-        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName. Then explain the point and give exactly 3 example sentences (Danish and English) illustrating it." + GRAMMAR_CARD_STYLE + knownWordsHint(),
+        "You are a Danish tutor. Given a grammar point name or short description from an intermediate, self-taught learner — which might be rough, vague, or just a quick note to themselves — come up with a clear, well-phrased short title for it (a few words, suitable as a flashcard heading) as grammarName." + PLAIN_ENGLISH_RULE + " Then explain the point and give exactly 3 example sentences (Danish and English) illustrating it." + GRAMMAR_CARD_STYLE + knownWordsHint(),
         'Grammar point: "' +
           front.trim() +
           '"\n\nRespond ONLY with JSON, no other text: {"grammarName": "...", "explanation": "...", "examples": [{"da": "...", "en": "..."}]}',

@@ -9,7 +9,7 @@ import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irr
 import { callClaudeImage } from "../../lib/ai/claude";
 import { callGeminiImage } from "../../lib/ai/gemini";
 import { apiErrorMessage, callAI, getAIEngine } from "../../lib/ai/index";
-import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
+import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { secretGet } from "../../lib/secrets";
 import { cleanTranslation, fileToBase64, isMobileDevice, parseJSONLoose } from "../../lib/text";
@@ -177,7 +177,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
     setSentenceResult(null);
     try {
       const reply = await callVision(
-        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
+        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. " + PLAIN_ENGLISH_RULE + "Cover the whole piece of text visible, not just the first clause — identify each distinct grammar point worth explaining separately rather than picking just one. If there's a grammar mistake anywhere in Danish text shown, point it out clearly and explain why. If the text is English, or the Danish was already correct, leave the correction note empty. " +
           "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from the image where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
           '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
         "Analyze the grammar of the text in this photo."
