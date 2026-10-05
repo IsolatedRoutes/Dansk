@@ -158,8 +158,8 @@
     "en": "sold out"
    },
    {
-    "da": "på tilbud",
-    "en": "on sale"
+    "da": "et salg",
+    "en": "a sale"
    }
   ],
   "sentence": {
@@ -199,10 +199,6 @@
    {
     "da": "et vækkeur",
     "en": "an alarm clock"
-   },
-   {
-    "da": "en time",
-    "en": "an hour"
    }
   ],
   "sentence": {
@@ -238,10 +234,6 @@
    {
     "da": "udenfor",
     "en": "outdoors"
-   },
-   {
-    "da": "at gå ud",
-    "en": "to go out"
    }
   ],
   "sentence": {
@@ -273,10 +265,6 @@
    {
     "da": "udenfor",
     "en": "outside"
-   },
-   {
-    "da": "ingen",
-    "en": "no / none"
    }
   ],
   "sentence": {
@@ -312,10 +300,6 @@
    {
     "da": "ud",
     "en": "out (movement)"
-   },
-   {
-    "da": "en have",
-    "en": "a garden"
    }
   ],
   "sentence": {
@@ -347,10 +331,6 @@
    {
     "da": "at sælge",
     "en": "to sell"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
    },
    {
     "da": "et udsalg",
@@ -390,10 +370,6 @@
    {
     "da": "skilt",
     "en": "divorced"
-   },
-   {
-    "da": "en kæreste",
-    "en": "a boyfriend / girlfriend"
    }
   ],
   "sentence": {
@@ -425,14 +401,6 @@
    {
     "da": "ukrainsk",
     "en": "Ukrainian"
-   },
-   {
-    "da": "Rusland",
-    "en": "Russia"
-   },
-   {
-    "da": "Polen",
-    "en": "Poland"
    }
   ],
   "sentence": {
@@ -464,14 +432,6 @@
    {
     "da": "en ukrainer",
     "en": "a Ukrainian"
-   },
-   {
-    "da": "russisk",
-    "en": "Russian"
-   },
-   {
-    "da": "polsk",
-    "en": "Polish"
    }
   ],
   "sentence": {
@@ -499,10 +459,6 @@
    {
     "da": "over",
     "en": "over"
-   },
-   {
-    "da": "mellem",
-    "en": "between"
    },
    {
     "da": "nedenunder",
@@ -540,16 +496,12 @@
     "en": "pants"
    },
    {
-    "da": "sokker",
-    "en": "socks"
-   },
-   {
-    "da": "en bh",
-    "en": "a bra"
-   },
-   {
     "da": "trusser",
     "en": "panties (women's)"
+   },
+   {
+    "da": "undertøj",
+    "en": "underwear"
    }
   ],
   "sentence": {
@@ -579,12 +531,12 @@
     "en": "clothes"
    },
    {
-    "da": "trusser",
-    "en": "panties / briefs"
+    "da": "underbukser",
+    "en": "underpants"
    },
    {
-    "da": "en strømpe",
-    "en": "a sock / stocking"
+    "da": "trusser",
+    "en": "panties / briefs"
    },
    {
     "da": "badetøj",
@@ -616,10 +568,6 @@
    {
     "da": "beklager",
     "en": "I'm sorry (more formal)"
-   },
-   {
-    "da": "det gør ikke noget",
-    "en": "it's ok"
    },
    {
     "da": "pardon",
@@ -659,10 +607,6 @@
    {
     "da": "beklager",
     "en": "I'm sorry (formal)"
-   },
-   {
-    "da": "det er i orden",
-    "en": "it's okay"
    }
   ],
   "sentence": {
@@ -694,10 +638,6 @@
    {
     "da": "en ung",
     "en": "a young person"
-   },
-   {
-    "da": "et barn",
-    "en": "a child"
    },
    {
     "da": "yngre",
@@ -733,14 +673,6 @@
    {
     "da": "amerikansk",
     "en": "American"
-   },
-   {
-    "da": "Canada",
-    "en": "Canada"
-   },
-   {
-    "da": "Mexico",
-    "en": "Mexico"
    }
   ],
   "sentence": {
@@ -770,15 +702,7 @@
     "en": "healthy"
    },
    {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
-    "da": "en vane",
-    "en": "a habit"
-   },
-   {
-    "da": "helbred",
+    "da": "sundhed",
     "en": "health"
    }
   ],

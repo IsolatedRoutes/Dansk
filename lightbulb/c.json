@@ -31,10 +31,6 @@
    {
     "da": "en cykeltur",
     "en": "a bike ride"
-   },
-   {
-    "da": "at gå",
-    "en": "to walk"
    }
   ],
   "sentence": {
@@ -64,16 +60,8 @@
     "en": "French fries"
    },
    {
-    "da": "en snack",
-    "en": "a snack"
-   },
-   {
-    "da": "kartofler",
-    "en": "potatoes"
-   },
-   {
-    "da": "popcorn",
-    "en": "popcorn"
+    "da": "kartoffelchips",
+    "en": "potato crisps"
    }
   ],
   "sentence": {
@@ -99,20 +87,12 @@
   ],
   "related": [
    {
-    "da": "slik",
-    "en": "candy"
+    "da": "kakao",
+    "en": "cocoa"
    },
    {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
-    "da": "kaffe",
-    "en": "coffee"
-   },
-   {
-    "da": "en is",
-    "en": "an ice cream"
+    "da": "en chokoladekage",
+    "en": "a chocolate cake"
    }
   ],
   "sentence": {
@@ -142,16 +122,12 @@
     "en": "around"
    },
    {
-    "da": "næsten",
-    "en": "almost"
+    "da": "ungefær",
+    "en": "roughly"
    },
    {
     "da": "præcis",
     "en": "exactly"
-   },
-   {
-    "da": "ungefær",
-    "en": "roughly"
    }
   ],
   "sentence": {
@@ -183,14 +159,6 @@
    {
     "da": "müsli",
     "en": "muesli"
-   },
-   {
-    "da": "en morgenmad",
-    "en": "a breakfast"
-   },
-   {
-    "da": "mælk",
-    "en": "milk"
    }
   ],
   "sentence": {
@@ -224,10 +192,6 @@
     "en": "a bicycle"
    },
    {
-    "da": "sport",
-    "en": "sport"
-   },
-   {
     "da": "en cykeltur",
     "en": "a bike ride"
    }
@@ -259,20 +223,8 @@
   ],
   "related": [
    {
-    "da": "en kaffe",
-    "en": "a coffee"
-   },
-   {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
     "da": "en restaurant",
     "en": "a restaurant"
-   },
-   {
-    "da": "en kop",
-    "en": "a cup"
    }
   ],
   "sentence": {
@@ -312,10 +264,6 @@
    {
     "da": "en millimeter",
     "en": "a millimeter"
-   },
-   {
-    "da": "lang",
-    "en": "long"
    }
   ],
   "sentence": {
@@ -345,20 +293,12 @@
   ],
   "related": [
    {
-    "da": "en kollega",
-    "en": "a colleague"
-   },
-   {
-    "da": "et job",
-    "en": "a job"
-   },
-   {
-    "da": "et møde",
-    "en": "a meeting"
-   },
-   {
     "da": "en leder",
     "en": "a leader"
+   },
+   {
+    "da": "en køkkenchef",
+    "en": "a head chef"
    }
   ],
   "sentence": {
@@ -394,14 +334,6 @@
    {
     "da": "en frugt",
     "en": "a fruit"
-   },
-   {
-    "da": "sur",
-    "en": "sour"
-   },
-   {
-    "da": "en te",
-    "en": "a tea"
    }
   ],
   "sentence": {
@@ -431,20 +363,8 @@
   ],
   "related": [
    {
-    "da": "en telefon",
-    "en": "a phone"
-   },
-   {
-    "da": "internet",
-    "en": "internet"
-   },
-   {
-    "da": "en skærm",
-    "en": "a screen"
-   },
-   {
-    "da": "et tastatur",
-    "en": "a keyboard"
+    "da": "en bærbar",
+    "en": "a laptop"
    }
   ],
   "sentence": {
@@ -482,12 +402,8 @@
     "en": "a bike path"
    },
    {
-    "da": "en hjelm",
-    "en": "a helmet"
-   },
-   {
-    "da": "en bil",
-    "en": "a car"
+    "da": "en cykeltur",
+    "en": "a bike ride"
    }
   ],
   "sentence": {
@@ -556,20 +472,12 @@
   ],
   "related": [
    {
-    "da": "et boardingpas",
-    "en": "a boarding pass"
+    "da": "at tjekke ind",
+    "en": "to check in"
    },
    {
-    "da": "en lufthavn",
-    "en": "an airport"
-   },
-   {
-    "da": "en reservation",
-    "en": "a reservation"
-   },
-   {
-    "da": "et hotel",
-    "en": "a hotel"
+    "da": "at tjekke ud",
+    "en": "to check out"
    }
   ],
   "sentence": {
@@ -599,20 +507,12 @@
   ],
   "related": [
    {
-    "da": "et sygesikringskort",
-    "en": "a health insurance card"
-   },
-   {
-    "da": "et navn",
-    "en": "a name"
-   },
-   {
-    "da": "en fødselsdato",
-    "en": "a birth date"
-   },
-   {
     "da": "et nummer",
     "en": "a number"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
    }
   ],
   "sentence": {

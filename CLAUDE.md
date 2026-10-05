@@ -105,6 +105,7 @@ something; nothing is repeated; right length. New and live-AI answers must match
   contrasts with English, no ending mechanics (-t/-e/doubling), no grammar jargon.
 - Nothing already in the forms list or the related list is repeated; other words are mentioned
   only to prevent a real mix-up, show how a word is built, or show a usage contrast.
+- Related words must be truly related: same word family, a real look-alike/mix-up, a true opposite or synonym, or a linked partner in a small set. Never a word that only appears in the sentence or shares a topic. 2–4 items, fewer or none is fine. All 1,438 Basic lists were re-checked on this rule.
 - Every claim agrees with the card's own forms/related/sentence; uncertain rules are softened or left out.
 - Example sentence length follows the word's level: Basic = at most 8 words and one clause (no ", så …" / ", for …"), everyday words, adding at most ONE small new thing so the learner levels up a little. Higher levels may be longer.
 - Example sentence: the marked word is exactly the card's word (no en/et/at, no "the"/plural form),

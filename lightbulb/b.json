@@ -21,20 +21,8 @@
   ],
   "related": [
    {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
-    "da": "et brød",
-    "en": "a bread"
-   },
-   {
     "da": "en bager",
     "en": "a baker"
-   },
-   {
-    "da": "at koge",
-    "en": "to boil"
    }
   ],
   "sentence": {
@@ -142,20 +130,12 @@
   ],
   "related": [
    {
-    "da": "en tjener",
-    "en": "a waiter"
+    "da": "en bestilling",
+    "en": "an order, a booking"
    },
    {
-    "da": "et menukort",
-    "en": "a menu"
-   },
-   {
-    "da": "at servere",
-    "en": "to serve"
-   },
-   {
-    "da": "en regning",
-    "en": "a bill"
+    "da": "at reservere",
+    "en": "to reserve"
    }
   ],
   "sentence": {
@@ -193,12 +173,8 @@
     "en": "to order, to book"
    },
    {
-    "da": "en tandlæge",
-    "en": "a dentist"
-   },
-   {
-    "da": "en frisør",
-    "en": "a hairdresser"
+    "da": "en aftale",
+    "en": "an appointment"
    }
   ],
   "sentence": {
@@ -269,14 +245,6 @@
    {
     "da": "en betaling",
     "en": "a payment"
-   },
-   {
-    "da": "kontanter",
-    "en": "cash"
-   },
-   {
-    "da": "et kort",
-    "en": "a card"
    }
   ],
   "sentence": {
@@ -316,10 +284,6 @@
    {
     "da": "at betale",
     "en": "to pay"
-   },
-   {
-    "da": "en kvittering",
-    "en": "a receipt"
    }
   ],
   "sentence": {
@@ -351,14 +315,6 @@
    {
     "da": "en betydning",
     "en": "a meaning"
-   },
-   {
-    "da": "at forklare",
-    "en": "to explain"
-   },
-   {
-    "da": "at forstå",
-    "en": "to understand"
    }
   ],
   "sentence": {
@@ -394,10 +350,6 @@
    {
     "da": "at forblive",
     "en": "to remain"
-   },
-   {
-    "da": "at ende",
-    "en": "to end up"
    }
   ],
   "sentence": {
@@ -523,10 +475,6 @@
    {
     "da": "at gå ud",
     "en": "to go out"
-   },
-   {
-    "da": "at komme hjem",
-    "en": "to come home"
    }
   ],
   "sentence": {
@@ -566,10 +514,6 @@
    {
     "da": "syg",
     "en": "sick"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
    }
   ],
   "sentence": {
@@ -605,14 +549,6 @@
    {
     "da": "at blive rask",
     "en": "to get better"
-   },
-   {
-    "da": "forkølet",
-    "en": "having a cold"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
    }
   ],
   "sentence": {
@@ -648,14 +584,6 @@
    {
     "da": "at være træt",
     "en": "to be tired"
-   },
-   {
-    "da": "at sove",
-    "en": "to sleep"
-   },
-   {
-    "da": "at hvile sig",
-    "en": "to rest"
    }
   ],
   "sentence": {
@@ -693,8 +621,8 @@
     "en": "a home"
    },
    {
-    "da": "en nabo",
-    "en": "a neighbour"
+    "da": "en bolig",
+    "en": "a home, housing"
    }
   ],
   "sentence": {
@@ -771,12 +699,8 @@
     "en": "to save"
    },
    {
-    "da": "at købe",
-    "en": "to buy"
-   },
-   {
-    "da": "at betale",
-    "en": "to pay"
+    "da": "at bruge",
+    "en": "to use, to spend"
    }
   ],
   "sentence": {
@@ -806,20 +730,12 @@
   ],
   "related": [
    {
-    "da": "en kvittering",
-    "en": "a receipt"
+    "da": "at skifte",
+    "en": "to change"
    },
    {
     "da": "at returnere",
     "en": "to return"
-   },
-   {
-    "da": "byttepenge",
-    "en": "change"
-   },
-   {
-    "da": "at skifte",
-    "en": "to change"
    }
   ],
   "sentence": {
@@ -855,10 +771,6 @@
    {
     "da": "en tandbørste",
     "en": "a toothbrush"
-   },
-   {
-    "da": "tandpasta",
-    "en": "toothpaste"
    },
    {
     "da": "en børste",
@@ -898,10 +810,6 @@
    {
     "da": "en badedragt",
     "en": "a swimsuit"
-   },
-   {
-    "da": "et håndklæde",
-    "en": "a towel"
    }
   ],
   "sentence": {
@@ -933,10 +841,6 @@
    {
     "da": "bagved",
     "en": "behind (on its own)"
-   },
-   {
-    "da": "ved siden af",
-    "en": "next to"
    },
    {
     "da": "et bagsæde",
@@ -976,10 +880,6 @@
    {
     "da": "en taske",
     "en": "a bag"
-   },
-   {
-    "da": "en lufthavn",
-    "en": "an airport"
    }
   ],
   "sentence": {
@@ -1013,12 +913,12 @@
     "en": "before"
    },
    {
-    "da": "først",
-    "en": "first"
-   },
-   {
     "da": "senere",
     "en": "later"
+   },
+   {
+    "da": "derefter",
+    "en": "after that"
    }
   ],
   "sentence": {
@@ -1054,10 +954,6 @@
    {
     "da": "bagerst",
     "en": "at the very back"
-   },
-   {
-    "da": "ved siden af",
-    "en": "next to"
    }
   ],
   "sentence": {
@@ -1089,14 +985,6 @@
    {
     "da": "modig",
     "en": "brave"
-   },
-   {
-    "da": "en frygt",
-    "en": "a fear"
-   },
-   {
-    "da": "nervøs",
-    "en": "nervous"
    }
   ],
   "sentence": {
@@ -1122,20 +1010,16 @@
   ],
   "related": [
    {
-    "da": "at være bange",
-    "en": "to be afraid"
+    "da": "bange",
+    "en": "afraid"
    },
    {
     "da": "modig",
     "en": "brave"
    },
    {
-    "da": "nervøs",
-    "en": "nervous"
-   },
-   {
-    "da": "frygt",
-    "en": "fear"
+    "da": "at frygte",
+    "en": "to fear"
    }
   ],
   "sentence": {
@@ -1167,10 +1051,6 @@
    {
     "da": "lige",
     "en": "just / right now"
-   },
-   {
-    "da": "også",
-    "en": "also"
    },
    {
     "da": "blot",
@@ -1210,10 +1090,6 @@
    {
     "da": "værre",
     "en": "worse"
-   },
-   {
-    "da": "dårlig",
-    "en": "bad"
    }
   ],
   "sentence": {
@@ -1249,10 +1125,6 @@
    {
     "da": "værst",
     "en": "worst"
-   },
-   {
-    "da": "dårlig",
-    "en": "bad"
    }
   ],
   "sentence": {
@@ -1325,12 +1197,8 @@
     "en": "two"
    },
    {
-    "da": "hver",
-    "en": "each"
-   },
-   {
-    "da": "hinanden",
-    "en": "each other"
+    "da": "både…og",
+    "en": "both…and"
    }
   ],
   "sentence": {
@@ -1362,14 +1230,6 @@
    {
     "da": "snavset",
     "en": "dirty"
-   },
-   {
-    "da": "skidt",
-    "en": "dirt"
-   },
-   {
-    "da": "at vaske",
-    "en": "to wash"
    }
   ],
   "sentence": {
@@ -1405,10 +1265,6 @@
    {
     "da": "en ske",
     "en": "a spoon"
-   },
-   {
-    "da": "en tallerken",
-    "en": "a plate"
    }
   ],
   "sentence": {
@@ -1442,8 +1298,8 @@
     "en": "unconscious"
    },
    {
-    "da": "opmærksom",
-    "en": "attentive, aware"
+    "da": "ubevidst",
+    "en": "unconscious, unaware"
    }
   ],
   "sentence": {
@@ -1471,18 +1327,6 @@
    {
     "da": "dyr",
     "en": "expensive"
-   },
-   {
-    "da": "en pris",
-    "en": "a price"
-   },
-   {
-    "da": "et tilbud",
-    "en": "an offer"
-   },
-   {
-    "da": "gratis",
-    "en": "free of charge"
    }
   ],
   "sentence": {
@@ -1508,20 +1352,16 @@
   ],
   "related": [
    {
-    "da": "et hjerte",
-    "en": "a heart"
+    "da": "en blodprøve",
+    "en": "a blood test"
    },
    {
-    "da": "hud",
-    "en": "skin"
+    "da": "et blodtryk",
+    "en": "blood pressure"
    },
    {
-    "da": "en sygdom",
-    "en": "a disease"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
+    "da": "at bløde",
+    "en": "to bleed"
    }
   ],
   "sentence": {
@@ -1547,10 +1387,6 @@
   ],
   "related": [
    {
-    "da": "broccoli",
-    "en": "broccoli"
-   },
-   {
     "da": "kål",
     "en": "cabbage"
    },
@@ -1559,8 +1395,8 @@
     "en": "a flower"
    },
    {
-    "da": "en grøntsag",
-    "en": "a vegetable"
+    "da": "broccoli",
+    "en": "broccoli"
    }
   ],
   "sentence": {
@@ -1592,10 +1428,6 @@
    {
     "da": "mørkeblå",
     "en": "dark blue"
-   },
-   {
-    "da": "en himmel",
-    "en": "a sky"
    },
    {
     "da": "grøn",
@@ -1635,10 +1467,6 @@
    {
     "da": "stormfuld",
     "en": "stormy"
-   },
-   {
-    "da": "en storm",
-    "en": "a storm"
    }
   ],
   "sentence": {
@@ -1664,20 +1492,12 @@
   ],
   "related": [
    {
-    "da": "en kommune",
-    "en": "a municipality"
+    "da": "en borger",
+    "en": "a citizen"
    },
    {
-    "da": "et pas",
-    "en": "a passport"
-   },
-   {
-    "da": "en adresse",
-    "en": "an address"
-   },
-   {
-    "da": "en tid",
-    "en": "an appointment / a time"
+    "da": "service",
+    "en": "service"
    }
   ],
   "sentence": {
@@ -1713,10 +1533,6 @@
    {
     "da": "udover",
     "en": "besides, in addition to"
-   },
-   {
-    "da": "kun",
-    "en": "only"
    }
   ],
   "sentence": {
@@ -1748,14 +1564,6 @@
    {
     "da": "en bredde",
     "en": "a width"
-   },
-   {
-    "da": "lang",
-    "en": "long"
-   },
-   {
-    "da": "tyk",
-    "en": "thick"
    }
   ],
   "sentence": {
@@ -1781,20 +1589,12 @@
   ],
   "related": [
    {
-    "da": "et øje",
-    "en": "an eye"
-   },
-   {
     "da": "solbriller",
     "en": "sunglasses"
    },
    {
-    "da": "at se",
-    "en": "to see"
-   },
-   {
-    "da": "en optiker",
-    "en": "an optician"
+    "da": "kontaktlinser",
+    "en": "contact lenses"
    }
   ],
   "sentence": {
@@ -1830,10 +1630,6 @@
    {
     "da": "en brite",
     "en": "a Briton"
-   },
-   {
-    "da": "amerikansk",
-    "en": "American"
    }
   ],
   "sentence": {
@@ -1859,16 +1655,8 @@
     "en": "cauliflower"
    },
    {
-    "da": "spinat",
-    "en": "spinach"
-   },
-   {
-    "da": "en grøntsag",
-    "en": "a vegetable"
-   },
-   {
-    "da": "en gulerod",
-    "en": "a carrot"
+    "da": "kål",
+    "en": "cabbage"
    }
   ],
   "sentence": {
@@ -1902,10 +1690,6 @@
     "en": "black"
    },
    {
-    "da": "mørk",
-    "en": "dark"
-   },
-   {
     "da": "grå",
     "en": "gray"
    }
@@ -1937,16 +1721,12 @@
     "en": "rye bread"
    },
    {
-    "da": "en bolle",
-    "en": "a bun"
+    "da": "et franskbrød",
+    "en": "white bread"
    },
    {
-    "da": "en bager",
-    "en": "a baker"
-   },
-   {
-    "da": "smør",
-    "en": "butter"
+    "da": "en brødskive",
+    "en": "a slice of bread"
    }
   ],
   "sentence": {
@@ -1976,16 +1756,12 @@
     "en": "a pair of jeans"
    },
    {
-    "da": "en nederdel",
-    "en": "a skirt"
-   },
-   {
-    "da": "sokker",
-    "en": "socks"
-   },
-   {
     "da": "underbukser",
     "en": "underpants"
+   },
+   {
+    "da": "shorts",
+    "en": "shorts"
    }
   ],
   "sentence": {
@@ -2015,16 +1791,8 @@
     "en": "money"
    },
    {
-    "da": "kontant",
-    "en": "cash"
-   },
-   {
     "da": "at bytte",
     "en": "to exchange"
-   },
-   {
-    "da": "en pung",
-    "en": "a wallet"
    }
   ],
   "sentence": {
@@ -2060,10 +1828,6 @@
    {
     "da": "såvel…som",
     "en": "as well as"
-   },
-   {
-    "da": "og",
-    "en": "and"
    }
   ],
   "sentence": {
@@ -2093,20 +1857,12 @@
   ],
   "related": [
    {
-    "da": "ærter",
-    "en": "peas"
-   },
-   {
-    "da": "majs",
-    "en": "corn"
-   },
-   {
     "da": "kaffebønner",
     "en": "coffee beans"
    },
    {
-    "da": "en grøntsag",
-    "en": "a vegetable"
+    "da": "en bøn",
+    "en": "a prayer"
    }
   ],
   "sentence": {
@@ -2142,14 +1898,6 @@
    {
     "da": "et spædbarn",
     "en": "an infant"
-   },
-   {
-    "da": "en dreng",
-    "en": "a boy"
-   },
-   {
-    "da": "en pige",
-    "en": "a girl"
    }
   ],
   "sentence": {
@@ -2183,14 +1931,6 @@
     "en": "a bakery"
    },
    {
-    "da": "et brød",
-    "en": "a loaf of bread"
-   },
-   {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
     "da": "at bage",
     "en": "to bake"
    }
@@ -2220,24 +1960,7 @@
     "en": "the balloons"
    }
   ],
-  "related": [
-   {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
-    "da": "en fest",
-    "en": "a party"
-   },
-   {
-    "da": "en gave",
-    "en": "a gift"
-   },
-   {
-    "da": "et barn",
-    "en": "a child"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Barnet slipper en **ballon** op i luften.",
    "en": "The child lets a balloon go up into the air."
@@ -2265,20 +1988,8 @@
   ],
   "related": [
    {
-    "da": "legetøj",
-    "en": "toys"
-   },
-   {
     "da": "en dukke",
     "en": "a doll"
-   },
-   {
-    "da": "et barn",
-    "en": "a child"
-   },
-   {
-    "da": "en bold",
-    "en": "a ball"
    }
   ],
   "sentence": {
@@ -2398,16 +2109,8 @@
     "en": "a bank card"
    },
    {
-    "da": "penge",
-    "en": "money"
-   },
-   {
-    "da": "en konto",
-    "en": "an account"
-   },
-   {
-    "da": "en pengeautomat",
-    "en": "a cash machine"
+    "da": "en bankkonto",
+    "en": "a bank account"
    }
   ],
   "sentence": {
@@ -2441,16 +2144,8 @@
     "en": "a bank"
    },
    {
-    "da": "penge",
-    "en": "money"
-   },
-   {
-    "da": "et dankort",
-    "en": "a Dankort"
-   },
-   {
-    "da": "en hæveautomat",
-    "en": "an ATM"
+    "da": "en konto",
+    "en": "an account"
    }
   ],
   "sentence": {
@@ -2566,20 +2261,8 @@
   ],
   "related": [
    {
-    "da": "en doktor",
-    "en": "a doctor"
-   },
-   {
-    "da": "en patient",
-    "en": "a patient"
-   },
-   {
-    "da": "medicin",
-    "en": "medicine"
-   },
-   {
-    "da": "en klinik",
-    "en": "a clinic"
+    "da": "at behandle",
+    "en": "to treat"
    }
   ],
   "sentence": {
@@ -2615,14 +2298,6 @@
    {
     "da": "en e-mail",
     "en": "an email"
-   },
-   {
-    "da": "at sende",
-    "en": "to send"
-   },
-   {
-    "da": "at svare",
-    "en": "to answer"
    }
   ],
   "sentence": {
@@ -2652,10 +2327,6 @@
   ],
   "related": [
    {
-    "da": "at køre",
-    "en": "to drive"
-   },
-   {
     "da": "en cykel",
     "en": "a bike"
    },
@@ -2666,6 +2337,10 @@
    {
     "da": "et tog",
     "en": "a train"
+   },
+   {
+    "da": "en bilist",
+    "en": "a motorist"
    }
   ],
   "sentence": {
@@ -2738,20 +2413,8 @@
   ],
   "related": [
    {
-    "da": "en film",
-    "en": "a film"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
-   },
-   {
-    "da": "popcorn",
-    "en": "popcorn"
-   },
-   {
-    "da": "at se film",
-    "en": "to watch a film"
+    "da": "en bio",
+    "en": "a cinema (short form)"
    }
   ],
   "sentence": {
@@ -2781,20 +2444,12 @@
   ],
   "related": [
    {
-    "da": "at udfylde",
-    "en": "to fill in"
-   },
-   {
-    "da": "en underskrift",
-    "en": "a signature"
-   },
-   {
     "da": "et skema",
     "en": "a form, schedule"
    },
    {
-    "da": "en kuglepen",
-    "en": "a ballpoint pen"
+    "da": "en form",
+    "en": "a shape"
    }
   ],
   "sentence": {
@@ -2822,24 +2477,7 @@
     "en": "the diapers"
    }
   ],
-  "related": [
-   {
-    "da": "en baby",
-    "en": "a baby"
-   },
-   {
-    "da": "et barn",
-    "en": "a child"
-   },
-   {
-    "da": "at skifte",
-    "en": "to change"
-   },
-   {
-    "da": "en sut",
-    "en": "a pacifier"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Babyen har en våd **ble**.",
    "en": "The baby has a wet diaper."
@@ -2869,14 +2507,6 @@
    {
     "da": "blod",
     "en": "blood"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
-   },
-   {
-    "da": "en sygeplejerske",
-    "en": "a nurse"
    },
    {
     "da": "en prøve",
@@ -2910,20 +2540,16 @@
   ],
   "related": [
    {
-    "da": "et træ",
-    "en": "a tree"
-   },
-   {
-    "da": "en have",
-    "en": "a garden"
-   },
-   {
     "da": "en rose",
     "en": "a rose"
    },
    {
-    "da": "et blad",
-    "en": "a leaf"
+    "da": "en blomsterbutik",
+    "en": "a flower shop"
+   },
+   {
+    "da": "en blomstervase",
+    "en": "a flower vase"
    }
   ],
   "sentence": {
@@ -3000,16 +2626,8 @@
     "en": "a ballpoint pen"
    },
    {
-    "da": "et viskelæder",
-    "en": "an eraser"
-   },
-   {
     "da": "en blyantspidser",
     "en": "a pencil sharpener"
-   },
-   {
-    "da": "et papir",
-    "en": "paper"
    }
   ],
   "sentence": {
@@ -3039,20 +2657,12 @@
   ],
   "related": [
    {
-    "da": "at læse",
-    "en": "to read"
-   },
-   {
-    "da": "et bibliotek",
-    "en": "a library"
-   },
-   {
     "da": "en boghandel",
     "en": "a bookshop"
    },
    {
-    "da": "en avis",
-    "en": "a newspaper"
+    "da": "en bogreol",
+    "en": "a bookshelf"
    }
   ],
   "sentence": {
@@ -3088,14 +2698,6 @@
    {
     "da": "håndbold",
     "en": "handball"
-   },
-   {
-    "da": "at spille",
-    "en": "to play"
-   },
-   {
-    "da": "legetøj",
-    "en": "toys"
    }
   ],
   "sentence": {
@@ -3125,20 +2727,16 @@
   ],
   "related": [
    {
+    "da": "et rundstykke",
+    "en": "a bread roll"
+   },
+   {
     "da": "et brød",
     "en": "bread"
    },
    {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
     "da": "en frikadelle",
     "en": "a meatball"
-   },
-   {
-    "da": "smør",
-    "en": "butter"
    }
   ],
   "sentence": {
@@ -3170,18 +2768,6 @@
    {
     "da": "en kvittering",
     "en": "a receipt"
-   },
-   {
-    "da": "at bytte",
-    "en": "to exchange"
-   },
-   {
-    "da": "et betalingskort",
-    "en": "a payment card"
-   },
-   {
-    "da": "kontant",
-    "en": "cash"
    }
   ],
   "sentence": {
@@ -3211,20 +2797,8 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road"
-   },
-   {
-    "da": "en flod",
-    "en": "a river"
-   },
-   {
     "da": "en tunnel",
     "en": "a tunnel"
-   },
-   {
-    "da": "en å",
-    "en": "a stream"
    }
   ],
   "sentence": {
@@ -3297,20 +2871,8 @@
   ],
   "related": [
    {
-    "da": "en morgenmad",
-    "en": "a breakfast"
-   },
-   {
-    "da": "en restaurant",
-    "en": "a restaurant"
-   },
-   {
-    "da": "en tallerken",
-    "en": "a plate"
-   },
-   {
-    "da": "en menu",
-    "en": "a menu"
+    "da": "en morgenmadsbuffet",
+    "en": "a breakfast buffet"
    }
   ],
   "sentence": {
@@ -3344,16 +2906,8 @@
     "en": "a hamburger"
    },
    {
-    "da": "pommes frites",
-    "en": "French fries"
-   },
-   {
-    "da": "en pizza",
-    "en": "a pizza"
-   },
-   {
-    "da": "en sandwich",
-    "en": "a sandwich"
+    "da": "en vegetarburger",
+    "en": "a vegetarian burger"
    }
   ],
   "sentence": {
@@ -3387,16 +2941,12 @@
     "en": "a bus stop"
    },
    {
-    "da": "en chauffør",
-    "en": "a driver"
+    "da": "en busbillet",
+    "en": "a bus ticket"
    },
    {
     "da": "et tog",
     "en": "a train"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
    }
   ],
   "sentence": {
@@ -3477,12 +3027,8 @@
     "en": "a market"
    },
    {
-    "da": "at handle",
-    "en": "to shop"
-   },
-   {
-    "da": "at købe",
-    "en": "to buy"
+    "da": "en tøjbutik",
+    "en": "a clothes shop"
    }
   ],
   "sentence": {
@@ -3512,20 +3058,12 @@
   ],
   "related": [
    {
-    "da": "et land",
-    "en": "a country"
-   },
-   {
     "da": "en landsby",
     "en": "a village"
    },
    {
-    "da": "en gade",
-    "en": "a street"
-   },
-   {
-    "da": "en hovedstad",
-    "en": "a capital"
+    "da": "en storby",
+    "en": "a big city"
    }
   ],
   "sentence": {
@@ -3563,12 +3101,8 @@
     "en": "a ferry"
    },
    {
-    "da": "en havn",
-    "en": "a harbour"
-   },
-   {
-    "da": "at sejle",
-    "en": "to sail"
+    "da": "en sejlbåd",
+    "en": "a sailboat"
    }
   ],
   "sentence": {
@@ -3598,20 +3132,8 @@
   ],
   "related": [
    {
-    "da": "oksekød",
-    "en": "beef"
-   },
-   {
-    "da": "kød",
-    "en": "meat"
-   },
-   {
-    "da": "en frikadelle",
-    "en": "a meatball"
-   },
-   {
-    "da": "en kartoffel",
-    "en": "a potato"
+    "da": "en hakkebøf",
+    "en": "a minced beef patty"
    }
   ],
   "sentence": {
@@ -3651,10 +3173,6 @@
    {
     "da": "en skole",
     "en": "a school"
-   },
-   {
-    "da": "en pædagog",
-    "en": "an early-years teacher"
    }
   ],
   "sentence": {
@@ -3690,14 +3208,6 @@
    {
     "da": "en menu",
     "en": "a menu"
-   },
-   {
-    "da": "en restaurant",
-    "en": "a restaurant"
-   },
-   {
-    "da": "en tjener",
-    "en": "a waiter"
    }
   ],
   "sentence": {
@@ -3737,10 +3247,6 @@
    {
     "da": "at bade",
     "en": "to swim, bathe"
-   },
-   {
-    "da": "et håndklæde",
-    "en": "a towel"
    }
   ],
   "sentence": {
@@ -3774,16 +3280,16 @@
     "en": "a toilet"
    },
    {
+    "da": "et bad",
+    "en": "a bath"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
     "da": "et brusebad",
     "en": "a shower"
-   },
-   {
-    "da": "sæbe",
-    "en": "soap"
-   },
-   {
-    "da": "et håndklæde",
-    "en": "a towel"
    }
   ],
   "sentence": {
@@ -3817,16 +3323,8 @@
     "en": "a baker"
    },
    {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
-    "da": "et rundstykke",
-    "en": "a bread roll"
+    "da": "at bage",
+    "en": "to bake"
    }
   ],
   "sentence": {
@@ -3866,10 +3364,6 @@
    {
     "da": "en pige",
     "en": "a girl"
-   },
-   {
-    "da": "forældre",
-    "en": "parents"
    }
   ],
   "sentence": {
@@ -3899,20 +3393,16 @@
   ],
   "related": [
    {
+    "da": "en knogle",
+    "en": "a bone"
+   },
+   {
     "da": "et knæ",
     "en": "a knee"
    },
    {
     "da": "en fod",
     "en": "a foot"
-   },
-   {
-    "da": "en tå",
-    "en": "a toe"
-   },
-   {
-    "da": "en krop",
-    "en": "a body"
    }
   ],
   "sentence": {
@@ -3946,12 +3436,8 @@
     "en": "a guest"
    },
    {
-    "da": "velkommen",
-    "en": "welcome"
-   },
-   {
-    "da": "en tur",
-    "en": "a trip"
+    "da": "en besøgende",
+    "en": "a visitor"
    }
   ],
   "sentence": {
@@ -3989,12 +3475,12 @@
     "en": "cash"
    },
    {
-    "da": "et gavekort",
-    "en": "a gift card"
+    "da": "et kreditkort",
+    "en": "a credit card"
    },
    {
-    "da": "en kvittering",
-    "en": "a receipt"
+    "da": "et gavekort",
+    "en": "a gift card"
    }
   ],
   "sentence": {
@@ -4024,20 +3510,12 @@
   ],
   "related": [
    {
-    "da": "en bog",
-    "en": "a book"
-   },
-   {
-    "da": "at låne",
-    "en": "to borrow"
-   },
-   {
-    "da": "at læse",
-    "en": "to read"
-   },
-   {
     "da": "en bibliotekar",
     "en": "a librarian"
+   },
+   {
+    "da": "en boghandel",
+    "en": "a bookshop"
    }
   ],
   "sentence": {
@@ -4077,10 +3555,6 @@
    {
     "da": "en tegning",
     "en": "a drawing"
-   },
-   {
-    "da": "et kamera",
-    "en": "a camera"
    }
   ],
   "sentence": {
@@ -4122,8 +3596,8 @@
     "en": "a peak"
    },
    {
-    "da": "en sø",
-    "en": "a lake"
+    "da": "en bjergtur",
+    "en": "a mountain trip"
    }
   ],
   "sentence": {
@@ -4159,14 +3633,6 @@
    {
     "da": "en billet",
     "en": "a ticket"
-   },
-   {
-    "da": "en lufthavn",
-    "en": "an airport"
-   },
-   {
-    "da": "en gate",
-    "en": "a gate"
    }
   ],
   "sentence": {
@@ -4245,14 +3711,6 @@
    {
     "da": "et postkort",
     "en": "a postcard"
-   },
-   {
-    "da": "en postkasse",
-    "en": "a mailbox"
-   },
-   {
-    "da": "at skrive",
-    "en": "to write"
    }
   ],
   "sentence": {
@@ -4282,20 +3740,20 @@
   ],
   "related": [
    {
-    "da": "en fest",
-    "en": "a party"
+    "da": "en brud",
+    "en": "a bride"
    },
    {
-    "da": "at blive gift",
-    "en": "to get married"
+    "da": "en brudgom",
+    "en": "a groom"
+   },
+   {
+    "da": "en bryllupsrejse",
+    "en": "a honeymoon"
    },
    {
     "da": "gift",
     "en": "married"
-   },
-   {
-    "da": "en brud",
-    "en": "a bride"
    }
   ],
   "sentence": {
@@ -4325,20 +3783,16 @@
   ],
   "related": [
    {
-    "da": "et hjerte",
-    "en": "a heart"
+    "da": "en ryg",
+    "en": "a back"
    },
    {
     "da": "en mave",
     "en": "a stomach"
    },
    {
-    "da": "en ryg",
-    "en": "a back"
-   },
-   {
-    "da": "en skulder",
-    "en": "a shoulder"
+    "da": "brystsmerter",
+    "en": "chest pain"
    }
   ],
   "sentence": {
@@ -4374,14 +3828,6 @@
    {
     "da": "en bus",
     "en": "a bus"
-   },
-   {
-    "da": "en rutetabel",
-    "en": "a timetable"
-   },
-   {
-    "da": "en banegård",
-    "en": "a railway station"
    }
   ],
   "sentence": {
@@ -4411,20 +3857,8 @@
   ],
   "related": [
    {
-    "da": "bukser",
-    "en": "trousers"
-   },
-   {
-    "da": "en jakke",
-    "en": "a jacket"
-   },
-   {
-    "da": "en lomme",
-    "en": "a pocket"
-   },
-   {
-    "da": "en størrelse",
-    "en": "a size"
+    "da": "et sikkerhedsbælte",
+    "en": "a seat belt"
    }
   ],
   "sentence": {

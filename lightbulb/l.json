@@ -29,12 +29,8 @@
     "en": "to cook"
    },
    {
-    "da": "at fremstille",
-    "en": "to produce, to manufacture"
-   },
-   {
-    "da": "at bygge",
-    "en": "to build"
+    "da": "at lave lektier",
+    "en": "to do homework"
    }
   ],
   "sentence": {
@@ -68,16 +64,8 @@
     "en": "a piece of homework"
    },
    {
-    "da": "en skole",
-    "en": "a school"
-   },
-   {
-    "da": "at lære",
-    "en": "to learn"
-   },
-   {
-    "da": "at læse",
-    "en": "to read / study"
+    "da": "at lave",
+    "en": "to make, to do"
    }
   ],
   "sentence": {
@@ -107,20 +95,20 @@
   ],
   "related": [
    {
+    "da": "at lave",
+    "en": "to make, to do"
+   },
+   {
+    "da": "mad",
+    "en": "food"
+   },
+   {
     "da": "at koge",
     "en": "to boil"
    },
    {
     "da": "at stege",
     "en": "to fry"
-   },
-   {
-    "da": "at bage",
-    "en": "to bake"
-   },
-   {
-    "da": "mad",
-    "en": "food"
    }
   ],
   "sentence": {
@@ -156,10 +144,6 @@
    {
     "da": "latter",
     "en": "laughter"
-   },
-   {
-    "da": "sjov",
-    "en": "funny"
    }
   ],
   "sentence": {
@@ -349,16 +333,8 @@
     "en": "to like (in general)"
    },
    {
-    "da": "at dele",
-    "en": "to share"
-   },
-   {
-    "da": "at følge",
-    "en": "to follow"
-   },
-   {
-    "da": "et opslag",
-    "en": "a post"
+    "da": "at synes om",
+    "en": "to like, to approve of"
    }
   ],
   "sentence": {
@@ -394,10 +370,6 @@
    {
     "da": "lukket",
     "en": "closed"
-   },
-   {
-    "da": "en dør",
-    "en": "a door"
    }
   ],
   "sentence": {
@@ -431,12 +403,8 @@
     "en": "to hear"
    },
    {
-    "da": "musik",
-    "en": "music"
-   },
-   {
-    "da": "en lyd",
-    "en": "a sound"
+    "da": "en lytter",
+    "en": "a listener"
    }
   ],
   "sentence": {
@@ -466,16 +434,16 @@
   ],
   "related": [
    {
-    "da": "at give tilbage",
-    "en": "to give back"
-   },
-   {
     "da": "et lån",
     "en": "a loan"
    },
    {
-    "da": "at give",
-    "en": "to give"
+    "da": "at låne ud",
+    "en": "to lend out"
+   },
+   {
+    "da": "at låne af",
+    "en": "to borrow from"
    }
   ],
   "sentence": {
@@ -513,8 +481,8 @@
     "en": "to put"
    },
    {
-    "da": "en seng",
-    "en": "a bed"
+    "da": "at lægge sig",
+    "en": "to lie down"
    }
   ],
   "sentence": {
@@ -665,16 +633,12 @@
     "en": "a light"
    },
    {
-    "da": "at tænde",
-    "en": "to switch on"
+    "da": "en loftlampe",
+    "en": "a ceiling light"
    },
    {
-    "da": "at slukke",
-    "en": "to switch off"
-   },
-   {
-    "da": "en stue",
-    "en": "a living room"
+    "da": "en bordlampe",
+    "en": "a table lamp"
    }
   ],
   "sentence": {
@@ -704,20 +668,12 @@
   ],
   "related": [
    {
-    "da": "en gård",
-    "en": "a farm"
-   },
-   {
     "da": "et landbrug",
     "en": "farming"
    },
    {
-    "da": "en mark",
-    "en": "a field"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
+    "da": "et land",
+    "en": "a country / countryside"
    }
   ],
   "sentence": {
@@ -751,16 +707,8 @@
     "en": "a house"
    },
    {
-    "da": "et værelse",
-    "en": "a room"
-   },
-   {
-    "da": "en husleje",
-    "en": "rent"
-   },
-   {
-    "da": "en nabo",
-    "en": "a neighbour"
+    "da": "at leje",
+    "en": "to rent"
    }
   ],
   "sentence": {
@@ -880,10 +828,6 @@
     "en": "a shopping list"
    },
    {
-    "da": "at skrive",
-    "en": "to write"
-   },
-   {
     "da": "en ønskeliste",
     "en": "a wish list"
    },
@@ -923,16 +867,16 @@
     "en": "half a liter"
    },
    {
+    "da": "en deciliter",
+    "en": "a deciliter"
+   },
+   {
     "da": "et gram",
     "en": "a gram"
    },
    {
     "da": "et kilo",
     "en": "a kilo"
-   },
-   {
-    "da": "mælk",
-    "en": "milk"
    }
   ],
   "sentence": {
@@ -970,12 +914,8 @@
     "en": "a flashlight"
    },
    {
-    "da": "en jakke",
-    "en": "a jacket"
-   },
-   {
-    "da": "en pung",
-    "en": "a wallet"
+    "da": "en lommeregner",
+    "en": "a calculator"
    }
   ],
   "sentence": {
@@ -1005,20 +945,12 @@
   ],
   "related": [
    {
-    "da": "et fly",
-    "en": "a plane"
-   },
-   {
     "da": "en havn",
     "en": "a harbor"
    },
    {
-    "da": "en billet",
-    "en": "a ticket"
-   },
-   {
-    "da": "en afgang",
-    "en": "a departure"
+    "da": "luft",
+    "en": "air"
    }
   ],
   "sentence": {
@@ -1060,8 +992,8 @@
     "en": "a tongue"
    },
    {
-    "da": "et ansigt",
-    "en": "a face"
+    "da": "en læbestift",
+    "en": "a lipstick"
    }
   ],
   "sentence": {
@@ -1091,20 +1023,16 @@
   ],
   "related": [
    {
-    "da": "en sygeplejerske",
-    "en": "a nurse"
-   },
-   {
-    "da": "et hospital",
-    "en": "a hospital"
-   },
-   {
     "da": "en tandlæge",
     "en": "a dentist"
    },
    {
-    "da": "at være syg",
-    "en": "to be ill"
+    "da": "en dyrlæge",
+    "en": "a vet"
+   },
+   {
+    "da": "en doktor",
+    "en": "a doctor"
    }
   ],
   "sentence": {
@@ -1138,16 +1066,8 @@
     "en": "a pupil"
    },
    {
-    "da": "en skole",
-    "en": "a school"
-   },
-   {
     "da": "at lære",
     "en": "to learn / to teach"
-   },
-   {
-    "da": "en klasse",
-    "en": "a class"
    }
   ],
   "sentence": {
@@ -1177,20 +1097,8 @@
   ],
   "related": [
    {
-    "da": "en tiger",
-    "en": "a tiger"
-   },
-   {
-    "da": "en elefant",
-    "en": "an elephant"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
-   },
-   {
-    "da": "en giraf",
-    "en": "a giraffe"
+    "da": "en løvinde",
+    "en": "a lioness"
    }
   ],
   "sentence": {
@@ -1228,12 +1136,8 @@
     "en": "abroad"
    },
    {
-    "da": "en verden",
-    "en": "a world"
-   },
-   {
-    "da": "en grænse",
-    "en": "a border"
+    "da": "en landsby",
+    "en": "a village"
    }
   ],
   "sentence": {
@@ -1269,14 +1173,6 @@
    {
     "da": "døden",
     "en": "death"
-   },
-   {
-    "da": "et menneske",
-    "en": "a human being"
-   },
-   {
-    "da": "en hverdag",
-    "en": "an everyday life"
    }
   ],
   "sentence": {
@@ -1314,12 +1210,8 @@
     "en": "a knee"
    },
    {
-    "da": "en hofte",
-    "en": "a hip"
-   },
-   {
-    "da": "en læg",
-    "en": "a calf (of the leg)"
+    "da": "et kyllingelår",
+    "en": "a chicken thigh"
    }
   ],
   "sentence": {
@@ -1353,16 +1245,8 @@
     "en": "garlic"
    },
    {
-    "da": "en gulerod",
-    "en": "a carrot"
-   },
-   {
-    "da": "en tomat",
-    "en": "a tomato"
-   },
-   {
-    "da": "en grøntsag",
-    "en": "a vegetable"
+    "da": "et rødløg",
+    "en": "a red onion"
    }
   ],
   "sentence": {
@@ -1394,10 +1278,6 @@
    {
     "da": "vi må se",
     "en": "we'll have to see"
-   },
-   {
-    "da": "måske",
-    "en": "maybe"
    }
   ],
   "sentence": {
@@ -1427,16 +1307,8 @@
     "en": "fish"
    },
    {
-    "da": "en reje",
-    "en": "a shrimp"
-   },
-   {
     "da": "torsk",
     "en": "cod"
-   },
-   {
-    "da": "kød",
-    "en": "meat"
    }
   ],
   "sentence": {
@@ -1470,12 +1342,8 @@
     "en": "longer"
    },
    {
-    "da": "høj",
-    "en": "tall"
-   },
-   {
-    "da": "langt",
-    "en": "far"
+    "da": "længe",
+    "en": "for a long time"
    }
   ],
   "sentence": {
@@ -1507,14 +1375,6 @@
    {
     "da": "langsomt",
     "en": "slowly"
-   },
-   {
-    "da": "en fart",
-    "en": "a speed"
-   },
-   {
-    "da": "rolig",
-    "en": "calm"
    }
   ],
   "sentence": {
@@ -1550,10 +1410,6 @@
    {
     "da": "i nærheden",
     "en": "nearby"
-   },
-   {
-    "da": "en afstand",
-    "en": "a distance"
    }
   ],
   "sentence": {
@@ -1589,10 +1445,6 @@
    {
     "da": "langt fra",
     "en": "far from"
-   },
-   {
-    "da": "en afstand",
-    "en": "a distance"
    }
   ],
   "sentence": {
@@ -1628,10 +1480,6 @@
    {
     "da": "kort",
     "en": "short"
-   },
-   {
-    "da": "billig",
-    "en": "cheap"
    }
   ],
   "sentence": {
@@ -1665,10 +1513,6 @@
     "en": "a teddy bear"
    },
    {
-    "da": "et spil",
-    "en": "a game"
-   },
-   {
     "da": "en dukke",
     "en": "a doll"
    }
@@ -1700,20 +1544,8 @@
   ],
   "related": [
    {
-    "da": "en skole",
-    "en": "a school"
-   },
-   {
-    "da": "en lærer",
-    "en": "a teacher"
-   },
-   {
     "da": "en opgave",
     "en": "a task"
-   },
-   {
-    "da": "at lære",
-    "en": "to learn"
    }
   ],
   "sentence": {
@@ -1749,10 +1581,6 @@
    {
     "da": "nem",
     "en": "easy"
-   },
-   {
-    "da": "en opgave",
-    "en": "a task"
    }
   ],
   "sentence": {
@@ -1788,10 +1616,6 @@
    {
     "da": "lidt efter lidt",
     "en": "little by little"
-   },
-   {
-    "da": "nogle",
-    "en": "some"
    }
   ],
   "sentence": {
@@ -1821,12 +1645,8 @@
     "en": "slow"
    },
    {
-    "da": "kan du gentage det?",
-    "en": "can you repeat that?"
-   },
-   {
-    "da": "jeg forstår ikke",
-    "en": "I don't understand"
+    "da": "hurtigere",
+    "en": "faster"
    }
   ],
   "sentence": {
@@ -1901,10 +1721,6 @@
    {
     "da": "senere",
     "en": "later"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
    }
   ],
   "sentence": {
@@ -1979,10 +1795,6 @@
    {
     "da": "rød",
     "en": "red"
-   },
-   {
-    "da": "en blomst",
-    "en": "a flower"
    }
   ],
   "sentence": {
@@ -2016,12 +1828,8 @@
     "en": "smaller"
    },
    {
-    "da": "lav",
-    "en": "low"
-   },
-   {
-    "da": "kort",
-    "en": "short"
+    "da": "lidt",
+    "en": "a little"
    }
   ],
   "sentence": {
@@ -2051,16 +1859,8 @@
     "en": "an airport"
    },
    {
-    "da": "vind",
-    "en": "wind"
-   },
-   {
-    "da": "at trække vejret",
-    "en": "to breathe"
-   },
-   {
-    "da": "et fly",
-    "en": "a plane"
+    "da": "at lufte",
+    "en": "to air out"
    }
   ],
   "sentence": {
@@ -2096,10 +1896,6 @@
    {
     "da": "at åbne",
     "en": "to open"
-   },
-   {
-    "da": "aflåst",
-    "en": "locked"
    }
   ],
   "sentence": {
@@ -2174,10 +1970,6 @@
    {
     "da": "lys",
     "en": "light"
-   },
-   {
-    "da": "en himmel",
-    "en": "a sky"
    }
   ],
   "sentence": {
@@ -2213,10 +2005,6 @@
    {
     "da": "lys",
     "en": "light"
-   },
-   {
-    "da": "et blad",
-    "en": "a leaf"
    }
   ],
   "sentence": {
@@ -2287,14 +2075,6 @@
    {
     "da": "dejlig",
     "en": "lovely"
-   },
-   {
-    "da": "en ret",
-    "en": "a dish"
-   },
-   {
-    "da": "at smage",
-    "en": "to taste"
    }
   ],
   "sentence": {
@@ -2324,16 +2104,8 @@
     "en": "long"
    },
    {
-    "da": "kort",
-    "en": "short"
-   },
-   {
     "da": "kort tid",
     "en": "a short time"
-   },
-   {
-    "da": "snart",
-    "en": "soon"
    }
   ],
   "sentence": {
@@ -2369,10 +2141,6 @@
    {
     "da": "en søndag",
     "en": "Sunday"
-   },
-   {
-    "da": "en uge",
-    "en": "a week"
    },
    {
     "da": "en weekend",

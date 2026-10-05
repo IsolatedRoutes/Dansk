@@ -21,16 +21,12 @@
   ],
   "related": [
    {
-    "da": "et hotel",
-    "en": "a hotel"
+    "da": "en overnatning",
+    "en": "an overnight stay"
    },
    {
-    "da": "et vandrerhjem",
-    "en": "a hostel"
-   },
-   {
-    "da": "at sove",
-    "en": "to sleep"
+    "da": "en nat",
+    "en": "a night"
    }
   ],
   "sentence": {
@@ -107,16 +103,12 @@
     "en": "a cooker, stove"
    },
    {
-    "da": "et køkken",
-    "en": "a kitchen"
-   },
-   {
-    "da": "at bage",
-    "en": "to bake"
-   },
-   {
     "da": "en mikrobølgeovn",
     "en": "a microwave oven"
+   },
+   {
+    "da": "en kogeplade",
+    "en": "a stovetop"
    }
   ],
   "sentence": {
@@ -152,10 +144,6 @@
    {
     "da": "et dametoilet",
     "en": "a women's restroom"
-   },
-   {
-    "da": "gratis",
-    "en": "free"
    }
   ],
   "sentence": {
@@ -189,16 +177,8 @@
     "en": "a dictionary"
    },
    {
-    "da": "et sprog",
-    "en": "a language"
-   },
-   {
-    "da": "en sætning",
-    "en": "a sentence"
-   },
-   {
-    "da": "at betyde",
-    "en": "to mean"
+    "da": "et ordforråd",
+    "en": "a vocabulary"
    }
   ],
   "sentence": {
@@ -314,8 +294,8 @@
     "en": "besides"
    },
    {
-    "da": "igen",
-    "en": "again"
+    "da": "og",
+    "en": "and"
    }
   ],
   "sentence": {
@@ -345,16 +325,12 @@
     "en": "fine"
    },
    {
-    "da": "ja",
-    "en": "yes"
+    "da": "godt",
+    "en": "good"
    },
    {
     "da": "det er i orden",
     "en": "that's all right"
-   },
-   {
-    "da": "godt",
-    "en": "good"
    }
   ],
   "sentence": {
@@ -386,10 +362,6 @@
    {
     "da": "kød",
     "en": "meat"
-   },
-   {
-    "da": "kylling",
-    "en": "chicken"
    },
    {
     "da": "en okse",
@@ -425,14 +397,6 @@
    {
     "da": "november",
     "en": "November"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -466,16 +430,8 @@
     "en": "olive oil"
    },
    {
-    "da": "smør",
-    "en": "butter"
-   },
-   {
-    "da": "eddike",
-    "en": "vinegar"
-   },
-   {
-    "da": "en stegepande",
-    "en": "a frying pan"
+    "da": "rapsolie",
+    "en": "rapeseed oil"
    }
   ],
   "sentence": {
@@ -505,16 +461,12 @@
     "en": "around"
    },
    {
-    "da": "cirka",
-    "en": "approximately"
-   },
-   {
-    "da": "rundt",
-    "en": "around"
-   },
-   {
     "da": "i",
     "en": "in"
+   },
+   {
+    "da": "hvis",
+    "en": "if"
    }
   ],
   "sentence": {
@@ -743,10 +695,6 @@
     "en": "approximately"
    },
    {
-    "da": "forbi",
-    "en": "past"
-   },
-   {
     "da": "rundt om",
     "en": "all around"
    }
@@ -784,10 +732,6 @@
    {
     "da": "en mavepine",
     "en": "a stomachache"
-   },
-   {
-    "da": "syg",
-    "en": "sick"
    }
   ],
   "sentence": {
@@ -823,14 +767,6 @@
    {
     "da": "en torsdag",
     "en": "a Thursday"
-   },
-   {
-    "da": "en uge",
-    "en": "a week"
-   },
-   {
-    "da": "en weekend",
-    "en": "a weekend"
    }
   ],
   "sentence": {
@@ -866,10 +802,6 @@
    {
     "da": "at stå op",
     "en": "to get up"
-   },
-   {
-    "da": "ovenpå",
-    "en": "upstairs / on top"
    }
   ],
   "sentence": {
@@ -905,10 +837,6 @@
    {
     "da": "ovenpå",
     "en": "upstairs"
-   },
-   {
-    "da": "højt",
-    "en": "high"
    }
   ],
   "sentence": {
@@ -944,10 +872,6 @@
    {
     "da": "fri",
     "en": "free"
-   },
-   {
-    "da": "en plads",
-    "en": "a seat"
    }
   ],
   "sentence": {
@@ -1049,24 +973,7 @@
     "en": "a slice of cheese"
    }
   ],
-  "related": [
-   {
-    "da": "smør",
-    "en": "butter"
-   },
-   {
-    "da": "mælk",
-    "en": "milk"
-   },
-   {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "en skive",
-    "en": "a slice"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg kan godt lide **ost** på brød.",
    "en": "I like cheese on bread."
@@ -1172,14 +1079,6 @@
     "en": "downstairs"
    },
    {
-    "da": "en trappe",
-    "en": "a staircase"
-   },
-   {
-    "da": "en etage",
-    "en": "a floor"
-   },
-   {
     "da": "oppe",
     "en": "up (there)"
    }
@@ -1213,10 +1112,6 @@
    {
     "da": "på",
     "en": "on"
-   },
-   {
-    "da": "ovenpå",
-    "en": "upstairs"
    },
    {
     "da": "mere end",
@@ -1295,10 +1190,6 @@
    {
     "da": "en sky",
     "en": "a cloud"
-   },
-   {
-    "da": "regn",
-    "en": "rain"
    }
   ],
   "sentence": {

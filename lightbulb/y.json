@@ -27,10 +27,6 @@
    {
     "da": "ældre",
     "en": "older"
-   },
-   {
-    "da": "end",
-    "en": "than"
    }
   ],
   "sentence": {
@@ -66,10 +62,6 @@
    {
     "da": "ældst",
     "en": "oldest"
-   },
-   {
-    "da": "et barn",
-    "en": "a child"
    }
   ],
   "sentence": {
@@ -93,24 +85,7 @@
     "en": "some yogurt"
    }
   ],
-  "related": [
-   {
-    "da": "müsli",
-    "en": "muesli"
-   },
-   {
-    "da": "mælk",
-    "en": "milk"
-   },
-   {
-    "da": "en frugt",
-    "en": "a fruit"
-   },
-   {
-    "da": "morgenmad",
-    "en": "breakfast"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg spiser **yoghurt** hver morgen.",
    "en": "I eat yogurt every morning."

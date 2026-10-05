@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "en kuffert",
-    "en": "a suitcase"
-   },
-   {
     "da": "en pakke",
     "en": "a parcel"
    },
    {
     "da": "at pakke ud",
     "en": "to unpack"
+   },
+   {
+    "da": "at pakke ind",
+    "en": "to wrap"
    }
   ],
   "sentence": {
@@ -68,8 +68,8 @@
     "en": "a test / sample"
    },
    {
-    "da": "at øve",
-    "en": "to practice"
+    "da": "at prøve tøj",
+    "en": "to try on clothes"
    }
   ],
   "sentence": {
@@ -99,20 +99,16 @@
   ],
   "related": [
    {
+    "da": "at prøve",
+    "en": "to try"
+   },
+   {
     "da": "et prøverum",
     "en": "a fitting room"
    },
    {
-    "da": "en størrelse",
-    "en": "a size"
-   },
-   {
-    "da": "at have på",
-    "en": "to wear"
-   },
-   {
-    "da": "at skifte tøj",
-    "en": "to change clothes"
+    "da": "tøj",
+    "en": "clothes"
    }
   ],
   "sentence": {
@@ -142,20 +138,12 @@
   ],
   "related": [
    {
-    "da": "post",
-    "en": "mail"
-   },
-   {
     "da": "at pakke",
     "en": "to pack"
    },
    {
-    "da": "en pose",
-    "en": "a bag"
-   },
-   {
-    "da": "et brev",
-    "en": "a letter"
+    "da": "at pakke ud",
+    "en": "to unpack"
    }
   ],
   "sentence": {
@@ -189,16 +177,8 @@
     "en": "a cake"
    },
    {
-    "da": "syltetøj",
-    "en": "jam"
-   },
-   {
-    "da": "sukker",
-    "en": "sugar"
-   },
-   {
-    "da": "at bage",
-    "en": "to bake"
+    "da": "en pande",
+    "en": "a frying pan"
    }
   ],
   "sentence": {
@@ -228,20 +208,8 @@
   ],
   "related": [
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
-    "da": "at regne",
-    "en": "to rain"
-   },
-   {
-    "da": "en regnjakke",
-    "en": "a rain jacket"
-   },
-   {
-    "da": "vejret",
-    "en": "the weather"
+    "da": "en parasol",
+    "en": "a parasol, sunshade"
    }
   ],
   "sentence": {
@@ -275,14 +243,6 @@
     "en": "a garden"
    },
    {
-    "da": "en bænk",
-    "en": "a bench"
-   },
-   {
-    "da": "en legeplads",
-    "en": "a playground"
-   },
-   {
     "da": "at parkere",
     "en": "to park (a car)"
    }
@@ -314,20 +274,12 @@
   ],
   "related": [
    {
+    "da": "tålmodig",
+    "en": "patient (calm)"
+   },
+   {
     "da": "en doktor",
     "en": "a doctor"
-   },
-   {
-    "da": "en klinik",
-    "en": "a clinic"
-   },
-   {
-    "da": "en behandling",
-    "en": "a treatment"
-   },
-   {
-    "da": "et sygehus",
-    "en": "a hospital"
    }
   ],
   "sentence": {
@@ -361,16 +313,12 @@
     "en": "a lunch break"
    },
    {
+    "da": "en kaffepause",
+    "en": "a coffee break"
+   },
+   {
     "da": "et frikvarter",
     "en": "a school break"
-   },
-   {
-    "da": "at hvile",
-    "en": "to rest"
-   },
-   {
-    "da": "at arbejde",
-    "en": "to work"
    }
   ],
   "sentence": {
@@ -408,12 +356,8 @@
     "en": "a pencil"
    },
    {
-    "da": "et papir",
-    "en": "paper"
-   },
-   {
-    "da": "at skrive",
-    "en": "to write"
+    "da": "pæn",
+    "en": "nice, pretty"
    }
   ],
   "sentence": {
@@ -443,16 +387,8 @@
   ],
   "related": [
    {
-    "da": "et tog",
-    "en": "a train"
-   },
-   {
     "da": "en station",
     "en": "a station"
-   },
-   {
-    "da": "en togstation",
-    "en": "a train station"
    },
    {
     "da": "et spor",
@@ -498,8 +434,8 @@
     "en": "a woman"
    },
    {
-    "da": "et barn",
-    "en": "a child"
+    "da": "personlig",
+    "en": "personal"
    }
   ],
   "sentence": {
@@ -539,10 +475,6 @@
    {
     "da": "et barn",
     "en": "a child"
-   },
-   {
-    "da": "en datter",
-    "en": "a daughter"
    }
   ],
   "sentence": {
@@ -572,20 +504,8 @@
   ],
   "related": [
    {
-    "da": "medicin",
-    "en": "medicine"
-   },
-   {
-    "da": "en recept",
-    "en": "a prescription"
-   },
-   {
-    "da": "et apotek",
-    "en": "a pharmacy"
-   },
-   {
-    "da": "en hovedpine",
-    "en": "a headache"
+    "da": "en tablet",
+    "en": "a tablet"
    }
   ],
   "sentence": {
@@ -613,24 +533,7 @@
     "en": "the penguins"
    }
   ],
-  "related": [
-   {
-    "da": "en fugl",
-    "en": "a bird"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
-   },
-   {
-    "da": "kulde",
-    "en": "cold"
-   },
-   {
-    "da": "is",
-    "en": "ice"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "En **pingvin** er en fugl, der svømmer.",
    "en": "A penguin is a bird that swims."
@@ -658,20 +561,8 @@
   ],
   "related": [
    {
-    "da": "en burger",
-    "en": "a burger"
-   },
-   {
-    "da": "ost",
-    "en": "cheese"
-   },
-   {
     "da": "en pizzeria",
     "en": "a pizza restaurant"
-   },
-   {
-    "da": "mad",
-    "en": "food"
    }
   ],
   "sentence": {
@@ -701,10 +592,6 @@
   ],
   "related": [
    {
-    "da": "et sted",
-    "en": "a place"
-   },
-   {
     "da": "et sæde",
     "en": "a seat"
    },
@@ -713,8 +600,8 @@
     "en": "a square"
    },
    {
-    "da": "en stol",
-    "en": "a chair"
+    "da": "en parkeringsplads",
+    "en": "a parking space"
    }
   ],
   "sentence": {
@@ -744,20 +631,12 @@
   ],
   "related": [
    {
-    "da": "en idé",
-    "en": "an idea"
-   },
-   {
     "da": "at planlægge",
     "en": "to plan"
    },
    {
-    "da": "en aftale",
-    "en": "an appointment"
-   },
-   {
-    "da": "en weekend",
-    "en": "a weekend"
+    "da": "en køreplan",
+    "en": "a timetable"
    }
   ],
   "sentence": {
@@ -838,10 +717,6 @@
     "en": "a police officer"
    },
    {
-    "da": "et alarmnummer",
-    "en": "an emergency number"
-   },
-   {
     "da": "en station",
     "en": "a station"
    }
@@ -871,24 +746,7 @@
     "en": "the portions"
    }
   ],
-  "related": [
-   {
-    "da": "en tallerken",
-    "en": "a plate"
-   },
-   {
-    "da": "en forret",
-    "en": "a starter"
-   },
-   {
-    "da": "lille",
-    "en": "small"
-   },
-   {
-    "da": "stor",
-    "en": "big"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg vil gerne have en stor **portion**.",
    "en": "I would like a big portion."
@@ -965,14 +823,6 @@
    {
     "da": "billig",
     "en": "cheap"
-   },
-   {
-    "da": "en krone",
-    "en": "a crown"
-   },
-   {
-    "da": "et tilbud",
-    "en": "an offer"
    }
   ],
   "sentence": {
@@ -1002,20 +852,8 @@
   ],
   "related": [
    {
-    "da": "en seng",
-    "en": "a bed"
-   },
-   {
-    "da": "et tæppe",
-    "en": "a blanket"
-   },
-   {
-    "da": "en sofa",
-    "en": "a sofa"
-   },
-   {
-    "da": "et soveværelse",
-    "en": "a bedroom"
+    "da": "en hovedpude",
+    "en": "a head pillow"
    }
   ],
   "sentence": {
@@ -1047,18 +885,6 @@
    {
     "da": "en tegnebog",
     "en": "a wallet"
-   },
-   {
-    "da": "et betalingskort",
-    "en": "a payment card"
-   },
-   {
-    "da": "kontant",
-    "en": "cash"
-   },
-   {
-    "da": "byttepenge",
-    "en": "change"
    }
   ],
   "sentence": {
@@ -1087,18 +913,6 @@
    }
   ],
   "related": [
-   {
-    "da": "undertøj",
-    "en": "underwear"
-   },
-   {
-    "da": "en seng",
-    "en": "a bed"
-   },
-   {
-    "da": "at sove",
-    "en": "to sleep"
-   },
    {
     "da": "et nattøj",
     "en": "nightwear"
@@ -1135,16 +949,8 @@
     "en": "an apple"
    },
    {
-    "da": "en frugt",
-    "en": "a fruit"
-   },
-   {
-    "da": "en banan",
-    "en": "a banana"
-   },
-   {
-    "da": "en lampe",
-    "en": "a lamp"
+    "da": "en elpære",
+    "en": "a light bulb"
    }
   ],
   "sentence": {
@@ -1174,20 +980,8 @@
   ],
   "related": [
    {
-    "da": "kød",
-    "en": "meat"
-   },
-   {
-    "da": "svinekød",
-    "en": "pork"
-   },
-   {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "en frikadelle",
-    "en": "a meatball"
+    "da": "en pølsevogn",
+    "en": "a hot-dog stand"
    }
   ],
   "sentence": {
@@ -1227,10 +1021,6 @@
    {
     "da": "mange",
     "en": "many"
-   },
-   {
-    "da": "flere",
-    "en": "several"
    }
   ],
   "sentence": {
@@ -1260,16 +1050,8 @@
     "en": "pants"
    },
    {
-    "da": "en jakke",
-    "en": "a jacket"
-   },
-   {
-    "da": "en t-shirt",
-    "en": "a t-shirt"
-   },
-   {
-    "da": "sokker",
-    "en": "socks"
+    "da": "et par sko",
+    "en": "a pair of shoes"
    }
   ],
   "sentence": {
@@ -1295,20 +1077,12 @@
   ],
   "related": [
    {
-    "da": "et visum",
-    "en": "a visa"
-   },
-   {
     "da": "et boardingpas",
     "en": "a boarding pass"
    },
    {
-    "da": "en lufthavn",
-    "en": "an airport"
-   },
-   {
-    "da": "en grænse",
-    "en": "a border"
+    "da": "at passe",
+    "en": "to fit, to look after"
    }
   ],
   "sentence": {
@@ -1338,20 +1112,8 @@
   ],
   "related": [
    {
-    "da": "et apotek",
-    "en": "a pharmacy"
-   },
-   {
-    "da": "en finger",
-    "en": "a finger"
-   },
-   {
-    "da": "en smerte",
-    "en": "a pain"
-   },
-   {
-    "da": "en doktor",
-    "en": "a doctor"
+    "da": "en forbinding",
+    "en": "a bandage"
    }
   ],
   "sentence": {
@@ -1381,16 +1143,12 @@
   ],
   "related": [
    {
-    "da": "en pakke",
-    "en": "a parcel"
+    "da": "et posthus",
+    "en": "a post office"
    },
    {
-    "da": "et brev",
-    "en": "a letter"
-   },
-   {
-    "da": "et frimærke",
-    "en": "a stamp"
+    "da": "et kontor",
+    "en": "an office"
    },
    {
     "da": "en postkasse",
@@ -1432,10 +1190,6 @@
     "en": "a stamp"
    },
    {
-    "da": "en ferie",
-    "en": "a holiday"
-   },
-   {
     "da": "posten",
     "en": "the mail"
    }
@@ -1469,14 +1223,6 @@
    {
     "da": "en løsning",
     "en": "a solution"
-   },
-   {
-    "da": "et spørgsmål",
-    "en": "a question"
-   },
-   {
-    "da": "en grund",
-    "en": "a reason"
    },
    {
     "da": "at løse",
@@ -1514,16 +1260,12 @@
     "en": "to try on clothes"
    },
    {
-    "da": "en størrelse",
-    "en": "a size"
+    "da": "at prøve",
+    "en": "to try"
    },
    {
-    "da": "en tøjbutik",
-    "en": "a clothing store"
-   },
-   {
-    "da": "bukser",
-    "en": "pants"
+    "da": "et rum",
+    "en": "a room"
    }
   ],
   "sentence": {
@@ -1549,20 +1291,12 @@
   ],
   "related": [
    {
-    "da": "en flaske",
-    "en": "a bottle"
-   },
-   {
-    "da": "en dåse",
-    "en": "a can"
-   },
-   {
-    "da": "et supermarked",
-    "en": "a supermarket"
-   },
-   {
     "da": "en pantflaske",
     "en": "a deposit bottle"
+   },
+   {
+    "da": "en pantautomat",
+    "en": "a bottle-return machine"
    }
   ],
   "sentence": {
@@ -1592,20 +1326,12 @@
   ],
   "related": [
    {
-    "da": "en blyant",
-    "en": "a pencil"
+    "da": "en papirkurv",
+    "en": "a wastepaper bin"
    },
    {
-    "da": "en bog",
-    "en": "a book"
-   },
-   {
-    "da": "et brev",
-    "en": "a letter"
-   },
-   {
-    "da": "en avis",
-    "en": "a newspaper"
+    "da": "et dokument",
+    "en": "a document"
    }
   ],
   "sentence": {
@@ -1635,12 +1361,12 @@
     "en": "take care"
    },
    {
-    "da": "farlig",
-    "en": "dangerous"
-   },
-   {
     "da": "forsigtig",
     "en": "careful"
+   },
+   {
+    "da": "at passe på",
+    "en": "to look after"
    }
   ],
   "sentence": {
@@ -1672,10 +1398,6 @@
    {
     "da": "hav det godt",
     "en": "take care / be well"
-   },
-   {
-    "da": "god bedring",
-    "en": "get well soon"
    }
   ],
   "sentence": {
@@ -1701,20 +1423,12 @@
   ],
   "related": [
    {
-    "da": "ris",
-    "en": "rice"
+    "da": "spaghetti",
+    "en": "spaghetti"
    },
    {
-    "da": "en kartoffel",
-    "en": "a potato"
-   },
-   {
-    "da": "en tomat",
-    "en": "a tomato"
-   },
-   {
-    "da": "aftensmad",
-    "en": "dinner"
+    "da": "nudler",
+    "en": "noodles"
    }
   ],
   "sentence": {
@@ -1750,14 +1464,6 @@
    {
     "da": "en peberfrugt",
     "en": "a bell pepper"
-   },
-   {
-    "da": "sukker",
-    "en": "sugar"
-   },
-   {
-    "da": "et krydderi",
-    "en": "a spice"
    }
   ],
   "sentence": {
@@ -1795,8 +1501,8 @@
     "en": "cash"
    },
    {
-    "da": "en pris",
-    "en": "a price"
+    "da": "en seddel",
+    "en": "a banknote"
    }
   ],
   "sentence": {
@@ -1830,12 +1536,8 @@
     "en": "super"
    },
    {
-    "da": "god",
-    "en": "good"
-   },
-   {
-    "da": "en fejl",
-    "en": "a mistake"
+    "da": "udmærket",
+    "en": "excellent"
    }
   ],
   "sentence": {
@@ -1861,20 +1563,12 @@
   ],
   "related": [
    {
-    "da": "hurtigt",
-    "en": "quickly"
-   },
-   {
-    "da": "straks",
-    "en": "in a moment"
-   },
-   {
     "da": "uventet",
     "en": "unexpected"
    },
    {
-    "da": "snart",
-    "en": "soon"
+    "da": "gradvis",
+    "en": "gradual"
    }
   ],
   "sentence": {
@@ -1906,14 +1600,6 @@
    {
     "da": "polsk",
     "en": "Polish"
-   },
-   {
-    "da": "Tyskland",
-    "en": "Germany"
-   },
-   {
-    "da": "Ukraine",
-    "en": "Ukraine"
    }
   ],
   "sentence": {
@@ -1947,12 +1633,8 @@
     "en": "a police station"
    },
    {
-    "da": "et alarmnummer",
-    "en": "an emergency number"
-   },
-   {
-    "da": "en tyv",
-    "en": "a thief"
+    "da": "en politibil",
+    "en": "a police car"
    }
   ],
   "sentence": {
@@ -1984,14 +1666,6 @@
    {
     "da": "en polak",
     "en": "a Pole"
-   },
-   {
-    "da": "tysk",
-    "en": "German"
-   },
-   {
-    "da": "russisk",
-    "en": "Russian"
    }
   ],
   "sentence": {
@@ -2017,20 +1691,12 @@
   ],
   "related": [
    {
+    "da": "pommes",
+    "en": "fries"
+   },
+   {
     "da": "kartofler",
     "en": "potatoes"
-   },
-   {
-    "da": "en burger",
-    "en": "a burger"
-   },
-   {
-    "da": "ketchup",
-    "en": "ketchup"
-   },
-   {
-    "da": "chips",
-    "en": "chips / crisps"
    }
   ],
   "sentence": {
@@ -2060,20 +1726,12 @@
   ],
   "related": [
    {
-    "da": "et brev",
-    "en": "a letter"
+    "da": "et postbud",
+    "en": "a postman"
    },
    {
-    "da": "en pakke",
-    "en": "a package"
-   },
-   {
-    "da": "en adresse",
-    "en": "an address"
-   },
-   {
-    "da": "et frimærke",
-    "en": "a stamp"
+    "da": "et posthus",
+    "en": "a post office"
    }
   ],
   "sentence": {
@@ -2105,10 +1763,6 @@
    {
     "da": "nøjagtig",
     "en": "exact"
-   },
-   {
-    "da": "rigtig",
-    "en": "right / correct"
    },
    {
     "da": "omkring",
@@ -2222,10 +1876,6 @@
    {
     "da": "en rabat",
     "en": "a discount"
-   },
-   {
-    "da": "gratis",
-    "en": "free"
    }
   ],
   "sentence": {
@@ -2253,14 +1903,6 @@
    {
     "da": "en vej",
     "en": "a road / way"
-   },
-   {
-    "da": "snart",
-    "en": "soon"
-   },
-   {
-    "da": "hjem",
-    "en": "home"
    },
    {
     "da": "undervejs",
@@ -2298,16 +1940,8 @@
     "en": "Christmas"
    },
    {
-    "da": "et æg",
-    "en": "an egg"
-   },
-   {
-    "da": "en ferie",
-    "en": "a holiday"
-   },
-   {
-    "da": "en helligdag",
-    "en": "a public holiday"
+    "da": "et påskeæg",
+    "en": "an Easter egg"
    }
   ],
   "sentence": {
@@ -2343,10 +1977,6 @@
    {
     "da": "ryddelig",
     "en": "tidy"
-   },
-   {
-    "da": "sød",
-    "en": "sweet / cute"
    }
   ],
   "sentence": {

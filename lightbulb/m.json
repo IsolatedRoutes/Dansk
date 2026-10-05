@@ -23,18 +23,6 @@
    {
     "da": "meditation",
     "en": "meditation"
-   },
-   {
-    "da": "at slappe af",
-    "en": "to relax"
-   },
-   {
-    "da": "ro",
-    "en": "calm, peace"
-   },
-   {
-    "da": "stille",
-    "en": "quiet"
    }
   ],
   "sentence": {
@@ -74,10 +62,6 @@
    {
     "da": "at være syg",
     "en": "to be sick"
-   },
-   {
-    "da": "et arbejde",
-    "en": "a job / work"
    }
   ],
   "sentence": {
@@ -152,10 +136,6 @@
    {
     "da": "at skulle",
     "en": "to have to / should"
-   },
-   {
-    "da": "at tillade",
-    "en": "to allow"
    }
   ],
   "sentence": {
@@ -189,16 +169,8 @@
     "en": "an email"
    },
    {
-    "da": "en besked",
-    "en": "a message"
-   },
-   {
-    "da": "at sende",
-    "en": "to send"
-   },
-   {
-    "da": "en sms",
-    "en": "a text message"
+    "da": "at maile",
+    "en": "to email"
    }
   ],
   "sentence": {
@@ -236,10 +208,6 @@
     "en": "a wife"
    },
    {
-    "da": "en dreng",
-    "en": "a boy"
-   },
-   {
     "da": "en ægtemand",
     "en": "a husband"
    }
@@ -273,18 +241,6 @@
    {
     "da": "en mavepine",
     "en": "a stomachache"
-   },
-   {
-    "da": "et bryst",
-    "en": "a chest"
-   },
-   {
-    "da": "en ryg",
-    "en": "a back"
-   },
-   {
-    "da": "sulten",
-    "en": "hungry"
    }
   ],
   "sentence": {
@@ -324,10 +280,6 @@
    {
     "da": "ondt",
     "en": "pain / hurt"
-   },
-   {
-    "da": "en pille",
-    "en": "a pill"
    }
   ],
   "sentence": {
@@ -361,16 +313,8 @@
     "en": "a watermelon"
    },
    {
-    "da": "frugt",
-    "en": "fruit"
-   },
-   {
-    "da": "en ananas",
-    "en": "a pineapple"
-   },
-   {
-    "da": "en banan",
-    "en": "a banana"
+    "da": "en honningmelon",
+    "en": "a honeydew melon"
    }
   ],
   "sentence": {
@@ -406,14 +350,6 @@
    {
     "da": "en børnemenu",
     "en": "a kids' menu"
-   },
-   {
-    "da": "en restaurant",
-    "en": "a restaurant"
-   },
-   {
-    "da": "en tjener",
-    "en": "a waiter"
    }
   ],
   "sentence": {
@@ -449,14 +385,6 @@
    {
     "da": "en kilometer",
     "en": "a kilometer"
-   },
-   {
-    "da": "høj",
-    "en": "tall"
-   },
-   {
-    "da": "lang",
-    "en": "long"
    }
   ],
   "sentence": {
@@ -486,20 +414,12 @@
   ],
   "related": [
    {
+    "da": "et S-tog",
+    "en": "an S-train"
+   },
+   {
     "da": "et tog",
     "en": "a train"
-   },
-   {
-    "da": "en bus",
-    "en": "a bus"
-   },
-   {
-    "da": "en station",
-    "en": "a station"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
    }
   ],
   "sentence": {
@@ -582,10 +502,6 @@
    {
     "da": "en telefon",
     "en": "a phone"
-   },
-   {
-    "da": "en oplader",
-    "en": "a charger"
    }
   ],
   "sentence": {
@@ -625,10 +541,6 @@
    {
     "da": "en smartphone",
     "en": "a smartphone"
-   },
-   {
-    "da": "en oplader",
-    "en": "a charger"
    }
   ],
   "sentence": {
@@ -840,10 +752,6 @@
    {
     "da": "en læbe",
     "en": "a lip"
-   },
-   {
-    "da": "en næse",
-    "en": "a nose"
    }
   ],
   "sentence": {
@@ -877,16 +785,8 @@
     "en": "a rat"
    },
    {
-    "da": "en kat",
-    "en": "a cat"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
-   },
-   {
-    "da": "en computer",
-    "en": "a computer"
+    "da": "en computermus",
+    "en": "a computer mouse"
    }
   ],
   "sentence": {
@@ -922,14 +822,6 @@
    {
     "da": "en metode",
     "en": "a method"
-   },
-   {
-    "da": "en grund",
-    "en": "a reason"
-   },
-   {
-    "da": "ligesom",
-    "en": "just like"
    }
   ],
   "sentence": {
@@ -965,10 +857,6 @@
    {
     "da": "en stjerne",
     "en": "a star"
-   },
-   {
-    "da": "en himmel",
-    "en": "a sky"
    },
    {
     "da": "en måned",
@@ -1014,8 +902,8 @@
     "en": "a day"
    },
    {
-    "da": "hver måned",
-    "en": "every month"
+    "da": "en måne",
+    "en": "a moon"
    }
   ],
   "sentence": {
@@ -1045,20 +933,12 @@
   ],
   "related": [
    {
-    "da": "en butik",
-    "en": "a shop"
-   },
-   {
     "da": "et loppemarked",
     "en": "a flea market"
    },
    {
-    "da": "et torv",
-    "en": "a square"
-   },
-   {
-    "da": "at sælge",
-    "en": "to sell"
+    "da": "et supermarked",
+    "en": "a supermarket"
    }
   ],
   "sentence": {
@@ -1135,16 +1015,12 @@
     "en": "a person"
    },
    {
-    "da": "en mand",
-    "en": "a man"
-   },
-   {
-    "da": "en kvinde",
-    "en": "a woman"
-   },
-   {
     "da": "folk",
     "en": "people"
+   },
+   {
+    "da": "et dyr",
+    "en": "an animal"
    }
   ],
   "sentence": {
@@ -1174,20 +1050,12 @@
   ],
   "related": [
    {
-    "da": "en tjener",
-    "en": "a waiter"
+    "da": "en menu",
+    "en": "a set meal"
    },
    {
-    "da": "at bestille",
-    "en": "to order"
-   },
-   {
-    "da": "en forret",
-    "en": "a starter"
-   },
-   {
-    "da": "en hovedret",
-    "en": "a main course"
+    "da": "et kort",
+    "en": "a card"
    }
   ],
   "sentence": {
@@ -1264,16 +1132,8 @@
     "en": "a gallery"
    },
    {
-    "da": "en udstilling",
-    "en": "an exhibition"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
-   },
-   {
-    "da": "en kunstner",
-    "en": "an artist"
+    "da": "et kunstmuseum",
+    "en": "an art museum"
    }
   ],
   "sentence": {
@@ -1354,12 +1214,8 @@
     "en": "an appointment"
    },
    {
-    "da": "en kollega",
-    "en": "a colleague"
-   },
-   {
-    "da": "en chef",
-    "en": "a boss"
+    "da": "et mødelokale",
+    "en": "a meeting room"
    }
   ],
   "sentence": {
@@ -1389,16 +1245,12 @@
     "en": "a dish"
    },
    {
-    "da": "at spise",
-    "en": "to eat"
+    "da": "en mad",
+    "en": "a sandwich"
    },
    {
-    "da": "et måltid",
-    "en": "a meal"
-   },
-   {
-    "da": "sulten",
-    "en": "hungry"
+    "da": "morgenmad",
+    "en": "breakfast"
    }
   ],
   "sentence": {
@@ -1432,10 +1284,6 @@
     "en": "June"
    },
    {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
     "da": "marts",
     "en": "March"
    }
@@ -1463,20 +1311,8 @@
   ],
   "related": [
    {
-    "da": "popcorn",
-    "en": "popcorn"
-   },
-   {
-    "da": "ærter",
-    "en": "peas"
-   },
-   {
     "da": "en majskolbe",
     "en": "an ear of corn"
-   },
-   {
-    "da": "en grøntsag",
-    "en": "a vegetable"
    }
   ],
   "sentence": {
@@ -1508,10 +1344,6 @@
    {
     "da": "du",
     "en": "you"
-   },
-   {
-    "da": "vi",
-    "en": "we"
    },
    {
     "da": "folk",
@@ -1551,14 +1383,6 @@
    {
     "da": "en søndag",
     "en": "Sunday"
-   },
-   {
-    "da": "en uge",
-    "en": "a week"
-   },
-   {
-    "da": "en weekend",
-    "en": "a weekend"
    }
   ],
   "sentence": {
@@ -1590,14 +1414,6 @@
    {
     "da": "en mand",
     "en": "a man"
-   },
-   {
-    "da": "en herre",
-    "en": "a gentleman"
-   },
-   {
-    "da": "en dreng",
-    "en": "a boy"
    }
   ],
   "sentence": {
@@ -1703,14 +1519,6 @@
    {
     "da": "april",
     "en": "April"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -1777,18 +1585,6 @@
    {
     "da": "matte",
     "en": "math (short, informal)"
-   },
-   {
-    "da": "et regnestykke",
-    "en": "a sum"
-   },
-   {
-    "da": "et tal",
-    "en": "a number"
-   },
-   {
-    "da": "en lærer",
-    "en": "a teacher"
    }
   ],
   "sentence": {
@@ -1814,20 +1610,16 @@
   ],
   "related": [
    {
+    "da": "mayo",
+    "en": "mayo"
+   },
+   {
     "da": "ketchup",
     "en": "ketchup"
    },
    {
     "da": "sennep",
     "en": "mustard"
-   },
-   {
-    "da": "en sauce",
-    "en": "a sauce"
-   },
-   {
-    "da": "pommes frites",
-    "en": "French fries"
    }
   ],
   "sentence": {
@@ -1929,18 +1721,6 @@
    {
     "da": "en pille",
     "en": "a pill"
-   },
-   {
-    "da": "en recept",
-    "en": "a prescription"
-   },
-   {
-    "da": "et apotek",
-    "en": "a pharmacy"
-   },
-   {
-    "da": "en doktor",
-    "en": "a doctor"
    }
   ],
   "sentence": {
@@ -1976,10 +1756,6 @@
    {
     "da": "rigtig",
     "en": "really"
-   },
-   {
-    "da": "ret",
-    "en": "fairly"
    }
   ],
   "sentence": {
@@ -2005,20 +1781,8 @@
   ],
   "related": [
    {
-    "da": "sukker",
-    "en": "sugar"
-   },
-   {
-    "da": "et æg",
-    "en": "an egg"
-   },
-   {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "en kage",
-    "en": "a cake"
+    "da": "mælk",
+    "en": "milk"
    }
   ],
   "sentence": {
@@ -2046,10 +1810,6 @@
    {
     "da": "midt i",
     "en": "in the middle of"
-   },
-   {
-    "da": "ved siden af",
-    "en": "next to"
    },
    {
     "da": "blandt",
@@ -2095,8 +1855,8 @@
     "en": "however"
    },
    {
-    "da": "alligevel",
-    "en": "anyway"
+    "da": "mens",
+    "en": "while"
    }
   ],
   "sentence": {
@@ -2126,8 +1886,8 @@
     "en": "meanwhile"
    },
    {
-    "da": "da",
-    "en": "when (past)"
+    "da": "men",
+    "en": "but"
    },
    {
     "da": "når",
@@ -2171,10 +1931,6 @@
    {
     "da": "mindre",
     "en": "less"
-   },
-   {
-    "da": "lidt",
-    "en": "a little"
    }
   ],
   "sentence": {
@@ -2210,10 +1966,6 @@
    {
     "da": "de fleste",
     "en": "most (of them)"
-   },
-   {
-    "da": "mange",
-    "en": "many"
    }
   ],
   "sentence": {
@@ -2327,10 +2079,6 @@
    {
     "da": "din",
     "en": "your (en-word)"
-   },
-   {
-    "da": "jeg",
-    "en": "I"
    }
   ],
   "sentence": {
@@ -2362,10 +2110,6 @@
    {
     "da": "lille",
     "en": "small"
-   },
-   {
-    "da": "lidt",
-    "en": "a little"
    },
    {
     "da": "større",
@@ -2405,10 +2149,6 @@
    {
     "da": "dine",
     "en": "your (many)"
-   },
-   {
-    "da": "mig",
-    "en": "me"
    }
   ],
   "sentence": {
@@ -2444,10 +2184,6 @@
    {
     "da": "dit",
     "en": "your (et-word)"
-   },
-   {
-    "da": "et hus",
-    "en": "a house"
    }
   ],
   "sentence": {
@@ -2481,12 +2217,8 @@
     "en": "courage"
    },
    {
-    "da": "nord",
-    "en": "north"
-   },
-   {
-    "da": "syd",
-    "en": "south"
+    "da": "fra",
+    "en": "from"
    }
   ],
   "sentence": {
@@ -2522,10 +2254,6 @@
    {
     "da": "en morgen",
     "en": "a morning"
-   },
-   {
-    "da": "et måltid",
-    "en": "a meal"
    }
   ],
   "sentence": {
@@ -2551,20 +2279,8 @@
   ],
   "related": [
    {
-    "da": "en sang",
-    "en": "a song"
-   },
-   {
     "da": "en musiker",
     "en": "a musician"
-   },
-   {
-    "da": "at synge",
-    "en": "to sing"
-   },
-   {
-    "da": "at spille",
-    "en": "to play"
    }
   ],
   "sentence": {
@@ -2594,12 +2310,8 @@
     "en": "a bill"
    },
    {
-    "da": "et menukort",
-    "en": "a menu"
-   },
-   {
-    "da": "at betale",
-    "en": "to pay"
+    "da": "Må jeg få regningen?",
+    "en": "May I have the bill?"
    }
   ],
   "sentence": {
@@ -2629,16 +2341,8 @@
     "en": "a bill"
    },
    {
-    "da": "en menu",
-    "en": "a menu"
-   },
-   {
-    "da": "at betale",
-    "en": "to pay"
-   },
-   {
-    "da": "tak",
-    "en": "thanks / please"
+    "da": "Må jeg bede om regningen?",
+    "en": "May I have the bill? (more formal)"
    }
   ],
   "sentence": {
@@ -2672,10 +2376,6 @@
     "en": "surely"
    },
    {
-    "da": "selvfølgelig",
-    "en": "of course"
-   },
-   {
     "da": "muligvis",
     "en": "possibly"
    }
@@ -2707,16 +2407,8 @@
     "en": "cream"
    },
    {
-    "da": "smør",
-    "en": "butter"
-   },
-   {
-    "da": "at drikke",
-    "en": "to drink"
-   },
-   {
-    "da": "kaffe",
-    "en": "coffee"
+    "da": "letmælk",
+    "en": "semi-skimmed milk"
    }
   ],
   "sentence": {
@@ -2748,14 +2440,6 @@
    {
     "da": "fuld",
     "en": "drunk / full"
-   },
-   {
-    "da": "at spise",
-    "en": "to eat"
-   },
-   {
-    "da": "nok",
-    "en": "enough"
    }
   ],
   "sentence": {
@@ -2785,16 +2469,8 @@
     "en": "light / bright"
    },
    {
-    "da": "sort",
-    "en": "black"
-   },
-   {
-    "da": "en nat",
-    "en": "a night"
-   },
-   {
-    "da": "en farve",
-    "en": "a color"
+    "da": "mørkeblå",
+    "en": "dark blue"
    }
   ],
   "sentence": {
@@ -2871,8 +2547,8 @@
     "en": "dark"
    },
    {
-    "da": "en skov",
-    "en": "a forest"
+    "da": "mørkeblå",
+    "en": "dark blue"
    }
   ],
   "sentence": {
@@ -2896,24 +2572,7 @@
     "en": "muesli and yoghurt"
    }
   ],
-  "related": [
-   {
-    "da": "yoghurt",
-    "en": "yogurt"
-   },
-   {
-    "da": "morgenmad",
-    "en": "breakfast"
-   },
-   {
-    "da": "mælk",
-    "en": "milk"
-   },
-   {
-    "da": "en skål",
-    "en": "a bowl"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg spiser **müsli** med mælk i en skål.",
    "en": "I eat muesli with milk in a bowl."

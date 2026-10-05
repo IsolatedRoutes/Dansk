@@ -29,12 +29,8 @@
     "en": "to snow"
    },
    {
-    "da": "en paraply",
-    "en": "an umbrella"
-   },
-   {
-    "da": "regnvejr",
-    "en": "rainy weather"
+    "da": "en regning",
+    "en": "a bill"
    }
   ],
   "sentence": {
@@ -72,8 +68,8 @@
     "en": "to leave"
    },
    {
-    "da": "en kuffert",
-    "en": "a suitcase"
+    "da": "at rejse sig",
+    "en": "to stand up"
    }
   ],
   "sentence": {
@@ -103,12 +99,12 @@
   ],
   "related": [
    {
-    "da": "en telefon",
-    "en": "a phone"
+    "da": "at ringe til",
+    "en": "to call"
    },
    {
-    "da": "et opkald",
-    "en": "a call"
+    "da": "at ringe op",
+    "en": "to call"
    },
    {
     "da": "at ringe tilbage",
@@ -146,16 +142,12 @@
     "en": "to call"
    },
    {
-    "da": "at svare",
-    "en": "to answer"
+    "da": "at ringe",
+    "en": "to ring / call"
    },
    {
-    "da": "et telefonnummer",
-    "en": "a phone number"
-   },
-   {
-    "da": "at lægge på",
-    "en": "to hang up"
+    "da": "at ringe tilbage",
+    "en": "to call back"
    }
   ],
   "sentence": {
@@ -189,16 +181,12 @@
     "en": "to ring / call"
    },
    {
-    "da": "en telefon",
-    "en": "a phone"
+    "da": "at ringe op",
+    "en": "to call"
    },
    {
-    "da": "et opkald",
-    "en": "a call"
-   },
-   {
-    "da": "at svare",
-    "en": "to answer"
+    "da": "at ringe tilbage",
+    "en": "to call back"
    }
   ],
   "sentence": {
@@ -234,14 +222,6 @@
    {
     "da": "et udsalg",
     "en": "a sale"
-   },
-   {
-    "da": "gratis",
-    "en": "free"
-   },
-   {
-    "da": "et gavekort",
-    "en": "a gift card"
    }
   ],
   "sentence": {
@@ -269,24 +249,7 @@
     "en": "the radios"
    }
   ],
-  "related": [
-   {
-    "da": "et tv",
-    "en": "a TV"
-   },
-   {
-    "da": "musik",
-    "en": "music"
-   },
-   {
-    "da": "nyheder",
-    "en": "news"
-   },
-   {
-    "da": "at lytte",
-    "en": "to listen"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg hører **radio** og musik i bilen.",
    "en": "I listen to the radio and music in the car."
@@ -314,20 +277,8 @@
   ],
   "related": [
    {
-    "da": "medicin",
-    "en": "medicine"
-   },
-   {
-    "da": "en doktor",
-    "en": "a doctor"
-   },
-   {
-    "da": "et apotek",
-    "en": "a pharmacy"
-   },
-   {
-    "da": "en pille",
-    "en": "a pill"
+    "da": "en opskrift",
+    "en": "a recipe"
    }
   ],
   "sentence": {
@@ -357,20 +308,12 @@
   ],
   "related": [
    {
-    "da": "at betale",
-    "en": "to pay"
-   },
-   {
-    "da": "en pris",
-    "en": "a price"
-   },
-   {
     "da": "en kvittering",
     "en": "a receipt"
    },
    {
-    "da": "penge",
-    "en": "money"
+    "da": "en faktura",
+    "en": "an invoice"
    }
   ],
   "sentence": {
@@ -410,10 +353,6 @@
    {
     "da": "en vinterjakke",
     "en": "a winter jacket"
-   },
-   {
-    "da": "en paraply",
-    "en": "an umbrella"
    }
   ],
   "sentence": {
@@ -453,10 +392,6 @@
    {
     "da": "en jungle",
     "en": "a jungle"
-   },
-   {
-    "da": "tropisk",
-    "en": "tropical"
    }
   ],
   "sentence": {
@@ -486,20 +421,8 @@
   ],
   "related": [
    {
-    "da": "laks",
-    "en": "salmon"
-   },
-   {
-    "da": "fisk",
-    "en": "fish"
-   },
-   {
-    "da": "mad",
-    "en": "food"
-   },
-   {
-    "da": "et skaldyr",
-    "en": "a shellfish"
+    "da": "rejemad",
+    "en": "shrimp on bread"
    }
   ],
   "sentence": {
@@ -535,10 +458,6 @@
    {
     "da": "en tur",
     "en": "a short trip"
-   },
-   {
-    "da": "en ferie",
-    "en": "a holiday"
    },
    {
     "da": "en rejsende",
@@ -578,14 +497,6 @@
    {
     "da": "at bestille",
     "en": "to book, to order"
-   },
-   {
-    "da": "et bord",
-    "en": "a table"
-   },
-   {
-    "da": "et værelse",
-    "en": "a room"
    }
   ],
   "sentence": {
@@ -614,18 +525,6 @@
    }
   ],
   "related": [
-   {
-    "da": "en tjener",
-    "en": "a waiter"
-   },
-   {
-    "da": "et bord",
-    "en": "a table"
-   },
-   {
-    "da": "en regning",
-    "en": "a bill"
-   },
    {
     "da": "en café",
     "en": "a cafe"
@@ -664,14 +563,6 @@
    {
     "da": "en billet",
     "en": "a ticket"
-   },
-   {
-    "da": "en rejse",
-    "en": "a trip"
-   },
-   {
-    "da": "et tog",
-    "en": "a train"
    }
   ],
   "sentence": {
@@ -701,20 +592,8 @@
   ],
   "related": [
    {
-    "da": "en blomst",
-    "en": "a flower"
-   },
-   {
     "da": "rosa",
     "en": "pink"
-   },
-   {
-    "da": "en have",
-    "en": "a garden"
-   },
-   {
-    "da": "en buket",
-    "en": "a bouquet"
    }
   ],
   "sentence": {
@@ -756,8 +635,8 @@
     "en": "a chest"
    },
    {
-    "da": "en smerte",
-    "en": "a pain"
+    "da": "en rygsæk",
+    "en": "a backpack"
    }
   ],
   "sentence": {
@@ -791,16 +670,12 @@
     "en": "a bag"
    },
    {
-    "da": "en kuffert",
-    "en": "a suitcase"
-   },
-   {
     "da": "en ryg",
     "en": "a back"
    },
    {
-    "da": "at vandre",
-    "en": "to hike"
+    "da": "en sæk",
+    "en": "a sack"
    }
   ],
   "sentence": {
@@ -838,10 +713,6 @@
     "en": "a wine"
    },
    {
-    "da": "et glas",
-    "en": "a glass"
-   },
-   {
     "da": "rød",
     "en": "red"
    }
@@ -873,20 +744,12 @@
   ],
   "related": [
    {
-    "da": "brød",
-    "en": "bread"
+    "da": "rund",
+    "en": "round"
    },
    {
-    "da": "smør",
-    "en": "butter"
-   },
-   {
-    "da": "en ost",
-    "en": "a cheese"
-   },
-   {
-    "da": "morgenmad",
-    "en": "breakfast"
+    "da": "et stykke",
+    "en": "a piece"
    }
   ],
   "sentence": {
@@ -922,10 +785,6 @@
    {
     "da": "frisk",
     "en": "fresh"
-   },
-   {
-    "da": "god bedring",
-    "en": "get well soon"
    }
   ],
   "sentence": {
@@ -955,16 +814,8 @@
     "en": "to rain"
    },
    {
-    "da": "en paraply",
-    "en": "an umbrella"
-   },
-   {
-    "da": "en sky",
-    "en": "a cloud"
-   },
-   {
-    "da": "sne",
-    "en": "snow"
+    "da": "et regnvejr",
+    "en": "rainy weather"
    }
   ],
   "sentence": {
@@ -998,10 +849,6 @@
     "en": "weather"
    },
    {
-    "da": "en paraply",
-    "en": "an umbrella"
-   },
-   {
     "da": "solskinsvejr",
     "en": "sunny weather"
    }
@@ -1033,16 +880,8 @@
   ],
   "related": [
    {
-    "da": "fisk",
-    "en": "fish"
-   },
-   {
-    "da": "en krabbe",
-    "en": "a crab"
-   },
-   {
-    "da": "mayonnaise",
-    "en": "mayonnaise"
+    "da": "en rejemad",
+    "en": "a shrimp sandwich"
    },
    {
     "da": "skaldyr",
@@ -1080,12 +919,12 @@
     "en": "dirty"
    },
    {
-    "da": "at vaske",
-    "en": "to wash"
+    "da": "at gøre rent",
+    "en": "to clean"
    },
    {
-    "da": "vask",
-    "en": "washing"
+    "da": "at rense",
+    "en": "to clean"
    }
   ],
   "sentence": {
@@ -1158,12 +997,8 @@
     "en": "left over"
    },
    {
-    "da": "det meste",
-    "en": "most of it"
-   },
-   {
-    "da": "alt",
-    "en": "everything"
+    "da": "rester",
+    "en": "leftovers"
    }
   ],
   "sentence": {
@@ -1195,10 +1030,6 @@
    {
     "da": "rigdom",
     "en": "wealth"
-   },
-   {
-    "da": "penge",
-    "en": "money"
    },
    {
     "da": "et rige",
@@ -1267,20 +1098,8 @@
   ],
   "related": [
    {
-    "da": "pasta",
-    "en": "pasta"
-   },
-   {
-    "da": "en kartoffel",
-    "en": "a potato"
-   },
-   {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "kylling",
-    "en": "chicken"
+    "da": "risengrød",
+    "en": "rice pudding"
    }
   ],
   "sentence": {
@@ -1316,10 +1135,6 @@
    {
     "da": "ro",
     "en": "peace and quiet"
-   },
-   {
-    "da": "vred",
-    "en": "angry"
    }
   ],
   "sentence": {
@@ -1349,16 +1164,12 @@
     "en": "bread"
    },
    {
-    "da": "smør",
-    "en": "butter"
+    "da": "rug",
+    "en": "rye"
    },
    {
-    "da": "en skive",
-    "en": "a slice"
-   },
-   {
-    "da": "frokost",
-    "en": "lunch"
+    "da": "franskbrød",
+    "en": "white bread"
    }
   ],
   "sentence": {
@@ -1390,10 +1201,6 @@
    {
     "da": "lige om hjørnet",
     "en": "just around the corner"
-   },
-   {
-    "da": "tæt på",
-    "en": "close by"
    },
    {
     "da": "i nærheden",
@@ -1429,14 +1236,6 @@
    {
     "da": "russisk",
     "en": "Russian"
-   },
-   {
-    "da": "Ukraine",
-    "en": "Ukraine"
-   },
-   {
-    "da": "Polen",
-    "en": "Poland"
    }
   ],
   "sentence": {
@@ -1468,14 +1267,6 @@
    {
     "da": "en russer",
     "en": "a Russian"
-   },
-   {
-    "da": "ukrainsk",
-    "en": "Ukrainian"
-   },
-   {
-    "da": "polsk",
-    "en": "Polish"
    }
   ],
   "sentence": {

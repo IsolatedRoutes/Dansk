@@ -21,20 +21,12 @@
   ],
   "related": [
    {
-    "da": "at hoste",
-    "en": "to cough"
-   },
-   {
-    "da": "forkølet",
-    "en": "having a cold"
-   },
-   {
-    "da": "allergisk",
-    "en": "allergic"
-   },
-   {
     "da": "et nys",
     "en": "a sneeze"
+   },
+   {
+    "da": "at hoste",
+    "en": "to cough"
    }
   ],
   "sentence": {
@@ -64,20 +56,12 @@
   ],
   "related": [
    {
-    "da": "en ven",
-    "en": "a friend"
-   },
-   {
     "da": "et naboland",
     "en": "a neighboring country"
    },
    {
-    "da": "at bo",
-    "en": "to live"
-   },
-   {
-    "da": "en gade",
-    "en": "a street"
+    "da": "et nabolag",
+    "en": "a neighborhood"
    }
   ],
   "sentence": {
@@ -115,12 +99,8 @@
     "en": "a day"
    },
    {
-    "da": "at sove",
-    "en": "to sleep"
-   },
-   {
-    "da": "mørk",
-    "en": "dark"
+    "da": "en morgen",
+    "en": "a morning"
    }
   ],
   "sentence": {
@@ -160,10 +140,6 @@
    {
     "da": "bukser",
     "en": "pants"
-   },
-   {
-    "da": "en jakke",
-    "en": "a jacket"
    }
   ],
   "sentence": {
@@ -199,10 +175,6 @@
    {
     "da": "en tå",
     "en": "a toe"
-   },
-   {
-    "da": "en hånd",
-    "en": "a hand"
    },
    {
     "da": "et søm",
@@ -246,10 +218,6 @@
    {
     "da": "et ansigt",
     "en": "a face"
-   },
-   {
-    "da": "en forkølelse",
-    "en": "a cold (illness)"
    }
   ],
   "sentence": {
@@ -279,20 +247,16 @@
   ],
   "related": [
    {
-    "da": "en dør",
-    "en": "a door"
-   },
-   {
-    "da": "at låse",
-    "en": "to lock"
-   },
-   {
-    "da": "et hotel",
-    "en": "a hotel"
-   },
-   {
     "da": "et nøglekort",
     "en": "a key card"
+   },
+   {
+    "da": "en nøglering",
+    "en": "a key ring"
+   },
+   {
+    "da": "en lås",
+    "en": "a lock"
    }
   ],
   "sentence": {
@@ -330,12 +294,12 @@
     "en": "a last name"
    },
    {
-    "da": "at hedde",
-    "en": "to be called"
+    "da": "et mellemnavn",
+    "en": "a middle name"
    },
    {
-    "da": "en adresse",
-    "en": "an address"
+    "da": "at hedde",
+    "en": "to be called"
    }
   ],
   "sentence": {
@@ -373,10 +337,6 @@
     "en": "a phone number"
    },
    {
-    "da": "en adresse",
-    "en": "an address"
-   },
-   {
     "da": "et husnummer",
     "en": "a house number"
    }
@@ -408,20 +368,12 @@
   ],
   "related": [
    {
-    "da": "en skov",
-    "en": "a forest"
+    "da": "naturlig",
+    "en": "natural"
    },
    {
-    "da": "en sø",
-    "en": "a lake"
-   },
-   {
-    "da": "et landskab",
-    "en": "a landscape"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
+    "da": "naturligvis",
+    "en": "of course"
    }
   ],
   "sentence": {
@@ -453,14 +405,6 @@
    {
     "da": "nede",
     "en": "down (being there)"
-   },
-   {
-    "da": "nedenunder",
-    "en": "downstairs / underneath"
-   },
-   {
-    "da": "at sætte sig",
-    "en": "to sit down"
    }
   ],
   "sentence": {
@@ -490,12 +434,8 @@
     "en": "yes"
    },
    {
-    "da": "ikke",
-    "en": "not"
-   },
-   {
-    "da": "aldrig",
-    "en": "never"
+    "da": "ni",
+    "en": "nine"
    }
   ],
   "sentence": {
@@ -527,10 +467,6 @@
    {
     "da": "let",
     "en": "light / easy"
-   },
-   {
-    "da": "en opgave",
-    "en": "a task"
    },
    {
     "da": "enkel",
@@ -689,8 +625,8 @@
     "en": "nine"
    },
    {
-    "da": "halvfems",
-    "en": "ninety"
+    "da": "nittende",
+    "en": "nineteenth"
    }
   ],
   "sentence": {
@@ -763,12 +699,8 @@
     "en": "nothing"
    },
    {
-    "da": "alt",
-    "en": "everything"
-   },
-   {
-    "da": "lidt",
-    "en": "a little"
+    "da": "nogle",
+    "en": "some"
    }
   ],
   "sentence": {
@@ -798,12 +730,8 @@
     "en": "someone / any"
    },
    {
-    "da": "mange",
-    "en": "many"
-   },
-   {
-    "da": "flere",
-    "en": "more / several"
+    "da": "noget",
+    "en": "something"
    },
    {
     "da": "ingen",
@@ -921,10 +849,6 @@
    {
     "da": "vest",
     "en": "west"
-   },
-   {
-    "da": "en retning",
-    "en": "a direction"
    }
   ],
   "sentence": {
@@ -956,14 +880,6 @@
    {
     "da": "norsk",
     "en": "Norwegian"
-   },
-   {
-    "da": "Sverige",
-    "en": "Sweden"
-   },
-   {
-    "da": "Danmark",
-    "en": "Denmark"
    }
   ],
   "sentence": {
@@ -1073,14 +989,6 @@
    {
     "da": "december",
     "en": "December"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -1114,12 +1022,12 @@
     "en": "before"
    },
    {
-    "da": "i dag",
-    "en": "today"
-   },
-   {
     "da": "straks",
     "en": "immediately"
+   },
+   {
+    "da": "nå",
+    "en": "oh / well"
    }
   ],
   "sentence": {
@@ -1145,20 +1053,8 @@
   ],
   "related": [
    {
-    "da": "ris",
-    "en": "rice"
-   },
-   {
-    "da": "spaghetti",
-    "en": "spaghetti"
-   },
-   {
-    "da": "en suppe",
-    "en": "a soup"
-   },
-   {
-    "da": "en wok",
-    "en": "a wok"
+    "da": "en nudelsuppe",
+    "en": "a noodle soup"
    }
   ],
   "sentence": {
@@ -1190,14 +1086,6 @@
    {
     "da": "ti",
     "en": "ten"
-   },
-   {
-    "da": "ingen",
-    "en": "none / no one"
-   },
-   {
-    "da": "en grad",
-    "en": "a degree"
    }
   ],
   "sentence": {
@@ -1260,24 +1148,7 @@
     "en": "the news"
    }
   ],
-  "related": [
-   {
-    "da": "radio",
-    "en": "radio"
-   },
-   {
-    "da": "en avis",
-    "en": "a newspaper"
-   },
-   {
-    "da": "en journalist",
-    "en": "a journalist"
-   },
-   {
-    "da": "et tv",
-    "en": "a TV"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Jeg læser **nyheder** i avisen hver morgen.",
    "en": "I read the news in the newspaper every morning."
@@ -1307,10 +1178,6 @@
    {
     "da": "juleaften",
     "en": "Christmas Eve"
-   },
-   {
-    "da": "et fyrværkeri",
-    "en": "fireworks"
    },
    {
     "da": "en aften",
@@ -1385,10 +1252,6 @@
    {
     "da": "hvis",
     "en": "if"
-   },
-   {
-    "da": "altid",
-    "en": "always"
    }
   ],
   "sentence": {
@@ -1424,10 +1287,6 @@
    {
     "da": "nærmere",
     "en": "closer"
-   },
-   {
-    "da": "en ven",
-    "en": "a friend"
    }
   ],
   "sentence": {
@@ -1455,14 +1314,6 @@
    {
     "da": "helt",
     "en": "completely"
-   },
-   {
-    "da": "ret",
-    "en": "fairly"
-   },
-   {
-    "da": "lidt",
-    "en": "a little"
    },
    {
     "da": "næste",
@@ -1500,12 +1351,8 @@
     "en": "must / may"
    },
    {
-    "da": "at kunne",
-    "en": "to be able to"
-   },
-   {
-    "da": "tvunget",
-    "en": "forced"
+    "da": "nødvendig",
+    "en": "necessary"
    }
   ],
   "sentence": {

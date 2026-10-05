@@ -25,12 +25,8 @@
     "en": "a dance"
    },
    {
-    "da": "at synge",
-    "en": "to sing"
-   },
-   {
-    "da": "musik",
-    "en": "music"
+    "da": "en danser",
+    "en": "a dancer"
    }
   ],
   "sentence": {
@@ -60,16 +56,8 @@
   ],
   "related": [
    {
-    "da": "at give",
-    "en": "to give"
-   },
-   {
     "da": "en del",
     "en": "a part"
-   },
-   {
-    "da": "sammen",
-    "en": "together"
    }
   ],
   "sentence": {
@@ -103,12 +91,8 @@
     "en": "to eat"
    },
    {
-    "da": "en kop",
-    "en": "a cup"
-   },
-   {
-    "da": "vand",
-    "en": "water"
+    "da": "en drik",
+    "en": "a drink"
    }
   ],
   "sentence": {
@@ -142,16 +126,8 @@
     "en": "dead"
    },
    {
-    "da": "et liv",
-    "en": "a life"
-   },
-   {
     "da": "at leve",
     "en": "to live"
-   },
-   {
-    "da": "at blive født",
-    "en": "to be born"
    }
   ],
   "sentence": {
@@ -183,14 +159,6 @@
    {
     "da": "dengang",
     "en": "back then"
-   },
-   {
-    "da": "mens",
-    "en": "while"
-   },
-   {
-    "da": "som barn",
-    "en": "as a child"
    }
   ],
   "sentence": {
@@ -219,10 +187,6 @@
    }
   ],
   "related": [
-   {
-    "da": "en menu",
-    "en": "a menu"
-   },
    {
     "da": "en forret",
     "en": "a starter"
@@ -259,20 +223,12 @@
   ],
   "related": [
    {
-    "da": "et supermarked",
-    "en": "a supermarket"
-   },
-   {
-    "da": "at købe ind",
-    "en": "to buy groceries"
-   },
-   {
     "da": "en vare",
     "en": "a product"
    },
    {
-    "da": "en indkøbsvogn",
-    "en": "a shopping cart"
+    "da": "daglig",
+    "en": "daily"
    }
   ],
   "sentence": {
@@ -304,10 +260,6 @@
    {
     "da": "en dansker",
     "en": "a Dane"
-   },
-   {
-    "da": "et sprog",
-    "en": "a language"
    },
    {
     "da": "engelsk",
@@ -382,10 +334,6 @@
    {
     "da": "vi",
     "en": "we"
-   },
-   {
-    "da": "I",
-    "en": "you (all)"
    }
   ],
   "sentence": {
@@ -417,14 +365,6 @@
    {
     "da": "januar",
     "en": "January"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -450,20 +390,12 @@
   ],
   "related": [
    {
-    "da": "hyggelig",
-    "en": "cozy / nice"
-   },
-   {
-    "da": "fantastisk",
-    "en": "fantastic"
+    "da": "skøn",
+    "en": "lovely / wonderful"
    },
    {
     "da": "god",
     "en": "good"
-   },
-   {
-    "da": "skøn",
-    "en": "lovely / wonderful"
    }
   ],
   "sentence": {
@@ -499,10 +431,6 @@
    {
     "da": "os",
     "en": "us"
-   },
-   {
-    "da": "ham",
-    "en": "him"
    }
   ],
   "sentence": {
@@ -538,10 +466,6 @@
    {
     "da": "de",
     "en": "they / the (many)"
-   },
-   {
-    "da": "her",
-    "en": "here"
    }
   ],
   "sentence": {
@@ -616,10 +540,6 @@
    {
     "da": "derhjemme",
     "en": "at home (there)"
-   },
-   {
-    "da": "hvor",
-    "en": "where"
    }
   ],
   "sentence": {
@@ -649,16 +569,12 @@
     "en": "afterwards"
    },
    {
-    "da": "først",
-    "en": "first"
-   },
-   {
     "da": "så",
     "en": "then"
    },
    {
-    "da": "før",
-    "en": "before"
+    "da": "efter",
+    "en": "after"
    }
   ],
   "sentence": {
@@ -729,14 +645,6 @@
    {
     "da": "hvorfor",
     "en": "why"
-   },
-   {
-    "da": "så",
-    "en": "so"
-   },
-   {
-    "da": "altså",
-    "en": "so / thus"
    }
   ],
   "sentence": {
@@ -772,10 +680,6 @@
    {
     "da": "hvorfra",
     "en": "from where"
-   },
-   {
-    "da": "derovre",
-    "en": "over there"
    }
   ],
   "sentence": {
@@ -809,12 +713,8 @@
     "en": "home (going)"
    },
    {
-    "da": "et hjem",
-    "en": "a home"
-   },
-   {
-    "da": "ude",
-    "en": "out"
+    "da": "herhjemme",
+    "en": "at home (here)"
    }
   ],
   "sentence": {
@@ -887,12 +787,12 @@
     "en": "up there"
    },
    {
-    "da": "derovre",
-    "en": "over there"
+    "da": "hernede",
+    "en": "down here"
    },
    {
-    "da": "derude",
-    "en": "out there"
+    "da": "derovre",
+    "en": "over there"
    }
   ],
   "sentence": {
@@ -963,14 +863,6 @@
    {
     "da": "ærgerligt",
     "en": "a pity"
-   },
-   {
-    "da": "undskyld",
-    "en": "sorry"
-   },
-   {
-    "da": "selvfølgelig",
-    "en": "of course"
    }
   ],
   "sentence": {
@@ -1006,10 +898,6 @@
    {
     "da": "dette",
     "en": "this (et-word)"
-   },
-   {
-    "da": "hvad",
-    "en": "what"
    }
   ],
   "sentence": {
@@ -1041,10 +929,6 @@
    {
     "da": "det var",
     "en": "it was"
-   },
-   {
-    "da": "er det ...?",
-    "en": "is it ...?"
    },
    {
     "da": "her er",
@@ -1084,10 +968,6 @@
    {
     "da": "det lyder godt",
     "en": "that sounds good"
-   },
-   {
-    "da": "enig",
-    "en": "agreed"
    }
   ],
   "sentence": {
@@ -1121,8 +1001,8 @@
     "en": "no problem"
    },
    {
-    "da": "undskyld",
-    "en": "sorry"
+    "da": "det gør ikke noget",
+    "en": "it's ok / no problem"
    }
   ],
   "sentence": {
@@ -1154,10 +1034,6 @@
    {
     "da": "svær",
     "en": "difficult"
-   },
-   {
-    "da": "ret",
-    "en": "quite"
    },
    {
     "da": "let",
@@ -1197,10 +1073,6 @@
    {
     "da": "hvad som helst",
     "en": "anything"
-   },
-   {
-    "da": "det er fint",
-    "en": "that's fine"
    }
   ],
   "sentence": {
@@ -1234,12 +1106,12 @@
     "en": "to be right"
    },
    {
-    "da": "præcis",
-    "en": "exactly"
+    "da": "rigtig",
+    "en": "right / really"
    },
    {
-    "da": "ja",
-    "en": "yes"
+    "da": "korrekt",
+    "en": "correct"
    }
   ],
   "sentence": {
@@ -1265,16 +1137,12 @@
   ],
   "related": [
    {
-    "da": "desværre",
-    "en": "unfortunately"
+    "da": "ærgerligt",
+    "en": "a pity"
    },
    {
-    "da": "trist",
-    "en": "sad"
-   },
-   {
-    "da": "undskyld",
-    "en": "sorry"
+    "da": "at have ondt af",
+    "en": "to feel sorry for"
    }
   ],
   "sentence": {
@@ -1345,10 +1213,6 @@
    {
     "da": "det går dårligt",
     "en": "it's going badly"
-   },
-   {
-    "da": "og dig?",
-    "en": "and you?"
    }
   ],
   "sentence": {
@@ -1456,12 +1320,8 @@
     "en": "that's a good idea"
    },
    {
-    "da": "fedt",
-    "en": "cool"
-   },
-   {
-    "da": "fint",
-    "en": "fine / nice"
+    "da": "at lyde",
+    "en": "to sound"
    }
   ],
   "sentence": {
@@ -1495,8 +1355,8 @@
     "en": "to believe, think"
    },
    {
-    "da": "måske",
-    "en": "maybe"
+    "da": "det tror jeg ikke",
+    "en": "I don't think so"
    }
   ],
   "sentence": {
@@ -1532,10 +1392,6 @@
    {
     "da": "det ved jeg ikke",
     "en": "I don't know"
-   },
-   {
-    "da": "måske",
-    "en": "maybe"
    }
   ],
   "sentence": {
@@ -1571,10 +1427,6 @@
    {
     "da": "selv tak",
     "en": "you're welcome"
-   },
-   {
-    "da": "værsgo",
-    "en": "here you are"
    }
   ],
   "sentence": {
@@ -1610,10 +1462,6 @@
    {
     "da": "at kende",
     "en": "to know (a person)"
-   },
-   {
-    "da": "måske",
-    "en": "maybe"
    }
   ],
   "sentence": {
@@ -1719,14 +1567,6 @@
    {
     "da": "analog",
     "en": "analogue"
-   },
-   {
-    "da": "teknologi",
-    "en": "technology"
-   },
-   {
-    "da": "en skærm",
-    "en": "a screen"
    },
    {
     "da": "digitalisering",
@@ -1918,14 +1758,6 @@
    {
     "da": "alligevel",
     "en": "anyway / all the same"
-   },
-   {
-    "da": "selvom",
-    "en": "even though"
-   },
-   {
-    "da": "imidlertid",
-    "en": "however (more formal)"
    }
   ],
   "sentence": {
@@ -1994,14 +1826,6 @@
     "en": "smart / wise"
    },
    {
-    "da": "dygtig",
-    "en": "skilled / clever"
-   },
-   {
-    "da": "en fejl",
-    "en": "a mistake"
-   },
-   {
     "da": "fjollet",
     "en": "silly"
    }
@@ -2030,19 +1854,11 @@
   "related": [
    {
     "da": "lav",
-    "en": "low"
+    "en": "shallow / low"
    },
    {
     "da": "en dybde",
     "en": "a depth"
-   },
-   {
-    "da": "høj",
-    "en": "tall / high"
-   },
-   {
-    "da": "dybt",
-    "en": "deeply"
    }
   ],
   "sentence": {
@@ -2072,16 +1888,8 @@
     "en": "cheap"
    },
    {
-    "da": "en pris",
-    "en": "a price"
-   },
-   {
     "da": "et dyr",
     "en": "an animal"
-   },
-   {
-    "da": "at koste",
-    "en": "to cost"
    }
   ],
   "sentence": {
@@ -2115,8 +1923,8 @@
     "en": "worse"
    },
    {
-    "da": "syg",
-    "en": "sick"
+    "da": "værst",
+    "en": "worst"
    },
    {
     "da": "at have det dårligt",
@@ -2156,10 +1964,6 @@
    {
     "da": "at dø",
     "en": "to die"
-   },
-   {
-    "da": "syg",
-    "en": "sick"
    }
   ],
   "sentence": {
@@ -2189,10 +1993,6 @@
   ],
   "related": [
    {
-    "da": "en uge",
-    "en": "a week"
-   },
-   {
     "da": "en nat",
     "en": "a night"
    },
@@ -2201,8 +2001,8 @@
     "en": "today"
    },
    {
-    "da": "i går",
-    "en": "yesterday"
+    "da": "mandag",
+    "en": "Monday"
    }
   ],
   "sentence": {
@@ -2238,14 +2038,6 @@
    {
     "da": "en herre",
     "en": "a gentleman"
-   },
-   {
-    "da": "en pige",
-    "en": "a girl"
-   },
-   {
-    "da": "kvindelig",
-    "en": "female"
    }
   ],
   "sentence": {
@@ -2318,6 +2110,10 @@
   ],
   "related": [
    {
+    "da": "en date",
+    "en": "a romantic date"
+   },
+   {
     "da": "en dag",
     "en": "a day"
    },
@@ -2328,10 +2124,6 @@
    {
     "da": "et år",
     "en": "a year"
-   },
-   {
-    "da": "en kalender",
-    "en": "a calendar"
    }
   ],
   "sentence": {
@@ -2367,14 +2159,6 @@
    {
     "da": "et barn",
     "en": "a child"
-   },
-   {
-    "da": "en søster",
-    "en": "a sister"
-   },
-   {
-    "da": "en pige",
-    "en": "a girl"
    }
   ],
   "sentence": {
@@ -2410,14 +2194,6 @@
    {
     "da": "en hovedret",
     "en": "a main course"
-   },
-   {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
-    "da": "en is",
-    "en": "an ice cream"
    }
   ],
   "sentence": {
@@ -2449,18 +2225,6 @@
    {
     "da": "en læge",
     "en": "a doctor (medical)"
-   },
-   {
-    "da": "en patient",
-    "en": "a patient"
-   },
-   {
-    "da": "en klinik",
-    "en": "a clinic"
-   },
-   {
-    "da": "en sygeplejerske",
-    "en": "a nurse"
    }
   ],
   "sentence": {
@@ -2492,14 +2256,6 @@
    {
     "da": "en krone",
     "en": "a krone"
-   },
-   {
-    "da": "penge",
-    "en": "money"
-   },
-   {
-    "da": "en valuta",
-    "en": "a currency"
    }
   ],
   "sentence": {
@@ -2539,10 +2295,6 @@
    {
     "da": "en mand",
     "en": "a man"
-   },
-   {
-    "da": "en søn",
-    "en": "a son"
    }
   ],
   "sentence": {
@@ -2574,18 +2326,6 @@
    {
     "da": "at drikke",
     "en": "to drink"
-   },
-   {
-    "da": "en øl",
-    "en": "a beer"
-   },
-   {
-    "da": "kaffe",
-    "en": "coffee"
-   },
-   {
-    "da": "en sodavand",
-    "en": "a soda"
    }
   ],
   "sentence": {
@@ -2619,16 +2359,8 @@
     "en": "a toy"
    },
    {
-    "da": "et barn",
-    "en": "a child"
-   },
-   {
     "da": "en bamse",
     "en": "a teddy bear"
-   },
-   {
-    "da": "en bold",
-    "en": "a ball"
    }
   ],
   "sentence": {
@@ -2658,20 +2390,12 @@
   ],
   "related": [
    {
-    "da": "et vindue",
-    "en": "a window"
+    "da": "en hoveddør",
+    "en": "a front door"
    },
    {
-    "da": "at åbne",
-    "en": "to open"
-   },
-   {
-    "da": "at lukke",
-    "en": "to close"
-   },
-   {
-    "da": "en nøgle",
-    "en": "a key"
+    "da": "en dørklokke",
+    "en": "a doorbell"
    }
   ],
   "sentence": {
@@ -2705,12 +2429,8 @@
     "en": "a card"
    },
    {
-    "da": "en hæveautomat",
-    "en": "an ATM"
-   },
-   {
-    "da": "en bankkonto",
-    "en": "a bank account"
+    "da": "et kreditkort",
+    "en": "a credit card"
    },
    {
     "da": "kontanter",
@@ -2752,12 +2472,8 @@
     "en": "a hotel room"
    },
    {
-    "da": "en seng",
-    "en": "a bed"
-   },
-   {
-    "da": "en nat",
-    "en": "a night"
+    "da": "et værelse",
+    "en": "a room"
    }
   ],
   "sentence": {
@@ -2787,20 +2503,12 @@
   ],
   "related": [
    {
-    "da": "en hund",
-    "en": "a dog"
-   },
-   {
-    "da": "en kat",
-    "en": "a cat"
-   },
-   {
     "da": "et kæledyr",
     "en": "a pet"
    },
    {
-    "da": "en fugl",
-    "en": "a bird"
+    "da": "en dyrlæge",
+    "en": "a vet"
    }
   ],
   "sentence": {

@@ -17,7 +17,7 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     if (!/^"[^"]+"/.test(e.explanation)) fail(k + ": explanation must open with the quoted word'");
     const banned = /learn (it|them) as|fixed phrase|written as one word|usual pattern|participle|infinitive|conjugat|declen|definite|indefinite|neuter|\bis the (head|doll)\b|useful for text|\bit is an? (en|et)-word/i;
     if (banned.test(e.explanation)) fail(k + ": explanation has banned wording");
-    if (!Array.isArray(e.related) || !e.related.length) fail(k + ": related");
+    if (!Array.isArray(e.related) || e.related.length > 4) fail(k + ": related");
     if (!e.sentence || !e.sentence.da || !e.sentence.en) fail(k + ": sentence");
     else if (!/\*\*[^*]+\*\*/.test(e.sentence.da)) fail(k + ": sentence word not marked with **");
     else {

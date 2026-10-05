@@ -62,14 +62,6 @@
    {
     "da": "at aflyse",
     "en": "to cancel"
-   },
-   {
-    "da": "en afgang",
-    "en": "a departure"
-   },
-   {
-    "da": "et tog",
-    "en": "a train"
    }
   ],
   "sentence": {
@@ -138,16 +130,8 @@
     "en": "away / gone"
    },
    {
-    "da": "at tage",
-    "en": "to take / to go"
-   },
-   {
-    "da": "hjem",
-    "en": "home (movement)"
-   },
-   {
-    "da": "at rejse",
-    "en": "to travel"
+    "da": "hjemme",
+    "en": "at home"
    }
   ],
   "sentence": {
@@ -185,8 +169,8 @@
     "en": "an evening"
    },
    {
-    "da": "at lave mad",
-    "en": "to cook"
+    "da": "mad",
+    "en": "food"
    }
   ],
   "sentence": {
@@ -257,14 +241,6 @@
    {
     "da": "sammen",
     "en": "together"
-   },
-   {
-    "da": "selv",
-    "en": "oneself"
-   },
-   {
-    "da": "ingen",
-    "en": "no one"
    }
   ],
   "sentence": {
@@ -292,18 +268,6 @@
    {
     "da": "alkoholfri",
     "en": "alcohol-free"
-   },
-   {
-    "da": "en øl",
-    "en": "a beer"
-   },
-   {
-    "da": "en vin",
-    "en": "a wine"
-   },
-   {
-    "da": "en drink",
-    "en": "a drink"
    }
   ],
   "sentence": {
@@ -339,10 +303,6 @@
    {
     "da": "ingen",
     "en": "no one"
-   },
-   {
-    "da": "mange",
-    "en": "many"
    }
   ],
   "sentence": {
@@ -370,18 +330,6 @@
    {
     "da": "endnu",
     "en": "yet / still"
-   },
-   {
-    "da": "snart",
-    "en": "soon"
-   },
-   {
-    "da": "stadig",
-    "en": "still"
-   },
-   {
-    "da": "tidligt",
-    "en": "early"
    }
   ],
   "sentence": {
@@ -452,14 +400,6 @@
    {
     "da": "ingenting",
     "en": "nothing"
-   },
-   {
-    "da": "noget",
-    "en": "something"
-   },
-   {
-    "da": "hele",
-    "en": "the whole"
    }
   ],
   "sentence": {
@@ -645,12 +585,8 @@
     "en": "apple juice"
    },
    {
-    "da": "vand",
-    "en": "water"
-   },
-   {
-    "da": "et glas",
-    "en": "a glass"
+    "da": "en juice",
+    "en": "a juice"
    }
   ],
   "sentence": {
@@ -686,10 +622,6 @@
    {
     "da": "en måned",
     "en": "a month"
-   },
-   {
-    "da": "et forår",
-    "en": "a spring"
    }
   ],
   "sentence": {
@@ -717,18 +649,6 @@
    {
     "da": "arabere",
     "en": "Arabs"
-   },
-   {
-    "da": "et sprog",
-    "en": "a language"
-   },
-   {
-    "da": "tyrkisk",
-    "en": "Turkish"
-   },
-   {
-    "da": "kinesisk",
-    "en": "Chinese"
    }
   ],
   "sentence": {
@@ -797,16 +717,16 @@
   ],
   "related": [
    {
-    "da": "en kollega",
-    "en": "a colleague"
+    "da": "et arbejde",
+    "en": "a job, work"
    },
    {
     "da": "en arbejdsplads",
     "en": "a workplace"
    },
    {
-    "da": "at have fri",
-    "en": "to have time off"
+    "da": "en arbejder",
+    "en": "a worker"
    }
   ],
   "sentence": {
@@ -838,10 +758,6 @@
    {
     "da": "nitten",
     "en": "nineteen"
-   },
-   {
-    "da": "otte",
-    "en": "eight"
    },
    {
     "da": "tyve",
@@ -877,14 +793,6 @@
    {
     "da": "september",
     "en": "September"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -910,10 +818,6 @@
   ],
   "related": [
    {
-    "da": "Asien",
-    "en": "Asia"
-   },
-   {
     "da": "en australier",
     "en": "an Australian person"
    },
@@ -922,8 +826,8 @@
     "en": "Australian"
    },
    {
-    "da": "en kænguru",
-    "en": "a kangaroo"
+    "da": "Østrig",
+    "en": "Austria"
    }
   ],
   "sentence": {
@@ -959,14 +863,6 @@
    {
     "da": "et postnummer",
     "en": "a postcode"
-   },
-   {
-    "da": "en by",
-    "en": "a town"
-   },
-   {
-    "da": "et telefonnummer",
-    "en": "a phone number"
    }
   ],
   "sentence": {
@@ -1000,16 +896,8 @@
     "en": "an arrival"
    },
    {
-    "da": "en forsinkelse",
-    "en": "a delay"
-   },
-   {
-    "da": "et tog",
-    "en": "a train"
-   },
-   {
-    "da": "en perron",
-    "en": "a platform"
+    "da": "at afgå",
+    "en": "to depart"
    }
   ],
   "sentence": {
@@ -1041,10 +929,6 @@
    {
     "da": "et møde",
     "en": "a meeting"
-   },
-   {
-    "da": "en plan",
-    "en": "a plan"
    },
    {
     "da": "at aftale",
@@ -1082,20 +966,16 @@
   ],
   "related": [
    {
+    "da": "en morgen",
+    "en": "a morning"
+   },
+   {
     "da": "en nat",
     "en": "a night"
    },
    {
-    "da": "en middag",
-    "en": "dinner"
-   },
-   {
     "da": "en aftensmad",
     "en": "an evening meal"
-   },
-   {
-    "da": "en dag",
-    "en": "a day"
    }
   ],
   "sentence": {
@@ -1129,16 +1009,8 @@
     "en": "a tomato"
    },
    {
-    "da": "en salat",
-    "en": "a salad / lettuce"
-   },
-   {
     "da": "en grøntsag",
     "en": "a vegetable"
-   },
-   {
-    "da": "et løg",
-    "en": "an onion"
    }
   ],
   "sentence": {
@@ -1213,10 +1085,6 @@
    {
     "da": "ung",
     "en": "young"
-   },
-   {
-    "da": "en fødselsdag",
-    "en": "a birthday"
    }
   ],
   "sentence": {
@@ -1246,20 +1114,8 @@
   ],
   "related": [
    {
-    "da": "en vegetar",
-    "en": "a vegetarian"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
-   },
-   {
-    "da": "en nød",
-    "en": "a nut"
-   },
-   {
-    "da": "et menukort",
-    "en": "a menu"
+    "da": "allergisk",
+    "en": "allergic"
    }
   ],
   "sentence": {
@@ -1287,24 +1143,7 @@
     "en": "the ambulances"
    }
   ],
-  "related": [
-   {
-    "da": "en skadestue",
-    "en": "an ER"
-   },
-   {
-    "da": "en doktor",
-    "en": "a doctor"
-   },
-   {
-    "da": "et sygehus",
-    "en": "a hospital"
-   },
-   {
-    "da": "en patient",
-    "en": "a patient"
-   }
-  ],
+  "related": [],
   "sentence": {
    "da": "Han er meget syg. Ring efter en **ambulance**!",
    "en": "He is very sick. Call for an ambulance!"
@@ -1342,10 +1181,6 @@
    {
     "da": "en dansker",
     "en": "a Dane"
-   },
-   {
-    "da": "en canadier",
-    "en": "a Canadian"
    }
   ],
   "sentence": {
@@ -1374,10 +1209,6 @@
    }
   ],
   "related": [
-   {
-    "da": "en melon",
-    "en": "a melon"
-   },
    {
     "da": "frugt",
     "en": "fruit"
@@ -1418,20 +1249,12 @@
   ],
   "related": [
    {
-    "da": "en gås",
-    "en": "a goose"
-   },
-   {
     "da": "en fugl",
     "en": "a bird"
    },
    {
-    "da": "en sø",
-    "en": "a lake"
-   },
-   {
-    "da": "et dyr",
-    "en": "an animal"
+    "da": "en gås",
+    "en": "a goose"
    }
   ],
   "sentence": {
@@ -1504,20 +1327,12 @@
   ],
   "related": [
    {
-    "da": "en smartphone",
-    "en": "a smartphone"
-   },
-   {
     "da": "et program",
     "en": "a program"
    },
    {
-    "da": "at hente",
-    "en": "to download / fetch"
-   },
-   {
-    "da": "at åbne",
-    "en": "to open"
+    "da": "en applikation",
+    "en": "an application"
    }
   ],
   "sentence": {
@@ -1547,20 +1362,16 @@
   ],
   "related": [
    {
-    "da": "en citron",
-    "en": "a lemon"
+    "da": "orange",
+    "en": "orange (the colour)"
    },
    {
     "da": "en frugt",
     "en": "a fruit"
    },
    {
-    "da": "en juice",
-    "en": "a juice"
-   },
-   {
-    "da": "en banan",
-    "en": "a banana"
+    "da": "en citron",
+    "en": "a lemon"
    }
   ],
   "sentence": {
@@ -1635,18 +1446,6 @@
    {
     "da": "et blad",
     "en": "a magazine"
-   },
-   {
-    "da": "nyheder",
-    "en": "news"
-   },
-   {
-    "da": "at læse",
-    "en": "to read"
-   },
-   {
-    "da": "en bog",
-    "en": "a book"
    }
   ],
   "sentence": {
@@ -1719,20 +1518,12 @@
   ],
   "related": [
    {
-    "da": "medicin",
-    "en": "medicine"
+    "da": "en apoteker",
+    "en": "a pharmacist"
    },
    {
-    "da": "en recept",
-    "en": "a prescription"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
-   },
-   {
-    "da": "et hospital",
-    "en": "a hospital"
+    "da": "en farmaceut",
+    "en": "a pharmacist"
    }
   ],
   "sentence": {
@@ -1762,12 +1553,12 @@
     "en": "a job"
    },
    {
-    "da": "en kollega",
-    "en": "a colleague"
-   },
-   {
     "da": "en arbejdsplads",
     "en": "a workplace"
+   },
+   {
+    "da": "en arbejder",
+    "en": "a worker"
    }
   ],
   "sentence": {

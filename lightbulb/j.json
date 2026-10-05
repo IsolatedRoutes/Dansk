@@ -25,16 +25,8 @@
     "en": "a coat"
    },
    {
-    "da": "en trøje",
-    "en": "a sweater"
-   },
-   {
-    "da": "en skjorte",
-    "en": "a shirt"
-   },
-   {
-    "da": "en hat",
-    "en": "a hat"
+    "da": "en regnjakke",
+    "en": "a rain jacket"
    }
   ],
   "sentence": {
@@ -111,16 +103,8 @@
     "en": "work/a job"
    },
    {
-    "da": "en chef",
-    "en": "a boss"
-   },
-   {
-    "da": "en kollega",
-    "en": "a colleague"
-   },
-   {
-    "da": "en løn",
-    "en": "a salary"
+    "da": "en jobsamtale",
+    "en": "a job interview"
    }
   ],
   "sentence": {
@@ -152,10 +136,6 @@
    {
     "da": "et bær",
     "en": "a berry"
-   },
-   {
-    "da": "en frugt",
-    "en": "a fruit"
    },
    {
     "da": "et hindbær",
@@ -193,6 +173,10 @@
   ],
   "related": [
    {
+    "da": "et træ",
+    "en": "a tree"
+   },
+   {
     "da": "en julegave",
     "en": "a Christmas present"
    },
@@ -203,10 +187,6 @@
    {
     "da": "en julemand",
     "en": "a Santa Claus"
-   },
-   {
-    "da": "et lys",
-    "en": "a light / candle"
    }
   ],
   "sentence": {
@@ -242,6 +222,10 @@
    {
     "da": "selvfølgelig",
     "en": "of course"
+   },
+   {
+    "da": "nej tak",
+    "en": "no thanks"
    }
   ],
   "sentence": {
@@ -273,14 +257,6 @@
    {
     "da": "december",
     "en": "December"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {
@@ -312,14 +288,6 @@
    {
     "da": "japansk",
     "en": "Japanese"
-   },
-   {
-    "da": "Kina",
-    "en": "China"
-   },
-   {
-    "da": "Korea",
-    "en": "Korea"
    }
   ],
   "sentence": {
@@ -351,14 +319,6 @@
    {
     "da": "en japaner",
     "en": "a Japanese person"
-   },
-   {
-    "da": "et sprog",
-    "en": "a language"
-   },
-   {
-    "da": "asiatisk",
-    "en": "Asian"
    }
   ],
   "sentence": {
@@ -425,14 +385,6 @@
    {
     "da": "uenig",
     "en": "in disagreement"
-   },
-   {
-    "da": "jeg synes",
-    "en": "I think"
-   },
-   {
-    "da": "en mening",
-    "en": "an opinion"
    }
   ],
   "sentence": {
@@ -468,10 +420,6 @@
    {
     "da": "trist",
     "en": "sad"
-   },
-   {
-    "da": "det er ærgerligt",
-    "en": "that's a pity"
    }
   ],
   "sentence": {
@@ -501,16 +449,8 @@
     "en": "to understand"
    },
    {
-    "da": "kan du gentage det?",
-    "en": "can you repeat that?"
-   },
-   {
-    "da": "langsomt",
-    "en": "slowly"
-   },
-   {
-    "da": "hvad betyder det?",
-    "en": "what does that mean?"
+    "da": "jeg forstår",
+    "en": "I understand"
    }
   ],
   "sentence": {
@@ -579,16 +519,12 @@
     "en": "I'm doing well"
    },
    {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
-    "da": "ked af det",
-    "en": "sad"
-   },
-   {
     "da": "det går dårligt",
     "en": "it's going badly"
+   },
+   {
+    "da": "jeg har det ikke så godt",
+    "en": "I'm not doing so well"
    }
   ],
   "sentence": {
@@ -622,12 +558,8 @@
     "en": "to be called"
    },
    {
-    "da": "dejligt at møde dig",
-    "en": "nice to meet you"
-   },
-   {
-    "da": "et efternavn",
-    "en": "a last name"
+    "da": "mit navn er…",
+    "en": "my name is…"
    }
   ],
   "sentence": {
@@ -661,12 +593,8 @@
     "en": "I live in…"
    },
    {
-    "da": "et land",
-    "en": "a country"
-   },
-   {
-    "da": "Danmark",
-    "en": "Denmark"
+    "da": "at komme",
+    "en": "to come"
    }
   ],
   "sentence": {
@@ -696,12 +624,12 @@
     "en": "gladly"
    },
    {
-    "da": "tak",
-    "en": "thanks / please"
+    "da": "jeg vil have",
+    "en": "I want"
    },
    {
-    "da": "en bestilling",
-    "en": "an order"
+    "da": "kan jeg få…?",
+    "en": "can I have…?"
    }
   ],
   "sentence": {
@@ -842,18 +770,6 @@
    {
     "da": "et gulv",
     "en": "a floor"
-   },
-   {
-    "da": "en have",
-    "en": "a garden"
-   },
-   {
-    "da": "en planet",
-    "en": "a planet"
-   },
-   {
-    "da": "en mark",
-    "en": "a field"
    }
   ],
   "sentence": {
@@ -879,20 +795,12 @@
   ],
   "related": [
    {
-    "da": "en appelsin",
-    "en": "an orange"
+    "da": "appelsinjuice",
+    "en": "orange juice"
    },
    {
-    "da": "et æble",
-    "en": "an apple"
-   },
-   {
-    "da": "en drik",
-    "en": "a drink"
-   },
-   {
-    "da": "et glas",
-    "en": "a glass"
+    "da": "æblejuice",
+    "en": "apple juice"
    }
   ],
   "sentence": {
@@ -932,10 +840,6 @@
    {
     "da": "et juletræ",
     "en": "a Christmas tree"
-   },
-   {
-    "da": "påske",
-    "en": "Easter"
    }
   ],
   "sentence": {
@@ -1006,14 +910,6 @@
    {
     "da": "august",
     "en": "August"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "sommer",
-    "en": "summer"
    }
   ],
   "sentence": {
@@ -1045,14 +941,6 @@
    {
     "da": "juli",
     "en": "July"
-   },
-   {
-    "da": "en måned",
-    "en": "a month"
-   },
-   {
-    "da": "et år",
-    "en": "a year"
    }
   ],
   "sentence": {

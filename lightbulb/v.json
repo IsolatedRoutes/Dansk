@@ -25,12 +25,12 @@
     "en": "to do the dishes"
    },
    {
-    "da": "en vaskemaskine",
-    "en": "a washing machine"
+    "da": "at vaske sig",
+    "en": "to wash oneself"
    },
    {
-    "da": "rengøring",
-    "en": "cleaning"
+    "da": "en vaskemaskine",
+    "en": "a washing machine"
    }
   ],
   "sentence": {
@@ -66,14 +66,6 @@
    {
     "da": "en opvaskemaskine",
     "en": "a dishwasher"
-   },
-   {
-    "da": "en tallerken",
-    "en": "a plate"
-   },
-   {
-    "da": "et køkken",
-    "en": "a kitchen"
    }
   ],
   "sentence": {
@@ -107,16 +99,8 @@
     "en": "to wash"
    },
    {
-    "da": "en sæbe",
-    "en": "a soap"
-   },
-   {
-    "da": "et håndklæde",
-    "en": "a towel"
-   },
-   {
-    "da": "at tage et bad",
-    "en": "to take a shower/bath"
+    "da": "at vaske op",
+    "en": "to do the dishes"
    }
   ],
   "sentence": {
@@ -148,18 +132,6 @@
    {
     "da": "en vægt",
     "en": "a scale, a weight"
-   },
-   {
-    "da": "et kilo",
-    "en": "a kilogram"
-   },
-   {
-    "da": "tung",
-    "en": "heavy"
-   },
-   {
-    "da": "let",
-    "en": "light"
    }
   ],
   "sentence": {
@@ -191,10 +163,6 @@
    {
     "da": "en ventetid",
     "en": "a waiting time"
-   },
-   {
-    "da": "et øjeblik",
-    "en": "a moment"
    },
    {
     "da": "at vente på",
@@ -232,16 +200,8 @@
     "en": "to wait"
    },
    {
-    "da": "en bus",
-    "en": "a bus"
-   },
-   {
-    "da": "et øjeblik",
-    "en": "a moment"
-   },
-   {
-    "da": "tålmodig",
-    "en": "patient"
+    "da": "en ventetid",
+    "en": "a waiting time"
    }
   ],
   "sentence": {
@@ -390,14 +350,6 @@
    {
     "da": "at se",
     "en": "to see"
-   },
-   {
-    "da": "at forklare",
-    "en": "to explain"
-   },
-   {
-    "da": "en vej",
-    "en": "a way / road"
    }
   ],
   "sentence": {
@@ -466,16 +418,16 @@
   ],
   "related": [
    {
+    "da": "at vågne",
+    "en": "to wake up"
+   },
+   {
     "da": "at sove",
     "en": "to sleep"
    },
    {
     "da": "at stå op",
     "en": "to get up (out of bed)"
-   },
-   {
-    "da": "en morgen",
-    "en": "a morning"
    },
    {
     "da": "at falde i søvn",
@@ -515,10 +467,6 @@
    {
     "da": "at foretrække",
     "en": "to prefer"
-   },
-   {
-    "da": "at beslutte",
-    "en": "to decide"
    }
   ],
   "sentence": {
@@ -554,10 +502,6 @@
    {
     "da": "at have",
     "en": "to have"
-   },
-   {
-    "da": "at findes",
-    "en": "to exist"
    }
   ],
   "sentence": {
@@ -595,8 +539,8 @@
     "en": "to get sick"
    },
    {
-    "da": "en læge",
-    "en": "a doctor"
+    "da": "en sygdom",
+    "en": "an illness"
    },
    {
     "da": "at melde sig syg",
@@ -640,10 +584,6 @@
    {
     "da": "at forsvinde",
     "en": "to disappear"
-   },
-   {
-    "da": "hjemme",
-    "en": "at home"
    }
   ],
   "sentence": {
@@ -679,14 +619,6 @@
    {
     "da": "en vaccination",
     "en": "a vaccination"
-   },
-   {
-    "da": "en sprøjte",
-    "en": "a syringe"
-   },
-   {
-    "da": "en sygdom",
-    "en": "a disease"
    }
   ],
   "sentence": {
@@ -720,16 +652,8 @@
     "en": "vegetarian"
    },
    {
-    "da": "en allergi",
-    "en": "an allergy"
-   },
-   {
-    "da": "kød",
-    "en": "meat"
-   },
-   {
-    "da": "en grøntsag",
-    "en": "a vegetable"
+    "da": "en veganer",
+    "en": "a vegan"
    }
   ],
   "sentence": {
@@ -806,16 +730,8 @@
     "en": "weather"
    },
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
-    "da": "en temperatur",
-    "en": "a temperature"
-   },
-   {
-    "da": "i morgen",
-    "en": "tomorrow"
+    "da": "en udsigt",
+    "en": "an outlook / a view"
    }
   ],
   "sentence": {
@@ -853,12 +769,8 @@
     "en": "a boyfriend/girlfriend"
    },
    {
-    "da": "en nabo",
-    "en": "a neighbor"
-   },
-   {
-    "da": "en kollega",
-    "en": "a colleague"
+    "da": "et venskab",
+    "en": "a friendship"
    }
   ],
   "sentence": {
@@ -896,12 +808,8 @@
     "en": "a partner"
    },
    {
-    "da": "en kollega",
-    "en": "a colleague"
-   },
-   {
-    "da": "en nabo",
-    "en": "a neighbor"
+    "da": "et venskab",
+    "en": "a friendship"
    }
   ],
   "sentence": {
@@ -931,20 +839,16 @@
   ],
   "related": [
    {
-    "da": "et land",
-    "en": "a country"
-   },
-   {
-    "da": "et univers",
-    "en": "a universe"
-   },
-   {
     "da": "jorden",
     "en": "the Earth"
    },
    {
-    "da": "en rejse",
-    "en": "a trip"
+    "da": "et verdenskort",
+    "en": "a world map"
+   },
+   {
+    "da": "verdensberømt",
+    "en": "world-famous"
    }
   ],
   "sentence": {
@@ -974,20 +878,16 @@
   ],
   "related": [
    {
+    "da": "en rødvin",
+    "en": "a red wine"
+   },
+   {
+    "da": "en hvidvin",
+    "en": "a white wine"
+   },
+   {
     "da": "en øl",
     "en": "a beer"
-   },
-   {
-    "da": "et glas",
-    "en": "a glass"
-   },
-   {
-    "da": "en flaske",
-    "en": "a bottle"
-   },
-   {
-    "da": "skål",
-    "en": "cheers"
    }
   ],
   "sentence": {
@@ -1150,16 +1050,12 @@
     "en": "a hotel"
    },
    {
-    "da": "et værelse",
-    "en": "a room"
+    "da": "en vandrer",
+    "en": "a hiker"
    },
    {
-    "da": "en seng",
-    "en": "a bed"
-   },
-   {
-    "da": "en overnatning",
-    "en": "an overnight stay"
+    "da": "et hjem",
+    "en": "a home"
    }
   ],
   "sentence": {
@@ -1197,12 +1093,8 @@
     "en": "a room"
    },
    {
-    "da": "en læge",
-    "en": "a doctor"
-   },
-   {
-    "da": "en tid hos lægen",
-    "en": "a doctor's appointment"
+    "da": "en ventetid",
+    "en": "waiting time"
    }
   ],
   "sentence": {
@@ -1236,16 +1128,8 @@
     "en": "a door"
    },
    {
-    "da": "et glas",
-    "en": "a glass"
-   },
-   {
-    "da": "at åbne",
-    "en": "to open"
-   },
-   {
-    "da": "en væg",
-    "en": "a wall"
+    "da": "en rude",
+    "en": "a window pane"
    }
   ],
   "sentence": {
@@ -1277,18 +1161,6 @@
    {
     "da": "et pas",
     "en": "a passport"
-   },
-   {
-    "da": "en grænse",
-    "en": "a border"
-   },
-   {
-    "da": "at søge",
-    "en": "to apply, to search"
-   },
-   {
-    "da": "et land",
-    "en": "a country"
    }
   ],
   "sentence": {
@@ -1326,12 +1198,8 @@
     "en": "a bathroom"
    },
    {
-    "da": "en stue",
-    "en": "a living room"
-   },
-   {
-    "da": "et hotel",
-    "en": "a hotel"
+    "da": "en plads",
+    "en": "space"
    }
   ],
   "sentence": {
@@ -1357,20 +1225,12 @@
   ],
   "related": [
    {
-    "da": "et glas",
-    "en": "a glass"
+    "da": "mineralvand",
+    "en": "mineral water"
    },
    {
-    "da": "at drikke",
-    "en": "to drink"
-   },
-   {
-    "da": "et hav",
-    "en": "a sea"
-   },
-   {
-    "da": "en sø",
-    "en": "a lake"
+    "da": "at vande",
+    "en": "to water"
    }
   ],
   "sentence": {
@@ -1445,10 +1305,6 @@
    {
     "da": "at varme",
     "en": "to heat"
-   },
-   {
-    "da": "en temperatur",
-    "en": "a temperature"
    }
   ],
   "sentence": {
@@ -1478,16 +1334,16 @@
     "en": "next to"
    },
    {
-    "da": "hos",
-    "en": "at someone's place"
-   },
-   {
     "da": "nær",
     "en": "near"
    },
    {
-    "da": "i",
-    "en": "in"
+    "da": "hos",
+    "en": "at someone's place"
+   },
+   {
+    "da": "at vide",
+    "en": "to know"
    }
   ],
   "sentence": {
@@ -1556,16 +1412,8 @@
     "en": "a vegetarian"
    },
    {
-    "da": "en ret",
-    "en": "a dish"
-   },
-   {
-    "da": "kød",
-    "en": "meat"
-   },
-   {
-    "da": "en grøntsag",
-    "en": "a vegetable"
+    "da": "vegansk",
+    "en": "vegan"
    }
   ],
   "sentence": {
@@ -1603,8 +1451,8 @@
     "en": "a wind"
    },
    {
-    "da": "en temperatur",
-    "en": "a temperature"
+    "da": "en vejrudsigt",
+    "en": "a weather forecast"
    }
   ],
   "sentence": {
@@ -1665,20 +1513,12 @@
   ],
   "related": [
    {
-    "da": "velkommen til",
-    "en": "welcome to"
-   },
-   {
     "da": "selv tak",
     "en": "you're welcome"
    },
    {
-    "da": "hej",
-    "en": "hello"
-   },
-   {
-    "da": "en gæst",
-    "en": "a guest"
+    "da": "en velkomst",
+    "en": "a welcome"
    }
   ],
   "sentence": {
@@ -1749,14 +1589,6 @@
    {
     "da": "lige ud",
     "en": "straight ahead"
-   },
-   {
-    "da": "en hånd",
-    "en": "a hand"
-   },
-   {
-    "da": "en side",
-    "en": "a side"
    }
   ],
   "sentence": {
@@ -1827,10 +1659,6 @@
    {
     "da": "syd",
     "en": "south"
-   },
-   {
-    "da": "en retning",
-    "en": "a direction"
    }
   ],
   "sentence": {
@@ -1866,10 +1694,6 @@
    {
     "da": "vores",
     "en": "our / ours"
-   },
-   {
-    "da": "sammen",
-    "en": "together"
    }
   ],
   "sentence": {
@@ -1936,10 +1760,6 @@
    {
     "da": "at tale",
     "en": "to speak"
-   },
-   {
-    "da": "at ringe",
-    "en": "to call"
    }
   ],
   "sentence": {
@@ -1975,10 +1795,6 @@
    {
     "da": "nødvendig",
     "en": "necessary"
-   },
-   {
-    "da": "et møde",
-    "en": "a meeting"
    }
   ],
   "sentence": {
@@ -2012,12 +1828,8 @@
     "en": "a storm"
    },
    {
-    "da": "luft",
-    "en": "air"
-   },
-   {
-    "da": "vejr",
-    "en": "weather"
+    "da": "en vindmølle",
+    "en": "a windmill"
    }
   ],
   "sentence": {
@@ -2049,10 +1861,6 @@
    {
     "da": "rigtig",
     "en": "really / right"
-   },
-   {
-    "da": "sand",
-    "en": "true"
    },
    {
     "da": "faktisk",
@@ -2164,16 +1972,8 @@
     "en": "dry"
    },
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
     "da": "fugtig",
     "en": "damp"
-   },
-   {
-    "da": "en pyt",
-    "en": "a puddle"
    }
   ],
   "sentence": {
@@ -2199,20 +1999,12 @@
   ],
   "related": [
    {
-    "da": "træt",
-    "en": "tired"
-   },
-   {
     "da": "at vågne",
     "en": "to wake up"
    },
    {
     "da": "at sove",
     "en": "to sleep"
-   },
-   {
-    "da": "søvnig",
-    "en": "sleepy"
    }
   ],
   "sentence": {
@@ -2244,14 +2036,6 @@
    {
     "da": "borte",
     "en": "gone / away"
-   },
-   {
-    "da": "ud",
-    "en": "out"
-   },
-   {
-    "da": "hjemme",
-    "en": "at home"
    }
   ],
   "sentence": {
@@ -2361,10 +2145,6 @@
    {
     "da": "bedst",
     "en": "best"
-   },
-   {
-    "da": "en dag",
-    "en": "a day"
    }
   ],
   "sentence": {

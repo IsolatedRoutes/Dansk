@@ -62,14 +62,6 @@
    {
     "da": "en invitation",
     "en": "an invitation"
-   },
-   {
-    "da": "en fest",
-    "en": "a party"
-   },
-   {
-    "da": "en gæst",
-    "en": "a guest"
    }
   ],
   "sentence": {
@@ -105,14 +97,6 @@
    {
     "da": "et forslag",
     "en": "a suggestion"
-   },
-   {
-    "da": "at tænke",
-    "en": "to think"
-   },
-   {
-    "da": "en mening",
-    "en": "an opinion"
    }
   ],
   "sentence": {
@@ -144,10 +128,6 @@
    {
     "da": "en indkøbsvogn",
     "en": "a shopping cart"
-   },
-   {
-    "da": "et supermarked",
-    "en": "a supermarket"
    },
    {
     "da": "at købe ind",
@@ -193,10 +173,6 @@
     "en": "shopping"
    },
    {
-    "da": "en kurv",
-    "en": "a basket"
-   },
-   {
     "da": "en taske",
     "en": "a bag (handbag, school bag)"
    }
@@ -232,16 +208,12 @@
     "en": "a shopping basket"
    },
    {
-    "da": "et supermarked",
-    "en": "a supermarket"
-   },
-   {
-    "da": "at skubbe",
-    "en": "to push"
-   },
-   {
     "da": "en vogn",
     "en": "a cart"
+   },
+   {
+    "da": "indkøb",
+    "en": "shopping"
    }
   ],
   "sentence": {
@@ -271,20 +243,16 @@
   ],
   "related": [
    {
-    "da": "et supermarked",
-    "en": "a supermarket"
-   },
-   {
-    "da": "en tøjbutik",
-    "en": "a clothing store"
-   },
-   {
     "da": "at købe ind",
     "en": "to buy groceries"
    },
    {
-    "da": "en kiosk",
-    "en": "a kiosk"
+    "da": "et center",
+    "en": "a center"
+   },
+   {
+    "da": "en indkøbskurv",
+    "en": "a shopping basket"
    }
   ],
   "sentence": {
@@ -359,10 +327,6 @@
    {
     "da": "i nat",
     "en": "tonight / last night"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
    }
   ],
   "sentence": {
@@ -394,10 +358,6 @@
    {
     "da": "i nat",
     "en": "last night / tonight"
-   },
-   {
-    "da": "i går",
-    "en": "yesterday"
    },
    {
     "da": "en aften",
@@ -587,8 +547,8 @@
     "en": "today"
    },
    {
-    "da": "i går",
-    "en": "yesterday"
+    "da": "i morges",
+    "en": "this morning"
    },
    {
     "da": "en morgen",
@@ -628,10 +588,6 @@
    {
     "da": "i morgen",
     "en": "tomorrow"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
    },
    {
     "da": "om morgenen",
@@ -821,16 +777,8 @@
     "en": "a school"
    },
    {
-    "da": "hjemme",
-    "en": "at home"
-   },
-   {
-    "da": "en lærer",
-    "en": "a teacher"
-   },
-   {
-    "da": "en elev",
-    "en": "a pupil"
+    "da": "at gå i skole",
+    "en": "to go to school"
    }
   ],
   "sentence": {
@@ -903,12 +851,8 @@
     "en": "a foreigner"
    },
    {
-    "da": "hjemme",
-    "en": "at home"
-   },
-   {
-    "da": "at rejse",
-    "en": "to travel"
+    "da": "udenlandsk",
+    "en": "foreign"
    }
   ],
   "sentence": {
@@ -944,10 +888,6 @@
    {
     "da": "søndag",
     "en": "Sunday"
-   },
-   {
-    "da": "en fridag",
-    "en": "a day off"
    }
   ],
   "sentence": {
@@ -1016,10 +956,6 @@
     "en": "to repeat"
    },
    {
-    "da": "tilbage",
-    "en": "back"
-   },
-   {
     "da": "også",
     "en": "also"
    }
@@ -1049,18 +985,6 @@
    {
     "da": "gennem",
     "en": "through (short form)"
-   },
-   {
-    "da": "forbi",
-    "en": "past"
-   },
-   {
-    "da": "omkring",
-    "en": "around"
-   },
-   {
-    "da": "hele vejen",
-    "en": "all the way"
    }
   ],
   "sentence": {
@@ -1090,16 +1014,12 @@
     "en": "no"
    },
    {
-    "da": "aldrig",
-    "en": "never"
-   },
-   {
     "da": "ingen",
     "en": "no one / none"
    },
    {
-    "da": "ingenting",
-    "en": "nothing"
+    "da": "aldrig",
+    "en": "never"
    }
   ],
   "sentence": {
@@ -1129,16 +1049,12 @@
     "en": "already"
    },
    {
-    "da": "snart",
-    "en": "soon"
-   },
-   {
     "da": "ikke mere",
     "en": "no more"
    },
    {
-    "da": "endnu en",
-    "en": "one more"
+    "da": "endnu",
+    "en": "yet / still"
    }
   ],
   "sentence": {
@@ -1170,10 +1086,6 @@
    {
     "da": "ikke endnu",
     "en": "not yet"
-   },
-   {
-    "da": "nok",
-    "en": "enough"
    },
    {
     "da": "mere, tak",
@@ -1244,18 +1156,6 @@
    {
     "da": "mellem",
     "en": "between (short form)"
-   },
-   {
-    "da": "ved siden af",
-    "en": "next to"
-   },
-   {
-    "da": "midt i",
-    "en": "in the middle of"
-   },
-   {
-    "da": "blandt",
-    "en": "among"
    }
   ],
   "sentence": {
@@ -1328,8 +1228,8 @@
     "en": "after"
    },
    {
-    "da": "bagefter",
-    "en": "afterwards"
+    "da": "indenfor",
+    "en": "inside / within"
    }
   ],
   "sentence": {
@@ -1367,8 +1267,8 @@
     "en": "in (movement)"
    },
    {
-    "da": "velkommen",
-    "en": "welcome"
+    "da": "inden",
+    "en": "before"
    }
   ],
   "sentence": {
@@ -1402,12 +1302,8 @@
     "en": "Indian"
    },
    {
-    "da": "Kina",
-    "en": "China"
-   },
-   {
-    "da": "Pakistan",
-    "en": "Pakistan"
+    "da": "en indianer",
+    "en": "a Native American"
    }
   ],
   "sentence": {
@@ -1441,12 +1337,8 @@
     "en": "an Indian person"
    },
    {
-    "da": "kinesisk",
-    "en": "Chinese"
-   },
-   {
-    "da": "pakistansk",
-    "en": "Pakistani"
+    "da": "en indianer",
+    "en": "a Native American"
    }
   ],
   "sentence": {
@@ -1476,11 +1368,7 @@
     "en": "to / until"
    },
    {
-    "da": "siden",
-    "en": "since"
-   },
-   {
-    "da": "før",
+    "da": "inden",
     "en": "before"
    },
    {
@@ -1513,18 +1401,6 @@
    {
     "da": "en forkølelse",
     "en": "a cold (illness)"
-   },
-   {
-    "da": "en feber",
-    "en": "a fever"
-   },
-   {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
-    "da": "en sygdom",
-    "en": "a disease"
    }
   ],
   "sentence": {
@@ -1560,10 +1436,6 @@
    {
     "da": "alle",
     "en": "everyone"
-   },
-   {
-    "da": "aldrig",
-    "en": "never"
    }
   ],
   "sentence": {
@@ -1591,10 +1463,6 @@
    {
     "da": "et problem",
     "en": "a problem"
-   },
-   {
-    "da": "ingen årsag",
-    "en": "don't mention it"
    },
    {
     "da": "det er i orden",
@@ -1706,12 +1574,12 @@
     "en": "an interest"
    },
    {
-    "da": "spændende",
-    "en": "exciting"
+    "da": "interesseret",
+    "en": "interested"
    },
    {
-    "da": "at interessere",
-    "en": "to interest"
+    "da": "spændende",
+    "en": "exciting"
    }
   ],
   "sentence": {
@@ -1737,20 +1605,12 @@
   ],
   "related": [
    {
-    "da": "wifi",
-    "en": "wifi"
+    "da": "nettet",
+    "en": "the net / online"
    },
    {
-    "da": "en hjemmeside",
-    "en": "a website"
-   },
-   {
-    "da": "en computer",
-    "en": "a computer"
-   },
-   {
-    "da": "en e-mail",
-    "en": "an email"
+    "da": "en internetforbindelse",
+    "en": "an internet connection"
    }
   ],
   "sentence": {
@@ -1780,16 +1640,12 @@
     "en": "an ice cube"
    },
    {
-    "da": "en kugle",
-    "en": "a scoop / ball"
+    "da": "iskaffe",
+    "en": "iced coffee"
    },
    {
-    "da": "kold",
-    "en": "cold"
-   },
-   {
-    "da": "en dessert",
-    "en": "a dessert"
+    "da": "en isbjørn",
+    "en": "a polar bear"
    }
   ],
   "sentence": {
@@ -1827,8 +1683,8 @@
     "en": "ice / ice cream"
    },
    {
-    "da": "Grønland",
-    "en": "Greenland"
+    "da": "en ø",
+    "en": "an island"
    }
   ],
   "sentence": {
@@ -1858,20 +1714,12 @@
   ],
   "related": [
    {
-    "da": "glat",
-    "en": "slippery"
-   },
-   {
     "da": "is",
     "en": "ice"
    },
    {
     "da": "et slag",
     "en": "a blow, a stroke"
-   },
-   {
-    "da": "et uvejr",
-    "en": "bad weather"
    }
   ],
   "sentence": {
@@ -1903,14 +1751,6 @@
    {
     "da": "italiensk",
     "en": "Italian"
-   },
-   {
-    "da": "Spanien",
-    "en": "Spain"
-   },
-   {
-    "da": "Grækenland",
-    "en": "Greece"
    }
   ],
   "sentence": {
@@ -1942,14 +1782,6 @@
    {
     "da": "en italiener",
     "en": "an Italian (person)"
-   },
-   {
-    "da": "spansk",
-    "en": "Spanish"
-   },
-   {
-    "da": "græsk",
-    "en": "Greek"
    }
   ],
   "sentence": {
