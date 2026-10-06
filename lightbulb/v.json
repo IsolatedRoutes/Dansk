@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "at vaske op",
-    "en": "to do the dishes"
-   },
-   {
-    "da": "at vaske sig",
-    "en": "to wash oneself"
-   },
-   {
     "da": "en vaskemaskine",
     "en": "a washing machine"
+   },
+   {
+    "da": "at skylle",
+    "en": "to rinse"
+   },
+   {
+    "da": "at tørre",
+    "en": "to dry"
    }
   ],
   "sentence": {
@@ -255,16 +255,16 @@
   ],
   "related": [
    {
-    "da": "at kende",
-    "en": "to know (a person or place)"
-   },
-   {
     "da": "at forstå",
     "en": "to understand"
    },
    {
     "da": "en viden",
     "en": "knowledge"
+   },
+   {
+    "da": "at vise",
+    "en": "to show"
    }
   ],
   "sentence": {
@@ -337,12 +337,12 @@
     "en": "to lose"
    },
    {
-    "da": "en vinder",
-    "en": "a winner"
-   },
-   {
     "da": "en gevinst",
     "en": "a prize / winnings"
+   },
+   {
+    "da": "en sejr",
+    "en": "a victory"
    }
   ],
   "sentence": {
@@ -419,8 +419,8 @@
     "en": "to get up"
    },
    {
-    "da": "at vække",
-    "en": "to wake someone"
+    "da": "vågen",
+    "en": "awake"
    }
   ],
   "sentence": {
@@ -454,12 +454,12 @@
     "en": "to sleep"
    },
    {
-    "da": "at stå op",
-    "en": "to get up (out of bed)"
-   },
-   {
     "da": "at falde i søvn",
     "en": "to fall asleep"
+   },
+   {
+    "da": "vågen",
+    "en": "awake"
    }
   ],
   "sentence": {
@@ -489,16 +489,16 @@
   ],
   "related": [
    {
-    "da": "et valg",
-    "en": "a choice / an election"
-   },
-   {
     "da": "at foretrække",
     "en": "to prefer"
    },
    {
     "da": "en mulighed",
     "en": "an option"
+   },
+   {
+    "da": "at udvælge",
+    "en": "to select"
    }
   ],
   "sentence": {
@@ -567,16 +567,16 @@
   ],
   "related": [
    {
-    "da": "at blive syg",
-    "en": "to get sick"
-   },
-   {
     "da": "en sygdom",
     "en": "an illness"
    },
    {
     "da": "at melde sig syg",
     "en": "to call in sick"
+   },
+   {
+    "da": "rask",
+    "en": "healthy"
    }
   ],
   "sentence": {
@@ -684,16 +684,16 @@
   ],
   "related": [
    {
-    "da": "vegetarisk",
-    "en": "vegetarian"
-   },
-   {
     "da": "en veganer",
     "en": "a vegan"
    },
    {
-    "da": "kød",
-    "en": "meat"
+    "da": "en fisk",
+    "en": "a fish"
+   },
+   {
+    "da": "grøntsager",
+    "en": "vegetables"
    }
   ],
   "sentence": {
@@ -766,16 +766,16 @@
   ],
   "related": [
    {
-    "da": "et vejr",
-    "en": "weather"
-   },
-   {
-    "da": "en udsigt",
-    "en": "an outlook / a view"
-   },
-   {
     "da": "en vejrmelding",
     "en": "a weather report"
+   },
+   {
+    "da": "en prognose",
+    "en": "a forecast"
+   },
+   {
+    "da": "et klima",
+    "en": "a climate"
    }
   ],
   "sentence": {
@@ -809,8 +809,8 @@
     "en": "a female friend"
    },
    {
-    "da": "en kæreste",
-    "en": "a boyfriend/girlfriend"
+    "da": "en kammerat",
+    "en": "a pal"
    },
    {
     "da": "et venskab",
@@ -844,16 +844,16 @@
   ],
   "related": [
    {
-    "da": "en ven",
-    "en": "a friend"
-   },
-   {
     "da": "en kæreste",
     "en": "a partner"
    },
    {
     "da": "et venskab",
     "en": "a friendship"
+   },
+   {
+    "da": "en kammerat",
+    "en": "a pal"
    }
   ],
   "sentence": {
@@ -922,16 +922,16 @@
   ],
   "related": [
    {
-    "da": "en rødvin",
-    "en": "a red wine"
-   },
-   {
-    "da": "en hvidvin",
-    "en": "a white wine"
-   },
-   {
     "da": "en øl",
     "en": "a beer"
+   },
+   {
+    "da": "en drue",
+    "en": "a grape"
+   },
+   {
+    "da": "en champagne",
+    "en": "a champagne"
    }
   ],
   "sentence": {
@@ -1055,12 +1055,12 @@
     "en": "a ceiling"
    },
    {
-    "da": "en mur",
-    "en": "a (brick) wall"
-   },
-   {
     "da": "et rum",
     "en": "a room"
+   },
+   {
+    "da": "en dør",
+    "en": "a door"
    }
   ],
   "sentence": {
@@ -1094,12 +1094,12 @@
     "en": "a hotel"
    },
    {
-    "da": "en vandrer",
-    "en": "a hiker"
+    "da": "en campingplads",
+    "en": "a campsite"
    },
    {
-    "da": "et hjem",
-    "en": "a home"
+    "da": "en overnatning",
+    "en": "an overnight stay"
    }
   ],
   "sentence": {
@@ -1129,16 +1129,16 @@
   ],
   "related": [
    {
-    "da": "at vente",
-    "en": "to wait"
-   },
-   {
-    "da": "et værelse",
-    "en": "a room"
-   },
-   {
     "da": "en ventetid",
     "en": "waiting time"
+   },
+   {
+    "da": "en venteliste",
+    "en": "a waiting list"
+   },
+   {
+    "da": "en klinik",
+    "en": "a clinic"
    }
   ],
   "sentence": {
@@ -1254,8 +1254,8 @@
     "en": "a bathroom"
    },
    {
-    "da": "en plads",
-    "en": "space"
+    "da": "et gæsteværelse",
+    "en": "a guest room"
    }
   ],
   "sentence": {
@@ -1363,8 +1363,8 @@
     "en": "warm / hot"
    },
    {
-    "da": "at varme",
-    "en": "to heat"
+    "da": "hede",
+    "en": "heat"
    }
   ],
   "sentence": {
@@ -1468,8 +1468,8 @@
   ],
   "related": [
    {
-    "da": "en vegetar",
-    "en": "a vegetarian"
+    "da": "en veganer",
+    "en": "a vegan"
    },
    {
     "da": "vegansk",
@@ -1542,16 +1542,16 @@
   ],
   "related": [
    {
-    "da": "tak for mad",
-    "en": "thanks for the meal"
+    "da": "værsgo",
+    "en": "here you go"
    },
    {
     "da": "god appetit",
     "en": "enjoy your meal"
    },
    {
-    "da": "selv tak",
-    "en": "you're welcome"
+    "da": "skål",
+    "en": "cheers"
    }
   ],
   "sentence": {
@@ -1577,8 +1577,8 @@
   ],
   "related": [
    {
-    "da": "selv tak",
-    "en": "you're welcome"
+    "da": "farvel",
+    "en": "goodbye"
    },
    {
     "da": "en velkomst",
@@ -1760,8 +1760,8 @@
     "en": "I"
    },
    {
-    "da": "os",
-    "en": "us"
+    "da": "de",
+    "en": "they"
    },
    {
     "da": "vores",
@@ -1791,8 +1791,8 @@
   ],
   "related": [
    {
-    "da": "på gensyn",
-    "en": "see you again (formal)"
+    "da": "vi tales ved",
+    "en": "talk soon"
    },
    {
     "da": "farvel",
@@ -1826,8 +1826,8 @@
   ],
   "related": [
    {
-    "da": "vi ses",
-    "en": "see you"
+    "da": "på gensyn",
+    "en": "see you again"
    },
    {
     "da": "at tale",
@@ -1896,8 +1896,8 @@
   ],
   "related": [
    {
-    "da": "at blæse",
-    "en": "to blow"
+    "da": "en brise",
+    "en": "a breeze"
    },
    {
     "da": "en storm",
@@ -2009,16 +2009,12 @@
     "en": "calm"
    },
    {
-    "da": "sur",
-    "en": "grumpy"
+    "da": "rasende",
+    "en": "furious"
    },
    {
-    "da": "irriteret",
-    "en": "annoyed"
-   },
-   {
-    "da": "en vrede",
-    "en": "anger"
+    "da": "hidsig",
+    "en": "hot-tempered"
    }
   ],
   "sentence": {
@@ -2079,8 +2075,8 @@
   ],
   "related": [
    {
-    "da": "at vågne",
-    "en": "to wake up"
+    "da": "at vække",
+    "en": "to wake someone"
    },
    {
     "da": "at sove",
@@ -2149,8 +2145,8 @@
   ],
   "related": [
    {
-    "da": "dårlig",
-    "en": "bad"
+    "da": "ringere",
+    "en": "inferior, worse"
    },
    {
     "da": "værst",
@@ -2188,16 +2184,16 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
-    "da": "selv tak",
-    "en": "you're welcome"
-   },
-   {
     "da": "vær så venlig",
     "en": "please (more formal)"
+   },
+   {
+    "da": "vær så god",
+    "en": "here you go (formal)"
+   },
+   {
+    "da": "velbekomme",
+    "en": "enjoy (food)"
    }
   ],
   "sentence": {
@@ -2223,16 +2219,16 @@
   ],
   "related": [
    {
-    "da": "dårlig",
-    "en": "bad"
-   },
-   {
-    "da": "værre",
-    "en": "worse"
-   },
-   {
     "da": "bedst",
     "en": "best"
+   },
+   {
+    "da": "bedre",
+    "en": "better"
+   },
+   {
+    "da": "slem",
+    "en": "bad / naughty"
    }
   ],
   "sentence": {

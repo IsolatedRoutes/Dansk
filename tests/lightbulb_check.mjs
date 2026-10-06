@@ -26,6 +26,13 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
           if (rw.length && rw.every((w) => parts.has(w))) fail(k + ": related '" + r.da + "' is just part of the card itself");
         }
     }
+    if (Array.isArray(e.related)) {
+      const ex = " " + e.explanation.toLowerCase().replace(/[^\p{L}\d]+/gu, " ") + " ";
+      for (const r of e.related) {
+        const w = (r.da || "").toLowerCase().replace(/^(at|en|et)\s+/, "").replace(/[^\p{L}\d]+/gu, " ").trim();
+        if (w && ex.includes(" " + w + " ")) fail(k + ": related '" + r.da + "' is already in the explanation");
+      }
+    }
     if (!Array.isArray(e.related) || e.related.length < 3 || e.related.length > 4) fail(k + ": related must have 3 or 4 words");
     if (!e.sentence || !e.sentence.da || !e.sentence.en) fail(k + ": sentence");
     else if (!/\*\*[^*]+\*\*/.test(e.sentence.da)) fail(k + ": sentence word not marked with **");

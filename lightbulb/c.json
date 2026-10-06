@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "en cykel",
-    "en": "a bicycle"
-   },
-   {
     "da": "en cykelhjelm",
     "en": "a bike helmet"
    },
    {
     "da": "en cykeltur",
     "en": "a bike ride"
+   },
+   {
+    "da": "en cykelsti",
+    "en": "a bike path"
    }
   ],
   "sentence": {
@@ -56,16 +56,16 @@
   ],
   "related": [
    {
-    "da": "pommes frites",
-    "en": "French fries"
-   },
-   {
     "da": "kartoffelchips",
     "en": "potato crisps"
    },
    {
     "da": "popcorn",
     "en": "popcorn"
+   },
+   {
+    "da": "en snack",
+    "en": "a snack"
    }
   ],
   "sentence": {
@@ -196,16 +196,16 @@
   ],
   "related": [
    {
-    "da": "at cykle",
-    "en": "to cycle"
-   },
-   {
     "da": "en cykel",
     "en": "a bicycle"
    },
    {
     "da": "en cykeltur",
     "en": "a bike ride"
+   },
+   {
+    "da": "svømning",
+    "en": "swimming"
    }
   ],
   "sentence": {
@@ -235,16 +235,16 @@
   ],
   "related": [
    {
-    "da": "en restaurant",
-    "en": "a restaurant"
-   },
-   {
     "da": "en bar",
     "en": "a bar"
    },
    {
     "da": "et konditori",
     "en": "a pastry cafe"
+   },
+   {
+    "da": "et spisested",
+    "en": "an eating place"
    }
   ],
   "sentence": {
@@ -317,12 +317,12 @@
     "en": "a leader"
    },
    {
-    "da": "en køkkenchef",
-    "en": "a head chef"
-   },
-   {
     "da": "en medarbejder",
     "en": "an employee"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
    }
   ],
   "sentence": {
@@ -391,16 +391,16 @@
   ],
   "related": [
    {
-    "da": "en bærbar",
-    "en": "a laptop"
-   },
-   {
     "da": "en skærm",
     "en": "a screen"
    },
    {
     "da": "et tastatur",
     "en": "a keyboard"
+   },
+   {
+    "da": "en printer",
+    "en": "a printer"
    }
   ],
   "sentence": {
@@ -469,10 +469,6 @@
   ],
   "related": [
    {
-    "da": "en cykel",
-    "en": "a bicycle"
-   },
-   {
     "da": "at cykle",
     "en": "to cycle"
    },
@@ -481,8 +477,12 @@
     "en": "a walk"
    },
    {
-    "da": "en tur",
-    "en": "a trip"
+    "da": "en cykelhjelm",
+    "en": "a bike helmet"
+   },
+   {
+    "da": "en løbetur",
+    "en": "a run"
    }
   ],
   "sentence": {

@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "undskyld",
-    "en": "sorry / excuse me"
-   },
-   {
     "da": "en undskyldning",
     "en": "an apology"
    },
    {
     "da": "at tilgive",
     "en": "to forgive"
+   },
+   {
+    "da": "at beklage",
+    "en": "to regret / to apologise"
    }
   ],
   "sentence": {
@@ -103,20 +103,20 @@
   ],
   "related": [
    {
-    "da": "mandag",
-    "en": "Monday"
-   },
-   {
     "da": "en weekend",
     "en": "a weekend"
    },
    {
-    "da": "en uge",
-    "en": "a week"
+    "da": "en hverdag",
+    "en": "a weekday"
    },
    {
-    "da": "en dag",
-    "en": "a day"
+    "da": "tirsdag",
+    "en": "Tuesday"
+   },
+   {
+    "da": "søndag",
+    "en": "Sunday"
    }
   ],
   "sentence": {
@@ -189,16 +189,16 @@
   ],
   "related": [
    {
-    "da": "klokken",
-    "en": "the time / o'clock"
-   },
-   {
-    "da": "et armbåndsur",
-    "en": "a wristwatch"
-   },
-   {
     "da": "et vækkeur",
     "en": "an alarm clock"
+   },
+   {
+    "da": "et stopur",
+    "en": "a stopwatch"
+   },
+   {
+    "da": "en urmager",
+    "en": "a watchmaker"
    }
   ],
   "sentence": {
@@ -228,8 +228,8 @@
     "en": "in"
    },
    {
-    "da": "ude",
-    "en": "outside (being there)"
+    "da": "en udgang",
+    "en": "an exit"
    },
    {
     "da": "udenfor",
@@ -259,16 +259,16 @@
   ],
   "related": [
    {
-    "da": "med",
-    "en": "with"
-   },
-   {
-    "da": "udenfor",
-    "en": "outside"
-   },
-   {
     "da": "bortset fra",
     "en": "except for"
+   },
+   {
+    "da": "undtagen",
+    "en": "except"
+   },
+   {
+    "da": "inklusive",
+    "en": "including"
    }
   ],
   "sentence": {
@@ -329,8 +329,8 @@
   ],
   "related": [
    {
-    "da": "solgt",
-    "en": "sold"
+    "da": "på lager",
+    "en": "in stock"
    },
    {
     "da": "at sælge",
@@ -364,8 +364,8 @@
   ],
   "related": [
    {
-    "da": "gift",
-    "en": "married"
+    "da": "forlovet",
+    "en": "engaged"
    },
    {
     "da": "single",
@@ -504,8 +504,8 @@
   ],
   "related": [
    {
-    "da": "bukser",
-    "en": "pants"
+    "da": "boxershorts",
+    "en": "boxer shorts"
    },
    {
     "da": "trusser",
@@ -539,8 +539,8 @@
   ],
   "related": [
    {
-    "da": "tøj",
-    "en": "clothes"
+    "da": "nattøj",
+    "en": "nightwear"
    },
    {
     "da": "underbukser",
@@ -582,8 +582,8 @@
     "en": "I'm sorry (more formal)"
    },
    {
-    "da": "pardon",
-    "en": "pardon"
+    "da": "en undskyldning",
+    "en": "an apology"
    },
    {
     "da": "undskyld mig",
@@ -652,8 +652,8 @@
     "en": "old"
    },
    {
-    "da": "en ung",
-    "en": "a young person"
+    "da": "en ungdom",
+    "en": "youth"
    },
    {
     "da": "yngre",
@@ -718,8 +718,8 @@
   ],
   "related": [
    {
-    "da": "sund",
-    "en": "healthy"
+    "da": "skadelig",
+    "en": "harmful"
    },
    {
     "da": "sundhed",

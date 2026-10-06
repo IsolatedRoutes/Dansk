@@ -111,8 +111,8 @@
     "en": "a microwave oven"
    },
    {
-    "da": "en kogeplade",
-    "en": "a stovetop"
+    "da": "en ovnhandske",
+    "en": "an oven glove"
    }
   ],
   "sentence": {
@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "et herretoilet",
-    "en": "a men's restroom"
-   },
-   {
-    "da": "et dametoilet",
-    "en": "a women's restroom"
-   },
-   {
     "da": "et wc",
     "en": "a WC, a toilet"
+   },
+   {
+    "da": "en håndvask",
+    "en": "a sink"
+   },
+   {
+    "da": "toiletpapir",
+    "en": "toilet paper"
    }
   ],
   "sentence": {
@@ -177,16 +177,16 @@
   ],
   "related": [
    {
-    "da": "en ordbog",
-    "en": "a dictionary"
-   },
-   {
     "da": "et ordforråd",
     "en": "a vocabulary"
    },
    {
     "da": "en sætning",
     "en": "a sentence"
+   },
+   {
+    "da": "en betydning",
+    "en": "a meaning"
    }
   ],
   "sentence": {
@@ -224,8 +224,8 @@
     "en": "rarely"
    },
    {
-    "da": "aldrig",
-    "en": "never"
+    "da": "tit",
+    "en": "often (casual)"
    }
   ],
   "sentence": {
@@ -259,12 +259,12 @@
     "en": "but"
    },
    {
-    "da": "også",
-    "en": "also"
-   },
-   {
     "da": "både ... og",
     "en": "both ... and"
+   },
+   {
+    "da": "samt",
+    "en": "as well as"
    }
   ],
   "sentence": {
@@ -290,10 +290,6 @@
   ],
   "related": [
    {
-    "da": "heller ikke",
-    "en": "not either"
-   },
-   {
     "da": "både … og",
     "en": "both … and"
    },
@@ -302,8 +298,12 @@
     "en": "besides"
    },
    {
-    "da": "og",
-    "en": "and"
+    "da": "ligeledes",
+    "en": "likewise"
+   },
+   {
+    "da": "endda",
+    "en": "even"
    }
   ],
   "sentence": {
@@ -368,12 +368,12 @@
     "en": "pork"
    },
    {
-    "da": "kød",
-    "en": "meat"
+    "da": "kalvekød",
+    "en": "veal"
    },
    {
-    "da": "en okse",
-    "en": "an ox"
+    "da": "lammekød",
+    "en": "lamb"
    }
   ],
   "sentence": {
@@ -438,16 +438,16 @@
   ],
   "related": [
    {
-    "da": "olivenolie",
-    "en": "olive oil"
-   },
-   {
-    "da": "rapsolie",
-    "en": "rapeseed oil"
-   },
-   {
     "da": "eddike",
     "en": "vinegar"
+   },
+   {
+    "da": "smør",
+    "en": "butter"
+   },
+   {
+    "da": "solsikkeolie",
+    "en": "sunflower oil"
    }
   ],
   "sentence": {
@@ -477,12 +477,12 @@
     "en": "around"
    },
    {
-    "da": "i",
-    "en": "in"
-   },
-   {
     "da": "hvis",
     "en": "if"
+   },
+   {
+    "da": "angående",
+    "en": "regarding"
    }
   ],
   "sentence": {
@@ -508,20 +508,16 @@
   ],
   "related": [
    {
-    "da": "en aften",
-    "en": "an evening"
-   },
-   {
-    "da": "i aften",
-    "en": "this evening"
-   },
-   {
     "da": "om morgenen",
     "en": "in the morning"
    },
    {
     "da": "om natten",
     "en": "at night"
+   },
+   {
+    "da": "om eftermiddagen",
+    "en": "in the afternoon"
    }
   ],
   "sentence": {
@@ -590,16 +586,16 @@
     "en": "a morning"
    },
    {
-    "da": "i morges",
-    "en": "this morning"
-   },
-   {
     "da": "om aftenen",
     "en": "in the evening"
    },
    {
     "da": "godmorgen",
     "en": "good morning"
+   },
+   {
+    "da": "om eftermiddagen",
+    "en": "in the afternoon"
    }
   ],
   "sentence": {
@@ -625,20 +621,20 @@
   ],
   "related": [
    {
-    "da": "en nat",
-    "en": "a night"
-   },
-   {
-    "da": "i nat",
-    "en": "tonight / last night"
-   },
-   {
     "da": "om dagen",
     "en": "during the day"
    },
    {
     "da": "godnat",
     "en": "good night"
+   },
+   {
+    "da": "om aftenen",
+    "en": "in the evening"
+   },
+   {
+    "da": "om morgenen",
+    "en": "in the morning"
    }
   ],
   "sentence": {
@@ -668,16 +664,16 @@
     "en": "a week"
    },
    {
-    "da": "om dagen",
-    "en": "per day"
-   },
-   {
     "da": "om måneden",
     "en": "per month"
    },
    {
     "da": "hver uge",
     "en": "every week"
+   },
+   {
+    "da": "om året",
+    "en": "per year"
    }
   ],
   "sentence": {
@@ -816,12 +812,12 @@
     "en": "down"
    },
    {
-    "da": "oppe",
-    "en": "up (being there)"
+    "da": "ovenpå",
+    "en": "upstairs"
    },
    {
-    "da": "at stå op",
-    "en": "to get up"
+    "da": "opad",
+    "en": "upwards"
    }
   ],
   "sentence": {
@@ -847,16 +843,16 @@
   ],
   "related": [
    {
-    "da": "op",
-    "en": "up (movement)"
-   },
-   {
     "da": "nede",
     "en": "down (there)"
    },
    {
     "da": "ovenpå",
     "en": "upstairs"
+   },
+   {
+    "da": "ovenover",
+    "en": "above"
    }
   ],
   "sentence": {
@@ -917,10 +913,6 @@
   ],
   "related": [
    {
-    "da": "en appelsin",
-    "en": "an orange (fruit)"
-   },
-   {
     "da": "gul",
     "en": "yellow"
    },
@@ -931,6 +923,10 @@
    {
     "da": "lilla",
     "en": "purple"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
    }
   ],
   "sentence": {
@@ -956,10 +952,6 @@
   ],
   "related": [
    {
-    "da": "vi",
-    "en": "we"
-   },
-   {
     "da": "vores",
     "en": "our / ours"
    },
@@ -970,6 +962,10 @@
    {
     "da": "jer",
     "en": "you (more than one, after words like \"med\")"
+   },
+   {
+    "da": "dem",
+    "en": "them"
    }
   ],
   "sentence": {
@@ -1038,12 +1034,12 @@
     "en": "nine"
    },
    {
-    "da": "atten",
-    "en": "eighteen"
-   },
-   {
     "da": "ottende",
     "en": "eighth"
+   },
+   {
+    "da": "ti",
+    "en": "ten"
    }
   ],
   "sentence": {
@@ -1108,16 +1104,16 @@
   ],
   "related": [
    {
-    "da": "nedenunder",
-    "en": "downstairs"
-   },
-   {
     "da": "oppe",
     "en": "up (there)"
    },
    {
     "da": "ovenover",
     "en": "above"
+   },
+   {
+    "da": "nede",
+    "en": "down (there)"
    }
   ],
   "sentence": {
@@ -1178,10 +1174,6 @@
   ],
   "related": [
    {
-    "da": "ingen steder",
-    "en": "nowhere"
-   },
-   {
     "da": "et sted",
     "en": "somewhere"
    },
@@ -1192,6 +1184,10 @@
    {
     "da": "hvor som helst",
     "en": "anywhere"
+   },
+   {
+    "da": "et andet sted",
+    "en": "somewhere else"
    }
   ],
   "sentence": {
@@ -1217,16 +1213,16 @@
   ],
   "related": [
    {
-    "da": "skyet",
-    "en": "cloudy"
-   },
-   {
     "da": "solrig",
     "en": "sunny"
    },
    {
-    "da": "en sky",
-    "en": "a cloud"
+    "da": "skyfri",
+    "en": "cloudless"
+   },
+   {
+    "da": "tåget",
+    "en": "foggy"
    }
   ],
   "sentence": {

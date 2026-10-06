@@ -25,12 +25,12 @@
     "en": "a sneeze"
    },
    {
-    "da": "at hoste",
-    "en": "to cough"
-   },
-   {
     "da": "en forkølelse",
     "en": "a cold"
+   },
+   {
+    "da": "høfeber",
+    "en": "hay fever"
    }
   ],
   "sentence": {
@@ -177,16 +177,16 @@
   ],
   "related": [
    {
-    "da": "en finger",
-    "en": "a finger"
-   },
-   {
     "da": "en tå",
     "en": "a toe"
    },
    {
-    "da": "et søm",
-    "en": "a nail (metal)"
+    "da": "en tånegl",
+    "en": "a toenail"
+   },
+   {
+    "da": "en neglesaks",
+    "en": "nail scissors"
    }
   ],
   "sentence": {
@@ -337,16 +337,16 @@
   ],
   "related": [
    {
-    "da": "et tal",
-    "en": "a number (figure)"
-   },
-   {
-    "da": "et telefonnummer",
-    "en": "a phone number"
-   },
-   {
     "da": "et husnummer",
     "en": "a house number"
+   },
+   {
+    "da": "en nummerplade",
+    "en": "a license plate"
+   },
+   {
+    "da": "et ciffer",
+    "en": "a digit"
    }
   ],
   "sentence": {
@@ -415,12 +415,12 @@
   ],
   "related": [
    {
-    "da": "op",
-    "en": "up"
+    "da": "ovenpå",
+    "en": "upstairs"
    },
    {
-    "da": "nede",
-    "en": "down (being there)"
+    "da": "nedad",
+    "en": "downward"
    },
    {
     "da": "nedenunder",
@@ -485,8 +485,8 @@
   ],
   "related": [
    {
-    "da": "svær",
-    "en": "difficult"
+    "da": "besværlig",
+    "en": "troublesome"
    },
    {
     "da": "let",
@@ -532,8 +532,8 @@
     "en": "hard"
    },
    {
-    "da": "svært",
-    "en": "hard / with difficulty"
+    "da": "enkelt",
+    "en": "simply"
    }
   ],
   "sentence": {
@@ -641,12 +641,12 @@
     "en": "eighteen"
    },
    {
-    "da": "tyve",
-    "en": "twenty"
+    "da": "sytten",
+    "en": "seventeen"
    },
    {
-    "da": "ni",
-    "en": "nine"
+    "da": "tyve",
+    "en": "twenty"
    },
    {
     "da": "nittende",
@@ -715,16 +715,16 @@
   ],
   "related": [
    {
-    "da": "nogen",
-    "en": "someone / anyone"
-   },
-   {
     "da": "ingenting",
     "en": "nothing"
    },
    {
     "da": "nogle",
     "en": "some"
+   },
+   {
+    "da": "alt",
+    "en": "everything"
    }
   ],
   "sentence": {
@@ -750,16 +750,16 @@
   ],
   "related": [
    {
-    "da": "nogen",
-    "en": "someone / any"
-   },
-   {
     "da": "noget",
     "en": "something"
    },
    {
     "da": "ingen",
     "en": "none"
+   },
+   {
+    "da": "mange",
+    "en": "many"
    }
   ],
   "sentence": {
@@ -793,12 +793,12 @@
     "en": "often"
    },
    {
-    "da": "altid",
-    "en": "always"
+    "da": "sjældent",
+    "en": "rarely"
    },
    {
-    "da": "aldrig",
-    "en": "never"
+    "da": "som regel",
+    "en": "usually"
    }
   ],
   "sentence": {
@@ -863,16 +863,16 @@
   ],
   "related": [
    {
-    "da": "syd",
-    "en": "south"
-   },
-   {
     "da": "øst",
     "en": "east"
    },
    {
     "da": "vest",
     "en": "west"
+   },
+   {
+    "da": "nordlig",
+    "en": "northern"
    }
   ],
   "sentence": {
@@ -902,12 +902,12 @@
     "en": "a Norwegian"
    },
    {
-    "da": "norsk",
-    "en": "Norwegian"
-   },
-   {
     "da": "Sverige",
     "en": "Sweden"
+   },
+   {
+    "da": "Danmark",
+    "en": "Denmark"
    }
   ],
   "sentence": {
@@ -1046,10 +1046,6 @@
   ],
   "related": [
    {
-    "da": "senere",
-    "en": "later"
-   },
-   {
     "da": "før",
     "en": "before"
    },
@@ -1060,6 +1056,10 @@
    {
     "da": "nå",
     "en": "oh / well"
+   },
+   {
+    "da": "snart",
+    "en": "soon"
    }
   ],
   "sentence": {
@@ -1120,16 +1120,16 @@
   ],
   "related": [
    {
-    "da": "to",
-    "en": "two"
-   },
-   {
-    "da": "ti",
-    "en": "ten"
-   },
-   {
     "da": "én",
     "en": "one"
+   },
+   {
+    "da": "tre",
+    "en": "three"
+   },
+   {
+    "da": "fire",
+    "en": "four"
    }
   ],
   "sentence": {
@@ -1229,16 +1229,16 @@
   ],
   "related": [
    {
-    "da": "et nytår",
-    "en": "a new year"
-   },
-   {
     "da": "juleaften",
     "en": "Christmas Eve"
    },
    {
-    "da": "en aften",
-    "en": "an evening"
+    "da": "nytårsdag",
+    "en": "New Year's Day"
+   },
+   {
+    "da": "en nytårsfest",
+    "en": "a New Year's party"
    }
   ],
   "sentence": {
@@ -1264,16 +1264,16 @@
   ],
   "related": [
    {
-    "da": "nu",
-    "en": "now"
-   },
-   {
     "da": "åh",
     "en": "oh"
    },
    {
     "da": "tja",
     "en": "well"
+   },
+   {
+    "da": "aha",
+    "en": "aha"
    }
   ],
   "sentence": {
@@ -1299,16 +1299,16 @@
   ],
   "related": [
    {
-    "da": "da",
-    "en": "when (past)"
-   },
-   {
-    "da": "hvornår",
-    "en": "when (question)"
-   },
-   {
     "da": "hvis",
     "en": "if"
+   },
+   {
+    "da": "hver gang",
+    "en": "every time"
+   },
+   {
+    "da": "mens",
+    "en": "while"
    }
   ],
   "sentence": {
@@ -1338,12 +1338,12 @@
     "en": "far / distant"
    },
    {
-    "da": "tæt på",
-    "en": "close to"
-   },
-   {
     "da": "nærmere",
     "en": "closer"
+   },
+   {
+    "da": "nærhed",
+    "en": "closeness"
    }
   ],
   "sentence": {
@@ -1373,12 +1373,12 @@
     "en": "completely"
    },
    {
-    "da": "næste",
-    "en": "next"
-   },
-   {
     "da": "nærmest",
     "en": "nearly, practically"
+   },
+   {
+    "da": "omtrent",
+    "en": "approximately"
    }
   ],
   "sentence": {

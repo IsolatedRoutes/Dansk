@@ -17,10 +17,6 @@
   ],
   "related": [
    {
-    "da": "du",
-    "en": "you (one person)"
-   },
-   {
     "da": "jer",
     "en": "you (group), as in \"Jeg ser jer\" (I see you)"
    },
@@ -29,8 +25,12 @@
     "en": "your / yours (many)"
    },
    {
-    "da": "jeg",
-    "en": "I"
+    "da": "vi",
+    "en": "we"
+   },
+   {
+    "da": "de",
+    "en": "they"
    }
   ],
   "sentence": {
@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "en indkøbsvogn",
-    "en": "a shopping cart"
-   },
-   {
     "da": "at købe ind",
     "en": "to buy groceries"
    },
    {
-    "da": "en kurv",
-    "en": "a basket"
+    "da": "en indkøbspose",
+    "en": "a shopping bag"
+   },
+   {
+    "da": "en indkøbsliste",
+    "en": "a shopping list"
    }
   ],
   "sentence": {
@@ -177,16 +177,16 @@
   ],
   "related": [
    {
-    "da": "en pose",
-    "en": "a bag"
-   },
-   {
-    "da": "indkøb",
-    "en": "shopping"
-   },
-   {
     "da": "en taske",
     "en": "a bag (handbag, school bag)"
+   },
+   {
+    "da": "en indkøbsvogn",
+    "en": "a shopping cart"
+   },
+   {
+    "da": "en indkøbskurv",
+    "en": "a shopping basket"
    }
   ],
   "sentence": {
@@ -220,12 +220,12 @@
     "en": "a shopping basket"
    },
    {
-    "da": "en vogn",
-    "en": "a cart"
+    "da": "en indkøbspose",
+    "en": "a shopping bag"
    },
    {
-    "da": "indkøb",
-    "en": "shopping"
+    "da": "en indkøbsliste",
+    "en": "a shopping list"
    }
   ],
   "sentence": {
@@ -259,12 +259,12 @@
     "en": "to buy groceries"
    },
    {
-    "da": "et center",
-    "en": "a center"
-   },
-   {
     "da": "en indkøbskurv",
     "en": "a shopping basket"
+   },
+   {
+    "da": "et varehus",
+    "en": "a department store"
    }
   ],
   "sentence": {
@@ -290,20 +290,20 @@
   ],
   "related": [
    {
-    "da": "på",
-    "en": "on / at"
-   },
-   {
     "da": "inde",
     "en": "inside"
    },
    {
     "da": "ind",
-    "en": "in (movement)"
+    "en": "in (into)"
    },
    {
     "da": "ud af",
     "en": "out of"
+   },
+   {
+    "da": "ved",
+    "en": "by"
    }
   ],
   "sentence": {
@@ -329,16 +329,16 @@
   ],
   "related": [
    {
-    "da": "i aftes",
-    "en": "last night"
-   },
-   {
     "da": "i nat",
-    "en": "tonight / last night"
+    "en": "tonight, last night"
    },
    {
     "da": "i dag",
     "en": "today"
+   },
+   {
+    "da": "i morgen",
+    "en": "tomorrow"
    }
   ],
   "sentence": {
@@ -364,16 +364,16 @@
   ],
   "related": [
    {
-    "da": "i aften",
-    "en": "this evening"
+    "da": "i går",
+    "en": "yesterday"
    },
    {
-    "da": "i nat",
-    "en": "last night / tonight"
+    "da": "i morges",
+    "en": "this morning"
    },
    {
-    "da": "en aften",
-    "en": "an evening"
+    "da": "i forgårs",
+    "en": "the day before yesterday"
    }
   ],
   "sentence": {
@@ -407,8 +407,8 @@
     "en": "yesterday"
    },
    {
-    "da": "i aften",
-    "en": "tonight"
+    "da": "i overmorgen",
+    "en": "the day after tomorrow"
    }
   ],
   "sentence": {
@@ -469,20 +469,16 @@
   ],
   "related": [
    {
-    "da": "i går",
-    "en": "yesterday"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
-   },
-   {
     "da": "i morgen",
     "en": "tomorrow"
    },
    {
     "da": "i overmorgen",
     "en": "the day after tomorrow"
+   },
+   {
+    "da": "for to dage siden",
+    "en": "two days ago"
    }
   ],
   "sentence": {
@@ -551,12 +547,12 @@
     "en": "today"
    },
    {
-    "da": "i morges",
-    "en": "this morning"
-   },
-   {
     "da": "i overmorgen",
     "en": "the day after tomorrow"
+   },
+   {
+    "da": "i går",
+    "en": "yesterday"
    }
   ],
   "sentence": {
@@ -582,16 +578,16 @@
   ],
   "related": [
    {
-    "da": "en morgen",
-    "en": "a morning"
-   },
-   {
-    "da": "i morgen",
-    "en": "tomorrow"
-   },
-   {
     "da": "om morgenen",
     "en": "in the morning"
+   },
+   {
+    "da": "i aftes",
+    "en": "last night"
+   },
+   {
+    "da": "i går",
+    "en": "yesterday"
    }
   ],
   "sentence": {
@@ -726,20 +722,16 @@
   ],
   "related": [
    {
-    "da": "i morgen",
-    "en": "tomorrow"
-   },
-   {
-    "da": "i dag",
-    "en": "today"
-   },
-   {
     "da": "i forgårs",
     "en": "the day before yesterday"
    },
    {
     "da": "i går",
     "en": "yesterday"
+   },
+   {
+    "da": "om to dage",
+    "en": "in two days"
    }
   ],
   "sentence": {
@@ -874,16 +866,16 @@
   ],
   "related": [
    {
-    "da": "en weekend",
-    "en": "a weekend"
-   },
-   {
     "da": "lørdag",
     "en": "Saturday"
    },
    {
     "da": "søndag",
     "en": "Sunday"
+   },
+   {
+    "da": "fredag",
+    "en": "Friday"
    }
   ],
   "sentence": {
@@ -952,8 +944,8 @@
     "en": "to repeat"
    },
    {
-    "da": "også",
-    "en": "also"
+    "da": "en gentagelse",
+    "en": "a repetition"
    }
   ],
   "sentence": {
@@ -1014,16 +1006,16 @@
   ],
   "related": [
    {
-    "da": "nej",
-    "en": "no"
-   },
-   {
-    "da": "ingen",
-    "en": "no one / none"
-   },
-   {
     "da": "aldrig",
     "en": "never"
+   },
+   {
+    "da": "ingenting",
+    "en": "nothing"
+   },
+   {
+    "da": "heller ikke",
+    "en": "neither / not either"
    }
   ],
   "sentence": {
@@ -1053,8 +1045,8 @@
     "en": "already"
    },
    {
-    "da": "ikke mere",
-    "en": "no more"
+    "da": "ikke længere",
+    "en": "no longer"
    },
    {
     "da": "stadig",
@@ -1088,8 +1080,8 @@
     "en": "not yet"
    },
    {
-    "da": "mere, tak",
-    "en": "more, please"
+    "da": "stadig",
+    "en": "still"
    },
    {
     "da": "ikke længere",
@@ -1119,20 +1111,20 @@
   ],
   "related": [
    {
-    "da": "en brand",
-    "en": "a fire (that does damage)"
-   },
-   {
-    "da": "et bål",
-    "en": "a campfire"
-   },
-   {
     "da": "en flamme",
     "en": "a flame"
    },
    {
     "da": "at brænde",
     "en": "to burn"
+   },
+   {
+    "da": "en gnist",
+    "en": "a spark"
+   },
+   {
+    "da": "røg",
+    "en": "smoke"
    }
   ],
   "sentence": {
@@ -1158,8 +1150,8 @@
   ],
   "related": [
    {
-    "da": "mellem",
-    "en": "between (short form)"
+    "da": "midt i",
+    "en": "in the middle of"
    },
    {
     "da": "blandt",
@@ -1197,16 +1189,12 @@
     "en": "out"
    },
    {
-    "da": "inde",
-    "en": "inside (being there)"
-   },
-   {
     "da": "indenfor",
     "en": "indoors"
    },
    {
-    "da": "ind i",
-    "en": "into"
+    "da": "en indgang",
+    "en": "an entrance"
    }
   ],
   "sentence": {
@@ -1306,16 +1294,16 @@
   ],
   "related": [
    {
-    "da": "en inder",
-    "en": "an Indian"
-   },
-   {
     "da": "indisk",
     "en": "Indian"
    },
    {
-    "da": "en indianer",
-    "en": "a Native American"
+    "da": "Kina",
+    "en": "China"
+   },
+   {
+    "da": "Pakistan",
+    "en": "Pakistan"
    }
   ],
   "sentence": {
@@ -1341,16 +1329,16 @@
   ],
   "related": [
    {
-    "da": "Indien",
-    "en": "India"
-   },
-   {
     "da": "en inder",
     "en": "an Indian person"
    },
    {
-    "da": "en indianer",
-    "en": "a Native American"
+    "da": "kinesisk",
+    "en": "Chinese"
+   },
+   {
+    "da": "japansk",
+    "en": "Japanese"
    }
   ],
   "sentence": {
@@ -1446,16 +1434,16 @@
   ],
   "related": [
    {
-    "da": "nogen",
-    "en": "someone / anyone"
-   },
-   {
     "da": "ingenting",
     "en": "nothing"
    },
    {
     "da": "alle",
     "en": "everyone"
+   },
+   {
+    "da": "ingen af dem",
+    "en": "none of them"
    }
   ],
   "sentence": {
@@ -1481,8 +1469,8 @@
   ],
   "related": [
    {
-    "da": "et problem",
-    "en": "a problem"
+    "da": "ingen sag",
+    "en": "no problem (casual)"
    },
    {
     "da": "det er i orden",
@@ -1491,6 +1479,10 @@
    {
     "da": "ingen årsag",
     "en": "no worries"
+   },
+   {
+    "da": "selv tak",
+    "en": "you're welcome"
    }
   ],
   "sentence": {
@@ -1555,16 +1547,16 @@
     "en": "everything"
    },
    {
-    "da": "noget",
-    "en": "something"
-   },
-   {
-    "da": "ingen",
-    "en": "no one"
-   },
-   {
     "da": "en ting",
     "en": "a thing"
+   },
+   {
+    "da": "intet",
+    "en": "nothing (formal)"
+   },
+   {
+    "da": "ingen steder",
+    "en": "nowhere"
    }
   ],
   "sentence": {
@@ -1598,8 +1590,8 @@
     "en": "an interest"
    },
    {
-    "da": "interesseret",
-    "en": "interested"
+    "da": "at interessere",
+    "en": "to interest"
    },
    {
     "da": "spændende",
@@ -1707,12 +1699,12 @@
     "en": "Icelandic"
    },
    {
-    "da": "is",
-    "en": "ice / ice cream"
+    "da": "Grønland",
+    "en": "Greenland"
    },
    {
-    "da": "en ø",
-    "en": "an island"
+    "da": "Norge",
+    "en": "Norway"
    }
   ],
   "sentence": {
@@ -1742,16 +1734,20 @@
   ],
   "related": [
    {
-    "da": "is",
-    "en": "ice"
-   },
-   {
-    "da": "et slag",
-    "en": "a blow, a stroke"
-   },
-   {
     "da": "slud",
     "en": "sleet"
+   },
+   {
+    "da": "hagl",
+    "en": "hail"
+   },
+   {
+    "da": "sne",
+    "en": "snow"
+   },
+   {
+    "da": "regn",
+    "en": "rain"
    }
   ],
   "sentence": {
@@ -1781,8 +1777,8 @@
     "en": "an Italian"
    },
    {
-    "da": "italiensk",
-    "en": "Italian"
+    "da": "Frankrig",
+    "en": "France"
    },
    {
     "da": "Spanien",

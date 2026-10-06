@@ -101,10 +101,6 @@
    {
     "da": "derefter",
     "en": "after that"
-   },
-   {
-    "da": "efter at",
-    "en": "after (+ a full sentence)"
    }
   ],
   "sentence": {
@@ -130,16 +126,16 @@
   ],
   "related": [
    {
-    "da": "min",
-    "en": "my"
-   },
-   {
-    "da": "din",
-    "en": "your"
-   },
-   {
     "da": "selv",
     "en": "self / myself"
+   },
+   {
+    "da": "personlig",
+    "en": "personal"
+   },
+   {
+    "da": "privat",
+    "en": "private"
    }
   ],
   "sentence": {
@@ -208,12 +204,12 @@
     "en": "but"
    },
    {
-    "da": "ellers",
-    "en": "otherwise"
-   },
-   {
     "da": "enten ... eller",
     "en": "either ... or"
+   },
+   {
+    "da": "både ... og",
+    "en": "both ... and"
    }
   ],
   "sentence": {
@@ -238,10 +234,6 @@
    }
   ],
   "related": [
-   {
-    "da": "eller",
-    "en": "or"
-   },
    {
     "da": "andet",
     "en": "other / else"
@@ -364,12 +356,12 @@
     "en": "an evening"
    },
    {
-    "da": "middag",
-    "en": "noon / dinner"
-   },
-   {
     "da": "en formiddag",
     "en": "a late morning"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
    }
   ],
   "sentence": {
@@ -442,12 +434,12 @@
     "en": "a teacher"
    },
    {
-    "da": "en studerende",
-    "en": "a student"
-   },
-   {
     "da": "en lærling",
     "en": "an apprentice"
+   },
+   {
+    "da": "en skole",
+    "en": "a school"
    }
   ],
   "sentence": {
@@ -477,16 +469,16 @@
   ],
   "related": [
    {
-    "da": "en lift",
-    "en": "a lift"
-   },
-   {
     "da": "en rulletrappe",
     "en": "an escalator"
    },
    {
     "da": "en trappe",
     "en": "stairs"
+   },
+   {
+    "da": "en etage",
+    "en": "a floor"
    }
   ],
   "sentence": {
@@ -516,16 +508,16 @@
   ],
   "related": [
    {
-    "da": "en returbillet",
-    "en": "a return ticket"
-   },
-   {
-    "da": "en billet",
-    "en": "a ticket"
-   },
-   {
     "da": "en billetautomat",
     "en": "a ticket machine"
+   },
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
+   },
+   {
+    "da": "en dagbillet",
+    "en": "a day ticket"
    }
   ],
   "sentence": {
@@ -586,16 +578,16 @@
   ],
   "related": [
    {
-    "da": "som",
-    "en": "as / like"
-   },
-   {
     "da": "mindre",
     "en": "smaller / less"
    },
    {
     "da": "mere",
     "en": "more"
+   },
+   {
+    "da": "en ende",
+    "en": "an end"
    }
   ],
   "sentence": {
@@ -656,16 +648,16 @@
   ],
   "related": [
    {
-    "da": "kun",
-    "en": "only / just"
-   },
-   {
-    "da": "en",
-    "en": "one"
-   },
-   {
     "da": "enkelt",
     "en": "single"
+   },
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "ensom",
+    "en": "lonely"
    }
   ],
   "sentence": {
@@ -691,16 +683,16 @@
   ],
   "related": [
    {
-    "da": "en gang",
-    "en": "one time"
-   },
-   {
     "da": "nogensinde",
     "en": "ever"
    },
    {
     "da": "en dag",
     "en": "one day"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
    }
   ],
   "sentence": {
@@ -726,16 +718,16 @@
   ],
   "related": [
    {
-    "da": "England",
-    "en": "England"
-   },
-   {
     "da": "en englænder",
     "en": "an English person"
    },
    {
     "da": "dansk",
     "en": "Danish"
+   },
+   {
+    "da": "fransk",
+    "en": "French"
    }
   ],
   "sentence": {
@@ -769,8 +761,8 @@
     "en": "English"
    },
    {
-    "da": "Storbritannien",
-    "en": "Great Britain"
+    "da": "Skotland",
+    "en": "Scotland"
    }
   ],
   "sentence": {
@@ -796,20 +788,20 @@
   ],
   "related": [
    {
-    "da": "tyve",
-    "en": "twenty"
-   },
-   {
-    "da": "toogtyve",
-    "en": "twenty-two"
-   },
-   {
     "da": "tredive",
     "en": "thirty"
    },
    {
-    "da": "en",
-    "en": "one"
+    "da": "treogtyve",
+    "en": "twenty-three"
+   },
+   {
+    "da": "fireogtyve",
+    "en": "twenty-four"
+   },
+   {
+    "da": "femogtyve",
+    "en": "twenty-five"
    }
   ],
   "sentence": {
@@ -839,12 +831,12 @@
     "en": "both … and"
    },
    {
-    "da": "hverken … eller",
-    "en": "neither … nor"
-   },
-   {
     "da": "og",
     "en": "and"
+   },
+   {
+    "da": "ellers",
+    "en": "otherwise"
    }
   ],
   "sentence": {
@@ -952,8 +944,8 @@
     "en": "a middle name"
    },
    {
-    "da": "et navn",
-    "en": "a name"
+    "da": "et kaldenavn",
+    "en": "a nickname"
    }
   ],
   "sentence": {
@@ -1026,8 +1018,8 @@
     "en": "a hotel room"
    },
    {
-    "da": "et værelse",
-    "en": "a room"
+    "da": "en enkeltseng",
+    "en": "a single bed"
    }
   ],
   "sentence": {

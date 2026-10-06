@@ -60,16 +60,16 @@
   ],
   "related": [
    {
-    "da": "en rejse",
-    "en": "a trip"
-   },
-   {
     "da": "at tage af sted",
     "en": "to leave"
    },
    {
     "da": "at rejse sig",
     "en": "to stand up"
+   },
+   {
+    "da": "at ankomme",
+    "en": "to arrive"
    }
   ],
   "sentence": {
@@ -138,10 +138,6 @@
   ],
   "related": [
    {
-    "da": "at ringe til",
-    "en": "to call"
-   },
-   {
     "da": "at ringe tilbage",
     "en": "to call back"
    },
@@ -152,6 +148,10 @@
    {
     "da": "et opkald",
     "en": "a phone call"
+   },
+   {
+    "da": "at lægge på",
+    "en": "to hang up"
    }
   ],
   "sentence": {
@@ -302,16 +302,16 @@
   ],
   "related": [
    {
-    "da": "en opskrift",
-    "en": "a recipe"
-   },
-   {
-    "da": "et apotek",
-    "en": "a pharmacy"
+    "da": "en doktor",
+    "en": "a doctor"
    },
    {
     "da": "medicin",
     "en": "medicine"
+   },
+   {
+    "da": "en dosis",
+    "en": "a dose"
    }
   ],
   "sentence": {
@@ -380,16 +380,16 @@
   ],
   "related": [
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
-    "da": "en jakke",
-    "en": "a jacket"
-   },
-   {
     "da": "en vinterjakke",
     "en": "a winter jacket"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   },
+   {
+    "da": "gummistøvler",
+    "en": "rubber boots"
    }
   ],
   "sentence": {
@@ -419,16 +419,16 @@
   ],
   "related": [
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
-    "da": "en skov",
-    "en": "a forest"
-   },
-   {
     "da": "en jungle",
     "en": "a jungle"
+   },
+   {
+    "da": "en ørken",
+    "en": "a desert"
+   },
+   {
+    "da": "en savanne",
+    "en": "a savanna"
    }
   ],
   "sentence": {
@@ -458,16 +458,16 @@
   ],
   "related": [
    {
-    "da": "rejemad",
-    "en": "shrimp on bread"
-   },
-   {
     "da": "en krabbe",
     "en": "a crab"
    },
    {
     "da": "en hummer",
     "en": "a lobster"
+   },
+   {
+    "da": "en musling",
+    "en": "a mussel"
    }
   ],
   "sentence": {
@@ -497,16 +497,16 @@
   ],
   "related": [
    {
-    "da": "at rejse",
-    "en": "to travel"
-   },
-   {
-    "da": "en tur",
-    "en": "a short trip"
-   },
-   {
     "da": "en rejsende",
     "en": "a traveller"
+   },
+   {
+    "da": "en ferie",
+    "en": "a holiday"
+   },
+   {
+    "da": "et rejsebureau",
+    "en": "a travel agency"
    }
   ],
   "sentence": {
@@ -540,12 +540,12 @@
     "en": "to reserve"
    },
    {
-    "da": "at bestille",
-    "en": "to book, to order"
-   },
-   {
     "da": "en booking",
     "en": "a booking"
+   },
+   {
+    "da": "en bestilling",
+    "en": "an order, booking"
    }
   ],
   "sentence": {
@@ -739,12 +739,12 @@
     "en": "a bag"
    },
    {
-    "da": "en ryg",
-    "en": "a back"
+    "da": "en kuffert",
+    "en": "a suitcase"
    },
    {
-    "da": "en sæk",
-    "en": "a sack"
+    "da": "en skoletaske",
+    "en": "a school bag"
    }
   ],
   "sentence": {
@@ -778,12 +778,12 @@
     "en": "a white wine"
    },
    {
-    "da": "en vin",
-    "en": "a wine"
+    "da": "en rosévin",
+    "en": "a rosé wine"
    },
    {
-    "da": "rød",
-    "en": "red"
+    "da": "en øl",
+    "en": "a beer"
    }
   ],
   "sentence": {
@@ -813,16 +813,16 @@
   ],
   "related": [
    {
-    "da": "rund",
-    "en": "round"
-   },
-   {
-    "da": "et stykke",
-    "en": "a piece"
-   },
-   {
     "da": "et rugbrød",
     "en": "a loaf of rye bread"
+   },
+   {
+    "da": "en bolle",
+    "en": "a bun"
+   },
+   {
+    "da": "et franskbrød",
+    "en": "a white bread loaf"
    }
   ],
   "sentence": {
@@ -918,16 +918,20 @@
   ],
   "related": [
    {
-    "da": "regn",
-    "en": "rain"
-   },
-   {
-    "da": "et vejr",
-    "en": "weather"
-   },
-   {
     "da": "solskinsvejr",
     "en": "sunny weather"
+   },
+   {
+    "da": "stormvejr",
+    "en": "stormy weather"
+   },
+   {
+    "da": "en regnbyge",
+    "en": "a rain shower"
+   },
+   {
+    "da": "en regnfrakke",
+    "en": "a raincoat"
    }
   ],
   "sentence": {
@@ -957,16 +961,16 @@
   ],
   "related": [
    {
-    "da": "en rejemad",
-    "en": "a shrimp sandwich"
-   },
-   {
     "da": "skaldyr",
     "en": "shellfish"
    },
    {
     "da": "en krabbe",
     "en": "a crab"
+   },
+   {
+    "da": "en hummer",
+    "en": "a lobster"
    }
   ],
   "sentence": {
@@ -1000,12 +1004,12 @@
     "en": "dirty"
    },
    {
-    "da": "at gøre rent",
+    "da": "at rense",
     "en": "to clean"
    },
    {
-    "da": "at rense",
-    "en": "to clean"
+    "da": "rengøring",
+    "en": "cleaning"
    }
   ],
   "sentence": {
@@ -1031,10 +1035,6 @@
   ],
   "related": [
    {
-    "da": "at reservere",
-    "en": "to reserve"
-   },
-   {
     "da": "en reservation",
     "en": "a reservation"
    },
@@ -1045,6 +1045,10 @@
    {
     "da": "ledig",
     "en": "free, vacant"
+   },
+   {
+    "da": "at booke",
+    "en": "to book"
    }
   ],
   "sentence": {
@@ -1070,16 +1074,16 @@
   ],
   "related": [
    {
-    "da": "en rest",
-    "en": "a remainder"
-   },
-   {
     "da": "tilbage",
     "en": "left over"
    },
    {
     "da": "rester",
     "en": "leftovers"
+   },
+   {
+    "da": "det meste",
+    "en": "most of it"
    }
   ],
   "sentence": {
@@ -1113,8 +1117,8 @@
     "en": "wealth"
    },
    {
-    "da": "et rige",
-    "en": "a kingdom"
+    "da": "velhavende",
+    "en": "wealthy"
    }
   ],
   "sentence": {
@@ -1148,12 +1152,12 @@
     "en": "genuine"
    },
    {
-    "da": "rigtigt",
-    "en": "correctly / really"
-   },
-   {
     "da": "korrekt",
     "en": "correct"
+   },
+   {
+    "da": "falsk",
+    "en": "fake"
    }
   ],
   "sentence": {
@@ -1249,16 +1253,20 @@
   ],
   "related": [
    {
-    "da": "brød",
-    "en": "bread"
-   },
-   {
-    "da": "rug",
-    "en": "rye"
-   },
-   {
     "da": "franskbrød",
     "en": "white bread"
+   },
+   {
+    "da": "hvedebrød",
+    "en": "wheat bread"
+   },
+   {
+    "da": "pålæg",
+    "en": "sandwich topping"
+   },
+   {
+    "da": "et rundstykke",
+    "en": "a bread roll"
    }
   ],
   "sentence": {

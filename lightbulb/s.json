@@ -60,10 +60,6 @@
   ],
   "related": [
    {
-    "da": "at kigge",
-    "en": "to look"
-   },
-   {
     "da": "at høre",
     "en": "to hear"
    },
@@ -74,6 +70,10 @@
    {
     "da": "et syn",
     "en": "a sight / vision"
+   },
+   {
+    "da": "at se efter",
+    "en": "to look after / check"
    }
   ],
   "sentence": {
@@ -107,16 +107,16 @@
     "en": "to look"
    },
    {
-    "da": "at lede efter",
-    "en": "to look for"
-   },
-   {
     "da": "at stirre",
     "en": "to stare"
    },
    {
     "da": "at se efter",
     "en": "to check, to look after"
+   },
+   {
+    "da": "at betragte",
+    "en": "to observe"
    }
   ],
   "sentence": {
@@ -146,10 +146,6 @@
   ],
   "related": [
    {
-    "da": "et fjernsyn",
-    "en": "a television"
-   },
-   {
     "da": "en fjernbetjening",
     "en": "a remote control"
    },
@@ -158,8 +154,12 @@
     "en": "a TV series"
    },
    {
-    "da": "en film",
-    "en": "a film"
+    "da": "en kanal",
+    "en": "a channel"
+   },
+   {
+    "da": "et program",
+    "en": "a programme"
    }
   ],
   "sentence": {
@@ -314,8 +314,8 @@
     "en": "to lie (be lying)"
    },
    {
-    "da": "at sætte sig",
-    "en": "to sit down"
+    "da": "en plads",
+    "en": "a seat"
    }
   ],
   "sentence": {
@@ -345,16 +345,16 @@
   ],
   "related": [
    {
-    "da": "at fortælle",
-    "en": "to tell (a story)"
-   },
-   {
     "da": "at spørge",
     "en": "to ask"
    },
    {
     "da": "at svare",
     "en": "to answer"
+   },
+   {
+    "da": "at tale",
+    "en": "to speak"
    }
   ],
   "sentence": {
@@ -388,12 +388,12 @@
     "en": "to say hello"
    },
    {
-    "da": "hej hej",
-    "en": "bye bye"
+    "da": "god nat",
+    "en": "good night"
    },
    {
-    "da": "vi ses",
-    "en": "see you"
+    "da": "på gensyn",
+    "en": "see you again"
    }
   ],
   "sentence": {
@@ -427,12 +427,12 @@
     "en": "to say goodbye"
    },
    {
-    "da": "hej",
-    "en": "hi"
-   },
-   {
     "da": "god morgen",
     "en": "good morning"
+   },
+   {
+    "da": "godaften",
+    "en": "good evening"
    }
   ],
   "sentence": {
@@ -626,12 +626,12 @@
     "en": "to turn on"
    },
    {
-    "da": "at slukke for",
-    "en": "to turn off (TV, radio)"
+    "da": "slukket",
+    "en": "turned off"
    },
    {
-    "da": "slukket",
-    "en": "off, out"
+    "da": "at brænde",
+    "en": "to burn"
    }
   ],
   "sentence": {
@@ -821,16 +821,16 @@
   ],
   "related": [
    {
-    "da": "at tale",
-    "en": "to speak"
-   },
-   {
     "da": "en snak",
     "en": "a chat"
    },
    {
     "da": "en samtale",
     "en": "a conversation"
+   },
+   {
+    "da": "at sludre",
+    "en": "to chat"
    }
   ],
   "sentence": {
@@ -899,16 +899,16 @@
   ],
   "related": [
    {
-    "da": "sne",
-    "en": "snow"
-   },
-   {
     "da": "at regne",
     "en": "to rain"
    },
    {
     "da": "en snemand",
     "en": "a snowman"
+   },
+   {
+    "da": "en snestorm",
+    "en": "a snowstorm"
    }
   ],
   "sentence": {
@@ -981,16 +981,16 @@
   ],
   "related": [
    {
-    "da": "at lege",
-    "en": "to play (children)"
-   },
-   {
     "da": "et spil",
     "en": "a game"
    },
    {
-    "da": "en spiller",
-    "en": "a player"
+    "da": "at vinde",
+    "en": "to win"
+   },
+   {
+    "da": "et skuespil",
+    "en": "a play"
    }
   ],
   "sentence": {
@@ -1020,10 +1020,6 @@
   ],
   "related": [
    {
-    "da": "en bold",
-    "en": "a ball"
-   },
-   {
     "da": "håndbold",
     "en": "handball"
    },
@@ -1034,6 +1030,10 @@
    {
     "da": "en fodboldkamp",
     "en": "a football match"
+   },
+   {
+    "da": "basketball",
+    "en": "basketball"
    }
   ],
   "sentence": {
@@ -1063,20 +1063,20 @@
   ],
   "related": [
    {
-    "da": "at drikke",
-    "en": "to drink"
-   },
-   {
-    "da": "at spise ude",
-    "en": "to eat out"
-   },
-   {
     "da": "et måltid",
     "en": "a meal"
    },
    {
     "da": "sulten",
     "en": "hungry"
+   },
+   {
+    "da": "mæt",
+    "en": "full"
+   },
+   {
+    "da": "appetit",
+    "en": "appetite"
    }
   ],
   "sentence": {
@@ -1114,8 +1114,8 @@
     "en": "to answer"
    },
    {
-    "da": "at bede om",
-    "en": "to ask for"
+    "da": "at forhøre sig",
+    "en": "to enquire"
    }
   ],
   "sentence": {
@@ -1227,16 +1227,16 @@
   ],
   "related": [
    {
-    "da": "at begynde",
-    "en": "to begin"
-   },
-   {
     "da": "at stoppe",
     "en": "to stop"
    },
    {
-    "da": "en start",
-    "en": "a start"
+    "da": "at slutte",
+    "en": "to finish"
+   },
+   {
+    "da": "at fortsætte",
+    "en": "to continue"
    }
   ],
   "sentence": {
@@ -1383,16 +1383,16 @@
   ],
   "related": [
    {
-    "da": "at læse",
-    "en": "to read / study"
-   },
-   {
     "da": "en studerende",
     "en": "a student"
    },
    {
     "da": "et studie",
     "en": "a study, a course of study"
+   },
+   {
+    "da": "en uddannelse",
+    "en": "an education"
    }
   ],
   "sentence": {
@@ -1500,16 +1500,16 @@
   ],
   "related": [
    {
-    "da": "at rejse sig",
-    "en": "to stand up"
-   },
-   {
     "da": "at vågne",
     "en": "to wake up"
    },
    {
     "da": "at gå i seng",
     "en": "to go to bed"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
    }
   ],
   "sentence": {
@@ -1586,8 +1586,8 @@
     "en": "to ask"
    },
    {
-    "da": "et spørgsmål",
-    "en": "a question"
+    "da": "at besvare",
+    "en": "to answer (a question)"
    }
   ],
   "sentence": {
@@ -1617,16 +1617,16 @@
   ],
   "related": [
    {
-    "da": "at bade",
-    "en": "to bathe / go for a swim"
-   },
-   {
     "da": "en svømmehal",
     "en": "a swimming pool"
    },
    {
-    "da": "en svømmer",
-    "en": "a swimmer"
+    "da": "at dykke",
+    "en": "to dive"
+   },
+   {
+    "da": "et bassin",
+    "en": "a pool"
    }
   ],
   "sentence": {
@@ -1656,16 +1656,16 @@
   ],
   "related": [
    {
-    "da": "at tro",
-    "en": "to believe"
-   },
-   {
     "da": "at tænke",
     "en": "to think"
    },
    {
     "da": "en mening",
     "en": "an opinion"
+   },
+   {
+    "da": "at mene",
+    "en": "to think / mean"
    }
   ],
   "sentence": {
@@ -1738,12 +1738,12 @@
     "en": "to buy"
    },
    {
-    "da": "et salg",
-    "en": "a sale"
-   },
-   {
     "da": "en sælger",
     "en": "a seller"
+   },
+   {
+    "da": "en kunde",
+    "en": "a customer"
    }
   ],
   "sentence": {
@@ -1773,16 +1773,16 @@
   ],
   "related": [
    {
-    "da": "at sidde",
-    "en": "to sit"
-   },
-   {
     "da": "at lægge",
     "en": "to lay down"
    },
    {
     "da": "at stille",
     "en": "to stand something upright"
+   },
+   {
+    "da": "at placere",
+    "en": "to place"
    }
   ],
   "sentence": {
@@ -1812,16 +1812,16 @@
   ],
   "related": [
    {
-    "da": "at sidde",
-    "en": "to sit (be seated)"
-   },
-   {
     "da": "at rejse sig",
     "en": "to stand up"
    },
    {
     "da": "at lægge sig",
     "en": "to lie down"
+   },
+   {
+    "da": "en plads",
+    "en": "a seat"
    }
   ],
   "sentence": {
@@ -1929,16 +1929,16 @@
   ],
   "related": [
    {
-    "da": "smørrebrød",
-    "en": "open sandwich"
-   },
-   {
     "da": "en toast",
     "en": "a toasted sandwich"
    },
    {
     "da": "en burger",
     "en": "a burger"
+   },
+   {
+    "da": "en baguette",
+    "en": "a baguette"
    }
   ],
   "sentence": {
@@ -1972,12 +1972,12 @@
     "en": "bedding"
    },
    {
-    "da": "at gå i seng",
-    "en": "to go to bed"
-   },
-   {
     "da": "et soveværelse",
     "en": "a bedroom"
+   },
+   {
+    "da": "en dobbeltseng",
+    "en": "a double bed"
    }
   ],
   "sentence": {
@@ -2085,16 +2085,16 @@
   ],
   "related": [
    {
-    "da": "en skade",
-    "en": "an injury"
-   },
-   {
     "da": "et sygehus",
     "en": "a hospital"
    },
    {
     "da": "en ambulance",
     "en": "an ambulance"
+   },
+   {
+    "da": "en lægevagt",
+    "en": "an out-of-hours doctor"
    }
   ],
   "sentence": {
@@ -2132,8 +2132,8 @@
     "en": "a knife"
    },
    {
-    "da": "en teske",
-    "en": "a teaspoon"
+    "da": "bestik",
+    "en": "cutlery"
    }
   ],
   "sentence": {
@@ -2202,16 +2202,16 @@
   ],
   "related": [
    {
-    "da": "et stykke",
-    "en": "a piece"
-   },
-   {
     "da": "en brødskive",
     "en": "a slice of bread"
    },
    {
     "da": "at skære",
     "en": "to cut"
+   },
+   {
+    "da": "en bid",
+    "en": "a bite, a piece"
    }
   ],
   "sentence": {
@@ -2323,16 +2323,16 @@
   ],
   "related": [
    {
-    "da": "sko",
-    "en": "shoes"
-   },
-   {
     "da": "en tøjbutik",
     "en": "a clothing store"
    },
    {
-    "da": "en butik",
-    "en": "a shop"
+    "da": "en skomager",
+    "en": "a shoemaker"
+   },
+   {
+    "da": "en sportsbutik",
+    "en": "a sports shop"
    }
   ],
   "sentence": {
@@ -2401,16 +2401,16 @@
   ],
   "related": [
    {
-    "da": "en skovtur",
-    "en": "a trip to the forest"
-   },
-   {
     "da": "en mark",
     "en": "a field"
    },
    {
     "da": "en sø",
     "en": "a lake"
+   },
+   {
+    "da": "en regnskov",
+    "en": "a rainforest"
    }
   ],
   "sentence": {
@@ -2448,8 +2448,8 @@
     "en": "an elbow"
    },
    {
-    "da": "at trække på skuldrene",
-    "en": "to shrug"
+    "da": "en nakke",
+    "en": "a neck"
    }
   ],
   "sentence": {
@@ -2522,12 +2522,12 @@
     "en": "a plate"
    },
    {
-    "da": "skål",
-    "en": "cheers"
-   },
-   {
     "da": "en kop",
     "en": "a cup"
+   },
+   {
+    "da": "et glas",
+    "en": "a glass"
    }
   ],
   "sentence": {
@@ -2557,16 +2557,16 @@
   ],
   "related": [
    {
-    "da": "en mobil",
-    "en": "a mobile phone"
-   },
-   {
     "da": "en telefon",
     "en": "a phone"
    },
    {
     "da": "en computer",
     "en": "a computer"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
    }
   ],
   "sentence": {
@@ -2596,16 +2596,16 @@
   ],
   "related": [
    {
-    "da": "ondt",
-    "en": "pain / hurt"
-   },
-   {
     "da": "en hovedpine",
     "en": "a headache"
    },
    {
     "da": "en mavepine",
     "en": "a stomachache"
+   },
+   {
+    "da": "en tandpine",
+    "en": "a toothache"
    }
   ],
   "sentence": {
@@ -2635,16 +2635,16 @@
   ],
   "related": [
    {
-    "da": "en besked",
-    "en": "a message"
-   },
-   {
     "da": "at sms'e",
     "en": "to text"
    },
    {
     "da": "en mail",
     "en": "an email"
+   },
+   {
+    "da": "et opkald",
+    "en": "a phone call"
    }
   ],
   "sentence": {
@@ -2674,12 +2674,12 @@
     "en": "a meal"
    },
    {
-    "da": "en mellemmåltid",
+    "da": "et mellemmåltid",
     "en": "a snack between meals"
    },
    {
-    "da": "en bid mad",
-    "en": "a bite to eat"
+    "da": "en frokost",
+    "en": "a lunch"
    }
   ],
   "sentence": {
@@ -2713,12 +2713,12 @@
     "en": "a drink"
    },
    {
-    "da": "vand",
-    "en": "water"
-   },
-   {
     "da": "en limonade",
     "en": "a lemonade"
+   },
+   {
+    "da": "en juice",
+    "en": "a juice"
    }
   ],
   "sentence": {
@@ -2748,16 +2748,16 @@
   ],
   "related": [
    {
-    "da": "et sofabord",
-    "en": "a coffee table"
-   },
-   {
     "da": "en lænestol",
     "en": "an armchair"
    },
    {
     "da": "en sofapude",
     "en": "a sofa cushion"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
    }
   ],
   "sentence": {
@@ -2830,12 +2830,12 @@
     "en": "a star"
    },
    {
-    "da": "solskin",
-    "en": "sunshine"
+    "da": "en solopgang",
+    "en": "a sunrise"
    },
    {
-    "da": "en solbrille",
-    "en": "sunglasses"
+    "da": "en solnedgang",
+    "en": "a sunset"
    }
   ],
   "sentence": {
@@ -2904,16 +2904,16 @@
   ],
   "related": [
    {
-    "da": "en ferie",
-    "en": "a holiday"
-   },
-   {
-    "da": "sommer",
-    "en": "summer"
-   },
-   {
     "da": "en vinterferie",
     "en": "a winter holiday"
+   },
+   {
+    "da": "en efterårsferie",
+    "en": "an autumn holiday"
+   },
+   {
+    "da": "en juleferie",
+    "en": "a Christmas holiday"
    }
   ],
   "sentence": {
@@ -2943,16 +2943,20 @@
   ],
   "related": [
    {
-    "da": "en sauce",
-    "en": "a sauce"
-   },
-   {
     "da": "en ketchup",
     "en": "ketchup"
    },
    {
     "da": "en sennep",
     "en": "mustard"
+   },
+   {
+    "da": "en remoulade",
+    "en": "remoulade"
+   },
+   {
+    "da": "en dressing",
+    "en": "a dressing"
    }
   ],
   "sentence": {
@@ -2982,16 +2986,20 @@
   ],
   "related": [
    {
-    "da": "et måltid",
-    "en": "a meal"
-   },
-   {
     "da": "en fællesspisning",
     "en": "a shared community dinner"
    },
    {
     "da": "at spise",
     "en": "to eat"
+   },
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
    }
   ],
   "sentence": {
@@ -3025,12 +3033,12 @@
     "en": "a train station"
    },
    {
-    "da": "en togstation",
-    "en": "a train station"
-   },
-   {
     "da": "et stoppested",
     "en": "a stop"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
    }
   ],
   "sentence": {
@@ -3060,16 +3068,16 @@
   ],
   "related": [
    {
-    "da": "at stege",
-    "en": "to fry"
-   },
-   {
     "da": "en gryde",
     "en": "a pot"
    },
    {
     "da": "et komfur",
     "en": "a stove"
+   },
+   {
+    "da": "en kasserolle",
+    "en": "a saucepan"
    }
   ],
   "sentence": {
@@ -3306,12 +3314,12 @@
     "en": "bad weather"
    },
    {
-    "da": "en orkan",
-    "en": "a hurricane"
+    "da": "et tordenvejr",
+    "en": "a thunderstorm"
    },
    {
-    "da": "en vind",
-    "en": "a wind"
+    "da": "en snestorm",
+    "en": "a snowstorm"
    }
   ],
   "sentence": {
@@ -3458,10 +3466,6 @@
   ],
   "related": [
    {
-    "da": "stor",
-    "en": "big"
-   },
-   {
     "da": "lille",
     "en": "small"
    },
@@ -3472,6 +3476,10 @@
    {
     "da": "en skostørrelse",
     "en": "a shoe size"
+   },
+   {
+    "da": "et mål",
+    "en": "a measurement"
    }
   ],
   "sentence": {
@@ -3618,16 +3626,16 @@
   ],
   "related": [
    {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
     "da": "rask",
     "en": "well / healthy"
    },
    {
     "da": "et sygehus",
     "en": "a hospital"
+   },
+   {
+    "da": "en forkølelse",
+    "en": "a cold"
    }
   ],
   "sentence": {
@@ -3696,16 +3704,16 @@
   ],
   "related": [
    {
-    "da": "et hav",
-    "en": "a sea"
-   },
-   {
     "da": "en dam",
     "en": "a pond"
    },
    {
     "da": "en flod",
     "en": "a river"
+   },
+   {
+    "da": "en å",
+    "en": "a stream"
    }
   ],
   "sentence": {
@@ -3821,12 +3829,8 @@
     "en": "an hour"
    },
    {
-    "da": "et øjeblik",
-    "en": "a moment"
-   },
-   {
-    "da": "anden",
-    "en": "second (number two)"
+    "da": "et kvarter",
+    "en": "a quarter of an hour"
    }
   ],
   "sentence": {
@@ -3856,16 +3860,16 @@
   ],
   "related": [
    {
-    "da": "et køleskab",
-    "en": "a refrigerator"
-   },
-   {
     "da": "et klædeskab",
     "en": "a wardrobe"
    },
    {
     "da": "en hylde",
     "en": "a shelf"
+   },
+   {
+    "da": "en skuffe",
+    "en": "a drawer"
    }
   ],
   "sentence": {
@@ -3895,16 +3899,16 @@
   ],
   "related": [
    {
-    "da": "en båd",
-    "en": "a boat"
-   },
-   {
     "da": "en færge",
     "en": "a ferry"
    },
    {
     "da": "en sejlbåd",
     "en": "a sailboat"
+   },
+   {
+    "da": "en havn",
+    "en": "a harbor"
    }
   ],
   "sentence": {
@@ -3934,16 +3938,16 @@
   ],
   "related": [
    {
-    "da": "et overskæg",
-    "en": "a moustache"
-   },
-   {
     "da": "et hår",
     "en": "a hair"
    },
    {
     "da": "at barbere",
     "en": "to shave"
+   },
+   {
+    "da": "en barbermaskine",
+    "en": "a razor"
    }
   ],
   "sentence": {
@@ -3973,16 +3977,16 @@
   ],
   "related": [
    {
-    "da": "et værelse",
-    "en": "a room"
-   },
-   {
-    "da": "at sove",
-    "en": "to sleep"
-   },
-   {
     "da": "et badeværelse",
     "en": "a bathroom"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
    }
   ],
   "sentence": {
@@ -4051,16 +4055,16 @@
   ],
   "related": [
    {
-    "da": "at spille",
-    "en": "to play"
-   },
-   {
     "da": "et brætspil",
     "en": "a board game"
    },
    {
     "da": "en leg",
     "en": "a (children's) game"
+   },
+   {
+    "da": "et kortspil",
+    "en": "a card game"
    }
   ],
   "sentence": {
@@ -4094,12 +4098,12 @@
     "en": "Danish"
    },
    {
-    "da": "engelsk",
-    "en": "English"
-   },
-   {
     "da": "et fremmedsprog",
     "en": "a foreign language"
+   },
+   {
+    "da": "et modersmål",
+    "en": "a mother tongue"
    }
   ],
   "sentence": {
@@ -4207,16 +4211,16 @@
   ],
   "related": [
    {
-    "da": "et busstoppested",
-    "en": "a bus stop"
+    "da": "en station",
+    "en": "a station"
    },
    {
-    "da": "et sted",
-    "en": "a place"
+    "da": "en perron",
+    "en": "a platform"
    },
    {
-    "da": "at stoppe",
-    "en": "to stop"
+    "da": "en rutetabel",
+    "en": "a timetable"
    }
   ],
   "sentence": {
@@ -4285,16 +4289,16 @@
   ],
   "related": [
    {
-    "da": "et marked",
-    "en": "a market"
-   },
-   {
     "da": "en butik",
     "en": "a shop"
    },
    {
     "da": "et indkøbscenter",
     "en": "a shopping centre"
+   },
+   {
+    "da": "et bageri",
+    "en": "a bakery"
    }
   ],
   "sentence": {
@@ -4367,12 +4371,12 @@
     "en": "a piglet / pig"
    },
    {
-    "da": "svinekød",
-    "en": "pork"
-   },
-   {
     "da": "en ko",
     "en": "a cow"
+   },
+   {
+    "da": "et får",
+    "en": "a sheep"
    }
   ],
   "sentence": {
@@ -4402,16 +4406,16 @@
   ],
   "related": [
    {
-    "da": "et hospital",
-    "en": "a hospital"
-   },
-   {
-    "da": "syg",
-    "en": "sick"
-   },
-   {
     "da": "en sygeplejerske",
     "en": "a nurse"
+   },
+   {
+    "da": "en skadestue",
+    "en": "an emergency room"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
    }
   ],
   "sentence": {
@@ -4511,16 +4515,16 @@
   ],
   "related": [
    {
-    "da": "salt",
-    "en": "salt, salty"
-   },
-   {
     "da": "usaltet",
     "en": "unsalted"
    },
    {
-    "da": "at salte",
-    "en": "to salt"
+    "da": "røget",
+    "en": "smoked"
+   },
+   {
+    "da": "syltet",
+    "en": "pickled"
    }
   ],
   "sentence": {
@@ -4581,16 +4585,16 @@
   ],
   "related": [
    {
-    "da": "alene",
-    "en": "alone"
-   },
-   {
     "da": "fælles",
     "en": "shared / common"
    },
    {
     "da": "hver for sig",
     "en": "each on their own"
+   },
+   {
+    "da": "samtidig",
+    "en": "at the same time"
    }
   ],
   "sentence": {
@@ -4620,10 +4624,6 @@
   ],
   "related": [
    {
-    "da": "en sandal",
-    "en": "a sandal"
-   },
-   {
     "da": "klip-klapper",
     "en": "flip-flops"
    },
@@ -4634,6 +4634,10 @@
    {
     "da": "støvler",
     "en": "boots"
+   },
+   {
+    "da": "tøfler",
+    "en": "slippers"
    }
   ],
   "sentence": {
@@ -4663,16 +4667,16 @@
     "en": "five"
    },
    {
-    "da": "syv",
-    "en": "seven"
-   },
-   {
     "da": "seksten",
     "en": "sixteen"
    },
    {
     "da": "sjette",
     "en": "sixth"
+   },
+   {
+    "da": "fire",
+    "en": "four"
    }
   ],
   "sentence": {
@@ -4706,8 +4710,8 @@
     "en": "seventeen"
    },
    {
-    "da": "seks",
-    "en": "six"
+    "da": "sekstende",
+    "en": "sixteenth"
    }
   ],
   "sentence": {
@@ -4838,16 +4842,16 @@
   ],
   "related": [
    {
-    "da": "sent",
-    "en": "late"
-   },
-   {
     "da": "tidligere",
     "en": "earlier"
    },
    {
     "da": "bagefter",
     "en": "afterwards"
+   },
+   {
+    "da": "snart",
+    "en": "soon"
    }
   ],
   "sentence": {
@@ -4908,16 +4912,12 @@
     "en": "early"
    },
    {
-    "da": "senere",
-    "en": "later"
+    "da": "for tidligt",
+    "en": "too early"
    },
    {
-    "da": "forsinket",
-    "en": "delayed / late"
-   },
-   {
-    "da": "for sent",
-    "en": "too late"
+    "da": "til tiden",
+    "en": "on time"
    }
   ],
   "sentence": {
@@ -4978,16 +4978,16 @@
   ],
   "related": [
    {
-    "da": "vi ses",
-    "en": "see you"
-   },
-   {
-    "da": "ses i aften",
-    "en": "see you tonight"
-   },
-   {
     "da": "farvel",
     "en": "goodbye"
+   },
+   {
+    "da": "på gensyn",
+    "en": "see you again"
+   },
+   {
+    "da": "hej hej",
+    "en": "bye"
    }
   ],
   "sentence": {
@@ -5122,8 +5122,8 @@
     "en": "first"
    },
    {
-    "da": "sidste",
-    "en": "last (the final one)"
+    "da": "endelig",
+    "en": "finally"
    },
    {
     "da": "til sidst",
@@ -5161,8 +5161,8 @@
     "en": "next"
    },
    {
-    "da": "sidst",
-    "en": "last (at the end)"
+    "da": "forrige",
+    "en": "previous"
    },
    {
     "da": "til sidst",
@@ -5192,10 +5192,6 @@
   ],
   "related": [
    {
-    "da": "mig",
-    "en": "myself / me"
-   },
-   {
     "da": "dig",
     "en": "yourself / you"
    },
@@ -5206,6 +5202,10 @@
    {
     "da": "hinanden",
     "en": "each other"
+   },
+   {
+    "da": "selv",
+    "en": "self (for emphasis)"
    }
   ],
   "sentence": {
@@ -5274,8 +5274,8 @@
     "en": "one's own (many)"
    },
    {
-    "da": "hans",
-    "en": "his"
+    "da": "hendes",
+    "en": "her / hers"
    },
    {
     "da": "sig",
@@ -5305,20 +5305,20 @@
   ],
   "related": [
    {
-    "da": "sin",
-    "en": "one's own (en-word)"
-   },
-   {
-    "da": "sit",
-    "en": "one's own (et-word)"
-   },
-   {
     "da": "deres",
     "en": "their / theirs"
    },
    {
-    "da": "hans",
-    "en": "his"
+    "da": "mine",
+    "en": "my (many)"
+   },
+   {
+    "da": "dine",
+    "en": "your (many)"
+   },
+   {
+    "da": "hendes",
+    "en": "her / hers"
    }
   ],
   "sentence": {
@@ -5344,8 +5344,8 @@
   ],
   "related": [
    {
-    "da": "sin",
-    "en": "one's own (en-word)"
+    "da": "mit",
+    "en": "my (et-word)"
    },
    {
     "da": "sine",
@@ -5383,16 +5383,16 @@
   ],
   "related": [
    {
-    "da": "seks",
-    "en": "six"
-   },
-   {
     "da": "femte",
     "en": "fifth"
    },
    {
     "da": "syvende",
     "en": "seventh"
+   },
+   {
+    "da": "fjerde",
+    "en": "fourth"
    }
   ],
   "sentence": {
@@ -5457,10 +5457,6 @@
   ],
   "related": [
    {
-    "da": "Norden",
-    "en": "the Nordic countries"
-   },
-   {
     "da": "Danmark",
     "en": "Denmark"
    },
@@ -5471,6 +5467,10 @@
    {
     "da": "Norge",
     "en": "Norway"
+   },
+   {
+    "da": "Grønland",
+    "en": "Greenland"
    }
   ],
   "sentence": {
@@ -5531,16 +5531,16 @@
   ],
   "related": [
    {
-    "da": "overskyet",
-    "en": "overcast"
-   },
-   {
     "da": "solrig",
     "en": "sunny"
    },
    {
-    "da": "en sky",
-    "en": "a cloud"
+    "da": "klar",
+    "en": "clear"
+   },
+   {
+    "da": "tåget",
+    "en": "foggy"
    }
   ],
   "sentence": {
@@ -5601,16 +5601,16 @@
   ],
   "related": [
    {
-    "da": "en skål",
-    "en": "a bowl"
-   },
-   {
     "da": "velbekomme",
     "en": "enjoy your meal"
    },
    {
     "da": "en tallerken",
     "en": "a plate"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
    }
   ],
   "sentence": {
@@ -5749,12 +5749,12 @@
     "en": "wide"
    },
    {
-    "da": "tynd",
-    "en": "thin"
-   },
-   {
     "da": "trang",
     "en": "cramped"
+   },
+   {
+    "da": "slank",
+    "en": "slim"
    }
   ],
   "sentence": {
@@ -5780,8 +5780,8 @@
   ],
   "related": [
    {
-    "da": "pæn",
-    "en": "nice-looking"
+    "da": "køn",
+    "en": "pretty"
    },
    {
     "da": "grim",
@@ -5815,16 +5815,16 @@
   ],
   "related": [
    {
-    "da": "at smøre",
-    "en": "to spread"
-   },
-   {
-    "da": "smørrebrød",
-    "en": "open sandwich"
-   },
-   {
     "da": "margarine",
     "en": "margarine"
+   },
+   {
+    "da": "ost",
+    "en": "cheese"
+   },
+   {
+    "da": "marmelade",
+    "en": "jam"
    }
   ],
   "sentence": {
@@ -5893,12 +5893,12 @@
     "en": "clean"
    },
    {
-    "da": "snavs",
-    "en": "dirt"
-   },
-   {
     "da": "beskidt",
     "en": "filthy"
+   },
+   {
+    "da": "plettet",
+    "en": "stained"
    }
   ],
   "sentence": {
@@ -5924,16 +5924,16 @@
   ],
   "related": [
    {
-    "da": "at sne",
-    "en": "to snow"
+    "da": "et snefnug",
+    "en": "a snowflake"
    },
    {
-    "da": "en snemand",
-    "en": "a snowman"
+    "da": "slud",
+    "en": "sleet"
    },
    {
-    "da": "en snebold",
-    "en": "a snowball"
+    "da": "regn",
+    "en": "rain"
    }
   ],
   "sentence": {
@@ -5967,12 +5967,12 @@
     "en": "stockings, tights"
    },
    {
-    "da": "uldsokker",
-    "en": "wool socks"
-   },
-   {
     "da": "handsker",
     "en": "gloves"
+   },
+   {
+    "da": "vanter",
+    "en": "mittens"
    }
   ],
   "sentence": {
@@ -5998,16 +5998,20 @@
   ],
   "related": [
    {
-    "da": "en sol",
-    "en": "a sun"
-   },
-   {
-    "da": "briller",
-    "en": "glasses"
-   },
-   {
     "da": "solcreme",
     "en": "sun cream"
+   },
+   {
+    "da": "solhat",
+    "en": "sun hat"
+   },
+   {
+    "da": "solbrændt",
+    "en": "sunburnt"
+   },
+   {
+    "da": "solskin",
+    "en": "sunshine"
    }
   ],
   "sentence": {
@@ -6033,16 +6037,16 @@
   ],
   "related": [
    {
-    "da": "en sol",
-    "en": "a sun"
-   },
-   {
-    "da": "en creme",
-    "en": "a cream"
-   },
-   {
     "da": "solbrændt",
     "en": "sunburnt"
+   },
+   {
+    "da": "solbriller",
+    "en": "sunglasses"
+   },
+   {
+    "da": "solhat",
+    "en": "sun hat"
    }
   ],
   "sentence": {
@@ -6138,20 +6142,20 @@
   ],
   "related": [
    {
-    "da": "en sol",
-    "en": "a sun"
-   },
-   {
     "da": "solrig",
     "en": "sunny"
    },
    {
-    "da": "at skinne",
-    "en": "to shine"
-   },
-   {
     "da": "solskinsvejr",
     "en": "sunny weather"
+   },
+   {
+    "da": "solopgang",
+    "en": "sunrise"
+   },
+   {
+    "da": "solnedgang",
+    "en": "sunset"
    }
   ],
   "sentence": {
@@ -6181,8 +6185,8 @@
     "en": "a sun"
    },
    {
-    "da": "solskin",
-    "en": "sunshine"
+    "da": "solrig",
+    "en": "sunny"
    },
    {
     "da": "regnvejr",
@@ -6368,16 +6372,16 @@
   ],
   "related": [
    {
-    "da": "godnat",
-    "en": "good night"
-   },
-   {
-    "da": "at sove",
-    "en": "to sleep"
-   },
-   {
     "da": "godmorgen",
     "en": "good morning"
+   },
+   {
+    "da": "godaften",
+    "en": "good evening"
+   },
+   {
+    "da": "en seng",
+    "en": "a bed"
    }
   ],
   "sentence": {
@@ -6539,8 +6543,8 @@
   ],
   "related": [
    {
-    "da": "at dyrke",
-    "en": "to do (a sport)"
+    "da": "idræt",
+    "en": "sports, athletics"
    },
    {
     "da": "motion",
@@ -6574,8 +6578,8 @@
   ],
   "related": [
    {
-    "da": "interessant",
-    "en": "interesting"
+    "da": "spændt",
+    "en": "excited, eager"
    },
    {
     "da": "kedelig",
@@ -6609,10 +6613,6 @@
   ],
   "related": [
    {
-    "da": "endnu",
-    "en": "yet / still"
-   },
-   {
     "da": "stadigvæk",
     "en": "still"
    },
@@ -6623,6 +6623,10 @@
    {
     "da": "ikke længere",
     "en": "no longer"
+   },
+   {
+    "da": "fortsat",
+    "en": "still, continuing"
    }
   ],
   "sentence": {
@@ -6648,20 +6652,16 @@
   ],
   "related": [
    {
-    "da": "stadig",
-    "en": "still"
-   },
-   {
-    "da": "endnu",
-    "en": "yet / still"
-   },
-   {
     "da": "allerede",
     "en": "already"
    },
    {
     "da": "ikke længere",
     "en": "no longer"
+   },
+   {
+    "da": "fortsat",
+    "en": "still, continuing"
    }
   ],
   "sentence": {
@@ -6726,10 +6726,6 @@
   ],
   "related": [
    {
-    "da": "rolig",
-    "en": "calm"
-   },
-   {
     "da": "høj",
     "en": "loud"
    },
@@ -6738,8 +6734,12 @@
     "en": "silence"
    },
    {
-    "da": "at stille",
-    "en": "to put, to place"
+    "da": "tavs",
+    "en": "silent"
+   },
+   {
+    "da": "støjende",
+    "en": "noisy"
    }
   ],
   "sentence": {
@@ -6921,16 +6921,16 @@
     "en": "big"
    },
    {
-    "da": "større",
-    "en": "bigger"
-   },
-   {
     "da": "mindst",
     "en": "smallest"
    },
    {
     "da": "lille",
     "en": "small"
+   },
+   {
+    "da": "mindre",
+    "en": "smaller"
    }
   ],
   "sentence": {
@@ -7069,8 +7069,8 @@
     "en": "unhealthy"
    },
    {
-    "da": "rask",
-    "en": "well / healthy"
+    "da": "sundhed",
+    "en": "health"
    },
    {
     "da": "syg",
@@ -7104,16 +7104,16 @@
   ],
   "related": [
    {
-    "da": "helbred",
-    "en": "health (of a person)"
-   },
-   {
     "da": "sund",
     "en": "healthy"
    },
    {
     "da": "et sundhedsvæsen",
     "en": "a healthcare system"
+   },
+   {
+    "da": "sygdom",
+    "en": "illness"
    }
   ],
   "sentence": {
@@ -7147,12 +7147,12 @@
     "en": "perfect"
    },
    {
-    "da": "god",
-    "en": "good"
-   },
-   {
     "da": "fin",
     "en": "nice"
+   },
+   {
+    "da": "dejlig",
+    "en": "lovely"
    }
   ],
   "sentence": {
@@ -7295,12 +7295,16 @@
     "en": "beef"
    },
    {
-    "da": "kød",
-    "en": "meat"
+    "da": "lammekød",
+    "en": "lamb"
    },
    {
-    "da": "et svin",
-    "en": "a pig"
+    "da": "skinke",
+    "en": "ham"
+   },
+   {
+    "da": "kylling",
+    "en": "chicken"
    }
   ],
   "sentence": {
@@ -7361,16 +7365,16 @@
   ],
   "related": [
    {
-    "da": "at svømme",
-    "en": "to swim"
-   },
-   {
     "da": "en svømmehal",
     "en": "a swimming pool (indoor)"
    },
    {
     "da": "en svømmer",
     "en": "a swimmer"
+   },
+   {
+    "da": "badetøj",
+    "en": "swimwear"
    }
   ],
   "sentence": {
@@ -7396,16 +7400,16 @@
   ],
   "related": [
    {
-    "da": "nord",
-    "en": "north"
-   },
-   {
     "da": "øst",
     "en": "east"
    },
    {
     "da": "vest",
     "en": "west"
+   },
+   {
+    "da": "sydlig",
+    "en": "southern"
    }
   ],
   "sentence": {
@@ -7435,12 +7439,16 @@
     "en": "North America"
    },
    {
-    "da": "syd",
-    "en": "south"
+    "da": "Mellemamerika",
+    "en": "Central America"
    },
    {
-    "da": "Amerika",
-    "en": "America"
+    "da": "Afrika",
+    "en": "Africa"
+   },
+   {
+    "da": "Asien",
+    "en": "Asia"
    }
   ],
   "sentence": {
@@ -7544,8 +7552,8 @@
     "en": "eighteen"
    },
    {
-    "da": "syv",
-    "en": "seven"
+    "da": "nitten",
+    "en": "nineteen"
    }
   ],
   "sentence": {
@@ -7579,8 +7587,8 @@
     "en": "eight"
    },
    {
-    "da": "sytten",
-    "en": "seventeen"
+    "da": "ni",
+    "en": "nine"
    },
    {
     "da": "syvende",
@@ -7610,16 +7618,16 @@
   ],
   "related": [
    {
-    "da": "syv",
-    "en": "seven"
-   },
-   {
     "da": "sjette",
     "en": "sixth"
    },
    {
     "da": "ottende",
     "en": "eighth"
+   },
+   {
+    "da": "syttende",
+    "en": "seventeenth"
    }
   ],
   "sentence": {
@@ -7653,12 +7661,8 @@
     "en": "therefore"
    },
    {
-    "da": "meget",
-    "en": "very / much"
-   },
-   {
-    "da": "at se",
-    "en": "to see"
+    "da": "sådan",
+    "en": "like this"
    }
   ],
   "sentence": {
@@ -7684,16 +7688,16 @@
   ],
   "related": [
    {
-    "da": "indtil",
-    "en": "until"
-   },
-   {
     "da": "mens",
     "en": "while"
    },
    {
     "da": "så snart",
     "en": "as soon as"
+   },
+   {
+    "da": "hvor længe",
+    "en": "how long"
    }
   ],
   "sentence": {
@@ -7754,8 +7758,8 @@
   ],
   "related": [
    {
-    "da": "opvaskemiddel",
-    "en": "washing-up liquid"
+    "da": "håndsæbe",
+    "en": "hand soap"
    },
    {
     "da": "en sæbeboble",

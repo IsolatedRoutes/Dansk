@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "et fly",
-    "en": "a plane"
-   },
-   {
     "da": "en flyvemaskine",
     "en": "an aeroplane"
    },
    {
     "da": "en flyvetur",
     "en": "a flight"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
    }
   ],
   "sentence": {
@@ -181,12 +181,12 @@
     "en": "a negotiation"
    },
    {
-    "da": "en forhandler",
-    "en": "a dealer, a retailer"
-   },
-   {
     "da": "at aftale",
     "en": "to agree"
+   },
+   {
+    "da": "et kompromis",
+    "en": "a compromise"
    }
   ],
   "sentence": {
@@ -255,10 +255,6 @@
   ],
   "related": [
    {
-    "da": "at vide",
-    "en": "to know (a fact)"
-   },
-   {
     "da": "en forståelse",
     "en": "an understanding"
    },
@@ -269,6 +265,10 @@
    {
     "da": "forståelig",
     "en": "understandable"
+   },
+   {
+    "da": "at fatte",
+    "en": "to grasp"
    }
   ],
   "sentence": {
@@ -298,16 +298,16 @@
   ],
   "related": [
    {
-    "da": "at sige",
-    "en": "to say"
-   },
-   {
     "da": "en fortælling",
     "en": "a story, a tale"
    },
    {
-    "da": "en fortæller",
-    "en": "a narrator"
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "at berette",
+    "en": "to report, to recount"
    }
   ],
   "sentence": {
@@ -341,12 +341,12 @@
     "en": "cold"
    },
    {
-    "da": "en fryser",
-    "en": "a freezer"
-   },
-   {
     "da": "frossen",
     "en": "frozen"
+   },
+   {
+    "da": "at tø",
+    "en": "to thaw"
    }
   ],
   "sentence": {
@@ -376,16 +376,16 @@
   ],
   "related": [
    {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
-    "da": "at have fødselsdag",
-    "en": "to have a birthday"
-   },
-   {
     "da": "en alder",
     "en": "an age"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
+   },
+   {
+    "da": "gammel",
+    "en": "old"
    }
   ],
   "sentence": {
@@ -423,8 +423,8 @@
     "en": "to receive"
    },
    {
-    "da": "at hente",
-    "en": "to fetch"
+    "da": "at skaffe",
+    "en": "to obtain"
    }
   ],
   "sentence": {
@@ -618,20 +618,20 @@
   ],
   "related": [
    {
-    "da": "en morfar",
-    "en": "a grandfather (mother's father)"
-   },
-   {
     "da": "en farmor",
     "en": "a grandmother (father's mother)"
    },
    {
-    "da": "en far",
-    "en": "a father"
-   },
-   {
     "da": "bedsteforældre",
     "en": "grandparents"
+   },
+   {
+    "da": "en bedstefar",
+    "en": "a grandfather"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
    }
   ],
   "sentence": {
@@ -669,12 +669,12 @@
     "en": "a grandfather (father's father)"
    },
    {
-    "da": "en far",
-    "en": "a father"
-   },
-   {
     "da": "bedsteforældre",
     "en": "grandparents"
+   },
+   {
+    "da": "en bedstemor",
+    "en": "a grandmother"
    }
   ],
   "sentence": {
@@ -915,12 +915,12 @@
     "en": "a toe"
    },
    {
-    "da": "en tommelfinger",
-    "en": "a thumb"
+    "da": "en lillefinger",
+    "en": "a little finger"
    },
    {
-    "da": "en pegefinger",
-    "en": "an index finger"
+    "da": "en negl",
+    "en": "a nail"
    }
   ],
   "sentence": {
@@ -989,16 +989,16 @@
   ],
   "related": [
    {
-    "da": "et glas",
-    "en": "a glass"
-   },
-   {
     "da": "en dåse",
     "en": "a can"
    },
    {
     "da": "en vandflaske",
     "en": "a water bottle"
+   },
+   {
+    "da": "en kop",
+    "en": "a cup"
    }
   ],
   "sentence": {
@@ -1028,16 +1028,16 @@
   ],
   "related": [
    {
-    "da": "en billet",
-    "en": "a ticket"
-   },
-   {
-    "da": "et fly",
-    "en": "a plane"
-   },
-   {
     "da": "en returbillet",
     "en": "a return ticket"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en togbillet",
+    "en": "a train ticket"
    }
   ],
   "sentence": {
@@ -1114,12 +1114,12 @@
     "en": "a descendant"
    },
    {
-    "da": "en oldefar",
-    "en": "a great-grandfather"
-   },
-   {
     "da": "en slægt",
     "en": "a family line"
+   },
+   {
+    "da": "en slægtning",
+    "en": "a relative"
    }
   ],
   "sentence": {
@@ -1149,16 +1149,16 @@
   ],
   "related": [
    {
-    "da": "forkølet",
-    "en": "having a cold"
-   },
-   {
-    "da": "kold",
-    "en": "cold (temperature)"
-   },
-   {
     "da": "influenza",
     "en": "the flu"
+   },
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "en feber",
+    "en": "a fever"
    }
   ],
   "sentence": {
@@ -1188,16 +1188,16 @@
   ],
   "related": [
    {
-    "da": "at forny",
-    "en": "to renew"
-   },
-   {
     "da": "ny",
     "en": "new"
    },
    {
     "da": "en forlængelse",
     "en": "an extension"
+   },
+   {
+    "da": "en nyhed",
+    "en": "a novelty"
    }
   ],
   "sentence": {
@@ -1266,16 +1266,16 @@
   ],
   "related": [
    {
-    "da": "forsinket",
-    "en": "delayed, late"
-   },
-   {
     "da": "at forsinke",
     "en": "to delay"
    },
    {
     "da": "en aflysning",
     "en": "a cancellation"
+   },
+   {
+    "da": "til tiden",
+    "en": "on time"
    }
   ],
   "sentence": {
@@ -1305,16 +1305,16 @@
   ],
   "related": [
    {
-    "da": "en jakke",
-    "en": "a jacket"
-   },
-   {
     "da": "en vinterfrakke",
     "en": "a winter coat"
    },
    {
     "da": "en regnfrakke",
     "en": "a raincoat"
+   },
+   {
+    "da": "en trøje",
+    "en": "a sweater"
    }
   ],
   "sentence": {
@@ -1383,16 +1383,16 @@
   ],
   "related": [
    {
-    "da": "en barber",
-    "en": "a barber"
-   },
-   {
     "da": "en frisørsalon",
     "en": "a hair salon"
    },
    {
     "da": "at klippe",
     "en": "to cut"
+   },
+   {
+    "da": "en klipning",
+    "en": "a haircut"
    }
   ],
   "sentence": {
@@ -1461,16 +1461,16 @@
   ],
   "related": [
    {
-    "da": "en and",
-    "en": "a duck"
-   },
-   {
     "da": "en svane",
     "en": "a swan"
    },
    {
     "da": "et fuglehus",
     "en": "a birdhouse"
+   },
+   {
+    "da": "en due",
+    "en": "a pigeon"
    }
   ],
   "sentence": {
@@ -1500,10 +1500,6 @@
   ],
   "related": [
    {
-    "da": "en kusine",
-    "en": "a female cousin"
-   },
-   {
     "da": "en onkel",
     "en": "an uncle"
    },
@@ -1514,6 +1510,10 @@
    {
     "da": "en slægtning",
     "en": "a relative"
+   },
+   {
+    "da": "en nevø",
+    "en": "a nephew"
    }
   ],
   "sentence": {
@@ -1582,16 +1582,16 @@
   ],
   "related": [
    {
-    "da": "en fest",
-    "en": "a party"
-   },
-   {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
     "da": "en fødselsdagsgave",
     "en": "a birthday present"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "en invitation",
+    "en": "an invitation"
    }
   ],
   "sentence": {
@@ -1621,16 +1621,16 @@
   ],
   "related": [
    {
-    "da": "en gave",
-    "en": "a gift"
-   },
-   {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
     "da": "at give",
     "en": "to give"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "en fødselsdagsfest",
+    "en": "a birthday party"
    }
   ],
   "sentence": {
@@ -1660,16 +1660,20 @@
   ],
   "related": [
    {
-    "da": "en fødselsdag",
-    "en": "a birthday"
-   },
-   {
     "da": "en dato",
     "en": "a date"
    },
    {
     "da": "et fødested",
     "en": "a birthplace"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
+   },
+   {
+    "da": "et fødselsår",
+    "en": "a birth year"
    }
   ],
   "sentence": {
@@ -1703,12 +1707,12 @@
     "en": "to fly"
    },
    {
-    "da": "en flyvemaskine",
-    "en": "an airplane"
-   },
-   {
     "da": "en lufthavn",
     "en": "an airport"
+   },
+   {
+    "da": "en flyvning",
+    "en": "a flight"
    }
   ],
   "sentence": {
@@ -1746,8 +1750,8 @@
     "en": "a middle name"
    },
    {
-    "da": "et navn",
-    "en": "a name"
+    "da": "et kaldenavn",
+    "en": "a nickname"
    }
   ],
   "sentence": {
@@ -1816,12 +1820,12 @@
     "en": "a lamb"
    },
    {
-    "da": "at få",
-    "en": "to get"
-   },
-   {
     "da": "en ko",
     "en": "a cow"
+   },
+   {
+    "da": "en ged",
+    "en": "a goat"
    }
   ],
   "sentence": {
@@ -1855,12 +1859,12 @@
     "en": "a date of birth"
    },
    {
-    "da": "et sted",
-    "en": "a place"
+    "da": "en fødselsdag",
+    "en": "a birthday"
    },
    {
-    "da": "at føde",
-    "en": "to give birth"
+    "da": "et hjemland",
+    "en": "a home country"
    }
   ],
   "sentence": {
@@ -1933,8 +1937,8 @@
     "en": "lovely"
    },
    {
-    "da": "god",
-    "en": "good"
+    "da": "vidunderlig",
+    "en": "wonderful"
    },
    {
     "da": "perfekt",
@@ -1964,16 +1968,16 @@
   ],
   "related": [
    {
-    "da": "en fare",
-    "en": "a danger"
-   },
-   {
     "da": "sikker",
     "en": "safe"
    },
    {
-    "da": "livsfarlig",
-    "en": "life-threatening"
+    "da": "ufarlig",
+    "en": "harmless"
+   },
+   {
+    "da": "risikabel",
+    "en": "risky"
    }
   ],
   "sentence": {
@@ -1999,20 +2003,20 @@
   ],
   "related": [
    {
-    "da": "hej hej",
-    "en": "bye bye"
-   },
-   {
-    "da": "vi ses",
-    "en": "see you"
-   },
-   {
     "da": "på gensyn",
     "en": "until we meet again"
    },
    {
-    "da": "hej",
-    "en": "hi"
+    "da": "hav det godt",
+    "en": "take care"
+   },
+   {
+    "da": "vi snakkes ved",
+    "en": "we'll talk later"
+   },
+   {
+    "da": "godnat",
+    "en": "good night"
    }
   ],
   "sentence": {
@@ -2042,8 +2046,8 @@
     "en": "rich"
    },
    {
-    "da": "stakkels",
-    "en": "poor (unlucky)"
+    "da": "velhavende",
+    "en": "wealthy"
    },
    {
     "da": "fattigdom",
@@ -2147,20 +2151,16 @@
   ],
   "related": [
    {
-    "da": "femogtyve",
-    "en": "twenty-five"
+    "da": "enogtredive",
+    "en": "thirty-one"
    },
    {
-    "da": "tredive",
-    "en": "thirty"
+    "da": "fireogtredive",
+    "en": "thirty-four"
    },
    {
-    "da": "femogfyrre",
-    "en": "forty-five"
-   },
-   {
-    "da": "fem",
-    "en": "five"
+    "da": "seksogtredive",
+    "en": "thirty-six"
    }
   ],
   "sentence": {
@@ -2198,8 +2198,8 @@
     "en": "first"
    },
    {
-    "da": "fem",
-    "en": "five"
+    "da": "femten",
+    "en": "fifteen"
    }
   ],
   "sentence": {
@@ -2342,8 +2342,8 @@
   ],
   "related": [
    {
-    "da": "Finland",
-    "en": "Finland"
+    "da": "dansk",
+    "en": "Danish"
    },
    {
     "da": "en finne",
@@ -2428,8 +2428,8 @@
     "en": "five"
    },
    {
-    "da": "fyrre",
-    "en": "forty"
+    "da": "fjorten",
+    "en": "fourteen"
    },
    {
     "da": "fjerde",
@@ -2459,20 +2459,20 @@
   ],
   "related": [
    {
-    "da": "tyve",
-    "en": "twenty"
+    "da": "enogtyve",
+    "en": "twenty-one"
+   },
+   {
+    "da": "toogtyve",
+    "en": "twenty-two"
    },
    {
     "da": "treogtyve",
     "en": "twenty-three"
    },
    {
-    "da": "femogtyve",
-    "en": "twenty-five"
-   },
-   {
-    "da": "fire",
-    "en": "four"
+    "da": "fireogtredive",
+    "en": "thirty-four"
    }
   ],
   "sentence": {
@@ -2545,8 +2545,8 @@
     "en": "fifth"
    },
    {
-    "da": "fire",
-    "en": "four"
+    "da": "anden",
+    "en": "second"
    },
    {
     "da": "første",
@@ -2615,8 +2615,8 @@
   ],
   "related": [
    {
-    "da": "mere",
-    "en": "more (amount)"
+    "da": "færre",
+    "en": "fewer"
    },
    {
     "da": "mange",
@@ -2689,8 +2689,8 @@
   ],
   "related": [
    {
-    "da": "piskefløde",
-    "en": "whipping cream"
+    "da": "flødeskum",
+    "en": "whipped cream"
    },
    {
     "da": "mælk",
@@ -2763,20 +2763,20 @@
   ],
   "related": [
    {
-    "da": "til",
-    "en": "to / for"
-   },
-   {
     "da": "fordi",
     "en": "because"
    },
    {
-    "da": "siden",
-    "en": "since / ago"
-   },
-   {
     "da": "før",
     "en": "before"
+   },
+   {
+    "da": "også",
+    "en": "also / too"
+   },
+   {
+    "da": "forbi",
+    "en": "past"
    }
   ],
   "sentence": {
@@ -2802,12 +2802,12 @@
   ],
   "related": [
    {
-    "da": "fx",
-    "en": "e.g. (short)"
-   },
-   {
     "da": "eksempelvis",
     "en": "for instance"
+   },
+   {
+    "da": "såsom",
+    "en": "such as"
    },
    {
     "da": "som",
@@ -2872,8 +2872,8 @@
   ],
   "related": [
    {
-    "da": "bag",
-    "en": "behind"
+    "da": "overfor",
+    "en": "opposite"
    },
    {
     "da": "ved siden af",
@@ -2884,8 +2884,8 @@
     "en": "at the very front"
    },
    {
-    "da": "før",
-    "en": "before (time)"
+    "da": "bagved",
+    "en": "behind (at the back)"
    }
   ],
   "sentence": {
@@ -2946,16 +2946,16 @@
   ],
   "related": [
    {
-    "da": "hvorfor",
-    "en": "why"
-   },
-   {
-    "da": "derfor",
-    "en": "that is why"
-   },
-   {
     "da": "på grund af",
     "en": "because of"
+   },
+   {
+    "da": "eftersom",
+    "en": "since / as"
+   },
+   {
+    "da": "for at",
+    "en": "in order to"
    }
   ],
   "sentence": {
@@ -2985,8 +2985,8 @@
     "en": "correct"
    },
    {
-    "da": "en fejl",
-    "en": "a mistake"
+    "da": "galt",
+    "en": "wrong"
    },
    {
     "da": "at tage fejl",
@@ -3020,8 +3020,8 @@
     "en": "a cold (illness)"
    },
    {
-    "da": "syg",
-    "en": "sick"
+    "da": "en snue",
+    "en": "a runny nose"
    },
    {
     "da": "en hoste",
@@ -3129,8 +3129,8 @@
     "en": "a father"
    },
    {
-    "da": "en forælder",
-    "en": "a parent"
+    "da": "bedsteforældre",
+    "en": "grandparents"
    },
    {
     "da": "et barn",
@@ -3160,8 +3160,8 @@
   ],
   "related": [
    {
-    "da": "til",
-    "en": "to, for"
+    "da": "hos",
+    "en": "at / with (someone's place)"
    },
    {
     "da": "af",
@@ -3273,16 +3273,20 @@
   ],
   "related": [
    {
-    "da": "et brød",
-    "en": "a loaf of bread"
+    "da": "et rundstykke",
+    "en": "a bread roll"
    },
    {
-    "da": "rugbrød",
-    "en": "rye bread"
+    "da": "et hvedebrød",
+    "en": "a wheat loaf"
    },
    {
-    "da": "fransk",
-    "en": "French"
+    "da": "en baguette",
+    "en": "a baguette"
+   },
+   {
+    "da": "et toastbrød",
+    "en": "toast bread"
    }
   ],
   "sentence": {
@@ -3347,8 +3351,8 @@
   ],
   "related": [
    {
-    "da": "gratis",
-    "en": "free of charge"
+    "da": "ledig",
+    "en": "free / available"
    },
    {
     "da": "en fridag",
@@ -3487,8 +3491,8 @@
   ],
   "related": [
    {
-    "da": "en fryser",
-    "en": "a freezer"
+    "da": "dybfrossen",
+    "en": "deep-frozen"
    },
    {
     "da": "at fryse",
@@ -3526,8 +3530,8 @@
     "en": "empty"
    },
    {
-    "da": "mæt",
-    "en": "full (after eating)"
+    "da": "overfyldt",
+    "en": "overfull"
    },
    {
     "da": "at fylde",
@@ -3565,8 +3569,8 @@
     "en": "fifty"
    },
    {
-    "da": "fire",
-    "en": "four"
+    "da": "tres",
+    "en": "sixty"
    },
    {
     "da": "tyve",
@@ -3596,8 +3600,8 @@
   ],
   "related": [
    {
-    "da": "klar",
-    "en": "ready"
+    "da": "afsluttet",
+    "en": "completed"
    },
    {
     "da": "at slutte",
@@ -3717,12 +3721,12 @@
     "en": "after that"
    },
    {
-    "da": "så",
-    "en": "then"
+    "da": "til sidst",
+    "en": "finally"
    },
    {
-    "da": "første",
-    "en": "first (the first one)"
+    "da": "senere",
+    "en": "later"
    }
   ],
   "sentence": {
@@ -3760,8 +3764,8 @@
     "en": "third"
    },
    {
-    "da": "først",
-    "en": "first (at first)"
+    "da": "næste",
+    "en": "next"
    }
   ],
   "sentence": {

@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "en æblekage",
-    "en": "an apple cake"
-   },
-   {
     "da": "et æbletræ",
     "en": "an apple tree"
    },
    {
     "da": "en pære",
     "en": "a pear"
+   },
+   {
+    "da": "en banan",
+    "en": "a banana"
    }
   ],
   "sentence": {
@@ -60,8 +60,8 @@
   ],
   "related": [
    {
-    "da": "et spejlæg",
-    "en": "a fried egg"
+    "da": "et hønseæg",
+    "en": "a hen's egg"
    },
    {
     "da": "en æggeblomme",
@@ -95,10 +95,6 @@
   ],
   "related": [
    {
-    "da": "gammel",
-    "en": "old"
-   },
-   {
     "da": "ældst",
     "en": "oldest"
    },
@@ -109,6 +105,10 @@
    {
     "da": "ung",
     "en": "young"
+   },
+   {
+    "da": "en alder",
+    "en": "an age"
    }
   ],
   "sentence": {
@@ -138,12 +138,12 @@
     "en": "old"
    },
    {
-    "da": "ældre",
-    "en": "older"
-   },
-   {
     "da": "yngst",
     "en": "youngest"
+   },
+   {
+    "da": "ung",
+    "en": "young"
    }
   ],
   "sentence": {

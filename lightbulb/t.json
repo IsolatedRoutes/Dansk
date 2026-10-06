@@ -25,8 +25,8 @@
     "en": "to win"
    },
    {
-    "da": "at miste",
-    "en": "to lose (something)"
+    "da": "et nederlag",
+    "en": "a defeat"
    },
    {
     "da": "et tab",
@@ -146,8 +146,8 @@
     "en": "a shower"
    },
    {
-    "da": "et karbad",
-    "en": "a bath in the tub"
+    "da": "et badekar",
+    "en": "a bathtub"
    },
    {
     "da": "et badeværelse",
@@ -181,10 +181,6 @@
   ],
   "related": [
    {
-    "da": "en bus",
-    "en": "a bus"
-   },
-   {
     "da": "en busbillet",
     "en": "a bus ticket"
    },
@@ -193,8 +189,12 @@
     "en": "a bus stop"
    },
    {
-    "da": "at tage toget",
-    "en": "to take the train"
+    "da": "en buschauffør",
+    "en": "a bus driver"
+   },
+   {
+    "da": "at tage metroen",
+    "en": "to take the metro"
    }
   ],
   "sentence": {
@@ -224,16 +224,16 @@
   ],
   "related": [
    {
-    "da": "et foto",
-    "en": "a photo"
-   },
-   {
     "da": "et kamera",
     "en": "a camera"
    },
    {
     "da": "at fotografere",
     "en": "to photograph"
+   },
+   {
+    "da": "en selfie",
+    "en": "a selfie"
    }
   ],
   "sentence": {
@@ -306,12 +306,12 @@
     "en": "a medication"
    },
    {
-    "da": "en tablet",
-    "en": "a tablet"
-   },
-   {
     "da": "en pille",
     "en": "a pill"
+   },
+   {
+    "da": "en recept",
+    "en": "a prescription"
    }
   ],
   "sentence": {
@@ -345,12 +345,12 @@
     "en": "to travel"
    },
    {
-    "da": "at være på ferie",
-    "en": "to be on vacation"
-   },
-   {
     "da": "en ferierejse",
     "en": "a holiday trip"
+   },
+   {
+    "da": "en feriedag",
+    "en": "a day off / holiday day"
    }
   ],
   "sentence": {
@@ -384,12 +384,12 @@
     "en": "to take the bus"
    },
    {
-    "da": "et tog",
-    "en": "a train"
-   },
-   {
     "da": "en togbillet",
     "en": "a train ticket"
+   },
+   {
+    "da": "en togstation",
+    "en": "a train station"
    }
   ],
   "sentence": {
@@ -419,16 +419,16 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
+    "da": "taknemmelig",
+    "en": "grateful"
    },
    {
-    "da": "en tak",
-    "en": "a thank-you"
+    "da": "taknemmelighed",
+    "en": "gratitude"
    },
    {
-    "da": "tusind tak",
-    "en": "thank you very much"
+    "da": "værsgo",
+    "en": "you are welcome"
    }
   ],
   "sentence": {
@@ -458,16 +458,20 @@
   ],
   "related": [
    {
-    "da": "at snakke",
-    "en": "to chat, to talk"
-   },
-   {
-    "da": "en tale",
-    "en": "a speech"
-   },
-   {
     "da": "at sige",
     "en": "to say"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "at tie",
+    "en": "to be silent"
+   },
+   {
+    "da": "et foredrag",
+    "en": "a lecture"
    }
   ],
   "sentence": {
@@ -536,16 +540,16 @@
   ],
   "related": [
    {
-    "da": "at snakke om",
-    "en": "to talk about (chat)"
-   },
-   {
     "da": "at tale med",
     "en": "to talk to"
    },
    {
     "da": "en samtale",
     "en": "a conversation"
+   },
+   {
+    "da": "at diskutere",
+    "en": "to discuss"
    }
   ],
   "sentence": {
@@ -579,12 +583,12 @@
     "en": "to go to the toilet"
    },
    {
-    "da": "et toilet",
-    "en": "a toilet"
-   },
-   {
     "da": "en potte",
     "en": "a potty"
+   },
+   {
+    "da": "at bæse",
+    "en": "to poo"
    }
   ],
   "sentence": {
@@ -614,16 +618,16 @@
   ],
   "related": [
    {
-    "da": "at kontrollere",
-    "en": "to check carefully"
-   },
-   {
-    "da": "at undersøge",
-    "en": "to examine"
-   },
-   {
     "da": "en kontrol",
     "en": "a check"
+   },
+   {
+    "da": "at teste",
+    "en": "to test"
+   },
+   {
+    "da": "at se efter",
+    "en": "to look and check"
    }
   ],
   "sentence": {
@@ -653,16 +657,16 @@
   ],
   "related": [
    {
-    "da": "at synes",
-    "en": "to think (an opinion)"
-   },
-   {
     "da": "at tvivle",
     "en": "to doubt"
    },
    {
-    "da": "en tro",
-    "en": "a belief / faith"
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "at mene",
+    "en": "to think / to be of the opinion"
    }
   ],
   "sentence": {
@@ -735,12 +739,12 @@
     "en": "exercise / training"
    },
    {
-    "da": "en træner",
-    "en": "a coach"
-   },
-   {
     "da": "at øve",
     "en": "to practise"
+   },
+   {
+    "da": "at motionere",
+    "en": "to exercise"
    }
   ],
   "sentence": {
@@ -778,8 +782,8 @@
     "en": "to calculate"
    },
    {
-    "da": "at tale",
-    "en": "to speak"
+    "da": "at fortælle",
+    "en": "to tell"
    }
   ],
   "sentence": {
@@ -813,12 +817,12 @@
     "en": "to turn off"
    },
    {
-    "da": "at tænde for",
-    "en": "to turn on (TV, radio, water)"
+    "da": "en tændstik",
+    "en": "a match"
    },
    {
-    "da": "at tænke",
-    "en": "to think"
+    "da": "en lighter",
+    "en": "a lighter"
    }
   ],
   "sentence": {
@@ -887,16 +891,16 @@
   ],
   "related": [
    {
-    "da": "at synes",
-    "en": "to think (an opinion)"
-   },
-   {
     "da": "en tanke",
     "en": "a thought"
    },
    {
     "da": "at tro",
     "en": "to believe"
+   },
+   {
+    "da": "at overveje",
+    "en": "to consider"
    }
   ],
   "sentence": {
@@ -1000,16 +1004,16 @@
   ],
   "related": [
    {
-    "da": "en tandlæge",
-    "en": "a dentist"
-   },
-   {
     "da": "en tandbørste",
     "en": "a toothbrush"
    },
    {
     "da": "tandpasta",
     "en": "toothpaste"
+   },
+   {
+    "da": "en mund",
+    "en": "a mouth"
    }
   ],
   "sentence": {
@@ -1039,16 +1043,16 @@
   ],
   "related": [
    {
-    "da": "en tand",
-    "en": "a tooth"
-   },
-   {
-    "da": "en læge",
-    "en": "a doctor"
-   },
-   {
     "da": "en tandbørste",
     "en": "a toothbrush"
+   },
+   {
+    "da": "tandpasta",
+    "en": "toothpaste"
+   },
+   {
+    "da": "en tandklinik",
+    "en": "a dental clinic"
    }
   ],
   "sentence": {
@@ -1121,16 +1125,16 @@
   ],
   "related": [
    {
-    "da": "en pose",
-    "en": "a plastic bag"
-   },
-   {
     "da": "en rygsæk",
     "en": "a backpack"
    },
    {
-    "da": "en håndtaske",
-    "en": "a handbag"
+    "da": "en kuffert",
+    "en": "a suitcase"
+   },
+   {
+    "da": "en weekendtaske",
+    "en": "an overnight bag"
    }
   ],
   "sentence": {
@@ -1199,16 +1203,16 @@
   ],
   "related": [
    {
-    "da": "en taxa",
-    "en": "a taxi"
-   },
-   {
-    "da": "en chauffør",
-    "en": "a driver"
-   },
-   {
     "da": "en buschauffør",
     "en": "a bus driver"
+   },
+   {
+    "da": "en lastbilchauffør",
+    "en": "a truck driver"
+   },
+   {
+    "da": "en bilist",
+    "en": "a motorist"
    }
   ],
   "sentence": {
@@ -1238,16 +1242,16 @@
   ],
   "related": [
    {
-    "da": "en pung",
-    "en": "a wallet"
-   },
-   {
     "da": "et kreditkort",
     "en": "a credit card"
    },
    {
     "da": "en pengeseddel",
     "en": "a banknote"
+   },
+   {
+    "da": "en mønt",
+    "en": "a coin"
    }
   ],
   "sentence": {
@@ -1277,16 +1281,16 @@
   ],
   "related": [
    {
-    "da": "en mobil",
-    "en": "a mobile phone"
-   },
-   {
     "da": "et telefonnummer",
     "en": "a phone number"
    },
    {
     "da": "en smartphone",
     "en": "a smartphone"
+   },
+   {
+    "da": "en telefonsamtale",
+    "en": "a phone call"
    }
   ],
   "sentence": {
@@ -1355,16 +1359,16 @@
   ],
   "related": [
    {
-    "da": "en gang",
-    "en": "an occasion / a time"
-   },
-   {
     "da": "et tidspunkt",
     "en": "a point in time"
    },
    {
-    "da": "en time",
-    "en": "an hour"
+    "da": "en periode",
+    "en": "a period"
+   },
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
    }
   ],
   "sentence": {
@@ -1480,8 +1484,8 @@
     "en": "24 hours"
    },
    {
-    "da": "en tid",
-    "en": "a time"
+    "da": "et kvarter",
+    "en": "a quarter of an hour"
    }
   ],
   "sentence": {
@@ -1593,16 +1597,16 @@
   ],
   "related": [
    {
-    "da": "en busbillet",
-    "en": "a bus ticket"
+    "da": "en flybillet",
+    "en": "a plane ticket"
    },
    {
-    "da": "et tog",
-    "en": "a train"
+    "da": "en returbillet",
+    "en": "a return ticket"
    },
    {
-    "da": "en billet",
-    "en": "a ticket"
+    "da": "en billetautomat",
+    "en": "a ticket machine"
    }
   ],
   "sentence": {
@@ -1636,12 +1640,12 @@
     "en": "a railway station"
    },
    {
-    "da": "et tog",
-    "en": "a train"
+    "da": "en perron",
+    "en": "a platform"
    },
    {
-    "da": "en station",
-    "en": "a station"
+    "da": "en busstation",
+    "en": "a bus station"
    }
   ],
   "sentence": {
@@ -1671,16 +1675,16 @@
   ],
   "related": [
    {
-    "da": "en tomatsuppe",
-    "en": "tomato soup"
-   },
-   {
-    "da": "en tomatsovs",
-    "en": "tomato sauce"
-   },
-   {
     "da": "en agurk",
     "en": "a cucumber"
+   },
+   {
+    "da": "et løg",
+    "en": "an onion"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
    }
   ],
   "sentence": {
@@ -1749,16 +1753,16 @@
   ],
   "related": [
    {
-    "da": "en sweater",
-    "en": "a sweater"
-   },
-   {
-    "da": "en fodboldtrøje",
-    "en": "a football shirt"
-   },
-   {
     "da": "en jakke",
     "en": "a jacket"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
    }
   ],
   "sentence": {
@@ -1827,8 +1831,8 @@
   ],
   "related": [
    {
-    "da": "en rejse",
-    "en": "a journey"
+    "da": "en gåtur",
+    "en": "a walk"
    },
    {
     "da": "en vandretur",
@@ -1870,12 +1874,12 @@
   ],
   "related": [
    {
-    "da": "Tyskland",
-    "en": "Germany"
+    "da": "en hollænder",
+    "en": "a Dutchman"
    },
    {
-    "da": "tysk",
-    "en": "German"
+    "da": "en svensker",
+    "en": "a Swede"
    },
    {
     "da": "en dansker",
@@ -1952,16 +1956,16 @@
   ],
   "related": [
    {
-    "da": "et tøj",
-    "en": "clothes"
+    "da": "et varehus",
+    "en": "a department store"
    },
    {
-    "da": "en skobutik",
-    "en": "a shoe store"
+    "da": "et indkøbscenter",
+    "en": "a shopping centre"
    },
    {
-    "da": "en butik",
-    "en": "a shop"
+    "da": "et supermarked",
+    "en": "a supermarket"
    }
   ],
   "sentence": {
@@ -1991,16 +1995,16 @@
   ],
   "related": [
    {
-    "da": "et nummer",
-    "en": "a number (phone, house)"
-   },
-   {
     "da": "at tælle",
     "en": "to count"
    },
    {
     "da": "et antal",
     "en": "a number of"
+   },
+   {
+    "da": "et ciffer",
+    "en": "a digit"
    }
   ],
   "sentence": {
@@ -2030,16 +2034,16 @@
   ],
   "related": [
    {
-    "da": "et nummer",
-    "en": "a number"
-   },
-   {
-    "da": "en telefon",
-    "en": "a phone"
-   },
-   {
     "da": "et mobilnummer",
     "en": "a mobile number"
+   },
+   {
+    "da": "et postnummer",
+    "en": "a postal code"
+   },
+   {
+    "da": "en adresse",
+    "en": "an address"
    }
   ],
   "sentence": {
@@ -2264,16 +2268,16 @@
   ],
   "related": [
    {
-    "da": "et klæde",
-    "en": "a cloth"
-   },
-   {
-    "da": "et håndklæde",
-    "en": "a towel"
-   },
-   {
     "da": "en hue",
     "en": "a hat, a cap"
+   },
+   {
+    "da": "en handske",
+    "en": "a glove"
+   },
+   {
+    "da": "en vante",
+    "en": "a mitten"
    }
   ],
   "sentence": {
@@ -2307,8 +2311,8 @@
     "en": "many thanks"
    },
    {
-    "da": "selv tak",
-    "en": "you're welcome"
+    "da": "værsgo",
+    "en": "here you go"
    }
   ],
   "sentence": {
@@ -2334,16 +2338,16 @@
   ],
   "related": [
    {
-    "da": "mange tak",
-    "en": "thank you very much"
-   },
-   {
     "da": "tak for mad",
     "en": "thanks for the food"
    },
    {
     "da": "selv tak",
     "en": "you're welcome"
+   },
+   {
+    "da": "tusind tak",
+    "en": "a thousand thanks"
    }
   ],
   "sentence": {
@@ -2369,16 +2373,16 @@
   ],
   "related": [
    {
-    "da": "tak for sidst",
-    "en": "thanks for last time"
-   },
-   {
     "da": "tak for hjælpen",
     "en": "thanks for the help"
    },
    {
     "da": "tak for mad",
     "en": "thanks for the meal"
+   },
+   {
+    "da": "på gensyn",
+    "en": "see you again"
    }
   ],
   "sentence": {
@@ -2404,16 +2408,16 @@
   ],
   "related": [
    {
-    "da": "velbekomme",
-    "en": "you're welcome (after a meal)"
-   },
-   {
     "da": "tak for i dag",
     "en": "thanks for today"
    },
    {
     "da": "tak for sidst",
     "en": "thanks for last time"
+   },
+   {
+    "da": "tak for kaffen",
+    "en": "thanks for the coffee"
    }
   ],
   "sentence": {
@@ -2447,8 +2451,8 @@
     "en": "quickly"
    },
    {
-    "da": "at tale",
-    "en": "to speak"
+    "da": "at gentage",
+    "en": "to repeat"
    }
   ],
   "sentence": {
@@ -2478,12 +2482,12 @@
     "en": "to speak"
    },
    {
-    "da": "dansk",
-    "en": "Danish"
-   },
-   {
     "da": "tysk",
     "en": "German"
+   },
+   {
+    "da": "fransk",
+    "en": "French"
    }
   ],
   "sentence": {
@@ -2509,10 +2513,6 @@
   ],
   "related": [
    {
-    "da": "en tand",
-    "en": "a tooth"
-   },
-   {
     "da": "en tandlæge",
     "en": "a dentist"
    },
@@ -2523,6 +2523,10 @@
    {
     "da": "ondt i maven",
     "en": "stomach ache"
+   },
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
    }
   ],
   "sentence": {
@@ -2552,12 +2556,12 @@
     "en": "coffee"
    },
    {
-    "da": "ti",
-    "en": "ten"
-   },
-   {
     "da": "kakao",
     "en": "cocoa"
+   },
+   {
+    "da": "urtete",
+    "en": "herbal tea"
    }
   ],
   "sentence": {
@@ -2630,8 +2634,8 @@
     "en": "tenth"
    },
    {
-    "da": "tid",
-    "en": "time"
+    "da": "te",
+    "en": "tea"
    }
   ],
   "sentence": {
@@ -2665,8 +2669,8 @@
     "en": "earlier"
    },
    {
-    "da": "tidligt",
-    "en": "early (doing something)"
+    "da": "sent",
+    "en": "late (doing something)"
    }
   ],
   "sentence": {
@@ -2696,8 +2700,8 @@
     "en": "late"
    },
    {
-    "da": "tidlig",
-    "en": "early (describing a thing)"
+    "da": "snart",
+    "en": "soon"
    },
    {
     "da": "tidligere",
@@ -2875,8 +2879,8 @@
     "en": "forward"
    },
    {
-    "da": "en ryg",
-    "en": "a back (of the body)"
+    "da": "bagud",
+    "en": "backwards"
    },
    {
     "da": "retur",
@@ -3097,8 +3101,8 @@
     "en": "thirteen"
    },
    {
-    "da": "et dusin",
-    "en": "a dozen"
+    "da": "fjorten",
+    "en": "fourteen"
    }
   ],
   "sentence": {
@@ -3124,16 +3128,16 @@
   ],
   "related": [
    {
-    "da": "fuld",
-    "en": "full"
-   },
-   {
     "da": "at tømme",
     "en": "to empty"
    },
    {
     "da": "ledig",
     "en": "vacant"
+   },
+   {
+    "da": "fyldt",
+    "en": "filled"
    }
   ],
   "sentence": {
@@ -3171,8 +3175,8 @@
     "en": "Friday"
    },
    {
-    "da": "en tirsdag",
-    "en": "Tuesday"
+    "da": "en lørdag",
+    "en": "Saturday"
    }
   ],
   "sentence": {
@@ -3358,8 +3362,8 @@
     "en": "eighty"
    },
    {
-    "da": "tredive",
-    "en": "thirty"
+    "da": "halvfems",
+    "en": "ninety"
    }
   ],
   "sentence": {
@@ -3424,8 +3428,8 @@
     "en": "happy"
    },
    {
-    "da": "ked af det",
-    "en": "upset, sad"
+    "da": "bedrøvet",
+    "en": "saddened"
    },
    {
     "da": "sørgelig",
@@ -3455,16 +3459,16 @@
   ],
   "related": [
    {
-    "da": "undertøj",
-    "en": "underwear"
-   },
-   {
-    "da": "underbukser",
-    "en": "men's underwear"
-   },
-   {
     "da": "en bh",
     "en": "a bra"
+   },
+   {
+    "da": "en sok",
+    "en": "a sock"
+   },
+   {
+    "da": "strømpebukser",
+    "en": "tights"
    }
   ],
   "sentence": {
@@ -3595,16 +3599,16 @@
   ],
   "related": [
    {
-    "da": "hundrede",
-    "en": "hundred"
-   },
-   {
     "da": "titusind",
     "en": "ten thousand"
    },
    {
     "da": "en million",
     "en": "a million"
+   },
+   {
+    "da": "en milliard",
+    "en": "a billion"
    }
   ],
   "sentence": {
@@ -3630,8 +3634,8 @@
   ],
   "related": [
    {
-    "da": "mange tak",
-    "en": "thank you very much"
+    "da": "tak skal du have",
+    "en": "thank you"
    },
    {
     "da": "selv tak",
@@ -3704,12 +3708,12 @@
     "en": "thick"
    },
    {
-    "da": "slank",
-    "en": "slim"
-   },
-   {
     "da": "smal",
     "en": "narrow"
+   },
+   {
+    "da": "mager",
+    "en": "lean, skinny"
    }
   ],
   "sentence": {
@@ -3743,8 +3747,8 @@
     "en": "Turkish"
    },
    {
-    "da": "en kalkun",
-    "en": "a turkey (bird)"
+    "da": "på tyrkisk",
+    "en": "in Turkish"
    }
   ],
   "sentence": {
@@ -3844,12 +3848,12 @@
     "en": "a German"
    },
    {
-    "da": "tysk",
-    "en": "German"
+    "da": "en tyskerinde",
+    "en": "a German woman"
    },
    {
-    "da": "land",
-    "en": "country"
+    "da": "et naboland",
+    "en": "a neighbouring country"
    }
   ],
   "sentence": {
@@ -3914,8 +3918,8 @@
   ],
   "related": [
    {
-    "da": "tåget",
-    "en": "foggy"
+    "da": "en tågelygte",
+    "en": "a fog light"
    },
    {
     "da": "dis",
@@ -3949,8 +3953,8 @@
   ],
   "related": [
    {
-    "da": "langt fra",
-    "en": "far from"
+    "da": "nær",
+    "en": "near"
    },
    {
     "da": "i nærheden",
@@ -4058,8 +4062,8 @@
     "en": "hungry"
    },
    {
-    "da": "tørst",
-    "en": "thirst"
+    "da": "at drikke",
+    "en": "to drink"
    },
    {
     "da": "tør",

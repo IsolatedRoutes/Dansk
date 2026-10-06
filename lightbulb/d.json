@@ -25,12 +25,12 @@
     "en": "a dance"
    },
    {
-    "da": "en danser",
-    "en": "a dancer"
-   },
-   {
     "da": "et dansegulv",
     "en": "a dance floor"
+   },
+   {
+    "da": "en dansefest",
+    "en": "a dance party"
    }
   ],
   "sentence": {
@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "død",
-    "en": "dead"
-   },
-   {
     "da": "at leve",
     "en": "to live"
    },
    {
     "da": "at blive født",
     "en": "to be born"
+   },
+   {
+    "da": "døende",
+    "en": "dying"
    }
   ],
   "sentence": {
@@ -173,16 +173,16 @@
   ],
   "related": [
    {
-    "da": "når",
-    "en": "when (general or future)"
-   },
-   {
     "da": "dengang",
     "en": "back then"
    },
    {
     "da": "hvornår",
     "en": "when (question)"
+   },
+   {
+    "da": "mens",
+    "en": "while"
    }
   ],
   "sentence": {
@@ -251,12 +251,12 @@
     "en": "a product"
    },
    {
-    "da": "daglig",
-    "en": "daily"
-   },
-   {
     "da": "madvarer",
     "en": "food products"
+   },
+   {
+    "da": "indkøb",
+    "en": "shopping / purchases"
    }
   ],
   "sentence": {
@@ -290,8 +290,8 @@
     "en": "a Dane"
    },
    {
-    "da": "engelsk",
-    "en": "English"
+    "da": "svensk",
+    "en": "Swedish"
    }
   ],
   "sentence": {
@@ -317,16 +317,16 @@
   ],
   "related": [
    {
-    "da": "hej",
-    "en": "hi"
-   },
-   {
     "da": "hejsa",
     "en": "hi there"
    },
    {
     "da": "goddag",
     "en": "good day"
+   },
+   {
+    "da": "hallo",
+    "en": "hello"
    }
   ],
   "sentence": {
@@ -352,16 +352,16 @@
   ],
   "related": [
    {
-    "da": "dem",
-    "en": "them"
-   },
-   {
     "da": "deres",
-    "en": "their / theirs"
+    "en": "their"
    },
    {
     "da": "vi",
     "en": "we"
+   },
+   {
+    "da": "os",
+    "en": "us"
    }
   ],
   "sentence": {
@@ -457,16 +457,16 @@
   ],
   "related": [
    {
-    "da": "de",
-    "en": "they"
-   },
-   {
     "da": "deres",
     "en": "their / theirs"
    },
    {
     "da": "os",
     "en": "us"
+   },
+   {
+    "da": "jer",
+    "en": "you (plural, object)"
    }
   ],
   "sentence": {
@@ -492,16 +492,16 @@
   ],
   "related": [
    {
-    "da": "det",
-    "en": "it (et-word) / that"
-   },
-   {
-    "da": "en",
-    "en": "a / an (en-word)"
-   },
-   {
     "da": "de",
     "en": "they / the (many)"
+   },
+   {
+    "da": "denne",
+    "en": "this (en-word)"
+   },
+   {
+    "da": "dens",
+    "en": "its"
    }
   ],
   "sentence": {
@@ -527,20 +527,16 @@
   ],
   "related": [
    {
-    "da": "dette",
-    "en": "this (et-word)"
-   },
-   {
     "da": "disse",
     "en": "these"
    },
    {
-    "da": "den her",
-    "en": "this one (everyday)"
+    "da": "den der",
+    "en": "that one"
    },
    {
-    "da": "den",
-    "en": "it (en-word)"
+    "da": "sådan",
+    "en": "such / like this"
    }
   ],
   "sentence": {
@@ -566,16 +562,16 @@
   ],
   "related": [
    {
-    "da": "her",
-    "en": "here"
-   },
-   {
     "da": "derfor",
     "en": "therefore / that is why"
    },
    {
     "da": "derhjemme",
     "en": "at home (there)"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
    }
   ],
   "sentence": {
@@ -609,8 +605,8 @@
     "en": "then"
    },
    {
-    "da": "efter",
-    "en": "after"
+    "da": "senere",
+    "en": "later"
    }
   ],
   "sentence": {
@@ -675,16 +671,16 @@
   ],
   "related": [
    {
-    "da": "fordi",
-    "en": "because"
-   },
-   {
     "da": "hvorfor",
     "en": "why"
    },
    {
     "da": "så",
     "en": "so"
+   },
+   {
+    "da": "dermed",
+    "en": "thereby"
    }
   ],
   "sentence": {
@@ -710,16 +706,16 @@
   ],
   "related": [
    {
-    "da": "herfra",
-    "en": "from here"
-   },
-   {
     "da": "derhen",
     "en": "(to) there"
    },
    {
     "da": "hvorfra",
     "en": "from where"
+   },
+   {
+    "da": "derude",
+    "en": "out there"
    }
   ],
   "sentence": {
@@ -745,16 +741,16 @@
   ],
   "related": [
    {
-    "da": "hjemme",
-    "en": "at home"
-   },
-   {
     "da": "hjem",
     "en": "home (going)"
    },
    {
     "da": "herhjemme",
     "en": "at home (here)"
+   },
+   {
+    "da": "hjemmefra",
+    "en": "from home"
    }
   ],
   "sentence": {
@@ -780,10 +776,6 @@
   ],
   "related": [
    {
-    "da": "herinde",
-    "en": "in here"
-   },
-   {
     "da": "derude",
     "en": "out there"
    },
@@ -794,6 +786,10 @@
    {
     "da": "ind",
     "en": "in (movement)"
+   },
+   {
+    "da": "deroppe",
+    "en": "up there"
    }
   ],
   "sentence": {
@@ -823,16 +819,16 @@
     "en": "down"
    },
    {
-    "da": "deroppe",
-    "en": "up there"
-   },
-   {
     "da": "hernede",
     "en": "down here"
    },
    {
     "da": "derovre",
     "en": "over there"
+   },
+   {
+    "da": "derinde",
+    "en": "in there"
    }
   ],
   "sentence": {
@@ -866,12 +862,12 @@
     "en": "outside"
    },
    {
-    "da": "derinde",
-    "en": "in there"
-   },
-   {
     "da": "ude",
     "en": "out / outside"
+   },
+   {
+    "da": "derovre",
+    "en": "over there"
    }
   ],
   "sentence": {
@@ -932,16 +928,16 @@
   ],
   "related": [
    {
-    "da": "den",
-    "en": "it (en-word)"
-   },
-   {
     "da": "de",
     "en": "they"
    },
    {
     "da": "dette",
     "en": "this (et-word)"
+   },
+   {
+    "da": "det der",
+    "en": "that one"
    }
   ],
   "sentence": {
@@ -1107,16 +1103,16 @@
   ],
   "related": [
    {
-    "da": "det gør ikke noget",
-    "en": "it's ok / no problem"
-   },
-   {
     "da": "ligeglad",
     "en": "don't care"
    },
    {
     "da": "hvad som helst",
     "en": "anything"
+   },
+   {
+    "da": "ligegyldig",
+    "en": "unimportant"
    }
   ],
   "sentence": {
@@ -1150,12 +1146,12 @@
     "en": "to be right"
    },
    {
-    "da": "rigtig",
-    "en": "right / really"
-   },
-   {
     "da": "korrekt",
     "en": "correct"
+   },
+   {
+    "da": "det er forkert",
+    "en": "that's wrong"
    }
   ],
   "sentence": {
@@ -1216,16 +1212,16 @@
   ],
   "related": [
    {
-    "da": "hvordan går det?",
-    "en": "how is it going?"
-   },
-   {
     "da": "det går godt",
     "en": "it's going well"
    },
    {
     "da": "det går dårligt",
     "en": "it's going badly"
+   },
+   {
+    "da": "det går så-så",
+    "en": "it's going so-so"
    }
   ],
   "sentence": {
@@ -1251,16 +1247,16 @@
   ],
   "related": [
    {
-    "da": "hvordan går det?",
-    "en": "how's it going?"
-   },
-   {
     "da": "det går fint",
     "en": "it's going fine"
    },
    {
     "da": "det går dårligt",
     "en": "it's going badly"
+   },
+   {
+    "da": "det går så-så",
+    "en": "it's going so-so"
    }
   ],
   "sentence": {
@@ -1286,20 +1282,20 @@
   ],
   "related": [
    {
-    "da": "undskyld",
-    "en": "sorry"
-   },
-   {
-    "da": "det er lige meget",
-    "en": "it doesn't matter"
-   },
-   {
     "da": "det er fint",
     "en": "that's fine"
    },
    {
     "da": "ingen årsag",
     "en": "don't mention it"
+   },
+   {
+    "da": "det er i orden",
+    "en": "it's all right"
+   },
+   {
+    "da": "ingen problem",
+    "en": "no problem"
    }
   ],
   "sentence": {
@@ -1368,8 +1364,8 @@
     "en": "that's a good idea"
    },
    {
-    "da": "at lyde",
-    "en": "to sound"
+    "da": "det lyder fint",
+    "en": "that sounds fine"
    }
   ],
   "sentence": {
@@ -1403,8 +1399,8 @@
     "en": "to believe, think"
    },
    {
-    "da": "det tror jeg ikke",
-    "en": "I don't think so"
+    "da": "det synes jeg",
+    "en": "I think so (opinion)"
    }
   ],
   "sentence": {
@@ -1465,16 +1461,16 @@
   ],
   "related": [
    {
-    "da": "tak",
-    "en": "thanks"
-   },
-   {
     "da": "mange tak",
     "en": "many thanks"
    },
    {
     "da": "selv tak",
     "en": "you're welcome"
+   },
+   {
+    "da": "ingen årsag",
+    "en": "don't mention it"
    }
   ],
   "sentence": {
@@ -1500,16 +1496,16 @@
   ],
   "related": [
    {
-    "da": "at vide",
-    "en": "to know (a fact)"
-   },
-   {
-    "da": "at kende",
-    "en": "to know (a person)"
-   },
-   {
     "da": "det ved jeg godt",
     "en": "I do know that"
+   },
+   {
+    "da": "ingen anelse",
+    "en": "no idea"
+   },
+   {
+    "da": "måske",
+    "en": "maybe"
    }
   ],
   "sentence": {
@@ -1535,20 +1531,16 @@
   ],
   "related": [
    {
-    "da": "denne",
-    "en": "this (en-word)"
-   },
-   {
     "da": "disse",
     "en": "these"
    },
    {
-    "da": "det her",
-    "en": "this one (everyday)"
+    "da": "det der",
+    "en": "that one"
    },
    {
-    "da": "det",
-    "en": "it / that"
+    "da": "sådan",
+    "en": "such / like this"
    }
   ],
   "sentence": {
@@ -1574,20 +1566,20 @@
   ],
   "related": [
    {
-    "da": "du",
-    "en": "you (doing something)"
-   },
-   {
     "da": "din",
     "en": "your (en-word)"
    },
    {
-    "da": "jer",
-    "en": "you (many, after a verb)"
+    "da": "ham",
+    "en": "him"
    },
    {
-    "da": "mig",
-    "en": "me"
+    "da": "hende",
+    "en": "her"
+   },
+   {
+    "da": "os",
+    "en": "us"
    }
   ],
   "sentence": {
@@ -1648,20 +1640,20 @@
   ],
   "related": [
    {
-    "da": "dit",
-    "en": "your (et-word)"
-   },
-   {
-    "da": "dine",
-    "en": "your (many)"
-   },
-   {
     "da": "min",
     "en": "my (en-word)"
    },
    {
     "da": "jeres",
     "en": "your (group of people)"
+   },
+   {
+    "da": "dig",
+    "en": "you (after the action)"
+   },
+   {
+    "da": "hans",
+    "en": "his"
    }
   ],
   "sentence": {
@@ -1687,20 +1679,20 @@
   ],
   "related": [
    {
-    "da": "din",
-    "en": "your (en-word)"
-   },
-   {
-    "da": "dit",
-    "en": "your (et-word)"
-   },
-   {
     "da": "mine",
     "en": "my (many)"
    },
    {
     "da": "jeres",
     "en": "your (group of people)"
+   },
+   {
+    "da": "dig",
+    "en": "you (after the action)"
+   },
+   {
+    "da": "vores",
+    "en": "our"
    }
   ],
   "sentence": {
@@ -1726,20 +1718,16 @@
   ],
   "related": [
    {
-    "da": "denne",
-    "en": "this (en-word)"
+    "da": "de der",
+    "en": "those (everyday)"
    },
    {
-    "da": "dette",
-    "en": "this (et-word)"
+    "da": "dem",
+    "en": "them"
    },
    {
-    "da": "de her",
-    "en": "these (everyday)"
-   },
-   {
-    "da": "de",
-    "en": "they / the (many)"
+    "da": "nogle",
+    "en": "some"
    }
   ],
   "sentence": {
@@ -1765,20 +1753,20 @@
   ],
   "related": [
    {
-    "da": "din",
-    "en": "your (en-word)"
-   },
-   {
-    "da": "dine",
-    "en": "your (many)"
-   },
-   {
     "da": "mit",
     "en": "my (et-word)"
    },
    {
     "da": "jeres",
     "en": "your (group of people)"
+   },
+   {
+    "da": "dig",
+    "en": "you (after the action)"
+   },
+   {
+    "da": "hans",
+    "en": "his"
    }
   ],
   "sentence": {
@@ -1804,16 +1792,16 @@
   ],
   "related": [
    {
-    "da": "men",
-    "en": "but"
-   },
-   {
     "da": "alligevel",
     "en": "anyway / all the same"
    },
    {
     "da": "imidlertid",
     "en": "however"
+   },
+   {
+    "da": "stadig",
+    "en": "still"
    }
   ],
   "sentence": {
@@ -1839,20 +1827,16 @@
   ],
   "related": [
    {
-    "da": "dig",
-    "en": "you (after the action)"
-   },
-   {
     "da": "din",
     "en": "your"
    },
    {
-    "da": "I",
-    "en": "you (more than one)"
-   },
-   {
     "da": "De",
     "en": "you (very formal)"
+   },
+   {
+    "da": "vi",
+    "en": "we"
    }
   ],
   "sentence": {
@@ -1952,10 +1936,6 @@
     "en": "cheap"
    },
    {
-    "da": "et dyr",
-    "en": "an animal"
-   },
-   {
     "da": "rimelig",
     "en": "affordable"
    },
@@ -1991,16 +1971,16 @@
     "en": "good"
    },
    {
-    "da": "værre",
-    "en": "worse"
-   },
-   {
-    "da": "værst",
-    "en": "worst"
-   },
-   {
     "da": "at have det dårligt",
     "en": "to feel bad"
+   },
+   {
+    "da": "skidt",
+    "en": "poor / bad"
+   },
+   {
+    "da": "elendig",
+    "en": "terrible"
    }
   ],
   "sentence": {
@@ -2073,8 +2053,12 @@
     "en": "today"
    },
    {
-    "da": "mandag",
-    "en": "Monday"
+    "da": "en uge",
+    "en": "a week"
+   },
+   {
+    "da": "i morgen",
+    "en": "tomorrow"
    }
   ],
   "sentence": {
@@ -2186,20 +2170,20 @@
   ],
   "related": [
    {
-    "da": "en date",
-    "en": "a romantic date"
-   },
-   {
-    "da": "en dag",
-    "en": "a day"
-   },
-   {
     "da": "en måned",
     "en": "a month"
    },
    {
     "da": "et år",
     "en": "a year"
+   },
+   {
+    "da": "en kalender",
+    "en": "a calendar"
+   },
+   {
+    "da": "en fødselsdato",
+    "en": "a date of birth"
    }
   ],
   "sentence": {
@@ -2311,16 +2295,16 @@
   ],
   "related": [
    {
-    "da": "en læge",
-    "en": "a doctor (medical)"
-   },
-   {
     "da": "en sygeplejerske",
     "en": "a nurse"
    },
    {
     "da": "en tandlæge",
     "en": "a dentist"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
    }
   ],
   "sentence": {
@@ -2393,8 +2377,8 @@
     "en": "a child"
    },
    {
-    "da": "en mand",
-    "en": "a man"
+    "da": "en fyr",
+    "en": "a guy"
    }
   ],
   "sentence": {
@@ -2424,16 +2408,16 @@
   ],
   "related": [
    {
-    "da": "at drikke",
-    "en": "to drink"
-   },
-   {
     "da": "en sodavand",
     "en": "a soda"
    },
    {
     "da": "en drikkevare",
     "en": "a beverage"
+   },
+   {
+    "da": "en juice",
+    "en": "a juice"
    }
   ],
   "sentence": {
@@ -2588,8 +2572,8 @@
     "en": "a hotel room"
    },
    {
-    "da": "et værelse",
-    "en": "a room"
+    "da": "en dobbeltseng",
+    "en": "a double bed"
    }
   ],
   "sentence": {

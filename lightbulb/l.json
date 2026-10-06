@@ -193,8 +193,8 @@
     "en": "to search"
    },
    {
-    "da": "at se på",
-    "en": "to look at"
+    "da": "at kigge efter",
+    "en": "to look out for"
    }
   ],
   "sentence": {
@@ -224,16 +224,16 @@
   ],
   "related": [
    {
-    "da": "at spille",
-    "en": "to play (game or instrument)"
-   },
-   {
     "da": "et legetøj",
     "en": "a toy"
    },
    {
     "da": "en legeplads",
     "en": "a playground"
+   },
+   {
+    "da": "en legekammerat",
+    "en": "a playmate"
    }
   ],
   "sentence": {
@@ -263,16 +263,16 @@
   ],
   "related": [
    {
-    "da": "et liv",
-    "en": "a life"
-   },
-   {
-    "da": "at bo",
-    "en": "to live (reside)"
-   },
-   {
     "da": "levende",
     "en": "alive"
+   },
+   {
+    "da": "at overleve",
+    "en": "to survive"
+   },
+   {
+    "da": "død",
+    "en": "dead"
    }
   ],
   "sentence": {
@@ -310,8 +310,8 @@
     "en": "to stand"
    },
    {
-    "da": "at lægge",
-    "en": "to put / lay"
+    "da": "liggende",
+    "en": "lying"
    }
   ],
   "sentence": {
@@ -341,16 +341,16 @@
   ],
   "related": [
    {
-    "da": "at kunne lide",
-    "en": "to like (in general)"
-   },
-   {
     "da": "at synes om",
     "en": "to like, to approve of"
    },
    {
     "da": "at dele",
     "en": "to share"
+   },
+   {
+    "da": "at følge",
+    "en": "to follow"
    }
   ],
   "sentence": {
@@ -419,16 +419,16 @@
   ],
   "related": [
    {
-    "da": "at høre",
-    "en": "to hear"
-   },
-   {
     "da": "en lytter",
     "en": "a listener"
    },
    {
     "da": "at høre efter",
     "en": "to pay attention"
+   },
+   {
+    "da": "at overhøre",
+    "en": "to overhear"
    }
   ],
   "sentence": {
@@ -462,12 +462,12 @@
     "en": "a loan"
    },
    {
-    "da": "at låne ud",
-    "en": "to lend out"
+    "da": "at leje",
+    "en": "to rent"
    },
    {
-    "da": "at låne af",
-    "en": "to borrow from"
+    "da": "at betale tilbage",
+    "en": "to pay back"
    }
   ],
   "sentence": {
@@ -497,16 +497,16 @@
   ],
   "related": [
    {
-    "da": "at ligge",
-    "en": "to lie (be lying)"
-   },
-   {
     "da": "at sætte",
     "en": "to put"
    },
    {
     "da": "at lægge sig",
     "en": "to lie down"
+   },
+   {
+    "da": "at stille",
+    "en": "to put (upright)"
    }
   ],
   "sentence": {
@@ -536,16 +536,16 @@
   ],
   "related": [
    {
-    "da": "at læse",
-    "en": "to read"
-   },
-   {
-    "da": "en lærer",
-    "en": "a teacher"
-   },
-   {
     "da": "at undervise",
     "en": "to teach"
+   },
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "at øve",
+    "en": "to practise"
    }
   ],
   "sentence": {
@@ -579,12 +579,12 @@
     "en": "to write"
    },
    {
-    "da": "at lære",
-    "en": "to learn / teach"
+    "da": "at studere",
+    "en": "to study"
    },
    {
-    "da": "en bog",
-    "en": "a book"
+    "da": "at læse op",
+    "en": "to read aloud"
    }
   ],
   "sentence": {
@@ -735,12 +735,16 @@
     "en": "a house"
    },
    {
-    "da": "at leje",
-    "en": "to rent"
-   },
-   {
     "da": "en lejer",
     "en": "a tenant"
+   },
+   {
+    "da": "en udlejer",
+    "en": "a landlord"
+   },
+   {
+    "da": "en husleje",
+    "en": "rent"
    }
   ],
   "sentence": {
@@ -778,12 +782,12 @@
     "en": "a little sister"
    },
    {
-    "da": "en bror",
-    "en": "a brother"
-   },
-   {
     "da": "søskende",
     "en": "siblings"
+   },
+   {
+    "da": "en storesøster",
+    "en": "a big sister"
    }
   ],
   "sentence": {
@@ -821,12 +825,12 @@
     "en": "a little brother"
    },
    {
-    "da": "en søster",
-    "en": "a sister"
-   },
-   {
     "da": "søskende",
     "en": "siblings"
+   },
+   {
+    "da": "en storebror",
+    "en": "a big brother"
    }
   ],
   "sentence": {
@@ -977,16 +981,16 @@
   ],
   "related": [
    {
-    "da": "en havn",
-    "en": "a harbor"
-   },
-   {
     "da": "et fly",
     "en": "an airplane"
    },
    {
-    "da": "en luft",
-    "en": "air"
+    "da": "en flyplads",
+    "en": "an airfield"
+   },
+   {
+    "da": "en terminal",
+    "en": "a terminal"
    }
   ],
   "sentence": {
@@ -1028,8 +1032,8 @@
     "en": "a tongue"
    },
    {
-    "da": "en læbestift",
-    "en": "a lipstick"
+    "da": "en kind",
+    "en": "a cheek"
    }
   ],
   "sentence": {
@@ -1137,16 +1141,16 @@
   ],
   "related": [
    {
-    "da": "en løvinde",
-    "en": "a lioness"
-   },
-   {
     "da": "en tiger",
     "en": "a tiger"
    },
    {
     "da": "en elefant",
     "en": "an elephant"
+   },
+   {
+    "da": "en løvetand",
+    "en": "a dandelion"
    }
   ],
   "sentence": {
@@ -1262,8 +1266,8 @@
     "en": "a knee"
    },
    {
-    "da": "et kyllingelår",
-    "en": "a chicken thigh"
+    "da": "en læg",
+    "en": "a calf"
    }
   ],
   "sentence": {
@@ -1293,16 +1297,16 @@
   ],
   "related": [
    {
-    "da": "hvidløg",
-    "en": "garlic"
-   },
-   {
     "da": "et rødløg",
     "en": "a red onion"
    },
    {
     "da": "purløg",
     "en": "chives"
+   },
+   {
+    "da": "en porre",
+    "en": "a leek"
    }
   ],
   "sentence": {
@@ -1328,8 +1332,8 @@
   ],
   "related": [
    {
-    "da": "lad os gå",
-    "en": "let's go"
+    "da": "lad os spise",
+    "en": "let's eat"
    },
    {
     "da": "vi må se",
@@ -1437,8 +1441,8 @@
     "en": "fast"
    },
    {
-    "da": "langsomt",
-    "en": "slowly"
+    "da": "hurtigere",
+    "en": "faster"
    },
    {
     "da": "langsommere",
@@ -1472,7 +1476,7 @@
     "en": "close to"
    },
    {
-    "da": "langt væk",
+    "da": "langt borte",
     "en": "far away"
    },
    {
@@ -1511,8 +1515,8 @@
     "en": "close to"
    },
    {
-    "da": "langt fra",
-    "en": "far from"
+    "da": "langt borte",
+    "en": "far away"
    }
   ],
   "sentence": {
@@ -1577,8 +1581,8 @@
     "en": "to play"
    },
    {
-    "da": "en bamse",
-    "en": "a teddy bear"
+    "da": "en legeplads",
+    "en": "a playground"
    },
    {
     "da": "en dukke",
@@ -1686,8 +1690,8 @@
     "en": "very / a lot"
    },
    {
-    "da": "lille",
-    "en": "small"
+    "da": "en smule",
+    "en": "a bit"
    },
    {
     "da": "lidt efter lidt",
@@ -1717,8 +1721,8 @@
   ],
   "related": [
    {
-    "da": "langsom",
-    "en": "slow"
+    "da": "lidt højere",
+    "en": "a bit louder"
    },
    {
     "da": "hurtigere",
@@ -1756,8 +1760,8 @@
     "en": "crooked"
    },
    {
-    "da": "lige nu",
-    "en": "right now"
+    "da": "lige ud",
+    "en": "straight ahead"
    },
    {
     "da": "lige meget",
@@ -1791,8 +1795,8 @@
   ],
   "related": [
    {
-    "da": "om lidt",
-    "en": "in a little while"
+    "da": "straks",
+    "en": "at once"
    },
    {
     "da": "senere",
@@ -1826,12 +1830,12 @@
   ],
   "related": [
    {
-    "da": "som",
-    "en": "like / as"
+    "da": "ens",
+    "en": "alike"
    },
    {
-    "da": "lige",
-    "en": "just / exactly"
+    "da": "at ligne",
+    "en": "to resemble"
    },
    {
     "da": "på samme måde",
@@ -1869,8 +1873,8 @@
     "en": "blue"
    },
    {
-    "da": "lyserød",
-    "en": "pink"
+    "da": "gul",
+    "en": "yellow"
    },
    {
     "da": "rød",
@@ -1900,8 +1904,8 @@
   ],
   "related": [
    {
-    "da": "stor",
-    "en": "big"
+    "da": "lillebror",
+    "en": "little brother"
    },
    {
     "da": "mindre",
@@ -1935,8 +1939,8 @@
   ],
   "related": [
    {
-    "da": "en lufthavn",
-    "en": "an airport"
+    "da": "luftig",
+    "en": "airy"
    },
    {
     "da": "at lufte",
@@ -2009,8 +2013,8 @@
     "en": "dark"
    },
    {
-    "da": "et lys",
-    "en": "a light / candle"
+    "da": "lysegrøn",
+    "en": "light green"
    },
    {
     "da": "lyseblå",
@@ -2048,12 +2052,12 @@
     "en": "dark blue"
    },
    {
-    "da": "blå",
-    "en": "blue"
+    "da": "lysegrøn",
+    "en": "light green"
    },
    {
-    "da": "lys",
-    "en": "light"
+    "da": "lyserød",
+    "en": "pink"
    }
   ],
   "sentence": {
@@ -2083,12 +2087,12 @@
     "en": "dark green"
    },
    {
-    "da": "grøn",
-    "en": "green"
+    "da": "lyseblå",
+    "en": "light blue"
    },
    {
-    "da": "lys",
-    "en": "light"
+    "da": "lyserød",
+    "en": "pink"
    }
   ],
   "sentence": {
@@ -2114,12 +2118,12 @@
   ],
   "related": [
    {
-    "da": "rød",
-    "en": "red"
+    "da": "mørkerød",
+    "en": "dark red"
    },
    {
-    "da": "lys",
-    "en": "light"
+    "da": "lyseblå",
+    "en": "light blue"
    },
    {
     "da": "lilla",
@@ -2188,8 +2192,8 @@
   ],
   "related": [
    {
-    "da": "lang",
-    "en": "long"
+    "da": "længere",
+    "en": "longer"
    },
    {
     "da": "kort tid",

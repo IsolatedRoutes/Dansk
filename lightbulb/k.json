@@ -60,16 +60,16 @@
   ],
   "related": [
    {
-    "da": "at vide",
-    "en": "to know (a fact)"
-   },
-   {
     "da": "en bekendt",
     "en": "an acquaintance"
    },
    {
     "da": "at genkende",
     "en": "to recognise"
+   },
+   {
+    "da": "et kendskab",
+    "en": "knowledge / acquaintance"
    }
   ],
   "sentence": {
@@ -103,12 +103,12 @@
     "en": "to see"
    },
    {
-    "da": "et kig",
-    "en": "a look"
-   },
-   {
     "da": "at se på",
     "en": "to look at"
+   },
+   {
+    "da": "at stirre",
+    "en": "to stare"
    }
   ],
   "sentence": {
@@ -228,8 +228,8 @@
     "en": "to bake"
    },
    {
-    "da": "at lave mad",
-    "en": "to cook"
+    "da": "at simre",
+    "en": "to simmer"
    }
   ],
   "sentence": {
@@ -298,16 +298,16 @@
   ],
   "related": [
    {
-    "da": "at tage hjem",
-    "en": "to go home"
-   },
-   {
     "da": "at gå hjem",
     "en": "to walk home"
    },
    {
     "da": "hjemme",
     "en": "at home"
+   },
+   {
+    "da": "at tage af sted",
+    "en": "to leave"
    }
   ],
   "sentence": {
@@ -423,8 +423,8 @@
     "en": "to go up"
    },
    {
-    "da": "at stå op",
-    "en": "to get up (out of bed)"
+    "da": "at rejse sig",
+    "en": "to stand up"
    }
   ],
   "sentence": {
@@ -731,16 +731,16 @@
   ],
   "related": [
    {
-    "da": "at cykle",
-    "en": "to cycle"
-   },
-   {
     "da": "at køre bil",
     "en": "to drive a car"
    },
    {
     "da": "et kørekort",
     "en": "a driving licence"
+   },
+   {
+    "da": "en chauffør",
+    "en": "a driver"
    }
   ],
   "sentence": {
@@ -770,16 +770,16 @@
   ],
   "related": [
    {
-    "da": "at gå hjem",
-    "en": "to walk home"
-   },
-   {
     "da": "at tage hjem",
     "en": "to go home"
    },
    {
     "da": "at cykle hjem",
     "en": "to cycle home"
+   },
+   {
+    "da": "at komme hjem",
+    "en": "to come home"
    }
   ],
   "sentence": {
@@ -809,16 +809,16 @@
   ],
   "related": [
    {
-    "da": "at bage",
-    "en": "to bake"
-   },
-   {
     "da": "en småkage",
     "en": "a cookie"
    },
    {
     "da": "en lagkage",
     "en": "a layer cake"
+   },
+   {
+    "da": "et bageri",
+    "en": "a bakery"
    }
   ],
   "sentence": {
@@ -887,16 +887,16 @@
   ],
   "related": [
    {
-    "da": "en hare",
-    "en": "a hare"
-   },
-   {
     "da": "et marsvin",
     "en": "a guinea pig"
    },
    {
     "da": "en hamster",
     "en": "a hamster"
+   },
+   {
+    "da": "en gnaver",
+    "en": "a rodent"
    }
   ],
   "sentence": {
@@ -965,16 +965,16 @@
   ],
   "related": [
    {
-    "da": "en hue",
-    "en": "a beanie"
-   },
-   {
-    "da": "en hat",
-    "en": "a hat"
-   },
-   {
     "da": "en solhat",
     "en": "a sun hat"
+   },
+   {
+    "da": "en baseballkasket",
+    "en": "a baseball cap"
+   },
+   {
+    "da": "en hjelm",
+    "en": "a helmet"
    }
   ],
   "sentence": {
@@ -1043,16 +1043,16 @@
   ],
   "related": [
    {
-    "da": "en småkage",
-    "en": "a cookie"
-   },
-   {
     "da": "en kage",
     "en": "a cake"
    },
    {
-    "da": "en cracker",
-    "en": "a cracker"
+    "da": "et knækbrød",
+    "en": "a crispbread"
+   },
+   {
+    "da": "en tekiks",
+    "en": "a tea biscuit"
    }
   ],
   "sentence": {
@@ -1164,16 +1164,16 @@
   ],
   "related": [
    {
-    "da": "et supermarked",
-    "en": "a supermarket"
-   },
-   {
     "da": "en butik",
     "en": "a shop"
    },
    {
     "da": "en købmand",
     "en": "a grocer"
+   },
+   {
+    "da": "et bageri",
+    "en": "a bakery"
    }
   ],
   "sentence": {
@@ -1203,16 +1203,16 @@
   ],
   "related": [
    {
-    "da": "en kirkegård",
-    "en": "a cemetery"
-   },
-   {
     "da": "en præst",
     "en": "a priest"
    },
    {
     "da": "en kirkeklokke",
     "en": "a church bell"
+   },
+   {
+    "da": "et kirketårn",
+    "en": "a church tower"
    }
   ],
   "sentence": {
@@ -1242,16 +1242,16 @@
   ],
   "related": [
    {
-    "da": "en festkjole",
-    "en": "a party dress"
-   },
-   {
-    "da": "en sommerkjole",
-    "en": "a summer dress"
-   },
-   {
     "da": "en nederdel",
     "en": "a skirt"
+   },
+   {
+    "da": "en brudekjole",
+    "en": "a wedding dress"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
    }
   ],
   "sentence": {
@@ -1320,16 +1320,16 @@
   ],
   "related": [
    {
-    "da": "et sygehus",
-    "en": "a hospital"
-   },
-   {
-    "da": "et hospital",
-    "en": "a hospital"
-   },
-   {
     "da": "en lægeklinik",
     "en": "a doctor's clinic"
+   },
+   {
+    "da": "en tandlægeklinik",
+    "en": "a dental clinic"
+   },
+   {
+    "da": "en skadestue",
+    "en": "an emergency room"
    }
   ],
   "sentence": {
@@ -1359,16 +1359,16 @@
   ],
   "related": [
    {
-    "da": "en gaffel",
-    "en": "a fork"
-   },
-   {
     "da": "en ske",
     "en": "a spoon"
    },
    {
     "da": "et bestik",
     "en": "cutlery"
+   },
+   {
+    "da": "en teske",
+    "en": "a teaspoon"
    }
   ],
   "sentence": {
@@ -1437,16 +1437,16 @@
   ],
   "related": [
    {
-    "da": "at koge",
-    "en": "to boil"
-   },
-   {
     "da": "en bager",
     "en": "a baker"
    },
    {
     "da": "en tjener",
     "en": "a waiter"
+   },
+   {
+    "da": "en køkkenchef",
+    "en": "a head chef"
    }
   ],
   "sentence": {
@@ -1558,16 +1558,16 @@
     "en": "a husband / man"
    },
    {
-    "da": "en kvinde",
-    "en": "a woman"
-   },
-   {
     "da": "en kæreste",
     "en": "a partner"
    },
    {
     "da": "at gifte sig",
     "en": "to get married"
+   },
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
    }
   ],
   "sentence": {
@@ -1597,16 +1597,16 @@
   ],
   "related": [
    {
-    "da": "et glas",
-    "en": "a glass"
-   },
-   {
     "da": "et krus",
     "en": "a mug"
    },
    {
     "da": "en tekop",
     "en": "a teacup"
+   },
+   {
+    "da": "en underkop",
+    "en": "a saucer"
    }
   ],
   "sentence": {
@@ -1761,8 +1761,8 @@
     "en": "carry-on luggage"
    },
    {
-    "da": "at pakke",
-    "en": "to pack"
+    "da": "en rygsæk",
+    "en": "a backpack"
    }
   ],
   "sentence": {
@@ -1792,16 +1792,16 @@
   ],
   "related": [
    {
-    "da": "en pen",
-    "en": "a pen"
-   },
-   {
     "da": "en blyant",
     "en": "a pencil"
    },
    {
     "da": "en tusch",
     "en": "a felt-tip pen"
+   },
+   {
+    "da": "en fyldepen",
+    "en": "a fountain pen"
    }
   ],
   "sentence": {
@@ -1831,12 +1831,8 @@
   ],
   "related": [
    {
-    "da": "en fætter",
-    "en": "a male cousin"
-   },
-   {
-    "da": "en tante",
-    "en": "an aunt"
+    "da": "en moster",
+    "en": "an aunt (mother's sister)"
    },
    {
     "da": "en onkel",
@@ -1845,6 +1841,10 @@
    {
     "da": "en slægtning",
     "en": "a relative"
+   },
+   {
+    "da": "en nevø",
+    "en": "a nephew"
    }
   ],
   "sentence": {
@@ -1878,16 +1878,16 @@
     "en": "a man"
    },
    {
-    "da": "en pige",
-    "en": "a girl"
-   },
-   {
     "da": "en dame",
     "en": "a lady"
    },
    {
     "da": "kvindelig",
     "en": "female"
+   },
+   {
+    "da": "mandlig",
+    "en": "male"
    }
   ],
   "sentence": {
@@ -1917,16 +1917,16 @@
   ],
   "related": [
    {
-    "da": "en bon",
-    "en": "a till receipt"
-   },
-   {
     "da": "en regning",
     "en": "a bill"
    },
    {
     "da": "en faktura",
     "en": "an invoice"
+   },
+   {
+    "da": "at kvittere",
+    "en": "to sign for"
    }
   ],
   "sentence": {
@@ -1964,8 +1964,8 @@
     "en": "a husband"
    },
    {
-    "da": "kær",
-    "en": "dear"
+    "da": "kærlighed",
+    "en": "love"
    }
   ],
   "sentence": {
@@ -2007,8 +2007,8 @@
     "en": "a liter"
    },
    {
-    "da": "et kilogram",
-    "en": "a kilogram"
+    "da": "et ton",
+    "en": "a ton"
    }
   ],
   "sentence": {
@@ -2042,12 +2042,12 @@
     "en": "a guitar"
    },
    {
-    "da": "et piano",
-    "en": "a piano"
-   },
-   {
     "da": "en violin",
     "en": "a violin"
+   },
+   {
+    "da": "en fløjte",
+    "en": "a flute"
    }
   ],
   "sentence": {
@@ -2120,12 +2120,12 @@
     "en": "a username"
    },
    {
-    "da": "en kode",
-    "en": "a code"
+    "da": "en adgangskode",
+    "en": "an access code"
    },
    {
-    "da": "et ord",
-    "en": "a word"
+    "da": "en pinkode",
+    "en": "a PIN code"
    }
   ],
   "sentence": {
@@ -2155,16 +2155,16 @@
   ],
   "related": [
    {
-    "da": "et postkontor",
-    "en": "a post office"
-   },
-   {
     "da": "en arbejdsplads",
     "en": "a workplace"
    },
    {
     "da": "en kontorstol",
     "en": "an office chair"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
    }
   ],
   "sentence": {
@@ -2194,16 +2194,16 @@
   ],
   "related": [
    {
-    "da": "et kreditkort",
-    "en": "a credit card"
-   },
-   {
     "da": "et landkort",
     "en": "a map"
    },
    {
-    "da": "kort",
-    "en": "short"
+    "da": "et spillekort",
+    "en": "a playing card"
+   },
+   {
+    "da": "et visitkort",
+    "en": "a business card"
    }
   ],
   "sentence": {
@@ -2233,20 +2233,16 @@
   ],
   "related": [
    {
-    "da": "et dyr",
-    "en": "an animal"
-   },
-   {
-    "da": "at kæle",
-    "en": "to cuddle"
-   },
-   {
     "da": "en hund",
     "en": "a dog"
    },
    {
     "da": "en kat",
     "en": "a cat"
+   },
+   {
+    "da": "en kanin",
+    "en": "a rabbit"
    }
   ],
   "sentence": {
@@ -2319,12 +2315,12 @@
     "en": "a freezer"
    },
    {
-    "da": "et skab",
-    "en": "a cupboard"
+    "da": "et køkkenskab",
+    "en": "a kitchen cupboard"
    },
    {
-    "da": "at køle",
-    "en": "to cool"
+    "da": "en ovn",
+    "en": "an oven"
    }
   ],
   "sentence": {
@@ -2455,8 +2451,8 @@
   ],
   "related": [
    {
-    "da": "kontant",
-    "en": "in cash"
+    "da": "et betalingskort",
+    "en": "a payment card"
    },
    {
     "da": "en regning",
@@ -2490,8 +2486,8 @@
   ],
   "related": [
    {
-    "da": "jeg vil gerne have",
-    "en": "I would like"
+    "da": "at handle",
+    "en": "to shop"
    },
    {
     "da": "at sælge",
@@ -2564,8 +2560,8 @@
   ],
   "related": [
    {
-    "da": "undskyld",
-    "en": "sorry / excuse me"
+    "da": "skuffet",
+    "en": "disappointed"
    },
    {
     "da": "trist",
@@ -2778,8 +2774,8 @@
   ],
   "related": [
    {
-    "da": "færdig",
-    "en": "finished"
+    "da": "forberedt",
+    "en": "prepared"
    },
    {
     "da": "parat",
@@ -2852,16 +2848,16 @@
   ],
   "related": [
    {
-    "da": "hvad er klokken?",
-    "en": "what time is it?"
-   },
-   {
     "da": "halv tre",
     "en": "half past two"
    },
    {
     "da": "kvart over",
     "en": "quarter past"
+   },
+   {
+    "da": "et ur",
+    "en": "a watch / clock"
    }
   ],
   "sentence": {
@@ -2887,8 +2883,8 @@
   ],
   "related": [
    {
-    "da": "stegt",
-    "en": "fried / roasted"
+    "da": "bagt",
+    "en": "baked"
    },
    {
     "da": "rå",
@@ -3039,8 +3035,8 @@
     "en": "shorter"
    },
    {
-    "da": "et kort",
-    "en": "a card / a map"
+    "da": "at forkorte",
+    "en": "to shorten"
    }
   ],
   "sentence": {
@@ -3070,8 +3066,8 @@
     "en": "heat"
    },
    {
-    "da": "kold",
-    "en": "cold"
+    "da": "kølig",
+    "en": "chilly"
    },
    {
     "da": "frost",
@@ -3140,16 +3136,12 @@
     "en": "half"
    },
    {
-    "da": "et kvarter",
-    "en": "a quarter of an hour"
+    "da": "et sekund",
+    "en": "a second"
    },
    {
-    "da": "kvart over",
-    "en": "quarter past"
-   },
-   {
-    "da": "kvart i",
-    "en": "quarter to"
+    "da": "et minut",
+    "en": "a minute"
    }
   ],
   "sentence": {
@@ -3175,8 +3167,8 @@
   ],
   "related": [
    {
-    "da": "kvart over",
-    "en": "quarter past"
+    "da": "ti i",
+    "en": "ten to"
    },
    {
     "da": "halv tre",
@@ -3214,8 +3206,8 @@
   ],
   "related": [
    {
-    "da": "kvart i",
-    "en": "quarter to"
+    "da": "ti over",
+    "en": "ten past"
    },
    {
     "da": "halv tre",
@@ -3257,8 +3249,8 @@
     "en": "male"
    },
    {
-    "da": "en kvinde",
-    "en": "a woman"
+    "da": "en pige",
+    "en": "a girl"
    },
    {
     "da": "en dame",
@@ -3296,8 +3288,8 @@
     "en": "chicken breast"
    },
    {
-    "da": "en and",
-    "en": "a duck"
+    "da": "en kalkun",
+    "en": "a turkey"
    }
   ],
   "sentence": {
@@ -3319,8 +3311,8 @@
   ],
   "related": [
    {
-    "da": "at elske",
-    "en": "to love"
+    "da": "had",
+    "en": "hate"
    },
    {
     "da": "en kæreste",
@@ -3358,16 +3350,16 @@
   ],
   "related": [
    {
-    "da": "oksekød",
-    "en": "beef"
-   },
-   {
-    "da": "svinekød",
-    "en": "pork"
-   },
-   {
     "da": "lammekød",
     "en": "lamb"
+   },
+   {
+    "da": "hakket kød",
+    "en": "minced meat"
+   },
+   {
+    "da": "en bøf",
+    "en": "a steak"
    }
   ],
   "sentence": {

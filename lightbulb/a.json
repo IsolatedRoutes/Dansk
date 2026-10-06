@@ -56,16 +56,16 @@
   ],
   "related": [
    {
-    "da": "forsinket",
-    "en": "delayed"
-   },
-   {
     "da": "at aflyse",
     "en": "to cancel"
    },
    {
     "da": "en aflysning",
     "en": "a cancellation"
+   },
+   {
+    "da": "annulleret",
+    "en": "cancelled"
    }
   ],
   "sentence": {
@@ -134,12 +134,12 @@
     "en": "away / gone"
    },
    {
-    "da": "hjemme",
-    "en": "at home"
-   },
-   {
     "da": "tilbage",
     "en": "back"
+   },
+   {
+    "da": "ude",
+    "en": "out, away"
    }
   ],
   "sentence": {
@@ -173,12 +173,12 @@
     "en": "lunch"
    },
    {
-    "da": "en aften",
-    "en": "an evening"
+    "da": "middag",
+    "en": "dinner, main meal"
    },
    {
-    "da": "mad",
-    "en": "food"
+    "da": "et måltid",
+    "en": "a meal"
    }
   ],
   "sentence": {
@@ -204,10 +204,6 @@
   ],
   "related": [
    {
-    "da": "altid",
-    "en": "always"
-   },
-   {
     "da": "ofte",
     "en": "often"
    },
@@ -218,6 +214,10 @@
    {
     "da": "sjældent",
     "en": "rarely"
+   },
+   {
+    "da": "nogensinde",
+    "en": "ever"
    }
   ],
   "sentence": {
@@ -243,16 +243,16 @@
   ],
   "related": [
    {
-    "da": "ensom",
-    "en": "lonely"
-   },
-   {
     "da": "sammen",
     "en": "together"
    },
    {
     "da": "selv",
     "en": "by oneself"
+   },
+   {
+    "da": "mutters alene",
+    "en": "all alone"
    }
   ],
   "sentence": {
@@ -278,16 +278,16 @@
   ],
   "related": [
    {
-    "da": "alkoholfri",
-    "en": "alcohol-free"
-   },
-   {
     "da": "en alkoholiker",
     "en": "an alcoholic"
    },
    {
     "da": "fuld",
     "en": "drunk"
+   },
+   {
+    "da": "ædru",
+    "en": "sober"
    }
   ],
   "sentence": {
@@ -313,16 +313,16 @@
   ],
   "related": [
    {
-    "da": "alt",
-    "en": "everything"
-   },
-   {
     "da": "hver",
     "en": "each / every"
    },
    {
     "da": "ingen",
     "en": "no one"
+   },
+   {
+    "da": "enhver",
+    "en": "anyone, every"
    }
   ],
   "sentence": {
@@ -348,16 +348,16 @@
   ],
   "related": [
    {
-    "da": "endnu",
-    "en": "yet / still"
-   },
-   {
     "da": "stadig",
     "en": "still"
    },
    {
     "da": "tidligt",
     "en": "early"
+   },
+   {
+    "da": "forlængst",
+    "en": "long since"
    }
   ],
   "sentence": {
@@ -387,16 +387,16 @@
     "en": "an allergy"
    },
    {
-    "da": "nødder",
-    "en": "nuts"
-   },
-   {
     "da": "jordnødder",
     "en": "peanuts"
    },
    {
     "da": "høfeber",
     "en": "hay fever"
+   },
+   {
+    "da": "en allergiker",
+    "en": "an allergy sufferer"
    }
   ],
   "sentence": {
@@ -422,16 +422,16 @@
   ],
   "related": [
    {
-    "da": "alle",
-    "en": "everyone / all"
-   },
-   {
     "da": "ingenting",
     "en": "nothing"
    },
    {
     "da": "noget",
     "en": "something"
+   },
+   {
+    "da": "alting",
+    "en": "everything"
    }
   ],
   "sentence": {
@@ -457,10 +457,6 @@
   ],
   "related": [
    {
-    "da": "aldrig",
-    "en": "never"
-   },
-   {
     "da": "ofte",
     "en": "often"
    },
@@ -471,6 +467,10 @@
    {
     "da": "for altid",
     "en": "forever"
+   },
+   {
+    "da": "som regel",
+    "en": "usually"
    }
   ],
   "sentence": {
@@ -500,16 +500,16 @@
     "en": "therefore"
    },
    {
-    "da": "så",
-    "en": "so"
-   },
-   {
     "da": "nemlig",
     "en": "indeed"
    },
    {
     "da": "faktisk",
     "en": "actually"
+   },
+   {
+    "da": "dermed",
+    "en": "thereby"
    }
   ],
   "sentence": {
@@ -535,10 +535,6 @@
   ],
   "related": [
    {
-    "da": "USA",
-    "en": "the USA"
-   },
-   {
     "da": "en amerikaner",
     "en": "an American"
    },
@@ -549,6 +545,10 @@
    {
     "da": "engelsk",
     "en": "English"
+   },
+   {
+    "da": "dansk",
+    "en": "Danish"
    }
   ],
   "sentence": {
@@ -574,10 +574,6 @@
   ],
   "related": [
    {
-    "da": "første",
-    "en": "first"
-   },
-   {
     "da": "tredje",
     "en": "third"
    },
@@ -586,8 +582,12 @@
     "en": "others"
    },
    {
-    "da": "en anden",
-    "en": "someone else / another"
+    "da": "fjerde",
+    "en": "fourth"
+   },
+   {
+    "da": "anderledes",
+    "en": "different"
    }
   ],
   "sentence": {
@@ -609,16 +609,16 @@
   ],
   "related": [
    {
-    "da": "en appelsin",
-    "en": "an orange"
-   },
-   {
     "da": "æblejuice",
     "en": "apple juice"
    },
    {
-    "da": "en juice",
-    "en": "a juice"
+    "da": "tomatjuice",
+    "en": "tomato juice"
+   },
+   {
+    "da": "ananasjuice",
+    "en": "pineapple juice"
    }
   ],
   "sentence": {
@@ -757,16 +757,16 @@
   ],
   "related": [
    {
-    "da": "et arbejde",
-    "en": "a job, work"
-   },
-   {
     "da": "en arbejdsplads",
     "en": "a workplace"
    },
    {
-    "da": "en arbejder",
-    "en": "a worker"
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en arbejdsdag",
+    "en": "a workday"
    }
   ],
   "sentence": {
@@ -792,16 +792,16 @@
   ],
   "related": [
    {
-    "da": "sytten",
-    "en": "seventeen"
-   },
-   {
-    "da": "nitten",
-    "en": "nineteen"
-   },
-   {
     "da": "tyve",
     "en": "twenty"
+   },
+   {
+    "da": "seksten",
+    "en": "sixteen"
+   },
+   {
+    "da": "femten",
+    "en": "fifteen"
    }
   ],
   "sentence": {
@@ -987,12 +987,12 @@
     "en": "a meeting"
    },
    {
-    "da": "at aftale",
-    "en": "to agree/arrange"
-   },
-   {
     "da": "en tid",
     "en": "a time slot"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
    }
   ],
   "sentence": {
@@ -1139,16 +1139,16 @@
   ],
   "related": [
    {
-    "da": "gammel",
-    "en": "old"
-   },
-   {
     "da": "ung",
     "en": "young"
    },
    {
     "da": "en fødselsdag",
     "en": "a birthday"
+   },
+   {
+    "da": "ældre",
+    "en": "older"
    }
   ],
   "sentence": {
@@ -1256,16 +1256,16 @@
   ],
   "related": [
    {
-    "da": "USA",
-    "en": "the USA"
-   },
-   {
     "da": "amerikansk",
     "en": "American"
    },
    {
     "da": "en dansker",
     "en": "a Dane"
+   },
+   {
+    "da": "en englænder",
+    "en": "an Englishman"
    }
   ],
   "sentence": {
@@ -1416,16 +1416,16 @@
   ],
   "related": [
    {
-    "da": "et program",
-    "en": "a program"
-   },
-   {
     "da": "en applikation",
     "en": "an application"
    },
    {
     "da": "en hjemmeside",
     "en": "a website"
+   },
+   {
+    "da": "at downloade",
+    "en": "to download"
    }
   ],
   "sentence": {
@@ -1455,16 +1455,16 @@
   ],
   "related": [
    {
-    "da": "orange",
-    "en": "orange (the colour)"
-   },
-   {
     "da": "en frugt",
     "en": "a fruit"
    },
    {
     "da": "en citron",
     "en": "a lemon"
+   },
+   {
+    "da": "et æble",
+    "en": "an apple"
    }
   ],
   "sentence": {
@@ -1537,16 +1537,16 @@
   ],
   "related": [
    {
-    "da": "et blad",
-    "en": "a magazine"
-   },
-   {
     "da": "et dagblad",
     "en": "a daily paper"
    },
    {
     "da": "en avisartikel",
     "en": "a newspaper article"
+   },
+   {
+    "da": "en overskrift",
+    "en": "a headline"
    }
   ],
   "sentence": {
@@ -1619,16 +1619,16 @@
   ],
   "related": [
    {
-    "da": "en apoteker",
-    "en": "a pharmacist"
-   },
-   {
-    "da": "en farmaceut",
-    "en": "a pharmacist"
+    "da": "en tablet",
+    "en": "a tablet"
    },
    {
     "da": "en recept",
     "en": "a prescription"
+   },
+   {
+    "da": "en læge",
+    "en": "a doctor"
    }
   ],
   "sentence": {
@@ -1650,20 +1650,20 @@
   ],
   "related": [
    {
-    "da": "at arbejde",
-    "en": "to work"
-   },
-   {
-    "da": "et job",
-    "en": "a job"
-   },
-   {
     "da": "en arbejdsplads",
     "en": "a workplace"
    },
    {
     "da": "en arbejder",
     "en": "a worker"
+   },
+   {
+    "da": "en arbejdsdag",
+    "en": "a working day"
+   },
+   {
+    "da": "arbejdsløs",
+    "en": "unemployed"
    }
   ],
   "sentence": {

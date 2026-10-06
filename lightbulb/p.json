@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "en pakke",
-    "en": "a parcel"
-   },
-   {
     "da": "at pakke ud",
     "en": "to unpack"
    },
    {
     "da": "at pakke ind",
     "en": "to wrap"
+   },
+   {
+    "da": "emballage",
+    "en": "packaging"
    }
   ],
   "sentence": {
@@ -64,12 +64,12 @@
     "en": "to attempt"
    },
    {
-    "da": "en prøve",
-    "en": "a test / sample"
-   },
-   {
     "da": "at prøve tøj",
     "en": "to try on clothes"
+   },
+   {
+    "da": "at smage",
+    "en": "to taste"
    }
   ],
   "sentence": {
@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "at pakke",
-    "en": "to pack"
-   },
-   {
     "da": "at pakke ud",
     "en": "to unpack"
    },
    {
     "da": "at pakke ind",
     "en": "to wrap"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
    }
   ],
   "sentence": {
@@ -177,16 +177,16 @@
   ],
   "related": [
    {
-    "da": "en kage",
-    "en": "a cake"
-   },
-   {
-    "da": "en pande",
-    "en": "a frying pan"
-   },
-   {
     "da": "en vaffel",
     "en": "a waffle"
+   },
+   {
+    "da": "en æbleskive",
+    "en": "a Danish pancake ball"
+   },
+   {
+    "da": "en æggekage",
+    "en": "an omelette"
    }
   ],
   "sentence": {
@@ -259,12 +259,12 @@
     "en": "a garden"
    },
    {
-    "da": "at parkere",
-    "en": "to park (a car)"
-   },
-   {
     "da": "en parkering",
     "en": "a parking lot"
+   },
+   {
+    "da": "en parkbænk",
+    "en": "a park bench"
    }
   ],
   "sentence": {
@@ -294,16 +294,16 @@
   ],
   "related": [
    {
-    "da": "tålmodig",
-    "en": "patient (calm)"
-   },
-   {
     "da": "en doktor",
     "en": "a doctor"
    },
    {
-    "da": "en læge",
-    "en": "a doctor"
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "en behandling",
+    "en": "a treatment"
    }
   ],
   "sentence": {
@@ -337,12 +337,12 @@
     "en": "a lunch break"
    },
    {
-    "da": "en kaffepause",
-    "en": "a coffee break"
-   },
-   {
     "da": "et frikvarter",
     "en": "a school break"
+   },
+   {
+    "da": "en ferie",
+    "en": "a holiday"
    }
   ],
   "sentence": {
@@ -380,8 +380,8 @@
     "en": "a pencil"
    },
    {
-    "da": "pæn",
-    "en": "nice, pretty"
+    "da": "en tusch",
+    "en": "a marker pen"
    }
   ],
   "sentence": {
@@ -411,16 +411,16 @@
   ],
   "related": [
    {
-    "da": "en station",
-    "en": "a station"
-   },
-   {
     "da": "et spor",
     "en": "a track"
    },
    {
     "da": "en banegård",
     "en": "a train station"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
    }
   ],
   "sentence": {
@@ -497,12 +497,12 @@
     "en": "a boy"
    },
    {
-    "da": "en kvinde",
-    "en": "a woman"
-   },
-   {
     "da": "et barn",
     "en": "a child"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a girlfriend, boyfriend"
    }
   ],
   "sentence": {
@@ -532,16 +532,16 @@
   ],
   "related": [
    {
-    "da": "en tablet",
-    "en": "a tablet"
-   },
-   {
     "da": "en kapsel",
     "en": "a capsule"
    },
    {
     "da": "medicin",
     "en": "medicine"
+   },
+   {
+    "da": "en p-pille",
+    "en": "a birth control pill"
    }
   ],
   "sentence": {
@@ -692,12 +692,12 @@
     "en": "to plan"
    },
    {
-    "da": "en køreplan",
-    "en": "a timetable"
-   },
-   {
     "da": "en tidsplan",
     "en": "a schedule"
+   },
+   {
+    "da": "en aftale",
+    "en": "an arrangement"
    }
   ],
   "sentence": {
@@ -727,20 +727,20 @@
   ],
   "related": [
    {
-    "da": "en pose",
-    "en": "a bag"
-   },
-   {
     "da": "en indkøbspose",
     "en": "a shopping bag"
    },
    {
-    "da": "plastik",
-    "en": "plastic"
-   },
-   {
     "da": "en taske",
     "en": "a bag (carried)"
+   },
+   {
+    "da": "en papirpose",
+    "en": "a paper bag"
+   },
+   {
+    "da": "en skraldepose",
+    "en": "a bin bag"
    }
   ],
   "sentence": {
@@ -770,16 +770,16 @@
   ],
   "related": [
    {
-    "da": "politi",
-    "en": "police"
+    "da": "en brandstation",
+    "en": "a fire station"
    },
    {
-    "da": "en politibetjent",
-    "en": "a police officer"
+    "da": "en politibil",
+    "en": "a police car"
    },
    {
-    "da": "en station",
-    "en": "a station"
+    "da": "et nødnummer",
+    "en": "an emergency number"
    }
   ],
   "sentence": {
@@ -848,10 +848,6 @@
   ],
   "related": [
    {
-    "da": "en taske",
-    "en": "a bag, purse"
-   },
-   {
     "da": "en plastikpose",
     "en": "a plastic bag"
    },
@@ -862,6 +858,10 @@
    {
     "da": "en papirpose",
     "en": "a paper bag"
+   },
+   {
+    "da": "en skraldepose",
+    "en": "a bin bag"
    }
   ],
   "sentence": {
@@ -930,16 +930,16 @@
   ],
   "related": [
    {
-    "da": "en hovedpude",
-    "en": "a head pillow"
-   },
-   {
     "da": "en dyne",
     "en": "a duvet"
    },
    {
     "da": "en madras",
     "en": "a mattress"
+   },
+   {
+    "da": "et tæppe",
+    "en": "a blanket"
    }
   ],
   "sentence": {
@@ -969,8 +969,8 @@
   ],
   "related": [
    {
-    "da": "en tegnebog",
-    "en": "a wallet"
+    "da": "en portemonnæ",
+    "en": "a purse, wallet"
    },
    {
     "da": "en taske",
@@ -1086,16 +1086,16 @@
   ],
   "related": [
    {
-    "da": "en pølsevogn",
-    "en": "a hot-dog stand"
-   },
-   {
-    "da": "en hotdog",
-    "en": "a hot dog"
-   },
-   {
     "da": "en frikadelle",
     "en": "a meatball"
+   },
+   {
+    "da": "en medisterpølse",
+    "en": "a pork sausage"
+   },
+   {
+    "da": "en spegepølse",
+    "en": "a salami-style sausage"
    }
   ],
   "sentence": {
@@ -1199,12 +1199,12 @@
     "en": "a boarding pass"
    },
    {
-    "da": "at passe",
-    "en": "to fit, to look after"
-   },
-   {
     "da": "et visum",
     "en": "a visa"
+   },
+   {
+    "da": "et kørekort",
+    "en": "a driver's license"
    }
   ],
   "sentence": {
@@ -1273,16 +1273,16 @@
   ],
   "related": [
    {
-    "da": "et posthus",
-    "en": "a post office"
-   },
-   {
-    "da": "et kontor",
-    "en": "an office"
-   },
-   {
     "da": "en postkasse",
     "en": "a post box"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
+   },
+   {
+    "da": "et frimærke",
+    "en": "a stamp"
    }
   ],
   "sentence": {
@@ -1394,12 +1394,12 @@
     "en": "to try on clothes"
    },
    {
-    "da": "at prøve",
-    "en": "to try"
+    "da": "et omklædningsrum",
+    "en": "a changing room"
    },
    {
-    "da": "et rum",
-    "en": "a room"
+    "da": "en størrelse",
+    "en": "a size"
    }
   ],
   "sentence": {
@@ -1608,16 +1608,16 @@
   ],
   "related": [
    {
-    "da": "salt",
-    "en": "salt"
-   },
-   {
-    "da": "en peberfrugt",
-    "en": "a bell pepper"
-   },
-   {
     "da": "et krydderi",
     "en": "a spice"
+   },
+   {
+    "da": "kanel",
+    "en": "cinnamon"
+   },
+   {
+    "da": "chili",
+    "en": "chili"
    }
   ],
   "sentence": {
@@ -1647,16 +1647,16 @@
     "en": "a crown (currency)"
    },
    {
-    "da": "en mønt",
-    "en": "a coin"
-   },
-   {
     "da": "kontanter",
     "en": "cash"
    },
    {
-    "da": "en seddel",
-    "en": "a banknote"
+    "da": "en pung",
+    "en": "a wallet"
+   },
+   {
+    "da": "en øre",
+    "en": "an øre (small coin unit)"
    }
   ],
   "sentence": {
@@ -1787,16 +1787,16 @@
   ],
   "related": [
    {
-    "da": "en politibetjent",
-    "en": "a police officer"
-   },
-   {
     "da": "en politistation",
     "en": "a police station"
    },
    {
     "da": "en politibil",
     "en": "a police car"
+   },
+   {
+    "da": "en betjent",
+    "en": "an officer"
    }
   ],
   "sentence": {
@@ -1931,16 +1931,16 @@
   ],
   "related": [
    {
-    "da": "cirka",
-    "en": "about"
-   },
-   {
     "da": "nøjagtig",
     "en": "exact"
    },
    {
     "da": "omkring",
     "en": "around"
+   },
+   {
+    "da": "netop",
+    "en": "just / exactly"
    }
   ],
   "sentence": {
@@ -2005,16 +2005,16 @@
   ],
   "related": [
    {
-    "da": "vi ses",
-    "en": "see you"
-   },
-   {
     "da": "farvel",
     "en": "goodbye"
    },
    {
     "da": "hej hej",
     "en": "bye"
+   },
+   {
+    "da": "hav det godt",
+    "en": "take care"
    }
   ],
   "sentence": {

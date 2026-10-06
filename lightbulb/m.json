@@ -103,16 +103,16 @@
   ],
   "related": [
    {
-    "da": "at synes",
-    "en": "to think (an opinion)"
-   },
-   {
-    "da": "at betyde",
-    "en": "to mean (word)"
-   },
-   {
     "da": "en mening",
     "en": "an opinion"
+   },
+   {
+    "da": "at tro",
+    "en": "to believe"
+   },
+   {
+    "da": "at tænke",
+    "en": "to think"
    }
   ],
   "sentence": {
@@ -181,16 +181,16 @@
   ],
   "related": [
    {
-    "da": "en e-mail",
-    "en": "an email"
-   },
-   {
     "da": "at maile",
     "en": "to email"
    },
    {
     "da": "et brev",
     "en": "a letter"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
    }
   ],
   "sentence": {
@@ -298,16 +298,16 @@
   ],
   "related": [
    {
-    "da": "en mave",
-    "en": "a stomach"
-   },
-   {
     "da": "en hovedpine",
     "en": "a headache"
    },
    {
-    "da": "ondt",
-    "en": "pain / hurt"
+    "da": "en tandpine",
+    "en": "a toothache"
+   },
+   {
+    "da": "en smerte",
+    "en": "a pain"
    }
   ],
   "sentence": {
@@ -341,12 +341,12 @@
     "en": "a watermelon"
    },
    {
-    "da": "en honningmelon",
-    "en": "a honeydew melon"
-   },
-   {
     "da": "en banan",
     "en": "a banana"
+   },
+   {
+    "da": "en ananas",
+    "en": "a pineapple"
    }
   ],
   "sentence": {
@@ -454,16 +454,16 @@
   ],
   "related": [
    {
-    "da": "et S-tog",
-    "en": "an S-train"
-   },
-   {
-    "da": "et tog",
-    "en": "a train"
-   },
-   {
     "da": "en bus",
     "en": "a bus"
+   },
+   {
+    "da": "en sporvogn",
+    "en": "a tram"
+   },
+   {
+    "da": "en togstation",
+    "en": "a train station"
    }
   ],
   "sentence": {
@@ -493,10 +493,6 @@
   ],
   "related": [
    {
-    "da": "en frokost",
-    "en": "a lunch"
-   },
-   {
     "da": "en morgenmad",
     "en": "a breakfast"
    },
@@ -507,6 +503,10 @@
    {
     "da": "et måltid",
     "en": "a meal"
+   },
+   {
+    "da": "en eftermiddag",
+    "en": "an afternoon"
    }
   ],
   "sentence": {
@@ -536,16 +536,16 @@
   ],
   "related": [
    {
-    "da": "en mobiltelefon",
-    "en": "a mobile phone"
-   },
-   {
     "da": "en smartphone",
     "en": "a smartphone"
    },
    {
-    "da": "en telefon",
-    "en": "a phone"
+    "da": "et mobilnummer",
+    "en": "a mobile number"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
    }
   ],
   "sentence": {
@@ -575,16 +575,16 @@
   ],
   "related": [
    {
-    "da": "en mobil",
-    "en": "a mobile phone (short)"
-   },
-   {
-    "da": "en telefon",
-    "en": "a phone"
-   },
-   {
     "da": "en smartphone",
     "en": "a smartphone"
+   },
+   {
+    "da": "et mobilnummer",
+    "en": "a mobile number"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
    }
   ],
   "sentence": {
@@ -657,20 +657,20 @@
   ],
   "related": [
    {
-    "da": "en farfar",
-    "en": "a grandfather (father's father)"
-   },
-   {
     "da": "en mormor",
     "en": "a grandmother (mother's mother)"
    },
    {
-    "da": "en far",
-    "en": "a father"
-   },
-   {
     "da": "bedsteforældre",
     "en": "grandparents"
+   },
+   {
+    "da": "en bedstefar",
+    "en": "a grandfather"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
    }
   ],
   "sentence": {
@@ -712,8 +712,8 @@
     "en": "an evening"
    },
    {
-    "da": "i morgen",
-    "en": "tomorrow"
+    "da": "en eftermiddag",
+    "en": "an afternoon"
    }
   ],
   "sentence": {
@@ -743,20 +743,20 @@
   ],
   "related": [
    {
-    "da": "en farmor",
-    "en": "a grandmother (father's mother)"
-   },
-   {
     "da": "en morfar",
     "en": "a grandfather (mother's father)"
    },
    {
-    "da": "en mor",
-    "en": "a mother"
-   },
-   {
     "da": "bedsteforældre",
     "en": "grandparents"
+   },
+   {
+    "da": "en bedstemor",
+    "en": "a grandmother"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
    }
   ],
   "sentence": {
@@ -825,16 +825,16 @@
   ],
   "related": [
    {
-    "da": "en rotte",
-    "en": "a rat"
-   },
-   {
-    "da": "en computermus",
-    "en": "a computer mouse"
-   },
-   {
     "da": "en hamster",
     "en": "a hamster"
+   },
+   {
+    "da": "et marsvin",
+    "en": "a guinea pig"
+   },
+   {
+    "da": "et tastatur",
+    "en": "a keyboard"
    }
   ],
   "sentence": {
@@ -864,16 +864,16 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road/way"
-   },
-   {
     "da": "en metode",
     "en": "a method"
    },
    {
     "da": "en fremgangsmåde",
     "en": "a procedure"
+   },
+   {
+    "da": "en stil",
+    "en": "a style"
    }
   ],
   "sentence": {
@@ -911,8 +911,8 @@
     "en": "a star"
    },
    {
-    "da": "en måned",
-    "en": "a month"
+    "da": "en planet",
+    "en": "a planet"
    }
   ],
   "sentence": {
@@ -1032,12 +1032,8 @@
     "en": "a last name"
    },
    {
-    "da": "et navn",
-    "en": "a name"
-   },
-   {
-    "da": "mellem",
-    "en": "between"
+    "da": "et kaldenavn",
+    "en": "a nickname"
    }
   ],
   "sentence": {
@@ -1106,16 +1102,16 @@
   ],
   "related": [
    {
-    "da": "en menu",
-    "en": "a set meal"
-   },
-   {
     "da": "et vinkort",
     "en": "a wine list"
    },
    {
     "da": "dagens ret",
     "en": "dish of the day"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
    }
   ],
   "sentence": {
@@ -1151,10 +1147,6 @@
    {
     "da": "et sekund",
     "en": "a second"
-   },
-   {
-    "da": "et øjeblik",
-    "en": "a moment"
    },
    {
     "da": "et kvarter",
@@ -1237,10 +1229,6 @@
    {
     "da": "aftensmad",
     "en": "dinner"
-   },
-   {
-    "da": "mad",
-    "en": "food"
    }
   ],
   "sentence": {
@@ -1270,16 +1258,16 @@
   ],
   "related": [
    {
-    "da": "at møde",
-    "en": "to meet"
-   },
-   {
     "da": "en aftale",
     "en": "an appointment"
    },
    {
     "da": "et mødelokale",
     "en": "a meeting room"
+   },
+   {
+    "da": "en dagsorden",
+    "en": "an agenda"
    }
   ],
   "sentence": {
@@ -1305,16 +1293,16 @@
   ],
   "related": [
    {
-    "da": "en ret",
-    "en": "a dish"
-   },
-   {
-    "da": "en mad",
-    "en": "a sandwich"
-   },
-   {
     "da": "morgenmad",
     "en": "breakfast"
+   },
+   {
+    "da": "frokost",
+    "en": "lunch"
+   },
+   {
+    "da": "aftensmad",
+    "en": "dinner"
    }
   ],
   "sentence": {
@@ -1410,16 +1398,16 @@
   ],
   "related": [
    {
-    "da": "en mand",
-    "en": "a man"
-   },
-   {
-    "da": "du",
-    "en": "you"
-   },
-   {
     "da": "folk",
     "en": "people"
+   },
+   {
+    "da": "alle",
+    "en": "everyone"
+   },
+   {
+    "da": "nogen",
+    "en": "someone"
    }
   ],
   "sentence": {
@@ -1488,8 +1476,8 @@
     "en": "female"
    },
    {
-    "da": "en mand",
-    "en": "a man"
+    "da": "en dreng",
+    "en": "a boy"
    },
    {
     "da": "mandig",
@@ -1519,10 +1507,6 @@
   ],
   "related": [
    {
-    "da": "meget",
-    "en": "much / a lot"
-   },
-   {
     "da": "få",
     "en": "few"
    },
@@ -1533,6 +1517,10 @@
    {
     "da": "flere",
     "en": "more / several"
+   },
+   {
+    "da": "en masse",
+    "en": "a lot"
    }
   ],
   "sentence": {
@@ -1562,12 +1550,12 @@
     "en": "thanks a lot"
    },
    {
-    "da": "selv tak",
-    "en": "you're welcome"
+    "da": "tak for sidst",
+    "en": "thanks for last time"
    },
    {
-    "da": "tak for hjælpen",
-    "en": "thanks for the help"
+    "da": "vær så god",
+    "en": "you're welcome"
    }
   ],
   "sentence": {
@@ -1667,16 +1655,16 @@
   ],
   "related": [
    {
-    "da": "matte",
-    "en": "math (short, informal)"
-   },
-   {
     "da": "fysik",
     "en": "physics"
    },
    {
-    "da": "at regne",
-    "en": "to calculate"
+    "da": "kemi",
+    "en": "chemistry"
+   },
+   {
+    "da": "geometri",
+    "en": "geometry"
    }
   ],
   "sentence": {
@@ -1702,8 +1690,8 @@
   ],
   "related": [
    {
-    "da": "mayo",
-    "en": "mayo"
+    "da": "remoulade",
+    "en": "remoulade"
    },
    {
     "da": "ketchup",
@@ -1737,20 +1725,16 @@
   ],
   "related": [
    {
-    "da": "uden",
-    "en": "without"
-   },
-   {
     "da": "sammen med",
     "en": "together with"
    },
    {
-    "da": "tage med",
-    "en": "to take along, to go along"
-   },
-   {
     "da": "sammen",
     "en": "together"
+   },
+   {
+    "da": "hos",
+    "en": "at / with (someone's place)"
    }
   ],
   "sentence": {
@@ -1780,8 +1764,8 @@
     "en": "at once"
    },
    {
-    "da": "om lidt",
-    "en": "in a little while"
+    "da": "øjeblikkeligt",
+    "en": "immediately"
    },
    {
     "da": "senere",
@@ -1846,8 +1830,8 @@
   ],
   "related": [
    {
-    "da": "mange",
-    "en": "many"
+    "da": "en masse",
+    "en": "a lot"
    },
    {
     "da": "lidt",
@@ -1881,8 +1865,8 @@
   ],
   "related": [
    {
-    "da": "mælk",
-    "en": "milk"
+    "da": "rugmel",
+    "en": "rye flour"
    },
    {
     "da": "hvedemel",
@@ -1963,8 +1947,8 @@
     "en": "however"
    },
    {
-    "da": "mens",
-    "en": "while"
+    "da": "alligevel",
+    "en": "still / anyway"
    }
   ],
   "sentence": {
@@ -1994,8 +1978,8 @@
     "en": "meanwhile"
    },
    {
-    "da": "men",
-    "en": "but"
+    "da": "da",
+    "en": "when (past)"
    },
    {
     "da": "når",
@@ -2029,8 +2013,8 @@
   ],
   "related": [
    {
-    "da": "flere",
-    "en": "more (in number)"
+    "da": "ekstra",
+    "en": "extra"
    },
    {
     "da": "mest",
@@ -2099,12 +2083,12 @@
   ],
   "related": [
    {
-    "da": "jeg",
-    "en": "I"
+    "da": "hende",
+    "en": "her"
    },
    {
-    "da": "min",
-    "en": "my (en-word)"
+    "da": "dem",
+    "en": "them"
    },
    {
     "da": "dig",
@@ -2150,8 +2134,8 @@
     "en": "hundred"
    },
    {
-    "da": "en milliard",
-    "en": "a billion"
+    "da": "en millionær",
+    "en": "a millionaire"
    }
   ],
   "sentence": {
@@ -2177,16 +2161,20 @@
   ],
   "related": [
    {
-    "da": "mit",
-    "en": "my (et-word)"
-   },
-   {
-    "da": "mine",
-    "en": "my (many)"
-   },
-   {
     "da": "din",
     "en": "your (en-word)"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "hendes",
+    "en": "her"
+   },
+   {
+    "da": "vores",
+    "en": "our"
    }
   ],
   "sentence": {
@@ -2247,16 +2235,16 @@
   ],
   "related": [
    {
-    "da": "min",
-    "en": "my (en-word)"
-   },
-   {
-    "da": "mit",
-    "en": "my (et-word)"
-   },
-   {
     "da": "dine",
     "en": "your (many)"
+   },
+   {
+    "da": "vores",
+    "en": "our"
+   },
+   {
+    "da": "hans",
+    "en": "his"
    }
   ],
   "sentence": {
@@ -2282,16 +2270,16 @@
   ],
   "related": [
    {
-    "da": "min",
-    "en": "my (en-word)"
-   },
-   {
-    "da": "mine",
-    "en": "my (many)"
-   },
-   {
     "da": "dit",
     "en": "your (et-word)"
+   },
+   {
+    "da": "vores",
+    "en": "our"
+   },
+   {
+    "da": "hans",
+    "en": "his"
    }
   ],
   "sentence": {
@@ -2317,16 +2305,16 @@
   ],
   "related": [
    {
-    "da": "imod",
-    "en": "against, opposed"
-   },
-   {
-    "da": "et mod",
-    "en": "courage"
-   },
-   {
     "da": "fra",
     "en": "from"
+   },
+   {
+    "da": "til",
+    "en": "to"
+   },
+   {
+    "da": "med",
+    "en": "with"
    }
   ],
   "sentence": {
@@ -2360,8 +2348,8 @@
     "en": "dinner"
    },
    {
-    "da": "en morgen",
-    "en": "a morning"
+    "da": "et måltid",
+    "en": "a meal"
    }
   ],
   "sentence": {
@@ -2566,8 +2554,8 @@
     "en": "hungry"
    },
    {
-    "da": "fuld",
-    "en": "drunk / full"
+    "da": "tørstig",
+    "en": "thirsty"
    },
    {
     "da": "sult",
@@ -2601,8 +2589,8 @@
     "en": "light / bright"
    },
    {
-    "da": "mørkeblå",
-    "en": "dark blue"
+    "da": "mørkere",
+    "en": "darker"
    },
    {
     "da": "mørkegrøn",
@@ -2636,16 +2624,12 @@
     "en": "light blue"
    },
    {
-    "da": "blå",
-    "en": "blue"
-   },
-   {
-    "da": "mørk",
-    "en": "dark"
-   },
-   {
     "da": "mørkegrøn",
     "en": "dark green"
+   },
+   {
+    "da": "mørkerød",
+    "en": "dark red"
    }
   ],
   "sentence": {
@@ -2675,16 +2659,12 @@
     "en": "light green"
    },
    {
-    "da": "grøn",
-    "en": "green"
-   },
-   {
-    "da": "mørk",
-    "en": "dark"
-   },
-   {
     "da": "mørkeblå",
     "en": "dark blue"
+   },
+   {
+    "da": "mørkerød",
+    "en": "dark red"
    }
   ],
   "sentence": {

@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "gift",
-    "en": "married"
-   },
-   {
     "da": "at blive skilt",
     "en": "to get divorced"
    },
    {
     "da": "et bryllup",
     "en": "a wedding"
+   },
+   {
+    "da": "en brud",
+    "en": "a bride"
    }
   ],
   "sentence": {
@@ -138,16 +138,16 @@
   ],
   "related": [
    {
-    "da": "at acceptere",
-    "en": "to accept"
-   },
-   {
     "da": "at tage imod",
     "en": "to receive, to accept"
    },
    {
     "da": "at afvise",
     "en": "to reject"
+   },
+   {
+    "da": "at samtykke",
+    "en": "to consent"
    }
   ],
   "sentence": {
@@ -259,12 +259,12 @@
     "en": "to come"
    },
    {
-    "da": "at køre",
-    "en": "to drive"
-   },
-   {
     "da": "en gåtur",
     "en": "a walk"
+   },
+   {
+    "da": "at spadsere",
+    "en": "to stroll"
    }
   ],
   "sentence": {
@@ -333,20 +333,20 @@
   ],
   "related": [
    {
-    "da": "at tage hjem",
-    "en": "to go home"
-   },
-   {
-    "da": "at køre hjem",
-    "en": "to drive home"
-   },
-   {
     "da": "at komme hjem",
     "en": "to come home"
    },
    {
     "da": "hjemme",
     "en": "at home"
+   },
+   {
+    "da": "at rejse hjem",
+    "en": "to travel home"
+   },
+   {
+    "da": "en hjemvej",
+    "en": "the way home"
    }
   ],
   "sentence": {
@@ -380,12 +380,12 @@
     "en": "a cinema"
    },
    {
-    "da": "at gå i bio",
-    "en": "to go to the movies"
-   },
-   {
     "da": "at gå i teatret",
     "en": "to go to the theatre"
+   },
+   {
+    "da": "en biografbillet",
+    "en": "a cinema ticket"
    }
   ],
   "sentence": {
@@ -419,16 +419,16 @@
     "en": "to get up"
    },
    {
-    "da": "at falde i søvn",
-    "en": "to fall asleep"
-   },
-   {
     "da": "at sove",
     "en": "to sleep"
    },
    {
     "da": "at lægge sig",
     "en": "to lie down"
+   },
+   {
+    "da": "at vågne",
+    "en": "to wake up"
    }
   ],
   "sentence": {
@@ -466,8 +466,8 @@
     "en": "to come in"
    },
    {
-    "da": "inde",
-    "en": "inside"
+    "da": "en indgang",
+    "en": "an entrance"
    }
   ],
   "sentence": {
@@ -731,16 +731,16 @@
   ],
   "related": [
    {
-    "da": "at lave",
-    "en": "to make / do"
-   },
-   {
     "da": "at gøre rent",
     "en": "to clean"
    },
    {
     "da": "at gøre ondt",
     "en": "to hurt"
+   },
+   {
+    "da": "at udføre",
+    "en": "to carry out"
    }
   ],
   "sentence": {
@@ -852,16 +852,16 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road"
-   },
-   {
     "da": "en sidegade",
     "en": "a side street"
    },
    {
     "da": "en gågade",
     "en": "a pedestrian street"
+   },
+   {
+    "da": "en allé",
+    "en": "an avenue"
    }
   ],
   "sentence": {
@@ -891,16 +891,16 @@
   ],
   "related": [
    {
-    "da": "en kniv",
-    "en": "a knife"
-   },
-   {
     "da": "en ske",
     "en": "a spoon"
    },
    {
     "da": "et bestik",
     "en": "cutlery"
+   },
+   {
+    "da": "en teske",
+    "en": "a teaspoon"
    }
   ],
   "sentence": {
@@ -930,12 +930,12 @@
     "en": "every week"
    },
    {
-    "da": "en gang om dagen",
-    "en": "once a day"
-   },
-   {
     "da": "en uge",
     "en": "a week"
+   },
+   {
+    "da": "en gang om året",
+    "en": "once a year"
    }
   ],
   "sentence": {
@@ -1004,16 +1004,16 @@
   ],
   "related": [
    {
-    "da": "et svin",
-    "en": "a swine/pig"
-   },
-   {
-    "da": "svinekød",
-    "en": "pork"
-   },
-   {
     "da": "en pattegris",
     "en": "a piglet"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "et får",
+    "en": "a sheep"
    }
   ],
   "sentence": {
@@ -1086,12 +1086,12 @@
     "en": "a fruit"
    },
    {
-    "da": "en gulerod",
-    "en": "a carrot"
+    "da": "en kartoffel",
+    "en": "a potato"
    },
    {
-    "da": "grøn",
-    "en": "green"
+    "da": "et løg",
+    "en": "an onion"
    }
   ],
   "sentence": {
@@ -1129,8 +1129,8 @@
     "en": "a piano"
    },
    {
-    "da": "at spille",
-    "en": "to play"
+    "da": "en violin",
+    "en": "a violin"
    }
   ],
   "sentence": {
@@ -1160,16 +1160,20 @@
   ],
   "related": [
    {
-    "da": "gul",
-    "en": "yellow"
-   },
-   {
-    "da": "en rod",
-    "en": "a root"
-   },
-   {
     "da": "en grøntsag",
     "en": "a vegetable"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   },
+   {
+    "da": "en rodfrugt",
+    "en": "a root vegetable"
+   },
+   {
+    "da": "et løg",
+    "en": "an onion"
    }
   ],
   "sentence": {
@@ -1199,16 +1203,16 @@
   ],
   "related": [
    {
-    "da": "at gå",
-    "en": "to walk"
-   },
-   {
-    "da": "en tur",
-    "en": "a trip"
-   },
-   {
     "da": "en cykeltur",
     "en": "a bike ride"
+   },
+   {
+    "da": "en vandretur",
+    "en": "a hike"
+   },
+   {
+    "da": "en spadseretur",
+    "en": "a stroll"
    }
   ],
   "sentence": {
@@ -1277,16 +1281,16 @@
   ],
   "related": [
    {
-    "da": "en gave",
-    "en": "a gift"
-   },
-   {
-    "da": "et kort",
-    "en": "a card"
-   },
-   {
     "da": "et fødselsdagskort",
     "en": "a birthday card"
+   },
+   {
+    "da": "en gaveæske",
+    "en": "a gift box"
+   },
+   {
+    "da": "et kreditkort",
+    "en": "a credit card"
    }
   ],
   "sentence": {
@@ -1406,8 +1410,8 @@
     "en": "a wall"
    },
    {
-    "da": "en etage",
-    "en": "a floor (level)"
+    "da": "et tæppe",
+    "en": "a carpet"
    }
   ],
   "sentence": {
@@ -1476,16 +1480,16 @@
   ],
   "related": [
    {
-    "da": "tid",
-    "en": "time (in general)"
-   },
-   {
     "da": "engang",
     "en": "once / some day"
    },
    {
     "da": "en korridor",
     "en": "a hallway"
+   },
+   {
+    "da": "hver gang",
+    "en": "every time"
    }
   ],
   "sentence": {
@@ -1624,8 +1628,8 @@
     "en": "to be fond of"
    },
    {
-    "da": "at elske",
-    "en": "to love"
+    "da": "at kunne lide",
+    "en": "to like"
    },
    {
     "da": "tilfreds med",
@@ -1655,16 +1659,16 @@
   ],
   "related": [
    {
-    "da": "godt nytår",
-    "en": "happy New Year"
-   },
-   {
-    "da": "i lige måde",
-    "en": "same to you"
+    "da": "god jul",
+    "en": "merry Christmas"
    },
    {
     "da": "glædelig påske",
     "en": "Happy Easter"
+   },
+   {
+    "da": "tillykke",
+    "en": "congratulations"
    }
   ],
   "sentence": {
@@ -1702,8 +1706,8 @@
     "en": "best"
    },
    {
-    "da": "godt",
-    "en": "well"
+    "da": "dejlig",
+    "en": "lovely"
    }
   ],
   "sentence": {
@@ -1729,16 +1733,16 @@
   ],
   "related": [
    {
-    "da": "velbekomme",
-    "en": "enjoy (your meal)"
-   },
-   {
     "da": "tak for mad",
     "en": "thanks for the meal"
    },
    {
     "da": "skål",
     "en": "cheers"
+   },
+   {
+    "da": "værsgo",
+    "en": "here you are"
    }
   ],
   "sentence": {
@@ -1803,12 +1807,12 @@
     "en": "have a good trip"
    },
    {
-    "da": "god appetit",
-    "en": "enjoy your meal"
+    "da": "hav det sjovt",
+    "en": "have fun"
    },
    {
-    "da": "velbekomme",
-    "en": "enjoy your meal"
+    "da": "god weekend",
+    "en": "have a good weekend"
    }
   ],
   "sentence": {
@@ -1904,8 +1908,8 @@
   ],
   "related": [
    {
-    "da": "god rejse",
-    "en": "have a good journey"
+    "da": "god fornøjelse",
+    "en": "enjoy / have fun"
    },
    {
     "da": "pas på dig selv",
@@ -1978,8 +1982,8 @@
     "en": "good morning"
    },
    {
-    "da": "godnat",
-    "en": "good night"
+    "da": "hej",
+    "en": "hi"
    },
    {
     "da": "goddag",
@@ -2013,8 +2017,8 @@
   ],
   "related": [
    {
-    "da": "hej",
-    "en": "hi"
+    "da": "godaften",
+    "en": "good evening"
    },
    {
     "da": "godmorgen",
@@ -2048,8 +2052,8 @@
   ],
   "related": [
    {
-    "da": "goddag",
-    "en": "good day"
+    "da": "hej",
+    "en": "hi"
    },
    {
     "da": "godaften",
@@ -2087,16 +2091,16 @@
   ],
   "related": [
    {
-    "da": "godaften",
-    "en": "good evening"
-   },
-   {
     "da": "sov godt",
     "en": "sleep well"
    },
    {
     "da": "en nat",
     "en": "a night"
+   },
+   {
+    "da": "god morgen",
+    "en": "good morning"
    }
   ],
   "sentence": {
@@ -2161,8 +2165,8 @@
     "en": "a golf course"
    },
    {
-    "da": "tennis",
-    "en": "tennis"
+    "da": "badminton",
+    "en": "badminton"
    },
    {
     "da": "fodbold",
@@ -2231,8 +2235,8 @@
   ],
   "related": [
    {
-    "da": "fri",
-    "en": "free time / off"
+    "da": "billig",
+    "en": "cheap"
    },
    {
     "da": "dyr",
@@ -2336,16 +2340,16 @@
   ],
   "related": [
    {
-    "da": "grå",
-    "en": "gray"
-   },
-   {
-    "da": "et vejr",
-    "en": "weather"
-   },
-   {
     "da": "solskinsvejr",
     "en": "sunny weather"
+   },
+   {
+    "da": "regnvejr",
+    "en": "rainy weather"
+   },
+   {
+    "da": "overskyet",
+    "en": "cloudy"
    }
   ],
   "sentence": {
@@ -2375,12 +2379,12 @@
     "en": "Greek"
    },
    {
-    "da": "en græker",
-    "en": "a Greek person"
+    "da": "Italien",
+    "en": "Italy"
    },
    {
-    "da": "et land",
-    "en": "a country"
+    "da": "Tyrkiet",
+    "en": "Turkey"
    }
   ],
   "sentence": {
@@ -2410,8 +2414,8 @@
     "en": "a lawn"
    },
    {
-    "da": "at slå græs",
-    "en": "to mow the lawn"
+    "da": "et strå",
+    "en": "a blade of grass"
    },
    {
     "da": "en græsslåmaskine",
@@ -2476,16 +2480,16 @@
   ],
   "related": [
    {
-    "da": "havregrød",
-    "en": "oat porridge"
-   },
-   {
     "da": "risengrød",
     "en": "rice porridge"
    },
    {
     "da": "havregryn",
     "en": "rolled oats"
+   },
+   {
+    "da": "en vælling",
+    "en": "a thin porridge"
    },
    {
     "da": "en suppe",
@@ -2523,8 +2527,8 @@
     "en": "dark green"
    },
    {
-    "da": "grøntsager",
-    "en": "vegetables"
+    "da": "rød",
+    "en": "red"
    },
    {
     "da": "gul",
@@ -2558,12 +2562,12 @@
     "en": "a Greenlander"
    },
    {
-    "da": "grøn",
-    "en": "green"
+    "da": "grønlandsk",
+    "en": "Greenlandic"
    },
    {
-    "da": "et land",
-    "en": "a country"
+    "da": "Island",
+    "en": "Iceland"
    }
   ],
   "sentence": {
@@ -2593,8 +2597,8 @@
   ],
   "related": [
    {
-    "da": "frugt",
-    "en": "fruit"
+    "da": "en tomat",
+    "en": "a tomato"
    },
    {
     "da": "grøn",

@@ -21,16 +21,16 @@
   ],
   "related": [
    {
-    "da": "en frakke",
-    "en": "a coat"
-   },
-   {
     "da": "en regnjakke",
     "en": "a rain jacket"
    },
    {
     "da": "en vinterjakke",
     "en": "a winter jacket"
+   },
+   {
+    "da": "et jakkesæt",
+    "en": "a suit"
    }
   ],
   "sentence": {
@@ -60,20 +60,20 @@
   ],
   "related": [
    {
-    "da": "jul",
-    "en": "Christmas"
-   },
-   {
-    "da": "en gave",
-    "en": "a gift"
-   },
-   {
     "da": "et juletræ",
     "en": "a Christmas tree"
    },
    {
     "da": "juleaften",
     "en": "Christmas Eve"
+   },
+   {
+    "da": "en julemand",
+    "en": "Santa Claus"
+   },
+   {
+    "da": "en fødselsdagsgave",
+    "en": "a birthday present"
    }
   ],
   "sentence": {
@@ -103,16 +103,16 @@
   ],
   "related": [
    {
-    "da": "et arbejde",
-    "en": "work/a job"
-   },
-   {
     "da": "en jobsamtale",
     "en": "a job interview"
    },
    {
     "da": "en jobansøgning",
     "en": "a job application"
+   },
+   {
+    "da": "et jobtilbud",
+    "en": "a job offer"
    }
   ],
   "sentence": {
@@ -142,16 +142,16 @@
   ],
   "related": [
    {
-    "da": "et bær",
-    "en": "a berry"
-   },
-   {
     "da": "et hindbær",
     "en": "a raspberry"
    },
    {
     "da": "et blåbær",
     "en": "a blueberry"
+   },
+   {
+    "da": "et brombær",
+    "en": "a blackberry"
    }
   ],
   "sentence": {
@@ -181,10 +181,6 @@
   ],
   "related": [
    {
-    "da": "et træ",
-    "en": "a tree"
-   },
-   {
     "da": "en julegave",
     "en": "a Christmas present"
    },
@@ -195,6 +191,10 @@
    {
     "da": "en julemand",
     "en": "a Santa Claus"
+   },
+   {
+    "da": "en julekalender",
+    "en": "an advent calendar"
    }
   ],
   "sentence": {
@@ -224,12 +224,8 @@
     "en": "no"
    },
    {
-    "da": "jo",
-    "en": "yes (to a negative question)"
-   },
-   {
-    "da": "selvfølgelig",
-    "en": "of course"
+    "da": "gerne",
+    "en": "gladly"
    },
    {
     "da": "nej tak",
@@ -364,20 +360,20 @@
   ],
   "related": [
    {
-    "da": "mig",
-    "en": "me"
-   },
-   {
     "da": "min",
     "en": "my"
    },
    {
-    "da": "du",
-    "en": "you"
-   },
-   {
     "da": "vi",
     "en": "we"
+   },
+   {
+    "da": "hun",
+    "en": "she"
+   },
+   {
+    "da": "de",
+    "en": "they"
    }
   ],
   "sentence": {
@@ -438,16 +434,16 @@
   ],
   "related": [
    {
-    "da": "undskyld",
-    "en": "sorry / excuse me"
-   },
-   {
     "da": "beklager",
     "en": "I'm sorry (formal)"
    },
    {
     "da": "trist",
     "en": "sad"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
    }
   ],
   "sentence": {
@@ -477,8 +473,8 @@
     "en": "to understand"
    },
    {
-    "da": "kan du gentage det?",
-    "en": "can you repeat that?"
+    "da": "kan du tale engelsk?",
+    "en": "can you speak English?"
    },
    {
     "da": "lidt langsommere, tak",
@@ -516,8 +512,8 @@
     "en": "I'm not doing well"
    },
    {
-    "da": "hvordan har du det?",
-    "en": "how are you?"
+    "da": "hvad med dig?",
+    "en": "what about you?"
    },
    {
     "da": "det går godt",
@@ -559,8 +555,8 @@
     "en": "it's going badly"
    },
    {
-    "da": "jeg har det ikke så godt",
-    "en": "I'm not doing so well"
+    "da": "jeg har ondt",
+    "en": "I'm in pain / it hurts"
    }
   ],
   "sentence": {
@@ -586,16 +582,16 @@
   ],
   "related": [
    {
-    "da": "hvad hedder du?",
-    "en": "what's your name?"
-   },
-   {
-    "da": "at hedde",
-    "en": "to be called"
+    "da": "et fornavn",
+    "en": "a first name"
    },
    {
     "da": "mit navn er…",
     "en": "my name is…"
+   },
+   {
+    "da": "et efternavn",
+    "en": "a surname"
    }
   ],
   "sentence": {
@@ -621,16 +617,16 @@
   ],
   "related": [
    {
-    "da": "hvor kommer du fra?",
-    "en": "where are you from?"
-   },
-   {
-    "da": "jeg bor i…",
-    "en": "I live in…"
-   },
-   {
     "da": "at komme",
     "en": "to come"
+   },
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "en by",
+    "en": "a town"
    }
   ],
   "sentence": {
@@ -691,20 +687,20 @@
   ],
   "related": [
    {
-    "da": "I",
-    "en": "you (all)"
-   },
-   {
     "da": "jeres",
     "en": "your / yours (many)"
    },
    {
-    "da": "dig",
-    "en": "you (one person)"
-   },
-   {
     "da": "os",
     "en": "us"
+   },
+   {
+    "da": "dem",
+    "en": "them"
+   },
+   {
+    "da": "ham",
+    "en": "him"
    }
   ],
   "sentence": {
@@ -738,8 +734,8 @@
     "en": "you (all), as in \"I see you all\""
    },
    {
-    "da": "din",
-    "en": "your (one person, en-word)"
+    "da": "deres",
+    "en": "their / your (formal)"
    },
    {
     "da": "vores",
@@ -769,16 +765,16 @@
   ],
   "related": [
    {
-    "da": "ja",
-    "en": "yes"
-   },
-   {
     "da": "nej",
     "en": "no"
    },
    {
     "da": "selvfølgelig",
     "en": "of course"
+   },
+   {
+    "da": "jo da",
+    "en": "sure / of course"
    }
   ],
   "sentence": {
@@ -804,16 +800,16 @@
   ],
   "related": [
    {
-    "da": "et gulv",
-    "en": "a floor"
-   },
-   {
     "da": "et jordskælv",
     "en": "an earthquake"
    },
    {
     "da": "et jordbær",
     "en": "a strawberry"
+   },
+   {
+    "da": "sand",
+    "en": "sand"
    }
   ],
   "sentence": {
@@ -839,16 +835,16 @@
   ],
   "related": [
    {
-    "da": "appelsinjuice",
-    "en": "orange juice"
-   },
-   {
-    "da": "æblejuice",
-    "en": "apple juice"
-   },
-   {
     "da": "saft",
     "en": "cordial / squash"
+   },
+   {
+    "da": "frugt",
+    "en": "fruit"
+   },
+   {
+    "da": "sodavand",
+    "en": "soda"
    }
   ],
   "sentence": {
@@ -913,8 +909,8 @@
   ],
   "related": [
    {
-    "da": "jul",
-    "en": "Christmas"
+    "da": "juledag",
+    "en": "Christmas Day"
    },
    {
     "da": "en julegave",
@@ -952,16 +948,16 @@
   ],
   "related": [
    {
-    "da": "juni",
-    "en": "June"
-   },
-   {
     "da": "august",
     "en": "August"
    },
    {
     "da": "en måned",
     "en": "a month"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
    }
   ],
   "sentence": {
@@ -991,12 +987,12 @@
     "en": "May"
    },
    {
-    "da": "juli",
-    "en": "July"
-   },
-   {
     "da": "august",
     "en": "August"
+   },
+   {
+    "da": "sommer",
+    "en": "summer"
    }
   ],
   "sentence": {
