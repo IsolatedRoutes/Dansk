@@ -1,4 +1,387 @@
 {
+ "at æde": {
+  "explanation": "\"At æde\" means \"to eat\" for animals: Løven æder kød (The lion eats meat). For people, use at spise (to eat): Jeg spiser frokost (I eat lunch). Said about a person, æde sounds rough.",
+  "forms": [
+   {
+    "da": "at æde",
+    "en": "to eat (animals)"
+   },
+   {
+    "da": "jeg æder",
+    "en": "I eat (animals)"
+   },
+   {
+    "da": "jeg åd",
+    "en": "I ate (animals)"
+   },
+   {
+    "da": "jeg har ædt",
+    "en": "I have eaten (animals)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fodre",
+    "en": "to feed"
+   },
+   {
+    "da": "et foder",
+    "en": "animal feed"
+   },
+   {
+    "da": "at tygge",
+    "en": "to chew"
+   },
+   {
+    "da": "at sluge",
+    "en": "to swallow"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden vil gerne **æde** kødet nu.",
+   "en": "The dog would like to eat the meat now."
+  }
+ },
+ "at ændre": {
+  "explanation": "\"At ændre\" means \"to change\" or \"to alter\", to make something different: Jeg ændrer planen (I am changing the plan). To swap one thing for another, use at skifte: Jeg skifter dæk (I change tires).",
+  "forms": [
+   {
+    "da": "at ændre",
+    "en": "to change / alter"
+   },
+   {
+    "da": "jeg ændrer",
+    "en": "I change / alter"
+   },
+   {
+    "da": "jeg ændrede",
+    "en": "I changed / altered"
+   },
+   {
+    "da": "jeg har ændret",
+    "en": "I have changed / altered"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "at forandre",
+    "en": "to change"
+   },
+   {
+    "da": "at rette",
+    "en": "to correct"
+   },
+   {
+    "da": "uændret",
+    "en": "unchanged"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **ændre** planen, fordi det regner.",
+   "en": "We have to change the plan because it is raining."
+  }
+ },
+ "at ændre på": {
+  "explanation": "\"At ændre på\" means \"to change something\", to make part of it different: Vi ændrer på planen (We are changing the plan). To become different by itself, use at ændre sig (to change): Vejret ændrer sig (The weather is changing).",
+  "forms": [
+   {
+    "da": "at ændre på",
+    "en": "to change (something)"
+   },
+   {
+    "da": "jeg ændrer på",
+    "en": "I change (something)"
+   },
+   {
+    "da": "jeg ændrede på",
+    "en": "I changed (something)"
+   },
+   {
+    "da": "jeg har ændret på",
+    "en": "I have changed (something)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at lave om",
+    "en": "to change / redo"
+   },
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "at forbedre",
+    "en": "to improve"
+   },
+   {
+    "da": "at skifte",
+    "en": "to switch"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **ændre på** planen i morgen.",
+   "en": "We can change the plan tomorrow."
+  }
+ },
+ "at ændre sig": {
+  "explanation": "\"At ændre sig\" means \"to change\" by itself: Byen ændrer sig hurtigt (The city changes fast). To change something, drop sig: Jeg ændrer planen (I change the plan).",
+  "forms": [
+   {
+    "da": "at ændre sig",
+    "en": "to change"
+   },
+   {
+    "da": "jeg ændrer mig",
+    "en": "I change"
+   },
+   {
+    "da": "jeg ændrede mig",
+    "en": "I changed"
+   },
+   {
+    "da": "jeg har ændret mig",
+    "en": "I have changed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "anderledes",
+    "en": "different"
+   },
+   {
+    "da": "at forandre sig",
+    "en": "to change"
+   },
+   {
+    "da": "at udvikle sig",
+    "en": "to develop"
+   }
+  ],
+  "sentence": {
+   "da": "Vejret vil **ændre sig** i morgen.",
+   "en": "The weather will change tomorrow."
+  }
+ },
+ "at ærgre sig": {
+  "explanation": "\"At ærgre sig\" means \"to be annoyed\" about something that went wrong, with a bit of disappointment: Jeg ærgrer mig over, at jeg kom for sent (I am annoyed that I was late). For someone else, use sig: Hun ærgrer sig (She is annoyed).",
+  "forms": [
+   {
+    "da": "at ærgre sig",
+    "en": "to be annoyed"
+   },
+   {
+    "da": "jeg ærgrer mig",
+    "en": "I am annoyed"
+   },
+   {
+    "da": "jeg ærgrede mig",
+    "en": "I was annoyed"
+   },
+   {
+    "da": "jeg har ærgret mig",
+    "en": "I have been annoyed"
+   }
+  ],
+  "related": [
+   {
+    "da": "ærgerlig",
+    "en": "annoying / unfortunate"
+   },
+   {
+    "da": "skuffet",
+    "en": "disappointed"
+   },
+   {
+    "da": "at fortryde",
+    "en": "to regret"
+   },
+   {
+    "da": "sur",
+    "en": "grumpy"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **ærgre sig**, hvis hun glemmer billetten.",
+   "en": "She will be annoyed if she forgets the ticket."
+  }
+ },
+ "en æbleskive": {
+  "explanation": "\"En æbleskive\" means \"an æbleskive\", a round, puffy Danish pancake. The name means \"apple slice\" (æble = apple, skive = slice).",
+  "forms": [
+   {
+    "da": "en æbleskive",
+    "en": "an æbleskive"
+   },
+   {
+    "da": "æbleskiven",
+    "en": "the æbleskive"
+   },
+   {
+    "da": "æbleskiver",
+    "en": "æbleskiver"
+   },
+   {
+    "da": "æbleskiverne",
+    "en": "the æbleskiver"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pandekage",
+    "en": "a pancake"
+   },
+   {
+    "da": "en vaffel",
+    "en": "a waffle"
+   },
+   {
+    "da": "en donut",
+    "en": "a doughnut"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser en varm **æbleskive** med sukker og syltetøj.",
+   "en": "We eat a warm æbleskive with sugar and jam."
+  }
+ },
+ "en ægtemand": {
+  "explanation": "\"En ægtemand\" means \"a husband\", a man in a marriage: Hun præsenterede sin ægtemand for os (She introduced her husband to us). In everyday speech, Danes often just say min mand (my husband).",
+  "forms": [
+   {
+    "da": "en ægtemand",
+    "en": "a husband"
+   },
+   {
+    "da": "ægtemanden",
+    "en": "the husband"
+   },
+   {
+    "da": "ægtemænd",
+    "en": "husbands"
+   },
+   {
+    "da": "ægtemændene",
+    "en": "the husbands"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hustru",
+    "en": "a wife"
+   },
+   {
+    "da": "en kone",
+    "en": "a wife"
+   },
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
+   },
+   {
+    "da": "et ægteskab",
+    "en": "a marriage"
+   }
+  ],
+  "sentence": {
+   "da": "Min **ægtemand** laver mad i aften.",
+   "en": "My husband is cooking tonight."
+  }
+ },
+ "en ændring": {
+  "explanation": "\"En ændring\" means \"a change\", when something becomes different: Vi har lavet en ændring i menuen (We made a change on the menu). To swap one thing for another, say at skifte (to switch): at skifte sko (to change shoes).",
+  "forms": [
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "ændringen",
+    "en": "the change"
+   },
+   {
+    "da": "ændringer",
+    "en": "changes"
+   },
+   {
+    "da": "ændringerne",
+    "en": "the changes"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ændre",
+    "en": "to change"
+   },
+   {
+    "da": "en forandring",
+    "en": "a change"
+   },
+   {
+    "da": "en forbedring",
+    "en": "an improvement"
+   },
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en stor **ændring** i planen.",
+   "en": "There is a big change in the plan."
+  }
+ },
+ "en æske": {
+  "explanation": "\"En æske\" means \"a box\", usually a smaller one made of cardboard: en æske chokolade (a box of chocolates). A big box for packing is en kasse (a crate / large box).",
+  "forms": [
+   {
+    "da": "en æske",
+    "en": "a box"
+   },
+   {
+    "da": "æsken",
+    "en": "the box"
+   },
+   {
+    "da": "æsker",
+    "en": "boxes"
+   },
+   {
+    "da": "æskerne",
+    "en": "the boxes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gaveæske",
+    "en": "a gift box"
+   },
+   {
+    "da": "en tændstikæske",
+    "en": "a matchbox"
+   },
+   {
+    "da": "en pakke",
+    "en": "a package"
+   },
+   {
+    "da": "en dåse",
+    "en": "a can"
+   }
+  ],
+  "sentence": {
+   "da": "Hun giver mig en **æske** chokolade.",
+   "en": "She gives me a box of chocolates."
+  }
+ },
  "et æble": {
   "explanation": "\"Et æble\" means \"an apple\". The letter æ sounds like the e in bed, but longer. Danish joins words together: æblekage (apple cake) is æble plus kage (cake), and æblejuice (apple juice) works the same way.",
   "forms": [
@@ -77,6 +460,205 @@
    "en": "I boil an egg for breakfast."
   }
  },
+ "et æggebæger": {
+  "explanation": "\"Et æggebæger\" means \"an egg cup\", the little cup that holds a boiled egg upright: Jeg sætter ægget i æggebægeret (I put the egg in the egg cup).",
+  "forms": [
+   {
+    "da": "et æggebæger",
+    "en": "an egg cup"
+   },
+   {
+    "da": "æggebægeret",
+    "en": "the egg cup"
+   },
+   {
+    "da": "æggebægre",
+    "en": "egg cups"
+   },
+   {
+    "da": "æggebægrene",
+    "en": "the egg cups"
+   }
+  ],
+  "related": [
+   {
+    "da": "et æggeur",
+    "en": "an egg timer"
+   },
+   {
+    "da": "en æggeskærer",
+    "en": "an egg slicer"
+   },
+   {
+    "da": "en æggebakke",
+    "en": "an egg tray"
+   }
+  ],
+  "sentence": {
+   "da": "Han sætter det kogte æg i et **æggebæger**.",
+   "en": "He puts the boiled egg in an egg cup."
+  }
+ },
+ "et ægtepar": {
+  "explanation": "\"Et ægtepar\" means \"a married couple\": De er et ægtepar (They are a married couple). For two people who are together but not married, use et kærestepar (a couple).",
+  "forms": [
+   {
+    "da": "et ægtepar",
+    "en": "a married couple"
+   },
+   {
+    "da": "ægteparret",
+    "en": "the married couple"
+   },
+   {
+    "da": "ægtepar",
+    "en": "married couples"
+   },
+   {
+    "da": "ægteparrene",
+    "en": "the married couples"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
+   },
+   {
+    "da": "et ægteskab",
+    "en": "a marriage"
+   },
+   {
+    "da": "gift",
+    "en": "married"
+   }
+  ],
+  "sentence": {
+   "da": "Det gamle **ægtepar** går tur hver dag.",
+   "en": "The old married couple takes a walk every day."
+  }
+ },
+ "et ægteskab": {
+  "explanation": "\"Et ægteskab\" means \"a marriage\", the life of two people who are married: Deres ægteskab er meget lykkeligt (Their marriage is very happy). The wedding itself is et bryllup (a wedding).",
+  "forms": [
+   {
+    "da": "et ægteskab",
+    "en": "a marriage"
+   },
+   {
+    "da": "ægteskabet",
+    "en": "the marriage"
+   },
+   {
+    "da": "ægteskaber",
+    "en": "marriages"
+   },
+   {
+    "da": "ægteskaberne",
+    "en": "the marriages"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
+   },
+   {
+    "da": "gift",
+    "en": "married"
+   },
+   {
+    "da": "en skilsmisse",
+    "en": "a divorce"
+   },
+   {
+    "da": "en ægtemand",
+    "en": "a husband"
+   }
+  ],
+  "sentence": {
+   "da": "Deres **ægteskab** har holdt i tyve år.",
+   "en": "Their marriage has lasted twenty years."
+  }
+ },
+ "et ærme": {
+  "explanation": "\"Et ærme\" means \"a sleeve\", the part of a shirt or jacket that covers your arm: Skjorten har lange ærmer (The shirt has long sleeves).",
+  "forms": [
+   {
+    "da": "et ærme",
+    "en": "a sleeve"
+   },
+   {
+    "da": "ærmet",
+    "en": "the sleeve"
+   },
+   {
+    "da": "ærmer",
+    "en": "sleeves"
+   },
+   {
+    "da": "ærmerne",
+    "en": "the sleeves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en manchet",
+    "en": "a cuff"
+   },
+   {
+    "da": "en krave",
+    "en": "a collar"
+   },
+   {
+    "da": "en lomme",
+    "en": "a pocket"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et hul i mit venstre **ærme**.",
+   "en": "There is a hole in my left sleeve."
+  }
+ },
+ "ægte": {
+  "explanation": "\"Ægte\" means \"genuine\" or \"real\": ægte læder (genuine leather). It also fits people and feelings: en ægte ven (a true friend).",
+  "forms": [
+   {
+    "da": "en ægte ven",
+    "en": "a true friend"
+   },
+   {
+    "da": "et ægte maleri",
+    "en": "a genuine painting"
+   },
+   {
+    "da": "ægte diamanter",
+    "en": "genuine diamonds"
+   }
+  ],
+  "related": [
+   {
+    "da": "falsk",
+    "en": "fake"
+   },
+   {
+    "da": "rigtig",
+    "en": "real"
+   },
+   {
+    "da": "autentisk",
+    "en": "authentic"
+   },
+   {
+    "da": "uægte",
+    "en": "not genuine"
+   }
+  ],
+  "sentence": {
+   "da": "Er den her taske af **ægte** læder?",
+   "en": "Is this bag made of genuine leather?"
+  }
+ },
  "ældre": {
   "explanation": "\"Ældre\" means \"older\" or \"elderly\". It is the step up from gammel (old), as in ældre end mig (older than me). De ældre is a polite way to say elderly people.",
   "forms": [
@@ -149,6 +731,127 @@
   "sentence": {
    "da": "Min bror er **ældst** af os.",
    "en": "My brother is the oldest of us."
+  }
+ },
+ "ærgerlig": {
+  "explanation": "\"Ærgerlig\" means \"unfortunate\" or \"a shame\", for a situation that goes wrong: Det er ærgerligt, at du ikke kan komme (It is a shame you cannot come).",
+  "forms": [
+   {
+    "da": "en ærgerlig fejl",
+    "en": "an unfortunate mistake"
+   },
+   {
+    "da": "et ærgerligt tab",
+    "en": "an unfortunate loss"
+   },
+   {
+    "da": "ærgerlige ting",
+    "en": "unfortunate things"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ærgre sig",
+    "en": "to be annoyed"
+   },
+   {
+    "da": "en ærgrelse",
+    "en": "an annoyance"
+   },
+   {
+    "da": "synd",
+    "en": "a pity"
+   },
+   {
+    "da": "irriterende",
+    "en": "irritating"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **ærgerlig** misforståelse.",
+   "en": "That was an unfortunate misunderstanding."
+  }
+ },
+ "ærlig": {
+  "explanation": "\"Ærlig\" means \"honest\", saying what is true: Vær ærlig! (Be honest!). Ærligt talt (honestly) often starts a frank remark: Ærligt talt, jeg kan ikke lide det (Honestly, I do not like it).",
+  "forms": [
+   {
+    "da": "en ærlig mand",
+    "en": "an honest man"
+   },
+   {
+    "da": "et ærligt svar",
+    "en": "an honest answer"
+   },
+   {
+    "da": "ærlige venner",
+    "en": "honest friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "uærlig",
+    "en": "dishonest"
+   },
+   {
+    "da": "at lyve",
+    "en": "to lie"
+   },
+   {
+    "da": "oprigtig",
+    "en": "sincere"
+   },
+   {
+    "da": "ærlighed",
+    "en": "honesty"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne være **ærlig** over for dig.",
+   "en": "I would like to be honest with you."
+  }
+ },
+ "ærlighed": {
+  "explanation": "\"Ærlighed\" means \"honesty\", telling the truth and not cheating: Ærlighed varer længst (Honesty lasts longest). Han er kendt for sin ærlighed (He is known for his honesty).",
+  "forms": [
+   {
+    "da": "ærlighed",
+    "en": "honesty"
+   },
+   {
+    "da": "ærligheden",
+    "en": "the honesty"
+   },
+   {
+    "da": "fuld ærlighed",
+    "en": "complete honesty"
+   },
+   {
+    "da": "tak for din ærlighed",
+    "en": "thanks for your honesty"
+   }
+  ],
+  "related": [
+   {
+    "da": "ærlig",
+    "en": "honest"
+   },
+   {
+    "da": "en sandhed",
+    "en": "a truth"
+   },
+   {
+    "da": "en løgn",
+    "en": "a lie"
+   },
+   {
+    "da": "uærlig",
+    "en": "dishonest"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sætter pris på **ærlighed** hos mine venner.",
+   "en": "I appreciate honesty in my friends."
   }
  },
  "ærter": {

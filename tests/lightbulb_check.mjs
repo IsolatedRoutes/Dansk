@@ -3,6 +3,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { lightbulbBucket } from "../src/lib/lightbulb.js";
 import { frontKey } from "../src/lib/text.js";
+const levelOf = new Map();
+for (const l of readFileSync("src/data/words.tsv", "utf8").split("\n")) { const c = l.split("\t"); if (c[0]) levelOf.set(frontKey(c[0]), Number(c[3])); }
 const fronts = new Set(readFileSync("src/data/words.tsv", "utf8").split("\n").map((l) => frontKey(l.split("\t")[0])).filter(Boolean));
 let bad = 0, n = 0;
 const fail = (m) => { bad++; console.log("  problem: " + m); };
@@ -39,7 +41,7 @@ for (const f of readdirSync("lightbulb").filter((x) => x.endsWith(".json"))) {
     else {
       // The marked word must be the card's own word (no en/et/at), not a "the" or plural form.
       const norm = (x) => x.toLowerCase().replace(/[^\p{L}\d ]/gu, "").trim();
-      if (e.sentence.da.replace(/\*\*/g, "").trim().split(/\s+/).length > 8) fail(k + ": Basic sentence longer than 8 words");
+      { const max = levelOf.get(k) === 1 ? 8 : 14; if (e.sentence.da.replace(/\*\*/g, "").trim().split(/\s+/).length > max) fail(k + ": sentence longer than " + max + " words for its level"); }
       const marked = e.sentence.da.match(/\*\*([^*]+)\*\*/)[1];
       const base = k.replace(/^(en|et|at) /, "");
       const loose = ["både…og", "enten…eller", "er det ...?", "en / et"];

@@ -38,6 +38,299 @@
    "en": "I want to open the door for you."
   }
  },
+ "at åbne op": {
+  "explanation": "\"At åbne op\" means \"to open up\": Hun åbner op om sine følelser (She opens up about her feelings). It also fits shops: Butikken åbner op klokken ni (The shop opens at nine).",
+  "forms": [
+   {
+    "da": "at åbne op",
+    "en": "to open up"
+   },
+   {
+    "da": "jeg åbner op",
+    "en": "I open up"
+   },
+   {
+    "da": "jeg åbnede op",
+    "en": "I opened up"
+   },
+   {
+    "da": "jeg har åbnet op",
+    "en": "I have opened up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at lukke",
+    "en": "to close"
+   },
+   {
+    "da": "at lukke op",
+    "en": "to open the door"
+   },
+   {
+    "da": "åben",
+    "en": "open"
+   },
+   {
+    "da": "en åbning",
+    "en": "an opening"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **åbne op**? Jeg står udenfor.",
+   "en": "Can you open up? I am standing outside."
+  }
+ },
+ "en å": {
+  "explanation": "\"En å\" means \"a stream\", a small river: Vi går langs åen (We walk along the stream). Do not mix it up with en flod (a bigger river): Floden er bredere (The river is wider).",
+  "forms": [
+   {
+    "da": "en å",
+    "en": "a stream"
+   },
+   {
+    "da": "åen",
+    "en": "the stream"
+   },
+   {
+    "da": "åer",
+    "en": "streams"
+   },
+   {
+    "da": "åerne",
+    "en": "the streams"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bæk",
+    "en": "a brook"
+   },
+   {
+    "da": "et vandløb",
+    "en": "a watercourse"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   }
+  ],
+  "sentence": {
+   "da": "Vi gik en tur langs den smalle **å**.",
+   "en": "We took a walk along the narrow stream."
+  }
+ },
+ "en åbning": {
+  "explanation": "\"En åbning\" means \"an opening\", a gap or the start of something: en åbning i hegnet (an opening in the fence). It is also the opening of a shop or event: Vi går til åbningen (We are going to the opening).",
+  "forms": [
+   {
+    "da": "en åbning",
+    "en": "an opening"
+   },
+   {
+    "da": "åbningen",
+    "en": "the opening"
+   },
+   {
+    "da": "åbninger",
+    "en": "openings"
+   },
+   {
+    "da": "åbningerne",
+    "en": "the openings"
+   }
+  ],
+  "related": [
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "et hul",
+    "en": "a hole"
+   },
+   {
+    "da": "en åbningstid",
+    "en": "opening hours"
+   },
+   {
+    "da": "en lukning",
+    "en": "a closing"
+   }
+  ],
+  "sentence": {
+   "da": "Katten fandt en lille **åbning** i hegnet.",
+   "en": "The cat found a small opening in the fence."
+  }
+ },
+ "en åbningstid": {
+  "explanation": "\"En åbningstid\" means \"an opening hour\". Danes usually say it in the plural when they ask when a shop is open: Hvad er butikkens åbningstider? (What are the shop's opening hours?)",
+  "forms": [
+   {
+    "da": "en åbningstid",
+    "en": "an opening hour"
+   },
+   {
+    "da": "åbningstiden",
+    "en": "the opening hour"
+   },
+   {
+    "da": "åbningstider",
+    "en": "opening hours"
+   },
+   {
+    "da": "åbningstiderne",
+    "en": "the opening hours"
+   }
+  ],
+  "related": [
+   {
+    "da": "åben",
+    "en": "open"
+   },
+   {
+    "da": "lukket",
+    "en": "closed"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "en helligdag",
+    "en": "a public holiday"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kender ikke butikkens **åbningstid** i dag.",
+   "en": "I do not know the shop's opening hours today."
+  }
+ },
+ "en årsag": {
+  "explanation": "\"En årsag\" means \"a reason\", the cause of something that happened: Hvad er årsagen? (What is the reason?). For a reason to do something, en grund (a reason) is more common.",
+  "forms": [
+   {
+    "da": "en årsag",
+    "en": "a reason"
+   },
+   {
+    "da": "årsagen",
+    "en": "the reason"
+   },
+   {
+    "da": "årsager",
+    "en": "reasons"
+   },
+   {
+    "da": "årsagerne",
+    "en": "the reasons"
+   }
+  ],
+  "related": [
+   {
+    "da": "en følge",
+    "en": "a result"
+   },
+   {
+    "da": "en virkning",
+    "en": "an effect"
+   },
+   {
+    "da": "en konsekvens",
+    "en": "a consequence"
+   }
+  ],
+  "sentence": {
+   "da": "Der må være en **årsag** til, at bilen ikke starter.",
+   "en": "There must be a reason why the car does not start."
+  }
+ },
+ "en årstid": {
+  "explanation": "\"En årstid\" means \"a season\", one of the four parts of the year: Det er en kold årstid (It is a cold season). Do not mix it up with en sæson (a season of a show or sport): Sæsonen starter i dag (The season starts today).",
+  "forms": [
+   {
+    "da": "en årstid",
+    "en": "a season"
+   },
+   {
+    "da": "årstiden",
+    "en": "the season"
+   },
+   {
+    "da": "årstider",
+    "en": "seasons"
+   },
+   {
+    "da": "årstiderne",
+    "en": "the seasons"
+   }
+  ],
+  "related": [
+   {
+    "da": "et forår",
+    "en": "a spring"
+   },
+   {
+    "da": "en sommer",
+    "en": "a summer"
+   },
+   {
+    "da": "et efterår",
+    "en": "a fall"
+   },
+   {
+    "da": "en vinter",
+    "en": "a winter"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilken **årstid** kan du bedst lide?",
+   "en": "Which season do you like best?"
+  }
+ },
+ "et åbent hus": {
+  "explanation": "\"Et åbent hus\" means \"an open house\", an event where anyone can come and look around: Skolen holder åbent hus i morgen (The school has an open house tomorrow). It is used for schools, companies and homes for sale.",
+  "forms": [
+   {
+    "da": "et åbent hus",
+    "en": "an open house"
+   },
+   {
+    "da": "det åbne hus",
+    "en": "the open house"
+   },
+   {
+    "da": "åbne huse",
+    "en": "open houses"
+   },
+   {
+    "da": "de åbne huse",
+    "en": "the open houses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fremvisning",
+    "en": "a showing"
+   },
+   {
+    "da": "en rundvisning",
+    "en": "a tour"
+   },
+   {
+    "da": "en indbydelse",
+    "en": "an invitation"
+   },
+   {
+    "da": "lukket",
+    "en": "closed"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen holder **åbent hus** på lørdag.",
+   "en": "The school has an open house on Saturday."
+  }
+ },
  "et år": {
   "explanation": "\"Et år\" means \"a year\". It is also how you give your age: Jeg er tredive år gammel means \"I am thirty years old\". Næste år means \"next year\".",
   "forms": [
@@ -81,6 +374,88 @@
    "en": "There are twelve months in a year."
   }
  },
+ "et århundrede": {
+  "explanation": "\"Et århundrede\" means \"a century\", a hundred years. It is built from år (year) and hundrede (hundred): Huset er fra det nittende århundrede (The house is from the nineteenth century).",
+  "forms": [
+   {
+    "da": "et århundrede",
+    "en": "a century"
+   },
+   {
+    "da": "århundredet",
+    "en": "the century"
+   },
+   {
+    "da": "århundreder",
+    "en": "centuries"
+   },
+   {
+    "da": "århundrederne",
+    "en": "the centuries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tiår",
+    "en": "a decade"
+   },
+   {
+    "da": "et årti",
+    "en": "a decade"
+   },
+   {
+    "da": "et årtusinde",
+    "en": "a millennium"
+   },
+   {
+    "da": "en epoke",
+    "en": "an era"
+   }
+  ],
+  "sentence": {
+   "da": "Huset er næsten et **århundrede** gammelt.",
+   "en": "The house is almost a century old."
+  }
+ },
+ "et årstal": {
+  "explanation": "\"Et årstal\" means \"a year\", the number that names a year, like 1990: Jeg kan ikke huske årstallet (I can't remember the year). For a length of time, use et år: tre år (three years).",
+  "forms": [
+   {
+    "da": "et årstal",
+    "en": "a year (date)"
+   },
+   {
+    "da": "årstallet",
+    "en": "the year"
+   },
+   {
+    "da": "årstal",
+    "en": "years (dates)"
+   },
+   {
+    "da": "årstallene",
+    "en": "the years"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dato",
+    "en": "a date"
+   },
+   {
+    "da": "et tal",
+    "en": "a number"
+   },
+   {
+    "da": "et århundrede",
+    "en": "a century"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilket **årstal** blev huset bygget?",
+   "en": "Which year was the house built?"
+  }
+ },
  "åben": {
   "explanation": "\"Åben\" means \"open\", for doors, shops and windows: Døren er åben (The door is open). At åbne (to open) is the action: Jeg åbner døren (I open the door).",
   "forms": [
@@ -120,6 +495,45 @@
    "en": "The shop is open until six o'clock."
   }
  },
+ "åbenbart": {
+  "explanation": "\"Åbenbart\" means \"apparently\" and is used when you work something out from what you see or hear: Du har åbenbart glemt det (You apparently forgot it). Compare tydeligvis (clearly), which sounds more sure.",
+  "forms": [
+   {
+    "da": "Det regner åbenbart",
+    "en": "It is apparently raining"
+   },
+   {
+    "da": "Hun er åbenbart hjemme",
+    "en": "She is apparently home"
+   },
+   {
+    "da": "Han kommer åbenbart ikke",
+    "en": "He is apparently not coming"
+   }
+  ],
+  "related": [
+   {
+    "da": "åbenbar",
+    "en": "obvious"
+   },
+   {
+    "da": "åbenlys",
+    "en": "obvious"
+   },
+   {
+    "da": "tilsyneladende",
+    "en": "seemingly"
+   },
+   {
+    "da": "en åbenbaring",
+    "en": "a revelation"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **åbenbart** syg i dag.",
+   "en": "He is apparently sick today."
+  }
+ },
  "åbningstider": {
   "explanation": "\"Åbningstider\" means \"opening hours\": Hvad er jeres åbningstider? (What are your opening hours?). It is built from åbning (opening) and tider (times).",
   "forms": [
@@ -157,6 +571,45 @@
   "sentence": {
    "da": "Butikkens **åbningstider** er fra ni til seks.",
    "en": "The shop's opening hours are from nine to six."
+  }
+ },
+ "årlig": {
+  "explanation": "\"Årlig\" means \"annual\", something that happens once a year: Det er en årlig tradition (It is an annual tradition). Det sker årligt (It happens every year) says how often.",
+  "forms": [
+   {
+    "da": "en årlig fest",
+    "en": "an annual party"
+   },
+   {
+    "da": "et årligt møde",
+    "en": "an annual meeting"
+   },
+   {
+    "da": "årlige møder",
+    "en": "annual meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "et år",
+    "en": "a year"
+   },
+   {
+    "da": "månedlig",
+    "en": "monthly"
+   },
+   {
+    "da": "ugentlig",
+    "en": "weekly"
+   },
+   {
+    "da": "daglig",
+    "en": "daily"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en **årlig** fest i juni.",
+   "en": "We have an annual party in June."
   }
  }
 }

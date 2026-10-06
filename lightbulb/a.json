@@ -1,4 +1,121 @@
 {
+ "absolut": {
+  "explanation": "\"Absolut\" means \"absolutely\" and makes a word stronger: Han har absolut ret (He is absolutely right). Det er absolut for sent (It is absolutely too late).",
+  "forms": [
+   {
+    "da": "Det er absolut nødvendigt",
+    "en": "It is absolutely necessary"
+   },
+   {
+    "da": "absolut ikke",
+    "en": "absolutely not"
+   },
+   {
+    "da": "Absolut!",
+    "en": "Absolutely!"
+   }
+  ],
+  "related": [
+   {
+    "da": "bestemt",
+    "en": "definitely"
+   },
+   {
+    "da": "helt",
+    "en": "completely"
+   },
+   {
+    "da": "afgjort",
+    "en": "definitely"
+   },
+   {
+    "da": "sikkert",
+    "en": "surely"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **absolut** se den film.",
+   "en": "You absolutely have to see that movie."
+  }
+ },
+ "adgang": {
+  "explanation": "\"Adgang\" means \"access\" or \"entry\", the right to get in or to use something: Vi har ikke adgang til rummet (We do not have access to the room). Adgang forbudt (No entry) is a common sign.",
+  "forms": [
+   {
+    "da": "adgang",
+    "en": "access"
+   },
+   {
+    "da": "adgangen",
+    "en": "the access"
+   },
+   {
+    "da": "fri adgang",
+    "en": "free access"
+   },
+   {
+    "da": "ingen adgang",
+    "en": "no entry"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indgang",
+    "en": "an entrance"
+   },
+   {
+    "da": "en adgangskode",
+    "en": "a password"
+   },
+   {
+    "da": "en tilladelse",
+    "en": "a permission"
+   },
+   {
+    "da": "et forbud",
+    "en": "a ban"
+   }
+  ],
+  "sentence": {
+   "da": "Børn har ikke **adgang** til rummet.",
+   "en": "Children do not have access to the room."
+  }
+ },
+ "adopteret": {
+  "explanation": "\"Adopteret\" means \"adopted\", taken into a family as your own child: Hun er adopteret fra Kina (She is adopted from China). It comes from at adoptere (to adopt).",
+  "forms": [
+   {
+    "da": "en adopteret pige",
+    "en": "an adopted girl"
+   },
+   {
+    "da": "et adopteret barn",
+    "en": "an adopted child"
+   },
+   {
+    "da": "adopterede børn",
+    "en": "adopted children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en adoption",
+    "en": "an adoption"
+   },
+   {
+    "da": "biologisk",
+    "en": "biological"
+   },
+   {
+    "da": "en plejefamilie",
+    "en": "a foster family"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **adopteret** og kom til Danmark som baby.",
+   "en": "She is adopted and came to Denmark as a baby."
+  }
+ },
  "af og til": {
   "explanation": "\"Af og til\" means \"now and then\". Compare Jeg drikker kaffe hver dag (I drink coffee every day) with Jeg drikker kaffe af og til (I drink coffee now and then).",
   "forms": [
@@ -36,6 +153,84 @@
   "sentence": {
    "da": "Jeg spiser kage **af og til**.",
    "en": "I eat cake now and then."
+  }
+ },
+ "affald": {
+  "explanation": "\"Affald\" means \"trash\". You do not count it: Der er meget affald på gaden (There is a lot of trash on the street). One bag of it is en pose affald (a bag of trash).",
+  "forms": [
+   {
+    "da": "affald",
+    "en": "trash"
+   },
+   {
+    "da": "affaldet",
+    "en": "the trash"
+   },
+   {
+    "da": "noget affald",
+    "en": "some trash"
+   }
+  ],
+  "related": [
+   {
+    "da": "skrald",
+    "en": "garbage"
+   },
+   {
+    "da": "en skraldespand",
+    "en": "a trash can"
+   },
+   {
+    "da": "at smide ud",
+    "en": "to throw away"
+   },
+   {
+    "da": "at sortere",
+    "en": "to sort"
+   }
+  ],
+  "sentence": {
+   "da": "Vi putter alt **affald** i en stor pose.",
+   "en": "We put all the trash in a big bag."
+  }
+ },
+ "afhængig": {
+  "explanation": "\"Afhængig\" means \"dependent\" or \"addicted\", and is used with af (of): Jeg er afhængig af kaffe (I am addicted to coffee). Det er afhængigt af vejret (It depends on the weather).",
+  "forms": [
+   {
+    "da": "en afhængig mand",
+    "en": "a dependent man"
+   },
+   {
+    "da": "et afhængigt barn",
+    "en": "a dependent child"
+   },
+   {
+    "da": "afhængige mennesker",
+    "en": "dependent people"
+   }
+  ],
+  "related": [
+   {
+    "da": "uafhængig",
+    "en": "independent"
+   },
+   {
+    "da": "en afhængighed",
+    "en": "a dependence"
+   },
+   {
+    "da": "selvstændig",
+    "en": "self-reliant"
+   },
+   {
+    "da": "at afhænge af",
+    "en": "to depend on"
+   }
+  ],
+  "sentence": {
+   "da": "Min lillebror er **afhængig** af sin telefon.",
+   "en": "My little brother is addicted to his phone."
   }
  },
  "aflyst": {
@@ -112,6 +307,80 @@
    "en": "Lions and elephants live in Africa."
   }
  },
+ "afrikansk": {
+  "explanation": "\"Afrikansk\" means \"African\" and describes things from Africa: afrikansk musik (African music). For a person, use en afrikaner (an African).",
+  "forms": [
+   {
+    "da": "en afrikansk elefant",
+    "en": "an African elephant"
+   },
+   {
+    "da": "et afrikansk land",
+    "en": "an African country"
+   },
+   {
+    "da": "afrikanske lande",
+    "en": "African countries"
+   }
+  ],
+  "related": [
+   {
+    "da": "Afrika",
+    "en": "Africa"
+   },
+   {
+    "da": "asiatisk",
+    "en": "Asian"
+   },
+   {
+    "da": "europæisk",
+    "en": "European"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hørte **afrikansk** musik i går.",
+   "en": "We heard African music yesterday."
+  }
+ },
+ "afslappet": {
+  "explanation": "\"Afslappet\" means \"relaxed\", for a person or a mood: Han er meget afslappet (He is very relaxed). Stemningen var afslappet (The mood was relaxed).",
+  "forms": [
+   {
+    "da": "en afslappet aften",
+    "en": "a relaxed evening"
+   },
+   {
+    "da": "et afslappet møde",
+    "en": "a casual meeting"
+   },
+   {
+    "da": "afslappede mennesker",
+    "en": "relaxed people"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slappe af",
+    "en": "to relax"
+   },
+   {
+    "da": "en afslapning",
+    "en": "a relaxation"
+   },
+   {
+    "da": "spændt",
+    "en": "tense"
+   },
+   {
+    "da": "stresset",
+    "en": "stressed"
+   }
+  ],
+  "sentence": {
+   "da": "Efter ferien er jeg meget **afslappet**.",
+   "en": "After the vacation, I am very relaxed."
+  }
+ },
  "afsted": {
   "explanation": "\"Afsted\" means \"off\" or \"away\", for leaving a place. Compare Jeg er hjemme (I am at home) with Jeg skal afsted (I have to go / I am heading off). Han er afsted means \"He has gone\".",
   "forms": [
@@ -184,6 +453,123 @@
   "sentence": {
    "da": "Om aftenen spiser vi **aftensmad** sammen.",
    "en": "In the evening we eat dinner together."
+  }
+ },
+ "aggressiv": {
+  "explanation": "\"Aggressiv\" means \"aggressive\", ready to attack or shout: Han bliver aggressiv, når han er sur (He gets aggressive when he is grumpy). It is used for people, animals and words.",
+  "forms": [
+   {
+    "da": "en aggressiv hund",
+    "en": "an aggressive dog"
+   },
+   {
+    "da": "et aggressivt svar",
+    "en": "an aggressive answer"
+   },
+   {
+    "da": "aggressive mennesker",
+    "en": "aggressive people"
+   }
+  ],
+  "related": [
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "fredelig",
+    "en": "peaceful"
+   },
+   {
+    "da": "voldelig",
+    "en": "violent"
+   },
+   {
+    "da": "vred",
+    "en": "angry"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden er **aggressiv** og viser tænderne.",
+   "en": "The dog is aggressive and shows its teeth."
+  }
+ },
+ "aktiv": {
+  "explanation": "\"Aktiv\" means \"active\", busy and doing things: Han er meget aktiv i klubben (He is very active in the club). It also means switched on: en aktiv konto (an active account).",
+  "forms": [
+   {
+    "da": "en aktiv dag",
+    "en": "an active day"
+   },
+   {
+    "da": "et aktivt liv",
+    "en": "an active life"
+   },
+   {
+    "da": "aktive børn",
+    "en": "active children"
+   }
+  ],
+  "related": [
+   {
+    "da": "passiv",
+    "en": "passive"
+   },
+   {
+    "da": "en aktivitet",
+    "en": "an activity"
+   },
+   {
+    "da": "at aktivere",
+    "en": "to activate"
+   },
+   {
+    "da": "energisk",
+    "en": "energetic"
+   }
+  ],
+  "sentence": {
+   "da": "Min bedstefar er stadig meget **aktiv** og går lange ture.",
+   "en": "My grandfather is still very active and takes long walks."
+  }
+ },
+ "al": {
+  "explanation": "\"Al\" means \"all\" and goes in front of an en-word you do not count: al musikken (all the music). For an et-word, use alt: alt vandet (all the water).",
+  "forms": [
+   {
+    "da": "al maden",
+    "en": "all the food"
+   },
+   {
+    "da": "al min tid",
+    "en": "all my time"
+   },
+   {
+    "da": "al sneen",
+    "en": "all the snow"
+   }
+  ],
+  "related": [
+   {
+    "da": "alle",
+    "en": "all / everyone"
+   },
+   {
+    "da": "hele",
+    "en": "the whole"
+   },
+   {
+    "da": "hver",
+    "en": "each / every"
+   },
+   {
+    "da": "ingen",
+    "en": "no / none"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har spist **al** maden.",
+   "en": "I have eaten all the food."
   }
  },
  "aldrig": {
@@ -404,6 +790,84 @@
    "en": "I am allergic to nuts."
   }
  },
+ "alligevel": {
+  "explanation": "\"Alligevel\" means \"nevertheless\" and \"anyway\". It shows something happens despite a problem: Det regner, men vi går alligevel (It is raining, but we are going anyway).",
+  "forms": [
+   {
+    "da": "Jeg gør det alligevel",
+    "en": "I do it anyway"
+   },
+   {
+    "da": "Han kom alligevel",
+    "en": "He came anyway"
+   },
+   {
+    "da": "Tak alligevel",
+    "en": "Thanks anyway"
+   }
+  ],
+  "related": [
+   {
+    "da": "dog",
+    "en": "however"
+   },
+   {
+    "da": "trods alt",
+    "en": "after all"
+   },
+   {
+    "da": "ikke desto mindre",
+    "en": "nevertheless"
+   },
+   {
+    "da": "stadig",
+    "en": "still"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er træt, men jeg kommer **alligevel**.",
+   "en": "I am tired, but I am coming anyway."
+  }
+ },
+ "almindelig": {
+  "explanation": "\"Almindelig\" means \"ordinary\" or \"common\": normal, with nothing special about it. Det er en almindelig fejl (It is a common mistake).",
+  "forms": [
+   {
+    "da": "en almindelig dag",
+    "en": "an ordinary day"
+   },
+   {
+    "da": "et almindeligt brød",
+    "en": "an ordinary loaf"
+   },
+   {
+    "da": "almindelige mennesker",
+    "en": "ordinary people"
+   }
+  ],
+  "related": [
+   {
+    "da": "typisk",
+    "en": "typical"
+   },
+   {
+    "da": "sædvanlig",
+    "en": "usual"
+   },
+   {
+    "da": "usædvanlig",
+    "en": "unusual"
+   },
+   {
+    "da": "gængs",
+    "en": "common, usual"
+   }
+  ],
+  "sentence": {
+   "da": "Det var bare en **almindelig** dag på arbejde.",
+   "en": "It was just an ordinary day at work."
+  }
+ },
  "alt": {
   "explanation": "\"Alt\" means \"everything\" or \"all\". Compare Alle er her (Everyone is here) with Alt er her (Everything is here). Alt for means \"far too\": alt for dyrt (far too expensive).",
   "forms": [
@@ -437,6 +901,41 @@
   "sentence": {
    "da": "Jeg har glemt **alt**.",
    "en": "I have forgotten everything."
+  }
+ },
+ "alt i alt": {
+  "explanation": "\"Alt i alt\" means \"all in all\" and sums up what you have said: Alt i alt var det en god dag (All in all it was a good day). It usually comes at the end, after the details.",
+  "forms": [
+   {
+    "da": "alt i alt",
+    "en": "all in all"
+   },
+   {
+    "da": "Alt i alt går det godt.",
+    "en": "All in all it is going well."
+   },
+   {
+    "da": "alt i alt ti gæster",
+    "en": "ten guests in total"
+   }
+  ],
+  "related": [
+   {
+    "da": "til sidst",
+    "en": "in the end"
+   },
+   {
+    "da": "kort sagt",
+    "en": "in short"
+   },
+   {
+    "da": "sammenlagt",
+    "en": "altogether"
+   }
+  ],
+  "sentence": {
+   "da": "**Alt i alt** var rejsen rigtig god.",
+   "en": "All in all the trip was really good."
   }
  },
  "altid": {
@@ -478,6 +977,45 @@
    "en": "I always get up at six o'clock."
   }
  },
+ "alting": {
+  "explanation": "\"Alting\" means \"everything\": Alting er dyrt her (Everything is expensive here). It often appears with ikke: Ikke alting er dyrt (Not everything is expensive).",
+  "forms": [
+   {
+    "da": "Alting er klar.",
+    "en": "Everything is ready."
+   },
+   {
+    "da": "Han ved alting.",
+    "en": "He knows everything."
+   },
+   {
+    "da": "Jeg har alting.",
+    "en": "I have everything."
+   }
+  ],
+  "related": [
+   {
+    "da": "alt",
+    "en": "everything / all"
+   },
+   {
+    "da": "alle",
+    "en": "everyone"
+   },
+   {
+    "da": "intet",
+    "en": "nothing"
+   },
+   {
+    "da": "noget",
+    "en": "something"
+   }
+  ],
+  "sentence": {
+   "da": "Hun ved **alting** om heste.",
+   "en": "She knows everything about horses."
+  }
+ },
  "altså": {
   "explanation": "\"Altså\" means \"so\" or \"then\", when you sum up what was just said: Han er syg, så han kommer altså ikke (He is sick, so he is not coming then). It also adds emphasis, like the English word really. Compare Det er dyrt (It is expensive) with Det er altså dyrt! (It really is expensive!).",
   "forms": [
@@ -515,6 +1053,123 @@
   "sentence": {
    "da": "Det er **altså** for dyrt!",
    "en": "That really is too expensive!"
+  }
+ },
+ "alvor": {
+  "explanation": "\"Alvor\" means \"seriousness\". You often use it in the phrase i alvor (seriously): Er du i alvor? (Are you serious?). It is the opposite of a joke: Nu er det alvor (Now it is serious).",
+  "forms": [
+   {
+    "da": "Det er alvor.",
+    "en": "It is serious."
+   },
+   {
+    "da": "i alvor",
+    "en": "seriously"
+   },
+   {
+    "da": "i fuldt alvor",
+    "en": "in all seriousness"
+   }
+  ],
+  "related": [
+   {
+    "da": "alvorlig",
+    "en": "serious"
+   },
+   {
+    "da": "seriøs",
+    "en": "serious / earnest"
+   },
+   {
+    "da": "en spøg",
+    "en": "a joke"
+   },
+   {
+    "da": "sjov",
+    "en": "fun / funny"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg mener det i fuldt **alvor**.",
+   "en": "I mean it in all seriousness."
+  }
+ },
+ "alvorlig": {
+  "explanation": "\"Alvorlig\" means \"serious\", for problems and for people: Det er en alvorlig sag (It is a serious matter). Han ser alvorlig ud (He looks serious).",
+  "forms": [
+   {
+    "da": "en alvorlig fejl",
+    "en": "a serious mistake"
+   },
+   {
+    "da": "et alvorligt problem",
+    "en": "a serious problem"
+   },
+   {
+    "da": "alvorlige problemer",
+    "en": "serious problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "seriøs",
+    "en": "serious, earnest"
+   },
+   {
+    "da": "farlig",
+    "en": "dangerous"
+   },
+   {
+    "da": "sjov",
+    "en": "funny"
+   },
+   {
+    "da": "let",
+    "en": "light, easy"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen siger, at det er en **alvorlig** sygdom.",
+   "en": "The doctor says that it is a serious illness."
+  }
+ },
+ "ambitiøs": {
+  "explanation": "\"Ambitiøs\" means \"ambitious\" and describes a person or a goal that aims high: Hun er ambitiøs på jobbet (She is ambitious at work).",
+  "forms": [
+   {
+    "da": "en ambitiøs plan",
+    "en": "an ambitious plan"
+   },
+   {
+    "da": "et ambitiøst mål",
+    "en": "an ambitious goal"
+   },
+   {
+    "da": "ambitiøse mål",
+    "en": "ambitious goals"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ambition",
+    "en": "an ambition"
+   },
+   {
+    "da": "målrettet",
+    "en": "goal-oriented"
+   },
+   {
+    "da": "ærgerrig",
+    "en": "driven"
+   },
+   {
+    "da": "uambitiøs",
+    "en": "unambitious"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **ambitiøs** og vil være chef en dag.",
+   "en": "She is ambitious and wants to be a boss one day."
   }
  },
  "amerikansk": {
@@ -595,6 +1250,123 @@
    "en": "Today is my second day here."
   }
  },
+ "anderledes": {
+  "explanation": "\"Anderledes\" means \"different\", as in not the usual way: Det er en anderledes film (It is a different kind of film). For things that are not alike, forskellig is common: De er forskellige (They are different).",
+  "forms": [
+   {
+    "da": "en anderledes bog",
+    "en": "a different kind of book"
+   },
+   {
+    "da": "et anderledes svar",
+    "en": "a different answer"
+   },
+   {
+    "da": "anderledes ideer",
+    "en": "different ideas"
+   }
+  ],
+  "related": [
+   {
+    "da": "ens",
+    "en": "alike"
+   },
+   {
+    "da": "samme",
+    "en": "same"
+   },
+   {
+    "da": "speciel",
+    "en": "special"
+   },
+   {
+    "da": "usædvanlig",
+    "en": "unusual"
+   }
+  ],
+  "sentence": {
+   "da": "Min nye skole er helt **anderledes**, ikke som den gamle.",
+   "en": "My new school is completely different, not like the old one."
+  }
+ },
+ "ansvarlig": {
+  "explanation": "\"Ansvarlig\" means \"responsible\" and describes someone you can rely on: Han er ansvarlig og kommer til tiden (He is responsible and comes on time). It also means in charge: Hvem er ansvarlig? (Who is in charge?)",
+  "forms": [
+   {
+    "da": "en ansvarlig voksen",
+    "en": "a responsible adult"
+   },
+   {
+    "da": "et ansvarligt valg",
+    "en": "a responsible choice"
+   },
+   {
+    "da": "ansvarlige voksne",
+    "en": "responsible adults"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ansvar",
+    "en": "a responsibility"
+   },
+   {
+    "da": "uansvarlig",
+    "en": "irresponsible"
+   },
+   {
+    "da": "pålidelig",
+    "en": "reliable"
+   },
+   {
+    "da": "troværdig",
+    "en": "trustworthy"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **ansvarlig** og passer godt på sin lillebror.",
+   "en": "She is responsible and takes good care of her little brother."
+  }
+ },
+ "antibiotika": {
+  "explanation": "\"Antibiotika\" means \"antibiotics\" and is used without en or et, like in English: Hun får antibiotika (She is getting antibiotics). It only works against bacteria, not viruses: Det virker ikke mod virus (It does not work against viruses).",
+  "forms": [
+   {
+    "da": "antibiotika",
+    "en": "antibiotics"
+   },
+   {
+    "da": "Jeg tager antibiotika.",
+    "en": "I take antibiotics."
+   },
+   {
+    "da": "en kur antibiotika",
+    "en": "a course of antibiotics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en recept",
+    "en": "a prescription"
+   },
+   {
+    "da": "en bivirkning",
+    "en": "a side effect"
+   },
+   {
+    "da": "en tablet",
+    "en": "a tablet"
+   },
+   {
+    "da": "en bakterie",
+    "en": "a bacterium"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen giver mig **antibiotika** mod infektionen.",
+   "en": "The doctor gives me antibiotics for the infection."
+  }
+ },
  "appelsinjuice": {
   "explanation": "\"En appelsinjuice\" means \"an orange juice\". It is built from appelsin (orange) and juice (juice). Et glas appelsinjuice means \"a glass of orange juice\".",
   "forms": [
@@ -624,6 +1396,49 @@
   "sentence": {
    "da": "Jeg drikker **appelsinjuice** hver morgen.",
    "en": "I drink orange juice every morning."
+  }
+ },
+ "appetit": {
+  "explanation": "\"Appetit\" means \"appetite\", the wish to eat: Jeg har ikke så meget appetit i dag (I don't have much appetite today). Lugten af nybagt brød giver mig appetit (The smell of fresh bread gives me an appetite).",
+  "forms": [
+   {
+    "da": "appetit",
+    "en": "appetite"
+   },
+   {
+    "da": "appetitten",
+    "en": "the appetite"
+   },
+   {
+    "da": "en god appetit",
+    "en": "a good appetite"
+   },
+   {
+    "da": "ingen appetit",
+    "en": "no appetite"
+   }
+  ],
+  "related": [
+   {
+    "da": "sult",
+    "en": "hunger"
+   },
+   {
+    "da": "sulten",
+    "en": "hungry"
+   },
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "mæt",
+    "en": "full"
+   }
+  ],
+  "sentence": {
+   "da": "Efter turen havde vi stor **appetit**.",
+   "en": "After the trip we had a big appetite."
   }
  },
  "april": {
@@ -696,6 +1511,80 @@
    "en": "She comes from Egypt and speaks Arabic."
   }
  },
+ "arbejdsløs": {
+  "explanation": "\"Arbejdsløs\" means \"unemployed\", without a job: Han har været arbejdsløs i et år (He has been unemployed for a year). It is built from arbejde (work) and løs (without).",
+  "forms": [
+   {
+    "da": "en arbejdsløs mand",
+    "en": "an unemployed man"
+   },
+   {
+    "da": "et arbejdsløst par",
+    "en": "an unemployed couple"
+   },
+   {
+    "da": "arbejdsløse mennesker",
+    "en": "unemployed people"
+   }
+  ],
+  "related": [
+   {
+    "da": "ansat",
+    "en": "employed"
+   },
+   {
+    "da": "en arbejdsløshed",
+    "en": "unemployment"
+   },
+   {
+    "da": "en arbejdsgiver",
+    "en": "an employer"
+   },
+   {
+    "da": "at fyre",
+    "en": "to fire"
+   }
+  ],
+  "sentence": {
+   "da": "Han har været **arbejdsløs** i tre måneder.",
+   "en": "He has been unemployed for three months."
+  }
+ },
+ "asiatisk": {
+  "explanation": "\"Asiatisk\" means \"Asian\" and describes things from Asia: asiatisk mad (Asian food). A person from Asia is en asiat (an Asian person).",
+  "forms": [
+   {
+    "da": "en asiatisk restaurant",
+    "en": "an Asian restaurant"
+   },
+   {
+    "da": "et asiatisk køkken",
+    "en": "an Asian cuisine"
+   },
+   {
+    "da": "asiatiske lande",
+    "en": "Asian countries"
+   }
+  ],
+  "related": [
+   {
+    "da": "Asien",
+    "en": "Asia"
+   },
+   {
+    "da": "afrikansk",
+    "en": "African"
+   },
+   {
+    "da": "europæisk",
+    "en": "European"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **asiatisk** mad, især thailandsk.",
+   "en": "I love Asian food, especially Thai."
+  }
+ },
  "asien": {
   "explanation": "\"Asien\" means \"Asia\": Hun har rejst meget i Asien (She has traveled a lot in Asia).",
   "forms": [
@@ -735,6 +1624,537 @@
    "en": "China and Japan are in Asia."
   }
  },
+ "assistance": {
+  "explanation": "\"Assistance\" means \"assistance\", help from someone: Jeg har brug for assistance (I need assistance). It sounds more formal than hjælp (help).",
+  "forms": [
+   {
+    "da": "assistance",
+    "en": "assistance"
+   },
+   {
+    "da": "assistancen",
+    "en": "the assistance"
+   },
+   {
+    "da": "Brug for assistance?",
+    "en": "Need assistance?"
+   },
+   {
+    "da": "Tak for assistancen.",
+    "en": "Thanks for the assistance."
+   }
+  ],
+  "related": [
+   {
+    "da": "at assistere",
+    "en": "to assist"
+   },
+   {
+    "da": "en assistent",
+    "en": "an assistant"
+   },
+   {
+    "da": "en støtte",
+    "en": "a support"
+   },
+   {
+    "da": "en service",
+    "en": "a service"
+   }
+  ],
+  "sentence": {
+   "da": "Kan jeg få **assistance** ved kassen?",
+   "en": "Can I get assistance at the checkout?"
+  }
+ },
+ "at acceptere": {
+  "explanation": "\"At acceptere\" means \"to accept\": Jeg accepterer dit tilbud (I accept your offer). It also fits things you must live with: Hun kan ikke acceptere, at han er sen (She cannot accept that he is late).",
+  "forms": [
+   {
+    "da": "at acceptere",
+    "en": "to accept"
+   },
+   {
+    "da": "jeg accepterer",
+    "en": "I accept"
+   },
+   {
+    "da": "jeg accepterede",
+    "en": "I accepted"
+   },
+   {
+    "da": "jeg har accepteret",
+    "en": "I have accepted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afvise",
+    "en": "to reject"
+   },
+   {
+    "da": "at godkende",
+    "en": "to approve"
+   },
+   {
+    "da": "at sige ja",
+    "en": "to say yes"
+   },
+   {
+    "da": "at tage imod",
+    "en": "to accept / receive"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **acceptere** dit tilbud.",
+   "en": "I would like to accept your offer."
+  }
+ },
+ "at advare": {
+  "explanation": "\"At advare\" means \"to warn\", telling someone about a danger: Jeg advarer dig mod hunden (I am warning you about the dog). The danger comes after mod (against).",
+  "forms": [
+   {
+    "da": "at advare",
+    "en": "to warn"
+   },
+   {
+    "da": "jeg advarer",
+    "en": "I warn"
+   },
+   {
+    "da": "jeg advarede",
+    "en": "I warned"
+   },
+   {
+    "da": "jeg har advaret",
+    "en": "I have warned"
+   }
+  ],
+  "related": [
+   {
+    "da": "en advarsel",
+    "en": "a warning"
+   },
+   {
+    "da": "at passe på",
+    "en": "to be careful"
+   },
+   {
+    "da": "at true",
+    "en": "to threaten"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **advare** dig mod den glatte vej.",
+   "en": "I want to warn you about the slippery road."
+  }
+ },
+ "at afbestille": {
+  "explanation": "\"At afbestille\" means \"to cancel\" something you ordered or booked: Jeg afbestiller hotelværelset (I cancel the hotel room). For an event that will not happen, use at aflyse (to call off).",
+  "forms": [
+   {
+    "da": "at afbestille",
+    "en": "to cancel (an order or booking)"
+   },
+   {
+    "da": "jeg afbestiller",
+    "en": "I cancel (an order or booking)"
+   },
+   {
+    "da": "jeg afbestilte",
+    "en": "I canceled (an order or booking)"
+   },
+   {
+    "da": "jeg har afbestilt",
+    "en": "I have canceled (an order or booking)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bestille",
+    "en": "to order"
+   },
+   {
+    "da": "en bestilling",
+    "en": "an order"
+   },
+   {
+    "da": "at reservere",
+    "en": "to reserve"
+   },
+   {
+    "da": "en reservation",
+    "en": "a reservation"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **afbestille** bordet, fordi Anna er syg.",
+   "en": "We have to cancel the table because Anna is sick."
+  }
+ },
+ "at afhænge af": {
+  "explanation": "\"At afhænge af\" means \"to depend on\": Det afhænger af vejret (It depends on the weather). In everyday speech, Danes often say det kommer an på (it depends on) instead.",
+  "forms": [
+   {
+    "da": "at afhænge af",
+    "en": "to depend on"
+   },
+   {
+    "da": "jeg afhænger af",
+    "en": "I depend on"
+   },
+   {
+    "da": "jeg afhang af",
+    "en": "I depended on"
+   },
+   {
+    "da": "jeg har afhængt af",
+    "en": "I have depended on"
+   }
+  ],
+  "related": [
+   {
+    "da": "afhængig",
+    "en": "dependent"
+   },
+   {
+    "da": "en afhængighed",
+    "en": "a dependence"
+   },
+   {
+    "da": "uafhængig",
+    "en": "independent"
+   },
+   {
+    "da": "at hænge",
+    "en": "to hang"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen vil **afhænge af** størrelsen.",
+   "en": "The price will depend on the size."
+  }
+ },
+ "at aflevere": {
+  "explanation": "\"At aflevere\" means \"to hand in\" and \"to deliver\": Jeg afleverer opgaven i morgen (I hand in the assignment tomorrow). It also means \"to drop off\": Jeg afleverer børnene i skole (I drop the kids off at school).",
+  "forms": [
+   {
+    "da": "at aflevere",
+    "en": "to hand in / deliver"
+   },
+   {
+    "da": "jeg afleverer",
+    "en": "I hand in / deliver"
+   },
+   {
+    "da": "jeg afleverede",
+    "en": "I handed in / delivered"
+   },
+   {
+    "da": "jeg har afleveret",
+    "en": "I have handed in / delivered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at levere",
+    "en": "to deliver"
+   },
+   {
+    "da": "at hente",
+    "en": "to pick up"
+   },
+   {
+    "da": "en aflevering",
+    "en": "a hand-in, a drop-off"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **aflevere** rapporten før fredag.",
+   "en": "You have to hand in the report before Friday."
+  }
+ },
+ "at aflyse": {
+  "explanation": "\"At aflyse\" means \"to cancel\", for an event, a flight or a meeting that will not happen: Flyet bliver aflyst (The flight is being canceled). For your own booking, use at afbestille (to cancel an order).",
+  "forms": [
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
+   },
+   {
+    "da": "jeg aflyser",
+    "en": "I cancel"
+   },
+   {
+    "da": "jeg aflyste",
+    "en": "I canceled"
+   },
+   {
+    "da": "jeg har aflyst",
+    "en": "I have canceled"
+   }
+  ],
+  "related": [
+   {
+    "da": "en aflysning",
+    "en": "a cancellation"
+   },
+   {
+    "da": "at udsætte",
+    "en": "to postpone"
+   },
+   {
+    "da": "et afbud",
+    "en": "a notice of absence"
+   }
+  ],
+  "sentence": {
+   "da": "De må **aflyse** mødet på grund af sne.",
+   "en": "They have to cancel the meeting because of snow."
+  }
+ },
+ "at afslutte": {
+  "explanation": "\"At afslutte\" means \"to finish\" or \"to end\" something on purpose: Hun afsluttede brevet (She finished the letter). When something ends by itself, use at slutte: Filmen slutter nu (The film ends now).",
+  "forms": [
+   {
+    "da": "at afslutte",
+    "en": "to finish / end"
+   },
+   {
+    "da": "jeg afslutter",
+    "en": "I finish / end"
+   },
+   {
+    "da": "jeg afsluttede",
+    "en": "I finished / ended"
+   },
+   {
+    "da": "jeg har afsluttet",
+    "en": "I have finished / ended"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afslutning",
+    "en": "an ending"
+   },
+   {
+    "da": "at starte",
+    "en": "to start"
+   },
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at færdiggøre",
+    "en": "to complete"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **afslutte** rapporten i dag.",
+   "en": "I have to finish the report today."
+  }
+ },
+ "at aftale": {
+  "explanation": "\"At aftale\" means \"to agree on\" or \"to arrange\", for plans with other people: Vi aftalte et møde (We arranged a meeting). Jeg har aftalt en tid med lægen (I have set a time with the doctor).",
+  "forms": [
+   {
+    "da": "at aftale",
+    "en": "to agree / arrange"
+   },
+   {
+    "da": "jeg aftaler",
+    "en": "I agree / arrange"
+   },
+   {
+    "da": "jeg aftalte",
+    "en": "I agreed / arranged"
+   },
+   {
+    "da": "jeg har aftalt",
+    "en": "I have agreed / arranged"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kalender",
+    "en": "a calendar"
+   },
+   {
+    "da": "at blive enige",
+    "en": "to agree"
+   },
+   {
+    "da": "at planlægge",
+    "en": "to plan"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **aftale** en tid for mødet.",
+   "en": "We have to arrange a time for the meeting."
+  }
+ },
+ "at anbefale": {
+  "explanation": "\"At anbefale\" means \"to recommend\", for things you like and trust: Jeg anbefaler restauranten (I recommend the restaurant). It also works for advice about what to do: Lægen anbefaler hvile (The doctor recommends rest).",
+  "forms": [
+   {
+    "da": "at anbefale",
+    "en": "to recommend"
+   },
+   {
+    "da": "jeg anbefaler",
+    "en": "I recommend"
+   },
+   {
+    "da": "jeg anbefalede",
+    "en": "I recommended"
+   },
+   {
+    "da": "jeg har anbefalet",
+    "en": "I have recommended"
+   }
+  ],
+  "related": [
+   {
+    "da": "at foreslå",
+    "en": "to suggest"
+   },
+   {
+    "da": "at råde",
+    "en": "to advise"
+   },
+   {
+    "da": "en anbefaling",
+    "en": "a recommendation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **anbefale** denne gode bog til dig.",
+   "en": "I would like to recommend this good book to you."
+  }
+ },
+ "at angre": {
+  "explanation": "\"At angre\" means \"to regret\": Jeg angrer, at jeg sagde det (I regret that I said it). It is about something you did or chose and wish you had not.",
+  "forms": [
+   {
+    "da": "at angre",
+    "en": "to regret"
+   },
+   {
+    "da": "jeg angrer",
+    "en": "I regret"
+   },
+   {
+    "da": "jeg angrede",
+    "en": "I regretted"
+   },
+   {
+    "da": "jeg har angret",
+    "en": "I have regretted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortryde",
+    "en": "to regret"
+   },
+   {
+    "da": "en fortrydelse",
+    "en": "a regret"
+   },
+   {
+    "da": "en anger",
+    "en": "remorse"
+   }
+  ],
+  "sentence": {
+   "da": "Du vil ikke **angre**, at du kom.",
+   "en": "You will not regret that you came."
+  }
+ },
+ "at ankomme": {
+  "explanation": "\"At ankomme\" means \"to arrive\", for trains, planes and guests: Gæsterne ankommer i dag (The guests arrive today). In everyday talk, Danes often say at komme frem (to get there).",
+  "forms": [
+   {
+    "da": "at ankomme",
+    "en": "to arrive"
+   },
+   {
+    "da": "jeg ankommer",
+    "en": "I arrive"
+   },
+   {
+    "da": "jeg ankom",
+    "en": "I arrived"
+   },
+   {
+    "da": "jeg er ankommet",
+    "en": "I have arrived"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   },
+   {
+    "da": "at afgå",
+    "en": "to depart"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   }
+  ],
+  "sentence": {
+   "da": "Flyet skal **ankomme** klokken otte i aften.",
+   "en": "The plane is due to arrive at eight tonight."
+  }
+ },
+ "at ansætte": {
+  "explanation": "\"At ansætte\" means \"to hire\": Firmaet ansætter to nye folk (The company is hiring two new people). It means giving someone a job, not looking for one.",
+  "forms": [
+   {
+    "da": "at ansætte",
+    "en": "to hire"
+   },
+   {
+    "da": "jeg ansætter",
+    "en": "I hire"
+   },
+   {
+    "da": "jeg ansatte",
+    "en": "I hired"
+   },
+   {
+    "da": "jeg har ansat",
+    "en": "I have hired"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ansat",
+    "en": "an employee"
+   },
+   {
+    "da": "en ansættelse",
+    "en": "a hiring, employment"
+   },
+   {
+    "da": "at fyre",
+    "en": "to fire"
+   },
+   {
+    "da": "en ansøger",
+    "en": "an applicant"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil gerne **ansætte** en ny kollega.",
+   "en": "We would like to hire a new colleague."
+  }
+ },
  "at arbejde": {
   "explanation": "\"At arbejde\" means \"to work\": Jeg arbejder på et hospital (I work at a hospital). Et arbejde also means \"a job\" or \"work\" itself: Jeg har meget arbejde (I have a lot of work).",
   "forms": [
@@ -772,6 +2192,127 @@
   "sentence": {
    "da": "Jeg skal **arbejde** på kontoret.",
    "en": "I have to work at the office."
+  }
+ },
+ "at arbejde hjemmefra": {
+  "explanation": "\"At arbejde hjemmefra\" means \"to work from home\". Hjemmefra (from home) is one word: Jeg arbejder hjemmefra om fredagen (I work from home on Fridays). It is built from hjemme (at home) and fra (from).",
+  "forms": [
+   {
+    "da": "at arbejde hjemmefra",
+    "en": "to work from home"
+   },
+   {
+    "da": "jeg arbejder hjemmefra",
+    "en": "I work from home"
+   },
+   {
+    "da": "jeg arbejdede hjemmefra",
+    "en": "I worked from home"
+   },
+   {
+    "da": "jeg har arbejdet hjemmefra",
+    "en": "I have worked from home"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hjemmekontor",
+    "en": "a home office"
+   },
+   {
+    "da": "et kontor",
+    "en": "an office"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "at pendle",
+    "en": "to commute"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **arbejde hjemmefra** på mandag.",
+   "en": "I can work from home on Monday."
+  }
+ },
+ "at arbejde med": {
+  "explanation": "\"At arbejde med\" means \"to work with\", and also to work in a field: Hun arbejder med dyr (She works with animals). For a place or a task, use på instead: Jeg arbejder på kontoret (I work at the office).",
+  "forms": [
+   {
+    "da": "at arbejde med",
+    "en": "to work with"
+   },
+   {
+    "da": "jeg arbejder med",
+    "en": "I work with"
+   },
+   {
+    "da": "jeg arbejdede med",
+    "en": "I worked with"
+   },
+   {
+    "da": "jeg har arbejdet med",
+    "en": "I have worked with"
+   }
+  ],
+  "related": [
+   {
+    "da": "at arbejde på",
+    "en": "to work at / work on"
+   },
+   {
+    "da": "at samarbejde",
+    "en": "to cooperate"
+   },
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **arbejde med** børn.",
+   "en": "I would like to work with children."
+  }
+ },
+ "at arbejde på": {
+  "explanation": "\"At arbejde på\" means \"to work at\" a place, or \"to work on\" a task: Jeg arbejder på et hospital (I work at a hospital). Hun arbejder på et nyt projekt (She is working on a new project).",
+  "forms": [
+   {
+    "da": "at arbejde på",
+    "en": "to work on"
+   },
+   {
+    "da": "jeg arbejder på",
+    "en": "I work on"
+   },
+   {
+    "da": "jeg arbejdede på",
+    "en": "I worked on"
+   },
+   {
+    "da": "jeg har arbejdet på",
+    "en": "I have worked on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at arbejde med",
+    "en": "to work with"
+   },
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
+   },
+   {
+    "da": "at samarbejde",
+    "en": "to cooperate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **arbejde på** min rapport i aften.",
+   "en": "I want to work on my report tonight."
   }
  },
  "atten": {
@@ -879,6 +2420,197 @@
    "en": "Kangaroos live in Australia."
   }
  },
+ "automatisk": {
+  "explanation": "\"Automatisk\" means \"automatic\", something that happens by itself. The same word also tells how something happens: Døren åbner automatisk (The door opens automatically).",
+  "forms": [
+   {
+    "da": "en automatisk dør",
+    "en": "an automatic door"
+   },
+   {
+    "da": "et automatisk system",
+    "en": "an automatic system"
+   },
+   {
+    "da": "automatiske døre",
+    "en": "automatic doors"
+   }
+  ],
+  "related": [
+   {
+    "da": "manuel",
+    "en": "manual"
+   },
+   {
+    "da": "en automat",
+    "en": "a vending machine"
+   },
+   {
+    "da": "at automatisere",
+    "en": "to automate"
+   },
+   {
+    "da": "af sig selv",
+    "en": "by itself"
+   }
+  ],
+  "sentence": {
+   "da": "Lyset tændes **automatisk**, når du går ind.",
+   "en": "The light comes on automatically when you walk in."
+  }
+ },
+ "av": {
+  "explanation": "\"Av\" means \"ouch\" and is what you say when something hurts: Av, min fod! (Ouch, my foot!). For a small slip, say ups (oops) instead.",
+  "forms": [
+   {
+    "da": "Av!",
+    "en": "Ouch!"
+   },
+   {
+    "da": "Av, min finger!",
+    "en": "Ouch, my finger!"
+   },
+   {
+    "da": "Av, det gjorde ondt!",
+    "en": "Ouch, that hurt!"
+   }
+  ],
+  "related": [
+   {
+    "da": "aj",
+    "en": "ouch (similar)"
+   },
+   {
+    "da": "at gøre ondt",
+    "en": "to hurt"
+   },
+   {
+    "da": "uha",
+    "en": "oh dear"
+   }
+  ],
+  "sentence": {
+   "da": "**Av**, den kop er varm!",
+   "en": "Ouch, that cup is hot!"
+  }
+ },
+ "en abe": {
+  "explanation": "\"En abe\" means \"a monkey\", and also \"an ape\": Aben spiser en banan (The monkey eats a banana). For a great ape, Danes say en menneskeabe (a great ape).",
+  "forms": [
+   {
+    "da": "en abe",
+    "en": "a monkey / ape"
+   },
+   {
+    "da": "aben",
+    "en": "the monkey / ape"
+   },
+   {
+    "da": "aber",
+    "en": "monkeys / apes"
+   },
+   {
+    "da": "aberne",
+    "en": "the monkeys / apes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gorilla",
+    "en": "gorilla"
+   },
+   {
+    "da": "en chimpanse",
+    "en": "chimpanzee"
+   },
+   {
+    "da": "en orangutang",
+    "en": "orangutan"
+   }
+  ],
+  "sentence": {
+   "da": "En **abe** klatrer op i det høje træ.",
+   "en": "A monkey climbs up the tall tree."
+  }
+ },
+ "en abrikos": {
+  "explanation": "\"En abrikos\" means \"an apricot\". Dried ones are a common snack: Jeg spiser tørrede abrikoser (I eat dried apricots). Fresh ones are best in summer: Friske abrikoser er bedst om sommeren (Fresh apricots are best in summer).",
+  "forms": [
+   {
+    "da": "en abrikos",
+    "en": "an apricot"
+   },
+   {
+    "da": "abrikosen",
+    "en": "the apricot"
+   },
+   {
+    "da": "abrikoser",
+    "en": "apricots"
+   },
+   {
+    "da": "abrikoserne",
+    "en": "the apricots"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fersken",
+    "en": "a peach"
+   },
+   {
+    "da": "en nektarin",
+    "en": "a nectarine"
+   },
+   {
+    "da": "en blomme",
+    "en": "a plum"
+   }
+  ],
+  "sentence": {
+   "da": "En **abrikos** er lille og orange.",
+   "en": "An apricot is small and orange."
+  }
+ },
+ "en adgangskode": {
+  "explanation": "\"En adgangskode\" means \"a password\", a secret code that lets you in: Skriv din adgangskode to gange (Type your password twice). It is built from adgang (access) and kode (code).",
+  "forms": [
+   {
+    "da": "en adgangskode",
+    "en": "a password"
+   },
+   {
+    "da": "adgangskoden",
+    "en": "the password"
+   },
+   {
+    "da": "adgangskoder",
+    "en": "passwords"
+   },
+   {
+    "da": "adgangskoderne",
+    "en": "the passwords"
+   }
+  ],
+  "related": [
+   {
+    "da": "et brugernavn",
+    "en": "a username"
+   },
+   {
+    "da": "at logge ind",
+    "en": "to log in"
+   },
+   {
+    "da": "en pinkode",
+    "en": "a PIN code"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt min **adgangskode**.",
+   "en": "I have forgotten my password."
+  }
+ },
  "en adresse": {
   "explanation": "\"En adresse\" means \"an address\", the street and number where someone lives. You ask Hvad er din adresse? (What is your address?).",
   "forms": [
@@ -922,6 +2654,131 @@
    "en": "I write my address on the letter: Vestergade 12."
   }
  },
+ "en advarsel": {
+  "explanation": "\"En advarsel\" means \"a warning\", a message that danger or trouble may come: Læreren gav ham en advarsel (The teacher gave him a warning).",
+  "forms": [
+   {
+    "da": "en advarsel",
+    "en": "a warning"
+   },
+   {
+    "da": "advarslen",
+    "en": "the warning"
+   },
+   {
+    "da": "advarsler",
+    "en": "warnings"
+   },
+   {
+    "da": "advarslerne",
+    "en": "the warnings"
+   }
+  ],
+  "related": [
+   {
+    "da": "at advare",
+    "en": "to warn"
+   },
+   {
+    "da": "en trussel",
+    "en": "a threat"
+   },
+   {
+    "da": "en alarm",
+    "en": "an alarm"
+   },
+   {
+    "da": "en fare",
+    "en": "a danger"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **advarsel** om kraftig regn i dag.",
+   "en": "There is a warning about heavy rain today."
+  }
+ },
+ "en advokat": {
+  "explanation": "\"En advokat\" means \"a lawyer\", someone who gives legal advice and speaks for you in court: Jeg har brug for en advokat (I need a lawyer). The same word is used for men and women.",
+  "forms": [
+   {
+    "da": "en advokat",
+    "en": "a lawyer"
+   },
+   {
+    "da": "advokaten",
+    "en": "the lawyer"
+   },
+   {
+    "da": "advokater",
+    "en": "lawyers"
+   },
+   {
+    "da": "advokaterne",
+    "en": "the lawyers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en retssag",
+    "en": "a court case"
+   },
+   {
+    "da": "en jurist",
+    "en": "a legal professional"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil tale med en **advokat** i dag.",
+   "en": "I want to talk to a lawyer today."
+  }
+ },
+ "en afdeling": {
+  "explanation": "\"En afdeling\" means \"a department\", a part of a company, hospital or store: Min ven arbejder på en afdeling på hospitalet (My friend works in a department at the hospital).",
+  "forms": [
+   {
+    "da": "en afdeling",
+    "en": "a department"
+   },
+   {
+    "da": "afdelingen",
+    "en": "the department"
+   },
+   {
+    "da": "afdelinger",
+    "en": "departments"
+   },
+   {
+    "da": "afdelingerne",
+    "en": "the departments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en del",
+    "en": "a part"
+   },
+   {
+    "da": "en virksomhed",
+    "en": "a company"
+   },
+   {
+    "da": "en leder",
+    "en": "a manager"
+   },
+   {
+    "da": "en økonomiafdeling",
+    "en": "an accounting department"
+   }
+  ],
+  "sentence": {
+   "da": "Hun arbejder på en **afdeling** på hospitalet.",
+   "en": "She works in a department at the hospital."
+  }
+ },
  "en afgang": {
   "explanation": "\"En afgang\" means \"a departure\", the time a train, bus or plane leaves. You can ask Hvornår er næste afgang? (When is the next departure?).",
   "forms": [
@@ -959,6 +2816,295 @@
   "sentence": {
    "da": "Næste **afgang** er klokken ni.",
    "en": "The next departure is at nine."
+  }
+ },
+ "en afkørsel": {
+  "explanation": "\"En afkørsel\" means \"an exit\" from a highway: Tag næste afkørsel (Take the next exit). For the exit of a building, use udgang (exit) instead.",
+  "forms": [
+   {
+    "da": "en afkørsel",
+    "en": "an exit"
+   },
+   {
+    "da": "afkørslen",
+    "en": "the exit"
+   },
+   {
+    "da": "afkørsler",
+    "en": "exits"
+   },
+   {
+    "da": "afkørslerne",
+    "en": "the exits"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilkørsel",
+    "en": "on-ramp"
+   },
+   {
+    "da": "en motorvej",
+    "en": "highway"
+   },
+   {
+    "da": "en rundkørsel",
+    "en": "roundabout"
+   }
+  ],
+  "sentence": {
+   "da": "Tag næste **afkørsel** og drej til højre.",
+   "en": "Take the next exit and turn right."
+  }
+ },
+ "en aflevering": {
+  "explanation": "\"En aflevering\" means \"a submission\", a piece of schoolwork you hand in: Jeg har en aflevering i morgen (I have a submission due tomorrow). It is also used for handing something over: aflevering af nøgler (handing over keys).",
+  "forms": [
+   {
+    "da": "en aflevering",
+    "en": "a submission"
+   },
+   {
+    "da": "afleveringen",
+    "en": "the submission"
+   },
+   {
+    "da": "afleveringer",
+    "en": "submissions"
+   },
+   {
+    "da": "afleveringerne",
+    "en": "the submissions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at aflevere",
+    "en": "to hand in"
+   },
+   {
+    "da": "en frist",
+    "en": "a deadline"
+   },
+   {
+    "da": "en opgave",
+    "en": "an assignment"
+   },
+   {
+    "da": "en lektie",
+    "en": "a piece of homework"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal skrive min **aflevering** færdig i aften.",
+   "en": "I have to finish writing my submission tonight."
+  }
+ },
+ "en aflysning": {
+  "explanation": "\"En aflysning\" means \"a cancellation\" of something planned, like a flight or a match: Aflysningen skyldes dårligt vejr (The cancellation is due to bad weather). Vi fik besked om aflysningen (We were told about the cancellation).",
+  "forms": [
+   {
+    "da": "en aflysning",
+    "en": "a cancellation"
+   },
+   {
+    "da": "aflysningen",
+    "en": "the cancellation"
+   },
+   {
+    "da": "aflysninger",
+    "en": "cancellations"
+   },
+   {
+    "da": "aflysningerne",
+    "en": "the cancellations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
+   },
+   {
+    "da": "aflyst",
+    "en": "canceled"
+   },
+   {
+    "da": "en forsinkelse",
+    "en": "a delay"
+   },
+   {
+    "da": "at udsætte",
+    "en": "to postpone"
+   }
+  ],
+  "sentence": {
+   "da": "Der kom en **aflysning** af flyet på grund af stormen.",
+   "en": "There was a cancellation of the flight because of the storm."
+  }
+ },
+ "en afrejse": {
+  "explanation": "\"En afrejse\" means \"a departure\", the moment you set off on a trip: Hvornår er afrejsen? (When is the departure?) Afrejsen kan også blive forsinket (The departure can also be delayed).",
+  "forms": [
+   {
+    "da": "en afrejse",
+    "en": "a departure"
+   },
+   {
+    "da": "afrejsen",
+    "en": "the departure"
+   },
+   {
+    "da": "afrejser",
+    "en": "departures"
+   },
+   {
+    "da": "afrejserne",
+    "en": "the departures"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   },
+   {
+    "da": "en hjemrejse",
+    "en": "a return trip"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **afrejse** er tidligt på fredag.",
+   "en": "Our departure is early on Friday."
+  }
+ },
+ "en afsked": {
+  "explanation": "\"En afsked\" means \"a farewell\" or \"a goodbye\": Det var en svær afsked (It was a hard goodbye). To say goodbye, use at tage afsked (to say goodbye).",
+  "forms": [
+   {
+    "da": "en afsked",
+    "en": "a farewell"
+   },
+   {
+    "da": "afskeden",
+    "en": "the farewell"
+   },
+   {
+    "da": "afskeder",
+    "en": "farewells"
+   },
+   {
+    "da": "afskederne",
+    "en": "the farewells"
+   }
+  ],
+  "related": [
+   {
+    "da": "farvel",
+    "en": "goodbye"
+   },
+   {
+    "da": "en hilsen",
+    "en": "a greeting"
+   },
+   {
+    "da": "et gensyn",
+    "en": "a reunion"
+   },
+   {
+    "da": "at sige farvel",
+    "en": "to say goodbye"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en trist **afsked** for os alle.",
+   "en": "It was a sad farewell for all of us."
+  }
+ },
+ "en afslutning": {
+  "explanation": "\"En afslutning\" means \"an ending\" or \"a conclusion\", the last part of something: Talen fik en god afslutning (The speech got a good ending).",
+  "forms": [
+   {
+    "da": "en afslutning",
+    "en": "an ending"
+   },
+   {
+    "da": "afslutningen",
+    "en": "the ending"
+   },
+   {
+    "da": "afslutninger",
+    "en": "endings"
+   },
+   {
+    "da": "afslutningerne",
+    "en": "the endings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en begyndelse",
+    "en": "a beginning"
+   },
+   {
+    "da": "en slutning",
+    "en": "an ending"
+   },
+   {
+    "da": "at slutte",
+    "en": "to end"
+   },
+   {
+    "da": "en start",
+    "en": "a start"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide filmens **afslutning**.",
+   "en": "I like the ending of the film."
+  }
+ },
+ "en afstand": {
+  "explanation": "\"En afstand\" means \"a distance\", the space between two places or people: Afstanden til skolen er to kilometer (The distance to the school is two kilometers). Hold afstand! means \"Keep your distance!\"",
+  "forms": [
+   {
+    "da": "en afstand",
+    "en": "a distance"
+   },
+   {
+    "da": "afstanden",
+    "en": "the distance"
+   },
+   {
+    "da": "afstande",
+    "en": "distances"
+   },
+   {
+    "da": "afstandene",
+    "en": "the distances"
+   }
+  ],
+  "related": [
+   {
+    "da": "langt",
+    "en": "far"
+   },
+   {
+    "da": "nær",
+    "en": "near"
+   },
+   {
+    "da": "fjern",
+    "en": "far away"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **afstand** på to kilometer til byen.",
+   "en": "There is a distance of two kilometers to the town."
   }
  },
  "en aftale": {
@@ -1039,6 +3185,92 @@
    "en": "We eat dinner every evening."
   }
  },
+ "en aftenrutine": {
+  "explanation": "\"En aftenrutine\" means \"an evening routine\", the things you do each night before bed: Først børster jeg tænder, så læser jeg lidt (First I brush my teeth, then I read a bit).",
+  "forms": [
+   {
+    "da": "en aftenrutine",
+    "en": "an evening routine"
+   },
+   {
+    "da": "aftenrutinen",
+    "en": "the evening routine"
+   },
+   {
+    "da": "aftenrutiner",
+    "en": "evening routines"
+   },
+   {
+    "da": "aftenrutinerne",
+    "en": "the evening routines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en morgenrutine",
+    "en": "a morning routine"
+   },
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en sengetid",
+    "en": "bedtime"
+   },
+   {
+    "da": "en godnathistorie",
+    "en": "a bedtime story"
+   }
+  ],
+  "sentence": {
+   "da": "Min **aftenrutine** er te, en bog og tidlig seng.",
+   "en": "My evening routine is tea, a book and an early bed."
+  }
+ },
+ "en aftentur": {
+  "explanation": "\"En aftentur\" means \"an evening walk\", a calm walk after dinner: Vi tager en aftentur (We take an evening walk). It is built from aften (evening) and tur (walk, trip).",
+  "forms": [
+   {
+    "da": "en aftentur",
+    "en": "an evening walk"
+   },
+   {
+    "da": "aftenturen",
+    "en": "the evening walk"
+   },
+   {
+    "da": "aftenture",
+    "en": "evening walks"
+   },
+   {
+    "da": "aftenturene",
+    "en": "the evening walks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en morgentur",
+    "en": "a morning walk"
+   },
+   {
+    "da": "en gåtur",
+    "en": "a walk"
+   },
+   {
+    "da": "en søndagstur",
+    "en": "a Sunday outing"
+   },
+   {
+    "da": "en cykeltur",
+    "en": "a bike ride"
+   }
+  ],
+  "sentence": {
+   "da": "Efter maden tager vi en **aftentur** langs vandet.",
+   "en": "After dinner we take an evening walk along the water."
+  }
+ },
  "en agurk": {
   "explanation": "\"En agurk\" means \"a cucumber\". Pickled ones are syltede agurker (pickled cucumbers).",
   "forms": [
@@ -1076,6 +3308,256 @@
   "sentence": {
    "da": "Jeg skærer en **agurk** til salaten.",
    "en": "I am cutting a cucumber for the salad."
+  }
+ },
+ "en airbag": {
+  "explanation": "\"En airbag\" means \"an airbag\", the cushion that fills with air in a crash: Bilen har fire airbags (The car has four airbags). Airbagen går af, hvis bilen rammer noget (The airbag goes off if the car hits something).",
+  "forms": [
+   {
+    "da": "en airbag",
+    "en": "an airbag"
+   },
+   {
+    "da": "airbaggen",
+    "en": "the airbag"
+   },
+   {
+    "da": "airbags",
+    "en": "airbags"
+   },
+   {
+    "da": "airbaggene",
+    "en": "the airbags"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sikkerhedssele",
+    "en": "a seat belt"
+   },
+   {
+    "da": "en kofanger",
+    "en": "bumper"
+   },
+   {
+    "da": "en bremse",
+    "en": "brake"
+   },
+   {
+    "da": "et uheld",
+    "en": "accident"
+   }
+  ],
+  "sentence": {
+   "da": "Min nye bil har en **airbag** i rattet.",
+   "en": "My new car has an airbag in the steering wheel."
+  }
+ },
+ "en airfryer": {
+  "explanation": "\"En airfryer\" means \"an air fryer\", a small oven that cooks with hot air and little oil: Pommes frites bliver sprøde i airfryeren (Fries get crispy in the air fryer).",
+  "forms": [
+   {
+    "da": "en airfryer",
+    "en": "an air fryer"
+   },
+   {
+    "da": "airfryeren",
+    "en": "the air fryer"
+   },
+   {
+    "da": "airfryere",
+    "en": "air fryers"
+   },
+   {
+    "da": "airfryerne",
+    "en": "the air fryers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ovn",
+    "en": "an oven"
+   },
+   {
+    "da": "en mikrobølgeovn",
+    "en": "a microwave"
+   },
+   {
+    "da": "en frituregryde",
+    "en": "a deep fryer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver pommes frites i min **airfryer**.",
+   "en": "I make fries in my air fryer."
+  }
+ },
+ "en aktivitet": {
+  "explanation": "\"En aktivitet\" means \"an activity\", something you do for fun or exercise: Jeg har en ny aktivitet hver dag (I have a new activity every day). It is also used for planned events at a school or club.",
+  "forms": [
+   {
+    "da": "en aktivitet",
+    "en": "an activity"
+   },
+   {
+    "da": "aktiviteten",
+    "en": "the activity"
+   },
+   {
+    "da": "aktiviteter",
+    "en": "activities"
+   },
+   {
+    "da": "aktiviteterne",
+    "en": "the activities"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hobby",
+    "en": "a hobby"
+   },
+   {
+    "da": "motion",
+    "en": "exercise"
+   },
+   {
+    "da": "en begivenhed",
+    "en": "an event"
+   },
+   {
+    "da": "at deltage",
+    "en": "to take part"
+   }
+  ],
+  "sentence": {
+   "da": "Svømning er en sjov **aktivitet** for hele familien.",
+   "en": "Swimming is a fun activity for the whole family."
+  }
+ },
+ "en akvariefisk": {
+  "explanation": "\"En akvariefisk\" means \"an aquarium fish\", a fish kept at home in a tank. It is built from akvarium (aquarium) and fisk (fish). Jeg har tre akvariefisk (I have three aquarium fish).",
+  "forms": [
+   {
+    "da": "en akvariefisk",
+    "en": "an aquarium fish"
+   },
+   {
+    "da": "akvariefisken",
+    "en": "the aquarium fish"
+   },
+   {
+    "da": "akvariefisk",
+    "en": "aquarium fish"
+   },
+   {
+    "da": "akvariefiskene",
+    "en": "the aquarium fish"
+   }
+  ],
+  "related": [
+   {
+    "da": "en guldfisk",
+    "en": "a goldfish"
+   },
+   {
+    "da": "et fiskefoder",
+    "en": "fish food"
+   },
+   {
+    "da": "en tropefisk",
+    "en": "a tropical fish"
+   },
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn har en farverig **akvariefisk** på sit værelse.",
+   "en": "My son has a colorful aquarium fish in his room."
+  }
+ },
+ "en alarm": {
+  "explanation": "\"En alarm\" means \"an alarm\", both a warning sound and the wake-up alarm on a phone: Alarmen gik i nat (The alarm went off last night). To turn it off, say Jeg slukker alarmen (I turn off the alarm).",
+  "forms": [
+   {
+    "da": "en alarm",
+    "en": "an alarm"
+   },
+   {
+    "da": "alarmen",
+    "en": "the alarm"
+   },
+   {
+    "da": "alarmer",
+    "en": "alarms"
+   },
+   {
+    "da": "alarmerne",
+    "en": "the alarms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en brandalarm",
+    "en": "a fire alarm"
+   },
+   {
+    "da": "en sirene",
+    "en": "a siren"
+   },
+   {
+    "da": "et vækkeur",
+    "en": "an alarm clock"
+   },
+   {
+    "da": "at alarmere",
+    "en": "to alert"
+   }
+  ],
+  "sentence": {
+   "da": "Min **alarm** ringer klokken seks hver morgen.",
+   "en": "My alarm rings at six every morning."
+  }
+ },
+ "en alarmklokke": {
+  "explanation": "\"En alarmklokke\" means \"an alarm bell\", a bell that rings to warn people: Alarmklokken ringer (The alarm bell is ringing). It is built from alarm (alarm) and klokke (bell).",
+  "forms": [
+   {
+    "da": "en alarmklokke",
+    "en": "an alarm bell"
+   },
+   {
+    "da": "alarmklokken",
+    "en": "the alarm bell"
+   },
+   {
+    "da": "alarmklokker",
+    "en": "alarm bells"
+   },
+   {
+    "da": "alarmklokkerne",
+    "en": "the alarm bells"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sirene",
+    "en": "a siren"
+   },
+   {
+    "da": "at ringe",
+    "en": "to ring"
+   },
+   {
+    "da": "en advarsel",
+    "en": "a warning"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hørte en **alarmklokke** ringe midt om natten.",
+   "en": "We heard an alarm bell ring in the middle of the night."
   }
  },
  "en albue": {
@@ -1195,6 +3677,84 @@
    "en": "I have an allergy to nuts."
   }
  },
+ "en altan": {
+  "explanation": "\"En altan\" means \"a balcony\", the small outdoor space attached to an apartment: Vi drikker kaffe på altanen (We drink coffee on the balcony).",
+  "forms": [
+   {
+    "da": "en altan",
+    "en": "a balcony"
+   },
+   {
+    "da": "altanen",
+    "en": "the balcony"
+   },
+   {
+    "da": "altaner",
+    "en": "balconies"
+   },
+   {
+    "da": "altanerne",
+    "en": "the balconies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en terrasse",
+    "en": "a patio"
+   },
+   {
+    "da": "en have",
+    "en": "a garden"
+   },
+   {
+    "da": "en veranda",
+    "en": "a porch"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sidder på vores **altan** og nyder solen.",
+   "en": "We sit on our balcony and enjoy the sun."
+  }
+ },
+ "en ambassade": {
+  "explanation": "\"En ambassade\" means \"an embassy\", one country's office in another country: Den danske ambassade ligger i Berlin (The Danish embassy is in Berlin). Du kan få hjælp på ambassaden (You can get help at the embassy).",
+  "forms": [
+   {
+    "da": "en ambassade",
+    "en": "an embassy"
+   },
+   {
+    "da": "ambassaden",
+    "en": "the embassy"
+   },
+   {
+    "da": "ambassader",
+    "en": "embassies"
+   },
+   {
+    "da": "ambassaderne",
+    "en": "the embassies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ambassadør",
+    "en": "an ambassador"
+   },
+   {
+    "da": "et konsulat",
+    "en": "a consulate"
+   },
+   {
+    "da": "et visum",
+    "en": "a visa"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fik hjælp fra den danske **ambassade** i Rom.",
+   "en": "We got help from the Danish embassy in Rome."
+  }
+ },
  "en ambulance": {
   "explanation": "\"En ambulance\" means \"an ambulance\": Jeg har brug for en ambulance (I need an ambulance).",
   "forms": [
@@ -1312,6 +3872,49 @@
    "en": "I am eating a sweet pineapple today."
   }
  },
+ "en anbefaling": {
+  "explanation": "\"En anbefaling\" means \"a recommendation\", advice about what is good: Tak for anbefalingen (Thanks for the recommendation). Doctors give them too: lægens anbefaling (the doctor's recommendation).",
+  "forms": [
+   {
+    "da": "en anbefaling",
+    "en": "a recommendation"
+   },
+   {
+    "da": "anbefalingen",
+    "en": "the recommendation"
+   },
+   {
+    "da": "anbefalinger",
+    "en": "recommendations"
+   },
+   {
+    "da": "anbefalingerne",
+    "en": "the recommendations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at anbefale",
+    "en": "to recommend"
+   },
+   {
+    "da": "et råd",
+    "en": "a piece of advice"
+   },
+   {
+    "da": "et forslag",
+    "en": "a suggestion"
+   },
+   {
+    "da": "en henvisning",
+    "en": "a referral"
+   }
+  ],
+  "sentence": {
+   "da": "Tak for din **anbefaling** af den restaurant.",
+   "en": "Thanks for your recommendation of that restaurant."
+  }
+ },
  "en and": {
   "explanation": "\"En and\" means \"a duck\". Watch out: anden also means \"the other\" or \"second\", as in den anden (the other one), so the rest of the sentence shows which is meant.",
   "forms": [
@@ -1394,6 +3997,209 @@
    "en": "Our arrival is at twelve."
   }
  },
+ "en ankomsthal": {
+  "explanation": "\"En ankomsthal\" means \"an arrivals hall\", the area in an airport where arriving passengers come out and meet people: Jeg venter i ankomsthallen (I wait in the arrivals hall). It is built from ankomst (arrival) and hal (hall).",
+  "forms": [
+   {
+    "da": "en ankomsthal",
+    "en": "an arrivals hall"
+   },
+   {
+    "da": "ankomsthallen",
+    "en": "the arrivals hall"
+   },
+   {
+    "da": "ankomsthaller",
+    "en": "arrivals halls"
+   },
+   {
+    "da": "ankomsthallerne",
+    "en": "the arrivals halls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afgangshal",
+    "en": "a departures hall"
+   },
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en terminal",
+    "en": "a terminal"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror står i en stor **ankomsthal** og venter.",
+   "en": "My brother is standing in a big arrivals hall, waiting."
+  }
+ },
+ "en annonce": {
+  "explanation": "\"En annonce\" means \"an advertisement\", in a paper or online: en annonce for et job (an ad for a job). A TV or radio ad is usually en reklame (a commercial).",
+  "forms": [
+   {
+    "da": "en annonce",
+    "en": "an advertisement"
+   },
+   {
+    "da": "annoncen",
+    "en": "the advertisement"
+   },
+   {
+    "da": "annoncer",
+    "en": "advertisements"
+   },
+   {
+    "da": "annoncerne",
+    "en": "the advertisements"
+   }
+  ],
+  "related": [
+   {
+    "da": "at annoncere",
+    "en": "to announce / advertise"
+   },
+   {
+    "da": "en stillingsannonce",
+    "en": "a job ad"
+   },
+   {
+    "da": "en annoncør",
+    "en": "an advertiser"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg så en **annonce** for en ny telefon.",
+   "en": "I saw an ad for a new phone."
+  }
+ },
+ "en ansat": {
+  "explanation": "\"En ansat\" means \"an employee\", a person who works for a company: Der er tyve ansatte her (There are twenty employees here). Jeg er ansat her (I am employed here) uses the same word.",
+  "forms": [
+   {
+    "da": "en ansat",
+    "en": "an employee"
+   },
+   {
+    "da": "den ansatte",
+    "en": "the employee"
+   },
+   {
+    "da": "ansatte",
+    "en": "employees"
+   },
+   {
+    "da": "de ansatte",
+    "en": "the employees"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ansætte",
+    "en": "to hire"
+   },
+   {
+    "da": "en arbejdsgiver",
+    "en": "an employer"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "a co-worker"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **ansat** får en ny telefon.",
+   "en": "Every employee gets a new phone."
+  }
+ },
+ "en ansigtscreme": {
+  "explanation": "\"En ansigtscreme\" means \"a face cream\", a cream that keeps your skin soft. It is built from ansigt (face) and creme (cream).",
+  "forms": [
+   {
+    "da": "en ansigtscreme",
+    "en": "a face cream"
+   },
+   {
+    "da": "ansigtscremen",
+    "en": "the face cream"
+   },
+   {
+    "da": "ansigtscremer",
+    "en": "face creams"
+   },
+   {
+    "da": "ansigtscremerne",
+    "en": "the face creams"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bodylotion",
+    "en": "a body lotion"
+   },
+   {
+    "da": "en håndcreme",
+    "en": "a hand cream"
+   },
+   {
+    "da": "en dagcreme",
+    "en": "a day cream"
+   },
+   {
+    "da": "solcreme",
+    "en": "sunscreen"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **ansigtscreme** hver morgen, fordi min hud er tør.",
+   "en": "I use face cream every morning because my skin is dry."
+  }
+ },
+ "en ansøgning": {
+  "explanation": "\"En ansøgning\" means \"an application\", a letter asking for something: en ansøgning om et job (an application for a job). You write it: Jeg skriver en ansøgning (I am writing an application).",
+  "forms": [
+   {
+    "da": "en ansøgning",
+    "en": "an application"
+   },
+   {
+    "da": "ansøgningen",
+    "en": "the application"
+   },
+   {
+    "da": "ansøgninger",
+    "en": "applications"
+   },
+   {
+    "da": "ansøgningerne",
+    "en": "the applications"
+   }
+  ],
+  "related": [
+   {
+    "da": "at søge",
+    "en": "to apply"
+   },
+   {
+    "da": "en ansøger",
+    "en": "an applicant"
+   },
+   {
+    "da": "et ansøgningsskema",
+    "en": "an application form"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har sendt min **ansøgning** til firmaet.",
+   "en": "I have sent my application to the company."
+  }
+ },
  "en app": {
   "explanation": "\"En app\" means \"an app\", a small program on your phone or tablet. To download one, Danes say at hente en app (literally to fetch an app), and to open it, at åbne appen (to open the app).",
   "forms": [
@@ -1472,6 +4278,170 @@
    "en": "I peeled an orange for the children."
   }
  },
+ "en arbejdsdag": {
+  "explanation": "\"En arbejdsdag\" means \"a working day\", a day when you work from start to finish: Det var en lang arbejdsdag (It was a long workday). The opposite is en fridag (a day off).",
+  "forms": [
+   {
+    "da": "en arbejdsdag",
+    "en": "a working day"
+   },
+   {
+    "da": "arbejdsdagen",
+    "en": "the working day"
+   },
+   {
+    "da": "arbejdsdage",
+    "en": "working days"
+   },
+   {
+    "da": "arbejdsdagene",
+    "en": "the working days"
+   }
+  ],
+  "related": [
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
+   },
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   },
+   {
+    "da": "en hverdag",
+    "en": "a weekday"
+   },
+   {
+    "da": "en arbejdstid",
+    "en": "working hours"
+   }
+  ],
+  "sentence": {
+   "da": "Min **arbejdsdag** slutter klokken fire.",
+   "en": "My working day ends at four o'clock."
+  }
+ },
+ "en arbejdsgiver": {
+  "explanation": "\"En arbejdsgiver\" means \"an employer\", the person or company you work for. It is built from arbejde (work) and at give (to give): the one who gives you work. Min arbejdsgiver er et stort firma (My employer is a big company).",
+  "forms": [
+   {
+    "da": "en arbejdsgiver",
+    "en": "an employer"
+   },
+   {
+    "da": "arbejdsgiveren",
+    "en": "the employer"
+   },
+   {
+    "da": "arbejdsgivere",
+    "en": "employers"
+   },
+   {
+    "da": "arbejdsgiverne",
+    "en": "the employers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en arbejdstager",
+    "en": "an employee"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "a staff member"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   }
+  ],
+  "sentence": {
+   "da": "Min **arbejdsgiver** betaler for kurset.",
+   "en": "My employer pays for the course."
+  }
+ },
+ "en arbejdsplads": {
+  "explanation": "\"En arbejdsplads\" means \"a workplace\", the place where you work: Min arbejdsplads ligger i centrum (My workplace is in the center). It is built from arbejde (work) and plads (place).",
+  "forms": [
+   {
+    "da": "en arbejdsplads",
+    "en": "a workplace"
+   },
+   {
+    "da": "arbejdspladsen",
+    "en": "the workplace"
+   },
+   {
+    "da": "arbejdspladser",
+    "en": "workplaces"
+   },
+   {
+    "da": "arbejdspladserne",
+    "en": "the workplaces"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "et kontor",
+    "en": "an office"
+   },
+   {
+    "da": "en virksomhed",
+    "en": "a company"
+   }
+  ],
+  "sentence": {
+   "da": "Min **arbejdsplads** ligger tæt på stationen.",
+   "en": "My workplace is close to the station."
+  }
+ },
+ "en arkitekt": {
+  "explanation": "\"En arkitekt\" means \"an architect\", a person who designs buildings: En arkitekt designer huse (An architect designs houses). It is used for both men and women.",
+  "forms": [
+   {
+    "da": "en arkitekt",
+    "en": "an architect"
+   },
+   {
+    "da": "arkitekten",
+    "en": "the architect"
+   },
+   {
+    "da": "arkitekter",
+    "en": "architects"
+   },
+   {
+    "da": "arkitekterne",
+    "en": "the architects"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ingeniør",
+    "en": "an engineer"
+   },
+   {
+    "da": "en bygning",
+    "en": "a building"
+   },
+   {
+    "da": "en tegning",
+    "en": "a drawing"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster er **arkitekt** og tegner huse.",
+   "en": "My sister is an architect and draws houses."
+  }
+ },
  "en arm": {
   "explanation": "\"En arm\" means \"an arm\". Danish often says the arm where English says her arm: Hun har brækket armen is literally She has broken the arm, meaning \"She has broken her arm\".",
   "forms": [
@@ -1515,6 +4485,252 @@
    "en": "Your hand is at the end of your arm."
   }
  },
+ "en artikel": {
+  "explanation": "\"En artikel\" means \"an article\", a piece of writing in a paper or on a website: Jeg læste en artikel om rejser (I read an article about travel). For an item in a shop, use en vare (a product).",
+  "forms": [
+   {
+    "da": "en artikel",
+    "en": "an article"
+   },
+   {
+    "da": "artiklen",
+    "en": "the article"
+   },
+   {
+    "da": "artikler",
+    "en": "articles"
+   },
+   {
+    "da": "artiklerne",
+    "en": "the articles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "en overskrift",
+    "en": "a headline"
+   },
+   {
+    "da": "en tekst",
+    "en": "a text"
+   },
+   {
+    "da": "en forfatter",
+    "en": "a writer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læste en **artikel** om vores by.",
+   "en": "I read an article about our city."
+  }
+ },
+ "en assistent": {
+  "explanation": "\"En assistent\" means \"an assistant\", a person who helps with the work: Assistenten svarer på mails (The assistant answers emails).",
+  "forms": [
+   {
+    "da": "en assistent",
+    "en": "an assistant"
+   },
+   {
+    "da": "assistenten",
+    "en": "the assistant"
+   },
+   {
+    "da": "assistenter",
+    "en": "assistants"
+   },
+   {
+    "da": "assistenterne",
+    "en": "the assistants"
+   }
+  ],
+  "related": [
+   {
+    "da": "at assistere",
+    "en": "to assist"
+   },
+   {
+    "da": "en hjælper",
+    "en": "a helper"
+   },
+   {
+    "da": "en sekretær",
+    "en": "a secretary"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   }
+  ],
+  "sentence": {
+   "da": "Min **assistent** skriver mails til kunderne.",
+   "en": "My assistant writes emails to the customers."
+  }
+ },
+ "en astronaut": {
+  "explanation": "\"En astronaut\" means \"an astronaut\", a person who travels into space: Astronauten fløj til månen (The astronaut flew to the moon).",
+  "forms": [
+   {
+    "da": "en astronaut",
+    "en": "an astronaut"
+   },
+   {
+    "da": "astronauten",
+    "en": "the astronaut"
+   },
+   {
+    "da": "astronauter",
+    "en": "astronauts"
+   },
+   {
+    "da": "astronauterne",
+    "en": "the astronauts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rumraket",
+    "en": "a space rocket"
+   },
+   {
+    "da": "et rum",
+    "en": "space / room"
+   },
+   {
+    "da": "en kosmonaut",
+    "en": "a cosmonaut"
+   }
+  ],
+  "sentence": {
+   "da": "En **astronaut** rejser i en raket til månen.",
+   "en": "An astronaut travels in a rocket to the moon."
+  }
+ },
+ "en aubergine": {
+  "explanation": "\"En aubergine\" means \"an eggplant\". You usually cook it before eating it: Jeg bager en aubergine i ovnen (I bake an eggplant in the oven).",
+  "forms": [
+   {
+    "da": "en aubergine",
+    "en": "an eggplant"
+   },
+   {
+    "da": "auberginen",
+    "en": "the eggplant"
+   },
+   {
+    "da": "auberginer",
+    "en": "eggplants"
+   },
+   {
+    "da": "auberginerne",
+    "en": "the eggplants"
+   }
+  ],
+  "related": [
+   {
+    "da": "en squash",
+    "en": "a zucchini"
+   },
+   {
+    "da": "en peberfrugt",
+    "en": "a bell pepper"
+   },
+   {
+    "da": "en tomat",
+    "en": "a tomato"
+   },
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   }
+  ],
+  "sentence": {
+   "da": "En **aubergine** er en lilla grønsag.",
+   "en": "An eggplant is a purple vegetable."
+  }
+ },
+ "en autograf": {
+  "explanation": "\"En autograf\" means \"an autograph\", a famous person's signature: Jeg fik en autograf af skuespilleren (I got an autograph from the actor). To ask for one, say Må jeg få en autograf? (May I have an autograph?)",
+  "forms": [
+   {
+    "da": "en autograf",
+    "en": "an autograph"
+   },
+   {
+    "da": "autografen",
+    "en": "the autograph"
+   },
+   {
+    "da": "autografer",
+    "en": "autographs"
+   },
+   {
+    "da": "autograferne",
+    "en": "the autographs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en underskrift",
+    "en": "a signature"
+   },
+   {
+    "da": "at skrive under",
+    "en": "to sign"
+   },
+   {
+    "da": "at signere",
+    "en": "to sign (formal)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fik en **autograf** af min yndlingssanger.",
+   "en": "I got an autograph from my favorite singer."
+  }
+ },
+ "en autostol": {
+  "explanation": "\"En autostol\" means \"a car seat\", the safety seat for a child in a car: Barnet sidder i autostolen (The child sits in the car seat). It is built from auto (car) and stol (chair).",
+  "forms": [
+   {
+    "da": "en autostol",
+    "en": "a car seat"
+   },
+   {
+    "da": "autostolen",
+    "en": "the car seat"
+   },
+   {
+    "da": "autostole",
+    "en": "car seats"
+   },
+   {
+    "da": "autostolene",
+    "en": "the car seats"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sikkerhedssele",
+    "en": "a seat belt"
+   },
+   {
+    "da": "en højstol",
+    "en": "a high chair"
+   },
+   {
+    "da": "en barnevogn",
+    "en": "a baby carriage"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet skal sidde i en **autostol** i bilen.",
+   "en": "The child has to sit in a car seat in the car."
+  }
+ },
  "en avis": {
   "explanation": "\"En avis\" means \"a newspaper\", printed pages with the day's news. At læse avisen means \"to read the paper\". Do not mix it up with et blad (a magazine).",
   "forms": [
@@ -1552,6 +4768,334 @@
   "sentence": {
    "da": "Min far læser en **avis** hver morgen.",
    "en": "My dad reads a newspaper every morning."
+  }
+ },
+ "en avocado": {
+  "explanation": "\"En avocado\" means \"an avocado\". To see if it is ready, press it: Er den blød, er den moden (If it is soft, it is ripe).",
+  "forms": [
+   {
+    "da": "en avocado",
+    "en": "an avocado"
+   },
+   {
+    "da": "avocadoen",
+    "en": "the avocado"
+   },
+   {
+    "da": "avocadoer",
+    "en": "avocados"
+   },
+   {
+    "da": "avocadoerne",
+    "en": "the avocados"
+   }
+  ],
+  "related": [
+   {
+    "da": "en advokatpære",
+    "en": "an avocado (older word)"
+   },
+   {
+    "da": "en guacamole",
+    "en": "guacamole"
+   },
+   {
+    "da": "en pære",
+    "en": "a pear"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **avocado** på brød til frokost.",
+   "en": "I have avocado on bread for lunch."
+  }
+ },
+ "et abonnement": {
+  "explanation": "\"Et abonnement\" means \"a subscription\", something you pay for again and again: Jeg har et abonnement på avisen (I have a subscription to the newspaper).",
+  "forms": [
+   {
+    "da": "et abonnement",
+    "en": "a subscription"
+   },
+   {
+    "da": "abonnementet",
+    "en": "the subscription"
+   },
+   {
+    "da": "abonnementer",
+    "en": "subscriptions"
+   },
+   {
+    "da": "abonnementerne",
+    "en": "the subscriptions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at abonnere",
+    "en": "to subscribe"
+   },
+   {
+    "da": "at opsige",
+    "en": "to cancel"
+   },
+   {
+    "da": "et medlemskab",
+    "en": "a membership"
+   },
+   {
+    "da": "en betaling",
+    "en": "a payment"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil opsige mit **abonnement** i næste måned.",
+   "en": "I want to cancel my subscription next month."
+  }
+ },
+ "et afsnit": {
+  "explanation": "\"Et afsnit\" means \"an episode\" of a show, and also a section of a text: Jeg har set tre afsnit (I have watched three episodes). For a TV show, en episode (an episode) means the same.",
+  "forms": [
+   {
+    "da": "et afsnit",
+    "en": "an episode"
+   },
+   {
+    "da": "afsnittet",
+    "en": "the episode"
+   },
+   {
+    "da": "afsnit",
+    "en": "episodes"
+   },
+   {
+    "da": "afsnittene",
+    "en": "the episodes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en serie",
+    "en": "a series"
+   },
+   {
+    "da": "en sæson",
+    "en": "a season"
+   },
+   {
+    "da": "et kapitel",
+    "en": "a chapter"
+   },
+   {
+    "da": "en del",
+    "en": "a part"
+   }
+  ],
+  "sentence": {
+   "da": "Vi så det sidste **afsnit** i går aftes.",
+   "en": "We watched the last episode last night."
+  }
+ },
+ "et akvarium": {
+  "explanation": "\"Et akvarium\" means \"an aquarium\", a big glass tank with fish and other water animals, or a place with many tanks: Vi så hajer i akvariet (We saw sharks in the aquarium).",
+  "forms": [
+   {
+    "da": "et akvarium",
+    "en": "an aquarium"
+   },
+   {
+    "da": "akvariet",
+    "en": "the aquarium"
+   },
+   {
+    "da": "akvarier",
+    "en": "aquariums"
+   },
+   {
+    "da": "akvarierne",
+    "en": "the aquariums"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fisk",
+    "en": "a fish"
+   },
+   {
+    "da": "en zoologisk have",
+    "en": "a zoo"
+   },
+   {
+    "da": "en skildpadde",
+    "en": "a turtle"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene kan se fisk i et stort **akvarium**.",
+   "en": "The children can see fish in a big aquarium."
+  }
+ },
+ "et alarmnummer": {
+  "explanation": "\"Et alarmnummer\" means \"an emergency number\", a phone number you call in danger: I Danmark er det 112 (In Denmark it is 112). Det er gratis at ringe til alarmnummeret (It is free to call the emergency number).",
+  "forms": [
+   {
+    "da": "et alarmnummer",
+    "en": "an emergency number"
+   },
+   {
+    "da": "alarmnummeret",
+    "en": "the emergency number"
+   },
+   {
+    "da": "alarmnumre",
+    "en": "emergency numbers"
+   },
+   {
+    "da": "alarmnumrene",
+    "en": "the emergency numbers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
+   },
+   {
+    "da": "politiet",
+    "en": "the police"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   },
+   {
+    "da": "brandvæsenet",
+    "en": "the fire department"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan ringe til **alarmnummer** 112.",
+   "en": "You can call the emergency number 112."
+  }
+ },
+ "et album": {
+  "explanation": "\"Et album\" means \"an album\", most often for music: Hun har et nyt album (She has a new album). It is also used for photos: et fotoalbum (a photo album).",
+  "forms": [
+   {
+    "da": "et album",
+    "en": "an album"
+   },
+   {
+    "da": "albummet",
+    "en": "the album"
+   },
+   {
+    "da": "albummer",
+    "en": "albums"
+   },
+   {
+    "da": "albummerne",
+    "en": "the albums"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sang",
+    "en": "a song"
+   },
+   {
+    "da": "en cd",
+    "en": "a CD"
+   },
+   {
+    "da": "en plade",
+    "en": "a record"
+   }
+  ],
+  "sentence": {
+   "da": "Bandet har lavet et nyt **album**.",
+   "en": "The band has made a new album."
+  }
+ },
+ "et alfabet": {
+  "explanation": "\"Et alfabet\" means \"an alphabet\", the set of letters a language is written with: Jeg kan hele alfabetet (I know the whole alphabet).",
+  "forms": [
+   {
+    "da": "et alfabet",
+    "en": "an alphabet"
+   },
+   {
+    "da": "alfabetet",
+    "en": "the alphabet"
+   },
+   {
+    "da": "alfabeter",
+    "en": "alphabets"
+   },
+   {
+    "da": "alfabeterne",
+    "en": "the alphabets"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bogstav",
+    "en": "a letter"
+   },
+   {
+    "da": "en vokal",
+    "en": "a vowel"
+   },
+   {
+    "da": "en konsonant",
+    "en": "a consonant"
+   }
+  ],
+  "sentence": {
+   "da": "Æ, ø og å kommer sidst i det danske **alfabet**.",
+   "en": "Æ, ø and å come last in the Danish alphabet."
+  }
+ },
+ "et anker": {
+  "explanation": "\"Et anker\" means \"an anchor\", the heavy metal weight that keeps a boat in place: Skibet ligger for anker (The ship is at anchor). Ankeret trækkes op (The anchor is pulled up).",
+  "forms": [
+   {
+    "da": "et anker",
+    "en": "an anchor"
+   },
+   {
+    "da": "ankeret",
+    "en": "the anchor"
+   },
+   {
+    "da": "ankre",
+    "en": "anchors"
+   },
+   {
+    "da": "ankrene",
+    "en": "the anchors"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ankre",
+    "en": "to anchor"
+   },
+   {
+    "da": "en kæde",
+    "en": "a chain"
+   },
+   {
+    "da": "en bøje",
+    "en": "a buoy"
+   },
+   {
+    "da": "at fortøje",
+    "en": "to moor"
+   }
+  ],
+  "sentence": {
+   "da": "Kaptajnen kaster **anker** uden for havnen.",
+   "en": "The captain drops anchor outside the harbor."
   }
  },
  "et ansigt": {
@@ -1597,6 +5141,92 @@
    "en": "I wash my face with water and soap."
   }
  },
+ "et ansvar": {
+  "explanation": "\"Et ansvar\" means \"a responsibility\", something you must take care of: Det er mit ansvar (It is my responsibility). To accept it, say at tage ansvar (to take responsibility).",
+  "forms": [
+   {
+    "da": "et ansvar",
+    "en": "a responsibility"
+   },
+   {
+    "da": "ansvaret",
+    "en": "the responsibility"
+   },
+   {
+    "da": "ansvar",
+    "en": "responsibilities"
+   },
+   {
+    "da": "ansvarene",
+    "en": "the responsibilities"
+   }
+  ],
+  "related": [
+   {
+    "da": "ansvarlig",
+    "en": "responsible"
+   },
+   {
+    "da": "en pligt",
+    "en": "a duty"
+   },
+   {
+    "da": "en forpligtelse",
+    "en": "an obligation"
+   },
+   {
+    "da": "en skyld",
+    "en": "blame"
+   }
+  ],
+  "sentence": {
+   "da": "Du har et stort **ansvar** på arbejdet.",
+   "en": "You have a big responsibility at work."
+  }
+ },
+ "et antal": {
+  "explanation": "\"Et antal\" means \"a number\" in the sense of how many: Antallet af elever er tyve (The number of students is twenty). For the number 5 itself, use et tal (a number).",
+  "forms": [
+   {
+    "da": "et antal",
+    "en": "a number (amount)"
+   },
+   {
+    "da": "antallet",
+    "en": "the number"
+   },
+   {
+    "da": "antal",
+    "en": "numbers"
+   },
+   {
+    "da": "antallene",
+    "en": "the numbers"
+   }
+  ],
+  "related": [
+   {
+    "da": "mange",
+    "en": "many"
+   },
+   {
+    "da": "få",
+    "en": "few"
+   },
+   {
+    "da": "en mængde",
+    "en": "an amount"
+   },
+   {
+    "da": "at tælle",
+    "en": "to count"
+   }
+  ],
+  "sentence": {
+   "da": "Et stort **antal** mennesker kom til festen.",
+   "en": "A large number of people came to the party."
+  }
+ },
  "et apotek": {
   "explanation": "\"Et apotek\" means \"a pharmacy\", the shop where you buy medicine. The person working there is en farmaceut (a pharmacist). Say på apoteket for \"at the pharmacy\".",
   "forms": [
@@ -1636,6 +5266,49 @@
    "en": "I buy medicine at a pharmacy."
   }
  },
+ "et apparat": {
+  "explanation": "\"Et apparat\" means \"a device\" or \"an appliance\", something you plug in and use: Vi har mange apparater i køkkenet (We have many appliances in the kitchen).",
+  "forms": [
+   {
+    "da": "et apparat",
+    "en": "a device"
+   },
+   {
+    "da": "apparatet",
+    "en": "the device"
+   },
+   {
+    "da": "apparater",
+    "en": "devices"
+   },
+   {
+    "da": "apparaterne",
+    "en": "the devices"
+   }
+  ],
+  "related": [
+   {
+    "da": "en maskine",
+    "en": "a machine"
+   },
+   {
+    "da": "et værktøj",
+    "en": "a tool"
+   },
+   {
+    "da": "en dims",
+    "en": "a gadget"
+   },
+   {
+    "da": "en enhed",
+    "en": "a unit"
+   }
+  ],
+  "sentence": {
+   "da": "Det nye **apparat** i køkkenet er meget let at bruge.",
+   "en": "The new appliance in the kitchen is very easy to use."
+  }
+ },
  "et arbejde": {
   "explanation": "\"Et arbejde\" means \"a job\" or \"work\". Danes say på arbejde (at work): Jeg er på arbejde means \"I am at work\", and \"at gå på arbejde\" means \"to go to work\".",
   "forms": [
@@ -1669,6 +5342,174 @@
   "sentence": {
    "da": "Jeg skal på **arbejde** nu.",
    "en": "I have to go to work now."
+  }
+ },
+ "et argument": {
+  "explanation": "\"Et argument\" means \"an argument\", a reason you give for your view: Det er et stærkt argument (That is a strong argument). For a quarrel, use et skænderi (a quarrel).",
+  "forms": [
+   {
+    "da": "et argument",
+    "en": "an argument"
+   },
+   {
+    "da": "argumentet",
+    "en": "the argument"
+   },
+   {
+    "da": "argumenter",
+    "en": "arguments"
+   },
+   {
+    "da": "argumenterne",
+    "en": "the arguments"
+   }
+  ],
+  "related": [
+   {
+    "da": "at argumentere",
+    "en": "to argue a case"
+   },
+   {
+    "da": "en grund",
+    "en": "a reason"
+   },
+   {
+    "da": "en diskussion",
+    "en": "a discussion"
+   },
+   {
+    "da": "en påstand",
+    "en": "a claim"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et godt **argument** for at blive hjemme.",
+   "en": "I have a good argument for staying home."
+  }
+ },
+ "et armbånd": {
+  "explanation": "\"Et armbånd\" means \"a bracelet\". It is built from arm (arm) and bånd (band): Han gav hende et armbånd (He gave her a bracelet).",
+  "forms": [
+   {
+    "da": "et armbånd",
+    "en": "a bracelet"
+   },
+   {
+    "da": "armbåndet",
+    "en": "the bracelet"
+   },
+   {
+    "da": "armbånd",
+    "en": "bracelets"
+   },
+   {
+    "da": "armbåndene",
+    "en": "the bracelets"
+   }
+  ],
+  "related": [
+   {
+    "da": "et urbånd",
+    "en": "a watch strap"
+   },
+   {
+    "da": "et smykke",
+    "en": "a piece of jewelry"
+   },
+   {
+    "da": "en halskæde",
+    "en": "a necklace"
+   },
+   {
+    "da": "en ring",
+    "en": "a ring"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har et pænt **armbånd** om håndleddet.",
+   "en": "She has a pretty bracelet around her wrist."
+  }
+ },
+ "et askebæger": {
+  "explanation": "\"Et askebæger\" means \"an ashtray\". It is built from aske (ash) and bæger (cup): Der står et askebæger på bordet (There is an ashtray on the table).",
+  "forms": [
+   {
+    "da": "et askebæger",
+    "en": "an ashtray"
+   },
+   {
+    "da": "askebægeret",
+    "en": "the ashtray"
+   },
+   {
+    "da": "askebægre",
+    "en": "ashtrays"
+   },
+   {
+    "da": "askebægrene",
+    "en": "the ashtrays"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cigar",
+    "en": "a cigar"
+   },
+   {
+    "da": "en pibe",
+    "en": "a pipe"
+   },
+   {
+    "da": "en lighter",
+    "en": "a lighter"
+   }
+  ],
+  "sentence": {
+   "da": "Hun lægger cigaretten i et **askebæger**.",
+   "en": "She puts the cigarette in an ashtray."
+  }
+ },
+ "et autoværksted": {
+  "explanation": "\"Et autoværksted\" means \"a car repair shop\", where mechanics fix cars. It is built from auto (car) and et værksted (a workshop): Bilen er på autoværkstedet i dag (The car is at the car repair shop today).",
+  "forms": [
+   {
+    "da": "et autoværksted",
+    "en": "a car repair shop"
+   },
+   {
+    "da": "autoværkstedet",
+    "en": "the car repair shop"
+   },
+   {
+    "da": "autoværksteder",
+    "en": "car repair shops"
+   },
+   {
+    "da": "autoværkstederne",
+    "en": "the car repair shops"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mekaniker",
+    "en": "a mechanic"
+   },
+   {
+    "da": "en bilforhandler",
+    "en": "a car dealer"
+   },
+   {
+    "da": "et dæk",
+    "en": "a tire"
+   },
+   {
+    "da": "en reparation",
+    "en": "a repair"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er i stykker, og jeg skal til et **autoværksted**.",
+   "en": "The car is broken, and I have to go to a car repair shop."
   }
  }
 }

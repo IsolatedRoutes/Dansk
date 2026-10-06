@@ -1,4 +1,168 @@
 {
+ "at ødelægge": {
+  "explanation": "\"At ødelægge\" means \"to destroy\" or \"to break\" something so it no longer works: Jeg ødelagde min telefon (I broke my phone). If a thing just stops working by itself, say Den gik i stykker (It broke).",
+  "forms": [
+   {
+    "da": "at ødelægge",
+    "en": "to destroy / break"
+   },
+   {
+    "da": "jeg ødelægger",
+    "en": "I destroy / break"
+   },
+   {
+    "da": "jeg ødelagde",
+    "en": "I destroyed / broke"
+   },
+   {
+    "da": "jeg har ødelagt",
+    "en": "I have destroyed / broken"
+   }
+  ],
+  "related": [
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   },
+   {
+    "da": "at knuse",
+    "en": "to smash"
+   },
+   {
+    "da": "at bygge",
+    "en": "to build"
+   },
+   {
+    "da": "en ødelæggelse",
+    "en": "destruction"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene må ikke **ødelægge** den gamle vase.",
+   "en": "The children must not break the old vase."
+  }
+ },
+ "at øge": {
+  "explanation": "\"At øge\" means \"to increase\", making something bigger or more: Vi øger farten (We increase the speed). When something goes up by itself, use at stige (to rise): Prisen stiger (The price is rising).",
+  "forms": [
+   {
+    "da": "at øge",
+    "en": "to increase"
+   },
+   {
+    "da": "jeg øger",
+    "en": "I increase"
+   },
+   {
+    "da": "jeg øgede",
+    "en": "I increased"
+   },
+   {
+    "da": "jeg har øget",
+    "en": "I have increased"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mindske",
+    "en": "to reduce"
+   },
+   {
+    "da": "at vokse",
+    "en": "to grow"
+   },
+   {
+    "da": "at sænke",
+    "en": "to lower"
+   },
+   {
+    "da": "en stigning",
+    "en": "an increase"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet vil **øge** prisen næste år.",
+   "en": "The company will increase the price next year."
+  }
+ },
+ "at ønske": {
+  "explanation": "\"At ønske\" means \"to wish\", often to wish someone something: Jeg ønsker dig en god tur (I wish you a good trip). Hvad ønsker De? (What would you like?) is a polite question in a shop.",
+  "forms": [
+   {
+    "da": "at ønske",
+    "en": "to wish"
+   },
+   {
+    "da": "jeg ønsker",
+    "en": "I wish"
+   },
+   {
+    "da": "jeg ønskede",
+    "en": "I wished"
+   },
+   {
+    "da": "jeg har ønsket",
+    "en": "I have wished"
+   }
+  ],
+  "related": [
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "at ville",
+    "en": "to want"
+   },
+   {
+    "da": "at længes efter",
+    "en": "to long for"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **ønske** dig en god tur.",
+   "en": "I would like to wish you a good trip."
+  }
+ },
+ "at ønske sig": {
+  "explanation": "\"At ønske sig\" means \"to wish for\" something you would like to get, such as a gift: Jeg ønsker mig en cykel (I wish for a bike). Without sig, at ønske (to wish) is more general: Jeg ønsker dig held og lykke (I wish you good luck).",
+  "forms": [
+   {
+    "da": "at ønske sig",
+    "en": "to wish for"
+   },
+   {
+    "da": "jeg ønsker mig",
+    "en": "I wish for"
+   },
+   {
+    "da": "jeg ønskede mig",
+    "en": "I wished for"
+   },
+   {
+    "da": "jeg har ønsket mig",
+    "en": "I have wished for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "at drømme om",
+    "en": "to dream of"
+   },
+   {
+    "da": "at længes efter",
+    "en": "to long for"
+   }
+  ],
+  "sentence": {
+   "da": "Børn plejer at **ønske sig** en hund til jul.",
+   "en": "Kids usually wish for a dog for Christmas."
+  }
+ },
  "at øve": {
   "explanation": "\"At øve\" means \"to practice\". Danish usually adds mig (myself): Jeg øver mig i dansk means \"I am practicing Danish\". The thing you practice comes after i (in).",
   "forms": [
@@ -38,6 +202,213 @@
    "en": "I want to practice Danish every day."
   }
  },
+ "at øve sig": {
+  "explanation": "\"At øve sig\" means \"to practice\" to get better: Jeg øver mig hver dag (I practice every day). The little word changes with who practices: mig (myself), dig (yourself), sig (himself / herself).",
+  "forms": [
+   {
+    "da": "at øve sig",
+    "en": "to practice"
+   },
+   {
+    "da": "jeg øver mig",
+    "en": "I practice"
+   },
+   {
+    "da": "jeg øvede mig",
+    "en": "I practiced"
+   },
+   {
+    "da": "jeg har øvet mig",
+    "en": "I have practiced"
+   }
+  ],
+  "related": [
+   {
+    "da": "en øvelse",
+    "en": "an exercise"
+   },
+   {
+    "da": "at træne",
+    "en": "to train"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
+   },
+   {
+    "da": "at gentage",
+    "en": "to repeat"
+   }
+  ],
+  "sentence": {
+   "da": "Han skal **øve sig** i dansk hver dag.",
+   "en": "He has to practice Danish every day."
+  }
+ },
+ "en ø": {
+  "explanation": "\"En ø\" means \"an island\", land with water all around it: Bornholm er en ø i Østersøen (Bornholm is an island in the Baltic Sea). Danmark har mange øer (Denmark has many islands).",
+  "forms": [
+   {
+    "da": "en ø",
+    "en": "an island"
+   },
+   {
+    "da": "øen",
+    "en": "the island"
+   },
+   {
+    "da": "øer",
+    "en": "islands"
+   },
+   {
+    "da": "øerne",
+    "en": "the islands"
+   }
+  ],
+  "related": [
+   {
+    "da": "en halvø",
+    "en": "a peninsula"
+   },
+   {
+    "da": "et fastland",
+    "en": "a mainland"
+   },
+   {
+    "da": "en holm",
+    "en": "a small island"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager færgen til en lille **ø**.",
+   "en": "We take the ferry to a small island."
+  }
+ },
+ "en øjenfarve": {
+  "explanation": "\"En øjenfarve\" means \"an eye color\", built from øje (eye) and farve (color). Ask Hvad er din øjenfarve? (What is your eye color?) and answer Jeg har brune øjne (I have brown eyes).",
+  "forms": [
+   {
+    "da": "en øjenfarve",
+    "en": "an eye color"
+   },
+   {
+    "da": "øjenfarven",
+    "en": "the eye color"
+   },
+   {
+    "da": "øjenfarver",
+    "en": "eye colors"
+   },
+   {
+    "da": "øjenfarverne",
+    "en": "the eye colors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hårfarve",
+    "en": "a hair color"
+   },
+   {
+    "da": "en hudfarve",
+    "en": "a skin color"
+   },
+   {
+    "da": "et øjenbryn",
+    "en": "an eyebrow"
+   },
+   {
+    "da": "et øjenlåg",
+    "en": "an eyelid"
+   }
+  ],
+  "sentence": {
+   "da": "Min **øjenfarve** er grøn, og min fars er blå.",
+   "en": "My eye color is green, and my father's is blue."
+  }
+ },
+ "en økonomi": {
+  "explanation": "\"En økonomi\" means \"an economy\", how money works in a country or home: Danmarks økonomi er stærk (Denmark's economy is strong). Min økonomi er dårlig means \"My finances are bad\".",
+  "forms": [
+   {
+    "da": "en økonomi",
+    "en": "an economy"
+   },
+   {
+    "da": "økonomien",
+    "en": "the economy"
+   },
+   {
+    "da": "økonomier",
+    "en": "economies"
+   },
+   {
+    "da": "økonomierne",
+    "en": "the economies"
+   }
+  ],
+  "related": [
+   {
+    "da": "økonomisk",
+    "en": "economic / financial"
+   },
+   {
+    "da": "penge",
+    "en": "money"
+   },
+   {
+    "da": "en økonom",
+    "en": "an economist"
+   },
+   {
+    "da": "et budget",
+    "en": "a budget"
+   }
+  ],
+  "sentence": {
+   "da": "Landets **økonomi** er stærk.",
+   "en": "The country's economy is strong."
+  }
+ },
+ "en økse": {
+  "explanation": "\"En økse\" means \"an axe\", the tool for chopping wood. The matching verb is at hugge (to chop): Jeg hugger brænde (I chop firewood).",
+  "forms": [
+   {
+    "da": "en økse",
+    "en": "an axe"
+   },
+   {
+    "da": "øksen",
+    "en": "the axe"
+   },
+   {
+    "da": "økser",
+    "en": "axes"
+   },
+   {
+    "da": "øksene",
+    "en": "the axes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sav",
+    "en": "a saw"
+   },
+   {
+    "da": "en hammer",
+    "en": "a hammer"
+   },
+   {
+    "da": "en skovl",
+    "en": "a shovel"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hugger træ med en skarp **økse**.",
+   "en": "We chop wood with a sharp axe."
+  }
+ },
  "en øl": {
   "explanation": "\"En øl\" means \"a beer\". The plural is also \"øl\": to øl means \"two beers\". You can say en stor øl (a large beer) or en lille øl (a small beer).",
   "forms": [
@@ -75,6 +446,295 @@
   "sentence": {
    "da": "Jeg drikker en kold **øl**.",
    "en": "I drink a cold beer."
+  }
+ },
+ "en ølflaske": {
+  "explanation": "\"En ølflaske\" means \"a beer bottle\". It is built from øl (beer) and flaske (bottle): Der står en ølflaske på bordet (There is a beer bottle on the table).",
+  "forms": [
+   {
+    "da": "en ølflaske",
+    "en": "a beer bottle"
+   },
+   {
+    "da": "ølflasken",
+    "en": "the beer bottle"
+   },
+   {
+    "da": "ølflasker",
+    "en": "beer bottles"
+   },
+   {
+    "da": "ølflaskerne",
+    "en": "the beer bottles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vinflaske",
+    "en": "a wine bottle"
+   },
+   {
+    "da": "en ølkasse",
+    "en": "a beer crate"
+   },
+   {
+    "da": "et ølglas",
+    "en": "a beer glass"
+   }
+  ],
+  "sentence": {
+   "da": "Han åbner en **ølflaske** og drikker.",
+   "en": "He opens a beer bottle and drinks."
+  }
+ },
+ "en ønskeseddel": {
+  "explanation": "\"En ønskeseddel\" means \"a wish list\", a list of gifts you hope to get: Børnene skriver en ønskeseddel til julemanden (The children write a wish list for Santa). It is built from ønske (wish) and seddel (note).",
+  "forms": [
+   {
+    "da": "en ønskeseddel",
+    "en": "a wish list"
+   },
+   {
+    "da": "ønskesedlen",
+    "en": "the wish list"
+   },
+   {
+    "da": "ønskesedler",
+    "en": "wish lists"
+   },
+   {
+    "da": "ønskesedlerne",
+    "en": "the wish lists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en indkøbsseddel",
+    "en": "a shopping list"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas gift"
+   },
+   {
+    "da": "en fødselsdagsgave",
+    "en": "a birthday gift"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skrev en lang **ønskeseddel** til jul.",
+   "en": "She wrote a long wish list for Christmas."
+  }
+ },
+ "en ørering": {
+  "explanation": "\"En ørering\" means \"an earring\". For two, say et par øreringe (a pair of earrings): Hun har store guldøreringe på (She is wearing big gold earrings).",
+  "forms": [
+   {
+    "da": "en ørering",
+    "en": "an earring"
+   },
+   {
+    "da": "øreringen",
+    "en": "the earring"
+   },
+   {
+    "da": "øreringe",
+    "en": "earrings"
+   },
+   {
+    "da": "øreringene",
+    "en": "the earrings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ring",
+    "en": "a ring"
+   },
+   {
+    "da": "et smykke",
+    "en": "a piece of jewelry"
+   },
+   {
+    "da": "en halskæde",
+    "en": "a necklace"
+   },
+   {
+    "da": "et armbånd",
+    "en": "a bracelet"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har mistet min venstre **ørering**.",
+   "en": "I have lost my left earring."
+  }
+ },
+ "en ørken": {
+  "explanation": "\"En ørken\" means \"a desert\": Sahara er en stor ørken i Afrika (Sahara is a big desert in Africa). Do not mix it up with en dessert (a dessert) after dinner.",
+  "forms": [
+   {
+    "da": "en ørken",
+    "en": "a desert"
+   },
+   {
+    "da": "ørkenen",
+    "en": "the desert"
+   },
+   {
+    "da": "ørkener",
+    "en": "deserts"
+   },
+   {
+    "da": "ørkenerne",
+    "en": "the deserts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oase",
+    "en": "an oasis"
+   },
+   {
+    "da": "en kamel",
+    "en": "a camel"
+   },
+   {
+    "da": "en sandstorm",
+    "en": "a sandstorm"
+   }
+  ],
+  "sentence": {
+   "da": "Der er næsten ingen regn i en **ørken**.",
+   "en": "There is almost no rain in a desert."
+  }
+ },
+ "en ørn": {
+  "explanation": "\"En ørn\" means \"an eagle\", a large bird of prey that flies very high: Ørnen svæver over bjergene (The eagle glides over the mountains).",
+  "forms": [
+   {
+    "da": "en ørn",
+    "en": "an eagle"
+   },
+   {
+    "da": "ørnen",
+    "en": "the eagle"
+   },
+   {
+    "da": "ørne",
+    "en": "eagles"
+   },
+   {
+    "da": "ørnene",
+    "en": "the eagles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en høg",
+    "en": "a hawk"
+   },
+   {
+    "da": "en glente",
+    "en": "a kite"
+   },
+   {
+    "da": "en rovfugl",
+    "en": "a bird of prey"
+   },
+   {
+    "da": "en falk",
+    "en": "a falcon"
+   }
+  ],
+  "sentence": {
+   "da": "En **ørn** flyver højt over bjergene.",
+   "en": "An eagle flies high over the mountains."
+  }
+ },
+ "en øse": {
+  "explanation": "\"En øse\" means \"a ladle\", the big spoon with a deep bowl for soup: Giv mig øsen (Give me the ladle). The action is at øse suppe op (to ladle out soup).",
+  "forms": [
+   {
+    "da": "en øse",
+    "en": "a ladle"
+   },
+   {
+    "da": "øsen",
+    "en": "the ladle"
+   },
+   {
+    "da": "øser",
+    "en": "ladles"
+   },
+   {
+    "da": "øserne",
+    "en": "the ladles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en grydeske",
+    "en": "a cooking spoon"
+   },
+   {
+    "da": "en suppeske",
+    "en": "a soup spoon"
+   },
+   {
+    "da": "en spatel",
+    "en": "a spatula"
+   }
+  ],
+  "sentence": {
+   "da": "Han tager suppe op af gryden med en **øse**.",
+   "en": "He takes soup out of the pot with a ladle."
+  }
+ },
+ "en øvelse": {
+  "explanation": "\"En øvelse\" means \"an exercise\", a task for practicing: Vi laver en øvelse i timen (We do an exercise in class). It also means a workout move: Den øvelse er svær (That exercise is hard).",
+  "forms": [
+   {
+    "da": "en øvelse",
+    "en": "an exercise"
+   },
+   {
+    "da": "øvelsen",
+    "en": "the exercise"
+   },
+   {
+    "da": "øvelser",
+    "en": "exercises"
+   },
+   {
+    "da": "øvelserne",
+    "en": "the exercises"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "træning",
+    "en": "training"
+   },
+   {
+    "da": "en lektie",
+    "en": "a homework assignment"
+   },
+   {
+    "da": "en prøve",
+    "en": "a test"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene laver en **øvelse** i matematik hver dag.",
+   "en": "The children do a math exercise every day."
   }
  },
  "et øje": {
@@ -155,6 +815,92 @@
    "en": "Wait a moment, please."
   }
  },
+ "et øjenbryn": {
+  "explanation": "\"Et øjenbryn\" means \"an eyebrow\": Hun har tykke øjenbryn (She has thick eyebrows). When you are surprised, you can say Han løftede et øjenbryn (He raised an eyebrow).",
+  "forms": [
+   {
+    "da": "et øjenbryn",
+    "en": "an eyebrow"
+   },
+   {
+    "da": "øjenbrynet",
+    "en": "the eyebrow"
+   },
+   {
+    "da": "øjenbryn",
+    "en": "eyebrows"
+   },
+   {
+    "da": "øjenbrynene",
+    "en": "the eyebrows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en øjenvippe",
+    "en": "an eyelash"
+   },
+   {
+    "da": "en pande",
+    "en": "a forehead"
+   },
+   {
+    "da": "et øjenlåg",
+    "en": "an eyelid"
+   },
+   {
+    "da": "en øjenskygge",
+    "en": "eye shadow"
+   }
+  ],
+  "sentence": {
+   "da": "Han har et ar over det venstre **øjenbryn**.",
+   "en": "He has a scar over his left eyebrow."
+  }
+ },
+ "et ønske": {
+  "explanation": "\"Et ønske\" means \"a wish\": Hvad er dit ønske til jul? (What is your wish for Christmas?). The same word is the verb at ønske (to wish): Jeg ønsker dig held og lykke (I wish you good luck).",
+  "forms": [
+   {
+    "da": "et ønske",
+    "en": "a wish"
+   },
+   {
+    "da": "ønsket",
+    "en": "the wish"
+   },
+   {
+    "da": "ønsker",
+    "en": "wishes"
+   },
+   {
+    "da": "ønskerne",
+    "en": "the wishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   },
+   {
+    "da": "et håb",
+    "en": "a hope"
+   },
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   },
+   {
+    "da": "en lyst",
+    "en": "a desire"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes største **ønske** er en hund.",
+   "en": "Her biggest wish is a dog."
+  }
+ },
  "et øre": {
   "explanation": "\"Et øre\" means \"an ear\". The same word is also a tiny coin worth a hundredth of a krone. Jeg har ondt i øret (My ear hurts).",
   "forms": [
@@ -194,6 +940,115 @@
    "en": "My ear hurts."
   }
  },
+ "ødelagt": {
+  "explanation": "\"Ødelagt\" means \"broken\" or \"ruined\", stronger than a small fault: Min cykel er ødelagt (My bike is broken). It also fits plans and moods: Dagen er ødelagt (The day is ruined).",
+  "forms": [
+   {
+    "da": "en ødelagt cykel",
+    "en": "a broken bike"
+   },
+   {
+    "da": "et ødelagt tag",
+    "en": "a ruined roof"
+   },
+   {
+    "da": "ødelagte planer",
+    "en": "ruined plans"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ødelægge",
+    "en": "to destroy, ruin"
+   },
+   {
+    "da": "defekt",
+    "en": "defective"
+   },
+   {
+    "da": "i stykker",
+    "en": "broken, in pieces"
+   },
+   {
+    "da": "hel",
+    "en": "whole, unbroken"
+   }
+  ],
+  "sentence": {
+   "da": "Min telefon er **ødelagt**, fordi jeg tabte den.",
+   "en": "My phone is broken because I dropped it."
+  }
+ },
+ "økologisk": {
+  "explanation": "\"Økologisk\" means \"organic\", mostly for food and farms: økologiske æg (organic eggs). In shops, øko is a common short form on signs and labels.",
+  "forms": [
+   {
+    "da": "en økologisk gård",
+    "en": "an organic farm"
+   },
+   {
+    "da": "et økologisk æble",
+    "en": "an organic apple"
+   },
+   {
+    "da": "økologiske grøntsager",
+    "en": "organic vegetables"
+   }
+  ],
+  "related": [
+   {
+    "da": "naturlig",
+    "en": "natural"
+   },
+   {
+    "da": "bæredygtig",
+    "en": "sustainable"
+   },
+   {
+    "da": "konventionel",
+    "en": "conventional"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber helst **økologisk** mælk.",
+   "en": "I prefer to buy organic milk."
+  }
+ },
+ "økonomisk": {
+  "explanation": "\"Økonomisk\" means \"economic\" and \"financial\", about money: Det er en økonomisk beslutning (It is a financial decision). It can also mean \"cheap to run\": en økonomisk bil (an economical car).",
+  "forms": [
+   {
+    "da": "en økonomisk fordel",
+    "en": "an economic advantage"
+   },
+   {
+    "da": "et økonomisk problem",
+    "en": "a financial problem"
+   },
+   {
+    "da": "økonomiske problemer",
+    "en": "financial problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "en økonomi",
+    "en": "an economy"
+   },
+   {
+    "da": "en økonom",
+    "en": "an economist"
+   },
+   {
+    "da": "finansiel",
+    "en": "financial"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har brug for **økonomisk** hjælp.",
+   "en": "We need financial help."
+  }
+ },
  "øm": {
   "explanation": "\"Øm\" means \"sore\" or \"tender\", when a part of the body hurts a little, especially when touched. It is milder than ondt (pain), as in Jeg har ondt i armen (My arm hurts).",
   "forms": [
@@ -229,6 +1084,49 @@
    "en": "My shoulder is sore after exercise."
   }
  },
+ "øreringe": {
+  "explanation": "\"Øreringe\" means \"earrings\", and you usually talk about the pair: Jeg vil købe nye øreringe (I want to buy new earrings).",
+  "forms": [
+   {
+    "da": "en ørering",
+    "en": "an earring"
+   },
+   {
+    "da": "øreringen",
+    "en": "the earring"
+   },
+   {
+    "da": "øreringe",
+    "en": "earrings"
+   },
+   {
+    "da": "øreringene",
+    "en": "the earrings"
+   }
+  ],
+  "related": [
+   {
+    "da": "et smykke",
+    "en": "a piece of jewelry"
+   },
+   {
+    "da": "en ring",
+    "en": "a ring"
+   },
+   {
+    "da": "en halskæde",
+    "en": "a necklace"
+   },
+   {
+    "da": "et armbånd",
+    "en": "a bracelet"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har små **øreringe** i ørerne.",
+   "en": "She has small earrings in her ears."
+  }
+ },
  "øst": {
   "explanation": "\"Øst\" means \"east\": Vinden kommer fra øst (The wind comes from the east). It is also part of place names such as Østjylland (eastern Jutland).",
   "forms": [
@@ -262,6 +1160,84 @@
   "sentence": {
    "da": "Solen står op i **øst**.",
    "en": "The sun rises in the east."
+  }
+ },
+ "østersøen": {
+  "explanation": "\"Østersøen\" means \"the Baltic Sea\", the sea east of Denmark. The name has øst (east) in it: Bornholm ligger i Østersøen (Bornholm is in the Baltic Sea).",
+  "forms": [
+   {
+    "da": "i Østersøen",
+    "en": "in the Baltic Sea"
+   },
+   {
+    "da": "ved Østersøen",
+    "en": "by the Baltic Sea"
+   },
+   {
+    "da": "Østersøen er stor",
+    "en": "The Baltic Sea is big"
+   }
+  ],
+  "related": [
+   {
+    "da": "Nordsøen",
+    "en": "the North Sea"
+   },
+   {
+    "da": "Kattegat",
+    "en": "the Kattegat"
+   },
+   {
+    "da": "Skagerrak",
+    "en": "the Skagerrak"
+   },
+   {
+    "da": "Øresund",
+    "en": "the Øresund strait"
+   }
+  ],
+  "sentence": {
+   "da": "Færgen sejler over **Østersøen** til Polen.",
+   "en": "The ferry sails across the Baltic Sea to Poland."
+  }
+ },
+ "østpå": {
+  "explanation": "\"Østpå\" means \"eastward\", toward the east, for movement: Bådene sejler østpå (The boats sail east). For a place, use øst for (east of): København ligger øst for Roskilde (Copenhagen is east of Roskilde).",
+  "forms": [
+   {
+    "da": "at køre østpå",
+    "en": "to drive east"
+   },
+   {
+    "da": "at tage østpå",
+    "en": "to head east"
+   },
+   {
+    "da": "at flyve østpå",
+    "en": "to fly east"
+   }
+  ],
+  "related": [
+   {
+    "da": "nordpå",
+    "en": "northward"
+   },
+   {
+    "da": "sydpå",
+    "en": "southward"
+   },
+   {
+    "da": "vestpå",
+    "en": "westward"
+   },
+   {
+    "da": "østlig",
+    "en": "eastern"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager **østpå** efter frokost.",
+   "en": "We are heading east after lunch."
   }
  }
 }

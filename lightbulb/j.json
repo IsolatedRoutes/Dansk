@@ -1,4 +1,47 @@
 {
+ "at jage": {
+  "explanation": "\"At jage\" means \"to chase\" and \"to hunt\": Politiet jager tyven (The police chase the thief). For animals, it means hunting: Han jager hjorte (He hunts deer).",
+  "forms": [
+   {
+    "da": "at jage",
+    "en": "to hunt / chase"
+   },
+   {
+    "da": "jeg jager",
+    "en": "I hunt / chase"
+   },
+   {
+    "da": "jeg jagede",
+    "en": "I hunted / chased"
+   },
+   {
+    "da": "jeg har jaget",
+    "en": "I have hunted / chased"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jæger",
+    "en": "a hunter"
+   },
+   {
+    "da": "en jagt",
+    "en": "a hunt, a chase"
+   },
+   {
+    "da": "at forfølge",
+    "en": "to pursue"
+   },
+   {
+    "da": "at fange",
+    "en": "to catch"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden vil **jage** katten ud af haven.",
+   "en": "The dog wants to chase the cat out of the garden."
+  }
+ },
  "en jakke": {
   "explanation": "\"En jakke\" means \"a jacket\". A thicker, longer one is en frakke (a coat). Tag en jakke med means \"Take a jacket with you\".",
   "forms": [
@@ -36,6 +79,299 @@
   "sentence": {
    "da": "Tag din **jakke** på i kulden.",
    "en": "Put your jacket on in the cold."
+  }
+ },
+ "en japaner": {
+  "explanation": "\"En japaner\" means \"a Japanese person\": Han er japaner (He is Japanese). For things from Japan, use japansk: japansk te (Japanese tea).",
+  "forms": [
+   {
+    "da": "en japaner",
+    "en": "a Japanese person"
+   },
+   {
+    "da": "japaneren",
+    "en": "the Japanese person"
+   },
+   {
+    "da": "japanere",
+    "en": "Japanese people"
+   },
+   {
+    "da": "japanerne",
+    "en": "the Japanese people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kineser",
+    "en": "a Chinese person"
+   },
+   {
+    "da": "en koreaner",
+    "en": "a Korean"
+   },
+   {
+    "da": "en amerikaner",
+    "en": "an American"
+   },
+   {
+    "da": "en thailænder",
+    "en": "a Thai person"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven er **japaner**, og han bor i Tokyo.",
+   "en": "My friend is Japanese, and he lives in Tokyo."
+  }
+ },
+ "en jobsamtale": {
+  "explanation": "\"En jobsamtale\" means \"a job interview\": Hun har en jobsamtale på fredag (She has a job interview on Friday).",
+  "forms": [
+   {
+    "da": "en jobsamtale",
+    "en": "a job interview"
+   },
+   {
+    "da": "jobsamtalen",
+    "en": "the job interview"
+   },
+   {
+    "da": "jobsamtaler",
+    "en": "job interviews"
+   },
+   {
+    "da": "jobsamtalerne",
+    "en": "the job interviews"
+   }
+  ],
+  "related": [
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   },
+   {
+    "da": "en ansøgning",
+    "en": "an application"
+   },
+   {
+    "da": "en ansøger",
+    "en": "an applicant"
+   },
+   {
+    "da": "et CV",
+    "en": "a résumé"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **jobsamtale** i morgen og er nervøs.",
+   "en": "I have a job interview tomorrow and am nervous."
+  }
+ },
+ "en joke": {
+  "explanation": "\"En joke\" means \"a joke\" you tell to make people laugh: Har du hørt den joke? (Have you heard that joke?) To say you are joking, use at lave sjov (to kid around): Jeg laver bare sjov (I am just joking).",
+  "forms": [
+   {
+    "da": "en joke",
+    "en": "a joke"
+   },
+   {
+    "da": "joken",
+    "en": "the joke"
+   },
+   {
+    "da": "jokes",
+    "en": "jokes"
+   },
+   {
+    "da": "jokene",
+    "en": "the jokes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   },
+   {
+    "da": "en spøg",
+    "en": "a jest"
+   },
+   {
+    "da": "en pointe",
+    "en": "a punchline"
+   },
+   {
+    "da": "at spøge",
+    "en": "to joke"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **joke** fik os alle til at grine.",
+   "en": "His joke made us all laugh."
+  }
+ },
+ "en jordnød": {
+  "explanation": "\"En jordnød\" means \"a peanut\", built from jord (ground) and nød (nut). It grows under the ground: Jordnødder vokser under jorden (Peanuts grow under the ground).",
+  "forms": [
+   {
+    "da": "en jordnød",
+    "en": "a peanut"
+   },
+   {
+    "da": "jordnødden",
+    "en": "the peanut"
+   },
+   {
+    "da": "jordnødder",
+    "en": "peanuts"
+   },
+   {
+    "da": "jordnødderne",
+    "en": "the peanuts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hasselnød",
+    "en": "a hazelnut"
+   },
+   {
+    "da": "en valnød",
+    "en": "a walnut"
+   },
+   {
+    "da": "en mandel",
+    "en": "an almond"
+   },
+   {
+    "da": "jordnøddesmør",
+    "en": "peanut butter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg åbner skallen og spiser en **jordnød**.",
+   "en": "I open the shell and eat a peanut."
+  }
+ },
+ "en journalist": {
+  "explanation": "\"En journalist\" means \"a journalist\", someone who reports news for papers, radio or TV: Journalisten stiller mange spørgsmål (The journalist asks many questions).",
+  "forms": [
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "journalisten",
+    "en": "the journalist"
+   },
+   {
+    "da": "journalister",
+    "en": "journalists"
+   },
+   {
+    "da": "journalisterne",
+    "en": "the journalists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "en redaktør",
+    "en": "an editor"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   }
+  ],
+  "sentence": {
+   "da": "En **journalist** stillede mig et spørgsmål.",
+   "en": "A journalist asked me a question."
+  }
+ },
+ "en juleferie": {
+  "explanation": "\"En juleferie\" means \"a Christmas vacation\", built from jul (Christmas) and ferie (vacation): Jeg glæder mig til juleferien (I am looking forward to the Christmas vacation).",
+  "forms": [
+   {
+    "da": "en juleferie",
+    "en": "a Christmas vacation"
+   },
+   {
+    "da": "juleferien",
+    "en": "the Christmas vacation"
+   },
+   {
+    "da": "juleferier",
+    "en": "Christmas vacations"
+   },
+   {
+    "da": "juleferierne",
+    "en": "the Christmas vacations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vinterferie",
+    "en": "a winter break"
+   },
+   {
+    "da": "en sommerferie",
+    "en": "a summer vacation"
+   },
+   {
+    "da": "en påskeferie",
+    "en": "an Easter break"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal have en lang **juleferie** sammen med familien.",
+   "en": "We are going to have a long Christmas vacation together with the family."
+  }
+ },
+ "en julefrokost": {
+  "explanation": "\"En julefrokost\" means \"a Christmas lunch\", a big party before Christmas with food and drinks: Vi har julefrokost på arbejdet (We have a Christmas lunch at work). It is built from jul (Christmas) and frokost (lunch).",
+  "forms": [
+   {
+    "da": "en julefrokost",
+    "en": "a Christmas lunch"
+   },
+   {
+    "da": "julefrokosten",
+    "en": "the Christmas lunch"
+   },
+   {
+    "da": "julefrokoster",
+    "en": "Christmas lunches"
+   },
+   {
+    "da": "julefrokosterne",
+    "en": "the Christmas lunches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en julemiddag",
+    "en": "a Christmas dinner"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "en firmafest",
+    "en": "a company party"
+   },
+   {
+    "da": "en middag",
+    "en": "a dinner"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **julefrokost** med kollegerne i december.",
+   "en": "We have a Christmas lunch with our coworkers in December."
   }
  },
  "en julegave": {
@@ -79,6 +415,213 @@
   "sentence": {
    "da": "Under juletræet ligger en **julegave** til dig.",
    "en": "Under the Christmas tree there is a Christmas present for you."
+  }
+ },
+ "en julemand": {
+  "explanation": "\"En julemand\" means \"a Santa Claus\": Julemanden kommer med pakker (Santa Claus brings packages). It is built from jul (Christmas) and mand (man).",
+  "forms": [
+   {
+    "da": "en julemand",
+    "en": "a Santa Claus"
+   },
+   {
+    "da": "julemanden",
+    "en": "the Santa Claus"
+   },
+   {
+    "da": "julemænd",
+    "en": "Santa Clauses"
+   },
+   {
+    "da": "julemændene",
+    "en": "the Santa Clauses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nisse",
+    "en": "a gnome / elf"
+   },
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   }
+  ],
+  "sentence": {
+   "da": "Far er klædt ud som **julemand** i dag.",
+   "en": "Dad is dressed up as Santa Claus today."
+  }
+ },
+ "en julemiddag": {
+  "explanation": "\"En julemiddag\" means \"a Christmas dinner\", the big meal at Christmas: Vi spiser julemiddag hos mormor (We eat Christmas dinner at Grandma's). It is built from jul (Christmas) and middag (dinner).",
+  "forms": [
+   {
+    "da": "en julemiddag",
+    "en": "a Christmas dinner"
+   },
+   {
+    "da": "julemiddagen",
+    "en": "the Christmas dinner"
+   },
+   {
+    "da": "julemiddage",
+    "en": "Christmas dinners"
+   },
+   {
+    "da": "julemiddagene",
+    "en": "the Christmas dinners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en julefrokost",
+    "en": "a Christmas lunch party"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas present"
+   },
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiser **julemiddag** hos min mormor.",
+   "en": "We eat Christmas dinner at my grandmother's."
+  }
+ },
+ "en julesang": {
+  "explanation": "\"En julesang\" means \"a Christmas carol\": Vi synger julesange om aftenen (We sing Christmas carols in the evening). It is built from jul (Christmas) and sang (song).",
+  "forms": [
+   {
+    "da": "en julesang",
+    "en": "a Christmas carol"
+   },
+   {
+    "da": "julesangen",
+    "en": "the Christmas carol"
+   },
+   {
+    "da": "julesange",
+    "en": "Christmas carols"
+   },
+   {
+    "da": "julesangene",
+    "en": "the Christmas carols"
+   }
+  ],
+  "related": [
+   {
+    "da": "en julesalme",
+    "en": "a Christmas hymn"
+   },
+   {
+    "da": "en salme",
+    "en": "a hymn"
+   },
+   {
+    "da": "at synge",
+    "en": "to sing"
+   }
+  ],
+  "sentence": {
+   "da": "Vi synger altid en **julesang** ved juletræet.",
+   "en": "We always sing a Christmas carol at the Christmas tree."
+  }
+ },
+ "en jungle": {
+  "explanation": "\"En jungle\" means \"a jungle\", the thick, hot forest of the tropics: Aberne bor i junglen (The monkeys live in the jungle). It also means a confusing mess: en jungle af regler (a jungle of rules).",
+  "forms": [
+   {
+    "da": "en jungle",
+    "en": "a jungle"
+   },
+   {
+    "da": "junglen",
+    "en": "the jungle"
+   },
+   {
+    "da": "jungler",
+    "en": "jungles"
+   },
+   {
+    "da": "junglerne",
+    "en": "the jungles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regnskov",
+    "en": "a rainforest"
+   },
+   {
+    "da": "en skov",
+    "en": "a forest"
+   },
+   {
+    "da": "en savanne",
+    "en": "a savanna"
+   }
+  ],
+  "sentence": {
+   "da": "Tigeren bor i en tæt **jungle**.",
+   "en": "The tiger lives in a dense jungle."
+  }
+ },
+ "et jakkesæt": {
+  "explanation": "\"Et jakkesæt\" means \"a suit\", a jacket with matching trousers. It is built from jakke (jacket) and sæt (set): Han ser flot ud i jakkesæt (He looks good in a suit).",
+  "forms": [
+   {
+    "da": "et jakkesæt",
+    "en": "a suit"
+   },
+   {
+    "da": "jakkesættet",
+    "en": "the suit"
+   },
+   {
+    "da": "jakkesæt",
+    "en": "suits"
+   },
+   {
+    "da": "jakkesættene",
+    "en": "the suits"
+   }
+  ],
+  "related": [
+   {
+    "da": "et slips",
+    "en": "a tie"
+   },
+   {
+    "da": "en skjorte",
+    "en": "a shirt"
+   },
+   {
+    "da": "en vest",
+    "en": "a vest"
+   },
+   {
+    "da": "en butterfly",
+    "en": "a bow tie"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror har et nyt **jakkesæt** på til festen.",
+   "en": "My brother has a new suit on for the party."
   }
  },
  "et job": {
@@ -159,6 +702,92 @@
    "en": "In the summer we eat strawberries with cream."
   }
  },
+ "et jordskælv": {
+  "explanation": "\"Et jordskælv\" means \"an earthquake\": Der var et jordskælv i går (There was an earthquake yesterday). It is built from jord (earth) and skælv (a tremble).",
+  "forms": [
+   {
+    "da": "et jordskælv",
+    "en": "an earthquake"
+   },
+   {
+    "da": "jordskælvet",
+    "en": "the earthquake"
+   },
+   {
+    "da": "jordskælv",
+    "en": "earthquakes"
+   },
+   {
+    "da": "jordskælvene",
+    "en": "the earthquakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vulkan",
+    "en": "a volcano"
+   },
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   },
+   {
+    "da": "en tsunami",
+    "en": "a tsunami"
+   },
+   {
+    "da": "en naturkatastrofe",
+    "en": "a natural disaster"
+   }
+  ],
+  "sentence": {
+   "da": "Husene faldt sammen efter et **jordskælv**.",
+   "en": "The houses collapsed after an earthquake."
+  }
+ },
+ "et julesalg": {
+  "explanation": "\"Et julesalg\" means \"a Christmas sale\", when shops sell things at lower prices before Christmas: Jeg venter på julesalget (I am waiting for the Christmas sale).",
+  "forms": [
+   {
+    "da": "et julesalg",
+    "en": "a Christmas sale"
+   },
+   {
+    "da": "julesalget",
+    "en": "the Christmas sale"
+   },
+   {
+    "da": "julesalg",
+    "en": "Christmas sales"
+   },
+   {
+    "da": "julesalgene",
+    "en": "the Christmas sales"
+   }
+  ],
+  "related": [
+   {
+    "da": "et salg",
+    "en": "a sale"
+   },
+   {
+    "da": "et udsalg",
+    "en": "a clearance sale"
+   },
+   {
+    "da": "et tilbud",
+    "en": "an offer"
+   },
+   {
+    "da": "en rabat",
+    "en": "a discount"
+   }
+  ],
+  "sentence": {
+   "da": "I december har mange butikker **julesalg**.",
+   "en": "In December, many shops have a Christmas sale."
+  }
+ },
  "et juletræ": {
   "explanation": "\"Et juletræ\" means \"a Christmas tree\". It is made of jul (Christmas) and et træ (a tree).",
   "forms": [
@@ -235,6 +864,158 @@
   "sentence": {
    "da": "Vil du have kaffe? **Ja**, tak.",
    "en": "Do you want coffee? Yes, please."
+  }
+ },
+ "jalousi": {
+  "explanation": "\"Jalousi\" means \"jealousy\", the painful feeling when you fear losing someone or want what another person has: Der var meget jalousi mellem dem (There was a lot of jealousy between them). Someone who feels it is jaloux (jealous).",
+  "forms": [
+   {
+    "da": "en jalousi",
+    "en": "jealousy"
+   },
+   {
+    "da": "jalousien",
+    "en": "the jealousy"
+   },
+   {
+    "da": "fuld af jalousi",
+    "en": "full of jealousy"
+   },
+   {
+    "da": "jalousi i et forhold",
+    "en": "jealousy in a relationship"
+   }
+  ],
+  "related": [
+   {
+    "da": "en misundelse",
+    "en": "envy"
+   },
+   {
+    "da": "skinsyge",
+    "en": "jealousy in love"
+   },
+   {
+    "da": "misundelig",
+    "en": "envious"
+   },
+   {
+    "da": "at misunde",
+    "en": "to envy"
+   }
+  ],
+  "sentence": {
+   "da": "**Jalousi** kan ødelægge et godt forhold.",
+   "en": "Jealousy can ruin a good relationship."
+  }
+ },
+ "jaloux": {
+  "explanation": "\"Jaloux\" means \"jealous\", and you say på (of) after it: Han er jaloux på sin ven (He is jealous of his friend). It is about feeling you might lose someone or something.",
+  "forms": [
+   {
+    "da": "Jeg er jaloux",
+    "en": "I am jealous"
+   },
+   {
+    "da": "Hun er jaloux på mig",
+    "en": "She is jealous of me"
+   },
+   {
+    "da": "Vi er ikke jaloux",
+    "en": "We are not jealous"
+   }
+  ],
+  "related": [
+   {
+    "da": "misundelig",
+    "en": "envious"
+   },
+   {
+    "da": "en jalousi",
+    "en": "jealousy"
+   },
+   {
+    "da": "at misunde",
+    "en": "to envy"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **jaloux** på sin bror.",
+   "en": "He is jealous of his brother."
+  }
+ },
+ "jaloux på": {
+  "explanation": "\"Jaloux på\" means \"jealous of\" and covers both envy and jealousy in love: Jeg er jaloux på min kollega (I am jealous of my coworker).",
+  "forms": [
+   {
+    "da": "Er du jaloux på ham?",
+    "en": "Are you jealous of him?"
+   },
+   {
+    "da": "Hun er jaloux på sin søster.",
+    "en": "She is jealous of her sister."
+   },
+   {
+    "da": "De er jaloux på os.",
+    "en": "They are jealous of us."
+   }
+  ],
+  "related": [
+   {
+    "da": "misundelig på",
+    "en": "envious of"
+   },
+   {
+    "da": "at misunde",
+    "en": "to envy"
+   },
+   {
+    "da": "en jalousi",
+    "en": "jealousy"
+   },
+   {
+    "da": "skinsyg",
+    "en": "jealous in love"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **jaloux på** min nye cykel.",
+   "en": "He is jealous of my new bike."
+  }
+ },
+ "jamen": {
+  "explanation": "\"Jamen\" means \"but\" or \"well\" and starts a reply that pushes back a little: Jamen, det passer ikke! (But that is not true!). Jamen, det er jo fint (Well, that is fine) sounds friendly, and the meaning comes from the tone.",
+  "forms": [
+   {
+    "da": "Jamen, det er sandt!",
+    "en": "But it is true!"
+   },
+   {
+    "da": "Jamen, hvorfor ikke?",
+    "en": "Well, why not?"
+   },
+   {
+    "da": "Jamen dog!",
+    "en": "Well, I never!"
+   }
+  ],
+  "related": [
+   {
+    "da": "men",
+    "en": "but"
+   },
+   {
+    "da": "altså",
+    "en": "well, you know"
+   },
+   {
+    "da": "nå",
+    "en": "oh, well"
+   }
+  ],
+  "sentence": {
+   "da": "**Jamen**, det var slet ikke min idé!",
+   "en": "But that was not my idea at all!"
   }
  },
  "januar": {
@@ -342,6 +1123,119 @@
    "en": "Sushi is Japanese food."
   }
  },
+ "jaså": {
+  "explanation": "\"Jaså\" means \"is that so\" and answers news that you find a little surprising: Jeg har købt en hund. Jaså! (I have bought a dog. Is that so!). With a falling voice it can also show you are not convinced.",
+  "forms": [
+   {
+    "da": "Jaså?",
+    "en": "Is that so?"
+   },
+   {
+    "da": "Jaså, det vidste jeg ikke.",
+    "en": "Oh, I did not know that."
+   },
+   {
+    "da": "Nå, jaså.",
+    "en": "Oh, I see."
+   }
+  ],
+  "related": [
+   {
+    "da": "javel",
+    "en": "I see"
+   },
+   {
+    "da": "virkelig",
+    "en": "really"
+   },
+   {
+    "da": "nå",
+    "en": "oh, well"
+   },
+   {
+    "da": "aha",
+    "en": "aha"
+   }
+  ],
+  "sentence": {
+   "da": "Du har fået nyt job? **Jaså**, det er flot.",
+   "en": "You have a new job? Is that so? That is great."
+  }
+ },
+ "javel": {
+  "explanation": "\"Javel\" means \"I see\" and shows you have heard something, often with a hint of surprise: Jeg er flyttet. Javel (I have moved. I see). A formal, old-fashioned reply is Javel, hr. Hansen (Very well, Mr. Hansen).",
+  "forms": [
+   {
+    "da": "Javel.",
+    "en": "I see."
+   },
+   {
+    "da": "Javel, hr. Hansen.",
+    "en": "Very well, Mr. Hansen."
+   },
+   {
+    "da": "Nå, javel.",
+    "en": "Oh, I see."
+   }
+  ],
+  "related": [
+   {
+    "da": "jaså",
+    "en": "is that so"
+   },
+   {
+    "da": "nå",
+    "en": "oh, well"
+   },
+   {
+    "da": "okay",
+    "en": "okay"
+   },
+   {
+    "da": "aha",
+    "en": "aha"
+   }
+  ],
+  "sentence": {
+   "da": "Du kommer for sent? **Javel**.",
+   "en": "You are coming late? I see."
+  }
+ },
+ "jazz": {
+  "explanation": "\"Jazz\" means \"jazz\", the music style: Min far lytter til jazz hver morgen (My dad listens to jazz every morning). Use it with no en or et: Jeg kan godt lide jazz (I like jazz).",
+  "forms": [
+   {
+    "da": "jazzmusik",
+    "en": "jazz music"
+   },
+   {
+    "da": "en jazzklub",
+    "en": "a jazz club"
+   },
+   {
+    "da": "en jazzkoncert",
+    "en": "a jazz concert"
+   }
+  ],
+  "related": [
+   {
+    "da": "blues",
+    "en": "blues"
+   },
+   {
+    "da": "rock",
+    "en": "rock"
+   },
+   {
+    "da": "pop",
+    "en": "pop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker at høre **jazz** om aftenen.",
+   "en": "I love to listen to jazz in the evening."
+  }
+ },
  "jeg": {
   "explanation": "\"Jeg\" means \"I\", and it only has a capital letter at the start of a sentence: Du og jeg (you and I). Compare Jeg ser ham (I see him) with Han ser mig (He sees me): jeg is for the one who does it, mig for the one it happens to.",
   "forms": [
@@ -379,6 +1273,45 @@
   "sentence": {
    "da": "**Jeg** bor i København.",
    "en": "I live in Copenhagen."
+  }
+ },
+ "jeg beklager": {
+  "explanation": "\"Jeg beklager\" means \"I'm sorry\" in a formal way, often for a mistake or a problem: Jeg beklager forsinkelsen (I apologize for the delay). Among friends, Undskyld (Sorry) is more common.",
+  "forms": [
+   {
+    "da": "Jeg beklager meget.",
+    "en": "I am very sorry."
+   },
+   {
+    "da": "Jeg beklager fejlen.",
+    "en": "I apologize for the mistake."
+   },
+   {
+    "da": "Vi beklager ulejligheden.",
+    "en": "We apologize for the inconvenience."
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilgive",
+    "en": "to forgive"
+   },
+   {
+    "da": "desværre",
+    "en": "unfortunately"
+   },
+   {
+    "da": "ked af det",
+    "en": "sad / sorry"
+   },
+   {
+    "da": "en undskyldning",
+    "en": "an apology"
+   }
+  ],
+  "sentence": {
+   "da": "Det er min fejl, og **jeg beklager**.",
+   "en": "It is my mistake, and I apologize."
   }
  },
  "jeg er enig": {
@@ -451,6 +1384,45 @@
    "en": "Sorry, I feel bad about it."
   }
  },
+ "jeg er uenig": {
+  "explanation": "\"Jeg er uenig\" means \"I disagree\": Jeg er uenig med dig (I disagree with you). Use med (with) for the person and i (in) for the topic: Vi er uenige i det (We disagree about that).",
+  "forms": [
+   {
+    "da": "Jeg er uenig",
+    "en": "I disagree"
+   },
+   {
+    "da": "Vi er uenige",
+    "en": "We disagree"
+   },
+   {
+    "da": "Hun er uenig med mig",
+    "en": "She disagrees with me"
+   }
+  ],
+  "related": [
+   {
+    "da": "jeg er enig",
+    "en": "I agree"
+   },
+   {
+    "da": "en uenighed",
+    "en": "a disagreement"
+   },
+   {
+    "da": "enighed",
+    "en": "agreement"
+   },
+   {
+    "da": "en strid",
+    "en": "a dispute"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg er uenig**, men jeg forstår dig.",
+   "en": "I disagree, but I understand you."
+  }
+ },
  "jeg forstår ikke": {
   "explanation": "\"Jeg forstår ikke\" means \"I don't understand\". Forstår means \"understand\" and ikke means \"not\". To say I don't understand it, put det (it) before ikke: Jeg forstår det ikke. To ask for help, add kan du gentage det? (can you repeat that?).",
   "forms": [
@@ -488,6 +1460,45 @@
   "sentence": {
    "da": "Undskyld, **jeg forstår ikke**.",
    "en": "Sorry, I don't understand."
+  }
+ },
+ "jeg glæder mig": {
+  "explanation": "\"Jeg glæder mig\" means \"I'm looking forward to it\" and is for something good that is coming. Add til to name it: Jeg glæder mig til ferien (I'm looking forward to the vacation).",
+  "forms": [
+   {
+    "da": "Jeg glæder mig!",
+    "en": "I'm looking forward to it!"
+   },
+   {
+    "da": "Jeg glæder mig til weekenden.",
+    "en": "I'm looking forward to the weekend."
+   },
+   {
+    "da": "Vi glæder os til festen.",
+    "en": "We're looking forward to the party."
+   }
+  ],
+  "related": [
+   {
+    "da": "spændt",
+    "en": "excited"
+   },
+   {
+    "da": "at se frem til",
+    "en": "to look forward to"
+   },
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "begejstret",
+    "en": "thrilled"
+   }
+  ],
+  "sentence": {
+   "da": "**Jeg glæder mig** meget til sommeren.",
+   "en": "I'm really looking forward to summer."
   }
  },
  "jeg har det godt": {
@@ -747,6 +1758,84 @@
    "en": "Mom and Dad, is that your car?"
   }
  },
+ "jern": {
+  "explanation": "\"Jern\" means \"iron\", the hard metal: Broen er lavet af jern (The bridge is made of iron). It is also in the body and food: Spinat indeholder jern (Spinach contains iron). A railway is en jernbane (an iron track).",
+  "forms": [
+   {
+    "da": "jern",
+    "en": "iron"
+   },
+   {
+    "da": "jernet",
+    "en": "the iron"
+   },
+   {
+    "da": "et stykke jern",
+    "en": "a piece of iron"
+   },
+   {
+    "da": "et strygejern",
+    "en": "a clothes iron"
+   }
+  ],
+  "related": [
+   {
+    "da": "stål",
+    "en": "steel"
+   },
+   {
+    "da": "rust",
+    "en": "rust"
+   },
+   {
+    "da": "kobber",
+    "en": "copper"
+   },
+   {
+    "da": "guld",
+    "en": "gold"
+   }
+  ],
+  "sentence": {
+   "da": "Gelænderet er lavet af **jern**.",
+   "en": "The railing is made of iron."
+  }
+ },
+ "jetlag": {
+  "explanation": "\"Jetlag\" means \"jet lag\", the tired feeling after flying far: Jeg har jetlag (I have jet lag). It is why you feel sleepy in the middle of the day after a long trip.",
+  "forms": [
+   {
+    "da": "Jeg har jetlag",
+    "en": "I have jet lag"
+   },
+   {
+    "da": "Vi fik jetlag i Tokyo",
+    "en": "We got jet lag in Tokyo"
+   },
+   {
+    "da": "Hvordan kommer man over jetlag?",
+    "en": "How do you get over jet lag?"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tidszone",
+    "en": "a time zone"
+   },
+   {
+    "da": "træthed",
+    "en": "tiredness"
+   },
+   {
+    "da": "en tidsforskel",
+    "en": "a time difference"
+   }
+  ],
+  "sentence": {
+   "da": "Efter flyveturen havde jeg **jetlag** i to dage.",
+   "en": "After the flight I had jet lag for two days."
+  }
+ },
  "jo": {
   "explanation": "\"Jo\" has two uses. It means \"yes\" when you answer a question that has ikke (not) in it: Kommer du ikke? (Aren't you coming?) Jo! (Yes, I am!). Inside a sentence, it adds a feeling like \"you know\" or \"of course\", as in det er jo rigtigt (it is, you know, right). For ordinary yes answers, use ja (yes).",
   "forms": [
@@ -928,6 +2017,49 @@
   "sentence": {
    "da": "På **juleaften** pynter vi juletræet og får gaver.",
    "en": "On Christmas Eve we decorate the Christmas tree and get presents."
+  }
+ },
+ "julepynt": {
+  "explanation": "\"Julepynt\" means \"Christmas decorations\": Vi sætter julepynt op i december (We put up Christmas decorations in December). It is built from jul (Christmas) and pynt (decoration), and it stays the same for one or many.",
+  "forms": [
+   {
+    "da": "julepynt",
+    "en": "Christmas decorations"
+   },
+   {
+    "da": "julepynten",
+    "en": "the Christmas decorations"
+   },
+   {
+    "da": "noget julepynt",
+    "en": "some Christmas decorations"
+   },
+   {
+    "da": "julepynt i vinduet",
+    "en": "Christmas decorations in the window"
+   }
+  ],
+  "related": [
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "en julekugle",
+    "en": "a Christmas ball"
+   },
+   {
+    "da": "en julestjerne",
+    "en": "a Christmas star"
+   },
+   {
+    "da": "at pynte",
+    "en": "to decorate"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sætter **julepynt** op i begyndelsen af december.",
+   "en": "We put up Christmas decorations at the beginning of December."
   }
  },
  "juli": {

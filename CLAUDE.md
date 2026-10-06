@@ -92,7 +92,7 @@ keyed by `frontKey`, fetched only when a lightbulb opens (`src/lib/lightbulb.js`
 Words with no entry, and the learner's own cards, use the live AI call as before.
 `scripts/prepare-www.mjs` copies `lightbulb/` into the iPhone app. Written to the
 same quality as the live answer; do not shorten. Covered so far: all Basic words
-(level 1) plus the original samples; other levels still use the live AI call. Checked by
+(level 1) and all Intermediate words (level 2), each written then independently reviewed (about 4 in 10 Intermediate cards were corrected by the reviewer); Advanced and Expert (levels 3-4) still use the live AI call. Checked by
 `tests/lightbulb_check.mjs` (keys, files, shape).
 
 ### Lightbulb answer quality bar (owner's rules; the model card is "hvad")
@@ -107,9 +107,9 @@ something; nothing is repeated; right length. New and live-AI answers must match
   contrasts with English, no ending mechanics (-t/-e/doubling), no grammar jargon.
 - Nothing already in the forms list or the related list is repeated; other words are mentioned
   only to prevent a real mix-up, show how a word is built, or show a usage contrast.
-- Related words must be truly related: same word family, a real look-alike/mix-up, a true opposite or synonym, or a linked partner in a small set. Never a word that only appears in the sentence or shares a topic, and never a piece of the card's own phrase (not 'at tage' or 'medicin' on 'at tage medicin'); the test enforces this. A related word must also not already appear in the explanation (the list must add new words; test enforced). Always 3 or 4 items (the test enforces it): if the word family is small, use a true opposite/synonym, a look-alike, or members of the same small set. All 1,438 Basic lists were re-checked on this rule.
+- Related words must be truly related: same word family, a real look-alike/mix-up, a true opposite or synonym, or a linked partner in a small set. Never a word that only appears in the sentence or shares a topic, and never a piece of the card's own phrase (not 'at tage' or 'medicin' on 'at tage medicin'); the test enforces this. A related word must also not already appear in the explanation (the list must add new words; test enforced). Always 3 or 4 items (the test enforces it): if the word family is small, use a true opposite/synonym, a look-alike, or members of the same small set. All Basic and Intermediate lists follow this rule (test enforced).
 - Every claim agrees with the card's own forms/related/sentence; uncertain rules are softened or left out.
-- Example sentence length follows the word's level: Basic = at most 8 words and one clause (no ", så …" / ", for …"), everyday words, adding at most ONE small new thing so the learner levels up a little. Higher levels may be longer.
+- Example sentence length follows the word's level: Basic = at most 8 words and one clause (no ", så …" / ", for …"), everyday words, adding at most ONE small new thing so the learner levels up a little. Intermediate = at most 12 words, up to one clause (og/men/fordi/når), one or two small new things; checker limit 14 words for levels 2-4.
 - Example sentence: the marked word is exactly the card's word (no en/et/at, no "the"/plural form),
   and the rest of the sentence makes its meaning guessable (not "I need a ___").
 `tests/lightbulb_check.mjs` enforces the form rule; the rest is enforced by the AI prompt

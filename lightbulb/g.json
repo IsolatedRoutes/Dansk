@@ -1,4 +1,328 @@
 {
+ "at gange": {
+  "explanation": "\"At gange\" means \"to multiply\": Jeg ganger to med tre (I multiply two by three). It comes from gange (times): Tre gange to er seks (Three times two is six).",
+  "forms": [
+   {
+    "da": "at gange",
+    "en": "to multiply"
+   },
+   {
+    "da": "jeg ganger",
+    "en": "I multiply"
+   },
+   {
+    "da": "jeg gangede",
+    "en": "I multiplied"
+   },
+   {
+    "da": "jeg har ganget",
+    "en": "I have multiplied"
+   }
+  ],
+  "related": [
+   {
+    "da": "at dividere",
+    "en": "to divide"
+   },
+   {
+    "da": "at lægge sammen",
+    "en": "to add up"
+   },
+   {
+    "da": "at trække fra",
+    "en": "to subtract"
+   },
+   {
+    "da": "multiplikation",
+    "en": "multiplication"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **gange** to med tre.",
+   "en": "I have to multiply two by three."
+  }
+ },
+ "at gemme": {
+  "explanation": "\"At gemme\" means \"to save\", like a file or something you keep for later: Jeg gemmer filen (I am saving the file). It can also mean \"to hide\": Hun gemte nøglen (She hid the key).",
+  "forms": [
+   {
+    "da": "at gemme",
+    "en": "to save (store)"
+   },
+   {
+    "da": "jeg gemmer",
+    "en": "I save / hide"
+   },
+   {
+    "da": "jeg gemte",
+    "en": "I saved / hid"
+   },
+   {
+    "da": "jeg har gemt",
+    "en": "I have saved / hidden"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skjule",
+    "en": "to hide"
+   },
+   {
+    "da": "at beholde",
+    "en": "to keep"
+   },
+   {
+    "da": "at spare",
+    "en": "to save (money)"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **gemme** billedet på min telefon.",
+   "en": "I want to save the picture on my phone."
+  }
+ },
+ "at gemme sig": {
+  "explanation": "\"At gemme sig\" means \"to hide\": Børnene gemmer sig bag sofaen (The kids hide behind the sofa). To hide an object, use at gemme without sig: Jeg gemmer nøglen (I hide the key).",
+  "forms": [
+   {
+    "da": "at gemme sig",
+    "en": "to hide (oneself)"
+   },
+   {
+    "da": "jeg gemmer mig",
+    "en": "I hide (oneself)"
+   },
+   {
+    "da": "jeg gemte mig",
+    "en": "I hid (oneself)"
+   },
+   {
+    "da": "jeg har gemt mig",
+    "en": "I have hidden (oneself)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skjule",
+    "en": "to conceal"
+   },
+   {
+    "da": "et skjulested",
+    "en": "a hiding place"
+   },
+   {
+    "da": "at finde",
+    "en": "to find"
+   },
+   {
+    "da": "at lede efter",
+    "en": "to search for"
+   }
+  ],
+  "sentence": {
+   "da": "Katten plejer at **gemme sig** under sengen.",
+   "en": "The cat usually hides under the bed."
+  }
+ },
+ "at genbruge": {
+  "explanation": "\"At genbruge\" means \"to recycle\" or \"to reuse\": Vi genbruger flasker (We recycle bottles). Gen- means \"again\", so it is bruge (to use) again.",
+  "forms": [
+   {
+    "da": "at genbruge",
+    "en": "to recycle / reuse"
+   },
+   {
+    "da": "jeg genbruger",
+    "en": "I recycle / reuse"
+   },
+   {
+    "da": "jeg genbrugte",
+    "en": "I recycled / reused"
+   },
+   {
+    "da": "jeg har genbrugt",
+    "en": "I have recycled / reused"
+   }
+  ],
+  "related": [
+   {
+    "da": "at genanvende",
+    "en": "to reuse"
+   },
+   {
+    "da": "at sortere",
+    "en": "to sort"
+   },
+   {
+    "da": "at smide ud",
+    "en": "to throw away"
+   },
+   {
+    "da": "en genbrugsstation",
+    "en": "a recycling center"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil gerne **genbruge** flasker og aviser.",
+   "en": "We would like to recycle bottles and newspapers."
+  }
+ },
+ "at genere": {
+  "explanation": "\"At genere\" means \"to bother\": Generer jeg dig? (Am I bothering you?) Det generer mig ikke (It does not bother me). Støjen generer mig (The noise bothers me).",
+  "forms": [
+   {
+    "da": "at genere",
+    "en": "to bother"
+   },
+   {
+    "da": "jeg generer",
+    "en": "I bother"
+   },
+   {
+    "da": "jeg generede",
+    "en": "I bothered"
+   },
+   {
+    "da": "jeg har generet",
+    "en": "I have bothered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forstyrre",
+    "en": "to disturb"
+   },
+   {
+    "da": "at irritere",
+    "en": "to annoy"
+   },
+   {
+    "da": "at plage",
+    "en": "to trouble"
+   }
+  ],
+  "sentence": {
+   "da": "Musikken kan **genere** naboerne om natten.",
+   "en": "The music can bother the neighbors at night."
+  }
+ },
+ "at genkende": {
+  "explanation": "\"At genkende\" means \"to recognize\", when you know someone or something from before: Jeg genkender din stemme (I recognize your voice). Jeg genkendte ham ikke (I did not recognize him). It is built from gen (again) and kende (to know).",
+  "forms": [
+   {
+    "da": "at genkende",
+    "en": "to recognize"
+   },
+   {
+    "da": "jeg genkender",
+    "en": "I recognize"
+   },
+   {
+    "da": "jeg genkendte",
+    "en": "I recognized"
+   },
+   {
+    "da": "jeg har genkendt",
+    "en": "I have recognized"
+   }
+  ],
+  "related": [
+   {
+    "da": "at huske",
+    "en": "to remember"
+   },
+   {
+    "da": "at gense",
+    "en": "to see again"
+   },
+   {
+    "da": "at erkende",
+    "en": "to admit"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **genkende** manden på billedet?",
+   "en": "Can you recognize the man in the picture?"
+  }
+ },
+ "at gentage": {
+  "explanation": "\"At gentage\" means \"to repeat\", to say or do something again: Jeg gentager mit spørgsmål (I repeat my question). It also works for events: Historien gentager sig (History repeats itself).",
+  "forms": [
+   {
+    "da": "at gentage",
+    "en": "to repeat"
+   },
+   {
+    "da": "jeg gentager",
+    "en": "I repeat"
+   },
+   {
+    "da": "jeg gentog",
+    "en": "I repeated"
+   },
+   {
+    "da": "jeg har gentaget",
+    "en": "I have repeated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gentagelse",
+    "en": "a repetition"
+   },
+   {
+    "da": "at øve",
+    "en": "to practice"
+   },
+   {
+    "da": "at gøre om",
+    "en": "to redo"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **gentage** det langsomt, tak?",
+   "en": "Can you repeat that slowly, please?"
+  }
+ },
+ "at gide": {
+  "explanation": "\"At gide\" means \"to be bothered to\", and it is about having the energy or will. It is mostly used with ikke or in questions: Jeg gider ikke (I can't be bothered). Gider du komme med? (Do you feel like coming along?)",
+  "forms": [
+   {
+    "da": "at gide",
+    "en": "to bother / can be bothered"
+   },
+   {
+    "da": "jeg gider",
+    "en": "I can be bothered to"
+   },
+   {
+    "da": "jeg gad",
+    "en": "I could be bothered to"
+   },
+   {
+    "da": "jeg har gidet",
+    "en": "I have bothered to"
+   }
+  ],
+  "related": [
+   {
+    "da": "at orke",
+    "en": "to have the energy for"
+   },
+   {
+    "da": "at have lyst til",
+    "en": "to feel like"
+   },
+   {
+    "da": "doven",
+    "en": "lazy"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil nok ikke **gide** at hjælpe os.",
+   "en": "He probably won't feel like helping us."
+  }
+ },
  "at gifte sig": {
   "explanation": "\"At gifte sig\" means \"to get married\". The little word sig changes to match who is marrying: du gifter dig (you get married), han gifter sig (he gets married). Gift on its own means \"married\": Jeg er gift (I am married).",
   "forms": [
@@ -77,6 +401,221 @@
    "en": "I want to give you a present."
   }
  },
+ "at give besked": {
+  "explanation": "\"At give besked\" means \"to let someone know\": Giv mig besked i morgen (Let me know tomorrow). To be the one who hears it, use at få besked (to be notified).",
+  "forms": [
+   {
+    "da": "at give besked",
+    "en": "to let someone know"
+   },
+   {
+    "da": "jeg giver besked",
+    "en": "I let someone know"
+   },
+   {
+    "da": "jeg gav besked",
+    "en": "I let someone know"
+   },
+   {
+    "da": "jeg har givet besked",
+    "en": "I have let someone know"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortælle",
+    "en": "to tell"
+   },
+   {
+    "da": "at meddele",
+    "en": "to inform"
+   },
+   {
+    "da": "at sige til",
+    "en": "to tell / let know"
+   },
+   {
+    "da": "at underrette",
+    "en": "to notify"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **give besked**, når du er fremme?",
+   "en": "Can you let me know when you arrive?"
+  }
+ },
+ "at give en hånd med": {
+  "explanation": "\"At give en hånd med\" means \"to give a hand\", or \"to help out\": Kan du give en hånd med? (Can you lend a hand?) It fits a small, practical job: Jeg giver en hånd med opvasken (I help with the dishes).",
+  "forms": [
+   {
+    "da": "at give en hånd med",
+    "en": "to give a hand"
+   },
+   {
+    "da": "jeg giver en hånd med",
+    "en": "I give a hand"
+   },
+   {
+    "da": "jeg gav en hånd med",
+    "en": "I gave a hand"
+   },
+   {
+    "da": "jeg har givet en hånd med",
+    "en": "I have given a hand"
+   }
+  ],
+  "related": [
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "at hjælpe til",
+    "en": "to help out"
+   },
+   {
+    "da": "at støtte",
+    "en": "to support"
+   },
+   {
+    "da": "at bidrage",
+    "en": "to contribute"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **give en hånd med** i køkkenet?",
+   "en": "Can you lend a hand in the kitchen?"
+  }
+ },
+ "at give lov": {
+  "explanation": "\"At give lov\" means \"to give permission\": Min mor gav mig lov (My mom gave me permission). Lov on its own also means \"law\", but in this phrase it is permission.",
+  "forms": [
+   {
+    "da": "at give lov",
+    "en": "to give permission"
+   },
+   {
+    "da": "jeg giver lov",
+    "en": "I give permission"
+   },
+   {
+    "da": "jeg gav lov",
+    "en": "I gave permission"
+   },
+   {
+    "da": "jeg har givet lov",
+    "en": "I have given permission"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tillade",
+    "en": "to allow"
+   },
+   {
+    "da": "at forbyde",
+    "en": "to forbid"
+   },
+   {
+    "da": "en tilladelse",
+    "en": "a permission"
+   },
+   {
+    "da": "at have lov",
+    "en": "to be allowed"
+   }
+  ],
+  "sentence": {
+   "da": "Far vil nok **give lov**, når vi spørger pænt.",
+   "en": "Dad will probably give permission when we ask nicely."
+  }
+ },
+ "at give op": {
+  "explanation": "\"At give op\" means \"to give up\", when you stop trying: Jeg giver ikke op (I am not giving up). Plain at give means \"to give\": Jeg giver dig en bog (I give you a book).",
+  "forms": [
+   {
+    "da": "at give op",
+    "en": "to give up"
+   },
+   {
+    "da": "jeg giver op",
+    "en": "I give up"
+   },
+   {
+    "da": "jeg gav op",
+    "en": "I gave up"
+   },
+   {
+    "da": "jeg har givet op",
+    "en": "I have given up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opgive",
+    "en": "to abandon"
+   },
+   {
+    "da": "at holde ud",
+    "en": "to endure"
+   },
+   {
+    "da": "at blive ved",
+    "en": "to keep going"
+   },
+   {
+    "da": "at kæmpe",
+    "en": "to fight"
+   }
+  ],
+  "sentence": {
+   "da": "Det er svært, men jeg vil ikke **give op**.",
+   "en": "It is hard, but I won't give up."
+  }
+ },
+ "at give tilbage": {
+  "explanation": "\"At give tilbage\" means \"to give back\": Han gav mig pengene tilbage (He gave me the money back). To take something back to a shop or library, use at returnere (to return).",
+  "forms": [
+   {
+    "da": "at give tilbage",
+    "en": "to give back"
+   },
+   {
+    "da": "jeg giver tilbage",
+    "en": "I give back"
+   },
+   {
+    "da": "jeg gav tilbage",
+    "en": "I gave back"
+   },
+   {
+    "da": "jeg har givet tilbage",
+    "en": "I have given back"
+   }
+  ],
+  "related": [
+   {
+    "da": "at aflevere",
+    "en": "to hand in"
+   },
+   {
+    "da": "at låne",
+    "en": "to borrow"
+   },
+   {
+    "da": "at låne ud",
+    "en": "to lend"
+   },
+   {
+    "da": "at få tilbage",
+    "en": "to get back"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **give tilbage**, hvad jeg har lånt.",
+   "en": "I want to give back what I borrowed."
+  }
+ },
  "at glemme": {
   "explanation": "\"At glemme\" means \"to forget\", both facts and things you were meant to bring or do: Jeg glemte at ringe (I forgot to call).",
   "forms": [
@@ -116,6 +655,84 @@
    "en": "I must not forget my umbrella."
   }
  },
+ "at glæde sig over": {
+  "explanation": "\"At glæde sig over\" means \"to be happy about\" something that is here now: Jeg glæder mig over gaven (I am happy about the gift). For the future, use at glæde sig til (to look forward to): Jeg glæder mig til ferien (I look forward to the vacation).",
+  "forms": [
+   {
+    "da": "at glæde sig over",
+    "en": "to be happy about"
+   },
+   {
+    "da": "jeg glæder mig over",
+    "en": "I am happy about"
+   },
+   {
+    "da": "jeg glædede mig over",
+    "en": "I was happy about"
+   },
+   {
+    "da": "jeg har glædet mig over",
+    "en": "I have been happy about"
+   }
+  ],
+  "related": [
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "at nyde",
+    "en": "to enjoy"
+   },
+   {
+    "da": "at være tilfreds med",
+    "en": "to be satisfied with"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **glæde sig over** de små ting i livet.",
+   "en": "She can be happy about the small things in life."
+  }
+ },
+ "at glæde sig til": {
+  "explanation": "\"At glæde sig til\" means \"to look forward to\": Jeg glæder mig til weekenden (I look forward to the weekend). Sig changes with the person: Vi glæder os til festen (We look forward to the party).",
+  "forms": [
+   {
+    "da": "at glæde sig til",
+    "en": "to look forward to"
+   },
+   {
+    "da": "jeg glæder mig til",
+    "en": "I look forward to"
+   },
+   {
+    "da": "jeg glædede mig til",
+    "en": "I looked forward to"
+   },
+   {
+    "da": "jeg har glædet mig til",
+    "en": "I have looked forward to"
+   }
+  ],
+  "related": [
+   {
+    "da": "spændt",
+    "en": "excited"
+   },
+   {
+    "da": "at se frem til",
+    "en": "to look forward to"
+   },
+   {
+    "da": "at glæde sig over",
+    "en": "to be happy about"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene begynder at **glæde sig til** sommerferien.",
+   "en": "The children are starting to look forward to the summer vacation."
+  }
+ },
  "at godtage": {
   "explanation": "\"At godtage\" means \"to accept\" something, like an explanation, an offer or a rule: Jeg kan ikke godtage forklaringen (I cannot accept the explanation). It sounds fairly formal; in everyday speech at acceptere (to accept) is the more usual word.",
   "forms": [
@@ -153,6 +770,127 @@
   "sentence": {
    "da": "Vi kan ikke **godtage** den høje pris.",
    "en": "We cannot accept the high price."
+  }
+ },
+ "at google": {
+  "explanation": "\"At google\" means \"to google\", to search for something online: Jeg googler åbningstiderne (I google the opening hours). Har du googlet det? (Have you googled it?)",
+  "forms": [
+   {
+    "da": "at google",
+    "en": "to google"
+   },
+   {
+    "da": "jeg googler",
+    "en": "I google"
+   },
+   {
+    "da": "jeg googlede",
+    "en": "I googled"
+   },
+   {
+    "da": "jeg har googlet",
+    "en": "I have googled"
+   }
+  ],
+  "related": [
+   {
+    "da": "at søge efter",
+    "en": "to search for"
+   },
+   {
+    "da": "en søgemaskine",
+    "en": "a search engine"
+   },
+   {
+    "da": "et søgeord",
+    "en": "a keyword"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **google** en opskrift på pandekager.",
+   "en": "I want to google a recipe for pancakes."
+  }
+ },
+ "at grave": {
+  "explanation": "\"At grave\" means \"to dig\": Hunden graver i haven (The dog is digging in the garden). Han gravede i sandet (He dug in the sand).",
+  "forms": [
+   {
+    "da": "at grave",
+    "en": "to dig"
+   },
+   {
+    "da": "jeg graver",
+    "en": "I dig"
+   },
+   {
+    "da": "jeg gravede",
+    "en": "I dug"
+   },
+   {
+    "da": "jeg har gravet",
+    "en": "I have dug"
+   }
+  ],
+  "related": [
+   {
+    "da": "en grav",
+    "en": "a grave"
+   },
+   {
+    "da": "at begrave",
+    "en": "to bury"
+   },
+   {
+    "da": "en grøft",
+    "en": "a ditch"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene vil **grave** et dybt hul på stranden.",
+   "en": "The children want to dig a deep hole on the beach."
+  }
+ },
+ "at gribe": {
+  "explanation": "\"At gribe\" means \"to grab\" and \"to catch\" something that is thrown: Hun greb bolden (She caught the ball). Han greb min arm (He grabbed my arm).",
+  "forms": [
+   {
+    "da": "at gribe",
+    "en": "to grab / catch"
+   },
+   {
+    "da": "jeg griber",
+    "en": "I grab / catch"
+   },
+   {
+    "da": "jeg greb",
+    "en": "I grabbed / caught"
+   },
+   {
+    "da": "jeg har grebet",
+    "en": "I have grabbed / caught"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fange",
+    "en": "to catch"
+   },
+   {
+    "da": "at tage fat i",
+    "en": "to take hold of"
+   },
+   {
+    "da": "at holde fast",
+    "en": "to hold on"
+   },
+   {
+    "da": "at kaste",
+    "en": "to throw"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **gribe** bolden, når jeg kaster den?",
+   "en": "Can you catch the ball when I throw it?"
   }
  },
  "at grine": {
@@ -311,6 +1049,174 @@
    "en": "We want to go for a walk in the park."
   }
  },
+ "at gå forbi": {
+  "explanation": "\"At gå forbi\" means \"to pass by\" on foot: Jeg går forbi skolen hver dag (I walk past the school every day). Forbi (past) works with other verbs too: køre forbi (drive past).",
+  "forms": [
+   {
+    "da": "at gå forbi",
+    "en": "to pass by"
+   },
+   {
+    "da": "jeg går forbi",
+    "en": "I pass by"
+   },
+   {
+    "da": "jeg gik forbi",
+    "en": "I passed by"
+   },
+   {
+    "da": "jeg er gået forbi",
+    "en": "I have passed by"
+   }
+  ],
+  "related": [
+   {
+    "da": "at komme forbi",
+    "en": "to drop by"
+   },
+   {
+    "da": "en forbipasserende",
+    "en": "a passerby"
+   },
+   {
+    "da": "at overhale",
+    "en": "to overtake"
+   },
+   {
+    "da": "at passere",
+    "en": "to pass"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg plejer at **gå forbi** bageren på vej hjem.",
+   "en": "I usually pass the bakery on the way home."
+  }
+ },
+ "at gå fra hinanden": {
+  "explanation": "\"At gå fra hinanden\" means \"to break up\", literally \"to go from each other\". It is used when two people end a relationship together: Vi gik fra hinanden i går (We broke up yesterday).",
+  "forms": [
+   {
+    "da": "at gå fra hinanden",
+    "en": "to break up"
+   },
+   {
+    "da": "vi går fra hinanden",
+    "en": "we break up"
+   },
+   {
+    "da": "vi gik fra hinanden",
+    "en": "we broke up"
+   },
+   {
+    "da": "vi er gået fra hinanden",
+    "en": "we have broken up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slå op",
+    "en": "to break up with someone"
+   },
+   {
+    "da": "at blive skilt",
+    "en": "to get divorced"
+   },
+   {
+    "da": "at blive kærester",
+    "en": "to become a couple"
+   }
+  ],
+  "sentence": {
+   "da": "Efter tre år vil de **gå fra hinanden**.",
+   "en": "After three years they want to break up."
+  }
+ },
+ "at gå galt": {
+  "explanation": "\"At gå galt\" means \"to go wrong\" and is about plans and events: Alt gik galt i går (Everything went wrong yesterday). For a wrong answer, use forkert (wrong) instead.",
+  "forms": [
+   {
+    "da": "at gå galt",
+    "en": "to go wrong"
+   },
+   {
+    "da": "det går galt",
+    "en": "it goes wrong"
+   },
+   {
+    "da": "det gik galt",
+    "en": "it went wrong"
+   },
+   {
+    "da": "det er gået galt",
+    "en": "it has gone wrong"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gå godt",
+    "en": "to go well"
+   },
+   {
+    "da": "at lykkes",
+    "en": "to succeed"
+   },
+   {
+    "da": "at mislykkes",
+    "en": "to fail"
+   },
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   }
+  ],
+  "sentence": {
+   "da": "Det kan **gå galt**, når vejen er glat.",
+   "en": "It can go wrong when the road is slippery."
+  }
+ },
+ "at gå glip af": {
+  "explanation": "\"At gå glip af\" means \"to miss out on\" something you wanted to be part of: Jeg gik glip af festen (I missed out on the party). For a bus, Danes say Jeg missede bussen (I missed the bus).",
+  "forms": [
+   {
+    "da": "at gå glip af",
+    "en": "to miss out on"
+   },
+   {
+    "da": "jeg går glip af",
+    "en": "I miss out on"
+   },
+   {
+    "da": "jeg gik glip af",
+    "en": "I missed out on"
+   },
+   {
+    "da": "jeg har gået glip af",
+    "en": "I have missed out on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nå",
+    "en": "to make it"
+   },
+   {
+    "da": "at savne",
+    "en": "to miss / long for"
+   },
+   {
+    "da": "at deltage",
+    "en": "to take part"
+   },
+   {
+    "da": "at udnytte",
+    "en": "to take advantage of"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil ikke **gå glip af** koncerten.",
+   "en": "I don't want to miss out on the concert."
+  }
+ },
  "at gå hjem": {
   "explanation": "\"At gå hjem\" means \"to go home\", usually on foot: Jeg går hjem nu (I am going home now). By car, say at køre hjem (to drive home). At tage hjem (to head home) works whatever way you travel.",
   "forms": [
@@ -393,6 +1299,92 @@
    "en": "We want to go to the movies tonight."
   }
  },
+ "at gå i gang med": {
+  "explanation": "\"At gå i gang med\" means \"to get started on\", for beginning a task: Nu går vi i gang med arbejdet (Now we get started on the work). Vi er gået i gang (We have started).",
+  "forms": [
+   {
+    "da": "at gå i gang med",
+    "en": "to get started on"
+   },
+   {
+    "da": "jeg går i gang med",
+    "en": "I get started on"
+   },
+   {
+    "da": "jeg gik i gang med",
+    "en": "I got started on"
+   },
+   {
+    "da": "jeg er gået i gang med",
+    "en": "I have gotten started on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at starte",
+    "en": "to start"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   },
+   {
+    "da": "at blive færdig med",
+    "en": "to be done with"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **gå i gang med** opgaven nu.",
+   "en": "We have to get started on the task now."
+  }
+ },
+ "at gå i panik": {
+  "explanation": "\"At gå i panik\" means \"to panic\", literally \"to go into panic\": Hun gik i panik, da lyset gik (She panicked when the lights went out). The calm opposite is at bevare roen (to stay calm).",
+  "forms": [
+   {
+    "da": "at gå i panik",
+    "en": "to panic"
+   },
+   {
+    "da": "jeg går i panik",
+    "en": "I panic"
+   },
+   {
+    "da": "jeg gik i panik",
+    "en": "I panicked"
+   },
+   {
+    "da": "jeg er gået i panik",
+    "en": "I have panicked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at blive bange",
+    "en": "to get scared"
+   },
+   {
+    "da": "at bekymre sig",
+    "en": "to worry"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   },
+   {
+    "da": "rolig",
+    "en": "calm"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal ikke **gå i panik**, for vi har god tid.",
+   "en": "Don't panic, because we have plenty of time."
+  }
+ },
  "at gå i seng": {
   "explanation": "\"At gå i seng\" means \"to go to bed\": Godnat, jeg går i seng (Good night, I am going to bed). Falling asleep is something different: at falde i søvn (to fall asleep).",
   "forms": [
@@ -434,6 +1426,88 @@
   "sentence": {
    "da": "Børnene er trætte og skal **gå i seng**.",
    "en": "The children are tired and have to go to bed."
+  }
+ },
+ "at gå i stykker": {
+  "explanation": "\"At gå i stykker\" means \"to break\": Min telefon gik i stykker (My phone broke). It is for something that falls apart or stops working. To break it yourself, use at ødelægge (to destroy): Jeg ødelagde telefonen (I broke the phone).",
+  "forms": [
+   {
+    "da": "at gå i stykker",
+    "en": "to break"
+   },
+   {
+    "da": "det går i stykker",
+    "en": "it breaks"
+   },
+   {
+    "da": "det gik i stykker",
+    "en": "it broke"
+   },
+   {
+    "da": "det er gået i stykker",
+    "en": "it has broken"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gå itu",
+    "en": "to break in two"
+   },
+   {
+    "da": "at knække",
+    "en": "to snap"
+   },
+   {
+    "da": "at smadre",
+    "en": "to smash"
+   },
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle cykel kan nemt **gå i stykker**.",
+   "en": "The old bike can easily break."
+  }
+ },
+ "at gå igennem": {
+  "explanation": "\"At gå igennem\" means \"to go through\": Vi gik igennem skoven (We went through the forest). It also means \"to go over\" something: Vi går opgaven igennem (We go over the task).",
+  "forms": [
+   {
+    "da": "at gå igennem",
+    "en": "to go through"
+   },
+   {
+    "da": "jeg går igennem",
+    "en": "I go through"
+   },
+   {
+    "da": "jeg gik igennem",
+    "en": "I went through"
+   },
+   {
+    "da": "jeg har gået igennem",
+    "en": "I have gone through"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gennemgå",
+    "en": "to review"
+   },
+   {
+    "da": "at komme igennem",
+    "en": "to get through"
+   },
+   {
+    "da": "en gennemgang",
+    "en": "a review"
+   }
+  ],
+  "sentence": {
+   "da": "Vil du **gå igennem** skoven med mig?",
+   "en": "Do you want to go through the forest with me?"
   }
  },
  "at gå ind": {
@@ -592,6 +1666,92 @@
    "en": "We want to go to a café today."
   }
  },
+ "at gå rundt": {
+  "explanation": "\"At gå rundt\" means \"to walk around\", with no fixed goal: Vi gik rundt i byen hele dagen (We walked around town all day). With om it means \"around something\": Vi gik rundt om søen (We walked around the lake).",
+  "forms": [
+   {
+    "da": "at gå rundt",
+    "en": "to walk around"
+   },
+   {
+    "da": "jeg går rundt",
+    "en": "I walk around"
+   },
+   {
+    "da": "jeg gik rundt",
+    "en": "I walked around"
+   },
+   {
+    "da": "jeg har gået rundt",
+    "en": "I have walked around"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slentre",
+    "en": "to stroll"
+   },
+   {
+    "da": "at spadsere",
+    "en": "to walk / stroll"
+   },
+   {
+    "da": "at vandre",
+    "en": "to hike"
+   },
+   {
+    "da": "at løbe rundt",
+    "en": "to run around"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **gå rundt** i den gamle by.",
+   "en": "I would like to walk around the old town."
+  }
+ },
+ "at gå til eksamen": {
+  "explanation": "\"At gå til eksamen\" means \"to take an exam\", for sitting the exam itself: Hun går til eksamen i juni (She takes her exam in June).",
+  "forms": [
+   {
+    "da": "at gå til eksamen",
+    "en": "to take an exam"
+   },
+   {
+    "da": "jeg går til eksamen",
+    "en": "I take an exam"
+   },
+   {
+    "da": "jeg gik til eksamen",
+    "en": "I took an exam"
+   },
+   {
+    "da": "jeg er gået til eksamen",
+    "en": "I have taken an exam"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bestå",
+    "en": "to pass"
+   },
+   {
+    "da": "at dumpe",
+    "en": "to fail"
+   },
+   {
+    "da": "en prøve",
+    "en": "a test"
+   },
+   {
+    "da": "et eksamensbevis",
+    "en": "an exam certificate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **gå til eksamen** i morgen.",
+   "en": "I have to take an exam tomorrow."
+  }
+ },
  "at gå tilbage": {
   "explanation": "\"At gå tilbage\" means \"to go back\", returning to where you came from: Jeg går tilbage til hotellet (I walk back to the hotel). It is about going on foot. By car, say at køre tilbage (to drive back).",
   "forms": [
@@ -670,6 +1830,135 @@
    "en": "We want to go out into the garden now."
   }
  },
+ "at gå ud fra": {
+  "explanation": "\"At gå ud fra\" means \"to assume\", taking something as true without checking: Jeg går ud fra, at du har tid (I assume you have time).",
+  "forms": [
+   {
+    "da": "at gå ud fra",
+    "en": "to assume"
+   },
+   {
+    "da": "jeg går ud fra",
+    "en": "I assume"
+   },
+   {
+    "da": "jeg gik ud fra",
+    "en": "I assumed"
+   },
+   {
+    "da": "jeg har gået ud fra",
+    "en": "I have assumed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at antage",
+    "en": "to suppose"
+   },
+   {
+    "da": "at formode",
+    "en": "to presume"
+   },
+   {
+    "da": "at tro",
+    "en": "to believe"
+   },
+   {
+    "da": "at regne med",
+    "en": "to count on"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **gå ud fra**, at han kommer.",
+   "en": "We have to assume that he is coming."
+  }
+ },
+ "at gå ud med": {
+  "explanation": "\"At gå ud med\" means \"to go out with\", as in dating someone: Hun går ud med Peter (She is going out with Peter). It also means taking something out: Jeg går ud med hunden (I am taking the dog out).",
+  "forms": [
+   {
+    "da": "at gå ud med",
+    "en": "to go out with"
+   },
+   {
+    "da": "jeg går ud med",
+    "en": "I go out with"
+   },
+   {
+    "da": "jeg gik ud med",
+    "en": "I went out with"
+   },
+   {
+    "da": "jeg er gået ud med",
+    "en": "I have gone out with"
+   }
+  ],
+  "related": [
+   {
+    "da": "at date",
+    "en": "to date"
+   },
+   {
+    "da": "en date",
+    "en": "a date"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend / girlfriend"
+   },
+   {
+    "da": "at være kærester",
+    "en": "to be dating"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil gerne **gå ud med** ham.",
+   "en": "She would like to go out with him."
+  }
+ },
+ "at gå videre": {
+  "explanation": "\"At gå videre\" means \"to move on\", going on to the next thing: Nu går vi videre til næste side (Now we move on to the next page). It also fits life: Hun er gået videre (She has moved on).",
+  "forms": [
+   {
+    "da": "at gå videre",
+    "en": "to move on"
+   },
+   {
+    "da": "jeg går videre",
+    "en": "I move on"
+   },
+   {
+    "da": "jeg gik videre",
+    "en": "I moved on"
+   },
+   {
+    "da": "jeg er gået videre",
+    "en": "I have moved on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortsætte",
+    "en": "to continue"
+   },
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   },
+   {
+    "da": "at komme videre",
+    "en": "to get further"
+   },
+   {
+    "da": "at gå tilbage",
+    "en": "to go back"
+   }
+  ],
+  "sentence": {
+   "da": "Efter pausen skal vi **gå videre** til næste emne.",
+   "en": "After the break we move on to the next topic."
+  }
+ },
  "at gå væk": {
   "explanation": "\"At gå væk\" means \"to go away\" or \"to walk off\", leaving a place. As a command, Gå væk! means \"Go away!\", which sounds rude, so be careful.",
   "forms": [
@@ -709,6 +1998,88 @@
    "en": "The cat wants to go away from the dog."
   }
  },
+ "at gætte": {
+  "explanation": "\"At gætte\" means \"to guess\": Gæt hvad! (Guess what!) To name your guess, add på: Jeg gætter på Peter (I am guessing Peter).",
+  "forms": [
+   {
+    "da": "at gætte",
+    "en": "to guess"
+   },
+   {
+    "da": "jeg gætter",
+    "en": "I guess"
+   },
+   {
+    "da": "jeg gættede",
+    "en": "I guessed"
+   },
+   {
+    "da": "jeg har gættet",
+    "en": "I have guessed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tro",
+    "en": "to think / believe"
+   },
+   {
+    "da": "at vide",
+    "en": "to know"
+   },
+   {
+    "da": "at antage",
+    "en": "to assume"
+   },
+   {
+    "da": "at formode",
+    "en": "to suppose"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **gætte** min alder?",
+   "en": "Can you guess my age?"
+  }
+ },
+ "at gø": {
+  "explanation": "\"At gø\" means \"to bark\", and it is used for dogs: Hunden gøede hele natten (The dog barked all night). The present form gør looks exactly like gør from at gøre (to do), so the sentence tells you which one it is.",
+  "forms": [
+   {
+    "da": "at gø",
+    "en": "to bark"
+   },
+   {
+    "da": "hunden gør",
+    "en": "the dog barks"
+   },
+   {
+    "da": "hunden gøede",
+    "en": "the dog barked"
+   },
+   {
+    "da": "hunden har gøet",
+    "en": "the dog has barked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at knurre",
+    "en": "to growl"
+   },
+   {
+    "da": "at hyle",
+    "en": "to howl"
+   },
+   {
+    "da": "at mjave",
+    "en": "to meow"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden må ikke **gø** om natten.",
+   "en": "The dog is not allowed to bark at night."
+  }
+ },
  "at gøre": {
   "explanation": "\"At gøre\" means \"to do\", as in Hvad gør du? (What are you doing?). It can stand in for an action you do not want to repeat: Jeg læser, og det gør hun også (I am reading, and she does too). For making things, such as food, Danish uses at lave (to make): at lave mad (to cook).",
   "forms": [
@@ -746,6 +2117,256 @@
   "sentence": {
    "da": "Hvad vil du **gøre** i dag?",
    "en": "What do you want to do today?"
+  }
+ },
+ "at gøre det forbi": {
+  "explanation": "\"At gøre det forbi\" means \"to end it\", about a relationship: Han gjorde det forbi med hende (He ended it with her). A common everyday way to say it is at slå op (to break up).",
+  "forms": [
+   {
+    "da": "at gøre det forbi",
+    "en": "to end it (a relationship)"
+   },
+   {
+    "da": "jeg gør det forbi",
+    "en": "I end it"
+   },
+   {
+    "da": "jeg gjorde det forbi",
+    "en": "I ended it"
+   },
+   {
+    "da": "jeg har gjort det forbi",
+    "en": "I have ended it"
+   }
+  ],
+  "related": [
+   {
+    "da": "et brud",
+    "en": "a breakup"
+   },
+   {
+    "da": "at blive droppet",
+    "en": "to get dumped"
+   },
+   {
+    "da": "at gå fra hinanden",
+    "en": "to split up"
+   },
+   {
+    "da": "at være single",
+    "en": "to be single"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **gøre det forbi** med ham.",
+   "en": "She wants to end it with him."
+  }
+ },
+ "at gøre en forskel": {
+  "explanation": "\"At gøre en forskel\" means \"to make a difference\": Din hjælp gør en forskel (Your help makes a difference). To say how big, add a word: at gøre en stor forskel (to make a big difference).",
+  "forms": [
+   {
+    "da": "at gøre en forskel",
+    "en": "to make a difference"
+   },
+   {
+    "da": "jeg gør en forskel",
+    "en": "I make a difference"
+   },
+   {
+    "da": "jeg gjorde en forskel",
+    "en": "I made a difference"
+   },
+   {
+    "da": "jeg har gjort en forskel",
+    "en": "I have made a difference"
+   }
+  ],
+  "related": [
+   {
+    "da": "at betyde noget",
+    "en": "to matter"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "at have betydning",
+    "en": "to be important"
+   },
+   {
+    "da": "at ændre",
+    "en": "to change"
+   }
+  ],
+  "sentence": {
+   "da": "Din hjælp kan **gøre en forskel** for dem.",
+   "en": "Your help can make a difference for them."
+  }
+ },
+ "at gøre færdig": {
+  "explanation": "\"At gøre færdig\" means \"to finish\" something: Jeg gør opgaven færdig (I am finishing the assignment). To say you are done yourself, use at blive færdig: Jeg bliver færdig klokken fem (I will be done at five).",
+  "forms": [
+   {
+    "da": "at gøre færdig",
+    "en": "to finish"
+   },
+   {
+    "da": "jeg gør færdig",
+    "en": "I finish"
+   },
+   {
+    "da": "jeg gjorde færdig",
+    "en": "I finished"
+   },
+   {
+    "da": "jeg har gjort færdig",
+    "en": "I have finished"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afslutte",
+    "en": "to wrap up"
+   },
+   {
+    "da": "at fuldføre",
+    "en": "to complete"
+   },
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at gøre klar",
+    "en": "to get ready"
+   }
+  ],
+  "sentence": {
+   "da": "Lad mig lige **gøre færdig**, og så kommer jeg.",
+   "en": "Let me just finish, and then I will come."
+  }
+ },
+ "at gøre grin med": {
+  "explanation": "\"At gøre grin med\" means \"to make fun of\" someone: Hun gør grin med mig (She makes fun of me). It can be about a thing too: Han gjorde grin med min accent (He made fun of my accent).",
+  "forms": [
+   {
+    "da": "at gøre grin med",
+    "en": "to make fun of"
+   },
+   {
+    "da": "jeg gør grin med",
+    "en": "I make fun of"
+   },
+   {
+    "da": "jeg gjorde grin med",
+    "en": "I made fun of"
+   },
+   {
+    "da": "jeg har gjort grin med",
+    "en": "I have made fun of"
+   }
+  ],
+  "related": [
+   {
+    "da": "at drille",
+    "en": "to tease"
+   },
+   {
+    "da": "at håne",
+    "en": "to mock"
+   },
+   {
+    "da": "at le ad",
+    "en": "to laugh at"
+   },
+   {
+    "da": "at latterliggøre",
+    "en": "to ridicule"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal ikke **gøre grin med** andre.",
+   "en": "You should not make fun of others."
+  }
+ },
+ "at gøre klar": {
+  "explanation": "\"At gøre klar\" means \"to get something ready\": Jeg gør maden klar (I am getting the food ready). To get yourself ready, add mig: Jeg gør mig klar (I am getting myself ready).",
+  "forms": [
+   {
+    "da": "at gøre klar",
+    "en": "to get ready"
+   },
+   {
+    "da": "jeg gør klar",
+    "en": "I get ready"
+   },
+   {
+    "da": "jeg gjorde klar",
+    "en": "I got ready"
+   },
+   {
+    "da": "jeg har gjort klar",
+    "en": "I have gotten ready"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forberede",
+    "en": "to prepare"
+   },
+   {
+    "da": "parat",
+    "en": "prepared"
+   },
+   {
+    "da": "at gøre færdig",
+    "en": "to finish"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **gøre klar** til festen.",
+   "en": "I have to get ready for the party."
+  }
+ },
+ "at gøre noget ved": {
+  "explanation": "\"At gøre noget ved\" means \"to do something about\" a problem: Vi må gøre noget ved støjen (We have to do something about the noise). Said alone, Gør noget! means \"Do something!\".",
+  "forms": [
+   {
+    "da": "at gøre noget ved",
+    "en": "to do something about"
+   },
+   {
+    "da": "jeg gør noget ved",
+    "en": "I do something about"
+   },
+   {
+    "da": "jeg gjorde noget ved",
+    "en": "I did something about"
+   },
+   {
+    "da": "jeg har gjort noget ved",
+    "en": "I have done something about"
+   }
+  ],
+  "related": [
+   {
+    "da": "at løse",
+    "en": "to solve"
+   },
+   {
+    "da": "at handle",
+    "en": "to take action"
+   },
+   {
+    "da": "at ordne",
+    "en": "to sort out"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **gøre noget ved** det nu.",
+   "en": "We have to do something about it now."
   }
  },
  "at gøre ondt": {
@@ -830,6 +2451,49 @@
    "en": "We have to clean the house."
   }
  },
+ "at gøre sit bedste": {
+  "explanation": "\"At gøre sit bedste\" means \"to do one's best\". Sit (one's) changes with who does it: Han gør sit bedste (He does his best), Jeg gør mit bedste (I do my best).",
+  "forms": [
+   {
+    "da": "at gøre sit bedste",
+    "en": "to do one's best"
+   },
+   {
+    "da": "jeg gør mit bedste",
+    "en": "I do my best"
+   },
+   {
+    "da": "jeg gjorde mit bedste",
+    "en": "I did my best"
+   },
+   {
+    "da": "jeg har gjort mit bedste",
+    "en": "I have done my best"
+   }
+  ],
+  "related": [
+   {
+    "da": "at prøve",
+    "en": "to try"
+   },
+   {
+    "da": "at anstrenge sig",
+    "en": "to make an effort"
+   },
+   {
+    "da": "at yde en indsats",
+    "en": "to put in an effort"
+   },
+   {
+    "da": "at give op",
+    "en": "to give up"
+   }
+  ],
+  "sentence": {
+   "da": "Hver elev skal **gøre sit bedste** til prøven.",
+   "en": "Each student must do their best for the test."
+  }
+ },
  "en gade": {
   "explanation": "\"En gade\" means \"a street\". For a bigger road, for example between towns, use en vej (a road).",
   "forms": [
@@ -867,6 +2531,127 @@
   "sentence": {
    "da": "Vi går ned ad en **gade** med huse.",
    "en": "We walk down a street with houses."
+  }
+ },
+ "en gadedør": {
+  "explanation": "\"En gadedør\" means \"a street door\", the main door of a building that opens onto the street. It is built from gade (street) and dør (door): Gadedøren er låst om natten (The street door is locked at night).",
+  "forms": [
+   {
+    "da": "en gadedør",
+    "en": "a street door"
+   },
+   {
+    "da": "gadedøren",
+    "en": "the street door"
+   },
+   {
+    "da": "gadedøre",
+    "en": "street doors"
+   },
+   {
+    "da": "gadedørene",
+    "en": "the street doors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hoveddør",
+    "en": "a front door"
+   },
+   {
+    "da": "en entredør",
+    "en": "an entrance door"
+   },
+   {
+    "da": "en dørklokke",
+    "en": "a doorbell"
+   },
+   {
+    "da": "en opgang",
+    "en": "a stairwell"
+   }
+  ],
+  "sentence": {
+   "da": "Huset har en blå **gadedør** ud til gaden.",
+   "en": "The house has a blue street door facing the street."
+  }
+ },
+ "en gadekat": {
+  "explanation": "\"En gadekat\" means \"a stray cat\", a cat with no home. It is built from gade (street) and kat (cat). Gadekatten fik lidt mad af naboen (The stray cat got some food from the neighbor).",
+  "forms": [
+   {
+    "da": "en gadekat",
+    "en": "a stray cat"
+   },
+   {
+    "da": "gadekatten",
+    "en": "the stray cat"
+   },
+   {
+    "da": "gadekatte",
+    "en": "stray cats"
+   },
+   {
+    "da": "gadekattene",
+    "en": "the stray cats"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vildkat",
+    "en": "a wildcat"
+   },
+   {
+    "da": "en herreløs hund",
+    "en": "a stray dog"
+   },
+   {
+    "da": "en killing",
+    "en": "a kitten"
+   }
+  ],
+  "sentence": {
+   "da": "Der bor en **gadekat** bag vores hus.",
+   "en": "A stray cat lives behind our house."
+  }
+ },
+ "en gadelygte": {
+  "explanation": "\"En gadelygte\" means \"a streetlight\". It is built from gade (street) and lygte (light): Gadelygterne tænder om aftenen (The streetlights come on in the evening).",
+  "forms": [
+   {
+    "da": "en gadelygte",
+    "en": "a streetlight"
+   },
+   {
+    "da": "gadelygten",
+    "en": "the streetlight"
+   },
+   {
+    "da": "gadelygter",
+    "en": "streetlights"
+   },
+   {
+    "da": "gadelygterne",
+    "en": "the streetlights"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lampe",
+    "en": "a lamp"
+   },
+   {
+    "da": "en lommelygte",
+    "en": "a flashlight"
+   },
+   {
+    "da": "en baglygte",
+    "en": "a rear light"
+   }
+  ],
+  "sentence": {
+   "da": "Katten sidder under en **gadelygte** i mørket.",
+   "en": "The cat sits under a streetlight in the dark."
   }
  },
  "en gaffel": {
@@ -908,6 +2693,88 @@
    "en": "I eat the food with a fork."
   }
  },
+ "en gang": {
+  "explanation": "\"En gang\" means \"a hallway\" or \"a corridor\": Skoene står i gangen (The shoes are in the hallway). The same word also means \"a time\": to gange (twice).",
+  "forms": [
+   {
+    "da": "en gang",
+    "en": "a hallway"
+   },
+   {
+    "da": "gangen",
+    "en": "the hallway"
+   },
+   {
+    "da": "gange",
+    "en": "hallways"
+   },
+   {
+    "da": "gangene",
+    "en": "the hallways"
+   }
+  ],
+  "related": [
+   {
+    "da": "en entré",
+    "en": "an entrance hall"
+   },
+   {
+    "da": "en trappe",
+    "en": "a staircase"
+   },
+   {
+    "da": "en korridor",
+    "en": "a corridor"
+   },
+   {
+    "da": "en opgang",
+    "en": "a stairwell"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mange døre i den lange **gang**.",
+   "en": "There are many doors in the long hallway."
+  }
+ },
+ "en gang imellem": {
+  "explanation": "\"En gang imellem\" means \"once in a while\" and is used for things that happen now and then: Jeg ser en film en gang imellem (I watch a film once in a while). It sounds more rare than tit (often) and less rare than aldrig (never).",
+  "forms": [
+   {
+    "da": "Jeg ser dem en gang imellem.",
+    "en": "I see them once in a while."
+   },
+   {
+    "da": "en gang imellem om sommeren",
+    "en": "once in a while in the summer"
+   },
+   {
+    "da": "Vi spiser ude en gang imellem.",
+    "en": "We eat out once in a while."
+   }
+  ],
+  "related": [
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "af og til",
+    "en": "now and then"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   },
+   {
+    "da": "hele tiden",
+    "en": "all the time"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser pizza **en gang imellem**.",
+   "en": "I eat pizza once in a while."
+  }
+ },
  "en gang om ugen": {
   "explanation": "\"En gang om ugen\" means \"once a week\". Change the number to say how often: tre gange om ugen (three times a week). Change the last word to change the time: en gang om dagen (once a day).",
   "forms": [
@@ -941,6 +2808,486 @@
   "sentence": {
    "da": "Jeg træner **en gang om ugen**.",
    "en": "I work out once a week."
+  }
+ },
+ "en garage": {
+  "explanation": "\"En garage\" means \"a garage\", where you park a car: Bilen står i garagen (The car is in the garage).",
+  "forms": [
+   {
+    "da": "en garage",
+    "en": "a garage"
+   },
+   {
+    "da": "garagen",
+    "en": "the garage"
+   },
+   {
+    "da": "garager",
+    "en": "garages"
+   },
+   {
+    "da": "garagerne",
+    "en": "the garages"
+   }
+  ],
+  "related": [
+   {
+    "da": "en carport",
+    "en": "a carport"
+   },
+   {
+    "da": "et værksted",
+    "en": "a workshop"
+   },
+   {
+    "da": "en indkørsel",
+    "en": "a driveway"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en **garage** til bilen.",
+   "en": "We have a garage for the car."
+  }
+ },
+ "en garanti": {
+  "explanation": "\"En garanti\" means \"a warranty\", and also \"a guarantee\": Der er garanti på uret (The watch has a warranty). A promise works the same way: Jeg giver dig min garanti (I give you my guarantee).",
+  "forms": [
+   {
+    "da": "en garanti",
+    "en": "a warranty"
+   },
+   {
+    "da": "garantien",
+    "en": "the warranty"
+   },
+   {
+    "da": "garantier",
+    "en": "warranties"
+   },
+   {
+    "da": "garantierne",
+    "en": "the warranties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "en reklamation",
+    "en": "a complaint"
+   },
+   {
+    "da": "at reklamere",
+    "en": "to make a complaint"
+   },
+   {
+    "da": "en forsikring",
+    "en": "insurance"
+   }
+  ],
+  "sentence": {
+   "da": "Der er to års **garanti** på computeren.",
+   "en": "The computer has a two-year warranty."
+  }
+ },
+ "en gartner": {
+  "explanation": "\"En gartner\" means \"a gardener\", someone who works with plants and flowers as a job: En gartner passer parken (A gardener takes care of the park). The workplace is et gartneri (a plant nursery).",
+  "forms": [
+   {
+    "da": "en gartner",
+    "en": "a gardener"
+   },
+   {
+    "da": "gartneren",
+    "en": "the gardener"
+   },
+   {
+    "da": "gartnere",
+    "en": "gardeners"
+   },
+   {
+    "da": "gartnerne",
+    "en": "the gardeners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en blomsterhandler",
+    "en": "a florist"
+   },
+   {
+    "da": "en landmand",
+    "en": "a farmer"
+   },
+   {
+    "da": "en skovarbejder",
+    "en": "a forest worker"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **gartner** og passer planter i parken.",
+   "en": "My neighbor is a gardener and takes care of plants in the park."
+  }
+ },
+ "en gate": {
+  "explanation": "\"En gate\" means \"a gate\" at an airport, where you board your plane: Flyet går fra gate 12 (The plane leaves from gate 12). A garden gate is en låge (a gate).",
+  "forms": [
+   {
+    "da": "en gate",
+    "en": "a gate"
+   },
+   {
+    "da": "gaten",
+    "en": "the gate"
+   },
+   {
+    "da": "gates",
+    "en": "gates"
+   },
+   {
+    "da": "gaterne",
+    "en": "the gates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lufthavn",
+    "en": "an airport"
+   },
+   {
+    "da": "en afgang",
+    "en": "a departure"
+   },
+   {
+    "da": "et boardingkort",
+    "en": "a boarding pass"
+   }
+  ],
+  "sentence": {
+   "da": "Flyet til Rom går fra **gate** tolv.",
+   "en": "The plane to Rome leaves from gate twelve."
+  }
+ },
+ "en gaveindpakning": {
+  "explanation": "\"En gaveindpakning\" means \"a gift wrapping\", the paper and ribbon around a present, or the wrapping service in a shop: Kan jeg få den i gaveindpakning? (Can I get it gift wrapped?)",
+  "forms": [
+   {
+    "da": "en gaveindpakning",
+    "en": "a gift wrapping"
+   },
+   {
+    "da": "gaveindpakningen",
+    "en": "the gift wrapping"
+   },
+   {
+    "da": "gaveindpakninger",
+    "en": "gift wrappings"
+   },
+   {
+    "da": "gaveindpakningerne",
+    "en": "the gift wrappings"
+   }
+  ],
+  "related": [
+   {
+    "da": "gavepapir",
+    "en": "wrapping paper"
+   },
+   {
+    "da": "en sløjfe",
+    "en": "a bow"
+   },
+   {
+    "da": "at pakke ind",
+    "en": "to wrap"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken tilbyder gratis **gaveindpakning**.",
+   "en": "The shop offers free gift wrapping."
+  }
+ },
+ "en ged": {
+  "explanation": "\"En ged\" means \"a goat\", a farm animal with horns: Geden står på bjerget (The goat stands on the mountain). Goat cheese is called gedeost.",
+  "forms": [
+   {
+    "da": "en ged",
+    "en": "a goat"
+   },
+   {
+    "da": "geden",
+    "en": "the goat"
+   },
+   {
+    "da": "geder",
+    "en": "goats"
+   },
+   {
+    "da": "gederne",
+    "en": "the goats"
+   }
+  ],
+  "related": [
+   {
+    "da": "et får",
+    "en": "a sheep"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en gedebuk",
+    "en": "a billy goat"
+   },
+   {
+    "da": "et gedekid",
+    "en": "a baby goat"
+   }
+  ],
+  "sentence": {
+   "da": "Bonden har en **ged** og to køer.",
+   "en": "The farmer has a goat and two cows."
+  }
+ },
+ "en genbrugsbutik": {
+  "explanation": "\"En genbrugsbutik\" means \"a secondhand shop\", a store that sells used clothes and things: Jeg købte kjolen i en genbrugsbutik (I bought the dress in a secondhand shop).",
+  "forms": [
+   {
+    "da": "en genbrugsbutik",
+    "en": "a secondhand shop"
+   },
+   {
+    "da": "genbrugsbutikken",
+    "en": "the secondhand shop"
+   },
+   {
+    "da": "genbrugsbutikker",
+    "en": "secondhand shops"
+   },
+   {
+    "da": "genbrugsbutikkerne",
+    "en": "the secondhand shops"
+   }
+  ],
+  "related": [
+   {
+    "da": "et loppemarked",
+    "en": "a flea market"
+   },
+   {
+    "da": "brugt",
+    "en": "used"
+   },
+   {
+    "da": "en antikvitetsbutik",
+    "en": "an antique shop"
+   },
+   {
+    "da": "en genbrugsstation",
+    "en": "a recycling center"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fandt en pæn jakke i en **genbrugsbutik**.",
+   "en": "I found a nice jacket in a secondhand shop."
+  }
+ },
+ "en genbrugsstation": {
+  "explanation": "\"En genbrugsstation\" means \"a recycling center\", where you leave bigger things you no longer need, like old furniture or garden waste: Jeg kører møbler til genbrugsstationen (I am taking furniture to the recycling center).",
+  "forms": [
+   {
+    "da": "en genbrugsstation",
+    "en": "a recycling center"
+   },
+   {
+    "da": "genbrugsstationen",
+    "en": "the recycling center"
+   },
+   {
+    "da": "genbrugsstationer",
+    "en": "recycling centers"
+   },
+   {
+    "da": "genbrugsstationerne",
+    "en": "the recycling centers"
+   }
+  ],
+  "related": [
+   {
+    "da": "affald",
+    "en": "waste"
+   },
+   {
+    "da": "en skraldespand",
+    "en": "a trash can"
+   },
+   {
+    "da": "at sortere",
+    "en": "to sort"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kører gamle møbler hen til en **genbrugsstation**.",
+   "en": "We drive old furniture to a recycling center."
+  }
+ },
+ "en genre": {
+  "explanation": "\"En genre\" means \"a genre\", a type of music, film or book: Min yndlingsgenre er komedie (My favorite genre is comedy).",
+  "forms": [
+   {
+    "da": "en genre",
+    "en": "a genre"
+   },
+   {
+    "da": "genren",
+    "en": "the genre"
+   },
+   {
+    "da": "genrer",
+    "en": "genres"
+   },
+   {
+    "da": "genrerne",
+    "en": "the genres"
+   }
+  ],
+  "related": [
+   {
+    "da": "et drama",
+    "en": "a drama"
+   },
+   {
+    "da": "en stil",
+    "en": "a style"
+   },
+   {
+    "da": "en kategori",
+    "en": "a category"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilken **genre** kan du bedst lide?",
+   "en": "Which genre do you like best?"
+  }
+ },
+ "en genstand": {
+  "explanation": "\"En genstand\" means \"an object\", any single thing you can point to: en genstand på bordet (an object on the table). It sounds more formal than ting (thing).",
+  "forms": [
+   {
+    "da": "en genstand",
+    "en": "an object"
+   },
+   {
+    "da": "genstanden",
+    "en": "the object"
+   },
+   {
+    "da": "genstande",
+    "en": "objects"
+   },
+   {
+    "da": "genstandene",
+    "en": "the objects"
+   }
+  ],
+  "related": [
+   {
+    "da": "et objekt",
+    "en": "an object"
+   },
+   {
+    "da": "et emne",
+    "en": "a topic"
+   },
+   {
+    "da": "en sag",
+    "en": "a matter"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet fandt en mærkelig **genstand** i haven.",
+   "en": "The police found a strange object in the garden."
+  }
+ },
+ "en genvej": {
+  "explanation": "\"En genvej\" means \"a shortcut\", a quicker way: Jeg kender en genvej til stationen (I know a shortcut to the station). It is also used on computers: en tastaturgenvej (a keyboard shortcut).",
+  "forms": [
+   {
+    "da": "en genvej",
+    "en": "a shortcut"
+   },
+   {
+    "da": "genvejen",
+    "en": "the shortcut"
+   },
+   {
+    "da": "genveje",
+    "en": "shortcuts"
+   },
+   {
+    "da": "genvejene",
+    "en": "the shortcuts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omvej",
+    "en": "a detour"
+   },
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "en afstikker",
+    "en": "a side trip"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tog en **genvej** og kom hurtigt hjem.",
+   "en": "We took a shortcut and got home quickly."
+  }
+ },
+ "en gift": {
+  "explanation": "\"En gift\" means \"a poison\", something that can make you very sick: Det er en farlig gift (It is a dangerous poison). The same spelling also means \"married\": Han er gift (He is married).",
+  "forms": [
+   {
+    "da": "en gift",
+    "en": "a poison"
+   },
+   {
+    "da": "giften",
+    "en": "the poison"
+   },
+   {
+    "da": "gifte",
+    "en": "poisons"
+   },
+   {
+    "da": "giftene",
+    "en": "the poisons"
+   }
+  ],
+  "related": [
+   {
+    "da": "giftig",
+    "en": "poisonous"
+   },
+   {
+    "da": "en forgiftning",
+    "en": "poisoning"
+   },
+   {
+    "da": "en rottegift",
+    "en": "a rat poison"
+   }
+  ],
+  "sentence": {
+   "da": "Slangen har en stærk **gift**.",
+   "en": "The snake has a strong poison."
   }
  },
  "en giraf": {
@@ -980,6 +3327,338 @@
   "sentence": {
    "da": "En **giraf** har en meget lang hals.",
    "en": "A giraffe has a very long neck."
+  }
+ },
+ "en globus": {
+  "explanation": "\"En globus\" means \"a globe\", a round model of the Earth: Jeg finder Danmark på globussen (I find Denmark on the globe). A flat picture of the world is et kort (a map).",
+  "forms": [
+   {
+    "da": "en globus",
+    "en": "a globe"
+   },
+   {
+    "da": "globussen",
+    "en": "the globe"
+   },
+   {
+    "da": "globusser",
+    "en": "globes"
+   },
+   {
+    "da": "globusserne",
+    "en": "the globes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en klode",
+    "en": "a planet / globe"
+   },
+   {
+    "da": "et atlas",
+    "en": "an atlas"
+   },
+   {
+    "da": "et verdenskort",
+    "en": "a world map"
+   },
+   {
+    "da": "et kompas",
+    "en": "a compass"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet drejer en **globus** og finder Danmark.",
+   "en": "The child spins a globe and finds Denmark."
+  }
+ },
+ "en gorilla": {
+  "explanation": "\"En gorilla\" means \"a gorilla\", the biggest of the apes: Gorillaen bor i skoven i Afrika (The gorilla lives in the forest in Africa).",
+  "forms": [
+   {
+    "da": "en gorilla",
+    "en": "a gorilla"
+   },
+   {
+    "da": "gorillaen",
+    "en": "the gorilla"
+   },
+   {
+    "da": "gorillaer",
+    "en": "gorillas"
+   },
+   {
+    "da": "gorillaerne",
+    "en": "the gorillas"
+   }
+  ],
+  "related": [
+   {
+    "da": "en abe",
+    "en": "a monkey / ape"
+   },
+   {
+    "da": "en menneskeabe",
+    "en": "a great ape"
+   },
+   {
+    "da": "en orangutang",
+    "en": "an orangutan"
+   }
+  ],
+  "sentence": {
+   "da": "Den store **gorilla** spiser blade og frugt.",
+   "en": "The big gorilla eats leaves and fruit."
+  }
+ },
+ "en grad": {
+  "explanation": "\"En grad\" means \"a degree\", for temperature, angles and university studies: Det er ti grader ude (It is ten degrees outside). Hun har en grad fra universitetet (She has a degree from the university).",
+  "forms": [
+   {
+    "da": "en grad",
+    "en": "a degree"
+   },
+   {
+    "da": "graden",
+    "en": "the degree"
+   },
+   {
+    "da": "grader",
+    "en": "degrees"
+   },
+   {
+    "da": "graderne",
+    "en": "the degrees"
+   }
+  ],
+  "related": [
+   {
+    "da": "en temperatur",
+    "en": "a temperature"
+   },
+   {
+    "da": "en vinkel",
+    "en": "an angle"
+   },
+   {
+    "da": "en bachelor",
+    "en": "a bachelor's degree"
+   },
+   {
+    "da": "en uddannelse",
+    "en": "an education"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror har en **grad** i økonomi.",
+   "en": "My brother has a degree in economics."
+  }
+ },
+ "en grammatik": {
+  "explanation": "\"En grammatik\" means \"a grammar\", the rules for how words work together in a language: Dansk grammatik er ikke så svær (Danish grammar is not that hard).",
+  "forms": [
+   {
+    "da": "en grammatik",
+    "en": "a grammar"
+   },
+   {
+    "da": "grammatikken",
+    "en": "the grammar"
+   },
+   {
+    "da": "grammatikker",
+    "en": "grammars"
+   },
+   {
+    "da": "grammatikkerne",
+    "en": "the grammars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "en sætning",
+    "en": "a sentence"
+   },
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg øver reglerne i dansk **grammatik**.",
+   "en": "I practice the rules of Danish grammar."
+  }
+ },
+ "en gravko": {
+  "explanation": "\"En gravko\" means \"an excavator\", a machine that digs holes: Gravkoen graver et hul (The excavator digs a hole). The word is built from grave (dig) and ko (cow).",
+  "forms": [
+   {
+    "da": "en gravko",
+    "en": "an excavator"
+   },
+   {
+    "da": "gravkoen",
+    "en": "the excavator"
+   },
+   {
+    "da": "gravkoer",
+    "en": "excavators"
+   },
+   {
+    "da": "gravkoerne",
+    "en": "the excavators"
+   }
+  ],
+  "related": [
+   {
+    "da": "en traktor",
+    "en": "a tractor"
+   },
+   {
+    "da": "en skovl",
+    "en": "a shovel"
+   },
+   {
+    "da": "en kran",
+    "en": "a crane"
+   },
+   {
+    "da": "en gravemaskine",
+    "en": "an excavator (formal word)"
+   }
+  ],
+  "sentence": {
+   "da": "En **gravko** graver et stort hul.",
+   "en": "An excavator digs a big hole."
+  }
+ },
+ "en gren": {
+  "explanation": "\"En gren\" means \"a branch\", the part of a tree that grows out from the trunk: Der hænger æbler på hver gren (Apples hang on every branch). Han brækkede en gren (He broke a branch).",
+  "forms": [
+   {
+    "da": "en gren",
+    "en": "a branch"
+   },
+   {
+    "da": "grenen",
+    "en": "the branch"
+   },
+   {
+    "da": "grene",
+    "en": "branches"
+   },
+   {
+    "da": "grenene",
+    "en": "the branches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rod",
+    "en": "a root"
+   },
+   {
+    "da": "en stamme",
+    "en": "a trunk"
+   },
+   {
+    "da": "et blad",
+    "en": "a leaf"
+   },
+   {
+    "da": "en kvist",
+    "en": "a twig"
+   }
+  ],
+  "sentence": {
+   "da": "Vinden knækkede en stor **gren** af træet.",
+   "en": "The wind broke a big branch off the tree."
+  }
+ },
+ "en grill": {
+  "explanation": "\"En grill\" means \"a grill\" or \"a barbecue\", for cooking outside: Grillen er varm (The grill is hot). The matching verb is at grille (to grill): Vi griller pølser (We grill sausages).",
+  "forms": [
+   {
+    "da": "en grill",
+    "en": "a grill"
+   },
+   {
+    "da": "grillen",
+    "en": "the grill"
+   },
+   {
+    "da": "griller",
+    "en": "grills"
+   },
+   {
+    "da": "grillerne",
+    "en": "the grills"
+   }
+  ],
+  "related": [
+   {
+    "da": "grillmad",
+    "en": "grilled food"
+   },
+   {
+    "da": "grillkul",
+    "en": "charcoal"
+   },
+   {
+    "da": "en grillfest",
+    "en": "a barbecue party"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en **grill** i haven og griller pølser.",
+   "en": "We have a grill in the garden and grill sausages."
+  }
+ },
+ "en grillfest": {
+  "explanation": "\"En grillfest\" means \"a barbecue party\". It is built from en grill (a grill) and en fest (a party): Vi holder en grillfest i haven (We are having a barbecue party in the garden).",
+  "forms": [
+   {
+    "da": "en grillfest",
+    "en": "a barbecue party"
+   },
+   {
+    "da": "grillfesten",
+    "en": "the barbecue party"
+   },
+   {
+    "da": "grillfester",
+    "en": "barbecue parties"
+   },
+   {
+    "da": "grillfesterne",
+    "en": "the barbecue parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en picnic",
+    "en": "a picnic"
+   },
+   {
+    "da": "en havefest",
+    "en": "a garden party"
+   },
+   {
+    "da": "en sommerfest",
+    "en": "a summer party"
+   }
+  ],
+  "sentence": {
+   "da": "Vi holder en **grillfest** i haven på lørdag.",
+   "en": "We are having a barbecue party in the garden on Saturday."
   }
  },
  "en gris": {
@@ -1060,6 +3739,205 @@
    "en": "There is no reason to be afraid."
   }
  },
+ "en gruppe": {
+  "explanation": "\"En gruppe\" means \"a group\" of people or things: en gruppe børn (a group of children). In school you also work i grupper (in groups).",
+  "forms": [
+   {
+    "da": "en gruppe",
+    "en": "a group"
+   },
+   {
+    "da": "gruppen",
+    "en": "the group"
+   },
+   {
+    "da": "grupper",
+    "en": "groups"
+   },
+   {
+    "da": "grupperne",
+    "en": "the groups"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hold",
+    "en": "a team"
+   },
+   {
+    "da": "en klasse",
+    "en": "a class"
+   },
+   {
+    "da": "en flok",
+    "en": "a flock"
+   }
+  ],
+  "sentence": {
+   "da": "Vi arbejder i en **gruppe** på fire.",
+   "en": "We work in a group of four."
+  }
+ },
+ "en gryde": {
+  "explanation": "\"En gryde\" means \"a pot\", for cooking soup, pasta or rice on the stove: Suppen er i gryden (The soup is in the pot). For frying you use en pande (a pan) instead.",
+  "forms": [
+   {
+    "da": "en gryde",
+    "en": "a pot"
+   },
+   {
+    "da": "gryden",
+    "en": "the pot"
+   },
+   {
+    "da": "gryder",
+    "en": "pots"
+   },
+   {
+    "da": "gryderne",
+    "en": "the pots"
+   }
+  ],
+  "related": [
+   {
+    "da": "et låg",
+    "en": "a lid"
+   },
+   {
+    "da": "en gryderet",
+    "en": "a stew / casserole"
+   },
+   {
+    "da": "en kasserolle",
+    "en": "a saucepan"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg koger kartofler i en stor **gryde**.",
+   "en": "I boil potatoes in a big pot."
+  }
+ },
+ "en grydelap": {
+  "explanation": "\"En grydelap\" means \"a pot holder\", a thick cloth for holding hot things: Pas på, den er varm! Tag en grydelap (Careful, it is hot! Get a pot holder).",
+  "forms": [
+   {
+    "da": "en grydelap",
+    "en": "a pot holder"
+   },
+   {
+    "da": "grydelappen",
+    "en": "the pot holder"
+   },
+   {
+    "da": "grydelapper",
+    "en": "pot holders"
+   },
+   {
+    "da": "grydelapperne",
+    "en": "the pot holders"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ovnhandske",
+    "en": "an oven mitt"
+   },
+   {
+    "da": "en bordskåner",
+    "en": "a trivet"
+   },
+   {
+    "da": "et viskestykke",
+    "en": "a dish towel"
+   },
+   {
+    "da": "en grillhandske",
+    "en": "a grill mitt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager brødet ud af ovnen med en **grydelap**.",
+   "en": "I take the bread out of the oven with a pot holder."
+  }
+ },
+ "en grænse": {
+  "explanation": "\"En grænse\" means \"a border\", for example between two countries: grænsen mellem Danmark og Tyskland (the border between Denmark and Germany). It also means a limit: Alt har en grænse (Everything has a limit).",
+  "forms": [
+   {
+    "da": "en grænse",
+    "en": "a border"
+   },
+   {
+    "da": "grænsen",
+    "en": "the border"
+   },
+   {
+    "da": "grænser",
+    "en": "borders"
+   },
+   {
+    "da": "grænserne",
+    "en": "the borders"
+   }
+  ],
+  "related": [
+   {
+    "da": "told",
+    "en": "customs"
+   },
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "en begrænsning",
+    "en": "a restriction"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **grænse** mellem Danmark og Tyskland.",
+   "en": "There is a border between Denmark and Germany."
+  }
+ },
+ "en græsslåmaskine": {
+  "explanation": "\"En græsslåmaskine\" means \"a lawnmower\". It is built from græs (grass), at slå (to mow) and en maskine (a machine): Naboen bruger sin græsslåmaskine i weekenden (The neighbor uses his lawnmower on the weekend).",
+  "forms": [
+   {
+    "da": "en græsslåmaskine",
+    "en": "a lawnmower"
+   },
+   {
+    "da": "græsslåmaskinen",
+    "en": "the lawnmower"
+   },
+   {
+    "da": "græsslåmaskiner",
+    "en": "lawnmowers"
+   },
+   {
+    "da": "græsslåmaskinerne",
+    "en": "the lawnmowers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en plæneklipper",
+    "en": "a lawnmower (another word)"
+   },
+   {
+    "da": "en plæne",
+    "en": "a lawn"
+   },
+   {
+    "da": "en hækklipper",
+    "en": "a hedge trimmer"
+   }
+  ],
+  "sentence": {
+   "da": "Græsset er højt, og jeg henter min **græsslåmaskine**.",
+   "en": "The grass is tall, and I am getting my lawnmower."
+  }
+ },
  "en grøntsag": {
   "explanation": "\"En grøntsag\" means \"a vegetable\". It is built from grøn (green) and sag (thing), so it is literally a green thing. Spiser du grøntsager? means \"Do you eat vegetables?\".",
   "forms": [
@@ -1099,6 +3977,205 @@
    "en": "A carrot is a vegetable."
   }
  },
+ "en gud": {
+  "explanation": "\"En gud\" means \"a god\": De gamle nordboer troede på mange guder (The old Norse people believed in many gods). For the one God, say Gud without en: Tror du på Gud? (Do you believe in God?).",
+  "forms": [
+   {
+    "da": "en gud",
+    "en": "a god"
+   },
+   {
+    "da": "guden",
+    "en": "the god"
+   },
+   {
+    "da": "guder",
+    "en": "gods"
+   },
+   {
+    "da": "guderne",
+    "en": "the gods"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gudinde",
+    "en": "a goddess"
+   },
+   {
+    "da": "en afgud",
+    "en": "an idol"
+   },
+   {
+    "da": "guddommelig",
+    "en": "divine"
+   },
+   {
+    "da": "en religion",
+    "en": "a religion"
+   }
+  ],
+  "sentence": {
+   "da": "Thor var en **gud** i gamle dage.",
+   "en": "Thor was a god in the old days."
+  }
+ },
+ "en gudfar": {
+  "explanation": "\"En gudfar\" means \"a godfather\", a man chosen as a special adult in a child's life: Min gudfar ringer til mig på min fødselsdag (My godfather calls me on my birthday).",
+  "forms": [
+   {
+    "da": "en gudfar",
+    "en": "a godfather"
+   },
+   {
+    "da": "gudfaren",
+    "en": "the godfather"
+   },
+   {
+    "da": "gudfædre",
+    "en": "godfathers"
+   },
+   {
+    "da": "gudfædrene",
+    "en": "the godfathers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gudmor",
+    "en": "a godmother"
+   },
+   {
+    "da": "et gudbarn",
+    "en": "a godchild"
+   },
+   {
+    "da": "en dåb",
+    "en": "a christening"
+   }
+  ],
+  "sentence": {
+   "da": "Min **gudfar** er min fars bedste ven.",
+   "en": "My godfather is my dad's best friend."
+  }
+ },
+ "en gudmor": {
+  "explanation": "\"En gudmor\" means \"a godmother\", a woman chosen as a special adult in a child's life: Min gudmor giver mig en gave hver jul (My godmother gives me a gift every Christmas).",
+  "forms": [
+   {
+    "da": "en gudmor",
+    "en": "a godmother"
+   },
+   {
+    "da": "gudmoren",
+    "en": "the godmother"
+   },
+   {
+    "da": "gudmødre",
+    "en": "godmothers"
+   },
+   {
+    "da": "gudmødrene",
+    "en": "the godmothers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gudfar",
+    "en": "a godfather"
+   },
+   {
+    "da": "et gudbarn",
+    "en": "a godchild"
+   },
+   {
+    "da": "en dåb",
+    "en": "a christening"
+   }
+  ],
+  "sentence": {
+   "da": "Min **gudmor** er min mors bedste veninde.",
+   "en": "My godmother is my mom's best friend."
+  }
+ },
+ "en guide": {
+  "explanation": "\"En guide\" means \"a guide\", a person who shows visitors around a place: Guiden fortæller om slottet (The guide tells about the castle). Han arbejder som guide på et museum (He works as a guide at a museum).",
+  "forms": [
+   {
+    "da": "en guide",
+    "en": "a guide"
+   },
+   {
+    "da": "guiden",
+    "en": "the guide"
+   },
+   {
+    "da": "guider",
+    "en": "guides"
+   },
+   {
+    "da": "guiderne",
+    "en": "the guides"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rundvisning",
+    "en": "a guided tour"
+   },
+   {
+    "da": "en turist",
+    "en": "a tourist"
+   },
+   {
+    "da": "en rejseleder",
+    "en": "a tour leader"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **guide** viser os den gamle by.",
+   "en": "Our guide shows us the old town."
+  }
+ },
+ "en guidebog": {
+  "explanation": "\"En guidebog\" means \"a guidebook\", a book with sights and tips for a trip: Vi køber en guidebog til Rom (We are buying a guidebook for Rome). It is built from guide (guide) and bog (book).",
+  "forms": [
+   {
+    "da": "en guidebog",
+    "en": "a guidebook"
+   },
+   {
+    "da": "guidebogen",
+    "en": "the guidebook"
+   },
+   {
+    "da": "guidebøger",
+    "en": "guidebooks"
+   },
+   {
+    "da": "guidebøgerne",
+    "en": "the guidebooks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rejseguide",
+    "en": "a travel guide"
+   },
+   {
+    "da": "en rejsebog",
+    "en": "a travel book"
+   },
+   {
+    "da": "en håndbog",
+    "en": "a handbook"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læser en **guidebog** før turen.",
+   "en": "I read a guidebook before the trip."
+  }
+ },
  "en guitar": {
   "explanation": "\"En guitar\" means \"a guitar\". When you play it, Danish leaves out the: Jeg spiller guitar means \"I play the guitar\", using at spille (to play).",
   "forms": [
@@ -1136,6 +4213,49 @@
   "sentence": {
    "da": "Min bror spiller **guitar** i et band.",
    "en": "My brother plays guitar in a band."
+  }
+ },
+ "en guldfisk": {
+  "explanation": "\"En guldfisk\" means \"a goldfish\", an orange pet fish that lives in a bowl: Jeg fodrer min guldfisk hver dag (I feed my goldfish every day).",
+  "forms": [
+   {
+    "da": "en guldfisk",
+    "en": "a goldfish"
+   },
+   {
+    "da": "guldfisken",
+    "en": "the goldfish"
+   },
+   {
+    "da": "guldfisk",
+    "en": "goldfish"
+   },
+   {
+    "da": "guldfiskene",
+    "en": "the goldfish"
+   }
+  ],
+  "related": [
+   {
+    "da": "et akvarium",
+    "en": "an aquarium"
+   },
+   {
+    "da": "en karpe",
+    "en": "a carp"
+   },
+   {
+    "da": "et fiskeglas",
+    "en": "a fishbowl"
+   },
+   {
+    "da": "en kampfisk",
+    "en": "a fighting fish"
+   }
+  ],
+  "sentence": {
+   "da": "Der svømmer en **guldfisk** rundt i en skål.",
+   "en": "A goldfish is swimming around in a bowl."
   }
  },
  "en gulerod": {
@@ -1179,6 +4299,260 @@
   "sentence": {
    "da": "Kaninen spiser en orange **gulerod**.",
    "en": "The rabbit eats an orange carrot."
+  }
+ },
+ "en gummistøvle": {
+  "explanation": "\"En gummistøvle\" means \"a rubber boot\", the waterproof boot for rain and mud. Most often you say it in pairs: et par gummistøvler (a pair of rubber boots).",
+  "forms": [
+   {
+    "da": "en gummistøvle",
+    "en": "a rubber boot"
+   },
+   {
+    "da": "gummistøvlen",
+    "en": "the rubber boot"
+   },
+   {
+    "da": "gummistøvler",
+    "en": "rubber boots"
+   },
+   {
+    "da": "gummistøvlerne",
+    "en": "the rubber boots"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sko",
+    "en": "a shoe"
+   },
+   {
+    "da": "en sandal",
+    "en": "a sandal"
+   },
+   {
+    "da": "en sok",
+    "en": "a sock"
+   },
+   {
+    "da": "en træsko",
+    "en": "a clog"
+   }
+  ],
+  "sentence": {
+   "da": "Han mistede en **gummistøvle** i mudderet.",
+   "en": "He lost a rubber boot in the mud."
+  }
+ },
+ "en gynge": {
+  "explanation": "\"En gynge\" means \"a swing\", the kind at a playground: Børnene sidder på gyngen (The children sit on the swing). The action is at gynge (to swing, to rock).",
+  "forms": [
+   {
+    "da": "en gynge",
+    "en": "a swing"
+   },
+   {
+    "da": "gyngen",
+    "en": "the swing"
+   },
+   {
+    "da": "gynger",
+    "en": "swings"
+   },
+   {
+    "da": "gyngerne",
+    "en": "the swings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gyngestol",
+    "en": "a rocking chair"
+   },
+   {
+    "da": "en rutsjebane",
+    "en": "a slide"
+   },
+   {
+    "da": "en sandkasse",
+    "en": "a sandbox"
+   },
+   {
+    "da": "en vippe",
+    "en": "a seesaw"
+   }
+  ],
+  "sentence": {
+   "da": "Far skubber mig på en **gynge**.",
+   "en": "Dad pushes me on a swing."
+  }
+ },
+ "en gågade": {
+  "explanation": "\"En gågade\" means \"a pedestrian street\", a street with no cars: Vi shopper på gågaden (We shop on the pedestrian street). It is built from gå (walk) and gade (street).",
+  "forms": [
+   {
+    "da": "en gågade",
+    "en": "a pedestrian street"
+   },
+   {
+    "da": "gågaden",
+    "en": "the pedestrian street"
+   },
+   {
+    "da": "gågader",
+    "en": "pedestrian streets"
+   },
+   {
+    "da": "gågaderne",
+    "en": "the pedestrian streets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "en plads",
+    "en": "a square"
+   },
+   {
+    "da": "et torv",
+    "en": "a market square"
+   },
+   {
+    "da": "en fodgænger",
+    "en": "a pedestrian"
+   }
+  ],
+  "sentence": {
+   "da": "Ingen biler må køre i en **gågade**.",
+   "en": "Cars may not drive in a pedestrian street."
+  }
+ },
+ "en gård": {
+  "explanation": "\"En gård\" means \"a farm\" and also \"a courtyard\": Han bor på en gård på landet (He lives on a farm in the country). In a city, gården is the shared yard behind an apartment building.",
+  "forms": [
+   {
+    "da": "en gård",
+    "en": "a farm, a courtyard"
+   },
+   {
+    "da": "gården",
+    "en": "the farm"
+   },
+   {
+    "da": "gårde",
+    "en": "farms"
+   },
+   {
+    "da": "gårdene",
+    "en": "the farms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bonde",
+    "en": "a farmer"
+   },
+   {
+    "da": "en baggård",
+    "en": "a backyard"
+   },
+   {
+    "da": "et landbrug",
+    "en": "a farm, agriculture"
+   }
+  ],
+  "sentence": {
+   "da": "Vi besøger en **gård** og ser køer og grise.",
+   "en": "We visit a farm and see cows and pigs."
+  }
+ },
+ "en gårdhave": {
+  "explanation": "\"En gårdhave\" means \"a courtyard garden\", a small garden inside a block of buildings. It is built from gård (courtyard) and have (garden): Børnene leger i gårdhaven (The children play in the courtyard garden).",
+  "forms": [
+   {
+    "da": "en gårdhave",
+    "en": "a courtyard garden"
+   },
+   {
+    "da": "gårdhaven",
+    "en": "the courtyard garden"
+   },
+   {
+    "da": "gårdhaver",
+    "en": "courtyard gardens"
+   },
+   {
+    "da": "gårdhaverne",
+    "en": "the courtyard gardens"
+   }
+  ],
+  "related": [
+   {
+    "da": "en baggård",
+    "en": "a back courtyard"
+   },
+   {
+    "da": "en terrasse",
+    "en": "a patio"
+   },
+   {
+    "da": "en altan",
+    "en": "a balcony"
+   },
+   {
+    "da": "et fællesareal",
+    "en": "a shared area"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en lille **gårdhave** med blomster bag huset.",
+   "en": "There is a small courtyard garden with flowers behind the house."
+  }
+ },
+ "en gås": {
+  "explanation": "\"En gås\" means \"a goose\", a big bird that lives near water: Gæssene flyver sydpå om efteråret (The geese fly south in the fall). The meat is also eaten: gåsesteg (roast goose).",
+  "forms": [
+   {
+    "da": "en gås",
+    "en": "a goose"
+   },
+   {
+    "da": "gåsen",
+    "en": "the goose"
+   },
+   {
+    "da": "gæs",
+    "en": "geese"
+   },
+   {
+    "da": "gæssene",
+    "en": "the geese"
+   }
+  ],
+  "related": [
+   {
+    "da": "en and",
+    "en": "a duck"
+   },
+   {
+    "da": "en vildgås",
+    "en": "a wild goose"
+   },
+   {
+    "da": "en gase",
+    "en": "a gander"
+   },
+   {
+    "da": "en svane",
+    "en": "a swan"
+   }
+  ],
+  "sentence": {
+   "da": "Der går en **gås** hen over marken.",
+   "en": "A goose walks across the field."
   }
  },
  "en gåtur": {
@@ -1259,6 +4633,170 @@
    "en": "We have a guest tonight."
   }
  },
+ "en gætteleg": {
+  "explanation": "\"En gætteleg\" means \"a guessing game\", where you guess an answer: Børnene leger en gætteleg i bilen (The children play a guessing game in the car). It is built from at gætte (to guess) and leg (game).",
+  "forms": [
+   {
+    "da": "en gætteleg",
+    "en": "a guessing game"
+   },
+   {
+    "da": "gættelegen",
+    "en": "the guessing game"
+   },
+   {
+    "da": "gættelege",
+    "en": "guessing games"
+   },
+   {
+    "da": "gættelegene",
+    "en": "the guessing games"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gåde",
+    "en": "a riddle"
+   },
+   {
+    "da": "en quiz",
+    "en": "a quiz"
+   },
+   {
+    "da": "et brætspil",
+    "en": "a board game"
+   },
+   {
+    "da": "et ordspil",
+    "en": "a word game"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene leger en **gætteleg** i bilen.",
+   "en": "The children play a guessing game in the car."
+  }
+ },
+ "et gadekryds": {
+  "explanation": "\"Et gadekryds\" means \"an intersection\", where two streets cross: Vi mødes i gadekrydset (We meet at the intersection).",
+  "forms": [
+   {
+    "da": "et gadekryds",
+    "en": "an intersection"
+   },
+   {
+    "da": "gadekrydset",
+    "en": "the intersection"
+   },
+   {
+    "da": "gadekryds",
+    "en": "intersections"
+   },
+   {
+    "da": "gadekrydsene",
+    "en": "the intersections"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vejkryds",
+    "en": "a road intersection"
+   },
+   {
+    "da": "et hjørne",
+    "en": "a corner"
+   },
+   {
+    "da": "et lyskryds",
+    "en": "an intersection with traffic lights"
+   },
+   {
+    "da": "en rundkørsel",
+    "en": "a roundabout"
+   }
+  ],
+  "sentence": {
+   "da": "Drej til højre ved næste **gadekryds**.",
+   "en": "Turn right at the next intersection."
+  }
+ },
+ "et galleri": {
+  "explanation": "\"Et galleri\" means \"a gallery\", a place that shows art, often for sale: Der hænger mange malerier i galleriet (Many paintings hang in the gallery).",
+  "forms": [
+   {
+    "da": "et galleri",
+    "en": "a gallery"
+   },
+   {
+    "da": "galleriet",
+    "en": "the gallery"
+   },
+   {
+    "da": "gallerier",
+    "en": "galleries"
+   },
+   {
+    "da": "gallerierne",
+    "en": "the galleries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et museum",
+    "en": "a museum"
+   },
+   {
+    "da": "en udstilling",
+    "en": "an exhibition"
+   },
+   {
+    "da": "en kunstner",
+    "en": "an artist"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ser på kunst i et lille **galleri**.",
+   "en": "We look at art in a small gallery."
+  }
+ },
+ "et gardin": {
+  "explanation": "\"Et gardin\" means \"a curtain\", hung at a window. To close it, say trække for (draw): Hun trækker gardinerne for (She draws the curtains).",
+  "forms": [
+   {
+    "da": "et gardin",
+    "en": "a curtain"
+   },
+   {
+    "da": "gardinet",
+    "en": "the curtain"
+   },
+   {
+    "da": "gardiner",
+    "en": "curtains"
+   },
+   {
+    "da": "gardinerne",
+    "en": "the curtains"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rullegardin",
+    "en": "a roller blind"
+   },
+   {
+    "da": "en persienne",
+    "en": "a blind"
+   },
+   {
+    "da": "et forhæng",
+    "en": "a drape"
+   }
+  ],
+  "sentence": {
+   "da": "Hun hænger et nyt **gardin** op foran vinduet.",
+   "en": "She hangs a new curtain in front of the window."
+  }
+ },
  "et gavekort": {
   "explanation": "\"Et gavekort\" means \"a gift card\", a card with money on it that you give as a present. It is made of en gave (a gift) and et kort (a card).",
   "forms": [
@@ -1296,6 +4834,131 @@
   "sentence": {
    "da": "Jeg giver min mor et **gavekort**.",
    "en": "I give my mother a gift card."
+  }
+ },
+ "et gear": {
+  "explanation": "\"Et gear\" means \"a gear\", on a car or a bike: Jeg kører i andet gear (I am driving in second gear). Bikes often have many: en cykel med 21 gear (a bike with 21 gears).",
+  "forms": [
+   {
+    "da": "et gear",
+    "en": "a gear"
+   },
+   {
+    "da": "gearet",
+    "en": "the gear"
+   },
+   {
+    "da": "gear",
+    "en": "gears"
+   },
+   {
+    "da": "gearene",
+    "en": "the gears"
+   }
+  ],
+  "related": [
+   {
+    "da": "en speeder",
+    "en": "an accelerator"
+   },
+   {
+    "da": "en bremse",
+    "en": "a brake"
+   },
+   {
+    "da": "en kobling",
+    "en": "a clutch"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skifter **gear**, når vejen går opad.",
+   "en": "I shift gears when the road goes uphill."
+  }
+ },
+ "et geni": {
+  "explanation": "\"Et geni\" means \"a genius\", a person with a brilliant mind: Han er et geni (He is a genius). To say what someone is brilliant at, use i or til: Hun er et geni i matematik (She is a genius at math).",
+  "forms": [
+   {
+    "da": "et geni",
+    "en": "a genius"
+   },
+   {
+    "da": "geniet",
+    "en": "the genius"
+   },
+   {
+    "da": "genier",
+    "en": "geniuses"
+   },
+   {
+    "da": "genierne",
+    "en": "the geniuses"
+   }
+  ],
+  "related": [
+   {
+    "da": "klog",
+    "en": "smart"
+   },
+   {
+    "da": "begavet",
+    "en": "gifted"
+   },
+   {
+    "da": "dum",
+    "en": "stupid"
+   },
+   {
+    "da": "en ekspert",
+    "en": "an expert"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror er et **geni** til matematik.",
+   "en": "My brother is a genius at math."
+  }
+ },
+ "et gennemsnit": {
+  "explanation": "\"Et gennemsnit\" means \"an average\", the middle value of a group of numbers: Gennemsnittet er otte (The average is eight). With i, it means \"on average\": i gennemsnit.",
+  "forms": [
+   {
+    "da": "et gennemsnit",
+    "en": "an average"
+   },
+   {
+    "da": "gennemsnittet",
+    "en": "the average"
+   },
+   {
+    "da": "gennemsnit",
+    "en": "averages"
+   },
+   {
+    "da": "gennemsnittene",
+    "en": "the averages"
+   }
+  ],
+  "related": [
+   {
+    "da": "gennemsnitlig",
+    "en": "average"
+   },
+   {
+    "da": "et middeltal",
+    "en": "a mean"
+   },
+   {
+    "da": "almindelig",
+    "en": "ordinary"
+   },
+   {
+    "da": "et tal",
+    "en": "a number"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sover syv timer i **gennemsnit**.",
+   "en": "I sleep seven hours on average."
   }
  },
  "et glas": {
@@ -1380,6 +5043,88 @@
    "en": "I need two hundred grams of flour."
   }
  },
+ "et grin": {
+  "explanation": "\"Et grin\" means \"a laugh\": Vi fik et godt grin (We had a good laugh). A smile is et smil (a smile).",
+  "forms": [
+   {
+    "da": "et grin",
+    "en": "a laugh"
+   },
+   {
+    "da": "grinet",
+    "en": "the laugh"
+   },
+   {
+    "da": "grin",
+    "en": "laughs"
+   },
+   {
+    "da": "grinene",
+    "en": "the laughs"
+   }
+  ],
+  "related": [
+   {
+    "da": "at grine",
+    "en": "to laugh"
+   },
+   {
+    "da": "at le",
+    "en": "to laugh"
+   },
+   {
+    "da": "en latter",
+    "en": "laughter"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fik et godt **grin** sammen i går.",
+   "en": "We had a good laugh together yesterday."
+  }
+ },
+ "et gudbarn": {
+  "explanation": "\"Et gudbarn\" means \"a godchild\", a child you are a godparent to: Jeg har et gudbarn, som hedder Emil (I have a godchild named Emil).",
+  "forms": [
+   {
+    "da": "et gudbarn",
+    "en": "a godchild"
+   },
+   {
+    "da": "gudbarnet",
+    "en": "the godchild"
+   },
+   {
+    "da": "gudbørn",
+    "en": "godchildren"
+   },
+   {
+    "da": "gudbørnene",
+    "en": "the godchildren"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gudmor",
+    "en": "a godmother"
+   },
+   {
+    "da": "en gudfar",
+    "en": "a godfather"
+   },
+   {
+    "da": "en dåb",
+    "en": "a christening"
+   },
+   {
+    "da": "et barnebarn",
+    "en": "a grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **gudbarn** fylder fem år i dag.",
+   "en": "My godchild turns five today."
+  }
+ },
  "et gulv": {
   "explanation": "\"Et gulv\" means \"a floor\", the surface you walk on in a room. For a level of a building, such as the second floor, Danes say en etage.",
   "forms": [
@@ -1417,6 +5162,209 @@
   "sentence": {
    "da": "Vi har et nyt **gulv** i stuen.",
    "en": "We have a new floor in the living room."
+  }
+ },
+ "et gulvtæppe": {
+  "explanation": "\"Et gulvtæppe\" means \"a carpet\" or \"a rug\". It is built from et gulv (a floor) and et tæppe (a rug or blanket): Katten sover på gulvtæppet (The cat sleeps on the carpet).",
+  "forms": [
+   {
+    "da": "et gulvtæppe",
+    "en": "a carpet"
+   },
+   {
+    "da": "gulvtæppet",
+    "en": "the carpet"
+   },
+   {
+    "da": "gulvtæpper",
+    "en": "carpets"
+   },
+   {
+    "da": "gulvtæpperne",
+    "en": "the carpets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en måtte",
+    "en": "a mat"
+   },
+   {
+    "da": "en løber",
+    "en": "a runner rug"
+   },
+   {
+    "da": "en dørmåtte",
+    "en": "a doormat"
+   },
+   {
+    "da": "en flise",
+    "en": "a tile"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har et blødt **gulvtæppe** i stuen.",
+   "en": "We have a soft carpet in the living room."
+  }
+ },
+ "et gymnasium": {
+  "explanation": "\"Et gymnasium\" means \"a high school\", the three years at about age 16 to 19 that lead to university: Min datter går på gymnasiet (My daughter goes to high school). For a sports hall, say en idrætshal (a sports hall).",
+  "forms": [
+   {
+    "da": "et gymnasium",
+    "en": "a high school"
+   },
+   {
+    "da": "gymnasiet",
+    "en": "the high school"
+   },
+   {
+    "da": "gymnasier",
+    "en": "high schools"
+   },
+   {
+    "da": "gymnasierne",
+    "en": "the high schools"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "en folkeskole",
+    "en": "a primary school"
+   },
+   {
+    "da": "et universitet",
+    "en": "a university"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil læse på et **gymnasium** i Aarhus.",
+   "en": "She wants to study at a high school in Aarhus."
+  }
+ },
+ "et gæsteværelse": {
+  "explanation": "\"Et gæsteværelse\" means \"a guest room\", the room in your home for people who stay the night. It is built from gæst (guest) and værelse (room): Gæsteværelset er klar (The guest room is ready).",
+  "forms": [
+   {
+    "da": "et gæsteværelse",
+    "en": "a guest room"
+   },
+   {
+    "da": "gæsteværelset",
+    "en": "the guest room"
+   },
+   {
+    "da": "gæsteværelser",
+    "en": "guest rooms"
+   },
+   {
+    "da": "gæsteværelserne",
+    "en": "the guest rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
+   },
+   {
+    "da": "et børneværelse",
+    "en": "a children's room"
+   },
+   {
+    "da": "at overnatte",
+    "en": "to stay the night"
+   },
+   {
+    "da": "en overnatning",
+    "en": "an overnight stay"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan sove i vores **gæsteværelse**.",
+   "en": "You can sleep in our guest room."
+  }
+ },
+ "gal": {
+  "explanation": "\"Gal\" means \"crazy\": Er du gal? (Are you crazy?). It also means \"wrong\": Det er galt (That is wrong), Noget gik galt (Something went wrong).",
+  "forms": [
+   {
+    "da": "en gal mand",
+    "en": "a crazy man"
+   },
+   {
+    "da": "et galt svar",
+    "en": "a wrong answer"
+   },
+   {
+    "da": "gale ideer",
+    "en": "crazy ideas"
+   }
+  ],
+  "related": [
+   {
+    "da": "skør",
+    "en": "crazy"
+   },
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "rigtig",
+    "en": "right"
+   },
+   {
+    "da": "tosset",
+    "en": "silly, crazy"
+   }
+  ],
+  "sentence": {
+   "da": "Er du helt **gal**? Det er alt for farligt!",
+   "en": "Are you completely crazy? That is far too dangerous!"
+  }
+ },
+ "galt": {
+  "explanation": "\"Galt\" means \"wrong\" and \"bad\": Jeg gjorde noget galt (I did something wrong). Before an en-word you use gal, which also means \"crazy\": en gal idé (a crazy idea).",
+  "forms": [
+   {
+    "da": "Hvad er der galt?",
+    "en": "What is wrong?"
+   },
+   {
+    "da": "Det gik galt",
+    "en": "It went wrong"
+   },
+   {
+    "da": "Det er ikke galt",
+    "en": "It is not bad"
+   }
+  ],
+  "related": [
+   {
+    "da": "forkert",
+    "en": "incorrect"
+   },
+   {
+    "da": "rigtig",
+    "en": "right"
+   },
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   },
+   {
+    "da": "at tage fejl",
+    "en": "to be mistaken"
+   }
+  ],
+  "sentence": {
+   "da": "Noget er **galt** med min computer.",
+   "en": "Something is wrong with my computer."
   }
  },
  "gammel": {
@@ -1458,6 +5406,45 @@
    "en": "My grandfather is 90 and very old."
   }
  },
+ "gammeldags": {
+  "explanation": "\"Gammeldags\" means \"old-fashioned\": Hans tøj er gammeldags (His clothes are old-fashioned). Danish uses this one form with en-words, et-words and plurals. The opposite is moderne (modern).",
+  "forms": [
+   {
+    "da": "en gammeldags bil",
+    "en": "an old-fashioned car"
+   },
+   {
+    "da": "et gammeldags hus",
+    "en": "an old-fashioned house"
+   },
+   {
+    "da": "gammeldags ideer",
+    "en": "old-fashioned ideas"
+   }
+  ],
+  "related": [
+   {
+    "da": "forældet",
+    "en": "outdated"
+   },
+   {
+    "da": "traditionel",
+    "en": "traditional"
+   },
+   {
+    "da": "en tradition",
+    "en": "a tradition"
+   },
+   {
+    "da": "klassisk",
+    "en": "classic"
+   }
+  ],
+  "sentence": {
+   "da": "Min mormor har et **gammeldags** køkken.",
+   "en": "My grandmother has an old-fashioned kitchen."
+  }
+ },
  "gang": {
   "explanation": "\"Gang\" means \"a time\" in the sense of an occasion: en gang means \"once\" and \"to gange\" means \"twice\". It can also mean a hallway in a house. Do not mix it up with tid (time in general). Hvor mange gange? means \"How many times?\".",
   "forms": [
@@ -1495,6 +5482,318 @@
   "sentence": {
    "da": "Jeg har været i Paris en **gang**.",
    "en": "I have been to Paris once."
+  }
+ },
+ "ganske": {
+  "explanation": "\"Ganske\" means \"quite\" or \"fairly\": Filmen var ganske god (The movie was quite good). It is weaker than meget (very), so ganske kold (quite cold) is less cold than meget kold (very cold).",
+  "forms": [
+   {
+    "da": "Maden var ganske god",
+    "en": "The food was quite good"
+   },
+   {
+    "da": "Det er ganske nemt",
+    "en": "It is fairly easy"
+   },
+   {
+    "da": "ganske tæt på",
+    "en": "quite close"
+   }
+  ],
+  "related": [
+   {
+    "da": "temmelig",
+    "en": "rather"
+   },
+   {
+    "da": "ret",
+    "en": "pretty / fairly"
+   },
+   {
+    "da": "nogenlunde",
+    "en": "fairly well"
+   },
+   {
+    "da": "helt",
+    "en": "completely"
+   }
+  ],
+  "sentence": {
+   "da": "Maden var **ganske** god, men lidt dyr.",
+   "en": "The food was quite good, but a little expensive."
+  }
+ },
+ "gavepapir": {
+  "explanation": "\"Gavepapir\" means \"wrapping paper\", the paper you wrap presents in. It has no plural, so you count it in rolls: Vi køber gavepapir før jul (We buy wrapping paper before Christmas).",
+  "forms": [
+   {
+    "da": "noget gavepapir",
+    "en": "some wrapping paper"
+   },
+   {
+    "da": "gavepapiret",
+    "en": "the wrapping paper"
+   },
+   {
+    "da": "en rulle gavepapir",
+    "en": "a roll of wrapping paper"
+   },
+   {
+    "da": "to ruller gavepapir",
+    "en": "two rolls of wrapping paper"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gaveindpakning",
+    "en": "a gift wrapping"
+   },
+   {
+    "da": "en sløjfe",
+    "en": "a bow"
+   },
+   {
+    "da": "et gavebånd",
+    "en": "a gift ribbon"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg pakker gaven ind i rødt **gavepapir**.",
+   "en": "I wrap the gift in red wrapping paper."
+  }
+ },
+ "generelt": {
+  "explanation": "\"Generelt\" means \"generally\" and talks about the big picture, not every case: Generelt er bussen til tiden (Generally, the bus is on time). One specific day can be different: I dag var den sen (Today it was late).",
+  "forms": [
+   {
+    "da": "Det gælder generelt",
+    "en": "That applies in general"
+   },
+   {
+    "da": "Hun er generelt glad",
+    "en": "She is generally happy"
+   },
+   {
+    "da": "Generelt er det billigt",
+    "en": "Generally, it is cheap"
+   }
+  ],
+  "related": [
+   {
+    "da": "almindeligvis",
+    "en": "usually"
+   },
+   {
+    "da": "normalt",
+    "en": "normally"
+   },
+   {
+    "da": "generel",
+    "en": "general"
+   },
+   {
+    "da": "specifik",
+    "en": "specific"
+   }
+  ],
+  "sentence": {
+   "da": "**Generelt** er maden god her.",
+   "en": "Generally, the food is good here."
+  }
+ },
+ "genert": {
+  "explanation": "\"Genert\" means \"shy\", nervous around other people: Han er genert over for fremmede (He is shy around strangers).",
+  "forms": [
+   {
+    "da": "en genert dreng",
+    "en": "a shy boy"
+   },
+   {
+    "da": "et genert barn",
+    "en": "a shy child"
+   },
+   {
+    "da": "generte børn",
+    "en": "shy children"
+   }
+  ],
+  "related": [
+   {
+    "da": "sky",
+    "en": "shy"
+   },
+   {
+    "da": "forlegen",
+    "en": "awkward and embarrassed"
+   },
+   {
+    "da": "tilbageholdende",
+    "en": "reserved"
+   },
+   {
+    "da": "udadvendt",
+    "en": "outgoing"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er lidt **genert**, når jeg møder nye folk.",
+   "en": "I am a bit shy when I meet new people."
+  }
+ },
+ "generøs": {
+  "explanation": "\"Generøs\" means \"generous\" and describes someone who gives freely: Hun er generøs med sin tid (She is generous with her time). The opposite is nærig (stingy).",
+  "forms": [
+   {
+    "da": "en generøs gave",
+    "en": "a generous gift"
+   },
+   {
+    "da": "et generøst tilbud",
+    "en": "a generous offer"
+   },
+   {
+    "da": "generøse gaver",
+    "en": "generous gifts"
+   }
+  ],
+  "related": [
+   {
+    "da": "gavmild",
+    "en": "generous"
+   },
+   {
+    "da": "en generøsitet",
+    "en": "generosity"
+   },
+   {
+    "da": "egoistisk",
+    "en": "selfish"
+   },
+   {
+    "da": "rundhåndet",
+    "en": "open-handed"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **generøs** og giver gerne penge væk.",
+   "en": "He is generous and gladly gives money away."
+  }
+ },
+ "genial": {
+  "explanation": "\"Genial\" means \"brilliant\", extremely clever: Hvor er det genialt! (How brilliant!) It also describes people: Hun er genial (She is brilliant).",
+  "forms": [
+   {
+    "da": "en genial plan",
+    "en": "a brilliant plan"
+   },
+   {
+    "da": "et genialt træk",
+    "en": "a brilliant move"
+   },
+   {
+    "da": "geniale løsninger",
+    "en": "brilliant solutions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et geni",
+    "en": "a genius"
+   },
+   {
+    "da": "klog",
+    "en": "smart"
+   },
+   {
+    "da": "snedig",
+    "en": "clever, sly"
+   },
+   {
+    "da": "fremragende",
+    "en": "excellent"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **genial** idé, og den virker.",
+   "en": "It is a brilliant idea, and it works."
+  }
+ },
+ "gennem": {
+  "explanation": "\"Gennem\" means \"through\": Vi kører gennem tunnelen (We drive through the tunnel). With time, it means \"throughout\": Jeg har boet her gennem mange år (I have lived here for many years).",
+  "forms": [
+   {
+    "da": "gennem skoven",
+    "en": "through the forest"
+   },
+   {
+    "da": "gennem vinduet",
+    "en": "through the window"
+   },
+   {
+    "da": "gennem hele dagen",
+    "en": "throughout the day"
+   }
+  ],
+  "related": [
+   {
+    "da": "igennem",
+    "en": "through"
+   },
+   {
+    "da": "via",
+    "en": "via"
+   },
+   {
+    "da": "på tværs af",
+    "en": "across"
+   },
+   {
+    "da": "langs",
+    "en": "along"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går **gennem** parken hjem.",
+   "en": "We walk home through the park."
+  }
+ },
+ "geografi": {
+  "explanation": "\"Geografi\" means \"geography\", the study of countries, maps and landscapes at school. Said about a class, it has no en in front: Jeg kan godt lide geografi (I like geography).",
+  "forms": [
+   {
+    "da": "Vi har geografi i dag",
+    "en": "We have geography today"
+   },
+   {
+    "da": "Jeg er god til geografi",
+    "en": "I am good at geography"
+   },
+   {
+    "da": "en geografilærer",
+    "en": "a geography teacher"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kort",
+    "en": "a map"
+   },
+   {
+    "da": "en globus",
+    "en": "a globe"
+   },
+   {
+    "da": "et atlas",
+    "en": "an atlas"
+   },
+   {
+    "da": "historie",
+    "en": "history"
+   }
+  ],
+  "sentence": {
+   "da": "Vi lærer om lande og floder i **geografi**.",
+   "en": "We learn about countries and rivers in geography."
   }
  },
  "gerne": {
@@ -1565,6 +5864,45 @@
   "sentence": {
    "da": "Jeg er **gift** med Anna.",
    "en": "I am married to Anna."
+  }
+ },
+ "gin": {
+  "explanation": "\"Gin\" means \"gin\", a clear strong drink with a juniper taste: Jeg kan ikke lide gin (I don't like gin). One glass of it is en gin: Hun drikker en gin (She is drinking a gin).",
+  "forms": [
+   {
+    "da": "gin",
+    "en": "gin"
+   },
+   {
+    "da": "ginen",
+    "en": "the gin"
+   },
+   {
+    "da": "en gin",
+    "en": "a gin"
+   },
+   {
+    "da": "en gin og tonic",
+    "en": "a gin and tonic"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vodka",
+    "en": "a vodka"
+   },
+   {
+    "da": "en rom",
+    "en": "a rum"
+   },
+   {
+    "da": "en snaps",
+    "en": "a schnapps"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bestiller en **gin** og tonic i baren.",
+   "en": "She orders a gin and tonic at the bar."
   }
  },
  "glad": {
@@ -1639,6 +5977,201 @@
   "sentence": {
    "da": "Jeg er meget **glad for** min lejlighed.",
    "en": "I am very happy with my apartment."
+  }
+ },
+ "glat": {
+  "explanation": "\"Glat\" means \"smooth\" and also \"slippery\": Isen er glat (The ice is slippery). Pas på, vejen er glat (Be careful, the road is slippery).",
+  "forms": [
+   {
+    "da": "en glat sten",
+    "en": "a smooth stone"
+   },
+   {
+    "da": "et glat bord",
+    "en": "a smooth table"
+   },
+   {
+    "da": "glatte fliser",
+    "en": "smooth tiles"
+   }
+  ],
+  "related": [
+   {
+    "da": "hal",
+    "en": "slippery"
+   },
+   {
+    "da": "ru",
+    "en": "rough"
+   },
+   {
+    "da": "jævn",
+    "en": "even"
+   },
+   {
+    "da": "blød",
+    "en": "soft"
+   }
+  ],
+  "sentence": {
+   "da": "Pas på, gulvet er **glat**.",
+   "en": "Be careful, the floor is slippery."
+  }
+ },
+ "glimrende": {
+  "explanation": "\"Glimrende\" means \"excellent\" and is stronger than god (good): Det går glimrende (It is going excellently).",
+  "forms": [
+   {
+    "da": "en glimrende idé",
+    "en": "an excellent idea"
+   },
+   {
+    "da": "et glimrende resultat",
+    "en": "an excellent result"
+   },
+   {
+    "da": "glimrende karakterer",
+    "en": "excellent grades"
+   }
+  ],
+  "related": [
+   {
+    "da": "fremragende",
+    "en": "outstanding"
+   },
+   {
+    "da": "udmærket",
+    "en": "fine / excellent"
+   },
+   {
+    "da": "fantastisk",
+    "en": "fantastic"
+   },
+   {
+    "da": "at glimre",
+    "en": "to shine"
+   }
+  ],
+  "sentence": {
+   "da": "Du har lavet et **glimrende** stykke arbejde.",
+   "en": "You have done an excellent piece of work."
+  }
+ },
+ "gluten": {
+  "explanation": "\"Gluten\" means \"gluten\", the protein in wheat, rye and barley: Brød med gluten er ikke godt for alle (Bread with gluten is not good for everyone). To say without it, add fri: glutenfri (gluten-free).",
+  "forms": [
+   {
+    "da": "gluten",
+    "en": "gluten"
+   },
+   {
+    "da": "glutenet",
+    "en": "the gluten"
+   },
+   {
+    "da": "noget gluten",
+    "en": "some gluten"
+   }
+  ],
+  "related": [
+   {
+    "da": "hvede",
+    "en": "wheat"
+   },
+   {
+    "da": "rug",
+    "en": "rye"
+   },
+   {
+    "da": "byg",
+    "en": "barley"
+   },
+   {
+    "da": "en allergi",
+    "en": "an allergy"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **gluten** i hvedebrød.",
+   "en": "There is gluten in wheat bread."
+  }
+ },
+ "glutenfri": {
+  "explanation": "\"Glutenfri\" means \"gluten-free\", made without gluten: Har I glutenfrit brød? (Do you have gluten-free bread?). It is built from gluten and fri (free).",
+  "forms": [
+   {
+    "da": "en glutenfri kage",
+    "en": "a gluten-free cake"
+   },
+   {
+    "da": "et glutenfrit rundstykke",
+    "en": "a gluten-free roll"
+   },
+   {
+    "da": "glutenfrie boller",
+    "en": "gluten-free buns"
+   }
+  ],
+  "related": [
+   {
+    "da": "sukkerfri",
+    "en": "sugar-free"
+   },
+   {
+    "da": "laktosefri",
+    "en": "lactose-free"
+   },
+   {
+    "da": "vegansk",
+    "en": "vegan"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser kun **glutenfri** pasta.",
+   "en": "I only eat gluten-free pasta."
+  }
+ },
+ "glæde": {
+  "explanation": "\"Glæde\" means \"joy\": Børnene hoppede af glæde (The children jumped for joy). With sig, at glæde sig means to look forward: Jeg glæder mig til ferien (I am looking forward to the vacation).",
+  "forms": [
+   {
+    "da": "en glæde",
+    "en": "a joy"
+   },
+   {
+    "da": "glæden",
+    "en": "the joy"
+   },
+   {
+    "da": "med glæde",
+    "en": "gladly"
+   },
+   {
+    "da": "glæden ved musik",
+    "en": "the joy of music"
+   }
+  ],
+  "related": [
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "en lykke",
+    "en": "happiness"
+   },
+   {
+    "da": "en fornøjelse",
+    "en": "a pleasure"
+   },
+   {
+    "da": "sorg",
+    "en": "sorrow"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes ansigt lyste af **glæde**.",
+   "en": "Her face lit up with joy."
   }
  },
  "glædelig jul": {
@@ -2252,6 +6785,45 @@
    "en": "You do not have to pay. It is free."
   }
  },
+ "grillkul": {
+  "explanation": "\"Grillkul\" means \"charcoal\", the fuel for a barbecue. It is grill (barbecue) plus kul (coal): Vi skal købe grillkul (We need to buy charcoal).",
+  "forms": [
+   {
+    "da": "grillkul",
+    "en": "charcoal"
+   },
+   {
+    "da": "noget grillkul",
+    "en": "some charcoal"
+   },
+   {
+    "da": "en sæk grillkul",
+    "en": "a bag of charcoal"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kulgrill",
+    "en": "a charcoal grill"
+   },
+   {
+    "da": "en gasgrill",
+    "en": "a gas grill"
+   },
+   {
+    "da": "en tændvæske",
+    "en": "lighter fluid"
+   },
+   {
+    "da": "briketter",
+    "en": "briquettes"
+   }
+  ],
+  "sentence": {
+   "da": "Vi lægger **grillkul** i grillen og tænder det.",
+   "en": "We put charcoal in the grill and light it."
+  }
+ },
  "grim": {
   "explanation": "\"Grim\" means \"ugly\", for people, buildings or things. It can also mean unpleasant: grimt vejr (nasty weather) and et grimt ord (a nasty word). Calling a person grim is quite blunt.",
   "forms": [
@@ -2686,6 +7258,154 @@
   "sentence": {
    "da": "Ringen er lavet af **guld**.",
    "en": "The ring is made of gold."
+  }
+ },
+ "gummi": {
+  "explanation": "\"Gummi\" means \"rubber\", the soft material that stretches and keeps water out: Støvler af gummi holder fødderne tørre (Boots made of rubber keep your feet dry).",
+  "forms": [
+   {
+    "da": "gummi",
+    "en": "rubber"
+   },
+   {
+    "da": "gummistøvler",
+    "en": "rubber boots"
+   },
+   {
+    "da": "en gummiand",
+    "en": "a rubber duck"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gummibåd",
+    "en": "a rubber boat"
+   },
+   {
+    "da": "en elastik",
+    "en": "a rubber band"
+   },
+   {
+    "da": "et gummibånd",
+    "en": "a rubber band"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har røde støvler af **gummi**.",
+   "en": "I have red boots made of rubber."
+  }
+ },
+ "gylden": {
+  "explanation": "\"Gylden\" means \"golden\" and describes the color or the look of gold: en gylden ring (a golden ring). For something made of real gold, use guld: en guldring (a gold ring).",
+  "forms": [
+   {
+    "da": "en gylden ring",
+    "en": "a golden ring"
+   },
+   {
+    "da": "et gyldent blad",
+    "en": "a golden leaf"
+   },
+   {
+    "da": "gyldne dage",
+    "en": "golden days"
+   }
+  ],
+  "related": [
+   {
+    "da": "gul",
+    "en": "yellow"
+   },
+   {
+    "da": "sølvfarvet",
+    "en": "silver-colored"
+   },
+   {
+    "da": "skinnende",
+    "en": "shiny"
+   },
+   {
+    "da": "brun",
+    "en": "brown"
+   }
+  ],
+  "sentence": {
+   "da": "Solen var **gylden** over havet.",
+   "en": "The sun was golden over the sea."
+  }
+ },
+ "gymnastik": {
+  "explanation": "\"Gymnastik\" means \"gymnastics\": Hun går til gymnastik om tirsdagen (She does gymnastics on Tuesdays). It also means exercises: Jeg laver gymnastik hver morgen (I do exercises every morning).",
+  "forms": [
+   {
+    "da": "gymnastik for børn",
+    "en": "gymnastics for children"
+   },
+   {
+    "da": "en time i gymnastik",
+    "en": "a gymnastics class"
+   },
+   {
+    "da": "gå til gymnastik",
+    "en": "to go to gymnastics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gymnast",
+    "en": "a gymnast"
+   },
+   {
+    "da": "idræt",
+    "en": "sports / PE"
+   },
+   {
+    "da": "en gymnastiksal",
+    "en": "a gym hall"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene går til **gymnastik** to gange om ugen.",
+   "en": "The children go to gymnastics twice a week."
+  }
+ },
+ "gær": {
+  "explanation": "\"Gær\" means \"yeast\", the ingredient that makes bread rise: Brødet hæver med gær (The bread rises with yeast).",
+  "forms": [
+   {
+    "da": "gær",
+    "en": "yeast"
+   },
+   {
+    "da": "gæren",
+    "en": "the yeast"
+   },
+   {
+    "da": "en pakke gær",
+    "en": "a pack of yeast"
+   },
+   {
+    "da": "tørgær",
+    "en": "dry yeast"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bagepulver",
+    "en": "baking powder"
+   },
+   {
+    "da": "en surdej",
+    "en": "sourdough"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **gær**, når jeg bager brød.",
+   "en": "I use yeast when I bake bread."
   }
  },
  "gør det selv": {

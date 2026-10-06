@@ -1,4 +1,82 @@
 {
+ "en webshop": {
+  "explanation": "\"En webshop\" means \"an online store\": Skoene findes kun i vores webshop (The shoes are only in our online store). It is a shop on the internet, not a building.",
+  "forms": [
+   {
+    "da": "en webshop",
+    "en": "an online store"
+   },
+   {
+    "da": "webshoppen",
+    "en": "the online store"
+   },
+   {
+    "da": "webshops",
+    "en": "online stores"
+   },
+   {
+    "da": "webshoppene",
+    "en": "the online stores"
+   }
+  ],
+  "related": [
+   {
+    "da": "en butik",
+    "en": "a shop"
+   },
+   {
+    "da": "en hjemmeside",
+    "en": "a website"
+   },
+   {
+    "da": "en bestilling",
+    "en": "an order"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bestilte skoene i en **webshop** i går.",
+   "en": "I ordered the shoes in an online store yesterday."
+  }
+ },
+ "en webside": {
+  "explanation": "\"En webside\" means \"a web page\", one page on the internet. A whole site is often en hjemmeside (a website): Firmaets hjemmeside er ny (The company's website is new).",
+  "forms": [
+   {
+    "da": "en webside",
+    "en": "a web page"
+   },
+   {
+    "da": "websiden",
+    "en": "the web page"
+   },
+   {
+    "da": "websider",
+    "en": "web pages"
+   },
+   {
+    "da": "websiderne",
+    "en": "the web pages"
+   }
+  ],
+  "related": [
+   {
+    "da": "et websted",
+    "en": "a website"
+   },
+   {
+    "da": "en browser",
+    "en": "a browser"
+   },
+   {
+    "da": "et link",
+    "en": "a link"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fandt en god **webside** om Danmark.",
+   "en": "I found a good web page about Denmark."
+  }
+ },
  "en weekend": {
   "explanation": "\"En weekend\" means \"a weekend\". Say i weekenden for \"on the weekend\". On Fridays, Danes say God weekend! (Have a good weekend!).",
   "forms": [
@@ -40,6 +118,209 @@
   "sentence": {
    "da": "Lørdag og søndag er en **weekend**.",
    "en": "Saturday and Sunday are a weekend."
+  }
+ },
+ "en weekendtur": {
+  "explanation": "\"En weekendtur\" means \"a weekend trip\". It is built from weekend (weekend) and tur (trip): Hun nød sin weekendtur (She enjoyed her weekend trip).",
+  "forms": [
+   {
+    "da": "en weekendtur",
+    "en": "a weekend trip"
+   },
+   {
+    "da": "weekendturen",
+    "en": "the weekend trip"
+   },
+   {
+    "da": "weekendture",
+    "en": "weekend trips"
+   },
+   {
+    "da": "weekendturene",
+    "en": "the weekend trips"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udflugt",
+    "en": "an excursion"
+   },
+   {
+    "da": "en dagstur",
+    "en": "a day trip"
+   },
+   {
+    "da": "en rejse",
+    "en": "a journey"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på **weekendtur** til Berlin.",
+   "en": "We are going on a weekend trip to Berlin."
+  }
+ },
+ "en whisky": {
+  "explanation": "\"En whisky\" means \"a whiskey\", a strong drink made from grain, and also one serving of it: Vil du have en whisky? (Would you like a whiskey?) Without en it means the drink in general: Jeg kan godt lide whisky (I like whiskey).",
+  "forms": [
+   {
+    "da": "en whisky",
+    "en": "a whiskey"
+   },
+   {
+    "da": "whiskyen",
+    "en": "the whiskey"
+   },
+   {
+    "da": "whiskyer",
+    "en": "whiskeys"
+   },
+   {
+    "da": "whiskyerne",
+    "en": "the whiskeys"
+   }
+  ],
+  "related": [
+   {
+    "da": "en snaps",
+    "en": "a schnapps"
+   },
+   {
+    "da": "en rom",
+    "en": "a rum"
+   },
+   {
+    "da": "en vodka",
+    "en": "a vodka"
+   }
+  ],
+  "sentence": {
+   "da": "Efter middagen drikker han en **whisky** og læser.",
+   "en": "After dinner he drinks a whiskey and reads."
+  }
+ },
+ "en wrap": {
+  "explanation": "\"En wrap\" means \"a wrap\", a soft flatbread rolled around a filling: en wrap med kylling (a wrap with chicken). For the bread alone, use en tortilla (a tortilla).",
+  "forms": [
+   {
+    "da": "en wrap",
+    "en": "a wrap"
+   },
+   {
+    "da": "wrappen",
+    "en": "the wrap"
+   },
+   {
+    "da": "wraps",
+    "en": "wraps"
+   },
+   {
+    "da": "wrapsene",
+    "en": "the wraps"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pita",
+    "en": "a pita"
+   },
+   {
+    "da": "en dürüm",
+    "en": "a kebab wrap"
+   },
+   {
+    "da": "en sandwich",
+    "en": "a sandwich"
+   }
+  ],
+  "sentence": {
+   "da": "Til frokost spiser jeg en **wrap** med kylling og salat.",
+   "en": "For lunch I eat a wrap with chicken and salad."
+  }
+ },
+ "et whiteboard": {
+  "explanation": "\"Et whiteboard\" means \"a whiteboard\", the white board you write on with markers: Han skriver på whiteboardet (He writes on the whiteboard). Many classrooms now have one instead of en tavle (a blackboard).",
+  "forms": [
+   {
+    "da": "et whiteboard",
+    "en": "a whiteboard"
+   },
+   {
+    "da": "whiteboardet",
+    "en": "the whiteboard"
+   },
+   {
+    "da": "whiteboards",
+    "en": "whiteboards"
+   },
+   {
+    "da": "whiteboardene",
+    "en": "the whiteboards"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tusch",
+    "en": "a marker"
+   },
+   {
+    "da": "et smartboard",
+    "en": "a smartboard"
+   },
+   {
+    "da": "en projektor",
+    "en": "a projector"
+   },
+   {
+    "da": "en skærm",
+    "en": "a screen"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren skriver nye ord på et **whiteboard**.",
+   "en": "The teacher writes new words on a whiteboard."
+  }
+ },
+ "et wienerbrød": {
+  "explanation": "\"Et wienerbrød\" means \"a Danish pastry\", a flaky sweet pastry from the bakery. The plural looks the same: Jeg køber to wienerbrød hos bageren (I buy two Danish pastries at the bakery).",
+  "forms": [
+   {
+    "da": "et wienerbrød",
+    "en": "a Danish pastry"
+   },
+   {
+    "da": "wienerbrødet",
+    "en": "the Danish pastry"
+   },
+   {
+    "da": "wienerbrød",
+    "en": "Danish pastries"
+   },
+   {
+    "da": "wienerbrødene",
+    "en": "the Danish pastries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bageri",
+    "en": "a bakery"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "et rundstykke",
+    "en": "a bread roll"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber et **wienerbrød** hos bageren.",
+   "en": "I buy a Danish pastry at the bakery."
   }
  },
  "wifi": {

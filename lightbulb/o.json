@@ -1,4 +1,543 @@
 {
+ "at opdage": {
+  "explanation": "\"At opdage\" means \"to discover\", finding or noticing something you did not know about: Jeg opdagede en fejl (I noticed a mistake). It often comes as a surprise: Hun opdagede, at tasken var væk (She discovered that the bag was gone).",
+  "forms": [
+   {
+    "da": "at opdage",
+    "en": "to discover"
+   },
+   {
+    "da": "jeg opdager",
+    "en": "I discover"
+   },
+   {
+    "da": "jeg opdagede",
+    "en": "I discovered"
+   },
+   {
+    "da": "jeg har opdaget",
+    "en": "I have discovered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at finde",
+    "en": "to find"
+   },
+   {
+    "da": "at bemærke",
+    "en": "to notice"
+   },
+   {
+    "da": "en opdagelse",
+    "en": "a discovery"
+   },
+   {
+    "da": "at afsløre",
+    "en": "to reveal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil gerne **opdage** nye steder på rejsen.",
+   "en": "We would like to discover new places on the trip."
+  }
+ },
+ "at opdatere": {
+  "explanation": "\"At opdatere\" means \"to update\", to make something new or current, like a program or a list: Hun opdaterer listen hver uge (She updates the list every week).",
+  "forms": [
+   {
+    "da": "at opdatere",
+    "en": "to update"
+   },
+   {
+    "da": "jeg opdaterer",
+    "en": "I update"
+   },
+   {
+    "da": "jeg opdaterede",
+    "en": "I updated"
+   },
+   {
+    "da": "jeg har opdateret",
+    "en": "I have updated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opdatering",
+    "en": "an update"
+   },
+   {
+    "da": "opdateret",
+    "en": "updated"
+   },
+   {
+    "da": "at forny",
+    "en": "to renew"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **opdatere** min telefon i aften.",
+   "en": "I want to update my phone tonight."
+  }
+ },
+ "at operere": {
+  "explanation": "\"At operere\" means \"to operate\", on a patient: Lægen opererer i morgen (The doctor operates tomorrow). It is also used for a business working somewhere: Firmaet opererer i Europa (The company operates in Europe).",
+  "forms": [
+   {
+    "da": "at operere",
+    "en": "to operate"
+   },
+   {
+    "da": "jeg opererer",
+    "en": "I operate"
+   },
+   {
+    "da": "jeg opererede",
+    "en": "I operated"
+   },
+   {
+    "da": "jeg har opereret",
+    "en": "I have operated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en operation",
+    "en": "an operation"
+   },
+   {
+    "da": "en kirurg",
+    "en": "a surgeon"
+   },
+   {
+    "da": "at behandle",
+    "en": "to treat"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen skal **operere** min mor i morgen.",
+   "en": "The doctor is going to operate on my mother tomorrow."
+  }
+ },
+ "at opføre sig": {
+  "explanation": "\"At opføre sig\" means \"to behave\", and it needs a word like pænt (nicely) or dårligt (badly): Han opfører sig dårligt (He behaves badly). Without sig, at opføre means \"to build\": De opfører et hus (They are building a house).",
+  "forms": [
+   {
+    "da": "at opføre sig",
+    "en": "to behave"
+   },
+   {
+    "da": "jeg opfører mig",
+    "en": "I behave"
+   },
+   {
+    "da": "jeg opførte mig",
+    "en": "I behaved"
+   },
+   {
+    "da": "jeg har opført mig",
+    "en": "I have behaved"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opførsel",
+    "en": "behavior"
+   },
+   {
+    "da": "uartig",
+    "en": "naughty"
+   },
+   {
+    "da": "artig",
+    "en": "well-behaved"
+   },
+   {
+    "da": "høflig",
+    "en": "polite"
+   }
+  ],
+  "sentence": {
+   "da": "Børn skal **opføre sig** pænt i skolen.",
+   "en": "Children must behave nicely at school."
+  }
+ },
+ "at oplade": {
+  "explanation": "\"At oplade\" means \"to charge\", to fill a battery with power: Jeg oplader min computer (I charge my computer). In daily speech, at lade (to charge) is just as common.",
+  "forms": [
+   {
+    "da": "at oplade",
+    "en": "to charge"
+   },
+   {
+    "da": "jeg oplader",
+    "en": "I charge"
+   },
+   {
+    "da": "jeg opladede",
+    "en": "I charged"
+   },
+   {
+    "da": "jeg har opladet",
+    "en": "I have charged"
+   }
+  ],
+  "related": [
+   {
+    "da": "en stikkontakt",
+    "en": "a power outlet"
+   },
+   {
+    "da": "et ladekabel",
+    "en": "a charging cable"
+   },
+   {
+    "da": "et batteri",
+    "en": "a battery"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **oplade** min telefon i nat.",
+   "en": "I have to charge my phone tonight."
+  }
+ },
+ "at opleve": {
+  "explanation": "\"At opleve\" means \"to experience\", for things you see or that happen to you: Vi oplevede en flot solopgang (We saw a beautiful sunrise). It is often used for trips and events: Jeg oplevede en koncert i Berlin (I got to see a concert in Berlin).",
+  "forms": [
+   {
+    "da": "at opleve",
+    "en": "to experience"
+   },
+   {
+    "da": "jeg oplever",
+    "en": "I experience"
+   },
+   {
+    "da": "jeg oplevede",
+    "en": "I experienced"
+   },
+   {
+    "da": "jeg har oplevet",
+    "en": "I have experienced"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oplevelse",
+    "en": "an experience"
+   },
+   {
+    "da": "en erfaring",
+    "en": "experience gained over time"
+   },
+   {
+    "da": "at prøve",
+    "en": "to try"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **opleve** Italien en dag.",
+   "en": "I would like to experience Italy one day."
+  }
+ },
+ "at optage": {
+  "explanation": "\"At optage\" means \"to record\" sound or video: Jeg optager sangen (I am recording the song). It also means \"to take up\" room: Det optager meget plads (It takes up a lot of space).",
+  "forms": [
+   {
+    "da": "at optage",
+    "en": "to record"
+   },
+   {
+    "da": "jeg optager",
+    "en": "I record"
+   },
+   {
+    "da": "jeg optog",
+    "en": "I recorded"
+   },
+   {
+    "da": "jeg har optaget",
+    "en": "I have recorded"
+   }
+  ],
+  "related": [
+   {
+    "da": "en optagelse",
+    "en": "a recording"
+   },
+   {
+    "da": "at filme",
+    "en": "to film"
+   },
+   {
+    "da": "at indspille",
+    "en": "to record"
+   },
+   {
+    "da": "at afspille",
+    "en": "to play back"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **optage** sangen på min telefon.",
+   "en": "I would like to record the song on my phone."
+  }
+ },
+ "at ordne": {
+  "explanation": "\"At ordne\" means \"to fix\" or \"to sort out\" a task or problem: Jeg ordner det (I will sort it out). Jeg skal ordne nogle ting (I have to take care of some things).",
+  "forms": [
+   {
+    "da": "at ordne",
+    "en": "to fix / sort out"
+   },
+   {
+    "da": "jeg ordner",
+    "en": "I fix / sort out"
+   },
+   {
+    "da": "jeg ordnede",
+    "en": "I fixed / sorted out"
+   },
+   {
+    "da": "jeg har ordnet",
+    "en": "I have fixed / sorted out"
+   }
+  ],
+  "related": [
+   {
+    "da": "en orden",
+    "en": "order"
+   },
+   {
+    "da": "at rydde op",
+    "en": "to tidy up"
+   },
+   {
+    "da": "at klare",
+    "en": "to manage"
+   },
+   {
+    "da": "at arrangere",
+    "en": "to arrange"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **ordne** papirerne til banken.",
+   "en": "I have to sort out the papers for the bank."
+  }
+ },
+ "at organisere": {
+  "explanation": "\"At organisere\" means \"to organize\", planning and arranging something: Hun organiserer en tur (She is organizing a trip). It can also mean putting things in order: Jeg organiserer mine filer (I am organizing my files).",
+  "forms": [
+   {
+    "da": "at organisere",
+    "en": "to organize"
+   },
+   {
+    "da": "jeg organiserer",
+    "en": "I organize"
+   },
+   {
+    "da": "jeg organiserede",
+    "en": "I organized"
+   },
+   {
+    "da": "jeg har organiseret",
+    "en": "I have organized"
+   }
+  ],
+  "related": [
+   {
+    "da": "en organisation",
+    "en": "an organization"
+   },
+   {
+    "da": "at planlægge",
+    "en": "to plan"
+   },
+   {
+    "da": "at arrangere",
+    "en": "to arrange"
+   },
+   {
+    "da": "at rydde op",
+    "en": "to tidy up"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **organisere** en stor fest for hende.",
+   "en": "We want to organize a big party for her."
+  }
+ },
+ "at orke": {
+  "explanation": "\"At orke\" means \"to have the energy for\", and it is mostly used in questions and with ikke (not): Jeg orker ikke mere (I can't take any more). Orker du at gå en tur? (Do you have the energy for a walk?)",
+  "forms": [
+   {
+    "da": "at orke",
+    "en": "to have the energy for"
+   },
+   {
+    "da": "jeg orker",
+    "en": "I have the energy for"
+   },
+   {
+    "da": "jeg orkede",
+    "en": "I had the energy for"
+   },
+   {
+    "da": "jeg har orket",
+    "en": "I have had the energy for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at have lyst til",
+    "en": "to feel like"
+   },
+   {
+    "da": "at kunne",
+    "en": "to be able to"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
+   },
+   {
+    "da": "udmattet",
+    "en": "exhausted"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tror ikke, at jeg kan **orke** mere i dag.",
+   "en": "I don't think I can take any more today."
+  }
+ },
+ "at overføre penge": {
+  "explanation": "\"At overføre penge\" means \"to transfer money\", for example from one account to another: Hun overfører penge hver måned (She transfers money every month). You can also say at sende penge (to send money).",
+  "forms": [
+   {
+    "da": "at overføre penge",
+    "en": "to transfer money"
+   },
+   {
+    "da": "jeg overfører penge",
+    "en": "I transfer money"
+   },
+   {
+    "da": "jeg overførte penge",
+    "en": "I transferred money"
+   },
+   {
+    "da": "jeg har overført penge",
+    "en": "I have transferred money"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overførsel",
+    "en": "a transfer"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "at hæve",
+    "en": "to withdraw"
+   },
+   {
+    "da": "at indsætte",
+    "en": "to deposit"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **overføre penge** til dig i aften.",
+   "en": "I can transfer money to you tonight."
+  }
+ },
+ "at overhale": {
+  "explanation": "\"At overhale\" means \"to overtake\", to pass a car or a bike on the road: Hun overhaler en traktor (She overtakes a tractor). To catch up with someone ahead of you, use at indhente (to catch up): Jeg indhenter dig (I catch up with you).",
+  "forms": [
+   {
+    "da": "at overhale",
+    "en": "to overtake"
+   },
+   {
+    "da": "jeg overhaler",
+    "en": "I overtake"
+   },
+   {
+    "da": "jeg overhalede",
+    "en": "I overtook"
+   },
+   {
+    "da": "jeg har overhalet",
+    "en": "I have overtaken"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overhaling",
+    "en": "an overtaking"
+   },
+   {
+    "da": "at køre forbi",
+    "en": "to drive past"
+   },
+   {
+    "da": "at overtage",
+    "en": "to take over"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **overhale** den langsomme bil foran os.",
+   "en": "I want to overtake the slow car in front of us."
+  }
+ },
+ "at overleve": {
+  "explanation": "\"At overleve\" means \"to survive\": Han overlevede ulykken (He survived the accident). It is built from over (over) and leve (to live), so it means to live through something.",
+  "forms": [
+   {
+    "da": "at overleve",
+    "en": "to survive"
+   },
+   {
+    "da": "jeg overlever",
+    "en": "I survive"
+   },
+   {
+    "da": "jeg overlevede",
+    "en": "I survived"
+   },
+   {
+    "da": "jeg har overlevet",
+    "en": "I have survived"
+   }
+  ],
+  "related": [
+   {
+    "da": "et liv",
+    "en": "a life"
+   },
+   {
+    "da": "at dø",
+    "en": "to die"
+   },
+   {
+    "da": "at klare sig",
+    "en": "to manage"
+   },
+   {
+    "da": "en overlevende",
+    "en": "a survivor"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan ikke **overleve** uden vand.",
+   "en": "You cannot survive without water."
+  }
+ },
  "at overnatte": {
   "explanation": "\"At overnatte\" means \"to stay overnight\", for example at a hotel, a hostel or a friend's house. Vi overnatter på hotel means \"We stay the night at a hotel\".",
   "forms": [
@@ -36,6 +575,412 @@
   "sentence": {
    "da": "Vi vil **overnatte** på et hotel.",
    "en": "We want to stay overnight at a hotel."
+  }
+ },
+ "at overraske": {
+  "explanation": "\"At overraske\" means \"to surprise\": Jeg vil overraske min mor (I want to surprise my mom). It also means to catch someone off guard: Regnen overraskede os (The rain surprised us).",
+  "forms": [
+   {
+    "da": "at overraske",
+    "en": "to surprise"
+   },
+   {
+    "da": "jeg overrasker",
+    "en": "I surprise"
+   },
+   {
+    "da": "jeg overraskede",
+    "en": "I surprised"
+   },
+   {
+    "da": "jeg har overrasket",
+    "en": "I have surprised"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overraskelse",
+    "en": "a surprise"
+   },
+   {
+    "da": "overrasket",
+    "en": "surprised"
+   },
+   {
+    "da": "overraskende",
+    "en": "surprising"
+   },
+   {
+    "da": "at forbavse",
+    "en": "to amaze"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **overraske** min mor med blomster.",
+   "en": "I want to surprise my mom with flowers."
+  }
+ },
+ "at oversætte": {
+  "explanation": "\"At oversætte\" means \"to translate\": Jeg oversætter brevet (I translate the letter). Use fra (from) and til (to) for the languages: Hun oversætter fra dansk til tysk (She translates from Danish to German).",
+  "forms": [
+   {
+    "da": "at oversætte",
+    "en": "to translate"
+   },
+   {
+    "da": "jeg oversætter",
+    "en": "I translate"
+   },
+   {
+    "da": "jeg oversatte",
+    "en": "I translated"
+   },
+   {
+    "da": "jeg har oversat",
+    "en": "I have translated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oversættelse",
+    "en": "a translation"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **oversætte** det her til engelsk?",
+   "en": "Can you translate this into English?"
+  }
+ },
+ "at overtale": {
+  "explanation": "\"At overtale\" means \"to persuade\", getting someone to say yes: Hun overtalte mig til at komme med (She persuaded me to come along). Use til at (to) before the action.",
+  "forms": [
+   {
+    "da": "at overtale",
+    "en": "to persuade"
+   },
+   {
+    "da": "jeg overtaler",
+    "en": "I persuade"
+   },
+   {
+    "da": "jeg overtalte",
+    "en": "I persuaded"
+   },
+   {
+    "da": "jeg har overtalt",
+    "en": "I have persuaded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overbevise",
+    "en": "to convince"
+   },
+   {
+    "da": "at presse",
+    "en": "to pressure"
+   },
+   {
+    "da": "at lokke",
+    "en": "to tempt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **overtale** min ven til at komme med.",
+   "en": "I will persuade my friend to come along."
+  }
+ },
+ "at overveje": {
+  "explanation": "\"At overveje\" means \"to consider\", which is thinking about something carefully before you decide: Jeg overvejer at flytte (I am considering moving). A quick thought is different: Jeg tænker på mad (I am thinking about food).",
+  "forms": [
+   {
+    "da": "at overveje",
+    "en": "to consider"
+   },
+   {
+    "da": "jeg overvejer",
+    "en": "I consider"
+   },
+   {
+    "da": "jeg overvejede",
+    "en": "I considered"
+   },
+   {
+    "da": "jeg har overvejet",
+    "en": "I have considered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vurdere",
+    "en": "to assess"
+   },
+   {
+    "da": "at beslutte",
+    "en": "to decide"
+   },
+   {
+    "da": "en overvejelse",
+    "en": "a consideration"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **overveje** tilbuddet i et par dage.",
+   "en": "I will consider the offer for a couple of days."
+  }
+ },
+ "en offside": {
+  "explanation": "\"En offside\" means \"an offside\", when a player is too far ahead of the others when the ball is passed: Dommeren fløjtede for offside (The referee blew the whistle for offside).",
+  "forms": [
+   {
+    "da": "en offside",
+    "en": "an offside"
+   },
+   {
+    "da": "offsiden",
+    "en": "the offside"
+   },
+   {
+    "da": "Han stod offside.",
+    "en": "He was offside."
+   },
+   {
+    "da": "Det var offside!",
+    "en": "That was offside!"
+   }
+  ],
+  "related": [
+   {
+    "da": "et frispark",
+    "en": "a free kick"
+   },
+   {
+    "da": "et straffespark",
+    "en": "a penalty kick"
+   },
+   {
+    "da": "en angriber",
+    "en": "a striker"
+   },
+   {
+    "da": "et mål",
+    "en": "a goal"
+   }
+  ],
+  "sentence": {
+   "da": "Der var **offside**, så målet tæller ikke.",
+   "en": "It was offside, so the goal does not count."
+  }
+ },
+ "en oldefar": {
+  "explanation": "\"En oldefar\" means \"a great-grandfather\", the father of your grandmother or grandfather: Min oldefar var landmand (My great-grandfather was a farmer).",
+  "forms": [
+   {
+    "da": "en oldefar",
+    "en": "a great-grandfather"
+   },
+   {
+    "da": "oldefaren",
+    "en": "the great-grandfather"
+   },
+   {
+    "da": "oldefædre",
+    "en": "great-grandfathers"
+   },
+   {
+    "da": "oldefædrene",
+    "en": "the great-grandfathers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en morfar",
+    "en": "a grandfather (mother's father)"
+   },
+   {
+    "da": "en farfar",
+    "en": "a grandfather (father's father)"
+   },
+   {
+    "da": "en oldemor",
+    "en": "a great-grandmother"
+   },
+   {
+    "da": "et oldebarn",
+    "en": "a great-grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Min **oldefar** blev født for over hundrede år siden.",
+   "en": "My great-grandfather was born over a hundred years ago."
+  }
+ },
+ "en oldemor": {
+  "explanation": "\"En oldemor\" means \"a great-grandmother\", the mother of your grandmother or grandfather: Min oldemor blev 98 år (My great-grandmother lived to 98).",
+  "forms": [
+   {
+    "da": "en oldemor",
+    "en": "a great-grandmother"
+   },
+   {
+    "da": "oldemoren",
+    "en": "the great-grandmother"
+   },
+   {
+    "da": "oldemødre",
+    "en": "great-grandmothers"
+   },
+   {
+    "da": "oldemødrene",
+    "en": "the great-grandmothers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mormor",
+    "en": "a grandmother (mother's mother)"
+   },
+   {
+    "da": "en farmor",
+    "en": "a grandmother (father's mother)"
+   },
+   {
+    "da": "en oldefar",
+    "en": "a great-grandfather"
+   },
+   {
+    "da": "et oldebarn",
+    "en": "a great-grandchild"
+   }
+  ],
+  "sentence": {
+   "da": "Min **oldemor** er 95 år og bor stadig alene.",
+   "en": "My great-grandmother is 95 and still lives alone."
+  }
+ },
+ "en oliven": {
+  "explanation": "\"En oliven\" means \"an olive\", the small green or black fruit. The oil from it is olivenolie (olive oil): Jeg steger med olivenolie (I fry with olive oil).",
+  "forms": [
+   {
+    "da": "en oliven",
+    "en": "an olive"
+   },
+   {
+    "da": "olivenen",
+    "en": "the olive"
+   },
+   {
+    "da": "olivener",
+    "en": "olives"
+   },
+   {
+    "da": "olivenerne",
+    "en": "the olives"
+   }
+  ],
+  "related": [
+   {
+    "da": "et oliventræ",
+    "en": "an olive tree"
+   },
+   {
+    "da": "en olivenlund",
+    "en": "an olive grove"
+   },
+   {
+    "da": "en kapers",
+    "en": "a caper"
+   }
+  ],
+  "sentence": {
+   "da": "En **oliven** er lille, grøn eller sort.",
+   "en": "An olive is small, green or black."
+  }
+ },
+ "en omkørsel": {
+  "explanation": "\"En omkørsel\" means \"a detour\", the route set up when a road is closed: Følg skiltene for omkørsel (Follow the signs for the detour). A longer way that you choose yourself is en omvej (a roundabout way).",
+  "forms": [
+   {
+    "da": "en omkørsel",
+    "en": "a detour"
+   },
+   {
+    "da": "omkørslen",
+    "en": "the detour"
+   },
+   {
+    "da": "omkørsler",
+    "en": "detours"
+   },
+   {
+    "da": "omkørslerne",
+    "en": "the detours"
+   }
+  ],
+  "related": [
+   {
+    "da": "en genvej",
+    "en": "a shortcut"
+   },
+   {
+    "da": "et vejarbejde",
+    "en": "roadwork"
+   },
+   {
+    "da": "at omdirigere",
+    "en": "to redirect"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må tage en **omkørsel**, fordi vejen er lukket.",
+   "en": "We have to take a detour because the road is closed."
+  }
+ },
+ "en omvej": {
+  "explanation": "\"En omvej\" means \"a detour\", a longer way around: Vejen var lukket, så vi tog en omvej (The road was closed, so we took a detour). It is the opposite of en genvej (a shortcut).",
+  "forms": [
+   {
+    "da": "en omvej",
+    "en": "a detour"
+   },
+   {
+    "da": "omvejen",
+    "en": "the detour"
+   },
+   {
+    "da": "omveje",
+    "en": "detours"
+   },
+   {
+    "da": "omvejene",
+    "en": "the detours"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "en omkørsel",
+    "en": "an official detour"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tog en **omvej** og kom for sent.",
+   "en": "We took a detour and arrived late."
   }
  },
  "en onkel": {
@@ -79,6 +1024,990 @@
   "sentence": {
    "da": "Min **onkel** er min fars bror.",
    "en": "My uncle is my father's brother."
+  }
+ },
+ "en opdatering": {
+  "explanation": "\"En opdatering\" means \"an update\", a new version of an app or system: Telefonen venter på en opdatering (The phone is waiting for an update). The action is at opdatere (to update).",
+  "forms": [
+   {
+    "da": "en opdatering",
+    "en": "an update"
+   },
+   {
+    "da": "opdateringen",
+    "en": "the update"
+   },
+   {
+    "da": "opdateringer",
+    "en": "updates"
+   },
+   {
+    "da": "opdateringerne",
+    "en": "the updates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgradering",
+    "en": "an upgrade"
+   },
+   {
+    "da": "at installere",
+    "en": "to install"
+   },
+   {
+    "da": "en ændring",
+    "en": "a change"
+   }
+  ],
+  "sentence": {
+   "da": "Min telefon skal have en **opdatering** i aften.",
+   "en": "My phone needs an update tonight."
+  }
+ },
+ "en opera": {
+  "explanation": "\"En opera\" means \"an opera\", and also the building where it is shown: Vi skal i operaen i aften (We are going to the opera tonight). It is different from et teater (a theater), where people mostly speak.",
+  "forms": [
+   {
+    "da": "en opera",
+    "en": "an opera"
+   },
+   {
+    "da": "operaen",
+    "en": "the opera"
+   },
+   {
+    "da": "operaer",
+    "en": "operas"
+   },
+   {
+    "da": "operaerne",
+    "en": "the operas"
+   }
+  ],
+  "related": [
+   {
+    "da": "en koncert",
+    "en": "a concert"
+   },
+   {
+    "da": "en operette",
+    "en": "an operetta"
+   },
+   {
+    "da": "et orkester",
+    "en": "an orchestra"
+   },
+   {
+    "da": "en musical",
+    "en": "a musical"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har billetter til en **opera** i morgen.",
+   "en": "We have tickets to an opera tomorrow."
+  }
+ },
+ "en operation": {
+  "explanation": "\"En operation\" means \"an operation\" or \"surgery\" at a hospital: Han skal have en operation i morgen (He is having an operation tomorrow). At operere means \"to operate\".",
+  "forms": [
+   {
+    "da": "en operation",
+    "en": "an operation"
+   },
+   {
+    "da": "operationen",
+    "en": "the operation"
+   },
+   {
+    "da": "operationer",
+    "en": "operations"
+   },
+   {
+    "da": "operationerne",
+    "en": "the operations"
+   }
+  ],
+  "related": [
+   {
+    "da": "et indgreb",
+    "en": "a medical procedure"
+   },
+   {
+    "da": "en operationsstue",
+    "en": "an operating room"
+   },
+   {
+    "da": "en kirurg",
+    "en": "a surgeon"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal have en **operation** på sygehuset i morgen.",
+   "en": "She is having an operation at the hospital tomorrow."
+  }
+ },
+ "en opgave": {
+  "explanation": "\"En opgave\" means \"a task\", at work or at school: Det er min opgave (That is my job to do). In school it can also be an exercise: en matematikopgave (a math exercise).",
+  "forms": [
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "opgaven",
+    "en": "the task"
+   },
+   {
+    "da": "opgaver",
+    "en": "tasks"
+   },
+   {
+    "da": "opgaverne",
+    "en": "the tasks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pligt",
+    "en": "a duty"
+   },
+   {
+    "da": "et ansvar",
+    "en": "a responsibility"
+   },
+   {
+    "da": "en lektie",
+    "en": "a homework assignment"
+   }
+  ],
+  "sentence": {
+   "da": "Min **opgave** er at ringe til kunderne.",
+   "en": "My task is to call the customers."
+  }
+ },
+ "en oplader": {
+  "explanation": "\"En oplader\" means \"a charger\" for a phone or laptop: Min oplader virker ikke (My charger does not work). The action is at oplade (to charge).",
+  "forms": [
+   {
+    "da": "en oplader",
+    "en": "a charger"
+   },
+   {
+    "da": "opladeren",
+    "en": "the charger"
+   },
+   {
+    "da": "opladere",
+    "en": "chargers"
+   },
+   {
+    "da": "opladerne",
+    "en": "the chargers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ladekabel",
+    "en": "a charging cable"
+   },
+   {
+    "da": "en powerbank",
+    "en": "a power bank"
+   },
+   {
+    "da": "et batteri",
+    "en": "a battery"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har glemt min **oplader** derhjemme.",
+   "en": "I forgot my charger at home."
+  }
+ },
+ "en oplevelse": {
+  "explanation": "\"En oplevelse\" means \"an experience\", something you live through: Koncerten var en god oplevelse (The concert was a good experience). For work experience or skills, use erfaring (experience).",
+  "forms": [
+   {
+    "da": "en oplevelse",
+    "en": "an experience"
+   },
+   {
+    "da": "oplevelsen",
+    "en": "the experience"
+   },
+   {
+    "da": "oplevelser",
+    "en": "experiences"
+   },
+   {
+    "da": "oplevelserne",
+    "en": "the experiences"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opleve",
+    "en": "to experience"
+   },
+   {
+    "da": "et eventyr",
+    "en": "an adventure"
+   },
+   {
+    "da": "en begivenhed",
+    "en": "an event"
+   },
+   {
+    "da": "et minde",
+    "en": "a memory"
+   }
+  ],
+  "sentence": {
+   "da": "Turen til Italien var en stor **oplevelse**.",
+   "en": "The trip to Italy was a great experience."
+  }
+ },
+ "en oplysning": {
+  "explanation": "\"En oplysning\" means \"a piece of information\", one fact you are told: Kan du give mig en oplysning? (Can you give me a piece of information?) On forms, oplysninger (details) means your name, address and so on.",
+  "forms": [
+   {
+    "da": "en oplysning",
+    "en": "a piece of information"
+   },
+   {
+    "da": "oplysningen",
+    "en": "the piece of information"
+   },
+   {
+    "da": "oplysninger",
+    "en": "pieces of information"
+   },
+   {
+    "da": "oplysningerne",
+    "en": "the pieces of information"
+   }
+  ],
+  "related": [
+   {
+    "da": "at oplyse",
+    "en": "to inform"
+   },
+   {
+    "da": "en detalje",
+    "en": "a detail"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Hun gav mig en vigtig **oplysning** om prisen.",
+   "en": "She gave me an important piece of information about the price."
+  }
+ },
+ "en opskrift": {
+  "explanation": "\"En opskrift\" means \"a recipe\", and the food it makes comes after på (for): en opskrift på pandekager (a recipe for pancakes). Jeg følger altid opskriften (I always follow the recipe).",
+  "forms": [
+   {
+    "da": "en opskrift",
+    "en": "a recipe"
+   },
+   {
+    "da": "opskriften",
+    "en": "the recipe"
+   },
+   {
+    "da": "opskrifter",
+    "en": "recipes"
+   },
+   {
+    "da": "opskrifterne",
+    "en": "the recipes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kogebog",
+    "en": "a cookbook"
+   },
+   {
+    "da": "en ret",
+    "en": "a dish"
+   },
+   {
+    "da": "en ingrediens",
+    "en": "an ingredient"
+   },
+   {
+    "da": "at tilberede",
+    "en": "to prepare food"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en god **opskrift** på brød.",
+   "en": "I have a good recipe for bread."
+  }
+ },
+ "en opslagstavle": {
+  "explanation": "\"En opslagstavle\" means \"a bulletin board\", a board where people pin notes and notices: Der hænger en seddel på opslagstavlen (There is a note on the bulletin board).",
+  "forms": [
+   {
+    "da": "en opslagstavle",
+    "en": "a bulletin board"
+   },
+   {
+    "da": "opslagstavlen",
+    "en": "the bulletin board"
+   },
+   {
+    "da": "opslagstavler",
+    "en": "bulletin boards"
+   },
+   {
+    "da": "opslagstavlerne",
+    "en": "the bulletin boards"
+   }
+  ],
+  "related": [
+   {
+    "da": "et opslag",
+    "en": "a notice"
+   },
+   {
+    "da": "en tavle",
+    "en": "a board"
+   },
+   {
+    "da": "en tegnestift",
+    "en": "a thumbtack"
+   },
+   {
+    "da": "en plakat",
+    "en": "a poster"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hængte en plakat op på en **opslagstavle**.",
+   "en": "I hung a poster on a bulletin board."
+  }
+ },
+ "en optikerforretning": {
+  "explanation": "\"En optikerforretning\" means \"an optician's shop\", where you buy glasses and get your eyes tested: Jeg bestiller tid i optikerforretningen (I book an appointment at the optician's).",
+  "forms": [
+   {
+    "da": "en optikerforretning",
+    "en": "an optician's shop"
+   },
+   {
+    "da": "optikerforretningen",
+    "en": "the optician's shop"
+   },
+   {
+    "da": "optikerforretninger",
+    "en": "optician's shops"
+   },
+   {
+    "da": "optikerforretningerne",
+    "en": "the optician's shops"
+   }
+  ],
+  "related": [
+   {
+    "da": "en optiker",
+    "en": "an optician"
+   },
+   {
+    "da": "en linse",
+    "en": "a lens"
+   },
+   {
+    "da": "en øjenlæge",
+    "en": "an eye doctor"
+   }
+  ],
+  "sentence": {
+   "da": "Hun køber nye briller i en **optikerforretning**.",
+   "en": "She buys new glasses in an optician's shop."
+  }
+ },
+ "en opvaskebørste": {
+  "explanation": "\"En opvaskebørste\" means \"a dish brush\", a brush with a handle for scrubbing plates and pots: Du vasker op med opvaskebørsten (You do the dishes with the dish brush).",
+  "forms": [
+   {
+    "da": "en opvaskebørste",
+    "en": "a dish brush"
+   },
+   {
+    "da": "opvaskebørsten",
+    "en": "the dish brush"
+   },
+   {
+    "da": "opvaskebørster",
+    "en": "dish brushes"
+   },
+   {
+    "da": "opvaskebørsterne",
+    "en": "the dish brushes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en børste",
+    "en": "a brush"
+   },
+   {
+    "da": "en opvask",
+    "en": "the dishes"
+   },
+   {
+    "da": "en svamp",
+    "en": "a sponge"
+   },
+   {
+    "da": "et opvaskemiddel",
+    "en": "dish soap"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skrubber gryden med en **opvaskebørste**.",
+   "en": "I scrub the pot with a dish brush."
+  }
+ },
+ "en opvaskemaskine": {
+  "explanation": "\"En opvaskemaskine\" means \"a dishwasher\", a machine that cleans plates and cups: Tallerkenerne er i opvaskemaskinen (The plates are in the dishwasher). Jeg sætter koppen i opvaskemaskinen (I put the cup in the dishwasher).",
+  "forms": [
+   {
+    "da": "en opvaskemaskine",
+    "en": "a dishwasher"
+   },
+   {
+    "da": "opvaskemaskinen",
+    "en": "the dishwasher"
+   },
+   {
+    "da": "opvaskemaskiner",
+    "en": "dishwashers"
+   },
+   {
+    "da": "opvaskemaskinerne",
+    "en": "the dishwashers"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vaske op",
+    "en": "to wash dishes"
+   },
+   {
+    "da": "opvask",
+    "en": "dishes to wash"
+   },
+   {
+    "da": "en vaskemaskine",
+    "en": "a washing machine"
+   },
+   {
+    "da": "opvaskemiddel",
+    "en": "dish soap"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har ikke en **opvaskemaskine** i køkkenet.",
+   "en": "We do not have a dishwasher in the kitchen."
+  }
+ },
+ "en opvasker": {
+  "explanation": "\"En opvasker\" means \"a dishwasher\" when it is a person, someone who washes dishes in a restaurant: Han er opvasker i weekenden (He works as a dishwasher on the weekend). The machine is en opvaskemaskine (a dishwashing machine).",
+  "forms": [
+   {
+    "da": "en opvasker",
+    "en": "a dishwasher (person)"
+   },
+   {
+    "da": "opvaskeren",
+    "en": "the dishwasher (person)"
+   },
+   {
+    "da": "opvaskere",
+    "en": "dishwashers (people)"
+   },
+   {
+    "da": "opvaskerne",
+    "en": "the dishwashers (people)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vaske op",
+    "en": "to wash the dishes"
+   },
+   {
+    "da": "en opvask",
+    "en": "the dishes to wash"
+   },
+   {
+    "da": "et opvaskemiddel",
+    "en": "dish soap"
+   },
+   {
+    "da": "en kok",
+    "en": "a cook"
+   }
+  ],
+  "sentence": {
+   "da": "Som **opvasker** vasker han tallerkener hver aften.",
+   "en": "As a dishwasher he washes plates every evening."
+  }
+ },
+ "en ordbog": {
+  "explanation": "\"En ordbog\" means \"a dictionary\", built from ord (word) and bog (book): Hvad hedder det på engelsk? Se i ordbogen (What is it called in English? Look in the dictionary).",
+  "forms": [
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   },
+   {
+    "da": "ordbogen",
+    "en": "the dictionary"
+   },
+   {
+    "da": "ordbøger",
+    "en": "dictionaries"
+   },
+   {
+    "da": "ordbøgerne",
+    "en": "the dictionaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et leksikon",
+    "en": "an encyclopedia"
+   },
+   {
+    "da": "en ordliste",
+    "en": "a word list"
+   },
+   {
+    "da": "et ordforråd",
+    "en": "a vocabulary"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg slår ordet op i en **ordbog**.",
+   "en": "I look the word up in a dictionary."
+  }
+ },
+ "en orm": {
+  "explanation": "\"En orm\" means \"a worm\", the long soft animal that lives in the soil: Fuglen finder en orm i jorden (The bird finds a worm in the soil). A fisherman puts one on the hook: Jeg har en orm på krogen (I have a worm on the hook).",
+  "forms": [
+   {
+    "da": "en orm",
+    "en": "a worm"
+   },
+   {
+    "da": "ormen",
+    "en": "the worm"
+   },
+   {
+    "da": "orme",
+    "en": "worms"
+   },
+   {
+    "da": "ormene",
+    "en": "the worms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regnorm",
+    "en": "an earthworm"
+   },
+   {
+    "da": "en larve",
+    "en": "a larva"
+   },
+   {
+    "da": "en snegl",
+    "en": "a snail"
+   },
+   {
+    "da": "en slange",
+    "en": "a snake"
+   }
+  ],
+  "sentence": {
+   "da": "Fuglen finder en **orm** i græsset.",
+   "en": "The bird finds a worm in the grass."
+  }
+ },
+ "en ostehandler": {
+  "explanation": "\"En ostehandler\" means \"a cheesemonger\", a person or shop that sells cheese: Ostehandleren har mange slags (The cheesemonger has many kinds).",
+  "forms": [
+   {
+    "da": "en ostehandler",
+    "en": "a cheesemonger"
+   },
+   {
+    "da": "ostehandleren",
+    "en": "the cheesemonger"
+   },
+   {
+    "da": "ostehandlere",
+    "en": "cheesemongers"
+   },
+   {
+    "da": "ostehandlerne",
+    "en": "the cheesemongers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fiskehandler",
+    "en": "a fishmonger"
+   },
+   {
+    "da": "en slagter",
+    "en": "a butcher"
+   },
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "en vinhandler",
+    "en": "a wine merchant"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber ost hos en **ostehandler** i byen.",
+   "en": "I buy cheese from a cheesemonger in town."
+  }
+ },
+ "en ostemad": {
+  "explanation": "\"En ostemad\" means \"a cheese sandwich\", a slice of bread with cheese on it. It is ost (cheese) plus mad (food): Jeg spiser en ostemad (I eat a cheese sandwich).",
+  "forms": [
+   {
+    "da": "en ostemad",
+    "en": "a cheese sandwich"
+   },
+   {
+    "da": "ostemaden",
+    "en": "the cheese sandwich"
+   },
+   {
+    "da": "ostemadder",
+    "en": "cheese sandwiches"
+   },
+   {
+    "da": "ostemadderne",
+    "en": "the cheese sandwiches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skinkemad",
+    "en": "a ham sandwich"
+   },
+   {
+    "da": "en leverpostejmad",
+    "en": "a liver pâté sandwich"
+   },
+   {
+    "da": "et rugbrød",
+    "en": "a rye bread"
+   }
+  ],
+  "sentence": {
+   "da": "Til frokost spiser jeg en **ostemad** og et æble.",
+   "en": "For lunch I eat a cheese sandwich and an apple."
+  }
+ },
+ "en osteskærer": {
+  "explanation": "\"En osteskærer\" means \"a cheese slicer\", the flat tool that cuts thin, even slices from a block of cheese: Brug osteskæreren til tynde skiver (Use the cheese slicer for thin slices).",
+  "forms": [
+   {
+    "da": "en osteskærer",
+    "en": "a cheese slicer"
+   },
+   {
+    "da": "osteskæreren",
+    "en": "the cheese slicer"
+   },
+   {
+    "da": "osteskærere",
+    "en": "cheese slicers"
+   },
+   {
+    "da": "osteskærerne",
+    "en": "the cheese slicers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en brødkniv",
+    "en": "a bread knife"
+   },
+   {
+    "da": "en smørkniv",
+    "en": "a butter knife"
+   },
+   {
+    "da": "en pizzaskærer",
+    "en": "a pizza cutter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skærer osten med en **osteskærer**.",
+   "en": "I cut the cheese with a cheese slicer."
+  }
+ },
+ "en overflade": {
+  "explanation": "\"En overflade\" means \"a surface\", the outside layer of something: en glat overflade (a smooth surface). It is built from over (over) and flade (flat area), and it also means the surface of water.",
+  "forms": [
+   {
+    "da": "en overflade",
+    "en": "a surface"
+   },
+   {
+    "da": "overfladen",
+    "en": "the surface"
+   },
+   {
+    "da": "overflader",
+    "en": "surfaces"
+   },
+   {
+    "da": "overfladerne",
+    "en": "the surfaces"
+   }
+  ],
+  "related": [
+   {
+    "da": "overfladisk",
+    "en": "superficial"
+   },
+   {
+    "da": "et lag",
+    "en": "a layer"
+   },
+   {
+    "da": "en kant",
+    "en": "an edge"
+   },
+   {
+    "da": "en bund",
+    "en": "a bottom"
+   }
+  ],
+  "sentence": {
+   "da": "Bordet har en meget glat **overflade**.",
+   "en": "The table has a very smooth surface."
+  }
+ },
+ "en overnatning": {
+  "explanation": "\"En overnatning\" means \"an overnight stay\", one night at a hotel or hostel: Vi har booket to overnatninger (We have booked two overnight stays). Three nights are tre overnatninger (three overnight stays).",
+  "forms": [
+   {
+    "da": "en overnatning",
+    "en": "an overnight stay"
+   },
+   {
+    "da": "overnatningen",
+    "en": "the overnight stay"
+   },
+   {
+    "da": "overnatninger",
+    "en": "overnight stays"
+   },
+   {
+    "da": "overnatningerne",
+    "en": "the overnight stays"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overnatte",
+    "en": "to stay overnight"
+   },
+   {
+    "da": "et vandrerhjem",
+    "en": "a hostel"
+   },
+   {
+    "da": "et værelse",
+    "en": "a room"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad koster en **overnatning** på hotellet?",
+   "en": "What does an overnight stay at the hotel cost?"
+  }
+ },
+ "en overraskelse": {
+  "explanation": "\"En overraskelse\" means \"a surprise\", something you did not expect: Det var en stor overraskelse (It was a big surprise). To surprise someone is at overraske: Han overrasker hende med blomster (He surprises her with flowers).",
+  "forms": [
+   {
+    "da": "en overraskelse",
+    "en": "a surprise"
+   },
+   {
+    "da": "overraskelsen",
+    "en": "the surprise"
+   },
+   {
+    "da": "overraskelser",
+    "en": "surprises"
+   },
+   {
+    "da": "overraskelserne",
+    "en": "the surprises"
+   }
+  ],
+  "related": [
+   {
+    "da": "overrasket",
+    "en": "surprised"
+   },
+   {
+    "da": "overraskende",
+    "en": "surprising"
+   },
+   {
+    "da": "uventet",
+    "en": "unexpected"
+   },
+   {
+    "da": "et chok",
+    "en": "a shock"
+   }
+  ],
+  "sentence": {
+   "da": "Din gave var en dejlig **overraskelse**.",
+   "en": "Your gift was a lovely surprise."
+  }
+ },
+ "en oversigt": {
+  "explanation": "\"En oversigt\" means \"an overview\", a short summary that shows the main points: Her er en oversigt over ugens opgaver (Here is an overview of this week's tasks).",
+  "forms": [
+   {
+    "da": "en oversigt",
+    "en": "an overview"
+   },
+   {
+    "da": "oversigten",
+    "en": "the overview"
+   },
+   {
+    "da": "oversigter",
+    "en": "overviews"
+   },
+   {
+    "da": "oversigterne",
+    "en": "the overviews"
+   }
+  ],
+  "related": [
+   {
+    "da": "et overblik",
+    "en": "an overview"
+   },
+   {
+    "da": "et resumé",
+    "en": "a summary"
+   },
+   {
+    "da": "en opsummering",
+    "en": "a recap"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren giver os en **oversigt** over kurset.",
+   "en": "The teacher gives us an overview of the course."
+  }
+ },
+ "en overskrift": {
+  "explanation": "\"En overskrift\" means \"a headline\", the big title above a news story: En god overskrift fanger læseren (A good headline catches the reader). It also means a heading in a document.",
+  "forms": [
+   {
+    "da": "en overskrift",
+    "en": "a headline"
+   },
+   {
+    "da": "overskriften",
+    "en": "the headline"
+   },
+   {
+    "da": "overskrifter",
+    "en": "headlines"
+   },
+   {
+    "da": "overskrifterne",
+    "en": "the headlines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en titel",
+    "en": "a title"
+   },
+   {
+    "da": "en rubrik",
+    "en": "a heading"
+   },
+   {
+    "da": "en underoverskrift",
+    "en": "a subheading"
+   }
+  ],
+  "sentence": {
+   "da": "Avisen har en stor **overskrift** på forsiden.",
+   "en": "The newspaper has a big headline on the front page."
+  }
+ },
+ "en oversætter": {
+  "explanation": "\"En oversætter\" means \"a translator\", a person who turns written text from one language into another: Han er oversætter fra dansk til engelsk (He is a translator from Danish to English).",
+  "forms": [
+   {
+    "da": "en oversætter",
+    "en": "a translator"
+   },
+   {
+    "da": "oversætteren",
+    "en": "the translator"
+   },
+   {
+    "da": "oversættere",
+    "en": "translators"
+   },
+   {
+    "da": "oversætterne",
+    "en": "the translators"
+   }
+  ],
+  "related": [
+   {
+    "da": "at oversætte",
+    "en": "to translate"
+   },
+   {
+    "da": "en oversættelse",
+    "en": "a translation"
+   },
+   {
+    "da": "en tolk",
+    "en": "an interpreter"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven er **oversætter** og arbejder med mange sprog.",
+   "en": "My friend is a translator and works with many languages."
   }
  },
  "en ovn": {
@@ -155,6 +2084,209 @@
    "en": "There is a public restroom in the park."
   }
  },
+ "et offer": {
+  "explanation": "\"Et offer\" means \"a victim\", for example of a crime or an accident: Politiet talte med offeret (The police spoke with the victim). It also means \"a sacrifice\": Det kræver et offer (It takes a sacrifice).",
+  "forms": [
+   {
+    "da": "et offer",
+    "en": "a victim"
+   },
+   {
+    "da": "offeret",
+    "en": "the victim"
+   },
+   {
+    "da": "ofre",
+    "en": "victims"
+   },
+   {
+    "da": "ofrene",
+    "en": "the victims"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ofre",
+    "en": "to sacrifice"
+   },
+   {
+    "da": "en gerningsmand",
+    "en": "a perpetrator"
+   },
+   {
+    "da": "en overlevende",
+    "en": "a survivor"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet hjalp et **offer** efter ulykken.",
+   "en": "The police helped a victim after the accident."
+  }
+ },
+ "et område": {
+  "explanation": "\"Et område\" means \"an area\", a part of a place: Vi bor i et roligt område (We live in a quiet area). It also means a field of knowledge: Hun er ekspert på dette område (She is an expert in this field).",
+  "forms": [
+   {
+    "da": "et område",
+    "en": "an area"
+   },
+   {
+    "da": "området",
+    "en": "the area"
+   },
+   {
+    "da": "områder",
+    "en": "areas"
+   },
+   {
+    "da": "områderne",
+    "en": "the areas"
+   }
+  ],
+  "related": [
+   {
+    "da": "en egn",
+    "en": "a region / district"
+   },
+   {
+    "da": "en region",
+    "en": "a region"
+   },
+   {
+    "da": "en zone",
+    "en": "a zone"
+   },
+   {
+    "da": "et distrikt",
+    "en": "a district"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mange parker i dette **område**.",
+   "en": "There are many parks in this area."
+  }
+ },
+ "et ophold": {
+  "explanation": "\"Et ophold\" means \"a stay\", the time you spend somewhere: Vi havde et dejligt ophold (We had a lovely stay). It also fits a short stop on a trip: et kort ophold (a short stop).",
+  "forms": [
+   {
+    "da": "et ophold",
+    "en": "a stay"
+   },
+   {
+    "da": "opholdet",
+    "en": "the stay"
+   },
+   {
+    "da": "ophold",
+    "en": "stays"
+   },
+   {
+    "da": "opholdene",
+    "en": "the stays"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opholde sig",
+    "en": "to stay / be located"
+   },
+   {
+    "da": "en overnatning",
+    "en": "an overnight stay"
+   },
+   {
+    "da": "et besøg",
+    "en": "a visit"
+   },
+   {
+    "da": "en pause",
+    "en": "a break"
+   }
+  ],
+  "sentence": {
+   "da": "Vi havde et dejligt **ophold** på hotellet.",
+   "en": "We had a lovely stay at the hotel."
+  }
+ },
+ "et opkald": {
+  "explanation": "\"Et opkald\" means \"a phone call\", seen from the phone: Jeg har et opkald fra min chef (I have a call from my boss). A friendly chat on the phone is often en samtale (a conversation).",
+  "forms": [
+   {
+    "da": "et opkald",
+    "en": "a phone call"
+   },
+   {
+    "da": "opkaldet",
+    "en": "the phone call"
+   },
+   {
+    "da": "opkald",
+    "en": "phone calls"
+   },
+   {
+    "da": "opkaldene",
+    "en": "the phone calls"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ringe",
+    "en": "to call"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   },
+   {
+    "da": "et telefonnummer",
+    "en": "a phone number"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fik et **opkald** fra skolen i dag.",
+   "en": "I got a call from the school today."
+  }
+ },
+ "et opslag": {
+  "explanation": "\"Et opslag\" means \"a post\" on social media: Hun skrev et opslag om sin ferie (She wrote a post about her vacation). It also means a notice on a board, like et opslag på skolen (a notice at the school).",
+  "forms": [
+   {
+    "da": "et opslag",
+    "en": "a post"
+   },
+   {
+    "da": "opslaget",
+    "en": "the post"
+   },
+   {
+    "da": "opslag",
+    "en": "posts"
+   },
+   {
+    "da": "opslagene",
+    "en": "the posts"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slå op",
+    "en": "to look up"
+   },
+   {
+    "da": "et opslagsværk",
+    "en": "a reference book"
+   },
+   {
+    "da": "en opslagstavle",
+    "en": "a bulletin board"
+   }
+  ],
+  "sentence": {
+   "da": "Hun delte et **opslag** om sin nye bog.",
+   "en": "She shared a post about her new book."
+  }
+ },
  "et ord": {
   "explanation": "\"Et ord\" means \"a word\". Hvad betyder det ord? means \"What does that word mean?\". A dictionary is en ordbog, literally a word book.",
   "forms": [
@@ -194,6 +2326,119 @@
    "en": "I cannot find that word in the dictionary."
   }
  },
+ "offentlig": {
+  "explanation": "\"Offentlig\" means \"public\" and describes things that belong to everyone, such as the state or the town: et offentligt bibliotek (a public library). The opposite is privat (private).",
+  "forms": [
+   {
+    "da": "en offentlig skole",
+    "en": "a public school"
+   },
+   {
+    "da": "et offentligt bibliotek",
+    "en": "a public library"
+   },
+   {
+    "da": "offentlige steder",
+    "en": "public places"
+   }
+  ],
+  "related": [
+   {
+    "da": "en offentlighed",
+    "en": "the public"
+   },
+   {
+    "da": "statslig",
+    "en": "state-run"
+   },
+   {
+    "da": "kommunal",
+    "en": "municipal"
+   },
+   {
+    "da": "officiel",
+    "en": "official"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **offentlig** skole tæt på.",
+   "en": "There is a public school nearby."
+  }
+ },
+ "officiel": {
+  "explanation": "\"Officiel\" means \"official\", for what comes from the government or another authority: Det er officielt (It is official).",
+  "forms": [
+   {
+    "da": "en officiel regel",
+    "en": "an official rule"
+   },
+   {
+    "da": "et officielt brev",
+    "en": "an official letter"
+   },
+   {
+    "da": "officielle dokumenter",
+    "en": "official documents"
+   }
+  ],
+  "related": [
+   {
+    "da": "uofficiel",
+    "en": "unofficial"
+   },
+   {
+    "da": "offentlig",
+    "en": "public"
+   },
+   {
+    "da": "formel",
+    "en": "formal"
+   },
+   {
+    "da": "en myndighed",
+    "en": "an authority"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **officiel** meddelelse fra kommunen.",
+   "en": "It is an official notice from the municipality."
+  }
+ },
+ "offline": {
+  "explanation": "\"Offline\" means \"offline\", not connected to the internet: Appen virker offline (The app works offline). Det er et offline spil (It is an offline game).",
+  "forms": [
+   {
+    "da": "Jeg er offline i dag",
+    "en": "I am offline today"
+   },
+   {
+    "da": "Vi arbejder offline",
+    "en": "We work offline"
+   },
+   {
+    "da": "en offline kopi",
+    "en": "an offline copy"
+   }
+  ],
+  "related": [
+   {
+    "da": "online",
+    "en": "online"
+   },
+   {
+    "da": "internettet",
+    "en": "the internet"
+   },
+   {
+    "da": "en internetforbindelse",
+    "en": "an internet connection"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke søge, fordi min telefon er **offline**.",
+   "en": "I cannot search because my phone is offline."
+  }
+ },
  "ofte": {
   "explanation": "\"Ofte\" means \"often\". Compare Jeg går ofte i skoven (I often walk in the forest) with Jeg går aldrig i skoven (I never walk in the forest). To ask, say Hvor ofte træner du? (How often do you work out?).",
   "forms": [
@@ -231,6 +2476,41 @@
   "sentence": {
    "da": "Vi spiser **ofte** ude.",
    "en": "We often eat out."
+  }
+ },
+ "oftest": {
+  "explanation": "\"Oftest\" means \"most often\" and describes what happens in most cases: Jeg spiser oftest hjemme (I most often eat at home). It comes from ofte (often): ofte, oftere (more often), oftest.",
+  "forms": [
+   {
+    "da": "Det sker oftest om aftenen",
+    "en": "It most often happens in the evening"
+   },
+   {
+    "da": "Oftest regner det her",
+    "en": "Most often it rains here"
+   }
+  ],
+  "related": [
+   {
+    "da": "normalt",
+    "en": "normally"
+   },
+   {
+    "da": "som regel",
+    "en": "as a rule"
+   },
+   {
+    "da": "tit",
+    "en": "often"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **oftest** bussen.",
+   "en": "I most often take the bus."
   }
  },
  "og": {
@@ -346,6 +2626,41 @@
    "en": "See you at five. – Okay!"
   }
  },
+ "okay så": {
+  "explanation": "\"Okay så\" means \"okay then\" and accepts what was said, or starts the next step: Okay så, vi gør det (Okay then, we'll do it). It is casual and friendly.",
+  "forms": [
+   {
+    "da": "Okay så.",
+    "en": "Okay then."
+   },
+   {
+    "da": "Okay så, vi gør det.",
+    "en": "Okay then, let's do it."
+   },
+   {
+    "da": "Okay så, hvad nu?",
+    "en": "Okay then, what now?"
+   }
+  ],
+  "related": [
+   {
+    "da": "nå men",
+    "en": "well then"
+   },
+   {
+    "da": "fint nok",
+    "en": "fair enough"
+   },
+   {
+    "da": "godt",
+    "en": "fine"
+   }
+  ],
+  "sentence": {
+   "da": "**Okay så**, vi mødes klokken otte.",
+   "en": "Okay then, we'll meet at eight."
+  }
+ },
  "oksekød": {
   "explanation": "\"Oksekød\" means \"beef\". It is made from okse (ox) and kød (meat), so it is literally ox meat. Kød on its own means any kind of meat.",
   "forms": [
@@ -453,6 +2768,49 @@
   "sentence": {
    "da": "Jeg steger kødet i **olie**.",
    "en": "I fry the meat in oil."
+  }
+ },
+ "olivenolie": {
+  "explanation": "\"Olivenolie\" means \"olive oil\", built from oliven (olive) and olie (oil). Use it for salad or frying: Jeg bruger olivenolie i salaten (I use olive oil in the salad).",
+  "forms": [
+   {
+    "da": "en olivenolie",
+    "en": "an olive oil"
+   },
+   {
+    "da": "olivenolien",
+    "en": "the olive oil"
+   },
+   {
+    "da": "olivenolier",
+    "en": "olive oils"
+   },
+   {
+    "da": "olivenolierne",
+    "en": "the olive oils"
+   }
+  ],
+  "related": [
+   {
+    "da": "rapsolie",
+    "en": "canola oil"
+   },
+   {
+    "da": "solsikkeolie",
+    "en": "sunflower oil"
+   },
+   {
+    "da": "kokosolie",
+    "en": "coconut oil"
+   },
+   {
+    "da": "eddike",
+    "en": "vinegar"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg steger fisken i **olivenolie**.",
+   "en": "I fry the fish in olive oil."
   }
  },
  "om": {
@@ -681,6 +3039,80 @@
    "en": "I work out three times a week."
   }
  },
+ "om året": {
+  "explanation": "\"Om året\" means \"per year\" and tells how often something happens: Jeg rejser tre gange om året (I travel three times a year). The same pattern works for a week: to gange om ugen (twice a week).",
+  "forms": [
+   {
+    "da": "to gange om året",
+    "en": "twice a year"
+   },
+   {
+    "da": "Vi ses fire gange om året",
+    "en": "We see each other four times a year"
+   },
+   {
+    "da": "Det koster 500 kroner om året",
+    "en": "It costs 500 kroner per year"
+   }
+  ],
+  "related": [
+   {
+    "da": "om dagen",
+    "en": "per day"
+   },
+   {
+    "da": "om måneden",
+    "en": "per month"
+   },
+   {
+    "da": "hvert år",
+    "en": "every year"
+   },
+   {
+    "da": "årlig",
+    "en": "yearly"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg besøger min mor to gange **om året**.",
+   "en": "I visit my mother twice a year."
+  }
+ },
+ "ombord": {
+  "explanation": "\"Ombord\" means \"on board\" a ship, plane or train: Hun går ombord på færgen (She goes on board the ferry). The opposite is i land (ashore): Vi går i land (We go ashore).",
+  "forms": [
+   {
+    "da": "Velkommen ombord!",
+    "en": "Welcome aboard!"
+   },
+   {
+    "da": "Alle er ombord",
+    "en": "Everyone is on board"
+   },
+   {
+    "da": "Der er wifi ombord",
+    "en": "There is wifi on board"
+   }
+  ],
+  "related": [
+   {
+    "da": "ombordstigning",
+    "en": "boarding"
+   },
+   {
+    "da": "overbord",
+    "en": "overboard"
+   },
+   {
+    "da": "at stige ombord",
+    "en": "to get on board"
+   }
+  ],
+  "sentence": {
+   "da": "Alle er nu **ombord**, og færgen sejler.",
+   "en": "Everyone is now on board and the ferry sails."
+  }
+ },
  "omkring": {
   "explanation": "\"Omkring\" means \"around\". It works for a place: Vi går omkring søen (We walk around the lake). It also works for a rough number or time: omkring tyve mennesker (about twenty people), omkring klokken otte (around eight o'clock).",
   "forms": [
@@ -716,6 +3148,45 @@
    "en": "There are many trees around the house."
   }
  },
+ "ond": {
+  "explanation": "\"Ond\" means \"evil\" or \"wicked\": en ond konge (an evil king). It also means \"painful\" in set phrases: Det gør ondt (It hurts) and Jeg har ondt i hovedet (I have a headache).",
+  "forms": [
+   {
+    "da": "en ond heks",
+    "en": "an evil witch"
+   },
+   {
+    "da": "et ondt rygte",
+    "en": "a nasty rumor"
+   },
+   {
+    "da": "onde ånder",
+    "en": "evil spirits"
+   }
+  ],
+  "related": [
+   {
+    "da": "dårlig",
+    "en": "bad"
+   },
+   {
+    "da": "slem",
+    "en": "nasty"
+   },
+   {
+    "da": "grusom",
+    "en": "cruel"
+   },
+   {
+    "da": "god",
+    "en": "good"
+   }
+  ],
+  "sentence": {
+   "da": "Heksen i historien er meget **ond**.",
+   "en": "The witch in the story is very evil."
+  }
+ },
  "ondt": {
   "explanation": "\"Ondt\" means \"pain\" or \"hurt\". Danish says Jeg har ondt i maven, literally I have pain in the stomach, where English says my stomach hurts. Do not say Jeg er ondt (I am pain).",
   "forms": [
@@ -749,6 +3220,45 @@
   "sentence": {
    "da": "Jeg har **ondt** i maven.",
    "en": "My stomach hurts."
+  }
+ },
+ "online": {
+  "explanation": "\"Online\" means \"online\" and is spelled the same as in English. It never changes with en-words and et-words: en online butik (an online store), et online kursus (an online course).",
+  "forms": [
+   {
+    "da": "Jeg er online nu",
+    "en": "I am online now"
+   },
+   {
+    "da": "Er du online?",
+    "en": "Are you online?"
+   },
+   {
+    "da": "et online møde",
+    "en": "an online meeting"
+   }
+  ],
+  "related": [
+   {
+    "da": "offline",
+    "en": "offline"
+   },
+   {
+    "da": "digital",
+    "en": "digital"
+   },
+   {
+    "da": "et net",
+    "en": "a net / the internet"
+   },
+   {
+    "da": "en internetforbindelse",
+    "en": "an internet connection"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **online** og skriver til sine venner.",
+   "en": "She is online and writing to her friends."
   }
  },
  "onsdag": {
@@ -825,6 +3335,193 @@
    "en": "The cat jumps up onto the table."
   }
  },
+ "opdateret": {
+  "explanation": "\"Opdateret\" means \"updated\", with the newest information or version: Er listen opdateret? (Is the list up to date?) It also fits a person who knows the latest news.",
+  "forms": [
+   {
+    "da": "en opdateret liste",
+    "en": "an updated list"
+   },
+   {
+    "da": "et opdateret program",
+    "en": "an updated program"
+   },
+   {
+    "da": "opdaterede programmer",
+    "en": "updated programs"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opdatere",
+    "en": "to update"
+   },
+   {
+    "da": "forældet",
+    "en": "outdated"
+   },
+   {
+    "da": "ny",
+    "en": "new"
+   },
+   {
+    "da": "aktuel",
+    "en": "current"
+   }
+  ],
+  "sentence": {
+   "da": "Min telefon er **opdateret** og virker nu fint.",
+   "en": "My phone is updated and now works fine."
+  }
+ },
+ "opførsel": {
+  "explanation": "\"Opførsel\" means \"behavior\", how a person acts around others: Hans opførsel var ikke i orden (His behavior was not okay). Pæn opførsel means \"good manners\".",
+  "forms": [
+   {
+    "da": "en opførsel",
+    "en": "a behavior"
+   },
+   {
+    "da": "opførslen",
+    "en": "the behavior"
+   },
+   {
+    "da": "god opførsel",
+    "en": "good behavior"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opføre sig",
+    "en": "to behave"
+   },
+   {
+    "da": "adfærd",
+    "en": "conduct"
+   },
+   {
+    "da": "høflig",
+    "en": "polite"
+   },
+   {
+    "da": "uhøflig",
+    "en": "rude"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **opførsel** over for børnene var meget pæn.",
+   "en": "His behavior toward the children was very nice."
+  }
+ },
+ "opladning": {
+  "explanation": "\"Opladning\" means \"charging\", giving a battery power again: Opladningen tager en time (The charging takes an hour). The action is at oplade (to charge).",
+  "forms": [
+   {
+    "da": "opladning",
+    "en": "charging"
+   },
+   {
+    "da": "opladningen",
+    "en": "the charging"
+   },
+   {
+    "da": "Telefonen er på opladning",
+    "en": "The phone is charging"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ladekabel",
+    "en": "a charging cable"
+   },
+   {
+    "da": "en oplader",
+    "en": "a charger"
+   },
+   {
+    "da": "strøm",
+    "en": "power"
+   }
+  ],
+  "sentence": {
+   "da": "Min telefon er på **opladning** lige nu.",
+   "en": "My phone is charging right now."
+  }
+ },
+ "opmærksom": {
+  "explanation": "\"Opmærksom\" means \"attentive\" or \"aware\": Vær opmærksom! (Pay attention!) With på (on) it means aware of something: Jeg er opmærksom på problemet (I am aware of the problem).",
+  "forms": [
+   {
+    "da": "en opmærksom elev",
+    "en": "an attentive student"
+   },
+   {
+    "da": "et opmærksomt barn",
+    "en": "an attentive child"
+   },
+   {
+    "da": "opmærksomme gæster",
+    "en": "attentive guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opmærksomhed",
+    "en": "attention"
+   },
+   {
+    "da": "uopmærksom",
+    "en": "inattentive"
+   },
+   {
+    "da": "at mærke",
+    "en": "to notice"
+   },
+   {
+    "da": "koncentreret",
+    "en": "focused"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter er **opmærksom** og lytter godt.",
+   "en": "My daughter is attentive and listens well."
+  }
+ },
+ "opmærksomhed": {
+  "explanation": "\"Opmærksomhed\" means \"attention\": Hun fik meget opmærksomhed (She got a lot of attention). To pay attention, say at være opmærksom (to be attentive).",
+  "forms": [
+   {
+    "da": "opmærksomhed",
+    "en": "attention"
+   },
+   {
+    "da": "opmærksomheden",
+    "en": "the attention"
+   },
+   {
+    "da": "få opmærksomhed",
+    "en": "to get attention"
+   }
+  ],
+  "related": [
+   {
+    "da": "en koncentration",
+    "en": "concentration"
+   },
+   {
+    "da": "et fokus",
+    "en": "focus"
+   },
+   {
+    "da": "at lægge mærke til",
+    "en": "to notice"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet vil have lidt **opmærksomhed**.",
+   "en": "The child wants a little attention."
+  }
+ },
  "oppe": {
   "explanation": "\"Oppe\" means \"up there\", for where something is. Compare Katten hopper op på bordet (The cat jumps up onto the table) with Katten er oppe på bordet (The cat is up on the table). Er du oppe? (Are you up?) asks whether someone is out of bed.",
   "forms": [
@@ -895,6 +3592,80 @@
    "en": "The toilet is occupied right now."
   }
  },
+ "optimistisk": {
+  "explanation": "\"Optimistisk\" means \"optimistic\" and describes someone who expects things to go well: Jeg er optimistisk om fremtiden (I am optimistic about the future). The opposite is pessimistisk (pessimistic).",
+  "forms": [
+   {
+    "da": "en optimistisk mand",
+    "en": "an optimistic man"
+   },
+   {
+    "da": "et optimistisk svar",
+    "en": "an optimistic answer"
+   },
+   {
+    "da": "optimistiske folk",
+    "en": "optimistic people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en optimist",
+    "en": "an optimist"
+   },
+   {
+    "da": "positiv",
+    "en": "positive"
+   },
+   {
+    "da": "håbefuld",
+    "en": "hopeful"
+   },
+   {
+    "da": "negativ",
+    "en": "negative"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **optimistisk** og tror altid på det bedste.",
+   "en": "She is optimistic and always believes in the best."
+  }
+ },
+ "opvaskemiddel": {
+  "explanation": "\"Opvaskemiddel\" means \"dish soap\": Jeg bruger opvaskemiddel til glas og kopper (I use dish soap on glasses and cups). It is not for clothes; for those you use vaskepulver (laundry detergent).",
+  "forms": [
+   {
+    "da": "opvaskemidlet",
+    "en": "the dish soap"
+   },
+   {
+    "da": "lidt opvaskemiddel",
+    "en": "a little dish soap"
+   },
+   {
+    "da": "en flaske opvaskemiddel",
+    "en": "a bottle of dish soap"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opvaskemaskine",
+    "en": "a dishwasher"
+   },
+   {
+    "da": "et rengøringsmiddel",
+    "en": "a cleaning product"
+   },
+   {
+    "da": "at vaske op",
+    "en": "to wash dishes"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **opvaskemiddel**, når jeg vasker op.",
+   "en": "I use dish soap when I wash dishes."
+  }
+ },
  "orange": {
   "explanation": "\"Orange\" means \"orange\", the color. For the fruit, Danes say en appelsin (an orange), not orange. The color word never changes, whatever it describes: en orange bil (an orange car), orange biler (orange cars).",
   "forms": [
@@ -932,6 +3703,123 @@
   "sentence": {
    "da": "Gulerødder er **orange**.",
    "en": "Carrots are orange."
+  }
+ },
+ "ordentlig": {
+  "explanation": "\"Ordentlig\" means \"proper\" or \"decent\", done well and as it should be: Jeg vil have en ordentlig middag (I want a proper dinner). For a person it means well-behaved: en ordentlig mand (a decent man).",
+  "forms": [
+   {
+    "da": "en ordentlig jakke",
+    "en": "a proper jacket"
+   },
+   {
+    "da": "et ordentligt svar",
+    "en": "a proper answer"
+   },
+   {
+    "da": "ordentlige sko",
+    "en": "proper shoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "rigtig",
+    "en": "real, proper"
+   },
+   {
+    "da": "anstændig",
+    "en": "decent"
+   },
+   {
+    "da": "grundig",
+    "en": "thorough"
+   },
+   {
+    "da": "sjusket",
+    "en": "sloppy"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal have **ordentlig** mad, ikke bare chips.",
+   "en": "You must have proper food, not just chips."
+  }
+ },
+ "organiseret": {
+  "explanation": "\"Organiseret\" means \"organized\", with everything in order and planned: Hun er altid organiseret (She is always organized). Velorganiseret (well organized) is also common.",
+  "forms": [
+   {
+    "da": "en organiseret kollega",
+    "en": "an organized coworker"
+   },
+   {
+    "da": "et organiseret skab",
+    "en": "an organized cupboard"
+   },
+   {
+    "da": "organiserede møder",
+    "en": "organized meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "struktureret",
+    "en": "structured"
+   },
+   {
+    "da": "rodet",
+    "en": "messy"
+   },
+   {
+    "da": "planlagt",
+    "en": "planned"
+   },
+   {
+    "da": "at organisere",
+    "en": "to organize"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **organiseret** og kommer aldrig for sent.",
+   "en": "She is organized and never comes late."
+  }
+ },
+ "original": {
+  "explanation": "\"Original\" means \"original\": the first real one, not a copy. It can also mean \"creative and new\": en original idé (an original idea).",
+  "forms": [
+   {
+    "da": "en original tegning",
+    "en": "an original drawing"
+   },
+   {
+    "da": "et originalt maleri",
+    "en": "an original painting"
+   },
+   {
+    "da": "originale malerier",
+    "en": "original paintings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kopi",
+    "en": "a copy"
+   },
+   {
+    "da": "ægte",
+    "en": "genuine"
+   },
+   {
+    "da": "falsk",
+    "en": "fake"
+   },
+   {
+    "da": "uoriginal",
+    "en": "unoriginal"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **original** tegning, ikke en kopi.",
+   "en": "It is an original drawing, not a copy."
   }
  },
  "os": {
@@ -1193,6 +4081,119 @@
   "sentence": {
    "da": "Jeg leder **overalt** efter nøglen.",
    "en": "I look everywhere for the key."
+  }
+ },
+ "overfor": {
+  "explanation": "\"Overfor\" means \"opposite\" or \"across from\": Banken ligger overfor skolen (The bank is across from the school). It can also mean \"facing\": Jeg står overfor et valg (I am facing a choice).",
+  "forms": [
+   {
+    "da": "overfor skolen",
+    "en": "across from the school"
+   },
+   {
+    "da": "overfor mig",
+    "en": "opposite me"
+   },
+   {
+    "da": "overfor huset",
+    "en": "opposite the house"
+   }
+  ],
+  "related": [
+   {
+    "da": "ved siden af",
+    "en": "next to"
+   },
+   {
+    "da": "foran",
+    "en": "in front of"
+   },
+   {
+    "da": "bag",
+    "en": "behind"
+   },
+   {
+    "da": "mellem",
+    "en": "between"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven bor **overfor** biblioteket.",
+   "en": "My friend lives across from the library."
+  }
+ },
+ "overhovedet": {
+  "explanation": "\"Overhovedet\" means \"at all\" and is used with ikke (not) or in questions: Jeg forstår overhovedet ikke (I do not understand at all).",
+  "forms": [
+   {
+    "da": "Er han overhovedet hjemme?",
+    "en": "Is he home at all?"
+   },
+   {
+    "da": "Det er overhovedet ikke svært.",
+    "en": "It is not difficult at all."
+   },
+   {
+    "da": "Har du overhovedet spist?",
+    "en": "Have you eaten at all?"
+   }
+  ],
+  "related": [
+   {
+    "da": "slet ikke",
+    "en": "not at all"
+   },
+   {
+    "da": "i det hele taget",
+    "en": "at all"
+   },
+   {
+    "da": "slet ingenting",
+    "en": "nothing at all"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **overhovedet** ikke tid i dag.",
+   "en": "I have no time at all today."
+  }
+ },
+ "overraskende": {
+  "explanation": "\"Overraskende\" means \"surprising\" and describes news or events that you did not expect: Det er overraskende nyt (That is surprising news). To say how you feel, use overrasket: Jeg er overrasket (I am surprised).",
+  "forms": [
+   {
+    "da": "en overraskende nyhed",
+    "en": "a surprising piece of news"
+   },
+   {
+    "da": "et overraskende svar",
+    "en": "a surprising answer"
+   },
+   {
+    "da": "overraskende resultater",
+    "en": "surprising results"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overraskelse",
+    "en": "a surprise"
+   },
+   {
+    "da": "at overraske",
+    "en": "to surprise"
+   },
+   {
+    "da": "forudsigelig",
+    "en": "predictable"
+   },
+   {
+    "da": "uventet",
+    "en": "unexpected"
+   }
+  ],
+  "sentence": {
+   "da": "Resultatet var **overraskende**.",
+   "en": "The result was surprising."
   }
  },
  "overskyet": {

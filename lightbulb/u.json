@@ -1,4 +1,375 @@
 {
+ "at udforske": {
+  "explanation": "\"At udforske\" means \"to explore\", to go and find out about a place or a subject: Vi udforsker den gamle by (We explore the old town). Hun udforsker nye ideer (She explores new ideas).",
+  "forms": [
+   {
+    "da": "at udforske",
+    "en": "to explore"
+   },
+   {
+    "da": "jeg udforsker",
+    "en": "I explore"
+   },
+   {
+    "da": "jeg udforskede",
+    "en": "I explored"
+   },
+   {
+    "da": "jeg har udforsket",
+    "en": "I have explored"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undersøge",
+    "en": "to investigate"
+   },
+   {
+    "da": "at opdage",
+    "en": "to discover"
+   },
+   {
+    "da": "at forske",
+    "en": "to do research"
+   },
+   {
+    "da": "en opdagelsesrejsende",
+    "en": "an explorer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **udforske** den gamle bydel i morgen.",
+   "en": "I want to explore the old part of town tomorrow."
+  }
+ },
+ "at udfylde": {
+  "explanation": "\"At udfylde\" means \"to fill in\" and \"to fill out\", like a form: Hun udfylder ansøgningen (She fills out the application). To fill a glass, use at fylde (to fill) instead.",
+  "forms": [
+   {
+    "da": "at udfylde",
+    "en": "to fill in / fill out"
+   },
+   {
+    "da": "jeg udfylder",
+    "en": "I fill in / fill out"
+   },
+   {
+    "da": "jeg udfyldte",
+    "en": "I filled in / filled out"
+   },
+   {
+    "da": "jeg har udfyldt",
+    "en": "I have filled in / filled out"
+   }
+  ],
+  "related": [
+   {
+    "da": "et skema",
+    "en": "a form"
+   },
+   {
+    "da": "en blanket",
+    "en": "a form (to fill in)"
+   },
+   {
+    "da": "at skrive under",
+    "en": "to sign"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **udfylde** hele formularen og skrive under.",
+   "en": "You have to fill out the whole form and sign it."
+  }
+ },
+ "at udføre": {
+  "explanation": "\"At udføre\" means \"to carry out\", for a job or a plan: Han udfører arbejdet (He carries out the work). It is also used for tests: Vi udfører en test (We are running a test).",
+  "forms": [
+   {
+    "da": "at udføre",
+    "en": "to carry out"
+   },
+   {
+    "da": "jeg udfører",
+    "en": "I carry out"
+   },
+   {
+    "da": "jeg udførte",
+    "en": "I carried out"
+   },
+   {
+    "da": "jeg har udført",
+    "en": "I have carried out"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gennemføre",
+    "en": "to complete"
+   },
+   {
+    "da": "at fuldføre",
+    "en": "to finish"
+   },
+   {
+    "da": "at udrette",
+    "en": "to accomplish"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal **udføre** opgaven før fredag.",
+   "en": "She has to carry out the task before Friday."
+  }
+ },
+ "at udtale": {
+  "explanation": "\"At udtale\" means \"to pronounce\", to say a word out loud: Hvordan udtaler man dette ord? (How do you pronounce this word?) The matching en-word is en udtale (a pronunciation): Din udtale er god (Your pronunciation is good).",
+  "forms": [
+   {
+    "da": "at udtale",
+    "en": "to pronounce"
+   },
+   {
+    "da": "jeg udtaler",
+    "en": "I pronounce"
+   },
+   {
+    "da": "jeg udtalte",
+    "en": "I pronounced"
+   },
+   {
+    "da": "jeg har udtalt",
+    "en": "I have pronounced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sige",
+    "en": "to say"
+   },
+   {
+    "da": "at læse højt",
+    "en": "to read aloud"
+   },
+   {
+    "da": "at stave",
+    "en": "to spell"
+   },
+   {
+    "da": "en accent",
+    "en": "an accent"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **udtale** dit navn for mig?",
+   "en": "Can you pronounce your name for me?"
+  }
+ },
+ "at udvikle": {
+  "explanation": "\"At udvikle\" means \"to develop\", creating or growing something: Firmaet udvikler en ny app (The company is developing a new app). With sig (oneself) after it, it means to grow and change: Børn udvikler sig hurtigt (Children develop quickly).",
+  "forms": [
+   {
+    "da": "at udvikle",
+    "en": "to develop"
+   },
+   {
+    "da": "jeg udvikler",
+    "en": "I develop"
+   },
+   {
+    "da": "jeg udviklede",
+    "en": "I developed"
+   },
+   {
+    "da": "jeg har udviklet",
+    "en": "I have developed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   },
+   {
+    "da": "at vokse",
+    "en": "to grow"
+   },
+   {
+    "da": "at opfinde",
+    "en": "to invent"
+   },
+   {
+    "da": "at skabe",
+    "en": "to create"
+   }
+  ],
+  "sentence": {
+   "da": "De vil **udvikle** en ny app til børn.",
+   "en": "They want to develop a new app for children."
+  }
+ },
+ "at underskrive": {
+  "explanation": "\"At underskrive\" means \"to sign\" a paper like a contract: Jeg underskriver kontrakten (I sign the contract). In everyday speech, many say at skrive under (to sign) instead.",
+  "forms": [
+   {
+    "da": "at underskrive",
+    "en": "to sign"
+   },
+   {
+    "da": "jeg underskriver",
+    "en": "I sign"
+   },
+   {
+    "da": "jeg underskrev",
+    "en": "I signed"
+   },
+   {
+    "da": "jeg har underskrevet",
+    "en": "I have signed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en underskrift",
+    "en": "a signature"
+   },
+   {
+    "da": "at undertegne",
+    "en": "to sign formally"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **underskrive** papiret her.",
+   "en": "You have to sign the paper here."
+  }
+ },
+ "at undersøge": {
+  "explanation": "\"At undersøge\" means \"to investigate\" and \"to examine\": Politiet undersøger sagen (The police are investigating the case). Lægen undersøger mig (The doctor examines me).",
+  "forms": [
+   {
+    "da": "at undersøge",
+    "en": "to examine / investigate"
+   },
+   {
+    "da": "jeg undersøger",
+    "en": "I examine / investigate"
+   },
+   {
+    "da": "jeg undersøgte",
+    "en": "I examined / investigated"
+   },
+   {
+    "da": "jeg har undersøgt",
+    "en": "I have examined / investigated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en undersøgelse",
+    "en": "an examination / study"
+   },
+   {
+    "da": "at tjekke",
+    "en": "to check"
+   },
+   {
+    "da": "at granske",
+    "en": "to scrutinize"
+   },
+   {
+    "da": "at studere",
+    "en": "to study"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **undersøge** problemet i dag.",
+   "en": "We have to look into the problem today."
+  }
+ },
+ "at undervise": {
+  "explanation": "\"At undervise\" means \"to teach\", as a job or in a class: Hun underviser i matematik (She teaches math). It is for the teacher. The student uses at lære (to learn): Jeg lærer dansk (I am learning Danish).",
+  "forms": [
+   {
+    "da": "at undervise",
+    "en": "to teach"
+   },
+   {
+    "da": "jeg underviser",
+    "en": "I teach"
+   },
+   {
+    "da": "jeg underviste",
+    "en": "I taught"
+   },
+   {
+    "da": "jeg har undervist",
+    "en": "I have taught"
+   }
+  ],
+  "related": [
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "at uddanne",
+    "en": "to educate"
+   },
+   {
+    "da": "en skole",
+    "en": "a school"
+   },
+   {
+    "da": "undervisning",
+    "en": "teaching"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster skal **undervise** en klasse i morgen.",
+   "en": "My sister is going to teach a class tomorrow."
+  }
+ },
+ "at undgå": {
+  "explanation": "\"At undgå\" means \"to avoid\", staying away from something yourself: Jeg undgår sukker (I avoid sugar). To stop something from happening at all, use at forhindre (to prevent).",
+  "forms": [
+   {
+    "da": "at undgå",
+    "en": "to avoid"
+   },
+   {
+    "da": "jeg undgår",
+    "en": "I avoid"
+   },
+   {
+    "da": "jeg undgik",
+    "en": "I avoided"
+   },
+   {
+    "da": "jeg har undgået",
+    "en": "I have avoided"
+   }
+  ],
+  "related": [
+   {
+    "da": "at holde sig væk fra",
+    "en": "to keep away from"
+   },
+   {
+    "da": "at opsøge",
+    "en": "to seek out"
+   },
+   {
+    "da": "at sky",
+    "en": "to shun"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **undgå** trafikken om morgenen.",
+   "en": "I would like to avoid the traffic in the morning."
+  }
+ },
  "at undskylde": {
   "explanation": "\"At undskylde\" means \"to apologize\", and also \"to excuse\". The short word Undskyld means both \"Sorry\" and \"Excuse me\". To say what you are sorry for, use Jeg undskylder for ... (I apologize for ...).",
   "forms": [
@@ -36,6 +407,529 @@
   "sentence": {
    "da": "Jeg vil gerne **undskylde** for det.",
    "en": "I would like to apologize for that."
+  }
+ },
+ "at uploade": {
+  "explanation": "\"At uploade\" means \"to upload\", to send a file from your device to the internet: Hun uploader en video (She uploads a video).",
+  "forms": [
+   {
+    "da": "at uploade",
+    "en": "to upload"
+   },
+   {
+    "da": "jeg uploader",
+    "en": "I upload"
+   },
+   {
+    "da": "jeg uploadede",
+    "en": "I uploaded"
+   },
+   {
+    "da": "jeg har uploadet",
+    "en": "I have uploaded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at downloade",
+    "en": "to download"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "en fil",
+    "en": "a file"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **uploade** billederne til hjemmesiden.",
+   "en": "I want to upload the photos to the website."
+  }
+ },
+ "en uddannelse": {
+  "explanation": "\"En uddannelse\" means \"an education\", a whole course of study or training: Hun tager en uddannelse som sygeplejerske (She is studying to become a nurse).",
+  "forms": [
+   {
+    "da": "en uddannelse",
+    "en": "an education"
+   },
+   {
+    "da": "uddannelsen",
+    "en": "the education"
+   },
+   {
+    "da": "uddannelser",
+    "en": "educations"
+   },
+   {
+    "da": "uddannelserne",
+    "en": "the educations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at uddanne",
+    "en": "to educate"
+   },
+   {
+    "da": "en læreplads",
+    "en": "an apprenticeship"
+   },
+   {
+    "da": "et studie",
+    "en": "a study program"
+   },
+   {
+    "da": "uddannet",
+    "en": "educated"
+   }
+  ],
+  "sentence": {
+   "da": "Han har en god **uddannelse** og et godt job.",
+   "en": "He has a good education and a good job."
+  }
+ },
+ "en udenrigsrejse": {
+  "explanation": "\"En udenrigsrejse\" means \"a trip abroad\", a trip to another country: Jeg har brug for et pas til en udenrigsrejse (I need a passport for a trip abroad).",
+  "forms": [
+   {
+    "da": "en udenrigsrejse",
+    "en": "a trip abroad"
+   },
+   {
+    "da": "udenrigsrejsen",
+    "en": "the trip abroad"
+   },
+   {
+    "da": "udenrigsrejser",
+    "en": "trips abroad"
+   },
+   {
+    "da": "udenrigsrejserne",
+    "en": "the trips abroad"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indenrigsrejse",
+    "en": "a domestic trip"
+   },
+   {
+    "da": "et visum",
+    "en": "a visa"
+   },
+   {
+    "da": "en grænse",
+    "en": "a border"
+   },
+   {
+    "da": "et udlandsophold",
+    "en": "a stay abroad"
+   }
+  ],
+  "sentence": {
+   "da": "Min første **udenrigsrejse** gik til Tyskland.",
+   "en": "My first trip abroad went to Germany."
+  }
+ },
+ "en udflugt": {
+  "explanation": "\"En udflugt\" means \"an excursion\", a short trip for fun, often for one day: Klassen tager på udflugt (The class is going on an excursion).",
+  "forms": [
+   {
+    "da": "en udflugt",
+    "en": "an excursion"
+   },
+   {
+    "da": "udflugten",
+    "en": "the excursion"
+   },
+   {
+    "da": "udflugter",
+    "en": "excursions"
+   },
+   {
+    "da": "udflugterne",
+    "en": "the excursions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tur",
+    "en": "a trip"
+   },
+   {
+    "da": "en rejse",
+    "en": "a journey"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   }
+  ],
+  "sentence": {
+   "da": "I morgen tager vi på **udflugt** til stranden.",
+   "en": "Tomorrow we are going on an excursion to the beach."
+  }
+ },
+ "en udfordring": {
+  "explanation": "\"En udfordring\" means \"a challenge\", something difficult but possible: Det nye job er en spændende udfordring (The new job is an exciting challenge). It comes from at udfordre (to challenge).",
+  "forms": [
+   {
+    "da": "en udfordring",
+    "en": "a challenge"
+   },
+   {
+    "da": "udfordringen",
+    "en": "the challenge"
+   },
+   {
+    "da": "udfordringer",
+    "en": "challenges"
+   },
+   {
+    "da": "udfordringerne",
+    "en": "the challenges"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "et problem",
+    "en": "a problem"
+   },
+   {
+    "da": "vanskelig",
+    "en": "difficult"
+   }
+  ],
+  "sentence": {
+   "da": "At lære dansk er en stor **udfordring**.",
+   "en": "Learning Danish is a big challenge."
+  }
+ },
+ "en udgang": {
+  "explanation": "\"En udgang\" means \"an exit\", a way out of a building or a place: Hvor er udgangen? (Where is the exit?) On a highway, the exit is called en afkørsel (an exit ramp), not udgang.",
+  "forms": [
+   {
+    "da": "en udgang",
+    "en": "an exit"
+   },
+   {
+    "da": "udgangen",
+    "en": "the exit"
+   },
+   {
+    "da": "udgange",
+    "en": "exits"
+   },
+   {
+    "da": "udgangene",
+    "en": "the exits"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indgang",
+    "en": "an entrance"
+   },
+   {
+    "da": "en nødudgang",
+    "en": "an emergency exit"
+   },
+   {
+    "da": "en udvej",
+    "en": "a way out"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **udgang** bag ved butikken.",
+   "en": "There is an exit behind the store."
+  }
+ },
+ "en udlejer": {
+  "explanation": "\"En udlejer\" means \"a landlord\", the person who rents out a home: Min udlejer hedder Jensen (My landlord is called Jensen). It is built from at udleje (to rent out).",
+  "forms": [
+   {
+    "da": "en udlejer",
+    "en": "a landlord"
+   },
+   {
+    "da": "udlejeren",
+    "en": "the landlord"
+   },
+   {
+    "da": "udlejere",
+    "en": "landlords"
+   },
+   {
+    "da": "udlejerne",
+    "en": "the landlords"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lejer",
+    "en": "a tenant"
+   },
+   {
+    "da": "at leje",
+    "en": "to rent"
+   },
+   {
+    "da": "en husleje",
+    "en": "rent"
+   },
+   {
+    "da": "en ejer",
+    "en": "an owner"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler huslejen til min **udlejer** hver måned.",
+   "en": "I pay the rent to my landlord every month."
+  }
+ },
+ "en udlejningsbil": {
+  "explanation": "\"En udlejningsbil\" means \"a rental car\", a car you pay to use for a few days: Vi har bestilt en udlejningsbil til ferien (We have booked a rental car for the vacation). It is built from udlejning (renting out) and bil (car).",
+  "forms": [
+   {
+    "da": "en udlejningsbil",
+    "en": "a rental car"
+   },
+   {
+    "da": "udlejningsbilen",
+    "en": "the rental car"
+   },
+   {
+    "da": "udlejningsbiler",
+    "en": "rental cars"
+   },
+   {
+    "da": "udlejningsbilerne",
+    "en": "the rental cars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lejebil",
+    "en": "a rental car"
+   },
+   {
+    "da": "at leje",
+    "en": "to rent"
+   },
+   {
+    "da": "en lejer",
+    "en": "a renter"
+   },
+   {
+    "da": "at udleje",
+    "en": "to rent out"
+   }
+  ],
+  "sentence": {
+   "da": "Vi henter vores **udlejningsbil** i lufthavnen.",
+   "en": "We pick up our rental car at the airport."
+  }
+ },
+ "en udlænding": {
+  "explanation": "\"En udlænding\" means \"a foreigner\", a person from another country: Jeg er udlænding i Danmark (I am a foreigner in Denmark).",
+  "forms": [
+   {
+    "da": "en udlænding",
+    "en": "a foreigner"
+   },
+   {
+    "da": "udlændingen",
+    "en": "the foreigner"
+   },
+   {
+    "da": "udlændinge",
+    "en": "foreigners"
+   },
+   {
+    "da": "udlændingene",
+    "en": "the foreigners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indvandrer",
+    "en": "an immigrant"
+   },
+   {
+    "da": "en dansker",
+    "en": "a Dane"
+   },
+   {
+    "da": "en fremmed",
+    "en": "a stranger"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **udlænding** og kommer fra Brasilien.",
+   "en": "He is a foreigner and comes from Brazil."
+  }
+ },
+ "en udsigt": {
+  "explanation": "\"En udsigt\" means \"a view\", what you can see from a place: Der er en flot udsigt fra værelset (There is a nice view from the room). It can also mean \"prospect\": Der er udsigt til regn (There is a chance of rain).",
+  "forms": [
+   {
+    "da": "en udsigt",
+    "en": "a view"
+   },
+   {
+    "da": "udsigten",
+    "en": "the view"
+   },
+   {
+    "da": "udsigter",
+    "en": "views"
+   },
+   {
+    "da": "udsigterne",
+    "en": "the views"
+   }
+  ],
+  "related": [
+   {
+    "da": "et syn",
+    "en": "a sight"
+   },
+   {
+    "da": "et landskab",
+    "en": "a landscape"
+   },
+   {
+    "da": "et udkig",
+    "en": "a lookout"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en flot **udsigt** over havet.",
+   "en": "We have a beautiful view of the sea."
+  }
+ },
+ "en udstilling": {
+  "explanation": "\"En udstilling\" means \"an exhibition\", where art or objects are shown to visitors: Vi ser en udstilling på museet (We are seeing an exhibition at the museum). The verb is at udstille (to exhibit).",
+  "forms": [
+   {
+    "da": "en udstilling",
+    "en": "an exhibition"
+   },
+   {
+    "da": "udstillingen",
+    "en": "the exhibition"
+   },
+   {
+    "da": "udstillinger",
+    "en": "exhibitions"
+   },
+   {
+    "da": "udstillingerne",
+    "en": "the exhibitions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et galleri",
+    "en": "a gallery"
+   },
+   {
+    "da": "en messe",
+    "en": "a fair"
+   },
+   {
+    "da": "en fremvisning",
+    "en": "a showing"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal se en **udstilling** på museet i dag.",
+   "en": "We are going to see an exhibition at the museum today."
+  }
+ },
+ "en udtale": {
+  "explanation": "\"En udtale\" means \"a pronunciation\", how a word sounds when you say it: Hun har en flot udtale (She has a nice pronunciation). The same word also works as a verb: at udtale (to pronounce).",
+  "forms": [
+   {
+    "da": "en udtale",
+    "en": "a pronunciation"
+   },
+   {
+    "da": "udtalen",
+    "en": "the pronunciation"
+   },
+   {
+    "da": "udtaler",
+    "en": "pronunciations"
+   },
+   {
+    "da": "udtalerne",
+    "en": "the pronunciations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tale",
+    "en": "a speech"
+   },
+   {
+    "da": "en accent",
+    "en": "an accent"
+   },
+   {
+    "da": "at stave",
+    "en": "to spell"
+   }
+  ],
+  "sentence": {
+   "da": "Din **udtale** er god, og jeg forstår dig.",
+   "en": "Your pronunciation is good and I understand you."
+  }
+ },
+ "en udvikling": {
+  "explanation": "\"En udvikling\" means \"a development\", a change over time: Der er en hurtig udvikling i byen (There is rapid development in the city). The action is at udvikle (to develop).",
+  "forms": [
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   },
+   {
+    "da": "udviklingen",
+    "en": "the development"
+   },
+   {
+    "da": "udviklinger",
+    "en": "developments"
+   },
+   {
+    "da": "udviklingerne",
+    "en": "the developments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fremgang",
+    "en": "progress"
+   },
+   {
+    "da": "en vækst",
+    "en": "growth"
+   },
+   {
+    "da": "en tilbagegang",
+    "en": "a decline"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ser en positiv **udvikling** i skolen.",
+   "en": "We see a positive development at the school."
   }
  },
  "en uge": {
@@ -81,6 +975,45 @@
    "en": "A week has seven days."
   }
  },
+ "en ugeavis": {
+  "explanation": "\"En ugeavis\" means \"a weekly local paper\", often free. It is built from uge (week) and avis (newspaper). It has local news: Ugeavisen har nyt fra byen (The local paper has news from town).",
+  "forms": [
+   {
+    "da": "en ugeavis",
+    "en": "a weekly local paper"
+   },
+   {
+    "da": "ugeavisen",
+    "en": "the weekly local paper"
+   },
+   {
+    "da": "ugeaviser",
+    "en": "weekly local papers"
+   },
+   {
+    "da": "ugeaviserne",
+    "en": "the weekly local papers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dagblad",
+    "en": "a daily paper"
+   },
+   {
+    "da": "en lokalavis",
+    "en": "a local paper"
+   },
+   {
+    "da": "et blad",
+    "en": "a magazine"
+   }
+  ],
+  "sentence": {
+   "da": "Vi får en **ugeavis** i postkassen hver uge.",
+   "en": "We get a weekly local paper in the mailbox every week."
+  }
+ },
  "en ugedag": {
   "explanation": "\"En ugedag\" means \"a day of the week\", such as Monday or Friday. It is made from uge (week) and dag (day). Days of the week start with a small letter in Danish: mandag (Monday).",
   "forms": [
@@ -122,6 +1055,588 @@
   "sentence": {
    "da": "Mandag er en **ugedag**.",
    "en": "Monday is a day of the week."
+  }
+ },
+ "en ugle": {
+  "explanation": "\"En ugle\" means \"an owl\", a bird that hunts at night: Uglen sidder i træet og kigger (The owl sits in the tree and looks). A person who stays up late is en natugle (a night owl).",
+  "forms": [
+   {
+    "da": "en ugle",
+    "en": "an owl"
+   },
+   {
+    "da": "uglen",
+    "en": "the owl"
+   },
+   {
+    "da": "ugler",
+    "en": "owls"
+   },
+   {
+    "da": "uglerne",
+    "en": "the owls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en falk",
+    "en": "a falcon"
+   },
+   {
+    "da": "en høg",
+    "en": "a hawk"
+   },
+   {
+    "da": "en ørn",
+    "en": "an eagle"
+   },
+   {
+    "da": "en fugl",
+    "en": "a bird"
+   }
+  ],
+  "sentence": {
+   "da": "En **ugle** jager om natten.",
+   "en": "An owl hunts at night."
+  }
+ },
+ "en ulempe": {
+  "explanation": "\"En ulempe\" means \"a disadvantage\", a problem that comes with something: Det er en ulempe, at der ikke er parkering (It is a disadvantage that there is no parking). The opposite is en fordel (an advantage).",
+  "forms": [
+   {
+    "da": "en ulempe",
+    "en": "a disadvantage"
+   },
+   {
+    "da": "ulempen",
+    "en": "the disadvantage"
+   },
+   {
+    "da": "ulemper",
+    "en": "disadvantages"
+   },
+   {
+    "da": "ulemperne",
+    "en": "the disadvantages"
+   }
+  ],
+  "related": [
+   {
+    "da": "en svaghed",
+    "en": "a weakness"
+   },
+   {
+    "da": "en hindring",
+    "en": "an obstacle"
+   },
+   {
+    "da": "en mangel",
+    "en": "a lack"
+   },
+   {
+    "da": "et minus",
+    "en": "a minus"
+   }
+  ],
+  "sentence": {
+   "da": "Den store **ulempe** er, at huset er dyrt.",
+   "en": "The big disadvantage is that the house is expensive."
+  }
+ },
+ "en ultralydsscanning": {
+  "explanation": "\"En ultralydsscanning\" means \"an ultrasound scan\", used to look inside the body, for example to see a baby: Hun skal til ultralydsscanning (She is going for an ultrasound scan). The short word is en scanning (a scan).",
+  "forms": [
+   {
+    "da": "en ultralydsscanning",
+    "en": "an ultrasound scan"
+   },
+   {
+    "da": "ultralydsscanningen",
+    "en": "the ultrasound scan"
+   },
+   {
+    "da": "ultralydsscanninger",
+    "en": "ultrasound scans"
+   },
+   {
+    "da": "ultralydsscanningerne",
+    "en": "the ultrasound scans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en undersøgelse",
+    "en": "an examination"
+   },
+   {
+    "da": "en røntgenundersøgelse",
+    "en": "an X-ray exam"
+   },
+   {
+    "da": "en MR-scanning",
+    "en": "an MRI scan"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal til **ultralydsscanning**, fordi hun er gravid.",
+   "en": "She is going for an ultrasound scan because she is pregnant."
+  }
+ },
+ "en ulv": {
+  "explanation": "\"En ulv\" means \"a wolf\", the wild animal that looks like a big dog: Ulven hyler om natten (The wolf howls at night). The tame cousin is en hund (a dog).",
+  "forms": [
+   {
+    "da": "en ulv",
+    "en": "a wolf"
+   },
+   {
+    "da": "ulven",
+    "en": "the wolf"
+   },
+   {
+    "da": "ulve",
+    "en": "wolves"
+   },
+   {
+    "da": "ulvene",
+    "en": "the wolves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ræv",
+    "en": "a fox"
+   },
+   {
+    "da": "en bjørn",
+    "en": "a bear"
+   },
+   {
+    "da": "en ulveunge",
+    "en": "a wolf cub"
+   },
+   {
+    "da": "en flok",
+    "en": "a pack / flock"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hørte en **ulv** hyle i skoven.",
+   "en": "I heard a wolf howl in the forest."
+  }
+ },
+ "en ulykke": {
+  "explanation": "\"En ulykke\" means \"an accident\", and also \"a misfortune\": Der var en ulykke på motorvejen (There was an accident on the highway). It is built from u- (un-) + lykke (luck, happiness).",
+  "forms": [
+   {
+    "da": "en ulykke",
+    "en": "an accident"
+   },
+   {
+    "da": "ulykken",
+    "en": "the accident"
+   },
+   {
+    "da": "ulykker",
+    "en": "accidents"
+   },
+   {
+    "da": "ulykkerne",
+    "en": "the accidents"
+   }
+  ],
+  "related": [
+   {
+    "da": "et uheld",
+    "en": "a mishap"
+   },
+   {
+    "da": "uheldig",
+    "en": "unlucky"
+   },
+   {
+    "da": "en katastrofe",
+    "en": "a disaster"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en **ulykke** på motorvejen i morges.",
+   "en": "There was an accident on the highway this morning."
+  }
+ },
+ "en underskrift": {
+  "explanation": "\"En underskrift\" means \"a signature\", literally the writing under a text. To sign, Danes say skrive under (write under): Jeg skriver under på aftalen (I sign the agreement).",
+  "forms": [
+   {
+    "da": "en underskrift",
+    "en": "a signature"
+   },
+   {
+    "da": "underskriften",
+    "en": "the signature"
+   },
+   {
+    "da": "underskrifter",
+    "en": "signatures"
+   },
+   {
+    "da": "underskrifterne",
+    "en": "the signatures"
+   }
+  ],
+  "related": [
+   {
+    "da": "at underskrive",
+    "en": "to sign"
+   },
+   {
+    "da": "en autograf",
+    "en": "an autograph"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   },
+   {
+    "da": "en underskriftindsamling",
+    "en": "a petition"
+   }
+  ],
+  "sentence": {
+   "da": "Sæt din **underskrift** nederst på siden.",
+   "en": "Put your signature at the bottom of the page."
+  }
+ },
+ "en undersøgelse": {
+  "explanation": "\"En undersøgelse\" means \"an examination\", for example a check by a doctor. It can also mean \"a study\" or \"a survey\": Undersøgelsen viser, at mange sover for lidt (The study shows that many people sleep too little).",
+  "forms": [
+   {
+    "da": "en undersøgelse",
+    "en": "an examination"
+   },
+   {
+    "da": "undersøgelsen",
+    "en": "the examination"
+   },
+   {
+    "da": "undersøgelser",
+    "en": "examinations"
+   },
+   {
+    "da": "undersøgelserne",
+    "en": "the examinations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undersøge",
+    "en": "to examine"
+   },
+   {
+    "da": "en test",
+    "en": "a test"
+   },
+   {
+    "da": "en kontrol",
+    "en": "a check-up"
+   },
+   {
+    "da": "en scanning",
+    "en": "a scan"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen lavede en grundig **undersøgelse** af mit knæ.",
+   "en": "The doctor did a thorough examination of my knee."
+  }
+ },
+ "en undertekst": {
+  "explanation": "\"En undertekst\" means \"a subtitle\", the text at the bottom of a screen. It is built from under (under) and tekst (text). Danes often use the plural: Filmen har danske undertekster (The movie has Danish subtitles).",
+  "forms": [
+   {
+    "da": "en undertekst",
+    "en": "a subtitle"
+   },
+   {
+    "da": "underteksten",
+    "en": "the subtitle"
+   },
+   {
+    "da": "undertekster",
+    "en": "subtitles"
+   },
+   {
+    "da": "underteksterne",
+    "en": "the subtitles"
+   }
+  ],
+  "related": [
+   {
+    "da": "at oversætte",
+    "en": "to translate"
+   },
+   {
+    "da": "en oversættelse",
+    "en": "a translation"
+   },
+   {
+    "da": "en billedtekst",
+    "en": "a caption"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **undertekst** nederst på skærmen.",
+   "en": "There is a subtitle at the bottom of the screen."
+  }
+ },
+ "en underviser": {
+  "explanation": "\"En underviser\" means \"an instructor\", a person who teaches classes, often at a university or adult school: Underviseren gav os lektier (The instructor gave us homework). At a school, it is en lærer (a teacher).",
+  "forms": [
+   {
+    "da": "en underviser",
+    "en": "an instructor"
+   },
+   {
+    "da": "underviseren",
+    "en": "the instructor"
+   },
+   {
+    "da": "undervisere",
+    "en": "instructors"
+   },
+   {
+    "da": "underviserne",
+    "en": "the instructors"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undervise",
+    "en": "to teach"
+   },
+   {
+    "da": "en undervisning",
+    "en": "teaching / lessons"
+   },
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "en studerende",
+    "en": "a student"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **underviser** giver os lektier hver uge.",
+   "en": "Our instructor gives us homework every week."
+  }
+ },
+ "en undskyldning": {
+  "explanation": "\"En undskyldning\" means \"an apology\", and also \"an excuse\": Jeg skylder dig en undskyldning (I owe you an apology). Han har altid en undskyldning (He always has an excuse).",
+  "forms": [
+   {
+    "da": "en undskyldning",
+    "en": "an apology"
+   },
+   {
+    "da": "undskyldningen",
+    "en": "the apology"
+   },
+   {
+    "da": "undskyldninger",
+    "en": "apologies"
+   },
+   {
+    "da": "undskyldningerne",
+    "en": "the apologies"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undskylde",
+    "en": "to excuse / apologize"
+   },
+   {
+    "da": "undskyld",
+    "en": "sorry"
+   },
+   {
+    "da": "en bortforklaring",
+    "en": "a lame excuse"
+   },
+   {
+    "da": "en forklaring",
+    "en": "an explanation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skylder dig en **undskyldning** for i går.",
+   "en": "I owe you an apology for yesterday."
+  }
+ },
+ "en uniform": {
+  "explanation": "\"En uniform\" means \"a uniform\", clothes that show a job or a group: Betjenten har uniform på (The officer is wearing a uniform).",
+  "forms": [
+   {
+    "da": "en uniform",
+    "en": "a uniform"
+   },
+   {
+    "da": "uniformen",
+    "en": "the uniform"
+   },
+   {
+    "da": "uniformer",
+    "en": "uniforms"
+   },
+   {
+    "da": "uniformerne",
+    "en": "the uniforms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skoleuniform",
+    "en": "a school uniform"
+   },
+   {
+    "da": "arbejdstøj",
+    "en": "work clothes"
+   },
+   {
+    "da": "tøj",
+    "en": "clothes"
+   }
+  ],
+  "sentence": {
+   "da": "Alle på skolen har en blå **uniform**.",
+   "en": "Everyone at the school has a blue uniform."
+  }
+ },
+ "en urmager": {
+  "explanation": "\"En urmager\" means \"a watchmaker\", someone who repairs and sells watches and clocks: Urmageren skifter batteriet (The watchmaker changes the battery). It is built from et ur (a watch or clock) and -mager (maker).",
+  "forms": [
+   {
+    "da": "en urmager",
+    "en": "a watchmaker"
+   },
+   {
+    "da": "urmageren",
+    "en": "the watchmaker"
+   },
+   {
+    "da": "urmagere",
+    "en": "watchmakers"
+   },
+   {
+    "da": "urmagerne",
+    "en": "the watchmakers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en guldsmed",
+    "en": "a goldsmith"
+   },
+   {
+    "da": "en skomager",
+    "en": "a shoemaker"
+   },
+   {
+    "da": "et armbåndsur",
+    "en": "a wristwatch"
+   },
+   {
+    "da": "et vækkeur",
+    "en": "an alarm clock"
+   }
+  ],
+  "sentence": {
+   "da": "Min **urmager** kan reparere mit gamle ur.",
+   "en": "My watchmaker can repair my old watch."
+  }
+ },
+ "en usb-nøgle": {
+  "explanation": "\"En USB-nøgle\" means \"a USB stick\". It is a small thing you plug into a computer to carry files with you: Husk din USB-nøgle (Remember your USB stick).",
+  "forms": [
+   {
+    "da": "en USB-nøgle",
+    "en": "a USB stick"
+   },
+   {
+    "da": "USB-nøglen",
+    "en": "the USB stick"
+   },
+   {
+    "da": "USB-nøgler",
+    "en": "USB sticks"
+   },
+   {
+    "da": "USB-nøglerne",
+    "en": "the USB sticks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en harddisk",
+    "en": "a hard drive"
+   },
+   {
+    "da": "et stik",
+    "en": "a plug"
+   },
+   {
+    "da": "et hukommelseskort",
+    "en": "a memory card"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg gemmer filerne på en **USB-nøgle**.",
+   "en": "I save the files on a USB stick."
+  }
+ },
+ "et udflugtsmål": {
+  "explanation": "\"Et udflugtsmål\" means \"a destination for an outing\", a place you go to for a day trip: Skoven er et godt udflugtsmål (The forest is a good place for a day trip). It is built from en udflugt (an outing) and et mål (a goal).",
+  "forms": [
+   {
+    "da": "et udflugtsmål",
+    "en": "a destination for an outing"
+   },
+   {
+    "da": "udflugtsmålet",
+    "en": "the destination"
+   },
+   {
+    "da": "udflugtsmål",
+    "en": "destinations"
+   },
+   {
+    "da": "udflugtsmålene",
+    "en": "the destinations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tur",
+    "en": "a trip"
+   },
+   {
+    "da": "en rejse",
+    "en": "a journey"
+   },
+   {
+    "da": "et rejsemål",
+    "en": "a travel destination"
+   },
+   {
+    "da": "en seværdighed",
+    "en": "a sight"
+   }
+  ],
+  "sentence": {
+   "da": "Stranden er et populært **udflugtsmål** om sommeren.",
+   "en": "The beach is a popular outing destination in the summer."
   }
  },
  "et udsalg": {
@@ -167,6 +1682,248 @@
    "en": "The jacket is cheap on sale."
   }
  },
+ "et udsigtspunkt": {
+  "explanation": "\"Et udsigtspunkt\" means \"a viewpoint\", a place with a good view: Børnene løber hen til udsigtspunktet (The children run to the viewpoint).",
+  "forms": [
+   {
+    "da": "et udsigtspunkt",
+    "en": "a viewpoint"
+   },
+   {
+    "da": "udsigtspunktet",
+    "en": "the viewpoint"
+   },
+   {
+    "da": "udsigtspunkter",
+    "en": "viewpoints"
+   },
+   {
+    "da": "udsigtspunkterne",
+    "en": "the viewpoints"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udsigt",
+    "en": "a view"
+   },
+   {
+    "da": "et panorama",
+    "en": "a panorama"
+   },
+   {
+    "da": "et udkigstårn",
+    "en": "a lookout tower"
+   }
+  ],
+  "sentence": {
+   "da": "Fra et **udsigtspunkt** på bakken kan man se hele byen.",
+   "en": "From a viewpoint on the hill you can see the whole city."
+  }
+ },
+ "et udtryk": {
+  "explanation": "\"Et udtryk\" means \"an expression\", a phrase: Hvad betyder det udtryk? (What does that expression mean?). It also means a look on your face: et ansigtsudtryk (a facial expression).",
+  "forms": [
+   {
+    "da": "et udtryk",
+    "en": "an expression"
+   },
+   {
+    "da": "udtrykket",
+    "en": "the expression"
+   },
+   {
+    "da": "udtryk",
+    "en": "expressions"
+   },
+   {
+    "da": "udtrykkene",
+    "en": "the expressions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udtrykke",
+    "en": "to express"
+   },
+   {
+    "da": "en talemåde",
+    "en": "a saying"
+   },
+   {
+    "da": "et ordsprog",
+    "en": "a proverb"
+   },
+   {
+    "da": "et ord",
+    "en": "a word"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et gammelt dansk **udtryk**.",
+   "en": "That is an old Danish expression."
+  }
+ },
+ "et uheld": {
+  "explanation": "\"Et uheld\" means \"an accident\" or \"bad luck\", something that goes wrong by mistake: Glasset gik i stykker ved et uheld (The glass broke by accident). A serious crash with injuries is en ulykke (a serious accident).",
+  "forms": [
+   {
+    "da": "et uheld",
+    "en": "an accident / bad luck"
+   },
+   {
+    "da": "uheldet",
+    "en": "the accident / bad luck"
+   },
+   {
+    "da": "uheld",
+    "en": "accidents / bad luck"
+   },
+   {
+    "da": "uheldene",
+    "en": "the accidents / bad luck"
+   }
+  ],
+  "related": [
+   {
+    "da": "et held",
+    "en": "luck"
+   },
+   {
+    "da": "heldig",
+    "en": "lucky"
+   },
+   {
+    "da": "uheldig",
+    "en": "unlucky"
+   }
+  ],
+  "sentence": {
+   "da": "Det var et **uheld**, undskyld.",
+   "en": "It was an accident, sorry."
+  }
+ },
+ "et ungdomskort": {
+  "explanation": "\"Et ungdomskort\" means \"a youth travel pass\", a card that makes trains and buses cheaper for young people: Min lillebror har et ungdomskort (My little brother has a youth pass). It is built from ungdom (youth) and kort (card).",
+  "forms": [
+   {
+    "da": "et ungdomskort",
+    "en": "a youth travel pass"
+   },
+   {
+    "da": "ungdomskortet",
+    "en": "the youth travel pass"
+   },
+   {
+    "da": "ungdomskort",
+    "en": "youth travel passes"
+   },
+   {
+    "da": "ungdomskortene",
+    "en": "the youth travel passes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rejsekort",
+    "en": "a travel card"
+   },
+   {
+    "da": "et månedskort",
+    "en": "a monthly pass"
+   },
+   {
+    "da": "en rabat",
+    "en": "a discount"
+   }
+  ],
+  "sentence": {
+   "da": "Med et **ungdomskort** er toget meget billigere.",
+   "en": "With a youth travel pass, the train is much cheaper."
+  }
+ },
+ "et universitet": {
+  "explanation": "\"Et universitet\" means \"a university\": Hun læser på universitetet i København (She studies at the university in Copenhagen). Danes use at læse (to read) for studying there: Jeg læser biologi (I study biology).",
+  "forms": [
+   {
+    "da": "et universitet",
+    "en": "a university"
+   },
+   {
+    "da": "universitetet",
+    "en": "the university"
+   },
+   {
+    "da": "universiteter",
+    "en": "universities"
+   },
+   {
+    "da": "universiteterne",
+    "en": "the universities"
+   }
+  ],
+  "related": [
+   {
+    "da": "en studerende",
+    "en": "a student"
+   },
+   {
+    "da": "en professor",
+    "en": "a professor"
+   },
+   {
+    "da": "en uddannelse",
+    "en": "an education"
+   },
+   {
+    "da": "et gymnasium",
+    "en": "an upper secondary school"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster læser på et **universitet** i Aarhus.",
+   "en": "My sister studies at a university in Aarhus."
+  }
+ },
+ "et upload": {
+  "explanation": "\"Et upload\" means \"an upload\", a file you send from your device to the internet. The action is at uploade (to upload): Jeg uploader et billede (I am uploading a picture).",
+  "forms": [
+   {
+    "da": "et upload",
+    "en": "an upload"
+   },
+   {
+    "da": "uploadet",
+    "en": "the upload"
+   },
+   {
+    "da": "uploads",
+    "en": "uploads"
+   },
+   {
+    "da": "uploadsene",
+    "en": "the uploads"
+   }
+  ],
+  "related": [
+   {
+    "da": "et download",
+    "en": "a download"
+   },
+   {
+    "da": "at overføre",
+    "en": "to transfer"
+   },
+   {
+    "da": "en filoverførsel",
+    "en": "a file transfer"
+   }
+  ],
+  "sentence": {
+   "da": "Dit **upload** tager lang tid, fordi filen er stor.",
+   "en": "Your upload takes a long time because the file is big."
+  }
+ },
  "et ur": {
   "explanation": "\"Et ur\" means \"a clock\" or \"a watch\". A watch on your wrist is et armbåndsur (a wristwatch), and a wall clock is et vægur (a wall clock). Do not mix it up with klokken, which is used for telling the time: Hvad er klokken? (What time is it?).",
   "forms": [
@@ -206,6 +1963,119 @@
    "en": "My watch shows ten o'clock."
   }
  },
+ "uafgjort": {
+  "explanation": "\"Uafgjort\" means \"drawn\" or \"tied\", when neither side wins: Det blev 2-2, så kampen er uafgjort (It was 2-2, so the match is a draw). It is the opposite of afgjort (decided).",
+  "forms": [
+   {
+    "da": "Kampen er uafgjort.",
+    "en": "The game is tied."
+   },
+   {
+    "da": "Det blev uafgjort.",
+    "en": "It ended in a draw."
+   },
+   {
+    "da": "Det står uafgjort.",
+    "en": "The score is tied."
+   }
+  ],
+  "related": [
+   {
+    "da": "en sejr",
+    "en": "a victory"
+   },
+   {
+    "da": "et nederlag",
+    "en": "a defeat"
+   },
+   {
+    "da": "at vinde",
+    "en": "to win"
+   }
+  ],
+  "sentence": {
+   "da": "Kampen endte **uafgjort**.",
+   "en": "The match ended in a draw."
+  }
+ },
+ "ubehagelig": {
+  "explanation": "\"Ubehagelig\" means \"unpleasant\" and is used for things that feel bad, such as a smell, a situation or a person: en ubehagelig person (an unpleasant person). It also covers feeling awkward: Det er ubehageligt (It is uncomfortable).",
+  "forms": [
+   {
+    "da": "en ubehagelig lugt",
+    "en": "an unpleasant smell"
+   },
+   {
+    "da": "et ubehageligt øjeblik",
+    "en": "an unpleasant moment"
+   },
+   {
+    "da": "ubehagelige nyheder",
+    "en": "unpleasant news"
+   }
+  ],
+  "related": [
+   {
+    "da": "behagelig",
+    "en": "comfortable / pleasant"
+   },
+   {
+    "da": "ækel",
+    "en": "disgusting"
+   },
+   {
+    "da": "pinlig",
+    "en": "embarrassing"
+   },
+   {
+    "da": "irriterende",
+    "en": "annoying"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **ubehagelig** situation for os.",
+   "en": "It was an unpleasant situation for us."
+  }
+ },
+ "ubrugelig": {
+  "explanation": "\"Ubrugelig\" means \"useless\" and describes things that do not work or help: Den er ubrugelig (It is useless). It is the opposite of brugbar (usable).",
+  "forms": [
+   {
+    "da": "en ubrugelig plan",
+    "en": "a useless plan"
+   },
+   {
+    "da": "et ubrugeligt værktøj",
+    "en": "a useless tool"
+   },
+   {
+    "da": "ubrugelige ting",
+    "en": "useless things"
+   }
+  ],
+  "related": [
+   {
+    "da": "nyttig",
+    "en": "useful"
+   },
+   {
+    "da": "værdiløs",
+    "en": "worthless"
+   },
+   {
+    "da": "unyttig",
+    "en": "of no use"
+   },
+   {
+    "da": "nytteløs",
+    "en": "pointless"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle telefon er helt **ubrugelig**.",
+   "en": "The old phone is completely useless."
+  }
+ },
  "ud": {
   "explanation": "\"Ud\" means \"out\" when you move from inside to outside. Compare Vi går ud (We go out) with Vi er ude (We are outside): ud is for going, ude is for being there. Careful: Hvordan ser det ud? means \"What does it look like?\".",
   "forms": [
@@ -239,6 +2109,80 @@
   "sentence": {
    "da": "Vi går **ud** i haven.",
    "en": "We go out into the garden."
+  }
+ },
+ "ud over": {
+  "explanation": "\"Ud over\" means \"besides\" and adds something to what you already named: Ud over kaffe vil jeg gerne have te (Besides coffee, I would like tea). It also fits people: Ud over Anna kommer Peter (Besides Anna, Peter is coming).",
+  "forms": [
+   {
+    "da": "ud over mig",
+    "en": "besides me"
+   },
+   {
+    "da": "ud over det",
+    "en": "besides that"
+   },
+   {
+    "da": "ud over prisen",
+    "en": "besides the price"
+   }
+  ],
+  "related": [
+   {
+    "da": "udover",
+    "en": "besides / beyond"
+   },
+   {
+    "da": "foruden",
+    "en": "besides"
+   },
+   {
+    "da": "undtagen",
+    "en": "except"
+   },
+   {
+    "da": "inklusive",
+    "en": "including"
+   }
+  ],
+  "sentence": {
+   "da": "**Ud over** mig kommer der to andre gæster.",
+   "en": "Besides me, two other guests are coming."
+  }
+ },
+ "ud over det": {
+  "explanation": "\"Ud over det\" means \"besides that\" and adds to what you just said: Jeg kan godt lide kaffe. Ud over det kan jeg også lide te (I like coffee. Besides that, I also like tea).",
+  "forms": [
+   {
+    "da": "Ud over det er alt fint.",
+    "en": "Besides that, everything is fine."
+   },
+   {
+    "da": "Ud over det har jeg ingen planer.",
+    "en": "Besides that, I have no plans."
+   }
+  ],
+  "related": [
+   {
+    "da": "desuden",
+    "en": "besides"
+   },
+   {
+    "da": "derudover",
+    "en": "in addition"
+   },
+   {
+    "da": "ellers",
+    "en": "otherwise"
+   },
+   {
+    "da": "foruden",
+    "en": "in addition to"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har ondt i hovedet, og **ud over det** er jeg træt.",
+   "en": "I have a headache, and besides that I am tired."
   }
  },
  "uden": {
@@ -276,6 +2220,41 @@
    "en": "I want coffee without sugar."
   }
  },
+ "uden tvivl": {
+  "explanation": "\"Uden tvivl\" means \"without a doubt\" and shows that you are sure: Han kommer uden tvivl (He is certainly coming). Det er uden tvivl rigtigt (It is right without a doubt).",
+  "forms": [
+   {
+    "da": "Det er uden tvivl godt.",
+    "en": "It is without a doubt good."
+   },
+   {
+    "da": "Hun vinder uden tvivl.",
+    "en": "She will win without a doubt."
+   }
+  ],
+  "related": [
+   {
+    "da": "sikkert",
+    "en": "probably"
+   },
+   {
+    "da": "bestemt",
+    "en": "definitely"
+   },
+   {
+    "da": "at tvivle",
+    "en": "to doubt"
+   },
+   {
+    "da": "selvfølgelig",
+    "en": "of course"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **uden tvivl** den bedste kage.",
+   "en": "It is without a doubt the best cake."
+  }
+ },
  "udenfor": {
   "explanation": "\"Udenfor\" means \"outside\". Compare Børnene leger udenfor (The children play outside) with Børnene er inde (The children are inside). It works both for being there and for going there: Vi går udenfor (We go outside).",
   "forms": [
@@ -309,6 +2288,158 @@
   "sentence": {
    "da": "Børnene leger **udenfor** i haven.",
    "en": "The children play outside in the garden."
+  }
+ },
+ "udenlands": {
+  "explanation": "\"Udenlands\" means \"abroad\" and tells where you are or where you go: Jeg bor udenlands (I live abroad). Do not mix it up with udenlandsk (foreign): en udenlandsk bil (a foreign car).",
+  "forms": [
+   {
+    "da": "Jeg rejser udenlands",
+    "en": "I travel abroad"
+   },
+   {
+    "da": "Hun studerer udenlands",
+    "en": "She studies abroad"
+   },
+   {
+    "da": "Han arbejder udenlands",
+    "en": "He works abroad"
+   }
+  ],
+  "related": [
+   {
+    "da": "i udlandet",
+    "en": "abroad"
+   },
+   {
+    "da": "hjemme",
+    "en": "at home"
+   },
+   {
+    "da": "en udlænding",
+    "en": "a foreigner"
+   },
+   {
+    "da": "en udlandsrejse",
+    "en": "a trip abroad"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har studeret **udenlands** i to år.",
+   "en": "She has studied abroad for two years."
+  }
+ },
+ "udenlandsk": {
+  "explanation": "\"Udenlandsk\" means \"foreign\", coming from another country: Jeg læser udenlandske aviser (I read foreign newspapers).",
+  "forms": [
+   {
+    "da": "en udenlandsk bil",
+    "en": "a foreign car"
+   },
+   {
+    "da": "et udenlandsk firma",
+    "en": "a foreign company"
+   },
+   {
+    "da": "udenlandske film",
+    "en": "foreign films"
+   }
+  ],
+  "related": [
+   {
+    "da": "indenlandsk",
+    "en": "domestic"
+   },
+   {
+    "da": "udlandet",
+    "en": "abroad"
+   },
+   {
+    "da": "fremmed",
+    "en": "foreign / strange"
+   }
+  ],
+  "sentence": {
+   "da": "Min far arbejder for et **udenlandsk** firma.",
+   "en": "My father works for a foreign company."
+  }
+ },
+ "udmærket": {
+  "explanation": "\"Udmærket\" means \"excellent\" and \"fine\": Det er en udmærket idé (That is an excellent idea). Said alone, Udmærket! means \"Very good!\" or \"Fine!\".",
+  "forms": [
+   {
+    "da": "en udmærket læge",
+    "en": "an excellent doctor"
+   },
+   {
+    "da": "et udmærket resultat",
+    "en": "an excellent result"
+   },
+   {
+    "da": "udmærkede resultater",
+    "en": "excellent results"
+   }
+  ],
+  "related": [
+   {
+    "da": "fremragende",
+    "en": "outstanding"
+   },
+   {
+    "da": "fin",
+    "en": "fine"
+   },
+   {
+    "da": "god",
+    "en": "good"
+   },
+   {
+    "da": "perfekt",
+    "en": "perfect"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **udmærket** sted at bo.",
+   "en": "It is an excellent place to live."
+  }
+ },
+ "udover": {
+  "explanation": "\"Udover\" means \"besides\", adding something to what you already named: Udover arbejdet dyrker han sport (Besides work, he does sports). It can also mean \"beyond\", as in udover det sædvanlige (beyond the usual).",
+  "forms": [
+   {
+    "da": "udover mig",
+    "en": "besides me"
+   },
+   {
+    "da": "udover det",
+    "en": "besides that"
+   },
+   {
+    "da": "udover prisen",
+    "en": "besides the price"
+   }
+  ],
+  "related": [
+   {
+    "da": "ud over",
+    "en": "besides"
+   },
+   {
+    "da": "foruden",
+    "en": "besides"
+   },
+   {
+    "da": "derudover",
+    "en": "in addition"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   }
+  ],
+  "sentence": {
+   "da": "**Udover** dansk taler hun også engelsk.",
+   "en": "Besides Danish, she also speaks English."
   }
  },
  "udsolgt": {
@@ -346,6 +2477,123 @@
    "en": "There are no tickets. They are sold out."
   }
  },
+ "udstyr": {
+  "explanation": "\"Udstyr\" means \"equipment\", all the things you need for an activity: Vi har godt udstyr til at stå på ski (We have good equipment for skiing). It stands for the things together, not one piece.",
+  "forms": [
+   {
+    "da": "udstyr",
+    "en": "equipment"
+   },
+   {
+    "da": "udstyret",
+    "en": "the equipment"
+   },
+   {
+    "da": "godt udstyr",
+    "en": "good equipment"
+   },
+   {
+    "da": "en del af udstyret",
+    "en": "part of the equipment"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udstyre",
+    "en": "to equip"
+   },
+   {
+    "da": "en udrustning",
+    "en": "equipment, gear"
+   },
+   {
+    "da": "et redskab",
+    "en": "a tool"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har telt og andet **udstyr** med.",
+   "en": "We brought a tent and other equipment."
+  }
+ },
+ "uenig": {
+  "explanation": "\"Uenig\" means \"in disagreement\" and is used for people who do not think the same: Vi er uenige (We disagree). To say with whom or about what, add med (with) or om (about): Jeg er uenig med dig (I disagree with you).",
+  "forms": [
+   {
+    "da": "en uenig kollega",
+    "en": "a colleague who disagrees"
+   },
+   {
+    "da": "et uenigt par",
+    "en": "a couple who disagree"
+   },
+   {
+    "da": "uenige politikere",
+    "en": "politicians who disagree"
+   }
+  ],
+  "related": [
+   {
+    "da": "enig",
+    "en": "in agreement"
+   },
+   {
+    "da": "en uenighed",
+    "en": "a disagreement"
+   },
+   {
+    "da": "at diskutere",
+    "en": "to discuss / argue"
+   },
+   {
+    "da": "en strid",
+    "en": "a quarrel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **uenig** med dig i det.",
+   "en": "I disagree with you on that."
+  }
+ },
+ "ugen efter": {
+  "explanation": "\"Ugen efter\" means \"the week after\" something: Jeg var på arbejde ugen efter ferien (I was at work the week after the vacation). It works like dagen efter (the day after), but with a week.",
+  "forms": [
+   {
+    "da": "ugen efter ferien",
+    "en": "the week after the vacation"
+   },
+   {
+    "da": "Ugen efter rejste hun",
+    "en": "The week after, she left"
+   },
+   {
+    "da": "ugen efter jul",
+    "en": "the week after Christmas"
+   }
+  ],
+  "related": [
+   {
+    "da": "ugen før",
+    "en": "the week before"
+   },
+   {
+    "da": "året efter",
+    "en": "the year after"
+   },
+   {
+    "da": "næste uge",
+    "en": "next week"
+   },
+   {
+    "da": "måneden efter",
+    "en": "the month after"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er tilbage på arbejde **ugen efter** ferien.",
+   "en": "I am back at work the week after the vacation."
+  }
+ },
  "ugift": {
   "explanation": "\"Ugift\" means \"unmarried\", the opposite of gift (married). Putting u- in front of a word often makes its opposite, as in uvenlig (unfriendly), the opposite of venlig (friendly).",
   "forms": [
@@ -379,6 +2627,189 @@
   "sentence": {
    "da": "Han har ingen kone. Han er **ugift**.",
    "en": "He has no wife. He is unmarried."
+  }
+ },
+ "uha": {
+  "explanation": "\"Uha\" means \"oh dear\" and shows worry or unease about something: Uha, det ser farligt ud (Oh dear, that looks dangerous). Uha, nu regner det (Oh dear, now it is raining).",
+  "forms": [
+   {
+    "da": "Uha!",
+    "en": "Oh dear!"
+   },
+   {
+    "da": "Uha, det er koldt!",
+    "en": "Oh dear, it is cold!"
+   },
+   {
+    "da": "Uha, det ser svært ud.",
+    "en": "Oh dear, that looks hard."
+   }
+  ],
+  "related": [
+   {
+    "da": "av",
+    "en": "ouch"
+   },
+   {
+    "da": "ups",
+    "en": "oops"
+   },
+   {
+    "da": "føj",
+    "en": "yuck"
+   }
+  ],
+  "sentence": {
+   "da": "**Uha**, det her ser svært ud.",
+   "en": "Oh dear, this looks hard."
+  }
+ },
+ "uheldig": {
+  "explanation": "\"Uheldig\" means \"unlucky\", and also \"unfortunate\" for things that turn out badly: Jeg var uheldig (I was unlucky). Det var et uheldigt valg (It was an unfortunate choice).",
+  "forms": [
+   {
+    "da": "en uheldig dag",
+    "en": "an unlucky day"
+   },
+   {
+    "da": "et uheldigt valg",
+    "en": "an unfortunate choice"
+   },
+   {
+    "da": "uheldige mennesker",
+    "en": "unlucky people"
+   }
+  ],
+  "related": [
+   {
+    "da": "heldig",
+    "en": "lucky"
+   },
+   {
+    "da": "held",
+    "en": "luck"
+   },
+   {
+    "da": "et uheld",
+    "en": "an accident, a mishap"
+   },
+   {
+    "da": "uheldigvis",
+    "en": "unfortunately"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg var **uheldig** og mistede min nøgle i går.",
+   "en": "I was unlucky and lost my key yesterday."
+  }
+ },
+ "uhyggelig": {
+  "explanation": "\"Uhyggelig\" means \"creepy\" or \"scary\", making you feel uneasy: Huset er mørkt og uhyggeligt (The house is dark and creepy). The opposite is hyggelig (cozy).",
+  "forms": [
+   {
+    "da": "en uhyggelig film",
+    "en": "a creepy movie"
+   },
+   {
+    "da": "et uhyggeligt sted",
+    "en": "a creepy place"
+   },
+   {
+    "da": "uhyggelige lyde",
+    "en": "creepy sounds"
+   }
+  ],
+  "related": [
+   {
+    "da": "ubehagelig",
+    "en": "unpleasant"
+   },
+   {
+    "da": "skræmmende",
+    "en": "frightening"
+   },
+   {
+    "da": "en uhygge",
+    "en": "a creepy feeling"
+   }
+  ],
+  "sentence": {
+   "da": "Skoven er mørk og **uhyggelig** om natten.",
+   "en": "The forest is dark and creepy at night."
+  }
+ },
+ "uhøflig": {
+  "explanation": "\"Uhøflig\" means \"rude\", the opposite of høflig (polite): Det er uhøfligt at afbryde (It is rude to interrupt). The u- at the start gives the opposite meaning.",
+  "forms": [
+   {
+    "da": "en uhøflig mand",
+    "en": "a rude man"
+   },
+   {
+    "da": "et uhøfligt svar",
+    "en": "a rude answer"
+   },
+   {
+    "da": "uhøflige børn",
+    "en": "rude children"
+   }
+  ],
+  "related": [
+   {
+    "da": "fræk",
+    "en": "cheeky"
+   },
+   {
+    "da": "uforskammet",
+    "en": "impudent"
+   },
+   {
+    "da": "en uhøflighed",
+    "en": "a rudeness"
+   }
+  ],
+  "sentence": {
+   "da": "Han var meget **uhøflig** mod tjeneren.",
+   "en": "He was very rude to the waiter."
+  }
+ },
+ "ukendt": {
+  "explanation": "\"Ukendt\" means \"unknown\" and is the opposite of kendt (known): Afsenderen er ukendt (The sender is unknown). It is built from u- (un-) and kendt.",
+  "forms": [
+   {
+    "da": "en ukendt mand",
+    "en": "an unknown man"
+   },
+   {
+    "da": "et ukendt sted",
+    "en": "an unknown place"
+   },
+   {
+    "da": "ukendte navne",
+    "en": "unknown names"
+   }
+  ],
+  "related": [
+   {
+    "da": "fremmed",
+    "en": "foreign, unfamiliar"
+   },
+   {
+    "da": "anonym",
+    "en": "anonymous"
+   },
+   {
+    "da": "navnløs",
+    "en": "nameless"
+   },
+   {
+    "da": "bekendt",
+    "en": "familiar"
+   }
+  ],
+  "sentence": {
+   "da": "Brevet kom fra en **ukendt** afsender.",
+   "en": "The letter came from an unknown sender."
   }
  },
  "ukraine": {
@@ -451,6 +2882,193 @@
    "en": "She comes from Ukraine and speaks Ukrainian."
   }
  },
+ "uld": {
+  "explanation": "\"Uld\" means \"wool\", the warm material used for winter clothes. Uld er varmt (Wool is warm). Min trøje er af uld (My sweater is made of wool).",
+  "forms": [
+   {
+    "da": "en uldtrøje",
+    "en": "a wool sweater"
+   },
+   {
+    "da": "ren uld",
+    "en": "pure wool"
+   },
+   {
+    "da": "en uldsok",
+    "en": "a wool sock"
+   }
+  ],
+  "related": [
+   {
+    "da": "et får",
+    "en": "a sheep"
+   },
+   {
+    "da": "bomuld",
+    "en": "cotton"
+   },
+   {
+    "da": "silke",
+    "en": "silk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil have en trøje af **uld**, fordi den er varm.",
+   "en": "I want a sweater made of wool because it is warm."
+  }
+ },
+ "ulovlig": {
+  "explanation": "\"Ulovlig\" means \"illegal\", against the law: Det er ulovligt at stjæle (It is illegal to steal). The u- in front makes it the opposite of lovlig (legal).",
+  "forms": [
+   {
+    "da": "en ulovlig handling",
+    "en": "an illegal act"
+   },
+   {
+    "da": "et ulovligt køb",
+    "en": "an illegal purchase"
+   },
+   {
+    "da": "ulovlige våben",
+    "en": "illegal weapons"
+   }
+  ],
+  "related": [
+   {
+    "da": "forbudt",
+    "en": "forbidden"
+   },
+   {
+    "da": "en lov",
+    "en": "a law"
+   },
+   {
+    "da": "kriminel",
+    "en": "criminal"
+   },
+   {
+    "da": "tilladt",
+    "en": "allowed"
+   }
+  ],
+  "sentence": {
+   "da": "En **ulovlig** handling kan give en bøde.",
+   "en": "An illegal act can lead to a fine."
+  }
+ },
+ "ulykkelig": {
+  "explanation": "\"Ulykkelig\" means \"unhappy\", often deeply so, close to \"miserable\": Han var ulykkelig efter bruddet (He was miserable after the breakup).",
+  "forms": [
+   {
+    "da": "en ulykkelig mand",
+    "en": "an unhappy man"
+   },
+   {
+    "da": "et ulykkeligt barn",
+    "en": "an unhappy child"
+   },
+   {
+    "da": "ulykkelige mennesker",
+    "en": "unhappy people"
+   }
+  ],
+  "related": [
+   {
+    "da": "lykkelig",
+    "en": "happy"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "ked af det",
+    "en": "sad, upset"
+   },
+   {
+    "da": "en ulykke",
+    "en": "an accident / misfortune"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **ulykkelig**, fordi hun savnede sin familie.",
+   "en": "She was unhappy because she missed her family."
+  }
+ },
+ "ulækker": {
+  "explanation": "\"Ulækker\" means \"disgusting\", for food, smells and things that make you feel sick: Det lugter ulækkert (It smells disgusting). Its opposite is the everyday word lækker (tasty, nice).",
+  "forms": [
+   {
+    "da": "en ulækker lugt",
+    "en": "a disgusting smell"
+   },
+   {
+    "da": "et ulækkert syn",
+    "en": "a disgusting sight"
+   },
+   {
+    "da": "ulækre sko",
+    "en": "disgusting shoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "klam",
+    "en": "gross"
+   },
+   {
+    "da": "ækel",
+    "en": "nasty"
+   },
+   {
+    "da": "væmmelig",
+    "en": "revolting"
+   },
+   {
+    "da": "appetitlig",
+    "en": "appetizing"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle mælk er **ulækker**, og jeg drikker den ikke.",
+   "en": "The old milk is disgusting, and I do not drink it."
+  }
+ },
+ "umulig": {
+  "explanation": "\"Umulig\" means \"impossible\": Det er umuligt (It is impossible). For a person, it means hard to deal with: Du er umulig! (You are impossible!)",
+  "forms": [
+   {
+    "da": "en umulig plan",
+    "en": "an impossible plan"
+   },
+   {
+    "da": "et umuligt mål",
+    "en": "an impossible goal"
+   },
+   {
+    "da": "umulige krav",
+    "en": "impossible demands"
+   }
+  ],
+  "related": [
+   {
+    "da": "mulig",
+    "en": "possible"
+   },
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "håbløs",
+    "en": "hopeless"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **umulig** opgave på én dag.",
+   "en": "It is an impossible task in one day."
+  }
+ },
  "under": {
   "explanation": "\"Under\" means \"under\" or \"during\". Compare Katten sover under sengen (The cat sleeps under the bed) with under ferien (during the holiday). With numbers, it means \"less than\": under ti (under ten).",
   "forms": [
@@ -519,6 +3137,45 @@
   "sentence": {
    "da": "Jeg tager **underbukser** og bukser på.",
    "en": "I put on underpants and pants."
+  }
+ },
+ "underlig": {
+  "explanation": "\"Underlig\" means \"strange\" or \"weird\": Det er en underlig lyd (It is a strange sound). It also describes a situation: Det er underligt (That is odd).",
+  "forms": [
+   {
+    "da": "en underlig lugt",
+    "en": "a weird smell"
+   },
+   {
+    "da": "et underligt navn",
+    "en": "a strange name"
+   },
+   {
+    "da": "underlige folk",
+    "en": "weird people"
+   }
+  ],
+  "related": [
+   {
+    "da": "mærkelig",
+    "en": "strange"
+   },
+   {
+    "da": "sær",
+    "en": "odd"
+   },
+   {
+    "da": "mystisk",
+    "en": "mysterious"
+   },
+   {
+    "da": "normal",
+    "en": "normal"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er en **underlig** mand.",
+   "en": "My neighbor is a strange man."
   }
  },
  "undertøj": {
@@ -630,6 +3287,45 @@
    "en": "Excuse me, may I get past?"
   }
  },
+ "undtagen": {
+  "explanation": "\"Undtagen\" means \"except\" and comes before the thing that is left out: Jeg spiser alt undtagen fisk (I eat everything except fish). Alle kom undtagen Peter (Everyone came except Peter).",
+  "forms": [
+   {
+    "da": "undtagen mig",
+    "en": "except me"
+   },
+   {
+    "da": "undtagen søndag",
+    "en": "except Sunday"
+   },
+   {
+    "da": "undtagen ham",
+    "en": "except him"
+   }
+  ],
+  "related": [
+   {
+    "da": "en undtagelse",
+    "en": "an exception"
+   },
+   {
+    "da": "bortset fra",
+    "en": "apart from"
+   },
+   {
+    "da": "uden",
+    "en": "without"
+   },
+   {
+    "da": "ud over",
+    "en": "besides"
+   }
+  ],
+  "sentence": {
+   "da": "Alle kom, **undtagen** min bror.",
+   "en": "Everyone came, except my brother."
+  }
+ },
  "ung": {
   "explanation": "\"Ung\" means \"young\". De unge (the young ones) means \"young people\". For a baby or small child, Danes usually say et barn (a child) or lille (little) rather than ung.",
   "forms": [
@@ -663,6 +3359,123 @@
   "sentence": {
    "da": "Hun er femten år. Hun er **ung**.",
    "en": "She is fifteen years old. She is young."
+  }
+ },
+ "ungdom": {
+  "explanation": "\"Ungdom\" means \"youth\", the time of life when you are young: Min far boede i Odense i sin ungdom (My father lived in Odense in his youth).",
+  "forms": [
+   {
+    "da": "i min ungdom",
+    "en": "in my youth"
+   },
+   {
+    "da": "ungdomsårene",
+    "en": "the years of youth"
+   },
+   {
+    "da": "ungdommen i dag",
+    "en": "the youth of today"
+   }
+  ],
+  "related": [
+   {
+    "da": "ung",
+    "en": "young"
+   },
+   {
+    "da": "en teenager",
+    "en": "a teenager"
+   },
+   {
+    "da": "at vokse op",
+    "en": "to grow up"
+   },
+   {
+    "da": "alderdom",
+    "en": "old age"
+   }
+  ],
+  "sentence": {
+   "da": "I min **ungdom** spillede jeg meget fodbold.",
+   "en": "In my youth I played a lot of soccer."
+  }
+ },
+ "upopulær": {
+  "explanation": "\"Upopulær\" means \"unpopular\", for people or things that many dislike: en upopulær beslutning (an unpopular decision).",
+  "forms": [
+   {
+    "da": "en upopulær lærer",
+    "en": "an unpopular teacher"
+   },
+   {
+    "da": "et upopulært forslag",
+    "en": "an unpopular proposal"
+   },
+   {
+    "da": "upopulære regler",
+    "en": "unpopular rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "populær",
+    "en": "popular"
+   },
+   {
+    "da": "afholdt",
+    "en": "well-liked"
+   },
+   {
+    "da": "udskældt",
+    "en": "much criticized"
+   },
+   {
+    "da": "forhadt",
+    "en": "hated"
+   }
+  ],
+  "sentence": {
+   "da": "Den nye regel er **upopulær**, og mange klager.",
+   "en": "The new rule is unpopular, and many people complain."
+  }
+ },
+ "urolig": {
+  "explanation": "\"Urolig\" means \"uneasy\" or \"restless\": Hun er urolig for sin søn (She is worried about her son). It also describes a night with bad sleep: en urolig nat (a restless night).",
+  "forms": [
+   {
+    "da": "en urolig mand",
+    "en": "an uneasy man"
+   },
+   {
+    "da": "et uroligt barn",
+    "en": "a restless child"
+   },
+   {
+    "da": "urolige tider",
+    "en": "uneasy times"
+   }
+  ],
+  "related": [
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "bekymret",
+    "en": "worried"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   },
+   {
+    "da": "en uro",
+    "en": "unrest, restlessness"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **urolig** for min søster.",
+   "en": "I am uneasy about my sister."
   }
  },
  "usa": {
@@ -700,6 +3513,123 @@
    "en": "New York is in the USA."
   }
  },
+ "usikker": {
+  "explanation": "\"Usikker\" means \"unsure\", not certain: Jeg er usikker på vejen (I am unsure about the way). It can also mean \"unsafe\": en usikker bro (an unsafe bridge).",
+  "forms": [
+   {
+    "da": "en usikker mand",
+    "en": "an unsure man"
+   },
+   {
+    "da": "et usikkert svar",
+    "en": "an unsure answer"
+   },
+   {
+    "da": "usikre svar",
+    "en": "unsure answers"
+   }
+  ],
+  "related": [
+   {
+    "da": "sikker",
+    "en": "sure / safe"
+   },
+   {
+    "da": "en tvivl",
+    "en": "a doubt"
+   },
+   {
+    "da": "at tvivle",
+    "en": "to doubt"
+   },
+   {
+    "da": "tøvende",
+    "en": "hesitant"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **usikker** på, hvad jeg skal sige.",
+   "en": "I am unsure what I should say."
+  }
+ },
+ "uskyldig": {
+  "explanation": "\"Uskyldig\" means \"innocent\", for a person who did nothing wrong or a thing that is harmless: Det var en uskyldig joke (It was an innocent joke).",
+  "forms": [
+   {
+    "da": "en uskyldig mand",
+    "en": "an innocent man"
+   },
+   {
+    "da": "et uskyldigt spørgsmål",
+    "en": "an innocent question"
+   },
+   {
+    "da": "uskyldige børn",
+    "en": "innocent children"
+   }
+  ],
+  "related": [
+   {
+    "da": "skyldig",
+    "en": "guilty"
+   },
+   {
+    "da": "en uskyld",
+    "en": "innocence"
+   },
+   {
+    "da": "harmløs",
+    "en": "harmless"
+   },
+   {
+    "da": "frifundet",
+    "en": "acquitted"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **uskyldig**, og alle ved det.",
+   "en": "He is innocent and everyone knows it."
+  }
+ },
+ "ustabil": {
+  "explanation": "\"Ustabil\" means \"unstable\", the opposite of stabil (stable): Broen er ustabil (The bridge is unstable). Forbindelsen er ustabil (The connection is unstable).",
+  "forms": [
+   {
+    "da": "en ustabil stige",
+    "en": "an unstable ladder"
+   },
+   {
+    "da": "et ustabilt forhold",
+    "en": "an unstable relationship"
+   },
+   {
+    "da": "ustabile priser",
+    "en": "unstable prices"
+   }
+  ],
+  "related": [
+   {
+    "da": "vaklende",
+    "en": "wobbly"
+   },
+   {
+    "da": "usikker",
+    "en": "unsure, unsafe"
+   },
+   {
+    "da": "skrøbelig",
+    "en": "fragile"
+   },
+   {
+    "da": "foranderlig",
+    "en": "changeable"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle stol er **ustabil**, så sid forsigtigt.",
+   "en": "The old chair is unstable, so sit carefully."
+  }
+ },
  "usund": {
   "explanation": "\"Usund\" means \"unhealthy\". It is built from u (un-) and sund (healthy), like uvenlig (unfriendly). You use it for food, habits and lifestyles: usund mad (unhealthy food).",
   "forms": [
@@ -733,6 +3663,392 @@
   "sentence": {
    "da": "Slik og kage er **usund** mad.",
    "en": "Candy and cake are unhealthy food."
+  }
+ },
+ "usynlig": {
+  "explanation": "\"Usynlig\" means \"invisible\" and describes something you cannot see: en usynlig mur (an invisible wall). The opposite is synlig: Stjernen er synlig (The star is visible).",
+  "forms": [
+   {
+    "da": "en usynlig mur",
+    "en": "an invisible wall"
+   },
+   {
+    "da": "et usynligt spor",
+    "en": "an invisible trace"
+   },
+   {
+    "da": "usynlige stjerner",
+    "en": "invisible stars"
+   }
+  ],
+  "related": [
+   {
+    "da": "et syn",
+    "en": "a sight / view"
+   },
+   {
+    "da": "skjult",
+    "en": "hidden"
+   },
+   {
+    "da": "gennemsigtig",
+    "en": "transparent"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   }
+  ],
+  "sentence": {
+   "da": "Luften er **usynlig**, men vi trækker vejret.",
+   "en": "Air is invisible, but we breathe it."
+  }
+ },
+ "usædvanlig": {
+  "explanation": "\"Usædvanlig\" means \"unusual\", for something you do not see or hear often: en usædvanlig lyd (an unusual sound).",
+  "forms": [
+   {
+    "da": "en usædvanlig lyd",
+    "en": "an unusual sound"
+   },
+   {
+    "da": "et usædvanligt navn",
+    "en": "an unusual name"
+   },
+   {
+    "da": "usædvanlige ting",
+    "en": "unusual things"
+   }
+  ],
+  "related": [
+   {
+    "da": "sædvanlig",
+    "en": "usual"
+   },
+   {
+    "da": "almindelig",
+    "en": "ordinary"
+   },
+   {
+    "da": "mærkelig",
+    "en": "strange"
+   },
+   {
+    "da": "speciel",
+    "en": "special"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **usædvanlig** lyd, og jeg kender den ikke.",
+   "en": "It is an unusual sound, and I do not know it."
+  }
+ },
+ "utilfreds": {
+  "explanation": "\"Utilfreds\" means \"dissatisfied\". It is the opposite of tilfreds (satisfied), and med (with) says what you are unhappy about: Jeg er utilfreds med servicen (I am dissatisfied with the service).",
+  "forms": [
+   {
+    "da": "en utilfreds kunde",
+    "en": "a dissatisfied customer"
+   },
+   {
+    "da": "et utilfreds barn",
+    "en": "a dissatisfied child"
+   },
+   {
+    "da": "utilfredse kunder",
+    "en": "dissatisfied customers"
+   }
+  ],
+  "related": [
+   {
+    "da": "misfornøjet",
+    "en": "displeased"
+   },
+   {
+    "da": "skuffet",
+    "en": "disappointed"
+   },
+   {
+    "da": "fornøjet",
+    "en": "pleased"
+   }
+  ],
+  "sentence": {
+   "da": "Kunden er **utilfreds** med maden.",
+   "en": "The customer is dissatisfied with the food."
+  }
+ },
+ "utro": {
+  "explanation": "\"Utro\" means \"unfaithful\", about a partner who cheats: Han har været utro mod hende (He has been unfaithful to her). It is built from u- (not) and tro (faithful).",
+  "forms": [
+   {
+    "da": "Han er utro.",
+    "en": "He is unfaithful."
+   },
+   {
+    "da": "Hun er utro.",
+    "en": "She is unfaithful."
+   },
+   {
+    "da": "De er utro.",
+    "en": "They are unfaithful."
+   }
+  ],
+  "related": [
+   {
+    "da": "trofast",
+    "en": "faithful"
+   },
+   {
+    "da": "et utroskab",
+    "en": "infidelity"
+   },
+   {
+    "da": "at snyde",
+    "en": "to cheat"
+   },
+   {
+    "da": "en affære",
+    "en": "an affair"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **utro**, og hun blev meget ked af det.",
+   "en": "He was unfaithful, and she became very sad."
+  }
+ },
+ "utrolig": {
+  "explanation": "\"Utrolig\" means \"unbelievable\", either amazing or hard to believe: Det er utroligt! (That is unbelievable!). It is built from at tro (to believe) and u- for the opposite.",
+  "forms": [
+   {
+    "da": "en utrolig historie",
+    "en": "an unbelievable story"
+   },
+   {
+    "da": "et utroligt held",
+    "en": "unbelievable luck"
+   },
+   {
+    "da": "utrolige ting",
+    "en": "unbelievable things"
+   }
+  ],
+  "related": [
+   {
+    "da": "fantastisk",
+    "en": "fantastic"
+   },
+   {
+    "da": "mærkelig",
+    "en": "strange"
+   },
+   {
+    "da": "troværdig",
+    "en": "believable"
+   },
+   {
+    "da": "forbløffende",
+    "en": "astonishing"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **utrolig** historie.",
+   "en": "It is an unbelievable story."
+  }
+ },
+ "utroligt": {
+  "explanation": "\"Utroligt\" means \"incredibly\" and makes the next word stronger: Det er utroligt dyrt (It is incredibly expensive). Said alone, Utroligt! means \"Unbelievable!\".",
+  "forms": [
+   {
+    "da": "utroligt stor",
+    "en": "incredibly big"
+   },
+   {
+    "da": "utroligt flot",
+    "en": "incredibly beautiful"
+   },
+   {
+    "da": "utroligt sjovt",
+    "en": "incredibly fun"
+   }
+  ],
+  "related": [
+   {
+    "da": "utrolig",
+    "en": "unbelievable"
+   },
+   {
+    "da": "uhyre",
+    "en": "immensely"
+   },
+   {
+    "da": "vildt",
+    "en": "wildly"
+   },
+   {
+    "da": "virkelig",
+    "en": "really"
+   }
+  ],
+  "sentence": {
+   "da": "Bjerget er **utroligt** højt.",
+   "en": "The mountain is incredibly high."
+  }
+ },
+ "utålmodig": {
+  "explanation": "\"Utålmodig\" means \"impatient\": Jeg er utålmodig (I am impatient). It describes someone who hates waiting and wants things now. It is the opposite of tålmodig (patient).",
+  "forms": [
+   {
+    "da": "en utålmodig kunde",
+    "en": "an impatient customer"
+   },
+   {
+    "da": "et utålmodigt barn",
+    "en": "an impatient child"
+   },
+   {
+    "da": "utålmodige folk",
+    "en": "impatient people"
+   }
+  ],
+  "related": [
+   {
+    "da": "rastløs",
+    "en": "restless"
+   },
+   {
+    "da": "en utålmodighed",
+    "en": "impatience"
+   },
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "irriteret",
+    "en": "annoyed"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er **utålmodig**, for bussen er forsinket.",
+   "en": "I am impatient, because the bus is late."
+  }
+ },
+ "uvenlig": {
+  "explanation": "\"Uvenlig\" means \"unfriendly\", and is venlig (friendly) with u- in front: Hun var uvenlig mod mig (She was unfriendly to me). It fits a person, a tone or an answer.",
+  "forms": [
+   {
+    "da": "en uvenlig mand",
+    "en": "an unfriendly man"
+   },
+   {
+    "da": "et uvenligt svar",
+    "en": "an unfriendly answer"
+   },
+   {
+    "da": "uvenlige ord",
+    "en": "unfriendly words"
+   }
+  ],
+  "related": [
+   {
+    "da": "uhøflig",
+    "en": "rude"
+   },
+   {
+    "da": "sur",
+    "en": "grumpy"
+   },
+   {
+    "da": "kold",
+    "en": "cold"
+   },
+   {
+    "da": "ond",
+    "en": "mean"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **uvenlig** og sagde ikke goddag.",
+   "en": "He was unfriendly and did not say hello."
+  }
+ },
+ "uventet": {
+  "explanation": "\"Uventet\" means \"unexpected\" and describes something you were not waiting for: en uventet gæst (an unexpected guest). It is the opposite of ventet (expected).",
+  "forms": [
+   {
+    "da": "en uventet gæst",
+    "en": "an unexpected guest"
+   },
+   {
+    "da": "et uventet svar",
+    "en": "an unexpected answer"
+   },
+   {
+    "da": "uventede nyheder",
+    "en": "unexpected news"
+   }
+  ],
+  "related": [
+   {
+    "da": "forventet",
+    "en": "expected"
+   },
+   {
+    "da": "at vente",
+    "en": "to wait"
+   },
+   {
+    "da": "pludselig",
+    "en": "sudden"
+   },
+   {
+    "da": "tilfældig",
+    "en": "random"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fik en **uventet** gæst i går.",
+   "en": "We had an unexpected guest yesterday."
+  }
+ },
+ "uærlig": {
+  "explanation": "\"Uærlig\" means \"dishonest\", someone who lies or cheats: Han er uærlig (He is dishonest). It is built from u- (un-) and ærlig (honest).",
+  "forms": [
+   {
+    "da": "en uærlig sælger",
+    "en": "a dishonest seller"
+   },
+   {
+    "da": "et uærligt svar",
+    "en": "a dishonest answer"
+   },
+   {
+    "da": "uærlige folk",
+    "en": "dishonest people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en løgn",
+    "en": "a lie"
+   },
+   {
+    "da": "falsk",
+    "en": "false"
+   },
+   {
+    "da": "troværdig",
+    "en": "trustworthy"
+   },
+   {
+    "da": "at lyve",
+    "en": "to lie"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **uærlig** og snyder tit i spil.",
+   "en": "He is dishonest and often cheats at games."
   }
  }
 }

@@ -1,4 +1,379 @@
 {
+ "en yderside": {
+  "explanation": "\"En yderside\" means \"an outside\", the outer surface of something: Ydersiden af kassen er rød (The outside of the box is red). The opposite is en inderside (an inside).",
+  "forms": [
+   {
+    "da": "en yderside",
+    "en": "an outside"
+   },
+   {
+    "da": "ydersiden",
+    "en": "the outside"
+   },
+   {
+    "da": "ydersider",
+    "en": "outsides"
+   },
+   {
+    "da": "ydersiderne",
+    "en": "the outsides"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forside",
+    "en": "a front side"
+   },
+   {
+    "da": "en bagside",
+    "en": "a back side"
+   },
+   {
+    "da": "udvendig",
+    "en": "on the outside"
+   },
+   {
+    "da": "en overflade",
+    "en": "a surface"
+   }
+  ],
+  "sentence": {
+   "da": "Vi maler husets **yderside** i dag.",
+   "en": "We are painting the outside of the house today."
+  }
+ },
+ "en yndlingsbog": {
+  "explanation": "\"En yndlingsbog\" means \"a favorite book\", the one you like best: Det er min yndlingsbog (It is my favorite book). Put yndlings- (favorite) in front of many words to say what you like best.",
+  "forms": [
+   {
+    "da": "en yndlingsbog",
+    "en": "a favorite book"
+   },
+   {
+    "da": "yndlingsbogen",
+    "en": "the favorite book"
+   },
+   {
+    "da": "to yndlingsbøger",
+    "en": "two favorite books"
+   },
+   {
+    "da": "yndlingsbøgerne",
+    "en": "the favorite books"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   },
+   {
+    "da": "en roman",
+    "en": "a novel"
+   },
+   {
+    "da": "en yndlingsfilm",
+    "en": "a favorite movie"
+   },
+   {
+    "da": "en yndlingssang",
+    "en": "a favorite song"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har læst min **yndlingsbog** mange gange.",
+   "en": "I have read my favorite book many times."
+  }
+ },
+ "en yndlingsfarve": {
+  "explanation": "\"En yndlingsfarve\" means \"a favorite color\". It is built from yndling (favorite) and farve (color): Min yndlingsfarve er rød (My favorite color is red). The same works for food: min yndlingsmad (my favorite food).",
+  "forms": [
+   {
+    "da": "en yndlingsfarve",
+    "en": "a favorite color"
+   },
+   {
+    "da": "yndlingsfarven",
+    "en": "the favorite color"
+   },
+   {
+    "da": "yndlingsfarver",
+    "en": "favorite colors"
+   },
+   {
+    "da": "yndlingsfarverne",
+    "en": "the favorite colors"
+   }
+  ],
+  "related": [
+   {
+    "da": "blå",
+    "en": "blue"
+   },
+   {
+    "da": "grøn",
+    "en": "green"
+   },
+   {
+    "da": "gul",
+    "en": "yellow"
+   },
+   {
+    "da": "sort",
+    "en": "black"
+   }
+  ],
+  "sentence": {
+   "da": "Min **yndlingsfarve** er grøn, og min søsters er blå.",
+   "en": "My favorite color is green, and my sister's is blue."
+  }
+ },
+ "en yndlingsfilm": {
+  "explanation": "\"En yndlingsfilm\" means \"a favorite movie\", the one you like best: Hvad er din yndlingsfilm? (What is your favorite movie?). Put yndlings- (favorite) in front of other words the same way.",
+  "forms": [
+   {
+    "da": "en yndlingsfilm",
+    "en": "a favorite movie"
+   },
+   {
+    "da": "yndlingsfilmen",
+    "en": "the favorite movie"
+   },
+   {
+    "da": "to yndlingsfilm",
+    "en": "two favorite movies"
+   },
+   {
+    "da": "yndlingsfilmene",
+    "en": "the favorite movies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en biograf",
+    "en": "a movie theater"
+   },
+   {
+    "da": "en skuespiller",
+    "en": "an actor"
+   },
+   {
+    "da": "en yndlingsbog",
+    "en": "a favorite book"
+   },
+   {
+    "da": "en yndlingssang",
+    "en": "a favorite song"
+   }
+  ],
+  "sentence": {
+   "da": "Min **yndlingsfilm** er meget gammel, men jeg elsker den.",
+   "en": "My favorite movie is very old, but I love it."
+  }
+ },
+ "en yndlingsret": {
+  "explanation": "\"En yndlingsret\" means \"a favorite dish\". It is built from yndling (favorite) and ret (dish): Min yndlingsret er lasagne (My favorite dish is lasagna).",
+  "forms": [
+   {
+    "da": "en yndlingsret",
+    "en": "a favorite dish"
+   },
+   {
+    "da": "yndlingsretten",
+    "en": "the favorite dish"
+   },
+   {
+    "da": "yndlingsretter",
+    "en": "favorite dishes"
+   },
+   {
+    "da": "yndlingsretterne",
+    "en": "the favorite dishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en yndlingsfarve",
+    "en": "a favorite color"
+   },
+   {
+    "da": "en yndlingssang",
+    "en": "a favorite song"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   }
+  ],
+  "sentence": {
+   "da": "Min **yndlingsret** er pandekager med syltetøj.",
+   "en": "My favorite dish is pancakes with jam."
+  }
+ },
+ "en yndlingssang": {
+  "explanation": "\"En yndlingssang\" means \"a favorite song\", the one you like best: Det her er min yndlingssang (This is my favorite song). Yndlings- (favorite) works in front of many words.",
+  "forms": [
+   {
+    "da": "en yndlingssang",
+    "en": "a favorite song"
+   },
+   {
+    "da": "yndlingssangen",
+    "en": "the favorite song"
+   },
+   {
+    "da": "to yndlingssange",
+    "en": "two favorite songs"
+   },
+   {
+    "da": "yndlingssangene",
+    "en": "the favorite songs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sanger",
+    "en": "a singer"
+   },
+   {
+    "da": "musik",
+    "en": "music"
+   },
+   {
+    "da": "en yndlingsfilm",
+    "en": "a favorite movie"
+   },
+   {
+    "da": "en yndlingsbog",
+    "en": "a favorite book"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg synger min **yndlingssang** i bilen.",
+   "en": "I sing my favorite song in the car."
+  }
+ },
+ "en yogamåtte": {
+  "explanation": "\"En yogamåtte\" means \"a yoga mat\", the soft mat you stand or sit on to do yoga: Rul yogamåtten ud (Roll out the yoga mat). It is built from yoga and måtte (mat).",
+  "forms": [
+   {
+    "da": "en yogamåtte",
+    "en": "a yoga mat"
+   },
+   {
+    "da": "yogamåtten",
+    "en": "the yoga mat"
+   },
+   {
+    "da": "yogamåtter",
+    "en": "yoga mats"
+   },
+   {
+    "da": "yogamåtterne",
+    "en": "the yoga mats"
+   }
+  ],
+  "related": [
+   {
+    "da": "pilates",
+    "en": "Pilates"
+   },
+   {
+    "da": "en træningsmåtte",
+    "en": "an exercise mat"
+   },
+   {
+    "da": "en dørmåtte",
+    "en": "a doormat"
+   },
+   {
+    "da": "en træning",
+    "en": "a workout"
+   }
+  ],
+  "sentence": {
+   "da": "Hun ruller sin **yogamåtte** ud og laver yoga.",
+   "en": "She rolls out her yoga mat and does yoga."
+  }
+ },
+ "ydre": {
+  "explanation": "\"Ydre\" means \"outer\" and points to the outside part of something: den ydre side (the outer side). It keeps the same form with every word.",
+  "forms": [
+   {
+    "da": "en ydre side",
+    "en": "an outer side"
+   },
+   {
+    "da": "et ydre lag",
+    "en": "an outer layer"
+   },
+   {
+    "da": "ydre dele",
+    "en": "outer parts"
+   }
+  ],
+  "related": [
+   {
+    "da": "indre",
+    "en": "inner"
+   },
+   {
+    "da": "udenfor",
+    "en": "outside"
+   },
+   {
+    "da": "udvendig",
+    "en": "external"
+   },
+   {
+    "da": "yderst",
+    "en": "outermost"
+   }
+  ],
+  "sentence": {
+   "da": "Husets **ydre** mure er hvide.",
+   "en": "The outer walls of the house are white."
+  }
+ },
+ "yndlings-": {
+  "explanation": "\"Yndlings-\" means \"favorite\" and goes in front of another word to build one: yndlingsmad (favorite food). Write it together with the word: yndlingsbog (favorite book).",
+  "forms": [
+   {
+    "da": "min yndlingsfarve",
+    "en": "my favorite color"
+   },
+   {
+    "da": "hans yndlingssang",
+    "en": "his favorite song"
+   },
+   {
+    "da": "vores yndlingssted",
+    "en": "our favorite place"
+   }
+  ],
+  "related": [
+   {
+    "da": "en favorit",
+    "en": "a favorite"
+   },
+   {
+    "da": "at holde af",
+    "en": "to be fond of"
+   },
+   {
+    "da": "at elske",
+    "en": "to love"
+   },
+   {
+    "da": "foretrukken",
+    "en": "preferred"
+   }
+  ],
+  "sentence": {
+   "da": "Min **yndlings**farve er blå.",
+   "en": "My favorite color is blue."
+  }
+ },
  "yngre": {
   "explanation": "\"Yngre\" means \"younger\". It is the step up from ung (young): Hun er yngre end mig (She is younger than me).",
   "forms": [
@@ -67,6 +442,45 @@
   "sentence": {
    "da": "Anna er **yngst** af mine børn.",
    "en": "Anna is the youngest of my children."
+  }
+ },
+ "yoga": {
+  "explanation": "\"Yoga\" means \"yoga\". To say you do it, use at lave (to do): Hun laver yoga om aftenen (She does yoga in the evening).",
+  "forms": [
+   {
+    "da": "Jeg laver yoga.",
+    "en": "I do yoga."
+   },
+   {
+    "da": "en yogatime",
+    "en": "a yoga class"
+   },
+   {
+    "da": "en yogamåtte",
+    "en": "a yoga mat"
+   }
+  ],
+  "related": [
+   {
+    "da": "meditation",
+    "en": "meditation"
+   },
+   {
+    "da": "pilates",
+    "en": "Pilates"
+   },
+   {
+    "da": "at strække sig",
+    "en": "to stretch"
+   },
+   {
+    "da": "afslapning",
+    "en": "relaxation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne lave **yoga** hver morgen.",
+   "en": "I would like to do yoga every morning."
   }
  },
  "yoghurt": {

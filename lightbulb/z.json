@@ -41,5 +41,83 @@
    "da": "En **zebra** har sorte og hvide striber.",
    "en": "A zebra has black and white stripes."
   }
+ },
+ "en zone": {
+  "explanation": "\"En zone\" means \"a zone\", an area with its own rules or purpose: en fodgængerzone (a pedestrian zone). Bus and train tickets also work by zones: Billetten gælder to zoner (The ticket covers two zones).",
+  "forms": [
+   {
+    "da": "en zone",
+    "en": "a zone"
+   },
+   {
+    "da": "zonen",
+    "en": "the zone"
+   },
+   {
+    "da": "zoner",
+    "en": "zones"
+   },
+   {
+    "da": "zonerne",
+    "en": "the zones"
+   }
+  ],
+  "related": [
+   {
+    "da": "et område",
+    "en": "an area"
+   },
+   {
+    "da": "en region",
+    "en": "a region"
+   },
+   {
+    "da": "en grænse",
+    "en": "a border"
+   }
+  ],
+  "sentence": {
+   "da": "Her er en **zone** uden biler.",
+   "en": "Here is a zone without cars."
+  }
+ },
+ "en zoologisk have": {
+  "explanation": "\"En zoologisk have\" means \"a zoo\". It is the full word, and Danes often shorten it to zoo: Vi skal i zoo (We are going to the zoo).",
+  "forms": [
+   {
+    "da": "en zoologisk have",
+    "en": "a zoo"
+   },
+   {
+    "da": "den zoologiske have",
+    "en": "the zoo"
+   },
+   {
+    "da": "zoologiske haver",
+    "en": "zoos"
+   },
+   {
+    "da": "de zoologiske haver",
+    "en": "the zoos"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dyrepark",
+    "en": "an animal park"
+   },
+   {
+    "da": "et akvarium",
+    "en": "an aquarium"
+   },
+   {
+    "da": "en botanisk have",
+    "en": "a botanical garden"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ser mange dyr i en **zoologisk have**.",
+   "en": "We see many animals in a zoo."
+  }
  }
 }

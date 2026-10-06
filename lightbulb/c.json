@@ -1,4 +1,82 @@
 {
+ "at checke ind": {
+  "explanation": "\"At checke ind\" means \"to check in\", at a hotel or an airport: Du kan checke ind i lufthavnen (You can check in at the airport). At a hotel, ask Må jeg checke ind? (May I check in?)",
+  "forms": [
+   {
+    "da": "at checke ind",
+    "en": "to check in"
+   },
+   {
+    "da": "jeg checker ind",
+    "en": "I check in"
+   },
+   {
+    "da": "jeg checkede ind",
+    "en": "I checked in"
+   },
+   {
+    "da": "jeg har checket ind",
+    "en": "I have checked in"
+   }
+  ],
+  "related": [
+   {
+    "da": "at checke ud",
+    "en": "to check out"
+   },
+   {
+    "da": "at tjekke ind",
+    "en": "to check in (other spelling)"
+   },
+   {
+    "da": "en reception",
+    "en": "a front desk"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **checke ind** på hotellet klokken to.",
+   "en": "We can check in at the hotel at two o'clock."
+  }
+ },
+ "at checke ud": {
+  "explanation": "\"At checke ud\" means \"to check out\", when you leave a hotel: Hvornår skal jeg checke ud? (When do I have to check out?) The opposite is at checke ind (to check in).",
+  "forms": [
+   {
+    "da": "at checke ud",
+    "en": "to check out"
+   },
+   {
+    "da": "jeg checker ud",
+    "en": "I check out"
+   },
+   {
+    "da": "jeg checkede ud",
+    "en": "I checked out"
+   },
+   {
+    "da": "jeg har checket ud",
+    "en": "I have checked out"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tjekke ud",
+    "en": "to check out (other spelling)"
+   },
+   {
+    "da": "at forlade",
+    "en": "to leave"
+   },
+   {
+    "da": "en udtjekning",
+    "en": "a check-out"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **checke ud** af hotellet i dag.",
+   "en": "We have to check out of the hotel today."
+  }
+ },
  "at cykle": {
   "explanation": "\"At cykle\" means \"to cycle\" or \"to ride a bike\". It comes from en cykel (a bicycle), and you can add where to: Jeg cykler til skole (I cycle to school).",
   "forms": [
@@ -38,6 +116,205 @@
    "en": "I want to cycle to work."
   }
  },
+ "central": {
+  "explanation": "\"Central\" means \"central\", in the middle of a place: Hotellet ligger centralt (The hotel is in the center). It also means most important: den centrale idé (the main idea).",
+  "forms": [
+   {
+    "da": "en central placering",
+    "en": "a central location"
+   },
+   {
+    "da": "et centralt sted",
+    "en": "a central place"
+   },
+   {
+    "da": "centrale ideer",
+    "en": "central ideas"
+   }
+  ],
+  "related": [
+   {
+    "da": "et centrum",
+    "en": "a center"
+   },
+   {
+    "da": "en midte",
+    "en": "a middle"
+   },
+   {
+    "da": "perifer",
+    "en": "peripheral"
+   },
+   {
+    "da": "afgørende",
+    "en": "crucial"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i en **central** lejlighed tæt på stationen.",
+   "en": "We live in a central apartment close to the station."
+  }
+ },
+ "champagne": {
+  "explanation": "\"Champagne\" means \"champagne\", a sparkling wine for celebrations: Vi drikker champagne til festen (We drink champagne at the party). For other sparkling wine, say mousserende vin (sparkling wine).",
+  "forms": [
+   {
+    "da": "champagne",
+    "en": "champagne"
+   },
+   {
+    "da": "champagnen",
+    "en": "the champagne"
+   },
+   {
+    "da": "en flaske champagne",
+    "en": "a bottle of champagne"
+   },
+   {
+    "da": "et glas champagne",
+    "en": "a glass of champagne"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skumvin",
+    "en": "sparkling wine"
+   },
+   {
+    "da": "at skåle",
+    "en": "to toast"
+   },
+   {
+    "da": "en skål",
+    "en": "a toast / cheers"
+   }
+  ],
+  "sentence": {
+   "da": "Til nytår drikker vi **champagne** og skåler.",
+   "en": "At New Year's we drink champagne and toast."
+  }
+ },
+ "charme": {
+  "explanation": "\"Charme\" means \"charm\", the pleasant quality that makes people like someone: Hun vandt dem med sin charme (She won them over with her charm). It can also describe a place: en hytte med charme (a cottage with charm).",
+  "forms": [
+   {
+    "da": "charme",
+    "en": "charm"
+   },
+   {
+    "da": "charmen",
+    "en": "the charm"
+   },
+   {
+    "da": "have charme",
+    "en": "to have charm"
+   },
+   {
+    "da": "med charme",
+    "en": "with charm"
+   }
+  ],
+  "related": [
+   {
+    "da": "charmerende",
+    "en": "charming"
+   },
+   {
+    "da": "en charmør",
+    "en": "a charmer"
+   },
+   {
+    "da": "udstråling",
+    "en": "presence"
+   },
+   {
+    "da": "elskværdig",
+    "en": "gracious"
+   }
+  ],
+  "sentence": {
+   "da": "Han har meget **charme**, og alle kan lide ham.",
+   "en": "He has a lot of charm, and everyone likes him."
+  }
+ },
+ "charmerende": {
+  "explanation": "\"Charmerende\" means \"charming\" and describes someone who wins people over easily: Han er charmerende og høflig (He is charming and polite). It is also used for places: en charmerende by (a charming town).",
+  "forms": [
+   {
+    "da": "en charmerende mand",
+    "en": "a charming man"
+   },
+   {
+    "da": "et charmerende smil",
+    "en": "a charming smile"
+   },
+   {
+    "da": "charmerende folk",
+    "en": "charming people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en charme",
+    "en": "charm"
+   },
+   {
+    "da": "at charmere",
+    "en": "to charm"
+   },
+   {
+    "da": "indtagende",
+    "en": "engaging"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **charmerende** og får alle til at smile.",
+   "en": "He is charming and makes everyone smile."
+  }
+ },
+ "chili": {
+  "explanation": "\"En chili\" means \"a chili\", the small hot pepper: Der er en chili i saucen (There is a chili in the sauce). A bell pepper is en peberfrugt (a bell pepper) and is not hot.",
+  "forms": [
+   {
+    "da": "en chili",
+    "en": "a chili"
+   },
+   {
+    "da": "chilien",
+    "en": "the chili"
+   },
+   {
+    "da": "chilier",
+    "en": "chilies"
+   },
+   {
+    "da": "chilierne",
+    "en": "the chilies"
+   }
+  ],
+  "related": [
+   {
+    "da": "peber",
+    "en": "pepper"
+   },
+   {
+    "da": "stærk",
+    "en": "hot / spicy"
+   },
+   {
+    "da": "chilipulver",
+    "en": "chili powder"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skærer en **chili** i små stykker.",
+   "en": "I cut a chili into small pieces."
+  }
+ },
  "chips": {
   "explanation": "\"Chips\" means \"potato chips\" (called crisps in British English). It is always plural, so you say en pose chips (a bag of chips). Do not mix it up with pommes frites (French fries).",
   "forms": [
@@ -71,6 +348,45 @@
   "sentence": {
    "da": "**Chips** er lavet af kartofler og smager salt.",
    "en": "Chips are made of potatoes and taste salty."
+  }
+ },
+ "chokeret": {
+  "explanation": "\"Chokeret\" means \"shocked\" and describes someone who is surprised in a bad way: Vi var chokerede over prisen (We were shocked by the price). The thing that shocks you is chokerende (shocking).",
+  "forms": [
+   {
+    "da": "en chokeret mand",
+    "en": "a shocked man"
+   },
+   {
+    "da": "et chokeret barn",
+    "en": "a shocked child"
+   },
+   {
+    "da": "chokerede folk",
+    "en": "shocked people"
+   }
+  ],
+  "related": [
+   {
+    "da": "et chok",
+    "en": "a shock"
+   },
+   {
+    "da": "at chokere",
+    "en": "to shock"
+   },
+   {
+    "da": "forskrækket",
+    "en": "startled"
+   },
+   {
+    "da": "overrasket",
+    "en": "surprised"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg blev **chokeret**, da jeg hørte nyheden.",
+   "en": "I was shocked when I heard the news."
   }
  },
  "chokolade": {
@@ -178,6 +494,119 @@
    "en": "I eat cornflakes with milk for breakfast."
   }
  },
+ "couscous": {
+  "explanation": "\"Couscous\" means \"couscous\", tiny round grains made from wheat and served as a side dish: Vi spiser couscous med kylling (We eat couscous with chicken).",
+  "forms": [
+   {
+    "da": "couscous",
+    "en": "couscous"
+   },
+   {
+    "da": "couscousen",
+    "en": "the couscous"
+   },
+   {
+    "da": "couscous med grønsager",
+    "en": "couscous with vegetables"
+   }
+  ],
+  "related": [
+   {
+    "da": "bulgur",
+    "en": "bulgur"
+   },
+   {
+    "da": "quinoa",
+    "en": "quinoa"
+   },
+   {
+    "da": "ris",
+    "en": "rice"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hælder varmt vand over **couscous**.",
+   "en": "I pour hot water over couscous."
+  }
+ },
+ "creme": {
+  "explanation": "\"En creme\" means \"cream\" for your skin: Jeg bruger creme på hænderne (I use cream on my hands). For cream in coffee or cooking, say fløde (cream) instead.",
+  "forms": [
+   {
+    "da": "en creme",
+    "en": "a cream (lotion)"
+   },
+   {
+    "da": "cremen",
+    "en": "the cream"
+   },
+   {
+    "da": "cremer",
+    "en": "creams"
+   },
+   {
+    "da": "cremerne",
+    "en": "the creams"
+   }
+  ],
+  "related": [
+   {
+    "da": "en håndcreme",
+    "en": "a hand cream"
+   },
+   {
+    "da": "en solcreme",
+    "en": "a sunscreen"
+   },
+   {
+    "da": "en fugtighedscreme",
+    "en": "a moisturizer"
+   },
+   {
+    "da": "en salve",
+    "en": "an ointment"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg smører **creme** på mine hænder.",
+   "en": "I rub cream on my hands."
+  }
+ },
+ "creme fraiche": {
+  "explanation": "\"Creme fraiche\" means \"crème fraîche\", a thick, slightly sour cream. You use it in sauces and on food: Jeg bruger creme fraiche i saucen (I use crème fraîche in the sauce).",
+  "forms": [
+   {
+    "da": "en bøtte creme fraiche",
+    "en": "a tub of crème fraîche"
+   },
+   {
+    "da": "creme fraiche i saucen",
+    "en": "crème fraîche in the sauce"
+   },
+   {
+    "da": "lidt creme fraiche",
+    "en": "some crème fraîche"
+   }
+  ],
+  "related": [
+   {
+    "da": "en yoghurt",
+    "en": "a yogurt"
+   },
+   {
+    "da": "en tykmælk",
+    "en": "a thick sour milk"
+   },
+   {
+    "da": "en ymer",
+    "en": "a Danish soured milk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg putter **creme fraiche** på min bagte kartoffel.",
+   "en": "I put crème fraîche on my baked potato."
+  }
+ },
  "cykling": {
   "explanation": "\"Cykling\" means \"cycling\" as an activity or sport: Jeg elsker cykling (I love cycling). To say what you are doing, use at cykle (to cycle): Jeg cykler (I am cycling).",
   "forms": [
@@ -252,6 +681,166 @@
    "en": "We drink coffee at a cafe."
   }
  },
+ "en campingplads": {
+  "explanation": "\"En campingplads\" means \"a campsite\". It is built from camping (camping) and plads (place): Vi sover på en campingplads (We sleep at a campsite).",
+  "forms": [
+   {
+    "da": "en campingplads",
+    "en": "a campsite"
+   },
+   {
+    "da": "campingpladsen",
+    "en": "the campsite"
+   },
+   {
+    "da": "campingpladser",
+    "en": "campsites"
+   },
+   {
+    "da": "campingpladserne",
+    "en": "the campsites"
+   }
+  ],
+  "related": [
+   {
+    "da": "et telt",
+    "en": "a tent"
+   },
+   {
+    "da": "en sovepose",
+    "en": "a sleeping bag"
+   },
+   {
+    "da": "en campingvogn",
+    "en": "a camper trailer"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor på en **campingplads** tæt på stranden.",
+   "en": "We stay at a campsite close to the beach."
+  }
+ },
+ "en cardigan": {
+  "explanation": "\"En cardigan\" means \"a cardigan\", a knitted sweater that opens down the front: Hun har en blå cardigan på (She is wearing a blue cardigan).",
+  "forms": [
+   {
+    "da": "en cardigan",
+    "en": "a cardigan"
+   },
+   {
+    "da": "cardiganen",
+    "en": "the cardigan"
+   },
+   {
+    "da": "cardiganer",
+    "en": "cardigans"
+   },
+   {
+    "da": "cardiganerne",
+    "en": "the cardigans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trøje",
+    "en": "a sweater"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "en bluse",
+    "en": "a blouse"
+   },
+   {
+    "da": "en vest",
+    "en": "a vest"
+   }
+  ],
+  "sentence": {
+   "da": "Hun tager en **cardigan** på, når det er køligt.",
+   "en": "She puts on a cardigan when it is cool."
+  }
+ },
+ "en carport": {
+  "explanation": "\"En carport\" means \"a carport\", a roof on posts where you park the car, with no walls: Bilen holder i carporten (The car is parked in the carport). A closed garage is en garage (a garage).",
+  "forms": [
+   {
+    "da": "en carport",
+    "en": "a carport"
+   },
+   {
+    "da": "carporten",
+    "en": "the carport"
+   },
+   {
+    "da": "carporte",
+    "en": "carports"
+   },
+   {
+    "da": "carportene",
+    "en": "the carports"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indkørsel",
+    "en": "a driveway"
+   },
+   {
+    "da": "et skur",
+    "en": "a shed"
+   },
+   {
+    "da": "en parkeringsplads",
+    "en": "a parking space"
+   }
+  ],
+  "sentence": {
+   "da": "Vi parkerer bilen under vores **carport**.",
+   "en": "We park the car under our carport."
+  }
+ },
+ "en cent": {
+  "explanation": "\"En cent\" means \"a cent\", one hundredth of a euro or a dollar: Det koster fem cent (It costs five cents). Danish money uses en øre (an øre) instead.",
+  "forms": [
+   {
+    "da": "en cent",
+    "en": "a cent"
+   },
+   {
+    "da": "centen",
+    "en": "the cent"
+   },
+   {
+    "da": "cent",
+    "en": "cents"
+   },
+   {
+    "da": "centene",
+    "en": "the cents"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mønt",
+    "en": "a coin"
+   },
+   {
+    "da": "en krone",
+    "en": "a krone"
+   },
+   {
+    "da": "en valuta",
+    "en": "a currency"
+   }
+  ],
+  "sentence": {
+   "da": "Den koster kun tyve **cent**.",
+   "en": "It only costs twenty cents."
+  }
+ },
  "en centimeter": {
   "explanation": "\"En centimeter\" means \"a centimeter\". After a number it stays the same: ti centimeter (ten centimeters).",
   "forms": [
@@ -289,6 +878,174 @@
   "sentence": {
    "da": "Bordet er hundrede **centimeter** langt.",
    "en": "The table is a hundred centimeters long."
+  }
+ },
+ "en champignon": {
+  "explanation": "\"En champignon\" means \"a mushroom\", the white kind you buy in a store. You can fry it in butter: Jeg steger champignoner i smør (I fry mushrooms in butter).",
+  "forms": [
+   {
+    "da": "en champignon",
+    "en": "a mushroom"
+   },
+   {
+    "da": "champignonen",
+    "en": "the mushroom"
+   },
+   {
+    "da": "champignoner",
+    "en": "mushrooms"
+   },
+   {
+    "da": "champignonerne",
+    "en": "the mushrooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en svamp",
+    "en": "a mushroom (any kind)"
+   },
+   {
+    "da": "en kantarel",
+    "en": "a chanterelle"
+   },
+   {
+    "da": "en trøffel",
+    "en": "a truffle"
+   },
+   {
+    "da": "en østershat",
+    "en": "an oyster mushroom"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide **champignon** på pizza.",
+   "en": "I like mushroom on pizza."
+  }
+ },
+ "en chance": {
+  "explanation": "\"En chance\" means \"a chance\", both an opportunity and how likely something is: Jeg fik en chance (I got a chance). Hun har en god chance for at vinde (She has a good chance of winning).",
+  "forms": [
+   {
+    "da": "en chance",
+    "en": "a chance"
+   },
+   {
+    "da": "chancen",
+    "en": "the chance"
+   },
+   {
+    "da": "chancer",
+    "en": "chances"
+   },
+   {
+    "da": "chancerne",
+    "en": "the chances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mulighed",
+    "en": "a possibility"
+   },
+   {
+    "da": "et held",
+    "en": "luck"
+   },
+   {
+    "da": "en risiko",
+    "en": "a risk"
+   },
+   {
+    "da": "en sandsynlighed",
+    "en": "a likelihood"
+   }
+  ],
+  "sentence": {
+   "da": "Du får en ny **chance** i morgen.",
+   "en": "You get a new chance tomorrow."
+  }
+ },
+ "en chauffør": {
+  "explanation": "\"En chauffør\" means \"a driver\" as a job, for example of a bus or truck: Chaufføren holder en pause (The driver is taking a break). For anyone driving their own car, use en bilist (a car driver).",
+  "forms": [
+   {
+    "da": "en chauffør",
+    "en": "a driver"
+   },
+   {
+    "da": "chaufføren",
+    "en": "the driver"
+   },
+   {
+    "da": "chauffører",
+    "en": "drivers"
+   },
+   {
+    "da": "chaufførerne",
+    "en": "the drivers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en buschauffør",
+    "en": "a bus driver"
+   },
+   {
+    "da": "en taxachauffør",
+    "en": "a taxi driver"
+   },
+   {
+    "da": "en lastbilchauffør",
+    "en": "a truck driver"
+   }
+  ],
+  "sentence": {
+   "da": "Bussens **chauffør** hilser på alle.",
+   "en": "The bus driver greets everyone."
+  }
+ },
+ "en cheesecake": {
+  "explanation": "\"En cheesecake\" means \"a cheesecake\". Order it like this at a café: Jeg vil gerne have et stykke cheesecake (I would like a piece of cheesecake).",
+  "forms": [
+   {
+    "da": "en cheesecake",
+    "en": "a cheesecake"
+   },
+   {
+    "da": "cheesecaken",
+    "en": "the cheesecake"
+   },
+   {
+    "da": "cheesecakes",
+    "en": "cheesecakes"
+   },
+   {
+    "da": "cheesecakene",
+    "en": "the cheesecakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ostekage",
+    "en": "a cheesecake"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   },
+   {
+    "da": "en tærte",
+    "en": "a tart"
+   },
+   {
+    "da": "en brownie",
+    "en": "a brownie"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **cheesecake** til dessert.",
+   "en": "I would like cheesecake for dessert."
   }
  },
  "en chef": {
@@ -330,6 +1087,131 @@
    "en": "I work for my boss every day."
   }
  },
+ "en chokoladekage": {
+  "explanation": "\"En chokoladekage\" means \"a chocolate cake\", built from chokolade (chocolate) and kage (cake): Chokoladekagen er stadig varm (The chocolate cake is still warm).",
+  "forms": [
+   {
+    "da": "en chokoladekage",
+    "en": "a chocolate cake"
+   },
+   {
+    "da": "chokoladekagen",
+    "en": "the chocolate cake"
+   },
+   {
+    "da": "chokoladekager",
+    "en": "chocolate cakes"
+   },
+   {
+    "da": "chokoladekagerne",
+    "en": "the chocolate cakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lagkage",
+    "en": "a layer cake"
+   },
+   {
+    "da": "en brownie",
+    "en": "a brownie"
+   },
+   {
+    "da": "en fødselsdagskage",
+    "en": "a birthday cake"
+   },
+   {
+    "da": "en muffin",
+    "en": "a muffin"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **chokoladekage** med vaniljeis.",
+   "en": "I love chocolate cake with vanilla ice cream."
+  }
+ },
+ "en cigaret": {
+  "explanation": "\"En cigaret\" means \"a cigarette\" and goes with at ryge (to smoke): Han ryger en cigaret (He smokes a cigarette).",
+  "forms": [
+   {
+    "da": "en cigaret",
+    "en": "a cigarette"
+   },
+   {
+    "da": "cigaretten",
+    "en": "the cigarette"
+   },
+   {
+    "da": "cigaretter",
+    "en": "cigarettes"
+   },
+   {
+    "da": "cigaretterne",
+    "en": "the cigarettes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cigar",
+    "en": "a cigar"
+   },
+   {
+    "da": "en pibe",
+    "en": "a pipe"
+   },
+   {
+    "da": "tobak",
+    "en": "tobacco"
+   }
+  ],
+  "sentence": {
+   "da": "Han tænder en **cigaret** udenfor.",
+   "en": "He lights a cigarette outside."
+  }
+ },
+ "en cirkel": {
+  "explanation": "\"En cirkel\" means \"a circle\": Tegn en cirkel (Draw a circle). People also sit in one: Vi sidder i en cirkel (We sit in a circle). For a round 3D shape, use en kugle (a ball).",
+  "forms": [
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   },
+   {
+    "da": "cirklen",
+    "en": "the circle"
+   },
+   {
+    "da": "cirkler",
+    "en": "circles"
+   },
+   {
+    "da": "cirklerne",
+    "en": "the circles"
+   }
+  ],
+  "related": [
+   {
+    "da": "rund",
+    "en": "round"
+   },
+   {
+    "da": "en ring",
+    "en": "a ring"
+   },
+   {
+    "da": "en oval",
+    "en": "an oval"
+   },
+   {
+    "da": "en trekant",
+    "en": "a triangle"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene sidder i en **cirkel** på gulvet.",
+   "en": "The children sit in a circle on the floor."
+  }
+ },
  "en citron": {
   "explanation": "\"En citron\" means \"a lemon\", a sour yellow fruit. The stress is on the last part: ci-TRON.",
   "forms": [
@@ -367,6 +1249,49 @@
   "sentence": {
    "da": "Kan jeg få en skive **citron** i teen?",
    "en": "Can I have a slice of lemon in the tea?"
+  }
+ },
+ "en coach": {
+  "explanation": "\"En coach\" means \"a coach\", someone who trains or guides a person or team: Hun er coach for børnenes hold (She is the coach of the kids' team). In sports, Danes also say en træner (a coach).",
+  "forms": [
+   {
+    "da": "en coach",
+    "en": "a coach"
+   },
+   {
+    "da": "coachen",
+    "en": "the coach"
+   },
+   {
+    "da": "coaches",
+    "en": "coaches"
+   },
+   {
+    "da": "coachene",
+    "en": "the coaches"
+   }
+  ],
+  "related": [
+   {
+    "da": "at coache",
+    "en": "to coach"
+   },
+   {
+    "da": "en instruktør",
+    "en": "an instructor"
+   },
+   {
+    "da": "en vejleder",
+    "en": "an adviser"
+   },
+   {
+    "da": "en mentor",
+    "en": "a mentor"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **coach** hjælper os med at blive bedre.",
+   "en": "Our coach helps us get better."
   }
  },
  "en computer": {
@@ -408,6 +1333,127 @@
    "en": "I am writing an email on my computer."
   }
  },
+ "en computermus": {
+  "explanation": "\"En computermus\" means \"a computer mouse\". The animal is en mus (a mouse), and the plural stays the same: to computermus (two computer mice).",
+  "forms": [
+   {
+    "da": "en computermus",
+    "en": "a computer mouse"
+   },
+   {
+    "da": "computermusen",
+    "en": "the computer mouse"
+   },
+   {
+    "da": "computermus",
+    "en": "computer mice"
+   },
+   {
+    "da": "computermusene",
+    "en": "the computer mice"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tastatur",
+    "en": "a keyboard"
+   },
+   {
+    "da": "en musemåtte",
+    "en": "a mouse pad"
+   },
+   {
+    "da": "en trådløs mus",
+    "en": "a wireless mouse"
+   },
+   {
+    "da": "en bærbar computer",
+    "en": "a laptop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke klikke, fordi min **computermus** er gået i stykker.",
+   "en": "I cannot click because my computer mouse is broken."
+  }
+ },
+ "en container": {
+  "explanation": "\"En container\" means \"a container\", usually a big metal one for waste or shipping: Skraldet kommer i en container (The garbage goes in a container). For a small one for food, say en beholder (a food container).",
+  "forms": [
+   {
+    "da": "en container",
+    "en": "a container"
+   },
+   {
+    "da": "containeren",
+    "en": "the container"
+   },
+   {
+    "da": "containere",
+    "en": "containers"
+   },
+   {
+    "da": "containerne",
+    "en": "the containers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kasse",
+    "en": "a box"
+   },
+   {
+    "da": "en skraldespand",
+    "en": "a garbage can"
+   },
+   {
+    "da": "en skraldecontainer",
+    "en": "a garbage container"
+   }
+  ],
+  "sentence": {
+   "da": "De smider gammelt træ i en **container**.",
+   "en": "They throw old wood in a container."
+  }
+ },
+ "en croissant": {
+  "explanation": "\"En croissant\" means \"a croissant\", a flaky, buttery pastry in a curved shape: Jeg tager en croissant og en kop kaffe (I will have a croissant and a cup of coffee).",
+  "forms": [
+   {
+    "da": "en croissant",
+    "en": "a croissant"
+   },
+   {
+    "da": "croissanten",
+    "en": "the croissant"
+   },
+   {
+    "da": "croissanter",
+    "en": "croissants"
+   },
+   {
+    "da": "croissanterne",
+    "en": "the croissants"
+   }
+  ],
+  "related": [
+   {
+    "da": "et wienerbrød",
+    "en": "a Danish pastry"
+   },
+   {
+    "da": "et rundstykke",
+    "en": "a bread roll"
+   },
+   {
+    "da": "en baguette",
+    "en": "a baguette"
+   }
+  ],
+  "sentence": {
+   "da": "Til morgenmad spiser jeg en **croissant** med smør.",
+   "en": "For breakfast I eat a croissant with butter."
+  }
+ },
  "en cykel": {
   "explanation": "\"En cykel\" means \"a bicycle\". Notice the spelling with y, not i. To say you go by bike, use på cykel (by bike) or at tage cyklen (to take the bike).",
   "forms": [
@@ -445,6 +1491,240 @@
   "sentence": {
    "da": "Jeg kører på **cykel** til skole.",
    "en": "I ride a bike to school."
+  }
+ },
+ "en cykelhandler": {
+  "explanation": "\"En cykelhandler\" means \"a bike dealer\", a shop that sells and repairs bikes. You can say Jeg skal til cykelhandleren (I am going to the bike shop) when your bike needs fixing.",
+  "forms": [
+   {
+    "da": "en cykelhandler",
+    "en": "a bike dealer"
+   },
+   {
+    "da": "cykelhandleren",
+    "en": "the bike dealer"
+   },
+   {
+    "da": "cykelhandlere",
+    "en": "bike dealers"
+   },
+   {
+    "da": "cykelhandlerene",
+    "en": "the bike dealers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cykelbutik",
+    "en": "a bike shop"
+   },
+   {
+    "da": "en cykelsmed",
+    "en": "a bike mechanic"
+   },
+   {
+    "da": "en forhandler",
+    "en": "a dealer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan købe en ny cykel hos en **cykelhandler**.",
+   "en": "I can buy a new bike at a bike dealer."
+  }
+ },
+ "en cykelhjelm": {
+  "explanation": "\"En cykelhjelm\" means \"a bike helmet\". To wear it, say have på (wear), and to put it on, say tage på: Tag din cykelhjelm på, før du cykler (Put on your bike helmet before you ride).",
+  "forms": [
+   {
+    "da": "en cykelhjelm",
+    "en": "a bike helmet"
+   },
+   {
+    "da": "cykelhjelmen",
+    "en": "the bike helmet"
+   },
+   {
+    "da": "cykelhjelme",
+    "en": "bike helmets"
+   },
+   {
+    "da": "cykelhjelmene",
+    "en": "the bike helmets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjelm",
+    "en": "a helmet"
+   },
+   {
+    "da": "en cykel",
+    "en": "a bike"
+   },
+   {
+    "da": "en cyklist",
+    "en": "a cyclist"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har altid min **cykelhjelm** på.",
+   "en": "I always wear my bike helmet."
+  }
+ },
+ "en cykellås": {
+  "explanation": "\"En cykellås\" means \"a bike lock\": Jeg glemte min cykellås (I forgot my bike lock). It is built from cykel (bike) and lås (lock).",
+  "forms": [
+   {
+    "da": "en cykellås",
+    "en": "a bike lock"
+   },
+   {
+    "da": "cykellåsen",
+    "en": "the bike lock"
+   },
+   {
+    "da": "cykellåse",
+    "en": "bike locks"
+   },
+   {
+    "da": "cykellåsene",
+    "en": "the bike locks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hængelås",
+    "en": "a padlock"
+   },
+   {
+    "da": "en kæde",
+    "en": "a chain"
+   },
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger en **cykellås**, så ingen stjæler min cykel.",
+   "en": "I use a bike lock so nobody steals my bike."
+  }
+ },
+ "en cykelparkering": {
+  "explanation": "\"En cykelparkering\" means \"a bike parking area\", a place to leave your bike, often with racks: Cykelparkeringen er fuld (The bike parking area is full).",
+  "forms": [
+   {
+    "da": "en cykelparkering",
+    "en": "a bike parking area"
+   },
+   {
+    "da": "cykelparkeringen",
+    "en": "the bike parking area"
+   },
+   {
+    "da": "cykelparkeringer",
+    "en": "bike parking areas"
+   },
+   {
+    "da": "cykelparkeringerne",
+    "en": "the bike parking areas"
+   }
+  ],
+  "related": [
+   {
+    "da": "et cykelstativ",
+    "en": "a bike rack"
+   },
+   {
+    "da": "en parkeringsplads",
+    "en": "a parking space"
+   },
+   {
+    "da": "et cykelskur",
+    "en": "a bike shed"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en stor **cykelparkering** foran stationen, og den er gratis.",
+   "en": "There is a big bike parking area in front of the station, and it is free."
+  }
+ },
+ "en cykelpumpe": {
+  "explanation": "\"En cykelpumpe\" means \"a bike pump\", used to put air in the tires: Har du en cykelpumpe? (Do you have a bike pump?). It is built from cykel (bike) and pumpe (pump).",
+  "forms": [
+   {
+    "da": "en cykelpumpe",
+    "en": "a bike pump"
+   },
+   {
+    "da": "cykelpumpen",
+    "en": "the bike pump"
+   },
+   {
+    "da": "cykelpumper",
+    "en": "bike pumps"
+   },
+   {
+    "da": "cykelpumperne",
+    "en": "the bike pumps"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dæk",
+    "en": "a tire"
+   },
+   {
+    "da": "en cykelslange",
+    "en": "an inner tube"
+   },
+   {
+    "da": "en punktering",
+    "en": "a flat tire"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg pumper cyklen op med en **cykelpumpe**.",
+   "en": "I pump up the bike with a bike pump."
+  }
+ },
+ "en cykelsti": {
+  "explanation": "\"En cykelsti\" means \"a bike lane\", a path next to the road only for bikes: Gå ikke på cykelstien (Do not walk on the bike lane). People on foot use et fortov (a sidewalk).",
+  "forms": [
+   {
+    "da": "en cykelsti",
+    "en": "a bike lane"
+   },
+   {
+    "da": "cykelstien",
+    "en": "the bike lane"
+   },
+   {
+    "da": "cykelstier",
+    "en": "bike lanes"
+   },
+   {
+    "da": "cykelstierne",
+    "en": "the bike lanes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gangsti",
+    "en": "a footpath"
+   },
+   {
+    "da": "en cykel",
+    "en": "a bike"
+   },
+   {
+    "da": "en cyklist",
+    "en": "a cyclist"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en ny **cykelsti** langs vejen.",
+   "en": "There is a new bike lane along the road."
   }
  },
  "en cykeltur": {
@@ -490,6 +1770,131 @@
    "en": "We go on a bike ride in the forest."
   }
  },
+ "en cyklist": {
+  "explanation": "\"En cyklist\" means \"a cyclist\", someone who rides a bike: Cyklisten venter ved lyset (The cyclist waits at the light). It comes from at cykle (to bike).",
+  "forms": [
+   {
+    "da": "en cyklist",
+    "en": "a cyclist"
+   },
+   {
+    "da": "cyklisten",
+    "en": "the cyclist"
+   },
+   {
+    "da": "cyklister",
+    "en": "cyclists"
+   },
+   {
+    "da": "cyklisterne",
+    "en": "the cyclists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en motorcyklist",
+    "en": "a motorcyclist"
+   },
+   {
+    "da": "en bilist",
+    "en": "a motorist"
+   },
+   {
+    "da": "en fodgænger",
+    "en": "a pedestrian"
+   },
+   {
+    "da": "en cykel",
+    "en": "a bike"
+   }
+  ],
+  "sentence": {
+   "da": "En **cyklist** kører på cykelstien ved siden af vejen.",
+   "en": "A cyclist rides on the bike path next to the road."
+  }
+ },
+ "et center": {
+  "explanation": "\"Et center\" means \"a center\" as a place or building: et sundhedscenter (a health center). For the middle of a city, Danes say centrum (downtown).",
+  "forms": [
+   {
+    "da": "et center",
+    "en": "a center"
+   },
+   {
+    "da": "centret",
+    "en": "the center"
+   },
+   {
+    "da": "centre",
+    "en": "centers"
+   },
+   {
+    "da": "centrene",
+    "en": "the centers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en midte",
+    "en": "a middle"
+   },
+   {
+    "da": "et indkøbscenter",
+    "en": "a shopping center"
+   },
+   {
+    "da": "et kulturcenter",
+    "en": "a cultural center"
+   }
+  ],
+  "sentence": {
+   "da": "Der er mange butikker i det nye **center**.",
+   "en": "There are many stores in the new center."
+  }
+ },
+ "et centrum": {
+  "explanation": "\"Et centrum\" means \"a center\", mostly the middle of a town where the shops are: Vi mødes i centrum (We meet downtown). For a building like a mall, use et center (a center).",
+  "forms": [
+   {
+    "da": "et centrum",
+    "en": "a center"
+   },
+   {
+    "da": "centrumet",
+    "en": "the center"
+   },
+   {
+    "da": "centrer",
+    "en": "centers"
+   },
+   {
+    "da": "centrene",
+    "en": "the centers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bymidte",
+    "en": "a town center"
+   },
+   {
+    "da": "et midtpunkt",
+    "en": "a focal point"
+   },
+   {
+    "da": "en forstad",
+    "en": "a suburb"
+   },
+   {
+    "da": "en udkant",
+    "en": "the outskirts"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bor tæt på **centrum** og cykler på arbejde.",
+   "en": "I live close to the center and bike to work."
+  }
+ },
  "et check-in": {
   "explanation": "\"Et check-in\" means \"a check-in\", the desk or moment where you register when you arrive at a hotel or an airport.",
   "forms": [
@@ -523,6 +1928,170 @@
   "sentence": {
    "da": "Ved **check-in** får du nøglen til dit værelse.",
    "en": "At check-in, you get the key to your room."
+  }
+ },
+ "et chok": {
+  "explanation": "\"Et chok\" means \"a shock\", like sudden bad news: Nyheden var et stort chok (The news was a big shock). To be in shock is at være i chok: Han er stadig i chok (He is still in shock).",
+  "forms": [
+   {
+    "da": "et chok",
+    "en": "a shock"
+   },
+   {
+    "da": "chokket",
+    "en": "the shock"
+   },
+   {
+    "da": "chok",
+    "en": "shocks"
+   },
+   {
+    "da": "chokkene",
+    "en": "the shocks"
+   }
+  ],
+  "related": [
+   {
+    "da": "at chokere",
+    "en": "to shock"
+   },
+   {
+    "da": "chokeret",
+    "en": "shocked"
+   },
+   {
+    "da": "en overraskelse",
+    "en": "a surprise"
+   },
+   {
+    "da": "en forskrækkelse",
+    "en": "a fright"
+   }
+  ],
+  "sentence": {
+   "da": "Det var et **chok** at høre om ulykken.",
+   "en": "It was a shock to hear about the accident."
+  }
+ },
+ "et ciffer": {
+  "explanation": "\"Et ciffer\" means \"a digit\", one single symbol from 0 to 9: 25 har to cifre (25 has two digits). A number like 100 has three.",
+  "forms": [
+   {
+    "da": "et ciffer",
+    "en": "a digit"
+   },
+   {
+    "da": "cifferet",
+    "en": "the digit"
+   },
+   {
+    "da": "cifre",
+    "en": "digits"
+   },
+   {
+    "da": "cifrene",
+    "en": "the digits"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tal",
+    "en": "a number (the quantity)"
+   },
+   {
+    "da": "et nummer",
+    "en": "a number (in a list)"
+   },
+   {
+    "da": "et bogstav",
+    "en": "a letter"
+   }
+  ],
+  "sentence": {
+   "da": "Det sidste **ciffer** i koden er syv.",
+   "en": "The last digit in the code is seven."
+  }
+ },
+ "et cirkus": {
+  "explanation": "\"Et cirkus\" means \"a circus\", a show with clowns, animals and acrobats: Børnene elsker cirkus (The kids love the circus). It can also mean a chaotic mess: Det er et cirkus herhjemme (It is a circus at home).",
+  "forms": [
+   {
+    "da": "et cirkus",
+    "en": "a circus"
+   },
+   {
+    "da": "cirkuset",
+    "en": "the circus"
+   },
+   {
+    "da": "cirkusser",
+    "en": "circuses"
+   },
+   {
+    "da": "cirkusserne",
+    "en": "the circuses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en klovn",
+    "en": "a clown"
+   },
+   {
+    "da": "en akrobat",
+    "en": "an acrobat"
+   },
+   {
+    "da": "en jonglør",
+    "en": "a juggler"
+   },
+   {
+    "da": "en tryllekunstner",
+    "en": "a magician"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal i **cirkus** i aften og se dyr.",
+   "en": "We are going to the circus tonight to see animals."
+  }
+ },
+ "et computerspil": {
+  "explanation": "\"Et computerspil\" means \"a computer game\". It is built from computer and spil (game): Han spiller computerspil hver dag (He plays computer games every day). It also covers games on a console or phone.",
+  "forms": [
+   {
+    "da": "et computerspil",
+    "en": "a computer game"
+   },
+   {
+    "da": "computerspillet",
+    "en": "the computer game"
+   },
+   {
+    "da": "computerspil",
+    "en": "computer games"
+   },
+   {
+    "da": "computerspillene",
+    "en": "the computer games"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kortspil",
+    "en": "a card game"
+   },
+   {
+    "da": "et brætspil",
+    "en": "a board game"
+   },
+   {
+    "da": "en spillekonsol",
+    "en": "a game console"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn spiller **computerspil**, men han læser også.",
+   "en": "My son plays computer games, but he also reads."
   }
  },
  "et cpr-nummer": {
@@ -562,6 +2131,127 @@
   "sentence": {
    "da": "Jeg skriver mit **CPR-nummer** på formularen hos lægen.",
    "en": "I write my CPR number on the form at the doctor's."
+  }
+ },
+ "et cv": {
+  "explanation": "\"Et cv\" means \"a CV\", the paper listing your jobs and education: Hun har et godt cv (She has a good CV). You send it with an application: Jeg sender mit cv med min ansøgning (I send my CV with my application).",
+  "forms": [
+   {
+    "da": "et cv",
+    "en": "a CV"
+   },
+   {
+    "da": "cv'et",
+    "en": "the CV"
+   },
+   {
+    "da": "cv'er",
+    "en": "CVs"
+   },
+   {
+    "da": "cv'erne",
+    "en": "the CVs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jobsamtale",
+    "en": "a job interview"
+   },
+   {
+    "da": "et job",
+    "en": "a job"
+   },
+   {
+    "da": "en karriere",
+    "en": "a career"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal opdatere mit **cv** i dag.",
+   "en": "I have to update my CV today."
+  }
+ },
+ "et cykelbud": {
+  "explanation": "\"Et cykelbud\" means \"a bike courier\", someone who delivers packages or food by bike: Cykelbuddet bringer maden (The bike courier brings the food). It is built from en cykel (a bike) and et bud (a messenger).",
+  "forms": [
+   {
+    "da": "et cykelbud",
+    "en": "a bike courier"
+   },
+   {
+    "da": "cykelbuddet",
+    "en": "the bike courier"
+   },
+   {
+    "da": "cykelbud",
+    "en": "bike couriers"
+   },
+   {
+    "da": "cykelbuddene",
+    "en": "the bike couriers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kurer",
+    "en": "a courier"
+   },
+   {
+    "da": "en pakke",
+    "en": "a package"
+   },
+   {
+    "da": "en levering",
+    "en": "a delivery"
+   },
+   {
+    "da": "at levere",
+    "en": "to deliver"
+   }
+  ],
+  "sentence": {
+   "da": "Et **cykelbud** kom med pizzaen på ti minutter.",
+   "en": "A bike courier came with the pizza in ten minutes."
+  }
+ },
+ "et cykelstativ": {
+  "explanation": "\"Et cykelstativ\" means \"a bike rack\", a metal stand where you lock your bike: Cyklen står i cykelstativet (The bike is in the bike rack).",
+  "forms": [
+   {
+    "da": "et cykelstativ",
+    "en": "a bike rack"
+   },
+   {
+    "da": "cykelstativet",
+    "en": "the bike rack"
+   },
+   {
+    "da": "cykelstativer",
+    "en": "bike racks"
+   },
+   {
+    "da": "cykelstativerne",
+    "en": "the bike racks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cykelparkering",
+    "en": "a bike parking area"
+   },
+   {
+    "da": "et cykellås",
+    "en": "a bike lock"
+   },
+   {
+    "da": "en cykelsti",
+    "en": "a bike path"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg låser min cykel fast i et **cykelstativ**.",
+   "en": "I lock my bike to a bike rack."
   }
  }
 }

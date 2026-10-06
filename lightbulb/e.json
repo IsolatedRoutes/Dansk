@@ -1,4 +1,129 @@
 {
+ "at eje": {
+  "explanation": "\"At eje\" means \"to own\": Han ejer to huse (He owns two houses). In everyday talk, Danes often just say at have (to have): Jeg har en bil (I have a car).",
+  "forms": [
+   {
+    "da": "at eje",
+    "en": "to own"
+   },
+   {
+    "da": "jeg ejer",
+    "en": "I own"
+   },
+   {
+    "da": "jeg ejede",
+    "en": "I owned"
+   },
+   {
+    "da": "jeg har ejet",
+    "en": "I have owned"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ejerskab",
+    "en": "ownership"
+   },
+   {
+    "da": "en ejendom",
+    "en": "a property"
+   },
+   {
+    "da": "en ejendel",
+    "en": "a belonging"
+   },
+   {
+    "da": "at låne",
+    "en": "to borrow"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil gerne **eje** sit eget hus.",
+   "en": "He would like to own his own house."
+  }
+ },
+ "at eksistere": {
+  "explanation": "\"At eksistere\" means \"to exist\": Dinosaurer eksisterer ikke længere (Dinosaurs no longer exist). In everyday talk, Danes often say findes (exist) instead: Findes der en bus? (Is there a bus?)",
+  "forms": [
+   {
+    "da": "at eksistere",
+    "en": "to exist"
+   },
+   {
+    "da": "jeg eksisterer",
+    "en": "I exist"
+   },
+   {
+    "da": "jeg eksisterede",
+    "en": "I existed"
+   },
+   {
+    "da": "jeg har eksisteret",
+    "en": "I have existed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en eksistens",
+    "en": "an existence"
+   },
+   {
+    "da": "at opstå",
+    "en": "to come into being"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   }
+  ],
+  "sentence": {
+   "da": "Drager kan ikke **eksistere** i virkeligheden.",
+   "en": "Dragons cannot exist in real life."
+  }
+ },
+ "at eksplodere": {
+  "explanation": "\"At eksplodere\" means \"to explode\": Bomben eksploderede (The bomb exploded). It also works for feelings: Han eksploderede af vrede (He exploded with anger).",
+  "forms": [
+   {
+    "da": "at eksplodere",
+    "en": "to explode"
+   },
+   {
+    "da": "jeg eksploderer",
+    "en": "I explode"
+   },
+   {
+    "da": "jeg eksploderede",
+    "en": "I exploded"
+   },
+   {
+    "da": "jeg har eksploderet",
+    "en": "I have exploded"
+   }
+  ],
+  "related": [
+   {
+    "da": "en eksplosion",
+    "en": "an explosion"
+   },
+   {
+    "da": "at sprænge",
+    "en": "to blast"
+   },
+   {
+    "da": "et brag",
+    "en": "a bang"
+   },
+   {
+    "da": "at springe i luften",
+    "en": "to blow up"
+   }
+  ],
+  "sentence": {
+   "da": "Flasken kan **eksplodere**, når den bliver for varm.",
+   "en": "The bottle can explode when it gets too hot."
+  }
+ },
  "at elske": {
   "explanation": "\"At elske\" means \"to love\". It is a strong word, kept mostly for people you truly care about: Jeg elsker dig (I love you). For things and activities, Danes usually say Jeg kan godt lide (I like) or Jeg holder af (I am fond of). Saying you elsker (love) pizza is possible, but it sounds playful.",
   "forms": [
@@ -38,6 +163,92 @@
    "en": "She will love her children forever."
   }
  },
+ "at ende": {
+  "explanation": "\"At ende\" means \"to end\" and also \"to end up\": Historien endte godt (The story ended well). Vi endte i Aarhus (We ended up in Aarhus).",
+  "forms": [
+   {
+    "da": "at ende",
+    "en": "to end"
+   },
+   {
+    "da": "jeg ender",
+    "en": "I end"
+   },
+   {
+    "da": "jeg endte",
+    "en": "I ended"
+   },
+   {
+    "da": "jeg er endt",
+    "en": "I have ended"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slutte",
+    "en": "to finish"
+   },
+   {
+    "da": "slut",
+    "en": "over / the end"
+   },
+   {
+    "da": "en afslutning",
+    "en": "an ending"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to complete"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tror, at filmen vil **ende** godt.",
+   "en": "I think the movie will end well."
+  }
+ },
+ "at ende med": {
+  "explanation": "\"At ende med\" means \"to end up with\" something, or \"to end up doing\" something: Jeg endte med en forkølelse (I ended up with a cold). Han endte med at købe en cykel (He ended up buying a bike).",
+  "forms": [
+   {
+    "da": "at ende med",
+    "en": "to end up with"
+   },
+   {
+    "da": "jeg ender med",
+    "en": "I end up with"
+   },
+   {
+    "da": "jeg endte med",
+    "en": "I ended up with"
+   },
+   {
+    "da": "jeg er endt med",
+    "en": "I have ended up with"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slutte",
+    "en": "to end"
+   },
+   {
+    "da": "til sidst",
+    "en": "in the end"
+   },
+   {
+    "da": "et resultat",
+    "en": "a result"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil nok **ende med** at blive hjemme.",
+   "en": "We will probably end up staying at home."
+  }
+ },
  "e-boks": {
   "explanation": "\"En e-Boks\" means \"an e-Boks\", the digital mailbox where public offices, banks and companies send you letters.",
   "forms": [
@@ -71,6 +282,84 @@
   "sentence": {
    "da": "Jeg har fået et brev i **e-Boks**.",
    "en": "I have received a letter in e-Boks."
+  }
+ },
+ "eddike": {
+  "explanation": "\"Eddike\" means \"vinegar\", the sour liquid used in salad dressing: Tilsæt lidt eddike (Add a little vinegar). It is also one of the ingredients in pickles.",
+  "forms": [
+   {
+    "da": "en eddike",
+    "en": "a vinegar"
+   },
+   {
+    "da": "eddiken",
+    "en": "the vinegar"
+   },
+   {
+    "da": "en flaske eddike",
+    "en": "a bottle of vinegar"
+   },
+   {
+    "da": "eddike og olie",
+    "en": "vinegar and oil"
+   }
+  ],
+  "related": [
+   {
+    "da": "æbleeddike",
+    "en": "apple cider vinegar"
+   },
+   {
+    "da": "balsamicoeddike",
+    "en": "balsamic vinegar"
+   },
+   {
+    "da": "sur",
+    "en": "sour"
+   }
+  ],
+  "sentence": {
+   "da": "Salaten smager surt, fordi der er **eddike** i.",
+   "en": "The salad tastes sour because there is vinegar in it."
+  }
+ },
+ "effektiv": {
+  "explanation": "\"Effektiv\" means \"efficient\" and \"effective\": Hun er meget effektiv på arbejde (She is very efficient at work). Medicinen er effektiv (The medicine is effective).",
+  "forms": [
+   {
+    "da": "en effektiv metode",
+    "en": "an efficient method"
+   },
+   {
+    "da": "et effektivt middel",
+    "en": "an effective remedy"
+   },
+   {
+    "da": "effektive maskiner",
+    "en": "efficient machines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en effekt",
+    "en": "an effect"
+   },
+   {
+    "da": "ineffektiv",
+    "en": "inefficient"
+   },
+   {
+    "da": "produktiv",
+    "en": "productive"
+   },
+   {
+    "da": "langsom",
+    "en": "slow"
+   }
+  ],
+  "sentence": {
+   "da": "Han er meget **effektiv** og bliver hurtigt færdig.",
+   "en": "He is very efficient and finishes quickly."
   }
  },
  "efter": {
@@ -108,6 +397,41 @@
    "en": "We go for a walk after dinner."
   }
  },
+ "efter min mening": {
+  "explanation": "\"Efter min mening\" means \"in my opinion\" and introduces what you think: Efter min mening er filmen for lang (In my opinion the movie is too long).",
+  "forms": [
+   {
+    "da": "efter min mening",
+    "en": "in my opinion"
+   },
+   {
+    "da": "efter hans mening",
+    "en": "in his opinion"
+   },
+   {
+    "da": "efter din mening",
+    "en": "in your opinion"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mene",
+    "en": "to think, to mean"
+   },
+   {
+    "da": "synes",
+    "en": "think, feel"
+   },
+   {
+    "da": "ifølge",
+    "en": "according to"
+   }
+  ],
+  "sentence": {
+   "da": "**Efter min mening** er suppen for salt.",
+   "en": "In my opinion the soup is too salty."
+  }
+ },
  "egen": {
   "explanation": "\"Egen\" means \"own\", and it goes with words like min (my) or din (your): mit eget værelse (my own room), mine egne ting (my own things).",
   "forms": [
@@ -143,6 +467,80 @@
    "en": "I have my own car."
   }
  },
+ "egentlig": {
+  "explanation": "\"Egentlig\" means \"actually\" or \"really\", and often hints at a plan that changed: Jeg skulle egentlig arbejde (I was actually supposed to work). In questions it asks what is really true: Hvad vil du egentlig? (What do you really want?).",
+  "forms": [
+   {
+    "da": "Jeg er egentlig træt.",
+    "en": "I am actually tired."
+   },
+   {
+    "da": "Hvem er han egentlig?",
+    "en": "Who is he really?"
+   },
+   {
+    "da": "Det er egentlig sjovt.",
+    "en": "It is actually fun."
+   }
+  ],
+  "related": [
+   {
+    "da": "faktisk",
+    "en": "in fact"
+   },
+   {
+    "da": "virkelig",
+    "en": "really"
+   },
+   {
+    "da": "i virkeligheden",
+    "en": "in reality"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ville **egentlig** gå hjem, men jeg blev.",
+   "en": "I actually wanted to go home, but I stayed."
+  }
+ },
+ "egoistisk": {
+  "explanation": "\"Egoistisk\" means \"selfish\" and describes someone who thinks only of themselves: Det var egoistisk af ham (That was selfish of him). The opposite is uselvisk (unselfish).",
+  "forms": [
+   {
+    "da": "en egoistisk mand",
+    "en": "a selfish man"
+   },
+   {
+    "da": "et egoistisk valg",
+    "en": "a selfish choice"
+   },
+   {
+    "da": "egoistiske folk",
+    "en": "selfish people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en egoist",
+    "en": "a selfish person"
+   },
+   {
+    "da": "selvisk",
+    "en": "selfish"
+   },
+   {
+    "da": "omsorgsfuld",
+    "en": "caring"
+   },
+   {
+    "da": "hensynsfuld",
+    "en": "considerate"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **egoistisk** og tænker kun på sig selv.",
+   "en": "He is selfish and only thinks of himself."
+  }
+ },
  "ekstra": {
   "explanation": "\"Ekstra\" means \"extra\", more than you already have: en ekstra stol (an extra chair). Before another word, it makes that word stronger: ekstra stor (extra large), ekstra god (extra good).",
   "forms": [
@@ -176,6 +574,197 @@
   "sentence": {
    "da": "Vi skal have en **ekstra** stol, tak.",
    "en": "We need an extra chair, please."
+  }
+ },
+ "ekstremt": {
+  "explanation": "\"Ekstremt\" means \"extremely\": Det er ekstremt koldt (It is extremely cold). It is stronger than meget (very).",
+  "forms": [
+   {
+    "da": "ekstremt varmt",
+    "en": "extremely hot"
+   },
+   {
+    "da": "ekstremt vigtigt",
+    "en": "extremely important"
+   },
+   {
+    "da": "ekstremt dyr",
+    "en": "extremely expensive"
+   }
+  ],
+  "related": [
+   {
+    "da": "ekstrem",
+    "en": "extreme"
+   },
+   {
+    "da": "enormt",
+    "en": "enormously"
+   },
+   {
+    "da": "virkelig",
+    "en": "really"
+   },
+   {
+    "da": "ret",
+    "en": "fairly"
+   }
+  ],
+  "sentence": {
+   "da": "I dag er det **ekstremt** varmt.",
+   "en": "Today it is extremely hot."
+  }
+ },
+ "elektricitet": {
+  "explanation": "\"Elektricitet\" means \"electricity\": Der er ingen elektricitet i hytten (There is no electricity in the cabin). In daily life, Danes often say strøm (power): Strømmen er gået (The power is out).",
+  "forms": [
+   {
+    "da": "elektricitet",
+    "en": "electricity"
+   },
+   {
+    "da": "elektricitet og vand",
+    "en": "electricity and water"
+   },
+   {
+    "da": "uden elektricitet",
+    "en": "without electricity"
+   }
+  ],
+  "related": [
+   {
+    "da": "en elektriker",
+    "en": "an electrician"
+   },
+   {
+    "da": "en stikkontakt",
+    "en": "a socket"
+   },
+   {
+    "da": "en ledning",
+    "en": "a wire"
+   },
+   {
+    "da": "et batteri",
+    "en": "a battery"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bruger meget **elektricitet** om vinteren.",
+   "en": "We use a lot of electricity in the winter."
+  }
+ },
+ "elektrisk": {
+  "explanation": "\"Elektrisk\" means \"electric\", for things that run on electricity: Min cykel er elektrisk (My bike is electric). For the power itself, Danes say strøm (power): Der er ingen strøm (There is no power).",
+  "forms": [
+   {
+    "da": "en elektrisk bil",
+    "en": "an electric car"
+   },
+   {
+    "da": "et elektrisk apparat",
+    "en": "an electric device"
+   },
+   {
+    "da": "elektriske biler",
+    "en": "electric cars"
+   }
+  ],
+  "related": [
+   {
+    "da": "elektricitet",
+    "en": "electricity"
+   },
+   {
+    "da": "en elektriker",
+    "en": "an electrician"
+   },
+   {
+    "da": "et batteri",
+    "en": "a battery"
+   },
+   {
+    "da": "en stikkontakt",
+    "en": "a socket"
+   }
+  ],
+  "sentence": {
+   "da": "Min bil er **elektrisk** og kører uden benzin.",
+   "en": "My car is electric and runs without gasoline."
+  }
+ },
+ "elektronik": {
+  "explanation": "\"Elektronik\" means \"electronics\", devices like phones and computers. It has no a/an and no plural: Han er glad for elektronik (He likes electronics). For one device, say en enhed (a device).",
+  "forms": [
+   {
+    "da": "ny elektronik",
+    "en": "new electronics"
+   },
+   {
+    "da": "gammel elektronik",
+    "en": "old electronics"
+   },
+   {
+    "da": "en butik med elektronik",
+    "en": "a store with electronics"
+   }
+  ],
+  "related": [
+   {
+    "da": "elektronisk",
+    "en": "electronic"
+   },
+   {
+    "da": "elektricitet",
+    "en": "electricity"
+   },
+   {
+    "da": "elektrisk",
+    "en": "electric"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken sælger **elektronik** som telefoner og computere.",
+   "en": "The store sells electronics such as phones and computers."
+  }
+ },
+ "elendig": {
+  "explanation": "\"Elendig\" means \"miserable\" or \"terrible\": Jeg har det elendigt (I feel terrible). It also describes very poor quality: Han er en elendig sanger (He is a terrible singer).",
+  "forms": [
+   {
+    "da": "en elendig dag",
+    "en": "a terrible day"
+   },
+   {
+    "da": "et elendigt vejr",
+    "en": "miserable weather"
+   },
+   {
+    "da": "elendige forhold",
+    "en": "miserable conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "dårlig",
+    "en": "bad"
+   },
+   {
+    "da": "forfærdelig",
+    "en": "awful"
+   },
+   {
+    "da": "ynkelig",
+    "en": "pitiful"
+   },
+   {
+    "da": "fremragende",
+    "en": "excellent"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle bil er **elendig**, og den starter aldrig.",
+   "en": "The old car is terrible, and it never starts."
   }
  },
  "eller": {
@@ -291,6 +880,45 @@
    "en": "I am eleven years old."
   }
  },
+ "elvte": {
+  "explanation": "\"Elvte\" means \"eleventh\" and gives a place in order, often in dates: Jeg bor på den elvte etage (I live on the eleventh floor). The number itself is elleve (eleven).",
+  "forms": [
+   {
+    "da": "den elvte dag",
+    "en": "the eleventh day"
+   },
+   {
+    "da": "den elvte maj",
+    "en": "May 11th"
+   },
+   {
+    "da": "på elvte plads",
+    "en": "in eleventh place"
+   }
+  ],
+  "related": [
+   {
+    "da": "tiende",
+    "en": "tenth"
+   },
+   {
+    "da": "tolvte",
+    "en": "twelfth"
+   },
+   {
+    "da": "femte",
+    "en": "fifth"
+   },
+   {
+    "da": "første",
+    "en": "first"
+   }
+  ],
+  "sentence": {
+   "da": "Min fødselsdag er den **elvte** maj.",
+   "en": "My birthday is May 11th."
+  }
+ },
  "en e-mail": {
   "explanation": "\"En e-mail\" means \"an email\". In daily speech, people often shorten it to en mail. You say at sende en e-mail (to send an email) and at modtage en e-mail (to receive an email).",
   "forms": [
@@ -324,6 +952,88 @@
   "sentence": {
    "da": "Jeg har sendt dig en **e-mail**.",
    "en": "I have sent you an email."
+  }
+ },
+ "en edderkop": {
+  "explanation": "\"En edderkop\" means \"a spider\": Mange er bange for edderkopper (Many people are afraid of spiders). Der sidder en edderkop i hjørnet (There is a spider in the corner).",
+  "forms": [
+   {
+    "da": "en edderkop",
+    "en": "a spider"
+   },
+   {
+    "da": "edderkoppen",
+    "en": "the spider"
+   },
+   {
+    "da": "edderkopper",
+    "en": "spiders"
+   },
+   {
+    "da": "edderkopperne",
+    "en": "the spiders"
+   }
+  ],
+  "related": [
+   {
+    "da": "et spindelvæv",
+    "en": "a spider web"
+   },
+   {
+    "da": "en skorpion",
+    "en": "a scorpion"
+   },
+   {
+    "da": "en flåt",
+    "en": "a tick"
+   }
+  ],
+  "sentence": {
+   "da": "Der sidder en stor **edderkop** på væggen.",
+   "en": "A big spider is sitting on the wall."
+  }
+ },
+ "en effekt": {
+  "explanation": "\"En effekt\" means \"an effect\", the result of something: Medicinen havde god effekt (The medicine had a good effect). Det har ingen effekt (It has no effect) is a common phrase when something does not work.",
+  "forms": [
+   {
+    "da": "en effekt",
+    "en": "an effect"
+   },
+   {
+    "da": "effekten",
+    "en": "the effect"
+   },
+   {
+    "da": "effekter",
+    "en": "effects"
+   },
+   {
+    "da": "effekterne",
+    "en": "the effects"
+   }
+  ],
+  "related": [
+   {
+    "da": "effektiv",
+    "en": "effective"
+   },
+   {
+    "da": "en virkning",
+    "en": "an effect"
+   },
+   {
+    "da": "en følge",
+    "en": "a consequence"
+   },
+   {
+    "da": "en årsag",
+    "en": "a cause"
+   }
+  ],
+  "sentence": {
+   "da": "Musik har en god **effekt** på mig.",
+   "en": "Music has a good effect on me."
   }
  },
  "en eftermiddag": {
@@ -369,6 +1079,502 @@
    "en": "It is afternoon at four o'clock."
   }
  },
+ "en efterårsdag": {
+  "explanation": "\"En efterårsdag\" means \"a fall day\". It is built from efterår (fall) and dag (day): Vi gik en tur på en blæsende efterårsdag (We went for a walk on a windy fall day).",
+  "forms": [
+   {
+    "da": "en efterårsdag",
+    "en": "a fall day"
+   },
+   {
+    "da": "efterårsdagen",
+    "en": "the fall day"
+   },
+   {
+    "da": "efterårsdage",
+    "en": "fall days"
+   },
+   {
+    "da": "efterårsdagene",
+    "en": "the fall days"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sommerdag",
+    "en": "a summer day"
+   },
+   {
+    "da": "en vinterdag",
+    "en": "a winter day"
+   },
+   {
+    "da": "en forårsdag",
+    "en": "a spring day"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en kold **efterårsdag** i oktober.",
+   "en": "It is a cold fall day in October."
+  }
+ },
+ "en efterårsferie": {
+  "explanation": "\"En efterårsferie\" means \"a fall break\", a week off from school, usually in October: Hvad skal I lave i efterårsferien? (What are you going to do during the fall break?)",
+  "forms": [
+   {
+    "da": "en efterårsferie",
+    "en": "a fall break"
+   },
+   {
+    "da": "efterårsferien",
+    "en": "the fall break"
+   },
+   {
+    "da": "efterårsferier",
+    "en": "fall breaks"
+   },
+   {
+    "da": "efterårsferierne",
+    "en": "the fall breaks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vinterferie",
+    "en": "a winter break"
+   },
+   {
+    "da": "en sommerferie",
+    "en": "a summer vacation"
+   },
+   {
+    "da": "en påskeferie",
+    "en": "an Easter break"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene har **efterårsferie** og er hjemme fra skole.",
+   "en": "The children have fall break and are home from school."
+  }
+ },
+ "en ejer": {
+  "explanation": "\"En ejer\" means \"an owner\", the person something belongs to. It comes from at eje (to own): Ejeren af restauranten er fra Italien (The owner of the restaurant is from Italy).",
+  "forms": [
+   {
+    "da": "en ejer",
+    "en": "an owner"
+   },
+   {
+    "da": "ejeren",
+    "en": "the owner"
+   },
+   {
+    "da": "ejere",
+    "en": "owners"
+   },
+   {
+    "da": "ejerne",
+    "en": "the owners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ejendom",
+    "en": "a property"
+   },
+   {
+    "da": "en lejer",
+    "en": "a tenant"
+   },
+   {
+    "da": "en udlejer",
+    "en": "a landlord"
+   },
+   {
+    "da": "en køber",
+    "en": "a buyer"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden kom hjem til sin **ejer**.",
+   "en": "The dog came home to its owner."
+  }
+ },
+ "en eks": {
+  "explanation": "\"En eks\" means \"an ex\", a former boyfriend, girlfriend or partner: Jeg har ikke set min eks i flere år (I have not seen my ex in years). The longer form is en ekskæreste (an ex-boyfriend / ex-girlfriend).",
+  "forms": [
+   {
+    "da": "en eks",
+    "en": "an ex"
+   },
+   {
+    "da": "eksen",
+    "en": "the ex"
+   },
+   {
+    "da": "eks'er",
+    "en": "exes"
+   },
+   {
+    "da": "eks'erne",
+    "en": "the exes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend / girlfriend"
+   },
+   {
+    "da": "en ekskone",
+    "en": "an ex-wife"
+   },
+   {
+    "da": "en eksmand",
+    "en": "an ex-husband"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg så min **eks** i byen, men vi talte ikke.",
+   "en": "I saw my ex in town, but we did not talk."
+  }
+ },
+ "en eksamen": {
+  "explanation": "\"En eksamen\" means \"an exam\", the big test at the end of a course: Hun læser til eksamen (She is studying for her exam). It is a formal, graded test, not a quick quiz in class.",
+  "forms": [
+   {
+    "da": "en eksamen",
+    "en": "an exam"
+   },
+   {
+    "da": "eksamenen",
+    "en": "the exam"
+   },
+   {
+    "da": "eksamener",
+    "en": "exams"
+   },
+   {
+    "da": "eksamenerne",
+    "en": "the exams"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bestå",
+    "en": "to pass"
+   },
+   {
+    "da": "at dumpe",
+    "en": "to fail"
+   },
+   {
+    "da": "en prøve",
+    "en": "a test"
+   },
+   {
+    "da": "en karakter",
+    "en": "a grade"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er nervøs, fordi jeg har **eksamen** i morgen.",
+   "en": "I am nervous because I have an exam tomorrow."
+  }
+ },
+ "en ekskæreste": {
+  "explanation": "\"En ekskæreste\" means \"an ex\", a former boyfriend or girlfriend: Hun mødte sin ekskæreste i byen (She met her ex in town). It is built from eks- (former) and en kæreste (a boyfriend or girlfriend).",
+  "forms": [
+   {
+    "da": "en ekskæreste",
+    "en": "an ex (boyfriend or girlfriend)"
+   },
+   {
+    "da": "ekskæresten",
+    "en": "the ex"
+   },
+   {
+    "da": "ekskærester",
+    "en": "exes"
+   },
+   {
+    "da": "ekskærestene",
+    "en": "the exes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en eksmand",
+    "en": "an ex-husband"
+   },
+   {
+    "da": "en ekskone",
+    "en": "an ex-wife"
+   },
+   {
+    "da": "at slå op",
+    "en": "to break up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er stadig venner med min **ekskæreste**.",
+   "en": "I am still friends with my ex."
+  }
+ },
+ "en eksmand": {
+  "explanation": "\"En eksmand\" means \"an ex-husband\": Hendes eksmand bor i Odense (Her ex-husband lives in Odense). It is built from eks- (former) and en mand (a man or husband).",
+  "forms": [
+   {
+    "da": "en eksmand",
+    "en": "an ex-husband"
+   },
+   {
+    "da": "eksmanden",
+    "en": "the ex-husband"
+   },
+   {
+    "da": "eksmænd",
+    "en": "ex-husbands"
+   },
+   {
+    "da": "eksmændene",
+    "en": "the ex-husbands"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ekskone",
+    "en": "an ex-wife"
+   },
+   {
+    "da": "en ekskæreste",
+    "en": "an ex"
+   },
+   {
+    "da": "en skilsmisse",
+    "en": "a divorce"
+   },
+   {
+    "da": "at blive skilt",
+    "en": "to get divorced"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes **eksmand** hentede børnene i går.",
+   "en": "Her ex-husband picked up the children yesterday."
+  }
+ },
+ "en ekspedient": {
+  "explanation": "\"En ekspedient\" means \"a store clerk\", the person who helps customers in a store: Ekspedienten hjælper mig (The store clerk helps me). The word is the same for a man or a woman.",
+  "forms": [
+   {
+    "da": "en ekspedient",
+    "en": "a store clerk"
+   },
+   {
+    "da": "ekspedienten",
+    "en": "the store clerk"
+   },
+   {
+    "da": "ekspedienter",
+    "en": "store clerks"
+   },
+   {
+    "da": "ekspedienterne",
+    "en": "the store clerks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kunde",
+    "en": "a customer"
+   },
+   {
+    "da": "en butik",
+    "en": "a store"
+   },
+   {
+    "da": "en sælger",
+    "en": "a salesperson"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spørger en **ekspedient** om størrelsen.",
+   "en": "I ask a store clerk about the size."
+  }
+ },
+ "en ekspert": {
+  "explanation": "\"En ekspert\" means \"an expert\", someone who knows a lot about one subject. After er (is), en is often left out: Hun er ekspert i vin (She is an expert in wine).",
+  "forms": [
+   {
+    "da": "en ekspert",
+    "en": "an expert"
+   },
+   {
+    "da": "eksperten",
+    "en": "the expert"
+   },
+   {
+    "da": "eksperter",
+    "en": "experts"
+   },
+   {
+    "da": "eksperterne",
+    "en": "the experts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en specialist",
+    "en": "a specialist"
+   },
+   {
+    "da": "en amatør",
+    "en": "an amateur"
+   },
+   {
+    "da": "en professionel",
+    "en": "a professional"
+   },
+   {
+    "da": "en begynder",
+    "en": "a beginner"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal spørge en **ekspert** om hjælp.",
+   "en": "We should ask an expert for help."
+  }
+ },
+ "en eksplosion": {
+  "explanation": "\"En eksplosion\" means \"an explosion\", a sudden loud blast: Der var en eksplosion på fabrikken (There was an explosion at the factory). It can also describe a sudden jump: en eksplosion i priserne (a sudden jump in prices).",
+  "forms": [
+   {
+    "da": "en eksplosion",
+    "en": "an explosion"
+   },
+   {
+    "da": "eksplosionen",
+    "en": "the explosion"
+   },
+   {
+    "da": "eksplosioner",
+    "en": "explosions"
+   },
+   {
+    "da": "eksplosionerne",
+    "en": "the explosions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at eksplodere",
+    "en": "to explode"
+   },
+   {
+    "da": "en bombe",
+    "en": "a bomb"
+   },
+   {
+    "da": "et brag",
+    "en": "a bang"
+   },
+   {
+    "da": "en sprængning",
+    "en": "a blast"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hørte en stor **eksplosion** i nat.",
+   "en": "We heard a big explosion last night."
+  }
+ },
+ "en elastik": {
+  "explanation": "\"En elastik\" means \"a rubber band\", the stretchy loop that holds things together: Jeg har en elastik om papirerne (I have a rubber band around the papers). It also means the elastic in clothes: Der er elastik i bukserne (There is elastic in the pants).",
+  "forms": [
+   {
+    "da": "en elastik",
+    "en": "a rubber band"
+   },
+   {
+    "da": "elastikken",
+    "en": "the rubber band"
+   },
+   {
+    "da": "elastikker",
+    "en": "rubber bands"
+   },
+   {
+    "da": "elastikkerne",
+    "en": "the rubber bands"
+   }
+  ],
+  "related": [
+   {
+    "da": "et gummibånd",
+    "en": "a rubber band"
+   },
+   {
+    "da": "et bånd",
+    "en": "a ribbon / band"
+   },
+   {
+    "da": "en snor",
+    "en": "a string"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg samler papirerne med en **elastik**.",
+   "en": "I hold the papers together with a rubber band."
+  }
+ },
+ "en elbil": {
+  "explanation": "\"En elbil\" means \"an electric car\". It is built from el (electricity) and bil (car): Min elbil kører 400 kilometer på én opladning (My electric car drives 400 kilometers on one charge).",
+  "forms": [
+   {
+    "da": "en elbil",
+    "en": "an electric car"
+   },
+   {
+    "da": "elbilen",
+    "en": "the electric car"
+   },
+   {
+    "da": "elbiler",
+    "en": "electric cars"
+   },
+   {
+    "da": "elbilerne",
+    "en": "the electric cars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hybridbil",
+    "en": "a hybrid car"
+   },
+   {
+    "da": "en benzinbil",
+    "en": "a gas car"
+   },
+   {
+    "da": "en dieselbil",
+    "en": "a diesel car"
+   },
+   {
+    "da": "en ladestander",
+    "en": "a charging station"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **elbil**, og den kører uden benzin.",
+   "en": "I have an electric car, and it runs without gas."
+  }
+ },
  "en elefant": {
   "explanation": "\"En elefant\" means \"an elephant\". Elefanten spiser græs means \"The elephant eats grass\".",
   "forms": [
@@ -406,6 +1612,45 @@
   "sentence": {
    "da": "En **elefant** har en lang snabel.",
    "en": "An elephant has a long trunk."
+  }
+ },
+ "en elektriker": {
+  "explanation": "\"En elektriker\" means \"an electrician\", the person you call for wiring and lights: En elektriker sætter lamper op (An electrician puts up lamps).",
+  "forms": [
+   {
+    "da": "en elektriker",
+    "en": "an electrician"
+   },
+   {
+    "da": "elektrikeren",
+    "en": "the electrician"
+   },
+   {
+    "da": "elektrikere",
+    "en": "electricians"
+   },
+   {
+    "da": "elektrikerne",
+    "en": "the electricians"
+   }
+  ],
+  "related": [
+   {
+    "da": "elektrisk",
+    "en": "electric"
+   },
+   {
+    "da": "el",
+    "en": "electricity"
+   },
+   {
+    "da": "en VVS'er",
+    "en": "a plumber"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ringer til en **elektriker**, fordi lyset ikke virker.",
+   "en": "We call an electrician because the light does not work."
   }
  },
  "en elev": {
@@ -486,6 +1731,498 @@
    "en": "We take an elevator up to the fifth floor."
   }
  },
+ "en elkedel": {
+  "explanation": "\"En elkedel\" means \"an electric kettle\", used to heat water fast: Elkedlen er tændt (The electric kettle is on). It is built from el (electricity) and kedel (kettle).",
+  "forms": [
+   {
+    "da": "en elkedel",
+    "en": "an electric kettle"
+   },
+   {
+    "da": "elkedlen",
+    "en": "the electric kettle"
+   },
+   {
+    "da": "elkedler",
+    "en": "electric kettles"
+   },
+   {
+    "da": "elkedlerne",
+    "en": "the electric kettles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en brødrister",
+    "en": "a toaster"
+   },
+   {
+    "da": "en kaffemaskine",
+    "en": "a coffee maker"
+   },
+   {
+    "da": "en tekande",
+    "en": "a teapot"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg varmer vand til te i min **elkedel**.",
+   "en": "I heat water for tea in my electric kettle."
+  }
+ },
+ "en elpære": {
+  "explanation": "\"En elpære\" means \"a light bulb\". It is built from el (electricity) and pære (pear), because the bulb is shaped like one: Elpæren er sprunget (The light bulb has burned out).",
+  "forms": [
+   {
+    "da": "en elpære",
+    "en": "a light bulb"
+   },
+   {
+    "da": "elpæren",
+    "en": "the light bulb"
+   },
+   {
+    "da": "elpærer",
+    "en": "light bulbs"
+   },
+   {
+    "da": "elpærerne",
+    "en": "the light bulbs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lyskilde",
+    "en": "a light source"
+   },
+   {
+    "da": "en LED-pære",
+    "en": "an LED bulb"
+   },
+   {
+    "da": "en glødelampe",
+    "en": "an incandescent bulb"
+   },
+   {
+    "da": "et lysstofrør",
+    "en": "a fluorescent tube"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal købe en ny **elpære** til lampen.",
+   "en": "I have to buy a new light bulb for the lamp."
+  }
+ },
+ "en elregning": {
+  "explanation": "\"En elregning\" means \"an electricity bill\". It is el (electricity) plus regning (bill): Jeg betaler min elregning i dag (I am paying my electricity bill today).",
+  "forms": [
+   {
+    "da": "en elregning",
+    "en": "an electricity bill"
+   },
+   {
+    "da": "elregningen",
+    "en": "the electricity bill"
+   },
+   {
+    "da": "elregninger",
+    "en": "electricity bills"
+   },
+   {
+    "da": "elregningerne",
+    "en": "the electricity bills"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vandregning",
+    "en": "a water bill"
+   },
+   {
+    "da": "en varmeregning",
+    "en": "a heating bill"
+   },
+   {
+    "da": "en elmåler",
+    "en": "an electricity meter"
+   },
+   {
+    "da": "strøm",
+    "en": "electricity / power"
+   }
+  ],
+  "sentence": {
+   "da": "Vi får en høj **elregning** i vinter.",
+   "en": "We get a high electricity bill this winter."
+  }
+ },
+ "en emhætte": {
+  "explanation": "\"En emhætte\" means \"a range hood\", the fan above a stove that removes steam and smells: Tænd emhætten, når du steger (Turn on the range hood when you fry).",
+  "forms": [
+   {
+    "da": "en emhætte",
+    "en": "a range hood"
+   },
+   {
+    "da": "emhætten",
+    "en": "the range hood"
+   },
+   {
+    "da": "emhætter",
+    "en": "range hoods"
+   },
+   {
+    "da": "emhætterne",
+    "en": "the range hoods"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kogeplade",
+    "en": "a cooktop"
+   },
+   {
+    "da": "en ovn",
+    "en": "an oven"
+   },
+   {
+    "da": "en ventilator",
+    "en": "a fan"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **emhætte** over komfuret.",
+   "en": "There is a range hood over the stove."
+  }
+ },
+ "en emoji": {
+  "explanation": "\"En emoji\" means \"an emoji\", a small picture used in messages. It is the same word as in English: Du kan sende en emoji i stedet for et ord (You can send an emoji instead of a word).",
+  "forms": [
+   {
+    "da": "en emoji",
+    "en": "an emoji"
+   },
+   {
+    "da": "emojien",
+    "en": "the emoji"
+   },
+   {
+    "da": "emojier",
+    "en": "emojis"
+   },
+   {
+    "da": "emojierne",
+    "en": "the emojis"
+   }
+  ],
+  "related": [
+   {
+    "da": "en smiley",
+    "en": "a smiley"
+   },
+   {
+    "da": "et ikon",
+    "en": "an icon"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign / character"
+   }
+  ],
+  "sentence": {
+   "da": "Hun sendte en glad **emoji** til mig.",
+   "en": "She sent me a happy emoji."
+  }
+ },
+ "en ende": {
+  "explanation": "\"En ende\" means \"an end\", the last part of something long: i den anden ende af gaden (at the other end of the street). For the end of a story or an event, use en slutning (an ending).",
+  "forms": [
+   {
+    "da": "en ende",
+    "en": "an end"
+   },
+   {
+    "da": "enden",
+    "en": "the end"
+   },
+   {
+    "da": "ender",
+    "en": "ends"
+   },
+   {
+    "da": "enderne",
+    "en": "the ends"
+   }
+  ],
+  "related": [
+   {
+    "da": "en begyndelse",
+    "en": "a beginning"
+   },
+   {
+    "da": "en spids",
+    "en": "a tip"
+   },
+   {
+    "da": "en side",
+    "en": "a side"
+   },
+   {
+    "da": "en kant",
+    "en": "an edge"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en café i den anden **ende** af gaden.",
+   "en": "There is a cafe at the other end of the street."
+  }
+ },
+ "en endestation": {
+  "explanation": "\"En endestation\" means \"a terminus\", the last stop of a train or bus line: Toget kører til endestationen (The train goes to the terminus). It is built from ende (end) and station (station).",
+  "forms": [
+   {
+    "da": "en endestation",
+    "en": "a terminus / last stop"
+   },
+   {
+    "da": "endestationen",
+    "en": "the terminus / last stop"
+   },
+   {
+    "da": "endestationer",
+    "en": "termini / last stops"
+   },
+   {
+    "da": "endestationerne",
+    "en": "the termini / last stops"
+   }
+  ],
+  "related": [
+   {
+    "da": "et stoppested",
+    "en": "a stop"
+   },
+   {
+    "da": "en banegård",
+    "en": "a train station"
+   },
+   {
+    "da": "en perron",
+    "en": "a platform"
+   }
+  ],
+  "sentence": {
+   "da": "Toget har **endestation** i Roskilde.",
+   "en": "The train's last stop is Roskilde."
+  }
+ },
+ "en energikilde": {
+  "explanation": "\"En energikilde\" means \"an energy source\". It is built from energi (energy) and kilde (source): Olie og kul er energikilder (Oil and coal are energy sources).",
+  "forms": [
+   {
+    "da": "en energikilde",
+    "en": "an energy source"
+   },
+   {
+    "da": "energikilden",
+    "en": "the energy source"
+   },
+   {
+    "da": "energikilder",
+    "en": "energy sources"
+   },
+   {
+    "da": "energikilderne",
+    "en": "the energy sources"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kraftværk",
+    "en": "a power plant"
+   },
+   {
+    "da": "strøm",
+    "en": "electricity"
+   },
+   {
+    "da": "en solcelle",
+    "en": "a solar cell"
+   }
+  ],
+  "sentence": {
+   "da": "Solen er en ren **energikilde**, og den er gratis.",
+   "en": "The sun is a clean energy source, and it is free."
+  }
+ },
+ "en eng": {
+  "explanation": "\"En eng\" means \"a meadow\", an open grassy place where wild flowers grow: Køerne går på engen (The cows are out in the meadow). Do not mix it up with en mark (a field), which is used for crops.",
+  "forms": [
+   {
+    "da": "en eng",
+    "en": "a meadow"
+   },
+   {
+    "da": "engen",
+    "en": "the meadow"
+   },
+   {
+    "da": "enge",
+    "en": "meadows"
+   },
+   {
+    "da": "engene",
+    "en": "the meadows"
+   }
+  ],
+  "related": [
+   {
+    "da": "græs",
+    "en": "grass"
+   },
+   {
+    "da": "en græsplæne",
+    "en": "a lawn"
+   },
+   {
+    "da": "en hede",
+    "en": "a heath"
+   }
+  ],
+  "sentence": {
+   "da": "Der vokser vilde blomster på den grønne **eng**.",
+   "en": "Wild flowers grow on the green meadow."
+  }
+ },
+ "en engel": {
+  "explanation": "\"En engel\" means \"an angel\", a helper from heaven in stories. It is also used for a very kind person: Du er en engel! (You are an angel!).",
+  "forms": [
+   {
+    "da": "en engel",
+    "en": "an angel"
+   },
+   {
+    "da": "engelen",
+    "en": "the angel"
+   },
+   {
+    "da": "engle",
+    "en": "angels"
+   },
+   {
+    "da": "englene",
+    "en": "the angels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en djævel",
+    "en": "a devil"
+   },
+   {
+    "da": "en himmel",
+    "en": "a sky / heaven"
+   },
+   {
+    "da": "en gud",
+    "en": "a god"
+   },
+   {
+    "da": "en helgen",
+    "en": "a saint"
+   }
+  ],
+  "sentence": {
+   "da": "Hun malede en **engel** med store vinger.",
+   "en": "She painted an angel with big wings."
+  }
+ },
+ "en englænder": {
+  "explanation": "\"En englænder\" means \"an Englishman\" or \"an English person\": Min lærer er englænder (My teacher is English). The country is England, and the language is engelsk (English).",
+  "forms": [
+   {
+    "da": "en englænder",
+    "en": "an Englishman"
+   },
+   {
+    "da": "englænderen",
+    "en": "the Englishman"
+   },
+   {
+    "da": "englændere",
+    "en": "Englishmen"
+   },
+   {
+    "da": "englænderne",
+    "en": "the Englishmen"
+   }
+  ],
+  "related": [
+   {
+    "da": "en brite",
+    "en": "a Briton"
+   },
+   {
+    "da": "en skotte",
+    "en": "a Scot"
+   },
+   {
+    "da": "en amerikaner",
+    "en": "an American"
+   },
+   {
+    "da": "en irer",
+    "en": "an Irishman"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **englænder**, men han taler godt dansk.",
+   "en": "He is English, but he speaks good Danish."
+  }
+ },
+ "en enke": {
+  "explanation": "\"En enke\" means \"a widow\", a woman whose husband has died: Min mormor er enke (My grandmother is a widow).",
+  "forms": [
+   {
+    "da": "en enke",
+    "en": "a widow"
+   },
+   {
+    "da": "enken",
+    "en": "the widow"
+   },
+   {
+    "da": "enker",
+    "en": "widows"
+   },
+   {
+    "da": "enkerne",
+    "en": "the widows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en enkemand",
+    "en": "a widower"
+   },
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
+   },
+   {
+    "da": "en ægtemand",
+    "en": "a husband"
+   },
+   {
+    "da": "en kone",
+    "en": "a wife"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes mand er død, og nu er hun **enke**.",
+   "en": "Her husband has died, and now she is a widow."
+  }
+ },
  "en enkeltbillet": {
   "explanation": "\"En enkeltbillet\" means \"a one-way ticket\". It is built from enkelt (single) and billet (ticket). The ticket for the trip back is en returbillet (a return ticket).",
   "forms": [
@@ -525,6 +2262,209 @@
    "en": "A one-way ticket to Copenhagen, please."
   }
  },
+ "en entré": {
+  "explanation": "\"En entré\" means \"a hallway\", the area just inside the front door: Jeg hænger min jakke i entréen (I hang my jacket in the hallway). Entré also means an admission fee: Der er gratis entré (Admission is free).",
+  "forms": [
+   {
+    "da": "en entré",
+    "en": "a hallway"
+   },
+   {
+    "da": "entréen",
+    "en": "the hallway"
+   },
+   {
+    "da": "entréer",
+    "en": "hallways"
+   },
+   {
+    "da": "entréerne",
+    "en": "the hallways"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gang",
+    "en": "a hallway / corridor"
+   },
+   {
+    "da": "en hoveddør",
+    "en": "a front door"
+   },
+   {
+    "da": "en knagerække",
+    "en": "a coat rack"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager skoene af i vores **entré**.",
+   "en": "We take our shoes off in our hallway."
+  }
+ },
+ "en episode": {
+  "explanation": "\"En episode\" means \"an episode\", one part of a TV show or podcast: Vi ser en episode hver aften (We watch an episode every evening). Et afsnit (an episode) means the same.",
+  "forms": [
+   {
+    "da": "en episode",
+    "en": "an episode"
+   },
+   {
+    "da": "episoden",
+    "en": "the episode"
+   },
+   {
+    "da": "episoder",
+    "en": "episodes"
+   },
+   {
+    "da": "episoderne",
+    "en": "the episodes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en serie",
+    "en": "a series"
+   },
+   {
+    "da": "en sæson",
+    "en": "a season"
+   },
+   {
+    "da": "en scene",
+    "en": "a scene"
+   },
+   {
+    "da": "et program",
+    "en": "a program"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg glæder mig til næste **episode** af podcasten.",
+   "en": "I am looking forward to the next episode of the podcast."
+  }
+ },
+ "en erfaring": {
+  "explanation": "\"En erfaring\" means \"experience\" you have gained from doing something: Jeg har erfaring med salg (I have experience in sales). For something that happens to you, use en oplevelse (an experience).",
+  "forms": [
+   {
+    "da": "en erfaring",
+    "en": "experience (gained)"
+   },
+   {
+    "da": "erfaringen",
+    "en": "the experience"
+   },
+   {
+    "da": "erfaringer",
+    "en": "experiences"
+   },
+   {
+    "da": "erfaringerne",
+    "en": "the experiences"
+   }
+  ],
+  "related": [
+   {
+    "da": "viden",
+    "en": "knowledge"
+   },
+   {
+    "da": "en kvalifikation",
+    "en": "a qualification"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har tre års **erfaring** som kok.",
+   "en": "I have three years of experience as a cook."
+  }
+ },
+ "en etage": {
+  "explanation": "\"En etage\" means \"a floor\", as a level of a building: Vi bor på tredje etage (We live on the third floor). The floor you walk on is et gulv (a floor).",
+  "forms": [
+   {
+    "da": "en etage",
+    "en": "a floor (story)"
+   },
+   {
+    "da": "etagen",
+    "en": "the floor (story)"
+   },
+   {
+    "da": "etager",
+    "en": "floors (stories)"
+   },
+   {
+    "da": "etagerne",
+    "en": "the floors (stories)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sal",
+    "en": "a floor / story"
+   },
+   {
+    "da": "en kælder",
+    "en": "a basement"
+   },
+   {
+    "da": "et loft",
+    "en": "an attic"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor på tredje **etage** og tager trappen.",
+   "en": "We live on the third floor and take the stairs."
+  }
+ },
+ "en etagebolig": {
+  "explanation": "\"En etagebolig\" means \"an apartment in a multi-story building\". It is built from etage (floor) and bolig (home): Vi bor i en etagebolig på tredje sal (We live in an apartment on the third floor).",
+  "forms": [
+   {
+    "da": "en etagebolig",
+    "en": "an apartment in a multi-story building"
+   },
+   {
+    "da": "etageboligen",
+    "en": "the apartment in a multi-story building"
+   },
+   {
+    "da": "etageboliger",
+    "en": "apartments in multi-story buildings"
+   },
+   {
+    "da": "etageboligerne",
+    "en": "the apartments in multi-story buildings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   },
+   {
+    "da": "et hus",
+    "en": "a house"
+   },
+   {
+    "da": "en villa",
+    "en": "a detached house"
+   },
+   {
+    "da": "et rækkehus",
+    "en": "a row house"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i en **etagebolig** midt i byen.",
+   "en": "We live in an apartment in the middle of town."
+  }
+ },
  "en euro": {
   "explanation": "\"En euro\" means \"a euro\". Hvad koster det i euro? means \"What does it cost in euros?\".",
   "forms": [
@@ -558,6 +2498,45 @@
   "sentence": {
    "da": "Billetten til Paris koster tyve **euro**.",
    "en": "The ticket to Paris costs twenty euros."
+  }
+ },
+ "en europæer": {
+  "explanation": "\"En europæer\" means \"a European\", a person from Europe: Vi er alle europæere (We are all Europeans). For things from Europe, use europæisk: europæisk historie (European history).",
+  "forms": [
+   {
+    "da": "en europæer",
+    "en": "a European"
+   },
+   {
+    "da": "europæeren",
+    "en": "the European"
+   },
+   {
+    "da": "europæere",
+    "en": "Europeans"
+   },
+   {
+    "da": "europæerne",
+    "en": "the Europeans"
+   }
+  ],
+  "related": [
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en afrikaner",
+    "en": "an African"
+   },
+   {
+    "da": "en asiat",
+    "en": "an Asian person"
+   }
+  ],
+  "sentence": {
+   "da": "Som **europæer** kan jeg rejse frit i mange lande.",
+   "en": "As a European, I can travel freely in many countries."
   }
  },
  "end": {
@@ -595,6 +2574,80 @@
    "en": "A car is faster than a bicycle."
   }
  },
+ "endda": {
+  "explanation": "\"Endda\" means \"even\" and adds something more surprising to what you just said: Han kan endda tale kinesisk (He can even speak Chinese).",
+  "forms": [
+   {
+    "da": "Det regnede endda.",
+    "en": "It even rained."
+   },
+   {
+    "da": "Han kom endda til tiden.",
+    "en": "He even came on time."
+   },
+   {
+    "da": "Det er endda dyrere.",
+    "en": "It is even more expensive."
+   }
+  ],
+  "related": [
+   {
+    "da": "også",
+    "en": "also"
+   },
+   {
+    "da": "sågar",
+    "en": "even"
+   },
+   {
+    "da": "oven i købet",
+    "en": "on top of that"
+   },
+   {
+    "da": "selv",
+    "en": "even / self"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **endda** mødt kongen.",
+   "en": "I have even met the king."
+  }
+ },
+ "endelig": {
+  "explanation": "\"Endelig\" means \"finally\" or \"at last\": Endelig! (At last!). It also makes an invitation warmer: Tag endelig en kage (Please do take a cake).",
+  "forms": [
+   {
+    "da": "Endelig fik vi svar.",
+    "en": "We finally got an answer."
+   },
+   {
+    "da": "Kom endelig ind.",
+    "en": "Please do come in."
+   },
+   {
+    "da": "Glem endelig ikke at ringe.",
+    "en": "Be sure not to forget to call."
+   }
+  ],
+  "related": [
+   {
+    "da": "omsider",
+    "en": "at last"
+   },
+   {
+    "da": "til sidst",
+    "en": "in the end"
+   },
+   {
+    "da": "langt om længe",
+    "en": "at long last"
+   }
+  ],
+  "sentence": {
+   "da": "**Endelig** er det weekend, og vi har fri.",
+   "en": "Finally, it is the weekend, and we are off."
+  }
+ },
  "endnu": {
   "explanation": "\"Endnu\" means \"yet\" or \"still\". Ikke endnu means \"not yet\": Har du spist? Nej, ikke endnu (Have you eaten? No, not yet). With en it means \"another\": endnu en kop kaffe (another cup of coffee). Before a word like bedre it means \"even\": endnu bedre (even better).",
   "forms": [
@@ -628,6 +2681,88 @@
   "sentence": {
    "da": "Jeg er ikke færdig **endnu**.",
    "en": "I am not finished yet."
+  }
+ },
+ "energi": {
+  "explanation": "\"Energi\" means \"energy\", both power that makes things run and the strength you feel: Jeg har ikke energi i dag (I have no energy today). Power from the wall is called strøm (electricity).",
+  "forms": [
+   {
+    "da": "energi",
+    "en": "energy"
+   },
+   {
+    "da": "energien",
+    "en": "the energy"
+   },
+   {
+    "da": "energier",
+    "en": "energies"
+   },
+   {
+    "da": "energierne",
+    "en": "the energies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kraft",
+    "en": "a force"
+   },
+   {
+    "da": "solenergi",
+    "en": "solar energy"
+   },
+   {
+    "da": "et batteri",
+    "en": "a battery"
+   },
+   {
+    "da": "elektricitet",
+    "en": "electricity"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har meget **energi** om morgenen.",
+   "en": "I have a lot of energy in the morning."
+  }
+ },
+ "energisk": {
+  "explanation": "\"Energisk\" means \"energetic\" and describes someone full of energy: Han er energisk om morgenen (He is energetic in the morning). The opposite is sløv (sluggish).",
+  "forms": [
+   {
+    "da": "en energisk pige",
+    "en": "an energetic girl"
+   },
+   {
+    "da": "et energisk barn",
+    "en": "an energetic child"
+   },
+   {
+    "da": "energiske børn",
+    "en": "energetic children"
+   }
+  ],
+  "related": [
+   {
+    "da": "energi",
+    "en": "energy"
+   },
+   {
+    "da": "aktiv",
+    "en": "active"
+   },
+   {
+    "da": "livlig",
+    "en": "lively"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **energisk** og løber hver morgen.",
+   "en": "He is energetic and runs every morning."
   }
  },
  "eneste": {
@@ -770,6 +2905,201 @@
    "en": "London is a big city in England."
   }
  },
+ "enhver": {
+  "explanation": "\"Enhver\" means \"anyone\" or \"every\", and stresses that it holds for each person: Enhver har ret til en pause (Everyone has the right to a break). With an et-word, it becomes ethvert.",
+  "forms": [
+   {
+    "da": "enhver elev",
+    "en": "every student"
+   },
+   {
+    "da": "Det kan enhver gøre.",
+    "en": "Anyone can do that."
+   },
+   {
+    "da": "ethvert barn",
+    "en": "every child"
+   }
+  ],
+  "related": [
+   {
+    "da": "hver",
+    "en": "each / every"
+   },
+   {
+    "da": "alle",
+    "en": "everyone"
+   },
+   {
+    "da": "nogen",
+    "en": "anyone"
+   },
+   {
+    "da": "ingen",
+    "en": "no one"
+   }
+  ],
+  "sentence": {
+   "da": "**Enhver** kan lære at svømme.",
+   "en": "Anyone can learn to swim."
+  }
+ },
+ "enig": {
+  "explanation": "\"Enig\" means \"in agreement\". Danes say it with er (am/is/are): Jeg er enig (I agree), Det er jeg enig i (I agree with that).",
+  "forms": [
+   {
+    "da": "Jeg er enig.",
+    "en": "I agree."
+   },
+   {
+    "da": "Vi er enige.",
+    "en": "We agree."
+   },
+   {
+    "da": "Er I enige?",
+    "en": "Do you all agree?"
+   }
+  ],
+  "related": [
+   {
+    "da": "uenig",
+    "en": "in disagreement"
+   },
+   {
+    "da": "enighed",
+    "en": "agreement"
+   },
+   {
+    "da": "en aftale",
+    "en": "a deal, an agreement"
+   },
+   {
+    "da": "at diskutere",
+    "en": "to discuss"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er helt **enig** med dig om det her.",
+   "en": "I completely agree with you about this."
+  }
+ },
+ "enig med": {
+  "explanation": "\"Enig med\" means \"in agreement with\" a person: Jeg er enig med min mor (I agree with my mom). For an idea or opinion, use enig i: Jeg er enig i det (I agree with that).",
+  "forms": [
+   {
+    "da": "Jeg er enig med dig.",
+    "en": "I agree with you."
+   },
+   {
+    "da": "Er du enig med Anna?",
+    "en": "Do you agree with Anna?"
+   },
+   {
+    "da": "Vi er ikke enige med ham.",
+    "en": "We do not agree with him."
+   }
+  ],
+  "related": [
+   {
+    "da": "uenig",
+    "en": "in disagreement"
+   },
+   {
+    "da": "at blive enige",
+    "en": "to reach agreement"
+   },
+   {
+    "da": "en aftale",
+    "en": "an agreement"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er helt **enig med** dig.",
+   "en": "I completely agree with you."
+  }
+ },
+ "enkel": {
+  "explanation": "\"Enkel\" means \"simple\" in the sense of plain and not complicated: Opskriften er enkel (The recipe is simple). For easy to do, use let (easy).",
+  "forms": [
+   {
+    "da": "en enkel regel",
+    "en": "a simple rule"
+   },
+   {
+    "da": "et enkelt svar",
+    "en": "a simple answer"
+   },
+   {
+    "da": "enkle regler",
+    "en": "simple rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "kompliceret",
+    "en": "complicated"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "svær",
+    "en": "difficult"
+   },
+   {
+    "da": "enkelt",
+    "en": "single / simple"
+   }
+  ],
+  "sentence": {
+   "da": "Reglen er **enkel**, så alle kan lære den.",
+   "en": "The rule is simple, so everyone can learn it."
+  }
+ },
+ "enkelt": {
+  "explanation": "\"Enkelt\" means \"single\" or \"simple\". En enkelt person (a single person) is just one, and Det er enkelt (It is simple) means it is easy.",
+  "forms": [
+   {
+    "da": "en enkelt dag",
+    "en": "a single day"
+   },
+   {
+    "da": "et enkelt ord",
+    "en": "a single word"
+   },
+   {
+    "da": "enkelte gange",
+    "en": "a few times"
+   }
+  ],
+  "related": [
+   {
+    "da": "kompliceret",
+    "en": "complicated"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "flere",
+    "en": "several"
+   }
+  ],
+  "sentence": {
+   "da": "Svaret er helt **enkelt**.",
+   "en": "The answer is quite simple."
+  }
+ },
  "enogtyve": {
   "explanation": "\"Enogtyve\" means \"twenty-one\". Danish says the one first: en-og-tyve is literally one-and-twenty. The same goes for 22, toogtyve (two-and-twenty), and 31, enogtredive (one-and-thirty).",
   "forms": [
@@ -807,6 +3137,201 @@
   "sentence": {
    "da": "Min søn er **enogtyve** år.",
    "en": "My son is twenty-one years old."
+  }
+ },
+ "enorm": {
+  "explanation": "\"Enorm\" means \"enormous\", far bigger than normal: Hvalen er enorm (The whale is enormous). It also fits big amounts and effects: en enorm succes (a huge success).",
+  "forms": [
+   {
+    "da": "en enorm bygning",
+    "en": "an enormous building"
+   },
+   {
+    "da": "et enormt hus",
+    "en": "an enormous house"
+   },
+   {
+    "da": "enorme problemer",
+    "en": "enormous problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "kæmpe",
+    "en": "giant"
+   },
+   {
+    "da": "vældig",
+    "en": "huge"
+   },
+   {
+    "da": "gigantisk",
+    "en": "gigantic"
+   },
+   {
+    "da": "minimal",
+    "en": "tiny"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **enorm** hund i vores gade.",
+   "en": "There is an enormous dog on our street."
+  }
+ },
+ "enormt": {
+  "explanation": "\"Enormt\" means \"enormously\" and makes the next word much stronger: Det er enormt dyrt (It is enormously expensive). It also fits feelings: Jeg er enormt glad (I am hugely happy).",
+  "forms": [
+   {
+    "da": "enormt stor",
+    "en": "enormously big"
+   },
+   {
+    "da": "enormt mange",
+    "en": "an enormous number of"
+   },
+   {
+    "da": "enormt sjovt",
+    "en": "hugely fun"
+   }
+  ],
+  "related": [
+   {
+    "da": "enorm",
+    "en": "enormous"
+   },
+   {
+    "da": "kæmpe",
+    "en": "huge"
+   },
+   {
+    "da": "meget",
+    "en": "very"
+   },
+   {
+    "da": "rigtig",
+    "en": "really"
+   }
+  ],
+  "sentence": {
+   "da": "Den film var **enormt** sjov.",
+   "en": "That movie was hugely funny."
+  }
+ },
+ "ens": {
+  "explanation": "\"Ens\" means \"identical\" or \"alike\" and says that things are the same: De to søstre er ens (The two sisters are alike). You need two or more things to compare.",
+  "forms": [
+   {
+    "da": "to ens trøjer",
+    "en": "two identical sweaters"
+   },
+   {
+    "da": "De er ens.",
+    "en": "They are alike."
+   },
+   {
+    "da": "ens huse",
+    "en": "identical houses"
+   }
+  ],
+  "related": [
+   {
+    "da": "forskellig",
+    "en": "different"
+   },
+   {
+    "da": "samme",
+    "en": "same"
+   },
+   {
+    "da": "lige",
+    "en": "equal / alike"
+   },
+   {
+    "da": "at ligne",
+    "en": "to look like"
+   }
+  ],
+  "sentence": {
+   "da": "De to huse er helt **ens**.",
+   "en": "The two houses are exactly alike."
+  }
+ },
+ "ensomhed": {
+  "explanation": "\"Ensomhed\" means \"loneliness\", the feeling of being alone even when people are around: Mange ældre kender ensomhed (Many older people know loneliness). Someone who feels it is ensom (lonely): Jeg føler mig ensom (I feel lonely).",
+  "forms": [
+   {
+    "da": "en ensomhed",
+    "en": "loneliness"
+   },
+   {
+    "da": "ensomheden",
+    "en": "the loneliness"
+   },
+   {
+    "da": "i ensomhed",
+    "en": "in loneliness"
+   },
+   {
+    "da": "følelsen af ensomhed",
+    "en": "the feeling of loneliness"
+   }
+  ],
+  "related": [
+   {
+    "da": "alene",
+    "en": "alone"
+   },
+   {
+    "da": "et fællesskab",
+    "en": "a community"
+   },
+   {
+    "da": "et venskab",
+    "en": "a friendship"
+   },
+   {
+    "da": "isolation",
+    "en": "isolation"
+   }
+  ],
+  "sentence": {
+   "da": "Efter flytningen følte hun **ensomhed**, men hun fandt venner.",
+   "en": "After the move she felt loneliness, but she found friends."
+  }
+ },
+ "enten": {
+  "explanation": "\"Enten\" means \"either\" and works with eller (or) to give two choices: Vi tager enten bussen eller toget (We take either the bus or the train). Together, enten ... eller means \"either ... or\".",
+  "forms": [
+   {
+    "da": "enten kaffe eller te",
+    "en": "either coffee or tea"
+   },
+   {
+    "da": "enten i dag eller i morgen",
+    "en": "either today or tomorrow"
+   },
+   {
+    "da": "enten dig eller mig",
+    "en": "either you or me"
+   }
+  ],
+  "related": [
+   {
+    "da": "hverken",
+    "en": "neither"
+   },
+   {
+    "da": "både",
+    "en": "both"
+   },
+   {
+    "da": "begge",
+    "en": "both"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager **enten** bussen eller toget.",
+   "en": "We take either the bus or the train."
   }
  },
  "enten…eller": {
@@ -988,6 +3513,217 @@
    "en": "It is fall, with many red leaves."
   }
  },
+ "et egern": {
+  "explanation": "\"Et egern\" means \"a squirrel\": Der løber et egern i parken (A squirrel is running in the park). It has a long bushy tail: Et egern har en busket hale (A squirrel has a bushy tail).",
+  "forms": [
+   {
+    "da": "et egern",
+    "en": "a squirrel"
+   },
+   {
+    "da": "egernet",
+    "en": "the squirrel"
+   },
+   {
+    "da": "egern",
+    "en": "squirrels"
+   },
+   {
+    "da": "egernene",
+    "en": "the squirrels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nød",
+    "en": "a nut"
+   },
+   {
+    "da": "en gnaver",
+    "en": "a rodent"
+   },
+   {
+    "da": "en mus",
+    "en": "a mouse"
+   },
+   {
+    "da": "en hamster",
+    "en": "a hamster"
+   }
+  ],
+  "sentence": {
+   "da": "Et **egern** klatrer op i det høje træ.",
+   "en": "A squirrel climbs up the tall tree."
+  }
+ },
+ "et ekko": {
+  "explanation": "\"Et ekko\" means \"an echo\", a sound that comes back: Der er ekko i kirken (There is an echo in the church).",
+  "forms": [
+   {
+    "da": "et ekko",
+    "en": "an echo"
+   },
+   {
+    "da": "ekkoet",
+    "en": "the echo"
+   },
+   {
+    "da": "ekkoer",
+    "en": "echoes"
+   },
+   {
+    "da": "ekkoerne",
+    "en": "the echoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lyd",
+    "en": "a sound"
+   },
+   {
+    "da": "at råbe",
+    "en": "to shout"
+   },
+   {
+    "da": "en stemme",
+    "en": "a voice"
+   },
+   {
+    "da": "stilhed",
+    "en": "silence"
+   }
+  ],
+  "sentence": {
+   "da": "I bjergene kan man høre et **ekko**.",
+   "en": "In the mountains you can hear an echo."
+  }
+ },
+ "et eksempel": {
+  "explanation": "\"Et eksempel\" means \"an example\": Her er et eksempel (Here is an example). For example is til eksempel, short t.eks., or for eksempel, short f.eks.",
+  "forms": [
+   {
+    "da": "et eksempel",
+    "en": "an example"
+   },
+   {
+    "da": "eksemplet",
+    "en": "the example"
+   },
+   {
+    "da": "eksempler",
+    "en": "examples"
+   },
+   {
+    "da": "eksemplerne",
+    "en": "the examples"
+   }
+  ],
+  "related": [
+   {
+    "da": "at eksemplificere",
+    "en": "to give an example"
+   },
+   {
+    "da": "en prøve",
+    "en": "a sample"
+   },
+   {
+    "da": "en model",
+    "en": "a model"
+   },
+   {
+    "da": "en forklaring",
+    "en": "an explanation"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du give et **eksempel**?",
+   "en": "Can you give an example?"
+  }
+ },
+ "et eksperiment": {
+  "explanation": "\"Et eksperiment\" means \"an experiment\", a test to find something out: Vi laver et eksperiment i timen (We do an experiment in class). The matching verb is at eksperimentere (to experiment).",
+  "forms": [
+   {
+    "da": "et eksperiment",
+    "en": "an experiment"
+   },
+   {
+    "da": "eksperimentet",
+    "en": "the experiment"
+   },
+   {
+    "da": "eksperimenter",
+    "en": "experiments"
+   },
+   {
+    "da": "eksperimenterne",
+    "en": "the experiments"
+   }
+  ],
+  "related": [
+   {
+    "da": "et forsøg",
+    "en": "an experiment / attempt"
+   },
+   {
+    "da": "et laboratorium",
+    "en": "a laboratory"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   },
+   {
+    "da": "en opdagelse",
+    "en": "a discovery"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene laver et **eksperiment** med vand.",
+   "en": "The children do an experiment with water."
+  }
+ },
+ "et emne": {
+  "explanation": "\"Et emne\" means \"a subject\" or \"a topic\" to talk or write about: Emnet i dag er sundhed (Today's topic is health). For math or history at school, use et fag instead.",
+  "forms": [
+   {
+    "da": "et emne",
+    "en": "a subject / topic"
+   },
+   {
+    "da": "emnet",
+    "en": "the subject / topic"
+   },
+   {
+    "da": "emner",
+    "en": "subjects / topics"
+   },
+   {
+    "da": "emnerne",
+    "en": "the subjects / topics"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tema",
+    "en": "a theme"
+   },
+   {
+    "da": "en overskrift",
+    "en": "a heading"
+   },
+   {
+    "da": "en titel",
+    "en": "a title"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilket **emne** skal vi tale om?",
+   "en": "Which topic should we talk about?"
+  }
+ },
  "et enkeltværelse": {
   "explanation": "\"Et enkeltværelse\" means \"a single room\", a hotel room for one person. It is made of enkelt (single) and et værelse (a room).",
   "forms": [
@@ -1025,6 +3761,127 @@
   "sentence": {
    "da": "Jeg rejser alene og vil have et **enkeltværelse**.",
    "en": "I travel alone and want a single room."
+  }
+ },
+ "et escape room": {
+  "explanation": "\"Et escape room\" means \"an escape room\", a game where a group is locked in a room and solves puzzles to get out: Vi var i et escape room (We were in an escape room). Danes use the English words.",
+  "forms": [
+   {
+    "da": "et escape room",
+    "en": "an escape room"
+   },
+   {
+    "da": "escape roomet",
+    "en": "the escape room"
+   },
+   {
+    "da": "escape rooms",
+    "en": "escape rooms"
+   },
+   {
+    "da": "escape roomene",
+    "en": "the escape rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "et puslespil",
+    "en": "a jigsaw puzzle"
+   },
+   {
+    "da": "et brætspil",
+    "en": "a board game"
+   },
+   {
+    "da": "et spil",
+    "en": "a game"
+   },
+   {
+    "da": "en gåde",
+    "en": "a riddle"
+   }
+  ],
+  "sentence": {
+   "da": "Vi løste alle opgaverne i vores **escape room** og kom ud.",
+   "en": "We solved all the tasks in our escape room and got out."
+  }
+ },
+ "et eventyr": {
+  "explanation": "\"Et eventyr\" means both \"a fairy tale\" and \"an adventure\": Askepot er et eventyr (Cinderella is a fairy tale). Rejsen var et eventyr (The trip was an adventure).",
+  "forms": [
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale / adventure"
+   },
+   {
+    "da": "eventyret",
+    "en": "the fairy tale / adventure"
+   },
+   {
+    "da": "eventyr",
+    "en": "fairy tales / adventures"
+   },
+   {
+    "da": "eventyrene",
+    "en": "the fairy tales / adventures"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fortælling",
+    "en": "a story"
+   },
+   {
+    "da": "en historie",
+    "en": "a story / history"
+   },
+   {
+    "da": "en eventyrer",
+    "en": "an adventurer"
+   },
+   {
+    "da": "eventyrlig",
+    "en": "fabulous"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læser et **eventyr** for børnene hver aften.",
+   "en": "I read a fairy tale to the children every evening."
+  }
+ },
+ "eu": {
+  "explanation": "\"EU\" means \"the EU\", the group of European countries that work together. Say i EU (in the EU): Danmark er med i EU (Denmark is a member of the EU).",
+  "forms": [
+   {
+    "da": "EU's regler",
+    "en": "the EU's rules"
+   },
+   {
+    "da": "et EU-land",
+    "en": "an EU country"
+   },
+   {
+    "da": "en EU-borger",
+    "en": "an EU citizen"
+   }
+  ],
+  "related": [
+   {
+    "da": "Europa",
+    "en": "Europe"
+   },
+   {
+    "da": "en union",
+    "en": "a union"
+   },
+   {
+    "da": "et medlemsland",
+    "en": "a member country"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må arbejde i alle lande i **EU**.",
+   "en": "We may work in all the countries in the EU."
   }
  },
  "europa": {
@@ -1095,6 +3952,84 @@
   "sentence": {
    "da": "Danmark er et **europæisk** land.",
    "en": "Denmark is a European country."
+  }
+ },
+ "evig": {
+  "explanation": "\"Evig\" means \"eternal\", lasting forever: evig fred (eternal peace). It also fits things that never seem to end: en evig diskussion (an endless discussion).",
+  "forms": [
+   {
+    "da": "en evig kamp",
+    "en": "an eternal struggle"
+   },
+   {
+    "da": "et evigt liv",
+    "en": "an eternal life"
+   },
+   {
+    "da": "evige venner",
+    "en": "eternal friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "en evighed",
+    "en": "an eternity"
+   },
+   {
+    "da": "uendelig",
+    "en": "endless"
+   },
+   {
+    "da": "tidløs",
+    "en": "timeless"
+   },
+   {
+    "da": "midlertidig",
+    "en": "temporary"
+   }
+  ],
+  "sentence": {
+   "da": "De lovede hinanden **evig** kærlighed ved brylluppet.",
+   "en": "They promised each other eternal love at the wedding."
+  }
+ },
+ "evigt": {
+  "explanation": "\"Evigt\" means \"forever\": Din hjælp husker jeg evigt (I will remember your help forever). It is also used in a joking way for a very long wait.",
+  "forms": [
+   {
+    "da": "Det varer evigt",
+    "en": "It lasts forever"
+   },
+   {
+    "da": "Jeg venter evigt",
+    "en": "I will wait forever"
+   },
+   {
+    "da": "Det tager evigt",
+    "en": "It takes forever"
+   }
+  ],
+  "related": [
+   {
+    "da": "for evigt",
+    "en": "forever"
+   },
+   {
+    "da": "en evighed",
+    "en": "an eternity"
+   },
+   {
+    "da": "altid",
+    "en": "always"
+   },
+   {
+    "da": "aldrig",
+    "en": "never"
+   }
+  ],
+  "sentence": {
+   "da": "Det varer **evigt**, når man venter på bussen.",
+   "en": "It lasts forever when you wait for the bus."
   }
  }
 }

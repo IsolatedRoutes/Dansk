@@ -1,4 +1,254 @@
 {
+ "at ramme": {
+  "explanation": "\"At ramme\" means \"to hit\" a target: Bolden ramte stolpen (The ball hit the post). It can also mean \"to affect\" someone badly: Krisen ramte mange (The crisis hit many people).",
+  "forms": [
+   {
+    "da": "at ramme",
+    "en": "to hit (a target)"
+   },
+   {
+    "da": "jeg rammer",
+    "en": "I hit (a target)"
+   },
+   {
+    "da": "jeg ramte",
+    "en": "I hit (a target)"
+   },
+   {
+    "da": "jeg har ramt",
+    "en": "I have hit (a target)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at misse",
+    "en": "to miss"
+   },
+   {
+    "da": "at træffe",
+    "en": "to hit / meet"
+   },
+   {
+    "da": "at slå",
+    "en": "to hit / beat"
+   },
+   {
+    "da": "at skyde",
+    "en": "to shoot"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **ramme** målet med bolden?",
+   "en": "Can you hit the target with the ball?"
+  }
+ },
+ "at rapportere": {
+  "explanation": "\"At rapportere\" means \"to report\", telling someone the facts: Hun rapporterer til chefen (She reports to the boss). It is also used for news: Avisen rapporterer om ulykken (The paper reports on the accident).",
+  "forms": [
+   {
+    "da": "at rapportere",
+    "en": "to report"
+   },
+   {
+    "da": "jeg rapporterer",
+    "en": "I report"
+   },
+   {
+    "da": "jeg rapporterede",
+    "en": "I reported"
+   },
+   {
+    "da": "jeg har rapporteret",
+    "en": "I have reported"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rapport",
+    "en": "a report"
+   },
+   {
+    "da": "at melde",
+    "en": "to report / announce"
+   },
+   {
+    "da": "at berette",
+    "en": "to tell / relate"
+   },
+   {
+    "da": "at indberette",
+    "en": "to report officially"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **rapportere** til min leder hver mandag.",
+   "en": "I have to report to my manager every Monday."
+  }
+ },
+ "at reagere": {
+  "explanation": "\"At reagere\" means \"to react\", meaning what you do or say in response: Hun reagerede hurtigt (She reacted quickly). What you react to comes after på (to): Han reagerer på kritik (He reacts to criticism).",
+  "forms": [
+   {
+    "da": "at reagere",
+    "en": "to react"
+   },
+   {
+    "da": "jeg reagerer",
+    "en": "I react"
+   },
+   {
+    "da": "jeg reagerede",
+    "en": "I reacted"
+   },
+   {
+    "da": "jeg har reageret",
+    "en": "I have reacted"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reaktion",
+    "en": "a reaction"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "at handle",
+    "en": "to act"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ved ikke, hvordan jeg skal **reagere**.",
+   "en": "I do not know how I should react."
+  }
+ },
+ "at redde": {
+  "explanation": "\"At redde\" means \"to save\" or \"to rescue\" from danger: Han reddede barnet (He rescued the child). Saving money is different: at spare (to save money).",
+  "forms": [
+   {
+    "da": "at redde",
+    "en": "to save / rescue"
+   },
+   {
+    "da": "jeg redder",
+    "en": "I save / rescue"
+   },
+   {
+    "da": "jeg reddede",
+    "en": "I saved / rescued"
+   },
+   {
+    "da": "jeg har reddet",
+    "en": "I have saved / rescued"
+   }
+  ],
+  "related": [
+   {
+    "da": "en redning",
+    "en": "a rescue"
+   },
+   {
+    "da": "en redningsmand",
+    "en": "a rescue worker"
+   },
+   {
+    "da": "at beskytte",
+    "en": "to protect"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   }
+  ],
+  "sentence": {
+   "da": "Brandmanden kan **redde** hunden fra branden.",
+   "en": "The firefighter can save the dog from the fire."
+  }
+ },
+ "at rede håret": {
+  "explanation": "\"At rede håret\" means \"to comb one's hair\": Hun reder håret (She combs her hair). The same verb makes a bed: at rede sengen (to make the bed).",
+  "forms": [
+   {
+    "da": "at rede håret",
+    "en": "to comb one's hair"
+   },
+   {
+    "da": "jeg reder håret",
+    "en": "I comb my hair"
+   },
+   {
+    "da": "jeg redte håret",
+    "en": "I combed my hair"
+   },
+   {
+    "da": "jeg har redt håret",
+    "en": "I have combed my hair"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kam",
+    "en": "a comb"
+   },
+   {
+    "da": "en hårbørste",
+    "en": "a hairbrush"
+   },
+   {
+    "da": "en frisure",
+    "en": "a hairstyle"
+   },
+   {
+    "da": "at børste hår",
+    "en": "to brush hair"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **rede håret** og børste tænder.",
+   "en": "I have to comb my hair and brush my teeth."
+  }
+ },
+ "at rede seng": {
+  "explanation": "\"At rede seng\" means \"to make the bed\": Han reder seng hver morgen (He makes the bed every morning). For a bed, Danes use rede, not at lave (to make).",
+  "forms": [
+   {
+    "da": "at rede seng",
+    "en": "to make the bed"
+   },
+   {
+    "da": "jeg reder seng",
+    "en": "I make the bed"
+   },
+   {
+    "da": "jeg redte seng",
+    "en": "I made the bed"
+   },
+   {
+    "da": "jeg har redt seng",
+    "en": "I have made the bed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dyne",
+    "en": "a duvet"
+   },
+   {
+    "da": "et lagen",
+    "en": "a sheet"
+   },
+   {
+    "da": "en pude",
+    "en": "a pillow"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **rede seng**, når jeg står op.",
+   "en": "I want to make the bed when I get up."
+  }
+ },
  "at regne": {
   "explanation": "\"At regne\" means \"to rain\": Det regner (It is raining). At regne can also mean \"to calculate\": Han regner hurtigt (He calculates quickly).",
   "forms": [
@@ -36,6 +286,45 @@
   "sentence": {
    "da": "I dag skal det **regne**.",
    "en": "Today it is going to rain."
+  }
+ },
+ "at regne med": {
+  "explanation": "\"At regne med\" means \"to count on\", and also \"to expect\": Jeg regner med dig (I am counting on you). Vi regner med regn i morgen (We expect rain tomorrow).",
+  "forms": [
+   {
+    "da": "at regne med",
+    "en": "to count on / expect"
+   },
+   {
+    "da": "jeg regner med",
+    "en": "I count on / expect"
+   },
+   {
+    "da": "jeg regnede med",
+    "en": "I counted on / expected"
+   },
+   {
+    "da": "jeg har regnet med",
+    "en": "I have counted on / expected"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forvente",
+    "en": "to expect"
+   },
+   {
+    "da": "at stole på",
+    "en": "to trust"
+   },
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan **regne med** hjælp fra min bror.",
+   "en": "I can count on help from my brother."
   }
  },
  "at rejse": {
@@ -77,6 +366,334 @@
    "en": "We want to travel to Spain tomorrow."
   }
  },
+ "at rejse sig": {
+  "explanation": "\"At rejse sig\" means \"to stand up\" or \"to rise\": Han rejste sig fra stolen (He stood up from the chair). The little word changes with the person: Jeg rejser mig (I stand up), Du rejser dig (You stand up).",
+  "forms": [
+   {
+    "da": "at rejse sig",
+    "en": "to stand up / rise"
+   },
+   {
+    "da": "jeg rejser mig",
+    "en": "I stand up / rise"
+   },
+   {
+    "da": "jeg rejste mig",
+    "en": "I stood up / rose"
+   },
+   {
+    "da": "jeg har rejst mig",
+    "en": "I have stood up / risen"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sætte sig",
+    "en": "to sit down"
+   },
+   {
+    "da": "at stå op",
+    "en": "to get up"
+   },
+   {
+    "da": "at sidde",
+    "en": "to sit"
+   }
+  ],
+  "sentence": {
+   "da": "Alle skal **rejse sig**, når læreren kommer ind.",
+   "en": "Everyone has to stand up when the teacher comes in."
+  }
+ },
+ "at rense": {
+  "explanation": "\"At rense\" means \"to clean\" by taking out dirt: Vi renser vandet (We clean the water). Hun renser fisken (She cleans the fish). For cleaning a house, use at gøre rent: Jeg gør rent (I clean).",
+  "forms": [
+   {
+    "da": "at rense",
+    "en": "to clean"
+   },
+   {
+    "da": "jeg renser",
+    "en": "I clean"
+   },
+   {
+    "da": "jeg rensede",
+    "en": "I cleaned"
+   },
+   {
+    "da": "jeg har renset",
+    "en": "I have cleaned"
+   }
+  ],
+  "related": [
+   {
+    "da": "ren",
+    "en": "clean"
+   },
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   },
+   {
+    "da": "at skylle",
+    "en": "to rinse"
+   },
+   {
+    "da": "et renseri",
+    "en": "a dry cleaner"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **rense** såret med vand.",
+   "en": "You have to clean the wound with water."
+  }
+ },
+ "at reparere": {
+  "explanation": "\"At reparere\" means \"to repair\" or \"to fix\" something broken: Han reparerer min cykel (He repairs my bike). It is the opposite of at ødelægge (to break).",
+  "forms": [
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   },
+   {
+    "da": "jeg reparerer",
+    "en": "I repair"
+   },
+   {
+    "da": "jeg reparerede",
+    "en": "I repaired"
+   },
+   {
+    "da": "jeg har repareret",
+    "en": "I have repaired"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reparation",
+    "en": "a repair"
+   },
+   {
+    "da": "en mekaniker",
+    "en": "a mechanic"
+   },
+   {
+    "da": "at gå i stykker",
+    "en": "to break down"
+   },
+   {
+    "da": "at lappe",
+    "en": "to patch"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **reparere** min cykel i dag?",
+   "en": "Can you repair my bike today?"
+  }
+ },
+ "at reservere": {
+  "explanation": "\"At reservere\" means \"to reserve\", for a table, a room or a seat: Jeg vil gerne reservere en plads (I would like to reserve a seat). At booke (to book) means nearly the same.",
+  "forms": [
+   {
+    "da": "at reservere",
+    "en": "to reserve"
+   },
+   {
+    "da": "jeg reserverer",
+    "en": "I reserve"
+   },
+   {
+    "da": "jeg reserverede",
+    "en": "I reserved"
+   },
+   {
+    "da": "jeg har reserveret",
+    "en": "I have reserved"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reservation",
+    "en": "a reservation"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order / book"
+   },
+   {
+    "da": "at afbestille",
+    "en": "to cancel an order"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **reservere** et bord i aften.",
+   "en": "I would like to reserve a table tonight."
+  }
+ },
+ "at respektere": {
+  "explanation": "\"At respektere\" means \"to respect\": Jeg respekterer min lærer (I respect my teacher). It also covers rules and choices: Vi respekterer reglerne (We respect the rules).",
+  "forms": [
+   {
+    "da": "at respektere",
+    "en": "to respect"
+   },
+   {
+    "da": "jeg respekterer",
+    "en": "I respect"
+   },
+   {
+    "da": "jeg respekterede",
+    "en": "I respected"
+   },
+   {
+    "da": "jeg har respekteret",
+    "en": "I have respected"
+   }
+  ],
+  "related": [
+   {
+    "da": "en respekt",
+    "en": "respect"
+   },
+   {
+    "da": "at beundre",
+    "en": "to admire"
+   },
+   {
+    "da": "at overholde",
+    "en": "to follow, to keep to"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **respektere** andre menneskers valg.",
+   "en": "You have to respect other people's choices."
+  }
+ },
+ "at rette": {
+  "explanation": "\"At rette\" means \"to correct\": Kan du rette fejlen i teksten? (Can you correct the mistake in the text?) It also means \"to straighten\": Hun rettede ryggen (She straightened her back).",
+  "forms": [
+   {
+    "da": "at rette",
+    "en": "to correct / straighten"
+   },
+   {
+    "da": "jeg retter",
+    "en": "I correct / straighten"
+   },
+   {
+    "da": "jeg rettede",
+    "en": "I corrected / straightened"
+   },
+   {
+    "da": "jeg har rettet",
+    "en": "I have corrected / straightened"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rettelse",
+    "en": "a correction"
+   },
+   {
+    "da": "lige",
+    "en": "straight"
+   },
+   {
+    "da": "at forbedre",
+    "en": "to improve"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren skal **rette** vores prøver i aften.",
+   "en": "The teacher has to correct our tests tonight."
+  }
+ },
+ "at returnere": {
+  "explanation": "\"At returnere\" means \"to return an item\", for example to a store: Jeg vil returnere kjolen (I want to return the dress). For coming back yourself, use at vende tilbage (to come back).",
+  "forms": [
+   {
+    "da": "at returnere",
+    "en": "to return an item"
+   },
+   {
+    "da": "jeg returnerer",
+    "en": "I return an item"
+   },
+   {
+    "da": "jeg returnerede",
+    "en": "I returned an item"
+   },
+   {
+    "da": "jeg har returneret",
+    "en": "I have returned an item"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bytte",
+    "en": "to exchange"
+   },
+   {
+    "da": "at refundere",
+    "en": "to refund"
+   },
+   {
+    "da": "at sende tilbage",
+    "en": "to send back"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **returnere** jakken, fordi den er for stor.",
+   "en": "I want to return the jacket because it is too big."
+  }
+ },
+ "at ride": {
+  "explanation": "\"At ride\" means \"to ride (a horse)\": Hun rider hver weekend (She rides every weekend). For a bike, say at cykle (to cycle): Jeg cykler på arbejde (I cycle to work).",
+  "forms": [
+   {
+    "da": "at ride",
+    "en": "to ride (a horse)"
+   },
+   {
+    "da": "jeg rider",
+    "en": "I ride (a horse)"
+   },
+   {
+    "da": "jeg red",
+    "en": "I rode (a horse)"
+   },
+   {
+    "da": "jeg har redet",
+    "en": "I have ridden (a horse)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rideskole",
+    "en": "a riding school"
+   },
+   {
+    "da": "en rytter",
+    "en": "a rider"
+   },
+   {
+    "da": "en ridetur",
+    "en": "a horseback ride"
+   },
+   {
+    "da": "at køre",
+    "en": "to drive"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **ride** på hesten i skoven.",
+   "en": "She can ride the horse in the forest."
+  }
+ },
  "at ringe": {
   "explanation": "\"At ringe\" means \"to call\" someone on the phone. You put til (to) before the person: Jeg ringer til dig i morgen (I will call you tomorrow). It also means \"to ring\", like a bell or a doorbell.",
   "forms": [
@@ -114,6 +731,49 @@
   "sentence": {
    "da": "Jeg vil **ringe** til min mor.",
    "en": "I want to call my mother."
+  }
+ },
+ "at ringe efter": {
+  "explanation": "\"At ringe efter\" means \"to call for\" someone or something to come: Vi ringer efter en taxa (We call a taxi). To phone a person, use til: Jeg ringer til Anna (I call Anna).",
+  "forms": [
+   {
+    "da": "at ringe efter",
+    "en": "to call for"
+   },
+   {
+    "da": "jeg ringer efter",
+    "en": "I call for"
+   },
+   {
+    "da": "jeg ringede efter",
+    "en": "I called for"
+   },
+   {
+    "da": "jeg har ringet efter",
+    "en": "I have called for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilkalde",
+    "en": "to summon"
+   },
+   {
+    "da": "at bestille",
+    "en": "to order / book"
+   },
+   {
+    "da": "et opkald",
+    "en": "a phone call"
+   },
+   {
+    "da": "at råbe på",
+    "en": "to call out for"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **ringe efter** en læge nu.",
+   "en": "We have to call for a doctor now."
   }
  },
  "at ringe op": {
@@ -159,6 +819,45 @@
    "en": "I have my phone and want to call."
   }
  },
+ "at ringe på": {
+  "explanation": "\"At ringe på\" means \"to ring the doorbell\": Der ringer nogen på (Someone is ringing the doorbell). To call someone by phone, use at ringe til (to call): Jeg ringer til dig (I call you).",
+  "forms": [
+   {
+    "da": "at ringe på",
+    "en": "to ring the doorbell"
+   },
+   {
+    "da": "jeg ringer på",
+    "en": "I ring the doorbell"
+   },
+   {
+    "da": "jeg ringede på",
+    "en": "I rang the doorbell"
+   },
+   {
+    "da": "jeg har ringet på",
+    "en": "I have rung the doorbell"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dørklokke",
+    "en": "a doorbell"
+   },
+   {
+    "da": "at banke på",
+    "en": "to knock"
+   },
+   {
+    "da": "en klokke",
+    "en": "a bell"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **ringe på**, hvis døren er låst.",
+   "en": "You can ring the doorbell if the door is locked."
+  }
+ },
  "at ringe til": {
   "explanation": "\"At ringe til\" means \"to call\" someone on the phone. You need til (to) before the person: Jeg ringer til min mor (I call my mother). At ringe on its own can also mean a bell ringing.",
   "forms": [
@@ -202,6 +901,822 @@
    "en": "I want to call my mother."
   }
  },
+ "at ringe tilbage": {
+  "explanation": "\"At ringe tilbage\" means \"to call back\": Jeg ringer tilbage om en time (I will call back in an hour). You can also ask for it: Kan du ringe tilbage? (Can you call back?).",
+  "forms": [
+   {
+    "da": "at ringe tilbage",
+    "en": "to call back"
+   },
+   {
+    "da": "jeg ringer tilbage",
+    "en": "I call back"
+   },
+   {
+    "da": "jeg ringede tilbage",
+    "en": "I called back"
+   },
+   {
+    "da": "jeg har ringet tilbage",
+    "en": "I have called back"
+   }
+  ],
+  "related": [
+   {
+    "da": "et opkald",
+    "en": "a call"
+   },
+   {
+    "da": "at svare",
+    "en": "to answer"
+   },
+   {
+    "da": "at lægge på",
+    "en": "to hang up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **ringe tilbage**, når jeg er hjemme.",
+   "en": "I will call back when I am home."
+  }
+ },
+ "at risikere": {
+  "explanation": "\"At risikere\" means \"to risk\", and also \"to be in danger of\": Han risikerer sit job (He is risking his job). It often goes with a bad result: Du risikerer en bøde (You risk a fine).",
+  "forms": [
+   {
+    "da": "at risikere",
+    "en": "to risk"
+   },
+   {
+    "da": "jeg risikerer",
+    "en": "I risk"
+   },
+   {
+    "da": "jeg risikerede",
+    "en": "I risked"
+   },
+   {
+    "da": "jeg har risikeret",
+    "en": "I have risked"
+   }
+  ],
+  "related": [
+   {
+    "da": "en risiko",
+    "en": "a risk"
+   },
+   {
+    "da": "farlig",
+    "en": "dangerous"
+   },
+   {
+    "da": "at vove",
+    "en": "to dare"
+   },
+   {
+    "da": "en fare",
+    "en": "a danger"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **risikere** at komme for sent.",
+   "en": "You might end up being late."
+  }
+ },
+ "at rive": {
+  "explanation": "\"At rive\" means \"to grate\", for example cheese or carrots: Jeg river ost på pastaen (I grate cheese on the pasta). It also means to rake leaves or to tear paper: Han river bladene sammen (He rakes the leaves together).",
+  "forms": [
+   {
+    "da": "at rive",
+    "en": "to grate"
+   },
+   {
+    "da": "jeg river",
+    "en": "I grate"
+   },
+   {
+    "da": "jeg rev",
+    "en": "I grated"
+   },
+   {
+    "da": "jeg har revet",
+    "en": "I have grated"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rivejern",
+    "en": "a grater"
+   },
+   {
+    "da": "at hakke",
+    "en": "to chop"
+   },
+   {
+    "da": "at skære",
+    "en": "to cut"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **rive** ost til pastaen.",
+   "en": "I have to grate cheese for the pasta."
+  }
+ },
+ "at rive i stykker": {
+  "explanation": "\"At rive i stykker\" means \"to tear to pieces\": Jeg river brevet i stykker (I tear the letter to pieces). I stykker (in pieces) shows that the thing ends up in bits.",
+  "forms": [
+   {
+    "da": "at rive i stykker",
+    "en": "to tear to pieces"
+   },
+   {
+    "da": "jeg river i stykker",
+    "en": "I tear to pieces"
+   },
+   {
+    "da": "jeg rev i stykker",
+    "en": "I tore to pieces"
+   },
+   {
+    "da": "jeg har revet i stykker",
+    "en": "I have torn to pieces"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ødelægge",
+    "en": "to destroy"
+   },
+   {
+    "da": "at klippe i stykker",
+    "en": "to cut to pieces"
+   },
+   {
+    "da": "at smadre",
+    "en": "to smash"
+   },
+   {
+    "da": "at gå i stykker",
+    "en": "to break"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden plejer at **rive i stykker** gamle sko.",
+   "en": "The dog usually tears old shoes to pieces."
+  }
+ },
+ "at rive ned": {
+  "explanation": "\"At rive ned\" means \"to tear down\", mostly a building or a wall: De river det gamle hus ned (They are tearing down the old house). With a short word like det (it), that word goes before ned: De river det ned (They are tearing it down).",
+  "forms": [
+   {
+    "da": "at rive ned",
+    "en": "to tear down"
+   },
+   {
+    "da": "jeg river ned",
+    "en": "I tear down"
+   },
+   {
+    "da": "jeg rev ned",
+    "en": "I tore down"
+   },
+   {
+    "da": "jeg har revet ned",
+    "en": "I have torn down"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bygge op",
+    "en": "to build up"
+   },
+   {
+    "da": "en nedrivning",
+    "en": "a demolition"
+   },
+   {
+    "da": "at ødelægge",
+    "en": "to destroy"
+   }
+  ],
+  "sentence": {
+   "da": "De vil **rive ned** det gamle hus.",
+   "en": "They want to tear down the old house."
+  }
+ },
+ "at ro": {
+  "explanation": "\"At ro\" means \"to row\" a boat with oars: Hun roer hver morgen (She rows every morning). Look-alike: en ro means \"calm\" and \"quiet\": Jeg vil have lidt ro (I want some peace and quiet).",
+  "forms": [
+   {
+    "da": "at ro",
+    "en": "to row"
+   },
+   {
+    "da": "jeg ror",
+    "en": "I row"
+   },
+   {
+    "da": "jeg roede",
+    "en": "I rowed"
+   },
+   {
+    "da": "jeg har roet",
+    "en": "I have rowed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en robåd",
+    "en": "a rowboat"
+   },
+   {
+    "da": "en åre",
+    "en": "an oar"
+   },
+   {
+    "da": "at sejle",
+    "en": "to sail"
+   },
+   {
+    "da": "at padle",
+    "en": "to paddle"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **ro** over søen i en lille båd.",
+   "en": "We can row across the lake in a small boat."
+  }
+ },
+ "at rose": {
+  "explanation": "\"At rose\" means \"to praise\" and is the opposite of criticizing: Læreren roser eleven (The teacher praises the student). It looks like en rose (a rose), but this one is a word for saying good things.",
+  "forms": [
+   {
+    "da": "at rose",
+    "en": "to praise"
+   },
+   {
+    "da": "jeg roser",
+    "en": "I praise"
+   },
+   {
+    "da": "jeg roste",
+    "en": "I praised"
+   },
+   {
+    "da": "jeg har rost",
+    "en": "I have praised"
+   }
+  ],
+  "related": [
+   {
+    "da": "ros",
+    "en": "praise"
+   },
+   {
+    "da": "at kritisere",
+    "en": "to criticize"
+   },
+   {
+    "da": "at anerkende",
+    "en": "to acknowledge"
+   },
+   {
+    "da": "en kompliment",
+    "en": "a compliment"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **rose** dig for dit arbejde.",
+   "en": "I want to praise you for your work."
+  }
+ },
+ "at rulle": {
+  "explanation": "\"At rulle\" means \"to roll\": Bolden ruller under bordet (The ball rolls under the table). You can also roll something yourself: Jeg ruller dejen (I roll the dough).",
+  "forms": [
+   {
+    "da": "at rulle",
+    "en": "to roll"
+   },
+   {
+    "da": "jeg ruller",
+    "en": "I roll"
+   },
+   {
+    "da": "jeg rullede",
+    "en": "I rolled"
+   },
+   {
+    "da": "jeg har rullet",
+    "en": "I have rolled"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rullestol",
+    "en": "a wheelchair"
+   },
+   {
+    "da": "et hjul",
+    "en": "a wheel"
+   },
+   {
+    "da": "at trille",
+    "en": "to roll (small round things)"
+   },
+   {
+    "da": "at dreje",
+    "en": "to turn"
+   }
+  ],
+  "sentence": {
+   "da": "Bolden kan **rulle** ned ad bakken.",
+   "en": "The ball can roll down the hill."
+  }
+ },
+ "at runde af": {
+  "explanation": "\"At runde af\" means \"to round off\". For numbers: Jeg runder 4,6 af til 5 (I round 4.6 off to 5). For an event: Vi rundede aftenen af med kaffe (We rounded off the evening with coffee).",
+  "forms": [
+   {
+    "da": "at runde af",
+    "en": "to round off"
+   },
+   {
+    "da": "jeg runder af",
+    "en": "I round off"
+   },
+   {
+    "da": "jeg rundede af",
+    "en": "I rounded off"
+   },
+   {
+    "da": "jeg har rundet af",
+    "en": "I have rounded off"
+   }
+  ],
+  "related": [
+   {
+    "da": "rund",
+    "en": "round"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   },
+   {
+    "da": "at slutte",
+    "en": "to end"
+   },
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **runde af** med en kop kaffe.",
+   "en": "We want to round off with a cup of coffee."
+  }
+ },
+ "at runde ned": {
+  "explanation": "\"At runde ned\" means \"to round down\" a number: Vi runder 7,2 ned til 7 (We round 7.2 down to 7). It is also used for a price or an amount you make a little lower.",
+  "forms": [
+   {
+    "da": "at runde ned",
+    "en": "to round down"
+   },
+   {
+    "da": "jeg runder ned",
+    "en": "I round down"
+   },
+   {
+    "da": "jeg rundede ned",
+    "en": "I rounded down"
+   },
+   {
+    "da": "jeg har rundet ned",
+    "en": "I have rounded down"
+   }
+  ],
+  "related": [
+   {
+    "da": "at runde op",
+    "en": "to round up"
+   },
+   {
+    "da": "at runde af",
+    "en": "to round off"
+   },
+   {
+    "da": "at afrunde",
+    "en": "to round off"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen er 52 kroner, men vi kan **runde ned** til 50.",
+   "en": "The price is 52 kroner, but we can round down to 50."
+  }
+ },
+ "at runde op": {
+  "explanation": "\"At runde op\" means \"to round up\" a number: Vi runder 7,6 op til 8 (We round 7.6 up to 8). The opposite is at runde ned (to round down).",
+  "forms": [
+   {
+    "da": "at runde op",
+    "en": "to round up"
+   },
+   {
+    "da": "jeg runder op",
+    "en": "I round up"
+   },
+   {
+    "da": "jeg rundede op",
+    "en": "I rounded up"
+   },
+   {
+    "da": "jeg har rundet op",
+    "en": "I have rounded up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afrunde",
+    "en": "to round off"
+   },
+   {
+    "da": "at runde af",
+    "en": "to round off"
+   },
+   {
+    "da": "rund",
+    "en": "round"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **runde op** til nærmeste hundrede.",
+   "en": "You can round up to the nearest hundred."
+  }
+ },
+ "at rydde": {
+  "explanation": "\"At rydde\" means \"to clear\": Jeg rydder bordet (I clear the table). With op it means \"to tidy up\": Børnene rydder op (The children tidy up).",
+  "forms": [
+   {
+    "da": "at rydde",
+    "en": "to clear"
+   },
+   {
+    "da": "jeg rydder",
+    "en": "I clear"
+   },
+   {
+    "da": "jeg ryddede",
+    "en": "I cleared"
+   },
+   {
+    "da": "jeg har ryddet",
+    "en": "I have cleared"
+   }
+  ],
+  "related": [
+   {
+    "da": "at feje",
+    "en": "to sweep"
+   },
+   {
+    "da": "at gøre rent",
+    "en": "to clean"
+   },
+   {
+    "da": "at tømme",
+    "en": "to empty"
+   }
+  ],
+  "sentence": {
+   "da": "Efter maden skal vi **rydde** bordet.",
+   "en": "After the meal we have to clear the table."
+  }
+ },
+ "at rydde op": {
+  "explanation": "\"At rydde op\" means \"to tidy up\": Jeg rydder op i stuen (I tidy up the living room). It also means \"to clean up after something\": Vi rydder op efter festen (We clean up after the party).",
+  "forms": [
+   {
+    "da": "at rydde op",
+    "en": "to tidy up"
+   },
+   {
+    "da": "jeg rydder op",
+    "en": "I tidy up"
+   },
+   {
+    "da": "jeg ryddede op",
+    "en": "I tidied up"
+   },
+   {
+    "da": "jeg har ryddet op",
+    "en": "I have tidied up"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oprydning",
+    "en": "a tidy-up"
+   },
+   {
+    "da": "at gøre rent",
+    "en": "to clean"
+   },
+   {
+    "da": "rodet",
+    "en": "messy"
+   },
+   {
+    "da": "ryddelig",
+    "en": "tidy"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **rydde op** på dit værelse nu.",
+   "en": "You have to tidy up your room now."
+  }
+ },
+ "at ryge": {
+  "explanation": "\"At ryge\" means \"to smoke\": Jeg ryger ikke (I do not smoke). The smoke itself is røg: Der er røg i køkkenet (There is smoke in the kitchen).",
+  "forms": [
+   {
+    "da": "at ryge",
+    "en": "to smoke"
+   },
+   {
+    "da": "jeg ryger",
+    "en": "I smoke"
+   },
+   {
+    "da": "jeg røg",
+    "en": "I smoked"
+   },
+   {
+    "da": "jeg har røget",
+    "en": "I have smoked"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cigaret",
+    "en": "a cigarette"
+   },
+   {
+    "da": "en pibe",
+    "en": "a pipe"
+   },
+   {
+    "da": "tobak",
+    "en": "tobacco"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil gerne holde op med at **ryge**.",
+   "en": "He would like to quit smoking."
+  }
+ },
+ "at ryste": {
+  "explanation": "\"At ryste\" means \"to shake\", both yourself and things: Jeg ryster af kulde (I am shaking from the cold). Ryst flasken (Shake the bottle).",
+  "forms": [
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   },
+   {
+    "da": "jeg ryster",
+    "en": "I shake"
+   },
+   {
+    "da": "jeg rystede",
+    "en": "I shook"
+   },
+   {
+    "da": "jeg har rystet",
+    "en": "I have shaken"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skælve",
+    "en": "to tremble"
+   },
+   {
+    "da": "en rystelse",
+    "en": "a shock / tremor"
+   },
+   {
+    "da": "at vibrere",
+    "en": "to vibrate"
+   },
+   {
+    "da": "at ryste sammen",
+    "en": "to flinch"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **ryste** flasken før brug.",
+   "en": "You have to shake the bottle before use."
+  }
+ },
+ "at råbe": {
+  "explanation": "\"At råbe\" means \"to shout\": Han råber til mig (He is shouting at me). To call out for something, use på: Jeg råbte på hjælp (I shouted for help).",
+  "forms": [
+   {
+    "da": "at råbe",
+    "en": "to shout"
+   },
+   {
+    "da": "jeg råber",
+    "en": "I shout"
+   },
+   {
+    "da": "jeg råbte",
+    "en": "I shouted"
+   },
+   {
+    "da": "jeg har råbt",
+    "en": "I have shouted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skrige",
+    "en": "to scream"
+   },
+   {
+    "da": "at hviske",
+    "en": "to whisper"
+   },
+   {
+    "da": "at kalde",
+    "en": "to call"
+   },
+   {
+    "da": "et råb",
+    "en": "a shout"
+   }
+  ],
+  "sentence": {
+   "da": "Du må ikke **råbe** så højt herinde.",
+   "en": "You must not shout so loudly in here."
+  }
+ },
+ "at række": {
+  "explanation": "\"At række\" means \"to reach\" and \"to hand\": Kan du række mig saltet? (Can you hand me the salt?) It also means \"to be enough\": Pengene rækker ikke (The money is not enough).",
+  "forms": [
+   {
+    "da": "at række",
+    "en": "to reach / hand"
+   },
+   {
+    "da": "jeg rækker",
+    "en": "I reach / hand"
+   },
+   {
+    "da": "jeg rakte",
+    "en": "I reached / handed"
+   },
+   {
+    "da": "jeg har rakt",
+    "en": "I have reached / handed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "at strække",
+    "en": "to stretch"
+   },
+   {
+    "da": "at nå",
+    "en": "to reach"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **række** mig en kop, tak?",
+   "en": "Can you hand me a cup, please?"
+  }
+ },
+ "at række hånden op": {
+  "explanation": "\"At række hånden op\" means \"to raise one's hand\": Jeg rækker hånden op i timen (I raise my hand in class). Danish says the hand (hånden), not my hand.",
+  "forms": [
+   {
+    "da": "at række hånden op",
+    "en": "to raise one's hand"
+   },
+   {
+    "da": "jeg rækker hånden op",
+    "en": "I raise my hand"
+   },
+   {
+    "da": "jeg rakte hånden op",
+    "en": "I raised my hand"
+   },
+   {
+    "da": "jeg har rakt hånden op",
+    "en": "I have raised my hand"
+   }
+  ],
+  "related": [
+   {
+    "da": "at række fingeren op",
+    "en": "to raise a finger (in class)"
+   },
+   {
+    "da": "at melde sig",
+    "en": "to volunteer / sign up"
+   },
+   {
+    "da": "at række hånden ud",
+    "en": "to reach out a hand"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **række hånden op**, når hun kender svaret.",
+   "en": "She will raise her hand when she knows the answer."
+  }
+ },
+ "at røre": {
+  "explanation": "\"At røre\" means \"to touch\", and also \"to stir\": Rør i suppen (Stir the soup). To touch something, add ved: Du må ikke røre ved den (You must not touch it).",
+  "forms": [
+   {
+    "da": "at røre",
+    "en": "to touch / stir"
+   },
+   {
+    "da": "jeg rører",
+    "en": "I touch / stir"
+   },
+   {
+    "da": "jeg rørte",
+    "en": "I touched / stirred"
+   },
+   {
+    "da": "jeg har rørt",
+    "en": "I have touched / stirred"
+   }
+  ],
+  "related": [
+   {
+    "da": "at blande",
+    "en": "to mix"
+   },
+   {
+    "da": "at berøre",
+    "en": "to touch / affect"
+   },
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   }
+  ],
+  "sentence": {
+   "da": "Du må ikke **røre** ved ovnen, fordi den er varm.",
+   "en": "You must not touch the oven, because it is hot."
+  }
+ },
+ "at røre rundt": {
+  "explanation": "\"At røre rundt\" means \"to stir\", moving a spoon around in a pot: Jeg rører rundt i suppen (I stir the soup). The word rundt means \"around\".",
+  "forms": [
+   {
+    "da": "at røre rundt",
+    "en": "to stir"
+   },
+   {
+    "da": "jeg rører rundt",
+    "en": "I stir"
+   },
+   {
+    "da": "jeg rørte rundt",
+    "en": "I stirred"
+   },
+   {
+    "da": "jeg har rørt rundt",
+    "en": "I have stirred"
+   }
+  ],
+  "related": [
+   {
+    "da": "at blande",
+    "en": "to mix"
+   },
+   {
+    "da": "at røre sammen",
+    "en": "to mix together"
+   },
+   {
+    "da": "en grydeske",
+    "en": "a wooden spoon"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **røre rundt** i gryden hele tiden.",
+   "en": "You have to stir the pot all the time."
+  }
+ },
  "en rabat": {
   "explanation": "\"En rabat\" means \"a discount\", an amount taken off the price. You can ask Kan jeg få rabat? (Can I get a discount?), with no en in front of rabat.",
   "forms": [
@@ -239,6 +1754,88 @@
   "sentence": {
    "da": "Butikken giver mig **rabat** på en jakke.",
    "en": "The shop gives me a discount on a jacket."
+  }
+ },
+ "en radar": {
+  "explanation": "\"En radar\" means \"a radar\", a device that finds planes or ships far away using radio waves: Lufthavnen har en stor radar (The airport has a big radar).",
+  "forms": [
+   {
+    "da": "en radar",
+    "en": "a radar"
+   },
+   {
+    "da": "radaren",
+    "en": "the radar"
+   },
+   {
+    "da": "radarer",
+    "en": "radars"
+   },
+   {
+    "da": "radarerne",
+    "en": "the radars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sonar",
+    "en": "a sonar"
+   },
+   {
+    "da": "en sensor",
+    "en": "a sensor"
+   },
+   {
+    "da": "en antenne",
+    "en": "an antenna"
+   }
+  ],
+  "sentence": {
+   "da": "Skibet kan se andre skibe på sin **radar**.",
+   "en": "The ship can see other ships on its radar."
+  }
+ },
+ "en radiator": {
+  "explanation": "\"En radiator\" means \"a radiator\", the heater on the wall: Radiatoren er varm (The radiator is warm). To turn it up, say skrue op (turn up).",
+  "forms": [
+   {
+    "da": "en radiator",
+    "en": "a radiator"
+   },
+   {
+    "da": "radiatoren",
+    "en": "the radiator"
+   },
+   {
+    "da": "radiatorer",
+    "en": "radiators"
+   },
+   {
+    "da": "radiatorerne",
+    "en": "the radiators"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fyr",
+    "en": "a boiler"
+   },
+   {
+    "da": "gulvvarme",
+    "en": "floor heating"
+   },
+   {
+    "da": "en varmepumpe",
+    "en": "a heat pump"
+   },
+   {
+    "da": "en brændeovn",
+    "en": "a wood stove"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **radiator** under vinduet, og den er varm.",
+   "en": "There is a radiator under the window, and it is warm."
   }
  },
  "en radio": {
@@ -280,6 +1877,135 @@
    "en": "I listen to the radio and music in the car."
   }
  },
+ "en radioavis": {
+  "explanation": "\"En radioavis\" means \"a radio news broadcast\". It is built from radio (radio) and en avis (a newspaper), so it is the news read out on the radio: Radioavisen er klokken otte (The radio news is at eight o'clock).",
+  "forms": [
+   {
+    "da": "en radioavis",
+    "en": "a radio news broadcast"
+   },
+   {
+    "da": "radioavisen",
+    "en": "the radio news broadcast"
+   },
+   {
+    "da": "radioaviser",
+    "en": "radio news broadcasts"
+   },
+   {
+    "da": "radioaviserne",
+    "en": "the radio news broadcasts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "nyheder",
+    "en": "news"
+   },
+   {
+    "da": "et radioprogram",
+    "en": "a radio show"
+   },
+   {
+    "da": "en udsendelse",
+    "en": "a broadcast"
+   }
+  ],
+  "sentence": {
+   "da": "Min far lytter til en **radioavis** hver morgen.",
+   "en": "My father listens to a radio news broadcast every morning."
+  }
+ },
+ "en rapport": {
+  "explanation": "\"En rapport\" means \"a report\", a written document about work or results: Chefen vil have en rapport (The boss wants a report).",
+  "forms": [
+   {
+    "da": "en rapport",
+    "en": "a report"
+   },
+   {
+    "da": "rapporten",
+    "en": "the report"
+   },
+   {
+    "da": "rapporter",
+    "en": "reports"
+   },
+   {
+    "da": "rapporterne",
+    "en": "the reports"
+   }
+  ],
+  "related": [
+   {
+    "da": "et referat",
+    "en": "minutes of a meeting"
+   },
+   {
+    "da": "en opsummering",
+    "en": "a summary"
+   },
+   {
+    "da": "en artikel",
+    "en": "an article"
+   },
+   {
+    "da": "at rapportere",
+    "en": "to report"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal aflevere min **rapport** i morgen.",
+   "en": "I have to hand in my report tomorrow."
+  }
+ },
+ "en reaktion": {
+  "explanation": "\"En reaktion\" means \"a reaction\", how someone or something responds: Hendes reaktion var overraskende (Her reaction was surprising). To say what was reacted to, use på: en reaktion på nyheden (a reaction to the news).",
+  "forms": [
+   {
+    "da": "en reaktion",
+    "en": "a reaction"
+   },
+   {
+    "da": "reaktionen",
+    "en": "the reaction"
+   },
+   {
+    "da": "reaktioner",
+    "en": "reactions"
+   },
+   {
+    "da": "reaktionerne",
+    "en": "the reactions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at reagere",
+    "en": "to react"
+   },
+   {
+    "da": "et svar",
+    "en": "an answer"
+   },
+   {
+    "da": "en respons",
+    "en": "a response"
+   },
+   {
+    "da": "en handling",
+    "en": "an action"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **reaktion** var meget rolig.",
+   "en": "His reaction was very calm."
+  }
+ },
  "en recept": {
   "explanation": "\"En recept\" means \"a prescription\", the note from a doctor that you take to the pharmacy to get medicine. It does not mean a cooking recipe: that is en opskrift (a recipe).",
   "forms": [
@@ -317,6 +2043,338 @@
   "sentence": {
    "da": "Lægen giver mig en **recept** til apoteket.",
    "en": "The doctor gives me a prescription for the pharmacy."
+  }
+ },
+ "en reception": {
+  "explanation": "\"En reception\" means \"a reception desk\", the front desk of a hotel or an office: Spørg i receptionen (Ask at the reception desk). The person who works there is en receptionist (a receptionist).",
+  "forms": [
+   {
+    "da": "en reception",
+    "en": "a reception desk"
+   },
+   {
+    "da": "receptionen",
+    "en": "the reception desk"
+   },
+   {
+    "da": "receptioner",
+    "en": "reception desks"
+   },
+   {
+    "da": "receptionerne",
+    "en": "the reception desks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skranke",
+    "en": "a counter"
+   },
+   {
+    "da": "en lobby",
+    "en": "a lobby"
+   },
+   {
+    "da": "en check-in",
+    "en": "a check-in"
+   }
+  ],
+  "sentence": {
+   "da": "Hotellet har en **reception**, og den er åben hele natten.",
+   "en": "The hotel has a front desk, and it is open all night."
+  }
+ },
+ "en redningskrans": {
+  "explanation": "\"En redningskrans\" means \"a lifebuoy\", a ring that floats and is thrown to someone in the water: Kast redningskransen! (Throw the lifebuoy!). It is built from en krans (a ring) and redning (rescue).",
+  "forms": [
+   {
+    "da": "en redningskrans",
+    "en": "a lifebuoy"
+   },
+   {
+    "da": "redningskransen",
+    "en": "the lifebuoy"
+   },
+   {
+    "da": "redningskranse",
+    "en": "lifebuoys"
+   },
+   {
+    "da": "redningskransene",
+    "en": "the lifebuoys"
+   }
+  ],
+  "related": [
+   {
+    "da": "en redningsvest",
+    "en": "a life jacket"
+   },
+   {
+    "da": "en livredder",
+    "en": "a lifeguard"
+   },
+   {
+    "da": "en badering",
+    "en": "a swim ring"
+   }
+  ],
+  "sentence": {
+   "da": "Han kastede en **redningskrans** ud til manden i vandet.",
+   "en": "He threw a lifebuoy out to the man in the water."
+  }
+ },
+ "en redningsvest": {
+  "explanation": "\"En redningsvest\" means \"a life jacket\", a vest that keeps you afloat in water: Børn skal have redningsvest på i båden (Children must wear a life jacket in the boat). It is built from redning (rescue) and vest (vest).",
+  "forms": [
+   {
+    "da": "en redningsvest",
+    "en": "a life jacket"
+   },
+   {
+    "da": "redningsvesten",
+    "en": "the life jacket"
+   },
+   {
+    "da": "redningsveste",
+    "en": "life jackets"
+   },
+   {
+    "da": "redningsvestene",
+    "en": "the life jackets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en badering",
+    "en": "a swim ring"
+   },
+   {
+    "da": "en livredder",
+    "en": "a lifeguard"
+   },
+   {
+    "da": "en redningskrans",
+    "en": "a lifebuoy"
+   },
+   {
+    "da": "en redningsbåd",
+    "en": "a lifeboat"
+   }
+  ],
+  "sentence": {
+   "da": "Alle børn skal have **redningsvest** på i båden.",
+   "en": "All children must wear a life jacket in the boat."
+  }
+ },
+ "en regel": {
+  "explanation": "\"En regel\" means \"a rule\": Der er en regel om, at man skal vente (There is a rule that you must wait). Som regel (as a rule) means \"usually\": Som regel venter jeg (I usually wait).",
+  "forms": [
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "reglen",
+    "en": "the rule"
+   },
+   {
+    "da": "regler",
+    "en": "rules"
+   },
+   {
+    "da": "reglerne",
+    "en": "the rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overholde",
+    "en": "to follow a rule"
+   },
+   {
+    "da": "en lov",
+    "en": "a law"
+   },
+   {
+    "da": "en undtagelse",
+    "en": "an exception"
+   },
+   {
+    "da": "en retningslinje",
+    "en": "a guideline"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **regel** om at vente her.",
+   "en": "There is a rule about waiting here."
+  }
+ },
+ "en regering": {
+  "explanation": "\"En regering\" means \"a government\", the group of leaders who run a country. Regeringen vil sænke skatten (The government wants to lower taxes). Hver ny regering har sine egne planer (Every new government has its own plans).",
+  "forms": [
+   {
+    "da": "en regering",
+    "en": "a government"
+   },
+   {
+    "da": "regeringen",
+    "en": "the government"
+   },
+   {
+    "da": "regeringer",
+    "en": "governments"
+   },
+   {
+    "da": "regeringerne",
+    "en": "the governments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en minister",
+    "en": "a minister"
+   },
+   {
+    "da": "en statsminister",
+    "en": "a prime minister"
+   },
+   {
+    "da": "et folketing",
+    "en": "a parliament"
+   },
+   {
+    "da": "et valg",
+    "en": "an election"
+   }
+  ],
+  "sentence": {
+   "da": "Den nye **regering** vil bygge flere skoler.",
+   "en": "The new government wants to build more schools."
+  }
+ },
+ "en region": {
+  "explanation": "\"En region\" means \"a region\", a large part of a country: Danmark har fem regioner (Denmark has five regions). Nordjylland er en region i det nordlige Danmark (North Jutland is a region in northern Denmark).",
+  "forms": [
+   {
+    "da": "en region",
+    "en": "a region"
+   },
+   {
+    "da": "regionen",
+    "en": "the region"
+   },
+   {
+    "da": "regioner",
+    "en": "regions"
+   },
+   {
+    "da": "regionerne",
+    "en": "the regions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kommune",
+    "en": "a municipality"
+   },
+   {
+    "da": "et område",
+    "en": "an area"
+   },
+   {
+    "da": "en landsdel",
+    "en": "a part of the country"
+   },
+   {
+    "da": "en provins",
+    "en": "a province"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **region** i Danmark har sine egne sygehuse.",
+   "en": "Each region in Denmark has its own hospitals."
+  }
+ },
+ "en regnbue": {
+  "explanation": "\"En regnbue\" means \"a rainbow\": Børnene tegner en regnbue (The children are drawing a rainbow). It is built from regn (rain) and bue (arc).",
+  "forms": [
+   {
+    "da": "en regnbue",
+    "en": "a rainbow"
+   },
+   {
+    "da": "regnbuen",
+    "en": "the rainbow"
+   },
+   {
+    "da": "regnbuer",
+    "en": "rainbows"
+   },
+   {
+    "da": "regnbuerne",
+    "en": "the rainbows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regnbyge",
+    "en": "a rain shower"
+   },
+   {
+    "da": "en sol",
+    "en": "a sun"
+   },
+   {
+    "da": "en farve",
+    "en": "a color"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en smuk **regnbue** over fjorden.",
+   "en": "There is a beautiful rainbow over the fjord."
+  }
+ },
+ "en regnbyge": {
+  "explanation": "\"En regnbyge\" means \"a rain shower\", a short burst of rain that soon passes: Der kommer en regnbyge i eftermiddag (A rain shower is coming this afternoon). It is built from regn (rain) and byge (shower).",
+  "forms": [
+   {
+    "da": "en regnbyge",
+    "en": "a rain shower"
+   },
+   {
+    "da": "regnbygen",
+    "en": "the rain shower"
+   },
+   {
+    "da": "regnbyger",
+    "en": "rain showers"
+   },
+   {
+    "da": "regnbygerne",
+    "en": "the rain showers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et regnvejr",
+    "en": "rainy weather"
+   },
+   {
+    "da": "et tordenvejr",
+    "en": "a thunderstorm"
+   },
+   {
+    "da": "en solskinsdag",
+    "en": "a sunny day"
+   },
+   {
+    "da": "et uvejr",
+    "en": "a storm"
+   }
+  ],
+  "sentence": {
+   "da": "Vi blev våde i en kort **regnbyge**.",
+   "en": "We got wet in a short rain shower."
   }
  },
  "en regning": {
@@ -436,6 +2494,45 @@
    "en": "It rains all year in a rainforest."
   }
  },
+ "en regnvejrsdag": {
+  "explanation": "\"En regnvejrsdag\" means \"a rainy day\". It is built from regnvejr (rainy weather) and dag (day): Jeg bliver hjemme på en regnvejrsdag (I stay home on a rainy day).",
+  "forms": [
+   {
+    "da": "en regnvejrsdag",
+    "en": "a rainy day"
+   },
+   {
+    "da": "regnvejrsdagen",
+    "en": "the rainy day"
+   },
+   {
+    "da": "regnvejrsdage",
+    "en": "rainy days"
+   },
+   {
+    "da": "regnvejrsdagene",
+    "en": "the rainy days"
+   }
+  ],
+  "related": [
+   {
+    "da": "en solskinsdag",
+    "en": "a sunny day"
+   },
+   {
+    "da": "et vejr",
+    "en": "weather"
+   },
+   {
+    "da": "en regnbyge",
+    "en": "a rain shower"
+   }
+  ],
+  "sentence": {
+   "da": "Det regner i dag, og det er en rigtig **regnvejrsdag**.",
+   "en": "It is raining today, and it is a real rainy day."
+  }
+ },
  "en reje": {
   "explanation": "\"En reje\" means \"a shrimp\", also called a prawn. Rejemad (shrimp on bread) is made of reje (shrimp) and mad (food).",
   "forms": [
@@ -514,6 +2611,338 @@
    "en": "We are going on a long trip to Spain."
   }
  },
+ "en rejseforsikring": {
+  "explanation": "\"En rejseforsikring\" means \"a travel insurance policy\", which pays if something goes wrong on a trip, like illness or lost bags: Har du en rejseforsikring? (Do you have travel insurance?)",
+  "forms": [
+   {
+    "da": "en rejseforsikring",
+    "en": "a travel insurance policy"
+   },
+   {
+    "da": "rejseforsikringen",
+    "en": "the travel insurance policy"
+   },
+   {
+    "da": "rejseforsikringer",
+    "en": "travel insurance policies"
+   },
+   {
+    "da": "rejseforsikringerne",
+    "en": "the travel insurance policies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forsikring",
+    "en": "insurance"
+   },
+   {
+    "da": "en police",
+    "en": "a policy"
+   },
+   {
+    "da": "en erstatning",
+    "en": "compensation"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis jeg bliver syg, betaler min **rejseforsikring**.",
+   "en": "If I get sick, my travel insurance pays."
+  }
+ },
+ "en rejsende": {
+  "explanation": "\"En rejsende\" means \"a traveler\", a person who is on a trip: De rejsende venter på toget (The travelers are waiting for the train). It comes from at rejse (to travel).",
+  "forms": [
+   {
+    "da": "en rejsende",
+    "en": "a traveler"
+   },
+   {
+    "da": "den rejsende",
+    "en": "the traveler"
+   },
+   {
+    "da": "rejsende",
+    "en": "travelers"
+   },
+   {
+    "da": "de rejsende",
+    "en": "the travelers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en passager",
+    "en": "a passenger"
+   },
+   {
+    "da": "en turist",
+    "en": "a tourist"
+   },
+   {
+    "da": "en rejseleder",
+    "en": "a tour guide"
+   },
+   {
+    "da": "en rejsekammerat",
+    "en": "a travel companion"
+   }
+  ],
+  "sentence": {
+   "da": "Alle **rejsende** skal vise deres pas.",
+   "en": "All travelers have to show their passports."
+  }
+ },
+ "en rejseplan": {
+  "explanation": "\"En rejseplan\" means \"an itinerary\", a plan with the places and times of a trip: Vi laver en rejseplan for ugen (We make an itinerary for the week). For a bus or train timetable, use en køreplan (a timetable).",
+  "forms": [
+   {
+    "da": "en rejseplan",
+    "en": "an itinerary"
+   },
+   {
+    "da": "rejseplanen",
+    "en": "the itinerary"
+   },
+   {
+    "da": "rejseplaner",
+    "en": "itineraries"
+   },
+   {
+    "da": "rejseplanerne",
+    "en": "the itineraries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tidsplan",
+    "en": "a schedule"
+   },
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "et program",
+    "en": "a program"
+   }
+  ],
+  "sentence": {
+   "da": "Min **rejseplan** viser hotellet og flyet.",
+   "en": "My itinerary shows the hotel and the flight."
+  }
+ },
+ "en reklame": {
+  "explanation": "\"En reklame\" means \"an advertisement\" and also \"a commercial\" on TV: Jeg så en reklame for en bil (I saw an ad for a car). To advertise is at reklamere.",
+  "forms": [
+   {
+    "da": "en reklame",
+    "en": "an advertisement"
+   },
+   {
+    "da": "reklamen",
+    "en": "the advertisement"
+   },
+   {
+    "da": "reklamer",
+    "en": "advertisements"
+   },
+   {
+    "da": "reklamerne",
+    "en": "the advertisements"
+   }
+  ],
+  "related": [
+   {
+    "da": "en plakat",
+    "en": "a poster"
+   },
+   {
+    "da": "et tilbud",
+    "en": "an offer"
+   },
+   {
+    "da": "en annonce",
+    "en": "an ad in a paper"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en lang **reklame** midt i filmen.",
+   "en": "There was a long commercial in the middle of the movie."
+  }
+ },
+ "en rekord": {
+  "explanation": "\"En rekord\" means \"a record\", the best result ever: Hun slog rekorden i går (She broke the record yesterday). Another example is Han har rekorden i løb (He holds the running record).",
+  "forms": [
+   {
+    "da": "en rekord",
+    "en": "a record"
+   },
+   {
+    "da": "rekorden",
+    "en": "the record"
+   },
+   {
+    "da": "rekorder",
+    "en": "records"
+   },
+   {
+    "da": "rekorderne",
+    "en": "the records"
+   }
+  ],
+  "related": [
+   {
+    "da": "en verdensrekord",
+    "en": "a world record"
+   },
+   {
+    "da": "en præstation",
+    "en": "an achievement"
+   },
+   {
+    "da": "en vinder",
+    "en": "a winner"
+   },
+   {
+    "da": "en sejr",
+    "en": "a victory"
+   }
+  ],
+  "sentence": {
+   "da": "Hun satte ny **rekord** i svømning i går.",
+   "en": "She set a new record in swimming yesterday."
+  }
+ },
+ "en rengøring": {
+  "explanation": "\"En rengøring\" means \"a cleaning\". Without en, rengøring is the general word for housecleaning: Rengøring tager lang tid (Cleaning takes a long time). It is built from at gøre rent (to clean).",
+  "forms": [
+   {
+    "da": "en rengøring",
+    "en": "a cleaning"
+   },
+   {
+    "da": "rengøringen",
+    "en": "the cleaning"
+   },
+   {
+    "da": "rengøringer",
+    "en": "cleanings"
+   },
+   {
+    "da": "rengøringerne",
+    "en": "the cleanings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rengøringsassistent",
+    "en": "a cleaner"
+   },
+   {
+    "da": "et rengøringsmiddel",
+    "en": "a cleaning product"
+   },
+   {
+    "da": "at støvsuge",
+    "en": "to vacuum"
+   },
+   {
+    "da": "en moppe",
+    "en": "a mop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hader **rengøring**, men huset skal være rent.",
+   "en": "I hate cleaning, but the house has to be clean."
+  }
+ },
+ "en reol": {
+  "explanation": "\"En reol\" means \"a bookshelf\", a tall piece of furniture with shelves: Bøgerne står i reolen (The books are on the bookshelf). A single shelf is en hylde.",
+  "forms": [
+   {
+    "da": "en reol",
+    "en": "a bookshelf"
+   },
+   {
+    "da": "reolen",
+    "en": "the bookshelf"
+   },
+   {
+    "da": "reoler",
+    "en": "bookshelves"
+   },
+   {
+    "da": "reolerne",
+    "en": "the bookshelves"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bogskab",
+    "en": "a bookcase"
+   },
+   {
+    "da": "en bogreol",
+    "en": "a bookshelf"
+   },
+   {
+    "da": "et skab",
+    "en": "a cabinet"
+   },
+   {
+    "da": "en kommode",
+    "en": "a dresser"
+   }
+  ],
+  "sentence": {
+   "da": "Der står mange bøger i min **reol**.",
+   "en": "There are many books on my bookshelf."
+  }
+ },
+ "en reparation": {
+  "explanation": "\"En reparation\" means \"a repair\": Reparationen koster 500 kroner (The repair costs 500 kroner). The action is at reparere (to repair): Jeg skal reparere cyklen (I have to repair the bike).",
+  "forms": [
+   {
+    "da": "en reparation",
+    "en": "a repair"
+   },
+   {
+    "da": "reparationen",
+    "en": "the repair"
+   },
+   {
+    "da": "reparationer",
+    "en": "repairs"
+   },
+   {
+    "da": "reparationerne",
+    "en": "the repairs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mekaniker",
+    "en": "a mechanic"
+   },
+   {
+    "da": "en håndværker",
+    "en": "a tradesman"
+   },
+   {
+    "da": "at ordne",
+    "en": "to sort out"
+   },
+   {
+    "da": "at fikse",
+    "en": "to fix"
+   }
+  ],
+  "sentence": {
+   "da": "Der er brug for en **reparation** af taget.",
+   "en": "The roof needs a repair."
+  }
+ },
  "en reservation": {
   "explanation": "\"En reservation\" means \"a reservation\", for example for a table, a train seat or a hotel room. You can say Jeg har en reservation (I have a reservation) or at bestille bord (to book a table).",
   "forms": [
@@ -551,6 +2980,84 @@
   "sentence": {
    "da": "Vi har en **reservation** på restauranten i aften.",
    "en": "We have a reservation at the restaurant tonight."
+  }
+ },
+ "en reservedel": {
+  "explanation": "\"En reservedel\" means \"a spare part\": Jeg skal bestille en reservedel til bilen (I have to order a spare part for the car). It is reserve (spare) plus del (part).",
+  "forms": [
+   {
+    "da": "en reservedel",
+    "en": "a spare part"
+   },
+   {
+    "da": "reservedelen",
+    "en": "the spare part"
+   },
+   {
+    "da": "reservedele",
+    "en": "spare parts"
+   },
+   {
+    "da": "reservedelene",
+    "en": "the spare parts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et reservehjul",
+    "en": "a spare tire"
+   },
+   {
+    "da": "en reservenøgle",
+    "en": "a spare key"
+   },
+   {
+    "da": "at udskifte",
+    "en": "to replace"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal bruge en ny **reservedel** til min cykel.",
+   "en": "I need a new spare part for my bike."
+  }
+ },
+ "en rest": {
+  "explanation": "\"En rest\" means \"a remainder\" or \"a leftover\": Vi spiser resten i morgen (We will eat the rest tomorrow). It does not mean resting. To rest, say at hvile sig (to rest).",
+  "forms": [
+   {
+    "da": "en rest",
+    "en": "a remainder / a leftover"
+   },
+   {
+    "da": "resten",
+    "en": "the remainder / the leftover"
+   },
+   {
+    "da": "rester",
+    "en": "remainders / leftovers"
+   },
+   {
+    "da": "resterne",
+    "en": "the remainders / the leftovers"
+   }
+  ],
+  "related": [
+   {
+    "da": "resterende",
+    "en": "remaining"
+   },
+   {
+    "da": "tilbage",
+    "en": "left"
+   },
+   {
+    "da": "en del",
+    "en": "a part"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **rest** pizza i køleskabet.",
+   "en": "There is some leftover pizza in the fridge."
   }
  },
  "en restaurant": {
@@ -592,6 +3099,92 @@
    "en": "We are eating at a restaurant tonight."
   }
  },
+ "en ret": {
+  "explanation": "\"En ret\" means \"a right\" and also \"a dish\". Vi har ret til ferie (We have a right to vacation). With have, it means being correct: Du har ret (You are right).",
+  "forms": [
+   {
+    "da": "en ret",
+    "en": "a right / a dish"
+   },
+   {
+    "da": "retten",
+    "en": "the right / the dish"
+   },
+   {
+    "da": "retter",
+    "en": "rights / dishes"
+   },
+   {
+    "da": "retterne",
+    "en": "the rights / the dishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rettighed",
+    "en": "a right"
+   },
+   {
+    "da": "en hovedret",
+    "en": "a main course"
+   },
+   {
+    "da": "en forret",
+    "en": "a starter"
+   },
+   {
+    "da": "et måltid",
+    "en": "a meal"
+   }
+  ],
+  "sentence": {
+   "da": "Dagens **ret** er fisk med kartofler.",
+   "en": "Today's dish is fish with potatoes."
+  }
+ },
+ "en retning": {
+  "explanation": "\"En retning\" means \"a direction\": Vi går i den retning (We walk in that direction). To ask, say Hvilken retning? (Which direction?)",
+  "forms": [
+   {
+    "da": "en retning",
+    "en": "a direction"
+   },
+   {
+    "da": "retningen",
+    "en": "the direction"
+   },
+   {
+    "da": "retninger",
+    "en": "directions"
+   },
+   {
+    "da": "retningerne",
+    "en": "the directions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road / way"
+   },
+   {
+    "da": "venstre",
+    "en": "left"
+   },
+   {
+    "da": "højre",
+    "en": "right"
+   },
+   {
+    "da": "ligeud",
+    "en": "straight ahead"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen kører i den rigtige **retning**.",
+   "en": "The bus is going in the right direction."
+  }
+ },
  "en returbillet": {
   "explanation": "\"En returbillet\" means \"a return ticket\", one that takes you there and back. At a counter you can say En returbillet til Aarhus, tak. (A return ticket to Aarhus, please.)",
   "forms": [
@@ -631,6 +3224,510 @@
    "en": "I buy a return ticket to Aarhus and back home."
   }
  },
+ "en revolution": {
+  "explanation": "\"En revolution\" means \"a revolution\", when people overthrow a government or when things change completely: Der kom en revolution i landet (There was a revolution in the country).",
+  "forms": [
+   {
+    "da": "en revolution",
+    "en": "a revolution"
+   },
+   {
+    "da": "revolutionen",
+    "en": "the revolution"
+   },
+   {
+    "da": "to revolutioner",
+    "en": "two revolutions"
+   },
+   {
+    "da": "revolutionerne",
+    "en": "the revolutions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reform",
+    "en": "a reform"
+   },
+   {
+    "da": "et oprør",
+    "en": "a rebellion"
+   },
+   {
+    "da": "en regering",
+    "en": "a government"
+   },
+   {
+    "da": "en revolutionær",
+    "en": "a revolutionary"
+   }
+  ],
+  "sentence": {
+   "da": "Folket startede en **revolution** mod kongen.",
+   "en": "The people started a revolution against the king."
+  }
+ },
+ "en revolver": {
+  "explanation": "\"En revolver\" means \"a revolver\", a small gun that holds bullets in a turning part: Han havde en revolver i lommen (He had a revolver in his pocket). It is much smaller than et gevær (a rifle).",
+  "forms": [
+   {
+    "da": "en revolver",
+    "en": "a revolver"
+   },
+   {
+    "da": "revolveren",
+    "en": "the revolver"
+   },
+   {
+    "da": "to revolvere",
+    "en": "two revolvers"
+   },
+   {
+    "da": "revolverne",
+    "en": "the revolvers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pistol",
+    "en": "a pistol"
+   },
+   {
+    "da": "en kugle",
+    "en": "a bullet"
+   },
+   {
+    "da": "et våben",
+    "en": "a weapon"
+   }
+  ],
+  "sentence": {
+   "da": "Betjenten fandt en **revolver** i bilen.",
+   "en": "The officer found a revolver in the car."
+  }
+ },
+ "en ridse": {
+  "explanation": "\"En ridse\" means \"a scratch\", a thin mark on a surface: Der er en ridse i lakken (There is a scratch in the paint). For a scratch on skin, you can also say en rift (a scratch).",
+  "forms": [
+   {
+    "da": "en ridse",
+    "en": "a scratch"
+   },
+   {
+    "da": "ridsen",
+    "en": "the scratch"
+   },
+   {
+    "da": "ridser",
+    "en": "scratches"
+   },
+   {
+    "da": "ridserne",
+    "en": "the scratches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skramme",
+    "en": "a scrape"
+   },
+   {
+    "da": "et mærke",
+    "en": "a mark"
+   },
+   {
+    "da": "en revne",
+    "en": "a crack"
+   },
+   {
+    "da": "en bule",
+    "en": "a dent"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **ridse** på bilens dør.",
+   "en": "There is a scratch on the car door."
+  }
+ },
+ "en ring": {
+  "explanation": "\"En ring\" means \"a ring\" for the finger: Han købte en ring til hende (He bought a ring for her). It looks like at ringe (to call): Jeg ringer til dig (I will call you).",
+  "forms": [
+   {
+    "da": "en ring",
+    "en": "a ring"
+   },
+   {
+    "da": "ringen",
+    "en": "the ring"
+   },
+   {
+    "da": "ringe",
+    "en": "rings"
+   },
+   {
+    "da": "ringene",
+    "en": "the rings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vielsesring",
+    "en": "a wedding ring"
+   },
+   {
+    "da": "en forlovelsesring",
+    "en": "an engagement ring"
+   },
+   {
+    "da": "et smykke",
+    "en": "a piece of jewelry"
+   },
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **ring** på fingeren.",
+   "en": "She has a ring on her finger."
+  }
+ },
+ "en risiko": {
+  "explanation": "\"En risiko\" means \"a risk\": Det er en stor risiko (It is a big risk). To accept one, say at tage en risiko (to take a risk).",
+  "forms": [
+   {
+    "da": "en risiko",
+    "en": "a risk"
+   },
+   {
+    "da": "risikoen",
+    "en": "the risk"
+   },
+   {
+    "da": "risici",
+    "en": "risks"
+   },
+   {
+    "da": "risiciene",
+    "en": "the risks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fare",
+    "en": "a danger"
+   },
+   {
+    "da": "farlig",
+    "en": "dangerous"
+   },
+   {
+    "da": "en chance",
+    "en": "a chance"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **risiko** for regn i morgen.",
+   "en": "There is a risk of rain tomorrow."
+  }
+ },
+ "en rive": {
+  "explanation": "\"En rive\" means \"a rake\", the garden tool for gathering leaves: Vi bruger en rive om efteråret (We use a rake in the fall). The word at rive (to grate) looks the same, so the rest of the sentence tells you which one it is.",
+  "forms": [
+   {
+    "da": "en rive",
+    "en": "a rake"
+   },
+   {
+    "da": "riven",
+    "en": "the rake"
+   },
+   {
+    "da": "river",
+    "en": "rakes"
+   },
+   {
+    "da": "riverne",
+    "en": "the rakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skovl",
+    "en": "a shovel"
+   },
+   {
+    "da": "en spade",
+    "en": "a spade"
+   },
+   {
+    "da": "en havesaks",
+    "en": "garden shears"
+   },
+   {
+    "da": "en kost",
+    "en": "a broom"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg samler bladene med en **rive**.",
+   "en": "I gather the leaves with a rake."
+  }
+ },
+ "en robot": {
+  "explanation": "\"En robot\" means \"a robot\", a machine that does tasks on its own: En robot kan køre rundt i huset (A robot can drive around the house). A robot vacuum is en robotstøvsuger (a robot vacuum).",
+  "forms": [
+   {
+    "da": "en robot",
+    "en": "a robot"
+   },
+   {
+    "da": "robotten",
+    "en": "the robot"
+   },
+   {
+    "da": "robotter",
+    "en": "robots"
+   },
+   {
+    "da": "robotterne",
+    "en": "the robots"
+   }
+  ],
+  "related": [
+   {
+    "da": "en maskine",
+    "en": "a machine"
+   },
+   {
+    "da": "en computer",
+    "en": "a computer"
+   },
+   {
+    "da": "en drone",
+    "en": "a drone"
+   },
+   {
+    "da": "kunstig intelligens",
+    "en": "artificial intelligence"
+   }
+  ],
+  "sentence": {
+   "da": "Min **robot** støvsuger gulvet hver dag.",
+   "en": "My robot vacuums the floor every day."
+  }
+ },
+ "en robåd": {
+  "explanation": "\"En robåd\" means \"a rowboat\", a small boat you move with oars: Børnene sidder i robåden (The children sit in the rowboat). It is built from ro (to row) and båd (boat).",
+  "forms": [
+   {
+    "da": "en robåd",
+    "en": "a rowboat"
+   },
+   {
+    "da": "robåden",
+    "en": "the rowboat"
+   },
+   {
+    "da": "robåde",
+    "en": "rowboats"
+   },
+   {
+    "da": "robådene",
+    "en": "the rowboats"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sejlbåd",
+    "en": "a sailboat"
+   },
+   {
+    "da": "en åre",
+    "en": "an oar"
+   },
+   {
+    "da": "en motorbåd",
+    "en": "a motorboat"
+   },
+   {
+    "da": "en jolle",
+    "en": "a dinghy"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager en **robåd** ud på søen.",
+   "en": "We take a rowboat out on the lake."
+  }
+ },
+ "en rod": {
+  "explanation": "\"En rod\" means \"a root\", the part of a plant under the ground: Træet har lange rødder (The tree has long roots). Do not mix it up with et rod (a mess), which takes et: Der er rod i stuen (The living room is a mess).",
+  "forms": [
+   {
+    "da": "en rod",
+    "en": "a root"
+   },
+   {
+    "da": "roden",
+    "en": "the root"
+   },
+   {
+    "da": "rødder",
+    "en": "roots"
+   },
+   {
+    "da": "rødderne",
+    "en": "the roots"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gren",
+    "en": "a branch"
+   },
+   {
+    "da": "en stamme",
+    "en": "a trunk"
+   },
+   {
+    "da": "et blad",
+    "en": "a leaf"
+   },
+   {
+    "da": "en rodfrugt",
+    "en": "a root vegetable"
+   }
+  ],
+  "sentence": {
+   "da": "Hver plante har en **rod** under jorden.",
+   "en": "Every plant has a root under the ground."
+  }
+ },
+ "en rolle": {
+  "explanation": "\"En rolle\" means \"a role\", a part an actor plays: Hun spiller en rolle i et teaterstykke (She plays a role in a play). It also means the part someone has in a group: Han har en vigtig rolle (He has an important role).",
+  "forms": [
+   {
+    "da": "en rolle",
+    "en": "a role"
+   },
+   {
+    "da": "rollen",
+    "en": "the role"
+   },
+   {
+    "da": "roller",
+    "en": "roles"
+   },
+   {
+    "da": "rollerne",
+    "en": "the roles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skuespiller",
+    "en": "an actor"
+   },
+   {
+    "da": "en hovedrolle",
+    "en": "a lead role"
+   },
+   {
+    "da": "en bijrolle",
+    "en": "a supporting role"
+   },
+   {
+    "da": "en opgave",
+    "en": "a task"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fik en stor **rolle** i filmen.",
+   "en": "She got a big role in the movie."
+  }
+ },
+ "en roman": {
+  "explanation": "\"En roman\" means \"a novel\", a long made-up story: Jeg læser en spændende roman (I am reading an exciting novel). For something Roman from Rome, say romersk: romerske tal (Roman numerals).",
+  "forms": [
+   {
+    "da": "en roman",
+    "en": "a novel"
+   },
+   {
+    "da": "romanen",
+    "en": "the novel"
+   },
+   {
+    "da": "romaner",
+    "en": "novels"
+   },
+   {
+    "da": "romanerne",
+    "en": "the novels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bog",
+    "en": "a book"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   },
+   {
+    "da": "en novelle",
+    "en": "a short story"
+   },
+   {
+    "da": "en krimi",
+    "en": "a crime novel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har lånt en tyk **roman** på biblioteket.",
+   "en": "I borrowed a thick novel at the library."
+  }
+ },
+ "en romkugle": {
+  "explanation": "\"En romkugle\" means \"a rum ball\", a small round chocolate sweet with a rum flavor: Jeg vil have en romkugle til kaffen (I would like a rum ball with my coffee).",
+  "forms": [
+   {
+    "da": "en romkugle",
+    "en": "a rum ball"
+   },
+   {
+    "da": "romkuglen",
+    "en": "the rum ball"
+   },
+   {
+    "da": "romkugler",
+    "en": "rum balls"
+   },
+   {
+    "da": "romkuglerne",
+    "en": "the rum balls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trøffel",
+    "en": "a truffle"
+   },
+   {
+    "da": "en flødebolle",
+    "en": "a chocolate-covered marshmallow treat"
+   },
+   {
+    "da": "en chokolade",
+    "en": "a chocolate"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg spiser en **romkugle**, og den smager af rom.",
+   "en": "I eat a rum ball and it tastes of rum."
+  }
+ },
  "en rose": {
   "explanation": "\"En rose\" means \"a rose\", the flower. A bunch of roses is en buket roser (a bouquet of roses).",
   "forms": [
@@ -668,6 +3765,498 @@
   "sentence": {
    "da": "Jeg har en rød **rose** i min have.",
    "en": "I have a red rose in my garden."
+  }
+ },
+ "en rosin": {
+  "explanation": "\"En rosin\" means \"a raisin\", a dried grape. A grape is en vindrue. Raisins go into baked things: Der er rosiner i brødet (There are raisins in the bread).",
+  "forms": [
+   {
+    "da": "en rosin",
+    "en": "a raisin"
+   },
+   {
+    "da": "rosinen",
+    "en": "the raisin"
+   },
+   {
+    "da": "rosiner",
+    "en": "raisins"
+   },
+   {
+    "da": "rosinerne",
+    "en": "the raisins"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sveske",
+    "en": "a prune"
+   },
+   {
+    "da": "en dadel",
+    "en": "a date"
+   },
+   {
+    "da": "en figen",
+    "en": "a fig"
+   }
+  ],
+  "sentence": {
+   "da": "Der ligger en **rosin** i bollen.",
+   "en": "There is a raisin in the bun."
+  }
+ },
+ "en rotte": {
+  "explanation": "\"En rotte\" means \"a rat\": Der er en rotte i kælderen (There is a rat in the cellar). A smaller one is en mus (a mouse).",
+  "forms": [
+   {
+    "da": "en rotte",
+    "en": "a rat"
+   },
+   {
+    "da": "rotten",
+    "en": "the rat"
+   },
+   {
+    "da": "rotter",
+    "en": "rats"
+   },
+   {
+    "da": "rotterne",
+    "en": "the rats"
+   }
+  ],
+  "related": [
+   {
+    "da": "et marsvin",
+    "en": "a guinea pig"
+   },
+   {
+    "da": "en hamster",
+    "en": "a hamster"
+   },
+   {
+    "da": "en rottefælde",
+    "en": "a rat trap"
+   }
+  ],
+  "sentence": {
+   "da": "Katten jagter en **rotte** i laden.",
+   "en": "The cat chases a rat in the barn."
+  }
+ },
+ "en router": {
+  "explanation": "\"En router\" means \"a router\", the box at home that gives you Wi-Fi: Routeren står i stuen (The router is in the living room). The internet comes into the house through it.",
+  "forms": [
+   {
+    "da": "en router",
+    "en": "a router"
+   },
+   {
+    "da": "routeren",
+    "en": "the router"
+   },
+   {
+    "da": "routere",
+    "en": "routers"
+   },
+   {
+    "da": "routerne",
+    "en": "the routers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et netværk",
+    "en": "a network"
+   },
+   {
+    "da": "et modem",
+    "en": "a modem"
+   },
+   {
+    "da": "et kabel",
+    "en": "a cable"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal købe en ny **router**, fordi internettet er langsomt.",
+   "en": "I have to buy a new router because the internet is slow."
+  }
+ },
+ "en rude": {
+  "explanation": "\"En rude\" means \"a window pane\", the glass part of a window: Ruden er knust (The pane is broken). A whole window is et vindue (a window).",
+  "forms": [
+   {
+    "da": "en rude",
+    "en": "a window pane"
+   },
+   {
+    "da": "ruden",
+    "en": "the window pane"
+   },
+   {
+    "da": "ruder",
+    "en": "window panes"
+   },
+   {
+    "da": "ruderne",
+    "en": "the window panes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forrude",
+    "en": "a windshield"
+   },
+   {
+    "da": "en bagrude",
+    "en": "a rear window"
+   },
+   {
+    "da": "en vinduesramme",
+    "en": "a window frame"
+   }
+  ],
+  "sentence": {
+   "da": "Bolden slog en **rude** i stykker.",
+   "en": "The ball broke a window pane."
+  }
+ },
+ "en rulletrappe": {
+  "explanation": "\"En rulletrappe\" means \"an escalator\": Vi tager rulletrappen op (We take the escalator up). It is built from rulle (roll) and trappe (stairs).",
+  "forms": [
+   {
+    "da": "en rulletrappe",
+    "en": "an escalator"
+   },
+   {
+    "da": "rulletrappen",
+    "en": "the escalator"
+   },
+   {
+    "da": "rulletrapper",
+    "en": "escalators"
+   },
+   {
+    "da": "rulletrapperne",
+    "en": "the escalators"
+   }
+  ],
+  "related": [
+   {
+    "da": "en elevator",
+    "en": "an elevator"
+   },
+   {
+    "da": "et gelænder",
+    "en": "a handrail"
+   },
+   {
+    "da": "en trappeopgang",
+    "en": "a stairwell"
+   },
+   {
+    "da": "en rampe",
+    "en": "a ramp"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager en **rulletrappe** op til caféen.",
+   "en": "We take an escalator up to the café."
+  }
+ },
+ "en runde": {
+  "explanation": "\"En runde\" means \"a round\", one turn in a game or race: Vi spiller en runde mere (We play one more round). It also means a short walk: Vi går en runde i parken (We take a stroll in the park).",
+  "forms": [
+   {
+    "da": "en runde",
+    "en": "a round"
+   },
+   {
+    "da": "runden",
+    "en": "the round"
+   },
+   {
+    "da": "runder",
+    "en": "rounds"
+   },
+   {
+    "da": "runderne",
+    "en": "the rounds"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omgang",
+    "en": "a lap / round"
+   },
+   {
+    "da": "en finale",
+    "en": "a final"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   },
+   {
+    "da": "en kamp",
+    "en": "a match"
+   }
+  ],
+  "sentence": {
+   "da": "Vi spiller lige en **runde** mere, og så går vi.",
+   "en": "We play one more round, and then we leave."
+  }
+ },
+ "en rundkørsel": {
+  "explanation": "\"En rundkørsel\" means \"a roundabout\". It is built from rund (round) and kørsel (driving): Tag anden afkørsel i rundkørslen (Take the second exit at the roundabout).",
+  "forms": [
+   {
+    "da": "en rundkørsel",
+    "en": "a roundabout"
+   },
+   {
+    "da": "rundkørslen",
+    "en": "the roundabout"
+   },
+   {
+    "da": "rundkørsler",
+    "en": "roundabouts"
+   },
+   {
+    "da": "rundkørslerne",
+    "en": "the roundabouts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kryds",
+    "en": "an intersection"
+   },
+   {
+    "da": "et trafiklys",
+    "en": "a traffic light"
+   },
+   {
+    "da": "at køre",
+    "en": "to drive"
+   },
+   {
+    "da": "en vej",
+    "en": "a road"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en stor **rundkørsel** ved stationen.",
+   "en": "There is a big roundabout by the station."
+  }
+ },
+ "en rundvisning": {
+  "explanation": "\"En rundvisning\" means \"a guided tour\", where a guide shows you around a place: Vi får en rundvisning på museet (We get a guided tour of the museum).",
+  "forms": [
+   {
+    "da": "en rundvisning",
+    "en": "a guided tour"
+   },
+   {
+    "da": "rundvisningen",
+    "en": "the guided tour"
+   },
+   {
+    "da": "rundvisninger",
+    "en": "guided tours"
+   },
+   {
+    "da": "rundvisningerne",
+    "en": "the guided tours"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omvisning",
+    "en": "a tour"
+   },
+   {
+    "da": "en kanalrundfart",
+    "en": "a canal tour"
+   },
+   {
+    "da": "en turist",
+    "en": "a tourist"
+   },
+   {
+    "da": "at vise rundt",
+    "en": "to show around"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **rundvisning** på slottet klokken to.",
+   "en": "There is a guided tour of the castle at two o'clock."
+  }
+ },
+ "en russer": {
+  "explanation": "\"En russer\" means \"a Russian\", a person from Russia: Min nabo er russer (My neighbor is Russian). The country is Rusland (Russia), and the language is russisk (Russian).",
+  "forms": [
+   {
+    "da": "en russer",
+    "en": "a Russian"
+   },
+   {
+    "da": "russeren",
+    "en": "the Russian"
+   },
+   {
+    "da": "russere",
+    "en": "Russians"
+   },
+   {
+    "da": "russerne",
+    "en": "the Russians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ukrainer",
+    "en": "a Ukrainian"
+   },
+   {
+    "da": "en polak",
+    "en": "a Pole"
+   },
+   {
+    "da": "en tysker",
+    "en": "a German"
+   },
+   {
+    "da": "en kineser",
+    "en": "a Chinese person"
+   }
+  ],
+  "sentence": {
+   "da": "Min kollega er **russer** og kommer fra Moskva.",
+   "en": "My colleague is Russian and comes from Moscow."
+  }
+ },
+ "en rute": {
+  "explanation": "\"En rute\" means \"a route\", the way you plan to go: Vi tager den korte rute (We are taking the short route). Hvilken rute tager vi? (Which route are we taking?)",
+  "forms": [
+   {
+    "da": "en rute",
+    "en": "a route"
+   },
+   {
+    "da": "ruten",
+    "en": "the route"
+   },
+   {
+    "da": "ruter",
+    "en": "routes"
+   },
+   {
+    "da": "ruterne",
+    "en": "the routes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vej",
+    "en": "a road"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager den korteste **rute** til byen.",
+   "en": "We take the shortest route to town."
+  }
+ },
+ "en rutine": {
+  "explanation": "\"En rutine\" means \"a routine\", things you do the same way each day: Jeg har en fast rutine (I have a fixed routine). It also means experience: Hun har stor rutine (She has a lot of experience).",
+  "forms": [
+   {
+    "da": "en rutine",
+    "en": "a routine"
+   },
+   {
+    "da": "rutinen",
+    "en": "the routine"
+   },
+   {
+    "da": "rutiner",
+    "en": "routines"
+   },
+   {
+    "da": "rutinerne",
+    "en": "the routines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en dagligdag",
+    "en": "everyday life"
+   },
+   {
+    "da": "en erfaring",
+    "en": "experience"
+   },
+   {
+    "da": "en livsstil",
+    "en": "a lifestyle"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en fast **rutine** hver morgen.",
+   "en": "I have a fixed routine every morning."
+  }
+ },
+ "en rutsjebane": {
+  "explanation": "\"En rutsjebane\" means \"a slide\" at a playground, and also \"a roller coaster\" at an amusement park: Børnene elsker rutsjebanen (The children love the slide). The place tells you which one is meant.",
+  "forms": [
+   {
+    "da": "en rutsjebane",
+    "en": "a slide, a roller coaster"
+   },
+   {
+    "da": "rutsjebanen",
+    "en": "the slide"
+   },
+   {
+    "da": "rutsjebaner",
+    "en": "slides"
+   },
+   {
+    "da": "rutsjebanerne",
+    "en": "the slides"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gynge",
+    "en": "a swing"
+   },
+   {
+    "da": "en sandkasse",
+    "en": "a sandbox"
+   },
+   {
+    "da": "et tivoli",
+    "en": "an amusement park"
+   }
+  ],
+  "sentence": {
+   "da": "Hun glider ned ad en **rutsjebane** på legepladsen.",
+   "en": "She slides down a slide at the playground."
   }
  },
  "en ryg": {
@@ -752,6 +4341,131 @@
    "en": "I carry my backpack on my back."
   }
  },
+ "en række": {
+  "explanation": "\"En række\" means \"a row\" of things side by side, and also \"a series\": Vi sidder i første række (We sit in the front row). In En række problemer (A number of problems), it means several.",
+  "forms": [
+   {
+    "da": "en række",
+    "en": "a row"
+   },
+   {
+    "da": "rækken",
+    "en": "the row"
+   },
+   {
+    "da": "rækker",
+    "en": "rows"
+   },
+   {
+    "da": "rækkerne",
+    "en": "the rows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en linje",
+    "en": "a line"
+   },
+   {
+    "da": "en kø",
+    "en": "a queue"
+   },
+   {
+    "da": "en serie",
+    "en": "a series"
+   },
+   {
+    "da": "en kolonne",
+    "en": "a column"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sidder i første **række** i biografen.",
+   "en": "We sit in the front row at the movie theater."
+  }
+ },
+ "en ræv": {
+  "explanation": "\"En ræv\" means \"a fox\", the wild red animal of forests and fields: Der bor en ræv i skoven (A fox lives in the forest). It is also used for a clever person: Han er så snu som en ræv (He is as sly as a fox).",
+  "forms": [
+   {
+    "da": "en ræv",
+    "en": "a fox"
+   },
+   {
+    "da": "ræven",
+    "en": "the fox"
+   },
+   {
+    "da": "ræve",
+    "en": "foxes"
+   },
+   {
+    "da": "rævene",
+    "en": "the foxes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ulv",
+    "en": "a wolf"
+   },
+   {
+    "da": "en hund",
+    "en": "a dog"
+   },
+   {
+    "da": "en sjakal",
+    "en": "a jackal"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg så en **ræv** løbe over marken.",
+   "en": "I saw a fox run across the field."
+  }
+ },
+ "en rødbede": {
+  "explanation": "\"En rødbede\" means \"a beet\", a dark red root vegetable. The name starts with rød (red), and it turns food red: Rødbeder gør salaten rød (Beets make the salad red).",
+  "forms": [
+   {
+    "da": "en rødbede",
+    "en": "a beet"
+   },
+   {
+    "da": "rødbeden",
+    "en": "the beet"
+   },
+   {
+    "da": "rødbeder",
+    "en": "beets"
+   },
+   {
+    "da": "rødbederne",
+    "en": "the beets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gulerod",
+    "en": "a carrot"
+   },
+   {
+    "da": "en radise",
+    "en": "a radish"
+   },
+   {
+    "da": "en pastinak",
+    "en": "a parsnip"
+   },
+   {
+    "da": "en kartoffel",
+    "en": "a potato"
+   }
+  ],
+  "sentence": {
+   "da": "Salaten er rød, fordi jeg har en **rødbede** i.",
+   "en": "The salad is red because I put a beet in it."
+  }
+ },
  "en rødvin": {
   "explanation": "\"En rødvin\" means \"a red wine\". It is made of rød (red) and vin (wine). Amounts are said like this: et glas rødvin (a glass of red wine) and en flaske rødvin (a bottle of red wine).",
   "forms": [
@@ -791,6 +4505,541 @@
    "en": "I drink a glass of red wine with the food."
   }
  },
+ "en røgalarm": {
+  "explanation": "\"En røgalarm\" means \"a smoke alarm\", a device on the ceiling that beeps when there is smoke: Røgalarmen bipper (The smoke alarm is beeping).",
+  "forms": [
+   {
+    "da": "en røgalarm",
+    "en": "a smoke alarm"
+   },
+   {
+    "da": "røgalarmen",
+    "en": "the smoke alarm"
+   },
+   {
+    "da": "røgalarmer",
+    "en": "smoke alarms"
+   },
+   {
+    "da": "røgalarmerne",
+    "en": "the smoke alarms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en brandalarm",
+    "en": "a fire alarm"
+   },
+   {
+    "da": "en brandslukker",
+    "en": "a fire extinguisher"
+   },
+   {
+    "da": "en brand",
+    "en": "a fire"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tester vores **røgalarm** hver måned.",
+   "en": "We test our smoke alarm every month."
+  }
+ },
+ "en røremaskine": {
+  "explanation": "\"En røremaskine\" means \"a stand mixer\", a kitchen machine that mixes dough and batter for you: Røremaskinen blander dejen (The stand mixer mixes the dough).",
+  "forms": [
+   {
+    "da": "en røremaskine",
+    "en": "a stand mixer"
+   },
+   {
+    "da": "røremaskinen",
+    "en": "the stand mixer"
+   },
+   {
+    "da": "røremaskiner",
+    "en": "stand mixers"
+   },
+   {
+    "da": "røremaskinerne",
+    "en": "the stand mixers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en blender",
+    "en": "a blender"
+   },
+   {
+    "da": "en håndmixer",
+    "en": "a hand mixer"
+   },
+   {
+    "da": "et piskeris",
+    "en": "a whisk"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver kagedej i min **røremaskine**.",
+   "en": "I make cake batter in my stand mixer."
+  }
+ },
+ "et rat": {
+  "explanation": "\"Et rat\" means \"a steering wheel\": Hold begge hænder på rattet (Keep both hands on the wheel). Do not mix it up with et hjul (a wheel), which turns on the ground.",
+  "forms": [
+   {
+    "da": "et rat",
+    "en": "a steering wheel"
+   },
+   {
+    "da": "rattet",
+    "en": "the steering wheel"
+   },
+   {
+    "da": "rat",
+    "en": "steering wheels"
+   },
+   {
+    "da": "rattene",
+    "en": "the steering wheels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bremse",
+    "en": "a brake"
+   },
+   {
+    "da": "en speeder",
+    "en": "a gas pedal"
+   },
+   {
+    "da": "en gearstang",
+    "en": "a gear stick"
+   },
+   {
+    "da": "at styre",
+    "en": "to steer"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen har et nyt **rat** af læder.",
+   "en": "The car has a new leather steering wheel."
+  }
+ },
+ "et reb": {
+  "explanation": "\"Et reb\" means \"a rope\", a thick strong cord for tying or climbing: Han klatrede op ad et reb (He climbed up a rope). A thinner one is en snor (a string).",
+  "forms": [
+   {
+    "da": "et reb",
+    "en": "a rope"
+   },
+   {
+    "da": "rebet",
+    "en": "the rope"
+   },
+   {
+    "da": "reb",
+    "en": "ropes"
+   },
+   {
+    "da": "rebene",
+    "en": "the ropes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tov",
+    "en": "a heavy rope"
+   },
+   {
+    "da": "en line",
+    "en": "a line / cord"
+   },
+   {
+    "da": "en knude",
+    "en": "a knot"
+   },
+   {
+    "da": "at binde",
+    "en": "to tie"
+   }
+  ],
+  "sentence": {
+   "da": "Han bandt båden fast med et **reb**.",
+   "en": "He tied up the boat with a rope."
+  }
+ },
+ "et rejsebureau": {
+  "explanation": "\"Et rejsebureau\" means \"a travel agency\", an office that sells trips and holidays: Hun arbejder på et rejsebureau (She works at a travel agency). It is built from rejse (trip) and bureau (office).",
+  "forms": [
+   {
+    "da": "et rejsebureau",
+    "en": "a travel agency"
+   },
+   {
+    "da": "rejsebureauet",
+    "en": "the travel agency"
+   },
+   {
+    "da": "rejsebureauer",
+    "en": "travel agencies"
+   },
+   {
+    "da": "rejsebureauerne",
+    "en": "the travel agencies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rejseleder",
+    "en": "a tour guide"
+   },
+   {
+    "da": "et flyselskab",
+    "en": "an airline"
+   },
+   {
+    "da": "en pakkerejse",
+    "en": "a package holiday"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bestiller ferien på et **rejsebureau** i byen.",
+   "en": "We are booking the vacation at a travel agency in town."
+  }
+ },
+ "et rejsekort": {
+  "explanation": "\"Et rejsekort\" means \"a travel card\", the Danish card for buses, trains and the metro. You tap it when you get on and again when you get off: Husk at checke ud (Remember to check out).",
+  "forms": [
+   {
+    "da": "et rejsekort",
+    "en": "a travel card"
+   },
+   {
+    "da": "rejsekortet",
+    "en": "the travel card"
+   },
+   {
+    "da": "rejsekort",
+    "en": "travel cards"
+   },
+   {
+    "da": "rejsekortene",
+    "en": "the travel cards"
+   }
+  ],
+  "related": [
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "et klippekort",
+    "en": "a punch card"
+   },
+   {
+    "da": "et månedskort",
+    "en": "a monthly pass"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg checker ind med mit **rejsekort** i bussen.",
+   "en": "I check in with my travel card on the bus."
+  }
+ },
+ "et rejsemål": {
+  "explanation": "\"Et rejsemål\" means \"a destination\", the place you are traveling to: Mit rejsemål er Rom (My destination is Rome).",
+  "forms": [
+   {
+    "da": "et rejsemål",
+    "en": "a destination"
+   },
+   {
+    "da": "rejsemålet",
+    "en": "the destination"
+   },
+   {
+    "da": "rejsemål",
+    "en": "destinations"
+   },
+   {
+    "da": "rejsemålene",
+    "en": "the destinations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   },
+   {
+    "da": "en afrejse",
+    "en": "a departure"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   },
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   }
+  ],
+  "sentence": {
+   "da": "Vores næste **rejsemål** er en lille by i Italien.",
+   "en": "Our next destination is a small town in Italy."
+  }
+ },
+ "et rektangel": {
+  "explanation": "\"Et rektangel\" means \"a rectangle\", a shape with four corners, two long sides and two short sides: Et flag er ofte et rektangel (A flag is often a rectangle).",
+  "forms": [
+   {
+    "da": "et rektangel",
+    "en": "a rectangle"
+   },
+   {
+    "da": "rektanglet",
+    "en": "the rectangle"
+   },
+   {
+    "da": "rektangler",
+    "en": "rectangles"
+   },
+   {
+    "da": "rektanglerne",
+    "en": "the rectangles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en firkant",
+    "en": "a square / four-sided shape"
+   },
+   {
+    "da": "et kvadrat",
+    "en": "a square"
+   },
+   {
+    "da": "en trekant",
+    "en": "a triangle"
+   },
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   }
+  ],
+  "sentence": {
+   "da": "Skærmen på min telefon er et **rektangel**.",
+   "en": "The screen on my phone is a rectangle."
+  }
+ },
+ "et rengøringsmiddel": {
+  "explanation": "\"Et rengøringsmiddel\" means \"a cleaning product\", like soap or a spray for cleaning. It is built from rengøring (cleaning) and et middel (an agent): Rengøringsmidlet dufter af citron (The cleaning product smells of lemon).",
+  "forms": [
+   {
+    "da": "et rengøringsmiddel",
+    "en": "a cleaning product"
+   },
+   {
+    "da": "rengøringsmidlet",
+    "en": "the cleaning product"
+   },
+   {
+    "da": "rengøringsmidler",
+    "en": "cleaning products"
+   },
+   {
+    "da": "rengøringsmidlerne",
+    "en": "the cleaning products"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vaskemiddel",
+    "en": "a detergent"
+   },
+   {
+    "da": "et opvaskemiddel",
+    "en": "a dish soap"
+   },
+   {
+    "da": "en sæbe",
+    "en": "a soap"
+   },
+   {
+    "da": "at gøre rent",
+    "en": "to clean"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber et **rengøringsmiddel** til badeværelset.",
+   "en": "I buy a cleaning product for the bathroom."
+  }
+ },
+ "et resultat": {
+  "explanation": "\"Et resultat\" means \"a result\", the outcome of a match, an exam or an experiment: Hvad blev resultatet? (What was the result?). In sports, it is the score: Resultatet blev 2-1 (The result was 2-1).",
+  "forms": [
+   {
+    "da": "et resultat",
+    "en": "a result"
+   },
+   {
+    "da": "resultatet",
+    "en": "the result"
+   },
+   {
+    "da": "resultater",
+    "en": "results"
+   },
+   {
+    "da": "resultaterne",
+    "en": "the results"
+   }
+  ],
+  "related": [
+   {
+    "da": "at resultere",
+    "en": "to result"
+   },
+   {
+    "da": "et udfald",
+    "en": "an outcome"
+   },
+   {
+    "da": "en konklusion",
+    "en": "a conclusion"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fik et godt **resultat** på prøven.",
+   "en": "We got a good result on the test."
+  }
+ },
+ "et rivejern": {
+  "explanation": "\"Et rivejern\" means \"a grater\", used for cheese, carrots and lemon peel: Brug et rivejern til gulerødderne (Use a grater for the carrots).",
+  "forms": [
+   {
+    "da": "et rivejern",
+    "en": "a grater"
+   },
+   {
+    "da": "rivejernet",
+    "en": "the grater"
+   },
+   {
+    "da": "rivejern",
+    "en": "graters"
+   },
+   {
+    "da": "rivejernene",
+    "en": "the graters"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rive",
+    "en": "to grate"
+   },
+   {
+    "da": "en skrællekniv",
+    "en": "a paring knife"
+   },
+   {
+    "da": "en kniv",
+    "en": "a knife"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger et **rivejern** til osten.",
+   "en": "I use a grater for the cheese."
+  }
+ },
+ "et rum": {
+  "explanation": "\"Et rum\" means \"a room\" as a part of a building: Vi har fire rum (We have four rooms). For having enough space for something, use plads (room, space): Der er plads til os (There is room for us).",
+  "forms": [
+   {
+    "da": "et rum",
+    "en": "a room / space"
+   },
+   {
+    "da": "rummet",
+    "en": "the room / space"
+   },
+   {
+    "da": "rum",
+    "en": "rooms / spaces"
+   },
+   {
+    "da": "rummene",
+    "en": "the rooms / spaces"
+   }
+  ],
+  "related": [
+   {
+    "da": "et værelse",
+    "en": "a room / bedroom"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "et soveværelse",
+    "en": "a bedroom"
+   },
+   {
+    "da": "et køkken",
+    "en": "a kitchen"
+   }
+  ],
+  "sentence": {
+   "da": "Der er et stort **rum** ved siden af køkkenet.",
+   "en": "There is a big room next to the kitchen."
+  }
+ },
+ "et rumskib": {
+  "explanation": "\"Et rumskib\" means \"a spaceship\", built from rum (space) and et skib (a ship): Rumskibet flyver til Mars (The spaceship flies to Mars). Rum also means \"room\", so the situation tells you which one.",
+  "forms": [
+   {
+    "da": "et rumskib",
+    "en": "a spaceship"
+   },
+   {
+    "da": "rumskibet",
+    "en": "the spaceship"
+   },
+   {
+    "da": "rumskibe",
+    "en": "spaceships"
+   },
+   {
+    "da": "rumskibene",
+    "en": "the spaceships"
+   }
+  ],
+  "related": [
+   {
+    "da": "en raket",
+    "en": "a rocket"
+   },
+   {
+    "da": "en rumstation",
+    "en": "a space station"
+   },
+   {
+    "da": "en rumfærge",
+    "en": "a space shuttle"
+   },
+   {
+    "da": "en astronaut",
+    "en": "an astronaut"
+   }
+  ],
+  "sentence": {
+   "da": "Et **rumskib** kan flyve til andre planeter.",
+   "en": "A spaceship can fly to other planets."
+  }
+ },
  "et rundstykke": {
   "explanation": "\"Et rundstykke\" means \"a bread roll\". It is built from rund (round) and stykke (piece).",
   "forms": [
@@ -828,6 +5077,330 @@
   "sentence": {
    "da": "Jeg spiser et **rundstykke** med ost.",
    "en": "I eat a bread roll with cheese."
+  }
+ },
+ "et rygte": {
+  "explanation": "\"Et rygte\" means \"a rumor\", news that people pass on without knowing if it is true: Der går et rygte om, at han stopper (There is a rumor going around that he is quitting).",
+  "forms": [
+   {
+    "da": "et rygte",
+    "en": "a rumor"
+   },
+   {
+    "da": "rygtet",
+    "en": "the rumor"
+   },
+   {
+    "da": "rygter",
+    "en": "rumors"
+   },
+   {
+    "da": "rygterne",
+    "en": "the rumors"
+   }
+  ],
+  "related": [
+   {
+    "da": "sladder",
+    "en": "gossip"
+   },
+   {
+    "da": "en nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "en løgn",
+    "en": "a lie"
+   }
+  ],
+  "sentence": {
+   "da": "Hun spreder et **rygte** om sin nabo.",
+   "en": "She is spreading a rumor about her neighbor."
+  }
+ },
+ "et råd": {
+  "explanation": "\"Et råd\" means \"a piece of advice\": Jeg fik to gode råd (I got two good pieces of advice). It is also used for having money to spend: Jeg har ikke råd til det (I can't afford it).",
+  "forms": [
+   {
+    "da": "et råd",
+    "en": "a piece of advice"
+   },
+   {
+    "da": "rådet",
+    "en": "the advice"
+   },
+   {
+    "da": "råd",
+    "en": "pieces of advice"
+   },
+   {
+    "da": "rådene",
+    "en": "the pieces of advice"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rådgive",
+    "en": "to advise"
+   },
+   {
+    "da": "en rådgiver",
+    "en": "an advisor"
+   },
+   {
+    "da": "et forslag",
+    "en": "a suggestion"
+   },
+   {
+    "da": "en anbefaling",
+    "en": "a recommendation"
+   }
+  ],
+  "sentence": {
+   "da": "Må jeg give dig et **råd**?",
+   "en": "May I give you a piece of advice?"
+  }
+ },
+ "et rådhus": {
+  "explanation": "\"Et rådhus\" means \"a town hall\", where the city government works: Man kan gifte sig på rådhuset (You can get married at the town hall).",
+  "forms": [
+   {
+    "da": "et rådhus",
+    "en": "a town hall"
+   },
+   {
+    "da": "rådhuset",
+    "en": "the town hall"
+   },
+   {
+    "da": "rådhuse",
+    "en": "town halls"
+   },
+   {
+    "da": "rådhusene",
+    "en": "the town halls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en borgmester",
+    "en": "a mayor"
+   },
+   {
+    "da": "en kommune",
+    "en": "a municipality"
+   },
+   {
+    "da": "et byråd",
+    "en": "a city council"
+   }
+  ],
+  "sentence": {
+   "da": "Det gamle **rådhus** ligger midt i byen.",
+   "en": "The old town hall is in the middle of town."
+  }
+ },
+ "et rækkehus": {
+  "explanation": "\"Et rækkehus\" means \"a terraced house\" or \"a townhouse\": one of several houses built side by side in a row. It is built from række (row) and hus (house).",
+  "forms": [
+   {
+    "da": "et rækkehus",
+    "en": "a townhouse"
+   },
+   {
+    "da": "rækkehuset",
+    "en": "the townhouse"
+   },
+   {
+    "da": "rækkehuse",
+    "en": "townhouses"
+   },
+   {
+    "da": "rækkehusene",
+    "en": "the townhouses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en villa",
+    "en": "a villa"
+   },
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   },
+   {
+    "da": "et parcelhus",
+    "en": "a detached house"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bor i et lille **rækkehus** med have.",
+   "en": "We live in a small townhouse with a garden."
+  }
+ },
+ "et rør": {
+  "explanation": "\"Et rør\" means \"a pipe\" or \"a tube\", for water, gas or other things: Der er et rør under vasken (There is a pipe under the sink).",
+  "forms": [
+   {
+    "da": "et rør",
+    "en": "a pipe"
+   },
+   {
+    "da": "røret",
+    "en": "the pipe"
+   },
+   {
+    "da": "rør",
+    "en": "pipes"
+   },
+   {
+    "da": "rørene",
+    "en": "the pipes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en slange",
+    "en": "a hose"
+   },
+   {
+    "da": "en vandhane",
+    "en": "a faucet"
+   },
+   {
+    "da": "en blikkenslager",
+    "en": "a plumber"
+   },
+   {
+    "da": "et vandrør",
+    "en": "a water pipe"
+   }
+  ],
+  "sentence": {
+   "da": "Vandet løber gennem et **rør** under gulvet.",
+   "en": "The water runs through a pipe under the floor."
+  }
+ },
+ "et røveri": {
+  "explanation": "\"Et røveri\" means \"a robbery\", when someone takes things by force or threats: Der var et røveri i banken (There was a robbery at the bank). The person who does it is en røver (a robber).",
+  "forms": [
+   {
+    "da": "et røveri",
+    "en": "a robbery"
+   },
+   {
+    "da": "røveriet",
+    "en": "the robbery"
+   },
+   {
+    "da": "røverier",
+    "en": "robberies"
+   },
+   {
+    "da": "røverierne",
+    "en": "the robberies"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tyveri",
+    "en": "a theft"
+   },
+   {
+    "da": "et indbrud",
+    "en": "a break-in"
+   },
+   {
+    "da": "et bankrøveri",
+    "en": "a bank robbery"
+   },
+   {
+    "da": "en tyv",
+    "en": "a thief"
+   }
+  ],
+  "sentence": {
+   "da": "Der var et **røveri** i butikken i går.",
+   "en": "There was a robbery in the store yesterday."
+  }
+ },
+ "rar": {
+  "explanation": "\"Rar\" means \"nice\" or \"kind\", for people in a warm, everyday way: Han er rigtig rar (He is really nice). Det var rart at se dig (It was nice to see you).",
+  "forms": [
+   {
+    "da": "en rar mand",
+    "en": "a nice man"
+   },
+   {
+    "da": "et rart menneske",
+    "en": "a kind person"
+   },
+   {
+    "da": "rare børn",
+    "en": "nice children"
+   }
+  ],
+  "related": [
+   {
+    "da": "venlig",
+    "en": "friendly"
+   },
+   {
+    "da": "sød",
+    "en": "sweet"
+   },
+   {
+    "da": "flink",
+    "en": "kind, nice"
+   },
+   {
+    "da": "sur",
+    "en": "grumpy"
+   }
+  ],
+  "sentence": {
+   "da": "Din nabo er meget **rar**, og han hjælper os ofte.",
+   "en": "Your neighbor is very nice, and he often helps us."
+  }
+ },
+ "rasende": {
+  "explanation": "\"Rasende\" means \"furious\", extremely angry: Hun var rasende over forsinkelsen (She was furious about the delay). It is a strong word, so for light annoyance use irriteret (annoyed).",
+  "forms": [
+   {
+    "da": "en rasende mand",
+    "en": "a furious man"
+   },
+   {
+    "da": "et rasende barn",
+    "en": "a furious child"
+   },
+   {
+    "da": "rasende kunder",
+    "en": "furious customers"
+   }
+  ],
+  "related": [
+   {
+    "da": "vred",
+    "en": "angry"
+   },
+   {
+    "da": "sur",
+    "en": "cross, grumpy"
+   },
+   {
+    "da": "at rase",
+    "en": "to rage"
+   },
+   {
+    "da": "vrede",
+    "en": "anger"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **rasende**, fordi bilen var væk.",
+   "en": "He was furious because the car was gone."
   }
  },
  "rask": {
@@ -898,6 +5471,84 @@
   "sentence": {
    "da": "Der kommer meget **regn** i dag.",
    "en": "A lot of rain is coming today."
+  }
+ },
+ "regnfuldt": {
+  "explanation": "\"Regnfuldt\" means \"rainy\", for weather and days with a lot of rain: Det er et regnfuldt efterår (It is a rainy fall). To say it is raining right now, use Det regner (It is raining).",
+  "forms": [
+   {
+    "da": "en regnfuld dag",
+    "en": "a rainy day"
+   },
+   {
+    "da": "et regnfuldt vejr",
+    "en": "rainy weather"
+   },
+   {
+    "da": "regnfulde dage",
+    "en": "rainy days"
+   }
+  ],
+  "related": [
+   {
+    "da": "tør",
+    "en": "dry"
+   },
+   {
+    "da": "våd",
+    "en": "wet"
+   },
+   {
+    "da": "skyet",
+    "en": "cloudy"
+   },
+   {
+    "da": "solrig",
+    "en": "sunny"
+   }
+  ],
+  "sentence": {
+   "da": "Vejret har været **regnfuldt** hele ugen.",
+   "en": "The weather has been rainy all week."
+  }
+ },
+ "regntøj": {
+  "explanation": "\"Regntøj\" means \"rain gear\", the waterproof jacket and pants for rainy weather: Husk dit regntøj (Remember your rain gear). It covers the whole outfit, so there is no plural.",
+  "forms": [
+   {
+    "da": "mit regntøj",
+    "en": "my rain gear"
+   },
+   {
+    "da": "vådt regntøj",
+    "en": "wet rain gear"
+   },
+   {
+    "da": "regntøj til børn",
+    "en": "rain gear for children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regnjakke",
+    "en": "a rain jacket"
+   },
+   {
+    "da": "en paraply",
+    "en": "an umbrella"
+   },
+   {
+    "da": "overtøj",
+    "en": "outerwear"
+   },
+   {
+    "da": "en gummistøvle",
+    "en": "a rubber boot"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene har **regntøj** på, fordi det regner.",
+   "en": "The children are wearing rain gear because it is raining."
   }
  },
  "regnvejr": {
@@ -978,6 +5629,84 @@
    "en": "I like eating fish and shrimp from the sea."
   }
  },
+ "relevant": {
+  "explanation": "\"Relevant\" means \"relevant\", for something that matters for what you are talking about: Det er ikke relevant (That is not relevant).",
+  "forms": [
+   {
+    "da": "en relevant artikel",
+    "en": "a relevant article"
+   },
+   {
+    "da": "et relevant spørgsmål",
+    "en": "a relevant question"
+   },
+   {
+    "da": "relevante svar",
+    "en": "relevant answers"
+   }
+  ],
+  "related": [
+   {
+    "da": "irrelevant",
+    "en": "irrelevant"
+   },
+   {
+    "da": "vigtig",
+    "en": "important"
+   },
+   {
+    "da": "uvedkommende",
+    "en": "unrelated"
+   },
+   {
+    "da": "passende",
+    "en": "fitting"
+   }
+  ],
+  "sentence": {
+   "da": "Dit spørgsmål er **relevant**, men vi har ikke tid.",
+   "en": "Your question is relevant, but we do not have time."
+  }
+ },
+ "remoulade": {
+  "explanation": "\"Remoulade\" means \"remoulade\", a cold Danish sauce with chopped pickles. It is often eaten with fried fish: Stegt fiskefilet med remoulade (Fried fish fillet with remoulade).",
+  "forms": [
+   {
+    "da": "en remoulade",
+    "en": "a remoulade"
+   },
+   {
+    "da": "remouladen",
+    "en": "the remoulade"
+   },
+   {
+    "da": "en klat remoulade",
+    "en": "a dollop of remoulade"
+   },
+   {
+    "da": "remoulade til fisk",
+    "en": "remoulade for fish"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "en ketchup",
+    "en": "ketchup"
+   },
+   {
+    "da": "sennep",
+    "en": "mustard"
+   }
+  ],
+  "sentence": {
+   "da": "Til stegt fisk spiser jeg **remoulade**.",
+   "en": "With fried fish, I eat remoulade."
+  }
+ },
  "ren": {
   "explanation": "\"Ren\" means \"clean\" and also \"pure\": rent vand (pure water), ren luft (clean air). At gøre rent means \"to clean\" a home or room.",
   "forms": [
@@ -1056,6 +5785,49 @@
    "en": "The table is reserved for us."
   }
  },
+ "respekt": {
+  "explanation": "\"Respekt\" means \"respect\", both admiration and polite behavior toward others: Han har stor respekt for sin chef (He has great respect for his boss). Eleverne viser lærerne respekt (The students show the teachers respect).",
+  "forms": [
+   {
+    "da": "en respekt",
+    "en": "respect"
+   },
+   {
+    "da": "respekten",
+    "en": "the respect"
+   },
+   {
+    "da": "med respekt",
+    "en": "with respect"
+   },
+   {
+    "da": "at have respekt for",
+    "en": "to have respect for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at respektere",
+    "en": "to respect"
+   },
+   {
+    "da": "høflig",
+    "en": "polite"
+   },
+   {
+    "da": "en anerkendelse",
+    "en": "recognition"
+   },
+   {
+    "da": "et hensyn",
+    "en": "a consideration"
+   }
+  ],
+  "sentence": {
+   "da": "Børn skal lære at vise **respekt** for ældre.",
+   "en": "Children must learn to show respect for older people."
+  }
+ },
  "resten": {
   "explanation": "\"Resten\" means \"the rest\", whatever is left over. It is often used with af (of): resten af maden (the rest of the food).",
   "forms": [
@@ -1089,6 +5861,41 @@
   "sentence": {
    "da": "Du kan få **resten** af kagen.",
    "en": "You can have the rest of the cake."
+  }
+ },
+ "rester": {
+  "explanation": "\"Rester\" means \"leftovers\", food from an earlier meal: Vi spiser resterne i morgen (We will eat the leftovers tomorrow). The single word en rest means \"a remainder\", as in resten af kagen (the rest of the cake).",
+  "forms": [
+   {
+    "da": "Der er rester i køleskabet.",
+    "en": "There are leftovers in the fridge."
+   },
+   {
+    "da": "Jeg spiser rester til frokost.",
+    "en": "I eat leftovers for lunch."
+   },
+   {
+    "da": "Vi har ikke mange rester.",
+    "en": "We do not have many leftovers."
+   }
+  ],
+  "related": [
+   {
+    "da": "til overs",
+    "en": "left over"
+   },
+   {
+    "da": "tilbage",
+    "en": "remaining"
+   },
+   {
+    "da": "et madspild",
+    "en": "food waste"
+   }
+  ],
+  "sentence": {
+   "da": "I dag spiser vi **rester** fra middagen i går.",
+   "en": "Today we eat leftovers from yesterday's dinner."
   }
  },
  "rig": {
@@ -1165,6 +5972,45 @@
    "en": "Yes, your answer is correct!"
   }
  },
+ "rimelig": {
+  "explanation": "\"Rimelig\" means \"reasonable\" and \"fair\": Prisen er rimelig (The price is reasonable). Det er ikke rimeligt (That is not fair).",
+  "forms": [
+   {
+    "da": "en rimelig pris",
+    "en": "a reasonable price"
+   },
+   {
+    "da": "et rimeligt tilbud",
+    "en": "a reasonable offer"
+   },
+   {
+    "da": "rimelige priser",
+    "en": "reasonable prices"
+   }
+  ],
+  "related": [
+   {
+    "da": "urimelig",
+    "en": "unreasonable"
+   },
+   {
+    "da": "retfærdig",
+    "en": "just, fair"
+   },
+   {
+    "da": "fornuftig",
+    "en": "sensible"
+   },
+   {
+    "da": "billig",
+    "en": "cheap"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen på hotellet er **rimelig**, og værelset er stort.",
+   "en": "The price of the hotel is reasonable, and the room is big."
+  }
+ },
  "ris": {
   "explanation": "\"Ris\" means \"rice\". You use it without a, as in Jeg spiser ris (I eat rice) or kylling og ris (chicken and rice).",
   "forms": [
@@ -1200,6 +6046,123 @@
    "en": "I boil rice and make chicken for dinner."
   }
  },
+ "ro": {
+  "explanation": "\"Ro\" means \"calm\" and \"peace and quiet\": Jeg har brug for lidt ro (I need some peace and quiet). To tell someone to relax, say Slap af (Relax).",
+  "forms": [
+   {
+    "da": "en ro",
+    "en": "calm / peace and quiet"
+   },
+   {
+    "da": "roen",
+    "en": "the calm"
+   },
+   {
+    "da": "i ro og mag",
+    "en": "at your leisure"
+   },
+   {
+    "da": "at finde ro",
+    "en": "to find peace"
+   }
+  ],
+  "related": [
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "uro",
+    "en": "unrest"
+   },
+   {
+    "da": "stilhed",
+    "en": "silence"
+   },
+   {
+    "da": "en hvile",
+    "en": "a rest"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **ro**, når jeg læser.",
+   "en": "I would like some peace and quiet when I read."
+  }
+ },
+ "rock": {
+  "explanation": "\"Rock\" means \"rock\" as in music: Jeg elsker rock (I love rock). The stone is en sten (a stone), not rock.",
+  "forms": [
+   {
+    "da": "at høre rock",
+    "en": "to listen to rock"
+   },
+   {
+    "da": "et rockband",
+    "en": "a rock band"
+   },
+   {
+    "da": "rockmusik",
+    "en": "rock music"
+   }
+  ],
+  "related": [
+   {
+    "da": "pop",
+    "en": "pop"
+   },
+   {
+    "da": "jazz",
+    "en": "jazz"
+   },
+   {
+    "da": "metal",
+    "en": "metal"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg elsker **rock** med høje guitarer og trommer.",
+   "en": "I love rock with loud guitars and drums."
+  }
+ },
+ "rodet": {
+  "explanation": "\"Rodet\" means \"messy\", for a room or desk with things lying around: Mit skrivebord er rodet (My desk is messy). It is not about dirt: Rummet er rodet, men ikke snavset (The room is messy, but not dirty).",
+  "forms": [
+   {
+    "da": "en rodet stue",
+    "en": "a messy living room"
+   },
+   {
+    "da": "et rodet værelse",
+    "en": "a messy room"
+   },
+   {
+    "da": "rodede værelser",
+    "en": "messy rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "ryddelig",
+    "en": "tidy"
+   },
+   {
+    "da": "et rod",
+    "en": "a mess"
+   },
+   {
+    "da": "at rode",
+    "en": "to make a mess"
+   },
+   {
+    "da": "uordentlig",
+    "en": "untidy"
+   }
+  ],
+  "sentence": {
+   "da": "Børneværelset er meget **rodet** i dag.",
+   "en": "The children's room is very messy today."
+  }
+ },
  "rolig": {
   "explanation": "\"Rolig\" means \"calm\" or \"relaxed\", and \"peaceful\" or \"quiet\" for places. Vær rolig means \"Stay calm\" or \"Calm down\". Roligt also means \"calmly\": Tal roligt (Speak calmly).",
   "forms": [
@@ -1233,6 +6196,119 @@
   "sentence": {
    "da": "Peter er helt **rolig** og smiler.",
    "en": "Peter is completely calm and smiling."
+  }
+ },
+ "romantik": {
+  "explanation": "\"Romantik\" means \"romance\", the feeling of love and care, for example candles and flowers: Der er meget romantik i luften (There is a lot of romance in the air). Jeg savner lidt romantik (I miss a little romance).",
+  "forms": [
+   {
+    "da": "romantik",
+    "en": "romance"
+   },
+   {
+    "da": "lidt romantik",
+    "en": "a little romance"
+   },
+   {
+    "da": "romantikken",
+    "en": "the romance"
+   }
+  ],
+  "related": [
+   {
+    "da": "romantisk",
+    "en": "romantic"
+   },
+   {
+    "da": "en romantiker",
+    "en": "a romantic person"
+   },
+   {
+    "da": "kærlighed",
+    "en": "love"
+   }
+  ],
+  "sentence": {
+   "da": "Levende lys og blomster giver **romantik**.",
+   "en": "Candles and flowers give romance."
+  }
+ },
+ "romantisk": {
+  "explanation": "\"Romantisk\" means \"romantic\", for love and dreamy moments: en romantisk middag (a romantic dinner). Det er romantisk med levende lys (It is romantic with candles).",
+  "forms": [
+   {
+    "da": "en romantisk aften",
+    "en": "a romantic evening"
+   },
+   {
+    "da": "et romantisk sted",
+    "en": "a romantic place"
+   },
+   {
+    "da": "romantiske film",
+    "en": "romantic movies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en romantiker",
+    "en": "a romantic person"
+   },
+   {
+    "da": "kærlig",
+    "en": "loving"
+   },
+   {
+    "da": "en romance",
+    "en": "a romance"
+   },
+   {
+    "da": "forelsket",
+    "en": "in love"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **romantisk** at gå en tur ved havet.",
+   "en": "It is romantic to go for a walk by the sea."
+  }
+ },
+ "ros": {
+  "explanation": "\"Ros\" means \"praise\", words that tell someone they did well: Eleven fik ros fra læreren (The student got praise from the teacher). Jeg fik lidt ros (I got a little praise).",
+  "forms": [
+   {
+    "da": "meget ros",
+    "en": "a lot of praise"
+   },
+   {
+    "da": "ros fra chefen",
+    "en": "praise from the boss"
+   },
+   {
+    "da": "tak for rosen",
+    "en": "thanks for the praise"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rose",
+    "en": "to praise"
+   },
+   {
+    "da": "en kompliment",
+    "en": "a compliment"
+   },
+   {
+    "da": "en kritik",
+    "en": "a criticism"
+   },
+   {
+    "da": "en rose",
+    "en": "a rose"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fik meget **ros** for sit arbejde.",
+   "en": "She got a lot of praise for her work."
   }
  },
  "rugbrød": {
@@ -1272,6 +6348,41 @@
   "sentence": {
    "da": "Jeg lægger ost på en skive **rugbrød**.",
    "en": "I put cheese on a slice of rye bread."
+  }
+ },
+ "rund": {
+  "explanation": "\"Rund\" means \"round\": Bolden er rund (The ball is round). Runde tal (Round numbers) are numbers like 10 and 100.",
+  "forms": [
+   {
+    "da": "en rund bold",
+    "en": "a round ball"
+   },
+   {
+    "da": "et rundt bord",
+    "en": "a round table"
+   },
+   {
+    "da": "runde borde",
+    "en": "round tables"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   },
+   {
+    "da": "firkantet",
+    "en": "square"
+   },
+   {
+    "da": "flad",
+    "en": "flat"
+   }
+  ],
+  "sentence": {
+   "da": "Min bold er **rund** og rød.",
+   "en": "My ball is round and red."
   }
  },
  "rundt om hjørnet": {
@@ -1379,6 +6490,84 @@
    "en": "He comes from Russia and speaks Russian."
   }
  },
+ "ryddelig": {
+  "explanation": "\"Ryddelig\" means \"tidy\", with everything in its place: Hendes skrivebord er altid ryddeligt (Her desk is always tidy). It is the result of at rydde op (to tidy up).",
+  "forms": [
+   {
+    "da": "en ryddelig stue",
+    "en": "a tidy living room"
+   },
+   {
+    "da": "et ryddeligt værelse",
+    "en": "a tidy room"
+   },
+   {
+    "da": "ryddelige værelser",
+    "en": "tidy rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "rodet",
+    "en": "messy"
+   },
+   {
+    "da": "ordentlig",
+    "en": "orderly, proper"
+   },
+   {
+    "da": "uordentlig",
+    "en": "untidy"
+   },
+   {
+    "da": "en orden",
+    "en": "order"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes lejlighed er altid **ryddelig** og pæn.",
+   "en": "Her apartment is always tidy and nice."
+  }
+ },
+ "rå": {
+  "explanation": "\"Rå\" means \"raw\" for food: rå fisk (raw fish). It also means \"crude\" or \"rough\" for words and behavior: et råt sprog (rough language).",
+  "forms": [
+   {
+    "da": "en rå gulerod",
+    "en": "a raw carrot"
+   },
+   {
+    "da": "et råt æg",
+    "en": "a raw egg"
+   },
+   {
+    "da": "rå grøntsager",
+    "en": "raw vegetables"
+   }
+  ],
+  "related": [
+   {
+    "da": "kogt",
+    "en": "cooked"
+   },
+   {
+    "da": "stegt",
+    "en": "fried"
+   },
+   {
+    "da": "grov",
+    "en": "coarse"
+   },
+   {
+    "da": "barsk",
+    "en": "harsh"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke lide **rå** løg.",
+   "en": "I do not like raw onions."
+  }
+ },
  "rød": {
   "explanation": "\"Rød\" means \"red\". It is part of words like rødvin (red wine) and rødbede (beetroot).",
   "forms": [
@@ -1416,6 +6605,119 @@
   "sentence": {
    "da": "Tomaten er **rød**.",
    "en": "The tomato is red."
+  }
+ },
+ "røg": {
+  "explanation": "\"Røg\" means \"smoke\", for example from a fire or a cigarette: Der er røg i køkkenet (There is smoke in the kitchen). Røgen går op i luften (The smoke goes up into the air).",
+  "forms": [
+   {
+    "da": "røg",
+    "en": "smoke"
+   },
+   {
+    "da": "røgen",
+    "en": "the smoke"
+   },
+   {
+    "da": "Der er røg i rummet.",
+    "en": "There is smoke in the room."
+   }
+  ],
+  "related": [
+   {
+    "da": "en brand",
+    "en": "a fire"
+   },
+   {
+    "da": "at ryge",
+    "en": "to smoke"
+   },
+   {
+    "da": "en røgalarm",
+    "en": "a smoke alarm"
+   },
+   {
+    "da": "aske",
+    "en": "ash"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan se **røg** fra skorstenen.",
+   "en": "I can see smoke from the chimney."
+  }
+ },
+ "rørt": {
+  "explanation": "\"Rørt\" means \"touched\" and describes being moved by a warm or sad moment: Jeg blev rørt over hendes ord (I was touched by her words). It is not about touching something with your hand.",
+  "forms": [
+   {
+    "da": "en rørt mand",
+    "en": "a touched man"
+   },
+   {
+    "da": "et rørt barn",
+    "en": "a touched child"
+   },
+   {
+    "da": "rørte gæster",
+    "en": "touched guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "at røre",
+    "en": "to touch, to stir"
+   },
+   {
+    "da": "en rørelse",
+    "en": "an emotion"
+   },
+   {
+    "da": "bevæget",
+    "en": "moved"
+   },
+   {
+    "da": "rørende",
+    "en": "touching"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg blev så **rørt** over din gave.",
+   "en": "I was so touched by your gift."
+  }
+ },
+ "røræg": {
+  "explanation": "\"Røræg\" means \"scrambled eggs\". It comes from at røre (to stir) and æg (egg), because you stir the eggs while they cook. Compare et spejlæg (a fried egg), which stays whole.",
+  "forms": [
+   {
+    "da": "Jeg laver røræg.",
+    "en": "I make scrambled eggs."
+   },
+   {
+    "da": "røræg med bacon",
+    "en": "scrambled eggs with bacon"
+   },
+   {
+    "da": "Vil du have røræg?",
+    "en": "Do you want scrambled eggs?"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omelet",
+    "en": "an omelet"
+   },
+   {
+    "da": "en æggeblomme",
+    "en": "an egg yolk"
+   },
+   {
+    "da": "at stege",
+    "en": "to fry"
+   }
+  ],
+  "sentence": {
+   "da": "Vi laver **røræg** med bacon til morgenmad.",
+   "en": "We make scrambled eggs with bacon for breakfast."
   }
  }
 }

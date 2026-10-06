@@ -1,0 +1,80 @@
+{
+ "en quiz": {
+  "explanation": "\"En quiz\" means \"a quiz\", a game of questions, often with friends at a café or at home: Vi har quiz hver fredag (We have a quiz every Friday).",
+  "forms": [
+   {
+    "da": "en quiz",
+    "en": "a quiz"
+   },
+   {
+    "da": "quizzen",
+    "en": "the quiz"
+   },
+   {
+    "da": "quizzer",
+    "en": "quizzes"
+   },
+   {
+    "da": "quizzerne",
+    "en": "the quizzes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "et svar",
+    "en": "an answer"
+   },
+   {
+    "da": "et spil",
+    "en": "a game"
+   },
+   {
+    "da": "en konkurrence",
+    "en": "a competition"
+   }
+  ],
+  "sentence": {
+   "da": "Vi er til **quiz** på caféen hver torsdag.",
+   "en": "We go to a quiz at the café every Thursday."
+  }
+ },
+ "quinoa": {
+  "explanation": "\"Quinoa\" means \"quinoa\", small round grains that are boiled like rice: Jeg koger quinoa i femten minutter (I boil quinoa for fifteen minutes).",
+  "forms": [
+   {
+    "da": "quinoa",
+    "en": "quinoa"
+   },
+   {
+    "da": "quinoaen",
+    "en": "the quinoa"
+   },
+   {
+    "da": "kogt quinoa",
+    "en": "cooked quinoa"
+   }
+  ],
+  "related": [
+   {
+    "da": "ris",
+    "en": "rice"
+   },
+   {
+    "da": "bulgur",
+    "en": "bulgur"
+   },
+   {
+    "da": "couscous",
+    "en": "couscous"
+   }
+  ],
+  "sentence": {
+   "da": "Til middag koger jeg **quinoa** og steger grøntsager.",
+   "en": "For dinner I boil quinoa and fry vegetables."
+  }
+ }
+}

@@ -38,6 +38,49 @@
    "en": "I want to dance to the music."
   }
  },
+ "at date": {
+  "explanation": "\"At date\" means \"to date\", to go out with someone to get to know them: Jeg dater en fra Aarhus (I am dating someone from Aarhus). For the day on a calendar, use en dato (a date on the calendar).",
+  "forms": [
+   {
+    "da": "at date",
+    "en": "to date"
+   },
+   {
+    "da": "jeg dater",
+    "en": "I date"
+   },
+   {
+    "da": "jeg datede",
+    "en": "I dated"
+   },
+   {
+    "da": "jeg har datet",
+    "en": "I have dated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend / girlfriend"
+   },
+   {
+    "da": "at flirte",
+    "en": "to flirt"
+   },
+   {
+    "da": "at møde",
+    "en": "to meet"
+   },
+   {
+    "da": "at gå ud",
+    "en": "to go out"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil gerne **date** en sød fyr.",
+   "en": "She would like to date a nice guy."
+  }
+ },
  "at dele": {
   "explanation": "\"At dele\" means \"to share\" and also \"to divide\". In math, it means divide: ti delt med to (ten divided by two).",
   "forms": [
@@ -77,6 +120,303 @@
    "en": "We want to share a pizza."
   }
  },
+ "at dele ud": {
+  "explanation": "\"At dele ud\" means \"to hand out\", giving things to several people: Læreren deler papirer ud (The teacher hands out papers). Plain at dele means \"to share\": Vi deler en pizza (We share a pizza).",
+  "forms": [
+   {
+    "da": "at dele ud",
+    "en": "to hand out"
+   },
+   {
+    "da": "jeg deler ud",
+    "en": "I hand out"
+   },
+   {
+    "da": "jeg delte ud",
+    "en": "I handed out"
+   },
+   {
+    "da": "jeg har delt ud",
+    "en": "I have handed out"
+   }
+  ],
+  "related": [
+   {
+    "da": "at uddele",
+    "en": "to distribute"
+   },
+   {
+    "da": "at fordele",
+    "en": "to divide among"
+   },
+   {
+    "da": "at samle ind",
+    "en": "to collect"
+   },
+   {
+    "da": "at aflevere",
+    "en": "to hand in"
+   }
+  ],
+  "sentence": {
+   "da": "Han skal **dele ud** til alle børnene.",
+   "en": "He is going to hand things out to all the children."
+  }
+ },
+ "at deltage": {
+  "explanation": "\"At deltage\" means \"to participate\" or \"to take part\", and you add i (in) before the event: Jeg deltager i mødet (I am taking part in the meeting). It fits games and contests too: De deltager i konkurrencen (They are taking part in the competition).",
+  "forms": [
+   {
+    "da": "at deltage",
+    "en": "to participate"
+   },
+   {
+    "da": "jeg deltager",
+    "en": "I participate"
+   },
+   {
+    "da": "jeg deltog",
+    "en": "I participated"
+   },
+   {
+    "da": "jeg har deltaget",
+    "en": "I have participated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at være med",
+    "en": "to join in"
+   },
+   {
+    "da": "at melde sig til",
+    "en": "to sign up"
+   },
+   {
+    "da": "en tilmelding",
+    "en": "a registration"
+   },
+   {
+    "da": "at tage del i",
+    "en": "to take part in"
+   }
+  ],
+  "sentence": {
+   "da": "Alle kan **deltage** i kurset gratis.",
+   "en": "Everyone can take part in the course for free."
+  }
+ },
+ "at designe": {
+  "explanation": "\"At designe\" means \"to design\": Hun designer smykker (She designs jewelry). Han designede en ny stol (He designed a new chair).",
+  "forms": [
+   {
+    "da": "at designe",
+    "en": "to design"
+   },
+   {
+    "da": "jeg designer",
+    "en": "I design"
+   },
+   {
+    "da": "jeg designede",
+    "en": "I designed"
+   },
+   {
+    "da": "jeg har designet",
+    "en": "I have designed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en arkitekt",
+    "en": "an architect"
+   },
+   {
+    "da": "en skitse",
+    "en": "a sketch"
+   },
+   {
+    "da": "at tegne",
+    "en": "to draw"
+   },
+   {
+    "da": "at skabe",
+    "en": "to create"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster elsker at **designe** tøj.",
+   "en": "My sister loves to design clothes."
+  }
+ },
+ "at diskutere": {
+  "explanation": "\"At diskutere\" means \"to discuss\": Vi diskuterer planen (We are discussing the plan). For an angry fight, use at skændes (to quarrel): De skændes hele tiden (They quarrel all the time).",
+  "forms": [
+   {
+    "da": "at diskutere",
+    "en": "to discuss"
+   },
+   {
+    "da": "jeg diskuterer",
+    "en": "I discuss"
+   },
+   {
+    "da": "jeg diskuterede",
+    "en": "I discussed"
+   },
+   {
+    "da": "jeg har diskuteret",
+    "en": "I have discussed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en diskussion",
+    "en": "a discussion"
+   },
+   {
+    "da": "at tale om",
+    "en": "to talk about"
+   },
+   {
+    "da": "at debattere",
+    "en": "to debate"
+   },
+   {
+    "da": "at være uenig",
+    "en": "to disagree"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **diskutere** problemet med læreren.",
+   "en": "We have to discuss the problem with the teacher."
+  }
+ },
+ "at dividere": {
+  "explanation": "\"At dividere\" means \"to divide\" in math: Jeg dividerer ti med to (I divide ten by two). To share something between people, say at dele (to share).",
+  "forms": [
+   {
+    "da": "at dividere",
+    "en": "to divide"
+   },
+   {
+    "da": "jeg dividerer",
+    "en": "I divide"
+   },
+   {
+    "da": "jeg dividerede",
+    "en": "I divided"
+   },
+   {
+    "da": "jeg har divideret",
+    "en": "I have divided"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gange",
+    "en": "to multiply"
+   },
+   {
+    "da": "at trække fra",
+    "en": "to subtract"
+   },
+   {
+    "da": "en division",
+    "en": "a division"
+   },
+   {
+    "da": "en brøk",
+    "en": "a fraction"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **dividere** tolv med tre.",
+   "en": "You have to divide twelve by three."
+  }
+ },
+ "at downloade": {
+  "explanation": "\"At downloade\" means \"to download\", to copy something from the internet onto your own device: Jeg downloader appen (I download the app).",
+  "forms": [
+   {
+    "da": "at downloade",
+    "en": "to download"
+   },
+   {
+    "da": "jeg downloader",
+    "en": "I download"
+   },
+   {
+    "da": "jeg downloadede",
+    "en": "I downloaded"
+   },
+   {
+    "da": "jeg har downloadet",
+    "en": "I have downloaded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at uploade",
+    "en": "to upload"
+   },
+   {
+    "da": "at hente",
+    "en": "to fetch"
+   },
+   {
+    "da": "en fil",
+    "en": "a file"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **downloade** appen gratis.",
+   "en": "You can download the app for free."
+  }
+ },
+ "at dreje": {
+  "explanation": "\"At dreje\" means \"to turn\": Drej til højre (Turn right). It also works for turning a thing: Jeg drejer håndtaget (I turn the handle). Det drejer sig om penge (It is about money).",
+  "forms": [
+   {
+    "da": "at dreje",
+    "en": "to turn"
+   },
+   {
+    "da": "jeg drejer",
+    "en": "I turn"
+   },
+   {
+    "da": "jeg drejede",
+    "en": "I turned"
+   },
+   {
+    "da": "jeg har drejet",
+    "en": "I have turned"
+   }
+  ],
+  "related": [
+   {
+    "da": "et sving",
+    "en": "a turn / curve"
+   },
+   {
+    "da": "at vende",
+    "en": "to turn around"
+   },
+   {
+    "da": "at svinge",
+    "en": "to swing / turn"
+   },
+   {
+    "da": "at rotere",
+    "en": "to rotate"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **dreje** til venstre ved banken.",
+   "en": "You have to turn left at the bank."
+  }
+ },
  "at drikke": {
   "explanation": "\"At drikke\" means \"to drink\", for water, coffee, beer and so on: Jeg drikker kaffe (I drink coffee).",
   "forms": [
@@ -114,6 +454,545 @@
   "sentence": {
    "da": "Jeg vil **drikke** et glas vand.",
    "en": "I want to drink a glass of water."
+  }
+ },
+ "at drille": {
+  "explanation": "\"At drille\" means \"to tease\", usually in a playful way: Han driller sin lillesøster (He teases his little sister). Hurtful teasing is more like at mobbe (to bully).",
+  "forms": [
+   {
+    "da": "at drille",
+    "en": "to tease"
+   },
+   {
+    "da": "jeg driller",
+    "en": "I tease"
+   },
+   {
+    "da": "jeg drillede",
+    "en": "I teased"
+   },
+   {
+    "da": "jeg har drillet",
+    "en": "I have teased"
+   }
+  ],
+  "related": [
+   {
+    "da": "at spøge",
+    "en": "to joke"
+   },
+   {
+    "da": "at gøre grin med",
+    "en": "to make fun of"
+   },
+   {
+    "da": "at le ad",
+    "en": "to laugh at"
+   }
+  ],
+  "sentence": {
+   "da": "Min bror elsker at **drille** mig.",
+   "en": "My brother loves to tease me."
+  }
+ },
+ "at droppe": {
+  "explanation": "\"At droppe\" means \"to drop\" a plan or \"to skip\" something: Jeg dropper festen (I am skipping the party). Vi droppede planen (We dropped the plan). It is casual talk.",
+  "forms": [
+   {
+    "da": "at droppe",
+    "en": "to drop / skip"
+   },
+   {
+    "da": "jeg dropper",
+    "en": "I drop / skip"
+   },
+   {
+    "da": "jeg droppede",
+    "en": "I dropped / skipped"
+   },
+   {
+    "da": "jeg har droppet",
+    "en": "I have dropped / skipped"
+   }
+  ],
+  "related": [
+   {
+    "da": "at springe over",
+    "en": "to skip"
+   },
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
+   },
+   {
+    "da": "at lade være",
+    "en": "to leave it"
+   },
+   {
+    "da": "at stoppe",
+    "en": "to stop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **droppe** sukker i min kaffe.",
+   "en": "I want to skip sugar in my coffee."
+  }
+ },
+ "at drukne": {
+  "explanation": "\"At drukne\" means \"to drown\": Manden druknede i søen (The man drowned in the lake). You can also warn someone: Pas på, ellers drukner du! (Careful, or you will drown!)",
+  "forms": [
+   {
+    "da": "at drukne",
+    "en": "to drown"
+   },
+   {
+    "da": "jeg drukner",
+    "en": "I drown"
+   },
+   {
+    "da": "jeg druknede",
+    "en": "I drowned"
+   },
+   {
+    "da": "jeg er druknet",
+    "en": "I have drowned"
+   }
+  ],
+  "related": [
+   {
+    "da": "at svømme",
+    "en": "to swim"
+   },
+   {
+    "da": "at redde",
+    "en": "to rescue"
+   },
+   {
+    "da": "at synke",
+    "en": "to sink"
+   },
+   {
+    "da": "en drukneulykke",
+    "en": "a drowning accident"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan **drukne** i dybt vand.",
+   "en": "You can drown in deep water."
+  }
+ },
+ "at dræbe": {
+  "explanation": "\"At dræbe\" means \"to kill\": Katten dræbte musen (The cat killed the mouse). To say someone was killed, use blev dræbt: Han blev dræbt (He was killed).",
+  "forms": [
+   {
+    "da": "at dræbe",
+    "en": "to kill"
+   },
+   {
+    "da": "jeg dræber",
+    "en": "I kill"
+   },
+   {
+    "da": "jeg dræbte",
+    "en": "I killed"
+   },
+   {
+    "da": "jeg har dræbt",
+    "en": "I have killed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at myrde",
+    "en": "to murder"
+   },
+   {
+    "da": "at dø",
+    "en": "to die"
+   },
+   {
+    "da": "et drab",
+    "en": "a killing"
+   },
+   {
+    "da": "en morder",
+    "en": "a murderer"
+   }
+  ],
+  "sentence": {
+   "da": "Ræven kan **dræbe** en høne.",
+   "en": "The fox can kill a hen."
+  }
+ },
+ "at drømme": {
+  "explanation": "\"At drømme\" means \"to dream\", both asleep and awake, and it takes om (about): Jeg drømte om dig (I dreamed about you). Hun drømmer om et stort hus (She dreams of a big house).",
+  "forms": [
+   {
+    "da": "at drømme",
+    "en": "to dream"
+   },
+   {
+    "da": "jeg drømmer",
+    "en": "I dream"
+   },
+   {
+    "da": "jeg drømte",
+    "en": "I dreamed"
+   },
+   {
+    "da": "jeg har drømt",
+    "en": "I have dreamed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   },
+   {
+    "da": "et mareridt",
+    "en": "a nightmare"
+   },
+   {
+    "da": "at håbe",
+    "en": "to hope"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil sove og **drømme** hele natten.",
+   "en": "I want to sleep and dream all night."
+  }
+ },
+ "at dufte": {
+  "explanation": "\"At dufte\" means \"to smell nice\": Blomsterne dufter dejligt (The flowers smell lovely). Plain at lugte (to smell) can also be bad: Det lugter af fisk (It smells like fish).",
+  "forms": [
+   {
+    "da": "at dufte",
+    "en": "to smell (nice)"
+   },
+   {
+    "da": "det dufter",
+    "en": "it smells (nice)"
+   },
+   {
+    "da": "det duftede",
+    "en": "it smelled (nice)"
+   },
+   {
+    "da": "det har duftet",
+    "en": "it has smelled (nice)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en duft",
+    "en": "a scent"
+   },
+   {
+    "da": "duftende",
+    "en": "fragrant"
+   },
+   {
+    "da": "at stinke",
+    "en": "to stink"
+   },
+   {
+    "da": "en parfume",
+    "en": "a perfume"
+   }
+  ],
+  "sentence": {
+   "da": "Det plejer at **dufte** dejligt her.",
+   "en": "It usually smells lovely here."
+  }
+ },
+ "at dukke op": {
+  "explanation": "\"At dukke op\" means \"to show up\", often when someone arrives or something appears unexpectedly: Han dukkede op klokken otte (He showed up at eight o'clock). On a screen it means \"to pop up\": En besked dukker op (A message pops up).",
+  "forms": [
+   {
+    "da": "at dukke op",
+    "en": "to show up"
+   },
+   {
+    "da": "jeg dukker op",
+    "en": "I show up"
+   },
+   {
+    "da": "jeg dukkede op",
+    "en": "I showed up"
+   },
+   {
+    "da": "jeg er dukket op",
+    "en": "I have shown up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at møde op",
+    "en": "to turn up"
+   },
+   {
+    "da": "at ankomme",
+    "en": "to arrive"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg håber, at han vil **dukke op** i aften.",
+   "en": "I hope that he will show up tonight."
+  }
+ },
+ "at dumpe": {
+  "explanation": "\"At dumpe\" means \"to fail (an exam)\": Han dumpede til eksamen (He failed the exam). The opposite is at bestå (to pass): Hun bestod eksamen (She passed the exam).",
+  "forms": [
+   {
+    "da": "at dumpe",
+    "en": "to fail (an exam)"
+   },
+   {
+    "da": "jeg dumper",
+    "en": "I fail (an exam)"
+   },
+   {
+    "da": "jeg dumpede",
+    "en": "I failed (an exam)"
+   },
+   {
+    "da": "jeg har dumpet",
+    "en": "I have failed (an exam)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en prøve",
+    "en": "a test"
+   },
+   {
+    "da": "at fejle",
+    "en": "to fail / make a mistake"
+   },
+   {
+    "da": "at klare",
+    "en": "to manage"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil ikke **dumpe** til eksamen.",
+   "en": "I don't want to fail the exam."
+  }
+ },
+ "at dykke": {
+  "explanation": "\"At dykke\" means \"to dive\" under water: Børnene dykker efter sten (The children dive for stones). To dive in headfirst from a board, say at stupe (to dive in): Han stuper fra vippen (He dives from the board).",
+  "forms": [
+   {
+    "da": "at dykke",
+    "en": "to dive"
+   },
+   {
+    "da": "jeg dykker",
+    "en": "I dive"
+   },
+   {
+    "da": "jeg dykkede",
+    "en": "I dove"
+   },
+   {
+    "da": "jeg har dykket",
+    "en": "I have dived"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dyk",
+    "en": "a dive"
+   },
+   {
+    "da": "at snorkle",
+    "en": "to snorkel"
+   },
+   {
+    "da": "at svømme",
+    "en": "to swim"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **dykke** og se fiskene i havet.",
+   "en": "I would like to dive and see the fish in the sea."
+  }
+ },
+ "at dyrke": {
+  "explanation": "\"At dyrke\" means \"to grow\" plants on purpose: Vi dyrker tomater (We grow tomatoes). It also means \"to practice\" a sport or hobby: Jeg dyrker yoga (I do yoga).",
+  "forms": [
+   {
+    "da": "at dyrke",
+    "en": "to grow / practice (a sport)"
+   },
+   {
+    "da": "jeg dyrker",
+    "en": "I grow / practice (a sport)"
+   },
+   {
+    "da": "jeg dyrkede",
+    "en": "I grew / practiced (a sport)"
+   },
+   {
+    "da": "jeg har dyrket",
+    "en": "I have grown / practiced (a sport)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at så",
+    "en": "to sow"
+   },
+   {
+    "da": "at høste",
+    "en": "to harvest"
+   },
+   {
+    "da": "at gro",
+    "en": "to grow (by itself)"
+   },
+   {
+    "da": "en afgrøde",
+    "en": "a crop"
+   }
+  ],
+  "sentence": {
+   "da": "Min mor vil **dyrke** grøntsager i haven.",
+   "en": "My mother wants to grow vegetables in the garden."
+  }
+ },
+ "at dyrke sport": {
+  "explanation": "\"At dyrke sport\" means \"to do sports\" as a regular activity: Jeg dyrker sport hver uge (I do sports every week). For one sport, Danes often use at spille: Jeg spiller tennis (I play tennis).",
+  "forms": [
+   {
+    "da": "at dyrke sport",
+    "en": "to do sports"
+   },
+   {
+    "da": "jeg dyrker sport",
+    "en": "I do sports"
+   },
+   {
+    "da": "jeg dyrkede sport",
+    "en": "I did sports"
+   },
+   {
+    "da": "jeg har dyrket sport",
+    "en": "I have done sports"
+   }
+  ],
+  "related": [
+   {
+    "da": "at træne",
+    "en": "to train"
+   },
+   {
+    "da": "at motionere",
+    "en": "to exercise"
+   },
+   {
+    "da": "en sportsgren",
+    "en": "a sport (type)"
+   },
+   {
+    "da": "en sportsklub",
+    "en": "a sports club"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **dyrke sport** mere i år.",
+   "en": "I want to do more sports this year."
+  }
+ },
+ "at dække": {
+  "explanation": "\"At dække\" means \"to cover\": Jeg dækker bordet med en dug (I cover the table with a cloth). It also works for costs: Forsikringen dækker skaden (The insurance covers the damage).",
+  "forms": [
+   {
+    "da": "at dække",
+    "en": "to cover"
+   },
+   {
+    "da": "jeg dækker",
+    "en": "I cover"
+   },
+   {
+    "da": "jeg dækkede",
+    "en": "I covered"
+   },
+   {
+    "da": "jeg har dækket",
+    "en": "I have covered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tildække",
+    "en": "to cover up"
+   },
+   {
+    "da": "at afdække",
+    "en": "to uncover"
+   },
+   {
+    "da": "at skjule",
+    "en": "to hide"
+   },
+   {
+    "da": "at beskytte",
+    "en": "to protect"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **dække** barnet med et tæppe.",
+   "en": "I want to cover the child with a blanket."
+  }
+ },
+ "at dække bord": {
+  "explanation": "\"At dække bord\" means \"to set the table\", putting the plates out before a meal: Kan du dække bord? (Can you set the table?)",
+  "forms": [
+   {
+    "da": "at dække bord",
+    "en": "to set the table"
+   },
+   {
+    "da": "jeg dækker bord",
+    "en": "I set the table"
+   },
+   {
+    "da": "jeg dækkede bord",
+    "en": "I set the table"
+   },
+   {
+    "da": "jeg har dækket bord",
+    "en": "I have set the table"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tage af bordet",
+    "en": "to clear the table"
+   },
+   {
+    "da": "en dug",
+    "en": "a tablecloth"
+   },
+   {
+    "da": "bestik",
+    "en": "cutlery"
+   },
+   {
+    "da": "en serviet",
+    "en": "a napkin"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **dække bord**, mens jeg laver mad?",
+   "en": "Can you set the table while I cook?"
   }
  },
  "at dø": {
@@ -190,6 +1069,41 @@
    "en": "When I came home, the children were asleep."
   }
  },
+ "dagen efter": {
+  "explanation": "\"Dagen efter\" means \"the day after\" something: Dagen efter festen var jeg træt (The day after the party I was tired). On its own, the next day is næste dag.",
+  "forms": [
+   {
+    "da": "dagen efter festen",
+    "en": "the day after the party"
+   },
+   {
+    "da": "Dagen efter kom han hjem",
+    "en": "The day after, he came home"
+   },
+   {
+    "da": "dagen efter min fødselsdag",
+    "en": "the day after my birthday"
+   }
+  ],
+  "related": [
+   {
+    "da": "dagen før",
+    "en": "the day before"
+   },
+   {
+    "da": "ugen efter",
+    "en": "the week after"
+   },
+   {
+    "da": "dagen derpå",
+    "en": "the following day"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg var træt **dagen efter** festen.",
+   "en": "I was tired the day after the party."
+  }
+ },
  "dagens ret": {
   "explanation": "\"Dagens ret\" means \"dish of the day\". Word for word, it is the day's dish: dagens (the day's) and ret (dish).",
   "forms": [
@@ -229,6 +1143,123 @@
    "en": "The dish of the day is fish and potatoes."
   }
  },
+ "daglig": {
+  "explanation": "\"Daglig\" means \"daily\" and describes what happens every day: den daglige rutine (the daily routine). To say something happens every day, use hver dag: Jeg løber hver dag (I run every day).",
+  "forms": [
+   {
+    "da": "en daglig rutine",
+    "en": "a daily routine"
+   },
+   {
+    "da": "et dagligt møde",
+    "en": "a daily meeting"
+   },
+   {
+    "da": "daglige opgaver",
+    "en": "daily tasks"
+   }
+  ],
+  "related": [
+   {
+    "da": "ugentlig",
+    "en": "weekly"
+   },
+   {
+    "da": "månedlig",
+    "en": "monthly"
+   },
+   {
+    "da": "årlig",
+    "en": "yearly"
+   },
+   {
+    "da": "hyppig",
+    "en": "frequent"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læser en **daglig** avis.",
+   "en": "I read a daily newspaper."
+  }
+ },
+ "dagligdags": {
+  "explanation": "\"Dagligdags\" means \"everyday\" and describes ordinary things that happen all the time: et dagligdags problem (an everyday problem). It also fits language: dagligdags sprog (everyday language).",
+  "forms": [
+   {
+    "da": "en dagligdags ting",
+    "en": "an everyday thing"
+   },
+   {
+    "da": "et dagligdags ord",
+    "en": "an everyday word"
+   },
+   {
+    "da": "dagligdags ting",
+    "en": "everyday things"
+   }
+  ],
+  "related": [
+   {
+    "da": "almindelig",
+    "en": "ordinary / common"
+   },
+   {
+    "da": "usædvanlig",
+    "en": "unusual"
+   },
+   {
+    "da": "en hverdag",
+    "en": "a weekday"
+   },
+   {
+    "da": "sædvanlig",
+    "en": "usual"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **dagligdags** ord i Danmark.",
+   "en": "It is an everyday word in Denmark."
+  }
+ },
+ "dagligt": {
+  "explanation": "\"Dagligt\" means \"daily\" or \"every day\": Jeg drikker kaffe dagligt (I drink coffee daily). Before an en-word, use daglig instead.",
+  "forms": [
+   {
+    "da": "Jeg arbejder dagligt.",
+    "en": "I work daily."
+   },
+   {
+    "da": "et dagligt møde",
+    "en": "a daily meeting"
+   },
+   {
+    "da": "en daglig tur",
+    "en": "a daily walk"
+   }
+  ],
+  "related": [
+   {
+    "da": "hver dag",
+    "en": "every day"
+   },
+   {
+    "da": "ugentlig",
+    "en": "weekly"
+   },
+   {
+    "da": "månedlig",
+    "en": "monthly"
+   },
+   {
+    "da": "årlig",
+    "en": "annual"
+   }
+  ],
+  "sentence": {
+   "da": "Han træner **dagligt** og spiser sundt.",
+   "en": "He trains daily and eats healthily."
+  }
+ },
  "dagligvarer": {
   "explanation": "\"Dagligvarer\" means \"groceries\": everyday goods like food and household things. It is built from daglig (daily) and varer (goods) and is always plural.",
   "forms": [
@@ -264,6 +1295,45 @@
    "en": "I buy groceries at the supermarket."
   }
  },
+ "damp": {
+  "explanation": "\"Damp\" means \"steam\", the hot cloud from boiling water: Der kommer damp fra gryden (Steam is coming from the pot). It also fogs up mirrors and windows.",
+  "forms": [
+   {
+    "da": "damp",
+    "en": "steam"
+   },
+   {
+    "da": "dampen",
+    "en": "the steam"
+   },
+   {
+    "da": "Der er damp i badeværelset.",
+    "en": "There is steam in the bathroom."
+   }
+  ],
+  "related": [
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "en dampbåd",
+    "en": "a steamboat"
+   },
+   {
+    "da": "en tåge",
+    "en": "a fog"
+   },
+   {
+    "da": "en dampmaskine",
+    "en": "a steam engine"
+   }
+  ],
+  "sentence": {
+   "da": "Der kommer **damp** op fra kaffen.",
+   "en": "Steam is rising from the coffee."
+  }
+ },
  "dansk": {
   "explanation": "\"Dansk\" means \"Danish\", the language and also things from Denmark. As a school subject, it is used without en or et: Jeg har dansk (I have Danish class). Language names start with a small letter: dansk (Danish), engelsk (English).",
   "forms": [
@@ -297,6 +1367,41 @@
   "sentence": {
    "da": "Jeg bor i Danmark og taler **dansk**.",
    "en": "I live in Denmark and speak Danish."
+  }
+ },
+ "data": {
+  "explanation": "\"Data\" means \"data\", facts and numbers collected for a purpose: Vi samler data fra mange mennesker (We collect data from many people).",
+  "forms": [
+   {
+    "da": "data",
+    "en": "data"
+   },
+   {
+    "da": "dataene",
+    "en": "the data"
+   },
+   {
+    "da": "meget data",
+    "en": "a lot of data"
+   }
+  ],
+  "related": [
+   {
+    "da": "en database",
+    "en": "a database"
+   },
+   {
+    "da": "en oplysning",
+    "en": "a piece of information"
+   },
+   {
+    "da": "et tal",
+    "en": "a number"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bruger **data** fra mange mennesker.",
+   "en": "We use data from many people."
   }
  },
  "davs": {
@@ -404,6 +1509,45 @@
    "en": "We celebrate Christmas in December."
   }
  },
+ "defekt": {
+  "explanation": "\"Defekt\" means \"defective\", for a machine or part that does not work as it should: Printeren er defekt (The printer is defective). In everyday speech, ødelagt (broken) is also common.",
+  "forms": [
+   {
+    "da": "en defekt printer",
+    "en": "a defective printer"
+   },
+   {
+    "da": "et defekt ur",
+    "en": "a defective watch"
+   },
+   {
+    "da": "defekte ure",
+    "en": "defective watches"
+   }
+  ],
+  "related": [
+   {
+    "da": "fejlfri",
+    "en": "flawless"
+   },
+   {
+    "da": "i stykker",
+    "en": "broken, in pieces"
+   },
+   {
+    "da": "en fejl",
+    "en": "a fault"
+   },
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   }
+  ],
+  "sentence": {
+   "da": "Vaskemaskinen er **defekt**, og den vil ikke starte.",
+   "en": "The washing machine is defective, and it will not start."
+  }
+ },
  "dejlig": {
   "explanation": "\"Dejlig\" means \"lovely\" or \"nice\": Dejligt! means \"Lovely!\" and Det er dejligt vejr means \"It is lovely weather\".",
   "forms": [
@@ -509,6 +1653,45 @@
    "en": "Look at the car! It is very big."
   }
  },
+ "dengang": {
+  "explanation": "\"Dengang\" means \"back then\" and always points to the past: Dengang var vi unge (Back then we were young). Jeg kendte hende dengang (I knew her back then).",
+  "forms": [
+   {
+    "da": "Det var billigere dengang.",
+    "en": "It was cheaper back then."
+   },
+   {
+    "da": "Hvad lavede du dengang?",
+    "en": "What were you doing back then?"
+   },
+   {
+    "da": "Min far boede her dengang.",
+    "en": "My father lived here back then."
+   }
+  ],
+  "related": [
+   {
+    "da": "engang",
+    "en": "once / at some point"
+   },
+   {
+    "da": "nu",
+    "en": "now"
+   },
+   {
+    "da": "nutildags",
+    "en": "nowadays"
+   },
+   {
+    "da": "i gamle dage",
+    "en": "in the old days"
+   }
+  ],
+  "sentence": {
+   "da": "**Dengang** boede vi i Odense og var glade.",
+   "en": "Back then we lived in Odense and were happy."
+  }
+ },
  "denne": {
   "explanation": "\"Denne\" means \"this\" with words that take en. Compare denne bil (this car) with dette hus (this house, as hus takes et). It sounds formal; in everyday speech people say den her bil (this car).",
   "forms": [
@@ -542,6 +1725,45 @@
   "sentence": {
    "da": "Jeg vil have **denne** bil.",
    "en": "I want this car."
+  }
+ },
+ "dens": {
+  "explanation": "\"Dens\" means \"its\" and belongs to something that is an en-word: Bilen er gammel, og dens motor er stor (The car is old, and its engine is big). Things that are et-words use a different word.",
+  "forms": [
+   {
+    "da": "dens farve",
+    "en": "its color"
+   },
+   {
+    "da": "dens motor",
+    "en": "its engine"
+   },
+   {
+    "da": "dens størrelse",
+    "en": "its size"
+   }
+  ],
+  "related": [
+   {
+    "da": "dets",
+    "en": "its (et-word)"
+   },
+   {
+    "da": "sin",
+    "en": "his / her / its own"
+   },
+   {
+    "da": "hans",
+    "en": "his"
+   },
+   {
+    "da": "deres",
+    "en": "their"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er gammel, men **dens** motor er stærk.",
+   "en": "The car is old, but its engine is strong."
   }
  },
  "der": {
@@ -723,6 +1945,45 @@
    "en": "The bank is there. I come from there."
   }
  },
+ "derhen": {
+  "explanation": "\"Derhen\" means \"(to) there\" and is used when you move toward a place: Vi tager bussen derhen (We take the bus there). To say where someone is, use der (there): Han er der (He is there).",
+  "forms": [
+   {
+    "da": "Vi kører derhen i morgen",
+    "en": "We are driving there tomorrow"
+   },
+   {
+    "da": "Hvordan kommer jeg derhen?",
+    "en": "How do I get there?"
+   },
+   {
+    "da": "Jeg går derhen",
+    "en": "I am walking there"
+   }
+  ],
+  "related": [
+   {
+    "da": "herhen",
+    "en": "(to) here"
+   },
+   {
+    "da": "derfra",
+    "en": "from there"
+   },
+   {
+    "da": "derover",
+    "en": "(to) over there"
+   },
+   {
+    "da": "derind",
+    "en": "(to) in there"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan kommer jeg **derhen**?",
+   "en": "How do I get there?"
+  }
+ },
  "derhjemme": {
   "explanation": "\"Derhjemme\" means \"at home\", said about your home when you are not in it or about life there in general: Derhjemme har vi to katte (At home we have two cats). Compare Jeg er hjemme (I am at home, right now).",
   "forms": [
@@ -797,6 +2058,41 @@
    "en": "My mother is in there in the living room."
   }
  },
+ "dermed": {
+  "explanation": "\"Dermed\" means \"thereby\" and \"with that\", linking a result to what was just said: Han vandt, og dermed fik han guldet (He won, and with that he got the gold). In casual talk, så (so) is more common.",
+  "forms": [
+   {
+    "da": "og dermed",
+    "en": "and with that"
+   },
+   {
+    "da": "Dermed kan vi starte.",
+    "en": "With that we can start."
+   },
+   {
+    "da": "dermed er det slut",
+    "en": "with that it is over"
+   }
+  ],
+  "related": [
+   {
+    "da": "derfor",
+    "en": "that is why"
+   },
+   {
+    "da": "hermed",
+    "en": "herewith / with this"
+   },
+   {
+    "da": "således",
+    "en": "thus"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har betalt, og **dermed** er sagen afgjort.",
+   "en": "We have paid, and with that the matter is settled."
+  }
+ },
  "dernede": {
   "explanation": "\"Dernede\" means \"down there\". Compare Katten er deroppe (The cat is up there) with Katten er dernede (The cat is down there).",
   "forms": [
@@ -836,6 +2132,84 @@
    "en": "The car is down there in the basement."
   }
  },
+ "deroppe": {
+  "explanation": "\"Deroppe\" means \"up there\" and tells where something is when it is higher than you: Se, der er en fugl deroppe (Look, there is a bird up there).",
+  "forms": [
+   {
+    "da": "Katten sidder deroppe",
+    "en": "The cat is sitting up there"
+   },
+   {
+    "da": "Hvem bor deroppe?",
+    "en": "Who lives up there?"
+   },
+   {
+    "da": "Der er sne deroppe",
+    "en": "There is snow up there"
+   }
+  ],
+  "related": [
+   {
+    "da": "derovre",
+    "en": "over there"
+   },
+   {
+    "da": "derude",
+    "en": "out there"
+   },
+   {
+    "da": "dernede",
+    "en": "down there"
+   },
+   {
+    "da": "heroppe",
+    "en": "up here"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du se fuglen **deroppe** i træet?",
+   "en": "Can you see the bird up there in the tree?"
+  }
+ },
+ "derovre": {
+  "explanation": "\"Derovre\" means \"over there\", for a place at a distance that you can point to: Bogen ligger derovre (The book is over there). To move there, use derover: Jeg går derover (I am going over there).",
+  "forms": [
+   {
+    "da": "Jeg bor derovre.",
+    "en": "I live over there."
+   },
+   {
+    "da": "Hvem står derovre?",
+    "en": "Who is standing over there?"
+   },
+   {
+    "da": "Din taske er derovre.",
+    "en": "Your bag is over there."
+   }
+  ],
+  "related": [
+   {
+    "da": "der",
+    "en": "there"
+   },
+   {
+    "da": "herovre",
+    "en": "over here"
+   },
+   {
+    "da": "derhenne",
+    "en": "over there"
+   },
+   {
+    "da": "derude",
+    "en": "out there"
+   }
+  ],
+  "sentence": {
+   "da": "Min bil står **derovre** ved huset.",
+   "en": "My car is parked over there by the house."
+  }
+ },
  "derude": {
   "explanation": "\"Derude\" means \"out there\". Compare Børnene er derinde (The children are in there) with Børnene er derude (The children are out there).",
   "forms": [
@@ -873,6 +2247,123 @@
   "sentence": {
    "da": "Se ud af vinduet! Børnene leger **derude**.",
    "en": "Look out of the window! The children are playing out there."
+  }
+ },
+ "design": {
+  "explanation": "\"Design\" means \"design\" and covers how something looks, like a chair, a phone or a website: Det er et flot design (It is a nice design).",
+  "forms": [
+   {
+    "da": "design",
+    "en": "design"
+   },
+   {
+    "da": "designet",
+    "en": "the design"
+   },
+   {
+    "da": "moderne design",
+    "en": "modern design"
+   },
+   {
+    "da": "Jeg elsker designet.",
+    "en": "I love the design."
+   }
+  ],
+  "related": [
+   {
+    "da": "en designer",
+    "en": "a designer"
+   },
+   {
+    "da": "at designe",
+    "en": "to design"
+   },
+   {
+    "da": "en stil",
+    "en": "a style"
+   },
+   {
+    "da": "en skitse",
+    "en": "a sketch"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan godt lide det enkle **design**.",
+   "en": "I like the simple design."
+  }
+ },
+ "desperat": {
+  "explanation": "\"Desperat\" means \"desperate\", for a person who sees no way out or for what they do: Han gjorde et desperat forsøg (He made a desperate attempt). Hun er desperat efter et job (She is desperate for a job).",
+  "forms": [
+   {
+    "da": "en desperat mand",
+    "en": "a desperate man"
+   },
+   {
+    "da": "et desperat råb",
+    "en": "a desperate cry"
+   },
+   {
+    "da": "desperate mennesker",
+    "en": "desperate people"
+   }
+  ],
+  "related": [
+   {
+    "da": "håbløs",
+    "en": "hopeless"
+   },
+   {
+    "da": "fortvivlet",
+    "en": "in despair"
+   },
+   {
+    "da": "desperation",
+    "en": "desperation"
+   },
+   {
+    "da": "rolig",
+    "en": "calm"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **desperat** og ringede til alle.",
+   "en": "He was desperate and called everyone."
+  }
+ },
+ "desuden": {
+  "explanation": "\"Desuden\" means \"furthermore\" and \"besides\" and adds one more point: Maden er god, og desuden er den billig (The food is good, and besides, it is cheap).",
+  "forms": [
+   {
+    "da": "Desuden er jeg træt",
+    "en": "Besides, I am tired"
+   },
+   {
+    "da": "Desuden har vi ikke tid",
+    "en": "Besides, we have no time"
+   }
+  ],
+  "related": [
+   {
+    "da": "derudover",
+    "en": "in addition"
+   },
+   {
+    "da": "endvidere",
+    "en": "furthermore"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   },
+   {
+    "da": "yderligere",
+    "en": "further"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg er træt, og **desuden** er det sent.",
+   "en": "I am tired, and besides, it is late."
   }
  },
  "desværre": {
@@ -1015,6 +2506,41 @@
    "en": "Cafe today? That's a good idea."
   }
  },
+ "det er fint med mig": {
+  "explanation": "\"Det er fint med mig\" means \"that's fine with me\" and agrees to a plan: Skal vi mødes klokken fem? (Shall we meet at five?) Det er fint med mig. Change mig to dig to ask: Er det fint med dig? (Is that fine with you?).",
+  "forms": [
+   {
+    "da": "Det er fint med mig.",
+    "en": "That's fine with me."
+   },
+   {
+    "da": "Ja, det er fint med mig.",
+    "en": "Yes, that's fine with me."
+   },
+   {
+    "da": "Hvis det er fint med dig.",
+    "en": "If that's fine with you."
+   }
+  ],
+  "related": [
+   {
+    "da": "det er i orden",
+    "en": "that's okay"
+   },
+   {
+    "da": "det går fint",
+    "en": "that works"
+   },
+   {
+    "da": "det passer mig",
+    "en": "that suits me"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan mødes klokken fem, **det er fint med mig**.",
+   "en": "We can meet at five, that's fine with me."
+  }
+ },
  "det er i orden": {
   "explanation": "\"Det er i orden\" means \"it's okay\" or \"that's fine\". Danes say it in reply to undskyld (sorry) and to agree to a plan. I orden literally means \"in order\". Ask er det i orden? (is that okay?) to check if something suits the other person.",
   "forms": [
@@ -1085,6 +2611,45 @@
    "en": "Danish? It's not that hard."
   }
  },
+ "det er lige det": {
+  "explanation": "\"Det er lige det\" means \"that's exactly it\" and you say it when someone has hit the right point: Du er bare træt? Ja, det er lige det (You are just tired? Yes, that's exactly it). Lige det alone means \"exactly that\": Jeg ville have lige det (I wanted exactly that).",
+  "forms": [
+   {
+    "da": "Ja, det er lige det",
+    "en": "Yes, that's exactly it"
+   },
+   {
+    "da": "Det er lige det, jeg mener",
+    "en": "That's exactly what I mean"
+   },
+   {
+    "da": "Nej, det er ikke lige det",
+    "en": "No, that's not quite it"
+   }
+  ],
+  "related": [
+   {
+    "da": "præcis",
+    "en": "exactly"
+   },
+   {
+    "da": "netop",
+    "en": "precisely"
+   },
+   {
+    "da": "nemlig",
+    "en": "exactly / indeed"
+   },
+   {
+    "da": "det passer",
+    "en": "that's right"
+   }
+  ],
+  "sentence": {
+   "da": "Præcis, **det er lige det**, jeg mener.",
+   "en": "Exactly, that's just what I mean."
+  }
+ },
  "det er lige meget": {
   "explanation": "\"Det er lige meget\" means \"it doesn't matter\". Use it when you are happy with any choice. Careful with tone: Det er mig lige meget (I don't care) can sound rude, so say det gør ikke noget (it's no problem) when you want to be kind.",
   "forms": [
@@ -1118,6 +2683,41 @@
   "sentence": {
    "da": "Te eller kaffe? **Det er lige meget.**",
    "en": "Tea or coffee? It doesn't matter."
+  }
+ },
+ "det er min skyld": {
+  "explanation": "\"Det er min skyld\" means \"it's my fault\" and takes the blame: Undskyld, det er min skyld (Sorry, it's my fault). Change min to hans (his) to blame someone else: Det er hans skyld (It's his fault).",
+  "forms": [
+   {
+    "da": "Det er min skyld.",
+    "en": "It's my fault."
+   },
+   {
+    "da": "Det er din skyld.",
+    "en": "It's your fault."
+   },
+   {
+    "da": "Det er ikke din skyld.",
+    "en": "It's not your fault."
+   }
+  ],
+  "related": [
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   },
+   {
+    "da": "at beklage",
+    "en": "to regret, to apologize"
+   },
+   {
+    "da": "et ansvar",
+    "en": "a responsibility"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg glemte at ringe, **det er min skyld**.",
+   "en": "I forgot to call, it's my fault."
   }
  },
  "det er rigtigt": {
@@ -1192,6 +2792,84 @@
   "sentence": {
    "da": "Du kan ikke komme? **Det er synd!**",
    "en": "You can't come? That's a shame!"
+  }
+ },
+ "det giver ikke mening": {
+  "explanation": "\"Det giver ikke mening\" means \"that doesn't make sense\": Din plan giver ikke mening (Your plan doesn't make sense). For something you cannot follow, you can also say Jeg forstår det ikke (I don't understand).",
+  "forms": [
+   {
+    "da": "Det giver ikke mening",
+    "en": "That doesn't make sense"
+   },
+   {
+    "da": "Det her giver ikke mening",
+    "en": "This doesn't make sense"
+   },
+   {
+    "da": "Det giver slet ikke mening",
+    "en": "That makes no sense at all"
+   }
+  ],
+  "related": [
+   {
+    "da": "meningsløs",
+    "en": "meaningless"
+   },
+   {
+    "da": "absurd",
+    "en": "absurd"
+   },
+   {
+    "da": "uforståelig",
+    "en": "incomprehensible"
+   },
+   {
+    "da": "forvirrende",
+    "en": "confusing"
+   }
+  ],
+  "sentence": {
+   "da": "Du siger ja og nej, og **det giver ikke mening**.",
+   "en": "You say yes and no, and that doesn't make sense."
+  }
+ },
+ "det giver mening": {
+  "explanation": "\"Det giver mening\" means \"that makes sense\": Nu giver det mening (Now it makes sense). The word mening (meaning, sense) also means \"opinion\": Hvad er din mening? (What is your opinion?).",
+  "forms": [
+   {
+    "da": "Det giver mening",
+    "en": "That makes sense"
+   },
+   {
+    "da": "Det giver god mening",
+    "en": "That makes good sense"
+   },
+   {
+    "da": "Giver det mening?",
+    "en": "Does that make sense?"
+   }
+  ],
+  "related": [
+   {
+    "da": "det giver ikke mening",
+    "en": "that doesn't make sense"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "logisk",
+    "en": "logical"
+   },
+   {
+    "da": "fornuftig",
+    "en": "sensible"
+   }
+  ],
+  "sentence": {
+   "da": "Nu forstår jeg, og **det giver mening**.",
+   "en": "Now I understand, and that makes sense."
   }
  },
  "det går fint": {
@@ -1338,6 +3016,115 @@
    "en": "Will the weather be good? I hope so."
   }
  },
+ "det kan godt være": {
+  "explanation": "\"Det kan godt være\" means \"that may be\" and admits something could be true, often before you disagree: Det kan godt være, men jeg tvivler (That may be, but I doubt it).",
+  "forms": [
+   {
+    "da": "Det kan godt være.",
+    "en": "That may be."
+   },
+   {
+    "da": "Det kan godt være, men...",
+    "en": "That may be, but..."
+   },
+   {
+    "da": "Det kan godt være, du har ret.",
+    "en": "That may be, you could be right."
+   }
+  ],
+  "related": [
+   {
+    "da": "måske",
+    "en": "maybe"
+   },
+   {
+    "da": "muligvis",
+    "en": "possibly"
+   },
+   {
+    "da": "sandsynligvis",
+    "en": "probably"
+   }
+  ],
+  "sentence": {
+   "da": "**Det kan godt være**, men jeg ser det anderledes.",
+   "en": "That may be, but I see it differently."
+  }
+ },
+ "det kan man ikke vide": {
+  "explanation": "\"Det kan man ikke vide\" means \"you never know\" and is said when the future is uncertain: Måske vinder vi. Det kan man ikke vide (Maybe we will win. You never know). Literally it says that one cannot know it.",
+  "forms": [
+   {
+    "da": "Det kan man ikke vide.",
+    "en": "You never know."
+   },
+   {
+    "da": "Det ved man aldrig.",
+    "en": "You never know."
+   },
+   {
+    "da": "Hvem ved?",
+    "en": "Who knows?"
+   }
+  ],
+  "related": [
+   {
+    "da": "man ved aldrig",
+    "en": "you never know"
+   },
+   {
+    "da": "sikker",
+    "en": "sure"
+   },
+   {
+    "da": "tvivl",
+    "en": "doubt"
+   }
+  ],
+  "sentence": {
+   "da": "Måske bliver det godt. **Det kan man ikke vide**.",
+   "en": "Maybe it will be good. You never know."
+  }
+ },
+ "det kommer an på": {
+  "explanation": "\"Det kommer an på\" means \"it depends\": Kommer du? Det kommer an på vejret (Are you coming? It depends on the weather). It always ends with på (on) and then what it depends on.",
+  "forms": [
+   {
+    "da": "det kommer an på dig",
+    "en": "it depends on you"
+   },
+   {
+    "da": "det kommer an på prisen",
+    "en": "it depends on the price"
+   },
+   {
+    "da": "det kommer an på hvornår",
+    "en": "it depends on when"
+   }
+  ],
+  "related": [
+   {
+    "da": "det afhænger af",
+    "en": "it depends on"
+   },
+   {
+    "da": "afhængig af",
+    "en": "dependent on"
+   },
+   {
+    "da": "hvis",
+    "en": "if"
+   },
+   {
+    "da": "alt efter",
+    "en": "depending on"
+   }
+  ],
+  "sentence": {
+   "da": "**Det kommer an på** hvor meget det koster.",
+   "en": "It depends on how much it costs."
+  }
+ },
  "det lyder godt": {
   "explanation": "\"Det lyder godt\" means \"that sounds good\". Use it to react positively to a plan, an offer or an idea. At lyde means \"to sound\". Put rigtig (really) before godt (good) to sound more enthusiastic: Det lyder rigtig godt.",
   "forms": [
@@ -1371,6 +3158,80 @@
   "sentence": {
    "da": "Middag klokken seks? **Det lyder godt.**",
    "en": "Dinner at six? That sounds good."
+  }
+ },
+ "det passer": {
+  "explanation": "\"Det passer\" means \"that's true\" and confirms a fact: Du bor i Aarhus, ikke? (You live in Aarhus, right?) Det passer. Add ikke to say the opposite: Det passer ikke (That's not true).",
+  "forms": [
+   {
+    "da": "Det passer.",
+    "en": "That's true."
+   },
+   {
+    "da": "Ja, det passer.",
+    "en": "Yes, that's true."
+   },
+   {
+    "da": "Det passer, jeg var der.",
+    "en": "That's true, I was there."
+   }
+  ],
+  "related": [
+   {
+    "da": "det er rigtigt",
+    "en": "that's right"
+   },
+   {
+    "da": "det stemmer",
+    "en": "that's correct"
+   },
+   {
+    "da": "præcis",
+    "en": "exactly"
+   }
+  ],
+  "sentence": {
+   "da": "Du er fra Norge, ikke? Ja, **det passer**.",
+   "en": "You are from Norway, right? Yes, that's true."
+  }
+ },
+ "det passer ikke": {
+  "explanation": "\"Det passer ikke\" means \"that's not true\" and corrects a wrong claim: Du ringede aldrig! (You never called!) Det passer ikke, jeg ringede i går (That's not true, I called yesterday). Without ikke it says the claim is true.",
+  "forms": [
+   {
+    "da": "Det passer ikke.",
+    "en": "That's not true."
+   },
+   {
+    "da": "Nej, det passer ikke.",
+    "en": "No, that's not true."
+   },
+   {
+    "da": "Det passer ikke, jeg ringede.",
+    "en": "That's not true, I called."
+   }
+  ],
+  "related": [
+   {
+    "da": "det er forkert",
+    "en": "that's wrong"
+   },
+   {
+    "da": "det stemmer ikke",
+    "en": "that's not correct"
+   },
+   {
+    "da": "nej da",
+    "en": "of course not"
+   },
+   {
+    "da": "sludder",
+    "en": "nonsense"
+   }
+  ],
+  "sentence": {
+   "da": "**Det passer ikke**, jeg var der ikke i går.",
+   "en": "That's not true, I wasn't there yesterday."
   }
  },
  "det tror jeg": {
@@ -1443,6 +3304,41 @@
    "en": "Is it raining today? I don't think so."
   }
  },
+ "det var dog utroligt": {
+  "explanation": "\"Det var dog utroligt\" means \"that's incredible\" and reacts to surprising news. The little word dog (though) adds surprise: Han vandt tre gange! Det var dog utroligt! (He won three times! That's incredible!).",
+  "forms": [
+   {
+    "da": "Det var dog utroligt!",
+    "en": "That's incredible!"
+   },
+   {
+    "da": "Det var dog utroligt, ikke?",
+    "en": "That's incredible, isn't it?"
+   },
+   {
+    "da": "Nej, det var dog utroligt!",
+    "en": "No, that's incredible!"
+   }
+  ],
+  "related": [
+   {
+    "da": "det er vildt",
+    "en": "that's wild"
+   },
+   {
+    "da": "det er ikke sandt",
+    "en": "that can't be true"
+   },
+   {
+    "da": "imponerende",
+    "en": "impressive"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vandt tre gange i træk, **det var dog utroligt**!",
+   "en": "She won three times in a row, that's incredible!"
+  }
+ },
  "det var så lidt": {
   "explanation": "\"Det var så lidt\" means \"you're welcome\" or \"don't mention it\". Word for word, it says it was so little, as if the favor was nothing. It is a warm, slightly informal answer to tak (thanks).",
   "forms": [
@@ -1513,6 +3409,84 @@
    "en": "Where is Peter? I don't know."
   }
  },
+ "det vil sige": {
+  "explanation": "\"Det vil sige\" means \"that is to say\" and is used before you explain or sum up: Jeg bor i Jylland, det vil sige i Aarhus (I live in Jutland, that is to say in Aarhus). In writing it is often shortened to dvs.",
+  "forms": [
+   {
+    "da": "det vil sige",
+    "en": "that is to say"
+   },
+   {
+    "da": "det vil sige i morgen",
+    "en": "that is to say tomorrow"
+   },
+   {
+    "da": "Det vil sige, at du kommer",
+    "en": "That is to say, you are coming"
+   }
+  ],
+  "related": [
+   {
+    "da": "med andre ord",
+    "en": "in other words"
+   },
+   {
+    "da": "altså",
+    "en": "so / that is"
+   },
+   {
+    "da": "nemlig",
+    "en": "namely"
+   },
+   {
+    "da": "kort sagt",
+    "en": "in short"
+   }
+  ],
+  "sentence": {
+   "da": "Vi mødes klokken otte, **det vil sige** om en time.",
+   "en": "We meet at eight, that is to say in an hour."
+  }
+ },
+ "dets": {
+  "explanation": "\"Dets\" means \"its\" and belongs to something that is an et-word: Æblet er rødt, og dets smag er sød (The apple is red and its taste is sweet). Things that are en-words use a different word.",
+  "forms": [
+   {
+    "da": "dets navn",
+    "en": "its name"
+   },
+   {
+    "da": "dets tag",
+    "en": "its roof"
+   },
+   {
+    "da": "dets vinduer",
+    "en": "its windows"
+   }
+  ],
+  "related": [
+   {
+    "da": "dens",
+    "en": "its (en-word)"
+   },
+   {
+    "da": "sin",
+    "en": "his / her / its own"
+   },
+   {
+    "da": "hendes",
+    "en": "her"
+   },
+   {
+    "da": "deres",
+    "en": "their"
+   }
+  ],
+  "sentence": {
+   "da": "Huset er gammelt, men **dets** tag er nyt.",
+   "en": "The house is old, but its roof is new."
+  }
+ },
  "dette": {
   "explanation": "\"Dette\" means \"this\" with a word that takes et: dette hus (this house). With a word that takes en, use denne: denne bil (this car). It sounds a bit formal; in everyday speech Danes say det her: Jeg vil have det her (I want this one).",
   "forms": [
@@ -1546,6 +3520,80 @@
   "sentence": {
    "da": "Jeg vil købe **dette** hus.",
    "en": "I want to buy this house."
+  }
+ },
+ "diarré": {
+  "explanation": "\"Diarré\" means \"diarrhea\": Barnet har diarré (The child has diarrhea). It often comes with mavesyge (a stomach bug).",
+  "forms": [
+   {
+    "da": "diarré",
+    "en": "diarrhea"
+   },
+   {
+    "da": "diarréen",
+    "en": "the diarrhea"
+   },
+   {
+    "da": "Jeg har diarré.",
+    "en": "I have diarrhea."
+   }
+  ],
+  "related": [
+   {
+    "da": "at kaste op",
+    "en": "to vomit"
+   },
+   {
+    "da": "kvalme",
+    "en": "nausea"
+   },
+   {
+    "da": "en mavepine",
+    "en": "a stomach ache"
+   },
+   {
+    "da": "en forstoppelse",
+    "en": "constipation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har **diarré** og skal blive hjemme.",
+   "en": "I have diarrhea and have to stay home."
+  }
+ },
+ "diesel": {
+  "explanation": "\"Diesel\" means \"diesel\", a fuel used by many vans and trucks: Bilen kører på diesel (The car runs on diesel). Do not mix it up with benzin (gasoline).",
+  "forms": [
+   {
+    "da": "diesel",
+    "en": "diesel"
+   },
+   {
+    "da": "dieselen",
+    "en": "the diesel"
+   },
+   {
+    "da": "en liter diesel",
+    "en": "a liter of diesel"
+   }
+  ],
+  "related": [
+   {
+    "da": "et brændstof",
+    "en": "a fuel"
+   },
+   {
+    "da": "en tankstation",
+    "en": "a gas station"
+   },
+   {
+    "da": "en tank",
+    "en": "a tank"
+   }
+  ],
+  "sentence": {
+   "da": "Varebilen kører på **diesel**, ikke på benzin.",
+   "en": "The van runs on diesel, not on gasoline."
   }
  },
  "dig": {
@@ -1620,6 +3668,45 @@
   "sentence": {
    "da": "Klokken har kun tal. Den er **digital**.",
    "en": "The clock has only numbers. It is digital."
+  }
+ },
+ "dild": {
+  "explanation": "\"Dild\" means \"dill\", a green herb that goes well with fish: Laks med dild (Salmon with dill). It is also used on new potatoes: Nye kartofler med dild (New potatoes with dill).",
+  "forms": [
+   {
+    "da": "dild",
+    "en": "dill"
+   },
+   {
+    "da": "dilden",
+    "en": "the dill"
+   },
+   {
+    "da": "frisk dild",
+    "en": "fresh dill"
+   }
+  ],
+  "related": [
+   {
+    "da": "persille",
+    "en": "parsley"
+   },
+   {
+    "da": "purløg",
+    "en": "chives"
+   },
+   {
+    "da": "koriander",
+    "en": "cilantro"
+   },
+   {
+    "da": "timian",
+    "en": "thyme"
+   }
+  ],
+  "sentence": {
+   "da": "Fisken smager godt med **dild**.",
+   "en": "The fish tastes good with dill."
   }
  },
  "din": {
@@ -1700,6 +3787,45 @@
    "en": "Put your shoes on."
   }
  },
+ "direkte": {
+  "explanation": "\"Direkte\" means \"directly\" and also \"direct\": Gå direkte til lægen (Go straight to the doctor). A direct train or flight has no stops on the way: et direkte tog (a direct train).",
+  "forms": [
+   {
+    "da": "Jeg går direkte hjem",
+    "en": "I go straight home"
+   },
+   {
+    "da": "et direkte fly",
+    "en": "a direct flight"
+   },
+   {
+    "da": "Ring direkte til mig",
+    "en": "Call me directly"
+   }
+  ],
+  "related": [
+   {
+    "da": "indirekte",
+    "en": "indirect"
+   },
+   {
+    "da": "ligeud",
+    "en": "straight ahead"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   },
+   {
+    "da": "en omvej",
+    "en": "a detour"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **direkte** hjem efter arbejde.",
+   "en": "I go straight home after work."
+  }
+ },
  "disse": {
   "explanation": "\"Disse\" means \"these\": disse sko (these shoes). For one thing, it is denne or \"dette\": denne sko (this shoe), dette hus (this house). It sounds a bit formal; in everyday speech, Danes say de her: de her sko (these shoes).",
   "forms": [
@@ -1774,6 +3900,45 @@
    "en": "What is your name?"
   }
  },
+ "dobbelt": {
+  "explanation": "\"Dobbelt\" means \"double\" and \"twice as much\": Jeg tog en dobbelt espresso (I took a double espresso). It starts many words, such as dobbeltværelse (double room).",
+  "forms": [
+   {
+    "da": "Det koster dobbelt",
+    "en": "It costs double"
+   },
+   {
+    "da": "en dobbelt portion",
+    "en": "a double portion"
+   },
+   {
+    "da": "dobbelt så meget",
+    "en": "twice as much"
+   }
+  ],
+  "related": [
+   {
+    "da": "halv",
+    "en": "half"
+   },
+   {
+    "da": "tredobbelt",
+    "en": "triple"
+   },
+   {
+    "da": "en dobbeltseng",
+    "en": "a double bed"
+   },
+   {
+    "da": "enkelt",
+    "en": "single"
+   }
+  ],
+  "sentence": {
+   "da": "Det koster **dobbelt** så meget i byen.",
+   "en": "It costs twice as much in the city."
+  }
+ },
  "dog": {
   "explanation": "\"Dog\" means \"though\", \"still\" or \"anyway\". It adds a little contrast: Det er dyrt, men jeg køber det dog (It is expensive, but I am buying it anyway). In a command, it makes the request friendlier: Kom dog ind! (Do come in!). It is not the same as men (but): Han er sød, men sur (He is sweet but grumpy).",
   "forms": [
@@ -1807,6 +3972,162 @@
   "sentence": {
    "da": "Kom **dog** ind, Peter!",
    "en": "Do come in, Peter!"
+  }
+ },
+ "doven": {
+  "explanation": "\"Doven\" means \"lazy\" and describes someone who avoids work: Han er for doven til at rydde op (He is too lazy to clean up). The opposite is flittig (diligent).",
+  "forms": [
+   {
+    "da": "en doven dreng",
+    "en": "a lazy boy"
+   },
+   {
+    "da": "et dovent barn",
+    "en": "a lazy child"
+   },
+   {
+    "da": "dovne børn",
+    "en": "lazy children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dovenpind",
+    "en": "a lazybones"
+   },
+   {
+    "da": "at dovne",
+    "en": "to laze around"
+   },
+   {
+    "da": "sløv",
+    "en": "sluggish"
+   },
+   {
+    "da": "energisk",
+    "en": "energetic"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **doven** og ligger i sofaen hele dagen.",
+   "en": "He is lazy and lies on the sofa all day."
+  }
+ },
+ "dressing": {
+  "explanation": "\"En dressing\" means \"a dressing\", the cold sauce you put on a salad: Vil du have dressing på salaten? (Do you want dressing on the salad?) A warm sauce with meat is en sovs (a sauce) instead.",
+  "forms": [
+   {
+    "da": "en dressing",
+    "en": "a dressing"
+   },
+   {
+    "da": "dressingen",
+    "en": "the dressing"
+   },
+   {
+    "da": "dressinger",
+    "en": "dressings"
+   },
+   {
+    "da": "dressingerne",
+    "en": "the dressings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en marinade",
+    "en": "a marinade"
+   },
+   {
+    "da": "en vinaigrette",
+    "en": "a vinaigrette"
+   },
+   {
+    "da": "mayonnaise",
+    "en": "mayonnaise"
+   },
+   {
+    "da": "remoulade",
+    "en": "remoulade"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver en **dressing** til salaten.",
+   "en": "I make a dressing for the salad."
+  }
+ },
+ "drikkepenge": {
+  "explanation": "\"Drikkepenge\" means \"a tip\", the extra money you give for good service. It is used without en or et: Tak, behold resten som drikkepenge (Thanks, keep the change as a tip).",
+  "forms": [
+   {
+    "da": "give drikkepenge",
+    "en": "to give a tip"
+   },
+   {
+    "da": "få drikkepenge",
+    "en": "to get a tip"
+   },
+   {
+    "da": "gode drikkepenge",
+    "en": "a good tip"
+   }
+  ],
+  "related": [
+   {
+    "da": "en belønning",
+    "en": "a reward"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en bonus",
+    "en": "a bonus"
+   }
+  ],
+  "sentence": {
+   "da": "Vi gav tjeneren **drikkepenge**, fordi maden var god.",
+   "en": "We gave the waiter a tip because the food was good."
+  }
+ },
+ "drikkevarer": {
+  "explanation": "\"Drikkevarer\" means \"drinks\" or \"beverages\" as a group, like on a menu or in a shop: Mad og drikkevarer (Food and drinks). For one single drink, say en drik: en kold drik (a cold drink).",
+  "forms": [
+   {
+    "da": "Vi sælger drikkevarer.",
+    "en": "We sell drinks."
+   },
+   {
+    "da": "en drikkevare",
+    "en": "a drink / beverage"
+   },
+   {
+    "da": "alle drikkevarerne",
+    "en": "all the drinks"
+   }
+  ],
+  "related": [
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "fødevarer",
+    "en": "food products"
+   },
+   {
+    "da": "en sodavand",
+    "en": "a soda"
+   },
+   {
+    "da": "en saft",
+    "en": "a fruit cordial"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sælger mad og **drikkevarer** i kiosken.",
+   "en": "We sell food and drinks in the kiosk."
   }
  },
  "du": {
@@ -1914,6 +4235,45 @@
    "en": "The lake is too deep for children."
   }
  },
+ "dygtig": {
+  "explanation": "\"Dygtig\" means \"skilled\" or \"capable\", good at what you do: Hun er dygtig til sprog (She is good at languages). Dygtig! is also a way to say \"Well done!\"",
+  "forms": [
+   {
+    "da": "en dygtig læge",
+    "en": "a skilled doctor"
+   },
+   {
+    "da": "et dygtigt hold",
+    "en": "a capable team"
+   },
+   {
+    "da": "dygtige elever",
+    "en": "capable students"
+   }
+  ],
+  "related": [
+   {
+    "da": "duelig",
+    "en": "capable"
+   },
+   {
+    "da": "talentfuld",
+    "en": "talented"
+   },
+   {
+    "da": "erfaren",
+    "en": "experienced"
+   },
+   {
+    "da": "flink",
+    "en": "good, diligent"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **dygtig** og lærer hurtigt.",
+   "en": "He is capable and learns quickly."
+  }
+ },
  "dyr": {
   "explanation": "\"Dyr\" means \"expensive\", as in Det er for dyrt (It is too expensive). Be careful: et dyr is also a word of its own meaning \"an animal\".",
   "forms": [
@@ -1986,6 +4346,41 @@
   "sentence": {
    "da": "Jeg er syg og har en **dårlig** dag.",
    "en": "I am sick and having a bad day."
+  }
+ },
+ "dårlig til": {
+  "explanation": "\"Dårlig til\" means \"bad at\": Jeg er dårlig til matematik (I am bad at math). Before an action, add at: dårlig til at tegne (bad at drawing).",
+  "forms": [
+   {
+    "da": "Jeg er dårlig til at lave mad.",
+    "en": "I am bad at cooking."
+   },
+   {
+    "da": "Han er dårlig til sprog.",
+    "en": "He is bad at languages."
+   },
+   {
+    "da": "Vi er dårlige til at danse.",
+    "en": "We are bad at dancing."
+   }
+  ],
+  "related": [
+   {
+    "da": "god til",
+    "en": "good at"
+   },
+   {
+    "da": "dygtig til",
+    "en": "skilled at"
+   },
+   {
+    "da": "elendig til",
+    "en": "terrible at"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **dårlig til** at svømme, men han prøver.",
+   "en": "He is bad at swimming, but he tries."
   }
  },
  "død": {
@@ -2066,6 +4461,166 @@
    "en": "Monday is the first day of the week."
   }
  },
+ "en dagbog": {
+  "explanation": "\"En dagbog\" means \"a diary\", a book where you write about your own days: Min dagbog er privat (My diary is private). It is built from dag (day) and bog (book).",
+  "forms": [
+   {
+    "da": "en dagbog",
+    "en": "a diary"
+   },
+   {
+    "da": "dagbogen",
+    "en": "the diary"
+   },
+   {
+    "da": "dagbøger",
+    "en": "diaries"
+   },
+   {
+    "da": "dagbøgerne",
+    "en": "the diaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kalender",
+    "en": "a calendar"
+   },
+   {
+    "da": "en notesbog",
+    "en": "a notebook"
+   },
+   {
+    "da": "en blog",
+    "en": "a blog"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skriver hver aften i sin **dagbog**.",
+   "en": "She writes in her diary every evening."
+  }
+ },
+ "en dagsrejse": {
+  "explanation": "\"En dagsrejse\" means \"a day trip\", a trip you start and finish in one day: Det er en lang dagsrejse til Jylland (It is a long day trip to Jutland).",
+  "forms": [
+   {
+    "da": "en dagsrejse",
+    "en": "a day trip"
+   },
+   {
+    "da": "dagsrejsen",
+    "en": "the day trip"
+   },
+   {
+    "da": "dagsrejser",
+    "en": "day trips"
+   },
+   {
+    "da": "dagsrejserne",
+    "en": "the day trips"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dagstur",
+    "en": "a day outing"
+   },
+   {
+    "da": "en udflugt",
+    "en": "an excursion"
+   },
+   {
+    "da": "en weekendtur",
+    "en": "a weekend trip"
+   },
+   {
+    "da": "en ferie",
+    "en": "a vacation"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager på en **dagsrejse** og er hjemme i aften.",
+   "en": "We go on a day trip and are home tonight."
+  }
+ },
+ "en dal": {
+  "explanation": "\"En dal\" means \"a valley\", low land between hills or mountains: Landsbyen ligger i en grøn dal (The village lies in a green valley). Floden løber gennem dalen (The river runs through the valley).",
+  "forms": [
+   {
+    "da": "en dal",
+    "en": "a valley"
+   },
+   {
+    "da": "dalen",
+    "en": "the valley"
+   },
+   {
+    "da": "dale",
+    "en": "valleys"
+   },
+   {
+    "da": "dalene",
+    "en": "the valleys"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bakke",
+    "en": "a hill"
+   },
+   {
+    "da": "et bjerg",
+    "en": "a mountain"
+   },
+   {
+    "da": "en kløft",
+    "en": "a gorge"
+   }
+  ],
+  "sentence": {
+   "da": "Floden løber gennem en smuk **dal**.",
+   "en": "The river runs through a beautiful valley."
+  }
+ },
+ "en dam": {
+  "explanation": "\"En dam\" means \"a pond\", a small body of still water: Der svømmer ænder i dammen (Ducks swim in the pond). A bigger one is en sø (a lake).",
+  "forms": [
+   {
+    "da": "en dam",
+    "en": "a pond"
+   },
+   {
+    "da": "dammen",
+    "en": "the pond"
+   },
+   {
+    "da": "damme",
+    "en": "ponds"
+   },
+   {
+    "da": "dammene",
+    "en": "the ponds"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vandpyt",
+    "en": "a puddle"
+   },
+   {
+    "da": "et vandhul",
+    "en": "a waterhole"
+   },
+   {
+    "da": "et gadekær",
+    "en": "a village pond"
+   }
+  ],
+  "sentence": {
+   "da": "Der bor mange frøer i den lille **dam**.",
+   "en": "Many frogs live in the little pond."
+  }
+ },
  "en dame": {
   "explanation": "\"En dame\" means \"a lady\", a polite word for a woman. You often see Damer on a restroom door, meaning the women's restroom. Mine damer og herrer means \"Ladies and gentlemen\".",
   "forms": [
@@ -2103,6 +4658,88 @@
   "sentence": {
    "da": "Den **dame** i kjole er min tante.",
    "en": "The lady in the dress is my aunt."
+  }
+ },
+ "en dans": {
+  "explanation": "\"En dans\" means \"a dance\": Vi lærer en ny dans (We are learning a new dance). The action is at danse (to dance): Jeg danser hver weekend (I dance every weekend).",
+  "forms": [
+   {
+    "da": "en dans",
+    "en": "a dance"
+   },
+   {
+    "da": "dansen",
+    "en": "the dance"
+   },
+   {
+    "da": "danse",
+    "en": "dances"
+   },
+   {
+    "da": "dansene",
+    "en": "the dances"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dansegulv",
+    "en": "a dance floor"
+   },
+   {
+    "da": "en danseskole",
+    "en": "a dance school"
+   },
+   {
+    "da": "en vals",
+    "en": "a waltz"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har lært en ny **dans** til festen.",
+   "en": "I have learned a new dance for the party."
+  }
+ },
+ "en danser": {
+  "explanation": "\"En danser\" means \"a dancer\", a person who dances, for fun or as a job: Hun er danser i et teater (She is a dancer in a theater).",
+  "forms": [
+   {
+    "da": "en danser",
+    "en": "a dancer"
+   },
+   {
+    "da": "danseren",
+    "en": "the dancer"
+   },
+   {
+    "da": "dansere",
+    "en": "dancers"
+   },
+   {
+    "da": "danserne",
+    "en": "the dancers"
+   }
+  ],
+  "related": [
+   {
+    "da": "at danse",
+    "en": "to dance"
+   },
+   {
+    "da": "en dans",
+    "en": "a dance"
+   },
+   {
+    "da": "en sanger",
+    "en": "a singer"
+   },
+   {
+    "da": "en musiker",
+    "en": "a musician"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er en god **danser**, og hun øver hver dag.",
+   "en": "She is a good dancer, and she practices every day."
   }
  },
  "en dansker": {
@@ -2146,6 +4783,88 @@
   "sentence": {
    "da": "Han bor i Danmark og er **dansker**.",
    "en": "He lives in Denmark and is a Dane."
+  }
+ },
+ "en database": {
+  "explanation": "\"En database\" means \"a database\", a place where a company or a program keeps lots of information: Banken har en database med alle kunder (The bank has a database with all its customers).",
+  "forms": [
+   {
+    "da": "en database",
+    "en": "a database"
+   },
+   {
+    "da": "databasen",
+    "en": "the database"
+   },
+   {
+    "da": "databaser",
+    "en": "databases"
+   },
+   {
+    "da": "databaserne",
+    "en": "the databases"
+   }
+  ],
+  "related": [
+   {
+    "da": "data",
+    "en": "data"
+   },
+   {
+    "da": "en server",
+    "en": "a server"
+   },
+   {
+    "da": "en fil",
+    "en": "a file"
+   }
+  ],
+  "sentence": {
+   "da": "Vi gemmer alle navne i en **database**.",
+   "en": "We save all the names in a database."
+  }
+ },
+ "en date": {
+  "explanation": "\"En date\" means \"a date\", a romantic meeting between two people: Jeg har en date i aften (I have a date tonight). It is not a date on the calendar. That is en dato (a date).",
+  "forms": [
+   {
+    "da": "en date",
+    "en": "a date"
+   },
+   {
+    "da": "daten",
+    "en": "the date"
+   },
+   {
+    "da": "dates",
+    "en": "dates"
+   },
+   {
+    "da": "datene",
+    "en": "the dates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend / girlfriend"
+   },
+   {
+    "da": "en aftale",
+    "en": "an appointment"
+   },
+   {
+    "da": "et forhold",
+    "en": "a relationship"
+   },
+   {
+    "da": "en flirt",
+    "en": "a flirt"
+   }
+  ],
+  "sentence": {
+   "da": "Han har en **date** i aften og er meget nervøs.",
+   "en": "He has a date tonight and is very nervous."
   }
  },
  "en dato": {
@@ -2234,6 +4953,471 @@
    "en": "I have a son and a daughter."
   }
  },
+ "en deadline": {
+  "explanation": "\"En deadline\" means \"a deadline\": Deadlinen er snart (The deadline is soon). Danish also has en frist (a time limit).",
+  "forms": [
+   {
+    "da": "en deadline",
+    "en": "a deadline"
+   },
+   {
+    "da": "deadlinen",
+    "en": "the deadline"
+   },
+   {
+    "da": "deadlines",
+    "en": "deadlines"
+   },
+   {
+    "da": "deadlinene",
+    "en": "the deadlines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tidsplan",
+    "en": "a schedule"
+   },
+   {
+    "da": "at udsætte",
+    "en": "to postpone"
+   },
+   {
+    "da": "en afleveringsfrist",
+    "en": "a submission deadline"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **deadline** på fredag.",
+   "en": "I have a deadline on Friday."
+  }
+ },
+ "en deciliter": {
+  "explanation": "\"En deciliter\" means \"a deciliter\", one tenth of a liter, often used in recipes: Opskriften bruger fem deciliter mælk (The recipe uses five deciliters of milk). After a number, it stays deciliter.",
+  "forms": [
+   {
+    "da": "en deciliter",
+    "en": "a deciliter"
+   },
+   {
+    "da": "deciliteren",
+    "en": "the deciliter"
+   },
+   {
+    "da": "deciliter",
+    "en": "deciliters"
+   },
+   {
+    "da": "deciliterne",
+    "en": "the deciliters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en centiliter",
+    "en": "a centiliter"
+   },
+   {
+    "da": "en milliliter",
+    "en": "a milliliter"
+   },
+   {
+    "da": "en spiseskefuld",
+    "en": "a tablespoon"
+   },
+   {
+    "da": "en teskefuld",
+    "en": "a teaspoon"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger to **deciliter** mel i brødet.",
+   "en": "I use two deciliters of flour in the bread."
+  }
+ },
+ "en definition": {
+  "explanation": "\"En definition\" means \"a definition\", an exact explanation of what a word means: Hvad er definitionen på frihed? (What is the definition of freedom?). The word after på says which word is being defined.",
+  "forms": [
+   {
+    "da": "en definition",
+    "en": "a definition"
+   },
+   {
+    "da": "definitionen",
+    "en": "the definition"
+   },
+   {
+    "da": "definitioner",
+    "en": "definitions"
+   },
+   {
+    "da": "definitionerne",
+    "en": "the definitions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at definere",
+    "en": "to define"
+   },
+   {
+    "da": "en forklaring",
+    "en": "an explanation"
+   },
+   {
+    "da": "en betydning",
+    "en": "a meaning"
+   },
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kender ikke ordets **definition**.",
+   "en": "I do not know the definition of the word."
+  }
+ },
+ "en dej": {
+  "explanation": "\"En dej\" means \"a dough\", and also \"a batter\", the soft mix you make before baking: Dejen skal hæve (The dough has to rise).",
+  "forms": [
+   {
+    "da": "en dej",
+    "en": "a dough"
+   },
+   {
+    "da": "dejen",
+    "en": "the dough"
+   },
+   {
+    "da": "dejer",
+    "en": "doughs"
+   },
+   {
+    "da": "dejene",
+    "en": "the doughs"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ælte",
+    "en": "to knead"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "gær",
+    "en": "yeast"
+   },
+   {
+    "da": "en røre",
+    "en": "a batter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg laver **dej** af mel og vand.",
+   "en": "I make dough from flour and water."
+  }
+ },
+ "en dekoration": {
+  "explanation": "\"En dekoration\" means \"a decoration\", something that makes a room or a table look nicer: Der er flotte dekorationer i stuen (There are beautiful decorations in the living room). The action is at dekorere (to decorate).",
+  "forms": [
+   {
+    "da": "en dekoration",
+    "en": "a decoration"
+   },
+   {
+    "da": "dekorationen",
+    "en": "the decoration"
+   },
+   {
+    "da": "dekorationer",
+    "en": "decorations"
+   },
+   {
+    "da": "dekorationerne",
+    "en": "the decorations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at pynte",
+    "en": "to decorate"
+   },
+   {
+    "da": "pynt",
+    "en": "ornaments"
+   },
+   {
+    "da": "julepynt",
+    "en": "Christmas decorations"
+   },
+   {
+    "da": "en udsmykning",
+    "en": "an ornament"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg køber en **dekoration** til bordet.",
+   "en": "I am buying a decoration for the table."
+  }
+ },
+ "en del": {
+  "explanation": "\"En del\" means \"a part\": Det er en del af planen (It is part of the plan). It also means \"quite a lot\": Der er en del mennesker her (There are quite a few people here).",
+  "forms": [
+   {
+    "da": "en del",
+    "en": "a part"
+   },
+   {
+    "da": "delen",
+    "en": "the part"
+   },
+   {
+    "da": "dele",
+    "en": "parts"
+   },
+   {
+    "da": "delene",
+    "en": "the parts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et stykke",
+    "en": "a piece"
+   },
+   {
+    "da": "at dele",
+    "en": "to share / divide"
+   },
+   {
+    "da": "hel",
+    "en": "whole"
+   },
+   {
+    "da": "en halvdel",
+    "en": "a half"
+   }
+  ],
+  "sentence": {
+   "da": "Musik er en stor **del** af mit liv.",
+   "en": "Music is a big part of my life."
+  }
+ },
+ "en delfin": {
+  "explanation": "\"En delfin\" means \"a dolphin\", a smart sea animal that jumps out of the water: Delfinen hopper højt (The dolphin jumps high). Delfiner svømmer ofte i store grupper (Dolphins often swim in big groups).",
+  "forms": [
+   {
+    "da": "en delfin",
+    "en": "a dolphin"
+   },
+   {
+    "da": "delfinen",
+    "en": "the dolphin"
+   },
+   {
+    "da": "delfiner",
+    "en": "dolphins"
+   },
+   {
+    "da": "delfinerne",
+    "en": "the dolphins"
+   }
+  ],
+  "related": [
+   {
+    "da": "en spækhugger",
+    "en": "an orca"
+   },
+   {
+    "da": "en sæl",
+    "en": "a seal"
+   },
+   {
+    "da": "en blåhval",
+    "en": "a blue whale"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg så en **delfin** hoppe op af vandet.",
+   "en": "I saw a dolphin jump out of the water."
+  }
+ },
+ "en deltager": {
+  "explanation": "\"En deltager\" means \"a participant\", someone who takes part in something. It comes from at deltage (to take part): Der er tyve deltagere på kurset (There are twenty participants on the course).",
+  "forms": [
+   {
+    "da": "en deltager",
+    "en": "a participant"
+   },
+   {
+    "da": "deltageren",
+    "en": "the participant"
+   },
+   {
+    "da": "deltagere",
+    "en": "participants"
+   },
+   {
+    "da": "deltagerne",
+    "en": "the participants"
+   }
+  ],
+  "related": [
+   {
+    "da": "en deltagelse",
+    "en": "participation"
+   },
+   {
+    "da": "en arrangør",
+    "en": "an organizer"
+   },
+   {
+    "da": "en tilskuer",
+    "en": "a spectator"
+   },
+   {
+    "da": "et medlem",
+    "en": "a member"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **deltager** får en lille gave.",
+   "en": "Each participant gets a small gift."
+  }
+ },
+ "en deltagerliste": {
+  "explanation": "\"En deltagerliste\" means \"a list of participants\". It is built from en deltager (a participant) and en liste (a list): Er jeg på deltagerlisten? (Am I on the participant list?).",
+  "forms": [
+   {
+    "da": "en deltagerliste",
+    "en": "a list of participants"
+   },
+   {
+    "da": "deltagerlisten",
+    "en": "the list of participants"
+   },
+   {
+    "da": "deltagerlister",
+    "en": "lists of participants"
+   },
+   {
+    "da": "deltagerlisterne",
+    "en": "the lists of participants"
+   }
+  ],
+  "related": [
+   {
+    "da": "at deltage",
+    "en": "to take part"
+   },
+   {
+    "da": "en tilmelding",
+    "en": "a registration"
+   },
+   {
+    "da": "en gæsteliste",
+    "en": "a guest list"
+   },
+   {
+    "da": "en tilmeldingsliste",
+    "en": "a sign-up list"
+   }
+  ],
+  "sentence": {
+   "da": "Der er tyve navne på vores **deltagerliste**.",
+   "en": "There are twenty names on our participant list."
+  }
+ },
+ "en deodorant": {
+  "explanation": "\"En deodorant\" means \"a deodorant\": Jeg bruger deodorant hver morgen (I use deodorant every morning).",
+  "forms": [
+   {
+    "da": "en deodorant",
+    "en": "a deodorant"
+   },
+   {
+    "da": "deodoranten",
+    "en": "the deodorant"
+   },
+   {
+    "da": "deodoranter",
+    "en": "deodorants"
+   },
+   {
+    "da": "deodoranterne",
+    "en": "the deodorants"
+   }
+  ],
+  "related": [
+   {
+    "da": "en parfume",
+    "en": "a perfume"
+   },
+   {
+    "da": "en sæbe",
+    "en": "a soap"
+   },
+   {
+    "da": "en tandpasta",
+    "en": "toothpaste"
+   },
+   {
+    "da": "en shampoo",
+    "en": "shampoo"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lugter ikke, fordi jeg bruger **deodorant**.",
+   "en": "I do not smell because I use deodorant."
+  }
+ },
+ "en designer": {
+  "explanation": "\"En designer\" means \"a designer\", someone who plans how things look, such as clothes, furniture or websites: Hun er designer (She is a designer).",
+  "forms": [
+   {
+    "da": "en designer",
+    "en": "a designer"
+   },
+   {
+    "da": "designeren",
+    "en": "the designer"
+   },
+   {
+    "da": "designere",
+    "en": "designers"
+   },
+   {
+    "da": "designerne",
+    "en": "the designers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et design",
+    "en": "a design"
+   },
+   {
+    "da": "at designe",
+    "en": "to design"
+   },
+   {
+    "da": "en arkitekt",
+    "en": "an architect"
+   },
+   {
+    "da": "en kunstner",
+    "en": "an artist"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **designer** og laver smukt tøj.",
+   "en": "She is a designer and makes beautiful clothes."
+  }
+ },
  "en dessert": {
   "explanation": "\"En dessert\" means \"a dessert\", the sweet dish at the end of a meal. It is spelled like the English word, but the stress is at the end: des-SERT.",
   "forms": [
@@ -2271,6 +5455,213 @@
   "sentence": {
    "da": "Efter maden vil jeg have en **dessert**.",
    "en": "After the meal I want a dessert."
+  }
+ },
+ "en destination": {
+  "explanation": "\"En destination\" means \"a destination\", the place a trip is going to: Min destination er Rom (My destination is Rome).",
+  "forms": [
+   {
+    "da": "en destination",
+    "en": "a destination"
+   },
+   {
+    "da": "destinationen",
+    "en": "the destination"
+   },
+   {
+    "da": "destinationer",
+    "en": "destinations"
+   },
+   {
+    "da": "destinationerne",
+    "en": "the destinations"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rejsemål",
+    "en": "a travel destination"
+   },
+   {
+    "da": "en rejse",
+    "en": "a trip"
+   },
+   {
+    "da": "en ankomst",
+    "en": "an arrival"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **destination** er en lille by ved havet.",
+   "en": "Our destination is a small town by the sea."
+  }
+ },
+ "en detalje": {
+  "explanation": "\"En detalje\" means \"a detail\", a small part of something bigger: Jeg husker ikke detaljerne (I don't remember the details). Hun forklarede alt i detaljer (She explained everything in detail).",
+  "forms": [
+   {
+    "da": "en detalje",
+    "en": "a detail"
+   },
+   {
+    "da": "detaljen",
+    "en": "the detail"
+   },
+   {
+    "da": "detaljer",
+    "en": "details"
+   },
+   {
+    "da": "detaljerne",
+    "en": "the details"
+   }
+  ],
+  "related": [
+   {
+    "da": "præcis",
+    "en": "exact"
+   },
+   {
+    "da": "nøjagtig",
+    "en": "precise"
+   },
+   {
+    "da": "en oplysning",
+    "en": "a piece of information"
+   }
+  ],
+  "sentence": {
+   "da": "Billedet er flot, men én **detalje** er forkert.",
+   "en": "The picture is nice, but one detail is wrong."
+  }
+ },
+ "en detektiv": {
+  "explanation": "\"En detektiv\" means \"a detective\", a person who finds out who did a crime: Detektiven løste sagen (The detective solved the case). It can be a police officer or a private person.",
+  "forms": [
+   {
+    "da": "en detektiv",
+    "en": "a detective"
+   },
+   {
+    "da": "detektiven",
+    "en": "the detective"
+   },
+   {
+    "da": "detektiver",
+    "en": "detectives"
+   },
+   {
+    "da": "detektiverne",
+    "en": "the detectives"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sag",
+    "en": "a case"
+   },
+   {
+    "da": "en ledetråd",
+    "en": "a clue"
+   },
+   {
+    "da": "en betjent",
+    "en": "a police officer"
+   },
+   {
+    "da": "en spion",
+    "en": "a spy"
+   }
+  ],
+  "sentence": {
+   "da": "Den kloge **detektiv** fandt hurtigt ud af sandheden.",
+   "en": "The clever detective quickly found out the truth."
+  }
+ },
+ "en direktør": {
+  "explanation": "\"En direktør\" means \"a director\" or \"a CEO\", the person who runs a whole company: Direktøren har et møde (The director has a meeting). A person who guides a smaller team is en leder (a leader).",
+  "forms": [
+   {
+    "da": "en direktør",
+    "en": "a director / CEO"
+   },
+   {
+    "da": "direktøren",
+    "en": "the director / CEO"
+   },
+   {
+    "da": "direktører",
+    "en": "directors"
+   },
+   {
+    "da": "direktørerne",
+    "en": "the directors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "an employee"
+   },
+   {
+    "da": "en bestyrelse",
+    "en": "a board"
+   },
+   {
+    "da": "en ejer",
+    "en": "an owner"
+   }
+  ],
+  "sentence": {
+   "da": "Min **direktør** har et møde i dag.",
+   "en": "My director has a meeting today."
+  }
+ },
+ "en diskussion": {
+  "explanation": "\"En diskussion\" means \"a discussion\": Der var en lang diskussion om politik (There was a long discussion about politics). It can be heated: Det blev en heftig diskussion (It became a heated discussion).",
+  "forms": [
+   {
+    "da": "en diskussion",
+    "en": "a discussion"
+   },
+   {
+    "da": "diskussionen",
+    "en": "the discussion"
+   },
+   {
+    "da": "diskussioner",
+    "en": "discussions"
+   },
+   {
+    "da": "diskussionerne",
+    "en": "the discussions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at diskutere",
+    "en": "to discuss"
+   },
+   {
+    "da": "en debat",
+    "en": "a debate"
+   },
+   {
+    "da": "en uenighed",
+    "en": "a disagreement"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   }
+  ],
+  "sentence": {
+   "da": "Vi havde en **diskussion** om, hvem der skulle betale.",
+   "en": "We had a discussion about who should pay."
   }
  },
  "en doktor": {
@@ -2312,6 +5703,45 @@
    "en": "I am sick and going to Doctor Hansen."
   }
  },
+ "en dokumentar": {
+  "explanation": "\"En dokumentar\" means \"a documentary\", a film about real events or real people: Vi så en dokumentar om dyr (We watched a documentary about animals). It is not a made-up story.",
+  "forms": [
+   {
+    "da": "en dokumentar",
+    "en": "a documentary"
+   },
+   {
+    "da": "dokumentaren",
+    "en": "the documentary"
+   },
+   {
+    "da": "dokumentarer",
+    "en": "documentaries"
+   },
+   {
+    "da": "dokumentarerne",
+    "en": "the documentaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en spillefilm",
+    "en": "a feature film"
+   },
+   {
+    "da": "et program",
+    "en": "a program"
+   },
+   {
+    "da": "en serie",
+    "en": "a series"
+   }
+  ],
+  "sentence": {
+   "da": "Vi så en **dokumentar** om havet i går.",
+   "en": "We watched a documentary about the sea yesterday."
+  }
+ },
  "en dollar": {
   "explanation": "\"En dollar\" means \"a dollar\". Hvad koster det i dollar? means \"What does it cost in dollars?\".",
   "forms": [
@@ -2345,6 +5775,131 @@
   "sentence": {
    "da": "Det koster ti **dollar**.",
    "en": "It costs ten dollars."
+  }
+ },
+ "en dommer": {
+  "explanation": "\"En dommer\" means \"a judge\", the person who decides a case in court: Dommeren siger, at han er skyldig (The judge says he is guilty). In sports it also means \"a referee\": Dommeren blæste i fløjten (The referee blew the whistle).",
+  "forms": [
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "dommeren",
+    "en": "the judge"
+   },
+   {
+    "da": "dommere",
+    "en": "judges"
+   },
+   {
+    "da": "dommerne",
+    "en": "the judges"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dom",
+    "en": "a verdict"
+   },
+   {
+    "da": "at dømme",
+    "en": "to judge"
+   },
+   {
+    "da": "en retssal",
+    "en": "a courtroom"
+   },
+   {
+    "da": "en advokat",
+    "en": "a lawyer"
+   }
+  ],
+  "sentence": {
+   "da": "I retten bestemmer en **dommer** straffen.",
+   "en": "In court, a judge decides the punishment."
+  }
+ },
+ "en donut": {
+  "explanation": "\"En donut\" means \"a donut\", the round fried ring with a hole in the middle, often with icing: Jeg tager en donut med glasur (I'll have a donut with icing).",
+  "forms": [
+   {
+    "da": "en donut",
+    "en": "a donut"
+   },
+   {
+    "da": "donutten",
+    "en": "the donut"
+   },
+   {
+    "da": "donuts",
+    "en": "donuts"
+   },
+   {
+    "da": "donutsene",
+    "en": "the donuts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kanelsnegl",
+    "en": "a cinnamon roll"
+   },
+   {
+    "da": "et wienerbrød",
+    "en": "a Danish pastry"
+   },
+   {
+    "da": "en muffin",
+    "en": "a muffin"
+   },
+   {
+    "da": "en kage",
+    "en": "a cake"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have en **donut** med chokolade.",
+   "en": "I would like a donut with chocolate."
+  }
+ },
+ "en drage": {
+  "explanation": "\"En drage\" means \"a dragon\", and also \"a kite\" you fly in the wind: Dragen spyr ild (The dragon breathes fire). Jeg har en rød drage (I have a red kite).",
+  "forms": [
+   {
+    "da": "en drage",
+    "en": "a dragon / kite"
+   },
+   {
+    "da": "dragen",
+    "en": "the dragon / kite"
+   },
+   {
+    "da": "drager",
+    "en": "dragons / kites"
+   },
+   {
+    "da": "dragerne",
+    "en": "the dragons / kites"
+   }
+  ],
+  "related": [
+   {
+    "da": "et uhyre",
+    "en": "a monster"
+   },
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale"
+   },
+   {
+    "da": "en ridder",
+    "en": "a knight"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene flyver med en **drage** på stranden.",
+   "en": "The kids fly a kite on the beach."
   }
  },
  "en dreng": {
@@ -2425,6 +5980,252 @@
    "en": "May I have a cold drink?"
   }
  },
+ "en drink": {
+  "explanation": "\"En drink\" means \"a drink\", but only a mixed one like a cocktail: Vil du have en drink? (Would you like a cocktail?) For any other drink, say noget at drikke (something to drink).",
+  "forms": [
+   {
+    "da": "en drink",
+    "en": "a drink (cocktail)"
+   },
+   {
+    "da": "drinken",
+    "en": "the drink (cocktail)"
+   },
+   {
+    "da": "drinks",
+    "en": "drinks (cocktails)"
+   },
+   {
+    "da": "drinksene",
+    "en": "the drinks (cocktails)"
+   }
+  ],
+  "related": [
+   {
+    "da": "et shot",
+    "en": "a shot"
+   },
+   {
+    "da": "en øl",
+    "en": "a beer"
+   },
+   {
+    "da": "en gin og tonic",
+    "en": "a gin and tonic"
+   },
+   {
+    "da": "et glas vin",
+    "en": "a glass of wine"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bestiller en **drink** i baren.",
+   "en": "She orders a cocktail at the bar."
+  }
+ },
+ "en dronning": {
+  "explanation": "\"En dronning\" means \"a queen\": Dronningen bor i et slot (The queen lives in a castle). It can be the ruler or the wife of a king.",
+  "forms": [
+   {
+    "da": "en dronning",
+    "en": "a queen"
+   },
+   {
+    "da": "dronningen",
+    "en": "the queen"
+   },
+   {
+    "da": "dronninger",
+    "en": "queens"
+   },
+   {
+    "da": "dronningerne",
+    "en": "the queens"
+   }
+  ],
+  "related": [
+   {
+    "da": "en prinsesse",
+    "en": "a princess"
+   },
+   {
+    "da": "en prins",
+    "en": "a prince"
+   },
+   {
+    "da": "en kejserinde",
+    "en": "an empress"
+   }
+  ],
+  "sentence": {
+   "da": "Landets **dronning** vinkede til folk fra altanen.",
+   "en": "The country's queen waved to people from the balcony."
+  }
+ },
+ "en drøm": {
+  "explanation": "\"En drøm\" means \"a dream\", both while you sleep and as a wish: Jeg havde en mærkelig drøm i nat (I had a strange dream last night). Hendes drøm er at rejse jorden rundt (Her dream is to travel around the world).",
+  "forms": [
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   },
+   {
+    "da": "drømmen",
+    "en": "the dream"
+   },
+   {
+    "da": "drømme",
+    "en": "dreams"
+   },
+   {
+    "da": "drømmene",
+    "en": "the dreams"
+   }
+  ],
+  "related": [
+   {
+    "da": "at drømme",
+    "en": "to dream"
+   },
+   {
+    "da": "et ønske",
+    "en": "a wish"
+   },
+   {
+    "da": "et mareridt",
+    "en": "a nightmare"
+   },
+   {
+    "da": "en fantasi",
+    "en": "a fantasy"
+   }
+  ],
+  "sentence": {
+   "da": "Min **drøm** er at bo ved havet.",
+   "en": "My dream is to live by the sea."
+  }
+ },
+ "en due": {
+  "explanation": "\"En due\" means \"a pigeon\" and also \"a dove\": Der sidder duer på pladsen (Pigeons sit on the square). A white dove as a symbol of peace is en fredsdue (a peace dove).",
+  "forms": [
+   {
+    "da": "en due",
+    "en": "a pigeon / dove"
+   },
+   {
+    "da": "duen",
+    "en": "the pigeon / dove"
+   },
+   {
+    "da": "duer",
+    "en": "pigeons / doves"
+   },
+   {
+    "da": "duerne",
+    "en": "the pigeons / doves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en spurv",
+    "en": "a sparrow"
+   },
+   {
+    "da": "en ringdue",
+    "en": "a wood pigeon"
+   },
+   {
+    "da": "en måge",
+    "en": "a seagull"
+   },
+   {
+    "da": "en ørn",
+    "en": "an eagle"
+   }
+  ],
+  "sentence": {
+   "da": "Der sidder en **due** på taget.",
+   "en": "A pigeon sits on the roof."
+  }
+ },
+ "en duft": {
+  "explanation": "\"En duft\" means \"a scent\" or \"a fragrance\", usually a pleasant smell: Jeg kan lide duften af brød (I like the scent of bread). For a bad smell, say lugt (smell): Der er dårlig lugt her (There is a bad smell here).",
+  "forms": [
+   {
+    "da": "en duft",
+    "en": "a scent"
+   },
+   {
+    "da": "duften",
+    "en": "the scent"
+   },
+   {
+    "da": "dufte",
+    "en": "scents"
+   },
+   {
+    "da": "duftene",
+    "en": "the scents"
+   }
+  ],
+  "related": [
+   {
+    "da": "at dufte",
+    "en": "to smell nice"
+   },
+   {
+    "da": "en parfume",
+    "en": "a perfume"
+   },
+   {
+    "da": "et aroma",
+    "en": "an aroma"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en dejlig **duft** af kaffe i køkkenet.",
+   "en": "There is a lovely scent of coffee in the kitchen."
+  }
+ },
+ "en dug": {
+  "explanation": "\"En dug\" means \"a tablecloth\": Hun skifter dugen før middagen (She changes the tablecloth before dinner). It also means \"dew\", the water on grass in the morning.",
+  "forms": [
+   {
+    "da": "en dug",
+    "en": "a tablecloth"
+   },
+   {
+    "da": "dugen",
+    "en": "the tablecloth"
+   },
+   {
+    "da": "duge",
+    "en": "tablecloths"
+   },
+   {
+    "da": "dugene",
+    "en": "the tablecloths"
+   }
+  ],
+  "related": [
+   {
+    "da": "en serviet",
+    "en": "a napkin"
+   },
+   {
+    "da": "en bordløber",
+    "en": "a table runner"
+   },
+   {
+    "da": "et viskestykke",
+    "en": "a dish towel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lægger en hvid **dug** på bordet.",
+   "en": "I put a white tablecloth on the table."
+  }
+ },
  "en dukke": {
   "explanation": "\"En dukke\" means \"a doll\", a toy for children. A puppet in a show is also \"en dukke\", and \"dukketeater\" means \"puppet theater\".",
   "forms": [
@@ -2462,6 +6263,248 @@
   "sentence": {
    "da": "Pigen leger med sin **dukke**.",
    "en": "The girl is playing with her doll."
+  }
+ },
+ "en dybde": {
+  "explanation": "\"En dybde\" means \"a depth\", how far down something goes: Dybden er to meter (The depth is two meters). For how far up something goes, use en højde (a height).",
+  "forms": [
+   {
+    "da": "en dybde",
+    "en": "a depth"
+   },
+   {
+    "da": "dybden",
+    "en": "the depth"
+   },
+   {
+    "da": "dybder",
+    "en": "depths"
+   },
+   {
+    "da": "dybderne",
+    "en": "the depths"
+   }
+  ],
+  "related": [
+   {
+    "da": "dyb",
+    "en": "deep"
+   },
+   {
+    "da": "lavvandet",
+    "en": "shallow"
+   },
+   {
+    "da": "en bredde",
+    "en": "a width"
+   },
+   {
+    "da": "en længde",
+    "en": "a length"
+   }
+  ],
+  "sentence": {
+   "da": "Søen har en **dybde** på ti meter.",
+   "en": "The lake has a depth of ten meters."
+  }
+ },
+ "en dyne": {
+  "explanation": "\"En dyne\" means \"a duvet\", the thick filled cover on a bed: Jeg sover under en varm dyne (I sleep under a warm duvet). A tæppe (rug / blanket) is more often for the sofa or the floor.",
+  "forms": [
+   {
+    "da": "en dyne",
+    "en": "a duvet"
+   },
+   {
+    "da": "dynen",
+    "en": "the duvet"
+   },
+   {
+    "da": "dyner",
+    "en": "duvets"
+   },
+   {
+    "da": "dynerne",
+    "en": "the duvets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pude",
+    "en": "a pillow"
+   },
+   {
+    "da": "et lagen",
+    "en": "a sheet"
+   },
+   {
+    "da": "et sengetøj",
+    "en": "bed linen"
+   }
+  ],
+  "sentence": {
+   "da": "Om vinteren sover jeg under en tyk **dyne**.",
+   "en": "In winter I sleep under a thick duvet."
+  }
+ },
+ "en dyreven": {
+  "explanation": "\"En dyreven\" means \"an animal lover\". It is built from dyr (animal) and ven (friend), so it literally says \"animal friend\". Hun er en stor dyreven (She is a big animal lover).",
+  "forms": [
+   {
+    "da": "en dyreven",
+    "en": "an animal lover"
+   },
+   {
+    "da": "dyrevennen",
+    "en": "the animal lover"
+   },
+   {
+    "da": "dyrevenner",
+    "en": "animal lovers"
+   },
+   {
+    "da": "dyrevennerne",
+    "en": "the animal lovers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dyrlæge",
+    "en": "a veterinarian"
+   },
+   {
+    "da": "et kæledyr",
+    "en": "a pet"
+   },
+   {
+    "da": "en naturven",
+    "en": "a nature lover"
+   }
+  ],
+  "sentence": {
+   "da": "Min onkel er en stor **dyreven** og har fem katte.",
+   "en": "My uncle is a big animal lover and has five cats."
+  }
+ },
+ "en dyrlæge": {
+  "explanation": "\"En dyrlæge\" means \"a veterinarian\". It is built from dyr (animal) and læge (doctor): Hun er dyrlæge og behandler heste (She is a vet and treats horses).",
+  "forms": [
+   {
+    "da": "en dyrlæge",
+    "en": "a veterinarian"
+   },
+   {
+    "da": "dyrlægen",
+    "en": "the veterinarian"
+   },
+   {
+    "da": "dyrlæger",
+    "en": "veterinarians"
+   },
+   {
+    "da": "dyrlægerne",
+    "en": "the veterinarians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en dyrepasser",
+    "en": "a zookeeper"
+   },
+   {
+    "da": "et dyrehospital",
+    "en": "an animal hospital"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer til en **dyrlæge**, fordi min hund er syg.",
+   "en": "I am calling a vet because my dog is sick."
+  }
+ },
+ "en dåse": {
+  "explanation": "\"En dåse\" means \"a can\" made of metal: en dåse tomater (a can of tomatoes). For a glass jar, use et glas (a jar): et glas marmelade (a jar of jam).",
+  "forms": [
+   {
+    "da": "en dåse",
+    "en": "a can"
+   },
+   {
+    "da": "dåsen",
+    "en": "the can"
+   },
+   {
+    "da": "dåser",
+    "en": "cans"
+   },
+   {
+    "da": "dåserne",
+    "en": "the cans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dåseåbner",
+    "en": "a can opener"
+   },
+   {
+    "da": "en konserves",
+    "en": "canned food"
+   },
+   {
+    "da": "en flaske",
+    "en": "a bottle"
+   },
+   {
+    "da": "en krukke",
+    "en": "a pot / jar"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg åbner en **dåse** tomater til sovsen.",
+   "en": "I open a can of tomatoes for the sauce."
+  }
+ },
+ "en dåseåbner": {
+  "explanation": "\"En dåseåbner\" means \"a can opener\": Hvor er dåseåbneren? (Where is the can opener?) It is built from dåse (can) and åbner (opener).",
+  "forms": [
+   {
+    "da": "en dåseåbner",
+    "en": "a can opener"
+   },
+   {
+    "da": "dåseåbneren",
+    "en": "the can opener"
+   },
+   {
+    "da": "dåseåbnere",
+    "en": "can openers"
+   },
+   {
+    "da": "dåseåbnerne",
+    "en": "the can openers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en flaskeåbner",
+    "en": "a bottle opener"
+   },
+   {
+    "da": "en proptrækker",
+    "en": "a corkscrew"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke åbne dåsen uden en **dåseåbner**.",
+   "en": "I cannot open the can without a can opener."
   }
  },
  "en dør": {
@@ -2503,6 +6546,131 @@
    "en": "I open a door and go in."
   }
  },
+ "en dørkarm": {
+  "explanation": "\"En dørkarm\" means \"a door frame\". It is dør (door) plus karm (frame): Jeg maler dørkarmen hvid (I am painting the door frame white).",
+  "forms": [
+   {
+    "da": "en dørkarm",
+    "en": "a door frame"
+   },
+   {
+    "da": "dørkarmen",
+    "en": "the door frame"
+   },
+   {
+    "da": "dørkarme",
+    "en": "door frames"
+   },
+   {
+    "da": "dørkarmene",
+    "en": "the door frames"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vindueskarm",
+    "en": "a window frame"
+   },
+   {
+    "da": "en dørtærskel",
+    "en": "a threshold"
+   },
+   {
+    "da": "et hængsel",
+    "en": "a hinge"
+   }
+  ],
+  "sentence": {
+   "da": "Han slår hovedet i den lave **dørkarm**.",
+   "en": "He hits his head on the low door frame."
+  }
+ },
+ "en dørklokke": {
+  "explanation": "\"En dørklokke\" means \"a doorbell\". It is built from dør (door) and klokke (bell): Jeg ringer på dørklokken (I ring the doorbell).",
+  "forms": [
+   {
+    "da": "en dørklokke",
+    "en": "a doorbell"
+   },
+   {
+    "da": "dørklokken",
+    "en": "the doorbell"
+   },
+   {
+    "da": "dørklokker",
+    "en": "doorbells"
+   },
+   {
+    "da": "dørklokkerne",
+    "en": "the doorbells"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dørspion",
+    "en": "a peephole"
+   },
+   {
+    "da": "en dørtelefon",
+    "en": "an intercom"
+   },
+   {
+    "da": "en dørmåtte",
+    "en": "a doormat"
+   },
+   {
+    "da": "et dørhåndtag",
+    "en": "a door handle"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en ny **dørklokke**, og den er meget høj.",
+   "en": "We have a new doorbell, and it is very loud."
+  }
+ },
+ "en dørmåtte": {
+  "explanation": "\"En dørmåtte\" means \"a doormat\", the mat you wipe your shoes on: Tør fødderne på dørmåtten (Wipe your feet on the doormat).",
+  "forms": [
+   {
+    "da": "en dørmåtte",
+    "en": "a doormat"
+   },
+   {
+    "da": "dørmåtten",
+    "en": "the doormat"
+   },
+   {
+    "da": "dørmåtter",
+    "en": "doormats"
+   },
+   {
+    "da": "dørmåtterne",
+    "en": "the doormats"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tæppe",
+    "en": "a rug"
+   },
+   {
+    "da": "et gulvtæppe",
+    "en": "a carpet"
+   },
+   {
+    "da": "en entré",
+    "en": "an entryway"
+   },
+   {
+    "da": "en skoreol",
+    "en": "a shoe rack"
+   }
+  ],
+  "sentence": {
+   "da": "Der ligger en **dørmåtte** foran vores dør.",
+   "en": "There is a doormat in front of our door."
+  }
+ },
  "et dankort": {
   "explanation": "\"Et dankort\" means \"a Dankort\", the Danish debit card. To ask if a store takes it, say Kan jeg betale med dankort? (Can I pay by Dankort?). Note that Danish leaves out the word a after med here.",
   "forms": [
@@ -2540,6 +6708,217 @@
   "sentence": {
    "da": "Jeg betaler i butikken med **dankort**.",
    "en": "I pay at the store with a Dankort."
+  }
+ },
+ "et danskkursus": {
+  "explanation": "\"Et danskkursus\" means \"a Danish course\", built from dansk (Danish) and kursus (course): Jeg tager et danskkursus (I am taking a Danish course).",
+  "forms": [
+   {
+    "da": "et danskkursus",
+    "en": "a Danish course"
+   },
+   {
+    "da": "danskkurset",
+    "en": "the Danish course"
+   },
+   {
+    "da": "danskkurser",
+    "en": "Danish courses"
+   },
+   {
+    "da": "danskkurserne",
+    "en": "the Danish courses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sprogskole",
+    "en": "a language school"
+   },
+   {
+    "da": "en kursist",
+    "en": "a course participant"
+   },
+   {
+    "da": "et sprogkursus",
+    "en": "a language course"
+   },
+   {
+    "da": "en danskundervisning",
+    "en": "Danish lessons"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har **danskkursus** om aftenen.",
+   "en": "She has Danish class in the evening."
+  }
+ },
+ "et decimaltal": {
+  "explanation": "\"Et decimaltal\" means \"a decimal number\", a number with digits after the comma. Danes write a comma where English uses a point: 2,5 (2.5).",
+  "forms": [
+   {
+    "da": "et decimaltal",
+    "en": "a decimal number"
+   },
+   {
+    "da": "decimaltallet",
+    "en": "the decimal number"
+   },
+   {
+    "da": "decimaltal",
+    "en": "decimal numbers"
+   },
+   {
+    "da": "decimaltallene",
+    "en": "the decimal numbers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et heltal",
+    "en": "a whole number"
+   },
+   {
+    "da": "en brøk",
+    "en": "a fraction"
+   },
+   {
+    "da": "et tal",
+    "en": "a number"
+   },
+   {
+    "da": "et ciffer",
+    "en": "a digit"
+   }
+  ],
+  "sentence": {
+   "da": "Tallet 3,5 er et **decimaltal**.",
+   "en": "The number 3.5 is a decimal number."
+  }
+ },
+ "et depositum": {
+  "explanation": "\"Et depositum\" means \"a deposit\", money you pay when you rent a home and get back when you move out, if nothing is damaged: Depositummet er 15.000 kroner (The deposit is 15,000 kroner).",
+  "forms": [
+   {
+    "da": "et depositum",
+    "en": "a deposit"
+   },
+   {
+    "da": "depositummet",
+    "en": "the deposit"
+   },
+   {
+    "da": "depositummer",
+    "en": "deposits"
+   },
+   {
+    "da": "depositummerne",
+    "en": "the deposits"
+   }
+  ],
+  "related": [
+   {
+    "da": "et forskud",
+    "en": "an advance payment"
+   },
+   {
+    "da": "en husleje",
+    "en": "rent"
+   },
+   {
+    "da": "en lejekontrakt",
+    "en": "a lease"
+   },
+   {
+    "da": "en kaution",
+    "en": "a security deposit"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler et **depositum**, når jeg flytter ind.",
+   "en": "I pay a deposit when I move in."
+  }
+ },
+ "et diagram": {
+  "explanation": "\"Et diagram\" means \"a chart\" or \"a diagram\", a picture that shows numbers or how something works: Diagrammet viser, hvor mange der kom (The chart shows how many came).",
+  "forms": [
+   {
+    "da": "et diagram",
+    "en": "a chart"
+   },
+   {
+    "da": "diagrammet",
+    "en": "the chart"
+   },
+   {
+    "da": "diagrammer",
+    "en": "charts"
+   },
+   {
+    "da": "diagrammerne",
+    "en": "the charts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en graf",
+    "en": "a graph"
+   },
+   {
+    "da": "en kurve",
+    "en": "a curve"
+   },
+   {
+    "da": "en tabel",
+    "en": "a table"
+   },
+   {
+    "da": "en søjle",
+    "en": "a column"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren viser et **diagram** med søjler og tal.",
+   "en": "The teacher shows a chart with columns and numbers."
+  }
+ },
+ "et digt": {
+  "explanation": "\"Et digt\" means \"a poem\", a short text with lines that often rhyme: Jeg skriver et digt til min mor (I am writing a poem for my mother). The person who writes it is en digter (a poet).",
+  "forms": [
+   {
+    "da": "et digt",
+    "en": "a poem"
+   },
+   {
+    "da": "digtet",
+    "en": "the poem"
+   },
+   {
+    "da": "digte",
+    "en": "poems"
+   },
+   {
+    "da": "digtene",
+    "en": "the poems"
+   }
+  ],
+  "related": [
+   {
+    "da": "at digte",
+    "en": "to write poetry"
+   },
+   {
+    "da": "et rim",
+    "en": "a rhyme"
+   },
+   {
+    "da": "en digtsamling",
+    "en": "a collection of poems"
+   }
+  ],
+  "sentence": {
+   "da": "Hun læser et smukt **digt** højt for klassen.",
+   "en": "She reads a beautiful poem aloud to the class."
   }
  },
  "et dobbeltværelse": {
@@ -2581,6 +6960,221 @@
    "en": "The two of us would like a double room."
   }
  },
+ "et dokument": {
+  "explanation": "\"Et dokument\" means \"a document\", either a paper or a file on a computer: Jeg printer dokumentet (I am printing the document). It can also be an official paper: Husk at tage dokumentet med (Remember to bring the document).",
+  "forms": [
+   {
+    "da": "et dokument",
+    "en": "a document"
+   },
+   {
+    "da": "dokumentet",
+    "en": "the document"
+   },
+   {
+    "da": "dokumenter",
+    "en": "documents"
+   },
+   {
+    "da": "dokumenterne",
+    "en": "the documents"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fil",
+    "en": "a file"
+   },
+   {
+    "da": "en mappe",
+    "en": "a folder"
+   },
+   {
+    "da": "en kopi",
+    "en": "a copy"
+   },
+   {
+    "da": "et papir",
+    "en": "a paper"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal skrive under på et **dokument**.",
+   "en": "I have to sign a document."
+  }
+ },
+ "et download": {
+  "explanation": "\"Et download\" means \"a download\", a file you copy from the internet to your device. The action is at downloade (to download): Jeg downloader en app (I am downloading an app).",
+  "forms": [
+   {
+    "da": "et download",
+    "en": "a download"
+   },
+   {
+    "da": "downloadet",
+    "en": "the download"
+   },
+   {
+    "da": "downloads",
+    "en": "downloads"
+   },
+   {
+    "da": "downloadsene",
+    "en": "the downloads"
+   }
+  ],
+  "related": [
+   {
+    "da": "et upload",
+    "en": "an upload"
+   },
+   {
+    "da": "en fil",
+    "en": "a file"
+   },
+   {
+    "da": "et link",
+    "en": "a link"
+   },
+   {
+    "da": "en opdatering",
+    "en": "an update"
+   }
+  ],
+  "sentence": {
+   "da": "Dit **download** er færdigt, og filen ligger på skrivebordet.",
+   "en": "Your download is finished, and the file is on the desktop."
+  }
+ },
+ "et drivhus": {
+  "explanation": "\"Et drivhus\" means \"a greenhouse\", a glass building where plants grow warm and fast: Vi har agurker i drivhuset (We have cucumbers in the greenhouse).",
+  "forms": [
+   {
+    "da": "et drivhus",
+    "en": "a greenhouse"
+   },
+   {
+    "da": "drivhuset",
+    "en": "the greenhouse"
+   },
+   {
+    "da": "drivhuse",
+    "en": "greenhouses"
+   },
+   {
+    "da": "drivhusene",
+    "en": "the greenhouses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gartner",
+    "en": "a gardener"
+   },
+   {
+    "da": "en plante",
+    "en": "a plant"
+   },
+   {
+    "da": "en køkkenhave",
+    "en": "a vegetable garden"
+   },
+   {
+    "da": "et orangeri",
+    "en": "a conservatory"
+   }
+  ],
+  "sentence": {
+   "da": "Tomaterne vokser hurtigt i et varmt **drivhus**.",
+   "en": "The tomatoes grow fast in a warm greenhouse."
+  }
+ },
+ "et drømmejob": {
+  "explanation": "\"Et drømmejob\" means \"a dream job\", the work you would most like to have: Det er mit drømmejob (It is my dream job). It is built from en drøm (a dream) and et job (a job).",
+  "forms": [
+   {
+    "da": "et drømmejob",
+    "en": "a dream job"
+   },
+   {
+    "da": "drømmejobbet",
+    "en": "the dream job"
+   },
+   {
+    "da": "drømmejob",
+    "en": "dream jobs"
+   },
+   {
+    "da": "drømmejobbene",
+    "en": "the dream jobs"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ønske",
+    "en": "a wish"
+   },
+   {
+    "da": "en karriere",
+    "en": "a career"
+   },
+   {
+    "da": "en ambition",
+    "en": "an ambition"
+   },
+   {
+    "da": "et arbejde",
+    "en": "a job / work"
+   }
+  ],
+  "sentence": {
+   "da": "Endelig har jeg fået mit **drømmejob** som kok.",
+   "en": "I have finally gotten my dream job as a cook."
+  }
+ },
+ "et dynebetræk": {
+  "explanation": "\"Et dynebetræk\" means \"a duvet cover\". It is built from dyne (duvet) and betræk (cover): Jeg vasker dynebetrækket (I wash the duvet cover).",
+  "forms": [
+   {
+    "da": "et dynebetræk",
+    "en": "a duvet cover"
+   },
+   {
+    "da": "dynebetrækket",
+    "en": "the duvet cover"
+   },
+   {
+    "da": "dynebetræk",
+    "en": "duvet covers"
+   },
+   {
+    "da": "dynebetrækkene",
+    "en": "the duvet covers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et pudebetræk",
+    "en": "a pillowcase"
+   },
+   {
+    "da": "et lagen",
+    "en": "a sheet"
+   },
+   {
+    "da": "sengetøj",
+    "en": "bedding"
+   },
+   {
+    "da": "et tæppe",
+    "en": "a blanket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har købt et nyt **dynebetræk** til sengen.",
+   "en": "I have bought a new duvet cover for the bed."
+  }
+ },
  "et dyr": {
   "explanation": "\"Et dyr\" means \"an animal\". Et vildt dyr means \"a wild animal\".",
   "forms": [
@@ -2618,6 +7212,123 @@
   "sentence": {
    "da": "Hunde og katte er **dyr**.",
    "en": "Dogs and cats are animals."
+  }
+ },
+ "et dæk": {
+  "explanation": "\"Et dæk\" means \"a tire\" on a car or bike: Jeg skal have nye dæk til bilen (I need new tires for the car). It also means \"a deck\" on a ship: Skibet har tre dæk (The ship has three decks).",
+  "forms": [
+   {
+    "da": "et dæk",
+    "en": "a tire / deck"
+   },
+   {
+    "da": "dækket",
+    "en": "the tire / deck"
+   },
+   {
+    "da": "dæk",
+    "en": "tires / decks"
+   },
+   {
+    "da": "dækkene",
+    "en": "the tires / decks"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hjul",
+    "en": "a wheel"
+   },
+   {
+    "da": "en fælg",
+    "en": "a rim"
+   },
+   {
+    "da": "et reservehjul",
+    "en": "a spare wheel"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen har et fladt **dæk**.",
+   "en": "The car has a flat tire."
+  }
+ },
+ "et døgn": {
+  "explanation": "\"Et døgn\" means \"a day\", but the full 24 hours, day and night: Butikken er åben hele døgnet (The store is open all day and night). A normal en dag can mean only the daytime.",
+  "forms": [
+   {
+    "da": "et døgn",
+    "en": "a day (24 hours)"
+   },
+   {
+    "da": "døgnet",
+    "en": "the 24 hours"
+   },
+   {
+    "da": "døgn",
+    "en": "days (24 hours)"
+   },
+   {
+    "da": "døgnene",
+    "en": "the days (24 hours)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en time",
+    "en": "an hour"
+   },
+   {
+    "da": "en nat",
+    "en": "a night"
+   },
+   {
+    "da": "en uge",
+    "en": "a week"
+   }
+  ],
+  "sentence": {
+   "da": "Der er fireogtyve timer i et **døgn**.",
+   "en": "There are twenty-four hours in a day."
+  }
+ },
+ "et dørslag": {
+  "explanation": "\"Et dørslag\" means \"a colander\", a bowl with holes for draining pasta and vegetables: Kartoflerne skal i dørslaget (The potatoes go in the colander).",
+  "forms": [
+   {
+    "da": "et dørslag",
+    "en": "a colander"
+   },
+   {
+    "da": "dørslaget",
+    "en": "the colander"
+   },
+   {
+    "da": "dørslag",
+    "en": "colanders"
+   },
+   {
+    "da": "dørslagene",
+    "en": "the colanders"
+   }
+  ],
+  "related": [
+   {
+    "da": "en si",
+    "en": "a sieve"
+   },
+   {
+    "da": "at dræne",
+    "en": "to drain"
+   },
+   {
+    "da": "et sold",
+    "en": "a sifter"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg hælder pastaen i et **dørslag**.",
+   "en": "I pour the pasta into a colander."
   }
  }
 }
