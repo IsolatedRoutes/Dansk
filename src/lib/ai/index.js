@@ -38,7 +38,7 @@ export function apiErrorMessage(e) {
   if (msg && msg.indexOf("RESPONSE_NOT_JSON") === 0)
     return "Got an unexpected response instead of an answer (" + msg.replace("RESPONSE_NOT_JSON: ", "") + "). Try again — if it keeps happening, this is worth reporting.";
   if (msg === "AI_CONSENT_REQUIRED") return "Open AI settings and tap I agree to confirm what is shared with the AI company first.";
-  if (msg === "NO_ENGINE_CHOSEN") return "Choose an AI option in AI settings first.";
+  if (msg === "NO_ENGINE_CHOSEN") return "This needs a free AI key. Open AI settings to set one up, it takes about two minutes.";
   if (msg === "MISSING_OLLAMA_CONFIG") return "Set up your Ollama address and model name in AI settings to use this.";
   if (msg === "TRANSLATION_DIDNT_HAPPEN") return "Didn't get an actual translation back — try again.";
   if (msg === "LOOKUP_INCOMPLETE") return "Couldn't read an answer for that — try again, or type the translation yourself.";

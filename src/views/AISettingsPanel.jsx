@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { inputStyle, smallBtn } from "../components/ui";
 import { chromeTranslatorAvailability, chromeTranslatorSupported } from "../lib/ai/chrome";
-import { apiErrorMessage } from "../lib/ai/index";
+import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { LOCAL_MODEL_ID, LOCAL_MODEL_OPTIONS, getLocalEngine, localEnginePromise } from "../lib/ai/local";
 import { isNativeApp } from "../lib/platform";
 import { storeGet, storeSet } from "../lib/storage";
@@ -51,9 +51,9 @@ export function AISettingsPanel({ onClose }) {
         if (raw) setSavedOllamaConfig(JSON.parse(raw));
       } catch {}
       setChromeTranslatorEnabledState((await storeGet("chromeTranslatorEnabled")) === "true");
-      // Anthropic is the default; expand "Use something else instead" only
-      // when a different engine is in use.
-      if (e === "local" || e === "gemini" || e === "ollama") setShowMore(true);
+      // Gemini (free) is shown first; expand "Use Claude or something else"
+      // only when a different engine is in use.
+      if (e === "local" || e === "api" || e === "ollama") setShowMore(true);
     })();
   }, []);
 
@@ -146,6 +146,13 @@ export function AISettingsPanel({ onClose }) {
     }
     setSavedGeminiKey(geminiKeyInput.trim());
     setGeminiKeyInput("");
+    // One tiny call so a typo shows up now, not later (free tier, one request).
+    try {
+      await callAI("Reply with the single word OK.", "Say OK", { maxTokens: 10 });
+    } catch (e) {
+      setError("The key was saved, but it didn't work yet: " + apiErrorMessage(e));
+      return;
+    }
     onClose("gemini");
   }
 
@@ -198,7 +205,7 @@ export function AISettingsPanel({ onClose }) {
         {showWhy && (
           <div style={{ marginTop: 8 }}>
             <div style={{ marginBottom: 6 }}>The AI features are part of Broen, but you connect your own AI account. Your questions and photos go straight to the AI company, never through us.</div>
-            <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting one takes a couple of taps: sign in on the company's site, create a key, and paste it here.</div>
+            <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting a free Gemini key takes about two minutes, and the steps are below.</div>
             <div><b>Cost:</b> you pay the company only for what you use. A question or word explanation is well under a cent, a photo roughly a cent or two. Prices can change.</div>
           </div>
         )}
@@ -211,6 +218,90 @@ export function AISettingsPanel({ onClose }) {
           <button onClick={agree} style={smallBtn("var(--rust)")}>I agree</button>
         </div>
       )}
+      <div
+        style={{
+          border: "1.5px solid " + (engine === "gemini" ? "var(--fjord)" : "var(--line)"),
+          borderRadius: 10,
+          padding: 14,
+          background: engine === "gemini" ? "#EEF2F0" : "transparent",
+        }}
+      >
+        <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>
+          Gemini (by Google) <span style={{ color: "var(--sage)", fontWeight: 600, fontSize: 12 }}>· Recommended, free</span>
+        </div>
+        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 12 }}>
+          Free, no credit card, with daily limits. Also reads photos. Good for everyday Danish. On the free tier Google may use what you send to improve its products.
+        </div>
+        {savedGeminiKey ? (
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+            <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>{engine === "gemini" ? "Connected" : "Key saved"}</span>
+            <div style={{ display: "flex", gap: 8 }}>
+              {engine !== "gemini" && (
+                <button onClick={() => chooseEngine("gemini")} style={smallBtn("var(--fjord)")}>
+                  Use this
+                </button>
+              )}
+              <button onClick={() => setSavedGeminiKey(null)} style={smallBtn("#A8A395")}>
+                Change key
+              </button>
+              <button
+                onClick={async () => {
+                  await secretRemove("geminiApiKey");
+                  setSavedGeminiKey(null);
+                }}
+                style={smallBtn("#A8A395")}
+              >
+                Remove
+              </button>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.5, marginBottom: 12 }}>
+              {[
+                "Tap the button below and sign in with your Google account.",
+                "Tap “Create API key”, then tap the copy button next to the key.",
+                "Come back here, paste the key in the box, and tap Save.",
+              ].map((t, i) => (
+                <div key={i} style={{ display: "flex", gap: 10, marginBottom: 6 }}>
+                  <span style={{ width: 20, height: 20, borderRadius: "50%", background: "var(--paper)", border: "1px solid var(--line)", fontSize: 11.5, fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>{i + 1}</span>
+                  <span>{t}</span>
+                </div>
+              ))}
+            </div>
+            <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
+              <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--sans)", fontSize: 14, fontWeight: 700, color: "#fff", background: "var(--rust)", textDecoration: "none", borderRadius: 999, padding: "11px 22px" }}>
+                Open Google AI Studio ↗
+              </a>
+            </div>
+            <div style={{ display: "flex", gap: 8 }}>
+              <input
+                type="password"
+                value={geminiKeyInput}
+                onChange={(e) => setGeminiKeyInput(e.target.value)}
+                placeholder="Paste your key here (starts with AIza)"
+                style={{ ...inputStyle, flex: 1 }}
+              />
+              <button onClick={saveGeminiKey} style={smallBtn("var(--rust)")}>
+                Save
+              </button>
+            </div>
+          </>
+        )}
+      </div>
+
+      {!showMore && (
+        <button
+          onClick={() => setShowMore(true)}
+          style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, marginTop: 12, cursor: "pointer", padding: 0, textDecoration: "underline" }}
+        >
+          Use Claude or something else instead
+        </button>
+      )}
+
+      {showMore && (
+        <>
+          <div style={{ marginTop: 12 }}>
       <div
         style={{
           border: "1.5px solid " + (apiActive ? "var(--fjord)" : "var(--line)"),
@@ -277,92 +368,6 @@ export function AISettingsPanel({ onClose }) {
           </div>
         )}
       </div>
-
-      {!showMore && (
-        <button
-          onClick={() => setShowMore(true)}
-          style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, marginTop: 12, cursor: "pointer", padding: 0, textDecoration: "underline" }}
-        >
-          Use something else instead
-        </button>
-      )}
-
-      {showMore && (
-        <>
-          <div
-            style={{
-              border: "1.5px solid " + (engine === "gemini" ? "var(--fjord)" : "var(--line)"),
-              borderRadius: 10,
-              padding: 14,
-              marginTop: 12,
-              background: engine === "gemini" ? "#EEF2F0" : "transparent",
-            }}
-          >
-            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Gemini (by Google)</div>
-            <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 12 }}>
-              Free, no credit card, with daily limits. On the free tier Google may use what you send to improve its products. Also reads photos. Good quality for everyday
-              use, a step behind Claude on tricky grammar.
-            </div>
-
-            {savedGeminiKey ? (
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>
-                  {engine === "gemini" ? "Connected" : "Key saved"}
-                </span>
-                <div style={{ display: "flex", gap: 8 }}>
-                  {engine !== "gemini" && (
-                    <button onClick={() => chooseEngine("gemini")} style={smallBtn("var(--fjord)")}>
-                      Use this
-                    </button>
-                  )}
-                  <button onClick={() => setSavedGeminiKey(null)} style={smallBtn("#A8A395")}>
-                    Change key
-                  </button>
-                  <button
-                    onClick={async () => {
-                      await secretRemove("geminiApiKey");
-                      setSavedGeminiKey(null);
-                    }}
-                    style={smallBtn("#A8A395")}
-                  >
-                    Remove
-                  </button>
-                </div>
-              </div>
-            ) : (
-              <>
-                <a
-                  href="https://aistudio.google.com/apikey"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 6,
-                    fontFamily: "var(--sans)",
-                    fontSize: 12.5,
-                    fontWeight: 600,
-                    color: "var(--rust)",
-                    textDecoration: "none",
-                    marginBottom: 10,
-                  }}
-                >
-                  Get a free key at aistudio.google.com ↗
-                </a>
-                <div style={{ display: "flex", gap: 8 }}>
-                  <input
-                    type="password"
-                    value={geminiKeyInput}
-                    onChange={(e) => setGeminiKeyInput(e.target.value)}
-                    placeholder="Paste your key — AIza…"
-                    style={{ ...inputStyle, flex: 1 }}
-                  />
-                  <button onClick={saveGeminiKey} style={smallBtn("var(--rust)")}>
-                    Save
-                  </button>
-                </div>
-              </>
-            )}
           </div>
 
           {!isNativeApp() && (

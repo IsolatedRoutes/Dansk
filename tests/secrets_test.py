@@ -65,8 +65,9 @@ def stored_anywhere(page):
 
 def save_key(page):
     if page.get_by_text("I agree").count(): page.get_by_text("I agree").first.click(); page.wait_for_timeout(300)
+    if page.get_by_text("Use Claude or something else instead").count(): page.get_by_text("Use Claude or something else instead").first.click(); page.wait_for_timeout(300)
     page.get_by_placeholder("sk-ant-…").fill(KEY)
-    page.get_by_role("button", name="Save", exact=True).first.click()
+    page.get_by_role("button", name="Save", exact=True).last.click()
     page.wait_for_timeout(800)
 
 with sync_playwright() as p:
