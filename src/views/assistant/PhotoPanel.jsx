@@ -4,6 +4,7 @@ import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
 import { renderInlineMarkdown } from "../../components/markdown";
 import { SentenceResult } from "../../components/SentenceResult";
+import { analysisLevelHint } from "../../lib/analysisLevel";
 import { readSentenceResult, initialSentenceSelection } from "../../lib/sentenceResult";
 import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
@@ -12,7 +13,7 @@ import { callClaudeImage } from "../../lib/ai/claude";
 import { callGeminiImage } from "../../lib/ai/gemini";
 import { apiErrorMessage, callAI, getAIEngine } from "../../lib/ai/index";
 import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
-import { GRAMMAR_CARD_STYLE, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
+import { CLARITY_RULES, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { secretGet } from "../../lib/secrets";
 import { base64ToFile } from "../../lib/shareInbox";
@@ -192,8 +193,9 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
     setSentenceError("");
     setSentenceResult(null);
     try {
+      const levelHint = await analysisLevelHint();
       const reply = await callVision(
-        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps, reading text directly out of a photo. " + PLAIN_ENGLISH_RULE + "Work from the text visible in the photo." + SENTENCE_ANALYSIS_RULES + GRAMMAR_CARD_STYLE + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
+        "You are a patient Danish tutor for a self-taught learner who has foundational grammar gaps, reading text directly out of a photo. " + CLARITY_RULES + "Work from the text visible in the photo." + SENTENCE_ANALYSIS_RULES + levelHint + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
         "Analyze the grammar of the text in this photo."
       );
       const parsed = parseJSONLoose(reply);
@@ -223,7 +225,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
         toAdd.push({
           type: "grammar",
           front: point.grammarName,
-          back: point.explanation,
+          back: point.cardBack || point.explanation,
           notes: "Example: " + point.mainExample.da + " — " + point.mainExample.en,
           category: catId,
           examples: point.examples,

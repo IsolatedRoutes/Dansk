@@ -4,6 +4,7 @@ import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
 import { renderInlineMarkdown } from "../../components/markdown";
 import { SentenceResult } from "../../components/SentenceResult";
+import { analysisLevelHint } from "../../lib/analysisLevel";
 import { readSentenceResult, initialSentenceSelection } from "../../lib/sentenceResult";
 import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
@@ -11,7 +12,7 @@ import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irr
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
 import { apiErrorMessage, callAI } from "../../lib/ai/index";
 import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
-import { GRAMMAR_CARD_STYLE, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
+import { CLARITY_RULES, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { storeGet } from "../../lib/storage";
 import { cleanTranslation, parseJSONLoose } from "../../lib/text";
@@ -179,8 +180,9 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     setSentenceError("");
     setSentenceResult(null);
     try {
+      const levelHint = await analysisLevelHint();
       const reply = await callAI(
-        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. " + PLAIN_ENGLISH_RULE + "The user will give you text in English or Danish, from a single sentence to a longer passage, that they are trying to understand or say correctly." + SENTENCE_ANALYSIS_RULES + GRAMMAR_CARD_STYLE + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
+        "You are a patient Danish tutor for a self-taught learner who has foundational grammar gaps. " + CLARITY_RULES + "The user will give you text in English or Danish, from a single sentence to a longer passage, that they are trying to understand or say correctly." + SENTENCE_ANALYSIS_RULES + levelHint + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
         text.trim(),
         { maxTokens: 1500 }
       );
@@ -211,7 +213,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
         toAdd.push({
           type: "grammar",
           front: point.grammarName,
-          back: point.explanation,
+          back: point.cardBack || point.explanation,
           notes: "Example: " + point.mainExample.da + " — " + point.mainExample.en,
           category: catId,
           examples: point.examples,

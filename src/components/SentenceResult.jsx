@@ -3,12 +3,14 @@ import { renderInlineMarkdown } from "./markdown";
 import { Icon } from "./icons";
 import { CenteredOverlay, rowCheck, smallBtn } from "./ui";
 
-// The "Analyze sentence" answer: first how the sentence works, then any
-// mistake, then a few short ideas (the first one open, the rest folded away).
+// The "Analyze sentence" answer: a mistake note when there is one, then the
+// few things this text shows about Danish (the first open, the rest folded),
+// then a quiet line when the structure works like English. No headings: the
+// parts are told apart by type and spacing. Each idea has its own tick.
 export function SentenceResult({ result, selected, setSelected, onClose, onAdd }) {
   const [open, setOpen] = useState({ 0: true });
-  const [more, setMore] = useState({});
   const setSel = (i, patch) => setSelected({ ...selected, [i]: { ...selected[i], ...patch } });
+  const muted = { fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5 };
   return (
     <CenteredOverlay onClose={onClose} maxWidth={460}>
       <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
@@ -17,14 +19,8 @@ export function SentenceResult({ result, selected, setSelected, onClose, onAdd }
         </button>
       </div>
 
-      {result.sentenceExplanation && (
-        <div style={{ marginBottom: 14 }}>
-          <div style={{ fontFamily: "var(--sans)", fontSize: 14.5, lineHeight: 1.6 }}>{renderInlineMarkdown(result.sentenceExplanation)}</div>
-        </div>
-      )}
-
       {result.correctionNote && (
-        <div style={{ display: "flex", gap: 8, alignItems: "flex-start", background: "#FBECE6", border: "1px solid var(--rust)", borderRadius: 8, padding: "9px 11px", marginBottom: 14 }}>
+        <div style={{ display: "flex", gap: 8, alignItems: "flex-start", background: "#FBECE6", border: "1px solid var(--rust)", borderRadius: 8, padding: "9px 11px", marginBottom: 10 }}>
           <Icon.HelpCircle size={15} color="var(--rust)" style={{ flexShrink: 0, marginTop: 1 }} />
           <span style={{ fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.45, color: "var(--rust)" }}>{renderInlineMarkdown(result.correctionNote)}</span>
         </div>
@@ -33,9 +29,9 @@ export function SentenceResult({ result, selected, setSelected, onClose, onAdd }
       {result.grammarPoints.map((point, i) => {
         const isOpen = !!open[i];
         const sel = selected[i] || {};
-        const extra = point.examples || [];
+        const usual = (point.examples || [])[0];
         return (
-          <div key={i} style={{ borderTop: "1px solid var(--line)", padding: "10px 0" }}>
+          <div key={i} style={{ borderTop: i === 0 && !result.correctionNote ? "none" : "1px solid var(--line)", padding: "10px 0" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
               <input
                 type="checkbox"
@@ -55,39 +51,38 @@ export function SentenceResult({ result, selected, setSelected, onClose, onAdd }
             </div>
             {isOpen && (
               <div style={{ marginTop: 8, paddingLeft: 27 }}>
-                <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, marginBottom: 10 }}>{renderInlineMarkdown(point.explanation)}</div>
+                {point.rule && <div style={{ fontFamily: "var(--sans)", fontSize: 14, lineHeight: 1.55, marginBottom: 10 }}>{renderInlineMarkdown(point.rule)}</div>}
                 <label style={rowCheck}>
                   <input type="checkbox" checked={!!sel.main} onChange={(e) => setSel(i, { main: e.target.checked })} style={{ accentColor: "#8C6FA0" }} />
-                  <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                    <b style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(point.mainExample.da)}</b> — <span style={{ color: "var(--sage)" }}>{point.mainExample.en}</span>
+                  <span style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.5 }}>
+                    <b style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(point.mainExample.da)}</b>
+                    {point.literal && <span style={{ display: "block", ...muted }}>word for word: {point.literal}</span>}
+                    <span style={{ display: "block", color: "var(--sage)", fontStyle: "italic" }}>{point.mainExample.en}</span>
                   </span>
                 </label>
-                {extra.length > 0 && !more[i] && (
-                  <button onClick={() => setMore({ ...more, [i]: true })} style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12.5, padding: "0 0 6px", cursor: "pointer", textDecoration: "underline" }}>
-                    Another example
-                  </button>
+                <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, margin: "4px 0 10px" }}>{renderInlineMarkdown(point.explanation)}</div>
+                {usual && (
+                  <label style={rowCheck}>
+                    <input
+                      type="checkbox"
+                      checked={!!(sel.examples && sel.examples[0])}
+                      onChange={(e) => setSel(i, { examples: { ...(sel.examples || {}), 0: e.target.checked } })}
+                      style={{ accentColor: "#8C6FA0" }}
+                    />
+                    <span style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.5 }}>
+                      <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(usual.da)}</span> — <span style={{ color: "var(--sage)", fontStyle: "italic" }}>{usual.en}</span>
+                    </span>
+                  </label>
                 )}
-                {more[i] &&
-                  extra.map((ex, j) => (
-                    <label key={j} style={rowCheck}>
-                      <input
-                        type="checkbox"
-                        checked={!!(sel.examples && sel.examples[j])}
-                        onChange={(e) => setSel(i, { examples: { ...(sel.examples || {}), [j]: e.target.checked } })}
-                        style={{ accentColor: "#8C6FA0" }}
-                      />
-                      <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                        <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> — <span style={{ color: "var(--sage)" }}>{ex.en}</span>
-                      </span>
-                    </label>
-                  ))}
               </div>
             )}
           </div>
         );
       })}
 
-      <button onClick={onAdd} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "10px", fontSize: 14, marginTop: 10 }}>
+      {result.sameAsEnglish && <div style={{ ...muted, borderTop: "1px solid var(--line)", paddingTop: 10 }}>{renderInlineMarkdown(result.sameAsEnglish)}</div>}
+
+      <button onClick={onAdd} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "10px", fontSize: 14, marginTop: 14 }}>
         Add selected to deck
       </button>
     </CenteredOverlay>
