@@ -16,11 +16,13 @@ export const SNAPSHOT_VERSION = 2;
 // examples, ...).
 const PROGRESS = ["known", "starred", "ignored", "notes"];
 const LEVELUP = ["upStage", "upDue"];
-const BOOKKEEPING = new Set([...PROGRESS, ...LEVELUP, "id", "starter", "createdAt", "recentTouch", "progressAt", "editedAt"]);
+// Smart review marks (when a card is due again): the newest look wins.
+const SRS = ["srsN", "srsLvl", "srsDue", "srsAt", "srsSkips"];
+const BOOKKEEPING = new Set([...PROGRESS, ...LEVELUP, ...SRS, "s", "id", "starter", "createdAt", "recentTouch", "progressAt", "editedAt"]);
 // What can be edited on a built-in card.
 const STARTER_CONTENT = ["front", "back", "category", "examples", "pattern"];
 
-const hasMark = (c) => !!(c.known || c.starred || c.ignored || c.upStage || c.progressAt || c.editedAt || (c.notes && c.notes.trim()));
+const hasMark = (c) => !!(c.known || c.starred || c.ignored || c.upStage || c.srsAt || c.progressAt || c.editedAt || (c.notes && c.notes.trim()));
 
 // Notes combined line by line, so combining the same notes again changes nothing.
 export function mergeNotes(a, b) {
@@ -61,6 +63,9 @@ function joinCard(local, remote, contentFields) {
   const due = Math.max(local.upDue || 0, remote.upDue || 0);
   if (up) out.upStage = up;
   if (due) out.upDue = due;
+  // Smart review: whichever device looked at the card last decides when it is due.
+  const rs = remote.s ? { srsN: remote.s[0], srsLvl: remote.s[1], srsDue: remote.s[2], srsAt: remote.s[3], srsSkips: remote.s[4] } : remote;
+  if ((rs.srsAt || 0) > (local.srsAt || 0)) SRS.forEach((f) => { if (rs[f] != null) out[f] = rs[f]; });
   const touch = Math.max(local.recentTouch || 0, remote.recentTouch || 0);
   if (touch) out.recentTouch = touch;
   return out;
@@ -77,6 +82,7 @@ export function buildSnapshot(cards, categories, deletedKeys, keyOf, now = Date.
     if (c.starter) {
       if (!hasMark(c)) return;
       const m = { k: keyOf(c.type, c.front), known: !!c.known, starred: !!c.starred, ignored: !!c.ignored, notes: c.notes || "", upStage: c.upStage || 0, upDue: c.upDue || 0, recentTouch: c.recentTouch || 0, progressAt: c.progressAt || 0, editedAt: c.editedAt || 0 };
+      if (c.srsAt) m.s = [c.srsN || 0, c.srsLvl || 0, c.srsDue || 0, c.srsAt, c.srsSkips || 0];
       if (c.editedAt) STARTER_CONTENT.forEach((f) => { if (f in c) m[f] = c[f]; });
       marks[c.id] = m;
     } else {

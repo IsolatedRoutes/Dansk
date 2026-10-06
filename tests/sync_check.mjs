@@ -112,4 +112,17 @@ try { await writeRemote(kv, buildSnapshot(huge, [], [], keyOf), "p"); } catch (e
 ok(tooBig, "an oversized deck is reported as too big");
 ok(mergeNotes("a\nb", "b\nc") === "a\nb\nc", "notes combine line by line");
 
+// ---- smart review marks: the newest look decides ----
+{
+  const a = [W("sol", { srsN: 2, srsLvl: 2, srsDue: 9000, srsAt: 5000, srsSkips: 0 }), own("o1", "min", { srsN: 1, srsLvl: 1, srsDue: 7000, srsAt: 3000 })];
+  const b = [W("sol", { srsN: 3, srsLvl: 4, srsDue: 99000, srsAt: 8000 }), own("o1", "min", { srsN: 4, srsLvl: 3, srsDue: 6000, srsAt: 2000 })];
+  const sa = snapOf(a, []);
+  ok(sa.marks["starter:sol"].s[3] === 5000, "smart review mark travels in the snapshot");
+  const m = merge(b, [], sa);
+  ok(get(m.cards, "sol").srsLvl === 4 && get(m.cards, "sol").srsAt === 8000, "the phone that looked last keeps its schedule");
+  const m2 = merge(a, [], snapOf(b, []));
+  ok(get(m2.cards, "sol").srsLvl === 4 && get(m2.cards, "sol").srsDue === 99000, "the older phone takes the newer schedule");
+  ok(get(m.cards, "min").srsAt === 3000 && get(m.cards, "min").srsLvl === 1, "added cards: newer look wins too");
+}
+
 process.exit(bad ? 1 : 0);

@@ -140,6 +140,9 @@ function mergeProgress(a, b) {
     upStage: Math.max(a.upStage || 0, b.upStage || 0),
     upDue: Math.max(a.upDue || 0, b.upDue || 0),
     starter: !!(a.starter && b.starter),
+    ...((b.srsAt || 0) > (a.srsAt || 0)
+      ? { srsN: b.srsN, srsLvl: b.srsLvl, srsDue: b.srsDue, srsAt: b.srsAt, srsSkips: b.srsSkips }
+      : {}),
   };
 }
 
@@ -163,7 +166,7 @@ export function snapshotProgress(cards) {
   const ownCards = [];
   cards.forEach((c) => {
     const key = canonicalKey(c.type, c.front);
-    if (c.known || c.starred || c.ignored || c.upStage || (c.notes && c.notes.trim())) {
+    if (c.known || c.starred || c.ignored || c.upStage || c.srsAt || (c.notes && c.notes.trim())) {
       const prev = progress.get(key);
       progress.set(key, prev ? mergeProgress(prev, c) : c);
     }
@@ -185,7 +188,7 @@ export function restoreProgress(cards, snapshot) {
     if (!before) return c;
     const merged = mergeProgress(c, before);
     merged.starter = c.starter; // keep the card's own origin
-    if (merged.known === !!c.known && merged.starred === !!c.starred && merged.ignored === !!c.ignored && (merged.notes || "") === (c.notes || "") && (merged.upStage || 0) === (c.upStage || 0)) return c;
+    if (merged.known === !!c.known && merged.starred === !!c.starred && merged.ignored === !!c.ignored && (merged.notes || "") === (c.notes || "") && (merged.upStage || 0) === (c.upStage || 0) && (merged.srsAt || 0) === (c.srsAt || 0)) return c;
     changed = true;
     return merged;
   });

@@ -554,6 +554,17 @@ export default function DanishFlashcards() {
     [persistCards]
   );
 
+  // Saves smart-review marks for several cards in one go (Study sends them in
+  // small batches). No "changed by the person" stamp: it is not an edit.
+  const updateCards = useCallback(
+    (patches) => {
+      const ids = Object.keys(patches);
+      if (!ids.length) return;
+      persistCards(cardsRef.current.map((c) => (patches[c.id] ? { ...c, ...patches[c.id] } : c)));
+    },
+    [persistCards]
+  );
+
   const deleteCard = useCallback(
     async (id) => {
       const gone = cardsRef.current.find((c) => c.id === id);
@@ -691,7 +702,7 @@ export default function DanishFlashcards() {
         )}
       </div>
       <div style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
-        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} addCards={addCards} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
+        {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} updateCards={updateCards} addCards={addCards} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
         {tab === "library" && (
           <LibraryView
             cards={cards}

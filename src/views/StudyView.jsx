@@ -15,6 +15,8 @@ import { speakDanish, speechSupported } from "../lib/speech";
 import { storeGet, storeSet } from "../lib/storage";
 import { parseJSONLoose } from "../lib/text";
 import { freshness, pickFresh, placeFresh } from "../lib/fresh";
+import { comesBackSoon, lastActivity, nextState, planBatch } from "../lib/srs";
+import { ORDER, knownPlainSet } from "../lib/learningOrder";
 import { cardInCategory, nounGenderFor, phraseWords, tenseDataFor, wordMetaFor } from "../lib/vocabulary";
 
 // ---------- Study ----------
@@ -49,7 +51,7 @@ function faceSize(text, base, type) {
   return base - 11;
 }
 
-export function StudyView({ cards, categories, updateCard, addCards, onOpenSettings, showToast }) {
+export function StudyView({ cards, categories, updateCard, updateCards, addCards, onOpenSettings, showToast }) {
   const [catFilter, setCatFilter] = useState((studyMemory && studyMemory.catFilter) || "all");
   const [scope, setScope] = useState((studyMemory && studyMemory.scope) || "all"); // "all" | "mine" (only cards you added)
   const [levels, setLevels] = useState((studyMemory && studyMemory.levels) || []); // ticked levels; none = all
@@ -116,6 +118,48 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   }
   const [poolTenses, setPoolTenses] = useState([]);
   const [poolUps, setPoolUps] = useState([]); // per pool slot: a level-up form index, or null
+  const TENSE_INDEX = { base: null, present: 0, past: 1, perfect: 2 };
+  // Which verb form each new slot shows (null = the plain card).
+  const tensesFor = (entries) =>
+    entries.map((e) => {
+      if (e.up != null) return null;
+      const card = cardsRef.current.find((c) => c.id === e.id);
+      if (!card || !tenseActive || !tenseDataFor(card)) return null;
+      const forms = allowedForms(card);
+      return TENSE_INDEX[forms[Math.floor(Math.random() * forms.length)]];
+    });
+  // ----- smart review: what you do with each card decides when it returns -----
+  // viewRef = the card on screen now (when shown, when flipped, lightbulb/ask).
+  // srsOverlay = every mark made since this screen opened (so planning sees it
+  // even before the saved deck catches up); srsPending = not yet saved.
+  const cardsRef = useRef(cards);
+  cardsRef.current = cards;
+  const viewRef = useRef({ id: null, shownAt: 0, flipAt: null, help: false, record: false });
+  const backNav = useRef(false);
+  const srsOverlay = useRef(new Map());
+  const srsPending = useRef(new Map());
+  const srsTimer = useRef(null);
+  const updateCardsRef = useRef(updateCards);
+  updateCardsRef.current = updateCards;
+  function flushSrs() {
+    clearTimeout(srsTimer.current);
+    srsTimer.current = null;
+    if (!srsPending.current.size) return;
+    const patches = Object.fromEntries(srsPending.current);
+    srsPending.current = new Map();
+    updateCardsRef.current(patches);
+  }
+  useEffect(() => {
+    const onHide = () => document.visibilityState !== "visible" && flushSrs();
+    document.addEventListener("visibilitychange", onHide);
+    window.addEventListener("pagehide", flushSrs);
+    return () => {
+      document.removeEventListener("visibilitychange", onHide);
+      window.removeEventListener("pagehide", flushSrs);
+      flushSrs();
+    };
+  }, []);
+  const withOverlay = (c) => (srsOverlay.current.has(c.id) ? { ...c, ...srsOverlay.current.get(c.id) } : c);
   // The first card anyone sees is "broen" (the bridge), once.
   const [welcomeReady, setWelcomeReady] = useState(false);
   const welcomeCardId = useRef(null);
@@ -265,23 +309,36 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
       cards.filter((c) => c.known && c.type === "word" && phraseWords(c).length === 1).map((c) => phraseWords(c)[0])
     );
     const buildsOnKnown = (c) => !c.known && c.type === "word" && phraseWords(c).length > 1 && phraseWords(c).some((w) => knownBase.has(w));
-    // Starred cards get extra copies in the pool so they come up more often.
-    // Cards you added yourself (or tried to add again) are boosted while
-    // they're new: the newest few are placed early and repeated (see
-    // lib/fresh.js), and anything added in the last two weeks is twice as
-    // likely as an ordinary card. It fades back to normal over time.
     const freshIds = pickFresh(filtered, now);
     const freshSet = new Set(freshIds);
-    const entries = [];
-    filtered.forEach((c) => {
-      const level = freshness(c, now);
-      const copies = Math.max(c.starred ? 3 : 1, level === "mid" ? 2 : 1, level === "fresh" && !freshSet.has(c.id) ? 3 : 1);
-      // A random sort key shuffles the session; phrases of known words
-      // get a smaller key, so they land nearer the start.
-      for (let i = 0; i < copies; i++) entries.push({ id: c.id, up: null, key: Math.random() * (buildsOnKnown(c) ? 0.5 : 1) });
-    });
-    entries.sort((x, y) => x.key - y.key);
-    placeFresh(entries, freshIds);
+    let entries = [];
+    if (unknownOnly) {
+      // One endless stream: due reviews mixed with new words in the planned
+      // order (see lib/srs.js, lib/learningOrder.js). After a long break it
+      // eases back in with fewer reviews.
+      const live = filtered.map(withOverlay);
+      const knownPlain = knownPlainSet(cards);
+      const last = lastActivity(cards.map(withOverlay));
+      const away = last > 0 && now - last > 3 * 24 * 3600 * 1000;
+      const ids = planBatch(live, { now, size: 30, rankOf: (c) => ORDER.newWordRank(c, { now, knownPlain }), away });
+      entries = ids.map((id) => ({ id, up: null, key: 0 }));
+      placeFresh(entries, freshIds);
+    } else {
+      // Starred cards get extra copies in the pool so they come up more often.
+      // Cards you added yourself (or tried to add again) are boosted while
+      // they're new: the newest few are placed early and repeated (see
+      // lib/fresh.js), and anything added in the last two weeks is twice as
+      // likely as an ordinary card. It fades back to normal over time.
+      filtered.forEach((c) => {
+        const level = freshness(c, now);
+        const copies = Math.max(c.starred ? 3 : 1, level === "mid" ? 2 : 1, level === "fresh" && !freshSet.has(c.id) ? 3 : 1);
+        // A random sort key shuffles the session; phrases of known words
+        // get a smaller key, so they land nearer the start.
+        for (let i = 0; i < copies; i++) entries.push({ id: c.id, up: null, key: Math.random() * (buildsOnKnown(c) ? 0.5 : 1) });
+      });
+      entries.sort((x, y) => x.key - y.key);
+      placeFresh(entries, freshIds);
+    }
     // Due new forms are spread through the start of the session, about one
     // card in five. Whatever is left over stays due for next time.
     dueUps.forEach(({ c }, k) => {
@@ -292,16 +349,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     setPoolIds(ids);
     setPoolBuilt(true);
     setPoolUps(entries.map((e) => e.up));
-    const TENSE_INDEX = { base: null, present: 0, past: 1, perfect: 2 };
-    setPoolTenses(
-      entries.map((e) => {
-        if (e.up != null) return null;
-        const card = cards.find((c) => c.id === e.id);
-        if (!tenseActive || !tenseDataFor(card)) return null;
-        const forms = allowedForms(card);
-        return TENSE_INDEX[forms[Math.floor(Math.random() * forms.length)]];
-      })
-    );
+    setPoolTenses(tensesFor(entries));
     setIdx(0);
     visitedRef.current = [];
     setFlipped(false);
@@ -312,12 +360,73 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [catFilter, scope, levelsKey, nounOptsKey, starredOnly, unknownOnly, verbFormsKey, sessionKey, welcomeReady, settingsReady]);
 
+
+  // Reset the "what happened on this card" record each time a card appears.
+  useEffect(() => {
+    const id = poolIds[idx];
+    viewRef.current = { id, shownAt: Date.now(), flipAt: null, help: false, record: !backNav.current };
+    backNav.current = false;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idx, poolIds[idx]]);
+
+  // Called when moving forward. Works out how it went and saves it (in small
+  // batches, so swiping stays smooth).
+  function recordView() {
+    const v = viewRef.current;
+    const c = current;
+    if (!unknownOnly || !v.record || !c || v.id !== c.id || c.known || c.ignored || c.type === "grammar" || upIdx != null) return;
+    if (welcomeCardId.current === c.id) return;
+    v.record = false;
+    const base = withOverlay(c);
+    const state = nextState(base, { flipDelay: v.flipAt ? v.flipAt - v.shownAt : null, help: v.help });
+    srsOverlay.current.set(c.id, { ...(srsOverlay.current.get(c.id) || {}), ...state });
+    srsPending.current.set(c.id, state);
+    if (srsPending.current.size >= 8) flushSrs();
+    else if (!srsTimer.current) srsTimer.current = setTimeout(flushSrs, 4500);
+    // A first look that was hard, or a struggle: shown again a few cards later.
+    if (comesBackSoon(state)) {
+      const at = idx + 9;
+      const put = (arr, v2) => {
+        const next = arr.slice();
+        next.splice(Math.min(at, next.length), 0, v2);
+        return next;
+      };
+      setPoolIds((a) => put(a, c.id));
+      setPoolUps((a) => put(a.length ? a : poolIds.map(() => null), null));
+      setPoolTenses((a) => put(a.length ? a : poolIds.map(() => null), null));
+    }
+  }
+
+  // The stream never runs dry: when few cards are left, plan the next stretch.
+  useEffect(() => {
+    if (!poolBuilt || !unknownOnly || !poolIds.length || poolIds.length - idx > 6) return;
+    const now = Date.now();
+    const inPool = new Set(poolIds);
+    const welcomeId = welcomeCardId.current;
+    const dueUps = cardsRef.current
+      .filter((c) => !inPool.has(c.id) && inLevelUpScope(c))
+      .map((c) => ({ c, due: levelUpDueAt(c) }))
+      .filter((x) => x.due != null && x.due <= now)
+      .sort((x, y) => x.due - y.due)
+      .slice(0, 4);
+    const upIds = new Set(dueUps.map((x) => x.c.id));
+    const candidates = cardsRef.current.filter((c) => inScope(c) && !c.known && !upIds.has(c.id) && c.id !== welcomeId).map(withOverlay);
+    const knownPlain = knownPlainSet(cardsRef.current);
+    const ids = planBatch(candidates, { now, size: 20, exclude: inPool, rankOf: (c) => ORDER.newWordRank(c, { now, knownPlain }) });
+    const entries = ids.map((id) => ({ id, up: null }));
+    dueUps.forEach(({ c }, k) => entries.splice(Math.min(3 + k * 5, entries.length), 0, { id: c.id, up: c.upStage || 0 }));
+    if (!entries.length) return;
+    const tenses = tensesFor(entries);
+    setPoolIds((a) => [...a, ...entries.map((e) => e.id)]);
+    setPoolUps((a) => [...(a.length ? a : poolIds.map(() => null)), ...entries.map((e) => e.up)]);
+    setPoolTenses((a) => [...(a.length ? a : poolIds.map(() => null)), ...tenses]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idx, poolIds.length, poolBuilt, unknownOnly]);
+
   // Looked up by id from a map: this runs on every drag frame, and scanning
   // the whole deck each time made swiping and flipping sluggish.
   const cardsById = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards]);
   const current = cardsById.get(poolIds[idx]);
-  const cardsRef = useRef(cards);
-  cardsRef.current = cards;
   // What the card actually shows: the normal word, or — in a tense
   // session — the verb in the chosen tense in both languages.
   const upIdx = current && poolUps[idx] != null ? poolUps[idx] : null;
@@ -422,6 +531,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   // Moving on from a known word's new form counts it as seen: the next
   // form comes a week later, and after the last one the word is done.
   function markLevelUpSeen() {
+    recordView();
     if (current && welcomeCardId.current === current.id) {
       welcomeCardId.current = null;
       storeSet("welcomeSeen", "1").catch(() => {});
@@ -432,6 +542,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
 
   function requestBack() {
     if (exiting) return;
+    backNav.current = true;
     hapticLight();
     setExiting("right");
   }
@@ -472,6 +583,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     if (Math.abs(dx) < 6) {
       // Barely moved — a tap, not a swipe. Flip the card.
       setDragX(0);
+      if (!flipped && !viewRef.current.flipAt) viewRef.current.flipAt = Date.now();
       setFlipped((f) => !f);
       hapticLight();
       return;
@@ -483,6 +595,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
     }
     else if (dx >= threshold) {
       hapticLight();
+      backNav.current = true;
       setExiting("right");
     }
     else setDragX(0); // didn't clear the threshold — snap back
@@ -503,6 +616,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   }
 
   async function openInsight(card) {
+    if (viewRef.current.id === card.id) viewRef.current.help = true;
     setInsightFor(card.id);
     setInsightError("");
     if (insightCache[card.id]) return; // already fetched this session
@@ -549,6 +663,7 @@ export function StudyView({ cards, categories, updateCard, addCards, onOpenSetti
   }
 
   function openAsk(card) {
+    if (viewRef.current.id === card.id) viewRef.current.help = true;
     setAskFor(card.id);
     setAskQuestion("");
     setAskAnswer("");

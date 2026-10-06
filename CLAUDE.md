@@ -54,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder) and `node tests/srs_check.mjs` and `node tests/sync_check.mjs` (smart review, word order, sync); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -83,6 +83,30 @@ Owner wants smart learning without new features, buttons or gamification.
   after dropping a leading en/et/at. Short "at + verb" phrases ("at gå glip
   af") stay with the verbs; "at" phrases with 4+ words after it (idioms) count.
   Nothing saved changes.
+
+## Smart review (no buttons, one endless stream)
+There are no sessions. In Unknown mode Study is one stream that carries on after
+the app closes. Nothing to press: what the learner does decides when a card returns.
+- Card fields (`src/lib/srs.js`): `srsN` looks, `srsLvl` step on the ladder (20 min,
+  1, 3, 7, 16, 35, 80, 180 days), `srsDue`, `srsAt`, `srsSkips`.
+- Signals: swipe past without flipping = skipped (back in 1 to 7 days, more each time);
+  flip within 2.5 s = easy (jumps two steps); 2.5 to 8 s = normal (one step);
+  8 to 30 s = effort (same step; if new, back in the stream a few cards later);
+  lightbulb or Ask = wants it (two steps back, soon). Over 30 s is ignored. Starred
+  cards come back sooner. Known cards leave the stream (level-up forms as before).
+  Going Back to a card and level-up/welcome/lesson cards are not recorded.
+- `planBatch`: about 1 card in 3 is a new word, always; reviews fill the rest (most
+  overdue first; a big backlog is capped at half). After 3+ days away: at most 8
+  reviews, starting with two new words. The stream extends itself when 6 cards are left.
+- Order of new words (`src/lib/learningOrderCore.js`, wired in `learningOrder.js`):
+  Basic first with the next level mixing in; topics interleaved; hej / ja / tak etc.
+  held back; the learner's own cards first; a compound moves up when the learner
+  knows either part (`COMPOUND_PARTS`, detected from the word list); phrases built on
+  a known word move up. The compound card just shows its translation.
+- Marks are saved in small batches (`updateCards` in App.jsx, no `progressAt`), and on
+  leaving the app. They travel in iCloud sync (`s` array; the newest look wins) and
+  survive migrations (`mergeProgress`). With Unknown off, Study keeps the old shuffle.
+- Tests: `node tests/srs_check.mjs`.
 
 ## Ready-made lightbulb answers
 Built-in words can carry a ready-made lightbulb answer (forms, explanation,
