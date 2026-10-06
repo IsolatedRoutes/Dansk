@@ -3,7 +3,7 @@ import { AIErrorNote } from "../components/AIErrorNote";
 import { CategoryPicker } from "../components/CategoryPicker";
 import { Icon } from "../components/icons";
 import { renderInlineMarkdown } from "../components/markdown";
-import { CenteredOverlay, Field, SectionTitle, inputStyle, smallBtn } from "../components/ui";
+import { CenteredOverlay, SectionTitle, inputStyle, smallBtn } from "../components/ui";
 import { LOOKUP_SYSTEM, cardTypeFor, lookupUserText, readLookup } from "../lib/addLookup";
 import { formsField } from "../lib/ownFormsCore";
 import { GRAMMAR_GROUPS, LEVELS, LESSONS_ID, isLessonsCategory, topicNamesForAI } from "../data/categories";
@@ -219,7 +219,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
               border: "1px solid var(--line)",
               borderRadius: 22,
               background: "#FBFAF7",
-              minHeight: "clamp(300px, calc(100dvh - 360px), 460px)",
+              minHeight: "clamp(220px, calc(100dvh - 470px), 330px)",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -250,9 +250,10 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     value={text}
                     onChange={(e) => changeText(e.target.value)}
                     autoCapitalize="none"
-                    rows={showOther ? 2 : 3}
+                    rows={2}
                     aria-label="Word or sentence"
-                    style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", textAlign: "center", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.3, color: "var(--ink)", padding: 0 }}
+                    className="soft"
+                    style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", textAlign: "center", fontFamily: "var(--serif)", fontSize: 22, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 110, overflowY: "auto" }}
                     placeholder="A word or sentence, in Danish or English"
                   />
                   {showOther && (
@@ -262,7 +263,8 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                         value={other}
                         onChange={(e) => setOther(e.target.value)}
                         autoCapitalize="none"
-                        style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", color: "var(--sage)", textAlign: "center", padding: "2px 0" }}
+                        className="soft"
+                        style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)", textAlign: "center", padding: "2px 0" }}
                         placeholder={lang === "en" ? "The Danish" : lang === "da" ? "The English" : "The translation (choose Danish or English below)"}
                       />
                     </>
@@ -280,7 +282,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
               </button>
             ) : (
               <div style={{ display: "flex", gap: 16 }}>
-                {[["auto", "Detect"], ["da", "Danish"], ["en", "English"]].map(([id, label]) => (
+                {[["auto", "Detect language"], ["da", "Danish"], ["en", "English"]].map(([id, label]) => (
                   <button
                     key={id}
                     onClick={() => {
@@ -387,52 +389,49 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         </>
       ) : (
         <>
-          <Field label="Grammar point name">
-            <input value={front} onChange={(e) => setFront(e.target.value)} style={inputStyle} placeholder="e.g. Conditional with hvis (if/then)" />
-          </Field>
-          <div style={{ margin: "14px 0" }}>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-              <button
-                onClick={lookupGrammar}
-                disabled={!front.trim() || lookingUp}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 6,
-                  border: "1px solid " + (front.trim() ? "var(--fjord)" : "#D8D4CB"),
-                  background: front.trim() ? "#EEF2F0" : "transparent",
-                  borderRadius: 999,
-                  padding: "7px 16px",
-                  color: front.trim() ? "var(--fjord)" : "#B8B3A5",
-                  fontFamily: "var(--sans)",
-                  fontSize: 13,
-                  fontWeight: 700,
-                  cursor: front.trim() ? "pointer" : "default",
-                }}
-              >
-                {lookingUp ? <Icon.Loader2 size={13} className="spin" /> : <Icon.Wand2 size={13} />}
-                {lookingUp ? "Asking…" : "Ask AI to explain this"}
-              </button>
-            </div>
-            <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
-          </div>
-          <Field label="Explanation">
-            <textarea value={back} onChange={(e) => setBack(e.target.value)} style={{ ...inputStyle, minHeight: 70 }} placeholder="e.g. Use hvis + past tense, then ville + infinitive, to describe a hypothetical." />
-          </Field>
-          <Field label="Example sentences (optional)">
+          <div style={{ border: "1px solid var(--line)", borderRadius: 22, background: "#FBFAF7", padding: "20px 20px 14px" }}>
+            <input
+              value={front}
+              onChange={(e) => setFront(e.target.value)}
+              aria-label="Grammar point name"
+              className="soft"
+              style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 22, color: "var(--terracotta)", padding: "2px 0" }}
+              placeholder="Name of the lesson"
+            />
+            <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
+            <textarea
+              value={back}
+              onChange={(e) => setBack(e.target.value)}
+              aria-label="Explanation"
+              className="soft"
+              rows={4}
+              style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0 }}
+              placeholder="What it means and when to use it"
+            />
             {examples.map((ex, i) => (
-              <div key={i} style={{ display: "flex", gap: 6, marginBottom: 6 }}>
-                <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" style={{ ...inputStyle, flex: 1 }} />
-                <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" style={{ ...inputStyle, flex: 1 }} />
+              <div key={i} style={{ borderTop: "1px solid var(--line)", paddingTop: 8, marginTop: 8 }}>
+                <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)", padding: "2px 0" }} />
+                <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
               </div>
             ))}
-            <button onClick={addExampleRow} style={linkBtn}>
-              + Add another example
+            <div style={{ textAlign: "center", marginTop: 10 }}>
+              <button onClick={addExampleRow} style={{ ...linkBtn, color: "var(--muted)", fontWeight: 400, fontSize: 13 }}>
+                + Add an example
+              </button>
+            </div>
+          </div>
+          <div style={{ display: "flex", justifyContent: "center", margin: "18px 0 4px" }}>
+            <button
+              onClick={lookupGrammar}
+              disabled={!front.trim() || lookingUp}
+              style={{ display: "flex", alignItems: "center", gap: 8, border: "none", background: "var(--terracotta)", borderRadius: 999, padding: "12px 30px", color: "#fff", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 700, cursor: front.trim() ? "pointer" : "default", opacity: front.trim() ? 1 : 0.45 }}
+            >
+              {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
+              {lookingUp ? "Asking…" : "Ask AI to explain"}
             </button>
-          </Field>
-          <Field label="Notes (optional)">
-            <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
-          </Field>
+          </div>
+          <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
+          <textarea value={notes} onChange={(e) => setNotes(e.target.value)} className="soft" style={{ ...inputStyle, minHeight: 54, borderRadius: 12, marginTop: 10, resize: "none" }} placeholder="Note (optional)" />
         </>
       )}
 
