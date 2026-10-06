@@ -168,7 +168,7 @@
   }
  },
  "at genere": {
-  "explanation": "\"At genere\" means \"to bother\", when something or someone is unpleasant or in your way. It is often used politely: Generer jeg dig? (Am I bothering you?) Det generer mig ikke (It does not bother me).",
+  "explanation": "\"At genere\" means \"to bother\", when something or someone is unpleasant or in your way. It is often used politely: Generer jeg dig? (Am I bothering you?)",
   "forms": [
    {
     "da": "at genere",
@@ -207,7 +207,7 @@
   }
  },
  "at genkende": {
-  "explanation": "\"At genkende\" means \"to recognize\", when you know someone or something from before: Jeg genkender din stemme (I recognize your voice). Jeg genkendte ham ikke (I did not recognize him). It is built from gen (again) and kende (to know).",
+  "explanation": "\"At genkende\" means \"to recognize\", when you know someone or something from before: Jeg genkender din stemme (I recognize your voice). It is built from gen (again) and kende (to know), and gen is also in at genbruge (to reuse).",
   "forms": [
    {
     "da": "at genkende",
@@ -445,7 +445,7 @@
   }
  },
  "at give en hånd med": {
-  "explanation": "\"At give en hånd med\" means \"to give a hand\", or \"to help out\": Kan du give en hånd med? (Can you lend a hand?) It fits a small, practical job: Jeg giver en hånd med opvasken (I help with the dishes).",
+  "explanation": "\"At give en hånd med\" means \"to give a hand\", or \"to help out\": Kan du give en hånd med? (Can you lend a hand?) Literally it is \"to give a hand along\": med (along) means you join in on a job that someone is already doing.",
   "forms": [
    {
     "da": "at give en hånd med",
@@ -531,7 +531,7 @@
   }
  },
  "at give op": {
-  "explanation": "\"At give op\" means \"to give up\", when you stop trying: Jeg giver ikke op (I am not giving up). Plain at give means \"to give\": Jeg giver dig en bog (I give you a book).",
+  "explanation": "\"At give op\" means \"to give up\", when you stop trying: Jeg giver ikke op (I am not giving up). Op (up) is a small word that changes the verb in many phrases: at skrive op (to write down), at ringe op (to call up).",
   "forms": [
    {
     "da": "at give op",
@@ -773,7 +773,7 @@
   }
  },
  "at google": {
-  "explanation": "\"At google\" means \"to google\", to search for something online: Jeg googler åbningstiderne (I google the opening hours). Har du googlet det? (Have you googled it?)",
+  "explanation": "\"At google\" means \"to google\", to search for something online: Jeg googler åbningstiderne (I google the opening hours).",
   "forms": [
    {
     "da": "at google",
@@ -812,7 +812,7 @@
   }
  },
  "at grave": {
-  "explanation": "\"At grave\" means \"to dig\", making a hole in the ground: Hunden graver i haven (The dog is digging in the garden). Han gravede i sandet (He dug in the sand). It is also used for digging something up: grave noget op (dig something up).",
+  "explanation": "\"At grave\" means \"to dig\", making a hole in the ground: Hunden graver i haven (The dog is digging in the garden). With op (up) it means digging something out: grave noget op (dig something up).",
   "forms": [
    {
     "da": "at grave",
@@ -894,7 +894,7 @@
   }
  },
  "at grine": {
-  "explanation": "\"At grine\" means \"to laugh\", usually out loud at something funny: Vi grinede meget (We laughed a lot). Be careful with grine af (to laugh at someone), which can sound unkind.",
+  "explanation": "\"At grine\" means \"to laugh\", usually out loud at something funny: Vi grinede meget (We laughed a lot). Be careful with grine af (to laugh at someone), which can mean mocking them: Hvorfor griner du af mig? (Why are you laughing at me?)",
   "forms": [
    {
     "da": "at grine",
@@ -1960,7 +1960,7 @@
   }
  },
  "at gå væk": {
-  "explanation": "\"At gå væk\" means \"to go away\" or \"to walk off\", leaving a place. As a command, Gå væk! means \"Go away!\", which sounds rude, so be careful.",
+  "explanation": "\"At gå væk\" means \"to go away\" or \"to walk off\", leaving a place. As a command, Gå væk! means \"Go away!\", a blunt order like \"Get lost!\", so be careful.",
   "forms": [
    {
     "da": "at gå væk",
@@ -2249,7 +2249,7 @@
   }
  },
  "at gøre grin med": {
-  "explanation": "\"At gøre grin med\" means \"to make fun of\" someone: Hun gør grin med mig (She makes fun of me). It can be about a thing too: Han gjorde grin med min accent (He made fun of my accent).",
+  "explanation": "\"At gøre grin med\" means \"to make fun of\" someone: Hun gør grin med mig (She makes fun of me). The person or thing you laugh at comes after med (with).",
   "forms": [
    {
     "da": "at gøre grin med",
@@ -2409,7 +2409,7 @@
   }
  },
  "at gøre rent": {
-  "explanation": "\"At gøre rent\" means \"to clean\" a place, for example the house or the kitchen. It is built from gøre (to do) and rent (clean), so it literally means to make clean.",
+  "explanation": "\"At gøre rent\" means \"to clean\" a place. It is built from gøre (to do) and rent (clean), so it literally means to make clean. The place can go in the middle: Jeg gør køkkenet rent (I clean the kitchen).",
   "forms": [
    {
     "da": "at gøre rent",
@@ -2534,7 +2534,7 @@
   }
  },
  "en gadedør": {
-  "explanation": "\"En gadedør\" means \"a street door\", the main door of a building that opens onto the street. It is built from gade (street) and dør (door): Gadedøren er låst om natten (The street door is locked at night).",
+  "explanation": "\"En gadedør\" means \"a street door\", the main door of a building that opens onto the street. It is built from gade (street) and dør (door). Dør also means \"dies\", as in Fuglen dør (The bird dies).",
   "forms": [
    {
     "da": "en gadedør",
@@ -2577,7 +2577,7 @@
   }
  },
  "en gadekat": {
-  "explanation": "\"En gadekat\" means \"a stray cat\", a cat with no home. It is built from gade (street) and kat (cat). Gadekatten fik lidt mad af naboen (The stray cat got some food from the neighbor).",
+  "explanation": "\"En gadekat\" means \"a stray cat\", a cat with no home. It is built from gade (street) and kat (cat). A cat that lives with a family is en huskat (a house cat).",
   "forms": [
    {
     "da": "en gadekat",
@@ -2616,7 +2616,7 @@
   }
  },
  "en gadelygte": {
-  "explanation": "\"En gadelygte\" means \"a streetlight\". It is built from gade (street) and lygte (light): Gadelygterne tænder om aftenen (The streetlights come on in the evening).",
+  "explanation": "\"En gadelygte\" means \"a streetlight\". It is built from gade (street) and lygte (light), and gade also starts en gadekat (a stray cat).",
   "forms": [
    {
     "da": "en gadelygte",
@@ -2655,7 +2655,7 @@
   }
  },
  "en gaffel": {
-  "explanation": "\"En gaffel\" means \"a fork\", the pointed tool you use to pick up food. You say med en gaffel (with a fork), and \"kniv og gaffel\" means \"knife and fork\".",
+  "explanation": "\"En gaffel\" means \"a fork\", the pointed tool you use to pick up food. It is paired with a knife in the set phrase kniv og gaffel (knife and fork).",
   "forms": [
    {
     "da": "en gaffel",
@@ -2694,7 +2694,7 @@
   }
  },
  "en gang": {
-  "explanation": "\"En gang\" means \"a hallway\" or \"a corridor\": Skoene står i gangen (The shoes are in the hallway). The same word also means \"a time\": to gange (twice).",
+  "explanation": "\"En gang\" means \"a hallway\", the passage inside a building that leads to the rooms. The same word also means \"a time\": to gange (twice).",
   "forms": [
    {
     "da": "en gang",
@@ -2737,7 +2737,7 @@
   }
  },
  "en gang imellem": {
-  "explanation": "\"En gang imellem\" means \"once in a while\" and is used for things that happen now and then: Jeg ser en film en gang imellem (I watch a film once in a while). It sounds more rare than tit (often) and less rare than aldrig (never).",
+  "explanation": "\"En gang imellem\" means \"once in a while\", for things that do not happen often. It sounds more rare than tit (often) and less rare than aldrig (never).",
   "forms": [
    {
     "da": "Jeg ser dem en gang imellem.",
@@ -2811,7 +2811,7 @@
   }
  },
  "en garage": {
-  "explanation": "\"En garage\" means \"a garage\", where you park a car: Bilen står i garagen (The car is in the garage).",
+  "explanation": "\"En garage\" means \"a garage\", where you park a car.",
   "forms": [
    {
     "da": "en garage",
@@ -2850,7 +2850,7 @@
   }
  },
  "en garanti": {
-  "explanation": "\"En garanti\" means \"a warranty\", and also \"a guarantee\": Der er garanti på uret (The watch has a warranty). A promise works the same way: Jeg giver dig min garanti (I give you my guarantee).",
+  "explanation": "\"En garanti\" means \"a warranty\", the maker's promise to fix a product. It also means \"a guarantee\" in general: Jeg giver dig min garanti (I give you my guarantee).",
   "forms": [
    {
     "da": "en garanti",
@@ -2893,7 +2893,7 @@
   }
  },
  "en gartner": {
-  "explanation": "\"En gartner\" means \"a gardener\", someone who works with plants and flowers as a job: Gartneren planter blomster (The gardener plants flowers). The workplace is et gartneri (a plant nursery).",
+  "explanation": "\"En gartner\" means \"a gardener\", someone who works with plants and flowers as a job. The workplace is et gartneri (a plant nursery).",
   "forms": [
    {
     "da": "en gartner",
@@ -2932,7 +2932,7 @@
   }
  },
  "en gate": {
-  "explanation": "\"En gate\" means \"a gate\" at an airport, where you board your plane: Flyet går fra gate 12 (The plane leaves from gate 12). A garden gate is en låge (a gate).",
+  "explanation": "\"En gate\" means \"a gate\" at an airport, where you board your plane. A garden gate is en låge (a gate).",
   "forms": [
    {
     "da": "en gate",
@@ -3010,7 +3010,7 @@
   }
  },
  "en ged": {
-  "explanation": "\"En ged\" means \"a goat\", a farm animal with horns: Geden står på bjerget (The goat stands on the mountain). Goat cheese is called gedeost.",
+  "explanation": "\"En ged\" means \"a goat\", a farm animal with horns. Goat cheese is called gedeost.",
   "forms": [
    {
     "da": "en ged",
@@ -3053,7 +3053,7 @@
   }
  },
  "en genbrugsbutik": {
-  "explanation": "\"En genbrugsbutik\" means \"a secondhand shop\", a store that sells used clothes and things: Jeg købte kjolen i en genbrugsbutik (I bought the dress in a secondhand shop).",
+  "explanation": "\"En genbrugsbutik\" means \"a secondhand shop\", a store that sells clothes and things that other people owned before.",
   "forms": [
    {
     "da": "en genbrugsbutik",
@@ -3096,7 +3096,7 @@
   }
  },
  "en genbrugsstation": {
-  "explanation": "\"En genbrugsstation\" means \"a recycling center\", where you leave bigger things you no longer need, like old furniture or garden waste: Jeg kører møbler til genbrugsstationen (I am taking furniture to the recycling center).",
+  "explanation": "\"En genbrugsstation\" means \"a recycling center\", where you leave bigger things you no longer need, like old furniture or branches.",
   "forms": [
    {
     "da": "en genbrugsstation",
@@ -3135,7 +3135,7 @@
   }
  },
  "en genre": {
-  "explanation": "\"En genre\" means \"a genre\", a type of music, film or book: Min yndlingsgenre er komedie (My favorite genre is comedy).",
+  "explanation": "\"En genre\" means \"a genre\", a type of music, film or book.",
   "forms": [
    {
     "da": "en genre",
@@ -3174,7 +3174,7 @@
   }
  },
  "en genstand": {
-  "explanation": "\"En genstand\" means \"an object\", any single thing you can point to: en genstand på bordet (an object on the table). It sounds more formal than ting (thing).",
+  "explanation": "\"En genstand\" means \"an object\", a physical item you can point to. Everyday speech uses et ting (a thing): Hvad er det for en ting? (What is that thing?). A report says en ukendt genstand (an unidentified item).",
   "forms": [
    {
     "da": "en genstand",
@@ -3213,7 +3213,7 @@
   }
  },
  "en genvej": {
-  "explanation": "\"En genvej\" means \"a shortcut\", a quicker way: Jeg kender en genvej til stationen (I know a shortcut to the station). It is also used on computers: en tastaturgenvej (a keyboard shortcut).",
+  "explanation": "\"En genvej\" means \"a shortcut\", a quicker way to get somewhere. It is also used on computers: en tastaturgenvej (a keyboard shortcut).",
   "forms": [
    {
     "da": "en genvej",
@@ -3252,7 +3252,7 @@
   }
  },
  "en gift": {
-  "explanation": "\"En gift\" means \"a poison\", something that can make you very sick: Det er en farlig gift (It is a dangerous poison). The same spelling also means \"married\": Han er gift (He is married).",
+  "explanation": "\"En gift\" means \"a poison\", something that can make you very sick. The same spelling also means \"married\": Han er gift (He is married).",
   "forms": [
    {
     "da": "en gift",
@@ -3291,7 +3291,7 @@
   }
  },
  "en giraf": {
-  "explanation": "\"En giraf\" means \"a giraffe\", the tallest animal on land, found in Africa. Giraffen spiser blade means \"The giraffe eats leaves\".",
+  "explanation": "\"En giraf\" means \"a giraffe\", the tallest animal on land, found in Africa.",
   "forms": [
    {
     "da": "en giraf",
@@ -3330,7 +3330,7 @@
   }
  },
  "en globus": {
-  "explanation": "\"En globus\" means \"a globe\", a round model of the Earth: Jeg finder Danmark på globussen (I find Denmark on the globe). A flat picture of the world is et kort (a map).",
+  "explanation": "\"En globus\" means \"a globe\", a round model of the Earth. A flat picture of the world is et kort (a map).",
   "forms": [
    {
     "da": "en globus",
@@ -3373,7 +3373,7 @@
   }
  },
  "en gorilla": {
-  "explanation": "\"En gorilla\" means \"a gorilla\", the biggest of the apes: Gorillaen bor i skoven i Afrika (The gorilla lives in the forest in Africa).",
+  "explanation": "\"En gorilla\" means \"a gorilla\", a big, strong animal that lives in the forests of Africa.",
   "forms": [
    {
     "da": "en gorilla",
@@ -3455,7 +3455,7 @@
   }
  },
  "en grammatik": {
-  "explanation": "\"En grammatik\" means \"a grammar\", the rules for how words work together in a language: Dansk grammatik er ikke så svær (Danish grammar is not that hard).",
+  "explanation": "\"En grammatik\" means \"a grammar\", the system for how words fit together in speech and writing.",
   "forms": [
    {
     "da": "en grammatik",
@@ -3498,7 +3498,7 @@
   }
  },
  "en gravko": {
-  "explanation": "\"En gravko\" means \"an excavator\", a big machine that digs holes: Gravkoen står på byggepladsen (The excavator is at the building site). The word is built from grave (dig) and ko (cow).",
+  "explanation": "\"En gravko\" means \"an excavator\", a big machine that digs holes. The word is built from grave (dig) and ko (cow). Grave also gives en grav (a grave).",
   "forms": [
    {
     "da": "en gravko",
@@ -3541,7 +3541,7 @@
   }
  },
  "en gren": {
-  "explanation": "\"En gren\" means \"a branch\", the part of a tree that grows out from the trunk: Der hænger æbler på hver gren (Apples hang on every branch). Han brækkede en gren (He broke a branch).",
+  "explanation": "\"En gren\" means \"a branch\", the woody part that grows out sideways from a tree.",
   "forms": [
    {
     "da": "en gren",
@@ -3584,7 +3584,7 @@
   }
  },
  "en grill": {
-  "explanation": "\"En grill\" means \"a grill\" or \"a barbecue\", for cooking outside: Grillen er varm (The grill is hot). The matching verb is at grille (to grill): Vi griller pølser (We grill sausages).",
+  "explanation": "\"En grill\" means \"a grill\" or \"a barbecue\", for cooking outside. The matching verb is at grille (to grill): Vi griller pølser (We grill sausages).",
   "forms": [
    {
     "da": "en grill",
@@ -3623,7 +3623,7 @@
   }
  },
  "en grillfest": {
-  "explanation": "\"En grillfest\" means \"a barbecue party\". It is built from en grill (a grill) and en fest (a party): Vi holder en grillfest i haven (We are having a barbecue party in the garden).",
+  "explanation": "\"En grillfest\" means \"a barbecue party\". It is built from en grill (a grill) and en fest (a party). The verb at grille (to grill) is how you say you are barbecuing: Vi griller i aften (We are barbecuing tonight).",
   "forms": [
    {
     "da": "en grillfest",
@@ -3662,7 +3662,7 @@
   }
  },
  "en gris": {
-  "explanation": "\"En gris\" means \"a pig\". Calling a person en gris is rude, so keep it for the animal. Pork is svinekød, built from et svin (a swine), another word for pig.",
+  "explanation": "\"En gris\" means \"a pig\". Du er en gris! (You are a pig!) is an insult, so keep the word for the animal. Pork is svinekød, built from et svin (a swine), another word for pig.",
   "forms": [
    {
     "da": "en gris",
@@ -3701,7 +3701,7 @@
   }
  },
  "en grund": {
-  "explanation": "\"En grund\" means \"a reason\". Af den grund means \"for that reason\". It can also mean a plot of land that you build on.",
+  "explanation": "\"En grund\" means \"a reason\". Af den grund means \"for that reason\". It can also mean a plot of land that you build on: Vi køber en grund og bygger et hus (We buy a plot of land and build a house).",
   "forms": [
    {
     "da": "en grund",
@@ -3740,7 +3740,7 @@
   }
  },
  "en gruppe": {
-  "explanation": "\"En gruppe\" means \"a group\" of people or things: en gruppe børn (a group of children). In school you also work i grupper (in groups).",
+  "explanation": "\"En gruppe\" means \"a group\" of people or things. Danish has no word for \"of\" here: en gruppe børn (a group of children).",
   "forms": [
    {
     "da": "en gruppe",
@@ -3779,7 +3779,7 @@
   }
  },
  "en gryde": {
-  "explanation": "\"En gryde\" means \"a pot\", for cooking soup, pasta or rice on the stove: Suppen er i gryden (The soup is in the pot). For frying you use en pande (a pan) instead.",
+  "explanation": "\"En gryde\" means \"a pot\", for cooking soup, pasta or rice on the stove. For frying you use en pande (a pan) instead.",
   "forms": [
    {
     "da": "en gryde",
@@ -3818,7 +3818,7 @@
   }
  },
  "en grydelap": {
-  "explanation": "\"En grydelap\" means \"a pot holder\", a thick cloth for holding hot things: Pas på, den er varm! Tag en grydelap (Careful, it is hot! Get a pot holder).",
+  "explanation": "\"En grydelap\" means \"a pot holder\", a thick cloth for holding hot things.",
   "forms": [
    {
     "da": "en grydelap",
@@ -3861,7 +3861,7 @@
   }
  },
  "en grænse": {
-  "explanation": "\"En grænse\" means \"a border\", for example between two countries: grænsen mellem Danmark og Tyskland (the border between Denmark and Germany). It also means a limit: Alt har en grænse (Everything has a limit).",
+  "explanation": "\"En grænse\" means \"a border\", for example between two countries. It also means a limit: Alt har en grænse (Everything has a limit).",
   "forms": [
    {
     "da": "en grænse",
@@ -3900,7 +3900,7 @@
   }
  },
  "en græsslåmaskine": {
-  "explanation": "\"En græsslåmaskine\" means \"a lawnmower\". It is built from græs (grass), at slå (to mow) and en maskine (a machine): Naboen bruger sin græsslåmaskine i weekenden (The neighbor uses his lawnmower on the weekend).",
+  "explanation": "\"En græsslåmaskine\" means \"a lawnmower\". It is built from græs (grass), at slå (to mow) and en maskine (a machine). Slå also means to hit, so at slå græs (to mow grass) is literally to hit grass.",
   "forms": [
    {
     "da": "en græsslåmaskine",
@@ -3939,7 +3939,7 @@
   }
  },
  "en grøntsag": {
-  "explanation": "\"En grøntsag\" means \"a vegetable\". It is built from grøn (green) and sag (thing), so it is literally a green thing. Spiser du grøntsager? means \"Do you eat vegetables?\".",
+  "explanation": "\"En grøntsag\" means \"a vegetable\". It is built from grøn (green) and sag (thing), so it is literally a green thing. Sag is a common word for a matter or a case, as in en retssag (a court case).",
   "forms": [
    {
     "da": "en grøntsag",
@@ -3978,7 +3978,7 @@
   }
  },
  "en gud": {
-  "explanation": "\"En gud\" means \"a god\": De gamle nordboer troede på mange guder (The old Norse people believed in many gods). For the one God, say Gud without en: Tror du på Gud? (Do you believe in God?).",
+  "explanation": "\"En gud\" means \"a god\", one of many gods. For the one God, say Gud without en: Tror du på Gud? (Do you believe in God?).",
   "forms": [
    {
     "da": "en gud",
@@ -4021,7 +4021,7 @@
   }
  },
  "en gudfar": {
-  "explanation": "\"En gudfar\" means \"a godfather\", a man chosen as a special adult in a child's life: Min gudfar ringer til mig på min fødselsdag (My godfather calls me on my birthday).",
+  "explanation": "\"En gudfar\" means \"a godfather\", a man chosen as a special adult in a child's life.",
   "forms": [
    {
     "da": "en gudfar",
@@ -4060,7 +4060,7 @@
   }
  },
  "en gudmor": {
-  "explanation": "\"En gudmor\" means \"a godmother\", a woman chosen as a special adult in a child's life: Min gudmor giver mig en gave hver jul (My godmother gives me a gift every Christmas).",
+  "explanation": "\"En gudmor\" means \"a godmother\", a woman chosen as a special adult in a child's life.",
   "forms": [
    {
     "da": "en gudmor",
@@ -4099,7 +4099,7 @@
   }
  },
  "en guide": {
-  "explanation": "\"En guide\" means \"a guide\", a person who shows visitors around a place: Guiden fortæller om slottet (The guide tells about the castle). Han arbejder som guide på et museum (He works as a guide at a museum).",
+  "explanation": "\"En guide\" means \"a guide\", a person who shows visitors around a place.",
   "forms": [
    {
     "da": "en guide",
@@ -4138,7 +4138,7 @@
   }
  },
  "en guidebog": {
-  "explanation": "\"En guidebog\" means \"a guidebook\", a book with sights and tips for a trip: Vi køber en guidebog til Rom (We are buying a guidebook for Rome). It is built from guide (guide) and bog (book).",
+  "explanation": "\"En guidebog\" means \"a guidebook\", a book with sights and tips for a trip. It is built from guide (guide) and bog (book). Guide also means a person who shows tourists around: En guide viser os byen (A guide shows us the town).",
   "forms": [
    {
     "da": "en guidebog",
@@ -4216,7 +4216,7 @@
   }
  },
  "en guldfisk": {
-  "explanation": "\"En guldfisk\" means \"a goldfish\", an orange pet fish that lives in a bowl: Jeg fodrer min guldfisk hver dag (I feed my goldfish every day).",
+  "explanation": "\"En guldfisk\" means \"a goldfish\", an orange pet fish that lives in a bowl.",
   "forms": [
    {
     "da": "en guldfisk",
@@ -4259,7 +4259,7 @@
   }
  },
  "en gulerod": {
-  "explanation": "\"En gulerod\" means \"a carrot\". It is built from gul (yellow) and rod (root), so it is literally a yellow root.",
+  "explanation": "\"En gulerod\" means \"a carrot\". It is built from gul (yellow) and rod (root), so it is literally a yellow root. The name says yellow, but you describe the color of a carrot as orange (orange).",
   "forms": [
    {
     "da": "en gulerod",
@@ -4345,7 +4345,7 @@
   }
  },
  "en gynge": {
-  "explanation": "\"En gynge\" means \"a swing\", the kind at a playground: Børnene sidder på gyngen (The children sit on the swing). The action is at gynge (to swing, to rock).",
+  "explanation": "\"En gynge\" means \"a swing\", the kind at a playground. The action is at gynge (to swing, to rock): Barnet gynger (The child is swinging).",
   "forms": [
    {
     "da": "en gynge",
@@ -4388,7 +4388,7 @@
   }
  },
  "en gågade": {
-  "explanation": "\"En gågade\" means \"a pedestrian street\", a street with no cars: Vi shopper på gågaden (We shop on the pedestrian street). It is built from gå (walk) and gade (street).",
+  "explanation": "\"En gågade\" means \"a pedestrian street\", a street with no cars. It is built from gå (walk) and gade (street). Gade also appears in other street words, such as en sidegade (a side street).",
   "forms": [
    {
     "da": "en gågade",
@@ -4431,7 +4431,7 @@
   }
  },
  "en gård": {
-  "explanation": "\"En gård\" means \"a farm\" and also \"a courtyard\": Han bor på en gård på landet (He lives on a farm in the country). In a city, gården is the shared yard behind an apartment building.",
+  "explanation": "\"En gård\" means \"a farm\" and also \"a courtyard\". In the country it is a farm. In a city, gården is the shared yard behind an apartment building.",
   "forms": [
    {
     "da": "en gård",
@@ -4470,7 +4470,7 @@
   }
  },
  "en gårdhave": {
-  "explanation": "\"En gårdhave\" means \"a courtyard garden\", a small garden inside a block of buildings. It is built from gård (courtyard) and have (garden): Børnene leger i gårdhaven (The children play in the courtyard garden).",
+  "explanation": "\"En gårdhave\" means \"a courtyard garden\", a small garden inside a block of buildings. It is built from gård (courtyard) and have (garden). Gård also means a farm: Vi bor på en gård (We live on a farm).",
   "forms": [
    {
     "da": "en gårdhave",
@@ -4513,7 +4513,7 @@
   }
  },
  "en gås": {
-  "explanation": "\"En gås\" means \"a goose\", a big bird with a long neck. It flies in groups: Gæssene flyver sydpå om efteråret (The geese fly south in the fall). The meat is also eaten: gåsesteg (roast goose).",
+  "explanation": "\"En gås\" means \"a goose\", a big bird with a long neck that flies in groups. The meat is also eaten: gåsesteg (roast goose).",
   "forms": [
    {
     "da": "en gås",
@@ -4634,7 +4634,7 @@
   }
  },
  "en gætteleg": {
-  "explanation": "\"En gætteleg\" means \"a guessing game\", where you guess an answer: Børnene leger en gætteleg i bilen (The children play a guessing game in the car). It is built from at gætte (to guess) and leg (game).",
+  "explanation": "\"En gætteleg\" means \"a guessing game\". It is built from at gætte (to guess) and leg (game). Leg also gives at lege (to play): Børnene leger udenfor (The children are playing outside).",
   "forms": [
    {
     "da": "en gætteleg",
@@ -4677,7 +4677,7 @@
   }
  },
  "et gadekryds": {
-  "explanation": "\"Et gadekryds\" means \"an intersection\", where two streets cross: Vi mødes i gadekrydset (We meet at the intersection).",
+  "explanation": "\"Et gadekryds\" means \"an intersection\", where two streets cross. It is built from en gade (a street) and et kryds (a cross). Kryds also means a cross mark: Sæt et kryds her (Put a cross here).",
   "forms": [
    {
     "da": "et gadekryds",
@@ -4720,7 +4720,7 @@
   }
  },
  "et galleri": {
-  "explanation": "\"Et galleri\" means \"a gallery\", a place that shows art, often for sale: Der hænger mange malerier i galleriet (Many paintings hang in the gallery).",
+  "explanation": "\"Et galleri\" means \"a gallery\", a place that shows art, often for sale.",
   "forms": [
    {
     "da": "et galleri",
@@ -4837,7 +4837,7 @@
   }
  },
  "et gear": {
-  "explanation": "\"Et gear\" means \"a gear\", on a car or a bike: Jeg kører i andet gear (I am driving in second gear). Bikes often have many: en cykel med 21 gear (a bike with 21 gears).",
+  "explanation": "\"Et gear\" means \"a gear\", on a car or a bike: Jeg kører i andet gear (I am driving in second gear).",
   "forms": [
    {
     "da": "et gear",
@@ -4876,7 +4876,7 @@
   }
  },
  "et geni": {
-  "explanation": "\"Et geni\" means \"a genius\", a person with a brilliant mind: Han er et geni (He is a genius). To say what someone is brilliant at, use i or til: Hun er et geni i matematik (She is a genius at math).",
+  "explanation": "\"Et geni\" means \"a genius\", a person with a brilliant mind. To say what someone is brilliant at, use i or til: Hun er et geni i matematik (She is a genius at math).",
   "forms": [
    {
     "da": "et geni",
@@ -4919,7 +4919,7 @@
   }
  },
  "et gennemsnit": {
-  "explanation": "\"Et gennemsnit\" means \"an average\", the middle value of a group of numbers: Gennemsnittet er otte (The average is eight). With i, it means \"on average\": i gennemsnit.",
+  "explanation": "\"Et gennemsnit\" means \"an average\", the middle value of a group of numbers. With i, it means \"on average\": i gennemsnit.",
   "forms": [
    {
     "da": "et gennemsnit",
@@ -5001,7 +5001,7 @@
   }
  },
  "et gram": {
-  "explanation": "\"Et gram\" means \"a gram\", a unit of weight. Hundrede gram means \"a hundred grams\".",
+  "explanation": "\"Et gram\" means \"a gram\", a unit of weight used for small amounts, such as flour or spices.",
   "forms": [
    {
     "da": "et gram",
@@ -5044,7 +5044,7 @@
   }
  },
  "et grin": {
-  "explanation": "\"Et grin\" means \"a laugh\": Vi fik et godt grin (We had a good laugh). A smile is et smil (a smile).",
+  "explanation": "\"Et grin\" means \"a laugh\". A smile is et smil (a smile).",
   "forms": [
    {
     "da": "et grin",
@@ -5083,7 +5083,7 @@
   }
  },
  "et gudbarn": {
-  "explanation": "\"Et gudbarn\" means \"a godchild\", a child you are a godparent to: Jeg har et gudbarn, som hedder Emil (I have a godchild named Emil).",
+  "explanation": "\"Et gudbarn\" means \"a godchild\", a child you are a godparent to.",
   "forms": [
    {
     "da": "et gudbarn",
@@ -5165,7 +5165,7 @@
   }
  },
  "et gulvtæppe": {
-  "explanation": "\"Et gulvtæppe\" means \"a carpet\" or \"a rug\". It is built from et gulv (a floor) and et tæppe (a rug or blanket): Katten sover på gulvtæppet (The cat sleeps on the carpet).",
+  "explanation": "\"Et gulvtæppe\" means \"a carpet\". Gulv (floor) shows that it lies on the floor, since et tæppe alone can also be a blanket.",
   "forms": [
    {
     "da": "et gulvtæppe",
@@ -5208,7 +5208,7 @@
   }
  },
  "et gymnasium": {
-  "explanation": "\"Et gymnasium\" means \"a high school\", the three years at about age 16 to 19 that lead to university: Min datter går på gymnasiet (My daughter goes to high school). For a sports hall, say en idrætshal (a sports hall).",
+  "explanation": "\"Et gymnasium\" means \"a high school\", the three years at about age 16 to 19 that prepare you for further study: Min datter går på gymnasiet (My daughter goes to high school). For a sports hall, say en idrætshal (a sports hall).",
   "forms": [
    {
     "da": "et gymnasium",
@@ -5247,7 +5247,7 @@
   }
  },
  "et gæsteværelse": {
-  "explanation": "\"Et gæsteværelse\" means \"a guest room\", the room in your home for people who stay the night. It is built from gæst (guest) and værelse (room): Gæsteværelset er klar (The guest room is ready).",
+  "explanation": "\"Et gæsteværelse\" means \"a guest room\", the room in your home for people who sleep over. It is built from gæst (guest) and værelse (room).",
   "forms": [
    {
     "da": "et gæsteværelse",
@@ -5407,7 +5407,7 @@
   }
  },
  "gammeldags": {
-  "explanation": "\"Gammeldags\" means \"old-fashioned\": Hans tøj er gammeldags (His clothes are old-fashioned). Danish uses this one form with en-words, et-words and plurals. The opposite is moderne (modern).",
+  "explanation": "\"Gammeldags\" means \"old-fashioned\". Danish uses this one form with en-words, et-words and plurals. The opposite is moderne (modern).",
   "forms": [
    {
     "da": "en gammeldags bil",
@@ -5485,7 +5485,7 @@
   }
  },
  "ganske": {
-  "explanation": "\"Ganske\" means \"quite\" or \"fairly\": Filmen var ganske god (The movie was quite good). It is weaker than meget (very), so ganske kold (quite cold) is less cold than meget kold (very cold).",
+  "explanation": "\"Ganske\" means \"quite\" or \"fairly\". It is weaker than meget (very), so ganske kold (quite cold) is less cold than meget kold (very cold).",
   "forms": [
    {
     "da": "Maden var ganske god",
@@ -5524,7 +5524,7 @@
   }
  },
  "gavepapir": {
-  "explanation": "\"Gavepapir\" means \"wrapping paper\", the paper you wrap presents in. It has no plural, so you count it in rolls: Vi køber gavepapir før jul (We buy wrapping paper before Christmas).",
+  "explanation": "\"Gavepapir\" means \"wrapping paper\", the paper you wrap presents in. It is built from gave (present) and papir (paper). It has no plural, so you count it in rolls.",
   "forms": [
    {
     "da": "noget gavepapir",
@@ -5563,7 +5563,7 @@
   }
  },
  "generelt": {
-  "explanation": "\"Generelt\" means \"generally\" and talks about the big picture, not every case: Generelt er bussen til tiden (Generally, the bus is on time). One specific day can be different: I dag var den sen (Today it was late).",
+  "explanation": "\"Generelt\" means \"generally\" and talks about the big picture, not every case. One specific day can be different: Generelt er bussen til tiden, men i dag var den sen (Generally the bus is on time, but today it was late).",
   "forms": [
    {
     "da": "Det gælder generelt",
@@ -5680,7 +5680,7 @@
   }
  },
  "genial": {
-  "explanation": "\"Genial\" means \"brilliant\", extremely clever: Hvor er det genialt! (How brilliant!) It also describes people: Hun er genial (She is brilliant).",
+  "explanation": "\"Genial\" means \"brilliant\", extremely clever. You can use it for an idea or for a person: Hun er genial (She is brilliant).",
   "forms": [
    {
     "da": "en genial plan",
@@ -5758,7 +5758,7 @@
   }
  },
  "geografi": {
-  "explanation": "\"Geografi\" means \"geography\", the study of countries, maps and landscapes at school. Said about a class, it has no en in front: Jeg kan godt lide geografi (I like geography).",
+  "explanation": "\"Geografi\" means \"geography\", the study of countries and landscapes at school.",
   "forms": [
    {
     "da": "Vi har geografi i dag",
@@ -5867,7 +5867,7 @@
   }
  },
  "gin": {
-  "explanation": "\"Gin\" means \"gin\", a clear strong drink with a juniper taste: Jeg kan ikke lide gin (I don't like gin). One glass of it is en gin: Hun drikker en gin (She is drinking a gin).",
+  "explanation": "\"Gin\" means \"gin\", a clear strong drink with a juniper taste. Without en it is the drink in general, and with en it is one serving: Jeg kan ikke lide gin (I don't like gin), but Hun drikker en gin (She is drinking a gin).",
   "forms": [
    {
     "da": "gin",
@@ -5945,7 +5945,7 @@
   }
  },
  "glad for": {
-  "explanation": "\"Glad for\" means \"fond of\" or \"happy with\" something or someone. It is milder than elske (to love): Jeg er glad for dig (I am fond of you) is a warm way to say you care about someone.",
+  "explanation": "\"Glad for\" means \"fond of\" or \"happy with\" something or someone. It is milder than elske (to love), so it is a warm way to say you care about someone without saying \"I love you\".",
   "forms": [
    {
     "da": "Jeg er glad for dig.",
@@ -5980,7 +5980,7 @@
   }
  },
  "glat": {
-  "explanation": "\"Glat\" means \"smooth\", with no bumps or roughness. It also means \"slippery\", for things like ice or a wet road: Isen er glat (The ice is slippery).",
+  "explanation": "\"Glat\" means \"smooth\", with no bumps or roughness. It also means \"slippery\", for things like ice or a wet road.",
   "forms": [
    {
     "da": "en glat sten",
@@ -6019,7 +6019,7 @@
   }
  },
  "glimrende": {
-  "explanation": "\"Glimrende\" means \"excellent\" and is stronger than god (good): Det går glimrende (It is going excellently).",
+  "explanation": "\"Glimrende\" means \"excellent\" and is stronger than god (good).",
   "forms": [
    {
     "da": "en glimrende idé",
@@ -6058,7 +6058,7 @@
   }
  },
  "gluten": {
-  "explanation": "\"Gluten\" means \"gluten\", the protein in wheat, rye and barley: Brød med gluten er ikke godt for alle (Bread with gluten is not good for everyone). To say without it, add fri: glutenfri (gluten-free).",
+  "explanation": "\"Gluten\" means \"gluten\", the protein in many types of grain. To say without it, add fri: glutenfri (gluten-free).",
   "forms": [
    {
     "da": "gluten",
@@ -6097,7 +6097,7 @@
   }
  },
  "glutenfri": {
-  "explanation": "\"Glutenfri\" means \"gluten-free\", made without gluten: Har I glutenfrit brød? (Do you have gluten-free bread?). It is built from gluten and fri (free).",
+  "explanation": "\"Glutenfri\" means \"gluten-free\", made without gluten. It is built from gluten and fri (free). Fri works the same in many words: alkoholfri (alcohol-free).",
   "forms": [
    {
     "da": "en glutenfri kage",
@@ -6132,7 +6132,7 @@
   }
  },
  "glæde": {
-  "explanation": "\"Glæde\" means \"joy\": Børnene hoppede af glæde (The children jumped for joy). With sig, at glæde sig means to look forward: Jeg glæder mig til ferien (I am looking forward to the vacation).",
+  "explanation": "\"Glæde\" means \"joy\". With sig, at glæde sig means to look forward: Jeg glæder mig til ferien (I am looking forward to the vacation).",
   "forms": [
    {
     "da": "en glæde",
@@ -6284,7 +6284,7 @@
   }
  },
  "god bedring": {
-  "explanation": "\"God bedring\" means \"get well soon\" and is said to someone who is ill or hurt. Bedring means \"improvement\". You can add med (with) and the problem: god bedring med benet (get well soon with your leg).",
+  "explanation": "\"God bedring\" means \"get well soon\" and is said to someone who is sick or hurt. Bedring means \"improvement\", so you are wishing them a good recovery.",
   "forms": [
    {
     "da": "God bedring!",
@@ -6424,7 +6424,7 @@
   }
  },
  "god tur": {
-  "explanation": "\"God tur\" means \"have a good trip\" and is said to anyone setting off, whether by car, train, bike or plane. You can add the place: god tur til Aarhus (have a good trip to Aarhus). A reply is tak (thanks). For a longer journey, you can say god rejse (have a good journey).",
+  "explanation": "\"God tur\" means \"have a good trip\" and is said to anyone setting off, whether by car, train, bike or plane. For a longer journey, you can say god rejse (have a good journey). A reply is tak (thanks).",
   "forms": [
    {
     "da": "God tur!",
@@ -6677,7 +6677,7 @@
   }
  },
  "golf": {
-  "explanation": "\"Golf\" means \"golf\", the sport where you hit a small ball into holes with clubs. You say at spille golf (to play golf) with no a or the in front.",
+  "explanation": "\"Golf\" means \"golf\", the sport where you hit a small ball into holes with clubs.",
   "forms": [
    {
     "da": "golf",
@@ -6786,7 +6786,7 @@
   }
  },
  "grillkul": {
-  "explanation": "\"Grillkul\" means \"charcoal\", the fuel for a barbecue. It is grill (barbecue) plus kul (coal): Vi skal købe grillkul (We need to buy charcoal).",
+  "explanation": "\"Grillkul\" means \"charcoal\", the fuel for a barbecue. It is built from grill (barbecue) and kul (coal). The same grill is in at grille (to barbecue).",
   "forms": [
    {
     "da": "grillkul",
@@ -6825,7 +6825,7 @@
   }
  },
  "grim": {
-  "explanation": "\"Grim\" means \"ugly\", for people, buildings or things. It can also mean unpleasant: grimt vejr (nasty weather) and et grimt ord (a nasty word). Calling a person grim is quite blunt.",
+  "explanation": "\"Grim\" means \"ugly\", for people, buildings or things. It can also mean unpleasant: grimt vejr (nasty weather) and et grimt ord (a nasty word). Saying Du er grim (You are ugly) to a person is very rude.",
   "forms": [
    {
     "da": "en grim bygning",
@@ -6930,7 +6930,7 @@
   }
  },
  "grækenland": {
-  "explanation": "\"Grækenland\" means \"Greece\". It is built from græker (a Greek person) and land (country).",
+  "explanation": "\"Grækenland\" means \"Greece\". It is built from græker (a Greek person) and land (country). Land ends many country names: Tyskland (Germany) and Finland (Finland).",
   "forms": [
    {
     "da": "Grækenland",
@@ -7004,7 +7004,7 @@
   }
  },
  "græsk": {
-  "explanation": "\"Græsk\" means \"Greek\", for things from Greece and for the language: græsk mad (Greek food).",
+  "explanation": "\"Græsk\" means \"Greek\", for the language and for anything from that country.",
   "forms": [
    {
     "da": "en græsk ø",
@@ -7113,7 +7113,7 @@
   }
  },
  "grønland": {
-  "explanation": "\"Grønland\" means \"Greenland\". It is built from grøn (green) and land (country), so literally green land.",
+  "explanation": "\"Grønland\" means \"Greenland\". It is built from grøn (green) and land (country), so literally green land. Land ends many country names: Tyskland (Germany) and Finland (Finland).",
   "forms": [
    {
     "da": "Grønland",
@@ -7148,7 +7148,7 @@
   }
  },
  "grøntsager": {
-  "explanation": "\"Grøntsager\" means \"vegetables\": Spis dine grøntsager (Eat your vegetables). In shops, you often see frugt og grønt (fruit and vegetables).",
+  "explanation": "\"Grøntsager\" means \"vegetables\". In shops, the section is often labeled frugt og grønt (fruit and vegetables).",
   "forms": [
    {
     "da": "en grøntsag",
@@ -7261,7 +7261,7 @@
   }
  },
  "gummi": {
-  "explanation": "\"Gummi\" means \"rubber\", the soft material that stretches and keeps water out. Car tires are made of it: Dæk er lavet af gummi (Tires are made of rubber).",
+  "explanation": "\"Gummi\" means \"rubber\", the soft material that stretches and keeps water out. It also starts the word for chewy candy: gummibjørne (gummy bears).",
   "forms": [
    {
     "da": "gummi",
@@ -7296,7 +7296,7 @@
   }
  },
  "gylden": {
-  "explanation": "\"Gylden\" means \"golden\" and describes the color or the look of gold: en gylden ring (a golden ring). For something made of real gold, use guld: en guldring (a gold ring).",
+  "explanation": "\"Gylden\" means \"golden\" and describes the color or the look of gold. For something made of real gold, use guld: en guldring (a gold ring).",
   "forms": [
    {
     "da": "en gylden ring",
@@ -7370,7 +7370,7 @@
   }
  },
  "gær": {
-  "explanation": "\"Gær\" means \"yeast\", the ingredient that makes bread rise: Brødet hæver med gær (The bread rises with yeast).",
+  "explanation": "\"Gær\" means \"yeast\", the ingredient that makes bread rise.",
   "forms": [
    {
     "da": "gær",
@@ -7409,7 +7409,7 @@
   }
  },
  "gør det selv": {
-  "explanation": "\"Gør det selv\" means \"do it yourself\". It is made of gør (do), det (it) and selv (yourself).",
+  "explanation": "\"Gør det selv\" means \"do it yourself\". It is made of gør (do), det (it) and selv (yourself). Selv stays the same for every person: Hun gør det selv (She does it herself).",
   "forms": [
    {
     "da": "Gør det selv!",
