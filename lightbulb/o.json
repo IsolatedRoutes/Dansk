@@ -409,8 +409,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tror ikke, at jeg kan **orke** mere i dag.",
-   "en": "I don't think I can take any more today."
+   "da": "Jeg er træt og kan ikke **orke** at lave mad.",
+   "en": "I am tired and cannot face cooking."
   }
  },
  "at overføre penge": {
@@ -616,8 +616,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **overraske** min mor med blomster.",
-   "en": "I want to surprise my mom with flowers."
+   "da": "Han vil **overraske** sin kone med en rejse.",
+   "en": "He wants to surprise his wife with a trip."
   }
  },
  "at oversætte": {
@@ -694,8 +694,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **overtale** min ven til at komme med.",
-   "en": "I will persuade my friend to come along."
+   "da": "Hun vil **overtale** sin chef til at give hende fri.",
+   "en": "She wants to persuade her boss to give her time off."
   }
  },
  "at overveje": {
@@ -781,7 +781,7 @@
   }
  },
  "en oldefar": {
-  "explanation": "\"En oldefar\" means \"a great-grandfather\", the father of your grandmother or grandfather: Min oldefar var landmand (My great-grandfather was a farmer).",
+  "explanation": "\"En oldefar\" means \"a great-grandfather\", one generation above your grandparents: Min oldefar var landmand (My great-grandfather was a farmer).",
   "forms": [
    {
     "da": "en oldefar",
@@ -819,12 +819,12 @@
    }
   ],
   "sentence": {
-   "da": "Min **oldefar** blev født for over hundrede år siden.",
-   "en": "My great-grandfather was born over a hundred years ago."
+   "da": "Min **oldefar** er far til min farmor.",
+   "en": "My great-grandfather is the father of my grandmother."
   }
  },
  "en oldemor": {
-  "explanation": "\"En oldemor\" means \"a great-grandmother\", the mother of your grandmother or grandfather: Min oldemor blev 98 år (My great-grandmother lived to 98).",
+  "explanation": "\"En oldemor\" means \"a great-grandmother\", one generation above your grandparents: Min oldemor blev 98 år (My great-grandmother lived to 98).",
   "forms": [
    {
     "da": "en oldemor",
@@ -862,12 +862,12 @@
    }
   ],
   "sentence": {
-   "da": "Min **oldemor** er 95 år og bor stadig alene.",
-   "en": "My great-grandmother is 95 and still lives alone."
+   "da": "Min **oldemor** er mor til min morfar.",
+   "en": "My great-grandmother is the mother of my grandfather."
   }
  },
  "en oliven": {
-  "explanation": "\"En oliven\" means \"an olive\", the small green or black fruit. The oil from it is olivenolie (olive oil): Jeg steger med olivenolie (I fry with olive oil).",
+  "explanation": "\"En oliven\" means \"an olive\", a salty fruit from a tree in warm countries. The oil from it is olivenolie (olive oil): Jeg steger med olivenolie (I fry with olive oil).",
   "forms": [
    {
     "da": "en oliven",
@@ -979,8 +979,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi tog en **omvej** og kom for sent.",
-   "en": "We took a detour and arrived late."
+   "da": "Det er en **omvej**, fordi vejen går udenom byen.",
+   "en": "It is a detour because the road goes around the town."
   }
  },
  "en onkel": {
@@ -1104,8 +1104,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har billetter til en **opera** i morgen.",
-   "en": "We have tickets to an opera tomorrow."
+   "da": "I en **opera** synger sangerne hele aftenen.",
+   "en": "In an opera the singers sing all evening."
   }
  },
  "en operation": {
@@ -1221,8 +1221,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har glemt min **oplader** derhjemme.",
-   "en": "I forgot my charger at home."
+   "da": "Jeg bruger en **oplader**, når telefonens batteri er tomt.",
+   "en": "I use a charger when the phone's battery is empty."
   }
  },
  "en oplevelse": {
@@ -1308,7 +1308,7 @@
   }
  },
  "en opskrift": {
-  "explanation": "\"En opskrift\" means \"a recipe\", and the food it makes comes after på (for): en opskrift på pandekager (a recipe for pancakes). Jeg følger altid opskriften (I always follow the recipe).",
+  "explanation": "\"En opskrift\" means \"a recipe\", a list of ingredients and steps for making a dish. The food comes after på (for): en opskrift på pandekager (a recipe for pancakes).",
   "forms": [
    {
     "da": "en opskrift",
@@ -1346,8 +1346,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en god **opskrift** på brød.",
-   "en": "I have a good recipe for bread."
+   "da": "Jeg følger en **opskrift**, når jeg bager brød.",
+   "en": "I follow a recipe when I bake bread."
   }
  },
  "en opslagstavle": {
@@ -1476,7 +1476,7 @@
   }
  },
  "en opvaskemaskine": {
-  "explanation": "\"En opvaskemaskine\" means \"a dishwasher\", a machine that cleans plates and cups: Tallerkenerne er i opvaskemaskinen (The plates are in the dishwasher). Jeg sætter koppen i opvaskemaskinen (I put the cup in the dishwasher).",
+  "explanation": "\"En opvaskemaskine\" means \"a dishwasher\", the machine in a kitchen that cleans plates and cups with hot water. The person who does the job is en opvasker (a dishwasher person).",
   "forms": [
    {
     "da": "en opvaskemaskine",
@@ -1514,8 +1514,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har ikke en **opvaskemaskine** i køkkenet.",
-   "en": "We do not have a dishwasher in the kitchen."
+   "da": "Vi sætter snavsede tallerkener i en **opvaskemaskine**.",
+   "en": "We put dirty plates in a dishwasher."
   }
  },
  "en opvasker": {
@@ -1601,7 +1601,7 @@
   }
  },
  "en orm": {
-  "explanation": "\"En orm\" means \"a worm\", the long soft animal that lives in the soil: Fuglen finder en orm i jorden (The bird finds a worm in the soil). A fisherman puts one on the hook: Jeg har en orm på krogen (I have a worm on the hook).",
+  "explanation": "\"En orm\" means \"a worm\", the long soft animal that lives in the soil. Fishermen use it as bait: Jeg har en orm på krogen (I have a worm on the hook).",
   "forms": [
    {
     "da": "en orm",
@@ -1765,7 +1765,7 @@
   }
  },
  "en overflade": {
-  "explanation": "\"En overflade\" means \"a surface\", the outside layer of something: en glat overflade (a smooth surface). It is built from over (over) and flade (flat area), and it also means the surface of water.",
+  "explanation": "\"En overflade\" means \"a surface\", the outside layer of something. It is built from over (over) and flade (flat area), and it also covers the top of water: Der er is på overfladen (There is ice on the surface).",
   "forms": [
    {
     "da": "en overflade",
@@ -2167,7 +2167,7 @@
   }
  },
  "et ophold": {
-  "explanation": "\"Et ophold\" means \"a stay\", the time you spend somewhere: Vi havde et dejligt ophold (We had a lovely stay). It also fits a short stop on a trip: et kort ophold (a short stop).",
+  "explanation": "\"Et ophold\" means \"a stay\", the time you spend somewhere, such as in a hotel. It also fits a short stop on a trip: et kort ophold (a short stop).",
   "forms": [
    {
     "da": "et ophold",
@@ -2361,8 +2361,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er en **offentlig** skole tæt på.",
-   "en": "There is a public school nearby."
+   "da": "En **offentlig** skole er gratis for alle.",
+   "en": "A public school is free for everyone."
   }
  },
  "officiel": {
@@ -3001,7 +3001,7 @@
   }
  },
  "om ugen": {
-  "explanation": "\"Om ugen\" means \"per week\" or \"a week\" in how-often answers. Compare tre gange om ugen (three times a week) with to gange om dagen (twice a day) and fem dage om ugen (five days a week).",
+  "explanation": "\"Om ugen\" means \"per week\" and tells how often something happens. The same pattern works for other times: to gange om dagen (twice a day), fem dage om ugen (five days a week).",
   "forms": [
    {
     "da": "om ugen",
@@ -3223,7 +3223,7 @@
   }
  },
  "online": {
-  "explanation": "\"Online\" means \"online\" and is spelled the same as in English. It never changes with en-words and et-words: en online butik (an online store), et online kursus (an online course).",
+  "explanation": "\"Online\" means \"online\", connected to the internet. It is spelled the same as in English and never changes: en online butik (an online store), et online kursus (an online course).",
   "forms": [
    {
     "da": "Jeg er online nu",
@@ -3257,8 +3257,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun er **online** og skriver til sine venner.",
-   "en": "She is online and writing to her friends."
+   "da": "Man kan købe bøger **online**.",
+   "en": "You can buy books online."
   }
  },
  "onsdag": {
@@ -3488,7 +3488,7 @@
   }
  },
  "opmærksomhed": {
-  "explanation": "\"Opmærksomhed\" means \"attention\": Hun fik meget opmærksomhed (She got a lot of attention). To pay attention, say at være opmærksom (to be attentive).",
+  "explanation": "\"Opmærksomhed\" means \"attention\", the focus you give to someone or something: Hun fik meget opmærksomhed (She got a lot of attention). To pay attention, say at være opmærksom (to be attentive).",
   "forms": [
    {
     "da": "opmærksomhed",
@@ -3518,8 +3518,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet vil have lidt **opmærksomhed**.",
-   "en": "The child wants a little attention."
+   "da": "Babyen græder for at få **opmærksomhed**.",
+   "en": "The baby cries to get attention."
   }
  },
  "oppe": {
@@ -3892,8 +3892,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan godt lide **ost** på brød.",
-   "en": "I like cheese on bread."
+   "da": "**Ost** er lavet af mælk.",
+   "en": "Cheese is made from milk."
   }
  },
  "otte": {
@@ -3975,7 +3975,7 @@
   }
  },
  "ovenpå": {
-  "explanation": "\"Ovenpå\" means \"upstairs\". It works for where something is and for going there: Jeg bor ovenpå (I live upstairs), Jeg går ovenpå (I go upstairs). Compare Soveværelset er ovenpå (The bedroom is upstairs) with Køkkenet er nedenunder (The kitchen is downstairs).",
+  "explanation": "\"Ovenpå\" means \"upstairs\", on the floor above you. It works for where something is and for going there: Jeg bor ovenpå (I live upstairs), Jeg går ovenpå (I go upstairs). The opposite is nedenunder (downstairs).",
   "forms": [
    {
     "da": "ovenpå",
@@ -4005,8 +4005,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi sover **ovenpå** i huset.",
-   "en": "We sleep upstairs in the house."
+   "da": "Soveværelset er **ovenpå**, og køkkenet er nede.",
+   "en": "The bedroom is upstairs, and the kitchen is down."
   }
  },
  "over": {
@@ -4045,7 +4045,7 @@
   }
  },
  "overalt": {
-  "explanation": "\"Overalt\" means \"everywhere\". Compare Jeg leder overalt (I look everywhere) with Den er ingen steder (It is nowhere). It can also start a sentence: Overalt er der blomster (Everywhere there are flowers).",
+  "explanation": "\"Overalt\" means \"everywhere\", in every place. It can also start a sentence for emphasis: Overalt er der blomster (Everywhere there are flowers). The opposite is ingen steder (nowhere).",
   "forms": [
    {
     "da": "overalt i byen",

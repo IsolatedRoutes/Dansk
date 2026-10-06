@@ -151,8 +151,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg håber, at skoene vil **passe** mig.",
-   "en": "I hope the shoes will fit me."
+   "da": "Buksen er for stor og vil ikke **passe** mig.",
+   "en": "The pants are too big and will not fit me."
   }
  },
  "at passe børn": {
@@ -445,7 +445,7 @@
   }
  },
  "at piske": {
-  "explanation": "\"At piske\" means \"to whisk\" and \"to whip\": Jeg pisker æggene (I whisk the eggs). It also works for cream: Vi pisker fløde (We whip cream).",
+  "explanation": "\"At piske\" means \"to whisk\" and \"to whip\", mixing air into eggs or cream with fast strokes: Vi pisker fløde (We whip cream).",
   "forms": [
    {
     "da": "at piske",
@@ -527,7 +527,7 @@
   }
  },
  "at planlægge": {
-  "explanation": "\"At planlægge\" means \"to plan\" something ahead: Vi planlægger en rejse til Italien (We are planning a trip to Italy). Han planlægger sin dag (He plans his day).",
+  "explanation": "\"At planlægge\" means \"to plan\", deciding ahead what will happen and when, for trips, parties or work: Vi planlægger en rejse til Italien (We are planning a trip to Italy).",
   "forms": [
    {
     "da": "at planlægge",
@@ -609,7 +609,7 @@
   }
  },
  "at pleje": {
-  "explanation": "\"At pleje\" means \"to usually (do)\" and \"to care for\". Jeg plejer at gå tidligt i seng (I usually go to bed early). Hun plejer sin syge far (She cares for her sick father). Jeg plejede at løbe (I used to run).",
+  "explanation": "\"At pleje\" means \"to usually (do)\" and \"to care for\". The habit meaning is followed by at (to): Jeg plejer at gå tidligt i seng (I usually go to bed early). The care meaning is for sick people: Hun plejer sin syge far (She cares for her sick father).",
   "forms": [
    {
     "da": "at pleje",
@@ -647,8 +647,8 @@
    }
   ],
   "sentence": {
-   "da": "Han vil **pleje** sin syge mor.",
-   "en": "He will care for his sick mother."
+   "da": "Sygeplejersken skal **pleje** patienterne hver dag.",
+   "en": "The nurse has to care for the patients every day."
   }
  },
  "at poste": {
@@ -769,7 +769,7 @@
   }
  },
  "at producere": {
-  "explanation": "\"At producere\" means \"to produce\", to make things in large amounts: Fabrikken producerer cykler (The factory produces bicycles). It also fits films and music: Hun producerer film (She produces films).",
+  "explanation": "\"At producere\" means \"to produce\", to make things in large amounts, usually to sell them. It also fits films and music: Hun producerer film (She produces films).",
   "forms": [
    {
     "da": "at producere",
@@ -1015,7 +1015,7 @@
   }
  },
  "at pudse": {
-  "explanation": "\"At pudse\" means \"to polish\" or \"to clean until shiny\": Han pudser skoene (He polishes the shoes). It is also the usual word for windows: Jeg pudser vinduer (I clean windows).",
+  "explanation": "\"At pudse\" means \"to polish\" or \"to clean until shiny\", usually with a cloth. It is also the usual word for windows: Jeg pudser vinduer (I clean windows).",
   "forms": [
    {
     "da": "at pudse",
@@ -1053,8 +1053,8 @@
    }
   ],
   "sentence": {
-   "da": "Han vil **pudse** skoene før festen.",
-   "en": "He wants to polish his shoes before the party."
+   "da": "Han vil **pudse** skoene, fordi de er matte.",
+   "en": "He wants to polish the shoes because they are dull."
   }
  },
  "at puste": {
@@ -1217,8 +1217,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan ikke finde en **p-plads** i byen.",
-   "en": "I cannot find a parking spot in the city."
+   "da": "Hvert hus har en **p-plads** til bilen.",
+   "en": "Every house has a parking spot for the car."
   }
  },
  "en p-skive": {
@@ -1425,7 +1425,7 @@
   }
  },
  "en pandekage": {
-  "explanation": "\"En pandekage\" means \"a pancake\", built from pande (a pan) and kage (a cake). A frying pan is en pande.",
+  "explanation": "\"En pandekage\" means \"a pancake\", built from pande (a pan) and kage (a cake). Danes often eat them rolled up with jam or sugar.",
   "forms": [
    {
     "da": "en pandekage",
@@ -1459,8 +1459,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser en **pandekage** med syltetøj.",
-   "en": "I eat a pancake with jam."
+   "da": "Jeg steger en **pandekage** på en pande.",
+   "en": "I fry a pancake in a pan."
   }
  },
  "en pantautomat": {
@@ -1701,8 +1701,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan lugte din **parfume**.",
-   "en": "I can smell your perfume."
+   "da": "Hun sprøjter **parfume** på halsen.",
+   "en": "She sprays perfume on her neck."
   }
  },
  "en park": {
@@ -1831,7 +1831,7 @@
   }
  },
  "en parkeringsplads": {
-  "explanation": "\"En parkeringsplads\" means \"a parking space\", and also \"a parking lot\": Bilen står på parkeringspladsen (The car is in the parking lot). For short, Danes also say en p-plads (a parking space).",
+  "explanation": "\"En parkeringsplads\" means \"a parking space\", and also \"a parking lot\", the whole area with many spaces. For short, Danes also say en p-plads (a parking spot).",
   "forms": [
    {
     "da": "en parkeringsplads",
@@ -1865,8 +1865,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan ikke finde en **parkeringsplads**.",
-   "en": "I cannot find a parking space."
+   "da": "Bilerne holder på en stor **parkeringsplads** ved butikken.",
+   "en": "The cars are parked in a big parking lot by the store."
   }
  },
  "en parkeringsvagt": {
@@ -2108,7 +2108,7 @@
   }
  },
  "en peberfrugt": {
-  "explanation": "\"En peberfrugt\" means \"a bell pepper\", the colorful vegetable you slice for salads. Peber (pepper) alone is the spice: Jeg vil have peber på (I want pepper on it). Peberfrugt is the vegetable: Jeg skærer en rød peberfrugt (I cut a red bell pepper).",
+  "explanation": "\"En peberfrugt\" means \"a bell pepper\", the colorful vegetable you slice for salads. Peber (pepper) alone is the spice: Jeg vil have peber på (I want pepper on it).",
   "forms": [
    {
     "da": "en peberfrugt",
@@ -2142,8 +2142,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skærer en **peberfrugt** til salaten.",
-   "en": "I cut a bell pepper for the salad."
+   "da": "En rød **peberfrugt** smager sødt og er ikke stærk.",
+   "en": "A red bell pepper tastes sweet and is not hot."
   }
  },
  "en peberkværn": {
@@ -2552,8 +2552,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er kun en **person** i huset.",
-   "en": "There is only one person in the house."
+   "da": "Billetten gælder for én **person**.",
+   "en": "The ticket is valid for one person."
   }
  },
  "en personlighed": {
@@ -2591,8 +2591,8 @@
    }
   ],
   "sentence": {
-   "da": "Han har en stærk **personlighed**.",
-   "en": "He has a strong personality."
+   "da": "Humor er en vigtig del af hans **personlighed**.",
+   "en": "Humor is an important part of his personality."
   }
  },
  "en picnic": {
@@ -2673,12 +2673,12 @@
    }
   ],
   "sentence": {
-   "da": "Den lille **pige** har en rød kjole.",
-   "en": "The little girl has a red dress."
+   "da": "En **pige** og en dreng leger i haven.",
+   "en": "A girl and a boy play in the garden."
   }
  },
  "en pil": {
-  "explanation": "\"En pil\" means \"an arrow\", and also \"a willow\", the tree: Følg pilen på skiltet (Follow the arrow on the sign). You can also say et piletræ (a willow tree) for the tree.",
+  "explanation": "\"En pil\" means \"an arrow\", the pointed sign or the kind shot from a bow, and also \"a willow\", the tree. For the tree you can also say et piletræ (a willow tree).",
   "forms": [
    {
     "da": "en pil",
@@ -2712,8 +2712,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg ser en rød **pil** på gulvet.",
-   "en": "I see a red arrow on the floor."
+   "da": "Skiltet har en **pil**, der peger til højre.",
+   "en": "The sign has an arrow that points to the right."
   }
  },
  "en pille": {
@@ -2838,7 +2838,7 @@
   }
  },
  "en pingvin": {
-  "explanation": "\"En pingvin\" means \"a penguin\". Pingviner lever i kulden means \"Penguins live in the cold\".",
+  "explanation": "\"En pingvin\" means \"a penguin\", the black and white sea bird that cannot fly. Pingviner lever i kulden (Penguins live in the cold).",
   "forms": [
    {
     "da": "en pingvin",
@@ -3071,8 +3071,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser en **pizza** med ost.",
-   "en": "We eat a pizza with cheese."
+   "da": "En **pizza** har bund, sauce og ost.",
+   "en": "A pizza has a base, sauce and cheese."
   }
  },
  "en pizzeria": {
@@ -3313,8 +3313,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en **plan** for i dag.",
-   "en": "I have a plan for today."
+   "da": "Vores **plan** er at tage toget.",
+   "en": "Our plan is to take the train."
   }
  },
  "en planet": {
@@ -3361,7 +3361,7 @@
   }
  },
  "en planke": {
-  "explanation": "\"En planke\" means \"a plank\", a long piece of wood for floors and fences: Gulvet er lavet af planker (The floor is made of planks).",
+  "explanation": "\"En planke\" means \"a plank\", a long, flat, thick piece of wood used to build floors, fences and docks. Planker (planks) are often laid side by side.",
   "forms": [
    {
     "da": "en planke",
@@ -3399,8 +3399,8 @@
    }
   ],
   "sentence": {
-   "da": "Han bærer en lang **planke** ind i huset.",
-   "en": "He carries a long plank into the house."
+   "da": "Hvert stykke i gulvet er en **planke**.",
+   "en": "Each piece in the floor is a plank."
   }
  },
  "en plante": {
@@ -3723,8 +3723,8 @@
    }
   ],
   "sentence": {
-   "da": "Min nabo er **polak**, og han arbejder som tømrer.",
-   "en": "My neighbor is a Pole, and he works as a carpenter."
+   "da": "En **polak** kommer fra Polen.",
+   "en": "A Pole comes from Poland."
   }
  },
  "en politibetjent": {
@@ -3762,8 +3762,8 @@
    }
   ],
   "sentence": {
-   "da": "En **politibetjent** står ved vejen.",
-   "en": "A police officer is standing by the road."
+   "da": "Du kan bede en **politibetjent** om hjælp.",
+   "en": "You can ask a police officer for help."
   }
  },
  "en politik": {
@@ -3810,7 +3810,7 @@
   }
  },
  "en politiker": {
-  "explanation": "\"En politiker\" means \"a politician\", someone who works in politics: Hun er politiker i Folketinget (She is a politician in the Danish Parliament). The field itself is politik (politics).",
+  "explanation": "\"En politiker\" means \"a politician\", a person with a job in politics, in a city or for the whole country: Hun er blevet politiker (She has become a politician). The field itself is politik (politics).",
   "forms": [
    {
     "da": "en politiker",
@@ -3848,8 +3848,8 @@
    }
   ],
   "sentence": {
-   "da": "Min onkel vil gerne være **politiker**.",
-   "en": "My uncle would like to be a politician."
+   "da": "En **politiker** stemmer om love i Folketinget.",
+   "en": "A politician votes on laws in the Parliament."
   }
  },
  "en politimand": {
@@ -4129,8 +4129,8 @@
    }
   ],
   "sentence": {
-   "da": "Bilen står foran den store **port**.",
-   "en": "The car is standing in front of the big gate."
+   "da": "Gården har en stor **port** til bilerne.",
+   "en": "The yard has a big gate for the cars."
   }
  },
  "en portion": {
@@ -4168,8 +4168,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en stor **portion**.",
-   "en": "I would like a big portion."
+   "da": "Én **portion** er nok til en person.",
+   "en": "One portion is enough for one person."
   }
  },
  "en pose": {
@@ -4250,8 +4250,8 @@
    }
   ],
   "sentence": {
-   "da": "Der ligger et brev i min **postkasse**.",
-   "en": "There is a letter in my mailbox."
+   "da": "Postbuddet lægger breve i vores **postkasse**.",
+   "en": "The mail carrier puts letters in our mailbox."
   }
  },
  "en potteplante": {
@@ -4293,8 +4293,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har en stor grøn **potteplante** i stuen.",
-   "en": "We have a big green houseplant in the living room."
+   "da": "Min **potteplante** står i en pot og skal have vand.",
+   "en": "My houseplant stands in a pot and needs water."
   }
  },
  "en prik": {
@@ -4336,12 +4336,12 @@
    }
   ],
   "sentence": {
-   "da": "Sæt en **prik** på kortet, hvor vi bor.",
-   "en": "Put a dot on the map where we live."
+   "da": "Tegn en **prik** med pennen, ikke en streg.",
+   "en": "Draw a dot with the pen, not a line."
   }
  },
  "en prins": {
-  "explanation": "\"En prins\" means \"a prince\", the son of a king or queen: Prinsen skal blive konge en dag (The prince will become king one day).",
+  "explanation": "\"En prins\" means \"a prince\", a royal son. In a title, it comes before the name: Prins Joachim er kongens bror (Prince Joachim is the king's brother).",
   "forms": [
    {
     "da": "en prins",
@@ -4375,8 +4375,8 @@
    }
   ],
   "sentence": {
-   "da": "Den unge **prins** bor på et stort slot.",
-   "en": "The young prince lives in a big castle."
+   "da": "En **prins** er søn af en konge.",
+   "en": "A prince is the son of a king."
   }
  },
  "en prinsesse": {
@@ -4492,8 +4492,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en lav **pris**.",
-   "en": "That is a low price."
+   "da": "Den lave **pris** gør varen billig.",
+   "en": "The low price makes the item cheap."
   }
  },
  "en prisforskel": {
@@ -4734,8 +4734,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **professor** forklarer tingene godt.",
-   "en": "My professor explains things well."
+   "da": "En **professor** underviser på et universitet.",
+   "en": "A professor teaches at a university."
   }
  },
  "en profil": {
@@ -4812,8 +4812,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søster er **programmør** i en stor virksomhed.",
-   "en": "My sister is a programmer at a big company."
+   "da": "En **programmør** skriver kode til computere.",
+   "en": "A programmer writes code for computers."
   }
  },
  "en proptrækker": {
@@ -4980,12 +4980,12 @@
    }
   ],
   "sentence": {
-   "da": "Landet skal have en ny **præsident** i november.",
-   "en": "The country will get a new president in November."
+   "da": "En **præsident** leder et land.",
+   "en": "A president leads a country."
   }
  },
  "en præst": {
-  "explanation": "\"En præst\" means \"a priest\", and in Denmark it is also the normal word for a church minister: Præsten holder en tale (The priest gives a speech). It is used for both men and women.",
+  "explanation": "\"En præst\" means \"a priest\", and in Denmark it is also the normal word for a church minister: Præsten døber barnet (The priest is baptizing the child). It is used for both men and women.",
   "forms": [
    {
     "da": "en præst",
@@ -5184,7 +5184,7 @@
   }
  },
  "en punktering": {
-  "explanation": "\"En punktering\" means \"a flat tire\" or \"a puncture\": Jeg har en punktering (I have a flat tire). Kan du reparere en punktering? (Can you fix a flat tire?).",
+  "explanation": "\"En punktering\" means \"a flat tire\" or \"a puncture\", a hole in a bike or car tire that lets the air out. Kan du reparere en punktering? (Can you fix a flat tire?)",
   "forms": [
    {
     "da": "en punktering",
@@ -5222,7 +5222,7 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan ikke cykle, for jeg har en **punktering**.",
+   "da": "Jeg kan ikke cykle, fordi jeg har en **punktering**.",
    "en": "I can't bike because I have a flat tire."
   }
  },
@@ -5304,8 +5304,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søster er **pædagog** i en børnehave.",
-   "en": "My sister is a daycare worker in a kindergarten."
+   "da": "En **pædagog** passer børn i en børnehave.",
+   "en": "A daycare worker looks after children in a kindergarten."
   }
  },
  "en pære": {
@@ -5975,8 +5975,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg sender et **postkort** til min mor.",
-   "en": "I send a postcard to my mother."
+   "da": "På ferie sender jeg et **postkort** hjem.",
+   "en": "On vacation, I send a postcard home."
   }
  },
  "et postnummer": {
@@ -6100,8 +6100,8 @@
    }
   ],
   "sentence": {
-   "da": "Jakken har intet **prisskilt**, men den ser dyr ud.",
-   "en": "The jacket has no price tag, but it looks expensive."
+   "da": "Prisen står på et **prisskilt** ved jakken.",
+   "en": "The price is on a price tag by the jacket."
   }
  },
  "et problem": {
@@ -6346,8 +6346,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vasker mit **pudebetræk** hver uge.",
-   "en": "I wash my pillowcase every week."
+   "da": "Jeg putter puden i et **pudebetræk**.",
+   "en": "I put the pillow in a pillowcase."
   }
  },
  "et pulver": {
@@ -6519,7 +6519,7 @@
   }
  },
  "et puslespil": {
-  "explanation": "\"Et puslespil\" means \"a puzzle\" with many small pieces to fit together: Vi laver et puslespil med tusind brikker (We do a puzzle with a thousand pieces). A riddle to solve is en gåde.",
+  "explanation": "\"Et puslespil\" means \"a puzzle\", a game where you fit small pieces together into a picture: Vi laver et puslespil i aften (We are doing a puzzle tonight). A riddle to solve is en gåde.",
   "forms": [
    {
     "da": "et puslespil",
@@ -6557,8 +6557,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi laver et **puslespil** sammen i aften.",
-   "en": "We are doing a puzzle together tonight."
+   "da": "Et **puslespil** har mange små brikker.",
+   "en": "A puzzle has many small pieces."
   }
  },
  "et påskeæg": {
@@ -6600,12 +6600,12 @@
    }
   ],
   "sentence": {
-   "da": "Børnene leder efter et **påskeæg** i haven.",
-   "en": "The children look for an Easter egg in the garden."
+   "da": "Til påske får jeg et **påskeæg** af chokolade.",
+   "en": "At Easter I get an Easter egg made of chocolate."
   }
  },
  "panik": {
-  "explanation": "\"Panik\" means \"panic\": Der var panik i butikken (There was panic in the store). With i (in), it means \"in a panic\": Jeg var i panik (I was in a panic).",
+  "explanation": "\"Panik\" means \"panic\", a sudden, strong fear that makes people stop thinking clearly: Der var panik i butikken (There was panic in the store). With i (in), it means \"in a panic\": Jeg var i panik (I was in a panic).",
   "forms": [
    {
     "da": "panik",
@@ -6748,8 +6748,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skriver på et stykke **papir**.",
-   "en": "I write on a piece of paper."
+   "da": "Jeg printer brevet på **papir**.",
+   "en": "I print the letter on paper."
   }
  },
  "parat": {
@@ -7006,7 +7006,7 @@
   }
  },
  "pasta": {
-  "explanation": "\"Pasta\" means \"pasta\". You do not count it, so you say Jeg laver pasta (I am making pasta) with nothing in front of it.",
+  "explanation": "\"Pasta\" means \"pasta\", the Italian food made from wheat dough. You do not count it, so you say Jeg laver pasta (I am making pasta) with nothing in front of it.",
   "forms": [
    {
     "da": "pasta",
@@ -7036,12 +7036,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg koger **pasta** og laver en tomatsovs til.",
-   "en": "I boil pasta and make a tomato sauce to go with it."
+   "da": "Spaghetti er en slags **pasta**.",
+   "en": "Spaghetti is a kind of pasta."
   }
  },
  "peber": {
-  "explanation": "\"Peber\" means \"pepper\", the spice you put on food. It is used without a, as in salt og peber (salt and pepper). Do not mix it up with peberfrugt (bell pepper), which is a vegetable.",
+  "explanation": "\"Peber\" means \"pepper\", the spice you put on food. It is used without a: Jeg bruger peber på kødet (I use pepper on the meat). Do not mix it up with peberfrugt (bell pepper), which is a vegetable.",
   "forms": [
    {
     "da": "peber",
@@ -7114,8 +7114,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har ikke mange **penge**.",
-   "en": "I do not have much money."
+   "da": "Man betaler med **penge**.",
+   "en": "You pay with money."
   }
  },
  "pensioneret": {
@@ -7184,8 +7184,8 @@
    }
   ],
   "sentence": {
-   "da": "Alt er **perfekt** i dag.",
-   "en": "Everything is perfect today."
+   "da": "Et **perfekt** svar har ingen fejl.",
+   "en": "A perfect answer has no mistakes."
   }
  },
  "permanent": {
@@ -7737,8 +7737,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have **pommes frites** og ketchup.",
-   "en": "I would like fries and ketchup."
+   "da": "**Pommes frites** er lavet af kartofler.",
+   "en": "French fries are made of potatoes."
   }
  },
  "popcorn": {
@@ -7933,7 +7933,7 @@
   }
  },
  "praktisk": {
-  "explanation": "\"Praktisk\" means \"practical\" and also \"handy\": Det er en praktisk taske (It is a handy bag). Jeg er ikke så praktisk (I am not very good with my hands).",
+  "explanation": "\"Praktisk\" means \"practical\" and \"handy\", for things that are useful in daily life: Det er en praktisk taske (It is a handy bag). About a person, it means good with your hands: Jeg er ikke så praktisk (I am not very handy).",
   "forms": [
    {
     "da": "en praktisk løsning",
@@ -7972,7 +7972,7 @@
   }
  },
  "privat": {
-  "explanation": "\"Privat\" means \"private\", for what is not meant for everyone: Det er mit private liv (That is my private life).",
+  "explanation": "\"Privat\" means \"private\", for what belongs to one person or family and not to everyone: Det er mit private liv (That is my private life).",
   "forms": [
    {
     "da": "en privat samtale",
@@ -8537,7 +8537,7 @@
   }
  },
  "på tilbud": {
-  "explanation": "\"På tilbud\" means \"on sale\". Compare Kaffen er på tilbud (The coffee is on sale, cheaper than usual) with Kaffen er dyr (The coffee is expensive). Jeg køber kaffe, når den er på tilbud means \"I buy coffee when it is on sale\".",
+  "explanation": "\"På tilbud\" means \"on sale\", for something sold at a lower price than usual. Jeg køber ost, når den er på tilbud (I buy cheese when it is on sale).",
   "forms": [
    {
     "da": "Den er på tilbud",

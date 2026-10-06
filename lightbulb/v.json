@@ -39,7 +39,7 @@
   }
  },
  "at vare": {
-  "explanation": "\"At vare\" means \"to last\", about how long something goes on: Filmen varer to timer (The movie lasts two hours). Det varer ikke længe (It won't be long).",
+  "explanation": "\"At vare\" means \"to last\", telling how long something goes on. It is mostly used about events and time, with the length after it: Filmen varer to timer (The movie lasts two hours).",
   "forms": [
    {
     "da": "at vare",
@@ -277,7 +277,7 @@
   }
  },
  "at veje": {
-  "explanation": "\"At veje\" means \"to weigh\". You can weigh something (Jeg vejer pakken, I weigh the package) or have a certain weight (Jeg vejer 70 kilo, I weigh 70 kilos).",
+  "explanation": "\"At veje\" means \"to weigh\". It works two ways: you weigh something on a scale, or you have a certain weight. Jeg vejer 70 kilo (I weigh 70 kilos). The thing you weigh comes right after: Jeg vejer pakken (I weigh the package).",
   "forms": [
    {
     "da": "at veje",
@@ -311,8 +311,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **veje** pakken i dag.",
-   "en": "I want to weigh the package today."
+   "da": "Man kan **veje** maden på en vægt.",
+   "en": "You can weigh the food on a scale."
   }
  },
  "at vende": {
@@ -479,8 +479,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi må **vente** lidt her.",
-   "en": "We have to wait a little here."
+   "da": "Børn kan ikke **vente** til jul.",
+   "en": "Kids cannot wait for Christmas."
   }
  },
  "at vente på": {
@@ -557,8 +557,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **vide** mere.",
-   "en": "I would like to know more."
+   "da": "Du skal **vide** dit telefonnummer.",
+   "en": "You need to know your phone number."
   }
  },
  "at ville": {
@@ -596,8 +596,8 @@
    }
   ],
   "sentence": {
-   "da": "Du skal **ville** lære dansk.",
-   "en": "You have to want to learn Danish."
+   "da": "Børn kan altid **ville** have mere.",
+   "en": "Kids can always want more."
   }
  },
  "at vinde": {
@@ -635,8 +635,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi kan **vinde** kampen i dag.",
-   "en": "We can win the match today."
+   "da": "Holdet med flest mål vil **vinde** kampen.",
+   "en": "The team with the most goals will win the match."
   }
  },
  "at vinke": {
@@ -1287,8 +1287,8 @@
    }
   ],
   "sentence": {
-   "da": "Du skal ikke **være i tvivl** om svaret.",
-   "en": "You should not be in doubt about the answer."
+   "da": "Når man ikke ved svaret, kan man **være i tvivl**.",
+   "en": "When you do not know the answer, you can be in doubt."
   }
  },
  "at være kærester": {
@@ -1408,8 +1408,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil ikke **være nødt til** at vente.",
-   "en": "I do not want to have to wait."
+   "da": "Når bussen er væk, kan vi **være nødt til** at gå.",
+   "en": "When the bus is gone, we may have to walk."
   }
  },
  "at være på vej": {
@@ -1572,8 +1572,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil ikke **være uenig** med dig.",
-   "en": "I do not want to disagree with you."
+   "da": "Det er okay at **være uenig** med en ven.",
+   "en": "It is okay to disagree with a friend."
   }
  },
  "at være vant til": {
@@ -1897,7 +1897,7 @@
   }
  },
  "en valnød": {
-  "explanation": "\"En valnød\" means \"a walnut\", a nut with a hard shell. You crack it open: Man knækker en valnød med en nøddeknækker (You crack a walnut with a nutcracker).",
+  "explanation": "\"En valnød\" means \"a walnut\", a nut with a wrinkled inside that people often eat in cakes and salads. It grows on a big tree and has a hard shell.",
   "forms": [
    {
     "da": "en valnød",
@@ -2017,8 +2017,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tager altid en **vandflaske** med på tur.",
-   "en": "I always take a water bottle on trips."
+   "da": "Jeg fylder min **vandflaske** med koldt vand.",
+   "en": "I fill my water bottle with cold water."
   }
  },
  "en vandhane": {
@@ -2307,7 +2307,7 @@
   }
  },
  "en vane": {
-  "explanation": "\"En vane\" means \"a habit\", something you do again and again: Det er en dårlig vane (It is a bad habit). You can also say what you usually do with for vane (as a habit): Jeg har for vane at gå en tur (I usually take a walk).",
+  "explanation": "\"En vane\" means \"a habit\", something you do again and again without thinking. To say what you usually do, use for vane (as a habit): Jeg har for vane at gå en tur (I usually take a walk).",
   "forms": [
    {
     "da": "en vane",
@@ -2643,7 +2643,7 @@
   }
  },
  "en vaskemaskine": {
-  "explanation": "\"En vaskemaskine\" means \"a washing machine\" for clothes: Tøjet er i vaskemaskinen (The clothes are in the washing machine). Jeg sætter vaskemaskinen i gang (I start the washing machine).",
+  "explanation": "\"En vaskemaskine\" means \"a washing machine\", the machine that cleans clothes with water and soap. Jeg sætter vaskemaskinen i gang (I start the washing machine).",
   "forms": [
    {
     "da": "en vaskemaskine",
@@ -2681,8 +2681,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **vaskemaskine** larmer meget i dag.",
-   "en": "My washing machine is very noisy today."
+   "da": "Jeg vasker tøj i en **vaskemaskine**.",
+   "en": "I wash clothes in a washing machine."
   }
  },
  "en vatpind": {
@@ -2720,8 +2720,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun renser sin telefon med en **vatpind**.",
-   "en": "She cleans her phone with a cotton swab."
+   "da": "Hun tager makeup af med en **vatpind**.",
+   "en": "She takes off makeup with a cotton swab."
   }
  },
  "en veganer": {
@@ -2798,8 +2798,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er **vegetar** og spiser ikke kød.",
-   "en": "I am a vegetarian and do not eat meat."
+   "da": "En **vegetar** spiser ikke kød.",
+   "en": "A vegetarian does not eat meat."
   }
  },
  "en vej": {
@@ -3036,8 +3036,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **veninde** er en sød pige.",
-   "en": "My female friend is a nice girl."
+   "da": "Hun er min **veninde**, ikke min kæreste.",
+   "en": "She is my female friend, not my girlfriend."
   }
  },
  "en vennegruppe": {
@@ -3239,8 +3239,8 @@
    }
   ],
   "sentence": {
-   "da": "En **verden** uden musik ville være stille.",
-   "en": "A world without music would be quiet."
+   "da": "Jeg vil rejse rundt i **verden**.",
+   "en": "I want to travel around the world."
   }
  },
  "en version": {
@@ -3278,8 +3278,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg bruger den nyeste **version** af appen.",
-   "en": "I use the newest version of the app."
+   "da": "Filmen findes i en dansk **version**.",
+   "en": "The film exists in a Danish version."
   }
  },
  "en vest": {
@@ -3645,8 +3645,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi bestiller en flaske **vin** til maden.",
-   "en": "We order a bottle of wine for the meal."
+   "da": "**Vin** er lavet af druer.",
+   "en": "Wine is made from grapes."
   }
  },
  "en vinbar": {
@@ -3887,8 +3887,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en **vinduesplads**.",
-   "en": "I would like a window seat."
+   "da": "Fra en **vinduesplads** kan man se skyerne.",
+   "en": "From a window seat you can see the clouds."
   }
  },
  "en vinduesvisker": {
@@ -4008,8 +4008,8 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg få en **vinliste**, tak?",
-   "en": "May I have a wine list, please?"
+   "da": "På en **vinliste** står mange slags vin.",
+   "en": "A wine list shows many kinds of wine."
   }
  },
  "en vinter": {
@@ -4133,12 +4133,12 @@
    }
   ],
   "sentence": {
-   "da": "Det er en kold **vinterdag**, og det sner.",
-   "en": "It is a cold winter day, and it is snowing."
+   "da": "På en **vinterdag** er det mørkt klokken fire.",
+   "en": "On a winter day it is dark at four o'clock."
   }
  },
  "en vinterjakke": {
-  "explanation": "\"En vinterjakke\" means \"a winter jacket\". It is made from vinter (winter) and jakke (jacket).",
+  "explanation": "\"En vinterjakke\" means \"a winter jacket\", a thick, warm jacket for cold weather. It is made from vinter (winter) and jakke (jacket).",
   "forms": [
    {
     "da": "en vinterjakke",
@@ -4176,8 +4176,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en varm **vinterjakke** på.",
-   "en": "I am wearing a warm winter jacket."
+   "da": "I sneen har jeg en **vinterjakke** på.",
+   "en": "In the snow I wear a winter jacket."
   }
  },
  "en vinternat": {
@@ -4344,8 +4344,8 @@
    }
   ],
   "sentence": {
-   "da": "Hendes plan blev til **virkelighed** i sommer.",
-   "en": "Her plan became reality this summer."
+   "da": "Eventyret er en historie, ikke **virkelighed**.",
+   "en": "The fairy tale is a story, not reality."
   }
  },
  "en virksomhed": {
@@ -4431,7 +4431,7 @@
   }
  },
  "en vissen blomst": {
-  "explanation": "\"En vissen blomst\" means \"a withered flower\", one that has dried up and drooped: Blomsterne blev visne uden vand (The flowers became withered without water).",
+  "explanation": "\"En vissen blomst\" means \"a withered flower\", one that has dried up and drooped. The describing word changes with the thing: et vissent blad (a withered leaf), visne blomster (withered flowers).",
   "forms": [
    {
     "da": "en vissen blomst",
@@ -4461,8 +4461,8 @@
    }
   ],
   "sentence": {
-   "da": "Der står en **vissen blomst** i vasen.",
-   "en": "There is a withered flower in the vase."
+   "da": "Uden vand bliver en blomst til en **vissen blomst**.",
+   "en": "Without water, a flower turns into a withered flower."
   }
  },
  "en vitamin": {
@@ -4543,8 +4543,8 @@
    }
   ],
   "sentence": {
-   "da": "Min lærer fortæller en sjov **vits** hver fredag.",
-   "en": "My teacher tells a funny joke every Friday."
+   "da": "Hun fortæller en **vits**, og alle griner.",
+   "en": "She tells a joke, and everyone laughs."
   }
  },
  "en vittighed": {
@@ -4586,8 +4586,8 @@
    }
   ],
   "sentence": {
-   "da": "Han fortæller en sjov **vittighed** til alle.",
-   "en": "He tells everyone a funny joke."
+   "da": "Alle grinede af hans **vittighed**.",
+   "en": "Everyone laughed at his joke."
   }
  },
  "en vogn": {
@@ -4664,8 +4664,8 @@
    }
   ],
   "sentence": {
-   "da": "En **voksen** skal følge børnene hjem.",
-   "en": "An adult must walk the children home."
+   "da": "Et barn bliver til en **voksen**.",
+   "en": "A child becomes an adult."
   }
  },
  "en vugge": {
@@ -4915,7 +4915,7 @@
   }
  },
  "en væske": {
-  "explanation": "\"En væske\" means \"a liquid\" or \"a fluid\": Vand er en væske (Water is a liquid). Doctors also use it for what you drink: Drik meget væske (Drink a lot of fluids).",
+  "explanation": "\"En væske\" means \"a liquid\" or \"a fluid\", something that flows, like water or milk. Doctors also use it for what you drink: Drik meget væske (Drink a lot of fluids).",
   "forms": [
    {
     "da": "en væske",
@@ -4949,8 +4949,8 @@
    }
   ],
   "sentence": {
-   "da": "Der løber en **væske** ud af flasken.",
-   "en": "A liquid is running out of the bottle."
+   "da": "Vand er en **væske**, men is er fast.",
+   "en": "Water is a liquid, but ice is solid."
   }
  },
  "et valg": {
@@ -5035,8 +5035,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi hørte et stort **vandfald** i skoven.",
-   "en": "We heard a big waterfall in the forest."
+   "da": "Vandet falder ned fra et højt **vandfald**.",
+   "en": "The water falls down from a tall waterfall."
   }
  },
  "et vandrerhjem": {
@@ -5243,7 +5243,7 @@
   }
  },
  "et vejskilt": {
-  "explanation": "\"Et vejskilt\" means \"a road sign\", the kind that shows a direction or a speed limit: Vejskiltet viser mod Aarhus (The road sign points toward Aarhus). Jeg kan ikke læse vejskiltet (I can't read the road sign).",
+  "explanation": "\"Et vejskilt\" means \"a road sign\", the kind that shows a direction or a speed limit. It is built from vej (road) and skilt (sign): Jeg kan ikke læse vejskiltet (I can't read the road sign).",
   "forms": [
    {
     "da": "et vejskilt",
@@ -5277,8 +5277,8 @@
    }
   ],
   "sentence": {
-   "da": "Der står et **vejskilt** ved krydset.",
-   "en": "There is a road sign at the intersection."
+   "da": "På et **vejskilt** står der 50 kilometer til Aarhus.",
+   "en": "On a road sign it says 50 kilometers to Aarhus."
   }
  },
  "et venskab": {
@@ -5446,7 +5446,7 @@
   }
  },
  "et vindue": {
-  "explanation": "\"Et vindue\" means \"a window\". Jeg åbner vinduet means \"I open the window\" and \"Jeg lukker vinduet\" means \"I close the window\".",
+  "explanation": "\"Et vindue\" means \"a window\", the glass opening in a wall that lets in light. Jeg åbner vinduet means \"I open the window\" and \"Jeg lukker vinduet\" means \"I close the window\".",
   "forms": [
    {
     "da": "et vindue",
@@ -5480,8 +5480,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg åbner et **vindue** i stuen.",
-   "en": "I open a window in the living room."
+   "da": "Solen skinner ind gennem et **vindue**.",
+   "en": "The sun shines in through a window."
   }
  },
  "et vinglas": {
@@ -5644,8 +5644,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg søger om et **visum** til Danmark.",
-   "en": "I am applying for a visa to Denmark."
+   "da": "Du skal have et **visum** til Kina.",
+   "en": "You need a visa for China."
   }
  },
  "et vækkeur": {
@@ -5770,7 +5770,7 @@
   }
  },
  "et værktøj": {
-  "explanation": "\"Et værktøj\" means \"a tool\". It is also used for tools as a group: Jeg har værktøj i skuret (I have tools in the shed).",
+  "explanation": "\"Et værktøj\" means \"a tool\", something you use to fix or build things. It is also used for tools as a group: Jeg har værktøj i skuret (I have tools in the shed).",
   "forms": [
    {
     "da": "et værktøj",
@@ -5843,8 +5843,8 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg bede om et glas **vand**?",
-   "en": "May I have a glass of water?"
+   "da": "Fisk lever i **vand**.",
+   "en": "Fish live in water."
   }
  },
  "vanilje": {
@@ -5917,8 +5917,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en **vanskelig** opgave.",
-   "en": "It is a difficult task."
+   "da": "Eksamen var **vanskelig**, men jeg bestod.",
+   "en": "The exam was difficult, but I passed."
   }
  },
  "vant til": {
@@ -6034,8 +6034,8 @@
    }
   ],
   "sentence": {
-   "da": "Suppen er **varm** og god.",
-   "en": "The soup is hot and good."
+   "da": "Kaffen er **varm**, og isen er kold.",
+   "en": "The coffee is hot and the ice cream is cold."
   }
  },
  "varme": {
@@ -6139,8 +6139,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har meget **vasketøj** i dag.",
-   "en": "I have a lot of laundry today."
+   "da": "Jeg sorterer **vasketøj** i hvidt og farvet.",
+   "en": "I sort laundry into white and colored."
   }
  },
  "ved": {
@@ -6292,7 +6292,7 @@
   }
  },
  "vejarbejde": {
-  "explanation": "\"Vejarbejde\" means \"roadworks\", the work done on a road: Der er vejarbejde på motorvejen (There are roadworks on the highway). Vi holder i kø på grund af vejarbejde (We are stuck in a line because of roadworks).",
+  "explanation": "\"Vejarbejde\" means \"roadworks\", repairs or building on a road, often with a detour or a lower speed limit: Der er vejarbejde på motorvejen (There are roadworks on the highway).",
   "forms": [
    {
     "da": "et vejarbejde",
@@ -6326,12 +6326,12 @@
    }
   ],
   "sentence": {
-   "da": "Vi kommer for sent, fordi der er **vejarbejde**.",
-   "en": "We will be late because there are roadworks."
+   "da": "Vejen er lukket på grund af **vejarbejde**.",
+   "en": "The road is closed because of roadworks."
   }
  },
  "vejr": {
-  "explanation": "\"Vejr\" means \"weather\". You can ask Hvordan er vejret? (How is the weather?) and answer Det er koldt i dag (It is cold today) or Det er dårligt vejr (It is bad weather).",
+  "explanation": "\"Vejr\" means \"weather\", meaning the sun, rain, wind and temperature outside. It is a common small-talk topic: Hvordan er vejret? (How is the weather?) Det er koldt i dag (It is cold today).",
   "forms": [
    {
     "da": "vejret",
@@ -6365,8 +6365,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er godt **vejr** i dag.",
-   "en": "The weather is good today."
+   "da": "Regn og vind er dårligt **vejr**.",
+   "en": "Rain and wind are bad weather."
   }
  },
  "vel": {
@@ -7039,8 +7039,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har haft en **vidunderlig** ferie.",
-   "en": "We have had a wonderful vacation."
+   "da": "Solnedgangen over havet var **vidunderlig**.",
+   "en": "The sunset over the sea was wonderful."
   }
  },
  "vigtig": {
@@ -7074,8 +7074,8 @@
    }
   ],
   "sentence": {
-   "da": "I morgen er en **vigtig** dag.",
-   "en": "Tomorrow is an important day."
+   "da": "Søvn er **vigtig**, fordi kroppen hviler sig.",
+   "en": "Sleep is important because the body rests."
   }
  },
  "vild": {
@@ -7257,8 +7257,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er meget **vind** i dag.",
-   "en": "There is a lot of wind today."
+   "da": "Sejlbåden bruger **vind** til at sejle.",
+   "en": "The sailboat uses wind to sail."
   }
  },
  "virkelig": {
@@ -7366,8 +7366,8 @@
    }
   ],
   "sentence": {
-   "da": "Min datter er **voksen** nu og bor i Aarhus.",
-   "en": "My daughter is an adult now and lives in Aarhus."
+   "da": "Når man er **voksen**, arbejder man.",
+   "en": "When you are an adult, you work."
   }
  },
  "volleyball": {

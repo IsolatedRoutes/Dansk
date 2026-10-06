@@ -155,8 +155,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **sammenligne** to biler.",
-   "en": "I want to compare two cars."
+   "da": "Jeg vil **sammenligne** priserne i to butikker.",
+   "en": "I want to compare the prices in two stores."
   }
  },
  "at savne": {
@@ -238,7 +238,7 @@
   }
  },
  "at score": {
-  "explanation": "\"At score\" means \"to score\" a goal or points in sports: Vi scorer i anden halvleg (We score in the second half). Han scorer ofte i kampene (He often scores in the matches).",
+  "explanation": "\"At score\" means \"to score\" a goal or points in sports. It is borrowed from English and is used the same way: Vi scorer i anden halvleg (We score in the second half).",
   "forms": [
    {
     "da": "at score",
@@ -488,7 +488,7 @@
   }
  },
  "at se tilbage": {
-  "explanation": "\"At se tilbage\" means \"to look back\", in space and in time: Han så tilbage over skulderen (He looked back over his shoulder). Hun så tilbage på sin barndom (She looked back on her childhood).",
+  "explanation": "\"At se tilbage\" means \"to look back\", with your eyes or in your memory. Han så tilbage over skulderen (He looked back over his shoulder). For the past, add på: se tilbage på (look back on).",
   "forms": [
    {
     "da": "at se tilbage",
@@ -526,8 +526,8 @@
    }
   ],
   "sentence": {
-   "da": "Nogle gange er det rart at **se tilbage**.",
-   "en": "Sometimes it is nice to look back."
+   "da": "Hun vil **se tilbage** på sin barndom.",
+   "en": "She wants to look back on her childhood."
   }
  },
  "at se tv": {
@@ -2257,7 +2257,7 @@
   }
  },
  "at slappe af": {
-  "explanation": "\"At slappe af\" means \"to relax\" or \"to take it easy\". Slap af! means \"Relax!\" or \"Calm down!\".",
+  "explanation": "\"At slappe af\" means \"to relax\" or \"to take it easy\", like resting on the sofa after a long day. Slap af! (Relax!) can also tell someone to calm down. The little word af (off) stays in every form.",
   "forms": [
    {
     "da": "at slappe af",
@@ -2584,12 +2584,12 @@
    }
   ],
   "sentence": {
-   "da": "Skolen skal **slutte** klokken tre.",
-   "en": "School is going to end at three."
+   "da": "Filmen skal **slutte** om en time.",
+   "en": "The movie is going to end in an hour."
   }
  },
  "at slå": {
-  "explanation": "\"At slå\" means \"to hit\" and \"to beat\": Han slår bolden (He hits the ball). Hun slog mig i skak (She beat me at chess). Slå græsset means \"mow the lawn\".",
+  "explanation": "\"At slå\" means \"to hit\" and \"to beat\", so it covers hitting with your hand or a tool and winning over someone: Hun slog mig i skak (She beat me at chess). Slå græsset means \"mow the lawn\".",
   "forms": [
    {
     "da": "at slå",
@@ -2627,8 +2627,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **slå** dig i skak.",
-   "en": "I will beat you at chess."
+   "da": "Jeg kan **slå** et søm i væggen med en hammer.",
+   "en": "I can hit a nail into the wall with a hammer."
   }
  },
  "at slå græs": {
@@ -2748,8 +2748,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **smage** den gode kage.",
-   "en": "I want to taste the good cake."
+   "da": "Må jeg **smage** din suppe?",
+   "en": "May I taste your soup?"
   }
  },
  "at smelte": {
@@ -3276,7 +3276,7 @@
   }
  },
  "at sortere": {
-  "explanation": "\"At sortere\" means \"to sort\": Jeg sorterer affaldet (I sort the trash). Sorter dem efter størrelse (Sort them by size).",
+  "explanation": "\"At sortere\" means \"to sort\", to put things into groups or an order, like trash into bins or mail into piles: Jeg sorterer affaldet (I sort the trash).",
   "forms": [
    {
     "da": "at sortere",
@@ -3529,8 +3529,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **spare op** til en ny computer.",
-   "en": "I would like to save up for a new computer."
+   "da": "Hver måned vil jeg **spare op** tusind kroner.",
+   "en": "Every month I want to save up a thousand kroner."
   }
  },
  "at spare på": {
@@ -3865,8 +3865,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi vil **spise** aftensmad nu.",
-   "en": "We want to eat dinner now."
+   "da": "Jeg vil **spise** brød, ost og æbler.",
+   "en": "I want to eat bread, cheese and apples."
   }
  },
  "at springe": {
@@ -4073,7 +4073,7 @@
   }
  },
  "at spørge om": {
-  "explanation": "\"At spørge om\" means \"to ask about\" or \"to ask for\": spørge om prisen (ask about the price) and spørge om vej (ask for directions). Må jeg spørge dig om noget? means \"May I ask you something?\".",
+  "explanation": "\"At spørge om\" means \"to ask about\" or \"to ask for\". Om (about) comes right after spørge and is followed by the topic or thing you want: spørge om prisen (ask about the price), spørge om vej (ask for directions).",
   "forms": [
    {
     "da": "at spørge om",
@@ -4276,7 +4276,7 @@
   }
  },
  "at stave": {
-  "explanation": "\"At stave\" means \"to spell\": Kan du stave det? means \"Can you spell that?\".",
+  "explanation": "\"At stave\" means \"to spell\", saying the letters of a word one at a time. It is common when you give a name or an address on the phone: Hvordan staver man det? (How do you spell that?)",
   "forms": [
    {
     "da": "at stave",
@@ -4396,12 +4396,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **stemme** i år, for første gang.",
-   "en": "I will vote this year, for the first time."
+   "da": "Alle over atten år kan **stemme** ved valget.",
+   "en": "Everyone over eighteen can vote in the election."
   }
  },
  "at stemme på": {
-  "explanation": "\"At stemme på\" means \"to vote for\", but Danish uses på (on) here: Jeg stemmer på Anna (I am voting for Anna). It works the same in the past: Vi stemte på Peter (We voted for Peter).",
+  "explanation": "\"At stemme på\" means \"to vote for\" the person or party you choose. Danish uses på (on) where English says for: Vi stemte på Peter (We voted for Peter). Without på, stemme (to vote) just means casting a vote.",
   "forms": [
    {
     "da": "at stemme på",
@@ -4888,8 +4888,8 @@
    }
   ],
   "sentence": {
-   "da": "Bussen vil **stoppe** her.",
-   "en": "The bus will stop here."
+   "da": "Bilen skal **stoppe** ved det røde lys.",
+   "en": "The car has to stop at the red light."
   }
  },
  "at streame": {
@@ -5178,7 +5178,7 @@
   }
  },
  "at stå": {
-  "explanation": "\"At stå\" means \"to stand\", but Danish uses it more widely than English: Flasken står på bordet means \"The bottle is on the table\", and \"Der står noget på skiltet\" means \"Something is written on the sign\".",
+  "explanation": "\"At stå\" means \"to stand\", but Danish uses it more widely than English: Flasken står på bordet (The bottle is on the table). It also covers writing: Der står et navn på døren (A name is written on the door).",
   "forms": [
    {
     "da": "at stå",
@@ -5212,8 +5212,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil **stå** ved vinduet.",
-   "en": "I want to stand by the window."
+   "da": "Man kan **stå** eller sidde i bussen.",
+   "en": "You can stand or sit on the bus."
   }
  },
  "at stå af": {
@@ -5977,8 +5977,8 @@
    }
   ],
   "sentence": {
-   "da": "Han vil **sælge** sin bil for penge.",
-   "en": "He wants to sell his car for money."
+   "da": "Bageren vil **sælge** brød i butikken.",
+   "en": "The baker wants to sell bread in the shop."
   }
  },
  "at sætte": {
@@ -6673,7 +6673,7 @@
   }
  },
  "en samtale": {
-  "explanation": "\"En samtale\" means \"a conversation\": Vi havde en lang samtale (We had a long conversation). It is built from sam- (together) + tale (talk).",
+  "explanation": "\"En samtale\" means \"a conversation\". It is built from sam- (together) and tale (talk), so it is people talking together: Vi havde en lang samtale (We had a long conversation).",
   "forms": [
    {
     "da": "en samtale",
@@ -6707,8 +6707,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi havde en lang **samtale** om fremtiden.",
-   "en": "We had a long conversation about the future."
+   "da": "To mennesker har en **samtale**, når de taler sammen.",
+   "en": "Two people have a conversation when they talk together."
   }
  },
  "en sandal": {
@@ -6746,8 +6746,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en **sandal** på hver fod.",
-   "en": "I have a sandal on each foot."
+   "da": "En **sandal** er en åben sko til sommer.",
+   "en": "A sandal is an open shoe for summer."
   }
  },
  "en sandhed": {
@@ -7407,7 +7407,7 @@
   }
  },
  "en sengegavl": {
-  "explanation": "\"En sengegavl\" means \"a headboard\". It is senge (bed) plus gavl (end): Jeg læner mig op ad sengegavlen (I lean against the headboard).",
+  "explanation": "\"En sengegavl\" means \"a headboard\", the board at the head end of a bed. It is senge (bed) plus gavl (end).",
   "forms": [
    {
     "da": "en sengegavl",
@@ -7648,12 +7648,12 @@
    }
   ],
   "sentence": {
-   "da": "Tårnet er en berømt **seværdighed**.",
-   "en": "The tower is a famous attraction."
+   "da": "Turisterne besøger hver **seværdighed** i byen.",
+   "en": "The tourists visit every attraction in the city."
   }
  },
  "en si": {
-  "explanation": "\"En si\" means \"a sieve\" or \"a strainer\", a bowl-shaped mesh with small holes. Use it to sift flour or strain tea: Brug en si til melet (Use a sieve for the flour).",
+  "explanation": "\"En si\" means \"a sieve\" or \"a strainer\", a bowl-shaped mesh with small holes. It lets liquid or fine powder through and holds back the rest: Brug en si til melet (Use a sieve for the flour).",
   "forms": [
    {
     "da": "en si",
@@ -7687,8 +7687,8 @@
    }
   ],
   "sentence": {
-   "da": "Du kan sigte melet gennem en **si**.",
-   "en": "You can sift the flour through a sieve."
+   "da": "Jeg hælder te gennem en **si**.",
+   "en": "I pour tea through a strainer."
   }
  },
  "en side": {
@@ -7804,8 +7804,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg laver en **sikkerhedskopi** af alle mine billeder.",
-   "en": "I make a backup of all my pictures."
+   "da": "Når telefonen går i stykker, har jeg en **sikkerhedskopi**.",
+   "en": "When the phone breaks, I have a backup."
   }
  },
  "en sikkerhedssele": {
@@ -7843,8 +7843,8 @@
    }
   ],
   "sentence": {
-   "da": "Alle i bilen skal have en **sikkerhedssele** på.",
-   "en": "Everyone in the car has to wear a seatbelt."
+   "da": "En **sikkerhedssele** beskytter dig i bilen.",
+   "en": "A seatbelt protects you in the car."
   }
  },
  "en sikring": {
@@ -8050,8 +8050,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er en **skadestue** på sygehuset i byen.",
-   "en": "There is an ER at the hospital in the city."
+   "da": "Læger hjælper skadede folk på en **skadestue**.",
+   "en": "Doctors help injured people in an ER."
   }
  },
  "en skammel": {
@@ -8335,8 +8335,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil have brød med **skinke** og ost.",
-   "en": "I want bread with ham and cheese."
+   "da": "**Skinke** er kød fra en gris.",
+   "en": "Ham is meat from a pig."
   }
  },
  "en skive": {
@@ -8374,8 +8374,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil have en **skive** brød.",
-   "en": "I want a slice of bread."
+   "da": "Jeg skærer en **skive** af brødet.",
+   "en": "I cut a slice off the bread."
   }
  },
  "en skjorte": {
@@ -8413,8 +8413,8 @@
    }
   ],
   "sentence": {
-   "da": "Han har en hvid **skjorte** på.",
-   "en": "He is wearing a white shirt."
+   "da": "En **skjorte** har knapper og lange ærmer.",
+   "en": "A shirt has buttons and long sleeves."
   }
  },
  "en sko": {
@@ -8539,7 +8539,7 @@
   }
  },
  "en skoletaske": {
-  "explanation": "\"En skoletaske\" means \"a school bag\", built from skole (school) and taske (bag): Jeg har bøger i min skoletaske (I have books in my school bag).",
+  "explanation": "\"En skoletaske\" means \"a school bag\", the bag a child carries to school on the back. It is built from skole (school) and taske (bag).",
   "forms": [
    {
     "da": "en skoletaske",
@@ -8577,8 +8577,8 @@
    }
   ],
   "sentence": {
-   "da": "Han bærer en tung **skoletaske** på ryggen.",
-   "en": "He carries a heavy school bag on his back."
+   "da": "Børnene har bøger og madpakke i deres **skoletaske**.",
+   "en": "The kids have books and a packed lunch in their school bag."
   }
  },
  "en skoletur": {
@@ -8664,7 +8664,7 @@
   }
  },
  "en skorsten": {
-  "explanation": "\"En skorsten\" means \"a chimney\", the tall pipe on a roof where smoke goes out: Der kommer røg ud af skorstenen (Smoke is coming out of the chimney).",
+  "explanation": "\"En skorsten\" means \"a chimney\", the tall pipe on a roof that carries smoke away from a fireplace or stove.",
   "forms": [
    {
     "da": "en skorsten",
@@ -8976,7 +8976,7 @@
   }
  },
  "en skraldespand": {
-  "explanation": "\"En skraldespand\" means \"a trash can\". It is built from skrald (garbage) and spand (bucket): Papiret går i skraldespanden (The paper goes in the trash can).",
+  "explanation": "\"En skraldespand\" means \"a trash can\", a bin you throw garbage in, in the kitchen or on the street. It is built from skrald (garbage) and spand (bucket).",
   "forms": [
    {
     "da": "en skraldespand",
@@ -9014,8 +9014,8 @@
    }
   ],
   "sentence": {
-   "da": "Der står en **skraldespand** ved døren.",
-   "en": "There is a trash can by the door."
+   "da": "Jeg smider papiret i en **skraldespand**.",
+   "en": "I throw the paper in a trash can."
   }
  },
  "en skrue": {
@@ -9062,7 +9062,7 @@
   }
  },
  "en skruetrækker": {
-  "explanation": "\"En skruetrækker\" means \"a screwdriver\", the tool for turning a skrue (screw): Jeg skruer skruen i med en skruetrækker (I screw the screw in with a screwdriver).",
+  "explanation": "\"En skruetrækker\" means \"a screwdriver\", the tool you hold by the handle to turn a skrue (screw) in or out. It is built from skrue (screw) and trækker (puller).",
   "forms": [
    {
     "da": "en skruetrækker",
@@ -9183,7 +9183,7 @@
   }
  },
  "en skuffe": {
-  "explanation": "\"En skuffe\" means \"a drawer\": Gaflerne ligger i skuffen (The forks are in the drawer). Træk skuffen ud (Pull the drawer out).",
+  "explanation": "\"En skuffe\" means \"a drawer\", the box in a desk, dresser or kitchen unit that you slide out to reach things: Træk skuffen ud (Pull the drawer out).",
   "forms": [
    {
     "da": "en skuffe",
@@ -9221,8 +9221,8 @@
    }
   ],
   "sentence": {
-   "da": "Nøglerne ligger i den øverste **skuffe**.",
-   "en": "The keys are in the top drawer."
+   "da": "Gaflerne ligger i en **skuffe** i køkkenet.",
+   "en": "The forks are in a drawer in the kitchen."
   }
  },
  "en skuffelse": {
@@ -9502,12 +9502,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan ikke se noget, fordi min **skærm** er sort.",
-   "en": "I cannot see anything because my screen is black."
+   "da": "Min computer har en stor **skærm**.",
+   "en": "My computer has a big screen."
   }
  },
  "en skønhed": {
-  "explanation": "\"En skønhed\" means \"a beauty\", either the quality of being beautiful or a beautiful person or thing: Naturens skønhed er stor (The beauty of nature is great). Hun er en sand skønhed (She is a true beauty).",
+  "explanation": "\"En skønhed\" means \"a beauty\", either the quality of being beautiful or a beautiful person or thing: Hun er en sand skønhed (She is a true beauty).",
   "forms": [
    {
     "da": "en skønhed",
@@ -9585,7 +9585,7 @@
   }
  },
  "en slagter": {
-  "explanation": "\"En slagter\" means \"a butcher\", someone who sells meat: Slagteren sælger frisk kød (The butcher sells fresh meat).",
+  "explanation": "\"En slagter\" means \"a butcher\", someone who cuts up meat and sells it in a shop: Jeg køber pølser hos slagteren (I buy sausages at the butcher's).",
   "forms": [
    {
     "da": "en slagter",
@@ -9662,8 +9662,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er bange for at møde en **slange**.",
-   "en": "I am afraid of meeting a snake."
+   "da": "En **slange** har ingen ben og kryber på jorden.",
+   "en": "A snake has no legs and crawls on the ground."
   }
  },
  "en slette": {
@@ -9744,8 +9744,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene vil gerne ind i en **slikbutik**.",
-   "en": "The kids would like to go into a candy store."
+   "da": "I en **slikbutik** kan du købe slik og chokolade.",
+   "en": "In a candy store you can buy candy and chocolate."
   }
  },
  "en slikpind": {
@@ -9951,8 +9951,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg bruger min **smartphone** til at ringe.",
-   "en": "I use my smartphone to call."
+   "da": "Min **smartphone** har internet og kamera.",
+   "en": "My smartphone has internet and a camera."
   }
  },
  "en smerte": {
@@ -10190,7 +10190,7 @@
   }
  },
  "en sneaker": {
-  "explanation": "\"En sneaker\" means \"a sneaker\", a casual sport-style shoe: Jeg har hvide sneakers på (I am wearing white sneakers). Jeg køber nye sneakers (I am buying new sneakers).",
+  "explanation": "\"En sneaker\" means \"a sneaker\", a casual shoe you can wear for sport or every day. It is mostly used in the plural: Jeg har hvide sneakers på (I am wearing white sneakers).",
   "forms": [
    {
     "da": "en sneaker",
@@ -10228,8 +10228,8 @@
    }
   ],
   "sentence": {
-   "da": "Min venstre **sneaker** er blevet våd.",
-   "en": "My left sneaker has gotten wet."
+   "da": "En **sneaker** er en blød sko med gummisål.",
+   "en": "A sneaker is a soft shoe with a rubber sole."
   }
  },
  "en snemand": {
@@ -10392,8 +10392,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg drikker en kold **sodavand** i dag.",
-   "en": "I drink a cold soda today."
+   "da": "En **sodavand** er sød og har bobler.",
+   "en": "A soda is sweet and has bubbles."
   }
  },
  "en sodavandsis": {
@@ -10431,8 +10431,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser en kold **sodavandsis** i varmen.",
-   "en": "I eat a cold popsicle in the heat."
+   "da": "En **sodavandsis** er frossen sodavand på en pind.",
+   "en": "A popsicle is frozen soda on a stick."
   }
  },
  "en sofa": {
@@ -10475,7 +10475,7 @@
   }
  },
  "en sok": {
-  "explanation": "\"En sok\" means \"a sock\". Et par sokker means \"a pair of socks\", and \"Jeg mangler en sok\" means \"I am missing a sock\".",
+  "explanation": "\"En sok\" means \"a sock\", something you wear on your foot, usually under a shoe. Socks come in twos, so you count them as et par sokker (a pair of socks).",
   "forms": [
    {
     "da": "en sok",
@@ -10553,7 +10553,7 @@
   }
  },
  "en soldat": {
-  "explanation": "\"En soldat\" means \"a soldier\": Soldaten står vagt ved porten (The soldier is standing guard at the gate). The stress is on the end: sol-DAT.",
+  "explanation": "\"En soldat\" means \"a soldier\", a person who serves in a country's armed forces. A soldier can stand guard: Soldaten står vagt ved porten (The soldier is standing guard at the gate). The stress is on the end: sol-DAT.",
   "forms": [
    {
     "da": "en soldat",
@@ -10587,8 +10587,8 @@
    }
   ],
   "sentence": {
-   "da": "Min bedstefar var **soldat** som ung.",
-   "en": "My grandfather was a soldier when he was young."
+   "da": "En **soldat** har uniform på og kæmper for sit land.",
+   "en": "A soldier wears a uniform and fights for his country."
   }
  },
  "en solhat": {
@@ -10799,7 +10799,7 @@
   }
  },
  "en sommer": {
-  "explanation": "\"En sommer\" means \"a summer\". You say i sommer (this summer) and næste sommer (next summer).",
+  "explanation": "\"En sommer\" means \"a summer\", the warm season after spring and before autumn. To say in the summer, use om sommeren: Om sommeren er det lyst længe (In the summer it stays light late).",
   "forms": [
    {
     "da": "en sommer",
@@ -10963,7 +10963,7 @@
   }
  },
  "en sommerfugl": {
-  "explanation": "\"En sommerfugl\" means \"a butterfly\". It is built from sommer (summer) and fugl (bird), so it is a summer bird: Sommerfuglen har store farverige vinger (The butterfly has big colorful wings).",
+  "explanation": "\"En sommerfugl\" means \"a butterfly\", an insect with colorful wings that you mostly see in warm weather. It is built from sommer (summer) and fugl (bird), so it is literally a summer bird.",
   "forms": [
    {
     "da": "en sommerfugl",
@@ -10997,8 +10997,8 @@
    }
   ],
   "sentence": {
-   "da": "En smuk **sommerfugl** sad på blomsten.",
-   "en": "A beautiful butterfly sat on the flower."
+   "da": "En **sommerfugl** har store vinger og flyver fra blomst til blomst.",
+   "en": "A butterfly has big wings and flies from flower to flower."
   }
  },
  "en sommerkjole": {
@@ -11197,7 +11197,7 @@
   }
  },
  "en sovesofa": {
-  "explanation": "\"En sovesofa\" means \"a sofa bed\". It is sove (to sleep) plus sofa: Vi har købt en ny sovesofa (We have bought a new sofa bed).",
+  "explanation": "\"En sovesofa\" means \"a sofa bed\", a sofa that folds out into a bed. It is built from sove (to sleep) and sofa (sofa).",
   "forms": [
    {
     "da": "en sovesofa",
@@ -11318,7 +11318,7 @@
   }
  },
  "en spanier": {
-  "explanation": "\"En spanier\" means \"a Spaniard\", a person from Spain: Han er spanier (He is Spanish). For things from Spain, use spansk: spansk vin (Spanish wine).",
+  "explanation": "\"En spanier\" means \"a Spaniard\", a person from Spain. For things from Spain, use spansk instead: spansk vin (Spanish wine) and spansk mad (Spanish food).",
   "forms": [
    {
     "da": "en spanier",
@@ -11481,8 +11481,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er en rigtig god **spiller**.",
-   "en": "He is a really good player."
+   "da": "En **spiller** løber efter bolden på banen.",
+   "en": "A player runs after the ball on the field."
   }
  },
  "en spion": {
@@ -11524,8 +11524,8 @@
    }
   ],
   "sentence": {
-   "da": "Han var **spion**, men ingen vidste det.",
-   "en": "He was a spy, but nobody knew it."
+   "da": "En **spion** arbejder i hemmelighed for et andet land.",
+   "en": "A spy works in secret for another country."
   }
  },
  "en spiral": {
@@ -11778,8 +11778,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg pakker min **sportstaske**, før jeg går til træning.",
-   "en": "I pack my gym bag before I go to practice."
+   "da": "Jeg pakker tøj og sko i min **sportstaske**.",
+   "en": "I pack clothes and shoes in my gym bag."
   }
  },
  "en sporvogn": {
@@ -11865,7 +11865,7 @@
   }
  },
  "en spøg": {
-  "explanation": "\"En spøg\" means \"a joke\" or \"a prank\", something said or done for fun: Det var bare en spøg (It was just a joke). For a joke with a punchline, Danes often say en vits (a joke) instead.",
+  "explanation": "\"En spøg\" means \"a joke\" or \"a prank\", something said or done for fun and not meant seriously. For a joke with a punchline, Danes often say en vits (a joke) instead.",
   "forms": [
    {
     "da": "en spøg",
@@ -11989,12 +11989,12 @@
    }
   ],
   "sentence": {
-   "da": "Hver gang jeg tager en **squat**, bliver mine ben varme.",
-   "en": "Every time I do a squat, my legs get warm."
+   "da": "Jeg bøjer knæene i en dyb **squat**.",
+   "en": "I bend my knees in a deep squat."
   }
  },
  "en stak": {
-  "explanation": "\"En stak\" means \"a stack\", things placed neatly on top of each other: en stak bøger (a stack of books). A messy one is en bunke (a pile).",
+  "explanation": "\"En stak\" means \"a stack\", things placed neatly on top of each other: en stak tallerkener (a stack of plates). A messy one is en bunke (a pile).",
   "forms": [
    {
     "da": "en stak",
@@ -12200,8 +12200,8 @@
    }
   ],
   "sentence": {
-   "da": "Den nye **statsminister** taler i aften.",
-   "en": "The new prime minister speaks tonight."
+   "da": "Danmarks **statsminister** leder landets regering.",
+   "en": "Denmark's prime minister leads the country's government."
   }
  },
  "en statue": {
@@ -12321,8 +12321,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **stedfar** laver mad hver søndag.",
-   "en": "My stepfather cooks every Sunday."
+   "da": "Min mor er gift med min **stedfar**, ikke min far.",
+   "en": "My mother is married to my stepfather, not my father."
   }
  },
  "en stedmor": {
@@ -12360,8 +12360,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **stedmor** kommer fra Norge.",
-   "en": "My stepmother comes from Norway."
+   "da": "Min far er gift med min **stedmor**, ikke min mor.",
+   "en": "My father is married to my stepmother, not my mother."
   }
  },
  "en stegepande": {
@@ -12490,7 +12490,7 @@
   }
  },
  "en sten": {
-  "explanation": "\"En sten\" means \"a stone\" or \"a rock\". The plural sten looks the same as the singular, so mange sten means \"many stones\". As a material, sten is used alone: et hus af sten (a house of stone).",
+  "explanation": "\"En sten\" means \"a stone\" or \"a rock\". The plural sten looks the same as the singular, so mange sten means \"many stones\". As a material, it is used alone, with no en.",
   "forms": [
    {
     "da": "en sten",
@@ -12524,8 +12524,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kaster en **sten** i vandet.",
-   "en": "I throw a stone in the water."
+   "da": "Muren er lavet af **sten**.",
+   "en": "The wall is made of stone."
   }
  },
  "en stewardesse": {
@@ -12602,8 +12602,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi går ad en lille **sti** gennem skoven.",
-   "en": "We walk along a small path through the forest."
+   "da": "Den lille **sti** går gennem skoven og ned til søen.",
+   "en": "The little path goes through the forest and down to the lake."
   }
  },
  "en stige": {
@@ -12646,7 +12646,7 @@
   }
  },
  "en stikdåse": {
-  "explanation": "\"En stikdåse\" means \"a power strip\", one plug that gives you several outlets: Jeg har en stikdåse med fem udtag (I have a power strip with five outlets).",
+  "explanation": "\"En stikdåse\" means \"a power strip\", one plug that gives you several outlets, so many devices can share one wall outlet.",
   "forms": [
    {
     "da": "en stikdåse",
@@ -12727,8 +12727,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er ikke en **stikkontakt** i værelset.",
-   "en": "There is no outlet in the room."
+   "da": "Jeg sætter min oplader i en **stikkontakt**.",
+   "en": "I put my charger in an outlet."
   }
  },
  "en stil": {
@@ -13098,12 +13098,12 @@
    }
   ],
   "sentence": {
-   "da": "Han fik en hård **straf**.",
-   "en": "He got a harsh punishment."
+   "da": "Børn får en **straf**, når de gør noget forkert.",
+   "en": "Children get a punishment when they do something wrong."
   }
  },
  "en strand": {
-  "explanation": "\"En strand\" means \"a beach\". På stranden means \"at the beach\".",
+  "explanation": "\"En strand\" means \"a beach\", the sandy edge of the sea or a lake. You say på stranden (at the beach), using på (on), not i (in).",
   "forms": [
    {
     "da": "en strand",
@@ -13137,8 +13137,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi ligger i solen på en **strand**.",
-   "en": "We lie in the sun on a beach."
+   "da": "Der er sand og hav ved en **strand**.",
+   "en": "There is sand and sea at a beach."
   }
  },
  "en strandpromenade": {
@@ -13306,7 +13306,7 @@
   }
  },
  "en strømpe": {
-  "explanation": "\"En strømpe\" means \"a stocking\" or \"a sock\".",
+  "explanation": "\"En strømpe\" means \"a stocking\" or \"a sock\", a soft piece of clothing that covers your foot. You wear strømper inside your shoes: Jeg har strømper på (I am wearing socks).",
   "forms": [
    {
     "da": "en strømpe",
@@ -13340,8 +13340,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har et hul i min **strømpe**.",
-   "en": "I have a hole in my sock."
+   "da": "Man har en **strømpe** på hver fod.",
+   "en": "You wear a sock on each foot."
   }
  },
  "en studerende": {
@@ -13461,8 +13461,8 @@
    }
   ],
   "sentence": {
-   "da": "Min største **styrke** er, at jeg lytter godt.",
-   "en": "My greatest strength is that I listen well."
+   "da": "Matematik er min **styrke**, men sprog er svært.",
+   "en": "Math is my strength, but languages are hard."
   }
  },
  "en størrelse": {
@@ -13509,7 +13509,7 @@
   }
  },
  "en støtte": {
-  "explanation": "\"En støtte\" means \"a support\", help or something that holds you up: Hendes mor er en stor støtte (Her mother is a great support). It can be money too: en støtte fra staten (support from the state).",
+  "explanation": "\"En støtte\" means \"a support\", help or something that holds you up: Tak for din støtte (Thank you for your support). It can be money too: en støtte fra staten (support from the state).",
   "forms": [
    {
     "da": "en støtte",
@@ -13750,12 +13750,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg sætter en **sukkerskål** på bordet.",
-   "en": "I put a sugar bowl on the table."
+   "da": "Sukkeret ligger i en lille **sukkerskål**.",
+   "en": "The sugar is in a small sugar bowl."
   }
  },
  "en sum": {
-  "explanation": "\"En sum\" means \"a sum\", an amount of money or the result of adding numbers: en stor sum penge (a large sum of money). In math, summen af to og tre er fem (the sum of two and three is five).",
+  "explanation": "\"En sum\" means \"a sum\", an amount of money or the result of adding numbers. In math, summen af to og tre er fem (the sum of two and three is five).",
   "forms": [
    {
     "da": "en sum",
@@ -14430,7 +14430,7 @@
   }
  },
  "en sweater": {
-  "explanation": "\"En sweater\" means \"a sweater\". To say you are wearing one, use have ... på (literally have ... on): Jeg har en sweater på (I am wearing a sweater).",
+  "explanation": "\"En sweater\" means \"a sweater\", a warm top you pull over your head. To say you are wearing one, use have ... på (literally have ... on): Jeg har en sweater på (I am wearing a sweater).",
   "forms": [
    {
     "da": "en sweater",
@@ -14464,8 +14464,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har en varm **sweater** på i dag.",
-   "en": "I am wearing a warm sweater today."
+   "da": "Du kan holde varmen i en **sweater**.",
+   "en": "You can stay warm in a sweater."
   }
  },
  "en sygdom": {
@@ -14547,7 +14547,7 @@
   }
  },
  "en sæk": {
-  "explanation": "\"En sæk\" means \"a sack\", a big bag made of cloth or paper: en sæk kartofler (a sack of potatoes). A small shopping bag is not a sæk.",
+  "explanation": "\"En sæk\" means \"a sack\", a big bag of cloth or paper that holds heavy things like potatoes or flour. A small shopping bag is not a sæk.",
   "forms": [
    {
     "da": "en sæk",
@@ -14585,8 +14585,8 @@
    }
   ],
   "sentence": {
-   "da": "Han bar en tung **sæk** ind i huset.",
-   "en": "He carried a heavy sack into the house."
+   "da": "Kartoflerne ligger i en **sæk** i kælderen.",
+   "en": "The potatoes are in a sack in the cellar."
   }
  },
  "en sæl": {
@@ -14628,8 +14628,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg så en **sæl** svømme i vandet.",
-   "en": "I saw a seal swim in the water."
+   "da": "En **sæl** fanger fisk i havet.",
+   "en": "A seal catches fish in the sea."
   }
  },
  "en sælger": {
@@ -14667,8 +14667,8 @@
    }
   ],
   "sentence": {
-   "da": "En **sælger** ringede til mig i går.",
-   "en": "A salesperson called me yesterday."
+   "da": "En **sælger** hjælper kunderne i butikken.",
+   "en": "A salesperson helps the customers in the store."
   }
  },
  "en sælgerske": {
@@ -14745,8 +14745,8 @@
    }
   ],
   "sentence": {
-   "da": "Den nye **sæson** starter i august.",
-   "en": "The new season starts in August."
+   "da": "Tv-serien har ti afsnit i hver **sæson**.",
+   "en": "The TV series has ten episodes in each season."
   }
  },
  "en sætning": {
@@ -14788,8 +14788,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du skrive en kort **sætning** med det ord?",
-   "en": "Can you write a short sentence with that word?"
+   "da": "En **sætning** slutter med et punktum.",
+   "en": "A sentence ends with a period."
   }
  },
  "en sø": {
@@ -14827,8 +14827,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er en lille **sø** i skoven.",
-   "en": "There is a small lake in the forest."
+   "da": "Man kan bade og fiske i en **sø**.",
+   "en": "You can swim and fish in a lake."
   }
  },
  "en søgemaskine": {
@@ -14905,8 +14905,8 @@
    }
   ],
   "sentence": {
-   "da": "Min **søn** er ti år gammel.",
-   "en": "My son is ten years old."
+   "da": "Min bror har en **søn** og en datter.",
+   "en": "My brother has a son and a daughter."
   }
  },
  "en søster": {
@@ -15026,12 +15026,12 @@
    }
   ],
   "sentence": {
-   "da": "Butikken havde et godt **salg** i dag.",
-   "en": "The store had good sales today."
+   "da": "Han tjener penge på **salg** af brugte biler.",
+   "en": "He makes money from the sale of used cars."
   }
  },
  "et samarbejde": {
-  "explanation": "\"Et samarbejde\" means \"a collaboration\", working together: Vi har et godt samarbejde (We have a good collaboration). It is built from sammen (together) and arbejde (work).",
+  "explanation": "\"Et samarbejde\" means \"a collaboration\", people or groups working together toward the same goal. It is built from sammen (together) and arbejde (work).",
   "forms": [
    {
     "da": "et samarbejde",
@@ -15268,8 +15268,8 @@
    }
   ],
   "sentence": {
-   "da": "Det nye **semester** starter i september.",
-   "en": "The new semester starts in September."
+   "da": "Vi har eksamen i slutningen af hvert **semester**.",
+   "en": "We have exams at the end of each semester."
   }
  },
  "et shot": {
@@ -15480,7 +15480,7 @@
   }
  },
  "et skift": {
-  "explanation": "\"Et skift\" means \"a change\": et skift i planen (a change in the plan). It also means \"a work shift\": Han tager et ekstra skift (He is taking an extra shift).",
+  "explanation": "\"Et skift\" means \"a change\": et skift i planen (a change in the plan). It also means \"a work shift\", like a day or night shift: et natskift (a night shift).",
   "forms": [
    {
     "da": "et skift",
@@ -15553,8 +15553,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er et stort **skilt** over døren.",
-   "en": "There is a big sign above the door."
+   "da": "Et **skilt** viser vej til stationen.",
+   "en": "A sign shows the way to the station."
   }
  },
  "et skohorn": {
@@ -15816,7 +15816,7 @@
   }
  },
  "et skud": {
-  "explanation": "\"Et skud\" means \"a shot\", from a gun or a kick in sports: Han tog et skud på mål (He took a shot on goal). Jeg hørte et skud i natten (I heard a shot in the night).",
+  "explanation": "\"Et skud\" means \"a shot\", from a gun or a kick in sports: Han tog et skud på mål (He took a shot on goal). For a small strong drink, use et shot (a shot).",
   "forms": [
    {
     "da": "et skud",
@@ -16136,7 +16136,7 @@
   }
  },
  "et smil": {
-  "explanation": "\"Et smil\" means \"a smile\": Hun har et stort smil (She has a big smile). Et smil kan gøre en dårlig dag bedre (A smile can make a bad day better).",
+  "explanation": "\"Et smil\" means \"a smile\", the friendly look you make with your mouth, without any sound: Et smil kan gøre en dårlig dag bedre (A smile can make a bad day better).",
   "forms": [
    {
     "da": "et smil",
@@ -16213,8 +16213,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun fik et **smykke** i fødselsdagsgave.",
-   "en": "She got a piece of jewelry as a birthday present."
+   "da": "Hun har et smukt **smykke** om halsen.",
+   "en": "She has a beautiful piece of jewelry around her neck."
   }
  },
  "et småbarn": {
@@ -16296,7 +16296,7 @@
   }
  },
  "et snefnug": {
-  "explanation": "\"Et snefnug\" means \"a snowflake\": Der falder det første snefnug (The first snowflake is falling). It is built from sne (snow) and fnug (a bit of fluff).",
+  "explanation": "\"Et snefnug\" means \"a snowflake\", one tiny flake of falling snow. It is built from sne (snow) and fnug (a bit of fluff).",
   "forms": [
    {
     "da": "et snefnug",
@@ -16663,7 +16663,7 @@
   }
  },
  "et spejl": {
-  "explanation": "\"Et spejl\" means \"a mirror\". Jeg kigger i spejlet means \"I look in the mirror\".",
+  "explanation": "\"Et spejl\" means \"a mirror\", a flat piece of glass that shows you your own face. Jeg kigger i spejlet (I look in the mirror).",
   "forms": [
    {
     "da": "et spejl",
@@ -16697,8 +16697,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kigger i et **spejl**.",
-   "en": "I look in a mirror."
+   "da": "Jeg kan se mit ansigt i et **spejl**.",
+   "en": "I can see my face in a mirror."
   }
  },
  "et spejlæg": {
@@ -16775,8 +16775,8 @@
    }
   ],
   "sentence": {
-   "da": "Skal vi spille et **spil**?",
-   "en": "Shall we play a game?"
+   "da": "Skak er et **spil** for to personer.",
+   "en": "Chess is a game for two people."
   }
  },
  "et spisebord": {
@@ -16948,7 +16948,7 @@
   }
  },
  "et sprog": {
-  "explanation": "\"Et sprog\" means \"a language\". Taler du engelsk? means \"Do you speak English?\".",
+  "explanation": "\"Et sprog\" means \"a language\", such as English or Spanish. People ask Taler du engelsk? (Do you speak English?) to find a language they share.",
   "forms": [
    {
     "da": "et sprog",
@@ -16982,8 +16982,8 @@
    }
   ],
   "sentence": {
-   "da": "Hvilket **sprog** taler du?",
-   "en": "Which language do you speak?"
+   "da": "Dansk og engelsk er to **sprog**.",
+   "en": "Danish and English are two languages."
   }
  },
  "et sprogcenter": {
@@ -17225,7 +17225,7 @@
   }
  },
  "et stearinlys": {
-  "explanation": "\"Et stearinlys\" means \"a candle\": Jeg tænder et stearinlys (I light a candle). Hun sætter et stearinlys på bordet (She puts a candle on the table).",
+  "explanation": "\"Et stearinlys\" means \"a candle\", a stick of wax that you light on the table or in the window: Jeg tænder et stearinlys (I light a candle).",
   "forms": [
    {
     "da": "et stearinlys",
@@ -17307,7 +17307,7 @@
   }
  },
  "et stik": {
-  "explanation": "\"Et stik\" means \"a plug\" and also \"a sting\" or \"a prick\": Sæt stikket i væggen (Put the plug in the wall). Et stik fra en bi gør ondt (A sting from a bee hurts).",
+  "explanation": "\"Et stik\" means \"a plug\" and also \"a sting\" or \"a prick\", such as from an insect or a needle. Et stik fra en bi gør ondt (A sting from a bee hurts).",
   "forms": [
    {
     "da": "et stik",
@@ -17751,12 +17751,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg køber mælk i et **supermarked**.",
-   "en": "I buy milk in a supermarket."
+   "da": "Et **supermarked** sælger mad og mange andre ting.",
+   "en": "A supermarket sells food and many other things."
   }
  },
  "et svar": {
-  "explanation": "\"Et svar\" means \"an answer\" or \"a reply\". Tak for svaret means \"thanks for the reply\".",
+  "explanation": "\"Et svar\" means \"an answer\" or \"a reply\", what you give to a question or a message. Tak for svaret means \"thanks for the reply\".",
   "forms": [
    {
     "da": "et svar",
@@ -17790,8 +17790,8 @@
    }
   ],
   "sentence": {
-   "da": "Tak for dit **svar**.",
-   "en": "Thanks for your answer."
+   "da": "Hun giver et **svar** på spørgsmålet.",
+   "en": "She gives an answer to the question."
   }
  },
  "et svin": {
@@ -18040,8 +18040,8 @@
    }
   ],
   "sentence": {
-   "da": "Computeren har et nyt **system**, og det er hurtigt.",
-   "en": "The computer has a new system, and it is fast."
+   "da": "Et **system** hjælper os med at holde orden.",
+   "en": "A system helps us keep things in order."
   }
  },
  "et sår": {
@@ -18118,8 +18118,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have et **sæde** ved vinduet.",
-   "en": "I would like a seat by the window."
+   "da": "Barnet sidder i et **sæde** bag i bilen.",
+   "en": "The child sits in a seat in the back of the car."
   }
  },
  "et søm": {
@@ -18196,8 +18196,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene drikker **saft** med koldt vand.",
-   "en": "The children drink cordial with cold water."
+   "da": "**Saft** laves af frugt og er meget sød.",
+   "en": "Cordial is made from fruit and is very sweet."
   }
  },
  "saftevand": {
@@ -18231,8 +18231,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have et glas **saftevand**.",
-   "en": "I would like a glass of diluted cordial."
+   "da": "**Saftevand** er saft blandet med vand.",
+   "en": "Diluted cordial is cordial mixed with water."
   }
  },
  "salt": {
@@ -18266,8 +18266,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil have lidt **salt** i suppen.",
-   "en": "I want a little salt in the soup."
+   "da": "Der er meget **salt** i havet.",
+   "en": "There is a lot of salt in the sea."
   }
  },
  "saltet": {
@@ -18449,12 +18449,12 @@
    }
   ],
   "sentence": {
-   "da": "Børnene leger med **sand** i haven.",
-   "en": "The children play with sand in the garden."
+   "da": "På stranden er der meget **sand**.",
+   "en": "There is a lot of sand on the beach."
   }
  },
  "sandaler": {
-  "explanation": "\"Sandaler\" means \"sandals\". One sandal is en sandal, but shoes come as a pair, so you mostly hear this more than one form.",
+  "explanation": "\"Sandaler\" means \"sandals\", open shoes with straps that you wear in warm weather. One sandal is en sandal, but shoes come in pairs, so you mostly hear sandaler.",
   "forms": [
    {
     "da": "sandaler",
@@ -18492,12 +18492,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **sandaler** på i dag.",
-   "en": "I have sandals on today."
+   "da": "Om sommeren går jeg i **sandaler**.",
+   "en": "In summer I wear sandals."
   }
  },
  "sandsynlig": {
-  "explanation": "\"Sandsynlig\" means \"likely\" or \"probable\" and says that something will probably happen: Det er sandsynligt, at det regner (It is likely that it will rain). It is more certain than just possible.",
+  "explanation": "\"Sandsynlig\" means \"likely\" or \"probable\" and says that something will probably happen. It is more certain than just possible. Det er sandsynligt, at han kommer (It is likely that he is coming).",
   "forms": [
    {
     "da": "en sandsynlig årsag",
@@ -18531,8 +18531,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en **sandsynlig** årsag til problemet.",
-   "en": "It is a likely cause of the problem."
+   "da": "Regn er **sandsynlig**, fordi himlen er mørk.",
+   "en": "Rain is likely because the sky is dark."
   }
  },
  "sandsynligvis": {
@@ -18644,8 +18644,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi er **seks** personer.",
-   "en": "We are six people."
+   "da": "To gange tre er **seks**.",
+   "en": "Two times three is six."
   }
  },
  "seksten": {
@@ -19132,7 +19132,7 @@
   }
  },
  "september": {
-  "explanation": "\"September\" means \"September\", as in Vi rejser i september (We travel in September).",
+  "explanation": "\"September\" means \"September\", the ninth month. Month names are not capitalized in Danish, unlike in English: Vi rejser i september (We travel in September).",
   "forms": [
    {
     "da": "september",
@@ -19162,8 +19162,8 @@
    }
   ],
   "sentence": {
-   "da": "**September** er måneden efter august.",
-   "en": "September is the month after August."
+   "da": "Børnene starter i skole igen i **september**.",
+   "en": "The children start school again in September."
   }
  },
  "seriøs": {
@@ -19459,7 +19459,7 @@
   }
  },
  "sig": {
-  "explanation": "\"Sig\" means \"himself\", herself, itself or \"themselves\". Compare Han vasker ham (He washes him — someone else) with Han vasker sig (He washes himself). For \"I\" and \"we\" use mig (myself) and os (ourselves): Jeg vasker mig (I wash myself). Some verbs always come with sig even though English has no word for it: at skynde sig (to hurry), at glæde sig (to look forward to).",
+  "explanation": "\"Sig\" means \"himself\", \"herself\", \"itself\" or \"themselves\". Compare Han vasker ham (He washes him, someone else) with Han vasker sig (He washes himself). Some verbs always take sig: at skynde sig (to hurry), at glæde sig (to look forward to).",
   "forms": [
    {
     "da": "Han vasker sig.",
@@ -19606,12 +19606,12 @@
    }
   ],
   "sentence": {
-   "da": "**Sikke noget** vejr vi har i dag!",
-   "en": "What weather we have today!"
+   "da": "**Sikke noget** rod, der er mel overalt!",
+   "en": "What a mess, there is flour everywhere!"
   }
  },
  "sikker": {
-  "explanation": "\"Sikker\" means \"sure\" and \"safe\": Er du sikker? (Are you sure?), Jeg er sikker (I am sure), en sikker bil (a safe car).",
+  "explanation": "\"Sikker\" means \"sure\" and \"safe\". It says that someone has no doubt, or that something cannot hurt you. Er du sikker? (Are you sure?) is the usual way to check a fact.",
   "forms": [
    {
     "da": "en sikker bil",
@@ -19676,8 +19676,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi tænker meget på **sikkerhed** på nettet.",
-   "en": "We think a lot about security online."
+   "da": "Bilbælter giver **sikkerhed** i trafikken.",
+   "en": "Seat belts give safety in traffic."
   }
  },
  "sild": {
@@ -19720,7 +19720,7 @@
   }
  },
  "silke": {
-  "explanation": "\"Silke\" means \"silk\", the soft, smooth cloth. To say what something is made of, use af (of): Tørklædet er lavet af silke (The scarf is made of silk).",
+  "explanation": "\"Silke\" means \"silk\", a soft, shiny, light cloth used for scarves, ties and fine clothes. It is the material itself, so it takes no en or et: Jeg elsker silke (I love silk).",
   "forms": [
    {
     "da": "ren silke",
@@ -19793,8 +19793,8 @@
    }
   ],
   "sentence": {
-   "da": "Opskriften er **simpel** og tager kun ti minutter.",
-   "en": "The recipe is simple and takes only ten minutes."
+   "da": "Det er en **simpel** opgave, og børn kan klare den.",
+   "en": "It is a simple task, and children can handle it."
   }
  },
  "simpelthen": {
@@ -20089,8 +20089,8 @@
    }
   ],
   "sentence": {
-   "da": "Filmen er meget **sjov**.",
-   "en": "The movie is very funny."
+   "da": "Klovnen er **sjov** og alle ler.",
+   "en": "The clown is funny and everyone laughs."
   }
  },
  "sjælden": {
@@ -20397,8 +20397,8 @@
    }
   ],
   "sentence": {
-   "da": "Pas på, kniven er meget **skarp**.",
-   "en": "Be careful, the knife is very sharp."
+   "da": "Saksen er **skarp** og klipper papiret let.",
+   "en": "The scissors are sharp and cut the paper easily."
   }
  },
  "skidt": {
@@ -20510,8 +20510,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tager **sko** på og går ud.",
-   "en": "I put shoes on and go out."
+   "da": "Vi har **sko** på fødderne.",
+   "en": "We have shoes on our feet."
   }
  },
  "skrald": {
@@ -20814,8 +20814,8 @@
    }
   ],
   "sentence": {
-   "da": "I dag er det **skyet** og koldt.",
-   "en": "Today it is cloudy and cold."
+   "da": "Himlen er grå og **skyet** i dag.",
+   "en": "The sky is gray and cloudy today."
   }
  },
  "skyld": {
@@ -21040,8 +21040,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er en **skør** idé, men jeg kan lide den.",
-   "en": "It is a crazy idea, but I like it."
+   "da": "Min onkel er lidt **skør**, men han er sjov.",
+   "en": "My uncle is a bit crazy, but he is funny."
   }
  },
  "slet ikke": {
@@ -21110,8 +21110,8 @@
    }
   ],
   "sentence": {
-   "da": "Sofaen er gammel og meget **slidt**.",
-   "en": "The sofa is old and very worn."
+   "da": "Dækket er **slidt**, så vi skal have et nyt.",
+   "en": "The tire is worn, so we need a new one."
   }
  },
  "slik": {
@@ -21520,7 +21520,7 @@
   }
  },
  "snavset": {
-  "explanation": "\"Snavset\" means \"dirty\", as in en snavset skjorte (a dirty shirt). It comes from snavs (dirt).",
+  "explanation": "\"Snavset\" means \"dirty\", covered with snavs (dirt) and in need of a wash. It is used for clothes, glasses and shoes.",
   "forms": [
    {
     "da": "en snavset skjorte",
@@ -21550,8 +21550,8 @@
    }
   ],
   "sentence": {
-   "da": "Min skjorte er meget **snavset**.",
-   "en": "My shirt is very dirty."
+   "da": "Tøjet er **snavset** og skal vaskes.",
+   "en": "The clothes are dirty and need washing."
   }
  },
  "sne": {
@@ -21690,12 +21690,12 @@
    }
   ],
   "sentence": {
-   "da": "Mange unge bruger **sociale medier** hver dag.",
-   "en": "Many young people use social media every day."
+   "da": "Facebook og Instagram er **sociale medier**.",
+   "en": "Facebook and Instagram are social media."
   }
  },
  "software": {
-  "explanation": "\"Software\" means \"software\", the programs a computer runs. The physical parts of a computer are called hardware (hardware): Den software er gratis (That software is free).",
+  "explanation": "\"Software\" means \"software\", the instructions that make a computer or phone work. The physical parts are called hardware (hardware), and Danish uses both English words as they are.",
   "forms": [
    {
     "da": "software",
@@ -22029,12 +22029,12 @@
    }
   ],
   "sentence": {
-   "da": "Vi nyder **solskin** i haven.",
-   "en": "We enjoy sunshine in the garden."
+   "da": "Efter regnen kommer **solskin**.",
+   "en": "After the rain comes sunshine."
   }
  },
  "solskinsvejr": {
-  "explanation": "\"Solskinsvejr\" means \"sunny weather\", from solskin (sunshine) and vejr (weather). Example: Hvis det er solskinsvejr, tager vi på stranden (If it is sunny, we go to the beach).",
+  "explanation": "\"Solskinsvejr\" means \"sunny weather\", from solskin (sunshine) and vejr (weather). It describes a clear sky and bright sun, often when planning outdoor things: Hvis det er solskinsvejr, tager vi på stranden (If it is sunny, we go to the beach).",
   "forms": [
    {
     "da": "et solskinsvejr",
@@ -22381,7 +22381,7 @@
   }
  },
  "sort": {
-  "explanation": "\"Sort\" means \"black\", as in en sort bil (a black car). It is also used in sort kaffe (black coffee).",
+  "explanation": "\"Sort\" means \"black\", the darkest color, the opposite of white. It is also used for coffee with no milk: sort kaffe (black coffee).",
   "forms": [
    {
     "da": "en sort bil",
@@ -22621,8 +22621,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg koger grøn **spinat** til middag.",
-   "en": "I boil green spinach for dinner."
+   "da": "**Spinat** er grøn og sund.",
+   "en": "Spinach is green and healthy."
   }
  },
  "spontan": {
@@ -22965,7 +22965,7 @@
   }
  },
  "stegt": {
-  "explanation": "\"Stegt\" means \"fried\" or \"roasted\", depending on the food: stegt flæsk (fried pork) and stegt kylling (roast chicken).",
+  "explanation": "\"Stegt\" means \"fried\" or \"roasted\", food cooked in fat or in an oven, depending on the food: stegt flæsk (fried pork) and stegt kylling (roast chicken).",
   "forms": [
    {
     "da": "en stegt fisk",
@@ -22999,8 +22999,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil have **stegt** fisk.",
-   "en": "I want fried fish."
+   "da": "Fisken er **stegt** i panden.",
+   "en": "The fish is fried in the pan."
   }
  },
  "stilhed": {
@@ -23359,7 +23359,7 @@
   }
  },
  "straks": {
-  "explanation": "\"Straks\" means \"right away\", and often \"in just a moment\": Jeg er der straks (I'll be there in a moment).",
+  "explanation": "\"Straks\" means \"right away\", and often \"in just a moment\". It says the thing will happen almost at once, and is common when you answer someone: Vent lidt, jeg er der straks (Wait a bit, I'll be there in a moment).",
   "forms": [
    {
     "da": "Jeg kommer straks.",
@@ -23546,7 +23546,7 @@
   }
  },
  "strøm": {
-  "explanation": "\"Strøm\" means \"electricity\", and also a \"current\". Jeg betaler for strøm hver måned (I pay for electricity every month). Strømmen er gået (The power is out).",
+  "explanation": "\"Strøm\" means \"electricity\", the power that runs your home, and also a \"current\" of water or air. Jeg betaler for strøm hver måned (I pay for electricity every month).",
   "forms": [
    {
     "da": "strøm",
@@ -23580,8 +23580,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har ingen **strøm** i huset i dag.",
-   "en": "We have no electricity in the house today."
+   "da": "Lamper og computere bruger **strøm**.",
+   "en": "Lamps and computers use electricity."
   }
  },
  "strømpebukser": {
@@ -23732,12 +23732,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg drikker **stærk** kaffe hver morgen.",
-   "en": "I drink strong coffee every morning."
+   "da": "Han er **stærk** og kan løfte tunge ting.",
+   "en": "He is strong and can lift heavy things."
   }
  },
  "støj": {
-  "explanation": "\"Støj\" means \"noise\", the unwanted kind, and is an en-word: Der er for meget støj (There is too much noise). A sound you like is lyd (sound), not støj.",
+  "explanation": "\"Støj\" means \"noise\", the unwanted kind such as traffic or loud neighbors. A sound you like is lyd (sound), not støj: Der er for meget støj (There is too much noise).",
   "forms": [
    {
     "da": "støj",
@@ -23819,7 +23819,7 @@
   }
  },
  "størst": {
-  "explanation": "\"Størst\" means \"biggest\" or \"largest\". Compare Hun er større (She is bigger) with Han er størst (He is the biggest).",
+  "explanation": "\"Størst\" means \"biggest\" or \"largest\", the one that nothing else beats. Compare Hun er større (She is bigger) with Han er størst (He is the biggest).",
   "forms": [
    {
     "da": "den største by",
@@ -23897,7 +23897,7 @@
   }
  },
  "støvler": {
-  "explanation": "\"Støvler\" means \"boots\". A pair is et par støvler (a pair of boots).",
+  "explanation": "\"Støvler\" means \"boots\", sturdy footwear that covers the ankle or more, worn in wet or cold weather. A pair is et par støvler (a pair of boots).",
   "forms": [
    {
     "da": "støvlerne",
@@ -23975,7 +23975,7 @@
   }
  },
  "sukker": {
-  "explanation": "\"Sukker\" means \"sugar\". You can ask for a little in your drink: lidt sukker i kaffen (a little sugar in the coffee).",
+  "explanation": "\"Sukker\" means \"sugar\", the sweet white stuff used in baking and drinks. It is also a main part of sweets and cake: Kage har meget sukker (Cake has a lot of sugar).",
   "forms": [
    {
     "da": "noget sukker",
@@ -24053,7 +24053,7 @@
   }
  },
  "sulten": {
-  "explanation": "\"Sulten\" means \"hungry\". You say Jeg er sulten (I am hungry). To ask, say Er du sulten? (Are you hungry?).",
+  "explanation": "\"Sulten\" means \"hungry\", the feeling that your body wants food. It describes a person or animal: Er du sulten? (Are you hungry?)",
   "forms": [
    {
     "da": "en sulten dreng",
@@ -24088,7 +24088,7 @@
   }
  },
  "sund": {
-  "explanation": "\"Sund\" means \"healthy\", good for your body: sund mad (healthy food). Do not mix it up with rask (well, not sick): Jeg er rask igen (I am well again).",
+  "explanation": "\"Sund\" means \"healthy\", good for your body, like fruit, sleep and exercise. Do not mix it up with rask (well, not sick): Jeg er rask igen (I am well again).",
   "forms": [
    {
     "da": "en sund kost",
@@ -24196,8 +24196,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har en **super** dag i parken.",
-   "en": "We have a great day in the park."
+   "da": "Vi vandt kampen. Det var **super**!",
+   "en": "We won the game. It was great!"
   }
  },
  "sur": {
@@ -24392,7 +24392,7 @@
   }
  },
  "svigerforældre": {
-  "explanation": "\"Svigerforældre\" means \"parents-in-law\", the parents of your husband, wife or partner: Vi spiser hos mine svigerforældre (We eat at my in-laws). For one, use en svigermor (mother-in-law) or en svigerfar (father-in-law).",
+  "explanation": "\"Svigerforældre\" means \"parents-in-law\", the parents of your husband, wife or partner. For one, use en svigermor (mother-in-law) or en svigerfar (father-in-law): Vi spiser hos mine svigerforældre (We eat at my in-laws).",
   "forms": [
    {
     "da": "mine svigerforældre",
@@ -24426,8 +24426,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser middag hos mine **svigerforældre** i aften.",
-   "en": "We are having dinner at my parents-in-law's tonight."
+   "da": "Min mands forældre er mine **svigerforældre**.",
+   "en": "My husband's parents are my parents-in-law."
   }
  },
  "svimmel": {
@@ -25049,8 +25049,8 @@
    }
   ],
   "sentence": {
-   "da": "Bliv **så længe** du vil.",
-   "en": "Stay as long as you want."
+   "da": "Jeg er glad, **så længe** solen skinner.",
+   "en": "I am happy as long as the sun shines."
   }
  },
  "så snart": {
@@ -25537,7 +25537,7 @@
   }
  },
  "søvn": {
-  "explanation": "\"Søvn\" means \"sleep\", the rest you get at night: Jeg har brug for mere søvn (I need more sleep). Jeg fik lidt søvn i nat (I got little sleep last night).",
+  "explanation": "\"Søvn\" means \"sleep\", the rest your body gets at night. It is the thing itself, not the act of sleeping, so you get it or lack it: Jeg fik lidt søvn i nat (I got little sleep last night).",
   "forms": [
    {
     "da": "søvn",

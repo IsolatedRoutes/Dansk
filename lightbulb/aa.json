@@ -202,8 +202,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kender ikke butikkens **åbningstid** i dag.",
-   "en": "I do not know the shop's opening hours today."
+   "da": "Butikkens **åbningstid** er fra ni til fem.",
+   "en": "The shop's opening hours are from nine to five."
   }
  },
  "en årsag": {
@@ -246,7 +246,7 @@
   }
  },
  "en årstid": {
-  "explanation": "\"En årstid\" means \"a season\", one of the four parts of the year: Det er en kold årstid (It is a cold season). Do not mix it up with en sæson (a season of a show or sport): Sæsonen starter i dag (The season starts today).",
+  "explanation": "\"En årstid\" means \"a season\", one of the four parts of the year: Der er fire årstider (There are four seasons). Do not mix it up with en sæson (a season of a show or sport): Sæsonen starter i dag (The season starts today).",
   "forms": [
    {
     "da": "en årstid",
@@ -284,12 +284,12 @@
    }
   ],
   "sentence": {
-   "da": "Hvilken **årstid** kan du bedst lide?",
-   "en": "Which season do you like best?"
+   "da": "Vinter er en kold **årstid**, og sommer er en varm.",
+   "en": "Winter is a cold season, and summer is a warm one."
   }
  },
  "et åbent hus": {
-  "explanation": "\"Et åbent hus\" means \"an open house\", an event where anyone can come and look around: Skolen holder åbent hus i morgen (The school has an open house tomorrow). It is used for schools, companies and homes for sale.",
+  "explanation": "\"Et åbent hus\" means \"an open house\", an event where anyone can come and look around. It is used for schools, companies and homes for sale.",
   "forms": [
    {
     "da": "et åbent hus",

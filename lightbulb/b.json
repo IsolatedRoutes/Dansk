@@ -164,7 +164,7 @@
   }
  },
  "at barbere sig": {
-  "explanation": "\"At barbere sig\" means \"to shave\" yourself. The small word after barbere changes with the person: Jeg barberer mig (I shave), Han barberer sig (He shaves).",
+  "explanation": "\"At barbere sig\" means \"to shave\", taking the hair off your face or body with a razor. Sig shows that you do it to yourself. To shave someone else, leave it out: Jeg barberer ham (I shave him).",
   "forms": [
    {
     "da": "at barbere sig",
@@ -362,12 +362,12 @@
    }
   ],
   "sentence": {
-   "da": "Han skal **begynde på** en ny skole i morgen.",
-   "en": "He is going to start at a new school tomorrow."
+   "da": "Efter ferien skal jeg **begynde på** universitetet.",
+   "en": "After the vacation, I am going to start at the university."
   }
  },
  "at behandle": {
-  "explanation": "\"At behandle\" means \"to treat\", for patients and for people in general: Lægen behandler patienten (The doctor treats the patient). Han behandler mig godt (He treats me well).",
+  "explanation": "\"At behandle\" means \"to treat\", both in medicine and in how you act toward people: Han behandler mig godt (He treats me well). It also means to handle a matter officially: Kommunen behandler sagen (The city is handling the case).",
   "forms": [
    {
     "da": "at behandle",
@@ -401,8 +401,8 @@
    }
   ],
   "sentence": {
-   "da": "Lægen skal **behandle** hende i dag.",
-   "en": "The doctor will treat her today."
+   "da": "Lægen kan **behandle** sygdommen med medicin.",
+   "en": "The doctor can treat the illness with medicine."
   }
  },
  "at beholde": {
@@ -527,7 +527,7 @@
   }
  },
  "at bekymre sig": {
-  "explanation": "\"At bekymre sig\" means \"to worry\". The small word after it changes with the person: Jeg bekymrer mig (I worry), du bekymrer dig (you worry). Jeg bekymrer mig om dig (I worry about you).",
+  "explanation": "\"At bekymre sig\" means \"to worry\", feeling uneasy about something that might go wrong. Add om for what you worry about: Jeg bekymrer mig om dig (I worry about you). Sig shows that the worry is yours.",
   "forms": [
    {
     "da": "at bekymre sig",
@@ -1023,7 +1023,7 @@
   }
  },
  "at betale for": {
-  "explanation": "\"At betale for\" means \"to pay for\" something: Jeg betaler for maden (I am paying for the food). You can also name the person you pay for: Jeg betaler for dig (I am paying for you).",
+  "explanation": "\"At betale for\" means \"to pay for\". For points to what the money buys: Jeg betaler for maden (I am paying for the food). With a person after it, you cover their share: Jeg betaler for dig (I am paying for you).",
   "forms": [
    {
     "da": "at betale for",
@@ -1265,7 +1265,7 @@
   }
  },
  "at bide": {
-  "explanation": "\"At bide\" means \"to bite\": Hunden bed mig i armen (The dog bit me on the arm). It works for insects too: Myggen bed mig (The mosquito bit me).",
+  "explanation": "\"At bide\" means \"to bite\", cutting into something with your teeth. It works for people, animals and insects: Myggen bed mig (The mosquito bit me).",
   "forms": [
    {
     "da": "at bide",
@@ -1303,12 +1303,12 @@
    }
   ],
   "sentence": {
-   "da": "Min hund vil aldrig **bide** dig.",
-   "en": "My dog will never bite you."
+   "da": "Hunden kan **bide** med sine skarpe tænder.",
+   "en": "The dog can bite with its sharp teeth."
   }
  },
  "at binde": {
-  "explanation": "\"At binde\" means \"to tie\" something together or to something: Vi bandt hunden til træet (We tied the dog to the tree). Jeg binder håret op (I tie my hair up).",
+  "explanation": "\"At binde\" means \"to tie\" or \"to bind\": you fasten something with a lace, string or rope so it stays in place. Jeg binder håret op (I tie my hair up).",
   "forms": [
    {
     "da": "at binde",
@@ -1346,8 +1346,8 @@
    }
   ],
   "sentence": {
-   "da": "Han kan ikke **binde** sine sko endnu.",
-   "en": "He cannot tie his shoes yet."
+   "da": "Vi skal **binde** hunden til træet.",
+   "en": "We have to tie the dog to the tree."
   }
  },
  "at binde snørebånd": {
@@ -1588,8 +1588,8 @@
    }
   ],
   "sentence": {
-   "da": "Små børn kan **blive bange**.",
-   "en": "Small children can get scared."
+   "da": "Jeg kan **blive bange**, når det tordner.",
+   "en": "I can get scared when it thunders."
   }
  },
  "at blive enige": {
@@ -1881,8 +1881,8 @@
    }
   ],
   "sentence": {
-   "da": "I dag vil jeg **blive hjemme**.",
-   "en": "Today I want to stay home."
+   "da": "Syge børn skal **blive hjemme**.",
+   "en": "Sick children have to stay home."
   }
  },
  "at blive overrasket": {
@@ -2050,7 +2050,7 @@
   }
  },
  "at blive til": {
-  "explanation": "\"At blive til\" means \"to become\" or \"to turn into\": Larven blev til en sommerfugl (The caterpillar turned into a butterfly). Det blev til en lang aften (It turned into a long evening).",
+  "explanation": "\"At blive til\" means \"to become\" or \"to turn into\": Larven blev til en sommerfugl (The caterpillar turned into a butterfly). Til (into) names what it becomes, while plain blive goes with a description: Han blev træt (He got tired).",
   "forms": [
    {
     "da": "at blive til",
@@ -2424,8 +2424,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne **bo** i et stort hus.",
-   "en": "I would like to live in a big house."
+   "da": "Jeg vil **bo** tæt på skolen.",
+   "en": "I want to live close to the school."
   }
  },
  "at bo sammen": {
@@ -2874,7 +2874,7 @@
   }
  },
  "at bryde et løfte": {
-  "explanation": "\"At bryde et løfte\" means \"to break a promise\": Han brød sit løfte (He broke his promise). Bryde is also used for rules: at bryde en regel (to break a rule).",
+  "explanation": "\"At bryde et løfte\" means \"to break a promise\", so you do not do what you said you would: Han brød sit løfte (He broke his promise). Bryde is also used for rules: at bryde en regel (to break a rule).",
   "forms": [
    {
     "da": "at bryde et løfte",
@@ -3119,8 +3119,8 @@
    }
   ],
   "sentence": {
-   "da": "De vil **bygge** et nyt hus ved søen.",
-   "en": "They want to build a new house by the lake."
+   "da": "Man kan **bygge** et hus af træ.",
+   "en": "You can build a house from wood."
   }
  },
  "at bygge om": {
@@ -3205,8 +3205,8 @@
    }
   ],
   "sentence": {
-   "da": "De vil **bygge på** huset i sommer.",
-   "en": "They want to add on to the house this summer."
+   "da": "Vi vil **bygge på** huset, fordi vi får et barn.",
+   "en": "We want to add on to the house because we are having a baby."
   }
  },
  "at bytte": {
@@ -3249,7 +3249,7 @@
   }
  },
  "at bære": {
-  "explanation": "\"At bære\" means \"to carry\", and also \"to wear\": Hun bærer en taske (She carries a bag). For clothes, Danes often say have på (to have on): Jeg har en jakke på (I am wearing a jacket).",
+  "explanation": "\"At bære\" means \"to carry\", and also \"to wear\": Han bærer en tung kasse (He carries a heavy box). For clothes, Danes often say have på (to have on): Jeg har en jakke på (I am wearing a jacket).",
   "forms": [
    {
     "da": "at bære",
@@ -3288,7 +3288,7 @@
   }
  },
  "at bøje": {
-  "explanation": "\"At bøje\" means \"to bend\": Bøj knæene (Bend your knees). To bend yourself down, add mig, dig or sig: Jeg bøjer mig (I bend down).",
+  "explanation": "\"At bøje\" means \"to bend\", to make something curve or fold: Hun bøjer en ståltråd (She bends a steel wire). To bend yourself down, add mig, dig or sig: Jeg bøjer mig (I bend down).",
   "forms": [
    {
     "da": "at bøje",
@@ -3478,8 +3478,8 @@
    }
   ],
   "sentence": {
-   "da": "Han glemte sine **badebukser** og kan ikke svømme.",
-   "en": "He forgot his swim trunks and cannot swim."
+   "da": "Drenge har **badebukser** på, når de svømmer.",
+   "en": "Boys wear swim trunks when they swim."
   }
  },
  "badetøj": {
@@ -3587,8 +3587,8 @@
    }
   ],
   "sentence": {
-   "da": "Katten sidder **bag** stolen.",
-   "en": "The cat sits behind the chair."
+   "da": "Barnet gemmer sig **bag** træet.",
+   "en": "The child hides behind the tree."
   }
  },
  "bagage": {
@@ -3744,7 +3744,7 @@
   }
  },
  "bagt": {
-  "explanation": "\"Bagt\" means \"baked\", cooked in the oven: Fisken er bagt i ovnen (The fish is baked in the oven). Food cooked in a pan is stegt (fried).",
+  "explanation": "\"Bagt\" means \"baked\", cooked in the oven, the way bread and cake are. Food cooked in a pan is stegt (fried), not bagt.",
   "forms": [
    {
     "da": "en bagt kartoffel",
@@ -3857,7 +3857,7 @@
   }
  },
  "balsam": {
-  "explanation": "\"Balsam\" means \"conditioner\" for hair: Jeg bruger balsam efter shampoo (I use conditioner after shampoo). It makes hair soft and easy to comb.",
+  "explanation": "\"Balsam\" means \"conditioner\" for hair, a cream you rub in after shampoo and rinse out again. Jeg bruger balsam hver dag (I use conditioner every day).",
   "forms": [
    {
     "da": "en balsam",
@@ -3895,8 +3895,8 @@
    }
   ],
   "sentence": {
-   "da": "Brug **balsam** efter shampoo, så bliver håret blødt.",
-   "en": "Use conditioner after shampoo, and your hair becomes soft."
+   "da": "**Balsam** gør håret blødt og let at rede.",
+   "en": "Conditioner makes hair soft and easy to comb."
   }
  },
  "bange": {
@@ -4083,7 +4083,7 @@
   }
  },
  "basketball": {
-  "explanation": "\"Basketball\" means \"basketball\", the sport: Hun er god til basketball (She is good at basketball). The ball itself is en basketball (a basketball).",
+  "explanation": "\"Basketball\" means \"basketball\", the team sport played with a big ball and a high hoop: Hun er god til basketball (She is good at basketball). The ball itself is en basketball (a basketball).",
   "forms": [
    {
     "da": "Jeg spiller basketball",
@@ -4117,8 +4117,8 @@
    }
   ],
   "sentence": {
-   "da": "Min bror elsker **basketball** og spiller hver dag.",
-   "en": "My brother loves basketball and plays every day."
+   "da": "Man kaster bolden i en kurv i **basketball**.",
+   "en": "You throw the ball into a basket in basketball."
   }
  },
  "bedre": {
@@ -4152,8 +4152,8 @@
    }
   ],
   "sentence": {
-   "da": "Din kaffe er **bedre** end min kaffe.",
-   "en": "Your coffee is better than my coffee."
+   "da": "Din nye cykel er **bedre** end den gamle.",
+   "en": "Your new bike is better than the old one."
   }
  },
  "bedre sent end aldrig": {
@@ -4196,7 +4196,7 @@
   }
  },
  "bedst": {
-  "explanation": "\"Bedst\" means \"best\": Det er bedst (It is best). Jeg kan bedst lide kaffe means \"I like coffee best\".",
+  "explanation": "\"Bedst\" means \"best\", the top one of all. It also says what you like most: Jeg kan bedst lide kaffe (I like coffee best).",
   "forms": [
    {
     "da": "den bedste bil",
@@ -4270,7 +4270,7 @@
   }
  },
  "bedsteforældre": {
-  "explanation": "\"Bedsteforældre\" means \"grandparents\", grandmother and grandfather together. It is built from bedste (best) and forældre (parents). To say which one, use words like mormor (mother's mother) and farfar (father's father).",
+  "explanation": "\"Bedsteforældre\" means \"grandparents\", the parents of your mother and father taken together. It is built from bedste (best) and forældre (parents).",
   "forms": [
    {
     "da": "mine bedsteforældre",
@@ -4383,7 +4383,7 @@
   }
  },
  "beige": {
-  "explanation": "\"Beige\" means \"beige\", a light sandy color: Min sofa er beige (My sofa is beige). Sandet på stranden er beige (The sand on the beach is beige).",
+  "explanation": "\"Beige\" means \"beige\", a light sandy color between white and brown: Min sofa er beige (My sofa is beige).",
   "forms": [
    {
     "da": "en beige jakke",
@@ -4417,8 +4417,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun har en **beige** jakke på.",
-   "en": "She is wearing a beige jacket."
+   "da": "Sandet på stranden er **beige**.",
+   "en": "The sand on the beach is beige."
   }
  },
  "bekendt": {
@@ -4569,8 +4569,8 @@
    }
   ],
   "sentence": {
-   "da": "Pakken er **beskadiget**, så jeg sender den tilbage.",
-   "en": "The package is damaged, so I am sending it back."
+   "da": "Bilen er **beskadiget** efter ulykken.",
+   "en": "The car is damaged after the accident."
   }
  },
  "beskeden": {
@@ -4643,8 +4643,8 @@
    }
   ],
   "sentence": {
-   "da": "Min jakke er meget **beskidt**.",
-   "en": "My jacket is very dirty."
+   "da": "Man bliver **beskidt** af at lege i mudder.",
+   "en": "You get dirty from playing in mud."
   }
  },
  "beskyttelse": {
@@ -4760,8 +4760,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiser med **bestik**: kniv, gaffel og ske.",
-   "en": "We eat with cutlery: knife, fork and spoon."
+   "da": "Jeg lægger **bestik** og tallerkener på bordet.",
+   "en": "I put cutlery and plates on the table."
   }
  },
  "bevidsthed": {
@@ -4986,8 +4986,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er **blandt** de bedste i klassen.",
-   "en": "He is among the best in the class."
+   "da": "Katten gemmer sig **blandt** blomsterne.",
+   "en": "The cat hides among the flowers."
   }
  },
  "blandt andet": {
@@ -5182,7 +5182,7 @@
   }
  },
  "blond": {
-  "explanation": "\"Blond\" means \"blond\", for hair and for the person: Han har blondt hår (He has blond hair). Hun er blond (She is blond).",
+  "explanation": "\"Blond\" means \"blond\", a light yellow hair color. It describes the hair itself or the person who has it: et blondt hår (blond hair), Hun er blond (She is blond).",
   "forms": [
    {
     "da": "en blond pige",
@@ -5221,7 +5221,7 @@
   }
  },
  "blot": {
-  "explanation": "\"Blot\" means \"merely\" or \"just\": Jeg ville blot hjælpe (I merely wanted to help). It also shows up in wishes: Havde jeg blot vidst det! (If only I had known!).",
+  "explanation": "\"Blot\" means \"merely\" or \"just\". It is a slightly formal word, mostly seen in writing. It also appears in wishes: Havde jeg blot vidst det! (If only I had known!).",
   "forms": [
    {
     "da": "Det tager blot et minut.",
@@ -5330,7 +5330,7 @@
   }
  },
  "blæst": {
-  "explanation": "\"Blæst\" means \"wind\" and is used for blowing weather: Der er meget blæst i dag (There is a lot of wind today). Hatten fløj af i blæsten (The hat flew off in the wind).",
+  "explanation": "\"Blæst\" means \"wind\", the blowing you feel outdoors, usually strong. It is the weather itself, not a single gust: Hatten fløj af i blæsten (The hat flew off in the wind).",
   "forms": [
    {
     "da": "meget blæst",
@@ -5443,7 +5443,7 @@
   }
  },
  "bortset fra": {
-  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\". Det er godt, bortset fra prisen (It is good, apart from the price). Vi har åbent hver dag, bortset fra søndag (We are open every day except Sunday).",
+  "explanation": "\"Bortset fra\" means \"apart from\" or \"except\". It names the one person or thing that does not fit what you just said: Det er godt, bortset fra prisen (It is good, apart from the price).",
   "forms": [
    {
     "da": "bortset fra mig",
@@ -5618,7 +5618,7 @@
   }
  },
  "broccoli": {
-  "explanation": "\"Broccoli\" means \"broccoli\". For an amount, say noget broccoli (some broccoli).",
+  "explanation": "\"Broccoli\" means \"broccoli\", a green vegetable that is usually boiled or steamed and served with a meal. For an amount, say noget broccoli (some broccoli).",
   "forms": [
    {
     "da": "en broccoli",
@@ -5906,7 +5906,7 @@
   }
  },
  "både…og": {
-  "explanation": "\"Både … og\" means \"both … and\". Compare Hun taler dansk og engelsk (She speaks Danish and English) with Hun taler både dansk og engelsk (She speaks both Danish and English). Både goes before the first thing, and og goes before the second.",
+  "explanation": "\"Både … og\" means \"both … and\". Både goes before the first thing and og goes before the second. It joins two things of the same kind: Både Peter og Maria kommer (Both Peter and Maria are coming).",
   "forms": [
    {
     "da": "både jeg og min bror",
@@ -6495,7 +6495,7 @@
   }
  },
  "en baguette": {
-  "explanation": "\"En baguette\" means \"a baguette\", a long, thin loaf of French bread with a crisp crust: Jeg køber en baguette hos bageren (I buy a baguette at the baker's).",
+  "explanation": "\"En baguette\" means \"a baguette\", the long French bread with a crisp crust. You find it at the baker's: Jeg køber en baguette hos bageren (I buy a baguette at the baker's).",
   "forms": [
    {
     "da": "en baguette",
@@ -6529,8 +6529,8 @@
    }
   ],
   "sentence": {
-   "da": "Til suppen spiser vi en varm **baguette**.",
-   "en": "With the soup we eat a warm baguette."
+   "da": "En **baguette** er et langt, tyndt brød fra Frankrig.",
+   "en": "A baguette is a long, thin bread from France."
   }
  },
  "en bakke": {
@@ -6650,12 +6650,12 @@
    }
   ],
   "sentence": {
-   "da": "Vi drikker kaffe på vores **balkon** om morgenen.",
-   "en": "We drink coffee on our balcony in the morning."
+   "da": "Vores lejlighed har en lille **balkon** mod gaden.",
+   "en": "Our apartment has a small balcony facing the street."
   }
  },
  "en ballon": {
-  "explanation": "\"En ballon\" means \"a balloon\". To blow one up you say at puste en ballon op (to blow up a balloon).",
+  "explanation": "\"En ballon\" means \"a balloon\", a thin rubber bag. To blow one up you say at puste en ballon op (to blow up a balloon).",
   "forms": [
    {
     "da": "en ballon",
@@ -6689,8 +6689,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet slipper en **ballon** op i luften.",
-   "en": "The child lets a balloon go up into the air."
+   "da": "En **ballon** er fuld af luft.",
+   "en": "A balloon is full of air."
   }
  },
  "en bamse": {
@@ -7329,8 +7329,8 @@
    }
   ],
   "sentence": {
-   "da": "Det var en god **begyndelse** på dagen.",
-   "en": "That was a good beginning to the day."
+   "da": "Et eventyr har en **begyndelse** og en slutning.",
+   "en": "A fairy tale has a beginning and an ending."
   }
  },
  "en begynder": {
@@ -7610,12 +7610,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg sender dig en **besked** i dag.",
-   "en": "I am sending you a message today."
+   "da": "Jeg har en **besked** til dig fra Anna.",
+   "en": "I have a message for you from Anna."
   }
  },
  "en beslutning": {
-  "explanation": "\"En beslutning\" means \"a decision\": Det var en svær beslutning (That was a hard decision). To make one, use at træffe (to make): Vi træffer en beslutning (We make a decision).",
+  "explanation": "\"En beslutning\" means \"a decision\", a choice you make after thinking. To make one, use at træffe (to make): Vi træffer en beslutning (We make a decision).",
   "forms": [
    {
     "da": "en beslutning",
@@ -7649,8 +7649,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal træffe en **beslutning** i dag.",
-   "en": "We have to make a decision today."
+   "da": "Det var en svær **beslutning** at flytte til udlandet.",
+   "en": "It was a hard decision to move abroad."
   }
  },
  "en bestilling": {
@@ -7779,7 +7779,7 @@
   }
  },
  "en betjent": {
-  "explanation": "\"En betjent\" means \"a police officer\": Betjenten spurgte om vores pas (The officer asked for our passports).",
+  "explanation": "\"En betjent\" means \"a police officer\", a person who works for the police and keeps order. Betjenten spurgte om vores pas (The officer asked for our passports).",
   "forms": [
    {
     "da": "en betjent",
@@ -7813,8 +7813,8 @@
    }
   ],
   "sentence": {
-   "da": "En **betjent** hjalp os med at finde vej.",
-   "en": "A police officer helped us find the way."
+   "da": "En **betjent** arbejder for politiet og holder styr på trafikken.",
+   "en": "A police officer works for the police and controls traffic."
   }
  },
  "en betydning": {
@@ -7896,7 +7896,7 @@
   }
  },
  "en bh": {
-  "explanation": "\"En bh\" means \"a bra\": Jeg skal købe en ny bh (I need to buy a new bra). Hun har en hvid bh på (She is wearing a white bra).",
+  "explanation": "\"En bh\" means \"a bra\", a piece of underwear that supports the breasts. In writing it is just the two letters bh.",
   "forms": [
    {
     "da": "en bh",
@@ -7930,8 +7930,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun køber en ny **bh** i butikken.",
-   "en": "She buys a new bra at the store."
+   "da": "En **bh** er en slags undertøj til kvinder.",
+   "en": "A bra is a kind of underwear for women."
   }
  },
  "en bi": {
@@ -8094,8 +8094,8 @@
    }
   ],
   "sentence": {
-   "da": "Min far kører i sin røde **bil**.",
-   "en": "My dad drives in his red car."
+   "da": "En **bil** har fire hjul og en motor.",
+   "en": "A car has four wheels and an engine."
   }
  },
  "en bilist": {
@@ -8591,7 +8591,7 @@
   }
  },
  "en ble": {
-  "explanation": "\"En ble\" means a diaper (a nappy in British English). At skifte ble means to change a diaper.",
+  "explanation": "\"En ble\" means \"a diaper\", the soft pad a baby wears under its clothes. In British English it is a nappy. At skifte ble means to change a diaper.",
   "forms": [
    {
     "da": "en ble",
@@ -8612,8 +8612,8 @@
   ],
   "related": [
    {
-    "da": "en baby",
-    "en": "a baby"
+    "da": "en barnevogn",
+    "en": "a stroller"
    },
    {
     "da": "en sut",
@@ -8747,7 +8747,7 @@
   }
  },
  "en blomme": {
-  "explanation": "\"En blomme\" means \"a plum\". Do not mix it up with en blomst (a flower): Jeg spiser en blomme, men jeg køber en blomst (I eat a plum, but I buy a flower).",
+  "explanation": "\"En blomme\" means \"a plum\", a soft sweet fruit with a stone inside. Do not mix it up with en blomst (a flower): Jeg spiser en blomme, men jeg køber en blomst (I eat a plum, but I buy a flower).",
   "forms": [
    {
     "da": "en blomme",
@@ -8868,7 +8868,7 @@
   }
  },
  "en blyant": {
-  "explanation": "\"En blyant\" means \"a pencil\". At spidse en blyant means \"to sharpen a pencil\".",
+  "explanation": "\"En blyant\" means \"a pencil\", a thin wooden writing tool with a gray core that you can erase. When the tip gets dull, you say at spidse en blyant (to sharpen a pencil).",
   "forms": [
    {
     "da": "en blyant",
@@ -8950,7 +8950,7 @@
   }
  },
  "en bog": {
-  "explanation": "\"En bog\" means \"a book\". Notice that o becomes ø in the plural: to bøger (two books).",
+  "explanation": "\"En bog\" means \"a book\", something you read, from a novel to a school book. The plural changes the vowel: to bøger (two books).",
   "forms": [
    {
     "da": "en bog",
@@ -8984,8 +8984,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg læser en god **bog**.",
-   "en": "I am reading a good book."
+   "da": "Man kan låne en **bog** på biblioteket.",
+   "en": "You can borrow a book at the library."
   }
  },
  "en boghandel": {
@@ -9071,7 +9071,7 @@
   }
  },
  "en bold": {
-  "explanation": "\"En bold\" means \"a ball\". Danes say at spille bold (to play ball).",
+  "explanation": "\"En bold\" means \"a ball\", a round thing used in sports and games. To play with one, say at spille bold (to play ball): Børnene spiller bold i haven (The children play ball in the garden).",
   "forms": [
    {
     "da": "en bold",
@@ -9109,8 +9109,8 @@
    }
   ],
   "sentence": {
-   "da": "Barnet kaster en rund **bold** til sin far.",
-   "en": "The child throws a round ball to their father."
+   "da": "Man kan sparke og kaste en **bold**.",
+   "en": "You can kick and throw a ball."
   }
  },
  "en bolig": {
@@ -9601,8 +9601,8 @@
    }
   ],
   "sentence": {
-   "da": "Der er en **brandalarm** på gangen.",
-   "en": "There is a fire alarm in the hallway."
+   "da": "En **brandalarm** ringer højt, når der er røg.",
+   "en": "A fire alarm rings loudly when there is smoke."
   }
  },
  "en brandbil": {
@@ -9683,8 +9683,8 @@
    }
   ],
   "sentence": {
-   "da": "En **brandmand** kom med en stige.",
-   "en": "A firefighter came with a ladder."
+   "da": "En **brandmand** redder folk fra et brændende hus.",
+   "en": "A firefighter rescues people from a burning house."
   }
  },
  "en brandslukker": {
@@ -9727,7 +9727,7 @@
   }
  },
  "en brandstation": {
-  "explanation": "\"En brandstation\" means \"a fire station\", built from brand (fire) and station (station): Brandstationen ligger ved siden af skolen (The fire station is next to the school).",
+  "explanation": "\"En brandstation\" means \"a fire station\", the building where firefighters and their trucks wait for emergency calls. It is built from brand (fire) and station (station).",
   "forms": [
    {
     "da": "en brandstation",
@@ -9766,7 +9766,7 @@
   }
  },
  "en bredde": {
-  "explanation": "\"En bredde\" means \"a width\": Kan du måle bredden på bordet? (Can you measure the width of the table?) Længde og bredde (length and width) are often said together.",
+  "explanation": "\"En bredde\" means \"a width\", how far something measures from side to side. Length and width are often said together: længde og bredde (length and width).",
   "forms": [
    {
     "da": "en bredde",
@@ -9852,7 +9852,7 @@
   }
  },
  "en brevsprække": {
-  "explanation": "\"En brevsprække\" means \"a mail slot\", the opening in a door where the mail comes through: Posten kommer ind gennem brevsprækken (The mail comes in through the mail slot).",
+  "explanation": "\"En brevsprække\" means \"a mail slot\", the narrow opening in a door with a flap, where the mail is pushed through. It is built from brev (letter) and sprække (slit).",
   "forms": [
    {
     "da": "en brevsprække",
@@ -9873,25 +9873,21 @@
   ],
   "related": [
    {
-    "da": "et brev",
-    "en": "a letter"
-   },
-   {
     "da": "en postkasse",
     "en": "a mailbox"
    },
    {
-    "da": "en sprække",
-    "en": "a crack / slit"
-   },
-   {
     "da": "en brevkasse",
     "en": "a letter box"
+   },
+   {
+    "da": "et postbud",
+    "en": "a mail carrier"
    }
   ],
   "sentence": {
-   "da": "Postbuddet puttede et brev ind gennem en **brevsprække**.",
-   "en": "The mail carrier pushed a letter in through a mail slot."
+   "da": "Posten falder på gulvet gennem en **brevsprække**.",
+   "en": "The mail falls onto the floor through a mail slot."
   }
  },
  "en bro": {
@@ -10011,12 +10007,12 @@
    }
   ],
   "sentence": {
-   "da": "Min mor har mig og min **bror**.",
-   "en": "My mother has me and my brother."
+   "da": "Min **bror** og jeg har samme mor.",
+   "en": "My brother and I have the same mother."
   }
  },
  "en brownie": {
-  "explanation": "\"En brownie\" means \"a brownie\", a small, dense chocolate cake: En brownie med vaniljeis er lækker (A brownie with vanilla ice cream is delicious).",
+  "explanation": "\"En brownie\" means \"a brownie\", a small, dense chocolate cake that is cut into squares. It is often served warm: En brownie med vaniljeis er lækker (A brownie with vanilla ice cream is delicious).",
   "forms": [
    {
     "da": "en brownie",
@@ -10054,8 +10050,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg bager en **brownie** med nødder.",
-   "en": "I am baking a brownie with nuts."
+   "da": "En **brownie** er en kage med meget chokolade.",
+   "en": "A brownie is a cake with a lot of chocolate."
   }
  },
  "en browser": {
@@ -10457,7 +10453,7 @@
   }
  },
  "en brødkurv": {
-  "explanation": "\"En brødkurv\" means \"a bread basket\". It is built from brød (bread) and kurv (basket): Brødet ligger i brødkurven (The bread is in the bread basket).",
+  "explanation": "\"En brødkurv\" means \"a bread basket\", a basket for bread or rolls that stands on the table at a meal. It is built from brød (bread) and kurv (basket).",
   "forms": [
    {
     "da": "en brødkurv",
@@ -10491,8 +10487,8 @@
    }
   ],
   "sentence": {
-   "da": "Tjeneren stiller en **brødkurv** på bordet.",
-   "en": "The waiter puts a bread basket on the table."
+   "da": "Vi lægger brødet i en **brødkurv**.",
+   "en": "We put the bread in a bread basket."
   }
  },
  "en brødrister": {
@@ -10534,8 +10530,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg putter to skiver brød i min **brødrister**.",
-   "en": "I put two slices of bread in my toaster."
+   "da": "En **brødrister** gør brødet varmt og sprødt.",
+   "en": "A toaster makes the bread warm and crispy."
   }
  },
  "en brøk": {
@@ -10577,12 +10573,12 @@
    }
   ],
   "sentence": {
-   "da": "Læreren viser os en **brøk** på tavlen.",
-   "en": "The teacher shows us a fraction on the board."
+   "da": "En fjerdedel af en pizza er en **brøk**.",
+   "en": "A quarter of a pizza is a fraction."
   }
  },
  "en buffet": {
-  "explanation": "\"En buffet\" means \"a buffet\". Jeg tager mad fra buffeten means \"I take food from the buffet\".",
+  "explanation": "\"En buffet\" means \"a buffet\", a long table with many dishes where you serve yourself. A hotel often has one for breakfast, usually for one fixed price.",
   "forms": [
    {
     "da": "en buffet",
@@ -10621,7 +10617,7 @@
   }
  },
  "en bund": {
-  "explanation": "\"En bund\" means \"a bottom\", the lowest part of something: Der er kaffe i bunden af koppen (There is coffee at the bottom of the cup). It is also the base of a pie: en tærtebund (a pie crust).",
+  "explanation": "\"En bund\" means \"a bottom\", the lowest part of something, such as a pan, a box or the sea. It is also the base of a pie: en tærtebund (a pie crust).",
   "forms": [
    {
     "da": "en bund",
@@ -10659,12 +10655,12 @@
    }
   ],
   "sentence": {
-   "da": "Kassen har en tynd **bund**.",
-   "en": "The box has a thin bottom."
+   "da": "En kop har en flad **bund**.",
+   "en": "A cup has a flat bottom."
   }
  },
  "en bunke": {
-  "explanation": "\"En bunke\" means \"a pile\", things lying on top of each other in a loose heap: en bunke tøj (a pile of clothes). It also means \"a lot\": en bunke penge (a lot of money). Compare with en stak (a stack), which is neat.",
+  "explanation": "\"En bunke\" means \"a pile\", things lying on top of each other in a loose heap: en bunke tøj (a pile of clothes). It also means \"a lot\": en bunke penge (a lot of money).",
   "forms": [
    {
     "da": "en bunke",
@@ -10702,12 +10698,12 @@
    }
   ],
   "sentence": {
-   "da": "Der ligger en stor **bunke** tøj på gulvet.",
-   "en": "There is a big pile of clothes on the floor."
+   "da": "En **bunke** er rodet, men en stak er pæn.",
+   "en": "A pile is messy, but a stack is neat."
   }
  },
  "en burger": {
-  "explanation": "\"En burger\" means \"a burger\", a patty of meat in a bun. A vegetarian one is en vegetarburger (a vegetarian burger).",
+  "explanation": "\"En burger\" means \"a burger\", a patty of meat in a bun, usually with salad and sauce. A vegetarian one is en vegetarburger (a vegetarian burger).",
   "forms": [
    {
     "da": "en burger",
@@ -10741,8 +10737,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en **burger**.",
-   "en": "I would like a burger."
+   "da": "En **burger** er kød mellem to stykker brød.",
+   "en": "A burger is meat between two pieces of bread."
   }
  },
  "en bus": {
@@ -10780,12 +10776,12 @@
    }
   ],
   "sentence": {
-   "da": "Vi kører med **bus** til skolen.",
-   "en": "We travel by bus to school."
+   "da": "En **bus** har plads til mange mennesker.",
+   "en": "A bus has room for many people."
   }
  },
  "en busbillet": {
-  "explanation": "\"En busbillet\" means \"a bus ticket\", built from bus (bus) and billet (ticket).",
+  "explanation": "\"En busbillet\" means \"a bus ticket\", the ticket for riding the bus. It is built from bus (bus) and billet (ticket).",
   "forms": [
    {
     "da": "en busbillet",
@@ -10823,8 +10819,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg køber en **busbillet** til bussen.",
-   "en": "I buy a bus ticket for the bus."
+   "da": "Du skal bruge en **busbillet** i bussen.",
+   "en": "You need a bus ticket on the bus."
   }
  },
  "en buschauffør": {
@@ -10862,12 +10858,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spørger en **buschauffør** om vej.",
-   "en": "I ask a bus driver for directions."
+   "da": "En **buschauffør** kører bussen hele dagen.",
+   "en": "A bus driver drives the bus all day."
   }
  },
  "en busk": {
-  "explanation": "\"En busk\" means \"a bush\", a plant with many stems close to the ground: Der er en busk ved huset (There is a bush by the house). Fuglen gemmer sig i busken (The bird hides in the bush).",
+  "explanation": "\"En busk\" means \"a bush\", a plant with many stems growing close to the ground, lower than a tree: Der er en busk ved huset (There is a bush by the house).",
   "forms": [
    {
     "da": "en busk",
@@ -10905,8 +10901,8 @@
    }
   ],
   "sentence": {
-   "da": "Der sidder en lille fugl i en **busk**.",
-   "en": "A small bird is sitting in a bush."
+   "da": "Bærrene vokser på en **busk**.",
+   "en": "The berries grow on a bush."
   }
  },
  "en butik": {
@@ -11143,8 +11139,8 @@
    }
   ],
   "sentence": {
-   "da": "Han arbejder på en **byggeplads** i byen.",
-   "en": "He works on a construction site in the city."
+   "da": "De bygger et nyt hus på en **byggeplads**.",
+   "en": "They are building a new house on a construction site."
   }
  },
  "en båd": {
@@ -11187,7 +11183,7 @@
   }
  },
  "en bæltetaske": {
-  "explanation": "\"En bæltetaske\" means \"a fanny pack\", a small bag worn around the waist: Jeg har pas og penge i min bæltetaske (I have my passport and money in my fanny pack).",
+  "explanation": "\"En bæltetaske\" means \"a fanny pack\", a small zipped bag that you wear on a belt, handy when you travel: Jeg har pas og penge i min bæltetaske (I have my passport and money in my fanny pack).",
   "forms": [
    {
     "da": "en bæltetaske",
@@ -11225,8 +11221,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun har sine nøgler i en **bæltetaske**.",
-   "en": "She has her keys in a fanny pack."
+   "da": "Hun bærer en lille **bæltetaske** om livet.",
+   "en": "She carries a small fanny pack around her waist."
   }
  },
  "en bænk": {
@@ -11381,8 +11377,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en **bøf** med kartofler.",
-   "en": "I would like a steak with potatoes."
+   "da": "Han steger en **bøf** på panden.",
+   "en": "He is frying a steak in the pan."
   }
  },
  "en bøjle": {
@@ -11792,7 +11788,7 @@
   }
  },
  "et bageri": {
-  "explanation": "\"Et bageri\" means \"a bakery\". To buy something there, you can say Jeg vil gerne have et rundstykke (I would like a bread roll).",
+  "explanation": "\"Et bageri\" means \"a bakery\", a shop that bakes and sells bread and cakes. To order there, say Jeg vil gerne have et rundstykke (I would like a bread roll).",
   "forms": [
    {
     "da": "et bageri",
@@ -11943,8 +11939,8 @@
    }
   ],
   "sentence": {
-   "da": "Min mormor elsker sit nye **barnebarn**.",
-   "en": "My grandmother loves her new grandchild."
+   "da": "Min datters barn er mit **barnebarn**.",
+   "en": "My daughter's child is my grandchild."
   }
  },
  "et batteri": {
@@ -12146,8 +12142,8 @@
    }
   ],
   "sentence": {
-   "da": "Han har brækket sit **ben**.",
-   "en": "He has broken his leg."
+   "da": "En hund har fire **ben**.",
+   "en": "A dog has four legs."
   }
  },
  "et besøg": {
@@ -12268,7 +12264,7 @@
   }
  },
  "et bibliotek": {
-  "explanation": "\"Et bibliotek\" means \"a library\". You say at låne en bog på biblioteket (to borrow a book at the library).",
+  "explanation": "\"Et bibliotek\" means \"a library\", a public place with shelves of books, newspapers and computers, where you can read or study. Many also lend films and music: Jeg er på biblioteket (I am at the library).",
   "forms": [
    {
     "da": "et bibliotek",
@@ -12384,8 +12380,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tager et **billede** af dig.",
-   "en": "I am taking a picture of you."
+   "da": "Hun maler et **billede** af havet.",
+   "en": "She paints a picture of the sea."
   }
  },
  "et bjerg": {
@@ -12470,8 +12466,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg læser et **blad** på toget.",
-   "en": "I read a magazine on the train."
+   "da": "Jeg køber et **blad** med opskrifter og billeder.",
+   "en": "I buy a magazine with recipes and pictures."
   }
  },
  "et blik": {
@@ -12595,8 +12591,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg spiser **blåbær** med mælk om morgenen.",
-   "en": "I eat blueberries with milk in the morning."
+   "da": "**Blåbær** er små, runde og blå.",
+   "en": "Blueberries are small, round and blue."
   }
  },
  "et boardingpas": {
@@ -12720,8 +12716,8 @@
    }
   ],
   "sentence": {
-   "da": "Bogen ligger på et **bord**.",
-   "en": "The book is lying on a table."
+   "da": "Vi spiser ved et **bord** med fire stole.",
+   "en": "We eat at a table with four chairs."
   }
  },
  "et brev": {
@@ -12759,8 +12755,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skriver et **brev** til min mor.",
-   "en": "I write a letter to my mother."
+   "da": "Jeg sætter et frimærke på mit **brev**.",
+   "en": "I put a stamp on my letter."
   }
  },
  "et brugernavn": {
@@ -12841,12 +12837,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg tager altid et **brusebad** om morgenen.",
-   "en": "I always take a shower in the morning."
+   "da": "Efter et **brusebad** er jeg ren og frisk.",
+   "en": "After a shower I am clean and fresh."
   }
  },
  "et bruseforhæng": {
-  "explanation": "\"Et bruseforhæng\" means \"a shower curtain\". It is built from bruse (to shower) and forhæng (curtain): Bruseforhænget holder vandet inde i badet (The shower curtain keeps the water inside the shower).",
+  "explanation": "\"Et bruseforhæng\" means \"a shower curtain\", a plastic or cloth curtain on a rail that you pull across the shower. It is built from bruse (to shower) and forhæng (curtain).",
   "forms": [
    {
     "da": "et bruseforhæng",
@@ -12884,8 +12880,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal købe et nyt **bruseforhæng** til badeværelset.",
-   "en": "We need to buy a new shower curtain for the bathroom."
+   "da": "Et **bruseforhæng** holder vandet inde i badet.",
+   "en": "A shower curtain keeps the water inside the shower."
   }
  },
  "et bryllup": {
@@ -12927,8 +12923,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi skal til **bryllup** i dag.",
-   "en": "We are going to a wedding today."
+   "da": "Til et **bryllup** bærer bruden en hvid kjole.",
+   "en": "At a wedding, the bride wears a white dress."
   }
  },
  "et bryst": {
@@ -13048,8 +13044,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi spiller et **brætspil** om aftenen.",
-   "en": "We play a board game in the evening."
+   "da": "I et **brætspil** flytter man brikker rundt på brættet.",
+   "en": "In a board game you move pieces around on the board."
   }
  },
  "et budget": {
@@ -13174,7 +13170,7 @@
   }
  },
  "et bælte": {
-  "explanation": "\"Et bælte\" means \"a belt\". Et sikkerhedsbælte (a seat belt) is built on the same word, from sikkerhed (safety).",
+  "explanation": "\"Et bælte\" means \"a belt\", a strap you wear around your waist, usually to hold up trousers. Et sikkerhedsbælte (a seat belt) is built on the same word, from sikkerhed (safety).",
   "forms": [
    {
     "da": "et bælte",
@@ -13208,8 +13204,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har et sort **bælte** på.",
-   "en": "I am wearing a black belt."
+   "da": "Et **bælte** holder bukserne oppe.",
+   "en": "A belt holds the trousers up."
   }
  },
  "et bær": {
@@ -13251,8 +13247,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg plukker et **bær** fra busken og spiser det.",
-   "en": "I pick a berry from the bush and eat it."
+   "da": "Et **bær** vokser på en busk og er ofte sødt.",
+   "en": "A berry grows on a bush and is often sweet."
   }
  },
  "et børneværelse": {

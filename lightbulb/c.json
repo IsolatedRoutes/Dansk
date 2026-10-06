@@ -311,8 +311,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg skærer en **chili** i små stykker.",
-   "en": "I cut a chili into small pieces."
+   "da": "**Chili** er lille og meget stærk.",
+   "en": "Chili is small and very hot."
   }
  },
  "chips": {
@@ -530,7 +530,7 @@
   }
  },
  "creme": {
-  "explanation": "\"En creme\" means \"cream\" for your skin: Jeg bruger creme på hænderne (I use cream on my hands). For cream in coffee or cooking, say fløde (cream) instead.",
+  "explanation": "\"En creme\" means \"cream\" for your skin, for example for dry skin or after the sun. For cream in coffee or cooking, say fløde (cream) instead.",
   "forms": [
    {
     "da": "en creme",
@@ -608,7 +608,7 @@
   }
  },
  "cykling": {
-  "explanation": "\"Cykling\" means \"cycling\" as an activity or sport: Jeg elsker cykling (I love cycling). To say what you are doing, use at cykle (to cycle): Jeg cykler (I am cycling).",
+  "explanation": "\"Cykling\" means \"cycling\" as an activity or sport: Cykling er sundt (Cycling is healthy). To say what you are doing, use at cykle (to cycle): Jeg cykler (I am cycling).",
   "forms": [
    {
     "da": "cykling",
@@ -716,8 +716,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi bor på en **campingplads** tæt på stranden.",
-   "en": "We stay at a campsite close to the beach."
+   "da": "På en **campingplads** kan man sove i telt.",
+   "en": "On a campsite you can sleep in a tent."
   }
  },
  "en cardigan": {
@@ -924,7 +924,7 @@
   }
  },
  "en chance": {
-  "explanation": "\"En chance\" means \"a chance\", both an opportunity and how likely something is: Jeg fik en chance (I got a chance). Hun har en god chance for at vinde (She has a good chance of winning).",
+  "explanation": "\"En chance\" means \"a chance\", both an opportunity, as in Jeg fik en chance (I got a chance), and how likely something is. The same word covers both ideas.",
   "forms": [
    {
     "da": "en chance",
@@ -962,8 +962,8 @@
    }
   ],
   "sentence": {
-   "da": "Du får en ny **chance** i morgen.",
-   "en": "You get a new chance tomorrow."
+   "da": "Hun har en god **chance** for at vinde.",
+   "en": "She has a good chance of winning."
   }
  },
  "en chauffør": {
@@ -1006,7 +1006,7 @@
   }
  },
  "en cheesecake": {
-  "explanation": "\"En cheesecake\" means \"a cheesecake\". Order it like this at a café: Jeg vil gerne have et stykke cheesecake (I would like a piece of cheesecake).",
+  "explanation": "\"En cheesecake\" means \"a cheesecake\", a creamy cake made with soft cheese on a crumbly base. It is a popular dessert and café treat, often sold by the slice.",
   "forms": [
    {
     "da": "en cheesecake",
@@ -1044,8 +1044,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have **cheesecake** til dessert.",
-   "en": "I would like cheesecake for dessert."
+   "da": "**Cheesecake** laves af flødeost og æg.",
+   "en": "Cheesecake is made of cream cheese and eggs."
   }
  },
  "en chef": {
@@ -1083,8 +1083,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg arbejder for min **chef** hver dag.",
-   "en": "I work for my boss every day."
+   "da": "Min **chef** bestemmer på kontoret.",
+   "en": "My boss makes the decisions at the office."
   }
  },
  "en chokoladekage": {
@@ -1126,8 +1126,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg elsker **chokoladekage** med vaniljeis.",
-   "en": "I love chocolate cake with vanilla ice cream."
+   "da": "En **chokoladekage** bages med kakao og smør.",
+   "en": "A chocolate cake is baked with cocoa and butter."
   }
  },
  "en cigaret": {
@@ -1170,7 +1170,7 @@
   }
  },
  "en cirkel": {
-  "explanation": "\"En cirkel\" means \"a circle\": Tegn en cirkel (Draw a circle). People also sit in one: Vi sidder i en cirkel (We sit in a circle). For a round 3D shape, use en kugle (a ball).",
+  "explanation": "\"En cirkel\" means \"a circle\", a perfectly round flat shape. People also sit in one: Vi sidder i en cirkel (We sit in a circle). For a round 3D shape, use en kugle (a ball).",
   "forms": [
    {
     "da": "en cirkel",
@@ -1208,8 +1208,8 @@
    }
   ],
   "sentence": {
-   "da": "Børnene sidder i en **cirkel** på gulvet.",
-   "en": "The children sit in a circle on the floor."
+   "da": "En **cirkel** er rund og har ingen hjørner.",
+   "en": "A circle is round and has no corners."
   }
  },
  "en citron": {
@@ -1377,7 +1377,7 @@
   }
  },
  "en container": {
-  "explanation": "\"En container\" means \"a container\", usually a big metal one for waste or shipping: Skraldet kommer i en container (The garbage goes in a container). For a small one for food, say en beholder (a food container).",
+  "explanation": "\"En container\" means \"a container\", usually a big metal box for waste or for shipping goods. For a small one for food, say en beholder (a food container).",
   "forms": [
    {
     "da": "en container",
@@ -1489,8 +1489,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kører på **cykel** til skole.",
-   "en": "I ride a bike to school."
+   "da": "En **cykel** har to hjul.",
+   "en": "A bicycle has two wheels."
   }
  },
  "en cykelhandler": {
@@ -1533,7 +1533,7 @@
   }
  },
  "en cykelhjelm": {
-  "explanation": "\"En cykelhjelm\" means \"a bike helmet\". To wear it, say have på (wear), and to put it on, say tage på: Tag din cykelhjelm på, før du cykler (Put on your bike helmet before you ride).",
+  "explanation": "\"En cykelhjelm\" means \"a bike helmet\", a hard cap you wear while riding. To wear it, say have på (wear), and to put it on, say tage på: Tag din cykelhjelm på (Put on your bike helmet).",
   "forms": [
    {
     "da": "en cykelhjelm",
@@ -1567,8 +1567,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har altid min **cykelhjelm** på.",
-   "en": "I always wear my bike helmet."
+   "da": "En **cykelhjelm** beskytter dit hoved.",
+   "en": "A bike helmet protects your head."
   }
  },
  "en cykellås": {
@@ -2090,8 +2090,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søn spiller **computerspil**, men han læser også.",
-   "en": "My son plays computer games, but he also reads."
+   "da": "I et **computerspil** styrer man en figur på skærmen.",
+   "en": "In a computer game you control a character on the screen."
   }
  },
  "et cpr-nummer": {

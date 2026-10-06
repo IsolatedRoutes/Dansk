@@ -1,6 +1,6 @@
 {
  "at danse": {
-  "explanation": "\"At danse\" means \"to dance\": Vil du danse? (Do you want to dance?). To say who with, use med (with): Jeg danser med Anna (I dance with Anna).",
+  "explanation": "\"At danse\" means \"to dance\", to move to music alone or with a partner: Vil du danse? (Do you want to dance?) To say who with, use med (with): Jeg danser med Anna (I dance with Anna).",
   "forms": [
    {
     "da": "at danse",
@@ -207,7 +207,7 @@
   }
  },
  "at designe": {
-  "explanation": "\"At designe\" means \"to design\": Hun designer smykker (She designs jewelry). Han designede en ny stol (He designed a new chair).",
+  "explanation": "\"At designe\" means \"to design\", to plan how something will look and work before it is made: Hun designer smykker (She designs jewelry).",
   "forms": [
    {
     "da": "at designe",
@@ -245,8 +245,8 @@
    }
   ],
   "sentence": {
-   "da": "Min søster elsker at **designe** tøj.",
-   "en": "My sister loves to design clothes."
+   "da": "Arkitekten skal **designe** et nyt hus.",
+   "en": "The architect is going to design a new house."
   }
  },
  "at diskutere": {
@@ -370,8 +370,8 @@
    }
   ],
   "sentence": {
-   "da": "Du kan **downloade** appen gratis.",
-   "en": "You can download the app for free."
+   "da": "Jeg vil **downloade** en film til min telefon.",
+   "en": "I want to download a movie to my phone."
   }
  },
  "at dreje": {
@@ -539,7 +539,7 @@
   }
  },
  "at drukne": {
-  "explanation": "\"At drukne\" means \"to drown\": Manden druknede i søen (The man drowned in the lake). You can also warn someone: Pas på, ellers drukner du! (Careful, or you will drown!)",
+  "explanation": "\"At drukne\" means \"to drown\", to die by being under water and not being able to breathe: Manden druknede i søen (The man drowned in the lake).",
   "forms": [
    {
     "da": "at drukne",
@@ -991,8 +991,8 @@
    }
   ],
   "sentence": {
-   "da": "Kan du **dække bord**, mens jeg laver mad?",
-   "en": "Can you set the table while I cook?"
+   "da": "Jeg skal **dække bord** til fem personer.",
+   "en": "I have to set the table for five people."
   }
  },
  "at dø": {
@@ -1035,7 +1035,7 @@
   }
  },
  "da": {
-  "explanation": "\"Da\" means \"when\", for something that happened once in the past. Compare Da jeg kom hjem, sov børnene (When I came home, the children were asleep) with Når jeg kommer hjem, sover børnene (When I get home, the children are asleep: now or later, not in the past).",
+  "explanation": "\"Da\" means \"when\", for something that happened once in the past. For now or later, use når (when) instead: Når jeg kommer hjem, sover børnene (When I get home, the children are asleep).",
   "forms": [
    {
     "da": "da jeg var barn",
@@ -1070,7 +1070,7 @@
   }
  },
  "dagen efter": {
-  "explanation": "\"Dagen efter\" means \"the day after\" something: Dagen efter festen var jeg træt (The day after the party I was tired). On its own, the next day is næste dag.",
+  "explanation": "\"Dagen efter\" means \"the day after\" something that was just mentioned: dagen efter rejsen (the day after the trip). On its own, the next day is næste dag.",
   "forms": [
    {
     "da": "dagen efter festen",
@@ -1217,8 +1217,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er et **dagligdags** ord i Danmark.",
-   "en": "It is an everyday word in Denmark."
+   "da": "Indkøb og madlavning er **dagligdags** ting.",
+   "en": "Shopping and cooking are everyday things."
   }
  },
  "dagligt": {
@@ -1330,8 +1330,8 @@
    }
   ],
   "sentence": {
-   "da": "Der kommer **damp** op fra kaffen.",
-   "en": "Steam is rising from the coffee."
+   "da": "Når vand koger, bliver det til **damp**.",
+   "en": "When water boils, it turns into steam."
   }
  },
  "dansk": {
@@ -1370,7 +1370,7 @@
   }
  },
  "data": {
-  "explanation": "\"Data\" means \"data\", facts and numbers collected for a purpose: Vi samler data fra mange mennesker (We collect data from many people).",
+  "explanation": "\"Data\" means \"data\", facts and numbers collected for a purpose, for example in research or on a computer: Jeg gemmer data på computeren (I save data on the computer).",
   "forms": [
    {
     "da": "data",
@@ -1549,7 +1549,7 @@
   }
  },
  "dejlig": {
-  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\": Dejligt! means \"Lovely!\" and Det er dejligt vejr means \"It is lovely weather\".",
+  "explanation": "\"Dejlig\" means \"lovely\" or \"nice\" and is a warm word for things you enjoy, like weather, food or a day. Dejligt! means \"Lovely!\" and Det er dejligt vejr means \"It is lovely weather\".",
   "forms": [
    {
     "da": "en dejlig dag",
@@ -1579,8 +1579,8 @@
    }
   ],
   "sentence": {
-   "da": "I dag er det en **dejlig** dag.",
-   "en": "Today it is a lovely day."
+   "da": "Det er en **dejlig** varm sommerdag.",
+   "en": "It is a lovely warm summer day."
   }
  },
  "dem": {
@@ -1911,7 +1911,7 @@
   }
  },
  "derfra": {
-  "explanation": "\"Derfra\" means \"from there\". Compare Jeg kommer herfra (I come from here) with Jeg kommer derfra (I come from there).",
+  "explanation": "\"Derfra\" means \"from there\" and tells where something comes from, a place away from you. Compare Jeg kommer herfra (I come from here) with Jeg kommer derfra (I come from there).",
   "forms": [
    {
     "da": "Jeg kommer derfra",
@@ -2020,7 +2020,7 @@
   }
  },
  "derinde": {
-  "explanation": "\"Derinde\" means \"in there\". Compare Jeg er herinde (I am in here) with Katten er derinde (The cat is in there).",
+  "explanation": "\"Derinde\" means \"in there\" and points to a place inside something, away from you, such as another room. Compare Jeg er herinde (I am in here) with Katten er derinde (The cat is in there).",
   "forms": [
    {
     "da": "derinde i stuen",
@@ -2094,7 +2094,7 @@
   }
  },
  "dernede": {
-  "explanation": "\"Dernede\" means \"down there\". Compare Katten er deroppe (The cat is up there) with Katten er dernede (The cat is down there).",
+  "explanation": "\"Dernede\" means \"down there\" and points to a place lower than you, away from you, such as a basement or the floor below. Compare Katten er deroppe (The cat is up there) with Katten er dernede (The cat is down there).",
   "forms": [
    {
     "da": "dernede ved vandet",
@@ -2211,7 +2211,7 @@
   }
  },
  "derude": {
-  "explanation": "\"Derude\" means \"out there\". Compare Børnene er derinde (The children are in there) with Børnene er derude (The children are out there).",
+  "explanation": "\"Derude\" means \"out there\" and points to a place outside or farther out, away from you. Compare Børnene er derinde (The children are in there) with Børnene er derude (The children are out there).",
   "forms": [
    {
     "da": "derude i haven",
@@ -2288,8 +2288,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg kan godt lide det enkle **design**.",
-   "en": "I like the simple design."
+   "da": "Jeg kan lide stolens **design** og farve.",
+   "en": "I like the chair's design and color."
   }
  },
  "desperat": {
@@ -3305,7 +3305,7 @@
   }
  },
  "det var dog utroligt": {
-  "explanation": "\"Det var dog utroligt\" means \"that's incredible\" and reacts to surprising news. The little word dog (though) adds surprise: Han vandt tre gange! Det var dog utroligt! (He won three times! That's incredible!).",
+  "explanation": "\"Det var dog utroligt\" means \"that's incredible\" and reacts to surprising or impressive news. The little word dog (though) adds surprise; without it, Det var utroligt (That was incredible) sounds calmer.",
   "forms": [
    {
     "da": "Det var dog utroligt!",
@@ -3523,7 +3523,7 @@
   }
  },
  "diarré": {
-  "explanation": "\"Diarré\" means \"diarrhea\": Barnet har diarré (The child has diarrhea). It often comes with mavesyge (a stomach bug).",
+  "explanation": "\"Diarré\" means \"diarrhea\", an upset stomach with watery, frequent trips to the toilet. It often comes with mavesyge (a stomach bug): Barnet har diarré (The child has diarrhea).",
   "forms": [
    {
     "da": "diarré",
@@ -3557,8 +3557,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har **diarré** og skal blive hjemme.",
-   "en": "I have diarrhea and have to stay home."
+   "da": "Man kan få **diarré** af dårlig mad.",
+   "en": "You can get diarrhea from bad food."
   }
  },
  "diesel": {
@@ -3636,7 +3636,7 @@
   }
  },
  "digital": {
-  "explanation": "\"Digital\" means \"digital\". It looks like the English word, but the stress is on the last part: di-gi-TAL.",
+  "explanation": "\"Digital\" means \"digital\", for things that work with numbers or screens instead of paper or moving parts, such as a camera. It looks like the English word, but the stress is on the last part: di-gi-TAL.",
   "forms": [
    {
     "da": "en digital klokke",
@@ -3666,8 +3666,8 @@
    }
   ],
   "sentence": {
-   "da": "Klokken har kun tal. Den er **digital**.",
-   "en": "The clock has only numbers. It is digital."
+   "da": "Uret er **digital** og viser tiden med tal.",
+   "en": "The watch is digital and shows the time with numbers."
   }
  },
  "dild": {
@@ -4544,7 +4544,7 @@
   }
  },
  "en dal": {
-  "explanation": "\"En dal\" means \"a valley\", low land between hills or mountains: Landsbyen ligger i en grøn dal (The village lies in a green valley). Floden løber gennem dalen (The river runs through the valley).",
+  "explanation": "\"En dal\" means \"a valley\", low land between hills or mountains. Villages and farms are often found there: Landsbyen ligger i en grøn dal (The village lies in a green valley).",
   "forms": [
    {
     "da": "en dal",
@@ -4656,12 +4656,12 @@
    }
   ],
   "sentence": {
-   "da": "Den **dame** i kjole er min tante.",
-   "en": "The lady in the dress is my aunt."
+   "da": "En pige bliver til en **dame**.",
+   "en": "A girl becomes a lady."
   }
  },
  "en dans": {
-  "explanation": "\"En dans\" means \"a dance\": Vi lærer en ny dans (We are learning a new dance). The action is at danse (to dance): Jeg danser hver weekend (I dance every weekend).",
+  "explanation": "\"En dans\" means \"a dance\", a set of steps done to music. The action is at danse (to dance): Jeg danser hver weekend (I dance every weekend).",
   "forms": [
    {
     "da": "en dans",
@@ -4911,7 +4911,7 @@
   }
  },
  "en datter": {
-  "explanation": "\"En datter\" means \"a daughter\". Hvor gammel er din datter? means \"How old is your daughter?\".",
+  "explanation": "\"En datter\" means \"a daughter\", a girl or woman seen as the child of her parents. She stays a datter when she is grown up. To ask about age, say Hvor gammel er din datter? (How old is your daughter?).",
   "forms": [
    {
     "da": "en datter",
@@ -4954,7 +4954,7 @@
   }
  },
  "en deadline": {
-  "explanation": "\"En deadline\" means \"a deadline\": Deadlinen er snart (The deadline is soon). Danish also has en frist (a time limit).",
+  "explanation": "\"En deadline\" means \"a deadline\", the last time something must be finished, for work or school: Deadlinen er snart (The deadline is soon). Danish also has en frist (a time limit).",
   "forms": [
    {
     "da": "en deadline",
@@ -5242,8 +5242,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg så en **delfin** hoppe op af vandet.",
-   "en": "I saw a dolphin jump out of the water."
+   "da": "En **delfin** bor i havet og spiser fisk.",
+   "en": "A dolphin lives in the sea and eats fish."
   }
  },
  "en deltager": {
@@ -5333,7 +5333,7 @@
   }
  },
  "en deodorant": {
-  "explanation": "\"En deodorant\" means \"a deodorant\": Jeg bruger deodorant hver morgen (I use deodorant every morning).",
+  "explanation": "\"En deodorant\" means \"a deodorant\", something you put under your arms to stop bad smells. When you talk about using it in general, Danes often say it without en.",
   "forms": [
    {
     "da": "en deodorant",
@@ -5574,12 +5574,12 @@
    }
   ],
   "sentence": {
-   "da": "Den kloge **detektiv** fandt hurtigt ud af sandheden.",
-   "en": "The clever detective quickly found out the truth."
+   "da": "En **detektiv** leder efter spor på gerningsstedet.",
+   "en": "A detective looks for clues at the crime scene."
   }
  },
  "en direktør": {
-  "explanation": "\"En direktør\" means \"a director\" or \"a CEO\", the person who runs a whole company: Direktøren har et møde (The director has a meeting). A person who guides a smaller team is en leder (a leader).",
+  "explanation": "\"En direktør\" means \"a director\" or \"a CEO\", the top manager of a company: Direktøren har et møde (The director has a meeting). A person who guides a smaller team is en leder (a leader).",
   "forms": [
    {
     "da": "en direktør",
@@ -5617,12 +5617,12 @@
    }
   ],
   "sentence": {
-   "da": "Min **direktør** har et møde i dag.",
-   "en": "My director has a meeting today."
+   "da": "Firmaets **direktør** er chef for alle de ansatte.",
+   "en": "The company's director is the boss of all the employees."
   }
  },
  "en diskussion": {
-  "explanation": "\"En diskussion\" means \"a discussion\": Der var en lang diskussion om politik (There was a long discussion about politics). It can be heated: Det blev en heftig diskussion (It became a heated discussion).",
+  "explanation": "\"En diskussion\" means \"a discussion\", people talking about a topic and sharing different opinions. It can be heated: Det blev en heftig diskussion (It became a heated discussion).",
   "forms": [
    {
     "da": "en diskussion",
@@ -5704,7 +5704,7 @@
   }
  },
  "en dokumentar": {
-  "explanation": "\"En dokumentar\" means \"a documentary\", a film about real events or real people: Vi så en dokumentar om dyr (We watched a documentary about animals). It is not a made-up story.",
+  "explanation": "\"En dokumentar\" means \"a documentary\", a film about real events or real people: Vi så en dokumentar om krigen (We watched a documentary about the war). It is not a made-up story.",
   "forms": [
    {
     "da": "en dokumentar",
@@ -5738,12 +5738,12 @@
    }
   ],
   "sentence": {
-   "da": "Vi så en **dokumentar** om havet i går.",
-   "en": "We watched a documentary about the sea yesterday."
+   "da": "En **dokumentar** viser, hvordan pandaer lever i naturen.",
+   "en": "A documentary shows how pandas live in the wild."
   }
  },
  "en dollar": {
-  "explanation": "\"En dollar\" means \"a dollar\". Hvad koster det i dollar? means \"What does it cost in dollars?\".",
+  "explanation": "\"En dollar\" means \"a dollar\", the money used in the United States and some other countries. Hvad koster det i dollar? (What does it cost in dollars?)",
   "forms": [
    {
     "da": "en dollar",
@@ -5773,8 +5773,8 @@
    }
   ],
   "sentence": {
-   "da": "Det koster ti **dollar**.",
-   "en": "It costs ten dollars."
+   "da": "I USA betaler man med **dollar**.",
+   "en": "In the USA you pay with dollars."
   }
  },
  "en dommer": {
@@ -5821,7 +5821,7 @@
   }
  },
  "en donut": {
-  "explanation": "\"En donut\" means \"a donut\", the round fried ring with a hole in the middle, often with icing: Jeg tager en donut med glasur (I'll have a donut with icing).",
+  "explanation": "\"En donut\" means \"a donut\", a sweet fried pastry, often covered in icing or sugar: Jeg tager en donut med glasur (I'll have a donut with icing).",
   "forms": [
    {
     "da": "en donut",
@@ -5859,8 +5859,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg vil gerne have en **donut** med chokolade.",
-   "en": "I would like a donut with chocolate."
+   "da": "En **donut** er rund og har et hul i midten.",
+   "en": "A donut is round and has a hole in the middle."
   }
  },
  "en drage": {
@@ -5976,8 +5976,8 @@
    }
   ],
   "sentence": {
-   "da": "Må jeg få en kold **drik**?",
-   "en": "May I have a cold drink?"
+   "da": "Vand er en sund **drik**.",
+   "en": "Water is a healthy drink."
   }
  },
  "en drink": {
@@ -6058,8 +6058,8 @@
    }
   ],
   "sentence": {
-   "da": "Landets **dronning** vinkede til folk fra altanen.",
-   "en": "The country's queen waved to people from the balcony."
+   "da": "En **dronning** har en krone på hovedet.",
+   "en": "A queen has a crown on her head."
   }
  },
  "en drøm": {
@@ -6106,7 +6106,7 @@
   }
  },
  "en due": {
-  "explanation": "\"En due\" means \"a pigeon\" and also \"a dove\": Der sidder duer på pladsen (Pigeons sit on the square). A white dove as a symbol of peace is en fredsdue (a peace dove).",
+  "explanation": "\"En due\" means \"a pigeon\" and also \"a dove\", a bird. The gray city bird is usually a pigeon: Der sidder duer på pladsen (Pigeons sit on the square). A white dove as a symbol of peace is en fredsdue (a peace dove).",
   "forms": [
    {
     "da": "en due",
@@ -6144,8 +6144,8 @@
    }
   ],
   "sentence": {
-   "da": "Der sidder en **due** på taget.",
-   "en": "A pigeon sits on the roof."
+   "da": "En **due** er en grå fugl i byen.",
+   "en": "A pigeon is a gray bird in the city."
   }
  },
  "en duft": {
@@ -6464,12 +6464,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg åbner en **dåse** tomater til sovsen.",
-   "en": "I open a can of tomatoes for the sauce."
+   "da": "Man kan købe cola i en **dåse**.",
+   "en": "You can buy cola in a can."
   }
  },
  "en dåseåbner": {
-  "explanation": "\"En dåseåbner\" means \"a can opener\": Hvor er dåseåbneren? (Where is the can opener?) It is built from dåse (can) and åbner (opener).",
+  "explanation": "\"En dåseåbner\" means \"a can opener\", a tool for opening cans. It is built from dåse (can) and åbner (opener): Hvor er dåseåbneren? (Where is the can opener?)",
   "forms": [
    {
     "da": "en dåseåbner",
@@ -6542,12 +6542,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg åbner en **dør** og går ind.",
-   "en": "I open a door and go in."
+   "da": "Man går ind i huset gennem en **dør**.",
+   "en": "You go into the house through a door."
   }
  },
  "en dørkarm": {
-  "explanation": "\"En dørkarm\" means \"a door frame\". It is dør (door) plus karm (frame): Jeg maler dørkarmen hvid (I am painting the door frame white).",
+  "explanation": "\"En dørkarm\" means \"a door frame\", the frame around a door opening. It is dør (door) plus karm (frame): Jeg maler dørkarmen hvid (I am painting the door frame white).",
   "forms": [
    {
     "da": "en dørkarm",
@@ -6586,7 +6586,7 @@
   }
  },
  "en dørklokke": {
-  "explanation": "\"En dørklokke\" means \"a doorbell\". It is built from dør (door) and klokke (bell): Jeg ringer på dørklokken (I ring the doorbell).",
+  "explanation": "\"En dørklokke\" means \"a doorbell\", the bell or button visitors use to tell you they are at the door. It is built from dør (door) and klokke (bell): Dørklokken virker ikke (The doorbell does not work).",
   "forms": [
    {
     "da": "en dørklokke",
@@ -6624,8 +6624,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi har en ny **dørklokke**, og den er meget høj.",
-   "en": "We have a new doorbell, and it is very loud."
+   "da": "Gæsten ringer på en **dørklokke** ved hoveddøren.",
+   "en": "The guest rings a doorbell at the front door."
   }
  },
  "en dørmåtte": {
@@ -6706,8 +6706,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg betaler i butikken med **dankort**.",
-   "en": "I pay at the store with a Dankort."
+   "da": "I Danmark bruger mange et **dankort** i butikken.",
+   "en": "In Denmark many people use a Dankort in stores."
   }
  },
  "et danskkursus": {
@@ -7171,12 +7171,12 @@
    }
   ],
   "sentence": {
-   "da": "Jeg har købt et nyt **dynebetræk** til sengen.",
-   "en": "I have bought a new duvet cover for the bed."
+   "da": "Dynen ligger inde i et **dynebetræk**.",
+   "en": "The duvet is inside a duvet cover."
   }
  },
  "et dyr": {
-  "explanation": "\"Et dyr\" means \"an animal\". Et vildt dyr means \"a wild animal\".",
+  "explanation": "\"Et dyr\" means \"an animal\", any living creature that is not a plant or a person, from a mouse to an elephant. Et vildt dyr means \"a wild animal\".",
   "forms": [
    {
     "da": "et dyr",
