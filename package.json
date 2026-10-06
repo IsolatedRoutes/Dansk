@@ -13,12 +13,13 @@
   },
   "dependencies": {
     "@capacitor-community/in-app-review": "^8.0.0",
+    "@capacitor/browser": "^8.0.5",
     "@capacitor/haptics": "^8.0.2",
     "capacitor-secure-storage-plugin": "^0.13.0",
     "icloud-sync": "file:plugins/icloud-sync",
-    "share-inbox": "file:plugins/share-inbox",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "share-inbox": "file:plugins/share-inbox"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.5.2",

@@ -64,11 +64,13 @@ def stored_anywhere(page):
     }""")
 
 def save_key(page):
-    if page.get_by_text("I agree").count(): page.get_by_text("I agree").first.click(); page.wait_for_timeout(300)
-    if page.get_by_text("Use Claude or something else instead").count(): page.get_by_text("Use Claude or something else instead").first.click(); page.wait_for_timeout(300)
+    # Claude card -> three steps -> paste step (the guided setup).
+    page.get_by_role("button", name="Claude").first.click(); page.wait_for_timeout(300)
+    for _ in range(3):
+        page.get_by_role("button", name="Next", exact=True).first.click(); page.wait_for_timeout(150)
     page.get_by_placeholder("sk-ant-…").fill(KEY)
-    page.get_by_role("button", name="Save", exact=True).last.click()
-    page.wait_for_timeout(800)
+    page.get_by_role("button", name="Save", exact=True).click()
+    page.wait_for_timeout(1500)
 
 with sync_playwright() as p:
     browser = p.chromium.launch()

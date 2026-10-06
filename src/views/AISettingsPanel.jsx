@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { Icon } from "../components/icons";
 import { inputStyle, smallBtn } from "../components/ui";
 import { chromeTranslatorAvailability, chromeTranslatorSupported } from "../lib/ai/chrome";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { LOCAL_MODEL_ID, LOCAL_MODEL_OPTIONS, getLocalEngine, localEnginePromise } from "../lib/ai/local";
+import { openLink } from "../lib/openLink";
 import { isNativeApp } from "../lib/platform";
 import { storeGet, storeSet } from "../lib/storage";
 import { secretGet, secretRemove, secretSet } from "../lib/secrets";
@@ -16,17 +18,68 @@ import { secretGet, secretRemove, secretSet } from "../lib/secrets";
 // — only translating the words you pick uses the AI.
 // ============================================================
 
+// Remembers where the learner was in the setup steps while they go and get a
+// key (the panel can close and reopen, the page can sleep).
+const wizardMemory = { provider: null, step: 0 };
+
+const PROVIDERS = {
+  gemini: {
+    name: "Gemini",
+    by: "Google",
+    blurb: "Free, up to a daily limit",
+    keyName: "geminiApiKey",
+    engine: "gemini",
+    link: "https://aistudio.google.com/apikey",
+    linkLabel: "Open Google",
+    starts: "AIza",
+    steps: [
+      { text: "Sign in with your Google account.", button: true },
+      { text: "Tap “Create API key”." },
+      { text: "Tap the copy button next to your key. It looks like AIzaSy…, a long mix of letters and numbers." },
+    ],
+    help: [
+      "An API key is like a password that lets this app use your own free Google AI. It stays on this device.",
+      "Free, no credit card, up to a daily limit. On the free tier, Google may use what you send to improve its products.",
+      "What you send goes straight to Google, never to us.",
+    ],
+    agree: "By saving, you agree that the text and photos you use with AI go to Google, and their privacy policy applies. AI answers can be wrong.",
+  },
+  api: {
+    name: "Claude",
+    by: "Anthropic",
+    blurb: "Best for Danish, small fee",
+    keyName: "anthropicApiKey",
+    engine: "api",
+    link: "https://console.anthropic.com/settings/keys",
+    linkLabel: "Open Anthropic",
+    starts: "sk-ant-",
+    steps: [
+      { text: "Make an Anthropic account and add a few dollars of credit.", button: true },
+      { text: "Tap “Create Key” and give it any name." },
+      { text: "Copy the key. It looks like sk-ant-api03-…, a very long mix of letters and numbers, and it is only shown once." },
+    ],
+    help: [
+      "An API key is like a password that lets this app use your own Anthropic account. It stays on this device.",
+      "You pay Anthropic only for what you use: about half a cent for a question, a cent or two for a photo. A few dollars lasts a long time.",
+      "What you send goes straight to Anthropic, never to us.",
+    ],
+    agree: "By saving, you agree that the text and photos you use with AI go to Anthropic, and their privacy policy applies. AI answers can be wrong.",
+  },
+};
+
 export function AISettingsPanel({ onClose }) {
   const [engine, setEngineState] = useState(null);
   const [savedGeminiKey, setSavedGeminiKey] = useState(null);
-  const [geminiKeyInput, setGeminiKeyInput] = useState("");
   const [savedKey, setSavedKey] = useState(null);
-  const [apiKeyInput, setApiKeyInput] = useState("");
+  const [keyInput, setKeyInput] = useState("");
+  const [wizard, setWizard] = useState(wizardMemory.provider); // null | "gemini" | "api"
+  const [step, setStep] = useState(wizardMemory.step);
+  const [saving, setSaving] = useState(false);
   const [loadingModel, setLoadingModel] = useState(false);
   const [modelProgress, setModelProgress] = useState("");
   const [modelReady, setModelReady] = useState(!!localEnginePromise);
   const [showMore, setShowMore] = useState(false);
-  const [showWhy, setShowWhy] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
   const [consented, setConsented] = useState(true);
   const [error, setError] = useState("");
   const [confirmingModel, setConfirmingModel] = useState(false);
@@ -63,8 +116,8 @@ export function AISettingsPanel({ onClose }) {
     setError("");
   }
 
-  async function chooseEngine(next) {
-    if ((next === "api" || next === "gemini") && !consented) {
+  async function chooseEngine(next, justAgreed) {
+    if ((next === "api" || next === "gemini") && !consented && !justAgreed) {
       setError("Please tap \"I agree\" above first.");
       return false;
     }
@@ -136,37 +189,55 @@ export function AISettingsPanel({ onClose }) {
     }
   }
 
-  async function saveGeminiKey() {
-    if (!geminiKeyInput.trim()) return;
-    if (!(await chooseEngine("gemini"))) return;
-    const saved = await secretSet("geminiApiKey", geminiKeyInput.trim());
-    if (!saved.ok) {
-      setError("Couldn't store the key securely on this device. Nothing was saved.");
-      return;
-    }
-    setSavedGeminiKey(geminiKeyInput.trim());
-    setGeminiKeyInput("");
-    // One tiny call so a typo shows up now, not later (free tier, one request).
-    try {
-      await callAI("Reply with the single word OK.", "Say OK", { maxTokens: 10 });
-    } catch (e) {
-      setError("The key was saved, but it didn't work yet: " + apiErrorMessage(e));
-      return;
-    }
-    onClose("gemini");
+  function go(provider, nextStep) {
+    wizardMemory.provider = provider;
+    wizardMemory.step = nextStep;
+    setWizard(provider);
+    setStep(nextStep);
+    setError("");
+    setKeyInput("");
   }
 
-  async function saveKey() {
-    if (!apiKeyInput.trim()) return;
-    if (!(await chooseEngine("api"))) return;
-    const saved = await secretSet("anthropicApiKey", apiKeyInput.trim());
-    if (!saved.ok) {
-      setError("Couldn't store the key securely on this device. Nothing was saved.");
-      return;
+  async function pasteKey() {
+    try {
+      const t = await navigator.clipboard.readText();
+      if (t) setKeyInput(t.trim());
+    } catch {
+      setError("Couldn't paste automatically. Press and hold in the box, then tap Paste.");
     }
-    setSavedKey(apiKeyInput.trim());
-    setApiKeyInput("");
-    onClose("api");
+  }
+
+  // Save the key, then one tiny call so a typo shows up now rather than later.
+  async function saveKey(provider) {
+    const P = PROVIDERS[provider];
+    const key = keyInput.trim();
+    if (!key || saving) return;
+    setSaving(true);
+    setError("");
+    try {
+      await agree();
+      const saved = await secretSet(P.keyName, key);
+      if (!saved.ok) {
+        setError("Couldn't store the key securely on this device. Nothing was saved.");
+        return;
+      }
+      if (provider === "gemini") setSavedGeminiKey(key);
+      else setSavedKey(key);
+      setKeyInput("");
+      await chooseEngine(P.engine, true);
+      try {
+        await callAI("Reply with the single word OK.", "Say OK", { maxTokens: 10 });
+      } catch (e) {
+        setError("The key was saved, but it didn't work yet: " + apiErrorMessage(e));
+        return;
+      }
+      wizardMemory.provider = null;
+      wizardMemory.step = 0;
+      setWizard(null);
+      onClose(P.engine);
+    } finally {
+      setSaving(false);
+    }
   }
 
   async function loadModelNow() {
@@ -185,191 +256,160 @@ export function AISettingsPanel({ onClose }) {
     }
   }
 
-  const apiActive = engine === "api";
 
-  return (
-    <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
-      <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 4 }}>Connect an AI</div>
-      <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 14 }}>
-        Powers the Assistant tab, explaining or asking about a word on a card, sentence analysis, and reading text from photos. Studying cards never needs it.
-      </div>
-      <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
-        <div style={{ fontWeight: 600, marginBottom: 4 }}>Set up your AI</div>
-        <div>Broen lets you use your own AI provider to power the tutor, so the app's developer never sees your text or photos. The provider you choose does, because it processes each request.</div>
-        <button
-          onClick={() => setShowWhy((v) => !v)}
-          style={{ border: "none", background: "none", color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12.5, padding: 0, marginTop: 6, cursor: "pointer", textDecoration: "underline" }}
-        >
-          {showWhy ? "Hide details" : "How does this work?"}
-        </button>
-        {showWhy && (
-          <div style={{ marginTop: 8 }}>
-            <div style={{ marginBottom: 6 }}>The AI features are part of Broen, but you connect your own AI account. Your questions and photos go straight to the AI company, never through us.</div>
-            <div style={{ marginBottom: 6 }}><b>An API key</b> is what links the app to your account. Getting a free Gemini key takes about two minutes, and the steps are below.</div>
-            <div><b>Cost:</b> you pay the company only for what you use. A question or word explanation is well under a cent, a photo roughly a cent or two. Prices can change.</div>
-          </div>
+  const hasSaved = !!savedGeminiKey || !!savedKey;
+  const hint = { fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5 };
+  const bigBtn = { display: "inline-flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 700, color: "#fff", background: "var(--rust)", border: "none", textDecoration: "none", borderRadius: 999, padding: "12px 26px", cursor: "pointer" };
+
+  // One provider on the "pick" screen: tap to start the steps, or manage a saved key.
+  function providerCard(id) {
+    const P = PROVIDERS[id];
+    const saved = id === "gemini" ? savedGeminiKey : savedKey;
+    const active = engine === P.engine;
+    const removeKey = async () => {
+      await secretRemove(P.keyName);
+      if (id === "gemini") setSavedGeminiKey(null);
+      else setSavedKey(null);
+    };
+    return (
+      <div key={id} style={{ border: "1.5px solid " + (saved && active ? "var(--fjord)" : "var(--line)"), background: saved && active ? "#EEF2F0" : "#fff", borderRadius: 14, padding: "14px 16px", marginTop: 10 }}>
+        {saved ? (
+          <>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>{P.name} <span style={{ ...hint, fontWeight: 400 }}>· {P.by}</span></div>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginTop: 8, flexWrap: "wrap" }}>
+              <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>{active ? "Connected" : "Key saved"}</span>
+              <div style={{ display: "flex", gap: 8 }}>
+                {!active && (
+                  <button onClick={() => chooseEngine(P.engine)} style={smallBtn("var(--fjord)")}>
+                    Use this
+                  </button>
+                )}
+                <button onClick={() => go(id, 3)} style={smallBtn("#A8A395")}>
+                  Change key
+                </button>
+                <button onClick={removeKey} style={smallBtn("#A8A395")}>
+                  Remove
+                </button>
+              </div>
+            </div>
+          </>
+        ) : (
+          <button onClick={() => go(id, 0)} aria-label={P.name} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", border: "none", background: "none", padding: 0, cursor: "pointer", textAlign: "left" }}>
+            <span>
+              <span style={{ display: "block", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600, color: "var(--ink)" }}>
+                {P.name} <span style={{ ...hint, fontWeight: 400 }}>· {P.by}</span>
+                {id === "gemini" && <span style={{ color: "var(--sage)", fontSize: 12, fontWeight: 600 }}> · Recommended</span>}
+              </span>
+              <span style={{ display: "block", ...hint, marginTop: 2 }}>{P.blurb}</span>
+            </span>
+            <span style={{ color: "var(--muted)", fontSize: 22, lineHeight: 1 }}>›</span>
+          </button>
         )}
       </div>
+    );
+  }
 
-      {!consented && (
-        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, lineHeight: 1.55, border: "1.5px solid var(--rust)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
-          <div style={{ fontWeight: 600, marginBottom: 4 }}>Before you connect</div>
-          <div style={{ marginBottom: 8 }}>When you use an AI feature, the text or photo you send goes to the company you choose (Anthropic or Google), and their privacy policy applies. It does not go to us. AI answers can be wrong.</div>
-          <button onClick={agree} style={smallBtn("var(--rust)")}>I agree</button>
+  // The steps, one at a time.
+  function wizardView() {
+    const P = PROVIDERS[wizard];
+    const last = step === P.steps.length; // the paste step
+    const s = P.steps[step];
+    return (
+      <div>
+        <div style={{ ...hint, marginBottom: 14 }}>
+          {P.name} · step {step + 1} of {P.steps.length + 1}
         </div>
-      )}
-      <div
-        style={{
-          border: "1.5px solid " + (engine === "gemini" ? "var(--fjord)" : "var(--line)"),
-          borderRadius: 10,
-          padding: 14,
-          background: engine === "gemini" ? "#EEF2F0" : "transparent",
-        }}
-      >
-        <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>
-          Gemini (by Google) <span style={{ color: "var(--sage)", fontWeight: 600, fontSize: 12 }}>· Recommended, free</span>
-        </div>
-        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 12 }}>
-          Free, no credit card, with daily limits. Also reads photos. Good for everyday Danish. On the free tier Google may use what you send to improve its products.
-        </div>
-        {savedGeminiKey ? (
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-            <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>{engine === "gemini" ? "Connected" : "Key saved"}</span>
-            <div style={{ display: "flex", gap: 8 }}>
-              {engine !== "gemini" && (
-                <button onClick={() => chooseEngine("gemini")} style={smallBtn("var(--fjord)")}>
-                  Use this
+        {!last ? (
+          <>
+            <div style={{ fontFamily: "var(--serif)", fontSize: 21, lineHeight: 1.35, marginBottom: 20 }}>{s.text}</div>
+            {s.button && (
+              <div style={{ display: "flex", justifyContent: "center", marginBottom: 20 }}>
+                <button onClick={() => openLink(P.link)} style={bigBtn}>
+                  {P.linkLabel} ↗
                 </button>
-              )}
-              <button onClick={() => setSavedGeminiKey(null)} style={smallBtn("#A8A395")}>
-                Change key
-              </button>
-              <button
-                onClick={async () => {
-                  await secretRemove("geminiApiKey");
-                  setSavedGeminiKey(null);
-                }}
-                style={smallBtn("#A8A395")}
-              >
-                Remove
-              </button>
-            </div>
-          </div>
+              </div>
+            )}
+          </>
         ) : (
           <>
-            <div style={{ fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.5, marginBottom: 12 }}>
-              {[
-                "Tap the button below and sign in with your Google account.",
-                "Tap “Create API key”, then tap the copy button next to the key.",
-                "Come back here, paste the key in the box, and tap Save.",
-              ].map((t, i) => (
-                <div key={i} style={{ display: "flex", gap: 10, marginBottom: 6 }}>
-                  <span style={{ width: 20, height: 20, borderRadius: "50%", background: "var(--paper)", border: "1px solid var(--line)", fontSize: 11.5, fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>{i + 1}</span>
-                  <span>{t}</span>
-                </div>
-              ))}
+            <div style={{ fontFamily: "var(--serif)", fontSize: 21, lineHeight: 1.35, marginBottom: 16 }}>Come back here and paste your key.</div>
+            <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
+              <input type="password" value={keyInput} onChange={(e) => setKeyInput(e.target.value)} placeholder={P.starts + "…"} aria-label="API key" style={{ ...inputStyle, flex: 1, minWidth: 0 }} />
+              <button onClick={pasteKey} style={smallBtn("#A8A395")}>
+                Paste
+              </button>
             </div>
-            <div style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}>
-              <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--sans)", fontSize: 14, fontWeight: 700, color: "#fff", background: "var(--rust)", textDecoration: "none", borderRadius: 999, padding: "11px 22px" }}>
-                Open Google AI Studio ↗
-              </a>
-            </div>
-            <div style={{ display: "flex", gap: 8 }}>
-              <input
-                type="password"
-                value={geminiKeyInput}
-                onChange={(e) => setGeminiKeyInput(e.target.value)}
-                placeholder="Paste your key here (starts with AIza)"
-                style={{ ...inputStyle, flex: 1 }}
-              />
-              <button onClick={saveGeminiKey} style={smallBtn("var(--rust)")}>
-                Save
+            <div style={{ ...hint, fontSize: 12, marginBottom: 12 }}>{P.agree}</div>
+            <div style={{ display: "flex", justifyContent: "center", marginBottom: 6 }}>
+              <button onClick={() => saveKey(wizard)} disabled={!keyInput.trim() || saving} style={{ ...bigBtn, opacity: keyInput.trim() ? 1 : 0.45 }}>
+                {saving ? "Checking…" : "Save"}
               </button>
             </div>
           </>
         )}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 14 }}>
+          <button onClick={() => (step === 0 ? go(null, 0) : go(wizard, step - 1))} style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 13.5, cursor: "pointer", padding: 4 }}>
+            Back
+          </button>
+          <div style={{ display: "flex", gap: 6 }}>
+            {[...P.steps, null].map((_, i) => (
+              <span key={i} style={{ width: 7, height: 7, borderRadius: "50%", background: i === step ? "var(--terracotta)" : "var(--line)" }} />
+            ))}
+          </div>
+          {!last ? (
+            <button onClick={() => go(wizard, step + 1)} style={smallBtn("var(--fjord)")}>
+              Next
+            </button>
+          ) : (
+            <span style={{ width: 44 }} />
+          )}
+        </div>
       </div>
+    );
+  }
 
-      {!showMore && (
-        <button
-          onClick={() => setShowMore(true)}
-          style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, marginTop: 12, cursor: "pointer", padding: 0, textDecoration: "underline" }}
-        >
-          Use Claude or something else instead
+  return (
+    <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+        <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>{wizard ? "Set up " + PROVIDERS[wizard].name : "Set up your AI"}</div>
+        <button aria-label="More info" onClick={() => setHelpOpen((v) => !v)} style={{ border: "none", background: "none", cursor: "pointer", color: helpOpen ? "var(--terracotta)" : "var(--muted)", padding: 4, display: "flex" }}>
+          <Icon.HelpCircle size={18} />
+        </button>
+      </div>
+      {!wizard && <div style={{ ...hint, marginBottom: 12 }}>For Look up, the Assistant and photos. Studying never needs it.</div>}
+
+      {helpOpen && (
+        <div style={{ ...hint, color: "var(--ink)", background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 12 }}>
+          {(wizard ? PROVIDERS[wizard].help : [...PROVIDERS.gemini.help.slice(0, 1), "Gemini is free up to a daily limit. Claude is paid, about half a cent per question.", "What you send goes straight to the AI company you choose, never to us."]).map((t, i) => (
+            <div key={i} style={{ marginBottom: 6 }}>
+              {t}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {!consented && hasSaved && !wizard && (
+        <div style={{ ...hint, color: "var(--ink)", border: "1.5px solid var(--rust)", borderRadius: 10, padding: "12px 14px", marginBottom: 12 }}>
+          <div style={{ marginBottom: 8 }}>When you use an AI feature, your text or photo goes to the company you chose, and their privacy policy applies. It does not go to us. AI answers can be wrong.</div>
+          <button onClick={agree} style={smallBtn("var(--rust)")}>I agree</button>
+        </div>
+      )}
+
+      {wizard ? wizardView() : (
+        <>
+          {providerCard("gemini")}
+          {providerCard("api")}
+        </>
+      )}
+
+      {!wizard && !isNativeApp() && !showMore && (
+        <button onClick={() => setShowMore(true)} style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, marginTop: 14, cursor: "pointer", padding: 0, textDecoration: "underline" }}>
+          More options
         </button>
       )}
 
-      {showMore && (
+      {!wizard && showMore && (
         <>
-          <div style={{ marginTop: 12 }}>
-      <div
-        style={{
-          border: "1.5px solid " + (apiActive ? "var(--fjord)" : "var(--line)"),
-          borderRadius: 10,
-          padding: 14,
-          background: apiActive ? "#EEF2F0" : "transparent",
-        }}
-      >
-        <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Claude (by Anthropic)</div>
-        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
-          Best quality for Danish. You pay per use: about half a cent for a question, a cent or two for a photo.
-        </div>
-        {!savedKey && (
-          <a
-            href="https://console.anthropic.com/settings/keys"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 6,
-              fontFamily: "var(--sans)",
-              fontSize: 12.5,
-              fontWeight: 600,
-              color: "var(--rust)",
-              textDecoration: "none",
-              marginBottom: 10,
-            }}
-          >
-            Get a key at console.anthropic.com ↗
-          </a>
-        )}
-        {savedKey ? (
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-            <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>
-              {apiActive ? "Connected" : "Key saved"}
-            </span>
-            <div style={{ display: "flex", gap: 8 }}>
-              {!apiActive && (
-                <button onClick={() => chooseEngine("api")} style={smallBtn("var(--fjord)")}>
-                  Use this
-                </button>
-              )}
-              <button onClick={() => setSavedKey(null)} style={smallBtn("#A8A395")}>
-                Change key
-              </button>
-              <button
-                onClick={async () => {
-                  await secretRemove("anthropicApiKey");
-                  setSavedKey(null);
-                }}
-                style={smallBtn("#A8A395")}
-              >
-                Remove
-              </button>
-            </div>
-          </div>
-        ) : (
-          <div style={{ display: "flex", gap: 8 }}>
-            <input type="password" value={apiKeyInput} onChange={(e) => setApiKeyInput(e.target.value)} placeholder="sk-ant-…" style={{ ...inputStyle, flex: 1 }} />
-            <button onClick={saveKey} style={smallBtn("var(--rust)")}>
-              Save
-            </button>
-          </div>
-        )}
-      </div>
-          </div>
-
           {!isNativeApp() && (
           <>
           <div style={{ border: "1.5px solid " + (engine === "local" ? "var(--fjord)" : "var(--line)"), borderRadius: 10, padding: 14, marginTop: 10 }}>

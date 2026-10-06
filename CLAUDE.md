@@ -257,6 +257,9 @@ Bump `CACHE_NAME` in `sw.js` when shell files change.
 ## iPhone app
 See CAPACITOR.md. `npm run cap:sync` builds and copies into the Capacitor project. `isNativeApp()` (src/lib/platform.js) hides web-only AI options. AI calls are blocked until `aiConsent` is set in AI settings (requireConsent in src/lib/ai/http.js).
 
+## AI setup (guided steps)
+AI settings opens on two cards: Gemini (free, recommended) and Claude. Tapping one starts four short steps (open the provider's key page, create key, copy it, paste and Save); the "?" icon holds the longer explanations. The step is remembered while the learner is away getting the key (`wizardMemory`). Save also records consent, then makes one tiny test call so a bad key shows up at once. Links open inside the iPhone app (`src/lib/openLink.js`, `@capacitor/browser`, a sheet with Done) and in a new tab on the website. Other engines (local model, Ollama, Chrome translator) are under "More options" on the website only. Test: `tests/secrets_test.py`.
+
 ## AI keys
 Every read or write of an AI key goes through `src/lib/secrets.js`
 (`secretGet` / `secretSet` / `secretRemove`), never `storeGet` / `storeSet`.
