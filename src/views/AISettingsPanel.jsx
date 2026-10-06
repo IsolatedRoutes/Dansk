@@ -25,17 +25,19 @@ const wizardMemory = { provider: null, step: 0 };
 const PROVIDERS = {
   gemini: {
     name: "Gemini",
+    title: "Set up with Gemini AI",
+    openLabel: "Open Google AI Studio",
     by: "Google",
     blurb: "Free, up to a daily limit",
     keyName: "geminiApiKey",
     engine: "gemini",
     link: "https://aistudio.google.com/apikey",
-    linkLabel: "Open Google",
     starts: "AIza",
     steps: [
-      { text: "Sign in with your Google account.", button: true },
+      { text: "Sign in with your Google account on the page we open for you." },
       { text: "Tap “Create API key”." },
-      { text: "Tap the copy button next to your key. It looks like AIzaSy…, a long mix of letters and numbers." },
+      { text: "You now have an AI key. It looks like a long string of letters and numbers, like AIzaSy… Copy it, then come back to the app." },
+      { text: "Ready? Open Google AI Studio, then follow the steps you just read.", button: true },
     ],
     help: [
       "An API key is like a password that lets this app use your own free Google AI. It stays on this device.",
@@ -46,17 +48,19 @@ const PROVIDERS = {
   },
   api: {
     name: "Claude",
+    title: "Set up with Claude",
+    openLabel: "Open Anthropic",
     by: "Anthropic",
     blurb: "Best for Danish, small fee",
     keyName: "anthropicApiKey",
     engine: "api",
     link: "https://console.anthropic.com/settings/keys",
-    linkLabel: "Open Anthropic",
     starts: "sk-ant-",
     steps: [
-      { text: "Make an Anthropic account and add a few dollars of credit.", button: true },
+      { text: "Sign in to Anthropic, or make an account, and add a few dollars of credit." },
       { text: "Tap “Create Key” and give it any name." },
-      { text: "Copy the key. It looks like sk-ant-api03-…, a very long mix of letters and numbers, and it is only shown once." },
+      { text: "You now have an AI key. It looks like a very long string of letters and numbers, like sk-ant-api03-… It is only shown once. Copy it, then come back to the app." },
+      { text: "Ready? Open Anthropic, then follow the steps you just read.", button: true },
     ],
     help: [
       "An API key is like a password that lets this app use your own Anthropic account. It stays on this device.",
@@ -324,8 +328,8 @@ export function AISettingsPanel({ onClose }) {
             <div style={{ fontFamily: "var(--serif)", fontSize: 21, lineHeight: 1.35, marginBottom: 20 }}>{s.text}</div>
             {s.button && (
               <div style={{ display: "flex", justifyContent: "center", marginBottom: 20 }}>
-                <button onClick={() => openLink(P.link)} style={bigBtn}>
-                  {P.linkLabel} ↗
+                <button onClick={() => { wizardMemory.step = P.steps.length; openLink(P.link); }} style={bigBtn}>
+                  {P.openLabel} ↗
                 </button>
               </div>
             )}
@@ -371,7 +375,7 @@ export function AISettingsPanel({ onClose }) {
   return (
     <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
-        <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>{wizard ? "Set up " + PROVIDERS[wizard].name : "Set up your AI"}</div>
+        <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>{wizard ? PROVIDERS[wizard].title : "Set up your AI"}</div>
         <button aria-label="More info" onClick={() => setHelpOpen((v) => !v)} style={{ border: "none", background: "none", cursor: "pointer", color: helpOpen ? "var(--terracotta)" : "var(--muted)", padding: 4, display: "flex" }}>
           <Icon.HelpCircle size={18} />
         </button>

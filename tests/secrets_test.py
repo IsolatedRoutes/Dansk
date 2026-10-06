@@ -66,7 +66,7 @@ def stored_anywhere(page):
 def save_key(page):
     # Claude card -> three steps -> paste step (the guided setup).
     page.get_by_role("button", name="Claude").first.click(); page.wait_for_timeout(300)
-    for _ in range(3):
+    for _ in range(4):
         page.get_by_role("button", name="Next", exact=True).first.click(); page.wait_for_timeout(150)
     page.get_by_placeholder("sk-ant-…").fill(KEY)
     page.get_by_role("button", name="Save", exact=True).click()
