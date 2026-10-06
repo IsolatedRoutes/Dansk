@@ -32,6 +32,8 @@ function loadBucket(bucket) {
 
 // Returns { forms, explanation, related, sentence } or null.
 export async function prebuiltInsight(card) {
+  // The learner's own cards: the answer saved the first time the lightbulb was opened.
+  if (card && !card.starter && card.type === "word" && card.insight && card.insight.explanation) return card.insight;
   if (!card || !card.starter || card.type !== "word") return null;
   const data = await loadBucket(lightbulbBucket(card.front));
   const e = data && data[frontKey(card.front)];

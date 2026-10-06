@@ -9,6 +9,7 @@ import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irr
 import { callClaudeImage } from "../../lib/ai/claude";
 import { callGeminiImage } from "../../lib/ai/gemini";
 import { apiErrorMessage, callAI, getAIEngine } from "../../lib/ai/index";
+import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
 import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { secretGet } from "../../lib/secrets";
@@ -152,7 +153,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
     try {
       const reply = await callVision(
         "You translate between Danish and English for a language learner, reading text directly out of a photo (a sign, a book page, an app, packaging). Your first and most important job is to correctly identify which language the text in the image is written in — it will not always be Danish, and treating it as Danish by default is a common mistake to avoid. Then translate it into the other language. If there's more than one distinct piece of text, focus on the single most prominent one. The translation must be ONLY in its target language — never repeat or include the original alongside it. If it's a single Danish noun (on either side), include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English.",
-        'Identify the language of the text in this photo, then translate it. Respond ONLY with JSON, no other text: {"detectedLanguage": "da or en", "original": "the text from the photo, in its original language", "translation": "your translation, in the other language"}'
+        'Identify the language of the text in this photo, then translate it. Respond ONLY with JSON, no other text: {"detectedLanguage": "da or en", "original": "the text from the photo, in its original language", "translation": "your translation, in the other language", "forms": []}. If the Danish side is a single noun, verb or describing word, ALSO fill "forms" like this:' + FORMS_RULE + ' Otherwise leave it as an empty list.'
       );
       const parsed = parseJSONLoose(reply);
       const isEnglish = String(parsed.detectedLanguage || "").toLowerCase().startsWith("en");
@@ -163,7 +164,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
       if (da && en && da.trim().toLowerCase() === en.trim().toLowerCase()) {
         throw new Error("TRANSLATION_DIDNT_HAPPEN");
       }
-      setLookupResult({ da, en });
+      setLookupResult({ da, en, forms: parsed.forms });
     } catch (e) {
       setLookupError(apiErrorMessage(e));
     } finally {
@@ -179,7 +180,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
     let catId = lookupCategory;
     if (lookupCategory.startsWith("__new__")) catId = addCategory(lookupCategory.replace("__new__", "") || "Quick lookups");
     const type = (lookupResult.da || "").trim().split(/\s+/).length > 3 ? "sentence" : "word";
-    addCards([{ type, front: lookupResult.da, back: lookupResult.en, category: catId }]);
+    addCards([{ type, front: lookupResult.da, back: lookupResult.en, category: catId, ...formsField(type, lookupResult.da, lookupResult.forms) }]);
     setLookupResult(null);
   }
 
@@ -249,7 +250,7 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
       const categoryNames = topicNamesForAI(categories);
       const system =
         "You help an intermediate self-taught Danish learner build flashcards from photos of text (book pages, signs, notes, apps). First, briefly note any grammar or sentence structures worth pointing out in this specific text (2-3 sentences, plain English) — skip this if the image is just a word list with nothing notable. Then extract every distinct Danish word or sentence visible, with a natural English translation for each, and the single best-fitting category for each item individually." + CATEGORY_RULE + " Different items can get different categories, or none. Keep the vocabulary list focused and useful — skip page numbers, headers, or noise. " +
-        'Respond ONLY with JSON, no other text: {"grammarNotes": "...", "items": [{"danish": "...", "english": "...", "type": "word", "category": "..."}]} where "type" is "word" for single words/short phrases and "sentence" for full sentences. Use an empty string for grammarNotes if there is nothing worth noting. ' +
+        'Respond ONLY with JSON, no other text: {"grammarNotes": "...", "items": [{"danish": "...", "english": "...", "type": "word", "category": "...", "forms": []}]} where "type" is "word" for single words/short phrases and "sentence" for full sentences. Use an empty string for grammarNotes if there is nothing worth noting.' + FORMS_RULE + ' ' +
         "Existing categories to prefer if one fits: " +
         (categoryNames || "(none yet)");
       const text = await callVision(system, "Extract Danish vocabulary and sentences from this image.");
@@ -285,8 +286,12 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
 
   function addSelected() {
     const toAdd = items
-      .filter((_, i) => selected[i])
-      .map((it, i) => ({ type: it.type === "sentence" ? "sentence" : "word", front: it.danish, back: it.english, category: itemCategory[i] || "" }));
+      .map((it, i) => ({ it, i }))
+      .filter(({ i }) => selected[i])
+      .map(({ it, i }) => {
+        const type = it.type === "sentence" ? "sentence" : "word";
+        return { type, front: it.danish, back: it.english, category: itemCategory[i] || "", ...formsField(type, it.danish, it.forms) };
+      });
     if (toAdd.length === 0) return;
     addCards(toAdd);
     setItems([]);

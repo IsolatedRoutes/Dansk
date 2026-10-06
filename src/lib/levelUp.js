@@ -20,6 +20,7 @@ const LEVELUP_START = Date.UTC(2026, 9, 2);
 
 export function levelUpFormsFor(card) {
   if (!card || card.type !== "word") return [];
+  if (!card.starter && Array.isArray(card.upForms)) return card.upForms.filter((f) => f && f.da && f.en);
   const t = tenseDataFor(card);
   if (t) return [1, 2].filter((i) => t.da[i] && t.en[i]).map((i) => ({ da: t.da[i], en: t.en[i] }));
   const meta = WORD_META[frontKey(card.front)];

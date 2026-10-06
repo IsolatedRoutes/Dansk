@@ -8,6 +8,7 @@ import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categ
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
 import { apiErrorMessage, callAI } from "../../lib/ai/index";
+import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
 import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { storeGet } from "../../lib/storage";
@@ -121,14 +122,27 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
         { maxTokens: 10 }
       );
       const isEnglish = detectionReply.trim().toLowerCase().replace(/[^a-z]/g, "").startsWith("en");
+      const wantForms = inputText.split(/\s+/).length <= 2;
       const reply = await callAI(
         "You translate " +
           (isEnglish ? "English text into natural, fluent Danish" : "Danish text into natural, fluent English") +
-          " for a language learner. Never invent or substitute a different word that merely looks similar to the input — if the input might contain a typo, translate your single best real-word interpretation of what was actually typed, not some other unrelated word. Respond with ONLY the translation itself — no original text alongside it, no notes, no quotation marks. If it's a single Danish noun (on either side), include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water).",
+          " for a language learner. Never invent or substitute a different word that merely looks similar to the input — if the input might contain a typo, translate your single best real-word interpretation of what was actually typed, not some other unrelated word. Respond with ONLY the translation itself — no original text alongside it, no notes, no quotation marks. If it's a single Danish noun (on either side), include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water)." +
+          (wantForms
+            ? ' Because this is a single word, respond instead with ONLY JSON: {"translation": "...", "forms": []} where "translation" is the translation itself (no notes) and "forms" is filled for the Danish word like this:' + FORMS_RULE + ' Use [] when it has no forms.'
+            : ""),
         inputText,
         { maxTokens: 1500 }
       );
-      const translation = cleanTranslation(reply);
+      // For single words the answer is JSON with the forms; if it is not, it is just the translation.
+      let translation;
+      let forms;
+      try {
+        const j = wantForms ? parseJSONLoose(reply) : null;
+        translation = j && j.translation ? cleanTranslation(String(j.translation)) : cleanTranslation(reply);
+        forms = j ? j.forms : undefined;
+      } catch {
+        translation = cleanTranslation(reply);
+      }
       const da = isEnglish ? translation : inputText;
       const en = isEnglish ? inputText : translation;
       // If both sides came back the same, the model didn't actually
@@ -137,7 +151,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
       if (da && en && da.trim().toLowerCase() === en.trim().toLowerCase()) {
         throw new Error("TRANSLATION_DIDNT_HAPPEN");
       }
-      setLookupResult({ da, en });
+      setLookupResult({ da, en, forms });
     } catch (e) {
       setLookupError(apiErrorMessage(e));
     } finally {
@@ -153,7 +167,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     let catId = lookupCategory;
     if (lookupCategory.startsWith("__new__")) catId = addCategory(lookupCategory.replace("__new__", "") || "Quick lookups");
     const type = (lookupResult.da || "").trim().split(/\s+/).length > 3 ? "sentence" : "word";
-    addCards([{ type, front: lookupResult.da, back: lookupResult.en, category: catId }]);
+    addCards([{ type, front: lookupResult.da, back: lookupResult.en, category: catId, ...formsField(type, lookupResult.da, lookupResult.forms) }]);
     setLookupResult(null);
   }
 
@@ -231,7 +245,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
           text.slice(0, 3000) +
           "\n\nExisting categories to prefer if one fits: " +
           (categoryNames || "(none yet)") +
-          '\n\nRespond ONLY with JSON, no other text: {"fullTranslation": "...", "grammarNotes": "...", "vocabulary": [{"da": "...", "en": "...", "category": "..."}]}',
+          '\n\nRespond ONLY with JSON, no other text: {"fullTranslation": "...", "grammarNotes": "...", "vocabulary": [{"da": "...", "en": "...", "category": "...", "forms": []}]}' + FORMS_RULE.replace('type "word" ', ''),
         { maxTokens: 2500 }
       );
       const parsed = parseJSONLoose(reply);
@@ -269,7 +283,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     if (!analysis) return;
     const toAdd = (analysis.vocabulary || [])
       .filter((v) => selected[v.da])
-      .map((v) => ({ type: "word", front: v.da, back: v.en, category: itemCategory[v.da] || "" }));
+      .map((v) => ({ type: "word", front: v.da, back: v.en, category: itemCategory[v.da] || "", ...formsField("word", v.da, v.forms) }));
     if (toAdd.length === 0) return;
     addCards(toAdd);
     setAnalysis(null);

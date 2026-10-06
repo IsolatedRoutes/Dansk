@@ -330,6 +330,8 @@ export function StudyView({ cards, categories, updateCard, updateCards, addCards
       // lib/fresh.js), and anything added in the last two weeks is twice as
       // likely as an ordinary card. It fades back to normal over time.
       filtered.forEach((c) => {
+        // Known cards (only here when Unknown is off) turn up now and then, not as often as the rest.
+        if (c.known && !c.starred && Math.random() > 0.25) return;
         const level = freshness(c, now);
         const copies = Math.max(c.starred ? 3 : 1, level === "mid" ? 2 : 1, level === "fresh" && !freshSet.has(c.id) ? 3 : 1);
         // A random sort key shuffles the session; phrases of known words
@@ -634,7 +636,10 @@ export function StudyView({ cards, categories, updateCard, updateCards, addCards
       );
       const parsed = parseJSONLoose(reply);
       const sentence = parsed.sentence && typeof parsed.sentence.da === "string" && typeof parsed.sentence.en === "string" && parsed.sentence.da.trim() && parsed.sentence.en.trim() ? { da: parsed.sentence.da.trim(), en: parsed.sentence.en.trim() } : null;
-      setInsightCache((prev) => ({ ...prev, [card.id]: { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim(), related: Array.isArray(parsed.related) ? parsed.related : [], sentence } }));
+      const answer = { forms: parsed.forms || [], explanation: (parsed.explanation || "").trim(), related: Array.isArray(parsed.related) ? parsed.related : [], sentence };
+      setInsightCache((prev) => ({ ...prev, [card.id]: answer }));
+      // Own cards keep the answer, so the next tap is instant and works offline.
+      if (!card.starter && card.type === "word" && answer.explanation) updateCard(card.id, { insight: answer });
     } catch (e) {
       setInsightError(apiErrorMessage(e));
     } finally {

@@ -547,7 +547,9 @@ export default function DanishFlashcards() {
           const stamps = {};
           if (["known", "starred", "ignored", "notes"].some((f) => f in patch)) stamps.progressAt = now;
           if (["front", "back", "category", "examples", "pattern"].some((f) => f in patch)) stamps.editedAt = now;
-          return { ...c, ...patch, ...extra, ...stamps };
+          // A changed word makes the saved lightbulb answer and forms out of date.
+          const stale = ["front", "back"].some((f) => f in patch) && !("insight" in patch) ? { insight: undefined, upForms: undefined } : {};
+          return { ...c, ...patch, ...extra, ...stamps, ...stale };
         })
       );
     },

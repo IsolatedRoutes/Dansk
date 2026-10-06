@@ -18,7 +18,7 @@ const PROGRESS = ["known", "starred", "ignored", "notes"];
 const LEVELUP = ["upStage", "upDue"];
 // Smart review marks (when a card is due again): the newest look wins.
 const SRS = ["srsN", "srsLvl", "srsDue", "srsAt", "srsSkips"];
-const BOOKKEEPING = new Set([...PROGRESS, ...LEVELUP, ...SRS, "s", "id", "starter", "createdAt", "recentTouch", "progressAt", "editedAt"]);
+const BOOKKEEPING = new Set([...PROGRESS, ...LEVELUP, ...SRS, "s", "id", "starter", "insight", "upForms", "createdAt", "recentTouch", "progressAt", "editedAt"]);
 // What can be edited on a built-in card.
 const STARTER_CONTENT = ["front", "back", "category", "examples", "pattern"];
 
@@ -66,6 +66,7 @@ function joinCard(local, remote, contentFields) {
   // Smart review: whichever device looked at the card last decides when it is due.
   const rs = remote.s ? { srsN: remote.s[0], srsLvl: remote.s[1], srsDue: remote.s[2], srsAt: remote.s[3], srsSkips: remote.s[4] } : remote;
   if ((rs.srsAt || 0) > (local.srsAt || 0)) SRS.forEach((f) => { if (rs[f] != null) out[f] = rs[f]; });
+  if (!Array.isArray(out.upForms) && Array.isArray(remote.upForms)) out.upForms = remote.upForms;
   const touch = Math.max(local.recentTouch || 0, remote.recentTouch || 0);
   if (touch) out.recentTouch = touch;
   return out;
@@ -86,7 +87,9 @@ export function buildSnapshot(cards, categories, deletedKeys, keyOf, now = Date.
       if (c.editedAt) STARTER_CONTENT.forEach((f) => { if (f in c) m[f] = c[f]; });
       marks[c.id] = m;
     } else {
-      own.push(c);
+      // The saved lightbulb answer stays on each phone (it can be fetched again), so iCloud's space is kept for progress.
+      const { insight, ...rest } = c;
+      own.push(rest);
     }
   });
   return {

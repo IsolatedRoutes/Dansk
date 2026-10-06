@@ -92,5 +92,11 @@ const other = { id: "y", type: "word", starter: true, front: "en cykellås" };
 check(order.newWordRank(lock, { now, knownPlain: known }) < order.newWordRank(other, { now, knownPlain: new Set() }) * 0.5, "knowing one part moves the compound up");
 const mine = { id: "z", type: "word", starter: false, createdAt: now - 3600000, front: "en ting" };
 check(order.newWordRank(mine, { now, knownPlain: new Set() }) < 0, "your own new cards come first");
+// --- forms for the learner's own cards (they come with the AI answer that made the card)
+const { cleanForms, formsField } = await import("../src/lib/ownFormsCore.js");
+check(cleanForms([{ da: "en hund", en: "a dog" }, { da: "hunden", en: "" }, { da: "hunden", en: "the dog" }, { da: "hunden", en: "again" }], "en hund").length === 1, "own word, empty and repeated forms are dropped");
+check(cleanForms("nope", "x") === null && cleanForms([{ da: "<b>x", en: "y" }], "z").length === 0, "bad replies are ignored");
+check(formsField("word", "en hund", [{ da: "hunden", en: "the dog" }, { da: "hunde", en: "dogs" }]).upForms.length === 2, "a word card gets its forms");
+check(Object.keys(formsField("sentence", "Jeg spiser", [{ da: "a", en: "b" }])).length === 0 && Object.keys(formsField("word", "en hund", [])).length === 0 && Object.keys(formsField("word", "en hund", undefined)).length === 0, "sentences, empty lists and typed-in cards get nothing (no level-up, no AI call)");
 if (failed) { console.log(failed + " FAILED"); process.exit(1); }
 console.log("ALL PASSED");

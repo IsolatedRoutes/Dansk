@@ -5,6 +5,7 @@ import { renderInlineMarkdown } from "../../components/markdown";
 import { CenteredOverlay, EmptyState, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, LESSONS_ID, aiCategoryName, isLessonsCategory, topicNamesForAI } from "../../data/categories";
 import { apiErrorMessage, callAI, isSwitchableAIError } from "../../lib/ai/index";
+import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
 import { GRAMMAR_CARD_STYLE, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { persistWithRetry, storeGet } from "../../lib/storage";
 import { parseJSONLoose } from "../../lib/text";
@@ -68,7 +69,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
           "If nothing was asked to be saved, leave flashcards as an empty array.\n\nExisting categories to prefer if one fits: " +
           (categoryNames || "(none yet)"),
         text +
-          '\n\nRespond ONLY with JSON, no other text: {"reply": "...", "flashcards": [{"type": "word", "front": "...", "back": "...", "category": "...", "examples": [{"da":"...","en":"..."}]}]} — omit category for grammar type; omit examples unless type is grammar; both reply and flashcards can be empty/[] as appropriate.',
+          '\n\nRespond ONLY with JSON, no other text: {"reply": "...", "flashcards": [{"type": "word", "front": "...", "back": "...", "category": "...", "forms": [], "examples": [{"da":"...","en":"..."}]}]} — omit category for grammar type; omit examples unless type is grammar; both reply and flashcards can be empty/[] as appropriate.' + FORMS_RULE,
         { maxTokens: 1800, history: history.slice(0, -1) }
       );
       const parsed = parseJSONLoose(reply);
@@ -119,7 +120,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
     msg.flashcards.forEach((fc, i) => {
       if (!reviewSelected[i]) return;
       const catId = fc.type === "grammar" ? "grammar-lessons" : reviewCategory[i] || "";
-      toAdd.push({ type: fc.type, front: fc.front, back: fc.back, category: catId, ...(fc.type === "grammar" ? { examples: fc.examples || [] } : {}) });
+      toAdd.push({ type: fc.type, front: fc.front, back: fc.back, category: catId, ...(fc.type === "grammar" ? { examples: fc.examples || [] } : {}), ...formsField(fc.type, fc.front, fc.forms) });
       if (fc.type === "grammar" && fc.examples) {
         fc.examples.slice(0, 3).forEach((ex) => toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId }));
       }
@@ -156,7 +157,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
           assistantMsg.content +
           "\n\nExisting categories to prefer if one fits (for word/sentence types): " +
           (categoryNames || "(none yet)") +
-          '\n\nRespond ONLY with JSON, no other text: {"type": "word", "front": "...", "back": "...", "category": "...", "examples": [{"da": "...", "en": "..."}]} — omit "category" if type is "grammar"; omit "examples" unless type is "grammar".',
+          '\n\nRespond ONLY with JSON, no other text: {"type": "word", "front": "...", "back": "...", "category": "...", "forms": [], "examples": [{"da": "...", "en": "..."}]} — omit "category" if type is "grammar"; omit "examples" unless type is "grammar".' + FORMS_RULE,
         { maxTokens: 700 }
       );
       const parsed = parseJSONLoose(reply);
@@ -165,7 +166,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
       const existing = catName ? categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === catName.toLowerCase()) : null;
       const catId = type === "grammar" ? LESSONS_ID : !catName ? "" : existing ? existing.id : addCategory(catName);
       const examples = parsed.examples || [];
-      const toAdd = [{ type, front: parsed.front, back: parsed.back, category: catId, ...(type === "grammar" ? { examples } : {}) }];
+      const toAdd = [{ type, front: parsed.front, back: parsed.back, category: catId, ...(type === "grammar" ? { examples } : {}), ...formsField(type, parsed.front, parsed.forms) }];
       if (type === "grammar") {
         examples.slice(0, 3).forEach((ex) => {
           toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId });

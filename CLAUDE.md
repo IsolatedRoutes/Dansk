@@ -106,6 +106,14 @@ the app closes. Nothing to press: what the learner does decides when a card retu
 - Marks are saved in small batches (`updateCards` in App.jsx, no `progressAt`), and on
   leaving the app. They travel in iCloud sync (`s` array; the newest look wins) and
   survive migrations (`mergeProgress`). With Unknown off, Study keeps the old shuffle.
+- Own cards: `upForms` ([{da,en}], `src/lib/ownFormsCore.js`) come back inside the SAME AI answer
+  that makes the card (photo extract and translate, text vocabulary and translate of 1-2 words,
+  Assistant cards and "Save as card"); `FORMS_RULE` is added to those prompts, `formsField`
+  cleans the answer. Never an extra AI call. A card typed in by hand has no forms, so no
+  level-up. They give own words level-up forms like built-in ones. The lightbulb answer of an
+  own card is saved on it (`insight`) the first time it is opened (instant and offline
+  after); it is not synced (each phone keeps its own); it and `upForms` are dropped if the
+  front or back is edited. With Unknown off, known cards appear at about 1 in 4 of their normal rate.
 - Tests: `node tests/srs_check.mjs`.
 
 ## Ready-made lightbulb answers
