@@ -53,7 +53,7 @@ with sync_playwright() as p:
     # Part 2: by hand, no AI
     page.get_by_placeholder("A word or sentence, in Danish or English").fill("zzyxkat")
     page.get_by_role("button", name="Danish", exact=True).click()
-    page.get_by_role("button", name="Type translation").click()
+    page.get_by_role("button", name="Type the translation yourself").click()
     page.get_by_placeholder("The English").fill("zzyx cat")
     page.get_by_role("button", name="Details").click()
     page.get_by_label("Grammar group").select_option("noun")
@@ -68,7 +68,7 @@ with sync_playwright() as p:
     # By hand, English typed: it goes to the right sides, and a long text is a sentence
     page.get_by_placeholder("A word or sentence, in Danish or English").fill("I really like coffee a lot")
     page.get_by_role("button", name="English", exact=True).click()
-    page.get_by_role("button", name="Type translation").click()
+    page.get_by_role("button", name="Type the translation yourself").click()
     page.get_by_placeholder("The Danish").fill("jeg kan rigtig godt lide kaffe")
     page.get_by_role("button", name="Add card").click(); page.wait_for_timeout(1200)
     c = own(page, "jeg kan rigtig godt lide kaffe")
