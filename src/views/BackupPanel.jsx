@@ -7,6 +7,7 @@ import { storeGet, storeSet } from "../lib/storage";
 export function BackupPanel({ cards, categories, replaceAllData, sync, showToast, onClose }) {
   const importInputRef = useRef(null);
   const [autoBackupEnabled, setAutoBackupEnabledState] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
 
   useEffect(() => {
     storeGet("autoBackupEnabled").then((v) => setAutoBackupEnabledState(v === "true"));
@@ -72,88 +73,71 @@ export function BackupPanel({ cards, categories, replaceAllData, sync, showToast
     await processImportedBackup(await file.text());
   }
 
+  const sub = { fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", lineHeight: 1.4, marginTop: 2 };
+  const switchBtn = (on, label, onClick) => (
+    <button
+      onClick={onClick}
+      aria-label={label}
+      aria-pressed={on}
+      style={{ flexShrink: 0, width: 42, height: 24, borderRadius: 999, border: "none", background: on ? "var(--fjord)" : "#D8D4C8", position: "relative", cursor: "pointer", padding: 0 }}
+    >
+      <span style={{ position: "absolute", top: 2, left: on ? 20 : 2, width: 20, height: 20, borderRadius: "50%", background: "#FBFAF7", transition: "left 0.15s ease" }} />
+    </button>
+  );
+  const row = { display: "flex", alignItems: "center", gap: 10, padding: "12px 14px", borderRadius: 12, background: "var(--card)", border: "1px solid var(--line)", marginBottom: 10 };
+
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
         <div style={{ fontFamily: "var(--serif)", fontSize: 18 }}>Backup</div>
-        <button aria-label="Close" onClick={onClose} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
-          <Icon.X size={18} />
-        </button>
-      </div>
-      <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.55, marginBottom: 16 }}>
-        Export saves your deck to a file; Import loads one back in. To carry progress between devices, export into a
-        synced folder (like iCloud Drive), then Import on the other device. Every export uses the same name,
-        "dansk-backup.json". Websites can't overwrite files on their own, so if your phone or browser asks, choose
-        Replace to keep a single backup instead of a new numbered copy.
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 10,
-          padding: "10px 12px",
-          borderRadius: 10,
-          background: "var(--card)",
-          border: "1px solid var(--line)",
-          marginBottom: 14,
-        }}
-      >
-        <div style={{ flex: 1 }}>
-          <div style={{ fontFamily: "var(--sans)", fontSize: 13, fontWeight: 600 }}>Automatic backups</div>
-          <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", lineHeight: 1.4, marginTop: 2 }}>
-            Prompts a one-tap backup once a week, and only if something has changed since your last one. This is a
-            per-device setting — turning it on here won't affect your other devices.
-          </div>
+        <div style={{ display: "flex", gap: 2 }}>
+          <button aria-label="More info" onClick={() => setHelpOpen((v) => !v)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, display: "flex", color: helpOpen ? "var(--terracotta)" : "var(--muted)" }}>
+            <Icon.HelpCircle size={18} />
+          </button>
+          <button aria-label="Close" onClick={onClose} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
+            <Icon.X size={18} />
+          </button>
         </div>
-        <button
-          onClick={() => toggleAutoBackup(!autoBackupEnabled)}
-          aria-label="Toggle automatic backups"
-          style={{
-            flexShrink: 0,
-            width: 42,
-            height: 24,
-            borderRadius: 999,
-            border: "none",
-            background: autoBackupEnabled ? "var(--fjord)" : "#D8D4C8",
-            position: "relative",
-            cursor: "pointer",
-            padding: 0,
-          }}
-        >
-          <span
-            style={{
-              position: "absolute",
-              top: 2,
-              left: autoBackupEnabled ? 20 : 2,
-              width: 20,
-              height: 20,
-              borderRadius: "50%",
-              background: "#FBFAF7",
-              transition: "left 0.15s ease",
-            }}
-          />
-        </button>
       </div>
+
+      <div style={{ display: "flex", gap: 8, marginBottom: 14 }}>
+        <button onClick={exportDeck} style={{ ...smallBtn("var(--fjord)"), flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6, padding: "11px 8px", fontSize: 14 }}>
+          <Icon.Download size={14} /> Export
+        </button>
+        <button onClick={triggerImport} style={{ ...smallBtn("#A8A395"), flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6, padding: "11px 8px", fontSize: 14 }}>
+          <Icon.Upload size={14} /> Import
+        </button>
+        <input ref={importInputRef} type="file" accept="application/json,.json" onChange={handleImportFile} style={{ display: "none" }} />
+      </div>
+
+      {helpOpen && (
+        <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--ink)", lineHeight: 1.55, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 14 }}>
+          <div style={{ marginBottom: 6 }}>Export saves your deck to a file. Import loads one back in, and replaces what is in the app now.</div>
+          <div style={{ marginBottom: 6 }}>To move your progress to another device, export into a folder that syncs (like iCloud Drive), then import on the other device.</div>
+          <div style={{ marginBottom: 6 }}>Every export has the same name, dansk-backup.json. If your phone or browser asks, choose Replace to keep a single backup instead of numbered copies.</div>
+          <div>The reminder is set per device. Turning it on here does not change your other devices.</div>
+        </div>
+      )}
+
+      <div style={row}>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600 }}>Weekly reminder</div>
+          <div style={sub}>A one-tap backup, only if something changed</div>
+        </div>
+        {switchBtn(autoBackupEnabled, "Toggle automatic backups", () => toggleAutoBackup(!autoBackupEnabled))}
+      </div>
+
       {sync && sync.supported && (
-        <div style={{ padding: "10px 12px", borderRadius: 10, background: "var(--card)", border: "1px solid var(--line)", marginBottom: 14 }}>
+        <div style={{ ...row, display: "block" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <div style={{ flex: 1 }}>
-              <div style={{ fontFamily: "var(--sans)", fontSize: 13, fontWeight: 600 }}>Sync with iCloud</div>
-              <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", lineHeight: 1.4, marginTop: 2 }}>
-                Keeps everything in step between your own devices through your own iCloud: marks, notes, edits, your own cards and topics, settings, AI choices and your Assistant chat. When two devices change the same thing, the newest change wins. Your AI key is never shared.
-              </div>
+              <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600 }}>Sync with iCloud</div>
+              <div style={sub}>Keeps your own devices in step. The newest change wins. Your AI key is never shared.</div>
             </div>
-            <button
-              onClick={() => (sync.enabled ? sync.disable() : sync.enable())}
-              aria-label="Toggle iCloud sync"
-              aria-pressed={sync.enabled}
-              style={{ flexShrink: 0, width: 42, height: 24, borderRadius: 999, border: "none", background: sync.enabled ? "var(--fjord)" : "#D8D4C8", position: "relative", cursor: "pointer", padding: 0 }}
-            >
-              <span style={{ position: "absolute", top: 2, left: sync.enabled ? 20 : 2, width: 20, height: 20, borderRadius: "50%", background: "#FBFAF7", transition: "left 0.15s ease" }} />
-            </button>
+            {switchBtn(sync.enabled, "Toggle iCloud sync", () => (sync.enabled ? sync.disable() : sync.enable()))}
           </div>
           {(sync.enabled || sync.status.message) && (
-            <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: sync.status.state === "error" ? "var(--terracotta)" : "var(--muted)", marginTop: 8, lineHeight: 1.4 }}>
+            <div style={{ ...sub, color: sync.status.state === "error" ? "var(--terracotta)" : "var(--muted)", marginTop: 8 }}>
               {sync.status.state === "error"
                 ? sync.status.message
                 : sync.status.state === "syncing"
@@ -176,15 +160,6 @@ export function BackupPanel({ cards, categories, replaceAllData, sync, showToast
           )}
         </div>
       )}
-      <div style={{ display: "flex", gap: 8 }}>
-        <button onClick={exportDeck} style={{ ...smallBtn("var(--fjord)"), flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6 }}>
-          <Icon.Download size={14} /> Export
-        </button>
-        <button onClick={triggerImport} style={{ ...smallBtn("#A8A395"), flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6 }}>
-          <Icon.Upload size={14} /> Import
-        </button>
-        <input ref={importInputRef} type="file" accept="application/json,.json" onChange={handleImportFile} style={{ display: "none" }} />
-      </div>
     </div>
   );
 }

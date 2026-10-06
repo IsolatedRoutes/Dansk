@@ -3,13 +3,15 @@ import { AIErrorNote } from "../../components/AIErrorNote";
 import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
 import { renderInlineMarkdown } from "../../components/markdown";
-import { CenteredOverlay, inputStyle, rowCheck, smallBtn } from "../../components/ui";
+import { SentenceResult } from "../../components/SentenceResult";
+import { readSentenceResult, initialSentenceSelection } from "../../lib/sentenceResult";
+import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
 import { apiErrorMessage, callAI } from "../../lib/ai/index";
 import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
-import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
+import { GRAMMAR_CARD_STYLE, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { storeGet } from "../../lib/storage";
 import { cleanTranslation, parseJSONLoose } from "../../lib/text";
@@ -178,26 +180,19 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     setSentenceResult(null);
     try {
       const reply = await callAI(
-        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. " + PLAIN_ENGLISH_RULE + "The user will give you text in English or Danish — anywhere from a single sentence to a longer passage — that they're trying to figure out how to say or understand correctly. " +
-          "Cover the WHOLE input, not just the first clause or the first thing that stands out — a longer passage usually has several distinct grammar points worth explaining (word order, tense, a specific construction, an idiom), and you should identify each of them separately rather than picking just one and ignoring the rest. A single short sentence will naturally still just yield one. " +
-          "If what they wrote in Danish has a grammar mistake anywhere in it, you must catch it and clearly point out what was wrong and why, referencing the specific part that was incorrect — don't silently correct it without mentioning the error. If they wrote in English, or their Danish was already correct, leave the correction note empty. " +
-          "For each distinct grammar point you identify: give it a short name, explain it in plain English in 1-2 sentences ONLY — the single most useful thing to know, not a full breakdown — give the correct Danish sentence that illustrates it (drawn from their input where it fits, or a new one otherwise) with its English translation, provide exactly 1 more example sentence using the same structure in a different context. Keep the whole response tight — this is a quick, scannable reference, not an essay." + GRAMMAR_CARD_STYLE + knownWordsHint() + " " +
-          '\n\nRespond ONLY with JSON in this exact shape, no other text: {"correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]} — correctionNote should be an empty string when there was nothing to correct.',
+        "You are a patient Danish tutor for an intermediate, self-taught learner who has foundational grammar gaps. " + PLAIN_ENGLISH_RULE + "The user will give you text in English or Danish, from a single sentence to a longer passage, that they are trying to understand or say correctly." + SENTENCE_ANALYSIS_RULES + GRAMMAR_CARD_STYLE + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
         text.trim(),
-        { maxTokens: 2200 }
+        { maxTokens: 1500 }
       );
       const parsed = parseJSONLoose(reply);
-      const points = parsed.grammarPoints || [];
+      const read = readSentenceResult(parsed);
+      const points = read.grammarPoints;
       if (points.length === 0) {
         setSentenceError("Couldn't identify a clear grammar point in that — try rephrasing, or adding a bit more context.");
         return;
       }
-      setSentenceResult({ correctionNote: parsed.correctionNote || "", grammarPoints: points });
-      const initialSelected = {};
-      points.forEach((p, i) => {
-        initialSelected[i] = { grammar: true, main: true, examples: { 0: true, 1: true } };
-      });
-      setSentenceSelected(initialSelected);
+      setSentenceResult(read);
+      setSentenceSelected(initialSentenceSelection(points));
     } catch (e) {
       setSentenceError(apiErrorMessage(e));
     } finally {
@@ -472,88 +467,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
         </div>
       )}
 
-      {sentenceResult && (
-        <CenteredOverlay onClose={() => setSentenceResult(null)} maxWidth={460}>
-          <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 4 }}>
-            <button aria-label="Close" onClick={() => setSentenceResult(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
-              <Icon.X size={18} />
-            </button>
-          </div>
-          {sentenceResult.correctionNote && (
-            <div
-              style={{
-                display: "flex",
-                gap: 8,
-                alignItems: "flex-start",
-                background: "#FBECE6",
-                border: "1px solid var(--rust)",
-                borderRadius: 8,
-                padding: "9px 11px",
-                marginBottom: 12,
-              }}
-            >
-              <Icon.HelpCircle size={15} color="var(--rust)" style={{ flexShrink: 0, marginTop: 1 }} />
-              <span style={{ fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.45, color: "var(--rust)" }}>{renderInlineMarkdown(sentenceResult.correctionNote)}</span>
-            </div>
-          )}
-
-          {sentenceResult.grammarPoints.map((point, i) => (
-            <div key={i} style={{ borderTop: i > 0 ? "1px solid var(--line)" : "none", paddingTop: i > 0 ? 16 : 0, marginTop: i > 0 ? 16 : 0 }}>
-              <div style={{ fontFamily: "var(--serif)", fontSize: 17, marginBottom: 6 }}>{point.grammarName}</div>
-              <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.5, marginBottom: 10 }}>{renderInlineMarkdown(point.explanation)}</div>
-
-              <label style={rowCheck}>
-                <input
-                  type="checkbox"
-                  checked={!!(sentenceSelected[i] && sentenceSelected[i].grammar)}
-                  onChange={(e) => setSentenceSelected({ ...sentenceSelected, [i]: { ...sentenceSelected[i], grammar: e.target.checked } })}
-                  style={{ accentColor: "#8C6FA0" }}
-                />
-                <span style={{ fontFamily: "var(--sans)", fontSize: 12.5 }}>Save this as a grammar card</span>
-              </label>
-
-              <div style={{ borderTop: "1px solid var(--line)", margin: "10px 0", paddingTop: 10 }}>
-                <label style={rowCheck}>
-                  <input
-                    type="checkbox"
-                    checked={!!(sentenceSelected[i] && sentenceSelected[i].main)}
-                    onChange={(e) => setSentenceSelected({ ...sentenceSelected, [i]: { ...sentenceSelected[i], main: e.target.checked } })}
-                    style={{ accentColor: "#8C6FA0" }}
-                  />
-                  <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                    <b style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(point.mainExample.da)}</b> —{" "}
-                    <span style={{ color: "var(--sage)" }}>{point.mainExample.en}</span>
-                  </span>
-                </label>
-                {(point.examples || []).map((ex, j) => (
-                  <label key={j} style={rowCheck}>
-                    <input
-                      type="checkbox"
-                      checked={!!(sentenceSelected[i] && sentenceSelected[i].examples && sentenceSelected[i].examples[j])}
-                      onChange={(e) =>
-                        setSentenceSelected({
-                          ...sentenceSelected,
-                          [i]: { ...sentenceSelected[i], examples: { ...(sentenceSelected[i] && sentenceSelected[i].examples), [j]: e.target.checked } },
-                        })
-                      }
-                      style={{ accentColor: "#8C6FA0" }}
-                    />
-                    <span style={{ fontFamily: "var(--sans)", fontSize: 13.5 }}>
-                      <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> —{" "}
-                      <span style={{ color: "var(--sage)" }}>{ex.en}</span>
-                    </span>
-                  </label>
-                ))}
-              </div>
-
-            </div>
-          ))}
-
-          <button onClick={addSentenceSelected} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "10px", fontSize: 14, marginTop: 16 }}>
-            Add selected to deck
-          </button>
-        </CenteredOverlay>
-      )}
+      {sentenceResult && <SentenceResult result={sentenceResult} selected={sentenceSelected} setSelected={setSentenceSelected} onClose={() => setSentenceResult(null)} onAdd={addSentenceSelected} />}
 
       {analysis && (
         <CenteredOverlay onClose={() => setAnalysis(null)} maxWidth={460}>

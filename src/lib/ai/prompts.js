@@ -51,3 +51,17 @@ export function knownWordsHint() {
     ". Where it reads naturally, build example phrases and sentences from these and other very common words, so the word or rule being taught is the only new thing in each example."
   );
 }
+
+// "Analyze sentence" (text and photo). The learner wants to understand how
+// THEIR sentence is put together, so the answer starts with a short plain
+// explanation of that sentence, then any mistake, then at most 3 key ideas.
+// Same rules as the cards: no grammar labels without teaching the idea.
+export const SENTENCE_ANALYSIS_RULES =
+  " Write the answer in this order. " +
+  "(1) sentenceExplanation: 2-4 short sentences explaining how THIS text is put together and why, using its own words, so the learner understands the sentence in front of them. Never name a rule as a bare label (never just 'verb second', 'word order', 'inversion' or 'subordinate clause') and never rely on an idea the learner would need to know already: teach the idea itself in everyday words with a tiny translated contrast taken from the text, e.g. 'The sentence starts with I går (yesterday), so har (have) has to come right after it and jeg (I) moves behind it: I går har jeg spist (Yesterday I have eaten) instead of I går jeg har spist.' " +
+  "(2) correctionNote: if the Danish the learner wrote has a mistake, one or two sentences saying what is wrong, what it should be, and why, in plain words with the right Danish and its English beside it. Empty string when there is nothing to correct. " +
+  "(3) grammarPoints: AT MOST 3, only the ideas that matter most for understanding this text. For each: a short name, an explanation of 1-2 short sentences that teaches the idea with a mini example (not just a label), one correct Danish example sentence with its English (drawn from the text where it fits), and at most 1 extra example sentence in a different context. " +
+  "Keep everything short and scannable, never an essay.";
+
+export const SENTENCE_ANALYSIS_JSON =
+  '\n\nRespond ONLY with JSON in this exact shape, no other text: {"sentenceExplanation": "...", "correctionNote": "...", "grammarPoints": [{"grammarName": "...", "explanation": "...", "mainExample": {"da": "...", "en": "..."}, "examples": [{"da":"...","en":"..."}]}]}';
