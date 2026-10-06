@@ -15,7 +15,8 @@ let package = Package(
         .package(name: "CapacitorCommunityInAppReview", path: "../../../node_modules/@capacitor-community/in-app-review"),
         .package(name: "CapacitorHaptics", path: "../../../node_modules/@capacitor/haptics"),
         .package(name: "CapacitorSecureStoragePlugin", path: "../../../node_modules/capacitor-secure-storage-plugin"),
-        .package(name: "IcloudSync", path: "../../../plugins/icloud-sync")
+        .package(name: "IcloudSync", path: "../../../plugins/icloud-sync"),
+        .package(name: "ShareInbox", path: "../../../plugins/share-inbox")
     ],
     targets: [
         .target(
@@ -26,7 +27,8 @@ let package = Package(
                 .product(name: "CapacitorCommunityInAppReview", package: "CapacitorCommunityInAppReview"),
                 .product(name: "CapacitorHaptics", package: "CapacitorHaptics"),
                 .product(name: "CapacitorSecureStoragePlugin", package: "CapacitorSecureStoragePlugin"),
-                .product(name: "IcloudSync", package: "IcloudSync")
+                .product(name: "IcloudSync", package: "IcloudSync"),
+                .product(name: "ShareInbox", package: "ShareInbox")
             ]
         )
     ]

@@ -12,11 +12,12 @@ import { apiErrorMessage, callAI, getAIEngine } from "../../lib/ai/index";
 import { GRAMMAR_CARD_STYLE, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { secretGet } from "../../lib/secrets";
+import { base64ToFile } from "../../lib/shareInbox";
 import { cleanTranslation, fileToBase64, isMobileDevice, parseJSONLoose } from "../../lib/text";
 
 // ---------- Photo import panel (always uses the API — needs vision) ----------
 
-export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }) {
+export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, incomingImage }) {
   const [backend, setBackend] = useState(undefined); // "gemini" | "api" | null
   const [preview, setPreview] = useState(null);
   const [file, setFile] = useState(null);
@@ -80,6 +81,18 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings }
   function pickFile(e) {
     handleFile(e.target.files?.[0]);
   }
+
+  // A photo shared to Broen from another app is loaded like a picked one.
+  const incomingId = incomingImage ? incomingImage.id : null;
+  useEffect(() => {
+    if (!incomingImage) return;
+    try {
+      handleFile(base64ToFile(incomingImage.imageBase64, incomingImage.imageType));
+    } catch {
+      setError("That photo couldn't be opened. Try picking it with the upload button.");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [incomingId]);
 
   function handleDrop(e) {
     e.preventDefault();

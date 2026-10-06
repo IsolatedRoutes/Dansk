@@ -22,6 +22,7 @@ import { AISettingsPanel } from "./views/AISettingsPanel";
 import { AddCardView } from "./views/AddCardView";
 import { SyncOffer } from "./components/SyncOffer";
 import { rememberDeletedOwn } from "./lib/icloud";
+import { isBareLink, watchShared } from "./lib/shareInbox";
 import { useICloudSync } from "./lib/useICloudSync";
 import { BackupPanel } from "./views/BackupPanel";
 import { LibraryView } from "./views/LibraryView";
@@ -169,6 +170,21 @@ export default function DanishFlashcards() {
     setToast(msg);
     setTimeout(() => setToast(null), 2400);
   }, []);
+
+  // Something shared to Broen from another app (iPhone app only): it opens in
+  // the Assistant's Translate box, or Photo for a picture.
+  const [incoming, setIncoming] = useState(null);
+  useEffect(() => {
+    if (!loaded) return undefined;
+    return watchShared((item) => {
+      if (!item.imageBase64 && isBareLink(item.text)) {
+        showToast("That was a link. Select the text on the page, then share that.");
+        return;
+      }
+      setIncoming({ ...item, id: uid() });
+      setTab("chat");
+    });
+  }, [loaded, showToast]);
 
   useEffect(() => {
     (async () => {
@@ -693,6 +709,8 @@ export default function DanishFlashcards() {
             addCards={addCards}
             showToast={showToast}
             engine={engine}
+            incoming={incoming}
+            onIncomingUsed={() => setIncoming(null)}
             onOpenSettings={() => setShowSettings(true)}
           />
         )}

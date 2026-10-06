@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AIErrorNote } from "../../components/AIErrorNote";
 import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
@@ -19,9 +19,20 @@ import { loadingCopy } from "./ChatConversation";
 
 // ---------- Article vocabulary panel ----------
 
-export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings }) {
+export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings, incomingText }) {
   const [text, setText] = useState("");
   const textareaRef = useRef(null);
+
+  // Text shared to Broen from another app lands in the box (added below
+  // anything already there).
+  const incomingId = incomingText ? incomingText.id : null;
+  useEffect(() => {
+    if (!incomingText) return;
+    const t = (incomingText.text || "").trim();
+    if (!t) return;
+    setText((prev) => (prev.trim() ? prev.replace(/\s+$/, "") + "\n\n" + t : t));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [incomingId]);
 
   // Translate (quick lookup)
   const [lookupResult, setLookupResult] = useState(null);

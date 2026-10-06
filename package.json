@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src",
-    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py && python3 tests/secrets_test.py && python3 tests/voice_test.py && python3 tests/settings_test.py && python3 tests/fresh_test.py && python3 tests/sentence_test.py && python3 tests/lightbulb_test.py && python3 tests/icloud_test.py",
+    "test": "python3 tests/upgrade_test.py && python3 tests/smoke_test.py && python3 tests/e2e_test.py && python3 tests/secrets_test.py && python3 tests/voice_test.py && python3 tests/settings_test.py && python3 tests/fresh_test.py && python3 tests/sentence_test.py && python3 tests/lightbulb_test.py && python3 tests/icloud_test.py && python3 tests/share_test.py",
     "build:webllm": "vite build -c vite.webllm.config.js",
     "cap:sync": "vite build && node scripts/prepare-www.mjs && cap sync ios"
   },
@@ -16,6 +16,7 @@
     "@capacitor/haptics": "^8.0.2",
     "capacitor-secure-storage-plugin": "^0.13.0",
     "icloud-sync": "file:plugins/icloud-sync",
+    "share-inbox": "file:plugins/share-inbox",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

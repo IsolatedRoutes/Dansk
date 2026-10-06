@@ -12,6 +12,14 @@ Needs a Mac with Xcode and an Apple Developer account. Do these steps on the Mac
 ## In Xcode
 - iCloud sync: Signing & Capabilities → + Capability → iCloud → tick "Key-value storage" (one time; needs the paid team). Without it the Sync switch reports iCloud isn't available.
 - Signing: choose your Apple Developer team.
+- **Share to Broen** (needs the paid team; one time). Lets you share text or a photo from any app (Safari, Photos, Notes...) straight into Broen: text goes in the Translate box, a photo into Photo. The code is ready; only these Xcode steps are left:
+  1. Click the blue **App** project, then the **App** target → Signing & Capabilities → **+ Capability → App Groups** → **+** → type `group.com.isolatedroutes.broen` (exactly) → tick it.
+  2. File → New → Target → **Share Extension** → name it `BroenShare` → Finish. If asked to activate the scheme, tap Activate.
+  3. In the left list, open the new **BroenShare** folder. Delete its `ShareViewController.swift`, `Info.plist` and any `MainInterface.storyboard` (Move to Trash). Then drag in `ios/ShareExtension/ShareViewController.swift` and `Info.plist` from this project (tick "Copy items if needed" and the BroenShare target).
+  4. Click the **BroenShare** target → Build Settings → search "Info.plist File" and set it to `BroenShare/Info.plist`. Under General set the same Team and a Deployment Target of iOS 16.
+  5. BroenShare target → Signing & Capabilities → **+ Capability → App Groups** → tick the same `group.com.isolatedroutes.broen`.
+  6. Run on a real iPhone. In Safari, select some Danish text → Share → scroll the app row → **More** → turn on **Broen**. Also try a photo from Photos.
+  Without these steps the app works exactly as before (shares just aren't received). iPhones may not let the extension open Broen by itself; then the item is waiting when you open Broen yourself.
 - App icon, camera/photo permission texts are already in the project. Just check they look right.
 - Version and build number: raise the build number for every upload.
 - Test on a real iPhone: studying, swipes, Back, Library, Backup (share sheet) and Restore, photo import with a key, reading aloud, no safe-area clipping.

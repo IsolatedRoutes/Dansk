@@ -54,7 +54,7 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder); only ship when all print ALL PASSED.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
@@ -153,6 +153,13 @@ key-value store (about 1 MB total, so the snapshot is gzipped and chunked).
   The copy taken when sync is turned on is `preSyncBackup`.
 - The website has no sync (it uses backup files). Restoring a backup while
   sync is on gets re-merged with iCloud.
+
+## Share to Broen (iPhone app only)
+Text or a photo shared from other apps lands in the Assistant: text in the Translate box (added below what is there), a photo in Photo; a bare web link is turned down with a note (select the text instead).
+- `ios/ShareExtension/`: the Share extension source (`ShareViewController.swift`, `Info.plist`, entitlements). It is NOT in the Xcode project until the owner adds the target (steps in CAPACITOR.md; needs the paid team for the App Group `group.com.isolatedroutes.broen`). It saves the item in the App Group folder `share-inbox` and tries to open `broen://share` (URL scheme added in the app's Info.plist).
+- `plugins/share-inbox/` (Swift, like icloud-sync): `take()` hands the saved item to the page once and deletes it; with no App Group it reports nothing, so the app is unaffected.
+- `src/lib/shareInbox.js` (`watchShared` at start, on focus and when the app returns to the front), `App.jsx` (`incoming`, opens the Assistant), `ChatView` (picks Translate or Photo; waits until AI is set up), panels take `incomingText` / `incomingImage`.
+- The native code could not be compiled or run where it was written; only the page side is tested (`share_test.py`). Try it on a real iPhone.
 
 ## Plain English in AI answers
 Learners may not know grammar words. `PLAIN_ENGLISH_RULE` (src/lib/ai/prompts.js)

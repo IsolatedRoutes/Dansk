@@ -1,12 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Icon } from "../../components/icons";
 import { EmptyState, Pill, SectionTitle, smallBtn } from "../../components/ui";
 import { ChatConversation } from "./ChatConversation";
 import { PhotoPanel } from "./PhotoPanel";
 import { TextExtractPanel } from "./TextExtractPanel";
 
-export function ChatView({ categories, addCategory, addCards, showToast, engine, onOpenSettings }) {
+export function ChatView({ categories, addCategory, addCards, showToast, engine, onOpenSettings, incoming, onIncomingUsed }) {
   const [mode, setMode] = useState("chat");
+
+  // Something shared from another app: a photo goes to Photo, text to Translate.
+  // It waits here until the AI is set up. The panels read it in the same render
+  // (children first), so it can be cleared right after.
+  useEffect(() => {
+    if (!incoming || !engine) return;
+    setMode(incoming.imageBase64 ? "photo" : "article");
+    if (onIncomingUsed) onIncomingUsed();
+  }, [incoming, engine, onIncomingUsed]);
 
   const quickActions = [
     { id: "chat", label: "Chat", icon: Icon.MessageCircle },
@@ -58,10 +67,10 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
             <ChatConversation engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} showToast={showToast} onOpenSettings={onOpenSettings} />
           </div>
           <div style={{ display: mode === "article" ? "block" : "none" }}>
-            <TextExtractPanel engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
+            <TextExtractPanel incomingText={incoming && !incoming.imageBase64 ? incoming : null} engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
           </div>
           <div style={{ display: mode === "photo" ? "block" : "none" }}>
-            <PhotoPanel categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
+            <PhotoPanel incomingImage={incoming && incoming.imageBase64 ? incoming : null} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
           </div>
         </>
       )}
