@@ -29,7 +29,7 @@
     "en": "open"
    },
    {
-    "da": "åbningstid",
+    "da": "åbningstider",
     "en": "opening hours"
    }
   ],
@@ -65,7 +65,7 @@
    },
    {
     "da": "at lukke op",
-    "en": "to open the door"
+    "en": "to open (a door)"
    },
    {
     "da": "åben",
@@ -229,7 +229,7 @@
   "related": [
    {
     "da": "en åbningstid",
-    "en": "opening hours"
+    "en": "an opening time"
    },
    {
     "da": "en indvielse",
@@ -448,7 +448,7 @@
    },
    {
     "da": "en bark",
-    "en": "a bark"
+    "en": "bark"
    },
    {
     "da": "en gren",
@@ -672,7 +672,7 @@
   }
  },
  "et århundrede": {
-  "explanation": "\"Et århundrede\" means \"a century\", a hundred years. It is built from år (year) and hundrede (hundred). Dates use it: i det 21. århundrede (in the 21st century).",
+  "explanation": "\"Et århundrede\" means \"a century\", a hundred years. It is built from år (year) and hundrede (hundred). You use it to name periods: i det 21. århundrede (in the 21st century).",
   "forms": [
    {
     "da": "et århundrede",
@@ -693,10 +693,6 @@
   ],
   "related": [
    {
-    "da": "et tiår",
-    "en": "a decade"
-   },
-   {
     "da": "et årti",
     "en": "a decade"
    },
@@ -707,6 +703,10 @@
    {
     "da": "en epoke",
     "en": "an era"
+   },
+   {
+    "da": "en generation",
+    "en": "a generation"
    }
   ],
   "sentence": {
@@ -988,7 +988,7 @@
   }
  },
  "årlig": {
-  "explanation": "\"Årlig\" means \"annual\", something that happens once a year. Det sker årligt (It happens every year) says how often.",
+  "explanation": "\"Årlig\" means \"annual\", something that happens once a year. To say how often something happens, use årligt: Det sker årligt (It happens every year).",
   "forms": [
    {
     "da": "en årlig fest",

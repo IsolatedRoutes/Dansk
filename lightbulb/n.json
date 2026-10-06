@@ -664,7 +664,7 @@
   }
  },
  "at nå toget": {
-  "explanation": "\"At nå toget\" means \"to catch the train\", getting there in time. Add ikke (not) if you are too late: Jeg nåede ikke toget (I missed the train).",
+  "explanation": "\"At nå toget\" means \"to catch the train\", arriving in time for it. Add ikke (not) if you are too late: Jeg nåede ikke toget (I missed the train).",
   "forms": [
    {
     "da": "at nå toget",
@@ -871,7 +871,7 @@
   }
  },
  "at nøle": {
-  "explanation": "\"At nøle\" means \"to hesitate\", to wait a moment because you are unsure. It is often followed by med at (about doing): Han nølede med at svare (He hesitated to answer).",
+  "explanation": "\"At nøle\" means \"to hesitate\", to wait a moment because you are unsure. Say what you hesitate to do with med at: Han nølede med at svare (He hesitated to answer).",
   "forms": [
    {
     "da": "at nøle",
@@ -953,23 +953,23 @@
   }
  },
  "en nakke": {
-  "explanation": "\"En nakke\" means \"a neck\", but only the back of it. The front of the neck is en hals (a throat / neck).",
+  "explanation": "\"En nakke\" means \"the back of the neck\" (the nape). The front of the neck is en hals (a throat / neck).",
   "forms": [
    {
     "da": "en nakke",
-    "en": "a neck (back of)"
+    "en": "a nape (back of the neck)"
    },
    {
     "da": "nakken",
-    "en": "the neck"
+    "en": "the nape"
    },
    {
     "da": "nakker",
-    "en": "necks"
+    "en": "napes"
    },
    {
     "da": "nakkerne",
-    "en": "the necks"
+    "en": "the napes"
    }
   ],
   "related": [
@@ -991,8 +991,8 @@
    }
   ],
   "sentence": {
-   "da": "Din **nakke** sidder bag på halsen.",
-   "en": "Your neck is at the back of the throat area."
+   "da": "Jeg har en stiv **nakke** efter en lang bilkørsel.",
+   "en": "I have a stiff neck after a long drive."
   }
  },
  "en narkoman": {
@@ -1392,8 +1392,8 @@
     "en": "a storm"
    },
    {
-    "da": "en ulykke",
-    "en": "an accident"
+    "da": "en orkan",
+    "en": "a hurricane"
    }
   ],
   "sentence": {
@@ -1596,7 +1596,7 @@
    },
    {
     "da": "en opgang",
-    "en": "a way up"
+    "en": "a stairway entrance"
    }
   ],
   "sentence": {
@@ -1765,7 +1765,7 @@
   }
  },
  "en nevø": {
-  "explanation": "\"En nevø\" means \"a nephew\", your brother's or sister's son. The girl version is niece.",
+  "explanation": "\"En nevø\" means \"a nephew\", your brother's or sister's son. The female version is en niece (a niece).",
   "forms": [
    {
     "da": "en nevø",
@@ -1804,7 +1804,7 @@
   }
  },
  "en niece": {
-  "explanation": "\"En niece\" means \"a niece\", your brother's or sister's daughter. The boy version is nevø.",
+  "explanation": "\"En niece\" means \"a niece\", your brother's or sister's daughter. The male version is en nevø (a nephew).",
   "forms": [
    {
     "da": "en niece",
@@ -1872,8 +1872,8 @@
     "en": "a troll"
    },
    {
-    "da": "en julenisse",
-    "en": "a Christmas elf"
+    "da": "en gnom",
+    "en": "a gnome"
    }
   ],
   "sentence": {
@@ -2542,7 +2542,7 @@
   }
  },
  "en nød": {
-  "explanation": "\"En nød\" means \"a nut\". The same spelling also means trouble, as in Han er i nød (He is in trouble).",
+  "explanation": "\"En nød\" means \"a nut\". The same spelling also means distress, as in Han er i nød (He is in distress).",
   "forms": [
    {
     "da": "en nød",
@@ -2955,11 +2955,11 @@
    },
    {
     "da": "et kvarter",
-    "en": "a city quarter"
+    "en": "a city district"
    },
    {
     "da": "en genbo",
-    "en": "someone living opposite"
+    "en": "a neighbor across the street"
    }
   ],
   "sentence": {
@@ -3050,7 +3050,7 @@
   }
  },
  "et navn": {
-  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes say Hvad hedder du? (literally, What are you called?) or Hvad er dit navn? (What is your name?).",
+  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes usually say Hvad hedder du? (literally, What are you called?).",
   "forms": [
    {
     "da": "et navn",
@@ -3670,7 +3670,7 @@
    }
   ],
   "sentence": {
-   "da": "Man laver et **nødopkald** til 112, når nogen er i fare.",
+   "da": "Man foretager et **nødopkald** til 112, når nogen er i fare.",
    "en": "You make an emergency call to 112 when someone is in danger."
   }
  },
@@ -3800,7 +3800,7 @@
   }
  },
  "narkose": {
-  "explanation": "\"En narkose\" means \"anesthesia\", the deep sleep a patient is put into for an operation so that they feel nothing anywhere. It is different from en lokalbedøvelse (a local anesthetic), which numbs only one spot and leaves you awake.",
+  "explanation": "\"Narkose\" means \"anesthesia\", the deep sleep a patient is put into for an operation so that they feel nothing. It is different from en lokalbedøvelse (a local anesthetic), which numbs only one spot and leaves you awake.",
   "forms": [
    {
     "da": "en narkose",
@@ -3878,7 +3878,7 @@
   }
  },
  "national": {
-  "explanation": "\"National\" means \"national\", for something that belongs to all of Denmark, or any other whole state. The opposite is lokal (local): en lokal avis (a local paper).",
+  "explanation": "\"National\" means \"national\", for something that belongs to a whole country, such as Denmark. The opposite is lokal (local): en lokal avis (a local paper).",
   "forms": [
    {
     "da": "en national fest",
@@ -3917,7 +3917,7 @@
   }
  },
  "nato": {
-  "explanation": "\"NATO\" means \"NATO\", the group of nations that promise to defend each other.",
+  "explanation": "\"NATO\" means \"NATO\", the military group of nations that promise to defend each other.",
   "forms": [
    {
     "da": "i NATO",
@@ -4142,20 +4142,20 @@
   "related": [
    {
     "da": "en datid",
-    "en": "past tense"
+    "en": "a past tense"
    },
    {
     "da": "en bydemåde",
-    "en": "imperative"
+    "en": "an imperative"
    },
    {
     "da": "en nutid",
-    "en": "present tense"
+    "en": "a present tense"
    }
   ],
   "sentence": {
-   "da": "At gå er verbet i **navnemåde**.",
-   "en": "To go is the verb in its plain form."
+   "da": "Verbet at gå står i **navnemåde**.",
+   "en": "The verb at gå is in its plain form."
   }
  },
  "navnlig": {
@@ -4215,8 +4215,8 @@
   ],
   "related": [
    {
-    "da": "ovenpå",
-    "en": "upstairs"
+    "da": "op",
+    "en": "up"
    },
    {
     "da": "nedad",
@@ -4488,8 +4488,8 @@
     "en": "yes"
    },
    {
-    "da": "ni",
-    "en": "nine"
+    "da": "næh",
+    "en": "nope"
    },
    {
     "da": "jo",
@@ -4693,7 +4693,7 @@
   }
  },
  "nervøsitet": {
-  "explanation": "\"Nervøsitet\" means \"nervousness\", the feeling before something important. Danes more often say nervøs (nervous): Jeg er nervøs (I am nervous).",
+  "explanation": "\"En nervøsitet\" means \"nervousness\", the feeling before something important. Danes more often say nervøs (nervous): Jeg er nervøs (I am nervous).",
   "forms": [
    {
     "da": "en nervøsitet",
@@ -4761,8 +4761,8 @@
     "en": "precisely"
    },
    {
-    "da": "omtrent",
-    "en": "approximately"
+    "da": "akkurat",
+    "en": "exactly"
    }
   ],
   "sentence": {
@@ -4923,7 +4923,7 @@
   }
  },
  "nogen": {
-  "explanation": "\"Nogen\" means \"someone\" or \"anyone\". After ikke (not) or in a question it is \"anyone\", and with more than one thing it is \"any\": Jeg har ikke nogen venner (I do not have any friends).",
+  "explanation": "\"Nogen\" means \"someone\" or \"anyone\". After ikke (not) or in a question it means \"anyone\" or \"any\": Jeg har ikke nogen venner (I do not have any friends).",
   "forms": [
    {
     "da": "Er der nogen her?",
@@ -5043,8 +5043,8 @@
     "en": "Do you want something to eat?"
    },
    {
-    "da": "Jeg har ikke noget",
-    "en": "I don't have anything"
+    "da": "Jeg har ikke noget.",
+    "en": "I do not have anything."
    },
    {
     "da": "noget andet",
@@ -5071,7 +5071,7 @@
   }
  },
  "nogle": {
-  "explanation": "\"Nogle\" means \"some\" or \"a few\". Compare Jeg har en ven (I have one friend) with Jeg har nogle venner (I have some friends). In a question or with ikke, use nogen instead: Har du nogen venner? (Do you have any friends?).",
+  "explanation": "\"Nogle\" means \"some\" or \"a few\". Compare Jeg har en ven (I have one friend) with Jeg har nogle venner (I have some friends). In a question or with ikke, nogen is the usual word: Har du nogen venner? (Do you have any friends?).",
   "forms": [
    {
     "da": "nogle bøger",
@@ -5157,7 +5157,7 @@
    },
    {
     "da": "Jeg har ikke nok tid.",
-    "en": "I don't have enough time."
+    "en": "I do not have enough time."
    }
   ],
   "related": [
@@ -5196,7 +5196,7 @@
    },
    {
     "da": "mod nord",
-    "en": "towards the north"
+    "en": "toward the north"
    }
   ],
   "related": [
@@ -5811,7 +5811,7 @@
   }
  },
  "nutid": {
-  "explanation": "\"En nutid\" means \"a present tense\", the verb form for what is happening now: jeg løber (I run) is in nutid. The time we live in is usually called nutiden.",
+  "explanation": "\"En nutid\" means \"a present tense\", the verb form for what is happening now: jeg løber (I run) is in nutid. Nutiden (the present) also means the present time in general.",
   "forms": [
    {
     "da": "en nutid",
@@ -5829,15 +5829,15 @@
   "related": [
    {
     "da": "en datid",
-    "en": "past tense"
+    "en": "a past tense"
    },
    {
-    "da": "futurum",
-    "en": "future tense"
+    "da": "en fremtid",
+    "en": "a future tense"
    },
    {
     "da": "en bydemåde",
-    "en": "imperative"
+    "en": "an imperative"
    }
   ],
   "sentence": {
@@ -5977,19 +5977,15 @@
   "related": [
    {
     "da": "nå",
-    "en": "well / oh"
+    "en": "well, oh"
    },
    {
     "da": "altså",
-    "en": "so / well"
+    "en": "so, well"
    },
    {
     "da": "tja",
-    "en": "well..."
-   },
-   {
-    "da": "okay",
-    "en": "okay"
+    "en": "well"
    }
   ],
   "sentence": {
@@ -6028,7 +6024,7 @@
    },
    {
     "da": "daværende",
-    "en": "then-current"
+    "en": "of that time"
    }
   ],
   "sentence": {
@@ -6067,7 +6063,7 @@
    },
    {
     "da": "nylig",
-    "en": "recently"
+    "en": "recent"
    }
   ],
   "sentence": {
@@ -6076,7 +6072,7 @@
   }
  },
  "nyheder": {
-  "explanation": "\"Nyheder\" means \"news\". Where English says the news is bad, Danish says nyhederne er dårlige, literally the news are bad, because the word is for more than one piece of news. One single piece of news is en nyhed.",
+  "explanation": "\"Nyheder\" means \"news\". Danish treats it as plural: Nyhederne er dårlige (The news is bad; literally, the news are bad). One single piece of news is en nyhed.",
   "forms": [
    {
     "da": "en nyhed",
@@ -6193,7 +6189,7 @@
   "forms": [
    {
     "da": "en nysgerrighed",
-    "en": "a curiosity"
+    "en": "curiosity"
    },
    {
     "da": "nysgerrigheden",
@@ -6363,12 +6359,12 @@
    },
    {
     "da": "aha",
-    "en": "aha"
+    "en": "oh, I see"
    }
   ],
   "sentence": {
    "da": "**Nå**, nu forstår jeg det!",
-   "en": "Oh, now I understand it!"
+   "en": "Oh, now I understand!"
   }
  },
  "nå ja": {
@@ -6390,7 +6386,7 @@
   "related": [
    {
     "da": "aha",
-    "en": "aha"
+    "en": "I see"
    },
    {
     "da": "selvfølgelig",
@@ -6407,7 +6403,7 @@
   }
  },
  "nå men": {
-  "explanation": "\"Nå men\" means \"well then\" and you say it to move a talk on or to wrap it up. After it you usually say what happens next, such as starting a task or leaving.",
+  "explanation": "\"Nå men\" means \"well then\" and you say it to move a conversation on or to wrap it up. After it you usually say what happens next, such as starting a task or leaving.",
   "forms": [
    {
     "da": "Nå men...",
@@ -6695,7 +6691,7 @@
   }
  },
  "nærmest": {
-  "explanation": "\"Nærmest\" means \"almost\", and also \"nearest\" for a place. Both meanings come from the idea of being right next to something: a thing that is nærmest a disaster is right next to being one.",
+  "explanation": "\"Nærmest\" means \"almost\", and also \"nearest\" for a place. Both meanings come from the idea of being closest: something that is nærmest a disaster is the closest thing to one.",
   "forms": [
    {
     "da": "Det var nærmest en katastrofe",
@@ -6712,8 +6708,8 @@
   ],
   "related": [
    {
-    "da": "fast",
-    "en": "nearly"
+    "da": "næsten",
+    "en": "almost"
    },
    {
     "da": "tæt på",
@@ -6773,7 +6769,7 @@
   }
  },
  "næseblod": {
-  "explanation": "\"Et næseblod\" means \"a nosebleed\", blood running from the nose. Danes say næseblod without a word for \"a\", and the doctor's word is næseblødning.",
+  "explanation": "\"Næseblod\" means \"a nosebleed\", blood running from the nose. Danes say it without a word for \"a\": Jeg har næseblod (I have a nosebleed). The doctor's word is næseblødning.",
   "forms": [
    {
     "da": "et næseblod",
@@ -6784,12 +6780,12 @@
     "en": "the nosebleed"
    },
    {
-    "da": "Jeg har næseblod",
-    "en": "I have a nosebleed"
+    "da": "Jeg har næseblod.",
+    "en": "I have a nosebleed."
    },
    {
-    "da": "Han fik næseblod",
-    "en": "He got a nosebleed"
+    "da": "Han fik næseblod.",
+    "en": "He got a nosebleed."
    }
   ],
   "related": [
@@ -6925,10 +6921,10 @@
   }
  },
  "nødhjælp": {
-  "explanation": "\"En nødhjælp\" means \"emergency aid\", quick help sent to people after an earthquake, a war or a famine, such as food, water and medicine. It is meant for many people at once, not for one hurt person.",
+  "explanation": "\"Nødhjælp\" means \"emergency aid\", quick help sent to people after an earthquake, a war or a famine, such as food, water and medicine. It is meant for many people at once, not for one hurt person.",
   "forms": [
    {
-    "da": "en nødhjælp",
+    "da": "nødhjælp",
     "en": "emergency aid"
    },
    {
@@ -7095,7 +7091,7 @@
   "related": [
    {
     "da": "nødvendig",
-    "en": "needed"
+    "en": "necessary"
    },
    {
     "da": "uundgåeligt",
@@ -7233,7 +7229,7 @@
   "forms": [
    {
     "da": "nøjagtigt klokken otte",
-    "en": "exactly at eight o'clock"
+    "en": "exactly eight o'clock"
    },
    {
     "da": "Det passer nøjagtigt",
@@ -7271,16 +7267,16 @@
   "explanation": "\"Nøje\" means \"closely\" or \"carefully\": with exact attention to every detail. It usually comes after the thing you do, such as reading, following or checking. Do not mix it up with nær (close), which is about distance.",
   "forms": [
    {
-    "da": "Læs kontrakten nøje.",
-    "en": "Read the contract closely."
+    "da": "Læs kontrakten nøje",
+    "en": "Read the contract closely"
    },
    {
     "da": "at følge reglerne nøje",
     "en": "to follow the rules closely"
    },
    {
-    "da": "Det er ikke så nøje.",
-    "en": "It does not matter that much."
+    "da": "Det er ikke så nøje",
+    "en": "It does not matter that much"
    }
   ],
   "related": [

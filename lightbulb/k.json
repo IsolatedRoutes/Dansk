@@ -78,7 +78,7 @@
   }
  },
  "at kaste": {
-  "explanation": "\"At kaste\" means \"to throw\": Han kastede bolden til mig (He threw the ball to me). With op, it means \"to throw up\": Jeg skal kaste op (I am going to throw up).",
+  "explanation": "\"At kaste\" means \"to throw\": Han kastede bolden til mig (He threw the ball to me). With op, it means \"to vomit\": Jeg skal kaste op (I am going to be sick).",
   "forms": [
    {
     "da": "at kaste",
@@ -139,7 +139,7 @@
   "related": [
    {
     "da": "at opgive",
-    "en": "to abandon"
+    "en": "to give up"
    },
    {
     "da": "at kapitulere",
@@ -160,7 +160,7 @@
   }
  },
  "at kaste op": {
-  "explanation": "\"At kaste op\" means \"to throw up\", as in being sick. It is made of kaste (to throw) and op (up), and without op, kaste is just to throw: Jeg kaster bolden (I throw the ball).",
+  "explanation": "\"At kaste op\" means \"to throw up\", what you do when you are sick. It is made of kaste (to throw) and op (up), and without op, kaste is just to throw: Jeg kaster bolden (I throw the ball).",
   "forms": [
    {
     "da": "at kaste op",
@@ -185,7 +185,7 @@
     "en": "to vomit"
    },
    {
-    "da": "kvalme",
+    "da": "en kvalme",
     "en": "nausea"
    },
    {
@@ -242,7 +242,7 @@
   }
  },
  "at kede sig": {
-  "explanation": "\"At kede sig\" means \"to be bored\": Jeg keder mig (I am bored). The little word changes with the person: Han keder sig (He is bored), Vi keder os (We are bored).",
+  "explanation": "\"At kede sig\" means \"to be bored\": Jeg keder mig (I am bored). The small word sig changes with the person: Han keder sig (He is bored), Vi keder os (We are bored).",
   "forms": [
    {
     "da": "at kede sig",
@@ -311,7 +311,7 @@
    },
    {
     "da": "at genkende",
-    "en": "to recognise"
+    "en": "to recognize"
    },
    {
     "da": "et kendskab",
@@ -514,7 +514,7 @@
    },
    {
     "da": "at beklage",
-    "en": "to regret"
+    "en": "to regret / be sorry"
    },
    {
     "da": "en reklamation",
@@ -785,29 +785,29 @@
   "forms": [
    {
     "da": "at klemme",
-    "en": "to squeeze, to pinch"
+    "en": "to squeeze / pinch"
    },
    {
     "da": "jeg klemmer",
-    "en": "I squeeze"
+    "en": "I squeeze / pinch"
    },
    {
     "da": "jeg klemte",
-    "en": "I squeezed"
+    "en": "I squeezed / pinched"
    },
    {
     "da": "jeg har klemt",
-    "en": "I have squeezed"
+    "en": "I have squeezed / pinched"
    }
   ],
   "related": [
    {
     "da": "en klem",
-    "en": "a squeeze, a hug"
+    "en": "a squeeze / hug"
    },
    {
     "da": "at presse",
-    "en": "to press, to squeeze"
+    "en": "to press / squeeze"
    },
    {
     "da": "at kramme",
@@ -945,7 +945,7 @@
   }
  },
  "at klæde": {
-  "explanation": "\"At klæde\" means \"to suit\": clothes, colors or a haircut that make a person look nice. The clothes come first and the person after: Blåt klæder hende (Blue suits her).",
+  "explanation": "\"At klæde\" means \"to suit\": clothes, colors or a haircut that make a person look nice. Danish puts the thing first and the person after: Blåt klæder hende (Blue suits her).",
   "forms": [
    {
     "da": "at klæde",
@@ -1057,7 +1057,7 @@
    },
    {
     "da": "at klæde sig ud",
-    "en": "to dress up"
+    "en": "to put on a costume"
    }
   ],
   "sentence": {
@@ -1585,7 +1585,7 @@
   }
  },
  "at komme an på": {
-  "explanation": "\"At komme an på\" means \"to depend on\": Det kommer an på vejret (It depends on the weather). On its own, it is a common answer: Kommer du? Det kommer an på (Are you coming? It depends).",
+  "explanation": "\"At komme an på\" means \"to depend on\": Det kommer an på vejret (It depends on the weather). Alone, Det kommer an på is a common short answer: Kommer du? Det kommer an på (Are you coming? It depends).",
   "forms": [
    {
     "da": "at komme an på",
@@ -1732,14 +1732,14 @@
   "related": [
    {
     "da": "at ankomme",
-    "en": "to arrive (formal)"
+    "en": "to arrive"
    },
    {
     "da": "at nå",
     "en": "to reach"
    },
    {
-    "da": "at tage afsted",
+    "da": "at tage af sted",
     "en": "to leave"
    }
   ],
@@ -2134,7 +2134,7 @@
   "related": [
    {
     "da": "at blive rask",
-    "en": "to get well"
+    "en": "to get better"
    },
    {
     "da": "at helbrede",
@@ -2237,7 +2237,7 @@
   }
  },
  "at komme ud": {
-  "explanation": "\"At komme ud\" means \"to come out\" or \"to get out\", of a room, house or building: Kom ud! means \"Come out!\" and Han kommer ud af skolen means \"He comes out of the school\".",
+  "explanation": "\"At komme ud\" means \"to come out\" or \"to get out\", of a room, house or building: Kom ud! (Come out!). Han kommer ud af skolen (He comes out of the school).",
   "forms": [
    {
     "da": "at komme ud",
@@ -2577,19 +2577,19 @@
   "forms": [
    {
     "da": "at konfirmere",
-    "en": "to confirm (church)"
+    "en": "to confirm (in church)"
    },
    {
     "da": "jeg konfirmerer",
-    "en": "I confirm (church)"
+    "en": "I confirm"
    },
    {
     "da": "jeg konfirmerede",
-    "en": "I confirmed (church)"
+    "en": "I confirmed"
    },
    {
     "da": "jeg har konfirmeret",
-    "en": "I have confirmed (church)"
+    "en": "I have confirmed"
    }
   ],
   "related": [
@@ -2607,7 +2607,7 @@
    },
    {
     "da": "en konfirmand",
-    "en": "a confirmand"
+    "en": "a young person being confirmed"
    }
   ],
   "sentence": {
@@ -2689,7 +2689,7 @@
    },
    {
     "da": "at dyste",
-    "en": "to contest"
+    "en": "to compete in a match"
    }
   ],
   "sentence": {
@@ -2784,7 +2784,7 @@
   }
  },
  "at kontakte": {
-  "explanation": "\"At kontakte\" means \"to contact\", to get in touch with a person or a company. It sounds formal. With friends you would say Send mig en besked (Send me a message).",
+  "explanation": "\"At kontakte\" means \"to contact\", to get in touch with a person or a company. The one you contact follows right after with no extra word: Jeg kontakter banken i morgen (I will contact the bank tomorrow).",
   "forms": [
    {
     "da": "at kontakte",
@@ -3206,7 +3206,7 @@
   }
  },
  "at krybe": {
-  "explanation": "\"At krybe\" means \"to creep / crawl\", to move low along the ground, like a snake or a worm. The past is irregular: jeg krøb (I crept).",
+  "explanation": "\"At krybe\" means \"to creep\" or \"to crawl\": to move low along the ground, like a snake or a worm, or a person on hands and knees: Barnet kryber ind under bordet (The child crawls in under the table).",
   "forms": [
    {
     "da": "at krybe",
@@ -3279,11 +3279,11 @@
    },
    {
     "da": "at smage til",
-    "en": "to season to taste"
+    "en": "to adjust the seasoning"
    },
    {
     "da": "krydret",
-    "en": "spicy"
+    "en": "seasoned / spiced"
    }
   ],
   "sentence": {
@@ -3409,7 +3409,7 @@
   }
  },
  "at kunne lide": {
-  "explanation": "\"At kunne lide\" means \"to like\": Jeg kan lide kaffe (I like coffee). With a person, you usually add godt (well): Jeg kan godt lide dig (I like you). To say you do not like something, add ikke (not): Jeg kan ikke lide det (I don't like it).",
+  "explanation": "\"At kunne lide\" means \"to like\": Jeg kan lide kaffe (I like coffee). Adding godt (well) is very common and makes it warmer: Jeg kan godt lide dig (I like you). To say you do not like something, add ikke (not): Jeg kan ikke lide det (I don't like it).",
   "forms": [
    {
     "da": "at kunne lide",
@@ -3741,7 +3741,7 @@
   }
  },
  "at kæle": {
-  "explanation": "\"At kæle\" means \"to cuddle / pet\", to show love with soft touches. It is used for people and animals, and it goes with med (with).",
+  "explanation": "\"At kæle\" means \"to cuddle / pet\", to show love with soft touches. It is used for people and animals. Use med (with) for who you cuddle: kæle med katten (cuddle the cat).",
   "forms": [
    {
     "da": "at kæle",
@@ -3974,7 +3974,7 @@
    },
    {
     "da": "et kørekort",
-    "en": "a driving licence"
+    "en": "a driving license"
    },
    {
     "da": "en chauffør",
@@ -3987,7 +3987,7 @@
   }
  },
  "at køre fast": {
-  "explanation": "\"At køre fast\" means \"to get stuck\", first of all a car or other vehicle. It also fits a conversation or a plan: Samtalen kørte fast (The conversation got stuck).",
+  "explanation": "\"At køre fast\" means \"to get stuck\", usually a car or other vehicle. It also fits a conversation or a plan: Samtalen kørte fast (The conversation got stuck).",
   "forms": [
    {
     "da": "at køre fast",
@@ -4268,7 +4268,7 @@
   }
  },
  "en kaffepause": {
-  "explanation": "\"En kaffepause\" means \"a coffee break\", a short time away from work. It is built from kaffe (coffee) and pause (break). Pause also works alone: Vi holder pause (We stop for a while).",
+  "explanation": "\"En kaffepause\" means \"a coffee break\", a short time away from work. It is built from kaffe (coffee) and pause (break). Pause also works alone: Vi holder pause (We take a break).",
   "forms": [
    {
     "da": "en kaffepause",
@@ -4384,8 +4384,8 @@
    }
   ],
   "sentence": {
-   "da": "Når **kagedej** er klar, skal den i ovnen i en halv time.",
-   "en": "When the cake batter is ready, it goes in the oven for half an hour."
+   "da": "Jeg hælder **kagedej** i formen og sætter den i ovnen.",
+   "en": "I pour cake batter into the pan and put it in the oven."
   }
  },
  "en kageform": {
@@ -4510,7 +4510,7 @@
   ],
   "sentence": {
    "da": "Båden lægger til ved **kaj** nummer to.",
-   "en": "The boat docks at dock number two."
+   "en": "The boat docks at quay number two."
   }
  },
  "en kakerlak": {
@@ -4557,7 +4557,7 @@
   }
  },
  "en kalender": {
-  "explanation": "\"En kalender\" means \"a calendar\", which shows the whole year, on paper or in your phone, so you can plan ahead.",
+  "explanation": "\"En kalender\" means \"a calendar\", on paper or in your phone, that shows the days of the year so you can plan ahead.",
   "forms": [
    {
     "da": "en kalender",
@@ -4639,7 +4639,7 @@
   }
  },
  "en kalorie": {
-  "explanation": "\"En kalorie\" means \"a calorie\". You mostly hear it for more than one: Hvor mange kalorier er der i en pizza? (How many calories are in a pizza?)",
+  "explanation": "\"En kalorie\" means \"a calorie\". You mostly hear it for several at once: Hvor mange kalorier er der i en pizza? (How many calories are in a pizza?)",
   "forms": [
    {
     "da": "en kalorie",
@@ -4957,8 +4957,8 @@
     "en": "an ad"
    },
    {
-    "da": "en aktion",
-    "en": "a drive"
+    "da": "en valgkamp",
+    "en": "an election campaign"
    },
    {
     "da": "et slogan",
@@ -5087,7 +5087,7 @@
    },
    {
     "da": "en bachelor",
-    "en": "a bachelor (degree holder)"
+    "en": "a bachelor's degree"
    },
    {
     "da": "at stille op",
@@ -5168,7 +5168,7 @@
     "en": "a hamster"
    },
    {
-    "da": "en kaninbur",
+    "da": "et kaninbur",
     "en": "a rabbit hutch"
    }
   ],
@@ -5178,7 +5178,7 @@
   }
  },
  "en kano": {
-  "explanation": "\"En kano\" means \"a canoe\", a light, narrow boat that you move with a short oar. Danish uses at sejle (to sail) for any trip on water: sejle i kano (to go canoeing).",
+  "explanation": "\"En kano\" means \"a canoe\", a light, narrow boat that you move with a paddle. Danish uses at sejle (to sail) for any trip on water: sejle i kano (to go canoeing).",
   "forms": [
    {
     "da": "en kano",
@@ -5217,7 +5217,7 @@
   ],
   "sentence": {
    "da": "Vi kan leje en **kano** og sejle på søen.",
-   "en": "We can rent a canoe and paddle on the lake."
+   "en": "We can rent a canoe and go out on the lake."
   }
  },
  "en kanon": {
@@ -5547,8 +5547,8 @@
     "en": "nougat"
    },
    {
-    "da": "en slikkepind",
-    "en": "a lollipop"
+    "da": "slik",
+    "en": "candy"
    },
    {
     "da": "en chokolade",
@@ -5672,8 +5672,8 @@
     "en": "potato salad"
    },
    {
-    "da": "en pommes frites",
-    "en": "a french fry"
+    "da": "pommes frites",
+    "en": "french fries"
    }
   ],
   "sentence": {
@@ -5825,7 +5825,7 @@
    },
    {
     "da": "en bon",
-    "en": "a receipt slip"
+    "en": "a slip (receipt, voucher)"
    },
    {
     "da": "en reklamation",
@@ -5842,7 +5842,7 @@
   }
  },
  "en kassedame": {
-  "explanation": "\"En kassedame\" means \"a cashier\", the person at the register in a store. Literally it is register lady, so en kassemedarbejder (a register employee) is a more neutral choice.",
+  "explanation": "\"En kassedame\" means \"a cashier\", the person at the register in a store. Literally it is register lady, so en kassemedarbejder (a register employee) is more neutral and fits men too.",
   "forms": [
    {
     "da": "en kassedame",
@@ -6213,33 +6213,33 @@
   ],
   "sentence": {
    "da": "Katten bruger sin **kattebakke**, når den skal på toilet.",
-   "en": "The cat uses its litter box when it needs the toilet."
+   "en": "The cat uses its litter box when it needs to use the toilet."
   }
  },
  "en kaution": {
-  "explanation": "\"En kaution\" means \"a bail\" or \"a guarantee\": money put down as a pledge that you will do something. In court, it lets a suspect wait at home until the trial. It is also the money you pay up front when renting a home.",
+  "explanation": "\"En kaution\" means \"bail\" or \"a guarantee\": money put down as a pledge that you will do something. In court, it lets a suspect wait at home until the trial. To put up bail is at stille kaution.",
   "forms": [
    {
     "da": "en kaution",
-    "en": "a bail"
+    "en": "a bail payment"
    },
    {
     "da": "kautionen",
-    "en": "the bail"
+    "en": "the bail payment"
    },
    {
     "da": "kautioner",
-    "en": "bails"
+    "en": "bail payments"
    },
    {
     "da": "kautionerne",
-    "en": "the bails"
+    "en": "the bail payments"
    }
   ],
   "related": [
    {
     "da": "en sikkerhed",
-    "en": "collateral"
+    "en": "security"
    },
    {
     "da": "en garanti",
@@ -6260,7 +6260,7 @@
   }
  },
  "en kejser": {
-  "explanation": "\"En kejser\" means \"an emperor\", the highest leader of a large, powerful state. A woman in that role is en kejserinde. The word also appears in et kejsersnit (a C-section).",
+  "explanation": "\"En kejser\" means \"an emperor\", the highest leader of a large, powerful state. A woman in that role is en kejserinde (an empress). The word also appears in et kejsersnit (a C-section).",
   "forms": [
    {
     "da": "en kejser",
@@ -6303,7 +6303,7 @@
   }
  },
  "en kemiker": {
-  "explanation": "\"En kemiker\" means \"a chemist\", a scientist who studies what substances are made of and how they react. Watch out: it is not a drugstore worker as in British English. For that, use en apoteker (a pharmacist).",
+  "explanation": "\"En kemiker\" means \"a chemist\", a scientist who studies what substances are made of and how they react. In British English a chemist can mean a pharmacist, but kemiker never does. For that job, use en apoteker (a pharmacist).",
   "forms": [
    {
     "da": "en kemiker",
@@ -6825,7 +6825,7 @@
   "related": [
    {
     "da": "en butik",
-    "en": "a shop"
+    "en": "a store"
    },
    {
     "da": "en købmand",
@@ -6989,7 +6989,7 @@
    },
    {
     "da": "et skrin",
-    "en": "a casket"
+    "en": "a small chest"
    },
    {
     "da": "en kuffert",
@@ -7166,11 +7166,11 @@
   }
  },
  "en klasse": {
-  "explanation": "\"En klasse\" means \"a class\", both the group of pupils and the classroom. Danish schools count the school years as classes: 2. klasse means \"second grade\".",
+  "explanation": "\"En klasse\" means \"a class\", the group of pupils who are taught together. Danish schools count the school years as classes: 2. klasse means \"second grade\".",
   "forms": [
    {
     "da": "en klasse",
-    "en": "a class / classroom"
+    "en": "a class"
    },
    {
     "da": "klassen",
@@ -7248,7 +7248,7 @@
   }
  },
  "en klasselærer": {
-  "explanation": "\"En klasselærer\" means \"a class teacher\", the teacher who looks after one class, often stays with it for years and is the main contact for each child's home.",
+  "explanation": "\"En klasselærer\" means \"a class teacher\", the teacher who looks after one class. Often the same teacher stays with the class for years and is the main contact for each child's home.",
   "forms": [
    {
     "da": "en klasselærer",
@@ -7291,7 +7291,7 @@
   }
  },
  "en klassificering": {
-  "explanation": "\"En klassificering\" means \"a classification\", putting things into groups by what they have in common. To do this, say at klassificere (to classify).",
+  "explanation": "\"En klassificering\" means \"a classification\", putting things into groups by what they have in common. The verb is at klassificere (to classify).",
   "forms": [
    {
     "da": "en klassificering",
@@ -7334,7 +7334,7 @@
   }
  },
  "en klassiker": {
-  "explanation": "\"En klassiker\" means \"a classic\", something very well known that has lasted for many years, such as a book, a film or a song. It also fits a dish or a design that never goes out of style. For classical music, say klassisk musik.",
+  "explanation": "\"En klassiker\" means \"a classic\", something very well known that has lasted for many years, such as a book, a movie or a song. It also fits a dish or a design that never goes out of style. For classical music, say klassisk musik.",
   "forms": [
    {
     "da": "en klassiker",
@@ -7373,7 +7373,7 @@
   ],
   "sentence": {
    "da": "Den gamle film er blevet en **klassiker**, som alle har set.",
-   "en": "The old film has become a classic that everyone has seen."
+   "en": "The old movie has become a classic that everyone has seen."
   }
  },
  "en klat": {
@@ -7446,11 +7446,11 @@
    },
    {
     "da": "en brunkage",
-    "en": "a ginger cookie"
+    "en": "a Danish spice cookie"
    },
    {
     "da": "en vaniljekrans",
-    "en": "a vanilla ring cookie"
+    "en": "a vanilla butter cookie"
    },
    {
     "da": "en risalamande",
@@ -7549,7 +7549,7 @@
   }
  },
  "en klinik": {
-  "explanation": "\"En klinik\" means \"a clinic\", a place where you see a doctor or dentist without staying overnight. A hospital, where people can stay overnight, is et sygehus or \"et hospital\".",
+  "explanation": "\"En klinik\" means \"a clinic\", a place where you see a doctor or dentist without staying overnight. A hospital, where people can stay overnight, is et sygehus or et hospital.",
   "forms": [
    {
     "da": "en klinik",
@@ -7717,7 +7717,7 @@
   }
  },
  "en klo": {
-  "explanation": "\"En klo\" means \"a claw\", the hard, sharp nail on an animal's paw or a bird's foot, and also the pincer of a crab. It appears in the saying at komme i kløerne på nogen (to fall into someone's clutches).",
+  "explanation": "\"En klo\" means \"a claw\", the hard, sharp nail on an animal's paw or a bird's foot, and also the pincer of a crab. It appears in the saying at falde i kløerne på nogen (to fall into someone's clutches).",
   "forms": [
    {
     "da": "en klo",
@@ -7768,7 +7768,7 @@
    },
    {
     "da": "kloden",
-    "en": "the planet"
+    "en": "the Earth"
    },
    {
     "da": "kloder",
@@ -8088,7 +8088,7 @@
   }
  },
  "en knage": {
-  "explanation": "\"En knage\" means \"a coat hook\", a small hook fixed to a wall or door where you hang coats, hats and bags. It is a common sight in a hallway.",
+  "explanation": "\"En knage\" means \"a coat hook\", a small hook fixed to a wall or door where you hang coats, hats and bags.",
   "forms": [
    {
     "da": "en knage",
@@ -8122,7 +8122,7 @@
    },
    {
     "da": "en garderobe",
-    "en": "a coat rack / cloakroom"
+    "en": "a closet / cloakroom"
    }
   ],
   "sentence": {
@@ -8160,7 +8160,7 @@
     "en": "a bike"
    },
    {
-    "da": "en el-cykel",
+    "da": "en elcykel",
     "en": "an electric bike"
    }
   ],
@@ -8281,8 +8281,8 @@
     "en": "cutlery"
    },
    {
-    "da": "en teske",
-    "en": "a teaspoon"
+    "da": "en smørkniv",
+    "en": "a butter knife"
    }
   ],
   "sentence": {
@@ -8329,7 +8329,7 @@
    }
   ],
   "sentence": {
-   "da": "Tilføj en **knivspids** salt til suppen.",
+   "da": "Tilsæt en **knivspids** salt til suppen.",
    "en": "Add a pinch of salt to the soup."
   }
  },
@@ -8359,7 +8359,7 @@
     "en": "a skeleton"
    },
    {
-    "da": "et ledd",
+    "da": "et led",
     "en": "a joint"
    },
    {
@@ -8506,7 +8506,7 @@
   }
  },
  "en ko": {
-  "explanation": "\"En ko\" means \"a cow\", a large farm animal kept for its milk and meat. It lives on a farm and spends the summer in a field.",
+  "explanation": "\"En ko\" means \"a cow\", a large farm animal kept for its milk and meat.",
   "forms": [
    {
     "da": "en ko",
@@ -8622,7 +8622,7 @@
    },
    {
     "da": "en håndbremse",
-    "en": "a handbrake"
+    "en": "a hand brake"
    }
   ],
   "sentence": {
@@ -8713,7 +8713,7 @@
   }
  },
  "en kogeplade": {
-  "explanation": "\"En kogeplade\" means \"a hotplate\", the heated plate you cook on. It is built from at koge (to boil) and en plade (a plate). The verb works for food in water: Jeg koger kartofler (I boil potatoes).",
+  "explanation": "\"En kogeplade\" means \"a hotplate\", the heated plate you cook on. It is built from at koge (to boil, to cook) and en plade (a plate): Jeg koger kartofler (I boil potatoes).",
   "forms": [
    {
     "da": "en kogeplade",
@@ -9256,7 +9256,7 @@
   }
  },
  "en kommandør": {
-  "explanation": "\"En kommandør\" means \"a commander\", a high-ranking leader of a military unit. As an official rank, it is used in the navy.",
+  "explanation": "\"En kommandør\" means \"a commander\", a high-ranking leader of a military unit. It is also an official rank in the navy, a high one.",
   "forms": [
    {
     "da": "en kommandør",
@@ -9381,7 +9381,7 @@
   }
  },
  "en kommissær": {
-  "explanation": "\"En kommissær\" means \"a commissioner\", a high official in charge of one special area, for example in the EU. In the police, en politikommissær is a senior officer who leads an investigation.",
+  "explanation": "\"En kommissær\" means \"a commissioner\", a high official in charge of one special area, for example in the EU.",
   "forms": [
    {
     "da": "en kommissær",
@@ -9596,7 +9596,7 @@
   }
  },
  "en koncert": {
-  "explanation": "\"En koncert\" means \"a concert\", a live music show by a singer, a band or an orchestra. At gå til koncert means \"to go to a concert\", and Danish leaves out the word for \"a\" there.",
+  "explanation": "\"En koncert\" means \"a concert\", a live music show by a singer, a band or an orchestra. Danish leaves out \"a\" in gå til koncert (go to a concert).",
   "forms": [
    {
     "da": "en koncert",
@@ -9717,7 +9717,7 @@
   }
  },
  "en kone": {
-  "explanation": "\"En kone\" means \"a wife\". For a woman in general, use en kvinde (a woman), not kone, which only means a married partner.",
+  "explanation": "\"En kone\" means \"a wife\". For a woman in general, use en kvinde (a woman), not kone.",
   "forms": [
    {
     "da": "en kone",
@@ -9760,7 +9760,7 @@
   }
  },
  "en konfirmation": {
-  "explanation": "\"En konfirmation\" means \"a confirmation\", a Christian ceremony for teenagers, usually at age 14, followed by a big family party.",
+  "explanation": "\"En konfirmation\" means \"a confirmation\", a Christian ceremony for teenagers, usually around age 14, followed by a big family party.",
   "forms": [
    {
     "da": "en konfirmation",
@@ -9836,7 +9836,7 @@
     "en": "a settlement"
    },
    {
-    "da": "en fred",
+    "da": "fred",
     "en": "peace"
    }
   ],
@@ -10302,7 +10302,7 @@
    }
   ],
   "sentence": {
-   "da": "Ved **kontaktløs betaling** holder du bare telefonen ind til terminalen.",
+   "da": "Ved **kontaktløs betaling** holder du bare telefonen hen til terminalen.",
    "en": "With contactless payment you just hold the phone up to the terminal."
   }
  },
@@ -10410,8 +10410,8 @@
   ],
   "related": [
    {
-    "da": "en adgangskode",
-    "en": "a password"
+    "da": "en bankkonto",
+    "en": "a bank account"
    },
    {
     "da": "et kontonummer",
@@ -10467,23 +10467,23 @@
   }
  },
  "en kontorplads": {
-  "explanation": "\"En kontorplads\" means \"a desk (workspace)\", your own place to sit and work at a company, often one seat in a shared room. People often say how many they need: Vi mangler tre kontorpladser (We are short of three workspaces).",
+  "explanation": "\"En kontorplads\" means \"a workspace\", your own place to sit and work at a company, often one seat in a shared room. People often say how many they need: Vi mangler tre kontorpladser (We are short of three workspaces).",
   "forms": [
    {
     "da": "en kontorplads",
-    "en": "a desk (workspace)"
+    "en": "a workspace"
    },
    {
     "da": "kontorpladsen",
-    "en": "the desk (workspace)"
+    "en": "the workspace"
    },
    {
     "da": "kontorpladser",
-    "en": "desks (workspaces)"
+    "en": "workspaces"
    },
    {
     "da": "kontorpladserne",
-    "en": "the desks (workspaces)"
+    "en": "the workspaces"
    }
   ],
   "related": [
@@ -10506,7 +10506,7 @@
   }
  },
  "en kontorstol": {
-  "explanation": "\"En kontorstol\" means \"an office chair\", built from kontor (office) and stol (chair). For \"at the office\" Danish uses på: Jeg er på kontoret (I am at the office).",
+  "explanation": "\"En kontorstol\" means \"an office chair\", built from kontor (office) and stol (chair). Stol (chair) is also in en spisestol (a dining chair).",
   "forms": [
    {
     "da": "en kontorstol",
@@ -10830,7 +10830,7 @@
   }
  },
  "en kopimaskine": {
-  "explanation": "\"En kopimaskine\" means \"a copier\", a machine for papers. It is built from kopi (a duplicate) and maskine (machine), which also appears in en vaskemaskine (a washer).",
+  "explanation": "\"En kopimaskine\" means \"a copier\", a machine that makes copies of papers. It is built from kopi (a duplicate) and maskine (machine), which also appears in en vaskemaskine (a washing machine).",
   "forms": [
    {
     "da": "en kopimaskine",
@@ -11068,7 +11068,7 @@
   }
  },
  "en kraft": {
-  "explanation": "\"En kraft\" means \"a force\" or \"power\", the push that makes something move or work, in physics, in nature and in people. For power over others, such as in politics, use magt (power). With all your might is af alle kræfter.",
+  "explanation": "\"En kraft\" means \"a force\" or \"power\", the push that makes something move or work, in physics, in nature and in people. For power over others, such as in politics, use magt (power). The phrase af alle kræfter means \"with all your might\".",
   "forms": [
    {
     "da": "en kraft",
@@ -11093,16 +11093,16 @@
     "en": "a strength"
    },
    {
-    "da": "en energi",
-    "en": "an energy"
+    "da": "energi",
+    "en": "energy"
    },
    {
     "da": "kraftig",
     "en": "powerful"
    },
    {
-    "da": "en effekt",
-    "en": "an effect"
+    "da": "et kraftværk",
+    "en": "a power plant"
    }
   ],
   "sentence": {
@@ -11254,7 +11254,7 @@
   "related": [
    {
     "da": "en adventskrans",
-    "en": "an Advent candle ring"
+    "en": "an Advent wreath"
    },
    {
     "da": "en buket",
@@ -11310,7 +11310,7 @@
   }
  },
  "en krave": {
-  "explanation": "\"En krave\" means \"a collar\", the part of a shirt or coat that goes around the neck. For a dog's collar, say et halsbånd (a dog collar).",
+  "explanation": "\"En krave\" means \"a collar\", the part of a shirt or coat that goes around the neck. For a dog's collar, say et halsbånd (a collar for a dog).",
   "forms": [
    {
     "da": "en krave",
@@ -11345,7 +11345,7 @@
   ],
   "sentence": {
    "da": "Jakken har en høj **krave**, som holder halsen varm.",
-   "en": "The jacket has a high collar that keeps the throat warm."
+   "en": "The jacket has a high collar that keeps the neck warm."
   }
  },
  "en krig": {
@@ -11452,16 +11452,16 @@
   ],
   "related": [
    {
-    "da": "en politiassistent",
-    "en": "a police constable"
-   },
-   {
-    "da": "en detektiv",
-    "en": "a sleuth"
+    "da": "en kriminalbetjent",
+    "en": "a detective"
    },
    {
     "da": "en kriminalinspektør",
     "en": "a detective inspector"
+   },
+   {
+    "da": "en politibetjent",
+    "en": "a police officer"
    }
   ],
   "sentence": {
@@ -11470,7 +11470,7 @@
   }
  },
  "en kriminalbetjent": {
-  "explanation": "\"En kriminalbetjent\" means \"a detective\", a police detective who investigates crimes, usually in plain clothes instead of a uniform.",
+  "explanation": "\"En kriminalbetjent\" means \"a detective\", a police officer who investigates crimes, usually in plain clothes instead of a uniform.",
   "forms": [
    {
     "da": "en kriminalbetjent",
@@ -11710,7 +11710,7 @@
     "en": "a snake"
    },
    {
-    "da": "en firben",
+    "da": "et firben",
     "en": "a lizard"
    }
   ],
@@ -11770,7 +11770,7 @@
     "en": "the op-ed"
    },
    {
-    "da": "kroniker",
+    "da": "kronikker",
     "en": "op-eds"
    },
    {
@@ -11909,8 +11909,8 @@
     "en": "a can"
    },
    {
-    "da": "en vase",
-    "en": "a vase"
+    "da": "en beholder",
+    "en": "a container"
    }
   ],
   "sentence": {
@@ -11983,8 +11983,8 @@
   ],
   "related": [
    {
-    "da": "en rebus",
-    "en": "a picture puzzle"
+    "da": "et krydsord",
+    "en": "a crossword (the usual word)"
    },
    {
     "da": "et puslespil",
@@ -12113,8 +12113,8 @@
    }
   ],
   "sentence": {
-   "da": "Hun spiser en **kugle** is i solen.",
-   "en": "She is eating a scoop of ice cream in the sun."
+   "da": "Barnet leger med en **kugle** på gulvet.",
+   "en": "The child plays with a marble on the floor."
   }
  },
  "en kuglepen": {
@@ -12273,8 +12273,8 @@
    }
   ],
   "sentence": {
-   "da": "Vejrudsigten lover **kuling** ved kysten i aften.",
-   "en": "The forecast promises a gale on the coast tonight."
+   "da": "Vejrudsigten melder **kuling** ved kysten i aften.",
+   "en": "The forecast says there will be a gale on the coast tonight."
   }
  },
  "en kultur": {
@@ -12485,7 +12485,7 @@
   }
  },
  "en kunstudstilling": {
-  "explanation": "\"En kunstudstilling\" means \"an art exhibition\", an event where artworks are shown to visitors, usually in a museum. The opening evening is called en fernisering (an opening night).",
+  "explanation": "\"En kunstudstilling\" means \"an art exhibition\", an event where artworks are shown to visitors, usually in a museum. The opening evening is called en fernisering (an opening reception).",
   "forms": [
    {
     "da": "en kunstudstilling",
@@ -12550,7 +12550,7 @@
   "related": [
    {
     "da": "en behandling",
-    "en": "a therapy"
+    "en": "a treatment"
    },
    {
     "da": "en medicin",
@@ -12558,7 +12558,7 @@
    },
    {
     "da": "en helbredelse",
-    "en": "a recovery"
+    "en": "a healing"
    },
    {
     "da": "et middel",
@@ -12722,7 +12722,7 @@
    },
    {
     "da": "en konvolut",
-    "en": "an envelope"
+    "en": "an envelope (another word for the same thing)"
    },
    {
     "da": "en postkasse",
@@ -12804,7 +12804,7 @@
    },
    {
     "da": "en erfaring",
-    "en": "an experience"
+    "en": "experience"
    },
    {
     "da": "en ansøgning",
@@ -12899,7 +12899,7 @@
   }
  },
  "en kvittering": {
-  "explanation": "\"En kvittering\" means \"a receipt\". Skal du have kvitteringen? means \"Do you want the receipt?\". En bon (a till slip) is the short slip that comes out of the cash register, while kvittering is the word for any receipt.",
+  "explanation": "\"En kvittering\" means \"a receipt\". Skal du have kvitteringen? means \"Do you want the receipt?\". En bon (a register slip) is the short slip that comes out of the cash register, while kvittering is the word for any receipt.",
   "forms": [
    {
     "da": "en kvittering",
@@ -12934,7 +12934,7 @@
   ],
   "sentence": {
    "da": "Jeg betalte i butikken og fik en **kvittering**.",
-   "en": "I paid in the shop and got a receipt."
+   "en": "I paid in the store and got a receipt."
   }
  },
  "en kyst": {
@@ -12972,8 +12972,8 @@
    }
   ],
   "sentence": {
-   "da": "Landet møder havet ved en lang **kyst**.",
-   "en": "The land meets the sea at a long coast."
+   "da": "Det er en lang **kyst** med mange strande.",
+   "en": "It is a long coast with many beaches."
   }
  },
  "en kystby": {
@@ -13058,8 +13058,8 @@
    }
   ],
   "sentence": {
-   "da": "Vores tænder sidder fast i en **kæbe**.",
-   "en": "Our teeth are fixed in a jaw."
+   "da": "Tænderne sidder fast i din **kæbe**.",
+   "en": "The teeth are fixed in your jaw."
   }
  },
  "en kæde": {
@@ -13292,7 +13292,7 @@
    },
    {
     "da": "en ventetid",
-    "en": "a waiting time"
+    "en": "a wait time"
    },
    {
     "da": "en trafikprop",
@@ -13352,7 +13352,7 @@
   }
  },
  "en købmand": {
-  "explanation": "\"En købmand\" means \"a grocer\" or \"a shopkeeper\". Many Danes still say købmanden for the small food shop in their neighborhood: Jeg køber brød hos købmanden (I buy bread at the grocer's).",
+  "explanation": "\"En købmand\" means \"a grocer\" or \"a shopkeeper\". Many Danes still say købmanden (the grocer) for the small food shop in their neighborhood: Jeg køber brød hos købmanden (I buy bread at the grocer's).",
   "forms": [
    {
     "da": "en købmand",
@@ -13473,7 +13473,7 @@
   }
  },
  "en køjeseng": {
-  "explanation": "\"En køjeseng\" means \"a bunk bed\", two beds built one above the other. It is built from køje (bunk) and seng (bed), and a ladder leads up to the top one.",
+  "explanation": "\"En køjeseng\" means \"a bunk bed\", two beds built one above the other. It is built from køje (bunk) and seng (bed).",
   "forms": [
    {
     "da": "en køjeseng",
@@ -13547,6 +13547,10 @@
    {
     "da": "en kok",
     "en": "a cook"
+   },
+   {
+    "da": "en hovmester",
+    "en": "a head waiter"
    }
   ],
   "sentence": {
@@ -13590,7 +13594,7 @@
   ],
   "sentence": {
    "da": "I vores **køkkenhave** gror der gulerødder, kartofler og salat.",
-   "en": "In our vegetable garden carrots, potatoes and lettuce grow."
+   "en": "In our vegetable garden, carrots, potatoes and lettuce grow."
   }
  },
  "en køkkenrulle": {
@@ -13780,7 +13784,7 @@
   "related": [
    {
     "da": "et kørekort",
-    "en": "driver's license"
+    "en": "a driver's license"
    },
    {
     "da": "en køreskole",
@@ -13823,11 +13827,11 @@
   "related": [
    {
     "da": "et kørekort",
-    "en": "driver's license"
+    "en": "a driver's license"
    },
    {
     "da": "en kørelærer",
-    "en": "driving instructor"
+    "en": "a driving instructor"
    },
    {
     "da": "at køre",
@@ -13926,19 +13930,19 @@
   "forms": [
    {
     "da": "et kaffebord",
-    "en": "a coffee table (with cake)"
+    "en": "a coffee-and-cake gathering"
    },
    {
     "da": "kaffebordet",
-    "en": "the coffee table (with cake)"
+    "en": "the coffee-and-cake gathering"
    },
    {
     "da": "kaffeborde",
-    "en": "coffee tables"
+    "en": "coffee-and-cake gatherings"
    },
    {
     "da": "kaffebordene",
-    "en": "the coffee tables"
+    "en": "the coffee-and-cake gatherings"
    }
   ],
   "related": [
@@ -14030,11 +14034,11 @@
   "related": [
    {
     "da": "en adventskrans",
-    "en": "a wreath with four lights"
+    "en": "an Advent wreath"
    },
    {
     "da": "en julekalender",
-    "en": "a daily Christmas countdown"
+    "en": "a Christmas calendar"
    },
    {
     "da": "juleaften",
@@ -14043,7 +14047,7 @@
   ],
   "sentence": {
    "da": "Et **kalenderlys** hjælper børnene med at tælle dagene til jul.",
-   "en": "A calendar candle helps the children count the days until Christmas."
+   "en": "An Advent calendar candle helps the children count the days until Christmas."
   }
  },
  "et kamera": {
@@ -14512,7 +14516,7 @@
   }
  },
  "et klaver": {
-  "explanation": "\"Et klaver\" means \"a piano\". Danish leaves out the word the when you play it: at spille klaver (to play the piano). Klaver is the normal word, though et piano (a piano) is also understood.",
+  "explanation": "\"Et klaver\" means \"a piano\". With at spille (to play), Danish leaves out the word for \"the\": at spille klaver (to play the piano). Klaver is the normal word, though et piano (a piano) is also understood.",
   "forms": [
    {
     "da": "et klaver",
@@ -14590,7 +14594,7 @@
   }
  },
  "et klimaks": {
-  "explanation": "\"Et klimaks\" means \"a climax\", the most exciting moment in a story, a film or a piece of music, when everything has built up to its peak. It can also be the peak of an event or a development.",
+  "explanation": "\"Et klimaks\" means \"a climax\", the most exciting moment in a story, a movie or a piece of music, when everything has built up to its peak. It can also be the peak of an event or a development.",
   "forms": [
    {
     "da": "et klimaks",
@@ -14793,7 +14797,7 @@
   }
  },
  "et knep": {
-  "explanation": "\"Et knep\" means \"a trick\", a clever way of doing something more easily, a handy technique. A magic trick is something else, et tryllenummer.",
+  "explanation": "\"Et knep\" means \"a trick\", a clever way of doing something more easily, a handy technique. A magic trick is something else, et tryllenummer (a magic act).",
   "forms": [
    {
     "da": "et knep",
@@ -14944,8 +14948,8 @@
    }
   ],
   "sentence": {
-   "da": "Du skal bruge **kodeord** for at logge ind.",
-   "en": "You need a password to log in."
+   "da": "Jeg har glemt mit **kodeord**.",
+   "en": "I have forgotten my password."
   }
  },
  "et kollegieværelse": {
@@ -15027,7 +15031,7 @@
   }
  },
  "et kolon": {
-  "explanation": "\"Et kolon\" means \"a colon\", the punctuation mark : used before a list or an explanation: Jeg skal bruge tre ting: mel, æg og sukker (I need three things: flour, eggs and sugar).",
+  "explanation": "\"Et kolon\" means \"a colon\", the punctuation mark (:) used before a list or an explanation: Jeg skal bruge tre ting: mel, æg og sukker (I need three things: flour, eggs and sugar).",
   "forms": [
    {
     "da": "et kolon",
@@ -15143,12 +15147,12 @@
    }
   ],
   "sentence": {
-   "da": "Gryden med suppen står på et **komfur**.",
-   "en": "The pot of soup is on a stove."
+   "da": "Vi laver mad på et gammelt **komfur**.",
+   "en": "We cook on an old stove."
   }
  },
  "et komma": {
-  "explanation": "\"Et komma\" means \"a comma\", the punctuation mark , . Danish uses it more than English does, for example before at (that): Jeg tror, at det er sandt (I think that it is true). Watch the spelling: two m, not one.",
+  "explanation": "\"Et komma\" means \"a comma\", the punctuation mark (,) Danish uses it more than English does, for example before at (that): Jeg tror, at det er sandt (I think that it is true). Watch the spelling: two m, not one.",
   "forms": [
    {
     "da": "et komma",
@@ -15181,7 +15185,7 @@
     "en": "a period"
    },
    {
-    "da": "et koma",
+    "da": "en koma",
     "en": "a coma (look-alike)"
    }
   ],
@@ -15259,7 +15263,7 @@
     "en": "a platoon"
    },
    {
-    "da": "et bataljon",
+    "da": "en bataljon",
     "en": "a battalion"
    }
   ],
@@ -15472,7 +15476,7 @@
   }
  },
  "et kondom": {
-  "explanation": "\"Et kondom\" means \"a condom\", a thin rubber cover used during sex. It is sold in most supermarkets.",
+  "explanation": "\"Et kondom\" means \"a condom\", a thin rubber cover used during sex. Another word for it is et præservativ.",
   "forms": [
    {
     "da": "et kondom",
@@ -15713,8 +15717,8 @@
    }
   ],
   "sentence": {
-   "da": "Han betalte et **kontantbeløb** i stedet for at bruge kort.",
-   "en": "He paid a cash amount instead of using a card."
+   "da": "Kontrakten kræver et **kontantbeløb** på ti tusind kroner.",
+   "en": "The contract requires a cash amount of ten thousand kroner."
   }
  },
  "et kontinent": {
@@ -15757,7 +15761,7 @@
   }
  },
  "et kontor": {
-  "explanation": "\"Et kontor\" means \"an office\". Et postkontor (a post office) is built on the same word.",
+  "explanation": "\"Et kontor\" means \"an office\", the room or building where people do desk work. You say på kontoret (at the office): Jeg er på kontoret (I am at the office).",
   "forms": [
    {
     "da": "et kontor",
@@ -15882,7 +15886,7 @@
   }
  },
  "et kors": {
-  "explanation": "\"Et kors\" means \"a cross\", the shape of two lines that cross each other, and the Christian symbol. For an X mark on a form, use et kryds (a check or X mark) instead.",
+  "explanation": "\"Et kors\" means \"a cross\", the shape of two lines that cross each other, and the Christian symbol. For the X you tick on a form, use et kryds (an X mark) instead.",
   "forms": [
    {
     "da": "et kors",
@@ -15915,8 +15919,8 @@
     "en": "a crucifixion"
    },
    {
-    "da": "et korsbånd",
-    "en": "a cruciate ligament"
+    "da": "at korsfæste",
+    "en": "to crucify"
    }
   ],
   "sentence": {
@@ -16386,7 +16390,7 @@
   }
  },
  "et kredsløb": {
-  "explanation": "\"Et kredsløb\" means \"a circuit\", a path that goes round and ends where it began, and also \"circulation\" in the body. It is also the path of a satellite around the Earth: en satellits kredsløb (a satellite's orbit).",
+  "explanation": "\"Et kredsløb\" means \"a circuit\", a path that goes round and ends where it began. It also means \"circulation\" in the body, and the path of a satellite around the Earth: en satellits kredsløb (a satellite's orbit).",
   "forms": [
    {
     "da": "et kredsløb",
@@ -16472,7 +16476,7 @@
   }
  },
  "et kronblad": {
-  "explanation": "\"Et kronblad\" means \"a petal\", one of the colored parts of a flower. All the petals together are called en krone (a corolla, literally a crown).",
+  "explanation": "\"Et kronblad\" means \"a petal\", one of the colored parts of a flower. The whole ring of petals is called en krone (a crown).",
   "forms": [
    {
     "da": "et kronblad",
@@ -16494,7 +16498,7 @@
   "related": [
    {
     "da": "et bægerblad",
-    "en": "a sepal"
+    "en": "a sepal (green leaf under the petals)"
    },
    {
     "da": "en stilk",
@@ -17033,7 +17037,7 @@
    },
    {
     "da": "et tilnavn",
-    "en": "a nickname"
+    "en": "a descriptive nickname"
    },
    {
     "da": "et kæledyr",
@@ -17085,7 +17089,7 @@
   }
  },
  "et kærlighedsbrev": {
-  "explanation": "\"Et kærlighedsbrev\" means \"a love letter\", a letter in which you tell someone you love them. It is built from kærlighed (love) and brev (letter). Brev also begins en brevkasse (a mailbox).",
+  "explanation": "\"Et kærlighedsbrev\" means \"a love letter\", a letter in which you tell someone you love them. It is built from kærlighed (love) and brev (letter). Brev is also in en brevkasse (a mailbox).",
   "forms": [
    {
     "da": "et kærlighedsbrev",
@@ -17119,8 +17123,8 @@
    }
   ],
   "sentence": {
-   "da": "Hans **kærlighedsbrev** sagde: Jeg elsker dig.",
-   "en": "His love letter said: I love you."
+   "da": "I hans **kærlighedsbrev** stod der: Jeg elsker dig.",
+   "en": "In his love letter it said: I love you."
   }
  },
  "et kærlighedsforhold": {
@@ -17318,12 +17322,12 @@
    }
   ],
   "sentence": {
-   "da": "Mælken står i et **køleskab**.",
-   "en": "The milk is in the fridge."
+   "da": "Mælk skal stå i et **køleskab**.",
+   "en": "Milk must be kept in a fridge."
   }
  },
  "et køn": {
-  "explanation": "\"Et køn\" means \"a gender\" and \"a sex\", being male or female.",
+  "explanation": "\"Et køn\" means \"a gender\" or \"a sex\", being male or female.",
   "forms": [
    {
     "da": "et køn",
@@ -17391,8 +17395,8 @@
     "en": "a waiting time"
    },
    {
-    "da": "en billet",
-    "en": "a ticket"
+    "da": "en kø",
+    "en": "a line / queue"
    },
    {
     "da": "en skranke",
@@ -17526,7 +17530,7 @@
   }
  },
  "kajak": {
-  "explanation": "\"Kajak\" means \"kayaking\" and also \"a kayak\", the small boat: Vi sejler i kajak på søen (We go kayaking on the lake). With a color or size, add en: en rød kajak (a red kayak).",
+  "explanation": "\"Kajak\" means \"kayaking\" and also \"a kayak\", the small boat: Vi sejler i kajak på søen (We go kayaking on the lake). For one particular boat, add en: en rød kajak (a red kayak).",
   "forms": [
    {
     "da": "Jeg sejler i kajak.",
@@ -17678,7 +17682,7 @@
    },
    {
     "da": "Kan jeg betale kontant?",
-    "en": "Can I pay cash?"
+    "en": "Can I pay in cash?"
    },
    {
     "da": "Ja, det kan du godt.",
@@ -17730,7 +17734,7 @@
     "en": "to sell"
    },
    {
-    "da": "kan jeg få…?",
+    "da": "kan jeg få ...?",
     "en": "can I have…?"
    }
   ],
@@ -17978,7 +17982,7 @@
   "forms": [
    {
     "da": "Jeg er ked af det.",
-    "en": "I am sorry about it / I am sad about it."
+    "en": "I am sorry. / I am sad."
    },
    {
     "da": "Hun er ked af det.",
@@ -18204,11 +18208,11 @@
   "forms": [
    {
     "da": "et kendskab",
-    "en": "a familiarity"
+    "en": "knowledge"
    },
    {
     "da": "kendskabet",
-    "en": "the familiarity"
+    "en": "the knowledge"
    },
    {
     "da": "Jeg har kendskab til ham.",
@@ -18383,7 +18387,7 @@
   }
  },
  "kinesisk": {
-  "explanation": "\"Kinesisk\" means \"Chinese\", for the language and for things from China, and it is written with a small letter. Kinesisk mad means \"Chinese food\", and \"Jeg taler kinesisk\" means \"I speak Chinese\".",
+  "explanation": "\"Kinesisk\" means \"Chinese\", for the language and for things from China, and it is written with a small letter. Kinesisk mad (Chinese food) and Jeg taler kinesisk (I speak Chinese) both use it.",
   "forms": [
    {
     "da": "en kinesisk restaurant",
@@ -18457,7 +18461,7 @@
   }
  },
  "klar": {
-  "explanation": "\"Klar\" means \"ready\" or \"clear\". Er du klar? means \"Are you ready?\" and \"Det er klart\" means \"Of course\" or \"That is clear\". Do not mix it up with færdig (finished), which says something is done, not that you are ready.",
+  "explanation": "\"Klar\" means \"ready\" or \"clear\". Er du klar? (Are you ready?) and Det er klart (Of course, or That is clear) show both uses. Do not mix it up with færdig (finished), which says something is done, not that you are ready.",
   "forms": [
    {
     "da": "en klar dag",
@@ -18681,8 +18685,8 @@
     "en": "awkward"
    },
    {
-    "da": "tumpet",
-    "en": "oafish"
+    "da": "ubehjælpsom",
+    "en": "ungainly"
    },
    {
     "da": "behændig",
@@ -18811,12 +18815,12 @@
   "explanation": "\"Knapt\" means \"barely\" or \"scarcely\", and says that something is only just true or almost not true. With nok it gets stronger: Han har knapt nok sovet (He has hardly slept at all).",
   "forms": [
    {
-    "da": "Jeg kan knapt se det.",
-    "en": "I can barely see it."
+    "da": "Jeg kan knapt se det",
+    "en": "I can barely see it"
    },
    {
-    "da": "Der var knapt nogen.",
-    "en": "There was hardly anyone."
+    "da": "Der var knapt nogen",
+    "en": "There was hardly anyone"
    },
    {
     "da": "knapt en time",
@@ -19099,7 +19103,7 @@
   "related": [
    {
     "da": "et blodtryk",
-    "en": "a blood pressure"
+    "en": "blood pressure"
    },
    {
     "da": "et fedt",
@@ -19258,8 +19262,8 @@
     "en": "experienced"
    },
    {
-    "da": "egnet",
-    "en": "suitable"
+    "da": "kvalificeret",
+    "en": "qualified"
    },
    {
     "da": "ukompetent",
@@ -19302,7 +19306,7 @@
    },
    {
     "da": "overskuelig",
-    "en": "easy to survey"
+    "en": "manageable"
    }
   ],
   "sentence": {
@@ -19389,11 +19393,11 @@
   }
  },
  "kompost": {
-  "explanation": "\"En kompost\" means \"a compost\", rotted food scraps, leaves and cuttings that turn into rich soil for plants. It is also the bin or heap where this happens: Madaffald kommer i komposten (Food scraps go in the compost).",
+  "explanation": "\"En kompost\" means \"compost\", rotted food scraps, leaves and cuttings that turn into rich soil for plants. It is also the bin or heap where this happens: Madaffald kommer i komposten (Food scraps go in the compost).",
   "forms": [
    {
     "da": "en kompost",
-    "en": "a compost"
+    "en": "compost"
    },
    {
     "da": "komposten",
@@ -19404,8 +19408,8 @@
     "en": "composts"
    },
    {
-    "da": "en kompost i haven",
-    "en": "a compost in the garden"
+    "da": "komposterne",
+    "en": "the composts"
    }
   ],
   "related": [
@@ -19436,7 +19440,7 @@
    },
    {
     "da": "koncentreret saft",
-    "en": "concentrated cordial"
+    "en": "concentrated juice"
    },
    {
     "da": "et koncentreret blik",
@@ -19467,7 +19471,7 @@
   }
  },
  "kondition": {
-  "explanation": "\"En kondition\" means \"fitness\", how long you can run, swim or bike before you are out of breath. Do not use it for the general state of something, as English \"condition\" can: for that Danes say tilstand.",
+  "explanation": "\"En kondition\" means \"fitness\", how long you can run, swim or bike before you are out of breath. Do not use it for the general state of something, as English \"condition\" can: for that Danes say tilstand (condition).",
   "forms": [
    {
     "da": "kondition",
@@ -19502,7 +19506,7 @@
   ],
   "sentence": {
    "da": "Jeg løber hver dag for at få bedre **kondition**.",
-   "en": "I run every day to get better fitness."
+   "en": "I run every day to improve my fitness."
   }
  },
  "konfetti": {
@@ -19544,7 +19548,7 @@
    }
   ],
   "sentence": {
-   "da": "Bruden og gommen fik **konfetti** over hovedet.",
+   "da": "Brudeparret fik **konfetti** over hovedet.",
    "en": "The bride and groom got confetti over their heads."
   }
  },
@@ -19666,7 +19670,7 @@
   }
  },
  "konservativ": {
-  "explanation": "\"Konservativ\" means \"conservative\", for people or views that prefer to keep traditions and keep things as they are. In Denmark it is also the name of a party, Det Konservative Folkeparti.",
+  "explanation": "\"Konservativ\" means \"conservative\", for people or views that like traditions and prefer things to stay as they are. In Denmark it is also the name of a party, Det Konservative Folkeparti.",
   "forms": [
    {
     "da": "en konservativ politiker",
@@ -19797,7 +19801,7 @@
   "related": [
    {
     "da": "dagpenge",
-    "en": "unemployment benefit"
+    "en": "unemployment benefits"
    },
    {
     "da": "SU",
@@ -20090,12 +20094,12 @@
   "explanation": "\"Kraftigt\" means \"strongly\" or \"heavily\", and tells how hard or how much something happens. In the news it often goes with change: Valutaen faldt kraftigt (The currency fell sharply).",
   "forms": [
    {
-    "da": "Det regner kraftigt.",
-    "en": "It is raining heavily."
+    "da": "Det regner kraftigt",
+    "en": "It is raining heavily"
    },
    {
-    "da": "Hun rystede kraftigt på hovedet.",
-    "en": "She shook her head hard."
+    "da": "Hun rystede kraftigt på hovedet",
+    "en": "She shook her head hard"
    },
    {
     "da": "kraftigt forandret",
@@ -20165,11 +20169,11 @@
   }
  },
  "kreativitet": {
-  "explanation": "\"En kreativitet\" means \"creativity\", the ability to think up new ideas or make something original. It is used for art, but also for solving problems at work: Vi har brug for kreativitet i løsningen (We need creativity in the solution).",
+  "explanation": "\"Kreativitet\" means \"creativity\", the ability to think up new ideas or make something original. It is used for art, but also for solving problems at work: Vi har brug for kreativitet i løsningen (We need creativity in the solution).",
   "forms": [
    {
-    "da": "en kreativitet",
-    "en": "a creativity"
+    "da": "kreativitet",
+    "en": "creativity"
    },
    {
     "da": "kreativiteten",
@@ -20182,16 +20186,16 @@
   ],
   "related": [
    {
-    "da": "en fantasi",
-    "en": "an imagination"
+    "da": "fantasi",
+    "en": "imagination"
    },
    {
-    "da": "en opfindsomhed",
-    "en": "an inventiveness"
+    "da": "opfindsomhed",
+    "en": "inventiveness"
    },
    {
-    "da": "en originalitet",
-    "en": "an originality"
+    "da": "originalitet",
+    "en": "originality"
    },
    {
     "da": "innovativ",
@@ -20268,8 +20272,8 @@
     "en": "a punishment"
    },
    {
-    "da": "politi",
-    "en": "police"
+    "da": "en lovovertræder",
+    "en": "a lawbreaker"
    },
    {
     "da": "kriminel",
@@ -20321,7 +20325,7 @@
   }
  },
  "kristen": {
-  "explanation": "\"Kristen\" means \"Christian\", about the faith that follows Jesus Christ, and it is written with a small letter. A Christian person is en kristen.",
+  "explanation": "\"Kristen\" means \"Christian\", about the faith that follows Jesus Christ. It is written with a small letter. A Christian person is en kristen.",
   "forms": [
    {
     "da": "en kristen familie",
@@ -20368,11 +20372,11 @@
    },
    {
     "da": "kristendommen",
-    "en": "the Christianity"
+    "en": "Christianity (with -en added)"
    },
    {
-    "da": "kristendom i Danmark",
-    "en": "Christianity in Denmark"
+    "da": "kristendommens historie",
+    "en": "the history of Christianity"
    }
   ],
   "related": [
@@ -20399,7 +20403,7 @@
   }
  },
  "kritik": {
-  "explanation": "\"Kritik\" means \"criticism\". To give it, say at komme med kritik (to offer criticism).",
+  "explanation": "\"Kritik\" means \"criticism\". To give criticism, say at komme med kritik (to come out with criticism).",
   "forms": [
    {
     "da": "Han fik meget kritik.",
@@ -20477,10 +20481,10 @@
   }
  },
  "krudt": {
-  "explanation": "\"Et krudt\" means \"gunpowder\", the explosive powder that was used in old guns and cannons. In the saying Han har ikke opfundet krudtet (He did not invent gunpowder), it means someone is not very clever.",
+  "explanation": "\"Krudt\" means \"gunpowder\", the explosive powder that was used in old guns and cannons. In the saying Han har ikke opfundet krudtet (He did not invent gunpowder), it means someone is not very clever.",
   "forms": [
    {
-    "da": "et krudt",
+    "da": "krudt",
     "en": "gunpowder"
    },
    {
@@ -20667,7 +20671,7 @@
    },
    {
     "da": "rynket",
-    "en": "creased"
+    "en": "wrinkled"
    }
   ],
   "sentence": {
@@ -20918,11 +20922,11 @@
    },
    {
     "da": "kundskaber",
-    "en": "knowledge (plural)"
+    "en": "pieces of knowledge"
    },
    {
     "da": "kundskaberne",
-    "en": "the knowledge (plural)"
+    "en": "the pieces of knowledge"
    }
   ],
   "related": [
@@ -21123,7 +21127,7 @@
   "related": [
    {
     "da": "en opkastning",
-    "en": "a vomit"
+    "en": "vomiting"
    },
    {
     "da": "svimmelhed",
@@ -21214,7 +21218,7 @@
   ],
   "sentence": {
    "da": "Filmen starter **kvart i** syv.",
-   "en": "The film starts at a quarter to seven."
+   "en": "The movie starts at a quarter to seven."
   }
  },
  "kvart over": {
@@ -21257,7 +21261,7 @@
   }
  },
  "kvik": {
-  "explanation": "\"Kvik\" means \"quick\", but about thinking and speaking, not about running: a person who understands fast and answers well. For speed in movement, Danes use hurtig.",
+  "explanation": "\"Kvik\" means \"quick\", but about thinking and speaking, not about running: a person who understands fast and answers well. For speed in movement, Danes use hurtig (fast).",
   "forms": [
    {
     "da": "en kvik pige",
@@ -21477,7 +21481,7 @@
     "en": "Brussels sprouts"
    },
    {
-    "da": "en broccoli",
+    "da": "broccoli",
     "en": "broccoli"
    }
   ],
@@ -21618,7 +21622,7 @@
   "related": [
    {
     "da": "koldskål",
-    "en": "cold buttermilk soup"
+    "en": "cold buttermilk dessert"
    },
    {
     "da": "tykmælk",
@@ -21661,7 +21665,7 @@
    },
    {
     "da": "hakket kød",
-    "en": "minced meat"
+    "en": "ground meat"
    },
    {
     "da": "en bøf",
@@ -21735,11 +21739,11 @@
    },
    {
     "da": "flot",
-    "en": "handsome / nice-looking"
+    "en": "good-looking"
    },
    {
     "da": "pæn",
-    "en": "nice-looking"
+    "en": "neat / nice"
    },
    {
     "da": "grim",

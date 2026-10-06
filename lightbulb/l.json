@@ -43,7 +43,7 @@
   }
  },
  "at lade som om": {
-  "explanation": "\"At lade som om\" means \"to pretend\". What you pretend comes after it as a full sentence: Han lader som om han sover (He pretends he is sleeping).",
+  "explanation": "\"At lade som om\" means \"to pretend\". What you pretend comes after it as a whole sentence: Han lader som om han sover (He pretends he is sleeping).",
   "forms": [
    {
     "da": "at lade som om",
@@ -250,19 +250,19 @@
   "forms": [
    {
     "da": "at lave",
-    "en": "to make, to do"
+    "en": "to make / to do"
    },
    {
     "da": "jeg laver",
-    "en": "I make, I do"
+    "en": "I make / I do"
    },
    {
     "da": "jeg lavede",
-    "en": "I made, I did"
+    "en": "I made / I did"
    },
    {
     "da": "jeg har lavet",
-    "en": "I have made, I have done"
+    "en": "I have made / I have done"
    }
   ],
   "related": [
@@ -362,7 +362,7 @@
    },
    {
     "da": "at øve sig",
-    "en": "to practise"
+    "en": "to practice"
    }
   ],
   "sentence": {
@@ -518,7 +518,7 @@
   "related": [
    {
     "da": "at grine",
-    "en": "to laugh (another word for it)"
+    "en": "to laugh (same meaning)"
    },
    {
     "da": "latter",
@@ -531,7 +531,7 @@
   ],
   "sentence": {
    "da": "Børnene vil **le** af den sjove film.",
-   "en": "The children want to laugh at the funny film."
+   "en": "The children want to laugh at the funny movie."
   }
  },
  "at lede": {
@@ -867,15 +867,15 @@
    },
    {
     "da": "jeg lever",
-    "en": "I live (be alive)"
+    "en": "I live"
    },
    {
     "da": "jeg levede",
-    "en": "I lived (be alive)"
+    "en": "I lived"
    },
    {
     "da": "jeg har levet",
-    "en": "I have lived (be alive)"
+    "en": "I have lived"
    }
   ],
   "related": [
@@ -1070,7 +1070,7 @@
   "forms": [
    {
     "da": "at like",
-    "en": "to like (on social media)"
+    "en": "to like (online)"
    },
    {
     "da": "jeg liker",
@@ -1101,7 +1101,7 @@
   ],
   "sentence": {
    "da": "Jeg vil **like** dit billede på Instagram.",
-   "en": "I will like your picture on Instagram."
+   "en": "I want to like your picture on Instagram."
   }
  },
  "at lindre": {
@@ -1304,7 +1304,7 @@
   ],
   "sentence": {
    "da": "Duften af brød kan **lokke** folk ind i butikken.",
-   "en": "The smell of bread can lure people into the shop."
+   "en": "The smell of bread can lure people into the store."
   }
  },
  "at love": {
@@ -1497,8 +1497,8 @@
     "en": "a hoe"
    },
    {
-    "da": "en rive",
-    "en": "a rake"
+    "da": "et ukrudtsmiddel",
+    "en": "a weed killer"
    },
    {
     "da": "en spade",
@@ -1632,7 +1632,7 @@
   }
  },
  "at lykkes": {
-  "explanation": "\"At lykkes\" means \"to succeed\" or \"to work out\". It usually starts with det (it), and the person who succeeds comes after: Det lykkedes mig at finde den (I succeeded in finding it).",
+  "explanation": "\"At lykkes\" means \"to succeed\" or \"to work out\". It usually starts with det (it), and the person who succeeds comes after as mig (me), dig (you) and so on: Det lykkedes mig at finde den (I succeeded in finding it).",
   "forms": [
    {
     "da": "at lykkes",
@@ -1787,7 +1787,7 @@
    },
    {
     "da": "lys",
-    "en": "bright"
+    "en": "light (not dark)"
    },
    {
     "da": "at slukke",
@@ -1925,7 +1925,7 @@
    },
    {
     "da": "jeg lyver",
-    "en": "I lie (tell a lie)"
+    "en": "I lie"
    },
    {
     "da": "jeg løj",
@@ -2149,12 +2149,12 @@
     "en": "to hold"
    },
    {
-    "da": "at samle op",
-    "en": "to pick up"
+    "da": "at slippe",
+    "en": "to let go of"
    }
   ],
   "sentence": {
-   "da": "Hun må **lægge fra sig**, hvad hun har i hænderne.",
+   "da": "Hun skal **lægge fra sig** det, hun har i hænderne.",
    "en": "She has to put down what she has in her hands."
   }
  },
@@ -2521,7 +2521,7 @@
    },
    {
     "da": "at øve",
-    "en": "to practise"
+    "en": "to practice"
    }
   ],
   "sentence": {
@@ -2559,8 +2559,8 @@
     "en": "an acquaintance"
    },
    {
-    "da": "et bekendtskab",
-    "en": "an acquaintance / contact"
+    "da": "at stifte bekendtskab med",
+    "en": "to make the acquaintance of"
    },
    {
     "da": "at præsentere",
@@ -2728,7 +2728,7 @@
    },
    {
     "da": "at læse højt",
-    "en": "to read aloud"
+    "en": "to read out loud (also alone)"
    },
    {
     "da": "at forelæse",
@@ -3227,7 +3227,7 @@
     "en": "a stroller"
    },
    {
-    "da": "en el-cykel",
+    "da": "en elcykel",
     "en": "an electric bike"
    }
   ],
@@ -3431,8 +3431,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er mørkt, jeg tænder en **lampe**.",
-   "en": "It is dark, so I switch on a lamp."
+   "da": "Jeg tænder en **lampe** i det mørke rum.",
+   "en": "I turn on a lamp in the dark room."
   }
  },
  "en lampeskærm": {
@@ -3557,7 +3557,7 @@
   }
  },
  "en landingsbane": {
-  "explanation": "\"En landingsbane\" means \"a runway\", the long paved strip that planes land on. It is built from landing (landing) and bane (track). Bane also means a court: en tennisbane (a tennis court).",
+  "explanation": "\"En landingsbane\" means \"a runway\", the long paved strip that planes land on. It is built from landing and bane (track). Bane also means a court: en tennisbane (a tennis court).",
   "forms": [
    {
     "da": "en landingsbane",
@@ -3596,7 +3596,7 @@
   }
  },
  "en landmand": {
-  "explanation": "\"En landmand\" means \"a farmer\", built from land (countryside) and mand (man). Danish leaves out a for jobs: Han er landmand means \"He is a farmer\".",
+  "explanation": "\"En landmand\" means \"a farmer\", built from land (countryside) and mand (man). Danish leaves out en (a) when naming a job: Han er landmand (He is a farmer).",
   "forms": [
    {
     "da": "en landmand",
@@ -3618,7 +3618,7 @@
   "related": [
    {
     "da": "et landbrug",
-    "en": "a farm"
+    "en": "agriculture"
    },
    {
     "da": "en bonde",
@@ -3635,7 +3635,7 @@
   }
  },
  "en landsby": {
-  "explanation": "\"En landsby\" means \"a village\", a very small place out in the open land, with a few houses and maybe a church.",
+  "explanation": "\"En landsby\" means \"a village\", a small place in the countryside, with some houses and often a church.",
   "forms": [
    {
     "da": "en landsby",
@@ -3678,7 +3678,7 @@
   }
  },
  "en landskamp": {
-  "explanation": "\"En landskamp\" means \"an international match\", a sports match where teams from two countries play each other. It is the usual word for football and handball games between countries.",
+  "explanation": "\"En landskamp\" means \"an international match\", a sports match where teams from two countries play each other. It is the usual word for soccer and handball games between countries.",
   "forms": [
    {
     "da": "en landskamp",
@@ -3785,8 +3785,8 @@
     "en": "a barcode reader"
    },
    {
-    "da": "en lommelygte",
-    "en": "a flashlight"
+    "da": "en laserprinter",
+    "en": "a laser printer"
    }
   ],
   "sentence": {
@@ -3860,7 +3860,7 @@
    },
    {
     "da": "en lastvogn",
-    "en": "a lorry"
+    "en": "a freight truck"
    },
    {
     "da": "en traktor",
@@ -3951,7 +3951,7 @@
   }
  },
  "en ledelse": {
-  "explanation": "\"En ledelse\" means \"a management\" or \"leadership\", the people who run a company, and the act of leading. For the group, Danes say Ledelsen har besluttet det (The management has decided it).",
+  "explanation": "\"En ledelse\" means \"a management\" or \"leadership\", the people who run a company, and the act of leading. For the group, Danes say Ledelsen har besluttet det (The management has decided that).",
   "forms": [
    {
     "da": "en ledelse",
@@ -4144,8 +4144,8 @@
     "en": "to play"
    },
    {
-    "da": "et legetøj",
-    "en": "a toy"
+    "da": "legetøj",
+    "en": "toys"
    },
    {
     "da": "en legeplads",
@@ -4261,16 +4261,20 @@
   ],
   "related": [
    {
-    "da": "en boghandel",
-    "en": "a bookstore"
+    "da": "en dukke",
+    "en": "a doll"
    },
    {
-    "da": "en tøjbutik",
-    "en": "a clothing store"
+    "da": "en bamse",
+    "en": "a teddy bear"
    },
    {
-    "da": "et bageri",
-    "en": "a bakery"
+    "da": "et brætspil",
+    "en": "a board game"
+   },
+   {
+    "da": "en butik",
+    "en": "a store"
    }
   ],
   "sentence": {
@@ -4313,7 +4317,7 @@
    },
    {
     "da": "en ejerbolig",
-    "en": "an owned home"
+    "en": "an owner-occupied home"
    }
   ],
   "sentence": {
@@ -4322,7 +4326,7 @@
   }
  },
  "en lejekontrakt": {
-  "explanation": "\"En lejekontrakt\" means \"a lease\", the written agreement for a home you pay to live in. It is built from at leje (to lease) and en kontrakt (a contract), which also appears in en arbejdskontrakt (a work contract).",
+  "explanation": "\"En lejekontrakt\" means \"a lease\", the written agreement for a home you pay to live in. It is built from at leje (to rent) and en kontrakt (a contract), which also appears in en arbejdskontrakt (a work contract).",
   "forms": [
    {
     "da": "en lejekontrakt",
@@ -4408,7 +4412,7 @@
   }
  },
  "en lejlighed": {
-  "explanation": "\"En lejlighed\" means \"an apartment\" or \"a flat\", a home that is one of several in a building.",
+  "explanation": "\"En lejlighed\" means \"an apartment\", a home that is one of several in a building.",
   "forms": [
    {
     "da": "en lejlighed",
@@ -4521,6 +4525,10 @@
    {
     "da": "et vandrerhjem",
     "en": "a hostel"
+   },
+   {
+    "da": "en klassetur",
+    "en": "a class trip"
    }
   ],
   "sentence": {
@@ -4558,7 +4566,7 @@
     "en": "a school lesson"
    },
    {
-    "da": "en undervisning",
+    "da": "undervisning",
     "en": "teaching"
    },
    {
@@ -4736,7 +4744,7 @@
   }
  },
  "en levering": {
-  "explanation": "\"En levering\" means \"a delivery\", goods brought to your home by a shop or a courier, often after an online order.",
+  "explanation": "\"En levering\" means \"a delivery\", goods brought to your home by a store or a courier, often after an online order.",
   "forms": [
    {
     "da": "en levering",
@@ -4822,7 +4830,7 @@
   }
  },
  "en lidelse": {
-  "explanation": "\"En lidelse\" means \"a suffering\" or \"a disorder\". As a health word, it is a long-lasting problem with the body or mind, such as en kronisk lidelse (a chronic disorder). In everyday writing, it can also mean what a person goes through when hurting.",
+  "explanation": "\"En lidelse\" means \"a suffering\" or \"a disorder\". As a health word, it is a long-lasting problem with the body or mind, such as en kronisk lidelse (a chronic disorder). In writing, it can also mean suffering in general: Der var megen lidelse i krigen (There was much suffering in the war).",
   "forms": [
    {
     "da": "en lidelse",
@@ -4900,7 +4908,7 @@
   }
  },
  "en liga": {
-  "explanation": "\"En liga\" means \"a league\", a group of teams that play against each other through a season. The top Danish football league is called Superligaen (the Super League).",
+  "explanation": "\"En liga\" means \"a league\", a group of teams that play against each other through a season. The top Danish soccer league is called Superligaen (the Super League).",
   "forms": [
    {
     "da": "en liga",
@@ -5025,7 +5033,7 @@
   }
  },
  "en lighter": {
-  "explanation": "\"En lighter\" means \"a lighter\", the small tool you click to make fire. A match is en tændstik (a match).",
+  "explanation": "\"En lighter\" means \"a lighter\", the small tool you click to make fire. For a thin stick that you strike, use en tændstik (a match).",
   "forms": [
    {
     "da": "en lighter",
@@ -5589,8 +5597,8 @@
     "en": "to live"
    },
    {
-    "da": "en alder",
-    "en": "an age"
+    "da": "et liv",
+    "en": "a life"
    }
   ],
   "sentence": {
@@ -5642,7 +5650,7 @@
   }
  },
  "en lobbyist": {
-  "explanation": "\"En lobbyist\" means \"a lobbyist\", a person who works to influence the people who make laws, on behalf of a company or a group. The work itself is called lobbyisme.",
+  "explanation": "\"En lobbyist\" means \"a lobbyist\", a person who works to influence the people who make laws, on behalf of a company or a group. The work itself is called lobbyisme (lobbying).",
   "forms": [
    {
     "da": "en lobbyist",
@@ -5844,7 +5852,7 @@
    },
    {
     "da": "en kontrollør",
-    "en": "a ticket inspector"
+    "en": "an inspector"
    }
   ],
   "sentence": {
@@ -6160,7 +6168,7 @@
    },
    {
     "da": "en åbningstid",
-    "en": "opening hours"
+    "en": "an opening time"
    }
   ],
   "sentence": {
@@ -6246,8 +6254,8 @@
    }
   ],
   "sentence": {
-   "da": "Hjertet sidder mellem den højre og den venstre **lunge**.",
-   "en": "The heart sits between the right and the left lung."
+   "da": "Hjertet sidder mellem den højre og venstre **lunge**.",
+   "en": "The heart sits between the right and left lung."
   }
  },
  "en lup": {
@@ -6294,7 +6302,7 @@
   }
  },
  "en lur": {
-  "explanation": "\"En lur\" means \"a nap\", a short sleep during the day. Luren also means the phone receiver: Han tog luren (He picked up the phone).",
+  "explanation": "\"En lur\" means \"a nap\", a short sleep during the day. The word also means the phone receiver, mostly as luren: Han tog luren (He picked up the phone).",
   "forms": [
    {
     "da": "en lur",
@@ -6316,7 +6324,7 @@
   "related": [
    {
     "da": "en middagslur",
-    "en": "an afternoon nap"
+    "en": "a midday nap"
    },
    {
     "da": "at døse",
@@ -6458,7 +6466,7 @@
   "forms": [
    {
     "da": "en lygte",
-    "en": "a light, a lamp (bike, street)"
+    "en": "a light, a lamp (on a bike or in the street)"
    },
    {
     "da": "lygten",
@@ -6604,7 +6612,7 @@
     "en": "a switch"
    },
    {
-    "da": "en dæmper",
+    "da": "en dimmer",
     "en": "a dimmer"
    }
   ],
@@ -6739,7 +6747,7 @@
   }
  },
  "en låge": {
-  "explanation": "\"En låge\" means \"a gate\", a small gate for people on foot. A big gate, for example for cars, is en port (a gate).",
+  "explanation": "\"En låge\" means \"a gate\", a small gate for people on foot. A big gate, for example for cars, is en port (a large gate).",
   "forms": [
    {
     "da": "en låge",
@@ -6972,8 +6980,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg er syg og ser en **læge**.",
-   "en": "I am ill and see a doctor."
+   "da": "Jeg er syg og ringer til en **læge**.",
+   "en": "I am sick and call a doctor."
   }
  },
  "en lægevagt": {
@@ -7011,8 +7019,8 @@
    }
   ],
   "sentence": {
-   "da": "Om natten kan du ringe til en **lægevagt**, hvis du er syg.",
-   "en": "At night you can call an after-hours medical service if you are sick."
+   "da": "Der findes en **lægevagt**, som har åbent hele natten.",
+   "en": "There is an after-hours medical service that is open all night."
   }
  },
  "en lænestol": {
@@ -7313,7 +7321,7 @@
   }
  },
  "en læser": {
-  "explanation": "\"En læser\" means \"a reader\", a person who reads books or newspapers. The same word is also what you say for \"reads\": Hun læser en bog (She reads a book).",
+  "explanation": "\"En læser\" means \"a reader\", a person who reads books or newspapers. The same word also means \"reads\": Hun læser en bog (She reads a book).",
   "forms": [
    {
     "da": "en læser",
@@ -7667,8 +7675,8 @@
    }
   ],
   "sentence": {
-   "da": "Du kan lave en **løkke** på rebet og hænge den på krogen.",
-   "en": "You can make a loop on the rope and hang it on the hook."
+   "da": "Du kan lave en **løkke** i rebet og hænge den på krogen.",
+   "en": "You can make a loop in the rope and hang it on the hook."
   }
  },
  "en løn": {
@@ -7698,7 +7706,7 @@
    },
    {
     "da": "en lønseddel",
-    "en": "a payslip"
+    "en": "a paystub"
    },
    {
     "da": "en lønforhøjelse",
@@ -7745,7 +7753,7 @@
    },
    {
     "da": "et tillæg",
-    "en": "a supplement"
+    "en": "an extra payment"
    }
   ],
   "sentence": {
@@ -7754,7 +7762,7 @@
   }
  },
  "en lønseddel": {
-  "explanation": "\"En lønseddel\" means \"a paystub\", the statement you get each month that shows what you earned and what was taken out, such as tax. Seddel (a slip of paper) is also in en pengeseddel (a banknote).",
+  "explanation": "\"En lønseddel\" means \"a paystub\", the statement you get each month that shows what you earned and what was taken out, such as tax. Seddel (a slip of paper) also appears in en pengeseddel (a banknote).",
   "forms": [
    {
     "da": "en lønseddel",
@@ -7866,7 +7874,7 @@
    },
    {
     "da": "en løvetand",
-    "en": "a dandelion"
+    "en": "a dandelion (lion's tooth)"
    }
   ],
   "sentence": {
@@ -8323,7 +8331,7 @@
    }
   ],
   "sentence": {
-   "da": "Et **lavtryk** fra Atlanten giver regn og blæst i weekenden.",
+   "da": "Et **lavtryk** fra Atlanterhavet giver regn og blæst i weekenden.",
    "en": "A low-pressure system from the Atlantic brings rain and wind this weekend."
   }
  },
@@ -8402,6 +8410,10 @@
    {
     "da": "et register",
     "en": "an index"
+   },
+   {
+    "da": "en encyklopædi",
+    "en": "an encyclopedia"
    }
   ],
   "sentence": {
@@ -9035,7 +9047,7 @@
   }
  },
  "et løfte": {
-  "explanation": "\"Et løfte\" means \"a promise\", when you say you will surely do something. You keep one with at holde (to hold): Jeg holder mit løfte (I keep my promise). To break one, use at bryde (to break).",
+  "explanation": "\"Et løfte\" means \"a promise\", when you say you will do something for sure. You keep one with at holde (to hold): Jeg holder mit løfte (I keep my promise). To break one, use at bryde (to break).",
   "forms": [
    {
     "da": "et løfte",
@@ -9069,8 +9081,8 @@
    }
   ],
   "sentence": {
-   "da": "Jeg giver dig mit **løfte**: Jeg kommer i morgen.",
-   "en": "I give you my promise: I am coming tomorrow."
+   "da": "Et **løfte** skal man holde.",
+   "en": "A promise must be kept."
   }
  },
  "et løg": {
@@ -9148,7 +9160,7 @@
   }
  },
  "lad være": {
-  "explanation": "\"Lad være\" means \"don't\" or \"leave it\". Add med at before what you should not do: Lad være med at ringe (Don't call). On its own, Lad være! means \"Don't!\".",
+  "explanation": "\"Lad være\" means \"don't\" or \"leave it\". Add med at (with + to) before what you should not do: Lad være med at ringe (Don't call). On its own, Lad være! means \"Don't!\".",
   "forms": [
    {
     "da": "Lad være!",
@@ -9177,8 +9189,8 @@
     "en": "to keep away from"
    },
    {
-    "da": "lad os",
-    "en": "let's"
+    "da": "lad det være",
+    "en": "leave it / let it be"
    }
   ],
   "sentence": {
@@ -9213,7 +9225,7 @@
    },
    {
     "da": "salmiak",
-    "en": "salmiak"
+    "en": "salmiak (a salty candy)"
    }
   ],
   "sentence": {
@@ -9327,7 +9339,7 @@
   }
  },
  "lammet": {
-  "explanation": "\"Lammet\" means \"paralyzed\", not able to move a body part. It also describes being frozen by fear or shock, for example when you hear terrible news. Watch out: et lam is a lamb, and lammet is also the lamb.",
+  "explanation": "\"Lammet\" means \"paralyzed\", not able to move a body part. It also describes being frozen by fear or shock, for example when you hear terrible news. Watch out: et lam is a lamb, so lammet can also mean \"the lamb\".",
   "forms": [
    {
     "da": "en lammet mand",
@@ -9427,7 +9439,7 @@
    },
    {
     "da": "en helligdag",
-    "en": "a holy day"
+    "en": "a public holiday"
    }
   ],
   "sentence": {
@@ -9545,7 +9557,7 @@
   }
  },
  "langt væk": {
-  "explanation": "\"Langt væk\" means \"far away\" and stands alone. Compare langt fra (far from), which needs a place after it: Hun bor langt fra byen (She lives far from the town).",
+  "explanation": "\"Langt væk\" means \"far away\" and needs nothing after it. Compare langt fra (far from), which needs a place after it: Hun bor langt fra byen (She lives far from the town).",
   "forms": [
    {
     "da": "langt væk",
@@ -9609,8 +9621,8 @@
     "en": "wordy"
    },
    {
-    "da": "kort og godt",
-    "en": "short and sweet"
+    "da": "lang",
+    "en": "long"
    }
   ],
   "sentence": {
@@ -10044,7 +10056,7 @@
   }
  },
  "lektier": {
-  "explanation": "\"Lektier\" means \"homework\". It goes with at lave (to do, to make): Jeg laver lektier (I do my homework). Danes think of homework as a whole, so en lektie (one piece of homework) is rarely used.",
+  "explanation": "\"Lektier\" means \"homework\". It goes with at lave (to do, to make): Jeg laver lektier (I do my homework). Danish usually says it in the plural, even for all of one night's work.",
   "forms": [
    {
     "da": "en lektie",
@@ -10258,6 +10270,10 @@
    {
     "da": "ro",
     "en": "calm"
+   },
+   {
+    "da": "at lette",
+    "en": "to lighten"
    }
   ],
   "sentence": {
@@ -10266,7 +10282,7 @@
   }
  },
  "lettere": {
-  "explanation": "\"Lettere\" means \"easier\" and \"lighter\": Danish bliver lettere hver dag (Danish gets easier every day). It comes from let (easy / light).",
+  "explanation": "\"Lettere\" means \"easier\" and \"lighter\": Dansk bliver lettere hver dag (Danish gets easier every day). It comes from let (easy / light).",
   "forms": [
    {
     "da": "Det er lettere",
@@ -10379,7 +10395,7 @@
   ],
   "sentence": {
    "da": "Butikken er **levedygtig**, fordi den tjener flere penge, end den bruger.",
-   "en": "The shop is viable because it earns more money than it spends."
+   "en": "The store is viable because it earns more money than it spends."
   }
  },
  "levende": {
@@ -10422,7 +10438,7 @@
   }
  },
  "leverpostej": {
-  "explanation": "\"Leverpostej\" means \"liver pâté\", a soft spread for bread. It is built from lever (liver) and postej (pâté).",
+  "explanation": "\"Leverpostej\" means \"liver pâté\", a soft spread for bread. It is made from lever (liver) and postej (pâté). It is usually eaten cold on bread, but it can also be served warm as a hot dish.",
   "forms": [
    {
     "da": "leverpostej",
@@ -10500,7 +10516,7 @@
   }
  },
  "lidenskab": {
-  "explanation": "\"En lidenskab\" means \"passion\", a very strong feeling of excitement and devotion for a person, a hobby or a cause. The matching describing word is lidenskabelig (passionate).",
+  "explanation": "\"En lidenskab\" means \"a passion\", a very strong feeling of excitement and devotion for a person, a hobby or a cause. The matching describing word is lidenskabelig (passionate).",
   "forms": [
    {
     "da": "en lidenskab",
@@ -10647,7 +10663,7 @@
    },
    {
     "da": "efterhånden",
-    "en": "gradually"
+    "en": "over time"
    }
   ],
   "sentence": {
@@ -10691,7 +10707,7 @@
   }
  },
  "lige": {
-  "explanation": "\"Lige\" means \"straight\" or \"equal\", and in et lige tal it means \"even\" (2, 4, 6). It is also used for \"just\" or \"right\": lige nu means \"right now\" and \"lige ved siden af\" means \"right next to\".",
+  "explanation": "\"Lige\" means \"straight\" or \"equal\", and in et lige tal it means \"even\" (2, 4, 6). It is also used for \"just\" or \"right\": lige nu (right now), lige ved siden af (right next to).",
   "forms": [
    {
     "da": "en lige vej",
@@ -10909,7 +10925,7 @@
   }
  },
  "ligegyldig": {
-  "explanation": "\"Ligegyldig\" means \"indifferent\" or \"unimportant\". For a person, it means not caring: Hun virker ligegyldig (She seems indifferent). For a thing, it does not matter: Det er ligegyldigt (It is unimportant).",
+  "explanation": "\"Ligegyldig\" means \"indifferent\" or \"unimportant\". For a person, it means not caring: Hun virker ligegyldig (She seems indifferent). For a thing, it does not matter: Det er ligegyldigt (It makes no difference).",
   "forms": [
    {
     "da": "en ligegyldig kommentar",
@@ -10948,7 +10964,7 @@
   }
  },
  "ligeledes": {
-  "explanation": "\"Ligeledes\" means \"likewise\", and says that the same also applies to someone else. Said alone, it answers a wish or greeting: Fornøjelse at møde dig! Ligeledes! (Nice to meet you! Likewise!)",
+  "explanation": "\"Ligeledes\" means \"likewise\", and says that the same also applies to someone else. Said alone, it answers a wish or greeting: Rart at møde dig! Ligeledes! (Nice to meet you! Likewise!)",
   "forms": [
    {
     "da": "Ligeledes!",
@@ -11026,11 +11042,11 @@
   }
  },
  "ligestilling": {
-  "explanation": "\"En ligestilling\" means \"equality\", the idea that everyone gets the same rights and chances, especially in work and pay: ligestilling på arbejdspladsen (equality in the workplace).",
+  "explanation": "\"Ligestilling\" means \"equality\", the idea that everyone gets the same rights and chances, especially in work and pay: ligestilling på arbejdspladsen (equality in the workplace).",
   "forms": [
    {
-    "da": "en ligestilling",
-    "en": "an equality"
+    "da": "ligestilling",
+    "en": "equality"
    },
    {
     "da": "ligestillingen",
@@ -11129,17 +11145,17 @@
     "en": "back"
    },
    {
-    "da": "om hjørnet",
-    "en": "around the corner"
+    "da": "lige frem",
+    "en": "straight ahead"
    },
    {
-    "da": "en retning",
-    "en": "a direction"
+    "da": "at dreje",
+    "en": "to turn"
    }
   ],
   "sentence": {
    "da": "Ved krydset skal du ikke dreje, men gå **ligeud**.",
-   "en": "At the crossing you should not turn, but go straight ahead."
+   "en": "At the intersection, do not turn, but go straight ahead."
   }
  },
  "ligeværdig": {
@@ -11298,7 +11314,7 @@
     "en": "glue"
    },
    {
-    "da": "limen",
+    "da": "limmet",
     "en": "the glue"
    },
    {
@@ -11373,7 +11389,7 @@
   "forms": [
    {
     "da": "en litteratur",
-    "en": "a literature"
+    "en": "literature"
    },
    {
     "da": "litteraturen",
@@ -11459,7 +11475,7 @@
    },
    {
     "da": "fuld af livsglæde",
-    "en": "full of joy of life"
+    "en": "full of zest for life"
    }
   ],
   "related": [
@@ -11486,11 +11502,11 @@
   }
  },
  "livskvalitet": {
-  "explanation": "\"En livskvalitet\" means \"quality of life\", how good everyday life feels, including free time and freedom. It is often used about illness and old age: livskvalitet som ældre (quality of life as an older person).",
+  "explanation": "\"Livskvalitet\" means \"quality of life\", how good everyday life feels, including free time and freedom. It is often used about illness and old age: livskvalitet som ældre (quality of life as an older person).",
   "forms": [
    {
-    "da": "en livskvalitet",
-    "en": "a quality of life"
+    "da": "livskvalitet",
+    "en": "quality of life"
    },
    {
     "da": "livskvaliteten",
@@ -11603,11 +11619,11 @@
   }
  },
  "lokal": {
-  "explanation": "\"Lokal\" means \"local\", for things from the nearby area: en lokal avis (a local newspaper). Lokale nyheder (local news) is about your own town.",
+  "explanation": "\"Lokal\" means \"local\", for things from the nearby area: en lokal avis (a local newspaper). Lokale nyheder (local news) is news about your own area.",
   "forms": [
    {
     "da": "en lokal butik",
-    "en": "a local shop"
+    "en": "a local store"
    },
    {
     "da": "et lokalt marked",
@@ -11794,10 +11810,10 @@
   }
  },
  "lovgivning": {
-  "explanation": "\"En lovgivning\" means \"legislation\", the whole body of legal rules of a country or area, and also the work of making them. It is mostly used without en.",
+  "explanation": "\"Lovgivning\" means \"legislation\", the whole body of legal rules of a country or area, and also the work of making them. It is used without en or et (a).",
   "forms": [
    {
-    "da": "en lovgivning",
+    "da": "lovgivning",
     "en": "legislation"
    },
    {
@@ -11954,11 +11970,11 @@
   }
  },
  "loyalitet": {
-  "explanation": "\"En loyalitet\" means \"loyalty\", the feeling of standing by a person, a group or a company: loyalitet over for sin arbejdsgiver (loyalty to one's employer).",
+  "explanation": "\"Loyalitet\" means \"loyalty\", the feeling of standing by a person, a group or a company: loyalitet over for sin arbejdsgiver (loyalty to one's employer).",
   "forms": [
    {
-    "da": "en loyalitet",
-    "en": "a loyalty"
+    "da": "loyalitet",
+    "en": "loyalty"
    },
    {
     "da": "loyaliteten",
@@ -11993,7 +12009,7 @@
   ],
   "sentence": {
    "da": "**Loyalitet** er, at man støtter sine venner, også når det er svært.",
-   "en": "Loyalty is that you support your friends, even when it is hard."
+   "en": "Loyalty is when you support your friends, even when it is hard."
   }
  },
  "luft": {
@@ -12106,7 +12122,7 @@
   }
  },
  "lummer": {
-  "explanation": "\"Lummer\" means \"muggy\", for warm, still and damp air, typical before a thunderstorm. It is a heavy feeling in the air, not just heat; for plain heat, use varm (hot).",
+  "explanation": "\"Lummer\" means \"muggy\", for warm, still and damp air, typical before a thunderstorm. It is a heavy feeling in the air, not just heat; for plain heat, use varm (warm).",
   "forms": [
    {
     "da": "en lummer sommerdag",
@@ -12140,12 +12156,12 @@
    }
   ],
   "sentence": {
-   "da": "Luften er **lummer**, og tordenen kommer nok snart.",
-   "en": "The air is muggy, and the thunder will probably come soon."
+   "da": "Luften er **lummer**, og der kommer nok tordenvejr snart.",
+   "en": "The air is muggy, and a thunderstorm is probably coming soon."
   }
  },
  "lun": {
-  "explanation": "\"Lun\" means \"warm\" or \"cozy\", pleasantly warm without being heat, for food, rooms and weather: lun suppe (warm soup). For humor, it means gentle and a little dry: en lun bemærkning (a gentle remark).",
+  "explanation": "\"Lun\" means \"warm\" or \"cozy\", pleasantly warm but not hot, for food, rooms and weather: lun suppe (warm soup). For humor, it means gentle and a little dry: en lun bemærkning (a gentle remark).",
   "forms": [
    {
     "da": "en lun stue",
@@ -12180,11 +12196,11 @@
   ],
   "sentence": {
    "da": "Stuen er **lun**, fordi brændeovnen har brændt hele dagen.",
-   "en": "The room is cozy because the stove has burned all day."
+   "en": "The room is cozy because the wood stove has burned all day."
   }
  },
  "ly": {
-  "explanation": "\"Et ly\" means \"a shelter\", a place that protects you from rain, wind or danger. In i ly af mørket (under cover of darkness), it means being hidden by something.",
+  "explanation": "\"Et ly\" means \"a shelter\", a place that protects you from rain, wind or danger. The phrase i ly af mørket (under cover of darkness) means being hidden by something.",
   "forms": [
    {
     "da": "et ly",
@@ -12335,7 +12351,7 @@
    },
    {
     "da": "sorg",
-    "en": "sadness"
+    "en": "grief"
    }
   ],
   "sentence": {
@@ -12344,7 +12360,7 @@
   }
  },
  "lykkelig": {
-  "explanation": "\"Lykkelig\" means \"happy\", in a deeper and longer-lasting way than glad (cheerful): Jeg er lykkelig med mit liv (I am happy with my life). For a good mood today, glad is more common: Jeg er glad i dag (I am happy today).",
+  "explanation": "\"Lykkelig\" means \"happy\", in a deeper and longer-lasting way than glad (happy in the moment): Jeg er lykkelig med mit liv (I am happy with my life). For a good mood today, glad is more common: Jeg er glad i dag (I am happy today).",
   "forms": [
    {
     "da": "en lykkelig dag",
@@ -12588,7 +12604,7 @@
   "related": [
    {
     "da": "skinnende",
-    "en": "shining"
+    "en": "shiny"
    },
    {
     "da": "blændende",
@@ -12600,7 +12616,7 @@
    },
    {
     "da": "en lysstråle",
-    "en": "a ray"
+    "en": "a ray of light"
    }
   ],
   "sentence": {
@@ -12865,12 +12881,12 @@
    },
    {
     "da": "en læsefærdighed",
-    "en": "a literacy skill"
+    "en": "a reading skill"
    }
   ],
   "sentence": {
    "da": "Ved en test i **læseforståelse** svarer eleverne på spørgsmål om en tekst.",
-   "en": "In a test of reading comprehension, the pupils answer questions about a text."
+   "en": "In a test of reading comprehension, the students answer questions about a text."
   }
  },
  "løbende": {
@@ -12886,7 +12902,7 @@
    },
    {
     "da": "at betale løbende",
-    "en": "to pay on a regular basis"
+    "en": "to pay as you go"
    }
   ],
   "related": [
@@ -12913,7 +12929,7 @@
   }
  },
  "lørdag": {
-  "explanation": "\"En lørdag\" means \"a Saturday\". På lørdag means \"on Saturday\" (the coming one), and \"om lørdagen\" means \"on Saturdays\" (every Saturday). Day names start with a small letter in Danish.",
+  "explanation": "\"En lørdag\" means \"a Saturday\". På lørdag means \"on Saturday\" (the coming one), and om lørdagen means \"on Saturdays\" (every Saturday). Day names start with a small letter in Danish.",
   "forms": [
    {
     "da": "en lørdag",
@@ -12935,11 +12951,11 @@
   "related": [
    {
     "da": "en fredag",
-    "en": "Friday"
+    "en": "a Friday"
    },
    {
     "da": "en søndag",
-    "en": "Sunday"
+    "en": "a Sunday"
    },
    {
     "da": "en weekend",
@@ -12995,7 +13011,7 @@
   "forms": [
    {
     "da": "et løvfald",
-    "en": "a leaf fall"
+    "en": "leaf fall"
    },
    {
     "da": "løvfaldet",
@@ -13025,8 +13041,8 @@
    }
   ],
   "sentence": {
-   "da": "Efter et **løvfald** ligger bladene tykt på jorden.",
-   "en": "After a leaf fall the leaves lie thick on the ground."
+   "da": "Efter **løvfald** ligger bladene tykt på jorden.",
+   "en": "After leaf fall the leaves lie thick on the ground."
   }
  }
 }

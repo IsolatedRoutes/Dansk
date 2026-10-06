@@ -35,7 +35,7 @@
   ],
   "sentence": {
    "da": "Jeg bestilte skoene i en **webshop** i går.",
-   "en": "I ordered the shoes in an online store yesterday."
+   "en": "I ordered the shoes from an online store yesterday."
   }
  },
  "en webside": {
@@ -78,7 +78,7 @@
   }
  },
  "en weekend": {
-  "explanation": "\"En weekend\" means \"a weekend\". Say i weekenden for \"on the weekend\". On Fridays, Danes say God weekend! (Have a good weekend!).",
+  "explanation": "\"En weekend\" means \"a weekend\". Say i weekenden (on the weekend). On Fridays, Danes say God weekend! (Have a good weekend!).",
   "forms": [
    {
     "da": "en weekend",
@@ -121,7 +121,7 @@
   }
  },
  "en weekendtur": {
-  "explanation": "\"En weekendtur\" means \"a weekend trip\". It is built from weekend (weekend) and tur (trip), the same tur as in en biltur (a car trip).",
+  "explanation": "\"En weekendtur\" means \"a weekend trip\". It is built from weekend and tur (trip), the same tur as in en biltur (a car trip).",
   "forms": [
    {
     "da": "en weekendtur",
@@ -377,7 +377,7 @@
   "related": [
    {
     "da": "hold da op",
-    "en": "wow / hold on"
+    "en": "wow"
    },
    {
     "da": "fedt",

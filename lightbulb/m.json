@@ -164,7 +164,7 @@
   ],
   "sentence": {
    "da": "Du skal **markere** det vigtigste med en gul tusch.",
-   "en": "You must mark the most important part with a yellow felt-tip pen."
+   "en": "You must mark the most important part with a yellow marker."
   }
  },
  "at mase": {
@@ -297,7 +297,7 @@
   }
  },
  "at medføre": {
-  "explanation": "\"At medføre\" means \"to lead to / result in\", to have something follow from it: Regnen medfører oversvømmelser (The rain results in floods).",
+  "explanation": "\"At medføre\" means \"to lead to\" or \"to result in\", for a cause that brings a result with it: Regnen medfører oversvømmelser (The rain results in floods).",
   "forms": [
    {
     "da": "at medføre",
@@ -465,23 +465,23 @@
   }
  },
  "at melde afbud": {
-  "explanation": "\"At melde afbud\" means \"to cancel\", when you tell people you cannot come: Han meldte afbud til festen (He told them he could not come to the party). To cancel the event itself, use at aflyse (to cancel).",
+  "explanation": "\"At melde afbud\" means \"to cancel your attendance\", when you tell people you cannot come: Han meldte afbud til festen (He told them he could not come to the party). To cancel the event itself, use at aflyse (to cancel).",
   "forms": [
    {
     "da": "at melde afbud",
-    "en": "to cancel (not attend)"
+    "en": "to cancel your attendance"
    },
    {
     "da": "jeg melder afbud",
-    "en": "I cancel (not attend)"
+    "en": "I cancel my attendance"
    },
    {
     "da": "jeg meldte afbud",
-    "en": "I canceled (not attend)"
+    "en": "I canceled my attendance"
    },
    {
     "da": "jeg har meldt afbud",
-    "en": "I have canceled (not attend)"
+    "en": "I have canceled my attendance"
    }
   ],
   "related": [
@@ -577,7 +577,7 @@
    },
    {
     "da": "en sygemelding",
-    "en": "a sick report"
+    "en": "a sick-leave notice"
    },
    {
     "da": "rask",
@@ -672,7 +672,7 @@
   ],
   "sentence": {
    "da": "Når man bliver bestjålet, bør man **melde til politiet**.",
-   "en": "When you are robbed, you should report to the police."
+   "en": "When something is stolen from you, you should report it to the police."
   }
  },
  "at mene": {
@@ -765,16 +765,16 @@
     "en": "to remind of"
    },
    {
-    "da": "jeg minder om",
-    "en": "I remind of"
+    "da": "det minder mig om",
+    "en": "it reminds me of"
    },
    {
-    "da": "jeg mindede om",
-    "en": "I reminded of"
+    "da": "det mindede mig om",
+    "en": "it reminded me of"
    },
    {
-    "da": "jeg har mindet om",
-    "en": "I have reminded of"
+    "da": "det har mindet mig om",
+    "en": "it has reminded me of"
    }
   ],
   "related": [
@@ -797,7 +797,7 @@
   ],
   "sentence": {
    "da": "Den sang kan **minde om** sommeren.",
-   "en": "That song can be reminiscent of summer."
+   "en": "That song can remind you of summer."
   }
  },
  "at mindes": {
@@ -1133,7 +1133,7 @@
   }
  },
  "at modarbejde": {
-  "explanation": "\"At modarbejde\" means \"to counteract\", and says that someone works against a person or a plan on purpose: Han modarbejder mig på jobbet (He works against me at work). For something that weakens an effect, such as a medicine, use at modvirke (to counteract an effect).",
+  "explanation": "\"At modarbejde\" means \"to counteract\", to work against a person or a plan on purpose: Han modarbejder mig på jobbet (He works against me at work). To weaken an effect, such as a medicine's, use at modvirke (to counter an effect).",
   "forms": [
    {
     "da": "at modarbejde",
@@ -1297,11 +1297,11 @@
   ],
   "sentence": {
    "da": "Optagelserne kan **modsige** vidnets forklaring.",
-   "en": "The recordings can contradict the witness's explanation."
+   "en": "The recordings can contradict the witness's statement."
   }
  },
  "at modstille": {
-  "explanation": "\"At modstille\" means \"to contrast\": to put two things next to each other so you can see how they are unlike: modstille by og land (contrast city and country).",
+  "explanation": "\"At modstille\" means \"to contrast\": to put two things next to each other so you can see how they are unlike: at modstille by og land (to contrast city and country).",
   "forms": [
    {
     "da": "at modstille",
@@ -1473,7 +1473,7 @@
   }
  },
  "at more sig": {
-  "explanation": "\"At more sig\" means \"to have fun\", and sig changes with the person: Vi morer os (We are having fun).",
+  "explanation": "\"At more sig\" means \"to have fun\". Sig changes with the person: mig after jeg, os after vi, as in Vi morer os (We are having fun).",
   "forms": [
    {
     "da": "at more sig",
@@ -2034,7 +2034,7 @@
   "related": [
    {
     "da": "et agn",
-    "en": "a lure"
+    "en": "a bait"
    },
    {
     "da": "en krog",
@@ -2155,15 +2155,15 @@
   "related": [
    {
     "da": "en frokostordning",
-    "en": "a lunch scheme"
+    "en": "a lunch program"
    },
    {
     "da": "en kantine",
-    "en": "a canteen"
+    "en": "a cafeteria"
    },
    {
     "da": "en vuggestue",
-    "en": "a nursery"
+    "en": "an infant daycare"
    },
    {
     "da": "en madpakke",
@@ -2375,7 +2375,7 @@
   }
  },
  "en madvogn": {
-  "explanation": "\"En madvogn\" means \"a food truck\", a vehicle that sells cooked food on the street or at festivals. The second part, vogn, means a cart or wagon on wheels: en barnevogn (a stroller) uses the same word.",
+  "explanation": "\"En madvogn\" means \"a food truck\", a vehicle that sells cooked food on the street or at festivals. The second part, vogn, means a cart or wagon on wheels: en barnevogn (a baby carriage) uses the same word.",
   "forms": [
    {
     "da": "en madvogn",
@@ -2767,7 +2767,7 @@
   ],
   "related": [
    {
-    "da": "en slips",
+    "da": "et slips",
     "en": "a tie"
    },
    {
@@ -2789,7 +2789,7 @@
   }
  },
  "en mand": {
-  "explanation": "\"En mand\" means \"a man\" or \"a husband\". With min (my) it means husband: min mand is my husband.",
+  "explanation": "\"En mand\" means \"a man\" or \"a husband\". With min (my) it means husband: min mand (my husband).",
   "forms": [
    {
     "da": "en mand",
@@ -2971,7 +2971,7 @@
   "related": [
    {
     "da": "en pels",
-    "en": "a fur"
+    "en": "fur"
    },
    {
     "da": "en hale",
@@ -3013,10 +3013,6 @@
     "en": "a document"
    },
    {
-    "da": "en ringbind",
-    "en": "a binder"
-   },
-   {
     "da": "et ringbind",
     "en": "a binder"
    },
@@ -3031,7 +3027,7 @@
   }
  },
  "en mariehøne": {
-  "explanation": "\"En mariehøne\" means \"a ladybug\", a small round beetle that eats insects harming plants. Literally the word is Marie plus høne (a hen), but it is not a bird.",
+  "explanation": "\"En mariehøne\" means \"a ladybug\", a small round beetle that eats insects that harm plants. Literally the word is Marie plus høne (a hen), but it is not a bird.",
   "forms": [
    {
     "da": "en mariehøne",
@@ -3139,7 +3135,7 @@
    },
    {
     "da": "en omsætning",
-    "en": "a turnover"
+    "en": "revenue"
    },
    {
     "da": "en branche",
@@ -3147,7 +3143,7 @@
    },
    {
     "da": "en markedsleder",
-    "en": "a front-runner"
+    "en": "a market leader"
    }
   ],
   "sentence": {
@@ -3221,7 +3217,7 @@
    },
    {
     "da": "en demonstration",
-    "en": "a rally"
+    "en": "a protest march"
    },
    {
     "da": "et tegn",
@@ -3320,7 +3316,7 @@
   }
  },
  "en maske": {
-  "explanation": "\"En maske\" means \"a mask\", something you wear to hide or protect part of your head. To put one on, say at tage en maske på (to put on a mask).",
+  "explanation": "\"En maske\" means \"a mask\", something you wear to hide or protect part of your face. To put one on, say at tage en maske på (to put on a mask).",
   "forms": [
    {
     "da": "en maske",
@@ -3795,11 +3791,11 @@
   "related": [
    {
     "da": "en indfødsretsprøve",
-    "en": "a naturalization exam"
+    "en": "a citizenship test"
    },
    {
     "da": "en statsborger",
-    "en": "a national"
+    "en": "a citizen"
    },
    {
     "da": "en opholdstilladelse",
@@ -3816,7 +3812,7 @@
   }
  },
  "en meddelelse": {
-  "explanation": "\"En meddelelse\" means \"an announcement\", a short official statement that tells people something. A message to a friend is called something else; meddelelse is for news from a school, a company or an authority.",
+  "explanation": "\"En meddelelse\" means \"an announcement\", a short official statement that tells people something. It is a formal word for news from a school, a company or an authority. For a message to a friend, Danes say en besked (a message).",
   "forms": [
    {
     "da": "en meddelelse",
@@ -4101,7 +4097,7 @@
   }
  },
  "en melodi": {
-  "explanation": "\"En melodi\" means \"a melody\", the tune you sing or play. To hum it, say at nynne (to hum): Han nynner en melodi (He hums a tune).",
+  "explanation": "\"En melodi\" means \"a melody\", the tune you sing or play. To hum a tune, use at nynne (to hum): Han nynner en melodi (He hums a tune).",
   "forms": [
    {
     "da": "en melodi",
@@ -4287,11 +4283,11 @@
   "related": [
    {
     "da": "en vejleder",
-    "en": "an advisor"
+    "en": "a supervisor"
    },
    {
     "da": "en rådgiver",
-    "en": "a counselor"
+    "en": "an adviser"
    },
    {
     "da": "en coach",
@@ -4657,7 +4653,7 @@
     "en": "an attack"
    },
    {
-    "da": "kvalme",
+    "da": "en kvalme",
     "en": "nausea"
    },
    {
@@ -4792,23 +4788,23 @@
   }
  },
  "en mil": {
-  "explanation": "\"En mil\" means \"a (Danish) mile\", a measure of length equal to 10 km, far longer than an English mile. The plural is also mil: tre mil (three mil). It also lives on in the saying på mils afstand (from far away).",
+  "explanation": "\"En mil\" means \"a mil\", an old Danish measure of distance of about 7.5 km, much longer than an English mile. The plural is also mil. Today it mostly lives on in the saying på mils afstand (from miles away).",
   "forms": [
    {
     "da": "en mil",
-    "en": "a Danish mile"
+    "en": "a mil"
    },
    {
     "da": "milen",
-    "en": "the Danish mile"
+    "en": "the mil"
    },
    {
     "da": "mil",
-    "en": "Danish miles"
+    "en": "mils"
    },
    {
     "da": "milene",
-    "en": "the Danish miles"
+    "en": "the mils"
    }
   ],
   "related": [
@@ -4826,8 +4822,8 @@
    }
   ],
   "sentence": {
-   "da": "En **mil** er ti kilometer.",
-   "en": "A mil is ten kilometers."
+   "da": "Før i tiden målte man afstand i **mil**.",
+   "en": "In the old days, people measured distance in mil."
   }
  },
  "en milepæl": {
@@ -5107,7 +5103,7 @@
    },
    {
     "da": "et mindretal",
-    "en": "a smaller share"
+    "en": "a minority (smaller group)"
    }
   ],
   "sentence": {
@@ -5366,7 +5362,7 @@
   }
  },
  "en modspiller": {
-  "explanation": "\"En modspiller\" means \"an opponent (in a game)\", the person you play against, for example in chess or tennis. It is only for games and sports. For an opponent in a fight or an argument, use en modstander.",
+  "explanation": "\"En modspiller\" means \"an opponent (in a game)\", the person you play against, for example in chess or tennis. It is only for games and sports. For an opponent in a fight or an argument, use en modstander (an opponent).",
   "forms": [
    {
     "da": "en modspiller",
@@ -5444,7 +5440,7 @@
   }
  },
  "en modstander": {
-  "explanation": "\"En modstander\" means \"an opponent\", someone on the other side of a fight, an election, a match or an argument. It is wider than en modspiller, which is only for games.",
+  "explanation": "\"En modstander\" means \"an opponent\", someone on the other side of a fight, an election, a match or an argument. It is wider than en modspiller (a player on the other side), which is only for games.",
   "forms": [
    {
     "da": "en modstander",
@@ -5520,8 +5516,8 @@
     "en": "a similarity"
    },
    {
-    "da": "en uenighed",
-    "en": "a disagreement"
+    "da": "modsat",
+    "en": "opposite"
    }
   ],
   "sentence": {
@@ -5651,7 +5647,7 @@
   }
  },
  "en moppe": {
-  "explanation": "\"En moppe\" means \"a mop\", a stick with soft strings or a flat pad at the end that you use with water.",
+  "explanation": "\"En moppe\" means \"a mop\", a stick with soft strings or a flat pad at the end, used with water to clean floors.",
   "forms": [
    {
     "da": "en moppe",
@@ -5901,7 +5897,7 @@
   }
  },
  "en morgen": {
-  "explanation": "\"En morgen\" means \"a morning\". Do not mix it up with i morgen (tomorrow) or i morges (this morning). Om morgenen means \"in the morning\" and \"godmorgen\" means \"good morning\".",
+  "explanation": "\"En morgen\" means \"a morning\". Do not mix it up with i morgen (tomorrow) or i morges (this morning). Om morgenen means \"in the morning\" and godmorgen means \"good morning\".",
   "forms": [
    {
     "da": "en morgen",
@@ -5987,23 +5983,23 @@
   }
  },
  "en morgenkåbe": {
-  "explanation": "\"En morgenkåbe\" means \"a robe\", a loose robe you wear at home in the morning, for example while you have breakfast.",
+  "explanation": "\"En morgenkåbe\" means \"a bathrobe\", a loose robe you wear at home in the morning, for example while you have breakfast.",
   "forms": [
    {
     "da": "en morgenkåbe",
-    "en": "a robe"
+    "en": "a bathrobe"
    },
    {
     "da": "morgenkåben",
-    "en": "the robe"
+    "en": "the bathrobe"
    },
    {
     "da": "morgenkåber",
-    "en": "robes"
+    "en": "bathrobes"
    },
    {
     "da": "morgenkåberne",
-    "en": "the robes"
+    "en": "the bathrobes"
    }
   ],
   "related": [
@@ -6013,7 +6009,7 @@
    },
    {
     "da": "en badekåbe",
-    "en": "a bathrobe"
+    "en": "a robe for after a swim"
    },
    {
     "da": "en pyjamas",
@@ -6026,7 +6022,7 @@
   ],
   "sentence": {
    "da": "En **morgenkåbe** tager man på, før man klæder sig på.",
-   "en": "You put on a robe before you get dressed."
+   "en": "You put on a bathrobe before you get dressed."
   }
  },
  "en morgenmadsbuffet": {
@@ -6319,7 +6315,7 @@
   }
  },
  "en motorcykel": {
-  "explanation": "\"En motorcykel\" means \"a motorcycle\". It is built from motor (engine) and cykel (bicycle). You cykle (bike) on a bicycle, but you køre (drive, ride) a motorcycle.",
+  "explanation": "\"En motorcykel\" means \"a motorcycle\". It is built from motor (engine) and cykel (bicycle). Danish uses at cykle (to bike) for a bicycle, but at køre (to drive, to ride) for a motorcycle.",
   "forms": [
    {
     "da": "en motorcykel",
@@ -6501,7 +6497,7 @@
   "related": [
    {
     "da": "en kageform",
-    "en": "a cake tin"
+    "en": "a cake pan"
    },
    {
     "da": "en bageplade",
@@ -6586,16 +6582,16 @@
   ],
   "related": [
    {
-    "da": "en rygsæk",
-    "en": "a backpack"
+    "da": "en stofpose",
+    "en": "a cloth bag"
    },
    {
-    "da": "en håndtaske",
-    "en": "a handbag"
+    "da": "en indkøbspose",
+    "en": "a shopping bag"
    },
    {
-    "da": "et indkøbsnet",
-    "en": "a net shopping sack"
+    "da": "en plastikpose",
+    "en": "a plastic bag"
    },
    {
     "da": "en indkøbskurv",
@@ -6849,8 +6845,8 @@
    }
   ],
   "sentence": {
-   "da": "En **mursten** er rød og lavet af ler.",
-   "en": "A brick is red and made of clay."
+   "da": "En **mursten** er ofte rød og lavet af ler.",
+   "en": "A brick is often red and made of clay."
   }
  },
  "en mus": {
@@ -7299,7 +7295,7 @@
   }
  },
  "en måde": {
-  "explanation": "\"En måde\" means \"a way\" of doing something. På den måde means \"in that way\", and \"på en eller anden måde\" means \"somehow\". Do not mix it up with en vej (a road or path).",
+  "explanation": "\"En måde\" means \"a way\" of doing something. På den måde means \"in that way\", and på en eller anden måde means \"somehow\". Do not mix it up with en vej (a road or path).",
   "forms": [
    {
     "da": "en måde",
@@ -7381,7 +7377,7 @@
   }
  },
  "en måler": {
-  "explanation": "\"En måler\" means \"a meter / gauge\", an instrument that shows how much of something there is or how much you have used, such as electricity or water at home.",
+  "explanation": "\"En måler\" means \"a meter\" or \"a gauge\", an instrument that shows how much of something there is or how much you have used, such as electricity or water at home.",
   "forms": [
    {
     "da": "en måler",
@@ -7898,11 +7894,11 @@
   ],
   "related": [
    {
-    "da": "en cykelbud",
+    "da": "et cykelbud",
     "en": "a bike courier"
    },
    {
-    "da": "en pizzabud",
+    "da": "et pizzabud",
     "en": "a pizza delivery person"
    },
    {
@@ -8166,7 +8162,7 @@
   }
  },
  "et marked": {
-  "explanation": "\"Et marked\" means \"a market\", such as an open-air place where people sell fruit, vegetables or second-hand things.",
+  "explanation": "\"Et marked\" means \"a market\", an open-air place where people sell fruit, vegetables or second-hand things.",
   "forms": [
    {
     "da": "et marked",
@@ -8426,7 +8422,7 @@
   "related": [
    {
     "da": "et kontingent",
-    "en": "dues"
+    "en": "a membership fee"
    },
    {
     "da": "en forening",
@@ -8554,8 +8550,8 @@
     "en": "dish of the day"
    },
    {
-    "da": "en regning",
-    "en": "a bill"
+    "da": "en børnemenu",
+    "en": "a kids' menu"
    }
   ],
   "sentence": {
@@ -8607,7 +8603,7 @@
   }
  },
  "et metal": {
-  "explanation": "\"Et metal\" means \"a metal\", such as gold. It is also the name of a loud music style: Jeg hører metal (I listen to metal).",
+  "explanation": "\"Et metal\" means \"a metal\", such as gold. It is also the name of a loud music style: Jeg lytter til metal (I listen to metal).",
   "forms": [
    {
     "da": "et metal",
@@ -8683,7 +8679,7 @@
     "en": "a wedding reception"
    },
    {
-    "da": "en komsammen",
+    "da": "et komsammen",
     "en": "a get-together"
    }
   ],
@@ -8998,7 +8994,7 @@
    },
    {
     "da": "missiler",
-    "en": "two missiles"
+    "en": "missiles"
    },
    {
     "da": "missilerne",
@@ -9062,7 +9058,7 @@
     "en": "a wart"
    },
    {
-    "da": "en pig",
+    "da": "en bums",
     "en": "a pimple"
    }
   ],
@@ -9197,7 +9193,7 @@
   }
  },
  "et molekyle": {
-  "explanation": "\"Et molekyle\" means \"a molecule\", a very small group of atoms joined together, such as in sugar or in air.",
+  "explanation": "\"Et molekyle\" means \"a molecule\", a very small group of atoms joined together, such as water or sugar.",
   "forms": [
    {
     "da": "et molekyle",
@@ -9230,8 +9226,8 @@
     "en": "a substance"
    },
    {
-    "da": "en celle",
-    "en": "a cell"
+    "da": "et atom",
+    "en": "an atom"
    }
   ],
   "sentence": {
@@ -9283,7 +9279,7 @@
   }
  },
  "et monument": {
-  "explanation": "\"Et monument\" means \"a monument\", a big structure that honors a person or an event. Use for to say who it honors: et monument for kongen (a monument for the king).",
+  "explanation": "\"Et monument\" means \"a monument\", a big structure that honors a person or an event. To say who it honors, use for: et monument for kongen (a monument for the king).",
   "forms": [
    {
     "da": "et monument",
@@ -10017,7 +10013,7 @@
   "forms": [
    {
     "da": "et madpapir",
-    "en": "a sandwich paper"
+    "en": "sandwich paper"
    },
    {
     "da": "madpapiret",
@@ -10039,7 +10035,7 @@
    },
    {
     "da": "et stanniol",
-    "en": "an aluminum foil"
+    "en": "tin foil"
    },
    {
     "da": "en madkasse",
@@ -10059,8 +10055,8 @@
   "explanation": "\"Et madspild\" means \"food waste\", food that is bought or made but never eaten. It is built from mad (food) and spild (waste).",
   "forms": [
    {
-    "da": "et madspild",
-    "en": "a food waste"
+    "da": "madspild",
+    "en": "food waste"
    },
    {
     "da": "madspildet",
@@ -10074,7 +10070,7 @@
   "related": [
    {
     "da": "et affald",
-    "en": "a trash"
+    "en": "waste"
    },
    {
     "da": "en rest",
@@ -10130,11 +10126,11 @@
   }
  },
  "magi": {
-  "explanation": "\"En magi\" means \"magic\", the power to make impossible things happen, as in stories with spells. It also means a special, hard-to-explain charm: Der er magi i luften (There is magic in the air).",
+  "explanation": "\"Magi\" means \"magic\", the power to make impossible things happen, as in stories with spells. It also means a special, hard-to-explain charm: Der er magi i luften (There is magic in the air).",
   "forms": [
    {
-    "da": "en magi",
-    "en": "a magic"
+    "da": "magi",
+    "en": "magic"
    },
    {
     "da": "magien",
@@ -10156,11 +10152,11 @@
    },
    {
     "da": "en tryllestav",
-    "en": "a wand"
+    "en": "a magic wand"
    },
    {
     "da": "en trolddom",
-    "en": "a witchcraft"
+    "en": "witchcraft"
    }
   ],
   "sentence": {
@@ -10465,7 +10461,7 @@
   }
  },
  "man": {
-  "explanation": "\"Man\" means \"you\" or \"one\" for anybody, people in general. Compare Du kan købe billetter (You can buy tickets — said to one person) with Man kan købe billetter her (You can buy tickets here — anyone can). Do not mix it up with en mand (a man).",
+  "explanation": "\"Man\" means \"you\" or \"one\" for anybody, people in general. Compare Du kan købe billetter (You can buy tickets, said to one person) with Man kan købe billetter her (You can buy tickets here, anyone can). Do not mix it up with en mand (a man).",
   "forms": [
    {
     "da": "man må ikke ryge her",
@@ -10535,7 +10531,7 @@
   }
  },
  "mandag": {
-  "explanation": "\"En mandag\" means \"a Monday\". På mandag means \"on Monday\" (the coming one), om mandagen means \"on Mondays\" in general, and \"i mandags\" means \"last Monday\". Day names start with a small letter in Danish.",
+  "explanation": "\"En mandag\" means \"a Monday\". På mandag means \"on Monday\" (the coming one), om mandagen means \"on Mondays\" in general, and i mandags means \"last Monday\". Day names start with a small letter in Danish.",
   "forms": [
    {
     "da": "en mandag",
@@ -10557,15 +10553,15 @@
   "related": [
    {
     "da": "en tirsdag",
-    "en": "Tuesday"
+    "en": "a Tuesday"
    },
    {
     "da": "en søndag",
-    "en": "Sunday"
+    "en": "a Sunday"
    },
    {
     "da": "en onsdag",
-    "en": "Wednesday"
+    "en": "a Wednesday"
    }
   ],
   "sentence": {
@@ -10708,8 +10704,8 @@
     "en": "thanks a lot"
    },
    {
-    "da": "tak for sidst",
-    "en": "thanks for last time"
+    "da": "tak skal du have",
+    "en": "thank you"
    },
    {
     "da": "vær så god",
@@ -10752,7 +10748,7 @@
    },
    {
     "da": "fyldestgørende",
-    "en": "thorough"
+    "en": "satisfactory"
    }
   ],
   "sentence": {
@@ -10761,11 +10757,11 @@
   }
  },
  "mangfoldighed": {
-  "explanation": "\"En mangfoldighed\" means \"diversity\", many different kinds existing side by side, in people, cultures or nature: en mangfoldighed af farver (a variety of colors).",
+  "explanation": "\"Mangfoldighed\" means \"diversity\", many different kinds existing side by side, in people, cultures or nature: en mangfoldighed af farver (a variety of colors).",
   "forms": [
    {
-    "da": "en mangfoldighed",
-    "en": "a diversity"
+    "da": "mangfoldighed",
+    "en": "diversity"
    },
    {
     "da": "mangfoldigheden",
@@ -10808,7 +10804,7 @@
    },
    {
     "da": "manglende interesse",
-    "en": "missing interest"
+    "en": "lack of interest"
    },
    {
     "da": "manglende penge",
@@ -10874,7 +10870,7 @@
   }
  },
  "marihuana": {
-  "explanation": "\"En marihuana\" means \"marijuana\", the dried parts of the hemp plant that people use to get high. Danish spells it with an h where English has a j.",
+  "explanation": "\"Marihuana\" means \"marijuana\", the dried parts of the hemp plant that people use to get high. Danish spells it with an h where English has a j.",
   "forms": [
    {
     "da": "besiddelse af marihuana",
@@ -10991,7 +10987,7 @@
   "forms": [
    {
     "da": "et marmor",
-    "en": "a marble"
+    "en": "marble"
    },
    {
     "da": "marmoret",
@@ -11061,7 +11057,7 @@
   }
  },
  "masser af": {
-  "explanation": "\"Masser af\" means \"lots of\". It is informal, and it works for things you can count and things you cannot: masser af mad (lots of food), masser af venner (lots of friends).",
+  "explanation": "\"Masser af\" means \"lots of\". It works for things you can count and things you cannot: masser af mad (lots of food), masser af venner (lots of friends).",
   "forms": [
    {
     "da": "masser af penge",
@@ -11256,7 +11252,7 @@
    },
    {
     "da": "med få ord",
-    "en": "in few words"
+    "en": "in a few words"
    }
   ],
   "related": [
@@ -11387,7 +11383,7 @@
    },
    {
     "da": "så vidt angår",
-    "en": "as far as concerns"
+    "en": "as far as it concerns"
    }
   ],
   "sentence": {
@@ -11548,7 +11544,7 @@
   }
  },
  "medmindre": {
-  "explanation": "\"Medmindre\" means \"unless\", introducing the only case where the main statement is not true: Jeg kommer, medmindre jeg bliver syg (I will come unless I get sick).",
+  "explanation": "\"Medmindre\" means \"unless\" and names the one case where the main statement does not hold: Jeg kommer, medmindre jeg bliver syg (I will come unless I get sick).",
   "forms": [
    {
     "da": "medmindre det regner",
@@ -11587,7 +11583,7 @@
   }
  },
  "megen": {
-  "explanation": "\"Megen\" means \"much\" and is used with en-words you cannot count: megen tid (much time). It is mostly used in sentences with ikke (not) or with for (too): for megen støj (too much noise).",
+  "explanation": "\"Megen\" means \"much\" and is used with en-words you cannot count: megen tid (much time). With et-words use meget (much). It is mostly used in sentences with ikke (not) or with for (too): for megen støj (too much noise).",
   "forms": [
    {
     "da": "megen tid",
@@ -11887,15 +11883,15 @@
   }
  },
  "menneskehed": {
-  "explanation": "\"En menneskehed\" means \"humanity\", all people taken together. The quality of being kind and humane is a different word: menneskelighed (humaneness).",
+  "explanation": "\"Menneskehed\" means \"humanity\", all people taken together. The quality of being kind and humane is a different word: menneskelighed (humaneness).",
   "forms": [
    {
-    "da": "en menneskehed",
+    "da": "menneskehed",
     "en": "humanity"
    },
    {
     "da": "menneskeheden",
-    "en": "humanity as a whole"
+    "en": "humanity, the human race"
    },
    {
     "da": "hele menneskeheden",
@@ -12108,7 +12104,7 @@
    },
    {
     "da": "en mentalitet",
-    "en": "a mindset"
+    "en": "a mentality"
    }
   ],
   "sentence": {
@@ -12204,20 +12200,16 @@
   ],
   "related": [
    {
+    "da": "latinamerikansk",
+    "en": "Latin American"
+   },
+   {
     "da": "spansk",
     "en": "Spanish"
    },
    {
     "da": "amerikansk",
     "en": "American"
-   },
-   {
-    "da": "italiensk",
-    "en": "Italian"
-   },
-   {
-    "da": "kinesisk",
-    "en": "Chinese"
    }
   ],
   "sentence": {
@@ -12382,7 +12374,7 @@
   }
  },
  "mig": {
-  "explanation": "\"Mig\" means \"me\". Compare Jeg ser ham (I see him) with Han ser mig (He sees me). It also comes after little words: til mig (to me), med mig (with me). With some verbs it means \"myself\": Jeg vasker mig (I wash myself).",
+  "explanation": "\"Mig\" means \"me\". Compare Jeg ser ham (I see him) with Han ser mig (He sees me). Mig also comes after little words: til mig (to me), med mig (with me). With some verbs it means \"myself\": Jeg vasker mig (I wash myself).",
   "forms": [
    {
     "da": "Han ser mig.",
@@ -12842,11 +12834,11 @@
   }
  },
  "misinformation": {
-  "explanation": "\"En misinformation\" means \"misinformation\", false information that is passed on, often by people who believe it is true.",
+  "explanation": "\"Misinformation\" means \"misinformation\", false information that is passed on, often by people who believe it is true.",
   "forms": [
    {
-    "da": "en misinformation",
-    "en": "a misinformation"
+    "da": "misinformation",
+    "en": "misinformation"
    },
    {
     "da": "misinformationen",
@@ -12959,7 +12951,7 @@
   }
  },
  "mistænksom": {
-  "explanation": "\"Mistænksom\" means \"suspicious\", for a person who does not trust others easily: en mistænksom nabo (a suspicious neighbor). Something that looks wrong is mistænkelig, a different word.",
+  "explanation": "\"Mistænksom\" means \"suspicious\", for a person who does not trust others easily: en mistænksom nabo (a suspicious neighbor). Something that looks wrong is mistænkelig (shady), a different word.",
   "forms": [
    {
     "da": "en mistænksom hund",
@@ -13227,7 +13219,7 @@
   "explanation": "\"Mode\" means \"fashion\", the clothes and styles people like now. Don't confuse it with måde (way), as in en god måde (a good way).",
   "forms": [
    {
-    "da": "Det er på mode",
+    "da": "Det er i mode",
     "en": "It is in fashion"
    },
    {
@@ -13293,8 +13285,8 @@
    }
   ],
   "sentence": {
-   "da": "Den jakke er **moderigtig** nu, men måske ikke næste år.",
-   "en": "That jacket is fashionable now, but maybe not next year."
+   "da": "Jakken er **moderigtig** nu, men måske ikke næste år.",
+   "en": "The jacket is fashionable now, but maybe not next year."
   }
  },
  "moderne": {
@@ -13606,7 +13598,7 @@
   }
  },
  "morgenmad": {
-  "explanation": "\"Morgenmad\" means \"breakfast\". It is morgen (morning) and mad (food) joined together. No a is needed: Jeg spiser morgenmad (I eat breakfast).",
+  "explanation": "\"Morgenmad\" means \"breakfast\". It is morgen (morning) and mad (food) joined together. No en or et is needed: Jeg spiser morgenmad (I eat breakfast).",
   "forms": [
    {
     "da": "morgenmad",
@@ -14019,7 +14011,7 @@
   }
  },
  "musik": {
-  "explanation": "\"Musik\" means \"music\". It is used without en or \"et\": Jeg elsker musik (I love music). For a school lesson, Jeg har musik means \"I have music class\".",
+  "explanation": "\"Musik\" means \"music\". It is used without en or et: Jeg elsker musik (I love music). For a school lesson, Jeg har musik means \"I have music class\".",
   "forms": [
    {
     "da": "musik",
@@ -14149,7 +14141,7 @@
     "en": "Islamic"
    },
    {
-    "da": "en moske",
+    "da": "en moské",
     "en": "a mosque"
    },
    {
@@ -14266,12 +14258,12 @@
   ],
   "related": [
    {
-    "da": "en regning",
-    "en": "a bill"
+    "da": "et menukort",
+    "en": "a menu"
    },
    {
-    "da": "Må jeg få regningen?",
-    "en": "May I have the bill?"
+    "da": "må jeg få regningen?",
+    "en": "may I have the bill?"
    },
    {
     "da": "at betale",
@@ -14305,8 +14297,8 @@
     "en": "a bill"
    },
    {
-    "da": "Må jeg bede om regningen?",
-    "en": "May I have the bill? (more formal)"
+    "da": "må jeg bede om regningen?",
+    "en": "may I have the bill? (more formal)"
    },
    {
     "da": "at betale",
@@ -14358,7 +14350,7 @@
   }
  },
  "månedsvis": {
-  "explanation": "\"Månedsvis\" means \"for months\", used when something goes on for a long time counted in months. It is built from en måned (a month) and -vis, which turns a unit of time into \"for ... at a time\".",
+  "explanation": "\"Månedsvis\" means \"for months\", used when something goes on for a long time counted in months. It is built from en måned (a month) and the ending -vis, which adds the idea of \"on end\".",
   "forms": [
    {
     "da": "Det tog månedsvis",
@@ -14489,7 +14481,7 @@
    },
    {
     "da": "letmælk",
-    "en": "semi-skimmed milk"
+    "en": "low-fat milk"
    },
    {
     "da": "smør",
@@ -14962,7 +14954,7 @@
    },
    {
     "da": "müsli og yoghurt",
-    "en": "muesli and yoghurt"
+    "en": "muesli and yogurt"
    }
   ],
   "related": [

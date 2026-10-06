@@ -285,7 +285,7 @@
   }
  },
  "champagne": {
-  "explanation": "\"Champagne\" means \"champagne\", a bubbly wine for celebrations. It is the name of one famous kind, so other kinds of bubbly wine have other names.",
+  "explanation": "\"Champagne\" means \"champagne\", a bubbly wine for celebrations. Only bubbly wine from the Champagne region of France carries this name.",
   "forms": [
    {
     "da": "champagne",
@@ -445,7 +445,7 @@
   }
  },
  "chips": {
-  "explanation": "\"Chips\" means \"potato chips\" (called crisps in British English). It is always plural, so you say en pose chips (a bag of chips). Do not mix it up with pommes frites (French fries).",
+  "explanation": "\"Chips\" means \"potato chips\" (called crisps in British English). It has no singular form, so you say en pose chips (a bag of chips). Do not mix it up with pommes frites (French fries).",
   "forms": [
    {
     "da": "chips",
@@ -463,7 +463,7 @@
   "related": [
    {
     "da": "kartoffelchips",
-    "en": "potato crisps"
+    "en": "potato chips"
    },
    {
     "da": "popcorn",
@@ -628,7 +628,7 @@
   }
  },
  "civil": {
-  "explanation": "\"Civil\" means \"civilian\" and \"civil\", for people and things that are not part of the army. In civil ulydighed (civil disobedience), people break a rule on purpose to protest, without violence.",
+  "explanation": "\"Civil\" means \"civilian\" and \"civil\", for people and things that are not part of the army. I civil means out of uniform, in plain clothes. In civil ulydighed (civil disobedience), people break a rule on purpose to protest, without violence.",
   "forms": [
    {
     "da": "en civil person",
@@ -893,23 +893,23 @@
   }
  },
  "en café": {
-  "explanation": "\"En café\" means \"a cafe\", a place for coffee, cake or a light meal. A cafe is less formal than en restaurant (a restaurant).",
+  "explanation": "\"En café\" means \"a café\", a place for coffee, cake or a light meal. A café is less formal than en restaurant (a restaurant).",
   "forms": [
    {
     "da": "en café",
-    "en": "a cafe"
+    "en": "a café"
    },
    {
     "da": "caféen",
-    "en": "the cafe"
+    "en": "the café"
    },
    {
     "da": "caféer",
-    "en": "cafes"
+    "en": "cafés"
    },
    {
     "da": "caféerne",
-    "en": "the cafes"
+    "en": "the cafés"
    }
   ],
   "related": [
@@ -919,7 +919,7 @@
    },
    {
     "da": "et konditori",
-    "en": "a pastry cafe"
+    "en": "a pastry café"
    },
    {
     "da": "et spisested",
@@ -928,7 +928,7 @@
   ],
   "sentence": {
    "da": "Vi drikker kaffe på en **café**.",
-   "en": "We drink coffee at a cafe."
+   "en": "We drink coffee at a café."
   }
  },
  "en campingplads": {
@@ -1170,7 +1170,7 @@
   }
  },
  "en cent": {
-  "explanation": "\"En cent\" means \"a cent\", one hundredth of a euro or a dollar. Danish money uses en øre (an øre) instead.",
+  "explanation": "\"En cent\" means \"a cent\", one hundredth of a euro or a dollar. Danish kroner are divided into øre (en øre) instead.",
   "forms": [
    {
     "da": "en cent",
@@ -1326,11 +1326,11 @@
   ],
   "sentence": {
    "da": "Jeg kan godt lide **champignon** på pizza.",
-   "en": "I like mushroom on pizza."
+   "en": "I like mushrooms on pizza."
   }
  },
  "en chance": {
-  "explanation": "\"En chance\" means \"a chance\", both an opportunity, as in Jeg fik en chance (I got a chance), and how likely something is. The same word covers both ideas.",
+  "explanation": "\"En chance\" means \"a chance\", both an opportunity, as in Jeg fik en chance (I got a chance), and how likely something is.",
   "forms": [
    {
     "da": "en chance",
@@ -1939,7 +1939,7 @@
   }
  },
  "en cykelhjelm": {
-  "explanation": "\"En cykelhjelm\" means \"a bike helmet\", a hard cap you wear while riding. To wear it, say have på (wear), and to put it on, say tage på: Tag din cykelhjelm på (Put on your bike helmet).",
+  "explanation": "\"En cykelhjelm\" means \"a bike helmet\", a hard cap you wear while riding. To say you wear one, use have på (wear), and to put it on, use tage på: Tag din cykelhjelm på (Put on your bike helmet).",
   "forms": [
    {
     "da": "en cykelhjelm",
@@ -2259,7 +2259,7 @@
   }
  },
  "et centrum": {
-  "explanation": "\"Et centrum\" means \"a center\", mostly the middle of a town where the shops are. For a building like a mall, use et center (a center).",
+  "explanation": "\"Et centrum\" means \"a center\", mostly the middle of a town where the shops are. For a building like a mall, use et center (a shopping center).",
   "forms": [
    {
     "da": "et centrum",
@@ -2387,7 +2387,7 @@
     "en": "a digit"
    },
    {
-    "da": "cifferet",
+    "da": "cifret",
     "en": "the digit"
    },
    {
@@ -2613,7 +2613,7 @@
    },
    {
     "da": "en kæreste",
-    "en": "a boyfriend / girlfriend"
+    "en": "a boyfriend or girlfriend"
    },
    {
     "da": "en date",
@@ -2738,7 +2738,7 @@
    },
    {
     "da": "et kapløb",
-    "en": "a contest of speed"
+    "en": "a race (contest of speed)"
    },
    {
     "da": "en sprinter",
@@ -2776,7 +2776,7 @@
     "en": "a bike parking area"
    },
    {
-    "da": "et cykellås",
+    "da": "en cykellås",
     "en": "a bike lock"
    },
    {

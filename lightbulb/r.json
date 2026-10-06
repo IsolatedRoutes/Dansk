@@ -8,15 +8,15 @@
    },
    {
     "da": "jeg rammer",
-    "en": "I hit (a target)"
+    "en": "I hit"
    },
    {
     "da": "jeg ramte",
-    "en": "I hit (a target)"
+    "en": "I hit"
    },
    {
     "da": "jeg har ramt",
-    "en": "I have hit (a target)"
+    "en": "I have hit"
    }
   ],
   "related": [
@@ -258,11 +258,11 @@
    },
    {
     "da": "jeg realiserede",
-    "en": "I realized (achieve)"
+    "en": "I realized (achieved)"
    },
    {
     "da": "jeg har realiseret",
-    "en": "I have realized (achieve)"
+    "en": "I have realized (achieved)"
    }
   ],
   "related": [
@@ -375,7 +375,7 @@
   }
  },
  "at rede seng": {
-  "explanation": "\"At rede seng\" means \"to make the bed\": Han reder seng hver morgen (He makes the bed every morning). For a bed, Danes use rede, not at lave (to make).",
+  "explanation": "\"At rede seng\" means \"to make the bed\": Han reder seng hver morgen (He makes the bed every morning). The usual verb for a bed is rede, not at lave (to make).",
   "forms": [
    {
     "da": "at rede seng",
@@ -828,7 +828,7 @@
   }
  },
  "at rejse": {
-  "explanation": "\"At rejse\" means \"to travel\" or \"to go away on a trip\": Jeg rejser til Danmark (I am traveling to Denmark). In the I have form, Danish uses er (am) instead of har (have): Jeg er rejst means \"I have left\" or \"I have traveled\".",
+  "explanation": "\"At rejse\" means \"to travel\" or \"to go away on a trip\": Jeg rejser til Danmark (I am traveling to Denmark). For \"have traveled\", Danish uses er (am) instead of har (have): Jeg er rejst (I have left).",
   "forms": [
    {
     "da": "at rejse",
@@ -1074,23 +1074,23 @@
   }
  },
  "at repetere": {
-  "explanation": "\"At repetere\" means \"to review\" and \"to revise\", to go over something you have studied before so that it stays in your head. It does not mean to say something again. For that, use at gentage (to repeat).",
+  "explanation": "\"At repetere\" means \"to review\", to go over something you have studied before so that it stays in your head. It does not mean to say something again. For that, use at gentage (to repeat).",
   "forms": [
    {
     "da": "at repetere",
-    "en": "to review / revise"
+    "en": "to review"
    },
    {
     "da": "jeg repeterer",
-    "en": "I review / revise"
+    "en": "I review"
    },
    {
     "da": "jeg repeterede",
-    "en": "I reviewed / revised"
+    "en": "I reviewed"
    },
    {
     "da": "jeg har repeteret",
-    "en": "I have reviewed / revised"
+    "en": "I have reviewed"
    }
   ],
   "related": [
@@ -1497,16 +1497,16 @@
   ],
   "related": [
    {
-    "da": "at ringe til",
-    "en": "to call"
-   },
-   {
     "da": "at ringe op",
-    "en": "to call"
+    "en": "to call up"
    },
    {
     "da": "at ringe tilbage",
     "en": "to call back"
+   },
+   {
+    "da": "at ringe på",
+    "en": "to ring (a bell)"
    }
   ],
   "sentence": {
@@ -1558,7 +1558,7 @@
   }
  },
  "at ringe op": {
-  "explanation": "\"At ringe op\" means \"to call\" someone on the phone. The person can go between ringer and op: Jeg ringer dig op (I call you). It means the same as ringe til (to call): Jeg ringer til dig.",
+  "explanation": "\"At ringe op\" means \"to call\" someone on the phone. Put the person between ringe and op: Jeg ringer dig op (I call you). It means the same as ringe til (to call): Jeg ringer til dig (I call you).",
   "forms": [
    {
     "da": "at ringe op",
@@ -1644,25 +1644,25 @@
   "forms": [
    {
     "da": "at ringe til",
-    "en": "to call (someone)"
+    "en": "to call"
    },
    {
     "da": "jeg ringer til",
-    "en": "I call (someone)"
+    "en": "I call"
    },
    {
     "da": "jeg ringede til",
-    "en": "I called (someone)"
+    "en": "I called"
    },
    {
     "da": "jeg har ringet til",
-    "en": "I have called (someone)"
+    "en": "I have called"
    }
   ],
   "related": [
    {
     "da": "at ringe op",
-    "en": "to call"
+    "en": "to call up"
    },
    {
     "da": "at ringe tilbage",
@@ -1925,7 +1925,7 @@
   }
  },
  "at ro": {
-  "explanation": "\"At ro\" means \"to row\" a boat with oars: Hun roer hver morgen (She rows every morning). Look-alike: en ro means \"calm\" and \"quiet\": Jeg vil have lidt ro (I want some peace and quiet).",
+  "explanation": "\"At ro\" means \"to row\" a boat with oars: Hun roer hver morgen (She rows every morning). Look-alike: the noun ro means \"calm\" or \"quiet\": Jeg vil have lidt ro (I want some peace and quiet).",
   "forms": [
    {
     "da": "at ro",
@@ -2028,7 +2028,7 @@
   ],
   "related": [
    {
-    "da": "ros",
+    "da": "et ros",
     "en": "praise"
    },
    {
@@ -2165,8 +2165,8 @@
     "en": "to round off"
    },
    {
-    "da": "at afrunde",
-    "en": "to round off"
+    "da": "en afrunding",
+    "en": "a rounding"
    }
   ],
   "sentence": {
@@ -2175,7 +2175,7 @@
   }
  },
  "at runde op": {
-  "explanation": "\"At runde op\" means \"to round up\" a number to a higher, rounder one. Op adds the idea of going up, as in at skrive op (to write down) and at ringe op (to call up). The opposite is at runde ned (to round down).",
+  "explanation": "\"At runde op\" means \"to round up\", to change a number to the next higher round number. Here op means \"up\", as in at ringe op (to call up) and at tage op (to pick up). The opposite is at runde ned (to round down).",
   "forms": [
    {
     "da": "at runde op",
@@ -2196,16 +2196,16 @@
   ],
   "related": [
    {
-    "da": "at afrunde",
-    "en": "to round off"
-   },
-   {
     "da": "at runde af",
     "en": "to round off"
    },
    {
     "da": "rund",
     "en": "round"
+   },
+   {
+    "da": "en afrunding",
+    "en": "a rounding"
    }
   ],
   "sentence": {
@@ -2456,7 +2456,7 @@
   }
  },
  "at ryste på hovedet": {
-  "explanation": "\"At ryste på hovedet\" means \"to shake one's head\", a sign of no, or of disbelief or disapproval. To say what caused it, add af (at): Jeg rystede på hovedet af hans svar (I shook my head at his answer).",
+  "explanation": "\"At ryste på hovedet\" means \"to shake one's head\", a sign of no, or of disbelief or disapproval. To say what you shook your head at, use af: Jeg rystede på hovedet af hans svar (I shook my head at his answer).",
   "forms": [
    {
     "da": "at ryste på hovedet",
@@ -2495,7 +2495,7 @@
   }
  },
  "at råbe": {
-  "explanation": "\"At råbe\" means \"to shout\": Han råber til mig (He is shouting at me). To call out for something, use på: Jeg råbte på hjælp (I shouted for help).",
+  "explanation": "\"At råbe\" means \"to shout\": Han råber ad mig (He is yelling at me). To call out for something, use på: Jeg råbte på hjælp (I shouted for help).",
   "forms": [
    {
     "da": "at råbe",
@@ -2607,7 +2607,7 @@
    },
    {
     "da": "en rådgiver",
-    "en": "a counselor"
+    "en": "an adviser"
    },
    {
     "da": "at spørge til råds",
@@ -2624,7 +2624,7 @@
   }
  },
  "at rådne": {
-  "explanation": "\"At rådne\" means \"to rot\", to slowly break down and go bad, like fruit left out too long or leaves on the ground. Milk is different: it bliver sur (turns sour).",
+  "explanation": "\"At rådne\" means \"to rot\", to slowly break down and go bad, like fruit left out too long or leaves on the ground. Milk is different: it bliver sur (becomes sour).",
   "forms": [
    {
     "da": "at rådne",
@@ -2737,7 +2737,7 @@
   ],
   "sentence": {
    "da": "Hun vil **række hånden op**, når hun kender svaret.",
-   "en": "She will raise her hand when she knows the answer."
+   "en": "She wants to raise her hand when she knows the answer."
   }
  },
  "at rødme": {
@@ -2849,7 +2849,7 @@
    },
    {
     "da": "en grydeske",
-    "en": "a wooden spoon"
+    "en": "a cooking spoon"
    }
   ],
   "sentence": {
@@ -2932,7 +2932,7 @@
   ],
   "sentence": {
    "da": "Butikken giver mig **rabat** på en jakke.",
-   "en": "The shop gives me a discount on a jacket."
+   "en": "The store gives me a discount on a jacket."
   }
  },
  "en race": {
@@ -3293,7 +3293,7 @@
   ],
   "related": [
    {
-    "da": "en pikorden",
+    "da": "en hakkeorden",
     "en": "a pecking order"
    },
    {
@@ -3595,7 +3595,7 @@
    },
    {
     "da": "et tidsskrift",
-    "en": "a magazine"
+    "en": "a periodical / journal"
    },
    {
     "da": "en udgiver",
@@ -3677,7 +3677,7 @@
    },
    {
     "da": "et bo",
-    "en": "a den"
+    "en": "a nest"
    },
    {
     "da": "et hi",
@@ -4098,8 +4098,8 @@
     "en": "a thunderstorm"
    },
    {
-    "da": "en solskinsdag",
-    "en": "a sunny day"
+    "da": "et skybrud",
+    "en": "a cloudburst"
    },
    {
     "da": "et uvejr",
@@ -4323,11 +4323,11 @@
    },
    {
     "da": "rejer",
-    "en": "shrimps"
+    "en": "shrimp"
    },
    {
     "da": "rejerne",
-    "en": "the shrimps"
+    "en": "the shrimp"
    }
   ],
   "related": [
@@ -4393,11 +4393,11 @@
   }
  },
  "en rejse": {
-  "explanation": "\"En rejse\" means \"a trip\" or \"a journey\", usually a longer one such as a holiday abroad. For a short outing, Danes say en tur (a trip, a walk). You can wish someone a good journey with God rejse! (Have a good trip!).",
+  "explanation": "\"En rejse\" means \"a trip\" or \"a journey\", usually a longer one such as a vacation abroad. For a short outing, Danes say en tur (a trip, a walk). You can wish someone a good journey with God rejse! (Have a good trip!).",
   "forms": [
    {
     "da": "en rejse",
-    "en": "a trip, journey"
+    "en": "a trip, a journey"
    },
    {
     "da": "rejsen",
@@ -4415,11 +4415,11 @@
   "related": [
    {
     "da": "en rejsende",
-    "en": "a traveller"
+    "en": "a traveler"
    },
    {
     "da": "en ferie",
-    "en": "a holiday"
+    "en": "a vacation"
    },
    {
     "da": "et rejsebureau",
@@ -4621,12 +4621,12 @@
     "en": "a poster"
    },
    {
-    "da": "et tilbud",
-    "en": "an offer"
+    "da": "en reklamefilm",
+    "en": "a commercial"
    },
    {
     "da": "en annonce",
-    "en": "an ad in a paper"
+    "en": "a newspaper ad"
    }
   ],
   "sentence": {
@@ -4678,7 +4678,7 @@
   }
  },
  "en rektor": {
-  "explanation": "\"En rektor\" means \"a principal\", the head of a school. At a university the head is called rektor too.",
+  "explanation": "\"En rektor\" means \"a principal\", the head of a high school. At a university the head is called rektor too.",
   "forms": [
    {
     "da": "en rektor",
@@ -4889,7 +4889,7 @@
   ],
   "sentence": {
    "da": "En **rengøringsassistent** gør kontorerne rene hver aften.",
-   "en": "A cleaner makes the offices clean every evening."
+   "en": "A cleaner cleans the offices every evening."
   }
  },
  "en renovering": {
@@ -4923,7 +4923,7 @@
    },
    {
     "da": "en istandsættelse",
-    "en": "a refurbishment"
+    "en": "a restoration"
    },
    {
     "da": "en nybygning",
@@ -5475,7 +5475,7 @@
   }
  },
  "en retning": {
-  "explanation": "\"En retning\" means \"a direction\", the way something points or moves. To ask, say Hvilken retning? (Which direction?)",
+  "explanation": "\"En retning\" means \"a direction\", the way something points or moves. To ask, say Hvilken retning? (Which direction?).",
   "forms": [
    {
     "da": "en retning",
@@ -5604,7 +5604,7 @@
   }
  },
  "en rettelse": {
-  "explanation": "\"En rettelse\" means \"a correction\", a fix for something wrong in a text, a number or a bill. A teacher also uses at rette for marking homework: Læreren retter opgaverne (The teacher marks the assignments).",
+  "explanation": "\"En rettelse\" means \"a correction\", a fix for something wrong in a text, a number or a bill. The verb at rette also means to mark homework: Læreren retter opgaverne (The teacher marks the assignments).",
   "forms": [
    {
     "da": "en rettelse",
@@ -5630,7 +5630,7 @@
    },
    {
     "da": "en korrektur",
-    "en": "a proof"
+    "en": "proofreading"
    },
    {
     "da": "en ændring",
@@ -5647,7 +5647,7 @@
   }
  },
  "en rettighed": {
-  "explanation": "\"En rettighed\" means \"a right\", something you are allowed to have or do by law or by agreement. For a single right you can also say ret til (right to): Du har ret til ferie (You have a right to vacation).",
+  "explanation": "\"En rettighed\" means \"a right\", something you are allowed to have or do by law or by agreement. You can also say ret til (right to): Du har ret til ferie (You have a right to vacation).",
   "forms": [
    {
     "da": "en rettighed",
@@ -5690,23 +5690,23 @@
   }
  },
  "en returbillet": {
-  "explanation": "\"En returbillet\" means \"a return ticket\", one that takes you there and back. At a counter you can say En returbillet til Aarhus, tak. (A return ticket to Aarhus, please.)",
+  "explanation": "\"En returbillet\" means \"a round-trip ticket\", one that takes you there and back. At a counter you can say En returbillet til Aarhus, tak. (A round-trip ticket to Aarhus, please.)",
   "forms": [
    {
     "da": "en returbillet",
-    "en": "a return ticket"
+    "en": "a round-trip ticket"
    },
    {
     "da": "returbilletten",
-    "en": "the return ticket"
+    "en": "the round-trip ticket"
    },
    {
     "da": "returbilletter",
-    "en": "return tickets"
+    "en": "round-trip tickets"
    },
    {
     "da": "returbilletterne",
-    "en": "the return tickets"
+    "en": "the round-trip tickets"
    }
   ],
   "related": [
@@ -5725,7 +5725,7 @@
   ],
   "sentence": {
    "da": "Jeg køber en **returbillet** til Aarhus og hjem.",
-   "en": "I buy a return ticket to Aarhus and back home."
+   "en": "I buy a round-trip ticket to Aarhus and back home."
   }
  },
  "en returnering": {
@@ -5815,7 +5815,7 @@
   }
  },
  "en revisor": {
-  "explanation": "\"En revisor\" means \"an auditor\", a professional who checks that a company's money and records are correct. In Danish, the person who keeps the books day to day is a bogholder (bookkeeper).",
+  "explanation": "\"En revisor\" means \"an auditor\", a professional who checks that a company's money and records are correct. The person who keeps the books day to day is a bogholder (bookkeeper).",
   "forms": [
    {
     "da": "en revisor",
@@ -5836,8 +5836,8 @@
   ],
   "related": [
    {
-    "da": "en økonom",
-    "en": "an economist"
+    "da": "en revision",
+    "en": "an audit"
    },
    {
     "da": "et regnskab",
@@ -5854,7 +5854,7 @@
   }
  },
  "en revne": {
-  "explanation": "\"En revne\" means \"a crack\", a thin line where something like glass, a wall or ice has split. A sprække (a gap) is wider: you can look or reach through it.",
+  "explanation": "\"En revne\" means \"a crack\", a thin line where something like glass, a wall or ice has split. A sprække (a gap) is a wider opening that you can look or reach through.",
   "forms": [
    {
     "da": "en revne",
@@ -5940,7 +5940,7 @@
   }
  },
  "en revolver": {
-  "explanation": "\"En revolver\" means \"a revolver\", a small gun that holds bullets in a turning part. It is much smaller than et gevær (a rifle).",
+  "explanation": "\"En revolver\" means \"a revolver\", a small gun that holds bullets in a turning drum. It is much smaller than et gevær (a rifle).",
   "forms": [
    {
     "da": "en revolver",
@@ -5951,8 +5951,8 @@
     "en": "the revolver"
    },
    {
-    "da": "to revolvere",
-    "en": "two revolvers"
+    "da": "revolvere",
+    "en": "revolvers"
    },
    {
     "da": "revolverne",
@@ -6401,7 +6401,7 @@
   }
  },
  "en roman": {
-  "explanation": "\"En roman\" means \"a novel\", a long made-up story: Jeg læser en spændende roman (I am reading an exciting novel). For something Roman from Rome, say romersk: romerske tal (Roman numerals).",
+  "explanation": "\"En roman\" means \"a novel\", a long made-up story: Jeg læser en spændende roman (I am reading an exciting novel). For anything from ancient Rome, say romersk (Roman): romerske tal (Roman numerals).",
   "forms": [
    {
     "da": "en roman",
@@ -6807,7 +6807,7 @@
   }
  },
  "en rundkørsel": {
-  "explanation": "\"En rundkørsel\" means \"a roundabout\". It is built from rund (round) and kørsel (driving): Tag anden afkørsel i rundkørslen (Take the second exit at the roundabout).",
+  "explanation": "\"En rundkørsel\" means \"a roundabout\". It is built from rund (round) and kørsel (driving): Der er tre veje ind til rundkørslen (There are three roads into the roundabout).",
   "forms": [
    {
     "da": "en rundkørsel",
@@ -6840,8 +6840,8 @@
     "en": "to drive"
    },
    {
-    "da": "en vej",
-    "en": "a road"
+    "da": "en afkørsel",
+    "en": "an exit"
    }
   ],
   "sentence": {
@@ -7172,7 +7172,7 @@
     "en": "a skeleton"
    },
    {
-    "da": "en led",
+    "da": "et led",
     "en": "a joint"
    }
   ],
@@ -7294,8 +7294,8 @@
    }
   ],
   "sentence": {
-   "da": "Der kom en **rysten** gennem hele kroppen.",
-   "en": "A shiver came through the whole body."
+   "da": "Der gik en **rysten** gennem hele kroppen.",
+   "en": "A shiver went through the whole body."
   }
  },
  "en rytme": {
@@ -7321,7 +7321,7 @@
   "related": [
    {
     "da": "en takt",
-    "en": "a beat"
+    "en": "a bar (in music)"
    },
    {
     "da": "et tempo",
@@ -7372,7 +7372,7 @@
    },
    {
     "da": "en vejleder",
-    "en": "a counselor"
+    "en": "a supervisor"
    },
    {
     "da": "en mentor",
@@ -7385,7 +7385,7 @@
   }
  },
  "en række": {
-  "explanation": "\"En række\" means \"a row\" of things side by side, and also \"a series\": Vi sidder i første række (We sit in the front row). In En række problemer (A number of problems), it means several.",
+  "explanation": "\"En række\" means \"a row\" of things side by side, and also \"a series\": Vi sidder i første række (We sit in the front row). En række problemer means \"a number of problems\".",
   "forms": [
    {
     "da": "en række",
@@ -7467,7 +7467,7 @@
   }
  },
  "en ræv": {
-  "explanation": "\"En ræv\" means \"a fox\", the wild red animal of forests and fields. It is also used for a clever person: Han er så snu som en ræv (He is as sly as a fox).",
+  "explanation": "\"En ræv\" means \"a fox\", the wild red animal of forests and fields. It is also used for a sly person: Han er så snu som en ræv (He is as sly as a fox).",
   "forms": [
    {
     "da": "en ræv",
@@ -7627,7 +7627,7 @@
   }
  },
  "en rødvin": {
-  "explanation": "\"En rødvin\" means \"a red wine\". It is made of rød (red) and vin (wine). Amounts are said like this: et glas rødvin (a glass of red wine) and en flaske rødvin (a bottle of red wine).",
+  "explanation": "\"En rødvin\" means \"a red wine\". It is made of rød (red) and vin (wine). To order, say et glas rødvin (a glass of red wine) or en flaske rødvin (a bottle of red wine).",
   "forms": [
    {
     "da": "en rødvin",
@@ -7656,8 +7656,8 @@
     "en": "a rosé wine"
    },
    {
-    "da": "en øl",
-    "en": "a beer"
+    "da": "en portvin",
+    "en": "a port wine"
    }
   ],
   "sentence": {
@@ -7766,11 +7766,11 @@
   "related": [
    {
     "da": "et røveri",
-    "en": "a hold-up"
+    "en": "a robbery"
    },
    {
     "da": "at røve",
-    "en": "to hold up"
+    "en": "to rob"
    },
    {
     "da": "en bandit",
@@ -7817,7 +7817,7 @@
    },
    {
     "da": "en gearstang",
-    "en": "a gear stick"
+    "en": "a gear shift"
    },
    {
     "da": "at styre",
@@ -7912,7 +7912,7 @@
   }
  },
  "et referat": {
-  "explanation": "\"Et referat\" means \"a summary\", a short written account of what was said, most often at a meeting, where it is the minutes. At skrive referat (to write the minutes) is a common job. The word comes from at referere (to report).",
+  "explanation": "\"Et referat\" means \"a summary\", a short written account of what was said. At a meeting it is the minutes: at skrive referat (to write the minutes). The word comes from at referere (to report).",
   "forms": [
    {
     "da": "et referat",
@@ -7951,7 +7951,7 @@
   ],
   "sentence": {
    "da": "Efter mødet sender hun et **referat** til alle.",
-   "en": "After the meeting, she sends a summary to everyone."
+   "en": "After the meeting, she sends the minutes to everyone."
   }
  },
  "et regeringsparti": {
@@ -8184,7 +8184,7 @@
   "related": [
    {
     "da": "en firkant",
-    "en": "a square / four-sided shape"
+    "en": "a four-sided shape"
    },
    {
     "da": "et kvadrat",
@@ -8369,7 +8369,7 @@
   }
  },
  "et resumé": {
-  "explanation": "\"Et resumé\" means \"a summary\", a short retelling of the key points of a text, a book or a talk. It is not a job résumé: for that, Danish uses CV (a CV).",
+  "explanation": "\"Et resumé\" means \"a summary\", a short retelling of the key points of a text, a book or a talk. It is not a job résumé: for that, Danish uses CV.",
   "forms": [
    {
     "da": "et resumé",
@@ -8412,7 +8412,7 @@
   }
  },
  "et ribben": {
-  "explanation": "\"Et ribben\" means \"a rib\", one of the bones that protect your heart and lungs. In cooking, it is also a cut of pork, as in ribbensteg (roast pork ribs).",
+  "explanation": "\"Et ribben\" means \"a rib\", one of the bones that protect your heart and lungs. In cooking, it is also a cut of pork, as in ribbensteg (a Danish roast pork dish).",
   "forms": [
    {
     "da": "et ribben",
@@ -8498,7 +8498,7 @@
   }
  },
  "et rivejern": {
-  "explanation": "\"Et rivejern\" means \"a grater\", used for cheese, carrots and lemon peel. The second part is jern (iron), the metal it is made of.",
+  "explanation": "\"Et rivejern\" means \"a grater\", used for cheese, carrots and lemon peel. The second part is jern (iron), although today most graters are made of steel.",
   "forms": [
    {
     "da": "et rivejern",
@@ -8791,7 +8791,7 @@
   }
  },
  "et ry": {
-  "explanation": "\"Et ry\" means \"a reputation\", what a person or a place is known for. It is often used with have ry for at (to be known for ...): Han har ry for at være stædig (He is known for being stubborn).",
+  "explanation": "\"Et ry\" means \"a reputation\", what a person or a place is known for. It is often used with have ry for at (to be known for): Han har ry for at være stædig (He is known for being stubborn).",
   "forms": [
    {
     "da": "et godt ry",
@@ -8809,7 +8809,7 @@
   "related": [
    {
     "da": "et omdømme",
-    "en": "public standing"
+    "en": "a public reputation"
    },
    {
     "da": "et rygte",
@@ -8820,8 +8820,8 @@
     "en": "esteem"
    },
    {
-    "da": "et navn",
-    "en": "a name"
+    "da": "en berømmelse",
+    "en": "fame"
    }
   ],
   "sentence": {
@@ -8869,7 +8869,7 @@
   }
  },
  "et råd": {
-  "explanation": "\"Et råd\" means \"a piece of advice\". It is also used for having money to spend: Jeg har ikke råd til det (I can't afford it).",
+  "explanation": "\"Et råd\" means \"a piece of advice\". Råd without et is also used for money: Jeg har ikke råd til det (I can't afford it).",
   "forms": [
    {
     "da": "et råd",
@@ -8994,7 +8994,7 @@
   }
  },
  "et rækkehus": {
-  "explanation": "\"Et rækkehus\" means \"a terraced house\" or \"a townhouse\": one of several houses built side by side in a row. It is built from række (row) and hus (house).",
+  "explanation": "\"Et rækkehus\" means \"a townhouse\" or \"a row house\": one of several houses built side by side in a row. It is built from række (row) and hus (house).",
   "forms": [
    {
     "da": "et rækkehus",
@@ -9066,8 +9066,8 @@
     "en": "an injury"
    },
    {
-    "da": "en blodprøve",
-    "en": "a blood test"
+    "da": "en MR-scanning",
+    "en": "an MRI scan"
    }
   ],
   "sentence": {
@@ -9438,6 +9438,10 @@
   "explanation": "\"Et rav\" means \"amber\": the golden-brown, hardened sap of ancient trees. It is polished and used for necklaces and rings.",
   "forms": [
    {
+    "da": "et rav",
+    "en": "amber"
+   },
+   {
     "da": "ravet",
     "en": "the amber"
    },
@@ -9452,7 +9456,7 @@
   ],
   "related": [
    {
-    "da": "en fossil",
+    "da": "et fossil",
     "en": "a fossil"
    },
    {
@@ -9544,7 +9548,7 @@
   }
  },
  "registreret": {
-  "explanation": "\"Registreret\" means \"registered\", written into an official list or system, for people, companies, vehicles and cases. A registered letter is not registreret but et anbefalet brev.",
+  "explanation": "\"Registreret\" means \"registered\", written into an official list or system, for people, companies, vehicles and cases. For a registered letter in the mail, Danes say et anbefalet brev instead.",
   "forms": [
    {
     "da": "en registreret borger",
@@ -9618,7 +9622,7 @@
   }
  },
  "regnfuld": {
-  "explanation": "\"Regnfuld\" means \"rainy\", for a day, week or season with a lot of rain. It is built from en regn (rain) and -fuld (full of), as in fredfuld (peaceful).",
+  "explanation": "\"Regnfuld\" means \"rainy\", for a day, week or season with a lot of rain. It is built from regn (rain) and -fuld (full of), as in fredfuld (peaceful).",
   "forms": [
    {
     "da": "en regnfuld dag",
@@ -9774,7 +9778,7 @@
   }
  },
  "rejer": {
-  "explanation": "\"Rejer\" means \"shrimp\" or \"prawns\", and you mostly hear it in this more than one form. En rejemad (a shrimp sandwich) is made of reje (shrimp) and mad (food).",
+  "explanation": "\"Rejer\" means \"shrimp\" or \"prawns\", and this plural is the form you mostly hear. En rejemad (a shrimp sandwich) is built from reje (shrimp) and mad (food).",
   "forms": [
    {
     "da": "en reje",
@@ -9947,11 +9951,11 @@
   ],
   "related": [
    {
-    "da": "en mayonnaise",
+    "da": "mayonnaise",
     "en": "mayonnaise"
    },
    {
-    "da": "en ketchup",
+    "da": "ketchup",
     "en": "ketchup"
    },
    {
@@ -9991,7 +9995,7 @@
    },
    {
     "da": "at rense",
-    "en": "to clean"
+    "en": "to cleanse"
    },
    {
     "da": "rengøring",
@@ -10195,7 +10199,7 @@
   "forms": [
    {
     "da": "en retfærdighed",
-    "en": "a justice"
+    "en": "justice"
    },
    {
     "da": "retfærdigheden",
@@ -10230,19 +10234,19 @@
   "forms": [
    {
     "da": "en retskrivning",
-    "en": "a spelling system"
+    "en": "spelling rules"
    },
    {
     "da": "retskrivningen",
-    "en": "the spelling system"
+    "en": "the spelling rules"
    },
    {
     "da": "retskrivninger",
-    "en": "spelling systems"
+    "en": "sets of spelling rules"
    },
    {
     "da": "retskrivningerne",
-    "en": "the spelling systems"
+    "en": "the sets of spelling rules"
    }
   ],
   "related": [
@@ -10269,7 +10273,7 @@
   }
  },
  "retssikkerhed": {
-  "explanation": "\"En retssikkerhed\" means \"legal certainty\": the protection that makes sure everyone is treated by the same fair rules and can defend themselves. It is built from rets (of the law) and sikkerhed (security). You mostly hear it in political debates.",
+  "explanation": "\"En retssikkerhed\" means \"legal certainty\": the protection that makes sure everyone is treated by the same fair rules and can defend themselves. It is built from rets (of the law) and sikkerhed (security).",
   "forms": [
    {
     "da": "en retssikkerhed",
@@ -10281,7 +10285,7 @@
    },
    {
     "da": "borgernes retssikkerhed",
-    "en": "the citizens' legal protection"
+    "en": "the citizens' legal certainty"
    }
   ],
   "related": [
@@ -10343,7 +10347,7 @@
   }
  },
  "rig": {
-  "explanation": "\"Rig\" means \"rich\", having a lot of money, but it also means rich in other things: en rig historie is a rich story. Do not mix it up with et rige (a kingdom), which looks almost the same.",
+  "explanation": "\"Rig\" means \"rich\", having a lot of money, but it also means rich in other things: rig på erfaring (rich in experience). Do not mix it up with et rige (a kingdom), which looks almost the same.",
   "forms": [
    {
     "da": "en rig mand",
@@ -10490,8 +10494,8 @@
    }
   ],
   "sentence": {
-   "da": "Ja, dit svar er **rigtig**!",
-   "en": "Yes, your answer is correct!"
+   "da": "Ja, din løsning er **rigtig**!",
+   "en": "Yes, your solution is correct!"
   }
  },
  "rimelig": {
@@ -10569,7 +10573,7 @@
   }
  },
  "risengrød": {
-  "explanation": "\"En risengrød\" means \"rice porridge\", rice cooked slowly in milk and eaten warm. It is a meal, not a dessert. The cold dessert made from it at Christmas is risalamande.",
+  "explanation": "\"En risengrød\" means \"rice porridge\", rice cooked slowly in milk and eaten warm. It is a meal, not a dessert. The cold dessert made from it at Christmas is risalamande (cold rice pudding with almonds and cherry sauce).",
   "forms": [
    {
     "da": "en risengrød",
@@ -10587,7 +10591,7 @@
   "related": [
    {
     "da": "en havregrød",
-    "en": "an oatmeal dish"
+    "en": "an oatmeal porridge"
    },
    {
     "da": "en rødgrød",
@@ -10698,7 +10702,7 @@
    },
    {
     "da": "robuste sko",
-    "en": "sturdy shoes"
+    "en": "robust shoes"
    }
   ],
   "related": [
@@ -10834,7 +10838,7 @@
   }
  },
  "romantik": {
-  "explanation": "\"Romantik\" means \"romance\", the feeling of love and closeness between two people.",
+  "explanation": "\"Romantik\" means \"romance\", the feeling of love and closeness between two people. It often shows up in a negative: Der er ikke meget romantik i at vaske op (There is not much romance in doing the dishes).",
   "forms": [
    {
     "da": "romantik",
@@ -10865,7 +10869,7 @@
   ],
   "sentence": {
    "da": "Levende lys og blomster giver **romantik**.",
-   "en": "Candles and flowers give romance."
+   "en": "Candles and flowers bring romance."
   }
  },
  "romantisk": {
@@ -10964,7 +10968,7 @@
     "en": "to praise"
    },
    {
-    "da": "en kompliment",
+    "da": "et kompliment",
     "en": "a compliment"
    },
    {
@@ -11060,7 +11064,7 @@
   }
  },
  "rummelig": {
-  "explanation": "\"Rummelig\" means \"spacious\", with a lot of room inside, for places and things you put people or objects into. It is built on et rum (a room, a space).",
+  "explanation": "\"Rummelig\" means \"spacious\", with a lot of room inside, for a room, a car or a cupboard. It is built on et rum (a room, a space).",
   "forms": [
    {
     "da": "en rummelig stue",
@@ -11133,16 +11137,16 @@
   "explanation": "\"Rundt om hjørnet\" means \"around the corner\". It can be a place: Posthuset ligger rundt om hjørnet (The post office is around the corner). It can also be a time: Julen er lige rundt om hjørnet (Christmas is just around the corner).",
   "forms": [
    {
-    "da": "bageren ligger rundt om hjørnet",
-    "en": "the bakery is around the corner"
+    "da": "rundt om hjørnet",
+    "en": "around the corner"
+   },
+   {
+    "da": "Bageren ligger rundt om hjørnet.",
+    "en": "The bakery is around the corner."
    },
    {
     "da": "Butikken er lige rundt om hjørnet.",
     "en": "The shop is just around the corner."
-   },
-   {
-    "da": "gå rundt om hjørnet",
-    "en": "walk around the corner"
    }
   ],
   "related": [
@@ -11160,8 +11164,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi går, fordi banken er lige **rundt om hjørnet**.",
-   "en": "We walk because the bank is just around the corner."
+   "da": "Banken ligger lige **rundt om hjørnet**.",
+   "en": "The bank is just around the corner."
   }
  },
  "rusland": {
@@ -11235,7 +11239,7 @@
   }
  },
  "ryddelig": {
-  "explanation": "\"Ryddelig\" means \"tidy\", with everything in its place. It is the result of at rydde op (to tidy up), where op works like \"up\" in English.",
+  "explanation": "\"Ryddelig\" means \"tidy\", with everything in its place. It is the result of at rydde op (to tidy up), where op works like up in English.",
   "forms": [
    {
     "da": "en ryddelig stue",
@@ -11300,7 +11304,7 @@
    },
    {
     "da": "krøllet",
-    "en": "creased"
+    "en": "crumpled"
    }
   ],
   "sentence": {
@@ -11327,7 +11331,7 @@
   "related": [
    {
     "da": "chokerende",
-    "en": "startling"
+    "en": "shocking"
    },
    {
     "da": "forfærdelig",
@@ -11461,7 +11465,7 @@
   }
  },
  "rød": {
-  "explanation": "\"Rød\" means \"red\". It is part of words like rødvin (red wine) and rødbede (beetroot).",
+  "explanation": "\"Rød\" means \"red\". It is part of words like rødvin (red wine) and rødbede (beet).",
   "forms": [
    {
     "da": "en rød bil",
@@ -11518,7 +11522,7 @@
   "related": [
    {
     "da": "en risengrød",
-    "en": "a warm rice dish"
+    "en": "a rice porridge"
    },
    {
     "da": "et jordbær",
@@ -11644,11 +11648,11 @@
   }
  },
  "rørsukker": {
-  "explanation": "\"Et rørsukker\" means \"cane sugar\", in contrast to the sugar in Danish shops, which usually comes from sugar beets. The word is built on et rør (a reed, a cane).",
+  "explanation": "\"Rørsukker\" means \"cane sugar\", sugar made from sugarcane. Sugar in Danish shops usually comes from sugar beets instead. The word is built on et rør (a reed, a cane) and sukker (sugar).",
   "forms": [
    {
-    "da": "et rørsukker",
-    "en": "a cane sugar"
+    "da": "rørsukker",
+    "en": "cane sugar"
    },
    {
     "da": "rørsukkeret",

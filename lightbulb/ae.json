@@ -4,19 +4,19 @@
   "forms": [
    {
     "da": "at æde",
-    "en": "to eat (animals)"
+    "en": "to eat (of animals)"
    },
    {
-    "da": "jeg æder",
-    "en": "I eat (animals)"
+    "da": "det æder",
+    "en": "it eats"
    },
    {
-    "da": "jeg åd",
-    "en": "I ate (animals)"
+    "da": "det åd",
+    "en": "it ate"
    },
    {
-    "da": "jeg har ædt",
-    "en": "I have eaten (animals)"
+    "da": "det har ædt",
+    "en": "it has eaten"
    }
   ],
   "related": [
@@ -72,10 +72,6 @@
     "en": "to change"
    },
    {
-    "da": "at rette",
-    "en": "to correct"
-   },
-   {
     "da": "uændret",
     "en": "unchanged"
    }
@@ -90,19 +86,19 @@
   "forms": [
    {
     "da": "at ændre på",
-    "en": "to change (something)"
+    "en": "to change something"
    },
    {
     "da": "jeg ændrer på",
-    "en": "I change (something)"
+    "en": "I change something"
    },
    {
     "da": "jeg ændrede på",
-    "en": "I changed (something)"
+    "en": "I changed something"
    },
    {
     "da": "jeg har ændret på",
-    "en": "I have changed (something)"
+    "en": "I have changed something"
    }
   ],
   "related": [
@@ -172,7 +168,7 @@
   }
  },
  "at ærgre sig": {
-  "explanation": "\"At ærgre sig\" means \"to be annoyed\" about something that went wrong, with a bit of disappointment: Jeg ærgrer mig over, at jeg kom for sent (I am annoyed that I was late). The little word changes with who is annoyed: mig (myself) after jeg, sig (himself / herself) after han and hun: Hun ærgrer sig (She is annoyed).",
+  "explanation": "\"At ærgre sig\" means \"to be annoyed\" about something that went wrong, with a bit of disappointment: Jeg ærgrer mig over, at jeg kom for sent (I am annoyed that I was late). The little word changes with the person: Hun ærgrer sig (She is annoyed).",
   "forms": [
    {
     "da": "at ærgre sig",
@@ -297,7 +293,7 @@
   }
  },
  "en æggejagt": {
-  "explanation": "\"En æggejagt\" means \"an egg hunt\", a game where children search for eggs or sweets that adults have hidden, usually at påske (Easter), in the garden or park.",
+  "explanation": "\"En æggejagt\" means \"an egg hunt\", a game where children search for eggs or sweets that adults have hidden, usually at Easter (påske), in the garden or park.",
   "forms": [
    {
     "da": "en æggejagt",
@@ -542,8 +538,8 @@
    }
   ],
   "sentence": {
-   "da": "Mødet er flyttet til fredag, og det er en **ændring**.",
-   "en": "The meeting is moved to Friday, and that is a change."
+   "da": "Mødet er flyttet til fredag, så der er en **ændring** i planen.",
+   "en": "The meeting has been moved to Friday, so there is a change in the plan."
   }
  },
  "en æske": {
@@ -668,7 +664,7 @@
   }
  },
  "et æggebæger": {
-  "explanation": "\"Et æggebæger\" means \"an egg cup\", the little cup that holds a boiled egg upright so you can eat it with a spoon. It is built from æg (egg) and bæger (cup). For a coffee cup with a handle, say en kop (a cup).",
+  "explanation": "\"Et æggebæger\" means \"an egg cup\", the little cup that holds a boiled egg upright so you can eat it with a spoon. It is built from æg (egg) and bæger (cup). A bæger is a small cup without a handle, also in et yoghurtbæger (a yogurt cup).",
   "forms": [
    {
     "da": "et æggebæger",
@@ -789,7 +785,7 @@
   }
  },
  "et ærinde": {
-  "explanation": "\"Et ærinde\" means \"an errand\", a short trip to do one small job, such as picking up food or posting a letter. At a door or a desk, it also means your reason for being there: Hvad er dit ærinde? (What is your business here?)",
+  "explanation": "\"Et ærinde\" means \"an errand\", a short trip to do one small job, such as picking up food or mailing a letter. At a door or a desk, it also means your reason for being there: Hvad er dit ærinde? (What is your business here?)",
   "forms": [
    {
     "da": "et ærinde",
@@ -867,7 +863,7 @@
   }
  },
  "et æsel": {
-  "explanation": "\"Et æsel\" means \"a donkey\", a grey, strong animal that carries loads. It is known for being stubborn: stædig som et æsel (stubborn as a donkey).",
+  "explanation": "\"Et æsel\" means \"a donkey\", a strong gray animal that carries loads. It is known for being stubborn: stædig som et æsel (stubborn as a donkey).",
   "forms": [
    {
     "da": "et æsel",
@@ -932,7 +928,7 @@
    },
    {
     "da": "en adel",
-    "en": "a nobility"
+    "en": "the nobility"
    },
    {
     "da": "gemen",
@@ -1023,7 +1019,7 @@
   "forms": [
    {
     "da": "et ældgammelt hus",
-    "en": "a very old house"
+    "en": "an ancient house"
    },
    {
     "da": "en ældgammel tradition",
@@ -1097,7 +1093,7 @@
   }
  },
  "ældst": {
-  "explanation": "\"Ældst\" means \"oldest\" and is the step up from ældre (older).",
+  "explanation": "\"Ældst\" means \"oldest\", the one in a group with the most years. It is the top form of ældre (older).",
   "forms": [
    {
     "da": "min ældste bror",
@@ -1132,7 +1128,7 @@
   }
  },
  "ære": {
-  "explanation": "\"En ære\" means \"an honor\", either a privilege you are given or the good name and pride that come from doing something worthy. Because it is the good name itself, it is usually used in the singular and without a plural.",
+  "explanation": "\"En ære\" means \"an honor\", either a privilege you are given or the good name and pride that come from doing something worthy. Because it means the good name itself, it almost never has a plural.",
   "forms": [
    {
     "da": "en ære",

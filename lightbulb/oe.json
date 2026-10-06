@@ -86,7 +86,7 @@
   }
  },
  "at ønske": {
-  "explanation": "\"At ønske\" means \"to wish\", often to wish someone something: Jeg ønsker dig en god tur (I wish you a good trip). Hvad ønsker De? (What would you like?) is a polite question in a shop.",
+  "explanation": "\"At ønske\" means \"to wish\", often to wish someone something: Jeg ønsker dig en god tur (I wish you a good trip). With sig (oneself) it means \"to wish for\" something: Jeg ønsker mig en cykel (I wish for a bike).",
   "forms": [
    {
     "da": "at ønske",
@@ -121,7 +121,7 @@
   ],
   "sentence": {
    "da": "Vi vil **ønske** hende tillykke i morgen.",
-   "en": "We want to wish her congratulations tomorrow."
+   "en": "We will wish her congratulations tomorrow."
   }
  },
  "at ønske sig": {
@@ -164,7 +164,7 @@
   }
  },
  "at øse": {
-  "explanation": "\"At øse\" means \"to scoop or pour\", to move a liquid or loose things with something deep. It can mean to bail water out of a boat: at øse vand ud af båden (to bail water out of the boat). Det øser ned! (It is pouring down!) is said about heavy rain.",
+  "explanation": "\"At øse\" means \"to scoop or pour\", to move a liquid or loose things with a ladle, a scoop or a bucket. It can mean to bail water out of a boat: at øse vand ud af båden (to bail water out of the boat). Det øser ned! (It is pouring down!) is said about heavy rain.",
   "forms": [
    {
     "da": "at øse",
@@ -479,11 +479,11 @@
    },
    {
     "da": "en bankrådgiver",
-    "en": "a bank advisor"
+    "en": "a bank adviser"
    },
    {
     "da": "en erhvervsøkonom",
-    "en": "a business graduate"
+    "en": "a business economist"
    }
   ],
   "sentence": {
@@ -574,7 +574,7 @@
   }
  },
  "en øl": {
-  "explanation": "\"En øl\" means \"a beer\". The plural is also \"øl\": to øl means \"two beers\". You can say en stor øl (a large beer) or en lille øl (a small beer).",
+  "explanation": "\"En øl\" means \"a beer\". The plural is also øl: to øl (two beers). You can say en stor øl (a large beer) or en lille øl (a small beer).",
   "forms": [
    {
     "da": "en øl",
@@ -600,7 +600,7 @@
    },
    {
     "da": "en fadøl",
-    "en": "a draught beer"
+    "en": "a draft beer"
    },
    {
     "da": "en cider",
@@ -613,7 +613,7 @@
   }
  },
  "en ølflaske": {
-  "explanation": "\"En ølflaske\" means \"a beer bottle\". It is built from øl (beer) and flaske (bottle). Most carry pant (a refundable deposit) that you get back when you return the bottle.",
+  "explanation": "\"En ølflaske\" means \"a beer bottle\". It is built from øl (beer) and flaske (bottle). Most beer bottles carry pant (a refundable deposit) that you get back when you return them.",
   "forms": [
    {
     "da": "en ølflaske",
@@ -682,11 +682,11 @@
    },
    {
     "da": "en julegave",
-    "en": "a Christmas gift"
+    "en": "a Christmas present"
    },
    {
     "da": "en fødselsdagsgave",
-    "en": "a birthday gift"
+    "en": "a birthday present"
    }
   ],
   "sentence": {
@@ -1216,7 +1216,7 @@
     "en": "an environment"
    },
    {
-    "da": "en biodiversitet",
+    "da": "biodiversitet",
     "en": "biodiversity"
    },
    {
@@ -1394,7 +1394,7 @@
   }
  },
  "ødelæggelse": {
-  "explanation": "\"En ødelæggelse\" means \"a destruction\", the harm and ruin left when something has been wrecked. It is the thing left behind after at ødelægge (to destroy).",
+  "explanation": "\"En ødelæggelse\" means \"destruction\", the harm and ruin left when something has been wrecked. It is the thing left behind after at ødelægge (to destroy).",
   "forms": [
    {
     "da": "en ødelæggelse",
@@ -1416,11 +1416,11 @@
   "related": [
    {
     "da": "en skade",
-    "en": "a damage"
+    "en": "damage"
    },
    {
     "da": "et forfald",
-    "en": "a decay"
+    "en": "decay"
    },
    {
     "da": "en tilintetgørelse",
@@ -1437,7 +1437,7 @@
   }
  },
  "ødelæggende": {
-  "explanation": "\"Ødelæggende\" means \"destructive\". It is made from the verb at ødelægge (to destroy) and describes something that does the destroying.",
+  "explanation": "\"Ødelæggende\" means \"destructive\". It is made from the verb at ødelægge (to destroy) and describes something that does the destroying. It fits fires, storms and war, and also words that hurt someone badly.",
   "forms": [
    {
     "da": "en ødelæggende kritik",
@@ -1472,7 +1472,7 @@
   }
  },
  "øjeblikkelig": {
-  "explanation": "\"Øjeblikkelig\" means \"immediate\", with no delay. It is built from et øjeblik (a moment) and is typical with help, answers and effects. It describes a thing. To say how an action happens, use øjeblikkeligt.",
+  "explanation": "\"Øjeblikkelig\" means \"immediate\", with no delay. It is built from et øjeblik (a moment) and is typical with help, answers and effects. For an action, use øjeblikkeligt: Han svarede øjeblikkeligt (He answered immediately).",
   "forms": [
    {
     "da": "en øjeblikkelig reaktion",
@@ -1568,7 +1568,7 @@
    },
    {
     "da": "åbenbart",
-    "en": "obviously"
+    "en": "evidently"
    },
    {
     "da": "synligt",
@@ -1914,8 +1914,8 @@
     "en": "patience"
    },
    {
-    "da": "Det kommer med tiden",
-    "en": "It comes with time"
+    "da": "det kommer med tiden",
+    "en": "it comes with time"
    }
   ],
   "sentence": {

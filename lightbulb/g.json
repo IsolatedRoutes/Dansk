@@ -193,8 +193,8 @@
     "en": "to find"
    },
    {
-    "da": "at lede efter",
-    "en": "to search for"
+    "da": "en gemmeleg",
+    "en": "hide-and-seek"
    }
   ],
   "sentence": {
@@ -769,7 +769,7 @@
   ],
   "sentence": {
    "da": "Forskerne kunne ikke **genskabe** resultatet i deres eget laboratorium.",
-   "en": "The researchers could not reproduce the result in their own laboratory."
+   "en": "The researchers could not recreate the result in their own laboratory."
   }
  },
  "at genstarte": {
@@ -1015,7 +1015,7 @@
   }
  },
  "at give besked": {
-  "explanation": "\"At give besked\" means \"to let someone know\": Giv mig besked i morgen (Let me know tomorrow). To be the one who hears it, use at få besked (to be notified).",
+  "explanation": "\"At give besked\" means \"to let someone know\": Giv mig besked i morgen (Let me know tomorrow). To be the one who is told, use at få besked (to be notified).",
   "forms": [
    {
     "da": "at give besked",
@@ -1023,15 +1023,15 @@
    },
    {
     "da": "jeg giver besked",
-    "en": "I let someone know"
+    "en": "I notify"
    },
    {
     "da": "jeg gav besked",
-    "en": "I let someone know"
+    "en": "I notified"
    },
    {
     "da": "jeg har givet besked",
-    "en": "I have let someone know"
+    "en": "I have notified"
    }
   ],
   "related": [
@@ -1101,7 +1101,7 @@
   }
  },
  "at give en hånd med": {
-  "explanation": "\"At give en hånd med\" means \"to give a hand\", or \"to help out\": Kan du give en hånd med? (Can you lend a hand?) Literally it is \"to give a hand along\": med (along) means you join in on a job that someone is already doing.",
+  "explanation": "\"At give en hånd med\" means \"to give a hand\", or \"to help out\": Kan du give en hånd med? (Can you lend a hand?) Literally it is to give a hand along: med (along) means you join in on a job that someone is already doing.",
   "forms": [
    {
     "da": "at give en hånd med",
@@ -1726,7 +1726,7 @@
   }
  },
  "at godtage": {
-  "explanation": "\"At godtage\" means \"to accept\" something, like an explanation, an offer or a rule: Jeg kan ikke godtage forklaringen (I cannot accept the explanation). It sounds fairly formal; in everyday speech at acceptere (to accept) is the more usual word.",
+  "explanation": "\"At godtage\" means \"to accept\" something, like an explanation, an offer or a rule: Jeg kan ikke godtage forklaringen (I cannot accept the explanation).",
   "forms": [
    {
     "da": "at godtage",
@@ -2300,7 +2300,7 @@
   }
  },
  "at gå agurk": {
-  "explanation": "\"At gå agurk\" means \"to go crazy\": to go to pieces from stress, anger or excitement. It is everyday slang, used among friends and family rather than in formal writing.",
+  "explanation": "\"At gå agurk\" means \"to go crazy\": to go to pieces from stress, anger or excitement. Literally it is to go cucumber. It is everyday slang, used among friends and family rather than in formal writing.",
   "forms": [
    {
     "da": "Nu går jeg agurk!",
@@ -2498,8 +2498,8 @@
    }
   ],
   "sentence": {
-   "da": "Efter tre år vil de **gå fra hinanden**.",
-   "en": "After three years they want to break up."
+   "da": "Efter tre år besluttede de at **gå fra hinanden**.",
+   "en": "After three years they decided to break up."
   }
  },
  "at gå galt": {
@@ -2632,7 +2632,7 @@
   }
  },
  "at gå i biografen": {
-  "explanation": "\"At gå i biografen\" means \"to go to the movies\". Literally, it is to walk in the cinema, but it is the normal phrase even if you drive. You can also say the shorter at gå i bio (to go to the movies).",
+  "explanation": "\"At gå i biografen\" means \"to go to the movies\". Literally it is \"to go in the movie theater\", and it is the normal phrase however you get there. You can also say the shorter at gå i bio (to go to the movies).",
   "forms": [
    {
     "da": "at gå i biografen",
@@ -2654,15 +2654,15 @@
   "related": [
    {
     "da": "en biograf",
-    "en": "a cinema"
+    "en": "a movie theater"
    },
    {
     "da": "at gå i teatret",
-    "en": "to go to the theatre"
+    "en": "to go to the theater"
    },
    {
     "da": "en biografbillet",
-    "en": "a cinema ticket"
+    "en": "a movie ticket"
    }
   ],
   "sentence": {
@@ -2671,7 +2671,7 @@
   }
  },
  "at gå i gang med": {
-  "explanation": "\"At gå i gang med\" means \"to get started on\", for beginning a task. Med is followed by what you start: Hun gik i gang med maden (She got started on the food). Without it, say Vi er gået i gang (We have started).",
+  "explanation": "\"At gå i gang med\" means \"to get started on\", for beginning a task. Med comes before what you start: Hun gik i gang med maden (She got started on the food). Leave it out when nothing follows: Vi er gået i gang (We have started).",
   "forms": [
    {
     "da": "at gå i gang med",
@@ -2897,7 +2897,7 @@
     "en": "I went through"
    },
    {
-    "da": "jeg har gået igennem",
+    "da": "jeg er gået igennem",
     "en": "I have gone through"
    }
   ],
@@ -2921,7 +2921,7 @@
   }
  },
  "at gå ind": {
-  "explanation": "\"At gå ind\" means \"to go in\", walking into a place such as a room or a house. Danish has two little words: ind for going in, and \"inde\" for being inside: Han er inde i huset (He is inside the house).",
+  "explanation": "\"At gå ind\" means \"to go in\", walking into a place such as a room or a house. Danish has two little words: ind for going in, and inde for being inside: Han er inde i huset (He is inside the house).",
   "forms": [
    {
     "da": "at gå ind",
@@ -2975,7 +2975,7 @@
     "en": "I was in favor of"
    },
    {
-    "da": "jeg har gået ind for",
+    "da": "jeg er gået ind for",
     "en": "I have been in favor of"
    }
   ],
@@ -3124,7 +3124,7 @@
   }
  },
  "at gå op for": {
-  "explanation": "\"At gå op for\" means \"to dawn on\", for the moment when someone suddenly realizes something. The person who gets it comes after for: Det gik op for mig, at jeg tog fejl (It dawned on me that I was wrong).",
+  "explanation": "\"At gå op for\" means \"to dawn on\", for the moment when someone suddenly realizes something. The person who realizes it comes after for: Det gik op for mig, at jeg tog fejl (It dawned on me that I was wrong).",
   "forms": [
    {
     "da": "at gå op for",
@@ -3154,7 +3154,7 @@
    },
    {
     "da": "at indse",
-    "en": "to see clearly"
+    "en": "to realize"
    },
    {
     "da": "at fatte",
@@ -3362,7 +3362,7 @@
   ],
   "sentence": {
    "da": "Jeg vil gerne **gå rundt** og se på butikkerne.",
-   "en": "I would like to walk around and look at the shops."
+   "en": "I would like to walk around and look at the stores."
   }
  },
  "at gå som katten om den varme grød": {
@@ -3487,7 +3487,7 @@
   "forms": [
    {
     "da": "at gå til",
-    "en": "to go to (regularly) / perish"
+    "en": "to go to (regularly)"
    },
    {
     "da": "jeg går til",
@@ -3569,7 +3569,7 @@
   }
  },
  "at gå tilbage": {
-  "explanation": "\"At gå tilbage\" means \"to go back\", returning to where you came from: Jeg går tilbage til hotellet (I walk back to the hotel). It is about going on foot. By car, say at køre tilbage (to drive back).",
+  "explanation": "\"At gå tilbage\" means \"to go back\", returning to where you came from: Jeg går tilbage til hotellet (I walk back to the hotel). This one is for going on foot. By car, say at køre tilbage (to drive back).",
   "forms": [
    {
     "da": "at gå tilbage",
@@ -3662,7 +3662,7 @@
     "en": "I assumed"
    },
    {
-    "da": "jeg har gået ud fra",
+    "da": "jeg er gået ud fra",
     "en": "I have assumed"
    }
   ],
@@ -4294,8 +4294,8 @@
    }
   ],
   "sentence": {
-   "da": "Min arm kan **gøre ondt** efter faldet.",
-   "en": "My arm can hurt after the fall."
+   "da": "Det kan **gøre ondt** at falde på isen.",
+   "en": "It can hurt to fall on the ice."
   }
  },
  "at gøre rent": {
@@ -4622,8 +4622,8 @@
    }
   ],
   "sentence": {
-   "da": "Om natten giver en **gadelygte** lys på gaden.",
-   "en": "At night a streetlight gives light on the street."
+   "da": "Om natten lyser en **gadelygte** gaden op.",
+   "en": "At night, a streetlight lights up the street."
   }
  },
  "en gaffel": {
@@ -4830,7 +4830,7 @@
   }
  },
  "en gang imellem": {
-  "explanation": "\"En gang imellem\" means \"once in a while\", for things that do not happen often. It sounds more rare than tit (often) and less rare than aldrig (never).",
+  "explanation": "\"En gang imellem\" means \"once in a while\", for things that do not happen often. It is less often than tit (often) but more often than aldrig (never).",
   "forms": [
    {
     "da": "Jeg ser dem en gang imellem.",
@@ -5064,7 +5064,7 @@
   }
  },
  "en gaveindpakning": {
-  "explanation": "\"En gaveindpakning\" means \"a gift wrapping\", the paper and ribbon around a present, or the wrapping service in a shop: Kan jeg få den i gaveindpakning? (Can I get it gift wrapped?)",
+  "explanation": "\"En gaveindpakning\" means \"a gift wrapping\", the paper and ribbon around a present, or the wrapping service in a shop: Kan jeg få den gaveindpakket? (Can I get it gift wrapped?)",
   "forms": [
    {
     "da": "en gaveindpakning",
@@ -5396,15 +5396,15 @@
    },
    {
     "da": "gennemgangen",
-    "en": "the review / the walkthrough"
+    "en": "the review / walkthrough"
    },
    {
     "da": "gennemgange",
-    "en": "reviews"
+    "en": "reviews / walkthroughs"
    },
    {
     "da": "gennemgangene",
-    "en": "the reviews"
+    "en": "the reviews / the walkthroughs"
    }
   ],
   "related": [
@@ -5418,7 +5418,7 @@
    },
    {
     "da": "en repetition",
-    "en": "a revision"
+    "en": "a repetition"
    }
   ],
   "sentence": {
@@ -5453,7 +5453,7 @@
    },
    {
     "da": "en månedsløn",
-    "en": "a monthly paycheck"
+    "en": "a monthly salary"
    },
    {
     "da": "en timeløn",
@@ -5552,7 +5552,7 @@
   }
  },
  "en genstand": {
-  "explanation": "\"En genstand\" means \"an object\", a physical item you can point to. Everyday speech uses et ting (a thing): Hvad er det for en ting? (What is that thing?). A report says en ukendt genstand (an unidentified item).",
+  "explanation": "\"En genstand\" means \"an object\", a physical item you can point to. Everyday speech uses en ting (a thing): Hvad er det for en ting? (What is that thing?). A report says en ukendt genstand (an unidentified object).",
   "forms": [
    {
     "da": "en genstand",
@@ -5716,7 +5716,7 @@
   }
  },
  "en gerningsmand": {
-  "explanation": "\"En gerningsmand\" means \"a perpetrator\", the person who carried out a crime. You mostly meet it in news and police reports. When the person's sex is not known, police often say en gerningsperson (a culprit).",
+  "explanation": "\"En gerningsmand\" means \"a perpetrator\", the person who carried out a crime. You mostly meet it in news and police reports. When nobody knows whether it was a man or a woman, police can say en gerningsperson (a culprit).",
   "forms": [
    {
     "da": "en gerningsmand",
@@ -5915,7 +5915,7 @@
   }
  },
  "en gletsjer": {
-  "explanation": "\"En gletsjer\" means \"a glacier\", a huge mass of packed snow that builds up over many years on land.",
+  "explanation": "\"En gletsjer\" means \"a glacier\", a huge mass of ice formed from packed snow that builds up over many years on land.",
   "forms": [
    {
     "da": "en gletsjer",
@@ -5987,8 +5987,8 @@
     "en": "a world map"
    },
    {
-    "da": "et kompas",
-    "en": "a compass"
+    "da": "en jordklode",
+    "en": "the Earth, a globe"
    }
   ],
   "sentence": {
@@ -6476,7 +6476,7 @@
    },
    {
     "da": "en barsel",
-    "en": "a parental leave"
+    "en": "parental leave"
    }
   ],
   "sentence": {
@@ -6524,7 +6524,7 @@
   }
  },
  "en gravko": {
-  "explanation": "\"En gravko\" means \"an excavator\", a big machine that digs holes. The word is built from grave (dig) and ko (cow). Grave also gives en grav (a grave).",
+  "explanation": "\"En gravko\" means \"an excavator\", a big machine that digs holes. It is built on at grave (to dig), which also gives en grav (a grave).",
   "forms": [
    {
     "da": "en gravko",
@@ -6558,7 +6558,7 @@
    },
    {
     "da": "en gravemaskine",
-    "en": "an excavator (formal word)"
+    "en": "an excavator (the longer word)"
    }
   ],
   "sentence": {
@@ -6710,7 +6710,7 @@
   "related": [
    {
     "da": "en pølsevogn",
-    "en": "a sausage stand"
+    "en": "a hot dog stand"
    },
    {
     "da": "en pizzeria",
@@ -6957,6 +6957,10 @@
    {
     "da": "et gymnasium",
     "en": "an upper secondary school"
+   },
+   {
+    "da": "en børnehaveklasse",
+    "en": "a kindergarten class"
    }
   ],
   "sentence": {
@@ -7168,7 +7172,7 @@
   }
  },
  "en græshoppe": {
-  "explanation": "\"En græshoppe\" means \"a grasshopper\", a small jumping animal, often green, with six legs. Many kinds make a chirping sound.",
+  "explanation": "\"En græshoppe\" means \"a grasshopper\", a small jumping insect, often green, with six legs. Many kinds make a chirping sound.",
   "forms": [
    {
     "da": "en græshoppe",
@@ -7193,8 +7197,8 @@
     "en": "a cricket"
    },
    {
-    "da": "en sværm",
-    "en": "a swarm"
+    "da": "et græs",
+    "en": "a grass"
    },
    {
     "da": "et insekt",
@@ -7246,7 +7250,7 @@
   }
  },
  "en græsslåning": {
-  "explanation": "\"En græsslåning\" means \"a lawn mowing\", the job of cutting the grass. It uses at slå (to hit) in at slå græs (to mow the lawn), which is how Danes say it.",
+  "explanation": "\"En græsslåning\" means \"a lawn mowing\", the job of cutting the grass. Slå normally means \"to hit\", but Danes use it in at slå græs (to mow the lawn).",
   "forms": [
    {
     "da": "en græsslåning",
@@ -7275,8 +7279,8 @@
     "en": "a hedge trimmer"
    },
    {
-    "da": "en le",
-    "en": "a scythe"
+    "da": "en plæneklipper",
+    "en": "a lawn mower"
    }
   ],
   "sentence": {
@@ -7488,7 +7492,7 @@
   }
  },
  "en gudfar": {
-  "explanation": "\"En gudfar\" means \"a godfather\", a man chosen as a special adult in a child's life.",
+  "explanation": "\"En gudfar\" means \"a godfather\", a man chosen by the parents to be a special adult in a child's life, often at the christening.",
   "forms": [
    {
     "da": "en gudfar",
@@ -7527,7 +7531,7 @@
   }
  },
  "en gudmor": {
-  "explanation": "\"En gudmor\" means \"a godmother\", a woman chosen as a special adult in a child's life.",
+  "explanation": "\"En gudmor\" means \"a godmother\", a woman chosen by the parents to be a special adult in a child's life, often at the christening.",
   "forms": [
    {
     "da": "en gudmor",
@@ -7605,7 +7609,7 @@
   }
  },
  "en guidebog": {
-  "explanation": "\"En guidebog\" means \"a guidebook\", a book with sights and tips for a trip. It is built from guide (guide) and bog (book). Guide also means a person who shows tourists around: En guide viser os byen (A guide shows us the town).",
+  "explanation": "\"En guidebog\" means \"a guidebook\", a book with sights and tips for a trip. It is built from guide and bog (book). Guide also means a person who shows tourists around: En guide viser os byen (A guide shows us the town).",
   "forms": [
    {
     "da": "en guidebog",
@@ -7644,23 +7648,23 @@
   }
  },
  "en guirlande": {
-  "explanation": "\"En guirlande\" means \"a garland / streamer\", a long decorative string of flowers, leaves or small flags that is hung up for parties and holidays. You often hang one along a wall or over a door.",
+  "explanation": "\"En guirlande\" means \"a garland\", a long decorative string of flowers, leaves or small flags that is hung up for parties and holidays. You often hang one along a wall or over a door.",
   "forms": [
    {
     "da": "en guirlande",
-    "en": "a garland / streamer"
+    "en": "a garland"
    },
    {
     "da": "guirlanden",
-    "en": "the garland / streamer"
+    "en": "the garland"
    },
    {
     "da": "guirlander",
-    "en": "garlands / streamers"
+    "en": "garlands"
    },
    {
     "da": "guirlanderne",
-    "en": "the garlands / streamers"
+    "en": "the garlands"
    }
   ],
   "related": [
@@ -7687,7 +7691,7 @@
   }
  },
  "en guitar": {
-  "explanation": "\"En guitar\" means \"a guitar\". When you play it, Danish leaves out the: Jeg spiller guitar means \"I play the guitar\", using at spille (to play).",
+  "explanation": "\"En guitar\" means \"a guitar\". With at spille (to play), Danish leaves out the word for \"the\": Jeg spiller guitar means \"I play the guitar\".",
   "forms": [
    {
     "da": "en guitar",
@@ -7755,8 +7759,8 @@
     "en": "a carp"
    },
    {
-    "da": "et fiskeglas",
-    "en": "a fishbowl"
+    "da": "en fisk",
+    "en": "a fish"
    },
    {
     "da": "en kampfisk",
@@ -7812,7 +7816,7 @@
   }
  },
  "en gulerod": {
-  "explanation": "\"En gulerod\" means \"a carrot\". It is built from gul (yellow) and rod (root), so it is literally a yellow root. The name says yellow, but you describe the color of a carrot as orange (orange).",
+  "explanation": "\"En gulerod\" means \"a carrot\". It is built from gul (yellow) and rod (root), so it is literally a yellow root. The name says yellow, though carrots are orange.",
   "forms": [
    {
     "da": "en gulerod",
@@ -8062,23 +8066,23 @@
   }
  },
  "en gymnastiksal": {
-  "explanation": "\"En gymnastiksal\" means \"a gym\" at a school, the big hall where PE lessons are held. It is built from gymnastik (gymnastics) and sal (hall).",
+  "explanation": "\"En gymnastiksal\" means \"a school gym\", the big hall where PE lessons are held. It is built from gymnastik (gymnastics) and sal (hall).",
   "forms": [
    {
     "da": "en gymnastiksal",
-    "en": "a gym (school)"
+    "en": "a school gym"
    },
    {
     "da": "gymnastiksalen",
-    "en": "the gym (school)"
+    "en": "the school gym"
    },
    {
     "da": "gymnastiksale",
-    "en": "gyms"
+    "en": "school gyms"
    },
    {
     "da": "gymnastiksalene",
-    "en": "the gyms"
+    "en": "the school gyms"
    }
   ],
   "related": [
@@ -8212,20 +8216,20 @@
   ],
   "related": [
    {
-    "da": "en vej",
-    "en": "a road"
-   },
-   {
-    "da": "en plads",
-    "en": "a square"
-   },
-   {
-    "da": "et torv",
-    "en": "a market square"
-   },
-   {
     "da": "en fodgænger",
     "en": "a pedestrian"
+   },
+   {
+    "da": "et fortov",
+    "en": "a sidewalk"
+   },
+   {
+    "da": "en hovedgade",
+    "en": "a main street"
+   },
+   {
+    "da": "en cykelsti",
+    "en": "a bike lane"
    }
   ],
   "sentence": {
@@ -8441,7 +8445,7 @@
   }
  },
  "en gæst": {
-  "explanation": "\"En gæst\" means \"a guest\", for visitors in your home and also for hotel guests. Vi får gæster means \"We are having guests\".",
+  "explanation": "\"En gæst\" means \"a guest\", for visitors in your home and also for hotel guests: Vi får gæster (We are having guests).",
   "forms": [
    {
     "da": "en gæst",
@@ -8787,11 +8791,11 @@
   "related": [
    {
     "da": "en afgift",
-    "en": "a duty"
+    "en": "a levy"
    },
    {
     "da": "et honorar",
-    "en": "an honorarium"
+    "en": "a professional fee"
    },
    {
     "da": "en takst",
@@ -8937,7 +8941,7 @@
   }
  },
  "et gennemsnit": {
-  "explanation": "\"Et gennemsnit\" means \"an average\", the middle value of a group of numbers. With i, it means \"on average\": i gennemsnit.",
+  "explanation": "\"Et gennemsnit\" means \"an average\", the number you get by adding several numbers and dividing by how many there are. With i, it means \"on average\": i gennemsnit.",
   "forms": [
    {
     "da": "et gennemsnit",
@@ -9148,7 +9152,7 @@
   }
  },
  "et glas": {
-  "explanation": "\"Et glas\" means \"a glass\", both the material and a drinking glass. Danish has no word for \"of\" here: et glas vand is a glass of water, and \"et glas vin\" is a glass of wine.",
+  "explanation": "\"Et glas\" means \"a glass\", both the material and a drinking glass. Danish has no word for of here: et glas vand (a glass of water) and et glas vin (a glass of wine).",
   "forms": [
    {
     "da": "et glas",
@@ -9273,7 +9277,7 @@
   }
  },
  "et grin": {
-  "explanation": "\"Et grin\" means \"a laugh\". A smile is et smil (a smile).",
+  "explanation": "\"Et grin\" means \"a laugh\" and also \"a grin\". For a smile, say et smil.",
   "forms": [
    {
     "da": "et grin",
@@ -9480,7 +9484,7 @@
   }
  },
  "et gulv": {
-  "explanation": "\"Et gulv\" means \"a floor\", the surface you walk on in a room. For a level of a building, such as the second floor, Danes say en etage.",
+  "explanation": "\"Et gulv\" means \"a floor\", the surface you walk on in a room. For a level of a building, use en etage (a story): anden etage (second floor).",
   "forms": [
    {
     "da": "et gulv",
@@ -9562,7 +9566,7 @@
   }
  },
  "et gymnasium": {
-  "explanation": "\"Et gymnasium\" means \"a high school\", the three years at about age 16 to 19 that prepare you for further study: Min datter går på gymnasiet (My daughter goes to high school). For a sports hall, say en idrætshal (a sports hall).",
+  "explanation": "\"Et gymnasium\" means \"a high school\", the three years at about age 16 to 19 that prepare you for further study: Min datter går på gymnasiet (My daughter goes to high school). Do not mix it up with English \"gym\": a sports hall is en idrætshal.",
   "forms": [
    {
     "da": "et gymnasium",
@@ -9718,7 +9722,7 @@
   ],
   "sentence": {
    "da": "Jeg har mange **gøremål** i dag, blandt andet at handle og vaske tøj.",
-   "en": "I have many chores today, among other things shopping and washing clothes."
+   "en": "I have many chores today, including shopping and washing clothes."
   }
  },
  "gal": {
@@ -9921,7 +9925,7 @@
   }
  },
  "gang": {
-  "explanation": "\"Gang\" means \"a time\" in the sense of an occasion: en gang means \"once\" and \"to gange\" means \"twice\". It can also mean a hallway in a house. Do not mix it up with tid (time in general). Hvor mange gange? means \"How many times?\".",
+  "explanation": "\"Gang\" means \"a time\" in the sense of an occasion: en gang means \"once\" and \"to gange\" means \"twice\". Gang can also mean a hallway in a house. Do not mix it up with tid (time in general). Hvor mange gange? means \"How many times?\".",
   "forms": [
    {
     "da": "en gang",
@@ -10116,7 +10120,7 @@
   }
  },
  "gavmild": {
-  "explanation": "\"Gavmild\" means \"generous\" and describes a person who gives freely of money, time or things. The word generøs also exists and is used in the same way.",
+  "explanation": "\"Gavmild\" means \"generous\" and describes a person who gives freely of money, time or things. Generøs (generous) means the same.",
   "forms": [
    {
     "da": "en gavmild onkel",
@@ -10389,7 +10393,7 @@
   }
  },
  "generøsitet": {
-  "explanation": "\"Generøsitet\" means \"generosity\", being willing to give money, time or help freely. It is often used to thank someone: Vi takker for din generøsitet (We thank you for your generosity).",
+  "explanation": "\"En generøsitet\" means \"generosity\", being willing to give money, time or help freely. It is often used to thank someone: Vi takker for din generøsitet (We thank you for your generosity).",
   "forms": [
    {
     "da": "stor generøsitet",
@@ -10428,19 +10432,19 @@
   }
  },
  "genetik": {
-  "explanation": "\"Genetik\" means \"genetics\", the science of how traits are passed from parents to children. It is also used for the traits themselves: Det ligger i genetikken (It is in the family genes).",
+  "explanation": "\"Genetik\" means \"genetics\", the science of how traits are passed from parents to children. It is also used for the traits themselves: Det ligger i genetikken (It is in the genes).",
   "forms": [
    {
-    "da": "forskning i genetik",
-    "en": "research in genetics"
-   },
-   {
-    "da": "inden for genetik",
-    "en": "within genetics"
+    "da": "genetik",
+    "en": "genetics"
    },
    {
     "da": "genetikken",
     "en": "the genetics"
+   },
+   {
+    "da": "inden for genetik",
+    "en": "within genetics"
    }
   ],
   "related": [
@@ -10489,7 +10493,7 @@
    },
    {
     "da": "medfødt",
-    "en": "inborn"
+    "en": "congenital"
    },
    {
     "da": "et gen",
@@ -10697,7 +10701,7 @@
   }
  },
  "genoptræning": {
-  "explanation": "\"En genoptræning\" means \"a rehabilitation\", exercise and therapy that help you regain strength and movement after an injury or an operation. The gen- at the start means \"again\", as in at gentage (to repeat).",
+  "explanation": "\"Genoptræning\" means \"rehabilitation\", exercise and therapy that help you regain strength and movement after an injury or an operation. The gen- at the start means \"again\", as in at gentage (to repeat).",
   "forms": [
    {
     "da": "en genoptræning",
@@ -10719,7 +10723,7 @@
   "related": [
    {
     "da": "en fysioterapeut",
-    "en": "a physical therapist"
+    "en": "a physiotherapist"
    },
    {
     "da": "at komme sig",
@@ -10740,10 +10744,10 @@
   }
  },
  "gensidighed": {
-  "explanation": "\"En gensidighed\" means \"mutuality\", when both sides give and get in the same way, such as respect or help going in both directions. It comes from gensidig (mutual).",
+  "explanation": "\"Gensidighed\" means \"mutuality\", when both sides give and get in the same way, such as respect or help going in both directions. It comes from gensidig (mutual).",
   "forms": [
    {
-    "da": "en gensidighed",
+    "da": "gensidighed",
     "en": "mutuality"
    },
    {
@@ -10927,7 +10931,7 @@
   }
  },
  "gift": {
-  "explanation": "\"Gift\" means \"married\". Jeg er gift means \"I am married\", and you add med (with) for the partner: gift med Peter (married to Peter). Careful: gift is also the word for poison, so context shows which one is meant.",
+  "explanation": "\"Gift\" means \"married\". Add med (with) for the partner: gift med Peter (married to Peter). Careful: gift is also the word for poison, so context shows which one is meant.",
   "forms": [
    {
     "da": "en gift mand",
@@ -11001,7 +11005,7 @@
   }
  },
  "glad": {
-  "explanation": "\"Glad\" means \"happy\", the everyday word for feeling pleased or cheerful. Add for (for) to say what makes you happy: Jeg er glad for gaven (I am happy about the gift).",
+  "explanation": "\"Glad\" means \"happy\", the everyday word for feeling pleased or cheerful. Add for (meaning \"about\") to say what makes you happy: Jeg er glad for gaven (I am happy about the gift).",
   "forms": [
    {
     "da": "en glad dreng",
@@ -11023,7 +11027,7 @@
    },
    {
     "da": "lykkelig",
-    "en": "happy"
+    "en": "very happy"
    },
    {
     "da": "en glæde",
@@ -11052,7 +11056,7 @@
    },
    {
     "da": "Er du glad for den?",
-    "en": "Do you like it?"
+    "en": "Are you happy with it?"
    }
   ],
   "related": [
@@ -11195,7 +11199,7 @@
   "explanation": "\"Global opvarmning\" means \"global warming\", the rise in the Earth's average temperature over many years. Opvarmning comes from at varme op (to warm up), where op means \"up\".",
   "forms": [
    {
-    "da": "stoppe den globale opvarmning",
+    "da": "at stoppe den globale opvarmning",
     "en": "to stop global warming"
    },
    {
@@ -11291,8 +11295,8 @@
     "en": "lactose-free"
    },
    {
-    "da": "vegansk",
-    "en": "vegan"
+    "da": "nøddefri",
+    "en": "nut-free"
    }
   ],
   "sentence": {
@@ -11301,7 +11305,7 @@
   }
  },
  "glæde": {
-  "explanation": "\"Glæde\" means \"joy\". With sig, at glæde sig means to look forward: Jeg glæder mig til ferien (I am looking forward to the vacation).",
+  "explanation": "\"Glæde\" means \"joy\". The phrase at glæde sig means to look forward to something: Jeg glæder mig til ferien (I am looking forward to the vacation).",
   "forms": [
    {
     "da": "en glæde",
@@ -11366,7 +11370,7 @@
    },
    {
     "da": "glædelig påske",
-    "en": "Happy Easter"
+    "en": "happy Easter"
    },
    {
     "da": "tillykke",
@@ -11814,8 +11818,8 @@
    }
   ],
   "sentence": {
-   "da": "Det er aften. **Godaften**, Peter!",
-   "en": "It is evening. Good evening, Peter!"
+   "da": "**Godaften**, Peter! Hvordan har du det?",
+   "en": "Good evening, Peter! How are you?"
   }
  },
  "goddag": {
@@ -11865,8 +11869,8 @@
     "en": "the goodness"
    },
    {
-    "da": "af hjertens godhed",
-    "en": "out of the goodness of the heart"
+    "da": "af godhed",
+    "en": "out of kindness"
    }
   ],
   "related": [
@@ -11953,7 +11957,7 @@
     "en": "a night"
    },
    {
-    "da": "god morgen",
+    "da": "godmorgen",
     "en": "good morning"
    }
   ],
@@ -11963,7 +11967,7 @@
   }
  },
  "godt nytår": {
-  "explanation": "\"Godt nytår\" means \"happy New Year\". Note the spelling: godt nytår, not god nytår. Nytår means \"New Year\" and \"godt\" means \"good\". A reply is i lige måde (same to you).",
+  "explanation": "\"Godt nytår\" means \"happy New Year\". Note the spelling: godt nytår, not god nytår. Nytår means New Year and godt means good. A reply is i lige måde (same to you).",
   "forms": [
    {
     "da": "Godt nytår!",
@@ -11980,8 +11984,8 @@
   ],
   "related": [
    {
-    "da": "en nytårsaften",
-    "en": "a New Year's Eve"
+    "da": "nytårsaften",
+    "en": "New Year's Eve"
    },
    {
     "da": "glædelig jul",
@@ -12223,8 +12227,8 @@
   "explanation": "\"Grov\" means \"coarse\" or \"rude\". For materials, it means rough; for words and jokes, crude or offensive; and for a mistake or a crime, serious: en grov fejl (a serious mistake).",
   "forms": [
    {
-    "da": "et groft sandpapir",
-    "en": "a coarse sandpaper"
+    "da": "et groft tæppe",
+    "en": "a coarse rug"
    },
    {
     "da": "en grov stemme",
@@ -12340,26 +12344,22 @@
   "explanation": "\"Grundlovsdag\" means \"Constitution Day\", 5 June, the day in 1849 when Denmark's first constitution was signed. It is built from grundlov (constitution) and dag (day).",
   "forms": [
    {
-    "da": "en grundlovsdag",
-    "en": "a Constitution Day"
+    "da": "grundlovsdag",
+    "en": "Constitution Day"
+   },
+   {
+    "da": "på grundlovsdag",
+    "en": "on Constitution Day"
    },
    {
     "da": "grundlovsdagen",
-    "en": "the Constitution Day"
-   },
-   {
-    "da": "grundlovsdage",
-    "en": "Constitution Days"
-   },
-   {
-    "da": "grundlovsdagene",
-    "en": "the Constitution Days"
+    "en": "Constitution Day (with -en added)"
    }
   ],
   "related": [
    {
-    "da": "en helligdag",
-    "en": "a public holiday"
+    "da": "en nationaldag",
+    "en": "a national day"
    },
    {
     "da": "en fridag",
@@ -12380,7 +12380,7 @@
   }
  },
  "grundlæggende": {
-  "explanation": "\"Grundlæggende\" means \"basic\" or \"fundamental\", the part that everything else rests on. It comes from at lægge en grund (to lay a foundation). It looks like grundig (thorough), but the meaning is different.",
+  "explanation": "\"Grundlæggende\" means \"basic\" or \"fundamental\", the part that everything else rests on. It is built from grund (foundation) and at lægge (to lay). It looks like grundig (thorough), but the meaning is different.",
   "forms": [
    {
     "da": "en grundlæggende regel",
@@ -12476,7 +12476,7 @@
    },
    {
     "da": "gerrig",
-    "en": "stingy"
+    "en": "miserly"
    },
    {
     "da": "generøs",
@@ -12488,8 +12488,8 @@
    }
   ],
   "sentence": {
-   "da": "Han er **grådig**, fordi han aldrig vil dele sine penge.",
-   "en": "He is greedy because he never wants to share his money."
+   "da": "Han er **grådig** og tager altid den største kage.",
+   "en": "He is greedy and always takes the biggest cake."
   }
  },
  "gråvejr": {
@@ -12539,8 +12539,8 @@
     "en": "in Greece"
    },
    {
-    "da": "Jeg rejser til Grækenland.",
-    "en": "I am travelling to Greece."
+    "da": "til Grækenland",
+    "en": "to Greece"
    }
   ],
   "related": [
@@ -12619,8 +12619,8 @@
   ],
   "related": [
    {
-    "da": "en plæne",
-    "en": "a lawn"
+    "da": "en græshoppe",
+    "en": "a grasshopper"
    },
    {
     "da": "et strå",
@@ -12750,7 +12750,7 @@
   }
  },
  "grønland": {
-  "explanation": "\"Grønland\" means \"Greenland\". It is built from grøn (green) and land (country), so literally green land. Land ends many country names: Tyskland (Germany) and Finland (Finland).",
+  "explanation": "\"Grønland\" means \"Greenland\". It is built from grøn (green) and land (country), so literally green land. Many country names end in land: Tyskland (Germany) and Irland (Ireland).",
   "forms": [
    {
     "da": "Grønland",
@@ -12867,18 +12867,18 @@
   }
  },
  "gudskelov": {
-  "explanation": "\"Gudskelov\" means \"thank God\", said with relief when something bad did not happen or a worry is over. It is short for Gud skee lov (God be praised).",
+  "explanation": "\"Gudskelov\" means \"thank God\", said with relief when something bad did not happen or a worry is over. It is short for Gud ske lov (God be praised).",
   "forms": [
    {
     "da": "Gudskelov!",
     "en": "Thank God!"
    },
    {
-    "da": "Gudskelov, du er okay",
+    "da": "Gudskelov, du er okay.",
     "en": "Thank God, you are okay"
    },
    {
-    "da": "Gudskelov for det",
+    "da": "Gudskelov for det.",
     "en": "Thank God for that"
    }
   ],
@@ -12888,7 +12888,7 @@
     "en": "luckily"
    },
    {
-    "da": "puha",
+    "da": "pyha",
     "en": "phew"
    },
    {
@@ -12994,7 +12994,7 @@
    },
    {
     "da": "en elastik",
-    "en": "a rubber band"
+    "en": "an elastic band"
    },
    {
     "da": "et gummibånd",

@@ -565,11 +565,11 @@
   "related": [
    {
     "da": "at opfylde",
-    "en": "to satisfy"
+    "en": "to fulfill"
    },
    {
-    "da": "at betale",
-    "en": "to pay"
+    "da": "en indfrielse",
+    "en": "a fulfillment"
    },
    {
     "da": "at holde",
@@ -793,7 +793,7 @@
   }
  },
  "at indkalde": {
-  "explanation": "\"At indkalde\" means \"to call in\" or \"to summon\", to officially order people to come: Retten indkalder vidner (The court summons witnesses). It is also used for a meeting that someone formally calls.",
+  "explanation": "\"At indkalde\" means \"to call in\" or \"to summon\", to officially order people to come: Retten indkalder vidner (The court summons witnesses). It is also used for calling a meeting: Jeg indkalder til møde (I am calling a meeting).",
   "forms": [
    {
     "da": "at indkalde",
@@ -961,7 +961,7 @@
   }
  },
  "at indrette sig": {
-  "explanation": "\"At indrette sig\" means \"to settle in\" and to arrange your life to fit a new situation: Vi har indrettet os i en lille lejlighed (We have settled into a small apartment). Without sig, at indrette means to furnish a room: indrette et værelse (furnish a room).",
+  "explanation": "\"At indrette sig\" means \"to settle in\" or \"to adapt\", to arrange your life to fit a new situation: Vi har indrettet os i en lille lejlighed (We have settled into a small apartment). Without sig, at indrette means \"to furnish\": indrette et værelse (to furnish a room).",
   "forms": [
    {
     "da": "at indrette sig",
@@ -1219,7 +1219,7 @@
   }
  },
  "at indstille": {
-  "explanation": "\"At indstille\" means \"to set\" or \"to adjust\" a device so it works as you want: indstille uret (set the clock). It also means to put forward someone for a prize or a job: indstille en kandidat (recommend a candidate).",
+  "explanation": "\"At indstille\" means \"to set\" or \"to adjust\" a device so it works as you want: indstille uret (set the clock). It also means to put someone forward for a prize or a job: indstille en kandidat (recommend a candidate).",
   "forms": [
    {
     "da": "at indstille",
@@ -1301,7 +1301,7 @@
   ],
   "sentence": {
    "da": "Man må **indstille sig på** lange køer i ferien.",
-   "en": "You have to get ready for long lines during vacation."
+   "en": "You have to prepare for long lines during vacation."
   }
  },
  "at indsætte": {
@@ -1456,7 +1456,7 @@
    },
    {
     "da": "at holde fast",
-    "en": "to hold on"
+    "en": "to stand firm"
    },
    {
     "da": "at give efter",
@@ -1883,7 +1883,7 @@
   ],
   "sentence": {
    "da": "Hun vil **investere** sine penge i en lille butik.",
-   "en": "She wants to invest her money in a small shop."
+   "en": "She wants to invest her money in a small store."
   }
  },
  "at invitere": {
@@ -2116,7 +2116,7 @@
   "related": [
    {
     "da": "en svømmehal",
-    "en": "a swimming pool building"
+    "en": "an indoor swimming pool"
    },
    {
     "da": "et stadion",
@@ -2124,7 +2124,7 @@
    },
    {
     "da": "en gymnastiksal",
-    "en": "a gym room"
+    "en": "a gymnasium"
    },
    {
     "da": "et fitnesscenter",
@@ -2201,8 +2201,8 @@
     "en": "a founder"
    },
    {
-    "da": "en bagmand",
-    "en": "a mastermind"
+    "da": "en pioner",
+    "en": "a pioneer"
    },
    {
     "da": "en ophavsmand",
@@ -2214,7 +2214,7 @@
    }
   ],
   "sentence": {
-   "da": "Hun var **igangsætter** på projektet, og alle andre fulgte med.",
+   "da": "Hun var **igangsætter** af projektet, og alle andre fulgte med.",
    "en": "She was the initiator of the project, and everyone else followed."
   }
  },
@@ -2343,8 +2343,8 @@
    }
   ],
   "sentence": {
-   "da": "Politikerne diskuterer den økonomiske **implikation** af den nye lov.",
-   "en": "The politicians discuss the economic implication of the new law."
+   "da": "En vigtig **implikation** af den nye lov er højere priser.",
+   "en": "An important implication of the new law is higher prices."
   }
  },
  "en indbakke": {
@@ -2490,12 +2490,12 @@
   ],
   "related": [
    {
-    "da": "en deltagelse",
+    "da": "deltagelse",
     "en": "participation"
    },
    {
     "da": "en medbestemmelse",
-    "en": "co-determination"
+    "en": "a say in decisions"
    },
    {
     "da": "en høring",
@@ -2632,7 +2632,7 @@
    },
    {
     "da": "en påvirkning",
-    "en": "an effect"
+    "en": "an impact"
    }
   ],
   "sentence": {
@@ -2675,12 +2675,12 @@
    },
    {
     "da": "en husleje",
-    "en": "a rent"
+    "en": "rent"
    }
   ],
   "sentence": {
    "da": "Ved **indflytning** skal du tage billeder af lejlighedens stand.",
-   "en": "At move-in you must take pictures of the apartment's condition."
+   "en": "On move-in, you must take pictures of the apartment's condition."
   }
  },
  "en indflytningsgave": {
@@ -2718,7 +2718,7 @@
    },
    {
     "da": "en fødselsdagsgave",
-    "en": "a birthday gift"
+    "en": "a birthday present"
    }
   ],
   "sentence": {
@@ -2847,7 +2847,7 @@
    },
    {
     "da": "et afbud",
-    "en": "a cancellation"
+    "en": "a notice of absence"
    }
   ],
   "sentence": {
@@ -3309,7 +3309,7 @@
   ],
   "sentence": {
    "da": "Lejlighedens **indretning** er enkel med hvide vægge og få møbler.",
-   "en": "The apartment's furnishing is simple, with white walls and few pieces of furniture."
+   "en": "The apartment is simply furnished, with white walls and few pieces of furniture."
   }
  },
  "en indretningsarkitekt": {
@@ -3342,8 +3342,8 @@
     "en": "a furniture designer"
    },
    {
-    "da": "en håndværker",
-    "en": "a craftsman"
+    "da": "en byplanlægger",
+    "en": "an urban planner"
    },
    {
     "da": "en bygningsarkitekt",
@@ -3385,8 +3385,8 @@
     "en": "a donation"
    },
    {
-    "da": "en velgørenhed",
-    "en": "a charity"
+    "da": "velgørenhed",
+    "en": "charity"
    },
    {
     "da": "en gave",
@@ -3395,7 +3395,7 @@
   ],
   "sentence": {
    "da": "Skolen holder en **indsamling** til børn, der har mistet deres hjem.",
-   "en": "The school holds a fundraiser for children who have lost their home."
+   "en": "The school holds a fundraiser for children who have lost their homes."
   }
  },
  "en indsat": {
@@ -3438,7 +3438,7 @@
   ],
   "sentence": {
    "da": "Hver **indsat** har sin egen celle i fængslet.",
-   "en": "Each inmate has his own cell in the prison."
+   "en": "Each inmate has their own cell in the prison."
   }
  },
  "en indsats": {
@@ -3464,7 +3464,7 @@
   "related": [
    {
     "da": "en anstrengelse",
-    "en": "an exertion"
+    "en": "a hard effort"
    },
    {
     "da": "en præstation",
@@ -3515,16 +3515,16 @@
    },
    {
     "da": "en afmelding",
-    "en": "a sign-out"
+    "en": "a cancellation"
    }
   ],
   "sentence": {
    "da": "Ved **indskrivning** på skolen får barnet sin plads i klassen.",
-   "en": "At enrollment at the school the child gets a place in the class."
+   "en": "When the child is enrolled at the school, it gets a place in the class."
   }
  },
  "en indsprøjtning": {
-  "explanation": "\"En indsprøjtning\" means \"an injection\", medicine put into the body with a needle. In daily talk people often say en sprøjte (a shot): Jeg skal have en sprøjte (I am getting a shot). It is also used for money put into something, such as a company.",
+  "explanation": "\"En indsprøjtning\" means \"an injection\", medicine put into the body with a needle. In daily talk people often say en sprøjte (a shot): Jeg skal have en sprøjte (I am getting a shot). The word is also used for money put into something, such as a company.",
   "forms": [
    {
     "da": "en indsprøjtning",
@@ -3610,7 +3610,7 @@
   }
  },
  "en indtægt": {
-  "explanation": "\"En indtægt\" means \"an income\" or \"revenue\", money that comes in, for a person or a business. It is the opposite of an expense, and it often points to one source of money, such as tourists for a town.",
+  "explanation": "\"En indtægt\" means \"an income\" or \"revenue\", money that comes in, for a person or a business. It is the opposite of en udgift (an expense), and it often points to one source of money, such as tourists for a town.",
   "forms": [
    {
     "da": "en indtægt",
@@ -4286,11 +4286,11 @@
   }
  },
  "en integration": {
-  "explanation": "\"En integration\" means \"an integration\", the process of becoming a full part of a society, a school or a workplace. In Denmark it is most often used about new arrivals learning the language and finding work. It can also mean joining two computer systems.",
+  "explanation": "\"En integration\" means \"integration\", the process of becoming a full part of a society, a school or a workplace. In Denmark it is most often used about new arrivals learning the language and finding work. It can also mean joining two computer systems.",
   "forms": [
    {
     "da": "en integration",
-    "en": "an integration"
+    "en": "integration"
    },
    {
     "da": "integrationen",
@@ -4329,7 +4329,7 @@
   }
  },
  "en interesse": {
-  "explanation": "\"En interesse\" means \"an interest\", something you like to spend time on. After interesse, the small word for links it to the topic: Han har stor interesse for biler (He has a big interest in cars). To say you are interested, use at være interesseret i (to be interested in).",
+  "explanation": "\"En interesse\" means \"an interest\", something you like to spend time on. After interesse, the small word for (in, about) links it to the topic: Han har stor interesse for biler (He has a big interest in cars). To say you are interested, use at være interesseret i (to be interested in).",
   "forms": [
    {
     "da": "en interesse",
@@ -4393,8 +4393,8 @@
   ],
   "related": [
    {
-    "da": "et net",
-    "en": "a net / the internet"
+    "da": "nettet",
+    "en": "the internet"
    },
    {
     "da": "et netværk",
@@ -4558,15 +4558,15 @@
   "related": [
    {
     "da": "en vrede",
-    "en": "an anger"
+    "en": "anger"
    },
    {
     "da": "en ærgrelse",
-    "en": "a vexation"
+    "en": "an annoyance"
    },
    {
     "da": "at irritere",
-    "en": "to annoy"
+    "en": "to irritate"
    },
    {
     "da": "en gene",
@@ -4579,7 +4579,7 @@
   }
  },
  "en isbjørn": {
-  "explanation": "\"En isbjørn\" means \"a polar bear\". It is built from is (ice) and bjørn (bear). The word is also means ice cream: Jeg vil have en is (I want an ice cream).",
+  "explanation": "\"En isbjørn\" means \"a polar bear\". It is built from is (ice) and bjørn (bear). Is also means ice cream: Jeg vil have en is (I want an ice cream).",
   "forms": [
    {
     "da": "en isbjørn",
@@ -4743,7 +4743,7 @@
   }
  },
  "en istap": {
-  "explanation": "\"En istap\" means \"an icicle\", a pointed piece of ice that hangs down. It is built from is (ice) and tap (a plug or peg). The word is means both ice and ice cream: Jeg vil have en is (I want an ice cream).",
+  "explanation": "\"En istap\" means \"an icicle\", a pointed piece of ice that hangs down. It is built from is (ice) and tap (a plug or peg). On its own, is means both ice and ice cream: Jeg vil have en is (I want an ice cream).",
   "forms": [
    {
     "da": "en istap",
@@ -4864,7 +4864,7 @@
   }
  },
  "en italiener": {
-  "explanation": "\"En italiener\" means \"an Italian\" person. For food and other things, use the matching word italiensk: italiensk mad (Italian food).",
+  "explanation": "\"En italiener\" means \"an Italian\", a person from Italy. For food and other things, use the matching word italiensk: italiensk mad (Italian food).",
   "forms": [
    {
     "da": "en italiener",
@@ -4946,7 +4946,7 @@
   }
  },
  "et ildfast fad": {
-  "explanation": "\"Et ildfast fad\" means \"an ovenproof dish\", a dish that can take strong heat. Ildfast (fireproof) is built from ild (fire) and fast (firm). Fad alone is a serving platter: Kagen står på et fad (The cake is on a platter).",
+  "explanation": "\"Et ildfast fad\" means \"an ovenproof dish\", a dish that can take strong heat. Ildfast (fireproof) means it stands up to fire and heat. Fad alone is a serving platter: Kagen står på et fad (The cake is on a platter).",
   "forms": [
    {
     "da": "et ildfast fad",
@@ -5011,7 +5011,7 @@
   "related": [
    {
     "da": "et kejserdømme",
-    "en": "an emperor's realm"
+    "en": "an empire"
    },
    {
     "da": "en kejser",
@@ -5032,7 +5032,7 @@
   }
  },
  "et indbrud": {
-  "explanation": "\"Et indbrud\" means \"a burglary\", when someone breaks into a home or shop. It is built from ind (in) + brud (a break). Brud also ends et benbrud (a broken bone).",
+  "explanation": "\"Et indbrud\" means \"a burglary\", when someone breaks into a home or shop. It is built from ind (in) + brud (a break). Brud also appears in et benbrud (a broken bone).",
   "forms": [
    {
     "da": "et indbrud",
@@ -5114,7 +5114,7 @@
   }
  },
  "et indkøbscenter": {
-  "explanation": "\"Et indkøbscenter\" means \"a shopping mall\", a large building with many shops. It is made of indkøb (shopping) and et center (a center). People also say et shoppingcenter, which means the same.",
+  "explanation": "\"Et indkøbscenter\" means \"a shopping mall\", a large building with many stores. It is made of indkøb (shopping) and et center (a center). People also say et shoppingcenter, which means the same.",
   "forms": [
    {
     "da": "et indkøbscenter",
@@ -5149,7 +5149,7 @@
   ],
   "sentence": {
    "da": "Der er mange butikker i et stort **indkøbscenter**.",
-   "en": "There are many shops in a big shopping mall."
+   "en": "There are many stores in a big shopping mall."
   }
  },
  "et indlæg": {
@@ -5175,7 +5175,7 @@
   "related": [
    {
     "da": "et opslag",
-    "en": "a notice"
+    "en": "a post / notice"
    },
    {
     "da": "en kommentar",
@@ -5225,8 +5225,8 @@
     "en": "a feeling"
    },
    {
-    "da": "en erfaring",
-    "en": "an experience"
+    "da": "en fornemmelse",
+    "en": "a feeling / sense"
    }
   ],
   "sentence": {
@@ -5485,42 +5485,42 @@
   }
  },
  "i": {
-  "explanation": "\"I\" means \"in\": i huset (in the house), i Danmark (in Denmark), i juni (in June). It is also used for how long something lasts: i to timer (for two hours). Compare på (on, at): på bordet (on the table), på Fyn (on Funen, an island).",
+  "explanation": "\"I\" means \"you\" when you talk to several people: I er søde (You are all nice). The little word i (in) sounds the same but is written with a small letter: i huset (in the house).",
   "forms": [
    {
-    "da": "i huset",
-    "en": "in the house"
+    "da": "I er søde.",
+    "en": "You are all nice."
    },
    {
-    "da": "i dag",
-    "en": "today"
+    "da": "Hvor bor I?",
+    "en": "Where do you all live?"
    },
    {
-    "da": "i to timer",
-    "en": "for two hours"
+    "da": "Er I hjemme?",
+    "en": "Are you all home?"
    }
   ],
   "related": [
    {
-    "da": "inde",
-    "en": "inside"
+    "da": "du",
+    "en": "you (one person)"
    },
    {
-    "da": "ind",
-    "en": "in (into)"
+    "da": "jer",
+    "en": "you (all, object)"
    },
    {
-    "da": "ud af",
-    "en": "out of"
+    "da": "jeres",
+    "en": "your (all)"
    },
    {
-    "da": "ved",
-    "en": "by"
+    "da": "dig",
+    "en": "you (one person, object)"
    }
   ],
   "sentence": {
-   "da": "Jeg bor **i** København.",
-   "en": "I live in Copenhagen."
+   "da": "Hvor bor **I**?",
+   "en": "Where do you all live?"
   }
  },
  "i aften": {
@@ -5980,7 +5980,7 @@
    },
    {
     "da": "Det er nok i første omgang",
-    "en": "That is enough for now"
+    "en": "That is enough at first"
    }
   ],
   "related": [
@@ -6077,7 +6077,7 @@
   ],
   "sentence": {
    "da": "Jeg er **i gang med** at læse en bog.",
-   "en": "I am busy reading a book."
+   "en": "I am in the middle of reading a book."
   }
  },
  "i går": {
@@ -6132,7 +6132,7 @@
    },
    {
     "da": "I hvert fald ikke i dag",
-    "en": "Not today, at least"
+    "en": "At least not today"
    }
   ],
   "related": [
@@ -6159,7 +6159,7 @@
   }
  },
  "i kraft af": {
-  "explanation": "\"I kraft af\" means \"by virtue of\", and gives the reason something is allowed or possible: the power or position that comes with something. For ordinary causes such as weather, use på grund af (because of) instead.",
+  "explanation": "\"I kraft af\" means \"by virtue of\" and names the power or position that makes something allowed or possible. For ordinary causes such as weather, use på grund af (because of) instead.",
   "forms": [
    {
     "da": "i kraft af sin stilling",
@@ -6233,7 +6233,7 @@
   }
  },
  "i mangel af": {
-  "explanation": "\"I mangel af\" means \"for lack of\", and it names the thing that was missing, so something else had to do. It often goes with bedre: i mangel af bedre (for lack of anything better).",
+  "explanation": "\"I mangel af\" means \"for lack of\". It names what was missing, so something else had to do instead. It often goes with bedre: i mangel af bedre (for lack of anything better).",
   "forms": [
    {
     "da": "i mangel af tid",
@@ -6467,7 +6467,7 @@
    },
    {
     "da": "Er der en butik i nærheden?",
-    "en": "Is there a shop nearby?"
+    "en": "Is there a store nearby?"
    }
   ],
   "related": [
@@ -6872,7 +6872,7 @@
   }
  },
  "i tilfælde af": {
-  "explanation": "\"I tilfælde af\" means \"in case of\" and is followed by what might happen. Before a full idea, add at (that): i tilfælde af at det regner (in case it rains).",
+  "explanation": "\"I tilfælde af\" means \"in case of\" and is followed by what might happen. To follow it with a whole sentence, add at (that): i tilfælde af at det regner (in case it rains).",
   "forms": [
    {
     "da": "i tilfælde af sygdom",
@@ -6989,7 +6989,7 @@
   "forms": [
    {
     "da": "i weekenden",
-    "en": "this weekend / at the weekend"
+    "en": "this weekend / on the weekend"
    },
    {
     "da": "Hvad skal du i weekenden?",
@@ -6997,7 +6997,7 @@
    },
    {
     "da": "Vi ses i weekenden.",
-    "en": "See you at the weekend."
+    "en": "See you this weekend."
    }
   ],
   "related": [
@@ -7020,7 +7020,7 @@
   }
  },
  "i år": {
-  "explanation": "\"I år\" means \"this year\": Det er varmt i år (It is warm this year). It is different from hvert år (every year): Vi rejser hvert år (We travel every year) repeats, while i år is only the current year.",
+  "explanation": "\"I år\" means \"this year\": Det er varmt i år (It is warm this year). Do not mix it up with hvert år (every year): Vi rejser hvert år (We travel every year) repeats, while i år is only the current year.",
   "forms": [
    {
     "da": "i år",
@@ -7158,8 +7158,8 @@
     "en": "suitable"
    },
    {
-    "da": "dårlig",
-    "en": "bad"
+    "da": "bedst",
+    "en": "best"
    }
   ],
   "sentence": {
@@ -7538,7 +7538,7 @@
   }
  },
  "ikke mere": {
-  "explanation": "\"Ikke mere\" means no more (you have had enough) or not anymore (something has stopped). Ikke mere, tak (No more, thank you) is a polite way to refuse more food or drink.",
+  "explanation": "\"Ikke mere\" means \"no more\" or \"not anymore\". Use it when you have had enough, or when something has stopped. Ikke mere, tak (No more, thank you) is a polite way to refuse more food or drink.",
   "forms": [
    {
     "da": "Ikke mere, tak.",
@@ -7607,8 +7607,8 @@
    }
   ],
   "sentence": {
-   "da": "Vi fryser og tænder en **ild**.",
-   "en": "We are freezing and light a fire."
+   "da": "Man må ikke lege med **ild**.",
+   "en": "You must not play with fire."
   }
  },
  "ilt": {
@@ -7698,7 +7698,7 @@
    },
    {
     "da": "Jeg venter imens",
-    "en": "I wait meanwhile"
+    "en": "I wait in the meantime"
    },
    {
     "da": "Imens ser vi tv",
@@ -7971,7 +7971,7 @@
   }
  },
  "ind": {
-  "explanation": "\"Ind\" means \"in\". Compare Kom ind! (Come in! — you are outside and move inside) with Han er inde (He is inside — he is already there). Ind i means \"into\": Hun løber ind i butikken (She runs into the shop).",
+  "explanation": "\"Ind\" means \"in\". Compare Kom ind! (Come in! You are outside and move inside) with Han er inde (He is inside, already there). Ind i means \"into\": Hun løber ind i butikken (She runs into the store).",
   "forms": [
    {
     "da": "Kom ind!",
@@ -8006,7 +8006,7 @@
   }
  },
  "indadvendt": {
-  "explanation": "\"Indadvendt\" means \"introverted\", someone who keeps to themselves and needs time alone. It is built from indad (inward) and vendt (turned), so it means \"turned inward\". The opposite is udadvendt (extroverted).",
+  "explanation": "\"Indadvendt\" means \"introverted\", someone who keeps to themselves and needs time alone. It is built from indad (inward) and vendt (turned), so it means \"turned inward\". The opposite is udadvendt (outgoing).",
   "forms": [
    {
     "da": "en indadvendt dreng",
@@ -8123,7 +8123,7 @@
   }
  },
  "inden": {
-  "explanation": "\"Inden\" means \"before\" and links an action to one that comes after it. Inden for means \"within\", for a time limit.",
+  "explanation": "\"Inden\" means \"before\" and links an action to one that comes after it. Do not mix up inden for (within a time) with indenfor (inside a place): Vi er indenfor (We are inside).",
   "forms": [
    {
     "da": "inden jeg går",
@@ -8148,8 +8148,8 @@
     "en": "after"
    },
    {
-    "da": "indenfor",
-    "en": "inside / within"
+    "da": "indtil",
+    "en": "until"
    }
   ],
   "sentence": {
@@ -8236,7 +8236,7 @@
   }
  },
  "indenlandsk": {
-  "explanation": "\"Indenlandsk\" means \"domestic\", something that stays within one country, such as flights, goods and sales. For flights, Danes also say indenrigsflyvning (domestic flight).",
+  "explanation": "\"Indenlandsk\" means \"domestic\", something that stays within one country, such as flights and goods. For flights, Danes also say en indenrigsflyvning (a domestic flight).",
   "forms": [
    {
     "da": "indenlandsk produktion",
@@ -8262,7 +8262,7 @@
    },
    {
     "da": "national",
-    "en": "national"
+    "en": "national, of the whole country"
    }
   ],
   "sentence": {
@@ -8332,7 +8332,7 @@
    },
    {
     "da": "at påvirke",
-    "en": "to sway"
+    "en": "to influence"
    },
    {
     "da": "ubetydelig",
@@ -8450,10 +8450,6 @@
    {
     "da": "en beholder",
     "en": "a container"
-   },
-   {
-    "da": "et emne",
-    "en": "a subject"
    }
   ],
   "sentence": {
@@ -8961,10 +8957,10 @@
   }
  },
  "inflation": {
-  "explanation": "\"En inflation\" means \"inflation\", a general rise in prices over time, so the same money buys less: Inflationen er på to procent (Inflation is at two percent).",
+  "explanation": "\"Inflation\" means \"inflation\", a general rise in prices over time, so the same money buys less: Inflationen er på to procent (Inflation is at two percent).",
   "forms": [
    {
-    "da": "en inflation",
+    "da": "inflation",
     "en": "inflation"
    },
    {
@@ -9039,7 +9035,7 @@
   }
  },
  "information": {
-  "explanation": "\"Information\" means \"information\", facts that tell you about something, such as a place, a time or a price. It is spelled like the English word, so you can recognize it in writing.",
+  "explanation": "\"Information\" means \"information\", facts that tell you about something, such as a place, a time or a price. Like most words ending in -ion, it uses en: en station (a station), en lektion (a lesson).",
   "forms": [
    {
     "da": "en information",
@@ -9156,7 +9152,7 @@
   }
  },
  "ingen": {
-  "explanation": "\"Ingen\" means \"no one\" or \"no\". Compare nogen (anyone): Er der nogen hjemme? (Is anyone home?) — Nej, der er ingen hjemme (No, no one is home). Do not add ikke (not) next to ingen; the word already means \"not any\".",
+  "explanation": "\"Ingen\" means \"no one\" or \"no\". Compare nogen (anyone): Er der nogen hjemme? (Is anyone home?) - Nej, der er ingen hjemme (No, no one is home). Do not add ikke (not) next to ingen; the word already means \"not any\".",
   "forms": [
    {
     "da": "Ingen er hjemme.",
@@ -9177,12 +9173,16 @@
     "en": "nothing"
    },
    {
+    "da": "intet",
+    "en": "nothing (et-word)"
+   },
+   {
     "da": "alle",
     "en": "everyone"
    },
    {
-    "da": "ingen af dem",
-    "en": "none of them"
+    "da": "nogle",
+    "en": "some"
    }
   ],
   "sentence": {
@@ -9217,7 +9217,7 @@
    },
    {
     "da": "ingen årsag",
-    "en": "no worries"
+    "en": "don't mention it"
    },
    {
     "da": "selv tak",
@@ -9308,7 +9308,7 @@
   "forms": [
    {
     "da": "inklusive moms",
-    "en": "including tax"
+    "en": "including VAT"
    },
    {
     "da": "inklusive drikkevarer",
@@ -9553,8 +9553,8 @@
     "en": "an interested audience"
    },
    {
-    "da": "interesserede elever",
-    "en": "interested students"
+    "da": "interesserede kunder",
+    "en": "interested customers"
    }
   ],
   "related": [
@@ -9581,7 +9581,7 @@
   }
  },
  "interesseret i": {
-  "explanation": "\"Interesseret i\" means \"interested in\". Before an action, use i at: interesseret i at lære (interested in learning).",
+  "explanation": "\"Interesseret i\" means \"interested in\". Before a verb, keep i and add at: interesseret i at lære (interested in learning).",
   "forms": [
    {
     "da": "Jeg er interesseret i musik.",
@@ -9768,7 +9768,7 @@
   }
  },
  "intetkøn": {
-  "explanation": "\"Et intetkøn\" means \"the et-gender\", the group of words that use et, like et hus (a house) and et barn (a child). The other group is en-words. It is built from intet (nothing) and køn (gender), so it literally means \"no gender\".",
+  "explanation": "\"Et intetkøn\" means \"the gender of et-words\", the group of words that use et, like et hus (a house) and et barn (a child). The other group is en-words. It is built from intet (nothing) and køn (gender), so it literally means \"no gender\".",
   "forms": [
    {
     "da": "et intetkøn",
@@ -9794,7 +9794,7 @@
    },
    {
     "da": "et navneord",
-    "en": "a naming word"
+    "en": "a noun"
    }
   ],
   "sentence": {
@@ -9832,8 +9832,8 @@
     "en": "committed"
    },
    {
-    "da": "uvedkommende",
-    "en": "unconcerned"
+    "da": "impliceret",
+    "en": "implicated"
    }
   ],
   "sentence": {
@@ -10067,12 +10067,12 @@
    }
   ],
   "sentence": {
-   "da": "**Is** smager godt en varm sommerdag.",
+   "da": "**Is** smager godt på en varm sommerdag.",
    "en": "Ice cream tastes good on a hot summer day."
   }
  },
  "ishockey": {
-  "explanation": "\"Ishockey\" means \"ice hockey\". It is built from is (ice) and hockey. Is also means ice cream: Jeg vil have en is (I want an ice cream).",
+  "explanation": "\"Ishockey\" means \"ice hockey\". It is built from is (ice) and hockey. The word is also means ice cream: Jeg vil have en is (I want an ice cream).",
   "forms": [
    {
     "da": "Jeg spiller ishockey.",
@@ -10163,7 +10163,7 @@
   ],
   "related": [
    {
-    "da": "en moske",
+    "da": "en moské",
     "en": "a mosque"
    },
    {
@@ -10263,7 +10263,7 @@
   }
  },
  "isolation": {
-  "explanation": "\"Isolation\" means \"isolation\", being kept apart from other people, for example a patient with a catching illness, or someone who feels cut off. For heat in walls, use isolering (insulation).",
+  "explanation": "\"Isolation\" means \"isolation\", being kept apart from other people, for example a patient with a catching illness, or someone who feels cut off. To keep heat in a house, the word is isolering (insulation).",
   "forms": [
    {
     "da": "isolation",
@@ -10336,7 +10336,7 @@
    },
    {
     "da": "en isolering",
-    "en": "an insulation"
+    "en": "insulation"
    }
   ],
   "sentence": {
@@ -10345,11 +10345,11 @@
   }
  },
  "isolering": {
-  "explanation": "\"En isolering\" means \"insulation\", the material or work that keeps heat inside a building. Do not mix it up with isolation (isolation), which is about people being kept apart.",
+  "explanation": "\"Isolering\" means \"insulation\", the material or work that keeps heat inside a building. Do not mix it up with isolation, the Danish word for people being kept apart.",
   "forms": [
    {
-    "da": "en isolering",
-    "en": "an insulation"
+    "da": "isolering",
+    "en": "insulation"
    },
    {
     "da": "isoleringen",
@@ -10388,19 +10388,19 @@
   "forms": [
    {
     "da": "et isslag",
-    "en": "a spell of freezing rain"
+    "en": "a freezing-rain event"
    },
    {
     "da": "isslaget",
-    "en": "the freezing rain"
+    "en": "the freezing-rain event"
    },
    {
     "da": "isslag",
-    "en": "freezing rain (plural)"
+    "en": "freezing-rain events"
    },
    {
     "da": "isslagene",
-    "en": "the freezing rains"
+    "en": "the freezing-rain events"
    }
   ],
   "related": [
