@@ -54,7 +54,17 @@ update — and any future App Store or desktop version — must keep it.
 
 **Before every release run** `python3 tests/upgrade_test.py` (compares
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
-(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder) and `node tests/srs_check.mjs` and `node tests/sync_check.mjs` (smart review, word order, sync); only ship when all print ALL PASSED.
+(edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder) and `python3 tests/addcard_test.py` (one-box Add a card) and `node tests/srs_check.mjs` and `node tests/sync_check.mjs` (smart review, word order, sync); only ship when all print ALL PASSED.
+
+## Add a card (one box)
+One box takes a word or sentence in either language (`src/views/AddCardView.jsx`, logic in
+`src/lib/addLookup.js`). "Look up" (only when tapped) is ONE AI call that returns both sides,
+topic, word type (grammar group), level and level-up forms; the result is shown editable
+before "Add card". Word vs sentence is never shown or asked (`cardTypeFor`: ends with . ? !
+or 4+ words after a leading en/et/at = sentence). Without AI: choose Danish or English, type the
+translation yourself, pick group / level / category by hand; such a card has no level-up forms.
+Things the learner chose by hand are never overwritten by Look up. Grammar lessons live behind
+a small "Add a grammar lesson instead" link. Notes stay ("+ Add a note"). Test: `tests/addcard_test.py`.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.

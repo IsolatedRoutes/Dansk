@@ -4,48 +4,39 @@ import { CategoryPicker } from "../components/CategoryPicker";
 import { Icon } from "../components/icons";
 import { renderInlineMarkdown } from "../components/markdown";
 import { CenteredOverlay, Field, Pill, SectionTitle, inputStyle, smallBtn } from "../components/ui";
-import { CATEGORY_RULE, GRAMMAR_GROUPS, LESSONS_ID, TYPE_COLOR, TYPE_LABEL, aiCategoryName, isLessonsCategory, topicNamesForAI } from "../data/categories";
+import { LOOKUP_SYSTEM, cardTypeFor, lookupUserText, readLookup } from "../lib/addLookup";
+import { formsField } from "../lib/ownFormsCore";
+import { GRAMMAR_GROUPS, LEVELS, LESSONS_ID, isLessonsCategory, topicNamesForAI } from "../data/categories";
 import { apiErrorMessage, callAI } from "../lib/ai/index";
 import { GRAMMAR_CARD_STYLE, knownWordsHint, PLAIN_ENGLISH_RULE } from "../lib/ai/prompts";
-import { cleanTranslation, parseJSONLoose } from "../lib/text";
+import { parseJSONLoose } from "../lib/text";
 
 // ---------- Add Card ----------
 
 export function AddCardView({ categories, addCategory, addCards, onOpenSettings }) {
-  const [type, setType] = useState("word");
+  // "card" = a word or sentence (one box, either language); "grammar" = a lesson.
+  const [mode, setMode] = useState("card");
+  const [text, setText] = useState("");
+  const [lang, setLang] = useState("auto"); // auto | da | en
+  const [other, setOther] = useState(""); // the translation, when typed by hand
+  const [showOther, setShowOther] = useState(false);
+  const [result, setResult] = useState(null); // what Look up returned (editable)
+  const [pos, setPos] = useState("");
+  const [level, setLevel] = useState(0);
+  const [category, setCategory] = useState("");
+  const [notes, setNotes] = useState("");
+  const [showNotes, setShowNotes] = useState(false);
+  const [looking, setLooking] = useState(false);
+  const [lookupError, setLookupError] = useState("");
+  const [submitError, setSubmitError] = useState("");
+  // Grammar lesson form
   const [front, setFront] = useState("");
   const [back, setBack] = useState("");
-  const [notes, setNotes] = useState("");
   const [examples, setExamples] = useState([{ da: "", en: "" }]);
-  const [category, setCategory] = useState("");
-  const [pos, setPos] = useState("");
   const [lookingUp, setLookingUp] = useState(false);
-  const [lookupError, setLookupError] = useState("");
-  const [autoFilling, setAutoFilling] = useState(false);
-  const [submitError, setSubmitError] = useState("");
   const [grammarPreview, setGrammarPreview] = useState(null);
-  const categoryTouched = useRef(false);
-
-  const copy = {
-    word: {
-      frontLabel: "Danish word",
-      frontPlaceholder: "e.g. hund",
-      backLabel: "English",
-      backPlaceholder: "e.g. dog",
-    },
-    sentence: {
-      frontLabel: "Danish sentence",
-      frontPlaceholder: "e.g. jeg kan godt lide kaffe",
-      backLabel: "English",
-      backPlaceholder: "e.g. I really like coffee",
-    },
-    grammar: {
-      frontLabel: "Grammar point name",
-      frontPlaceholder: "e.g. Conditional with hvis (if/then)",
-      backLabel: "Explanation",
-      backPlaceholder: "e.g. Use hvis + past tense, then ville + infinitive, to describe a hypothetical.",
-    },
-  }[type];
+  // What the learner chose themselves is never overwritten by Look up.
+  const touched = useRef({ pos: false, level: false, category: false });
 
   function updateExample(i, field, value) {
     setExamples(examples.map((ex, idx) => (idx === i ? { ...ex, [field]: value } : ex)));
@@ -55,52 +46,34 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setExamples([...examples, { da: "", en: "" }]);
   }
 
-  // Auto-fills the *other* language field, and the category, from
-  // whichever side the learner just finished typing — only when that
-  // other field is still empty, so it never overwrites something typed
-  // on purpose. Silent on failure: this is a convenience, not something
-  // that should block manual entry if the AI call doesn't work.
-  async function autoFill(direction, value) {
-    const trimmed = value.trim();
-    if (!trimmed || (type !== "word" && type !== "sentence")) return;
-    setAutoFilling(true);
-    try {
-      const categoryNames = topicNamesForAI(categories);
-      const reply = await callAI(
-        "You help fill in a Danish learner's flashcard. Given a single word or short phrase, give its natural translation and the single best-fitting category for it. Be precise about its actual part of speech so the translation fits — don't confuse a verb with an adverb, an adjective with an adverb, or a noun with an adjective. The translation must be ONLY in the target language — never repeat or include the original word/phrase alongside it. If it's a Danish noun, include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water). Never show an article on only one side.",
-        (direction === "da" ? "Danish" : "English") +
-          ' text: "' +
-          trimmed +
-          '"\n\nExisting categories to prefer if one genuinely fits: ' +
-          (categoryNames || "(none yet)") +
-          '.' + CATEGORY_RULE +
-          '\n\nRespond ONLY with JSON, no other text: {"translation": "...", "category": "..."}',
-        { maxTokens: 150 }
-      );
-      const parsed = parseJSONLoose(reply);
-      if (parsed.translation) {
-        const clean = cleanTranslation(parsed.translation);
-        if (direction === "da") setBack((prev) => (prev.trim() ? prev : clean));
-        else setFront((prev) => (prev.trim() ? prev : clean));
-      }
-      const suggested = aiCategoryName(parsed.category);
-      if (suggested && !categoryTouched.current) {
-        const existing = categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === suggested.toLowerCase());
-        if (existing) setCategory(existing.id);
-      }
-    } catch {
-      // Auto-fill failing just means the learner fills it in themselves.
-    } finally {
-      setAutoFilling(false);
-    }
+  function changeText(v) {
+    setText(v);
+    setResult(null); // a new text needs a new look-up
+    setLookupError("");
   }
 
-  // Explicit, tappable version of the same fill — the automatic
-  // on-leaving-the-field trigger is a nice bonus, but isn't discoverable
-  // on its own, so there needs to be a button that visibly does this.
-  function triggerAutoFill() {
-    if (front.trim() && !back.trim()) autoFill("da", front);
-    else if (back.trim() && !front.trim()) autoFill("en", back);
+  // One AI call, only when tapped: both sides, topic, word type, level and
+  // level-up forms. Nothing is added until "Add card".
+  async function lookup() {
+    if (!text.trim() || looking) return;
+    setLooking(true);
+    setLookupError("");
+    try {
+      const reply = await callAI(LOOKUP_SYSTEM, lookupUserText(text, lang, topicNamesForAI(categories)), { maxTokens: 500 });
+      const r = readLookup(parseJSONLoose(reply));
+      setResult(r);
+      setShowOther(false);
+      if (!touched.current.pos) setPos(r.wordType);
+      if (!touched.current.level) setLevel(r.level);
+      if (!touched.current.category && r.category) {
+        const existing = categories.find((c) => !isLessonsCategory(c) && c.name.toLowerCase() === r.category.toLowerCase());
+        if (existing) setCategory(existing.id);
+      }
+    } catch (e) {
+      setLookupError(apiErrorMessage(e));
+    } finally {
+      setLooking(false);
+    }
   }
 
   async function lookupGrammar() {
@@ -136,61 +109,104 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setGrammarPreview(null);
   }
 
-  function submit() {
-    if (!front.trim() || !back.trim()) {
-      setSubmitError("Fill in both fields before adding.");
-      return;
+  // The Danish side and English side of the card, from the look-up or typed by hand.
+  function sides() {
+    if (result) return { da: result.da.trim(), en: result.en.trim() };
+    if (showOther && text.trim() && other.trim()) {
+      if (lang === "en") return { da: other.trim(), en: text.trim() };
+      if (lang === "da") return { da: text.trim(), en: other.trim() };
+      return { error: "Choose Danish or English above, so the app knows which language you typed." };
     }
+    return { error: "Tap Look up, or type the translation yourself." };
+  }
+
+  const ready = mode === "grammar" ? !!(front.trim() && back.trim()) : !!result || !!(showOther && text.trim() && other.trim());
+
+  function resetCard() {
+    setText("");
+    setOther("");
+    setShowOther(false);
+    setResult(null);
+    setPos("");
+    setLevel(0);
+    setCategory("");
+    setNotes("");
+    setShowNotes(false);
+    setLookupError("");
     setSubmitError("");
-    let catId = type === "grammar" ? LESSONS_ID : category;
-    if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New category");
-    const cleanExamples = examples.filter((ex) => ex.da.trim() && ex.en.trim());
-    addCards([
-      {
-        type,
-        front: front.trim(),
-        back: back.trim(),
-        notes: notes.trim(),
-        category: catId,
-        ...(type === "word" && pos ? { pos } : {}),
-        ...(type === "grammar" && cleanExamples.length ? { examples: cleanExamples } : {}),
-      },
-    ]);
+    touched.current = { pos: false, level: false, category: false };
+  }
+
+  function resetGrammar() {
     setFront("");
     setBack("");
-    setNotes("");
     setExamples([{ da: "", en: "" }]);
+    setGrammarPreview(null);
     setLookupError("");
-    setPos("");
-    categoryTouched.current = false;
+    setSubmitError("");
+    setNotes("");
   }
 
   function clearForm() {
-    setFront("");
-    setBack("");
-    setNotes("");
-    setExamples([{ da: "", en: "" }]);
-    setLookupError("");
-    setSubmitError("");
-    setGrammarPreview(null);
-    setPos("");
-    categoryTouched.current = false;
+    resetCard();
+    resetGrammar();
   }
 
-  // Switching between Word/Sentence/Grammar changes what these fields
-  // actually mean (a Danish word vs. a full sentence vs. a grammar point
-  // name) — carrying over text typed under a different type is confusing
-  // rather than helpful, so this starts the new type with a clean form.
-  function changeType(t) {
-    setType(t);
-    clearForm();
+  function submit() {
+    if (mode === "grammar") {
+      if (!front.trim() || !back.trim()) {
+        setSubmitError("Fill in both fields before adding.");
+        return;
+      }
+      const cleanExamples = examples.filter((ex) => ex.da.trim() && ex.en.trim());
+      addCards([{ type: "grammar", front: front.trim(), back: back.trim(), notes: notes.trim(), category: LESSONS_ID, ...(cleanExamples.length ? { examples: cleanExamples } : {}) }]);
+      resetGrammar();
+      return;
+    }
+    const s = sides();
+    if (s.error) {
+      setSubmitError(s.error);
+      return;
+    }
+    setSubmitError("");
+    const type = cardTypeFor(s.da); // word or sentence, worked out here, never asked
+    let catId = category;
+    if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New category");
+    addCards([
+      {
+        type,
+        front: s.da,
+        back: s.en,
+        notes: notes.trim(),
+        category: catId,
+        ...(type === "word" && pos ? { pos } : {}),
+        ...(level ? { level } : {}),
+        // Level-up forms come with the look-up answer; a hand-typed card has none.
+        ...(result ? formsField(type, s.da, result.forms) : {}),
+      },
+    ]);
+    resetCard();
   }
+
+  const guessType = cardTypeFor(result ? result.da : lang === "en" ? other : text);
+  const typedLabel = lang === "da" ? "Danish" : lang === "en" ? "English" : "";
+  const otherLabel = lang === "da" ? "English translation" : lang === "en" ? "Danish translation" : "Translation";
+  const pillRow = (items, current, set) => (
+    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+      {items.map(([id, label]) => (
+        <Pill key={id} color="#4C6B65" active={current === id} onClick={() => set(id)}>
+          {label}
+        </Pill>
+      ))}
+    </div>
+  );
+  const linkBtn = { border: "none", background: "none", color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12.5, fontWeight: 600, cursor: "pointer", padding: 0 };
 
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-        <SectionTitle>Add a card</SectionTitle>
-        {(front || back || notes) && (
+        <SectionTitle>{mode === "grammar" ? "Add a grammar lesson" : "Add a card"}</SectionTitle>
+        {(text || other || front || back || notes) && (
           <button
             onClick={clearForm}
             style={{ display: "flex", alignItems: "center", gap: 4, border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, cursor: "pointer", padding: 4 }}
@@ -200,81 +216,178 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         )}
       </div>
       <div style={{ height: 14 }} />
-      <div style={{ display: "flex", gap: 6, marginBottom: 12 }}>
-        {["word", "sentence", "grammar"].map((t) => (
-          <Pill key={t} color={TYPE_COLOR[t]} active={type === t} onClick={() => changeType(t)}>
-            {TYPE_LABEL[t]}
-          </Pill>
-        ))}
-      </div>
 
-      <Field label={copy.backLabel}>
-        {type === "grammar" ? (
-          <textarea value={back} onChange={(e) => setBack(e.target.value)} style={{ ...inputStyle, minHeight: 70 }} placeholder={copy.backPlaceholder} />
-        ) : (
-          <input
-            value={back}
-            onChange={(e) => setBack(e.target.value)}
-            onBlur={(e) => autoFill("en", e.target.value)}
-            autoCapitalize={type === "word" ? "none" : "sentences"}
-            style={inputStyle}
-            placeholder={copy.backPlaceholder}
-          />
-        )}
-      </Field>
-      {(type === "word" || type === "sentence") && (
-        <div style={{ display: "flex", justifyContent: "center", margin: "14px 0" }}>
-          <button
-            onClick={triggerAutoFill}
-            disabled={autoFilling || !((front.trim() && !back.trim()) || (back.trim() && !front.trim()))}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 6,
-              border: "1px solid " + ((front.trim() && !back.trim()) || (back.trim() && !front.trim()) ? "var(--fjord)" : "#D8D4CB"),
-              background: (front.trim() && !back.trim()) || (back.trim() && !front.trim()) ? "#EEF2F0" : "transparent",
-              borderRadius: 999,
-              padding: "7px 16px",
-              color: (front.trim() && !back.trim()) || (back.trim() && !front.trim()) ? "var(--fjord)" : "#B8B3A5",
-              fontFamily: "var(--sans)",
-              fontSize: 13,
-              fontWeight: 700,
-              cursor: (front.trim() && !back.trim()) || (back.trim() && !front.trim()) ? "pointer" : "default",
-            }}
-          >
-            {autoFilling ? <Icon.Loader2 size={13} className="spin" /> : <Icon.Wand2 size={13} />}
-            {autoFilling ? "Filling in…" : "Fill in translation"}
-          </button>
-        </div>
-      )}
-
-      {type === "grammar" && (
-        <div style={{ margin: "14px 0" }}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+      {mode === "card" ? (
+        <>
+          <Field label="A word or sentence, in Danish or English">
+            <textarea
+              value={text}
+              onChange={(e) => changeText(e.target.value)}
+              autoCapitalize="none"
+              style={{ ...inputStyle, minHeight: 56 }}
+              placeholder="e.g. hund, or: I really like coffee"
+            />
+          </Field>
+          <div style={{ marginBottom: 12 }}>
+            {pillRow([["auto", "Detect"], ["da", "Danish"], ["en", "English"]], lang, (v) => { setLang(v); setResult(null); })}
+          </div>
+          <div style={{ display: "flex", justifyContent: "center", margin: "6px 0 4px" }}>
             <button
-              onClick={lookupGrammar}
-              disabled={!front.trim() || lookingUp}
+              onClick={lookup}
+              disabled={!text.trim() || looking}
               style={{
                 display: "flex",
                 alignItems: "center",
                 gap: 6,
-                border: "1px solid " + (front.trim() ? "var(--fjord)" : "#D8D4CB"),
-                background: front.trim() ? "#EEF2F0" : "transparent",
+                border: "1px solid " + (text.trim() ? "var(--fjord)" : "#D8D4CB"),
+                background: text.trim() ? "#EEF2F0" : "transparent",
                 borderRadius: 999,
                 padding: "7px 16px",
-                color: front.trim() ? "var(--fjord)" : "#B8B3A5",
+                color: text.trim() ? "var(--fjord)" : "#B8B3A5",
                 fontFamily: "var(--sans)",
                 fontSize: 13,
                 fontWeight: 700,
-                cursor: front.trim() ? "pointer" : "default",
+                cursor: text.trim() ? "pointer" : "default",
               }}
             >
-              {lookingUp ? <Icon.Loader2 size={13} className="spin" /> : <Icon.Wand2 size={13} />}
-              {lookingUp ? "Asking…" : "Ask AI to explain this"}
+              {looking ? <Icon.Loader2 size={13} className="spin" /> : <Icon.Wand2 size={13} />}
+              {looking ? "Looking up…" : "Look up"}
             </button>
           </div>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
-        </div>
+          {!result && !showOther && (
+            <div style={{ textAlign: "center", margin: "8px 0 12px" }}>
+              <button onClick={() => setShowOther(true)} style={linkBtn}>
+                or type the translation myself (no AI)
+              </button>
+            </div>
+          )}
+          {!result && showOther && (
+            <Field label={otherLabel + (typedLabel ? "" : " (choose Danish or English above first)")}>
+              <input value={other} onChange={(e) => setOther(e.target.value)} autoCapitalize="none" style={inputStyle} placeholder={lang === "en" ? "the Danish" : "the English"} />
+            </Field>
+          )}
+          {result && (
+            <div style={{ border: "1px solid var(--line)", borderRadius: 10, padding: "10px 12px", margin: "8px 0 14px", background: "#FBFAF7" }}>
+              <Field label="Danish">
+                <input value={result.da} onChange={(e) => setResult({ ...result, da: e.target.value })} style={inputStyle} />
+              </Field>
+              <Field label="English">
+                <input value={result.en} onChange={(e) => setResult({ ...result, en: e.target.value })} style={inputStyle} />
+              </Field>
+              <div style={{ fontFamily: "var(--sans)", fontSize: 11.5, color: "var(--muted)" }}>Looks wrong? Fix it here before adding.</div>
+            </div>
+          )}
+
+          {guessType === "word" && (
+            <Field label="Grammar group (optional)">
+              <select
+                value={pos}
+                onChange={(e) => {
+                  touched.current.pos = true;
+                  setPos(e.target.value);
+                }}
+                style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
+              >
+                <option value="">{result ? "None / detect from the word" : "Detect from the word"}</option>
+                {GRAMMAR_GROUPS.map((g) => (
+                  <option key={g.id} value={g.cls}>
+                    {g.name}
+                  </option>
+                ))}
+              </select>
+            </Field>
+          )}
+          <Field label="Level (optional)">
+            <select
+              value={level}
+              onChange={(e) => {
+                touched.current.level = true;
+                setLevel(Number(e.target.value));
+              }}
+              style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}
+            >
+              <option value={0}>Not set</option>
+              {LEVELS.map((l) => (
+                <option key={l.id} value={l.id}>
+                  {l.name} ({l.cefr})
+                </option>
+              ))}
+            </select>
+          </Field>
+          <Field label="Category (optional)">
+            <CategoryPicker
+              categories={categories}
+              value={category}
+              onChange={(v) => {
+                touched.current.category = true;
+                setCategory(v);
+              }}
+              allowNew
+              onAddCategory={addCategory}
+            />
+          </Field>
+          {showNotes ? (
+            <Field label="Notes (optional)">
+              <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
+            </Field>
+          ) : (
+            <div style={{ margin: "0 0 12px" }}>
+              <button onClick={() => setShowNotes(true)} style={linkBtn}>
+                + Add a note
+              </button>
+            </div>
+          )}
+        </>
+      ) : (
+        <>
+          <Field label="Grammar point name">
+            <input value={front} onChange={(e) => setFront(e.target.value)} style={inputStyle} placeholder="e.g. Conditional with hvis (if/then)" />
+          </Field>
+          <div style={{ margin: "14px 0" }}>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <button
+                onClick={lookupGrammar}
+                disabled={!front.trim() || lookingUp}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 6,
+                  border: "1px solid " + (front.trim() ? "var(--fjord)" : "#D8D4CB"),
+                  background: front.trim() ? "#EEF2F0" : "transparent",
+                  borderRadius: 999,
+                  padding: "7px 16px",
+                  color: front.trim() ? "var(--fjord)" : "#B8B3A5",
+                  fontFamily: "var(--sans)",
+                  fontSize: 13,
+                  fontWeight: 700,
+                  cursor: front.trim() ? "pointer" : "default",
+                }}
+              >
+                {lookingUp ? <Icon.Loader2 size={13} className="spin" /> : <Icon.Wand2 size={13} />}
+                {lookingUp ? "Asking…" : "Ask AI to explain this"}
+              </button>
+            </div>
+            <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
+          </div>
+          <Field label="Explanation">
+            <textarea value={back} onChange={(e) => setBack(e.target.value)} style={{ ...inputStyle, minHeight: 70 }} placeholder="e.g. Use hvis + past tense, then ville + infinitive, to describe a hypothetical." />
+          </Field>
+          <Field label="Example sentences (optional)">
+            {examples.map((ex, i) => (
+              <div key={i} style={{ display: "flex", gap: 6, marginBottom: 6 }}>
+                <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" style={{ ...inputStyle, flex: 1 }} />
+                <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" style={{ ...inputStyle, flex: 1 }} />
+              </div>
+            ))}
+            <button onClick={addExampleRow} style={linkBtn}>
+              + Add another example
+            </button>
+          </Field>
+          <Field label="Notes (optional)">
+            <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
+          </Field>
+        </>
       )}
 
       {grammarPreview && (
@@ -301,78 +414,22 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         </CenteredOverlay>
       )}
 
-      <Field label={copy.frontLabel}>
-        <input
-          value={front}
-          onChange={(e) => setFront(e.target.value)}
-          onBlur={(e) => autoFill("da", e.target.value)}
-          autoCapitalize={type === "word" ? "none" : "sentences"}
-          style={inputStyle}
-          placeholder={copy.frontPlaceholder}
-        />
-      </Field>
-
-      {type === "grammar" && (
-        <Field label="Example sentences (optional)">
-          {examples.map((ex, i) => (
-            <div key={i} style={{ display: "flex", gap: 6, marginBottom: 6 }}>
-              <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" style={{ ...inputStyle, flex: 1 }} />
-              <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" style={{ ...inputStyle, flex: 1 }} />
-            </div>
-          ))}
-          <button
-            onClick={addExampleRow}
-            style={{ border: "none", background: "none", color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12.5, fontWeight: 600, cursor: "pointer", padding: 0 }}
-          >
-            + Add another example
-          </button>
-        </Field>
-      )}
-
-      <Field label="Notes (optional)">
-        <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 60 }} placeholder="Anything worth remembering about this" />
-      </Field>
-      {type === "word" && (
-        <Field label="Grammar group (optional)">
-          <select value={pos} onChange={(e) => setPos(e.target.value)} style={{ ...inputStyle, appearance: "auto", color: "var(--ink)" }}>
-            <option value="">Detect automatically</option>
-            {GRAMMAR_GROUPS.map((g) => (
-              <option key={g.id} value={g.cls}>
-                {g.name}
-              </option>
-            ))}
-          </select>
-        </Field>
-      )}
-      {type !== "grammar" && (
-        <Field label="Category (optional)">
-          <CategoryPicker
-            categories={categories}
-            value={category}
-            onChange={(v) => {
-              categoryTouched.current = true;
-              setCategory(v);
-            }}
-            allowNew
-            onAddCategory={addCategory}
-          />
-        </Field>
-      )}
-
       {submitError && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, marginBottom: 8 }}>{submitError}</div>}
-      <button
-        onClick={submit}
-        style={{
-          ...smallBtn("var(--rust)"),
-          width: "100%",
-          padding: "11px",
-          fontSize: 14,
-          marginTop: 4,
-          opacity: front.trim() && back.trim() ? 1 : 0.5,
-        }}
-      >
-        Add card
+      <button onClick={submit} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "11px", fontSize: 14, marginTop: 4, opacity: ready ? 1 : 0.5 }}>
+        {mode === "grammar" ? "Add lesson" : "Add card"}
       </button>
+      <div style={{ textAlign: "center", marginTop: 14 }}>
+        <button
+          onClick={() => {
+            setMode(mode === "grammar" ? "card" : "grammar");
+            setLookupError("");
+            setSubmitError("");
+          }}
+          style={linkBtn}
+        >
+          {mode === "grammar" ? "Back to adding a word or sentence" : "Add a grammar lesson instead"}
+        </button>
+      </div>
     </div>
   );
 }

@@ -41,6 +41,7 @@ export function apiErrorMessage(e) {
   if (msg === "NO_ENGINE_CHOSEN") return "Choose an AI option in AI settings first.";
   if (msg === "MISSING_OLLAMA_CONFIG") return "Set up your Ollama address and model name in AI settings to use this.";
   if (msg === "TRANSLATION_DIDNT_HAPPEN") return "Didn't get an actual translation back — try again.";
+  if (msg === "LOOKUP_INCOMPLETE") return "Couldn't read an answer for that — try again, or type the translation yourself.";
   if (msg === "OLLAMA_UNREACHABLE")
     return "Couldn't reach Ollama — make sure it's running on this computer, and that you started it with OLLAMA_ORIGINS=* so this page is allowed to connect.";
   if (msg && msg.indexOf("OLLAMA_ERROR") === 0) return "Ollama returned an error (" + msg.replace("OLLAMA_ERROR: ", "") + "). Check the model name is exactly right and try again.";
