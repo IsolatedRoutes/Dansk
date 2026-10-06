@@ -273,7 +273,7 @@
   }
  },
  "et navn": {
-  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes say Hvad hedder du?, literally What are you called?, or Hvad er dit navn? (What is your name?).",
+  "explanation": "\"Et navn\" means \"a name\". To ask someone's name, Danes say Hvad hedder du? (literally, What are you called?) or Hvad er dit navn? (What is your name?).",
   "forms": [
    {
     "da": "et navn",
@@ -316,7 +316,7 @@
   }
  },
  "et nummer": {
-  "explanation": "\"Et nummer\" means \"a number\" used as a label, such as a phone number or a house number. For counting or amounts use et tal (a number, a figure) instead. Hvad er dit telefonnummer? means \"What is your phone number?\".",
+  "explanation": "\"Et nummer\" means \"a number\" used as a label, such as a phone number or a house number. For counting or amounts, use et tal (a number, a figure) instead. Hvad er dit telefonnummer? means \"What is your phone number?\".",
   "forms": [
    {
     "da": "et nummer",
@@ -694,11 +694,11 @@
   ],
   "sentence": {
    "da": "Der er ikke **nogen** hjemme.",
-   "en": "There is nobody home."
+   "en": "Nobody is home."
   }
  },
  "noget": {
-  "explanation": "\"Noget\" means \"something\" or \"anything\". Compare Jeg ser noget (I see something) with Jeg ser nogen (I see someone): noget is for things, nogen is for people. With things you cannot count it means \"some\": noget mælk (some milk).",
+  "explanation": "\"Noget\" means \"something\" or \"anything\". Compare Jeg ser noget (I see something) with Jeg ser nogen (I see someone): noget is for things, nogen is for people. With things you cannot count, it means \"some\": noget mælk (some milk).",
   "forms": [
    {
     "da": "Vil du have noget at spise?",
@@ -768,7 +768,7 @@
   }
  },
  "nogle gange": {
-  "explanation": "\"Nogle gange\" means \"sometimes\", or word for word some times. Compare Jeg spiser altid morgenmad (I always eat breakfast), Jeg spiser nogle gange morgenmad (I sometimes eat breakfast) and Jeg spiser aldrig morgenmad (I never eat breakfast).",
+  "explanation": "\"Nogle gange\" means \"sometimes\", or, word for word, some times. Compare Jeg spiser altid morgenmad (I always eat breakfast), Jeg spiser nogle gange morgenmad (I sometimes eat breakfast) and Jeg spiser aldrig morgenmad (I never eat breakfast).",
   "forms": [
    {
     "da": "nogle gange",
@@ -807,7 +807,7 @@
   }
  },
  "nok": {
-  "explanation": "\"Nok\" means \"enough\" and also \"probably\". Compare Jeg har nok mad (I have enough food) with Han kommer nok (He will probably come). The first is about how much, the second is a guess. Alone, Det er nok! (That is enough!) tells someone to stop.",
+  "explanation": "\"Nok\" means \"enough\" and also \"probably\". Compare Jeg har nok mad (I have enough food) with Han kommer nok (He will probably come). The first is about how much; the second is a guess. Alone, Det er nok! (That is enough!) tells someone to stop.",
   "forms": [
    {
     "da": "Det er nok.",
@@ -1025,7 +1025,7 @@
   ],
   "sentence": {
    "da": "Det er mørkt og gråt i **november**.",
-   "en": "It is dark and grey in November."
+   "en": "It is dark and gray in November."
   }
  },
  "nu": {
@@ -1282,7 +1282,7 @@
   }
  },
  "når": {
-  "explanation": "\"Når\" means \"when\" for things that happen every time or have not happened yet. Compare Når det regner, bliver jeg hjemme (Whenever it rains, I stay home) with Da jeg kom hjem, var det mørkt (When I came home, it was dark), which was one time in the past and uses da. In a question use hvornår: Hvornår kommer du? (When are you coming?).",
+  "explanation": "\"Når\" means \"when\" for things that happen every time or have not happened yet. Compare Når det regner, bliver jeg hjemme (Whenever it rains, I stay home) with Da jeg kom hjem, var det mørkt (When I came home, it was dark). That was one time in the past, so it uses da. In a question, use hvornår: Hvornår kommer du? (When are you coming?).",
   "forms": [
    {
     "da": "når jeg kommer hjem",

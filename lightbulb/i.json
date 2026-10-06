@@ -35,7 +35,7 @@
   ],
   "sentence": {
    "da": "**I** er mine venner.",
-   "en": "You (all) are my friends."
+   "en": "You are all my friends."
   }
  },
  "at invitere": {
@@ -312,7 +312,7 @@
   }
  },
  "i aften": {
-  "explanation": "\"I aften\" means \"this evening\": Vi ses i aften (See you this evening). Compare Jeg ser en film i aften (I am watching a film this evening) with Jeg så en film i aftes (I watched a film last night): i aften is still to come, i aftes is over.",
+  "explanation": "\"I aften\" means \"this evening\": Vi ses i aften (See you this evening). Compare Jeg ser en film i aften (I am watching a movie this evening) with Jeg så en film i aftes (I watched a movie last night): i aften is still to come, and i aftes is over.",
   "forms": [
    {
     "da": "i aften",
@@ -347,7 +347,7 @@
   }
  },
  "i aftes": {
-  "explanation": "\"I aftes\" means \"last night\", meaning the evening just gone. Compare Jeg så en film i aftes (I watched a film last night) with Jeg ser en film i aften (I am watching a film this evening). For the hours when you were asleep, say i nat: Jeg sov dårligt i nat (I slept badly last night).",
+  "explanation": "\"I aftes\" means \"last night\", meaning the evening that just ended. Compare Jeg så en film i aftes (I watched a movie last night) with Jeg ser en film i aften (I am watching a movie this evening). For the hours when you were asleep, say i nat: Jeg sov dårligt i nat (I slept badly last night).",
   "forms": [
    {
     "da": "i aftes",
@@ -670,7 +670,7 @@
   }
  },
  "i orden": {
-  "explanation": "\"I orden\" means \"all right\" or \"in order\". Det er i orden (That is all right) can answer an apology, like no problem. Er alt i orden? (Is everything all right?) checks that nothing is wrong.",
+  "explanation": "\"I orden\" means \"all right\" or \"in order\". Det er i orden (That is all right) can answer an apology, like saying no problem. Er alt i orden? (Is everything all right?) checks that nothing is wrong.",
   "forms": [
    {
     "da": "Det er i orden.",
@@ -814,7 +814,7 @@
   }
  },
  "i udlandet": {
-  "explanation": "\"I udlandet\" means \"abroad\", in another country: Jeg bor i udlandet (I live abroad). To go there say til udlandet: Jeg rejser til udlandet (I am travelling abroad). To come from there say fra udlandet: Hun kommer fra udlandet (She comes from abroad).",
+  "explanation": "\"I udlandet\" means \"abroad\", in another country: Jeg bor i udlandet (I live abroad). To go there, say til udlandet: Jeg rejser til udlandet (I am traveling abroad). To come from there, say fra udlandet: Hun kommer fra udlandet (She comes from abroad).",
   "forms": [
    {
     "da": "Jeg bor i udlandet.",
@@ -849,7 +849,7 @@
   }
  },
  "i weekenden": {
-  "explanation": "\"I weekenden\" means \"this weekend\" or \"at the weekend\". It can look ahead: Vi ses i weekenden (See you this weekend). It can look back: Jeg var i Aarhus i weekenden (I was in Aarhus last weekend). It also covers every weekend: Jeg sover længe i weekenden (I sleep late at the weekend).",
+  "explanation": "\"I weekenden\" means \"this weekend\" or \"on the weekend\". It can look ahead: Vi ses i weekenden (See you this weekend). It can look back: Jeg var i Aarhus i weekenden (I was in Aarhus last weekend). It also covers every weekend: Jeg sover længe i weekenden (I sleep late on weekends).",
   "forms": [
    {
     "da": "i weekenden",
@@ -1491,7 +1491,7 @@
   }
  },
  "ingen årsag": {
-  "explanation": "\"Ingen årsag\" means \"don't mention it\" and is a reply to thanks. It literally says no reason.",
+  "explanation": "\"Ingen årsag\" means \"don't mention it\" and is a reply to thanks. Literally, it says no reason.",
   "forms": [
    {
     "da": "Ingen årsag!",
@@ -1756,7 +1756,7 @@
   }
  },
  "italien": {
-  "explanation": "\"Italien\" means \"Italy\". The word for Italian is italiensk, as in italiensk mad (Italian food). Vi skal på ferie i Italien (We are going on holiday in Italy).",
+  "explanation": "\"Italien\" means \"Italy\". The word for Italian is italiensk, as in italiensk mad (Italian food). Vi skal på ferie i Italien (We are going on vacation in Italy).",
   "forms": [
    {
     "da": "Italien",

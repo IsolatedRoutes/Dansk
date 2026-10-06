@@ -98,6 +98,7 @@ same quality as the live answer; do not shorten. Covered so far: all Basic words
 ### Lightbulb answer quality bar (owner's rules; the model card is "hvad")
 Gold standard: `lightbulb/h.json` → "hvad". Every example makes sense and adds
 something; nothing is repeated; right length. New and live-AI answers must match it:
+- Correct, clear English: comma after an opening phrase ("For the sport, you leave out en"), none inside a clause ("To say what you are, use…"); American spelling; one idea per sentence.
 - Opens `"X" means "meaning".` (en/et kept: `"En dukke" means "a doll"`).
 - Every other Danish word/phrase has its English right beside it.
 - Quotation marks only around the opening word and the English meanings after "means"; other Danish examples are unquoted with the English in (brackets) beside them. Too many quotes made cards busy.

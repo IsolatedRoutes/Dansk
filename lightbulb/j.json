@@ -448,11 +448,11 @@
   ],
   "sentence": {
    "da": "Undskyld, **jeg er ked af det**.",
-   "en": "Sorry, I am sorry about it."
+   "en": "Sorry, I feel bad about it."
   }
  },
  "jeg forstår ikke": {
-  "explanation": "\"Jeg forstår ikke\" means \"I don't understand\". Forstår means \"understand\" and \"ikke\" means \"not\". To say I don't understand it, put det (it) before ikke: Jeg forstår det ikke. To ask for help, add kan du gentage det? (can you repeat that?).",
+  "explanation": "\"Jeg forstår ikke\" means \"I don't understand\". Forstår means \"understand\" and ikke means \"not\". To say I don't understand it, put det (it) before ikke: Jeg forstår det ikke. To ask for help, add kan du gentage det? (can you repeat that?).",
   "forms": [
    {
     "da": "Jeg forstår ikke.",
@@ -596,7 +596,7 @@
   ],
   "sentence": {
    "da": "**Jeg hedder** Anna, og du?",
-   "en": "My name is Anna, and you?"
+   "en": "My name is Anna. And you?"
   }
  },
  "jeg kommer fra…": {
@@ -635,7 +635,7 @@
   }
  },
  "jeg vil gerne have": {
-  "explanation": "\"Jeg vil gerne have\" means \"I would like\" and is the polite way to order or ask for something. Put the thing you want after have. Gerne (gladly) makes it sound friendly; jeg vil have without it is blunt, like I want.",
+  "explanation": "\"Jeg vil gerne have\" means \"I would like\" and is the polite way to order or ask for something. Put the thing you want after have. Gerne (gladly) makes it sound friendly. Jeg vil have, without gerne, is blunt, like saying I want.",
   "forms": [
    {
     "da": "Jeg vil gerne have en kaffe.",
@@ -744,11 +744,11 @@
   ],
   "sentence": {
    "da": "Mor og far, er det **jeres** bil?",
-   "en": "Mum and Dad, is that your car?"
+   "en": "Mom and Dad, is that your car?"
   }
  },
  "jo": {
-  "explanation": "\"Jo\" has two uses. It means \"yes\" when you answer a question that has ikke (not) in it: Kommer du ikke? (Aren't you coming?) Jo! (Yes, I am!). Inside a sentence it adds a feeling of you know or \"of course\", as in det er jo rigtigt (it is, you know, right). For ordinary yes answers use ja (yes).",
+  "explanation": "\"Jo\" has two uses. It means \"yes\" when you answer a question that has ikke (not) in it: Kommer du ikke? (Aren't you coming?) Jo! (Yes, I am!). Inside a sentence, it adds a feeling like \"you know\" or \"of course\", as in det er jo rigtigt (it is, you know, right). For ordinary yes answers, use ja (yes).",
   "forms": [
    {
     "da": "Jo, det gør jeg.",
@@ -783,7 +783,7 @@
   }
  },
  "jord": {
-  "explanation": "\"Jord\" means \"earth\" or \"soil\": the soil that plants grow in, and also the ground you stand on. With a capital letter, Jorden is the planet Earth. For the floor inside a house Danes say gulv (floor), not jord.",
+  "explanation": "\"Jord\" means \"earth\" or \"soil\": the soil that plants grow in, and also the ground you stand on. With a capital letter, Jorden is the planet Earth. For the floor inside a house, Danes say gulv (floor), not jord.",
   "forms": [
    {
     "da": "jord",
