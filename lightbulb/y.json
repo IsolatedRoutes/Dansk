@@ -1,4 +1,90 @@
 {
+ "at yde": {
+  "explanation": "\"At yde\" means \"to provide\" or \"to perform\", for help, support or effort that you offer: yde støtte (provide support), yde en indsats (make an effort).",
+  "forms": [
+   {
+    "da": "at yde",
+    "en": "to provide / perform"
+   },
+   {
+    "da": "jeg yder",
+    "en": "I provide / perform"
+   },
+   {
+    "da": "jeg ydede",
+    "en": "I provided / performed"
+   },
+   {
+    "da": "jeg har ydet",
+    "en": "I have provided / performed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "at levere",
+    "en": "to deliver"
+   },
+   {
+    "da": "at præstere",
+    "en": "to perform well"
+   },
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen skal **yde** hjælp til familier i nød.",
+   "en": "The municipality must provide help to families in need."
+  }
+ },
+ "at ytre": {
+  "explanation": "\"At ytre\" means \"to express\" or \"to utter\", to say an opinion or a wish out loud. A related word is ytringsfrihed (freedom of speech).",
+  "forms": [
+   {
+    "da": "at ytre",
+    "en": "to express / utter"
+   },
+   {
+    "da": "jeg ytrer",
+    "en": "I express / utter"
+   },
+   {
+    "da": "jeg ytrede",
+    "en": "I expressed / uttered"
+   },
+   {
+    "da": "jeg har ytret",
+    "en": "I have expressed / uttered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udtrykke",
+    "en": "to voice"
+   },
+   {
+    "da": "at fremsætte",
+    "en": "to put forward"
+   },
+   {
+    "da": "at yde",
+    "en": "to provide"
+   },
+   {
+    "da": "at tie",
+    "en": "to be silent"
+   }
+  ],
+  "sentence": {
+   "da": "Alle må gerne **ytre** deres mening i et frit land.",
+   "en": "Everyone may express their opinion in a free country."
+  }
+ },
  "en yderside": {
   "explanation": "\"En yderside\" means \"an outside\", the outer surface of something. The opposite is en inderside (an inside).",
   "forms": [
@@ -296,6 +382,115 @@
    "en": "She rolls out her yoga mat and does yoga."
   }
  },
+ "yderligere": {
+  "explanation": "\"Yderligere\" means \"further\" and \"additional\", on top of what is already there. It also works with an action, to say that something goes even further: Priserne steg yderligere (Prices rose even more).",
+  "forms": [
+   {
+    "da": "yderligere oplysninger",
+    "en": "further information"
+   },
+   {
+    "da": "yderligere to dage",
+    "en": "two additional days"
+   },
+   {
+    "da": "Har du yderligere spørgsmål?",
+    "en": "Do you have further questions?"
+   }
+  ],
+  "related": [
+   {
+    "da": "ekstra",
+    "en": "extra"
+   },
+   {
+    "da": "supplerende",
+    "en": "supplementary"
+   },
+   {
+    "da": "mere",
+    "en": "more"
+   }
+  ],
+  "sentence": {
+   "da": "Når du har **yderligere** spørgsmål, kan du ringe til os.",
+   "en": "When you have further questions, you can call us."
+  }
+ },
+ "yderst": {
+  "explanation": "\"Yderst\" means \"extremely\" and also \"outermost\", the part farthest out: yderst til venstre (on the far left).",
+  "forms": [
+   {
+    "da": "yderst sjælden",
+    "en": "extremely rare"
+   },
+   {
+    "da": "yderst høflig",
+    "en": "extremely polite"
+   },
+   {
+    "da": "yderst i køen",
+    "en": "at the very end of the line"
+   }
+  ],
+  "related": [
+   {
+    "da": "inderst",
+    "en": "innermost"
+   },
+   {
+    "da": "ydre",
+    "en": "outer"
+   },
+   {
+    "da": "særdeles",
+    "en": "highly"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **yderst** vigtigt, at du kommer til tiden.",
+   "en": "It is extremely important that you arrive on time."
+  }
+ },
+ "ydmyg": {
+  "explanation": "\"Ydmyg\" means \"humble\", not acting as if you are better than others, and ready to admit what you do not know. It can also describe simple things: en ydmyg bolig (a humble home).",
+  "forms": [
+   {
+    "da": "en ydmyg mand",
+    "en": "a humble man"
+   },
+   {
+    "da": "et ydmygt svar",
+    "en": "a humble answer"
+   },
+   {
+    "da": "ydmyge ord",
+    "en": "humble words"
+   }
+  ],
+  "related": [
+   {
+    "da": "beskeden",
+    "en": "modest"
+   },
+   {
+    "da": "en ydmyghed",
+    "en": "a humility"
+   },
+   {
+    "da": "indbildsk",
+    "en": "conceited"
+   },
+   {
+    "da": "stolt",
+    "en": "proud"
+   }
+  ],
+  "sentence": {
+   "da": "Vinderen var **ydmyg** og takkede alle, der havde hjulpet hende.",
+   "en": "The winner was humble and thanked everyone who had helped her."
+  }
+ },
  "ydre": {
   "explanation": "\"Ydre\" means \"outer\", for the part of something that is farthest out. It keeps the same form with every word.",
   "forms": [
@@ -333,6 +528,41 @@
   "sentence": {
    "da": "Husets **ydre** mure er hvide.",
    "en": "The outer walls of the house are white."
+  }
+ },
+ "ymer": {
+  "explanation": "\"Ymer\" means \"a Danish soured milk\", thick and sour and usually eaten at breakfast. It is traditionally topped with ymerdrys, a crunchy mix of dried rye bread crumbs and sugar.",
+  "forms": [
+   {
+    "da": "ymer",
+    "en": "ymer"
+   },
+   {
+    "da": "ymeren",
+    "en": "the ymer"
+   },
+   {
+    "da": "en skål ymer",
+    "en": "a bowl of ymer"
+   }
+  ],
+  "related": [
+   {
+    "da": "yoghurt",
+    "en": "yogurt"
+   },
+   {
+    "da": "kærnemælk",
+    "en": "buttermilk"
+   },
+   {
+    "da": "tykmælk",
+    "en": "thick sour milk"
+   }
+  ],
+  "sentence": {
+   "da": "**Ymer** er sur og tyk, og man spiser den med en ske.",
+   "en": "Ymer is sour and thick, and you eat it with a spoon."
   }
  },
  "yndlings-": {
@@ -444,6 +674,45 @@
    "en": "Anna is the youngest of my children."
   }
  },
+ "ynkelig": {
+  "explanation": "\"Ynkelig\" means \"pathetic\", so weak or poor that people feel pity or scorn. It describes a performance, a result or a sight, rather than a feeling inside you.",
+  "forms": [
+   {
+    "da": "en ynkelig undskyldning",
+    "en": "a pathetic excuse"
+   },
+   {
+    "da": "et ynkeligt syn",
+    "en": "a pathetic sight"
+   },
+   {
+    "da": "ynkelige forsøg",
+    "en": "pathetic attempts"
+   }
+  ],
+  "related": [
+   {
+    "da": "sølle",
+    "en": "measly"
+   },
+   {
+    "da": "elendig",
+    "en": "miserable"
+   },
+   {
+    "da": "ussel",
+    "en": "wretched"
+   },
+   {
+    "da": "sørgelig",
+    "en": "sad"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **ynkelig** præstation, og holdet tabte stort.",
+   "en": "It was a pathetic performance, and the team lost by a lot."
+  }
+ },
  "yoga": {
   "explanation": "\"Yoga\" means \"yoga\", exercise with slow movements and calm breathing. To say you do it, use at lave (to do), not \"play\".",
   "forms": [
@@ -516,6 +785,45 @@
   "sentence": {
    "da": "**Yoghurt** er lavet af mælk.",
    "en": "Yogurt is made of milk."
+  }
+ },
+ "ytringsfrihed": {
+  "explanation": "\"Ytringsfrihed\" means \"freedom of speech\", the right to share your opinion without being punished for it. It is built from en ytring (a statement) and frihed (freedom), and it covers writing and publishing too, not only speaking.",
+  "forms": [
+   {
+    "da": "ytringsfrihed",
+    "en": "freedom of speech"
+   },
+   {
+    "da": "ytringsfriheden",
+    "en": "the freedom of speech"
+   },
+   {
+    "da": "at forsvare ytringsfriheden",
+    "en": "to defend freedom of speech"
+   }
+  ],
+  "related": [
+   {
+    "da": "trykkefrihed",
+    "en": "freedom of the press"
+   },
+   {
+    "da": "religionsfrihed",
+    "en": "freedom of religion"
+   },
+   {
+    "da": "forsamlingsfrihed",
+    "en": "freedom of assembly"
+   },
+   {
+    "da": "censur",
+    "en": "censorship"
+   }
+  ],
+  "sentence": {
+   "da": "**Ytringsfrihed** betyder, at alle må sige deres mening.",
+   "en": "Freedom of speech means that everyone may say what they think."
   }
  }
 }

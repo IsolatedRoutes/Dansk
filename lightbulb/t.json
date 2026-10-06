@@ -413,6 +413,49 @@
    "en": "I have to make a decision before Friday."
   }
  },
+ "at tage en uddannelse": {
+  "explanation": "\"At tage en uddannelse\" means \"to get an education\", to complete a program that qualifies you for a job. Danes say tage (take) here: Hun tager en uddannelse som sygeplejerske (She is training to be a nurse). It covers university and trades alike.",
+  "forms": [
+   {
+    "da": "at tage en uddannelse",
+    "en": "to get an education"
+   },
+   {
+    "da": "jeg tager en uddannelse",
+    "en": "I get an education"
+   },
+   {
+    "da": "jeg tog en uddannelse",
+    "en": "I got an education"
+   },
+   {
+    "da": "jeg har taget en uddannelse",
+    "en": "I have gotten an education"
+   }
+  ],
+  "related": [
+   {
+    "da": "at studere",
+    "en": "to study"
+   },
+   {
+    "da": "en læreplads",
+    "en": "an apprenticeship"
+   },
+   {
+    "da": "at dimittere",
+    "en": "to graduate"
+   },
+   {
+    "da": "en eksamen",
+    "en": "an exam"
+   }
+  ],
+  "sentence": {
+   "da": "Efter gymnasiet vil han **tage en uddannelse** som elektriker.",
+   "en": "After high school, he wants to train as an electrician."
+  }
+ },
  "at tage et billede": {
   "explanation": "\"At tage et billede\" means \"to take a picture\". At tage et foto (to take a photo) means the same. To say what is in the picture, use af (of): tage et billede af maden (to take a picture of the food).",
   "forms": [
@@ -450,6 +493,49 @@
   "sentence": {
    "da": "Må jeg **tage et billede** af dig?",
    "en": "May I take a picture of you?"
+  }
+ },
+ "at tage fat": {
+  "explanation": "\"At tage fat\" means \"to grab hold\" and \"to get to work\". Add i for a physical grip: tage fat i rebet (grab hold of the rope). Add på for taking on a task: tage fat på arbejdet (get to work on it).",
+  "forms": [
+   {
+    "da": "at tage fat",
+    "en": "to get to work / grab hold"
+   },
+   {
+    "da": "jeg tager fat",
+    "en": "I get to work / grab hold"
+   },
+   {
+    "da": "jeg tog fat",
+    "en": "I got to work / grabbed hold"
+   },
+   {
+    "da": "jeg har taget fat",
+    "en": "I have gotten to work / grabbed hold"
+   }
+  ],
+  "related": [
+   {
+    "da": "at begynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at gå i gang",
+    "en": "to start"
+   },
+   {
+    "da": "at sætte i gang",
+    "en": "to set going"
+   },
+   {
+    "da": "at gribe",
+    "en": "to seize"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **tage fat** på renoveringen i morgen.",
+   "en": "We have to get started on the renovation tomorrow."
   }
  },
  "at tage fejl": {
@@ -995,6 +1081,49 @@
    "en": "He will take care of the dog on the weekend."
   }
  },
+ "at tage sig sammen": {
+  "explanation": "\"At tage sig sammen\" means \"to pull oneself together\", to steady yourself and make an effort, often after being lazy or upset. It is often said as an order: Nu må du tage dig sammen! (Now you must pull yourself together!)",
+  "forms": [
+   {
+    "da": "at tage sig sammen",
+    "en": "to pull oneself together"
+   },
+   {
+    "da": "jeg tager mig sammen",
+    "en": "I pull myself together"
+   },
+   {
+    "da": "jeg tog mig sammen",
+    "en": "I pulled myself together"
+   },
+   {
+    "da": "jeg har taget mig sammen",
+    "en": "I have pulled myself together"
+   }
+  ],
+  "related": [
+   {
+    "da": "at beherske sig",
+    "en": "to control oneself"
+   },
+   {
+    "da": "at samle sig",
+    "en": "to collect oneself"
+   },
+   {
+    "da": "at skærpe sig",
+    "en": "to buck up"
+   },
+   {
+    "da": "at give op",
+    "en": "to give up"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil gerne **tage sig sammen** og begynde at træne.",
+   "en": "She wants to pull herself together and start working out."
+  }
+ },
  "at tage sig tid": {
   "explanation": "\"At tage sig tid\" means \"to take one's time\", to do something without rushing. It is a kind thing to say to someone: Tag dig tid! (Take your time!). Add til at + verb for what you take time for: Han tager sig tid til at tænke (He takes his time to think).",
   "forms": [
@@ -1038,6 +1167,45 @@
    "en": "You can take your time when there is no rush."
   }
  },
+ "at tage skeen i den anden hånd": {
+  "explanation": "\"At tage skeen i den anden hånd\" means \"to change your approach\", to start doing things in a stricter and more careful way because the old way is not working. Literally it is \"to take the spoon in the other hand\". It is used about a person, a team or a company.",
+  "forms": [
+   {
+    "da": "Han tog skeen i den anden hånd",
+    "en": "He changed his approach"
+   },
+   {
+    "da": "Vi må tage skeen i den anden hånd",
+    "en": "We must change our approach"
+   },
+   {
+    "da": "Nu tager hun skeen i den anden hånd",
+    "en": "Now she is changing her approach"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ændre kurs",
+    "en": "to change course"
+   },
+   {
+    "da": "at tage sig sammen",
+    "en": "to pull yourself together"
+   },
+   {
+    "da": "at stramme op",
+    "en": "to tighten up"
+   },
+   {
+    "da": "at stramme sig an",
+    "en": "to pull your socks up"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bruger for mange penge og må **tage skeen i den anden hånd**.",
+   "en": "We spend too much money and must change our approach."
+  }
+ },
  "at tage skraldet ud": {
   "explanation": "\"At tage skraldet ud\" means \"to take out the trash\", carrying the household garbage outside. Ud (out) goes last, after skraldet (the trash): Jeg tager skraldet ud (I take the trash out).",
   "forms": [
@@ -1079,6 +1247,49 @@
   "sentence": {
    "da": "Kan du **tage skraldet ud**, når du går?",
    "en": "Can you take out the trash when you leave?"
+  }
+ },
+ "at tage stilling til": {
+  "explanation": "\"At tage stilling til\" means \"to take a position on\", to form a clear view about something that needs an answer. It is about making up your mind: Jeg har ikke taget stilling endnu (I have not made up my mind yet).",
+  "forms": [
+   {
+    "da": "at tage stilling til",
+    "en": "to take a position on"
+   },
+   {
+    "da": "jeg tager stilling til",
+    "en": "I take a position on"
+   },
+   {
+    "da": "jeg tog stilling til",
+    "en": "I took a position on"
+   },
+   {
+    "da": "jeg har taget stilling til",
+    "en": "I have taken a position on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at beslutte",
+    "en": "to decide"
+   },
+   {
+    "da": "at vælge",
+    "en": "to choose"
+   },
+   {
+    "da": "en holdning",
+    "en": "a stance"
+   },
+   {
+    "da": "at mene",
+    "en": "to think"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **tage stilling til** tilbuddet i dag.",
+   "en": "You have to take a position on the offer today."
   }
  },
  "at tage tid": {
@@ -1161,6 +1372,45 @@
   "sentence": {
    "da": "Jeg vil **tage toget** til København.",
    "en": "I want to take the train to Copenhagen."
+  }
+ },
+ "at tage tyren ved hornene": {
+  "explanation": "\"At tage tyren ved hornene\" means \"to take the bull by the horns\", to face a difficult problem directly instead of waiting. It is often said before a hard job: Nu tager jeg tyren ved hornene og ringer til banken (Now I will take the bull by the horns and call the bank).",
+  "forms": [
+   {
+    "da": "Hun tager tyren ved hornene",
+    "en": "She takes the bull by the horns"
+   },
+   {
+    "da": "Nu må vi tage tyren ved hornene",
+    "en": "Now we must take the bull by the horns"
+   },
+   {
+    "da": "Han tog tyren ved hornene",
+    "en": "He took the bull by the horns"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udskyde",
+    "en": "to postpone"
+   },
+   {
+    "da": "at undvige",
+    "en": "to dodge"
+   },
+   {
+    "da": "at gribe ind",
+    "en": "to step in"
+   },
+   {
+    "da": "at tage fat",
+    "en": "to get to work"
+   }
+  ],
+  "sentence": {
+   "da": "Hun besluttede at **tage tyren ved hornene** og tale med chefen.",
+   "en": "She decided to take the bull by the horns and talk to the boss."
   }
  },
  "at tage ud": {
@@ -1327,6 +1577,41 @@
    "en": "I would like to talk to you."
   }
  },
+ "at tale med store bogstaver": {
+  "explanation": "\"At tale med store bogstaver\" means \"to speak bluntly\". Literally it is to speak with big letters. You use it when you say something so plainly that nobody can misunderstand it.",
+  "forms": [
+   {
+    "da": "Nu taler vi med store bogstaver",
+    "en": "Now we are speaking bluntly"
+   },
+   {
+    "da": "Jeg må tale med store bogstaver",
+    "en": "I have to speak bluntly"
+   },
+   {
+    "da": "Hun talte med store bogstaver",
+    "en": "She spoke bluntly"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tale udenom",
+    "en": "to beat around the bush"
+   },
+   {
+    "da": "at sige det lige ud",
+    "en": "to say it straight out"
+   },
+   {
+    "da": "direkte",
+    "en": "direct"
+   }
+  ],
+  "sentence": {
+   "da": "Når han ikke forstår hints, må jeg **tale med store bogstaver**.",
+   "en": "When he does not get hints, I have to speak bluntly."
+  }
+ },
  "at tale om": {
   "explanation": "\"At tale om\" means \"to talk about\" a topic: Vi taler om fodbold (We talk about soccer). In a question, om stays at the end: Hvad taler I om? (What are you talking about?)",
   "forms": [
@@ -1448,6 +1733,88 @@
    "en": "I will always tell the truth, even when it is hard."
   }
  },
+ "at tale ud": {
+  "explanation": "\"At tale ud\" means \"to talk things through\", to say everything that bothers you until the matter is settled. Ud adds the idea of finishing completely: Lad mig tale ud! (Let me finish speaking!)",
+  "forms": [
+   {
+    "da": "at tale ud",
+    "en": "to talk things through"
+   },
+   {
+    "da": "jeg taler ud",
+    "en": "I talk things through"
+   },
+   {
+    "da": "jeg talte ud",
+    "en": "I talked things through"
+   },
+   {
+    "da": "jeg har talt ud",
+    "en": "I have talked things through"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tale udenom",
+    "en": "to beat around the bush"
+   },
+   {
+    "da": "at snakke",
+    "en": "to chat"
+   },
+   {
+    "da": "at forsone sig",
+    "en": "to make up"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   }
+  ],
+  "sentence": {
+   "da": "Efter skænderiet ville parret **tale ud** og blive gode venner igen.",
+   "en": "After the argument, the couple wanted to talk it through and be good friends again."
+  }
+ },
+ "at tale udenom": {
+  "explanation": "\"At tale udenom\" means \"to beat around the bush\", to avoid the real point. Udenom means around the outside, so the picture is circling the topic and never reaching it: Tal ikke udenom! (Do not beat around the bush!) Do not mix it up with tale ud (to talk things through).",
+  "forms": [
+   {
+    "da": "Du taler udenom",
+    "en": "You are beating around the bush"
+   },
+   {
+    "da": "Hold op med at tale udenom",
+    "en": "Stop beating around the bush"
+   },
+   {
+    "da": "Han talte udenom hele tiden",
+    "en": "He beat around the bush the whole time"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undvige",
+    "en": "to dodge"
+   },
+   {
+    "da": "at komme til sagen",
+    "en": "to get to the point"
+   },
+   {
+    "da": "at sige det lige ud",
+    "en": "to say it straight out"
+   },
+   {
+    "da": "at pakke ind",
+    "en": "to sugar-coat"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bliver ved med at **tale udenom**, når jeg spørger om pengene.",
+   "en": "She keeps beating around the bush when I ask about the money."
+  }
+ },
  "at tanke": {
   "explanation": "\"At tanke\" means \"to refuel\", to fill a car with fuel: Jeg tanker bilen (I fill up the car). For an electric car, use at lade (to charge): Jeg lader bilen (I charge the car).",
   "forms": [
@@ -1485,6 +1852,49 @@
   "sentence": {
    "da": "Bilen er næsten tom, og jeg skal **tanke**.",
    "en": "The car is almost empty, and I have to refuel."
+  }
+ },
+ "at taste": {
+  "explanation": "\"At taste\" means \"to type\" or \"to enter\" numbers and letters by tapping buttons on a device: Jeg taster telefonnummeret (I enter the phone number). For writing text, use at skrive (to write): Jeg skriver et brev (I write a letter).",
+  "forms": [
+   {
+    "da": "at taste",
+    "en": "to type / enter"
+   },
+   {
+    "da": "jeg taster",
+    "en": "I type / enter"
+   },
+   {
+    "da": "jeg tastede",
+    "en": "I typed / entered"
+   },
+   {
+    "da": "jeg har tastet",
+    "en": "I have typed / entered"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tastatur",
+    "en": "a keyboard"
+   },
+   {
+    "da": "en tast",
+    "en": "a key"
+   },
+   {
+    "da": "at indtaste",
+    "en": "to key in"
+   },
+   {
+    "da": "et tastetryk",
+    "en": "a keystroke"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **taste** din pinkode og trykke OK.",
+   "en": "You have to enter your PIN and press OK."
   }
  },
  "at tegne": {
@@ -1563,6 +1973,260 @@
   "sentence": {
    "da": "Læreren vil **teste** os i matematik i morgen.",
    "en": "The teacher will test us in math tomorrow."
+  }
+ },
+ "at tigge": {
+  "explanation": "\"At tigge\" means \"to beg\", to ask for money or food because you have nothing, or to ask again and again for something you want: Børnene tigger om slik (The children beg for candy). The thing you want comes after om.",
+  "forms": [
+   {
+    "da": "at tigge",
+    "en": "to beg"
+   },
+   {
+    "da": "jeg tigger",
+    "en": "I beg"
+   },
+   {
+    "da": "jeg tiggede",
+    "en": "I begged"
+   },
+   {
+    "da": "jeg har tigget",
+    "en": "I have begged"
+   }
+  ],
+  "related": [
+   {
+    "da": "at trygle",
+    "en": "to plead"
+   },
+   {
+    "da": "at plage",
+    "en": "to pester"
+   },
+   {
+    "da": "at bønfalde",
+    "en": "to implore"
+   },
+   {
+    "da": "en bøn",
+    "en": "a plea"
+   }
+  ],
+  "sentence": {
+   "da": "Han måtte **tigge** om mad, fordi han ingenting havde.",
+   "en": "He had to beg for food because he had nothing."
+  }
+ },
+ "at tilbagebetale": {
+  "explanation": "\"At tilbagebetale\" means \"to pay back\", to return money. Everyday speech prefers at betale tilbage: Jeg betaler dig tilbage i morgen (I will pay you back tomorrow). The one-word form sounds more formal and fits banks and shops: Butikken tilbagebetaler beløbet (The store pays the amount back).",
+  "forms": [
+   {
+    "da": "at tilbagebetale",
+    "en": "to pay back"
+   },
+   {
+    "da": "jeg tilbagebetaler",
+    "en": "I pay back"
+   },
+   {
+    "da": "jeg tilbagebetalte",
+    "en": "I paid back"
+   },
+   {
+    "da": "jeg har tilbagebetalt",
+    "en": "I have paid back"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afdrage",
+    "en": "to pay off in installments"
+   },
+   {
+    "da": "at refundere",
+    "en": "to refund"
+   },
+   {
+    "da": "gæld",
+    "en": "debt"
+   },
+   {
+    "da": "at skylde",
+    "en": "to owe"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **tilbagebetale** hele lånet inden for fem år.",
+   "en": "You must pay back the whole loan within five years."
+  }
+ },
+ "at tilbagekalde": {
+  "explanation": "\"At tilbagekalde\" means \"to recall\" or \"to revoke\", to take back something that was given or sold. A company can take back a faulty product, and an authority can cancel a permit. It is built from tilbage (back) and kalde (call).",
+  "forms": [
+   {
+    "da": "at tilbagekalde",
+    "en": "to recall / revoke"
+   },
+   {
+    "da": "jeg tilbagekalder",
+    "en": "I recall / revoke"
+   },
+   {
+    "da": "jeg tilbagekaldte",
+    "en": "I recalled / revoked"
+   },
+   {
+    "da": "jeg har tilbagekaldt",
+    "en": "I have recalled / revoked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at trække tilbage",
+    "en": "to withdraw"
+   },
+   {
+    "da": "at ophæve",
+    "en": "to lift"
+   },
+   {
+    "da": "en tilbagekaldelse",
+    "en": "a recall notice"
+   },
+   {
+    "da": "at annullere",
+    "en": "to annul"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet måtte **tilbagekalde** bilerne, fordi bremserne ikke virkede.",
+   "en": "The company had to recall the cars because the brakes did not work."
+  }
+ },
+ "at tilbagevise": {
+  "explanation": "\"At tilbagevise\" means \"to refute\", to say that a claim or an accusation is false and give reasons why. It is built from tilbage (back) and vise (show), and it is stronger than just saying no.",
+  "forms": [
+   {
+    "da": "at tilbagevise",
+    "en": "to refute"
+   },
+   {
+    "da": "jeg tilbageviser",
+    "en": "I refute"
+   },
+   {
+    "da": "jeg tilbageviste",
+    "en": "I refuted"
+   },
+   {
+    "da": "jeg har tilbagevist",
+    "en": "I have refuted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afvise",
+    "en": "to reject"
+   },
+   {
+    "da": "at modbevise",
+    "en": "to disprove"
+   },
+   {
+    "da": "at benægte",
+    "en": "to deny"
+   },
+   {
+    "da": "at bekræfte",
+    "en": "to confirm"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **tilbagevise** beskyldningen, fordi den ikke er sand.",
+   "en": "She will refute the accusation because it is not true."
+  }
+ },
+ "at tilbede": {
+  "explanation": "\"At tilbede\" means \"to worship\", to show deep respect to a higher power in prayer. It also describes loving a person almost without limit: Fansene tilbeder hende (The fans adore her).",
+  "forms": [
+   {
+    "da": "at tilbede",
+    "en": "to worship"
+   },
+   {
+    "da": "jeg tilbeder",
+    "en": "I worship"
+   },
+   {
+    "da": "jeg tilbad",
+    "en": "I worshiped"
+   },
+   {
+    "da": "jeg har tilbedt",
+    "en": "I have worshiped"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forgude",
+    "en": "to idolize"
+   },
+   {
+    "da": "at beundre",
+    "en": "to admire"
+   },
+   {
+    "da": "at hylde",
+    "en": "to honor"
+   }
+  ],
+  "sentence": {
+   "da": "I kirken kan man **tilbede** Gud sammen med andre.",
+   "en": "In church, people can worship God together."
+  }
+ },
+ "at tilberede": {
+  "explanation": "\"At tilberede\" means \"to prepare\" food, to turn raw ingredients into a meal by cooking: Jeg tilbereder middagen (I prepare dinner). It is mostly used for food. For getting ready for something else, use at forberede (to get ready): Jeg forbereder mig til eksamen (I am preparing for the exam).",
+  "forms": [
+   {
+    "da": "at tilberede",
+    "en": "to prepare (food)"
+   },
+   {
+    "da": "jeg tilbereder",
+    "en": "I prepare (food)"
+   },
+   {
+    "da": "jeg tilberedte",
+    "en": "I prepared (food)"
+   },
+   {
+    "da": "jeg har tilberedt",
+    "en": "I have prepared (food)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at koge",
+    "en": "to boil"
+   },
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "at lave mad",
+    "en": "to make food"
+   },
+   {
+    "da": "en opskrift",
+    "en": "a recipe"
+   }
+  ],
+  "sentence": {
+   "da": "Kokken vil **tilberede** fisken i ovnen og servere den.",
+   "en": "The chef will prepare the fish in the oven and serve it."
   }
  },
  "at tilbringe": {
@@ -1647,6 +2311,49 @@
    "en": "May I offer you a cup of tea?"
   }
  },
+ "at tildele": {
+  "explanation": "\"At tildele\" means \"to assign\" or \"to award\": someone in charge decides who receives a task, a prize, or a share of something. The decision is official, so it fits schools, boards, and authorities.",
+  "forms": [
+   {
+    "da": "at tildele",
+    "en": "to assign / award"
+   },
+   {
+    "da": "jeg tildeler",
+    "en": "I assign / award"
+   },
+   {
+    "da": "jeg tildelte",
+    "en": "I assigned / awarded"
+   },
+   {
+    "da": "jeg har tildelt",
+    "en": "I have assigned / awarded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at give",
+    "en": "to give"
+   },
+   {
+    "da": "en tildeling",
+    "en": "an allocation"
+   },
+   {
+    "da": "at fordele",
+    "en": "to distribute"
+   },
+   {
+    "da": "at uddele",
+    "en": "to hand out"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen vil **tildele** prisen til den bedste elev.",
+   "en": "The school will award the prize to the best student."
+  }
+ },
  "at tilføje": {
   "explanation": "\"At tilføje\" means \"to add\", to put something extra with what is already there: Tilføj mælk (Add milk). For numbers, say at lægge sammen (to add up).",
   "forms": [
@@ -1729,6 +2436,127 @@
    "en": "She will forgive him when he says sorry."
   }
  },
+ "at tilhøre": {
+  "explanation": "\"At tilhøre\" means \"to belong to\". It says who has something or which group a person is in, and the one who has it follows right after with no extra word: Huset tilhører staten (The house belongs to the state).",
+  "forms": [
+   {
+    "da": "at tilhøre",
+    "en": "to belong to"
+   },
+   {
+    "da": "jeg tilhører",
+    "en": "I belong to"
+   },
+   {
+    "da": "jeg tilhørte",
+    "en": "I belonged to"
+   },
+   {
+    "da": "jeg har tilhørt",
+    "en": "I have belonged to"
+   }
+  ],
+  "related": [
+   {
+    "da": "at eje",
+    "en": "to own"
+   },
+   {
+    "da": "en ejer",
+    "en": "an owner"
+   },
+   {
+    "da": "at høre til",
+    "en": "to be part of"
+   },
+   {
+    "da": "at besidde",
+    "en": "to possess"
+   }
+  ],
+  "sentence": {
+   "da": "En bog kan **tilhøre** biblioteket eller en privat person.",
+   "en": "A book can belong to the library or to a private person."
+  }
+ },
+ "at tilintetgøre": {
+  "explanation": "\"At tilintetgøre\" means \"to annihilate\", to ruin something so completely that nothing is left. It is built from til intet (to nothing) and gøre (make), so it is literally to make into nothing.",
+  "forms": [
+   {
+    "da": "at tilintetgøre",
+    "en": "to annihilate"
+   },
+   {
+    "da": "jeg tilintetgør",
+    "en": "I annihilate"
+   },
+   {
+    "da": "jeg tilintetgjorde",
+    "en": "I annihilated"
+   },
+   {
+    "da": "jeg har tilintetgjort",
+    "en": "I have annihilated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ødelægge",
+    "en": "to destroy"
+   },
+   {
+    "da": "at udslette",
+    "en": "to wipe out"
+   },
+   {
+    "da": "at bevare",
+    "en": "to preserve"
+   }
+  ],
+  "sentence": {
+   "da": "Branden kunne **tilintetgøre** hele skoven på en nat.",
+   "en": "The fire could annihilate the whole forest in one night."
+  }
+ },
+ "at tilkalde": {
+  "explanation": "\"At tilkalde\" means \"to summon\" or \"to call in\", to ask someone to come right away because you need them, such as a doctor or the police. The til- adds the idea of the person coming toward you.",
+  "forms": [
+   {
+    "da": "at tilkalde",
+    "en": "to summon / call in"
+   },
+   {
+    "da": "jeg tilkalder",
+    "en": "I summon / call in"
+   },
+   {
+    "da": "jeg tilkaldte",
+    "en": "I summoned / called in"
+   },
+   {
+    "da": "jeg har tilkaldt",
+    "en": "I have summoned / called in"
+   }
+  ],
+  "related": [
+   {
+    "da": "at hente",
+    "en": "to fetch"
+   },
+   {
+    "da": "at rekvirere",
+    "en": "to requisition"
+   },
+   {
+    "da": "at sende bud efter",
+    "en": "to send for"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis det brænder, skal du **tilkalde** brandvæsenet med det samme.",
+   "en": "If there is a fire, you must call in the fire department right away."
+  }
+ },
  "at tillade": {
   "explanation": "\"At tillade\" means \"to allow\": Min mor tillader det ikke (My mother does not allow it). In everyday speech, Danes often use at have lov til (to be allowed to): Jeg har lov til at gå (I am allowed to go).",
   "forms": [
@@ -1809,6 +2637,303 @@
   "sentence": {
    "da": "Alle skal **tilmelde sig** inden fredag.",
    "en": "Everyone has to sign up before Friday."
+  }
+ },
+ "at tilpasse": {
+  "explanation": "\"At tilpasse\" means \"to adapt\": you change something so that it suits a person or a situation, like a plan or a recipe. To change yourself instead, add sig (oneself): at tilpasse sig.",
+  "forms": [
+   {
+    "da": "at tilpasse",
+    "en": "to adapt"
+   },
+   {
+    "da": "jeg tilpasser",
+    "en": "I adapt"
+   },
+   {
+    "da": "jeg tilpassede",
+    "en": "I adapted"
+   },
+   {
+    "da": "jeg har tilpasset",
+    "en": "I have adapted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at justere",
+    "en": "to adjust"
+   },
+   {
+    "da": "at modificere",
+    "en": "to modify"
+   },
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   },
+   {
+    "da": "at passe",
+    "en": "to fit"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **tilpasse** planen, så den passer til alle.",
+   "en": "We must adapt the plan so it suits everyone."
+  }
+ },
+ "at tilpasse sig": {
+  "explanation": "\"At tilpasse sig\" means \"to adapt\": you or a group learn to live with new conditions, such as a new country or a new job. Sig (oneself) turns the action back on the person doing it: Hun tilpasser sig hurtigt (She adapts quickly). Without sig, at tilpasse changes a thing, like a plan.",
+  "forms": [
+   {
+    "da": "at tilpasse sig",
+    "en": "to adapt"
+   },
+   {
+    "da": "jeg tilpasser mig",
+    "en": "I adapt"
+   },
+   {
+    "da": "jeg tilpassede mig",
+    "en": "I adapted"
+   },
+   {
+    "da": "jeg har tilpasset mig",
+    "en": "I have adapted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vænne sig til",
+    "en": "to get used to"
+   },
+   {
+    "da": "at omstille sig",
+    "en": "to adjust"
+   },
+   {
+    "da": "at finde sig til rette",
+    "en": "to settle in"
+   },
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   }
+  ],
+  "sentence": {
+   "da": "Det er svært at **tilpasse sig**, når man flytter til et nyt land.",
+   "en": "It is hard to adapt when you move to a new country."
+  }
+ },
+ "at tilsidesætte": {
+  "explanation": "\"At tilsidesætte\" means \"to disregard\" or \"to override\", to push a rule, a need or an opinion aside as if it did not matter. It is built from til side (to the side) and sætte (put).",
+  "forms": [
+   {
+    "da": "at tilsidesætte",
+    "en": "to disregard / override"
+   },
+   {
+    "da": "jeg tilsidesætter",
+    "en": "I disregard / override"
+   },
+   {
+    "da": "jeg tilsidesatte",
+    "en": "I disregarded / overrode"
+   },
+   {
+    "da": "jeg har tilsidesat",
+    "en": "I have disregarded / overridden"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ignorere",
+    "en": "to ignore"
+   },
+   {
+    "da": "at overtræde",
+    "en": "to violate"
+   },
+   {
+    "da": "at respektere",
+    "en": "to respect"
+   },
+   {
+    "da": "at overse",
+    "en": "to overlook"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan ikke bare **tilsidesætte** reglerne, fordi du har travlt.",
+   "en": "You cannot just disregard the rules because you are busy."
+  }
+ },
+ "at tilskynde": {
+  "explanation": "\"At tilskynde\" means \"to encourage\", to move someone to do something, often with a reason or a reward. You say who and what for: tilskynde nogen til at gøre noget (to encourage someone to do something).",
+  "forms": [
+   {
+    "da": "at tilskynde",
+    "en": "to encourage"
+   },
+   {
+    "da": "jeg tilskynder",
+    "en": "I encourage"
+   },
+   {
+    "da": "jeg tilskyndede",
+    "en": "I encouraged"
+   },
+   {
+    "da": "jeg har tilskyndet",
+    "en": "I have encouraged"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opfordre",
+    "en": "to urge"
+   },
+   {
+    "da": "at motivere",
+    "en": "to motivate"
+   },
+   {
+    "da": "at afskrække",
+    "en": "to deter"
+   },
+   {
+    "da": "at opmuntre",
+    "en": "to cheer on"
+   }
+  ],
+  "sentence": {
+   "da": "Lærerne vil **tilskynde** eleverne til at læse mere.",
+   "en": "The teachers want to encourage the students to read more."
+  }
+ },
+ "at tilstræbe": {
+  "explanation": "\"At tilstræbe\" means \"to strive for\", to work toward a goal and try hard to reach it. It takes the goal directly, with no small word after it: tilstræbe fred (to strive for peace).",
+  "forms": [
+   {
+    "da": "at tilstræbe",
+    "en": "to strive for"
+   },
+   {
+    "da": "jeg tilstræber",
+    "en": "I strive for"
+   },
+   {
+    "da": "jeg tilstræbte",
+    "en": "I strove for"
+   },
+   {
+    "da": "jeg har tilstræbt",
+    "en": "I have striven for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at stræbe efter",
+    "en": "to aspire to"
+   },
+   {
+    "da": "at sigte mod",
+    "en": "to aim for"
+   },
+   {
+    "da": "at opnå",
+    "en": "to achieve"
+   },
+   {
+    "da": "en ambition",
+    "en": "an ambition"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet vil **tilstræbe** en bedre kvalitet i år.",
+   "en": "The company will strive for better quality this year."
+  }
+ },
+ "at tilstå": {
+  "explanation": "\"At tilstå\" means \"to confess\", to say openly that you did something wrong or illegal, especially to the police or in court. You can use it alone, Han tilstod (He confessed), or add the deed: Han tilstod tyveriet (He confessed to the theft).",
+  "forms": [
+   {
+    "da": "at tilstå",
+    "en": "to confess"
+   },
+   {
+    "da": "jeg tilstår",
+    "en": "I confess"
+   },
+   {
+    "da": "jeg tilstod",
+    "en": "I confessed"
+   },
+   {
+    "da": "jeg har tilstået",
+    "en": "I have confessed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at indrømme",
+    "en": "to admit"
+   },
+   {
+    "da": "at nægte",
+    "en": "to deny"
+   },
+   {
+    "da": "at afsløre",
+    "en": "to reveal"
+   }
+  ],
+  "sentence": {
+   "da": "Tyven vil **tilstå**, fordi politiet har fundet billederne.",
+   "en": "The thief will confess because the police have found the pictures."
+  }
+ },
+ "at tiltrække": {
+  "explanation": "\"At tiltrække\" means \"to attract\": to draw people or things toward something. It is used for crowds, customers, and workers, and also for forces: Magneten tiltrækker jern (The magnet attracts iron).",
+  "forms": [
+   {
+    "da": "at tiltrække",
+    "en": "to attract"
+   },
+   {
+    "da": "jeg tiltrækker",
+    "en": "I attract"
+   },
+   {
+    "da": "jeg tiltrak",
+    "en": "I attracted"
+   },
+   {
+    "da": "jeg har tiltrukket",
+    "en": "I have attracted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at lokke",
+    "en": "to lure"
+   },
+   {
+    "da": "at frastøde",
+    "en": "to repel"
+   },
+   {
+    "da": "en tiltrækning",
+    "en": "a pull"
+   },
+   {
+    "da": "attraktiv",
+    "en": "appealing"
+   }
+  ],
+  "sentence": {
+   "da": "Den nye park kan **tiltrække** mange turister om sommeren.",
+   "en": "The new park can attract many tourists in the summer."
   }
  },
  "at tisse": {
@@ -1971,6 +3096,221 @@
    "en": "I want to earn money during the summer vacation."
   }
  },
+ "at tolerere": {
+  "explanation": "\"At tolerere\" means \"to tolerate\": you let something happen, even if you dislike it, and do not try to stop it. It is used for rules, behavior, and opinions: Skolen tolererer ikke mobning (The school does not tolerate bullying). For what your body can stand, use at tåle (to stand): Jeg tåler ikke mælk (I cannot handle milk).",
+  "forms": [
+   {
+    "da": "at tolerere",
+    "en": "to tolerate"
+   },
+   {
+    "da": "jeg tolererer",
+    "en": "I tolerate"
+   },
+   {
+    "da": "jeg tolererede",
+    "en": "I tolerated"
+   },
+   {
+    "da": "jeg har tolereret",
+    "en": "I have tolerated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at acceptere",
+    "en": "to accept"
+   },
+   {
+    "da": "at finde sig i",
+    "en": "to put up with"
+   },
+   {
+    "da": "tolerant",
+    "en": "open-minded"
+   },
+   {
+    "da": "at forbyde",
+    "en": "to forbid"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal **tolerere** andres meninger, også når man er uenig.",
+   "en": "You must tolerate other people's opinions, even when you disagree."
+  }
+ },
+ "at tordne": {
+  "explanation": "\"At tordne\" means \"to thunder\" and is only used for the weather, with det (it) in front. The sound is en torden (thunder), and a storm with it is et tordenvejr.",
+  "forms": [
+   {
+    "da": "at tordne",
+    "en": "to thunder"
+   },
+   {
+    "da": "det tordner",
+    "en": "it thunders"
+   },
+   {
+    "da": "det tordnede",
+    "en": "it thundered"
+   },
+   {
+    "da": "det har tordnet",
+    "en": "it has thundered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at lyne",
+    "en": "to flash with lightning"
+   },
+   {
+    "da": "et tordenskrald",
+    "en": "a thunderclap"
+   },
+   {
+    "da": "at regne",
+    "en": "to rain"
+   },
+   {
+    "da": "at sne",
+    "en": "to snow"
+   }
+  ],
+  "sentence": {
+   "da": "Det begynder at **tordne**, og himlen bliver helt mørk.",
+   "en": "It starts to thunder, and the sky gets completely dark."
+  }
+ },
+ "at trampe": {
+  "explanation": "\"At trampe\" means \"to stomp\": you put your feet down hard and heavily, often from anger. Add på (on) and it means to flatten something underfoot: Børnene trampede på blomsterne (The children trampled the flowers).",
+  "forms": [
+   {
+    "da": "at trampe",
+    "en": "to stomp"
+   },
+   {
+    "da": "jeg tramper",
+    "en": "I stomp"
+   },
+   {
+    "da": "jeg trampede",
+    "en": "I stomped"
+   },
+   {
+    "da": "jeg har trampet",
+    "en": "I have stomped"
+   }
+  ],
+  "related": [
+   {
+    "da": "at stampe",
+    "en": "to stamp"
+   },
+   {
+    "da": "at træde",
+    "en": "to step"
+   },
+   {
+    "da": "at dundre",
+    "en": "to thud"
+   },
+   {
+    "da": "at knuse",
+    "en": "to crush"
+   }
+  ],
+  "sentence": {
+   "da": "Den vrede dreng begynder at **trampe** i gulvet.",
+   "en": "The angry boy starts to stomp on the floor."
+  }
+ },
+ "at transportere": {
+  "explanation": "\"At transportere\" means \"to transport\": to carry goods or people from one place to another, mostly over a distance and with a truck, a boat, or a plane. It is used most for goods and cargo. For people, Danes usually say at køre (to drive): Jeg kører dig hjem (I will drive you home).",
+  "forms": [
+   {
+    "da": "at transportere",
+    "en": "to transport"
+   },
+   {
+    "da": "jeg transporterer",
+    "en": "I transport"
+   },
+   {
+    "da": "jeg transporterede",
+    "en": "I transported"
+   },
+   {
+    "da": "jeg har transporteret",
+    "en": "I have transported"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forsendelse",
+    "en": "a shipment"
+   },
+   {
+    "da": "et transportmiddel",
+    "en": "a vehicle"
+   },
+   {
+    "da": "at fragte",
+    "en": "to ship"
+   },
+   {
+    "da": "at flytte",
+    "en": "to move"
+   }
+  ],
+  "sentence": {
+   "da": "Lastbilen skal **transportere** frugt fra Spanien til Danmark.",
+   "en": "The truck must transport fruit from Spain to Denmark."
+  }
+ },
+ "at trives": {
+  "explanation": "\"At trives\" means \"to thrive\": to feel happy and do well in a place, a job, or a group. It is mostly about people: Jeg trives i Aarhus (I feel at home in Aarhus). Plants thrive too: Planten trives i skygge (The plant thrives in shade).",
+  "forms": [
+   {
+    "da": "at trives",
+    "en": "to thrive"
+   },
+   {
+    "da": "jeg trives",
+    "en": "I thrive"
+   },
+   {
+    "da": "jeg trivedes",
+    "en": "I thrived"
+   },
+   {
+    "da": "jeg har trivedes",
+    "en": "I have thrived"
+   }
+  ],
+  "related": [
+   {
+    "da": "at have det godt",
+    "en": "to be doing fine"
+   },
+   {
+    "da": "at blomstre",
+    "en": "to bloom"
+   },
+   {
+    "da": "at passe ind",
+    "en": "to fit in"
+   },
+   {
+    "da": "at mistrives",
+    "en": "to do poorly"
+   }
+  ],
+  "sentence": {
+   "da": "Han kan **trives** i en lille by, fordi alle kender hinanden.",
+   "en": "He can thrive in a small town because everyone knows each other."
+  }
+ },
  "at tro": {
   "explanation": "\"At tro\" means \"to believe\" or \"to think something is probably true\": Jeg tror, det er rigtigt (I think it is right). It is also used for faith: at tro på Gud (to believe in God). For your own taste, use at synes (to think): Jeg synes, det er godt (I think it is good).",
   "forms": [
@@ -2047,6 +3387,92 @@
   "sentence": {
    "da": "Børn vil gerne **tro på** julemanden.",
    "en": "Children like to believe in Santa Claus."
+  }
+ },
+ "at trodse": {
+  "explanation": "\"At trodse\" means \"to defy\", to refuse to follow an order or to stand up to something dangerous. It also fits things that hold up against force: Huset trodsede stormen (The house held up against the storm).",
+  "forms": [
+   {
+    "da": "at trodse",
+    "en": "to defy"
+   },
+   {
+    "da": "jeg trodser",
+    "en": "I defy"
+   },
+   {
+    "da": "jeg trodsede",
+    "en": "I defied"
+   },
+   {
+    "da": "jeg har trodset",
+    "en": "I have defied"
+   }
+  ],
+  "related": [
+   {
+    "da": "at adlyde",
+    "en": "to obey"
+   },
+   {
+    "da": "at modstå",
+    "en": "to resist"
+   },
+   {
+    "da": "at udfordre",
+    "en": "to challenge"
+   },
+   {
+    "da": "at gøre modstand",
+    "en": "to put up resistance"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **trodse** forbuddet og tage derhen alligevel.",
+   "en": "She will defy the ban and go there anyway."
+  }
+ },
+ "at true": {
+  "explanation": "\"At true\" means \"to threaten\": to say or show that something bad may happen. What may happen comes after med (with): Han truer med at sige op (He threatens to quit). It works for people and for dangers, as in Det truer med regn (It looks like rain).",
+  "forms": [
+   {
+    "da": "at true",
+    "en": "to threaten"
+   },
+   {
+    "da": "jeg truer",
+    "en": "I threaten"
+   },
+   {
+    "da": "jeg truede",
+    "en": "I threatened"
+   },
+   {
+    "da": "jeg har truet",
+    "en": "I have threatened"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trussel",
+    "en": "a threat"
+   },
+   {
+    "da": "truende",
+    "en": "menacing"
+   },
+   {
+    "da": "at advare",
+    "en": "to warn"
+   },
+   {
+    "da": "at skræmme",
+    "en": "to scare"
+   }
+  ],
+  "sentence": {
+   "da": "Naboen kan **true** med at ringe til politiet.",
+   "en": "The neighbor can threaten to call the police."
   }
  },
  "at trykke": {
@@ -2131,6 +3557,178 @@
    "en": "You must not step on the flowers."
   }
  },
+ "at træde i kraft": {
+  "explanation": "\"At træde i kraft\" means \"to take effect\", used for laws, rules and agreements that start on a set date. Literally it is to step into force.",
+  "forms": [
+   {
+    "da": "at træde i kraft",
+    "en": "to take effect"
+   },
+   {
+    "da": "det træder i kraft",
+    "en": "it takes effect"
+   },
+   {
+    "da": "det trådte i kraft",
+    "en": "it took effect"
+   },
+   {
+    "da": "det er trådt i kraft",
+    "en": "it has taken effect"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gælde",
+    "en": "to apply"
+   },
+   {
+    "da": "at ophøre",
+    "en": "to cease"
+   },
+   {
+    "da": "at indføre",
+    "en": "to introduce"
+   },
+   {
+    "da": "at blive gældende",
+    "en": "to become valid"
+   }
+  ],
+  "sentence": {
+   "da": "Loven skal **træde i kraft** den første januar.",
+   "en": "The law must take effect on the first of January."
+  }
+ },
+ "at træde tilbage": {
+  "explanation": "\"At træde tilbage\" means \"to step down\": to give up an important position, such as a minister, a chair, or a coach. For an ordinary job, Danes say at sige op (to quit).",
+  "forms": [
+   {
+    "da": "at træde tilbage",
+    "en": "to step down / resign"
+   },
+   {
+    "da": "jeg træder tilbage",
+    "en": "I step down / resign"
+   },
+   {
+    "da": "jeg trådte tilbage",
+    "en": "I stepped down / resigned"
+   },
+   {
+    "da": "jeg er trådt tilbage",
+    "en": "I have stepped down / resigned"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gå af",
+    "en": "to resign"
+   },
+   {
+    "da": "at fratræde",
+    "en": "to leave office"
+   },
+   {
+    "da": "at tiltræde",
+    "en": "to take office"
+   },
+   {
+    "da": "at blive fyret",
+    "en": "to be fired"
+   }
+  ],
+  "sentence": {
+   "da": "Ministeren vil **træde tilbage**, fordi hun har mistet støtten.",
+   "en": "The minister will step down because she has lost support."
+  }
+ },
+ "at træffe": {
+  "explanation": "\"At træffe\" means \"to meet\" and \"to make (a decision)\". For people, it means to run into someone or to reach them at a place: Jeg traf Anna i byen (I ran into Anna in town). For choices, it goes with a decision or an agreement: at træffe en aftale (to make an agreement).",
+  "forms": [
+   {
+    "da": "at træffe",
+    "en": "to meet / make (a decision)"
+   },
+   {
+    "da": "jeg træffer",
+    "en": "I meet / make (a decision)"
+   },
+   {
+    "da": "jeg traf",
+    "en": "I met / made (a decision)"
+   },
+   {
+    "da": "jeg har truffet",
+    "en": "I have met / made (a decision)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at møde",
+    "en": "to encounter"
+   },
+   {
+    "da": "at mødes",
+    "en": "to get together"
+   },
+   {
+    "da": "at beslutte",
+    "en": "to decide"
+   },
+   {
+    "da": "at afgøre",
+    "en": "to settle"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **træffe** mig på kontoret efter klokken tre.",
+   "en": "You can reach me at the office after three o'clock."
+  }
+ },
+ "at træffe en beslutning": {
+  "explanation": "\"At træffe en beslutning\" means \"to make a decision\". The verb træffe (to make) goes with beslutning (decision), and at lave en beslutning is not used. At tage en beslutning (to take a decision) is also common.",
+  "forms": [
+   {
+    "da": "at træffe en beslutning",
+    "en": "to make a decision"
+   },
+   {
+    "da": "jeg træffer en beslutning",
+    "en": "I make a decision"
+   },
+   {
+    "da": "jeg traf en beslutning",
+    "en": "I made a decision"
+   },
+   {
+    "da": "jeg har truffet en beslutning",
+    "en": "I have made a decision"
+   }
+  ],
+  "related": [
+   {
+    "da": "at beslutte",
+    "en": "to decide"
+   },
+   {
+    "da": "at bestemme sig",
+    "en": "to settle on something"
+   },
+   {
+    "da": "et valg",
+    "en": "a choice"
+   },
+   {
+    "da": "en afgørelse",
+    "en": "a ruling"
+   }
+  ],
+  "sentence": {
+   "da": "Når vi er uenige, skal chefen **træffe en beslutning**.",
+   "en": "When we disagree, the boss must make a decision."
+  }
+ },
  "at trække": {
   "explanation": "\"At trække\" means \"to pull\", moving something toward yourself, the opposite of pushing. It is also part of the phrase trække vejret (to breathe): Han trækker vejret dybt (He breathes deeply).",
   "forms": [
@@ -2209,6 +3807,92 @@
    "en": "You have to subtract and not add."
   }
  },
+ "at trække på skuldrene": {
+  "explanation": "\"At trække på skuldrene\" means \"to shrug\": you lift your shoulders to show that you do not know or do not care. The Danish is built word for word from trække (to pull), på (on), and skuldrene (the shoulders).",
+  "forms": [
+   {
+    "da": "at trække på skuldrene",
+    "en": "to shrug"
+   },
+   {
+    "da": "jeg trækker på skuldrene",
+    "en": "I shrug"
+   },
+   {
+    "da": "jeg trak på skuldrene",
+    "en": "I shrugged"
+   },
+   {
+    "da": "jeg har trukket på skuldrene",
+    "en": "I have shrugged"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nikke",
+    "en": "to nod"
+   },
+   {
+    "da": "at ryste på hovedet",
+    "en": "to shake your head"
+   },
+   {
+    "da": "at vinke",
+    "en": "to wave"
+   },
+   {
+    "da": "at pege",
+    "en": "to point"
+   }
+  ],
+  "sentence": {
+   "da": "Når jeg spørger hvorfor, plejer hun at **trække på skuldrene**.",
+   "en": "When I ask why, she usually shrugs."
+  }
+ },
+ "at trække sig": {
+  "explanation": "\"At trække sig\" means \"to withdraw\": you pull yourself out of something, such as a race, a deal, or a team. Add fra (from) for what you pull out of: Hun trak sig fra valget (She withdrew from the election). It is also what an army does when it falls back.",
+  "forms": [
+   {
+    "da": "at trække sig",
+    "en": "to withdraw"
+   },
+   {
+    "da": "jeg trækker mig",
+    "en": "I withdraw"
+   },
+   {
+    "da": "jeg trak mig",
+    "en": "I withdrew"
+   },
+   {
+    "da": "jeg har trukket mig",
+    "en": "I have withdrawn"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udtræde",
+    "en": "to leave a group"
+   },
+   {
+    "da": "at forlade",
+    "en": "to leave"
+   },
+   {
+    "da": "at melde afbud",
+    "en": "to cancel attendance"
+   },
+   {
+    "da": "at deltage",
+    "en": "to take part"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil **trække sig** fra aftalen, fordi prisen er for høj.",
+   "en": "He wants to withdraw from the deal because the price is too high."
+  }
+ },
  "at trække vejret": {
   "explanation": "\"At trække vejret\" means \"to breathe\". Literally it is to pull the breath, with vejret meaning \"the breath\". The same word vejret also means \"the weather\": Vejret er flot i dag (The weather is nice today).",
   "forms": [
@@ -2285,6 +3969,135 @@
   "sentence": {
    "da": "Jeg vil **træne** tre gange om ugen.",
    "en": "I want to work out three times a week."
+  }
+ },
+ "at trænge": {
+  "explanation": "\"At trænge\" means \"to push through\" and \"to need\": you force a way in or out, as in Vandet trænger ind (The water gets in). With til (for), it means to need, and it sounds stronger than a wish: Jeg trænger til ferie (I really need a vacation).",
+  "forms": [
+   {
+    "da": "at trænge",
+    "en": "to need / push through"
+   },
+   {
+    "da": "jeg trænger",
+    "en": "I need / push through"
+   },
+   {
+    "da": "jeg trængte",
+    "en": "I needed / pushed through"
+   },
+   {
+    "da": "jeg har trængt",
+    "en": "I have needed / pushed through"
+   }
+  ],
+  "related": [
+   {
+    "da": "at presse",
+    "en": "to squeeze"
+   },
+   {
+    "da": "at mangle",
+    "en": "to lack"
+   },
+   {
+    "da": "at behøve",
+    "en": "to require"
+   },
+   {
+    "da": "en trængsel",
+    "en": "a crush of people"
+   }
+  ],
+  "sentence": {
+   "da": "Lyset kan **trænge** ind gennem de tynde gardiner.",
+   "en": "The light can get in through the thin curtains."
+  }
+ },
+ "at trøste": {
+  "explanation": "\"At trøste\" means \"to comfort\": you help someone who is sad or hurt, with kind words, a hug, or just by staying close. Add med (with) for how you do it: trøste med et kram (comfort with a hug).",
+  "forms": [
+   {
+    "da": "at trøste",
+    "en": "to comfort"
+   },
+   {
+    "da": "jeg trøster",
+    "en": "I comfort"
+   },
+   {
+    "da": "jeg trøstede",
+    "en": "I comforted"
+   },
+   {
+    "da": "jeg har trøstet",
+    "en": "I have comforted"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trøst",
+    "en": "a consolation"
+   },
+   {
+    "da": "at støtte",
+    "en": "to support"
+   },
+   {
+    "da": "at berolige",
+    "en": "to calm down"
+   },
+   {
+    "da": "at opmuntre",
+    "en": "to cheer up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **trøste** min ven, fordi han har mistet sit job.",
+   "en": "I want to comfort my friend because he has lost his job."
+  }
+ },
+ "at tude": {
+  "explanation": "\"At tude\" means \"to cry\" in a loud, noisy way, like bawling. It is a casual word that fits a child or a close friend: Hold op med at tude! (Stop bawling!) It also means \"to howl\", for the long loud sound of a siren or a ship's horn.",
+  "forms": [
+   {
+    "da": "at tude",
+    "en": "to cry / howl"
+   },
+   {
+    "da": "jeg tuder",
+    "en": "I cry / howl"
+   },
+   {
+    "da": "jeg tudede",
+    "en": "I cried / howled"
+   },
+   {
+    "da": "jeg har tudet",
+    "en": "I have cried / howled"
+   }
+  ],
+  "related": [
+   {
+    "da": "at græde",
+    "en": "to weep"
+   },
+   {
+    "da": "at hulke",
+    "en": "to sob"
+   },
+   {
+    "da": "at hyle",
+    "en": "to wail"
+   },
+   {
+    "da": "at jamre",
+    "en": "to whine"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet begyndte at **tude**, da ballonen sprang.",
+   "en": "The child started to bawl when the balloon popped."
   }
  },
  "at tvinge": {
@@ -2412,6 +4225,88 @@
    "en": "Do not doubt me."
   }
  },
+ "at tyde": {
+  "explanation": "\"At tyde\" means \"to interpret\", to work out what something unclear means, such as old writing or a look on a face. Do not mix it up with at tyde på (to suggest), where the facts themselves are the clue.",
+  "forms": [
+   {
+    "da": "at tyde",
+    "en": "to interpret"
+   },
+   {
+    "da": "jeg tyder",
+    "en": "I interpret"
+   },
+   {
+    "da": "jeg tydede",
+    "en": "I interpreted"
+   },
+   {
+    "da": "jeg har tydet",
+    "en": "I have interpreted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at dechifrere",
+    "en": "to decipher"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "at aflæse",
+    "en": "to read off"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan næsten ikke **tyde** hans håndskrift.",
+   "en": "I can hardly interpret his handwriting."
+  }
+ },
+ "at tyde på": {
+  "explanation": "\"At tyde på\" means \"to suggest\" or \"to indicate\", used when facts lead toward a conclusion. Danes often say alt tyder på, at (everything suggests that), followed by the conclusion.",
+  "forms": [
+   {
+    "da": "at tyde på",
+    "en": "to suggest / indicate"
+   },
+   {
+    "da": "det tyder på",
+    "en": "it suggests / indicates"
+   },
+   {
+    "da": "det tydede på",
+    "en": "it suggested / indicated"
+   },
+   {
+    "da": "det har tydet på",
+    "en": "it has suggested / indicated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at pege på",
+    "en": "to point to"
+   },
+   {
+    "da": "at antyde",
+    "en": "to hint"
+   },
+   {
+    "da": "at signalere",
+    "en": "to signal"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign"
+   }
+  ],
+  "sentence": {
+   "da": "Alle de mørke skyer kan **tyde på** regn.",
+   "en": "All the dark clouds can suggest rain."
+  }
+ },
  "at tygge": {
   "explanation": "\"At tygge\" means \"to chew\": Hunden tygger på en pind (The dog chews on a stick). The word tyggegummi (chewing gum) is built from tygge (chew) and gummi (rubber).",
   "forms": [
@@ -2449,6 +4344,49 @@
   "sentence": {
    "da": "Jeg kan ikke **tygge**, fordi min tand gør ondt.",
    "en": "I cannot chew because my tooth hurts."
+  }
+ },
+ "at tåle": {
+  "explanation": "\"At tåle\" means \"to stand\" and \"to tolerate\": what your body, a material, or a person can take without harm. It is mostly used with ikke (not): Jeg tåler ikke larm (I cannot stand noise). It works for things too: Tøjet tåler vask (The clothes can take washing).",
+  "forms": [
+   {
+    "da": "at tåle",
+    "en": "to tolerate / stand"
+   },
+   {
+    "da": "jeg tåler",
+    "en": "I tolerate / stand"
+   },
+   {
+    "da": "jeg tålte",
+    "en": "I tolerated / stood"
+   },
+   {
+    "da": "jeg har tålt",
+    "en": "I have tolerated / stood"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udholde",
+    "en": "to endure"
+   },
+   {
+    "da": "at holde ud",
+    "en": "to bear"
+   },
+   {
+    "da": "at klare",
+    "en": "to cope with"
+   },
+   {
+    "da": "tålmodig",
+    "en": "patient"
+   }
+  ],
+  "sentence": {
+   "da": "Min mave kan ikke **tåle** stærk mad.",
+   "en": "My stomach cannot handle spicy food."
   }
  },
  "at tælle": {
@@ -2734,6 +4672,45 @@
   "sentence": {
    "da": "Man bør **tænke sig om**, før man svarer.",
    "en": "You should think carefully before you answer."
+  }
+ },
+ "at tø": {
+  "explanation": "\"At tø\" means \"to thaw\", when ice and snow turn to water as the weather gets warmer. It is about the weather, so it goes with det: Det tør (It is thawing). Careful: tør also means \"dry\", and jeg tør means \"I dare\".",
+  "forms": [
+   {
+    "da": "at tø",
+    "en": "to thaw"
+   },
+   {
+    "da": "det tør",
+    "en": "it thaws"
+   },
+   {
+    "da": "det tøede",
+    "en": "it thawed"
+   },
+   {
+    "da": "det har tøet",
+    "en": "it has thawed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at smelte",
+    "en": "to melt"
+   },
+   {
+    "da": "at fryse",
+    "en": "to freeze"
+   },
+   {
+    "da": "et tøvejr",
+    "en": "thaw weather"
+   }
+  ],
+  "sentence": {
+   "da": "Når det begynder at **tø**, bliver sneen til vand.",
+   "en": "When it starts to thaw, the snow turns to water."
   }
  },
  "at tømme": {
@@ -3064,6 +5041,131 @@
    "en": "Rainwater runs down into a gutter."
   }
  },
+ "en tagterrasse": {
+  "explanation": "\"En tagterrasse\" means \"a roof terrace\", an outdoor area on the flat roof of a building.",
+  "forms": [
+   {
+    "da": "en tagterrasse",
+    "en": "a roof terrace"
+   },
+   {
+    "da": "tagterrassen",
+    "en": "the roof terrace"
+   },
+   {
+    "da": "tagterrasser",
+    "en": "roof terraces"
+   },
+   {
+    "da": "tagterrasserne",
+    "en": "the roof terraces"
+   }
+  ],
+  "related": [
+   {
+    "da": "en altan",
+    "en": "a balcony"
+   },
+   {
+    "da": "en veranda",
+    "en": "a veranda"
+   },
+   {
+    "da": "en gårdhave",
+    "en": "a courtyard garden"
+   }
+  ],
+  "sentence": {
+   "da": "Fra vores **tagterrasse** kan vi se hele byen.",
+   "en": "From our roof terrace we can see the whole city."
+  }
+ },
+ "en taktik": {
+  "explanation": "\"En taktik\" means \"a tactic\", the way you act in one moment or situation to reach a goal, such as in a game or a negotiation. A strategi (strategy) is the bigger plan behind it.",
+  "forms": [
+   {
+    "da": "en taktik",
+    "en": "a tactic"
+   },
+   {
+    "da": "taktikken",
+    "en": "the tactic"
+   },
+   {
+    "da": "taktikker",
+    "en": "tactics"
+   },
+   {
+    "da": "taktikkerne",
+    "en": "the tactics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en metode",
+    "en": "a method"
+   },
+   {
+    "da": "en fremgangsmåde",
+    "en": "an approach"
+   },
+   {
+    "da": "et kneb",
+    "en": "a trick"
+   },
+   {
+    "da": "en manøvre",
+    "en": "a maneuver"
+   }
+  ],
+  "sentence": {
+   "da": "Holdets **taktik** er at forsvare sig og vente på en chance.",
+   "en": "The team's tactic is to defend and wait for a chance."
+  }
+ },
+ "en talemåde": {
+  "explanation": "\"En talemåde\" means \"a saying\", a set wording whose meaning is often not the literal one, such as at tage benene på nakken (to run away fast, literally \"to take the legs on the neck\").",
+  "forms": [
+   {
+    "da": "en talemåde",
+    "en": "a saying"
+   },
+   {
+    "da": "talemåden",
+    "en": "the saying"
+   },
+   {
+    "da": "talemåder",
+    "en": "sayings"
+   },
+   {
+    "da": "talemåderne",
+    "en": "the sayings"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ordsprog",
+    "en": "a proverb"
+   },
+   {
+    "da": "et udtryk",
+    "en": "an expression"
+   },
+   {
+    "da": "et mundheld",
+    "en": "a catchphrase"
+   },
+   {
+    "da": "en vending",
+    "en": "a turn of phrase"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal ikke tage hver **talemåde** helt bogstaveligt.",
+   "en": "You should not take every saying completely literally."
+  }
+ },
  "en tallerken": {
   "explanation": "\"En tallerken\" means \"a plate\", the flat dish you eat from. A deep plate for soup is en dyb tallerken (a deep plate).",
   "forms": [
@@ -3103,6 +5205,49 @@
    "en": "There is food on my plate."
   }
  },
+ "en talsperson": {
+  "explanation": "\"En talsperson\" means \"a spokesperson\", someone chosen to speak for a group or an organization. The older word is talsmand (spokesman), and talsperson works for anyone.",
+  "forms": [
+   {
+    "da": "en talsperson",
+    "en": "a spokesperson"
+   },
+   {
+    "da": "talspersonen",
+    "en": "the spokesperson"
+   },
+   {
+    "da": "talspersoner",
+    "en": "spokespeople"
+   },
+   {
+    "da": "talspersonerne",
+    "en": "the spokespeople"
+   }
+  ],
+  "related": [
+   {
+    "da": "en repræsentant",
+    "en": "a representative"
+   },
+   {
+    "da": "en pressechef",
+    "en": "a press officer"
+   },
+   {
+    "da": "en ordfører",
+    "en": "a lead speaker"
+   },
+   {
+    "da": "en pressemeddelelse",
+    "en": "a press release"
+   }
+  ],
+  "sentence": {
+   "da": "Virksomhedens **talsperson** svarede på journalisternes spørgsmål i går.",
+   "en": "The company's spokesperson answered the journalists' questions yesterday."
+  }
+ },
  "en tand": {
   "explanation": "\"En tand\" means \"a tooth\". You say at børste tænder (to brush teeth). En tandlæge (a dentist) is literally a tooth doctor.",
   "forms": [
@@ -3140,6 +5285,45 @@
   "sentence": {
    "da": "Jeg har ondt i en **tand** i dag.",
    "en": "One of my teeth hurts today."
+  }
+ },
+ "en tandbøjle": {
+  "explanation": "\"En tandbøjle\" means \"a brace (teeth)\", wires and small brackets that slowly move the teeth into a straighter position.",
+  "forms": [
+   {
+    "da": "en tandbøjle",
+    "en": "a brace (teeth)"
+   },
+   {
+    "da": "tandbøjlen",
+    "en": "the brace"
+   },
+   {
+    "da": "tandbøjler",
+    "en": "braces"
+   },
+   {
+    "da": "tandbøjlerne",
+    "en": "the braces"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en kæbe",
+    "en": "a jaw"
+   },
+   {
+    "da": "en ortodontist",
+    "en": "an orthodontist"
+   }
+  ],
+  "sentence": {
+   "da": "Min datter skal have **tandbøjle**, fordi hendes tænder står skævt.",
+   "en": "My daughter needs braces because her teeth are crooked."
   }
  },
  "en tandbørste": {
@@ -3310,6 +5494,49 @@
    "en": "My dental hygienist cleans my teeth twice a year."
   }
  },
+ "en tang": {
+  "explanation": "\"En tang\" means \"a pair of pliers\", a hand tool with two arms for gripping or cutting. It also means seaweed, the plant that washes up on the beach, and then it is not used in the plural.",
+  "forms": [
+   {
+    "da": "en tang",
+    "en": "a pair of pliers / seaweed"
+   },
+   {
+    "da": "tangen",
+    "en": "the pliers"
+   },
+   {
+    "da": "tænger",
+    "en": "pliers"
+   },
+   {
+    "da": "tængerne",
+    "en": "the pliers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hammer",
+    "en": "a hammer"
+   },
+   {
+    "da": "en skruetrækker",
+    "en": "a screwdriver"
+   },
+   {
+    "da": "en skruenøgle",
+    "en": "a wrench"
+   },
+   {
+    "da": "en alge",
+    "en": "an alga"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan klippe ledningen over med en **tang**.",
+   "en": "I can cut the wire in two with pliers."
+  }
+ },
  "en tank": {
   "explanation": "\"En tank\" means \"a tank\", especially the fuel tank of a car. It is also the word for the army vehicle.",
   "forms": [
@@ -3474,6 +5701,88 @@
    "en": "My aunt is my mother's sister."
   }
  },
+ "en tarm": {
+  "explanation": "\"En tarm\" means \"an intestine\", the long tube in the body where food is broken down and nutrients are absorbed.",
+  "forms": [
+   {
+    "da": "en tarm",
+    "en": "an intestine"
+   },
+   {
+    "da": "tarmen",
+    "en": "the intestine"
+   },
+   {
+    "da": "tarme",
+    "en": "intestines"
+   },
+   {
+    "da": "tarmene",
+    "en": "the intestines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en tyktarm",
+    "en": "a large intestine"
+   },
+   {
+    "da": "en tyndtarm",
+    "en": "a small intestine"
+   },
+   {
+    "da": "en blindtarm",
+    "en": "an appendix"
+   }
+  ],
+  "sentence": {
+   "da": "En voksens **tarm** er flere meter lang og ligger i maven.",
+   "en": "An adult's intestine is several meters long and lies in the belly."
+  }
+ },
+ "en tartelet": {
+  "explanation": "\"En tartelet\" means \"a tartlet (vol-au-vent)\", a small, round shell of puff pastry with a hot filling. In Denmark it is often served at family parties.",
+  "forms": [
+   {
+    "da": "en tartelet",
+    "en": "a tartlet (vol-au-vent)"
+   },
+   {
+    "da": "tarteletten",
+    "en": "the tartlet"
+   },
+   {
+    "da": "tarteletter",
+    "en": "tartlets"
+   },
+   {
+    "da": "tarteletterne",
+    "en": "the tartlets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tærte",
+    "en": "a tart"
+   },
+   {
+    "da": "en butterdej",
+    "en": "a puff dough"
+   },
+   {
+    "da": "en forret",
+    "en": "a starter"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fyldte hver **tartelet** med høns og asparges.",
+   "en": "She filled each tartlet with chicken and asparagus."
+  }
+ },
  "en taske": {
   "explanation": "\"En taske\" means \"a bag\" with a handle or strap. A thin plastic shop bag is en pose (a plastic bag) instead. Words can go in front: en håndtaske (a handbag), en skoletaske (a school bag).",
   "forms": [
@@ -3513,6 +5822,45 @@
    "en": "I have books in my bag."
   }
  },
+ "en tatovering": {
+  "explanation": "\"En tatovering\" means \"a tattoo\", a picture or text drawn into the skin with ink. Many Danes also say en tattoo, using the English word.",
+  "forms": [
+   {
+    "da": "en tatovering",
+    "en": "a tattoo"
+   },
+   {
+    "da": "tatoveringen",
+    "en": "the tattoo"
+   },
+   {
+    "da": "tatoveringer",
+    "en": "tattoos"
+   },
+   {
+    "da": "tatoveringerne",
+    "en": "the tattoos"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tatovere",
+    "en": "to tattoo"
+   },
+   {
+    "da": "en tatovør",
+    "en": "a tattoo artist"
+   },
+   {
+    "da": "en tatoveringsstue",
+    "en": "a tattoo parlor"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **tatovering** af en rose på armen.",
+   "en": "She has a tattoo of a rose on her arm."
+  }
+ },
  "en tavle": {
   "explanation": "\"En tavle\" means \"a blackboard\", the board at the front of a classroom. Add a word in front for other boards: en opslagstavle (a bulletin board).",
   "forms": [
@@ -3550,6 +5898,49 @@
   "sentence": {
    "da": "Der hænger en stor **tavle** i klasseværelset.",
    "en": "A big blackboard hangs in the classroom."
+  }
+ },
+ "en tavshed": {
+  "explanation": "\"En tavshed\" means \"a silence\", the quiet when nobody speaks, often a heavy or awkward one. For plain quiet with no sound at all, use stilhed (stillness).",
+  "forms": [
+   {
+    "da": "en tavshed",
+    "en": "a silence"
+   },
+   {
+    "da": "tavsheden",
+    "en": "the silence"
+   },
+   {
+    "da": "tavsheder",
+    "en": "silences"
+   },
+   {
+    "da": "tavshederne",
+    "en": "the silences"
+   }
+  ],
+  "related": [
+   {
+    "da": "tavs",
+    "en": "silent"
+   },
+   {
+    "da": "at tie",
+    "en": "to be quiet"
+   },
+   {
+    "da": "støj",
+    "en": "noise"
+   },
+   {
+    "da": "at tale",
+    "en": "to talk"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en lang **tavshed**, fordi ingen turde sige noget.",
+   "en": "There was a long silence because nobody dared to say anything."
   }
  },
  "en taxa": {
@@ -3745,6 +6136,49 @@
   "sentence": {
    "da": "I en **tegnefilm** er alle figurerne tegnet.",
    "en": "In a cartoon, all the characters are drawn."
+  }
+ },
+ "en tegner": {
+  "explanation": "\"En tegner\" means \"an illustrator\" or \"a cartoonist\", a person who draws for a living, for example for children's books or newspapers.",
+  "forms": [
+   {
+    "da": "en tegner",
+    "en": "an illustrator"
+   },
+   {
+    "da": "tegneren",
+    "en": "the illustrator"
+   },
+   {
+    "da": "tegnere",
+    "en": "illustrators"
+   },
+   {
+    "da": "tegnerne",
+    "en": "the illustrators"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tegne",
+    "en": "to draw"
+   },
+   {
+    "da": "en tegning",
+    "en": "a drawing"
+   },
+   {
+    "da": "en tegneserie",
+    "en": "a comic strip"
+   },
+   {
+    "da": "en maler",
+    "en": "a painter"
+   }
+  ],
+  "sentence": {
+   "da": "En **tegner** laver billederne til bogen, og forfatteren skriver teksten.",
+   "en": "An illustrator makes the pictures for the book and the author writes the text."
   }
  },
  "en tegneserie": {
@@ -3958,6 +6392,45 @@
    "en": "A text can be an article or a message."
   }
  },
+ "en tekstforfatter": {
+  "explanation": "\"En tekstforfatter\" means \"a lyricist\" or \"a copywriter\", so it covers two jobs: someone who writes the words for songs, and someone who writes texts for ads and companies. Context shows which one is meant.",
+  "forms": [
+   {
+    "da": "en tekstforfatter",
+    "en": "a lyricist / copywriter"
+   },
+   {
+    "da": "tekstforfatteren",
+    "en": "the lyricist / copywriter"
+   },
+   {
+    "da": "tekstforfattere",
+    "en": "lyricists / copywriters"
+   },
+   {
+    "da": "tekstforfatterne",
+    "en": "the lyricists / copywriters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en komponist",
+    "en": "a composer"
+   },
+   {
+    "da": "en sangskriver",
+    "en": "a songwriter"
+   },
+   {
+    "da": "en digter",
+    "en": "a poet"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **tekstforfatter** og skriver ord til andres melodier.",
+   "en": "She is a lyricist and writes words for other people's melodies."
+  }
+ },
  "en telefon": {
   "explanation": "\"En telefon\" means \"a phone\". A mobile phone is en mobiltelefon or, more often, just en mobil. To call someone, say at ringe til: Jeg ringer til dig (I will call you).",
   "forms": [
@@ -4034,6 +6507,49 @@
   "sentence": {
    "da": "Tyve grader er en god **temperatur**.",
    "en": "Twenty degrees is a good temperature."
+  }
+ },
+ "en tendens": {
+  "explanation": "\"En tendens\" means \"a trend\" or \"a tendency\", the way something is slowly heading. It is often followed by til: en tendens til stress (a tendency toward stress).",
+  "forms": [
+   {
+    "da": "en tendens",
+    "en": "a trend"
+   },
+   {
+    "da": "tendensen",
+    "en": "the trend"
+   },
+   {
+    "da": "tendenser",
+    "en": "trends"
+   },
+   {
+    "da": "tendenserne",
+    "en": "the trends"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   },
+   {
+    "da": "en retning",
+    "en": "a direction"
+   },
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en tilbøjelighed",
+    "en": "an inclination"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **tendens** til, at priserne stiger hvert år.",
+   "en": "There is a tendency for prices to rise every year."
   }
  },
  "en teori": {
@@ -4122,6 +6638,92 @@
    "en": "I put a tea bag in the hot water."
   }
  },
+ "en terapeut": {
+  "explanation": "\"En terapeut\" means \"a therapist\", a trained person who helps people with emotional problems by talking, or with physical problems by treatment, for example en fysioterapeut (a physical therapist).",
+  "forms": [
+   {
+    "da": "en terapeut",
+    "en": "a therapist"
+   },
+   {
+    "da": "terapeuten",
+    "en": "the therapist"
+   },
+   {
+    "da": "terapeuter",
+    "en": "therapists"
+   },
+   {
+    "da": "terapeuterne",
+    "en": "the therapists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en psykolog",
+    "en": "a psychologist"
+   },
+   {
+    "da": "en terapi",
+    "en": "a therapy"
+   },
+   {
+    "da": "en behandling",
+    "en": "a treatment"
+   },
+   {
+    "da": "en psykiater",
+    "en": "a psychiatrist"
+   }
+  ],
+  "sentence": {
+   "da": "Min **terapeut** hjælper mig med at tale om mine bekymringer.",
+   "en": "My therapist helps me talk about my worries."
+  }
+ },
+ "en termin": {
+  "explanation": "\"En termin\" means \"a due date\", especially for a baby: Barnets termin er i maj (The baby's due date is in May). It also means a fixed date for paying a part of a debt, such as a loan.",
+  "forms": [
+   {
+    "da": "en termin",
+    "en": "a due date"
+   },
+   {
+    "da": "terminen",
+    "en": "the due date"
+   },
+   {
+    "da": "terminer",
+    "en": "due dates"
+   },
+   {
+    "da": "terminerne",
+    "en": "the due dates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fødsel",
+    "en": "a birth"
+   },
+   {
+    "da": "et afdrag",
+    "en": "an installment"
+   },
+   {
+    "da": "en frist",
+    "en": "a deadline"
+   },
+   {
+    "da": "et semester",
+    "en": "a semester"
+   }
+  ],
+  "sentence": {
+   "da": "Næste **termin** på lånet skal betales den første i måneden.",
+   "en": "The next installment on the loan must be paid on the first of the month."
+  }
+ },
  "en termokande": {
   "explanation": "\"En termokande\" means \"a thermos\", an insulated jug that keeps drinks hot. It is built from termo (heat) and kande (jug).",
   "forms": [
@@ -4159,6 +6761,45 @@
   "sentence": {
    "da": "Vi har kaffe i en **termokande** på turen.",
    "en": "We have coffee in a thermos on the trip."
+  }
+ },
+ "en termokop": {
+  "explanation": "\"En termokop\" means \"a travel mug\", an insulated cup with a lid that you carry a hot drink in, for example on the way to work.",
+  "forms": [
+   {
+    "da": "en termokop",
+    "en": "a travel mug"
+   },
+   {
+    "da": "termokoppen",
+    "en": "the travel mug"
+   },
+   {
+    "da": "termokopper",
+    "en": "travel mugs"
+   },
+   {
+    "da": "termokopperne",
+    "en": "the travel mugs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en termokande",
+    "en": "a thermos jug"
+   },
+   {
+    "da": "et krus",
+    "en": "a mug"
+   },
+   {
+    "da": "en drikkedunk",
+    "en": "a water bottle"
+   }
+  ],
+  "sentence": {
+   "da": "Min **termokop** holder kaffen varm i flere timer.",
+   "en": "My travel mug keeps the coffee warm for several hours."
   }
  },
  "en terning": {
@@ -4399,6 +7040,84 @@
    "en": "I have a doctor's appointment today."
   }
  },
+ "en tidsel": {
+  "explanation": "\"En tidsel\" means \"a thistle\", a wild plant that grows in fields and along roads. It is often seen as a weed because it spreads easily among crops.",
+  "forms": [
+   {
+    "da": "en tidsel",
+    "en": "a thistle"
+   },
+   {
+    "da": "tidslen",
+    "en": "the thistle"
+   },
+   {
+    "da": "tidsler",
+    "en": "thistles"
+   },
+   {
+    "da": "tidslerne",
+    "en": "the thistles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en torn",
+    "en": "a thorn"
+   },
+   {
+    "da": "en nælde",
+    "en": "a nettle"
+   },
+   {
+    "da": "en burre",
+    "en": "a burdock"
+   }
+  ],
+  "sentence": {
+   "da": "En **tidsel** har skarpe pigge og en lilla blomst.",
+   "en": "A thistle has sharp spikes and a purple flower."
+  }
+ },
+ "en tidsfrist": {
+  "explanation": "\"En tidsfrist\" means \"a time limit\", the last moment by which something must be done or handed in. You keep it with at overholde tidsfristen (to meet the time limit) and break it with at overskride tidsfristen (to go past the time limit).",
+  "forms": [
+   {
+    "da": "en tidsfrist",
+    "en": "a time limit"
+   },
+   {
+    "da": "tidsfristen",
+    "en": "the time limit"
+   },
+   {
+    "da": "tidsfrister",
+    "en": "time limits"
+   },
+   {
+    "da": "tidsfristerne",
+    "en": "the time limits"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frist",
+    "en": "a deadline"
+   },
+   {
+    "da": "en deadline",
+    "en": "a deadline"
+   },
+   {
+    "da": "et tidspres",
+    "en": "time pressure"
+   }
+  ],
+  "sentence": {
+   "da": "Vi arbejder hurtigt, fordi vi har en **tidsfrist** på fredag.",
+   "en": "We work fast because we have a deadline on Friday."
+  }
+ },
  "en tidsplan": {
   "explanation": "\"En tidsplan\" means \"a schedule\", a plan for when things happen. It is built from tid (time) and plan (plan).",
   "forms": [
@@ -4520,6 +7239,205 @@
    "en": "A tiger is a big cat with stripes."
   }
  },
+ "en tigger": {
+  "explanation": "\"En tigger\" means \"a beggar\", a person who asks strangers for money or food, usually on the street. The matching verb is at tigge (to beg): at tigge penge (to beg for money).",
+  "forms": [
+   {
+    "da": "en tigger",
+    "en": "a beggar"
+   },
+   {
+    "da": "tiggeren",
+    "en": "the beggar"
+   },
+   {
+    "da": "tiggere",
+    "en": "beggars"
+   },
+   {
+    "da": "tiggerne",
+    "en": "the beggars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjemløs",
+    "en": "a homeless person"
+   },
+   {
+    "da": "en almisse",
+    "en": "alms"
+   },
+   {
+    "da": "en fattig",
+    "en": "a poor person"
+   }
+  ],
+  "sentence": {
+   "da": "En **tigger** sidder på gaden med en kop til mønter.",
+   "en": "A beggar sits on the street with a cup for coins."
+  }
+ },
+ "en tilbagebetaling": {
+  "explanation": "\"En tilbagebetaling\" means \"a refund\" or \"a repayment\", money that is paid back to the person who gave it. A shop does it when you return something, and a person does it when paying back borrowed money.",
+  "forms": [
+   {
+    "da": "en tilbagebetaling",
+    "en": "a refund / repayment"
+   },
+   {
+    "da": "tilbagebetalingen",
+    "en": "the refund / repayment"
+   },
+   {
+    "da": "tilbagebetalinger",
+    "en": "refunds / repayments"
+   },
+   {
+    "da": "tilbagebetalingerne",
+    "en": "the refunds / repayments"
+   }
+  ],
+  "related": [
+   {
+    "da": "et lån",
+    "en": "a loan"
+   },
+   {
+    "da": "et afdrag",
+    "en": "an installment"
+   },
+   {
+    "da": "en refusion",
+    "en": "a reimbursement"
+   },
+   {
+    "da": "en gæld",
+    "en": "a debt"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fik en **tilbagebetaling** for den ødelagte vare.",
+   "en": "I got a refund for the broken item."
+  }
+ },
+ "en tilbagegang": {
+  "explanation": "\"En tilbagegang\" means \"a decline\", a drop in something over time, such as sales, health or numbers. Its opposite is fremgang (progress).",
+  "forms": [
+   {
+    "da": "en tilbagegang",
+    "en": "a decline"
+   },
+   {
+    "da": "tilbagegangen",
+    "en": "the decline"
+   },
+   {
+    "da": "tilbagegange",
+    "en": "declines"
+   },
+   {
+    "da": "tilbagegangene",
+    "en": "the declines"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fald",
+    "en": "a fall"
+   },
+   {
+    "da": "en nedgang",
+    "en": "a decrease"
+   },
+   {
+    "da": "en stigning",
+    "en": "an increase"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken har haft en **tilbagegang** i salget i flere måneder.",
+   "en": "The shop has had a decline in sales for several months."
+  }
+ },
+ "en tilbagemelding": {
+  "explanation": "\"En tilbagemelding\" means \"feedback\", a response that tells someone how their work or idea was received. It can also be a simple answer, as in Jeg giver dig en tilbagemelding i morgen (I will get back to you tomorrow).",
+  "forms": [
+   {
+    "da": "en tilbagemelding",
+    "en": "feedback"
+   },
+   {
+    "da": "tilbagemeldingen",
+    "en": "the feedback"
+   },
+   {
+    "da": "tilbagemeldinger",
+    "en": "pieces of feedback"
+   },
+   {
+    "da": "tilbagemeldingerne",
+    "en": "the pieces of feedback"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kritik",
+    "en": "a criticism"
+   },
+   {
+    "da": "en evaluering",
+    "en": "an evaluation"
+   },
+   {
+    "da": "en kommentar",
+    "en": "a comment"
+   },
+   {
+    "da": "en anmeldelse",
+    "en": "a review"
+   }
+  ],
+  "sentence": {
+   "da": "Chefen gav mig en **tilbagemelding** på rapporten, og den var positiv.",
+   "en": "The boss gave me feedback on the report, and it was positive."
+  }
+ },
+ "en tilbagevenden": {
+  "explanation": "\"En tilbagevenden\" means \"a return\", the act of coming back to a place, a situation or an earlier state. It is a formal, written word, often used with til: tilbagevenden til hjemlandet (the return to the home country). In everyday speech, Danes say at komme tilbage (to come back).",
+  "forms": [
+   {
+    "da": "en tilbagevenden",
+    "en": "a return"
+   },
+   {
+    "da": "tilbagevenden til arbejdet",
+    "en": "the return to work"
+   },
+   {
+    "da": "en tilbagevenden til normalen",
+    "en": "a return to normal"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjemkomst",
+    "en": "a homecoming"
+   },
+   {
+    "da": "en hjemrejse",
+    "en": "a journey home"
+   },
+   {
+    "da": "en genoptagelse",
+    "en": "a resumption"
+   }
+  ],
+  "sentence": {
+   "da": "Folk ventede spændt på musikerens **tilbagevenden** efter ti år.",
+   "en": "People waited excitedly for the musician's return after ten years."
+  }
+ },
  "en tilbudsavis": {
   "explanation": "\"En tilbudsavis\" means \"a flyer with offers\". It is built from tilbud (offer) and avis (newspaper). Stores send it to your mailbox, and it is usually free.",
   "forms": [
@@ -4557,6 +7475,170 @@
   "sentence": {
    "da": "En **tilbudsavis** viser ugens billige varer.",
    "en": "A flyer with offers shows the week's cheap goods."
+  }
+ },
+ "en tilføjelse": {
+  "explanation": "\"En tilføjelse\" means \"an addition\", something extra put onto what already exists, like a note, a rule or a new part of a text. It belongs to at tilføje (to add).",
+  "forms": [
+   {
+    "da": "en tilføjelse",
+    "en": "an addition"
+   },
+   {
+    "da": "tilføjelsen",
+    "en": "the addition"
+   },
+   {
+    "da": "tilføjelser",
+    "en": "additions"
+   },
+   {
+    "da": "tilføjelserne",
+    "en": "the additions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tillæg",
+    "en": "a supplement"
+   },
+   {
+    "da": "en udvidelse",
+    "en": "an extension"
+   },
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "en fjernelse",
+    "en": "a removal"
+   }
+  ],
+  "sentence": {
+   "da": "Den nye **tilføjelse** til huset er et lyst køkken.",
+   "en": "The new addition to the house is a bright kitchen."
+  }
+ },
+ "en tilgang": {
+  "explanation": "\"En tilgang\" means \"an approach\", the way you handle a problem or a subject. It is often followed by til: en tilgang til undervisning (an approach to teaching).",
+  "forms": [
+   {
+    "da": "en tilgang",
+    "en": "an approach"
+   },
+   {
+    "da": "tilgangen",
+    "en": "the approach"
+   },
+   {
+    "da": "tilgange",
+    "en": "approaches"
+   },
+   {
+    "da": "tilgangene",
+    "en": "the approaches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en metode",
+    "en": "a method"
+   },
+   {
+    "da": "en fremgangsmåde",
+    "en": "a procedure"
+   },
+   {
+    "da": "en holdning",
+    "en": "an attitude"
+   },
+   {
+    "da": "en strategi",
+    "en": "a strategy"
+   }
+  ],
+  "sentence": {
+   "da": "Min **tilgang** til problemet er at tage ét skridt ad gangen.",
+   "en": "My approach to the problem is to take one step at a time."
+  }
+ },
+ "en tilhænger": {
+  "explanation": "\"En tilhænger\" means \"a supporter\", someone who believes in an idea, a person or a political party. For a sports team, Danes usually say en fan (a fan) instead.",
+  "forms": [
+   {
+    "da": "en tilhænger",
+    "en": "a supporter"
+   },
+   {
+    "da": "tilhængeren",
+    "en": "the supporter"
+   },
+   {
+    "da": "tilhængere",
+    "en": "supporters"
+   },
+   {
+    "da": "tilhængerne",
+    "en": "the supporters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en modstander",
+    "en": "an opponent"
+   },
+   {
+    "da": "en fortaler",
+    "en": "an advocate"
+   },
+   {
+    "da": "en støttespiller",
+    "en": "a backer"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er en stor **tilhænger** af den nye lov.",
+   "en": "She is a big supporter of the new law."
+  }
+ },
+ "en tilhører": {
+  "explanation": "\"En tilhører\" means \"a listener\", a person who listens to someone talking, for example at a lecture or on the radio. Do not mix it up with tilhører as a form of at tilhøre (to belong to): Bogen tilhører mig (The book belongs to me).",
+  "forms": [
+   {
+    "da": "en tilhører",
+    "en": "a listener"
+   },
+   {
+    "da": "tilhøreren",
+    "en": "the listener"
+   },
+   {
+    "da": "tilhørere",
+    "en": "listeners"
+   },
+   {
+    "da": "tilhørerne",
+    "en": "the listeners"
+   }
+  ],
+  "related": [
+   {
+    "da": "et publikum",
+    "en": "an audience"
+   },
+   {
+    "da": "en tilskuer",
+    "en": "a spectator"
+   },
+   {
+    "da": "en foredragsholder",
+    "en": "a lecturer"
+   }
+  ],
+  "sentence": {
+   "da": "En **tilhører** sidder stille og lytter til foredraget.",
+   "en": "A listener sits quietly and listens to the talk."
   }
  },
  "en tilkørsel": {
@@ -4598,6 +7680,45 @@
    "en": "An on-ramp leads you up onto the highway."
   }
  },
+ "en tilladelse": {
+  "explanation": "\"En tilladelse\" means \"a permission\", and also \"a permit\", an OK to do something. Said in general, it comes without en: Du skal have tilladelse (You need permission). With en it is often a written permit: en tilladelse til at fiske (a permit to fish).",
+  "forms": [
+   {
+    "da": "en tilladelse",
+    "en": "a permission"
+   },
+   {
+    "da": "tilladelsen",
+    "en": "the permission"
+   },
+   {
+    "da": "tilladelser",
+    "en": "permissions"
+   },
+   {
+    "da": "tilladelserne",
+    "en": "the permissions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tillade",
+    "en": "to allow"
+   },
+   {
+    "da": "et forbud",
+    "en": "a ban"
+   },
+   {
+    "da": "en godkendelse",
+    "en": "an approval"
+   }
+  ],
+  "sentence": {
+   "da": "Du må ikke bygge uden **tilladelse** fra kommunen.",
+   "en": "You may not build without permission from the municipality."
+  }
+ },
  "en tilmelding": {
   "explanation": "\"En tilmelding\" means \"a registration / sign-up\", when you put your name down for a course or an event. The matching verb is at tilmelde sig (to sign up).",
   "forms": [
@@ -4635,6 +7756,299 @@
   "sentence": {
    "da": "**Tilmelding** er åben indtil fredag.",
    "en": "Sign-up is open until Friday."
+  }
+ },
+ "en tilpasning": {
+  "explanation": "\"En tilpasning\" means \"an adaptation\", the process of altering something, or yourself, to fit a new situation. It is often used without en for the general idea.",
+  "forms": [
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   },
+   {
+    "da": "tilpasningen",
+    "en": "the adaptation"
+   },
+   {
+    "da": "tilpasninger",
+    "en": "adaptations"
+   },
+   {
+    "da": "tilpasningerne",
+    "en": "the adaptations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilpasse",
+    "en": "to adapt"
+   },
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "en justering",
+    "en": "an adjustment"
+   },
+   {
+    "da": "en omstilling",
+    "en": "a transition"
+   }
+  ],
+  "sentence": {
+   "da": "Det kræver **tilpasning** at flytte til et nyt land.",
+   "en": "It takes adaptation to move to a new country."
+  }
+ },
+ "en tilskuer": {
+  "explanation": "\"En tilskuer\" means \"a spectator\", a person who watches an event, such as a match or a show.",
+  "forms": [
+   {
+    "da": "en tilskuer",
+    "en": "a spectator"
+   },
+   {
+    "da": "tilskueren",
+    "en": "the spectator"
+   },
+   {
+    "da": "tilskuere",
+    "en": "spectators"
+   },
+   {
+    "da": "tilskuerne",
+    "en": "the spectators"
+   }
+  ],
+  "related": [
+   {
+    "da": "et publikum",
+    "en": "an audience"
+   },
+   {
+    "da": "en seer",
+    "en": "a viewer"
+   },
+   {
+    "da": "en deltager",
+    "en": "a participant"
+   },
+   {
+    "da": "en tilhører",
+    "en": "a listener"
+   }
+  ],
+  "sentence": {
+   "da": "En **tilskuer** ser kampen, men spiller ikke selv.",
+   "en": "A spectator watches the match but does not play."
+  }
+ },
+ "en tilstand": {
+  "explanation": "\"En tilstand\" means \"a condition\" or \"a state\", how a person or thing is at a given moment: Patientens tilstand er stabil (The patient's condition is stable). It is not used for a country as a government, which is en stat.",
+  "forms": [
+   {
+    "da": "en tilstand",
+    "en": "a condition"
+   },
+   {
+    "da": "tilstanden",
+    "en": "the condition"
+   },
+   {
+    "da": "tilstande",
+    "en": "conditions"
+   },
+   {
+    "da": "tilstandene",
+    "en": "the conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en situation",
+    "en": "a situation"
+   },
+   {
+    "da": "en stemning",
+    "en": "a mood"
+   },
+   {
+    "da": "en status",
+    "en": "a status"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er gammel, men den er i god **tilstand**.",
+   "en": "The car is old, but it is in good condition."
+  }
+ },
+ "en tilståelse": {
+  "explanation": "\"En tilståelse\" means \"a confession\", a statement in which someone owns up to having done something wrong, especially to the police or in court. The verb is at tilstå: Han tilstod (He confessed).",
+  "forms": [
+   {
+    "da": "en tilståelse",
+    "en": "a confession"
+   },
+   {
+    "da": "tilståelsen",
+    "en": "the confession"
+   },
+   {
+    "da": "tilståelser",
+    "en": "confessions"
+   },
+   {
+    "da": "tilståelserne",
+    "en": "the confessions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indrømmelse",
+    "en": "an admission"
+   },
+   {
+    "da": "en skyld",
+    "en": "guilt"
+   },
+   {
+    "da": "en anklage",
+    "en": "an accusation"
+   },
+   {
+    "da": "en erkendelse",
+    "en": "an acknowledgment"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet fik en **tilståelse** efter flere timers afhøring.",
+   "en": "The police got a confession after several hours of questioning."
+  }
+ },
+ "en tiltalt": {
+  "explanation": "\"En tiltalt\" means \"a defendant\", a person who is on trial for a crime. The same word is used for being charged: Han er tiltalt for tyveri (He is charged with theft).",
+  "forms": [
+   {
+    "da": "en tiltalt",
+    "en": "a defendant"
+   },
+   {
+    "da": "tiltalten",
+    "en": "the defendant"
+   },
+   {
+    "da": "tiltalte",
+    "en": "defendants"
+   },
+   {
+    "da": "de tiltalte",
+    "en": "the defendants"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sigtet",
+    "en": "a suspect"
+   },
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en dom",
+    "en": "a verdict"
+   }
+  ],
+  "sentence": {
+   "da": "I retten sidder en **tiltalt** ved siden af sin forsvarer.",
+   "en": "In the courtroom, a defendant sits next to his defense attorney."
+  }
+ },
+ "en tiltrækning": {
+  "explanation": "\"En tiltrækning\" means \"an attraction\", a pull toward something or someone, like the pull between two people.",
+  "forms": [
+   {
+    "da": "en tiltrækning",
+    "en": "an attraction"
+   },
+   {
+    "da": "tiltrækningen",
+    "en": "the attraction"
+   },
+   {
+    "da": "tiltrækninger",
+    "en": "attractions"
+   },
+   {
+    "da": "tiltrækningerne",
+    "en": "the attractions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tiltrække",
+    "en": "to attract"
+   },
+   {
+    "da": "en frastødning",
+    "en": "a repulsion"
+   },
+   {
+    "da": "en magnet",
+    "en": "a magnet"
+   },
+   {
+    "da": "en forelskelse",
+    "en": "an infatuation"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en stærk **tiltrækning** mellem dem fra første møde.",
+   "en": "There was a strong attraction between them from the first meeting."
+  }
+ },
+ "en tilvænning": {
+  "explanation": "\"En tilvænning\" means \"an adjustment\", the time it takes to get used to something new, such as a new job or home. It belongs to at vænne sig til (to get used to).",
+  "forms": [
+   {
+    "da": "en tilvænning",
+    "en": "an adjustment"
+   },
+   {
+    "da": "tilvænningen",
+    "en": "the adjustment"
+   },
+   {
+    "da": "tilvænninger",
+    "en": "adjustments"
+   },
+   {
+    "da": "tilvænningerne",
+    "en": "the adjustments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en omstilling",
+    "en": "a change-over"
+   },
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   },
+   {
+    "da": "en overgang",
+    "en": "a transition"
+   }
+  ],
+  "sentence": {
+   "da": "Det kræver **tilvænning** at starte i en ny børnehave.",
+   "en": "It takes some adjustment to start in a new kindergarten."
   }
  },
  "en time": {
@@ -5164,6 +8578,92 @@
    "en": "We have to go through a customs check at the airport."
   }
  },
+ "en tolk": {
+  "explanation": "\"En tolk\" means \"an interpreter\", a person who translates speech out loud, on the spot, so that two people who do not understand each other can talk. Written texts are handled by en oversætter (a translator).",
+  "forms": [
+   {
+    "da": "en tolk",
+    "en": "an interpreter"
+   },
+   {
+    "da": "tolken",
+    "en": "the interpreter"
+   },
+   {
+    "da": "tolke",
+    "en": "interpreters"
+   },
+   {
+    "da": "tolkene",
+    "en": "the interpreters"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tolke",
+    "en": "to interpret"
+   },
+   {
+    "da": "en tolkning",
+    "en": "an interpretation"
+   },
+   {
+    "da": "en tegnsprogstolk",
+    "en": "a sign language interpreter"
+   },
+   {
+    "da": "en simultantolk",
+    "en": "a simultaneous interpreter"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bad en **tolk** om at oversætte, fordi vi ikke talte dansk.",
+   "en": "We asked an interpreter to translate because we did not speak Danish."
+  }
+ },
+ "en tolkning": {
+  "explanation": "\"En tolkning\" means \"an interpretation\", a personal reading of something unclear, such as a text, a law or a dream. It is also a performance of a piece of music or a role: skuespillerens tolkning af Hamlet (the actor's take on Hamlet).",
+  "forms": [
+   {
+    "da": "en tolkning",
+    "en": "an interpretation"
+   },
+   {
+    "da": "tolkningen",
+    "en": "the interpretation"
+   },
+   {
+    "da": "tolkninger",
+    "en": "interpretations"
+   },
+   {
+    "da": "tolkningerne",
+    "en": "the interpretations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tolke",
+    "en": "to interpret"
+   },
+   {
+    "da": "en tolk",
+    "en": "an interpreter"
+   },
+   {
+    "da": "en forklaring",
+    "en": "an explanation"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "Hver læser har sin egen **tolkning** af digtet.",
+   "en": "Every reader has their own interpretation of the poem."
+  }
+ },
  "en tomat": {
   "explanation": "\"En tomat\" means \"a tomato\". It joins with other words: tomatsuppe (tomato soup) and tomatsovs (tomato sauce).",
   "forms": [
@@ -5201,6 +8701,45 @@
   "sentence": {
    "da": "En **tomat** er rød og rund.",
    "en": "A tomato is red and round."
+  }
+ },
+ "en tombola": {
+  "explanation": "\"En tombola\" means \"a raffle\", a game where you buy a numbered ticket and win a gift if your number is drawn. It is common at school fairs and club events.",
+  "forms": [
+   {
+    "da": "en tombola",
+    "en": "a raffle"
+   },
+   {
+    "da": "tombolaen",
+    "en": "the raffle"
+   },
+   {
+    "da": "tombolaer",
+    "en": "raffles"
+   },
+   {
+    "da": "tombolaerne",
+    "en": "the raffles"
+   }
+  ],
+  "related": [
+   {
+    "da": "et lotteri",
+    "en": "a lottery"
+   },
+   {
+    "da": "en gevinst",
+    "en": "a win"
+   },
+   {
+    "da": "en præmie",
+    "en": "a prize"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **tombola** til festen, og alle kan vinde noget.",
+   "en": "There is a raffle at the party, and everyone can win something."
   }
  },
  "en tommelfinger": {
@@ -5283,6 +8822,92 @@
   "sentence": {
    "da": "Det er varmt, og hun tager en **top** på.",
    "en": "It is warm, and she puts on a top."
+  }
+ },
+ "en torn": {
+  "explanation": "\"En torn\" means \"a thorn\", a sharp point that grows on a plant. It also appears in en torn i øjet (a thorn in the eye), about something that keeps annoying you.",
+  "forms": [
+   {
+    "da": "en torn",
+    "en": "a thorn"
+   },
+   {
+    "da": "tornen",
+    "en": "the thorn"
+   },
+   {
+    "da": "torne",
+    "en": "thorns"
+   },
+   {
+    "da": "tornene",
+    "en": "the thorns"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tornebusk",
+    "en": "a thorn bush"
+   },
+   {
+    "da": "en tidsel",
+    "en": "a thistle"
+   },
+   {
+    "da": "en kaktus",
+    "en": "a cactus"
+   },
+   {
+    "da": "en pig",
+    "en": "a prickle"
+   }
+  ],
+  "sentence": {
+   "da": "Rosen har en skarp **torn** på stilken, og den kan stikke.",
+   "en": "The rose has a sharp thorn on the stem, and it can prick."
+  }
+ },
+ "en tornado": {
+  "explanation": "\"En tornado\" means \"a tornado\", a narrow, spinning column of wind that reaches from a thundercloud down to the ground. It is much smaller and shorter than en orkan (a hurricane), which is a huge system of wind and rain.",
+  "forms": [
+   {
+    "da": "en tornado",
+    "en": "a tornado"
+   },
+   {
+    "da": "tornadoen",
+    "en": "the tornado"
+   },
+   {
+    "da": "tornadoer",
+    "en": "tornadoes"
+   },
+   {
+    "da": "tornadoerne",
+    "en": "the tornadoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "et uvejr",
+    "en": "a bad storm"
+   },
+   {
+    "da": "en skypumpe",
+    "en": "a waterspout"
+   },
+   {
+    "da": "en cyklon",
+    "en": "a cyclone"
+   }
+  ],
+  "sentence": {
+   "da": "En **tornado** kan rive huse op og kaste biler gennem luften.",
+   "en": "A tornado can tear houses up and throw cars through the air."
   }
  },
  "en tortilla": {
@@ -5406,6 +9031,84 @@
    "en": "It is an old tradition in our family."
   }
  },
+ "en tragedie": {
+  "explanation": "\"En tragedie\" means \"a tragedy\", a terrible event with great loss. It is also a serious play with a sad ending, the opposite of en komedie (a comedy).",
+  "forms": [
+   {
+    "da": "en tragedie",
+    "en": "a tragedy"
+   },
+   {
+    "da": "tragedien",
+    "en": "the tragedy"
+   },
+   {
+    "da": "tragedier",
+    "en": "tragedies"
+   },
+   {
+    "da": "tragedierne",
+    "en": "the tragedies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en katastrofe",
+    "en": "a disaster"
+   },
+   {
+    "da": "en ulykke",
+    "en": "an accident"
+   },
+   {
+    "da": "en sorg",
+    "en": "sorrow"
+   }
+  ],
+  "sentence": {
+   "da": "Branden i skolen var en **tragedie** for hele byen.",
+   "en": "The fire at the school was a tragedy for the whole town."
+  }
+ },
+ "en traktat": {
+  "explanation": "\"En traktat\" means \"a treaty\", a formal written deal between countries that they promise to follow. For a deal between people or companies, use en aftale (an agreement) instead.",
+  "forms": [
+   {
+    "da": "en traktat",
+    "en": "a treaty"
+   },
+   {
+    "da": "traktaten",
+    "en": "the treaty"
+   },
+   {
+    "da": "traktater",
+    "en": "treaties"
+   },
+   {
+    "da": "traktaterne",
+    "en": "the treaties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   },
+   {
+    "da": "en pagt",
+    "en": "a pact"
+   },
+   {
+    "da": "en konvention",
+    "en": "a convention"
+   }
+  ],
+  "sentence": {
+   "da": "Landene underskrev en **traktat** og lovede at holde freden.",
+   "en": "The countries signed a treaty and promised to keep the peace."
+  }
+ },
  "en traktor": {
   "explanation": "\"En traktor\" means \"a tractor\", the big farm vehicle with large rear wheels. It pulls heavy loads and tools across the fields.",
   "forms": [
@@ -5447,6 +9150,88 @@
   "sentence": {
    "da": "Landmanden kører **traktor** hen over marken.",
    "en": "The farmer drives a tractor across the field."
+  }
+ },
+ "en trang": {
+  "explanation": "\"En trang\" means \"an urge\", a strong wish from inside to do or have something, usually followed by til (to): en trang til sødt (a craving for sweets). As a describing word, trang means narrow: et trangt rum (a narrow room).",
+  "forms": [
+   {
+    "da": "en trang",
+    "en": "an urge"
+   },
+   {
+    "da": "trangen",
+    "en": "the urge"
+   },
+   {
+    "da": "tranger",
+    "en": "urges"
+   },
+   {
+    "da": "trangene",
+    "en": "the urges"
+   }
+  ],
+  "related": [
+   {
+    "da": "et behov",
+    "en": "a need"
+   },
+   {
+    "da": "en lyst",
+    "en": "a desire"
+   },
+   {
+    "da": "et begær",
+    "en": "a longing"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fik en pludselig **trang** til at synge.",
+   "en": "I suddenly felt an urge to sing."
+  }
+ },
+ "en transaktion": {
+  "explanation": "\"En transaktion\" means \"a transaction\", one single movement of money, such as a card purchase or a deposit. Each line in your online bank is one transaktion.",
+  "forms": [
+   {
+    "da": "en transaktion",
+    "en": "a transaction"
+   },
+   {
+    "da": "transaktionen",
+    "en": "the transaction"
+   },
+   {
+    "da": "transaktioner",
+    "en": "transactions"
+   },
+   {
+    "da": "transaktionerne",
+    "en": "the transactions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en betaling",
+    "en": "a payment"
+   },
+   {
+    "da": "en overførsel",
+    "en": "a transfer"
+   },
+   {
+    "da": "en kontoudskrift",
+    "en": "a bank statement"
+   },
+   {
+    "da": "en handel",
+    "en": "a deal"
+   }
+  ],
+  "sentence": {
+   "da": "Banken har stoppet min **transaktion**, fordi kortet var spærret.",
+   "en": "The bank stopped my transaction because the card was blocked."
   }
  },
  "en trappe": {
@@ -5621,6 +9406,49 @@
    "en": "The little one sleeps in a crib next to us."
   }
  },
+ "en trillebør": {
+  "explanation": "\"En trillebør\" means \"a wheelbarrow\", a small cart with one wheel in front and two handles, used in the garden or on building sites to carry heavy loads. The first part comes from at trille (to roll).",
+  "forms": [
+   {
+    "da": "en trillebør",
+    "en": "a wheelbarrow"
+   },
+   {
+    "da": "trillebøren",
+    "en": "the wheelbarrow"
+   },
+   {
+    "da": "trillebørre",
+    "en": "wheelbarrows"
+   },
+   {
+    "da": "trillebørrene",
+    "en": "the wheelbarrows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kærre",
+    "en": "a cart"
+   },
+   {
+    "da": "en sækkevogn",
+    "en": "a hand truck"
+   },
+   {
+    "da": "en trækvogn",
+    "en": "a wagon"
+   },
+   {
+    "da": "en skovl",
+    "en": "a shovel"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg flytter jorden i haven med en **trillebør**.",
+   "en": "I move the soil in the garden with a wheelbarrow."
+  }
+ },
  "en troldmand": {
   "explanation": "\"En troldmand\" means \"a wizard\", a man in stories who can do magic. It is built from trold (troll) and mand (man).",
   "forms": [
@@ -5742,6 +9570,92 @@
    "en": "My uncle plays the trumpet in an orchestra."
   }
  },
+ "en trone": {
+  "explanation": "\"En trone\" means \"a throne\", the grand chair of a king or queen. It also stands for royal power itself: at arve tronen (to inherit the throne).",
+  "forms": [
+   {
+    "da": "en trone",
+    "en": "a throne"
+   },
+   {
+    "da": "tronen",
+    "en": "the throne"
+   },
+   {
+    "da": "troner",
+    "en": "thrones"
+   },
+   {
+    "da": "tronerne",
+    "en": "the thrones"
+   }
+  ],
+  "related": [
+   {
+    "da": "en krone",
+    "en": "a crown"
+   },
+   {
+    "da": "et scepter",
+    "en": "a scepter"
+   },
+   {
+    "da": "en tronfølger",
+    "en": "an heir to the throne"
+   },
+   {
+    "da": "en regent",
+    "en": "a ruler"
+   }
+  ],
+  "sentence": {
+   "da": "Kongen sidder på sin **trone** i den store sal.",
+   "en": "The king sits on his throne in the big hall."
+  }
+ },
+ "en trop": {
+  "explanation": "\"En trop\" means \"a troop\", a group of fighters or scouts. Most often you see the plural tropper (troops), for example when a country sends soldiers abroad.",
+  "forms": [
+   {
+    "da": "en trop",
+    "en": "a troop"
+   },
+   {
+    "da": "tropen",
+    "en": "the troop"
+   },
+   {
+    "da": "tropper",
+    "en": "troops"
+   },
+   {
+    "da": "tropperne",
+    "en": "the troops"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hær",
+    "en": "an army"
+   },
+   {
+    "da": "en deling",
+    "en": "a platoon"
+   },
+   {
+    "da": "en patrulje",
+    "en": "a patrol"
+   },
+   {
+    "da": "en bataljon",
+    "en": "a battalion"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **trop** af spejdere har sin egen leder.",
+   "en": "Each troop of scouts has its own leader."
+  }
+ },
  "en trussel": {
   "explanation": "\"En trussel\" means \"a threat\", something that might cause harm. It also works for something that puts nature or people at risk: en trussel mod miljøet (a threat to the environment).",
   "forms": [
@@ -5783,6 +9697,49 @@
   "sentence": {
    "da": "Det er en **trussel**, når nogen vil gøre dig ondt.",
    "en": "It is a threat when someone wants to hurt you."
+  }
+ },
+ "en trækfugl": {
+  "explanation": "\"En trækfugl\" means \"a migratory bird\", a bird that flies far away for the winter and comes back in spring. Here træk is the yearly journey, the same word as in at trække (to pull).",
+  "forms": [
+   {
+    "da": "en trækfugl",
+    "en": "a migratory bird"
+   },
+   {
+    "da": "trækfuglen",
+    "en": "the migratory bird"
+   },
+   {
+    "da": "trækfugle",
+    "en": "migratory birds"
+   },
+   {
+    "da": "trækfuglene",
+    "en": "the migratory birds"
+   }
+  ],
+  "related": [
+   {
+    "da": "en standfugl",
+    "en": "a resident bird"
+   },
+   {
+    "da": "en vildgås",
+    "en": "a wild goose"
+   },
+   {
+    "da": "en trane",
+    "en": "a crane"
+   },
+   {
+    "da": "en stork",
+    "en": "a stork"
+   }
+  ],
+  "sentence": {
+   "da": "Svalen er en **trækfugl**, og den flyver til Afrika om vinteren.",
+   "en": "The swallow is a migratory bird, and it flies to Africa in the winter."
   }
  },
  "en træner": {
@@ -5865,6 +9822,45 @@
   "sentence": {
    "da": "Jeg har en varm **trøje** på.",
    "en": "I am wearing a warm sweater."
+  }
+ },
+ "en tudse": {
+  "explanation": "\"En tudse\" means \"a toad\". It looks like en frø (a frog) but spends more time on land.",
+  "forms": [
+   {
+    "da": "en tudse",
+    "en": "a toad"
+   },
+   {
+    "da": "tudsen",
+    "en": "the toad"
+   },
+   {
+    "da": "tudser",
+    "en": "toads"
+   },
+   {
+    "da": "tudserne",
+    "en": "the toads"
+   }
+  ],
+  "related": [
+   {
+    "da": "en haletudse",
+    "en": "a tadpole"
+   },
+   {
+    "da": "en salamander",
+    "en": "a salamander"
+   },
+   {
+    "da": "et krybdyr",
+    "en": "a reptile"
+   }
+  ],
+  "sentence": {
+   "da": "En **tudse** har tør, knoldet hud og lever mest på land.",
+   "en": "A toad has dry, bumpy skin and lives mostly on land."
   }
  },
  "en tulipan": {
@@ -6109,6 +10105,49 @@
    "en": "The old bridge is a famous tourist attraction."
   }
  },
+ "en turnering": {
+  "explanation": "\"En turnering\" means \"a tournament\", a competition in several rounds, in sports or in games such as chess, ending with a winner.",
+  "forms": [
+   {
+    "da": "en turnering",
+    "en": "a tournament"
+   },
+   {
+    "da": "turneringen",
+    "en": "the tournament"
+   },
+   {
+    "da": "turneringer",
+    "en": "tournaments"
+   },
+   {
+    "da": "turneringerne",
+    "en": "the tournaments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kamp",
+    "en": "a match"
+   },
+   {
+    "da": "et mesterskab",
+    "en": "a championship"
+   },
+   {
+    "da": "en finale",
+    "en": "a final"
+   },
+   {
+    "da": "en pokal",
+    "en": "a trophy"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal spille tre kampe i en **turnering** i weekenden.",
+   "en": "We will play three matches in a tournament this weekend."
+  }
+ },
  "en tusch": {
   "explanation": "\"En tusch\" means \"a marker\", a pen with thick colored ink. A thin pen for writing is en kuglepen (a ballpoint pen).",
   "forms": [
@@ -6234,6 +10273,49 @@
    "en": "I am watching a new TV series about a detective."
   }
  },
+ "en tvetydighed": {
+  "explanation": "\"En tvetydighed\" means \"an ambiguity\", something that can be understood in two ways. It is literally a two-meaning thing. Compare en uklarhed (a lack of clarity), where something is simply not settled.",
+  "forms": [
+   {
+    "da": "en tvetydighed",
+    "en": "an ambiguity"
+   },
+   {
+    "da": "tvetydigheden",
+    "en": "the ambiguity"
+   },
+   {
+    "da": "tvetydigheder",
+    "en": "ambiguities"
+   },
+   {
+    "da": "tvetydighederne",
+    "en": "the ambiguities"
+   }
+  ],
+  "related": [
+   {
+    "da": "tvetydig",
+    "en": "ambiguous"
+   },
+   {
+    "da": "entydig",
+    "en": "unambiguous"
+   },
+   {
+    "da": "en dobbeltbetydning",
+    "en": "a double sense"
+   },
+   {
+    "da": "en misforståelse",
+    "en": "a misunderstanding"
+   }
+  ],
+  "sentence": {
+   "da": "Sætningen har en **tvetydighed**, fordi man kan læse den på to måder.",
+   "en": "The sentence has an ambiguity because you can read it in two ways."
+  }
+ },
  "en tvilling": {
   "explanation": "\"En tvilling\" means \"a twin\", one of two children born at the same time. The same word is used for boys and girls.",
   "forms": [
@@ -6349,6 +10431,127 @@
   "sentence": {
    "da": "Han er en meget flink **type**.",
    "en": "He is a very nice guy."
+  }
+ },
+ "en tyr": {
+  "explanation": "\"En tyr\" means \"a bull\", a full-grown male of cattle, kept for breeding. Tyren (the Bull) is also the star sign Taurus.",
+  "forms": [
+   {
+    "da": "en tyr",
+    "en": "a bull"
+   },
+   {
+    "da": "tyren",
+    "en": "the bull"
+   },
+   {
+    "da": "tyre",
+    "en": "bulls"
+   },
+   {
+    "da": "tyrene",
+    "en": "the bulls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en okse",
+    "en": "an ox"
+   },
+   {
+    "da": "en kvie",
+    "en": "a heifer"
+   },
+   {
+    "da": "en kalv",
+    "en": "a calf"
+   }
+  ],
+  "sentence": {
+   "da": "En **tyr** er hannen, og en ko er hunnen.",
+   "en": "A bull is the male, and a cow is the female."
+  }
+ },
+ "en tyrekalv": {
+  "explanation": "\"En tyrekalv\" means \"a bull calf\", a young male of cattle. The female version is en kvigekalv (a heifer calf).",
+  "forms": [
+   {
+    "da": "en tyrekalv",
+    "en": "a bull calf"
+   },
+   {
+    "da": "tyrekalven",
+    "en": "the bull calf"
+   },
+   {
+    "da": "tyrekalve",
+    "en": "bull calves"
+   },
+   {
+    "da": "tyrekalvene",
+    "en": "the bull calves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en okse",
+    "en": "an ox"
+   },
+   {
+    "da": "en ungtyr",
+    "en": "a young bull"
+   }
+  ],
+  "sentence": {
+   "da": "Landmanden har en ko og en **tyrekalv** i stalden.",
+   "en": "The farmer has a cow and a bull calf in the barn."
+  }
+ },
+ "en tyrker": {
+  "explanation": "\"En tyrker\" means \"a Turk\", a person from Turkey. The country is Tyrkiet, and the Danish word for Turkish is tyrkisk. Danish writes nationalities with a small letter: en tyrker.",
+  "forms": [
+   {
+    "da": "en tyrker",
+    "en": "a Turk"
+   },
+   {
+    "da": "tyrkeren",
+    "en": "the Turk"
+   },
+   {
+    "da": "tyrkere",
+    "en": "Turks"
+   },
+   {
+    "da": "tyrkerne",
+    "en": "the Turks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en græker",
+    "en": "a Greek"
+   },
+   {
+    "da": "en bulgarer",
+    "en": "a Bulgarian"
+   },
+   {
+    "da": "en iraner",
+    "en": "an Iranian"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **tyrker**, og han kommer fra Istanbul.",
+   "en": "My neighbor is a Turk, and he comes from Istanbul."
   }
  },
  "en tysker": {
@@ -6476,6 +10679,49 @@
    "en": "Your toe sits at the end of your foot."
   }
  },
+ "en tåbe": {
+  "explanation": "\"En tåbe\" means \"a fool\", someone who acts without thinking. The matching describing word is tåbelig: Det var tåbeligt (That was foolish).",
+  "forms": [
+   {
+    "da": "en tåbe",
+    "en": "a fool"
+   },
+   {
+    "da": "tåben",
+    "en": "the fool"
+   },
+   {
+    "da": "tåber",
+    "en": "fools"
+   },
+   {
+    "da": "tåberne",
+    "en": "the fools"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fjols",
+    "en": "a simpleton"
+   },
+   {
+    "da": "en nar",
+    "en": "a jester"
+   },
+   {
+    "da": "en idiot",
+    "en": "an idiot"
+   },
+   {
+    "da": "en vismand",
+    "en": "a wise man"
+   }
+  ],
+  "sentence": {
+   "da": "Kun en **tåbe** går ud på den tynde is.",
+   "en": "Only a fool walks out on the thin ice."
+  }
+ },
  "en tåre": {
   "explanation": "\"En tåre\" means \"a tear\", a drop of water that runs down your cheek when you are very sad, happy or moved.",
   "forms": [
@@ -6558,6 +10804,45 @@
    "en": "I light the fire with a match."
   }
  },
+ "en tærskel": {
+  "explanation": "\"En tærskel\" means \"a threshold\". Besides the doorway, it is used for a limit that you cross: en smertetærskel (a pain threshold).",
+  "forms": [
+   {
+    "da": "en tærskel",
+    "en": "a threshold"
+   },
+   {
+    "da": "tærsklen",
+    "en": "the threshold"
+   },
+   {
+    "da": "tærskler",
+    "en": "thresholds"
+   },
+   {
+    "da": "tærsklerne",
+    "en": "the thresholds"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dørtrin",
+    "en": "a doorstep"
+   },
+   {
+    "da": "en grænse",
+    "en": "a boundary"
+   },
+   {
+    "da": "en indgang",
+    "en": "an entrance"
+   }
+  ],
+  "sentence": {
+   "da": "Det lave stykke i gulvet under en døråbning er en **tærskel**.",
+   "en": "The low piece in the floor under a doorway is a threshold."
+  }
+ },
  "en tøjbutik": {
   "explanation": "\"En tøjbutik\" means \"a clothing store\". It is made from tøj (clothes) and butik (shop), and Danish often joins words like this: en skobutik (a shoe store).",
   "forms": [
@@ -6595,6 +10880,45 @@
   "sentence": {
    "da": "Jeg køber bukser i en **tøjbutik**.",
    "en": "I buy trousers in a clothing store."
+  }
+ },
+ "en tøjbøjle": {
+  "explanation": "\"En tøjbøjle\" means \"a clothes hanger\", the frame you hang a shirt, jacket or dress on. It is often shortened to en bøjle.",
+  "forms": [
+   {
+    "da": "en tøjbøjle",
+    "en": "a clothes hanger"
+   },
+   {
+    "da": "tøjbøjlen",
+    "en": "the clothes hanger"
+   },
+   {
+    "da": "tøjbøjler",
+    "en": "clothes hangers"
+   },
+   {
+    "da": "tøjbøjlerne",
+    "en": "the clothes hangers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en garderobe",
+    "en": "a wardrobe"
+   },
+   {
+    "da": "en knage",
+    "en": "a hook"
+   },
+   {
+    "da": "et klædeskab",
+    "en": "a closet"
+   }
+  ],
+  "sentence": {
+   "da": "Skjorten hænger på en **tøjbøjle** i skabet.",
+   "en": "The shirt hangs on a clothes hanger in the closet."
   }
  },
  "en tøjkurv": {
@@ -6675,6 +10999,49 @@
    "en": "My clothing size is M, but I would like to try L."
   }
  },
+ "en tøjvask": {
+  "explanation": "\"En tøjvask\" means \"a laundry\", one load of dirty clothes. It is the job itself, not the place, which is et vaskeri (a laundry business).",
+  "forms": [
+   {
+    "da": "en tøjvask",
+    "en": "a laundry"
+   },
+   {
+    "da": "tøjvasken",
+    "en": "the laundry"
+   },
+   {
+    "da": "tøjvaske",
+    "en": "loads of laundry"
+   },
+   {
+    "da": "tøjvaskene",
+    "en": "the loads of laundry"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vaskemaskine",
+    "en": "a washing machine"
+   },
+   {
+    "da": "et vaskemiddel",
+    "en": "a detergent"
+   },
+   {
+    "da": "at vaske",
+    "en": "to wash"
+   },
+   {
+    "da": "en tørretumbler",
+    "en": "a dryer"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal lave en **tøjvask**, fordi kurven er fuld.",
+   "en": "I need to do a load of laundry because the basket is full."
+  }
+ },
  "en tømrer": {
   "explanation": "\"En tømrer\" means \"a carpenter\", someone who builds with wood, like roofs and house frames. For furniture, Danes say en snedker (a cabinetmaker).",
   "forms": [
@@ -6712,6 +11079,88 @@
   "sentence": {
    "da": "Min onkel er **tømrer** og arbejder med træ.",
    "en": "My uncle is a carpenter and works with wood."
+  }
+ },
+ "en tønde": {
+  "explanation": "\"En tønde\" means \"a barrel\", a large round container made of wooden boards, used for beer or oil. At the Danish carnival Fastelavn, children slå katten af tønden (knock the cat out of the barrel), which means hitting a barrel full of sweets until it breaks open.",
+  "forms": [
+   {
+    "da": "en tønde",
+    "en": "a barrel"
+   },
+   {
+    "da": "tønden",
+    "en": "the barrel"
+   },
+   {
+    "da": "tønder",
+    "en": "barrels"
+   },
+   {
+    "da": "tønderne",
+    "en": "the barrels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tank",
+    "en": "a tank"
+   },
+   {
+    "da": "en dunk",
+    "en": "a canister"
+   },
+   {
+    "da": "en spand",
+    "en": "a bucket"
+   },
+   {
+    "da": "en balje",
+    "en": "a tub"
+   }
+  ],
+  "sentence": {
+   "da": "Vinen ligger i en **tønde** af egetræ i kælderen.",
+   "en": "The wine lies in an oak barrel in the cellar."
+  }
+ },
+ "en tørke": {
+  "explanation": "\"En tørke\" means \"a drought\", a long period with little or no rain, which is hard on farmers.",
+  "forms": [
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   },
+   {
+    "da": "tørken",
+    "en": "the drought"
+   },
+   {
+    "da": "tørker",
+    "en": "droughts"
+   },
+   {
+    "da": "tørkerne",
+    "en": "the droughts"
+   }
+  ],
+  "related": [
+   {
+    "da": "tør",
+    "en": "dry"
+   },
+   {
+    "da": "en hedebølge",
+    "en": "a heat wave"
+   },
+   {
+    "da": "en oversvømmelse",
+    "en": "a flood"
+   }
+  ],
+  "sentence": {
+   "da": "Landmændene mister afgrøder, når en **tørke** varer i flere måneder.",
+   "en": "Farmers lose crops when a drought lasts for several months."
   }
  },
  "en tørresnor": {
@@ -6796,6 +11245,41 @@
    "en": "We do not have a dryer, so the clothes hang outside."
   }
  },
+ "en tøven": {
+  "explanation": "\"En tøven\" means \"a hesitation\", a short wait before you act because you are unsure. It comes from at tøve (to hesitate), and it is mostly used without en, after a word like med (with) or uden (without).",
+  "forms": [
+   {
+    "da": "en kort tøven",
+    "en": "a brief hesitation"
+   },
+   {
+    "da": "efter en tøven",
+    "en": "after a hesitation"
+   },
+   {
+    "da": "med tøven",
+    "en": "with hesitation"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tvivl",
+    "en": "a doubt"
+   },
+   {
+    "da": "en usikkerhed",
+    "en": "an uncertainty"
+   },
+   {
+    "da": "en modvilje",
+    "en": "a reluctance"
+   }
+  ],
+  "sentence": {
+   "da": "Hun sagde ja uden **tøven**, fordi hun var helt sikker.",
+   "en": "She said yes without hesitation because she was completely sure."
+  }
+ },
  "et tag": {
   "explanation": "\"Et tag\" means \"a roof\". The same word is also the order Tag! (Take!): Tag en kage! (Take a cake!)",
   "forms": [
@@ -6872,6 +11356,45 @@
   "sentence": {
    "da": "Vi bestiller **takeaway** i aften, fordi vi er trætte.",
    "en": "We are ordering takeout tonight because we are tired."
+  }
+ },
+ "et takkekort": {
+  "explanation": "\"Et takkekort\" means \"a thank-you card\", a card you send or give to thank someone, for example after a gift, a party or a wedding.",
+  "forms": [
+   {
+    "da": "et takkekort",
+    "en": "a thank-you card"
+   },
+   {
+    "da": "takkekortet",
+    "en": "the thank-you card"
+   },
+   {
+    "da": "takkekort",
+    "en": "thank-you cards"
+   },
+   {
+    "da": "takkekortene",
+    "en": "the thank-you cards"
+   }
+  ],
+  "related": [
+   {
+    "da": "et lykønskningskort",
+    "en": "a congratulations card"
+   },
+   {
+    "da": "et julekort",
+    "en": "a Christmas card"
+   },
+   {
+    "da": "et brev",
+    "en": "a letter"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skrev et **takkekort** til sin lærer, fordi han hjalp hende.",
+   "en": "She wrote a thank-you card to her teacher because he helped her."
   }
  },
  "et tal": {
@@ -6954,6 +11477,45 @@
   "sentence": {
    "da": "Hun har et stort **talent** for musik.",
    "en": "She has a great talent for music."
+  }
+ },
+ "et talkshow": {
+  "explanation": "\"Et talkshow\" means \"a talk show\", a TV or radio show where the person leading it talks with guests about news, culture or their lives.",
+  "forms": [
+   {
+    "da": "et talkshow",
+    "en": "a talk show"
+   },
+   {
+    "da": "talkshowet",
+    "en": "the talk show"
+   },
+   {
+    "da": "talkshows",
+    "en": "talk shows"
+   },
+   {
+    "da": "talkshowene",
+    "en": "the talk shows"
+   }
+  ],
+  "related": [
+   {
+    "da": "et program",
+    "en": "a program"
+   },
+   {
+    "da": "en vært",
+    "en": "a host"
+   },
+   {
+    "da": "et interview",
+    "en": "an interview"
+   }
+  ],
+  "sentence": {
+   "da": "Skuespilleren var gæst i et **talkshow** i går aftes.",
+   "en": "The actor was a guest on a talk show last night."
   }
  },
  "et tandkrus": {
@@ -7124,6 +11686,45 @@
    "en": "We are watching a play in a big theater tonight."
   }
  },
+ "et teaterstykke": {
+  "explanation": "\"Et teaterstykke\" means \"a stage play\", a story written to be performed by actors in front of an audience. A film is not a teaterstykke, because it is recorded and not played live.",
+  "forms": [
+   {
+    "da": "et teaterstykke",
+    "en": "a stage play"
+   },
+   {
+    "da": "teaterstykket",
+    "en": "the stage play"
+   },
+   {
+    "da": "teaterstykker",
+    "en": "stage plays"
+   },
+   {
+    "da": "teaterstykkerne",
+    "en": "the stage plays"
+   }
+  ],
+  "related": [
+   {
+    "da": "et skuespil",
+    "en": "a drama"
+   },
+   {
+    "da": "en forestilling",
+    "en": "a performance"
+   },
+   {
+    "da": "en komedie",
+    "en": "a comedy"
+   }
+  ],
+  "sentence": {
+   "da": "Et **teaterstykke** bliver spillet live foran et publikum.",
+   "en": "A stage play is performed live in front of an audience."
+  }
+ },
  "et tegn": {
   "explanation": "\"Et tegn\" means \"a sign\", something that shows what is happening or what will happen: Det er et godt tegn (That is a good sign). Der er tegn på regn (There are signs of rain).",
   "forms": [
@@ -7245,6 +11846,127 @@
    "en": "We are sleeping in a tent this weekend."
   }
  },
+ "et tema": {
+  "explanation": "\"Et tema\" means \"a theme\", the main subject or idea of a text, a film, a class or an event: Temaet for festen er 80'erne (The theme of the party is the 80s).",
+  "forms": [
+   {
+    "da": "et tema",
+    "en": "a theme"
+   },
+   {
+    "da": "temaet",
+    "en": "the theme"
+   },
+   {
+    "da": "temaer",
+    "en": "themes"
+   },
+   {
+    "da": "temaerne",
+    "en": "the themes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et emne",
+    "en": "a topic"
+   },
+   {
+    "da": "et motiv",
+    "en": "a motif"
+   },
+   {
+    "da": "et budskab",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Bogens **tema** er venskab og tab.",
+   "en": "The theme of the book is friendship and loss."
+  }
+ },
+ "et tempel": {
+  "explanation": "\"Et tempel\" means \"a temple\", a building for worship, especially in religions such as Buddhism and Hinduism. A Christian church is en kirke, not et tempel.",
+  "forms": [
+   {
+    "da": "et tempel",
+    "en": "a temple"
+   },
+   {
+    "da": "templet",
+    "en": "the temple"
+   },
+   {
+    "da": "templer",
+    "en": "temples"
+   },
+   {
+    "da": "templerne",
+    "en": "the temples"
+   }
+  ],
+  "related": [
+   {
+    "da": "en moské",
+    "en": "a mosque"
+   },
+   {
+    "da": "en synagoge",
+    "en": "a synagogue"
+   },
+   {
+    "da": "en helligdom",
+    "en": "a shrine"
+   }
+  ],
+  "sentence": {
+   "da": "Munkene beder i et **tempel** hver morgen.",
+   "en": "The monks pray in a temple every morning."
+  }
+ },
+ "et temperament": {
+  "explanation": "\"Et temperament\" means \"a temper\" and \"a temperament\", a person's natural way of reacting, for example calm, lively or quick to get angry. A word for the feeling goes before it: et hidsigt temperament (a fiery temperament).",
+  "forms": [
+   {
+    "da": "et temperament",
+    "en": "a temper / temperament"
+   },
+   {
+    "da": "temperamentet",
+    "en": "the temper / temperament"
+   },
+   {
+    "da": "temperamenter",
+    "en": "tempers / temperaments"
+   },
+   {
+    "da": "temperamenterne",
+    "en": "the tempers / temperaments"
+   }
+  ],
+  "related": [
+   {
+    "da": "et gemyt",
+    "en": "a disposition"
+   },
+   {
+    "da": "et humør",
+    "en": "a mood"
+   },
+   {
+    "da": "en personlighed",
+    "en": "a personality"
+   },
+   {
+    "da": "et vredesudbrud",
+    "en": "an outburst of anger"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **temperament** er så livligt, at han aldrig sidder stille.",
+   "en": "His temperament is so lively that he never sits still."
+  }
+ },
  "et termometer": {
   "explanation": "\"Et termometer\" means \"a thermometer\", something that shows how warm or cold it is, in the air or in your body.",
   "forms": [
@@ -7282,6 +12004,131 @@
   "sentence": {
    "da": "Jeg henter et **termometer**, fordi jeg har feber.",
    "en": "I get a thermometer because I have a fever."
+  }
+ },
+ "et territorium": {
+  "explanation": "\"Et territorium\" means \"a territory\", a piece of land that belongs to a state, a ruler or an animal. A territory can also be land that a state controls but that is not a full country.",
+  "forms": [
+   {
+    "da": "et territorium",
+    "en": "a territory"
+   },
+   {
+    "da": "territoriet",
+    "en": "the territory"
+   },
+   {
+    "da": "territorier",
+    "en": "territories"
+   },
+   {
+    "da": "territorierne",
+    "en": "the territories"
+   }
+  ],
+  "related": [
+   {
+    "da": "en grænse",
+    "en": "a border"
+   },
+   {
+    "da": "et område",
+    "en": "an area"
+   },
+   {
+    "da": "et rige",
+    "en": "a kingdom"
+   }
+  ],
+  "sentence": {
+   "da": "Dyret forsvarer sit **territorium** mod andre dyr.",
+   "en": "The animal defends its territory against other animals."
+  }
+ },
+ "et testamente": {
+  "explanation": "\"Et testamente\" means \"a will\" and \"a testament\": a written document that says who will get your money and belongings after your death. Det Nye Testamente (the New Testament) is the second part of the Bible.",
+  "forms": [
+   {
+    "da": "et testamente",
+    "en": "a will / testament"
+   },
+   {
+    "da": "testamentet",
+    "en": "the will / testament"
+   },
+   {
+    "da": "testamenter",
+    "en": "wills / testaments"
+   },
+   {
+    "da": "testamenterne",
+    "en": "the wills / testaments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en arving",
+    "en": "an heir"
+   },
+   {
+    "da": "en arv",
+    "en": "an inheritance"
+   },
+   {
+    "da": "en advokat",
+    "en": "a lawyer"
+   },
+   {
+    "da": "en bobestyrer",
+    "en": "an estate administrator"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skrev i sit **testamente**, at børnene skal arve huset.",
+   "en": "She wrote in her will that the children shall inherit the house."
+  }
+ },
+ "et tidsfordriv": {
+  "explanation": "\"Et tidsfordriv\" means \"a pastime\", something you do to fill free time, for fun or because you are waiting. It comes from at fordrive tiden (to pass the time).",
+  "forms": [
+   {
+    "da": "et tidsfordriv",
+    "en": "a pastime"
+   },
+   {
+    "da": "tidsfordrivet",
+    "en": "the pastime"
+   },
+   {
+    "da": "tidsfordriv",
+    "en": "pastimes"
+   },
+   {
+    "da": "tidsfordrivene",
+    "en": "the pastimes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hobby",
+    "en": "a hobby"
+   },
+   {
+    "da": "en fritidsinteresse",
+    "en": "a leisure interest"
+   },
+   {
+    "da": "en forlystelse",
+    "en": "an amusement"
+   },
+   {
+    "da": "en beskæftigelse",
+    "en": "an occupation"
+   }
+  ],
+  "sentence": {
+   "da": "Et krydsord er et godt **tidsfordriv** på en lang togtur.",
+   "en": "A crossword is a good pastime on a long train ride."
   }
  },
  "et tidspunkt": {
@@ -7325,6 +12172,88 @@
   "sentence": {
    "da": "Hvilket **tidspunkt** passer dig bedst?",
    "en": "Which time suits you best?"
+  }
+ },
+ "et tidsrum": {
+  "explanation": "\"Et tidsrum\" means \"a period of time\", a stretch with a clear start and end. Use it when you think of the whole stretch with two limits, not one point in time.",
+  "forms": [
+   {
+    "da": "et tidsrum",
+    "en": "a period of time"
+   },
+   {
+    "da": "tidsrummet",
+    "en": "the period of time"
+   },
+   {
+    "da": "tidsrum",
+    "en": "periods of time"
+   },
+   {
+    "da": "tidsrummene",
+    "en": "the periods of time"
+   }
+  ],
+  "related": [
+   {
+    "da": "et øjeblik",
+    "en": "a moment"
+   },
+   {
+    "da": "et interval",
+    "en": "an interval"
+   },
+   {
+    "da": "en varighed",
+    "en": "a duration"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken er lukket i et **tidsrum** mellem klokken tolv og et.",
+   "en": "The shop is closed for a period between twelve and one o'clock."
+  }
+ },
+ "et tilbageslag": {
+  "explanation": "\"Et tilbageslag\" means \"a setback\", something that pushes you back when things were going well, such as getting worse again after you had started to recover.",
+  "forms": [
+   {
+    "da": "et tilbageslag",
+    "en": "a setback"
+   },
+   {
+    "da": "tilbageslaget",
+    "en": "the setback"
+   },
+   {
+    "da": "tilbageslag",
+    "en": "setbacks"
+   },
+   {
+    "da": "tilbageslagene",
+    "en": "the setbacks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en modgang",
+    "en": "adversity"
+   },
+   {
+    "da": "en forhindring",
+    "en": "an obstacle"
+   },
+   {
+    "da": "et nederlag",
+    "en": "a defeat"
+   },
+   {
+    "da": "et fremskridt",
+    "en": "progress"
+   }
+  ],
+  "sentence": {
+   "da": "Fabrikkens lukning var et stort **tilbageslag** for hele byen.",
+   "en": "The closing of the factory was a big setback for the whole town."
   }
  },
  "et tilbud": {
@@ -7442,6 +12371,131 @@
   "sentence": {
    "da": "I dette **tilfælde** må vi vente.",
    "en": "In this case we have to wait."
+  }
+ },
+ "et tilholdssted": {
+  "explanation": "\"Et tilholdssted\" means \"a hangout\" and \"a haunt\", a place where a person or a group often stays. It is built from at holde til (to stay somewhere), so it is the place where someone usually stays, and it can be used for people and animals.",
+  "forms": [
+   {
+    "da": "et tilholdssted",
+    "en": "a hangout / haunt"
+   },
+   {
+    "da": "tilholdsstedet",
+    "en": "the hangout / haunt"
+   },
+   {
+    "da": "tilholdssteder",
+    "en": "hangouts / haunts"
+   },
+   {
+    "da": "tilholdsstederne",
+    "en": "the hangouts / haunts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et samlingssted",
+    "en": "a meeting place"
+   },
+   {
+    "da": "en bolig",
+    "en": "a residence"
+   },
+   {
+    "da": "et skjulested",
+    "en": "a hiding place"
+   },
+   {
+    "da": "et hjem",
+    "en": "a home"
+   }
+  ],
+  "sentence": {
+   "da": "Biblioteket er de unges faste **tilholdssted** efter skole.",
+   "en": "The library is the young people's regular hangout after school."
+  }
+ },
+ "et tillægsord": {
+  "explanation": "\"Et tillægsord\" means \"an adjective\", a word that describes a thing or a person, like stor (big) or glad (happy). The Danish name means roughly \"addition word\", because the word adds to the name of a thing.",
+  "forms": [
+   {
+    "da": "et tillægsord",
+    "en": "an adjective"
+   },
+   {
+    "da": "tillægsordet",
+    "en": "the adjective"
+   },
+   {
+    "da": "tillægsord",
+    "en": "adjectives"
+   },
+   {
+    "da": "tillægsordene",
+    "en": "the adjectives"
+   }
+  ],
+  "related": [
+   {
+    "da": "et navneord",
+    "en": "a noun"
+   },
+   {
+    "da": "et udsagnsord",
+    "en": "a verb"
+   },
+   {
+    "da": "et biord",
+    "en": "an adverb"
+   }
+  ],
+  "sentence": {
+   "da": "Ordet stor er et **tillægsord**, fordi det beskriver en ting.",
+   "en": "The word stor is an adjective because it describes a thing."
+  }
+ },
+ "et tiltag": {
+  "explanation": "\"Et tiltag\" means \"an initiative\" and \"a measure\", a specific step that someone decides on to solve a problem or reach a goal. It is common in news and politics: nye tiltag mod trafikstøj (new measures against traffic noise).",
+  "forms": [
+   {
+    "da": "et tiltag",
+    "en": "an initiative / measure"
+   },
+   {
+    "da": "tiltaget",
+    "en": "the initiative / measure"
+   },
+   {
+    "da": "tiltag",
+    "en": "initiatives / measures"
+   },
+   {
+    "da": "tiltagene",
+    "en": "the initiatives / measures"
+   }
+  ],
+  "related": [
+   {
+    "da": "en handling",
+    "en": "an action"
+   },
+   {
+    "da": "en indsats",
+    "en": "an effort"
+   },
+   {
+    "da": "en løsning",
+    "en": "a solution"
+   },
+   {
+    "da": "en plan",
+    "en": "a plan"
+   }
+  ],
+  "sentence": {
+   "da": "Byen indfører et nyt **tiltag**: gratis bus for børn.",
+   "en": "The city is introducing a new initiative: free buses for children."
   }
  },
  "et tip": {
@@ -7563,6 +12617,45 @@
   "sentence": {
    "da": "Jeg skal på **toilet** og vaske hænder.",
    "en": "I am going to the restroom to wash my hands."
+  }
+ },
+ "et topmøde": {
+  "explanation": "\"Et topmøde\" means \"a summit\", a meeting between the top leaders of countries or organizations, for example to discuss war, climate or trade.",
+  "forms": [
+   {
+    "da": "et topmøde",
+    "en": "a summit"
+   },
+   {
+    "da": "topmødet",
+    "en": "the summit"
+   },
+   {
+    "da": "topmøder",
+    "en": "summits"
+   },
+   {
+    "da": "topmøderne",
+    "en": "the summits"
+   }
+  ],
+  "related": [
+   {
+    "da": "en konference",
+    "en": "a conference"
+   },
+   {
+    "da": "et møde",
+    "en": "a meeting"
+   },
+   {
+    "da": "en forhandling",
+    "en": "a negotiation"
+   }
+  ],
+  "sentence": {
+   "da": "Lederne mødes til et **topmøde** om klimaet i næste uge.",
+   "en": "The leaders meet at a summit about the climate next week."
   }
  },
  "et tordenvejr": {
@@ -7768,6 +12861,45 @@
    "en": "We take the next step in the plan."
   }
  },
+ "et tryk": {
+  "explanation": "\"Et tryk\" means \"a pressure\" or \"a stress\". It can be a push on something, as in et tryk på knappen (a press on the button) or blodtryk (blood pressure), and it is also the extra force on one part of a word when you speak.",
+  "forms": [
+   {
+    "da": "et tryk",
+    "en": "a pressure / stress"
+   },
+   {
+    "da": "trykket",
+    "en": "the pressure / stress"
+   },
+   {
+    "da": "tryk",
+    "en": "pressures / stresses"
+   },
+   {
+    "da": "trykkene",
+    "en": "the pressures / stresses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en betoning",
+    "en": "an emphasis"
+   },
+   {
+    "da": "en stavelse",
+    "en": "a syllable"
+   },
+   {
+    "da": "en trykfejl",
+    "en": "a misprint"
+   }
+  ],
+  "sentence": {
+   "da": "Man lægger **tryk** på første del af ordet.",
+   "en": "You put stress on the first part of the word."
+  }
+ },
  "et træ": {
   "explanation": "\"Et træ\" means \"a tree\", and also \"wood\" as a material: et bord af træ (a table made of wood). For a large group of trees, Danes say en skov (a forest).",
   "forms": [
@@ -7805,6 +12937,84 @@
   "sentence": {
    "da": "Æbler vokser på et **træ**.",
    "en": "Apples grow on a tree."
+  }
+ },
+ "et træk": {
+  "explanation": "\"Et træk\" means \"a move\", one action in a game such as chess: Det var et smart træk (That was a smart move). It also means \"a draft\" of cold air, and \"a pull\" on a cigarette or a rope.",
+  "forms": [
+   {
+    "da": "et træk",
+    "en": "a move"
+   },
+   {
+    "da": "trækket",
+    "en": "the move"
+   },
+   {
+    "da": "træk",
+    "en": "moves"
+   },
+   {
+    "da": "trækkene",
+    "en": "the moves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tur",
+    "en": "a turn"
+   },
+   {
+    "da": "en strategi",
+    "en": "a strategy"
+   },
+   {
+    "da": "et skridt",
+    "en": "a step"
+   }
+  ],
+  "sentence": {
+   "da": "Det næste **træk** i skak kan afgøre hele spillet.",
+   "en": "The next move in chess can decide the whole game."
+  }
+ },
+ "et træningspas": {
+  "explanation": "\"Et træningspas\" means \"a training session\", one workout or practice, for example at a sports club. Træning (training) alone means exercising in general, while a træningspas is one single occasion.",
+  "forms": [
+   {
+    "da": "et træningspas",
+    "en": "a training session"
+   },
+   {
+    "da": "træningspasset",
+    "en": "the training session"
+   },
+   {
+    "da": "træningspas",
+    "en": "training sessions"
+   },
+   {
+    "da": "træningspassene",
+    "en": "the training sessions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en træner",
+    "en": "a coach"
+   },
+   {
+    "da": "en øvelse",
+    "en": "an exercise"
+   },
+   {
+    "da": "et fitnesscenter",
+    "en": "a gym"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et **træningspas** hver tirsdag og torsdag.",
+   "en": "I have a training session every Tuesday and Thursday."
   }
  },
  "et tv": {
@@ -8329,6 +13539,45 @@
    "en": "I am so grateful for your help."
   }
  },
+ "taknemmelighed": {
+  "explanation": "\"Taknemmelighed\" means \"gratitude\", the warm feeling of being thankful to someone for what they did. To say you feel it, use taknemmelig (grateful): Jeg er taknemmelig for hjælpen (I am grateful for the help).",
+  "forms": [
+   {
+    "da": "taknemmelighed",
+    "en": "gratitude"
+   },
+   {
+    "da": "taknemmeligheden",
+    "en": "the gratitude"
+   },
+   {
+    "da": "med taknemmelighed",
+    "en": "with gratitude"
+   }
+  ],
+  "related": [
+   {
+    "da": "utaknemmelighed",
+    "en": "ingratitude"
+   },
+   {
+    "da": "påskønnelse",
+    "en": "appreciation"
+   },
+   {
+    "da": "anerkendelse",
+    "en": "recognition"
+   },
+   {
+    "da": "tak",
+    "en": "thanks"
+   }
+  ],
+  "sentence": {
+   "da": "Han sendte blomster som tegn på **taknemmelighed**.",
+   "en": "He sent flowers as a sign of gratitude."
+  }
+ },
  "tal langsomt": {
   "explanation": "\"Tal langsomt\" means \"speak slowly\". Adding tak (please) makes it polite, and Kan du tale langsommere? (Can you speak more slowly?) is even softer.",
   "forms": [
@@ -8362,6 +13611,45 @@
   "sentence": {
    "da": "Jeg er ny her. **Tal langsomt**, tak.",
    "en": "I am new here. Speak slowly, please."
+  }
+ },
+ "talentfuld": {
+  "explanation": "\"Talentfuld\" means \"talented\", naturally good at something such as music, sports or art. It is built from et talent (a talent) and -fuld (full of), the same -fuld as in meningsfuld (meaningful).",
+  "forms": [
+   {
+    "da": "en talentfuld sanger",
+    "en": "a talented singer"
+   },
+   {
+    "da": "et talentfuldt barn",
+    "en": "a talented child"
+   },
+   {
+    "da": "talentfulde unge",
+    "en": "talented young people"
+   }
+  ],
+  "related": [
+   {
+    "da": "begavet",
+    "en": "gifted"
+   },
+   {
+    "da": "dygtig",
+    "en": "skilled"
+   },
+   {
+    "da": "lovende",
+    "en": "promising"
+   },
+   {
+    "da": "talentløs",
+    "en": "untalented"
+   }
+  ],
+  "sentence": {
+   "da": "Han er en meget **talentfuld** fodboldspiller.",
+   "en": "He is a very talented soccer player."
   }
  },
  "taler du engelsk?": {
@@ -8473,6 +13761,123 @@
    "en": "I have a toothache and need to go to the dentist."
   }
  },
+ "tandtråd": {
+  "explanation": "\"Tandtråd\" means \"dental floss\", a thin thread you pull between your teeth to remove food. It is a joined word: tand (tooth) and tråd (thread).",
+  "forms": [
+   {
+    "da": "tandtråd",
+    "en": "dental floss"
+   },
+   {
+    "da": "tandtråden",
+    "en": "the dental floss"
+   },
+   {
+    "da": "en rulle tandtråd",
+    "en": "a roll of dental floss"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tandbørste",
+    "en": "a toothbrush"
+   },
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en tandstikker",
+    "en": "a toothpick"
+   },
+   {
+    "da": "tandpasta",
+    "en": "toothpaste"
+   }
+  ],
+  "sentence": {
+   "da": "Efter maden bruger jeg **tandtråd** mellem tænderne.",
+   "en": "After the meal I use dental floss between my teeth."
+  }
+ },
+ "tankefuld": {
+  "explanation": "\"Tankefuld\" means \"pensive\", about someone who is quiet and deep in thought, often with a faraway look. For \"thoughtful\" in the sense of kind and considerate, use omtenksom instead.",
+  "forms": [
+   {
+    "da": "en tankefuld mand",
+    "en": "a pensive man"
+   },
+   {
+    "da": "et tankefuldt blik",
+    "en": "a pensive look"
+   },
+   {
+    "da": "tankefulde børn",
+    "en": "pensive children"
+   }
+  ],
+  "related": [
+   {
+    "da": "eftertænksom",
+    "en": "reflective"
+   },
+   {
+    "da": "fordybet",
+    "en": "absorbed"
+   },
+   {
+    "da": "fraværende",
+    "en": "absent-minded"
+   },
+   {
+    "da": "grublende",
+    "en": "brooding"
+   }
+  ],
+  "sentence": {
+   "da": "Han blev **tankefuld** og stirrede længe ud af vinduet.",
+   "en": "He became pensive and stared out of the window for a long time."
+  }
+ },
+ "tankeløs": {
+  "explanation": "\"Tankeløs\" means \"thoughtless\", acting without thinking about how it affects others. The ending -løs means \"without\", as in hjemløs (homeless).",
+  "forms": [
+   {
+    "da": "en tankeløs bemærkning",
+    "en": "a thoughtless remark"
+   },
+   {
+    "da": "et tankeløst valg",
+    "en": "a thoughtless choice"
+   },
+   {
+    "da": "tankeløse handlinger",
+    "en": "thoughtless actions"
+   }
+  ],
+  "related": [
+   {
+    "da": "ubetænksom",
+    "en": "inconsiderate"
+   },
+   {
+    "da": "hensynsløs",
+    "en": "ruthless"
+   },
+   {
+    "da": "omtænksom",
+    "en": "considerate"
+   },
+   {
+    "da": "uforsigtig",
+    "en": "careless"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **tankeløs** og tænker aldrig på andre.",
+   "en": "He is thoughtless and never thinks about others."
+  }
+ },
  "tape": {
   "explanation": "\"Tape\" means \"tape\" for sticking things together, such as paper and packages.",
   "forms": [
@@ -8551,6 +13956,80 @@
    "en": "There is old wallpaper on the wall."
   }
  },
+ "tatoveret": {
+  "explanation": "\"Tatoveret\" means \"tattooed\", having a picture or text drawn permanently into the skin. It comes from at tatovere (to tattoo).",
+  "forms": [
+   {
+    "da": "en tatoveret mand",
+    "en": "a tattooed man"
+   },
+   {
+    "da": "et tatoveret ben",
+    "en": "a tattooed leg"
+   },
+   {
+    "da": "tatoverede arme",
+    "en": "tattooed arms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tatovør",
+    "en": "a tattoo artist"
+   },
+   {
+    "da": "piercet",
+    "en": "pierced"
+   },
+   {
+    "da": "et motiv",
+    "en": "a design"
+   }
+  ],
+  "sentence": {
+   "da": "Hans arm er **tatoveret** med en stor drage.",
+   "en": "His arm is tattooed with a big dragon."
+  }
+ },
+ "tavs": {
+  "explanation": "\"Tavs\" means \"silent\", saying nothing, so it is about a person who does not speak. For a calm place without noise, use stille (quiet): et stille rum (a quiet room).",
+  "forms": [
+   {
+    "da": "en tavs mand",
+    "en": "a silent man"
+   },
+   {
+    "da": "et tavst øjeblik",
+    "en": "a silent moment"
+   },
+   {
+    "da": "tavse gæster",
+    "en": "silent guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tie",
+    "en": "to hold one's tongue"
+   },
+   {
+    "da": "tavshed",
+    "en": "silence"
+   },
+   {
+    "da": "mundlam",
+    "en": "tongue-tied"
+   },
+   {
+    "da": "fåmælt",
+    "en": "of few words"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **tavs** og sagde ikke et ord.",
+   "en": "She was silent and did not say a word."
+  }
+ },
  "te": {
   "explanation": "\"Te\" means \"tea\". It is said like English tay, not like tee. Do not mix it up with ti (ten), which is said like tee.",
   "forms": [
@@ -8584,6 +14063,45 @@
   "sentence": {
    "da": "Jeg drikker varm **te** med citron.",
    "en": "I drink hot tea with lemon."
+  }
+ },
+ "tegnsætning": {
+  "explanation": "\"Tegnsætning\" means \"punctuation\", the marks in writing such as komma (comma) and punktum (period). It is built from tegn (mark) and at sætte (to put).",
+  "forms": [
+   {
+    "da": "tegnsætning",
+    "en": "punctuation"
+   },
+   {
+    "da": "tegnsætningen",
+    "en": "the punctuation"
+   },
+   {
+    "da": "god tegnsætning",
+    "en": "good punctuation"
+   }
+  ],
+  "related": [
+   {
+    "da": "et semikolon",
+    "en": "a semicolon"
+   },
+   {
+    "da": "et udråbstegn",
+    "en": "an exclamation mark"
+   },
+   {
+    "da": "et spørgsmålstegn",
+    "en": "a question mark"
+   },
+   {
+    "da": "et anførselstegn",
+    "en": "a quotation mark"
+   }
+  ],
+  "sentence": {
+   "da": "God **tegnsætning** gør det lettere at læse en tekst.",
+   "en": "Good punctuation makes it easier to read a text."
   }
  },
  "teknisk": {
@@ -8699,6 +14217,162 @@
    "en": "In tennis, you hit the ball over the net."
   }
  },
+ "teoretisk": {
+  "explanation": "\"Teoretisk\" means \"theoretical\", about ideas and rules instead of real practice. Teoretisk set kan det lade sig gøre (Theoretically, it can be done) says something is possible in principle.",
+  "forms": [
+   {
+    "da": "en teoretisk mulighed",
+    "en": "a theoretical possibility"
+   },
+   {
+    "da": "et teoretisk spørgsmål",
+    "en": "a theoretical question"
+   },
+   {
+    "da": "teoretiske fag",
+    "en": "theoretical subjects"
+   }
+  ],
+  "related": [
+   {
+    "da": "praktisk",
+    "en": "practical"
+   },
+   {
+    "da": "en teori",
+    "en": "a theory"
+   },
+   {
+    "da": "hypotetisk",
+    "en": "hypothetical"
+   },
+   {
+    "da": "abstrakt",
+    "en": "abstract"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen er **teoretisk** og forklarer ideer uden eksempler.",
+   "en": "The book is theoretical and explains ideas without examples."
+  }
+ },
+ "terapi": {
+  "explanation": "\"Terapi\" means \"therapy\", help for problems of the mind or body, most often regular talks with a trained person.",
+  "forms": [
+   {
+    "da": "en terapi",
+    "en": "a therapy"
+   },
+   {
+    "da": "terapien",
+    "en": "the therapy"
+   },
+   {
+    "da": "terapier",
+    "en": "therapies"
+   },
+   {
+    "da": "terapierne",
+    "en": "the therapies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en psykolog",
+    "en": "a psychologist"
+   },
+   {
+    "da": "en behandling",
+    "en": "a treatment"
+   },
+   {
+    "da": "en terapeut",
+    "en": "a therapist"
+   },
+   {
+    "da": "fysioterapi",
+    "en": "physical therapy"
+   }
+  ],
+  "sentence": {
+   "da": "Hun går i **terapi** hver uge.",
+   "en": "She goes to therapy every week."
+  }
+ },
+ "ternet": {
+  "explanation": "\"Ternet\" means \"checkered\" or \"plaid\", with a pattern of squares. It is linked to en terning (a die), which also has square sides. Ternet papir (squared paper) is what Danes use in math.",
+  "forms": [
+   {
+    "da": "en ternet dug",
+    "en": "a checkered tablecloth"
+   },
+   {
+    "da": "et ternet tæppe",
+    "en": "a plaid blanket"
+   },
+   {
+    "da": "ternede skjorter",
+    "en": "plaid shirts"
+   }
+  ],
+  "related": [
+   {
+    "da": "stribet",
+    "en": "striped"
+   },
+   {
+    "da": "prikket",
+    "en": "dotted"
+   },
+   {
+    "da": "mønstret",
+    "en": "patterned"
+   },
+   {
+    "da": "ensfarvet",
+    "en": "plain-colored"
+   }
+  ],
+  "sentence": {
+   "da": "Dugen på bordet er rød og hvid og **ternet**.",
+   "en": "The cloth on the table is red and white and checkered."
+  }
+ },
+ "terrorisme": {
+  "explanation": "\"Terrorisme\" means \"terrorism\", the use of violence or threats to frighten people for a political goal.",
+  "forms": [
+   {
+    "da": "terrorisme",
+    "en": "terrorism"
+   },
+   {
+    "da": "terrorismen",
+    "en": "the terrorism"
+   },
+   {
+    "da": "kampen mod terrorisme",
+    "en": "the fight against terrorism"
+   }
+  ],
+  "related": [
+   {
+    "da": "en terrorist",
+    "en": "a terrorist"
+   },
+   {
+    "da": "et terrorangreb",
+    "en": "a terror attack"
+   },
+   {
+    "da": "ekstremisme",
+    "en": "extremism"
+   }
+  ],
+  "sentence": {
+   "da": "Mange lande samarbejder om at bekæmpe **terrorisme**.",
+   "en": "Many countries work together to fight terrorism."
+  }
+ },
  "ti": {
   "explanation": "\"Ti\" means \"ten\", said like tee. Do not mix it up with tid (time), which has a d on the end and sounds different.",
   "forms": [
@@ -8736,6 +14410,49 @@
   "sentence": {
    "da": "Efter ni kommer **ti**.",
    "en": "After nine comes ten."
+  }
+ },
+ "tidevand": {
+  "explanation": "\"Et tidevand\" means \"a tide\", the regular rising and falling of the sea. High water is højvande, and low water is lavvande. At the North Sea the tide is strong, but in the Baltic Sea it is hardly noticeable.",
+  "forms": [
+   {
+    "da": "et tidevand",
+    "en": "a tide"
+   },
+   {
+    "da": "tidevandet",
+    "en": "the tide"
+   },
+   {
+    "da": "tidevandet kommer ind",
+    "en": "the tide comes in"
+   },
+   {
+    "da": "tidevandet går ud",
+    "en": "the tide goes out"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ebbe",
+    "en": "an ebb"
+   },
+   {
+    "da": "en bølge",
+    "en": "a wave"
+   },
+   {
+    "da": "en havstrøm",
+    "en": "an ocean current"
+   },
+   {
+    "da": "en stormflod",
+    "en": "a storm surge"
+   }
+  ],
+  "sentence": {
+   "da": "Når vandet går ud og kommer ind igen, kalder vi det **tidevand**.",
+   "en": "When the water goes out and comes in again, we call that the tide."
   }
  },
  "tidlig": {
@@ -8845,6 +14562,123 @@
   "sentence": {
    "da": "Jeg står **tidligt** op klokken fem.",
    "en": "I get up early at five o'clock."
+  }
+ },
+ "tidskrævende": {
+  "explanation": "\"Tidskrævende\" means \"time-consuming\", taking a lot of time and effort. It is built from tid (time) and krævende (demanding): something that demands time.",
+  "forms": [
+   {
+    "da": "en tidskrævende opgave",
+    "en": "a time-consuming task"
+   },
+   {
+    "da": "et tidskrævende arbejde",
+    "en": "a time-consuming job"
+   },
+   {
+    "da": "tidskrævende møder",
+    "en": "time-consuming meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "langvarig",
+    "en": "long-lasting"
+   },
+   {
+    "da": "besværlig",
+    "en": "troublesome"
+   },
+   {
+    "da": "omstændelig",
+    "en": "cumbersome"
+   },
+   {
+    "da": "hurtig",
+    "en": "quick"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **tidskrævende** at skrive en lang rapport.",
+   "en": "It is time-consuming to write a long report."
+  }
+ },
+ "tidspres": {
+  "explanation": "\"Tidspres\" means \"time pressure\", having too little time before something must be finished. It is built from tid (time) and et pres (a pressure).",
+  "forms": [
+   {
+    "da": "et tidspres",
+    "en": "a time pressure"
+   },
+   {
+    "da": "tidspresset",
+    "en": "the time pressure"
+   },
+   {
+    "da": "under tidspres",
+    "en": "under time pressure"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frist",
+    "en": "a deadline"
+   },
+   {
+    "da": "travlhed",
+    "en": "busyness"
+   },
+   {
+    "da": "hastværk",
+    "en": "rushed work"
+   },
+   {
+    "da": "stress",
+    "en": "stress"
+   }
+  ],
+  "sentence": {
+   "da": "Det blev ikke færdigt på grund af **tidspres**.",
+   "en": "It was not finished because of time pressure."
+  }
+ },
+ "tidssvarende": {
+  "explanation": "\"Tidssvarende\" means \"up to date\", for things that fit the standards of the present, such as equipment, rules and buildings. For information that is current, use opdateret (updated) instead.",
+  "forms": [
+   {
+    "da": "tidssvarende udstyr",
+    "en": "up-to-date equipment"
+   },
+   {
+    "da": "en tidssvarende bygning",
+    "en": "an up-to-date building"
+   },
+   {
+    "da": "tidssvarende regler",
+    "en": "up-to-date rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "moderne",
+    "en": "modern"
+   },
+   {
+    "da": "forældet",
+    "en": "outdated"
+   },
+   {
+    "da": "nutidig",
+    "en": "contemporary"
+   },
+   {
+    "da": "gammeldags",
+    "en": "old-fashioned"
+   }
+  ],
+  "sentence": {
+   "da": "Reglerne er gamle og ikke længere **tidssvarende**.",
+   "en": "The rules are old and no longer up to date."
   }
  },
  "tiende": {
@@ -8958,6 +14792,41 @@
   "sentence": {
    "da": "Vi har mange ting **til fælles**.",
    "en": "We have many things in common."
+  }
+ },
+ "til gengæld": {
+  "explanation": "\"Til gengæld\" means \"on the other hand\", adding a good side to something bad. It also means \"in return\": Jeg laver mad, og til gengæld tager du opvasken (I cook, and in return you do the dishes).",
+  "forms": [
+   {
+    "da": "Det er dyrt, men til gengæld godt",
+    "en": "It is expensive, but on the other hand good"
+   },
+   {
+    "da": "Bilen er gammel, men til gengæld billig",
+    "en": "The car is old, but on the other hand cheap"
+   }
+  ],
+  "related": [
+   {
+    "da": "derimod",
+    "en": "on the contrary"
+   },
+   {
+    "da": "omvendt",
+    "en": "conversely"
+   },
+   {
+    "da": "i stedet",
+    "en": "instead"
+   },
+   {
+    "da": "alligevel",
+    "en": "still"
+   }
+  ],
+  "sentence": {
+   "da": "Lejligheden er lille, men **til gengæld** ligger den centralt.",
+   "en": "The apartment is small, but on the other hand it is centrally located."
   }
  },
  "til højre": {
@@ -9217,6 +15086,80 @@
    "en": "I am satisfied with my new job."
   }
  },
+ "tilfredshed": {
+  "explanation": "\"Tilfredshed\" means \"satisfaction\", the content feeling that something is as good as you wanted. You often meet it in surveys: kundetilfredshed (customer satisfaction).",
+  "forms": [
+   {
+    "da": "tilfredshed",
+    "en": "satisfaction"
+   },
+   {
+    "da": "tilfredsheden",
+    "en": "the satisfaction"
+   },
+   {
+    "da": "med tilfredshed",
+    "en": "with satisfaction"
+   }
+  ],
+  "related": [
+   {
+    "da": "utilfredshed",
+    "en": "dissatisfaction"
+   },
+   {
+    "da": "tilfreds",
+    "en": "satisfied"
+   },
+   {
+    "da": "tilfredsstillende",
+    "en": "satisfying"
+   }
+  ],
+  "sentence": {
+   "da": "Hun så på sit arbejde med **tilfredshed**.",
+   "en": "She looked at her work with satisfaction."
+  }
+ },
+ "tilfredsstillende": {
+  "explanation": "\"Tilfredsstillende\" means \"satisfying\" or \"satisfactory\", good enough to meet what someone needs or expects. It comes from at tilfredsstille (to satisfy).",
+  "forms": [
+   {
+    "da": "en tilfredsstillende løsning",
+    "en": "a satisfying solution"
+   },
+   {
+    "da": "et tilfredsstillende svar",
+    "en": "a satisfactory answer"
+   },
+   {
+    "da": "tilfredsstillende resultater",
+    "en": "satisfactory results"
+   }
+  ],
+  "related": [
+   {
+    "da": "tilfredshed",
+    "en": "satisfaction"
+   },
+   {
+    "da": "tilstrækkelig",
+    "en": "sufficient"
+   },
+   {
+    "da": "acceptabel",
+    "en": "acceptable"
+   },
+   {
+    "da": "utilfredsstillende",
+    "en": "unsatisfactory"
+   }
+  ],
+  "sentence": {
+   "da": "Resultatet var **tilfredsstillende**, og alle var glade.",
+   "en": "The result was satisfactory, and everyone was happy."
+  }
+ },
  "tilfældig": {
   "explanation": "\"Tilfældig\" means \"random\" and \"by chance\": et tilfældigt møde (a chance meeting). To say something happened by accident, use tilfældigvis: Jeg mødte ham tilfældigvis (I happened to meet him).",
   "forms": [
@@ -9254,6 +15197,201 @@
   "sentence": {
    "da": "Jeg valgte en **tilfældig** bog fra hylden.",
    "en": "I chose a random book from the shelf."
+  }
+ },
+ "tilfældigt": {
+  "explanation": "\"Tilfældigt\" means \"randomly\" or \"by chance\", without a plan or pattern, often about how you pick something. In a polite question like \"Do you happen to have…\", Danes use tilfældigvis instead.",
+  "forms": [
+   {
+    "da": "vælge tilfældigt",
+    "en": "choose randomly"
+   },
+   {
+    "da": "Vi mødtes tilfældigt",
+    "en": "We met by chance"
+   },
+   {
+    "da": "Det skete tilfældigt",
+    "en": "It happened by chance"
+   }
+  ],
+  "related": [
+   {
+    "da": "vilkårligt",
+    "en": "arbitrarily"
+   },
+   {
+    "da": "med vilje",
+    "en": "on purpose"
+   },
+   {
+    "da": "planlagt",
+    "en": "planned"
+   },
+   {
+    "da": "blindt",
+    "en": "blindly"
+   }
+  ],
+  "sentence": {
+   "da": "Computeren vælger vinderen **tilfældigt** blandt alle deltagerne.",
+   "en": "The computer picks the winner randomly among all the participants."
+  }
+ },
+ "tilfældigvis": {
+  "explanation": "\"Tilfældigvis\" means \"by chance\" or \"as it happens\". In questions it makes a request polite: Har du tilfældigvis en kuglepen? (Do you happen to have a pen?).",
+  "forms": [
+   {
+    "da": "Han var tilfældigvis hjemme",
+    "en": "He happened to be home"
+   },
+   {
+    "da": "Kender du tilfældigvis hende?",
+    "en": "Do you happen to know her?"
+   },
+   {
+    "da": "Jeg fandt det tilfældigvis",
+    "en": "I found it by accident"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilfældighed",
+    "en": "a coincidence"
+   },
+   {
+    "da": "heldigvis",
+    "en": "luckily"
+   },
+   {
+    "da": "ved et tilfælde",
+    "en": "by coincidence"
+   },
+   {
+    "da": "faktisk",
+    "en": "actually"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg mødte **tilfældigvis** en gammel ven i byen.",
+   "en": "I happened to meet an old friend in town."
+  }
+ },
+ "tilgivelig": {
+  "explanation": "\"Tilgivelig\" means \"forgivable\", about a mistake or an act that someone can excuse. Its opposite is utilgivelig (unforgivable), which is the more common of the two.",
+  "forms": [
+   {
+    "da": "en tilgivelig fejl",
+    "en": "a forgivable mistake"
+   },
+   {
+    "da": "et tilgiveligt udsagn",
+    "en": "a forgivable remark"
+   },
+   {
+    "da": "tilgivelige fejl",
+    "en": "forgivable mistakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilgive",
+    "en": "to forgive"
+   },
+   {
+    "da": "en tilgivelse",
+    "en": "a forgiveness"
+   },
+   {
+    "da": "undskyldelig",
+    "en": "excusable"
+   },
+   {
+    "da": "en undskyldning",
+    "en": "an apology"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **tilgivelig** fejl, fordi han var ny på arbejdet.",
+   "en": "It was a forgivable mistake because he was new at work."
+  }
+ },
+ "tilgivelse": {
+  "explanation": "\"Tilgivelse\" means \"forgiveness\", letting go of anger toward someone who has hurt you. It comes from at tilgive (to forgive).",
+  "forms": [
+   {
+    "da": "tilgivelse",
+    "en": "forgiveness"
+   },
+   {
+    "da": "tilgivelsen",
+    "en": "the forgiveness"
+   },
+   {
+    "da": "håbe på tilgivelse",
+    "en": "hope for forgiveness"
+   }
+  ],
+  "related": [
+   {
+    "da": "en undskyldning",
+    "en": "an apology"
+   },
+   {
+    "da": "forsoning",
+    "en": "reconciliation"
+   },
+   {
+    "da": "nåde",
+    "en": "mercy"
+   },
+   {
+    "da": "fortrydelse",
+    "en": "regret"
+   }
+  ],
+  "sentence": {
+   "da": "Han bad om **tilgivelse**, fordi han havde løjet.",
+   "en": "He asked for forgiveness because he had lied."
+  }
+ },
+ "tilgængelig": {
+  "explanation": "\"Tilgængelig\" means \"available\" or \"accessible\", possible to reach, find or use. It is used for people (Er du tilgængelig? Are you available?), for things, and for buildings that wheelchair users can enter.",
+  "forms": [
+   {
+    "da": "en tilgængelig plads",
+    "en": "an available seat"
+   },
+   {
+    "da": "et tilgængeligt rum",
+    "en": "an accessible room"
+   },
+   {
+    "da": "tilgængelige billetter",
+    "en": "available tickets"
+   }
+  ],
+  "related": [
+   {
+    "da": "utilgængelig",
+    "en": "unavailable"
+   },
+   {
+    "da": "ledig",
+    "en": "vacant"
+   },
+   {
+    "da": "tilgængelighed",
+    "en": "availability"
+   },
+   {
+    "da": "til rådighed",
+    "en": "at your disposal"
+   }
+  ],
+  "sentence": {
+   "da": "Informationen er **tilgængelig** for alle på nettet.",
+   "en": "The information is available to everyone online."
   }
  },
  "tillid": {
@@ -9297,6 +15435,45 @@
   "sentence": {
    "da": "Jeg har stor **tillid** til min læge.",
    "en": "I have great trust in my doctor."
+  }
+ },
+ "tillidsfuld": {
+  "explanation": "\"Tillidsfuld\" means \"trusting\", about someone who expects others to be honest and kind. It is built from tillid (trust) and fuld (full), so it is literally \"full of trust\".",
+  "forms": [
+   {
+    "da": "en tillidsfuld dreng",
+    "en": "a trusting boy"
+   },
+   {
+    "da": "et tillidsfuldt smil",
+    "en": "a trusting smile"
+   },
+   {
+    "da": "tillidsfulde børn",
+    "en": "trusting children"
+   }
+  ],
+  "related": [
+   {
+    "da": "troskyldig",
+    "en": "naive"
+   },
+   {
+    "da": "godtroende",
+    "en": "gullible"
+   },
+   {
+    "da": "mistroisk",
+    "en": "distrustful"
+   },
+   {
+    "da": "mistænksom",
+    "en": "suspicious"
+   }
+  ],
+  "sentence": {
+   "da": "Den lille dreng så **tillidsfuld** op på sin far.",
+   "en": "The little boy looked up trustingly at his father."
   }
  },
  "tillykke": {
@@ -9367,6 +15544,45 @@
   "sentence": {
    "da": "Her er en gave. **Tillykke med fødselsdagen**!",
    "en": "Here is a present. Happy birthday!"
+  }
+ },
+ "tilmed": {
+  "explanation": "\"Tilmed\" means \"moreover\", adding one more point that makes the case stronger. It sounds more written than spoken; in speech Danes often say oven i købet (on top of that).",
+  "forms": [
+   {
+    "da": "Det er billigt og tilmed godt",
+    "en": "It is cheap and moreover good"
+   },
+   {
+    "da": "Han er klog, og tilmed er han flink",
+    "en": "He is smart, and moreover he is kind"
+   },
+   {
+    "da": "Maden er sund og tilmed lækker",
+    "en": "The food is healthy and moreover delicious"
+   }
+  ],
+  "related": [
+   {
+    "da": "desuden",
+    "en": "besides"
+   },
+   {
+    "da": "endvidere",
+    "en": "furthermore"
+   },
+   {
+    "da": "derudover",
+    "en": "in addition"
+   },
+   {
+    "da": "også",
+    "en": "also"
+   }
+  ],
+  "sentence": {
+   "da": "Cyklen er billig, og den er **tilmed** let at reparere.",
+   "en": "The bike is cheap, and it is moreover easy to repair."
   }
  },
  "tilpas": {
@@ -9441,6 +15657,279 @@
   "sentence": {
    "da": "Vi er ti personer **tilsammen**.",
    "en": "We are ten people in total."
+  }
+ },
+ "tilstedeværelse": {
+  "explanation": "\"En tilstedeværelse\" means \"a presence\", the fact that someone or something is there. It is built from til stede (present) and at være (to be), and its opposite is fravær (absence).",
+  "forms": [
+   {
+    "da": "en tilstedeværelse",
+    "en": "a presence"
+   },
+   {
+    "da": "tilstedeværelsen",
+    "en": "the presence"
+   },
+   {
+    "da": "tilstedeværelser",
+    "en": "presences"
+   },
+   {
+    "da": "tilstedeværelserne",
+    "en": "the presences"
+   }
+  ],
+  "related": [
+   {
+    "da": "et nærvær",
+    "en": "a closeness"
+   },
+   {
+    "da": "en deltagelse",
+    "en": "a participation"
+   },
+   {
+    "da": "en tilværelse",
+    "en": "an existence"
+   }
+  ],
+  "sentence": {
+   "da": "Lærerens **tilstedeværelse** i klassen gør børnene mere rolige.",
+   "en": "The teacher's presence in the class makes the children calmer."
+  }
+ },
+ "tilstrækkelig": {
+  "explanation": "\"Tilstrækkelig\" means \"sufficient\", as much as is needed and no more. It is linked to at strække til (to be enough), as in Pengene strækker ikke til (The money is not enough).",
+  "forms": [
+   {
+    "da": "en tilstrækkelig mængde",
+    "en": "a sufficient amount"
+   },
+   {
+    "da": "et tilstrækkeligt svar",
+    "en": "a sufficient answer"
+   },
+   {
+    "da": "tilstrækkelige penge",
+    "en": "sufficient money"
+   }
+  ],
+  "related": [
+   {
+    "da": "utilstrækkelig",
+    "en": "insufficient"
+   },
+   {
+    "da": "rigelig",
+    "en": "plentiful"
+   },
+   {
+    "da": "nok",
+    "en": "enough"
+   },
+   {
+    "da": "tilfredsstillende",
+    "en": "satisfactory"
+   }
+  ],
+  "sentence": {
+   "da": "Fem timers søvn er ikke **tilstrækkelig** for de fleste.",
+   "en": "Five hours of sleep is not sufficient for most people."
+  }
+ },
+ "tilsyneladende": {
+  "explanation": "\"Tilsyneladende\" means \"apparently\", based on how things look, which may turn out to be wrong. For something you only heard from others, use efter sigende (reportedly).",
+  "forms": [
+   {
+    "da": "Han er tilsyneladende syg",
+    "en": "He is apparently sick"
+   },
+   {
+    "da": "Det er tilsyneladende let",
+    "en": "It is seemingly easy"
+   },
+   {
+    "da": "Tilsyneladende var ingen hjemme",
+    "en": "Apparently nobody was home"
+   }
+  ],
+  "related": [
+   {
+    "da": "åbenbart",
+    "en": "evidently"
+   },
+   {
+    "da": "angiveligt",
+    "en": "allegedly"
+   },
+   {
+    "da": "formentlig",
+    "en": "presumably"
+   },
+   {
+    "da": "at virke",
+    "en": "to seem"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken er **tilsyneladende** lukket i dag.",
+   "en": "The store is apparently closed today."
+  }
+ },
+ "tiltro": {
+  "explanation": "\"En tiltro\" means \"confidence\" or \"trust\", a belief that someone or something is good and will work. It almost always comes with til (in): have tiltro til dig (have confidence in you).",
+  "forms": [
+   {
+    "da": "en tiltro",
+    "en": "a confidence"
+   },
+   {
+    "da": "tiltroen",
+    "en": "the confidence"
+   },
+   {
+    "da": "stor tiltro",
+    "en": "great confidence"
+   },
+   {
+    "da": "have tiltro til systemet",
+    "en": "to have confidence in the system"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tro",
+    "en": "a faith"
+   },
+   {
+    "da": "en overbevisning",
+    "en": "a conviction"
+   },
+   {
+    "da": "en forventning",
+    "en": "an expectation"
+   }
+  ],
+  "sentence": {
+   "da": "Efter skandalen mistede folk al **tiltro** til politikerne.",
+   "en": "After the scandal people lost all confidence in the politicians."
+  }
+ },
+ "tiltrukket": {
+  "explanation": "\"Tiltrukket\" means \"attracted\", pulled toward someone or something by a feeling. It is almost always followed by af (by), as in tiltrukket af hende (attracted to her).",
+  "forms": [
+   {
+    "da": "tiltrukket af hende",
+    "en": "attracted to her"
+   },
+   {
+    "da": "tiltrukket af naturen",
+    "en": "drawn to nature"
+   },
+   {
+    "da": "Vi er tiltrukket af byen",
+    "en": "We are drawn to the city"
+   }
+  ],
+  "related": [
+   {
+    "da": "tiltrækkende",
+    "en": "attractive"
+   },
+   {
+    "da": "en tiltrækning",
+    "en": "an attraction"
+   },
+   {
+    "da": "frastødt",
+    "en": "repelled"
+   },
+   {
+    "da": "draget",
+    "en": "drawn"
+   }
+  ],
+  "sentence": {
+   "da": "Bierne er **tiltrukket** af blomsternes søde duft.",
+   "en": "The bees are attracted to the sweet scent of the flowers."
+  }
+ },
+ "tiltrækkende": {
+  "explanation": "\"Tiltrækkende\" means \"attractive\", pulling people toward it, for a person, an offer or a place. The one that pulls is tiltrækkende, and the one who feels pulled is tiltrukket (attracted): Han er tiltrukket af hende, for hun er tiltrækkende (He is attracted to her, because she is attractive).",
+  "forms": [
+   {
+    "da": "en tiltrækkende person",
+    "en": "an attractive person"
+   },
+   {
+    "da": "et tiltrækkende tilbud",
+    "en": "an attractive offer"
+   },
+   {
+    "da": "tiltrækkende steder",
+    "en": "attractive places"
+   }
+  ],
+  "related": [
+   {
+    "da": "attraktiv",
+    "en": "appealing"
+   },
+   {
+    "da": "charmerende",
+    "en": "charming"
+   },
+   {
+    "da": "tillokkende",
+    "en": "tempting"
+   },
+   {
+    "da": "afskrækkende",
+    "en": "off-putting"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen gør tilbuddet meget **tiltrækkende**.",
+   "en": "The price makes the offer very attractive."
+  }
+ },
+ "timevis": {
+  "explanation": "\"Timevis\" means \"for hours\", a long time counted in hours. The ending -vis does the same with other times: dagevis (for days).",
+  "forms": [
+   {
+    "da": "ventede timevis",
+    "en": "waited for hours"
+   },
+   {
+    "da": "talte timevis",
+    "en": "talked for hours"
+   },
+   {
+    "da": "timevis af arbejde",
+    "en": "hours of work"
+   }
+  ],
+  "related": [
+   {
+    "da": "månedsvis",
+    "en": "for months"
+   },
+   {
+    "da": "uafbrudt",
+    "en": "nonstop"
+   },
+   {
+    "da": "ugevis",
+    "en": "for weeks"
+   },
+   {
+    "da": "stykkevis",
+    "en": "bit by bit"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan sidde **timevis** med en god bog.",
+   "en": "I can sit for hours with a good book."
   }
  },
  "tirsdag": {
@@ -9696,6 +16185,41 @@
    "en": "There is a long line at customs at the airport."
   }
  },
+ "tolerant": {
+  "explanation": "\"Tolerant\" means \"tolerant\", open to people who think, believe or live differently than you do. The opposite is intolerant (intolerant), which Danish spells the same way.",
+  "forms": [
+   {
+    "da": "en tolerant lærer",
+    "en": "a tolerant teacher"
+   },
+   {
+    "da": "et tolerant land",
+    "en": "a tolerant country"
+   },
+   {
+    "da": "tolerante naboer",
+    "en": "tolerant neighbors"
+   }
+  ],
+  "related": [
+   {
+    "da": "åbensindet",
+    "en": "open-minded"
+   },
+   {
+    "da": "rummelig",
+    "en": "broad-minded (literally roomy)"
+   },
+   {
+    "da": "fordomsfri",
+    "en": "free of prejudice"
+   }
+  ],
+  "sentence": {
+   "da": "Et **tolerant** samfund giver plads til alle slags mennesker.",
+   "en": "A tolerant society makes room for all kinds of people."
+  }
+ },
  "tolv": {
   "explanation": "\"Tolv\" means \"twelve\". For twelve of something, Danes also say et dusin (a dozen): et dusin æg (a dozen eggs).",
   "forms": [
@@ -9731,6 +16255,41 @@
    "en": "After eleven comes twelve."
   }
  },
+ "tolvte": {
+  "explanation": "\"Tolvte\" means \"twelfth\", the place number for 12 in a row, and it is used for dates: Min fødselsdag er den tolvte (My birthday is on the twelfth).",
+  "forms": [
+   {
+    "da": "den tolvte dag",
+    "en": "the twelfth day"
+   },
+   {
+    "da": "den tolvte maj",
+    "en": "May twelfth"
+   },
+   {
+    "da": "for tolvte gang",
+    "en": "for the twelfth time"
+   }
+  ],
+  "related": [
+   {
+    "da": "tolv",
+    "en": "twelve"
+   },
+   {
+    "da": "trettende",
+    "en": "thirteenth"
+   },
+   {
+    "da": "en tolvtedel",
+    "en": "a twelfth"
+   }
+  ],
+  "sentence": {
+   "da": "Dagen efter den ellevte er den **tolvte**.",
+   "en": "The day after the eleventh is the twelfth."
+  }
+ },
  "tom": {
   "explanation": "\"Tom\" means \"empty\", for a bottle, a room, a street or a plate. The opposite is fuld (full), which can also mean \"drunk\" when it describes a person.",
   "forms": [
@@ -9764,6 +16323,41 @@
   "sentence": {
    "da": "Der er intet vand. Flasken er **tom**.",
    "en": "There is no water. The bottle is empty."
+  }
+ },
+ "tomhændet": {
+  "explanation": "\"Tomhændet\" means \"empty-handed\", with nothing to bring, such as no gift for a party, or with nothing to show for your effort.",
+  "forms": [
+   {
+    "da": "Han kom tomhændet.",
+    "en": "He came empty-handed."
+   },
+   {
+    "da": "Vi gik tomhændet hjem.",
+    "en": "We went home empty-handed."
+   },
+   {
+    "da": "tomhændede gæster",
+    "en": "empty-handed guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "uden resultat",
+    "en": "without result"
+   },
+   {
+    "da": "med uforrettet sag",
+    "en": "with nothing achieved"
+   },
+   {
+    "da": "forgæves",
+    "en": "in vain"
+   }
+  ],
+  "sentence": {
+   "da": "Hun købte blomster, fordi hun ikke ville komme **tomhændet**.",
+   "en": "She bought flowers because she did not want to come empty-handed."
   }
  },
  "torden": {
@@ -9873,6 +16467,80 @@
   "sentence": {
    "da": "Fiskeren fanger en stor **torsk** i havet.",
    "en": "The fisherman catches a big cod in the sea."
+  }
+ },
+ "tortur": {
+  "explanation": "\"En tortur\" means \"torture\", severe pain or suffering that someone causes on purpose. In daily talk it also describes something very unpleasant: Det var en tortur at vente (Waiting was torture).",
+  "forms": [
+   {
+    "da": "en tortur",
+    "en": "a torture"
+   },
+   {
+    "da": "torturen",
+    "en": "the torture"
+   },
+   {
+    "da": "under tortur",
+    "en": "under torture"
+   }
+  ],
+  "related": [
+   {
+    "da": "at torturere",
+    "en": "to torture"
+   },
+   {
+    "da": "en pine",
+    "en": "a torment"
+   },
+   {
+    "da": "en kval",
+    "en": "an agony"
+   },
+   {
+    "da": "en plage",
+    "en": "a nuisance"
+   }
+  ],
+  "sentence": {
+   "da": "**Tortur** er at gøre ondt på et menneske med vilje.",
+   "en": "Torture is hurting a person on purpose."
+  }
+ },
+ "tosproget": {
+  "explanation": "\"Tosproget\" means \"bilingual\", able to speak two languages well. It also describes things that use two languages, such as et tosproget skilt (a bilingual sign).",
+  "forms": [
+   {
+    "da": "en tosproget dreng",
+    "en": "a bilingual boy"
+   },
+   {
+    "da": "et tosproget barn",
+    "en": "a bilingual child"
+   },
+   {
+    "da": "tosprogede børn",
+    "en": "bilingual children"
+   }
+  ],
+  "related": [
+   {
+    "da": "flersproget",
+    "en": "multilingual"
+   },
+   {
+    "da": "et modersmål",
+    "en": "a mother tongue"
+   },
+   {
+    "da": "et fremmedsprog",
+    "en": "a foreign language"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **tosproget** og taler både dansk og engelsk hjemme.",
+   "en": "She is bilingual and speaks both Danish and English at home."
   }
  },
  "tosset": {
@@ -10103,6 +16771,41 @@
   "sentence": {
    "da": "Det var en **tragisk** dag, og alle græd.",
    "en": "It was a tragic day, and everyone cried."
+  }
+ },
+ "trang": {
+  "explanation": "\"Trang\" means \"cramped\", with too little room, for places and for clothes alike. It is also used about money: at leve på trange kår means to live on very little.",
+  "forms": [
+   {
+    "da": "et trangt rum",
+    "en": "a cramped room"
+   },
+   {
+    "da": "en trang plads",
+    "en": "a cramped space"
+   },
+   {
+    "da": "trange sko",
+    "en": "tight shoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "rummelig",
+    "en": "roomy"
+   },
+   {
+    "da": "snæver",
+    "en": "narrow"
+   },
+   {
+    "da": "stram",
+    "en": "tight-fitting"
+   }
+  ],
+  "sentence": {
+   "da": "I en **trang** lejlighed er der næsten ikke plads til møbler.",
+   "en": "In a cramped apartment there is hardly room for furniture."
   }
  },
  "travl": {
@@ -10362,6 +17065,49 @@
    "en": "She is sad and crying."
   }
  },
+ "trivsel": {
+  "explanation": "\"En trivsel\" means \"well-being\", how comfortable and happy someone feels in a place such as a school or a job. It comes from the verb at trives (to thrive, to feel at home).",
+  "forms": [
+   {
+    "da": "en trivsel",
+    "en": "a well-being"
+   },
+   {
+    "da": "trivslen",
+    "en": "the well-being"
+   },
+   {
+    "da": "elevernes trivsel",
+    "en": "the pupils' well-being"
+   },
+   {
+    "da": "trivsel på arbejdet",
+    "en": "well-being at work"
+   }
+  ],
+  "related": [
+   {
+    "da": "et velbefindende",
+    "en": "a feeling of wellness"
+   },
+   {
+    "da": "en velfærd",
+    "en": "welfare"
+   },
+   {
+    "da": "en lykke",
+    "en": "happiness"
+   },
+   {
+    "da": "et helbred",
+    "en": "a state of health"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen arbejder for børnenes **trivsel**, så ingen skal føle sig alene.",
+   "en": "The school works for the children's well-being, so that no one feels alone."
+  }
+ },
  "tro": {
   "explanation": "\"Tro\" means \"faith\" or \"belief\": Hun mister aldrig sin tro (She never loses her faith). The same word is also at tro (to think, to believe): Jeg tror, det er rigtigt (I think it is right).",
   "forms": [
@@ -10399,6 +17145,193 @@
   "sentence": {
    "da": "Hendes **tro** på Gud giver hende ro.",
    "en": "Her faith in God gives her peace."
+  }
+ },
+ "trods": {
+  "explanation": "\"Trods\" means \"despite\" and is followed by whatever was in the way: trods regnen (despite the rain). The longer på trods af means the same.",
+  "forms": [
+   {
+    "da": "trods kulden",
+    "en": "despite the cold"
+   },
+   {
+    "da": "trods sygdom",
+    "en": "despite illness"
+   },
+   {
+    "da": "trods alle problemer",
+    "en": "despite all the problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "alligevel",
+    "en": "anyway"
+   },
+   {
+    "da": "selvom",
+    "en": "even though"
+   },
+   {
+    "da": "til trods for",
+    "en": "in spite of"
+   }
+  ],
+  "sentence": {
+   "da": "**Trods** den høje pris købte hun den dyre jakke.",
+   "en": "Despite the high price, she bought the expensive jacket."
+  }
+ },
+ "trods alt": {
+  "explanation": "\"Trods alt\" means \"after all\", used when something turns out good or true even though there were problems on the way. Literally it is \"despite everything\".",
+  "forms": [
+   {
+    "da": "Det gik trods alt godt.",
+    "en": "It went well after all."
+   },
+   {
+    "da": "Han kom trods alt.",
+    "en": "He came after all."
+   },
+   {
+    "da": "Hun fik trods alt jobbet.",
+    "en": "She got the job after all."
+   }
+  ],
+  "related": [
+   {
+    "da": "alligevel",
+    "en": "anyway"
+   },
+   {
+    "da": "endelig",
+    "en": "finally"
+   },
+   {
+    "da": "i sidste ende",
+    "en": "in the end"
+   },
+   {
+    "da": "alt i alt",
+    "en": "all in all"
+   }
+  ],
+  "sentence": {
+   "da": "Der var mange problemer, men vi nåede **trods alt** frem.",
+   "en": "There were many problems, but we got there after all."
+  }
+ },
+ "troende": {
+  "explanation": "\"Troende\" means \"believing\" or \"religious\", about someone who has a faith: en troende muslim (a believing Muslim). Used alone it names such people: de troende (the believers). It comes from at tro (to believe).",
+  "forms": [
+   {
+    "da": "en troende kristen",
+    "en": "a believing Christian"
+   },
+   {
+    "da": "et troende menneske",
+    "en": "a religious person"
+   },
+   {
+    "da": "troende mennesker",
+    "en": "religious people"
+   }
+  ],
+  "related": [
+   {
+    "da": "gudfrygtig",
+    "en": "devout"
+   },
+   {
+    "da": "kristen",
+    "en": "Christian"
+   },
+   {
+    "da": "en ateist",
+    "en": "an atheist"
+   },
+   {
+    "da": "en agnostiker",
+    "en": "an agnostic"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er en **troende** kvinde og går i kirke hver søndag.",
+   "en": "She is a religious woman and goes to church every Sunday."
+  }
+ },
+ "trofast": {
+  "explanation": "\"Trofast\" means \"faithful\", staying loyal over a long time, for example a friend, a dog or a partner. It is built from tro (loyal, true) and fast (firm).",
+  "forms": [
+   {
+    "da": "en trofast ven",
+    "en": "a faithful friend"
+   },
+   {
+    "da": "et trofast dyr",
+    "en": "a faithful animal"
+   },
+   {
+    "da": "trofaste venner",
+    "en": "faithful friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "standhaftig",
+    "en": "steadfast"
+   },
+   {
+    "da": "utro",
+    "en": "unfaithful"
+   },
+   {
+    "da": "pålidelig",
+    "en": "reliable"
+   },
+   {
+    "da": "troløs",
+    "en": "disloyal"
+   }
+  ],
+  "sentence": {
+   "da": "Min hund er en **trofast** ven, som venter ved døren.",
+   "en": "My dog is a faithful friend who waits at the door."
+  }
+ },
+ "troskab": {
+  "explanation": "\"En troskab\" means \"loyalty\", staying faithful to a person, a promise or a country. In a relationship it means being faithful to your partner, and its opposite is utroskab (infidelity).",
+  "forms": [
+   {
+    "da": "en troskab",
+    "en": "a loyalty"
+   },
+   {
+    "da": "troskaben",
+    "en": "the loyalty"
+   },
+   {
+    "da": "troskab mod sit land",
+    "en": "loyalty to your country"
+   }
+  ],
+  "related": [
+   {
+    "da": "lojal",
+    "en": "loyal"
+   },
+   {
+    "da": "troløs",
+    "en": "disloyal"
+   },
+   {
+    "da": "et forræderi",
+    "en": "a betrayal"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaten svor **troskab** mod kongen.",
+   "en": "The soldier swore loyalty to the king."
   }
  },
  "trusser": {
@@ -10514,6 +17447,45 @@
    "en": "Children need security at home."
   }
  },
+ "trygt": {
+  "explanation": "\"Trygt\" means \"safely\", with no risk or worry. In Du kan trygt spørge (You can safely ask), it means \"feel free to\": you have nothing to fear.",
+  "forms": [
+   {
+    "da": "Børnene sover trygt.",
+    "en": "The children sleep safely."
+   },
+   {
+    "da": "Her kan man færdes trygt.",
+    "en": "You can move about safely here."
+   },
+   {
+    "da": "at gå trygt hjem",
+    "en": "to walk home safely"
+   }
+  ],
+  "related": [
+   {
+    "da": "tryg",
+    "en": "safe, secure"
+   },
+   {
+    "da": "en tryghed",
+    "en": "a security"
+   },
+   {
+    "da": "utrygt",
+    "en": "uneasily"
+   },
+   {
+    "da": "sikkert",
+    "en": "surely / safely"
+   }
+  ],
+  "sentence": {
+   "da": "Børn skal kunne lege **trygt** i deres eget kvarter.",
+   "en": "Children should be able to play safely in their own neighborhood."
+  }
+ },
  "trådløs": {
   "explanation": "\"Trådløs\" means \"wireless\". It is built from tråd (wire) and the ending -løs (-less), so it describes things that work without being plugged in.",
   "forms": [
@@ -10547,6 +17519,45 @@
   "sentence": {
    "da": "Min nye højttaler er **trådløs** og har ikke noget kabel.",
    "en": "My new speaker is wireless and has no cable."
+  }
+ },
+ "træg": {
+  "explanation": "\"Træg\" means \"sluggish\", taking a long time to get going, with little energy. It is used for a person, a body or a computer.",
+  "forms": [
+   {
+    "da": "en træg morgen",
+    "en": "a sluggish morning"
+   },
+   {
+    "da": "et trægt system",
+    "en": "a sluggish system"
+   },
+   {
+    "da": "træge bevægelser",
+    "en": "sluggish movements"
+   }
+  ],
+  "related": [
+   {
+    "da": "langsom",
+    "en": "slow"
+   },
+   {
+    "da": "doven",
+    "en": "lazy"
+   },
+   {
+    "da": "sløv",
+    "en": "dull"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
+   }
+  ],
+  "sentence": {
+   "da": "Trafikken var **træg**, fordi der var mange biler.",
+   "en": "The traffic was sluggish because there were many cars."
   }
  },
  "træning": {
@@ -10707,6 +17718,41 @@
   "sentence": {
    "da": "Jeg er **træt af** at vente her.",
    "en": "I am tired of waiting here."
+  }
+ },
+ "træthed": {
+  "explanation": "\"En træthed\" means \"tiredness\", the feeling of having no energy and needing rest. It names the state itself; to say that you are tired, you use træt.",
+  "forms": [
+   {
+    "da": "en træthed",
+    "en": "a tiredness"
+   },
+   {
+    "da": "trætheden",
+    "en": "the tiredness"
+   },
+   {
+    "da": "på grund af træthed",
+    "en": "because of tiredness"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udmattelse",
+    "en": "an exhaustion"
+   },
+   {
+    "da": "en søvnighed",
+    "en": "a sleepiness"
+   },
+   {
+    "da": "en sløvhed",
+    "en": "a dullness"
+   }
+  ],
+  "sentence": {
+   "da": "Manglende søvn giver **træthed** og dårlig koncentration.",
+   "en": "Lack of sleep causes tiredness and poor concentration."
   }
  },
  "trøst": {
@@ -10923,6 +17969,197 @@
    "en": "You have helped me so much. Thanks a lot!"
   }
  },
+ "tusindvis": {
+  "explanation": "\"Tusindvis\" means \"thousands\" and is followed by af and the thing counted. It gives a rough size, many thousands, not an exact number.",
+  "forms": [
+   {
+    "da": "tusindvis af biler",
+    "en": "thousands of cars"
+   },
+   {
+    "da": "tusindvis af år",
+    "en": "thousands of years"
+   },
+   {
+    "da": "tusindvis af fans",
+    "en": "thousands of fans"
+   }
+  ],
+  "related": [
+   {
+    "da": "hundredvis",
+    "en": "hundreds"
+   },
+   {
+    "da": "titusinder",
+    "en": "tens of thousands"
+   },
+   {
+    "da": "millioner",
+    "en": "millions"
+   },
+   {
+    "da": "et tusind",
+    "en": "a thousand"
+   }
+  ],
+  "sentence": {
+   "da": "Ved en stor koncert er der **tusindvis** af mennesker.",
+   "en": "At a big concert there are thousands of people."
+  }
+ },
+ "tvetydig": {
+  "explanation": "\"Tvetydig\" means \"ambiguous\", a sentence, answer or hint that can be understood in two different ways. The start tve- means two, as in tvilling (twin).",
+  "forms": [
+   {
+    "da": "en tvetydig besked",
+    "en": "an ambiguous message"
+   },
+   {
+    "da": "et tvetydigt svar",
+    "en": "an ambiguous answer"
+   },
+   {
+    "da": "tvetydige ord",
+    "en": "ambiguous words"
+   }
+  ],
+  "related": [
+   {
+    "da": "utvetydig",
+    "en": "unambiguous"
+   },
+   {
+    "da": "flertydig",
+    "en": "open to many readings"
+   },
+   {
+    "da": "uklar",
+    "en": "unclear"
+   },
+   {
+    "da": "klar",
+    "en": "clear"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **tvetydig** sætning, for den kan forstås på to måder.",
+   "en": "It is an ambiguous sentence, because it can be understood in two ways."
+  }
+ },
+ "tvivlsom": {
+  "explanation": "\"Tvivlsom\" means \"doubtful\", not certain to be true, good or honest, so you do not fully trust it. It describes the thing, while a person who feels unsure is usikker (unsure).",
+  "forms": [
+   {
+    "da": "en tvivlsom idé",
+    "en": "a doubtful idea"
+   },
+   {
+    "da": "et tvivlsomt svar",
+    "en": "a doubtful answer"
+   },
+   {
+    "da": "tvivlsomme planer",
+    "en": "doubtful plans"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tvivle",
+    "en": "to doubt"
+   },
+   {
+    "da": "en tvivl",
+    "en": "a doubt"
+   },
+   {
+    "da": "mistænkelig",
+    "en": "suspicious"
+   },
+   {
+    "da": "sikker",
+    "en": "sure"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg synes, hans forklaring er meget **tvivlsom**.",
+   "en": "I think his explanation is very doubtful."
+  }
+ },
+ "tvungen": {
+  "explanation": "\"Tvungen\" means \"forced\", done because a rule or a situation leaves you no choice, not because you want to. It comes from at tvinge (to force).",
+  "forms": [
+   {
+    "da": "en tvungen pause",
+    "en": "a forced break"
+   },
+   {
+    "da": "et tvungent skift",
+    "en": "a forced change"
+   },
+   {
+    "da": "tvungne ændringer",
+    "en": "forced changes"
+   }
+  ],
+  "related": [
+   {
+    "da": "obligatorisk",
+    "en": "compulsory"
+   },
+   {
+    "da": "frivillig",
+    "en": "voluntary"
+   },
+   {
+    "da": "en tvang",
+    "en": "a compulsion"
+   }
+  ],
+  "sentence": {
+   "da": "Det var ikke et frit valg, men en **tvungen** løsning.",
+   "en": "It was not a free choice but a forced solution."
+  }
+ },
+ "tværtimod": {
+  "explanation": "\"Tværtimod\" means \"on the contrary\", used to answer a statement by saying that the opposite is true: Generer jeg dig? Tværtimod! (Am I bothering you? On the contrary!)",
+  "forms": [
+   {
+    "da": "Nej, tværtimod!",
+    "en": "No, on the contrary!"
+   },
+   {
+    "da": "Det er ikke dyrt, tværtimod.",
+    "en": "It is not expensive, on the contrary."
+   },
+   {
+    "da": "Tværtimod, det var en fornøjelse.",
+    "en": "On the contrary, it was a pleasure."
+   }
+  ],
+  "related": [
+   {
+    "da": "derimod",
+    "en": "on the other hand"
+   },
+   {
+    "da": "snarere",
+    "en": "rather"
+   },
+   {
+    "da": "i stedet",
+    "en": "instead"
+   },
+   {
+    "da": "en modsætning",
+    "en": "a contrast"
+   }
+  ],
+  "sentence": {
+   "da": "Han er ikke doven, **tværtimod** arbejder han meget.",
+   "en": "He is not lazy, on the contrary he works a lot."
+  }
+ },
  "tydelig": {
   "explanation": "\"Tydelig\" means \"clear\" in the sense of easy to see or understand. Tal tydeligt (Speak clearly). For clear water or clear skies, use klar (clear).",
   "forms": [
@@ -10960,6 +18197,45 @@
   "sentence": {
    "da": "Hendes stemme er **tydelig**, så alle kan høre hende.",
    "en": "Her voice is clear, so everyone can hear her."
+  }
+ },
+ "tydeligvis": {
+  "explanation": "\"Tydeligvis\" means \"obviously\", used when the signs show that something is true, even if nobody has said it. It is not the same as selvfølgelig (of course), which says something goes without saying.",
+  "forms": [
+   {
+    "da": "Han er tydeligvis syg.",
+    "en": "He is obviously sick."
+   },
+   {
+    "da": "Det er tydeligvis en fejl.",
+    "en": "It is obviously a mistake."
+   },
+   {
+    "da": "Hun har tydeligvis ikke sovet.",
+    "en": "She obviously has not slept."
+   }
+  ],
+  "related": [
+   {
+    "da": "åbenbart",
+    "en": "evidently"
+   },
+   {
+    "da": "tydelig",
+    "en": "clear"
+   },
+   {
+    "da": "sandsynligvis",
+    "en": "probably"
+   },
+   {
+    "da": "naturligvis",
+    "en": "naturally"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **tydeligvis** hjemme, fordi der er lys i vinduet.",
+   "en": "He is obviously home because there is a light in the window."
   }
  },
  "tyggegummi": {
@@ -11069,6 +18345,41 @@
   "sentence": {
    "da": "Bogen har få sider. Den er **tynd**.",
    "en": "The book has few pages. It is thin."
+  }
+ },
+ "tyngdekraft": {
+  "explanation": "\"En tyngdekraft\" means \"gravity\", the force that pulls things down toward the earth. Literally it is \"weight force\", from tyngde (weight) and kraft (force).",
+  "forms": [
+   {
+    "da": "en tyngdekraft",
+    "en": "a gravity"
+   },
+   {
+    "da": "tyngdekraften",
+    "en": "the gravity"
+   },
+   {
+    "da": "på grund af tyngdekraften",
+    "en": "because of gravity"
+   }
+  ],
+  "related": [
+   {
+    "da": "vægtløs",
+    "en": "weightless"
+   },
+   {
+    "da": "en tiltrækningskraft",
+    "en": "a force of attraction"
+   },
+   {
+    "da": "en masse",
+    "en": "a mass"
+   }
+  ],
+  "sentence": {
+   "da": "Uden **tyngdekraft** ville tingene svæve rundt i luften.",
+   "en": "Without gravity things would float around in the air."
   }
  },
  "typisk": {
@@ -11283,6 +18594,80 @@
   "sentence": {
    "da": "Ti og ti er **tyve**.",
    "en": "Ten and ten is twenty."
+  }
+ },
+ "tyvende": {
+  "explanation": "\"Tyvende\" means \"twentieth\", the place number for 20 in a row. It is also how Danes say the century: det tyvende århundrede (the twentieth century).",
+  "forms": [
+   {
+    "da": "den tyvende maj",
+    "en": "May twentieth"
+   },
+   {
+    "da": "den tyvende dag",
+    "en": "the twentieth day"
+   },
+   {
+    "da": "for tyvende gang",
+    "en": "for the twentieth time"
+   }
+  ],
+  "related": [
+   {
+    "da": "tyve",
+    "en": "twenty"
+   },
+   {
+    "da": "enogtyvende",
+    "en": "twenty-first"
+   },
+   {
+    "da": "tiende",
+    "en": "tenth"
+   }
+  ],
+  "sentence": {
+   "da": "Efter den nittende dag kommer den **tyvende**.",
+   "en": "After the nineteenth day comes the twentieth."
+  }
+ },
+ "tåbelig": {
+  "explanation": "\"Tåbelig\" means \"foolish\", for an idea, a remark or a decision that is silly and not well thought through. In everyday speech Danes more often say dum (stupid).",
+  "forms": [
+   {
+    "da": "en tåbelig idé",
+    "en": "a foolish idea"
+   },
+   {
+    "da": "et tåbeligt svar",
+    "en": "a foolish answer"
+   },
+   {
+    "da": "tåbelige planer",
+    "en": "foolish plans"
+   }
+  ],
+  "related": [
+   {
+    "da": "tosset",
+    "en": "crazy"
+   },
+   {
+    "da": "fjollet",
+    "en": "goofy"
+   },
+   {
+    "da": "uklog",
+    "en": "unwise"
+   },
+   {
+    "da": "latterlig",
+    "en": "ridiculous"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **tåbelig** idé at gå ud uden jakke.",
+   "en": "It was a foolish idea to go out without a jacket."
   }
  },
  "tåge": {
@@ -11513,6 +18898,80 @@
   "sentence": {
    "da": "Bukser og trøjer er **tøj**.",
    "en": "Trousers and sweaters are clothes."
+  }
+ },
+ "tømmer": {
+  "explanation": "\"Et tømmer\" means \"timber\", wood from felled trees used for building, such as logs. Do not mix it up with tømmer from at tømme (to empty): Jeg tømmer skabet (I empty the cabinet).",
+  "forms": [
+   {
+    "da": "et tømmer",
+    "en": "a timber"
+   },
+   {
+    "da": "tømmeret",
+    "en": "the timber"
+   },
+   {
+    "da": "et stykke tømmer",
+    "en": "a piece of timber"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tømrer",
+    "en": "a carpenter"
+   },
+   {
+    "da": "et brænde",
+    "en": "firewood"
+   },
+   {
+    "da": "en bjælke",
+    "en": "a beam"
+   },
+   {
+    "da": "et bræt",
+    "en": "a board"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bruger **tømmer** fra skoven til at bygge huset.",
+   "en": "We use timber from the forest to build the house."
+  }
+ },
+ "tømmermænd": {
+  "explanation": "\"Tømmermænd\" means \"a hangover\", the sick, tired feeling the morning after too much alcohol. Danish uses it only in the plural, so you say Jeg har tømmermænd (I have a hangover).",
+  "forms": [
+   {
+    "da": "tømmermænd",
+    "en": "a hangover"
+   },
+   {
+    "da": "slemme tømmermænd",
+    "en": "a terrible hangover"
+   },
+   {
+    "da": "få tømmermænd",
+    "en": "to get a hangover"
+   }
+  ],
+  "related": [
+   {
+    "da": "fuld",
+    "en": "drunk"
+   },
+   {
+    "da": "en brandert",
+    "en": "a drinking binge"
+   },
+   {
+    "da": "kvalm",
+    "en": "nauseous"
+   }
+  ],
+  "sentence": {
+   "da": "Efter festen havde han **tømmermænd** og ville bare sove.",
+   "en": "After the party he had a hangover and just wanted to sleep."
   }
  },
  "tør": {

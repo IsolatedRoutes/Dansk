@@ -163,6 +163,45 @@
    "en": "Kids usually wish for a dog for Christmas."
   }
  },
+ "at øse": {
+  "explanation": "\"At øse\" means \"to scoop or pour\", to move a liquid or loose things with something deep. It can mean to bail water out of a boat: at øse vand ud af båden (to bail water out of the boat). Det øser ned! (It is pouring down!) is said about heavy rain.",
+  "forms": [
+   {
+    "da": "at øse",
+    "en": "to scoop / pour"
+   },
+   {
+    "da": "jeg øser",
+    "en": "I scoop / pour"
+   },
+   {
+    "da": "jeg øste",
+    "en": "I scooped / poured"
+   },
+   {
+    "da": "jeg har øst",
+    "en": "I have scooped / poured"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skovle",
+    "en": "to shovel"
+   },
+   {
+    "da": "at tømme",
+    "en": "to empty"
+   },
+   {
+    "da": "at fylde",
+    "en": "to fill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **øse** suppen op i skålene.",
+   "en": "I will ladle the soup into the bowls."
+  }
+ },
  "at øve": {
   "explanation": "\"At øve\" means \"to practice\". Danish usually adds mig (myself): Jeg øver mig i dansk means \"I am practicing Danish\". The thing you practice comes after i (in).",
   "forms": [
@@ -325,6 +364,131 @@
   "sentence": {
    "da": "Min **øjenfarve** er grøn, og min fars er blå.",
    "en": "My eye color is green, and my father's is blue."
+  }
+ },
+ "en øjenlæge": {
+  "explanation": "\"En øjenlæge\" means \"an eye doctor\", a medical specialist who treats eye diseases and checks your sight. For a simple sight check, Danes often go to en optiker (an optician) instead.",
+  "forms": [
+   {
+    "da": "en øjenlæge",
+    "en": "an eye doctor"
+   },
+   {
+    "da": "øjenlægen",
+    "en": "the eye doctor"
+   },
+   {
+    "da": "øjenlæger",
+    "en": "eye doctors"
+   },
+   {
+    "da": "øjenlægerne",
+    "en": "the eye doctors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tandlæge",
+    "en": "a dentist"
+   },
+   {
+    "da": "en hudlæge",
+    "en": "a skin doctor"
+   },
+   {
+    "da": "en synsprøve",
+    "en": "an eye test"
+   },
+   {
+    "da": "briller",
+    "en": "glasses"
+   }
+  ],
+  "sentence": {
+   "da": "En **øjenlæge** undersøger dine øjne og dit syn.",
+   "en": "An eye doctor examines your eyes and your sight."
+  }
+ },
+ "en øjenvippe": {
+  "explanation": "\"En øjenvippe\" means \"an eyelash\", one of the short hairs along the edge of the lid.",
+  "forms": [
+   {
+    "da": "en øjenvippe",
+    "en": "an eyelash"
+   },
+   {
+    "da": "øjenvippen",
+    "en": "the eyelash"
+   },
+   {
+    "da": "øjenvipper",
+    "en": "eyelashes"
+   },
+   {
+    "da": "øjenvipperne",
+    "en": "the eyelashes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et øjenlåg",
+    "en": "an eyelid"
+   },
+   {
+    "da": "et øjenbryn",
+    "en": "an eyebrow"
+   },
+   {
+    "da": "en mascara",
+    "en": "a mascara"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **øjenvippe** hjælper med at holde støv ude af øjet.",
+   "en": "Each eyelash helps keep dust out of the eye."
+  }
+ },
+ "en økonom": {
+  "explanation": "\"En økonom\" means \"an economist\", a person who has studied economics, often working in a bank, a company or the government. The subject itself is økonomi (economics).",
+  "forms": [
+   {
+    "da": "en økonom",
+    "en": "an economist"
+   },
+   {
+    "da": "økonomen",
+    "en": "the economist"
+   },
+   {
+    "da": "økonomer",
+    "en": "economists"
+   },
+   {
+    "da": "økonomerne",
+    "en": "the economists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en revisor",
+    "en": "an accountant"
+   },
+   {
+    "da": "en analytiker",
+    "en": "an analyst"
+   },
+   {
+    "da": "en bankrådgiver",
+    "en": "a bank advisor"
+   },
+   {
+    "da": "en erhvervsøkonom",
+    "en": "a business graduate"
+   }
+  ],
+  "sentence": {
+   "da": "En **økonom** kan forklare, hvorfor priserne stiger.",
+   "en": "An economist can explain why prices rise."
   }
  },
  "en økonomi": {
@@ -655,6 +819,49 @@
    "en": "An eagle flies high over the mountains."
   }
  },
+ "en ørred": {
+  "explanation": "\"En ørred\" means \"a trout\", a fish found in cold rivers and lakes, and also in the sea. It is a popular catch for anglers, and the meat is often pink.",
+  "forms": [
+   {
+    "da": "en ørred",
+    "en": "a trout"
+   },
+   {
+    "da": "ørreden",
+    "en": "the trout"
+   },
+   {
+    "da": "ørreder",
+    "en": "trout"
+   },
+   {
+    "da": "ørrederne",
+    "en": "the trout"
+   }
+  ],
+  "related": [
+   {
+    "da": "en laks",
+    "en": "a salmon"
+   },
+   {
+    "da": "en gedde",
+    "en": "a pike"
+   },
+   {
+    "da": "en aborre",
+    "en": "a perch"
+   },
+   {
+    "da": "en karpe",
+    "en": "a carp"
+   }
+  ],
+  "sentence": {
+   "da": "En **ørred** ligner en laks, men den er mindre.",
+   "en": "A trout looks like a salmon, but it is smaller."
+  }
+ },
  "en øse": {
   "explanation": "\"En øse\" means \"a ladle\", a deep scoop with a long handle for serving food from a pot. The action is at øse op (to scoop out): Han øser maden op (He scoops out the food). Op adds the idea of lifting out of the pot.",
   "forms": [
@@ -692,6 +899,49 @@
   "sentence": {
    "da": "Han tager suppe op af gryden med en **øse**.",
    "en": "He takes soup out of the pot with a ladle."
+  }
+ },
+ "en østers": {
+  "explanation": "\"En østers\" means \"an oyster\", a shellfish that lives in the sea inside a rough, hard shell. It is often seen as a luxury food.",
+  "forms": [
+   {
+    "da": "en østers",
+    "en": "an oyster"
+   },
+   {
+    "da": "østersen",
+    "en": "the oyster"
+   },
+   {
+    "da": "østers",
+    "en": "oysters"
+   },
+   {
+    "da": "østersene",
+    "en": "the oysters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en musling",
+    "en": "a mussel"
+   },
+   {
+    "da": "en hummer",
+    "en": "a lobster"
+   },
+   {
+    "da": "en krabbe",
+    "en": "a crab"
+   },
+   {
+    "da": "en kammusling",
+    "en": "a scallop"
+   }
+  ],
+  "sentence": {
+   "da": "En **østers** er en musling, som man ofte spiser rå.",
+   "en": "An oyster is a kind of shellfish that people often eat raw."
   }
  },
  "en øvelse": {
@@ -815,6 +1065,45 @@
    "en": "Wait a moment, please."
   }
  },
+ "et øjekast": {
+  "explanation": "\"Et øjekast\" means \"a glance\", a very quick look at something. It is made of øje (an eye) and kast (a throw), so it is a throw of the eyes. It is mostly used in set phrases such as ved første øjekast (at first glance).",
+  "forms": [
+   {
+    "da": "et øjekast",
+    "en": "a glance"
+   },
+   {
+    "da": "øjekastet",
+    "en": "the glance"
+   },
+   {
+    "da": "øjekast",
+    "en": "glances"
+   },
+   {
+    "da": "øjekastene",
+    "en": "the glances"
+   }
+  ],
+  "related": [
+   {
+    "da": "et blik",
+    "en": "a gaze"
+   },
+   {
+    "da": "et kig",
+    "en": "a peek"
+   },
+   {
+    "da": "et glimt",
+    "en": "a glimpse"
+   }
+  ],
+  "sentence": {
+   "da": "Et hurtigt **øjekast** på kortet var nok til at finde vej.",
+   "en": "A quick glance at the map was enough to find the way."
+  }
+ },
  "et øjenbryn": {
   "explanation": "\"Et øjenbryn\" means \"an eyebrow\", the line of hair above your eye. As in English, it is used for surprise: Han løftede et øjenbryn (He raised an eyebrow).",
   "forms": [
@@ -856,6 +1145,92 @@
   "sentence": {
    "da": "Han har et ar over det venstre **øjenbryn**.",
    "en": "He has a scar over his left eyebrow."
+  }
+ },
+ "et øjenlåg": {
+  "explanation": "\"Et øjenlåg\" means \"an eyelid\", the thin skin that closes over the eye. It is built from et øje (an eye) and et låg (a lid), the same låg as on a pot: et låg på en gryde (a lid on a pot).",
+  "forms": [
+   {
+    "da": "et øjenlåg",
+    "en": "an eyelid"
+   },
+   {
+    "da": "øjenlåget",
+    "en": "the eyelid"
+   },
+   {
+    "da": "øjenlåg",
+    "en": "eyelids"
+   },
+   {
+    "da": "øjenlågene",
+    "en": "the eyelids"
+   }
+  ],
+  "related": [
+   {
+    "da": "et øjenbryn",
+    "en": "an eyebrow"
+   },
+   {
+    "da": "en øjenvippe",
+    "en": "an eyelash"
+   },
+   {
+    "da": "en pupil",
+    "en": "a pupil"
+   },
+   {
+    "da": "at blinke",
+    "en": "to blink"
+   }
+  ],
+  "sentence": {
+   "da": "Når du sover, er dine **øjenlåg** lukkede.",
+   "en": "When you sleep, your eyelids are closed."
+  }
+ },
+ "et økosystem": {
+  "explanation": "\"Et økosystem\" means \"an ecosystem\", the plants, animals and soil in one area, which all depend on each other, like a forest or a lake.",
+  "forms": [
+   {
+    "da": "et økosystem",
+    "en": "an ecosystem"
+   },
+   {
+    "da": "økosystemet",
+    "en": "the ecosystem"
+   },
+   {
+    "da": "økosystemer",
+    "en": "ecosystems"
+   },
+   {
+    "da": "økosystemerne",
+    "en": "the ecosystems"
+   }
+  ],
+  "related": [
+   {
+    "da": "et miljø",
+    "en": "an environment"
+   },
+   {
+    "da": "en biodiversitet",
+    "en": "biodiversity"
+   },
+   {
+    "da": "en fødekæde",
+    "en": "a food chain"
+   },
+   {
+    "da": "et levested",
+    "en": "a habitat"
+   }
+  ],
+  "sentence": {
+   "da": "Når der er for få bier, ødelægger det et helt **økosystem**.",
+   "en": "When there are too few bees, it ruins a whole ecosystem."
   }
  },
  "et ønske": {
@@ -940,6 +1315,45 @@
    "en": "My ear hurts."
   }
  },
+ "øde": {
+  "explanation": "\"Øde\" means \"deserted\", with no people where you would expect some. It sounds bleak. For a place that is just calm and peaceful, use stille (quiet).",
+  "forms": [
+   {
+    "da": "en øde ø",
+    "en": "a deserted island"
+   },
+   {
+    "da": "et øde sted",
+    "en": "a deserted place"
+   },
+   {
+    "da": "øde gader",
+    "en": "deserted streets"
+   }
+  ],
+  "related": [
+   {
+    "da": "tom",
+    "en": "empty"
+   },
+   {
+    "da": "forladt",
+    "en": "abandoned"
+   },
+   {
+    "da": "ensom",
+    "en": "lonely"
+   },
+   {
+    "da": "en ødemark",
+    "en": "a wasteland"
+   }
+  ],
+  "sentence": {
+   "da": "Om natten er den lille by helt **øde**, og ingen er ude.",
+   "en": "At night the small town is completely deserted, and nobody is out."
+  }
+ },
  "ødelagt": {
   "explanation": "\"Ødelagt\" means \"broken\" or \"ruined\", for something that no longer works at all or cannot be saved. It also fits a day or a plan: Dagen er ødelagt (The day is ruined).",
   "forms": [
@@ -977,6 +1391,197 @@
   "sentence": {
    "da": "Min telefon er **ødelagt**, fordi jeg tabte den.",
    "en": "My phone is broken because I dropped it."
+  }
+ },
+ "ødelæggelse": {
+  "explanation": "\"En ødelæggelse\" means \"a destruction\", the harm and ruin left when something has been wrecked. It is the thing left behind after at ødelægge (to destroy).",
+  "forms": [
+   {
+    "da": "en ødelæggelse",
+    "en": "a destruction"
+   },
+   {
+    "da": "ødelæggelsen",
+    "en": "the destruction"
+   },
+   {
+    "da": "ødelæggelser",
+    "en": "destructions"
+   },
+   {
+    "da": "ødelæggelserne",
+    "en": "the destructions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skade",
+    "en": "a damage"
+   },
+   {
+    "da": "et forfald",
+    "en": "a decay"
+   },
+   {
+    "da": "en tilintetgørelse",
+    "en": "an annihilation"
+   },
+   {
+    "da": "en genopbygning",
+    "en": "a rebuilding"
+   }
+  ],
+  "sentence": {
+   "da": "Stormen forårsagede stor **ødelæggelse** i byen.",
+   "en": "The storm caused great destruction in the town."
+  }
+ },
+ "ødelæggende": {
+  "explanation": "\"Ødelæggende\" means \"destructive\". It is made from the verb at ødelægge (to destroy) and describes something that does the destroying.",
+  "forms": [
+   {
+    "da": "en ødelæggende kritik",
+    "en": "destructive criticism"
+   },
+   {
+    "da": "et ødelæggende angreb",
+    "en": "a destructive attack"
+   },
+   {
+    "da": "ødelæggende konsekvenser",
+    "en": "destructive consequences"
+   }
+  ],
+  "related": [
+   {
+    "da": "skadelig",
+    "en": "harmful"
+   },
+   {
+    "da": "katastrofal",
+    "en": "disastrous"
+   },
+   {
+    "da": "opbyggende",
+    "en": "constructive"
+   }
+  ],
+  "sentence": {
+   "da": "Den **ødelæggende** orkan lagde mange huse i ruiner.",
+   "en": "The destructive hurricane left many houses in ruins."
+  }
+ },
+ "øjeblikkelig": {
+  "explanation": "\"Øjeblikkelig\" means \"immediate\", with no delay. It is built from et øjeblik (a moment) and is typical with help, answers and effects. It describes a thing. To say how an action happens, use øjeblikkeligt.",
+  "forms": [
+   {
+    "da": "en øjeblikkelig reaktion",
+    "en": "an immediate reaction"
+   },
+   {
+    "da": "et øjeblikkeligt svar",
+    "en": "an immediate answer"
+   },
+   {
+    "da": "øjeblikkelige resultater",
+    "en": "immediate results"
+   }
+  ],
+  "related": [
+   {
+    "da": "omgående",
+    "en": "at once"
+   },
+   {
+    "da": "straks",
+    "en": "right away"
+   },
+   {
+    "da": "akut",
+    "en": "urgent"
+   },
+   {
+    "da": "forsinket",
+    "en": "delayed"
+   }
+  ],
+  "sentence": {
+   "da": "Han fik **øjeblikkelig** hjælp, fordi det var meget alvorligt.",
+   "en": "He got immediate help because it was very serious."
+  }
+ },
+ "øjeblikkeligt": {
+  "explanation": "\"Øjeblikkeligt\" means \"immediately\", with no waiting at all. Use it to say how an action happens. Before a thing, Danes say øjeblikkelig instead.",
+  "forms": [
+   {
+    "da": "Kom øjeblikkeligt!",
+    "en": "Come immediately!"
+   },
+   {
+    "da": "Svar øjeblikkeligt",
+    "en": "Answer immediately"
+   },
+   {
+    "da": "Det virker øjeblikkeligt",
+    "en": "It works immediately"
+   }
+  ],
+  "related": [
+   {
+    "da": "straks",
+    "en": "right away"
+   },
+   {
+    "da": "omgående",
+    "en": "promptly"
+   },
+   {
+    "da": "med det samme",
+    "en": "at once"
+   }
+  ],
+  "sentence": {
+   "da": "Brandalarmen går, og alle forlader bygningen **øjeblikkeligt**.",
+   "en": "The fire alarm goes off, and everyone leaves the building immediately."
+  }
+ },
+ "øjensynligt": {
+  "explanation": "\"Øjensynligt\" means \"apparently\" and says that you can see signs of something with your own eyes. It sounds more certain than a guess, because you are pointing at what is plainly there.",
+  "forms": [
+   {
+    "da": "Hun er øjensynligt træt",
+    "en": "She is apparently tired"
+   },
+   {
+    "da": "Det regner øjensynligt",
+    "en": "It is apparently raining"
+   },
+   {
+    "da": "Han har øjensynligt glemt det",
+    "en": "He has apparently forgotten it"
+   }
+  ],
+  "related": [
+   {
+    "da": "tilsyneladende",
+    "en": "seemingly"
+   },
+   {
+    "da": "åbenbart",
+    "en": "obviously"
+   },
+   {
+    "da": "synligt",
+    "en": "visibly"
+   },
+   {
+    "da": "tydeligvis",
+    "en": "clearly"
+   }
+  ],
+  "sentence": {
+   "da": "Vinduet er åbent, så han er **øjensynligt** hjemme.",
+   "en": "The window is open, so he is apparently home."
   }
  },
  "økologisk": {
@@ -1082,6 +1687,45 @@
   "sentence": {
    "da": "Min skulder er **øm** efter træning.",
    "en": "My shoulder is sore after exercise."
+  }
+ },
+ "ønskelig": {
+  "explanation": "\"Ønskelig\" means \"desirable\", something that would be good to have or hoped for. It is common in reports and official texts to say what would be best: Det er ønskeligt, at alle kommer (It is desirable that everyone comes).",
+  "forms": [
+   {
+    "da": "en ønskelig løsning",
+    "en": "a desirable solution"
+   },
+   {
+    "da": "et ønskeligt resultat",
+    "en": "a desirable result"
+   },
+   {
+    "da": "ønskelige forhold",
+    "en": "desirable conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ønske",
+    "en": "a wish"
+   },
+   {
+    "da": "at ønske",
+    "en": "to wish"
+   },
+   {
+    "da": "uønsket",
+    "en": "unwanted"
+   },
+   {
+    "da": "eftertragtet",
+    "en": "sought-after"
+   }
+  ],
+  "sentence": {
+   "da": "En **ønskelig** løsning er både billig og nem.",
+   "en": "A desirable solution is both cheap and easy."
   }
  },
  "øreringe": {
@@ -1238,6 +1882,84 @@
   "sentence": {
    "da": "Vi tager **østpå** efter frokost.",
    "en": "We are heading east after lunch."
+  }
+ },
+ "øvelse gør mester": {
+  "explanation": "\"Øvelse gør mester\" means \"practice makes perfect\", said to encourage someone who is learning something. Word for word, it says that exercise makes a mester, and a mester is someone fully skilled.",
+  "forms": [
+   {
+    "da": "Øvelse gør mester",
+    "en": "Practice makes perfect"
+   },
+   {
+    "da": "Husk: øvelse gør mester",
+    "en": "Remember: practice makes perfect"
+   },
+   {
+    "da": "Øvelse gør mester, så bliv ved",
+    "en": "Practice makes perfect, so keep going"
+   }
+  ],
+  "related": [
+   {
+    "da": "at træne",
+    "en": "to train"
+   },
+   {
+    "da": "en lærling",
+    "en": "an apprentice"
+   },
+   {
+    "da": "tålmodighed",
+    "en": "patience"
+   },
+   {
+    "da": "Det kommer med tiden",
+    "en": "It comes with time"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg læser højt hver dag, fordi **øvelse gør mester**.",
+   "en": "I read aloud every day because practice makes perfect."
+  }
+ },
+ "øverst": {
+  "explanation": "\"Øverst\" means \"at the top\", the very highest spot. It points to one place at the top, not just somewhere higher.",
+  "forms": [
+   {
+    "da": "øverst på listen",
+    "en": "at the top of the list"
+   },
+   {
+    "da": "øverst til højre",
+    "en": "at the top right"
+   },
+   {
+    "da": "øverst på siden",
+    "en": "at the top of the page"
+   }
+  ],
+  "related": [
+   {
+    "da": "nederst",
+    "en": "at the bottom"
+   },
+   {
+    "da": "over",
+    "en": "above"
+   },
+   {
+    "da": "øvre",
+    "en": "upper"
+   },
+   {
+    "da": "foroven",
+    "en": "up above"
+   }
+  ],
+  "sentence": {
+   "da": "Min yndlingsbog står **øverst** på hylden.",
+   "en": "My favorite book is at the top of the shelf."
   }
  }
 }

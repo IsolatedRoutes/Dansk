@@ -1,4 +1,47 @@
 {
+ "at censurere": {
+  "explanation": "\"At censurere\" means \"to censor\", to cut or forbid parts of a text or a film so that people cannot see them. Do not mix it up with en censor, who is the outside examiner at a Danish exam and has nothing to do with banning anything.",
+  "forms": [
+   {
+    "da": "at censurere",
+    "en": "to censor"
+   },
+   {
+    "da": "jeg censurerer",
+    "en": "I censor"
+   },
+   {
+    "da": "jeg censurerede",
+    "en": "I censored"
+   },
+   {
+    "da": "jeg har censureret",
+    "en": "I have censored"
+   }
+  ],
+  "related": [
+   {
+    "da": "en censur",
+    "en": "censorship"
+   },
+   {
+    "da": "at forbyde",
+    "en": "to ban"
+   },
+   {
+    "da": "at udelade",
+    "en": "to leave out"
+   },
+   {
+    "da": "ytringsfrihed",
+    "en": "freedom of speech"
+   }
+  ],
+  "sentence": {
+   "da": "Nogle lande vil **censurere** nyhederne, så folk ikke får hele sandheden.",
+   "en": "Some countries want to censor the news so people do not get the whole truth."
+  }
+ },
  "at checke ind": {
   "explanation": "\"At checke ind\" means \"to check in\", at a hotel or an airport. At a hotel, ask Må jeg checke ind? (May I check in?)",
   "forms": [
@@ -75,6 +118,92 @@
   "sentence": {
    "da": "Vi skal **checke ud** af hotellet i dag.",
    "en": "We have to check out of the hotel today."
+  }
+ },
+ "at cirkulere": {
+  "explanation": "\"At cirkulere\" means \"to circulate\", to move around in a loop or from person to person. It is used for blood, air and money, and also for stories: Blodet cirkulerer rundt i kroppen (Blood circulates around the body).",
+  "forms": [
+   {
+    "da": "at cirkulere",
+    "en": "to circulate"
+   },
+   {
+    "da": "jeg cirkulerer",
+    "en": "I circulate"
+   },
+   {
+    "da": "jeg cirkulerede",
+    "en": "I circulated"
+   },
+   {
+    "da": "jeg har cirkuleret",
+    "en": "I have circulated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cirkel",
+    "en": "a circle"
+   },
+   {
+    "da": "et kredsløb",
+    "en": "a circuit"
+   },
+   {
+    "da": "at sprede sig",
+    "en": "to spread"
+   },
+   {
+    "da": "at rotere",
+    "en": "to rotate"
+   }
+  ],
+  "sentence": {
+   "da": "Rygter kan **cirkulere** hurtigt på en lille arbejdsplads.",
+   "en": "Rumors can circulate quickly at a small workplace."
+  }
+ },
+ "at citere": {
+  "explanation": "\"At citere\" means \"to quote\", to repeat the exact words of a person or a text. The little word fra (from) names where the words come from: Han citerer fra en tale (He quotes from a speech).",
+  "forms": [
+   {
+    "da": "at citere",
+    "en": "to quote"
+   },
+   {
+    "da": "jeg citerer",
+    "en": "I quote"
+   },
+   {
+    "da": "jeg citerede",
+    "en": "I quoted"
+   },
+   {
+    "da": "jeg har citeret",
+    "en": "I have quoted"
+   }
+  ],
+  "related": [
+   {
+    "da": "et citat",
+    "en": "a quotation"
+   },
+   {
+    "da": "et citationstegn",
+    "en": "a quotation mark"
+   },
+   {
+    "da": "at referere",
+    "en": "to summarize"
+   },
+   {
+    "da": "en kilde",
+    "en": "a source"
+   }
+  ],
+  "sentence": {
+   "da": "Man må gerne **citere** en bog, hvis man nævner forfatteren.",
+   "en": "You may quote a book if you mention the author."
   }
  },
  "at cykle": {
@@ -350,6 +479,45 @@
    "en": "Chips are made of potatoes and taste salty."
   }
  },
+ "chokerende": {
+  "explanation": "\"Chokerende\" means \"shocking\", so upsetting or unexpected that it hits you hard. It describes the cause of the feeling, while chokeret (shocked) describes the person who feels it.",
+  "forms": [
+   {
+    "da": "chokerende nyheder",
+    "en": "shocking news"
+   },
+   {
+    "da": "en chokerende pris",
+    "en": "a shocking price"
+   },
+   {
+    "da": "et chokerende billede",
+    "en": "a shocking picture"
+   }
+  ],
+  "related": [
+   {
+    "da": "overraskende",
+    "en": "surprising"
+   },
+   {
+    "da": "forfærdelig",
+    "en": "terrible"
+   },
+   {
+    "da": "rystende",
+    "en": "disturbing"
+   },
+   {
+    "da": "uhyrlig",
+    "en": "outrageous"
+   }
+  ],
+  "sentence": {
+   "da": "Nyheden var **chokerende**, og alle blev helt stille.",
+   "en": "The news was shocking, and everyone went completely quiet."
+  }
+ },
  "chokeret": {
   "explanation": "\"Chokeret\" means \"shocked\" and describes someone who is surprised in a bad way. The thing that shocks you is chokerende (shocking).",
   "forms": [
@@ -457,6 +625,88 @@
   "sentence": {
    "da": "Det er **cirka** tre kilometer.",
    "en": "It is about three kilometers."
+  }
+ },
+ "civil": {
+  "explanation": "\"Civil\" means \"civilian\" and \"civil\", for people and things that are not part of the army. In civil ulydighed (civil disobedience), people break a rule on purpose to protest, without violence.",
+  "forms": [
+   {
+    "da": "en civil person",
+    "en": "a civilian"
+   },
+   {
+    "da": "et civilt job",
+    "en": "a civilian job"
+   },
+   {
+    "da": "civile ofre",
+    "en": "civilian victims"
+   }
+  ],
+  "related": [
+   {
+    "da": "militær",
+    "en": "military"
+   },
+   {
+    "da": "en soldat",
+    "en": "a soldier"
+   },
+   {
+    "da": "en borger",
+    "en": "a citizen"
+   },
+   {
+    "da": "krig",
+    "en": "war"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaten tog uniformen af og gik rundt i **civil**.",
+   "en": "The soldier took off the uniform and walked around in plain clothes."
+  }
+ },
+ "co2": {
+  "explanation": "\"CO2\" means \"carbon dioxide\", the gas released when we burn fuel such as coal, oil and gas, and when we breathe out. Too much of it in the air makes the planet warmer. The full Danish word is kuldioxid.",
+  "forms": [
+   {
+    "da": "CO2",
+    "en": "carbon dioxide"
+   },
+   {
+    "da": "CO2-udledning",
+    "en": "CO2 emission"
+   },
+   {
+    "da": "CO2-afgift",
+    "en": "CO2 tax"
+   },
+   {
+    "da": "CO2-neutral",
+    "en": "carbon neutral"
+   }
+  ],
+  "related": [
+   {
+    "da": "klima",
+    "en": "climate"
+   },
+   {
+    "da": "drivhuseffekten",
+    "en": "the greenhouse effect"
+   },
+   {
+    "da": "ilt",
+    "en": "oxygen"
+   },
+   {
+    "da": "metan",
+    "en": "methane"
+   }
+  ],
+  "sentence": {
+   "da": "Når vi kører bil, udleder vi **CO2** til luften.",
+   "en": "When we drive a car, we release CO2 into the air."
   }
  },
  "cornflakes": {
@@ -720,6 +970,45 @@
    "en": "On a campsite you can sleep in a tent."
   }
  },
+ "en campus": {
+  "explanation": "\"En campus\" means \"a campus\", the area where the buildings of a school of higher education stand together, with a library and places to eat and study.",
+  "forms": [
+   {
+    "da": "en campus",
+    "en": "a campus"
+   },
+   {
+    "da": "campussen",
+    "en": "the campus"
+   },
+   {
+    "da": "campusser",
+    "en": "campuses"
+   },
+   {
+    "da": "campusserne",
+    "en": "the campuses"
+   }
+  ],
+  "related": [
+   {
+    "da": "et universitet",
+    "en": "a university"
+   },
+   {
+    "da": "et kollegium",
+    "en": "a dorm"
+   },
+   {
+    "da": "et auditorium",
+    "en": "a lecture hall"
+   }
+  ],
+  "sentence": {
+   "da": "Mange studerende bor på eller tæt ved **campus**.",
+   "en": "Many students live on or close to campus."
+  }
+ },
  "en cardigan": {
   "explanation": "\"En cardigan\" means \"a cardigan\", a knitted top that opens down the front.",
   "forms": [
@@ -802,6 +1091,84 @@
    "en": "We park the car under our carport."
   }
  },
+ "en celle": {
+  "explanation": "\"En celle\" means \"a cell\" and has three common uses: in biology, as a small room in a prison, and as a box in a spreadsheet. Context shows which one is meant.",
+  "forms": [
+   {
+    "da": "en celle",
+    "en": "a cell"
+   },
+   {
+    "da": "cellen",
+    "en": "the cell"
+   },
+   {
+    "da": "celler",
+    "en": "cells"
+   },
+   {
+    "da": "cellerne",
+    "en": "the cells"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bakterie",
+    "en": "a bacterium"
+   },
+   {
+    "da": "en kerne",
+    "en": "a nucleus"
+   },
+   {
+    "da": "en organisme",
+    "en": "an organism"
+   }
+  ],
+  "sentence": {
+   "da": "En **celle** er den mindste levende del af en krop.",
+   "en": "A cell is the smallest living part of a body."
+  }
+ },
+ "en censor": {
+  "explanation": "\"En censor\" means \"an external examiner\", a person from outside the school who joins an oral or written test and helps the school's own teacher decide the mark.",
+  "forms": [
+   {
+    "da": "en censor",
+    "en": "an external examiner"
+   },
+   {
+    "da": "censoren",
+    "en": "the external examiner"
+   },
+   {
+    "da": "censorer",
+    "en": "external examiners"
+   },
+   {
+    "da": "censorerne",
+    "en": "the external examiners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en eksamen",
+    "en": "an exam"
+   },
+   {
+    "da": "en karakter",
+    "en": "a grade"
+   },
+   {
+    "da": "en bedømmelse",
+    "en": "an assessment"
+   }
+  ],
+  "sentence": {
+   "da": "Til den mundtlige prøve sidder der både en lærer og en **censor**.",
+   "en": "At the oral test, there is both a teacher and an external examiner."
+  }
+ },
  "en cent": {
   "explanation": "\"En cent\" means \"a cent\", one hundredth of a euro or a dollar. Danish money uses en øre (an øre) instead.",
   "forms": [
@@ -878,6 +1245,45 @@
   "sentence": {
    "da": "Bordet er hundrede **centimeter** langt.",
    "en": "The table is a hundred centimeters long."
+  }
+ },
+ "en ceremoni": {
+  "explanation": "\"En ceremoni\" means \"a ceremony\", a formal event that follows fixed steps, for example when people get married, graduate or receive a prize.",
+  "forms": [
+   {
+    "da": "en ceremoni",
+    "en": "a ceremony"
+   },
+   {
+    "da": "ceremonien",
+    "en": "the ceremony"
+   },
+   {
+    "da": "ceremonier",
+    "en": "ceremonies"
+   },
+   {
+    "da": "ceremonierne",
+    "en": "the ceremonies"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ritual",
+    "en": "a ritual"
+   },
+   {
+    "da": "en højtidelighed",
+    "en": "a solemn occasion"
+   },
+   {
+    "da": "en indvielse",
+    "en": "an inauguration"
+   }
+  ],
+  "sentence": {
+   "da": "Ved en **ceremoni** gør man tingene på en fast, højtidelig måde.",
+   "en": "At a ceremony you do things in a fixed, solemn way."
   }
  },
  "en champignon": {
@@ -2055,6 +2461,49 @@
    "en": "We are going to the circus tonight to see animals."
   }
  },
+ "et citat": {
+  "explanation": "\"Et citat\" means \"a quote\", words taken exactly from what someone else said or wrote, and used again in a new place.",
+  "forms": [
+   {
+    "da": "et citat",
+    "en": "a quote"
+   },
+   {
+    "da": "citatet",
+    "en": "the quote"
+   },
+   {
+    "da": "citater",
+    "en": "quotes"
+   },
+   {
+    "da": "citaterne",
+    "en": "the quotes"
+   }
+  ],
+  "related": [
+   {
+    "da": "at citere",
+    "en": "to cite"
+   },
+   {
+    "da": "et ordsprog",
+    "en": "a proverb"
+   },
+   {
+    "da": "en kilde",
+    "en": "a source"
+   },
+   {
+    "da": "en tekst",
+    "en": "a text"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bruger et **citat** fra bogen i sin tale.",
+   "en": "She uses a quote from the book in her speech."
+  }
+ },
  "et computerspil": {
   "explanation": "\"Et computerspil\" means \"a computer game\". It is built from computer and spil (game), and it also covers games on a phone.",
   "forms": [
@@ -2131,6 +2580,49 @@
   "sentence": {
    "da": "Jeg skriver mit **CPR-nummer** på formularen hos lægen.",
    "en": "I write my CPR number on the form at the doctor's."
+  }
+ },
+ "et crush": {
+  "explanation": "\"Et crush\" means \"a crush\", a person you are romantically attracted to. Danes borrowed the English word, and use på (on) with it: et crush på en kollega (a crush on a coworker).",
+  "forms": [
+   {
+    "da": "et crush",
+    "en": "a crush"
+   },
+   {
+    "da": "crushet",
+    "en": "the crush"
+   },
+   {
+    "da": "mit crush",
+    "en": "my crush"
+   },
+   {
+    "da": "at have et crush",
+    "en": "to have a crush"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forelskelse",
+    "en": "an infatuation"
+   },
+   {
+    "da": "at være forelsket",
+    "en": "to be in love"
+   },
+   {
+    "da": "en kæreste",
+    "en": "a boyfriend / girlfriend"
+   },
+   {
+    "da": "en date",
+    "en": "a date"
+   }
+  ],
+  "sentence": {
+   "da": "Hun rødmer, hver gang hendes **crush** smiler til hende.",
+   "en": "She blushes every time her crush smiles at her."
   }
  },
  "et cv": {
@@ -2213,6 +2705,49 @@
   "sentence": {
    "da": "Et **cykelbud** kom med pizzaen på ti minutter.",
    "en": "A bike courier came with the pizza in ten minutes."
+  }
+ },
+ "et cykelløb": {
+  "explanation": "\"Et cykelløb\" means \"a bike race\", a competition where riders follow a set route and the fastest wins. Løb (race) is not about running here, even though at løbe means \"to run\".",
+  "forms": [
+   {
+    "da": "et cykelløb",
+    "en": "a bike race"
+   },
+   {
+    "da": "cykelløbet",
+    "en": "the bike race"
+   },
+   {
+    "da": "cykelløb",
+    "en": "bike races"
+   },
+   {
+    "da": "cykelløbene",
+    "en": "the bike races"
+   }
+  ],
+  "related": [
+   {
+    "da": "et maratonløb",
+    "en": "a marathon"
+   },
+   {
+    "da": "en cykelrytter",
+    "en": "a cyclist"
+   },
+   {
+    "da": "et kapløb",
+    "en": "a contest of speed"
+   },
+   {
+    "da": "en sprinter",
+    "en": "a sprinter"
+   }
+  ],
+  "sentence": {
+   "da": "Til et **cykelløb** vinder den, der først krydser målstregen.",
+   "en": "At a bike race, the one who first crosses the finish line wins."
   }
  },
  "et cykelstativ": {

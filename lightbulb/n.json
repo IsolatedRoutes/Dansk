@@ -1,4 +1,383 @@
 {
+ "at narre": {
+  "explanation": "\"At narre\" means \"to fool / trick\", to make someone believe something that is not true, often for fun or in a small way. It is milder than at snyde (to cheat): at narre sine venner (to fool your friends).",
+  "forms": [
+   {
+    "da": "at narre",
+    "en": "to fool / trick"
+   },
+   {
+    "da": "jeg narrer",
+    "en": "I fool / trick"
+   },
+   {
+    "da": "jeg narrede",
+    "en": "I fooled / tricked"
+   },
+   {
+    "da": "jeg har narret",
+    "en": "I have fooled / tricked"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nar",
+    "en": "a fool"
+   },
+   {
+    "da": "at bedrage",
+    "en": "to deceive"
+   },
+   {
+    "da": "en aprilsnar",
+    "en": "an April fool"
+   },
+   {
+    "da": "at drille",
+    "en": "to tease"
+   }
+  ],
+  "sentence": {
+   "da": "Han forsøgte at **narre** mig med et falsk navn.",
+   "en": "He tried to fool me with a fake name."
+  }
+ },
+ "at navngive": {
+  "explanation": "\"At navngive\" means \"to name\", to give something an official name. It is used for a child, a ship or a new discovery. In daily talk Danes more often say at kalde (to call).",
+  "forms": [
+   {
+    "da": "at navngive",
+    "en": "to name"
+   },
+   {
+    "da": "jeg navngiver",
+    "en": "I name"
+   },
+   {
+    "da": "jeg navngav",
+    "en": "I named"
+   },
+   {
+    "da": "jeg har navngivet",
+    "en": "I have named"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opkalde",
+    "en": "to name after"
+   },
+   {
+    "da": "at døbe",
+    "en": "to baptize / name"
+   },
+   {
+    "da": "et kaldenavn",
+    "en": "a nickname"
+   },
+   {
+    "da": "navnløs",
+    "en": "nameless"
+   }
+  ],
+  "sentence": {
+   "da": "Forskerne vil **navngive** den nye art efter hende.",
+   "en": "The researchers want to name the new species after her."
+  }
+ },
+ "at nedbryde": {
+  "explanation": "\"At nedbryde\" means \"to break down\" into smaller parts through a natural process: Bakterier nedbryder affald (Bacteria break down waste). It is also used for ideas: nedbryde fordomme (break down prejudices).",
+  "forms": [
+   {
+    "da": "at nedbryde",
+    "en": "to break down"
+   },
+   {
+    "da": "jeg nedbryder",
+    "en": "I break down"
+   },
+   {
+    "da": "jeg nedbrød",
+    "en": "I broke down"
+   },
+   {
+    "da": "jeg har nedbrudt",
+    "en": "I have broken down"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opløse",
+    "en": "to dissolve"
+   },
+   {
+    "da": "at rådne",
+    "en": "to rot"
+   },
+   {
+    "da": "at ødelægge",
+    "en": "to destroy"
+   },
+   {
+    "da": "at bygge op",
+    "en": "to build up"
+   }
+  ],
+  "sentence": {
+   "da": "Svampe hjælper med at **nedbryde** døde blade i skoven.",
+   "en": "Fungi help break down dead leaves in the forest."
+  }
+ },
+ "at nedkæmpe": {
+  "explanation": "\"At nedkæmpe\" means \"to defeat\" or \"to suppress\", used when you act against something until it is under control or gone: nedkæmpe et oprør (put down a rebellion), nedkæmpe en sygdom (stamp out a disease).",
+  "forms": [
+   {
+    "da": "at nedkæmpe",
+    "en": "to defeat / suppress"
+   },
+   {
+    "da": "jeg nedkæmper",
+    "en": "I defeat / suppress"
+   },
+   {
+    "da": "jeg nedkæmpede",
+    "en": "I defeated / suppressed"
+   },
+   {
+    "da": "jeg har nedkæmpet",
+    "en": "I have defeated / suppressed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bekæmpe",
+    "en": "to fight"
+   },
+   {
+    "da": "at besejre",
+    "en": "to beat"
+   },
+   {
+    "da": "at undertrykke",
+    "en": "to oppress"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet skal **nedkæmpe** den voksende kriminalitet i området.",
+   "en": "The police must bring the growing crime in the area under control."
+  }
+ },
+ "at nedlægge": {
+  "explanation": "\"At nedlægge\" means \"to shut down\" something for good, such as a shop, a factory or a bus line: nedlægge en buslinje (shut down a bus line). Unlike at lukke (to close), which may be just for the night, it is permanent. It also means to lay something down: nedlægge en krans (lay a wreath).",
+  "forms": [
+   {
+    "da": "at nedlægge",
+    "en": "to shut down / lay down"
+   },
+   {
+    "da": "jeg nedlægger",
+    "en": "I shut down / lay down"
+   },
+   {
+    "da": "jeg nedlagde",
+    "en": "I shut down / laid down"
+   },
+   {
+    "da": "jeg har nedlagt",
+    "en": "I have shut down / laid down"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afvikle",
+    "en": "to wind down"
+   },
+   {
+    "da": "at afskaffe",
+    "en": "to abolish"
+   },
+   {
+    "da": "at oprette",
+    "en": "to set up"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **nedlægge** den lille skole, fordi der er for få børn.",
+   "en": "The city will shut down the small school because there are too few children."
+  }
+ },
+ "at nedsætte": {
+  "explanation": "\"At nedsætte\" means \"to reduce\": to cut a number, a speed or a level: nedsætte farten (reduce speed). It has a second meaning, to set up a group: nedsætte en arbejdsgruppe (set up a working group).",
+  "forms": [
+   {
+    "da": "at nedsætte",
+    "en": "to reduce"
+   },
+   {
+    "da": "jeg nedsætter",
+    "en": "I reduce"
+   },
+   {
+    "da": "jeg nedsatte",
+    "en": "I reduced"
+   },
+   {
+    "da": "jeg har nedsat",
+    "en": "I have reduced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sænke",
+    "en": "to lower"
+   },
+   {
+    "da": "at mindske",
+    "en": "to decrease"
+   },
+   {
+    "da": "at forhøje",
+    "en": "to raise"
+   },
+   {
+    "da": "et udvalg",
+    "en": "a committee"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken vil **nedsætte** priserne på alle jakker.",
+   "en": "The store will reduce the prices on all jackets."
+  }
+ },
+ "at nedtone": {
+  "explanation": "\"At nedtone\" means \"to downplay\": to make something sound less important or serious than it is: Chefen nedtonede problemet (The boss downplayed the problem). It is built from ned (down) and tone (tone), like turning the volume down.",
+  "forms": [
+   {
+    "da": "at nedtone",
+    "en": "to downplay"
+   },
+   {
+    "da": "jeg nedtoner",
+    "en": "I downplay"
+   },
+   {
+    "da": "jeg nedtonede",
+    "en": "I downplayed"
+   },
+   {
+    "da": "jeg har nedtonet",
+    "en": "I have downplayed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bagatellisere",
+    "en": "to trivialize"
+   },
+   {
+    "da": "at overdrive",
+    "en": "to exaggerate"
+   },
+   {
+    "da": "at fremhæve",
+    "en": "to highlight"
+   },
+   {
+    "da": "at skjule",
+    "en": "to hide"
+   }
+  ],
+  "sentence": {
+   "da": "Man bør ikke **nedtone** faren, når børn leger ved vandet.",
+   "en": "You should not downplay the danger when children play by the water."
+  }
+ },
+ "at nikke": {
+  "explanation": "\"At nikke\" means \"to nod\", to move your head down and up, usually to say yes. The opposite is at ryste på hovedet (to shake your head).",
+  "forms": [
+   {
+    "da": "at nikke",
+    "en": "to nod"
+   },
+   {
+    "da": "jeg nikker",
+    "en": "I nod"
+   },
+   {
+    "da": "jeg nikkede",
+    "en": "I nodded"
+   },
+   {
+    "da": "jeg har nikket",
+    "en": "I have nodded"
+   }
+  ],
+  "related": [
+   {
+    "da": "et nik",
+    "en": "a nod"
+   },
+   {
+    "da": "at vinke",
+    "en": "to wave"
+   },
+   {
+    "da": "at samtykke",
+    "en": "to agree"
+   },
+   {
+    "da": "at hilse",
+    "en": "to greet"
+   }
+  ],
+  "sentence": {
+   "da": "Hun begyndte at **nikke**, da han forklarede planen.",
+   "en": "She began to nod when he explained the plan."
+  }
+ },
+ "at nippe": {
+  "explanation": "\"At nippe\" means \"to sip\": to take small amounts of a drink slowly, for pleasure. It is used with til: nippe til teen (sip the tea).",
+  "forms": [
+   {
+    "da": "at nippe",
+    "en": "to sip"
+   },
+   {
+    "da": "jeg nipper",
+    "en": "I sip"
+   },
+   {
+    "da": "jeg nippede",
+    "en": "I sipped"
+   },
+   {
+    "da": "jeg har nippet",
+    "en": "I have sipped"
+   }
+  ],
+  "related": [
+   {
+    "da": "en slurk",
+    "en": "a gulp"
+   },
+   {
+    "da": "at smage",
+    "en": "to taste"
+   },
+   {
+    "da": "at nyde",
+    "en": "to enjoy"
+   },
+   {
+    "da": "en tår",
+    "en": "a drop"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil bare **nippe** til vinen, for jeg skal køre.",
+   "en": "I will just sip the wine because I have to drive."
+  }
+ },
  "at notere": {
   "explanation": "\"At notere\" means \"to note down\", writing something short so you remember it: Jeg noterer adressen (I note down the address).",
   "forms": [
@@ -36,6 +415,45 @@
   "sentence": {
    "da": "Kan du **notere** mit telefonnummer?",
    "en": "Can you note down my phone number?"
+  }
+ },
+ "at nusse": {
+  "explanation": "\"At nusse\" means \"to cuddle / stroke\", to touch someone or an animal gently and lovingly. It is the soft touch you give a cat, a dog or a small child.",
+  "forms": [
+   {
+    "da": "at nusse",
+    "en": "to cuddle / stroke"
+   },
+   {
+    "da": "jeg nusser",
+    "en": "I cuddle / stroke"
+   },
+   {
+    "da": "jeg nussede",
+    "en": "I cuddled / stroked"
+   },
+   {
+    "da": "jeg har nusset",
+    "en": "I have cuddled / stroked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at kramme",
+    "en": "to hug"
+   },
+   {
+    "da": "at klappe",
+    "en": "to pat"
+   },
+   {
+    "da": "at kæle",
+    "en": "to cuddle / pet"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene vil gerne **nusse** den lille hvalp.",
+   "en": "The children would like to cuddle the little puppy."
   }
  },
  "at nyde": {
@@ -118,6 +536,49 @@
   "sentence": {
    "da": "Jeg er forkølet og må **nyse** hele tiden.",
    "en": "I have a cold and have to sneeze all the time."
+  }
+ },
+ "at nytte": {
+  "explanation": "\"At nytte\" means \"to be of use\", to have an effect or make a difference. It is mostly used when something does not work: Det nytter ikke (It is no use).",
+  "forms": [
+   {
+    "da": "at nytte",
+    "en": "to be of use"
+   },
+   {
+    "da": "jeg nytter",
+    "en": "I am of use"
+   },
+   {
+    "da": "jeg nyttede",
+    "en": "I was of use"
+   },
+   {
+    "da": "jeg har nyttet",
+    "en": "I have been of use"
+   }
+  ],
+  "related": [
+   {
+    "da": "nyttig",
+    "en": "useful"
+   },
+   {
+    "da": "nytteløs",
+    "en": "useless"
+   },
+   {
+    "da": "at hjælpe",
+    "en": "to help"
+   },
+   {
+    "da": "at gavne",
+    "en": "to benefit"
+   }
+  ],
+  "sentence": {
+   "da": "Det vil ikke **nytte** at råbe til ham.",
+   "en": "It will not help to shout at him."
   }
  },
  "at nå": {
@@ -366,6 +827,92 @@
    "en": "You must not mention it to him."
   }
  },
+ "at nøjes med": {
+  "explanation": "\"At nøjes med\" means \"to make do with\", to accept less than you wanted and be fine with it. The thing you accept comes after med: Vi nøjes med en lille bil (We make do with a small car).",
+  "forms": [
+   {
+    "da": "at nøjes med",
+    "en": "to make do with"
+   },
+   {
+    "da": "jeg nøjes med",
+    "en": "I make do with"
+   },
+   {
+    "da": "jeg nøjedes med",
+    "en": "I made do with"
+   },
+   {
+    "da": "jeg har nøjedes med",
+    "en": "I have made do with"
+   }
+  ],
+  "related": [
+   {
+    "da": "tilfreds",
+    "en": "satisfied"
+   },
+   {
+    "da": "at klare sig",
+    "en": "to get by"
+   },
+   {
+    "da": "nøjsom",
+    "en": "content with little"
+   },
+   {
+    "da": "at undvære",
+    "en": "to do without"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **nøjes med** én kop kaffe i dag.",
+   "en": "We must make do with one cup of coffee today."
+  }
+ },
+ "at nøle": {
+  "explanation": "\"At nøle\" means \"to hesitate\", to wait a moment because you are unsure. It is often followed by med at (about doing): Han nølede med at svare (He hesitated to answer).",
+  "forms": [
+   {
+    "da": "at nøle",
+    "en": "to hesitate"
+   },
+   {
+    "da": "jeg nøler",
+    "en": "I hesitate"
+   },
+   {
+    "da": "jeg nølede",
+    "en": "I hesitated"
+   },
+   {
+    "da": "jeg har nølet",
+    "en": "I have hesitated"
+   }
+  ],
+  "related": [
+   {
+    "da": "tøvende",
+    "en": "hesitant"
+   },
+   {
+    "da": "at betænke sig",
+    "en": "to think twice"
+   },
+   {
+    "da": "at vakle",
+    "en": "to waver"
+   },
+   {
+    "da": "en tvivl",
+    "en": "a doubt"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal ikke **nøle**, hvis du har brug for hjælp.",
+   "en": "You should not hesitate if you need help."
+  }
+ },
  "en nabo": {
   "explanation": "\"En nabo\" means \"a neighbor\", for a man or a woman.",
   "forms": [
@@ -448,6 +995,45 @@
    "en": "Your neck is at the back of the throat area."
   }
  },
+ "en narkoman": {
+  "explanation": "\"En narkoman\" means \"a drug addict\", a person who is addicted to drugs. It can sound harsh, so in care work you more often hear en misbruger (a person with a substance problem).",
+  "forms": [
+   {
+    "da": "en narkoman",
+    "en": "a drug addict"
+   },
+   {
+    "da": "narkomanen",
+    "en": "the drug addict"
+   },
+   {
+    "da": "narkomaner",
+    "en": "drug addicts"
+   },
+   {
+    "da": "narkomanerne",
+    "en": "the drug addicts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afhængighed",
+    "en": "a dependence"
+   },
+   {
+    "da": "en behandling",
+    "en": "a treatment"
+   },
+   {
+    "da": "et stof",
+    "en": "a narcotic"
+   }
+  ],
+  "sentence": {
+   "da": "En **narkoman** er afhængig af stoffer og har brug for hjælp.",
+   "en": "A drug addict is dependent on drugs and needs help."
+  }
+ },
  "en nat": {
   "explanation": "\"En nat\" means \"a night\", the dark time when most people sleep. Common phrases are i nat (tonight or last night), om natten (at night) and godnat (good night).",
   "forms": [
@@ -528,6 +1114,49 @@
   "sentence": {
    "da": "Danmark er en lille **nation** i Europa.",
    "en": "Denmark is a small nation in Europe."
+  }
+ },
+ "en nationalbank": {
+  "explanation": "\"En nationalbank\" means \"a central bank\", the main bank of a country, a bank for the other banks and the state. It is not for ordinary customers: you do not have an account there.",
+  "forms": [
+   {
+    "da": "en nationalbank",
+    "en": "a central bank"
+   },
+   {
+    "da": "nationalbanken",
+    "en": "the central bank"
+   },
+   {
+    "da": "nationalbanker",
+    "en": "central banks"
+   },
+   {
+    "da": "nationalbankerne",
+    "en": "the central banks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rente",
+    "en": "an interest rate"
+   },
+   {
+    "da": "en valuta",
+    "en": "a currency"
+   },
+   {
+    "da": "en pengeseddel",
+    "en": "a banknote"
+   },
+   {
+    "da": "et pengeinstitut",
+    "en": "a financial institution"
+   }
+  ],
+  "sentence": {
+   "da": "Landets **nationalbank** bestemmer renten og udsteder pengene.",
+   "en": "The country's central bank sets the interest rate and issues the money."
   }
  },
  "en nationalitet": {
@@ -690,6 +1319,209 @@
    "en": "I have a small bedside lamp by my bed."
   }
  },
+ "en nattesøvn": {
+  "explanation": "\"En nattesøvn\" means \"a night's sleep\", the sleep you get during one night. You use it to say how much or how well you slept: en god nattesøvn (a good night's sleep).",
+  "forms": [
+   {
+    "da": "en nattesøvn",
+    "en": "a night's sleep"
+   },
+   {
+    "da": "nattesøvnen",
+    "en": "the night's sleep"
+   },
+   {
+    "da": "en dårlig nattesøvn",
+    "en": "a bad night's sleep"
+   }
+  ],
+  "related": [
+   {
+    "da": "en middagslur",
+    "en": "a nap"
+   },
+   {
+    "da": "en blund",
+    "en": "a snooze"
+   },
+   {
+    "da": "søvnløshed",
+    "en": "insomnia"
+   },
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   }
+  ],
+  "sentence": {
+   "da": "De fleste voksne har brug for syv timers **nattesøvn**.",
+   "en": "Most adults need seven hours of sleep a night."
+  }
+ },
+ "en naturkatastrofe": {
+  "explanation": "\"En naturkatastrofe\" means \"a natural disaster\", a sudden event in nature that destroys homes and lives. It is built from natur (nature) and katastrofe (a disaster).",
+  "forms": [
+   {
+    "da": "en naturkatastrofe",
+    "en": "a natural disaster"
+   },
+   {
+    "da": "naturkatastrofen",
+    "en": "the natural disaster"
+   },
+   {
+    "da": "naturkatastrofer",
+    "en": "natural disasters"
+   },
+   {
+    "da": "naturkatastroferne",
+    "en": "the natural disasters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   },
+   {
+    "da": "en skovbrand",
+    "en": "a forest fire"
+   },
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "en ulykke",
+    "en": "an accident"
+   }
+  ],
+  "sentence": {
+   "da": "En oversvømmelse eller et jordskælv kan være en **naturkatastrofe**.",
+   "en": "A flood or an earthquake can be a natural disaster."
+  }
+ },
+ "en naturvejleder": {
+  "explanation": "\"En naturvejleder\" means \"a nature guide\", a person who takes groups outdoors and explains what they see, such as plants, animals and landscape.",
+  "forms": [
+   {
+    "da": "en naturvejleder",
+    "en": "a nature guide"
+   },
+   {
+    "da": "naturvejlederen",
+    "en": "the nature guide"
+   },
+   {
+    "da": "naturvejledere",
+    "en": "nature guides"
+   },
+   {
+    "da": "naturvejlederne",
+    "en": "the nature guides"
+   }
+  ],
+  "related": [
+   {
+    "da": "en biolog",
+    "en": "a biologist"
+   },
+   {
+    "da": "en ekskursion",
+    "en": "an excursion"
+   },
+   {
+    "da": "en rejseleder",
+    "en": "a tour leader"
+   }
+  ],
+  "sentence": {
+   "da": "En **naturvejleder** fortæller om dyrene og planterne i skoven.",
+   "en": "A nature guide tells about the animals and plants in the forest."
+  }
+ },
+ "en navle": {
+  "explanation": "\"En navle\" means \"a navel\", the small round dent in the middle of your front, where you were joined to your mother before birth.",
+  "forms": [
+   {
+    "da": "en navle",
+    "en": "a navel"
+   },
+   {
+    "da": "navlen",
+    "en": "the navel"
+   },
+   {
+    "da": "navler",
+    "en": "navels"
+   },
+   {
+    "da": "navlerne",
+    "en": "the navels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en navlestreng",
+    "en": "an umbilical cord"
+   },
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en bug",
+    "en": "a belly"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet har en lille **navle** midt på maven.",
+   "en": "The child has a small navel in the middle of the stomach."
+  }
+ },
+ "en navngivning": {
+  "explanation": "\"En navngivning\" means \"a naming\", the act of giving a name to a person, a place, an animal or a thing. It comes from at navngive (to name).",
+  "forms": [
+   {
+    "da": "en navngivning",
+    "en": "a naming"
+   },
+   {
+    "da": "navngivningen",
+    "en": "the naming"
+   },
+   {
+    "da": "navngivninger",
+    "en": "namings"
+   },
+   {
+    "da": "navngivningerne",
+    "en": "the namings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dåb",
+    "en": "a baptism"
+   },
+   {
+    "da": "en betegnelse",
+    "en": "a term"
+   },
+   {
+    "da": "en benævnelse",
+    "en": "a designation"
+   },
+   {
+    "da": "en titel",
+    "en": "a title"
+   }
+  ],
+  "sentence": {
+   "da": "Ved **navngivning** af en ny art bruger forskere ofte latin.",
+   "en": "When naming a new species, scientists often use Latin."
+  }
+ },
  "en nederdel": {
   "explanation": "\"En nederdel\" means \"a skirt\", clothing that hangs from the waist. It is built from neder (down) and del (part), so it literally means a lower part. Del alone means a part: en del af byen (a part of the town).",
   "forms": [
@@ -727,6 +1559,92 @@
   "sentence": {
    "da": "Hun tager en **nederdel** på, ikke bukser.",
    "en": "She puts on a skirt, not pants."
+  }
+ },
+ "en nedgang": {
+  "explanation": "\"En nedgang\" means \"a decline\", a fall in size, number or level: en nedgang i priserne (a decline in prices). It is also a way down to a lower place, such as nedgangen til metroen (the way down to the metro).",
+  "forms": [
+   {
+    "da": "en nedgang",
+    "en": "a decline"
+   },
+   {
+    "da": "nedgangen",
+    "en": "the decline"
+   },
+   {
+    "da": "nedgange",
+    "en": "declines"
+   },
+   {
+    "da": "nedgangene",
+    "en": "the declines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en stigning",
+    "en": "an increase"
+   },
+   {
+    "da": "en fremgang",
+    "en": "an improvement"
+   },
+   {
+    "da": "et fald",
+    "en": "a drop"
+   },
+   {
+    "da": "en opgang",
+    "en": "a way up"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en **nedgang** i antallet af turister i år.",
+   "en": "There was a decline in the number of tourists this year."
+  }
+ },
+ "en nedskæring": {
+  "explanation": "\"En nedskæring\" means \"a cutback\", less money, staff or service than before, often at a company or in public services. It comes from at skære ned (to cut back).",
+  "forms": [
+   {
+    "da": "en nedskæring",
+    "en": "a cutback"
+   },
+   {
+    "da": "nedskæringen",
+    "en": "the cutback"
+   },
+   {
+    "da": "nedskæringer",
+    "en": "cutbacks"
+   },
+   {
+    "da": "nedskæringerne",
+    "en": "the cutbacks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en besparelse",
+    "en": "a saving"
+   },
+   {
+    "da": "en fyring",
+    "en": "a layoff"
+   },
+   {
+    "da": "en reduktion",
+    "en": "a decrease"
+   },
+   {
+    "da": "en spareplan",
+    "en": "a savings plan"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen står over for en stor **nedskæring** i budgettet.",
+   "en": "The school faces a big cutback in its budget."
   }
  },
  "en negl": {
@@ -805,6 +1723,45 @@
   "sentence": {
    "da": "I en **neglesalon** kan man få lakeret sine negle.",
    "en": "In a nail salon you can get your nails polished."
+  }
+ },
+ "en nerve": {
+  "explanation": "\"En nerve\" means \"a nerve\", a thin fiber that carries signals between the brain and the rest of the body. The plural also appears in an idiom for being annoyed: Støjen går mig på nerverne (The noise gets on my nerves).",
+  "forms": [
+   {
+    "da": "en nerve",
+    "en": "a nerve"
+   },
+   {
+    "da": "nerven",
+    "en": "the nerve"
+   },
+   {
+    "da": "nerver",
+    "en": "nerves"
+   },
+   {
+    "da": "nerverne",
+    "en": "the nerves"
+   }
+  ],
+  "related": [
+   {
+    "da": "et nervesystem",
+    "en": "a nervous system"
+   },
+   {
+    "da": "en muskel",
+    "en": "a muscle"
+   },
+   {
+    "da": "en rygmarv",
+    "en": "a spinal cord"
+   }
+  ],
+  "sentence": {
+   "da": "En **nerve** sender signaler fra hjernen til musklerne.",
+   "en": "A nerve sends signals from the brain to the muscles."
   }
  },
  "en nevø": {
@@ -963,6 +1920,49 @@
    "en": "She is Norwegian and lives in Oslo."
   }
  },
+ "en norm": {
+  "explanation": "\"En norm\" means \"a norm\", a shared expectation of how people behave in a group or a country. Nobody writes it down, but people notice when it is broken.",
+  "forms": [
+   {
+    "da": "en norm",
+    "en": "a norm"
+   },
+   {
+    "da": "normen",
+    "en": "the norm"
+   },
+   {
+    "da": "normer",
+    "en": "norms"
+   },
+   {
+    "da": "normerne",
+    "en": "the norms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "en skik",
+    "en": "a custom"
+   },
+   {
+    "da": "en tradition",
+    "en": "a tradition"
+   },
+   {
+    "da": "en standard",
+    "en": "a standard"
+   }
+  ],
+  "sentence": {
+   "da": "I Danmark er det en **norm** at komme til tiden.",
+   "en": "In Denmark it is a norm to arrive on time."
+  }
+ },
  "en note": {
   "explanation": "\"En note\" means \"a note\", a few words written down to remember or tell something.",
   "forms": [
@@ -1049,6 +2049,88 @@
    "en": "I write new words in my notebook."
   }
  },
+ "en novelle": {
+  "explanation": "\"En novelle\" means \"a short story\", a short piece of fiction that you can read in one sitting, usually built around a single event.",
+  "forms": [
+   {
+    "da": "en novelle",
+    "en": "a short story"
+   },
+   {
+    "da": "novellen",
+    "en": "the short story"
+   },
+   {
+    "da": "noveller",
+    "en": "short stories"
+   },
+   {
+    "da": "novellerne",
+    "en": "the short stories"
+   }
+  ],
+  "related": [
+   {
+    "da": "en roman",
+    "en": "a novel"
+   },
+   {
+    "da": "et digt",
+    "en": "a poem"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   },
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale"
+   }
+  ],
+  "sentence": {
+   "da": "En **novelle** er meget kortere end en roman.",
+   "en": "A short story is much shorter than a novel."
+  }
+ },
+ "en nuance": {
+  "explanation": "\"En nuance\" means \"a nuance\", a very small variation in meaning, opinion or color that is easy to miss.",
+  "forms": [
+   {
+    "da": "en nuance",
+    "en": "a nuance"
+   },
+   {
+    "da": "nuancen",
+    "en": "the nuance"
+   },
+   {
+    "da": "nuancer",
+    "en": "nuances"
+   },
+   {
+    "da": "nuancerne",
+    "en": "the nuances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forskel",
+    "en": "a difference"
+   },
+   {
+    "da": "en detalje",
+    "en": "a detail"
+   },
+   {
+    "da": "nuanceret",
+    "en": "nuanced"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en lille **nuance** i betydningen af de to ord.",
+   "en": "There is a small nuance in the meaning of the two words."
+  }
+ },
  "en nummerplade": {
   "explanation": "\"En nummerplade\" means \"a license plate\". It is nummer (number) plus plade (plate). Plade also means a record, as in en vinylplade (a vinyl record).",
   "forms": [
@@ -1129,6 +2211,213 @@
   "sentence": {
    "da": "Jeg har en god **nyhed** til dig.",
    "en": "I have good news for you."
+  }
+ },
+ "en nyhedsside": {
+  "explanation": "\"En nyhedsside\" means \"a news site\", a website that publishes news and updates it through the day. Side means both page and site, so for one page in a printed paper say en avisside (a newspaper page).",
+  "forms": [
+   {
+    "da": "en nyhedsside",
+    "en": "a news site"
+   },
+   {
+    "da": "nyhedssiden",
+    "en": "the news site"
+   },
+   {
+    "da": "nyhedssider",
+    "en": "news sites"
+   },
+   {
+    "da": "nyhedssiderne",
+    "en": "the news sites"
+   }
+  ],
+  "related": [
+   {
+    "da": "en blog",
+    "en": "a blog"
+   },
+   {
+    "da": "en artikel",
+    "en": "an article"
+   },
+   {
+    "da": "en overskrift",
+    "en": "a headline"
+   }
+  ],
+  "sentence": {
+   "da": "På en **nyhedsside** kan man følge med i dagens begivenheder.",
+   "en": "On a news site you can keep up with the events of the day."
+  }
+ },
+ "en nyhedsudsendelse": {
+  "explanation": "\"En nyhedsudsendelse\" means \"a news broadcast\", a program on television or radio that reports what has happened, at a set time. Udsendelse (a broadcast) is any program, and nyheds- (news-) says what kind.",
+  "forms": [
+   {
+    "da": "en nyhedsudsendelse",
+    "en": "a news broadcast"
+   },
+   {
+    "da": "nyhedsudsendelsen",
+    "en": "the news broadcast"
+   },
+   {
+    "da": "nyhedsudsendelser",
+    "en": "news broadcasts"
+   },
+   {
+    "da": "nyhedsudsendelserne",
+    "en": "the news broadcasts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reporter",
+    "en": "a reporter"
+   },
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en kanal",
+    "en": "a channel"
+   }
+  ],
+  "sentence": {
+   "da": "I en **nyhedsudsendelse** hører man, hvad der er sket i dag.",
+   "en": "In a news broadcast you hear what has happened today."
+  }
+ },
+ "en nyhedsvært": {
+  "explanation": "\"En nyhedsvært\" means \"a news anchor\", the person who sits in the studio, presents the main stories and introduces the others. Vært (a host) alone is the host of any show or event.",
+  "forms": [
+   {
+    "da": "en nyhedsvært",
+    "en": "a news anchor"
+   },
+   {
+    "da": "nyhedsværten",
+    "en": "the news anchor"
+   },
+   {
+    "da": "nyhedsværter",
+    "en": "news anchors"
+   },
+   {
+    "da": "nyhedsværterne",
+    "en": "the news anchors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reporter",
+    "en": "a reporter"
+   },
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en speaker",
+    "en": "an announcer"
+   },
+   {
+    "da": "en redaktør",
+    "en": "an editor"
+   }
+  ],
+  "sentence": {
+   "da": "En **nyhedsvært** præsenterer dagens vigtigste historier i studiet.",
+   "en": "A news anchor presents the day's most important stories in the studio."
+  }
+ },
+ "en nyre": {
+  "explanation": "\"En nyre\" means \"a kidney\", one of two bean-shaped organs in your lower back. You can live with just one, so people can donate one to someone else.",
+  "forms": [
+   {
+    "da": "en nyre",
+    "en": "a kidney"
+   },
+   {
+    "da": "nyren",
+    "en": "the kidney"
+   },
+   {
+    "da": "nyrer",
+    "en": "kidneys"
+   },
+   {
+    "da": "nyrerne",
+    "en": "the kidneys"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lever",
+    "en": "a liver"
+   },
+   {
+    "da": "et hjerte",
+    "en": "a heart"
+   },
+   {
+    "da": "en lunge",
+    "en": "a lung"
+   },
+   {
+    "da": "en blære",
+    "en": "a bladder"
+   }
+  ],
+  "sentence": {
+   "da": "En **nyre** renser blodet og laver urin.",
+   "en": "A kidney cleans the blood and makes urine."
+  }
+ },
+ "en nytårskur": {
+  "explanation": "\"En nytårskur\" means \"a New Year's reception\", a get-together in early January, usually held by a company or an organization, with drinks and short talks. Guests come to wish each other a happy new year.",
+  "forms": [
+   {
+    "da": "en nytårskur",
+    "en": "a New Year's reception"
+   },
+   {
+    "da": "nytårskuren",
+    "en": "the New Year's reception"
+   },
+   {
+    "da": "nytårskure",
+    "en": "New Year's receptions"
+   },
+   {
+    "da": "nytårskurene",
+    "en": "the New Year's receptions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en julefrokost",
+    "en": "a Christmas lunch party"
+   },
+   {
+    "da": "en tale",
+    "en": "a speech"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
+   },
+   {
+    "da": "en sammenkomst",
+    "en": "a gathering"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet inviterer alle kunder til sin årlige **nytårskur** i januar.",
+   "en": "The company invites all customers to its annual New Year's reception in January."
   }
  },
  "en nål": {
@@ -1213,6 +2502,45 @@
    "en": "I can smell the flower with my nose."
   }
  },
+ "en næsespray": {
+  "explanation": "\"En næsespray\" means \"a nasal spray\", a small bottle that you spray into your nose when it is stuffed up.",
+  "forms": [
+   {
+    "da": "en næsespray",
+    "en": "a nasal spray"
+   },
+   {
+    "da": "næsesprayen",
+    "en": "the nasal spray"
+   },
+   {
+    "da": "næsesprays",
+    "en": "nasal sprays"
+   },
+   {
+    "da": "næsesprayene",
+    "en": "the nasal sprays"
+   }
+  ],
+  "related": [
+   {
+    "da": "en snue",
+    "en": "a head cold"
+   },
+   {
+    "da": "en allergi",
+    "en": "an allergy"
+   },
+   {
+    "da": "et apotek",
+    "en": "a pharmacy"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bruger **næsespray**, når næsen er tilstoppet.",
+   "en": "I use nasal spray when my nose is blocked."
+  }
+ },
  "en nød": {
   "explanation": "\"En nød\" means \"a nut\". The same spelling also means trouble, as in Han er i nød (He is in trouble).",
   "forms": [
@@ -1256,6 +2584,92 @@
    "en": "The squirrel saves a nut for the winter."
   }
  },
+ "en nøddeallergi": {
+  "explanation": "\"En nøddeallergi\" means \"a nut allergy\", a reaction of the body against nuts, which can be dangerous even in small amounts. Food labels warn about it: Kan indeholde spor af nødder (May contain traces of nuts).",
+  "forms": [
+   {
+    "da": "en nøddeallergi",
+    "en": "a nut allergy"
+   },
+   {
+    "da": "nøddeallergien",
+    "en": "the nut allergy"
+   },
+   {
+    "da": "nøddeallergier",
+    "en": "nut allergies"
+   },
+   {
+    "da": "nøddeallergierne",
+    "en": "the nut allergies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jordnød",
+    "en": "a peanut"
+   },
+   {
+    "da": "en hasselnød",
+    "en": "a hazelnut"
+   },
+   {
+    "da": "en mandel",
+    "en": "an almond"
+   },
+   {
+    "da": "en valnød",
+    "en": "a walnut"
+   }
+  ],
+  "sentence": {
+   "da": "Han har **nøddeallergi** og må ikke spise mandler.",
+   "en": "He has a nut allergy and must not eat almonds."
+  }
+ },
+ "en nødsituation": {
+  "explanation": "\"En nødsituation\" means \"an emergency\", a sudden and dangerous situation where people need help right away.",
+  "forms": [
+   {
+    "da": "en nødsituation",
+    "en": "an emergency"
+   },
+   {
+    "da": "nødsituationen",
+    "en": "the emergency"
+   },
+   {
+    "da": "nødsituationer",
+    "en": "emergencies"
+   },
+   {
+    "da": "nødsituationerne",
+    "en": "the emergencies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ulykke",
+    "en": "an accident"
+   },
+   {
+    "da": "en krise",
+    "en": "a crisis"
+   },
+   {
+    "da": "en katastrofe",
+    "en": "a disaster"
+   },
+   {
+    "da": "en brand",
+    "en": "a fire"
+   }
+  ],
+  "sentence": {
+   "da": "Ring til 112, når der er en **nødsituation**.",
+   "en": "Call 112 when there is an emergency."
+  }
+ },
  "en nødudgang": {
   "explanation": "\"En nødudgang\" means \"an emergency exit\", the door you use when there is danger.",
   "forms": [
@@ -1297,6 +2711,49 @@
   "sentence": {
    "da": "Døren er en **nødudgang**, og den må ikke låses.",
    "en": "The door is an emergency exit and must not be locked."
+  }
+ },
+ "en nødvendighed": {
+  "explanation": "\"En nødvendighed\" means \"a necessity\", something you must have, not just something you would like. The word for something being needed is nødvendig (necessary).",
+  "forms": [
+   {
+    "da": "en nødvendighed",
+    "en": "a necessity"
+   },
+   {
+    "da": "nødvendigheden",
+    "en": "the necessity"
+   },
+   {
+    "da": "nødvendigheder",
+    "en": "necessities"
+   },
+   {
+    "da": "nødvendighederne",
+    "en": "the necessities"
+   }
+  ],
+  "related": [
+   {
+    "da": "et behov",
+    "en": "a need"
+   },
+   {
+    "da": "en luksus",
+    "en": "a luxury"
+   },
+   {
+    "da": "et krav",
+    "en": "a requirement"
+   },
+   {
+    "da": "et ønske",
+    "en": "a wish"
+   }
+  ],
+  "sentence": {
+   "da": "Rent vand er en **nødvendighed**, men ikke alle har det.",
+   "en": "Clean water is a necessity, but not everyone has it."
   }
  },
  "en nøgle": {
@@ -1467,6 +2924,49 @@
    "en": "We live in a nice neighborhood near the school."
   }
  },
+ "et naboskab": {
+  "explanation": "\"Et naboskab\" means \"a neighborhood relationship\", the way people who live close to each other get along. It describes the relationship, not the people themselves, who are naboer (neighbors).",
+  "forms": [
+   {
+    "da": "et naboskab",
+    "en": "a neighborhood relationship"
+   },
+   {
+    "da": "naboskabet",
+    "en": "the neighborhood relationship"
+   },
+   {
+    "da": "naboskaber",
+    "en": "neighborhood relationships"
+   },
+   {
+    "da": "naboskaberne",
+    "en": "the neighborhood relationships"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fællesskab",
+    "en": "a community"
+   },
+   {
+    "da": "et venskab",
+    "en": "a friendship"
+   },
+   {
+    "da": "et kvarter",
+    "en": "a city quarter"
+   },
+   {
+    "da": "en genbo",
+    "en": "someone living opposite"
+   }
+  ],
+  "sentence": {
+   "da": "Et godt **naboskab** betyder, at man hjælper hinanden.",
+   "en": "A good neighborhood relationship means that people help each other."
+  }
+ },
  "et natbord": {
   "explanation": "\"Et natbord\" means \"a nightstand\". It is nat (night) plus bord (table), and it stands next to the bed.",
   "forms": [
@@ -1504,6 +3004,49 @@
   "sentence": {
    "da": "Jeg har en lampe og en bog på mit **natbord**.",
    "en": "I have a lamp and a book on my nightstand."
+  }
+ },
+ "et naturområde": {
+  "explanation": "\"Et naturområde\" means \"a nature area\", a stretch of land or water with wild plants and animals, often kept as it is so that people can visit it.",
+  "forms": [
+   {
+    "da": "et naturområde",
+    "en": "a nature area"
+   },
+   {
+    "da": "naturområdet",
+    "en": "the nature area"
+   },
+   {
+    "da": "naturområder",
+    "en": "nature areas"
+   },
+   {
+    "da": "naturområderne",
+    "en": "the nature areas"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nationalpark",
+    "en": "a national park"
+   },
+   {
+    "da": "et reservat",
+    "en": "a reserve"
+   },
+   {
+    "da": "en hede",
+    "en": "a heath"
+   },
+   {
+    "da": "et vildtreservat",
+    "en": "a wildlife reserve"
+   }
+  ],
+  "sentence": {
+   "da": "Vi går tur i et stort **naturområde** med sø og skov.",
+   "en": "We go for a walk in a large nature area with a lake and forest."
   }
  },
  "et navn": {
@@ -1549,6 +3092,49 @@
    "en": "What is your name?"
   }
  },
+ "et navneord": {
+  "explanation": "\"Et navneord\" means \"a noun\", a word that names something, like bil (a car) or Anna. Teachers also say et substantiv, which means the same.",
+  "forms": [
+   {
+    "da": "et navneord",
+    "en": "a noun"
+   },
+   {
+    "da": "navneordet",
+    "en": "the noun"
+   },
+   {
+    "da": "navneord",
+    "en": "nouns"
+   },
+   {
+    "da": "navneordene",
+    "en": "the nouns"
+   }
+  ],
+  "related": [
+   {
+    "da": "et udsagnsord",
+    "en": "a verb"
+   },
+   {
+    "da": "et tillægsord",
+    "en": "an adjective"
+   },
+   {
+    "da": "et biord",
+    "en": "an adverb"
+   },
+   {
+    "da": "et stedord",
+    "en": "a pronoun"
+   }
+  ],
+  "sentence": {
+   "da": "**Navneord** er ord for personer, steder og ting.",
+   "en": "Nouns are words for people, places and things."
+  }
+ },
  "et nedbrud": {
   "explanation": "\"Et nedbrud\" means \"a crash\", when a computer or system suddenly stops working. It is built from ned (down) and brud (break), and brud also appears in et benbrud (a broken bone).",
   "forms": [
@@ -1590,6 +3176,49 @@
   "sentence": {
    "da": "Efter et **nedbrud** skal jeg starte computeren igen.",
    "en": "After a crash, I have to start the computer again."
+  }
+ },
+ "et nederlag": {
+  "explanation": "\"Et nederlag\" means \"a defeat\", being beaten in a game, a war or an election.",
+  "forms": [
+   {
+    "da": "et nederlag",
+    "en": "a defeat"
+   },
+   {
+    "da": "nederlaget",
+    "en": "the defeat"
+   },
+   {
+    "da": "nederlag",
+    "en": "defeats"
+   },
+   {
+    "da": "nederlagene",
+    "en": "the defeats"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sejr",
+    "en": "a victory"
+   },
+   {
+    "da": "et tab",
+    "en": "a loss"
+   },
+   {
+    "da": "en taber",
+    "en": "a loser"
+   },
+   {
+    "da": "en vinder",
+    "en": "a winner"
+   }
+  ],
+  "sentence": {
+   "da": "Holdet tabte 5-0, og alle kaldte det et stort **nederlag**.",
+   "en": "The team lost 5-0, and everyone called it a big defeat."
   }
  },
  "et net": {
@@ -1670,6 +3299,49 @@
    "en": "Our computers are on the same network."
   }
  },
+ "et nik": {
+  "explanation": "\"Et nik\" means \"a nod\", a small movement of the head, up and down, that means yes.",
+  "forms": [
+   {
+    "da": "et nik",
+    "en": "a nod"
+   },
+   {
+    "da": "nikket",
+    "en": "the nod"
+   },
+   {
+    "da": "nik",
+    "en": "nods"
+   },
+   {
+    "da": "nikkene",
+    "en": "the nods"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nikke",
+    "en": "to nod"
+   },
+   {
+    "da": "et vink",
+    "en": "a wave"
+   },
+   {
+    "da": "et blink",
+    "en": "a wink"
+   },
+   {
+    "da": "et skuldertræk",
+    "en": "a shrug"
+   }
+  ],
+  "sentence": {
+   "da": "Hun svarede med et **nik** og smilede.",
+   "en": "She answered with a nod and smiled."
+  }
+ },
  "et niveau": {
   "explanation": "\"Et niveau\" means \"a level\", how high or advanced something is: Vi har tre niveauer: begynder, mellem og avanceret (We have three levels: beginner, intermediate and advanced).",
   "forms": [
@@ -1748,6 +3420,135 @@
    "en": "I call your number."
   }
  },
+ "et nyhedsbrev": {
+  "explanation": "\"Et nyhedsbrev\" means \"a newsletter\", a letter or email that a company or club sends regularly to people who signed up. You join with at tilmelde sig (to sign up) and stop it with at afmelde sig (to unsubscribe).",
+  "forms": [
+   {
+    "da": "et nyhedsbrev",
+    "en": "a newsletter"
+   },
+   {
+    "da": "nyhedsbrevet",
+    "en": "the newsletter"
+   },
+   {
+    "da": "nyhedsbreve",
+    "en": "newsletters"
+   },
+   {
+    "da": "nyhedsbrevene",
+    "en": "the newsletters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en e-mail",
+    "en": "an email"
+   },
+   {
+    "da": "et abonnement",
+    "en": "a subscription"
+   },
+   {
+    "da": "en afsender",
+    "en": "a sender"
+   },
+   {
+    "da": "en postliste",
+    "en": "a mailing list"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken sender et **nyhedsbrev** med nye tilbud hver måned.",
+   "en": "The store sends a newsletter with new offers every month."
+  }
+ },
+ "et nyhedsprogram": {
+  "explanation": "\"Et nyhedsprogram\" means \"a news program\", a show on television or radio that reports what has happened that day. The first part, nyheds-, comes from nyheder (news).",
+  "forms": [
+   {
+    "da": "et nyhedsprogram",
+    "en": "a news program"
+   },
+   {
+    "da": "nyhedsprogrammet",
+    "en": "the news program"
+   },
+   {
+    "da": "nyhedsprogrammer",
+    "en": "news programs"
+   },
+   {
+    "da": "nyhedsprogrammerne",
+    "en": "the news programs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en studievært",
+    "en": "a studio host"
+   },
+   {
+    "da": "en udsendelse",
+    "en": "a broadcast"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   }
+  ],
+  "sentence": {
+   "da": "I et **nyhedsprogram** fortæller en vært om dagens vigtigste begivenheder.",
+   "en": "In a news program, a host tells about the most important events of the day."
+  }
+ },
+ "et nys": {
+  "explanation": "\"Et nys\" means \"a sneeze\", the sudden burst of air through the nose. The action is at nyse (to sneeze): Jeg skal nyse (I have to sneeze).",
+  "forms": [
+   {
+    "da": "et nys",
+    "en": "a sneeze"
+   },
+   {
+    "da": "nyset",
+    "en": "the sneeze"
+   },
+   {
+    "da": "nys",
+    "en": "sneezes"
+   },
+   {
+    "da": "nysene",
+    "en": "the sneezes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forkølelse",
+    "en": "a cold"
+   },
+   {
+    "da": "en snue",
+    "en": "a runny nose"
+   },
+   {
+    "da": "en hoste",
+    "en": "a cough"
+   },
+   {
+    "da": "høfeber",
+    "en": "hay fever"
+   }
+  ],
+  "sentence": {
+   "da": "Hun gav et højt **nys**, og alle kiggede på hende.",
+   "en": "She gave a loud sneeze, and everyone looked at her."
+  }
+ },
  "et nytår": {
   "explanation": "\"Et nytår\" means \"a New Year\", the time around January 1: Godt nytår! (Happy New Year!) You can also say holde nytår (to celebrate New Year).",
   "forms": [
@@ -1785,6 +3586,135 @@
   "sentence": {
    "da": "Ved **nytår** ser vi fyrværkeri.",
    "en": "At New Year, we watch fireworks."
+  }
+ },
+ "et næb": {
+  "explanation": "\"Et næb\" means \"a beak\", the hard, pointed mouth of a bird. Unlike a mouth, it has no lips or teeth.",
+  "forms": [
+   {
+    "da": "et næb",
+    "en": "a beak"
+   },
+   {
+    "da": "næbbet",
+    "en": "the beak"
+   },
+   {
+    "da": "næb",
+    "en": "beaks"
+   },
+   {
+    "da": "næbbene",
+    "en": "the beaks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en klo",
+    "en": "a claw"
+   },
+   {
+    "da": "en vinge",
+    "en": "a wing"
+   },
+   {
+    "da": "en fjer",
+    "en": "a feather"
+   },
+   {
+    "da": "et tryne",
+    "en": "a snout"
+   }
+  ],
+  "sentence": {
+   "da": "Fuglen bruger sit **næb** til at samle mad op.",
+   "en": "The bird uses its beak to pick up food."
+  }
+ },
+ "et nødopkald": {
+  "explanation": "\"Et nødopkald\" means \"an emergency call\", a phone call to ask the rescue services for help right away. It is only for real danger, not for ordinary questions.",
+  "forms": [
+   {
+    "da": "et nødopkald",
+    "en": "an emergency call"
+   },
+   {
+    "da": "nødopkaldet",
+    "en": "the emergency call"
+   },
+   {
+    "da": "nødopkald",
+    "en": "emergency calls"
+   },
+   {
+    "da": "nødopkaldene",
+    "en": "the emergency calls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en alarmcentral",
+    "en": "a dispatch center"
+   },
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
+   },
+   {
+    "da": "et nødråb",
+    "en": "a cry for help"
+   },
+   {
+    "da": "en alarm",
+    "en": "an alarm"
+   }
+  ],
+  "sentence": {
+   "da": "Man laver et **nødopkald** til 112, når nogen er i fare.",
+   "en": "You make an emergency call to 112 when someone is in danger."
+  }
+ },
+ "et nødstilfælde": {
+  "explanation": "\"Et nødstilfælde\" means \"an emergency\", a sudden situation where someone needs help at once. Signs often use it after i (in): Brug døren i nødstilfælde (Use the door in an emergency).",
+  "forms": [
+   {
+    "da": "et nødstilfælde",
+    "en": "an emergency"
+   },
+   {
+    "da": "nødstilfældet",
+    "en": "the emergency"
+   },
+   {
+    "da": "nødstilfælde",
+    "en": "emergencies"
+   },
+   {
+    "da": "nødstilfældene",
+    "en": "the emergencies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ulykke",
+    "en": "an accident"
+   },
+   {
+    "da": "et uheld",
+    "en": "a mishap"
+   },
+   {
+    "da": "en fare",
+    "en": "a danger"
+   },
+   {
+    "da": "en krise",
+    "en": "a crisis"
+   }
+  ],
+  "sentence": {
+   "da": "Når nogen holder op med at trække vejret, er det et **nødstilfælde**.",
+   "en": "When someone stops breathing, it is an emergency."
   }
  },
  "et nøglekort": {
@@ -1867,6 +3797,84 @@
   "sentence": {
    "da": "Jeg var **naiv**, da jeg stolede på ham.",
    "en": "I was naive when I trusted him."
+  }
+ },
+ "narkose": {
+  "explanation": "\"En narkose\" means \"anesthesia\", the deep sleep a patient is put into for an operation so that they feel nothing anywhere. It is different from en lokalbedøvelse (a local anesthetic), which numbs only one spot and leaves you awake.",
+  "forms": [
+   {
+    "da": "en narkose",
+    "en": "anesthesia"
+   },
+   {
+    "da": "narkosen",
+    "en": "the anesthesia"
+   },
+   {
+    "da": "i narkose",
+    "en": "under anesthesia"
+   },
+   {
+    "da": "få narkose",
+    "en": "to get anesthesia"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bedøvelse",
+    "en": "an anesthetic"
+   },
+   {
+    "da": "at bedøve",
+    "en": "to numb"
+   },
+   {
+    "da": "en narkoselæge",
+    "en": "an anesthesiologist"
+   }
+  ],
+  "sentence": {
+   "da": "Hun lå i **narkose** under hele operationen.",
+   "en": "She was under anesthesia during the whole operation."
+  }
+ },
+ "narkotika": {
+  "explanation": "\"Narkotika\" means \"narcotics\", illegal things like heroin and cocaine that people take to get high. It is used for them as a group, with no en or et in front of it.",
+  "forms": [
+   {
+    "da": "salg af narkotika",
+    "en": "sale of narcotics"
+   },
+   {
+    "da": "at smugle narkotika",
+    "en": "to smuggle narcotics"
+   },
+   {
+    "da": "Narkotika er ulovligt",
+    "en": "Narcotics are illegal"
+   }
+  ],
+  "related": [
+   {
+    "da": "en narkoman",
+    "en": "a drug addict"
+   },
+   {
+    "da": "en narkohandler",
+    "en": "a drug dealer"
+   },
+   {
+    "da": "hash",
+    "en": "hashish"
+   },
+   {
+    "da": "et stofmisbrug",
+    "en": "substance abuse"
+   }
+  ],
+  "sentence": {
+   "da": "Det er ulovligt at sælge **narkotika**.",
+   "en": "It is illegal to sell narcotics."
   }
  },
  "national": {
@@ -1990,6 +3998,49 @@
    "en": "Denmark has beautiful nature."
   }
  },
+ "naturgas": {
+  "explanation": "\"En naturgas\" means \"natural gas\", gas taken from the ground and used for heating, cooking and making power. It is built from natur (nature) and en gas (a gas).",
+  "forms": [
+   {
+    "da": "en naturgas",
+    "en": "natural gas"
+   },
+   {
+    "da": "naturgassen",
+    "en": "the natural gas"
+   },
+   {
+    "da": "Vi fyrer med naturgas",
+    "en": "We heat with natural gas"
+   },
+   {
+    "da": "Prisen på naturgas stiger",
+    "en": "The price of natural gas is rising"
+   }
+  ],
+  "related": [
+   {
+    "da": "biogas",
+    "en": "biogas"
+   },
+   {
+    "da": "et brændsel",
+    "en": "a fuel"
+   },
+   {
+    "da": "en olie",
+    "en": "an oil"
+   },
+   {
+    "da": "kul",
+    "en": "coal"
+   }
+  ],
+  "sentence": {
+   "da": "Mange huse bliver opvarmet med **naturgas**.",
+   "en": "Many houses are heated with natural gas."
+  }
+ },
  "naturlig": {
   "explanation": "\"Naturlig\" means \"natural\", normal and as expected: Det er helt naturligt at være nervøs (It is completely natural to be nervous). It also means found in the world as it is, not made by people: naturlige materialer (natural materials).",
   "forms": [
@@ -2068,6 +4119,84 @@
    "en": "Of course I will help you tomorrow."
   }
  },
+ "navnemåde": {
+  "explanation": "\"En navnemåde\" means \"the plain form of a verb\", the one with at in front, like at spise (to eat). It is built from et navn (a name) and en måde (a way), because this form only names the action.",
+  "forms": [
+   {
+    "da": "en navnemåde",
+    "en": "an infinitive"
+   },
+   {
+    "da": "navnemåden",
+    "en": "the infinitive"
+   },
+   {
+    "da": "navnemåder",
+    "en": "infinitives"
+   },
+   {
+    "da": "navnemåderne",
+    "en": "the infinitives"
+   }
+  ],
+  "related": [
+   {
+    "da": "en datid",
+    "en": "past tense"
+   },
+   {
+    "da": "en bydemåde",
+    "en": "imperative"
+   },
+   {
+    "da": "en nutid",
+    "en": "present tense"
+   }
+  ],
+  "sentence": {
+   "da": "At gå er verbet i **navnemåde**.",
+   "en": "To go is the verb in its plain form."
+  }
+ },
+ "navnlig": {
+  "explanation": "\"Navnlig\" means \"especially\" or \"in particular\", and it picks out the strongest example from a larger group. You put it right before that example.",
+  "forms": [
+   {
+    "da": "navnlig om vinteren",
+    "en": "especially in winter"
+   },
+   {
+    "da": "navnlig for børn",
+    "en": "especially for children"
+   },
+   {
+    "da": "navnlig i Danmark",
+    "en": "especially in Denmark"
+   }
+  ],
+  "related": [
+   {
+    "da": "især",
+    "en": "above all"
+   },
+   {
+    "da": "specielt",
+    "en": "specifically"
+   },
+   {
+    "da": "særligt",
+    "en": "particularly"
+   },
+   {
+    "da": "ikke mindst",
+    "en": "not least"
+   }
+  ],
+  "sentence": {
+   "da": "Mange kan lide frugt, **navnlig** æbler.",
+   "en": "Many people like fruit, especially apples."
+  }
+ },
  "ned": {
   "explanation": "\"Ned\" means \"down\", for moving down. Compare Kom ned! (Come down!) with Han er nede i kælderen (He is down in the cellar). Nede says where someone is, ned says where someone is going.",
   "forms": [
@@ -2103,6 +4232,45 @@
    "en": "The elevator goes up and down."
   }
  },
+ "nedad": {
+  "explanation": "\"Nedad\" means \"downward\", toward a lower place or level. It shows the direction of travel, and it also works for numbers: Priserne går nedad (Prices are going downward).",
+  "forms": [
+   {
+    "da": "Han kigger nedad",
+    "en": "He looks downward"
+   },
+   {
+    "da": "Vejen går nedad",
+    "en": "The road goes downward"
+   },
+   {
+    "da": "nedad bakken",
+    "en": "down the hill"
+   }
+  ],
+  "related": [
+   {
+    "da": "opad",
+    "en": "upward"
+   },
+   {
+    "da": "ned",
+    "en": "down"
+   },
+   {
+    "da": "nedenfor",
+    "en": "below"
+   },
+   {
+    "da": "nedefra",
+    "en": "from below"
+   }
+  ],
+  "sentence": {
+   "da": "Vandet løber **nedad**, fordi vejen hælder.",
+   "en": "The water runs downward because the road slopes."
+  }
+ },
  "nedenunder": {
   "explanation": "\"Nedenunder\" means \"below\" or \"downstairs\", on the floor right under the one you are on, as in a house or an apartment building.",
   "forms": [
@@ -2136,6 +4304,84 @@
   "sentence": {
    "da": "Vores nabo bor **nedenunder**.",
    "en": "Our neighbor lives downstairs."
+  }
+ },
+ "nedslående": {
+  "explanation": "\"Nedslående\" means \"disheartening\", for news or results that make people feel let down and lose energy. It describes the thing, not the person; a person who feels this way is nedtrykt (downcast).",
+  "forms": [
+   {
+    "da": "en nedslående oplevelse",
+    "en": "a disheartening experience"
+   },
+   {
+    "da": "et nedslående resultat",
+    "en": "a disheartening result"
+   },
+   {
+    "da": "nedslående nyheder",
+    "en": "disheartening news"
+   }
+  ],
+  "related": [
+   {
+    "da": "modløs",
+    "en": "discouraged"
+   },
+   {
+    "da": "skuffende",
+    "en": "disappointing"
+   },
+   {
+    "da": "opmuntrende",
+    "en": "encouraging"
+   },
+   {
+    "da": "deprimerende",
+    "en": "depressing"
+   }
+  ],
+  "sentence": {
+   "da": "Resultatet var **nedslående**, men vi giver ikke op.",
+   "en": "The result was disheartening, but we are not giving up."
+  }
+ },
+ "nedtrykt": {
+  "explanation": "\"Nedtrykt\" means \"downcast\" or \"down\", feeling low in spirit for a while. It is built from ned (down) and trykt (pressed), so it is like \"pressed down\".",
+  "forms": [
+   {
+    "da": "en nedtrykt dreng",
+    "en": "a downcast boy"
+   },
+   {
+    "da": "et nedtrykt udtryk",
+    "en": "a downcast look"
+   },
+   {
+    "da": "nedtrykte mennesker",
+    "en": "downcast people"
+   }
+  ],
+  "related": [
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "deprimeret",
+    "en": "depressed"
+   },
+   {
+    "da": "modløs",
+    "en": "discouraged"
+   },
+   {
+    "da": "opstemt",
+    "en": "in high spirits"
+   }
+  ],
+  "sentence": {
+   "da": "Efter nyheden var han **nedtrykt** i flere dage.",
+   "en": "After the news he was downcast for several days."
   }
  },
  "negativ": {
@@ -2368,6 +4614,45 @@
    "en": "It is easy: two plus two is four."
   }
  },
+ "nervepirrende": {
+  "explanation": "\"Nervepirrende\" means \"nerve-wracking\": so tense that your nerves are on edge. It is built from nerve (nerve) and pirrende (stirring up), so it literally stirs up your nerves.",
+  "forms": [
+   {
+    "da": "en nervepirrende finale",
+    "en": "a nerve-wracking final"
+   },
+   {
+    "da": "et nervepirrende øjeblik",
+    "en": "a nerve-wracking moment"
+   },
+   {
+    "da": "nervepirrende nyheder",
+    "en": "nerve-wracking news"
+   }
+  ],
+  "related": [
+   {
+    "da": "spændende",
+    "en": "exciting"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   },
+   {
+    "da": "dramatisk",
+    "en": "dramatic"
+   },
+   {
+    "da": "afslappende",
+    "en": "relaxing"
+   }
+  ],
+  "sentence": {
+   "da": "Ventetiden før eksamensresultatet var **nervepirrende**, og jeg sov dårligt.",
+   "en": "The wait before the exam result was nerve-wracking, and I slept badly."
+  }
+ },
  "nervøs": {
   "explanation": "\"Nervøs\" means \"nervous\", the feeling before something important: Jeg er nervøs før eksamen (I am nervous before the exam). The opposite is rolig (calm).",
   "forms": [
@@ -2483,6 +4768,41 @@
   "sentence": {
    "da": "Jeg skulle **netop** til at ringe til dig.",
    "en": "I was just about to call you."
+  }
+ },
+ "neutral": {
+  "explanation": "\"Neutral\" means \"neutral\", not taking a side and not standing out. It is used for a person or country that takes no side in a conflict, and for colors such as gray that go with everything.",
+  "forms": [
+   {
+    "da": "en neutral dommer",
+    "en": "a neutral judge"
+   },
+   {
+    "da": "et neutralt sted",
+    "en": "a neutral place"
+   },
+   {
+    "da": "neutrale farver",
+    "en": "neutral colors"
+   }
+  ],
+  "related": [
+   {
+    "da": "upartisk",
+    "en": "impartial"
+   },
+   {
+    "da": "partisk",
+    "en": "biased"
+   },
+   {
+    "da": "objektiv",
+    "en": "objective"
+   }
+  ],
+  "sentence": {
+   "da": "Dommeren skal være **neutral** og ikke holde med nogen.",
+   "en": "The referee must be neutral and not support anyone."
   }
  },
  "ni": {
@@ -2639,6 +4959,41 @@
   "sentence": {
    "da": "Der er ikke **nogen** hjemme.",
    "en": "Nobody is home."
+  }
+ },
+ "nogenlunde": {
+  "explanation": "\"Nogenlunde\" means \"fairly\" or \"reasonably\", not perfect but good enough. On its own it works as an answer: Hvordan går det? Nogenlunde. (How is it going? So-so.)",
+  "forms": [
+   {
+    "da": "nogenlunde godt",
+    "en": "reasonably well"
+   },
+   {
+    "da": "Det går nogenlunde",
+    "en": "It is going okay"
+   },
+   {
+    "da": "nogenlunde ens",
+    "en": "roughly the same"
+   }
+  ],
+  "related": [
+   {
+    "da": "passabel",
+    "en": "passable"
+   },
+   {
+    "da": "ganske",
+    "en": "quite"
+   },
+   {
+    "da": "ret",
+    "en": "rather"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg taler **nogenlunde** dansk, men jeg laver stadig fejl.",
+   "en": "I speak Danish reasonably well, but I still make mistakes."
   }
  },
  "nogensinde": {
@@ -2902,6 +5257,76 @@
    "en": "She lives in North America, in Canada."
   }
  },
+ "norden": {
+  "explanation": "\"Norden\" means \"the Nordic countries\": Denmark, Norway, Sweden, Finland and Iceland, often with Greenland, the Faroe Islands and Åland. It is written with a capital N and used without an extra word in front: i Norden (in the Nordic countries).",
+  "forms": [
+   {
+    "da": "Norden",
+    "en": "the Nordic countries"
+   },
+   {
+    "da": "i Norden",
+    "en": "in the Nordic countries"
+   },
+   {
+    "da": "et nordisk samarbejde",
+    "en": "Nordic cooperation"
+   }
+  ],
+  "related": [
+   {
+    "da": "Skandinavien",
+    "en": "Scandinavia"
+   },
+   {
+    "da": "nordisk",
+    "en": "Nordic"
+   },
+   {
+    "da": "Nordeuropa",
+    "en": "Northern Europe"
+   }
+  ],
+  "sentence": {
+   "da": "Mange rejser mellem landene i **Norden** uden pas.",
+   "en": "Many people travel between the countries of the Nordic region without a passport."
+  }
+ },
+ "nordisk": {
+  "explanation": "\"Nordisk\" means \"Nordic\", about Denmark, Norway, Sweden, Finland and Iceland together and what they share, such as nordisk mad (Nordic food).",
+  "forms": [
+   {
+    "da": "en nordisk by",
+    "en": "a Nordic city"
+   },
+   {
+    "da": "et nordisk land",
+    "en": "a Nordic country"
+   },
+   {
+    "da": "nordiske sprog",
+    "en": "Nordic languages"
+   }
+  ],
+  "related": [
+   {
+    "da": "skandinavisk",
+    "en": "Scandinavian"
+   },
+   {
+    "da": "norsk",
+    "en": "Norwegian"
+   },
+   {
+    "da": "nordlig",
+    "en": "northern"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark og Sverige har en **nordisk** velfærdsmodel.",
+   "en": "Denmark and Sweden have a Nordic welfare model."
+  }
+ },
  "nordlig": {
   "explanation": "\"Nordlig\" means \"northern\", the north part of a place: Skagen ligger i det nordlige Danmark (Skagen is in northern Denmark). For wind it also means \"from the north\".",
   "forms": [
@@ -2939,6 +5364,45 @@
   "sentence": {
    "da": "Vinden er **nordlig**, og det er koldt.",
    "en": "The wind is from the north, and it is cold."
+  }
+ },
+ "nordlys": {
+  "explanation": "\"Et nordlys\" means \"northern lights\", the green and sometimes red or purple glow seen in the sky far in the north. You mostly see it in places such as Norway, Iceland and Greenland. It is built from nord (north) and et lys (a light).",
+  "forms": [
+   {
+    "da": "et nordlys",
+    "en": "northern lights"
+   },
+   {
+    "da": "nordlyset",
+    "en": "the northern lights"
+   },
+   {
+    "da": "nordlys",
+    "en": "northern lights (plural)"
+   },
+   {
+    "da": "nordlysene",
+    "en": "the northern lights (plural)"
+   }
+  ],
+  "related": [
+   {
+    "da": "et polarlys",
+    "en": "polar lights"
+   },
+   {
+    "da": "et sydlys",
+    "en": "southern lights"
+   },
+   {
+    "da": "aurora borealis",
+    "en": "aurora borealis"
+   }
+  ],
+  "sentence": {
+   "da": "Vi så **nordlys** over fjorden i Norge.",
+   "en": "We saw northern lights over the fjord in Norway."
   }
  },
  "nordpå": {
@@ -3346,6 +5810,115 @@
    "en": "Water turns to ice at zero degrees."
   }
  },
+ "nutid": {
+  "explanation": "\"En nutid\" means \"a present tense\", the verb form for what is happening now: jeg løber (I run) is in nutid. The time we live in is usually called nutiden.",
+  "forms": [
+   {
+    "da": "en nutid",
+    "en": "a present tense"
+   },
+   {
+    "da": "nutiden",
+    "en": "the present tense"
+   },
+   {
+    "da": "i nutid",
+    "en": "in the present tense"
+   }
+  ],
+  "related": [
+   {
+    "da": "en datid",
+    "en": "past tense"
+   },
+   {
+    "da": "futurum",
+    "en": "future tense"
+   },
+   {
+    "da": "en bydemåde",
+    "en": "imperative"
+   }
+  ],
+  "sentence": {
+   "da": "Sætningen Jeg spiser et æble står i **nutid**.",
+   "en": "The sentence I eat an apple is in the present tense."
+  }
+ },
+ "nutiden": {
+  "explanation": "\"Nutiden\" means \"the present\", the time we live in now, often set against what came before and what comes next. Use it when you talk about modern life, as in nutidens unge (the young people of today).",
+  "forms": [
+   {
+    "da": "nutiden",
+    "en": "the present"
+   },
+   {
+    "da": "i nutiden",
+    "en": "in the present"
+   },
+   {
+    "da": "nutidens unge",
+    "en": "the young people of today"
+   }
+  ],
+  "related": [
+   {
+    "da": "fortiden",
+    "en": "the past"
+   },
+   {
+    "da": "fremtiden",
+    "en": "the future"
+   },
+   {
+    "da": "datiden",
+    "en": "those days"
+   },
+   {
+    "da": "en nutid",
+    "en": "a present tense"
+   }
+  ],
+  "sentence": {
+   "da": "Vi lærer om fortiden, men vi lever i **nutiden**.",
+   "en": "We learn about the past, but we live in the present."
+  }
+ },
+ "nutildags": {
+  "explanation": "\"Nutildags\" means \"nowadays\", used to compare now with earlier times. It is also written as three words, nu til dags (now to day), with the same meaning.",
+  "forms": [
+   {
+    "da": "Nutildags har alle en mobil",
+    "en": "Nowadays everyone has a phone"
+   },
+   {
+    "da": "nutildags bruger vi mindre papir",
+    "en": "nowadays we use less paper"
+   }
+  ],
+  "related": [
+   {
+    "da": "i dag",
+    "en": "today"
+   },
+   {
+    "da": "i vore dage",
+    "en": "in our time"
+   },
+   {
+    "da": "i gamle dage",
+    "en": "in the old days"
+   },
+   {
+    "da": "fordum",
+    "en": "formerly"
+   }
+  ],
+  "sentence": {
+   "da": "Før skrev vi breve, men **nutildags** skriver vi beskeder.",
+   "en": "Before, we wrote letters, but nowadays we write messages."
+  }
+ },
  "nuttet": {
   "explanation": "\"Nuttet\" means \"cute\" and is used for small things that make you smile, like babies, puppies and kittens.",
   "forms": [
@@ -3383,6 +5956,84 @@
   "sentence": {
    "da": "Din lille hund er så **nuttet**.",
    "en": "Your little dog is so cute."
+  }
+ },
+ "nuvel": {
+  "explanation": "\"Nuvel\" means \"well now\" or \"very well\". You say it to accept something or to move on to the next thing. It sounds a little formal, so in everyday talk people more often say godt (all right).",
+  "forms": [
+   {
+    "da": "Nuvel, lad os begynde.",
+    "en": "Very well, let us begin."
+   },
+   {
+    "da": "Nuvel, du må gerne gå.",
+    "en": "Very well, you may go."
+   },
+   {
+    "da": "Nuvel, du har ret.",
+    "en": "Well now, you are right."
+   }
+  ],
+  "related": [
+   {
+    "da": "nå",
+    "en": "well / oh"
+   },
+   {
+    "da": "altså",
+    "en": "so / well"
+   },
+   {
+    "da": "tja",
+    "en": "well..."
+   },
+   {
+    "da": "okay",
+    "en": "okay"
+   }
+  ],
+  "sentence": {
+   "da": "**Nuvel**, så er det aftalt, og vi mødes klokken ni.",
+   "en": "Very well, then it is agreed, and we meet at nine."
+  }
+ },
+ "nuværende": {
+  "explanation": "\"Nuværende\" means \"current\" or \"present\", the one that is true at this moment, as opposed to an earlier or a later one. It goes before the word it describes: den nuværende regering (the current government).",
+  "forms": [
+   {
+    "da": "en nuværende chef",
+    "en": "a current boss"
+   },
+   {
+    "da": "et nuværende job",
+    "en": "a current job"
+   },
+   {
+    "da": "nuværende priser",
+    "en": "current prices"
+   }
+  ],
+  "related": [
+   {
+    "da": "tidligere",
+    "en": "former"
+   },
+   {
+    "da": "kommende",
+    "en": "upcoming"
+   },
+   {
+    "da": "aktuel",
+    "en": "topical"
+   },
+   {
+    "da": "daværende",
+    "en": "then-current"
+   }
+  ],
+  "sentence": {
+   "da": "Min **nuværende** chef er sød, men min tidligere var streng.",
+   "en": "My current boss is nice, but my former one was strict."
   }
  },
  "ny": {
@@ -3535,6 +6186,80 @@
   "sentence": {
    "da": "Min søn er **nysgerrig** og stiller mange spørgsmål.",
    "en": "My son is curious and asks many questions."
+  }
+ },
+ "nysgerrighed": {
+  "explanation": "\"En nysgerrighed\" means \"curiosity\", the wish to find out or know more. It comes from nysgerrig (curious) with -hed on the end, like -ness in English. The same ending turns fri (free) into en frihed (a freedom).",
+  "forms": [
+   {
+    "da": "en nysgerrighed",
+    "en": "a curiosity"
+   },
+   {
+    "da": "nysgerrigheden",
+    "en": "the curiosity"
+   },
+   {
+    "da": "børns nysgerrighed",
+    "en": "children's curiosity"
+   }
+  ],
+  "related": [
+   {
+    "da": "et videbegær",
+    "en": "a thirst for knowledge"
+   },
+   {
+    "da": "en interesse",
+    "en": "an interest"
+   },
+   {
+    "da": "en undren",
+    "en": "wonder"
+   }
+  ],
+  "sentence": {
+   "da": "Børn stiller mange spørgsmål af **nysgerrighed**.",
+   "en": "Children ask many questions out of curiosity."
+  }
+ },
+ "nytte": {
+  "explanation": "\"En nytte\" means \"use\" or \"benefit\", the good you get out of something. It has no plural. Danes also say gøre nytte (to be of use) about a thing or a person that helps.",
+  "forms": [
+   {
+    "da": "en nytte",
+    "en": "a use"
+   },
+   {
+    "da": "nytten",
+    "en": "the use"
+   },
+   {
+    "da": "Det har ingen nytte",
+    "en": "It is of no use"
+   },
+   {
+    "da": "nytten af uddannelse",
+    "en": "the benefit of education"
+   }
+  ],
+  "related": [
+   {
+    "da": "et formål",
+    "en": "a purpose"
+   },
+   {
+    "da": "en fordel",
+    "en": "an advantage"
+   },
+   {
+    "da": "nytteløs",
+    "en": "pointless"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har stor **nytte** af min nye ordbog.",
+   "en": "I get great use out of my new dictionary."
   }
  },
  "nyttig": {
@@ -3716,6 +6441,45 @@
    "en": "Well then, I had better go now."
   }
  },
+ "nåde": {
+  "explanation": "\"En nåde\" means \"mercy\" or \"grace\": kindness shown to someone who could have been punished. The same word is used in religion for grace, and in old royal titles.",
+  "forms": [
+   {
+    "da": "en nåde",
+    "en": "a mercy"
+   },
+   {
+    "da": "at vise nåde",
+    "en": "to show mercy"
+   },
+   {
+    "da": "af Guds nåde",
+    "en": "by the grace of God"
+   }
+  ],
+  "related": [
+   {
+    "da": "barmhjertighed",
+    "en": "compassion"
+   },
+   {
+    "da": "tilgivelse",
+    "en": "forgiveness"
+   },
+   {
+    "da": "nådesløs",
+    "en": "merciless"
+   },
+   {
+    "da": "en benådning",
+    "en": "a pardon"
+   }
+  ],
+  "sentence": {
+   "da": "Fangen bad dommeren om **nåde**, men fik ingen.",
+   "en": "The prisoner asked the judge for mercy, but got none."
+  }
+ },
  "når": {
   "explanation": "\"Når\" means \"when\" for things that happen every time or have not happened yet. Compare Når det regner, bliver jeg hjemme (Whenever it rains, I stay home) with Da jeg kom hjem, var det mørkt (When I came home, it was dark). That was one time in the past, so it uses da. In a question, use hvornår: Hvornår kommer du? (When are you coming?).",
   "forms": [
@@ -3786,6 +6550,41 @@
    "en": "You can call me anytime."
   }
  },
+ "næppe": {
+  "explanation": "\"Næppe\" means \"hardly\" or \"barely\", about what is very unlikely or only just true. A tiny chance is left, unlike aldrig (never).",
+  "forms": [
+   {
+    "da": "Hun kommer næppe i dag",
+    "en": "She is unlikely to come today"
+   },
+   {
+    "da": "Jeg kan næppe kende ham",
+    "en": "I can hardly recognize him"
+   },
+   {
+    "da": "næppe nogen",
+    "en": "hardly anyone"
+   }
+  ],
+  "related": [
+   {
+    "da": "knap",
+    "en": "scarcely"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   },
+   {
+    "da": "næsten ikke",
+    "en": "almost not"
+   }
+  ],
+  "sentence": {
+   "da": "Vi får **næppe** sne, fordi det er for varmt.",
+   "en": "We are unlikely to get snow because it is too warm."
+  }
+ },
  "nær": {
   "explanation": "\"Nær\" means \"close\" or \"near\". It is mostly used about people you are close to, like a friend or family member. For places, tæt på (close to) is more common: tæt på stationen means \"close to the station\".",
   "forms": [
@@ -3819,6 +6618,197 @@
   "sentence": {
    "da": "Han er en **nær** ven af mig.",
    "en": "He is a close friend of mine."
+  }
+ },
+ "nærig": {
+  "explanation": "\"Nærig\" means \"stingy\", not wanting to spend or give away money even when it would be fair. It is a negative word about a person, unlike sparsommelig (thrifty), which is a good quality.",
+  "forms": [
+   {
+    "da": "en nærig mand",
+    "en": "a stingy man"
+   },
+   {
+    "da": "et nærigt menneske",
+    "en": "a stingy person"
+   },
+   {
+    "da": "nærige folk",
+    "en": "stingy people"
+   }
+  ],
+  "related": [
+   {
+    "da": "gerrig",
+    "en": "miserly"
+   },
+   {
+    "da": "gavmild",
+    "en": "generous"
+   },
+   {
+    "da": "en gnier",
+    "en": "a miser"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **nærig** og giver aldrig drikkepenge.",
+   "en": "He is stingy and never gives tips."
+  }
+ },
+ "næringsrig": {
+  "explanation": "\"Næringsrig\" means \"nutritious\", full of vitamins, protein and other things the body needs. It is built from en næring (nourishment) and rig (rich).",
+  "forms": [
+   {
+    "da": "en næringsrig kost",
+    "en": "a nutritious diet"
+   },
+   {
+    "da": "et næringsrigt måltid",
+    "en": "a nutritious meal"
+   },
+   {
+    "da": "næringsrige fødevarer",
+    "en": "nutritious foods"
+   }
+  ],
+  "related": [
+   {
+    "da": "nærende",
+    "en": "nourishing"
+   },
+   {
+    "da": "næringsfattig",
+    "en": "low in nutrients"
+   },
+   {
+    "da": "et næringsstof",
+    "en": "a nutrient"
+   },
+   {
+    "da": "sund",
+    "en": "healthy"
+   }
+  ],
+  "sentence": {
+   "da": "Grønkål er **næringsrig**, fordi den indeholder meget jern.",
+   "en": "Kale is nutritious because it contains a lot of iron."
+  }
+ },
+ "nærmest": {
+  "explanation": "\"Nærmest\" means \"almost\", and also \"nearest\" for a place. Both meanings come from the idea of being right next to something: a thing that is nærmest a disaster is right next to being one.",
+  "forms": [
+   {
+    "da": "Det var nærmest en katastrofe",
+    "en": "It was almost a disaster"
+   },
+   {
+    "da": "Hvem sidder nærmest døren?",
+    "en": "Who sits nearest the door?"
+   },
+   {
+    "da": "Jeg er nærmest færdig",
+    "en": "I am almost done"
+   }
+  ],
+  "related": [
+   {
+    "da": "fast",
+    "en": "nearly"
+   },
+   {
+    "da": "tæt på",
+    "en": "close to"
+   },
+   {
+    "da": "så godt som",
+    "en": "as good as"
+   },
+   {
+    "da": "omtrent",
+    "en": "roughly"
+   }
+  ],
+  "sentence": {
+   "da": "Opgaven var **nærmest** umulig at løse på en dag.",
+   "en": "The task was almost impossible to solve in one day."
+  }
+ },
+ "nærværende": {
+  "explanation": "\"Nærværende\" means \"present\" in the sense of really being there with your full attention, not just in the room. In formal papers, nærværende kontrakt means \"this contract\".",
+  "forms": [
+   {
+    "da": "en nærværende far",
+    "en": "an attentive father"
+   },
+   {
+    "da": "et nærværende barn",
+    "en": "an attentive child"
+   },
+   {
+    "da": "nærværende mennesker",
+    "en": "attentive people"
+   }
+  ],
+  "related": [
+   {
+    "da": "opmærksom",
+    "en": "attentive"
+   },
+   {
+    "da": "til stede",
+    "en": "in attendance"
+   },
+   {
+    "da": "fraværende",
+    "en": "absent"
+   },
+   {
+    "da": "tilstedeværelse",
+    "en": "presence"
+   }
+  ],
+  "sentence": {
+   "da": "Min læge er **nærværende** og lytter, når jeg taler.",
+   "en": "My doctor is attentive and listens when I speak."
+  }
+ },
+ "næseblod": {
+  "explanation": "\"Et næseblod\" means \"a nosebleed\", blood running from the nose. Danes say næseblod without a word for \"a\", and the doctor's word is næseblødning.",
+  "forms": [
+   {
+    "da": "et næseblod",
+    "en": "a nosebleed"
+   },
+   {
+    "da": "næseblodet",
+    "en": "the nosebleed"
+   },
+   {
+    "da": "Jeg har næseblod",
+    "en": "I have a nosebleed"
+   },
+   {
+    "da": "Han fik næseblod",
+    "en": "He got a nosebleed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en blødning",
+    "en": "a bleeding"
+   },
+   {
+    "da": "at bløde",
+    "en": "to bleed"
+   },
+   {
+    "da": "et sår",
+    "en": "a wound"
+   }
+  ],
+  "sentence": {
+   "da": "Når man får **næseblod**, skal man læne sig frem.",
+   "en": "When you get a nosebleed, you should lean forward."
   }
  },
  "næsten": {
@@ -3934,6 +6924,84 @@
    "en": "Squirrels love to eat nuts."
   }
  },
+ "nødhjælp": {
+  "explanation": "\"En nødhjælp\" means \"emergency aid\", quick help sent to people after an earthquake, a war or a famine, such as food, water and medicine. It is meant for many people at once, not for one hurt person.",
+  "forms": [
+   {
+    "da": "en nødhjælp",
+    "en": "emergency aid"
+   },
+   {
+    "da": "nødhjælpen",
+    "en": "the emergency aid"
+   },
+   {
+    "da": "nødhjælp til flygtninge",
+    "en": "emergency aid for refugees"
+   },
+   {
+    "da": "sende nødhjælp",
+    "en": "to send emergency aid"
+   }
+  ],
+  "related": [
+   {
+    "da": "førstehjælp",
+    "en": "first aid"
+   },
+   {
+    "da": "en hjælpeorganisation",
+    "en": "a relief organization"
+   },
+   {
+    "da": "udviklingshjælp",
+    "en": "development aid"
+   }
+  ],
+  "sentence": {
+   "da": "Efter jordskælvet sendte landene **nødhjælp** til området.",
+   "en": "After the earthquake the countries sent emergency aid to the area."
+  }
+ },
+ "nødig": {
+  "explanation": "\"Nødig\" means \"reluctantly\" and almost always sits after vil or ville (want, would) to say you would rather not do something. It is a soft way to say no to an idea. Do not mix it up with nødvendig, which means necessary.",
+  "forms": [
+   {
+    "da": "Jeg vil nødig gå alene.",
+    "en": "I would rather not go alone."
+   },
+   {
+    "da": "Hun ville nødig sige det.",
+    "en": "She would rather not say it."
+   },
+   {
+    "da": "Vi vil nødig komme for sent.",
+    "en": "We would rather not be late."
+   }
+  ],
+  "related": [
+   {
+    "da": "gerne",
+    "en": "gladly"
+   },
+   {
+    "da": "helst",
+    "en": "preferably"
+   },
+   {
+    "da": "modvilligt",
+    "en": "unwillingly"
+   },
+   {
+    "da": "ugerne",
+    "en": "not gladly"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **nødig** forstyrre dig, når du arbejder.",
+   "en": "I would rather not disturb you when you are working."
+  }
+ },
  "nødt til": {
   "explanation": "\"Nødt til\" means \"have to\" when you have no choice. It goes with at and an action: Jeg er nødt til at gå (I have to go). Compare it with Jeg vil gå (I want to go).",
   "forms": [
@@ -4008,6 +7076,41 @@
    "en": "Water is necessary when it is hot."
   }
  },
+ "nødvendigvis": {
+  "explanation": "\"Nødvendigvis\" means \"necessarily\" and is nearly always used with ikke (not). It says that something is not true in every case, so it softens a claim and leaves room for exceptions.",
+  "forms": [
+   {
+    "da": "ikke nødvendigvis",
+    "en": "not necessarily"
+   },
+   {
+    "da": "Stor er ikke nødvendigvis bedre",
+    "en": "Big is not necessarily better"
+   },
+   {
+    "da": "Er det nødvendigvis sandt?",
+    "en": "Is it necessarily true?"
+   }
+  ],
+  "related": [
+   {
+    "da": "nødvendig",
+    "en": "needed"
+   },
+   {
+    "da": "uundgåeligt",
+    "en": "unavoidably"
+   },
+   {
+    "da": "ikke altid",
+    "en": "not always"
+   }
+  ],
+  "sentence": {
+   "da": "Den dyreste bil er ikke **nødvendigvis** den bedste.",
+   "en": "The most expensive car is not necessarily the best."
+  }
+ },
  "nøgen": {
   "explanation": "\"Nøgen\" means \"naked\", with no clothes on. It can also describe trees with no leaves: nøgne træer (trees with no leaves).",
   "forms": [
@@ -4047,6 +7150,45 @@
    "en": "He jumped naked into the sea."
   }
  },
+ "nøgtern": {
+  "explanation": "\"Nøgtern\" means \"matter-of-fact\" or \"sober\": calm and plain, without drama or strong feelings. It describes how someone speaks or judges something. For \"not drunk\", ædru (sober) is the usual word.",
+  "forms": [
+   {
+    "da": "en nøgtern vurdering",
+    "en": "a matter-of-fact assessment"
+   },
+   {
+    "da": "et nøgternt svar",
+    "en": "a sober answer"
+   },
+   {
+    "da": "nøgterne tal",
+    "en": "sober figures"
+   }
+  ],
+  "related": [
+   {
+    "da": "saglig",
+    "en": "objective"
+   },
+   {
+    "da": "afdæmpet",
+    "en": "subdued"
+   },
+   {
+    "da": "følelsesladet",
+    "en": "emotional"
+   },
+   {
+    "da": "overdreven",
+    "en": "exaggerated"
+   }
+  ],
+  "sentence": {
+   "da": "Han gav en **nøgtern** beskrivelse af ulykken og overdrev ikke.",
+   "en": "He gave a matter-of-fact description of the accident and did not exaggerate."
+  }
+ },
  "nøjagtig": {
   "explanation": "\"Nøjagtig\" means \"exact\" or \"accurate\", with no mistakes: Klokken er nøjagtigt tolv (It is exactly twelve o'clock). Said alone, Nøjagtigt! means \"Exactly!\"",
   "forms": [
@@ -4084,6 +7226,84 @@
   "sentence": {
    "da": "Vi har brug for en **nøjagtig** måling.",
    "en": "We need an exact measurement."
+  }
+ },
+ "nøjagtigt": {
+  "explanation": "\"Nøjagtigt\" means \"exactly\", with no difference at all in time, size or amount. It is the strict opposite of omtrent (roughly): nøjagtigt tre (exactly three) or omtrent tre (about three).",
+  "forms": [
+   {
+    "da": "nøjagtigt klokken otte",
+    "en": "exactly at eight o'clock"
+   },
+   {
+    "da": "Det passer nøjagtigt",
+    "en": "It fits exactly"
+   },
+   {
+    "da": "nøjagtigt det samme",
+    "en": "exactly the same"
+   }
+  ],
+  "related": [
+   {
+    "da": "præcis",
+    "en": "precisely"
+   },
+   {
+    "da": "akkurat",
+    "en": "exactly"
+   },
+   {
+    "da": "netop",
+    "en": "just"
+   },
+   {
+    "da": "nøje",
+    "en": "closely"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal bruge **nøjagtigt** to hundrede gram mel.",
+   "en": "You must use exactly two hundred grams of flour."
+  }
+ },
+ "nøje": {
+  "explanation": "\"Nøje\" means \"closely\" or \"carefully\": with exact attention to every detail. It usually comes after the thing you do, such as reading, following or checking. Do not mix it up with nær (close), which is about distance.",
+  "forms": [
+   {
+    "da": "Læs kontrakten nøje.",
+    "en": "Read the contract closely."
+   },
+   {
+    "da": "at følge reglerne nøje",
+    "en": "to follow the rules closely"
+   },
+   {
+    "da": "Det er ikke så nøje.",
+    "en": "It does not matter that much."
+   }
+  ],
+  "related": [
+   {
+    "da": "omhyggelig",
+    "en": "careful"
+   },
+   {
+    "da": "grundig",
+    "en": "thorough"
+   },
+   {
+    "da": "præcis",
+    "en": "precise"
+   },
+   {
+    "da": "sjusket",
+    "en": "sloppy"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal studere planen **nøje**, før man skriver under.",
+   "en": "You must study the plan closely before you sign."
   }
  }
 }

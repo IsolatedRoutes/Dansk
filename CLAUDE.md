@@ -91,8 +91,7 @@ files `lightbulb/<first letter>.json` (leading en/et/at ignored; æ ø å = ae o
 keyed by `frontKey`, fetched only when a lightbulb opens (`src/lib/lightbulb.js`).
 Words with no entry, and the learner's own cards, use the live AI call as before.
 `scripts/prepare-www.mjs` copies `lightbulb/` into the iPhone app. Written to the
-same quality as the live answer; do not shorten. Covered so far: all Basic words
-(level 1) and all Intermediate words (level 2), each written then independently reviewed (about 4 in 10 Intermediate cards were corrected by the reviewer); Advanced and Expert (levels 3-4) still use the live AI call. Checked by
+same quality as the live answer; do not shorten. Covered: all words at every level (Basic, Intermediate, Advanced, Expert; 8,002 entries), each written then independently reviewed (about 4 in 10 cards were corrected by the reviewer) and all following the quality bar below; only the learner's own cards and words with no entry use the live AI call. Checked by
 `tests/lightbulb_check.mjs` (keys, files, shape).
 
 ### Lightbulb answer quality bar (owner's rules; the model card is "hvad")

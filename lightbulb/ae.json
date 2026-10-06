@@ -214,6 +214,49 @@
    "en": "She will be annoyed if she forgets the ticket."
   }
  },
+ "en æblekage": {
+  "explanation": "\"En æblekage\" means \"an apple dessert\", a classic Danish dessert of stewed apple, crumbs and whipped cream layered in a glass. Despite the word kage (cake), it is not baked as a cake.",
+  "forms": [
+   {
+    "da": "en æblekage",
+    "en": "an apple dessert"
+   },
+   {
+    "da": "æblekagen",
+    "en": "the apple dessert"
+   },
+   {
+    "da": "æblekager",
+    "en": "apple desserts"
+   },
+   {
+    "da": "æblekagerne",
+    "en": "the apple desserts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trifli",
+    "en": "a trifle"
+   },
+   {
+    "da": "en rødgrød med fløde",
+    "en": "red berry pudding with cream"
+   },
+   {
+    "da": "en citronfromage",
+    "en": "a lemon mousse"
+   },
+   {
+    "da": "en æbleskive",
+    "en": "a ball-shaped pancake"
+   }
+  ],
+  "sentence": {
+   "da": "Til dessert serverer vi **æblekage** med flødeskum.",
+   "en": "For dessert we serve apple dessert with whipped cream."
+  }
+ },
  "en æbleskive": {
   "explanation": "\"En æbleskive\" means \"an æbleskive\", a round, puffy Danish pancake. The name means \"apple slice\" (æble = apple, skive = slice).",
   "forms": [
@@ -251,6 +294,127 @@
   "sentence": {
    "da": "Vi spiser en varm **æbleskive** med sukker og syltetøj.",
    "en": "We eat a warm æbleskive with sugar and jam."
+  }
+ },
+ "en æggejagt": {
+  "explanation": "\"En æggejagt\" means \"an egg hunt\", a game where children search for eggs or sweets that adults have hidden, usually at påske (Easter), in the garden or park.",
+  "forms": [
+   {
+    "da": "en æggejagt",
+    "en": "an egg hunt"
+   },
+   {
+    "da": "æggejagten",
+    "en": "the egg hunt"
+   },
+   {
+    "da": "æggejagter",
+    "en": "egg hunts"
+   },
+   {
+    "da": "æggejagterne",
+    "en": "the egg hunts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skattejagt",
+    "en": "a treasure hunt"
+   },
+   {
+    "da": "en gemmeleg",
+    "en": "a game of hide-and-seek"
+   },
+   {
+    "da": "en påskehare",
+    "en": "an Easter bunny"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene leder efter gemte æg i haven under en **æggejagt**.",
+   "en": "The children look for hidden eggs in the garden during an egg hunt."
+  }
+ },
+ "en æggemad": {
+  "explanation": "\"En æggemad\" means \"an egg open sandwich\", a slice of bread, usually rye, with sliced boiled egg on top.",
+  "forms": [
+   {
+    "da": "en æggemad",
+    "en": "an egg open sandwich"
+   },
+   {
+    "da": "æggemaden",
+    "en": "the egg open sandwich"
+   },
+   {
+    "da": "æggemadder",
+    "en": "egg open sandwiches"
+   },
+   {
+    "da": "æggemadderne",
+    "en": "the egg open sandwiches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ostemad",
+    "en": "a cheese sandwich"
+   },
+   {
+    "da": "en leverpostejmad",
+    "en": "a liver pâté sandwich"
+   },
+   {
+    "da": "en frikadellemad",
+    "en": "a meatball sandwich"
+   }
+  ],
+  "sentence": {
+   "da": "Til frokost spiser jeg en **æggemad** med tomat og rejer.",
+   "en": "For lunch, I eat an egg open sandwich with tomato and shrimp."
+  }
+ },
+ "en ægtefælle": {
+  "explanation": "\"En ægtefælle\" means \"a spouse\", a husband or wife. Forms often ask for ægtefællens navn (your spouse's name), because the word fits both.",
+  "forms": [
+   {
+    "da": "en ægtefælle",
+    "en": "a spouse"
+   },
+   {
+    "da": "ægtefællen",
+    "en": "the spouse"
+   },
+   {
+    "da": "ægtefæller",
+    "en": "spouses"
+   },
+   {
+    "da": "ægtefællerne",
+    "en": "the spouses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en samlever",
+    "en": "a live-in partner"
+   },
+   {
+    "da": "en partner",
+    "en": "a partner"
+   },
+   {
+    "da": "en forlovede",
+    "en": "a fiancé"
+   },
+   {
+    "da": "et ægteskab",
+    "en": "a marriage"
+   }
+  ],
+  "sentence": {
+   "da": "Din **ægtefælle** skal også skrive under på formularen.",
+   "en": "Your spouse must also sign the form."
   }
  },
  "en ægtemand": {
@@ -294,6 +458,49 @@
   "sentence": {
    "da": "Min **ægtemand** laver mad i aften.",
    "en": "My husband is cooking tonight."
+  }
+ },
+ "en ælling": {
+  "explanation": "\"En ælling\" means \"a duckling\". Danes know it from the H.C. Andersen fairy tale Den grimme ælling (The Ugly Duckling).",
+  "forms": [
+   {
+    "da": "en ælling",
+    "en": "a duckling"
+   },
+   {
+    "da": "ællingen",
+    "en": "the duckling"
+   },
+   {
+    "da": "ællinger",
+    "en": "ducklings"
+   },
+   {
+    "da": "ællingerne",
+    "en": "the ducklings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gæsling",
+    "en": "a gosling"
+   },
+   {
+    "da": "en kylling",
+    "en": "a chick"
+   },
+   {
+    "da": "en svane",
+    "en": "a swan"
+   },
+   {
+    "da": "en gås",
+    "en": "a goose"
+   }
+  ],
+  "sentence": {
+   "da": "En **ælling** er en lille and, som følger efter sin mor.",
+   "en": "A duckling is a small duck that follows its mother."
   }
  },
  "en ændring": {
@@ -581,6 +788,45 @@
    "en": "Their marriage has lasted twenty years."
   }
  },
+ "et ærinde": {
+  "explanation": "\"Et ærinde\" means \"an errand\", a short trip to do one small job, such as picking up food or posting a letter. At a door or a desk, it also means your reason for being there: Hvad er dit ærinde? (What is your business here?)",
+  "forms": [
+   {
+    "da": "et ærinde",
+    "en": "an errand"
+   },
+   {
+    "da": "ærindet",
+    "en": "the errand"
+   },
+   {
+    "da": "ærinder",
+    "en": "errands"
+   },
+   {
+    "da": "ærinderne",
+    "en": "the errands"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgave",
+    "en": "a task"
+   },
+   {
+    "da": "et formål",
+    "en": "a purpose"
+   },
+   {
+    "da": "et gøremål",
+    "en": "a chore"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har et **ærinde** i byen, så jeg kommer lidt senere.",
+   "en": "I have an errand in town, so I will come a little later."
+  }
+ },
  "et ærme": {
   "explanation": "\"Et ærme\" means \"a sleeve\", the part of a shirt or jacket that covers your arm.",
   "forms": [
@@ -620,6 +866,119 @@
    "en": "The sweater has a sleeve for each arm."
   }
  },
+ "et æsel": {
+  "explanation": "\"Et æsel\" means \"a donkey\", a grey, strong animal that carries loads. It is known for being stubborn: stædig som et æsel (stubborn as a donkey).",
+  "forms": [
+   {
+    "da": "et æsel",
+    "en": "a donkey"
+   },
+   {
+    "da": "æslet",
+    "en": "the donkey"
+   },
+   {
+    "da": "æsler",
+    "en": "donkeys"
+   },
+   {
+    "da": "æslerne",
+    "en": "the donkeys"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hest",
+    "en": "a horse"
+   },
+   {
+    "da": "et muldyr",
+    "en": "a mule"
+   },
+   {
+    "da": "en zebra",
+    "en": "a zebra"
+   }
+  ],
+  "sentence": {
+   "da": "Et **æsel** har lange ører og kan bære tunge ting.",
+   "en": "A donkey has long ears and can carry heavy things."
+  }
+ },
+ "ædel": {
+  "explanation": "\"Ædel\" means \"noble\", for a good, generous character and for acts that show it. It also marks things of the highest quality: ædelsten (gem) and ædelmetal (precious metal).",
+  "forms": [
+   {
+    "da": "en ædel ridder",
+    "en": "a noble knight"
+   },
+   {
+    "da": "et ædelt formål",
+    "en": "a noble cause"
+   },
+   {
+    "da": "ædle motiver",
+    "en": "noble motives"
+   }
+  ],
+  "related": [
+   {
+    "da": "højsindet",
+    "en": "magnanimous"
+   },
+   {
+    "da": "uselvisk",
+    "en": "selfless"
+   },
+   {
+    "da": "en adel",
+    "en": "a nobility"
+   },
+   {
+    "da": "gemen",
+    "en": "mean / vile"
+   }
+  ],
+  "sentence": {
+   "da": "Det var en **ædel** gerning at give sin plads til den gamle mand.",
+   "en": "It was a noble deed to give your seat to the old man."
+  }
+ },
+ "ædru": {
+  "explanation": "\"Ædru\" means \"sober\", not having had alcohol. It can also mean calm and sensible: en ædru vurdering (a sober assessment).",
+  "forms": [
+   {
+    "da": "en ædru chauffør",
+    "en": "a sober driver"
+   },
+   {
+    "da": "et ædru hoved",
+    "en": "a clear head"
+   },
+   {
+    "da": "ædru mennesker",
+    "en": "sober people"
+   }
+  ],
+  "related": [
+   {
+    "da": "fuld",
+    "en": "drunk"
+   },
+   {
+    "da": "beruset",
+    "en": "intoxicated"
+   },
+   {
+    "da": "nøgtern",
+    "en": "level-headed"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **ædru**, fordi han ikke har drukket noget i dag.",
+   "en": "He is sober because he has not drunk anything today."
+  }
+ },
  "ægte": {
   "explanation": "\"Ægte\" means \"genuine\" or \"real\", for things and people that are what they claim to be.",
   "forms": [
@@ -657,6 +1016,45 @@
   "sentence": {
    "da": "Er den her taske af **ægte** læder?",
    "en": "Is this bag made of genuine leather?"
+  }
+ },
+ "ældgammel": {
+  "explanation": "\"Ældgammel\" means \"ancient\", much stronger than gammel (old). It is used for things that go very far back in time, such as buildings, customs and trees.",
+  "forms": [
+   {
+    "da": "et ældgammelt hus",
+    "en": "a very old house"
+   },
+   {
+    "da": "en ældgammel tradition",
+    "en": "an ancient tradition"
+   },
+   {
+    "da": "ældgamle træer",
+    "en": "ancient trees"
+   }
+  ],
+  "related": [
+   {
+    "da": "urgammel",
+    "en": "primeval"
+   },
+   {
+    "da": "antik",
+    "en": "antique"
+   },
+   {
+    "da": "forældet",
+    "en": "outdated"
+   },
+   {
+    "da": "ny",
+    "en": "new"
+   }
+  ],
+  "sentence": {
+   "da": "Kirken er en **ældgammel** bygning fra middelalderen.",
+   "en": "The church is an ancient building from the Middle Ages."
   }
  },
  "ældre": {
@@ -733,6 +1131,119 @@
    "en": "My brother is the oldest of us."
   }
  },
+ "ære": {
+  "explanation": "\"En ære\" means \"an honor\", either a privilege you are given or the good name and pride that come from doing something worthy. Because it is the good name itself, it is usually used in the singular and without a plural.",
+  "forms": [
+   {
+    "da": "en ære",
+    "en": "an honor"
+   },
+   {
+    "da": "æren",
+    "en": "the honor"
+   },
+   {
+    "da": "Det er en ære at møde dig",
+    "en": "It is an honor to meet you"
+   }
+  ],
+  "related": [
+   {
+    "da": "en respekt",
+    "en": "respect"
+   },
+   {
+    "da": "en hæder",
+    "en": "distinction"
+   },
+   {
+    "da": "en skam",
+    "en": "a shame"
+   },
+   {
+    "da": "en vanære",
+    "en": "a disgrace"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **ære** at få en pris for sit arbejde.",
+   "en": "It is an honor to get a prize for your work."
+  }
+ },
+ "ærefuld": {
+  "explanation": "\"Ærefuld\" means \"honorable\" and describes a person or an action that deserves respect and has nothing to be ashamed of. It is built from ære (honor) and -fuld (full of), so it is \"full of honor\".",
+  "forms": [
+   {
+    "da": "en ærefuld kamp",
+    "en": "an honorable fight"
+   },
+   {
+    "da": "et ærefuldt valg",
+    "en": "an honorable choice"
+   },
+   {
+    "da": "ærefulde mænd",
+    "en": "honorable men"
+   }
+  ],
+  "related": [
+   {
+    "da": "æreløs",
+    "en": "dishonorable"
+   },
+   {
+    "da": "hæderlig",
+    "en": "creditable"
+   },
+   {
+    "da": "værdig",
+    "en": "worthy"
+   },
+   {
+    "da": "retskaffen",
+    "en": "upright"
+   }
+  ],
+  "sentence": {
+   "da": "Han var en **ærefuld** mand, som altid holdt sit ord.",
+   "en": "He was an honorable man who always kept his word."
+  }
+ },
+ "æret": {
+  "explanation": "\"Æret\" means \"honored\" and is used for someone you want to show special respect. You mostly meet the plural form in speeches, where it opens the greeting: Ærede gæster! (Honored guests!)",
+  "forms": [
+   {
+    "da": "en æret gæst",
+    "en": "an honored guest"
+   },
+   {
+    "da": "et æret medlem",
+    "en": "an honored member"
+   },
+   {
+    "da": "ærede gæster",
+    "en": "honored guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "kær",
+    "en": "dear"
+   },
+   {
+    "da": "agtet",
+    "en": "esteemed"
+   },
+   {
+    "da": "værdsat",
+    "en": "valued"
+   }
+  ],
+  "sentence": {
+   "da": "Han blev budt velkommen som en **æret** gæst.",
+   "en": "He was welcomed as an honored guest."
+  }
+ },
  "ærgerlig": {
   "explanation": "\"Ærgerlig\" means \"unfortunate\" or \"a shame\", for a situation that goes wrong: Det er ærgerligt, at du ikke kan komme (It is a shame you cannot come).",
   "forms": [
@@ -770,6 +1281,45 @@
   "sentence": {
    "da": "Det var en **ærgerlig** misforståelse.",
    "en": "That was an unfortunate misunderstanding."
+  }
+ },
+ "ærgerrig": {
+  "explanation": "\"Ærgerrig\" means \"ambitious\", wanting to achieve a lot and working hard for it. Do not mix it up with ærgerlig (annoying, a pity), which differs by one letter.",
+  "forms": [
+   {
+    "da": "en ærgerrig elev",
+    "en": "an ambitious student"
+   },
+   {
+    "da": "et ærgerrigt mål",
+    "en": "an ambitious goal"
+   },
+   {
+    "da": "ærgerrige planer",
+    "en": "ambitious plans"
+   }
+  ],
+  "related": [
+   {
+    "da": "ærgerrighed",
+    "en": "ambition"
+   },
+   {
+    "da": "målrettet",
+    "en": "goal-oriented"
+   },
+   {
+    "da": "flittig",
+    "en": "hard-working"
+   },
+   {
+    "da": "doven",
+    "en": "lazy"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **ærgerrig** og vil blive chef inden for fem år.",
+   "en": "She is ambitious and wants to become a boss within five years."
   }
  },
  "ærlig": {

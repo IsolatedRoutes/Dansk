@@ -1,4 +1,43 @@
 {
+ "at padle": {
+  "explanation": "\"At padle\" means \"to paddle\", to move a small boat by pushing the water with a paddle. When you paddle, you face forward. At ro (to row) is different: with oars you sit with your back to where you are going.",
+  "forms": [
+   {
+    "da": "at padle",
+    "en": "to paddle"
+   },
+   {
+    "da": "jeg padler",
+    "en": "I paddle"
+   },
+   {
+    "da": "jeg padlede",
+    "en": "I paddled"
+   },
+   {
+    "da": "jeg har padlet",
+    "en": "I have paddled"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kano",
+    "en": "a canoe"
+   },
+   {
+    "da": "en kajak",
+    "en": "a kayak"
+   },
+   {
+    "da": "at sejle",
+    "en": "to sail"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **padle** hen over søen i en kano.",
+   "en": "We can paddle across the lake in a canoe."
+  }
+ },
  "at pakke": {
   "explanation": "\"At pakke\" means \"to pack\", for example a suitcase or a bag: Jeg pakker min kuffert (I pack my suitcase). It also means \"to wrap\": pakke en gave ind (to wrap a present). En pakke (a parcel) looks the same.",
   "forms": [
@@ -444,6 +483,45 @@
    "en": "You have to point to the right picture."
   }
  },
+ "at pendle": {
+  "explanation": "\"At pendle\" means \"to commute\", to go back and forth between home and work or school, often a long way: Jeg pendler fra Køge til København (I commute from Køge to Copenhagen). A person who does this is en pendler (a commuter).",
+  "forms": [
+   {
+    "da": "at pendle",
+    "en": "to commute"
+   },
+   {
+    "da": "jeg pendler",
+    "en": "I commute"
+   },
+   {
+    "da": "jeg pendlede",
+    "en": "I commuted"
+   },
+   {
+    "da": "jeg har pendlet",
+    "en": "I have commuted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rejse",
+    "en": "to travel"
+   },
+   {
+    "da": "at køre",
+    "en": "to drive"
+   },
+   {
+    "da": "at flytte",
+    "en": "to move"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil ikke **pendle** to timer hver dag til arbejde.",
+   "en": "She does not want to commute two hours every day to work."
+  }
+ },
  "at piske": {
   "explanation": "\"At piske\" means \"to whisk\" and \"to whip\", mixing air into eggs or cream with fast strokes: Vi pisker fløde (We whip cream).",
   "forms": [
@@ -481,6 +559,49 @@
   "sentence": {
    "da": "Han skal **piske** æggene og sukkeret.",
    "en": "He has to whisk the eggs and the sugar."
+  }
+ },
+ "at pjække": {
+  "explanation": "\"At pjække\" means \"to skip school\", to stay away from lessons without a good reason. Danes also use it for work or training: Jeg pjækker fra træning (I am skipping practice).",
+  "forms": [
+   {
+    "da": "at pjække",
+    "en": "to skip school / play hooky"
+   },
+   {
+    "da": "jeg pjækker",
+    "en": "I skip school / play hooky"
+   },
+   {
+    "da": "jeg pjækkede",
+    "en": "I skipped school / played hooky"
+   },
+   {
+    "da": "jeg har pjækket",
+    "en": "I have skipped school / played hooky"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skulke",
+    "en": "to play hooky"
+   },
+   {
+    "da": "at udeblive",
+    "en": "to fail to show up"
+   },
+   {
+    "da": "et fravær",
+    "en": "an absence"
+   },
+   {
+    "da": "at tage fri",
+    "en": "to take time off"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil gerne **pjække**, men han har en prøve i dag.",
+   "en": "He would like to skip school, but he has a test today."
   }
  },
  "at placere": {
@@ -524,6 +645,49 @@
   "sentence": {
    "da": "Du kan **placere** tasken ved døren.",
    "en": "You can put the bag by the door."
+  }
+ },
+ "at plage": {
+  "explanation": "\"At plage\" means \"to pester\" or \"to torment\", to keep after someone again and again. It works for people and for things like pain, worry or noise: Smerterne plager ham (The pain torments him). Børn kan plage deres forældre om slik (Children can pester their parents for candy).",
+  "forms": [
+   {
+    "da": "at plage",
+    "en": "to pester / torment"
+   },
+   {
+    "da": "jeg plager",
+    "en": "I pester / torment"
+   },
+   {
+    "da": "jeg plagede",
+    "en": "I pestered / tormented"
+   },
+   {
+    "da": "jeg har plaget",
+    "en": "I have pestered / tormented"
+   }
+  ],
+  "related": [
+   {
+    "da": "at genere",
+    "en": "to annoy"
+   },
+   {
+    "da": "at forstyrre",
+    "en": "to disturb"
+   },
+   {
+    "da": "at drille",
+    "en": "to tease"
+   },
+   {
+    "da": "at irritere",
+    "en": "to irritate"
+   }
+  ],
+  "sentence": {
+   "da": "Støjen fra vejen begynder at **plage** os om natten.",
+   "en": "The noise from the road is starting to torment us at night."
   }
  },
  "at planlægge": {
@@ -651,6 +815,92 @@
    "en": "The nurse has to care for the patients every day."
   }
  },
+ "at plukke": {
+  "explanation": "\"At plukke\" means \"to pick\", to take fruit or flowers by hand from where they grow. It also means to pluck the feathers off a bird: at plukke en kylling (to pluck a chicken).",
+  "forms": [
+   {
+    "da": "at plukke",
+    "en": "to pick"
+   },
+   {
+    "da": "jeg plukker",
+    "en": "I pick"
+   },
+   {
+    "da": "jeg plukkede",
+    "en": "I picked"
+   },
+   {
+    "da": "jeg har plukket",
+    "en": "I have picked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at høste",
+    "en": "to harvest"
+   },
+   {
+    "da": "at samle",
+    "en": "to gather"
+   },
+   {
+    "da": "et bær",
+    "en": "a berry"
+   },
+   {
+    "da": "at vælge ud",
+    "en": "to select"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **plukke** jordbær i haven, når de er røde.",
+   "en": "We can pick strawberries in the garden when they are red."
+  }
+ },
+ "at plyndre": {
+  "explanation": "\"At plyndre\" means \"to plunder\", to take everything valuable from a place, often by force during war or riots. It is also used in fun for raiding a place: Børnene plyndrer køleskabet (The kids raid the fridge).",
+  "forms": [
+   {
+    "da": "at plyndre",
+    "en": "to plunder / loot"
+   },
+   {
+    "da": "jeg plyndrer",
+    "en": "I plunder / loot"
+   },
+   {
+    "da": "jeg plyndrede",
+    "en": "I plundered / looted"
+   },
+   {
+    "da": "jeg har plyndret",
+    "en": "I have plundered / looted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at røve",
+    "en": "to rob"
+   },
+   {
+    "da": "at stjæle",
+    "en": "to steal"
+   },
+   {
+    "da": "at udplyndre",
+    "en": "to strip bare"
+   },
+   {
+    "da": "at hærge",
+    "en": "to ravage"
+   }
+  ],
+  "sentence": {
+   "da": "Tyvene vil **plyndre** butikken og tage alt af værdi.",
+   "en": "The thieves want to loot the store and take everything of value."
+  }
+ },
  "at poste": {
   "explanation": "\"At poste\" means \"to post\" something online, like a photo or a message: Hun poster billeder hver dag (She posts photos every day). It can also mean to mail a letter: Jeg poster brevet i dag (I am mailing the letter today).",
   "forms": [
@@ -688,6 +938,49 @@
   "sentence": {
    "da": "Jeg vil **poste** et billede fra turen.",
    "en": "I want to post a picture from the trip."
+  }
+ },
+ "at praktisere": {
+  "explanation": "\"At praktisere\" means \"to practice\", to carry out a profession, a belief or an idea in real life: Hun praktiserer buddhisme (She practices Buddhism). It is not for repeating something to get better. For that, use at øve (to practice).",
+  "forms": [
+   {
+    "da": "at praktisere",
+    "en": "to practice"
+   },
+   {
+    "da": "jeg praktiserer",
+    "en": "I practice"
+   },
+   {
+    "da": "jeg praktiserede",
+    "en": "I practiced"
+   },
+   {
+    "da": "jeg har praktiseret",
+    "en": "I have practiced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at udøve",
+    "en": "to exercise"
+   },
+   {
+    "da": "praktisk",
+    "en": "practical"
+   },
+   {
+    "da": "en teori",
+    "en": "a theory"
+   },
+   {
+    "da": "en praktikant",
+    "en": "an intern"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal have en uddannelse for at **praktisere** som læge.",
+   "en": "You need an education to practice as a doctor."
   }
  },
  "at presse": {
@@ -768,6 +1061,49 @@
    "en": "I want to print the ticket before the trip."
   }
  },
+ "at prioritere": {
+  "explanation": "\"At prioritere\" means \"to prioritize\", to decide what matters most and do that first when you cannot do everything: Jeg prioriterer min familie (I put my family first). It also fits money and time: at prioritere sin tid (to prioritize your time).",
+  "forms": [
+   {
+    "da": "at prioritere",
+    "en": "to prioritize"
+   },
+   {
+    "da": "jeg prioriterer",
+    "en": "I prioritize"
+   },
+   {
+    "da": "jeg prioriterede",
+    "en": "I prioritized"
+   },
+   {
+    "da": "jeg har prioriteret",
+    "en": "I have prioritized"
+   }
+  ],
+  "related": [
+   {
+    "da": "en prioritet",
+    "en": "a priority"
+   },
+   {
+    "da": "at vælge",
+    "en": "to choose"
+   },
+   {
+    "da": "at sortere",
+    "en": "to sort"
+   },
+   {
+    "da": "at udskyde",
+    "en": "to postpone"
+   }
+  ],
+  "sentence": {
+   "da": "Man må **prioritere**, når der er for mange opgaver.",
+   "en": "You have to prioritize when there are too many tasks."
+  }
+ },
  "at producere": {
   "explanation": "\"At producere\" means \"to produce\", to make things in large amounts, usually to sell them. It also fits films and music: Hun producerer film (She produces films).",
   "forms": [
@@ -809,6 +1145,49 @@
   "sentence": {
    "da": "Fabrikken kan **producere** tusind biler om året.",
    "en": "The factory can produce a thousand cars a year."
+  }
+ },
+ "at programmere": {
+  "explanation": "\"At programmere\" means \"to program\", to write instructions that a computer follows: Hun programmerer apps (She programs apps). It also means to set a machine to work by itself: at programmere en vaskemaskine (to program a washing machine).",
+  "forms": [
+   {
+    "da": "at programmere",
+    "en": "to program"
+   },
+   {
+    "da": "jeg programmerer",
+    "en": "I program"
+   },
+   {
+    "da": "jeg programmerede",
+    "en": "I programmed"
+   },
+   {
+    "da": "jeg har programmeret",
+    "en": "I have programmed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at kode",
+    "en": "to code"
+   },
+   {
+    "da": "en udvikler",
+    "en": "a developer"
+   },
+   {
+    "da": "et programmeringssprog",
+    "en": "a programming language"
+   },
+   {
+    "da": "en fejl",
+    "en": "a bug"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil lære at **programmere**, så jeg kan lave et spil.",
+   "en": "I want to learn to program so I can make a game."
   }
  },
  "at protestere": {
@@ -1182,6 +1561,346 @@
    "en": "We want to decorate the living room for the party tomorrow."
   }
  },
+ "at påberåbe sig": {
+  "explanation": "\"At påberåbe sig\" means \"to invoke\", to point to a right, a rule or an excuse as your reason: påberåbe sig sin ret (to invoke your right). Sig changes with the person: jeg påberåber mig, du påberåber dig.",
+  "forms": [
+   {
+    "da": "at påberåbe sig",
+    "en": "to invoke"
+   },
+   {
+    "da": "jeg påberåber mig",
+    "en": "I invoke"
+   },
+   {
+    "da": "jeg påberåbte mig",
+    "en": "I invoked"
+   },
+   {
+    "da": "jeg har påberåbt mig",
+    "en": "I have invoked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at henvise til",
+    "en": "to refer to"
+   },
+   {
+    "da": "at hævde",
+    "en": "to claim"
+   },
+   {
+    "da": "at anføre",
+    "en": "to state"
+   },
+   {
+    "da": "at gøre gældende",
+    "en": "to assert"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **påberåbe sig** loven, når chefen ikke overholder aftalen.",
+   "en": "She can invoke the law when the boss does not keep the agreement."
+  }
+ },
+ "at pådrage sig": {
+  "explanation": "\"At pådrage sig\" means \"to catch\" an illness or \"to pick up\" an injury. It is also used for costs and trouble you bring on yourself: pådrage sig gæld (to run up debt). Sig changes with the person: jeg pådrager mig.",
+  "forms": [
+   {
+    "da": "at pådrage sig",
+    "en": "to incur / catch (an illness)"
+   },
+   {
+    "da": "jeg pådrager mig",
+    "en": "I incur / catch (an illness)"
+   },
+   {
+    "da": "jeg pådrog mig",
+    "en": "I incurred / caught (an illness)"
+   },
+   {
+    "da": "jeg har pådraget mig",
+    "en": "I have incurred / caught (an illness)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at påføre",
+    "en": "to inflict"
+   },
+   {
+    "da": "at smitte",
+    "en": "to infect"
+   },
+   {
+    "da": "at få",
+    "en": "to get"
+   },
+   {
+    "da": "at blive syg",
+    "en": "to get sick"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **pådrage sig** en skade, når hun løber på is.",
+   "en": "She can pick up an injury when she runs on ice."
+  }
+ },
+ "at påføre": {
+  "explanation": "\"At påføre\" means \"to inflict\", to cause pain, damage or loss to someone. It also means \"to apply\" a layer onto a surface: påføre solcreme (to apply sunscreen). For catching something yourself, use at pådrage sig (to catch).",
+  "forms": [
+   {
+    "da": "at påføre",
+    "en": "to inflict / apply"
+   },
+   {
+    "da": "jeg påfører",
+    "en": "I inflict / apply"
+   },
+   {
+    "da": "jeg påførte",
+    "en": "I inflicted / applied"
+   },
+   {
+    "da": "jeg har påført",
+    "en": "I have inflicted / applied"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forvolde",
+    "en": "to bring about"
+   },
+   {
+    "da": "at smøre",
+    "en": "to spread"
+   },
+   {
+    "da": "at lægge på",
+    "en": "to put on"
+   },
+   {
+    "da": "at skade",
+    "en": "to harm"
+   }
+  ],
+  "sentence": {
+   "da": "Stormen kan **påføre** byen store skader.",
+   "en": "The storm can inflict great damage on the town."
+  }
+ },
+ "at pålægge": {
+  "explanation": "\"At pålægge\" means \"to impose\", to make someone pay or do something by official decision: pålægge en afgift (to impose a tax). The same word gives pålæg (sandwich toppings), things you lay on top of the bread.",
+  "forms": [
+   {
+    "da": "at pålægge",
+    "en": "to impose"
+   },
+   {
+    "da": "jeg pålægger",
+    "en": "I impose"
+   },
+   {
+    "da": "jeg pålagde",
+    "en": "I imposed"
+   },
+   {
+    "da": "jeg har pålagt",
+    "en": "I have imposed"
+   }
+  ],
+  "related": [
+   {
+    "da": "et påbud",
+    "en": "an order"
+   },
+   {
+    "da": "at forpligte",
+    "en": "to oblige"
+   },
+   {
+    "da": "at kræve",
+    "en": "to demand"
+   },
+   {
+    "da": "at fastsætte",
+    "en": "to set"
+   }
+  ],
+  "sentence": {
+   "da": "Staten vil **pålægge** bilerne en ny afgift.",
+   "en": "The state wants to impose a new tax on cars."
+  }
+ },
+ "at påpege": {
+  "explanation": "\"At påpege\" means \"to point out\", to say clearly that something is wrong or should be noticed: påpege en fejl (to point out a mistake). It is about speaking up, not about pointing with a finger. For that, use at pege (to point).",
+  "forms": [
+   {
+    "da": "at påpege",
+    "en": "to point out"
+   },
+   {
+    "da": "jeg påpeger",
+    "en": "I point out"
+   },
+   {
+    "da": "jeg påpegede",
+    "en": "I pointed out"
+   },
+   {
+    "da": "jeg har påpeget",
+    "en": "I have pointed out"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bemærke",
+    "en": "to remark"
+   },
+   {
+    "da": "at understrege",
+    "en": "to stress"
+   },
+   {
+    "da": "at fremhæve",
+    "en": "to highlight"
+   },
+   {
+    "da": "at gøre opmærksom på",
+    "en": "to alert to"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren vil **påpege** fejlene i opgaven, og vi retter dem.",
+   "en": "The teacher will point out the mistakes in the assignment, and we fix them."
+  }
+ },
+ "at påstå": {
+  "explanation": "\"At påstå\" means \"to claim\", to say that something is true, often without showing proof: Han påstår, at han ikke vidste det (He claims that he did not know). It often sounds doubtful, as if the speaker does not quite believe it.",
+  "forms": [
+   {
+    "da": "at påstå",
+    "en": "to claim"
+   },
+   {
+    "da": "jeg påstår",
+    "en": "I claim"
+   },
+   {
+    "da": "jeg påstod",
+    "en": "I claimed"
+   },
+   {
+    "da": "jeg har påstået",
+    "en": "I have claimed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en påstand",
+    "en": "an assertion"
+   },
+   {
+    "da": "at hævde",
+    "en": "to assert"
+   },
+   {
+    "da": "at benægte",
+    "en": "to deny"
+   },
+   {
+    "da": "at indrømme",
+    "en": "to admit"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan kan du **påstå**, at du aldrig har set den?",
+   "en": "How can you claim that you have never seen it?"
+  }
+ },
+ "at påtage sig": {
+  "explanation": "\"At påtage sig\" means \"to take on\", to agree to do a job or carry a duty. It often fits a heavy or official duty: påtage sig ansvaret (to take on the responsibility). Sig changes with the person: jeg påtager mig, du påtager dig.",
+  "forms": [
+   {
+    "da": "at påtage sig",
+    "en": "to take on"
+   },
+   {
+    "da": "jeg påtager mig",
+    "en": "I take on"
+   },
+   {
+    "da": "jeg påtog mig",
+    "en": "I took on"
+   },
+   {
+    "da": "jeg har påtaget mig",
+    "en": "I have taken on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overtage",
+    "en": "to take over"
+   },
+   {
+    "da": "at acceptere",
+    "en": "to accept"
+   },
+   {
+    "da": "at forpligte sig",
+    "en": "to commit yourself"
+   },
+   {
+    "da": "at afvise",
+    "en": "to turn down"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **påtage sig** opgaven, fordi ingen andre har tid.",
+   "en": "She will take on the task because nobody else has time."
+  }
+ },
+ "at påvirke": {
+  "explanation": "\"At påvirke\" means \"to influence\", to have an effect on how a person or thing feels, acts or turns out. It also describes what a substance does to someone: Han er påvirket af alkohol (He is under the influence of alcohol).",
+  "forms": [
+   {
+    "da": "at påvirke",
+    "en": "to influence"
+   },
+   {
+    "da": "jeg påvirker",
+    "en": "I influence"
+   },
+   {
+    "da": "jeg påvirkede",
+    "en": "I influenced"
+   },
+   {
+    "da": "jeg har påvirket",
+    "en": "I have influenced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at præge",
+    "en": "to shape"
+   },
+   {
+    "da": "at overtale",
+    "en": "to persuade"
+   },
+   {
+    "da": "at ændre",
+    "en": "to change"
+   }
+  ],
+  "sentence": {
+   "da": "Dårlig søvn kan **påvirke** dit humør og din hukommelse.",
+   "en": "Bad sleep can influence your mood and your memory."
+  }
+ },
  "en p-plads": {
   "explanation": "\"En p-plads\" means \"a parking spot\". P stands for parkering (parking), and plads means space.",
   "forms": [
@@ -1342,6 +2061,49 @@
    "en": "I pick up the parcel from a parcel locker by the station."
   }
  },
+ "en pakkekalender": {
+  "explanation": "\"En pakkekalender\" means \"a gift Advent calendar\", a calendar made of 24 small wrapped packages for the days up to December 24. It is a Danish tradition, and parents often make one at home for their children.",
+  "forms": [
+   {
+    "da": "en pakkekalender",
+    "en": "a gift Advent calendar"
+   },
+   {
+    "da": "pakkekalenderen",
+    "en": "the gift Advent calendar"
+   },
+   {
+    "da": "pakkekalendere",
+    "en": "gift Advent calendars"
+   },
+   {
+    "da": "pakkekalenderne",
+    "en": "the gift Advent calendars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en julekalender",
+    "en": "a Christmas calendar"
+   },
+   {
+    "da": "et kalenderlys",
+    "en": "a calendar candle"
+   },
+   {
+    "da": "en julegave",
+    "en": "a Christmas gift"
+   },
+   {
+    "da": "juleaften",
+    "en": "Christmas Eve"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene åbner en pakke i deres **pakkekalender** hver morgen i december.",
+   "en": "The children open a package in their gift calendar every morning in December."
+  }
+ },
  "en pakkeshop": {
   "explanation": "\"En pakkeshop\" means \"a parcel shop\", an ordinary shop where you can also pick up and send parcels. Staff help you there, unlike at en pakkeboks (a parcel locker).",
   "forms": [
@@ -1461,6 +2223,49 @@
   "sentence": {
    "da": "Jeg steger en **pandekage** på en pande.",
    "en": "I fry a pancake in a pan."
+  }
+ },
+ "en pandemi": {
+  "explanation": "\"En pandemi\" means \"a pandemic\", a disease that spreads across many countries at the same time, usually the whole world. A smaller one limited to one area is en epidemi (an epidemic).",
+  "forms": [
+   {
+    "da": "en pandemi",
+    "en": "a pandemic"
+   },
+   {
+    "da": "pandemien",
+    "en": "the pandemic"
+   },
+   {
+    "da": "pandemier",
+    "en": "pandemics"
+   },
+   {
+    "da": "pandemierne",
+    "en": "the pandemics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en virus",
+    "en": "a virus"
+   },
+   {
+    "da": "en smitte",
+    "en": "an infection"
+   },
+   {
+    "da": "en vaccine",
+    "en": "a vaccine"
+   },
+   {
+    "da": "en nedlukning",
+    "en": "a lockdown"
+   }
+  ],
+  "sentence": {
+   "da": "Under en **pandemi** bliver mange skoler lukket, og folk arbejder hjemmefra.",
+   "en": "During a pandemic many schools are closed, and people work from home."
   }
  },
  "en pantautomat": {
@@ -1586,6 +2391,92 @@
   "sentence": {
    "da": "Vores **papegøje** kan sige hej.",
    "en": "Our parrot can say hello."
+  }
+ },
+ "en papirclips": {
+  "explanation": "\"En papirclips\" means \"a paper clip\", a small bent piece of wire that holds pages together. The word ends in s even for one clip and stays the same in the plural: to papirclips (two paper clips).",
+  "forms": [
+   {
+    "da": "en papirclips",
+    "en": "a paper clip"
+   },
+   {
+    "da": "papirclipsen",
+    "en": "the paper clip"
+   },
+   {
+    "da": "papirclips",
+    "en": "paper clips"
+   },
+   {
+    "da": "papirclipsene",
+    "en": "the paper clips"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hæfteklamme",
+    "en": "a staple"
+   },
+   {
+    "da": "en hæftemaskine",
+    "en": "a stapler"
+   },
+   {
+    "da": "en elastik",
+    "en": "a rubber band"
+   },
+   {
+    "da": "en tegnestift",
+    "en": "a thumbtack"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg samler arkene med en **papirclips**, men du kan også bruge en hæftemaskine.",
+   "en": "I put the sheets together with a paper clip, but you can also use a stapler."
+  }
+ },
+ "en papirkurv": {
+  "explanation": "\"En papirkurv\" means \"a wastepaper basket\", a small bin for loose paper and other light waste, often placed by a desk.",
+  "forms": [
+   {
+    "da": "en papirkurv",
+    "en": "a wastepaper basket"
+   },
+   {
+    "da": "papirkurven",
+    "en": "the wastepaper basket"
+   },
+   {
+    "da": "papirkurve",
+    "en": "wastepaper baskets"
+   },
+   {
+    "da": "papirkurvene",
+    "en": "the wastepaper baskets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skraldespand",
+    "en": "a trash can"
+   },
+   {
+    "da": "en affaldspose",
+    "en": "a trash bag"
+   },
+   {
+    "da": "en spand",
+    "en": "a bucket"
+   },
+   {
+    "da": "en genbrugsstation",
+    "en": "a recycling center"
+   }
+  ],
+  "sentence": {
+   "da": "Ved skrivebordet står en **papirkurv** til brugt papir.",
+   "en": "By the desk there is a wastepaper basket for used paper."
   }
  },
  "en paraply": {
@@ -1912,6 +2803,49 @@
    "en": "A parking attendant walks around and checks the cars."
   }
  },
+ "en parodi": {
+  "explanation": "\"En parodi\" means \"a parody\", a funny copy that exaggerates something well known, such as a famous song, to make fun of it.",
+  "forms": [
+   {
+    "da": "en parodi",
+    "en": "a parody"
+   },
+   {
+    "da": "parodien",
+    "en": "the parody"
+   },
+   {
+    "da": "parodier",
+    "en": "parodies"
+   },
+   {
+    "da": "parodierne",
+    "en": "the parodies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en satire",
+    "en": "a satire"
+   },
+   {
+    "da": "en imitation",
+    "en": "an imitation"
+   },
+   {
+    "da": "en karikatur",
+    "en": "a caricature"
+   },
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   }
+  ],
+  "sentence": {
+   "da": "Filmen er en **parodi** på gamle gyserfilm og får alle til at grine.",
+   "en": "The film is a parody of old horror films and makes everyone laugh."
+  }
+ },
  "en partner": {
   "explanation": "\"En partner\" means \"a partner\", someone you share your life or business with. In a business, en partner is a co-owner.",
   "forms": [
@@ -2029,6 +2963,49 @@
    "en": "A passenger ferry sails to the island every hour."
   }
  },
+ "en pastor": {
+  "explanation": "\"En pastor\" means \"a pastor\", a minister who leads services and weddings. In Denmark the everyday word is en præst (a priest), and pastor is also used as a title before a name: pastor Hansen.",
+  "forms": [
+   {
+    "da": "en pastor",
+    "en": "a pastor"
+   },
+   {
+    "da": "pastoren",
+    "en": "the pastor"
+   },
+   {
+    "da": "pastorer",
+    "en": "pastors"
+   },
+   {
+    "da": "pastorerne",
+    "en": "the pastors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en biskop",
+    "en": "a bishop"
+   },
+   {
+    "da": "en provst",
+    "en": "a dean"
+   },
+   {
+    "da": "en menighed",
+    "en": "a congregation"
+   },
+   {
+    "da": "en kirke",
+    "en": "a church"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **pastor** holder gudstjeneste hver søndag klokken ti.",
+   "en": "Our pastor holds a service every Sunday at ten o'clock."
+  }
+ },
  "en patient": {
   "explanation": "\"En patient\" means \"a patient\", a person getting medical care. Do not mix it up with the English word patient meaning calm: that is tålmodig (patient, calm) in Danish.",
   "forms": [
@@ -2068,6 +3045,49 @@
    "en": "The doctor helps a sick patient at the hospital."
   }
  },
+ "en patrulje": {
+  "explanation": "\"En patrulje\" means \"a patrol\", a small group that walks or drives around an area to watch over it, such as soldiers or police.",
+  "forms": [
+   {
+    "da": "en patrulje",
+    "en": "a patrol"
+   },
+   {
+    "da": "patruljen",
+    "en": "the patrol"
+   },
+   {
+    "da": "patruljer",
+    "en": "patrols"
+   },
+   {
+    "da": "patruljerne",
+    "en": "the patrols"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sikkerhedsvagt",
+    "en": "a security guard"
+   },
+   {
+    "da": "en vagt",
+    "en": "a guard"
+   },
+   {
+    "da": "en vagtpost",
+    "en": "a sentry"
+   },
+   {
+    "da": "at patruljere",
+    "en": "to patrol"
+   }
+  ],
+  "sentence": {
+   "da": "En **patrulje** går rundt i området hver nat og holder øje med folk.",
+   "en": "A patrol walks around the area every night and keeps an eye on people."
+  }
+ },
  "en pause": {
   "explanation": "\"En pause\" means \"a break\" or \"a pause\", for example at work or school. At holde pause means \"to take a break\", and a coffee break is en kaffepause.",
   "forms": [
@@ -2105,6 +3125,49 @@
   "sentence": {
    "da": "Nu holder vi **pause** og drikker kaffe.",
    "en": "Now we take a break and drink coffee."
+  }
+ },
+ "en pave": {
+  "explanation": "\"En pave\" means \"a pope\", the leader of the Catholic Church.",
+  "forms": [
+   {
+    "da": "en pave",
+    "en": "a pope"
+   },
+   {
+    "da": "paven",
+    "en": "the pope"
+   },
+   {
+    "da": "paver",
+    "en": "popes"
+   },
+   {
+    "da": "paverne",
+    "en": "the popes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kardinal",
+    "en": "a cardinal"
+   },
+   {
+    "da": "en biskop",
+    "en": "a bishop"
+   },
+   {
+    "da": "Vatikanet",
+    "en": "the Vatican"
+   },
+   {
+    "da": "en præst",
+    "en": "a priest"
+   }
+  ],
+  "sentence": {
+   "da": "Katolikkerne har en **pave**, som bor i Rom.",
+   "en": "Catholics have a pope, who lives in Rome."
   }
  },
  "en peberfrugt": {
@@ -2228,6 +3291,88 @@
    "en": "At Christmas I eat a spice cookie or two."
   }
  },
+ "en pegefinger": {
+  "explanation": "\"En pegefinger\" means \"an index finger\", the finger you point with. The first part is at pege (to point), as in en pegepind (a pointer stick).",
+  "forms": [
+   {
+    "da": "en pegefinger",
+    "en": "an index finger"
+   },
+   {
+    "da": "pegefingeren",
+    "en": "the index finger"
+   },
+   {
+    "da": "pegefingre",
+    "en": "index fingers"
+   },
+   {
+    "da": "pegefingrene",
+    "en": "the index fingers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tommelfinger",
+    "en": "a thumb"
+   },
+   {
+    "da": "en ringfinger",
+    "en": "a ring finger"
+   },
+   {
+    "da": "en lillefinger",
+    "en": "a little finger"
+   },
+   {
+    "da": "en hånd",
+    "en": "a hand"
+   }
+  ],
+  "sentence": {
+   "da": "Du bruger din **pegefinger**, når du peger på noget.",
+   "en": "You use your index finger when you point at something."
+  }
+ },
+ "en pels": {
+  "explanation": "\"En pels\" means \"a fur\", a warm garment made from animal skin with the hair left on. It is also the word for the fur on a living animal: hundens pels (the dog's fur).",
+  "forms": [
+   {
+    "da": "en pels",
+    "en": "a fur"
+   },
+   {
+    "da": "pelsen",
+    "en": "the fur"
+   },
+   {
+    "da": "pelse",
+    "en": "furs"
+   },
+   {
+    "da": "pelsene",
+    "en": "the furs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frakke",
+    "en": "a coat"
+   },
+   {
+    "da": "en jakke",
+    "en": "a jacket"
+   },
+   {
+    "da": "et skind",
+    "en": "a hide"
+   }
+  ],
+  "sentence": {
+   "da": "En **pels** er lavet af dyrehuder og holder dig varm.",
+   "en": "A fur is made of animal skins and keeps you warm."
+  }
+ },
  "en pen": {
   "explanation": "\"En pen\" means \"a pen\". Do not mix it up with pæn (nice, pretty), which is spelled with an æ.",
   "forms": [
@@ -2265,6 +3410,49 @@
   "sentence": {
    "da": "Jeg skriver mit navn med en **pen**.",
    "en": "I write my name with a pen."
+  }
+ },
+ "en pendler": {
+  "explanation": "\"En pendler\" means \"a commuter\", a person who travels between home and work every day, often a long way.",
+  "forms": [
+   {
+    "da": "en pendler",
+    "en": "a commuter"
+   },
+   {
+    "da": "pendleren",
+    "en": "the commuter"
+   },
+   {
+    "da": "pendlere",
+    "en": "commuters"
+   },
+   {
+    "da": "pendlerne",
+    "en": "the commuters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en passager",
+    "en": "a passenger"
+   },
+   {
+    "da": "en bilist",
+    "en": "a car driver"
+   },
+   {
+    "da": "at pendle",
+    "en": "to commute"
+   },
+   {
+    "da": "en rejsende",
+    "en": "a traveler"
+   }
+  ],
+  "sentence": {
+   "da": "Som **pendler** tager hun toget til arbejde hver dag.",
+   "en": "As a commuter she takes the train to work every day."
   }
  },
  "en pengepung": {
@@ -2351,6 +3539,49 @@
   "sentence": {
    "da": "Hun maler et billede med en tynd **pensel**.",
    "en": "She paints a picture with a thin paintbrush."
+  }
+ },
+ "en pension": {
+  "explanation": "\"En pension\" means \"a pension\", money you get every month after you stop working. The word also names that time of life: Min far går på pension i år (My father retires this year).",
+  "forms": [
+   {
+    "da": "en pension",
+    "en": "a pension"
+   },
+   {
+    "da": "pensionen",
+    "en": "the pension"
+   },
+   {
+    "da": "pensioner",
+    "en": "pensions"
+   },
+   {
+    "da": "pensionerne",
+    "en": "the pensions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pensionist",
+    "en": "a retiree"
+   },
+   {
+    "da": "et pensionat",
+    "en": "a guesthouse"
+   },
+   {
+    "da": "en folkepension",
+    "en": "a state pension"
+   },
+   {
+    "da": "en opsparing",
+    "en": "savings"
+   }
+  ],
+  "sentence": {
+   "da": "Efter mange år på arbejde får hun nu en **pension**.",
+   "en": "After many years at work, she now gets a pension."
   }
  },
  "en pensionist": {
@@ -2556,6 +3787,49 @@
    "en": "The ticket is valid for one person."
   }
  },
+ "en personlig træner": {
+  "explanation": "\"En personlig træner\" means \"a personal trainer\", a person you pay to plan your workouts and help you exercise. A træner (coach) of a team works with many people at once.",
+  "forms": [
+   {
+    "da": "en personlig træner",
+    "en": "a personal trainer"
+   },
+   {
+    "da": "den personlige træner",
+    "en": "the personal trainer"
+   },
+   {
+    "da": "personlige trænere",
+    "en": "personal trainers"
+   },
+   {
+    "da": "de personlige trænere",
+    "en": "the personal trainers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en motionist",
+    "en": "a fitness enthusiast"
+   },
+   {
+    "da": "et fitnesscenter",
+    "en": "a gym"
+   },
+   {
+    "da": "en kostvejleder",
+    "en": "a diet counselor"
+   },
+   {
+    "da": "en instruktør",
+    "en": "an instructor"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har en **personlig træner**, som laver mit træningsprogram.",
+   "en": "I have a personal trainer, who makes my training program."
+  }
+ },
  "en personlighed": {
   "explanation": "\"En personlighed\" means \"a personality\", the way a person is: Hun har en varm personlighed (She has a warm personality). It can also mean a well-known person: en kendt personlighed (a well-known figure).",
   "forms": [
@@ -2593,6 +3867,84 @@
   "sentence": {
    "da": "Humor er en vigtig del af hans **personlighed**.",
    "en": "Humor is an important part of his personality."
+  }
+ },
+ "en pest": {
+  "explanation": "\"En pest\" means \"a plague\", a deadly disease that killed millions of people in Europe in the Middle Ages. It also works in an idiom: Jeg undgår ham som pesten (I avoid him like the plague).",
+  "forms": [
+   {
+    "da": "en pest",
+    "en": "a plague"
+   },
+   {
+    "da": "pesten",
+    "en": "the plague"
+   }
+  ],
+  "related": [
+   {
+    "da": "en epidemi",
+    "en": "an epidemic"
+   },
+   {
+    "da": "en pandemi",
+    "en": "a pandemic"
+   },
+   {
+    "da": "Den Sorte Død",
+    "en": "the Black Death"
+   },
+   {
+    "da": "kolera",
+    "en": "cholera"
+   }
+  ],
+  "sentence": {
+   "da": "En **pest** er en meget farlig sygdom, som smitter hurtigt.",
+   "en": "A plague is a very dangerous disease that spreads quickly."
+  }
+ },
+ "en ph.d.": {
+  "explanation": "\"En ph.d.\" means \"a PhD\", the highest degree at a university, usually after about three years of study beyond a master's degree. In Denmark it is usually a paid job at a university.",
+  "forms": [
+   {
+    "da": "en ph.d.",
+    "en": "a PhD"
+   },
+   {
+    "da": "ph.d.'en",
+    "en": "the PhD"
+   },
+   {
+    "da": "ph.d.'er",
+    "en": "PhDs"
+   },
+   {
+    "da": "ph.d.'erne",
+    "en": "the PhDs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bachelor",
+    "en": "a bachelor's degree"
+   },
+   {
+    "da": "en doktorgrad",
+    "en": "a doctorate"
+   },
+   {
+    "da": "en professor",
+    "en": "a professor"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er i gang med en **ph.d.** om børns sprog.",
+   "en": "She is working on a PhD about children's language."
   }
  },
  "en picnic": {
@@ -3157,6 +4509,49 @@
    "en": "He listens to an old record."
   }
  },
+ "en pladespiller": {
+  "explanation": "\"En pladespiller\" means \"a record player\", a machine that plays music from round vinyl discs. A disc like that is called en plade (a record).",
+  "forms": [
+   {
+    "da": "en pladespiller",
+    "en": "a record player"
+   },
+   {
+    "da": "pladespilleren",
+    "en": "the record player"
+   },
+   {
+    "da": "pladespillere",
+    "en": "record players"
+   },
+   {
+    "da": "pladespillerne",
+    "en": "the record players"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cd-afspiller",
+    "en": "a CD player"
+   },
+   {
+    "da": "en højttaler",
+    "en": "a speaker"
+   },
+   {
+    "da": "en grammofon",
+    "en": "a gramophone"
+   },
+   {
+    "da": "et stereoanlæg",
+    "en": "a stereo system"
+   }
+  ],
+  "sentence": {
+   "da": "På en **pladespiller** kan man høre musik fra sorte vinylplader.",
+   "en": "On a record player you can hear music from black vinyl records."
+  }
+ },
  "en plads": {
   "explanation": "\"En plads\" means \"a seat\", \"room (space)\" or \"a town square\". On a train or in a cinema, en plads is your seat. Er der plads? means \"Is there room?\".",
   "forms": [
@@ -3442,6 +4837,49 @@
    "en": "My plant needs more light."
   }
  },
+ "en planteskole": {
+  "explanation": "\"En planteskole\" means \"a plant nursery\", a place where young plants and trees are grown and sold. It is not a place for small children: a daycare for babies is en vuggestue.",
+  "forms": [
+   {
+    "da": "en planteskole",
+    "en": "a plant nursery"
+   },
+   {
+    "da": "planteskolen",
+    "en": "the plant nursery"
+   },
+   {
+    "da": "planteskoler",
+    "en": "plant nurseries"
+   },
+   {
+    "da": "planteskolerne",
+    "en": "the plant nurseries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et havecenter",
+    "en": "a garden center"
+   },
+   {
+    "da": "en gartner",
+    "en": "a gardener"
+   },
+   {
+    "da": "et væksthus",
+    "en": "a greenhouse"
+   },
+   {
+    "da": "en børnehave",
+    "en": "a preschool"
+   }
+  ],
+  "sentence": {
+   "da": "På en **planteskole** kan man købe unge træer og buske til haven.",
+   "en": "At a plant nursery you can buy young trees and bushes for the garden."
+  }
+ },
  "en plastikpose": {
   "explanation": "\"En plastikpose\" means \"a plastic bag\", from plastik (plastic) and en pose (a bag). In shops, you may hear Vil du have en pose? (Do you want a bag?).",
   "forms": [
@@ -3485,6 +4923,49 @@
    "en": "I have apples in a plastic bag."
   }
  },
+ "en platform": {
+  "explanation": "\"En platform\" means \"a platform\", mostly an online place where people share, watch or buy things. At a train station the platform is en perron (a station platform), not en platform.",
+  "forms": [
+   {
+    "da": "en platform",
+    "en": "a platform"
+   },
+   {
+    "da": "platformen",
+    "en": "the platform"
+   },
+   {
+    "da": "platforme",
+    "en": "platforms"
+   },
+   {
+    "da": "platformene",
+    "en": "the platforms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en app",
+    "en": "an app"
+   },
+   {
+    "da": "en hjemmeside",
+    "en": "a website"
+   },
+   {
+    "da": "en tjeneste",
+    "en": "a service"
+   },
+   {
+    "da": "et netværk",
+    "en": "a network"
+   }
+  ],
+  "sentence": {
+   "da": "Instagram er en **platform**, hvor man deler billeder med venner.",
+   "en": "Instagram is a platform where you share pictures with friends."
+  }
+ },
  "en playliste": {
   "explanation": "\"En playliste\" means \"a playlist\", a list of songs you pick yourself: Jeg har en playliste til bilen (I have a playlist for the car).",
   "forms": [
@@ -3522,6 +5003,49 @@
   "sentence": {
    "da": "Jeg lytter til min **playliste**, når jeg løber.",
    "en": "I listen to my playlist when I run."
+  }
+ },
+ "en plejefamilie": {
+  "explanation": "\"En plejefamilie\" means \"a foster family\", a family that takes in a child who cannot live with their own parents, for a short time or for many years. In Denmark the municipality (kommunen) decides when a child is placed in one.",
+  "forms": [
+   {
+    "da": "en plejefamilie",
+    "en": "a foster family"
+   },
+   {
+    "da": "plejefamilien",
+    "en": "the foster family"
+   },
+   {
+    "da": "plejefamilier",
+    "en": "foster families"
+   },
+   {
+    "da": "plejefamilierne",
+    "en": "the foster families"
+   }
+  ],
+  "related": [
+   {
+    "da": "et plejebarn",
+    "en": "a foster child"
+   },
+   {
+    "da": "en plejeforælder",
+    "en": "a foster parent"
+   },
+   {
+    "da": "et børnehjem",
+    "en": "a children's home"
+   },
+   {
+    "da": "en værge",
+    "en": "a guardian"
+   }
+  ],
+  "sentence": {
+   "da": "Barnet bor hos en **plejefamilie**, fordi forældrene ikke kan tage sig af det.",
+   "en": "The child lives with a foster family because the parents cannot take care of it."
   }
  },
  "en plet": {
@@ -3610,6 +5134,88 @@
    "en": "It is his duty to take care of the children."
   }
  },
+ "en pligtfølelse": {
+  "explanation": "\"En pligtfølelse\" means \"a sense of duty\", the feeling that you must do something because it is right or expected, even when you do not want to.",
+  "forms": [
+   {
+    "da": "en pligtfølelse",
+    "en": "a sense of duty"
+   },
+   {
+    "da": "pligtfølelsen",
+    "en": "the sense of duty"
+   },
+   {
+    "da": "pligtfølelser",
+    "en": "senses of duty"
+   },
+   {
+    "da": "pligtfølelserne",
+    "en": "the senses of duty"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ansvar",
+    "en": "a responsibility"
+   },
+   {
+    "da": "en forpligtelse",
+    "en": "an obligation"
+   },
+   {
+    "da": "en samvittighed",
+    "en": "a conscience"
+   }
+  ],
+  "sentence": {
+   "da": "Af **pligtfølelse** passede hun sin syge mor hver dag.",
+   "en": "Out of a sense of duty, she looked after her sick mother every day."
+  }
+ },
+ "en plov": {
+  "explanation": "\"En plov\" means \"a plow\", a farm tool that cuts and turns over the soil before seeds are planted. Today a tractor pulls it; long ago, horses or oxen did.",
+  "forms": [
+   {
+    "da": "en plov",
+    "en": "a plow"
+   },
+   {
+    "da": "ploven",
+    "en": "the plow"
+   },
+   {
+    "da": "plove",
+    "en": "plows"
+   },
+   {
+    "da": "plovene",
+    "en": "the plows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en harve",
+    "en": "a harrow"
+   },
+   {
+    "da": "at pløje",
+    "en": "to plow"
+   },
+   {
+    "da": "en kultivator",
+    "en": "a cultivator"
+   },
+   {
+    "da": "en såmaskine",
+    "en": "a seed drill"
+   }
+  ],
+  "sentence": {
+   "da": "Landmanden bruger en **plov** til at vende jorden.",
+   "en": "The farmer uses a plow to turn the soil."
+  }
+ },
  "en plæne": {
   "explanation": "\"En plæne\" means \"a lawn\", the grass area by a house: Børnene leger på plænen (The children play on the lawn). Græs (grass) is the plant itself, and plæne is the whole area.",
   "forms": [
@@ -3686,6 +5292,92 @@
   "sentence": {
    "da": "Jeg hører en **podcast**, når jeg cykler på arbejde.",
    "en": "I listen to a podcast when I bike to work."
+  }
+ },
+ "en pointe": {
+  "explanation": "\"En pointe\" means \"a point\", the main idea of a story or an argument, the thing that makes it worth telling. A score in a game is et point (a point), not en pointe.",
+  "forms": [
+   {
+    "da": "en pointe",
+    "en": "a point"
+   },
+   {
+    "da": "pointen",
+    "en": "the point"
+   },
+   {
+    "da": "pointer",
+    "en": "points"
+   },
+   {
+    "da": "pointerne",
+    "en": "the points"
+   }
+  ],
+  "related": [
+   {
+    "da": "et budskab",
+    "en": "a message"
+   },
+   {
+    "da": "en morale",
+    "en": "a moral"
+   },
+   {
+    "da": "en kerne",
+    "en": "a core"
+   },
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg forstod ikke hans **pointe**, før han forklarede det.",
+   "en": "I did not understand his point until he explained it."
+  }
+ },
+ "en pokal": {
+  "explanation": "\"En pokal\" means \"a trophy\", often shaped like a cup, that a team or person gets for winning a competition.",
+  "forms": [
+   {
+    "da": "en pokal",
+    "en": "a trophy"
+   },
+   {
+    "da": "pokalen",
+    "en": "the trophy"
+   },
+   {
+    "da": "pokaler",
+    "en": "trophies"
+   },
+   {
+    "da": "pokalerne",
+    "en": "the trophies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en medalje",
+    "en": "a medal"
+   },
+   {
+    "da": "en præmie",
+    "en": "a prize"
+   },
+   {
+    "da": "en vinder",
+    "en": "a winner"
+   },
+   {
+    "da": "en turnering",
+    "en": "a tournament"
+   }
+  ],
+  "sentence": {
+   "da": "Holdet fik en stor **pokal**, fordi det vandt finalen.",
+   "en": "The team got a big trophy because it won the final."
   }
  },
  "en polak": {
@@ -3930,6 +5622,49 @@
    "en": "The police officer works at a police station."
   }
  },
+ "en pollenallergi": {
+  "explanation": "\"En pollenallergi\" means \"a pollen allergy\", a reaction to the fine dust from flowers and trees. It gives itchy eyes and a runny nose, mostly in spring and summer.",
+  "forms": [
+   {
+    "da": "en pollenallergi",
+    "en": "a pollen allergy"
+   },
+   {
+    "da": "pollenallergien",
+    "en": "the pollen allergy"
+   },
+   {
+    "da": "pollenallergier",
+    "en": "pollen allergies"
+   },
+   {
+    "da": "pollenallergierne",
+    "en": "the pollen allergies"
+   }
+  ],
+  "related": [
+   {
+    "da": "høfeber",
+    "en": "hay fever"
+   },
+   {
+    "da": "at nyse",
+    "en": "to sneeze"
+   },
+   {
+    "da": "en antihistamin",
+    "en": "an antihistamine"
+   },
+   {
+    "da": "en allergiker",
+    "en": "an allergy sufferer"
+   }
+  ],
+  "sentence": {
+   "da": "Med **pollenallergi** er det svært at være ude, når birken blomstrer.",
+   "en": "With a pollen allergy it is hard to be outside when the birch tree blooms."
+  }
+ },
  "en polo": {
   "explanation": "\"En polo\" means \"a polo shirt\", the short-sleeved shirt with a collar and a few buttons: Han har en hvid polo på (He is wearing a white polo shirt).",
   "forms": [
@@ -3967,6 +5702,49 @@
   "sentence": {
    "da": "Han har en hvid **polo** på til festen.",
    "en": "He is wearing a white polo shirt to the party."
+  }
+ },
+ "en polterabend": {
+  "explanation": "\"En polterabend\" means \"a pre-wedding party\", a party with friends for a couple just before they marry. Friends often smash old plates outside the door, because broken pieces are said to bring luck.",
+  "forms": [
+   {
+    "da": "en polterabend",
+    "en": "a pre-wedding party"
+   },
+   {
+    "da": "polterabenden",
+    "en": "the pre-wedding party"
+   },
+   {
+    "da": "polterabender",
+    "en": "pre-wedding parties"
+   },
+   {
+    "da": "polterabenderne",
+    "en": "the pre-wedding parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bryllup",
+    "en": "a wedding"
+   },
+   {
+    "da": "en brud",
+    "en": "a bride"
+   },
+   {
+    "da": "en brudgom",
+    "en": "a groom"
+   },
+   {
+    "da": "en forlovelse",
+    "en": "an engagement"
+   }
+  ],
+  "sentence": {
+   "da": "Aftenen før brylluppet holder vennerne en **polterabend** for brudeparret.",
+   "en": "The evening before the wedding, the friends hold a pre-wedding party for the bridal couple."
   }
  },
  "en pony": {
@@ -4215,6 +5993,49 @@
    "en": "I put the apples in a paper bag."
   }
  },
+ "en position": {
+  "explanation": "\"En position\" means \"a position\": where something stands in a ranking, on a map or on a team.",
+  "forms": [
+   {
+    "da": "en position",
+    "en": "a position"
+   },
+   {
+    "da": "positionen",
+    "en": "the position"
+   },
+   {
+    "da": "positioner",
+    "en": "positions"
+   },
+   {
+    "da": "positionerne",
+    "en": "the positions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en placering",
+    "en": "a placement"
+   },
+   {
+    "da": "en stilling",
+    "en": "a job / posture"
+   },
+   {
+    "da": "en plads",
+    "en": "a place"
+   },
+   {
+    "da": "en rolle",
+    "en": "a role"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilken **position** spiller du på holdet?",
+   "en": "Which position do you play on the team?"
+  }
+ },
  "en postkasse": {
   "explanation": "\"En postkasse\" means \"a mailbox\", the box by your door or on the street. It is built from post (mail) and kasse (box). Kasse also means the checkout in a store: Jeg betaler ved kassen (I pay at the checkout).",
   "forms": [
@@ -4252,6 +6073,92 @@
   "sentence": {
    "da": "Postbuddet lægger breve i vores **postkasse**.",
    "en": "The mail carrier puts letters in our mailbox."
+  }
+ },
+ "en pote": {
+  "explanation": "\"En pote\" means \"a paw\", the foot of a dog, cat or bear. A well-known command to a dog is Giv pote! (Shake!).",
+  "forms": [
+   {
+    "da": "en pote",
+    "en": "a paw"
+   },
+   {
+    "da": "poten",
+    "en": "the paw"
+   },
+   {
+    "da": "poter",
+    "en": "paws"
+   },
+   {
+    "da": "poterne",
+    "en": "the paws"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hov",
+    "en": "a hoof"
+   },
+   {
+    "da": "en klo",
+    "en": "a claw"
+   },
+   {
+    "da": "en pels",
+    "en": "a fur"
+   },
+   {
+    "da": "en hale",
+    "en": "a tail"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden har ondt i en **pote** og halter.",
+   "en": "The dog has a sore paw and limps."
+  }
+ },
+ "en potte": {
+  "explanation": "\"En potte\" means \"a pot\" for a plant. Small children also sit on en potte (a potty) when they learn to use the toilet.",
+  "forms": [
+   {
+    "da": "en potte",
+    "en": "a pot"
+   },
+   {
+    "da": "potten",
+    "en": "the pot"
+   },
+   {
+    "da": "potter",
+    "en": "pots"
+   },
+   {
+    "da": "potterne",
+    "en": "the pots"
+   }
+  ],
+  "related": [
+   {
+    "da": "en urtepotte",
+    "en": "a flowerpot"
+   },
+   {
+    "da": "en gryde",
+    "en": "a cooking pot"
+   },
+   {
+    "da": "en krukke",
+    "en": "a jar"
+   },
+   {
+    "da": "en potteplante",
+    "en": "a potted plant"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har sat basilikum i en **potte** på vindueskarmen.",
+   "en": "I have put basil in a pot on the windowsill."
   }
  },
  "en potteplante": {
@@ -4295,6 +6202,264 @@
   "sentence": {
    "da": "Min **potteplante** står i en pot og skal have vand.",
    "en": "My houseplant stands in a pot and needs water."
+  }
+ },
+ "en praksis": {
+  "explanation": "\"En praksis\" means \"a practice\", the way something is really done, as opposed to what is only planned. A doctor's office is called en lægepraksis (a doctor's practice).",
+  "forms": [
+   {
+    "da": "en praksis",
+    "en": "a practice"
+   },
+   {
+    "da": "praksissen",
+    "en": "the practice"
+   },
+   {
+    "da": "praksisser",
+    "en": "practices"
+   },
+   {
+    "da": "praksisserne",
+    "en": "the practices"
+   }
+  ],
+  "related": [
+   {
+    "da": "en teori",
+    "en": "a theory"
+   },
+   {
+    "da": "en erfaring",
+    "en": "an experience"
+   },
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en øvelse",
+    "en": "an exercise"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har lært teorien, men jeg mangler **praksis**.",
+   "en": "I have learned the theory, but I lack practice."
+  }
+ },
+ "en praktikant": {
+  "explanation": "\"En praktikant\" means \"an intern\", someone who works at a company for a limited time to learn the job, often as part of a study program.",
+  "forms": [
+   {
+    "da": "en praktikant",
+    "en": "an intern"
+   },
+   {
+    "da": "praktikanten",
+    "en": "the intern"
+   },
+   {
+    "da": "praktikanter",
+    "en": "interns"
+   },
+   {
+    "da": "praktikanterne",
+    "en": "the interns"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lærling",
+    "en": "an apprentice"
+   },
+   {
+    "da": "en elev",
+    "en": "a pupil"
+   },
+   {
+    "da": "en vikar",
+    "en": "a substitute"
+   },
+   {
+    "da": "en praktikperiode",
+    "en": "an internship period"
+   }
+  ],
+  "sentence": {
+   "da": "Som **praktikant** lærer man jobbet ved at hjælpe de andre.",
+   "en": "As an intern you learn the job by helping the others."
+  }
+ },
+ "en praktikplads": {
+  "explanation": "\"En praktikplads\" means \"an internship placement\", a spot at a company where you do the practical part of your studies. In Denmark, students in trade programs must find one to finish.",
+  "forms": [
+   {
+    "da": "en praktikplads",
+    "en": "an internship placement"
+   },
+   {
+    "da": "praktikpladsen",
+    "en": "the internship placement"
+   },
+   {
+    "da": "praktikpladser",
+    "en": "internship placements"
+   },
+   {
+    "da": "praktikpladserne",
+    "en": "the internship placements"
+   }
+  ],
+  "related": [
+   {
+    "da": "en praktikant",
+    "en": "an intern"
+   },
+   {
+    "da": "en elevplads",
+    "en": "a trainee position"
+   },
+   {
+    "da": "en erhvervsuddannelse",
+    "en": "a vocational education"
+   },
+   {
+    "da": "en læreplads",
+    "en": "an apprenticeship"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal have en **praktikplads**, før jeg kan blive færdig med uddannelsen.",
+   "en": "I need an internship placement before I can finish my education."
+  }
+ },
+ "en praktiserende læge": {
+  "explanation": "\"En praktiserende læge\" means \"a general practitioner\", the doctor you go to first for most health problems and who can send you on for more tests. Many people just say min læge (my doctor).",
+  "forms": [
+   {
+    "da": "en praktiserende læge",
+    "en": "a general practitioner"
+   },
+   {
+    "da": "den praktiserende læge",
+    "en": "the general practitioner"
+   },
+   {
+    "da": "praktiserende læger",
+    "en": "general practitioners"
+   },
+   {
+    "da": "de praktiserende læger",
+    "en": "the general practitioners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en speciallæge",
+    "en": "a specialist"
+   },
+   {
+    "da": "en vagtlæge",
+    "en": "an on-call doctor"
+   },
+   {
+    "da": "et lægehus",
+    "en": "a doctor's clinic"
+   },
+   {
+    "da": "en henvisning",
+    "en": "a referral"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg ringer til min **praktiserende læge**, hvis jeg bliver syg.",
+   "en": "I call my general practitioner if I get sick."
+  }
+ },
+ "en premiere": {
+  "explanation": "\"En premiere\" means \"a premiere\", the first public showing of a film or a play. To say something opens, use har premiere: Filmen har premiere i morgen (The film opens tomorrow).",
+  "forms": [
+   {
+    "da": "en premiere",
+    "en": "a premiere"
+   },
+   {
+    "da": "premieren",
+    "en": "the premiere"
+   },
+   {
+    "da": "premierer",
+    "en": "premieres"
+   },
+   {
+    "da": "premiererne",
+    "en": "the premieres"
+   }
+  ],
+  "related": [
+   {
+    "da": "en generalprøve",
+    "en": "a dress rehearsal"
+   },
+   {
+    "da": "en forestilling",
+    "en": "a show"
+   },
+   {
+    "da": "en billet",
+    "en": "a ticket"
+   },
+   {
+    "da": "en anmeldelse",
+    "en": "a review"
+   }
+  ],
+  "sentence": {
+   "da": "I aften er der **premiere** på det nye teaterstykke.",
+   "en": "Tonight there is a premiere of the new play."
+  }
+ },
+ "en presse": {
+  "explanation": "\"En presse\" means \"a press\", mostly the reporters and TV and radio stations as a group: Pressen skriver om det (The press is writing about it). It is also a machine that squeezes things.",
+  "forms": [
+   {
+    "da": "en presse",
+    "en": "a press"
+   },
+   {
+    "da": "pressen",
+    "en": "the press"
+   },
+   {
+    "da": "presser",
+    "en": "presses"
+   },
+   {
+    "da": "presserne",
+    "en": "the presses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en fotograf",
+    "en": "a photographer"
+   },
+   {
+    "da": "et interview",
+    "en": "an interview"
+   }
+  ],
+  "sentence": {
+   "da": "Der var meget **presse** til stede, da ministeren kom.",
+   "en": "There was a lot of press present when the minister arrived."
   }
  },
  "en prik": {
@@ -4457,6 +6622,92 @@
    "en": "I need a printer to print the document."
   }
  },
+ "en prioritering": {
+  "explanation": "\"En prioritering\" means \"a prioritization\", the choice of what comes first and what must wait. It is common in work, politics and budgets, where not everything can be done at once.",
+  "forms": [
+   {
+    "da": "en prioritering",
+    "en": "a prioritization"
+   },
+   {
+    "da": "prioriteringen",
+    "en": "the prioritization"
+   },
+   {
+    "da": "prioriteringer",
+    "en": "prioritizations"
+   },
+   {
+    "da": "prioriteringerne",
+    "en": "the prioritizations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en prioritet",
+    "en": "a priority"
+   },
+   {
+    "da": "at prioritere",
+    "en": "to prioritize"
+   },
+   {
+    "da": "en rækkefølge",
+    "en": "an order"
+   },
+   {
+    "da": "en vurdering",
+    "en": "an assessment"
+   }
+  ],
+  "sentence": {
+   "da": "Med så få penge er en klar **prioritering** nødvendig.",
+   "en": "With so little money, a clear prioritization is necessary."
+  }
+ },
+ "en prioritet": {
+  "explanation": "\"En prioritet\" means \"a priority\", what you decide matters most and do first. The verb at prioritere (to prioritize) means to choose what to put first.",
+  "forms": [
+   {
+    "da": "en prioritet",
+    "en": "a priority"
+   },
+   {
+    "da": "prioriteten",
+    "en": "the priority"
+   },
+   {
+    "da": "prioriteter",
+    "en": "priorities"
+   },
+   {
+    "da": "prioriteterne",
+    "en": "the priorities"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rækkefølge",
+    "en": "an order"
+   },
+   {
+    "da": "et valg",
+    "en": "a choice"
+   },
+   {
+    "da": "et behov",
+    "en": "a need"
+   },
+   {
+    "da": "en hastesag",
+    "en": "an urgent matter"
+   }
+  ],
+  "sentence": {
+   "da": "Min families trivsel er min højeste **prioritet** lige nu.",
+   "en": "My family's well-being is my highest priority right now."
+  }
+ },
  "en pris": {
   "explanation": "\"En pris\" means \"a price\", what something costs. The same word also means a prize or award, so the situation tells you which: en pris på tyve kroner (a price of twenty crowns) is a price, while at vinde en pris (to win a prize) is an award.",
   "forms": [
@@ -4533,6 +6784,135 @@
   "sentence": {
    "da": "Der er en stor **prisforskel** mellem butikkerne.",
    "en": "There is a big price difference between the stores."
+  }
+ },
+ "en prisstigning": {
+  "explanation": "\"En prisstigning\" means \"a price increase\", when something costs more than before. It can be a rise for one product or for most prices in a country at once.",
+  "forms": [
+   {
+    "da": "en prisstigning",
+    "en": "a price increase"
+   },
+   {
+    "da": "prisstigningen",
+    "en": "the price increase"
+   },
+   {
+    "da": "prisstigninger",
+    "en": "price increases"
+   },
+   {
+    "da": "prisstigningerne",
+    "en": "the price increases"
+   }
+  ],
+  "related": [
+   {
+    "da": "en prisnedsættelse",
+    "en": "a price cut"
+   },
+   {
+    "da": "en inflation",
+    "en": "inflation"
+   },
+   {
+    "da": "et tilbud",
+    "en": "a special offer"
+   },
+   {
+    "da": "en lønstigning",
+    "en": "a raise"
+   }
+  ],
+  "sentence": {
+   "da": "Der kommer en **prisstigning** på mælk fra næste måned.",
+   "en": "There is a price increase on milk from next month."
+  }
+ },
+ "en privatperson": {
+  "explanation": "\"En privatperson\" means \"a private individual\", a person acting for themselves, not for a company or an authority. Rules and prices are often different for privatpersoner (private individuals) and for firms.",
+  "forms": [
+   {
+    "da": "en privatperson",
+    "en": "a private individual"
+   },
+   {
+    "da": "privatpersonen",
+    "en": "the private individual"
+   },
+   {
+    "da": "privatpersoner",
+    "en": "private individuals"
+   },
+   {
+    "da": "privatpersonerne",
+    "en": "the private individuals"
+   }
+  ],
+  "related": [
+   {
+    "da": "en virksomhed",
+    "en": "a business"
+   },
+   {
+    "da": "en kunde",
+    "en": "a customer"
+   },
+   {
+    "da": "en forbruger",
+    "en": "a consumer"
+   },
+   {
+    "da": "en borger",
+    "en": "a citizen"
+   }
+  ],
+  "sentence": {
+   "da": "Banken har andre regler for en **privatperson** end for et firma.",
+   "en": "The bank has other rules for a private individual than for a firm."
+  }
+ },
+ "en problemstilling": {
+  "explanation": "\"En problemstilling\" means \"an issue to address\", the specific matter that a project, report or school assignment sets out to look into and solve.",
+  "forms": [
+   {
+    "da": "en problemstilling",
+    "en": "an issue"
+   },
+   {
+    "da": "problemstillingen",
+    "en": "the issue"
+   },
+   {
+    "da": "problemstillinger",
+    "en": "issues"
+   },
+   {
+    "da": "problemstillingerne",
+    "en": "the issues"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udfordring",
+    "en": "a challenge"
+   },
+   {
+    "da": "et spørgsmål",
+    "en": "a question"
+   },
+   {
+    "da": "et emne",
+    "en": "a topic"
+   },
+   {
+    "da": "en problemformulering",
+    "en": "a problem statement"
+   }
+  ],
+  "sentence": {
+   "da": "I opgaven undersøger vi en **problemstilling** om unges søvn.",
+   "en": "In the assignment, we investigate an issue about young people's sleep."
   }
  },
  "en procedure": {
@@ -4816,6 +7196,49 @@
    "en": "A programmer writes code for computers."
   }
  },
+ "en projektleder": {
+  "explanation": "\"En projektleder\" means \"a project manager\", the person who plans a project, divides the work and makes sure it is finished on time.",
+  "forms": [
+   {
+    "da": "en projektleder",
+    "en": "a project manager"
+   },
+   {
+    "da": "projektlederen",
+    "en": "the project manager"
+   },
+   {
+    "da": "projektledere",
+    "en": "project managers"
+   },
+   {
+    "da": "projektlederne",
+    "en": "the project managers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "an employee"
+   },
+   {
+    "da": "en koordinator",
+    "en": "a coordinator"
+   },
+   {
+    "da": "en tidsplan",
+    "en": "a schedule"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **projektleder** og sørger for, at alle når deres frister.",
+   "en": "She is a project manager and makes sure everyone meets their deadlines."
+  }
+ },
  "en proptrækker": {
   "explanation": "\"En proptrækker\" means \"a corkscrew\". It is built from prop (cork) and trække (to pull), so it pulls the cork out. Prop also means a plug, as in en trafikprop (a traffic jam).",
   "forms": [
@@ -4853,6 +7276,49 @@
   "sentence": {
    "da": "Jeg kan ikke åbne vinen uden en **proptrækker**.",
    "en": "I cannot open the wine without a corkscrew."
+  }
+ },
+ "en protest": {
+  "explanation": "\"En protest\" means \"a protest\", a public way of showing that you disagree with a decision. It can be a big march in the street or just a letter.",
+  "forms": [
+   {
+    "da": "en protest",
+    "en": "a protest"
+   },
+   {
+    "da": "protesten",
+    "en": "the protest"
+   },
+   {
+    "da": "protester",
+    "en": "protests"
+   },
+   {
+    "da": "protesterne",
+    "en": "the protests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en demonstration",
+    "en": "a demonstration"
+   },
+   {
+    "da": "en strejke",
+    "en": "a strike"
+   },
+   {
+    "da": "en klage",
+    "en": "a complaint"
+   },
+   {
+    "da": "et oprør",
+    "en": "a rebellion"
+   }
+  ],
+  "sentence": {
+   "da": "Mange gik på gaden i **protest** mod de nye regler.",
+   "en": "Many went into the street in protest against the new rules."
   }
  },
  "en præmie": {
@@ -5023,6 +7489,49 @@
    "en": "Our priest gives a speech in church."
   }
  },
+ "en præstation": {
+  "explanation": "\"En præstation\" means \"a performance\", how well someone does or what they achieve in sports, at work or at school. A show on a stage is en forestilling (a show), not en præstation.",
+  "forms": [
+   {
+    "da": "en præstation",
+    "en": "a performance"
+   },
+   {
+    "da": "præstationen",
+    "en": "the performance"
+   },
+   {
+    "da": "præstationer",
+    "en": "performances"
+   },
+   {
+    "da": "præstationerne",
+    "en": "the performances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indsats",
+    "en": "an effort"
+   },
+   {
+    "da": "et resultat",
+    "en": "a result"
+   },
+   {
+    "da": "en bedrift",
+    "en": "a feat"
+   },
+   {
+    "da": "en rekord",
+    "en": "a record"
+   }
+  ],
+  "sentence": {
+   "da": "Han leverede en flot **præstation** og vandt løbet.",
+   "en": "He delivered a fine performance and won the race."
+  }
+ },
  "en prøve": {
   "explanation": "\"En prøve\" means \"a test\" or \"a quiz\": Vi har en prøve i matematik (We have a test in math). It also means \"a sample\", as in en prøve af osten (a sample of the cheese).",
   "forms": [
@@ -5060,6 +7569,92 @@
   "sentence": {
    "da": "Vi skriver en **prøve** i geografi på fredag.",
    "en": "We are taking a test in geography on Friday."
+  }
+ },
+ "en prøvetid": {
+  "explanation": "\"En prøvetid\" means \"a probation period\", the first weeks or months of a new job, when either side can end it quickly. During it, both sides test whether the job suits them.",
+  "forms": [
+   {
+    "da": "en prøvetid",
+    "en": "a probation period"
+   },
+   {
+    "da": "prøvetiden",
+    "en": "the probation period"
+   },
+   {
+    "da": "prøvetider",
+    "en": "probation periods"
+   },
+   {
+    "da": "prøvetiderne",
+    "en": "the probation periods"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ansættelse",
+    "en": "an employment"
+   },
+   {
+    "da": "en opsigelse",
+    "en": "a notice of termination"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   },
+   {
+    "da": "en prøveperiode",
+    "en": "a trial period"
+   }
+  ],
+  "sentence": {
+   "da": "En ny medarbejder har en **prøvetid** på tre måneder.",
+   "en": "A new employee has a probation period of three months."
+  }
+ },
+ "en psykiater": {
+  "explanation": "\"En psykiater\" means \"a psychiatrist\". Do not mix it up with en psykolog (a psychologist): a psychiatrist is a medical doctor who can prescribe medicine, and a psychologist is not.",
+  "forms": [
+   {
+    "da": "en psykiater",
+    "en": "a psychiatrist"
+   },
+   {
+    "da": "psykiateren",
+    "en": "the psychiatrist"
+   },
+   {
+    "da": "psykiatere",
+    "en": "psychiatrists"
+   },
+   {
+    "da": "psykiaterne",
+    "en": "the psychiatrists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en terapeut",
+    "en": "a therapist"
+   },
+   {
+    "da": "en diagnose",
+    "en": "a diagnosis"
+   },
+   {
+    "da": "psykiatri",
+    "en": "psychiatry"
+   },
+   {
+    "da": "en henvisning",
+    "en": "a referral"
+   }
+  ],
+  "sentence": {
+   "da": "En **psykiater** taler med patienter om deres tanker og følelser.",
+   "en": "A psychiatrist talks with patients about their thoughts and feelings."
   }
  },
  "en psykolog": {
@@ -5105,6 +7700,92 @@
    "en": "She talks to a psychologist about her worries."
   }
  },
+ "en psykopat": {
+  "explanation": "\"En psykopat\" means \"a psychopath\", a person who feels no sympathy and does not care about hurting others. In everyday speech it is also used loosely, and sounds harsh: Han kørte som en psykopat (He drove like a madman).",
+  "forms": [
+   {
+    "da": "en psykopat",
+    "en": "a psychopath"
+   },
+   {
+    "da": "psykopaten",
+    "en": "the psychopath"
+   },
+   {
+    "da": "psykopater",
+    "en": "psychopaths"
+   },
+   {
+    "da": "psykopaterne",
+    "en": "the psychopaths"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sociopat",
+    "en": "a sociopath"
+   },
+   {
+    "da": "en narcissist",
+    "en": "a narcissist"
+   },
+   {
+    "da": "en psykose",
+    "en": "a psychosis"
+   },
+   {
+    "da": "en psykiater",
+    "en": "a psychiatrist"
+   }
+  ],
+  "sentence": {
+   "da": "Krimien handler om en **psykopat**, som dræber uden at fortryde det.",
+   "en": "The crime novel is about a psychopath who kills without regret."
+  }
+ },
+ "en publikation": {
+  "explanation": "\"En publikation\" means \"a publication\", a text that has been officially published, such as a book, a report or a scientific paper. Do not mix it up with publikum (an audience), which looks similar.",
+  "forms": [
+   {
+    "da": "en publikation",
+    "en": "a publication"
+   },
+   {
+    "da": "publikationen",
+    "en": "the publication"
+   },
+   {
+    "da": "publikationer",
+    "en": "publications"
+   },
+   {
+    "da": "publikationerne",
+    "en": "the publications"
+   }
+  ],
+  "related": [
+   {
+    "da": "at publicere",
+    "en": "to publish"
+   },
+   {
+    "da": "en udgivelse",
+    "en": "a release"
+   },
+   {
+    "da": "en artikel",
+    "en": "an article"
+   },
+   {
+    "da": "et forlag",
+    "en": "a publishing house"
+   }
+  ],
+  "sentence": {
+   "da": "Forskerne udgav en **publikation** om børns søvn.",
+   "en": "The researchers released a publication about children's sleep."
+  }
+ },
  "en pude": {
   "explanation": "\"En pude\" means \"a pillow\" or \"a cushion\", for example on a sofa. A bed pillow can be called en hovedpude (literally a head pillow).",
   "forms": [
@@ -5142,6 +7823,49 @@
   "sentence": {
    "da": "Mit hoved ligger på en blød **pude**.",
    "en": "My head lies on a soft pillow."
+  }
+ },
+ "en puls": {
+  "explanation": "\"En puls\" means \"a pulse\", the beat of your heart that you can feel on your wrist or neck. In everyday Danish the word is also used for how fast the heart beats.",
+  "forms": [
+   {
+    "da": "en puls",
+    "en": "a pulse"
+   },
+   {
+    "da": "pulsen",
+    "en": "the pulse"
+   },
+   {
+    "da": "en høj puls",
+    "en": "a high pulse"
+   },
+   {
+    "da": "en lav puls",
+    "en": "a low pulse"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hjerteslag",
+    "en": "a heartbeat"
+   },
+   {
+    "da": "et blodtryk",
+    "en": "blood pressure"
+   },
+   {
+    "da": "en pulsåre",
+    "en": "an artery"
+   },
+   {
+    "da": "en pulsmåler",
+    "en": "a heart rate monitor"
+   }
+  ],
+  "sentence": {
+   "da": "Efter løbeturen er min **puls** høj, og jeg er forpustet.",
+   "en": "After the run my pulse is high and I am out of breath."
   }
  },
  "en pung": {
@@ -5263,6 +7987,221 @@
   "sentence": {
    "da": "Jeg har min **pyjamas** på i sengen.",
    "en": "I am wearing my pajamas in bed."
+  }
+ },
+ "en pyt": {
+  "explanation": "\"En pyt\" means \"a puddle\", a small amount of water lying on the ground after rain. The same spelling is also the very common Danish word Pyt! (Never mind!), but that one has no en in front.",
+  "forms": [
+   {
+    "da": "en pyt",
+    "en": "a puddle"
+   },
+   {
+    "da": "pytten",
+    "en": "the puddle"
+   },
+   {
+    "da": "pytter",
+    "en": "puddles"
+   },
+   {
+    "da": "pytterne",
+    "en": "the puddles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vandpyt",
+    "en": "a puddle of water"
+   },
+   {
+    "da": "en pøl",
+    "en": "a pool"
+   },
+   {
+    "da": "en dam",
+    "en": "a pond"
+   },
+   {
+    "da": "mudder",
+    "en": "mud"
+   }
+  ],
+  "sentence": {
+   "da": "Der står en **pyt** midt på vejen, og jeg får våde sko.",
+   "en": "There is a puddle in the middle of the road, and I get wet shoes."
+  }
+ },
+ "en påskeferie": {
+  "explanation": "\"En påskeferie\" means \"an Easter vacation\", the days off around Easter. Schools in Denmark close at that time, and many families travel.",
+  "forms": [
+   {
+    "da": "en påskeferie",
+    "en": "an Easter vacation"
+   },
+   {
+    "da": "påskeferien",
+    "en": "the Easter vacation"
+   },
+   {
+    "da": "påskeferier",
+    "en": "Easter vacations"
+   },
+   {
+    "da": "påskeferierne",
+    "en": "the Easter vacations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en efterårsferie",
+    "en": "a fall break"
+   },
+   {
+    "da": "en vinterferie",
+    "en": "a winter break"
+   },
+   {
+    "da": "en sommerferie",
+    "en": "a summer vacation"
+   },
+   {
+    "da": "en juleferie",
+    "en": "a Christmas vacation"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen holder lukket i en uges **påskeferie**.",
+   "en": "The school is closed for a week of Easter vacation."
+  }
+ },
+ "en påskefrokost": {
+  "explanation": "\"En påskefrokost\" means \"an Easter lunch\", a long lunch with family or friends, like a julefrokost (a Christmas lunch) but in spring. A special beer, påskebryg (Easter beer), is sold for it.",
+  "forms": [
+   {
+    "da": "en påskefrokost",
+    "en": "an Easter lunch"
+   },
+   {
+    "da": "påskefrokosten",
+    "en": "the Easter lunch"
+   },
+   {
+    "da": "påskefrokoster",
+    "en": "Easter lunches"
+   },
+   {
+    "da": "påskefrokosterne",
+    "en": "the Easter lunches"
+   }
+  ],
+  "related": [
+   {
+    "da": "et påskeæg",
+    "en": "an Easter egg"
+   },
+   {
+    "da": "langfredag",
+    "en": "Good Friday"
+   },
+   {
+    "da": "påskedag",
+    "en": "Easter Sunday"
+   },
+   {
+    "da": "skærtorsdag",
+    "en": "Maundy Thursday"
+   }
+  ],
+  "sentence": {
+   "da": "Hele familien samles til en lang **påskefrokost** med sild og æg.",
+   "en": "The whole family gathers for a long Easter lunch with herring and eggs."
+  }
+ },
+ "en påstand": {
+  "explanation": "\"En påstand\" means \"a claim\", something said to be true, often without anything to back it up. When you call something en påstand, you often doubt it: Det er kun en påstand (It is only a claim).",
+  "forms": [
+   {
+    "da": "en påstand",
+    "en": "a claim"
+   },
+   {
+    "da": "påstanden",
+    "en": "the claim"
+   },
+   {
+    "da": "påstande",
+    "en": "claims"
+   },
+   {
+    "da": "påstandene",
+    "en": "the claims"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bevis",
+    "en": "a proof"
+   },
+   {
+    "da": "et argument",
+    "en": "an argument"
+   },
+   {
+    "da": "en antagelse",
+    "en": "an assumption"
+   },
+   {
+    "da": "et rygte",
+    "en": "a rumor"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan ikke bevise sin **påstand**, så ingen tror på den.",
+   "en": "She cannot prove her claim, so nobody believes it."
+  }
+ },
+ "en påvirkning": {
+  "explanation": "\"En påvirkning\" means \"an influence\", the way something changes how a person or thing acts or feels. It is also used for being drunk: kørsel under påvirkning (driving under the influence).",
+  "forms": [
+   {
+    "da": "en påvirkning",
+    "en": "an influence"
+   },
+   {
+    "da": "påvirkningen",
+    "en": "the influence"
+   },
+   {
+    "da": "påvirkninger",
+    "en": "influences"
+   },
+   {
+    "da": "påvirkningerne",
+    "en": "the influences"
+   }
+  ],
+  "related": [
+   {
+    "da": "at påvirke",
+    "en": "to affect"
+   },
+   {
+    "da": "en effekt",
+    "en": "an effect"
+   },
+   {
+    "da": "en konsekvens",
+    "en": "a consequence"
+   },
+   {
+    "da": "en følge",
+    "en": "a result"
+   }
+  ],
+  "sentence": {
+   "da": "Mobilen har en stor **påvirkning** på, hvordan børn sover.",
+   "en": "The phone has a big influence on how children sleep."
   }
  },
  "en pædagog": {
@@ -5425,6 +8364,49 @@
    "en": "She sells hot dogs from a hot dog stand."
   }
  },
+ "et palads": {
+  "explanation": "\"Et palads\" means \"a palace\", a very large, grand building where a ruler lives. Danish also has et slot (a castle), which is the usual word for royal homes like Amalienborg Slot.",
+  "forms": [
+   {
+    "da": "et palads",
+    "en": "a palace"
+   },
+   {
+    "da": "paladset",
+    "en": "the palace"
+   },
+   {
+    "da": "paladser",
+    "en": "palaces"
+   },
+   {
+    "da": "paladserne",
+    "en": "the palaces"
+   }
+  ],
+  "related": [
+   {
+    "da": "et palæ",
+    "en": "a mansion"
+   },
+   {
+    "da": "en herregård",
+    "en": "a manor house"
+   },
+   {
+    "da": "en fæstning",
+    "en": "a fortress"
+   },
+   {
+    "da": "en trone",
+    "en": "a throne"
+   }
+  ],
+  "sentence": {
+   "da": "Et **palads** har mange store sale og en stor have.",
+   "en": "A palace has many big halls and a big garden."
+  }
+ },
  "et par": {
   "explanation": "\"Et par\" means \"a pair\" or \"a couple\", as in et par sko (a pair of shoes). It also means \"a few\": et par dage means \"a couple of days\". Two people in a relationship are also et par (a couple).",
   "forms": [
@@ -5497,6 +8479,49 @@
   "sentence": {
    "da": "Jeg køber et **par jeans** i dag.",
    "en": "I am buying a pair of jeans today."
+  }
+ },
+ "et paradis": {
+  "explanation": "\"Et paradis\" means \"a paradise\", a perfect place of happiness. In religion, it is where good people go after death. In everyday speech, it is any wonderful place: Stranden er et paradis for børn (The beach is a paradise for children).",
+  "forms": [
+   {
+    "da": "et paradis",
+    "en": "a paradise"
+   },
+   {
+    "da": "paradiset",
+    "en": "the paradise"
+   },
+   {
+    "da": "paradiser",
+    "en": "paradises"
+   },
+   {
+    "da": "paradiserne",
+    "en": "the paradises"
+   }
+  ],
+  "related": [
+   {
+    "da": "en himmel",
+    "en": "a heaven"
+   },
+   {
+    "da": "en idyl",
+    "en": "an idyll"
+   },
+   {
+    "da": "en oase",
+    "en": "an oasis"
+   },
+   {
+    "da": "et helvede",
+    "en": "a hell"
+   }
+  ],
+  "sentence": {
+   "da": "Øen er et **paradis** med hvide strande og blåt vand.",
+   "en": "The island is a paradise with white beaches and blue water."
   }
  },
  "et paraplystativ": {
@@ -5579,6 +8604,49 @@
   "sentence": {
    "da": "Der er ingen pladser på gaden, men der er et **parkeringshus**.",
    "en": "There are no spaces on the street, but there is a parking garage."
+  }
+ },
+ "et parti": {
+  "explanation": "\"Et parti\" means \"a political party\", a group with shared political goals that runs in elections. It also means one game of chess or cards: Vi spiller et parti skak (We are playing a game of chess). For a party with food and music, use en fest (a party).",
+  "forms": [
+   {
+    "da": "et parti",
+    "en": "a party"
+   },
+   {
+    "da": "partiet",
+    "en": "the party"
+   },
+   {
+    "da": "partier",
+    "en": "parties"
+   },
+   {
+    "da": "partierne",
+    "en": "the parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "et valg",
+    "en": "an election"
+   },
+   {
+    "da": "en politiker",
+    "en": "a politician"
+   },
+   {
+    "da": "en stemme",
+    "en": "a vote"
+   },
+   {
+    "da": "en regering",
+    "en": "a government"
+   }
+  ],
+  "sentence": {
+   "da": "Socialdemokratiet er et stort **parti** i Danmark.",
+   "en": "The Social Democrats are a big party in Denmark."
   }
  },
  "et pas": {
@@ -5698,6 +8766,221 @@
    "en": "My pen is in my pencil case."
   }
  },
+ "et pengeskab": {
+  "explanation": "\"Et pengeskab\" means \"a safe\", a strong locked box for money, passports and other valuables. Many hotel rooms have one, and you open it with a code.",
+  "forms": [
+   {
+    "da": "et pengeskab",
+    "en": "a safe"
+   },
+   {
+    "da": "pengeskabet",
+    "en": "the safe"
+   },
+   {
+    "da": "pengeskabe",
+    "en": "safes"
+   },
+   {
+    "da": "pengeskabene",
+    "en": "the safes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bankboks",
+    "en": "a safe-deposit box"
+   },
+   {
+    "da": "en nøgle",
+    "en": "a key"
+   },
+   {
+    "da": "en lås",
+    "en": "a lock"
+   },
+   {
+    "da": "en pengekasse",
+    "en": "a cash box"
+   }
+  ],
+  "sentence": {
+   "da": "Vi gemmer vigtige papirer og smykker i et **pengeskab**.",
+   "en": "We keep important papers and jewelry in a safe."
+  }
+ },
+ "et pensum": {
+  "explanation": "\"Et pensum\" means \"a syllabus\", all the material students must learn for a course. Something that will not be tested is ikke på pensum (not on the syllabus).",
+  "forms": [
+   {
+    "da": "et pensum",
+    "en": "a syllabus"
+   },
+   {
+    "da": "pensummet",
+    "en": "the syllabus"
+   },
+   {
+    "da": "et nyt pensum",
+    "en": "a new syllabus"
+   },
+   {
+    "da": "det nye pensum",
+    "en": "the new syllabus"
+   }
+  ],
+  "related": [
+   {
+    "da": "en eksamen",
+    "en": "an exam"
+   },
+   {
+    "da": "en lektie",
+    "en": "homework"
+   },
+   {
+    "da": "en læseliste",
+    "en": "a reading list"
+   },
+   {
+    "da": "en lærebog",
+    "en": "a textbook"
+   }
+  ],
+  "sentence": {
+   "da": "Hele bogen er **pensum**, så vi skal læse den.",
+   "en": "The whole book is on the syllabus, so we have to read it."
+  }
+ },
+ "et personalemøde": {
+  "explanation": "\"Et personalemøde\" means \"a staff meeting\", a meeting where everyone who works at a place gathers to share news and decide practical things. The first part, personale, means the staff.",
+  "forms": [
+   {
+    "da": "et personalemøde",
+    "en": "a staff meeting"
+   },
+   {
+    "da": "personalemødet",
+    "en": "the staff meeting"
+   },
+   {
+    "da": "personalemøder",
+    "en": "staff meetings"
+   },
+   {
+    "da": "personalemøderne",
+    "en": "the staff meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "en dagsorden",
+    "en": "an agenda"
+   },
+   {
+    "da": "en medarbejder",
+    "en": "an employee"
+   }
+  ],
+  "sentence": {
+   "da": "Alle lærerne mødes til et **personalemøde** hver mandag.",
+   "en": "All the teachers meet at a staff meeting every Monday."
+  }
+ },
+ "et perspektiv": {
+  "explanation": "\"Et perspektiv\" means \"a perspective\", a particular way of seeing something: Det er et interessant perspektiv (That is an interesting perspective). In drawing, it is also the way lines make a flat picture look deep.",
+  "forms": [
+   {
+    "da": "et perspektiv",
+    "en": "a perspective"
+   },
+   {
+    "da": "perspektivet",
+    "en": "the perspective"
+   },
+   {
+    "da": "perspektiver",
+    "en": "perspectives"
+   },
+   {
+    "da": "perspektiverne",
+    "en": "the perspectives"
+   }
+  ],
+  "related": [
+   {
+    "da": "et synspunkt",
+    "en": "a point of view"
+   },
+   {
+    "da": "en vinkel",
+    "en": "an angle"
+   },
+   {
+    "da": "en opfattelse",
+    "en": "a view"
+   },
+   {
+    "da": "en synsvinkel",
+    "en": "a viewpoint"
+   }
+  ],
+  "sentence": {
+   "da": "Børn og voksne har ikke det samme **perspektiv** på verden.",
+   "en": "Children and adults do not have the same perspective on the world."
+  }
+ },
+ "et pindsvin": {
+  "explanation": "\"Et pindsvin\" means \"a hedgehog\", a small, round animal that sleeps through the winter and often lives in gardens. It is built from pind (stick) and svin (hog), so it is literally a stick hog.",
+  "forms": [
+   {
+    "da": "et pindsvin",
+    "en": "a hedgehog"
+   },
+   {
+    "da": "pindsvinet",
+    "en": "the hedgehog"
+   },
+   {
+    "da": "pindsvin",
+    "en": "hedgehogs"
+   },
+   {
+    "da": "pindsvinene",
+    "en": "the hedgehogs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pig",
+    "en": "a spine"
+   },
+   {
+    "da": "en mulvarp",
+    "en": "a mole"
+   },
+   {
+    "da": "en grævling",
+    "en": "a badger"
+   },
+   {
+    "da": "et egern",
+    "en": "a squirrel"
+   }
+  ],
+  "sentence": {
+   "da": "Et **pindsvin** har pigge på ryggen og kan rulle sig sammen.",
+   "en": "A hedgehog has spines on its back and can roll up into a ball."
+  }
+ },
  "et piskeris": {
   "explanation": "\"Et piskeris\" means \"a whisk\", a kitchen tool of wire loops. It is built from at piske (to whip) and ris (twigs).",
   "forms": [
@@ -5774,6 +9057,49 @@
   "sentence": {
    "da": "Sæt et **plaster** på såret.",
    "en": "Put a band-aid on the cut."
+  }
+ },
+ "et plejebarn": {
+  "explanation": "\"Et plejebarn\" means \"a foster child\", a child who lives with another family because the child's own parents cannot look after it. Unlike et adoptivbarn (an adopted child), a foster child does not become the legal child of the new family.",
+  "forms": [
+   {
+    "da": "et plejebarn",
+    "en": "a foster child"
+   },
+   {
+    "da": "plejebarnet",
+    "en": "the foster child"
+   },
+   {
+    "da": "plejebørn",
+    "en": "foster children"
+   },
+   {
+    "da": "plejebørnene",
+    "en": "the foster children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en plejefamilie",
+    "en": "a foster family"
+   },
+   {
+    "da": "et fosterhjem",
+    "en": "a foster home"
+   },
+   {
+    "da": "en adoption",
+    "en": "an adoption"
+   },
+   {
+    "da": "en forælder",
+    "en": "a parent"
+   }
+  ],
+  "sentence": {
+   "da": "Et **plejebarn** bor hos en anden familie, fordi forældrene ikke kan passe det.",
+   "en": "A foster child lives with another family because the parents cannot take care of it."
   }
  },
  "et point": {
@@ -6020,6 +9346,92 @@
   "sentence": {
    "da": "Hvad er dit **postnummer**, så jeg kan sende pakken?",
    "en": "What is your postal code, so I can send the package?"
+  }
+ },
+ "et potentiale": {
+  "explanation": "\"Et potentiale\" means \"a potential\", what someone or something could become with time and effort. It is often used without et: Der er potentiale i idéen (There is potential in the idea).",
+  "forms": [
+   {
+    "da": "et potentiale",
+    "en": "a potential"
+   },
+   {
+    "da": "potentialet",
+    "en": "the potential"
+   },
+   {
+    "da": "potentialer",
+    "en": "potentials"
+   },
+   {
+    "da": "potentialerne",
+    "en": "the potentials"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mulighed",
+    "en": "a possibility"
+   },
+   {
+    "da": "en evne",
+    "en": "an ability"
+   },
+   {
+    "da": "et talent",
+    "en": "a talent"
+   },
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   }
+  ],
+  "sentence": {
+   "da": "Den unge spiller har et stort **potentiale**, men skal træne mere.",
+   "en": "The young player has great potential but needs to train more."
+  }
+ },
+ "et princip": {
+  "explanation": "\"Et princip\" means \"a principle\", a basic belief that guides what you do. Two set phrases are worth knowing: af princip means \"on principle\" (Jeg spiser ikke kød af princip, I do not eat meat on principle), and i princip means \"in theory\" (I princip kan alle komme, In principle, anyone can come).",
+  "forms": [
+   {
+    "da": "et princip",
+    "en": "a principle"
+   },
+   {
+    "da": "princippet",
+    "en": "the principle"
+   },
+   {
+    "da": "principper",
+    "en": "principles"
+   },
+   {
+    "da": "principperne",
+    "en": "the principles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lov",
+    "en": "a law"
+   },
+   {
+    "da": "en overbevisning",
+    "en": "a conviction"
+   },
+   {
+    "da": "en værdi",
+    "en": "a value"
+   },
+   {
+    "da": "en moral",
+    "en": "a moral"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et vigtigt **princip**, at alle får samme chance.",
+   "en": "It is an important principle that everyone gets the same chance."
   }
  },
  "et prisfald": {
@@ -6307,6 +9719,49 @@
    "en": "I try on the pants in a fitting room."
   }
  },
+ "et pseudonym": {
+  "explanation": "\"Et pseudonym\" means \"a pseudonym\", a made-up name that someone uses instead of their real name, often a writer or an artist who wants to stay unknown.",
+  "forms": [
+   {
+    "da": "et pseudonym",
+    "en": "a pseudonym"
+   },
+   {
+    "da": "pseudonymet",
+    "en": "the pseudonym"
+   },
+   {
+    "da": "pseudonymer",
+    "en": "pseudonyms"
+   },
+   {
+    "da": "pseudonymerne",
+    "en": "the pseudonyms"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kunstnernavn",
+    "en": "a stage name"
+   },
+   {
+    "da": "et dæknavn",
+    "en": "a cover name"
+   },
+   {
+    "da": "et kælenavn",
+    "en": "a nickname"
+   },
+   {
+    "da": "et brugernavn",
+    "en": "a username"
+   }
+  ],
+  "sentence": {
+   "da": "Forfatteren skrev bøgerne under et **pseudonym**, så ingen kendte hendes rigtige navn.",
+   "en": "The author wrote the books under a pseudonym, so no one knew her real name."
+  }
+ },
  "et pudebetræk": {
   "explanation": "\"Et pudebetræk\" means \"a pillowcase\". It is built from pude (pillow) and betræk (cover), and betræk also appears in et sofabetræk (a sofa cover).",
   "forms": [
@@ -6561,6 +10016,49 @@
    "en": "A puzzle has many small pieces."
   }
  },
+ "et påfund": {
+  "explanation": "\"Et påfund\" means \"an idea\" and \"an invention\", something that someone has thought up. It often sounds surprised or critical, as in Hvad er det for et påfund? (What kind of idea is that?).",
+  "forms": [
+   {
+    "da": "et påfund",
+    "en": "an idea / invention"
+   },
+   {
+    "da": "påfundet",
+    "en": "the idea / invention"
+   },
+   {
+    "da": "påfund",
+    "en": "ideas / inventions"
+   },
+   {
+    "da": "påfundene",
+    "en": "the ideas / inventions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et indfald",
+    "en": "a whim"
+   },
+   {
+    "da": "et påhit",
+    "en": "a notion"
+   },
+   {
+    "da": "en finte",
+    "en": "a trick"
+   },
+   {
+    "da": "en nyhed",
+    "en": "something new"
+   }
+  ],
+  "sentence": {
+   "da": "Det er hans eget **påfund**, og ingen andre har prøvet det.",
+   "en": "It is his own idea, and nobody else has tried it."
+  }
+ },
  "et påskeæg": {
   "explanation": "\"Et påskeæg\" means \"an Easter egg\", often a chocolate egg or a painted egg. It is built from påske (Easter) and æg (egg).",
   "forms": [
@@ -6602,6 +10100,45 @@
   "sentence": {
    "da": "Til påske får jeg et **påskeæg** af chokolade.",
    "en": "At Easter I get an Easter egg made of chocolate."
+  }
+ },
+ "pandehår": {
+  "explanation": "\"Et pandehår\" means \"bangs\", the short hair cut straight across the forehead. Danish uses it in the singular, as one thing, where English says bangs in the plural.",
+  "forms": [
+   {
+    "da": "et pandehår",
+    "en": "bangs"
+   },
+   {
+    "da": "pandehåret",
+    "en": "the bangs"
+   },
+   {
+    "da": "langt pandehår",
+    "en": "long bangs"
+   },
+   {
+    "da": "med pandehår",
+    "en": "with bangs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frisør",
+    "en": "a hairdresser"
+   },
+   {
+    "da": "et pandebånd",
+    "en": "a headband"
+   },
+   {
+    "da": "en frisure",
+    "en": "a hairstyle"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes **pandehår** hænger ned over panden og øjnene.",
+   "en": "Her bangs hang down over her forehead and eyes."
   }
  },
  "panik": {
@@ -6750,6 +10287,80 @@
   "sentence": {
    "da": "Jeg printer brevet på **papir**.",
    "en": "I print the letter on paper."
+  }
+ },
+ "paradoksal": {
+  "explanation": "\"Paradoksal\" means \"paradoxical\", seeming to contradict itself even though it may still be true. It is used for situations, results and statements.",
+  "forms": [
+   {
+    "da": "en paradoksal situation",
+    "en": "a paradoxical situation"
+   },
+   {
+    "da": "et paradoksalt resultat",
+    "en": "a paradoxical result"
+   },
+   {
+    "da": "paradoksale udtalelser",
+    "en": "paradoxical statements"
+   }
+  ],
+  "related": [
+   {
+    "da": "et paradoks",
+    "en": "a paradox"
+   },
+   {
+    "da": "selvmodsigende",
+    "en": "self-contradictory"
+   },
+   {
+    "da": "underlig",
+    "en": "strange"
+   },
+   {
+    "da": "ironisk",
+    "en": "ironic"
+   }
+  ],
+  "sentence": {
+   "da": "Situationen er **paradoksal**: Jo mere han sparer, jo mere bruger han.",
+   "en": "The situation is paradoxical: the more he saves, the more he spends."
+  }
+ },
+ "paranoid": {
+  "explanation": "\"Paranoid\" means \"paranoid\", believing without reason that others are against you or watching you. Danes also use it loosely for being too wary of others: Du er helt paranoid (You are totally paranoid).",
+  "forms": [
+   {
+    "da": "en paranoid kollega",
+    "en": "a paranoid colleague"
+   },
+   {
+    "da": "Jeg er ikke paranoid",
+    "en": "I am not paranoid"
+   },
+   {
+    "da": "paranoide tanker",
+    "en": "paranoid thoughts"
+   }
+  ],
+  "related": [
+   {
+    "da": "mistænksom",
+    "en": "suspicious"
+   },
+   {
+    "da": "mistillid",
+    "en": "distrust"
+   },
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **paranoid** og tror, at naboerne altid holder øje med ham.",
+   "en": "He is paranoid and thinks the neighbors are always watching him."
   }
  },
  "parat": {
@@ -7003,6 +10614,41 @@
   "sentence": {
    "da": "Jeg leder efter noget **passende** at tage på til festen.",
    "en": "I am looking for something suitable to wear to the party."
+  }
+ },
+ "passiv": {
+  "explanation": "\"Passiv\" means \"passive\", not taking action or joining in. In grammar, a passive sentence tells what happened to something: Bilen blev stjålet (The car was stolen).",
+  "forms": [
+   {
+    "da": "en passiv rolle",
+    "en": "a passive role"
+   },
+   {
+    "da": "et passivt medlem",
+    "en": "a passive member"
+   },
+   {
+    "da": "passive deltagere",
+    "en": "passive participants"
+   }
+  ],
+  "related": [
+   {
+    "da": "aktiv",
+    "en": "active"
+   },
+   {
+    "da": "inaktiv",
+    "en": "inactive"
+   },
+   {
+    "da": "træg",
+    "en": "sluggish"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **passiv** i timen og sagde aldrig noget.",
+   "en": "She was passive in class and never said anything."
   }
  },
  "pasta": {
@@ -7266,6 +10912,45 @@
    "en": "I sprinkle fresh parsley on the potatoes."
   }
  },
+ "personale": {
+  "explanation": "\"Et personale\" means \"staff\", all the people who work at a shop, hospital or company. It names the group as a whole. For one person, say en medarbejder (an employee).",
+  "forms": [
+   {
+    "da": "et personale",
+    "en": "staff"
+   },
+   {
+    "da": "personalet",
+    "en": "the staff"
+   },
+   {
+    "da": "hotellets personale",
+    "en": "the hotel's staff"
+   },
+   {
+    "da": "nyt personale",
+    "en": "new staff"
+   }
+  ],
+  "related": [
+   {
+    "da": "ledelsen",
+    "en": "the management"
+   },
+   {
+    "da": "en kollega",
+    "en": "a colleague"
+   },
+   {
+    "da": "et personalemøde",
+    "en": "a staff meeting"
+   }
+  ],
+  "sentence": {
+   "da": "Sygeplejersker og læger er en del af hospitalets **personale**.",
+   "en": "Nurses and doctors are part of the hospital's staff."
+  }
+ },
  "personlig": {
   "explanation": "\"Personlig\" means \"personal\", for what is about you as a person: Det er et personligt spørgsmål (That is a personal question). It also fits things with your own style: en personlig stil (a personal style).",
   "forms": [
@@ -7340,6 +11025,84 @@
    "en": "Personally, I like the new movie."
   }
  },
+ "pervers": {
+  "explanation": "\"Pervers\" means \"perverted\", a strong, negative word for behavior seen as sick or morally wrong, often sexual. It can also mean \"perverse\", against what is reasonable: det er pervers, at ... (it is perverse that ...).",
+  "forms": [
+   {
+    "da": "en pervers mand",
+    "en": "a perverted man"
+   },
+   {
+    "da": "et perverst syn",
+    "en": "a perverse sight"
+   },
+   {
+    "da": "perverse tanker",
+    "en": "perverted thoughts"
+   }
+  ],
+  "related": [
+   {
+    "da": "ond",
+    "en": "evil"
+   },
+   {
+    "da": "forkvaklet",
+    "en": "twisted"
+   },
+   {
+    "da": "uanstændig",
+    "en": "indecent"
+   },
+   {
+    "da": "sygelig",
+    "en": "morbid"
+   }
+  ],
+  "sentence": {
+   "da": "Hans humor er **pervers**, og folk bliver ofte stødt.",
+   "en": "His humor is perverted, and people are often offended."
+  }
+ },
+ "pessimistisk": {
+  "explanation": "\"Pessimistisk\" means \"pessimistic\", expecting things to go badly. It describes a person's mood or a way of looking at things, such as a forecast.",
+  "forms": [
+   {
+    "da": "en pessimistisk tanke",
+    "en": "a pessimistic thought"
+   },
+   {
+    "da": "et pessimistisk syn",
+    "en": "a pessimistic view"
+   },
+   {
+    "da": "pessimistiske forudsigelser",
+    "en": "pessimistic predictions"
+   }
+  ],
+  "related": [
+   {
+    "da": "optimistisk",
+    "en": "optimistic"
+   },
+   {
+    "da": "en pessimist",
+    "en": "a pessimist"
+   },
+   {
+    "da": "negativ",
+    "en": "negative"
+   },
+   {
+    "da": "håbløs",
+    "en": "hopeless"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **pessimistisk** og tror altid, at det går galt.",
+   "en": "He is pessimistic and always thinks it will go wrong."
+  }
+ },
  "pinlig": {
   "explanation": "\"Pinlig\" means \"embarrassing\" and describes the situation. To say how you feel, use flov: Jeg er flov (I am embarrassed).",
   "forms": [
@@ -7377,6 +11140,45 @@
   "sentence": {
    "da": "Den situation var meget **pinlig**.",
    "en": "That situation was very embarrassing."
+  }
+ },
+ "pinse": {
+  "explanation": "\"En pinse\" means \"Pentecost\" or \"Whitsun\", a church holiday seven weeks after Easter. In Denmark Pinsedag (Whit Sunday) and Anden pinsedag (Whit Monday) are days off, so it is a long weekend.",
+  "forms": [
+   {
+    "da": "en pinse",
+    "en": "Pentecost"
+   },
+   {
+    "da": "pinsen",
+    "en": "the Pentecost"
+   },
+   {
+    "da": "i pinsen",
+    "en": "at Pentecost"
+   },
+   {
+    "da": "pinsedag",
+    "en": "Pentecost Sunday"
+   }
+  ],
+  "related": [
+   {
+    "da": "jul",
+    "en": "Christmas"
+   },
+   {
+    "da": "Kristi himmelfartsdag",
+    "en": "Ascension Day"
+   },
+   {
+    "da": "en helligdag",
+    "en": "a public holiday"
+   }
+  ],
+  "sentence": {
+   "da": "Til **pinse** er der en ekstra fridag om mandagen.",
+   "en": "At Pentecost there is an extra day off on Monday."
   }
  },
  "piskefløde": {
@@ -7447,6 +11249,80 @@
   "sentence": {
    "da": "Det er noget **pjat**, og jeg tror ikke på det.",
    "en": "That is nonsense, and I don't believe it."
+  }
+ },
+ "placeret": {
+  "explanation": "\"Placeret\" means \"placed\" or \"located\", saying where something is. With højt (high) it also means high-ranking: en højt placeret politiker (a high-ranking politician).",
+  "forms": [
+   {
+    "da": "centralt placeret",
+    "en": "centrally located"
+   },
+   {
+    "da": "godt placeret",
+    "en": "well placed"
+   },
+   {
+    "da": "dårligt placeret",
+    "en": "poorly placed"
+   }
+  ],
+  "related": [
+   {
+    "da": "beliggende",
+    "en": "situated"
+   },
+   {
+    "da": "at placere",
+    "en": "to put"
+   },
+   {
+    "da": "en placering",
+    "en": "a position"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen er **placeret** midt i byen, tæt på stationen.",
+   "en": "The school is located in the middle of town, close to the station."
+  }
+ },
+ "pladsmangel": {
+  "explanation": "\"En pladsmangel\" means \"lack of space\", not enough room for people or things. Danish often builds words like this with mangel on the end, for example vandmangel (lack of water).",
+  "forms": [
+   {
+    "da": "en pladsmangel",
+    "en": "a lack of space"
+   },
+   {
+    "da": "pladsmangelen",
+    "en": "the lack of space"
+   },
+   {
+    "da": "pladsmangel i lejligheden",
+    "en": "lack of space in the apartment"
+   },
+   {
+    "da": "på grund af pladsmangel",
+    "en": "due to lack of space"
+   }
+  ],
+  "related": [
+   {
+    "da": "trængsel",
+    "en": "crowding"
+   },
+   {
+    "da": "overfyldt",
+    "en": "overcrowded"
+   },
+   {
+    "da": "et pladsproblem",
+    "en": "a space problem"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **pladsmangel** i garagen, og der kan ikke stå flere biler.",
+   "en": "There is a lack of space in the garage, and no more cars can fit."
   }
  },
  "planlægning": {
@@ -7527,6 +11403,123 @@
    "en": "The bottle is made of plastic, not glass."
   }
  },
+ "plastikaffald": {
+  "explanation": "\"Plastikaffald\" means \"plastic waste\", trash made of plastic such as bottles and bags. Danish builds many words from a material plus affald, such as madaffald (food waste).",
+  "forms": [
+   {
+    "da": "et plastikaffald",
+    "en": "plastic waste"
+   },
+   {
+    "da": "plastikaffaldet",
+    "en": "the plastic waste"
+   },
+   {
+    "da": "plastikaffald i havet",
+    "en": "plastic waste in the sea"
+   },
+   {
+    "da": "at sortere plastikaffald",
+    "en": "to sort plastic waste"
+   }
+  ],
+  "related": [
+   {
+    "da": "genbrug",
+    "en": "recycling"
+   },
+   {
+    "da": "mikroplast",
+    "en": "microplastic"
+   },
+   {
+    "da": "forurening",
+    "en": "pollution"
+   },
+   {
+    "da": "et skrald",
+    "en": "a piece of trash"
+   }
+  ],
+  "sentence": {
+   "da": "Tomme flasker og poser af plastik er **plastikaffald**.",
+   "en": "Empty bottles and bags made of plastic are plastic waste."
+  }
+ },
+ "plat": {
+  "explanation": "\"Plat\" means \"vulgar\" or \"cheesy\", used for jokes, remarks and entertainment that feel crude or cheap. It criticizes taste.",
+  "forms": [
+   {
+    "da": "en plat vittighed",
+    "en": "a cheesy joke"
+   },
+   {
+    "da": "et plat show",
+    "en": "a cheesy show"
+   },
+   {
+    "da": "platte jokes",
+    "en": "cheesy jokes"
+   }
+  ],
+  "related": [
+   {
+    "da": "tarvelig",
+    "en": "shabby"
+   },
+   {
+    "da": "banal",
+    "en": "trivial"
+   },
+   {
+    "da": "grov",
+    "en": "coarse"
+   }
+  ],
+  "sentence": {
+   "da": "Hans humor er **plat**, og kun få griner af den.",
+   "en": "His humor is cheesy, and few people laugh at it."
+  }
+ },
+ "pleje": {
+  "explanation": "\"En pleje\" means \"care\", looking after someone who is sick or old, or after your body. It is practical care, unlike omsorg (warm concern). The verb at pleje also means \"to usually do\": Jeg plejer at stå tidligt op (I usually get up early).",
+  "forms": [
+   {
+    "da": "en pleje",
+    "en": "care"
+   },
+   {
+    "da": "plejen",
+    "en": "the care"
+   },
+   {
+    "da": "ældrepleje",
+    "en": "elderly care"
+   },
+   {
+    "da": "hudpleje",
+    "en": "skin care"
+   }
+  ],
+  "related": [
+   {
+    "da": "et plejehjem",
+    "en": "a nursing home"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "hjemmehjælp",
+    "en": "home help"
+   }
+  ],
+  "sentence": {
+   "da": "På sygehuset arbejder hun med **pleje** af syge.",
+   "en": "At the hospital she works with the care of the sick."
+  }
+ },
  "pludselig": {
   "explanation": "\"Pludselig\" means \"suddenly\" and also \"sudden\". Pludselig kom han ind means \"Suddenly he came in\". Lige pludselig is a bit stronger, like \"all of a sudden\".",
   "forms": [
@@ -7560,6 +11553,49 @@
   "sentence": {
    "da": "**Pludselig** hørte jeg et højt brag.",
    "en": "Suddenly I heard a loud bang."
+  }
+ },
+ "poesi": {
+  "explanation": "\"En poesi\" means \"poetry\", written art that plays with sound and images. It also means a beautiful, dreamlike quality in something: Der er poesi i den gamle by (There is poetry in the old town).",
+  "forms": [
+   {
+    "da": "en poesi",
+    "en": "poetry"
+   },
+   {
+    "da": "poesien",
+    "en": "the poetry"
+   },
+   {
+    "da": "moderne poesi",
+    "en": "modern poetry"
+   },
+   {
+    "da": "poesi og prosa",
+    "en": "poetry and prose"
+   }
+  ],
+  "related": [
+   {
+    "da": "et digt",
+    "en": "a poem"
+   },
+   {
+    "da": "en digter",
+    "en": "a poet"
+   },
+   {
+    "da": "et vers",
+    "en": "a verse"
+   },
+   {
+    "da": "lyrik",
+    "en": "lyric writing"
+   }
+  ],
+  "sentence": {
+   "da": "I **poesi** står ordene ofte i korte linjer og med rim.",
+   "en": "In poetry the words are often in short lines and with rhyme."
   }
  },
  "polen": {
@@ -7706,6 +11742,49 @@
    "en": "My neighbor comes from Poland and speaks Polish."
   }
  },
+ "polyester": {
+  "explanation": "\"En polyester\" means \"polyester\", a man-made fabric used for clothes and sports gear. It dries quickly and does not wrinkle easily.",
+  "forms": [
+   {
+    "da": "en polyester",
+    "en": "polyester"
+   },
+   {
+    "da": "polyesteren",
+    "en": "the polyester"
+   },
+   {
+    "da": "en trøje i polyester",
+    "en": "a sweater in polyester"
+   },
+   {
+    "da": "100 % polyester",
+    "en": "100% polyester"
+   }
+  ],
+  "related": [
+   {
+    "da": "bomuld",
+    "en": "cotton"
+   },
+   {
+    "da": "uld",
+    "en": "wool"
+   },
+   {
+    "da": "silke",
+    "en": "silk"
+   },
+   {
+    "da": "nylon",
+    "en": "nylon"
+   }
+  ],
+  "sentence": {
+   "da": "Mærket i trøjen viser, at den er lavet af **polyester**.",
+   "en": "The label in the sweater shows that it is made of polyester."
+  }
+ },
  "pommes frites": {
   "explanation": "\"Pommes frites\" means \"French fries\". Danes often shorten it to pommes (fries).",
   "forms": [
@@ -7819,6 +11898,49 @@
    "en": "It is a popular café, so we are booking a table."
   }
  },
+ "porcelæn": {
+  "explanation": "\"Et porcelæn\" means \"china\" or \"porcelain\", a fine, hard ceramic used for plates, cups and vases. Danes also use it for the dishes themselves: det fine porcelæn (the good china).",
+  "forms": [
+   {
+    "da": "et porcelæn",
+    "en": "porcelain"
+   },
+   {
+    "da": "porcelænet",
+    "en": "the porcelain"
+   },
+   {
+    "da": "fint porcelæn",
+    "en": "fine china"
+   },
+   {
+    "da": "en kop i porcelæn",
+    "en": "a cup in porcelain"
+   }
+  ],
+  "related": [
+   {
+    "da": "keramik",
+    "en": "ceramics"
+   },
+   {
+    "da": "fajance",
+    "en": "earthenware"
+   },
+   {
+    "da": "ler",
+    "en": "clay"
+   },
+   {
+    "da": "et spisestel",
+    "en": "a dinner set"
+   }
+  ],
+  "sentence": {
+   "da": "Tallerkener og kopper af **porcelæn** går let i stykker.",
+   "en": "Plates and cups made of porcelain break easily."
+  }
+ },
  "porto": {
   "explanation": "\"Porto\" means \"postage\", the price for sending a letter or package. You pay it for the sending, not for what is inside.",
   "forms": [
@@ -7893,6 +12015,45 @@
    "en": "He has a very positive attitude."
   }
  },
+ "positivt": {
+  "explanation": "\"Positivt\" means \"positively\", in a good or hopeful way. It often follows verbs like tænke (think), svare (answer) and reagere (react).",
+  "forms": [
+   {
+    "da": "Han svarede positivt",
+    "en": "He answered positively"
+   },
+   {
+    "da": "Jeg tænker positivt",
+    "en": "I think positively"
+   },
+   {
+    "da": "De reagerede positivt",
+    "en": "They reacted positively"
+   }
+  ],
+  "related": [
+   {
+    "da": "positiv",
+    "en": "positive"
+   },
+   {
+    "da": "negativt",
+    "en": "negatively"
+   },
+   {
+    "da": "optimistisk",
+    "en": "optimistic"
+   },
+   {
+    "da": "gunstigt",
+    "en": "favorably"
+   }
+  ],
+  "sentence": {
+   "da": "Chefen reagerede **positivt** på forslaget og sagde ja.",
+   "en": "The boss reacted positively to the proposal and said yes."
+  }
+ },
  "post": {
   "explanation": "\"Post\" means \"mail\": the letters and parcels that arrive. It is also the word for the postal service that brings them.",
   "forms": [
@@ -7930,6 +12091,45 @@
   "sentence": {
    "da": "Postbuddet kommer hver dag med **post** til os.",
    "en": "The mail carrier comes every day with mail for us."
+  }
+ },
+ "pragtfuld": {
+  "explanation": "\"Pragtfuld\" means \"splendid\": magnificent and beautiful, often about views, buildings, nature or colors. It is built from pragt (splendor) and -fuld (full of), so it is something full of splendor.",
+  "forms": [
+   {
+    "da": "en pragtfuld dag",
+    "en": "a splendid day"
+   },
+   {
+    "da": "et pragtfuldt slot",
+    "en": "a splendid castle"
+   },
+   {
+    "da": "pragtfulde farver",
+    "en": "splendid colors"
+   }
+  ],
+  "related": [
+   {
+    "da": "storslået",
+    "en": "grand"
+   },
+   {
+    "da": "prangende",
+    "en": "showy"
+   },
+   {
+    "da": "strålende",
+    "en": "brilliant"
+   },
+   {
+    "da": "fantastisk",
+    "en": "fantastic"
+   }
+  ],
+  "sentence": {
+   "da": "Fra tårnet er udsigten over byen og havet **pragtfuld**.",
+   "en": "From the tower, the view over the city and the sea is splendid."
   }
  },
  "praktisk": {
@@ -7971,6 +12171,166 @@
    "en": "The small bag is very practical on trips."
   }
  },
+ "pressefrihed": {
+  "explanation": "\"En pressefrihed\" means \"freedom of the press\", the right of the media and reporters to publish what they find without government control.",
+  "forms": [
+   {
+    "da": "en pressefrihed",
+    "en": "freedom of the press"
+   },
+   {
+    "da": "pressefriheden",
+    "en": "the freedom of the press"
+   },
+   {
+    "da": "pressefrihed i Danmark",
+    "en": "freedom of the press in Denmark"
+   },
+   {
+    "da": "angreb på pressefriheden",
+    "en": "an attack on press freedom"
+   }
+  ],
+  "related": [
+   {
+    "da": "ytringsfrihed",
+    "en": "freedom of speech"
+   },
+   {
+    "da": "censur",
+    "en": "censorship"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "religionsfrihed",
+    "en": "freedom of religion"
+   }
+  ],
+  "sentence": {
+   "da": "Med **pressefrihed** må journalister skrive om politikerne uden at blive straffet.",
+   "en": "With freedom of the press, journalists may write about the politicians without being punished."
+  }
+ },
+ "prikket": {
+  "explanation": "\"Prikket\" means \"polka-dotted\", covered in small round dots, mostly for fabric and patterns. It comes from en prik (a dot).",
+  "forms": [
+   {
+    "da": "en prikket kjole",
+    "en": "a polka-dotted dress"
+   },
+   {
+    "da": "et prikket slips",
+    "en": "a polka-dotted tie"
+   },
+   {
+    "da": "prikkede sokker",
+    "en": "polka-dotted socks"
+   }
+  ],
+  "related": [
+   {
+    "da": "stribet",
+    "en": "striped"
+   },
+   {
+    "da": "ternet",
+    "en": "checkered"
+   },
+   {
+    "da": "blomstret",
+    "en": "flowered"
+   },
+   {
+    "da": "plettet",
+    "en": "spotted"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes kjole er rød og **prikket**, ligesom en mariehøne.",
+   "en": "Her dress is red and dotted, like a ladybug."
+  }
+ },
+ "primær": {
+  "explanation": "\"Primær\" means \"primary\", the first or main one of several. It is used for goals, reasons, users and sources.",
+  "forms": [
+   {
+    "da": "en primær årsag",
+    "en": "a primary reason"
+   },
+   {
+    "da": "et primært mål",
+    "en": "a primary goal"
+   },
+   {
+    "da": "primære kilder",
+    "en": "primary sources"
+   }
+  ],
+  "related": [
+   {
+    "da": "sekundær",
+    "en": "secondary"
+   },
+   {
+    "da": "primært",
+    "en": "primarily"
+   },
+   {
+    "da": "en hovedårsag",
+    "en": "a main cause"
+   },
+   {
+    "da": "vigtigst",
+    "en": "most important"
+   }
+  ],
+  "sentence": {
+   "da": "Årsagen er **primær**, og de andre er mindre vigtige.",
+   "en": "The reason is primary, and the others are less important."
+  }
+ },
+ "primært": {
+  "explanation": "\"Primært\" means \"primarily\", mostly or above all, saying what the main part of something is. The word primær (primary) describes a thing instead: det primære mål (the primary goal).",
+  "forms": [
+   {
+    "da": "primært for børn",
+    "en": "mainly for children"
+   },
+   {
+    "da": "primært om natten",
+    "en": "mainly at night"
+   },
+   {
+    "da": "primært i Danmark",
+    "en": "mainly in Denmark"
+   }
+  ],
+  "related": [
+   {
+    "da": "hovedsagelig",
+    "en": "mainly"
+   },
+   {
+    "da": "især",
+    "en": "especially"
+   },
+   {
+    "da": "for det meste",
+    "en": "for the most part"
+   },
+   {
+    "da": "overvejende",
+    "en": "predominantly"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken sælger **primært** brugt tøj, men også lidt legetøj.",
+   "en": "The store sells mostly used clothes, but also a few toys."
+  }
+ },
  "privat": {
   "explanation": "\"Privat\" means \"private\", for what belongs to one person or family and not to everyone.",
   "forms": [
@@ -8008,6 +12368,166 @@
   "sentence": {
    "da": "Jeg vil ikke tale om noget **privat**.",
    "en": "I do not want to talk about anything private."
+  }
+ },
+ "privatliv": {
+  "explanation": "\"Et privatliv\" means \"privacy\" and \"private life\", the part of your life that belongs to you and not to work or the public.",
+  "forms": [
+   {
+    "da": "et privatliv",
+    "en": "privacy"
+   },
+   {
+    "da": "privatlivet",
+    "en": "the private life"
+   },
+   {
+    "da": "beskytte privatlivet",
+    "en": "to protect privacy"
+   },
+   {
+    "da": "krænkelse af privatlivet",
+    "en": "invasion of privacy"
+   }
+  ],
+  "related": [
+   {
+    "da": "fortrolig",
+    "en": "confidential"
+   },
+   {
+    "da": "en hemmelighed",
+    "en": "a secret"
+   },
+   {
+    "da": "databeskyttelse",
+    "en": "data protection"
+   },
+   {
+    "da": "et familieliv",
+    "en": "a family life"
+   }
+  ],
+  "sentence": {
+   "da": "Politikere har også ret til et **privatliv** uden kameraer.",
+   "en": "Politicians also have a right to a private life without cameras."
+  }
+ },
+ "problematisk": {
+  "explanation": "\"Problematisk\" means \"problematic\", for a situation, plan or habit that brings problems. It is built on et problem (a problem): en problematisk situation is one that causes trouble.",
+  "forms": [
+   {
+    "da": "en problematisk situation",
+    "en": "a problematic situation"
+   },
+   {
+    "da": "et problematisk forhold",
+    "en": "a problematic relationship"
+   },
+   {
+    "da": "problematiske forhold",
+    "en": "problematic conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "vanskelig",
+    "en": "difficult"
+   },
+   {
+    "da": "risikabel",
+    "en": "risky"
+   },
+   {
+    "da": "uproblematisk",
+    "en": "unproblematic"
+   },
+   {
+    "da": "besværlig",
+    "en": "troublesome"
+   }
+  ],
+  "sentence": {
+   "da": "Det er **problematisk**, når ingen har ansvaret.",
+   "en": "It is problematic when nobody is responsible."
+  }
+ },
+ "problemfri": {
+  "explanation": "\"Problemfri\" means \"problem-free\", going well, with no trouble. The ending -fri (free) means \"without\" in many words: sukkerfri (sugar-free), glutenfri (gluten-free).",
+  "forms": [
+   {
+    "da": "en problemfri rejse",
+    "en": "a problem-free trip"
+   },
+   {
+    "da": "et problemfrit forløb",
+    "en": "a smooth process"
+   },
+   {
+    "da": "problemfri dage",
+    "en": "trouble-free days"
+   }
+  ],
+  "related": [
+   {
+    "da": "smidig",
+    "en": "smooth"
+   },
+   {
+    "da": "uproblematisk",
+    "en": "unproblematic"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "problematisk",
+    "en": "problematic"
+   }
+  ],
+  "sentence": {
+   "da": "Flyveturen var **problemfri**, og vi landede til tiden.",
+   "en": "The flight was trouble-free, and we landed on time."
+  }
+ },
+ "produktiv": {
+  "explanation": "\"Produktiv\" means \"productive\", getting a lot done or producing a lot. It describes a person or a method that gets results, not just one that is busy: Jeg var travl, men ikke produktiv (I was busy, but not productive).",
+  "forms": [
+   {
+    "da": "en produktiv medarbejder",
+    "en": "a productive employee"
+   },
+   {
+    "da": "et produktivt møde",
+    "en": "a productive meeting"
+   },
+   {
+    "da": "produktive timer",
+    "en": "productive hours"
+   }
+  ],
+  "related": [
+   {
+    "da": "effektiv",
+    "en": "efficient"
+   },
+   {
+    "da": "frugtbar",
+    "en": "fruitful"
+   },
+   {
+    "da": "uproduktiv",
+    "en": "unproductive"
+   },
+   {
+    "da": "en produktion",
+    "en": "a production"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er meget **produktiv** og skriver tre sider om dagen.",
+   "en": "She is very productive and writes three pages a day."
   }
  },
  "professionel": {
@@ -8049,6 +12569,49 @@
    "en": "She is a professional soccer player and trains every day."
   }
  },
+ "protein": {
+  "explanation": "\"Et protein\" means \"a protein\", the nutrient the body uses to build and repair muscles. Without et, it names the nutrient as a whole: Æg indeholder meget protein (Eggs contain a lot of protein).",
+  "forms": [
+   {
+    "da": "et protein",
+    "en": "a protein"
+   },
+   {
+    "da": "proteinet",
+    "en": "the protein"
+   },
+   {
+    "da": "proteiner",
+    "en": "proteins"
+   },
+   {
+    "da": "proteinerne",
+    "en": "the proteins"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kulhydrat",
+    "en": "a carbohydrate"
+   },
+   {
+    "da": "et fedtstof",
+    "en": "a fat"
+   },
+   {
+    "da": "et vitamin",
+    "en": "a vitamin"
+   },
+   {
+    "da": "et mineral",
+    "en": "a mineral"
+   }
+  ],
+  "sentence": {
+   "da": "Kød, fisk og bønner er gode kilder til **protein**.",
+   "en": "Meat, fish and beans are good sources of protein."
+  }
+ },
  "præcis": {
   "explanation": "\"Præcis\" means \"exactly\". Compare Det koster præcis hundrede kroner (It costs exactly a hundred kroner) with Det koster cirka hundrede kroner (It costs about a hundred kroner). On its own, Præcis! means \"Exactly!\" or \"That's right!\".",
   "forms": [
@@ -8082,6 +12645,193 @@
   "sentence": {
    "da": "Toget kommer **præcis** klokken otte.",
    "en": "The train arrives at exactly eight o'clock."
+  }
+ },
+ "psykiatrisk": {
+  "explanation": "\"Psykiatrisk\" means \"psychiatric\", about the medical care of serious mental illness. It is the medical word; for the mind and feelings in general, Danes say psykisk (mental).",
+  "forms": [
+   {
+    "da": "en psykiatrisk afdeling",
+    "en": "a psychiatric ward"
+   },
+   {
+    "da": "et psykiatrisk hospital",
+    "en": "a psychiatric hospital"
+   },
+   {
+    "da": "psykiatriske patienter",
+    "en": "psychiatric patients"
+   }
+  ],
+  "related": [
+   {
+    "da": "en psykiater",
+    "en": "a psychiatrist"
+   },
+   {
+    "da": "en psykolog",
+    "en": "a psychologist"
+   },
+   {
+    "da": "en psykiatri",
+    "en": "psychiatry (the field)"
+   },
+   {
+    "da": "somatisk",
+    "en": "of the body (medical)"
+   }
+  ],
+  "sentence": {
+   "da": "Hun blev indlagt på en **psykiatrisk** afdeling på hospitalet.",
+   "en": "She was admitted to a psychiatric ward at the hospital."
+  }
+ },
+ "psykisk": {
+  "explanation": "\"Psykisk\" means \"mental\" or \"psychological\", about the mind and feelings, not the body. Its opposite is fysisk (physical): fysisk og psykisk sundhed (physical and mental health).",
+  "forms": [
+   {
+    "da": "en psykisk lidelse",
+    "en": "a mental disorder"
+   },
+   {
+    "da": "et psykisk pres",
+    "en": "psychological pressure"
+   },
+   {
+    "da": "psykiske problemer",
+    "en": "mental problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "følelsesmæssig",
+    "en": "emotional"
+   },
+   {
+    "da": "en psykolog",
+    "en": "a psychologist"
+   },
+   {
+    "da": "psykiatrisk",
+    "en": "psychiatric"
+   },
+   {
+    "da": "kropslig",
+    "en": "bodily"
+   }
+  ],
+  "sentence": {
+   "da": "Stress er en **psykisk** belastning, men kroppen mærker den også.",
+   "en": "Stress is a mental strain, but the body feels it too."
+  }
+ },
+ "publikum": {
+  "explanation": "\"Et publikum\" means \"an audience\", all the people who watch or listen at a concert, a play or a match. It names the whole group at once and is used in the singular, so a crowd of thousands is still just et publikum.",
+  "forms": [
+   {
+    "da": "et publikum",
+    "en": "an audience"
+   },
+   {
+    "da": "publikummet",
+    "en": "the audience"
+   },
+   {
+    "da": "et stort publikum",
+    "en": "a large audience"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilskuer",
+    "en": "a spectator"
+   },
+   {
+    "da": "en seer",
+    "en": "a viewer"
+   },
+   {
+    "da": "en lytter",
+    "en": "a listener"
+   }
+  ],
+  "sentence": {
+   "da": "**Publikum** klappede længe, da sangeren forlod scenen.",
+   "en": "The audience clapped for a long time when the singer left the stage."
+  }
+ },
+ "pudsig": {
+  "explanation": "\"Pudsig\" means \"funny\" or \"odd\" in a sweet way: something that makes you smile rather than laugh out loud. It is often said about small animals, children and little habits. A joke or a party is sjov (fun) instead.",
+  "forms": [
+   {
+    "da": "en pudsig hund",
+    "en": "a funny little dog"
+   },
+   {
+    "da": "et pudsigt navn",
+    "en": "an odd name"
+   },
+   {
+    "da": "pudsige historier",
+    "en": "funny stories"
+   }
+  ],
+  "related": [
+   {
+    "da": "mærkelig",
+    "en": "strange"
+   },
+   {
+    "da": "underlig",
+    "en": "peculiar"
+   },
+   {
+    "da": "morsom",
+    "en": "amusing"
+   },
+   {
+    "da": "charmerende",
+    "en": "charming"
+   }
+  ],
+  "sentence": {
+   "da": "Hvalpen løber på en **pudsig** måde og får os til at smile.",
+   "en": "The puppy runs in a funny way and makes us smile."
+  }
+ },
+ "punktlig": {
+  "explanation": "\"Punktlig\" means \"punctual\", the habit of showing up or finishing right when agreed. For one single occasion, use til tiden (on time): Jeg kom til tiden (I arrived on time).",
+  "forms": [
+   {
+    "da": "en punktlig mand",
+    "en": "a punctual man"
+   },
+   {
+    "da": "et punktligt tog",
+    "en": "a punctual train"
+   },
+   {
+    "da": "punktlige gæster",
+    "en": "punctual guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "upunktlig",
+    "en": "unpunctual"
+   },
+   {
+    "da": "præcis",
+    "en": "exact"
+   },
+   {
+    "da": "forsinket",
+    "en": "delayed"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er altid **punktlig** og kommer aldrig for sent til møder.",
+   "en": "She is always punctual and never comes late to meetings."
   }
  },
  "purløg": {
@@ -8641,6 +13391,84 @@
    "en": "I am on my way home now."
   }
  },
+ "påfaldende": {
+  "explanation": "\"Påfaldende\" means \"striking\": so unusual that you cannot help noticing it. It often points to something odd, not just something beautiful. It also works in front of another word: Han var påfaldende stille (He was oddly quiet).",
+  "forms": [
+   {
+    "da": "en påfaldende lighed",
+    "en": "a striking resemblance"
+   },
+   {
+    "da": "et påfaldende træk",
+    "en": "a striking feature"
+   },
+   {
+    "da": "påfaldende forskelle",
+    "en": "striking differences"
+   }
+  ],
+  "related": [
+   {
+    "da": "iøjnefaldende",
+    "en": "eye-catching"
+   },
+   {
+    "da": "opsigtsvækkende",
+    "en": "sensational"
+   },
+   {
+    "da": "usædvanlig",
+    "en": "uncommon"
+   },
+   {
+    "da": "diskret",
+    "en": "discreet"
+   }
+  ],
+  "sentence": {
+   "da": "Hans tavshed var **påfaldende**, når alle andre talte.",
+   "en": "His silence was striking when everyone else was talking."
+  }
+ },
+ "pålidelig": {
+  "explanation": "\"Pålidelig\" means \"reliable\", someone or something you can count on to do what is expected. It is about dependable performance; troværdig (believable) is more about whether you believe what is said.",
+  "forms": [
+   {
+    "da": "en pålidelig bil",
+    "en": "a reliable car"
+   },
+   {
+    "da": "et pålideligt værktøj",
+    "en": "a reliable tool"
+   },
+   {
+    "da": "pålidelige kilder",
+    "en": "reliable sources"
+   }
+  ],
+  "related": [
+   {
+    "da": "upålidelig",
+    "en": "unreliable"
+   },
+   {
+    "da": "at stole på",
+    "en": "to trust"
+   },
+   {
+    "da": "stabil",
+    "en": "stable"
+   },
+   {
+    "da": "sikker",
+    "en": "secure"
+   }
+  ],
+  "sentence": {
+   "da": "Han er en **pålidelig** kollega, som altid gør, hvad han lover.",
+   "en": "He is a reliable colleague who always does what he promises."
+  }
+ },
  "pålæg": {
   "explanation": "\"Pålæg\" means \"cold cuts\" or \"sandwich toppings\", anything you lay on a slice, such as ham, cheese or liver pâté.",
   "forms": [
@@ -8713,6 +13541,84 @@
   "sentence": {
    "da": "Til **påske** maler børnene æg.",
    "en": "At Easter the children paint eggs."
+  }
+ },
+ "påskedag": {
+  "explanation": "\"En påskedag\" means \"an Easter Sunday\", the main day of Easter. The day after is called 2. påskedag (Easter Monday), and both are public holidays in Denmark.",
+  "forms": [
+   {
+    "da": "en påskedag",
+    "en": "an Easter Sunday"
+   },
+   {
+    "da": "påskedagen",
+    "en": "Easter Sunday"
+   },
+   {
+    "da": "påskedage",
+    "en": "Easter Sundays"
+   },
+   {
+    "da": "påskedagene",
+    "en": "the Easter Sundays"
+   }
+  ],
+  "related": [
+   {
+    "da": "skærtorsdag",
+    "en": "Maundy Thursday"
+   },
+   {
+    "da": "langfredag",
+    "en": "Good Friday"
+   },
+   {
+    "da": "pinse",
+    "en": "Whitsun"
+   }
+  ],
+  "sentence": {
+   "da": "**Påskedag** falder altid på en søndag i marts eller april.",
+   "en": "Easter Sunday always falls on a Sunday in March or April."
+  }
+ },
+ "påtrængende": {
+  "explanation": "\"Påtrængende\" means \"pushy\" or \"pressing\": something that forces itself on you and is hard to ignore. About a person, it means too eager and not leaving you alone. About a need, it means urgent: et påtrængende behov (a pressing need).",
+  "forms": [
+   {
+    "da": "en påtrængende lugt",
+    "en": "an overpowering smell"
+   },
+   {
+    "da": "et påtrængende spørgsmål",
+    "en": "an intrusive question"
+   },
+   {
+    "da": "påtrængende tanker",
+    "en": "pressing thoughts"
+   }
+  ],
+  "related": [
+   {
+    "da": "pågående",
+    "en": "assertive"
+   },
+   {
+    "da": "opdringende",
+    "en": "obtrusive"
+   },
+   {
+    "da": "akut",
+    "en": "acute"
+   },
+   {
+    "da": "tilbageholdende",
+    "en": "reserved"
+   }
+  ],
+  "sentence": {
+   "da": "Sælgeren var **påtrængende** og fulgte efter mig rundt i butikken.",
+   "en": "The salesman was pushy and followed me around the store."
   }
  },
  "pæn": {

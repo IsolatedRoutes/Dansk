@@ -42,6 +42,45 @@
    "en": "Can you hit the target with the ball?"
   }
  },
+ "at ramme plet": {
+  "explanation": "\"At ramme plet\" means \"to hit the mark\", to be exactly right in what you say, guess or describe. Plet normally means \"a spot\", so the picture is hitting the middle of a target: Din beskrivelse ramte plet (Your description hit the mark).",
+  "forms": [
+   {
+    "da": "Du rammer plet",
+    "en": "You hit the mark"
+   },
+   {
+    "da": "Det ramte plet",
+    "en": "That hit the mark"
+   },
+   {
+    "da": "Hun har ramt plet",
+    "en": "She has hit the mark"
+   }
+  ],
+  "related": [
+   {
+    "da": "præcis",
+    "en": "exact"
+   },
+   {
+    "da": "at have ret",
+    "en": "to be right"
+   },
+   {
+    "da": "at gætte rigtigt",
+    "en": "to guess correctly"
+   },
+   {
+    "da": "at skyde ved siden af",
+    "en": "to miss"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **ramme plet** med sit gæt.",
+   "en": "She will hit the mark with her guess."
+  }
+ },
  "at rapportere": {
   "explanation": "\"At rapportere\" means \"to report\", telling someone the facts: Hun rapporterer til chefen (She reports to the boss). It is also used for news: Avisen rapporterer om ulykken (The paper reports on the accident).",
   "forms": [
@@ -85,6 +124,88 @@
    "en": "I have to report to my manager every Monday."
   }
  },
+ "at rasle": {
+  "explanation": "\"At rasle\" means \"to rattle\", to make a short, dry sound, like small hard things knocking together: Nøglerne rasler i lommen (The keys rattle in the pocket). It also fits dry leaves and paper, where English says \"rustle\": Tørre blade rasler i vinden (Dry leaves rustle in the wind).",
+  "forms": [
+   {
+    "da": "at rasle",
+    "en": "to rattle"
+   },
+   {
+    "da": "jeg rasler",
+    "en": "I rattle"
+   },
+   {
+    "da": "jeg raslede",
+    "en": "I rattled"
+   },
+   {
+    "da": "jeg har raslet",
+    "en": "I have rattled"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rangle",
+    "en": "a baby rattle"
+   },
+   {
+    "da": "at klirre",
+    "en": "to clink"
+   },
+   {
+    "da": "at knitre",
+    "en": "to crackle"
+   },
+   {
+    "da": "at rumle",
+    "en": "to rumble"
+   }
+  ],
+  "sentence": {
+   "da": "Mønterne kan **rasle** i dåsen, når jeg ryster den.",
+   "en": "The coins can rattle in the tin when I shake it."
+  }
+ },
+ "at rationalisere": {
+  "explanation": "\"At rationalisere\" means \"to rationalize\". At work it means to make a way of working faster and cheaper by removing steps that waste time. It can also mean to find sensible-sounding reasons for something you did: Han rationaliserer sit valg (He rationalizes his choice).",
+  "forms": [
+   {
+    "da": "at rationalisere",
+    "en": "to rationalize"
+   },
+   {
+    "da": "jeg rationaliserer",
+    "en": "I rationalize"
+   },
+   {
+    "da": "jeg rationaliserede",
+    "en": "I rationalized"
+   },
+   {
+    "da": "jeg har rationaliseret",
+    "en": "I have rationalized"
+   }
+  ],
+  "related": [
+   {
+    "da": "at effektivisere",
+    "en": "to make more efficient"
+   },
+   {
+    "da": "at nedskære",
+    "en": "to cut back"
+   },
+   {
+    "da": "at retfærdiggøre",
+    "en": "to justify"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet vil **rationalisere** produktionen for at spare penge.",
+   "en": "The company wants to rationalize production in order to save money."
+  }
+ },
  "at reagere": {
   "explanation": "\"At reagere\" means \"to react\", meaning what you do or say in response: Hun reagerede hurtigt (She reacted quickly). What you react to comes after på (to): Han reagerer på kritik (He reacts to criticism).",
   "forms": [
@@ -122,6 +243,49 @@
   "sentence": {
    "da": "Jeg ved ikke, hvordan jeg skal **reagere**.",
    "en": "I do not know how I should react."
+  }
+ },
+ "at realisere": {
+  "explanation": "\"At realisere\" means \"to realize\" in the sense of making a plan or dream real. To become aware of something, Danes say at indse (to see that something is so): Jeg indser, at jeg tog fejl (I realize that I was wrong).",
+  "forms": [
+   {
+    "da": "at realisere",
+    "en": "to realize (achieve)"
+   },
+   {
+    "da": "jeg realiserer",
+    "en": "I realize (achieve)"
+   },
+   {
+    "da": "jeg realiserede",
+    "en": "I realized (achieve)"
+   },
+   {
+    "da": "jeg har realiseret",
+    "en": "I have realized (achieve)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gennemføre",
+    "en": "to carry out"
+   },
+   {
+    "da": "at opnå",
+    "en": "to achieve"
+   },
+   {
+    "da": "at virkeliggøre",
+    "en": "to bring to life"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **realisere** sin drøm om at åbne en café.",
+   "en": "She wants to realize her dream of opening a cafe."
   }
  },
  "at redde": {
@@ -249,6 +413,303 @@
    "en": "I want to make the bed when I get up."
   }
  },
+ "at redegøre for": {
+  "explanation": "\"At redegøre for\" means \"to account for\", to set out something fully and in order, such as what happened or why you chose it: redegøre for en beslutning (to account for a decision). Always add for before the thing you set out.",
+  "forms": [
+   {
+    "da": "at redegøre for",
+    "en": "to account for"
+   },
+   {
+    "da": "jeg redegør for",
+    "en": "I account for"
+   },
+   {
+    "da": "jeg redegjorde for",
+    "en": "I accounted for"
+   },
+   {
+    "da": "jeg har redegjort for",
+    "en": "I have accounted for"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "en redegørelse",
+    "en": "a statement"
+   },
+   {
+    "da": "at beskrive",
+    "en": "to describe"
+   },
+   {
+    "da": "at begrunde",
+    "en": "to give reasons for"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **redegøre for** pengene, og chefen vil se kvitteringerne.",
+   "en": "You must account for the money, and the boss wants to see the receipts."
+  }
+ },
+ "at redigere": {
+  "explanation": "\"At redigere\" means \"to edit\", to work on a text, photo, video or file to improve it. The person who decides what goes into a newspaper or a book is en redaktør (an editor).",
+  "forms": [
+   {
+    "da": "at redigere",
+    "en": "to edit"
+   },
+   {
+    "da": "jeg redigerer",
+    "en": "I edit"
+   },
+   {
+    "da": "jeg redigerede",
+    "en": "I edited"
+   },
+   {
+    "da": "jeg har redigeret",
+    "en": "I have edited"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rette",
+    "en": "to correct"
+   },
+   {
+    "da": "at ændre",
+    "en": "to change"
+   },
+   {
+    "da": "at klippe",
+    "en": "to cut (a video)"
+   },
+   {
+    "da": "at skrive om",
+    "en": "to rewrite"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **redigere** videoen, før jeg lægger den på nettet.",
+   "en": "I have to edit the video before I put it online."
+  }
+ },
+ "at reducere": {
+  "explanation": "\"At reducere\" means \"to reduce\", to make an amount, size or price smaller, often by a stated number: Prisen er reduceret med ti procent (The price is reduced by ten percent). On a sign, reduceret pris means a sale price.",
+  "forms": [
+   {
+    "da": "at reducere",
+    "en": "to reduce"
+   },
+   {
+    "da": "jeg reducerer",
+    "en": "I reduce"
+   },
+   {
+    "da": "jeg reducerede",
+    "en": "I reduced"
+   },
+   {
+    "da": "jeg har reduceret",
+    "en": "I have reduced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sænke",
+    "en": "to lower"
+   },
+   {
+    "da": "at mindske",
+    "en": "to decrease"
+   },
+   {
+    "da": "at skære ned",
+    "en": "to cut down"
+   },
+   {
+    "da": "at øge",
+    "en": "to increase"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan **reducere** sit strømforbrug ved at slukke lyset.",
+   "en": "You can reduce your electricity use by turning off the light."
+  }
+ },
+ "at referere": {
+  "explanation": "\"At referere\" means \"to refer\" and \"to report\". With til (to), it points back to something already said or written: Jeg refererer til din mail (I am referring to your email). Without it, it means to retell in short what someone said or wrote: Han refererede artiklen for os (He told us what the article said).",
+  "forms": [
+   {
+    "da": "at referere",
+    "en": "to refer / report"
+   },
+   {
+    "da": "jeg refererer",
+    "en": "I refer / report"
+   },
+   {
+    "da": "jeg refererede",
+    "en": "I referred / reported"
+   },
+   {
+    "da": "jeg har refereret",
+    "en": "I have referred / reported"
+   }
+  ],
+  "related": [
+   {
+    "da": "et referat",
+    "en": "minutes / a summary"
+   },
+   {
+    "da": "at henvise",
+    "en": "to point to"
+   },
+   {
+    "da": "at opsummere",
+    "en": "to sum up"
+   },
+   {
+    "da": "at nævne",
+    "en": "to mention"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal **referere** mødet for dem, der ikke var der.",
+   "en": "She has to report on the meeting for those who were not there."
+  }
+ },
+ "at reflektere": {
+  "explanation": "\"At reflektere\" means \"to reflect\", used for both thought and light. To think deeply about something, add over (on): Jeg reflekterer over mit valg (I am reflecting on my choice). Light bouncing off a surface needs no extra word: Sneen reflekterer lyset (The snow reflects the light).",
+  "forms": [
+   {
+    "da": "at reflektere",
+    "en": "to reflect"
+   },
+   {
+    "da": "jeg reflekterer",
+    "en": "I reflect"
+   },
+   {
+    "da": "jeg reflekterede",
+    "en": "I reflected"
+   },
+   {
+    "da": "jeg har reflekteret",
+    "en": "I have reflected"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tænke over",
+    "en": "to think over"
+   },
+   {
+    "da": "at overveje",
+    "en": "to consider"
+   },
+   {
+    "da": "et spejl",
+    "en": "a mirror"
+   },
+   {
+    "da": "at spejle",
+    "en": "to mirror"
+   }
+  ],
+  "sentence": {
+   "da": "Du bør **reflektere** over, hvad du har lært i dag.",
+   "en": "You should reflect on what you have learned today."
+  }
+ },
+ "at regere": {
+  "explanation": "\"At regere\" means \"to govern\" and \"to rule\", used for a king, a queen or a political party in charge of a country. For a shop or a company, say at drive (to run).",
+  "forms": [
+   {
+    "da": "at regere",
+    "en": "to govern / rule"
+   },
+   {
+    "da": "jeg regerer",
+    "en": "I govern / rule"
+   },
+   {
+    "da": "jeg regerede",
+    "en": "I governed / ruled"
+   },
+   {
+    "da": "jeg har regeret",
+    "en": "I have governed / ruled"
+   }
+  ],
+  "related": [
+   {
+    "da": "at herske",
+    "en": "to reign"
+   },
+   {
+    "da": "at styre",
+    "en": "to control"
+   },
+   {
+    "da": "at lede",
+    "en": "to lead"
+   }
+  ],
+  "sentence": {
+   "da": "Hvilket parti vil **regere** landet efter valget?",
+   "en": "Which party will govern the country after the election?"
+  }
+ },
+ "at registrere": {
+  "explanation": "\"At registrere\" means \"to register\", to write something into an official list or system: Kommunen registrerer alle borgere (The municipality registers all citizens). It also means to notice: Jeg registrerede ikke, at han gik (I did not notice that he left).",
+  "forms": [
+   {
+    "da": "at registrere",
+    "en": "to register"
+   },
+   {
+    "da": "jeg registrerer",
+    "en": "I register"
+   },
+   {
+    "da": "jeg registrerede",
+    "en": "I registered"
+   },
+   {
+    "da": "jeg har registreret",
+    "en": "I have registered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilmelde sig",
+    "en": "to sign up"
+   },
+   {
+    "da": "at notere",
+    "en": "to note down"
+   },
+   {
+    "da": "at opdage",
+    "en": "to spot"
+   },
+   {
+    "da": "at indskrive",
+    "en": "to enroll"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **registrere** din bil, før du må køre i den.",
+   "en": "You have to register your car before you may drive it."
+  }
+ },
  "at regne": {
   "explanation": "\"At regne\" means \"to rain\": Det regner (It is raining). At regne can also mean \"to calculate\": Han regner hurtigt (He calculates quickly).",
   "forms": [
@@ -327,6 +788,45 @@
    "en": "I can count on help from my brother."
   }
  },
+ "at rehabilitere": {
+  "explanation": "\"At rehabilitere\" means \"to rehabilitate\", to help someone get back their health or ability after an injury, an illness or an addiction. It is also used for a person who gets their good name back after being wrongly blamed.",
+  "forms": [
+   {
+    "da": "at rehabilitere",
+    "en": "to rehabilitate"
+   },
+   {
+    "da": "jeg rehabiliterer",
+    "en": "I rehabilitate"
+   },
+   {
+    "da": "jeg rehabiliterede",
+    "en": "I rehabilitated"
+   },
+   {
+    "da": "jeg har rehabiliteret",
+    "en": "I have rehabilitated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at genoptræne",
+    "en": "to retrain (after injury)"
+   },
+   {
+    "da": "at komme sig",
+    "en": "to recover"
+   },
+   {
+    "da": "at helbrede",
+    "en": "to cure"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **rehabilitere** patienten, så han kan gå igen.",
+   "en": "We must rehabilitate the patient so that he can walk again."
+  }
+ },
  "at rejse": {
   "explanation": "\"At rejse\" means \"to travel\" or \"to go away on a trip\": Jeg rejser til Danmark (I am traveling to Denmark). In the I have form, Danish uses er (am) instead of har (have): Jeg er rejst means \"I have left\" or \"I have traveled\".",
   "forms": [
@@ -403,6 +903,88 @@
   "sentence": {
    "da": "Alle skal **rejse sig**, når læreren kommer ind.",
    "en": "Everyone has to stand up when the teacher comes in."
+  }
+ },
+ "at rekruttere": {
+  "explanation": "\"At rekruttere\" means \"to recruit\", to find new people and bring them into a company, a team or the army: Hæren rekrutterer unge mænd og kvinder (The army recruits young men and women).",
+  "forms": [
+   {
+    "da": "at rekruttere",
+    "en": "to recruit"
+   },
+   {
+    "da": "jeg rekrutterer",
+    "en": "I recruit"
+   },
+   {
+    "da": "jeg rekrutterede",
+    "en": "I recruited"
+   },
+   {
+    "da": "jeg har rekrutteret",
+    "en": "I have recruited"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ansætte",
+    "en": "to hire"
+   },
+   {
+    "da": "at afskedige",
+    "en": "to fire"
+   },
+   {
+    "da": "at hverve",
+    "en": "to enlist"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet vil **rekruttere** ti nye medarbejdere i år.",
+   "en": "The company wants to recruit ten new employees this year."
+  }
+ },
+ "at renovere": {
+  "explanation": "\"At renovere\" means \"to renovate\", to repair and freshen up an old house, apartment or room so that it is like new. For a single coat of paint, Danes just say at male (to paint).",
+  "forms": [
+   {
+    "da": "at renovere",
+    "en": "to renovate"
+   },
+   {
+    "da": "jeg renoverer",
+    "en": "I renovate"
+   },
+   {
+    "da": "jeg renoverede",
+    "en": "I renovated"
+   },
+   {
+    "da": "jeg har renoveret",
+    "en": "I have renovated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at istandsætte",
+    "en": "to fix up"
+   },
+   {
+    "da": "at bygge om",
+    "en": "to rebuild"
+   },
+   {
+    "da": "at modernisere",
+    "en": "to modernize"
+   },
+   {
+    "da": "at forny",
+    "en": "to renew"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **renovere** badeværelset, fordi fliserne er gamle.",
+   "en": "We want to renovate the bathroom because the tiles are old."
   }
  },
  "at rense": {
@@ -491,6 +1073,84 @@
    "en": "Can you repair my bike today?"
   }
  },
+ "at repetere": {
+  "explanation": "\"At repetere\" means \"to review\" and \"to revise\", to go over something you have studied before so that it stays in your head. It does not mean to say something again. For that, use at gentage (to repeat).",
+  "forms": [
+   {
+    "da": "at repetere",
+    "en": "to review / revise"
+   },
+   {
+    "da": "jeg repeterer",
+    "en": "I review / revise"
+   },
+   {
+    "da": "jeg repeterede",
+    "en": "I reviewed / revised"
+   },
+   {
+    "da": "jeg har repeteret",
+    "en": "I have reviewed / revised"
+   }
+  ],
+  "related": [
+   {
+    "da": "at øve",
+    "en": "to practice"
+   },
+   {
+    "da": "at huske",
+    "en": "to remember"
+   },
+   {
+    "da": "at lære",
+    "en": "to learn"
+   }
+  ],
+  "sentence": {
+   "da": "Før prøven skal jeg **repetere** alle ordene fra i år.",
+   "en": "Before the test I have to review all the words from this year."
+  }
+ },
+ "at repræsentere": {
+  "explanation": "\"At repræsentere\" means \"to represent\", to speak or act for a group, a country or a company: Hun repræsenterer Danmark ved OL (She represents Denmark at the Olympics). It also means to stand for an idea: Flaget repræsenterer frihed (The flag stands for freedom).",
+  "forms": [
+   {
+    "da": "at repræsentere",
+    "en": "to represent"
+   },
+   {
+    "da": "jeg repræsenterer",
+    "en": "I represent"
+   },
+   {
+    "da": "jeg repræsenterede",
+    "en": "I represented"
+   },
+   {
+    "da": "jeg har repræsenteret",
+    "en": "I have represented"
+   }
+  ],
+  "related": [
+   {
+    "da": "en repræsentant",
+    "en": "a representative"
+   },
+   {
+    "da": "at symbolisere",
+    "en": "to symbolize"
+   },
+   {
+    "da": "en delegeret",
+    "en": "a delegate"
+   }
+  ],
+  "sentence": {
+   "da": "Han skal **repræsentere** hele klassen ved mødet i morgen.",
+   "en": "He is going to represent the whole class at the meeting tomorrow."
+  }
+ },
  "at reservere": {
   "explanation": "\"At reservere\" means \"to reserve\", for a table, a room or a seat: Jeg vil gerne reservere en plads (I would like to reserve a seat). At booke (to book) means nearly the same.",
   "forms": [
@@ -567,6 +1227,127 @@
   "sentence": {
    "da": "Du skal **respektere** andre menneskers valg.",
    "en": "You have to respect other people's choices."
+  }
+ },
+ "at respondere": {
+  "explanation": "\"At respondere\" means \"to respond\", to answer or get back to a message, a request or a signal. In everyday talk, Danes mostly say at svare (to answer). Respondere fits machines and systems well: Appen responderer ikke (The app is not responding).",
+  "forms": [
+   {
+    "da": "at respondere",
+    "en": "to respond"
+   },
+   {
+    "da": "jeg responderer",
+    "en": "I respond"
+   },
+   {
+    "da": "jeg responderede",
+    "en": "I responded"
+   },
+   {
+    "da": "jeg har responderet",
+    "en": "I have responded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at reagere",
+    "en": "to react"
+   },
+   {
+    "da": "at besvare",
+    "en": "to reply to"
+   },
+   {
+    "da": "at kvittere",
+    "en": "to acknowledge"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke **respondere**, før jeg har læst mailen.",
+   "en": "I cannot respond before I have read the email."
+  }
+ },
+ "at restaurere": {
+  "explanation": "\"At restaurere\" means \"to restore\", to put something old back the way it once looked, like a painting, a church or an old car. For a computer file, Danes say at gendanne (to bring back).",
+  "forms": [
+   {
+    "da": "at restaurere",
+    "en": "to restore"
+   },
+   {
+    "da": "jeg restaurerer",
+    "en": "I restore"
+   },
+   {
+    "da": "jeg restaurerede",
+    "en": "I restored"
+   },
+   {
+    "da": "jeg har restaureret",
+    "en": "I have restored"
+   }
+  ],
+  "related": [
+   {
+    "da": "at renovere",
+    "en": "to renovate"
+   },
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   },
+   {
+    "da": "at bevare",
+    "en": "to preserve"
+   }
+  ],
+  "sentence": {
+   "da": "Han bruger mange år på at **restaurere** gamle møbler.",
+   "en": "He spends many years restoring old furniture."
+  }
+ },
+ "at retfærdiggøre": {
+  "explanation": "\"At retfærdiggøre\" means \"to justify\", to show that something is right or reasonable, often an action that people question: Intet kan retfærdiggøre vold (Nothing can justify violence). It is built from retfærdig (fair) and gøre (to make).",
+  "forms": [
+   {
+    "da": "at retfærdiggøre",
+    "en": "to justify"
+   },
+   {
+    "da": "jeg retfærdiggør",
+    "en": "I justify"
+   },
+   {
+    "da": "jeg retfærdiggjorde",
+    "en": "I justified"
+   },
+   {
+    "da": "jeg har retfærdiggjort",
+    "en": "I have justified"
+   }
+  ],
+  "related": [
+   {
+    "da": "en retfærdighed",
+    "en": "justice"
+   },
+   {
+    "da": "at forsvare",
+    "en": "to defend"
+   },
+   {
+    "da": "at begrunde",
+    "en": "to give reasons for"
+   },
+   {
+    "da": "at undskylde",
+    "en": "to excuse"
+   }
+  ],
+  "sentence": {
+   "da": "Han prøver at **retfærdiggøre** sit valg, men ingen tror på ham.",
+   "en": "He tries to justify his choice, but nobody believes him."
   }
  },
  "at rette": {
@@ -983,6 +1764,45 @@
    "en": "You might end up being late."
   }
  },
+ "at riste": {
+  "explanation": "\"At riste\" means \"to toast\" and \"to roast\", to heat food dry until it turns brown and crisp, such as bread, nuts, seeds and coffee beans. Do not mix it up with at ryste (to shake), which looks almost the same.",
+  "forms": [
+   {
+    "da": "at riste",
+    "en": "to toast / roast"
+   },
+   {
+    "da": "jeg rister",
+    "en": "I toast / roast"
+   },
+   {
+    "da": "jeg ristede",
+    "en": "I toasted / roasted"
+   },
+   {
+    "da": "jeg har ristet",
+    "en": "I have toasted / roasted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at stege",
+    "en": "to fry"
+   },
+   {
+    "da": "at bage",
+    "en": "to bake"
+   },
+   {
+    "da": "at grille",
+    "en": "to grill"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **riste** nødderne på en tør pande.",
+   "en": "I want to toast the nuts in a dry pan."
+  }
+ },
  "at rive": {
   "explanation": "\"At rive\" means \"to grate\" food like cheese or carrots on a grater. It also means \"to rake\" leaves together: Han river bladene sammen (He rakes the leaves together).",
   "forms": [
@@ -1145,6 +1965,45 @@
   "sentence": {
    "da": "Vi kan **ro** over søen i en lille båd.",
    "en": "We can row across the lake in a small boat."
+  }
+ },
+ "at rode": {
+  "explanation": "\"At rode\" means \"to rummage\" and \"to mess up\". To rummage is to search through things carelessly: Jeg roder i skuffen efter en pen (I am rummaging in the drawer for a pen). To mess up is to leave a place untidy: Børnene har rodet i stuen (The children have made a mess in the living room).",
+  "forms": [
+   {
+    "da": "at rode",
+    "en": "to rummage / mess up"
+   },
+   {
+    "da": "jeg roder",
+    "en": "I rummage / mess up"
+   },
+   {
+    "da": "jeg rodede",
+    "en": "I rummaged / messed up"
+   },
+   {
+    "da": "jeg har rodet",
+    "en": "I have rummaged / messed up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rydde op",
+    "en": "to tidy up"
+   },
+   {
+    "da": "at lede efter",
+    "en": "to look for"
+   },
+   {
+    "da": "i orden",
+    "en": "in order"
+   }
+  ],
+  "sentence": {
+   "da": "Han må **rode** i tasken for at finde sine nøgler.",
+   "en": "He has to rummage in the bag to find his keys."
   }
  },
  "at rose": {
@@ -1475,6 +2334,84 @@
    "en": "He would like to quit smoking."
   }
  },
+ "at rykke": {
+  "explanation": "\"At rykke\" means \"to move\" and \"to pull\". To move is to shift a short way to a new place: Vi rykker tættere sammen (We move closer together). To pull is to give a quick, hard tug: Hun rykkede i snoren (She tugged the cord).",
+  "forms": [
+   {
+    "da": "at rykke",
+    "en": "to move / pull"
+   },
+   {
+    "da": "jeg rykker",
+    "en": "I move / pull"
+   },
+   {
+    "da": "jeg rykkede",
+    "en": "I moved / pulled"
+   },
+   {
+    "da": "jeg har rykket",
+    "en": "I have moved / pulled"
+   }
+  ],
+  "related": [
+   {
+    "da": "at hive",
+    "en": "to yank"
+   },
+   {
+    "da": "at skubbe",
+    "en": "to push"
+   },
+   {
+    "da": "at flytte",
+    "en": "to relocate"
+   }
+  ],
+  "sentence": {
+   "da": "Kan I **rykke** lidt, så der er plads til mig?",
+   "en": "Can you move over a bit so there is room for me?"
+  }
+ },
+ "at rynke": {
+  "explanation": "\"At rynke\" means \"to wrinkle\", to make small lines in cloth, paper or skin. With the forehead it means to frown: Hun rynkede panden (She frowned).",
+  "forms": [
+   {
+    "da": "at rynke",
+    "en": "to wrinkle / frown"
+   },
+   {
+    "da": "jeg rynker",
+    "en": "I wrinkle / frown"
+   },
+   {
+    "da": "jeg rynkede",
+    "en": "I wrinkled / frowned"
+   },
+   {
+    "da": "jeg har rynket",
+    "en": "I have wrinkled / frowned"
+   }
+  ],
+  "related": [
+   {
+    "da": "at folde",
+    "en": "to fold"
+   },
+   {
+    "da": "at stryge",
+    "en": "to iron"
+   },
+   {
+    "da": "at krølle",
+    "en": "to crumple"
+   }
+  ],
+  "sentence": {
+   "da": "Skjorten vil **rynke**, hvis du propper den ned i kufferten.",
+   "en": "The shirt will wrinkle if you stuff it into the suitcase."
+  }
+ },
  "at ryste": {
   "explanation": "\"At ryste\" means \"to shake\": Jeg ryster af kulde (I am shaking from the cold). You can shake something too, such as a drink: Hun ryster en drink (She shakes a drink).",
   "forms": [
@@ -1518,6 +2455,45 @@
    "en": "You have to shake the bottle before use."
   }
  },
+ "at ryste på hovedet": {
+  "explanation": "\"At ryste på hovedet\" means \"to shake one's head\", a sign of no, or of disbelief or disapproval. To say what caused it, add af (at): Jeg rystede på hovedet af hans svar (I shook my head at his answer).",
+  "forms": [
+   {
+    "da": "at ryste på hovedet",
+    "en": "to shake one's head"
+   },
+   {
+    "da": "jeg ryster på hovedet",
+    "en": "I shake my head"
+   },
+   {
+    "da": "jeg rystede på hovedet",
+    "en": "I shook my head"
+   },
+   {
+    "da": "jeg har rystet på hovedet",
+    "en": "I have shaken my head"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nikke",
+    "en": "to nod"
+   },
+   {
+    "da": "at trække på skuldrene",
+    "en": "to shrug"
+   },
+   {
+    "da": "at afvise",
+    "en": "to turn down"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kunne kun **ryste på hovedet**, da hun hørte prisen.",
+   "en": "She could only shake her head when she heard the price."
+  }
+ },
  "at råbe": {
   "explanation": "\"At råbe\" means \"to shout\": Han råber til mig (He is shouting at me). To call out for something, use på: Jeg råbte på hjælp (I shouted for help).",
   "forms": [
@@ -1559,6 +2535,131 @@
   "sentence": {
    "da": "Du må ikke **råbe** så højt herinde.",
    "en": "You must not shout so loudly in here."
+  }
+ },
+ "at råde over": {
+  "explanation": "\"At råde over\" means \"to have at your disposal\", to own or control something you can use: råde over en bil (to have a car at your disposal). Without over, at råde means \"to advise\": Jeg råder dig til at vente (I advise you to wait).",
+  "forms": [
+   {
+    "da": "at råde over",
+    "en": "to have at one's disposal"
+   },
+   {
+    "da": "jeg råder over",
+    "en": "I have at my disposal"
+   },
+   {
+    "da": "jeg rådede over",
+    "en": "I had at my disposal"
+   },
+   {
+    "da": "jeg har rådet over",
+    "en": "I have had at my disposal"
+   }
+  ],
+  "related": [
+   {
+    "da": "at have til rådighed",
+    "en": "to have available"
+   },
+   {
+    "da": "at besidde",
+    "en": "to possess"
+   },
+   {
+    "da": "at benytte",
+    "en": "to make use of"
+   },
+   {
+    "da": "at have adgang til",
+    "en": "to have access to"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen kan **råde over** en stor sal til festen.",
+   "en": "The school can have a big hall at its disposal for the party."
+  }
+ },
+ "at rådføre sig": {
+  "explanation": "\"At rådføre sig\" means \"to consult\", to ask an expert or someone experienced for advice before you decide. The other person comes after med, and sig changes with the person: Jeg rådfører mig med lægen (I consult the doctor).",
+  "forms": [
+   {
+    "da": "at rådføre sig",
+    "en": "to consult"
+   },
+   {
+    "da": "jeg rådfører mig",
+    "en": "I consult"
+   },
+   {
+    "da": "jeg rådførte mig",
+    "en": "I consulted"
+   },
+   {
+    "da": "jeg har rådført mig",
+    "en": "I have consulted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at råde",
+    "en": "to advise"
+   },
+   {
+    "da": "en rådgiver",
+    "en": "a counselor"
+   },
+   {
+    "da": "at spørge til råds",
+    "en": "to ask for counsel"
+   },
+   {
+    "da": "en konsulent",
+    "en": "a consultant"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **rådføre sig** med en advokat og læse kontrakten først.",
+   "en": "She will consult a lawyer and read the contract first."
+  }
+ },
+ "at rådne": {
+  "explanation": "\"At rådne\" means \"to rot\", to slowly break down and go bad, like fruit left out too long or leaves on the ground. Milk is different: it bliver sur (turns sour).",
+  "forms": [
+   {
+    "da": "at rådne",
+    "en": "to rot"
+   },
+   {
+    "da": "det rådner",
+    "en": "it rots"
+   },
+   {
+    "da": "det rådnede",
+    "en": "it rotted"
+   },
+   {
+    "da": "det er rådnet",
+    "en": "it has rotted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fordærve",
+    "en": "to spoil"
+   },
+   {
+    "da": "rådden",
+    "en": "rotten"
+   },
+   {
+    "da": "at konservere",
+    "en": "to preserve"
+   }
+  ],
+  "sentence": {
+   "da": "Træet vil **rådne**, hvis det står ude i regnen hele vinteren.",
+   "en": "The wood will rot if it stands outside in the rain all winter."
   }
  },
  "at række": {
@@ -1639,6 +2740,45 @@
    "en": "She will raise her hand when she knows the answer."
   }
  },
+ "at rødme": {
+  "explanation": "\"At rødme\" means \"to blush\", when your face turns red from a strong feeling such as shyness or embarrassment, often after praise or a slip in front of others. Being rød i hovedet (red in the face) can also come from effort or anger, but rødme is mostly about shyness and embarrassment.",
+  "forms": [
+   {
+    "da": "at rødme",
+    "en": "to blush"
+   },
+   {
+    "da": "jeg rødmer",
+    "en": "I blush"
+   },
+   {
+    "da": "jeg rødmede",
+    "en": "I blushed"
+   },
+   {
+    "da": "jeg har rødmet",
+    "en": "I have blushed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skamme sig",
+    "en": "to be ashamed"
+   },
+   {
+    "da": "at blegne",
+    "en": "to turn pale"
+   },
+   {
+    "da": "forlegen",
+    "en": "awkward"
+   }
+  ],
+  "sentence": {
+   "da": "Han plejer at **rødme**, når nogen roser ham foran andre.",
+   "en": "He usually blushes when someone praises him in front of others."
+  }
+ },
  "at røre": {
   "explanation": "\"At røre\" means \"to touch\", and also \"to stir\": Rør i suppen (Stir the soup). To touch something, add ved: Du må ikke røre ved den (You must not touch it).",
   "forms": [
@@ -1717,6 +2857,45 @@
    "en": "You have to stir the pot all the time."
   }
  },
+ "at røve": {
+  "explanation": "\"At røve\" means \"to rob\", to take things from a person or place by force or threat. When nobody is threatened, use at stjæle (to steal).",
+  "forms": [
+   {
+    "da": "at røve",
+    "en": "to rob"
+   },
+   {
+    "da": "jeg røver",
+    "en": "I rob"
+   },
+   {
+    "da": "jeg røvede",
+    "en": "I robbed"
+   },
+   {
+    "da": "jeg har røvet",
+    "en": "I have robbed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rane",
+    "en": "to hold up"
+   },
+   {
+    "da": "en røver",
+    "en": "a robber"
+   },
+   {
+    "da": "et røveri",
+    "en": "a robbery"
+   }
+  ],
+  "sentence": {
+   "da": "Tre mænd prøvede at **røve** banken, men blev fanget.",
+   "en": "Three men tried to rob the bank but were caught."
+  }
+ },
  "en rabat": {
   "explanation": "\"En rabat\" means \"a discount\", an amount taken off the price. You can ask Kan jeg få rabat? (Can I get a discount?), with no en in front of rabat.",
   "forms": [
@@ -1754,6 +2933,49 @@
   "sentence": {
    "da": "Butikken giver mig **rabat** på en jakke.",
    "en": "The shop gives me a discount on a jacket."
+  }
+ },
+ "en race": {
+  "explanation": "\"En race\" means \"a breed\", a type of animal with its own looks, such as en hunderace (a dog breed). A running race is et løb, not en race.",
+  "forms": [
+   {
+    "da": "en race",
+    "en": "a breed"
+   },
+   {
+    "da": "racen",
+    "en": "the breed"
+   },
+   {
+    "da": "racer",
+    "en": "breeds"
+   },
+   {
+    "da": "racerne",
+    "en": "the breeds"
+   }
+  ],
+  "related": [
+   {
+    "da": "en art",
+    "en": "a species"
+   },
+   {
+    "da": "en krydsning",
+    "en": "a crossbreed"
+   },
+   {
+    "da": "en stamtavle",
+    "en": "a pedigree"
+   },
+   {
+    "da": "en opdrætter",
+    "en": "a breeder"
+   }
+  ],
+  "sentence": {
+   "da": "Labrador er en **race**, som mange bruger som førerhund.",
+   "en": "Labrador is a breed that many use as a guide dog."
   }
  },
  "en radar": {
@@ -1920,6 +3142,178 @@
    "en": "In a radio news broadcast you hear the news."
   }
  },
+ "en radius": {
+  "explanation": "\"En radius\" means \"a radius\", the distance from the middle of a circle to its edge. It is also used for the space around a place: Alle butikker inden for en radius af to kilometer (All shops within a radius of two kilometers).",
+  "forms": [
+   {
+    "da": "en radius",
+    "en": "a radius"
+   },
+   {
+    "da": "radiussen",
+    "en": "the radius"
+   },
+   {
+    "da": "radier",
+    "en": "radii"
+   },
+   {
+    "da": "radierne",
+    "en": "the radii"
+   }
+  ],
+  "related": [
+   {
+    "da": "en diameter",
+    "en": "a diameter"
+   },
+   {
+    "da": "en omkreds",
+    "en": "a circumference"
+   },
+   {
+    "da": "et areal",
+    "en": "an area"
+   },
+   {
+    "da": "en kugle",
+    "en": "a sphere"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis **radius** er fem centimeter, er cirklen ti centimeter bred.",
+   "en": "If the radius is five centimeters, the circle is ten centimeters wide."
+  }
+ },
+ "en raket": {
+  "explanation": "\"En raket\" means \"a rocket\", a tube-shaped vehicle that flies into space, or a firework you shoot into the sky.",
+  "forms": [
+   {
+    "da": "en raket",
+    "en": "a rocket"
+   },
+   {
+    "da": "raketten",
+    "en": "the rocket"
+   },
+   {
+    "da": "raketter",
+    "en": "rockets"
+   },
+   {
+    "da": "raketterne",
+    "en": "the rockets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rumfærge",
+    "en": "a space shuttle"
+   },
+   {
+    "da": "en satellit",
+    "en": "a satellite"
+   },
+   {
+    "da": "et missil",
+    "en": "a missile"
+   },
+   {
+    "da": "et rumskib",
+    "en": "a spaceship"
+   }
+  ],
+  "sentence": {
+   "da": "En **raket** bruger brændstof til at flyve helt op i rummet.",
+   "en": "A rocket uses fuel to fly all the way up into space."
+  }
+ },
+ "en rang": {
+  "explanation": "\"En rang\" means \"a rank\", a person's level in a system with many levels, such as the army. A person high up is called af høj rang (of high rank).",
+  "forms": [
+   {
+    "da": "en rang",
+    "en": "a rank"
+   },
+   {
+    "da": "rangen",
+    "en": "the rank"
+   },
+   {
+    "da": "ranger",
+    "en": "ranks"
+   },
+   {
+    "da": "rangerne",
+    "en": "the ranks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en titel",
+    "en": "a title"
+   },
+   {
+    "da": "en rangorden",
+    "en": "an order of rank"
+   },
+   {
+    "da": "en officer",
+    "en": "an officer"
+   },
+   {
+    "da": "en general",
+    "en": "a general"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaten fik en højere **rang**, efter at han havde reddet holdet.",
+   "en": "The soldier got a higher rank after he had saved the team."
+  }
+ },
+ "en rangorden": {
+  "explanation": "\"En rangorden\" means \"a ranking\", a fixed ladder of who or what stands higher and lower, in status or importance. It is often used about a social group where everyone knows who is above whom.",
+  "forms": [
+   {
+    "da": "en rangorden",
+    "en": "a ranking"
+   },
+   {
+    "da": "rangordenen",
+    "en": "the ranking"
+   },
+   {
+    "da": "rangordener",
+    "en": "rankings"
+   },
+   {
+    "da": "rangordenerne",
+    "en": "the rankings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pikorden",
+    "en": "a pecking order"
+   },
+   {
+    "da": "et hierarki",
+    "en": "a hierarchy"
+   },
+   {
+    "da": "en rækkefølge",
+    "en": "a sequence"
+   },
+   {
+    "da": "en placering",
+    "en": "a placement"
+   }
+  ],
+  "sentence": {
+   "da": "Hos hønsene er der en fast **rangorden**.",
+   "en": "Among the hens there is a fixed ranking."
+  }
+ },
  "en rapport": {
   "explanation": "\"En rapport\" means \"a report\", a written document about work or results.",
   "forms": [
@@ -2084,6 +3478,303 @@
    "en": "The hotel has a front desk, and it is open all night."
   }
  },
+ "en receptionist": {
+  "explanation": "\"En receptionist\" means \"a receptionist\", the person at the entrance of a hotel or office who welcomes people and answers the phone.",
+  "forms": [
+   {
+    "da": "en receptionist",
+    "en": "a receptionist"
+   },
+   {
+    "da": "receptionisten",
+    "en": "the receptionist"
+   },
+   {
+    "da": "receptionister",
+    "en": "receptionists"
+   },
+   {
+    "da": "receptionisterne",
+    "en": "the receptionists"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reception",
+    "en": "a front desk"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "en sekretær",
+    "en": "a secretary"
+   },
+   {
+    "da": "en telefonist",
+    "en": "a switchboard operator"
+   }
+  ],
+  "sentence": {
+   "da": "På hotellet hjælper en **receptionist** gæsterne med at tjekke ind.",
+   "en": "At the hotel a receptionist helps the guests check in."
+  }
+ },
+ "en recession": {
+  "explanation": "\"En recession\" means \"a recession\", a time when a country's economy shrinks for some months in a row and companies earn less.",
+  "forms": [
+   {
+    "da": "en recession",
+    "en": "a recession"
+   },
+   {
+    "da": "recessionen",
+    "en": "the recession"
+   },
+   {
+    "da": "recessioner",
+    "en": "recessions"
+   },
+   {
+    "da": "recessionerne",
+    "en": "the recessions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en krise",
+    "en": "a crisis"
+   },
+   {
+    "da": "en højkonjunktur",
+    "en": "an economic boom"
+   },
+   {
+    "da": "en lavkonjunktur",
+    "en": "a downturn"
+   },
+   {
+    "da": "arbejdsløshed",
+    "en": "unemployment"
+   }
+  ],
+  "sentence": {
+   "da": "Under en **recession** køber folk mindre, så flere firmaer lukker.",
+   "en": "During a recession people buy less, so more firms close."
+  }
+ },
+ "en redaktion": {
+  "explanation": "\"En redaktion\" means \"an editorial office\", the place and the team where articles and news shows are put together. It can also mean just the staff who decide what gets published.",
+  "forms": [
+   {
+    "da": "en redaktion",
+    "en": "an editorial office"
+   },
+   {
+    "da": "redaktionen",
+    "en": "the editorial office"
+   },
+   {
+    "da": "redaktioner",
+    "en": "editorial offices"
+   },
+   {
+    "da": "redaktionerne",
+    "en": "the editorial offices"
+   }
+  ],
+  "related": [
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en avis",
+    "en": "a newspaper"
+   },
+   {
+    "da": "et tidsskrift",
+    "en": "a magazine"
+   },
+   {
+    "da": "en udgiver",
+    "en": "a publisher"
+   }
+  ],
+  "sentence": {
+   "da": "På en **redaktion** skriver og vælger man nyheder til avisen.",
+   "en": "At an editorial office, people write and choose the news for the paper."
+  }
+ },
+ "en redaktør": {
+  "explanation": "\"En redaktør\" means \"an editor\", the person who decides what is published and checks the texts before they go out. Many newspapers and magazines have one in charge: en chefredaktør (an editor in chief).",
+  "forms": [
+   {
+    "da": "en redaktør",
+    "en": "an editor"
+   },
+   {
+    "da": "redaktøren",
+    "en": "the editor"
+   },
+   {
+    "da": "redaktører",
+    "en": "editors"
+   },
+   {
+    "da": "redaktørerne",
+    "en": "the editors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en redaktion",
+    "en": "an editorial office"
+   },
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   },
+   {
+    "da": "en korrekturlæser",
+    "en": "a proofreader"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **redaktør** og læser alle artikler, før de udkommer.",
+   "en": "She is an editor and reads all articles before they come out."
+  }
+ },
+ "en rede": {
+  "explanation": "\"En rede\" means \"a nest\", the home a bird builds to raise its young. Some insects and other animals make one too.",
+  "forms": [
+   {
+    "da": "en rede",
+    "en": "a nest"
+   },
+   {
+    "da": "reden",
+    "en": "the nest"
+   },
+   {
+    "da": "reder",
+    "en": "nests"
+   },
+   {
+    "da": "rederne",
+    "en": "the nests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fuglerede",
+    "en": "a bird's nest"
+   },
+   {
+    "da": "et bo",
+    "en": "a den"
+   },
+   {
+    "da": "et hi",
+    "en": "a lair"
+   },
+   {
+    "da": "en unge",
+    "en": "a chick"
+   }
+  ],
+  "sentence": {
+   "da": "Fuglen har lagt tre æg i sin **rede**.",
+   "en": "The bird has laid three eggs in its nest."
+  }
+ },
+ "en redegørelse": {
+  "explanation": "\"En redegørelse\" means \"an account\" or \"a report\", a clear and detailed statement of what happened or how things stand. It is often official or written. It belongs to at redegøre for (to account for).",
+  "forms": [
+   {
+    "da": "en redegørelse",
+    "en": "an account / report"
+   },
+   {
+    "da": "redegørelsen",
+    "en": "the account / report"
+   },
+   {
+    "da": "redegørelser",
+    "en": "accounts / reports"
+   },
+   {
+    "da": "redegørelserne",
+    "en": "the accounts / reports"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forklaring",
+    "en": "an explanation"
+   },
+   {
+    "da": "en beretning",
+    "en": "a narrative"
+   },
+   {
+    "da": "en beskrivelse",
+    "en": "a description"
+   },
+   {
+    "da": "en oversigt",
+    "en": "an overview"
+   }
+  ],
+  "sentence": {
+   "da": "Direktøren skrev en **redegørelse** om ulykken.",
+   "en": "The director wrote a report about the accident."
+  }
+ },
+ "en redning": {
+  "explanation": "\"En redning\" means \"a rescue\", when someone is brought out of danger. It also works for a lucky break: Det var redningen! (That was just what we needed!)",
+  "forms": [
+   {
+    "da": "en redning",
+    "en": "a rescue"
+   },
+   {
+    "da": "redningen",
+    "en": "the rescue"
+   },
+   {
+    "da": "redninger",
+    "en": "rescues"
+   },
+   {
+    "da": "redningerne",
+    "en": "the rescues"
+   }
+  ],
+  "related": [
+   {
+    "da": "at redde",
+    "en": "to save"
+   },
+   {
+    "da": "en redningsvest",
+    "en": "a life jacket"
+   },
+   {
+    "da": "en redningsbåd",
+    "en": "a lifeboat"
+   }
+  ],
+  "sentence": {
+   "da": "Politiets **redning** af drengen fra isen tog en time.",
+   "en": "The police's rescue of the boy from the ice took an hour."
+  }
+ },
  "en redningskrans": {
   "explanation": "\"En redningskrans\" means \"a lifebuoy\", a ring that floats and is thrown to someone in the water. It is built from en krans (a ring) and redning (rescue). Krans also means a wreath, as in en julekrans (a Christmas wreath).",
   "forms": [
@@ -2164,6 +3855,49 @@
   "sentence": {
    "da": "Alle børn skal have **redningsvest** på i båden.",
    "en": "All children must wear a life jacket in the boat."
+  }
+ },
+ "en reform": {
+  "explanation": "\"En reform\" means \"a reform\", a big change to how a part of society is run, decided by politicians: en skolereform (a school reform).",
+  "forms": [
+   {
+    "da": "en reform",
+    "en": "a reform"
+   },
+   {
+    "da": "reformen",
+    "en": "the reform"
+   },
+   {
+    "da": "reformer",
+    "en": "reforms"
+   },
+   {
+    "da": "reformerne",
+    "en": "the reforms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forbedring",
+    "en": "an improvement"
+   },
+   {
+    "da": "en lov",
+    "en": "a law"
+   },
+   {
+    "da": "en revolution",
+    "en": "a revolution"
+   },
+   {
+    "da": "en omlægning",
+    "en": "a restructuring"
+   }
+  ],
+  "sentence": {
+   "da": "Politikerne vil gøre skolen bedre med en stor **reform**.",
+   "en": "The politicians want to make school better with a big reform."
   }
  },
  "en regel": {
@@ -2533,6 +4267,49 @@
    "en": "It is raining today, and it is a real rainy day."
   }
  },
+ "en regulering": {
+  "explanation": "\"En regulering\" means \"a regulation\" and \"an adjustment\". It can be the act of setting something to the right level, like en regulering af varmen (an adjustment of the heat), or official limits set by the authorities for an area.",
+  "forms": [
+   {
+    "da": "en regulering",
+    "en": "a regulation / adjustment"
+   },
+   {
+    "da": "reguleringen",
+    "en": "the regulation / adjustment"
+   },
+   {
+    "da": "reguleringer",
+    "en": "regulations / adjustments"
+   },
+   {
+    "da": "reguleringerne",
+    "en": "the regulations / adjustments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "en lov",
+    "en": "a law"
+   },
+   {
+    "da": "en bestemmelse",
+    "en": "a provision"
+   },
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   }
+  ],
+  "sentence": {
+   "da": "Staten har indført en **regulering** af huslejen.",
+   "en": "The state has introduced a regulation of rents."
+  }
+ },
  "en reje": {
   "explanation": "\"En reje\" means \"a shrimp\", also called a prawn. Rejemad (shrimp on bread) is made of reje (shrimp) and mad (food).",
   "forms": [
@@ -2570,6 +4347,49 @@
   "sentence": {
    "da": "En **reje** er et lille dyr i havet.",
    "en": "A shrimp is a small animal in the sea."
+  }
+ },
+ "en rejemad": {
+  "explanation": "\"En rejemad\" means \"a shrimp open sandwich\", a Danish lunch classic eaten with a knife and fork. Mad alone means food, but in a word like this it is a slice of bread with a topping.",
+  "forms": [
+   {
+    "da": "en rejemad",
+    "en": "a shrimp open sandwich"
+   },
+   {
+    "da": "rejemaden",
+    "en": "the shrimp open sandwich"
+   },
+   {
+    "da": "rejemadder",
+    "en": "shrimp open sandwiches"
+   },
+   {
+    "da": "rejemadderne",
+    "en": "the shrimp open sandwiches"
+   }
+  ],
+  "related": [
+   {
+    "da": "et smørrebrød",
+    "en": "an open-faced sandwich"
+   },
+   {
+    "da": "en ostemad",
+    "en": "a cheese sandwich"
+   },
+   {
+    "da": "en leverpostejmad",
+    "en": "a liver pâté sandwich"
+   },
+   {
+    "da": "en æggemad",
+    "en": "an egg sandwich"
+   }
+  ],
+  "sentence": {
+   "da": "En **rejemad** er brød med rejer, mayonnaise og citron.",
+   "en": "A shrimp open sandwich is bread with shrimp, mayonnaise and lemon."
   }
  },
  "en rejse": {
@@ -2732,6 +4552,49 @@
    "en": "My itinerary shows the hotel and the flight."
   }
  },
+ "en reklamation": {
+  "explanation": "\"En reklamation\" means \"a complaint (faulty item)\", when you tell a shop that something you bought is not as it should be. The matching action is at reklamere (to make a claim).",
+  "forms": [
+   {
+    "da": "en reklamation",
+    "en": "a complaint (faulty item)"
+   },
+   {
+    "da": "reklamationen",
+    "en": "the complaint (faulty item)"
+   },
+   {
+    "da": "reklamationer",
+    "en": "complaints (faulty items)"
+   },
+   {
+    "da": "reklamationerne",
+    "en": "the complaints (faulty items)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en garanti",
+    "en": "a warranty"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "en mangel",
+    "en": "a defect"
+   },
+   {
+    "da": "en returnering",
+    "en": "a return"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skriver en **reklamation**, fordi telefonen er gået i stykker.",
+   "en": "I am writing a complaint because the phone has broken."
+  }
+ },
  "en reklame": {
   "explanation": "\"En reklame\" means \"an advertisement\" and also \"a commercial\" on TV. To advertise is at reklamere.",
   "forms": [
@@ -2814,6 +4677,135 @@
    "en": "She set a new record in swimming yesterday."
   }
  },
+ "en rektor": {
+  "explanation": "\"En rektor\" means \"a principal\", the head of a school. At a university the head is called rektor too.",
+  "forms": [
+   {
+    "da": "en rektor",
+    "en": "a principal"
+   },
+   {
+    "da": "rektoren",
+    "en": "the principal"
+   },
+   {
+    "da": "rektorer",
+    "en": "principals"
+   },
+   {
+    "da": "rektorerne",
+    "en": "the principals"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "en skoleleder",
+    "en": "a school leader"
+   },
+   {
+    "da": "en direktør",
+    "en": "a director"
+   },
+   {
+    "da": "en inspektør",
+    "en": "a vice principal"
+   }
+  ],
+  "sentence": {
+   "da": "Skolens **rektor** er chef for alle lærerne.",
+   "en": "The school's principal is the boss of all the teachers."
+  }
+ },
+ "en religion": {
+  "explanation": "\"En religion\" means \"a religion\", a set of beliefs about God or the meaning of life, with its own customs and holy places.",
+  "forms": [
+   {
+    "da": "en religion",
+    "en": "a religion"
+   },
+   {
+    "da": "religionen",
+    "en": "the religion"
+   },
+   {
+    "da": "religioner",
+    "en": "religions"
+   },
+   {
+    "da": "religionerne",
+    "en": "the religions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tro",
+    "en": "a faith"
+   },
+   {
+    "da": "en trosretning",
+    "en": "a denomination"
+   },
+   {
+    "da": "religiøs",
+    "en": "religious"
+   },
+   {
+    "da": "en livsanskuelse",
+    "en": "a worldview"
+   }
+  ],
+  "sentence": {
+   "da": "Kristendom er en **religion**, og islam er en anden.",
+   "en": "Christianity is a religion, and Islam is another."
+  }
+ },
+ "en ren": {
+  "explanation": "\"En ren\" means \"a reindeer\". Without en, the same spelling ren is the word for clean, so the en tells you which one it is.",
+  "forms": [
+   {
+    "da": "en ren",
+    "en": "a reindeer"
+   },
+   {
+    "da": "renen",
+    "en": "the reindeer"
+   },
+   {
+    "da": "rener",
+    "en": "reindeer"
+   },
+   {
+    "da": "renerne",
+    "en": "the reindeer"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjort",
+    "en": "a deer"
+   },
+   {
+    "da": "en elg",
+    "en": "a moose"
+   },
+   {
+    "da": "en kronhjort",
+    "en": "a red deer"
+   },
+   {
+    "da": "et dådyr",
+    "en": "a fallow deer"
+   }
+  ],
+  "sentence": {
+   "da": "En **ren** har store gevirer og lever i det kolde nord.",
+   "en": "A reindeer has big antlers and lives in the cold north."
+  }
+ },
  "en rengøring": {
   "explanation": "\"En rengøring\" means \"a cleaning\". Without en, rengøring is the general word for housecleaning: Rengøring tager lang tid (Cleaning takes a long time). It is built from at gøre rent (to clean).",
   "forms": [
@@ -2855,6 +4847,178 @@
   "sentence": {
    "da": "Jeg hader **rengøring**, men huset skal være rent.",
    "en": "I hate cleaning, but the house has to be clean."
+  }
+ },
+ "en rengøringsassistent": {
+  "explanation": "\"En rengøringsassistent\" means \"a cleaner\", someone whose job is keeping offices, schools and homes spotless. It is the usual job title, built from rengøring (cleaning) and assistent (assistant).",
+  "forms": [
+   {
+    "da": "en rengøringsassistent",
+    "en": "a cleaner"
+   },
+   {
+    "da": "rengøringsassistenten",
+    "en": "the cleaner"
+   },
+   {
+    "da": "rengøringsassistenter",
+    "en": "cleaners"
+   },
+   {
+    "da": "rengøringsassistenterne",
+    "en": "the cleaners"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vicevært",
+    "en": "a caretaker"
+   },
+   {
+    "da": "en pedel",
+    "en": "a school caretaker"
+   },
+   {
+    "da": "en vinduespudser",
+    "en": "a window cleaner"
+   },
+   {
+    "da": "en rengøringsdame",
+    "en": "a cleaning lady"
+   }
+  ],
+  "sentence": {
+   "da": "En **rengøringsassistent** gør kontorerne rene hver aften.",
+   "en": "A cleaner makes the offices clean every evening."
+  }
+ },
+ "en renovering": {
+  "explanation": "\"En renovering\" means \"a renovation\", when an old building or room is repaired and made modern again, for example the kitchen or the roof. It is not used for a newly built house.",
+  "forms": [
+   {
+    "da": "en renovering",
+    "en": "a renovation"
+   },
+   {
+    "da": "renoveringen",
+    "en": "the renovation"
+   },
+   {
+    "da": "renoveringer",
+    "en": "renovations"
+   },
+   {
+    "da": "renoveringerne",
+    "en": "the renovations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at renovere",
+    "en": "to renovate"
+   },
+   {
+    "da": "en ombygning",
+    "en": "a conversion"
+   },
+   {
+    "da": "en istandsættelse",
+    "en": "a refurbishment"
+   },
+   {
+    "da": "en nybygning",
+    "en": "a new building"
+   }
+  ],
+  "sentence": {
+   "da": "Huset fik nyt tag og nye vinduer ved en **renovering**.",
+   "en": "The house got a new roof and new windows in a renovation."
+  }
+ },
+ "en rente": {
+  "explanation": "\"En rente\" means \"an interest rate\", the percentage you pay for borrowing money or get for saving it. The word also covers plain interest: at betale rente (to pay interest).",
+  "forms": [
+   {
+    "da": "en rente",
+    "en": "an interest rate"
+   },
+   {
+    "da": "renten",
+    "en": "the interest rate"
+   },
+   {
+    "da": "renter",
+    "en": "interest rates"
+   },
+   {
+    "da": "renterne",
+    "en": "the interest rates"
+   }
+  ],
+  "related": [
+   {
+    "da": "et lån",
+    "en": "a loan"
+   },
+   {
+    "da": "en opsparing",
+    "en": "savings"
+   },
+   {
+    "da": "en rentestigning",
+    "en": "a rate rise"
+   },
+   {
+    "da": "et boliglån",
+    "en": "a mortgage"
+   }
+  ],
+  "sentence": {
+   "da": "Banken tager en høj **rente**, når man låner penge.",
+   "en": "The bank charges a high interest rate when you borrow money."
+  }
+ },
+ "en rentestigning": {
+  "explanation": "\"En rentestigning\" means \"an interest rate rise\", when borrowing gets more expensive because the rate goes up. It is built from rente (interest) and stigning (a rise), the same pattern as en prisstigning (a price rise).",
+  "forms": [
+   {
+    "da": "en rentestigning",
+    "en": "an interest rate rise"
+   },
+   {
+    "da": "rentestigningen",
+    "en": "the interest rate rise"
+   },
+   {
+    "da": "rentestigninger",
+    "en": "interest rate rises"
+   },
+   {
+    "da": "rentestigningerne",
+    "en": "the interest rate rises"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rentefald",
+    "en": "a rate drop"
+   },
+   {
+    "da": "en rentenedsættelse",
+    "en": "an interest rate cut"
+   },
+   {
+    "da": "en lønstigning",
+    "en": "a pay raise"
+   },
+   {
+    "da": "en forhøjelse",
+    "en": "an increase"
+   }
+  ],
+  "sentence": {
+   "da": "En **rentestigning** gør det dyrere at betale sit lån tilbage.",
+   "en": "An interest rate rise makes it more expensive to pay your loan back."
   }
  },
  "en reol": {
@@ -2943,6 +5107,92 @@
    "en": "The roof needs a repair."
   }
  },
+ "en replik": {
+  "explanation": "\"En replik\" means \"a line\" that an actor speaks in a play or film, and also \"a retort\", a quick, often sharp comeback in a conversation.",
+  "forms": [
+   {
+    "da": "en replik",
+    "en": "a line / retort"
+   },
+   {
+    "da": "replikken",
+    "en": "the line / retort"
+   },
+   {
+    "da": "replikker",
+    "en": "lines / retorts"
+   },
+   {
+    "da": "replikkerne",
+    "en": "the lines / retorts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et manuskript",
+    "en": "a script"
+   },
+   {
+    "da": "en dialog",
+    "en": "a dialogue"
+   },
+   {
+    "da": "en rolle",
+    "en": "a role"
+   },
+   {
+    "da": "et svar",
+    "en": "an answer"
+   }
+  ],
+  "sentence": {
+   "da": "På scenen skal skuespilleren huske sin **replik**.",
+   "en": "On stage, the actor has to remember his line."
+  }
+ },
+ "en repræsentant": {
+  "explanation": "\"En repræsentant\" means \"a representative\", someone who speaks or acts for a group, a company or a country. It is often used with for: en repræsentant for firmaet (a representative of the company).",
+  "forms": [
+   {
+    "da": "en repræsentant",
+    "en": "a representative"
+   },
+   {
+    "da": "repræsentanten",
+    "en": "the representative"
+   },
+   {
+    "da": "repræsentanter",
+    "en": "representatives"
+   },
+   {
+    "da": "repræsentanterne",
+    "en": "the representatives"
+   }
+  ],
+  "related": [
+   {
+    "da": "en talsmand",
+    "en": "a spokesperson"
+   },
+   {
+    "da": "en delegeret",
+    "en": "a delegate"
+   },
+   {
+    "da": "en stedfortræder",
+    "en": "a deputy"
+   },
+   {
+    "da": "en ambassadør",
+    "en": "an ambassador"
+   }
+  ],
+  "sentence": {
+   "da": "Hver klasse vælger en **repræsentant** til elevrådet.",
+   "en": "Each class chooses a representative for the student council."
+  }
+ },
  "en reservation": {
   "explanation": "\"En reservation\" means \"a reservation\", for example for a table, a train seat or a hotel room. To book a table, say at bestille bord (to book a table).",
   "forms": [
@@ -3021,6 +5271,49 @@
    "en": "When the bike breaks, I have to buy a spare part."
   }
  },
+ "en ressource": {
+  "explanation": "\"En ressource\" means \"a resource\", something useful you can draw on, such as money, time, people or energy. The plural is common: naturlige ressourcer (natural resources).",
+  "forms": [
+   {
+    "da": "en ressource",
+    "en": "a resource"
+   },
+   {
+    "da": "ressourcen",
+    "en": "the resource"
+   },
+   {
+    "da": "ressourcer",
+    "en": "resources"
+   },
+   {
+    "da": "ressourcerne",
+    "en": "the resources"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kilde",
+    "en": "a source"
+   },
+   {
+    "da": "en reserve",
+    "en": "a reserve"
+   },
+   {
+    "da": "et råstof",
+    "en": "a raw material"
+   },
+   {
+    "da": "et forråd",
+    "en": "a supply"
+   }
+  ],
+  "sentence": {
+   "da": "Vand er en vigtig **ressource**, som vi skal passe på.",
+   "en": "Water is an important resource that we must take care of."
+  }
+ },
  "en rest": {
   "explanation": "\"En rest\" means \"a remainder\" or \"a leftover\". It does not mean resting. To rest, say at hvile sig (to rest).",
   "forms": [
@@ -3097,6 +5390,45 @@
   "sentence": {
    "da": "Vi spiser på **restaurant** i aften.",
    "en": "We are eating at a restaurant tonight."
+  }
+ },
+ "en restaurantgæst": {
+  "explanation": "\"En restaurantgæst\" means \"a restaurant guest\", a person who eats at a restaurant. The part gæst (guest) works in other words too: en hotelgæst (a hotel guest).",
+  "forms": [
+   {
+    "da": "en restaurantgæst",
+    "en": "a restaurant guest"
+   },
+   {
+    "da": "restaurantgæsten",
+    "en": "the restaurant guest"
+   },
+   {
+    "da": "restaurantgæster",
+    "en": "restaurant guests"
+   },
+   {
+    "da": "restaurantgæsterne",
+    "en": "the restaurant guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tjener",
+    "en": "a waiter"
+   },
+   {
+    "da": "en kunde",
+    "en": "a customer"
+   },
+   {
+    "da": "en vært",
+    "en": "a host"
+   }
+  ],
+  "sentence": {
+   "da": "En **restaurantgæst** bestiller mad og betaler bagefter.",
+   "en": "A restaurant guest orders food and pays afterwards."
   }
  },
  "en ret": {
@@ -3185,6 +5517,178 @@
    "en": "The bus is going in the right direction."
   }
  },
+ "en retssag": {
+  "explanation": "\"En retssag\" means \"a court case\", a dispute that is decided in a court. It is built from ret (court) and sag (case). Ret also means dish and right, so the meaning depends on the word it sits in.",
+  "forms": [
+   {
+    "da": "en retssag",
+    "en": "a court case"
+   },
+   {
+    "da": "retssagen",
+    "en": "the court case"
+   },
+   {
+    "da": "retssager",
+    "en": "court cases"
+   },
+   {
+    "da": "retssagerne",
+    "en": "the court cases"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en advokat",
+    "en": "a lawyer"
+   },
+   {
+    "da": "en dom",
+    "en": "a verdict"
+   },
+   {
+    "da": "et vidne",
+    "en": "a witness"
+   }
+  ],
+  "sentence": {
+   "da": "Ved en **retssag** afgør en dommer, hvem der har ret.",
+   "en": "In a court case, a judge decides who is right."
+  }
+ },
+ "en retsstat": {
+  "explanation": "\"En retsstat\" means \"a state governed by law\", a country where everyone, including the government, must follow the same rules and judges are independent.",
+  "forms": [
+   {
+    "da": "en retsstat",
+    "en": "a state governed by law"
+   },
+   {
+    "da": "retsstaten",
+    "en": "the state governed by law"
+   },
+   {
+    "da": "retsstater",
+    "en": "states governed by law"
+   },
+   {
+    "da": "retsstaterne",
+    "en": "the states governed by law"
+   }
+  ],
+  "related": [
+   {
+    "da": "et demokrati",
+    "en": "a democracy"
+   },
+   {
+    "da": "et diktatur",
+    "en": "a dictatorship"
+   },
+   {
+    "da": "en forfatning",
+    "en": "a constitution"
+   },
+   {
+    "da": "en magtdeling",
+    "en": "a separation of powers"
+   }
+  ],
+  "sentence": {
+   "da": "I en **retsstat** gælder reglerne for alle, også for politikere.",
+   "en": "In a state governed by law, the rules apply to everyone, including politicians."
+  }
+ },
+ "en rettelse": {
+  "explanation": "\"En rettelse\" means \"a correction\", a fix for something wrong in a text, a number or a bill. A teacher also uses at rette for marking homework: Læreren retter opgaverne (The teacher marks the assignments).",
+  "forms": [
+   {
+    "da": "en rettelse",
+    "en": "a correction"
+   },
+   {
+    "da": "rettelsen",
+    "en": "the correction"
+   },
+   {
+    "da": "rettelser",
+    "en": "corrections"
+   },
+   {
+    "da": "rettelserne",
+    "en": "the corrections"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fejl",
+    "en": "a mistake"
+   },
+   {
+    "da": "en korrektur",
+    "en": "a proof"
+   },
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "en berigtigelse",
+    "en": "a rectification"
+   }
+  ],
+  "sentence": {
+   "da": "Vi sender en **rettelse**, fordi der er en stavefejl i teksten.",
+   "en": "We are sending a correction because there is a spelling mistake in the text."
+  }
+ },
+ "en rettighed": {
+  "explanation": "\"En rettighed\" means \"a right\", something you are allowed to have or do by law or by agreement. For a single right you can also say ret til (right to): Du har ret til ferie (You have a right to vacation).",
+  "forms": [
+   {
+    "da": "en rettighed",
+    "en": "a right"
+   },
+   {
+    "da": "rettigheden",
+    "en": "the right"
+   },
+   {
+    "da": "rettigheder",
+    "en": "rights"
+   },
+   {
+    "da": "rettighederne",
+    "en": "the rights"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pligt",
+    "en": "a duty"
+   },
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "en frihed",
+    "en": "a freedom"
+   },
+   {
+    "da": "en menneskeret",
+    "en": "a human right"
+   }
+  ],
+  "sentence": {
+   "da": "At gå i skole er en **rettighed** for alle børn.",
+   "en": "Going to school is a right for all children."
+  }
+ },
  "en returbillet": {
   "explanation": "\"En returbillet\" means \"a return ticket\", one that takes you there and back. At a counter you can say En returbillet til Aarhus, tak. (A return ticket to Aarhus, please.)",
   "forms": [
@@ -3222,6 +5726,174 @@
   "sentence": {
    "da": "Jeg køber en **returbillet** til Aarhus og hjem.",
    "en": "I buy a return ticket to Aarhus and back home."
+  }
+ },
+ "en returnering": {
+  "explanation": "\"En returnering\" means \"a return\", when you send something you bought back to the shop. It is only for goods. For going back to a place, say at vende tilbage (to go back).",
+  "forms": [
+   {
+    "da": "en returnering",
+    "en": "a return"
+   },
+   {
+    "da": "returneringen",
+    "en": "the return"
+   },
+   {
+    "da": "returneringer",
+    "en": "returns"
+   },
+   {
+    "da": "returneringerne",
+    "en": "the returns"
+   }
+  ],
+  "related": [
+   {
+    "da": "en returret",
+    "en": "a right of return"
+   },
+   {
+    "da": "en refusion",
+    "en": "a refund"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "en reklamation",
+    "en": "a complaint (faulty item)"
+   }
+  ],
+  "sentence": {
+   "da": "Ved **returnering** af varen får du pengene tilbage.",
+   "en": "When you return the item, you get your money back."
+  }
+ },
+ "en returret": {
+  "explanation": "\"En returret\" means \"a right of return\", the shop's promise that you may bring something back within a set number of days.",
+  "forms": [
+   {
+    "da": "en returret",
+    "en": "a right of return"
+   },
+   {
+    "da": "returretten",
+    "en": "the right of return"
+   },
+   {
+    "da": "returretter",
+    "en": "rights of return"
+   },
+   {
+    "da": "returretterne",
+    "en": "the rights of return"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fortrydelsesret",
+    "en": "a right of withdrawal"
+   },
+   {
+    "da": "en bytteret",
+    "en": "an exchange right"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "en refusion",
+    "en": "a refund"
+   }
+  ],
+  "sentence": {
+   "da": "Butikken giver os **returret** i tredive dage.",
+   "en": "The shop gives us a right of return for thirty days."
+  }
+ },
+ "en revisor": {
+  "explanation": "\"En revisor\" means \"an auditor\", a professional who checks that a company's money and records are correct. In Danish, the person who keeps the books day to day is a bogholder (bookkeeper).",
+  "forms": [
+   {
+    "da": "en revisor",
+    "en": "an auditor"
+   },
+   {
+    "da": "revisoren",
+    "en": "the auditor"
+   },
+   {
+    "da": "revisorer",
+    "en": "auditors"
+   },
+   {
+    "da": "revisorerne",
+    "en": "the auditors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en økonom",
+    "en": "an economist"
+   },
+   {
+    "da": "et regnskab",
+    "en": "accounts"
+   },
+   {
+    "da": "en kontrollant",
+    "en": "an inspector"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaets **revisor** gennemgår tallene hvert år.",
+   "en": "The company's auditor goes through the numbers every year."
+  }
+ },
+ "en revne": {
+  "explanation": "\"En revne\" means \"a crack\", a thin line where something like glass, a wall or ice has split. A sprække (a gap) is wider: you can look or reach through it.",
+  "forms": [
+   {
+    "da": "en revne",
+    "en": "a crack"
+   },
+   {
+    "da": "revnen",
+    "en": "the crack"
+   },
+   {
+    "da": "revner",
+    "en": "cracks"
+   },
+   {
+    "da": "revnerne",
+    "en": "the cracks"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hul",
+    "en": "a hole"
+   },
+   {
+    "da": "et brud",
+    "en": "a fracture"
+   },
+   {
+    "da": "en flænge",
+    "en": "a gash"
+   },
+   {
+    "da": "en skramme",
+    "en": "a scratch"
+   }
+  ],
+  "sentence": {
+   "da": "Glasset er ikke gået i stykker, men der er en **revne**.",
+   "en": "The glass has not broken, but there is a crack."
   }
  },
  "en revolution": {
@@ -3304,6 +5976,45 @@
   "sentence": {
    "da": "Betjenten har en **revolver** i bæltet.",
    "en": "The officer has a revolver on his belt."
+  }
+ },
+ "en ridder": {
+  "explanation": "\"En ridder\" means \"a knight\", a medieval warrior on horseback in armor. It is also an honor in Denmark: Ridder af Dannebrog (Knight of the Dannebrog order).",
+  "forms": [
+   {
+    "da": "en ridder",
+    "en": "a knight"
+   },
+   {
+    "da": "ridderen",
+    "en": "the knight"
+   },
+   {
+    "da": "riddere",
+    "en": "knights"
+   },
+   {
+    "da": "ridderne",
+    "en": "the knights"
+   }
+  ],
+  "related": [
+   {
+    "da": "en væbner",
+    "en": "a squire"
+   },
+   {
+    "da": "ridderlig",
+    "en": "chivalrous"
+   },
+   {
+    "da": "en rytter",
+    "en": "a rider"
+   }
+  ],
+  "sentence": {
+   "da": "I middelalderen red en **ridder** ud for at kæmpe for kongen.",
+   "en": "In the Middle Ages, a knight rode out to fight for the king."
   }
  },
  "en ridse": {
@@ -3390,6 +6101,49 @@
   "sentence": {
    "da": "Hun har en **ring** på fingeren.",
    "en": "She has a ring on her finger."
+  }
+ },
+ "en risalamande": {
+  "explanation": "\"En risalamande\" means \"a Danish rice pudding with almonds\", a cold rice pudding with whipped cream, eaten at Christmas. One whole almond is hidden in it, and the person who finds it wins a small gift.",
+  "forms": [
+   {
+    "da": "en risalamande",
+    "en": "a Danish rice pudding"
+   },
+   {
+    "da": "risalamanden",
+    "en": "the rice pudding"
+   },
+   {
+    "da": "en skål risalamande",
+    "en": "a bowl of risalamande"
+   },
+   {
+    "da": "risalamande med kirsebærsovs",
+    "en": "risalamande with cherry sauce"
+   }
+  ],
+  "related": [
+   {
+    "da": "en risengrød",
+    "en": "a rice porridge"
+   },
+   {
+    "da": "en æbleskive",
+    "en": "a Danish pancake ball"
+   },
+   {
+    "da": "en klejne",
+    "en": "a twisted pastry"
+   },
+   {
+    "da": "en dessert",
+    "en": "a dessert"
+   }
+  ],
+  "sentence": {
+   "da": "Til jul spiser vi **risalamande** med varm kirsebærsovs.",
+   "en": "At Christmas, we eat risalamande with warm cherry sauce."
   }
  },
  "en risiko": {
@@ -3923,6 +6677,49 @@
    "en": "The ball broke a window pane."
   }
  },
+ "en rullepølse": {
+  "explanation": "\"En rullepølse\" means \"a rolled pork sausage (cold cut)\", spiced pork that is rolled up, pressed and sliced thin. Despite pølse (sausage), it is eaten cold, not cooked in a pan.",
+  "forms": [
+   {
+    "da": "en rullepølse",
+    "en": "a rolled pork sausage (cold cut)"
+   },
+   {
+    "da": "rullepølsen",
+    "en": "the rolled pork sausage (cold cut)"
+   },
+   {
+    "da": "rullepølser",
+    "en": "rolled pork sausages"
+   },
+   {
+    "da": "rullepølserne",
+    "en": "the rolled pork sausages"
+   }
+  ],
+  "related": [
+   {
+    "da": "et pålæg",
+    "en": "a sandwich topping"
+   },
+   {
+    "da": "en leverpostej",
+    "en": "a liver pâté"
+   },
+   {
+    "da": "en spegepølse",
+    "en": "a salami"
+   },
+   {
+    "da": "en skinke",
+    "en": "a ham"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne have **rullepølse** på rugbrød.",
+   "en": "I would like to have rolled pork sausage on rye bread."
+  }
+ },
  "en rulletrappe": {
   "explanation": "\"En rulletrappe\" means \"an escalator\". It is built from rulle (roll) and trappe (stairs), and the same rulle is in en rullestol (a wheelchair).",
   "forms": [
@@ -4093,6 +6890,45 @@
   "sentence": {
    "da": "Der er en **rundvisning** på slottet klokken to.",
    "en": "There is a guided tour of the castle at two o'clock."
+  }
+ },
+ "en rune": {
+  "explanation": "\"En rune\" means \"a rune\", a character from the oldest writing in Scandinavia, cut into stone or wood. A rune stone is en runesten.",
+  "forms": [
+   {
+    "da": "en rune",
+    "en": "a rune"
+   },
+   {
+    "da": "runen",
+    "en": "the rune"
+   },
+   {
+    "da": "runer",
+    "en": "runes"
+   },
+   {
+    "da": "runerne",
+    "en": "the runes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bogstav",
+    "en": "a letter"
+   },
+   {
+    "da": "et alfabet",
+    "en": "an alphabet"
+   },
+   {
+    "da": "en indskrift",
+    "en": "an inscription"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **rune** på stenen er et tegn fra vikingetiden.",
+   "en": "Each rune on the stone is a sign from the Viking Age."
   }
  },
  "en russer": {
@@ -4302,6 +7138,49 @@
    "en": "He has a broad back and strong shoulders."
   }
  },
+ "en rygrad": {
+  "explanation": "\"En rygrad\" means \"a spine\", the line of bones down the middle of your back. Rygsøjle (spinal column) is the more medical word for the same thing. Rygrad also means courage: Hun har rygrad (She has backbone).",
+  "forms": [
+   {
+    "da": "en rygrad",
+    "en": "a spine"
+   },
+   {
+    "da": "rygraden",
+    "en": "the spine"
+   },
+   {
+    "da": "rygrader",
+    "en": "spines"
+   },
+   {
+    "da": "rygraderne",
+    "en": "the spines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nakke",
+    "en": "a neck"
+   },
+   {
+    "da": "en hvirvel",
+    "en": "a vertebra"
+   },
+   {
+    "da": "et skelet",
+    "en": "a skeleton"
+   },
+   {
+    "da": "en led",
+    "en": "a joint"
+   }
+  ],
+  "sentence": {
+   "da": "Din **rygrad** går fra nakken og ned til bækkenet.",
+   "en": "Your spine runs from the neck down to the pelvis."
+  }
+ },
  "en rygsæk": {
   "explanation": "\"En rygsæk\" means \"a backpack\". It is made of ryg (back) and sæk (sack), and sæk also stands alone: en sæk kartofler (a sack of potatoes).",
   "forms": [
@@ -4339,6 +7218,170 @@
   "sentence": {
    "da": "Jeg bærer min **rygsæk** på ryggen.",
    "en": "I carry my backpack on my back."
+  }
+ },
+ "en rynke": {
+  "explanation": "\"En rynke\" means \"a wrinkle\", a thin fold or line, most often in skin but also in cloth. At rynke panden (to frown) literally means to wrinkle the forehead.",
+  "forms": [
+   {
+    "da": "en rynke",
+    "en": "a wrinkle"
+   },
+   {
+    "da": "rynken",
+    "en": "the wrinkle"
+   },
+   {
+    "da": "rynker",
+    "en": "wrinkles"
+   },
+   {
+    "da": "rynkerne",
+    "en": "the wrinkles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en krølle",
+    "en": "a crease"
+   },
+   {
+    "da": "en fure",
+    "en": "a furrow"
+   },
+   {
+    "da": "en plisse",
+    "en": "a pleat"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en dyb **rynke** mellem øjenbrynene.",
+   "en": "She has a deep wrinkle between her eyebrows."
+  }
+ },
+ "en rysten": {
+  "explanation": "\"En rysten\" means \"a shiver\", a quick tremble through the body from cold, fear or excitement. It is mostly used in the singular, often with gå gennem (go through): Der gik en rysten gennem rummet (A shiver went through the room).",
+  "forms": [
+   {
+    "da": "en rysten",
+    "en": "a shiver"
+   },
+   {
+    "da": "en kold rysten",
+    "en": "a cold shiver"
+   },
+   {
+    "da": "en rysten i kroppen",
+    "en": "a shiver in the body"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gysen",
+    "en": "a shudder"
+   },
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   },
+   {
+    "da": "en rystelse",
+    "en": "a tremor"
+   },
+   {
+    "da": "at skælve",
+    "en": "to tremble"
+   }
+  ],
+  "sentence": {
+   "da": "Der kom en **rysten** gennem hele kroppen.",
+   "en": "A shiver came through the whole body."
+  }
+ },
+ "en rytme": {
+  "explanation": "\"En rytme\" means \"a rhythm\", a pattern of sounds and pauses that repeats, in music, speech or movement. It also describes a daily pattern: dagens rytme (the rhythm of the day).",
+  "forms": [
+   {
+    "da": "en rytme",
+    "en": "a rhythm"
+   },
+   {
+    "da": "rytmen",
+    "en": "the rhythm"
+   },
+   {
+    "da": "rytmer",
+    "en": "rhythms"
+   },
+   {
+    "da": "rytmerne",
+    "en": "the rhythms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en takt",
+    "en": "a beat"
+   },
+   {
+    "da": "et tempo",
+    "en": "a tempo"
+   },
+   {
+    "da": "en melodi",
+    "en": "a melody"
+   },
+   {
+    "da": "en puls",
+    "en": "a pulse"
+   }
+  ],
+  "sentence": {
+   "da": "Trommerne giver sangen en fast **rytme**.",
+   "en": "The drums give the song a steady rhythm."
+  }
+ },
+ "en rådgiver": {
+  "explanation": "\"En rådgiver\" means \"an adviser\", someone whose job is to guide others with expert knowledge, for example in money, law or careers: en økonomisk rådgiver (a financial adviser).",
+  "forms": [
+   {
+    "da": "en rådgiver",
+    "en": "an adviser"
+   },
+   {
+    "da": "rådgiveren",
+    "en": "the adviser"
+   },
+   {
+    "da": "rådgivere",
+    "en": "advisers"
+   },
+   {
+    "da": "rådgiverne",
+    "en": "the advisers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et råd",
+    "en": "a piece of advice"
+   },
+   {
+    "da": "en konsulent",
+    "en": "a consultant"
+   },
+   {
+    "da": "en vejleder",
+    "en": "a counselor"
+   },
+   {
+    "da": "en mentor",
+    "en": "a mentor"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **rådgiver** i banken hjalp os med at vælge et lån.",
+   "en": "Our adviser at the bank helped us choose a loan."
   }
  },
  "en række": {
@@ -4382,6 +7425,45 @@
   "sentence": {
    "da": "Vi sidder i første **række** i biografen.",
    "en": "We sit in the front row at the movie theater."
+  }
+ },
+ "en rækkevidde": {
+  "explanation": "\"En rækkevidde\" means \"a range\" or \"a reach\", how far something can get or carry. It is used for things like a signal, a weapon or a battery: en elbils rækkevidde (an electric car's range).",
+  "forms": [
+   {
+    "da": "en rækkevidde",
+    "en": "a range / reach"
+   },
+   {
+    "da": "rækkevidden",
+    "en": "the range / reach"
+   },
+   {
+    "da": "rækkevidder",
+    "en": "ranges / reaches"
+   },
+   {
+    "da": "rækkeviddene",
+    "en": "the ranges / reaches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afstand",
+    "en": "a distance"
+   },
+   {
+    "da": "en radius",
+    "en": "a radius"
+   },
+   {
+    "da": "et dækningsområde",
+    "en": "a coverage area"
+   }
+  ],
+  "sentence": {
+   "da": "Radioen har en lang **rækkevidde** og virker næsten overalt.",
+   "en": "The radio has a long range and works almost everywhere."
   }
  },
  "en ræv": {
@@ -4464,6 +7546,84 @@
   "sentence": {
    "da": "Salaten er rød, fordi jeg har en **rødbede** i.",
    "en": "The salad is red because I put a beet in it."
+  }
+ },
+ "en rødmen": {
+  "explanation": "\"En rødmen\" means \"a blush\", the red color that rises in your face when you feel self-conscious. The matching action is at rødme (to blush).",
+  "forms": [
+   {
+    "da": "en rødmen",
+    "en": "a blush"
+   },
+   {
+    "da": "en rødmen på kinderne",
+    "en": "a blush on the cheeks"
+   },
+   {
+    "da": "en let rødmen",
+    "en": "a slight blush"
+   }
+  ],
+  "related": [
+   {
+    "da": "at blegne",
+    "en": "to turn pale"
+   },
+   {
+    "da": "en flovhed",
+    "en": "embarrassment"
+   },
+   {
+    "da": "en generthed",
+    "en": "shyness"
+   }
+  ],
+  "sentence": {
+   "da": "Der kom en **rødmen** på hendes kinder, fordi hun var flov.",
+   "en": "A blush came onto her cheeks because she was embarrassed."
+  }
+ },
+ "en rødspætte": {
+  "explanation": "\"En rødspætte\" means \"a plaice\", a flatfish with orange spots on its brown back. It is very common in Danish waters and a classic dish when fried.",
+  "forms": [
+   {
+    "da": "en rødspætte",
+    "en": "a plaice"
+   },
+   {
+    "da": "rødspætten",
+    "en": "the plaice"
+   },
+   {
+    "da": "rødspætter",
+    "en": "plaice"
+   },
+   {
+    "da": "rødspætterne",
+    "en": "the plaice"
+   }
+  ],
+  "related": [
+   {
+    "da": "en flynder",
+    "en": "a flounder"
+   },
+   {
+    "da": "en torsk",
+    "en": "a cod"
+   },
+   {
+    "da": "en sild",
+    "en": "a herring"
+   },
+   {
+    "da": "en laks",
+    "en": "a salmon"
+   }
+  ],
+  "sentence": {
+   "da": "Til frokost spiser vi stegt **rødspætte** med remoulade.",
+   "en": "For lunch we eat fried plaice with remoulade."
   }
  },
  "en rødvin": {
@@ -4583,6 +7743,49 @@
    "en": "I make cake batter in my stand mixer."
   }
  },
+ "en røver": {
+  "explanation": "\"En røver\" means \"a robber\", someone who takes things by force or threats. A tyv (thief) steals quietly, without anyone noticing.",
+  "forms": [
+   {
+    "da": "en røver",
+    "en": "a robber"
+   },
+   {
+    "da": "røveren",
+    "en": "the robber"
+   },
+   {
+    "da": "røvere",
+    "en": "robbers"
+   },
+   {
+    "da": "røverne",
+    "en": "the robbers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et røveri",
+    "en": "a hold-up"
+   },
+   {
+    "da": "at røve",
+    "en": "to hold up"
+   },
+   {
+    "da": "en bandit",
+    "en": "a bandit"
+   },
+   {
+    "da": "en forbryder",
+    "en": "a criminal"
+   }
+  ],
+  "sentence": {
+   "da": "En **røver** truede kassedamen og tog alle pengene.",
+   "en": "A robber threatened the cashier and took all the money."
+  }
+ },
  "et rat": {
   "explanation": "\"Et rat\" means \"a steering wheel\", the round part in front of the driver. Do not mix it up with et hjul (a wheel), which turns on the ground.",
   "forms": [
@@ -4626,6 +7829,45 @@
    "en": "You steer the car with a steering wheel."
   }
  },
+ "et realkreditlån": {
+  "explanation": "\"Et realkreditlån\" means \"a mortgage\", money borrowed to buy a house, where the house itself guarantees that it is paid back. It comes from a mortgage credit institution, not from an ordinary bank.",
+  "forms": [
+   {
+    "da": "et realkreditlån",
+    "en": "a mortgage"
+   },
+   {
+    "da": "realkreditlånet",
+    "en": "the mortgage"
+   },
+   {
+    "da": "realkreditlån",
+    "en": "mortgages"
+   },
+   {
+    "da": "realkreditlånene",
+    "en": "the mortgages"
+   }
+  ],
+  "related": [
+   {
+    "da": "et boliglån",
+    "en": "a home loan"
+   },
+   {
+    "da": "en rente",
+    "en": "an interest rate"
+   },
+   {
+    "da": "et afdrag",
+    "en": "a repayment"
+   }
+  ],
+  "sentence": {
+   "da": "Huset er købt med et **realkreditlån**, som vi betaler af hver måned.",
+   "en": "The house was bought with a mortgage that we pay off every month."
+  }
+ },
  "et reb": {
   "explanation": "\"Et reb\" means \"a rope\", a thick strong cord for tying or climbing. A thinner one is en snor (a string).",
   "forms": [
@@ -4667,6 +7909,135 @@
   "sentence": {
    "da": "Han bandt båden fast med et **reb**.",
    "en": "He tied up the boat with a rope."
+  }
+ },
+ "et referat": {
+  "explanation": "\"Et referat\" means \"a summary\", a short written account of what was said, most often at a meeting, where it is the minutes. At skrive referat (to write the minutes) is a common job. The word comes from at referere (to report).",
+  "forms": [
+   {
+    "da": "et referat",
+    "en": "a summary"
+   },
+   {
+    "da": "referatet",
+    "en": "the summary"
+   },
+   {
+    "da": "referater",
+    "en": "summaries"
+   },
+   {
+    "da": "referaterne",
+    "en": "the summaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dagsorden",
+    "en": "an agenda"
+   },
+   {
+    "da": "en beslutning",
+    "en": "a decision"
+   },
+   {
+    "da": "et notat",
+    "en": "a memo"
+   },
+   {
+    "da": "en rapport",
+    "en": "a report"
+   }
+  ],
+  "sentence": {
+   "da": "Efter mødet sender hun et **referat** til alle.",
+   "en": "After the meeting, she sends a summary to everyone."
+  }
+ },
+ "et regeringsparti": {
+  "explanation": "\"Et regeringsparti\" means \"a governing party\", a political party that takes part in the government. A party outside the government is called et oppositionsparti (an opposition party).",
+  "forms": [
+   {
+    "da": "et regeringsparti",
+    "en": "a governing party"
+   },
+   {
+    "da": "regeringspartiet",
+    "en": "the governing party"
+   },
+   {
+    "da": "regeringspartier",
+    "en": "governing parties"
+   },
+   {
+    "da": "regeringspartierne",
+    "en": "the governing parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en minister",
+    "en": "a minister"
+   },
+   {
+    "da": "et flertal",
+    "en": "a majority"
+   },
+   {
+    "da": "en koalition",
+    "en": "a coalition"
+   },
+   {
+    "da": "en statsminister",
+    "en": "a prime minister"
+   }
+  ],
+  "sentence": {
+   "da": "Et **regeringsparti** har ministre og er med til at styre landet.",
+   "en": "A governing party has ministers and helps run the country."
+  }
+ },
+ "et regnskab": {
+  "explanation": "\"Et regnskab\" means \"accounts\", the written record of all the money a company or person earns and spends. It is often used with at lave (to make): Han laver regnskab for firmaet (He does the accounts for the company). The accounts for a whole year are et årsregnskab (annual accounts).",
+  "forms": [
+   {
+    "da": "et regnskab",
+    "en": "accounts"
+   },
+   {
+    "da": "regnskabet",
+    "en": "the accounts"
+   },
+   {
+    "da": "regnskaber",
+    "en": "sets of accounts"
+   },
+   {
+    "da": "regnskaberne",
+    "en": "the sets of accounts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et budget",
+    "en": "a budget"
+   },
+   {
+    "da": "en bogholder",
+    "en": "a bookkeeper"
+   },
+   {
+    "da": "en kvittering",
+    "en": "a receipt"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   }
+  ],
+  "sentence": {
+   "da": "Revisoren tjekker firmaets **regnskab**, så alle tal passer.",
+   "en": "The auditor checks the company's accounts so that all the numbers add up."
   }
  },
  "et rejsebureau": {
@@ -4876,6 +8247,88 @@
    "en": "With a cleaning product I can clean the bathroom."
   }
  },
+ "et renseri": {
+  "explanation": "\"Et renseri\" means \"a dry cleaner's\", a shop where you leave coats, suits and other delicate clothes to be cleaned professionally. The word comes from at rense (to clean).",
+  "forms": [
+   {
+    "da": "et renseri",
+    "en": "a dry cleaner's"
+   },
+   {
+    "da": "renseriet",
+    "en": "the dry cleaner's"
+   },
+   {
+    "da": "renserier",
+    "en": "dry cleaners"
+   },
+   {
+    "da": "renserierne",
+    "en": "the dry cleaners"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vaskeri",
+    "en": "a laundry"
+   },
+   {
+    "da": "en vaskemaskine",
+    "en": "a washing machine"
+   },
+   {
+    "da": "en pletfjerner",
+    "en": "a stain remover"
+   }
+  ],
+  "sentence": {
+   "da": "Fordi jakken ikke tåler vand, skal den på et **renseri**.",
+   "en": "Because the jacket cannot take water, it has to go to a dry cleaner's."
+  }
+ },
+ "et repertoire": {
+  "explanation": "\"Et repertoire\" means \"a repertoire\", all the pieces of music or plays that a performer or theater knows well enough to perform. It also works for everyday skills: Han har et stort repertoire af vittigheder (He has a large repertoire of jokes).",
+  "forms": [
+   {
+    "da": "et repertoire",
+    "en": "a repertoire"
+   },
+   {
+    "da": "repertoiret",
+    "en": "the repertoire"
+   },
+   {
+    "da": "repertoirer",
+    "en": "repertoires"
+   },
+   {
+    "da": "repertoirerne",
+    "en": "the repertoires"
+   }
+  ],
+  "related": [
+   {
+    "da": "et udvalg",
+    "en": "a selection"
+   },
+   {
+    "da": "en samling",
+    "en": "a collection"
+   },
+   {
+    "da": "et program",
+    "en": "a program"
+   },
+   {
+    "da": "et nummer",
+    "en": "a piece"
+   }
+  ],
+  "sentence": {
+   "da": "Koret har et stort **repertoire** med både gamle og nye sange.",
+   "en": "The choir has a large repertoire with both old and new songs."
+  }
+ },
  "et resultat": {
   "explanation": "\"Et resultat\" means \"a result\", what you get at the end of a match, an exam or an experiment. In sports, it is the score: Resultatet blev 2-1 (The result was 2-1).",
   "forms": [
@@ -4915,6 +8368,135 @@
    "en": "We got a good result on the test."
   }
  },
+ "et resumé": {
+  "explanation": "\"Et resumé\" means \"a summary\", a short retelling of the key points of a text, a book or a talk. It is not a job résumé: for that, Danish uses CV (a CV).",
+  "forms": [
+   {
+    "da": "et resumé",
+    "en": "a summary"
+   },
+   {
+    "da": "resuméet",
+    "en": "the summary"
+   },
+   {
+    "da": "resuméer",
+    "en": "summaries"
+   },
+   {
+    "da": "resuméerne",
+    "en": "the summaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et referat",
+    "en": "the minutes of a meeting"
+   },
+   {
+    "da": "et uddrag",
+    "en": "an excerpt"
+   },
+   {
+    "da": "en sammenfatning",
+    "en": "a recap"
+   },
+   {
+    "da": "en konklusion",
+    "en": "a conclusion"
+   }
+  ],
+  "sentence": {
+   "da": "Til sidst i rapporten står et **resumé** af de vigtigste punkter.",
+   "en": "At the end of the report there is a summary of the most important points."
+  }
+ },
+ "et ribben": {
+  "explanation": "\"Et ribben\" means \"a rib\", one of the bones that protect your heart and lungs. In cooking, it is also a cut of pork, as in ribbensteg (roast pork ribs).",
+  "forms": [
+   {
+    "da": "et ribben",
+    "en": "a rib"
+   },
+   {
+    "da": "ribbenet",
+    "en": "the rib"
+   },
+   {
+    "da": "ribben",
+    "en": "ribs"
+   },
+   {
+    "da": "ribbenene",
+    "en": "the ribs"
+   }
+  ],
+  "related": [
+   {
+    "da": "et brystben",
+    "en": "a breastbone"
+   },
+   {
+    "da": "en rygsøjle",
+    "en": "a backbone"
+   },
+   {
+    "da": "et skelet",
+    "en": "a skeleton"
+   },
+   {
+    "da": "et kranie",
+    "en": "a skull"
+   }
+  ],
+  "sentence": {
+   "da": "Et **ribben** er en buet knogle på siden af brystkassen.",
+   "en": "A rib is a curved bone on the side of the chest."
+  }
+ },
+ "et ritual": {
+  "explanation": "\"Et ritual\" means \"a ritual\", a fixed set of actions that is repeated in the same way, in religion, at ceremonies or in daily life: Kaffen om morgenen er et ritual (The morning coffee is a ritual).",
+  "forms": [
+   {
+    "da": "et ritual",
+    "en": "a ritual"
+   },
+   {
+    "da": "ritualet",
+    "en": "the ritual"
+   },
+   {
+    "da": "ritualer",
+    "en": "rituals"
+   },
+   {
+    "da": "ritualerne",
+    "en": "the rituals"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tradition",
+    "en": "a tradition"
+   },
+   {
+    "da": "en højtid",
+    "en": "a festival"
+   },
+   {
+    "da": "en vane",
+    "en": "a habit"
+   },
+   {
+    "da": "en skik",
+    "en": "a custom"
+   }
+  ],
+  "sentence": {
+   "da": "Et **ritual** gentages på præcis samme måde hver gang.",
+   "en": "A ritual is repeated in exactly the same way every time."
+  }
+ },
  "et rivejern": {
   "explanation": "\"Et rivejern\" means \"a grater\", used for cheese, carrots and lemon peel. The second part is jern (iron), the metal it is made of.",
   "forms": [
@@ -4952,6 +8534,49 @@
   "sentence": {
    "da": "Jeg bruger et **rivejern** til osten.",
    "en": "I use a grater for the cheese."
+  }
+ },
+ "et rovdyr": {
+  "explanation": "\"Et rovdyr\" means \"a predator\", an animal that hunts other animals for food, such as a fox or a bear. The first part, rov, means plunder, and dyr means animal.",
+  "forms": [
+   {
+    "da": "et rovdyr",
+    "en": "a predator"
+   },
+   {
+    "da": "rovdyret",
+    "en": "the predator"
+   },
+   {
+    "da": "rovdyr",
+    "en": "predators"
+   },
+   {
+    "da": "rovdyrene",
+    "en": "the predators"
+   }
+  ],
+  "related": [
+   {
+    "da": "en løve",
+    "en": "a lion"
+   },
+   {
+    "da": "en planteæder",
+    "en": "a plant eater"
+   },
+   {
+    "da": "et bytte",
+    "en": "prey"
+   },
+   {
+    "da": "en jæger",
+    "en": "a hunter"
+   }
+  ],
+  "sentence": {
+   "da": "Ulven er et **rovdyr**, men koen spiser kun græs.",
+   "en": "The wolf is a predator, but the cow only eats grass."
   }
  },
  "et rum": {
@@ -4997,6 +8622,49 @@
    "en": "There is a big room next to the kitchen."
   }
  },
+ "et rumfang": {
+  "explanation": "\"Et rumfang\" means \"a volume\", the amount of space that something takes up, measured for example in liters. For how loud a sound is, use lydstyrke (loudness) instead.",
+  "forms": [
+   {
+    "da": "et rumfang",
+    "en": "a volume"
+   },
+   {
+    "da": "rumfanget",
+    "en": "the volume"
+   },
+   {
+    "da": "rumfang",
+    "en": "volumes"
+   },
+   {
+    "da": "rumfangene",
+    "en": "the volumes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kapacitet",
+    "en": "a capacity"
+   },
+   {
+    "da": "et areal",
+    "en": "an area"
+   },
+   {
+    "da": "en vægt",
+    "en": "a weight"
+   },
+   {
+    "da": "en kubikmeter",
+    "en": "a cubic meter"
+   }
+  ],
+  "sentence": {
+   "da": "Beregn kassens **rumfang**, når du kender længde, bredde og højde.",
+   "en": "Calculate the box's volume when you know the length, width and height."
+  }
+ },
  "et rumskib": {
   "explanation": "\"Et rumskib\" means \"a spaceship\", built from rum (space) and et skib (a ship). Rum also means \"room\", so the situation tells you which one.",
   "forms": [
@@ -5040,6 +8708,49 @@
    "en": "A spaceship can fly to other planets."
   }
  },
+ "et rumvæsen": {
+  "explanation": "\"Et rumvæsen\" means \"an alien\", a creature from outer space, mostly in films and stories. It is built from rum (space) and væsen (a being).",
+  "forms": [
+   {
+    "da": "et rumvæsen",
+    "en": "an alien"
+   },
+   {
+    "da": "rumvæsenet",
+    "en": "the alien"
+   },
+   {
+    "da": "rumvæsener",
+    "en": "aliens"
+   },
+   {
+    "da": "rumvæsenerne",
+    "en": "the aliens"
+   }
+  ],
+  "related": [
+   {
+    "da": "et rumskib",
+    "en": "a spaceship"
+   },
+   {
+    "da": "et ufo",
+    "en": "a UFO"
+   },
+   {
+    "da": "en astronaut",
+    "en": "an astronaut"
+   },
+   {
+    "da": "et monster",
+    "en": "a monster"
+   }
+  ],
+  "sentence": {
+   "da": "Et **rumvæsen** er en skabning, der kommer fra en anden planet.",
+   "en": "An alien is a creature that comes from another planet."
+  }
+ },
  "et rundstykke": {
   "explanation": "\"Et rundstykke\" means \"a bread roll\", a small round bread that Danes often eat for breakfast with butter or jam. It is built from rund (round) and stykke (piece).",
   "forms": [
@@ -5077,6 +8788,45 @@
   "sentence": {
    "da": "Jeg spiser et **rundstykke** med ost.",
    "en": "I eat a bread roll with cheese."
+  }
+ },
+ "et ry": {
+  "explanation": "\"Et ry\" means \"a reputation\", what a person or a place is known for. It is often used with have ry for at (to be known for ...): Han har ry for at være stædig (He is known for being stubborn).",
+  "forms": [
+   {
+    "da": "et godt ry",
+    "en": "a good reputation"
+   },
+   {
+    "da": "et dårligt ry",
+    "en": "a bad reputation"
+   },
+   {
+    "da": "hans ry",
+    "en": "his reputation"
+   }
+  ],
+  "related": [
+   {
+    "da": "et omdømme",
+    "en": "public standing"
+   },
+   {
+    "da": "et rygte",
+    "en": "a rumor"
+   },
+   {
+    "da": "en anseelse",
+    "en": "esteem"
+   },
+   {
+    "da": "et navn",
+    "en": "a name"
+   }
+  ],
+  "sentence": {
+   "da": "Hotellet har fået et godt **ry**, fordi personalet er venligt.",
+   "en": "The hotel has gotten a good reputation because the staff is friendly."
   }
  },
  "et rygte": {
@@ -5200,6 +8950,49 @@
    "en": "The old town hall is in the middle of town."
   }
  },
+ "et rådyr": {
+  "explanation": "\"Et rådyr\" means \"a roe deer\", a small, brown wild deer that lives in forests and fields. It is smaller than et krondyr (a red deer), and only the males have antlers.",
+  "forms": [
+   {
+    "da": "et rådyr",
+    "en": "a roe deer"
+   },
+   {
+    "da": "rådyret",
+    "en": "the roe deer"
+   },
+   {
+    "da": "rådyr",
+    "en": "roe deer"
+   },
+   {
+    "da": "rådyrene",
+    "en": "the roe deer"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjort",
+    "en": "a deer"
+   },
+   {
+    "da": "et dådyr",
+    "en": "a fallow deer"
+   },
+   {
+    "da": "en hare",
+    "en": "a hare"
+   },
+   {
+    "da": "et vildsvin",
+    "en": "a wild boar"
+   }
+  ],
+  "sentence": {
+   "da": "Et **rådyr** har lange ben og kan springe højt over hegn.",
+   "en": "A roe deer has long legs and can jump high over fences."
+  }
+ },
  "et rækkehus": {
   "explanation": "\"Et rækkehus\" means \"a terraced house\" or \"a townhouse\": one of several houses built side by side in a row. It is built from række (row) and hus (house).",
   "forms": [
@@ -5237,6 +9030,49 @@
   "sentence": {
    "da": "I et **rækkehus** deler man væg med naboerne.",
    "en": "In a townhouse you share a wall with the neighbors."
+  }
+ },
+ "et røntgenbillede": {
+  "explanation": "\"Et røntgenbillede\" means \"an X-ray image\", a picture of the inside of the body, taken with X-rays. A doctor uses it to see a broken bone or a problem in the lungs. You say at tage et røntgenbillede (to take an X-ray).",
+  "forms": [
+   {
+    "da": "et røntgenbillede",
+    "en": "an X-ray image"
+   },
+   {
+    "da": "røntgenbilledet",
+    "en": "the X-ray image"
+   },
+   {
+    "da": "røntgenbilleder",
+    "en": "X-ray images"
+   },
+   {
+    "da": "røntgenbillederne",
+    "en": "the X-ray images"
+   }
+  ],
+  "related": [
+   {
+    "da": "en scanning",
+    "en": "a scan"
+   },
+   {
+    "da": "et brud",
+    "en": "a fracture"
+   },
+   {
+    "da": "en skade",
+    "en": "an injury"
+   },
+   {
+    "da": "en blodprøve",
+    "en": "a blood test"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan se knoglerne inde i kroppen på et **røntgenbillede**.",
+   "en": "You can see the bones inside the body on an X-ray."
   }
  },
  "et rør": {
@@ -5323,6 +9159,88 @@
   "sentence": {
    "da": "Der var et **røveri** i butikken i går.",
    "en": "There was a robbery in the store yesterday."
+  }
+ },
+ "radikal": {
+  "explanation": "\"Radikal\" means \"radical\", for a change or idea that goes to the root of things instead of making small adjustments. In Danish it is not always negative: en radikal forbedring (a radical improvement).",
+  "forms": [
+   {
+    "da": "en radikal ændring",
+    "en": "a radical change"
+   },
+   {
+    "da": "et radikalt forslag",
+    "en": "a radical proposal"
+   },
+   {
+    "da": "radikale idéer",
+    "en": "radical ideas"
+   }
+  ],
+  "related": [
+   {
+    "da": "ekstrem",
+    "en": "extreme"
+   },
+   {
+    "da": "moderat",
+    "en": "moderate"
+   },
+   {
+    "da": "gennemgribende",
+    "en": "sweeping"
+   },
+   {
+    "da": "revolutionær",
+    "en": "revolutionary"
+   }
+  ],
+  "sentence": {
+   "da": "Regeringen vil lave en **radikal** reform, som ændrer hele skattesystemet.",
+   "en": "The government wants to make a radical reform that changes the whole tax system."
+  }
+ },
+ "raps": {
+  "explanation": "\"En raps\" means \"rapeseed\", a crop that grows in fields and whose seeds are pressed into oil. It has no plural in everyday use.",
+  "forms": [
+   {
+    "da": "en raps",
+    "en": "rapeseed (the crop)"
+   },
+   {
+    "da": "rapsen",
+    "en": "the rapeseed"
+   },
+   {
+    "da": "en mark med raps",
+    "en": "a field of rapeseed"
+   },
+   {
+    "da": "rapsolie",
+    "en": "rapeseed oil"
+   }
+  ],
+  "related": [
+   {
+    "da": "hvede",
+    "en": "wheat"
+   },
+   {
+    "da": "byg",
+    "en": "barley"
+   },
+   {
+    "da": "havre",
+    "en": "oats"
+   },
+   {
+    "da": "rug",
+    "en": "rye"
+   }
+  ],
+  "sentence": {
+   "da": "Markerne bliver helt gule, når **raps** blomstrer om foråret.",
+   "en": "The fields turn completely yellow when rapeseed blooms in the spring."
   }
  },
  "rar": {
@@ -5438,6 +9356,232 @@
    "en": "You will get well again."
   }
  },
+ "rastløs": {
+  "explanation": "\"Rastløs\" means \"restless\", not able to settle or relax, in body or in mind. It is built from en rast (a break, a rest stop) and -løs (without), so it is literally \"without rest\".",
+  "forms": [
+   {
+    "da": "en rastløs dreng",
+    "en": "a restless boy"
+   },
+   {
+    "da": "et rastløst barn",
+    "en": "a restless child"
+   },
+   {
+    "da": "rastløse nætter",
+    "en": "restless nights"
+   }
+  ],
+  "related": [
+   {
+    "da": "urolig",
+    "en": "uneasy"
+   },
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "utålmodig",
+    "en": "impatient"
+   },
+   {
+    "da": "nervøs",
+    "en": "nervous"
+   }
+  ],
+  "sentence": {
+   "da": "Efter flere uger uden arbejde blev han **rastløs** og ville ud.",
+   "en": "After several weeks without work he became restless and wanted to get out."
+  }
+ },
+ "rationel": {
+  "explanation": "\"Rationel\" means \"rational\", based on logic and clear thinking. About a method it can also mean \"efficient and well organized\": en rationel arbejdsgang (an efficient way of working).",
+  "forms": [
+   {
+    "da": "en rationel tankegang",
+    "en": "a rational way of thinking"
+   },
+   {
+    "da": "et rationelt valg",
+    "en": "a rational choice"
+   },
+   {
+    "da": "rationelle mennesker",
+    "en": "rational people"
+   }
+  ],
+  "related": [
+   {
+    "da": "logisk",
+    "en": "logical"
+   },
+   {
+    "da": "fornuftig",
+    "en": "sensible"
+   },
+   {
+    "da": "irrationel",
+    "en": "irrational"
+   },
+   {
+    "da": "velovervejet",
+    "en": "well thought out"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er meget **rationel** og vælger altid ud fra fakta, ikke følelser.",
+   "en": "She is very rational and always chooses based on facts, not feelings."
+  }
+ },
+ "rav": {
+  "explanation": "\"Et rav\" means \"amber\": the golden-brown, hardened sap of ancient trees. It is polished and used for necklaces and rings.",
+  "forms": [
+   {
+    "da": "ravet",
+    "en": "the amber"
+   },
+   {
+    "da": "et stykke rav",
+    "en": "a piece of amber"
+   },
+   {
+    "da": "rav fra Vesterhavet",
+    "en": "amber from the North Sea"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fossil",
+    "en": "a fossil"
+   },
+   {
+    "da": "en perle",
+    "en": "a pearl"
+   },
+   {
+    "da": "en ædelsten",
+    "en": "a gemstone"
+   },
+   {
+    "da": "harpiks",
+    "en": "resin"
+   }
+  ],
+  "sentence": {
+   "da": "Man finder ofte **rav** på stranden efter en storm.",
+   "en": "You often find amber on the beach after a storm."
+  }
+ },
+ "realistisk": {
+  "explanation": "\"Realistisk\" means \"realistic\", based on how things really are. It is used about plans and goals that can actually be reached, and about paintings or films that look like real life.",
+  "forms": [
+   {
+    "da": "et realistisk mål",
+    "en": "a realistic goal"
+   },
+   {
+    "da": "en realistisk plan",
+    "en": "a realistic plan"
+   },
+   {
+    "da": "realistiske forventninger",
+    "en": "realistic expectations"
+   }
+  ],
+  "related": [
+   {
+    "da": "urealistisk",
+    "en": "unrealistic"
+   },
+   {
+    "da": "naturtro",
+    "en": "lifelike"
+   },
+   {
+    "da": "nøgtern",
+    "en": "sober, down-to-earth"
+   }
+  ],
+  "sentence": {
+   "da": "Det er ikke **realistisk** at nå hele vejen på en time.",
+   "en": "It is not realistic to make it the whole way in an hour."
+  }
+ },
+ "regelmæssigt": {
+  "explanation": "\"Regelmæssigt\" means \"regularly\", happening again and again at steady, predictable times. It is not the same as ofte (often): you can do something often but not regularly if there is no fixed pattern.",
+  "forms": [
+   {
+    "da": "at træne regelmæssigt",
+    "en": "to exercise regularly"
+   },
+   {
+    "da": "at komme regelmæssigt",
+    "en": "to come regularly"
+   },
+   {
+    "da": "at tage medicin regelmæssigt",
+    "en": "to take medicine regularly"
+   }
+  ],
+  "related": [
+   {
+    "da": "hyppigt",
+    "en": "frequently"
+   },
+   {
+    "da": "uregelmæssigt",
+    "en": "irregularly"
+   },
+   {
+    "da": "periodisk",
+    "en": "periodically"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal motionere **regelmæssigt**, hvis du vil blive stærkere.",
+   "en": "You must exercise regularly if you want to become stronger."
+  }
+ },
+ "registreret": {
+  "explanation": "\"Registreret\" means \"registered\", written into an official list or system, for people, companies, vehicles and cases. A registered letter is not registreret but et anbefalet brev.",
+  "forms": [
+   {
+    "da": "en registreret borger",
+    "en": "a registered resident"
+   },
+   {
+    "da": "et registreret firma",
+    "en": "a registered company"
+   },
+   {
+    "da": "registrerede brugere",
+    "en": "registered users"
+   }
+  ],
+  "related": [
+   {
+    "da": "at registrere",
+    "en": "to register"
+   },
+   {
+    "da": "en registrering",
+    "en": "a registration"
+   },
+   {
+    "da": "uregistreret",
+    "en": "unregistered"
+   },
+   {
+    "da": "et register",
+    "en": "a register (list)"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er **registreret** i Danmark, så den har danske nummerplader.",
+   "en": "The car is registered in Denmark, so it has Danish license plates."
+  }
+ },
  "regn": {
   "explanation": "\"Regn\" means \"rain\", the weather itself. To say that it is raining, use Det regner (It is raining), not Det er regn.",
   "forms": [
@@ -5471,6 +9615,45 @@
   "sentence": {
    "da": "Der kommer meget **regn** i dag.",
    "en": "A lot of rain is coming today."
+  }
+ },
+ "regnfuld": {
+  "explanation": "\"Regnfuld\" means \"rainy\", for a day, week or season with a lot of rain. It is built from en regn (rain) and -fuld (full of), as in fredfuld (peaceful).",
+  "forms": [
+   {
+    "da": "en regnfuld dag",
+    "en": "a rainy day"
+   },
+   {
+    "da": "et regnfuldt efterår",
+    "en": "a rainy fall"
+   },
+   {
+    "da": "regnfulde uger",
+    "en": "rainy weeks"
+   }
+  ],
+  "related": [
+   {
+    "da": "våd",
+    "en": "wet"
+   },
+   {
+    "da": "skyet",
+    "en": "cloudy"
+   },
+   {
+    "da": "tør",
+    "en": "dry"
+   },
+   {
+    "da": "solrig",
+    "en": "sunny"
+   }
+  ],
+  "sentence": {
+   "da": "Det blev en **regnfuld** sommer, så vi var mest indendørs.",
+   "en": "It became a rainy summer, so we were mostly indoors."
   }
  },
  "regnfuldt": {
@@ -5629,6 +9812,41 @@
    "en": "I like eating fish and shrimp from the sea."
   }
  },
+ "relativt": {
+  "explanation": "\"Relativt\" means \"relatively\", placed before a word to say it is so compared with what is normal. It is softer than meget (very): relativt dyr (fairly expensive) is less strong than meget dyr (very expensive).",
+  "forms": [
+   {
+    "da": "relativt billig",
+    "en": "relatively cheap"
+   },
+   {
+    "da": "relativt stor",
+    "en": "relatively big"
+   },
+   {
+    "da": "relativt nem",
+    "en": "relatively easy"
+   }
+  ],
+  "related": [
+   {
+    "da": "ganske",
+    "en": "quite"
+   },
+   {
+    "da": "forholdsvis",
+    "en": "comparatively"
+   },
+   {
+    "da": "nogenlunde",
+    "en": "reasonably"
+   }
+  ],
+  "sentence": {
+   "da": "Prisen er **relativt** lav, når man tænker på kvaliteten.",
+   "en": "The price is relatively low when you think about the quality."
+  }
+ },
  "relevant": {
   "explanation": "\"Relevant\" means \"relevant\", for something that fits the topic and matters in the situation. It is often said about questions, facts and information: Det er ikke relevant (That is not relevant).",
   "forms": [
@@ -5666,6 +9884,45 @@
   "sentence": {
    "da": "Dit spørgsmål er **relevant**, men vi har ikke tid.",
    "en": "Your question is relevant, but we do not have time."
+  }
+ },
+ "religiøs": {
+  "explanation": "\"Religiøs\" means \"religious\", about faith and its practices, for people and for things like holidays, music and symbols. For a person, Danes also say troende (a believer): Hun er troende (She is a believer).",
+  "forms": [
+   {
+    "da": "en religiøs sang",
+    "en": "a religious song"
+   },
+   {
+    "da": "et religiøst symbol",
+    "en": "a religious symbol"
+   },
+   {
+    "da": "religiøse traditioner",
+    "en": "religious traditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en religion",
+    "en": "a religion"
+   },
+   {
+    "da": "kirkelig",
+    "en": "of the church"
+   },
+   {
+    "da": "verdslig",
+    "en": "secular"
+   },
+   {
+    "da": "spirituel",
+    "en": "spiritual"
+   }
+  ],
+  "sentence": {
+   "da": "Jul er en **religiøs** højtid for kristne, men mange fejrer den alligevel.",
+   "en": "Christmas is a religious holiday for Christians, but many celebrate it anyway."
   }
  },
  "remoulade": {
@@ -5898,6 +10155,193 @@
    "en": "Today we eat leftovers from yesterday's dinner."
   }
  },
+ "retfærdig": {
+  "explanation": "\"Retfærdig\" means \"fair\" or \"just\", for decisions, people and punishments that treat everyone as they deserve. The opposite is uretfærdig (unfair). In everyday talk, Danes also use fair itself: Det er ikke fair (That is not fair).",
+  "forms": [
+   {
+    "da": "en retfærdig dom",
+    "en": "a fair verdict"
+   },
+   {
+    "da": "et retfærdigt samfund",
+    "en": "a just society"
+   },
+   {
+    "da": "retfærdige regler",
+    "en": "fair rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "rimelig",
+    "en": "reasonable"
+   },
+   {
+    "da": "lige",
+    "en": "equal"
+   },
+   {
+    "da": "upartisk",
+    "en": "impartial"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren er **retfærdig** og giver alle de samme chancer.",
+   "en": "The teacher is fair and gives everyone the same chances."
+  }
+ },
+ "retfærdighed": {
+  "explanation": "\"En retfærdighed\" means \"justice\", the idea that people are treated fairly and get what they deserve. It is the word that goes with retfærdig (fair), and it is mostly used without en: Der skal være retfærdighed (There must be justice).",
+  "forms": [
+   {
+    "da": "en retfærdighed",
+    "en": "a justice"
+   },
+   {
+    "da": "retfærdigheden",
+    "en": "the justice"
+   },
+   {
+    "da": "social retfærdighed",
+    "en": "social justice"
+   }
+  ],
+  "related": [
+   {
+    "da": "en uretfærdighed",
+    "en": "an injustice"
+   },
+   {
+    "da": "en rettighed",
+    "en": "a right (entitlement)"
+   },
+   {
+    "da": "en lov",
+    "en": "a law"
+   }
+  ],
+  "sentence": {
+   "da": "**Retfærdighed** betyder, at alle behandles ens.",
+   "en": "Justice means that everyone is treated equally."
+  }
+ },
+ "retskrivning": {
+  "explanation": "\"En retskrivning\" means \"spelling rules\": the official rules for how words are written. It is built from ret (correct) and skrivning (writing). In Denmark, Dansk Sprognævn (the Danish Language Council) sets the rules and publishes them in Retskrivningsordbogen (the official dictionary).",
+  "forms": [
+   {
+    "da": "en retskrivning",
+    "en": "a spelling system"
+   },
+   {
+    "da": "retskrivningen",
+    "en": "the spelling system"
+   },
+   {
+    "da": "retskrivninger",
+    "en": "spelling systems"
+   },
+   {
+    "da": "retskrivningerne",
+    "en": "the spelling systems"
+   }
+  ],
+  "related": [
+   {
+    "da": "grammatik",
+    "en": "grammar"
+   },
+   {
+    "da": "tegnsætning",
+    "en": "punctuation"
+   },
+   {
+    "da": "ortografi",
+    "en": "orthography"
+   },
+   {
+    "da": "et komma",
+    "en": "a comma"
+   }
+  ],
+  "sentence": {
+   "da": "Reglerne i dansk **retskrivning** hjælper os med at stave rigtigt.",
+   "en": "The rules of Danish spelling help us spell correctly."
+  }
+ },
+ "retssikkerhed": {
+  "explanation": "\"En retssikkerhed\" means \"legal certainty\": the protection that makes sure everyone is treated by the same fair rules and can defend themselves. It is built from rets (of the law) and sikkerhed (security). You mostly hear it in political debates.",
+  "forms": [
+   {
+    "da": "en retssikkerhed",
+    "en": "a legal certainty"
+   },
+   {
+    "da": "retssikkerheden",
+    "en": "the legal certainty"
+   },
+   {
+    "da": "borgernes retssikkerhed",
+    "en": "the citizens' legal protection"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rettighed",
+    "en": "a right"
+   },
+   {
+    "da": "retfærdighed",
+    "en": "justice"
+   },
+   {
+    "da": "en retsstat",
+    "en": "a state under the rule of law"
+   },
+   {
+    "da": "en domstol",
+    "en": "a court"
+   }
+  ],
+  "sentence": {
+   "da": "Uden **retssikkerhed** kan man blive straffet uden en fair rettergang.",
+   "en": "Without legal certainty, you can be punished without a fair trial."
+  }
+ },
+ "ridning": {
+  "explanation": "\"Ridning\" means \"horse riding\", the sport or hobby. A single outing is called en ridetur (a ride): Vi tog på en ridetur (We went on a ride). It is built on at ride (to ride).",
+  "forms": [
+   {
+    "da": "ridning",
+    "en": "horse riding"
+   },
+   {
+    "da": "ridningen",
+    "en": "the horse riding"
+   },
+   {
+    "da": "at gå til ridning",
+    "en": "to take riding lessons"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rytter",
+    "en": "a rider"
+   },
+   {
+    "da": "en rideskole",
+    "en": "a riding school"
+   },
+   {
+    "da": "en ridehest",
+    "en": "a riding horse"
+   }
+  ],
+  "sentence": {
+   "da": "Til **ridning** skal man bruge en hest og en hjelm.",
+   "en": "For horse riding you need a horse and a helmet."
+  }
+ },
  "rig": {
   "explanation": "\"Rig\" means \"rich\", having a lot of money, but it also means rich in other things: en rig historie is a rich story. Do not mix it up with et rige (a kingdom), which looks almost the same.",
   "forms": [
@@ -5931,6 +10375,84 @@
   "sentence": {
    "da": "Han er meget **rig** og har mange penge.",
    "en": "He is very rich and has a lot of money."
+  }
+ },
+ "rigdom": {
+  "explanation": "\"En rigdom\" means \"wealth\": a large amount of money or valuable things. It can also be about things that are not money: en rigdom af detaljer (a wealth of details).",
+  "forms": [
+   {
+    "da": "en rigdom",
+    "en": "a wealth"
+   },
+   {
+    "da": "rigdommen",
+    "en": "the wealth"
+   },
+   {
+    "da": "rigdomme",
+    "en": "riches"
+   },
+   {
+    "da": "rigdommene",
+    "en": "the riches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en formue",
+    "en": "a fortune"
+   },
+   {
+    "da": "velstand",
+    "en": "prosperity"
+   },
+   {
+    "da": "fattigdom",
+    "en": "poverty"
+   },
+   {
+    "da": "rig",
+    "en": "rich"
+   }
+  ],
+  "sentence": {
+   "da": "Landets **rigdom** kommer fra olie og fiskeri.",
+   "en": "The country's wealth comes from oil and fishing."
+  }
+ },
+ "rigeligt": {
+  "explanation": "\"Rigeligt\" means \"plenty\", more than needed. It is also a polite answer when you are offered more: Mere kaffe? Nej tak, jeg har rigeligt (More coffee? No thanks, I have plenty).",
+  "forms": [
+   {
+    "da": "rigeligt med tid",
+    "en": "plenty of time"
+   },
+   {
+    "da": "rigeligt med plads",
+    "en": "plenty of room"
+   },
+   {
+    "da": "Det er rigeligt",
+    "en": "That is plenty"
+   }
+  ],
+  "related": [
+   {
+    "da": "nok",
+    "en": "enough"
+   },
+   {
+    "da": "masser",
+    "en": "lots"
+   },
+   {
+    "da": "tilstrækkelig",
+    "en": "sufficient"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har **rigeligt** med mad, så alle kan blive mætte.",
+   "en": "We have plenty of food, so everyone can get full."
   }
  },
  "rigtig": {
@@ -6046,6 +10568,80 @@
    "en": "I boil rice and make chicken for dinner."
   }
  },
+ "risengrød": {
+  "explanation": "\"En risengrød\" means \"rice porridge\", rice cooked slowly in milk and eaten warm. It is a meal, not a dessert. The cold dessert made from it at Christmas is risalamande.",
+  "forms": [
+   {
+    "da": "en risengrød",
+    "en": "a rice porridge"
+   },
+   {
+    "da": "risengrøden",
+    "en": "the rice porridge"
+   },
+   {
+    "da": "en skål risengrød",
+    "en": "a bowl of rice porridge"
+   }
+  ],
+  "related": [
+   {
+    "da": "en havregrød",
+    "en": "an oatmeal dish"
+   },
+   {
+    "da": "en rødgrød",
+    "en": "a red berry pudding"
+   },
+   {
+    "da": "en semulegrød",
+    "en": "a semolina porridge"
+   }
+  ],
+  "sentence": {
+   "da": "Til frokost spiser vi **risengrød** med smør, sukker og kanel.",
+   "en": "For lunch we eat rice porridge with butter, sugar and cinnamon."
+  }
+ },
+ "risikabel": {
+  "explanation": "\"Risikabel\" means \"risky\", with a real chance that something goes wrong or is lost. It is about a choice or plan, while farlig (dangerous) is about things that can hurt you.",
+  "forms": [
+   {
+    "da": "en risikabel investering",
+    "en": "a risky investment"
+   },
+   {
+    "da": "et risikabelt træk",
+    "en": "a risky move"
+   },
+   {
+    "da": "risikable lån",
+    "en": "risky loans"
+   }
+  ],
+  "related": [
+   {
+    "da": "usikker",
+    "en": "uncertain"
+   },
+   {
+    "da": "vovet",
+    "en": "daring"
+   },
+   {
+    "da": "en risiko",
+    "en": "a risk"
+   },
+   {
+    "da": "sikker",
+    "en": "safe"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **risikabel** plan, for vi kan miste alle pengene.",
+   "en": "It is a risky plan, because we could lose all the money."
+  }
+ },
  "ro": {
   "explanation": "\"Ro\" means \"calm\" and \"peace and quiet\", something you can have or find. To tell someone to relax, say Slap af (Relax).",
   "forms": [
@@ -6087,6 +10683,45 @@
   "sentence": {
    "da": "Jeg vil gerne have **ro**, når jeg læser.",
    "en": "I would like some peace and quiet when I read."
+  }
+ },
+ "robust": {
+  "explanation": "\"Robust\" means \"robust\", able to take hard use without breaking or getting ill. It is used for objects and materials, and for a person who does not get sick or upset easily.",
+  "forms": [
+   {
+    "da": "en robust cykel",
+    "en": "a robust bike"
+   },
+   {
+    "da": "et robust materiale",
+    "en": "a robust material"
+   },
+   {
+    "da": "robuste sko",
+    "en": "sturdy shoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "stærk",
+    "en": "strong"
+   },
+   {
+    "da": "solid",
+    "en": "solid"
+   },
+   {
+    "da": "holdbar",
+    "en": "durable"
+   },
+   {
+    "da": "skrøbelig",
+    "en": "fragile"
+   }
+  ],
+  "sentence": {
+   "da": "Telefonen er **robust**, så den kan tåle et fald.",
+   "en": "The phone is robust, so it can survive a fall."
   }
  },
  "rock": {
@@ -6272,6 +10907,41 @@
    "en": "It is romantic to go for a walk by the sea."
   }
  },
+ "roning": {
+  "explanation": "\"Roning\" means \"rowing\", the sport of moving a boat forward with your own muscle power. Rowers sit facing backward, which is the main difference from paddling.",
+  "forms": [
+   {
+    "da": "roning",
+    "en": "rowing"
+   },
+   {
+    "da": "roningen",
+    "en": "the rowing"
+   },
+   {
+    "da": "at gå til roning",
+    "en": "to do rowing (as a club sport)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ro",
+    "en": "to pull the oars"
+   },
+   {
+    "da": "en robåd",
+    "en": "a rowboat"
+   },
+   {
+    "da": "en roer",
+    "en": "a rower"
+   }
+  ],
+  "sentence": {
+   "da": "Til **roning** bruger man årer og sin egen muskelkraft.",
+   "en": "For rowing you use oars and your own muscle power."
+  }
+ },
  "ros": {
   "explanation": "\"Ros\" means \"praise\", words that tell someone they did well: Eleven fik ros fra læreren (The student got praise from the teacher).",
   "forms": [
@@ -6311,6 +10981,45 @@
    "en": "She got a lot of praise for her work."
   }
  },
+ "rug": {
+  "explanation": "\"En rug\" means \"rye\", a cereal crop grown for its flour. Danes use it above all for the dark bread called rugbrød (rye bread).",
+  "forms": [
+   {
+    "da": "en rug",
+    "en": "a rye plant"
+   },
+   {
+    "da": "rugen",
+    "en": "the rye"
+   },
+   {
+    "da": "en mark med rug",
+    "en": "a field of rye"
+   }
+  ],
+  "related": [
+   {
+    "da": "hvede",
+    "en": "wheat"
+   },
+   {
+    "da": "byg",
+    "en": "barley"
+   },
+   {
+    "da": "havre",
+    "en": "oats"
+   },
+   {
+    "da": "et korn",
+    "en": "a grain"
+   }
+  ],
+  "sentence": {
+   "da": "Mel af **rug** gør brødet mørkt og tungt.",
+   "en": "Flour made from rye makes the bread dark and heavy."
+  }
+ },
  "rugbrød": {
   "explanation": "\"Rugbrød\" means \"rye bread\", a dark, heavy bread. It is made of rug (rye) and brød (bread). It is the usual base for smørrebrød (open sandwiches).",
   "forms": [
@@ -6348,6 +11057,41 @@
   "sentence": {
    "da": "Jeg lægger ost på en skive **rugbrød**.",
    "en": "I put cheese on a slice of rye bread."
+  }
+ },
+ "rummelig": {
+  "explanation": "\"Rummelig\" means \"spacious\", with a lot of room inside, for places and things you put people or objects into. It is built on et rum (a room, a space).",
+  "forms": [
+   {
+    "da": "en rummelig stue",
+    "en": "a spacious living room"
+   },
+   {
+    "da": "et rummeligt skab",
+    "en": "a spacious cupboard"
+   },
+   {
+    "da": "rummelige lejligheder",
+    "en": "spacious apartments"
+   }
+  ],
+  "related": [
+   {
+    "da": "stor",
+    "en": "big"
+   },
+   {
+    "da": "trang",
+    "en": "cramped"
+   },
+   {
+    "da": "luftig",
+    "en": "airy"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er **rummelig**, og der er plads til hele familien.",
+   "en": "The car is spacious, and there is room for the whole family."
   }
  },
  "rund": {
@@ -6529,6 +11273,119 @@
    "en": "Her apartment is always tidy and nice."
   }
  },
+ "rynket": {
+  "explanation": "\"Rynket\" means \"wrinkled\", with small folds or lines in a surface, for skin and clothes. It comes from at rynke (to wrinkle): at rynke panden is to frown (to wrinkle the forehead).",
+  "forms": [
+   {
+    "da": "en rynket hud",
+    "en": "wrinkled skin"
+   },
+   {
+    "da": "et rynket stykke stof",
+    "en": "a wrinkled piece of cloth"
+   },
+   {
+    "da": "rynkede bukser",
+    "en": "wrinkled pants"
+   }
+  ],
+  "related": [
+   {
+    "da": "strøget",
+    "en": "ironed"
+   },
+   {
+    "da": "glat",
+    "en": "smooth"
+   },
+   {
+    "da": "krøllet",
+    "en": "creased"
+   }
+  ],
+  "sentence": {
+   "da": "Skjorten er helt **rynket**, så jeg må stryge den.",
+   "en": "The shirt is all wrinkled, so I have to iron it."
+  }
+ },
+ "rystende": {
+  "explanation": "\"Rystende\" means \"shocking\": so upsetting that it shakes you. It comes from at ryste (to shake), and it can also mean literally shaking, as in rystende hænder (trembling hands).",
+  "forms": [
+   {
+    "da": "en rystende oplevelse",
+    "en": "a shocking experience"
+   },
+   {
+    "da": "et rystende syn",
+    "en": "a shocking sight"
+   },
+   {
+    "da": "rystende nyheder",
+    "en": "shocking news"
+   }
+  ],
+  "related": [
+   {
+    "da": "chokerende",
+    "en": "startling"
+   },
+   {
+    "da": "forfærdelig",
+    "en": "terrible"
+   },
+   {
+    "da": "oprørende",
+    "en": "outrageous"
+   },
+   {
+    "da": "bevægende",
+    "en": "moving"
+   }
+  ],
+  "sentence": {
+   "da": "Billederne fra ulykken var **rystende**, og mange græd.",
+   "en": "The pictures from the accident were shocking, and many cried."
+  }
+ },
+ "rystet": {
+  "explanation": "\"Rystet\" means \"shaken\", deeply troubled after a shock such as an accident or bad news. It comes from at ryste (to shake), but here it describes your inner state.",
+  "forms": [
+   {
+    "da": "en rystet mand",
+    "en": "a shaken man"
+   },
+   {
+    "da": "et rystet vidne",
+    "en": "a shaken witness"
+   },
+   {
+    "da": "rystede naboer",
+    "en": "shaken neighbors"
+   }
+  ],
+  "related": [
+   {
+    "da": "chokeret",
+    "en": "shocked"
+   },
+   {
+    "da": "forskrækket",
+    "en": "frightened"
+   },
+   {
+    "da": "berørt",
+    "en": "affected"
+   },
+   {
+    "da": "oprevet",
+    "en": "upset, stirred up"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var meget **rystet** efter den alvorlige ulykke på motorvejen.",
+   "en": "She was very shaken after the serious accident on the highway."
+  }
+ },
  "rå": {
   "explanation": "\"Rå\" means \"raw\" for food. It also means \"crude\" or \"rough\" for words and behavior: et råt sprog (rough language).",
   "forms": [
@@ -6566,6 +11423,41 @@
   "sentence": {
    "da": "Jeg kan ikke lide **rå** løg.",
    "en": "I do not like raw onions."
+  }
+ },
+ "rædselsslagen": {
+  "explanation": "\"Rædselsslagen\" means \"terrified\", very strongly afraid. It is built from en rædsel (a horror) and slagen (struck), so it is literally \"struck by horror\". It is much stronger than bange (afraid).",
+  "forms": [
+   {
+    "da": "en rædselsslagen mand",
+    "en": "a terrified man"
+   },
+   {
+    "da": "et rædselsslagent barn",
+    "en": "a terrified child"
+   },
+   {
+    "da": "rædselsslagne gæster",
+    "en": "terrified guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "skræmt",
+    "en": "scared"
+   },
+   {
+    "da": "panisk",
+    "en": "panicked"
+   },
+   {
+    "da": "forfærdet",
+    "en": "horrified"
+   }
+  ],
+  "sentence": {
+   "da": "Hun blev **rædselsslagen**, da hun så slangen på gulvet.",
+   "en": "She became terrified when she saw the snake on the floor."
   }
  },
  "rød": {
@@ -6607,6 +11499,76 @@
    "en": "The tomato is red."
   }
  },
+ "rødgrød": {
+  "explanation": "\"En rødgrød\" means \"red berry pudding\", a thick dessert of cooked red berries, eaten cold with cream. Despite the ending grød (porridge), it has no grain in it: it is thickened berry juice.",
+  "forms": [
+   {
+    "da": "en rødgrød",
+    "en": "a red berry pudding"
+   },
+   {
+    "da": "rødgrøden",
+    "en": "the red berry pudding"
+   },
+   {
+    "da": "en skål rødgrød",
+    "en": "a bowl of red berry pudding"
+   }
+  ],
+  "related": [
+   {
+    "da": "en risengrød",
+    "en": "a warm rice dish"
+   },
+   {
+    "da": "et jordbær",
+    "en": "a strawberry"
+   },
+   {
+    "da": "et hindbær",
+    "en": "a raspberry"
+   }
+  ],
+  "sentence": {
+   "da": "Til dessert fik vi kold **rødgrød** med fløde.",
+   "en": "For dessert we had cold red berry pudding with cream."
+  }
+ },
+ "rødhåret": {
+  "explanation": "\"Rødhåret\" means \"red-haired\", with red or ginger hair. Many hair words are built the same way, from a color or a quality plus hår (hair): lyshåret (fair-haired), mørkhåret (dark-haired), gråhåret (gray-haired).",
+  "forms": [
+   {
+    "da": "en rødhåret pige",
+    "en": "a red-haired girl"
+   },
+   {
+    "da": "et rødhåret barn",
+    "en": "a red-haired child"
+   },
+   {
+    "da": "rødhårede drenge",
+    "en": "red-haired boys"
+   }
+  ],
+  "related": [
+   {
+    "da": "blond",
+    "en": "blond"
+   },
+   {
+    "da": "skaldet",
+    "en": "bald"
+   },
+   {
+    "da": "krøllet",
+    "en": "curly"
+   }
+  ],
+  "sentence": {
+   "da": "Min lillesøster er **rødhåret**, og hendes hår er næsten orange.",
+   "en": "My little sister is red-haired, and her hair is almost orange."
+  }
+ },
  "røg": {
   "explanation": "\"Røg\" means \"smoke\", the gray cloud that comes from burning things, such as a cigarette.",
   "forms": [
@@ -6644,6 +11606,80 @@
   "sentence": {
    "da": "Jeg kan se **røg** fra skorstenen.",
    "en": "I can see smoke from the chimney."
+  }
+ },
+ "rørende": {
+  "explanation": "\"Rørende\" means \"touching\" or \"moving\", which makes you feel warm or tearful. It comes from at røre (to touch, to stir). How you feel is rørt (moved): Jeg blev rørt (I was moved).",
+  "forms": [
+   {
+    "da": "en rørende film",
+    "en": "a touching movie"
+   },
+   {
+    "da": "et rørende øjeblik",
+    "en": "a touching moment"
+   },
+   {
+    "da": "rørende ord",
+    "en": "touching words"
+   }
+  ],
+  "related": [
+   {
+    "da": "gribende",
+    "en": "gripping"
+   },
+   {
+    "da": "sentimental",
+    "en": "sentimental"
+   },
+   {
+    "da": "følsom",
+    "en": "sensitive"
+   }
+  ],
+  "sentence": {
+   "da": "Talen var **rørende**, og flere i salen græd.",
+   "en": "The speech was touching, and several people in the hall cried."
+  }
+ },
+ "rørsukker": {
+  "explanation": "\"Et rørsukker\" means \"cane sugar\", in contrast to the sugar in Danish shops, which usually comes from sugar beets. The word is built on et rør (a reed, a cane).",
+  "forms": [
+   {
+    "da": "et rørsukker",
+    "en": "a cane sugar"
+   },
+   {
+    "da": "rørsukkeret",
+    "en": "the cane sugar"
+   },
+   {
+    "da": "en pose rørsukker",
+    "en": "a bag of cane sugar"
+   }
+  ],
+  "related": [
+   {
+    "da": "farin",
+    "en": "brown sugar"
+   },
+   {
+    "da": "flormelis",
+    "en": "powdered sugar"
+   },
+   {
+    "da": "honning",
+    "en": "honey"
+   },
+   {
+    "da": "sirup",
+    "en": "syrup"
+   }
+  ],
+  "sentence": {
+   "da": "**Rørsukker** laves af planten sukkerrør, som vokser i varme lande.",
+   "en": "Cane sugar is made from the plant sugarcane, which grows in warm countries."
   }
  },
  "rørt": {

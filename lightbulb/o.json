@@ -1,4 +1,637 @@
 {
+ "at observere": {
+  "explanation": "\"At observere\" means \"to observe\", to watch something closely in order to learn from it. It is used for science, nature and police work: at observere fuglene (to observe the birds).",
+  "forms": [
+   {
+    "da": "at observere",
+    "en": "to observe"
+   },
+   {
+    "da": "jeg observerer",
+    "en": "I observe"
+   },
+   {
+    "da": "jeg observerede",
+    "en": "I observed"
+   },
+   {
+    "da": "jeg har observeret",
+    "en": "I have observed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en observation",
+    "en": "an observation"
+   },
+   {
+    "da": "at iagttage",
+    "en": "to watch closely"
+   },
+   {
+    "da": "at overvåge",
+    "en": "to monitor"
+   },
+   {
+    "da": "at overse",
+    "en": "to overlook"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen vil **observere** patienten natten over.",
+   "en": "The doctor wants to observe the patient overnight."
+  }
+ },
+ "at offentliggøre": {
+  "explanation": "\"At offentliggøre\" means \"to publish / make public\", to let everyone know something that was private. It is used for results, lists and decisions: Regeringen offentliggør planen (The government makes the plan public).",
+  "forms": [
+   {
+    "da": "at offentliggøre",
+    "en": "to publish / make public"
+   },
+   {
+    "da": "jeg offentliggør",
+    "en": "I publish / make public"
+   },
+   {
+    "da": "jeg offentliggjorde",
+    "en": "I published / made public"
+   },
+   {
+    "da": "jeg har offentliggjort",
+    "en": "I have published / made public"
+   }
+  ],
+  "related": [
+   {
+    "da": "en offentliggørelse",
+    "en": "a publication / release"
+   },
+   {
+    "da": "hemmelig",
+    "en": "secret"
+   },
+   {
+    "da": "at udgive",
+    "en": "to publish (a book)"
+   },
+   {
+    "da": "at afsløre",
+    "en": "to reveal"
+   }
+  ],
+  "sentence": {
+   "da": "Avisen vil **offentliggøre** resultaterne på mandag.",
+   "en": "The newspaper will publish the results on Monday."
+  }
+ },
+ "at ofre": {
+  "explanation": "\"At ofre\" means \"to sacrifice\", to give up something valuable for a person or a goal. It can be time or money: Hun ofrer sin weekend (She gives up her weekend). It is also used for an offering to a god: at ofre til guderne (to make an offering to the gods).",
+  "forms": [
+   {
+    "da": "at ofre",
+    "en": "to sacrifice"
+   },
+   {
+    "da": "jeg ofrer",
+    "en": "I sacrifice"
+   },
+   {
+    "da": "jeg ofrede",
+    "en": "I sacrificed"
+   },
+   {
+    "da": "jeg har ofret",
+    "en": "I have sacrificed"
+   }
+  ],
+  "related": [
+   {
+    "da": "et offer",
+    "en": "a sacrifice / victim"
+   },
+   {
+    "da": "at undvære",
+    "en": "to do without"
+   },
+   {
+    "da": "selvopofrende",
+    "en": "self-sacrificing"
+   },
+   {
+    "da": "at skænke",
+    "en": "to give / donate"
+   }
+  ],
+  "sentence": {
+   "da": "Mange forældre vil **ofre** alt for deres børn.",
+   "en": "Many parents will sacrifice everything for their children."
+  }
+ },
+ "at omdanne": {
+  "explanation": "\"At omdanne\" means \"to transform\", to change something completely into a new form or use. Om (over) at the start carries the idea of making it over into something different. It fits people and ideas too: Oplevelsen omdannede ham (The experience transformed him).",
+  "forms": [
+   {
+    "da": "at omdanne",
+    "en": "to transform"
+   },
+   {
+    "da": "jeg omdanner",
+    "en": "I transform"
+   },
+   {
+    "da": "jeg omdannede",
+    "en": "I transformed"
+   },
+   {
+    "da": "jeg har omdannet",
+    "en": "I have transformed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at omskabe",
+    "en": "to reshape"
+   },
+   {
+    "da": "at ændre",
+    "en": "to alter"
+   },
+   {
+    "da": "en ombygning",
+    "en": "a rebuilding"
+   },
+   {
+    "da": "at bevare",
+    "en": "to preserve"
+   }
+  ],
+  "sentence": {
+   "da": "De vil **omdanne** den gamle fabrik til billige lejligheder.",
+   "en": "They want to turn the old factory into cheap apartments."
+  }
+ },
+ "at omfatte": {
+  "explanation": "\"At omfatte\" means \"to include\", used when a whole is made up of certain parts or covers a range. The whole is the one that does it, not a person: Kurset omfatter fem emner (The course covers five topics).",
+  "forms": [
+   {
+    "da": "at omfatte",
+    "en": "to include"
+   },
+   {
+    "da": "det omfatter",
+    "en": "it includes"
+   },
+   {
+    "da": "det omfattede",
+    "en": "it included"
+   },
+   {
+    "da": "det har omfattet",
+    "en": "it has included"
+   }
+  ],
+  "related": [
+   {
+    "da": "at indeholde",
+    "en": "to contain"
+   },
+   {
+    "da": "at rumme",
+    "en": "to hold"
+   },
+   {
+    "da": "at udelukke",
+    "en": "to exclude"
+   },
+   {
+    "da": "et omfang",
+    "en": "an extent"
+   }
+  ],
+  "sentence": {
+   "da": "Billetten kan **omfatte** både mad og drikke.",
+   "en": "The ticket can include both food and drinks."
+  }
+ },
+ "at omformulere": {
+  "explanation": "\"At omformulere\" means \"to rephrase\", to say or write the same thing again in other words. You do it when your first version was unclear or did not suit the situation. Om (over, again) gives the idea of a new version of the same message.",
+  "forms": [
+   {
+    "da": "at omformulere",
+    "en": "to rephrase"
+   },
+   {
+    "da": "jeg omformulerer",
+    "en": "I rephrase"
+   },
+   {
+    "da": "jeg omformulerede",
+    "en": "I rephrased"
+   },
+   {
+    "da": "jeg har omformuleret",
+    "en": "I have rephrased"
+   }
+  ],
+  "related": [
+   {
+    "da": "at omskrive",
+    "en": "to rewrite"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "en formulering",
+    "en": "a wording"
+   },
+   {
+    "da": "at gentage",
+    "en": "to repeat"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis folk ikke forstår dig, må du **omformulere** spørgsmålet.",
+   "en": "If people do not understand you, you have to rephrase the question."
+  }
+ },
+ "at omgive": {
+  "explanation": "\"At omgive\" means \"to surround\": to be on all sides of something: En mur omgiver byen (A wall surrounds the town). You often see it as omgivet af (surrounded by): Huset er omgivet af skov (The house is surrounded by forest).",
+  "forms": [
+   {
+    "da": "at omgive",
+    "en": "to surround"
+   },
+   {
+    "da": "jeg omgiver",
+    "en": "I surround"
+   },
+   {
+    "da": "jeg omgav",
+    "en": "I surrounded"
+   },
+   {
+    "da": "jeg har omgivet",
+    "en": "I have surrounded"
+   }
+  ],
+  "related": [
+   {
+    "da": "omgivelserne",
+    "en": "the surroundings"
+   },
+   {
+    "da": "at omringe",
+    "en": "to encircle"
+   },
+   {
+    "da": "et hegn",
+    "en": "a fence"
+   },
+   {
+    "da": "at indhegne",
+    "en": "to fence in"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan **omgive** en have med en grøn hæk.",
+   "en": "You can surround a garden with a green hedge."
+  }
+ },
+ "at omgå": {
+  "explanation": "\"At omgå\" means \"to bypass\" or \"to get around\" a problem, a rule or an obstacle, often by finding a clever way past: omgå et problem (get around a problem). Do not confuse it with at omgås (to socialize), which only adds an s.",
+  "forms": [
+   {
+    "da": "at omgå",
+    "en": "to bypass / get around"
+   },
+   {
+    "da": "jeg omgår",
+    "en": "I bypass / get around"
+   },
+   {
+    "da": "jeg omgik",
+    "en": "I bypassed / got around"
+   },
+   {
+    "da": "jeg har omgået",
+    "en": "I have bypassed / gotten around"
+   }
+  ],
+  "related": [
+   {
+    "da": "at undgå",
+    "en": "to avoid"
+   },
+   {
+    "da": "at undvige",
+    "en": "to evade"
+   },
+   {
+    "da": "en omvej",
+    "en": "a detour"
+   }
+  ],
+  "sentence": {
+   "da": "Lastbilen må **omgå** byen, fordi broen er lukket.",
+   "en": "The truck has to go around the town because the bridge is closed."
+  }
+ },
+ "at omgås": {
+  "explanation": "\"At omgås\" means \"to associate with\" or \"to socialize\": to spend time with people regularly: Jeg omgås mest folk fra arbejdet (I mostly spend time with people from work). Do not confuse it with at omgå (to bypass), which has no s.",
+  "forms": [
+   {
+    "da": "at omgås",
+    "en": "to associate with / socialize"
+   },
+   {
+    "da": "jeg omgås",
+    "en": "I associate with / socialize"
+   },
+   {
+    "da": "jeg omgikkes",
+    "en": "I associated with / socialized"
+   },
+   {
+    "da": "jeg har omgåedes",
+    "en": "I have associated with / socialized"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omgangskreds",
+    "en": "a circle of friends"
+   },
+   {
+    "da": "at mødes",
+    "en": "to meet"
+   },
+   {
+    "da": "at være sammen med",
+    "en": "to be together with"
+   }
+  ],
+  "sentence": {
+   "da": "Det er rart at **omgås** mennesker, som man har det godt med.",
+   "en": "It is nice to socialize with people you feel good with."
+  }
+ },
+ "at omringe": {
+  "explanation": "\"At omringe\" means \"to surround\", to stand on all sides of someone or something so that there is no way past. It is used for crowds and soldiers, but also for things: En mur omringer haven (A wall surrounds the garden).",
+  "forms": [
+   {
+    "da": "at omringe",
+    "en": "to surround"
+   },
+   {
+    "da": "jeg omringer",
+    "en": "I surround"
+   },
+   {
+    "da": "jeg omringede",
+    "en": "I surrounded"
+   },
+   {
+    "da": "jeg har omringet",
+    "en": "I have surrounded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at omslutte",
+    "en": "to enclose"
+   },
+   {
+    "da": "at belejre",
+    "en": "to besiege"
+   },
+   {
+    "da": "at undslippe",
+    "en": "to escape"
+   },
+   {
+    "da": "omkring",
+    "en": "around"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet vil **omringe** huset, så ingen kan flygte.",
+   "en": "The police want to surround the house so nobody can flee."
+  }
+ },
+ "at omstille sig": {
+  "explanation": "\"At omstille sig\" means \"to adapt\", to change how you work or live so that it fits a new situation, such as new rules or a new job. Sig means \"yourself\" and changes with the person: jeg omstiller mig (I adapt), du omstiller dig (you adapt), de omstiller sig (they adapt).",
+  "forms": [
+   {
+    "da": "at omstille sig",
+    "en": "to adapt"
+   },
+   {
+    "da": "jeg omstiller mig",
+    "en": "I adapt"
+   },
+   {
+    "da": "jeg omstillede mig",
+    "en": "I adapted"
+   },
+   {
+    "da": "jeg har omstillet mig",
+    "en": "I have adapted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilpasse sig",
+    "en": "to adjust"
+   },
+   {
+    "da": "at vænne sig til",
+    "en": "to get used to"
+   },
+   {
+    "da": "en omstilling",
+    "en": "a changeover"
+   },
+   {
+    "da": "at holde fast ved",
+    "en": "to stick to"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet må **omstille sig**, når kunderne vil købe på nettet.",
+   "en": "The company has to adapt when customers want to buy online."
+  }
+ },
+ "at omstrukturere": {
+  "explanation": "\"At omstrukturere\" means \"to restructure\": to arrange a company, a school or a system in a new way: Kommunen omstrukturerer sine skoler (The city is restructuring its schools). The om at the start works like \"re-\" in other words, such as at omskrive (to rewrite).",
+  "forms": [
+   {
+    "da": "at omstrukturere",
+    "en": "to restructure"
+   },
+   {
+    "da": "jeg omstrukturerer",
+    "en": "I restructure"
+   },
+   {
+    "da": "jeg omstrukturerede",
+    "en": "I restructured"
+   },
+   {
+    "da": "jeg har omstruktureret",
+    "en": "I have restructured"
+   }
+  ],
+  "related": [
+   {
+    "da": "at omorganisere",
+    "en": "to reorganize"
+   },
+   {
+    "da": "at omlægge",
+    "en": "to rearrange"
+   },
+   {
+    "da": "at omdanne",
+    "en": "to transform"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet er nødt til at **omstrukturere**, fordi salget falder.",
+   "en": "The company has to restructure because sales are falling."
+  }
+ },
+ "at omtale": {
+  "explanation": "\"At omtale\" means \"to mention\" or \"to refer to\", to speak of a person or thing, often in a newspaper or in public. With som it says how someone is seen: Hun omtales som byens bedste kok (She is referred to as the best cook in town).",
+  "forms": [
+   {
+    "da": "at omtale",
+    "en": "to mention / refer to"
+   },
+   {
+    "da": "jeg omtaler",
+    "en": "I mention / refer to"
+   },
+   {
+    "da": "jeg omtalte",
+    "en": "I mentioned / referred to"
+   },
+   {
+    "da": "jeg har omtalt",
+    "en": "I have mentioned / referred to"
+   }
+  ],
+  "related": [
+   {
+    "da": "at skrive om",
+    "en": "to write about"
+   },
+   {
+    "da": "at tale om",
+    "en": "to talk about"
+   },
+   {
+    "da": "at beskrive",
+    "en": "to describe"
+   },
+   {
+    "da": "at tie om",
+    "en": "to keep quiet about"
+   }
+  ],
+  "sentence": {
+   "da": "Aviserne kan **omtale** en ny film, før den kommer i biografen.",
+   "en": "The newspapers can mention a new film before it comes to the cinema."
+  }
+ },
+ "at opbevare": {
+  "explanation": "\"At opbevare\" means \"to store\", to keep something in a place until it is needed or so that it stays safe. It fits food, documents, tools and medicine: Mælk skal opbevares i køleskabet (Milk must be kept in the fridge).",
+  "forms": [
+   {
+    "da": "at opbevare",
+    "en": "to store"
+   },
+   {
+    "da": "jeg opbevarer",
+    "en": "I store"
+   },
+   {
+    "da": "jeg opbevarede",
+    "en": "I stored"
+   },
+   {
+    "da": "jeg har opbevaret",
+    "en": "I have stored"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gemme",
+    "en": "to save / hide"
+   },
+   {
+    "da": "et lager",
+    "en": "a warehouse"
+   },
+   {
+    "da": "et depot",
+    "en": "a depot"
+   },
+   {
+    "da": "at smide ud",
+    "en": "to throw away"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **opbevare** cyklen i kælderen om vinteren.",
+   "en": "You can store the bike in the basement in winter."
+  }
+ },
+ "at opbygge": {
+  "explanation": "\"At opbygge\" means \"to build up\", to create something that grows slowly step by step: a business, muscles or trust. For a house, use at bygge (to build) instead.",
+  "forms": [
+   {
+    "da": "at opbygge",
+    "en": "to build up"
+   },
+   {
+    "da": "jeg opbygger",
+    "en": "I build up"
+   },
+   {
+    "da": "jeg opbyggede",
+    "en": "I built up"
+   },
+   {
+    "da": "jeg har opbygget",
+    "en": "I have built up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nedbryde",
+    "en": "to break down"
+   },
+   {
+    "da": "at udvikle",
+    "en": "to develop"
+   },
+   {
+    "da": "at styrke",
+    "en": "to strengthen"
+   },
+   {
+    "da": "en opbygning",
+    "en": "a structure"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan ikke **opbygge** stærke muskler på én uge.",
+   "en": "You cannot build up strong muscles in one week."
+  }
+ },
  "at opdage": {
   "explanation": "\"At opdage\" means \"to discover\", finding or noticing something you did not know about: Jeg opdagede en fejl (I noticed a mistake). It often comes as a surprise: Hun opdagede, at tasken var væk (She discovered that the bag was gone).",
   "forms": [
@@ -81,6 +714,92 @@
    "en": "I want to update my phone tonight."
   }
  },
+ "at opdele": {
+  "explanation": "\"At opdele\" means \"to divide\", to split something into several parts or groups: Læreren opdeler klassen i fire hold (The teacher splits the class into four teams). At dele (to share) can also mean that, but it is more about giving a part to someone else.",
+  "forms": [
+   {
+    "da": "at opdele",
+    "en": "to divide"
+   },
+   {
+    "da": "jeg opdeler",
+    "en": "I divide"
+   },
+   {
+    "da": "jeg opdelte",
+    "en": "I divided"
+   },
+   {
+    "da": "jeg har opdelt",
+    "en": "I have divided"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sortere",
+    "en": "to sort"
+   },
+   {
+    "da": "at samle",
+    "en": "to collect"
+   },
+   {
+    "da": "en opdeling",
+    "en": "a division"
+   },
+   {
+    "da": "at skille ad",
+    "en": "to take apart"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **opdele** kagen i otte lige store stykker.",
+   "en": "We can divide the cake into eight equal pieces."
+  }
+ },
+ "at opdrage": {
+  "explanation": "\"At opdrage\" means \"to raise (a child)\", to teach a child how to behave and what matters in life. It is about manners and values over many years, not only about feeding and caring for the child.",
+  "forms": [
+   {
+    "da": "at opdrage",
+    "en": "to raise (a child)"
+   },
+   {
+    "da": "jeg opdrager",
+    "en": "I raise (a child)"
+   },
+   {
+    "da": "jeg opdrog",
+    "en": "I raised (a child)"
+   },
+   {
+    "da": "jeg har opdraget",
+    "en": "I have raised (a child)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opdragelse",
+    "en": "an upbringing"
+   },
+   {
+    "da": "uopdragen",
+    "en": "badly brought up"
+   },
+   {
+    "da": "at uddanne",
+    "en": "to educate"
+   },
+   {
+    "da": "at passe",
+    "en": "to look after"
+   }
+  ],
+  "sentence": {
+   "da": "Forældre skal **opdrage** deres børn til at sige tak og undskyld.",
+   "en": "Parents must raise their children to say thank you and sorry."
+  }
+ },
  "at operere": {
   "explanation": "\"At operere\" means \"to operate\", on a patient: Lægen opererer i morgen (The doctor operates tomorrow). It is also used for a business working somewhere: Firmaet opererer i Europa (The company operates in Europe).",
   "forms": [
@@ -118,6 +837,264 @@
   "sentence": {
    "da": "Lægen skal **operere** min mor i morgen.",
    "en": "The doctor is going to operate on my mother tomorrow."
+  }
+ },
+ "at opfange": {
+  "explanation": "\"At opfange\" means \"to pick up\" or \"to catch\" something that is sent or passing by, such as a sound or a message: Jeg opfangede et par ord (I caught a few words). It is used mostly for signals, sounds and information.",
+  "forms": [
+   {
+    "da": "at opfange",
+    "en": "to pick up / catch"
+   },
+   {
+    "da": "jeg opfanger",
+    "en": "I pick up / catch"
+   },
+   {
+    "da": "jeg opfangede",
+    "en": "I picked up / caught"
+   },
+   {
+    "da": "jeg har opfanget",
+    "en": "I have picked up / caught"
+   }
+  ],
+  "related": [
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   },
+   {
+    "da": "at aflytte",
+    "en": "to eavesdrop on"
+   },
+   {
+    "da": "at overhøre",
+    "en": "to overhear"
+   },
+   {
+    "da": "at opdage",
+    "en": "to detect"
+   }
+  ],
+  "sentence": {
+   "da": "Antennen kan **opfange** signaler fra satellitter langt væk.",
+   "en": "The antenna can pick up signals from far-away satellites."
+  }
+ },
+ "at opfatte": {
+  "explanation": "\"At opfatte\" means \"to perceive\", to take something in with your senses or to see it in a certain way. It is often how you read a person or situation: Hvordan opfatter du ham? (How do you see him?). It also means to catch words: Jeg opfattede ikke navnet (I did not catch the name).",
+  "forms": [
+   {
+    "da": "at opfatte",
+    "en": "to perceive"
+   },
+   {
+    "da": "jeg opfatter",
+    "en": "I perceive"
+   },
+   {
+    "da": "jeg opfattede",
+    "en": "I perceived"
+   },
+   {
+    "da": "jeg har opfattet",
+    "en": "I have perceived"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fornemme",
+    "en": "to sense"
+   },
+   {
+    "da": "at forstå",
+    "en": "to understand"
+   },
+   {
+    "da": "en opfattelse",
+    "en": "a view"
+   },
+   {
+    "da": "at misforstå",
+    "en": "to misunderstand"
+   }
+  ],
+  "sentence": {
+   "da": "Børn kan **opfatte** mere, end de voksne tror.",
+   "en": "Children can perceive more than the adults think."
+  }
+ },
+ "at opfinde": {
+  "explanation": "\"At opfinde\" means \"to invent\", to make something completely new that did not exist before. It also means to make up a story: Han opfandt en undskyldning (He made up an excuse).",
+  "forms": [
+   {
+    "da": "at opfinde",
+    "en": "to invent"
+   },
+   {
+    "da": "jeg opfinder",
+    "en": "I invent"
+   },
+   {
+    "da": "jeg opfandt",
+    "en": "I invented"
+   },
+   {
+    "da": "jeg har opfundet",
+    "en": "I have invented"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opfindelse",
+    "en": "an invention"
+   },
+   {
+    "da": "en opfinder",
+    "en": "an inventor"
+   },
+   {
+    "da": "at udvikle",
+    "en": "to develop"
+   },
+   {
+    "da": "at skabe",
+    "en": "to create"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **opfinde** en maskine, som kan rydde op.",
+   "en": "She wants to invent a machine that can tidy up."
+  }
+ },
+ "at opfordre": {
+  "explanation": "\"At opfordre\" means \"to urge\" or \"to encourage\", to ask someone strongly to do something, often in public: Politiet opfordrer folk til at blive hjemme (The police urge people to stay at home). The pattern is opfordre nogen til at (urge someone to). At opmuntre (to cheer up) is about feelings and is a different word.",
+  "forms": [
+   {
+    "da": "at opfordre",
+    "en": "to urge / encourage"
+   },
+   {
+    "da": "jeg opfordrer",
+    "en": "I urge / encourage"
+   },
+   {
+    "da": "jeg opfordrede",
+    "en": "I urged / encouraged"
+   },
+   {
+    "da": "jeg har opfordret",
+    "en": "I have urged / encouraged"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opfordring",
+    "en": "a call to act"
+   },
+   {
+    "da": "at anmode",
+    "en": "to request"
+   },
+   {
+    "da": "at kræve",
+    "en": "to demand"
+   },
+   {
+    "da": "at råde",
+    "en": "to advise"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **opfordre** alle til at stemme ved valget.",
+   "en": "We want to urge everyone to vote in the election."
+  }
+ },
+ "at opfylde": {
+  "explanation": "\"At opfylde\" means \"to fulfill\", to do what a promise, a hope or a rule asks for: Han opfyldte sit løfte (He kept his promise).",
+  "forms": [
+   {
+    "da": "at opfylde",
+    "en": "to fulfill"
+   },
+   {
+    "da": "jeg opfylder",
+    "en": "I fulfill"
+   },
+   {
+    "da": "jeg opfyldte",
+    "en": "I fulfilled"
+   },
+   {
+    "da": "jeg har opfyldt",
+    "en": "I have fulfilled"
+   }
+  ],
+  "related": [
+   {
+    "da": "et krav",
+    "en": "a requirement"
+   },
+   {
+    "da": "at overholde",
+    "en": "to comply with"
+   },
+   {
+    "da": "at indfri",
+    "en": "to deliver on"
+   },
+   {
+    "da": "at svigte",
+    "en": "to let down"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **opfylde** alle kravene, før du kan søge.",
+   "en": "You must fulfill all the requirements before you can apply."
+  }
+ },
+ "at opføre": {
+  "explanation": "\"At opføre\" means \"to build\" or \"to perform\". To build is used for larger buildings: Kommunen opfører en ny skole (The council is building a new school). To perform is used for putting on a play or a show. With sig it means \"to behave\": at opføre sig pænt (to behave nicely).",
+  "forms": [
+   {
+    "da": "at opføre",
+    "en": "to build / perform"
+   },
+   {
+    "da": "jeg opfører",
+    "en": "I build / perform"
+   },
+   {
+    "da": "jeg opførte",
+    "en": "I built / performed"
+   },
+   {
+    "da": "jeg har opført",
+    "en": "I have built / performed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rive ned",
+    "en": "to tear down"
+   },
+   {
+    "da": "en opførelse",
+    "en": "a construction"
+   },
+   {
+    "da": "at konstruere",
+    "en": "to construct"
+   },
+   {
+    "da": "at iscenesætte",
+    "en": "to stage"
+   }
+  ],
+  "sentence": {
+   "da": "Teatret vil **opføre** et stykke af Holberg i efteråret.",
+   "en": "The theater will stage a play by Holberg in the fall."
   }
  },
  "at opføre sig": {
@@ -161,6 +1138,260 @@
   "sentence": {
    "da": "Børn skal **opføre sig** pænt i skolen.",
    "en": "Children must behave nicely at school."
+  }
+ },
+ "at opgive": {
+  "explanation": "\"At opgive\" means \"to give up\", to quit trying because it seems impossible or not worth it: Hun opgav at finde nøglen (She gave up looking for the key). It is also used for stating information, like at opgive et navn (to give a name).",
+  "forms": [
+   {
+    "da": "at opgive",
+    "en": "to give up"
+   },
+   {
+    "da": "jeg opgiver",
+    "en": "I give up"
+   },
+   {
+    "da": "jeg opgav",
+    "en": "I gave up"
+   },
+   {
+    "da": "jeg har opgivet",
+    "en": "I have given up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortsætte",
+    "en": "to continue"
+   },
+   {
+    "da": "at holde ud",
+    "en": "to endure"
+   },
+   {
+    "da": "at kapitulere",
+    "en": "to capitulate"
+   },
+   {
+    "da": "at overgive sig",
+    "en": "to surrender"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil aldrig **opgive**, selv når det bliver svært.",
+   "en": "We will never give up, even when it gets hard."
+  }
+ },
+ "at opgradere": {
+  "explanation": "\"At opgradere\" means \"to upgrade\", to replace something with a newer or stronger version, like a phone, a program or a plan: Jeg opgraderer mit abonnement (I upgrade my subscription). It is built like the English word, with op (up) in front. For making something better in general, use at forbedre (to improve).",
+  "forms": [
+   {
+    "da": "at opgradere",
+    "en": "to upgrade"
+   },
+   {
+    "da": "jeg opgraderer",
+    "en": "I upgrade"
+   },
+   {
+    "da": "jeg opgraderede",
+    "en": "I upgraded"
+   },
+   {
+    "da": "jeg har opgraderet",
+    "en": "I have upgraded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opdatere",
+    "en": "to update"
+   },
+   {
+    "da": "at modernisere",
+    "en": "to modernize"
+   },
+   {
+    "da": "at nedgradere",
+    "en": "to downgrade"
+   },
+   {
+    "da": "at forny",
+    "en": "to renew"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **opgradere** telefonen, før den bliver for langsom.",
+   "en": "I want to upgrade the phone before it gets too slow."
+  }
+ },
+ "at opgøre": {
+  "explanation": "\"At opgøre\" means \"to calculate\" or \"to settle\": to add everything up and find the final amount: opgøre regnskabet (settle the accounts), opgøre skaden (calculate the damage). It is used in business, insurance and statistics, where an official number is needed.",
+  "forms": [
+   {
+    "da": "at opgøre",
+    "en": "to calculate / settle"
+   },
+   {
+    "da": "jeg opgør",
+    "en": "I calculate / settle"
+   },
+   {
+    "da": "jeg opgjorde",
+    "en": "I calculated / settled"
+   },
+   {
+    "da": "jeg har opgjort",
+    "en": "I have calculated / settled"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgørelse",
+    "en": "a statement of figures"
+   },
+   {
+    "da": "at beregne",
+    "en": "to compute"
+   },
+   {
+    "da": "at tælle op",
+    "en": "to count up"
+   }
+  ],
+  "sentence": {
+   "da": "Banken kan **opgøre** gælden, så vi ved det præcise beløb.",
+   "en": "The bank can calculate the debt so we know the exact amount."
+  }
+ },
+ "at ophæve": {
+  "explanation": "\"At ophæve\" means \"to repeal\" or \"to lift\": to officially end a rule or a decision: ophæve en lov (repeal a law), ophæve en regel (lift a rule).",
+  "forms": [
+   {
+    "da": "at ophæve",
+    "en": "to repeal / lift"
+   },
+   {
+    "da": "jeg ophæver",
+    "en": "I repeal / lift"
+   },
+   {
+    "da": "jeg ophævede",
+    "en": "I repealed / lifted"
+   },
+   {
+    "da": "jeg har ophævet",
+    "en": "I have repealed / lifted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at annullere",
+    "en": "to annul"
+   },
+   {
+    "da": "at indføre",
+    "en": "to introduce"
+   },
+   {
+    "da": "at tilbagekalde",
+    "en": "to revoke"
+   },
+   {
+    "da": "at afskaffe",
+    "en": "to abolish"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **ophæve** forbuddet mod at tage hunde med i parken.",
+   "en": "The city will lift the ban on bringing dogs to the park."
+  }
+ },
+ "at ophøre": {
+  "explanation": "\"At ophøre\" means \"to cease\", to come to an end, usually for something that has been going on: Støjen ophører klokken ti (The noise ceases at ten). It sounds official, like in letters and announcements. In everyday speech people say at holde op (to stop): Hold op! (Stop it!)",
+  "forms": [
+   {
+    "da": "at ophøre",
+    "en": "to cease"
+   },
+   {
+    "da": "det ophører",
+    "en": "it ceases"
+   },
+   {
+    "da": "det ophørte",
+    "en": "it ceased"
+   },
+   {
+    "da": "det er ophørt",
+    "en": "it has ceased"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afbryde",
+    "en": "to interrupt"
+   },
+   {
+    "da": "at fortsætte",
+    "en": "to continue"
+   },
+   {
+    "da": "at vare",
+    "en": "to last"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   }
+  ],
+  "sentence": {
+   "da": "Ordningen kan **ophøre**, hvis ingen længere bruger den.",
+   "en": "The scheme can cease if nobody uses it any more."
+  }
+ },
+ "at opklare": {
+  "explanation": "\"At opklare\" means \"to solve (a case)\", to find out the truth about a crime or a mystery. It can also mean to clear up a misunderstanding: Vi må opklare, hvad der skete (We must find out what happened). For puzzles and math problems, use at løse (to solve).",
+  "forms": [
+   {
+    "da": "at opklare",
+    "en": "to solve (a case)"
+   },
+   {
+    "da": "jeg opklarer",
+    "en": "I solve (a case)"
+   },
+   {
+    "da": "jeg opklarede",
+    "en": "I solved (a case)"
+   },
+   {
+    "da": "jeg har opklaret",
+    "en": "I have solved (a case)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at efterforske",
+    "en": "to investigate"
+   },
+   {
+    "da": "en opklaring",
+    "en": "a clearing-up"
+   },
+   {
+    "da": "en detektiv",
+    "en": "a detective"
+   },
+   {
+    "da": "at afsløre",
+    "en": "to expose"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet kan **opklare** sagen, hvis nogen har set noget.",
+   "en": "The police can solve the case if somebody has seen something."
   }
  },
  "at oplade": {
@@ -241,6 +1472,557 @@
    "en": "I would like to experience Italy one day."
   }
  },
+ "at oplyse": {
+  "explanation": "\"At oplyse\" means \"to inform\" or \"to light up\". To inform is to give someone facts, as in news from an authority: Politiet oplyser, at manden er fundet (The police say the man has been found). To light up is for places: Månen oplyser vejen (The moon lights up the road).",
+  "forms": [
+   {
+    "da": "at oplyse",
+    "en": "to inform / light up"
+   },
+   {
+    "da": "jeg oplyser",
+    "en": "I inform / light up"
+   },
+   {
+    "da": "jeg oplyste",
+    "en": "I informed / lit up"
+   },
+   {
+    "da": "jeg har oplyst",
+    "en": "I have informed / lit up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortælle",
+    "en": "to tell"
+   },
+   {
+    "da": "en oplysning",
+    "en": "a piece of information"
+   },
+   {
+    "da": "at meddele",
+    "en": "to notify"
+   },
+   {
+    "da": "at orientere",
+    "en": "to brief"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du **oplyse**, hvornår toget kommer?",
+   "en": "Can you tell me when the train comes?"
+  }
+ },
+ "at oplære": {
+  "explanation": "\"At oplære\" means \"to train\": to show a person how to do the practical work of a job, step by step: Butikken oplærer ham i at bruge kassen (The shop trains him to use the register). For sports and exercise, Danes say at træne (to work out) instead.",
+  "forms": [
+   {
+    "da": "at oplære",
+    "en": "to train"
+   },
+   {
+    "da": "jeg oplærer",
+    "en": "I train"
+   },
+   {
+    "da": "jeg oplærte",
+    "en": "I trained"
+   },
+   {
+    "da": "jeg har oplært",
+    "en": "I have trained"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oplæring",
+    "en": "a training period"
+   },
+   {
+    "da": "at undervise",
+    "en": "to teach"
+   },
+   {
+    "da": "at uddanne",
+    "en": "to educate"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal **oplære** den nye medarbejder i at bruge maskinen.",
+   "en": "She has to train the new employee to use the machine."
+  }
+ },
+ "at opmuntre": {
+  "explanation": "\"At opmuntre\" means \"to encourage\" or \"to cheer up\", to give someone courage or a better mood when they feel down: Læreren opmuntrede hende til at prøve igen (The teacher encouraged her to try again). It is about feelings. To ask someone strongly to act, use at opfordre (to urge).",
+  "forms": [
+   {
+    "da": "at opmuntre",
+    "en": "to encourage / cheer up"
+   },
+   {
+    "da": "jeg opmuntrer",
+    "en": "I encourage / cheer up"
+   },
+   {
+    "da": "jeg opmuntrede",
+    "en": "I encouraged / cheered up"
+   },
+   {
+    "da": "jeg har opmuntret",
+    "en": "I have encouraged / cheered up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at trøste",
+    "en": "to comfort"
+   },
+   {
+    "da": "at støtte",
+    "en": "to support"
+   },
+   {
+    "da": "at inspirere",
+    "en": "to inspire"
+   },
+   {
+    "da": "modløs",
+    "en": "discouraged"
+   }
+  ],
+  "sentence": {
+   "da": "Et par rare ord kan **opmuntre** en, der er ked af det.",
+   "en": "A few kind words can cheer up someone who is sad."
+  }
+ },
+ "at opnå": {
+  "explanation": "\"At opnå\" means \"to achieve\", to end up with a result through effort or time: at opnå et godt resultat (to achieve a good result). It also fits things you arrive at rather than do, like a speed or a deal: at opnå enighed (to come to an agreement).",
+  "forms": [
+   {
+    "da": "at opnå",
+    "en": "to achieve"
+   },
+   {
+    "da": "jeg opnår",
+    "en": "I achieve"
+   },
+   {
+    "da": "jeg opnåede",
+    "en": "I achieved"
+   },
+   {
+    "da": "jeg har opnået",
+    "en": "I have achieved"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nå",
+    "en": "to reach"
+   },
+   {
+    "da": "at lykkes",
+    "en": "to succeed"
+   },
+   {
+    "da": "en præstation",
+    "en": "an accomplishment"
+   },
+   {
+    "da": "at mislykkes",
+    "en": "to fail"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **opnå** en høj karakter, fordi hun læser hver dag.",
+   "en": "She wants to achieve a high grade because she studies every day."
+  }
+ },
+ "at opprioritere": {
+  "explanation": "\"At opprioritere\" means \"to prioritize higher\": to make something more important than before, with more attention and funding: opprioritere ældreplejen (give elder care more attention). The op works like \"up\" in English.",
+  "forms": [
+   {
+    "da": "at opprioritere",
+    "en": "to prioritize higher"
+   },
+   {
+    "da": "jeg opprioriterer",
+    "en": "I prioritize higher"
+   },
+   {
+    "da": "jeg opprioriterede",
+    "en": "I prioritized higher"
+   },
+   {
+    "da": "jeg har opprioriteret",
+    "en": "I have prioritized higher"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nedprioritere",
+    "en": "to deprioritize"
+   },
+   {
+    "da": "at satse på",
+    "en": "to focus on"
+   },
+   {
+    "da": "at fremhæve",
+    "en": "to emphasize"
+   },
+   {
+    "da": "at styrke",
+    "en": "to strengthen"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **opprioritere** skolerne og bruge flere penge på dem.",
+   "en": "The city will give schools higher priority and spend more money on them."
+  }
+ },
+ "at opretholde": {
+  "explanation": "\"At opretholde\" means \"to maintain\", to keep something going in the same state: order, peace, a standard or a contact. It fits things that would soon fail without effort: Vi må opretholde kontakten (We must keep up the contact). For cleaning and repairing a building or machine, use at vedligeholde (to keep in repair).",
+  "forms": [
+   {
+    "da": "at opretholde",
+    "en": "to maintain"
+   },
+   {
+    "da": "jeg opretholder",
+    "en": "I maintain"
+   },
+   {
+    "da": "jeg opretholdt",
+    "en": "I maintained"
+   },
+   {
+    "da": "jeg har opretholdt",
+    "en": "I have maintained"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bevare",
+    "en": "to preserve"
+   },
+   {
+    "da": "at fastholde",
+    "en": "to stick to"
+   },
+   {
+    "da": "at bibeholde",
+    "en": "to retain"
+   },
+   {
+    "da": "at afskaffe",
+    "en": "to abolish"
+   }
+  ],
+  "sentence": {
+   "da": "Det er svært at **opretholde** gode vaner uden en fast plan.",
+   "en": "It is hard to keep up good habits without a fixed plan."
+  }
+ },
+ "at oprette": {
+  "explanation": "\"At oprette\" means \"to set up\" or \"to create\", to make something official that did not exist before: an account, a company or a file. Jeg opretter en konto (I create an account). It is about making something exist. At opsætte (to set up) is about putting a thing in place.",
+  "forms": [
+   {
+    "da": "at oprette",
+    "en": "to set up / create"
+   },
+   {
+    "da": "jeg opretter",
+    "en": "I set up / create"
+   },
+   {
+    "da": "jeg oprettede",
+    "en": "I set up / created"
+   },
+   {
+    "da": "jeg har oprettet",
+    "en": "I have set up / created"
+   }
+  ],
+  "related": [
+   {
+    "da": "at stifte",
+    "en": "to found"
+   },
+   {
+    "da": "at etablere",
+    "en": "to establish"
+   },
+   {
+    "da": "at nedlægge",
+    "en": "to shut down"
+   },
+   {
+    "da": "at slette",
+    "en": "to delete"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **oprette** en bruger, før du kan logge ind.",
+   "en": "You have to create a user before you can log in."
+  }
+ },
+ "at opsige": {
+  "explanation": "\"At opsige\" means \"to cancel\" or \"to terminate\" something that runs over time, such as a job, a lease or a subscription, with notice: Jeg har opsagt min lejlighed (I have given notice on my apartment). For your own job, say opsige sin stilling (resign).",
+  "forms": [
+   {
+    "da": "at opsige",
+    "en": "to cancel / terminate"
+   },
+   {
+    "da": "jeg opsiger",
+    "en": "I cancel / terminate"
+   },
+   {
+    "da": "jeg opsagde",
+    "en": "I canceled / terminated"
+   },
+   {
+    "da": "jeg har opsagt",
+    "en": "I have canceled / terminated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afskedige",
+    "en": "to dismiss"
+   },
+   {
+    "da": "at forlænge",
+    "en": "to extend"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **opsige** abonnementet med en måneds varsel.",
+   "en": "You can cancel the subscription with a month's notice."
+  }
+ },
+ "at opstille": {
+  "explanation": "\"At opstille\" means \"to set up\" or \"to nominate\". To set up is to put things in position: Vi opstiller teltet (We set up the tent). In politics it means to put someone forward for election: Partiet opstiller Lars til valget (The party puts Lars forward for the election).",
+  "forms": [
+   {
+    "da": "at opstille",
+    "en": "to set up / nominate"
+   },
+   {
+    "da": "jeg opstiller",
+    "en": "I set up / nominate"
+   },
+   {
+    "da": "jeg opstillede",
+    "en": "I set up / nominated"
+   },
+   {
+    "da": "jeg har opstillet",
+    "en": "I have set up / nominated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at placere",
+    "en": "to place"
+   },
+   {
+    "da": "at arrangere",
+    "en": "to arrange"
+   },
+   {
+    "da": "at tage ned",
+    "en": "to take down"
+   },
+   {
+    "da": "en kandidat",
+    "en": "a candidate"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **opstille** stolene i rækker, før gæsterne kommer.",
+   "en": "We have to set up the chairs in rows before the guests come."
+  }
+ },
+ "at opstå": {
+  "explanation": "\"At opstå\" means \"to arise\" or \"to occur\", to come into being without anyone planning it, like a problem, a fire or a misunderstanding: Der opstod en brand (A fire broke out). It is a different word from at stå op (to get out of bed).",
+  "forms": [
+   {
+    "da": "at opstå",
+    "en": "to arise / occur"
+   },
+   {
+    "da": "jeg opstår",
+    "en": "I arise / occur"
+   },
+   {
+    "da": "jeg opstod",
+    "en": "I arose / occurred"
+   },
+   {
+    "da": "jeg er opstået",
+    "en": "I have arisen / occurred"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ske",
+    "en": "to happen"
+   },
+   {
+    "da": "at udvikle sig",
+    "en": "to develop"
+   },
+   {
+    "da": "at forsvinde",
+    "en": "to disappear"
+   },
+   {
+    "da": "at starte",
+    "en": "to start"
+   }
+  ],
+  "sentence": {
+   "da": "Der kan **opstå** problemer, hvis vi ikke taler sammen.",
+   "en": "Problems can arise if we do not talk to each other."
+  }
+ },
+ "at opsummere": {
+  "explanation": "\"At opsummere\" means \"to summarize\", to give the key parts of something in a shorter form: a meeting, a text or a discussion. People often use it at the end, to wrap things up: Lad mig lige opsummere (Let me sum it up quickly).",
+  "forms": [
+   {
+    "da": "at opsummere",
+    "en": "to summarize"
+   },
+   {
+    "da": "jeg opsummerer",
+    "en": "I summarize"
+   },
+   {
+    "da": "jeg opsummerede",
+    "en": "I summarized"
+   },
+   {
+    "da": "jeg har opsummeret",
+    "en": "I have summarized"
+   }
+  ],
+  "related": [
+   {
+    "da": "et hovedpunkt",
+    "en": "a main point"
+   },
+   {
+    "da": "et uddrag",
+    "en": "an excerpt"
+   },
+   {
+    "da": "at forkorte",
+    "en": "to shorten"
+   },
+   {
+    "da": "at gennemgå",
+    "en": "to go through"
+   }
+  ],
+  "sentence": {
+   "da": "Kan du kort **opsummere**, hvad der blev sagt på mødet?",
+   "en": "Can you briefly summarize what was said at the meeting?"
+  }
+ },
+ "at opsætte": {
+  "explanation": "\"At opsætte\" means \"to set up\", to put something in place and make it ready, like a shelf, a lamp or a program: Jeg opsætter hylden (I put up the shelf). It is about placing a thing. To make an account or a company, use at oprette (to create).",
+  "forms": [
+   {
+    "da": "at opsætte",
+    "en": "to set up"
+   },
+   {
+    "da": "jeg opsætter",
+    "en": "I set up"
+   },
+   {
+    "da": "jeg opsatte",
+    "en": "I set up"
+   },
+   {
+    "da": "jeg har opsat",
+    "en": "I have set up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at installere",
+    "en": "to install"
+   },
+   {
+    "da": "at montere",
+    "en": "to mount"
+   },
+   {
+    "da": "at konfigurere",
+    "en": "to configure"
+   },
+   {
+    "da": "at tage ned",
+    "en": "to take down"
+   }
+  ],
+  "sentence": {
+   "da": "Det tager kort tid at **opsætte** en ny printer.",
+   "en": "It takes little time to set up a new printer."
+  }
+ },
+ "at opsøge": {
+  "explanation": "\"At opsøge\" means \"to seek out\", to go to a person or place on purpose, often because you need help or advice: Hun opsøgte hjælp hos naboen (She sought out help from the neighbor). You take the first step yourself, so nobody comes to you.",
+  "forms": [
+   {
+    "da": "at opsøge",
+    "en": "to seek out"
+   },
+   {
+    "da": "jeg opsøger",
+    "en": "I seek out"
+   },
+   {
+    "da": "jeg opsøgte",
+    "en": "I sought out"
+   },
+   {
+    "da": "jeg har opsøgt",
+    "en": "I have sought out"
+   }
+  ],
+  "related": [
+   {
+    "da": "at søge",
+    "en": "to search"
+   },
+   {
+    "da": "at finde",
+    "en": "to find"
+   },
+   {
+    "da": "at besøge",
+    "en": "to visit"
+   },
+   {
+    "da": "at undgå",
+    "en": "to avoid"
+   }
+  ],
+  "sentence": {
+   "da": "Man bør **opsøge** en læge, hvis smerterne ikke går over.",
+   "en": "You should seek out a doctor if the pain does not go away."
+  }
+ },
  "at optage": {
   "explanation": "\"At optage\" means \"to record\" sound or video: Jeg optager sangen (I am recording the song). It also means \"to take up\" room: Det optager meget plads (It takes up a lot of space).",
   "forms": [
@@ -282,6 +2064,135 @@
   "sentence": {
    "da": "Jeg vil gerne **optage** sangen på min telefon.",
    "en": "I would like to record the song on my phone."
+  }
+ },
+ "at optimere": {
+  "explanation": "\"At optimere\" means \"to optimize\", to make something work as well as it can, such as a process, a route or your time. It is about getting the most from what you already have. At forbedre (to improve) is the general word for making something better.",
+  "forms": [
+   {
+    "da": "at optimere",
+    "en": "to optimize"
+   },
+   {
+    "da": "jeg optimerer",
+    "en": "I optimize"
+   },
+   {
+    "da": "jeg optimerede",
+    "en": "I optimized"
+   },
+   {
+    "da": "jeg har optimeret",
+    "en": "I have optimized"
+   }
+  ],
+  "related": [
+   {
+    "da": "at justere",
+    "en": "to adjust"
+   },
+   {
+    "da": "at finjustere",
+    "en": "to fine-tune"
+   },
+   {
+    "da": "at forenkle",
+    "en": "to simplify"
+   },
+   {
+    "da": "at strømline",
+    "en": "to streamline"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan **optimere** en hjemmeside, så den åbner hurtigere.",
+   "en": "You can optimize a website so that it opens faster."
+  }
+ },
+ "at optrappe": {
+  "explanation": "\"At optrappe\" means \"to escalate\": to make something bigger or more intense step by step: optrappe indsatsen (step up the effort). It is built from op (up) and en trappe (a staircase), so it goes up one step at a time.",
+  "forms": [
+   {
+    "da": "at optrappe",
+    "en": "to escalate"
+   },
+   {
+    "da": "jeg optrapper",
+    "en": "I escalate"
+   },
+   {
+    "da": "jeg optrappede",
+    "en": "I escalated"
+   },
+   {
+    "da": "jeg har optrappet",
+    "en": "I have escalated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nedtrappe",
+    "en": "to de-escalate"
+   },
+   {
+    "da": "at forværre",
+    "en": "to worsen"
+   },
+   {
+    "da": "at intensivere",
+    "en": "to intensify"
+   },
+   {
+    "da": "at øge",
+    "en": "to increase"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal ikke **optrappe** en konflikt, hvis man vil have fred.",
+   "en": "You should not escalate a conflict if you want peace."
+  }
+ },
+ "at optræde": {
+  "explanation": "\"At optræde\" means \"to perform\" or \"to appear\". It is used for musicians and actors on stage: Bandet optræder i aften (The band is performing tonight). It also means to take part in a role, like at optræde som vidne (to appear as a witness).",
+  "forms": [
+   {
+    "da": "at optræde",
+    "en": "to perform / appear"
+   },
+   {
+    "da": "jeg optræder",
+    "en": "I perform / appear"
+   },
+   {
+    "da": "jeg optrådte",
+    "en": "I performed / appeared"
+   },
+   {
+    "da": "jeg har optrådt",
+    "en": "I have performed / appeared"
+   }
+  ],
+  "related": [
+   {
+    "da": "en optræden",
+    "en": "a show"
+   },
+   {
+    "da": "en kunstner",
+    "en": "an artist"
+   },
+   {
+    "da": "at spille",
+    "en": "to play"
+   },
+   {
+    "da": "at underholde",
+    "en": "to entertain"
+   }
+  ],
+  "sentence": {
+   "da": "Skuespillerne vil **optræde** i teatret hver aften i en uge.",
+   "en": "The actors will perform in the theater every evening for a week."
   }
  },
  "at ordne": {
@@ -370,6 +2281,49 @@
    "en": "We want to organize a big party for her."
   }
  },
+ "at orientere": {
+  "explanation": "\"At orientere\" means \"to inform\" or \"to orient\". Most often you inform someone about something: Direktøren orienterer medarbejderne om planerne (The director informs the staff about the plans). With sig, at orientere sig means to look around to get your bearings.",
+  "forms": [
+   {
+    "da": "at orientere",
+    "en": "to inform / orient"
+   },
+   {
+    "da": "jeg orienterer",
+    "en": "I inform / orient"
+   },
+   {
+    "da": "jeg orienterede",
+    "en": "I informed / oriented"
+   },
+   {
+    "da": "jeg har orienteret",
+    "en": "I have informed / oriented"
+   }
+  ],
+  "related": [
+   {
+    "da": "at underrette",
+    "en": "to notify"
+   },
+   {
+    "da": "at briefe",
+    "en": "to brief"
+   },
+   {
+    "da": "en orientering",
+    "en": "a briefing"
+   },
+   {
+    "da": "at finde vej",
+    "en": "to find your way"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **orientere** alle om ændringerne i en mail.",
+   "en": "We want to inform everyone about the changes in an email."
+  }
+ },
  "at orke": {
   "explanation": "\"At orke\" means \"to have the energy for\", and it is mostly used in questions and with ikke (not): Jeg orker ikke mere (I can't take any more). Orker du at gå en tur? (Do you have the energy for a walk?)",
   "forms": [
@@ -411,6 +2365,178 @@
   "sentence": {
    "da": "Jeg er træt og kan ikke **orke** at lave mad.",
    "en": "I am tired and cannot face cooking."
+  }
+ },
+ "at overbevise": {
+  "explanation": "\"At overbevise\" means \"to convince\", to make someone believe or agree by giving reasons or proof. The pattern is overbevise nogen om (convince someone of). At overtale (to persuade) gets someone to do something, while overbevise changes what they believe.",
+  "forms": [
+   {
+    "da": "at overbevise",
+    "en": "to convince"
+   },
+   {
+    "da": "jeg overbeviser",
+    "en": "I convince"
+   },
+   {
+    "da": "jeg overbeviste",
+    "en": "I convinced"
+   },
+   {
+    "da": "jeg har overbevist",
+    "en": "I have convinced"
+   }
+  ],
+  "related": [
+   {
+    "da": "at argumentere",
+    "en": "to argue"
+   },
+   {
+    "da": "at påvirke",
+    "en": "to influence"
+   },
+   {
+    "da": "at tvivle",
+    "en": "to doubt"
+   },
+   {
+    "da": "at forsikre",
+    "en": "to assure"
+   }
+  ],
+  "sentence": {
+   "da": "Gode argumenter kan **overbevise** selv dem, der var imod.",
+   "en": "Good arguments can convince even those who were against it."
+  }
+ },
+ "at overdrage": {
+  "explanation": "\"At overdrage\" means \"to hand over\" or \"to transfer\", used when something official passes from one person to another, such as a company, a role or a right: overdrage ledelsen (to hand over the management). For giving someone an ordinary thing, use at give (to give).",
+  "forms": [
+   {
+    "da": "at overdrage",
+    "en": "to hand over / transfer"
+   },
+   {
+    "da": "jeg overdrager",
+    "en": "I hand over / transfer"
+   },
+   {
+    "da": "jeg overdrog",
+    "en": "I handed over / transferred"
+   },
+   {
+    "da": "jeg har overdraget",
+    "en": "I have handed over / transferred"
+   }
+  ],
+  "related": [
+   {
+    "da": "at aflevere",
+    "en": "to deliver"
+   },
+   {
+    "da": "at overlade",
+    "en": "to leave to someone"
+   },
+   {
+    "da": "en overdragelse",
+    "en": "a handover"
+   },
+   {
+    "da": "at afgive",
+    "en": "to give up"
+   }
+  ],
+  "sentence": {
+   "da": "Chefen vil **overdrage** firmaet til sin datter.",
+   "en": "The boss will hand over the company to his daughter."
+  }
+ },
+ "at overdrive": {
+  "explanation": "\"At overdrive\" means \"to exaggerate\", to say or do more than the facts or the situation call for: Du overdriver, det var kun to minutter (You are exaggerating, it was only two minutes). Over means \"beyond\", so the idea is going beyond what is true.",
+  "forms": [
+   {
+    "da": "at overdrive",
+    "en": "to exaggerate"
+   },
+   {
+    "da": "jeg overdriver",
+    "en": "I exaggerate"
+   },
+   {
+    "da": "jeg overdrev",
+    "en": "I exaggerated"
+   },
+   {
+    "da": "jeg har overdrevet",
+    "en": "I have exaggerated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at pynte på",
+    "en": "to embellish"
+   },
+   {
+    "da": "at overvurdere",
+    "en": "to overestimate"
+   },
+   {
+    "da": "at underdrive",
+    "en": "to understate"
+   },
+   {
+    "da": "at tage munden for fuld",
+    "en": "to talk big"
+   }
+  ],
+  "sentence": {
+   "da": "Han plejer at **overdrive**, når han fortæller om sine ture.",
+   "en": "He tends to exaggerate when he talks about his trips."
+  }
+ },
+ "at overføre": {
+  "explanation": "\"At overføre\" means \"to transfer\", to move something from one place or person to another: Jeg overfører penge til din konto (I transfer money to your account). It is also used for passing on an illness: at overføre smitte (to pass on an infection).",
+  "forms": [
+   {
+    "da": "at overføre",
+    "en": "to transfer"
+   },
+   {
+    "da": "jeg overfører",
+    "en": "I transfer"
+   },
+   {
+    "da": "jeg overførte",
+    "en": "I transferred"
+   },
+   {
+    "da": "jeg har overført",
+    "en": "I have transferred"
+   }
+  ],
+  "related": [
+   {
+    "da": "at videresende",
+    "en": "to forward"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "at kopiere",
+    "en": "to copy"
+   },
+   {
+    "da": "at indbetale",
+    "en": "to deposit"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **overføre** filerne fra telefonen til computeren.",
+   "en": "You can transfer the files from the phone to the computer."
   }
  },
  "at overføre penge": {
@@ -456,6 +2582,92 @@
    "en": "I can transfer money to you tonight."
   }
  },
+ "at overgive sig": {
+  "explanation": "\"At overgive sig\" means \"to surrender\", to stop fighting and give yourself to the other side. Sig changes with the person: jeg overgiver mig (I surrender), de overgiver sig (they surrender). It also works in play, like in a game or an argument: Jeg overgiver mig! (I give up!)",
+  "forms": [
+   {
+    "da": "at overgive sig",
+    "en": "to surrender"
+   },
+   {
+    "da": "jeg overgiver mig",
+    "en": "I surrender"
+   },
+   {
+    "da": "jeg overgav mig",
+    "en": "I surrendered"
+   },
+   {
+    "da": "jeg har overgivet mig",
+    "en": "I have surrendered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at kapitulere",
+    "en": "to capitulate"
+   },
+   {
+    "da": "at bøje sig",
+    "en": "to yield"
+   },
+   {
+    "da": "at vinde",
+    "en": "to win"
+   },
+   {
+    "da": "at tabe",
+    "en": "to lose"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaterne måtte **overgive sig**, fordi de ikke havde mere mad.",
+   "en": "The soldiers had to surrender because they had no more food."
+  }
+ },
+ "at overgå": {
+  "explanation": "\"At overgå\" means \"to surpass\", to be better or greater than someone or something. It is often used about expectations: overgå forventningerne (to exceed the expectations).",
+  "forms": [
+   {
+    "da": "at overgå",
+    "en": "to exceed / surpass"
+   },
+   {
+    "da": "jeg overgår",
+    "en": "I exceed / surpass"
+   },
+   {
+    "da": "jeg overgik",
+    "en": "I exceeded / surpassed"
+   },
+   {
+    "da": "jeg har overgået",
+    "en": "I have exceeded / surpassed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slå",
+    "en": "to beat"
+   },
+   {
+    "da": "at overtræffe",
+    "en": "to outdo"
+   },
+   {
+    "da": "at overstige",
+    "en": "to go beyond"
+   },
+   {
+    "da": "at udkonkurrere",
+    "en": "to outcompete"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **overgå** alle, fordi hun træner hver dag.",
+   "en": "She can surpass everyone because she trains every day."
+  }
+ },
  "at overhale": {
   "explanation": "\"At overhale\" means \"to overtake\", to pass a car or a bike on the road: Hun overhaler en traktor (She overtakes a tractor). To catch up with someone ahead of you, use at indhente (to catch up): Jeg indhenter dig (I catch up with you).",
   "forms": [
@@ -493,6 +2705,135 @@
   "sentence": {
    "da": "Jeg vil **overhale** den langsomme bil foran os.",
    "en": "I want to overtake the slow car in front of us."
+  }
+ },
+ "at overholde": {
+  "explanation": "\"At overholde\" means \"to comply with\", to do what a rule, a deadline or an agreement requires: overholde fristen (to meet the deadline). The thing you comply with comes straight after it, with no extra word.",
+  "forms": [
+   {
+    "da": "at overholde",
+    "en": "to comply with"
+   },
+   {
+    "da": "jeg overholder",
+    "en": "I comply with"
+   },
+   {
+    "da": "jeg overholdt",
+    "en": "I complied with"
+   },
+   {
+    "da": "jeg har overholdt",
+    "en": "I have complied with"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overtræde",
+    "en": "to violate"
+   },
+   {
+    "da": "at efterleve",
+    "en": "to abide by"
+   },
+   {
+    "da": "at respektere",
+    "en": "to respect"
+   },
+   {
+    "da": "at bryde",
+    "en": "to break"
+   }
+  ],
+  "sentence": {
+   "da": "Alle skal **overholde** reglerne i svømmehallen.",
+   "en": "Everyone must comply with the rules in the swimming pool."
+  }
+ },
+ "at overkomme": {
+  "explanation": "\"At overkomme\" means \"to manage\", to have the strength or time to get a big task done. It is mostly used with ikke: Jeg kan ikke overkomme det hele (I cannot manage it all). For beating a fear or an opponent, use at overvinde (to overcome).",
+  "forms": [
+   {
+    "da": "at overkomme",
+    "en": "to manage"
+   },
+   {
+    "da": "jeg overkommer",
+    "en": "I manage"
+   },
+   {
+    "da": "jeg overkom",
+    "en": "I managed"
+   },
+   {
+    "da": "jeg har overkommet",
+    "en": "I have managed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at klare",
+    "en": "to cope with"
+   },
+   {
+    "da": "at magte",
+    "en": "to be up to"
+   },
+   {
+    "da": "uoverkommelig",
+    "en": "insurmountable"
+   },
+   {
+    "da": "at håndtere",
+    "en": "to handle"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan ikke **overkomme** så meget arbejde på én dag.",
+   "en": "We cannot manage so much work in one day."
+  }
+ },
+ "at overlade": {
+  "explanation": "\"At overlade\" means \"to leave (to someone)\" or \"to hand over\", to let another person take care of something or decide it: Jeg overlader beslutningen til dig (I leave the decision to you). It is often used with til (to), as in overlade noget til tilfældighederne (to leave something to chance).",
+  "forms": [
+   {
+    "da": "at overlade",
+    "en": "to leave (to someone) / hand over"
+   },
+   {
+    "da": "jeg overlader",
+    "en": "I leave (to someone) / hand over"
+   },
+   {
+    "da": "jeg overlod",
+    "en": "I left (to someone) / handed over"
+   },
+   {
+    "da": "jeg har overladt",
+    "en": "I have left (to someone) / handed over"
+   }
+  ],
+  "related": [
+   {
+    "da": "at betro",
+    "en": "to entrust"
+   },
+   {
+    "da": "at delegere",
+    "en": "to delegate"
+   },
+   {
+    "da": "at beholde",
+    "en": "to keep"
+   },
+   {
+    "da": "at give væk",
+    "en": "to give away"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan roligt **overlade** opvasken til mig i aften.",
+   "en": "You can safely leave the dishes to me tonight."
   }
  },
  "at overleve": {
@@ -620,6 +2961,178 @@
    "en": "He wants to surprise his wife with a trip."
   }
  },
+ "at overrække": {
+  "explanation": "\"At overrække\" means \"to present\", to hand something over in person to someone, often at a ceremony: overrække en buket (to present a bouquet).",
+  "forms": [
+   {
+    "da": "at overrække",
+    "en": "to hand over / present"
+   },
+   {
+    "da": "jeg overrækker",
+    "en": "I hand over / present"
+   },
+   {
+    "da": "jeg overrakte",
+    "en": "I handed over / presented"
+   },
+   {
+    "da": "jeg har overrakt",
+    "en": "I have handed over / presented"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overdrage",
+    "en": "to transfer"
+   },
+   {
+    "da": "at aflevere",
+    "en": "to deliver"
+   },
+   {
+    "da": "at forære",
+    "en": "to give as a gift"
+   },
+   {
+    "da": "at give",
+    "en": "to give"
+   }
+  ],
+  "sentence": {
+   "da": "Borgmesteren vil **overrække** prisen til vinderen.",
+   "en": "The mayor will present the prize to the winner."
+  }
+ },
+ "at overse": {
+  "explanation": "\"At overse\" means \"to overlook\", to miss something by accident, like a mistake or a sign: Jeg overså fejlen (I missed the error). It can also be on purpose, when you choose not to react to something small. Do not mix it up with English oversee: at overse is to miss, not to supervise.",
+  "forms": [
+   {
+    "da": "at overse",
+    "en": "to overlook"
+   },
+   {
+    "da": "jeg overser",
+    "en": "I overlook"
+   },
+   {
+    "da": "jeg overså",
+    "en": "I overlooked"
+   },
+   {
+    "da": "jeg har overset",
+    "en": "I have overlooked"
+   }
+  ],
+  "related": [
+   {
+    "da": "at ignorere",
+    "en": "to ignore"
+   },
+   {
+    "da": "at glemme",
+    "en": "to forget"
+   },
+   {
+    "da": "at opdage",
+    "en": "to discover"
+   },
+   {
+    "da": "at bemærke",
+    "en": "to notice"
+   }
+  ],
+  "sentence": {
+   "da": "Det er let at **overse** et lille skilt i mørket.",
+   "en": "It is easy to overlook a small sign in the dark."
+  }
+ },
+ "at overskride": {
+  "explanation": "\"At overskride\" means \"to exceed\", to go past a limit such as a speed, a budget or a deadline: Vi har overskredet budgettet (We have gone over the budget). It is about going past a line that was meant to hold you back.",
+  "forms": [
+   {
+    "da": "at overskride",
+    "en": "to exceed"
+   },
+   {
+    "da": "jeg overskrider",
+    "en": "I exceed"
+   },
+   {
+    "da": "jeg overskred",
+    "en": "I exceeded"
+   },
+   {
+    "da": "jeg har overskredet",
+    "en": "I have exceeded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overstige",
+    "en": "to surpass"
+   },
+   {
+    "da": "at underskride",
+    "en": "to fall below"
+   },
+   {
+    "da": "at overholde",
+    "en": "to comply with"
+   },
+   {
+    "da": "at overtræde",
+    "en": "to violate"
+   }
+  ],
+  "sentence": {
+   "da": "Du må ikke **overskride** hastighedsgrænsen på motorvejen.",
+   "en": "You must not exceed the speed limit on the highway."
+  }
+ },
+ "at overskue": {
+  "explanation": "\"At overskue\" means \"to get an overview of\", to see a whole situation or task clearly enough to deal with it. It is often used with ikke when something feels too big: Jeg kan ikke overskue det (It is too much for me).",
+  "forms": [
+   {
+    "da": "at overskue",
+    "en": "to get an overview of"
+   },
+   {
+    "da": "jeg overskuer",
+    "en": "I get an overview of"
+   },
+   {
+    "da": "jeg overskuede",
+    "en": "I got an overview of"
+   },
+   {
+    "da": "jeg har overskuet",
+    "en": "I have gotten an overview of"
+   }
+  ],
+  "related": [
+   {
+    "da": "overskuelig",
+    "en": "easy to follow"
+   },
+   {
+    "da": "uoverskuelig",
+    "en": "hard to keep track of"
+   },
+   {
+    "da": "en oversigt",
+    "en": "a summary"
+   },
+   {
+    "da": "at have styr på",
+    "en": "to have under control"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan ikke **overskue** så mange opgaver på én gang.",
+   "en": "I cannot get an overview of so many tasks at once."
+  }
+ },
  "at oversætte": {
   "explanation": "\"At oversætte\" means \"to translate\": Jeg oversætter brevet (I translate the letter). Use fra (from) and til (to) for the languages: Hun oversætter fra dansk til tysk (She translates from Danish to German).",
   "forms": [
@@ -657,6 +3170,49 @@
   "sentence": {
    "da": "Kan du **oversætte** det her til engelsk?",
    "en": "Can you translate this into English?"
+  }
+ },
+ "at overtage": {
+  "explanation": "\"At overtage\" means \"to take over\", to receive control or responsibility from someone else: a job, a shop or a house. Kan du overtage rattet? (Can you take over the wheel?) It also fits duties: at overtage ansvaret (to take over the responsibility).",
+  "forms": [
+   {
+    "da": "at overtage",
+    "en": "to take over"
+   },
+   {
+    "da": "jeg overtager",
+    "en": "I take over"
+   },
+   {
+    "da": "jeg overtog",
+    "en": "I took over"
+   },
+   {
+    "da": "jeg har overtaget",
+    "en": "I have taken over"
+   }
+  ],
+  "related": [
+   {
+    "da": "at arve",
+    "en": "to inherit"
+   },
+   {
+    "da": "at videregive",
+    "en": "to pass on"
+   },
+   {
+    "da": "at afløse",
+    "en": "to relieve"
+   },
+   {
+    "da": "en efterfølger",
+    "en": "a successor"
+   }
+  ],
+  "sentence": {
+   "da": "Min søster vil **overtage** butikken, når far går på pension.",
+   "en": "My sister wants to take over the store when Dad retires."
   }
  },
  "at overtale": {
@@ -698,6 +3254,49 @@
    "en": "She wants to persuade her boss to give her time off."
   }
  },
+ "at overtræde": {
+  "explanation": "\"At overtræde\" means \"to violate\", to go against a law, a rule or a limit: overtræde fartgrænsen (to break the speed limit). The opposite is at overholde (to comply with).",
+  "forms": [
+   {
+    "da": "at overtræde",
+    "en": "to violate"
+   },
+   {
+    "da": "jeg overtræder",
+    "en": "I violate"
+   },
+   {
+    "da": "jeg overtrådte",
+    "en": "I violated"
+   },
+   {
+    "da": "jeg har overtrådt",
+    "en": "I have violated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at krænke",
+    "en": "to infringe on"
+   },
+   {
+    "da": "en overtrædelse",
+    "en": "a violation"
+   },
+   {
+    "da": "at forbryde sig",
+    "en": "to commit an offense"
+   },
+   {
+    "da": "at overskride",
+    "en": "to exceed (a limit)"
+   }
+  ],
+  "sentence": {
+   "da": "Man må ikke **overtræde** loven, og straffen kan være en bøde.",
+   "en": "You must not violate the law, and the punishment can be a fine."
+  }
+ },
  "at overveje": {
   "explanation": "\"At overveje\" means \"to consider\", which is thinking about something carefully before you decide: Jeg overvejer at flytte (I am considering moving). A quick thought is different: Jeg tænker på mad (I am thinking about food).",
   "forms": [
@@ -735,6 +3334,221 @@
   "sentence": {
    "da": "Jeg vil **overveje** tilbuddet i et par dage.",
    "en": "I will consider the offer for a couple of days."
+  }
+ },
+ "at overvinde": {
+  "explanation": "\"At overvinde\" means \"to overcome\", to get past something difficult, like a problem or an opponent: Vi overvandt problemerne (We overcame the problems). Do not mix it up with at vinde (to win), which is for games and prizes.",
+  "forms": [
+   {
+    "da": "at overvinde",
+    "en": "to overcome"
+   },
+   {
+    "da": "jeg overvinder",
+    "en": "I overcome"
+   },
+   {
+    "da": "jeg overvandt",
+    "en": "I overcame"
+   },
+   {
+    "da": "jeg har overvundet",
+    "en": "I have overcome"
+   }
+  ],
+  "related": [
+   {
+    "da": "at besejre",
+    "en": "to defeat"
+   },
+   {
+    "da": "at klare",
+    "en": "to manage"
+   },
+   {
+    "da": "en forhindring",
+    "en": "an obstacle"
+   },
+   {
+    "da": "at bukke under",
+    "en": "to give way"
+   }
+  ],
+  "sentence": {
+   "da": "Det er svært at **overvinde** frygten for at tale foran folk.",
+   "en": "It is hard to overcome the fear of speaking in front of people."
+  }
+ },
+ "at overvåge": {
+  "explanation": "\"At overvåge\" means \"to monitor\" or \"to watch\", to follow someone or something over time so you know what happens: Kameraer overvåger indgangen (Cameras monitor the entrance). It fits patients, prices and places, and the watching is close and goes on for a while.",
+  "forms": [
+   {
+    "da": "at overvåge",
+    "en": "to monitor / watch"
+   },
+   {
+    "da": "jeg overvåger",
+    "en": "I monitor / watch"
+   },
+   {
+    "da": "jeg overvågede",
+    "en": "I monitored / watched"
+   },
+   {
+    "da": "jeg har overvåget",
+    "en": "I have monitored / watched"
+   }
+  ],
+  "related": [
+   {
+    "da": "at kontrollere",
+    "en": "to check"
+   },
+   {
+    "da": "at holde øje med",
+    "en": "to keep an eye on"
+   },
+   {
+    "da": "at føre tilsyn",
+    "en": "to supervise"
+   },
+   {
+    "da": "en vagt",
+    "en": "a guard"
+   }
+  ],
+  "sentence": {
+   "da": "Lægerne vil **overvåge** hende natten over, fordi hun har feber.",
+   "en": "The doctors will monitor her through the night because she has a fever."
+  }
+ },
+ "en oberst": {
+  "explanation": "\"En oberst\" means \"a colonel\", a high officer rank in the army and air force, just below en general (a general).",
+  "forms": [
+   {
+    "da": "en oberst",
+    "en": "a colonel"
+   },
+   {
+    "da": "obersten",
+    "en": "the colonel"
+   },
+   {
+    "da": "oberster",
+    "en": "colonels"
+   },
+   {
+    "da": "obersterne",
+    "en": "the colonels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oberstløjtnant",
+    "en": "a lieutenant colonel"
+   },
+   {
+    "da": "en major",
+    "en": "a major"
+   },
+   {
+    "da": "en kaptajn",
+    "en": "a captain"
+   },
+   {
+    "da": "en løjtnant",
+    "en": "a lieutenant"
+   }
+  ],
+  "sentence": {
+   "da": "En **oberst** leder mange soldater og har en høj rang.",
+   "en": "A colonel leads many soldiers and has a high rank."
+  }
+ },
+ "en odder": {
+  "explanation": "\"En odder\" means \"an otter\", an animal that lives by water, swims well and has thick brown fur.",
+  "forms": [
+   {
+    "da": "en odder",
+    "en": "an otter"
+   },
+   {
+    "da": "odderen",
+    "en": "the otter"
+   },
+   {
+    "da": "oddere",
+    "en": "otters"
+   },
+   {
+    "da": "odderne",
+    "en": "the otters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bæver",
+    "en": "a beaver"
+   },
+   {
+    "da": "en sæl",
+    "en": "a seal"
+   },
+   {
+    "da": "en mink",
+    "en": "a mink"
+   },
+   {
+    "da": "en mår",
+    "en": "a marten"
+   }
+  ],
+  "sentence": {
+   "da": "En **odder** svømmer godt og spiser fisk fra åen.",
+   "en": "An otter swims well and eats fish from the stream."
+  }
+ },
+ "en officer": {
+  "explanation": "\"En officer\" means \"an officer\", a person in the armed forces who has a leadership rank and gives orders to those under them. A police officer is en betjent instead.",
+  "forms": [
+   {
+    "da": "en officer",
+    "en": "an officer"
+   },
+   {
+    "da": "officeren",
+    "en": "the officer"
+   },
+   {
+    "da": "officerer",
+    "en": "officers"
+   },
+   {
+    "da": "officererne",
+    "en": "the officers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en soldat",
+    "en": "a soldier"
+   },
+   {
+    "da": "en kaptajn",
+    "en": "a captain"
+   },
+   {
+    "da": "en menig",
+    "en": "a private"
+   },
+   {
+    "da": "en general",
+    "en": "a general"
+   }
+  ],
+  "sentence": {
+   "da": "En **officer** leder soldaterne og tager beslutninger i krig.",
+   "en": "An officer leads the soldiers and makes decisions in war."
   }
  },
  "en offside": {
@@ -778,6 +3592,49 @@
   "sentence": {
    "da": "Der var **offside**, så målet tæller ikke.",
    "en": "It was offside, so the goal does not count."
+  }
+ },
+ "en okse": {
+  "explanation": "\"En okse\" means \"an ox\", a large farm animal: a male of the cattle family that cannot have young, kept for meat or to pull heavy loads.",
+  "forms": [
+   {
+    "da": "en okse",
+    "en": "an ox"
+   },
+   {
+    "da": "oksen",
+    "en": "the ox"
+   },
+   {
+    "da": "okser",
+    "en": "oxen"
+   },
+   {
+    "da": "okserne",
+    "en": "the oxen"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tyr",
+    "en": "a bull"
+   },
+   {
+    "da": "en ko",
+    "en": "a cow"
+   },
+   {
+    "da": "en kalv",
+    "en": "a calf"
+   },
+   {
+    "da": "et kvæg",
+    "en": "cattle"
+   }
+  ],
+  "sentence": {
+   "da": "Kødet fra en **okse** hedder oksekød.",
+   "en": "The meat from an ox is called beef."
   }
  },
  "en oldefar": {
@@ -905,6 +3762,303 @@
    "en": "An olive is small, green or black."
   }
  },
+ "en ombudsmand": {
+  "explanation": "\"En ombudsmand\" means \"an ombudsman\", an independent person who listens to people who feel they were treated unfairly by the state and checks what happened. In Denmark, Folketingets Ombudsmand does this for the whole country.",
+  "forms": [
+   {
+    "da": "en ombudsmand",
+    "en": "an ombudsman"
+   },
+   {
+    "da": "ombudsmanden",
+    "en": "the ombudsman"
+   },
+   {
+    "da": "ombudsmænd",
+    "en": "ombudsmen"
+   },
+   {
+    "da": "ombudsmændene",
+    "en": "the ombudsmen"
+   }
+  ],
+  "related": [
+   {
+    "da": "en klage",
+    "en": "a complaint"
+   },
+   {
+    "da": "en myndighed",
+    "en": "an authority"
+   },
+   {
+    "da": "en advokat",
+    "en": "a lawyer"
+   },
+   {
+    "da": "et tilsyn",
+    "en": "an oversight"
+   }
+  ],
+  "sentence": {
+   "da": "Borgeren skrev til en **ombudsmand**, fordi staten havde behandlet hende uretfærdigt.",
+   "en": "The citizen wrote to an ombudsman because the state had treated her unfairly."
+  }
+ },
+ "en ombygning": {
+  "explanation": "\"En ombygning\" means \"a remodel\", when a house, shop or room is rebuilt to look or work differently. The part om- means \"over again\", as in at omskrive (to rewrite).",
+  "forms": [
+   {
+    "da": "en ombygning",
+    "en": "a remodel"
+   },
+   {
+    "da": "ombygningen",
+    "en": "the remodel"
+   },
+   {
+    "da": "ombygninger",
+    "en": "remodels"
+   },
+   {
+    "da": "ombygningerne",
+    "en": "the remodels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en renovering",
+    "en": "a renovation"
+   },
+   {
+    "da": "en udbygning",
+    "en": "an extension"
+   },
+   {
+    "da": "en tilbygning",
+    "en": "an annex"
+   },
+   {
+    "da": "en nybygning",
+    "en": "a new building"
+   }
+  ],
+  "sentence": {
+   "da": "Vi laver en **ombygning**, fordi køkkenet er for lille.",
+   "en": "We are doing a remodel because the kitchen is too small."
+  }
+ },
+ "en ombytning": {
+  "explanation": "\"En ombytning\" means \"an exchange\", when one thing is swapped for another. It also covers a mix-up where two things end up in the wrong places, such as two bags taken by the wrong owners.",
+  "forms": [
+   {
+    "da": "en ombytning",
+    "en": "an exchange"
+   },
+   {
+    "da": "ombytningen",
+    "en": "the exchange"
+   },
+   {
+    "da": "ombytninger",
+    "en": "exchanges"
+   },
+   {
+    "da": "ombytningerne",
+    "en": "the exchanges"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forveksling",
+    "en": "a confusion"
+   },
+   {
+    "da": "en udskiftning",
+    "en": "a replacement"
+   },
+   {
+    "da": "at bytte",
+    "en": "to trade"
+   },
+   {
+    "da": "at bytte om",
+    "en": "to switch around"
+   }
+  ],
+  "sentence": {
+   "da": "Der var en **ombytning** i lufthavnen, og jeg fik en forkert kuffert.",
+   "en": "There was a mix-up at the airport, and I got the wrong suitcase."
+  }
+ },
+ "en omgang": {
+  "explanation": "\"En omgang\" means \"a round\" or \"a lap\", one full turn of something that is repeated. It is also used for drinks for a group: Jeg giver en omgang (I am buying a round).",
+  "forms": [
+   {
+    "da": "en omgang",
+    "en": "a round / lap"
+   },
+   {
+    "da": "omgangen",
+    "en": "the round / lap"
+   },
+   {
+    "da": "omgange",
+    "en": "rounds / laps"
+   },
+   {
+    "da": "omgangene",
+    "en": "the rounds / laps"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gang",
+    "en": "a time"
+   },
+   {
+    "da": "en tur",
+    "en": "a trip"
+   },
+   {
+    "da": "et løb",
+    "en": "a race"
+   }
+  ],
+  "sentence": {
+   "da": "En **omgang** rundt om banen er 400 meter lang.",
+   "en": "One lap around the track is 400 meters long."
+  }
+ },
+ "en omgangskreds": {
+  "explanation": "\"En omgangskreds\" means \"a circle of friends\", the people you spend time with regularly, from close ones to people you only know a little. It comes from at omgås (to spend time with).",
+  "forms": [
+   {
+    "da": "en omgangskreds",
+    "en": "a circle of friends"
+   },
+   {
+    "da": "omgangskredsen",
+    "en": "the circle of friends"
+   },
+   {
+    "da": "omgangskredse",
+    "en": "circles of friends"
+   },
+   {
+    "da": "omgangskredsene",
+    "en": "the circles of friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ven",
+    "en": "a friend"
+   },
+   {
+    "da": "en kammerat",
+    "en": "a buddy"
+   },
+   {
+    "da": "et venskab",
+    "en": "a friendship"
+   },
+   {
+    "da": "en bekendt",
+    "en": "an acquaintance"
+   }
+  ],
+  "sentence": {
+   "da": "Min **omgangskreds** består mest af kolleger og naboer.",
+   "en": "My circle of friends mostly consists of colleagues and neighbors."
+  }
+ },
+ "en omkamp": {
+  "explanation": "\"En omkamp\" means \"a rematch\", a match played again, for example after a draw. Om at the start of a word often means \"again\": at lave om (to redo).",
+  "forms": [
+   {
+    "da": "en omkamp",
+    "en": "a rematch"
+   },
+   {
+    "da": "omkampen",
+    "en": "the rematch"
+   },
+   {
+    "da": "omkampe",
+    "en": "rematches"
+   },
+   {
+    "da": "omkampene",
+    "en": "the rematches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en revanche",
+    "en": "a revenge match"
+   },
+   {
+    "da": "en finale",
+    "en": "a final"
+   },
+   {
+    "da": "en turnering",
+    "en": "a tournament"
+   },
+   {
+    "da": "et nederlag",
+    "en": "a defeat"
+   }
+  ],
+  "sentence": {
+   "da": "Kampen sluttede uafgjort, og der bliver en **omkamp** på lørdag.",
+   "en": "The match ended in a draw, and there will be a rematch on Saturday."
+  }
+ },
+ "en omkostning": {
+  "explanation": "\"En omkostning\" means \"a cost\", money spent to run or do something, and it is mostly used in the plural. A pris (price) is what you pay for something you buy; omkostninger are running costs like repairs and insurance.",
+  "forms": [
+   {
+    "da": "en omkostning",
+    "en": "a cost"
+   },
+   {
+    "da": "omkostningen",
+    "en": "the cost"
+   },
+   {
+    "da": "omkostninger",
+    "en": "costs"
+   },
+   {
+    "da": "omkostningerne",
+    "en": "the costs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udgift",
+    "en": "an expense"
+   },
+   {
+    "da": "en afgift",
+    "en": "a charge"
+   },
+   {
+    "da": "et gebyr",
+    "en": "a fee"
+   },
+   {
+    "da": "en regning",
+    "en": "a bill"
+   }
+  ],
+  "sentence": {
+   "da": "Opvarmning er den største **omkostning** ved at have et hus.",
+   "en": "Heating is the biggest cost of owning a house."
+  }
+ },
  "en omkørsel": {
   "explanation": "\"En omkørsel\" means \"a detour\", the route set up when a road is closed. A longer way that you choose yourself is en omvej (a roundabout way).",
   "forms": [
@@ -942,6 +4096,178 @@
   "sentence": {
    "da": "Vi må tage en **omkørsel**, fordi vejen er lukket.",
    "en": "We have to take a detour because the road is closed."
+  }
+ },
+ "en omlægning": {
+  "explanation": "\"En omlægning\" means \"a restructuring\", changing how something is arranged or done, such as a tax system, a route or a company. It is also used for loans: omlægning af lån (switching a loan to new terms).",
+  "forms": [
+   {
+    "da": "en omlægning",
+    "en": "a restructuring"
+   },
+   {
+    "da": "omlægningen",
+    "en": "the restructuring"
+   },
+   {
+    "da": "omlægninger",
+    "en": "restructurings"
+   },
+   {
+    "da": "omlægningerne",
+    "en": "the restructurings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ændring",
+    "en": "a change"
+   },
+   {
+    "da": "en reform",
+    "en": "a reform"
+   },
+   {
+    "da": "en omstrukturering",
+    "en": "a reorganization"
+   },
+   {
+    "da": "en refinansiering",
+    "en": "a refinancing"
+   }
+  ],
+  "sentence": {
+   "da": "Regeringen planlægger en **omlægning** af skattesystemet næste år.",
+   "en": "The government is planning a restructuring of the tax system next year."
+  }
+ },
+ "en omstilling": {
+  "explanation": "\"En omstilling\" means \"an adjustment\" or \"a transition\", moving from one way of working or living to another. At a company, omstillingen is also the main phone line that connects you to the right person.",
+  "forms": [
+   {
+    "da": "en omstilling",
+    "en": "an adjustment / a transition"
+   },
+   {
+    "da": "omstillingen",
+    "en": "the adjustment / transition"
+   },
+   {
+    "da": "omstillinger",
+    "en": "adjustments / transitions"
+   },
+   {
+    "da": "omstillingerne",
+    "en": "the adjustments / transitions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilpasning",
+    "en": "an adaptation"
+   },
+   {
+    "da": "en forandring",
+    "en": "a change"
+   },
+   {
+    "da": "en omlægning",
+    "en": "a restructuring"
+   },
+   {
+    "da": "en receptionist",
+    "en": "a receptionist"
+   }
+  ],
+  "sentence": {
+   "da": "Skiftet til grøn energi kræver en stor **omstilling** i samfundet.",
+   "en": "The shift to green energy requires a big transition in society."
+  }
+ },
+ "en omstændighed": {
+  "explanation": "\"En omstændighed\" means \"a circumstance\", a fact around an event that affects how it turns out. Under alle omstændigheder means \"in any case\": Jeg kommer under alle omstændigheder (I will come in any case).",
+  "forms": [
+   {
+    "da": "en omstændighed",
+    "en": "a circumstance"
+   },
+   {
+    "da": "omstændigheden",
+    "en": "the circumstance"
+   },
+   {
+    "da": "omstændigheder",
+    "en": "circumstances"
+   },
+   {
+    "da": "omstændighederne",
+    "en": "the circumstances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en betingelse",
+    "en": "a condition"
+   },
+   {
+    "da": "en situation",
+    "en": "a situation"
+   },
+   {
+    "da": "et forhold",
+    "en": "a condition / relationship"
+   },
+   {
+    "da": "en baggrund",
+    "en": "a background"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet skal undersøge hver **omstændighed** ved ulykken.",
+   "en": "The police must investigate every circumstance of the accident."
+  }
+ },
+ "en omsætning": {
+  "explanation": "\"En omsætning\" means \"a turnover\" or \"revenue\", the total money a business takes in from selling, before costs are taken out. It is not the same as profit, which is fortjeneste.",
+  "forms": [
+   {
+    "da": "en omsætning",
+    "en": "a turnover / revenue"
+   },
+   {
+    "da": "omsætningen",
+    "en": "the turnover / revenue"
+   },
+   {
+    "da": "omsætninger",
+    "en": "turnovers / revenues"
+   },
+   {
+    "da": "omsætningerne",
+    "en": "the turnovers / revenues"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indtægt",
+    "en": "an income"
+   },
+   {
+    "da": "et regnskab",
+    "en": "accounts"
+   },
+   {
+    "da": "et overskud",
+    "en": "a surplus"
+   },
+   {
+    "da": "en udgift",
+    "en": "an expense"
+   }
+  ],
+  "sentence": {
+   "da": "Butikkens **omsætning** er alle pengene fra salget i en måned.",
+   "en": "The store's revenue is all the money from sales in a month."
   }
  },
  "en omvej": {
@@ -1026,6 +4352,49 @@
    "en": "My uncle is my father's brother."
   }
  },
+ "en opdagelse": {
+  "explanation": "\"En opdagelse\" means \"a discovery\", learning about something nobody knew before, or noticing something for the first time. It is not the same as en opfindelse (an invention): a discovery was already there, but an invention is made.",
+  "forms": [
+   {
+    "da": "en opdagelse",
+    "en": "a discovery"
+   },
+   {
+    "da": "opdagelsen",
+    "en": "the discovery"
+   },
+   {
+    "da": "opdagelser",
+    "en": "discoveries"
+   },
+   {
+    "da": "opdagelserne",
+    "en": "the discoveries"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opdage",
+    "en": "to discover"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   },
+   {
+    "da": "et fund",
+    "en": "a find"
+   },
+   {
+    "da": "en afsløring",
+    "en": "a revelation"
+   }
+  ],
+  "sentence": {
+   "da": "Penicillin var en vigtig **opdagelse** inden for medicin.",
+   "en": "Penicillin was an important discovery in medicine."
+  }
+ },
  "en opdatering": {
   "explanation": "\"En opdatering\" means \"an update\", a new version of an app or system. The action is at opdatere (to update).",
   "forms": [
@@ -1063,6 +4432,92 @@
   "sentence": {
    "da": "Min telefon skal have en **opdatering** i aften.",
    "en": "My phone needs an update tonight."
+  }
+ },
+ "en opdeling": {
+  "explanation": "\"En opdeling\" means \"a division\", splitting something into parts or groups. It comes from at dele op (to split up).",
+  "forms": [
+   {
+    "da": "en opdeling",
+    "en": "a division"
+   },
+   {
+    "da": "opdelingen",
+    "en": "the division"
+   },
+   {
+    "da": "opdelinger",
+    "en": "divisions"
+   },
+   {
+    "da": "opdelingerne",
+    "en": "the divisions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en inddeling",
+    "en": "a classification"
+   },
+   {
+    "da": "en kategori",
+    "en": "a category"
+   },
+   {
+    "da": "en adskillelse",
+    "en": "a separation"
+   },
+   {
+    "da": "en fordeling",
+    "en": "a distribution"
+   }
+  ],
+  "sentence": {
+   "da": "En **opdeling** af klassen i små hold gør arbejdet nemmere.",
+   "en": "A division of the class into small teams makes the work easier."
+  }
+ },
+ "en opdragelse": {
+  "explanation": "\"En opdragelse\" means \"an upbringing\", the way a child is taught manners and values by the adults around it. It is about what they do; en opvækst (the years of growing up in a place) is about the setting.",
+  "forms": [
+   {
+    "da": "en opdragelse",
+    "en": "an upbringing"
+   },
+   {
+    "da": "opdragelsen",
+    "en": "the upbringing"
+   },
+   {
+    "da": "opdragelser",
+    "en": "upbringings"
+   },
+   {
+    "da": "opdragelserne",
+    "en": "the upbringings"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opdrage",
+    "en": "to bring up"
+   },
+   {
+    "da": "en dannelse",
+    "en": "an education of character"
+   },
+   {
+    "da": "en barndom",
+    "en": "a childhood"
+   },
+   {
+    "da": "en opførsel",
+    "en": "behavior"
+   }
+  ],
+  "sentence": {
+   "da": "God **opdragelse** handler om at lære børn at være høflige.",
+   "en": "Good upbringing is about teaching children to be polite."
   }
  },
  "en opera": {
@@ -1147,6 +4602,248 @@
    "en": "She is having an operation at the hospital tomorrow."
   }
  },
+ "en opfattelse": {
+  "explanation": "\"En opfattelse\" means \"a view\" or \"a perception\", how you see something, and it is often used for what you think about a matter: Efter min opfattelse er det for dyrt (In my view, it is too expensive).",
+  "forms": [
+   {
+    "da": "en opfattelse",
+    "en": "a perception / view"
+   },
+   {
+    "da": "opfattelsen",
+    "en": "the perception / view"
+   },
+   {
+    "da": "opfattelser",
+    "en": "perceptions / views"
+   },
+   {
+    "da": "opfattelserne",
+    "en": "the perceptions / views"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   },
+   {
+    "da": "et synspunkt",
+    "en": "a point of view"
+   },
+   {
+    "da": "en forståelse",
+    "en": "an understanding"
+   },
+   {
+    "da": "at opfatte",
+    "en": "to perceive"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **opfattelse** af sagen er en helt anden end min.",
+   "en": "His view of the matter is completely different from mine."
+  }
+ },
+ "en opfindelse": {
+  "explanation": "\"En opfindelse\" means \"an invention\", something new that a person has made, like a machine. Unlike en opdagelse (a discovery), it did not exist before.",
+  "forms": [
+   {
+    "da": "en opfindelse",
+    "en": "an invention"
+   },
+   {
+    "da": "opfindelsen",
+    "en": "the invention"
+   },
+   {
+    "da": "opfindelser",
+    "en": "inventions"
+   },
+   {
+    "da": "opfindelserne",
+    "en": "the inventions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opfinde",
+    "en": "to invent"
+   },
+   {
+    "da": "en opfinder",
+    "en": "an inventor"
+   },
+   {
+    "da": "et patent",
+    "en": "a patent"
+   }
+  ],
+  "sentence": {
+   "da": "Telefonen var en stor **opfindelse**, og den ændrede verden.",
+   "en": "The telephone was a great invention, and it changed the world."
+  }
+ },
+ "en opfinder": {
+  "explanation": "\"En opfinder\" means \"an inventor\", a person who thinks up something new and builds it. The word comes from at opfinde (to invent), and -er makes it the person who does it, just like en lærer (a teacher).",
+  "forms": [
+   {
+    "da": "en opfinder",
+    "en": "an inventor"
+   },
+   {
+    "da": "opfinderen",
+    "en": "the inventor"
+   },
+   {
+    "da": "opfindere",
+    "en": "inventors"
+   },
+   {
+    "da": "opfinderne",
+    "en": "the inventors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opfindelse",
+    "en": "an invention"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   },
+   {
+    "da": "en ingeniør",
+    "en": "an engineer"
+   }
+  ],
+  "sentence": {
+   "da": "En **opfinder** får ofte patent på en ny maskine.",
+   "en": "An inventor often gets a patent on a new machine."
+  }
+ },
+ "en opfordring": {
+  "explanation": "\"En opfordring\" means \"a call\" or \"an appeal\", when someone encourages others to do something. It is stronger than a plain question but not a command. På opfordring (when asked to) is common: Han sang på opfordring (He sang when asked to).",
+  "forms": [
+   {
+    "da": "en opfordring",
+    "en": "a call / appeal"
+   },
+   {
+    "da": "opfordringen",
+    "en": "the call / appeal"
+   },
+   {
+    "da": "opfordringer",
+    "en": "calls / appeals"
+   },
+   {
+    "da": "opfordringerne",
+    "en": "the calls / appeals"
+   }
+  ],
+  "related": [
+   {
+    "da": "en anmodning",
+    "en": "a request"
+   },
+   {
+    "da": "en henstilling",
+    "en": "a recommendation"
+   },
+   {
+    "da": "at opfordre",
+    "en": "to urge"
+   }
+  ],
+  "sentence": {
+   "da": "Der kom en **opfordring** om at spare på vandet.",
+   "en": "There was a call to save water."
+  }
+ },
+ "en opførelse": {
+  "explanation": "\"En opførelse\" means \"a construction\", the putting up of something large, such as a bridge. It also means a performance of a theater piece or an opera. Do not mix it up with en opførsel (behavior).",
+  "forms": [
+   {
+    "da": "en opførelse",
+    "en": "a construction / a performance"
+   },
+   {
+    "da": "opførelsen",
+    "en": "the construction / performance"
+   },
+   {
+    "da": "opførelser",
+    "en": "constructions / performances"
+   },
+   {
+    "da": "opførelserne",
+    "en": "the constructions / performances"
+   }
+  ],
+  "related": [
+   {
+    "da": "et byggeri",
+    "en": "a building project"
+   },
+   {
+    "da": "en forestilling",
+    "en": "a show"
+   },
+   {
+    "da": "en opsætning",
+    "en": "a staging"
+   },
+   {
+    "da": "en bygning",
+    "en": "a building"
+   }
+  ],
+  "sentence": {
+   "da": "En **opførelse** af en stor bro kræver mange mennesker og penge.",
+   "en": "The construction of a big bridge takes many people and money."
+  }
+ },
+ "en opgang": {
+  "explanation": "\"En opgang\" means \"a stairwell\" or \"an entrance\", one entrance with its stairs in a large residential building. Big buildings often have several, named by letter or number.",
+  "forms": [
+   {
+    "da": "en opgang",
+    "en": "a stairwell / entrance"
+   },
+   {
+    "da": "opgangen",
+    "en": "the stairwell / entrance"
+   },
+   {
+    "da": "opgange",
+    "en": "stairwells / entrances"
+   },
+   {
+    "da": "opgangene",
+    "en": "the stairwells / entrances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en etage",
+    "en": "a floor"
+   },
+   {
+    "da": "en lejlighed",
+    "en": "an apartment"
+   },
+   {
+    "da": "en elevator",
+    "en": "an elevator"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **opgang** har sin egen dør og sin egen trappe.",
+   "en": "Each stairwell has its own door and its own stairs."
+  }
+ },
  "en opgave": {
   "explanation": "\"En opgave\" means \"a task\", at work or at school. In school it can also be an exercise: en matematikopgave (a math exercise).",
   "forms": [
@@ -1184,6 +4881,213 @@
   "sentence": {
    "da": "Min **opgave** er at ringe til kunderne.",
    "en": "My task is to call the customers."
+  }
+ },
+ "en opgavebog": {
+  "explanation": "\"En opgavebog\" means \"an exercise book\", a book full of tasks to solve, used in school for subjects like math or language. It is for practice, so you write the answers right in it.",
+  "forms": [
+   {
+    "da": "en opgavebog",
+    "en": "an exercise book"
+   },
+   {
+    "da": "opgavebogen",
+    "en": "the exercise book"
+   },
+   {
+    "da": "opgavebøger",
+    "en": "exercise books"
+   },
+   {
+    "da": "opgavebøgerne",
+    "en": "the exercise books"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lærebog",
+    "en": "a textbook"
+   },
+   {
+    "da": "en notesbog",
+    "en": "a notebook"
+   },
+   {
+    "da": "en lektie",
+    "en": "homework"
+   }
+  ],
+  "sentence": {
+   "da": "Vi løser matematiske opgaver i en **opgavebog**.",
+   "en": "We solve math problems in an exercise book."
+  }
+ },
+ "en opgivelse": {
+  "explanation": "\"En opgivelse\" means \"a giving up\", the act of stopping a goal or plan because you no longer think it can succeed. It comes from at opgive (to give up).",
+  "forms": [
+   {
+    "da": "en opgivelse",
+    "en": "a giving up"
+   },
+   {
+    "da": "opgivelsen",
+    "en": "the giving up"
+   },
+   {
+    "da": "opgivelse af planen",
+    "en": "giving up the plan"
+   },
+   {
+    "da": "opgivelse af håbet",
+    "en": "giving up hope"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kapitulation",
+    "en": "a surrender"
+   },
+   {
+    "da": "en fortvivlelse",
+    "en": "despair"
+   },
+   {
+    "da": "et håb",
+    "en": "a hope"
+   },
+   {
+    "da": "en vedholdenhed",
+    "en": "persistence"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes **opgivelse** af drømmen kom efter mange år uden held.",
+   "en": "Her giving up of the dream came after many years without luck."
+  }
+ },
+ "en opgørelse": {
+  "explanation": "\"En opgørelse\" means \"a statement\" or \"a count\", a written summary of figures after adding things up. It comes from at gøre op (to settle up).",
+  "forms": [
+   {
+    "da": "en opgørelse",
+    "en": "a statement / a count"
+   },
+   {
+    "da": "opgørelsen",
+    "en": "the statement / count"
+   },
+   {
+    "da": "opgørelser",
+    "en": "statements / counts"
+   },
+   {
+    "da": "opgørelserne",
+    "en": "the statements / counts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et regnskab",
+    "en": "accounts"
+   },
+   {
+    "da": "en oversigt",
+    "en": "an overview"
+   },
+   {
+    "da": "et overslag",
+    "en": "an estimate"
+   },
+   {
+    "da": "en optælling",
+    "en": "a tally"
+   }
+  ],
+  "sentence": {
+   "da": "Banken sender mig en **opgørelse** over alle mine indtægter og udgifter.",
+   "en": "The bank sends me a statement of all my income and expenses."
+  }
+ },
+ "en opholdstilladelse": {
+  "explanation": "\"En opholdstilladelse\" means \"a residence permit\", an official paper from the authorities that lets a foreigner live in a country. It is built from ophold (a stay) and tilladelse (a permission), so literally stay permission.",
+  "forms": [
+   {
+    "da": "en opholdstilladelse",
+    "en": "a residence permit"
+   },
+   {
+    "da": "opholdstilladelsen",
+    "en": "the residence permit"
+   },
+   {
+    "da": "opholdstilladelser",
+    "en": "residence permits"
+   },
+   {
+    "da": "opholdstilladelserne",
+    "en": "the residence permits"
+   }
+  ],
+  "related": [
+   {
+    "da": "et visum",
+    "en": "a visa"
+   },
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "et statsborgerskab",
+    "en": "a citizenship"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fik en **opholdstilladelse**, så hun kunne bo i Danmark.",
+   "en": "She got a residence permit so she could live in Denmark."
+  }
+ },
+ "en ophævelse": {
+  "explanation": "\"En ophævelse\" means \"an abolition\" or \"a cancellation\", officially ending something that was in force, such as a rule, a contract or a ban. It comes from at ophæve (to repeal).",
+  "forms": [
+   {
+    "da": "en ophævelse",
+    "en": "an abolition / a cancellation"
+   },
+   {
+    "da": "ophævelsen",
+    "en": "the abolition / cancellation"
+   },
+   {
+    "da": "ophævelser",
+    "en": "abolitions / cancellations"
+   },
+   {
+    "da": "ophævelserne",
+    "en": "the abolitions / cancellations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en annullering",
+    "en": "an annulment"
+   },
+   {
+    "da": "en opsigelse",
+    "en": "a termination"
+   },
+   {
+    "da": "en afskaffelse",
+    "en": "a scrapping"
+   },
+   {
+    "da": "en suspendering",
+    "en": "a suspension"
+   }
+  ],
+  "sentence": {
+   "da": "Flertallet stemte for **ophævelse** af den gamle regel.",
+   "en": "The majority voted for the repeal of the old rule."
   }
  },
  "en oplader": {
@@ -1307,6 +5211,295 @@
    "en": "She gave me an important piece of information about the price."
   }
  },
+ "en opmuntring": {
+  "explanation": "\"En opmuntring\" means \"an encouragement\", something that cheers you up or gives you courage to keep going. A small gift can also be en lille opmuntring (a little pick-me-up).",
+  "forms": [
+   {
+    "da": "en opmuntring",
+    "en": "an encouragement"
+   },
+   {
+    "da": "opmuntringen",
+    "en": "the encouragement"
+   },
+   {
+    "da": "opmuntringer",
+    "en": "encouragements"
+   },
+   {
+    "da": "opmuntringerne",
+    "en": "the encouragements"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opmuntre",
+    "en": "to encourage"
+   },
+   {
+    "da": "en støtte",
+    "en": "a support"
+   },
+   {
+    "da": "en trøst",
+    "en": "a comfort"
+   }
+  ],
+  "sentence": {
+   "da": "Et par venlige ord kan være en stor **opmuntring**, når man er trist.",
+   "en": "A few kind words can be a great encouragement when you are sad."
+  }
+ },
+ "en opposition": {
+  "explanation": "\"En opposition\" means \"an opposition\", in politics the groups that are not in power and question those who are. It can also mean any strong objection: Der er stærk opposition mod planen (There is strong opposition to the plan).",
+  "forms": [
+   {
+    "da": "en opposition",
+    "en": "an opposition"
+   },
+   {
+    "da": "oppositionen",
+    "en": "the opposition"
+   },
+   {
+    "da": "oppositioner",
+    "en": "oppositions"
+   },
+   {
+    "da": "oppositionerne",
+    "en": "the oppositions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regering",
+    "en": "a government"
+   },
+   {
+    "da": "et folketing",
+    "en": "a parliament"
+   },
+   {
+    "da": "en modstander",
+    "en": "an opponent"
+   },
+   {
+    "da": "en modstand",
+    "en": "a resistance"
+   }
+  ],
+  "sentence": {
+   "da": "Partier i **opposition** kritiserer ofte regeringen.",
+   "en": "Parties in opposition often criticize the government."
+  }
+ },
+ "en oprindelse": {
+  "explanation": "\"En oprindelse\" means \"an origin\", the place or cause where something starts. It is often used for where people, words or products come from: Hvad er ordets oprindelse? (What is the origin of the word?)",
+  "forms": [
+   {
+    "da": "en oprindelse",
+    "en": "an origin"
+   },
+   {
+    "da": "oprindelsen",
+    "en": "the origin"
+   },
+   {
+    "da": "oprindelser",
+    "en": "origins"
+   },
+   {
+    "da": "oprindelserne",
+    "en": "the origins"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kilde",
+    "en": "a source"
+   },
+   {
+    "da": "en begyndelse",
+    "en": "a beginning"
+   },
+   {
+    "da": "en afstamning",
+    "en": "a descent"
+   },
+   {
+    "da": "et ophav",
+    "en": "an origin / creator"
+   }
+  ],
+  "sentence": {
+   "da": "Maden har sin **oprindelse** i Italien, men den spises overalt.",
+   "en": "The food has its origin in Italy, but it is eaten everywhere."
+  }
+ },
+ "en opringning": {
+  "explanation": "\"En opringning\" means \"a phone call\", the moment someone phones you or you phone someone. It is built from at ringe op (literally to ring up).",
+  "forms": [
+   {
+    "da": "en opringning",
+    "en": "a phone call"
+   },
+   {
+    "da": "opringningen",
+    "en": "the phone call"
+   },
+   {
+    "da": "opringninger",
+    "en": "phone calls"
+   },
+   {
+    "da": "opringningerne",
+    "en": "the phone calls"
+   }
+  ],
+  "related": [
+   {
+    "da": "et opkald",
+    "en": "a call"
+   },
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg fik en **opringning** fra banken i går.",
+   "en": "I got a phone call from the bank yesterday."
+  }
+ },
+ "en oprydning": {
+  "explanation": "\"En oprydning\" means \"a tidying up\", putting a room or place back in order. It is also used for clearing up after a storm or an event: oprydning efter stormen (cleanup after the storm).",
+  "forms": [
+   {
+    "da": "en oprydning",
+    "en": "a tidying up"
+   },
+   {
+    "da": "oprydningen",
+    "en": "the tidying up"
+   },
+   {
+    "da": "oprydninger",
+    "en": "tidy-ups"
+   },
+   {
+    "da": "oprydningerne",
+    "en": "the tidy-ups"
+   }
+  ],
+  "related": [
+   {
+    "da": "at rydde op",
+    "en": "to tidy up"
+   },
+   {
+    "da": "et rod",
+    "en": "a mess"
+   },
+   {
+    "da": "en rengøring",
+    "en": "a cleaning"
+   }
+  ],
+  "sentence": {
+   "da": "Efter festen var der en stor **oprydning** i stuen.",
+   "en": "After the party there was a big cleanup in the living room."
+  }
+ },
+ "en opsang": {
+  "explanation": "\"En opsang\" means \"a telling-off\", a stern talking-to after someone did something wrong, usually from a parent or a boss. You use it with få (get) and give (give): at få en opsang (to get told off).",
+  "forms": [
+   {
+    "da": "en opsang",
+    "en": "a telling-off"
+   },
+   {
+    "da": "opsangen",
+    "en": "the telling-off"
+   },
+   {
+    "da": "en alvorlig opsang",
+    "en": "a serious telling-off"
+   },
+   {
+    "da": "en kraftig opsang",
+    "en": "a stern telling-off"
+   }
+  ],
+  "related": [
+   {
+    "da": "en reprimande",
+    "en": "a reprimand"
+   },
+   {
+    "da": "en irettesættelse",
+    "en": "a rebuke"
+   },
+   {
+    "da": "en straffeprædiken",
+    "en": "a lecture"
+   },
+   {
+    "da": "en formaning",
+    "en": "an admonition"
+   }
+  ],
+  "sentence": {
+   "da": "Min mor gav mig en **opsang**, fordi jeg kom for sent hjem.",
+   "en": "My mother gave me a telling-off because I came home too late."
+  }
+ },
+ "en opsigelse": {
+  "explanation": "\"En opsigelse\" means \"a resignation\" or \"a notice of termination\", the formal step that ends a job, rental or subscription. It works both ways: you can hand one in yourself, or your employer can give you one. Få en opsigelse (to be let go) is the second case.",
+  "forms": [
+   {
+    "da": "en opsigelse",
+    "en": "a resignation / notice of termination"
+   },
+   {
+    "da": "opsigelsen",
+    "en": "the resignation / notice of termination"
+   },
+   {
+    "da": "opsigelser",
+    "en": "resignations / notices of termination"
+   },
+   {
+    "da": "opsigelserne",
+    "en": "the resignations / notices of termination"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sige op",
+    "en": "to quit"
+   },
+   {
+    "da": "en afskedigelse",
+    "en": "a dismissal"
+   },
+   {
+    "da": "en ansættelse",
+    "en": "an employment"
+   },
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   }
+  ],
+  "sentence": {
+   "da": "Hun afleverede sin **opsigelse**, fordi hun fik et nyt job.",
+   "en": "She handed in her resignation because she got a new job."
+  }
+ },
  "en opskrift": {
   "explanation": "\"En opskrift\" means \"a recipe\", a list of ingredients and steps for making a dish. The food comes after på (for): en opskrift på pandekager (a recipe for pancakes).",
   "forms": [
@@ -1393,6 +5586,127 @@
    "en": "I hung a poster on a bulletin board."
   }
  },
+ "en opsparing": {
+  "explanation": "\"En opsparing\" means \"savings\", money you have put aside over time. Danish uses the singular for the whole amount: Jeg har en lille opsparing (I have a small amount put away).",
+  "forms": [
+   {
+    "da": "en opsparing",
+    "en": "savings"
+   },
+   {
+    "da": "opsparingen",
+    "en": "the savings"
+   },
+   {
+    "da": "opsparinger",
+    "en": "savings"
+   },
+   {
+    "da": "opsparingerne",
+    "en": "the savings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sparekasse",
+    "en": "a savings bank"
+   },
+   {
+    "da": "en bankkonto",
+    "en": "a bank account"
+   },
+   {
+    "da": "en rente",
+    "en": "an interest rate"
+   },
+   {
+    "da": "at spare op",
+    "en": "to save up"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lægger penge til side hver måned, og det er min **opsparing**.",
+   "en": "I put money aside every month, and that is my savings."
+  }
+ },
+ "en optagelse": {
+  "explanation": "\"En optagelse\" means \"a recording\", sound or video saved so you can play it again later. It also means \"admission\" when you are accepted into a school or club: optagelse på universitetet (admission to the university).",
+  "forms": [
+   {
+    "da": "en optagelse",
+    "en": "a recording"
+   },
+   {
+    "da": "optagelsen",
+    "en": "the recording"
+   },
+   {
+    "da": "optagelser",
+    "en": "recordings"
+   },
+   {
+    "da": "optagelserne",
+    "en": "the recordings"
+   }
+  ],
+  "related": [
+   {
+    "da": "at optage",
+    "en": "to record"
+   },
+   {
+    "da": "en film",
+    "en": "a film"
+   },
+   {
+    "da": "en lydfil",
+    "en": "an audio file"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lavede en **optagelse** af koncerten med min telefon.",
+   "en": "I made a recording of the concert with my phone."
+  }
+ },
+ "en optiker": {
+  "explanation": "\"En optiker\" means \"an optician\", a person who tests your sight and sells you glasses. An eye doctor is en øjenlæge, who treats eye diseases.",
+  "forms": [
+   {
+    "da": "en optiker",
+    "en": "an optician"
+   },
+   {
+    "da": "optikeren",
+    "en": "the optician"
+   },
+   {
+    "da": "optikere",
+    "en": "opticians"
+   },
+   {
+    "da": "optikerne",
+    "en": "the opticians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kontaktlinse",
+    "en": "a contact lens"
+   },
+   {
+    "da": "en synsprøve",
+    "en": "an eye test"
+   },
+   {
+    "da": "et brillestel",
+    "en": "a frame"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg bestilte tid hos en **optiker**, fordi jeg ikke kunne se tavlen.",
+   "en": "I booked an appointment with an optician because I could not see the board."
+  }
+ },
  "en optikerforretning": {
   "explanation": "\"En optikerforretning\" means \"an optician's shop\", where you buy glasses and get your eyes tested.",
   "forms": [
@@ -1430,6 +5744,170 @@
   "sentence": {
    "da": "Hun køber nye briller i en **optikerforretning**.",
    "en": "She buys new glasses in an optician's shop."
+  }
+ },
+ "en optræden": {
+  "explanation": "\"En optræden\" means \"a performance\", when someone appears in front of an audience, such as a singer, actor or comedian. It can also mean how a person comes across in public: Hendes optræden var rolig og sikker (She came across as calm and confident).",
+  "forms": [
+   {
+    "da": "en optræden",
+    "en": "a performance"
+   },
+   {
+    "da": "optrædenen",
+    "en": "the performance"
+   },
+   {
+    "da": "optrædener",
+    "en": "performances"
+   },
+   {
+    "da": "optrædenerne",
+    "en": "the performances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forestilling",
+    "en": "a show"
+   },
+   {
+    "da": "en koncert",
+    "en": "a concert"
+   },
+   {
+    "da": "en scene",
+    "en": "a stage"
+   },
+   {
+    "da": "en opførsel",
+    "en": "behavior"
+   }
+  ],
+  "sentence": {
+   "da": "Bandets **optræden** på festivalen varede en hel time.",
+   "en": "The band's performance at the festival lasted a whole hour."
+  }
+ },
+ "en optælling": {
+  "explanation": "\"En optælling\" means \"a count\", counting things to find out how many there are, for example goods in stock or people at an event. It comes from at tælle op (to count up).",
+  "forms": [
+   {
+    "da": "en optælling",
+    "en": "a count"
+   },
+   {
+    "da": "optællingen",
+    "en": "the count"
+   },
+   {
+    "da": "optællinger",
+    "en": "counts"
+   },
+   {
+    "da": "optællingerne",
+    "en": "the counts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en folketælling",
+    "en": "a census"
+   },
+   {
+    "da": "en opgørelse",
+    "en": "a tally"
+   },
+   {
+    "da": "et antal",
+    "en": "a number"
+   },
+   {
+    "da": "en sum",
+    "en": "a sum"
+   }
+  ],
+  "sentence": {
+   "da": "Efter valget foretager de en **optælling** af stemmerne.",
+   "en": "After the election they carry out a count of the votes."
+  }
+ },
+ "en opvarmning": {
+  "explanation": "\"En opvarmning\" means \"a warm-up\", light exercise before sport to prepare the body. It also means the heating of a building: opvarmning af huset (heating the house).",
+  "forms": [
+   {
+    "da": "en opvarmning",
+    "en": "a warm-up"
+   },
+   {
+    "da": "opvarmningen",
+    "en": "the warm-up"
+   },
+   {
+    "da": "opvarmninger",
+    "en": "warm-ups"
+   },
+   {
+    "da": "opvarmningerne",
+    "en": "the warm-ups"
+   }
+  ],
+  "related": [
+   {
+    "da": "at varme op",
+    "en": "to warm up"
+   },
+   {
+    "da": "en træning",
+    "en": "a training session"
+   },
+   {
+    "da": "en varme",
+    "en": "warmth"
+   }
+  ],
+  "sentence": {
+   "da": "Spillerne laver en **opvarmning** på banen før kampen.",
+   "en": "The players do a warm-up on the field before the match."
+  }
+ },
+ "en opvask": {
+  "explanation": "\"En opvask\" means \"dishwashing\", the dirty dishes or the job of washing them. It is also the start of en opvaskemaskine (a dishwasher).",
+  "forms": [
+   {
+    "da": "en opvask",
+    "en": "dishwashing"
+   },
+   {
+    "da": "opvasken",
+    "en": "the dishes"
+   },
+   {
+    "da": "at tage opvasken",
+    "en": "to do the dishes"
+   },
+   {
+    "da": "meget opvask",
+    "en": "a lot of dishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en karklud",
+    "en": "a dishcloth"
+   },
+   {
+    "da": "et viskestykke",
+    "en": "a dish towel"
+   },
+   {
+    "da": "at vaske op",
+    "en": "to wash up"
+   }
+  ],
+  "sentence": {
+   "da": "Efter middagen står der meget **opvask** i køkkenet.",
+   "en": "After dinner there are lots of dishes in the kitchen."
   }
  },
  "en opvaskebørste": {
@@ -1561,6 +6039,45 @@
    "en": "As a dishwasher he washes plates every evening."
   }
  },
+ "en opvækst": {
+  "explanation": "\"En opvækst\" means \"an upbringing\", the early years of your life and what they were like. It is about the setting you were raised in; en opdragelse (the manners your parents taught you) is about what they did.",
+  "forms": [
+   {
+    "da": "en opvækst",
+    "en": "an upbringing"
+   },
+   {
+    "da": "opvæksten",
+    "en": "the upbringing"
+   },
+   {
+    "da": "min opvækst",
+    "en": "my upbringing"
+   },
+   {
+    "da": "en lykkelig opvækst",
+    "en": "a happy upbringing"
+   }
+  ],
+  "related": [
+   {
+    "da": "en barndom",
+    "en": "a childhood"
+   },
+   {
+    "da": "en ungdom",
+    "en": "a youth"
+   },
+   {
+    "da": "at vokse op",
+    "en": "to grow up"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes **opvækst** på landet var rolig, og hun havde mange dyr.",
+   "en": "Her upbringing in the country was calm, and she had many animals."
+  }
+ },
  "en ordbog": {
   "explanation": "\"En ordbog\" means \"a dictionary\", built from ord (word) and bog (book). The same ord is in et ordsprog (a proverb).",
   "forms": [
@@ -1598,6 +6115,213 @@
   "sentence": {
    "da": "Jeg slår ordet op i en **ordbog**.",
    "en": "I look the word up in a dictionary."
+  }
+ },
+ "en ordliste": {
+  "explanation": "\"En ordliste\" means \"a word list\" or \"a glossary\", a list of words with their meanings, often made for learners of a language or a school subject. It is shorter and simpler than en ordbog (a dictionary).",
+  "forms": [
+   {
+    "da": "en ordliste",
+    "en": "a word list / glossary"
+   },
+   {
+    "da": "ordlisten",
+    "en": "the word list / glossary"
+   },
+   {
+    "da": "ordlister",
+    "en": "word lists / glossaries"
+   },
+   {
+    "da": "ordlisterne",
+    "en": "the word lists / glossaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et leksikon",
+    "en": "an encyclopedia"
+   },
+   {
+    "da": "en gloseliste",
+    "en": "a vocabulary list"
+   },
+   {
+    "da": "et ordforråd",
+    "en": "a vocabulary"
+   }
+  ],
+  "sentence": {
+   "da": "Bagest i bogen er der en **ordliste** med de svære ord.",
+   "en": "At the back of the book is a word list with the hard words."
+  }
+ },
+ "en ordning": {
+  "explanation": "\"En ordning\" means \"an arrangement\" or \"a scheme\", a fixed way of organizing something, at work, at home or by the state. It comes from at ordne (to put in order) and often ends other words: en pensionsordning (a pension scheme).",
+  "forms": [
+   {
+    "da": "en ordning",
+    "en": "an arrangement / scheme"
+   },
+   {
+    "da": "ordningen",
+    "en": "the arrangement / scheme"
+   },
+   {
+    "da": "ordninger",
+    "en": "arrangements / schemes"
+   },
+   {
+    "da": "ordningerne",
+    "en": "the arrangements / schemes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et system",
+    "en": "a system"
+   },
+   {
+    "da": "en aftale",
+    "en": "an agreement"
+   },
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "en løsning",
+    "en": "a solution"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har en fast **ordning**: Mor handler, og far laver mad.",
+   "en": "We have a fixed arrangement: Mom shops, and Dad cooks."
+  }
+ },
+ "en ordre": {
+  "explanation": "\"En ordre\" means \"an order\", something you are told to do by someone with authority, like a boss. It also means a customer's order of goods in business: en ordre på ti stole (an order for ten chairs). In a restaurant, Danes use at bestille (to order) instead.",
+  "forms": [
+   {
+    "da": "en ordre",
+    "en": "an order (command)"
+   },
+   {
+    "da": "ordren",
+    "en": "the order (command)"
+   },
+   {
+    "da": "ordrer",
+    "en": "orders"
+   },
+   {
+    "da": "ordrerne",
+    "en": "the orders"
+   }
+  ],
+  "related": [
+   {
+    "da": "en befaling",
+    "en": "a command"
+   },
+   {
+    "da": "en instruks",
+    "en": "an instruction"
+   },
+   {
+    "da": "et påbud",
+    "en": "a decree"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaterne skal følge hver **ordre** fra deres chef.",
+   "en": "The soldiers must follow every order from their boss."
+  }
+ },
+ "en organisation": {
+  "explanation": "\"En organisation\" means \"an organization\", a group of people working together for a shared aim, such as a charity. It can also mean how something is arranged: organisationen af arbejdet (the way the work is arranged).",
+  "forms": [
+   {
+    "da": "en organisation",
+    "en": "an organization"
+   },
+   {
+    "da": "organisationen",
+    "en": "the organization"
+   },
+   {
+    "da": "organisationer",
+    "en": "organizations"
+   },
+   {
+    "da": "organisationerne",
+    "en": "the organizations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forening",
+    "en": "an association"
+   },
+   {
+    "da": "en virksomhed",
+    "en": "a company"
+   },
+   {
+    "da": "en institution",
+    "en": "an institution"
+   },
+   {
+    "da": "en bevægelse",
+    "en": "a movement"
+   }
+  ],
+  "sentence": {
+   "da": "Røde Kors er en **organisation** og hjælper mennesker over hele verden.",
+   "en": "The Red Cross is an organization and helps people all over the world."
+  }
+ },
+ "en orkan": {
+  "explanation": "\"En orkan\" means \"a hurricane\", a violent wind of extreme force. In Danish weather reports, it is the very top level of wind strength.",
+  "forms": [
+   {
+    "da": "en orkan",
+    "en": "a hurricane"
+   },
+   {
+    "da": "orkanen",
+    "en": "the hurricane"
+   },
+   {
+    "da": "orkaner",
+    "en": "hurricanes"
+   },
+   {
+    "da": "orkanerne",
+    "en": "the hurricanes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en storm",
+    "en": "a storm"
+   },
+   {
+    "da": "en tyfon",
+    "en": "a typhoon"
+   },
+   {
+    "da": "en tornado",
+    "en": "a tornado"
+   },
+   {
+    "da": "et uvejr",
+    "en": "bad weather"
+   }
+  ],
+  "sentence": {
+   "da": "Under en **orkan** vælter vinden træer og skader huse.",
+   "en": "During a hurricane the wind knocks over trees and damages houses."
   }
  },
  "en orm": {
@@ -1764,6 +6488,166 @@
    "en": "I cut the cheese with a cheese slicer."
   }
  },
+ "en overbetjent": {
+  "explanation": "\"En overbetjent\" means \"a senior police officer\", a higher rank within the police. The over- means higher in rank, like in en overlæge (a senior doctor).",
+  "forms": [
+   {
+    "da": "en overbetjent",
+    "en": "a senior police officer"
+   },
+   {
+    "da": "overbetjenten",
+    "en": "the senior police officer"
+   },
+   {
+    "da": "overbetjente",
+    "en": "senior police officers"
+   },
+   {
+    "da": "overbetjentene",
+    "en": "the senior police officers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kriminalbetjent",
+    "en": "a detective"
+   },
+   {
+    "da": "en politiassistent",
+    "en": "a police assistant"
+   },
+   {
+    "da": "en politibetjent",
+    "en": "a police constable"
+   }
+  ],
+  "sentence": {
+   "da": "Han blev **overbetjent** efter mange år ved politiet.",
+   "en": "He became a senior police officer after many years with the police."
+  }
+ },
+ "en overbevisning": {
+  "explanation": "\"En overbevisning\" means \"a conviction\", an idea you hold very firmly, often about politics, religion or right and wrong. A conviction in court is something else: en domfældelse (a guilty verdict).",
+  "forms": [
+   {
+    "da": "en overbevisning",
+    "en": "a conviction"
+   },
+   {
+    "da": "overbevisningen",
+    "en": "the conviction"
+   },
+   {
+    "da": "overbevisninger",
+    "en": "convictions"
+   },
+   {
+    "da": "overbevisningerne",
+    "en": "the convictions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tro",
+    "en": "a belief"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   },
+   {
+    "da": "en holdning",
+    "en": "an attitude"
+   },
+   {
+    "da": "at overbevise",
+    "en": "to convince"
+   }
+  ],
+  "sentence": {
+   "da": "Af **overbevisning** spiser han aldrig kød.",
+   "en": "Out of conviction, he never eats meat."
+  }
+ },
+ "en overdosis": {
+  "explanation": "\"En overdosis\" means \"an overdose\", a dose of a drug or medicine that is too large and can harm the body. The over- often means \"too much\", as in at overvurdere (to overestimate).",
+  "forms": [
+   {
+    "da": "en overdosis",
+    "en": "an overdose"
+   },
+   {
+    "da": "overdosen",
+    "en": "the overdose"
+   },
+   {
+    "da": "overdoser",
+    "en": "overdoses"
+   },
+   {
+    "da": "overdoserne",
+    "en": "the overdoses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forgiftning",
+    "en": "a poisoning"
+   },
+   {
+    "da": "et rusmiddel",
+    "en": "an intoxicant"
+   },
+   {
+    "da": "en bivirkning",
+    "en": "a side effect"
+   }
+  ],
+  "sentence": {
+   "da": "Han fik en **overdosis**, fordi han tog for mange piller.",
+   "en": "He had an overdose because he took too many pills."
+  }
+ },
+ "en overenskomst": {
+  "explanation": "\"En overenskomst\" means \"a collective agreement\", a deal between employers and a trade union that sets wages and rules for a whole group of workers. It applies on top of what you agree with your own employer, and many jobs in Denmark are covered by one.",
+  "forms": [
+   {
+    "da": "en overenskomst",
+    "en": "a collective agreement"
+   },
+   {
+    "da": "overenskomsten",
+    "en": "the collective agreement"
+   },
+   {
+    "da": "overenskomster",
+    "en": "collective agreements"
+   },
+   {
+    "da": "overenskomsterne",
+    "en": "the collective agreements"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   },
+   {
+    "da": "en strejke",
+    "en": "a strike"
+   },
+   {
+    "da": "en løn",
+    "en": "a salary"
+   }
+  ],
+  "sentence": {
+   "da": "Lønnen og arbejdstiden for alle ansatte står i en **overenskomst**.",
+   "en": "The pay and working hours for all employees are in a collective agreement."
+  }
+ },
  "en overflade": {
   "explanation": "\"En overflade\" means \"a surface\", the outside of something, such as the top of water. It is built from over (over) and flade (flat area). Flade goes with flad (flat), as in en fladskærm (a flat-screen TV).",
   "forms": [
@@ -1805,6 +6689,88 @@
   "sentence": {
    "da": "Bordet har en meget glat **overflade**.",
    "en": "The table has a very smooth surface."
+  }
+ },
+ "en overførsel": {
+  "explanation": "\"En overførsel\" means \"a transfer\", moving something from one place to another, most often money between bank accounts. It can also be data: overførsel af filer (transfer of files).",
+  "forms": [
+   {
+    "da": "en overførsel",
+    "en": "a transfer"
+   },
+   {
+    "da": "overførslen",
+    "en": "the transfer"
+   },
+   {
+    "da": "overførsler",
+    "en": "transfers"
+   },
+   {
+    "da": "overførslerne",
+    "en": "the transfers"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overføre",
+    "en": "to transfer"
+   },
+   {
+    "da": "en betaling",
+    "en": "a payment"
+   },
+   {
+    "da": "en indbetaling",
+    "en": "a deposit"
+   },
+   {
+    "da": "en hævning",
+    "en": "a withdrawal"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg betaler huslejen med en **overførsel** hver måned.",
+   "en": "I pay the rent with a transfer every month."
+  }
+ },
+ "en overgang": {
+  "explanation": "\"En overgang\" means \"a transition\", the move from one stage to another, such as from winter to spring. Over- means \"across\", so it is literally a going across, and the same word is used for a crossing: en fodgængerovergang (a pedestrian crossing).",
+  "forms": [
+   {
+    "da": "en overgang",
+    "en": "a transition"
+   },
+   {
+    "da": "overgangen",
+    "en": "the transition"
+   },
+   {
+    "da": "overgange",
+    "en": "transitions"
+   },
+   {
+    "da": "overgangene",
+    "en": "the transitions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forandring",
+    "en": "a change"
+   },
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   },
+   {
+    "da": "en fase",
+    "en": "a phase"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en stor **overgang** at skifte fra skole til arbejde.",
+   "en": "It is a big transition to change from school to work."
   }
  },
  "en overnatning": {
@@ -1971,6 +6937,92 @@
    "en": "The newspaper has a big headline on the front page."
   }
  },
+ "en oversvømmelse": {
+  "explanation": "\"En oversvømmelse\" means \"a flood\", when water covers land or buildings that are normally dry, after heavy rain or when a river or the sea rises. It can also be a small flood at home, such as from a burst pipe.",
+  "forms": [
+   {
+    "da": "en oversvømmelse",
+    "en": "a flood"
+   },
+   {
+    "da": "oversvømmelsen",
+    "en": "the flood"
+   },
+   {
+    "da": "oversvømmelser",
+    "en": "floods"
+   },
+   {
+    "da": "oversvømmelserne",
+    "en": "the floods"
+   }
+  ],
+  "related": [
+   {
+    "da": "at oversvømme",
+    "en": "to flood"
+   },
+   {
+    "da": "et skybrud",
+    "en": "a cloudburst"
+   },
+   {
+    "da": "en stormflod",
+    "en": "a storm surge"
+   },
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   }
+  ],
+  "sentence": {
+   "da": "Efter det kraftige regn kom der en **oversvømmelse** i kælderen.",
+   "en": "After the heavy rain there was a flood in the basement."
+  }
+ },
+ "en oversættelse": {
+  "explanation": "\"En oversættelse\" means \"a translation\", a written text moved from one language into another. A person who does this out loud with speech is en tolk (an interpreter).",
+  "forms": [
+   {
+    "da": "en oversættelse",
+    "en": "a translation"
+   },
+   {
+    "da": "oversættelsen",
+    "en": "the translation"
+   },
+   {
+    "da": "oversættelser",
+    "en": "translations"
+   },
+   {
+    "da": "oversættelserne",
+    "en": "the translations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at oversætte",
+    "en": "to translate"
+   },
+   {
+    "da": "en oversætter",
+    "en": "a translator"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen kom i en **oversættelse** fra engelsk til dansk.",
+   "en": "The book came out in a translation from English to Danish."
+  }
+ },
  "en oversætter": {
   "explanation": "\"En oversætter\" means \"a translator\", a person who turns written text from one language into another.",
   "forms": [
@@ -2010,6 +7062,49 @@
    "en": "My friend is a translator and works with many languages."
   }
  },
+ "en overvejelse": {
+  "explanation": "\"En overvejelse\" means \"a consideration\", thinking about something carefully before you decide. It is often used in the plural: efter nogle overvejelser (after some thought).",
+  "forms": [
+   {
+    "da": "en overvejelse",
+    "en": "a consideration"
+   },
+   {
+    "da": "overvejelsen",
+    "en": "the consideration"
+   },
+   {
+    "da": "overvejelser",
+    "en": "considerations"
+   },
+   {
+    "da": "overvejelserne",
+    "en": "the considerations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overveje",
+    "en": "to consider"
+   },
+   {
+    "da": "en beslutning",
+    "en": "a decision"
+   },
+   {
+    "da": "en tanke",
+    "en": "a thought"
+   },
+   {
+    "da": "et valg",
+    "en": "a choice"
+   }
+  ],
+  "sentence": {
+   "da": "Det kræver en grundig **overvejelse**, når man vælger uddannelse.",
+   "en": "It takes careful consideration when you choose what to study."
+  }
+ },
  "en ovn": {
   "explanation": "\"En ovn\" means \"an oven\", the one you bake and roast in. Typical phrases are i ovnen (in the oven) and at tænde ovnen (to turn on the oven). The cooking surface on top is a different word, en kogeplade (a stovetop).",
   "forms": [
@@ -2047,6 +7142,45 @@
   "sentence": {
    "da": "Jeg bager en kage i en varm **ovn**.",
    "en": "I am baking a cake in a hot oven."
+  }
+ },
+ "et offentligt rum": {
+  "explanation": "\"Et offentligt rum\" means \"a public space\", a place that anyone can enter, like a street, a park or a library. You often hear it as i det offentlige rum (in public space), meaning out where everyone can see you.",
+  "forms": [
+   {
+    "da": "et offentligt rum",
+    "en": "a public space"
+   },
+   {
+    "da": "i det offentlige rum",
+    "en": "in public space"
+   },
+   {
+    "da": "offentlige rum er åbne for alle",
+    "en": "public spaces are open to everyone"
+   }
+  ],
+  "related": [
+   {
+    "da": "et torv",
+    "en": "a market square"
+   },
+   {
+    "da": "et fællesområde",
+    "en": "a shared area"
+   },
+   {
+    "da": "en borger",
+    "en": "a citizen"
+   },
+   {
+    "da": "et privat område",
+    "en": "a private area"
+   }
+  ],
+  "sentence": {
+   "da": "Et **offentligt rum** er et sted, som alle må bruge.",
+   "en": "A public space is a place that everyone may use."
   }
  },
  "et offentligt toilet": {
@@ -2121,6 +7255,92 @@
   "sentence": {
    "da": "Politiet hjalp et **offer** efter ulykken.",
    "en": "The police helped a victim after the accident."
+  }
+ },
+ "et omdømme": {
+  "explanation": "\"Et omdømme\" means \"a reputation\", what people in general think of a person, a company or a place. It is built up over time from what people hear and experience.",
+  "forms": [
+   {
+    "da": "et omdømme",
+    "en": "a reputation"
+   },
+   {
+    "da": "omdømmet",
+    "en": "the reputation"
+   },
+   {
+    "da": "et godt omdømme",
+    "en": "a good reputation"
+   },
+   {
+    "da": "et dårligt omdømme",
+    "en": "a bad reputation"
+   }
+  ],
+  "related": [
+   {
+    "da": "et ry",
+    "en": "renown"
+   },
+   {
+    "da": "en anseelse",
+    "en": "esteem"
+   },
+   {
+    "da": "et image",
+    "en": "an image"
+   },
+   {
+    "da": "et rygte",
+    "en": "a rumor"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet har et godt **omdømme**, fordi kunderne er glade.",
+   "en": "The company has a good reputation because the customers are happy."
+  }
+ },
+ "et omklædningsrum": {
+  "explanation": "\"Et omklædningsrum\" means \"a locker room\", a room at a gym, pool or sports club where you change clothes. Its first part, omklædning, means changing clothes.",
+  "forms": [
+   {
+    "da": "et omklædningsrum",
+    "en": "a locker room"
+   },
+   {
+    "da": "omklædningsrummet",
+    "en": "the locker room"
+   },
+   {
+    "da": "omklædningsrum",
+    "en": "locker rooms"
+   },
+   {
+    "da": "omklædningsrummene",
+    "en": "the locker rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en garderobe",
+    "en": "a cloakroom"
+   },
+   {
+    "da": "et skab",
+    "en": "a cabinet"
+   },
+   {
+    "da": "et badeværelse",
+    "en": "a bathroom"
+   },
+   {
+    "da": "en bruser",
+    "en": "a shower"
+   }
+  ],
+  "sentence": {
+   "da": "Der er skabe og bænke i et **omklædningsrum**.",
+   "en": "There are lockers and benches in a locker room."
   }
  },
  "et område": {
@@ -2209,6 +7429,49 @@
    "en": "We had a lovely stay at the hotel."
   }
  },
+ "et opholdsrum": {
+  "explanation": "\"Et opholdsrum\" means \"a lounge\" or \"a common room\", a room where people can sit and relax together, for example at a school, a workplace or a care home. Its first part comes from at opholde sig (to stay somewhere).",
+  "forms": [
+   {
+    "da": "et opholdsrum",
+    "en": "a lounge"
+   },
+   {
+    "da": "opholdsrummet",
+    "en": "the lounge"
+   },
+   {
+    "da": "opholdsrum",
+    "en": "lounges"
+   },
+   {
+    "da": "opholdsrummene",
+    "en": "the lounges"
+   }
+  ],
+  "related": [
+   {
+    "da": "et pauserum",
+    "en": "a break room"
+   },
+   {
+    "da": "en stue",
+    "en": "a living room"
+   },
+   {
+    "da": "en kantine",
+    "en": "a canteen"
+   },
+   {
+    "da": "et mødelokale",
+    "en": "a meeting room"
+   }
+  ],
+  "sentence": {
+   "da": "Eleverne kan hvile sig og snakke sammen i et **opholdsrum**.",
+   "en": "The students can rest and talk together in a common room."
+  }
+ },
  "et opkald": {
   "explanation": "\"Et opkald\" means \"a phone call\" as an event, the moment the phone rings or you dial. The talk itself is en samtale (a conversation): Vi havde en lang samtale (We had a long conversation).",
   "forms": [
@@ -2246,6 +7509,135 @@
   "sentence": {
    "da": "Jeg fik et **opkald** fra skolen i dag.",
    "en": "I got a call from the school today."
+  }
+ },
+ "et opkøb": {
+  "explanation": "\"Et opkøb\" means \"an acquisition\" and \"a buyout\", when a company buys another company or a large part of it. It comes from at købe op (to buy up), where op adds the idea of buying something up completely.",
+  "forms": [
+   {
+    "da": "et opkøb",
+    "en": "an acquisition / buyout"
+   },
+   {
+    "da": "opkøbet",
+    "en": "the acquisition / buyout"
+   },
+   {
+    "da": "opkøb",
+    "en": "acquisitions / buyouts"
+   },
+   {
+    "da": "opkøbene",
+    "en": "the acquisitions / buyouts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fusion",
+    "en": "a merger"
+   },
+   {
+    "da": "en overtagelse",
+    "en": "a takeover"
+   },
+   {
+    "da": "en aktie",
+    "en": "a share"
+   },
+   {
+    "da": "et salg",
+    "en": "a sale"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet fik en ny ejer efter et **opkøb**.",
+   "en": "The company got a new owner after an acquisition."
+  }
+ },
+ "et oplæg": {
+  "explanation": "\"Et oplæg\" means \"a presentation\" and \"a proposal\": a short talk or a written plan that starts a conversation. It is common at work and at school, where one person starts and the group continues.",
+  "forms": [
+   {
+    "da": "et oplæg",
+    "en": "a presentation / proposal"
+   },
+   {
+    "da": "oplægget",
+    "en": "the presentation / proposal"
+   },
+   {
+    "da": "oplæg",
+    "en": "presentations / proposals"
+   },
+   {
+    "da": "oplæggene",
+    "en": "the presentations / proposals"
+   }
+  ],
+  "related": [
+   {
+    "da": "et foredrag",
+    "en": "a lecture"
+   },
+   {
+    "da": "et forslag",
+    "en": "a suggestion"
+   },
+   {
+    "da": "et indlæg",
+    "en": "a contribution"
+   },
+   {
+    "da": "en diskussion",
+    "en": "a discussion"
+   }
+  ],
+  "sentence": {
+   "da": "Hun holder et kort **oplæg**, og så diskuterer vi det.",
+   "en": "She gives a short presentation, and then we discuss it."
+  }
+ },
+ "et oprør": {
+  "explanation": "\"Et oprør\" means \"a rebellion\" and \"an uprising\", when many people openly rise up against those in power. It is also used on a small scale: Børnene gjorde oprør mod reglerne (The children rebelled against the rules).",
+  "forms": [
+   {
+    "da": "et oprør",
+    "en": "a rebellion / uprising"
+   },
+   {
+    "da": "oprøret",
+    "en": "the rebellion / uprising"
+   },
+   {
+    "da": "oprør",
+    "en": "rebellions / uprisings"
+   },
+   {
+    "da": "oprørene",
+    "en": "the rebellions / uprisings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en revolution",
+    "en": "a revolution"
+   },
+   {
+    "da": "en opstand",
+    "en": "a revolt"
+   },
+   {
+    "da": "en protest",
+    "en": "a protest"
+   },
+   {
+    "da": "optøjer",
+    "en": "riots"
+   }
+  ],
+  "sentence": {
+   "da": "Der var **oprør** i byen, og folk krævede en ny leder.",
+   "en": "There was an uprising in the city, and people demanded a new leader."
   }
  },
  "et opslag": {
@@ -2287,6 +7679,45 @@
    "en": "She shared a post about her new book."
   }
  },
+ "et optog": {
+  "explanation": "\"Et optog\" means \"a parade\", a group of people walking together through the streets, often with music or flags. It is used for cheerful events, such as a carnival, and for serious ones, such as a protest.",
+  "forms": [
+   {
+    "da": "et optog",
+    "en": "a parade"
+   },
+   {
+    "da": "optoget",
+    "en": "the parade"
+   },
+   {
+    "da": "optog",
+    "en": "parades"
+   },
+   {
+    "da": "optogene",
+    "en": "the parades"
+   }
+  ],
+  "related": [
+   {
+    "da": "en procession",
+    "en": "a procession"
+   },
+   {
+    "da": "en demonstration",
+    "en": "a demonstration"
+   },
+   {
+    "da": "en march",
+    "en": "a march"
+   }
+  ],
+  "sentence": {
+   "da": "Et **optog** med musik og flag gik gennem byens gader.",
+   "en": "A parade with music and flags went through the streets of the town."
+  }
+ },
  "et ord": {
   "explanation": "\"Et ord\" means \"a word\". Hvad betyder det ord? means \"What does that word mean?\". A dictionary is en ordbog, literally a word book.",
   "forms": [
@@ -2324,6 +7755,455 @@
   "sentence": {
    "da": "Jeg kan ikke finde det **ord** i ordbogen.",
    "en": "I cannot find that word in the dictionary."
+  }
+ },
+ "et ordforråd": {
+  "explanation": "\"Et ordforråd\" means \"a vocabulary\", all the words a person knows and uses. It is built from ord (word) and forråd (a stock of supplies), so it is literally a stock of words. You say that someone has et stort ordforråd (a large vocabulary).",
+  "forms": [
+   {
+    "da": "et ordforråd",
+    "en": "a vocabulary"
+   },
+   {
+    "da": "ordforrådet",
+    "en": "the vocabulary"
+   },
+   {
+    "da": "ordforråd",
+    "en": "vocabularies"
+   },
+   {
+    "da": "ordforrådene",
+    "en": "the vocabularies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ordbog",
+    "en": "a dictionary"
+   },
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "et udtryk",
+    "en": "an expression"
+   },
+   {
+    "da": "en sætning",
+    "en": "a sentence"
+   }
+  ],
+  "sentence": {
+   "da": "Børn lærer mange nye ord og får et større **ordforråd**.",
+   "en": "Children learn many new words and get a bigger vocabulary."
+  }
+ },
+ "et ordspil": {
+  "explanation": "\"Et ordspil\" means \"a pun\" and \"wordplay\", a clever phrase that plays on words that sound alike or have two meanings. It is built from et ord (a word) and et spil (a game), so it is literally a word game.",
+  "forms": [
+   {
+    "da": "et ordspil",
+    "en": "a pun / wordplay"
+   },
+   {
+    "da": "ordspillet",
+    "en": "the pun / wordplay"
+   },
+   {
+    "da": "ordspil",
+    "en": "puns / wordplay"
+   },
+   {
+    "da": "ordspillene",
+    "en": "the puns / wordplay"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   },
+   {
+    "da": "en gåde",
+    "en": "a riddle"
+   },
+   {
+    "da": "et rim",
+    "en": "a rhyme"
+   },
+   {
+    "da": "en dobbelttydighed",
+    "en": "a double meaning"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **ordspil**, fordi ordet har to betydninger.",
+   "en": "It is a pun, because the word has two meanings."
+  }
+ },
+ "et ordsprog": {
+  "explanation": "\"Et ordsprog\" means \"a proverb\", a short, well-known statement of advice about life. One example is Den, der intet vover, intet vinder (Nothing ventured, nothing gained).",
+  "forms": [
+   {
+    "da": "et ordsprog",
+    "en": "a proverb"
+   },
+   {
+    "da": "ordsproget",
+    "en": "the proverb"
+   },
+   {
+    "da": "ordsprog",
+    "en": "proverbs"
+   },
+   {
+    "da": "ordsprogene",
+    "en": "the proverbs"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mundheld",
+    "en": "a saying"
+   },
+   {
+    "da": "en talemåde",
+    "en": "an expression"
+   },
+   {
+    "da": "et citat",
+    "en": "a quotation"
+   },
+   {
+    "da": "en leveregel",
+    "en": "a rule of life"
+   }
+  ],
+  "sentence": {
+   "da": "Et gammelt **ordsprog** siger, at øvelse gør mester.",
+   "en": "An old proverb says that practice makes perfect."
+  }
+ },
+ "et organ": {
+  "explanation": "\"Et organ\" means \"an organ\", a part of the body with its own job. The liver, the kidneys and the lungs are organs.",
+  "forms": [
+   {
+    "da": "et organ",
+    "en": "an organ"
+   },
+   {
+    "da": "organet",
+    "en": "the organ"
+   },
+   {
+    "da": "organer",
+    "en": "organs"
+   },
+   {
+    "da": "organerne",
+    "en": "the organs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hjerne",
+    "en": "a brain"
+   },
+   {
+    "da": "en mave",
+    "en": "a stomach"
+   },
+   {
+    "da": "en muskel",
+    "en": "a muscle"
+   },
+   {
+    "da": "en tarm",
+    "en": "an intestine"
+   }
+  ],
+  "sentence": {
+   "da": "Hjertet er et **organ**, som pumper blodet rundt i kroppen.",
+   "en": "The heart is an organ that pumps the blood around the body."
+  }
+ },
+ "et overblik": {
+  "explanation": "\"Et overblik\" means \"an overview\", a clear picture of the whole situation without the small details. You often lose it: Jeg har mistet overblikket (I have lost track of things). To gain it, say at få overblik (to get an overview).",
+  "forms": [
+   {
+    "da": "et overblik",
+    "en": "an overview"
+   },
+   {
+    "da": "overblikket",
+    "en": "the overview"
+   },
+   {
+    "da": "overblik",
+    "en": "overviews"
+   },
+   {
+    "da": "overblikkene",
+    "en": "the overviews"
+   }
+  ],
+  "related": [
+   {
+    "da": "en oversigt",
+    "en": "a list of the main points"
+   },
+   {
+    "da": "et indblik",
+    "en": "an insight"
+   },
+   {
+    "da": "en helhed",
+    "en": "a whole"
+   },
+   {
+    "da": "et perspektiv",
+    "en": "a perspective"
+   }
+  ],
+  "sentence": {
+   "da": "Kortet giver mig et godt **overblik** over hele byen.",
+   "en": "The map gives me a good overview of the whole city."
+  }
+ },
+ "et overfald": {
+  "explanation": "\"Et overfald\" means \"an assault\", a sudden violent act against a person, usually by someone who surprises them. If the person who did it also steals something, it is called et røveri (a robbery).",
+  "forms": [
+   {
+    "da": "et overfald",
+    "en": "an assault"
+   },
+   {
+    "da": "overfaldet",
+    "en": "the assault"
+   },
+   {
+    "da": "overfald",
+    "en": "assaults"
+   },
+   {
+    "da": "overfaldene",
+    "en": "the assaults"
+   }
+  ],
+  "related": [
+   {
+    "da": "et angreb",
+    "en": "an attack"
+   },
+   {
+    "da": "en overfaldsmand",
+    "en": "an assailant"
+   },
+   {
+    "da": "et slagsmål",
+    "en": "a fight"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet efterforsker et **overfald**, der skete på gaden i nat.",
+   "en": "The police are investigating an assault that happened on the street last night."
+  }
+ },
+ "et overskud": {
+  "explanation": "\"Et overskud\" means \"a surplus\", more than what is needed. For a company, it is the money left after all costs, which is profit. For a person, at have overskud means having energy to spare: Jeg har ikke overskud i dag (I do not have the energy today).",
+  "forms": [
+   {
+    "da": "et overskud",
+    "en": "a surplus"
+   },
+   {
+    "da": "overskuddet",
+    "en": "the surplus"
+   },
+   {
+    "da": "overskud",
+    "en": "surpluses"
+   },
+   {
+    "da": "overskuddene",
+    "en": "the surpluses"
+   }
+  ],
+  "related": [
+   {
+    "da": "et underskud",
+    "en": "a deficit"
+   },
+   {
+    "da": "en gevinst",
+    "en": "a gain"
+   },
+   {
+    "da": "et udbytte",
+    "en": "a yield"
+   },
+   {
+    "da": "en fortjeneste",
+    "en": "earnings"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet havde et stort **overskud** sidste år.",
+   "en": "The company had a large surplus last year."
+  }
+ },
+ "et overskæg": {
+  "explanation": "\"Et overskæg\" means \"a mustache\", the hair that grows on the upper lip. Do not mix it up with et skæg (a beard), which grows on the chin and cheeks.",
+  "forms": [
+   {
+    "da": "et overskæg",
+    "en": "a mustache"
+   },
+   {
+    "da": "overskægget",
+    "en": "the mustache"
+   },
+   {
+    "da": "overskæg",
+    "en": "mustaches"
+   },
+   {
+    "da": "overskæggene",
+    "en": "the mustaches"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bakkenbart",
+    "en": "a sideburn"
+   },
+   {
+    "da": "et fuldskæg",
+    "en": "a full beard"
+   },
+   {
+    "da": "en skægstubbe",
+    "en": "stubble"
+   }
+  ],
+  "sentence": {
+   "da": "Han har et **overskæg** lige under næsen.",
+   "en": "He has a mustache right under his nose."
+  }
+ },
+ "objektiv": {
+  "explanation": "\"Objektiv\" means \"objective\", based on facts and not on personal feelings. Et objektiv is also the lens of a camera: Han skiftede objektiv (He changed the lens).",
+  "forms": [
+   {
+    "da": "en objektiv beskrivelse",
+    "en": "an objective description"
+   },
+   {
+    "da": "et objektivt billede",
+    "en": "an objective picture"
+   },
+   {
+    "da": "objektive fakta",
+    "en": "objective facts"
+   }
+  ],
+  "related": [
+   {
+    "da": "subjektiv",
+    "en": "subjective"
+   },
+   {
+    "da": "saglig",
+    "en": "factual"
+   },
+   {
+    "da": "upartisk",
+    "en": "impartial"
+   }
+  ],
+  "sentence": {
+   "da": "Journalisten beskriver bare fakta og er helt **objektiv**.",
+   "en": "The journalist just describes the facts and is completely objective."
+  }
+ },
+ "obligatorisk": {
+  "explanation": "\"Obligatorisk\" means \"mandatory\", made necessary by a rule and not by your own choice. It is often said about classes, tests and insurance.",
+  "forms": [
+   {
+    "da": "et obligatorisk fag",
+    "en": "a mandatory subject"
+   },
+   {
+    "da": "en obligatorisk test",
+    "en": "a mandatory test"
+   },
+   {
+    "da": "obligatoriske møder",
+    "en": "mandatory meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "påkrævet",
+    "en": "required"
+   },
+   {
+    "da": "frivillig",
+    "en": "voluntary"
+   },
+   {
+    "da": "valgfri",
+    "en": "optional"
+   },
+   {
+    "da": "en pligt",
+    "en": "a duty"
+   }
+  ],
+  "sentence": {
+   "da": "Mødet er **obligatorisk**, og alle skal komme.",
+   "en": "The meeting is mandatory and everyone must come."
+  }
+ },
+ "odds": {
+  "explanation": "\"Odds\" means \"odds\", the numbers in gambling that show how much you can earn for each krone you put in. The lower the number, the more likely the result.",
+  "forms": [
+   {
+    "da": "høje odds",
+    "en": "high odds"
+   },
+   {
+    "da": "Hvad er oddsene?",
+    "en": "What are the odds?"
+   },
+   {
+    "da": "gode odds",
+    "en": "good odds"
+   }
+  ],
+  "related": [
+   {
+    "da": "et væddemål",
+    "en": "a bet"
+   },
+   {
+    "da": "en gevinst",
+    "en": "winnings"
+   },
+   {
+    "da": "en chance",
+    "en": "a chance"
+   },
+   {
+    "da": "en sandsynlighed",
+    "en": "a probability"
+   }
+  ],
+  "sentence": {
+   "da": "Holdet har lave **odds**, fordi alle tror, det vinder.",
+   "en": "The team has low odds because everyone thinks it will win."
   }
  },
  "offentlig": {
@@ -2365,6 +8245,80 @@
    "en": "A public school is free for everyone."
   }
  },
+ "offentlighed": {
+  "explanation": "\"En offentlighed\" means \"the public\": all the people in a country seen as one group. It also means openness: a meeting held med offentlighed (with the public present) is open, so anyone can watch it or read about it.",
+  "forms": [
+   {
+    "da": "offentligheden",
+    "en": "the public"
+   },
+   {
+    "da": "i offentligheden",
+    "en": "in public"
+   },
+   {
+    "da": "oplysninger til offentligheden",
+    "en": "information for the public"
+   }
+  ],
+  "related": [
+   {
+    "da": "pressen",
+    "en": "the press"
+   },
+   {
+    "da": "befolkningen",
+    "en": "the population"
+   },
+   {
+    "da": "privatliv",
+    "en": "private life"
+   },
+   {
+    "da": "hemmelighed",
+    "en": "secrecy"
+   }
+  ],
+  "sentence": {
+   "da": "Retsmødet blev holdt uden **offentlighed**, så kun parterne var til stede.",
+   "en": "The court hearing was held without the public, so only the parties were present."
+  }
+ },
+ "offentligt": {
+  "explanation": "\"Offentligt\" means \"publicly\", in front of everyone and not in private. It comes from offentlig (public).",
+  "forms": [
+   {
+    "da": "tale offentligt",
+    "en": "to speak publicly"
+   },
+   {
+    "da": "Det blev meddelt offentligt",
+    "en": "It was announced publicly"
+   },
+   {
+    "da": "offentligt kendt",
+    "en": "publicly known"
+   }
+  ],
+  "related": [
+   {
+    "da": "åbent",
+    "en": "openly"
+   },
+   {
+    "da": "privat",
+    "en": "privately"
+   },
+   {
+    "da": "hemmeligt",
+    "en": "secretly"
+   }
+  ],
+  "sentence": {
+   "da": "Politikeren sagde **offentligt** undskyld i fjernsynet.",
+   "en": "The politician said sorry publicly on television."
+  }
+ },
  "officiel": {
   "explanation": "\"Officiel\" means \"official\", for what comes from the government or from someone with the power to decide.",
   "forms": [
@@ -2402,6 +8356,41 @@
   "sentence": {
    "da": "Det er en **officiel** meddelelse fra kommunen.",
    "en": "It is an official notice from the municipality."
+  }
+ },
+ "officielt": {
+  "explanation": "\"Officielt\" means \"officially\", by the rules or the authorities, and it often hints that reality is different: Officielt er det forbudt, men alle gør det (Officially it is forbidden, but everyone does it).",
+  "forms": [
+   {
+    "da": "officielt åbnet",
+    "en": "officially opened"
+   },
+   {
+    "da": "Det er officielt bekræftet",
+    "en": "It is officially confirmed"
+   },
+   {
+    "da": "officielt medlem",
+    "en": "an official member"
+   }
+  ],
+  "related": [
+   {
+    "da": "formelt",
+    "en": "formally"
+   },
+   {
+    "da": "uofficielt",
+    "en": "unofficially"
+   },
+   {
+    "da": "offentligt",
+    "en": "publicly"
+   }
+  ],
+  "sentence": {
+   "da": "Hotellet åbner **officielt** i morgen, men gæster kommer allerede.",
+   "en": "The hotel opens officially tomorrow, but guests are already coming."
   }
  },
  "offline": {
@@ -2729,6 +8718,45 @@
   "sentence": {
    "da": "Efter september kommer **oktober**.",
    "en": "After September comes October."
+  }
+ },
+ "oldnordisk": {
+  "explanation": "\"Oldnordisk\" means \"Old Norse\", the language of the Viking Age. The Scandinavian languages all developed from it. It is also the name of a university subject, as in at læse oldnordisk (to study Old Norse).",
+  "forms": [
+   {
+    "da": "en oldnordisk tekst",
+    "en": "an Old Norse text"
+   },
+   {
+    "da": "et oldnordisk ord",
+    "en": "an Old Norse word"
+   },
+   {
+    "da": "oldnordiske sagaer",
+    "en": "Old Norse sagas"
+   }
+  ],
+  "related": [
+   {
+    "da": "islandsk",
+    "en": "Icelandic"
+   },
+   {
+    "da": "nordisk",
+    "en": "Nordic"
+   },
+   {
+    "da": "oldengelsk",
+    "en": "Old English"
+   },
+   {
+    "da": "en rune",
+    "en": "a rune"
+   }
+  ],
+  "sentence": {
+   "da": "Vikingerne talte **oldnordisk**, og de gamle sagaer er skrevet på sproget.",
+   "en": "The Vikings spoke Old Norse, and the old sagas are written in the language."
   }
  },
  "olie": {
@@ -3113,6 +9141,154 @@
    "en": "Everyone is now on board and the ferry sails."
   }
  },
+ "omfattende": {
+  "explanation": "\"Omfattende\" means \"extensive\", covering a lot of ground and having many parts. It is used for things such as plans, damage and changes, not for physical size: for a big house, use stor (big).",
+  "forms": [
+   {
+    "da": "en omfattende plan",
+    "en": "an extensive plan"
+   },
+   {
+    "da": "et omfattende arbejde",
+    "en": "extensive work"
+   },
+   {
+    "da": "omfattende skader",
+    "en": "extensive damage"
+   }
+  ],
+  "related": [
+   {
+    "da": "udførlig",
+    "en": "detailed"
+   },
+   {
+    "da": "vidtgående",
+    "en": "far-reaching"
+   },
+   {
+    "da": "grundig",
+    "en": "thorough"
+   }
+  ],
+  "sentence": {
+   "da": "Rapporten er **omfattende** og har over to hundrede sider.",
+   "en": "The report is extensive and has over two hundred pages."
+  }
+ },
+ "omgivet": {
+  "explanation": "\"Omgivet\" means \"surrounded\", with something on every side. What is on the sides comes after af (by).",
+  "forms": [
+   {
+    "da": "Byen er omgivet af skov",
+    "en": "The town is surrounded by forest"
+   },
+   {
+    "da": "Huset er omgivet af en mur",
+    "en": "The house is surrounded by a wall"
+   },
+   {
+    "da": "De var omgivet af venner",
+    "en": "They were surrounded by friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "at omgive",
+    "en": "to surround"
+   },
+   {
+    "da": "omkring",
+    "en": "around"
+   },
+   {
+    "da": "indhegnet",
+    "en": "fenced in"
+   },
+   {
+    "da": "en omgivelse",
+    "en": "a surrounding"
+   }
+  ],
+  "sentence": {
+   "da": "Øen er **omgivet** af hav på alle sider.",
+   "en": "The island is surrounded by sea on all sides."
+  }
+ },
+ "omgående": {
+  "explanation": "\"Omgående\" means \"immediately\": with no delay at all. It is common in business letters, rules and warnings, and it is stricter than snart (soon).",
+  "forms": [
+   {
+    "da": "Svar omgående.",
+    "en": "Reply immediately."
+   },
+   {
+    "da": "omgående levering",
+    "en": "immediate delivery"
+   },
+   {
+    "da": "Kontakt os omgående.",
+    "en": "Contact us right away."
+   }
+  ],
+  "related": [
+   {
+    "da": "straks",
+    "en": "right away"
+   },
+   {
+    "da": "med det samme",
+    "en": "at once"
+   },
+   {
+    "da": "hurtigst muligt",
+    "en": "as soon as possible"
+   },
+   {
+    "da": "senere",
+    "en": "later"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis dit kort bliver væk, skal du spærre det **omgående**.",
+   "en": "If your card goes missing, you must block it immediately."
+  }
+ },
+ "omhyggelig": {
+  "explanation": "\"Omhyggelig\" means \"careful\" or \"meticulous\", paying attention to every small detail so nothing goes wrong. It is about how you do work, while forsigtig (cautious) is about avoiding danger or damage: Vær forsigtig! (Be careful!)",
+  "forms": [
+   {
+    "da": "en omhyggelig arbejder",
+    "en": "a careful worker"
+   },
+   {
+    "da": "et omhyggeligt arbejde",
+    "en": "careful work"
+   },
+   {
+    "da": "omhyggelige undersøgelser",
+    "en": "careful examinations"
+   }
+  ],
+  "related": [
+   {
+    "da": "grundig",
+    "en": "thorough"
+   },
+   {
+    "da": "nøjagtig",
+    "en": "accurate"
+   },
+   {
+    "da": "sjusket",
+    "en": "sloppy"
+   }
+  ],
+  "sentence": {
+   "da": "Revisoren er **omhyggelig** og tjekker alle tal to gange.",
+   "en": "The accountant is meticulous and checks every number twice."
+  }
+ },
  "omkring": {
   "explanation": "\"Omkring\" means \"around\", both for a place and for a rough number or time: omkring tyve mennesker (about twenty people).",
   "forms": [
@@ -3146,6 +9322,232 @@
   "sentence": {
    "da": "Der er mange træer **omkring** huset.",
    "en": "There are many trees around the house."
+  }
+ },
+ "omsider": {
+  "explanation": "\"Omsider\" means \"at last\", used when something happens after a long wait. It adds a feeling of relief that the wait is over.",
+  "forms": [
+   {
+    "da": "Bussen kom omsider",
+    "en": "The bus came at last"
+   },
+   {
+    "da": "Vi er omsider fremme",
+    "en": "We have arrived at last"
+   },
+   {
+    "da": "Han sagde det omsider",
+    "en": "He said it at last"
+   }
+  ],
+  "related": [
+   {
+    "da": "endelig",
+    "en": "finally"
+   },
+   {
+    "da": "til sidst",
+    "en": "in the end"
+   },
+   {
+    "da": "langt om længe",
+    "en": "at long last"
+   }
+  ],
+  "sentence": {
+   "da": "Efter tre timer kom toget **omsider**.",
+   "en": "After three hours the train came at last."
+  }
+ },
+ "omsorg": {
+  "explanation": "\"En omsorg\" means \"care\" in the sense of warm concern for a person who needs help, such as a parent for a child. It is about feelings and attention, not about objects.",
+  "forms": [
+   {
+    "da": "en omsorg",
+    "en": "care"
+   },
+   {
+    "da": "omsorgen",
+    "en": "the care"
+   },
+   {
+    "da": "med omsorg",
+    "en": "with care"
+   },
+   {
+    "da": "omsorg for børn",
+    "en": "care for children"
+   }
+  ],
+  "related": [
+   {
+    "da": "omsorgsfuld",
+    "en": "caring"
+   },
+   {
+    "da": "pleje",
+    "en": "nursing"
+   },
+   {
+    "da": "at passe på",
+    "en": "to look after"
+   },
+   {
+    "da": "omsorgssvigt",
+    "en": "neglect"
+   }
+  ],
+  "sentence": {
+   "da": "Børn har brug for **omsorg** fra deres forældre.",
+   "en": "Children need care from their parents."
+  }
+ },
+ "omsorgsfuld": {
+  "explanation": "\"Omsorgsfuld\" means \"caring\", showing warm concern for someone who needs help. It is omsorg (care) plus -fuld (full of), the same ending as in smertefuld (painful).",
+  "forms": [
+   {
+    "da": "en omsorgsfuld mor",
+    "en": "a caring mother"
+   },
+   {
+    "da": "et omsorgsfuldt menneske",
+    "en": "a caring person"
+   },
+   {
+    "da": "omsorgsfulde forældre",
+    "en": "caring parents"
+   }
+  ],
+  "related": [
+   {
+    "da": "hjælpsom",
+    "en": "helpful"
+   },
+   {
+    "da": "kærlig",
+    "en": "loving"
+   },
+   {
+    "da": "venlig",
+    "en": "kind"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **omsorgsfuld** og passer altid på sine venner.",
+   "en": "She is caring and always looks after her friends."
+  }
+ },
+ "omstændelig": {
+  "explanation": "\"Omstændelig\" means \"long-winded\" or \"elaborate\": it takes more steps, words or time than needed. Do not mix it up with kompliceret (complicated), which is hard to understand. Something omstændelig may be easy, but it is long and fussy.",
+  "forms": [
+   {
+    "da": "en omstændelig forklaring",
+    "en": "a long-winded explanation"
+   },
+   {
+    "da": "et omstændeligt svar",
+    "en": "a long-winded answer"
+   },
+   {
+    "da": "omstændelige regler",
+    "en": "elaborate rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "langtrukken",
+    "en": "drawn-out"
+   },
+   {
+    "da": "besværlig",
+    "en": "troublesome"
+   },
+   {
+    "da": "kortfattet",
+    "en": "concise"
+   },
+   {
+    "da": "vidtløftig",
+    "en": "wordy"
+   }
+  ],
+  "sentence": {
+   "da": "Ansøgningen er **omstændelig**, fordi man skal udfylde ti forskellige skemaer.",
+   "en": "The application is elaborate, because you have to fill in ten different forms."
+  }
+ },
+ "omtrent": {
+  "explanation": "\"Omtrent\" means \"about\", used with numbers, times and amounts. It also means \"more or less\": Det er omtrent færdigt (It is more or less done).",
+  "forms": [
+   {
+    "da": "omtrent ti minutter",
+    "en": "about ten minutes"
+   },
+   {
+    "da": "omtrent klokken fem",
+    "en": "around five o'clock"
+   },
+   {
+    "da": "omtrent det samme",
+    "en": "about the same"
+   }
+  ],
+  "related": [
+   {
+    "da": "cirka",
+    "en": "approximately"
+   },
+   {
+    "da": "næsten",
+    "en": "almost"
+   },
+   {
+    "da": "omkring",
+    "en": "around"
+   },
+   {
+    "da": "nogenlunde",
+    "en": "roughly"
+   }
+  ],
+  "sentence": {
+   "da": "Turen til Aarhus tager **omtrent** to timer med bilen.",
+   "en": "The trip to Aarhus takes about two hours by car."
+  }
+ },
+ "omvendt": {
+  "explanation": "\"Omvendt\" means \"the other way around\", for something turned or reversed. At the start of a sentence it means \"conversely\" and introduces a contrast: Han er høj. Omvendt er hun lille (He is tall. Conversely, she is short).",
+  "forms": [
+   {
+    "da": "i omvendt rækkefølge",
+    "en": "in reverse order"
+   },
+   {
+    "da": "Det er lige omvendt",
+    "en": "It is just the opposite"
+   },
+   {
+    "da": "og omvendt",
+    "en": "and vice versa"
+   }
+  ],
+  "related": [
+   {
+    "da": "tværtimod",
+    "en": "on the contrary"
+   },
+   {
+    "da": "modsat",
+    "en": "opposite"
+   },
+   {
+    "da": "baglæns",
+    "en": "backwards"
+   }
+  ],
+  "sentence": {
+   "da": "Du har sat trøjen på **omvendt**, så mærket sidder foran.",
+   "en": "You put the sweater on backwards, so the label is in front."
   }
  },
  "ond": {
@@ -3185,6 +9587,45 @@
   "sentence": {
    "da": "Heksen i historien er meget **ond**.",
    "en": "The witch in the story is very evil."
+  }
+ },
+ "ondskab": {
+  "explanation": "\"En ondskab\" means \"evil\" or \"malice\": the wish to hurt others on purpose. It is built from ond (bad) and -skab, as in venskab (friendship), so it is the state of being bad.",
+  "forms": [
+   {
+    "da": "ondskab",
+    "en": "malice"
+   },
+   {
+    "da": "ondskaben",
+    "en": "the malice"
+   },
+   {
+    "da": "ren ondskab",
+    "en": "pure malice"
+   }
+  ],
+  "related": [
+   {
+    "da": "godhed",
+    "en": "goodness"
+   },
+   {
+    "da": "grusomhed",
+    "en": "cruelty"
+   },
+   {
+    "da": "ondsindet",
+    "en": "malicious"
+   },
+   {
+    "da": "fjendskab",
+    "en": "enmity"
+   }
+  ],
+  "sentence": {
+   "da": "Han gjorde det af **ondskab** og ville såre hende.",
+   "en": "He did it out of malice and wanted to hurt her."
   }
  },
  "ondt": {
@@ -3335,6 +9776,84 @@
    "en": "The cat jumps up onto the table."
   }
  },
+ "opad": {
+  "explanation": "\"Opad\" means \"upward\" and tells which way something moves. Words ending in -ad show direction, like udad (outward).",
+  "forms": [
+   {
+    "da": "Stien går opad",
+    "en": "The path goes upward"
+   },
+   {
+    "da": "Han kiggede opad",
+    "en": "He looked upward"
+   },
+   {
+    "da": "Prisen går opad",
+    "en": "The price is going up"
+   }
+  ],
+  "related": [
+   {
+    "da": "nedad",
+    "en": "downward"
+   },
+   {
+    "da": "indad",
+    "en": "inward"
+   },
+   {
+    "da": "fremad",
+    "en": "forward"
+   }
+  ],
+  "sentence": {
+   "da": "Røgen fra bålet stiger **opad** mod himlen.",
+   "en": "The smoke from the fire rises upward toward the sky."
+  }
+ },
+ "opbakning": {
+  "explanation": "\"En opbakning\" means \"support\" or \"backing\", when people stand behind a person, a plan or a decision. It is not physical support. Use til for what is backed: opbakning til forslaget (support for the proposal).",
+  "forms": [
+   {
+    "da": "en opbakning",
+    "en": "support"
+   },
+   {
+    "da": "opbakningen",
+    "en": "the support"
+   },
+   {
+    "da": "bred opbakning",
+    "en": "broad support"
+   },
+   {
+    "da": "opbakning fra familien",
+    "en": "support from the family"
+   }
+  ],
+  "related": [
+   {
+    "da": "hjælp",
+    "en": "help"
+   },
+   {
+    "da": "tilslutning",
+    "en": "joining in"
+   },
+   {
+    "da": "at bakke op",
+    "en": "to back up"
+   },
+   {
+    "da": "modstand",
+    "en": "opposition"
+   }
+  ],
+  "sentence": {
+   "da": "Planen fik stor **opbakning**, fordi næsten alle stemte for.",
+   "en": "The plan got a lot of support because almost everyone voted for it."
+  }
+ },
  "opdateret": {
   "explanation": "\"Opdateret\" means \"updated\", with the newest information or version. It also fits a person who knows the latest: Er du opdateret på nyhederne? (Are you up to date on the news?)",
   "forms": [
@@ -3372,6 +9891,84 @@
   "sentence": {
    "da": "Min telefon er **opdateret** og virker nu fint.",
    "en": "My phone is updated and now works fine."
+  }
+ },
+ "opdraget": {
+  "explanation": "\"Opdraget\" means \"brought up\", about the way someone was taught to behave. With godt (well) it means polite and well-behaved, and with dårligt (badly) it means rude. It is also used for pets.",
+  "forms": [
+   {
+    "da": "et godt opdraget barn",
+    "en": "a well-behaved child"
+   },
+   {
+    "da": "en dårligt opdraget hund",
+    "en": "a badly behaved dog"
+   },
+   {
+    "da": "godt opdragede børn",
+    "en": "well-behaved children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opdragelse",
+    "en": "an upbringing"
+   },
+   {
+    "da": "at opdrage",
+    "en": "to raise"
+   },
+   {
+    "da": "velopdragen",
+    "en": "well-mannered"
+   },
+   {
+    "da": "uopdragen",
+    "en": "ill-mannered"
+   }
+  ],
+  "sentence": {
+   "da": "Vores børn er **opdraget** til at sige tak og undskyld.",
+   "en": "Our children are brought up to say thanks and sorry."
+  }
+ },
+ "opfindsom": {
+  "explanation": "\"Opfindsom\" means \"inventive\": good at finding clever new ways to solve a problem, often with simple things you already have.",
+  "forms": [
+   {
+    "da": "en opfindsom pige",
+    "en": "an inventive girl"
+   },
+   {
+    "da": "et opfindsomt barn",
+    "en": "an inventive child"
+   },
+   {
+    "da": "opfindsomme løsninger",
+    "en": "inventive solutions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opfindelse",
+    "en": "an invention"
+   },
+   {
+    "da": "en opfinder",
+    "en": "an inventor"
+   },
+   {
+    "da": "kreativ",
+    "en": "creative"
+   },
+   {
+    "da": "fantasifuld",
+    "en": "imaginative"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **opfindsom** og laver legetøj af gamle kasser.",
+   "en": "She is inventive and makes toys out of old boxes."
   }
  },
  "opførsel": {
@@ -3413,6 +10010,80 @@
    "en": "His behavior toward the children was very nice."
   }
  },
+ "ophidset": {
+  "explanation": "\"Ophidset\" means \"agitated\" or \"excited\", very worked up and tense, as in en ophidset debat (a heated debate). It can also mean sexually aroused, so it is not the word for happy excitement.",
+  "forms": [
+   {
+    "da": "en ophidset mand",
+    "en": "an agitated man"
+   },
+   {
+    "da": "et ophidset publikum",
+    "en": "an excited crowd"
+   },
+   {
+    "da": "ophidsede stemmer",
+    "en": "agitated voices"
+   }
+  ],
+  "related": [
+   {
+    "da": "spændt",
+    "en": "eager"
+   },
+   {
+    "da": "rasende",
+    "en": "furious"
+   },
+   {
+    "da": "rolig",
+    "en": "calm"
+   },
+   {
+    "da": "at ophidse",
+    "en": "to stir up"
+   }
+  ],
+  "sentence": {
+   "da": "Hun blev **ophidset** og råbte højt til dommeren.",
+   "en": "She got worked up and shouted loudly at the referee."
+  }
+ },
+ "opkast": {
+  "explanation": "\"Et opkast\" means \"vomit\", the matter itself. The act is at kaste op (to throw up), and opkast is built from the same two parts.",
+  "forms": [
+   {
+    "da": "et opkast",
+    "en": "vomit"
+   },
+   {
+    "da": "opkastet",
+    "en": "the vomit"
+   },
+   {
+    "da": "opkast og diarré",
+    "en": "vomit and diarrhea"
+   }
+  ],
+  "related": [
+   {
+    "da": "at brække sig",
+    "en": "to puke"
+   },
+   {
+    "da": "en mavesyge",
+    "en": "a stomach bug"
+   },
+   {
+    "da": "en opkastning",
+    "en": "a vomiting"
+   }
+  ],
+  "sentence": {
+   "da": "Efter maden fik hun kvalme og senere **opkast**.",
+   "en": "After the meal she got nausea and later vomit."
+  }
+ },
  "opladning": {
   "explanation": "\"Opladning\" means \"charging\", filling a battery up again. The action is at oplade (to charge).",
   "forms": [
@@ -3446,6 +10117,45 @@
   "sentence": {
    "da": "Min telefon er på **opladning** lige nu.",
    "en": "My phone is charging right now."
+  }
+ },
+ "oplagt": {
+  "explanation": "\"Oplagt\" means \"obvious\" for a choice or an answer that anyone can see. About a person, it means \"in good form\", full of energy and ready for the day: Hun er godt oplagt i dag (She is in good form today).",
+  "forms": [
+   {
+    "da": "et oplagt valg",
+    "en": "an obvious choice"
+   },
+   {
+    "da": "en oplagt løsning",
+    "en": "an obvious solution"
+   },
+   {
+    "da": "oplagte fejl",
+    "en": "obvious mistakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "indlysende",
+    "en": "evident"
+   },
+   {
+    "da": "åbenlys",
+    "en": "plain to see"
+   },
+   {
+    "da": "veloplagt",
+    "en": "in high spirits"
+   },
+   {
+    "da": "træt",
+    "en": "tired"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **oplagt** idé, fordi det er billigt og tæt på.",
+   "en": "It is an obvious idea, because it is cheap and close by."
   }
  },
  "opmærksom": {
@@ -3485,6 +10195,41 @@
   "sentence": {
    "da": "Min datter er **opmærksom** og lytter godt.",
    "en": "My daughter is attentive and listens well."
+  }
+ },
+ "opmærksom på": {
+  "explanation": "\"Opmærksom på\" means \"aware of\" or \"paying attention to\". With at gøre nogen opmærksom på (to point something out to someone), you bring it to their attention: Jeg gjorde ham opmærksom på fejlen (I pointed out the mistake to him).",
+  "forms": [
+   {
+    "da": "Jeg er opmærksom på det",
+    "en": "I am aware of it"
+   },
+   {
+    "da": "Vær opmærksom på trafikken",
+    "en": "Pay attention to the traffic"
+   },
+   {
+    "da": "Hun var ikke opmærksom på tiden",
+    "en": "She was not aware of the time"
+   }
+  ],
+  "related": [
+   {
+    "da": "bevidst om",
+    "en": "conscious of"
+   },
+   {
+    "da": "at lægge mærke til",
+    "en": "to notice"
+   },
+   {
+    "da": "uopmærksom",
+    "en": "inattentive"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal være **opmærksom på** cyklister, når du drejer.",
+   "en": "You must pay attention to cyclists when you turn."
   }
  },
  "opmærksomhed": {
@@ -3555,6 +10300,236 @@
   "sentence": {
    "da": "Bogen ligger **oppe** på hylden.",
    "en": "The book is up on the shelf."
+  }
+ },
+ "oprevet": {
+  "explanation": "\"Oprevet\" means \"upset\", emotionally thrown off after something unpleasant such as bad news or an argument. It is a churned-up feeling, stronger than just being sad.",
+  "forms": [
+   {
+    "da": "en oprevet kvinde",
+    "en": "an upset woman"
+   },
+   {
+    "da": "et oprevet barn",
+    "en": "an upset child"
+   },
+   {
+    "da": "oprevne følelser",
+    "en": "upset feelings"
+   }
+  ],
+  "related": [
+   {
+    "da": "oprørt",
+    "en": "stirred up"
+   },
+   {
+    "da": "rystet",
+    "en": "shaken"
+   },
+   {
+    "da": "forskrækket",
+    "en": "frightened"
+   },
+   {
+    "da": "bekymret",
+    "en": "worried"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **oprevet** efter skænderiet med sin bror.",
+   "en": "She was upset after the quarrel with her brother."
+  }
+ },
+ "oprigtig": {
+  "explanation": "\"Oprigtig\" means \"sincere\", meaning what you say and feel without pretending. It is about real feelings, while ærlig (honest) is more about telling the truth.",
+  "forms": [
+   {
+    "da": "en oprigtig undskyldning",
+    "en": "a sincere apology"
+   },
+   {
+    "da": "et oprigtigt ønske",
+    "en": "a sincere wish"
+   },
+   {
+    "da": "oprigtige venner",
+    "en": "sincere friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "uoprigtig",
+    "en": "insincere"
+   },
+   {
+    "da": "ægte",
+    "en": "genuine"
+   },
+   {
+    "da": "hjertelig",
+    "en": "heartfelt"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes tak var **oprigtig**, og alle kunne mærke det.",
+   "en": "Her thanks were sincere, and everyone could feel it."
+  }
+ },
+ "oprindelig": {
+  "explanation": "\"Oprindelig\" means \"original\" in the sense of how it was at the start, before anything was changed. For something new and creative, Danes say original (original) instead.",
+  "forms": [
+   {
+    "da": "en oprindelig plan",
+    "en": "an original plan"
+   },
+   {
+    "da": "et oprindeligt navn",
+    "en": "an original name"
+   },
+   {
+    "da": "oprindelige ejere",
+    "en": "original owners"
+   }
+  ],
+  "related": [
+   {
+    "da": "først",
+    "en": "first"
+   },
+   {
+    "da": "tidligere",
+    "en": "earlier"
+   },
+   {
+    "da": "en oprindelse",
+    "en": "an origin"
+   },
+   {
+    "da": "autentisk",
+    "en": "authentic"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle bro er stadig **oprindelig**, og ingen har ændret den.",
+   "en": "The old bridge is still original, and no one has changed it."
+  }
+ },
+ "oprørsk": {
+  "explanation": "\"Oprørsk\" means \"rebellious\": refusing to obey rules or people in charge. It is often used about children and teenagers, but also about a crowd that turns against those in power.",
+  "forms": [
+   {
+    "da": "en oprørsk fase",
+    "en": "a rebellious phase"
+   },
+   {
+    "da": "et oprørsk barn",
+    "en": "a rebellious child"
+   },
+   {
+    "da": "oprørske unge",
+    "en": "rebellious young people"
+   }
+  ],
+  "related": [
+   {
+    "da": "et oprør",
+    "en": "a revolt"
+   },
+   {
+    "da": "en oprører",
+    "en": "a rebel"
+   },
+   {
+    "da": "genstridig",
+    "en": "stubborn"
+   },
+   {
+    "da": "lydig",
+    "en": "obedient"
+   }
+  ],
+  "sentence": {
+   "da": "Teenageren blev **oprørsk** og ville ikke følge reglerne derhjemme.",
+   "en": "The teenager became rebellious and would not follow the rules at home."
+  }
+ },
+ "oprørt": {
+  "explanation": "\"Oprørt\" means \"upset\" or \"stirred up\", about feelings and also about water: et oprørt hav (a rough sea). For the cause, use over: oprørt over nyheden (upset about the news).",
+  "forms": [
+   {
+    "da": "en oprørt mand",
+    "en": "an upset man"
+   },
+   {
+    "da": "et oprørt barn",
+    "en": "an upset child"
+   },
+   {
+    "da": "oprørte stemmer",
+    "en": "upset voices"
+   }
+  ],
+  "related": [
+   {
+    "da": "oprevet",
+    "en": "shaken up"
+   },
+   {
+    "da": "forarget",
+    "en": "outraged"
+   },
+   {
+    "da": "vred",
+    "en": "angry"
+   },
+   {
+    "da": "et oprør",
+    "en": "a rebellion"
+   }
+  ],
+  "sentence": {
+   "da": "Hun blev **oprørt** over, at ingen havde ringet til hende.",
+   "en": "She got upset that no one had called her."
+  }
+ },
+ "opsyn": {
+  "explanation": "\"Et opsyn\" means \"supervision\": someone keeping an eye on people, animals or things so that nothing goes wrong. You mostly meet it in set phrases. Tilsyn (inspection) is a close word, often used for official checks.",
+  "forms": [
+   {
+    "da": "opsynet",
+    "en": "the supervision"
+   },
+   {
+    "da": "under opsyn",
+    "en": "under supervision"
+   },
+   {
+    "da": "at føre opsyn med børnene",
+    "en": "to supervise the children"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vagt",
+    "en": "a guard"
+   },
+   {
+    "da": "overvågning",
+    "en": "surveillance"
+   },
+   {
+    "da": "kontrol",
+    "en": "control"
+   },
+   {
+    "da": "ansvar",
+    "en": "responsibility"
+   }
+  ],
+  "sentence": {
+   "da": "Børn under ti år må ikke bade uden **opsyn**.",
+   "en": "Children under ten must not swim without supervision."
   }
  },
  "optaget": {
@@ -3703,6 +10678,41 @@
   "sentence": {
    "da": "Gulerødder er **orange**.",
    "en": "Carrots are orange."
+  }
+ },
+ "ordblind": {
+  "explanation": "\"Ordblind\" means \"dyslexic\", having a lasting difficulty with reading and spelling, which has nothing to do with intelligence. It is built from ord (word) and blind (blind), so \"word-blind\".",
+  "forms": [
+   {
+    "da": "en ordblind elev",
+    "en": "a dyslexic pupil"
+   },
+   {
+    "da": "et ordblindt barn",
+    "en": "a dyslexic child"
+   },
+   {
+    "da": "ordblinde børn",
+    "en": "dyslexic children"
+   }
+  ],
+  "related": [
+   {
+    "da": "ordblindhed",
+    "en": "dyslexia"
+   },
+   {
+    "da": "dysleksi",
+    "en": "dyslexia (the medical term)"
+   },
+   {
+    "da": "farveblind",
+    "en": "colorblind"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **ordblind** og har svært ved at stave.",
+   "en": "She is dyslexic and finds it hard to spell."
   }
  },
  "ordentlig": {
@@ -3974,6 +10984,45 @@
    "en": "After the seventh day comes the eighth day."
   }
  },
+ "ovenover": {
+  "explanation": "\"Ovenover\" means \"above\", directly overhead or on the floor higher up in the same building. The opposite is nedenunder (below).",
+  "forms": [
+   {
+    "da": "Naboen bor ovenover",
+    "en": "The neighbor lives upstairs"
+   },
+   {
+    "da": "ovenover os",
+    "en": "above us"
+   },
+   {
+    "da": "Det står på hylden ovenover",
+    "en": "It is on the shelf above"
+   }
+  ],
+  "related": [
+   {
+    "da": "ovenpå",
+    "en": "upstairs"
+   },
+   {
+    "da": "ovenfor",
+    "en": "earlier in a text"
+   },
+   {
+    "da": "øverst",
+    "en": "at the top"
+   },
+   {
+    "da": "nederst",
+    "en": "at the bottom"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hører skridt fra lejligheden **ovenover**, når naboen går rundt.",
+   "en": "We hear steps from the apartment above when the neighbor walks around."
+  }
+ },
  "ovenpå": {
   "explanation": "\"Ovenpå\" means \"upstairs\", on the floor above you. It works for where something is and for going there: Jeg bor ovenpå (I live upstairs), Jeg går ovenpå (I go upstairs). The opposite is nedenunder (downstairs).",
   "forms": [
@@ -4083,6 +11132,166 @@
    "en": "I look everywhere for the key."
   }
  },
+ "overarbejde": {
+  "explanation": "\"Overarbejde\" means \"overtime\", the work done beyond your normal hours. Danes say at arbejde over (to work overtime) for doing it.",
+  "forms": [
+   {
+    "da": "et overarbejde",
+    "en": "overtime"
+   },
+   {
+    "da": "overarbejdet",
+    "en": "the overtime"
+   },
+   {
+    "da": "meget overarbejde",
+    "en": "a lot of overtime"
+   },
+   {
+    "da": "betalt overarbejde",
+    "en": "paid overtime"
+   }
+  ],
+  "related": [
+   {
+    "da": "merarbejde",
+    "en": "extra work"
+   },
+   {
+    "da": "arbejdstid",
+    "en": "working hours"
+   },
+   {
+    "da": "fyraften",
+    "en": "quitting time"
+   },
+   {
+    "da": "en vagt",
+    "en": "a shift"
+   }
+  ],
+  "sentence": {
+   "da": "Når jeg arbejder ud over min normale tid, er det **overarbejde**.",
+   "en": "When I work beyond my normal time, it is overtime."
+  }
+ },
+ "overbevisende": {
+  "explanation": "\"Overbevisende\" means \"convincing\", good at making people believe or accept something. It comes from at overbevise (to convince), the same way \"convincing\" comes from \"convince\".",
+  "forms": [
+   {
+    "da": "et overbevisende argument",
+    "en": "a convincing argument"
+   },
+   {
+    "da": "en overbevisende forklaring",
+    "en": "a convincing explanation"
+   },
+   {
+    "da": "overbevisende svar",
+    "en": "convincing answers"
+   }
+  ],
+  "related": [
+   {
+    "da": "troværdig",
+    "en": "credible"
+   },
+   {
+    "da": "uoverbevisende",
+    "en": "unconvincing"
+   },
+   {
+    "da": "en overbevisning",
+    "en": "a conviction"
+   },
+   {
+    "da": "et bevis",
+    "en": "a proof"
+   }
+  ],
+  "sentence": {
+   "da": "Forklaringen var **overbevisende**, og alle troede på hende.",
+   "en": "The explanation was convincing, and everyone believed her."
+  }
+ },
+ "overdreven": {
+  "explanation": "\"Overdreven\" means \"exaggerated\" or \"excessive\", more than is reasonable or true. It can describe an amount or a way of telling something: overdreven høflighed (excessive politeness).",
+  "forms": [
+   {
+    "da": "en overdreven reaktion",
+    "en": "an exaggerated reaction"
+   },
+   {
+    "da": "et overdrevet krav",
+    "en": "an exaggerated demand"
+   },
+   {
+    "da": "overdrevne forventninger",
+    "en": "exaggerated expectations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overdrive",
+    "en": "to overstate"
+   },
+   {
+    "da": "en overdrivelse",
+    "en": "an overstatement"
+   },
+   {
+    "da": "moderat",
+    "en": "moderate"
+   },
+   {
+    "da": "for meget",
+    "en": "too much"
+   }
+  ],
+  "sentence": {
+   "da": "Reaktionen var **overdreven**, fordi fejlen kun var lille.",
+   "en": "The reaction was exaggerated because the mistake was only small."
+  }
+ },
+ "overfladisk": {
+  "explanation": "\"Overfladisk\" means \"superficial\", touching only the outside of something. It fits knowledge and people: overfladisk viden (superficial knowledge).",
+  "forms": [
+   {
+    "da": "en overfladisk samtale",
+    "en": "a superficial conversation"
+   },
+   {
+    "da": "et overfladisk indtryk",
+    "en": "a superficial impression"
+   },
+   {
+    "da": "overfladiske venner",
+    "en": "superficial friends"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overflade",
+    "en": "a surface"
+   },
+   {
+    "da": "dyb",
+    "en": "deep"
+   },
+   {
+    "da": "grundig",
+    "en": "thorough"
+   },
+   {
+    "da": "flygtig",
+    "en": "brief"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kender kun hinanden **overfladisk**, men vi hilser altid.",
+   "en": "We only know each other superficially, but we always say hello."
+  }
+ },
  "overfor": {
   "explanation": "\"Overfor\" means \"opposite\" or \"across from\": Banken ligger overfor skolen (The bank is across from the school). It can also mean \"facing\": Jeg står overfor et valg (I am facing a choice).",
   "forms": [
@@ -4122,6 +11331,45 @@
    "en": "My friend lives across from the library."
   }
  },
+ "overfyldt": {
+  "explanation": "\"Overfyldt\" means \"overcrowded\" or \"overfull\", with more in it than there is room for. It also fits things, not just places with people: en overfyldt skuffe (a stuffed drawer).",
+  "forms": [
+   {
+    "da": "en overfyldt bus",
+    "en": "an overcrowded bus"
+   },
+   {
+    "da": "et overfyldt rum",
+    "en": "an overcrowded room"
+   },
+   {
+    "da": "overfyldte butikker",
+    "en": "overcrowded stores"
+   }
+  ],
+  "related": [
+   {
+    "da": "fyldt",
+    "en": "filled"
+   },
+   {
+    "da": "propfuld",
+    "en": "crammed"
+   },
+   {
+    "da": "tætpakket",
+    "en": "packed tight"
+   },
+   {
+    "da": "tom",
+    "en": "empty"
+   }
+  ],
+  "sentence": {
+   "da": "Bussen var **overfyldt**, og mange måtte stå op hele vejen.",
+   "en": "The bus was overcrowded, and many had to stand all the way."
+  }
+ },
  "overhovedet": {
   "explanation": "\"Overhovedet\" means \"at all\" and is used with ikke (not) or in questions: Jeg forstår overhovedet ikke (I do not understand at all).",
   "forms": [
@@ -4155,6 +11403,166 @@
   "sentence": {
    "da": "Jeg har **overhovedet** ikke tid i dag.",
    "en": "I have no time at all today."
+  }
+ },
+ "overlegen": {
+  "explanation": "\"Overlegen\" means \"superior\": clearly better or stronger than others. About a person's manner, it means looking down on others: Han talte med en overlegen tone (He spoke in a superior tone).",
+  "forms": [
+   {
+    "da": "en overlegen sejr",
+    "en": "a commanding victory"
+   },
+   {
+    "da": "et overlegent smil",
+    "en": "a superior smile"
+   },
+   {
+    "da": "overlegne modstandere",
+    "en": "superior opponents"
+   }
+  ],
+  "related": [
+   {
+    "da": "underlegen",
+    "en": "inferior"
+   },
+   {
+    "da": "arrogant",
+    "en": "arrogant"
+   },
+   {
+    "da": "nedladende",
+    "en": "condescending"
+   },
+   {
+    "da": "dominerende",
+    "en": "dominant"
+   }
+  ],
+  "sentence": {
+   "da": "Holdet var **overlegen** og vandt kampen med lethed.",
+   "en": "The team was superior and won the match with ease."
+  }
+ },
+ "overlevelse": {
+  "explanation": "\"En overlevelse\" means \"survival\", staying alive despite danger or hardship. The action is at overleve (to survive), and overlevelse is the same idea as a thing.",
+  "forms": [
+   {
+    "da": "en overlevelse",
+    "en": "survival"
+   },
+   {
+    "da": "overlevelsen",
+    "en": "the survival"
+   },
+   {
+    "da": "kampen for overlevelse",
+    "en": "the fight for survival"
+   },
+   {
+    "da": "chancen for overlevelse",
+    "en": "the chance of survival"
+   }
+  ],
+  "related": [
+   {
+    "da": "en overlevende",
+    "en": "a survivor"
+   },
+   {
+    "da": "et liv",
+    "en": "a life"
+   },
+   {
+    "da": "at klare sig",
+    "en": "to get by"
+   },
+   {
+    "da": "døden",
+    "en": "death"
+   }
+  ],
+  "sentence": {
+   "da": "Uden vand og mad er der ingen **overlevelse** i ørkenen.",
+   "en": "Without water and food there is no survival in the desert."
+  }
+ },
+ "overmodig": {
+  "explanation": "\"Overmodig\" means \"overconfident\": so sure of yourself that you take risks or ignore danger. It is built from over (too much) and mod (courage), so it is courage that has gone too far.",
+  "forms": [
+   {
+    "da": "en overmodig dreng",
+    "en": "an overconfident boy"
+   },
+   {
+    "da": "et overmodigt svar",
+    "en": "an overconfident answer"
+   },
+   {
+    "da": "overmodige unge",
+    "en": "overconfident young people"
+   }
+  ],
+  "related": [
+   {
+    "da": "dumdristig",
+    "en": "foolhardy"
+   },
+   {
+    "da": "selvsikker",
+    "en": "self-assured"
+   },
+   {
+    "da": "hovmodig",
+    "en": "arrogant"
+   },
+   {
+    "da": "forsigtig",
+    "en": "cautious"
+   }
+  ],
+  "sentence": {
+   "da": "Han var **overmodig** og gik ud på den tynde is.",
+   "en": "He was overconfident and went out onto the thin ice."
+  }
+ },
+ "overordnet": {
+  "explanation": "\"Overordnet\" means \"overall\" and \"superior\". As \"overall\" it looks at the big picture: overordnet set (broadly speaking). As \"superior\" it means higher in rank, and en overordnet (a superior) is a person above you at work.",
+  "forms": [
+   {
+    "da": "en overordnet plan",
+    "en": "an overall plan"
+   },
+   {
+    "da": "et overordnet mål",
+    "en": "an overall goal"
+   },
+   {
+    "da": "overordnede principper",
+    "en": "overall principles"
+   }
+  ],
+  "related": [
+   {
+    "da": "generel",
+    "en": "general"
+   },
+   {
+    "da": "en chef",
+    "en": "a boss"
+   },
+   {
+    "da": "underordnet",
+    "en": "subordinate"
+   },
+   {
+    "da": "samlet",
+    "en": "combined"
+   }
+  ],
+  "sentence": {
+   "da": "Min **overordnet** på arbejdet fordeler opgaverne til os andre.",
+   "en": "My superior at work hands out the tasks to the rest of us."
   }
  },
  "overraskende": {
@@ -4196,6 +11604,45 @@
    "en": "The result was surprising."
   }
  },
+ "overskuelig": {
+  "explanation": "\"Overskuelig\" means \"manageable\" or \"clear\": easy to see as a whole, because it is small or well organized. It fits a plan, a budget, a text or a situation. The opposite is uoverskuelig (hard to survey).",
+  "forms": [
+   {
+    "da": "en overskuelig plan",
+    "en": "a clear plan"
+   },
+   {
+    "da": "et overskueligt budget",
+    "en": "a manageable budget"
+   },
+   {
+    "da": "overskuelige tal",
+    "en": "clear figures"
+   }
+  ],
+  "related": [
+   {
+    "da": "et overblik",
+    "en": "an overview"
+   },
+   {
+    "da": "tydelig",
+    "en": "distinct"
+   },
+   {
+    "da": "enkel",
+    "en": "simple"
+   },
+   {
+    "da": "kaotisk",
+    "en": "chaotic"
+   }
+  ],
+  "sentence": {
+   "da": "En **overskuelig** plan med få trin er lettere at følge.",
+   "en": "A clear plan with few steps is easier to follow."
+  }
+ },
  "overskyet": {
   "explanation": "\"Overskyet\" means \"overcast\", with the whole sky covered by clouds. It is stronger than skyet (cloudy), which can mean just a few clouds.",
   "forms": [
@@ -4229,6 +11676,162 @@
   "sentence": {
    "da": "Himlen er **overskyet** i dag.",
    "en": "The sky is overcast today."
+  }
+ },
+ "overvågning": {
+  "explanation": "\"En overvågning\" means \"surveillance\", careful watching of people, places or systems, often by cameras. It is also used for watching a patient in a hospital: overvågning af patienten (watching over the patient).",
+  "forms": [
+   {
+    "da": "en overvågning",
+    "en": "surveillance"
+   },
+   {
+    "da": "overvågningen",
+    "en": "the surveillance"
+   },
+   {
+    "da": "under overvågning",
+    "en": "under surveillance"
+   },
+   {
+    "da": "et overvågningskamera",
+    "en": "a surveillance camera"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overvåge",
+    "en": "to monitor"
+   },
+   {
+    "da": "kontrol",
+    "en": "control"
+   },
+   {
+    "da": "tilsyn",
+    "en": "supervision"
+   },
+   {
+    "da": "en vagt",
+    "en": "a guard"
+   }
+  ],
+  "sentence": {
+   "da": "Kameraerne i butikken er en slags **overvågning**.",
+   "en": "The cameras in the store are a kind of surveillance."
+  }
+ },
+ "overvægt": {
+  "explanation": "\"En overvægt\" means \"overweight\", carrying more body weight than is healthy. Danes say at have overvægt (to be overweight). At the airport it also means baggage over the weight limit.",
+  "forms": [
+   {
+    "da": "en overvægt",
+    "en": "overweight"
+   },
+   {
+    "da": "overvægten",
+    "en": "the overweight"
+   },
+   {
+    "da": "overvægt i kufferten",
+    "en": "excess weight in the suitcase"
+   },
+   {
+    "da": "at have overvægt",
+    "en": "to be overweight"
+   }
+  ],
+  "related": [
+   {
+    "da": "fedme",
+    "en": "obesity"
+   },
+   {
+    "da": "undervægt",
+    "en": "underweight"
+   },
+   {
+    "da": "normalvægt",
+    "en": "normal weight"
+   }
+  ],
+  "sentence": {
+   "da": "**Overvægt** kan give problemer med hjertet og leddene.",
+   "en": "Overweight can cause problems with the heart and joints."
+  }
+ },
+ "overvældende": {
+  "explanation": "\"Overvældende\" means \"overwhelming\", so big or intense that it is hard to take in, for good things and bad: en overvældende opgave (an overwhelming task). It describes the cause, while overvældet (overwhelmed) describes how you feel.",
+  "forms": [
+   {
+    "da": "en overvældende følelse",
+    "en": "an overwhelming feeling"
+   },
+   {
+    "da": "et overvældende flertal",
+    "en": "an overwhelming majority"
+   },
+   {
+    "da": "overvældende resultater",
+    "en": "overwhelming results"
+   }
+  ],
+  "related": [
+   {
+    "da": "enorm",
+    "en": "enormous"
+   },
+   {
+    "da": "voldsom",
+    "en": "fierce"
+   },
+   {
+    "da": "at overvælde",
+    "en": "to overwhelm"
+   }
+  ],
+  "sentence": {
+   "da": "Udsigten fra toppen var **overvældende**, og vi blev stille.",
+   "en": "The view from the top was overwhelming, and we went quiet."
+  }
+ },
+ "overvældet": {
+  "explanation": "\"Overvældet\" means \"overwhelmed\", the feeling of being hit by something too big or too much, in a good way or a bad way. It describes how you feel, while overvældende (overwhelming) describes the thing that causes it.",
+  "forms": [
+   {
+    "da": "en overvældet gæst",
+    "en": "an overwhelmed guest"
+   },
+   {
+    "da": "et overvældet barn",
+    "en": "an overwhelmed child"
+   },
+   {
+    "da": "overvældede forældre",
+    "en": "overwhelmed parents"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overvælde",
+    "en": "to overwhelm"
+   },
+   {
+    "da": "rørt",
+    "en": "moved"
+   },
+   {
+    "da": "stresset",
+    "en": "stressed"
+   },
+   {
+    "da": "rystet",
+    "en": "shaken"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var helt **overvældet** af alle gaverne og kortene.",
+   "en": "She was completely overwhelmed by all the gifts and cards."
   }
  }
 }

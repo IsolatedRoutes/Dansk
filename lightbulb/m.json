@@ -81,6 +81,264 @@
    "en": "Children must not lack food and clothes."
   }
  },
+ "at manipulere": {
+  "explanation": "\"At manipulere\" means \"to manipulate\", to influence someone or something in a hidden or unfair way. It can also mean to handle or change data on purpose: at manipulere tal (to manipulate numbers).",
+  "forms": [
+   {
+    "da": "at manipulere",
+    "en": "to manipulate"
+   },
+   {
+    "da": "jeg manipulerer",
+    "en": "I manipulate"
+   },
+   {
+    "da": "jeg manipulerede",
+    "en": "I manipulated"
+   },
+   {
+    "da": "jeg har manipuleret",
+    "en": "I have manipulated"
+   }
+  ],
+  "related": [
+   {
+    "da": "manipulerende",
+    "en": "manipulative"
+   },
+   {
+    "da": "en manipulation",
+    "en": "a manipulation"
+   },
+   {
+    "da": "at snyde",
+    "en": "to cheat"
+   },
+   {
+    "da": "at forfalske",
+    "en": "to falsify"
+   }
+  ],
+  "sentence": {
+   "da": "Reklamer kan **manipulere** børn til at ønske sig legetøj.",
+   "en": "Ads can manipulate children into wanting toys."
+  }
+ },
+ "at markere": {
+  "explanation": "\"At markere\" means \"to mark\", to make something visible or to show that it is there. It is used for a line on paper, text on a screen or an event: at markere en fødselsdag (to mark a birthday).",
+  "forms": [
+   {
+    "da": "at markere",
+    "en": "to mark"
+   },
+   {
+    "da": "jeg markerer",
+    "en": "I mark"
+   },
+   {
+    "da": "jeg markerede",
+    "en": "I marked"
+   },
+   {
+    "da": "jeg har markeret",
+    "en": "I have marked"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mærke",
+    "en": "a mark / brand"
+   },
+   {
+    "da": "at understrege",
+    "en": "to underline"
+   },
+   {
+    "da": "en markør",
+    "en": "a marker / cursor"
+   },
+   {
+    "da": "at udpege",
+    "en": "to point out"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **markere** det vigtigste med en gul tusch.",
+   "en": "You must mark the most important part with a yellow felt-tip pen."
+  }
+ },
+ "at mase": {
+  "explanation": "\"At mase\" means \"to squeeze / push\", to force your way forward or into a tight space, often in a crowd. It is a pushy movement with your body: Han masede sig forbi mig (He pushed past me).",
+  "forms": [
+   {
+    "da": "at mase",
+    "en": "to squeeze / push"
+   },
+   {
+    "da": "jeg maser",
+    "en": "I squeeze / push"
+   },
+   {
+    "da": "jeg masede",
+    "en": "I squeezed / pushed"
+   },
+   {
+    "da": "jeg har maset",
+    "en": "I have squeezed / pushed"
+   }
+  ],
+  "related": [
+   {
+    "da": "trang",
+    "en": "cramped"
+   },
+   {
+    "da": "at trænge sig på",
+    "en": "to push in"
+   },
+   {
+    "da": "at puffe",
+    "en": "to nudge"
+   },
+   {
+    "da": "at stuve",
+    "en": "to stuff"
+   }
+  ],
+  "sentence": {
+   "da": "Folk begyndte at **mase**, da dørene åbnede.",
+   "en": "People began to push when the doors opened."
+  }
+ },
+ "at massere": {
+  "explanation": "\"At massere\" means \"to massage\", to rub and press muscles to ease them. You can massage a person or a body part: at massere nakken (to massage the neck).",
+  "forms": [
+   {
+    "da": "at massere",
+    "en": "to massage"
+   },
+   {
+    "da": "jeg masserer",
+    "en": "I massage"
+   },
+   {
+    "da": "jeg masserede",
+    "en": "I massaged"
+   },
+   {
+    "da": "jeg har masseret",
+    "en": "I have massaged"
+   }
+  ],
+  "related": [
+   {
+    "da": "at gnide",
+    "en": "to rub"
+   },
+   {
+    "da": "en massør",
+    "en": "a masseur"
+   },
+   {
+    "da": "at ælte",
+    "en": "to knead"
+   },
+   {
+    "da": "en muskel",
+    "en": "a muscle"
+   }
+  ],
+  "sentence": {
+   "da": "Han kan **massere** mine skuldre, når de gør ondt.",
+   "en": "He can massage my shoulders when they hurt."
+  }
+ },
+ "at meddele": {
+  "explanation": "\"At meddele\" means \"to announce / inform\", to tell something officially. It is the word for official news: Vi meddeler, at kontoret er lukket (We announce that the office is closed).",
+  "forms": [
+   {
+    "da": "at meddele",
+    "en": "to announce / inform"
+   },
+   {
+    "da": "jeg meddeler",
+    "en": "I announce / inform"
+   },
+   {
+    "da": "jeg meddelte",
+    "en": "I announced / informed"
+   },
+   {
+    "da": "jeg har meddelt",
+    "en": "I have announced / informed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en meddelelse",
+    "en": "a notice"
+   },
+   {
+    "da": "at underrette",
+    "en": "to notify"
+   },
+   {
+    "da": "at oplyse",
+    "en": "to state"
+   },
+   {
+    "da": "en besked",
+    "en": "a message"
+   }
+  ],
+  "sentence": {
+   "da": "Banken vil **meddele** kunderne de nye priser i morgen.",
+   "en": "The bank will inform the customers of the new prices tomorrow."
+  }
+ },
+ "at medføre": {
+  "explanation": "\"At medføre\" means \"to lead to / result in\", to have something follow from it: Regnen medfører oversvømmelser (The rain results in floods).",
+  "forms": [
+   {
+    "da": "at medføre",
+    "en": "to lead to / result in"
+   },
+   {
+    "da": "det medfører",
+    "en": "it leads to / results in"
+   },
+   {
+    "da": "det medførte",
+    "en": "it led to / resulted in"
+   },
+   {
+    "da": "det har medført",
+    "en": "it has led to / resulted in"
+   }
+  ],
+  "related": [
+   {
+    "da": "en følge",
+    "en": "a consequence"
+   },
+   {
+    "da": "at udløse",
+    "en": "to trigger"
+   },
+   {
+    "da": "at skabe",
+    "en": "to create"
+   },
+   {
+    "da": "en virkning",
+    "en": "an effect"
+   }
+  ],
+  "sentence": {
+   "da": "Det nye system kan **medføre** store besparelser for firmaet.",
+   "en": "The new system can lead to big savings for the company."
+  }
+ },
  "at meditere": {
   "explanation": "\"At meditere\" means \"to meditate\", to sit quietly and calm your mind.",
   "forms": [
@@ -118,6 +376,92 @@
   "sentence": {
    "da": "Hun vil **meditere** i stilhed for at slappe af.",
    "en": "She wants to meditate in silence to relax."
+  }
+ },
+ "at medvirke": {
+  "explanation": "\"At medvirke\" means \"to contribute / take part\", to be one of the people involved in something, such as a film, a play or a result. It is often followed by i (in): at medvirke i en undersøgelse (to take part in a study).",
+  "forms": [
+   {
+    "da": "at medvirke",
+    "en": "to contribute / take part"
+   },
+   {
+    "da": "jeg medvirker",
+    "en": "I contribute / take part"
+   },
+   {
+    "da": "jeg medvirkede",
+    "en": "I contributed / took part"
+   },
+   {
+    "da": "jeg har medvirket",
+    "en": "I have contributed / taken part"
+   }
+  ],
+  "related": [
+   {
+    "da": "at deltage",
+    "en": "to participate"
+   },
+   {
+    "da": "en medvirkende",
+    "en": "a participant / cast member"
+   },
+   {
+    "da": "at indgå",
+    "en": "to be part of"
+   },
+   {
+    "da": "at samarbejde",
+    "en": "to work together"
+   }
+  ],
+  "sentence": {
+   "da": "Flere kendte skuespillere vil **medvirke** i filmen.",
+   "en": "Several famous actors will take part in the film."
+  }
+ },
+ "at melde": {
+  "explanation": "\"At melde\" means \"to report / announce\", to say or notify something. It has many small uses, for example at melde sig til (to sign up for) and at melde fra (to say that you cannot come).",
+  "forms": [
+   {
+    "da": "at melde",
+    "en": "to report / announce"
+   },
+   {
+    "da": "jeg melder",
+    "en": "I report / announce"
+   },
+   {
+    "da": "jeg meldte",
+    "en": "I reported / announced"
+   },
+   {
+    "da": "jeg har meldt",
+    "en": "I have reported / announced"
+   }
+  ],
+  "related": [
+   {
+    "da": "en melding",
+    "en": "a report / notice"
+   },
+   {
+    "da": "at tilmelde",
+    "en": "to register"
+   },
+   {
+    "da": "at afmelde",
+    "en": "to cancel / unregister"
+   },
+   {
+    "da": "at varsle",
+    "en": "to warn / give notice"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal **melde** mig syg på arbejdet i morgen.",
+   "en": "I have to call in sick at work tomorrow."
   }
  },
  "at melde afbud": {
@@ -370,6 +714,49 @@
    "en": "You are welcome to think something else."
   }
  },
+ "at mime": {
+  "explanation": "\"At mime\" means \"to mime\", to act something out with your body and no words. It is also used for a singer who moves the lips to recorded sound: Sangeren mimer (The singer lip-syncs).",
+  "forms": [
+   {
+    "da": "at mime",
+    "en": "to mime"
+   },
+   {
+    "da": "jeg mimer",
+    "en": "I mime"
+   },
+   {
+    "da": "jeg mimede",
+    "en": "I mimed"
+   },
+   {
+    "da": "jeg har mimet",
+    "en": "I have mimed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mimiker",
+    "en": "a mime artist"
+   },
+   {
+    "da": "at gestikulere",
+    "en": "to gesticulate"
+   },
+   {
+    "da": "en gestus",
+    "en": "a gesture"
+   },
+   {
+    "da": "at efterligne",
+    "en": "to imitate"
+   }
+  ],
+  "sentence": {
+   "da": "Hun kan **mime** en hel historie uden at sige noget.",
+   "en": "She can mime a whole story without saying anything."
+  }
+ },
  "at minde om": {
   "explanation": "\"At minde om\" means \"to remind of\", and also \"to resemble\": Du minder mig om min bror (You remind me of my brother). To remind someone to do something, add at (to): Jeg minder dig om at ringe (I remind you to call).",
   "forms": [
@@ -413,6 +800,92 @@
    "en": "That song can be reminiscent of summer."
   }
  },
+ "at mindes": {
+  "explanation": "\"At mindes\" means \"to remember / commemorate\", to think back on someone or something, often with warmth. It is used for people and events from the past: Vi mindes vores bedstefar (We remember our grandfather). For facts and things to do, use at huske (to remember): Jeg husker dit navn (I remember your name).",
+  "forms": [
+   {
+    "da": "at mindes",
+    "en": "to remember / commemorate"
+   },
+   {
+    "da": "jeg mindes",
+    "en": "I remember / commemorate"
+   },
+   {
+    "da": "jeg mindedes",
+    "en": "I remembered / commemorated"
+   },
+   {
+    "da": "jeg har mindedes",
+    "en": "I have remembered / commemorated"
+   }
+  ],
+  "related": [
+   {
+    "da": "et minde",
+    "en": "a memory"
+   },
+   {
+    "da": "en erindring",
+    "en": "a recollection"
+   },
+   {
+    "da": "at glemme",
+    "en": "to forget"
+   },
+   {
+    "da": "en mindehøjtidelighed",
+    "en": "a memorial service"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **mindes** dem, der døde i krigen.",
+   "en": "We want to remember those who died in the war."
+  }
+ },
+ "at mindske": {
+  "explanation": "\"At mindske\" means \"to reduce\", to make an amount, a risk or a problem go down: at mindske risikoen (to reduce the risk).",
+  "forms": [
+   {
+    "da": "at mindske",
+    "en": "to reduce"
+   },
+   {
+    "da": "jeg mindsker",
+    "en": "I reduce"
+   },
+   {
+    "da": "jeg mindskede",
+    "en": "I reduced"
+   },
+   {
+    "da": "jeg har mindsket",
+    "en": "I have reduced"
+   }
+  ],
+  "related": [
+   {
+    "da": "mindre",
+    "en": "less / smaller"
+   },
+   {
+    "da": "at øge",
+    "en": "to increase"
+   },
+   {
+    "da": "at nedsætte",
+    "en": "to lower"
+   },
+   {
+    "da": "at begrænse",
+    "en": "to limit"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan **mindske** forbruget ved at slukke lyset.",
+   "en": "You can reduce consumption by turning off the light."
+  }
+ },
  "at misforstå": {
   "explanation": "\"At misforstå\" means \"to misunderstand\". It is built from mis- (wrongly) and at forstå (to understand), and mis- also starts at misbruge (to misuse).",
   "forms": [
@@ -450,6 +923,49 @@
   "sentence": {
    "da": "Jeg kan nemt **misforstå** dig på telefonen.",
    "en": "I can easily misunderstand you on the phone."
+  }
+ },
+ "at mislykkes": {
+  "explanation": "\"At mislykkes\" means \"to fail\", when a try does not work out. The thing fails, not the person: Forsøget mislykkedes (The attempt failed). For a person who fails a test, use at dumpe (to flunk).",
+  "forms": [
+   {
+    "da": "at mislykkes",
+    "en": "to fail"
+   },
+   {
+    "da": "det mislykkes",
+    "en": "it fails"
+   },
+   {
+    "da": "det mislykkedes",
+    "en": "it failed"
+   },
+   {
+    "da": "det er mislykkedes",
+    "en": "it has failed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at lykkes",
+    "en": "to succeed"
+   },
+   {
+    "da": "en fiasko",
+    "en": "a failure"
+   },
+   {
+    "da": "at slå fejl",
+    "en": "to go wrong"
+   },
+   {
+    "da": "mislykket",
+    "en": "unsuccessful"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis planen **mislykkes**, må vi prøve noget andet.",
+   "en": "If the plan fails, we must try something else."
   }
  },
  "at misse": {
@@ -534,6 +1050,49 @@
    "en": "I don't want to lose my phone again."
   }
  },
+ "at mistænke": {
+  "explanation": "\"At mistænke\" means \"to suspect\", to think that someone has done something wrong, without being sure. The thing they are suspected of comes after for (of): Hvem mistænker du for det? (Who do you suspect of it?)",
+  "forms": [
+   {
+    "da": "at mistænke",
+    "en": "to suspect"
+   },
+   {
+    "da": "jeg mistænker",
+    "en": "I suspect"
+   },
+   {
+    "da": "jeg mistænkte",
+    "en": "I suspected"
+   },
+   {
+    "da": "jeg har mistænkt",
+    "en": "I have suspected"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   },
+   {
+    "da": "en mistænkt",
+    "en": "a suspect"
+   },
+   {
+    "da": "at ane",
+    "en": "to have a hunch"
+   },
+   {
+    "da": "uskyldig",
+    "en": "innocent"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet kan **mistænke** en nabo for tyveriet.",
+   "en": "The police may suspect a neighbor of the theft."
+  }
+ },
  "at mjave": {
   "explanation": "\"At mjave\" means \"to meow\", the sound a cat makes: Katten mjaver, fordi den er sulten (The cat meows because it is hungry). Purring is at spinde: Katten spinder (The cat purrs).",
   "forms": [
@@ -571,6 +1130,260 @@
   "sentence": {
    "da": "Jeg kan høre katten **mjave** udenfor.",
    "en": "I can hear the cat meow outside."
+  }
+ },
+ "at modarbejde": {
+  "explanation": "\"At modarbejde\" means \"to counteract\", and says that someone works against a person or a plan on purpose: Han modarbejder mig på jobbet (He works against me at work). For something that weakens an effect, such as a medicine, use at modvirke (to counteract an effect).",
+  "forms": [
+   {
+    "da": "at modarbejde",
+    "en": "to counteract"
+   },
+   {
+    "da": "jeg modarbejder",
+    "en": "I counteract"
+   },
+   {
+    "da": "jeg modarbejdede",
+    "en": "I counteracted"
+   },
+   {
+    "da": "jeg har modarbejdet",
+    "en": "I have counteracted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at samarbejde",
+    "en": "to cooperate"
+   },
+   {
+    "da": "at hindre",
+    "en": "to hinder"
+   },
+   {
+    "da": "at sabotere",
+    "en": "to sabotage"
+   },
+   {
+    "da": "at støtte",
+    "en": "to support"
+   }
+  ],
+  "sentence": {
+   "da": "Nogle kolleger prøver at **modarbejde** den nye chef.",
+   "en": "Some colleagues try to work against the new boss."
+  }
+ },
+ "at modbevise": {
+  "explanation": "\"At modbevise\" means \"to disprove\": to show with facts that a statement is wrong, as in modbevise en teori (disprove a theory). It starts with mod (against), the same mod as in at modsige (to contradict).",
+  "forms": [
+   {
+    "da": "at modbevise",
+    "en": "to disprove"
+   },
+   {
+    "da": "jeg modbeviser",
+    "en": "I disprove"
+   },
+   {
+    "da": "jeg modbeviste",
+    "en": "I disproved"
+   },
+   {
+    "da": "jeg har modbevist",
+    "en": "I have disproved"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afkræfte",
+    "en": "to refute"
+   },
+   {
+    "da": "at bekræfte",
+    "en": "to confirm"
+   },
+   {
+    "da": "en påstand",
+    "en": "a claim"
+   }
+  ],
+  "sentence": {
+   "da": "Et godt alibi kan **modbevise**, at man var der.",
+   "en": "A good alibi can disprove that you were there."
+  }
+ },
+ "at moderere": {
+  "explanation": "\"At moderere\" means \"to moderate\", to make something less extreme or less strong. It is also used for someone who leads a discussion, often online: Hun modererer debatten (She moderates the debate).",
+  "forms": [
+   {
+    "da": "at moderere",
+    "en": "to moderate"
+   },
+   {
+    "da": "jeg modererer",
+    "en": "I moderate"
+   },
+   {
+    "da": "jeg modererede",
+    "en": "I moderated"
+   },
+   {
+    "da": "jeg har modereret",
+    "en": "I have moderated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en moderator",
+    "en": "a moderator"
+   },
+   {
+    "da": "at dæmpe",
+    "en": "to dampen"
+   },
+   {
+    "da": "at begrænse",
+    "en": "to limit"
+   },
+   {
+    "da": "at mildne",
+    "en": "to soften"
+   }
+  ],
+  "sentence": {
+   "da": "Du bør **moderere** dit sprog, når børnene hører på.",
+   "en": "You should tone down your language when the children are listening."
+  }
+ },
+ "at modsige": {
+  "explanation": "\"At modsige\" means \"to contradict\": to say or show the opposite of what someone or something else says: Det modsiger, hvad du sagde før (That contradicts what you said before). With sig selv it means to contradict yourself: Du modsiger dig selv (You contradict yourself).",
+  "forms": [
+   {
+    "da": "at modsige",
+    "en": "to contradict"
+   },
+   {
+    "da": "jeg modsiger",
+    "en": "I contradict"
+   },
+   {
+    "da": "jeg modsagde",
+    "en": "I contradicted"
+   },
+   {
+    "da": "jeg har modsagt",
+    "en": "I have contradicted"
+   }
+  ],
+  "related": [
+   {
+    "da": "en modsigelse",
+    "en": "a contradiction"
+   },
+   {
+    "da": "at benægte",
+    "en": "to deny"
+   },
+   {
+    "da": "at være uenig",
+    "en": "to disagree"
+   },
+   {
+    "da": "at bekræfte",
+    "en": "to confirm"
+   }
+  ],
+  "sentence": {
+   "da": "Optagelserne kan **modsige** vidnets forklaring.",
+   "en": "The recordings can contradict the witness's explanation."
+  }
+ },
+ "at modstille": {
+  "explanation": "\"At modstille\" means \"to contrast\": to put two things next to each other so you can see how they are unlike: modstille by og land (contrast city and country).",
+  "forms": [
+   {
+    "da": "at modstille",
+    "en": "to contrast"
+   },
+   {
+    "da": "jeg modstiller",
+    "en": "I contrast"
+   },
+   {
+    "da": "jeg modstillede",
+    "en": "I contrasted"
+   },
+   {
+    "da": "jeg har modstillet",
+    "en": "I have contrasted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sammenligne",
+    "en": "to compare"
+   },
+   {
+    "da": "en modsætning",
+    "en": "an opposite"
+   },
+   {
+    "da": "at skelne",
+    "en": "to distinguish"
+   },
+   {
+    "da": "en forskel",
+    "en": "a difference"
+   }
+  ],
+  "sentence": {
+   "da": "Artiklen vil **modstille** to meget forskellige syn på skolen.",
+   "en": "The article wants to contrast two very different views of the school."
+  }
+ },
+ "at modstå": {
+  "explanation": "\"At modstå\" means \"to resist\", to hold out against something, such as a temptation, an attack or a strong force. The past is irregular: jeg modstod (I resisted).",
+  "forms": [
+   {
+    "da": "at modstå",
+    "en": "to resist"
+   },
+   {
+    "da": "jeg modstår",
+    "en": "I resist"
+   },
+   {
+    "da": "jeg modstod",
+    "en": "I resisted"
+   },
+   {
+    "da": "jeg har modstået",
+    "en": "I have resisted"
+   }
+  ],
+  "related": [
+   {
+    "da": "modstand",
+    "en": "resistance"
+   },
+   {
+    "da": "at give efter",
+    "en": "to give in"
+   },
+   {
+    "da": "at udholde",
+    "en": "to endure"
+   },
+   {
+    "da": "uimodståelig",
+    "en": "irresistible"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg kan aldrig **modstå** en frisk kage.",
+   "en": "I can never resist a fresh cake."
   }
  },
  "at modtage": {
@@ -614,6 +1427,49 @@
   "sentence": {
    "da": "Vi skal **modtage** en pakke i morgen.",
    "en": "We are going to receive a package tomorrow."
+  }
+ },
+ "at modvirke": {
+  "explanation": "\"At modvirke\" means \"to counteract\": to work against an effect or a development so it gets weaker: Motion kan modvirke stress (Exercise can counteract stress). When a person works against your plans, use at modarbejde (to work against).",
+  "forms": [
+   {
+    "da": "at modvirke",
+    "en": "to counteract"
+   },
+   {
+    "da": "jeg modvirker",
+    "en": "I counteract"
+   },
+   {
+    "da": "jeg modvirkede",
+    "en": "I counteracted"
+   },
+   {
+    "da": "jeg har modvirket",
+    "en": "I have counteracted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forebygge",
+    "en": "to prevent"
+   },
+   {
+    "da": "at neutralisere",
+    "en": "to neutralize"
+   },
+   {
+    "da": "at bekæmpe",
+    "en": "to fight"
+   },
+   {
+    "da": "at forstærke",
+    "en": "to strengthen"
+   }
+  ],
+  "sentence": {
+   "da": "Sund mad kan **modvirke** træthed hen på dagen.",
+   "en": "Healthy food can counteract tiredness later in the day."
   }
  },
  "at more sig": {
@@ -700,6 +1556,135 @@
   "sentence": {
    "da": "Lægen siger, at jeg skal **motionere** mere.",
    "en": "The doctor says that I should exercise more."
+  }
+ },
+ "at motivere": {
+  "explanation": "\"At motivere\" means \"to motivate\", to give someone a reason or a wish to do something. You can motivate another person or yourself: Jeg motiverer mig selv (I motivate myself).",
+  "forms": [
+   {
+    "da": "at motivere",
+    "en": "to motivate"
+   },
+   {
+    "da": "jeg motiverer",
+    "en": "I motivate"
+   },
+   {
+    "da": "jeg motiverede",
+    "en": "I motivated"
+   },
+   {
+    "da": "jeg har motiveret",
+    "en": "I have motivated"
+   }
+  ],
+  "related": [
+   {
+    "da": "motivation",
+    "en": "motivation"
+   },
+   {
+    "da": "motiveret",
+    "en": "motivated"
+   },
+   {
+    "da": "at inspirere",
+    "en": "to inspire"
+   },
+   {
+    "da": "at opmuntre",
+    "en": "to encourage"
+   }
+  ],
+  "sentence": {
+   "da": "En god leder kan **motivere** hele holdet.",
+   "en": "A good leader can motivate the whole team."
+  }
+ },
+ "at mumle": {
+  "explanation": "\"At mumle\" means \"to mumble\", to speak so quietly or unclearly that it is hard to hear: Han mumlede noget, jeg ikke forstod (He mumbled something I did not understand).",
+  "forms": [
+   {
+    "da": "at mumle",
+    "en": "to mumble"
+   },
+   {
+    "da": "jeg mumler",
+    "en": "I mumble"
+   },
+   {
+    "da": "jeg mumlede",
+    "en": "I mumbled"
+   },
+   {
+    "da": "jeg har mumlet",
+    "en": "I have mumbled"
+   }
+  ],
+  "related": [
+   {
+    "da": "at hviske",
+    "en": "to whisper"
+   },
+   {
+    "da": "at råbe",
+    "en": "to shout"
+   },
+   {
+    "da": "uforståelig",
+    "en": "unintelligible"
+   },
+   {
+    "da": "at brumme",
+    "en": "to grumble"
+   }
+  ],
+  "sentence": {
+   "da": "Han begyndte at **mumle**, så ingen kunne forstå ham.",
+   "en": "He started to mumble, so no one could understand him."
+  }
+ },
+ "at myrde": {
+  "explanation": "\"At myrde\" means \"to murder\", to kill a person on purpose. It is stronger than at dræbe (to kill), which can also be an accident.",
+  "forms": [
+   {
+    "da": "at myrde",
+    "en": "to murder"
+   },
+   {
+    "da": "jeg myrder",
+    "en": "I murder"
+   },
+   {
+    "da": "jeg myrdede",
+    "en": "I murdered"
+   },
+   {
+    "da": "jeg har myrdet",
+    "en": "I have murdered"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mord",
+    "en": "a murder"
+   },
+   {
+    "da": "en morder",
+    "en": "a murderer"
+   },
+   {
+    "da": "et mordvåben",
+    "en": "a murder weapon"
+   },
+   {
+    "da": "at henrette",
+    "en": "to execute"
+   }
+  ],
+  "sentence": {
+   "da": "Han blev dømt for at **myrde** sin nabo.",
+   "en": "He was convicted of murdering his neighbor."
   }
  },
  "at måle": {
@@ -823,6 +1808,49 @@
    "en": "I can feel the wind on my face."
   }
  },
+ "at mætte": {
+  "explanation": "\"At mætte\" means \"to fill (up) / satisfy\", to take away hunger so that you want no more. It is used for food: Havregrød mætter godt (Oatmeal fills you up well).",
+  "forms": [
+   {
+    "da": "at mætte",
+    "en": "to fill (up) / satisfy"
+   },
+   {
+    "da": "jeg mætter",
+    "en": "I fill (up) / satisfy"
+   },
+   {
+    "da": "jeg mættede",
+    "en": "I filled (up) / satisfied"
+   },
+   {
+    "da": "jeg har mættet",
+    "en": "I have filled (up) / satisfied"
+   }
+  ],
+  "related": [
+   {
+    "da": "mæt",
+    "en": "full"
+   },
+   {
+    "da": "mættende",
+    "en": "filling"
+   },
+   {
+    "da": "at made",
+    "en": "to feed"
+   },
+   {
+    "da": "en appetit",
+    "en": "an appetite"
+   }
+  ],
+  "sentence": {
+   "da": "En stor portion pasta kan **mætte** hele familien.",
+   "en": "A large portion of pasta can fill up the whole family."
+  }
+ },
  "at møde op": {
   "explanation": "\"At møde op\" means \"to show up\", to come where you are expected: Han mødte op til tiden (He showed up on time). It is often said about people who do not: Hun mødte ikke op (She did not show up).",
   "forms": [
@@ -905,6 +1933,127 @@
    "en": "We would like to meet at the cafe tomorrow."
   }
  },
+ "en madallergi": {
+  "explanation": "\"En madallergi\" means \"a food allergy\", when your body reacts badly to a certain food, such as milk or fish. The first part is mad, the Danish word for food. It starts many words, like madpakke (a packed lunch).",
+  "forms": [
+   {
+    "da": "en madallergi",
+    "en": "a food allergy"
+   },
+   {
+    "da": "madallergien",
+    "en": "the food allergy"
+   },
+   {
+    "da": "madallergier",
+    "en": "food allergies"
+   },
+   {
+    "da": "madallergierne",
+    "en": "the food allergies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nøddeallergi",
+    "en": "a nut allergy"
+   },
+   {
+    "da": "en pollenallergi",
+    "en": "a pollen allergy"
+   },
+   {
+    "da": "en laktoseintolerance",
+    "en": "lactose intolerance"
+   }
+  ],
+  "sentence": {
+   "da": "Min søn har en **madallergi** og kan ikke spise æg.",
+   "en": "My son has a food allergy and cannot eat eggs."
+  }
+ },
+ "en madanmelder": {
+  "explanation": "\"En madanmelder\" means \"a food critic\", a person who writes about restaurants and meals in newspapers or online. The second part, anmelder (critic), is used in other fields too: en filmanmelder (a film critic).",
+  "forms": [
+   {
+    "da": "en madanmelder",
+    "en": "a food critic"
+   },
+   {
+    "da": "madanmelderen",
+    "en": "the food critic"
+   },
+   {
+    "da": "madanmeldere",
+    "en": "food critics"
+   },
+   {
+    "da": "madanmelderne",
+    "en": "the food critics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en anmeldelse",
+    "en": "a review"
+   },
+   {
+    "da": "en kok",
+    "en": "a chef"
+   },
+   {
+    "da": "en madskribent",
+    "en": "a food writer"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **madanmelder** gav restauranten fem stjerner i avisen.",
+   "en": "Our food critic gave the restaurant five stars in the paper."
+  }
+ },
+ "en madding": {
+  "explanation": "\"En madding\" means \"a bait\", something used to attract fish so they bite. It is built from mad (food).",
+  "forms": [
+   {
+    "da": "en madding",
+    "en": "a bait"
+   },
+   {
+    "da": "maddingen",
+    "en": "the bait"
+   },
+   {
+    "da": "maddinger",
+    "en": "baits"
+   },
+   {
+    "da": "maddingerne",
+    "en": "the baits"
+   }
+  ],
+  "related": [
+   {
+    "da": "et agn",
+    "en": "a lure"
+   },
+   {
+    "da": "en krog",
+    "en": "a hook"
+   },
+   {
+    "da": "en fiskestang",
+    "en": "a fishing rod"
+   },
+   {
+    "da": "en line",
+    "en": "a fishing line"
+   }
+  ],
+  "sentence": {
+   "da": "Ormen er en god **madding**, når man fisker efter ørred.",
+   "en": "The worm is good bait when you fish for trout."
+  }
+ },
  "en madkasse": {
   "explanation": "\"En madkasse\" means \"a lunch box\", the box you bring food in to school or work.",
   "forms": [
@@ -944,6 +2093,88 @@
    "en": "My son takes his lunch box to school."
   }
  },
+ "en madkultur": {
+  "explanation": "\"En madkultur\" means \"a food culture\", the way people in a country or place cook, eat and think about food. Danish madkultur is known for smørrebrød (open sandwiches).",
+  "forms": [
+   {
+    "da": "en madkultur",
+    "en": "a food culture"
+   },
+   {
+    "da": "madkulturen",
+    "en": "the food culture"
+   },
+   {
+    "da": "madkulturer",
+    "en": "food cultures"
+   },
+   {
+    "da": "madkulturerne",
+    "en": "the food cultures"
+   }
+  ],
+  "related": [
+   {
+    "da": "et køkken",
+    "en": "a cuisine"
+   },
+   {
+    "da": "en spisevane",
+    "en": "an eating habit"
+   },
+   {
+    "da": "en tradition",
+    "en": "a tradition"
+   }
+  ],
+  "sentence": {
+   "da": "I Danmark er rugbrød en vigtig del af vores **madkultur**.",
+   "en": "In Denmark rye bread is an important part of our food culture."
+  }
+ },
+ "en madordning": {
+  "explanation": "\"En madordning\" means \"a meal program\", an arrangement where meals are served to children, for example in a daycare, usually for a fee. It is built from mad (food) and ordning (arrangement).",
+  "forms": [
+   {
+    "da": "en madordning",
+    "en": "a meal program"
+   },
+   {
+    "da": "madordningen",
+    "en": "the meal program"
+   },
+   {
+    "da": "madordninger",
+    "en": "meal programs"
+   },
+   {
+    "da": "madordningerne",
+    "en": "the meal programs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frokostordning",
+    "en": "a lunch scheme"
+   },
+   {
+    "da": "en kantine",
+    "en": "a canteen"
+   },
+   {
+    "da": "en vuggestue",
+    "en": "a nursery"
+   },
+   {
+    "da": "en madpakke",
+    "en": "a packed lunch"
+   }
+  ],
+  "sentence": {
+   "da": "Børnehaven har en **madordning** med frokost hver dag.",
+   "en": "The kindergarten has a meal program with lunch every day."
+  }
+ },
  "en madpakke": {
   "explanation": "\"En madpakke\" means \"a packed lunch\", usually sandwiches you make at home and take to school or work.",
   "forms": [
@@ -981,6 +2212,45 @@
   "sentence": {
    "da": "Jeg tager min **madpakke** med på arbejde.",
    "en": "I take my packed lunch to work."
+  }
+ },
+ "en madplan": {
+  "explanation": "\"En madplan\" means \"a meal plan\", a list of what you will cook and eat on each day of the week. Many people make one before they go shopping, so they buy only what they need.",
+  "forms": [
+   {
+    "da": "en madplan",
+    "en": "a meal plan"
+   },
+   {
+    "da": "madplanen",
+    "en": "the meal plan"
+   },
+   {
+    "da": "madplaner",
+    "en": "meal plans"
+   },
+   {
+    "da": "madplanerne",
+    "en": "the meal plans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indkøbsliste",
+    "en": "a shopping list"
+   },
+   {
+    "da": "en opskrift",
+    "en": "a recipe"
+   },
+   {
+    "da": "en menu",
+    "en": "a menu"
+   }
+  ],
+  "sentence": {
+   "da": "Vi laver en **madplan** hver søndag og køber ind til hele ugen.",
+   "en": "We make a meal plan every Sunday and shop for the whole week."
   }
  },
  "en madras": {
@@ -1026,6 +2296,123 @@
    "en": "I sleep better on a soft mattress."
   }
  },
+ "en madrest": {
+  "explanation": "\"En madrest\" means \"a food scrap\", a small bit of food left over after cooking or eating. The plural madrester often means the leftovers from a whole meal.",
+  "forms": [
+   {
+    "da": "en madrest",
+    "en": "a food scrap"
+   },
+   {
+    "da": "madresten",
+    "en": "the food scrap"
+   },
+   {
+    "da": "madrester",
+    "en": "food scraps"
+   },
+   {
+    "da": "madresterne",
+    "en": "the food scraps"
+   }
+  ],
+  "related": [
+   {
+    "da": "et madaffald",
+    "en": "food waste"
+   },
+   {
+    "da": "en rest",
+    "en": "a remainder"
+   },
+   {
+    "da": "en levning",
+    "en": "a leftover"
+   }
+  ],
+  "sentence": {
+   "da": "Der er kun en lille **madrest** tilbage på tallerkenen.",
+   "en": "There is only a small food scrap left on the plate."
+  }
+ },
+ "en madvare": {
+  "explanation": "\"En madvare\" means \"a food product\", something sold for people to eat, such as bread, cheese or canned fish. The matching word for things to drink is drikkevarer (drinks).",
+  "forms": [
+   {
+    "da": "en madvare",
+    "en": "a food product"
+   },
+   {
+    "da": "madvaren",
+    "en": "the food product"
+   },
+   {
+    "da": "madvarer",
+    "en": "food products"
+   },
+   {
+    "da": "madvarerne",
+    "en": "the food products"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dagligvare",
+    "en": "a grocery item"
+   },
+   {
+    "da": "en fødevare",
+    "en": "a foodstuff"
+   },
+   {
+    "da": "en ingrediens",
+    "en": "an ingredient"
+   }
+  ],
+  "sentence": {
+   "da": "Mælk er en **madvare**, og den skal stå i køleskabet.",
+   "en": "Milk is a food product, and it has to be kept in the fridge."
+  }
+ },
+ "en madvogn": {
+  "explanation": "\"En madvogn\" means \"a food truck\", a vehicle that sells cooked food on the street or at festivals. The second part, vogn, means a cart or wagon on wheels: en barnevogn (a stroller) uses the same word.",
+  "forms": [
+   {
+    "da": "en madvogn",
+    "en": "a food truck"
+   },
+   {
+    "da": "madvognen",
+    "en": "the food truck"
+   },
+   {
+    "da": "madvogne",
+    "en": "food trucks"
+   },
+   {
+    "da": "madvognene",
+    "en": "the food trucks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pølsevogn",
+    "en": "a hot dog stand"
+   },
+   {
+    "da": "et gadekøkken",
+    "en": "a street kitchen"
+   },
+   {
+    "da": "en gadesælger",
+    "en": "a street vendor"
+   }
+  ],
+  "sentence": {
+   "da": "Ved festivalen står der en **madvogn** med burgere og pommes frites.",
+   "en": "At the festival there is a food truck with burgers and fries."
+  }
+ },
  "en mafia": {
   "explanation": "\"En mafia\" means \"a mafia\", an organized criminal group. The word is used for the Italian Mafia and for similar groups.",
   "forms": [
@@ -1069,6 +2456,49 @@
    "en": "The movie is about a mafia in New York."
   }
  },
+ "en magt": {
+  "explanation": "\"En magt\" means \"a power\", the ability to decide things and control others, such as the power of a government or a boss. For electric power, use strøm: Strømmen er gået (The power is out).",
+  "forms": [
+   {
+    "da": "en magt",
+    "en": "a power"
+   },
+   {
+    "da": "magten",
+    "en": "the power"
+   },
+   {
+    "da": "magter",
+    "en": "powers"
+   },
+   {
+    "da": "magterne",
+    "en": "the powers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kraft",
+    "en": "a force"
+   },
+   {
+    "da": "en styrke",
+    "en": "a strength"
+   },
+   {
+    "da": "en myndighed",
+    "en": "an authority"
+   },
+   {
+    "da": "en indflydelse",
+    "en": "an influence"
+   }
+  ],
+  "sentence": {
+   "da": "Politikere har **magt**, fordi vi stemmer på dem.",
+   "en": "Politicians have power because we vote for them."
+  }
+ },
  "en mail": {
   "explanation": "\"En mail\" means \"an email\". It is the short everyday word for en e-mail (an email).",
   "forms": [
@@ -1108,6 +2538,131 @@
    "en": "I am sending you an email today."
   }
  },
+ "en majestæt": {
+  "explanation": "\"En majestæt\" means \"a majesty\", the title for a king or queen. You address a ruler as Deres Majestæt (Your Majesty).",
+  "forms": [
+   {
+    "da": "en majestæt",
+    "en": "a majesty"
+   },
+   {
+    "da": "majestæten",
+    "en": "the majesty"
+   },
+   {
+    "da": "majestæter",
+    "en": "majesties"
+   },
+   {
+    "da": "majestæterne",
+    "en": "the majesties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kejser",
+    "en": "an emperor"
+   },
+   {
+    "da": "en prins",
+    "en": "a prince"
+   },
+   {
+    "da": "en trone",
+    "en": "a throne"
+   },
+   {
+    "da": "kongelig",
+    "en": "royal"
+   }
+  ],
+  "sentence": {
+   "da": "Man siger **majestæt**, når man taler til kongen.",
+   "en": "You say Majesty when you talk to the king."
+  }
+ },
+ "en major": {
+  "explanation": "\"En major\" means \"a major\", an officer rank in the military. It is only a rank: for important or serious, Danish does not use major but vigtig (important) or alvorlig (serious).",
+  "forms": [
+   {
+    "da": "en major",
+    "en": "a major"
+   },
+   {
+    "da": "majoren",
+    "en": "the major"
+   },
+   {
+    "da": "majorer",
+    "en": "majors"
+   },
+   {
+    "da": "majorerne",
+    "en": "the majors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en løjtnant",
+    "en": "a lieutenant"
+   },
+   {
+    "da": "en oberst",
+    "en": "a colonel"
+   },
+   {
+    "da": "en general",
+    "en": "a general"
+   }
+  ],
+  "sentence": {
+   "da": "En **major** er højere i rang end en kaptajn.",
+   "en": "A major is higher in rank than a captain."
+  }
+ },
+ "en makrel": {
+  "explanation": "\"En makrel\" means \"a mackerel\", a fish that is eaten a lot in Denmark, often smoked, or from a can as makrel i tomat (mackerel in tomato sauce).",
+  "forms": [
+   {
+    "da": "en makrel",
+    "en": "a mackerel"
+   },
+   {
+    "da": "makrellen",
+    "en": "the mackerel"
+   },
+   {
+    "da": "makreller",
+    "en": "mackerels"
+   },
+   {
+    "da": "makrellerne",
+    "en": "the mackerels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sild",
+    "en": "a herring"
+   },
+   {
+    "da": "en laks",
+    "en": "a salmon"
+   },
+   {
+    "da": "en torsk",
+    "en": "a cod"
+   },
+   {
+    "da": "en ørred",
+    "en": "a trout"
+   }
+  ],
+  "sentence": {
+   "da": "En **makrel** har striber på ryggen og lever i havet.",
+   "en": "A mackerel has stripes on its back and lives in the sea."
+  }
+ },
  "en maler": {
   "explanation": "\"En maler\" means \"a painter\", both an artist and someone who paints walls: En maler maler vores køkken (A painter is painting our kitchen). The situation shows which one is meant.",
   "forms": [
@@ -1145,6 +2700,92 @@
   "sentence": {
    "da": "Min bror er **maler** og maler huse.",
    "en": "My brother is a painter and paints houses."
+  }
+ },
+ "en manager": {
+  "explanation": "\"En manager\" means \"a manager\", an English loan word for a person who looks after a team or an artist's career. For a boss at an ordinary workplace, Danes more often say chef (boss).",
+  "forms": [
+   {
+    "da": "en manager",
+    "en": "a manager"
+   },
+   {
+    "da": "manageren",
+    "en": "the manager"
+   },
+   {
+    "da": "managere",
+    "en": "managers"
+   },
+   {
+    "da": "managerne",
+    "en": "the managers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en leder",
+    "en": "a leader"
+   },
+   {
+    "da": "en direktør",
+    "en": "a director"
+   },
+   {
+    "da": "en agent",
+    "en": "an agent"
+   },
+   {
+    "da": "en træner",
+    "en": "a coach"
+   }
+  ],
+  "sentence": {
+   "da": "Sangerens **manager** ordner alle koncerter og aftaler.",
+   "en": "The singer's manager arranges all the concerts and deals."
+  }
+ },
+ "en manchetknap": {
+  "explanation": "\"En manchetknap\" means \"a cufflink\", a small decorative fastener that closes the ends of the sleeves on a dress shirt. Men wear them mostly with formal clothes at special events.",
+  "forms": [
+   {
+    "da": "en manchetknap",
+    "en": "a cufflink"
+   },
+   {
+    "da": "manchetknappen",
+    "en": "the cufflink"
+   },
+   {
+    "da": "manchetknapper",
+    "en": "cufflinks"
+   },
+   {
+    "da": "manchetknapperne",
+    "en": "the cufflinks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en slips",
+    "en": "a tie"
+   },
+   {
+    "da": "et jakkesæt",
+    "en": "a suit"
+   },
+   {
+    "da": "en butterfly",
+    "en": "a bow tie"
+   },
+   {
+    "da": "en knap",
+    "en": "a button"
+   }
+  ],
+  "sentence": {
+   "da": "Han lukker skjortens ærme med en **manchetknap** af sølv.",
+   "en": "He closes the shirt sleeve with a silver cufflink."
   }
  },
  "en mand": {
@@ -1229,6 +2870,45 @@
    "en": "Marzipan is made of almond and sugar."
   }
  },
+ "en mangel": {
+  "explanation": "\"En mangel\" means \"a shortage\", when there is too little of something. It can also mean a defect in something you bought: Varen har en mangel (The item has a defect).",
+  "forms": [
+   {
+    "da": "en mangel",
+    "en": "a shortage"
+   },
+   {
+    "da": "manglen",
+    "en": "the shortage"
+   },
+   {
+    "da": "mangler",
+    "en": "shortages"
+   },
+   {
+    "da": "manglerne",
+    "en": "the shortages"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mangle",
+    "en": "to lack"
+   },
+   {
+    "da": "en knaphed",
+    "en": "scarcity"
+   },
+   {
+    "da": "et underskud",
+    "en": "a deficit"
+   }
+  ],
+  "sentence": {
+   "da": "Der er **mangel** på sygeplejersker i mange lande.",
+   "en": "There is a shortage of nurses in many countries."
+  }
+ },
  "en mango": {
   "explanation": "\"En mango\" means \"a mango\", a sweet tropical fruit with a big pit.",
   "forms": [
@@ -1266,6 +2946,45 @@
   "sentence": {
    "da": "En **mango** er gul og blød indeni.",
    "en": "A mango is yellow and soft inside."
+  }
+ },
+ "en manke": {
+  "explanation": "\"En manke\" means \"a mane\", the long thick hair along the neck of a horse or around the head of a lion.",
+  "forms": [
+   {
+    "da": "en manke",
+    "en": "a mane"
+   },
+   {
+    "da": "manken",
+    "en": "the mane"
+   },
+   {
+    "da": "manker",
+    "en": "manes"
+   },
+   {
+    "da": "mankerne",
+    "en": "the manes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pels",
+    "en": "a fur"
+   },
+   {
+    "da": "en hale",
+    "en": "a tail"
+   },
+   {
+    "da": "et hår",
+    "en": "a hair"
+   }
+  ],
+  "sentence": {
+   "da": "Hesten har en lang, sort **manke** på halsen.",
+   "en": "The horse has a long, black mane on its neck."
   }
  },
  "en mappe": {
@@ -1311,6 +3030,45 @@
    "en": "I put all the pictures in a new folder."
   }
  },
+ "en mariehøne": {
+  "explanation": "\"En mariehøne\" means \"a ladybug\", a small round beetle that eats insects harming plants. Literally the word is Marie plus høne (a hen), but it is not a bird.",
+  "forms": [
+   {
+    "da": "en mariehøne",
+    "en": "a ladybug"
+   },
+   {
+    "da": "mariehønen",
+    "en": "the ladybug"
+   },
+   {
+    "da": "mariehøns",
+    "en": "ladybugs"
+   },
+   {
+    "da": "mariehønsene",
+    "en": "the ladybugs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sommerfugl",
+    "en": "a butterfly"
+   },
+   {
+    "da": "en bi",
+    "en": "a bee"
+   },
+   {
+    "da": "en bladlus",
+    "en": "an aphid"
+   }
+  ],
+  "sentence": {
+   "da": "En rød **mariehøne** har sorte prikker på ryggen.",
+   "en": "A red ladybug has black dots on its back."
+  }
+ },
  "en mark": {
   "explanation": "\"En mark\" means \"a field\", farmland where crops grow. Do not mix it up with et marked (a market).",
   "forms": [
@@ -1354,6 +3112,49 @@
    "en": "The farmer drives a tractor out onto his field."
   }
  },
+ "en markedsandel": {
+  "explanation": "\"En markedsandel\" means \"a market share\", the part of all sales in a line of business that one company has. It is usually given in percent.",
+  "forms": [
+   {
+    "da": "en markedsandel",
+    "en": "a market share"
+   },
+   {
+    "da": "markedsandelen",
+    "en": "the market share"
+   },
+   {
+    "da": "markedsandele",
+    "en": "market shares"
+   },
+   {
+    "da": "markedsandelene",
+    "en": "the market shares"
+   }
+  ],
+  "related": [
+   {
+    "da": "en konkurrent",
+    "en": "a competitor"
+   },
+   {
+    "da": "en omsætning",
+    "en": "a turnover"
+   },
+   {
+    "da": "en branche",
+    "en": "an industry"
+   },
+   {
+    "da": "en markedsleder",
+    "en": "a front-runner"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet har en **markedsandel** på tyve procent i Danmark.",
+   "en": "The company has a market share of twenty percent in Denmark."
+  }
+ },
  "en markedsbod": {
   "explanation": "\"En markedsbod\" means \"a market stall\", a small booth where someone shows goods at a market. It is built from marked (market) and bod (stall). On its own, en bod can also be a small storage room in an apartment building.",
   "forms": [
@@ -1391,6 +3192,88 @@
   "sentence": {
    "da": "Jeg køber friske æbler i en **markedsbod**.",
    "en": "I buy fresh apples at a market stall."
+  }
+ },
+ "en markering": {
+  "explanation": "\"En markering\" means \"a marking\", a painted stripe or symbol that shows something. It also means a public show of opinion or support, for example a minute of silence.",
+  "forms": [
+   {
+    "da": "en markering",
+    "en": "a marking / a demonstration"
+   },
+   {
+    "da": "markeringen",
+    "en": "the marking / demonstration"
+   },
+   {
+    "da": "markeringer",
+    "en": "markings / demonstrations"
+   },
+   {
+    "da": "markeringerne",
+    "en": "the markings / demonstrations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at markere",
+    "en": "to mark"
+   },
+   {
+    "da": "en demonstration",
+    "en": "a rally"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign"
+   },
+   {
+    "da": "en streg",
+    "en": "a line"
+   }
+  ],
+  "sentence": {
+   "da": "Cykelstien er vist med en hvid **markering** på vejen.",
+   "en": "The bike path is shown with a white marking on the road."
+  }
+ },
+ "en marketingchef": {
+  "explanation": "\"En marketingchef\" means \"a marketing manager\", the person in charge of a company's advertising and sales plans. Chef (boss, head) ends many job titles in Danish.",
+  "forms": [
+   {
+    "da": "en marketingchef",
+    "en": "a marketing manager"
+   },
+   {
+    "da": "marketingchefen",
+    "en": "the marketing manager"
+   },
+   {
+    "da": "marketingchefer",
+    "en": "marketing managers"
+   },
+   {
+    "da": "marketingcheferne",
+    "en": "the marketing managers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en salgschef",
+    "en": "a sales manager"
+   },
+   {
+    "da": "en økonomichef",
+    "en": "a finance manager"
+   },
+   {
+    "da": "en direktør",
+    "en": "a director"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **marketingchef** planlægger reklamerne til næste år.",
+   "en": "Our marketing manager plans the ads for next year."
   }
  },
  "en mascara": {
@@ -1522,6 +3405,45 @@
    "en": "The new machine is fast but makes a lot of noise."
   }
  },
+ "en massage": {
+  "explanation": "\"En massage\" means \"a massage\", pressing and rubbing the muscles to ease pain or tension. Danes often leave out en after få (to get): Jeg fik massage (I got a massage).",
+  "forms": [
+   {
+    "da": "en massage",
+    "en": "a massage"
+   },
+   {
+    "da": "massagen",
+    "en": "the massage"
+   },
+   {
+    "da": "massager",
+    "en": "massages"
+   },
+   {
+    "da": "massagerne",
+    "en": "the massages"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fysioterapeut",
+    "en": "a physical therapist"
+   },
+   {
+    "da": "en kiropraktor",
+    "en": "a chiropractor"
+   },
+   {
+    "da": "en akupunktur",
+    "en": "acupuncture"
+   }
+  ],
+  "sentence": {
+   "da": "En time **massage** hjælper, når ryggen er spændt.",
+   "en": "An hour of massage helps when the back is tense."
+  }
+ },
  "en masse": {
   "explanation": "\"En masse\" means \"a lot\": en masse penge (a lot of money). Unlike English, it has no af (of) in between.",
   "forms": [
@@ -1565,6 +3487,45 @@
    "en": "There were a lot of people in town."
   }
  },
+ "en matematiker": {
+  "explanation": "\"En matematiker\" means \"a mathematician\", someone who works with or studies mathematics. The ending -iker names a person in many fields: en fysiker (a physicist), en kemiker (a chemist).",
+  "forms": [
+   {
+    "da": "en matematiker",
+    "en": "a mathematician"
+   },
+   {
+    "da": "matematikeren",
+    "en": "the mathematician"
+   },
+   {
+    "da": "matematikere",
+    "en": "mathematicians"
+   },
+   {
+    "da": "matematikerne",
+    "en": "the mathematicians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en statistiker",
+    "en": "a statistician"
+   },
+   {
+    "da": "en ingeniør",
+    "en": "an engineer"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   }
+  ],
+  "sentence": {
+   "da": "En **matematiker** bruger tal og logik til at løse svære problemer.",
+   "en": "A mathematician uses numbers and logic to solve hard problems."
+  }
+ },
  "en mave": {
   "explanation": "\"En mave\" means \"a stomach\" or \"a belly\", the part of your body where food goes. To say it hurts, use ondt i maven (a pain in the stomach). Han har en stor mave (He has a big belly).",
   "forms": [
@@ -1604,6 +3565,45 @@
    "en": "The food goes down into your stomach."
   }
  },
+ "en mavebøjning": {
+  "explanation": "\"En mavebøjning\" means \"a sit-up\", a move that trains the stomach muscles. The second part comes from at bøje (to bend), as in en armbøjning (a push-up).",
+  "forms": [
+   {
+    "da": "en mavebøjning",
+    "en": "a sit-up"
+   },
+   {
+    "da": "mavebøjningen",
+    "en": "the sit-up"
+   },
+   {
+    "da": "mavebøjninger",
+    "en": "sit-ups"
+   },
+   {
+    "da": "mavebøjningerne",
+    "en": "the sit-ups"
+   }
+  ],
+  "related": [
+   {
+    "da": "en knæbøjning",
+    "en": "a squat"
+   },
+   {
+    "da": "en styrkeøvelse",
+    "en": "a strength exercise"
+   },
+   {
+    "da": "en træning",
+    "en": "a workout"
+   }
+  ],
+  "sentence": {
+   "da": "Man ligger på ryggen og løfter overkroppen i en **mavebøjning**.",
+   "en": "You lie on your back and lift your upper body in a sit-up."
+  }
+ },
  "en mavepine": {
   "explanation": "\"En mavepine\" means \"a stomachache\", built from mave (stomach) and pine (ache). Jeg har ondt i maven (My stomach hurts) means nearly the same.",
   "forms": [
@@ -1641,6 +3641,49 @@
   "sentence": {
    "da": "Jeg har **mavepine** og vil ikke spise.",
    "en": "I have a stomachache and don't want to eat."
+  }
+ },
+ "en mavesæk": {
+  "explanation": "\"En mavesæk\" means \"a stomach (organ)\", the bag inside your body where food is broken down. Mave alone can also mean the belly on the outside, so mavesæk is the clearer word for the organ itself.",
+  "forms": [
+   {
+    "da": "en mavesæk",
+    "en": "a stomach (organ)"
+   },
+   {
+    "da": "mavesækken",
+    "en": "the stomach (organ)"
+   },
+   {
+    "da": "mavesække",
+    "en": "stomachs (organs)"
+   },
+   {
+    "da": "mavesækkene",
+    "en": "the stomachs (organs)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tarm",
+    "en": "an intestine"
+   },
+   {
+    "da": "et spiserør",
+    "en": "an esophagus"
+   },
+   {
+    "da": "en lever",
+    "en": "a liver"
+   },
+   {
+    "da": "en nyre",
+    "en": "a kidney"
+   }
+  ],
+  "sentence": {
+   "da": "Når du sluger maden, ender den i din **mavesæk**.",
+   "en": "When you swallow the food, it ends up in your stomach."
   }
  },
  "en medalje": {
@@ -1729,6 +3772,88 @@
    "en": "Our new employee starts on Monday."
   }
  },
+ "en medborgerskabsprøve": {
+  "explanation": "\"En medborgerskabsprøve\" means \"a civics test\", a test about Danish society, history and culture, taken by people from abroad who want to stay in Denmark. It is built from medborgerskab (citizenship) and prøve (test).",
+  "forms": [
+   {
+    "da": "en medborgerskabsprøve",
+    "en": "a civics test"
+   },
+   {
+    "da": "medborgerskabsprøven",
+    "en": "the civics test"
+   },
+   {
+    "da": "medborgerskabsprøver",
+    "en": "civics tests"
+   },
+   {
+    "da": "medborgerskabsprøverne",
+    "en": "the civics tests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indfødsretsprøve",
+    "en": "a naturalization exam"
+   },
+   {
+    "da": "en statsborger",
+    "en": "a national"
+   },
+   {
+    "da": "en opholdstilladelse",
+    "en": "a residence permit"
+   },
+   {
+    "da": "en integration",
+    "en": "integration"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal bestå en **medborgerskabsprøve** om dansk historie og samfund.",
+   "en": "She must pass a civics test about Danish history and society."
+  }
+ },
+ "en meddelelse": {
+  "explanation": "\"En meddelelse\" means \"an announcement\", a short official statement that tells people something. A message to a friend is called something else; meddelelse is for news from a school, a company or an authority.",
+  "forms": [
+   {
+    "da": "en meddelelse",
+    "en": "an announcement"
+   },
+   {
+    "da": "meddelelsen",
+    "en": "the announcement"
+   },
+   {
+    "da": "meddelelser",
+    "en": "announcements"
+   },
+   {
+    "da": "meddelelserne",
+    "en": "the announcements"
+   }
+  ],
+  "related": [
+   {
+    "da": "et opslag",
+    "en": "a notice"
+   },
+   {
+    "da": "en nyhed",
+    "en": "a piece of news"
+   },
+   {
+    "da": "en underretning",
+    "en": "a notification"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen sendte en **meddelelse** om den nye fridag.",
+   "en": "The school sent an announcement about the new day off."
+  }
+ },
  "en medisterpølse": {
   "explanation": "\"En medisterpølse\" means \"a Danish pork sausage\", a thick sausage of minced pork and spices that is usually fried. It is built from medister (spiced minced pork) and pølse (sausage).",
   "forms": [
@@ -1766,6 +3891,170 @@
   "sentence": {
    "da": "Til aftensmad steger vi en **medisterpølse** med kartofler.",
    "en": "For dinner we fry a medister sausage with potatoes."
+  }
+ },
+ "en meditation": {
+  "explanation": "\"En meditation\" means \"a meditation\", a quiet practice where you sit still and focus your mind on one thing, often your breathing.",
+  "forms": [
+   {
+    "da": "en meditation",
+    "en": "a meditation"
+   },
+   {
+    "da": "meditationen",
+    "en": "the meditation"
+   },
+   {
+    "da": "meditationer",
+    "en": "meditations"
+   },
+   {
+    "da": "meditationerne",
+    "en": "the meditations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at meditere",
+    "en": "to meditate"
+   },
+   {
+    "da": "mindfulness",
+    "en": "mindfulness"
+   },
+   {
+    "da": "yoga",
+    "en": "yoga"
+   },
+   {
+    "da": "en afslapning",
+    "en": "a relaxation"
+   }
+  ],
+  "sentence": {
+   "da": "Under en **meditation** sidder man stille og tænker på sin vejrtrækning.",
+   "en": "During a meditation you sit still and think about your breathing."
+  }
+ },
+ "en medspiller": {
+  "explanation": "\"En medspiller\" means \"a teammate\", someone who plays on the same side as you. Med means with, but mod means against, so en modspiller (an opponent) is the reverse.",
+  "forms": [
+   {
+    "da": "en medspiller",
+    "en": "a teammate"
+   },
+   {
+    "da": "medspilleren",
+    "en": "the teammate"
+   },
+   {
+    "da": "medspillere",
+    "en": "teammates"
+   },
+   {
+    "da": "medspillerne",
+    "en": "the teammates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en medarbejder",
+    "en": "a coworker"
+   },
+   {
+    "da": "en medstuderende",
+    "en": "a fellow student"
+   },
+   {
+    "da": "en træner",
+    "en": "a coach"
+   }
+  ],
+  "sentence": {
+   "da": "En god **medspiller** hjælper de andre på holdet.",
+   "en": "A good teammate helps the others on the team."
+  }
+ },
+ "en mejetærsker": {
+  "explanation": "\"En mejetærsker\" means \"a combine harvester\", a large farm machine. The word is built from meje (to reap) and tærske (to thresh), the two jobs it does in one go: cutting the grain and separating the seeds.",
+  "forms": [
+   {
+    "da": "en mejetærsker",
+    "en": "a combine harvester"
+   },
+   {
+    "da": "mejetærskeren",
+    "en": "the combine harvester"
+   },
+   {
+    "da": "mejetærskere",
+    "en": "combine harvesters"
+   },
+   {
+    "da": "mejetærskerne",
+    "en": "the combine harvesters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en traktor",
+    "en": "a tractor"
+   },
+   {
+    "da": "en plov",
+    "en": "a plow"
+   },
+   {
+    "da": "en mark",
+    "en": "a field"
+   }
+  ],
+  "sentence": {
+   "da": "Landmanden bruger en **mejetærsker**, når kornet er modent.",
+   "en": "The farmer uses a combine harvester when the grain is ripe."
+  }
+ },
+ "en mekaniker": {
+  "explanation": "\"En mekaniker\" means \"a mechanic\", a person who repairs cars and other machines for a living. It is the second half of longer words: en cykelmekaniker (a bike mechanic).",
+  "forms": [
+   {
+    "da": "en mekaniker",
+    "en": "a mechanic"
+   },
+   {
+    "da": "mekanikeren",
+    "en": "the mechanic"
+   },
+   {
+    "da": "mekanikere",
+    "en": "mechanics"
+   },
+   {
+    "da": "mekanikerne",
+    "en": "the mechanics"
+   }
+  ],
+  "related": [
+   {
+    "da": "et værksted",
+    "en": "a workshop"
+   },
+   {
+    "da": "en reparatør",
+    "en": "a repairman"
+   },
+   {
+    "da": "en elektriker",
+    "en": "an electrician"
+   },
+   {
+    "da": "en smed",
+    "en": "a blacksmith"
+   }
+  ],
+  "sentence": {
+   "da": "En **mekaniker** reparerer biler og motorer.",
+   "en": "A mechanic repairs cars and engines."
   }
  },
  "en mellemlanding": {
@@ -1936,6 +4225,88 @@
    "en": "I have a different opinion than you."
   }
  },
+ "en meningsmåling": {
+  "explanation": "\"En meningsmåling\" means \"an opinion poll\", a way of finding out what people think, usually about politics. A small group is asked, and the answers are taken to show what the whole country thinks.",
+  "forms": [
+   {
+    "da": "en meningsmåling",
+    "en": "an opinion poll"
+   },
+   {
+    "da": "meningsmålingen",
+    "en": "the opinion poll"
+   },
+   {
+    "da": "meningsmålinger",
+    "en": "opinion polls"
+   },
+   {
+    "da": "meningsmålingerne",
+    "en": "the opinion polls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afstemning",
+    "en": "a vote"
+   },
+   {
+    "da": "en undersøgelse",
+    "en": "a study"
+   },
+   {
+    "da": "en stikprøve",
+    "en": "a sample"
+   }
+  ],
+  "sentence": {
+   "da": "Ifølge en ny **meningsmåling** er flere unge utilfredse.",
+   "en": "According to a new opinion poll, more young people are unhappy."
+  }
+ },
+ "en mentor": {
+  "explanation": "\"En mentor\" means \"a mentor\", an experienced person who guides someone newer, often at work. A mentor usually helps one person over a long time, without a class or a set course.",
+  "forms": [
+   {
+    "da": "en mentor",
+    "en": "a mentor"
+   },
+   {
+    "da": "mentoren",
+    "en": "the mentor"
+   },
+   {
+    "da": "mentorer",
+    "en": "mentors"
+   },
+   {
+    "da": "mentorerne",
+    "en": "the mentors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vejleder",
+    "en": "an advisor"
+   },
+   {
+    "da": "en rådgiver",
+    "en": "a counselor"
+   },
+   {
+    "da": "en coach",
+    "en": "a coach"
+   },
+   {
+    "da": "et forbillede",
+    "en": "a role model"
+   }
+  ],
+  "sentence": {
+   "da": "En **mentor** hjælper en nyansat med at lære jobbet.",
+   "en": "A mentor helps a new employee learn the job."
+  }
+ },
  "en menu": {
   "explanation": "\"En menu\" means \"a menu\", the list of food at a restaurant. Dagens menu (the menu of the day) is a set meal chosen for that day.",
   "forms": [
@@ -2053,6 +4424,49 @@
    "en": "He is over two meters tall."
   }
  },
+ "en metode": {
+  "explanation": "\"En metode\" means \"a method\", a set way of doing something step by step. It is used for work and for study: en ny metode til at lære sprog (a new method for learning languages).",
+  "forms": [
+   {
+    "da": "en metode",
+    "en": "a method"
+   },
+   {
+    "da": "metoden",
+    "en": "the method"
+   },
+   {
+    "da": "metoder",
+    "en": "methods"
+   },
+   {
+    "da": "metoderne",
+    "en": "the methods"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fremgangsmåde",
+    "en": "a procedure"
+   },
+   {
+    "da": "en teknik",
+    "en": "a technique"
+   },
+   {
+    "da": "et system",
+    "en": "a system"
+   },
+   {
+    "da": "en strategi",
+    "en": "a strategy"
+   }
+  ],
+  "sentence": {
+   "da": "En **metode** er en bestemt måde at løse en opgave på.",
+   "en": "A method is a certain way of solving a task."
+  }
+ },
  "en metro": {
   "explanation": "\"En metro\" means \"a metro\", the underground train. You travel med metroen (by metro). Do not mix it up with S-tog (the S-train), which is a different train line.",
   "forms": [
@@ -2135,6 +4549,45 @@
    "en": "We eat dinner at six in the evening."
   }
  },
+ "en middagslur": {
+  "explanation": "\"En middagslur\" means \"a nap\", a short sleep in the middle of the day, not at night. It is built from middag (midday) and lur (a nap), and en lur alone works at any time of day.",
+  "forms": [
+   {
+    "da": "en middagslur",
+    "en": "a nap"
+   },
+   {
+    "da": "middagsluren",
+    "en": "the nap"
+   },
+   {
+    "da": "middagslure",
+    "en": "naps"
+   },
+   {
+    "da": "middagslurene",
+    "en": "the naps"
+   }
+  ],
+  "related": [
+   {
+    "da": "en blund",
+    "en": "a snooze"
+   },
+   {
+    "da": "at sove",
+    "en": "to sleep"
+   },
+   {
+    "da": "at døse",
+    "en": "to doze"
+   }
+  ],
+  "sentence": {
+   "da": "Små børn tager ofte en **middagslur** efter frokost.",
+   "en": "Small children often take a nap after lunch."
+  }
+ },
  "en midtergang": {
   "explanation": "\"En midtergang\" means \"an aisle\", the walkway you go along on a plane, bus or train. It is built from midt (middle) and gang (hallway). The same gang is in a house: Skoene står i gangen (The shoes are in the hallway).",
   "forms": [
@@ -2172,6 +4625,49 @@
   "sentence": {
    "da": "Han går ned ad en lang **midtergang** i flyet.",
    "en": "He walks down a long aisle in the plane."
+  }
+ },
+ "en migræne": {
+  "explanation": "\"En migræne\" means \"a migraine\", a severe, throbbing pain, often on one side of the head. Light and noise often make it worse.",
+  "forms": [
+   {
+    "da": "en migræne",
+    "en": "a migraine"
+   },
+   {
+    "da": "migrænen",
+    "en": "the migraine"
+   },
+   {
+    "da": "migræner",
+    "en": "migraines"
+   },
+   {
+    "da": "migrænerne",
+    "en": "the migraines"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hovedpine",
+    "en": "a headache"
+   },
+   {
+    "da": "et anfald",
+    "en": "an attack"
+   },
+   {
+    "da": "kvalme",
+    "en": "nausea"
+   },
+   {
+    "da": "et smertestillende middel",
+    "en": "a painkiller"
+   }
+  ],
+  "sentence": {
+   "da": "Når jeg har **migræne**, kan jeg ikke tåle lys.",
+   "en": "When I have a migraine, I cannot stand light."
   }
  },
  "en mikrobølgeovn": {
@@ -2295,6 +4791,84 @@
    "en": "The food gets hot fast in a microwave."
   }
  },
+ "en mil": {
+  "explanation": "\"En mil\" means \"a (Danish) mile\", a measure of length equal to 10 km, far longer than an English mile. The plural is also mil: tre mil (three mil). It also lives on in the saying på mils afstand (from far away).",
+  "forms": [
+   {
+    "da": "en mil",
+    "en": "a Danish mile"
+   },
+   {
+    "da": "milen",
+    "en": "the Danish mile"
+   },
+   {
+    "da": "mil",
+    "en": "Danish miles"
+   },
+   {
+    "da": "milene",
+    "en": "the Danish miles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kilometer",
+    "en": "a kilometer"
+   },
+   {
+    "da": "en meter",
+    "en": "a meter"
+   },
+   {
+    "da": "en tomme",
+    "en": "an inch"
+   }
+  ],
+  "sentence": {
+   "da": "En **mil** er ti kilometer.",
+   "en": "A mil is ten kilometers."
+  }
+ },
+ "en milepæl": {
+  "explanation": "\"En milepæl\" means \"a milestone\". It is a marker by a road that shows how far you have come, and also an important step forward in a project or in life.",
+  "forms": [
+   {
+    "da": "en milepæl",
+    "en": "a milestone"
+   },
+   {
+    "da": "milepælen",
+    "en": "the milestone"
+   },
+   {
+    "da": "milepæle",
+    "en": "milestones"
+   },
+   {
+    "da": "milepælene",
+    "en": "the milestones"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mål",
+    "en": "a goal"
+   },
+   {
+    "da": "et vendepunkt",
+    "en": "a turning point"
+   },
+   {
+    "da": "en begivenhed",
+    "en": "an event"
+   }
+  ],
+  "sentence": {
+   "da": "Vores første salg var en **milepæl** for firmaet.",
+   "en": "Our first sale was a milestone for the company."
+  }
+ },
  "en milkshake": {
   "explanation": "\"En milkshake\" means \"a milkshake\", a thick, sweet, cold drink.",
   "forms": [
@@ -2377,6 +4951,92 @@
    "en": "China has over a billion people."
   }
  },
+ "en mindehøjtidelighed": {
+  "explanation": "\"En mindehøjtidelighed\" means \"a memorial service\", a solemn ceremony to remember people who have died, often held on a set date. It is built from minde (memory) and højtidelighed (ceremony).",
+  "forms": [
+   {
+    "da": "en mindehøjtidelighed",
+    "en": "a memorial service"
+   },
+   {
+    "da": "mindehøjtideligheden",
+    "en": "the memorial service"
+   },
+   {
+    "da": "mindehøjtideligheder",
+    "en": "memorial services"
+   },
+   {
+    "da": "mindehøjtidelighederne",
+    "en": "the memorial services"
+   }
+  ],
+  "related": [
+   {
+    "da": "en begravelse",
+    "en": "a funeral"
+   },
+   {
+    "da": "en mindestund",
+    "en": "a moment of remembrance"
+   },
+   {
+    "da": "en mindetale",
+    "en": "a tribute speech"
+   },
+   {
+    "da": "et mindesmærke",
+    "en": "a monument"
+   }
+  ],
+  "sentence": {
+   "da": "Efter krigen holdt byen en **mindehøjtidelighed** for de faldne.",
+   "en": "After the war the town held a memorial service for the fallen."
+  }
+ },
+ "en mine": {
+  "explanation": "\"En mine\" means \"a mine\", a place where coal or metal is dug out of the ground, or a bomb hidden in the ground. It is also a look on the face, such as a sour or happy one. Do not mix it up with mine (my), as in mine børn (my children).",
+  "forms": [
+   {
+    "da": "en mine",
+    "en": "a mine / a facial expression"
+   },
+   {
+    "da": "minen",
+    "en": "the mine / the expression"
+   },
+   {
+    "da": "miner",
+    "en": "mines / expressions"
+   },
+   {
+    "da": "minerne",
+    "en": "the mines / the expressions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en grube",
+    "en": "a pit"
+   },
+   {
+    "da": "et minefelt",
+    "en": "a minefield"
+   },
+   {
+    "da": "en grimasse",
+    "en": "a grimace"
+   },
+   {
+    "da": "et grin",
+    "en": "a grin"
+   }
+  ],
+  "sentence": {
+   "da": "Hun lavede en sur **mine**, da hun smagte på suppen.",
+   "en": "She made a sour face when she tasted the soup."
+  }
+ },
  "en minister": {
   "explanation": "\"En minister\" means \"a minister\", a member of the government who leads one area. Put the area first to name the job: sundhedsminister (health minister).",
   "forms": [
@@ -2414,6 +5074,45 @@
   "sentence": {
    "da": "Den nye **minister** vil bygge flere skoler.",
    "en": "The new minister wants to build more schools."
+  }
+ },
+ "en minoritet": {
+  "explanation": "\"En minoritet\" means \"a minority\", a smaller part of a group or a country, for example people with their own language or religion.",
+  "forms": [
+   {
+    "da": "en minoritet",
+    "en": "a minority"
+   },
+   {
+    "da": "minoriteten",
+    "en": "the minority"
+   },
+   {
+    "da": "minoriteter",
+    "en": "minorities"
+   },
+   {
+    "da": "minoriteterne",
+    "en": "the minorities"
+   }
+  ],
+  "related": [
+   {
+    "da": "et flertal",
+    "en": "a majority"
+   },
+   {
+    "da": "en befolkning",
+    "en": "a population"
+   },
+   {
+    "da": "et mindretal",
+    "en": "a smaller share"
+   }
+  ],
+  "sentence": {
+   "da": "Der bor en tysk **minoritet** i Sønderjylland.",
+   "en": "A German minority lives in South Jutland."
   }
  },
  "en misforståelse": {
@@ -2457,6 +5156,92 @@
   "sentence": {
    "da": "Undskyld, det var bare en **misforståelse**.",
    "en": "Sorry, it was just a misunderstanding."
+  }
+ },
+ "en mission": {
+  "explanation": "\"En mission\" means \"a mission\", an important task that someone is sent to carry out, for example by an army or a company. It can also be a goal someone feels they must reach: Hendes mission er at redde havet (Her mission is to save the ocean).",
+  "forms": [
+   {
+    "da": "en mission",
+    "en": "a mission"
+   },
+   {
+    "da": "missionen",
+    "en": "the mission"
+   },
+   {
+    "da": "missioner",
+    "en": "missions"
+   },
+   {
+    "da": "missionerne",
+    "en": "the missions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opgave",
+    "en": "an assignment"
+   },
+   {
+    "da": "et formål",
+    "en": "a purpose"
+   },
+   {
+    "da": "en missionær",
+    "en": "a missionary"
+   },
+   {
+    "da": "et ærinde",
+    "en": "an errand"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaterne fik en **mission** langt bag fjendens linjer.",
+   "en": "The soldiers got a mission far behind enemy lines."
+  }
+ },
+ "en mistanke": {
+  "explanation": "\"En mistanke\" means \"a suspicion\", a feeling that someone has done something wrong, without proof. It goes with om (about): at have mistanke om noget (to have a suspicion about something).",
+  "forms": [
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   },
+   {
+    "da": "mistanken",
+    "en": "the suspicion"
+   },
+   {
+    "da": "mistanker",
+    "en": "suspicions"
+   },
+   {
+    "da": "mistankerne",
+    "en": "the suspicions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mistænke",
+    "en": "to suspect"
+   },
+   {
+    "da": "en mistænkt",
+    "en": "a suspect"
+   },
+   {
+    "da": "et bevis",
+    "en": "a piece of evidence"
+   },
+   {
+    "da": "en anelse",
+    "en": "a hunch"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet har en **mistanke**, men endnu ikke noget bevis.",
+   "en": "The police have a suspicion, but no evidence yet."
   }
  },
  "en mobil": {
@@ -2580,6 +5365,291 @@
    "en": "My uncle is building a model of a ship."
   }
  },
+ "en modspiller": {
+  "explanation": "\"En modspiller\" means \"an opponent (in a game)\", the person you play against, for example in chess or tennis. It is only for games and sports. For an opponent in a fight or an argument, use en modstander.",
+  "forms": [
+   {
+    "da": "en modspiller",
+    "en": "an opponent (in a game)"
+   },
+   {
+    "da": "modspilleren",
+    "en": "the opponent (in a game)"
+   },
+   {
+    "da": "modspillere",
+    "en": "opponents (in a game)"
+   },
+   {
+    "da": "modspillerne",
+    "en": "the opponents (in a game)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en medspiller",
+    "en": "a teammate"
+   },
+   {
+    "da": "en spiller",
+    "en": "a player"
+   },
+   {
+    "da": "en rival",
+    "en": "a rival"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan ikke spille skak uden en **modspiller**.",
+   "en": "You cannot play chess without an opponent."
+  }
+ },
+ "en modstand": {
+  "explanation": "\"En modstand\" means \"a resistance\", a pushing back against a plan, a change or an attacker. In physics it is also the force that slows a movement, as in luftmodstand (air resistance).",
+  "forms": [
+   {
+    "da": "en modstand",
+    "en": "a resistance"
+   },
+   {
+    "da": "modstanden",
+    "en": "the resistance"
+   },
+   {
+    "da": "modstande",
+    "en": "resistances"
+   },
+   {
+    "da": "modstandene",
+    "en": "the resistances"
+   }
+  ],
+  "related": [
+   {
+    "da": "en modstander",
+    "en": "an opponent"
+   },
+   {
+    "da": "at modstå",
+    "en": "to withstand"
+   },
+   {
+    "da": "en protest",
+    "en": "a protest"
+   }
+  ],
+  "sentence": {
+   "da": "Planen mødte stor **modstand** blandt naboerne.",
+   "en": "The plan met great resistance among the neighbors."
+  }
+ },
+ "en modstander": {
+  "explanation": "\"En modstander\" means \"an opponent\", someone on the other side of a fight, an election, a match or an argument. It is wider than en modspiller, which is only for games.",
+  "forms": [
+   {
+    "da": "en modstander",
+    "en": "an opponent"
+   },
+   {
+    "da": "modstanderen",
+    "en": "the opponent"
+   },
+   {
+    "da": "modstandere",
+    "en": "opponents"
+   },
+   {
+    "da": "modstanderne",
+    "en": "the opponents"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rival",
+    "en": "a rival"
+   },
+   {
+    "da": "en fjende",
+    "en": "an enemy"
+   },
+   {
+    "da": "en tilhænger",
+    "en": "a supporter"
+   },
+   {
+    "da": "en allieret",
+    "en": "an ally"
+   }
+  ],
+  "sentence": {
+   "da": "Han er en stærk **modstander** af den nye lov.",
+   "en": "He is a strong opponent of the new law."
+  }
+ },
+ "en modsætning": {
+  "explanation": "\"En modsætning\" means \"an opposite / a contrast\", the way two things are completely different. The phrase i modsætning til (unlike) compares them: Jeg bliver hjemme, i modsætning til dig (I am staying home, unlike you).",
+  "forms": [
+   {
+    "da": "en modsætning",
+    "en": "an opposite / contrast"
+   },
+   {
+    "da": "modsætningen",
+    "en": "the opposite / contrast"
+   },
+   {
+    "da": "modsætninger",
+    "en": "opposites / contrasts"
+   },
+   {
+    "da": "modsætningerne",
+    "en": "the opposites / contrasts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forskel",
+    "en": "a difference"
+   },
+   {
+    "da": "det modsatte",
+    "en": "the reverse"
+   },
+   {
+    "da": "en lighed",
+    "en": "a similarity"
+   },
+   {
+    "da": "en uenighed",
+    "en": "a disagreement"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en stor **modsætning** mellem rig og fattig.",
+   "en": "There is a big contrast between rich and poor."
+  }
+ },
+ "en modtagelse": {
+  "explanation": "\"En modtagelse\" means \"a reception\". It is the act of getting something that arrives or of welcoming someone, and also how well a phone picks up a signal. At a hotel, the front desk is usually en reception.",
+  "forms": [
+   {
+    "da": "en modtagelse",
+    "en": "a reception"
+   },
+   {
+    "da": "modtagelsen",
+    "en": "the reception"
+   },
+   {
+    "da": "modtagelser",
+    "en": "receptions"
+   },
+   {
+    "da": "modtagelserne",
+    "en": "the receptions"
+   }
+  ],
+  "related": [
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   },
+   {
+    "da": "en modtager",
+    "en": "a recipient"
+   },
+   {
+    "da": "en afsender",
+    "en": "a sender"
+   }
+  ],
+  "sentence": {
+   "da": "Gæsterne fik en varm **modtagelse** af værten.",
+   "en": "The guests got a warm reception from the host."
+  }
+ },
+ "en modvilje": {
+  "explanation": "\"En modvilje\" means \"a reluctance\", a feeling of not wanting to do something. It is built from mod (against) and vilje (will). It is most often used as med modvilje (reluctantly).",
+  "forms": [
+   {
+    "da": "en modvilje",
+    "en": "a reluctance"
+   },
+   {
+    "da": "modviljen",
+    "en": "the reluctance"
+   },
+   {
+    "da": "føle modvilje",
+    "en": "to feel reluctance"
+   },
+   {
+    "da": "modvilje mod noget",
+    "en": "reluctance toward something"
+   }
+  ],
+  "related": [
+   {
+    "da": "en aversion",
+    "en": "an aversion"
+   },
+   {
+    "da": "en uvilje",
+    "en": "an unwillingness"
+   },
+   {
+    "da": "villig",
+    "en": "willing"
+   },
+   {
+    "da": "en afsky",
+    "en": "disgust"
+   }
+  ],
+  "sentence": {
+   "da": "Hun fortalte med **modvilje**, at hun måtte flytte.",
+   "en": "She said with reluctance that she had to move."
+  }
+ },
+ "en mole": {
+  "explanation": "\"En mole\" means \"a pier\", a long stone wall built out into the water to shelter a harbor from waves. People often walk out along it to look at the sea.",
+  "forms": [
+   {
+    "da": "en mole",
+    "en": "a pier"
+   },
+   {
+    "da": "molen",
+    "en": "the pier"
+   },
+   {
+    "da": "moler",
+    "en": "piers"
+   },
+   {
+    "da": "molerne",
+    "en": "the piers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bølgebryder",
+    "en": "a breakwater"
+   },
+   {
+    "da": "en kaj",
+    "en": "a quay"
+   },
+   {
+    "da": "en bådebro",
+    "en": "a boat dock"
+   }
+  ],
+  "sentence": {
+   "da": "Der står et fyrtårn for enden af en **mole**.",
+   "en": "There is a lighthouse at the end of a pier."
+  }
+ },
  "en moppe": {
   "explanation": "\"En moppe\" means \"a mop\", a stick with soft strings or a flat pad at the end that you use with water.",
   "forms": [
@@ -2660,6 +5730,45 @@
   "sentence": {
    "da": "Min **mor** er gift med min far.",
    "en": "My mother is married to my father."
+  }
+ },
+ "en moral": {
+  "explanation": "\"En moral\" means \"a moral / morale\". It is the shared sense of right and wrong, and also the mood of a team or a workplace: Moralen på holdet er høj (Team morale is high).",
+  "forms": [
+   {
+    "da": "en moral",
+    "en": "a moral / morale"
+   },
+   {
+    "da": "moralen",
+    "en": "the moral / morale"
+   },
+   {
+    "da": "moraler",
+    "en": "morals / morale"
+   },
+   {
+    "da": "moralerne",
+    "en": "the morals / morale"
+   }
+  ],
+  "related": [
+   {
+    "da": "en etik",
+    "en": "ethics"
+   },
+   {
+    "da": "en værdi",
+    "en": "a value"
+   },
+   {
+    "da": "et princip",
+    "en": "a principle"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **moral** siger, at man aldrig må stjæle.",
+   "en": "His morals say that you must never steal."
   }
  },
  "en morbror": {
@@ -2877,6 +5986,88 @@
    "en": "My morning coffee comes before breakfast."
   }
  },
+ "en morgenkåbe": {
+  "explanation": "\"En morgenkåbe\" means \"a robe\", a loose robe you wear at home in the morning, for example while you have breakfast.",
+  "forms": [
+   {
+    "da": "en morgenkåbe",
+    "en": "a robe"
+   },
+   {
+    "da": "morgenkåben",
+    "en": "the robe"
+   },
+   {
+    "da": "morgenkåber",
+    "en": "robes"
+   },
+   {
+    "da": "morgenkåberne",
+    "en": "the robes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en slåbrok",
+    "en": "a dressing gown"
+   },
+   {
+    "da": "en badekåbe",
+    "en": "a bathrobe"
+   },
+   {
+    "da": "en pyjamas",
+    "en": "pajamas"
+   },
+   {
+    "da": "en tøffel",
+    "en": "a slipper"
+   }
+  ],
+  "sentence": {
+   "da": "En **morgenkåbe** tager man på, før man klæder sig på.",
+   "en": "You put on a robe before you get dressed."
+  }
+ },
+ "en morgenmadsbuffet": {
+  "explanation": "\"En morgenmadsbuffet\" means \"a breakfast buffet\", a spread of many kinds of food where you help yourself and take as much as you want. It is common at hotels, where it is often included in the price of the room.",
+  "forms": [
+   {
+    "da": "en morgenmadsbuffet",
+    "en": "a breakfast buffet"
+   },
+   {
+    "da": "morgenmadsbuffeten",
+    "en": "the breakfast buffet"
+   },
+   {
+    "da": "morgenmadsbuffeter",
+    "en": "breakfast buffets"
+   },
+   {
+    "da": "morgenmadsbuffeterne",
+    "en": "the breakfast buffets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en frokostbuffet",
+    "en": "a lunch buffet"
+   },
+   {
+    "da": "en brunch",
+    "en": "a brunch"
+   },
+   {
+    "da": "en servering",
+    "en": "a serving"
+   }
+  ],
+  "sentence": {
+   "da": "Ved en **morgenmadsbuffet** tager man selv, hvad man vil have.",
+   "en": "At a breakfast buffet, you take whatever you want yourself."
+  }
+ },
  "en morgenrutine": {
   "explanation": "\"En morgenrutine\" means \"a morning routine\", the things you do every morning in the same order. It is built from morgen (morning) and rutine (routine). Watch the little word i: i morgen means tomorrow, not this morning.",
   "forms": [
@@ -2957,6 +6148,88 @@
   "sentence": {
    "da": "Min **mormor** er min mors mor.",
    "en": "My grandmother is my mother's mother."
+  }
+ },
+ "en mose": {
+  "explanation": "\"En mose\" means \"a bog\", wet, soft land with peat. Do not mix it up with mos (moss), the small green plant.",
+  "forms": [
+   {
+    "da": "en mose",
+    "en": "a bog"
+   },
+   {
+    "da": "mosen",
+    "en": "the bog"
+   },
+   {
+    "da": "moser",
+    "en": "bogs"
+   },
+   {
+    "da": "moserne",
+    "en": "the bogs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sump",
+    "en": "a swamp"
+   },
+   {
+    "da": "et kær",
+    "en": "a fen"
+   },
+   {
+    "da": "en eng",
+    "en": "a meadow"
+   },
+   {
+    "da": "et vandhul",
+    "en": "a pond"
+   }
+  ],
+  "sentence": {
+   "da": "Man kan synke i en **mose**, fordi jorden er våd og blød.",
+   "en": "You can sink in a bog because the ground is wet and soft."
+  }
+ },
+ "en moské": {
+  "explanation": "\"En moské\" means \"a mosque\", a building where Muslims come together to pray. It often has a tall tower called en minaret (a minaret).",
+  "forms": [
+   {
+    "da": "en moské",
+    "en": "a mosque"
+   },
+   {
+    "da": "moskeen",
+    "en": "the mosque"
+   },
+   {
+    "da": "moskeer",
+    "en": "mosques"
+   },
+   {
+    "da": "moskeerne",
+    "en": "the mosques"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kirke",
+    "en": "a church"
+   },
+   {
+    "da": "en synagoge",
+    "en": "a synagogue"
+   },
+   {
+    "da": "et tempel",
+    "en": "a temple"
+   }
+  ],
+  "sentence": {
+   "da": "Om fredagen mødes mange muslimer i en **moské**.",
+   "en": "On Fridays, many Muslims meet in a mosque."
   }
  },
  "en moster": {
@@ -3248,6 +6521,92 @@
    "en": "She pours the batter into a muffin tin."
   }
  },
+ "en muldvarp": {
+  "explanation": "\"En muldvarp\" means \"a mole\", the small animal that makes tunnels in the soil and pushes up small heaps of earth. It is also a person who secretly works for the other side from inside a group: Han var en muldvarp i firmaet (He was a mole in the company).",
+  "forms": [
+   {
+    "da": "en muldvarp",
+    "en": "a mole"
+   },
+   {
+    "da": "muldvarpen",
+    "en": "the mole"
+   },
+   {
+    "da": "muldvarpe",
+    "en": "moles"
+   },
+   {
+    "da": "muldvarpene",
+    "en": "the moles"
+   }
+  ],
+  "related": [
+   {
+    "da": "et muldvarpeskud",
+    "en": "a molehill"
+   },
+   {
+    "da": "en spion",
+    "en": "a spy"
+   },
+   {
+    "da": "at grave",
+    "en": "to dig"
+   },
+   {
+    "da": "et hul",
+    "en": "a hole"
+   }
+  ],
+  "sentence": {
+   "da": "En **muldvarp** bor under jorden og ser næsten ingenting.",
+   "en": "A mole lives under the ground and sees almost nothing."
+  }
+ },
+ "en mulepose": {
+  "explanation": "\"En mulepose\" means \"a tote bag\", a sturdy cloth bag with two handles for carrying groceries, made to be used again and again.",
+  "forms": [
+   {
+    "da": "en mulepose",
+    "en": "a tote bag"
+   },
+   {
+    "da": "muleposen",
+    "en": "the tote bag"
+   },
+   {
+    "da": "muleposer",
+    "en": "tote bags"
+   },
+   {
+    "da": "muleposerne",
+    "en": "the tote bags"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rygsæk",
+    "en": "a backpack"
+   },
+   {
+    "da": "en håndtaske",
+    "en": "a handbag"
+   },
+   {
+    "da": "et indkøbsnet",
+    "en": "a net shopping sack"
+   },
+   {
+    "da": "en indkøbskurv",
+    "en": "a shopping basket"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg lægger varerne i min **mulepose**, så jeg slipper for plastik.",
+   "en": "I put the groceries in my tote bag, so I avoid plastic."
+  }
+ },
  "en mulighed": {
   "explanation": "\"En mulighed\" means \"a possibility\", and also \"an opportunity\" or \"an option\": Det er en god mulighed (That is a good opportunity). Jeg har to muligheder (I have two options).",
   "forms": [
@@ -3326,6 +6685,49 @@
    "en": "I eat and talk with my mouth."
   }
  },
+ "en munk": {
+  "explanation": "\"En munk\" means \"a monk\", a man who has given up ordinary life to live by the rules of a religious community.",
+  "forms": [
+   {
+    "da": "en munk",
+    "en": "a monk"
+   },
+   {
+    "da": "munken",
+    "en": "the monk"
+   },
+   {
+    "da": "munke",
+    "en": "monks"
+   },
+   {
+    "da": "munkene",
+    "en": "the monks"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kloster",
+    "en": "a monastery"
+   },
+   {
+    "da": "en nonne",
+    "en": "a nun"
+   },
+   {
+    "da": "en præst",
+    "en": "a priest"
+   },
+   {
+    "da": "en biskop",
+    "en": "a bishop"
+   }
+  ],
+  "sentence": {
+   "da": "En **munk** bor i et kloster og beder hver dag.",
+   "en": "A monk lives in a monastery and prays every day."
+  }
+ },
  "en mur": {
   "explanation": "\"En mur\" means \"a wall\" outside, like around a garden or on a house. For a wall inside a room, use en væg (a wall).",
   "forms": [
@@ -3363,6 +6765,49 @@
   "sentence": {
    "da": "Byen har en gammel **mur** af sten.",
    "en": "The town has an old wall of stone."
+  }
+ },
+ "en murer": {
+  "explanation": "\"En murer\" means \"a bricklayer\", a skilled worker who builds walls of brick or stone. The word is built on en mur (a wall).",
+  "forms": [
+   {
+    "da": "en murer",
+    "en": "a bricklayer"
+   },
+   {
+    "da": "mureren",
+    "en": "the bricklayer"
+   },
+   {
+    "da": "murere",
+    "en": "bricklayers"
+   },
+   {
+    "da": "murerne",
+    "en": "the bricklayers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tømrer",
+    "en": "a carpenter"
+   },
+   {
+    "da": "en maler",
+    "en": "a painter"
+   },
+   {
+    "da": "en elektriker",
+    "en": "an electrician"
+   },
+   {
+    "da": "en håndværker",
+    "en": "a craftsman"
+   }
+  ],
+  "sentence": {
+   "da": "En **murer** lægger sten på sten, indtil væggen er færdig.",
+   "en": "A bricklayer lays stone on stone until the wall is finished."
   }
  },
  "en mursten": {
@@ -3607,6 +7052,45 @@
    "en": "She opens a mussel and finds a pearl."
   }
  },
+ "en muslingeskal": {
+  "explanation": "\"En muslingeskal\" means \"a seashell\", the hard two-part shell of a clam or mussel, often found on the shore. A spiral shell is en snegleskal (a snail shell) instead.",
+  "forms": [
+   {
+    "da": "en muslingeskal",
+    "en": "a seashell"
+   },
+   {
+    "da": "muslingeskallen",
+    "en": "the seashell"
+   },
+   {
+    "da": "muslingeskaller",
+    "en": "seashells"
+   },
+   {
+    "da": "muslingeskallerne",
+    "en": "the seashells"
+   }
+  ],
+  "related": [
+   {
+    "da": "en østers",
+    "en": "an oyster"
+   },
+   {
+    "da": "en kammusling",
+    "en": "a scallop"
+   },
+   {
+    "da": "en konkylie",
+    "en": "a conch"
+   }
+  ],
+  "sentence": {
+   "da": "En **muslingeskal** beskytter dyret, der bor inde i den.",
+   "en": "A seashell protects the animal that lives inside it."
+  }
+ },
  "en myg": {
   "explanation": "\"En myg\" means \"a mosquito\", a small flying insect that bites people and is common near water in summer. A fly that lands on food is en flue (a fly).",
   "forms": [
@@ -3650,6 +7134,45 @@
    "en": "A mosquito bit me on the arm last night."
   }
  },
+ "en myndighed": {
+  "explanation": "\"En myndighed\" means \"an authority\", an official body that makes or enforces rules for the state, such as the police or a city office. The plural myndighederne (the authorities) covers the whole system of public offices.",
+  "forms": [
+   {
+    "da": "en myndighed",
+    "en": "an authority"
+   },
+   {
+    "da": "myndigheden",
+    "en": "the authority"
+   },
+   {
+    "da": "myndigheder",
+    "en": "authorities"
+   },
+   {
+    "da": "myndighederne",
+    "en": "the authorities"
+   }
+  ],
+  "related": [
+   {
+    "da": "en regering",
+    "en": "a government"
+   },
+   {
+    "da": "en styrelse",
+    "en": "an agency"
+   },
+   {
+    "da": "et ministerium",
+    "en": "a ministry"
+   }
+  ],
+  "sentence": {
+   "da": "Skattevæsenet er en **myndighed**, som opkræver skat.",
+   "en": "The tax office is an authority that collects tax."
+  }
+ },
  "en myre": {
   "explanation": "\"En myre\" means \"an ant\", a tiny insect that lives in large groups and works together.",
   "forms": [
@@ -3691,6 +7214,88 @@
   "sentence": {
    "da": "En **myre** er lille og bærer mad hjem.",
    "en": "An ant is small and carries food home."
+  }
+ },
+ "en myretue": {
+  "explanation": "\"En myretue\" means \"an anthill\", a mound made of soil and small pieces of plants where a colony of ants lives. It is built from en myre (an ant) and en tue (a small mound).",
+  "forms": [
+   {
+    "da": "en myretue",
+    "en": "an anthill"
+   },
+   {
+    "da": "myretuen",
+    "en": "the anthill"
+   },
+   {
+    "da": "myretuer",
+    "en": "anthills"
+   },
+   {
+    "da": "myretuerne",
+    "en": "the anthills"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bikube",
+    "en": "a beehive"
+   },
+   {
+    "da": "et hvepsebo",
+    "en": "a wasp nest"
+   },
+   {
+    "da": "et fuglerede",
+    "en": "a bird's nest"
+   }
+  ],
+  "sentence": {
+   "da": "Tusindvis af myrer bor i en **myretue**.",
+   "en": "Thousands of ants live in an anthill."
+  }
+ },
+ "en myte": {
+  "explanation": "\"En myte\" means \"a myth\", an old story about gods and heroes that people told to explain the world. It also means a common belief that is not true: Det er en myte, at man kun bruger ti procent af hjernen (It is a myth that people only use ten percent of the brain).",
+  "forms": [
+   {
+    "da": "en myte",
+    "en": "a myth"
+   },
+   {
+    "da": "myten",
+    "en": "the myth"
+   },
+   {
+    "da": "myter",
+    "en": "myths"
+   },
+   {
+    "da": "myterne",
+    "en": "the myths"
+   }
+  ],
+  "related": [
+   {
+    "da": "en legende",
+    "en": "a legend"
+   },
+   {
+    "da": "et sagn",
+    "en": "a folk tale"
+   },
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale"
+   },
+   {
+    "da": "en misforståelse",
+    "en": "a misunderstanding"
+   }
+  ],
+  "sentence": {
+   "da": "Fortællingen om Thor og hans hammer er en gammel **myte**.",
+   "en": "The tale of Thor and his hammer is an old myth."
   }
  },
  "en måde": {
@@ -3773,6 +7378,131 @@
   "sentence": {
    "da": "En **måge** flyver over havet og leder efter fisk.",
    "en": "A seagull flies over the sea looking for fish."
+  }
+ },
+ "en måler": {
+  "explanation": "\"En måler\" means \"a meter / gauge\", an instrument that shows how much of something there is or how much you have used, such as electricity or water at home.",
+  "forms": [
+   {
+    "da": "en måler",
+    "en": "a meter / gauge"
+   },
+   {
+    "da": "måleren",
+    "en": "the meter / gauge"
+   },
+   {
+    "da": "målere",
+    "en": "meters / gauges"
+   },
+   {
+    "da": "målerne",
+    "en": "the meters / gauges"
+   }
+  ],
+  "related": [
+   {
+    "da": "at måle",
+    "en": "to measure"
+   },
+   {
+    "da": "et termometer",
+    "en": "a thermometer"
+   },
+   {
+    "da": "en vægt",
+    "en": "a scale"
+   }
+  ],
+  "sentence": {
+   "da": "En **måler** viser, hvor meget strøm vi bruger hjemme.",
+   "en": "A meter shows how much electricity we use at home."
+  }
+ },
+ "en målgruppe": {
+  "explanation": "\"En målgruppe\" means \"a target group\", the kind of people that a product, an ad or a program is made for, described by things like age or interests.",
+  "forms": [
+   {
+    "da": "en målgruppe",
+    "en": "a target group"
+   },
+   {
+    "da": "målgruppen",
+    "en": "the target group"
+   },
+   {
+    "da": "målgrupper",
+    "en": "target groups"
+   },
+   {
+    "da": "målgrupperne",
+    "en": "the target groups"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kunde",
+    "en": "a customer"
+   },
+   {
+    "da": "en forbruger",
+    "en": "a consumer"
+   },
+   {
+    "da": "et marked",
+    "en": "a market"
+   },
+   {
+    "da": "et publikum",
+    "en": "an audience"
+   }
+  ],
+  "sentence": {
+   "da": "Børnebøger har børn og forældre som **målgruppe**.",
+   "en": "Children's books have children and parents as the target group."
+  }
+ },
+ "en måling": {
+  "explanation": "\"En måling\" means \"a measurement\", the act of finding the size or amount of something, and the number you get. In the news, en måling on its own often means an opinion poll. Do not mix it up with maling (paint), which is spelled with a plain a, not å.",
+  "forms": [
+   {
+    "da": "en måling",
+    "en": "a measurement"
+   },
+   {
+    "da": "målingen",
+    "en": "the measurement"
+   },
+   {
+    "da": "målinger",
+    "en": "measurements"
+   },
+   {
+    "da": "målingerne",
+    "en": "the measurements"
+   }
+  ],
+  "related": [
+   {
+    "da": "at måle",
+    "en": "to measure"
+   },
+   {
+    "da": "en målestok",
+    "en": "a scale"
+   },
+   {
+    "da": "et måleinstrument",
+    "en": "a measuring instrument"
+   },
+   {
+    "da": "et resultat",
+    "en": "a result"
+   }
+  ],
+  "sentence": {
+   "da": "En **måling** af rummet viste, at det er fire meter langt.",
+   "en": "A measurement of the room showed that it is four meters long."
   }
  },
  "en målmand": {
@@ -3900,6 +7630,88 @@
    "en": "There are about thirty days in a month."
   }
  },
+ "en mår": {
+  "explanation": "\"En mår\" means \"a marten\", a slim, quick animal with soft fur that hunts small animals and climbs trees. Two kinds live in Denmark: skovmår (pine marten) in forests and husmår (stone marten) near houses.",
+  "forms": [
+   {
+    "da": "en mår",
+    "en": "a marten"
+   },
+   {
+    "da": "måren",
+    "en": "the marten"
+   },
+   {
+    "da": "mårer",
+    "en": "martens"
+   },
+   {
+    "da": "mårerne",
+    "en": "the martens"
+   }
+  ],
+  "related": [
+   {
+    "da": "et væsel",
+    "en": "a weasel"
+   },
+   {
+    "da": "en ilder",
+    "en": "a polecat"
+   },
+   {
+    "da": "en odder",
+    "en": "an otter"
+   },
+   {
+    "da": "en mink",
+    "en": "a mink"
+   }
+  ],
+  "sentence": {
+   "da": "En **mår** er et slankt rovdyr og klatrer godt.",
+   "en": "A marten is a slim predator and climbs well."
+  }
+ },
+ "en mælkebøtte": {
+  "explanation": "\"En mælkebøtte\" means \"a dandelion\", a common yellow wildflower in grass. Its stem has a white, milky juice, and mælk (milk) is the first part of the name.",
+  "forms": [
+   {
+    "da": "en mælkebøtte",
+    "en": "a dandelion"
+   },
+   {
+    "da": "mælkebøtten",
+    "en": "the dandelion"
+   },
+   {
+    "da": "mælkebøtter",
+    "en": "dandelions"
+   },
+   {
+    "da": "mælkebøtterne",
+    "en": "the dandelions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tusindfryd",
+    "en": "a daisy"
+   },
+   {
+    "da": "en kløver",
+    "en": "a clover"
+   },
+   {
+    "da": "en smørblomst",
+    "en": "a buttercup"
+   }
+  ],
+  "sentence": {
+   "da": "En **mælkebøtte** er gul, men bliver senere hvid og luftig.",
+   "en": "A dandelion is yellow, but later becomes white and fluffy."
+  }
+ },
  "en mængde": {
   "explanation": "\"En mængde\" means \"an amount\", how much of something there is: en stor mængde vand (a large amount of water). For things you can count, use et antal (a number): et antal bøger (a number of books).",
   "forms": [
@@ -3941,6 +7753,45 @@
   "sentence": {
    "da": "Du skal bruge en lille **mængde** salt.",
    "en": "You need a small amount of salt."
+  }
+ },
+ "en møbelforretning": {
+  "explanation": "\"En møbelforretning\" means \"a furniture store\", a place that sells furniture for the home. Forretning also means a business deal: at gøre en god forretning (to make a good deal).",
+  "forms": [
+   {
+    "da": "en møbelforretning",
+    "en": "a furniture store"
+   },
+   {
+    "da": "møbelforretningen",
+    "en": "the furniture store"
+   },
+   {
+    "da": "møbelforretninger",
+    "en": "furniture stores"
+   },
+   {
+    "da": "møbelforretningerne",
+    "en": "the furniture stores"
+   }
+  ],
+  "related": [
+   {
+    "da": "en butik",
+    "en": "a shop"
+   },
+   {
+    "da": "et indkøbscenter",
+    "en": "a shopping mall"
+   },
+   {
+    "da": "en ekspedient",
+    "en": "a shop assistant"
+   }
+  ],
+  "sentence": {
+   "da": "I en **møbelforretning** kan man købe sofaer og borde.",
+   "en": "In a furniture store you can buy sofas and tables."
   }
  },
  "en mølle": {
@@ -4025,6 +7876,49 @@
    "en": "A coin is round and made of metal."
   }
  },
+ "et madbud": {
+  "explanation": "\"Et madbud\" means \"a food delivery person\", someone who brings meals from restaurants to customers. Bud alone means \"messenger\".",
+  "forms": [
+   {
+    "da": "et madbud",
+    "en": "a food delivery person"
+   },
+   {
+    "da": "madbuddet",
+    "en": "the food delivery person"
+   },
+   {
+    "da": "madbud",
+    "en": "food delivery people"
+   },
+   {
+    "da": "madbuddene",
+    "en": "the food delivery people"
+   }
+  ],
+  "related": [
+   {
+    "da": "en cykelbud",
+    "en": "a bike courier"
+   },
+   {
+    "da": "en pizzabud",
+    "en": "a pizza delivery person"
+   },
+   {
+    "da": "en levering",
+    "en": "a delivery"
+   },
+   {
+    "da": "en budtjeneste",
+    "en": "a delivery service"
+   }
+  ],
+  "sentence": {
+   "da": "Et **madbud** kommer med maden hjem til døren.",
+   "en": "A food delivery person brings the food home to the door."
+  }
+ },
  "et magasin": {
   "explanation": "\"Et magasin\" means \"a magazine\", with articles and photos. In everyday speech, Danes often say et blad (a magazine) instead.",
   "forms": [
@@ -4105,6 +7999,92 @@
   "sentence": {
    "da": "Der hænger et flot **maleri** over sofaen.",
    "en": "A beautiful painting hangs over the sofa."
+  }
+ },
+ "et mandskab": {
+  "explanation": "\"Et mandskab\" means \"a crew\", the people who work together on a ship, a plane or a rescue operation. It is used for the group as a whole, not for one person.",
+  "forms": [
+   {
+    "da": "et mandskab",
+    "en": "a crew"
+   },
+   {
+    "da": "mandskabet",
+    "en": "the crew"
+   },
+   {
+    "da": "mandskaber",
+    "en": "crews"
+   },
+   {
+    "da": "mandskaberne",
+    "en": "the crews"
+   }
+  ],
+  "related": [
+   {
+    "da": "en matros",
+    "en": "a sailor"
+   },
+   {
+    "da": "en kaptajn",
+    "en": "a captain"
+   },
+   {
+    "da": "et hold",
+    "en": "a team"
+   },
+   {
+    "da": "en styrmand",
+    "en": "a first mate"
+   }
+  ],
+  "sentence": {
+   "da": "Skibet har et **mandskab** på tyve personer.",
+   "en": "The ship has a crew of twenty people."
+  }
+ },
+ "et manuskript": {
+  "explanation": "\"Et manuskript\" means \"a manuscript\" and also \"a script\", the written text of a film, a play or a speech, before it is finished or performed.",
+  "forms": [
+   {
+    "da": "et manuskript",
+    "en": "a manuscript / script"
+   },
+   {
+    "da": "manuskriptet",
+    "en": "the manuscript / script"
+   },
+   {
+    "da": "manuskripter",
+    "en": "manuscripts / scripts"
+   },
+   {
+    "da": "manuskripterne",
+    "en": "the manuscripts / scripts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et udkast",
+    "en": "a draft"
+   },
+   {
+    "da": "en drejebog",
+    "en": "a screenplay"
+   },
+   {
+    "da": "en forfatter",
+    "en": "an author"
+   },
+   {
+    "da": "en replik",
+    "en": "a line of dialogue"
+   }
+  ],
+  "sentence": {
+   "da": "Skuespillerne har lært deres **manuskript** udenad før premieren.",
+   "en": "The actors have learned their script by heart before the premiere."
   }
  },
  "et maraton": {
@@ -4224,6 +8204,49 @@
    "en": "We buy fruit and vegetables at a market."
   }
  },
+ "et marsvin": {
+  "explanation": "\"Et marsvin\" means \"a guinea pig\", the small furry pet, and also \"a porpoise\", a small sea mammal. The situation shows which one is meant.",
+  "forms": [
+   {
+    "da": "et marsvin",
+    "en": "a guinea pig / porpoise"
+   },
+   {
+    "da": "marsvinet",
+    "en": "the guinea pig / porpoise"
+   },
+   {
+    "da": "marsvin",
+    "en": "guinea pigs / porpoises"
+   },
+   {
+    "da": "marsvinene",
+    "en": "the guinea pigs / porpoises"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hamster",
+    "en": "a hamster"
+   },
+   {
+    "da": "en kanin",
+    "en": "a rabbit"
+   },
+   {
+    "da": "en hval",
+    "en": "a whale"
+   },
+   {
+    "da": "en delfin",
+    "en": "a dolphin"
+   }
+  ],
+  "sentence": {
+   "da": "Vores **marsvin** elsker gulerødder og bor i et bur.",
+   "en": "Our guinea pig loves carrots and lives in a cage."
+  }
+ },
  "et materiale": {
   "explanation": "\"Et materiale\" means \"a material\", what something is made of. It can also mean information or study material: Jeg læser materialet (I read the material).",
   "forms": [
@@ -4302,6 +8325,45 @@
    "en": "The pills are in a small medicine cabinet in the bathroom."
   }
  },
+ "et medie": {
+  "explanation": "\"Et medie\" means \"a medium\", a way of sharing news or information, such as newspapers, TV or the internet. Danes mostly use the plural: medierne (the media) report on events.",
+  "forms": [
+   {
+    "da": "et medie",
+    "en": "a medium (media outlet)"
+   },
+   {
+    "da": "mediet",
+    "en": "the medium"
+   },
+   {
+    "da": "medier",
+    "en": "media"
+   },
+   {
+    "da": "medierne",
+    "en": "the media"
+   }
+  ],
+  "related": [
+   {
+    "da": "pressen",
+    "en": "the press"
+   },
+   {
+    "da": "en journalist",
+    "en": "a journalist"
+   },
+   {
+    "da": "en redaktion",
+    "en": "an editorial office"
+   }
+  ],
+  "sentence": {
+   "da": "Radioen er et **medie**, som formidler nyheder og musik.",
+   "en": "The radio is a medium that spreads news and music."
+  }
+ },
  "et medlem": {
   "explanation": "\"Et medlem\" means \"a member\" of a group, club or team: Hun er medlem af en klub (She is a member of a club). Add af (of) to say which group.",
   "forms": [
@@ -4339,6 +8401,49 @@
   "sentence": {
    "da": "Min bror er **medlem** af en fodboldklub.",
    "en": "My brother is a member of a soccer club."
+  }
+ },
+ "et medlemskab": {
+  "explanation": "\"Et medlemskab\" means \"a membership\", being a member of a club, a gym or a group. The ending -skab turns a word into a state or a relationship, as in et venskab (a friendship).",
+  "forms": [
+   {
+    "da": "et medlemskab",
+    "en": "a membership"
+   },
+   {
+    "da": "medlemskabet",
+    "en": "the membership"
+   },
+   {
+    "da": "medlemskaber",
+    "en": "memberships"
+   },
+   {
+    "da": "medlemskaberne",
+    "en": "the memberships"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kontingent",
+    "en": "dues"
+   },
+   {
+    "da": "en forening",
+    "en": "an association"
+   },
+   {
+    "da": "et abonnement",
+    "en": "a subscription"
+   },
+   {
+    "da": "en tilmelding",
+    "en": "a sign-up"
+   }
+  ],
+  "sentence": {
+   "da": "Et **medlemskab** i klubben koster hundrede kroner om måneden.",
+   "en": "A membership in the club costs a hundred kroner a month."
   }
  },
  "et mellemnavn": {
@@ -4458,6 +8563,49 @@
    "en": "We look at a menu in the restaurant."
   }
  },
+ "et mesterskab": {
+  "explanation": "\"Et mesterskab\" means \"a championship\", a competition to find the best. Short forms are DM (Danish championship), EM (European) and VM (World). The ending -skab is the same as in et medlemskab (a membership).",
+  "forms": [
+   {
+    "da": "et mesterskab",
+    "en": "a championship"
+   },
+   {
+    "da": "mesterskabet",
+    "en": "the championship"
+   },
+   {
+    "da": "mesterskaber",
+    "en": "championships"
+   },
+   {
+    "da": "mesterskaberne",
+    "en": "the championships"
+   }
+  ],
+  "related": [
+   {
+    "da": "en turnering",
+    "en": "a tournament"
+   },
+   {
+    "da": "en finale",
+    "en": "a final"
+   },
+   {
+    "da": "en pokal",
+    "en": "a trophy"
+   },
+   {
+    "da": "en sejr",
+    "en": "a victory"
+   }
+  ],
+  "sentence": {
+   "da": "Vinderen af et **mesterskab** får en guldmedalje.",
+   "en": "The winner of a championship gets a gold medal."
+  }
+ },
  "et metal": {
   "explanation": "\"Et metal\" means \"a metal\", such as gold. It is also the name of a loud music style: Jeg hører metal (I listen to metal).",
   "forms": [
@@ -4501,6 +8649,260 @@
    "en": "Aluminum is a light metal."
   }
  },
+ "et middagsselskab": {
+  "explanation": "\"Et middagsselskab\" means \"a dinner party\", an evening where people are invited to eat a meal together, often at home. Selskab alone means \"company\", for guests or for a business: et forsikringsselskab (an insurance company).",
+  "forms": [
+   {
+    "da": "et middagsselskab",
+    "en": "a dinner party"
+   },
+   {
+    "da": "middagsselskabet",
+    "en": "the dinner party"
+   },
+   {
+    "da": "middagsselskaber",
+    "en": "dinner parties"
+   },
+   {
+    "da": "middagsselskaberne",
+    "en": "the dinner parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fest",
+    "en": "a celebration"
+   },
+   {
+    "da": "et gæstebud",
+    "en": "a banquet"
+   },
+   {
+    "da": "et bryllupsselskab",
+    "en": "a wedding reception"
+   },
+   {
+    "da": "en komsammen",
+    "en": "a get-together"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har inviteret venner til et **middagsselskab** på lørdag.",
+   "en": "We have invited friends to a dinner party on Saturday."
+  }
+ },
+ "et middel": {
+  "explanation": "\"Et middel\" means \"a means\", a way of reaching a goal, and also \"a remedy\", a product that helps against something: et middel mod (a remedy for). The plural midler also means \"funds\", as in offentlige midler (public funds).",
+  "forms": [
+   {
+    "da": "et middel",
+    "en": "a means / remedy"
+   },
+   {
+    "da": "midlet",
+    "en": "the means / remedy"
+   },
+   {
+    "da": "midler",
+    "en": "means / remedies"
+   },
+   {
+    "da": "midlerne",
+    "en": "the means / remedies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en metode",
+    "en": "a method"
+   },
+   {
+    "da": "en løsning",
+    "en": "a solution"
+   },
+   {
+    "da": "en medicin",
+    "en": "a medicine"
+   },
+   {
+    "da": "en kur",
+    "en": "a cure"
+   }
+  ],
+  "sentence": {
+   "da": "Motion er et godt **middel** mod stress.",
+   "en": "Exercise is a good remedy for stress."
+  }
+ },
+ "et militær": {
+  "explanation": "\"Et militær\" means \"a military\", a country's armed forces. Militær also describes things: et militært køretøj (a military vehicle).",
+  "forms": [
+   {
+    "da": "et militær",
+    "en": "a military"
+   },
+   {
+    "da": "militæret",
+    "en": "the military"
+   },
+   {
+    "da": "i militæret",
+    "en": "in the military"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hær",
+    "en": "an army"
+   },
+   {
+    "da": "et forsvar",
+    "en": "a defense"
+   },
+   {
+    "da": "en flåde",
+    "en": "a navy"
+   },
+   {
+    "da": "en værnepligt",
+    "en": "conscription"
+   }
+  ],
+  "sentence": {
+   "da": "Landets **militær** har både soldater og skibe.",
+   "en": "The country's military has both soldiers and ships."
+  }
+ },
+ "et miljø": {
+  "explanation": "\"Et miljø\" means \"an environment\", the air, water and land around us, and also the surroundings people live or work in: et godt arbejdsmiljø (a good work environment).",
+  "forms": [
+   {
+    "da": "et miljø",
+    "en": "an environment"
+   },
+   {
+    "da": "miljøet",
+    "en": "the environment"
+   },
+   {
+    "da": "miljøer",
+    "en": "environments"
+   },
+   {
+    "da": "miljøerne",
+    "en": "the environments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en natur",
+    "en": "nature"
+   },
+   {
+    "da": "en forurening",
+    "en": "pollution"
+   },
+   {
+    "da": "et klima",
+    "en": "a climate"
+   },
+   {
+    "da": "et økosystem",
+    "en": "an ecosystem"
+   }
+  ],
+  "sentence": {
+   "da": "Plastik i havet er dårligt for vores **miljø**.",
+   "en": "Plastic in the sea is bad for our environment."
+  }
+ },
+ "et mindretal": {
+  "explanation": "\"Et mindretal\" means \"a minority\", the smaller part of a group, fewer than half of the people or of the seats. It is used in politics and for any group that is outnumbered.",
+  "forms": [
+   {
+    "da": "et mindretal",
+    "en": "a minority"
+   },
+   {
+    "da": "mindretallet",
+    "en": "the minority"
+   },
+   {
+    "da": "mindretal",
+    "en": "minorities"
+   },
+   {
+    "da": "mindretallene",
+    "en": "the minorities"
+   }
+  ],
+  "related": [
+   {
+    "da": "et flertal",
+    "en": "a majority"
+   },
+   {
+    "da": "et fåtal",
+    "en": "a small number"
+   },
+   {
+    "da": "en afstemning",
+    "en": "a vote"
+   },
+   {
+    "da": "en opposition",
+    "en": "an opposition"
+   }
+  ],
+  "sentence": {
+   "da": "Kun et **mindretal** stemte for forslaget, så det faldt.",
+   "en": "Only a minority voted for the proposal, so it failed."
+  }
+ },
+ "et ministerium": {
+  "explanation": "\"Et ministerium\" means \"a ministry\", a part of the government headed by a minister. In names it is joined to the topic: Finansministeriet (the Ministry of Finance).",
+  "forms": [
+   {
+    "da": "et ministerium",
+    "en": "a ministry"
+   },
+   {
+    "da": "ministeriet",
+    "en": "the ministry"
+   },
+   {
+    "da": "ministerier",
+    "en": "ministries"
+   },
+   {
+    "da": "ministerierne",
+    "en": "the ministries"
+   }
+  ],
+  "related": [
+   {
+    "da": "et departement",
+    "en": "a department"
+   },
+   {
+    "da": "en statsminister",
+    "en": "a prime minister"
+   },
+   {
+    "da": "Folketinget",
+    "en": "the Danish parliament"
+   },
+   {
+    "da": "en styrelse",
+    "en": "an agency"
+   }
+  ],
+  "sentence": {
+   "da": "Skatteministeriet er et **ministerium**, der styrer skatten i landet.",
+   "en": "The Ministry of Taxation is a ministry that manages taxes in the country."
+  }
+ },
  "et minut": {
   "explanation": "\"Et minut\" means \"a minute\". To ask someone to wait, you can say Vent et øjeblik (wait a moment) or Vent et minut (wait a minute).",
   "forms": [
@@ -4538,6 +8940,49 @@
   "sentence": {
    "da": "Et **minut** er tres sekunder.",
    "en": "A minute is sixty seconds."
+  }
+ },
+ "et mirakel": {
+  "explanation": "\"Et mirakel\" means \"a miracle\", an event so unlikely that it seems impossible, and in religion an act of God that breaks the laws of nature.",
+  "forms": [
+   {
+    "da": "et mirakel",
+    "en": "a miracle"
+   },
+   {
+    "da": "miraklet",
+    "en": "the miracle"
+   },
+   {
+    "da": "mirakler",
+    "en": "miracles"
+   },
+   {
+    "da": "miraklerne",
+    "en": "the miracles"
+   }
+  ],
+  "related": [
+   {
+    "da": "et under",
+    "en": "a wonder"
+   },
+   {
+    "da": "en tilfældighed",
+    "en": "a coincidence"
+   },
+   {
+    "da": "et vidunder",
+    "en": "a marvel"
+   },
+   {
+    "da": "en velsignelse",
+    "en": "a blessing"
+   }
+  ],
+  "sentence": {
+   "da": "Det er et **mirakel**, at han overlevede ulykken uden skader.",
+   "en": "It is a miracle that he survived the accident without injuries."
   }
  },
  "et missil": {
@@ -4581,6 +9026,217 @@
   "sentence": {
    "da": "Et **missil** ramte en bygning i nat.",
    "en": "A missile hit a building last night."
+  }
+ },
+ "et modermærke": {
+  "explanation": "\"Et modermærke\" means \"a mole\", a small dark spot on the skin that you are born with or get over time. It is not the animal, which is en muldvarp.",
+  "forms": [
+   {
+    "da": "et modermærke",
+    "en": "a mole"
+   },
+   {
+    "da": "modermærket",
+    "en": "the mole"
+   },
+   {
+    "da": "modermærker",
+    "en": "moles"
+   },
+   {
+    "da": "modermærkerne",
+    "en": "the moles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fregne",
+    "en": "a freckle"
+   },
+   {
+    "da": "en føflek",
+    "en": "a mole (another word)"
+   },
+   {
+    "da": "en vorte",
+    "en": "a wart"
+   },
+   {
+    "da": "en pig",
+    "en": "a pimple"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen kigger på det mørke **modermærke** på min ryg.",
+   "en": "The doctor looks at the dark mole on my back."
+  }
+ },
+ "et modersmål": {
+  "explanation": "\"Et modersmål\" means \"a mother tongue\", the speech you learned first as a child. Mål is an old word for speech.",
+  "forms": [
+   {
+    "da": "et modersmål",
+    "en": "a mother tongue"
+   },
+   {
+    "da": "modersmålet",
+    "en": "the mother tongue"
+   },
+   {
+    "da": "modersmål",
+    "en": "mother tongues"
+   },
+   {
+    "da": "modersmålene",
+    "en": "the mother tongues"
+   }
+  ],
+  "related": [
+   {
+    "da": "et sprog",
+    "en": "a language"
+   },
+   {
+    "da": "et fremmedsprog",
+    "en": "a foreign language"
+   },
+   {
+    "da": "et andetsprog",
+    "en": "a second language"
+   },
+   {
+    "da": "en dialekt",
+    "en": "a dialect"
+   }
+  ],
+  "sentence": {
+   "da": "Mit **modersmål** er engelsk, men jeg lærer dansk.",
+   "en": "My mother tongue is English, but I am learning Danish."
+  }
+ },
+ "et modeshow": {
+  "explanation": "\"Et modeshow\" means \"a fashion show\", an event where models walk and show new clothes. Mode (fashion) is joined to the English word show.",
+  "forms": [
+   {
+    "da": "et modeshow",
+    "en": "a fashion show"
+   },
+   {
+    "da": "modeshowet",
+    "en": "the fashion show"
+   },
+   {
+    "da": "modeshows",
+    "en": "fashion shows"
+   },
+   {
+    "da": "modeshowene",
+    "en": "the fashion shows"
+   }
+  ],
+  "related": [
+   {
+    "da": "en designer",
+    "en": "a designer"
+   },
+   {
+    "da": "et mærke",
+    "en": "a brand"
+   },
+   {
+    "da": "en kollektion",
+    "en": "a collection"
+   },
+   {
+    "da": "en catwalk",
+    "en": "a catwalk"
+   }
+  ],
+  "sentence": {
+   "da": "Til et **modeshow** går modeller rundt i nyt tøj.",
+   "en": "At a fashion show, models walk around in new clothes."
+  }
+ },
+ "et modsætningsord": {
+  "explanation": "\"Et modsætningsord\" means \"an antonym\", a word that has the reverse meaning of another word.",
+  "forms": [
+   {
+    "da": "et modsætningsord",
+    "en": "an antonym"
+   },
+   {
+    "da": "modsætningsordet",
+    "en": "the antonym"
+   },
+   {
+    "da": "modsætningsord",
+    "en": "antonyms"
+   },
+   {
+    "da": "modsætningsordene",
+    "en": "the antonyms"
+   }
+  ],
+  "related": [
+   {
+    "da": "et synonym",
+    "en": "a synonym"
+   },
+   {
+    "da": "en modsætning",
+    "en": "an opposite"
+   },
+   {
+    "da": "en kontrast",
+    "en": "a contrast"
+   }
+  ],
+  "sentence": {
+   "da": "Varm er et **modsætningsord** til kold.",
+   "en": "Warm is an antonym of cold."
+  }
+ },
+ "et molekyle": {
+  "explanation": "\"Et molekyle\" means \"a molecule\", a very small group of atoms joined together, such as in sugar or in air.",
+  "forms": [
+   {
+    "da": "et molekyle",
+    "en": "a molecule"
+   },
+   {
+    "da": "molekylet",
+    "en": "the molecule"
+   },
+   {
+    "da": "molekyler",
+    "en": "molecules"
+   },
+   {
+    "da": "molekylerne",
+    "en": "the molecules"
+   }
+  ],
+  "related": [
+   {
+    "da": "et grundstof",
+    "en": "an element"
+   },
+   {
+    "da": "en forbindelse",
+    "en": "a compound"
+   },
+   {
+    "da": "et stof",
+    "en": "a substance"
+   },
+   {
+    "da": "en celle",
+    "en": "a cell"
+   }
+  ],
+  "sentence": {
+   "da": "Hvert **molekyle** i vand har to brintatomer og ét iltatom.",
+   "en": "Each molecule in water has two hydrogen atoms and one oxygen atom."
   }
  },
  "et monster": {
@@ -4747,6 +9403,49 @@
    "en": "We are sleeping at a motel by the highway."
   }
  },
+ "et motiv": {
+  "explanation": "\"Et motiv\" means \"a motive\", the reason behind someone's action, and also \"a subject\", what a photo or a painting shows: Motivet er en kirke (The subject is a church).",
+  "forms": [
+   {
+    "da": "et motiv",
+    "en": "a motive / subject"
+   },
+   {
+    "da": "motivet",
+    "en": "the motive / subject"
+   },
+   {
+    "da": "motiver",
+    "en": "motives / subjects"
+   },
+   {
+    "da": "motiverne",
+    "en": "the motives / subjects"
+   }
+  ],
+  "related": [
+   {
+    "da": "et formål",
+    "en": "a purpose"
+   },
+   {
+    "da": "et emne",
+    "en": "a topic"
+   },
+   {
+    "da": "et tema",
+    "en": "a theme"
+   },
+   {
+    "da": "en motivation",
+    "en": "a motivation"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet leder stadig efter et **motiv** for forbrydelsen.",
+   "en": "The police are still looking for a motive for the crime."
+  }
+ },
  "et museum": {
   "explanation": "\"Et museum\" means \"a museum\", a place with art, history or science to look at. You say på museet for \"at the museum\".",
   "forms": [
@@ -4784,6 +9483,49 @@
   "sentence": {
    "da": "Vi ser gamle ting på et **museum**.",
    "en": "We see old things at a museum."
+  }
+ },
+ "et mysterium": {
+  "explanation": "\"Et mysterium\" means \"a mystery\", something strange or hidden that nobody can explain.",
+  "forms": [
+   {
+    "da": "et mysterium",
+    "en": "a mystery"
+   },
+   {
+    "da": "mysteriet",
+    "en": "the mystery"
+   },
+   {
+    "da": "mysterier",
+    "en": "mysteries"
+   },
+   {
+    "da": "mysterierne",
+    "en": "the mysteries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gåde",
+    "en": "a riddle"
+   },
+   {
+    "da": "en hemmelighed",
+    "en": "a secret"
+   },
+   {
+    "da": "at opklare",
+    "en": "to solve"
+   },
+   {
+    "da": "en krimi",
+    "en": "a crime story"
+   }
+  ],
+  "sentence": {
+   "da": "Hvordan pyramiderne blev bygget, er stadig et **mysterium**.",
+   "en": "How the pyramids were built is still a mystery."
   }
  },
  "et mål": {
@@ -5114,6 +9856,49 @@
    "en": "My boss has a meeting today."
   }
  },
+ "et mødelokale": {
+  "explanation": "\"Et mødelokale\" means \"a meeting room\", a room at a workplace used for meetings. Lokale is a room in a public or work building, while et værelse is a room in a home or a hotel.",
+  "forms": [
+   {
+    "da": "et mødelokale",
+    "en": "a meeting room"
+   },
+   {
+    "da": "mødelokalet",
+    "en": "the meeting room"
+   },
+   {
+    "da": "mødelokaler",
+    "en": "meeting rooms"
+   },
+   {
+    "da": "mødelokalerne",
+    "en": "the meeting rooms"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kontor",
+    "en": "an office"
+   },
+   {
+    "da": "et klasselokale",
+    "en": "a classroom"
+   },
+   {
+    "da": "et konferencelokale",
+    "en": "a conference room"
+   },
+   {
+    "da": "en dagsorden",
+    "en": "an agenda"
+   }
+  ],
+  "sentence": {
+   "da": "Kollegerne sidder i et **mødelokale** og planlægger det nye projekt.",
+   "en": "The colleagues are sitting in a meeting room and planning the new project."
+  }
+ },
  "et mønster": {
   "explanation": "\"Et mønster\" means \"a pattern\", on cloth or in how things repeat.",
   "forms": [
@@ -5227,6 +10012,88 @@
    "en": "When cooking, we use a pot and a pan."
   }
  },
+ "madpapir": {
+  "explanation": "\"Et madpapir\" means \"sandwich paper\", the thin paper you wrap sandwiches in to take with you. It keeps the bread from drying out.",
+  "forms": [
+   {
+    "da": "et madpapir",
+    "en": "a sandwich paper"
+   },
+   {
+    "da": "madpapiret",
+    "en": "the sandwich paper"
+   },
+   {
+    "da": "madpapirer",
+    "en": "sandwich papers"
+   },
+   {
+    "da": "madpapirerne",
+    "en": "the sandwich papers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en madpakke",
+    "en": "a packed lunch"
+   },
+   {
+    "da": "et stanniol",
+    "en": "an aluminum foil"
+   },
+   {
+    "da": "en madkasse",
+    "en": "a lunch box"
+   },
+   {
+    "da": "en indpakning",
+    "en": "a wrapping"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg pakker madderne ind i **madpapir** og lægger dem i tasken.",
+   "en": "I wrap the sandwiches in sandwich paper and put them in the bag."
+  }
+ },
+ "madspild": {
+  "explanation": "\"Et madspild\" means \"food waste\", food that is bought or made but never eaten. It is built from mad (food) and spild (waste).",
+  "forms": [
+   {
+    "da": "et madspild",
+    "en": "a food waste"
+   },
+   {
+    "da": "madspildet",
+    "en": "the food waste"
+   },
+   {
+    "da": "mindre madspild",
+    "en": "less food waste"
+   }
+  ],
+  "related": [
+   {
+    "da": "et affald",
+    "en": "a trash"
+   },
+   {
+    "da": "en rest",
+    "en": "a leftover"
+   },
+   {
+    "da": "at smide ud",
+    "en": "to throw out"
+   },
+   {
+    "da": "at spise op",
+    "en": "to eat up"
+   }
+  ],
+  "sentence": {
+   "da": "**Madspild** sker, når vi køber mere mad, end vi spiser.",
+   "en": "Food waste happens when we buy more food than we eat."
+  }
+ },
  "mager": {
   "explanation": "\"Mager\" means \"lean\" for food and \"skinny\" for people: Kyllingebryst er magert (Chicken breast is lean). For a person, it can sound negative, so tynd (thin) is milder.",
   "forms": [
@@ -5260,6 +10127,45 @@
   "sentence": {
    "da": "En **mager** bøf har meget lidt fedt.",
    "en": "A lean steak has very little fat."
+  }
+ },
+ "magi": {
+  "explanation": "\"En magi\" means \"magic\", the power to make impossible things happen, as in stories with spells. It also means a special, hard-to-explain charm: Der er magi i luften (There is magic in the air).",
+  "forms": [
+   {
+    "da": "en magi",
+    "en": "a magic"
+   },
+   {
+    "da": "magien",
+    "en": "the magic"
+   },
+   {
+    "da": "sort magi",
+    "en": "black magic"
+   }
+  ],
+  "related": [
+   {
+    "da": "et trylleri",
+    "en": "a conjuring trick"
+   },
+   {
+    "da": "en tryllekunstner",
+    "en": "a conjurer"
+   },
+   {
+    "da": "en tryllestav",
+    "en": "a wand"
+   },
+   {
+    "da": "en trolddom",
+    "en": "a witchcraft"
+   }
+  ],
+  "sentence": {
+   "da": "I eventyret bruger heksen **magi** til at forvandle prinsen til en frø.",
+   "en": "In the fairy tale the witch uses magic to turn the prince into a frog."
   }
  },
  "magisk": {
@@ -5299,6 +10205,45 @@
   "sentence": {
    "da": "Troldmanden har en **magisk** stav i hånden.",
    "en": "The wizard has a magic wand in his hand."
+  }
+ },
+ "magtfuld": {
+  "explanation": "\"Magtfuld\" means \"powerful\", for someone who has power over others, like rulers and big companies: en magtfuld direktør (a powerful director). For body strength, use stærk (strong).",
+  "forms": [
+   {
+    "da": "en magtfuld mand",
+    "en": "a powerful man"
+   },
+   {
+    "da": "et magtfuldt rige",
+    "en": "a powerful kingdom"
+   },
+   {
+    "da": "magtfulde politikere",
+    "en": "powerful politicians"
+   }
+  ],
+  "related": [
+   {
+    "da": "magtesløs",
+    "en": "powerless"
+   },
+   {
+    "da": "mægtig",
+    "en": "mighty"
+   },
+   {
+    "da": "indflydelsesrig",
+    "en": "influential"
+   },
+   {
+    "da": "svag",
+    "en": "weak"
+   }
+  ],
+  "sentence": {
+   "da": "Kongen var meget **magtfuld** og styrede hele landet.",
+   "en": "The king was very powerful and ruled the whole country."
   }
  },
  "maj": {
@@ -5406,6 +10351,84 @@
    "en": "She uses makeup on her eyes and lips."
   }
  },
+ "maksimal": {
+  "explanation": "\"Maksimal\" means \"maximum\", the biggest amount that is allowed or possible: et maksimalt antal pladser (a maximum number of seats).",
+  "forms": [
+   {
+    "da": "en maksimal hastighed",
+    "en": "a maximum speed"
+   },
+   {
+    "da": "et maksimalt beløb",
+    "en": "a maximum amount"
+   },
+   {
+    "da": "maksimale priser",
+    "en": "maximum prices"
+   }
+  ],
+  "related": [
+   {
+    "da": "minimal",
+    "en": "minimal"
+   },
+   {
+    "da": "optimal",
+    "en": "optimal"
+   },
+   {
+    "da": "højest",
+    "en": "highest"
+   },
+   {
+    "da": "en grænse",
+    "en": "a limit"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen kører med **maksimal** hastighed på motorvejen.",
+   "en": "The car drives at maximum speed on the highway."
+  }
+ },
+ "malerisk": {
+  "explanation": "\"Malerisk\" means \"picturesque\", so lovely to look at that it seems made for a picture. It is used for places such as villages, views and old streets.",
+  "forms": [
+   {
+    "da": "en malerisk landsby",
+    "en": "a picturesque village"
+   },
+   {
+    "da": "et malerisk sted",
+    "en": "a picturesque place"
+   },
+   {
+    "da": "maleriske gader",
+    "en": "picturesque streets"
+   }
+  ],
+  "related": [
+   {
+    "da": "et maleri",
+    "en": "a painting"
+   },
+   {
+    "da": "en maler",
+    "en": "a painter"
+   },
+   {
+    "da": "idyllisk",
+    "en": "idyllic"
+   },
+   {
+    "da": "naturskøn",
+    "en": "scenic"
+   }
+  ],
+  "sentence": {
+   "da": "Den lille by med gamle huse og smalle gader er **malerisk**.",
+   "en": "The small town with old houses and narrow streets is picturesque."
+  }
+ },
  "maling": {
   "explanation": "\"Maling\" means \"paint\". A picture on a wall is et maleri (a painting), not maling.",
   "forms": [
@@ -5474,6 +10497,41 @@
   "sentence": {
    "da": "Her må **man** ikke parkere.",
    "en": "You may not park here."
+  }
+ },
+ "man skal ikke skue hunden på hårene": {
+  "explanation": "\"Man skal ikke skue hunden på hårene\" means \"don't judge a book by its cover\". Literally it says you should not judge the dog by its hair. Skue is an old word for look at, and the saying is used when someone turns out different from how they looked.",
+  "forms": [
+   {
+    "da": "Man skal ikke skue hunden på hårene!",
+    "en": "Don't judge a book by its cover!"
+   },
+   {
+    "da": "Jeg troede, han var sur, men man skal ikke skue hunden på hårene",
+    "en": "I thought he was grumpy, but don't judge a book by its cover"
+   }
+  ],
+  "related": [
+   {
+    "da": "et første indtryk",
+    "en": "a first impression"
+   },
+   {
+    "da": "en fordom",
+    "en": "a prejudice"
+   },
+   {
+    "da": "udseendet bedrager",
+    "en": "looks can deceive"
+   },
+   {
+    "da": "det er ikke guld alt, hvad der glimrer",
+    "en": "all that glitters is not gold"
+   }
+  ],
+  "sentence": {
+   "da": "Hun ser streng ud, men **man skal ikke skue hunden på hårene**.",
+   "en": "She looks strict, but don't judge a book by its cover."
   }
  },
  "mandag": {
@@ -5550,6 +10608,45 @@
    "en": "He is a male nurse."
   }
  },
+ "manerer": {
+  "explanation": "\"Manerer\" means \"manners\", the way a person behaves around others. It is always plural in this meaning: Han har gode manerer (He has good manners).",
+  "forms": [
+   {
+    "da": "dårlige manerer",
+    "en": "bad manners"
+   },
+   {
+    "da": "pæne manerer",
+    "en": "nice manners"
+   },
+   {
+    "da": "Hvor er dine manerer?",
+    "en": "Where are your manners?"
+   }
+  ],
+  "related": [
+   {
+    "da": "høflig",
+    "en": "polite"
+   },
+   {
+    "da": "uhøflig",
+    "en": "impolite"
+   },
+   {
+    "da": "en etikette",
+    "en": "etiquette"
+   },
+   {
+    "da": "en opførsel",
+    "en": "a behavior"
+   }
+  ],
+  "sentence": {
+   "da": "Børn lærer **manerer**, når de spiser sammen med de voksne.",
+   "en": "Children learn manners when they eat together with the adults."
+  }
+ },
  "mange": {
   "explanation": "\"Mange\" means \"many\" for things you can count: mange biler (many cars). For things you cannot count, like water, use meget (a lot, much): meget vand (a lot of water).",
   "forms": [
@@ -5624,6 +10721,123 @@
    "en": "Here is your coffee. – Thank you very much!"
   }
  },
+ "mangelfuld": {
+  "explanation": "\"Mangelfuld\" means \"deficient\" or \"inadequate\", for something that lacks parts or is not good enough, such as information, work or equipment. It is built from mangel (shortage) and -fuld (full of), so it describes something with parts missing.",
+  "forms": [
+   {
+    "da": "en mangelfuld forklaring",
+    "en": "an inadequate explanation"
+   },
+   {
+    "da": "et mangelfuldt arbejde",
+    "en": "inadequate work"
+   },
+   {
+    "da": "mangelfulde oplysninger",
+    "en": "inadequate information"
+   }
+  ],
+  "related": [
+   {
+    "da": "ufuldstændig",
+    "en": "incomplete"
+   },
+   {
+    "da": "utilstrækkelig",
+    "en": "insufficient"
+   },
+   {
+    "da": "fejlfri",
+    "en": "flawless"
+   },
+   {
+    "da": "fyldestgørende",
+    "en": "thorough"
+   }
+  ],
+  "sentence": {
+   "da": "Forklaringen var **mangelfuld**, og vi forstod den ikke.",
+   "en": "The explanation was inadequate and we did not understand it."
+  }
+ },
+ "mangfoldighed": {
+  "explanation": "\"En mangfoldighed\" means \"diversity\", many different kinds existing side by side, in people, cultures or nature: en mangfoldighed af farver (a variety of colors).",
+  "forms": [
+   {
+    "da": "en mangfoldighed",
+    "en": "a diversity"
+   },
+   {
+    "da": "mangfoldigheden",
+    "en": "the diversity"
+   },
+   {
+    "da": "kulturel mangfoldighed",
+    "en": "cultural diversity"
+   }
+  ],
+  "related": [
+   {
+    "da": "mangfoldig",
+    "en": "diverse"
+   },
+   {
+    "da": "en variation",
+    "en": "a variation"
+   },
+   {
+    "da": "forskellighed",
+    "en": "difference"
+   },
+   {
+    "da": "ensartethed",
+    "en": "uniformity"
+   }
+  ],
+  "sentence": {
+   "da": "Naturen byder på en stor **mangfoldighed** af planter og dyr.",
+   "en": "Nature offers a great diversity of plants and animals."
+  }
+ },
+ "manglende": {
+  "explanation": "\"Manglende\" means \"missing\", for something that is not there but should be: manglende betaling (missing payment). It stays the same for en-words, et-words and plurals.",
+  "forms": [
+   {
+    "da": "en manglende side",
+    "en": "a missing page"
+   },
+   {
+    "da": "manglende interesse",
+    "en": "missing interest"
+   },
+   {
+    "da": "manglende penge",
+    "en": "missing money"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mangle",
+    "en": "to lack"
+   },
+   {
+    "da": "en mangel",
+    "en": "a shortage"
+   },
+   {
+    "da": "fraværende",
+    "en": "absent"
+   },
+   {
+    "da": "utilstrækkelig",
+    "en": "insufficient"
+   }
+  ],
+  "sentence": {
+   "da": "Den **manglende** brik til puslespillet lå under sofaen.",
+   "en": "The missing piece of the puzzle was under the sofa."
+  }
+ },
  "marcipan": {
   "explanation": "\"Marcipan\" means \"marzipan\", a sweet paste of almonds and sugar: Kransekagen er lavet af marcipan (The ring cake is made of marzipan).",
   "forms": [
@@ -5659,6 +10873,84 @@
    "en": "The cake is filled with marzipan and almonds."
   }
  },
+ "marihuana": {
+  "explanation": "\"En marihuana\" means \"marijuana\", the dried parts of the hemp plant that people use to get high. Danish spells it with an h where English has a j.",
+  "forms": [
+   {
+    "da": "besiddelse af marihuana",
+    "en": "possession of marijuana"
+   },
+   {
+    "da": "lugt af marihuana",
+    "en": "smell of marijuana"
+   },
+   {
+    "da": "medicinsk marihuana",
+    "en": "medical marijuana"
+   }
+  ],
+  "related": [
+   {
+    "da": "hash",
+    "en": "hashish"
+   },
+   {
+    "da": "cannabis",
+    "en": "cannabis"
+   },
+   {
+    "da": "en joint",
+    "en": "a joint"
+   },
+   {
+    "da": "at ryge",
+    "en": "to smoke"
+   }
+  ],
+  "sentence": {
+   "da": "Det er ulovligt at sælge **marihuana** i Danmark.",
+   "en": "It is illegal to sell marijuana in Denmark."
+  }
+ },
+ "markant": {
+  "explanation": "\"Markant\" means \"marked\" or \"distinctive\", clearly noticeable because it stands out. It is used for a change or a difference, and also for a person or feature with a strong presence: en markant politiker (a prominent politician).",
+  "forms": [
+   {
+    "da": "en markant stemme",
+    "en": "a distinctive voice"
+   },
+   {
+    "da": "et markant fald",
+    "en": "a marked drop"
+   },
+   {
+    "da": "markante farver",
+    "en": "distinctive colors"
+   }
+  ],
+  "related": [
+   {
+    "da": "tydelig",
+    "en": "clear"
+   },
+   {
+    "da": "udtalt",
+    "en": "pronounced"
+   },
+   {
+    "da": "betydelig",
+    "en": "considerable"
+   },
+   {
+    "da": "slående",
+    "en": "striking"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **markant** forskel mellem sommer og vinter her.",
+   "en": "There is a marked difference between summer and winter here."
+  }
+ },
  "marmelade": {
   "explanation": "\"Marmelade\" means \"jam\" or \"marmalade\", a sweet fruit spread for bread: Jeg smører marmelade på brødet (I spread jam on the bread).",
   "forms": [
@@ -5692,6 +10984,45 @@
   "sentence": {
    "da": "Hun spiser brød med smør og **marmelade**.",
    "en": "She eats bread with butter and jam."
+  }
+ },
+ "marmor": {
+  "explanation": "\"Et marmor\" means \"marble\", a hard, smooth rock used for floors, kitchen counters and art: et gulv af marmor (a floor of marble).",
+  "forms": [
+   {
+    "da": "et marmor",
+    "en": "a marble"
+   },
+   {
+    "da": "marmoret",
+    "en": "the marble"
+   },
+   {
+    "da": "et marmorgulv",
+    "en": "a marble floor"
+   }
+  ],
+  "related": [
+   {
+    "da": "granit",
+    "en": "granite"
+   },
+   {
+    "da": "en sten",
+    "en": "a stone"
+   },
+   {
+    "da": "en skulptur",
+    "en": "a sculpture"
+   },
+   {
+    "da": "en statue",
+    "en": "a statue"
+   }
+  ],
+  "sentence": {
+   "da": "Statuen er hugget i **marmor**, ikke i træ.",
+   "en": "The statue is carved in marble, not in wood."
   }
  },
  "marts": {
@@ -5801,6 +11132,45 @@
   "sentence": {
    "da": "I **matematik** lærer vi at regne med tal.",
    "en": "In math we learn to calculate with numbers."
+  }
+ },
+ "materiel": {
+  "explanation": "\"Materiel\" means \"material\", about things you can touch or own, as opposed to ideas and feelings: materielle goder (material goods). Do not mix it up with et materiale, which is a substance such as wood or cloth.",
+  "forms": [
+   {
+    "da": "en materiel værdi",
+    "en": "a material value"
+   },
+   {
+    "da": "et materielt tab",
+    "en": "a material loss"
+   },
+   {
+    "da": "materielle behov",
+    "en": "material needs"
+   }
+  ],
+  "related": [
+   {
+    "da": "immateriel",
+    "en": "non-material"
+   },
+   {
+    "da": "fysisk",
+    "en": "physical"
+   },
+   {
+    "da": "konkret",
+    "en": "concrete"
+   },
+   {
+    "da": "en ejendel",
+    "en": "a possession"
+   }
+  ],
+  "sentence": {
+   "da": "Branden gav kun **materiel** skade, og ingen blev såret.",
+   "en": "The fire caused only material damage, and nobody was hurt."
   }
  },
  "mayonnaise": {
@@ -5947,6 +11317,123 @@
    "en": "I'm coming right away."
   }
  },
+ "med forsæt": {
+  "explanation": "\"Med forsæt\" means \"on purpose\", done deliberately, with a plan to do it. Everyday talk uses med vilje (deliberately), while med forsæt is what courts and news say when a harmful act was meant: Branden blev påsat med forsæt (The fire was set on purpose).",
+  "forms": [
+   {
+    "da": "Han gjorde det med forsæt",
+    "en": "He did it on purpose"
+   },
+   {
+    "da": "Det var ikke med forsæt",
+    "en": "It was not on purpose"
+   },
+   {
+    "da": "at handle med forsæt",
+    "en": "to act on purpose"
+   }
+  ],
+  "related": [
+   {
+    "da": "ved et uheld",
+    "en": "by accident"
+   },
+   {
+    "da": "uagtsomt",
+    "en": "negligently"
+   },
+   {
+    "da": "bevidst",
+    "en": "knowingly"
+   },
+   {
+    "da": "tilsigtet",
+    "en": "intended"
+   }
+  ],
+  "sentence": {
+   "da": "Retten mener, at han ødelagde bilen **med forsæt**.",
+   "en": "The court believes he destroyed the car on purpose."
+  }
+ },
+ "med hensyn til": {
+  "explanation": "\"Med hensyn til\" means \"regarding\", used to name the topic you are about to talk about: Med hensyn til maden har vi et problem (Regarding the food, we have a problem).",
+  "forms": [
+   {
+    "da": "med hensyn til prisen",
+    "en": "regarding the price"
+   },
+   {
+    "da": "med hensyn til dig",
+    "en": "as for you"
+   },
+   {
+    "da": "med hensyn til tiden",
+    "en": "regarding the time"
+   }
+  ],
+  "related": [
+   {
+    "da": "angående",
+    "en": "concerning"
+   },
+   {
+    "da": "hvad angår",
+    "en": "as for"
+   },
+   {
+    "da": "vedrørende",
+    "en": "relating to"
+   },
+   {
+    "da": "så vidt angår",
+    "en": "as far as concerns"
+   }
+  ],
+  "sentence": {
+   "da": "**Med hensyn til** mødet i morgen kan jeg desværre ikke komme.",
+   "en": "Regarding the meeting tomorrow, I unfortunately cannot come."
+  }
+ },
+ "medfølelse": {
+  "explanation": "\"En medfølelse\" means \"compassion\", the feeling of sharing someone's pain and wanting to help. It is built from med (with) and følelse (feeling), so it is feeling with someone, not looking down on them.",
+  "forms": [
+   {
+    "da": "en medfølelse",
+    "en": "compassion"
+   },
+   {
+    "da": "medfølelsen",
+    "en": "the compassion"
+   },
+   {
+    "da": "at vise medfølelse",
+    "en": "to show compassion"
+   }
+  ],
+  "related": [
+   {
+    "da": "en medlidenhed",
+    "en": "pity"
+   },
+   {
+    "da": "en sympati",
+    "en": "sympathy"
+   },
+   {
+    "da": "en empati",
+    "en": "empathy"
+   },
+   {
+    "da": "en omsorg",
+    "en": "care"
+   }
+  ],
+  "sentence": {
+   "da": "Hun viste **medfølelse** og holdt ham i hånden, da han græd.",
+   "en": "She showed compassion and held his hand when he cried."
+  }
+ },
  "medicin": {
   "explanation": "\"En medicin\" means \"a medicine\", something you take when you are ill.",
   "forms": [
@@ -5980,6 +11467,123 @@
   "sentence": {
    "da": "Jeg er syg og tager **medicin**.",
    "en": "I am sick and take medicine."
+  }
+ },
+ "medicinsk": {
+  "explanation": "\"Medicinsk\" means \"medical\", about illness and how it is cured: en medicinsk undersøgelse (a medical exam). It also describes treatment with medicine: medicinsk behandling (treatment with medicine).",
+  "forms": [
+   {
+    "da": "en medicinsk test",
+    "en": "a medical test"
+   },
+   {
+    "da": "et medicinsk tilfælde",
+    "en": "a medical case"
+   },
+   {
+    "da": "medicinske fremskridt",
+    "en": "medical progress"
+   }
+  ],
+  "related": [
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   },
+   {
+    "da": "en diagnose",
+    "en": "a diagnosis"
+   },
+   {
+    "da": "kirurgisk",
+    "en": "surgical"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen mener, at smerten har en **medicinsk** årsag.",
+   "en": "The doctor thinks the pain has a medical cause."
+  }
+ },
+ "medlidenhed": {
+  "explanation": "\"En medlidenhed\" means \"pity\", the sad feeling for someone who suffers. It can feel like looking down on a person, so some do not want it: Jeg vil ikke have din medlidenhed (I do not want your pity).",
+  "forms": [
+   {
+    "da": "en medlidenhed",
+    "en": "pity"
+   },
+   {
+    "da": "medlidenheden",
+    "en": "the pity"
+   },
+   {
+    "da": "have medlidenhed med nogen",
+    "en": "to feel pity for someone"
+   }
+  ],
+  "related": [
+   {
+    "da": "en medfølelse",
+    "en": "compassion"
+   },
+   {
+    "da": "en barmhjertighed",
+    "en": "mercy"
+   },
+   {
+    "da": "en sympati",
+    "en": "sympathy"
+   },
+   {
+    "da": "en empati",
+    "en": "empathy"
+   }
+  ],
+  "sentence": {
+   "da": "Han følte **medlidenhed** med hunden, som stod alene i regnen.",
+   "en": "He felt pity for the dog that stood alone in the rain."
+  }
+ },
+ "medmindre": {
+  "explanation": "\"Medmindre\" means \"unless\", introducing the only case where the main statement is not true: Jeg kommer, medmindre jeg bliver syg (I will come unless I get sick).",
+  "forms": [
+   {
+    "da": "medmindre det regner",
+    "en": "unless it rains"
+   },
+   {
+    "da": "medmindre du siger nej",
+    "en": "unless you say no"
+   },
+   {
+    "da": "medmindre andet er aftalt",
+    "en": "unless otherwise agreed"
+   }
+  ],
+  "related": [
+   {
+    "da": "hvis",
+    "en": "if"
+   },
+   {
+    "da": "undtagen",
+    "en": "except"
+   },
+   {
+    "da": "bortset fra",
+    "en": "apart from"
+   },
+   {
+    "da": "forudsat at",
+    "en": "provided that"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tager til stranden, **medmindre** det regner.",
+   "en": "We are going to the beach unless it rains."
   }
  },
  "megen": {
@@ -6204,6 +11808,123 @@
    "en": "I am tired, but happy."
   }
  },
+ "meningsfuld": {
+  "explanation": "\"Meningsfuld\" means \"meaningful\", for something that has a point or feels worth your time: et meningsfuldt job (a meaningful job).",
+  "forms": [
+   {
+    "da": "en meningsfuld samtale",
+    "en": "a meaningful conversation"
+   },
+   {
+    "da": "et meningsfuldt liv",
+    "en": "a meaningful life"
+   },
+   {
+    "da": "meningsfulde ting",
+    "en": "meaningful things"
+   }
+  ],
+  "related": [
+   {
+    "da": "meningsløs",
+    "en": "meaningless"
+   },
+   {
+    "da": "betydningsfuld",
+    "en": "significant"
+   },
+   {
+    "da": "værdifuld",
+    "en": "valuable"
+   },
+   {
+    "da": "givende",
+    "en": "rewarding"
+   }
+  ],
+  "sentence": {
+   "da": "Samtalen var **meningsfuld**, fordi vi endelig forstod hinanden.",
+   "en": "The conversation was meaningful because we finally understood each other."
+  }
+ },
+ "meningsløs": {
+  "explanation": "\"Meningsløs\" means \"meaningless\", with no point or sense: en meningsløs krig (a senseless war). The ending -løs means \"without\", as in hjælpeløs (helpless).",
+  "forms": [
+   {
+    "da": "en meningsløs regel",
+    "en": "a meaningless rule"
+   },
+   {
+    "da": "et meningsløst arbejde",
+    "en": "a meaningless job"
+   },
+   {
+    "da": "meningsløse ord",
+    "en": "meaningless words"
+   }
+  ],
+  "related": [
+   {
+    "da": "meningsfuld",
+    "en": "meaningful"
+   },
+   {
+    "da": "nytteløs",
+    "en": "useless"
+   },
+   {
+    "da": "formålsløs",
+    "en": "aimless"
+   },
+   {
+    "da": "forgæves",
+    "en": "in vain"
+   }
+  ],
+  "sentence": {
+   "da": "Diskussionen var **meningsløs**, fordi ingen ville lytte.",
+   "en": "The discussion was pointless because nobody wanted to listen."
+  }
+ },
+ "menneskehed": {
+  "explanation": "\"En menneskehed\" means \"humanity\", all people taken together. The quality of being kind and humane is a different word: menneskelighed (humaneness).",
+  "forms": [
+   {
+    "da": "en menneskehed",
+    "en": "humanity"
+   },
+   {
+    "da": "menneskeheden",
+    "en": "humanity as a whole"
+   },
+   {
+    "da": "hele menneskeheden",
+    "en": "all of humanity"
+   }
+  ],
+  "related": [
+   {
+    "da": "et menneske",
+    "en": "a human being"
+   },
+   {
+    "da": "en befolkning",
+    "en": "a population"
+   },
+   {
+    "da": "en art",
+    "en": "a species"
+   },
+   {
+    "da": "en civilisation",
+    "en": "a civilization"
+   }
+  ],
+  "sentence": {
+   "da": "Mange drømmer om en **menneskehed** uden krig.",
+   "en": "Many dream of a humanity without war."
+  }
+ },
  "menneskelig": {
   "explanation": "\"Menneskelig\" means \"human\", about people. It can also mean kind and understanding: en menneskelig chef (a kind boss).",
   "forms": [
@@ -6237,6 +11958,45 @@
   "sentence": {
    "da": "Det er en **menneskelig** fejl, ikke en computerfejl.",
    "en": "It is a human mistake, not a computer error."
+  }
+ },
+ "menneskerettigheder": {
+  "explanation": "\"Menneskerettigheder\" means \"human rights\", the basic rights that every person has, whoever they are and wherever they live, such as the right to live and speak freely.",
+  "forms": [
+   {
+    "da": "menneskerettighederne",
+    "en": "the human rights"
+   },
+   {
+    "da": "brud på menneskerettighederne",
+    "en": "violations of human rights"
+   },
+   {
+    "da": "at forsvare menneskerettigheder",
+    "en": "to defend human rights"
+   }
+  ],
+  "related": [
+   {
+    "da": "ytringsfrihed",
+    "en": "freedom of speech"
+   },
+   {
+    "da": "diskrimination",
+    "en": "discrimination"
+   },
+   {
+    "da": "en grundlov",
+    "en": "a constitution"
+   },
+   {
+    "da": "et demokrati",
+    "en": "a democracy"
+   }
+  ],
+  "sentence": {
+   "da": "**Menneskerettigheder** gælder for alle, uanset hvor man bor.",
+   "en": "Human rights apply to everyone, no matter where one lives."
   }
  },
  "mens": {
@@ -6276,6 +12036,84 @@
   "sentence": {
    "da": "Jeg læser, **mens** du sover.",
    "en": "I read while you sleep."
+  }
+ },
+ "mental sundhed": {
+  "explanation": "\"En mental sundhed\" means \"mental health\", how well your mind and feelings are doing, not only whether you are ill: at passe på sin mentale sundhed (to look after your mental health).",
+  "forms": [
+   {
+    "da": "god mental sundhed",
+    "en": "good mental health"
+   },
+   {
+    "da": "dårlig mental sundhed",
+    "en": "poor mental health"
+   },
+   {
+    "da": "mental sundhed hos unge",
+    "en": "mental health among young people"
+   }
+  ],
+  "related": [
+   {
+    "da": "psykisk",
+    "en": "psychological"
+   },
+   {
+    "da": "trivsel",
+    "en": "well-being"
+   },
+   {
+    "da": "stress",
+    "en": "stress"
+   },
+   {
+    "da": "en psykolog",
+    "en": "a psychologist"
+   }
+  ],
+  "sentence": {
+   "da": "God **mental sundhed** handler om søvn, venner og ro i hverdagen.",
+   "en": "Good mental health is about sleep, friends and calm in everyday life."
+  }
+ },
+ "mentalt": {
+  "explanation": "\"Mentalt\" means \"mentally\", in the mind rather than the body: Jeg er mentalt træt (I am mentally tired).",
+  "forms": [
+   {
+    "da": "mentalt stærk",
+    "en": "mentally strong"
+   },
+   {
+    "da": "mentalt forberedt",
+    "en": "mentally prepared"
+   },
+   {
+    "da": "mentalt udmattet",
+    "en": "mentally exhausted"
+   }
+  ],
+  "related": [
+   {
+    "da": "fysisk",
+    "en": "physically"
+   },
+   {
+    "da": "psykisk",
+    "en": "psychologically"
+   },
+   {
+    "da": "følelsesmæssigt",
+    "en": "emotionally"
+   },
+   {
+    "da": "en mentalitet",
+    "en": "a mindset"
+   }
+  ],
+  "sentence": {
+   "da": "Før løbet forbereder løberne sig både fysisk og **mentalt**.",
+   "en": "Before the race the runners prepare both physically and mentally."
   }
  },
  "mere": {
@@ -6385,6 +12223,84 @@
   "sentence": {
    "da": "Vi spiser **mexicansk** mad hver fredag.",
    "en": "We eat Mexican food every Friday."
+  }
+ },
+ "middelalderen": {
+  "explanation": "\"Middelalderen\" means \"the Middle Ages\", the long stretch of European history before the modern age. In longer words, middelalder- means medieval: en middelalderby (a medieval town).",
+  "forms": [
+   {
+    "da": "i middelalderen",
+    "en": "in the Middle Ages"
+   },
+   {
+    "da": "middelalderen i Danmark",
+    "en": "the Middle Ages in Denmark"
+   },
+   {
+    "da": "en middelalderkirke",
+    "en": "a medieval church"
+   }
+  ],
+  "related": [
+   {
+    "da": "oldtiden",
+    "en": "ancient times"
+   },
+   {
+    "da": "renæssancen",
+    "en": "the Renaissance"
+   },
+   {
+    "da": "en ridder",
+    "en": "a knight"
+   },
+   {
+    "da": "en borg",
+    "en": "a castle"
+   }
+  ],
+  "sentence": {
+   "da": "I **middelalderen** boede de fleste danskere på landet og dyrkede jorden.",
+   "en": "In the Middle Ages most Danes lived in the countryside and farmed the land."
+  }
+ },
+ "midlertidig": {
+  "explanation": "\"Midlertidig\" means \"temporary\", in place only for a short while: en midlertidig adresse (a temporary address).",
+  "forms": [
+   {
+    "da": "en midlertidig løsning",
+    "en": "a temporary solution"
+   },
+   {
+    "da": "et midlertidigt arbejde",
+    "en": "a temporary job"
+   },
+   {
+    "da": "midlertidige regler",
+    "en": "temporary rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "permanent",
+    "en": "permanent"
+   },
+   {
+    "da": "varig",
+    "en": "lasting"
+   },
+   {
+    "da": "foreløbig",
+    "en": "provisional"
+   },
+   {
+    "da": "en overgang",
+    "en": "a transition"
+   }
+  ],
+  "sentence": {
+   "da": "Broen er **midlertidig**, fordi den nye bro ikke er færdig.",
+   "en": "The bridge is temporary because the new bridge is not finished."
   }
  },
  "midnat": {
@@ -6537,6 +12453,45 @@
   "sentence": {
    "da": "Jeg vil have en **mild** sauce uden chili.",
    "en": "I want a mild sauce without chili."
+  }
+ },
+ "militær": {
+  "explanation": "\"Militær\" means \"military\", about the armed forces: en militær base (a military base). The same word is used for the armed forces themselves: Han er i militæret (He is in the military).",
+  "forms": [
+   {
+    "da": "en militær øvelse",
+    "en": "a military exercise"
+   },
+   {
+    "da": "et militært angreb",
+    "en": "a military attack"
+   },
+   {
+    "da": "militære køretøjer",
+    "en": "military vehicles"
+   }
+  ],
+  "related": [
+   {
+    "da": "en hær",
+    "en": "an army"
+   },
+   {
+    "da": "et forsvar",
+    "en": "a defense"
+   },
+   {
+    "da": "civil",
+    "en": "civilian"
+   },
+   {
+    "da": "en officer",
+    "en": "an officer"
+   }
+  ],
+  "sentence": {
+   "da": "Soldaterne træner på en **militær** base uden for byen.",
+   "en": "The soldiers train at a military base outside the town."
   }
  },
  "million": {
@@ -6769,6 +12724,318 @@
    "en": "In mini golf, you hit the ball through a small tunnel."
   }
  },
+ "minimal": {
+  "explanation": "\"Minimal\" means \"minimal\", the smallest amount possible or needed: en minimal forskel (a minimal difference).",
+  "forms": [
+   {
+    "da": "en minimal risiko",
+    "en": "a minimal risk"
+   },
+   {
+    "da": "et minimalt behov",
+    "en": "a minimal need"
+   },
+   {
+    "da": "minimale ændringer",
+    "en": "minimal changes"
+   }
+  ],
+  "related": [
+   {
+    "da": "maksimal",
+    "en": "maximum"
+   },
+   {
+    "da": "et minimum",
+    "en": "a minimum"
+   },
+   {
+    "da": "mindst",
+    "en": "least"
+   },
+   {
+    "da": "ubetydelig",
+    "en": "insignificant"
+   }
+  ],
+  "sentence": {
+   "da": "Risikoen for fejl er **minimal**, fordi alt bliver tjekket to gange.",
+   "en": "The risk of errors is minimal because everything is checked twice."
+  }
+ },
+ "misfornøjet": {
+  "explanation": "\"Misfornøjet\" means \"dissatisfied\", unhappy because something is not as you hoped: misfornøjede medarbejdere (dissatisfied employees). The start mis- gives the idea of something wrong or bad, as in at misforstå (to misunderstand).",
+  "forms": [
+   {
+    "da": "en misfornøjet gæst",
+    "en": "a dissatisfied guest"
+   },
+   {
+    "da": "et misfornøjet barn",
+    "en": "a dissatisfied child"
+   },
+   {
+    "da": "misfornøjede kunder",
+    "en": "dissatisfied customers"
+   }
+  ],
+  "related": [
+   {
+    "da": "fornøjet",
+    "en": "pleased"
+   },
+   {
+    "da": "tilfreds",
+    "en": "satisfied"
+   },
+   {
+    "da": "skuffet",
+    "en": "disappointed"
+   },
+   {
+    "da": "en klage",
+    "en": "a complaint"
+   }
+  ],
+  "sentence": {
+   "da": "Kunden var **misfornøjet**, fordi maden kom for sent.",
+   "en": "The customer was dissatisfied because the food came too late."
+  }
+ },
+ "misforstået": {
+  "explanation": "\"Misforstået\" means \"misunderstood\", for a person or an idea that others do not see correctly: et misforstået geni (a misunderstood genius). It can also mean \"misguided\": misforstået loyalitet (misguided loyalty).",
+  "forms": [
+   {
+    "da": "en misforstået idé",
+    "en": "a misunderstood idea"
+   },
+   {
+    "da": "et misforstået forslag",
+    "en": "a misunderstood suggestion"
+   },
+   {
+    "da": "misforståede ord",
+    "en": "misunderstood words"
+   }
+  ],
+  "related": [
+   {
+    "da": "en misforståelse",
+    "en": "a misunderstanding"
+   },
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "fejlagtig",
+    "en": "mistaken"
+   },
+   {
+    "da": "at misforstå",
+    "en": "to misunderstand"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes joke blev **misforstået**, så hun forklarede den igen.",
+   "en": "Her joke was misunderstood, so she explained it again."
+  }
+ },
+ "misinformation": {
+  "explanation": "\"En misinformation\" means \"misinformation\", false information that is passed on, often by people who believe it is true.",
+  "forms": [
+   {
+    "da": "en misinformation",
+    "en": "a misinformation"
+   },
+   {
+    "da": "misinformationen",
+    "en": "the misinformation"
+   },
+   {
+    "da": "misinformation på nettet",
+    "en": "misinformation online"
+   }
+  ],
+  "related": [
+   {
+    "da": "desinformation",
+    "en": "disinformation"
+   },
+   {
+    "da": "falske nyheder",
+    "en": "fake news"
+   },
+   {
+    "da": "et rygte",
+    "en": "a rumor"
+   },
+   {
+    "da": "en løgn",
+    "en": "a lie"
+   }
+  ],
+  "sentence": {
+   "da": "**Misinformation** spredes hurtigt på sociale medier, selv når folk mener det godt.",
+   "en": "Misinformation spreads quickly on social media, even when people mean well."
+  }
+ },
+ "mistillid": {
+  "explanation": "\"En mistillid\" means \"distrust\", the feeling that someone cannot be trusted. It is the opposite of tillid (trust), and in politics a mistillidsvotum is a vote of no confidence.",
+  "forms": [
+   {
+    "da": "en mistillid",
+    "en": "distrust"
+   },
+   {
+    "da": "mistilliden",
+    "en": "the distrust"
+   },
+   {
+    "da": "gensidig mistillid",
+    "en": "mutual distrust"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   },
+   {
+    "da": "mistænksom",
+    "en": "suspicious"
+   },
+   {
+    "da": "en skepsis",
+    "en": "a skepticism"
+   },
+   {
+    "da": "en tvivl",
+    "en": "a doubt"
+   }
+  ],
+  "sentence": {
+   "da": "Der er stor **mistillid** mellem de to lande efter krigen.",
+   "en": "There is great distrust between the two countries after the war."
+  }
+ },
+ "mistænkelig": {
+  "explanation": "\"Mistænkelig\" means \"suspicious\", for something that looks wrong and makes others distrust it: en mistænkelig lyd (a suspicious sound). A person who feels distrust toward others is mistænksom, a different word.",
+  "forms": [
+   {
+    "da": "en mistænkelig person",
+    "en": "a suspicious person"
+   },
+   {
+    "da": "et mistænkeligt brev",
+    "en": "a suspicious letter"
+   },
+   {
+    "da": "mistænkelige forhold",
+    "en": "suspicious circumstances"
+   }
+  ],
+  "related": [
+   {
+    "da": "at mistænke",
+    "en": "to suspect"
+   },
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   },
+   {
+    "da": "tvivlsom",
+    "en": "doubtful"
+   },
+   {
+    "da": "mærkelig",
+    "en": "strange"
+   }
+  ],
+  "sentence": {
+   "da": "Manden virkede **mistænkelig**, fordi han skjulte sit ansigt.",
+   "en": "The man seemed suspicious because he hid his face."
+  }
+ },
+ "mistænksom": {
+  "explanation": "\"Mistænksom\" means \"suspicious\", for a person who does not trust others easily: en mistænksom nabo (a suspicious neighbor). Something that looks wrong is mistænkelig, a different word.",
+  "forms": [
+   {
+    "da": "en mistænksom hund",
+    "en": "a suspicious dog"
+   },
+   {
+    "da": "et mistænksomt blik",
+    "en": "a suspicious look"
+   },
+   {
+    "da": "mistænksomme øjne",
+    "en": "suspicious eyes"
+   }
+  ],
+  "related": [
+   {
+    "da": "skeptisk",
+    "en": "skeptical"
+   },
+   {
+    "da": "tillidsfuld",
+    "en": "trusting"
+   },
+   {
+    "da": "forsigtig",
+    "en": "careful"
+   },
+   {
+    "da": "en mistanke",
+    "en": "a suspicion"
+   }
+  ],
+  "sentence": {
+   "da": "Hunden er **mistænksom** over for fremmede, og den gøer højt.",
+   "en": "The dog is suspicious of strangers, and it barks loudly."
+  }
+ },
+ "mistænkt": {
+  "explanation": "\"Mistænkt\" means \"suspected\", for someone or something thought to be behind a crime or a problem: et mistænkt tilfælde (a suspected case). As a person word, en mistænkt is a suspect.",
+  "forms": [
+   {
+    "da": "en mistænkt person",
+    "en": "a suspected person"
+   },
+   {
+    "da": "et mistænkt tilfælde",
+    "en": "a suspected case"
+   },
+   {
+    "da": "mistænkte forhold",
+    "en": "suspected circumstances"
+   }
+  ],
+  "related": [
+   {
+    "da": "sigtet",
+    "en": "charged"
+   },
+   {
+    "da": "anholdt",
+    "en": "arrested"
+   },
+   {
+    "da": "skyldig",
+    "en": "guilty"
+   },
+   {
+    "da": "uskyldig",
+    "en": "innocent"
+   }
+  ],
+  "sentence": {
+   "da": "Manden er **mistænkt** for tyveriet, men han nægter.",
+   "en": "The man is suspected of the theft, but he denies it."
+  }
+ },
  "misundelig": {
   "explanation": "\"Misundelig\" means \"envious\", wanting what someone else has. Add på (of) and the person: Han er misundelig på sin kollega (He is envious of his coworker).",
   "forms": [
@@ -6806,6 +13073,84 @@
   "sentence": {
    "da": "Jeg er **misundelig** på din nye bil.",
    "en": "I am envious of your new car."
+  }
+ },
+ "misundelse": {
+  "explanation": "\"En misundelse\" means \"envy\", the unhappy feeling when someone else has something you want. The word for fear of losing someone's love to another person is jalousi (jealousy).",
+  "forms": [
+   {
+    "da": "en misundelse",
+    "en": "envy"
+   },
+   {
+    "da": "misundelsen",
+    "en": "the envy"
+   },
+   {
+    "da": "grøn af misundelse",
+    "en": "green with envy"
+   }
+  ],
+  "related": [
+   {
+    "da": "at misunde",
+    "en": "to begrudge"
+   },
+   {
+    "da": "skadefro",
+    "en": "gloating"
+   },
+   {
+    "da": "misundelig",
+    "en": "envious"
+   },
+   {
+    "da": "tilfreds",
+    "en": "content"
+   }
+  ],
+  "sentence": {
+   "da": "Hun følte **misundelse**, da veninden fik et drømmejob.",
+   "en": "She felt envy when her friend got a dream job."
+  }
+ },
+ "misvisende": {
+  "explanation": "\"Misvisende\" means \"misleading\", giving a false picture of something. It is often said about headlines, figures and information.",
+  "forms": [
+   {
+    "da": "en misvisende overskrift",
+    "en": "a misleading headline"
+   },
+   {
+    "da": "et misvisende tal",
+    "en": "a misleading number"
+   },
+   {
+    "da": "misvisende oplysninger",
+    "en": "misleading information"
+   }
+  ],
+  "related": [
+   {
+    "da": "vildledende",
+    "en": "deceptive"
+   },
+   {
+    "da": "forkert",
+    "en": "wrong"
+   },
+   {
+    "da": "unøjagtig",
+    "en": "inaccurate"
+   },
+   {
+    "da": "korrekt",
+    "en": "correct"
+   }
+  ],
+  "sentence": {
+   "da": "Overskriften er **misvisende**, fordi artiklen siger noget andet.",
+   "en": "The headline is misleading because the article says something else."
   }
  },
  "mit": {
@@ -6913,6 +13258,45 @@
    "en": "My sister loves fashion and buys a lot of clothes."
   }
  },
+ "moderigtig": {
+  "explanation": "\"Moderigtig\" means \"fashionable\", in line with what is in style right now. It is built from mode (fashion) and rigtig (right), so it is literally \"right for the fashion\".",
+  "forms": [
+   {
+    "da": "en moderigtig kjole",
+    "en": "a fashionable dress"
+   },
+   {
+    "da": "et moderigtigt udseende",
+    "en": "a fashionable look"
+   },
+   {
+    "da": "moderigtige sko",
+    "en": "fashionable shoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "modebevidst",
+    "en": "fashion-conscious"
+   },
+   {
+    "da": "trendy",
+    "en": "trendy"
+   },
+   {
+    "da": "gammeldags",
+    "en": "old-fashioned"
+   },
+   {
+    "da": "stilfuld",
+    "en": "stylish"
+   }
+  ],
+  "sentence": {
+   "da": "Den jakke er **moderigtig** nu, men måske ikke næste år.",
+   "en": "That jacket is fashionable now, but maybe not next year."
+  }
+ },
  "moderne": {
   "explanation": "\"Moderne\" means \"modern\", for things that are up to date, such as styles and art: moderne kunst (modern art). The opposite is gammeldags (old-fashioned).",
   "forms": [
@@ -6950,6 +13334,45 @@
   "sentence": {
    "da": "Vi bor i et **moderne** hus med store vinduer.",
    "en": "We live in a modern house with big windows."
+  }
+ },
+ "modgang": {
+  "explanation": "\"En modgang\" means \"adversity\", a period when things go badly and life is hard. It is the opposite of medgang (good fortune), and the two appear together in i medgang og modgang (in good times and bad).",
+  "forms": [
+   {
+    "da": "en modgang",
+    "en": "adversity"
+   },
+   {
+    "da": "modgangen",
+    "en": "the adversity"
+   },
+   {
+    "da": "i modgang",
+    "en": "in hard times"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vanskelighed",
+    "en": "a difficulty"
+   },
+   {
+    "da": "en modstand",
+    "en": "a resistance"
+   },
+   {
+    "da": "et nederlag",
+    "en": "a defeat"
+   },
+   {
+    "da": "en genvordighed",
+    "en": "a hardship"
+   }
+  ],
+  "sentence": {
+   "da": "Gode venner står ved din side, når du har **modgang**.",
+   "en": "Good friends stand by your side when you face adversity."
   }
  },
  "modig": {
@@ -6991,6 +13414,45 @@
    "en": "She is brave and dares to speak in front of a hundred people."
   }
  },
+ "modløs": {
+  "explanation": "\"Modløs\" means \"discouraged\", having lost heart and the will to keep trying. It is built from mod (courage) and -løs (without), so it is literally without courage.",
+  "forms": [
+   {
+    "da": "en modløs elev",
+    "en": "a discouraged pupil"
+   },
+   {
+    "da": "et modløst blik",
+    "en": "a discouraged look"
+   },
+   {
+    "da": "modløse mennesker",
+    "en": "discouraged people"
+   }
+  ],
+  "related": [
+   {
+    "da": "modig",
+    "en": "brave"
+   },
+   {
+    "da": "nedtrykt",
+    "en": "downcast"
+   },
+   {
+    "da": "håbløs",
+    "en": "hopeless"
+   },
+   {
+    "da": "opmuntret",
+    "en": "encouraged"
+   }
+  ],
+  "sentence": {
+   "da": "Efter det dårlige resultat blev hun **modløs** og ville give op.",
+   "en": "After the bad result she became discouraged and wanted to give up."
+  }
+ },
  "modsat": {
   "explanation": "\"Modsat\" means \"opposite\", the other way around: Før er det modsatte af efter (Before is the opposite of after).",
   "forms": [
@@ -7030,6 +13492,45 @@
    "en": "He went right, and I went in the opposite direction."
   }
  },
+ "modstandsdygtig": {
+  "explanation": "\"Modstandsdygtig\" means \"resilient\", able to resist harm such as illness, cold or stress, for people, plants and materials. It is built from modstand (resistance) and dygtig (skilled).",
+  "forms": [
+   {
+    "da": "en modstandsdygtig person",
+    "en": "a resilient person"
+   },
+   {
+    "da": "et modstandsdygtigt materiale",
+    "en": "a resilient material"
+   },
+   {
+    "da": "modstandsdygtige børn",
+    "en": "resilient children"
+   }
+  ],
+  "related": [
+   {
+    "da": "robust",
+    "en": "robust"
+   },
+   {
+    "da": "sårbar",
+    "en": "vulnerable"
+   },
+   {
+    "da": "udholdende",
+    "en": "enduring"
+   },
+   {
+    "da": "hårdfør",
+    "en": "hardy"
+   }
+  ],
+  "sentence": {
+   "da": "Planten er **modstandsdygtig** og klarer sig godt i frost.",
+   "en": "The plant is resilient and does well in frost."
+  }
+ },
  "moms": {
   "explanation": "\"Moms\" means \"VAT\" or \"sales tax\", the tax that is added to prices in shops. To ask about it, say: Er det med moms? (Is VAT included?)",
   "forms": [
@@ -7063,6 +13564,45 @@
   "sentence": {
    "da": "Prisen er tusind kroner med **moms**.",
    "en": "The price is a thousand kroner with VAT."
+  }
+ },
+ "moralsk": {
+  "explanation": "\"Moralsk\" means \"moral\", about what people feel is right and wrong, not about what the law says.",
+  "forms": [
+   {
+    "da": "en moralsk beslutning",
+    "en": "a moral decision"
+   },
+   {
+    "da": "et moralsk valg",
+    "en": "a moral choice"
+   },
+   {
+    "da": "moralske regler",
+    "en": "moral rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "umoralsk",
+    "en": "immoral"
+   },
+   {
+    "da": "etisk",
+    "en": "ethical"
+   },
+   {
+    "da": "en etik",
+    "en": "ethics"
+   },
+   {
+    "da": "en samvittighed",
+    "en": "a conscience"
+   }
+  ],
+  "sentence": {
+   "da": "Er det forkert at lyve? Det er et **moralsk** spørgsmål.",
+   "en": "Is it wrong to lie? That is a moral question."
   }
  },
  "morgenmad": {
@@ -7133,6 +13673,45 @@
   "sentence": {
    "da": "Han er **morsom** og får alle til at le.",
    "en": "He is funny and makes everyone laugh."
+  }
+ },
+ "mos": {
+  "explanation": "\"Et mos\" means both \"moss\", the soft green plant that grows on stones and trees, and \"mash\", food mashed soft. The other words in the sentence show which one is meant.",
+  "forms": [
+   {
+    "da": "et mos",
+    "en": "moss / mash"
+   },
+   {
+    "da": "mosset",
+    "en": "the moss / the mash"
+   },
+   {
+    "da": "mos på stenen",
+    "en": "moss on the stone"
+   },
+   {
+    "da": "kartoffelmos",
+    "en": "mashed potatoes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mose",
+    "en": "a bog"
+   },
+   {
+    "da": "en lav",
+    "en": "a lichen"
+   },
+   {
+    "da": "en pure",
+    "en": "a purée"
+   }
+  ],
+  "sentence": {
+   "da": "Der vokser **mos** på de gamle sten.",
+   "en": "Moss grows on the old stones."
   }
  },
  "motion": {
@@ -7248,6 +13827,45 @@
    "en": "For the salad, I buy fresh mozzarella and tomatoes."
   }
  },
+ "mudder": {
+  "explanation": "\"Et mudder\" means \"mud\", wet, soft earth that sticks to your shoes and sinks under your feet. It is used for the mud itself and has no plural.",
+  "forms": [
+   {
+    "da": "et mudder",
+    "en": "mud"
+   },
+   {
+    "da": "mudderet",
+    "en": "the mud"
+   },
+   {
+    "da": "mudder på støvlerne",
+    "en": "mud on the boots"
+   },
+   {
+    "da": "fast i mudderet",
+    "en": "stuck in the mud"
+   }
+  ],
+  "related": [
+   {
+    "da": "mudret",
+    "en": "muddy"
+   },
+   {
+    "da": "et dynd",
+    "en": "mire"
+   },
+   {
+    "da": "en pøl",
+    "en": "a puddle"
+   }
+  ],
+  "sentence": {
+   "da": "Efter regnen var marken fuld af **mudder**.",
+   "en": "After the rain the field was full of mud."
+  }
+ },
  "mulig": {
   "explanation": "\"Mulig\" means \"possible\": Det er muligt (It is possible). It is also in a useful set phrase: så hurtigt som muligt (as fast as possible).",
   "forms": [
@@ -7326,6 +13944,80 @@
    "en": "We are possibly going to Spain this summer."
   }
  },
+ "mundtlig": {
+  "explanation": "\"Mundtlig\" means \"oral\" or \"spoken\", done by speaking and not by writing. It comes from en mund (a mouth), so it is literally \"of the mouth\".",
+  "forms": [
+   {
+    "da": "en mundtlig eksamen",
+    "en": "an oral exam"
+   },
+   {
+    "da": "et mundtligt svar",
+    "en": "a spoken answer"
+   },
+   {
+    "da": "mundtlige aftaler",
+    "en": "spoken agreements"
+   }
+  ],
+  "related": [
+   {
+    "da": "skriftlig",
+    "en": "written"
+   },
+   {
+    "da": "verbal",
+    "en": "verbal"
+   },
+   {
+    "da": "mundtligt",
+    "en": "orally"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skal ikke skrive, fordi eksamen er **mundtlig**.",
+   "en": "I do not have to write because the exam is oral."
+  }
+ },
+ "munter": {
+  "explanation": "\"Munter\" means \"cheerful\", in a bright mood full of energy. It describes how someone acts and sounds, such as a laugh or a voice, more than a deep feeling.",
+  "forms": [
+   {
+    "da": "en munter pige",
+    "en": "a cheerful girl"
+   },
+   {
+    "da": "et muntert humør",
+    "en": "a cheerful mood"
+   },
+   {
+    "da": "muntre børn",
+    "en": "cheerful children"
+   }
+  ],
+  "related": [
+   {
+    "da": "glad",
+    "en": "happy"
+   },
+   {
+    "da": "opstemt",
+    "en": "in high spirits"
+   },
+   {
+    "da": "livlig",
+    "en": "lively"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **munter** og sang hele vejen hjem.",
+   "en": "She was cheerful and sang all the way home."
+  }
+ },
  "musik": {
   "explanation": "\"Musik\" means \"music\". It is used without en or \"et\": Jeg elsker musik (I love music). For a school lesson, Jeg har musik means \"I have music class\".",
   "forms": [
@@ -7396,6 +14088,84 @@
    "en": "My daughter is very musical and loves to sing."
   }
  },
+ "muskuløs": {
+  "explanation": "\"Muskuløs\" means \"muscular\", with big muscles you can see. It is about how a body looks, so a person can be stærk (strong) without being muskuløs.",
+  "forms": [
+   {
+    "da": "en muskuløs mand",
+    "en": "a muscular man"
+   },
+   {
+    "da": "et muskuløst legeme",
+    "en": "a muscular body"
+   },
+   {
+    "da": "muskuløse arme",
+    "en": "muscular arms"
+   }
+  ],
+  "related": [
+   {
+    "da": "atletisk",
+    "en": "athletic"
+   },
+   {
+    "da": "kraftig",
+    "en": "sturdy"
+   },
+   {
+    "da": "slank",
+    "en": "slim"
+   },
+   {
+    "da": "spinkel",
+    "en": "slight"
+   }
+  ],
+  "sentence": {
+   "da": "Gymnasten er **muskuløs**, fordi han træner hver dag.",
+   "en": "The gymnast is muscular because he trains every day."
+  }
+ },
+ "muslimsk": {
+  "explanation": "\"Muslimsk\" means \"Muslim\" and describes things linked to that faith. A person is en muslim (a Muslim), while muslimsk is used for things such as customs, food and prayer.",
+  "forms": [
+   {
+    "da": "en muslimsk tradition",
+    "en": "a Muslim tradition"
+   },
+   {
+    "da": "et muslimsk land",
+    "en": "a Muslim country"
+   },
+   {
+    "da": "muslimske højtider",
+    "en": "Muslim holidays"
+   }
+  ],
+  "related": [
+   {
+    "da": "islamisk",
+    "en": "Islamic"
+   },
+   {
+    "da": "en moske",
+    "en": "a mosque"
+   },
+   {
+    "da": "kristen",
+    "en": "Christian"
+   },
+   {
+    "da": "jødisk",
+    "en": "Jewish"
+   }
+  ],
+  "sentence": {
+   "da": "Ramadanen er en **muslimsk** tradition.",
+   "en": "Ramadan is a Muslim tradition."
+  }
+ },
  "mystisk": {
   "explanation": "\"Mystisk\" means \"mysterious\", strange and hard to explain. Mærkelig (strange) only says something is odd, but mystisk also hints that there is something behind it.",
   "forms": [
@@ -7433,6 +14203,49 @@
   "sentence": {
    "da": "Der står en **mystisk** mand uden for vores dør.",
    "en": "A mysterious man is standing outside our door."
+  }
+ },
+ "mytologi": {
+  "explanation": "\"En mytologi\" means \"mythology\", the old stories about gods and heroes that a people once believed in.",
+  "forms": [
+   {
+    "da": "en mytologi",
+    "en": "a mythology"
+   },
+   {
+    "da": "mytologien",
+    "en": "the mythology"
+   },
+   {
+    "da": "mytologier",
+    "en": "mythologies"
+   },
+   {
+    "da": "mytologierne",
+    "en": "the mythologies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en myte",
+    "en": "a myth"
+   },
+   {
+    "da": "et eventyr",
+    "en": "a fairy tale"
+   },
+   {
+    "da": "en legende",
+    "en": "a legend"
+   },
+   {
+    "da": "en saga",
+    "en": "a saga"
+   }
+  ],
+  "sentence": {
+   "da": "Thor er en figur i den nordiske **mytologi**.",
+   "en": "Thor is a figure in Norse mythology."
   }
  },
  "må jeg bede om regningen?": {
@@ -7505,6 +14318,80 @@
    "en": "The food was good. May I have the bill?"
   }
  },
+ "målrettet": {
+  "explanation": "\"Målrettet\" means \"goal-oriented\", working steadily toward a clear goal without getting distracted. It is built from et mål (a goal) and rettet (aimed), and it is a positive word for people, work and plans.",
+  "forms": [
+   {
+    "da": "en målrettet indsats",
+    "en": "a goal-oriented effort"
+   },
+   {
+    "da": "et målrettet arbejde",
+    "en": "goal-oriented work"
+   },
+   {
+    "da": "målrettede elever",
+    "en": "goal-oriented students"
+   }
+  ],
+  "related": [
+   {
+    "da": "fokuseret",
+    "en": "focused"
+   },
+   {
+    "da": "ambitiøs",
+    "en": "ambitious"
+   },
+   {
+    "da": "vedholdende",
+    "en": "persistent"
+   },
+   {
+    "da": "planløs",
+    "en": "aimless"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **målrettet** og ved præcis, hvad hun vil.",
+   "en": "She is goal-oriented and knows exactly what she wants."
+  }
+ },
+ "månedsvis": {
+  "explanation": "\"Månedsvis\" means \"for months\", used when something goes on for a long time counted in months. It is built from en måned (a month) and -vis, which turns a unit of time into \"for ... at a time\".",
+  "forms": [
+   {
+    "da": "Det tog månedsvis",
+    "en": "It took months"
+   },
+   {
+    "da": "Vi ventede månedsvis",
+    "en": "We waited for months"
+   }
+  ],
+  "related": [
+   {
+    "da": "ugevis",
+    "en": "for weeks"
+   },
+   {
+    "da": "dagevis",
+    "en": "for days"
+   },
+   {
+    "da": "årevis",
+    "en": "for years"
+   },
+   {
+    "da": "timevis",
+    "en": "for hours"
+   }
+  ],
+  "sentence": {
+   "da": "Vi ventede **månedsvis** på svar fra kommunen.",
+   "en": "We waited for months for an answer from the municipality."
+  }
+ },
  "måske": {
   "explanation": "\"Måske\" means \"maybe\" or \"perhaps\". Compare Kommer du? Ja! (Are you coming? Yes!) with Kommer du? Måske. (Are you coming? Maybe). It can also start a sentence: Måske regner det i morgen (Maybe it will rain tomorrow).",
   "forms": [
@@ -7540,6 +14427,45 @@
    "en": "Maybe he will come tomorrow."
   }
  },
+ "mægtig": {
+  "explanation": "\"Mægtig\" means \"mighty\" or \"powerful\", for rulers and nations with great strength, and for things big enough to impress. In everyday speech, it can also mean \"really\" before another word: mægtig flot (really nice).",
+  "forms": [
+   {
+    "da": "en mægtig konge",
+    "en": "a mighty king"
+   },
+   {
+    "da": "et mægtigt brøl",
+    "en": "a mighty roar"
+   },
+   {
+    "da": "mægtige bølger",
+    "en": "mighty waves"
+   }
+  ],
+  "related": [
+   {
+    "da": "stærk",
+    "en": "strong"
+   },
+   {
+    "da": "vældig",
+    "en": "huge"
+   },
+   {
+    "da": "enorm",
+    "en": "enormous"
+   },
+   {
+    "da": "indflydelsesrig",
+    "en": "influential"
+   }
+  ],
+  "sentence": {
+   "da": "Ørnen er en **mægtig** fugl med store vinger.",
+   "en": "The eagle is a mighty bird with large wings."
+  }
+ },
  "mælk": {
   "explanation": "\"Mælk\" means \"milk\": Jeg drikker mælk (I drink milk). To count it, use a measure: en liter mælk (a liter of milk).",
   "forms": [
@@ -7573,6 +14499,45 @@
   "sentence": {
    "da": "Jeg drikker et glas **mælk** hver morgen.",
    "en": "I drink a glass of milk every morning."
+  }
+ },
+ "mærkbar": {
+  "explanation": "\"Mærkbar\" means \"noticeable\", big enough that you can feel or see it. It is built from at mærke (to notice) and -bar (can be), so it literally means \"can be noticed\". It is used when something changes clearly, such as a price or a temperature.",
+  "forms": [
+   {
+    "da": "en mærkbar forskel",
+    "en": "a noticeable difference"
+   },
+   {
+    "da": "et mærkbart fald",
+    "en": "a noticeable drop"
+   },
+   {
+    "da": "mærkbare ændringer",
+    "en": "noticeable changes"
+   }
+  ],
+  "related": [
+   {
+    "da": "tydelig",
+    "en": "clear"
+   },
+   {
+    "da": "synlig",
+    "en": "visible"
+   },
+   {
+    "da": "umærkelig",
+    "en": "unnoticeable"
+   },
+   {
+    "da": "betydelig",
+    "en": "considerable"
+   }
+  ],
+  "sentence": {
+   "da": "Forskellen er **mærkbar**, og alle kan se den.",
+   "en": "The difference is noticeable and everyone can see it."
   }
  },
  "mærkelig": {
@@ -7647,6 +14612,45 @@
   "sentence": {
    "da": "Jeg har spist meget og er **mæt**.",
    "en": "I have eaten a lot and am full."
+  }
+ },
+ "mættende": {
+  "explanation": "\"Mættende\" means \"filling\", said about food that keeps you from getting hungry again soon.",
+  "forms": [
+   {
+    "da": "en mættende ret",
+    "en": "a filling dish"
+   },
+   {
+    "da": "et mættende måltid",
+    "en": "a filling meal"
+   },
+   {
+    "da": "mættende fødevarer",
+    "en": "filling foods"
+   }
+  ],
+  "related": [
+   {
+    "da": "mæt",
+    "en": "full"
+   },
+   {
+    "da": "nærende",
+    "en": "nourishing"
+   },
+   {
+    "da": "tung",
+    "en": "heavy"
+   },
+   {
+    "da": "let",
+    "en": "light"
+   }
+  ],
+  "sentence": {
+   "da": "Havregrød er **mættende**, og man bliver ikke hurtigt sulten.",
+   "en": "Oatmeal is filling and you do not get hungry quickly."
   }
  },
  "møbleret": {
@@ -7865,6 +14869,84 @@
   "sentence": {
    "da": "Granen er **mørkegrøn** hele året.",
    "en": "The fir tree is dark green all year."
+  }
+ },
+ "mørketid": {
+  "explanation": "\"En mørketid\" means \"a dark season\", the time of year with very short days and little daylight. In the far north, the sun does not rise at all for weeks.",
+  "forms": [
+   {
+    "da": "en mørketid",
+    "en": "a dark season"
+   },
+   {
+    "da": "mørketiden",
+    "en": "the dark season"
+   },
+   {
+    "da": "mørketider",
+    "en": "dark seasons"
+   },
+   {
+    "da": "mørketiderne",
+    "en": "the dark seasons"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mørke",
+    "en": "darkness"
+   },
+   {
+    "da": "en midnatssol",
+    "en": "a midnight sun"
+   },
+   {
+    "da": "en polarnat",
+    "en": "a polar night"
+   }
+  ],
+  "sentence": {
+   "da": "I årets **mørketid** er dagene meget korte.",
+   "en": "In the dark season of the year the days are very short."
+  }
+ },
+ "mørkhåret": {
+  "explanation": "\"Mørkhåret\" means \"dark-haired\", with dark hair, usually brown or black. It is built from mørk (dark), hår (hair) and the ending -et, a pattern Danes use to describe how someone looks.",
+  "forms": [
+   {
+    "da": "en mørkhåret mand",
+    "en": "a dark-haired man"
+   },
+   {
+    "da": "et mørkhåret barn",
+    "en": "a dark-haired child"
+   },
+   {
+    "da": "mørkhårede piger",
+    "en": "dark-haired girls"
+   }
+  ],
+  "related": [
+   {
+    "da": "lyshåret",
+    "en": "fair-haired"
+   },
+   {
+    "da": "rødhåret",
+    "en": "red-haired"
+   },
+   {
+    "da": "skaldet",
+    "en": "bald"
+   },
+   {
+    "da": "en brunette",
+    "en": "a brunette"
+   }
+  ],
+  "sentence": {
+   "da": "Han er høj og **mørkhåret**, og han har blå øjne.",
+   "en": "He is tall and dark-haired, and he has blue eyes."
   }
  },
  "müsli": {

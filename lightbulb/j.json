@@ -42,6 +42,170 @@
    "en": "The dog wants to chase the cat out of the garden."
   }
  },
+ "at jamre": {
+  "explanation": "\"At jamre\" means \"to wail\" or \"to whine\": to grumble in a sad, drawn-out way, often about small things and as if you feel sorry for yourself: Han jamrer over vejret (He whines about the weather).",
+  "forms": [
+   {
+    "da": "at jamre",
+    "en": "to wail / whine"
+   },
+   {
+    "da": "jeg jamrer",
+    "en": "I wail / whine"
+   },
+   {
+    "da": "jeg jamrede",
+    "en": "I wailed / whined"
+   },
+   {
+    "da": "jeg har jamret",
+    "en": "I have wailed / whined"
+   }
+  ],
+  "related": [
+   {
+    "da": "at klage",
+    "en": "to complain"
+   },
+   {
+    "da": "at klynke",
+    "en": "to whimper"
+   },
+   {
+    "da": "at brokke sig",
+    "en": "to gripe"
+   }
+  ],
+  "sentence": {
+   "da": "Hun bliver ved med at **jamre** over, at det regner.",
+   "en": "She keeps whining that it is raining."
+  }
+ },
+ "at juble": {
+  "explanation": "\"At juble\" means \"to cheer\", to shout with joy, often together with others: Folk jubler, når holdet scorer (People cheer when the team scores).",
+  "forms": [
+   {
+    "da": "at juble",
+    "en": "to cheer"
+   },
+   {
+    "da": "jeg jubler",
+    "en": "I cheer"
+   },
+   {
+    "da": "jeg jublede",
+    "en": "I cheered"
+   },
+   {
+    "da": "jeg har jublet",
+    "en": "I have cheered"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jubel",
+    "en": "jubilation"
+   },
+   {
+    "da": "at klappe",
+    "en": "to clap"
+   },
+   {
+    "da": "at fejre",
+    "en": "to celebrate"
+   }
+  ],
+  "sentence": {
+   "da": "Publikum begynder at **juble**, når sangeren kommer ind.",
+   "en": "The audience starts to cheer when the singer comes in."
+  }
+ },
+ "at justere": {
+  "explanation": "\"At justere\" means \"to adjust\", to make a small change so that something becomes exactly right. It fits prices, plans, numbers and machines: Vi justerer planen (We are adjusting the plan).",
+  "forms": [
+   {
+    "da": "at justere",
+    "en": "to adjust"
+   },
+   {
+    "da": "jeg justerer",
+    "en": "I adjust"
+   },
+   {
+    "da": "jeg justerede",
+    "en": "I adjusted"
+   },
+   {
+    "da": "jeg har justeret",
+    "en": "I have adjusted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilpasse",
+    "en": "to adapt"
+   },
+   {
+    "da": "at rette til",
+    "en": "to correct"
+   },
+   {
+    "da": "at finjustere",
+    "en": "to fine-tune"
+   },
+   {
+    "da": "at regulere",
+    "en": "to regulate"
+   }
+  ],
+  "sentence": {
+   "da": "Mekanikeren vil **justere** bremserne, fordi de er for løse.",
+   "en": "The mechanic wants to adjust the brakes because they are too loose."
+  }
+ },
+ "en jagt": {
+  "explanation": "\"En jagt\" means \"a hunt\", chasing wild animals to catch or shoot them. It is also used for any eager search: jagten på en bolig (the hunt for a home). The verb is at jage (to chase).",
+  "forms": [
+   {
+    "da": "en jagt",
+    "en": "a hunt"
+   },
+   {
+    "da": "jagten",
+    "en": "the hunt"
+   },
+   {
+    "da": "jagter",
+    "en": "hunts"
+   },
+   {
+    "da": "jagterne",
+    "en": "the hunts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jæger",
+    "en": "a hunter"
+   },
+   {
+    "da": "et vildt",
+    "en": "a game animal"
+   },
+   {
+    "da": "et gevær",
+    "en": "a rifle"
+   },
+   {
+    "da": "et bytte",
+    "en": "prey"
+   }
+  ],
+  "sentence": {
+   "da": "Mange danskere går på **jagt** efter hjorte om efteråret.",
+   "en": "Many Danes go hunting for deer in the autumn."
+  }
+ },
  "en jakke": {
   "explanation": "\"En jakke\" means \"a jacket\". A thicker, longer one is en frakke (a coat).",
   "forms": [
@@ -122,6 +286,49 @@
   "sentence": {
    "da": "Min ven er **japaner**, og han bor i Tokyo.",
    "en": "My friend is Japanese, and he lives in Tokyo."
+  }
+ },
+ "en jobannonce": {
+  "explanation": "\"En jobannonce\" means \"a job ad\", a notice that a company is looking for a new employee. It lists the tasks and what the company wants from you, and it ends with how to get in touch.",
+  "forms": [
+   {
+    "da": "en jobannonce",
+    "en": "a job ad"
+   },
+   {
+    "da": "jobannoncen",
+    "en": "the job ad"
+   },
+   {
+    "da": "jobannoncer",
+    "en": "job ads"
+   },
+   {
+    "da": "jobannoncerne",
+    "en": "the job ads"
+   }
+  ],
+  "related": [
+   {
+    "da": "en stillingsannonce",
+    "en": "a job posting"
+   },
+   {
+    "da": "en ansøgning",
+    "en": "an application"
+   },
+   {
+    "da": "en ansøger",
+    "en": "an applicant"
+   },
+   {
+    "da": "en jobsamtale",
+    "en": "a job interview"
+   }
+  ],
+  "sentence": {
+   "da": "I en **jobannonce** står der, hvilke opgaver du skal løse.",
+   "en": "A job ad says which tasks you will do."
   }
  },
  "en jobsamtale": {
@@ -210,6 +417,92 @@
    "en": "His joke made us all laugh."
   }
  },
+ "en jomfru": {
+  "explanation": "\"En jomfru\" means \"a virgin\" or \"a maiden\", a young woman, mostly in old stories and fairy tales. It is also in fixed names: Jomfru Maria (the Virgin Mary), and Jomfruen is the star sign Virgo. Today the word is rare for a living person.",
+  "forms": [
+   {
+    "da": "en jomfru",
+    "en": "a virgin / maiden"
+   },
+   {
+    "da": "jomfruen",
+    "en": "the virgin / maiden"
+   },
+   {
+    "da": "jomfruer",
+    "en": "virgins / maidens"
+   },
+   {
+    "da": "jomfruerne",
+    "en": "the virgins / maidens"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mø",
+    "en": "a maiden"
+   },
+   {
+    "da": "en pige",
+    "en": "a girl"
+   },
+   {
+    "da": "en jomfrurejse",
+    "en": "a maiden voyage"
+   },
+   {
+    "da": "en prinsesse",
+    "en": "a princess"
+   }
+  ],
+  "sentence": {
+   "da": "I eventyret redder ridderen den smukke **jomfru** fra tårnet.",
+   "en": "In the fairy tale the knight saves the beautiful maiden from the tower."
+  }
+ },
+ "en jordemoder": {
+  "explanation": "\"En jordemoder\" means \"a midwife\", a trained health worker who helps women while they are expecting and when a baby is born. In Denmark most births are led by a jordemoder, and a doctor comes only if there are problems.",
+  "forms": [
+   {
+    "da": "en jordemoder",
+    "en": "a midwife"
+   },
+   {
+    "da": "jordemoderen",
+    "en": "the midwife"
+   },
+   {
+    "da": "jordemødre",
+    "en": "midwives"
+   },
+   {
+    "da": "jordemødrene",
+    "en": "the midwives"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fødsel",
+    "en": "a birth"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "en fødselslæge",
+    "en": "an obstetrician"
+   },
+   {
+    "da": "en graviditet",
+    "en": "a pregnancy"
+   }
+  ],
+  "sentence": {
+   "da": "En **jordemoder** hjælper kvinden, mens hun føder.",
+   "en": "A midwife helps the woman while she gives birth."
+  }
+ },
  "en jordnød": {
   "explanation": "\"En jordnød\" means \"a peanut\", built from jord (ground) and nød (nut). It grows under the ground, which explains the name.",
   "forms": [
@@ -251,6 +544,49 @@
   "sentence": {
    "da": "Jeg åbner skallen og spiser en **jordnød**.",
    "en": "I open the shell and eat a peanut."
+  }
+ },
+ "en journal": {
+  "explanation": "\"En journal\" means \"a medical record\", the file where a doctor or a hospital writes down your health history. It is also used for a case file at other offices. Do not use it for a diary: that is en dagbog (a diary).",
+  "forms": [
+   {
+    "da": "en journal",
+    "en": "a medical record"
+   },
+   {
+    "da": "journalen",
+    "en": "the medical record"
+   },
+   {
+    "da": "journaler",
+    "en": "medical records"
+   },
+   {
+    "da": "journalerne",
+    "en": "the medical records"
+   }
+  ],
+  "related": [
+   {
+    "da": "et tidsskrift",
+    "en": "a journal (periodical)"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   },
+   {
+    "da": "en sygehistorie",
+    "en": "a medical history"
+   },
+   {
+    "da": "en lægeerklæring",
+    "en": "a medical certificate"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen skriver i din **journal**, hvilken medicin du har fået.",
+   "en": "The doctor writes in your medical record which medicine you have gotten."
   }
  },
  "en journalist": {
@@ -542,6 +878,49 @@
    "en": "We always sing a Christmas carol at the Christmas tree."
   }
  },
+ "en julestjerne": {
+  "explanation": "\"En julestjerne\" means \"a poinsettia\", the plant with red leaves that many Danes put in the window before Christmas. It can also mean a star decoration for the tree or the window, so the situation shows which one is meant.",
+  "forms": [
+   {
+    "da": "en julestjerne",
+    "en": "a poinsettia"
+   },
+   {
+    "da": "julestjernen",
+    "en": "the poinsettia"
+   },
+   {
+    "da": "julestjerner",
+    "en": "poinsettias"
+   },
+   {
+    "da": "julestjernerne",
+    "en": "the poinsettias"
+   }
+  ],
+  "related": [
+   {
+    "da": "et juletræ",
+    "en": "a Christmas tree"
+   },
+   {
+    "da": "en julekalender",
+    "en": "an advent calendar"
+   },
+   {
+    "da": "en adventskrans",
+    "en": "an advent wreath"
+   },
+   {
+    "da": "en julepynt",
+    "en": "Christmas decoration"
+   }
+  ],
+  "sentence": {
+   "da": "I december står der en rød **julestjerne** i vinduet i stuen.",
+   "en": "In December a red poinsettia stands in the living room window."
+  }
+ },
  "en jungle": {
   "explanation": "\"En jungle\" means \"a jungle\", the thick, hot tropical land full of plants and trees. It also means a confusing mess: en jungle af regler (a jungle of rules).",
   "forms": [
@@ -579,6 +958,260 @@
   "sentence": {
    "da": "Tigeren bor i en tæt **jungle**.",
    "en": "The tiger lives in a dense jungle."
+  }
+ },
+ "en jurist": {
+  "explanation": "\"En jurist\" means \"a legal professional\", someone with a university degree in law. A jurist may work for the state, a company or a union. The word is wider than the English lawyer, which often means someone who argues cases: that is en advokat (a lawyer who pleads cases).",
+  "forms": [
+   {
+    "da": "en jurist",
+    "en": "a lawyer"
+   },
+   {
+    "da": "juristen",
+    "en": "the lawyer"
+   },
+   {
+    "da": "jurister",
+    "en": "lawyers"
+   },
+   {
+    "da": "juristerne",
+    "en": "the lawyers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en anklager",
+    "en": "a prosecutor"
+   },
+   {
+    "da": "en ret",
+    "en": "a court"
+   }
+  ],
+  "sentence": {
+   "da": "Han er uddannet **jurist** og arbejder i et ministerium.",
+   "en": "He is a trained legal professional and works in a ministry."
+  }
+ },
+ "en jury": {
+  "explanation": "\"En jury\" means \"a jury\", a group of people who judge something. In Denmark it is used mostly for a talent show or a prize, where the group gives points or picks the winner.",
+  "forms": [
+   {
+    "da": "en jury",
+    "en": "a jury"
+   },
+   {
+    "da": "juryen",
+    "en": "the jury"
+   },
+   {
+    "da": "juryer",
+    "en": "juries"
+   },
+   {
+    "da": "juryerne",
+    "en": "the juries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en domstol",
+    "en": "a court"
+   },
+   {
+    "da": "en konkurrence",
+    "en": "a contest"
+   },
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en bedømmelse",
+    "en": "an assessment"
+   }
+  ],
+  "sentence": {
+   "da": "I tv-programmet giver en **jury** point til hver deltager.",
+   "en": "In the TV show a jury gives points to each contestant."
+  }
+ },
+ "en jyde": {
+  "explanation": "\"En jyde\" means \"a Jutlander\", a person from the large part of Denmark that is connected to Germany. Their way of speaking is called jysk (Jutlandic), a dialect that can be hard to understand for other Danes.",
+  "forms": [
+   {
+    "da": "en jyde",
+    "en": "a Jutlander"
+   },
+   {
+    "da": "jyden",
+    "en": "the Jutlander"
+   },
+   {
+    "da": "jyder",
+    "en": "Jutlanders"
+   },
+   {
+    "da": "jyderne",
+    "en": "the Jutlanders"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fynbo",
+    "en": "a person from Funen"
+   },
+   {
+    "da": "en sjællænder",
+    "en": "a person from Zealand"
+   },
+   {
+    "da": "en bornholmer",
+    "en": "a person from Bornholm"
+   },
+   {
+    "da": "en københavner",
+    "en": "a Copenhagener"
+   }
+  ],
+  "sentence": {
+   "da": "Min nabo er **jyde** og kommer fra Aalborg.",
+   "en": "My neighbor is a Jutlander and comes from Aalborg."
+  }
+ },
+ "en jæger": {
+  "explanation": "\"En jæger\" means \"a hunter\", a person who shoots wild animals, usually in forests and fields. In Denmark, a hunter needs a license called et jagttegn (a hunting license).",
+  "forms": [
+   {
+    "da": "en jæger",
+    "en": "a hunter"
+   },
+   {
+    "da": "jægeren",
+    "en": "the hunter"
+   },
+   {
+    "da": "jægere",
+    "en": "hunters"
+   },
+   {
+    "da": "jægerne",
+    "en": "the hunters"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vildt",
+    "en": "game (hunted animals)"
+   },
+   {
+    "da": "en jagt",
+    "en": "a hunt"
+   },
+   {
+    "da": "en skytte",
+    "en": "a shooter"
+   },
+   {
+    "da": "et gevær",
+    "en": "a rifle"
+   }
+  ],
+  "sentence": {
+   "da": "En **jæger** skyder hjorte og fasaner i skoven.",
+   "en": "A hunter shoots deer and pheasants in the forest."
+  }
+ },
+ "en jætte": {
+  "explanation": "\"En jætte\" means \"a giant (Norse mythology)\". In old Norse stories, jætter are huge beings who live in the wild and are often enemies of the gods. Ancient stone burial chambers are called jættestuer (giants' chambers), because people once believed giants built them.",
+  "forms": [
+   {
+    "da": "en jætte",
+    "en": "a giant (Norse mythology)"
+   },
+   {
+    "da": "jætten",
+    "en": "the giant"
+   },
+   {
+    "da": "jætter",
+    "en": "giants"
+   },
+   {
+    "da": "jætterne",
+    "en": "the giants"
+   }
+  ],
+  "related": [
+   {
+    "da": "en trold",
+    "en": "a troll"
+   },
+   {
+    "da": "en dværg",
+    "en": "a dwarf"
+   },
+   {
+    "da": "et uhyre",
+    "en": "a monster"
+   },
+   {
+    "da": "en alf",
+    "en": "an elf"
+   }
+  ],
+  "sentence": {
+   "da": "I de gamle nordiske sagn bor der en **jætte** i bjerget.",
+   "en": "In the old Norse legends a giant lives in the mountain."
+  }
+ },
+ "en jøde": {
+  "explanation": "\"En jøde\" means \"a Jew\", a person who belongs to the Jewish people or religion. Danish writes jøde with a small j. The word for Jewish is jødisk.",
+  "forms": [
+   {
+    "da": "en jøde",
+    "en": "a Jew"
+   },
+   {
+    "da": "jøden",
+    "en": "the Jew"
+   },
+   {
+    "da": "jøder",
+    "en": "Jews"
+   },
+   {
+    "da": "jøderne",
+    "en": "the Jews"
+   }
+  ],
+  "related": [
+   {
+    "da": "en rabbiner",
+    "en": "a rabbi"
+   },
+   {
+    "da": "jødedom",
+    "en": "Judaism"
+   },
+   {
+    "da": "en kristen",
+    "en": "a Christian"
+   },
+   {
+    "da": "en muslim",
+    "en": "a Muslim"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven er **jøde** og går i synagoge om lørdagen.",
+   "en": "My friend is Jewish and goes to synagogue on Saturdays."
   }
  },
  "et jakkesæt": {
@@ -663,6 +1296,49 @@
    "en": "I like my job at the office."
   }
  },
+ "et jobcenter": {
+  "explanation": "\"Et jobcenter\" means \"a job center\", the public office run by the local council where people without work get help finding a new job and applying for support money.",
+  "forms": [
+   {
+    "da": "et jobcenter",
+    "en": "a job center"
+   },
+   {
+    "da": "jobcenteret",
+    "en": "the job center"
+   },
+   {
+    "da": "jobcentre",
+    "en": "job centers"
+   },
+   {
+    "da": "jobcentrene",
+    "en": "the job centers"
+   }
+  ],
+  "related": [
+   {
+    "da": "dagpenge",
+    "en": "unemployment benefit"
+   },
+   {
+    "da": "en kommune",
+    "en": "a municipality"
+   },
+   {
+    "da": "arbejdsløs",
+    "en": "unemployed"
+   },
+   {
+    "da": "en sagsbehandler",
+    "en": "a case worker"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunens **jobcenter** hjælper folk uden arbejde med at finde et nyt.",
+   "en": "The municipality's job center helps people without work find a new one."
+  }
+ },
  "et jordbær": {
   "explanation": "\"Et jordbær\" means \"a strawberry\". It is made of jord (earth, ground) and et bær (a berry). Jord also means soil: Planten står i jord (The plant is in the soil).",
   "forms": [
@@ -743,6 +1419,45 @@
   "sentence": {
    "da": "Husene faldt sammen efter et **jordskælv**.",
    "en": "The houses collapsed after an earthquake."
+  }
+ },
+ "et jubilæum": {
+  "explanation": "\"Et jubilæum\" means \"an anniversary\", a special anniversary of a round number of years, such as 25 or 50, for a company, a club or someone's job. A couple's yearly anniversary is a different word, bryllupsdag.",
+  "forms": [
+   {
+    "da": "et jubilæum",
+    "en": "an anniversary"
+   },
+   {
+    "da": "jubilæet",
+    "en": "the anniversary"
+   },
+   {
+    "da": "jubilæer",
+    "en": "anniversaries"
+   },
+   {
+    "da": "jubilæerne",
+    "en": "the anniversaries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jubilar",
+    "en": "a person being honored"
+   },
+   {
+    "da": "en mærkedag",
+    "en": "a milestone day"
+   },
+   {
+    "da": "en fødselsdag",
+    "en": "a birthday"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaet fejrer sit 25-års **jubilæum** med en stor fest.",
+   "en": "The company is celebrating its 25th anniversary with a big party."
   }
  },
  "et julesalg": {
@@ -1871,6 +2586,45 @@
    "en": "Aren't you coming? Yes, I am!"
   }
  },
+ "jo ... desto": {
+  "explanation": "\"Jo ... desto\" means \"the ... the\", for two things that grow together. Jo starts the first part and desto starts the second. After desto and its word, the verb comes next: desto hurtigere bliver du (the faster you get).",
+  "forms": [
+   {
+    "da": "Jo mere du øver, desto bedre bliver du",
+    "en": "The more you practice, the better you get"
+   },
+   {
+    "da": "Jo højere op, desto koldere",
+    "en": "The higher up, the colder"
+   },
+   {
+    "da": "Jo flere, desto bedre",
+    "en": "The more, the better"
+   }
+  ],
+  "related": [
+   {
+    "da": "efterhånden som",
+    "en": "as time goes on"
+   },
+   {
+    "da": "i takt med at",
+    "en": "in step with"
+   },
+   {
+    "da": "mere og mere",
+    "en": "more and more"
+   },
+   {
+    "da": "jo før jo bedre",
+    "en": "the sooner, the better"
+   }
+  ],
+  "sentence": {
+   "da": "Vi siger **jo ... desto**, når to ting vokser sammen.",
+   "en": "We say jo ... desto when two things grow together."
+  }
+ },
  "jord": {
   "explanation": "\"Jord\" means \"earth\" or \"soil\": the soil that plants grow in, and also the ground you stand on. With a capital letter, Jorden is the planet Earth. For the floor inside a house, Danes say gulv (floor), not jord.",
   "forms": [
@@ -1904,6 +2658,45 @@
   "sentence": {
    "da": "Planter har brug for vand og **jord**.",
    "en": "Plants need water and soil."
+  }
+ },
+ "jubel": {
+  "explanation": "\"En jubel\" means \"cheering\" or \"jubilation\", the loud joy of many people at once, like a crowd at a concert. It is mostly used without en.",
+  "forms": [
+   {
+    "da": "en jubel",
+    "en": "cheering"
+   },
+   {
+    "da": "jubelen",
+    "en": "the cheering"
+   },
+   {
+    "da": "Der var jubel i salen",
+    "en": "There was jubilation in the hall"
+   }
+  ],
+  "related": [
+   {
+    "da": "en klapsalve",
+    "en": "a burst of applause"
+   },
+   {
+    "da": "et bifald",
+    "en": "applause"
+   },
+   {
+    "da": "en begejstring",
+    "en": "enthusiasm"
+   },
+   {
+    "da": "et hurra",
+    "en": "a hooray"
+   }
+  ],
+  "sentence": {
+   "da": "Efter målet brød der **jubel** ud på tribunen.",
+   "en": "After the goal, cheering broke out in the stands."
   }
  },
  "juice": {
@@ -2130,6 +2923,271 @@
   "sentence": {
    "da": "Det er lyst længe i **juni**.",
    "en": "It stays light for a long time in June."
+  }
+ },
+ "jura": {
+  "explanation": "\"Jura\" means \"law\" as a field of study and a profession, not one single law: Hun læser jura på universitetet (She studies law at the university).",
+  "forms": [
+   {
+    "da": "at læse jura",
+    "en": "to study law"
+   },
+   {
+    "da": "en jurastuderende",
+    "en": "a law student"
+   },
+   {
+    "da": "jura og økonomi",
+    "en": "law and economics"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jurist",
+    "en": "a legal expert"
+   },
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en ret",
+    "en": "a court"
+   },
+   {
+    "da": "juridisk",
+    "en": "legal"
+   }
+  ],
+  "sentence": {
+   "da": "Hun læser **jura** for at blive advokat.",
+   "en": "She studies law to become a lawyer."
+  }
+ },
+ "juridisk": {
+  "explanation": "\"Juridisk\" means \"legal\" in the sense of law and courts: Det er et juridisk problem, ikke et politisk (It is a legal problem, not a political one). Do not mix it up with lovlig, which means \"allowed by law\".",
+  "forms": [
+   {
+    "da": "en juridisk rådgiver",
+    "en": "a legal adviser"
+   },
+   {
+    "da": "en juridisk kontrakt",
+    "en": "a legal contract"
+   },
+   {
+    "da": "juridiske spørgsmål",
+    "en": "legal questions"
+   }
+  ],
+  "related": [
+   {
+    "da": "ulovlig",
+    "en": "illegal"
+   },
+   {
+    "da": "en jurist",
+    "en": "a lawyer"
+   },
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   }
+  ],
+  "sentence": {
+   "da": "En advokat kan give dig **juridisk** hjælp med kontrakten.",
+   "en": "A lawyer can give you legal help with the contract."
+  }
+ },
+ "jysk": {
+  "explanation": "\"Jysk\" means \"Jutlandic\", from or about Jylland (Jutland), the part of Denmark that is joined to the rest of Europe. It is also the name of the dialect spoken there.",
+  "forms": [
+   {
+    "da": "en jysk by",
+    "en": "a Jutlandic town"
+   },
+   {
+    "da": "et jysk ord",
+    "en": "a Jutlandic word"
+   },
+   {
+    "da": "jyske dialekter",
+    "en": "Jutlandic dialects"
+   }
+  ],
+  "related": [
+   {
+    "da": "en jyde",
+    "en": "a Jutlander"
+   },
+   {
+    "da": "fynsk",
+    "en": "from Funen"
+   },
+   {
+    "da": "en sjællænder",
+    "en": "a Zealander"
+   },
+   {
+    "da": "bornholmsk",
+    "en": "from Bornholm"
+   }
+  ],
+  "sentence": {
+   "da": "Min mormor fra Aalborg taler **jysk**.",
+   "en": "My grandmother from Aalborg speaks Jutlandic."
+  }
+ },
+ "jævnligt": {
+  "explanation": "\"Jævnligt\" means \"regularly\", again and again with similar gaps, but not on fixed days: Jeg ringer til min mor jævnligt (I call my mother regularly). It comes from jævn (even).",
+  "forms": [
+   {
+    "da": "Jeg løber jævnligt",
+    "en": "I run regularly"
+   },
+   {
+    "da": "Vi mødes jævnligt",
+    "en": "We meet regularly"
+   },
+   {
+    "da": "Besøg os jævnligt",
+    "en": "Visit us regularly"
+   }
+  ],
+  "related": [
+   {
+    "da": "regelmæssigt",
+    "en": "at set intervals"
+   },
+   {
+    "da": "tit",
+    "en": "often"
+   },
+   {
+    "da": "ofte",
+    "en": "frequently"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg går **jævnligt** ture for at holde mig i form.",
+   "en": "I go for walks regularly to stay in shape."
+  }
+ },
+ "jødedom": {
+  "explanation": "\"Jødedom\" means \"Judaism\", the religion of the Jewish people. Danish writes it with a small letter, and often as jødedommen: I jødedommen hviler man på sabbatten (In Judaism, people rest on the Sabbath).",
+  "forms": [
+   {
+    "da": "jødedom",
+    "en": "Judaism"
+   },
+   {
+    "da": "jødedommen",
+    "en": "Judaism"
+   },
+   {
+    "da": "jødisk kultur",
+    "en": "Jewish culture"
+   }
+  ],
+  "related": [
+   {
+    "da": "en synagoge",
+    "en": "a synagogue"
+   },
+   {
+    "da": "en rabbiner",
+    "en": "a rabbi"
+   },
+   {
+    "da": "kristendom",
+    "en": "Christianity"
+   },
+   {
+    "da": "islam",
+    "en": "Islam"
+   }
+  ],
+  "sentence": {
+   "da": "Han har læst meget om **jødedom** og dens historie.",
+   "en": "He has read a lot about Judaism and its history."
+  }
+ },
+ "jødisk": {
+  "explanation": "\"Jødisk\" means \"Jewish\" and describes people, religion and traditions: jødisk mad (Jewish food). A person is en jøde (a Jew), and the religion is jødedom (Judaism).",
+  "forms": [
+   {
+    "da": "en jødisk ven",
+    "en": "a Jewish friend"
+   },
+   {
+    "da": "et jødisk samfund",
+    "en": "a Jewish community"
+   },
+   {
+    "da": "jødiske traditioner",
+    "en": "Jewish traditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en synagoge",
+    "en": "a synagogue"
+   },
+   {
+    "da": "en rabbiner",
+    "en": "a rabbi"
+   },
+   {
+    "da": "kristen",
+    "en": "Christian"
+   },
+   {
+    "da": "muslimsk",
+    "en": "Muslim"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven er **jødisk** og fejrer Hanukkah i december.",
+   "en": "My friend is Jewish and celebrates Hanukkah in December."
+  }
+ },
+ "jøsses": {
+  "explanation": "\"Jøsses\" means \"gosh\", a mild exclamation when something surprises you, sometimes with a little worry or amusement mixed in. It can stand alone or start a sentence.",
+  "forms": [
+   {
+    "da": "Jøsses!",
+    "en": "Gosh!"
+   },
+   {
+    "da": "Jøsses, hvor er det koldt!",
+    "en": "Gosh, it is so cold!"
+   },
+   {
+    "da": "Jøsses, er klokken allerede otte?",
+    "en": "Gosh, is it already eight?"
+   }
+  ],
+  "related": [
+   {
+    "da": "du godeste",
+    "en": "good heavens"
+   },
+   {
+    "da": "hold da op",
+    "en": "wow"
+   },
+   {
+    "da": "åh nej",
+    "en": "oh no"
+   }
+  ],
+  "sentence": {
+   "da": "**Jøsses**, hvor er der mange mennesker her!",
+   "en": "Gosh, there are so many people here!"
   }
  }
 }

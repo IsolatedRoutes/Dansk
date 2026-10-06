@@ -38,6 +38,260 @@
    "en": "You are all my friends."
   }
  },
+ "at iagttage": {
+  "explanation": "\"At iagttage\" means \"to observe\": to watch something carefully, on purpose and over some time, to learn about it, such as animals, weather or people. Unlike at se (to see), it needs attention.",
+  "forms": [
+   {
+    "da": "at iagttage",
+    "en": "to observe"
+   },
+   {
+    "da": "jeg iagttager",
+    "en": "I observe"
+   },
+   {
+    "da": "jeg iagttog",
+    "en": "I observed"
+   },
+   {
+    "da": "jeg har iagttaget",
+    "en": "I have observed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en iagttagelse",
+    "en": "an observation"
+   },
+   {
+    "da": "at betragte",
+    "en": "to look at"
+   },
+   {
+    "da": "at overvåge",
+    "en": "to monitor"
+   },
+   {
+    "da": "at studere",
+    "en": "to study"
+   }
+  ],
+  "sentence": {
+   "da": "Forskeren vil **iagttage** ulvene i flere uger og skrive noter.",
+   "en": "The researcher wants to observe the wolves for several weeks and write notes."
+  }
+ },
+ "at identificere": {
+  "explanation": "\"At identificere\" means \"to identify\", to work out exactly who or what someone or something is. To prove who you are, add sig: Jeg skal identificere mig (I have to identify myself).",
+  "forms": [
+   {
+    "da": "at identificere",
+    "en": "to identify"
+   },
+   {
+    "da": "jeg identificerer",
+    "en": "I identify"
+   },
+   {
+    "da": "jeg identificerede",
+    "en": "I identified"
+   },
+   {
+    "da": "jeg har identificeret",
+    "en": "I have identified"
+   }
+  ],
+  "related": [
+   {
+    "da": "en identitet",
+    "en": "an identity"
+   },
+   {
+    "da": "at genkende",
+    "en": "to recognize"
+   },
+   {
+    "da": "at udpege",
+    "en": "to point out"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet kan **identificere** manden på billedet.",
+   "en": "The police can identify the man in the picture."
+  }
+ },
+ "at igangsætte": {
+  "explanation": "\"At igangsætte\" means \"to initiate\": to get a project, a process or an investigation going. It belongs to official and business language: Ministeriet igangsætter en undersøgelse (The ministry is starting a study). In everyday talk, at starte (to start) is more usual.",
+  "forms": [
+   {
+    "da": "at igangsætte",
+    "en": "to initiate"
+   },
+   {
+    "da": "jeg igangsætter",
+    "en": "I initiate"
+   },
+   {
+    "da": "jeg igangsatte",
+    "en": "I initiated"
+   },
+   {
+    "da": "jeg har igangsat",
+    "en": "I have initiated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at påbegynde",
+    "en": "to begin"
+   },
+   {
+    "da": "at iværksætte",
+    "en": "to launch"
+   },
+   {
+    "da": "at sætte i gang",
+    "en": "to get started"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **igangsætte** byggeriet af den nye skole.",
+   "en": "The city wants to start the construction of the new school."
+  }
+ },
+ "at ignorere": {
+  "explanation": "\"At ignorere\" means \"to ignore\", to pay no attention to something on purpose. It is used for people and also for things like rules, warnings and messages: Han ignorerer alle beskeder (He ignores all messages).",
+  "forms": [
+   {
+    "da": "at ignorere",
+    "en": "to ignore"
+   },
+   {
+    "da": "jeg ignorerer",
+    "en": "I ignore"
+   },
+   {
+    "da": "jeg ignorerede",
+    "en": "I ignored"
+   },
+   {
+    "da": "jeg har ignoreret",
+    "en": "I have ignored"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overse",
+    "en": "to overlook"
+   },
+   {
+    "da": "at overhøre",
+    "en": "to fail to hear"
+   },
+   {
+    "da": "at forsømme",
+    "en": "to neglect"
+   },
+   {
+    "da": "at lytte til",
+    "en": "to listen to"
+   }
+  ],
+  "sentence": {
+   "da": "Du må ikke **ignorere** en advarsel fra lægen.",
+   "en": "You must not ignore a warning from the doctor."
+  }
+ },
+ "at illustrere": {
+  "explanation": "\"At illustrere\" means \"to illustrate\", in two ways: to add pictures to a book, and to make something clear with an example: Det illustrerer problemet (That makes the problem clear).",
+  "forms": [
+   {
+    "da": "at illustrere",
+    "en": "to illustrate"
+   },
+   {
+    "da": "jeg illustrerer",
+    "en": "I illustrate"
+   },
+   {
+    "da": "jeg illustrerede",
+    "en": "I illustrated"
+   },
+   {
+    "da": "jeg har illustreret",
+    "en": "I have illustrated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en illustration",
+    "en": "an illustration"
+   },
+   {
+    "da": "en tegning",
+    "en": "a drawing"
+   },
+   {
+    "da": "at forklare",
+    "en": "to explain"
+   },
+   {
+    "da": "at demonstrere",
+    "en": "to demonstrate"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **illustrere** børnebogen med farverige tegninger.",
+   "en": "She wants to illustrate the children's book with colorful drawings."
+  }
+ },
+ "at implementere": {
+  "explanation": "\"At implementere\" means \"to implement\", to put a plan, a rule or a computer system into real use. It is about acting on what was already decided: Firmaet implementerer det nye system i dag (The company is implementing the new system today).",
+  "forms": [
+   {
+    "da": "at implementere",
+    "en": "to implement"
+   },
+   {
+    "da": "jeg implementerer",
+    "en": "I implement"
+   },
+   {
+    "da": "jeg implementerede",
+    "en": "I implemented"
+   },
+   {
+    "da": "jeg har implementeret",
+    "en": "I have implemented"
+   }
+  ],
+  "related": [
+   {
+    "da": "at indføre",
+    "en": "to introduce"
+   },
+   {
+    "da": "at gennemføre",
+    "en": "to carry out"
+   },
+   {
+    "da": "at iværksætte",
+    "en": "to launch"
+   },
+   {
+    "da": "en implementering",
+    "en": "an implementation"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen vil **implementere** de nye regler næste måned.",
+   "en": "The school will implement the new rules next month."
+  }
+ },
  "at imponere": {
   "explanation": "\"At imponere\" means \"to impress\": Hendes tale imponerede os (Her speech impressed us). To say someone is impressed, use imponeret: Jeg er imponeret (I am impressed).",
   "forms": [
@@ -79,6 +333,170 @@
   "sentence": {
    "da": "Han vil **imponere** sin chef med en god idé.",
    "en": "He wants to impress his boss with a good idea."
+  }
+ },
+ "at importere": {
+  "explanation": "\"At importere\" means \"to import\", to bring goods into a country from abroad. It also means to bring files into a computer program. The opposite, for goods going out, is at eksportere (to export).",
+  "forms": [
+   {
+    "da": "at importere",
+    "en": "to import"
+   },
+   {
+    "da": "jeg importerer",
+    "en": "I import"
+   },
+   {
+    "da": "jeg importerede",
+    "en": "I imported"
+   },
+   {
+    "da": "jeg har importeret",
+    "en": "I have imported"
+   }
+  ],
+  "related": [
+   {
+    "da": "en importør",
+    "en": "an importer"
+   },
+   {
+    "da": "en eksportør",
+    "en": "an exporter"
+   },
+   {
+    "da": "en told",
+    "en": "a customs duty"
+   }
+  ],
+  "sentence": {
+   "da": "Vi må **importere** bananer, fordi de ikke vokser i Danmark.",
+   "en": "We must import bananas because they do not grow in Denmark."
+  }
+ },
+ "at indbyde": {
+  "explanation": "\"At indbyde\" means \"to invite\", in a more formal way than at invitere (to invite). It is used in writing and speeches, for example in an announcement: Vi indbyder til generalforsamling (We invite you to the general meeting).",
+  "forms": [
+   {
+    "da": "at indbyde",
+    "en": "to invite"
+   },
+   {
+    "da": "jeg indbyder",
+    "en": "I invite"
+   },
+   {
+    "da": "jeg indbød",
+    "en": "I invited"
+   },
+   {
+    "da": "jeg har indbudt",
+    "en": "I have invited"
+   }
+  ],
+  "related": [
+   {
+    "da": "en invitation",
+    "en": "an invitation"
+   },
+   {
+    "da": "at tilbyde",
+    "en": "to offer"
+   },
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "at byde velkommen",
+    "en": "to welcome"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen vil **indbyde** alle forældre til et møde.",
+   "en": "The school wants to invite all parents to a meeting."
+  }
+ },
+ "at inddrage": {
+  "explanation": "\"At inddrage\" means \"to involve\", to bring someone into a decision or a discussion: Vi vil inddrage børnene i beslutningen (We want to involve the children in the decision). It can also mean to remove something officially: inddrage et kørekort (to revoke a driver's license).",
+  "forms": [
+   {
+    "da": "at inddrage",
+    "en": "to involve"
+   },
+   {
+    "da": "jeg inddrager",
+    "en": "I involve"
+   },
+   {
+    "da": "jeg inddrog",
+    "en": "I involved"
+   },
+   {
+    "da": "jeg har inddraget",
+    "en": "I have involved"
+   }
+  ],
+  "related": [
+   {
+    "da": "at inkludere",
+    "en": "to include"
+   },
+   {
+    "da": "at udelukke",
+    "en": "to exclude"
+   },
+   {
+    "da": "at deltage",
+    "en": "to take part"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren vil **inddrage** eleverne, når klassen planlægger turen.",
+   "en": "The teacher wants to involve the students when the class plans the trip."
+  }
+ },
+ "at indebære": {
+  "explanation": "\"At indebære\" means \"to involve\" or \"to imply\", and says what something necessarily brings with it. It is used about things like a job, a plan or a change, not about people: Ændringen indebærer flere udgifter (The change involves higher costs).",
+  "forms": [
+   {
+    "da": "at indebære",
+    "en": "to involve / imply"
+   },
+   {
+    "da": "det indebærer",
+    "en": "it involves / implies"
+   },
+   {
+    "da": "det indebar",
+    "en": "it involved / implied"
+   },
+   {
+    "da": "det har indebåret",
+    "en": "it has involved / implied"
+   }
+  ],
+  "related": [
+   {
+    "da": "at medføre",
+    "en": "to result in"
+   },
+   {
+    "da": "at omfatte",
+    "en": "to include"
+   },
+   {
+    "da": "at forudsætte",
+    "en": "to require as a condition"
+   },
+   {
+    "da": "en konsekvens",
+    "en": "a consequence"
+   }
+  ],
+  "sentence": {
+   "da": "Mit nye job vil **indebære** mange rejser.",
+   "en": "My new job will involve many trips."
   }
  },
  "at indeholde": {
@@ -124,6 +542,553 @@
    "en": "Careful, the cake may contain nuts."
   }
  },
+ "at indfri": {
+  "explanation": "\"At indfri\" means \"to fulfill\". It is used for what was promised or hoped for: indfri et løfte (fulfill a promise), indfri forventninger (live up to expectations). With money it means to settle a debt in full: indfri et lån (settle a loan).",
+  "forms": [
+   {
+    "da": "at indfri",
+    "en": "to fulfill / redeem"
+   },
+   {
+    "da": "jeg indfrier",
+    "en": "I fulfill / redeem"
+   },
+   {
+    "da": "jeg indfriede",
+    "en": "I fulfilled / redeemed"
+   },
+   {
+    "da": "jeg har indfriet",
+    "en": "I have fulfilled / redeemed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at opfylde",
+    "en": "to satisfy"
+   },
+   {
+    "da": "at betale",
+    "en": "to pay"
+   },
+   {
+    "da": "at holde",
+    "en": "to keep"
+   },
+   {
+    "da": "at svigte",
+    "en": "to let down"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **indfri** sin drøm og blive læge.",
+   "en": "She wants to fulfill her dream and become a doctor."
+  }
+ },
+ "at indføre": {
+  "explanation": "\"At indføre\" means \"to introduce (a rule)\", to start a new law, rule or system for everyone: Kommunen indfører nye regler (The municipality is introducing new rules). To introduce people to each other, use at præsentere (to present).",
+  "forms": [
+   {
+    "da": "at indføre",
+    "en": "to introduce (a rule)"
+   },
+   {
+    "da": "jeg indfører",
+    "en": "I introduce (a rule)"
+   },
+   {
+    "da": "jeg indførte",
+    "en": "I introduced (a rule)"
+   },
+   {
+    "da": "jeg har indført",
+    "en": "I have introduced (a rule)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at afskaffe",
+    "en": "to abolish"
+   },
+   {
+    "da": "en forordning",
+    "en": "a regulation"
+   },
+   {
+    "da": "at gennemføre",
+    "en": "to carry out"
+   }
+  ],
+  "sentence": {
+   "da": "Regeringen vil **indføre** en ny skat på sukker.",
+   "en": "The government wants to introduce a new tax on sugar."
+  }
+ },
+ "at indgive": {
+  "explanation": "\"At indgive\" means \"to submit\" or \"to file\" an official paper to an authority, such as a court or a city office: indgive en ansøgning (submit an application). It sounds official, so it fits papers and forms, not everyday things.",
+  "forms": [
+   {
+    "da": "at indgive",
+    "en": "to submit / file"
+   },
+   {
+    "da": "jeg indgiver",
+    "en": "I submit / file"
+   },
+   {
+    "da": "jeg indgav",
+    "en": "I submitted / filed"
+   },
+   {
+    "da": "jeg har indgivet",
+    "en": "I have submitted / filed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at aflevere",
+    "en": "to hand in"
+   },
+   {
+    "da": "at sende",
+    "en": "to send"
+   },
+   {
+    "da": "at indsende",
+    "en": "to send in"
+   },
+   {
+    "da": "at ansøge",
+    "en": "to apply"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **indgive** en klage til kommunen, fordi gaden er farlig.",
+   "en": "I will file a complaint with the city because the street is dangerous."
+  }
+ },
+ "at indgå": {
+  "explanation": "\"At indgå\" means \"to enter into\", mainly an agreement, a deal or a marriage: indgå ægteskab (get married). With i after it, it means \"to be part of\": Mel indgår i opskriften (Flour is part of the recipe).",
+  "forms": [
+   {
+    "da": "at indgå",
+    "en": "to enter into (an agreement)"
+   },
+   {
+    "da": "jeg indgår",
+    "en": "I enter into (an agreement)"
+   },
+   {
+    "da": "jeg indgik",
+    "en": "I entered into (an agreement)"
+   },
+   {
+    "da": "jeg har indgået",
+    "en": "I have entered into (an agreement)"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kontrakt",
+    "en": "a contract"
+   },
+   {
+    "da": "at underskrive",
+    "en": "to sign"
+   },
+   {
+    "da": "at forhandle",
+    "en": "to negotiate"
+   }
+  ],
+  "sentence": {
+   "da": "De to lande vil **indgå** en aftale om fred.",
+   "en": "The two countries want to make an agreement on peace."
+  }
+ },
+ "at indhente": {
+  "explanation": "\"At indhente\" means \"to catch up with\" someone or something that is ahead of you. It also means to make up for lost time: indhente det forsømte (make up for what was missed). In formal use it means to get information or offers from others: indhente tilbud (get quotes).",
+  "forms": [
+   {
+    "da": "at indhente",
+    "en": "to catch up with"
+   },
+   {
+    "da": "jeg indhenter",
+    "en": "I catch up with"
+   },
+   {
+    "da": "jeg indhentede",
+    "en": "I caught up with"
+   },
+   {
+    "da": "jeg har indhentet",
+    "en": "I have caught up with"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overhale",
+    "en": "to overtake"
+   },
+   {
+    "da": "at sakke bagud",
+    "en": "to fall behind"
+   },
+   {
+    "da": "at følge med",
+    "en": "to keep up"
+   },
+   {
+    "da": "at nå",
+    "en": "to reach"
+   }
+  ],
+  "sentence": {
+   "da": "Hun løb hurtigt for at **indhente** de andre.",
+   "en": "She ran fast to catch up with the others."
+  }
+ },
+ "at indikere": {
+  "explanation": "\"At indikere\" means \"to indicate\", to be a clue about something or to point toward it: Resultaterne indikerer, at planen virker (The results indicate that the plan works).",
+  "forms": [
+   {
+    "da": "at indikere",
+    "en": "to indicate"
+   },
+   {
+    "da": "jeg indikerer",
+    "en": "I indicate"
+   },
+   {
+    "da": "jeg indikerede",
+    "en": "I indicated"
+   },
+   {
+    "da": "jeg har indikeret",
+    "en": "I have indicated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tyde på",
+    "en": "to suggest"
+   },
+   {
+    "da": "at antyde",
+    "en": "to hint"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign"
+   },
+   {
+    "da": "at bevise",
+    "en": "to prove"
+   }
+  ],
+  "sentence": {
+   "da": "Røg kan **indikere**, at der er ild.",
+   "en": "Smoke can indicate that there is fire."
+  }
+ },
+ "at indkalde": {
+  "explanation": "\"At indkalde\" means \"to call in\" or \"to summon\", to officially order people to come: Retten indkalder vidner (The court summons witnesses). It is also used for a meeting that someone formally calls.",
+  "forms": [
+   {
+    "da": "at indkalde",
+    "en": "to call in / summon"
+   },
+   {
+    "da": "jeg indkalder",
+    "en": "I call in / summon"
+   },
+   {
+    "da": "jeg indkaldte",
+    "en": "I called in / summoned"
+   },
+   {
+    "da": "jeg har indkaldt",
+    "en": "I have called in / summoned"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indkaldelse",
+    "en": "a notice to attend"
+   },
+   {
+    "da": "at aflyse",
+    "en": "to cancel"
+   },
+   {
+    "da": "at samle",
+    "en": "to gather"
+   },
+   {
+    "da": "at tilkalde",
+    "en": "to send for"
+   }
+  ],
+  "sentence": {
+   "da": "Bestyrelsen vil **indkalde** medlemmerne til et møde.",
+   "en": "The board wants to call the members to a meeting."
+  }
+ },
+ "at indkøbe": {
+  "explanation": "\"At indkøbe\" means \"to purchase\", to buy goods for a company, an office or a shop: Firmaet indkøber nye stole (The company is purchasing new chairs). For everyday food shopping, Danes say at købe ind (to do the shopping).",
+  "forms": [
+   {
+    "da": "at indkøbe",
+    "en": "to purchase"
+   },
+   {
+    "da": "jeg indkøber",
+    "en": "I purchase"
+   },
+   {
+    "da": "jeg indkøbte",
+    "en": "I purchased"
+   },
+   {
+    "da": "jeg har indkøbt",
+    "en": "I have purchased"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bestille",
+    "en": "to order"
+   },
+   {
+    "da": "at anskaffe",
+    "en": "to acquire"
+   },
+   {
+    "da": "at rekvirere",
+    "en": "to requisition"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **indkøbe** nye computere til skolerne.",
+   "en": "The municipality wants to purchase new computers for the schools."
+  }
+ },
+ "at indlede": {
+  "explanation": "\"At indlede\" means \"to begin\" or \"to introduce\", used for the first step of something with several parts, such as a speech, a negotiation or a relationship: indlede et forhold (begin a relationship).",
+  "forms": [
+   {
+    "da": "at indlede",
+    "en": "to begin / introduce"
+   },
+   {
+    "da": "jeg indleder",
+    "en": "I begin / introduce"
+   },
+   {
+    "da": "jeg indledte",
+    "en": "I began / introduced"
+   },
+   {
+    "da": "jeg har indledt",
+    "en": "I have begun / introduced"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indledning",
+    "en": "an introduction"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   },
+   {
+    "da": "at åbne",
+    "en": "to open"
+   },
+   {
+    "da": "at starte",
+    "en": "to start"
+   }
+  ],
+  "sentence": {
+   "da": "Præsidenten vil **indlede** mødet med en kort tale.",
+   "en": "The president wants to begin the meeting with a short speech."
+  }
+ },
+ "at indrette": {
+  "explanation": "\"At indrette\" means \"to furnish\" or \"to set up\" a room, a home or a shop, so that everything has its place: Jeg indretter et kontor (I am setting up an office).",
+  "forms": [
+   {
+    "da": "at indrette",
+    "en": "to furnish / set up"
+   },
+   {
+    "da": "jeg indretter",
+    "en": "I furnish / set up"
+   },
+   {
+    "da": "jeg indrettede",
+    "en": "I furnished / set up"
+   },
+   {
+    "da": "jeg har indrettet",
+    "en": "I have furnished / set up"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indretning",
+    "en": "a layout"
+   },
+   {
+    "da": "at møblere",
+    "en": "to put furniture in"
+   },
+   {
+    "da": "et møbel",
+    "en": "a piece of furniture"
+   },
+   {
+    "da": "at pynte",
+    "en": "to decorate"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **indrette** soveværelset med et stort skab.",
+   "en": "She wants to furnish the bedroom with a big wardrobe."
+  }
+ },
+ "at indrette sig": {
+  "explanation": "\"At indrette sig\" means \"to settle in\" and to arrange your life to fit a new situation: Vi har indrettet os i en lille lejlighed (We have settled into a small apartment). Without sig, at indrette means to furnish a room: indrette et værelse (furnish a room).",
+  "forms": [
+   {
+    "da": "at indrette sig",
+    "en": "to adapt / settle in"
+   },
+   {
+    "da": "jeg indretter mig",
+    "en": "I adapt / settle in"
+   },
+   {
+    "da": "jeg indrettede mig",
+    "en": "I adapted / settled in"
+   },
+   {
+    "da": "jeg har indrettet mig",
+    "en": "I have adapted / settled in"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indretning",
+    "en": "a layout"
+   },
+   {
+    "da": "at tilpasse sig",
+    "en": "to adjust"
+   },
+   {
+    "da": "at falde til",
+    "en": "to fit in"
+   },
+   {
+    "da": "at vænne sig til",
+    "en": "to get used to"
+   }
+  ],
+  "sentence": {
+   "da": "Når man flytter til udlandet, må man **indrette sig** efter nye regler.",
+   "en": "When you move abroad, you have to adapt to new rules."
+  }
+ },
+ "at indrømme": {
+  "explanation": "\"At indrømme\" means \"to admit\", to say that something is true, often something unpleasant like a mistake: Jeg indrømmer, at jeg tog fejl (I admit that I was wrong).",
+  "forms": [
+   {
+    "da": "at indrømme",
+    "en": "to admit"
+   },
+   {
+    "da": "jeg indrømmer",
+    "en": "I admit"
+   },
+   {
+    "da": "jeg indrømmede",
+    "en": "I admitted"
+   },
+   {
+    "da": "jeg har indrømmet",
+    "en": "I have admitted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilstå",
+    "en": "to confess"
+   },
+   {
+    "da": "at benægte",
+    "en": "to deny"
+   },
+   {
+    "da": "at erkende",
+    "en": "to acknowledge"
+   },
+   {
+    "da": "en indrømmelse",
+    "en": "a concession"
+   }
+  ],
+  "sentence": {
+   "da": "Han ville ikke **indrømme**, at han havde glemt det.",
+   "en": "He did not want to admit that he had forgotten it."
+  }
+ },
+ "at indsamle": {
+  "explanation": "\"At indsamle\" means \"to collect\", to gather things from many sources, such as money, data or old clothes. For a hobby, use at samle (to collect): Jeg samler på frimærker (I collect stamps).",
+  "forms": [
+   {
+    "da": "at indsamle",
+    "en": "to collect"
+   },
+   {
+    "da": "jeg indsamler",
+    "en": "I collect"
+   },
+   {
+    "da": "jeg indsamlede",
+    "en": "I collected"
+   },
+   {
+    "da": "jeg har indsamlet",
+    "en": "I have collected"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indsamling",
+    "en": "a collection drive"
+   },
+   {
+    "da": "at opsamle",
+    "en": "to pick up"
+   },
+   {
+    "da": "at indhente",
+    "en": "to obtain"
+   },
+   {
+    "da": "at fordele",
+    "en": "to distribute"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **indsamle** penge til de syge børn.",
+   "en": "We want to collect money for the sick children."
+  }
+ },
  "at indse": {
   "explanation": "\"At indse\" means \"to realize\", when you see something you missed before: Jeg indså for sent, at det var en fejl (I realized too late that it was a mistake).",
   "forms": [
@@ -165,6 +1130,260 @@
   "sentence": {
    "da": "Du må **indse**, at han har ret.",
    "en": "You have to realize that he is right."
+  }
+ },
+ "at indsende": {
+  "explanation": "\"At indsende\" means \"to submit\", to send something to an office, a company or a competition so that it can be looked at: indsende en ansøgning (submit an application).",
+  "forms": [
+   {
+    "da": "at indsende",
+    "en": "to submit"
+   },
+   {
+    "da": "jeg indsender",
+    "en": "I submit"
+   },
+   {
+    "da": "jeg indsendte",
+    "en": "I submitted"
+   },
+   {
+    "da": "jeg har indsendt",
+    "en": "I have submitted"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indsendelse",
+    "en": "a submission"
+   },
+   {
+    "da": "at aflevere",
+    "en": "to hand in"
+   },
+   {
+    "da": "at modtage",
+    "en": "to receive"
+   },
+   {
+    "da": "en frist",
+    "en": "a deadline"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **indsende** skemaet før fredag.",
+   "en": "You must submit the form before Friday."
+  }
+ },
+ "at indskrænke": {
+  "explanation": "\"At indskrænke\" means \"to restrict\": to make the space for something smaller. It is used for money, freedom and activity: indskrænke forbruget (cut down use), indskrænke friheden (curb freedom).",
+  "forms": [
+   {
+    "da": "at indskrænke",
+    "en": "to restrict"
+   },
+   {
+    "da": "jeg indskrænker",
+    "en": "I restrict"
+   },
+   {
+    "da": "jeg indskrænkede",
+    "en": "I restricted"
+   },
+   {
+    "da": "jeg har indskrænket",
+    "en": "I have restricted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at begrænse",
+    "en": "to limit"
+   },
+   {
+    "da": "at udvide",
+    "en": "to expand"
+   },
+   {
+    "da": "at reducere",
+    "en": "to reduce"
+   },
+   {
+    "da": "at skære ned",
+    "en": "to cut back"
+   }
+  ],
+  "sentence": {
+   "da": "Kommunen vil **indskrænke** åbningstiden i weekenden.",
+   "en": "The city wants to restrict the opening hours on the weekend."
+  }
+ },
+ "at indstille": {
+  "explanation": "\"At indstille\" means \"to set\" or \"to adjust\" a device so it works as you want: indstille uret (set the clock). It also means to put forward someone for a prize or a job: indstille en kandidat (recommend a candidate).",
+  "forms": [
+   {
+    "da": "at indstille",
+    "en": "to adjust / set"
+   },
+   {
+    "da": "jeg indstiller",
+    "en": "I adjust / set"
+   },
+   {
+    "da": "jeg indstillede",
+    "en": "I adjusted / set"
+   },
+   {
+    "da": "jeg har indstillet",
+    "en": "I have adjusted / set"
+   }
+  ],
+  "related": [
+   {
+    "da": "at nominere",
+    "en": "to nominate"
+   },
+   {
+    "da": "at regulere",
+    "en": "to regulate"
+   },
+   {
+    "da": "at nulstille",
+    "en": "to reset"
+   },
+   {
+    "da": "en indstilling",
+    "en": "an attitude"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan **indstille** vækkeuret til klokken syv.",
+   "en": "You can set the alarm clock to seven o'clock."
+  }
+ },
+ "at indstille sig på": {
+  "explanation": "\"At indstille sig på\" means \"to prepare for\" something you know is coming: Vi må indstille os på en kold vinter (We must prepare for a cold winter). It also means to accept that things will be different: Jeg har indstillet mig på at flytte (I have accepted that I will move).",
+  "forms": [
+   {
+    "da": "at indstille sig på",
+    "en": "to prepare for / adjust to"
+   },
+   {
+    "da": "jeg indstiller mig på",
+    "en": "I prepare for / adjust to"
+   },
+   {
+    "da": "jeg indstillede mig på",
+    "en": "I prepared for / adjusted to"
+   },
+   {
+    "da": "jeg har indstillet mig på",
+    "en": "I have prepared for / adjusted to"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forberede sig",
+    "en": "to get ready"
+   },
+   {
+    "da": "at tilpasse sig",
+    "en": "to adapt"
+   },
+   {
+    "da": "at vænne sig til",
+    "en": "to get used to"
+   },
+   {
+    "da": "at regne med",
+    "en": "to count on"
+   }
+  ],
+  "sentence": {
+   "da": "Man må **indstille sig på** lange køer i ferien.",
+   "en": "You have to get ready for long lines during vacation."
+  }
+ },
+ "at indsætte": {
+  "explanation": "\"At indsætte\" means \"to insert\" something into a place, and also \"to deposit\" money: indsætte penge (deposit money). The opposite for money is at hæve (to withdraw).",
+  "forms": [
+   {
+    "da": "at indsætte",
+    "en": "to insert / deposit"
+   },
+   {
+    "da": "jeg indsætter",
+    "en": "I insert / deposit"
+   },
+   {
+    "da": "jeg indsatte",
+    "en": "I inserted / deposited"
+   },
+   {
+    "da": "jeg har indsat",
+    "en": "I have inserted / deposited"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indbetaling",
+    "en": "a payment into an account"
+   },
+   {
+    "da": "at isætte",
+    "en": "to put in"
+   },
+   {
+    "da": "at fjerne",
+    "en": "to remove"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **indsætte** pengene, før banken lukker.",
+   "en": "I want to deposit the money before the bank closes."
+  }
+ },
+ "at indtage": {
+  "explanation": "\"At indtage\" means \"to consume\" food or medicine, and is used on labels and in instructions: Medicinen skal indtages med vand (The medicine must be taken with water). It also means to capture a place: Soldaterne indtog byen (The soldiers captured the town).",
+  "forms": [
+   {
+    "da": "at indtage",
+    "en": "to consume / take"
+   },
+   {
+    "da": "jeg indtager",
+    "en": "I consume / take"
+   },
+   {
+    "da": "jeg indtog",
+    "en": "I consumed / took"
+   },
+   {
+    "da": "jeg har indtaget",
+    "en": "I have consumed / taken"
+   }
+  ],
+  "related": [
+   {
+    "da": "at spise",
+    "en": "to eat"
+   },
+   {
+    "da": "at drikke",
+    "en": "to drink"
+   },
+   {
+    "da": "at erobre",
+    "en": "to conquer"
+   },
+   {
+    "da": "at fortære",
+    "en": "to devour"
+   }
+  ],
+  "sentence": {
+   "da": "Man må ikke **indtage** alkohol, når man kører bil.",
+   "en": "You must not consume alcohol when you drive."
   }
  },
  "at informere": {
@@ -210,6 +1429,88 @@
    "en": "We will inform everyone about the change tomorrow."
   }
  },
+ "at insistere": {
+  "explanation": "\"At insistere\" means \"to insist\", to keep saying that something must happen. After it, use på (on): Hun insisterer på at gå hjem (She insists on going home).",
+  "forms": [
+   {
+    "da": "at insistere",
+    "en": "to insist"
+   },
+   {
+    "da": "jeg insisterer",
+    "en": "I insist"
+   },
+   {
+    "da": "jeg insisterede",
+    "en": "I insisted"
+   },
+   {
+    "da": "jeg har insisteret",
+    "en": "I have insisted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at kræve",
+    "en": "to demand"
+   },
+   {
+    "da": "at holde fast",
+    "en": "to hold on"
+   },
+   {
+    "da": "at give efter",
+    "en": "to give in"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil **insistere** på at betale regningen.",
+   "en": "He will insist on paying the bill."
+  }
+ },
+ "at inspirere": {
+  "explanation": "\"At inspirere\" means \"to inspire\", to give someone new ideas or the wish to do something. The source can be a person, a book or a place: Rejser inspirerer mig (Travel inspires me).",
+  "forms": [
+   {
+    "da": "at inspirere",
+    "en": "to inspire"
+   },
+   {
+    "da": "jeg inspirerer",
+    "en": "I inspire"
+   },
+   {
+    "da": "jeg inspirerede",
+    "en": "I inspired"
+   },
+   {
+    "da": "jeg har inspireret",
+    "en": "I have inspired"
+   }
+  ],
+  "related": [
+   {
+    "da": "en inspiration",
+    "en": "an inspiration"
+   },
+   {
+    "da": "at motivere",
+    "en": "to motivate"
+   },
+   {
+    "da": "at opmuntre",
+    "en": "to encourage"
+   },
+   {
+    "da": "at begejstre",
+    "en": "to excite"
+   }
+  ],
+  "sentence": {
+   "da": "Gode bøger kan **inspirere** børn til at skrive selv.",
+   "en": "Good books can inspire children to write themselves."
+  }
+ },
  "at installere": {
   "explanation": "\"At installere\" means \"to install\", to put a program on a computer or phone so it works: Jeg installerer en ny app (I install a new app).",
   "forms": [
@@ -251,6 +1552,92 @@
   "sentence": {
    "da": "Jeg skal **installere** et nyt program i dag.",
    "en": "I have to install a new program today."
+  }
+ },
+ "at integrere": {
+  "explanation": "\"At integrere\" means \"to integrate\", to make someone or something a full part of a group or a whole. It is common about newcomers in a society: at integrere flygtninge (to integrate refugees).",
+  "forms": [
+   {
+    "da": "at integrere",
+    "en": "to integrate"
+   },
+   {
+    "da": "jeg integrerer",
+    "en": "I integrate"
+   },
+   {
+    "da": "jeg integrerede",
+    "en": "I integrated"
+   },
+   {
+    "da": "jeg har integreret",
+    "en": "I have integrated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tilpasse sig",
+    "en": "to adapt"
+   },
+   {
+    "da": "at inkludere",
+    "en": "to include"
+   },
+   {
+    "da": "at udelukke",
+    "en": "to exclude"
+   },
+   {
+    "da": "et fællesskab",
+    "en": "a community"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen vil **integrere** de nye elever i klassen.",
+   "en": "The school wants to integrate the new students into the class."
+  }
+ },
+ "at intensivere": {
+  "explanation": "\"At intensivere\" means \"to intensify\", to make something more forceful or more active: Politiet intensiverer eftersøgningen (The police are intensifying the search). It also fits efforts, training and campaigns.",
+  "forms": [
+   {
+    "da": "at intensivere",
+    "en": "to intensify"
+   },
+   {
+    "da": "jeg intensiverer",
+    "en": "I intensify"
+   },
+   {
+    "da": "jeg intensiverede",
+    "en": "I intensified"
+   },
+   {
+    "da": "jeg har intensiveret",
+    "en": "I have intensified"
+   }
+  ],
+  "related": [
+   {
+    "da": "at forstærke",
+    "en": "to strengthen"
+   },
+   {
+    "da": "at øge",
+    "en": "to increase"
+   },
+   {
+    "da": "at trappe op",
+    "en": "to step up"
+   },
+   {
+    "da": "intens",
+    "en": "intense"
+   }
+  ],
+  "sentence": {
+   "da": "Holdet vil **intensivere** træningen før den store kamp.",
+   "en": "The team wants to intensify the training before the big match."
   }
  },
  "at interessere": {
@@ -335,6 +1722,45 @@
    "en": "Small children can be interested in animals and cars."
   }
  },
+ "at interviewe": {
+  "explanation": "\"At interviewe\" means \"to interview\", to ask someone questions for a news story, a study or a job: Journalisten interviewer ministeren (The journalist is interviewing the minister).",
+  "forms": [
+   {
+    "da": "at interviewe",
+    "en": "to interview"
+   },
+   {
+    "da": "jeg interviewer",
+    "en": "I interview"
+   },
+   {
+    "da": "jeg interviewede",
+    "en": "I interviewed"
+   },
+   {
+    "da": "jeg har interviewet",
+    "en": "I have interviewed"
+   }
+  ],
+  "related": [
+   {
+    "da": "en samtale",
+    "en": "a conversation"
+   },
+   {
+    "da": "at udspørge",
+    "en": "to question"
+   },
+   {
+    "da": "et svar",
+    "en": "an answer"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **interviewe** tre kandidater til jobbet i dag.",
+   "en": "She wants to interview three candidates for the job today."
+  }
+ },
  "at introducere": {
   "explanation": "\"At introducere\" means \"to introduce\", bringing in something new: Hun introducerer en ny metode (She introduces a new method). For introducing a person, at præsentere (to present) is more common: Må jeg præsentere Anna? (May I introduce Anna?)",
   "forms": [
@@ -372,6 +1798,92 @@
   "sentence": {
    "da": "Skolen vil **introducere** et nyt fag næste år.",
    "en": "The school will introduce a new subject next year."
+  }
+ },
+ "at invadere": {
+  "explanation": "\"At invadere\" means \"to invade\", to enter a country with an army by force. It is also used when a place is filled by many people or animals: Turisterne invaderer byen (The tourists are invading the town).",
+  "forms": [
+   {
+    "da": "at invadere",
+    "en": "to invade"
+   },
+   {
+    "da": "jeg invaderer",
+    "en": "I invade"
+   },
+   {
+    "da": "jeg invaderede",
+    "en": "I invaded"
+   },
+   {
+    "da": "jeg har invaderet",
+    "en": "I have invaded"
+   }
+  ],
+  "related": [
+   {
+    "da": "en invasion",
+    "en": "an invasion"
+   },
+   {
+    "da": "at erobre",
+    "en": "to conquer"
+   },
+   {
+    "da": "at forsvare",
+    "en": "to defend"
+   },
+   {
+    "da": "et angreb",
+    "en": "an attack"
+   }
+  ],
+  "sentence": {
+   "da": "Når en hær vil **invadere** et land, kommer den over grænsen.",
+   "en": "When an army wants to invade a country, it crosses the border."
+  }
+ },
+ "at investere": {
+  "explanation": "\"At investere\" means \"to invest\", to put money into something in order to earn more later, such as a company or a house. It also works for time and effort: Jeg investerer mange timer i projektet (I invest many hours in the project).",
+  "forms": [
+   {
+    "da": "at investere",
+    "en": "to invest"
+   },
+   {
+    "da": "jeg investerer",
+    "en": "I invest"
+   },
+   {
+    "da": "jeg investerede",
+    "en": "I invested"
+   },
+   {
+    "da": "jeg har investeret",
+    "en": "I have invested"
+   }
+  ],
+  "related": [
+   {
+    "da": "en investering",
+    "en": "an investment"
+   },
+   {
+    "da": "en investor",
+    "en": "an investor"
+   },
+   {
+    "da": "en aktie",
+    "en": "a share"
+   },
+   {
+    "da": "et udbytte",
+    "en": "a return"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **investere** sine penge i en lille butik.",
+   "en": "She wants to invest her money in a small shop."
   }
  },
  "at invitere": {
@@ -456,6 +1968,174 @@
    "en": "It can annoy me when you arrive late."
   }
  },
+ "at isolere": {
+  "explanation": "\"At isolere\" means \"to isolate\", to keep something apart, and also \"to insulate\" a building against cold or noise: Vi isolerer loftet (We are insulating the attic).",
+  "forms": [
+   {
+    "da": "at isolere",
+    "en": "to isolate / insulate"
+   },
+   {
+    "da": "jeg isolerer",
+    "en": "I isolate / insulate"
+   },
+   {
+    "da": "jeg isolerede",
+    "en": "I isolated / insulated"
+   },
+   {
+    "da": "jeg har isoleret",
+    "en": "I have isolated / insulated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at adskille",
+    "en": "to separate"
+   },
+   {
+    "da": "at afskærme",
+    "en": "to shield"
+   },
+   {
+    "da": "at tætne",
+    "en": "to seal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **isolere** væggene, fordi huset er koldt om vinteren.",
+   "en": "We want to insulate the walls because the house is cold in winter."
+  }
+ },
+ "en iagttager": {
+  "explanation": "\"En iagttager\" means \"an observer\", someone who watches something carefully without taking part in it. It can be a person who studies animals or a person who follows events and reports on them.",
+  "forms": [
+   {
+    "da": "en iagttager",
+    "en": "an observer"
+   },
+   {
+    "da": "iagttageren",
+    "en": "the observer"
+   },
+   {
+    "da": "iagttagere",
+    "en": "observers"
+   },
+   {
+    "da": "iagttagerne",
+    "en": "the observers"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vidne",
+    "en": "a witness"
+   },
+   {
+    "da": "en tilskuer",
+    "en": "a spectator"
+   },
+   {
+    "da": "en betragter",
+    "en": "a viewer"
+   },
+   {
+    "da": "en iagttagelse",
+    "en": "an observation"
+   }
+  ],
+  "sentence": {
+   "da": "En god **iagttager** ser små ting, som andre ikke lægger mærke til.",
+   "en": "A good observer sees small things that others do not notice."
+  }
+ },
+ "en identitet": {
+  "explanation": "\"En identitet\" means \"an identity\", who a person is or feels they are, such as their background and values. A group, a country or a company can have an identitet too, for example the look and feel that makes it recognizable.",
+  "forms": [
+   {
+    "da": "en identitet",
+    "en": "an identity"
+   },
+   {
+    "da": "identiteten",
+    "en": "the identity"
+   },
+   {
+    "da": "identiteter",
+    "en": "identities"
+   },
+   {
+    "da": "identiteterne",
+    "en": "the identities"
+   }
+  ],
+  "related": [
+   {
+    "da": "en personlighed",
+    "en": "a personality"
+   },
+   {
+    "da": "en nationalitet",
+    "en": "a nationality"
+   },
+   {
+    "da": "et identitetskort",
+    "en": "an ID card"
+   },
+   {
+    "da": "en kultur",
+    "en": "a culture"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes sprog og hendes familie er en stor del af hendes **identitet**.",
+   "en": "Her language and her family are a big part of her identity."
+  }
+ },
+ "en idrætshal": {
+  "explanation": "\"En idrætshal\" means \"a sports hall\", a big indoor building for sports like handball, badminton and gymnastics. Most Danish towns have one, and local clubs use it for training in the evening.",
+  "forms": [
+   {
+    "da": "en idrætshal",
+    "en": "a sports hall"
+   },
+   {
+    "da": "idrætshallen",
+    "en": "the sports hall"
+   },
+   {
+    "da": "idrætshaller",
+    "en": "sports halls"
+   },
+   {
+    "da": "idrætshallerne",
+    "en": "the sports halls"
+   }
+  ],
+  "related": [
+   {
+    "da": "en svømmehal",
+    "en": "a swimming pool building"
+   },
+   {
+    "da": "et stadion",
+    "en": "a stadium"
+   },
+   {
+    "da": "en gymnastiksal",
+    "en": "a gym room"
+   },
+   {
+    "da": "et fitnesscenter",
+    "en": "a fitness center"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene spiller håndbold og badminton i den store **idrætshal**.",
+   "en": "The children play handball and badminton in the big sports hall."
+  }
+ },
  "en idé": {
   "explanation": "\"En idé\" means \"an idea\", a thought about what to do or a way to solve something. Det er en god idé means \"That is a good idea\", and Jeg har ingen idé means \"I have no idea\".",
   "forms": [
@@ -493,6 +2173,178 @@
   "sentence": {
    "da": "Har du en **idé** til aftensmad?",
    "en": "Do you have an idea for dinner?"
+  }
+ },
+ "en igangsætter": {
+  "explanation": "\"En igangsætter\" means \"an initiator\", a person who gets a project, an idea or a change started. It comes from at sætte i gang (to set something going). It is about the starting push, not about running the whole thing afterward.",
+  "forms": [
+   {
+    "da": "en igangsætter",
+    "en": "an initiator"
+   },
+   {
+    "da": "igangsætteren",
+    "en": "the initiator"
+   },
+   {
+    "da": "igangsættere",
+    "en": "initiators"
+   },
+   {
+    "da": "igangsætterne",
+    "en": "the initiators"
+   }
+  ],
+  "related": [
+   {
+    "da": "en grundlægger",
+    "en": "a founder"
+   },
+   {
+    "da": "en bagmand",
+    "en": "a mastermind"
+   },
+   {
+    "da": "en ophavsmand",
+    "en": "an originator"
+   },
+   {
+    "da": "en leder",
+    "en": "a leader"
+   }
+  ],
+  "sentence": {
+   "da": "Hun var **igangsætter** på projektet, og alle andre fulgte med.",
+   "en": "She was the initiator of the project, and everyone else followed."
+  }
+ },
+ "en illusion": {
+  "explanation": "\"En illusion\" means \"an illusion\", something that looks real but is not. It is used for tricks of the eye and also for false hopes: Jeg har ingen illusioner om det (I have no illusions about it) means you are realistic about it.",
+  "forms": [
+   {
+    "da": "en illusion",
+    "en": "an illusion"
+   },
+   {
+    "da": "illusionen",
+    "en": "the illusion"
+   },
+   {
+    "da": "illusioner",
+    "en": "illusions"
+   },
+   {
+    "da": "illusionerne",
+    "en": "the illusions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fantasi",
+    "en": "a fantasy"
+   },
+   {
+    "da": "en tryllekunst",
+    "en": "a magic trick"
+   },
+   {
+    "da": "en hallucination",
+    "en": "a hallucination"
+   },
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   }
+  ],
+  "sentence": {
+   "da": "Spejlene på væggen skaber en **illusion** af et større rum.",
+   "en": "The mirrors on the wall create an illusion of a bigger room."
+  }
+ },
+ "en illustration": {
+  "explanation": "\"En illustration\" means \"an illustration\", a picture that goes with a text and helps explain it, as in a book or a magazine. It can also mean an example that makes a point clear.",
+  "forms": [
+   {
+    "da": "en illustration",
+    "en": "an illustration"
+   },
+   {
+    "da": "illustrationen",
+    "en": "the illustration"
+   },
+   {
+    "da": "illustrationer",
+    "en": "illustrations"
+   },
+   {
+    "da": "illustrationerne",
+    "en": "the illustrations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tegning",
+    "en": "a drawing"
+   },
+   {
+    "da": "en illustrator",
+    "en": "an illustrator"
+   },
+   {
+    "da": "en figur",
+    "en": "a figure"
+   },
+   {
+    "da": "et maleri",
+    "en": "a painting"
+   }
+  ],
+  "sentence": {
+   "da": "Den lille **illustration** ved siden af teksten viser, hvordan maskinen virker.",
+   "en": "The small illustration next to the text shows how the machine works."
+  }
+ },
+ "en implikation": {
+  "explanation": "\"En implikation\" means \"an implication\", something that follows from a decision or a fact without being said directly. It is often used in the plural: Hvad er implikationerne? (What are the implications?)",
+  "forms": [
+   {
+    "da": "en implikation",
+    "en": "an implication"
+   },
+   {
+    "da": "implikationen",
+    "en": "the implication"
+   },
+   {
+    "da": "implikationer",
+    "en": "implications"
+   },
+   {
+    "da": "implikationerne",
+    "en": "the implications"
+   }
+  ],
+  "related": [
+   {
+    "da": "en konsekvens",
+    "en": "a consequence"
+   },
+   {
+    "da": "en følge",
+    "en": "a result"
+   },
+   {
+    "da": "en betydning",
+    "en": "a meaning"
+   },
+   {
+    "da": "en virkning",
+    "en": "an effect"
+   }
+  ],
+  "sentence": {
+   "da": "Politikerne diskuterer den økonomiske **implikation** af den nye lov.",
+   "en": "The politicians discuss the economic implication of the new law."
   }
  },
  "en indbakke": {
@@ -534,6 +2386,49 @@
    "en": "I check my inbox every morning."
   }
  },
+ "en indblanding": {
+  "explanation": "\"En indblanding\" means \"an interference\", when someone gets involved in something that is not their business. It is almost always negative: Hun bryder sig ikke om andres indblanding (She does not like other people butting in).",
+  "forms": [
+   {
+    "da": "en indblanding",
+    "en": "an interference"
+   },
+   {
+    "da": "indblandingen",
+    "en": "the interference"
+   },
+   {
+    "da": "indblandinger",
+    "en": "interferences"
+   },
+   {
+    "da": "indblandingerne",
+    "en": "the interferences"
+   }
+  ],
+  "related": [
+   {
+    "da": "at blande sig",
+    "en": "to meddle"
+   },
+   {
+    "da": "en indgriben",
+    "en": "an intervention"
+   },
+   {
+    "da": "en forstyrrelse",
+    "en": "a disturbance"
+   },
+   {
+    "da": "en påvirkning",
+    "en": "an influence"
+   }
+  ],
+  "sentence": {
+   "da": "Politikerne kritiserede statens **indblanding** i skolen.",
+   "en": "The politicians criticized the state's interference in the school."
+  }
+ },
  "en indbygger": {
   "explanation": "\"En indbygger\" means \"an inhabitant\", a person who lives in a town, a city or a country.",
   "forms": [
@@ -571,6 +2466,92 @@
   "sentence": {
    "da": "En **indbygger** bor i en by eller et land.",
    "en": "An inhabitant lives in a town or a country."
+  }
+ },
+ "en inddragelse": {
+  "explanation": "\"En inddragelse\" means \"an involvement\", bringing people in so they can take part in a decision: inddragelse af borgerne (involving the residents). It is not the same as indblanding (interference), which people do not want. The same word also means taking something away officially: inddragelse af kørekort (taking away a driver's license).",
+  "forms": [
+   {
+    "da": "en inddragelse",
+    "en": "an involvement"
+   },
+   {
+    "da": "inddragelsen",
+    "en": "the involvement"
+   },
+   {
+    "da": "inddragelser",
+    "en": "involvements"
+   },
+   {
+    "da": "inddragelserne",
+    "en": "the involvements"
+   }
+  ],
+  "related": [
+   {
+    "da": "en deltagelse",
+    "en": "participation"
+   },
+   {
+    "da": "en medbestemmelse",
+    "en": "co-determination"
+   },
+   {
+    "da": "en høring",
+    "en": "a hearing"
+   },
+   {
+    "da": "en konfiskation",
+    "en": "a confiscation"
+   }
+  ],
+  "sentence": {
+   "da": "Forældrenes **inddragelse** gør, at skolen hører, hvad de mener.",
+   "en": "The parents' involvement means the school hears what they think."
+  }
+ },
+ "en inder": {
+  "explanation": "\"En inder\" means \"an Indian\", a person from India. Do not mix it up with en indianer (a Native American), which looks almost the same. The country is Indien (India), and food or music from there is called indisk (Indian).",
+  "forms": [
+   {
+    "da": "en inder",
+    "en": "an Indian"
+   },
+   {
+    "da": "inderen",
+    "en": "the Indian"
+   },
+   {
+    "da": "indere",
+    "en": "Indians"
+   },
+   {
+    "da": "inderne",
+    "en": "the Indians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kineser",
+    "en": "a Chinese person"
+   },
+   {
+    "da": "en pakistaner",
+    "en": "a Pakistani"
+   },
+   {
+    "da": "en nepaler",
+    "en": "a Nepali"
+   },
+   {
+    "da": "en bangladesher",
+    "en": "a Bangladeshi"
+   }
+  ],
+  "sentence": {
+   "da": "Min kollega er **inder** og kommer fra byen Mumbai.",
+   "en": "My colleague is Indian and comes from the city of Mumbai."
   }
  },
  "en inderside": {
@@ -616,6 +2597,92 @@
    "en": "There is a name on the inside of the jacket."
   }
  },
+ "en indflydelse": {
+  "explanation": "\"En indflydelse\" means \"an influence\", the power to affect what other people think or do. The usual phrase is at have indflydelse på (to have influence on): Jeg har ingen indflydelse på det (I have no say in it).",
+  "forms": [
+   {
+    "da": "en indflydelse",
+    "en": "an influence"
+   },
+   {
+    "da": "indflydelsen",
+    "en": "the influence"
+   },
+   {
+    "da": "indflydelser",
+    "en": "influences"
+   },
+   {
+    "da": "indflydelserne",
+    "en": "the influences"
+   }
+  ],
+  "related": [
+   {
+    "da": "en magt",
+    "en": "a power"
+   },
+   {
+    "da": "en betydning",
+    "en": "an importance"
+   },
+   {
+    "da": "en autoritet",
+    "en": "an authority"
+   },
+   {
+    "da": "en påvirkning",
+    "en": "an effect"
+   }
+  ],
+  "sentence": {
+   "da": "Forældrene har stor **indflydelse** på, hvad børnene tror på.",
+   "en": "The parents have a big influence on what the children believe."
+  }
+ },
+ "en indflytning": {
+  "explanation": "\"En indflytning\" means \"a move-in\", the act or day of moving into a new home. Indflytning er den første maj (Move-in is on the first of May) is a typical way to give the date. The part ind (in) shows the direction, and it is the same part as in indgang (entrance).",
+  "forms": [
+   {
+    "da": "en indflytning",
+    "en": "a move-in"
+   },
+   {
+    "da": "indflytningen",
+    "en": "the move-in"
+   },
+   {
+    "da": "indflytninger",
+    "en": "move-ins"
+   },
+   {
+    "da": "indflytningerne",
+    "en": "the move-ins"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fraflytning",
+    "en": "a move-out"
+   },
+   {
+    "da": "en flyttedag",
+    "en": "a moving day"
+   },
+   {
+    "da": "en lejer",
+    "en": "a tenant"
+   },
+   {
+    "da": "en husleje",
+    "en": "a rent"
+   }
+  ],
+  "sentence": {
+   "da": "Ved **indflytning** skal du tage billeder af lejlighedens stand.",
+   "en": "At move-in you must take pictures of the apartment's condition."
+  }
+ },
  "en indflytningsgave": {
   "explanation": "\"En indflytningsgave\" means \"a housewarming gift\", a present you give to people who have just moved into a new home. It is built from indflytning (moving in) and gave (gift). Gave also appears in en julegave (a Christmas present).",
   "forms": [
@@ -659,6 +2726,49 @@
    "en": "We give them a housewarming gift when they move in."
   }
  },
+ "en indfødsretsprøve": {
+  "explanation": "\"En indfødsretsprøve\" means \"a citizenship test\", the test about Danish society, history and culture that you must pass to apply for Danish nationality. It is built from indfødsret (the right of a native) and prøve (test).",
+  "forms": [
+   {
+    "da": "en indfødsretsprøve",
+    "en": "a citizenship test"
+   },
+   {
+    "da": "indfødsretsprøven",
+    "en": "the citizenship test"
+   },
+   {
+    "da": "indfødsretsprøver",
+    "en": "citizenship tests"
+   },
+   {
+    "da": "indfødsretsprøverne",
+    "en": "the citizenship tests"
+   }
+  ],
+  "related": [
+   {
+    "da": "en danskprøve",
+    "en": "a Danish language test"
+   },
+   {
+    "da": "et pas",
+    "en": "a passport"
+   },
+   {
+    "da": "en ansøgning",
+    "en": "an application"
+   },
+   {
+    "da": "en medborgerskabsprøve",
+    "en": "a civics test"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal bestå en **indfødsretsprøve** for at blive dansk statsborger.",
+   "en": "You must pass a citizenship test to become a Danish citizen."
+  }
+ },
  "en indgang": {
   "explanation": "\"En indgang\" means \"an entrance\", the place where you go in, such as the door of a building or the gate of a park. It is built from ind (in) and gang (passage). Gang also means a hallway: Skoene står i gangen (The shoes are in the hallway).",
   "forms": [
@@ -700,6 +2810,92 @@
   "sentence": {
    "da": "Man går ind gennem en **indgang** og ud gennem en udgang.",
    "en": "You go in through an entrance and out through an exit."
+  }
+ },
+ "en indkaldelse": {
+  "explanation": "\"En indkaldelse\" means \"a summons / notice\", an official message that calls you to show up. It is used for meetings, hospital appointments and military service: indkaldelse til generalforsamling (notice of a general meeting).",
+  "forms": [
+   {
+    "da": "en indkaldelse",
+    "en": "a summons / notice"
+   },
+   {
+    "da": "indkaldelsen",
+    "en": "the summons / notice"
+   },
+   {
+    "da": "indkaldelser",
+    "en": "summonses / notices"
+   },
+   {
+    "da": "indkaldelserne",
+    "en": "the summonses / notices"
+   }
+  ],
+  "related": [
+   {
+    "da": "en invitation",
+    "en": "an invitation"
+   },
+   {
+    "da": "en dagsorden",
+    "en": "an agenda"
+   },
+   {
+    "da": "en tilmelding",
+    "en": "a sign-up"
+   },
+   {
+    "da": "et afbud",
+    "en": "a cancellation"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har fået en **indkaldelse** til et møde på mandag.",
+   "en": "I have received a notice for a meeting on Monday."
+  }
+ },
+ "en indkomst": {
+  "explanation": "\"En indkomst\" means \"an income\", the money a person or a household earns. It is the usual word in tax and official forms, where you give your årlige indkomst (yearly income).",
+  "forms": [
+   {
+    "da": "en indkomst",
+    "en": "an income"
+   },
+   {
+    "da": "indkomsten",
+    "en": "the income"
+   },
+   {
+    "da": "indkomster",
+    "en": "incomes"
+   },
+   {
+    "da": "indkomsterne",
+    "en": "the incomes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indtægt",
+    "en": "an income / revenue"
+   },
+   {
+    "da": "en løn",
+    "en": "a salary"
+   },
+   {
+    "da": "en udgift",
+    "en": "an expense"
+   },
+   {
+    "da": "en skat",
+    "en": "a tax"
+   }
+  ],
+  "sentence": {
+   "da": "Familiens samlede **indkomst** er ikke nok til at købe et hus.",
+   "en": "The family's total income is not enough to buy a house."
   }
  },
  "en indkøbskurv": {
@@ -944,6 +3140,561 @@
    "en": "There is a car standing in our driveway."
   }
  },
+ "en indledning": {
+  "explanation": "\"En indledning\" means \"an introduction\", the first part of a text, a speech or a report, which tells what is coming. It is not for presenting a person: for that, say at præsentere (to introduce).",
+  "forms": [
+   {
+    "da": "en indledning",
+    "en": "an introduction"
+   },
+   {
+    "da": "indledningen",
+    "en": "the introduction"
+   },
+   {
+    "da": "indledninger",
+    "en": "introductions"
+   },
+   {
+    "da": "indledningerne",
+    "en": "the introductions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afslutning",
+    "en": "a conclusion"
+   },
+   {
+    "da": "en begyndelse",
+    "en": "a beginning"
+   },
+   {
+    "da": "et forord",
+    "en": "a preface"
+   },
+   {
+    "da": "at indlede",
+    "en": "to begin"
+   }
+  ],
+  "sentence": {
+   "da": "Der står en kort **indledning** først og en lang afslutning til sidst.",
+   "en": "There is a short introduction first and a long conclusion at the end."
+  }
+ },
+ "en indlæggelse": {
+  "explanation": "\"En indlæggelse\" means \"a hospitalization\", being admitted to a hospital to stay overnight or longer. The matching verb is at indlægge (to admit): Han er indlagt (He is admitted). A visit where you go home the same day is called ambulant (outpatient).",
+  "forms": [
+   {
+    "da": "en indlæggelse",
+    "en": "a hospitalization"
+   },
+   {
+    "da": "indlæggelsen",
+    "en": "the hospitalization"
+   },
+   {
+    "da": "indlæggelser",
+    "en": "hospitalizations"
+   },
+   {
+    "da": "indlæggelserne",
+    "en": "the hospitalizations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udskrivning",
+    "en": "a discharge"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "en lægeundersøgelse",
+    "en": "a medical exam"
+   },
+   {
+    "da": "en patient",
+    "en": "a patient"
+   }
+  ],
+  "sentence": {
+   "da": "Efter operationen fik han en lang **indlæggelse** på hospitalet.",
+   "en": "After the operation he had a long hospital stay."
+  }
+ },
+ "en indlæring": {
+  "explanation": "\"En indlæring\" means \"a learning process\", taking in new knowledge or skills, mostly in school and studies. You often see it in compound words such as indlæringsvanskeligheder (learning difficulties).",
+  "forms": [
+   {
+    "da": "en indlæring",
+    "en": "a learning process"
+   },
+   {
+    "da": "indlæringen",
+    "en": "the learning process"
+   },
+   {
+    "da": "sprogindlæring",
+    "en": "language learning"
+   },
+   {
+    "da": "indlæringsevne",
+    "en": "ability to learn"
+   }
+  ],
+  "related": [
+   {
+    "da": "en undervisning",
+    "en": "teaching"
+   },
+   {
+    "da": "en uddannelse",
+    "en": "an education"
+   },
+   {
+    "da": "en oplæring",
+    "en": "training"
+   },
+   {
+    "da": "en indføring",
+    "en": "an introduction"
+   }
+  ],
+  "sentence": {
+   "da": "Børns **indlæring** går hurtigere, når de er trygge og nysgerrige.",
+   "en": "Children's learning goes faster when they feel safe and curious."
+  }
+ },
+ "en indretning": {
+  "explanation": "\"En indretning\" means \"a layout\" or \"furnishing\", how a room or a home is arranged and decorated. It covers where things stand, not only what you buy. The matching verb is at indrette (to furnish): Vi har indrettet stuen (We have furnished the living room).",
+  "forms": [
+   {
+    "da": "en indretning",
+    "en": "a layout / furnishing"
+   },
+   {
+    "da": "indretningen",
+    "en": "the layout / furnishing"
+   },
+   {
+    "da": "indretninger",
+    "en": "layouts / furnishings"
+   },
+   {
+    "da": "indretningerne",
+    "en": "the layouts / furnishings"
+   }
+  ],
+  "related": [
+   {
+    "da": "et interiør",
+    "en": "an interior"
+   },
+   {
+    "da": "en boligindretning",
+    "en": "home decor"
+   },
+   {
+    "da": "en planløsning",
+    "en": "a floor plan"
+   },
+   {
+    "da": "et møbel",
+    "en": "a piece of furniture"
+   }
+  ],
+  "sentence": {
+   "da": "Lejlighedens **indretning** er enkel med hvide vægge og få møbler.",
+   "en": "The apartment's furnishing is simple, with white walls and few pieces of furniture."
+  }
+ },
+ "en indretningsarkitekt": {
+  "explanation": "\"En indretningsarkitekt\" means \"an interior designer\", a trained professional who plans how rooms look and are used, from colors to furniture and light. It is built from indretning (layout, furnishing) and arkitekt (architect).",
+  "forms": [
+   {
+    "da": "en indretningsarkitekt",
+    "en": "an interior designer"
+   },
+   {
+    "da": "indretningsarkitekten",
+    "en": "the interior designer"
+   },
+   {
+    "da": "indretningsarkitekter",
+    "en": "interior designers"
+   },
+   {
+    "da": "indretningsarkitekterne",
+    "en": "the interior designers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en landskabsarkitekt",
+    "en": "a landscape architect"
+   },
+   {
+    "da": "en møbeldesigner",
+    "en": "a furniture designer"
+   },
+   {
+    "da": "en håndværker",
+    "en": "a craftsman"
+   },
+   {
+    "da": "en bygningsarkitekt",
+    "en": "a building architect"
+   }
+  ],
+  "sentence": {
+   "da": "Vi hyrer en **indretningsarkitekt**, som kan planlægge vores nye køkken.",
+   "en": "We hire an interior designer who can plan our new kitchen."
+  }
+ },
+ "en indsamling": {
+  "explanation": "\"En indsamling\" means \"a collection\" in the sense of gathering money or goods for a good cause. It is not a hobby collection like stamps, which is en samling (a collection). The matching verb is at samle ind (to collect money).",
+  "forms": [
+   {
+    "da": "en indsamling",
+    "en": "a collection (fundraiser)"
+   },
+   {
+    "da": "indsamlingen",
+    "en": "the collection"
+   },
+   {
+    "da": "indsamlinger",
+    "en": "collections"
+   },
+   {
+    "da": "indsamlingerne",
+    "en": "the collections"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pengeindsamling",
+    "en": "a fundraiser"
+   },
+   {
+    "da": "en donation",
+    "en": "a donation"
+   },
+   {
+    "da": "en velgørenhed",
+    "en": "a charity"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   }
+  ],
+  "sentence": {
+   "da": "Skolen holder en **indsamling** til børn, der har mistet deres hjem.",
+   "en": "The school holds a fundraiser for children who have lost their home."
+  }
+ },
+ "en indsat": {
+  "explanation": "\"En indsat\" means \"an inmate\", a person who is in prison. It is the neutral word used by prison staff and in the news, and it sounds more respectful than fange (prisoner).",
+  "forms": [
+   {
+    "da": "en indsat",
+    "en": "an inmate"
+   },
+   {
+    "da": "den indsatte",
+    "en": "the inmate"
+   },
+   {
+    "da": "indsatte",
+    "en": "inmates"
+   },
+   {
+    "da": "de indsatte",
+    "en": "the inmates"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fængsel",
+    "en": "a prison"
+   },
+   {
+    "da": "en fængselsbetjent",
+    "en": "a prison officer"
+   },
+   {
+    "da": "en dom",
+    "en": "a verdict"
+   },
+   {
+    "da": "en celle",
+    "en": "a cell"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **indsat** har sin egen celle i fængslet.",
+   "en": "Each inmate has his own cell in the prison."
+  }
+ },
+ "en indsats": {
+  "explanation": "\"En indsats\" means \"an effort\", the work and energy someone puts into something, often as a contribution to a group. Tak for din indsats (Thanks for your effort) is a common way to praise someone. It can also mean a planned action, such as a public program against a problem.",
+  "forms": [
+   {
+    "da": "en indsats",
+    "en": "an effort"
+   },
+   {
+    "da": "indsatsen",
+    "en": "the effort"
+   },
+   {
+    "da": "indsatser",
+    "en": "efforts"
+   },
+   {
+    "da": "indsatserne",
+    "en": "the efforts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en anstrengelse",
+    "en": "an exertion"
+   },
+   {
+    "da": "en præstation",
+    "en": "a performance"
+   },
+   {
+    "da": "en bestræbelse",
+    "en": "an endeavor"
+   },
+   {
+    "da": "en opgave",
+    "en": "a task"
+   }
+  ],
+  "sentence": {
+   "da": "Takket være klassens **indsats** blev festen en stor succes.",
+   "en": "Thanks to the class's effort, the party became a big success."
+  }
+ },
+ "en indskrivning": {
+  "explanation": "\"En indskrivning\" means \"an enrollment\", putting a name on the list at a school or a university. Parents do it for their children before school starts: Indskrivningen begynder i januar (Enrollment begins in January).",
+  "forms": [
+   {
+    "da": "en indskrivning",
+    "en": "an enrollment"
+   },
+   {
+    "da": "indskrivningen",
+    "en": "the enrollment"
+   },
+   {
+    "da": "indskrivninger",
+    "en": "enrollments"
+   },
+   {
+    "da": "indskrivningerne",
+    "en": "the enrollments"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilmelding",
+    "en": "a sign-up"
+   },
+   {
+    "da": "en optagelse",
+    "en": "an admission"
+   },
+   {
+    "da": "en afmelding",
+    "en": "a sign-out"
+   }
+  ],
+  "sentence": {
+   "da": "Ved **indskrivning** på skolen får barnet sin plads i klassen.",
+   "en": "At enrollment at the school the child gets a place in the class."
+  }
+ },
+ "en indsprøjtning": {
+  "explanation": "\"En indsprøjtning\" means \"an injection\", medicine put into the body with a needle. In daily talk people often say en sprøjte (a shot): Jeg skal have en sprøjte (I am getting a shot). It is also used for money put into something, such as a company.",
+  "forms": [
+   {
+    "da": "en indsprøjtning",
+    "en": "an injection"
+   },
+   {
+    "da": "indsprøjtningen",
+    "en": "the injection"
+   },
+   {
+    "da": "indsprøjtninger",
+    "en": "injections"
+   },
+   {
+    "da": "indsprøjtningerne",
+    "en": "the injections"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vaccination",
+    "en": "a vaccination"
+   },
+   {
+    "da": "en injektion",
+    "en": "an injection"
+   },
+   {
+    "da": "en dosis",
+    "en": "a dose"
+   },
+   {
+    "da": "en kur",
+    "en": "a course of treatment"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen giver hende en **indsprøjtning** mod smerterne i armen.",
+   "en": "The doctor gives her an injection against the pain in her arm."
+  }
+ },
+ "en indstilling": {
+  "explanation": "\"En indstilling\" means \"a setting\", a choice you can adjust on a phone, a machine or a program. It has a second meaning, a person's attitude: Han har en positiv indstilling (He has a positive attitude). The context shows which one is meant.",
+  "forms": [
+   {
+    "da": "en indstilling",
+    "en": "a setting"
+   },
+   {
+    "da": "indstillingen",
+    "en": "the setting"
+   },
+   {
+    "da": "indstillinger",
+    "en": "settings"
+   },
+   {
+    "da": "indstillingerne",
+    "en": "the settings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en valgmulighed",
+    "en": "an option"
+   },
+   {
+    "da": "en holdning",
+    "en": "a stance"
+   },
+   {
+    "da": "at indstille",
+    "en": "to adjust"
+   },
+   {
+    "da": "en opsætning",
+    "en": "a setup"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **indstilling** i appen, som gør skærmen mørk.",
+   "en": "There is a setting in the app that makes the screen dark."
+  }
+ },
+ "en indtægt": {
+  "explanation": "\"En indtægt\" means \"an income\" or \"revenue\", money that comes in, for a person or a business. It is the opposite of an expense, and it often points to one source of money, such as tourists for a town.",
+  "forms": [
+   {
+    "da": "en indtægt",
+    "en": "an income"
+   },
+   {
+    "da": "indtægten",
+    "en": "the income"
+   },
+   {
+    "da": "indtægter",
+    "en": "incomes"
+   },
+   {
+    "da": "indtægterne",
+    "en": "the incomes"
+   }
+  ],
+  "related": [
+   {
+    "da": "en omsætning",
+    "en": "a turnover"
+   },
+   {
+    "da": "en fortjeneste",
+    "en": "a profit"
+   },
+   {
+    "da": "en indkomst",
+    "en": "a personal income"
+   },
+   {
+    "da": "en løn",
+    "en": "a salary"
+   }
+  ],
+  "sentence": {
+   "da": "Turisterne er en vigtig **indtægt** for den lille by.",
+   "en": "The tourists are an important income for the small town."
+  }
+ },
+ "en industri": {
+  "explanation": "\"En industri\" means \"an industry\", a branch of business that makes goods in large amounts, usually with machines: fødevareindustri (food industry), medicinalindustri (drug industry). It can also mean all such businesses of a country taken together.",
+  "forms": [
+   {
+    "da": "en industri",
+    "en": "an industry"
+   },
+   {
+    "da": "industrien",
+    "en": "the industry"
+   },
+   {
+    "da": "industrier",
+    "en": "industries"
+   },
+   {
+    "da": "industrierne",
+    "en": "the industries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fabrik",
+    "en": "a factory"
+   },
+   {
+    "da": "en produktion",
+    "en": "a production"
+   },
+   {
+    "da": "en branche",
+    "en": "a line of business"
+   },
+   {
+    "da": "et erhverv",
+    "en": "a trade"
+   }
+  ],
+  "sentence": {
+   "da": "Fabrikker og maskiner er en stor del af landets **industri**.",
+   "en": "Factories and machines are a big part of the country's industry."
+  }
+ },
  "en indvandrer": {
   "explanation": "\"En indvandrer\" means \"an immigrant\", a person who has moved to a country to live. The matching action is at indvandre (to immigrate).",
   "forms": [
@@ -985,6 +3736,88 @@
   "sentence": {
    "da": "En **indvandrer** flytter til et nyt land.",
    "en": "An immigrant moves to a new country."
+  }
+ },
+ "en indånding": {
+  "explanation": "\"En indånding\" means \"an inhalation\", one drawing in of air. It is used in medical and yoga talk, often with its opposite: indånding og udånding (breathing in and out).",
+  "forms": [
+   {
+    "da": "en indånding",
+    "en": "an inhalation / breath"
+   },
+   {
+    "da": "indåndingen",
+    "en": "the inhalation / breath"
+   },
+   {
+    "da": "indåndinger",
+    "en": "inhalations / breaths"
+   },
+   {
+    "da": "indåndingerne",
+    "en": "the inhalations / breaths"
+   }
+  ],
+  "related": [
+   {
+    "da": "et åndedrag",
+    "en": "a breath"
+   },
+   {
+    "da": "at ånde",
+    "en": "to breathe"
+   },
+   {
+    "da": "en lunge",
+    "en": "a lung"
+   }
+  ],
+  "sentence": {
+   "da": "Efter en dyb **indånding** holder hun vejret i fem sekunder.",
+   "en": "After a deep inhalation, she holds her breath for five seconds."
+  }
+ },
+ "en infektion": {
+  "explanation": "\"En infektion\" means \"an infection\", an illness caused by germs getting into the body. Doctors often name the place, as in en halsinfektion (a throat infection). Antibiotics work on infections from bacteria, but not on those from a virus.",
+  "forms": [
+   {
+    "da": "en infektion",
+    "en": "an infection"
+   },
+   {
+    "da": "infektionen",
+    "en": "the infection"
+   },
+   {
+    "da": "infektioner",
+    "en": "infections"
+   },
+   {
+    "da": "infektionerne",
+    "en": "the infections"
+   }
+  ],
+  "related": [
+   {
+    "da": "en betændelse",
+    "en": "an inflammation"
+   },
+   {
+    "da": "en smitte",
+    "en": "a contagion"
+   },
+   {
+    "da": "en feber",
+    "en": "a fever"
+   },
+   {
+    "da": "en sygdom",
+    "en": "a disease"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har en **infektion** i øret og skal have antibiotika.",
+   "en": "She has an infection in her ear and needs antibiotics."
   }
  },
  "en influencer": {
@@ -1108,6 +3941,393 @@
    "en": "We are only missing one ingredient for the cake."
   }
  },
+ "en innovation": {
+  "explanation": "\"En innovation\" means \"an innovation\", a new idea, product or method that is put to use. Unlike en opfindelse (an invention), it stresses that the new thing actually gets used.",
+  "forms": [
+   {
+    "da": "en innovation",
+    "en": "an innovation"
+   },
+   {
+    "da": "innovationen",
+    "en": "the innovation"
+   },
+   {
+    "da": "innovationer",
+    "en": "innovations"
+   },
+   {
+    "da": "innovationerne",
+    "en": "the innovations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nyskabelse",
+    "en": "a new creation"
+   },
+   {
+    "da": "en fornyelse",
+    "en": "a renewal"
+   },
+   {
+    "da": "en idé",
+    "en": "an idea"
+   },
+   {
+    "da": "en udvikling",
+    "en": "a development"
+   }
+  ],
+  "sentence": {
+   "da": "En **innovation** gør det billigere at producere strøm fra vinden.",
+   "en": "An innovation makes it cheaper to produce power from the wind."
+  }
+ },
+ "en inspektør": {
+  "explanation": "\"En inspektør\" means \"an inspector\", a person whose job is to check that rules are followed, such as in a school, a restaurant or a factory. A fødevareinspektør (food inspector) visits shops and restaurants.",
+  "forms": [
+   {
+    "da": "en inspektør",
+    "en": "an inspector"
+   },
+   {
+    "da": "inspektøren",
+    "en": "the inspector"
+   },
+   {
+    "da": "inspektører",
+    "en": "inspectors"
+   },
+   {
+    "da": "inspektørerne",
+    "en": "the inspectors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kontrollør",
+    "en": "a controller"
+   },
+   {
+    "da": "en tilsynsførende",
+    "en": "a supervisor"
+   },
+   {
+    "da": "en revisor",
+    "en": "an auditor"
+   },
+   {
+    "da": "en kontrol",
+    "en": "an inspection"
+   }
+  ],
+  "sentence": {
+   "da": "En **inspektør** kommer og tjekker, om restauranten holder køkkenet rent.",
+   "en": "An inspector comes to check whether the restaurant keeps its kitchen clean."
+  }
+ },
+ "en inspiration": {
+  "explanation": "\"En inspiration\" means \"an inspiration\", something that gives you new ideas or the wish to create. A common phrase is at hente inspiration (to get inspiration): Vi henter inspiration fra Italien (We get inspiration from Italy).",
+  "forms": [
+   {
+    "da": "en inspiration",
+    "en": "an inspiration"
+   },
+   {
+    "da": "inspirationen",
+    "en": "the inspiration"
+   },
+   {
+    "da": "inspirationer",
+    "en": "inspirations"
+   },
+   {
+    "da": "inspirationerne",
+    "en": "the inspirations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en idé",
+    "en": "an idea"
+   },
+   {
+    "da": "at inspirere",
+    "en": "to inspire"
+   },
+   {
+    "da": "en motivation",
+    "en": "a motivation"
+   },
+   {
+    "da": "en kilde",
+    "en": "a source"
+   }
+  ],
+  "sentence": {
+   "da": "Naturen er en stor **inspiration** for mange malere.",
+   "en": "Nature is a big inspiration for many painters."
+  }
+ },
+ "en installation": {
+  "explanation": "\"En installation\" means \"an installation\", the act of fitting equipment or software so it works, or the equipment itself. In art, it is also a work built in a room. The matching verb is at installere (to install).",
+  "forms": [
+   {
+    "da": "en installation",
+    "en": "an installation"
+   },
+   {
+    "da": "installationen",
+    "en": "the installation"
+   },
+   {
+    "da": "installationer",
+    "en": "installations"
+   },
+   {
+    "da": "installationerne",
+    "en": "the installations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en montering",
+    "en": "an assembly"
+   },
+   {
+    "da": "en opsætning",
+    "en": "a setup"
+   },
+   {
+    "da": "en afinstallation",
+    "en": "an uninstall"
+   },
+   {
+    "da": "en opdatering",
+    "en": "an update"
+   }
+  ],
+  "sentence": {
+   "da": "Efter en **installation** af programmet kan du bruge det med det samme.",
+   "en": "After an installation of the program, you can use it right away."
+  }
+ },
+ "en institution": {
+  "explanation": "\"En institution\" means \"an institution\", an organization with an important public role, such as a school, a hospital or a museum. In Denmark, a daycare for children is also called en institution, as in vuggestue (nursery) and børnehave (kindergarten).",
+  "forms": [
+   {
+    "da": "en institution",
+    "en": "an institution"
+   },
+   {
+    "da": "institutionen",
+    "en": "the institution"
+   },
+   {
+    "da": "institutioner",
+    "en": "institutions"
+   },
+   {
+    "da": "institutionerne",
+    "en": "the institutions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en myndighed",
+    "en": "an authority"
+   },
+   {
+    "da": "en stiftelse",
+    "en": "a foundation"
+   },
+   {
+    "da": "en virksomhed",
+    "en": "a company"
+   },
+   {
+    "da": "en forening",
+    "en": "an association"
+   }
+  ],
+  "sentence": {
+   "da": "Et hospital er en vigtig **institution** i et samfund.",
+   "en": "A hospital is an important institution in a society."
+  }
+ },
+ "en instruks": {
+  "explanation": "\"En instruks\" means \"an instruction\", written rules from an employer or an authority about exactly what to do in a certain situation, such as handling a customer complaint. It can also be an order to the person doing the job: Han handlede efter instruks (He acted on orders).",
+  "forms": [
+   {
+    "da": "en instruks",
+    "en": "an instruction"
+   },
+   {
+    "da": "instruksen",
+    "en": "the instruction"
+   },
+   {
+    "da": "instrukser",
+    "en": "instructions"
+   },
+   {
+    "da": "instrukserne",
+    "en": "the instructions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vejledning",
+    "en": "a guide"
+   },
+   {
+    "da": "en forskrift",
+    "en": "a regulation"
+   },
+   {
+    "da": "en manual",
+    "en": "a manual"
+   },
+   {
+    "da": "en procedure",
+    "en": "a procedure"
+   }
+  ],
+  "sentence": {
+   "da": "Personalets **instruks** siger, at man skal ringe 112 ved brand.",
+   "en": "The staff's instruction says that you must call 112 in case of fire."
+  }
+ },
+ "en instruktion": {
+  "explanation": "\"En instruktion\" means \"an instruction\", a piece of guidance that tells you how to do something. It is often used in the plural for a list of steps: Læs instruktionerne først (Read the instructions first). Do not mix it up with en instruktør (a director).",
+  "forms": [
+   {
+    "da": "en instruktion",
+    "en": "an instruction"
+   },
+   {
+    "da": "instruktionen",
+    "en": "the instruction"
+   },
+   {
+    "da": "instruktioner",
+    "en": "instructions"
+   },
+   {
+    "da": "instruktionerne",
+    "en": "the instructions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vejledning",
+    "en": "a guide"
+   },
+   {
+    "da": "en manual",
+    "en": "a manual"
+   },
+   {
+    "da": "en anvisning",
+    "en": "a direction"
+   },
+   {
+    "da": "en opskrift",
+    "en": "a recipe"
+   }
+  ],
+  "sentence": {
+   "da": "Der står en **instruktion** på pakken, som du skal følge.",
+   "en": "There is an instruction on the package that you must follow."
+  }
+ },
+ "en instruktør": {
+  "explanation": "\"En instruktør\" means \"a director\" of a film, play or TV show, the person who leads the cast and decides how it looks. The same word is also used for an instructor in sports: en svømmeinstruktør (a swimming instructor). Do not mix it up with en direktør (a company director).",
+  "forms": [
+   {
+    "da": "en instruktør",
+    "en": "a director"
+   },
+   {
+    "da": "instruktøren",
+    "en": "the director"
+   },
+   {
+    "da": "instruktører",
+    "en": "directors"
+   },
+   {
+    "da": "instruktørerne",
+    "en": "the directors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skuespiller",
+    "en": "an actor"
+   },
+   {
+    "da": "en producer",
+    "en": "a producer"
+   },
+   {
+    "da": "en instruktion",
+    "en": "an instruction"
+   },
+   {
+    "da": "en manuskriptforfatter",
+    "en": "a screenwriter"
+   }
+  ],
+  "sentence": {
+   "da": "Filmens **instruktør** fortæller skuespillerne, hvordan scenen skal spilles.",
+   "en": "The film's director tells the actors how the scene should be played."
+  }
+ },
+ "en integration": {
+  "explanation": "\"En integration\" means \"an integration\", the process of becoming a full part of a society, a school or a workplace. In Denmark it is most often used about new arrivals learning the language and finding work. It can also mean joining two computer systems.",
+  "forms": [
+   {
+    "da": "en integration",
+    "en": "an integration"
+   },
+   {
+    "da": "integrationen",
+    "en": "the integration"
+   },
+   {
+    "da": "integrationer",
+    "en": "integrations"
+   },
+   {
+    "da": "integrationerne",
+    "en": "the integrations"
+   }
+  ],
+  "related": [
+   {
+    "da": "at integrere",
+    "en": "to integrate"
+   },
+   {
+    "da": "en indvandrer",
+    "en": "an immigrant"
+   },
+   {
+    "da": "en flygtning",
+    "en": "a refugee"
+   },
+   {
+    "da": "en tilpasning",
+    "en": "an adjustment"
+   }
+  ],
+  "sentence": {
+   "da": "Sprogkurser og arbejde hjælper med **integration** i det danske samfund.",
+   "en": "Language courses and work help with integration into Danish society."
+  }
+ },
  "en interesse": {
   "explanation": "\"En interesse\" means \"an interest\", something you like to spend time on. After interesse, the small word for links it to the topic: Han har stor interesse for biler (He has a big interest in cars). To say you are interested, use at være interesseret i (to be interested in).",
   "forms": [
@@ -1190,6 +4410,92 @@
    "en": "I cannot watch movies without an internet connection."
   }
  },
+ "en invasion": {
+  "explanation": "\"En invasion\" means \"an invasion\", when an army enters another country by force. It is also used lightly for a big crowd arriving: en invasion af turister (an invasion of tourists).",
+  "forms": [
+   {
+    "da": "en invasion",
+    "en": "an invasion"
+   },
+   {
+    "da": "invasionen",
+    "en": "the invasion"
+   },
+   {
+    "da": "invasioner",
+    "en": "invasions"
+   },
+   {
+    "da": "invasionerne",
+    "en": "the invasions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en besættelse",
+    "en": "an occupation"
+   },
+   {
+    "da": "et angreb",
+    "en": "an attack"
+   },
+   {
+    "da": "en krig",
+    "en": "a war"
+   },
+   {
+    "da": "en erobring",
+    "en": "a conquest"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark blev udsat for en **invasion** i 1940.",
+   "en": "Denmark was hit by an invasion in 1940."
+  }
+ },
+ "en investering": {
+  "explanation": "\"En investering\" means \"an investment\", money or time you put into something to get more back later. It is used for shares and houses, and also in daily talk: Den nye cykel er en god investering (The new bike is a good investment).",
+  "forms": [
+   {
+    "da": "en investering",
+    "en": "an investment"
+   },
+   {
+    "da": "investeringen",
+    "en": "the investment"
+   },
+   {
+    "da": "investeringer",
+    "en": "investments"
+   },
+   {
+    "da": "investeringerne",
+    "en": "the investments"
+   }
+  ],
+  "related": [
+   {
+    "da": "at investere",
+    "en": "to invest"
+   },
+   {
+    "da": "en aktie",
+    "en": "a share"
+   },
+   {
+    "da": "et afkast",
+    "en": "a return"
+   },
+   {
+    "da": "en opsparing",
+    "en": "savings"
+   }
+  ],
+  "sentence": {
+   "da": "Et hus er en stor **investering**, som du betaler af i mange år.",
+   "en": "A house is a big investment that you pay off for many years."
+  }
+ },
  "en invitation": {
   "explanation": "\"En invitation\" means \"an invitation\", a request to come to a party or event. The matching action is at invitere (to invite).",
   "forms": [
@@ -1227,6 +4533,49 @@
   "sentence": {
    "da": "Jeg har fået en **invitation** til en fødselsdag.",
    "en": "I have received an invitation to a birthday party."
+  }
+ },
+ "en irritation": {
+  "explanation": "\"En irritation\" means \"an irritation\", a small feeling of being bothered or upset by something. It is used for feelings and also for the body: en irritation i huden (an irritation in the skin).",
+  "forms": [
+   {
+    "da": "en irritation",
+    "en": "an irritation"
+   },
+   {
+    "da": "irritationen",
+    "en": "the irritation"
+   },
+   {
+    "da": "irritationer",
+    "en": "irritations"
+   },
+   {
+    "da": "irritationerne",
+    "en": "the irritations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vrede",
+    "en": "an anger"
+   },
+   {
+    "da": "en ærgrelse",
+    "en": "a vexation"
+   },
+   {
+    "da": "at irritere",
+    "en": "to annoy"
+   },
+   {
+    "da": "en gene",
+    "en": "a nuisance"
+   }
+  ],
+  "sentence": {
+   "da": "Larmen fra naboen er en daglig **irritation** for hele familien.",
+   "en": "The noise from the neighbor is a daily irritation for the whole family."
   }
  },
  "en isbjørn": {
@@ -1305,6 +4654,92 @@
   "sentence": {
    "da": "Vi køber en softice ved en **isbod** på stranden.",
    "en": "We buy a soft serve at an ice cream stand on the beach."
+  }
+ },
+ "en isenkræmmer": {
+  "explanation": "\"En isenkræmmer\" means \"a hardware dealer\", a shopkeeper who sells everyday items for the home and workshop, called isenkram (hardware). The word sounds a bit old-fashioned today, and most people now buy such things at et byggemarked (a home improvement store).",
+  "forms": [
+   {
+    "da": "en isenkræmmer",
+    "en": "a hardware dealer"
+   },
+   {
+    "da": "isenkræmmeren",
+    "en": "the hardware dealer"
+   },
+   {
+    "da": "isenkræmmere",
+    "en": "hardware dealers"
+   },
+   {
+    "da": "isenkræmmerne",
+    "en": "the hardware dealers"
+   }
+  ],
+  "related": [
+   {
+    "da": "en købmand",
+    "en": "a grocer"
+   },
+   {
+    "da": "en slagter",
+    "en": "a butcher"
+   },
+   {
+    "da": "en bager",
+    "en": "a baker"
+   },
+   {
+    "da": "en grønthandler",
+    "en": "a greengrocer"
+   }
+  ],
+  "sentence": {
+   "da": "En **isenkræmmer** sælger værktøj, gryder og andre ting til hjemmet.",
+   "en": "A hardware dealer sells tools, pots and other things for the home."
+  }
+ },
+ "en islænding": {
+  "explanation": "\"En islænding\" means \"an Icelander\", a person from Iceland. The country is Island (Iceland), and the language is islandsk (Icelandic). Do not mix it up with en irlænder (an Irishman), which looks almost the same.",
+  "forms": [
+   {
+    "da": "en islænding",
+    "en": "an Icelander"
+   },
+   {
+    "da": "islændingen",
+    "en": "the Icelander"
+   },
+   {
+    "da": "islændinge",
+    "en": "Icelanders"
+   },
+   {
+    "da": "islændingene",
+    "en": "the Icelanders"
+   }
+  ],
+  "related": [
+   {
+    "da": "en nordmand",
+    "en": "a Norwegian"
+   },
+   {
+    "da": "en finne",
+    "en": "a Finn"
+   },
+   {
+    "da": "en færing",
+    "en": "a Faroese person"
+   },
+   {
+    "da": "en grønlænder",
+    "en": "a Greenlander"
+   }
+  ],
+  "sentence": {
+   "da": "Min ven er **islænding** og kommer fra Reykjavik.",
+   "en": "My friend is an Icelander and comes from Reykjavik."
   }
  },
  "en istap": {
@@ -1467,6 +4902,49 @@
    "en": "My coworker is Italian and loves pasta."
   }
  },
+ "en iværksætter": {
+  "explanation": "\"En iværksætter\" means \"an entrepreneur\", someone who starts a new business. It comes from at iværksætte (to set going), so it carries the idea of getting something started.",
+  "forms": [
+   {
+    "da": "en iværksætter",
+    "en": "an entrepreneur"
+   },
+   {
+    "da": "iværksætteren",
+    "en": "the entrepreneur"
+   },
+   {
+    "da": "iværksættere",
+    "en": "entrepreneurs"
+   },
+   {
+    "da": "iværksætterne",
+    "en": "the entrepreneurs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gründer",
+    "en": "a founder"
+   },
+   {
+    "da": "en virksomhedsejer",
+    "en": "a business owner"
+   },
+   {
+    "da": "en opstart",
+    "en": "a startup"
+   },
+   {
+    "da": "en selvstændig",
+    "en": "a self-employed person"
+   }
+  ],
+  "sentence": {
+   "da": "Som **iværksætter** skal du selv finde kunder og betale dine regninger.",
+   "en": "As an entrepreneur, you must find customers yourself and pay your bills."
+  }
+ },
  "et ildfast fad": {
   "explanation": "\"Et ildfast fad\" means \"an ovenproof dish\", a dish that can take strong heat. Ildfast (fireproof) is built from ild (fire) and fast (firm). Fad alone is a serving platter: Kagen står på et fad (The cake is on a platter).",
   "forms": [
@@ -1508,6 +4986,49 @@
   "sentence": {
    "da": "Jeg bager lasagnen i et **ildfast fad**.",
    "en": "I bake the lasagna in an ovenproof dish."
+  }
+ },
+ "et imperium": {
+  "explanation": "\"Et imperium\" means \"an empire\", a very large power that rules over many lands and peoples. Another Danish word for the same idea is et rige (a realm), as in Romerriget (the Roman Empire).",
+  "forms": [
+   {
+    "da": "et imperium",
+    "en": "an empire"
+   },
+   {
+    "da": "imperiet",
+    "en": "the empire"
+   },
+   {
+    "da": "imperier",
+    "en": "empires"
+   },
+   {
+    "da": "imperierne",
+    "en": "the empires"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kejserdømme",
+    "en": "an emperor's realm"
+   },
+   {
+    "da": "en kejser",
+    "en": "an emperor"
+   },
+   {
+    "da": "en koloni",
+    "en": "a colony"
+   },
+   {
+    "da": "et kongerige",
+    "en": "a kingdom"
+   }
+  ],
+  "sentence": {
+   "da": "Det romerske **imperium** erobrede store dele af Europa.",
+   "en": "The Roman Empire conquered large parts of Europe."
   }
  },
  "et indbrud": {
@@ -1631,6 +5152,127 @@
    "en": "There are many shops in a big shopping mall."
   }
  },
+ "et indlæg": {
+  "explanation": "\"Et indlæg\" means \"a post / contribution\", something you add to a discussion, such as a text you publish online or a short talk in a meeting: et indlæg på Facebook (a post on Facebook). It is also the word for an insole you put in a shoe.",
+  "forms": [
+   {
+    "da": "et indlæg",
+    "en": "a post / contribution"
+   },
+   {
+    "da": "indlægget",
+    "en": "the post / contribution"
+   },
+   {
+    "da": "indlæg",
+    "en": "posts / contributions"
+   },
+   {
+    "da": "indlæggene",
+    "en": "the posts / contributions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et opslag",
+    "en": "a notice"
+   },
+   {
+    "da": "en kommentar",
+    "en": "a comment"
+   },
+   {
+    "da": "en debat",
+    "en": "a debate"
+   },
+   {
+    "da": "et læserbrev",
+    "en": "a letter to the editor"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skrev et langt **indlæg** i avisen om skolens fremtid.",
+   "en": "She wrote a long piece in the newspaper about the future of the school."
+  }
+ },
+ "et indtryk": {
+  "explanation": "\"Et indtryk\" means \"an impression\", the picture you form in your mind of someone or something after meeting or seeing it. Det gjorde stort indtryk på mig (It made a big impression on me). The opposite direction is et udtryk (an expression), what comes out.",
+  "forms": [
+   {
+    "da": "et indtryk",
+    "en": "an impression"
+   },
+   {
+    "da": "indtrykket",
+    "en": "the impression"
+   },
+   {
+    "da": "indtryk",
+    "en": "impressions"
+   },
+   {
+    "da": "indtrykkene",
+    "en": "the impressions"
+   }
+  ],
+  "related": [
+   {
+    "da": "en opfattelse",
+    "en": "a perception"
+   },
+   {
+    "da": "en følelse",
+    "en": "a feeling"
+   },
+   {
+    "da": "en erfaring",
+    "en": "an experience"
+   }
+  ],
+  "sentence": {
+   "da": "Mit første **indtryk** af byen var meget godt.",
+   "en": "My first impression of the city was very good."
+  }
+ },
+ "et initiativ": {
+  "explanation": "\"Et initiativ\" means \"an initiative\", the first step that gets something started. Someone who starts things without being asked has initiativ. It can also be a new plan put in place by a city or a company.",
+  "forms": [
+   {
+    "da": "et initiativ",
+    "en": "an initiative"
+   },
+   {
+    "da": "initiativet",
+    "en": "the initiative"
+   },
+   {
+    "da": "initiativer",
+    "en": "initiatives"
+   },
+   {
+    "da": "initiativerne",
+    "en": "the initiatives"
+   }
+  ],
+  "related": [
+   {
+    "da": "et forslag",
+    "en": "a proposal"
+   },
+   {
+    "da": "en idé",
+    "en": "an idea"
+   },
+   {
+    "da": "at iværksætte",
+    "en": "to launch"
+   }
+  ],
+  "sentence": {
+   "da": "Naboerne tog **initiativ** til en fælles have i gården.",
+   "en": "The neighbors took the initiative for a shared garden in the yard."
+  }
+ },
  "et insekt": {
   "explanation": "\"Et insekt\" means \"an insect\", a small animal with six legs. A spider is not an insect, because en edderkop (a spider) has eight legs.",
   "forms": [
@@ -1672,6 +5314,88 @@
   "sentence": {
    "da": "En bi er et **insekt** med vinger.",
    "en": "A bee is an insect with wings."
+  }
+ },
+ "et instinkt": {
+  "explanation": "\"Et instinkt\" means \"an instinct\", a natural urge to act in a certain way that nobody has taught you, such as a newborn animal searching for its mother's milk. You can say Jeg gjorde det af instinkt (I did it by instinct) when you acted without thinking.",
+  "forms": [
+   {
+    "da": "et instinkt",
+    "en": "an instinct"
+   },
+   {
+    "da": "instinktet",
+    "en": "the instinct"
+   },
+   {
+    "da": "instinkter",
+    "en": "instincts"
+   },
+   {
+    "da": "instinkterne",
+    "en": "the instincts"
+   }
+  ],
+  "related": [
+   {
+    "da": "en refleks",
+    "en": "a reflex"
+   },
+   {
+    "da": "en drift",
+    "en": "a drive"
+   },
+   {
+    "da": "en intuition",
+    "en": "an intuition"
+   },
+   {
+    "da": "en mavefornemmelse",
+    "en": "a gut feeling"
+   }
+  ],
+  "sentence": {
+   "da": "Fuglene flyver mod syd om efteråret af **instinkt**.",
+   "en": "The birds fly south in the autumn by instinct."
+  }
+ },
+ "et institut": {
+  "explanation": "\"Et institut\" means \"an institute\", an organization that studies or teaches one particular subject. In higher education, a department is also called an institut. A beauty salon is et skønhedsinstitut.",
+  "forms": [
+   {
+    "da": "et institut",
+    "en": "an institute"
+   },
+   {
+    "da": "instituttet",
+    "en": "the institute"
+   },
+   {
+    "da": "institutter",
+    "en": "institutes"
+   },
+   {
+    "da": "institutterne",
+    "en": "the institutes"
+   }
+  ],
+  "related": [
+   {
+    "da": "et universitet",
+    "en": "a university"
+   },
+   {
+    "da": "et laboratorium",
+    "en": "a laboratory"
+   },
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   }
+  ],
+  "sentence": {
+   "da": "Forskerne på et **institut** studerer ét emne meget grundigt.",
+   "en": "The researchers at an institute study one topic very thoroughly."
   }
  },
  "et instrument": {
@@ -1982,6 +5706,45 @@
    "en": "You can at least try it."
   }
  },
+ "i det store hele": {
+  "explanation": "\"I det store hele\" means \"all in all\", a general summary that allows for small exceptions: the big picture is true even if a few details are not.",
+  "forms": [
+   {
+    "da": "I det store hele gik det godt",
+    "en": "All in all it went well"
+   },
+   {
+    "da": "Jeg er i det store hele enig",
+    "en": "I mostly agree"
+   },
+   {
+    "da": "Det er i det store hele rigtigt",
+    "en": "It is by and large right"
+   }
+  ],
+  "related": [
+   {
+    "da": "generelt",
+    "en": "generally"
+   },
+   {
+    "da": "stort set",
+    "en": "more or less"
+   },
+   {
+    "da": "overordnet",
+    "en": "overall"
+   },
+   {
+    "da": "på det hele taget",
+    "en": "on the whole"
+   }
+  ],
+  "sentence": {
+   "da": "Vi er **i det store hele** tilfredse, men maden kunne være bedre.",
+   "en": "All in all we are satisfied, but the food could be better."
+  }
+ },
  "i eftermiddag": {
   "explanation": "\"I eftermiddag\" means \"this afternoon\", the afternoon of today. For something that happens every afternoon, say om eftermiddagen: Jeg læser om eftermiddagen (I read in the afternoons).",
   "forms": [
@@ -2126,6 +5889,45 @@
    "en": "People wrote many letters in the past."
   }
  },
+ "i forvejen": {
+  "explanation": "\"I forvejen\" means \"beforehand\", before something happens, and also \"already\": Jeg kender hende i forvejen (I already know her).",
+  "forms": [
+   {
+    "da": "Sig det i forvejen",
+    "en": "Say it beforehand"
+   },
+   {
+    "da": "Det har jeg i forvejen",
+    "en": "I already have that"
+   },
+   {
+    "da": "Jeg vidste det i forvejen",
+    "en": "I knew it beforehand"
+   }
+  ],
+  "related": [
+   {
+    "da": "på forhånd",
+    "en": "in advance"
+   },
+   {
+    "da": "forud",
+    "en": "ahead of time"
+   },
+   {
+    "da": "tidligere",
+    "en": "earlier"
+   },
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   }
+  ],
+  "sentence": {
+   "da": "Hun havde **i forvejen** købt billetter til os.",
+   "en": "She had already bought tickets for us."
+  }
+ },
  "i fremtiden": {
   "explanation": "\"I fremtiden\" means \"in the future\". The opposite is i fortiden (in the past).",
   "forms": [
@@ -2163,6 +5965,45 @@
   "sentence": {
    "da": "Jeg vil spare flere penge **i fremtiden**.",
    "en": "I want to save more money in the future."
+  }
+ },
+ "i første omgang": {
+  "explanation": "\"I første omgang\" means \"at first\", the first step of something that will go on. It often hints that more steps come later. Omgang here means a round or stage.",
+  "forms": [
+   {
+    "da": "i første omgang",
+    "en": "at first"
+   },
+   {
+    "da": "I første omgang venter vi",
+    "en": "At first, we wait"
+   },
+   {
+    "da": "Det er nok i første omgang",
+    "en": "That is enough for now"
+   }
+  ],
+  "related": [
+   {
+    "da": "til at begynde med",
+    "en": "to begin with"
+   },
+   {
+    "da": "derefter",
+    "en": "after that"
+   },
+   {
+    "da": "bagefter",
+    "en": "afterwards"
+   },
+   {
+    "da": "i starten",
+    "en": "at the start"
+   }
+  ],
+  "sentence": {
+   "da": "**I første omgang** skal vi bare finde et sted at bo.",
+   "en": "At first, we just have to find a place to live."
   }
  },
  "i gang": {
@@ -2317,6 +6158,45 @@
    "en": "It is raining, but at least it is warm."
   }
  },
+ "i kraft af": {
+  "explanation": "\"I kraft af\" means \"by virtue of\", and gives the reason something is allowed or possible: the power or position that comes with something. For ordinary causes such as weather, use på grund af (because of) instead.",
+  "forms": [
+   {
+    "da": "i kraft af sin stilling",
+    "en": "by virtue of his position"
+   },
+   {
+    "da": "i kraft af loven",
+    "en": "by virtue of the law"
+   },
+   {
+    "da": "i kraft af sit navn",
+    "en": "by virtue of her name"
+   }
+  ],
+  "related": [
+   {
+    "da": "som følge af",
+    "en": "as a result of"
+   },
+   {
+    "da": "takket være",
+    "en": "thanks to"
+   },
+   {
+    "da": "ved hjælp af",
+    "en": "with the help of"
+   },
+   {
+    "da": "i egenskab af",
+    "en": "in the role of"
+   }
+  ],
+  "sentence": {
+   "da": "Borgmesteren kan beslutte det **i kraft af** sit embede.",
+   "en": "The mayor can decide it by virtue of his office."
+  }
+ },
  "i lige måde": {
   "explanation": "\"I lige måde\" means \"likewise\" and answers a good wish by returning it. It stands in for the whole wish: after Hav en god dag! (Have a good day!) it means \"you have a good day too\".",
   "forms": [
@@ -2350,6 +6230,45 @@
   "sentence": {
    "da": "Hav en god weekend! Tak, **i lige måde**!",
    "en": "Have a good weekend! Thanks, you too!"
+  }
+ },
+ "i mangel af": {
+  "explanation": "\"I mangel af\" means \"for lack of\", and it names the thing that was missing, so something else had to do. It often goes with bedre: i mangel af bedre (for lack of anything better).",
+  "forms": [
+   {
+    "da": "i mangel af tid",
+    "en": "for lack of time"
+   },
+   {
+    "da": "i mangel af penge",
+    "en": "for lack of money"
+   },
+   {
+    "da": "i mangel af beviser",
+    "en": "for lack of evidence"
+   }
+  ],
+  "related": [
+   {
+    "da": "i stedet for",
+    "en": "instead of"
+   },
+   {
+    "da": "i fravær af",
+    "en": "in the absence of"
+   },
+   {
+    "da": "uden",
+    "en": "without"
+   },
+   {
+    "da": "en erstatning",
+    "en": "a replacement"
+   }
+  ],
+  "sentence": {
+   "da": "**I mangel af** en bil gik vi hele vejen.",
+   "en": "For lack of a car we walked the whole way."
   }
  },
  "i mellemtiden": {
@@ -2389,6 +6308,45 @@
   "sentence": {
    "da": "Vi venter, og **i mellemtiden** drikker vi kaffe.",
    "en": "We wait, and in the meantime we drink coffee."
+  }
+ },
+ "i modsætning til": {
+  "explanation": "\"I modsætning til\" means \"in contrast to\". It sets two things side by side to show that they differ: Han er rolig, i modsætning til sin søster (He is calm, unlike his sister).",
+  "forms": [
+   {
+    "da": "i modsætning til mig",
+    "en": "unlike me"
+   },
+   {
+    "da": "i modsætning til før",
+    "en": "unlike before"
+   },
+   {
+    "da": "i modsætning til os",
+    "en": "in contrast to us"
+   }
+  ],
+  "related": [
+   {
+    "da": "modsat",
+    "en": "opposite"
+   },
+   {
+    "da": "derimod",
+    "en": "on the other hand"
+   },
+   {
+    "da": "sammenlignet med",
+    "en": "compared with"
+   },
+   {
+    "da": "ligesom",
+    "en": "just like"
+   }
+  ],
+  "sentence": {
+   "da": "Byen er stille om natten, **i modsætning til** om dagen.",
+   "en": "The city is quiet at night, in contrast to the day."
   }
  },
  "i morgen": {
@@ -2535,6 +6493,45 @@
    "en": "Is there a bank nearby?"
   }
  },
+ "i og med": {
+  "explanation": "\"I og med\" means \"since\" or \"given that\". It gives a reason that is already a known fact. It is nearly always followed by at: I og med at det regner, bliver vi hjemme (Since it is raining, we stay home).",
+  "forms": [
+   {
+    "da": "i og med at det er søndag",
+    "en": "since it is Sunday"
+   },
+   {
+    "da": "i og med at han er syg",
+    "en": "given that he is sick"
+   },
+   {
+    "da": "i og med at vi bor her",
+    "en": "since we live here"
+   }
+  ],
+  "related": [
+   {
+    "da": "fordi",
+    "en": "because"
+   },
+   {
+    "da": "eftersom",
+    "en": "seeing that"
+   },
+   {
+    "da": "på grund af",
+    "en": "because of"
+   },
+   {
+    "da": "derfor",
+    "en": "therefore"
+   }
+  ],
+  "sentence": {
+   "da": "**I og med** at vi bor tæt på, cykler vi til arbejde.",
+   "en": "Since we live close by, we bike to work."
+  }
+ },
  "i orden": {
   "explanation": "\"I orden\" means \"all right\" or \"in order\". Det er i orden (That is all right) can answer an apology, like saying no problem. Er alt i orden? (Is everything all right?) checks that nothing is wrong.",
   "forms": [
@@ -2642,6 +6639,45 @@
   "sentence": {
    "da": "**I princippet** kan alle komme, men der er kun ti pladser.",
    "en": "In principle everyone can come, but there are only ten places."
+  }
+ },
+ "i sidste ende": {
+  "explanation": "\"I sidste ende\" means \"in the end\", about what counts most when everything is weighed up. It is not about time. For the last step in a series, use til sidst (at the very end).",
+  "forms": [
+   {
+    "da": "i sidste ende",
+    "en": "in the end"
+   },
+   {
+    "da": "I sidste ende bestemmer du",
+    "en": "In the end, you decide"
+   },
+   {
+    "da": "I sidste ende handler det om penge",
+    "en": "In the end, it is about money"
+   }
+  ],
+  "related": [
+   {
+    "da": "alt i alt",
+    "en": "all in all"
+   },
+   {
+    "da": "i første omgang",
+    "en": "at first"
+   },
+   {
+    "da": "endelig",
+    "en": "finally"
+   },
+   {
+    "da": "i det lange løb",
+    "en": "in the long run"
+   }
+  ],
+  "sentence": {
+   "da": "**I sidste ende** er det dig, der skal vælge.",
+   "en": "In the end, it is you who has to choose."
   }
  },
  "i skole": {
@@ -3053,6 +7089,162 @@
    "en": "By the way, he is my brother."
   }
  },
+ "iblandt": {
+  "explanation": "\"Iblandt\" means \"among\", inside a group: Han var iblandt de bedste (He was among the best). Blandt is the shorter form and is more common.",
+  "forms": [
+   {
+    "da": "iblandt os",
+    "en": "among us"
+   },
+   {
+    "da": "iblandt vennerne",
+    "en": "among the friends"
+   },
+   {
+    "da": "iblandt de bedste",
+    "en": "among the best"
+   }
+  ],
+  "related": [
+   {
+    "da": "imellem",
+    "en": "between"
+   },
+   {
+    "da": "midt i",
+    "en": "in the middle of"
+   },
+   {
+    "da": "en blanding",
+    "en": "a mix"
+   },
+   {
+    "da": "mellem",
+    "en": "between (two things)"
+   }
+  ],
+  "sentence": {
+   "da": "Min onkel er **iblandt** gæsterne til festen.",
+   "en": "My uncle is among the guests at the party."
+  }
+ },
+ "ideel": {
+  "explanation": "\"Ideel\" means \"ideal\", the best possible for a certain purpose. The thing you aim for is et ideal (an ideal).",
+  "forms": [
+   {
+    "da": "en ideel løsning",
+    "en": "an ideal solution"
+   },
+   {
+    "da": "et ideelt sted",
+    "en": "an ideal place"
+   },
+   {
+    "da": "ideelle forhold",
+    "en": "ideal conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "perfekt",
+    "en": "perfect"
+   },
+   {
+    "da": "optimal",
+    "en": "optimal"
+   },
+   {
+    "da": "passende",
+    "en": "suitable"
+   },
+   {
+    "da": "dårlig",
+    "en": "bad"
+   }
+  ],
+  "sentence": {
+   "da": "En indhegnet have er en **ideel** legeplads for små børn.",
+   "en": "A fenced garden is an ideal playground for small children."
+  }
+ },
+ "identisk": {
+  "explanation": "\"Identisk\" means \"identical\", exactly the same in every detail. It is followed by med for what it matches: Svaret er identisk med mit (The answer is identical to mine).",
+  "forms": [
+   {
+    "da": "en identisk kopi",
+    "en": "an identical copy"
+   },
+   {
+    "da": "et identisk svar",
+    "en": "an identical answer"
+   },
+   {
+    "da": "identiske tvillinger",
+    "en": "identical twins"
+   }
+  ],
+  "related": [
+   {
+    "da": "ens",
+    "en": "alike"
+   },
+   {
+    "da": "forskellig",
+    "en": "different"
+   },
+   {
+    "da": "lignende",
+    "en": "similar"
+   },
+   {
+    "da": "uens",
+    "en": "unlike each other"
+   }
+  ],
+  "sentence": {
+   "da": "Hans kopi af nøglen er **identisk** med originalen.",
+   "en": "His copy of the key is identical to the original."
+  }
+ },
+ "idet": {
+  "explanation": "\"Idet\" means \"as\", for two things that happen at the same moment: Idet han gik ud, slukkede han lyset (As he went out, he turned off the light). It can also give a reason, like \"since\": Idet det regner, aflyser vi (Since it is raining, we cancel).",
+  "forms": [
+   {
+    "da": "idet han kom ind",
+    "en": "as he came in"
+   },
+   {
+    "da": "idet hun smilede",
+    "en": "as she smiled"
+   },
+   {
+    "da": "idet det blev mørkt",
+    "en": "as it got dark"
+   }
+  ],
+  "related": [
+   {
+    "da": "mens",
+    "en": "while"
+   },
+   {
+    "da": "da",
+    "en": "when"
+   },
+   {
+    "da": "fordi",
+    "en": "because"
+   },
+   {
+    "da": "i og med",
+    "en": "given that"
+   }
+  ],
+  "sentence": {
+   "da": "Han smilede, **idet** han åbnede døren.",
+   "en": "He smiled as he opened the door."
+  }
+ },
  "idræt": {
   "explanation": "\"Idræt\" means \"PE\" or \"sports\". At school it is the gym class: Vi har idræt efter frokost (We have PE after lunch). Outside school it means sports in general: Hun elsker idræt (She loves sports).",
   "forms": [
@@ -3090,6 +7282,45 @@
   "sentence": {
    "da": "Vi løber og spiller bold i **idræt**.",
    "en": "We run and play ball in PE."
+  }
+ },
+ "ifølge": {
+  "explanation": "\"Ifølge\" means \"according to\". It is followed by where the information comes from: ifølge lægen (according to the doctor). For your own view, say efter min mening (in my opinion).",
+  "forms": [
+   {
+    "da": "ifølge avisen",
+    "en": "according to the paper"
+   },
+   {
+    "da": "ifølge loven",
+    "en": "according to the law"
+   },
+   {
+    "da": "ifølge mig",
+    "en": "according to me"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kilde",
+    "en": "a source"
+   },
+   {
+    "da": "angiveligt",
+    "en": "allegedly"
+   },
+   {
+    "da": "påstået",
+    "en": "claimed"
+   },
+   {
+    "da": "at hævde",
+    "en": "to claim"
+   }
+  ],
+  "sentence": {
+   "da": "**Ifølge** vejrudsigten bliver det koldt i morgen.",
+   "en": "According to the weather forecast, it will be cold tomorrow."
   }
  },
  "igen": {
@@ -3195,6 +7426,45 @@
   "sentence": {
    "da": "Jeg er **ikke** sulten.",
    "en": "I am not hungry."
+  }
+ },
+ "ikke desto mindre": {
+  "explanation": "\"Ikke desto mindre\" means \"nevertheless\". It points to something that is still true despite what was just said: Det var dyrt. Ikke desto mindre købte vi det (It was expensive. Nevertheless, we bought it). In everyday speech, alligevel (anyway) is more common.",
+  "forms": [
+   {
+    "da": "ikke desto mindre",
+    "en": "nevertheless"
+   },
+   {
+    "da": "Ikke desto mindre kom han",
+    "en": "Nevertheless, he came"
+   },
+   {
+    "da": "men ikke desto mindre",
+    "en": "but nevertheless"
+   }
+  ],
+  "related": [
+   {
+    "da": "trods alt",
+    "en": "after all"
+   },
+   {
+    "da": "dog",
+    "en": "however"
+   },
+   {
+    "da": "men",
+    "en": "but"
+   },
+   {
+    "da": "på den anden side",
+    "en": "on the other hand"
+   }
+  ],
+  "sentence": {
+   "da": "Det regnede, men vi gik **ikke desto mindre** en tur.",
+   "en": "It rained, but we went for a walk nevertheless."
   }
  },
  "ikke endnu": {
@@ -3341,6 +7611,49 @@
    "en": "We are freezing and light a fire."
   }
  },
+ "ilt": {
+  "explanation": "\"Ilt\" means \"oxygen\", the part of the air that people and animals need in order to live. Fish take ilt from the water too: Fisk tager ilt fra vandet (Fish take oxygen from the water).",
+  "forms": [
+   {
+    "da": "ilt",
+    "en": "oxygen"
+   },
+   {
+    "da": "ilten",
+    "en": "the oxygen"
+   },
+   {
+    "da": "ren ilt",
+    "en": "pure oxygen"
+   },
+   {
+    "da": "iltmangel",
+    "en": "lack of oxygen"
+   }
+  ],
+  "related": [
+   {
+    "da": "luft",
+    "en": "air"
+   },
+   {
+    "da": "en gas",
+    "en": "a gas"
+   },
+   {
+    "da": "kuldioxid",
+    "en": "carbon dioxide"
+   },
+   {
+    "da": "at trække vejret",
+    "en": "to breathe"
+   }
+  ],
+  "sentence": {
+   "da": "Bjergbestigere har brug for ekstra **ilt** højt oppe i bjergene.",
+   "en": "Mountain climbers need extra oxygen high up in the mountains."
+  }
+ },
  "imellem": {
   "explanation": "\"Imellem\" means \"between\". In the phrase en gang imellem it means \"once in a while\". The shorter mellem (between) means the same and is more common.",
   "forms": [
@@ -3413,6 +7726,49 @@
   "sentence": {
    "da": "Jeg laver mad, **imens** du dækker bord.",
    "en": "I cook while you set the table."
+  }
+ },
+ "immunitet": {
+  "explanation": "\"En immunitet\" means \"immunity\", the body's protection against a disease: Hun har immunitet mod influenza (She has immunity to the flu). It also means legal protection: diplomatisk immunitet (diplomatic immunity).",
+  "forms": [
+   {
+    "da": "en immunitet",
+    "en": "an immunity"
+   },
+   {
+    "da": "immuniteten",
+    "en": "the immunity"
+   },
+   {
+    "da": "immuniteter",
+    "en": "immunities"
+   },
+   {
+    "da": "immuniteterne",
+    "en": "the immunities"
+   }
+  ],
+  "related": [
+   {
+    "da": "et immunforsvar",
+    "en": "an immune system"
+   },
+   {
+    "da": "en vaccine",
+    "en": "a vaccine"
+   },
+   {
+    "da": "modstandskraft",
+    "en": "resistance"
+   },
+   {
+    "da": "en infektion",
+    "en": "an infection"
+   }
+  ],
+  "sentence": {
+   "da": "Efter vaccinen har børnene **immunitet** mod mæslinger.",
+   "en": "After the vaccine, the children have immunity to measles."
   }
  },
  "imod": {
@@ -3532,6 +7888,88 @@
    "en": "The teacher was impressed by her work."
   }
  },
+ "import": {
+  "explanation": "\"En import\" means \"import\", goods that are bought abroad and brought into a country: Importen af kaffe stiger (The import of coffee is rising). The opposite is eksport (export).",
+  "forms": [
+   {
+    "da": "en import",
+    "en": "an import"
+   },
+   {
+    "da": "importen",
+    "en": "the import"
+   },
+   {
+    "da": "importer",
+    "en": "imports"
+   },
+   {
+    "da": "importerne",
+    "en": "the imports"
+   }
+  ],
+  "related": [
+   {
+    "da": "at indføre",
+    "en": "to bring in"
+   },
+   {
+    "da": "at importere",
+    "en": "to import"
+   },
+   {
+    "da": "en importør",
+    "en": "an importer"
+   },
+   {
+    "da": "en told",
+    "en": "a customs duty"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark har stor **import** af frugt fra varme lande.",
+   "en": "Denmark has large imports of fruit from warm countries."
+  }
+ },
+ "impulsiv": {
+  "explanation": "\"Impulsiv\" means \"impulsive\", acting on a sudden urge without thinking first. The urge is en impuls (an impulse), and et impulskøb is something you buy on impulse.",
+  "forms": [
+   {
+    "da": "en impulsiv beslutning",
+    "en": "an impulsive decision"
+   },
+   {
+    "da": "et impulsivt køb",
+    "en": "an impulsive purchase"
+   },
+   {
+    "da": "impulsive mennesker",
+    "en": "impulsive people"
+   }
+  ],
+  "related": [
+   {
+    "da": "spontan",
+    "en": "spontaneous"
+   },
+   {
+    "da": "uovervejet",
+    "en": "ill-considered"
+   },
+   {
+    "da": "overvejet",
+    "en": "well thought out"
+   },
+   {
+    "da": "forsigtig",
+    "en": "careful"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **impulsiv** og køber ting uden at tænke over det.",
+   "en": "He is impulsive and buys things without thinking about it."
+  }
+ },
  "ind": {
   "explanation": "\"Ind\" means \"in\". Compare Kom ind! (Come in! — you are outside and move inside) with Han er inde (He is inside — he is already there). Ind i means \"into\": Hun løber ind i butikken (She runs into the shop).",
   "forms": [
@@ -3565,6 +8003,123 @@
   "sentence": {
    "da": "Kom **ind** i huset!",
    "en": "Come into the house!"
+  }
+ },
+ "indadvendt": {
+  "explanation": "\"Indadvendt\" means \"introverted\", someone who keeps to themselves and needs time alone. It is built from indad (inward) and vendt (turned), so it means \"turned inward\". The opposite is udadvendt (extroverted).",
+  "forms": [
+   {
+    "da": "en indadvendt dreng",
+    "en": "an introverted boy"
+   },
+   {
+    "da": "et indadvendt barn",
+    "en": "an introverted child"
+   },
+   {
+    "da": "indadvendte børn",
+    "en": "introverted children"
+   }
+  ],
+  "related": [
+   {
+    "da": "genert",
+    "en": "shy"
+   },
+   {
+    "da": "stille",
+    "en": "quiet"
+   },
+   {
+    "da": "reserveret",
+    "en": "reserved"
+   },
+   {
+    "da": "sky",
+    "en": "timid"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **indadvendt** og bliver hellere hjemme end at gå til fest.",
+   "en": "She is introverted and would rather stay home than go to a party."
+  }
+ },
+ "indbydende": {
+  "explanation": "\"Indbydende\" means \"inviting\", something that looks so pleasant that you want to come in or try it. It is often said about rooms, food and water: Vandet så indbydende ud (The water looked inviting).",
+  "forms": [
+   {
+    "da": "en indbydende stue",
+    "en": "an inviting living room"
+   },
+   {
+    "da": "et indbydende tilbud",
+    "en": "an inviting offer"
+   },
+   {
+    "da": "indbydende retter",
+    "en": "inviting dishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "tiltalende",
+    "en": "appealing"
+   },
+   {
+    "da": "hyggelig",
+    "en": "cozy"
+   },
+   {
+    "da": "imødekommende",
+    "en": "welcoming"
+   },
+   {
+    "da": "afvisende",
+    "en": "off-putting"
+   }
+  ],
+  "sentence": {
+   "da": "Den nybagte kage på bordet ser **indbydende** ud.",
+   "en": "The freshly baked cake on the table looks inviting."
+  }
+ },
+ "indefra": {
+  "explanation": "\"Indefra\" means \"from the inside\", when something comes from or is done within the place you are talking about. The opposite is udefra (from the outside).",
+  "forms": [
+   {
+    "da": "låst indefra",
+    "en": "locked from the inside"
+   },
+   {
+    "da": "set indefra",
+    "en": "seen from the inside"
+   },
+   {
+    "da": "Lyset kommer indefra",
+    "en": "The light comes from inside"
+   }
+  ],
+  "related": [
+   {
+    "da": "ovenfra",
+    "en": "from above"
+   },
+   {
+    "da": "nedefra",
+    "en": "from below"
+   },
+   {
+    "da": "indad",
+    "en": "inward"
+   },
+   {
+    "da": "indendørs",
+    "en": "indoors"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kunne høre musik **indefra**.",
+   "en": "We could hear music from inside."
   }
  },
  "inden": {
@@ -3680,6 +8235,232 @@
    "en": "The box looks empty, but there is something inside."
   }
  },
+ "indenlandsk": {
+  "explanation": "\"Indenlandsk\" means \"domestic\", something that stays within one country, such as flights, goods and sales. For flights, Danes also say indenrigsflyvning (domestic flight).",
+  "forms": [
+   {
+    "da": "indenlandsk produktion",
+    "en": "domestic production"
+   },
+   {
+    "da": "et indenlandsk marked",
+    "en": "a domestic market"
+   },
+   {
+    "da": "indenlandske varer",
+    "en": "domestic goods"
+   }
+  ],
+  "related": [
+   {
+    "da": "udenlandsk",
+    "en": "foreign"
+   },
+   {
+    "da": "international",
+    "en": "international"
+   },
+   {
+    "da": "national",
+    "en": "national"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **indenlandsk** flyvning fra København til Aalborg.",
+   "en": "It is a domestic flight from Copenhagen to Aalborg."
+  }
+ },
+ "inderst": {
+  "explanation": "\"Inderst\" means \"innermost\", the place furthest in. In the set phrase inderst inde it means \"deep down\" and is about true feelings people may hide: Inderst inde er han bange (Deep down he is afraid).",
+  "forms": [
+   {
+    "da": "inderst i skabet",
+    "en": "at the very back of the closet"
+   },
+   {
+    "da": "det inderste rum",
+    "en": "the innermost room"
+   },
+   {
+    "da": "inderst i hjertet",
+    "en": "deep in the heart"
+   }
+  ],
+  "related": [
+   {
+    "da": "yderst",
+    "en": "outermost"
+   },
+   {
+    "da": "midterst",
+    "en": "in the very middle"
+   },
+   {
+    "da": "indvendig",
+    "en": "on the inside"
+   }
+  ],
+  "sentence": {
+   "da": "Passet ligger **inderst** i skuffen, bag alle papirerne.",
+   "en": "The passport is at the very back of the drawer, behind all the papers."
+  }
+ },
+ "indflydelsesrig": {
+  "explanation": "\"Indflydelsesrig\" means \"influential\", having the power to change what others think or decide. It is built from en indflydelse (influence) and rig (rich), so it means \"rich in influence\". The phrase at have indflydelse på means \"to have influence on\".",
+  "forms": [
+   {
+    "da": "en indflydelsesrig politiker",
+    "en": "an influential politician"
+   },
+   {
+    "da": "et indflydelsesrigt firma",
+    "en": "an influential company"
+   },
+   {
+    "da": "indflydelsesrige mennesker",
+    "en": "influential people"
+   }
+  ],
+  "related": [
+   {
+    "da": "magtfuld",
+    "en": "powerful"
+   },
+   {
+    "da": "betydningsfuld",
+    "en": "significant"
+   },
+   {
+    "da": "at påvirke",
+    "en": "to sway"
+   },
+   {
+    "da": "ubetydelig",
+    "en": "unimportant"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er en **indflydelsesrig** leder, og alle lytter til hende.",
+   "en": "She is an influential leader, and everyone listens to her."
+  }
+ },
+ "indfødsret": {
+  "explanation": "\"En indfødsret\" means \"a citizenship\", the legal right to belong to a country as one of its own people. It is the formal word in law and news; in everyday talk people say statsborgerskab (citizenship).",
+  "forms": [
+   {
+    "da": "en indfødsret",
+    "en": "a citizenship"
+   },
+   {
+    "da": "indfødsretten",
+    "en": "the citizenship"
+   },
+   {
+    "da": "at få indfødsret",
+    "en": "to get citizenship"
+   }
+  ],
+  "related": [
+   {
+    "da": "en statsborger",
+    "en": "a citizen"
+   },
+   {
+    "da": "en udlænding",
+    "en": "a foreigner"
+   },
+   {
+    "da": "indfødt",
+    "en": "native"
+   },
+   {
+    "da": "et pas",
+    "en": "a passport"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal bo i landet i mange år for at få **indfødsret**.",
+   "en": "You have to live in the country for many years to get citizenship."
+  }
+ },
+ "indfødt": {
+  "explanation": "\"Indfødt\" means \"native\", for a person born in a given place: en indfødt københavner (a native Copenhagener). It is about where someone was born, not where they live now.",
+  "forms": [
+   {
+    "da": "en indfødt jyde",
+    "en": "a native Jutlander"
+   },
+   {
+    "da": "et indfødt folk",
+    "en": "a native people"
+   },
+   {
+    "da": "indfødte nordmænd",
+    "en": "native Norwegians"
+   }
+  ],
+  "related": [
+   {
+    "da": "en tilflytter",
+    "en": "a newcomer"
+   },
+   {
+    "da": "en indbygger",
+    "en": "an inhabitant"
+   },
+   {
+    "da": "udenlandsk",
+    "en": "foreign"
+   },
+   {
+    "da": "et fødested",
+    "en": "a birthplace"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **indfødt** dansker og har boet her hele livet.",
+   "en": "She is a native Dane and has lived here her whole life."
+  }
+ },
+ "indhold": {
+  "explanation": "\"Et indhold\" means \"content\", what something holds, like the things in a box or the information in a text: indholdet i flasken (the content of the bottle).",
+  "forms": [
+   {
+    "da": "indholdet",
+    "en": "the content"
+   },
+   {
+    "da": "indholdet af bogen",
+    "en": "the content of the book"
+   },
+   {
+    "da": "indhold og form",
+    "en": "content and form"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indholdsfortegnelse",
+    "en": "a table of contents"
+   },
+   {
+    "da": "at indeholde",
+    "en": "to contain"
+   },
+   {
+    "da": "en beholder",
+    "en": "a container"
+   },
+   {
+    "da": "et emne",
+    "en": "a subject"
+   }
+  ],
+  "sentence": {
+   "da": "Alt **indhold** på siden er gratis at læse.",
+   "en": "All content on the page is free to read."
+  }
+ },
  "indien": {
   "explanation": "\"Indien\" means \"India\". A person from India is en inder (an Indian); do not mix it up with en indianer (a Native American).",
   "forms": [
@@ -3715,6 +8496,45 @@
    "en": "India is a big country."
   }
  },
+ "indimellem": {
+  "explanation": "\"Indimellem\" means \"now and then\", for things that happen from time to time but not on a fixed schedule: Vi spiser ude indimellem (We eat out now and then).",
+  "forms": [
+   {
+    "da": "Jeg løber indimellem",
+    "en": "I run now and then"
+   },
+   {
+    "da": "Vi ses indimellem",
+    "en": "We see each other now and then"
+   },
+   {
+    "da": "Det sker indimellem",
+    "en": "It happens now and then"
+   }
+  ],
+  "related": [
+   {
+    "da": "ofte",
+    "en": "often"
+   },
+   {
+    "da": "sjældent",
+    "en": "rarely"
+   },
+   {
+    "da": "nogle gange",
+    "en": "sometimes"
+   },
+   {
+    "da": "engang imellem",
+    "en": "once in a while"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg tager **indimellem** på café, når jeg har fri.",
+   "en": "I go to a cafe now and then when I am off."
+  }
+ },
  "indisk": {
   "explanation": "\"Indisk\" means \"Indian\", from India (Indien). It is written with a small letter (indisk), while English Indian has a capital letter. Do not mix it up with indianer (a Native American).",
   "forms": [
@@ -3748,6 +8568,84 @@
   "sentence": {
    "da": "Jeg spiser gerne **indisk** mad.",
    "en": "I like eating Indian food."
+  }
+ },
+ "individuel": {
+  "explanation": "\"Individuel\" means \"individual\", made for or about one person instead of a group. A person seen on their own is et individ (an individual).",
+  "forms": [
+   {
+    "da": "individuel træning",
+    "en": "individual training"
+   },
+   {
+    "da": "et individuelt valg",
+    "en": "an individual choice"
+   },
+   {
+    "da": "individuelle behov",
+    "en": "individual needs"
+   }
+  ],
+  "related": [
+   {
+    "da": "personlig",
+    "en": "personal"
+   },
+   {
+    "da": "særlig",
+    "en": "special"
+   },
+   {
+    "da": "enkelt",
+    "en": "single"
+   },
+   {
+    "da": "fælles",
+    "en": "shared"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren laver en **individuel** plan til hver elev.",
+   "en": "The teacher makes an individual plan for each student."
+  }
+ },
+ "indlysende": {
+  "explanation": "\"Indlysende\" means \"obvious\", so clear that no explanation is needed: Det er indlysende, at han har ret (It is obvious that he is right). The opposite is uklar (unclear).",
+  "forms": [
+   {
+    "da": "et indlysende svar",
+    "en": "an obvious answer"
+   },
+   {
+    "da": "en indlysende fejl",
+    "en": "an obvious mistake"
+   },
+   {
+    "da": "indlysende grunde",
+    "en": "obvious reasons"
+   }
+  ],
+  "related": [
+   {
+    "da": "åbenlys",
+    "en": "evident"
+   },
+   {
+    "da": "oplagt",
+    "en": "plain to see"
+   },
+   {
+    "da": "selvfølgelig",
+    "en": "of course"
+   },
+   {
+    "da": "tvivlsom",
+    "en": "doubtful"
+   }
+  ],
+  "sentence": {
+   "da": "Svaret er **indlysende**, når man kigger på tallene.",
+   "en": "The answer is obvious when you look at the numbers."
   }
  },
  "indre": {
@@ -3787,6 +8685,49 @@
   "sentence": {
    "da": "Jeg finder **indre** ro i naturen.",
    "en": "I find inner peace in nature."
+  }
+ },
+ "indsigt": {
+  "explanation": "\"En indsigt\" means \"insight\", a deeper grasp of something. It is often used with i: Hun har god indsigt i økonomi (She has good insight into economics).",
+  "forms": [
+   {
+    "da": "en indsigt",
+    "en": "an insight"
+   },
+   {
+    "da": "indsigten",
+    "en": "the insight"
+   },
+   {
+    "da": "indsigter",
+    "en": "insights"
+   },
+   {
+    "da": "indsigterne",
+    "en": "the insights"
+   }
+  ],
+  "related": [
+   {
+    "da": "forståelse",
+    "en": "understanding"
+   },
+   {
+    "da": "viden",
+    "en": "knowledge"
+   },
+   {
+    "da": "et indblik",
+    "en": "a glimpse"
+   },
+   {
+    "da": "et overblik",
+    "en": "an overview"
+   }
+  ],
+  "sentence": {
+   "da": "Bogen giver os **indsigt** i, hvordan hjernen virker.",
+   "en": "The book gives us insight into how the brain works."
   }
  },
  "indtil": {
@@ -3902,6 +8843,166 @@
    "en": "We live in a small apartment for now."
   }
  },
+ "indviklet": {
+  "explanation": "\"Indviklet\" means \"complicated\", with so many parts or steps that it is hard to follow. It comes from at indvikle (to wrap up or tangle), so something indviklet is tangled.",
+  "forms": [
+   {
+    "da": "en indviklet historie",
+    "en": "a complicated story"
+   },
+   {
+    "da": "et indviklet system",
+    "en": "a complicated system"
+   },
+   {
+    "da": "indviklede regler",
+    "en": "complicated rules"
+   }
+  ],
+  "related": [
+   {
+    "da": "kompliceret",
+    "en": "complex"
+   },
+   {
+    "da": "enkel",
+    "en": "simple"
+   },
+   {
+    "da": "nem",
+    "en": "easy"
+   },
+   {
+    "da": "forvirrende",
+    "en": "confusing"
+   }
+  ],
+  "sentence": {
+   "da": "Spillet er **indviklet** og svært at lære.",
+   "en": "The game is complicated and hard to learn."
+  }
+ },
+ "ineffektiv": {
+  "explanation": "\"Ineffektiv\" means \"inefficient\", doing something in a way that wastes time or effort. It can also mean that something does not give the result you want: en ineffektiv medicin (a medicine that does not work well).",
+  "forms": [
+   {
+    "da": "en ineffektiv metode",
+    "en": "an inefficient method"
+   },
+   {
+    "da": "et ineffektivt system",
+    "en": "an inefficient system"
+   },
+   {
+    "da": "ineffektive møder",
+    "en": "inefficient meetings"
+   }
+  ],
+  "related": [
+   {
+    "da": "effektiv",
+    "en": "efficient"
+   },
+   {
+    "da": "uproduktiv",
+    "en": "unproductive"
+   },
+   {
+    "da": "virkningsløs",
+    "en": "without effect"
+   },
+   {
+    "da": "langsom",
+    "en": "slow"
+   }
+  ],
+  "sentence": {
+   "da": "Metoden er **ineffektiv**, fordi den tager alt for lang tid.",
+   "en": "The method is inefficient because it takes far too long."
+  }
+ },
+ "inficeret": {
+  "explanation": "\"Inficeret\" means \"infected\", reached by germs, as in a wound. Computers can be inficeret too, by a harmful program. For a person with an illness, Danes usually say smittet: Han er smittet (He is infected).",
+  "forms": [
+   {
+    "da": "et inficeret sår",
+    "en": "an infected wound"
+   },
+   {
+    "da": "en inficeret fil",
+    "en": "an infected file"
+   },
+   {
+    "da": "inficerede patienter",
+    "en": "infected patients"
+   }
+  ],
+  "related": [
+   {
+    "da": "en infektion",
+    "en": "an infection"
+   },
+   {
+    "da": "en bakterie",
+    "en": "a bacterium"
+   },
+   {
+    "da": "at desinficere",
+    "en": "to disinfect"
+   },
+   {
+    "da": "rask",
+    "en": "healthy"
+   }
+  ],
+  "sentence": {
+   "da": "Såret blev **inficeret**, fordi vi ikke rensede det.",
+   "en": "The wound became infected because we did not clean it."
+  }
+ },
+ "inflation": {
+  "explanation": "\"En inflation\" means \"inflation\", a general rise in prices over time, so the same money buys less: Inflationen er på to procent (Inflation is at two percent).",
+  "forms": [
+   {
+    "da": "en inflation",
+    "en": "inflation"
+   },
+   {
+    "da": "inflationen",
+    "en": "the inflation"
+   },
+   {
+    "da": "høj inflation",
+    "en": "high inflation"
+   },
+   {
+    "da": "lav inflation",
+    "en": "low inflation"
+   }
+  ],
+  "related": [
+   {
+    "da": "deflation",
+    "en": "deflation"
+   },
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "en prisstigning",
+    "en": "a price rise"
+   },
+   {
+    "da": "købekraft",
+    "en": "buying power"
+   }
+  ],
+  "sentence": {
+   "da": "Med høj **inflation** kan man købe mindre for de samme penge.",
+   "en": "With high inflation, you can buy less for the same money."
+  }
+ },
  "influenza": {
   "explanation": "\"Influenza\" means \"flu\". Danes say Jeg har influenza (I have the flu) without en (a) in front.",
   "forms": [
@@ -3978,6 +9079,45 @@
   "sentence": {
    "da": "Turistkontoret giver **information** om byen.",
    "en": "The tourist office gives information about the city."
+  }
+ },
+ "informeret": {
+  "explanation": "\"Informeret\" means \"informed\", knowing the facts you need before you decide or act. The topic comes after om: Er du informeret om ændringen? (Are you informed about the change?)",
+  "forms": [
+   {
+    "da": "en informeret borger",
+    "en": "an informed citizen"
+   },
+   {
+    "da": "et informeret valg",
+    "en": "an informed choice"
+   },
+   {
+    "da": "informerede kunder",
+    "en": "informed customers"
+   }
+  ],
+  "related": [
+   {
+    "da": "at informere",
+    "en": "to inform"
+   },
+   {
+    "da": "orienteret",
+    "en": "briefed"
+   },
+   {
+    "da": "uvidende",
+    "en": "unaware"
+   },
+   {
+    "da": "bekendt med",
+    "en": "familiar with"
+   }
+  ],
+  "sentence": {
+   "da": "Før valget vil jeg gerne være godt **informeret**.",
+   "en": "Before the election, I want to be well informed."
   }
  },
  "ingefær": {
@@ -4202,6 +9342,127 @@
    "en": "The hotel costs 800 kroner including breakfast."
   }
  },
+ "inspireret": {
+  "explanation": "\"Inspireret\" means \"inspired\", full of ideas and energy after seeing or hearing something good. The source of the idea comes after af: inspireret af en bog (inspired by a book).",
+  "forms": [
+   {
+    "da": "en inspireret kunstner",
+    "en": "an inspired artist"
+   },
+   {
+    "da": "et inspireret band",
+    "en": "an inspired band"
+   },
+   {
+    "da": "inspirerede elever",
+    "en": "inspired students"
+   }
+  ],
+  "related": [
+   {
+    "da": "en inspiration",
+    "en": "an inspiration"
+   },
+   {
+    "da": "motiveret",
+    "en": "motivated"
+   },
+   {
+    "da": "begejstret",
+    "en": "enthusiastic"
+   },
+   {
+    "da": "kreativ",
+    "en": "creative"
+   }
+  ],
+  "sentence": {
+   "da": "Hun blev **inspireret** af naturen og begyndte at male.",
+   "en": "She was inspired by nature and started to paint."
+  }
+ },
+ "intakt": {
+  "explanation": "\"Intakt\" means \"intact\", in one piece with nothing broken, for something that could have been damaged: Pakken kom frem med seglet intakt (The package arrived with the seal intact).",
+  "forms": [
+   {
+    "da": "en intakt rude",
+    "en": "an intact window"
+   },
+   {
+    "da": "et intakt hus",
+    "en": "an intact house"
+   },
+   {
+    "da": "intakte vinduer",
+    "en": "intact windows"
+   }
+  ],
+  "related": [
+   {
+    "da": "hel",
+    "en": "whole"
+   },
+   {
+    "da": "ubeskadiget",
+    "en": "undamaged"
+   },
+   {
+    "da": "uskadt",
+    "en": "unharmed"
+   },
+   {
+    "da": "ødelagt",
+    "en": "ruined"
+   }
+  ],
+  "sentence": {
+   "da": "Selv efter den store storm var taget helt **intakt**.",
+   "en": "Even after the big storm, the roof was completely intact."
+  }
+ },
+ "intelligens": {
+  "explanation": "\"En intelligens\" means \"intelligence\", the ability to learn, understand and solve problems. The describing word is intelligent (intelligent).",
+  "forms": [
+   {
+    "da": "en intelligens",
+    "en": "an intelligence"
+   },
+   {
+    "da": "intelligensen",
+    "en": "the intelligence"
+   },
+   {
+    "da": "høj intelligens",
+    "en": "high intelligence"
+   },
+   {
+    "da": "kunstig intelligens",
+    "en": "artificial intelligence"
+   }
+  ],
+  "related": [
+   {
+    "da": "klog",
+    "en": "smart"
+   },
+   {
+    "da": "begavet",
+    "en": "gifted"
+   },
+   {
+    "da": "en hjerne",
+    "en": "a brain"
+   },
+   {
+    "da": "dum",
+    "en": "stupid"
+   }
+  ],
+  "sentence": {
+   "da": "Hans **intelligens** viser sig, når han løser svære opgaver.",
+   "en": "His intelligence shows when he solves hard tasks."
+  }
+ },
  "intelligent": {
   "explanation": "\"Intelligent\" means \"intelligent\", spelled almost like the English word. It describes people, animals, and also answers and plans.",
   "forms": [
@@ -4358,6 +9619,45 @@
    "en": "She is interested in old houses."
   }
  },
+ "intern": {
+  "explanation": "\"Intern\" means \"internal\", something that stays inside one company or group and is not meant for outsiders. The opposite is ekstern (external).",
+  "forms": [
+   {
+    "da": "en intern regel",
+    "en": "an internal rule"
+   },
+   {
+    "da": "et internt møde",
+    "en": "an internal meeting"
+   },
+   {
+    "da": "interne problemer",
+    "en": "internal problems"
+   }
+  ],
+  "related": [
+   {
+    "da": "indre",
+    "en": "inner"
+   },
+   {
+    "da": "fortrolig",
+    "en": "confidential"
+   },
+   {
+    "da": "offentlig",
+    "en": "public"
+   },
+   {
+    "da": "privat",
+    "en": "private"
+   }
+  ],
+  "sentence": {
+   "da": "Det er en **intern** sag i firmaet.",
+   "en": "It is an internal matter in the company."
+  }
+ },
  "international": {
   "explanation": "\"International\" means \"international\", between or across countries. The word for something inside one country is national (national).",
   "forms": [
@@ -4465,6 +9765,197 @@
   "sentence": {
    "da": "Jeg har **intet** at sige.",
    "en": "I have nothing to say."
+  }
+ },
+ "intetkøn": {
+  "explanation": "\"Et intetkøn\" means \"the et-gender\", the group of words that use et, like et hus (a house) and et barn (a child). The other group is en-words. It is built from intet (nothing) and køn (gender), so it literally means \"no gender\".",
+  "forms": [
+   {
+    "da": "et intetkøn",
+    "en": "a neuter gender"
+   },
+   {
+    "da": "intetkønnet",
+    "en": "the neuter gender"
+   },
+   {
+    "da": "et intetkønsord",
+    "en": "a neuter word"
+   }
+  ],
+  "related": [
+   {
+    "da": "fælleskøn",
+    "en": "common gender"
+   },
+   {
+    "da": "en artikel",
+    "en": "an article"
+   },
+   {
+    "da": "et navneord",
+    "en": "a naming word"
+   }
+  ],
+  "sentence": {
+   "da": "Ordet vand hører til **intetkøn**.",
+   "en": "The word vand belongs to the neuter gender."
+  }
+ },
+ "involveret": {
+  "explanation": "\"Involveret\" means \"involved\", taking part in something or tied up in it. The thing comes after i: Hun er involveret i projektet (She is involved in the project).",
+  "forms": [
+   {
+    "da": "en involveret person",
+    "en": "an involved person"
+   },
+   {
+    "da": "et involveret firma",
+    "en": "an involved company"
+   },
+   {
+    "da": "involverede parter",
+    "en": "involved parties"
+   }
+  ],
+  "related": [
+   {
+    "da": "indblandet",
+    "en": "mixed up in"
+   },
+   {
+    "da": "berørt",
+    "en": "affected"
+   },
+   {
+    "da": "engageret",
+    "en": "committed"
+   },
+   {
+    "da": "uvedkommende",
+    "en": "unconcerned"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet mener, at føreren var **involveret** i ulykken.",
+   "en": "The police believe the driver was involved in the accident."
+  }
+ },
+ "ironisk": {
+  "explanation": "\"Ironisk\" means \"ironic\", saying the opposite of what you mean, or something that turns out the opposite of what you would expect: Det er ironisk, at bageren aldrig spiser brød (It is ironic that the baker never eats bread).",
+  "forms": [
+   {
+    "da": "en ironisk bemærkning",
+    "en": "an ironic remark"
+   },
+   {
+    "da": "et ironisk smil",
+    "en": "an ironic smile"
+   },
+   {
+    "da": "ironiske ord",
+    "en": "ironic words"
+   }
+  ],
+  "related": [
+   {
+    "da": "sarkastisk",
+    "en": "sarcastic"
+   },
+   {
+    "da": "en ironi",
+    "en": "an irony"
+   },
+   {
+    "da": "alvorlig",
+    "en": "serious"
+   },
+   {
+    "da": "spydig",
+    "en": "sharp-tongued"
+   }
+  ],
+  "sentence": {
+   "da": "Hun sagde \"Flot vejr!\" i regnen, og det var **ironisk**.",
+   "en": "She said \"Nice weather!\" in the rain, and it was ironic."
+  }
+ },
+ "irrationel": {
+  "explanation": "\"Irrationel\" means \"irrational\", not based on logic, like a feeling with no good reason. In math it is a number that cannot be written as a simple fraction: et irrationelt tal (an irrational number).",
+  "forms": [
+   {
+    "da": "en irrationel frygt",
+    "en": "an irrational fear"
+   },
+   {
+    "da": "et irrationelt valg",
+    "en": "an irrational choice"
+   },
+   {
+    "da": "irrationelle tanker",
+    "en": "irrational thoughts"
+   }
+  ],
+  "related": [
+   {
+    "da": "rationel",
+    "en": "rational"
+   },
+   {
+    "da": "logisk",
+    "en": "logical"
+   },
+   {
+    "da": "fornuftig",
+    "en": "sensible"
+   },
+   {
+    "da": "urimelig",
+    "en": "unreasonable"
+   }
+  ],
+  "sentence": {
+   "da": "Hans frygt for harmløse edderkopper er **irrationel**.",
+   "en": "His fear of harmless spiders is irrational."
+  }
+ },
+ "irrelevant": {
+  "explanation": "\"Irrelevant\" means \"irrelevant\", having nothing to do with the matter at hand. It takes for: Det er irrelevant for sagen (It is irrelevant to the case).",
+  "forms": [
+   {
+    "da": "en irrelevant detalje",
+    "en": "an irrelevant detail"
+   },
+   {
+    "da": "et irrelevant spørgsmål",
+    "en": "an irrelevant question"
+   },
+   {
+    "da": "irrelevante oplysninger",
+    "en": "irrelevant information"
+   }
+  ],
+  "related": [
+   {
+    "da": "relevant",
+    "en": "relevant"
+   },
+   {
+    "da": "uvæsentlig",
+    "en": "insignificant"
+   },
+   {
+    "da": "ligegyldig",
+    "en": "unimportant"
+   },
+   {
+    "da": "væsentlig",
+    "en": "essential"
+   }
+  ],
+  "sentence": {
+   "da": "Din alder er **irrelevant**, når du søger jobbet.",
+   "en": "Your age is irrelevant when you apply for the job."
   }
  },
  "irriterende": {
@@ -4654,6 +10145,45 @@
    "en": "I would like an ice-cold soda."
   }
  },
+ "islam": {
+  "explanation": "\"Islam\" means \"Islam\", the religion. Danish writes the names of religions with a small letter and uses no en or et: Islam er en verdensreligion (Islam is a world religion). A follower is en muslim (a Muslim).",
+  "forms": [
+   {
+    "da": "islam",
+    "en": "Islam"
+   },
+   {
+    "da": "islamisk kunst",
+    "en": "Islamic art"
+   },
+   {
+    "da": "islams historie",
+    "en": "the history of Islam"
+   }
+  ],
+  "related": [
+   {
+    "da": "en moske",
+    "en": "a mosque"
+   },
+   {
+    "da": "koranen",
+    "en": "the Koran"
+   },
+   {
+    "da": "kristendom",
+    "en": "Christianity"
+   },
+   {
+    "da": "buddhisme",
+    "en": "Buddhism"
+   }
+  ],
+  "sentence": {
+   "da": "I **islam** beder man fem gange om dagen.",
+   "en": "In Islam, people pray five times a day."
+  }
+ },
  "island": {
   "explanation": "\"Island\" means \"Iceland\". Watch out: it looks like the English word island, but an island in Danish is en ø.",
   "forms": [
@@ -4730,6 +10260,127 @@
   "sentence": {
    "da": "Hun kan tale **islandsk**, og hun bor i Reykjavik.",
    "en": "She can speak Icelandic, and she lives in Reykjavik."
+  }
+ },
+ "isolation": {
+  "explanation": "\"Isolation\" means \"isolation\", being kept apart from other people, for example a patient with a catching illness, or someone who feels cut off. For heat in walls, use isolering (insulation).",
+  "forms": [
+   {
+    "da": "isolation",
+    "en": "isolation"
+   },
+   {
+    "da": "isolationen",
+    "en": "the isolation"
+   },
+   {
+    "da": "social isolation",
+    "en": "social isolation"
+   },
+   {
+    "da": "i isolation",
+    "en": "in isolation"
+   }
+  ],
+  "related": [
+   {
+    "da": "ensomhed",
+    "en": "loneliness"
+   },
+   {
+    "da": "karantæne",
+    "en": "quarantine"
+   },
+   {
+    "da": "at isolere",
+    "en": "to isolate"
+   },
+   {
+    "da": "et fællesskab",
+    "en": "a community"
+   }
+  ],
+  "sentence": {
+   "da": "Efter flere uger i **isolation** savnede hun andre mennesker.",
+   "en": "After several weeks in isolation, she missed other people."
+  }
+ },
+ "isoleret": {
+  "explanation": "\"Isoleret\" means \"isolated\", far from or cut off from others. It also means \"insulated\", kept from losing heat or from touching electricity: et velisoleret hus (a well-insulated house).",
+  "forms": [
+   {
+    "da": "en isoleret ø",
+    "en": "an isolated island"
+   },
+   {
+    "da": "isolerede ledninger",
+    "en": "insulated wires"
+   },
+   {
+    "da": "isoleret fra de andre",
+    "en": "isolated from the others"
+   }
+  ],
+  "related": [
+   {
+    "da": "afsides",
+    "en": "remote"
+   },
+   {
+    "da": "afsondret",
+    "en": "secluded"
+   },
+   {
+    "da": "ensom",
+    "en": "lonely"
+   },
+   {
+    "da": "en isolering",
+    "en": "an insulation"
+   }
+  ],
+  "sentence": {
+   "da": "Landsbyen er **isoleret**, fordi vejen er lukket om vinteren.",
+   "en": "The village is isolated because the road is closed in winter."
+  }
+ },
+ "isolering": {
+  "explanation": "\"En isolering\" means \"insulation\", the material or work that keeps heat inside a building. Do not mix it up with isolation (isolation), which is about people being kept apart.",
+  "forms": [
+   {
+    "da": "en isolering",
+    "en": "an insulation"
+   },
+   {
+    "da": "isoleringen",
+    "en": "the insulation"
+   },
+   {
+    "da": "god isolering",
+    "en": "good insulation"
+   },
+   {
+    "da": "isolering af loftet",
+    "en": "insulation of the attic"
+   }
+  ],
+  "related": [
+   {
+    "da": "at isolere",
+    "en": "to insulate"
+   },
+   {
+    "da": "isoleret",
+    "en": "insulated"
+   },
+   {
+    "da": "mineraluld",
+    "en": "mineral wool"
+   }
+  ],
+  "sentence": {
+   "da": "Med bedre **isolering** i væggene bliver huset varmere om vinteren.",
+   "en": "With better insulation in the walls, the house gets warmer in winter."
   }
  },
  "isslag": {
@@ -4882,6 +10533,84 @@
   "sentence": {
    "da": "Pizza og pasta er **italiensk** mad.",
    "en": "Pizza and pasta are Italian food."
+  }
+ },
+ "ivrig": {
+  "explanation": "\"Ivrig\" means \"eager\", for someone who wants something a lot and shows it with energy. For a hobby it means keen: en ivrig cyklist (a keen cyclist).",
+  "forms": [
+   {
+    "da": "en ivrig elev",
+    "en": "an eager pupil"
+   },
+   {
+    "da": "et ivrigt barn",
+    "en": "an eager child"
+   },
+   {
+    "da": "ivrige tilskuere",
+    "en": "eager spectators"
+   }
+  ],
+  "related": [
+   {
+    "da": "begejstret",
+    "en": "enthusiastic"
+   },
+   {
+    "da": "utålmodig",
+    "en": "impatient"
+   },
+   {
+    "da": "ligeglad",
+    "en": "indifferent"
+   },
+   {
+    "da": "nysgerrig",
+    "en": "curious"
+   }
+  ],
+  "sentence": {
+   "da": "Eleven er **ivrig** og rækker hånden op hele tiden.",
+   "en": "The pupil is eager and raises his hand all the time."
+  }
+ },
+ "iøjnefaldende": {
+  "explanation": "\"Iøjnefaldende\" means \"conspicuous\", easy to see and noticed right away. The word comes from falde i øjnene (to catch the eye), so it fits things that stand out from their surroundings.",
+  "forms": [
+   {
+    "da": "en iøjnefaldende farve",
+    "en": "a conspicuous color"
+   },
+   {
+    "da": "et iøjnefaldende tegn",
+    "en": "a conspicuous sign"
+   },
+   {
+    "da": "iøjnefaldende forskelle",
+    "en": "conspicuous differences"
+   }
+  ],
+  "related": [
+   {
+    "da": "synlig",
+    "en": "visible"
+   },
+   {
+    "da": "påfaldende",
+    "en": "striking"
+   },
+   {
+    "da": "tydelig",
+    "en": "clear"
+   },
+   {
+    "da": "umærkelig",
+    "en": "unnoticeable"
+   }
+  ],
+  "sentence": {
+   "da": "Den røde jakke er **iøjnefaldende** blandt alle de grå frakker.",
+   "en": "The red jacket is conspicuous among all the gray coats."
   }
  }
 }

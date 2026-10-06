@@ -1,4 +1,133 @@
 {
+ "at vaccinere": {
+  "explanation": "\"At vaccinere\" means \"to vaccinate\": a doctor or nurse gives you protection so your body can fight a disease. Mod (against) marks the disease: vaccinere mod influenza (vaccinate against the flu). To say you get vaccinated, use at lade sig vaccinere (to let yourself be vaccinated).",
+  "forms": [
+   {
+    "da": "at vaccinere",
+    "en": "to vaccinate"
+   },
+   {
+    "da": "jeg vaccinerer",
+    "en": "I vaccinate"
+   },
+   {
+    "da": "jeg vaccinerede",
+    "en": "I vaccinated"
+   },
+   {
+    "da": "jeg har vaccineret",
+    "en": "I have vaccinated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vaccine",
+    "en": "a vaccine"
+   },
+   {
+    "da": "en vaccination",
+    "en": "a vaccination"
+   },
+   {
+    "da": "at immunisere",
+    "en": "to immunize"
+   },
+   {
+    "da": "immunitet",
+    "en": "immunity"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen vil **vaccinere** alle børn i klassen mod mæslinger.",
+   "en": "The doctor will vaccinate all the children in the class against measles."
+  }
+ },
+ "at vade": {
+  "explanation": "\"At vade\" means \"to wade\", to walk through water or mud that reaches your legs. It is also used for walking through deep snow.",
+  "forms": [
+   {
+    "da": "at vade",
+    "en": "to wade"
+   },
+   {
+    "da": "jeg vader",
+    "en": "I wade"
+   },
+   {
+    "da": "jeg vadede",
+    "en": "I waded"
+   },
+   {
+    "da": "jeg har vadet",
+    "en": "I have waded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at pjaske",
+    "en": "to splash"
+   },
+   {
+    "da": "et vadested",
+    "en": "a ford"
+   },
+   {
+    "da": "Vadehavet",
+    "en": "the Wadden Sea"
+   },
+   {
+    "da": "at svømme",
+    "en": "to swim"
+   }
+  ],
+  "sentence": {
+   "da": "Vi kan **vade** over åen, fordi vandet ikke er dybt.",
+   "en": "We can wade across the stream because the water is not deep."
+  }
+ },
+ "at vakle": {
+  "explanation": "\"At vakle\" means \"to wobble\" and \"to waver\". A tired person vakler when walking unsteadily. About a decision or a belief, it means being unsure and close to changing your mind.",
+  "forms": [
+   {
+    "da": "at vakle",
+    "en": "to wobble / waver"
+   },
+   {
+    "da": "jeg vakler",
+    "en": "I wobble / waver"
+   },
+   {
+    "da": "jeg vaklede",
+    "en": "I wobbled / wavered"
+   },
+   {
+    "da": "jeg har vaklet",
+    "en": "I have wobbled / wavered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at slingre",
+    "en": "to sway"
+   },
+   {
+    "da": "at tøve",
+    "en": "to hesitate"
+   },
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   },
+   {
+    "da": "at stå fast",
+    "en": "to stand firm"
+   }
+  ],
+  "sentence": {
+   "da": "Stolen vil **vakle**, fordi det ene ben er kortere.",
+   "en": "The chair will wobble because one leg is shorter."
+  }
+ },
  "at vande": {
   "explanation": "\"At vande\" means \"to water\" plants, flowers and lawns: Hun vander plænen om aftenen (She waters the lawn in the evening). It comes from vand (water).",
   "forms": [
@@ -36,6 +165,49 @@
   "sentence": {
    "da": "Jeg skal **vande** blomsterne, fordi det ikke har regnet.",
    "en": "I have to water the flowers because it has not rained."
+  }
+ },
+ "at vandre": {
+  "explanation": "\"At vandre\" means \"to hike\" and \"to wander\": to go on foot for a long time, often in nature, for the pleasure of it: Vi vandrer langs kysten hvert efterår (We hike along the coast every fall). It can also mean to walk without hurry or goal: Han vandrede rundt i byen (He wandered around town).",
+  "forms": [
+   {
+    "da": "at vandre",
+    "en": "to wander / hike"
+   },
+   {
+    "da": "jeg vandrer",
+    "en": "I wander / hike"
+   },
+   {
+    "da": "jeg vandrede",
+    "en": "I wandered / hiked"
+   },
+   {
+    "da": "jeg har vandret",
+    "en": "I have wandered / hiked"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vandring",
+    "en": "a long walk"
+   },
+   {
+    "da": "at spadsere",
+    "en": "to stroll"
+   },
+   {
+    "da": "et vandrehjem",
+    "en": "a hostel"
+   },
+   {
+    "da": "en vandresti",
+    "en": "a hiking path"
+   }
+  ],
+  "sentence": {
+   "da": "Vi vil **vandre** fem timer i bjergene og sove i telt.",
+   "en": "We want to hike five hours in the mountains and sleep in a tent."
   }
  },
  "at vare": {
@@ -79,6 +251,49 @@
   "sentence": {
    "da": "Mødet vil **vare** i cirka en time.",
    "en": "The meeting will last about an hour."
+  }
+ },
+ "at variere": {
+  "explanation": "\"At variere\" means \"to vary\". It works two ways: something is not always the same by itself, as in Prisen varierer (The price varies), or you do it on purpose, as in Jeg varierer menuen (I vary the menu).",
+  "forms": [
+   {
+    "da": "at variere",
+    "en": "to vary"
+   },
+   {
+    "da": "jeg varierer",
+    "en": "I vary"
+   },
+   {
+    "da": "jeg varierede",
+    "en": "I varied"
+   },
+   {
+    "da": "jeg har varieret",
+    "en": "I have varied"
+   }
+  ],
+  "related": [
+   {
+    "da": "en afveksling",
+    "en": "a change of pace"
+   },
+   {
+    "da": "forskellig",
+    "en": "different"
+   },
+   {
+    "da": "ensartet",
+    "en": "uniform"
+   },
+   {
+    "da": "at skifte",
+    "en": "to switch"
+   }
+  ],
+  "sentence": {
+   "da": "Temperaturen kan **variere** meget fra dag til dag.",
+   "en": "The temperature can vary a lot from day to day."
   }
  },
  "at vaske": {
@@ -276,6 +491,205 @@
    "en": "I have to do laundry because I have no more clean socks."
   }
  },
+ "at vedkende sig": {
+  "explanation": "\"At vedkende sig\" means \"to acknowledge\", to say openly that something is yours or is true, such as a mistake or a responsibility. It is mostly used for uncomfortable things that you take ownership of.",
+  "forms": [
+   {
+    "da": "at vedkende sig",
+    "en": "to acknowledge"
+   },
+   {
+    "da": "jeg vedkender mig",
+    "en": "I acknowledge"
+   },
+   {
+    "da": "jeg vedkendte mig",
+    "en": "I acknowledged"
+   },
+   {
+    "da": "jeg har vedkendt mig",
+    "en": "I have acknowledged"
+   }
+  ],
+  "related": [
+   {
+    "da": "at indrømme",
+    "en": "to admit"
+   },
+   {
+    "da": "at påtage sig",
+    "en": "to take on"
+   },
+   {
+    "da": "at nægte",
+    "en": "to deny"
+   }
+  ],
+  "sentence": {
+   "da": "Han har svært ved at **vedkende sig** sine fejl.",
+   "en": "He finds it hard to acknowledge his faults."
+  }
+ },
+ "at vedligeholde": {
+  "explanation": "\"At vedligeholde\" means \"to maintain\": to keep something in good condition with regular care, like a house, a garden, a road, or a machine. It is not used for claiming something. For that meaning of maintain, Danes say at hævde (to claim).",
+  "forms": [
+   {
+    "da": "at vedligeholde",
+    "en": "to maintain"
+   },
+   {
+    "da": "jeg vedligeholder",
+    "en": "I maintain"
+   },
+   {
+    "da": "jeg vedligeholdt",
+    "en": "I maintained"
+   },
+   {
+    "da": "jeg har vedligeholdt",
+    "en": "I have maintained"
+   }
+  ],
+  "related": [
+   {
+    "da": "vedligeholdelse",
+    "en": "upkeep"
+   },
+   {
+    "da": "at reparere",
+    "en": "to repair"
+   },
+   {
+    "da": "at passe",
+    "en": "to look after"
+   },
+   {
+    "da": "at forfalde",
+    "en": "to decay"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal **vedligeholde** træværket hvert år, fordi regn skader det.",
+   "en": "You must maintain the woodwork every year because rain damages it."
+  }
+ },
+ "at vedlægge": {
+  "explanation": "\"At vedlægge\" means \"to enclose\", to put a document in with a letter, an email or an application. It is a written word; in speech people more often say at sende med (to send along).",
+  "forms": [
+   {
+    "da": "at vedlægge",
+    "en": "to enclose"
+   },
+   {
+    "da": "jeg vedlægger",
+    "en": "I enclose"
+   },
+   {
+    "da": "jeg vedlagde",
+    "en": "I enclosed"
+   },
+   {
+    "da": "jeg har vedlagt",
+    "en": "I have enclosed"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bilag",
+    "en": "an enclosure"
+   },
+   {
+    "da": "at vedhæfte",
+    "en": "to attach a file"
+   },
+   {
+    "da": "at indsende",
+    "en": "to submit"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil gerne **vedlægge** mit CV til ansøgningen.",
+   "en": "I would like to enclose my résumé with the application."
+  }
+ },
+ "at vedrøre": {
+  "explanation": "\"At vedrøre\" means \"to concern\", to be about or to affect someone or something. The thing it is about comes straight after: Sagen vedrører dig (The matter concerns you). Letters and emails often start with Vedrørende (Regarding), a form of this word.",
+  "forms": [
+   {
+    "da": "at vedrøre",
+    "en": "to concern"
+   },
+   {
+    "da": "det vedrører",
+    "en": "it concerns"
+   },
+   {
+    "da": "det vedrørte",
+    "en": "it concerned"
+   },
+   {
+    "da": "det har vedrørt",
+    "en": "it has concerned"
+   }
+  ],
+  "related": [
+   {
+    "da": "at berøre",
+    "en": "to touch on"
+   },
+   {
+    "da": "at omhandle",
+    "en": "to deal with"
+   },
+   {
+    "da": "at angå",
+    "en": "to relate to"
+   }
+  ],
+  "sentence": {
+   "da": "Reglen kan **vedrøre** alle elever i skolen.",
+   "en": "The rule can concern all students in the school."
+  }
+ },
+ "at vedtage": {
+  "explanation": "\"At vedtage\" means \"to pass (a law)\" or \"to adopt\", when a group officially agrees on something. It is used for parliaments, councils and boards: Folketinget vedtog loven (Parliament passed the law).",
+  "forms": [
+   {
+    "da": "at vedtage",
+    "en": "to pass (a law) / adopt"
+   },
+   {
+    "da": "jeg vedtager",
+    "en": "I pass (a law) / adopt"
+   },
+   {
+    "da": "jeg vedtog",
+    "en": "I passed (a law) / adopted"
+   },
+   {
+    "da": "jeg har vedtaget",
+    "en": "I have passed (a law) / adopted"
+   }
+  ],
+  "related": [
+   {
+    "da": "at stemme om",
+    "en": "to vote on"
+   },
+   {
+    "da": "at godkende",
+    "en": "to approve"
+   },
+   {
+    "da": "at forkaste",
+    "en": "to turn down"
+   }
+  ],
+  "sentence": {
+   "da": "Byrådet vil **vedtage** det nye budget i næste uge.",
+   "en": "The city council will pass the new budget next week."
+  }
+ },
  "at veje": {
   "explanation": "\"At veje\" means \"to weigh\". It works two ways: you weigh something on a scale, or you have a certain weight. Jeg vejer 70 kilo (I weigh 70 kilos). The thing you weigh comes right after: Jeg vejer pakken (I weigh the package).",
   "forms": [
@@ -313,6 +727,131 @@
   "sentence": {
    "da": "Man kan **veje** maden på en vægt.",
    "en": "You can weigh the food on a scale."
+  }
+ },
+ "at vejlede": {
+  "explanation": "\"At vejlede\" means \"to guide\" or \"to advise\", to help someone find the right way with explanations and tips, often as part of a job at a school or an employment office. It is built from vej (way) and lede (lead).",
+  "forms": [
+   {
+    "da": "at vejlede",
+    "en": "to guide / advise"
+   },
+   {
+    "da": "jeg vejleder",
+    "en": "I guide / advise"
+   },
+   {
+    "da": "jeg vejledte",
+    "en": "I guided / advised"
+   },
+   {
+    "da": "jeg har vejledt",
+    "en": "I have guided / advised"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vejleder",
+    "en": "a mentor"
+   },
+   {
+    "da": "en vejledning",
+    "en": "instructions"
+   },
+   {
+    "da": "at instruere",
+    "en": "to instruct"
+   },
+   {
+    "da": "at rådgive",
+    "en": "to counsel"
+   }
+  ],
+  "sentence": {
+   "da": "Læreren vil **vejlede** eleverne, når de skriver opgaven.",
+   "en": "The teacher will guide the students when they write the assignment."
+  }
+ },
+ "at veksle": {
+  "explanation": "\"At veksle\" means \"to exchange (money)\", changing it from one currency to another. It also means to break a big bill into smaller ones: Kan du veksle en hundredkroneseddel? (Can you break a hundred-krone bill?)",
+  "forms": [
+   {
+    "da": "at veksle",
+    "en": "to exchange (money)"
+   },
+   {
+    "da": "jeg veksler",
+    "en": "I exchange (money)"
+   },
+   {
+    "da": "jeg vekslede",
+    "en": "I exchanged (money)"
+   },
+   {
+    "da": "jeg har vekslet",
+    "en": "I have exchanged (money)"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vekselkontor",
+    "en": "a money-changing office"
+   },
+   {
+    "da": "en vekselkurs",
+    "en": "an exchange rate"
+   },
+   {
+    "da": "at bytte",
+    "en": "to swap"
+   },
+   {
+    "da": "småpenge",
+    "en": "small change"
+   }
+  ],
+  "sentence": {
+   "da": "Hvor kan jeg **veksle** euro til danske kroner?",
+   "en": "Where can I exchange euros for Danish kroner?"
+  }
+ },
+ "at velsigne": {
+  "explanation": "\"At velsigne\" means \"to bless\", to ask for good things for someone or to declare something holy, as is done in a church. It is built from vel (well) and signe (bless).",
+  "forms": [
+   {
+    "da": "at velsigne",
+    "en": "to bless"
+   },
+   {
+    "da": "jeg velsigner",
+    "en": "I bless"
+   },
+   {
+    "da": "jeg velsignede",
+    "en": "I blessed"
+   },
+   {
+    "da": "jeg har velsignet",
+    "en": "I have blessed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bande",
+    "en": "to curse"
+   },
+   {
+    "da": "at døbe",
+    "en": "to baptize"
+   },
+   {
+    "da": "at indvie",
+    "en": "to consecrate"
+   }
+  ],
+  "sentence": {
+   "da": "Præsten vil **velsigne** parret ved brylluppet.",
+   "en": "The priest will bless the couple at the wedding."
   }
  },
  "at vende": {
@@ -522,6 +1061,45 @@
    "en": "I have to wait for the bus."
   }
  },
+ "at verificere": {
+  "explanation": "\"At verificere\" means \"to verify\", to make sure that something is true or correct, for example who a person is. Banks and websites use it for identity: at verificere sin identitet (to verify your identity).",
+  "forms": [
+   {
+    "da": "at verificere",
+    "en": "to verify"
+   },
+   {
+    "da": "jeg verificerer",
+    "en": "I verify"
+   },
+   {
+    "da": "jeg verificerede",
+    "en": "I verified"
+   },
+   {
+    "da": "jeg har verificeret",
+    "en": "I have verified"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bekræfte",
+    "en": "to confirm"
+   },
+   {
+    "da": "at kontrollere",
+    "en": "to check"
+   },
+   {
+    "da": "at godkende",
+    "en": "to approve"
+   }
+  ],
+  "sentence": {
+   "da": "Journalisten vil **verificere** kilderne, fordi nyheden kan være falsk.",
+   "en": "The journalist wants to verify the sources because the news may be false."
+  }
+ },
  "at vide": {
   "explanation": "\"At vide\" means \"to know\" a fact: Jeg ved det ikke (I do not know). For knowing a person or a place, Danish uses a different word, at kende (to know someone).",
   "forms": [
@@ -559,6 +1137,170 @@
   "sentence": {
    "da": "Du skal **vide** dit telefonnummer.",
    "en": "You need to know your phone number."
+  }
+ },
+ "at videreføre": {
+  "explanation": "\"At videreføre\" means \"to continue\", in the sense of carrying on something that already exists, such as a tradition or a project that others began. For plain \"keep going\", say at fortsætte (to continue): Jeg fortsætter med at læse (I keep on reading).",
+  "forms": [
+   {
+    "da": "at videreføre",
+    "en": "to continue"
+   },
+   {
+    "da": "jeg viderefører",
+    "en": "I continue"
+   },
+   {
+    "da": "jeg videreførte",
+    "en": "I continued"
+   },
+   {
+    "da": "jeg har videreført",
+    "en": "I have continued"
+   }
+  ],
+  "related": [
+   {
+    "da": "at overtage",
+    "en": "to take over"
+   },
+   {
+    "da": "at opretholde",
+    "en": "to maintain"
+   },
+   {
+    "da": "at afslutte",
+    "en": "to finish"
+   }
+  ],
+  "sentence": {
+   "da": "Hun vil **videreføre** familiens firma, når hendes far går på pension.",
+   "en": "She wants to carry on the family business when her father retires."
+  }
+ },
+ "at videregive": {
+  "explanation": "\"At videregive\" means \"to pass on\", to give information or an object on to another person. It is the careful word for private information, where passing it on needs permission.",
+  "forms": [
+   {
+    "da": "at videregive",
+    "en": "to pass on"
+   },
+   {
+    "da": "jeg videregiver",
+    "en": "I pass on"
+   },
+   {
+    "da": "jeg videregav",
+    "en": "I passed on"
+   },
+   {
+    "da": "jeg har videregivet",
+    "en": "I have passed on"
+   }
+  ],
+  "related": [
+   {
+    "da": "at dele",
+    "en": "to share"
+   },
+   {
+    "da": "at sende videre",
+    "en": "to forward"
+   },
+   {
+    "da": "at afsløre",
+    "en": "to reveal"
+   },
+   {
+    "da": "at overdrage",
+    "en": "to hand over"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen må ikke **videregive** dine oplysninger til andre.",
+   "en": "The doctor may not pass on your information to others."
+  }
+ },
+ "at vidne": {
+  "explanation": "\"At vidne\" means \"to testify\", to tell a court what you saw or know. The same word also names the person: et vidne (a witness). With om (about) it means to show: Resultatet vidner om hårdt arbejde (The result shows hard work).",
+  "forms": [
+   {
+    "da": "at vidne",
+    "en": "to testify"
+   },
+   {
+    "da": "jeg vidner",
+    "en": "I testify"
+   },
+   {
+    "da": "jeg vidnede",
+    "en": "I testified"
+   },
+   {
+    "da": "jeg har vidnet",
+    "en": "I have testified"
+   }
+  ],
+  "related": [
+   {
+    "da": "en retssag",
+    "en": "a trial"
+   },
+   {
+    "da": "en dommer",
+    "en": "a judge"
+   },
+   {
+    "da": "en forklaring",
+    "en": "a statement"
+   },
+   {
+    "da": "et bevis",
+    "en": "a piece of evidence"
+   }
+  ],
+  "sentence": {
+   "da": "Hun skal **vidne** i retten, fordi hun så ulykken.",
+   "en": "She must testify in court because she saw the accident."
+  }
+ },
+ "at vifte": {
+  "explanation": "\"At vifte\" means \"to wave (something)\" back and forth, usually with med (with): Han vifter med en avis (He waves a newspaper). To wave to a person, use at vinke (to wave to someone) instead. En vifte is also a fan.",
+  "forms": [
+   {
+    "da": "at vifte",
+    "en": "to wave (something)"
+   },
+   {
+    "da": "jeg vifter",
+    "en": "I wave (something)"
+   },
+   {
+    "da": "jeg viftede",
+    "en": "I waved (something)"
+   },
+   {
+    "da": "jeg har viftet",
+    "en": "I have waved (something)"
+   }
+  ],
+  "related": [
+   {
+    "da": "at svinge",
+    "en": "to swing"
+   },
+   {
+    "da": "at ryste",
+    "en": "to shake"
+   },
+   {
+    "da": "at blafre",
+    "en": "to flap"
+   }
+  ],
+  "sentence": {
+   "da": "Børnene skal **vifte** med små flag, når kongen kommer.",
+   "en": "The children will wave small flags when the king comes."
   }
  },
  "at ville": {
@@ -680,6 +1422,45 @@
   "sentence": {
    "da": "Jeg vil **vinke** til dig, når toget kører.",
    "en": "I will wave to you when the train leaves."
+  }
+ },
+ "at vippe": {
+  "explanation": "\"At vippe\" means \"to tip\" or \"to rock\", to move up on one side and down on the other. En vippe is a seesaw, and Vip ikke med stolen! (Do not rock the chair!) is said to children who lean back.",
+  "forms": [
+   {
+    "da": "at vippe",
+    "en": "to tip / rock"
+   },
+   {
+    "da": "jeg vipper",
+    "en": "I tip / rock"
+   },
+   {
+    "da": "jeg vippede",
+    "en": "I tipped / rocked"
+   },
+   {
+    "da": "jeg har vippet",
+    "en": "I have tipped / rocked"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gynge",
+    "en": "a swing"
+   },
+   {
+    "da": "at balancere",
+    "en": "to balance"
+   },
+   {
+    "da": "at vælte",
+    "en": "to fall over"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis bordet står skævt, kan det **vippe**.",
+   "en": "If the table stands crooked, it can rock."
   }
  },
  "at virke": {
@@ -807,6 +1588,88 @@
    "en": "It may turn out that he is right."
   }
  },
+ "at visne": {
+  "explanation": "\"At visne\" means \"to wither\", when a plant dries up and goes limp because it lacks water or is dying. Danes also use it for something fading away, such as a smile: Smilet visnede (The smile faded).",
+  "forms": [
+   {
+    "da": "at visne",
+    "en": "to wither"
+   },
+   {
+    "da": "blomsten visner",
+    "en": "the flower withers"
+   },
+   {
+    "da": "blomsten visnede",
+    "en": "the flower withered"
+   },
+   {
+    "da": "blomsten er visnet",
+    "en": "the flower has withered"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tørre ud",
+    "en": "to dry out"
+   },
+   {
+    "da": "at dø",
+    "en": "to die"
+   },
+   {
+    "da": "at blomstre",
+    "en": "to bloom"
+   },
+   {
+    "da": "vissen",
+    "en": "wilted"
+   }
+  ],
+  "sentence": {
+   "da": "Blomsterne vil **visne**, når du glemmer at vande dem.",
+   "en": "The flowers will wither when you forget to water them."
+  }
+ },
+ "at visualisere": {
+  "explanation": "\"At visualisere\" means \"to visualize\", to picture something in your mind or to show information as a drawing or graph: Jeg kan godt visualisere huset (I can picture the house).",
+  "forms": [
+   {
+    "da": "at visualisere",
+    "en": "to visualize"
+   },
+   {
+    "da": "jeg visualiserer",
+    "en": "I visualize"
+   },
+   {
+    "da": "jeg visualiserede",
+    "en": "I visualized"
+   },
+   {
+    "da": "jeg har visualiseret",
+    "en": "I have visualized"
+   }
+  ],
+  "related": [
+   {
+    "da": "en visualisering",
+    "en": "a visualization"
+   },
+   {
+    "da": "at forestille sig",
+    "en": "to imagine"
+   },
+   {
+    "da": "at illustrere",
+    "en": "to illustrate"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bruger et diagram til at **visualisere** tallene.",
+   "en": "We use a chart to visualize the figures."
+  }
+ },
  "at vokse": {
   "explanation": "\"At vokse\" means \"to grow\", for children, plants and things: Børn vokser hurtigt (Children grow fast). To grow up is at vokse op: Jeg voksede op i Odense (I grew up in Odense). To grow tomatoes, use at dyrke (to cultivate).",
   "forms": [
@@ -885,6 +1748,170 @@
    "en": "My children will grow up in the countryside."
   }
  },
+ "at vove": {
+  "explanation": "\"At vove\" means \"to dare\", to do something even though it might go wrong. In everyday speech Danes mostly say at turde (to dare): Jeg tør ikke (I do not dare).",
+  "forms": [
+   {
+    "da": "at vove",
+    "en": "to dare"
+   },
+   {
+    "da": "jeg vover",
+    "en": "I dare"
+   },
+   {
+    "da": "jeg vovede",
+    "en": "I dared"
+   },
+   {
+    "da": "jeg har vovet",
+    "en": "I have dared"
+   }
+  ],
+  "related": [
+   {
+    "da": "dristig",
+    "en": "bold"
+   },
+   {
+    "da": "en fare",
+    "en": "a danger"
+   },
+   {
+    "da": "at risikere",
+    "en": "to risk"
+   },
+   {
+    "da": "modig",
+    "en": "brave"
+   }
+  ],
+  "sentence": {
+   "da": "Ingen vil **vove** at gå ind i det mørke hus.",
+   "en": "No one dares to go into the dark house."
+  }
+ },
+ "at vride": {
+  "explanation": "\"At vride\" means \"to twist\" or \"to wring\", to turn something hard with your hands, often to squeeze the water out. With sig (oneself) it means to writhe: Han vred sig af smerte (He writhed in pain).",
+  "forms": [
+   {
+    "da": "at vride",
+    "en": "to twist / wring"
+   },
+   {
+    "da": "jeg vrider",
+    "en": "I twist / wring"
+   },
+   {
+    "da": "jeg vred",
+    "en": "I twisted / wrung"
+   },
+   {
+    "da": "jeg har vredet",
+    "en": "I have twisted / wrung"
+   }
+  ],
+  "related": [
+   {
+    "da": "at dreje",
+    "en": "to turn"
+   },
+   {
+    "da": "at presse",
+    "en": "to squeeze"
+   },
+   {
+    "da": "at sno",
+    "en": "to wind"
+   }
+  ],
+  "sentence": {
+   "da": "Du skal **vride** vandet ud af håndklædet.",
+   "en": "You must wring the water out of the towel."
+  }
+ },
+ "at vrimle": {
+  "explanation": "\"At vrimle\" means \"to swarm\" or \"to teem\", when a place is full of many small things moving about, such as people or insects. It is followed by med (with): Gaden vrimler med mennesker (The street teems with people).",
+  "forms": [
+   {
+    "da": "at vrimle",
+    "en": "to swarm / teem"
+   },
+   {
+    "da": "det vrimler",
+    "en": "it swarms / teems"
+   },
+   {
+    "da": "det vrimlede",
+    "en": "it swarmed / teemed"
+   },
+   {
+    "da": "det har vrimlet",
+    "en": "it has swarmed / teemed"
+   }
+  ],
+  "related": [
+   {
+    "da": "at myldre",
+    "en": "to throng"
+   },
+   {
+    "da": "at summe",
+    "en": "to buzz"
+   },
+   {
+    "da": "en menneskemængde",
+    "en": "a crowd"
+   },
+   {
+    "da": "at være fyldt med",
+    "en": "to be full of"
+   }
+  ],
+  "sentence": {
+   "da": "Om sommeren kan stranden **vrimle** med børn og turister.",
+   "en": "In the summer, the beach can swarm with children and tourists."
+  }
+ },
+ "at vurdere": {
+  "explanation": "\"At vurdere\" means \"to evaluate\", to form an opinion about how good, big or valuable something is. It is also used for setting a price: Huset bliver vurderet til tre millioner (The house is valued at three million).",
+  "forms": [
+   {
+    "da": "at vurdere",
+    "en": "to evaluate"
+   },
+   {
+    "da": "jeg vurderer",
+    "en": "I evaluate"
+   },
+   {
+    "da": "jeg vurderede",
+    "en": "I evaluated"
+   },
+   {
+    "da": "jeg har vurderet",
+    "en": "I have evaluated"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vurdering",
+    "en": "an assessment"
+   },
+   {
+    "da": "at bedømme",
+    "en": "to judge"
+   },
+   {
+    "da": "at skønne",
+    "en": "to estimate"
+   }
+  ],
+  "sentence": {
+   "da": "Lægen skal **vurdere**, om skaden er alvorlig.",
+   "en": "The doctor must assess whether the injury is serious."
+  }
+ },
  "at vågne": {
   "explanation": "\"At vågne\" means \"to wake up\" by yourself: Jeg vågner klokken syv (I wake up at seven). When someone else wakes you, Danish uses at vække (to wake someone).",
   "forms": [
@@ -961,6 +1988,49 @@
   "sentence": {
    "da": "Jeg vil **vågne op** tidligt i morgen.",
    "en": "I want to wake up early tomorrow."
+  }
+ },
+ "at vædde": {
+  "explanation": "\"At vædde\" means \"to bet\". What you bet on follows på (on): Vi vædder på vejret (We bet on the weather).",
+  "forms": [
+   {
+    "da": "at vædde",
+    "en": "to bet"
+   },
+   {
+    "da": "jeg vædder",
+    "en": "I bet"
+   },
+   {
+    "da": "jeg væddede",
+    "en": "I bet"
+   },
+   {
+    "da": "jeg har væddet",
+    "en": "I have bet"
+   }
+  ],
+  "related": [
+   {
+    "da": "et væddemål",
+    "en": "a bet (the wager)"
+   },
+   {
+    "da": "en gevinst",
+    "en": "winnings"
+   },
+   {
+    "da": "at satse",
+    "en": "to stake"
+   },
+   {
+    "da": "at gamble",
+    "en": "to gamble"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg vil **vædde** på, at holdet vinder i aften.",
+   "en": "I will bet that the team wins tonight."
   }
  },
  "at vække": {
@@ -1084,6 +2154,45 @@
    "en": "Be careful, you might knock over the glass!"
   }
  },
+ "at vænne sig af med": {
+  "explanation": "\"At vænne sig af med\" means \"to get out of the habit of\", to stop doing something you used to do regularly. It is the opposite of at vænne sig til (to get used to), so af means away from and til means toward. The thing you leave behind comes after med.",
+  "forms": [
+   {
+    "da": "at vænne sig af med",
+    "en": "to get out of the habit of"
+   },
+   {
+    "da": "jeg vænner mig af med",
+    "en": "I get out of the habit of"
+   },
+   {
+    "da": "jeg vænnede mig af med",
+    "en": "I got out of the habit of"
+   },
+   {
+    "da": "jeg har vænnet mig af med",
+    "en": "I have gotten out of the habit of"
+   }
+  ],
+  "related": [
+   {
+    "da": "at holde op med",
+    "en": "to quit"
+   },
+   {
+    "da": "at droppe",
+    "en": "to drop"
+   },
+   {
+    "da": "at slippe af med",
+    "en": "to get rid of"
+   }
+  ],
+  "sentence": {
+   "da": "Han vil **vænne sig af med** at spise sukker hver dag.",
+   "en": "He wants to get out of the habit of eating sugar every day."
+  }
+ },
  "at vænne sig til": {
   "explanation": "\"At vænne sig til\" means \"to get used to\": Jeg vænner mig til kulden (I am getting used to the cold). Once it is done, say vant til: Jeg er vant til kulden (I am used to the cold).",
   "forms": [
@@ -1121,6 +2230,49 @@
   "sentence": {
    "da": "Det tager tid at **vænne sig til** et nyt sted.",
    "en": "It takes time to get used to a new place."
+  }
+ },
+ "at værdsætte": {
+  "explanation": "\"At værdsætte\" means \"to appreciate\", to value something and be glad of it: Jeg værdsætter din hjælp (I appreciate your help). It never means to go up in value, as in English; for that say at stige i værdi (to rise in value).",
+  "forms": [
+   {
+    "da": "at værdsætte",
+    "en": "to appreciate"
+   },
+   {
+    "da": "jeg værdsætter",
+    "en": "I appreciate"
+   },
+   {
+    "da": "jeg værdsatte",
+    "en": "I appreciated"
+   },
+   {
+    "da": "jeg har værdsat",
+    "en": "I have appreciated"
+   }
+  ],
+  "related": [
+   {
+    "da": "at sætte pris på",
+    "en": "to be thankful for"
+   },
+   {
+    "da": "at takke",
+    "en": "to thank"
+   },
+   {
+    "da": "at skatte",
+    "en": "to treasure"
+   },
+   {
+    "da": "taknemmelig",
+    "en": "grateful"
+   }
+  ],
+  "sentence": {
+   "da": "Man skal kunne **værdsætte** de små ting i livet.",
+   "en": "You have to be able to appreciate the small things in life."
   }
  },
  "at være": {
@@ -1412,6 +2564,119 @@
    "en": "When the bus is gone, we may have to walk."
   }
  },
+ "at være oppe at køre": {
+  "explanation": "\"At være oppe at køre\" means \"to be worked up\", to be tense, excited and full of restless energy. It can be about stress or about excitement.",
+  "forms": [
+   {
+    "da": "Jeg er oppe at køre",
+    "en": "I am worked up"
+   },
+   {
+    "da": "Han var oppe at køre i går",
+    "en": "He was worked up yesterday"
+   },
+   {
+    "da": "Vær ikke så oppe at køre",
+    "en": "Do not be so worked up"
+   }
+  ],
+  "related": [
+   {
+    "da": "at være stresset",
+    "en": "to be stressed"
+   },
+   {
+    "da": "at være ophidset",
+    "en": "to be agitated"
+   },
+   {
+    "da": "at tage den med ro",
+    "en": "to take it easy"
+   },
+   {
+    "da": "at falde til ro",
+    "en": "to calm down"
+   }
+  ],
+  "sentence": {
+   "da": "Han plejer at **være oppe at køre**, når der er eksamen.",
+   "en": "He tends to be worked up when there is an exam."
+  }
+ },
+ "at være på bar bund": {
+  "explanation": "\"At være på bar bund\" means \"to be at a total loss\", to have no idea what to do or answer, with nothing to build on. Literally it is to be on bare bottom.",
+  "forms": [
+   {
+    "da": "Jeg er på bar bund",
+    "en": "I am at a total loss"
+   },
+   {
+    "da": "Hun var på bar bund",
+    "en": "She was at a total loss"
+   },
+   {
+    "da": "Vi står på bar bund",
+    "en": "We are at a total loss"
+   }
+  ],
+  "related": [
+   {
+    "da": "at være rådvild",
+    "en": "to be bewildered"
+   },
+   {
+    "da": "at tabe tråden",
+    "en": "to lose the thread"
+   },
+   {
+    "da": "at have styr på",
+    "en": "to have under control"
+   }
+  ],
+  "sentence": {
+   "da": "Han kan **være på bar bund** til eksamen, fordi han ikke har læst.",
+   "en": "He can be at a total loss at the exam because he has not studied."
+  }
+ },
+ "at være på herrens mark": {
+  "explanation": "\"At være på Herrens mark\" means \"to be completely lost\", to be totally confused or wrong about something. It is about understanding, not about finding your way. Literally it is to be on the Lord's field.",
+  "forms": [
+   {
+    "da": "Jeg er helt på Herrens mark",
+    "en": "I am completely lost"
+   },
+   {
+    "da": "Han var på Herrens mark",
+    "en": "He was completely lost"
+   },
+   {
+    "da": "Vi var helt på Herrens mark",
+    "en": "We were completely lost"
+   }
+  ],
+  "related": [
+   {
+    "da": "at tage fejl",
+    "en": "to be mistaken"
+   },
+   {
+    "da": "at være helt ude at svømme",
+    "en": "to be out of your depth"
+   },
+   {
+    "da": "at være på afveje",
+    "en": "to be astray"
+   },
+   {
+    "da": "at være på rette spor",
+    "en": "to be on the right track"
+   }
+  ],
+  "sentence": {
+   "da": "Han kan **være på Herrens mark**, når han ikke har læst opgaven.",
+   "en": "He can be completely lost when he has not read the assignment."
+  }
+ },
  "at være på vej": {
   "explanation": "\"At være på vej\" means \"to be on the way\": Jeg er på vej hjem (I am on my way home). Before a place name, add til (to): Han er på vej til Aarhus (He is on his way to Aarhus).",
   "forms": [
@@ -1535,6 +2800,41 @@
   "sentence": {
    "da": "Man kan let **være træt af** at vente.",
    "en": "You can easily get tired of waiting."
+  }
+ },
+ "at være ude i god tid": {
+  "explanation": "\"At være ude i god tid\" means \"to be well ahead of time\", to start or do something early enough that there is room for delays, so nothing is rushed.",
+  "forms": [
+   {
+    "da": "Vi er ude i god tid",
+    "en": "We are well ahead of time"
+   },
+   {
+    "da": "Er du ude i god tid?",
+    "en": "Are you well ahead of time?"
+   },
+   {
+    "da": "Man skal være ude i god tid",
+    "en": "You should plan well ahead"
+   }
+  ],
+  "related": [
+   {
+    "da": "i tide",
+    "en": "in time"
+   },
+   {
+    "da": "for sent",
+    "en": "too late"
+   },
+   {
+    "da": "i sidste øjeblik",
+    "en": "at the last minute"
+   }
+  ],
+  "sentence": {
+   "da": "Vi skal **være ude i god tid**, fordi flyet letter klokken seks.",
+   "en": "We must be well ahead of time because the plane takes off at six."
   }
  },
  "at være uenig": {
@@ -1740,6 +3040,45 @@
    "en": "He has to be away for two days."
   }
  },
+ "at værne om": {
+  "explanation": "\"At værne om\" means \"to protect\" or \"to safeguard\", to guard something valuable so that it is kept. The small word om is always there: værne om friheden (protect freedom). It is for things you value and want to keep, more than for guarding against an attack.",
+  "forms": [
+   {
+    "da": "at værne om",
+    "en": "to protect / safeguard"
+   },
+   {
+    "da": "jeg værner om",
+    "en": "I protect / safeguard"
+   },
+   {
+    "da": "jeg værnede om",
+    "en": "I protected / safeguarded"
+   },
+   {
+    "da": "jeg har værnet om",
+    "en": "I have protected / safeguarded"
+   }
+  ],
+  "related": [
+   {
+    "da": "at beskytte",
+    "en": "to shield"
+   },
+   {
+    "da": "at bevare",
+    "en": "to preserve"
+   },
+   {
+    "da": "at forsvare",
+    "en": "to defend"
+   }
+  ],
+  "sentence": {
+   "da": "Vi bør **værne om** vores natur og vores sprog.",
+   "en": "We should protect our nature and our language."
+  }
+ },
  "en vaccination": {
   "explanation": "\"En vaccination\" means \"a vaccination\", a shot that protects you from a disease. The shorter en vaccine is the medicine itself.",
   "forms": [
@@ -1896,6 +3235,178 @@
    "en": "He is on duty at the hospital tonight."
   }
  },
+ "en vagtlæge": {
+  "explanation": "\"En vagtlæge\" means \"an on-call doctor\", a doctor you can reach in the evening, at night and on weekends, when your own doctor's office is closed. You usually call lægevagten (the out-of-hours doctor service) to reach one.",
+  "forms": [
+   {
+    "da": "en vagtlæge",
+    "en": "an on-call doctor"
+   },
+   {
+    "da": "vagtlægen",
+    "en": "the on-call doctor"
+   },
+   {
+    "da": "vagtlæger",
+    "en": "on-call doctors"
+   },
+   {
+    "da": "vagtlægerne",
+    "en": "the on-call doctors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en skadestue",
+    "en": "an emergency room"
+   },
+   {
+    "da": "en sygeplejerske",
+    "en": "a nurse"
+   },
+   {
+    "da": "et sygehus",
+    "en": "a hospital"
+   },
+   {
+    "da": "en ambulance",
+    "en": "an ambulance"
+   }
+  ],
+  "sentence": {
+   "da": "Om natten kan du få hjælp fra en **vagtlæge**.",
+   "en": "At night you can get help from an on-call doctor."
+  }
+ },
+ "en valgkamp": {
+  "explanation": "\"En valgkamp\" means \"an election campaign\", the weeks before an election when parties try to win votes with speeches and promises. It is valg (election) plus kamp (fight), a fight for votes.",
+  "forms": [
+   {
+    "da": "en valgkamp",
+    "en": "an election campaign"
+   },
+   {
+    "da": "valgkampen",
+    "en": "the election campaign"
+   },
+   {
+    "da": "valgkampe",
+    "en": "election campaigns"
+   },
+   {
+    "da": "valgkampene",
+    "en": "the election campaigns"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kampagne",
+    "en": "a campaign"
+   },
+   {
+    "da": "en valgplakat",
+    "en": "an election poster"
+   },
+   {
+    "da": "et valgløfte",
+    "en": "an election promise"
+   },
+   {
+    "da": "en valgdag",
+    "en": "an election day"
+   }
+  ],
+  "sentence": {
+   "da": "I en **valgkamp** prøver partierne at vinde vælgernes stemmer.",
+   "en": "In an election campaign the parties try to win the voters' votes."
+  }
+ },
+ "en valgkreds": {
+  "explanation": "\"En valgkreds\" means \"a constituency\", an area whose voters together elect their own members of parliament. Where you live decides which one you vote in.",
+  "forms": [
+   {
+    "da": "en valgkreds",
+    "en": "a constituency"
+   },
+   {
+    "da": "valgkredsen",
+    "en": "the constituency"
+   },
+   {
+    "da": "valgkredse",
+    "en": "constituencies"
+   },
+   {
+    "da": "valgkredsene",
+    "en": "the constituencies"
+   }
+  ],
+  "related": [
+   {
+    "da": "et valg",
+    "en": "an election"
+   },
+   {
+    "da": "en vælger",
+    "en": "a voter"
+   },
+   {
+    "da": "et valgsted",
+    "en": "a polling place"
+   },
+   {
+    "da": "en storkreds",
+    "en": "a large group of constituencies"
+   }
+  ],
+  "sentence": {
+   "da": "Man stemmer i den **valgkreds**, hvor man bor.",
+   "en": "You vote in the constituency where you live."
+  }
+ },
+ "en valgmulighed": {
+  "explanation": "\"En valgmulighed\" means \"an option\", one of several things you can choose between, for example on a menu or in the settings of a phone. It is valg (choice) plus mulighed (possibility).",
+  "forms": [
+   {
+    "da": "en valgmulighed",
+    "en": "an option"
+   },
+   {
+    "da": "valgmuligheden",
+    "en": "the option"
+   },
+   {
+    "da": "valgmuligheder",
+    "en": "options"
+   },
+   {
+    "da": "valgmulighederne",
+    "en": "the options"
+   }
+  ],
+  "related": [
+   {
+    "da": "et alternativ",
+    "en": "an alternative"
+   },
+   {
+    "da": "en løsning",
+    "en": "a solution"
+   },
+   {
+    "da": "et tilvalg",
+    "en": "an optional extra"
+   },
+   {
+    "da": "et fravalg",
+    "en": "a decision to leave something out"
+   }
+  ],
+  "sentence": {
+   "da": "Der er kun en **valgmulighed**, og det er at vente.",
+   "en": "There is only one option, and that is to wait."
+  }
+ },
  "en valnød": {
   "explanation": "\"En valnød\" means \"a walnut\", a nut with a wrinkled inside that people often eat in cakes and salads. It grows on a big tree and has a hard shell.",
   "forms": [
@@ -1937,6 +3448,49 @@
   "sentence": {
    "da": "Jeg knækker en **valnød** og spiser den.",
    "en": "I crack a walnut and eat it."
+  }
+ },
+ "en valuta": {
+  "explanation": "\"En valuta\" means \"a currency\", the kind of money a country uses, such as kroner or euro. Money from another country is udenlandsk valuta (foreign currency).",
+  "forms": [
+   {
+    "da": "en valuta",
+    "en": "a currency"
+   },
+   {
+    "da": "valutaen",
+    "en": "the currency"
+   },
+   {
+    "da": "valutaer",
+    "en": "currencies"
+   },
+   {
+    "da": "valutaerne",
+    "en": "the currencies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mønt",
+    "en": "a coin"
+   },
+   {
+    "da": "en seddel",
+    "en": "a banknote"
+   },
+   {
+    "da": "en vekselkurs",
+    "en": "an exchange rate"
+   },
+   {
+    "da": "kontanter",
+    "en": "cash"
+   }
+  ],
+  "sentence": {
+   "da": "Euro er den **valuta**, de bruger i Tyskland.",
+   "en": "The euro is the currency they use in Germany."
   }
  },
  "en vampyr": {
@@ -2140,6 +3694,45 @@
   "sentence": {
    "da": "Der står en **vandkaraffel** på bordet.",
    "en": "There is a water carafe on the table."
+  }
+ },
+ "en vandmand": {
+  "explanation": "\"En vandmand\" means \"a jellyfish\", a soft sea animal that can sting you if you touch it. The word is literally \"water man\", and with a capital V, Vandmanden is also the zodiac sign Aquarius.",
+  "forms": [
+   {
+    "da": "en vandmand",
+    "en": "a jellyfish"
+   },
+   {
+    "da": "vandmanden",
+    "en": "the jellyfish"
+   },
+   {
+    "da": "vandmænd",
+    "en": "jellyfish"
+   },
+   {
+    "da": "vandmændene",
+    "en": "the jellyfish"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gople",
+    "en": "a jellyfish (another word)"
+   },
+   {
+    "da": "en søstjerne",
+    "en": "a starfish"
+   },
+   {
+    "da": "en krabbe",
+    "en": "a crab"
+   }
+  ],
+  "sentence": {
+   "da": "Hvis du rører en **vandmand**, kan den brænde dig.",
+   "en": "If you touch a jellyfish, it can burn you."
   }
  },
  "en vandmelon": {
@@ -2349,6 +3942,135 @@
    "en": "It is a bad habit to be late."
   }
  },
+ "en vaniljekrans": {
+  "explanation": "\"En vaniljekrans\" means \"a vanilla butter cookie\", a traditional Danish cookie that many families bake at Christmas. It is built from vanilje (vanilla) and krans (a wreath).",
+  "forms": [
+   {
+    "da": "en vaniljekrans",
+    "en": "a vanilla butter cookie"
+   },
+   {
+    "da": "vaniljekransen",
+    "en": "the vanilla butter cookie"
+   },
+   {
+    "da": "vaniljekranse",
+    "en": "vanilla butter cookies"
+   },
+   {
+    "da": "vaniljekransene",
+    "en": "the vanilla butter cookies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en småkage",
+    "en": "a small baked treat"
+   },
+   {
+    "da": "en brunkage",
+    "en": "a spiced brown treat"
+   },
+   {
+    "da": "en klejne",
+    "en": "a twisted fried pastry"
+   },
+   {
+    "da": "en pebernød",
+    "en": "a small spiced nut-shaped treat"
+   }
+  ],
+  "sentence": {
+   "da": "En **vaniljekrans** er en lille, sprød ring af smør, mel og sukker.",
+   "en": "A vanilla butter cookie is a small, crisp ring of butter, flour and sugar."
+  }
+ },
+ "en vanskelighed": {
+  "explanation": "\"En vanskelighed\" means \"a difficulty\", something that makes a task hard to do. It is often used in the plural: Hun har vanskeligheder med at høre (She has difficulty hearing).",
+  "forms": [
+   {
+    "da": "en vanskelighed",
+    "en": "a difficulty"
+   },
+   {
+    "da": "vanskeligheden",
+    "en": "the difficulty"
+   },
+   {
+    "da": "vanskeligheder",
+    "en": "difficulties"
+   },
+   {
+    "da": "vanskelighederne",
+    "en": "the difficulties"
+   }
+  ],
+  "related": [
+   {
+    "da": "en udfordring",
+    "en": "a challenge"
+   },
+   {
+    "da": "et problem",
+    "en": "a problem"
+   },
+   {
+    "da": "et besvær",
+    "en": "a trouble"
+   },
+   {
+    "da": "en hindring",
+    "en": "an obstacle"
+   }
+  ],
+  "sentence": {
+   "da": "Den største **vanskelighed** er, at vi mangler tid.",
+   "en": "The biggest difficulty is that we are short of time."
+  }
+ },
+ "en vante": {
+  "explanation": "\"En vante\" means \"a mitten\", a warm hand cover with room for the thumb and one shared space for the other fingers. One with a space for each finger is en handske (a glove).",
+  "forms": [
+   {
+    "da": "en vante",
+    "en": "a mitten"
+   },
+   {
+    "da": "vanten",
+    "en": "the mitten"
+   },
+   {
+    "da": "vanter",
+    "en": "mittens"
+   },
+   {
+    "da": "vanterne",
+    "en": "the mittens"
+   }
+  ],
+  "related": [
+   {
+    "da": "en luffe",
+    "en": "a mitten (another word)"
+   },
+   {
+    "da": "en hue",
+    "en": "a beanie"
+   },
+   {
+    "da": "et halstørklæde",
+    "en": "a scarf"
+   },
+   {
+    "da": "en tommelfinger",
+    "en": "a thumb"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har mistet min ene **vante**, så min hånd fryser.",
+   "en": "I have lost one of my mittens, so my hand is freezing."
+  }
+ },
  "en vare": {
   "explanation": "\"En vare\" means \"an item\" or \"a product\" that is for sale. For a thing you own, say en ting (a thing) instead.",
   "forms": [
@@ -2390,6 +4112,49 @@
   "sentence": {
    "da": "Denne **vare** koster kun tyve kroner.",
    "en": "This item costs only twenty kroner."
+  }
+ },
+ "en varedeklaration": {
+  "explanation": "\"En varedeklaration\" means \"a product label\", the printed information on a food or other product about what is inside, how much there is and who made it. Food has to carry one.",
+  "forms": [
+   {
+    "da": "en varedeklaration",
+    "en": "a product label"
+   },
+   {
+    "da": "varedeklarationen",
+    "en": "the product label"
+   },
+   {
+    "da": "varedeklarationer",
+    "en": "product labels"
+   },
+   {
+    "da": "varedeklarationerne",
+    "en": "the product labels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en ingrediens",
+    "en": "an ingredient"
+   },
+   {
+    "da": "en etiket",
+    "en": "a tag or label"
+   },
+   {
+    "da": "et næringsindhold",
+    "en": "nutritional content"
+   },
+   {
+    "da": "en holdbarhedsdato",
+    "en": "an expiry date"
+   }
+  ],
+  "sentence": {
+   "da": "Der står på en **varedeklaration**, hvad en vare indeholder.",
+   "en": "A product label says what a product contains."
   }
  },
  "en vareprøve": {
@@ -2470,6 +4235,88 @@
    "en": "We are moving our furniture in a van."
   }
  },
+ "en variation": {
+  "explanation": "\"En variation\" means \"a variation\", a different form of something, or a change that keeps things from being the same every time. Use over for what is varied: en variation over en gammel opskrift (a variation on an old recipe).",
+  "forms": [
+   {
+    "da": "en variation",
+    "en": "a variation"
+   },
+   {
+    "da": "variationen",
+    "en": "the variation"
+   },
+   {
+    "da": "variationer",
+    "en": "variations"
+   },
+   {
+    "da": "variationerne",
+    "en": "the variations"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forskel",
+    "en": "a difference"
+   },
+   {
+    "da": "en afveksling",
+    "en": "a change for variety"
+   },
+   {
+    "da": "en version",
+    "en": "a version"
+   },
+   {
+    "da": "en mangfoldighed",
+    "en": "a diversity"
+   }
+  ],
+  "sentence": {
+   "da": "Det er sundt med **variation** i det, man spiser.",
+   "en": "It is healthy to have variation in what you eat."
+  }
+ },
+ "en varmebølge": {
+  "explanation": "\"En varmebølge\" means \"a heatwave\", several days in a row of very hot weather. It is varme (heat) plus bølge (wave). Another word with the same meaning is en hedebølge.",
+  "forms": [
+   {
+    "da": "en varmebølge",
+    "en": "a heatwave"
+   },
+   {
+    "da": "varmebølgen",
+    "en": "the heatwave"
+   },
+   {
+    "da": "varmebølger",
+    "en": "heatwaves"
+   },
+   {
+    "da": "varmebølgerne",
+    "en": "the heatwaves"
+   }
+  ],
+  "related": [
+   {
+    "da": "en kuldebølge",
+    "en": "a cold snap"
+   },
+   {
+    "da": "en varmerekord",
+    "en": "a heat record"
+   },
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   }
+  ],
+  "sentence": {
+   "da": "Under en **varmebølge** bør man drikke meget vand.",
+   "en": "During a heatwave you should drink a lot of water."
+  }
+ },
  "en varmepumpe": {
   "explanation": "\"En varmepumpe\" means \"a heat pump\". It is built from varme (heat) and pumpe (pump), and it takes heat from the air or the ground to warm a house.",
   "forms": [
@@ -2511,6 +4358,45 @@
   "sentence": {
    "da": "Vi varmer huset op med en **varmepumpe**.",
    "en": "We heat the house with a heat pump."
+  }
+ },
+ "en varmerekord": {
+  "explanation": "\"En varmerekord\" means \"a heat record\", the highest temperature ever measured in a place or in a certain month. For the lowest temperature, use en kulderekord (a cold record).",
+  "forms": [
+   {
+    "da": "en varmerekord",
+    "en": "a heat record"
+   },
+   {
+    "da": "varmerekorden",
+    "en": "the heat record"
+   },
+   {
+    "da": "varmerekorder",
+    "en": "heat records"
+   },
+   {
+    "da": "varmerekorderne",
+    "en": "the heat records"
+   }
+  ],
+  "related": [
+   {
+    "da": "en varmebølge",
+    "en": "a heatwave"
+   },
+   {
+    "da": "en tørke",
+    "en": "a drought"
+   },
+   {
+    "da": "en måling",
+    "en": "a measurement"
+   }
+  ],
+  "sentence": {
+   "da": "I dag blev der sat en ny **varmerekord** i Danmark.",
+   "en": "Today a new heat record was set in Denmark."
   }
  },
  "en vase": {
@@ -2724,6 +4610,45 @@
    "en": "She takes off makeup with a cotton swab."
   }
  },
+ "en vedhæftet fil": {
+  "explanation": "\"En vedhæftet fil\" means \"an attachment\", a file sent along with an email, such as a photo or a contract. It is literally \"an attached file\". In emails you often read Se vedhæftede filer (See the attached files).",
+  "forms": [
+   {
+    "da": "en vedhæftet fil",
+    "en": "an attachment"
+   },
+   {
+    "da": "den vedhæftede fil",
+    "en": "the attachment"
+   },
+   {
+    "da": "vedhæftede filer",
+    "en": "attachments"
+   },
+   {
+    "da": "de vedhæftede filer",
+    "en": "the attachments"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vedhæfte",
+    "en": "to attach"
+   },
+   {
+    "da": "et bilag",
+    "en": "an enclosure"
+   },
+   {
+    "da": "at vedlægge",
+    "en": "to enclose"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg sender dig en **vedhæftet fil** med billederne fra turen.",
+   "en": "I am sending you an attachment with the pictures from the trip."
+  }
+ },
  "en veganer": {
   "explanation": "\"En veganer\" means \"a vegan\", a person who eats no meat, fish, eggs or dairy. It is different from a vegetarian, who may still eat eggs and dairy.",
   "forms": [
@@ -2845,6 +4770,49 @@
    "en": "The car drives on a long road."
   }
  },
+ "en vejleder": {
+  "explanation": "\"En vejleder\" means \"a supervisor\", someone who guides you in your studies or work and gives feedback. It comes from at vejlede (to guide).",
+  "forms": [
+   {
+    "da": "en vejleder",
+    "en": "a supervisor"
+   },
+   {
+    "da": "vejlederen",
+    "en": "the supervisor"
+   },
+   {
+    "da": "vejledere",
+    "en": "supervisors"
+   },
+   {
+    "da": "vejlederne",
+    "en": "the supervisors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en lærer",
+    "en": "a teacher"
+   },
+   {
+    "da": "en mentor",
+    "en": "a mentor"
+   },
+   {
+    "da": "en rådgiver",
+    "en": "an adviser"
+   },
+   {
+    "da": "en studievejleder",
+    "en": "a study counselor"
+   }
+  ],
+  "sentence": {
+   "da": "Min **vejleder** læser mit speciale og siger, hvad jeg kan forbedre.",
+   "en": "My supervisor reads my thesis and says what I can improve."
+  }
+ },
  "en vejledning": {
   "explanation": "\"En vejledning\" means \"a guide / guidance\", help or instructions that show you how to do something. A person who gives guidance is en vejleder (an advisor).",
   "forms": [
@@ -2960,6 +4928,135 @@
   "sentence": {
    "da": "Jeg ser en **vejrudsigt** om regn i morgen.",
    "en": "I see a weather forecast about rain tomorrow."
+  }
+ },
+ "en vejviser": {
+  "explanation": "\"En vejviser\" means \"a signpost\", something that shows the way, and it is also a printed directory of addresses. It is built from vej (road) and viser (a pointer, from at vise, to show).",
+  "forms": [
+   {
+    "da": "en vejviser",
+    "en": "a signpost"
+   },
+   {
+    "da": "vejviseren",
+    "en": "the signpost"
+   },
+   {
+    "da": "vejvisere",
+    "en": "signposts"
+   },
+   {
+    "da": "vejviserne",
+    "en": "the signposts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et vejskilt",
+    "en": "a traffic sign"
+   },
+   {
+    "da": "en guide",
+    "en": "a guide"
+   },
+   {
+    "da": "et kort",
+    "en": "a map"
+   },
+   {
+    "da": "en telefonbog",
+    "en": "a phone book"
+   }
+  ],
+  "sentence": {
+   "da": "Ved krydset viser en **vejviser**, hvilken vej vi skal gå.",
+   "en": "At the crossing a signpost shows which way we must go."
+  }
+ },
+ "en vekselkurs": {
+  "explanation": "\"En vekselkurs\" means \"an exchange rate\", the price of one country's money in another's, such as how many kroner you get for one euro. The rate changes every day.",
+  "forms": [
+   {
+    "da": "en vekselkurs",
+    "en": "an exchange rate"
+   },
+   {
+    "da": "vekselkursen",
+    "en": "the exchange rate"
+   },
+   {
+    "da": "vekselkurser",
+    "en": "exchange rates"
+   },
+   {
+    "da": "vekselkurserne",
+    "en": "the exchange rates"
+   }
+  ],
+  "related": [
+   {
+    "da": "en valuta",
+    "en": "a currency"
+   },
+   {
+    "da": "en valutakurs",
+    "en": "a currency rate"
+   },
+   {
+    "da": "at veksle",
+    "en": "to change money"
+   },
+   {
+    "da": "en omregning",
+    "en": "a conversion"
+   }
+  ],
+  "sentence": {
+   "da": "Hvad er den aktuelle **vekselkurs** mellem kroner og euro?",
+   "en": "What is the current exchange rate between kroner and euros?"
+  }
+ },
+ "en velsignelse": {
+  "explanation": "\"En velsignelse\" means \"a blessing\", both a religious one from God and, in everyday speech, something that is a great help: Regnen er en velsignelse for bønderne (The rain is a blessing for the farmers).",
+  "forms": [
+   {
+    "da": "en velsignelse",
+    "en": "a blessing"
+   },
+   {
+    "da": "velsignelsen",
+    "en": "the blessing"
+   },
+   {
+    "da": "velsignelser",
+    "en": "blessings"
+   },
+   {
+    "da": "velsignelserne",
+    "en": "the blessings"
+   }
+  ],
+  "related": [
+   {
+    "da": "at velsigne",
+    "en": "to bless"
+   },
+   {
+    "da": "en lykke",
+    "en": "a stroke of luck"
+   },
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en forbandelse",
+    "en": "a curse"
+   }
+  ],
+  "sentence": {
+   "da": "Præsten gav parret sin **velsignelse** efter brylluppet.",
+   "en": "The priest gave the couple his blessing after the wedding."
   }
  },
  "en ven": {
@@ -3243,6 +5340,88 @@
    "en": "I want to travel around the world."
   }
  },
+ "en verdensdel": {
+  "explanation": "\"En verdensdel\" means \"a continent\", one of the very large parts of the Earth, such as Asia or Africa. It is literally \"world part\". The word et kontinent also exists and means the same.",
+  "forms": [
+   {
+    "da": "en verdensdel",
+    "en": "a continent"
+   },
+   {
+    "da": "verdensdelen",
+    "en": "the continent"
+   },
+   {
+    "da": "verdensdele",
+    "en": "continents"
+   },
+   {
+    "da": "verdensdelene",
+    "en": "the continents"
+   }
+  ],
+  "related": [
+   {
+    "da": "et land",
+    "en": "a country"
+   },
+   {
+    "da": "et hav",
+    "en": "an ocean"
+   },
+   {
+    "da": "en klode",
+    "en": "a globe"
+   }
+  ],
+  "sentence": {
+   "da": "Europa er den **verdensdel**, hvor Danmark ligger.",
+   "en": "Europe is the continent where Denmark is located."
+  }
+ },
+ "en verdenskrig": {
+  "explanation": "\"En verdenskrig\" means \"a world war\". There were two: første verdenskrig (the First World War, 1914 to 1918) and anden verdenskrig (the Second World War, 1939 to 1945).",
+  "forms": [
+   {
+    "da": "en verdenskrig",
+    "en": "a world war"
+   },
+   {
+    "da": "verdenskrigen",
+    "en": "the world war"
+   },
+   {
+    "da": "verdenskrige",
+    "en": "world wars"
+   },
+   {
+    "da": "verdenskrigene",
+    "en": "the world wars"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fred",
+    "en": "a peace"
+   },
+   {
+    "da": "et slag",
+    "en": "a battle"
+   },
+   {
+    "da": "en besættelse",
+    "en": "an occupation"
+   },
+   {
+    "da": "en soldat",
+    "en": "a soldier"
+   }
+  ],
+  "sentence": {
+   "da": "Min oldefar var soldat under den første **verdenskrig**.",
+   "en": "My great-grandfather was a soldier during the first world war."
+  }
+ },
  "en version": {
   "explanation": "\"En version\" means \"a version\", one form of something. It can also mean one person's account of what happened: Hun fortalte sin version (She told her version).",
   "forms": [
@@ -3323,6 +5502,174 @@
   "sentence": {
    "da": "Min onkel har en grå **vest** over skjorten.",
    "en": "My uncle has a gray vest over his shirt."
+  }
+ },
+ "en veteran": {
+  "explanation": "\"En veteran\" means \"a veteran\", most often a former member of the armed forces, especially one who served abroad. It also means a very experienced person in a field. Before another word it means old and well kept: en veteranbil (a vintage car).",
+  "forms": [
+   {
+    "da": "en veteran",
+    "en": "a veteran"
+   },
+   {
+    "da": "veteranen",
+    "en": "the veteran"
+   },
+   {
+    "da": "veteraner",
+    "en": "veterans"
+   },
+   {
+    "da": "veteranerne",
+    "en": "the veterans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en krigsveteran",
+    "en": "a war veteran"
+   },
+   {
+    "da": "en nybegynder",
+    "en": "a beginner"
+   },
+   {
+    "da": "en ekspert",
+    "en": "an expert"
+   },
+   {
+    "da": "en rekrut",
+    "en": "a recruit"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **veteran** efter mange år i hæren.",
+   "en": "He is a veteran after many years in the army."
+  }
+ },
+ "en vicepræsident": {
+  "explanation": "\"En vicepræsident\" means \"a vice president\", the person ranking just below a president, who takes over if the president cannot do the job. Denmark has a king or queen instead of a president, so the word is mostly used about other countries and about organizations.",
+  "forms": [
+   {
+    "da": "en vicepræsident",
+    "en": "a vice president"
+   },
+   {
+    "da": "vicepræsidenten",
+    "en": "the vice president"
+   },
+   {
+    "da": "vicepræsidenter",
+    "en": "vice presidents"
+   },
+   {
+    "da": "vicepræsidenterne",
+    "en": "the vice presidents"
+   }
+  ],
+  "related": [
+   {
+    "da": "en næstformand",
+    "en": "a deputy chair"
+   },
+   {
+    "da": "en formand",
+    "en": "a chairman"
+   },
+   {
+    "da": "en statsminister",
+    "en": "a prime minister"
+   },
+   {
+    "da": "en direktør",
+    "en": "a director"
+   }
+  ],
+  "sentence": {
+   "da": "En **vicepræsident** kan overtage, hvis præsidenten bliver syg.",
+   "en": "A vice president can take over if the president gets sick."
+  }
+ },
+ "en vicevært": {
+  "explanation": "\"En vicevært\" means \"a caretaker\" or \"a janitor\", the person who looks after an apartment building, for example by cleaning, fixing small things and keeping the yard tidy. Today the job title is sometimes en ejendomsfunktionær (property worker).",
+  "forms": [
+   {
+    "da": "en vicevært",
+    "en": "a caretaker / janitor"
+   },
+   {
+    "da": "viceværten",
+    "en": "the caretaker / janitor"
+   },
+   {
+    "da": "viceværter",
+    "en": "caretakers / janitors"
+   },
+   {
+    "da": "viceværterne",
+    "en": "the caretakers / janitors"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pedel",
+    "en": "a school custodian"
+   },
+   {
+    "da": "en altmuligmand",
+    "en": "a handyman"
+   },
+   {
+    "da": "en opgang",
+    "en": "a stairwell"
+   }
+  ],
+  "sentence": {
+   "da": "Når lyset i trappen er i stykker, ringer vi til en **vicevært**.",
+   "en": "When the light on the stairs is broken, we call a caretaker."
+  }
+ },
+ "en videnskab": {
+  "explanation": "\"En videnskab\" means \"a science\", a field of knowledge built by study and tests, such as physics or chemistry. For the school subject science, Danes say naturfag.",
+  "forms": [
+   {
+    "da": "en videnskab",
+    "en": "a science"
+   },
+   {
+    "da": "videnskaben",
+    "en": "the science"
+   },
+   {
+    "da": "videnskaber",
+    "en": "sciences"
+   },
+   {
+    "da": "videnskaberne",
+    "en": "the sciences"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forsker",
+    "en": "a researcher"
+   },
+   {
+    "da": "en forskning",
+    "en": "research"
+   },
+   {
+    "da": "en teori",
+    "en": "a theory"
+   },
+   {
+    "da": "et laboratorium",
+    "en": "a laboratory"
+   }
+  ],
+  "sentence": {
+   "da": "Biologi er en **videnskab**, der studerer alt levende.",
+   "en": "Biology is a science that studies everything living."
   }
  },
  "en videnskabsmand": {
@@ -3891,6 +6238,49 @@
    "en": "From a window seat you can see the clouds."
   }
  },
+ "en vinduespudsning": {
+  "explanation": "\"En vinduespudsning\" means \"a window cleaning\", the job of cleaning windows, yourself or as a paid service. It comes from at pudse (to polish), which Danes use for windows and also for shining shoes: at pudse sko (to polish shoes).",
+  "forms": [
+   {
+    "da": "en vinduespudsning",
+    "en": "a window cleaning"
+   },
+   {
+    "da": "vinduespudsningen",
+    "en": "the window cleaning"
+   },
+   {
+    "da": "vinduespudsninger",
+    "en": "window cleanings"
+   },
+   {
+    "da": "vinduespudsningerne",
+    "en": "the window cleanings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vinduespudser",
+    "en": "a window cleaner"
+   },
+   {
+    "da": "en rengøring",
+    "en": "a house cleaning"
+   },
+   {
+    "da": "en storrengøring",
+    "en": "a deep cleaning"
+   },
+   {
+    "da": "en rengøringsassistent",
+    "en": "a cleaner"
+   }
+  ],
+  "sentence": {
+   "da": "Vi har bestilt en **vinduespudsning**, fordi vinduerne er meget snavsede.",
+   "en": "We have ordered a window cleaning because the windows are very dirty."
+  }
+ },
  "en vinduesvisker": {
   "explanation": "\"En vinduesvisker\" means \"a windshield wiper\". It is vindue (window) plus visker (wiper), the arm on a car that sweeps rain off the glass.",
   "forms": [
@@ -3928,6 +6318,88 @@
   "sentence": {
    "da": "Det regner meget, og min **vinduesvisker** går hurtigt.",
    "en": "It is raining a lot, and my wiper moves fast."
+  }
+ },
+ "en vinge": {
+  "explanation": "\"En vinge\" means \"a wing\", what a bird or insect has on its body, and also what holds up a plane or turns on a windmill. For the wing of a building or a political side, Danes use en fløj.",
+  "forms": [
+   {
+    "da": "en vinge",
+    "en": "a wing"
+   },
+   {
+    "da": "vingen",
+    "en": "the wing"
+   },
+   {
+    "da": "vinger",
+    "en": "wings"
+   },
+   {
+    "da": "vingerne",
+    "en": "the wings"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fjer",
+    "en": "a feather"
+   },
+   {
+    "da": "et næb",
+    "en": "a beak"
+   },
+   {
+    "da": "en klo",
+    "en": "a claw"
+   },
+   {
+    "da": "en hale",
+    "en": "a tail"
+   }
+  ],
+  "sentence": {
+   "da": "Fuglen kan ikke flyve, fordi den har brækket en **vinge**.",
+   "en": "The bird cannot fly because it has broken a wing."
+  }
+ },
+ "en vinhandel": {
+  "explanation": "\"En vinhandel\" means \"a wine shop\", a shop that mainly sells wine and often other drinks. Handel (trade) works the same way in other shop words, such as en blomsterhandel (a flower shop).",
+  "forms": [
+   {
+    "da": "en vinhandel",
+    "en": "a wine shop"
+   },
+   {
+    "da": "vinhandelen",
+    "en": "the wine shop"
+   },
+   {
+    "da": "vinhandler",
+    "en": "wine shops"
+   },
+   {
+    "da": "vinhandlerne",
+    "en": "the wine shops"
+   }
+  ],
+  "related": [
+   {
+    "da": "en boghandel",
+    "en": "a bookshop"
+   },
+   {
+    "da": "en vinkælder",
+    "en": "a wine cellar"
+   },
+   {
+    "da": "en vinsmagning",
+    "en": "a wine tasting"
+   }
+  ],
+  "sentence": {
+   "da": "Du kan få hjælp til at vælge en god rødvin i en **vinhandel**.",
+   "en": "You can get help choosing a good red wine in a wine shop."
   }
  },
  "en vinkel": {
@@ -4137,6 +6609,49 @@
    "en": "On a winter day it is dark at four o'clock."
   }
  },
+ "en vinterferie": {
+  "explanation": "\"En vinterferie\" means \"a winter break\", a short holiday in the cold season. In Denmark it is a week in February, and many families use it to go skiing.",
+  "forms": [
+   {
+    "da": "en vinterferie",
+    "en": "a winter break"
+   },
+   {
+    "da": "vinterferien",
+    "en": "the winter break"
+   },
+   {
+    "da": "vinterferier",
+    "en": "winter breaks"
+   },
+   {
+    "da": "vinterferierne",
+    "en": "the winter breaks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en sommerferie",
+    "en": "a summer break"
+   },
+   {
+    "da": "en efterårsferie",
+    "en": "an autumn break"
+   },
+   {
+    "da": "en juleferie",
+    "en": "a Christmas break"
+   },
+   {
+    "da": "en påskeferie",
+    "en": "an Easter break"
+   }
+  ],
+  "sentence": {
+   "da": "I en **vinterferie** har børnene fri fra skole i en uge.",
+   "en": "During a winter break the children are off from school for a week."
+  }
+ },
  "en vinterjakke": {
   "explanation": "\"En vinterjakke\" means \"a winter jacket\", a thick, warm jacket for cold weather. It is made from vinter (winter) and jakke (jacket), the same jakke as in en læderjakke (a leather jacket).",
   "forms": [
@@ -4305,6 +6820,49 @@
    "en": "My daughter practices the violin every day."
   }
  },
+ "en vippe": {
+  "explanation": "\"En vippe\" means \"a seesaw\", the long board that two children sit on, one at each end, going up and down. The same word is in en øjenvippe (an eyelash), from at vippe (to tip up and down).",
+  "forms": [
+   {
+    "da": "en vippe",
+    "en": "a seesaw"
+   },
+   {
+    "da": "vippen",
+    "en": "the seesaw"
+   },
+   {
+    "da": "vipper",
+    "en": "seesaws"
+   },
+   {
+    "da": "vipperne",
+    "en": "the seesaws"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gynge",
+    "en": "a swing"
+   },
+   {
+    "da": "en rutsjebane",
+    "en": "a slide"
+   },
+   {
+    "da": "en sandkasse",
+    "en": "a sandbox"
+   },
+   {
+    "da": "en legeplads",
+    "en": "a playground"
+   }
+  ],
+  "sentence": {
+   "da": "To børn sidder på hver sin ende af en **vippe**.",
+   "en": "Two children sit at each end of a seesaw."
+  }
+ },
  "en virkelighed": {
   "explanation": "\"En virkelighed\" means \"a reality\", what is real, as opposed to what you imagine: Drømmen blev til virkelighed (The dream became reality).",
   "forms": [
@@ -4346,6 +6904,49 @@
   "sentence": {
    "da": "Eventyret er en historie, ikke **virkelighed**.",
    "en": "The fairy tale is a story, not reality."
+  }
+ },
+ "en virkning": {
+  "explanation": "\"En virkning\" means \"an effect\", the result that something has on something else, especially from a medicine or a law. With bi- (by) in front, it is en bivirkning (a side effect).",
+  "forms": [
+   {
+    "da": "en virkning",
+    "en": "an effect"
+   },
+   {
+    "da": "virkningen",
+    "en": "the effect"
+   },
+   {
+    "da": "virkninger",
+    "en": "effects"
+   },
+   {
+    "da": "virkningerne",
+    "en": "the effects"
+   }
+  ],
+  "related": [
+   {
+    "da": "en årsag",
+    "en": "a cause"
+   },
+   {
+    "da": "en følge",
+    "en": "a consequence"
+   },
+   {
+    "da": "at virke",
+    "en": "to work"
+   },
+   {
+    "da": "en påvirkning",
+    "en": "an influence"
+   }
+  ],
+  "sentence": {
+   "da": "Den nye lov fik en stor **virkning** på priserne.",
+   "en": "The new law had a big effect on prices."
   }
  },
  "en virksomhed": {
@@ -4428,6 +7029,49 @@
   "sentence": {
    "da": "Min computer har fået en **virus** fra en e-mail.",
    "en": "My computer got a virus from an email."
+  }
+ },
+ "en vision": {
+  "explanation": "\"En vision\" means \"a vision\", a clear picture of how you want the future to be, for a company, a city or yourself. It is not about eyesight. For that, use syn (sight).",
+  "forms": [
+   {
+    "da": "en vision",
+    "en": "a vision"
+   },
+   {
+    "da": "visionen",
+    "en": "the vision"
+   },
+   {
+    "da": "visioner",
+    "en": "visions"
+   },
+   {
+    "da": "visionerne",
+    "en": "the visions"
+   }
+  ],
+  "related": [
+   {
+    "da": "et mål",
+    "en": "a goal"
+   },
+   {
+    "da": "en drøm",
+    "en": "a dream"
+   },
+   {
+    "da": "en strategi",
+    "en": "a strategy"
+   },
+   {
+    "da": "en mission",
+    "en": "a mission"
+   }
+  ],
+  "sentence": {
+   "da": "Firmaets **vision** er, at alle børn kan lære at læse.",
+   "en": "The company's vision is that all children can learn to read."
   }
  },
  "en vissen blomst": {
@@ -4629,6 +7273,49 @@
    "en": "The horse pulls a heavy wagon up the hill."
   }
  },
+ "en vokal": {
+  "explanation": "\"En vokal\" means \"a vowel\", a speech sound made with the mouth open and nothing blocking the air. Danish has nine in writing: a, e, i, o, u, y, æ, ø and å.",
+  "forms": [
+   {
+    "da": "en vokal",
+    "en": "a vowel"
+   },
+   {
+    "da": "vokalen",
+    "en": "the vowel"
+   },
+   {
+    "da": "vokaler",
+    "en": "vowels"
+   },
+   {
+    "da": "vokalerne",
+    "en": "the vowels"
+   }
+  ],
+  "related": [
+   {
+    "da": "en konsonant",
+    "en": "a consonant"
+   },
+   {
+    "da": "et bogstav",
+    "en": "a letter"
+   },
+   {
+    "da": "en stavelse",
+    "en": "a syllable"
+   },
+   {
+    "da": "et alfabet",
+    "en": "an alphabet"
+   }
+  ],
+  "sentence": {
+   "da": "Ordet bil har kun en **vokal**, nemlig i.",
+   "en": "The word bil has only one vowel, namely i."
+  }
+ },
  "en voksen": {
   "explanation": "\"En voksen\" means \"an adult\". The word comes from at vokse (to grow), so it is someone who has grown up.",
   "forms": [
@@ -4666,6 +7353,49 @@
   "sentence": {
    "da": "Et barn bliver til en **voksen**.",
    "en": "A child becomes an adult."
+  }
+ },
+ "en vorte": {
+  "explanation": "\"En vorte\" means \"a wart\", a small hard bump on the skin, often on a hand or foot, caused by a virus. It is harmless and often goes away by itself.",
+  "forms": [
+   {
+    "da": "en vorte",
+    "en": "a wart"
+   },
+   {
+    "da": "vorten",
+    "en": "the wart"
+   },
+   {
+    "da": "vorter",
+    "en": "warts"
+   },
+   {
+    "da": "vorterne",
+    "en": "the warts"
+   }
+  ],
+  "related": [
+   {
+    "da": "et modermærke",
+    "en": "a mole"
+   },
+   {
+    "da": "en bylde",
+    "en": "a boil"
+   },
+   {
+    "da": "en blære",
+    "en": "a blister"
+   },
+   {
+    "da": "et sår",
+    "en": "a sore"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg har fået en **vorte** på fingeren, men den gør ikke ondt.",
+   "en": "I have got a wart on my finger, but it does not hurt."
   }
  },
  "en vugge": {
@@ -4711,6 +7441,49 @@
    "en": "The little baby sleeps in a cradle next to the bed."
   }
  },
+ "en vuggestue": {
+  "explanation": "\"En vuggestue\" means \"a nursery\", a daycare place for the youngest children, from about six months to about three years. From around three until school, children go to en børnehave (a kindergarten).",
+  "forms": [
+   {
+    "da": "en vuggestue",
+    "en": "a nursery"
+   },
+   {
+    "da": "vuggestuen",
+    "en": "the nursery"
+   },
+   {
+    "da": "vuggestuer",
+    "en": "nurseries"
+   },
+   {
+    "da": "vuggestuerne",
+    "en": "the nurseries"
+   }
+  ],
+  "related": [
+   {
+    "da": "en dagpleje",
+    "en": "a childminder"
+   },
+   {
+    "da": "en pædagog",
+    "en": "a childcare worker"
+   },
+   {
+    "da": "et dagtilbud",
+    "en": "a daycare program"
+   },
+   {
+    "da": "en barnepige",
+    "en": "a babysitter"
+   }
+  ],
+  "sentence": {
+   "da": "Vores datter går i **vuggestue**, mens vi er på arbejde.",
+   "en": "Our daughter goes to a nursery while we are at work."
+  }
+ },
  "en vulkan": {
   "explanation": "\"En vulkan\" means \"a volcano\". An eruption is et vulkanudbrud (a volcanic eruption).",
   "forms": [
@@ -4748,6 +7521,135 @@
   "sentence": {
    "da": "Der kommer varm lava ud af en **vulkan**.",
    "en": "Hot lava comes out of a volcano."
+  }
+ },
+ "en vurdering": {
+  "explanation": "\"En vurdering\" means \"an assessment\", a judgment of how good, valuable or serious something is, made after thinking it over. It is used for a teacher's view of a pupil, for the price of a house and for a risk.",
+  "forms": [
+   {
+    "da": "en vurdering",
+    "en": "an assessment"
+   },
+   {
+    "da": "vurderingen",
+    "en": "the assessment"
+   },
+   {
+    "da": "vurderinger",
+    "en": "assessments"
+   },
+   {
+    "da": "vurderingerne",
+    "en": "the assessments"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vurdere",
+    "en": "to assess"
+   },
+   {
+    "da": "en bedømmelse",
+    "en": "an evaluation"
+   },
+   {
+    "da": "et skøn",
+    "en": "an estimate"
+   },
+   {
+    "da": "en mening",
+    "en": "an opinion"
+   }
+  ],
+  "sentence": {
+   "da": "Lægens **vurdering** er, at du skal hvile i en uge.",
+   "en": "The doctor's assessment is that you should rest for a week."
+  }
+ },
+ "en våbenhvile": {
+  "explanation": "\"En våbenhvile\" means \"a ceasefire\", an agreement to stop the fighting for a time or for good. It is built from våben (weapon) and hvile (rest).",
+  "forms": [
+   {
+    "da": "en våbenhvile",
+    "en": "a ceasefire"
+   },
+   {
+    "da": "våbenhvilen",
+    "en": "the ceasefire"
+   },
+   {
+    "da": "våbenhviler",
+    "en": "ceasefires"
+   },
+   {
+    "da": "våbenhvilerne",
+    "en": "the ceasefires"
+   }
+  ],
+  "related": [
+   {
+    "da": "en fred",
+    "en": "peace"
+   },
+   {
+    "da": "en krig",
+    "en": "a war"
+   },
+   {
+    "da": "en fredsaftale",
+    "en": "a peace treaty"
+   },
+   {
+    "da": "en konflikt",
+    "en": "a conflict"
+   }
+  ],
+  "sentence": {
+   "da": "Landene indgik en **våbenhvile**, og kampene stoppede.",
+   "en": "The countries made a ceasefire, and the fighting stopped."
+  }
+ },
+ "en vædder": {
+  "explanation": "\"En vædder\" means \"a ram\", a male sheep, often with big curved horns. With a capital V, Væderen is also the zodiac sign Aries.",
+  "forms": [
+   {
+    "da": "en vædder",
+    "en": "a ram"
+   },
+   {
+    "da": "vædderen",
+    "en": "the ram"
+   },
+   {
+    "da": "væddere",
+    "en": "rams"
+   },
+   {
+    "da": "vædderne",
+    "en": "the rams"
+   }
+  ],
+  "related": [
+   {
+    "da": "et lam",
+    "en": "a lamb"
+   },
+   {
+    "da": "en ged",
+    "en": "a goat"
+   },
+   {
+    "da": "en buk",
+    "en": "a billy goat"
+   },
+   {
+    "da": "en tyr",
+    "en": "a bull"
+   }
+  ],
+  "sentence": {
+   "da": "Den store **vædder** med krumme horn står på marken.",
+   "en": "The big ram with curved horns is standing in the field."
   }
  },
  "en væg": {
@@ -4836,6 +7738,92 @@
    "en": "The suitcase has a weight of twenty kilos."
   }
  },
+ "en vælger": {
+  "explanation": "\"En vælger\" means \"a voter\", a person who may take part in an election by choosing who should govern. It comes from at vælge (to choose).",
+  "forms": [
+   {
+    "da": "en vælger",
+    "en": "a voter"
+   },
+   {
+    "da": "vælgeren",
+    "en": "the voter"
+   },
+   {
+    "da": "vælgere",
+    "en": "voters"
+   },
+   {
+    "da": "vælgerne",
+    "en": "the voters"
+   }
+  ],
+  "related": [
+   {
+    "da": "en stemme",
+    "en": "a vote"
+   },
+   {
+    "da": "en kandidat",
+    "en": "a candidate"
+   },
+   {
+    "da": "et parti",
+    "en": "a party"
+   },
+   {
+    "da": "en stemmeseddel",
+    "en": "a ballot"
+   }
+  ],
+  "sentence": {
+   "da": "Hver **vælger** lægger sin stemme i urnen.",
+   "en": "Each voter puts their vote in the ballot box."
+  }
+ },
+ "en værdi": {
+  "explanation": "\"En værdi\" means \"a value\", how much something is worth in money or importance. In the plural, værdier also means the things a person finds important, such as honesty and freedom.",
+  "forms": [
+   {
+    "da": "en værdi",
+    "en": "a value"
+   },
+   {
+    "da": "værdien",
+    "en": "the value"
+   },
+   {
+    "da": "værdier",
+    "en": "values"
+   },
+   {
+    "da": "værdierne",
+    "en": "the values"
+   }
+  ],
+  "related": [
+   {
+    "da": "en pris",
+    "en": "a price"
+   },
+   {
+    "da": "en betydning",
+    "en": "a significance"
+   },
+   {
+    "da": "en holdning",
+    "en": "an attitude"
+   },
+   {
+    "da": "at værdsætte",
+    "en": "to appreciate"
+   }
+  ],
+  "sentence": {
+   "da": "Billedet har stor **værdi**, fordi det er meget gammelt.",
+   "en": "The picture has great value because it is very old."
+  }
+ },
  "en vært": {
   "explanation": "\"En vært\" means \"a host\", the person who has people over to their home. It also means the host of a show: Hun er vært på et tv-program (She is the host of a TV show).",
   "forms": [
@@ -4873,6 +7861,49 @@
   "sentence": {
    "da": "Vores **vært** tog imod os ved døren.",
    "en": "Our host welcomed us at the door."
+  }
+ },
+ "en værtinde": {
+  "explanation": "\"En værtinde\" means \"a hostess\", a woman who welcomes people to her home or an event and looks after them. The man is en vært (a host).",
+  "forms": [
+   {
+    "da": "en værtinde",
+    "en": "a hostess"
+   },
+   {
+    "da": "værtinden",
+    "en": "the hostess"
+   },
+   {
+    "da": "værtinder",
+    "en": "hostesses"
+   },
+   {
+    "da": "værtinderne",
+    "en": "the hostesses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gæst",
+    "en": "a guest"
+   },
+   {
+    "da": "en indbydelse",
+    "en": "an invitation"
+   },
+   {
+    "da": "en gæstfrihed",
+    "en": "hospitality"
+   },
+   {
+    "da": "en fest",
+    "en": "a party"
+   }
+  ],
+  "sentence": {
+   "da": "Som **værtinde** skal hun sørge for, at gæsterne har det godt.",
+   "en": "As hostess she must make sure the guests are doing well."
   }
  },
  "en værtindegave": {
@@ -5039,6 +8070,49 @@
    "en": "The water falls down from a tall waterfall."
   }
  },
+ "et vandland": {
+  "explanation": "\"Et vandland\" means \"a water park\", a place with pools, waves and many things to play on. The name is simply vand (water) plus land (land): a land of water.",
+  "forms": [
+   {
+    "da": "et vandland",
+    "en": "a water park"
+   },
+   {
+    "da": "vandlandet",
+    "en": "the water park"
+   },
+   {
+    "da": "vandlande",
+    "en": "water parks"
+   },
+   {
+    "da": "vandlandene",
+    "en": "the water parks"
+   }
+  ],
+  "related": [
+   {
+    "da": "en svømmehal",
+    "en": "a swimming hall"
+   },
+   {
+    "da": "en forlystelsespark",
+    "en": "an amusement park"
+   },
+   {
+    "da": "en rutsjebane",
+    "en": "a slide"
+   },
+   {
+    "da": "et bassin",
+    "en": "a basin"
+   }
+  ],
+  "sentence": {
+   "da": "Vi tog børnene med til et **vandland**, hvor de kunne bade hele dagen.",
+   "en": "We took the children to a water park where they could swim all day."
+  }
+ },
  "et vandrerhjem": {
   "explanation": "\"Et vandrerhjem\" means \"a hostel\", a cheap place to stay. It is built from vandrer (hiker) and hjem (home), so literally a hiker's home. Hjem also ends et plejehjem (a nursing home).",
   "forms": [
@@ -5115,6 +8189,49 @@
   "sentence": {
    "da": "Butikken har et stort **vareudvalg** og lave priser.",
    "en": "The store has a large range of goods and low prices."
+  }
+ },
+ "et varsel": {
+  "explanation": "\"Et varsel\" means \"a notice\" or \"a warning\" given before something happens: et varsel om storm (a storm warning). It is also used at work for advance notice of an action: et varsel om strejke (a strike notice).",
+  "forms": [
+   {
+    "da": "et varsel",
+    "en": "a notice / warning"
+   },
+   {
+    "da": "varslet",
+    "en": "the notice"
+   },
+   {
+    "da": "varsler",
+    "en": "notices / warnings"
+   },
+   {
+    "da": "varslerne",
+    "en": "the notices"
+   }
+  ],
+  "related": [
+   {
+    "da": "at varsle",
+    "en": "to announce in advance"
+   },
+   {
+    "da": "en meddelelse",
+    "en": "an announcement"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign"
+   },
+   {
+    "da": "en opsigelse",
+    "en": "a resignation / dismissal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi fik kun en uges **varsel** om flytningen.",
+   "en": "We got only a week's notice about the move."
   }
  },
  "et vaskemærke": {
@@ -5281,6 +8398,49 @@
    "en": "On a road sign it says 50 kilometers to Aarhus."
   }
  },
+ "et vendepunkt": {
+  "explanation": "\"Et vendepunkt\" means \"a turning point\", the moment when things start going in a new direction. It is built from at vende (to turn) and et punkt (a point), and it is used for a match, a story or a life: et vendepunkt i kampen (a turning point in the match).",
+  "forms": [
+   {
+    "da": "et vendepunkt",
+    "en": "a turning point"
+   },
+   {
+    "da": "vendepunktet",
+    "en": "the turning point"
+   },
+   {
+    "da": "vendepunkter",
+    "en": "turning points"
+   },
+   {
+    "da": "vendepunkterne",
+    "en": "the turning points"
+   }
+  ],
+  "related": [
+   {
+    "da": "en milepæl",
+    "en": "a milestone"
+   },
+   {
+    "da": "et gennembrud",
+    "en": "a breakthrough"
+   },
+   {
+    "da": "et skifte",
+    "en": "a shift"
+   },
+   {
+    "da": "en forandring",
+    "en": "a change"
+   }
+  ],
+  "sentence": {
+   "da": "Den dag blev et **vendepunkt** i hendes liv.",
+   "en": "That day became a turning point in her life."
+  }
+ },
  "et venskab": {
   "explanation": "\"Et venskab\" means \"a friendship\". It is built from ven (friend). The ending -skab also makes et fællesskab (a community) and et ægteskab (a marriage).",
   "forms": [
@@ -5361,6 +8521,92 @@
   "sentence": {
    "da": "Vi venter på lægen i et **venteværelse**.",
    "en": "We wait for the doctor in a waiting room."
+  }
+ },
+ "et verdenshav": {
+  "explanation": "\"Et verdenshav\" means \"an ocean\", one of the huge bodies of water that cover the earth. The everyday word is et hav (a sea or ocean), and verdenshav is used when talking about the oceans of the whole world, like Stillehavet (the Pacific).",
+  "forms": [
+   {
+    "da": "et verdenshav",
+    "en": "an ocean"
+   },
+   {
+    "da": "verdenshavet",
+    "en": "the ocean"
+   },
+   {
+    "da": "verdenshave",
+    "en": "oceans"
+   },
+   {
+    "da": "verdenshavene",
+    "en": "the oceans"
+   }
+  ],
+  "related": [
+   {
+    "da": "en verdensdel",
+    "en": "a continent"
+   },
+   {
+    "da": "et verdenskort",
+    "en": "a world map"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   },
+   {
+    "da": "et farvand",
+    "en": "waters"
+   }
+  ],
+  "sentence": {
+   "da": "Atlanterhavet er et stort **verdenshav** mellem Europa og Amerika.",
+   "en": "The Atlantic is a big ocean between Europe and America."
+  }
+ },
+ "et vers": {
+  "explanation": "\"Et vers\" means \"a verse\", a group of lines in a poem or song. Without et, it means poetry in general: Han skriver vers (He writes poetry).",
+  "forms": [
+   {
+    "da": "et vers",
+    "en": "a verse"
+   },
+   {
+    "da": "verset",
+    "en": "the verse"
+   },
+   {
+    "da": "vers",
+    "en": "verses"
+   },
+   {
+    "da": "versene",
+    "en": "the verses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en strofe",
+    "en": "a stanza"
+   },
+   {
+    "da": "et rim",
+    "en": "a rhyme"
+   },
+   {
+    "da": "en salme",
+    "en": "a hymn"
+   },
+   {
+    "da": "et omkvæd",
+    "en": "a chorus"
+   }
+  ],
+  "sentence": {
+   "da": "Sangen har tre **vers**, og vi kan alle synge dem.",
+   "en": "The song has three verses, and we can all sing them."
   }
  },
  "et videoopkald": {
@@ -5445,6 +8691,135 @@
    "en": "A witness saw the car drive away."
   }
  },
+ "et vidnesbyrd": {
+  "explanation": "\"Et vidnesbyrd\" means \"a testimony\" and also \"evidence\" that something is true, often with om (of): et vidnesbyrd om hendes mod (evidence of her courage). For what a person tells the police or a court, Danes more often say et vidneudsagn (a witness statement).",
+  "forms": [
+   {
+    "da": "et vidnesbyrd",
+    "en": "a testimony / evidence"
+   },
+   {
+    "da": "vidnesbyrdet",
+    "en": "the testimony"
+   },
+   {
+    "da": "vidnesbyrd",
+    "en": "testimonies"
+   },
+   {
+    "da": "vidnesbyrdene",
+    "en": "the testimonies"
+   }
+  ],
+  "related": [
+   {
+    "da": "et bevis",
+    "en": "a proof"
+   },
+   {
+    "da": "en bekræftelse",
+    "en": "a confirmation"
+   },
+   {
+    "da": "en erklæring",
+    "en": "a declaration"
+   },
+   {
+    "da": "et tegn",
+    "en": "a sign"
+   }
+  ],
+  "sentence": {
+   "da": "Den gamle kirke er et **vidnesbyrd** om byens historie.",
+   "en": "The old church is a testimony to the history of the town."
+  }
+ },
+ "et vidneudsagn": {
+  "explanation": "\"Et vidneudsagn\" means \"a testimony\", what a person who saw something tells the police or a court. It is made of vidne (a witness) and udsagn (a statement).",
+  "forms": [
+   {
+    "da": "et vidneudsagn",
+    "en": "a testimony"
+   },
+   {
+    "da": "vidneudsagnet",
+    "en": "the testimony"
+   },
+   {
+    "da": "vidneudsagn",
+    "en": "testimonies"
+   },
+   {
+    "da": "vidneudsagnene",
+    "en": "the testimonies"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forklaring",
+    "en": "an account"
+   },
+   {
+    "da": "et vidnesbyrd",
+    "en": "evidence"
+   },
+   {
+    "da": "en afhøring",
+    "en": "a questioning"
+   },
+   {
+    "da": "et bevis",
+    "en": "a proof"
+   }
+  ],
+  "sentence": {
+   "da": "Politiet har brug for dit **vidneudsagn** om ulykken.",
+   "en": "The police need your testimony about the accident."
+  }
+ },
+ "et vilkår": {
+  "explanation": "\"Et vilkår\" means \"a term\", something you must accept in an agreement. It is mostly used in the plural: Læs vilkårene først (Read the terms first). It also means the circumstances someone lives or works under: Det er svære vilkår at arbejde under (These are difficult circumstances to work under).",
+  "forms": [
+   {
+    "da": "et vilkår",
+    "en": "a term"
+   },
+   {
+    "da": "vilkåret",
+    "en": "the term"
+   },
+   {
+    "da": "vilkår",
+    "en": "terms"
+   },
+   {
+    "da": "vilkårene",
+    "en": "the terms"
+   }
+  ],
+  "related": [
+   {
+    "da": "en betingelse",
+    "en": "a condition"
+   },
+   {
+    "da": "en regel",
+    "en": "a rule"
+   },
+   {
+    "da": "en forudsætning",
+    "en": "a prerequisite"
+   },
+   {
+    "da": "en klausul",
+    "en": "a clause"
+   }
+  ],
+  "sentence": {
+   "da": "Et **vilkår** i kontrakten er, at du møder til tiden.",
+   "en": "One term in the contract is that you show up on time."
+  }
+ },
  "et vindue": {
   "explanation": "\"Et vindue\" means \"a window\", the glass opening in a wall that lets in light. It is also the word for a window on a computer: åbn et nyt vindue (open a new window).",
   "forms": [
@@ -5521,6 +8896,49 @@
   "sentence": {
    "da": "Hun hælder rødvin i et **vinglas**.",
    "en": "She pours red wine into a wine glass."
+  }
+ },
+ "et visitkort": {
+  "explanation": "\"Et visitkort\" means \"a business card\", a small card with your name, job and contact details that you give to people you meet through work.",
+  "forms": [
+   {
+    "da": "et visitkort",
+    "en": "a business card"
+   },
+   {
+    "da": "visitkortet",
+    "en": "the business card"
+   },
+   {
+    "da": "visitkort",
+    "en": "business cards"
+   },
+   {
+    "da": "visitkortene",
+    "en": "the business cards"
+   }
+  ],
+  "related": [
+   {
+    "da": "et navneskilt",
+    "en": "a name tag"
+   },
+   {
+    "da": "et kreditkort",
+    "en": "a credit card"
+   },
+   {
+    "da": "et postkort",
+    "en": "a postcard"
+   },
+   {
+    "da": "et spillekort",
+    "en": "a playing card"
+   }
+  ],
+  "sentence": {
+   "da": "Han gav mig sit **visitkort**, så jeg kunne ringe til ham.",
+   "en": "He gave me his business card so that I could call him."
   }
  },
  "et viskelæder": {
@@ -5648,6 +9066,135 @@
    "en": "You need a visa for China."
   }
  },
+ "et våben": {
+  "explanation": "\"Et våben\" means \"a weapon\", something made to hurt or fight with. It is also used for things that are not physical: Humor er et våben (Humor is a weapon).",
+  "forms": [
+   {
+    "da": "et våben",
+    "en": "a weapon"
+   },
+   {
+    "da": "våbnet",
+    "en": "the weapon"
+   },
+   {
+    "da": "våben",
+    "en": "weapons"
+   },
+   {
+    "da": "våbnene",
+    "en": "the weapons"
+   }
+  ],
+  "related": [
+   {
+    "da": "et gevær",
+    "en": "a rifle"
+   },
+   {
+    "da": "et skjold",
+    "en": "a shield"
+   },
+   {
+    "da": "en ammunition",
+    "en": "ammunition"
+   },
+   {
+    "da": "en krig",
+    "en": "a war"
+   }
+  ],
+  "sentence": {
+   "da": "En kniv eller en pistol er et **våben**.",
+   "en": "A knife or a pistol is a weapon."
+  }
+ },
+ "et vådområde": {
+  "explanation": "\"Et vådområde\" means \"a wetland\", an area such as a marsh, where the ground is soaked and many birds and plants live.",
+  "forms": [
+   {
+    "da": "et vådområde",
+    "en": "a wetland"
+   },
+   {
+    "da": "vådområdet",
+    "en": "the wetland"
+   },
+   {
+    "da": "vådområder",
+    "en": "wetlands"
+   },
+   {
+    "da": "vådområderne",
+    "en": "the wetlands"
+   }
+  ],
+  "related": [
+   {
+    "da": "en mose",
+    "en": "a bog"
+   },
+   {
+    "da": "en sump",
+    "en": "a swamp"
+   },
+   {
+    "da": "en eng",
+    "en": "a meadow"
+   },
+   {
+    "da": "en sø",
+    "en": "a lake"
+   }
+  ],
+  "sentence": {
+   "da": "I et **vådområde** er jorden våd det meste af året.",
+   "en": "In a wetland, the ground is wet most of the year."
+  }
+ },
+ "et væddemål": {
+  "explanation": "\"Et væddemål\" means \"a bet\", an agreement that the person who is wrong pays or loses something. In everyday speech, Danes often use the verb at vædde (to bet): Jeg vil vædde på, at han kommer for sent (I bet he will be late).",
+  "forms": [
+   {
+    "da": "et væddemål",
+    "en": "a bet"
+   },
+   {
+    "da": "væddemålet",
+    "en": "the bet"
+   },
+   {
+    "da": "væddemål",
+    "en": "bets"
+   },
+   {
+    "da": "væddemålene",
+    "en": "the bets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indsats",
+    "en": "a stake"
+   },
+   {
+    "da": "en gevinst",
+    "en": "a win"
+   },
+   {
+    "da": "et veddeløb",
+    "en": "a horse race"
+   },
+   {
+    "da": "et spil",
+    "en": "a game"
+   }
+  ],
+  "sentence": {
+   "da": "De lavede et **væddemål** om, hvem der vinder kampen.",
+   "en": "They made a bet about who will win the match."
+  }
+ },
  "et vækkeur": {
   "explanation": "\"Et vækkeur\" means \"an alarm clock\". It is built from at vække (to wake someone) and et ur (a clock). The alarm on a phone is en alarm (an alarm).",
   "forms": [
@@ -5730,6 +9277,49 @@
    "en": "I have booked a room for two nights."
   }
  },
+ "et værk": {
+  "explanation": "\"Et værk\" means \"a work\", something a painter, writer or composer has made: Det er et af hans bedste værker (It is one of his best works). It can also mean a place that makes something, as in et stålværk (a steel mill).",
+  "forms": [
+   {
+    "da": "et værk",
+    "en": "a work"
+   },
+   {
+    "da": "værket",
+    "en": "the work"
+   },
+   {
+    "da": "værker",
+    "en": "works"
+   },
+   {
+    "da": "værkerne",
+    "en": "the works"
+   }
+  ],
+  "related": [
+   {
+    "da": "et kunstværk",
+    "en": "an artwork"
+   },
+   {
+    "da": "et mesterværk",
+    "en": "a masterpiece"
+   },
+   {
+    "da": "et kraftværk",
+    "en": "a power station"
+   },
+   {
+    "da": "en fabrik",
+    "en": "a factory"
+   }
+  ],
+  "sentence": {
+   "da": "Dette **værk** er malet af en kendt kunstner.",
+   "en": "This work was painted by a famous artist."
+  }
+ },
  "et værksted": {
   "explanation": "\"Et værksted\" means \"a workshop\", and also \"a garage\" where cars are repaired: Bilen står på værkstedet (The car is at the garage). A garage for parking is en garage (a garage).",
   "forms": [
@@ -5810,6 +9400,174 @@
   "sentence": {
    "da": "En hammer er et nyttigt **værktøj**.",
    "en": "A hammer is a useful tool."
+  }
+ },
+ "et værn": {
+  "explanation": "\"Et værn\" means \"a defense\" or \"a safeguard\", something that stands between you and harm: et værn mod kriminalitet (a safeguard against crime). In the military, it also means a branch of the armed forces, such as the army or the navy.",
+  "forms": [
+   {
+    "da": "et værn",
+    "en": "a defense"
+   },
+   {
+    "da": "værnet",
+    "en": "the defense"
+   },
+   {
+    "da": "værn",
+    "en": "defenses"
+   },
+   {
+    "da": "værnene",
+    "en": "the defenses"
+   }
+  ],
+  "related": [
+   {
+    "da": "en beskytter",
+    "en": "a protector"
+   },
+   {
+    "da": "en beskyttelse",
+    "en": "a protection"
+   },
+   {
+    "da": "et skjold",
+    "en": "a shield"
+   },
+   {
+    "da": "en barriere",
+    "en": "a barrier"
+   }
+  ],
+  "sentence": {
+   "da": "Loven er et **værn** mod misbrug af magt.",
+   "en": "The law is a safeguard against abuse of power."
+  }
+ },
+ "et værtshus": {
+  "explanation": "\"Et værtshus\" means \"a pub\", a plain, old-style place where regulars drink beer and chat. It is built from en vært (a host or landlord) and et hus (a house).",
+  "forms": [
+   {
+    "da": "et værtshus",
+    "en": "a pub"
+   },
+   {
+    "da": "værtshuset",
+    "en": "the pub"
+   },
+   {
+    "da": "værtshuse",
+    "en": "pubs"
+   },
+   {
+    "da": "værtshusene",
+    "en": "the pubs"
+   }
+  ],
+  "related": [
+   {
+    "da": "en bar",
+    "en": "a bar"
+   },
+   {
+    "da": "en bodega",
+    "en": "a small pub"
+   },
+   {
+    "da": "en knejpe",
+    "en": "a dive bar"
+   },
+   {
+    "da": "en café",
+    "en": "a café"
+   }
+  ],
+  "sentence": {
+   "da": "På et **værtshus** kan man drikke øl og snakke med andre.",
+   "en": "In a pub, you can drink beer and talk to others."
+  }
+ },
+ "et væsen": {
+  "explanation": "\"Et væsen\" means \"a creature\" or \"a being\", a living thing, often a strange or imaginary one. It also means a person's nature or manner: et roligt væsen (a calm manner).",
+  "forms": [
+   {
+    "da": "et væsen",
+    "en": "a creature / being"
+   },
+   {
+    "da": "væsenet",
+    "en": "the creature"
+   },
+   {
+    "da": "væsener",
+    "en": "creatures"
+   },
+   {
+    "da": "væsenerne",
+    "en": "the creatures"
+   }
+  ],
+  "related": [
+   {
+    "da": "et dyr",
+    "en": "an animal"
+   },
+   {
+    "da": "et menneske",
+    "en": "a human"
+   },
+   {
+    "da": "et spøgelse",
+    "en": "a ghost"
+   }
+  ],
+  "sentence": {
+   "da": "I eventyret bor der et **væsen** med vinger i skoven.",
+   "en": "In the fairy tale, a creature with wings lives in the forest."
+  }
+ },
+ "et væv": {
+  "explanation": "\"Et væv\" means \"a tissue\", the material the body is built from, such as muscle or skin. It also means woven cloth, from at væve (to weave).",
+  "forms": [
+   {
+    "da": "et væv",
+    "en": "a tissue"
+   },
+   {
+    "da": "vævet",
+    "en": "the tissue"
+   },
+   {
+    "da": "væv",
+    "en": "tissues"
+   },
+   {
+    "da": "vævene",
+    "en": "the tissues"
+   }
+  ],
+  "related": [
+   {
+    "da": "en celle",
+    "en": "a cell"
+   },
+   {
+    "da": "et organ",
+    "en": "an organ"
+   },
+   {
+    "da": "et stof",
+    "en": "a fabric"
+   },
+   {
+    "da": "en fiber",
+    "en": "a fiber"
+   }
+  ],
+  "sentence": {
+   "da": "Kroppen består af mange slags **væv**, som alle har hver sin opgave.",
+   "en": "The body is made of many kinds of tissue, which each have their own job."
   }
  },
  "vand": {
@@ -5960,6 +9718,45 @@
    "en": "I am used to biking every day."
   }
  },
+ "vanvid": {
+  "explanation": "\"Et vanvid\" means \"madness\", the state of having lost your reason. In everyday speech it is used for a reckless idea: Det er vanvid at køre så hurtigt (It is madness to drive that fast).",
+  "forms": [
+   {
+    "da": "et vanvid",
+    "en": "a madness"
+   },
+   {
+    "da": "vanvidet",
+    "en": "the madness"
+   },
+   {
+    "da": "rent vanvid",
+    "en": "pure madness"
+   }
+  ],
+  "related": [
+   {
+    "da": "sindssyg",
+    "en": "insane"
+   },
+   {
+    "da": "gal",
+    "en": "mad"
+   },
+   {
+    "da": "en galskab",
+    "en": "a folly"
+   },
+   {
+    "da": "vanvittig",
+    "en": "crazy"
+   }
+  ],
+  "sentence": {
+   "da": "Støjen driver mig til **vanvid**.",
+   "en": "The noise drives me mad."
+  }
+ },
  "vanvittig": {
   "explanation": "\"Vanvittig\" means \"crazy\" or \"insane\", and stresses that something is extreme: en vanvittig idé (a crazy idea). It can also make the next word stronger: Det er vanvittigt dyrt (It is insanely expensive).",
   "forms": [
@@ -5997,6 +9794,88 @@
   "sentence": {
    "da": "Det er en **vanvittig** idé, men jeg kan lide den.",
    "en": "It is a crazy idea, but I like it."
+  }
+ },
+ "varetægt": {
+  "explanation": "\"En varetægt\" means \"custody\", being held or looked after by someone, as in i politiets varetægt (in police custody). For custody of a child, Danes say forældremyndighed instead.",
+  "forms": [
+   {
+    "da": "en varetægt",
+    "en": "a custody"
+   },
+   {
+    "da": "varetægten",
+    "en": "the custody"
+   },
+   {
+    "da": "i varetægt",
+    "en": "in custody"
+   },
+   {
+    "da": "tage i varetægt",
+    "en": "to take into custody"
+   }
+  ],
+  "related": [
+   {
+    "da": "en anholdelse",
+    "en": "an arrest"
+   },
+   {
+    "da": "en fængsling",
+    "en": "an imprisonment"
+   },
+   {
+    "da": "en forvaring",
+    "en": "a safekeeping"
+   },
+   {
+    "da": "et fængsel",
+    "en": "a prison"
+   }
+  ],
+  "sentence": {
+   "da": "Manden blev holdt i politiets **varetægt** natten over.",
+   "en": "The man was held in police custody overnight."
+  }
+ },
+ "varig": {
+  "explanation": "\"Varig\" means \"lasting\", something that stays for a long time or for good. It comes from at vare (to last) and is often paired with words like fred (peace) and løsning (solution).",
+  "forms": [
+   {
+    "da": "en varig fred",
+    "en": "a lasting peace"
+   },
+   {
+    "da": "et varigt mén",
+    "en": "a lasting injury"
+   },
+   {
+    "da": "varige skader",
+    "en": "lasting damage"
+   }
+  ],
+  "related": [
+   {
+    "da": "permanent",
+    "en": "permanent"
+   },
+   {
+    "da": "holdbar",
+    "en": "durable"
+   },
+   {
+    "da": "midlertidig",
+    "en": "temporary"
+   },
+   {
+    "da": "evig",
+    "en": "eternal"
+   }
+  ],
+  "sentence": {
+   "da": "Vi søger en **varig** løsning på problemet.",
+   "en": "We are looking for a lasting solution to the problem."
   }
  },
  "varm": {
@@ -6071,6 +9950,45 @@
   "sentence": {
    "da": "Jeg kan ikke tåle **varme**.",
    "en": "I can't stand heat."
+  }
+ },
+ "varsom": {
+  "explanation": "\"Varsom\" means \"cautious\", handling something with great care so that nothing is broken or hurt. It often comes with med (with): at være varsom med sine ord (to choose your words with care).",
+  "forms": [
+   {
+    "da": "en varsom hånd",
+    "en": "a cautious hand"
+   },
+   {
+    "da": "et varsomt greb",
+    "en": "a cautious grip"
+   },
+   {
+    "da": "varsomme skridt",
+    "en": "cautious steps"
+   }
+  ],
+  "related": [
+   {
+    "da": "forsigtig",
+    "en": "careful"
+   },
+   {
+    "da": "omhyggelig",
+    "en": "thorough"
+   },
+   {
+    "da": "nænsom",
+    "en": "gentle"
+   },
+   {
+    "da": "uforsigtig",
+    "en": "careless"
+   }
+  ],
+  "sentence": {
+   "da": "Vær **varsom**, fordi bogen er gammel og skrøbelig.",
+   "en": "Be cautious because the book is old and fragile."
   }
  },
  "vaskepulver": {
@@ -6221,6 +10139,236 @@
    "en": "The bank is next to the post office."
   }
  },
+ "vedholdenhed": {
+  "explanation": "\"En vedholdenhed\" means \"persistence\", the ability to keep working at something for a long time without giving up. Do not mix it up with udholdenhed (stamina): vedholdenhed is about not giving up, while udholdenhed is about lasting physically.",
+  "forms": [
+   {
+    "da": "en vedholdenhed",
+    "en": "a persistence"
+   },
+   {
+    "da": "vedholdenheden",
+    "en": "the persistence"
+   },
+   {
+    "da": "stor vedholdenhed",
+    "en": "great persistence"
+   }
+  ],
+  "related": [
+   {
+    "da": "en stædighed",
+    "en": "a stubbornness"
+   },
+   {
+    "da": "en vilje",
+    "en": "a will"
+   },
+   {
+    "da": "en tålmodighed",
+    "en": "a patience"
+   },
+   {
+    "da": "vedholdende",
+    "en": "persistent"
+   }
+  ],
+  "sentence": {
+   "da": "Med **vedholdenhed** og tid kan man lære næsten alt.",
+   "en": "With persistence and time you can learn almost anything."
+  }
+ },
+ "vedkommende": {
+  "explanation": "\"Vedkommende\" means \"the person concerned\", used for someone you do not know or do not want to name. It also works in rules and notices for \"he or she\", so you need not choose between han and hun.",
+  "forms": [
+   {
+    "da": "Vedkommende er ikke hjemme.",
+    "en": "The person is not at home."
+   },
+   {
+    "da": "vedkommendes navn",
+    "en": "the person's name"
+   },
+   {
+    "da": "ringe til vedkommende",
+    "en": "to call the person"
+   }
+  ],
+  "related": [
+   {
+    "da": "den pågældende",
+    "en": "the one in question"
+   },
+   {
+    "da": "uvedkommende",
+    "en": "irrelevant / unauthorized"
+   },
+   {
+    "da": "man",
+    "en": "one, in general"
+   }
+  ],
+  "sentence": {
+   "da": "**Vedkommende** har ringet tre gange, men siger ikke sit navn.",
+   "en": "The person has called three times, but does not say their name."
+  }
+ },
+ "vedligeholdelse": {
+  "explanation": "\"En vedligeholdelse\" means \"maintenance\", the regular work that keeps a building, a machine or a road in good shape. It is not a repair: maintenance happens before things break, while repair fixes what is already broken.",
+  "forms": [
+   {
+    "da": "en vedligeholdelse",
+    "en": "a maintenance"
+   },
+   {
+    "da": "vedligeholdelsen",
+    "en": "the maintenance"
+   },
+   {
+    "da": "vedligeholdelse af huset",
+    "en": "maintenance of the house"
+   }
+  ],
+  "related": [
+   {
+    "da": "at vedligeholde",
+    "en": "to maintain"
+   },
+   {
+    "da": "en renovering",
+    "en": "a renovation"
+   },
+   {
+    "da": "et eftersyn",
+    "en": "a service / inspection"
+   },
+   {
+    "da": "en drift",
+    "en": "an operation"
+   }
+  ],
+  "sentence": {
+   "da": "Ejerforeningen betaler for **vedligeholdelse** af trapper og gård.",
+   "en": "The owners' association pays for maintenance of the stairs and the yard."
+  }
+ },
+ "vedrørende": {
+  "explanation": "\"Vedrørende\" means \"concerning\", used to name the subject of a letter, email or document. It is often written short as vedr., like \"Re:\" in English.",
+  "forms": [
+   {
+    "da": "Vedrørende mødet i morgen",
+    "en": "Regarding tomorrow's meeting"
+   },
+   {
+    "da": "et brev vedrørende huset",
+    "en": "a letter concerning the house"
+   },
+   {
+    "da": "spørgsmål vedrørende prisen",
+    "en": "questions concerning the price"
+   }
+  ],
+  "related": [
+   {
+    "da": "angående",
+    "en": "regarding"
+   },
+   {
+    "da": "om",
+    "en": "about"
+   },
+   {
+    "da": "med hensyn til",
+    "en": "with respect to"
+   },
+   {
+    "da": "hvad angår",
+    "en": "as for"
+   }
+  ],
+  "sentence": {
+   "da": "Jeg skriver **vedrørende** din ansøgning om jobbet.",
+   "en": "I am writing concerning your application for the job."
+  }
+ },
+ "vedvarende": {
+  "explanation": "\"Vedvarende\" means \"persistent\", about something that keeps going for a long time, like pain or a problem. In vedvarende energi it means \"renewable\".",
+  "forms": [
+   {
+    "da": "en vedvarende smerte",
+    "en": "a persistent pain"
+   },
+   {
+    "da": "et vedvarende problem",
+    "en": "a persistent problem"
+   },
+   {
+    "da": "vedvarende regn",
+    "en": "persistent rain"
+   }
+  ],
+  "related": [
+   {
+    "da": "konstant",
+    "en": "constant"
+   },
+   {
+    "da": "ustandselig",
+    "en": "nonstop"
+   },
+   {
+    "da": "vedholdende",
+    "en": "keeps at it"
+   },
+   {
+    "da": "varig",
+    "en": "lasting"
+   }
+  ],
+  "sentence": {
+   "da": "Hun har **vedvarende** smerter i ryggen efter ulykken.",
+   "en": "She has persistent pain in her back after the accident."
+  }
+ },
+ "vedvarende energi": {
+  "explanation": "\"Vedvarende energi\" means \"renewable energy\", power from sources that do not run out, such as the sun, the wind and water. Energy from coal, oil and gas is the opposite, because it gets used up.",
+  "forms": [
+   {
+    "da": "vedvarende energi",
+    "en": "renewable energy"
+   },
+   {
+    "da": "kilder til vedvarende energi",
+    "en": "sources of renewable energy"
+   },
+   {
+    "da": "at satse på vedvarende energi",
+    "en": "to invest in renewable energy"
+   }
+  ],
+  "related": [
+   {
+    "da": "solenergi",
+    "en": "solar power"
+   },
+   {
+    "da": "bølgeenergi",
+    "en": "wave power"
+   },
+   {
+    "da": "grøn energi",
+    "en": "green energy"
+   },
+   {
+    "da": "bæredygtig",
+    "en": "sustainable"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark får meget **vedvarende energi** fra vindmøller.",
+   "en": "Denmark gets a lot of renewable energy from wind turbines."
+  }
+ },
  "vegansk": {
   "explanation": "\"Vegansk\" means \"vegan\", with no meat, fish, eggs or dairy. A person who eats this way is en veganer (a vegan).",
   "forms": [
@@ -6369,6 +10517,49 @@
    "en": "Rain and wind are bad weather."
   }
  },
+ "vejrtrækning": {
+  "explanation": "\"En vejrtrækning\" means \"breathing\", the way you take air in and let it out. It is built on at trække vejret (to take a breath), where vejret means \"the breath\" here, not the weather.",
+  "forms": [
+   {
+    "da": "en vejrtrækning",
+    "en": "a breath / breathing"
+   },
+   {
+    "da": "vejrtrækningen",
+    "en": "the breathing"
+   },
+   {
+    "da": "vejrtrækninger",
+    "en": "breaths"
+   },
+   {
+    "da": "vejrtrækningerne",
+    "en": "the breaths"
+   }
+  ],
+  "related": [
+   {
+    "da": "en indånding",
+    "en": "an inhalation"
+   },
+   {
+    "da": "en udånding",
+    "en": "an exhalation"
+   },
+   {
+    "da": "en lunge",
+    "en": "a lung"
+   },
+   {
+    "da": "åndedræt",
+    "en": "respiration"
+   }
+  ],
+  "sentence": {
+   "da": "Din **vejrtrækning** bliver hurtigere, når du løber.",
+   "en": "Your breathing gets faster when you run."
+  }
+ },
  "vel": {
   "explanation": "\"Vel\" means \"I suppose\" or \"surely\". It softens a guess or a question, often hoping for a yes: Det er vel i orden (I suppose that is fine).",
   "forms": [
@@ -6408,6 +10599,45 @@
    "en": "You are coming tomorrow, right?"
   }
  },
+ "velbegrundet": {
+  "explanation": "\"Velbegrundet\" means \"well-founded\", about a decision, an opinion or a fear that has good reasons behind it. It is built from vel (well) and begrundet (given reasons for).",
+  "forms": [
+   {
+    "da": "en velbegrundet kritik",
+    "en": "a well-founded criticism"
+   },
+   {
+    "da": "et velbegrundet valg",
+    "en": "a well-founded choice"
+   },
+   {
+    "da": "velbegrundede beslutninger",
+    "en": "well-founded decisions"
+   }
+  ],
+  "related": [
+   {
+    "da": "berettiget",
+    "en": "justified"
+   },
+   {
+    "da": "rimelig",
+    "en": "reasonable"
+   },
+   {
+    "da": "underbygget",
+    "en": "backed up"
+   },
+   {
+    "da": "ubegrundet",
+    "en": "unfounded"
+   }
+  ],
+  "sentence": {
+   "da": "Hans kritik er **velbegrundet**, fordi han kender sagen godt.",
+   "en": "His criticism is well-founded because he knows the case well."
+  }
+ },
  "velbekomme": {
   "explanation": "\"Velbekomme\" means \"enjoy your meal\" when you serve food, and \"you're welcome\" when someone says tak for mad (thanks for the meal). It is only used about food and drink. For other thanks, say selv tak (you're welcome) or det var så lidt (it was nothing).",
   "forms": [
@@ -6443,6 +10673,361 @@
    "en": "Here is the soup. Enjoy!"
   }
  },
+ "veldrevet": {
+  "explanation": "\"Veldrevet\" means \"well-run\", about a business, a farm or a school that is managed so that it works well. It speaks of how it is managed, not how it looks. For a place that is neat and cared for, use velholdt (well-kept).",
+  "forms": [
+   {
+    "da": "en veldrevet gård",
+    "en": "a well-run farm"
+   },
+   {
+    "da": "et veldrevet firma",
+    "en": "a well-run company"
+   },
+   {
+    "da": "veldrevne butikker",
+    "en": "well-run stores"
+   }
+  ],
+  "related": [
+   {
+    "da": "organiseret",
+    "en": "organized"
+   },
+   {
+    "da": "effektiv",
+    "en": "efficient"
+   },
+   {
+    "da": "velfungerende",
+    "en": "well-functioning"
+   },
+   {
+    "da": "uorganiseret",
+    "en": "disorganized"
+   }
+  ],
+  "sentence": {
+   "da": "Bageriet er **veldrevet**, og der er altid kunder i butikken.",
+   "en": "The bakery is well-run, and there are always customers in the store."
+  }
+ },
+ "velfortjent": {
+  "explanation": "\"Velfortjent\" means \"well-deserved\", said about a break, win or praise that someone has earned through effort. The opposite is ufortjent (undeserved).",
+  "forms": [
+   {
+    "da": "en velfortjent sejr",
+    "en": "a well-deserved win"
+   },
+   {
+    "da": "et velfortjent skulderklap",
+    "en": "a well-deserved pat on the back"
+   },
+   {
+    "da": "velfortjente ferier",
+    "en": "well-deserved holidays"
+   }
+  ],
+  "related": [
+   {
+    "da": "at fortjene",
+    "en": "to merit"
+   },
+   {
+    "da": "en belønning",
+    "en": "a reward"
+   },
+   {
+    "da": "berettiget",
+    "en": "justified"
+   },
+   {
+    "da": "retfærdig",
+    "en": "fair"
+   }
+  ],
+  "sentence": {
+   "da": "Efter en hård uge får hun en **velfortjent** pause.",
+   "en": "After a hard week she gets a well-deserved break."
+  }
+ },
+ "velfærd": {
+  "explanation": "\"En velfærd\" means \"welfare\", the good life of people in a society. In Denmark it especially means public services paid for by taxes, such as health care, schools and care for the old.",
+  "forms": [
+   {
+    "da": "velfærd",
+    "en": "welfare"
+   },
+   {
+    "da": "velfærden",
+    "en": "the welfare"
+   },
+   {
+    "da": "velfærd for alle",
+    "en": "welfare for everyone"
+   }
+  ],
+  "related": [
+   {
+    "da": "en velfærdsstat",
+    "en": "a welfare state"
+   },
+   {
+    "da": "velstand",
+    "en": "prosperity"
+   },
+   {
+    "da": "trivsel",
+    "en": "wellbeing"
+   },
+   {
+    "da": "tryghed",
+    "en": "safety"
+   }
+  ],
+  "sentence": {
+   "da": "Danmark bruger mange penge på **velfærd**, fordi skatten er høj.",
+   "en": "Denmark spends a lot of money on welfare because taxes are high."
+  }
+ },
+ "velfærdssamfundet": {
+  "explanation": "\"Velfærdssamfundet\" means \"the welfare society\", a country where the state pays, through taxes, for things like schools, health care and help when you lose your job. Denmark is often described this way.",
+  "forms": [
+   {
+    "da": "et velfærdssamfund",
+    "en": "a welfare society"
+   },
+   {
+    "da": "velfærdssamfundet",
+    "en": "the welfare society"
+   },
+   {
+    "da": "velfærdssamfund",
+    "en": "welfare societies"
+   },
+   {
+    "da": "velfærdssamfundene",
+    "en": "the welfare societies"
+   }
+  ],
+  "related": [
+   {
+    "da": "et fællesskab",
+    "en": "a community"
+   },
+   {
+    "da": "en velfærdsstat",
+    "en": "a welfare state"
+   },
+   {
+    "da": "en tryghed",
+    "en": "a security"
+   },
+   {
+    "da": "en offentlig sektor",
+    "en": "a public sector"
+   }
+  ],
+  "sentence": {
+   "da": "I **velfærdssamfundet** er sygehuse og skoler gratis for alle.",
+   "en": "In the welfare society, hospitals and schools are free for everyone."
+  }
+ },
+ "velgørenhed": {
+  "explanation": "\"En velgørenhed\" means \"charity\", giving money, time or goods to help people in need without being paid. It names the act, not an organization: for a charity as an organization, say en velgørenhedsorganisation.",
+  "forms": [
+   {
+    "da": "en velgørenhed",
+    "en": "a charity"
+   },
+   {
+    "da": "velgørenheden",
+    "en": "the charity"
+   },
+   {
+    "da": "give til velgørenhed",
+    "en": "to give to charity"
+   }
+  ],
+  "related": [
+   {
+    "da": "en gave",
+    "en": "a gift"
+   },
+   {
+    "da": "en donation",
+    "en": "a donation"
+   },
+   {
+    "da": "en indsamling",
+    "en": "a fundraiser"
+   },
+   {
+    "da": "en støtte",
+    "en": "a support"
+   }
+  ],
+  "sentence": {
+   "da": "Alle pengene fra koncerten går til **velgørenhed**.",
+   "en": "All the money from the concert goes to charity."
+  }
+ },
+ "velhavende": {
+  "explanation": "\"Velhavende\" means \"wealthy\", with a lot of money and property. It is built on vel (well) and at have (to have), and rig (rich) is the plainer everyday word.",
+  "forms": [
+   {
+    "da": "en velhavende familie",
+    "en": "a wealthy family"
+   },
+   {
+    "da": "et velhavende par",
+    "en": "a wealthy couple"
+   },
+   {
+    "da": "velhavende mennesker",
+    "en": "wealthy people"
+   }
+  ],
+  "related": [
+   {
+    "da": "formuende",
+    "en": "affluent"
+   },
+   {
+    "da": "velstående",
+    "en": "prosperous"
+   },
+   {
+    "da": "fattig",
+    "en": "poor"
+   },
+   {
+    "da": "en formue",
+    "en": "a fortune"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er **velhavende**, fordi hun ejer flere huse.",
+   "en": "She is wealthy because she owns several houses."
+  }
+ },
+ "velholdt": {
+  "explanation": "\"Velholdt\" means \"well-kept\", looking cared for and in good condition, such as a house, a garden or an old car. It speaks of how a thing looks. For a business that is managed well, use veldrevet (well-run).",
+  "forms": [
+   {
+    "da": "et velholdt hus",
+    "en": "a well-kept house"
+   },
+   {
+    "da": "en velholdt have",
+    "en": "a well-kept garden"
+   },
+   {
+    "da": "velholdte biler",
+    "en": "well-kept cars"
+   }
+  ],
+  "related": [
+   {
+    "da": "velplejet",
+    "en": "well-tended"
+   },
+   {
+    "da": "pæn",
+    "en": "neat"
+   },
+   {
+    "da": "forfalden",
+    "en": "dilapidated"
+   },
+   {
+    "da": "forsømt",
+    "en": "neglected"
+   }
+  ],
+  "sentence": {
+   "da": "Bilen er tyve år gammel, men meget **velholdt**.",
+   "en": "The car is twenty years old, but very well kept."
+  }
+ },
+ "velkendt": {
+  "explanation": "\"Velkendt\" means \"well-known\", known by many people. It also means \"familiar\" when you know something well yourself, like a face or a tune.",
+  "forms": [
+   {
+    "da": "en velkendt sang",
+    "en": "a well-known song"
+   },
+   {
+    "da": "et velkendt ansigt",
+    "en": "a familiar face"
+   },
+   {
+    "da": "velkendte steder",
+    "en": "well-known places"
+   }
+  ],
+  "related": [
+   {
+    "da": "berømt",
+    "en": "renowned"
+   },
+   {
+    "da": "fortrolig",
+    "en": "at home with"
+   },
+   {
+    "da": "udbredt",
+    "en": "widespread"
+   },
+   {
+    "da": "populær",
+    "en": "popular"
+   }
+  ],
+  "sentence": {
+   "da": "Tivoli er et **velkendt** sted, som mange turister besøger.",
+   "en": "Tivoli is a well-known place that many tourists visit."
+  }
+ },
+ "velklædt": {
+  "explanation": "\"Velklædt\" means \"well-dressed\", wearing clothes that look good and suit the situation. It is built on vel (well) and klædt, from at klæde sig på (to get dressed).",
+  "forms": [
+   {
+    "da": "en velklædt mand",
+    "en": "a well-dressed man"
+   },
+   {
+    "da": "et velklædt par",
+    "en": "a well-dressed couple"
+   },
+   {
+    "da": "velklædte gæster",
+    "en": "well-dressed guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "elegant",
+    "en": "elegant"
+   },
+   {
+    "da": "pæn",
+    "en": "nice-looking"
+   },
+   {
+    "da": "stilfuld",
+    "en": "stylish"
+   },
+   {
+    "da": "festklædt",
+    "en": "in party clothes"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **velklædt**, fordi han skal til et bryllup.",
+   "en": "He is well-dressed because he is going to a wedding."
+  }
+ },
  "velkommen": {
   "explanation": "\"Velkommen\" means \"welcome\". Use it to greet guests, adding til (to) and the place: velkommen til Danmark (welcome to Denmark). Do not use it for \"you're welcome\", which is selv tak or det var så lidt (it was nothing).",
   "forms": [
@@ -6476,6 +11061,162 @@
   "sentence": {
    "da": "**Velkommen** til vores hjem!",
    "en": "Welcome to our home!"
+  }
+ },
+ "vellykket": {
+  "explanation": "\"Vellykket\" means \"successful\", said about something that turned out well, like an event, a trip or an operation. It comes from at lykkes (to work out). For a person or company, succesfuld (successful too) is more common.",
+  "forms": [
+   {
+    "da": "en vellykket fest",
+    "en": "a successful party"
+   },
+   {
+    "da": "et vellykket forsøg",
+    "en": "a successful attempt"
+   },
+   {
+    "da": "vellykkede rejser",
+    "en": "successful trips"
+   }
+  ],
+  "related": [
+   {
+    "da": "mislykket",
+    "en": "failed"
+   },
+   {
+    "da": "heldig",
+    "en": "lucky"
+   },
+   {
+    "da": "en lykke",
+    "en": "happiness"
+   },
+   {
+    "da": "en fiasko",
+    "en": "a flop"
+   }
+  ],
+  "sentence": {
+   "da": "Festen var **vellykket**, og alle gik glade hjem.",
+   "en": "The party was successful, and everyone went home happy."
+  }
+ },
+ "velopdragen": {
+  "explanation": "\"Velopdragen\" means \"well-behaved\", about a child or a pet that has been raised to be calm and listen. It is built on vel (well) and at opdrage (to bring up).",
+  "forms": [
+   {
+    "da": "en velopdragen dreng",
+    "en": "a well-behaved boy"
+   },
+   {
+    "da": "en velopdragen hund",
+    "en": "a well-behaved dog"
+   },
+   {
+    "da": "velopdragne børn",
+    "en": "well-behaved children"
+   }
+  ],
+  "related": [
+   {
+    "da": "artig",
+    "en": "good (of a child)"
+   },
+   {
+    "da": "høflig",
+    "en": "polite"
+   },
+   {
+    "da": "uopdragen",
+    "en": "ill-mannered"
+   },
+   {
+    "da": "en opdragelse",
+    "en": "an upbringing"
+   }
+  ],
+  "sentence": {
+   "da": "Min hund er **velopdragen** og går pænt i snor.",
+   "en": "My dog is well-behaved and walks nicely on a leash."
+  }
+ },
+ "velsmagende": {
+  "explanation": "\"Velsmagende\" means \"tasty\", for food or drink that tastes good. It is built on vel (well) and at smage (to taste). In daily speech, lækker (delicious) is more common.",
+  "forms": [
+   {
+    "da": "en velsmagende suppe",
+    "en": "a tasty soup"
+   },
+   {
+    "da": "et velsmagende måltid",
+    "en": "a tasty meal"
+   },
+   {
+    "da": "velsmagende retter",
+    "en": "tasty dishes"
+   }
+  ],
+  "related": [
+   {
+    "da": "smagløs",
+    "en": "bland"
+   },
+   {
+    "da": "smagfuld",
+    "en": "flavorful"
+   },
+   {
+    "da": "krydret",
+    "en": "spicy"
+   },
+   {
+    "da": "kraftig",
+    "en": "rich"
+   }
+  ],
+  "sentence": {
+   "da": "Suppen var **velsmagende**, fordi den var lavet af friske grøntsager.",
+   "en": "The soup was tasty because it was made from fresh vegetables."
+  }
+ },
+ "vemodig": {
+  "explanation": "\"Vemodig\" means \"wistful\" or \"melancholic\", a soft, quiet sadness mixed with memory, for example on a still autumn evening. It is gentler than sorg (sorrow).",
+  "forms": [
+   {
+    "da": "en vemodig stemning",
+    "en": "a wistful mood"
+   },
+   {
+    "da": "et vemodigt minde",
+    "en": "a wistful memory"
+   },
+   {
+    "da": "vemodige sange",
+    "en": "wistful songs"
+   }
+  ],
+  "related": [
+   {
+    "da": "nostalgisk",
+    "en": "nostalgic"
+   },
+   {
+    "da": "trist",
+    "en": "sad"
+   },
+   {
+    "da": "længselsfuld",
+    "en": "longing"
+   },
+   {
+    "da": "sørgmodig",
+    "en": "sorrowful"
+   }
+  ],
+  "sentence": {
+   "da": "Det gør mig **vemodig** at se gamle billeder af os.",
+   "en": "It makes me wistful to see old pictures of us."
   }
  },
  "venlig": {
@@ -7004,6 +11745,84 @@
    "en": "She has a lot of knowledge about history."
   }
  },
+ "videnskabelig": {
+  "explanation": "\"Videnskabelig\" means \"scientific\", about research and knowledge gained with careful, tested methods. It is built on en videnskab (a science), which comes from viden (knowledge).",
+  "forms": [
+   {
+    "da": "en videnskabelig artikel",
+    "en": "a scientific article"
+   },
+   {
+    "da": "et videnskabeligt forsøg",
+    "en": "a scientific experiment"
+   },
+   {
+    "da": "videnskabelige metoder",
+    "en": "scientific methods"
+   }
+  ],
+  "related": [
+   {
+    "da": "en forsker",
+    "en": "a scientist"
+   },
+   {
+    "da": "akademisk",
+    "en": "academic"
+   },
+   {
+    "da": "naturvidenskabelig",
+    "en": "about natural sciences"
+   },
+   {
+    "da": "teoretisk",
+    "en": "theoretical"
+   }
+  ],
+  "sentence": {
+   "da": "En **videnskabelig** undersøgelse bruger målinger til at finde svar.",
+   "en": "A scientific study uses measurements to find answers."
+  }
+ },
+ "vidtrækkende": {
+  "explanation": "\"Vidtrækkende\" means \"far-reaching\", about decisions and changes that affect many people or last a long time. It sounds serious and is typical of news and politics. The word never changes form.",
+  "forms": [
+   {
+    "da": "en vidtrækkende ændring",
+    "en": "a far-reaching change"
+   },
+   {
+    "da": "et vidtrækkende forslag",
+    "en": "a far-reaching proposal"
+   },
+   {
+    "da": "vidtrækkende reformer",
+    "en": "far-reaching reforms"
+   }
+  ],
+  "related": [
+   {
+    "da": "omfattende",
+    "en": "extensive"
+   },
+   {
+    "da": "gennemgribende",
+    "en": "sweeping"
+   },
+   {
+    "da": "afgørende",
+    "en": "decisive"
+   },
+   {
+    "da": "en konsekvens",
+    "en": "a consequence"
+   }
+  ],
+  "sentence": {
+   "da": "Regeringens beslutning er **vidtrækkende**, og alle landets skoler bliver ramt.",
+   "en": "The government's decision is far-reaching, and all the country's schools are affected."
+  }
+ },
  "vidunderlig": {
   "explanation": "\"Vidunderlig\" means \"wonderful\", and is stronger than god (good): Vejret er vidunderligt (The weather is wonderful).",
   "forms": [
@@ -7076,6 +11895,45 @@
   "sentence": {
    "da": "Søvn er **vigtig**, fordi kroppen hviler sig.",
    "en": "Sleep is important because the body rests."
+  }
+ },
+ "vikingetiden": {
+  "explanation": "\"Vikingetiden\" means \"the Viking Age\", the period from about 800 to 1050 when Scandinavian seafarers sailed, traded and raided abroad. It is built on viking and tiden (the time).",
+  "forms": [
+   {
+    "da": "vikingetiden",
+    "en": "the Viking Age"
+   },
+   {
+    "da": "i vikingetiden",
+    "en": "in the Viking Age"
+   },
+   {
+    "da": "vikingetidens skibe",
+    "en": "the ships of the Viking Age"
+   }
+  ],
+  "related": [
+   {
+    "da": "middelalderen",
+    "en": "the Middle Ages"
+   },
+   {
+    "da": "stenalderen",
+    "en": "the Stone Age"
+   },
+   {
+    "da": "jernalderen",
+    "en": "the Iron Age"
+   },
+   {
+    "da": "bronzealderen",
+    "en": "the Bronze Age"
+   }
+  ],
+  "sentence": {
+   "da": "I **vikingetiden** sejlede mange danskere til England og Irland.",
+   "en": "In the Viking Age, many Danes sailed to England and Ireland."
   }
  },
  "vild": {
@@ -7226,6 +12084,45 @@
    "en": "She is willing to wait a little."
   }
  },
+ "villighed": {
+  "explanation": "\"En villighed\" means \"willingness\", being ready to do something when asked, without arguing. It comes from villig (willing).",
+  "forms": [
+   {
+    "da": "en villighed",
+    "en": "a willingness"
+   },
+   {
+    "da": "villigheden",
+    "en": "the willingness"
+   },
+   {
+    "da": "villighed til at hjælpe",
+    "en": "willingness to help"
+   }
+  ],
+  "related": [
+   {
+    "da": "en parathed",
+    "en": "a readiness"
+   },
+   {
+    "da": "en vilje",
+    "en": "a will"
+   },
+   {
+    "da": "en hjælpsomhed",
+    "en": "a helpfulness"
+   },
+   {
+    "da": "en modvilje",
+    "en": "a reluctance"
+   }
+  ],
+  "sentence": {
+   "da": "Hendes **villighed** til at hjælpe gjorde os alle glade.",
+   "en": "Her willingness to help made us all glad."
+  }
+ },
  "vind": {
   "explanation": "\"Vind\" means \"wind\". To say it is windy, Danes use at blæse (to blow): Det blæser (It is windy).",
   "forms": [
@@ -7261,6 +12158,154 @@
    "en": "The sailboat uses wind to sail."
   }
  },
+ "vindende": {
+  "explanation": "\"Vindende\" means \"winning\", describing what wins, like a team or an idea in a contest. It can also describe a person or smile that wins people over: et vindende smil (a smile that charms).",
+  "forms": [
+   {
+    "da": "en vindende kandidat",
+    "en": "a winning candidate"
+   },
+   {
+    "da": "et vindende forslag",
+    "en": "a winning proposal"
+   },
+   {
+    "da": "vindende lodder",
+    "en": "winning tickets"
+   }
+  ],
+  "related": [
+   {
+    "da": "en vinder",
+    "en": "a winner"
+   },
+   {
+    "da": "sejrende",
+    "en": "victorious"
+   },
+   {
+    "da": "at tabe",
+    "en": "to lose"
+   },
+   {
+    "da": "charmerende",
+    "en": "charming"
+   }
+  ],
+  "sentence": {
+   "da": "Det **vindende** hold fik en pokal og tusind kroner.",
+   "en": "The winning team got a trophy and a thousand kroner."
+  }
+ },
+ "vindenergi": {
+  "explanation": "\"En vindenergi\" means \"wind power\", electricity made when the wind turns the blades of en vindmølle (a wind turbine). It is built on vind (wind) and energi (energy).",
+  "forms": [
+   {
+    "da": "vindenergi",
+    "en": "wind power"
+   },
+   {
+    "da": "vindenergien",
+    "en": "the wind power"
+   },
+   {
+    "da": "strøm fra vindenergi",
+    "en": "electricity from wind power"
+   }
+  ],
+  "related": [
+   {
+    "da": "solenergi",
+    "en": "solar power"
+   },
+   {
+    "da": "vandkraft",
+    "en": "hydropower"
+   },
+   {
+    "da": "vedvarende energi",
+    "en": "renewable energy"
+   },
+   {
+    "da": "en energikilde",
+    "en": "an energy source"
+   }
+  ],
+  "sentence": {
+   "da": "**Vindenergi** er ren energi, fordi den ikke forurener luften.",
+   "en": "Wind power is clean energy because it does not pollute the air."
+  }
+ },
+ "vinterbadning": {
+  "explanation": "\"Vinterbadning\" means \"winter swimming\", swimming in the sea in the cold months, often as a regular habit in a club.",
+  "forms": [
+   {
+    "da": "vinterbadning",
+    "en": "winter swimming"
+   },
+   {
+    "da": "vinterbadningen",
+    "en": "the winter swimming"
+   },
+   {
+    "da": "at gå til vinterbadning",
+    "en": "to go winter swimming"
+   }
+  ],
+  "related": [
+   {
+    "da": "at bade",
+    "en": "to bathe"
+   },
+   {
+    "da": "en vinterbader",
+    "en": "a winter swimmer"
+   },
+   {
+    "da": "et vinterbad",
+    "en": "a winter dip"
+   }
+  ],
+  "sentence": {
+   "da": "Efter **vinterbadning** i det kolde hav varmer vi os i saunaen.",
+   "en": "After winter swimming in the cold sea, we warm up in the sauna."
+  }
+ },
+ "viral": {
+  "explanation": "\"Viral\" means \"viral\", spreading very fast online. It also means \"caused by a virus\": en viral infektion (a viral infection).",
+  "forms": [
+   {
+    "da": "en viral video",
+    "en": "a viral video"
+   },
+   {
+    "da": "et viralt opslag",
+    "en": "a viral post"
+   },
+   {
+    "da": "virale trends",
+    "en": "viral trends"
+   }
+  ],
+  "related": [
+   {
+    "da": "smitsom",
+    "en": "contagious"
+   },
+   {
+    "da": "populær",
+    "en": "popular"
+   },
+   {
+    "da": "en trend",
+    "en": "a trend"
+   }
+  ],
+  "sentence": {
+   "da": "Videoen blev **viral**, og millioner af mennesker så den.",
+   "en": "The video went viral, and millions of people saw it."
+  }
+ },
  "virkelig": {
   "explanation": "\"Virkelig\" means \"really\". Compare Det er godt (It is good) with Det er virkelig godt (It is really good). On its own, Virkelig? (Really?) shows surprise.",
   "forms": [
@@ -7294,6 +12339,76 @@
   "sentence": {
    "da": "Maden er **virkelig** god.",
    "en": "The food is really good."
+  }
+ },
+ "visdom": {
+  "explanation": "\"Visdom\" means \"wisdom\", the good judgment that comes from living and learning from mistakes, not from school. It is also in en visdomstand (a wisdom tooth), the last tooth to come in.",
+  "forms": [
+   {
+    "da": "visdom",
+    "en": "wisdom"
+   },
+   {
+    "da": "visdommen",
+    "en": "the wisdom"
+   },
+   {
+    "da": "et visdomsord",
+    "en": "a word of wisdom"
+   }
+  ],
+  "related": [
+   {
+    "da": "klog",
+    "en": "wise"
+   },
+   {
+    "da": "viden",
+    "en": "knowledge"
+   },
+   {
+    "da": "en erfaring",
+    "en": "an experience"
+   }
+  ],
+  "sentence": {
+   "da": "**Visdom** kommer med alderen, ikke fra bøger.",
+   "en": "Wisdom comes with age, not from books."
+  }
+ },
+ "visse": {
+  "explanation": "\"Visse\" means \"certain\" in the sense of \"some, but not all\". It is used with several things or people. With just one, use en vis or et vist: en vis tid (a certain time). It is not the same as sikker (sure).",
+  "forms": [
+   {
+    "da": "visse ting",
+    "en": "certain things"
+   },
+   {
+    "da": "visse mennesker",
+    "en": "certain people"
+   },
+   {
+    "da": "under visse forhold",
+    "en": "under certain conditions"
+   }
+  ],
+  "related": [
+   {
+    "da": "bestemte",
+    "en": "specific"
+   },
+   {
+    "da": "enkelte",
+    "en": "a few"
+   },
+   {
+    "da": "forskellige",
+    "en": "various"
+   }
+  ],
+  "sentence": {
+   "da": "**Visse** mennesker elsker kulde, men ikke alle.",
+   "en": "Certain people love the cold, but not everyone."
   }
  },
  "vist": {
@@ -7335,6 +12450,84 @@
    "en": "I think he is home now."
   }
  },
+ "vistnok": {
+  "explanation": "\"Vistnok\" means \"apparently\" or \"I believe\", used when you think something is true but are not fully sure, often because you heard it. It goes in the middle of the sentence, after the verb: Hun er vistnok hjemme (She is home, I believe).",
+  "forms": [
+   {
+    "da": "Han kommer vistnok i morgen.",
+    "en": "He is coming tomorrow, I believe."
+   },
+   {
+    "da": "Det er vistnok rigtigt.",
+    "en": "That is apparently true."
+   },
+   {
+    "da": "De er vistnok flyttet.",
+    "en": "They have apparently moved."
+   }
+  ],
+  "related": [
+   {
+    "da": "tilsyneladende",
+    "en": "seemingly"
+   },
+   {
+    "da": "formentlig",
+    "en": "presumably"
+   },
+   {
+    "da": "nok",
+    "en": "probably"
+   },
+   {
+    "da": "vel",
+    "en": "I suppose"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **vistnok** flyttet til Aarhus, men jeg er ikke sikker.",
+   "en": "He has apparently moved to Aarhus, but I am not sure."
+  }
+ },
+ "vittig": {
+  "explanation": "\"Vittig\" means \"witty\", funny in a quick, clever way, usually about what someone says. Do not mix it up with vigtig (important), which looks almost the same.",
+  "forms": [
+   {
+    "da": "en vittig bemærkning",
+    "en": "a witty remark"
+   },
+   {
+    "da": "et vittigt svar",
+    "en": "a witty answer"
+   },
+   {
+    "da": "vittige historier",
+    "en": "witty stories"
+   }
+  ],
+  "related": [
+   {
+    "da": "morsom",
+    "en": "amusing"
+   },
+   {
+    "da": "en vittighed",
+    "en": "a joke"
+   },
+   {
+    "da": "humoristisk",
+    "en": "humorous"
+   },
+   {
+    "da": "en spøg",
+    "en": "a jest"
+   }
+  ],
+  "sentence": {
+   "da": "Han er **vittig**, fordi han altid finder et hurtigt, sjovt svar.",
+   "en": "He is witty, because he always finds a quick, funny answer."
+  }
+ },
  "voksen": {
   "explanation": "\"Voksen\" means \"grown-up\" or \"adult\". The same word also names the person: en voksen (an adult).",
   "forms": [
@@ -7368,6 +12561,119 @@
   "sentence": {
    "da": "Når man er **voksen**, arbejder man.",
    "en": "When you are an adult, you work."
+  }
+ },
+ "vold": {
+  "explanation": "\"Vold\" means \"violence\", using physical force to hurt someone. It takes no word in front of it: at bruge vold (to use violence).",
+  "forms": [
+   {
+    "da": "vold",
+    "en": "violence"
+   },
+   {
+    "da": "vold i hjemmet",
+    "en": "domestic violence"
+   },
+   {
+    "da": "Stop volden!",
+    "en": "Stop the violence!"
+   }
+  ],
+  "related": [
+   {
+    "da": "voldelig",
+    "en": "violent"
+   },
+   {
+    "da": "et overfald",
+    "en": "an assault"
+   },
+   {
+    "da": "fredelig",
+    "en": "peaceful"
+   },
+   {
+    "da": "en trussel",
+    "en": "a threat"
+   }
+  ],
+  "sentence": {
+   "da": "**Vold** er, når man med vilje gør andre fysisk ondt.",
+   "en": "Violence is when you deliberately physically hurt others."
+  }
+ },
+ "voldelig": {
+  "explanation": "\"Voldelig\" means \"violent\", about a person or an act that hurts others. For a storm, a pain or a reaction that is just very strong, Danes use voldsom: en voldsom storm (a violent storm).",
+  "forms": [
+   {
+    "da": "en voldelig mand",
+    "en": "a violent man"
+   },
+   {
+    "da": "et voldeligt overfald",
+    "en": "a violent assault"
+   },
+   {
+    "da": "voldelige film",
+    "en": "violent films"
+   }
+  ],
+  "related": [
+   {
+    "da": "vold",
+    "en": "violence"
+   },
+   {
+    "da": "fredelig",
+    "en": "peaceful"
+   },
+   {
+    "da": "aggressiv",
+    "en": "aggressive"
+   },
+   {
+    "da": "brutal",
+    "en": "brutal"
+   }
+  ],
+  "sentence": {
+   "da": "Han blev dømt, fordi han var **voldelig** over for sin nabo.",
+   "en": "He was convicted because he was violent toward his neighbor."
+  }
+ },
+ "voldsom": {
+  "explanation": "\"Voldsom\" means \"violent\" and \"intense\", about something with great force or size. It describes events and reactions, not a person who hurts others. For that, use voldelig (violent).",
+  "forms": [
+   {
+    "da": "en voldsom smerte",
+    "en": "a violent pain"
+   },
+   {
+    "da": "et voldsomt brag",
+    "en": "a violent bang"
+   },
+   {
+    "da": "voldsomme reaktioner",
+    "en": "violent reactions"
+   }
+  ],
+  "related": [
+   {
+    "da": "kraftig",
+    "en": "heavy / powerful"
+   },
+   {
+    "da": "heftig",
+    "en": "fierce"
+   },
+   {
+    "da": "mild",
+    "en": "mild"
+   }
+  ],
+  "sentence": {
+   "da": "En **voldsom** storm rev tagene af husene.",
+   "en": "A violent storm tore the roofs off the houses."
   }
  },
  "volleyball": {
@@ -7522,6 +12828,45 @@
    "en": "She is angry at her brother because he lied."
   }
  },
+ "vrede": {
+  "explanation": "\"Vrede\" means \"anger\", a strong feeling about something unfair. It sounds more serious than at være sur (to be grumpy), which you can say about something small.",
+  "forms": [
+   {
+    "da": "vrede",
+    "en": "anger"
+   },
+   {
+    "da": "vreden",
+    "en": "the anger"
+   },
+   {
+    "da": "at føle vrede",
+    "en": "to feel anger"
+   }
+  ],
+  "related": [
+   {
+    "da": "vred",
+    "en": "angry"
+   },
+   {
+    "da": "raseri",
+    "en": "rage"
+   },
+   {
+    "da": "harme",
+    "en": "indignation"
+   },
+   {
+    "da": "ro",
+    "en": "calm"
+   }
+  ],
+  "sentence": {
+   "da": "Folk følte **vrede**, fordi regeringen havde brudt sit løfte.",
+   "en": "People felt anger because the government had broken its promise."
+  }
+ },
  "vrøvl": {
   "explanation": "\"Vrøvl\" means \"nonsense\". It is blunt, so with someone you do not know well, say Jeg er ikke enig (I do not agree) instead.",
   "forms": [
@@ -7666,6 +13011,45 @@
    "en": "My bag is gone!"
   }
  },
+ "vækst": {
+  "explanation": "\"Vækst\" means \"growth\", getting bigger in size, number or value, often about the economy or a company. It belongs to the verb at vokse (to grow).",
+  "forms": [
+   {
+    "da": "vækst",
+    "en": "growth"
+   },
+   {
+    "da": "væksten",
+    "en": "the growth"
+   },
+   {
+    "da": "økonomisk vækst",
+    "en": "economic growth"
+   }
+  ],
+  "related": [
+   {
+    "da": "udvikling",
+    "en": "development"
+   },
+   {
+    "da": "fremgang",
+    "en": "progress"
+   },
+   {
+    "da": "nedgang",
+    "en": "decline"
+   },
+   {
+    "da": "en stigning",
+    "en": "an increase"
+   }
+  ],
+  "sentence": {
+   "da": "Virksomheden har haft stor **vækst** og ansætter nu flere folk.",
+   "en": "The company has had big growth and is now hiring more people."
+  }
+ },
  "vældig": {
   "explanation": "\"Vældig\" means \"very\" or \"really\", a friendly way to stress a word. It goes right before the word it stresses.",
   "forms": [
@@ -7783,6 +13167,154 @@
    "en": "The old ring is very valuable."
   }
  },
+ "værdig": {
+  "explanation": "\"Værdig\" means \"worthy\" and also \"dignified\", calm and with self-respect. When it means worthy, it is followed by til: værdig til respekt (worthy of respect).",
+  "forms": [
+   {
+    "da": "en værdig vinder",
+    "en": "a worthy winner"
+   },
+   {
+    "da": "et værdigt svar",
+    "en": "a dignified answer"
+   },
+   {
+    "da": "værdige gæster",
+    "en": "worthy guests"
+   }
+  ],
+  "related": [
+   {
+    "da": "værdi",
+    "en": "value"
+   },
+   {
+    "da": "værd",
+    "en": "worth"
+   },
+   {
+    "da": "fortjent",
+    "en": "deserved"
+   },
+   {
+    "da": "uværdig",
+    "en": "undignified"
+   }
+  ],
+  "sentence": {
+   "da": "Hun er en **værdig** vinder, fordi hun har trænet i årevis.",
+   "en": "She is a worthy winner because she has trained for years."
+  }
+ },
+ "værdighed": {
+  "explanation": "\"En værdighed\" means \"dignity\", a calm pride in who you are, shown in how you carry yourself, even in a hard time.",
+  "forms": [
+   {
+    "da": "en værdighed",
+    "en": "a dignity"
+   },
+   {
+    "da": "værdigheden",
+    "en": "the dignity"
+   },
+   {
+    "da": "med værdighed",
+    "en": "with dignity"
+   }
+  ],
+  "related": [
+   {
+    "da": "en respekt",
+    "en": "a respect"
+   },
+   {
+    "da": "en selvrespekt",
+    "en": "a self-respect"
+   },
+   {
+    "da": "en ære",
+    "en": "an honor"
+   },
+   {
+    "da": "værdig",
+    "en": "worthy"
+   }
+  ],
+  "sentence": {
+   "da": "Han tabte sagen, men forlod retten med **værdighed**.",
+   "en": "He lost the case, but left the court with dignity."
+  }
+ },
+ "værdiløs": {
+  "explanation": "\"Værdiløs\" means \"worthless\", with no value, in money or in use. It is built from værdi (value) and løs (without), and løs works the same in many words: hjælpeløs (helpless), søvnløs (sleepless).",
+  "forms": [
+   {
+    "da": "en værdiløs ting",
+    "en": "a worthless thing"
+   },
+   {
+    "da": "et værdiløst løfte",
+    "en": "a worthless promise"
+   },
+   {
+    "da": "værdiløse sedler",
+    "en": "worthless banknotes"
+   }
+  ],
+  "related": [
+   {
+    "da": "værdifuld",
+    "en": "valuable"
+   },
+   {
+    "da": "uvurderlig",
+    "en": "priceless"
+   },
+   {
+    "da": "ubrugelig",
+    "en": "useless"
+   }
+  ],
+  "sentence": {
+   "da": "Aktien er **værdiløs**, fordi firmaet er gået konkurs.",
+   "en": "The share is worthless because the company has gone bankrupt."
+  }
+ },
+ "værdsat": {
+  "explanation": "\"Værdsat\" means \"appreciated\", seen as valuable and respected for what you do or are. It comes from the verb at værdsætte (to appreciate).",
+  "forms": [
+   {
+    "da": "en værdsat kollega",
+    "en": "an appreciated colleague"
+   },
+   {
+    "da": "et værdsat bidrag",
+    "en": "an appreciated contribution"
+   },
+   {
+    "da": "værdsatte medarbejdere",
+    "en": "appreciated employees"
+   }
+  ],
+  "related": [
+   {
+    "da": "anerkendt",
+    "en": "recognized"
+   },
+   {
+    "da": "elsket",
+    "en": "loved"
+   },
+   {
+    "da": "overset",
+    "en": "overlooked"
+   }
+  ],
+  "sentence": {
+   "da": "Hun føler sig **værdsat**, fordi chefen takker hende hver uge.",
+   "en": "She feels appreciated because her boss thanks her every week."
+  }
+ },
  "værre": {
   "explanation": "\"Værre\" means \"worse\" and is the step up from dårlig (bad). Before a thing it can add emphasis, as in et værre rod (quite a mess).",
   "forms": [
@@ -7890,6 +13422,45 @@
   "sentence": {
    "da": "I dag er vejret **værst**.",
    "en": "Today the weather is the worst."
+  }
+ },
+ "væsentlig": {
+  "explanation": "\"Væsentlig\" means \"significant\" and \"essential\", about the part of a matter that really counts. It is mostly used for points, differences and changes rather than for people, where Danes say vigtig (important).",
+  "forms": [
+   {
+    "da": "en væsentlig ændring",
+    "en": "a significant change"
+   },
+   {
+    "da": "et væsentligt punkt",
+    "en": "an essential point"
+   },
+   {
+    "da": "væsentlige fejl",
+    "en": "significant mistakes"
+   }
+  ],
+  "related": [
+   {
+    "da": "afgørende",
+    "en": "decisive"
+   },
+   {
+    "da": "betydelig",
+    "en": "considerable"
+   },
+   {
+    "da": "central",
+    "en": "central"
+   },
+   {
+    "da": "uvæsentlig",
+    "en": "insignificant"
+   }
+  ],
+  "sentence": {
+   "da": "Der er en **væsentlig** forskel på de to tilbud.",
+   "en": "There is a significant difference between the two offers."
   }
  }
 }
