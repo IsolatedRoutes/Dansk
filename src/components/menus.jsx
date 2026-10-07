@@ -23,7 +23,7 @@ const NOUN_CHOICES = [
 
 export const DEFAULT_NOUN_OPTS = ["en", "et"];
 
-const menuRowStyle = (active) => ({
+export const menuRowStyle = (active) => ({
   display: "flex",
   alignItems: "center",
   gap: 8,
@@ -50,7 +50,7 @@ const menuHeadingStyle = {
 };
 
 // The button + floating panel both menus share.
-function MenuDropdown({ label, open, setOpen, align = "left", width = 320, children }) {
+export function MenuDropdown({ label, open, setOpen, align = "left", width = 320, children }) {
   return (
     <div style={{ position: "relative" }}>
       <button

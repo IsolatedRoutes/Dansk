@@ -3,7 +3,8 @@ import { AIErrorNote } from "../components/AIErrorNote";
 import { CategoryPicker } from "../components/CategoryPicker";
 import { Icon } from "../components/icons";
 import { renderInlineMarkdown } from "../components/markdown";
-import { CenteredOverlay, SectionTitle, inputStyle, smallBtn } from "../components/ui";
+import { CenteredOverlay, inputStyle } from "../components/ui";
+import { ActionRow, BigCard, PickMenu, PickRow, PillButton, Stage, quietLink } from "../components/layout";
 import { LOOKUP_SYSTEM, cardTypeFor, lookupUserText, readLookup } from "../lib/addLookup";
 import { formsField } from "../lib/ownFormsCore";
 import { GRAMMAR_GROUPS, LEVELS, LESSONS_ID, isLessonsCategory, topicNamesForAI } from "../data/categories";
@@ -195,53 +196,63 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   const levelName = (LEVELS.find((l) => l.id === level) || {}).name;
   const catName = (categories.find((c) => c.id === category) || {}).name;
   const detailsSummary = [groupName && guessType === "word" ? groupName.replace(/s$/, "") : "", levelName, catName].filter(Boolean).join(" · ");
-  const linkBtn = { border: "none", background: "none", color: "var(--fjord)", fontFamily: "var(--sans)", fontSize: 12.5, fontWeight: 600, cursor: "pointer", padding: 0 };
+
+  const hasText = !!(text || other || front || back || notes);
+  const modeOptions = [
+    { id: "card", label: "Word or sentence" },
+    { id: "grammar", label: "Grammar lesson" },
+  ];
+  const langOptions = [
+    { id: "auto", label: "Detect language" },
+    { id: "da", label: "Danish" },
+    { id: "en", label: "English" },
+  ];
+  const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "center", padding: "2px 0" };
 
   return (
-    <div>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-        <SectionTitle>{mode === "grammar" ? "Add a grammar lesson" : "Add a card"}</SectionTitle>
-        {(text || other || front || back || notes) && (
-          <button
-            onClick={clearForm}
-            style={{ display: "flex", alignItems: "center", gap: 4, border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, cursor: "pointer", padding: 4 }}
-          >
-            <Icon.Trash2 size={12} /> Clear
-          </button>
+    <Stage>
+      <PickRow>
+        <PickMenu
+          ariaLabel="What to add"
+          value={mode}
+          options={modeOptions}
+          onChange={(id) => {
+            setMode(id);
+            setLookupError("");
+            setSubmitError("");
+          }}
+        />
+        {mode === "card" && (
+          <PickMenu
+            ariaLabel="Language"
+            value={lang}
+            options={langOptions}
+            onChange={(id) => {
+              setLang(id);
+              setResult(null);
+            }}
+          />
         )}
-      </div>
-      <div style={{ height: 10 }} />
+      </PickRow>
 
       {mode === "card" ? (
         <>
-          <div
-            style={{
-              border: "1px solid var(--line)",
-              borderRadius: 22,
-              background: "#FBFAF7",
-              minHeight: "clamp(220px, calc(100dvh - 470px), 330px)",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "24px 20px 18px",
-              textAlign: "center",
-            }}
-          >
-            <div style={{ flex: 1, width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", gap: 10 }}>
+          <BigCard>
+            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
               {result ? (
                 <>
                   <input
                     value={result.da}
                     onChange={(e) => setResult({ ...result, da: e.target.value })}
                     aria-label="Danish"
-                    style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 32, color: "var(--terracotta)", textAlign: "center", padding: "2px 0" }}
+                    style={{ ...bareInput, fontFamily: "var(--serif)", fontSize: 32, color: "var(--terracotta)" }}
                   />
+                  <div style={{ height: 1, width: 60, background: "var(--line)" }} />
                   <input
                     value={result.en}
                     onChange={(e) => setResult({ ...result, en: e.target.value })}
                     aria-label="English"
-                    style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", color: "var(--sage)", textAlign: "center", padding: "2px 0" }}
+                    style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", color: "var(--sage)" }}
                   />
                 </>
               ) : (
@@ -250,93 +261,73 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     value={text}
                     onChange={(e) => changeText(e.target.value)}
                     autoCapitalize="none"
-                    rows={2}
+                    rows={3}
                     aria-label="Word or sentence"
                     className="soft"
-                    style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", textAlign: "center", fontFamily: "var(--serif)", fontSize: 22, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 110, overflowY: "auto" }}
+                    style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
                     placeholder="A word or sentence, in Danish or English"
                   />
                   {showOther && (
                     <>
-                      <div style={{ height: 1, background: "var(--line)", margin: "0 20px" }} />
+                      <div style={{ height: 1, width: 60, background: "var(--line)" }} />
                       <input
                         value={other}
                         onChange={(e) => setOther(e.target.value)}
                         autoCapitalize="none"
                         className="soft"
-                        style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)", textAlign: "center", padding: "2px 0" }}
-                        placeholder={lang === "en" ? "The Danish" : lang === "da" ? "The English" : "The translation (choose Danish or English below)"}
+                        style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)" }}
+                        placeholder={lang === "en" ? "The Danish" : lang === "da" ? "The English" : "The translation (choose Danish or English above)"}
                       />
                     </>
                   )}
                 </>
               )}
             </div>
-            {result ? (
-              <button
-                onClick={() => setShowDetails(!showDetails)}
-                style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card, #FBFAF7)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
-              >
-                <span>{detailsSummary || "Details"}</span>
-                <Icon.ChevronDown size={14} style={{ transform: showDetails ? "rotate(180deg)" : "none" }} />
-              </button>
-            ) : (
-              <div style={{ display: "flex", gap: 16 }}>
-                {[["auto", "Detect language"], ["da", "Danish"], ["en", "English"]].map(([id, label]) => (
-                  <button
-                    key={id}
-                    onClick={() => {
-                      setLang(id);
-                      setResult(null);
-                    }}
-                    style={{ border: "none", background: "none", padding: "2px 0", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 14, color: lang === id ? "var(--terracotta)" : "var(--muted)", fontWeight: lang === id ? 700 : 400, borderBottom: "1.5px solid " + (lang === id ? "var(--terracotta)" : "transparent") }}
-                  >
-                    {label}
-                  </button>
-                ))}
+            {(result || showOther) && (
+              <div style={{ display: "flex", justifyContent: "center", paddingBottom: 18 }}>
+                <button
+                  onClick={() => setShowDetails(!showDetails)}
+                  style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
+                >
+                  <span>{detailsSummary || "Details"}</span>
+                  <Icon.ChevronDown size={14} style={{ transform: showDetails ? "rotate(180deg)" : "none" }} />
+                </button>
               </div>
             )}
-          </div>
+          </BigCard>
 
-          {!result && !showOther && (
-            <div style={{ display: "flex", justifyContent: "center", margin: "18px 0 4px" }}>
-              <button
-                onClick={lookup}
-                disabled={looking || !text.trim()}
-                style={{ display: "flex", alignItems: "center", gap: 8, border: "none", background: "var(--terracotta)", borderRadius: 999, padding: "12px 30px", color: "#fff", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 700, cursor: text.trim() ? "pointer" : "default", opacity: text.trim() ? 1 : 0.45 }}
-              >
-                {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
-                {looking ? "Looking up…" : "Look up"}
-              </button>
-            </div>
-          )}
+          <ActionRow>
+            {result ? (
+              <>
+                <PillButton kind="secondary" onClick={resetCard}>Start over</PillButton>
+                <PillButton onClick={submit}>Add card</PillButton>
+              </>
+            ) : (
+              <>
+                <PillButton
+                  kind="secondary"
+                  onClick={() => {
+                    setShowOther(!showOther);
+                    setOther("");
+                  }}
+                >
+                  {showOther ? "Use Look up" : "Type it myself"}
+                </PillButton>
+                {showOther ? (
+                  <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
+                ) : (
+                  <PillButton onClick={lookup} disabled={looking || !text.trim()}>
+                    {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
+                    {looking ? "Looking up…" : "Look up"}
+                  </PillButton>
+                )}
+              </>
+            )}
+          </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
 
-          {!result && (
-            <div style={{ textAlign: "center", marginTop: 12 }}>
-              <button
-                onClick={() => {
-                  setShowOther(!showOther);
-                  setOther("");
-                }}
-                style={{ ...linkBtn, color: "var(--muted)", fontWeight: 400, fontSize: 13 }}
-              >
-                {showOther ? "Use Look up instead" : "Type the translation yourself"}
-              </button>
-            </div>
-          )}
-
-          {showOther && !result && (
-            <button
-              onClick={() => setShowDetails(!showDetails)}
-              style={{ display: "flex", alignItems: "center", gap: 6, border: "none", background: "none", cursor: "pointer", padding: "14px 2px 6px", margin: "0 auto", fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)" }}
-            >
-              <span>{detailsSummary || "Details"}</span>
-              <Icon.ChevronDown size={14} style={{ transform: showDetails ? "rotate(180deg)" : "none" }} />
-            </button>
-          )}
           {(result || showOther) && showDetails && (
-            <div style={{ display: "flex", flexDirection: "column", gap: 10, margin: "12px 0 6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, margin: "4px 0 6px" }}>
               <div style={{ display: "flex", gap: 10 }}>
                 {guessType === "word" && (
                   <select
@@ -389,49 +380,48 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         </>
       ) : (
         <>
-          <div style={{ border: "1px solid var(--line)", borderRadius: 22, background: "#FBFAF7", padding: "20px 20px 14px" }}>
-            <input
-              value={front}
-              onChange={(e) => setFront(e.target.value)}
-              aria-label="Grammar point name"
-              className="soft"
-              style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 22, color: "var(--terracotta)", padding: "2px 0" }}
-              placeholder="Name of the lesson"
-            />
-            <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
-            <textarea
-              value={back}
-              onChange={(e) => setBack(e.target.value)}
-              aria-label="Explanation"
-              className="soft"
-              rows={4}
-              style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0 }}
-              placeholder="What it means and when to use it"
-            />
-            {examples.map((ex, i) => (
-              <div key={i} style={{ borderTop: "1px solid var(--line)", paddingTop: 8, marginTop: 8 }}>
-                <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)", padding: "2px 0" }} />
-                <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
+          <BigCard>
+            <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: "22px 22px 12px" }}>
+              <input
+                value={front}
+                onChange={(e) => setFront(e.target.value)}
+                aria-label="Grammar point name"
+                className="soft"
+                style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 24, color: "var(--terracotta)", padding: "2px 0" }}
+                placeholder="Name of the lesson"
+              />
+              <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
+              <textarea
+                value={back}
+                onChange={(e) => setBack(e.target.value)}
+                aria-label="Explanation"
+                className="soft"
+                rows={4}
+                style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0 }}
+                placeholder="What it means and when to use it"
+              />
+              {examples.map((ex, i) => (
+                <div key={i} style={{ borderTop: "1px solid var(--line)", paddingTop: 8, marginTop: 8 }}>
+                  <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)", padding: "2px 0" }} />
+                  <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
+                </div>
+              ))}
+              <div style={{ textAlign: "center", marginTop: 10 }}>
+                <button onClick={addExampleRow} style={quietLink}>
+                  + Add an example
+                </button>
               </div>
-            ))}
-            <div style={{ textAlign: "center", marginTop: 10 }}>
-              <button onClick={addExampleRow} style={{ ...linkBtn, color: "var(--muted)", fontWeight: 400, fontSize: 13 }}>
-                + Add an example
-              </button>
+              <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ width: "100%", border: "none", borderTop: "1px solid var(--line)", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", padding: "10px 0 0", marginTop: 10 }} placeholder="Note (optional)" />
             </div>
-          </div>
-          <div style={{ display: "flex", justifyContent: "center", margin: "18px 0 4px" }}>
-            <button
-              onClick={lookupGrammar}
-              disabled={!front.trim() || lookingUp}
-              style={{ display: "flex", alignItems: "center", gap: 8, border: "none", background: "var(--terracotta)", borderRadius: 999, padding: "12px 30px", color: "#fff", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 700, cursor: front.trim() ? "pointer" : "default", opacity: front.trim() ? 1 : 0.45 }}
-            >
+          </BigCard>
+          <ActionRow>
+            <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
               {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
               {lookingUp ? "Asking…" : "Ask AI to explain"}
-            </button>
-          </div>
+            </PillButton>
+            <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
+          </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
-          <textarea value={notes} onChange={(e) => setNotes(e.target.value)} className="soft" style={{ ...inputStyle, minHeight: 54, borderRadius: 12, marginTop: 10, resize: "none" }} placeholder="Note (optional)" />
         </>
       )}
 
@@ -453,30 +443,20 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
               ))}
             </div>
           )}
-          <button onClick={useGrammarPreview} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "10px", fontSize: 14 }}>
-            Use this
-          </button>
+          <div style={{ textAlign: "center" }}>
+            <PillButton onClick={useGrammarPreview}>Use this</PillButton>
+          </div>
         </CenteredOverlay>
       )}
 
-      {submitError && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, marginBottom: 8 }}>{submitError}</div>}
-      {ready && (
-        <button onClick={submit} style={{ ...smallBtn("var(--rust)"), width: "100%", padding: "12px", fontSize: 15, marginTop: 14 }}>
-          {mode === "grammar" ? "Add lesson" : "Add card"}
-        </button>
+      {submitError && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, textAlign: "center" }}>{submitError}</div>}
+      {hasText && (
+        <div style={{ textAlign: "center" }}>
+          <button onClick={clearForm} style={quietLink}>
+            Clear
+          </button>
+        </div>
       )}
-      <div style={{ textAlign: "center", marginTop: 18 }}>
-        <button
-          onClick={() => {
-            setMode(mode === "grammar" ? "card" : "grammar");
-            setLookupError("");
-            setSubmitError("");
-          }}
-          style={{ ...linkBtn, color: "var(--muted)", fontWeight: 400 }}
-        >
-          {mode === "grammar" ? "Back to adding a word or sentence" : "Add a grammar lesson instead"}
-        </button>
-      </div>
-    </div>
+    </Stage>
   );
 }

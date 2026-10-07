@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Icon } from "../../components/icons";
-import { EmptyState, Pill, SectionTitle, smallBtn } from "../../components/ui";
+import { ActionRow, BigCard, PickMenu, PickRow, PillButton, Stage } from "../../components/layout";
 import { ChatConversation } from "./ChatConversation";
 import { PhotoPanel } from "./PhotoPanel";
 import { TextExtractPanel } from "./TextExtractPanel";
@@ -13,15 +13,18 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
   // (children first), so it can be cleared right after.
   useEffect(() => {
     if (!incoming || !engine) return;
-    setMode(incoming.imageBase64 ? "photo" : "article");
+    setMode(incoming.imageBase64 ? "photo" : "translate");
     if (onIncomingUsed) onIncomingUsed();
   }, [incoming, engine, onIncomingUsed]);
 
-  const quickActions = [
-    { id: "chat", label: "Chat", icon: Icon.MessageCircle },
-    { id: "article", label: "Translate", icon: Icon.FileText },
-    { id: "photo", label: "Photo", icon: Icon.Camera },
+  const modes = [
+    { id: "chat", label: "Ask" },
+    { id: "translate", label: "Translate" },
+    { id: "analyze", label: "Analyze sentence" },
+    { id: "extract", label: "Extract text" },
+    { id: "photo", label: "Photo" },
   ];
+  const isText = mode === "translate" || mode === "analyze" || mode === "extract";
 
   if (engine === undefined) {
     return (
@@ -31,49 +34,52 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
     );
   }
 
+  if (!engine) {
+    return (
+      <Stage>
+        <BigCard>
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 24 }}>
+            <div style={{ fontFamily: "var(--serif)", fontSize: 22 }}>Set up your AI</div>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.5, marginTop: 8, maxWidth: 300 }}>
+              The Assistant answers questions about Danish, explains grammar, translates text and reads photos. It takes about two minutes, and Gemini is free.
+            </div>
+          </div>
+        </BigCard>
+        <ActionRow>
+          <PillButton onClick={onOpenSettings}>Set up AI</PillButton>
+        </ActionRow>
+      </Stage>
+    );
+  }
+
+  const body = (
+    <>
+      <PickRow>
+        <PickMenu ariaLabel="Assistant mode" value={mode} options={modes} onChange={setMode} />
+      </PickRow>
+
+      {/* Every panel stays mounted so switching between them doesn't
+          wipe out what you were in the middle of typing — only the
+          active one is visible, the rest are just hidden. The three text
+          actions share one panel (and one box of text). */}
+      <div style={{ display: mode === "chat" ? "block" : "none" }}>
+        <ChatConversation engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} showToast={showToast} onOpenSettings={onOpenSettings} />
+      </div>
+      <div style={{ display: isText ? "block" : "none" }}>
+        <TextExtractPanel action={mode} incomingText={incoming && !incoming.imageBase64 ? incoming : null} engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
+      </div>
+      <div style={{ display: mode === "photo" ? "block" : "none" }}>
+        <PhotoPanel incomingImage={incoming && incoming.imageBase64 ? incoming : null} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
+      </div>
+    </>
+  );
+
+  // The text actions sit in the middle of the screen like Add; Ask and Photo
+  // need room, so they start at the top.
+  // One wrapper for every mode, so switching never remounts the panels.
   return (
-    <div>
-      <SectionTitle>Ask your tutor</SectionTitle>
-      <div style={{ height: 12 }} />
-
-      {!engine && (
-        <>
-          <EmptyState icon={Icon.MessageCircle} title="Set up your AI to use the Assistant" body="The Assistant answers questions about Danish, explains grammar, translates text and reads photos. To turn it on, connect your own AI account. It takes a couple of taps." />
-          <div style={{ textAlign: "center" }}>
-            <button onClick={onOpenSettings} style={{ ...smallBtn("var(--rust)"), padding: "10px 20px", fontSize: 13.5 }}>
-              Set up AI
-            </button>
-          </div>
-        </>
-      )}
-
-      {engine && (
-        <>
-          <div style={{ display: "flex", gap: 6, marginBottom: 14, overflowX: "auto" }}>
-            {quickActions.map((a) => (
-              <Pill key={a.id} color="var(--fjord)" active={mode === a.id} onClick={() => setMode(a.id)}>
-                <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-                  <a.icon size={12} />
-                  {a.label}
-                </span>
-              </Pill>
-            ))}
-          </div>
-
-          {/* Every panel stays mounted so switching between them doesn't
-              wipe out what you were in the middle of typing — only the
-              active one is visible, the rest are just hidden. */}
-          <div style={{ display: mode === "chat" ? "block" : "none" }}>
-            <ChatConversation engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} showToast={showToast} onOpenSettings={onOpenSettings} />
-          </div>
-          <div style={{ display: mode === "article" ? "block" : "none" }}>
-            <TextExtractPanel incomingText={incoming && !incoming.imageBase64 ? incoming : null} engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
-          </div>
-          <div style={{ display: mode === "photo" ? "block" : "none" }}>
-            <PhotoPanel incomingImage={incoming && incoming.imageBase64 ? incoming : null} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
-          </div>
-        </>
-      )}
+    <div style={{ minHeight: isText ? "calc(100dvh - 210px)" : undefined, display: "flex", flexDirection: "column", justifyContent: isText ? "center" : "flex-start", gap: 12, paddingTop: isText ? 0 : 16 }}>
+      {body}
     </div>
   );
 }

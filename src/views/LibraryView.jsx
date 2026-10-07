@@ -140,103 +140,21 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
 
   return (
     <div>
-      <div style={{ position: "relative", marginBottom: 12 }}>
-        <Icon.Search size={15} style={{ position: "absolute", left: 10, top: 10, color: "var(--muted)" }} />
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search your deck"
-          style={{ ...inputStyle, padding: "9px 10px 9px 32px" }}
-        />
-      </div>
-
-      <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginBottom: 12 }}>
-        <button
-          onClick={() => setShowFilters((s) => !s)}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 6,
-            border: "1px solid " + (activeFilterCount > 0 ? "var(--fjord)" : "var(--line)"),
-            background: activeFilterCount > 0 ? "#EEF2F0" : "var(--card)",
-            borderRadius: 999,
-            padding: "7px 14px",
-            fontFamily: "var(--sans)",
-            fontSize: 13,
-            fontWeight: 600,
-            color: "var(--ink)",
-            cursor: "pointer",
-          }}
-        >
-          <Icon.Layers size={13} />
-          Filters
-          {activeFilterCount > 0 && (
-            <span
-              style={{
-                background: "var(--fjord)",
-                color: "#FBFAF7",
-                borderRadius: 999,
-                minWidth: 18,
-                height: 18,
-                display: "inline-flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 11,
-                padding: "0 5px",
-              }}
-            >
-              {activeFilterCount}
-            </span>
-          )}
-          {showFilters ? <Icon.ChevronUp size={13} /> : <Icon.ChevronDown size={13} />}
+      <div style={{ display: "flex", gap: 10, marginBottom: 12 }}>
+        <button onClick={() => setShowFilters((s) => !s)} aria-expanded={showFilters} style={dropBtn(activeFilterCount > 0)}>
+          <span>
+            Filters
+            {activeFilterCount > 0 && (
+              <span style={{ marginLeft: 8, background: "var(--fjord)", color: "#FBFAF7", borderRadius: 999, minWidth: 18, height: 18, display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: 11, padding: "0 5px" }}>
+                {activeFilterCount}
+              </span>
+            )}
+          </span>
+          <Icon.ChevronDown size={14} style={{ color: "var(--muted)", transform: showFilters ? "rotate(180deg)" : "none" }} />
         </button>
-        <button
-          onClick={() => setSortDir(sortDir === "asc" ? "desc" : "asc")}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 5,
-            border: "1px solid var(--line)",
-            background: "var(--card)",
-            borderRadius: 999,
-            padding: "7px 14px",
-            fontFamily: "var(--sans)",
-            fontSize: 13,
-            fontWeight: 600,
-            color: "var(--ink)",
-            cursor: "pointer",
-          }}
-        >
-          {sortDir === "asc" ? "A–Z" : "Z–A"}
-          {sortDir === "asc" ? <Icon.ArrowDown size={12} /> : <Icon.ArrowUp size={12} />}
-        </button>
-        <button
-          onClick={() => setEnglishFirst((v) => !v)}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 5,
-            border: "1px solid var(--line)",
-            background: "var(--card)",
-            borderRadius: 999,
-            padding: "7px 13px",
-            fontFamily: "var(--sans)",
-            fontSize: 13,
-            whiteSpace: "nowrap",
-            color: "var(--muted)",
-            cursor: "pointer",
-          }}
-        >
-          {englishFirst ? (
-            <>
-              <span style={{ fontStyle: "italic" }}>English</span> → <span style={{ color: "var(--terracotta)" }}>Dansk</span>
-            </>
-          ) : (
-            <>
-              <span style={{ color: "var(--terracotta)" }}>Dansk</span> → <span style={{ fontStyle: "italic" }}>English</span>
-            </>
-          )}
-          <Icon.RotateCcw size={11} />
+        <button onClick={() => setSortDir(sortDir === "asc" ? "desc" : "asc")} style={dropBtn(false)}>
+          <span>{sortDir === "asc" ? "A–Z" : "Z–A"}</span>
+          {sortDir === "asc" ? <Icon.ArrowDown size={13} style={{ color: "var(--muted)" }} /> : <Icon.ArrowUp size={13} style={{ color: "var(--muted)" }} />}
         </button>
       </div>
 
@@ -307,12 +225,38 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
         </div>
       )}
 
-      <div>
+      <div style={{ border: "1px solid var(--line)", borderRadius: 16, background: "var(--card)", overflow: "hidden" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "4px 12px 4px 14px" }}>
+          <Icon.Search size={15} style={{ color: "var(--muted)", flexShrink: 0 }} />
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search your deck"
+            className="soft"
+            style={{ flex: 1, minWidth: 0, border: "none", background: "none", outline: "none", fontSize: 16, padding: "9px 0", color: "var(--ink)" }}
+          />
+          <button
+            onClick={() => setEnglishFirst((v) => !v)}
+            aria-label="Switch language order"
+            style={{ display: "flex", alignItems: "center", gap: 5, border: "none", background: "none", fontFamily: "var(--sans)", fontSize: 12.5, whiteSpace: "nowrap", color: "var(--muted)", cursor: "pointer", padding: 4 }}
+          >
+            {englishFirst ? (
+              <>
+                <span style={{ fontStyle: "italic" }}>English</span> → <span style={{ color: "var(--terracotta)" }}>Dansk</span>
+              </>
+            ) : (
+              <>
+                <span style={{ color: "var(--terracotta)" }}>Dansk</span> → <span style={{ fontStyle: "italic" }}>English</span>
+              </>
+            )}
+            <Icon.RotateCcw size={11} />
+          </button>
+        </div>
         {groups.length === 0 ? (
           <EmptyState icon={Icon.Layers} title="No matching cards" body="Try a different filter, or add new cards from the Add tab or Chat." />
         ) : (
           groups.map((g) => (
-            <div key={g.letter} style={{ marginBottom: 8 }}>
+            <div key={g.letter} style={{ borderTop: "1px solid var(--line)" }}>
               <button
                 onClick={() => toggleLetter(g.letter)}
                 style={{
@@ -320,10 +264,9 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
                   alignItems: "center",
                   justifyContent: "space-between",
                   width: "100%",
-                  border: "1px solid var(--line)",
-                  background: "var(--card)",
-                  borderRadius: 10,
-                  padding: "10px 14px",
+                  border: "none",
+                  background: "none",
+                  padding: "11px 16px",
                   cursor: "pointer",
                 }}
               >
@@ -331,7 +274,7 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
                 {expandedLetters.has(g.letter) ? <Icon.ChevronUp size={14} color="var(--muted)" /> : <Icon.ChevronDown size={14} color="var(--muted)" />}
               </button>
               {expandedLetters.has(g.letter) && (
-                <div style={{ marginTop: 8 }}>
+                <div>
                   {g.cards.map((c) => (
                     <div key={c.id}>
                       <LibraryRow
@@ -407,6 +350,21 @@ export function LibraryView({ cards, categories, updateCard, deleteCard, onOpenS
   );
 }
 
+// Same look as Study's dropdown boxes.
+const dropBtn = (on) => ({
+  ...inputStyle,
+  flex: 1,
+  minWidth: 0,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  gap: 6,
+  cursor: "pointer",
+  color: "var(--ink)",
+  textAlign: "left",
+  borderColor: on ? "var(--fjord)" : "var(--line)",
+});
+
 function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, onToggleStar, onToggleKnown, onToggleIgnored, onDelete, onExplore }) {
   const [front, setFront] = useState(card.front);
   const [back, setBack] = useState(card.back);
@@ -425,7 +383,7 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
 
   if (editing) {
     return (
-      <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 10, padding: 12, marginBottom: 8 }}>
+      <div style={{ borderTop: "1px solid var(--line)", padding: "12px 16px" }}>
         <input value={front} onChange={(e) => setFront(e.target.value)} autoCapitalize={card.type === "word" ? "none" : "sentences"} style={inputStyle} placeholder="Danish" />
         <input value={back} onChange={(e) => setBack(e.target.value)} autoCapitalize={card.type === "word" ? "none" : "sentences"} style={{ ...inputStyle, marginTop: 6 }} placeholder="English" />
         <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, marginTop: 6, minHeight: 50 }} placeholder="Notes (optional)" />
@@ -443,7 +401,7 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
 
   if (confirmingDelete) {
     return (
-      <div style={{ background: "var(--card)", border: "1px solid var(--rust)", borderRadius: 10, padding: 12, marginBottom: 8 }}>
+      <div style={{ borderTop: "1px solid var(--line)", background: "#F8EDE9", padding: "12px 16px" }}>
         <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--ink)", marginBottom: 10 }}>
           Delete <strong>{card.front}</strong>? This can't be undone.
         </div>
@@ -460,7 +418,7 @@ function LibraryRow({ card, categories, editing, englishFirst, onEdit, onSave, o
   }
 
   return (
-    <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 10, padding: 12, marginBottom: 8, opacity: card.ignored ? 0.45 : card.known ? 0.6 : 1 }}>
+    <div style={{ borderTop: "1px solid var(--line)", padding: "12px 16px", opacity: card.ignored ? 0.45 : card.known ? 0.6 : 1 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div>
           <div style={{ fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)" }}>{englishFirst ? card.back : card.front}</div>

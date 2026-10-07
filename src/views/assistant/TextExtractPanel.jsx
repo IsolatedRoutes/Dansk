@@ -7,6 +7,7 @@ import { SentenceResult } from "../../components/SentenceResult";
 import { analysisLevelHint } from "../../lib/analysisLevel";
 import { readSentenceResult, initialSentenceSelection, cardsFromSentenceSelection } from "../../lib/sentenceResult";
 import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
+import { ActionRow, BigCard, PillButton } from "../../components/layout";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
@@ -23,7 +24,7 @@ import { loadingCopy } from "./ChatConversation";
 
 // ---------- Article vocabulary panel ----------
 
-export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings, incomingText }) {
+export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings, incomingText, action = "translate" }) {
   const [text, setText] = useState("");
   const textareaRef = useRef(null);
 
@@ -280,64 +281,41 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
     setSelected({});
     setItemCategory({});
     setError("");
-    if (textareaRef.current) textareaRef.current.style.height = "auto";
   }
 
   const lookupIsWordLike = lookupResult && lookupResult.da && lookupResult.da.trim().split(/\s+/).length <= 4;
 
+  const actions = {
+    translate: { label: "Translate", run: translate, busy: lookupLoading, placeholder: "Paste or type a text to translate" },
+    analyze: { label: "Analyze", run: analyzeSentence, busy: sentenceLoading, placeholder: "Type or paste a Danish sentence" },
+    extract: { label: "Extract", run: analyzeText, busy: analyzing, placeholder: "Paste a text to pick useful words from" },
+  };
+  const act = actions[action] || actions.translate;
+
   return (
-    <div>
-      {(text || lookupResult || sentenceResult || analysis) && (
-        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 6 }}>
-          <button
-            onClick={clearAll}
-            style={{ display: "flex", alignItems: "center", gap: 4, border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, cursor: "pointer", padding: 4 }}
-          >
-            <Icon.Trash2 size={12} /> Clear
-          </button>
-        </div>
-      )}
-      <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginBottom: 10, lineHeight: 1.5 }}>
-        Type or paste anything — a word, a sentence, or a longer passage — then translate it, get the grammar
-        explained, or pull out the key vocabulary worth learning from it.
-      </div>
-      <textarea
-        ref={textareaRef}
-        value={text}
-        onChange={(e) => {
-          setText(e.target.value);
-          e.target.style.height = "auto";
-          e.target.style.height = e.target.scrollHeight + "px";
-        }}
-        placeholder='e.g. "hyggelig", "hvis jeg kunne, ville jeg", or a longer passage…'
-        style={{ ...inputStyle, minHeight: 100, overflow: "hidden", resize: "none" }}
-      />
-      <div style={{ display: "flex", gap: 6, marginTop: 10 }}>
-        <button
-          onClick={translate}
-          disabled={!text.trim() || lookupLoading}
-          style={{ ...smallBtn("var(--fjord)"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5, opacity: text.trim() ? 1 : 0.5 }}
-        >
-          {lookupLoading ? <Icon.Loader2 size={12} className="spin" /> : null}
-          {lookupLoading ? loadingCopy(engine) : "Translate"}
-        </button>
-        <button
-          onClick={analyzeSentence}
-          disabled={!text.trim() || sentenceLoading}
-          style={{ ...smallBtn("#8C6FA0"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5, opacity: text.trim() ? 1 : 0.5 }}
-        >
-          {sentenceLoading ? <Icon.Loader2 size={12} className="spin" /> : null}
-          {sentenceLoading ? loadingCopy(engine) : "Analyze sentence"}
-        </button>
-        <button
-          onClick={analyzeText}
-          disabled={!text.trim() || analyzing}
-          style={{ ...smallBtn("var(--rust)"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5, opacity: text.trim() ? 1 : 0.5 }}
-        >
-          {analyzing ? <Icon.Loader2 size={12} className="spin" /> : null}
-          {analyzing ? loadingCopy(engine) : "Extract text"}
-        </button>
-      </div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+      <BigCard>
+        <textarea
+          ref={textareaRef}
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          aria-label="Text"
+          className="soft"
+          placeholder={act.placeholder}
+          style={{ flex: 1, minHeight: 0, width: "100%", border: "none", background: "none", outline: "none", resize: "none", padding: 22, fontFamily: "var(--serif)", fontSize: 22, lineHeight: 1.35, color: "var(--ink)" }}
+        />
+      </BigCard>
+      <ActionRow>
+        {(text || lookupResult || sentenceResult || analysis) && (
+          <PillButton kind="secondary" onClick={clearAll}>
+            Clear
+          </PillButton>
+        )}
+        <PillButton onClick={act.run} disabled={!text.trim() || act.busy}>
+          {act.busy ? <Icon.Loader2 size={15} className="spin" /> : null}
+          {act.busy ? loadingCopy(engine) : act.label}
+        </PillButton>
+      </ActionRow>
 
       <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
       <AIErrorNote message={sentenceError} onOpenSettings={onOpenSettings} />

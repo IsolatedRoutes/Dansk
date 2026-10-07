@@ -67,7 +67,7 @@ with sync_playwright() as p:
     page.wait_for_timeout(1500)
     boxes = page.evaluate(BOXES)
     check(any("Jeg hedder Anna" in b for b in boxes), "shared text appears in the Translate box")
-    check(page.get_by_text("Ask your tutor").is_visible(), "the Assistant opens by itself")
+    check(page.locator('[aria-label="Assistant mode"] button').first.inner_text().strip() == "Translate", "the Assistant opens by itself, on Translate")
     page.evaluate(SHARE, {"text": "Hvad koster det?"})
     page.wait_for_timeout(1200)
     boxes = page.evaluate(BOXES)

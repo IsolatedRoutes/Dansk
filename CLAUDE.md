@@ -56,6 +56,17 @@ update — and any future App Store or desktop version — must keep it.
 against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_test.py`
 (edit, backup, wipe, restore, offline) `python3 tests/secrets_test.py` (AI keys) and `python3 tests/voice_test.py` (spoken-Danish message) `python3 tests/settings_test.py` (Study choices survive a restart) `python3 tests/fresh_test.py` (new own cards come back soon) `python3 tests/sentence_test.py` (lightbulb "In a sentence", Add as card, Sentences & phrases) and `python3 tests/lightbulb_test.py` (ready-made lightbulb answers) and `python3 tests/icloud_test.py` (iCloud sync, with a pretend iCloud) and `python3 tests/share_test.py` (Share to Broen, with a pretend share folder) and `python3 tests/addcard_test.py` (one-box Add a card) and `python3 tests/analyze_test.py` (Analyze sentence, shorter Backup) and `node tests/srs_check.mjs` and `node tests/sync_check.mjs` (smart review, word order, sync); only ship when all print ALL PASSED.
 
+## Page layout (Add, Assistant, Library)
+Shared pieces in `src/components/layout.jsx`: `PickMenu` (a dropdown like Study's), `Stage` (centres the
+group between header and tab bar), `BigCard`, `PillButton` (terracotta = main action, white = secondary),
+`ActionRow`. No page titles; the dropdowns say where you are. Add: "Word or sentence / Grammar lesson" +
+language dropdown, one card, "Type it myself" / "Look up" / "Add card". Assistant: one mode dropdown
+(`aria-label` "Assistant mode": Ask, Translate, Analyze sentence, Extract text, Photo); the three text modes
+share ONE `TextExtractPanel` (`action` prop) and one box of text. ChatView uses one wrapper for all modes
+so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
+Filters / A–Z buttons above one cream list card (search inside it). Not yet restyled: the Ask chat,
+Photo panel, and the pop-ups (Backup, AI settings) — planned next, to one fixed size.
+
 ## Add a card (one box)
 One box takes a word or sentence in either language (`src/views/AddCardView.jsx`, logic in
 `src/lib/addLookup.js`). "Look up" (only when tapped) is ONE AI call that returns both sides,
