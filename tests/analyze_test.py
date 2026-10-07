@@ -29,12 +29,11 @@ GET = """() => new Promise((res) => { const r = indexedDB.open('dansk'); r.onsuc
 
 reply = {
   "correctionNote": "You wrote *jeg har gået*. For gå (go) use *er*: Jeg er gået (I have gone).",
-  "sameAsEnglish": "The rest is built the same way as English.",
-  "grammarPoints": [
-    {"grammarName": "Wearing something: have ... på", "rule": "This sentence shows the Danish rule where, to say you are wearing something, you say you have it on (har ... på), not 'wear'.", "line": {"da": "Jeg **har** sko **på**", "literal": "I have shoes on", "en": "I am wearing shoes"}, "explanation": "The little word på (on) also appears when you put clothes on: tage tøj på.", "usual": {"da": "Jeg tager jakken på.", "en": "I put the jacket on."}},
-    {"grammarName": "Second idea", "rule": "This sentence shows the Danish rule where two.", "line": {"da": "Eksempel to.", "literal": "", "en": "Example two."}, "explanation": "Second explanation.", "usual": {}},
-    {"grammarName": "Third idea", "rule": "This sentence shows the Danish rule where three.", "line": {"da": "Eksempel tre.", "literal": "", "en": "Example three."}, "explanation": "Third explanation.", "usual": {}},
-    {"grammarName": "Fourth idea", "rule": "Cut.", "line": {"da": "Eksempel fire.", "literal": "", "en": "Example four."}, "explanation": "Should be cut.", "usual": {}},
+  "sameAsEnglish": "The word order is the same as English.",
+  "points": [
+    {"title": "handlede om = was about", "literal": "dealt about", "explanation": "English says was about. Danish says handle (deal with) plus om (about). On its own, handle means to act or to trade.", "more": "The same om follows other verbs: tale om (talk about), spørge om (ask about)."},
+    {"title": "udlændingepolitik = foreigner + policy", "literal": "", "explanation": "Danish writes the two words as one: udlænding (foreigner) and politik (policy).", "more": ""},
+    {"title": "Third idea", "literal": "", "explanation": "Should be cut: two points at most.", "more": ""},
   ],
 }
 sent_prompts = []
@@ -56,22 +55,37 @@ with sync_playwright() as p:
     ta.fill("I går jeg har gået i skole")
     page.get_by_role("button", name="Analyze sentence").first.click(); page.wait_for_timeout(1500)
     body = page.inner_text("body")
-    check("This sentence shows the Danish rule where" in body, "each idea states the rule")
-    check("word for word: I have shoes on" in body, "the Danish is shown word for word")
-    check("I am wearing shoes" in body, "and how English says it")
-    check("You wrote" in body and body.index("You wrote") < body.index("Wearing something"), "a mistake note, when there is one, comes first")
-    check("The mistake" not in body and "Ideas worth knowing" not in body and "How this sentence works" not in body, "no headings")
-    check("Third idea" in body and "Fourth idea" not in body, "at most 3 ideas")
-    check("Second explanation" not in body, "the other ideas are folded away")
-    check("The rest is built the same way as English." in body, "says when it works like English")
-    check("Jeg tager jakken på" in body, "the contrast example is shown")
+    check("handlede om = was about" in body, "the first idea is shown with its title")
+    check("word for word: dealt about" in body, "the word-for-word line appears when given")
+    check("English says was about" in body, "the explanation is open for the first idea")
+    check("The same om follows other verbs" not in body, "the extra examples are behind More")
+    check("You wrote" in body and body.index("You wrote") < body.index("handlede om"), "a mistake note, when there is one, comes first")
+    check("This sentence shows" not in body and "The mistake" not in body and "Ideas worth knowing" not in body, "no headings or fixed opener")
+    check("Third idea" not in body, "at most 2 ideas")
+    check("The word order is the same as English." in body, "says when it works like English")
     check(any("Basic (A1–A2)" in x for x in sent_prompts), "the chosen Study level is sent to the AI")
-    page.get_by_label("Save Second idea").check()  # tick another idea without opening it
+    check(any("thinkingBudget" in x for x in sent_prompts), "the quick setting is used")
+    page.get_by_role("button", name="More", exact=True).first.click(); page.wait_for_timeout(200)
+    check("The same om follows other verbs" in page.inner_text("body"), "More opens the extra examples")
+    page.get_by_label("Save udlændingepolitik = foreigner + policy").check()  # tick the second idea without opening it
     page.get_by_role("button", name="Add selected to deck").click(); page.wait_for_timeout(1200)
     cards = json.loads(page.evaluate(GET))
-    mine = [c for c in cards if not c.get("starter") and c.get("front") in ("Wearing something: have ... på", "Jeg har sko på", "Jeg tager jakken på.", "Second idea", "Eksempel to.", "Third idea", "Eksempel tre.")]
+    mine = [c for c in cards if not c.get("starter") and c.get("type") == "grammar" and c.get("front") in ("handlede om = was about", "udlændingepolitik = foreigner + policy", "Third idea")]
     fronts = sorted(c["front"] for c in mine)
-    check(fronts == ["Eksempel to.", "Jeg har sko på", "Second idea", "Wearing something: have ... på"], "ideas ticked (even folded) are saved, others are not: %s" % fronts)
+    check(fronts == ["handlede om = was about", "udlændingepolitik = foreigner + policy"], "ticked ideas are saved as grammar cards: %s" % fronts)
+    # If Gemini refuses the quick setting, it is retried normally and still works.
+    refused = []
+    def picky(route):
+        body = route.request.post_data or ""
+        if "thinkingBudget" in body:
+            refused.append(1)
+            route.fulfill(status=400, content_type="application/json", body=json.dumps({"error": {"message": "thinking not supported"}}))
+        else:
+            route.fulfill(status=200, content_type="application/json", body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
+    page.unroute("**/generativelanguage.googleapis.com/**"); page.route("**/generativelanguage.googleapis.com/**", picky)
+    page.get_by_role("button", name="Analyze sentence").first.click(); page.wait_for_timeout(1500)
+    check(len(refused) >= 1 and "handlede om = was about" in page.inner_text("body"), "a refused quick setting is retried and still gives an answer")
+    page.get_by_label("Close").first.click(); page.wait_for_timeout(300)
     page.get_by_label("Backup and sync").click(); page.wait_for_timeout(500)
     b = page.inner_text("body")
     check("Weekly reminder" in b and "Export" in b and "Import" in b, "Backup shows two buttons and a switch")

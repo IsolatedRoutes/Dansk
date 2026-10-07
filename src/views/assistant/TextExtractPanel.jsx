@@ -5,7 +5,7 @@ import { Icon } from "../../components/icons";
 import { renderInlineMarkdown } from "../../components/markdown";
 import { SentenceResult } from "../../components/SentenceResult";
 import { analysisLevelHint } from "../../lib/analysisLevel";
-import { readSentenceResult, initialSentenceSelection } from "../../lib/sentenceResult";
+import { readSentenceResult, initialSentenceSelection, cardsFromSentenceSelection } from "../../lib/sentenceResult";
 import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
@@ -184,7 +184,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
       const reply = await callAI(
         "You are a patient Danish tutor for a self-taught learner who has foundational grammar gaps. " + CLARITY_RULES + "The user will give you text in English or Danish, from a single sentence to a longer passage, that they are trying to understand or say correctly." + SENTENCE_ANALYSIS_RULES + levelHint + knownWordsHint() + SENTENCE_ANALYSIS_JSON,
         text.trim(),
-        { maxTokens: 1500 }
+        { maxTokens: 900, fast: true }
       );
       const parsed = parseJSONLoose(reply);
       const read = readSentenceResult(parsed);
@@ -204,26 +204,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
 
   function addSentenceSelected() {
     if (!sentenceResult) return;
-    const toAdd = [];
-    sentenceResult.grammarPoints.forEach((point, i) => {
-      const sel = sentenceSelected[i] || {};
-      // Lessons go in Grammar Lessons; their example sentences need no category.
-      const catId = "";
-      if (sel.grammar) {
-        toAdd.push({
-          type: "grammar",
-          front: point.grammarName,
-          back: point.cardBack || point.explanation,
-          notes: "Example: " + point.mainExample.da + " — " + point.mainExample.en,
-          category: catId,
-          examples: point.examples,
-        });
-      }
-      if (sel.main) toAdd.push({ type: "sentence", front: point.mainExample.da.replace(/\*\*/g, ""), back: point.mainExample.en.replace(/\*\*/g, ""), category: catId });
-      (point.examples || []).forEach((ex, j) => {
-        if (sel.examples && sel.examples[j]) toAdd.push({ type: "sentence", front: ex.da.replace(/\*\*/g, ""), back: ex.en.replace(/\*\*/g, ""), category: catId });
-      });
-    });
+    const toAdd = cardsFromSentenceSelection(sentenceResult, sentenceSelected);
     if (toAdd.length === 0) return;
     addCards(toAdd);
     setSentenceResult(null);

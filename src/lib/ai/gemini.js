@@ -46,11 +46,21 @@ export async function callGeminiText(system, userText, opts) {
   const maxTokens = (opts && opts.maxTokens) || 1500;
   const history = (opts && opts.history) || [];
   const headers = await geminiHeaders();
-  return geminiGenerate(headers, {
+  const body = {
     systemInstruction: { parts: [{ text: system }] },
     contents: [...toGeminiHistory(history), { role: "user", parts: [{ text: userText }] }],
     generationConfig: { maxOutputTokens: maxTokens },
-  });
+  };
+  if (!(opts && opts.fast)) return geminiGenerate(headers, body);
+  // "fast": ask Gemini not to spend time thinking first (quicker answers for
+  // short explanations). If this model refuses that setting, try again normally.
+  try {
+    return await geminiGenerate(headers, { ...body, generationConfig: { ...body.generationConfig, thinkingConfig: { thinkingBudget: 0 } } });
+  } catch (e) {
+    const m = (e && e.message) || "";
+    if (m === "RATE_LIMITED" || m === "GEMINI_AUTH_ERROR" || m.indexOf("NETWORK_ERROR") >= 0) throw e;
+    return geminiGenerate(headers, body);
+  }
 }
 
 export async function callGeminiImage(system, userText, base64, mediaType, maxTokens) {
