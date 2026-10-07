@@ -3,9 +3,9 @@ import { Icon } from "./icons";
 export function TabBar({ tab, setTab }) {
   const items = [
     { id: "study", label: "Study", icon: Icon.GraduationCap },
-    { id: "library", label: "Library", icon: Icon.Layers },
-    { id: "add", label: "Add", icon: Icon.Plus },
     { id: "chat", label: "Assistant", icon: Icon.MessageCircle },
+    { id: "add", label: "Add", icon: Icon.Plus },
+    { id: "library", label: "Library", icon: Icon.Layers },
   ];
   return (
     <div
