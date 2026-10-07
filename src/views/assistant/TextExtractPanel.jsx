@@ -299,7 +299,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      <BigCard height="clamp(260px, calc(100dvh - 340px), 520px)">
+      <BigCard>
         <textarea
           ref={textareaRef}
           value={text}
@@ -315,13 +315,12 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
         {actionBtn("#8C6FA0", "Analyze sentence", sentenceLoading, analyzeSentence)}
         {actionBtn("var(--rust)", "Extract text", analyzing, analyzeText)}
       </div>
-      {(text || lookupResult || sentenceResult || analysis) && (
-        <div style={{ textAlign: "center" }}>
-          <button onClick={clearAll} style={quietLink}>
-            Clear
-          </button>
-        </div>
-      )}
+      {/* Always takes its space, so the group doesn't jump when text appears. */}
+      <div style={{ textAlign: "center", visibility: text || lookupResult || sentenceResult || analysis ? "visible" : "hidden" }}>
+        <button onClick={clearAll} style={quietLink}>
+          Clear
+        </button>
+      </div>
 
       <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
       <AIErrorNote message={sentenceError} onOpenSettings={onOpenSettings} />

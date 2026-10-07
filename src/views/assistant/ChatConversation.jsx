@@ -183,7 +183,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      <BigCard height="clamp(260px, calc(100dvh - 340px), 520px)">
+      <BigCard>
       <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: 16, display: "flex", flexDirection: "column", justifyContent: messages.length === 0 ? "center" : "flex-start" }}>
         {ready && messages.length === 0 && (
           <EmptyState
