@@ -1,3 +1,4 @@
+import { BigCard, quietLink } from "../../components/layout";
 import { useEffect, useRef, useState } from "react";
 import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
@@ -181,29 +182,9 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      {messages.length > 0 && (
-        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 6 }}>
-          <button
-            onClick={() => persist([])}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 4,
-              border: "none",
-              background: "none",
-              color: "var(--muted)",
-              fontFamily: "var(--sans)",
-              fontSize: 12,
-              cursor: "pointer",
-              padding: 4,
-            }}
-          >
-            <Icon.Trash2 size={12} /> Clear chat
-          </button>
-        </div>
-      )}
-      <div style={{ marginBottom: 10 }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+      <BigCard height="clamp(260px, calc(100dvh - 340px), 520px)">
+      <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: 16, display: "flex", flexDirection: "column", justifyContent: messages.length === 0 ? "center" : "flex-start" }}>
         {ready && messages.length === 0 && (
           <EmptyState
             icon={Icon.MessageCircle}
@@ -223,7 +204,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
                 className={m.role === "assistant" && !m.isError ? "popover" : undefined}
                 style={{
                   maxWidth: "82%",
-                  background: m.role === "user" ? "var(--fjord)" : "var(--card)",
+                  background: m.role === "user" ? "var(--fjord)" : "#fff",
                   color: m.role === "user" ? "#FBFAF7" : "var(--ink)",
                   border: m.role === "user" ? "none" : "1px solid var(--line)",
                   borderRadius: 16,
@@ -315,6 +296,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
         )}
         <div ref={scrollRef} />
       </div>
+      </BigCard>
       <div style={{ display: "flex", gap: 8 }}>
         <input
           value={input}
@@ -322,8 +304,8 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
           onKeyDown={(e) => {
             if (e.key === "Enter") send();
           }}
-          placeholder="Ask a question, or make a flashcard…"
-          style={{ ...inputStyle, flex: 1 }}
+          placeholder="Ask, or make a flashcard…"
+          style={{ ...inputStyle, flex: 1, borderRadius: 999, padding: "12px 18px" }}
         />
         <button
           onClick={send}
@@ -333,8 +315,8 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
             border: "none",
             background: "var(--rust)",
             color: "#FBFAF7",
-            borderRadius: 9,
-            width: 42,
+            borderRadius: 999,
+            width: 46,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -345,6 +327,13 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
           <Icon.Send size={16} />
         </button>
       </div>
+      {messages.length > 0 && (
+        <div style={{ textAlign: "center" }}>
+          <button onClick={() => persist([])} style={quietLink}>
+            Clear chat
+          </button>
+        </div>
+      )}
 
       {reviewingIdx !== null && messages[reviewingIdx] && (
         <CenteredOverlay onClose={() => setReviewingIdx(null)} maxWidth={460}>

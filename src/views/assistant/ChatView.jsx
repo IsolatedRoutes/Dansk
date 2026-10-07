@@ -7,7 +7,7 @@ import { PhotoPanel } from "./PhotoPanel";
 import { TextExtractPanel } from "./TextExtractPanel";
 
 export function ChatView({ categories, addCategory, addCards, showToast, engine, onOpenSettings, incoming, onIncomingUsed }) {
-  const [mode, setMode] = useState("chat");
+  const [mode, setMode] = useState("text");
 
   // Something shared from another app: a photo goes to Photo, text to Translate.
   // It waits here until the AI is set up. The panels read it in the same render
