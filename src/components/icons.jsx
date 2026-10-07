@@ -161,7 +161,7 @@ export const Icon = {
     </>
   )),
   // A round speech bubble with a small, evenly drawn tail at the lower left.
-  MessageCircle: makeIcon(() => <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z" />),
+  MessageCircle: makeIcon(() => <path d="M8.47 18.88A7.74 7.74 0 1 0 5.12 15.53L3.4 20.6z" />),
   Send: makeIcon(() => <polygon points="3,12 21,4 14,21 11,13" />),
   Download: makeIcon(() => (
     <>
