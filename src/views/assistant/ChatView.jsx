@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Icon } from "../../components/icons";
-import { ActionRow, BigCard, PickMenu, PickRow, PillButton, Stage } from "../../components/layout";
+import { ActionRow, BigCard, PillButton, Stage } from "../../components/layout";
+import { Pill } from "../../components/ui";
 import { ChatConversation } from "./ChatConversation";
 import { PhotoPanel } from "./PhotoPanel";
 import { TextExtractPanel } from "./TextExtractPanel";
@@ -13,18 +14,15 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
   // (children first), so it can be cleared right after.
   useEffect(() => {
     if (!incoming || !engine) return;
-    setMode(incoming.imageBase64 ? "photo" : "translate");
+    setMode(incoming.imageBase64 ? "photo" : "text");
     if (onIncomingUsed) onIncomingUsed();
   }, [incoming, engine, onIncomingUsed]);
 
   const modes = [
     { id: "chat", label: "Ask" },
-    { id: "translate", label: "Translate" },
-    { id: "analyze", label: "Analyze sentence" },
-    { id: "extract", label: "Extract text" },
+    { id: "text", label: "Text" },
     { id: "photo", label: "Photo" },
   ];
-  const isText = mode === "translate" || mode === "analyze" || mode === "extract";
 
   if (engine === undefined) {
     return (
@@ -52,34 +50,28 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
     );
   }
 
-  const body = (
-    <>
-      <PickRow>
-        <PickMenu ariaLabel="Assistant mode" value={mode} options={modes} onChange={setMode} />
-      </PickRow>
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 12, paddingTop: 16 }}>
+      <div style={{ display: "flex", gap: 8 }}>
+        {modes.map((m) => (
+          <Pill key={m.id} color="var(--fjord)" active={mode === m.id} onClick={() => setMode(m.id)}>
+            {m.label}
+          </Pill>
+        ))}
+      </div>
 
       {/* Every panel stays mounted so switching between them doesn't
           wipe out what you were in the middle of typing — only the
-          active one is visible, the rest are just hidden. The three text
-          actions share one panel (and one box of text). */}
+          active one is visible, the rest are just hidden. */}
       <div style={{ display: mode === "chat" ? "block" : "none" }}>
         <ChatConversation engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} showToast={showToast} onOpenSettings={onOpenSettings} />
       </div>
-      <div style={{ display: isText ? "block" : "none" }}>
-        <TextExtractPanel action={mode} incomingText={incoming && !incoming.imageBase64 ? incoming : null} engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
+      <div style={{ display: mode === "text" ? "block" : "none" }}>
+        <TextExtractPanel incomingText={incoming && !incoming.imageBase64 ? incoming : null} engine={engine} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
       </div>
       <div style={{ display: mode === "photo" ? "block" : "none" }}>
         <PhotoPanel incomingImage={incoming && incoming.imageBase64 ? incoming : null} categories={categories} addCategory={addCategory} addCards={addCards} onOpenSettings={onOpenSettings} />
       </div>
-    </>
-  );
-
-  // The text actions sit in the middle of the screen like Add; Ask and Photo
-  // need room, so they start at the top.
-  // One wrapper for every mode, so switching never remounts the panels.
-  return (
-    <div style={{ minHeight: isText ? "calc(100dvh - 210px)" : undefined, display: "flex", flexDirection: "column", justifyContent: isText ? "center" : "flex-start", gap: 12, paddingTop: isText ? 0 : 16 }}>
-      {body}
     </div>
   );
 }

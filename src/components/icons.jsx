@@ -160,12 +160,8 @@ export const Icon = {
       <rect x="7" y="14" width="10" height="6" />
     </>
   )),
-  MessageCircle: makeIcon(() => (
-    <>
-      <circle cx="12" cy="11" r="8" />
-      <polygon points="9,18 7,22 13,18" />
-    </>
-  )),
+  // A round speech bubble with a small, evenly drawn tail at the lower left.
+  MessageCircle: makeIcon(() => <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z" />),
   Send: makeIcon(() => <polygon points="3,12 21,4 14,21 11,13" />),
   Download: makeIcon(() => (
     <>

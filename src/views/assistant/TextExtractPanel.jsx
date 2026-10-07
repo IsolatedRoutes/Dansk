@@ -7,7 +7,7 @@ import { SentenceResult } from "../../components/SentenceResult";
 import { analysisLevelHint } from "../../lib/analysisLevel";
 import { readSentenceResult, initialSentenceSelection, cardsFromSentenceSelection } from "../../lib/sentenceResult";
 import { CenteredOverlay, inputStyle, smallBtn } from "../../components/ui";
-import { ActionRow, BigCard, PillButton } from "../../components/layout";
+import { BigCard, quietLink } from "../../components/layout";
 import { CATEGORY_RULE, aiCategoryName, topicNamesForAI } from "../../data/categories";
 import { irregularPluralFactsHint, irregularVerbFactsHint } from "../../data/irregulars";
 import { chromeTranslatorSupported, translateWithChromeTranslator } from "../../lib/ai/chrome";
@@ -24,7 +24,7 @@ import { loadingCopy } from "./ChatConversation";
 
 // ---------- Article vocabulary panel ----------
 
-export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings, incomingText, action = "translate" }) {
+export function TextExtractPanel({ engine, categories, addCategory, addCards, onOpenSettings, incomingText }) {
   const [text, setText] = useState("");
   const textareaRef = useRef(null);
 
@@ -285,37 +285,43 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
 
   const lookupIsWordLike = lookupResult && lookupResult.da && lookupResult.da.trim().split(/\s+/).length <= 4;
 
-  const actions = {
-    translate: { label: "Translate", run: translate, busy: lookupLoading, placeholder: "Paste or type a text to translate" },
-    analyze: { label: "Analyze", run: analyzeSentence, busy: sentenceLoading, placeholder: "Type or paste a Danish sentence" },
-    extract: { label: "Extract", run: analyzeText, busy: analyzing, placeholder: "Paste a text to pick useful words from" },
-  };
-  const act = actions[action] || actions.translate;
+  // Three actions side by side, each with the colour it always had.
+  const actionBtn = (bg, label, busy, run) => (
+    <button
+      onClick={run}
+      disabled={!text.trim() || busy}
+      style={{ ...smallBtn(bg), flex: 1, padding: "12px 2px", fontSize: 12.5, whiteSpace: "nowrap", borderRadius: 999, display: "flex", justifyContent: "center", alignItems: "center", gap: 5, opacity: text.trim() ? 1 : 0.5 }}
+    >
+      {busy ? <Icon.Loader2 size={13} className="spin" /> : null}
+      {busy ? loadingCopy(engine) : label}
+    </button>
+  );
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      <BigCard>
+      <BigCard height="clamp(260px, calc(100dvh - 340px), 520px)">
         <textarea
           ref={textareaRef}
           value={text}
           onChange={(e) => setText(e.target.value)}
           aria-label="Text"
           className="soft"
-          placeholder={act.placeholder}
+          placeholder="Paste or type a Danish word, sentence or text"
           style={{ flex: 1, minHeight: 0, width: "100%", border: "none", background: "none", outline: "none", resize: "none", padding: 22, fontFamily: "var(--serif)", fontSize: 22, lineHeight: 1.35, color: "var(--ink)" }}
         />
       </BigCard>
-      <ActionRow>
-        {(text || lookupResult || sentenceResult || analysis) && (
-          <PillButton kind="secondary" onClick={clearAll}>
+      <div style={{ display: "flex", gap: 8 }}>
+        {actionBtn("var(--fjord)", "Translate", lookupLoading, translate)}
+        {actionBtn("#8C6FA0", "Analyze sentence", sentenceLoading, analyzeSentence)}
+        {actionBtn("var(--rust)", "Extract text", analyzing, analyzeText)}
+      </div>
+      {(text || lookupResult || sentenceResult || analysis) && (
+        <div style={{ textAlign: "center" }}>
+          <button onClick={clearAll} style={quietLink}>
             Clear
-          </PillButton>
-        )}
-        <PillButton onClick={act.run} disabled={!text.trim() || act.busy}>
-          {act.busy ? <Icon.Loader2 size={15} className="spin" /> : null}
-          {act.busy ? loadingCopy(engine) : act.label}
-        </PillButton>
-      </ActionRow>
+          </button>
+        </div>
+      )}
 
       <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
       <AIErrorNote message={sentenceError} onOpenSettings={onOpenSettings} />

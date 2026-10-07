@@ -50,11 +50,10 @@ with sync_playwright() as p:
         route.fulfill(status=200, content_type="application/json", body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.route("**/generativelanguage.googleapis.com/**", fake)
     page.get_by_role("button", name="Assistant").last.click(); page.wait_for_timeout(800)
-    page.locator('[aria-label="Assistant mode"] button').first.click(); page.wait_for_timeout(200)
-    page.get_by_role("button", name="Analyze sentence", exact=True).last.click(); page.wait_for_timeout(500)
+    page.get_by_role("button", name="Text", exact=True).first.click(); page.wait_for_timeout(500)
     ta = page.locator("textarea:visible").first
     ta.fill("I går jeg har gået i skole")
-    page.get_by_role("button", name="Analyze", exact=True).first.click(); page.wait_for_timeout(1500)
+    page.get_by_role("button", name="Analyze sentence", exact=True).first.click(); page.wait_for_timeout(1500)
     body = page.inner_text("body")
     check("handlede om = was about" in body, "the first idea is shown with its title")
     check("word for word: dealt about" in body, "the word-for-word line appears when given")
@@ -84,7 +83,7 @@ with sync_playwright() as p:
         else:
             route.fulfill(status=200, content_type="application/json", body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.unroute("**/generativelanguage.googleapis.com/**"); page.route("**/generativelanguage.googleapis.com/**", picky)
-    page.get_by_role("button", name="Analyze", exact=True).first.click(); page.wait_for_timeout(1500)
+    page.get_by_role("button", name="Analyze sentence", exact=True).first.click(); page.wait_for_timeout(1500)
     check(len(refused) >= 1 and "handlede om = was about" in page.inner_text("body"), "a refused quick setting is retried and still gives an answer")
     page.get_by_label("Close").first.click(); page.wait_for_timeout(300)
     page.get_by_label("Backup and sync").click(); page.wait_for_timeout(500)
