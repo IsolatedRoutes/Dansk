@@ -60,9 +60,8 @@ against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_tes
 Shared pieces in `src/components/layout.jsx`: `PickMenu` (a dropdown like Study's), `Stage` (centres the
 group between header and tab bar), `BigCard`, `PillButton` (terracotta = main action, white = secondary),
 `ActionRow`. No page titles; the dropdowns say where you are. Add: "Word or sentence / Grammar lesson" +
-language dropdown, one card, "Type it myself" / "Look up" / "Add card". Assistant: three mode pills (Ask, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
-Filters / A–Z buttons above one cream list card (search inside it). Not yet restyled: the Ask chat,
-Photo panel, and the pop-ups (Backup, AI settings) — planned next, to one fixed size.
+language dropdown, one card, "Input manually" / "Look up" / "Add card". Assistant: three mode pills (Ask, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
+Filters / A–Z buttons above one cream list card (search inside it). Ask (entry field inside the card), Text and Photo are all one 340px card with the pills centred above and a reserved row below, so nothing jumps. Not yet restyled: the pop-ups (Backup, AI settings) — planned next, to one fixed size.
 
 ## Add a card (one box)
 One box takes a word or sentence in either language (`src/views/AddCardView.jsx`, logic in

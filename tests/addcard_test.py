@@ -51,13 +51,13 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
 
     body = page.inner_text("body")
-    check(page.get_by_placeholder("A word or sentence, in Danish or English").count() == 1, "one box for either language")
+    check(page.get_by_placeholder("Type a Danish or English word or sentence").count() == 1, "one box for either language")
     check("Danish word" not in body, "no separate Word / Sentence tabs")
 
     # Part 2: by hand, no AI
-    page.get_by_placeholder("A word or sentence, in Danish or English").fill("zzyxkat")
+    page.get_by_placeholder("Type a Danish or English word or sentence").fill("zzyxkat")
     pick(page, "Language", "Danish")
-    page.get_by_role("button", name="Type it myself").click()
+    page.get_by_role("button", name="Input manually").click()
     page.get_by_placeholder("The English").fill("zzyx cat")
     page.get_by_role("button", name="Details").click()
     page.get_by_label("Grammar group").select_option("noun")
@@ -70,9 +70,9 @@ with sync_playwright() as p:
     check(c and "upForms" not in c, "a hand-typed card has no level-up forms (no AI was used)")
 
     # By hand, English typed: it goes to the right sides, and a long text is a sentence
-    page.get_by_placeholder("A word or sentence, in Danish or English").fill("I really like coffee a lot")
+    page.get_by_placeholder("Type a Danish or English word or sentence").fill("I really like coffee a lot")
     pick(page, "Language", "English")
-    page.get_by_role("button", name="Type it myself").click()
+    page.get_by_role("button", name="Input manually").click()
     page.get_by_placeholder("The Danish").fill("jeg kan rigtig godt lide kaffe")
     page.get_by_role("button", name="Add card").click(); page.wait_for_timeout(1200)
     c = own(page, "jeg kan rigtig godt lide kaffe")
@@ -90,7 +90,7 @@ with sync_playwright() as p:
                       body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.route("**/generativelanguage.googleapis.com/**", fake)
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
-    page.get_by_placeholder("A word or sentence, in Danish or English").fill("zzyx dog")
+    page.get_by_placeholder("Type a Danish or English word or sentence").fill("zzyx dog")
     page.wait_for_timeout(500)
     check(len(calls) == 0, "typing alone makes no AI call")
     page.get_by_role("button", name="Look up").click(); page.wait_for_timeout(1500)

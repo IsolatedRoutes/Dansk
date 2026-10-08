@@ -188,13 +188,8 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
         {ready && messages.length === 0 && (
           <EmptyState
             icon={Icon.MessageCircle}
-            title="Ask anything about Danish"
-            body={
-              <>
-                <div style={{ margin: "6px 0" }}>or</div>
-                <div>tell me to make cards, for example "make 10 cards with vocabulary about travel"</div>
-              </>
-            }
+            title=""
+            body={<div>Try "make 10 cards with vocabulary about travel"</div>}
           />
         )}
         {messages.map((m, i) => (
@@ -296,16 +291,15 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
         )}
         <div ref={scrollRef} />
       </div>
-      </BigCard>
-      <div style={{ display: "flex", gap: 8 }}>
+      <div style={{ display: "flex", gap: 8, padding: 10, borderTop: "1px solid var(--line)", background: "var(--card)" }}>
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") send();
           }}
-          placeholder="Ask, or make a flashcard…"
-          style={{ ...inputStyle, flex: 1, borderRadius: 999, padding: "12px 18px" }}
+          placeholder="Ask anything about Danish"
+          style={{ ...inputStyle, flex: 1, borderRadius: 999, padding: "11px 16px", background: "#fff" }}
         />
         <button
           onClick={send}
@@ -316,7 +310,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
             background: "var(--rust)",
             color: "#FBFAF7",
             borderRadius: 999,
-            width: 46,
+            width: 44,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -327,13 +321,12 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
           <Icon.Send size={16} />
         </button>
       </div>
-      {messages.length > 0 && (
-        <div style={{ textAlign: "center" }}>
-          <button onClick={() => persist([])} style={quietLink}>
-            Clear chat
-          </button>
-        </div>
-      )}
+      </BigCard>
+      <div style={{ textAlign: "center", minHeight: 65, boxSizing: "border-box", paddingTop: 48, visibility: messages.length > 0 ? "visible" : "hidden" }}>
+        <button onClick={() => persist([])} style={quietLink}>
+          Clear chat
+        </button>
+      </div>
 
       {reviewingIdx !== null && messages[reviewingIdx] && (
         <CenteredOverlay onClose={() => setReviewingIdx(null)} maxWidth={460}>

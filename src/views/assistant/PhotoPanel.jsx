@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AIErrorNote } from "../../components/AIErrorNote";
 import { CategoryOptions } from "../../components/CategoryPicker";
 import { Icon } from "../../components/icons";
+import { BigCard, quietLink } from "../../components/layout";
 import { renderInlineMarkdown } from "../../components/markdown";
 import { SentenceResult } from "../../components/SentenceResult";
 import { analysisLevelHint } from "../../lib/analysisLevel";
@@ -17,7 +18,7 @@ import { CLARITY_RULES, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_IN
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { secretGet } from "../../lib/secrets";
 import { base64ToFile } from "../../lib/shareInbox";
-import { cleanTranslation, fileToBase64, isMobileDevice, parseJSONLoose } from "../../lib/text";
+import { cleanTranslation, fileToBase64, parseJSONLoose } from "../../lib/text";
 
 // ---------- Photo import panel (always uses the API — needs vision) ----------
 
@@ -302,128 +303,63 @@ export function PhotoPanel({ categories, addCategory, addCards, onOpenSettings, 
 
   const lookupIsWordLike = lookupResult && lookupResult.da && lookupResult.da.trim().split(/\s+/).length <= 4;
 
+  const hidden = { position: "absolute", width: 1, height: 1, padding: 0, margin: -1, overflow: "hidden", clip: "rect(0,0,0,0)", border: 0 };
+  const photoBtn = (bg, label, busy, run) => (
+    <button
+      onClick={run}
+      disabled={busy || !file}
+      style={{ flex: 1, border: "none", borderRadius: 999, background: bg, color: "#FBFAF7", fontFamily: "var(--sans)", fontWeight: 600, fontSize: 12.5, padding: "12px 2px", whiteSpace: "nowrap", cursor: "pointer", opacity: file ? 1 : 0.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5 }}
+    >
+      {busy ? <Icon.Loader2 size={12} className="spin" /> : null}
+      {busy ? "Reading…" : label}
+    </button>
+  );
+
   return (
-    <div>
-      {(file || items.length > 0 || lookupResult || sentenceResult) && (
-        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 6 }}>
-          <button
-            onClick={clearAll}
-            style={{ display: "flex", alignItems: "center", gap: 4, border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 12, cursor: "pointer", padding: 4 }}
-          >
-            <Icon.Trash2 size={12} /> Clear
-          </button>
-        </div>
-      )}
-      <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", marginBottom: 12, lineHeight: 1.5 }}>
-        Choose or take a photo of Danish text — a book, an app, a sign — then translate it, get the grammar
-        explained, or pull out the key vocabulary worth learning from it.
+    <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+      <BigCard>
+        <label
+          onDragOver={(e) => {
+            e.preventDefault();
+            setDragActive(true);
+          }}
+          onDragLeave={() => setDragActive(false)}
+          onDrop={handleDrop}
+          style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8, padding: preview ? 10 : 24, background: dragActive ? "#EEF2F0" : "transparent", fontFamily: "var(--sans)", fontSize: 14, color: "var(--muted)", cursor: "pointer", textAlign: "center", lineHeight: 1.5 }}
+        >
+          <input type="file" accept="image/*" onChange={pickFile} style={hidden} />
+          {preview ? (
+            <img src={preview} alt="Selected photo" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain", borderRadius: 8 }} />
+          ) : (
+            <>
+              <Icon.Upload size={26} />
+              <div style={{ fontFamily: "var(--serif)", fontSize: 20, color: "var(--ink)" }}>Choose a photo</div>
+              <div style={{ maxWidth: 270 }}>Danish text from a book, an app or a sign. Then translate it, analyze it or pull out words to learn.</div>
+            </>
+          )}
+        </label>
+        {!preview && (
+          <div style={{ display: "flex", justifyContent: "center", paddingBottom: 16 }}>
+            <label style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "8px 16px", fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--ink)", cursor: "pointer" }}>
+              <input type="file" accept="image/*" capture="environment" onChange={pickFile} style={hidden} />
+              <Icon.Camera size={15} />
+              Take a photo
+            </label>
+          </div>
+        )}
+      </BigCard>
+
+      <div style={{ display: "flex", gap: 6 }}>
+        {photoBtn("var(--fjord)", "Translate", lookupLoading, translate)}
+        {photoBtn("#8C6FA0", "Analyze sentence", sentenceLoading, analyzeSentence)}
+        {photoBtn("var(--rust)", "Extract text", loading, extract)}
       </div>
 
-      <label
-        onDragOver={(e) => {
-          e.preventDefault();
-          setDragActive(true);
-        }}
-        onDragLeave={() => setDragActive(false)}
-        onDrop={handleDrop}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "100%",
-          border: dragActive ? "2px dashed var(--fjord)" : "1px dashed var(--line)",
-          background: dragActive ? "#EEF2F0" : "var(--card)",
-          borderRadius: 10,
-          padding: preview ? 8 : 28,
-          fontFamily: "var(--sans)",
-          fontSize: 13.5,
-          color: "var(--muted)",
-          cursor: "pointer",
-          textAlign: "center",
-        }}
-      >
-        <input
-          type="file"
-          accept="image/*"
-          onChange={pickFile}
-          style={{ position: "absolute", width: 1, height: 1, padding: 0, margin: -1, overflow: "hidden", clip: "rect(0,0,0,0)", border: 0 }}
-        />
-        {preview ? (
-          <img src={preview} alt="Selected photo" style={{ maxWidth: "100%", maxHeight: 220, borderRadius: 6 }} />
-        ) : (
-          <>
-            <Icon.Upload size={20} style={{ marginBottom: 6 }} />
-            <div>Tap to choose a photo or screenshot, or drag one here</div>
-          </>
-        )}
-      </label>
-
-      {!preview && isMobileDevice() && (
-        <label
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: 6,
-            width: "100%",
-            border: "1px solid var(--line)",
-            background: "var(--card)",
-            borderRadius: 10,
-            padding: "10px",
-            marginTop: 8,
-            fontFamily: "var(--sans)",
-            fontSize: 13.5,
-            color: "var(--muted)",
-            cursor: "pointer",
-          }}
-        >
-          <input
-            type="file"
-            accept="image/*"
-            capture="environment"
-            onChange={pickFile}
-            style={{ position: "absolute", width: 1, height: 1, padding: 0, margin: -1, overflow: "hidden", clip: "rect(0,0,0,0)", border: 0 }}
-          />
-          <Icon.Camera size={15} />
-          Take a photo
-        </label>
-      )}
-
-      {!preview && isMobileDevice() && (
-        <div style={{ fontFamily: "var(--sans)", fontSize: 11.5, color: "var(--muted)", lineHeight: 1.45, marginTop: 6, textAlign: "center" }}>
-          Your phone will ask to use the camera. You can change this any time in Settings.
-        </div>
-      )}
-
-      {file && (
-        <div style={{ display: "flex", gap: 6, marginTop: 10 }}>
-          <button
-            onClick={translate}
-            disabled={lookupLoading}
-            style={{ ...smallBtn("var(--fjord)"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5 }}
-          >
-            {lookupLoading ? <Icon.Loader2 size={12} className="spin" /> : null}
-            {lookupLoading ? "Reading…" : "Translate"}
-          </button>
-          <button
-            onClick={analyzeSentence}
-            disabled={sentenceLoading}
-            style={{ ...smallBtn("#8C6FA0"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5 }}
-          >
-            {sentenceLoading ? <Icon.Loader2 size={12} className="spin" /> : null}
-            {sentenceLoading ? "Reading…" : "Analyze sentence"}
-          </button>
-          <button
-            onClick={extract}
-            disabled={loading}
-            style={{ ...smallBtn("var(--rust)"), flex: 1, padding: "9px 4px", fontSize: 12.5, display: "flex", justifyContent: "center", alignItems: "center", gap: 5 }}
-          >
-            {loading ? <Icon.Loader2 size={12} className="spin" /> : null}
-            {loading ? "Reading…" : "Extract text"}
-          </button>
-        </div>
-      )}
+      <div style={{ textAlign: "center", visibility: file || items.length > 0 || lookupResult || sentenceResult ? "visible" : "hidden" }}>
+        <button onClick={clearAll} style={quietLink}>
+          Clear
+        </button>
+      </div>
 
       <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
       <AIErrorNote message={sentenceError} onOpenSettings={onOpenSettings} />

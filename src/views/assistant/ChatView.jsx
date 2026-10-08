@@ -52,7 +52,7 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
 
   return (
     <div style={{ minHeight: "calc(100dvh - 210px)", display: "flex", flexDirection: "column", justifyContent: "center", gap: 12 }}>
-      <div style={{ display: "flex", gap: 8 }}>
+      <div style={{ display: "flex", gap: 8, justifyContent: "center" }}>
         {modes.map((m) => (
           <Pill key={m.id} color="var(--fjord)" active={mode === m.id} onClick={() => setMode(m.id)}>
             {m.label}

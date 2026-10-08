@@ -265,8 +265,13 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     aria-label="Word or sentence"
                     className="soft"
                     style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                    placeholder="A word or sentence, in Danish or English"
+                    placeholder="Type a Danish or English word or sentence"
                   />
+                  {!text && !showOther && (
+                    <div style={{ fontFamily: "var(--sans)", fontSize: 13, color: "var(--muted)", lineHeight: 1.5, maxWidth: 280 }}>
+                      Then tap Look up and the translation fills itself in, or choose Input manually.
+                    </div>
+                  )}
                   {showOther && (
                     <>
                       <div style={{ height: 1, width: 60, background: "var(--line)" }} />
@@ -311,7 +316,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     setOther("");
                   }}
                 >
-                  {showOther ? "Use Look up" : "Type it myself"}
+                  {showOther ? "Use Look up" : "Input manually"}
                 </PillButton>
                 {showOther ? (
                   <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
