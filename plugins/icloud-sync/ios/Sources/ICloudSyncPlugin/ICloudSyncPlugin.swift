@@ -37,7 +37,11 @@ public class ICloudSyncPlugin: CAPPlugin, CAPBridgedPlugin {
 
     // Is the person signed in to iCloud (and is iCloud allowed for this app)?
     @objc public func status(_ call: CAPPluginCall) {
-        call.resolve(["available": FileManager.default.ubiquityIdentityToken != nil])
+        // The identity token is empty on some phones when only the small
+        // key-value store is used, so also accept the store itself working.
+        let token = FileManager.default.ubiquityIdentityToken != nil
+        let store = self.store.synchronize()
+        call.resolve(["available": token || store, "token": token, "store": store])
     }
 
     @objc public func get(_ call: CAPPluginCall) {

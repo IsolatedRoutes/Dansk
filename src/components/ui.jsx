@@ -78,8 +78,8 @@ export function Pill({ children, color, active, onClick }) {
     <button
       onClick={onClick}
       style={{
-        border: "1px solid " + (active ? color : "#D8D4CB"),
-        background: active ? color : "transparent",
+        border: "1px solid " + (active ? color : "#C9C4B8"),
+        background: active ? color : "#fff",
         color: active ? "#FBFAF7" : "#4A473F",
         borderRadius: 999,
         padding: "6px 13px",

@@ -306,7 +306,7 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
           onChange={(e) => setText(e.target.value)}
           aria-label="Text"
           className="soft"
-          placeholder="Paste or type a Danish word, sentence or text"
+          placeholder="Enter text to translate, analyze, or add words to your deck."
           style={{ flex: 1, minHeight: 0, width: "100%", border: "none", background: "none", outline: "none", resize: "none", padding: 22, fontFamily: "var(--serif)", fontSize: 22, lineHeight: 1.35, color: "var(--ink)" }}
         />
       </BigCard>
