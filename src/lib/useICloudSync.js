@@ -1,7 +1,7 @@
 // The part of the app that keeps the deck in step with iCloud: turning it on
 // and off, syncing when something changes, and the one-time offer.
 import { useCallback, useEffect, useRef, useState } from "react";
-import { icloudAvailable, icloudSupported, loadPreSyncCopy, onICloudChange, savePreSyncCopy, syncOnce } from "./icloud";
+import { icloudAvailable, icloudDetail, icloudSupported, loadPreSyncCopy, onICloudChange, savePreSyncCopy, syncOnce } from "./icloud";
 import { storeGet, storeSet } from "./storage";
 
 const MESSAGES = {
@@ -85,7 +85,7 @@ export function useICloudSync({ loaded, cards, categories, cardsRef, categoriesR
 
   const enable = useCallback(async () => {
     if (!(await icloudAvailable())) {
-      setStatus((s) => ({ ...s, state: "error", message: MESSAGES.NO_ICLOUD }));
+      setStatus((s) => ({ ...s, state: "error", message: MESSAGES.NO_ICLOUD + (icloudDetail ? " (" + icloudDetail + ")" : "") }));
       return false;
     }
     // A copy of the deck as it is right now, so there's always a way back.

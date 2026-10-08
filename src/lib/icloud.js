@@ -22,12 +22,17 @@ export function icloudSupported() {
   return isNativeApp();
 }
 
+// What the phone said last time we asked (shown in the error so a problem can be found).
+export let icloudDetail = "";
+
 export async function icloudAvailable() {
   if (!icloudSupported()) return false;
   try {
     const r = await plugin().status();
+    icloudDetail = JSON.stringify(r || {});
     return !!(r && r.available);
-  } catch {
+  } catch (e) {
+    icloudDetail = "error: " + ((e && (e.message || e.code)) || String(e));
     return false;
   }
 }
