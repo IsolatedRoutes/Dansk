@@ -9,12 +9,20 @@ import { canonicalKey, loadDeletedKeys } from "./migrations";
 import { SYNCED_KEYS, loadKeyStamps, storeGet, storeSet, storeSetFromSync } from "./storage";
 import { buildSnapshot, mergeSnapshot, pickKeys, readRemote, writeRemote } from "./sync";
 import { uid } from "./text";
+import { registerPlugin } from "@capacitor/core";
+// The phone's own bridge has no registerPlugin on window.Capacitor, so use the
+// one from @capacitor/core. (A test can still supply its own on window.)
+function register(name) {
+  const w = window.Capacitor;
+  return w && typeof w.registerPlugin === "function" ? w.registerPlugin(name) : registerPlugin(name);
+}
+
 
 let pluginObj = null;
 // Capacitor plugin objects look like a Promise, so they are never returned
 // from an async function: callers get a plain object of functions.
 function plugin() {
-  if (!pluginObj) pluginObj = window.Capacitor.registerPlugin("ICloudSync");
+  if (!pluginObj) pluginObj = register("ICloudSync");
   return pluginObj;
 }
 

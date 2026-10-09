@@ -5,12 +5,20 @@
 // anywhere else. The website has no sharing in.
 // ============================================================
 import { isNativeApp } from "./platform";
+import { registerPlugin } from "@capacitor/core";
+// The phone's own bridge has no registerPlugin on window.Capacitor, so use the
+// one from @capacitor/core. (A test can still supply its own on window.)
+function register(name) {
+  const w = window.Capacitor;
+  return w && typeof w.registerPlugin === "function" ? w.registerPlugin(name) : registerPlugin(name);
+}
+
 
 let pluginObj = null;
 // Capacitor plugin objects look like a Promise, so they are never returned
 // from an async function.
 function plugin() {
-  if (!pluginObj) pluginObj = window.Capacitor.registerPlugin("ShareInbox");
+  if (!pluginObj) pluginObj = register("ShareInbox");
   return pluginObj;
 }
 
