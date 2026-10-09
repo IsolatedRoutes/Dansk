@@ -3,8 +3,8 @@ import UniformTypeIdentifiers
 
 // "Share to Broen": appears in the iPhone share sheet. It saves the shared
 // text or photo into a folder only Broen and this extension can see (an App
-// Group), then tries to open Broen. If the phone won't let it open Broen from
-// here, Broen picks the item up the next time it is opened.
+// Group), then opens Broen straight away. If the phone won't let it, Broen picks
+// the item up the next time it is opened.
 class ShareViewController: UIViewController {
     private let groupId = "group.com.isolatedroutes.broen"
     private let label = UILabel()
@@ -106,19 +106,28 @@ class ShareViewController: UIViewController {
             return
         }
         openBroen()
-        finish(message: "Sent to Broen.\nOpen Broen to see it.")
+        finish(message: "Opening Broen…")
     }
 
-    // Tries to open Broen. Newer iPhones may refuse; then Broen picks the
-    // item up the next time it opens.
+    // Opens Broen straight away. A share extension isn't allowed to open apps
+    // directly, so this finds the phone's own "open a link" call further up
+    // the chain and uses it with Broen's link (broen://share). If the phone
+    // refuses, Broen still picks the item up the next time it opens.
     private func openBroen() {
         guard let url = URL(string: "broen://share") else { return }
+        let modern = NSSelectorFromString("openURL:options:completionHandler:")
+        let legacy = NSSelectorFromString("openURL:")
         var responder: UIResponder? = self
-        let selector = sel_registerName("openURL:")
         while let r = responder {
-            if r is UIApplication || r.responds(to: selector) {
-                _ = r.perform(selector, with: url)
-                break
+            if r.responds(to: modern), let imp = r.method(for: modern) {
+                typealias OpenFn = @convention(c) (AnyObject, Selector, URL, [UIApplication.OpenExternalURLOptionsKey: Any], ((Bool) -> Void)?) -> Void
+                let open = unsafeBitCast(imp, to: OpenFn.self)
+                open(r, modern, url, [:], nil)
+                return
+            }
+            if r.responds(to: legacy) {
+                _ = r.perform(legacy, with: url)
+                return
             }
             responder = r.next
         }
@@ -126,7 +135,7 @@ class ShareViewController: UIViewController {
 
     private func finish(message: String) {
         label.text = message
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
             self.extensionContext?.completeRequest(returningItems: nil, completionHandler: nil)
         }
     }

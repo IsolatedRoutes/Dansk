@@ -57,8 +57,8 @@ with sync_playwright() as p:
     # Part 2: by hand, no AI: two boxes, Danish then English
     page.get_by_role("button", name="Input manually").click()
     check(page.get_by_label("Language").count() == 0, "manual form has no language menu")
-    page.get_by_placeholder("The Danish").fill("zzyxkat")
-    page.get_by_placeholder("The English").fill("zzyx cat")
+    page.get_by_placeholder("Type the Danish word or sentence").fill("zzyxkat")
+    page.get_by_placeholder("Type the English meaning").fill("zzyx cat")
     page.get_by_role("button", name="Details").click()
     page.get_by_label("Grammar group").select_option("noun")
     page.get_by_label("Level").select_option("2")
@@ -71,8 +71,8 @@ with sync_playwright() as p:
 
     # By hand, a long text is a sentence
     page.get_by_role("button", name="Input manually").click()
-    page.get_by_placeholder("The Danish").fill("jeg kan rigtig godt lide kaffe")
-    page.get_by_placeholder("The English").fill("I really like coffee a lot")
+    page.get_by_placeholder("Type the Danish word or sentence").fill("jeg kan rigtig godt lide kaffe")
+    page.get_by_placeholder("Type the English meaning").fill("I really like coffee a lot")
     page.get_by_role("button", name="Add card").click(); page.wait_for_timeout(1200)
     c = own(page, "jeg kan rigtig godt lide kaffe")
     check(c is not None and c["type"] == "sentence" and c["back"].startswith("I really like coffee"), "sentence found without asking")

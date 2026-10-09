@@ -205,6 +205,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     { id: "da", label: "Danish" },
     { id: "en", label: "English" },
   ];
+  const fieldLabel = { fontFamily: "var(--sans)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 2 };
   const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "center", padding: "2px 0" };
 
   return (
@@ -255,26 +256,28 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                 </>
               ) : (
                 <>
+                  {showOther && <div style={fieldLabel}>Danish</div>}
                   <textarea
                     value={text}
                     onChange={(e) => changeText(e.target.value)}
                     autoCapitalize="none"
-                    rows={3}
+                    rows={showOther ? 2 : 3}
                     aria-label="Word or sentence"
                     className="soft"
                     style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                    placeholder={showOther ? "The Danish" : "Type a word or sentence in English or Danish to add to your deck"}
+                    placeholder={showOther ? "Type the Danish word or sentence" : "Type a word or sentence in English or Danish to add to your deck"}
                   />
                   {showOther && (
                     <>
-                      <div style={{ height: 1, width: 60, background: "var(--line)" }} />
+                      <div style={{ height: 1, width: 60, background: "var(--line)", margin: "6px 0" }} />
+                      <div style={fieldLabel}>English</div>
                       <input
                         value={other}
                         onChange={(e) => setOther(e.target.value)}
                         autoCapitalize="none"
                         className="soft"
                         style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)" }}
-                        placeholder="The English"
+                        placeholder="Type the English meaning"
                       />
                     </>
                   )}
@@ -287,7 +290,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                   onClick={() => setShowDetails(!showDetails)}
                   style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
                 >
-                  <span>{detailsSummary || "Details"}</span>
+                  <span>{detailsSummary || "Details (optional)"}</span>
                   <Icon.ChevronDown size={14} style={{ transform: showDetails ? "rotate(180deg)" : "none" }} />
                 </button>
               </div>
