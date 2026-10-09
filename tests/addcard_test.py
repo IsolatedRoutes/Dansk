@@ -54,10 +54,10 @@ with sync_playwright() as p:
     check(page.get_by_placeholder("Type a word or sentence in English or Danish to add to your deck").count() == 1, "one box for either language")
     check("Danish word" not in body, "no separate Word / Sentence tabs")
 
-    # Part 2: by hand, no AI
-    page.get_by_placeholder("Type a word or sentence in English or Danish to add to your deck").fill("zzyxkat")
-    pick(page, "Language", "Danish")
+    # Part 2: by hand, no AI: two boxes, Danish then English
     page.get_by_role("button", name="Input manually").click()
+    check(page.get_by_label("Language").count() == 0, "manual form has no language menu")
+    page.get_by_placeholder("The Danish").fill("zzyxkat")
     page.get_by_placeholder("The English").fill("zzyx cat")
     page.get_by_role("button", name="Details").click()
     page.get_by_label("Grammar group").select_option("noun")
@@ -69,14 +69,13 @@ with sync_playwright() as p:
     check(c and c.get("pos") == "noun" and c.get("level") == 2 and c.get("notes") == "min note", "group, level and note are kept")
     check(c and "upForms" not in c, "a hand-typed card has no level-up forms (no AI was used)")
 
-    # By hand, English typed: it goes to the right sides, and a long text is a sentence
-    page.get_by_placeholder("Type a word or sentence in English or Danish to add to your deck").fill("I really like coffee a lot")
-    pick(page, "Language", "English")
+    # By hand, a long text is a sentence
     page.get_by_role("button", name="Input manually").click()
     page.get_by_placeholder("The Danish").fill("jeg kan rigtig godt lide kaffe")
+    page.get_by_placeholder("The English").fill("I really like coffee a lot")
     page.get_by_role("button", name="Add card").click(); page.wait_for_timeout(1200)
     c = own(page, "jeg kan rigtig godt lide kaffe")
-    check(c is not None and c["type"] == "sentence" and c["back"].startswith("I really like coffee"), "English typed first lands on the right side; sentence found without asking")
+    check(c is not None and c["type"] == "sentence" and c["back"].startswith("I really like coffee"), "sentence found without asking")
 
     # Part 3: pretend AI answer
     page.evaluate(SETKV, {"aiEngine": "gemini", "aiConsent": "1", "geminiApiKey": "fake-key"})

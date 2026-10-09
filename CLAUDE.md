@@ -68,7 +68,7 @@ One box takes a word or sentence in either language (`src/views/AddCardView.jsx`
 `src/lib/addLookup.js`). "Look up" (only when tapped) is ONE AI call that returns both sides,
 topic, word type (grammar group), level and level-up forms; the result is shown editable
 before "Add card". Word vs sentence is never shown or asked (`cardTypeFor`: ends with . ? !
-or 4+ words after a leading en/et/at = sentence). Without AI: choose Danish or English, type the
+or 4+ words after a leading en/et/at = sentence). Without AI ("Input manually"): two boxes, Danish then English (no language menu); type the
 translation yourself, pick group / level / category by hand; such a card has no level-up forms.
 Things the learner chose by hand are never overwritten by Look up. Grammar lessons live behind
 a small "Add a grammar lesson instead" link. Notes stay ("+ Add a note"). Test: `tests/addcard_test.py`.

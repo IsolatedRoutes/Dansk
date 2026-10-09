@@ -114,11 +114,9 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   function sides() {
     if (result) return { da: result.da.trim(), en: result.en.trim() };
     if (showOther && text.trim() && other.trim()) {
-      if (lang === "en") return { da: other.trim(), en: text.trim() };
-      if (lang === "da") return { da: text.trim(), en: other.trim() };
-      return { error: "Choose Danish or English above, so the app knows which language you typed." };
+      return { da: text.trim(), en: other.trim() };
     }
-    return { error: "Tap Look up, or type the translation yourself." };
+    return { error: "Tap Look up, or tap Input manually and fill in both boxes." };
   }
 
   const ready = mode === "grammar" ? !!(front.trim() && back.trim()) : !!result || !!(showOther && text.trim() && other.trim());
@@ -189,7 +187,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     resetCard();
   }
 
-  const guessType = cardTypeFor(result ? result.da : lang === "en" ? other : text);
+  const guessType = cardTypeFor(result ? result.da : showOther ? text : lang === "en" ? other : text);
   const selectStyle = { ...inputStyle, flex: 1, minWidth: 0, borderRadius: 12, padding: "11px 12px", fontSize: 15, appearance: "auto", color: "var(--ink)" };
   // What the details hold, in one quiet line ("Verb · Basic · Food").
   const groupName = (GRAMMAR_GROUPS.find((g) => g.cls === pos) || {}).name;
@@ -222,7 +220,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
             setSubmitError("");
           }}
         />
-        {mode === "card" && (
+        {mode === "card" && !showOther && (
           <PickMenu
             ariaLabel="Language"
             value={lang}
@@ -265,7 +263,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     aria-label="Word or sentence"
                     className="soft"
                     style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                    placeholder="Type a word or sentence in English or Danish to add to your deck"
+                    placeholder={showOther ? "The Danish" : "Type a word or sentence in English or Danish to add to your deck"}
                   />
                   {showOther && (
                     <>
@@ -276,7 +274,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                         autoCapitalize="none"
                         className="soft"
                         style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)" }}
-                        placeholder={lang === "en" ? "The Danish" : lang === "da" ? "The English" : "The translation (choose Danish or English above)"}
+                        placeholder="The English"
                       />
                     </>
                   )}
