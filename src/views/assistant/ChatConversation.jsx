@@ -197,7 +197,7 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
               Ask about Danish, or tell me what cards to make
             </div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 11, fontWeight: 600, letterSpacing: 0.8, textTransform: "uppercase", color: "var(--muted)", margin: "6px 2px 0" }}>
-              Examples · tap to try
+              Examples
             </div>
             {CHAT_EXAMPLES.map((ex) => (
               <button
