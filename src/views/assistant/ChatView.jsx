@@ -39,7 +39,7 @@ export function ChatView({ categories, addCategory, addCards, showToast, engine,
           <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 24 }}>
             <div style={{ fontFamily: "var(--serif)", fontSize: 22 }}>Set up your AI</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", lineHeight: 1.5, marginTop: 8, maxWidth: 300 }}>
-              The Assistant answers questions about Danish, explains grammar, translates text and reads photos. It takes about two minutes, and Gemini is free.
+              The Assistant answers questions about Danish, explains grammar, translates text and reads photos. It takes about two minutes.
             </div>
           </div>
         </BigCard>
