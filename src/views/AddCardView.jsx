@@ -211,21 +211,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
           <BigCard>
             <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "20px 18px 12px", textAlign: "center" }}>
                 <div style={fieldWrap}>
-                  <div style={fieldLabel}>Dansk</div>
-                  <div style={fieldBox}>
-                    <textarea
-                      value={text}
-                      onChange={(e) => changeText(e.target.value)}
-                      autoCapitalize="none"
-                      rows={2}
-                      aria-label="Dansk"
-                      className="soft"
-                      style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
-                      placeholder="f.eks. et æble"
-                    />
-                  </div>
-                </div>
-                <div style={fieldWrap}>
                   <div style={fieldLabel}>English</div>
                   <div style={fieldBox}>
                     <textarea
@@ -237,6 +222,21 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                       className="soft"
                       style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 110, overflowY: "auto" }}
                       placeholder="e.g. an apple"
+                    />
+                  </div>
+                </div>
+                <div style={fieldWrap}>
+                  <div style={fieldLabel}>Dansk</div>
+                  <div style={fieldBox}>
+                    <textarea
+                      value={text}
+                      onChange={(e) => changeText(e.target.value)}
+                      autoCapitalize="none"
+                      rows={2}
+                      aria-label="Dansk"
+                      className="soft"
+                      style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
+                      placeholder="f.eks. et æble"
                     />
                   </div>
                 </div>
