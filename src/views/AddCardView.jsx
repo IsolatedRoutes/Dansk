@@ -193,16 +193,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   }
 
   const guessType = kind || cardTypeFor(text);
-  const groupName = (GRAMMAR_GROUPS.find((g) => g.cls === pos) || {}).name;
-  const levelName = (LEVELS.find((l) => l.id === level) || {}).name;
-  const catName = (categories.find((c) => c.id === category) || {}).name;
-  // Every field is always listed; the ones not chosen yet are shown muted, so it is clear there is more to set.
-  const tagParts = [
-    { t: guessType === "word" ? "Word" : "Sentence", set: true },
-    ...(guessType === "word" ? [{ t: groupName ? groupName.replace(/s$/, "") : "Type", set: !!groupName }] : []),
-    { t: levelName || "Level", set: !!levelName },
-    { t: catName || "Topic", set: !!catName },
-  ];
   const topics = categories.filter((c) => !isLessonsCategory(c));
   const optPill = (on) => ({ border: "1px solid " + (on ? "var(--fjord)" : "var(--line)"), background: on ? "var(--fjord)" : "#fff", color: on ? "#fff" : "var(--ink)", borderRadius: 999, padding: "7px 13px", fontFamily: "var(--sans)", fontSize: 14, cursor: "pointer" });
   const hasText = !!(text || other || front || back || notes);
@@ -272,21 +262,14 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
               )}
             </div>
             {checking && (
-              <div style={{ display: "flex", justifyContent: "center", paddingBottom: 18 }}>
+              <div style={{ display: "flex", justifyContent: "center", padding: "0 16px 18px" }}>
                 <button
                   onClick={() => setSortOpen(true)}
                   aria-label="Sort this card"
-                  style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, maxWidth: "100%", border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "8px 18px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, lineHeight: 1.35, color: "var(--ink)" }}
                 >
-                  <span>
-                    {tagParts.map((x, i) => (
-                      <span key={i} style={{ color: x.set ? "var(--ink)" : "var(--muted)" }}>
-                        {i > 0 ? " · " : ""}
-                        {x.t}
-                      </span>
-                    ))}
-                  </span>
-                  <Icon.ChevronDown size={14} />
+                  <span>Categorize</span>
+                  <Icon.ChevronDown size={14} style={{ flex: "none" }} />
                 </button>
               </div>
             )}
