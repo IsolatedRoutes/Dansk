@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { AIErrorNote } from "../components/AIErrorNote";
 import { Icon } from "../components/icons";
-import { renderInlineMarkdown } from "../components/markdown";
 import { CenteredOverlay, inputStyle } from "../components/ui";
 import { ActionRow, BigCard, PickMenu, PickRow, PillButton, Stage, quietLink } from "../components/layout";
 import { LOOKUP_SYSTEM, cardTypeFor, lookupUserText, readLookup } from "../lib/addLookup";
@@ -36,7 +35,8 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   const [back, setBack] = useState("");
   const [examples, setExamples] = useState([{ da: "", en: "" }]);
   const [lookingUp, setLookingUp] = useState(false);
-  const [grammarPreview, setGrammarPreview] = useState(null);
+  const [gChecking, setGChecking] = useState(false); // false = typing what to learn, true = the lesson is shown
+  const [gManual, setGManual] = useState(false); // the lesson is being written by hand (boxes get labels)
   // What the learner chose themselves is never overwritten by "Fill in with AI".
   const touched = useRef({ pos: false, level: false, category: false });
 
@@ -101,24 +101,17 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         { maxTokens: 700 }
       );
       const parsed = parseJSONLoose(reply);
-      setGrammarPreview({
-        grammarName: parsed.grammarName || front.trim(),
-        explanation: parsed.explanation || "",
-        examples: (parsed.examples || []).map((ex) => ({ da: ex.da || "", en: ex.en || "" })),
-      });
+      const exs = (parsed.examples || []).map((ex) => ({ da: ex.da || "", en: ex.en || "" }));
+      setFront(parsed.grammarName || front.trim());
+      setBack(parsed.explanation || "");
+      setExamples(exs.length ? exs : [{ da: "", en: "" }]);
+      setGManual(false);
+      setGChecking(true);
     } catch (e) {
       setLookupError(apiErrorMessage(e));
     } finally {
       setLookingUp(false);
     }
-  }
-
-  function useGrammarPreview() {
-    if (!grammarPreview) return;
-    setFront(grammarPreview.grammarName);
-    setBack(grammarPreview.explanation);
-    if (grammarPreview.examples.length) setExamples(grammarPreview.examples);
-    setGrammarPreview(null);
   }
 
   // The Danish side and English side of the card.
@@ -148,10 +141,11 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   }
 
   function resetGrammar() {
+    setGChecking(false);
+    setGManual(false);
     setFront("");
     setBack("");
     setExamples([{ da: "", en: "" }]);
-    setGrammarPreview(null);
     setLookupError("");
     setSubmitError("");
     setNotes("");
@@ -202,7 +196,13 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   const groupName = (GRAMMAR_GROUPS.find((g) => g.cls === pos) || {}).name;
   const levelName = (LEVELS.find((l) => l.id === level) || {}).name;
   const catName = (categories.find((c) => c.id === category) || {}).name;
-  const tagLine = [guessType === "word" ? "Word" : "Sentence", guessType === "word" && groupName ? groupName.replace(/s$/, "") : "", levelName, catName].filter(Boolean).join(" · ");
+  // Every field is always listed; the ones not chosen yet are shown muted, so it is clear there is more to set.
+  const tagParts = [
+    { t: guessType === "word" ? "Word" : "Sentence", set: true },
+    ...(guessType === "word" ? [{ t: groupName ? groupName.replace(/s$/, "") : "Type", set: !!groupName }] : []),
+    { t: levelName || "Level", set: !!levelName },
+    { t: catName || "Topic", set: !!catName },
+  ];
   const topics = categories.filter((c) => !isLessonsCategory(c));
   const optPill = (on) => ({ border: "1px solid " + (on ? "var(--fjord)" : "var(--line)"), background: on ? "var(--fjord)" : "#fff", color: on ? "#fff" : "var(--ink)", borderRadius: 999, padding: "7px 13px", fontFamily: "var(--sans)", fontSize: 14, cursor: "pointer" });
   const hasText = !!(text || other || front || back || notes);
@@ -278,7 +278,14 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                   aria-label="Sort this card"
                   style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
                 >
-                  <span>{tagLine}</span>
+                  <span>
+                    {tagParts.map((x, i) => (
+                      <span key={i} style={{ color: x.set ? "var(--ink)" : "var(--muted)" }}>
+                        {i > 0 ? " · " : ""}
+                        {x.t}
+                      </span>
+                    ))}
+                  </span>
                   <Icon.ChevronDown size={14} />
                 </button>
               </div>
@@ -303,45 +310,70 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       ) : (
         <>
           <BigCard>
-            <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: "22px 22px 12px" }}>
-              <input
-                value={front}
-                onChange={(e) => setFront(e.target.value)}
-                aria-label="Grammar point name"
-                className="soft"
-                style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 24, color: "var(--terracotta)", padding: "2px 0" }}
-                placeholder="Name of the lesson"
-              />
-              <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
-              <textarea
-                value={back}
-                onChange={(e) => setBack(e.target.value)}
-                aria-label="Explanation"
-                className="soft"
-                rows={4}
-                style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0 }}
-                placeholder="What it means and when to use it"
-              />
-              {examples.map((ex, i) => (
-                <div key={i} style={{ borderTop: "1px solid var(--line)", paddingTop: 8, marginTop: 8 }}>
-                  <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} placeholder="Danish example" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 16, color: "var(--terracotta)", padding: "2px 0" }} />
-                  <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} placeholder="English translation" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
+            {gChecking ? (
+              <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: "22px 22px 14px", textAlign: "left" }}>
+                {gManual && <div style={fieldLabel}>Lesson name</div>}
+                <input
+                  value={front}
+                  onChange={(e) => setFront(e.target.value)}
+                  aria-label="Lesson name"
+                  className="soft"
+                  style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 24, color: "var(--terracotta)", padding: "2px 0" }}
+                  placeholder="Lesson name"
+                />
+                {gManual && <div style={{ ...fieldLabel, marginTop: 12 }}>Explanation</div>}
+                <textarea
+                  value={back}
+                  onChange={(e) => setBack(e.target.value)}
+                  aria-label="Explanation"
+                  className="soft"
+                  rows={4}
+                  style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0, marginTop: 6 }}
+                  placeholder="What the rule is and when to use it"
+                />
+                <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
+                {gManual && <div style={fieldLabel}>Examples</div>}
+                {examples.map((ex, i) => (
+                  <div key={i} style={{ marginBottom: 8 }}>
+                    <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} aria-label="Danish sentence" placeholder="Danish sentence" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 17, color: "var(--terracotta)", padding: "2px 0" }} />
+                    <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} aria-label="English meaning" placeholder="English meaning" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
+                  </div>
+                ))}
+                <div style={{ display: "flex", gap: 16, marginTop: 4 }}>
+                  <button onClick={addExampleRow} style={quietLink}>+ Add an example</button>
+                  {!showNote && !notes && <button onClick={() => setShowNote(true)} style={quietLink}>+ Add a note</button>}
                 </div>
-              ))}
-              <div style={{ textAlign: "center", marginTop: 10 }}>
-                <button onClick={addExampleRow} style={quietLink}>
-                  + Add an example
-                </button>
+                {(showNote || notes) && (
+                  <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ width: "100%", border: "none", borderTop: "1px solid var(--line)", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", padding: "8px 0 0", marginTop: 10 }} placeholder="Note" />
+                )}
               </div>
-              <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ width: "100%", border: "none", borderTop: "1px solid var(--line)", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", padding: "10px 0 0", marginTop: 10 }} placeholder="Note (optional)" />
-            </div>
+            ) : (
+              <div style={{ flex: 1, minHeight: 0, display: "flex", alignItems: "center", justifyContent: "center", padding: "24px 20px", textAlign: "center" }}>
+                <textarea
+                  value={front}
+                  onChange={(e) => setFront(e.target.value)}
+                  autoCapitalize="none"
+                  rows={3}
+                  aria-label="What do you want to learn"
+                  className="soft"
+                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
+                  placeholder="What do you want to learn?"
+                />
+              </div>
+            )}
           </BigCard>
           <ActionRow>
-            <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
-              {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
-              {lookingUp ? "Asking…" : "Ask AI to explain"}
-            </PillButton>
-            <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
+            {gChecking ? (
+              <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
+            ) : (
+              <>
+                <PillButton kind="secondary" onClick={() => { setGManual(true); setGChecking(true); setLookupError(""); }}>Input manually</PillButton>
+                <PillButton onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
+                  {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+                  {lookingUp ? "Writing…" : "Write lesson"}
+                </PillButton>
+              </>
+            )}
           </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
         </>
@@ -415,30 +447,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                 <button onClick={() => setShowNote(true)} style={quietLink}>+ Add a note</button>
               )}
             </div>
-          </div>
-        </CenteredOverlay>
-      )}
-
-      {grammarPreview && (
-        <CenteredOverlay onClose={() => setGrammarPreview(null)} maxWidth={440}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-            <div style={{ fontFamily: "var(--serif)", fontSize: 17, color: "var(--terracotta)" }}>{grammarPreview.grammarName}</div>
-            <button aria-label="Close" onClick={() => setGrammarPreview(null)} style={{ border: "none", background: "none", cursor: "pointer", padding: 4, color: "var(--muted)" }}>
-              <Icon.X size={18} />
-            </button>
-          </div>
-          <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.55, marginBottom: 14 }}>{renderInlineMarkdown(grammarPreview.explanation)}</div>
-          {grammarPreview.examples.length > 0 && (
-            <div style={{ borderTop: "1px solid var(--line)", paddingTop: 12, marginBottom: 16 }}>
-              {grammarPreview.examples.map((ex, i) => (
-                <div key={i} style={{ fontFamily: "var(--sans)", fontSize: 13.5, marginBottom: 6 }}>
-                  <span style={{ color: "var(--terracotta)" }}>{renderInlineMarkdown(ex.da)}</span> — <span style={{ color: "var(--sage)", fontStyle: "italic" }}>{ex.en}</span>
-                </div>
-              ))}
-            </div>
-          )}
-          <div style={{ textAlign: "center" }}>
-            <PillButton onClick={useGrammarPreview}>Use this</PillButton>
           </div>
         </CenteredOverlay>
       )}

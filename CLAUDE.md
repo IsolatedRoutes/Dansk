@@ -72,7 +72,7 @@ centred overlay of single-tap pills: word / phrase or sentence, word type, level
 "+ Add a note"). Word vs sentence is worked out (`cardTypeFor`: ends with . ? ! or 4+ words after a
 leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). A manual card has no level-up forms. The existing "Clear" link (reserved row, visibility toggled) replaces any
 "Start over" button. Things the learner picked by hand are never overwritten by the AI. No dropdown
-menus on this screen except the top "Word or sentence / Grammar lesson". Test: `tests/addcard_test.py`.
+menus on this screen except the top "Word or sentence / Grammar lesson". Grammar lessons (first dropdown) use the same two steps: one box "What do you want to learn?" with "Input manually" / "Write lesson" (ONE AI call: name, explanation, 3 examples, filled straight into the editable lesson card), then "Add lesson"; manual mode shows small labels above the empty boxes. Test: `tests/addcard_test.py`.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
