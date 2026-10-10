@@ -222,7 +222,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                       aria-label="Dansk"
                       className="soft"
                       style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
-                      placeholder="Type here"
+                      placeholder="et æble"
                     />
                     {pencil}
                   </div>
@@ -238,7 +238,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                       aria-label="English"
                       className="soft"
                       style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 110, overflowY: "auto" }}
-                      placeholder="Type here, or tap Look up"
+                      placeholder="an apple"
                     />
                     {pencil}
                   </div>
