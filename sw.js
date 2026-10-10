@@ -1,6 +1,6 @@
 // Caches the app shell (page, manifest, icons) so Study and Library work
 // offline. AI features always use the network and are never cached.
-const CACHE_NAME = "dansk-shell-v140";
+const CACHE_NAME = "dansk-shell-v141";
 const SHELL_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {

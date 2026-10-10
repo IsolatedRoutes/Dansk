@@ -36,7 +36,7 @@ const PROVIDERS = {
     steps: [
       { text: "Sign in with your Google account on the page we open for you." },
       { text: "Tap “Create API key”." },
-      { text: "Your AI key will look like a long string of letters and numbers, like AIzaSy… Copy it, then tap Done at the top of the page to come back to the app." },
+      { text: "Your AI key will look like a long string of letters and numbers, like AIzaSy… Copy it, then tap the small \u25c0 Broen arrow at the very top left of the screen to come back." },
       { text: "Ready? Open Google AI Studio, then follow the steps you just read.", button: true },
     ],
     help: [
@@ -59,7 +59,7 @@ const PROVIDERS = {
     steps: [
       { text: "Sign in to Anthropic, or make an account, and add a few dollars of credit." },
       { text: "Tap “Create Key” and give it any name." },
-      { text: "Your AI key will look like a very long string of letters and numbers, like sk-ant-api03-… It is only shown once. Copy it, then tap Done at the top of the page to come back to the app." },
+      { text: "Your AI key will look like a very long string of letters and numbers, like sk-ant-api03-… It is only shown once. Copy it, then tap the small \u25c0 Broen arrow at the very top left of the screen to come back." },
       { text: "Ready? Open Anthropic, then follow the steps you just read.", button: true },
     ],
     help: [
