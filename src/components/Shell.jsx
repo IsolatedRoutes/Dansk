@@ -57,12 +57,15 @@ export function Shell({ children }) {
           .app-shell { max-width: 900px; }
           .app-views { zoom: 1.3; --z: 1.3; }
         }
+        @keyframes viewIn { from { opacity: 0; } to { opacity: 1; } }
+        .app-views { animation: viewIn 0.14s ease-out; }
+        html { scrollbar-gutter: stable; }
         .spin { animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
         @keyframes cardEnterNext { from { opacity: 0.25; transform: translateX(14px); } to { opacity: 1; transform: translateX(0); } }
         @keyframes cardEnterBack { from { opacity: 0.25; transform: translateX(-14px); } to { opacity: 1; transform: translateX(0); } }
-        .card-enter-next { animation: cardEnterNext 0.4s ease-out; }
-        .card-enter-back { animation: cardEnterBack 0.4s ease-out; }
+        .card-enter-next { animation: cardEnterNext 0.22s ease-out; }
+        .card-enter-back { animation: cardEnterBack 0.22s ease-out; }
         @keyframes popoverIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
         .popover { animation: popoverIn 0.16s ease-out; box-shadow: 0 10px 28px rgba(35,39,42,0.16); }
         @keyframes backdropFadeIn { from { opacity: 0; } to { opacity: 1; } }

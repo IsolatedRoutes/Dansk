@@ -94,7 +94,7 @@ export function Pill({ children, color, active, onClick }) {
         fontFamily: "var(--sans)",
         whiteSpace: "nowrap",
         cursor: "pointer",
-        transition: "all .15s ease",
+        transition: "background-color .15s ease, color .15s ease, border-color .15s ease, opacity .15s ease",
       }}
     >
       {children}

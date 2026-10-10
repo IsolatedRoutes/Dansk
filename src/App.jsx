@@ -40,6 +40,8 @@ export default function DanishFlashcards() {
   useEffect(() => setKnownWordsForAI(cards), [cards]);
   const [categories, setCategories] = useState(DEFAULT_CATEGORIES);
   const [tab, setTab] = useState("study");
+  // A new screen always starts at the top, so the page never opens halfway down.
+  useEffect(() => { window.scrollTo(0, 0); }, [tab]);
   const degradedWarned = useRef(false);
   const [toast, setToast] = useState(null);
   const [engine, setEngine] = useState(undefined);
@@ -774,7 +776,7 @@ export default function DanishFlashcards() {
           </CenteredOverlay>
         )}
       </div>
-      <div className="app-views" style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
+      <div key={tab} className="app-views" style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
         {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} updateCards={updateCards} addCards={addCards} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
         {tab === "library" && (
           <LibraryView
