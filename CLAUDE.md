@@ -70,7 +70,7 @@ level-up forms. Step 2 shows the finished card: Danish and English editable, a t
 ("Word · Verb · Intermediate · Topic") and "Add card". Tapping the tag line opens "Sort this card" (a
 centred overlay of single-tap pills: word / phrase or sentence, word type, level, topic, "New topic",
 "+ Add a note"). Word vs sentence is worked out (`cardTypeFor`: ends with . ? ! or 4+ words after a
-leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). A manual card has no level-up forms. The existing "Clear" link (reserved row, visibility toggled) replaces any
+leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). A manual card has no level-up forms; "Look up" (and for lessons "Write lesson") stays next to Add card in the manual check step until the AI has filled it, so the learner can switch to AI at any point. The existing "Clear" link (reserved row, visibility toggled) replaces any
 "Start over" button. Things the learner picked by hand are never overwritten by the AI. No dropdown
 menus on this screen except the top "Word or sentence / Grammar lesson". Grammar lessons (first dropdown) use the same two steps: one box "What do you want to learn?" with "Input manually" / "Write lesson" (ONE AI call: name, explanation, 3 examples, filled straight into the editable lesson card), then "Add lesson"; manual mode shows small labels above the empty boxes. Test: `tests/addcard_test.py`.
 

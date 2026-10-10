@@ -294,7 +294,15 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
 
           <ActionRow>
             {checking ? (
-              <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
+              <>
+                {!forms && (
+                  <PillButton kind="secondary" onClick={lookup} disabled={looking || (!text.trim() && !other.trim())}>
+                    {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+                    {looking ? "Looking up…" : "Look up"}
+                  </PillButton>
+                )}
+                <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
+              </>
             ) : (
               <>
                 <PillButton kind="secondary" onClick={() => { setOther(""); setChecking(true); setLookupError(""); }}>Input manually</PillButton>
@@ -364,7 +372,15 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
           </BigCard>
           <ActionRow>
             {gChecking ? (
-              <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
+              <>
+                {gManual && (
+                  <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
+                    {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+                    {lookingUp ? "Writing…" : "Write lesson"}
+                  </PillButton>
+                )}
+                <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
+              </>
             ) : (
               <>
                 <PillButton kind="secondary" onClick={() => { setGManual(true); setGChecking(true); setLookupError(""); }}>Input manually</PillButton>
