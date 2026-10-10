@@ -51,7 +51,7 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
 
     body = page.inner_text("body")
-    box = page.get_by_label("Danish", exact=True)
+    box = page.get_by_label("Dansk", exact=True)
     check(box.count() == 1 and page.get_by_label("English", exact=True).count() == 1, "one screen: a Danish box and an English box")
     check("Details" not in body and "Fill in with AI" not in body, "no extra toggles or fields")
     check(page.get_by_role("button", name="Look up").count() == 1 and page.locator("select").count() == 0, "Look up, no dropdown menus")
@@ -98,7 +98,7 @@ with sync_playwright() as p:
                       body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.route("**/generativelanguage.googleapis.com/**", fake)
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
-    page.get_by_label("Danish", exact=True).fill("zzyx dog")
+    page.get_by_label("Dansk", exact=True).fill("zzyx dog")
     page.wait_for_timeout(500)
     check(len(calls) == 0, "typing alone makes no AI call")
     page.get_by_role("button", name="Look up").click(); page.wait_for_timeout(1500)

@@ -207,16 +207,16 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         <>
           <BigCard>
             <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
-                <div style={fieldLabel}>Danish</div>
+                <div style={fieldLabel}>Dansk</div>
                 <textarea
                   value={text}
                   onChange={(e) => changeText(e.target.value)}
                   autoCapitalize="none"
                   rows={2}
-                  aria-label="Danish"
+                  aria-label="Dansk"
                   className="soft"
                   style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                  placeholder="Danish"
+                  placeholder="Dansk"
                 />
                 <div style={{ height: 1, width: 60, background: "var(--line)" }} />
                 <div style={fieldLabel}>English</div>

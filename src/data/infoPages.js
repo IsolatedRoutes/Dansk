@@ -53,7 +53,7 @@ export const INFO_PAGES = [
       ],
       [
         "Add your own cards",
-        "The Add tab has one screen for a word or a sentence, with a Danish box and an English box. You can fill in both yourself. Or type one side, in Danish or English, and tap Look up, and the AI fills in the other side and picks the word type, level and topic. Tap Categorize to change any of it or add a note, then tap Add card. Cards made without AI work in Study, but they don’t come back in new forms. The first menu also switches to Grammar lesson: write the lesson name and the rule yourself, or type what you want to learn (for example “ikke”), tap Generate lesson and edit what the AI writes, then tap Add lesson. The Library tab lists every card. You can filter and search in either language, edit a card, hide it from Study, or delete it.",
+        "The Add tab has one screen for a word or a sentence, with a Dansk box and an English box. You can fill in both yourself. Or type one side, in Danish or English, and tap Look up, and the AI fills in the other side and picks the word type, level and topic. Tap Categorize to change any of it or add a note, then tap Add card. Cards made without AI work in Study, but they don’t come back in new forms. The first menu also switches to Grammar lesson: write the lesson name and the rule yourself, or type what you want to learn (for example “ikke”), tap Generate lesson and edit what the AI writes, then tap Add lesson. The Library tab lists every card. You can filter and search in either language, edit a card, hide it from Study, or delete it.",
       ],
       [
         "The starter deck and grammar lessons",
