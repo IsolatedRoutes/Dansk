@@ -186,7 +186,11 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     { id: "grammar", label: "Grammar lesson" },
   ];
   const fieldLabel = { fontFamily: "var(--sans)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 2 };
-  const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "center", padding: "2px 0" };
+  // Each writing area is a white box with a small pencil, so it is clear you can type there.
+  const fieldWrap = { width: "100%", textAlign: "left" };
+  const fieldBox = { position: "relative", background: "#fff", border: "1.5px solid var(--line)", borderRadius: 14, padding: "10px 38px 10px 14px", marginTop: 6 };
+  const pencil = <Icon.Edit3 size={15} style={{ position: "absolute", right: 13, top: 13, color: "var(--muted)", pointerEvents: "none" }} />;
+  const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "left", padding: "2px 0" };
 
   return (
     <Stage>
@@ -206,30 +210,39 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       {mode === "card" ? (
         <>
           <BigCard>
-            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
-                <div style={fieldLabel}>Dansk</div>
-                <textarea
-                  value={text}
-                  onChange={(e) => changeText(e.target.value)}
-                  autoCapitalize="none"
-                  rows={2}
-                  aria-label="Dansk"
-                  className="soft"
-                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                  placeholder="Dansk"
-                />
-                <div style={{ height: 1, width: 60, background: "var(--line)" }} />
-                <div style={fieldLabel}>English</div>
-                <textarea
-                  value={other}
-                  onChange={(e) => changeOther(e.target.value)}
-                  autoCapitalize="none"
-                  rows={2}
-                  aria-label="English"
-                  className="soft"
-                  style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                  placeholder="English"
-                />
+            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "20px 18px 12px", textAlign: "center" }}>
+                <div style={fieldWrap}>
+                  <div style={fieldLabel}>Dansk</div>
+                  <div style={fieldBox}>
+                    <textarea
+                      value={text}
+                      onChange={(e) => changeText(e.target.value)}
+                      autoCapitalize="none"
+                      rows={2}
+                      aria-label="Dansk"
+                      className="soft"
+                      style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
+                      placeholder="Type here"
+                    />
+                    {pencil}
+                  </div>
+                </div>
+                <div style={fieldWrap}>
+                  <div style={fieldLabel}>English</div>
+                  <div style={fieldBox}>
+                    <textarea
+                      value={other}
+                      onChange={(e) => changeOther(e.target.value)}
+                      autoCapitalize="none"
+                      rows={2}
+                      aria-label="English"
+                      className="soft"
+                      style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 110, overflowY: "auto" }}
+                      placeholder="Type here, or tap Look up"
+                    />
+                    {pencil}
+                  </div>
+                </div>
             </div>
             {(
               <div style={{ display: "flex", justifyContent: "center", padding: "0 16px 18px" }}>
@@ -259,29 +272,38 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       ) : (
         <>
           <BigCard>
-            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
-              <div style={fieldLabel}>Lesson</div>
-              <textarea
-                value={front}
-                onChange={(e) => { setFront(e.target.value); setLookupError(""); }}
-                autoCapitalize="none"
-                rows={2}
-                aria-label="Lesson name"
-                className="soft"
-                style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                placeholder="Lesson name"
-              />
-              <div style={{ height: 1, width: 60, background: "var(--line)" }} />
-              <div style={fieldLabel}>Explanation</div>
-              <textarea
-                value={back}
-                onChange={(e) => setBack(e.target.value)}
-                rows={3}
-                aria-label="Explanation"
-                className="soft"
-                style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 17, fontStyle: "italic", lineHeight: 1.35, color: "var(--sage)", padding: 0, maxHeight: 150, overflowY: "auto" }}
-                placeholder="What the rule is"
-              />
+            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "20px 18px 12px", textAlign: "center" }}>
+              <div style={fieldWrap}>
+                <div style={fieldLabel}>Lesson</div>
+                <div style={fieldBox}>
+                  <textarea
+                    value={front}
+                    onChange={(e) => { setFront(e.target.value); setLookupError(""); }}
+                    autoCapitalize="none"
+                    rows={2}
+                    aria-label="Lesson name"
+                    className="soft"
+                    style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
+                    placeholder="Lesson name"
+                  />
+                  {pencil}
+                </div>
+              </div>
+              <div style={fieldWrap}>
+                <div style={fieldLabel}>Explanation</div>
+                <div style={fieldBox}>
+                  <textarea
+                    value={back}
+                    onChange={(e) => setBack(e.target.value)}
+                    rows={3}
+                    aria-label="Explanation"
+                    className="soft"
+                    style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 16, fontStyle: "italic", lineHeight: 1.35, color: "var(--sage)", padding: 0, maxHeight: 130, overflowY: "auto" }}
+                    placeholder="What the rule is"
+                  />
+                  {pencil}
+                </div>
+              </div>
               {(showNote || notes) && (
                 <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", borderTop: "1px solid var(--line)", paddingTop: 8 }} placeholder="Note" />
               )}
