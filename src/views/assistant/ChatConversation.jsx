@@ -193,14 +193,17 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
       <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: 16, display: "flex", flexDirection: "column", justifyContent: messages.length === 0 ? "center" : "flex-start" }}>
         {ready && messages.length === 0 && (
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", textAlign: "center", marginBottom: 6 }}>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", textAlign: "center", marginBottom: 2 }}>
               Ask about Danish, or tell me what cards to make
+            </div>
+            <div style={{ fontFamily: "var(--sans)", fontSize: 11, fontWeight: 600, letterSpacing: 0.8, textTransform: "uppercase", color: "var(--muted)", margin: "6px 2px 0" }}>
+              Examples · tap to try
             </div>
             {CHAT_EXAMPLES.map((ex) => (
               <button
                 key={ex}
                 onClick={() => setInput(ex)}
-                style={{ border: "1.5px solid var(--line)", background: "#fff", borderRadius: 12, padding: "9px 12px", fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--ink)", lineHeight: 1.35, textAlign: "left", cursor: "pointer" }}
+                style={{ border: "1.5px dashed var(--line)", background: "transparent", borderRadius: 12, padding: "9px 12px", fontFamily: "var(--sans)", fontSize: 13.5, fontStyle: "italic", color: "var(--muted)", lineHeight: 1.35, textAlign: "left", cursor: "pointer" }}
               >
                 {ex}
               </button>
