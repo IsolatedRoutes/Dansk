@@ -8,7 +8,7 @@ import { CATEGORY_RULE, LESSONS_ID, aiCategoryName, isLessonsCategory, topicName
 import { apiErrorMessage, callAI, isSwitchableAIError } from "../../lib/ai/index";
 import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
 import { GRAMMAR_CARD_STYLE, knownWordsHint, PLAIN_ENGLISH_RULE } from "../../lib/ai/prompts";
-import { persistWithRetry, storeGet } from "../../lib/storage";
+import { persistWithRetry, storeGet, storeSet } from "../../lib/storage";
 import { parseJSONLoose } from "../../lib/text";
 
 export function loadingCopy(engine) {
@@ -28,6 +28,8 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
   const [input, setInput] = useState("");
   const [sending, setSending] = useState(false);
   const [ready, setReady] = useState(false);
+  // The examples are only for the very first use; once a message has been sent they are gone for good.
+  const [examplesDone, setExamplesDone] = useState(true);
   const [savingIdx, setSavingIdx] = useState(null);
   const scrollRef = useRef(null);
 
@@ -35,8 +37,13 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
     const load = async () => {
       try {
         const raw = await storeGet("chatHistory");
-        if (raw) setMessages(JSON.parse(raw));
-      } catch {}
+        const parsed = raw ? JSON.parse(raw) : [];
+        if (raw) setMessages(parsed);
+        const done = (await storeGet("chatExamplesDone")) === "1" || (Array.isArray(parsed) && parsed.length > 0);
+        setExamplesDone(done);
+      } catch {
+        setExamplesDone(false);
+      }
       setReady(true);
     };
     load();
@@ -63,6 +70,10 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
     if (!text || sending) return;
     const next = [...messages, { role: "user", content: text }];
     persist(next);
+    if (!examplesDone) {
+      setExamplesDone(true);
+      storeSet("chatExamplesDone", "1");
+    }
     setInput("");
     setSending(true);
     try {
@@ -191,11 +202,8 @@ export function ChatConversation({ engine, categories, addCategory, addCards, sh
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
       <BigCard>
       <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: 16, display: "flex", flexDirection: "column", justifyContent: messages.length === 0 ? "center" : "flex-start" }}>
-        {ready && messages.length === 0 && (
+        {ready && messages.length === 0 && !examplesDone && (
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, color: "var(--muted)", textAlign: "center", marginBottom: 2 }}>
-              Ask about Danish, or tell me what cards to make
-            </div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 11, fontWeight: 600, letterSpacing: 0.8, textTransform: "uppercase", color: "var(--muted)", margin: "6px 2px 0" }}>
               Examples
             </div>
