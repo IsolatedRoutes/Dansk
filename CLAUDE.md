@@ -60,18 +60,12 @@ against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_tes
 Shared pieces in `src/components/layout.jsx`: `PickMenu` (a dropdown like Study's), `Stage` (centres the
 group between header and tab bar), `BigCard`, `PillButton` (terracotta = main action, white = secondary),
 `ActionRow`. No page titles; the dropdowns say where you are. Add: "Word or sentence / Grammar lesson"
-dropdown, one card: type, "Input manually" / "Look up", then the finished card with a short "Categorize" button that opens "Sort this card", and "Add card". Assistant: three mode pills (Chat, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
+dropdown, one card: Danish and English boxes on ONE screen, a short "Categorize" button that opens "Sort this card", "Look up" and "Add card". Assistant: three mode pills (Chat, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
 Filters / A–Z buttons above one cream list card (search inside it). Ask (entry field inside the card), Text and Photo are all one 340px card with the pills centred above and a reserved row below, so nothing jumps. Not yet restyled: the pop-ups (Backup, AI settings) — planned next, to one fixed size.
 
-## Add a card (one box, then check)
-Step 1: one box (`src/views/AddCardView.jsx`, logic in `src/lib/addLookup.js`) and two pills: "Input manually" (no AI, goes to step 2 with the typed text as the Danish side and an empty English side) and "Look up".
-Look up is ONE AI call (only when tapped) that returns both sides, topic, word type, level and
-level-up forms. Step 2 shows the finished card: Danish and English editable, a short "Categorize" button under it
-and "Add card". Tapping Categorize opens "Sort this card" (a
-centred overlay of single-tap pills: word / phrase or sentence, word type, level, topic, "New topic",
-"+ Add a note"). Word vs sentence is worked out (`cardTypeFor`: ends with . ? ! or 4+ words after a
-leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). A manual card has no level-up forms; "Look up" (and for lessons "Write lesson") stays next to Add card in the manual check step until the AI has filled it, so the learner can switch to AI at any point. The existing "Clear" link (reserved row, visibility toggled) replaces any
-"Start over" button. Things the learner picked by hand are never overwritten by the AI. No dropdown
+## Add a card (one screen)
+One screen for words and sentences (`src/views/AddCardView.jsx`, logic in `src/lib/addLookup.js`): a Danish box, an English box, a short "Categorize" button, and two pills "Look up" and "Add card". Fill both sides by hand and Add card needs no AI. "Look up" is ONE AI call (only when tapped) that fills whichever side is empty (sides already typed stay as typed), plus topic, word type, level and level-up forms; it is hidden once the AI has filled the card. "Categorize" opens "Sort this card" (a centred overlay of single-tap pills: word / phrase or sentence, word type, level, topic, "New topic", "+ Add a note"). Word vs sentence is worked out (`cardTypeFor`: ends with . ? ! or 4+ words after a leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). A hand-typed card has no level-up forms. The existing "Clear" link (reserved row, visibility toggled) replaces any
+The reserved "Clear" link (visibility toggled) empties the screen. Things the learner picked by hand are never overwritten by the AI. No dropdown
 menus on this screen except the top "Word or sentence / Grammar lesson". Grammar lessons (first dropdown) use the same two steps: one box "What do you want to learn?" with "Input manually" / "Write lesson" (ONE AI call: name, explanation, 3 examples, filled straight into the editable lesson card), then "Add lesson"; manual mode shows small labels above the empty boxes. Test: `tests/addcard_test.py`.
 
 ## Smart learning (level-up)

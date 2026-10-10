@@ -23,7 +23,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   const [category, setCategory] = useState("");
   const [notes, setNotes] = useState("");
   const [showNote, setShowNote] = useState(false);
-  const [checking, setChecking] = useState(false); // false = typing, true = the finished card is shown
   const [sortOpen, setSortOpen] = useState(false);
   const [kind, setKind] = useState(""); // "", "word" or "sentence": the learner's own choice
   const [newTopic, setNewTopic] = useState("");
@@ -71,10 +70,11 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       const hint = text.trim() ? "auto" : "en";
       const reply = await callAI(LOOKUP_SYSTEM, lookupUserText(src, hint, topicNamesForAI(categories)), { maxTokens: 500 });
       const r = readLookup(parseJSONLoose(reply));
-      setText(r.da);
-      setOther(r.en);
+      // A side the learner already typed stays as typed.
+      const keepBoth = !!(text.trim() && other.trim());
+      setText(keepBoth ? text : r.da);
+      setOther(keepBoth ? other : r.en);
       setForms(r.forms);
-      setChecking(true);
       if (!touched.current.pos) setPos(r.wordType);
       if (!touched.current.level) setLevel(r.level);
       if (!touched.current.category && r.category) {
@@ -126,7 +126,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setText("");
     setOther("");
     setForms(null);
-    setChecking(false);
     setSortOpen(false);
     setKind("");
     setNewTopic("");
@@ -222,46 +221,31 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         <>
           <BigCard>
             <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
-              {checking ? (
-                <>
-                  <div style={fieldLabel}>Danish</div>
-                  <textarea
-                    value={text}
-                    onChange={(e) => changeText(e.target.value)}
-                    autoCapitalize="none"
-                    rows={2}
-                    aria-label="Danish"
-                    className="soft"
-                    style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                    placeholder="Danish"
-                  />
-                  <div style={{ height: 1, width: 60, background: "var(--line)" }} />
-                  <div style={fieldLabel}>English</div>
-                  <textarea
-                    value={other}
-                    onChange={(e) => changeOther(e.target.value)}
-                    autoCapitalize="none"
-                    rows={2}
-                    aria-label="English"
-                    className="soft"
-                    style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 120, overflowY: "auto" }}
-                    placeholder="English"
-                  />
-                </>
-              ) : (
+                <div style={fieldLabel}>Danish</div>
                 <textarea
                   value={text}
                   onChange={(e) => changeText(e.target.value)}
                   autoCapitalize="none"
-                  rows={3}
-                  aria-label="Word or sentence"
+                  rows={2}
+                  aria-label="Danish"
                   className="soft"
-                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                  placeholder="Type a word or sentence in English or Danish"
+                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
+                  placeholder="Danish"
                 />
-              )}
+                <div style={{ height: 1, width: 60, background: "var(--line)" }} />
+                <div style={fieldLabel}>English</div>
+                <textarea
+                  value={other}
+                  onChange={(e) => changeOther(e.target.value)}
+                  autoCapitalize="none"
+                  rows={2}
+                  aria-label="English"
+                  className="soft"
+                  style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 120, overflowY: "auto" }}
+                  placeholder="English"
+                />
             </div>
-            {checking && (
+            {(
               <div style={{ display: "flex", justifyContent: "center", padding: "0 16px 18px" }}>
                 <button
                   onClick={() => setSortOpen(true)}
@@ -276,25 +260,13 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
           </BigCard>
 
           <ActionRow>
-            {checking ? (
-              <>
-                {!forms && (
-                  <PillButton kind="secondary" onClick={lookup} disabled={looking || (!text.trim() && !other.trim())}>
-                    {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
-                    {looking ? "Looking up…" : "Look up"}
-                  </PillButton>
-                )}
-                <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
-              </>
-            ) : (
-              <>
-                <PillButton kind="secondary" onClick={() => { setOther(""); setChecking(true); setLookupError(""); }}>Input manually</PillButton>
-                <PillButton onClick={lookup} disabled={looking || !text.trim()}>
-                  {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
-                  {looking ? "Looking up…" : "Look up"}
-                </PillButton>
-              </>
+            {!forms && (
+              <PillButton kind="secondary" onClick={lookup} disabled={looking || (!text.trim() && !other.trim())}>
+                {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+                {looking ? "Looking up…" : "Look up"}
+              </PillButton>
             )}
+            <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
           </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
         </>

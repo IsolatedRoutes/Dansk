@@ -51,18 +51,16 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
 
     body = page.inner_text("body")
-    box = page.get_by_label("Word or sentence", exact=True)
-    check(box.count() == 1, "one box to type in")
+    box = page.get_by_label("Danish", exact=True)
+    check(box.count() == 1 and page.get_by_label("English", exact=True).count() == 1, "one screen: a Danish box and an English box")
     check("Details" not in body and "Fill in with AI" not in body, "no extra toggles or fields")
-    check(page.get_by_role("button", name="Look up").count() == 1 and page.get_by_role("button", name="Input manually").count() == 1 and page.locator("select").count() == 0, "Look up and Input manually, no dropdown menus")
+    check(page.get_by_role("button", name="Look up").count() == 1 and page.locator("select").count() == 0, "Look up, no dropdown menus")
     clear = page.locator("button:visible", has_text="Clear")
     check(clear.count() == 0, "Clear is hidden while empty")
 
     # Part 2: by hand, no AI set up
     box.fill("zzyxkat")
     check(clear.count() == 1, "Clear shows once there is text")
-    page.get_by_role("button", name="Input manually").click(); page.wait_for_timeout(300)
-    check(page.get_by_role("button", name="Look up").count() == 1, "Look up is still available after Input manually")
     page.get_by_label("English", exact=True).fill("zzyx cat")
     page.get_by_role("button", name="Sort this card").click(); page.wait_for_timeout(300)
     page.get_by_role("button", name="Noun", exact=True).click()
@@ -78,7 +76,6 @@ with sync_playwright() as p:
 
     # By hand, a long text is a sentence
     box.fill("jeg kan rigtig godt lide kaffe")
-    page.get_by_role("button", name="Input manually").click(); page.wait_for_timeout(300)
     page.get_by_label("English", exact=True).fill("I really like coffee a lot")
     page.get_by_role("button", name="Add card").click(); page.wait_for_timeout(1200)
     c = own(page, "jeg kan rigtig godt lide kaffe")
@@ -101,7 +98,7 @@ with sync_playwright() as p:
                       body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.route("**/generativelanguage.googleapis.com/**", fake)
     page.get_by_role("button", name="Add").last.click(); page.wait_for_timeout(600)
-    page.get_by_label("Word or sentence", exact=True).fill("zzyx dog")
+    page.get_by_label("Danish", exact=True).fill("zzyx dog")
     page.wait_for_timeout(500)
     check(len(calls) == 0, "typing alone makes no AI call")
     page.get_by_role("button", name="Look up").click(); page.wait_for_timeout(1500)
