@@ -32,20 +32,10 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   // Grammar lesson form
   const [front, setFront] = useState("");
   const [back, setBack] = useState("");
-  const [examples, setExamples] = useState([{ da: "", en: "" }]);
+  const [examples, setExamples] = useState([]); // only the AI writes these; they are saved with the lesson but not shown
   const [lookingUp, setLookingUp] = useState(false);
-  const [gChecking, setGChecking] = useState(false); // false = typing what to learn, true = the lesson is shown
-  const [gManual, setGManual] = useState(false); // the lesson is being written by hand (boxes get labels)
   // What the learner chose themselves is never overwritten by "Fill in with AI".
   const touched = useRef({ pos: false, level: false, category: false });
-
-  function updateExample(i, field, value) {
-    setExamples(examples.map((ex, idx) => (idx === i ? { ...ex, [field]: value } : ex)));
-  }
-
-  function addExampleRow() {
-    setExamples([...examples, { da: "", en: "" }]);
-  }
 
   // Typing in either box makes any earlier AI answer (level-up forms) stale.
   function changeText(v) {
@@ -104,9 +94,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       const exs = (parsed.examples || []).map((ex) => ({ da: ex.da || "", en: ex.en || "" }));
       setFront(parsed.grammarName || front.trim());
       setBack(parsed.explanation || "");
-      setExamples(exs.length ? exs : [{ da: "", en: "" }]);
-      setGManual(false);
-      setGChecking(true);
+      setExamples(exs);
     } catch (e) {
       setLookupError(apiErrorMessage(e));
     } finally {
@@ -140,11 +128,9 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   }
 
   function resetGrammar() {
-    setGChecking(false);
-    setGManual(false);
     setFront("");
     setBack("");
-    setExamples([{ da: "", en: "" }]);
+    setExamples([]);
     setLookupError("");
     setSubmitError("");
     setNotes("");
@@ -273,78 +259,50 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       ) : (
         <>
           <BigCard>
-            {gChecking ? (
-              <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: "22px 22px 14px", textAlign: "left" }}>
-                {gManual && <div style={fieldLabel}>Lesson name</div>}
-                <input
-                  value={front}
-                  onChange={(e) => setFront(e.target.value)}
-                  aria-label="Lesson name"
-                  className="soft"
-                  style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 24, color: "var(--terracotta)", padding: "2px 0" }}
-                  placeholder="Lesson name"
-                />
-                {gManual && <div style={{ ...fieldLabel, marginTop: 12 }}>Explanation</div>}
-                <textarea
-                  value={back}
-                  onChange={(e) => setBack(e.target.value)}
-                  aria-label="Explanation"
-                  className="soft"
-                  rows={4}
-                  style={{ width: "100%", border: "none", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 15, lineHeight: 1.5, color: "var(--ink)", padding: 0, marginTop: 6 }}
-                  placeholder="What the rule is and when to use it"
-                />
-                <div style={{ height: 1, background: "var(--line)", margin: "10px 0" }} />
-                {gManual && <div style={fieldLabel}>Examples</div>}
-                {examples.map((ex, i) => (
-                  <div key={i} style={{ marginBottom: 8 }}>
-                    <input value={ex.da} onChange={(e) => updateExample(i, "da", e.target.value)} aria-label="Danish sentence" placeholder="Danish sentence" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--serif)", fontSize: 17, color: "var(--terracotta)", padding: "2px 0" }} />
-                    <input value={ex.en} onChange={(e) => updateExample(i, "en", e.target.value)} aria-label="English meaning" placeholder="English meaning" className="soft" style={{ width: "100%", border: "none", background: "none", outline: "none", fontFamily: "var(--sans)", fontSize: 14, fontStyle: "italic", color: "var(--sage)", padding: "2px 0" }} />
-                  </div>
-                ))}
-                <div style={{ display: "flex", gap: 16, marginTop: 4 }}>
-                  <button onClick={addExampleRow} style={quietLink}>+ Add an example</button>
-                  {!showNote && !notes && <button onClick={() => setShowNote(true)} style={quietLink}>+ Add a note</button>}
-                </div>
-                {(showNote || notes) && (
-                  <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ width: "100%", border: "none", borderTop: "1px solid var(--line)", background: "none", outline: "none", resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", padding: "8px 0 0", marginTop: 10 }} placeholder="Note" />
-                )}
-              </div>
-            ) : (
-              <div style={{ flex: 1, minHeight: 0, display: "flex", alignItems: "center", justifyContent: "center", padding: "24px 20px", textAlign: "center" }}>
-                <textarea
-                  value={front}
-                  onChange={(e) => setFront(e.target.value)}
-                  autoCapitalize="none"
-                  rows={3}
-                  aria-label="What do you want to learn"
-                  className="soft"
-                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                  placeholder="What do you want to learn?"
-                />
+            <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
+              <div style={fieldLabel}>Lesson</div>
+              <textarea
+                value={front}
+                onChange={(e) => { setFront(e.target.value); setLookupError(""); }}
+                autoCapitalize="none"
+                rows={2}
+                aria-label="Lesson name"
+                className="soft"
+                style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
+                placeholder="Lesson name"
+              />
+              <div style={{ height: 1, width: 60, background: "var(--line)" }} />
+              <div style={fieldLabel}>Explanation</div>
+              <textarea
+                value={back}
+                onChange={(e) => setBack(e.target.value)}
+                rows={3}
+                aria-label="Explanation"
+                className="soft"
+                style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 17, fontStyle: "italic", lineHeight: 1.35, color: "var(--sage)", padding: 0, maxHeight: 150, overflowY: "auto" }}
+                placeholder="What the rule is"
+              />
+              {(showNote || notes) && (
+                <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" className="soft" rows={2} style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 14, color: "var(--ink)", borderTop: "1px solid var(--line)", paddingTop: 8 }} placeholder="Note" />
+              )}
+            </div>
+            {!(showNote || notes) && (
+              <div style={{ display: "flex", justifyContent: "center", padding: "0 16px 18px" }}>
+                <button
+                  onClick={() => setShowNote(true)}
+                  style={{ border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "8px 18px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
+                >
+                  + Add a note
+                </button>
               </div>
             )}
           </BigCard>
           <ActionRow>
-            {gChecking ? (
-              <>
-                {gManual && (
-                  <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
-                    {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
-                    {lookingUp ? "Writing…" : "Write lesson"}
-                  </PillButton>
-                )}
-                <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
-              </>
-            ) : (
-              <>
-                <PillButton kind="secondary" onClick={() => { setGManual(true); setGChecking(true); setLookupError(""); }}>Input manually</PillButton>
-                <PillButton onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
-                  {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
-                  {lookingUp ? "Writing…" : "Write lesson"}
-                </PillButton>
-              </>
-            )}
+            <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
+              {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+              {lookingUp ? "Generating…" : "Generate lesson"}
+            </PillButton>
+            <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>
           </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
         </>
