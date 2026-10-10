@@ -186,10 +186,9 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     { id: "grammar", label: "Grammar lesson" },
   ];
   const fieldLabel = { fontFamily: "var(--sans)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 2 };
-  // Each writing area is a white box with a small pencil, so it is clear you can type there.
+  // Each writing area is a white box, so it is clear you can type there.
   const fieldWrap = { width: "100%", textAlign: "left" };
-  const fieldBox = { position: "relative", background: "#fff", border: "1.5px solid var(--line)", borderRadius: 14, padding: "10px 38px 10px 14px", marginTop: 6 };
-  const pencil = <Icon.Edit3 size={15} style={{ position: "absolute", right: 13, top: 13, color: "var(--muted)", pointerEvents: "none" }} />;
+  const fieldBox = { position: "relative", background: "#fff", border: "1.5px solid var(--line)", borderRadius: 14, padding: "10px 14px", marginTop: 6 };
   const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "left", padding: "2px 0" };
 
   return (
@@ -222,9 +221,8 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                       aria-label="Dansk"
                       className="soft"
                       style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
-                      placeholder="et æble"
+                      placeholder="f.eks. et æble"
                     />
-                    {pencil}
                   </div>
                 </div>
                 <div style={fieldWrap}>
@@ -238,9 +236,8 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                       aria-label="English"
                       className="soft"
                       style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 110, overflowY: "auto" }}
-                      placeholder="an apple"
+                      placeholder="e.g. an apple"
                     />
-                    {pencil}
                   </div>
                 </div>
             </div>
@@ -286,7 +283,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 26, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 110, overflowY: "auto" }}
                     placeholder="Lesson name"
                   />
-                  {pencil}
                 </div>
               </div>
               <div style={fieldWrap}>
@@ -301,7 +297,6 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 16, fontStyle: "italic", lineHeight: 1.35, color: "var(--sage)", padding: 0, maxHeight: 130, overflowY: "auto" }}
                     placeholder="What the rule is"
                   />
-                  {pencil}
                 </div>
               </div>
               {(showNote || notes) && (
