@@ -27,8 +27,6 @@ export const QUICK_MS = 2500; // under this: knew it, or didn't try
 export const EFFORT_MS = 8000; // up to AWAY_MS: really trying to recall
 export const AWAY_MS = 30000; // longer than this: probably looked away, so ignored
 
-export const SRS_FIELDS = ["srsN", "srsLvl", "srsDue", "srsAt", "srsSkips"];
-
 export const srsSeen = (c) => (c.srsN || 0) > 0;
 
 // "help" = lightbulb or ask, "skip" = swiped past without flipping,

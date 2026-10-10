@@ -209,15 +209,48 @@ export default function DanishFlashcards() {
           if (!Array.isArray(c)) throw new Error("not a list");
         } catch {
           c = [];
-          await storeSet("cards_unreadable_" + Date.now(), rawCards);
+          // The unreadable copy must be safely kept before anything replaces it.
+          const kept = await storeSet("cards_unreadable_" + Date.now(), rawCards);
+          if (!kept.ok) {
+            setLoadError(true);
+            return;
+          }
+        }
+        // Entries that are not usable cards (damaged or hand-edited data) are set
+        // aside with a copy of the whole deck, so one bad entry can never stop the app.
+        const usable = c.filter((x) => x && typeof x === "object" && typeof x.front === "string" && typeof x.back === "string");
+        if (usable.length !== c.length) {
+          const kept = await storeSet("cards_unreadable_" + Date.now(), rawCards);
+          if (!kept.ok) {
+            setLoadError(true);
+            return;
+          }
+          c = usable;
         }
       }
+      let rawCats = null;
       try {
-        const raw = await storeGet("categories");
-        if (raw) cat = JSON.parse(raw);
-        if (!Array.isArray(cat)) cat = DEFAULT_CATEGORIES;
+        rawCats = await storeGetStrict("categories");
       } catch {
-        cat = DEFAULT_CATEGORIES;
+        setLoadError(true);
+        return;
+      }
+      if (rawCats) {
+        let parsedCats = null;
+        try {
+          parsedCats = JSON.parse(rawCats);
+        } catch {
+          parsedCats = null;
+        }
+        const usableCats = Array.isArray(parsedCats) ? parsedCats.filter((x) => x && typeof x === "object" && typeof x.id === "string" && typeof x.name === "string") : null;
+        if (!usableCats || usableCats.length !== parsedCats.length) {
+          const kept = await storeSet("categories_unreadable_" + Date.now(), rawCats);
+          if (!kept.ok) {
+            setLoadError(true);
+            return;
+          }
+        }
+        if (usableCats) cat = usableCats;
       }
       // Everything the person has done, captured before any update below
       // touches the data — put back at the end if anything went missing.
@@ -371,7 +404,10 @@ export default function DanishFlashcards() {
       setLoaded(true);
       // Ask the device not to clear saved progress when it runs low on space.
       try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch {}
-    })();
+    })().catch(() => {
+      // Anything unexpected while opening: nothing has been saved over the deck, so say so and offer a retry.
+      setLoadError(true);
+    });
   }, []);
 
   // Always the latest deck, so two quick taps (mark known, then star)
@@ -394,6 +430,7 @@ export default function DanishFlashcards() {
 
   const persistCategories = useCallback(
     async (next) => {
+      categoriesRef.current = next;
       setCategories(next);
       const result = await persistWithRetry("categories", JSON.stringify(next));
       if (!result.ok) showToast("Couldn't save categories (" + result.error + ")");
@@ -406,13 +443,14 @@ export default function DanishFlashcards() {
     (name) => {
       const trimmed = (name || "").trim();
       if (!trimmed) return null;
-      const existing = categories.find((c) => c.name.toLowerCase() === trimmed.toLowerCase());
+      const current = categoriesRef.current;
+      const existing = current.find((c) => c.name.toLowerCase() === trimmed.toLowerCase());
       if (existing) return existing.id;
       const id = uid();
-      persistCategories([...categories, { id, name: trimmed, custom: true }]);
+      persistCategories([...current, { id, name: trimmed, custom: true }]);
       return id;
     },
-    [categories, persistCategories]
+    [persistCategories]
   );
 
   // Wholesale replace, for restoring an exported backup — bypasses the
@@ -423,18 +461,45 @@ export default function DanishFlashcards() {
   // deck then goes through the same safe update path as any old deck.
   const replaceAllData = useCallback(
     async (newCards, newCategories) => {
-      const catResult = await persistCategories(newCategories);
-      const cardResult = await persistCards(unpackCards(newCards));
-      const ok = catResult.ok && cardResult.ok;
-      if (ok) {
-        await storeSet("categoryLayout", "");
-        await storeSet("grammarVersion", "");
-        await storeSet("caseTidied", "");
-        setTimeout(() => window.location.reload(), 1200);
+      // Only usable cards and topics go in; every card gets its own id.
+      const list = unpackCards(newCards);
+      const seen = new Set();
+      const goodCards = (Array.isArray(list) ? list : [])
+        .filter((c) => c && typeof c === "object" && typeof c.front === "string" && typeof c.back === "string")
+        .map((c) => {
+          const id = typeof c.id === "string" && c.id && !seen.has(c.id) ? c.id : uid();
+          seen.add(id);
+          return id === c.id ? c : { ...c, id };
+        });
+      const goodCats = (Array.isArray(newCategories) ? newCategories : []).filter((c) => c && typeof c === "object" && typeof c.id === "string" && typeof c.name === "string");
+      if (!goodCards.length) {
+        showToast("That backup has no cards, so nothing was changed");
+        return false;
       }
-      return ok;
+      const oldCards = cardsRef.current;
+      const oldCats = categoriesRef.current;
+      // A copy of what is here now, so a restore can be undone by hand if needed.
+      const copy = await storeSet("preRestoreBackup", JSON.stringify({ at: Date.now(), cards: oldCards, categories: oldCats }));
+      if (!copy.ok) {
+        showToast("Couldn't keep a copy of your current deck, so nothing was changed");
+        return false;
+      }
+      const cardResult = await persistCards(goodCards);
+      const catResult = cardResult.ok ? await persistCategories(goodCats) : { ok: false };
+      const ok = cardResult.ok && catResult.ok;
+      if (!ok) {
+        // Put back what was there so cards and topics always match.
+        await persistCards(oldCards);
+        await persistCategories(oldCats);
+        return false;
+      }
+      await storeSet("categoryLayout", "");
+      await storeSet("grammarVersion", "");
+      await storeSet("caseTidied", "");
+      setTimeout(() => window.location.reload(), 1200);
+      return true;
     },
-    [persistCategories, persistCards]
+    [persistCategories, persistCards, showToast]
   );
 
   const sync = useICloudSync({ loaded, cards, categories, cardsRef, categoriesRef, persistCards, persistCategories, replaceAllData });
@@ -448,6 +513,7 @@ export default function DanishFlashcards() {
       // where duplicates get caught — matched on the Danish side, case-
       // and whitespace-insensitive, against both the existing deck and
       // other cards in this same batch.
+      const cards = cardsRef.current; // always the latest deck, even if two adds happen close together
       const existingFronts = new Map(cards.map((c) => [frontKey(c.front), c.id]));
       const seenInBatch = new Set();
       const duplicateFronts = [];
@@ -531,7 +597,7 @@ export default function DanishFlashcards() {
         showToast(msg);
       }
     },
-    [cards, categories, persistCards, showToast]
+    [categories, persistCards, showToast]
   );
 
   const updateCard = useCallback(
@@ -626,6 +692,8 @@ export default function DanishFlashcards() {
           onOpenInfo={setInfoPage}
           settingsOpen={showSettings}
           backupOpen={showBackup}
+          tab={tab}
+          setTab={setTab}
         />
         {autoBackupDue && (
           <CenteredOverlay onClose={() => setAutoBackupDue(false)} maxWidth={340}>
@@ -637,6 +705,9 @@ export default function DanishFlashcards() {
               </div>
               <button onClick={runAutoBackup} style={{ ...smallBtn("var(--fjord)"), width: "100%", padding: "10px", fontSize: 14 }}>
                 Back up now
+              </button>
+              <button onClick={() => setAutoBackupDue(false)} style={{ border: "none", background: "none", color: "var(--muted)", fontFamily: "var(--sans)", fontSize: 13, cursor: "pointer", marginTop: 10, padding: 4 }}>
+                Not now
               </button>
             </div>
           </CenteredOverlay>
@@ -703,7 +774,7 @@ export default function DanishFlashcards() {
           </CenteredOverlay>
         )}
       </div>
-      <div style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
+      <div className="app-views" style={{ padding: "0 16px calc(96px + env(safe-area-inset-bottom, 0px))" }}>
         {tab === "study" && <StudyView cards={cards} categories={categories} updateCard={updateCard} updateCards={updateCards} addCards={addCards} onOpenSettings={() => setShowSettings(true)} showToast={showToast} />}
         {tab === "library" && (
           <LibraryView

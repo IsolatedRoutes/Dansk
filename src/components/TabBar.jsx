@@ -1,14 +1,17 @@
 import { Icon } from "./icons";
 
+export const TAB_ITEMS = [
+  { id: "study", label: "Study", icon: Icon.GraduationCap },
+  { id: "chat", label: "Assistant", icon: Icon.MessageCircle },
+  { id: "add", label: "Add", icon: Icon.Plus },
+  { id: "library", label: "Library", icon: Icon.Layers },
+];
+
 export function TabBar({ tab, setTab }) {
-  const items = [
-    { id: "study", label: "Study", icon: Icon.GraduationCap },
-    { id: "chat", label: "Assistant", icon: Icon.MessageCircle },
-    { id: "add", label: "Add", icon: Icon.Plus },
-    { id: "library", label: "Library", icon: Icon.Layers },
-  ];
+  const items = TAB_ITEMS;
   return (
     <div
+      className="tabbar-bottom"
       style={{
         position: "fixed",
         bottom: 0,

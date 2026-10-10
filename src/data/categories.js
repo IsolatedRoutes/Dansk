@@ -78,8 +78,6 @@ export const LEGACY_EMPTY_CATEGORY_IDS = ["verbs", "gender", "structure", "condi
 
 export const TYPE_LABEL = { word: "Word", sentence: "Sentence", grammar: "Grammar" };
 
-export const TYPE_COLOR = { word: "#4C6B65", sentence: "#C1653F", grammar: "#8C6FA0" };
-
 // Preloaded starter vocabulary — no AI involved. 8,000 words, chosen
 // using a Danish word-frequency list (FrequencyWords by Hermit Dave,
 // CC BY-SA 4.0 — used only to decide which words to include; no

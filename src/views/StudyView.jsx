@@ -877,7 +877,7 @@ export function StudyView({ cards, categories, updateCard, updateCards, addCards
       ) : (
         <>
           {/* Card count, card and buttons sit in the middle of the free space on tall screens. */}
-          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", minHeight: "max(0px, calc(100dvh - 400px))" }}>
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", minHeight: "max(0px, calc((100dvh - 400px) / var(--z, 1)))" }}>
           <div style={{ fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", marginBottom: 8, display: "flex", gap: 16 }}>
             <span>
               Card {Math.min(cardNumber, scopeTotal)} of {scopeTotal}

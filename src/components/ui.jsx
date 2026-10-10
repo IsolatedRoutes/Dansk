@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Icon } from "./icons";
 
 // ---------- shared UI bits ----------
@@ -27,8 +28,6 @@ export function smallBtn(bg) {
   };
 }
 
-export const rowCheck = { display: "flex", alignItems: "flex-start", gap: 8, marginBottom: 8, cursor: "pointer" };
-
 // Every popup in the app (word-insight, ask-a-word, AI settings, backup)
 // uses this: a simple centered overlay, sized to the viewport with its
 // own internal scroll. Deliberately NOT anchored to wherever it was
@@ -38,6 +37,14 @@ export const rowCheck = { display: "flex", alignItems: "flex-start", gap: 8, mar
 // attempts to compute it dynamically. A fixed, centered box can't be
 // clipped by anything and doesn't need to track a moving target.
 export function CenteredOverlay({ onClose, children, maxWidth = 420 }) {
+  // The Escape key (iPad keyboard, computer) closes a popup too.
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key === "Escape" && onClose) onClose();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
   return (
     <div
       className="popover-backdrop"
@@ -105,19 +112,6 @@ export function EmptyState({ icon: IconCmp, title, body }) {
       <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, lineHeight: 1.5, maxWidth: 320, margin: "0 auto" }}>
         {body}
       </div>
-    </div>
-  );
-}
-
-export function SectionTitle({ children }) {
-  return <h2 style={{ fontFamily: "var(--serif)", fontSize: 18, fontWeight: 400, margin: 0 }}>{children}</h2>;
-}
-
-export function Field({ label, children }) {
-  return (
-    <div style={{ marginBottom: 12 }}>
-      <label style={{ display: "block", fontFamily: "var(--sans)", fontSize: 12, color: "var(--muted)", marginBottom: 5 }}>{label}</label>
-      {children}
     </div>
   );
 }

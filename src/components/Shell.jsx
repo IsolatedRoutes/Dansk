@@ -18,7 +18,6 @@ export function Shell({ children }) {
         "--sans": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
         background: "var(--paper)",
         color: "var(--ink)",
-        maxWidth: 480,
         margin: "0 auto",
         position: "relative",
         boxSizing: "border-box",
@@ -43,6 +42,21 @@ export function Shell({ children }) {
           padding-left: env(safe-area-inset-left, 0px);
           padding-right: env(safe-area-inset-right, 0px);
         }
+        .app-shell { max-width: 480px; }
+        .nav-wide { display: none; }
+        /* Wide screens (iPad, computer): a wider centred column, bigger cards, and the
+           four tabs move from the bottom bar up into the header. Phones, including
+           a phone turned sideways, keep the phone layout. */
+        @media (min-width: 768px) and (min-height: 600px) {
+          .app-shell { max-width: 780px; }
+          .app-views { zoom: 1.2; --z: 1.2; }
+          .tabbar-bottom { display: none !important; }
+          .nav-wide { display: flex; }
+        }
+        @media (min-width: 1100px) and (min-height: 700px) {
+          .app-shell { max-width: 900px; }
+          .app-views { zoom: 1.3; --z: 1.3; }
+        }
         .spin { animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
         @keyframes cardEnterNext { from { opacity: 0.25; transform: translateX(14px); } to { opacity: 1; transform: translateX(0); } }
@@ -56,6 +70,19 @@ export function Shell({ children }) {
         * { box-sizing: border-box; }
         html, body { overscroll-behavior-x: none; }
         input, textarea, select { font-family: var(--sans); }
+        /* Dropdowns: the phone's own style shows the chosen text in system blue.
+           Draw them in the app's normal dark colour with a small grey arrow. */
+        select {
+          -webkit-appearance: none;
+          appearance: none;
+          color: var(--ink);
+          -webkit-text-fill-color: var(--ink);
+          padding-right: 26px !important;
+          background-color: #fff;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A8577' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: right 8px center;
+        }
         input:focus, textarea:focus, select:focus { outline: 2px solid var(--fjord); outline-offset: 1px; }
         button:focus-visible { outline: 2px solid var(--fjord); outline-offset: 2px; }
         ::placeholder { color: #ADA898; }

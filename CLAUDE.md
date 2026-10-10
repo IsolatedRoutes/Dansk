@@ -274,3 +274,10 @@ On the website they stay in the site's own storage. Keys are never in backups
 or URLs (they travel in request headers). Do not return the plugin object from
 a Promise (Capacitor plugins look like Promises and hang); `secrets.js` wraps it.
 `clearLeftoverSecrets` removes Keychain keys left by a deleted install.
+
+## Recent changes (wide layout, closing, safety)
+- Wide screens (iPad/browser): `.app-shell` grows to 780px (900px on big screens) with CSS `zoom`; the bottom tab bar is replaced by `.nav-wide` in the Header. Height maths divides by `var(--z, 1)`.
+- Popups close with Escape; the AI settings panel has an X and Done; the auto-backup popup has "Not now".
+- Translate detects the language with `guessEnglish` first, then asks the AI (fast, no thinking), and retries the other direction if the result is unchanged.
+- Contact address everywhere: isolatedroutes@gmail.com (`CONTACT_EMAIL` in src/data/infoPages.js).
+- Startup never throws unhandled: bad cards/categories are set aside as `cards_unreadable_*` / `categories_unreadable_*` (a failed copy shows the load-error screen). Restoring a backup saves `preRestoreBackup` first and rolls back if a write fails. `addCards`/`addCategory` read `cardsRef`/`categoriesRef`. A closed IndexedDB connection is reopened.

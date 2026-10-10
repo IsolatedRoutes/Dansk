@@ -50,7 +50,7 @@ with sync_playwright() as p:
         route.fulfill(status=200, content_type="application/json", body=json.dumps({"candidates": [{"content": {"parts": [{"text": json.dumps(reply)}]}}]}))
     page.route("**/generativelanguage.googleapis.com/**", fake)
     page.get_by_role("button", name="Assistant").last.click(); page.wait_for_timeout(800)
-    page.get_by_role("button", name="Text", exact=True).first.click(); page.wait_for_timeout(500)
+    page.get_by_role("button", name="Enter text", exact=True).first.click(); page.wait_for_timeout(500)
     ta = page.locator("textarea:visible").first
     ta.fill("I går jeg har gået i skole")
     page.get_by_role("button", name="Analyze sentence", exact=True).first.click(); page.wait_for_timeout(1500)

@@ -78,7 +78,14 @@ function openIdb() {
         if (typeof indexedDB === "undefined") return resolve(null);
         const req = indexedDB.open(IDB_NAME, 1);
         req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
-        req.onsuccess = () => resolve(req.result);
+        req.onsuccess = () => {
+          const opened = req.result;
+          // If the phone closes the connection (e.g. after the app was in the
+          // background), forget it so the next save opens a fresh one.
+          opened.onclose = () => { idbPromise = null; };
+          opened.onversionchange = () => { opened.close(); idbPromise = null; };
+          resolve(opened);
+        };
         req.onerror = () => resolve(null);
         req.onblocked = () => resolve(null);
       } catch {
@@ -113,11 +120,18 @@ async function readStore(key, strict) {
     // One retry, then either report the failure (strict) or carry on with
     // the other stores. Strict reads are for the deck itself: it must never
     // be mistaken for "nothing saved yet".
+    let handle = db;
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
-        const v = await idbTransaction(db, "readonly", (store) => idbRequest(store.get(key)));
+        const v = await idbTransaction(handle, "readonly", (store) => idbRequest(store.get(key)));
         return v === undefined ? null : v;
-      } catch {}
+      } catch (e) {
+        // A connection the phone closed stays broken: open a new one for the retry.
+        if (e && e.name === "InvalidStateError") {
+          idbPromise = null;
+          handle = (await openIdb()) || handle;
+        }
+      }
     }
     if (strict) throw new Error("STORAGE_UNREADABLE");
   }
@@ -199,6 +213,7 @@ async function writeRaw(key, value) {
         store.put(value, key);
       });
     } catch (e) {
+      if (e && e.name === "InvalidStateError") idbPromise = null; // the next try opens a fresh connection
       return { ok: false, error: String((e && e.message) || e) };
     }
     if (syncChannel) syncChannel.postMessage(key);
@@ -231,6 +246,7 @@ export async function storeRemove(key) {
         store.delete(key);
       });
     } catch (e) {
+      if (e && e.name === "InvalidStateError") idbPromise = null; // the next try opens a fresh connection
       return { ok: false, error: String((e && e.message) || e) };
     }
     if (syncChannel) syncChannel.postMessage(key);

@@ -3,6 +3,8 @@
 Everything to copy into App Store Connect. Plain English.
 
 ## 1. Support email (needed)
+**For now: isolatedroutes@gmail.com** (already set in the app menu, `privacy.html` and the privacy page). Use it as the Support contact and for the developer/store listing. Replace it later with a forwarding address on your own domain if you like (below).
+
 GitHub cannot give you a support address. Pick one:
 - **Best:** a free forwarding address on your own domain, e.g. support@isolatedroutes.com. Most registrars offer free email forwarding, or use Cloudflare Email Routing (free). It forwards to your normal inbox, so your personal address stays private.
 - **Quick:** a new free Gmail just for the app.

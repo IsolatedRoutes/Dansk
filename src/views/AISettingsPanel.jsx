@@ -376,9 +376,14 @@ export function AISettingsPanel({ onClose }) {
     <div style={{ background: "var(--card)", border: "1px solid var(--line)", borderRadius: 12, padding: 16, marginBottom: 14 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
         <div style={{ fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600 }}>{wizard ? PROVIDERS[wizard].title : "Set up your AI"}</div>
-        <button aria-label="More info" onClick={() => setHelpOpen((v) => !v)} style={{ border: "none", background: "none", cursor: "pointer", color: helpOpen ? "var(--terracotta)" : "var(--muted)", padding: 4, display: "flex" }}>
+<div style={{ display: "flex", alignItems: "center", gap: 2 }}>
+                  <button aria-label="More info" onClick={() => setHelpOpen((v) => !v)} style={{ border: "none", background: "none", cursor: "pointer", color: helpOpen ? "var(--terracotta)" : "var(--muted)", padding: 4, display: "flex" }}>
           <Icon.HelpCircle size={18} />
         </button>
+          <button aria-label="Close" onClick={() => onClose()} style={{ border: "none", background: "none", cursor: "pointer", color: "var(--muted)", padding: 4, display: "flex" }}>
+            <Icon.X size={18} />
+          </button>
+        </div>
       </div>
       {!wizard && <div style={{ ...hint, marginBottom: 12 }}>For Look up, the Assistant and photos. Studying never needs it.</div>}
 
@@ -547,7 +552,7 @@ export function AISettingsPanel({ onClose }) {
 
       {error && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, marginTop: 10 }}>{error}</div>}
 
-      <button onClick={onClose} style={{ ...smallBtn("#A8A395"), marginTop: 16, width: "100%", padding: "10px" }}>
+      <button onClick={() => onClose()} style={{ ...smallBtn("#A8A395"), marginTop: 16, width: "100%", padding: "10px" }}>
         Done
       </button>
     </div>

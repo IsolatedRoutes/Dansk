@@ -36,7 +36,7 @@ export function PickRow({ children }) {
 // Puts everything in the middle between the header and the tab bar.
 export function Stage({ children }) {
   return (
-    <div style={{ minHeight: "calc(100dvh - 210px)", display: "flex", flexDirection: "column", justifyContent: "center", gap: 12 }}>
+    <div style={{ minHeight: "calc((100dvh - 210px) / var(--z, 1))", display: "flex", flexDirection: "column", justifyContent: "center", gap: 12 }}>
       {children}
     </div>
   );

@@ -21,16 +21,6 @@ export function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
 }
 
-// Uses the browser's built-in text-to-speech (Web Speech API): no network
-// call, no AI, works offline.
-// The camera-capture button only makes sense where there's an actual
-// camera to open — on desktop, the capture="environment" attribute is
-// simply ignored and falls back to the same file picker as "choose a
-// photo", making a separate button redundant and confusing there.
-export function isMobileDevice() {
-  return typeof navigator !== "undefined" && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent || "");
-}
-
 export function parseJSONLoose(text) {
   const cleaned = text.replace(/```json/gi, "").replace(/```/g, "").trim();
   const start = cleaned.indexOf("{");
@@ -64,4 +54,23 @@ export function fileToBase64(file) {
 export function frontKey(front) {
   const text = (front || "").trim();
   return text === "I" ? text : text.toLowerCase();
+}
+
+// A quick local guess, used only if the AI's own language check gives no usable
+// answer: true = English, false = Danish. Danish letters or common Danish words
+// win; common English words make it English; otherwise it is called Danish
+// (and translate tries the other direction if nothing changes).
+const EN_WORDS = new Set("the is are was were and to of a an in on you your my me we they he she it this that what how where when why who with for from have has do does not be been will would can could i'm it's don't".split(" "));
+const DA_WORDS = new Set("og er jeg det den de du har til med på af for som ikke en et at vi han hun hvad hvor hvordan hvorfor hvem min din dig mig os var kan vil skal blive været der her så men eller om fra".split(" "));
+export function guessEnglish(text) {
+  const t = String(text || "").toLowerCase();
+  if (/[æøå]/.test(t)) return false;
+  const words = t.match(/[a-zæøå']+/g) || [];
+  let en = 0;
+  let da = 0;
+  for (const w of words) {
+    if (EN_WORDS.has(w)) en++;
+    if (DA_WORDS.has(w)) da++;
+  }
+  return en > da;
 }

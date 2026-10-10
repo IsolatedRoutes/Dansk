@@ -43,10 +43,10 @@ with sync_playwright() as p:
       r.onsuccess = () => { const t = r.result.transaction('kv', 'readwrite'); t.objectStore('kv').put('api', 'aiEngine'); t.oncomplete = () => res(true); }; })""")
     page.reload(); page.wait_for_timeout(5000)
     page.get_by_role("button", name="Assistant").last.click(); page.wait_for_timeout(700)
-    for mode in ("Text", "Photo", "Chat"):
+    for mode in ("Enter text", "Add photo", "Chat"):
         page.get_by_role("button", name=mode, exact=True).first.click(); page.wait_for_timeout(400)
         check(page.get_by_role("button", name=mode, exact=True).count() >= 1, "Assistant mode opens: " + mode)
-    page.get_by_role("button", name="Text", exact=True).first.click(); page.wait_for_timeout(300)
+    page.get_by_role("button", name="Enter text", exact=True).first.click(); page.wait_for_timeout(300)
     for b in ("Translate", "Analyze sentence", "Extract text"):
         check(page.get_by_role("button", name=b, exact=True).count() >= 1, "Text mode has the button: " + b)
     page.get_by_role("button", name="Study").last.click(); page.wait_for_timeout(500)

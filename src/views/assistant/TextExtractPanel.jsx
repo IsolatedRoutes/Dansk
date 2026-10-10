@@ -16,7 +16,7 @@ import { FORMS_RULE, formsField } from "../../lib/ownFormsCore";
 import { CLARITY_RULES, SENTENCE_ANALYSIS_JSON, SENTENCE_ANALYSIS_RULES, WORD_INSIGHT_SYSTEM_PROMPT, knownWordsHint } from "../../lib/ai/prompts";
 import { speakDanish, speechSupported } from "../../lib/speech";
 import { storeGet } from "../../lib/storage";
-import { cleanTranslation, parseJSONLoose } from "../../lib/text";
+import { cleanTranslation, guessEnglish, parseJSONLoose } from "../../lib/text";
 import { loadingCopy } from "./ChatConversation";
 
 // ---------- Sentence analysis panel ----------
@@ -115,46 +115,60 @@ export function TextExtractPanel({ engine, categories, addCategory, addCards, on
         }
       }
       const inputText = text.trim();
-      // Split into two focused calls rather than one that both detects
-      // and translates — a dedicated detection step is more reliable
-      // than asking the model to identify the language while also
-      // composing the translation, where the direction can quietly
-      // default to Danish under the weight of the larger task.
-      const detectionReply = await callAI(
-        "You detect whether a piece of text is written in Danish or English, based only on the actual words used. If it's a genuine mix of both languages, default to \"da\" — this is a Danish-learning app, so mixed text should be treated as Danish needing translation rather than English. Respond with ONLY the two letters \"da\" or \"en\" — nothing else, no punctuation, no explanation.",
-        'Text: "' + inputText + '"',
-        { maxTokens: 10 }
-      );
-      const isEnglish = detectionReply.trim().toLowerCase().replace(/[^a-z]/g, "").startsWith("en");
       const wantForms = inputText.split(/\s+/).length <= 2;
-      const reply = await callAI(
-        "You translate " +
-          (isEnglish ? "English text into natural, fluent Danish" : "Danish text into natural, fluent English") +
-          " for a language learner. Never invent or substitute a different word that merely looks similar to the input — if the input might contain a typo, translate your single best real-word interpretation of what was actually typed, not some other unrelated word. Respond with ONLY the translation itself — no original text alongside it, no notes, no quotation marks. If it's a single Danish noun (on either side), include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water)." +
-          (wantForms
-            ? ' Because this is a single word, respond instead with ONLY JSON: {"translation": "...", "forms": []} where "translation" is the translation itself (no notes) and "forms" is filled for the Danish word like this:' + FORMS_RULE + ' Use [] when it has no forms.'
-            : ""),
-        inputText,
-        { maxTokens: 1500 }
-      );
-      // For single words the answer is JSON with the forms; if it is not, it is just the translation.
-      let translation;
-      let forms;
+      // Step 1: which language is it? A dedicated, quick call (no "thinking", so the
+      // tiny answer is never used up before it is written). If the answer is
+      // missing or odd, a simple local guess is used instead, never "assume Danish".
+      let isEnglish = guessEnglish(inputText);
       try {
-        const j = wantForms ? parseJSONLoose(reply) : null;
-        translation = j && j.translation ? cleanTranslation(String(j.translation)) : cleanTranslation(reply);
-        forms = j ? j.forms : undefined;
-      } catch {
-        translation = cleanTranslation(reply);
+        const detectionReply = await callAI(
+          "You detect whether a piece of text is written in Danish or English, based only on the actual words used. If it's a genuine mix of both languages, default to \"da\" — this is a Danish-learning app, so mixed text should be treated as Danish needing translation rather than English. Respond with ONLY the two letters \"da\" or \"en\" — nothing else, no punctuation, no explanation.",
+          'Text: "' + inputText + '"',
+          { maxTokens: 40, fast: true }
+        );
+        const code = detectionReply.trim().toLowerCase().replace(/[^a-z]/g, "");
+        if (code.startsWith("en")) isEnglish = true;
+        else if (code.startsWith("da")) isEnglish = false;
+      } catch (e) {
+        const m = (e && e.message) || "";
+        if (m === "RATE_LIMITED" || m === "GEMINI_AUTH_ERROR" || m.indexOf("NETWORK_ERROR") >= 0) throw e;
       }
-      const da = isEnglish ? translation : inputText;
-      const en = isEnglish ? inputText : translation;
-      // If both sides came back the same, the model didn't actually
-      // translate. Treat that as a failure rather than silently showing
-      // a broken result.
-      if (da && en && da.trim().toLowerCase() === en.trim().toLowerCase()) {
-        throw new Error("TRANSLATION_DIDNT_HAPPEN");
+      // Step 2: translate in that direction.
+      const run = async (toDanish) => {
+        const reply = await callAI(
+          "You translate " +
+            (toDanish ? "English text into natural, fluent Danish" : "Danish text into natural, fluent English") +
+            " for a language learner. Never invent or substitute a different word that merely looks similar to the input — if the input might contain a typo, translate your single best real-word interpretation of what was actually typed, not some other unrelated word. Respond with ONLY the translation itself — no original text alongside it, no notes, no quotation marks. If it's a single Danish noun (on either side), include its grammatical article (en/et) with the Danish form, and match it with a natural English article ('a'/'an') only when the noun is countable that way in English — omit the article on both sides for mass/uncountable nouns (e.g. anger, water)." +
+            (wantForms
+              ? ' Because this is a single word, respond instead with ONLY JSON: {"translation": "...", "forms": []} where "translation" is the translation itself (no notes) and "forms" is filled for the Danish word like this:' + FORMS_RULE + ' Use [] when it has no forms.'
+              : ""),
+          inputText,
+          { maxTokens: 1500 }
+        );
+        // For single words the answer is JSON with the forms; if it is not, it is just the translation.
+        let translation;
+        let f;
+        try {
+          const j = wantForms ? parseJSONLoose(reply) : null;
+          translation = j && j.translation ? cleanTranslation(String(j.translation)) : cleanTranslation(reply);
+          f = j ? j.forms : undefined;
+        } catch {
+          translation = cleanTranslation(reply);
+        }
+        return { translation, forms: f, same: !translation || translation.trim().toLowerCase() === inputText.toLowerCase() };
+      };
+      let toDanish = isEnglish;
+      let out = await run(toDanish);
+      // The answer came back as the same text: the direction was probably wrong
+      // (an English word taken for Danish, or the other way round). Try the other way once.
+      if (out.same) {
+        toDanish = !toDanish;
+        out = await run(toDanish);
       }
+      if (out.same) throw new Error("TRANSLATION_DIDNT_HAPPEN");
+      const forms = out.forms;
+      const da = toDanish ? out.translation : inputText;
+      const en = toDanish ? inputText : out.translation;
       setLookupResult({ da, en, forms });
     } catch (e) {
       setLookupError(apiErrorMessage(e));
