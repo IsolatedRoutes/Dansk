@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { AIErrorNote } from "../components/AIErrorNote";
-import { CategoryPicker } from "../components/CategoryPicker";
 import { Icon } from "../components/icons";
 import { renderInlineMarkdown } from "../components/markdown";
 import { CenteredOverlay, inputStyle } from "../components/ui";
@@ -18,15 +17,17 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   // "card" = a word or sentence (one box, either language); "grammar" = a lesson.
   const [mode, setMode] = useState("card");
   const [text, setText] = useState("");
-  const [lang, setLang] = useState("auto"); // auto | da | en
-  const [other, setOther] = useState(""); // the translation, when typed by hand
-  const [showOther, setShowOther] = useState(false);
-  const [result, setResult] = useState(null); // what Look up returned (editable)
+  const [other, setOther] = useState(""); // the English side ("text" is the Danish side)
+  const [forms, setForms] = useState(null); // level-up forms, only from "Fill in with AI"
   const [pos, setPos] = useState("");
   const [level, setLevel] = useState(0);
   const [category, setCategory] = useState("");
   const [notes, setNotes] = useState("");
-  const [showDetails, setShowDetails] = useState(false);
+  const [showNote, setShowNote] = useState(false);
+  const [checking, setChecking] = useState(false); // false = typing, true = the finished card is shown
+  const [sortOpen, setSortOpen] = useState(false);
+  const [kind, setKind] = useState(""); // "", "word" or "sentence": the learner's own choice
+  const [newTopic, setNewTopic] = useState("");
   const [looking, setLooking] = useState(false);
   const [lookupError, setLookupError] = useState("");
   const [submitError, setSubmitError] = useState("");
@@ -36,7 +37,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
   const [examples, setExamples] = useState([{ da: "", en: "" }]);
   const [lookingUp, setLookingUp] = useState(false);
   const [grammarPreview, setGrammarPreview] = useState(null);
-  // What the learner chose themselves is never overwritten by Look up.
+  // What the learner chose themselves is never overwritten by "Fill in with AI".
   const touched = useRef({ pos: false, level: false, category: false });
 
   function updateExample(i, field, value) {
@@ -47,23 +48,33 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setExamples([...examples, { da: "", en: "" }]);
   }
 
+  // Typing in either box makes any earlier AI answer (level-up forms) stale.
   function changeText(v) {
     setText(v);
-    setResult(null); // a new text needs a new look-up
+    setForms(null);
+    setLookupError("");
+  }
+  function changeOther(v) {
+    setOther(v);
+    setForms(null);
     setLookupError("");
   }
 
-  // One AI call, only when tapped: both sides, topic, word type, level and
-  // level-up forms. Nothing is added until "Add card".
+  // One AI call, only when tapped: fills in whichever side is empty, plus topic,
+  // word type, level and level-up forms. Nothing is added until "Add card".
   async function lookup() {
-    if (!text.trim() || looking) return;
+    const src = text.trim() || other.trim();
+    if (!src || looking) return;
     setLooking(true);
     setLookupError("");
     try {
-      const reply = await callAI(LOOKUP_SYSTEM, lookupUserText(text, lang, topicNamesForAI(categories)), { maxTokens: 500 });
+      const hint = text.trim() ? "auto" : "en";
+      const reply = await callAI(LOOKUP_SYSTEM, lookupUserText(src, hint, topicNamesForAI(categories)), { maxTokens: 500 });
       const r = readLookup(parseJSONLoose(reply));
-      setResult(r);
-      setShowOther(false);
+      setText(r.da);
+      setOther(r.en);
+      setForms(r.forms);
+      setChecking(true);
       if (!touched.current.pos) setPos(r.wordType);
       if (!touched.current.level) setLevel(r.level);
       if (!touched.current.category && r.category) {
@@ -110,27 +121,27 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
     setGrammarPreview(null);
   }
 
-  // The Danish side and English side of the card, from the look-up or typed by hand.
+  // The Danish side and English side of the card.
   function sides() {
-    if (result) return { da: result.da.trim(), en: result.en.trim() };
-    if (showOther && text.trim() && other.trim()) {
-      return { da: text.trim(), en: other.trim() };
-    }
-    return { error: "Tap Look up, or tap Input manually and fill in both boxes." };
+    if (text.trim() && other.trim()) return { da: text.trim(), en: other.trim() };
+    return { error: "Fill in both boxes, or type one and tap Fill in with AI." };
   }
 
-  const ready = mode === "grammar" ? !!(front.trim() && back.trim()) : !!result || !!(showOther && text.trim() && other.trim());
+  const ready = mode === "grammar" ? !!(front.trim() && back.trim()) : !!(text.trim() && other.trim());
 
   function resetCard() {
     setText("");
     setOther("");
-    setShowOther(false);
-    setResult(null);
+    setForms(null);
+    setChecking(false);
+    setSortOpen(false);
+    setKind("");
+    setNewTopic("");
     setPos("");
     setLevel(0);
     setCategory("");
     setNotes("");
-    setShowDetails(false);
+    setShowNote(false);
     setLookupError("");
     setSubmitError("");
     touched.current = { pos: false, level: false, category: false };
@@ -168,7 +179,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       return;
     }
     setSubmitError("");
-    const type = cardTypeFor(s.da); // word or sentence, worked out here, never asked
+    const type = kind || cardTypeFor(s.da); // worked out here; the learner can change it in the sort panel
     let catId = category;
     if (catId.startsWith("__new__")) catId = addCategory(catId.replace("__new__", "") || "New category");
     addCards([
@@ -180,30 +191,24 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         category: catId,
         ...(type === "word" && pos ? { pos } : {}),
         ...(level ? { level } : {}),
-        // Level-up forms come with the look-up answer; a hand-typed card has none.
-        ...(result ? formsField(type, s.da, result.forms) : {}),
+        // Level-up forms come with the AI answer; a hand-typed card has none.
+        ...(forms ? formsField(type, s.da, forms) : {}),
       },
     ]);
     resetCard();
   }
 
-  const guessType = cardTypeFor(result ? result.da : showOther ? text : lang === "en" ? other : text);
-  const selectStyle = { ...inputStyle, flex: 1, minWidth: 0, borderRadius: 12, padding: "11px 12px", fontSize: 15, appearance: "auto", color: "var(--ink)" };
-  // What the details hold, in one quiet line ("Verb · Basic · Food").
+  const guessType = kind || cardTypeFor(text);
   const groupName = (GRAMMAR_GROUPS.find((g) => g.cls === pos) || {}).name;
   const levelName = (LEVELS.find((l) => l.id === level) || {}).name;
   const catName = (categories.find((c) => c.id === category) || {}).name;
-  const detailsSummary = [groupName && guessType === "word" ? groupName.replace(/s$/, "") : "", levelName, catName].filter(Boolean).join(" · ");
-
+  const tagLine = [guessType === "word" ? "Word" : "Sentence", guessType === "word" && groupName ? groupName.replace(/s$/, "") : "", levelName, catName].filter(Boolean).join(" · ");
+  const topics = categories.filter((c) => !isLessonsCategory(c));
+  const optPill = (on) => ({ border: "1px solid " + (on ? "var(--fjord)" : "var(--line)"), background: on ? "var(--fjord)" : "#fff", color: on ? "#fff" : "var(--ink)", borderRadius: 999, padding: "7px 13px", fontFamily: "var(--sans)", fontSize: 14, cursor: "pointer" });
   const hasText = !!(text || other || front || back || notes);
   const modeOptions = [
     { id: "card", label: "Word or sentence" },
     { id: "grammar", label: "Grammar lesson" },
-  ];
-  const langOptions = [
-    { id: "auto", label: "Detect language" },
-    { id: "da", label: "Danish" },
-    { id: "en", label: "English" },
   ];
   const fieldLabel = { fontFamily: "var(--sans)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--muted)", marginBottom: 2 };
   const bareInput = { width: "100%", border: "none", background: "none", outline: "none", textAlign: "center", padding: "2px 0" };
@@ -221,163 +226,82 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
             setSubmitError("");
           }}
         />
-        {mode === "card" && !showOther && (
-          <PickMenu
-            ariaLabel="Language"
-            value={lang}
-            options={langOptions}
-            onChange={(id) => {
-              setLang(id);
-              setResult(null);
-            }}
-          />
-        )}
       </PickRow>
 
       {mode === "card" ? (
         <>
           <BigCard>
             <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
-              {result ? (
+              {checking ? (
                 <>
-                  <input
-                    value={result.da}
-                    onChange={(e) => setResult({ ...result, da: e.target.value })}
-                    aria-label="Danish"
-                    style={{ ...bareInput, fontFamily: "var(--serif)", fontSize: 32, color: "var(--terracotta)" }}
-                  />
-                  <div style={{ height: 1, width: 60, background: "var(--line)" }} />
-                  <input
-                    value={result.en}
-                    onChange={(e) => setResult({ ...result, en: e.target.value })}
-                    aria-label="English"
-                    style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", color: "var(--sage)" }}
-                  />
-                </>
-              ) : (
-                <>
-                  {showOther && <div style={fieldLabel}>Danish</div>}
                   <textarea
                     value={text}
                     onChange={(e) => changeText(e.target.value)}
                     autoCapitalize="none"
-                    rows={showOther ? 2 : 3}
-                    aria-label="Word or sentence"
+                    rows={2}
+                    aria-label="Danish"
                     className="soft"
-                    style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
-                    placeholder={showOther ? "Type the Danish word or sentence" : "Type a word or sentence in English or Danish to add to your deck"}
+                    style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 30, lineHeight: 1.25, color: "var(--terracotta)", padding: 0, maxHeight: 120, overflowY: "auto" }}
+                    placeholder="Danish"
                   />
-                  {showOther && (
-                    <>
-                      <div style={{ height: 1, width: 60, background: "var(--line)", margin: "6px 0" }} />
-                      <div style={fieldLabel}>English</div>
-                      <input
-                        value={other}
-                        onChange={(e) => setOther(e.target.value)}
-                        autoCapitalize="none"
-                        className="soft"
-                        style={{ ...bareInput, fontFamily: "var(--sans)", fontSize: 18, fontStyle: "italic", color: "var(--sage)" }}
-                        placeholder="Type the English meaning"
-                      />
-                    </>
-                  )}
+                  <div style={{ height: 1, width: 60, background: "var(--line)" }} />
+                  <textarea
+                    value={other}
+                    onChange={(e) => changeOther(e.target.value)}
+                    autoCapitalize="none"
+                    rows={2}
+                    aria-label="English"
+                    className="soft"
+                    style={{ ...bareInput, resize: "none", fontFamily: "var(--sans)", fontSize: 19, fontStyle: "italic", lineHeight: 1.3, color: "var(--sage)", padding: 0, maxHeight: 120, overflowY: "auto" }}
+                    placeholder="English"
+                  />
                 </>
+              ) : (
+                <textarea
+                  value={text}
+                  onChange={(e) => changeText(e.target.value)}
+                  autoCapitalize="none"
+                  rows={3}
+                  aria-label="Word or sentence"
+                  className="soft"
+                  style={{ ...bareInput, resize: "none", fontFamily: "var(--serif)", fontSize: 23, fontWeight: 400, lineHeight: 1.3, color: "var(--ink)", padding: 0, maxHeight: 160, overflowY: "auto" }}
+                  placeholder="Type a word or sentence in English or Danish"
+                />
               )}
             </div>
-            {(result || showOther) && (
+            {checking && (
               <div style={{ display: "flex", justifyContent: "center", paddingBottom: 18 }}>
                 <button
-                  onClick={() => setShowDetails(!showDetails)}
+                  onClick={() => setSortOpen(true)}
+                  aria-label="Sort this card"
                   style={{ display: "flex", alignItems: "center", gap: 6, border: "1px solid var(--line)", background: "var(--card)", borderRadius: 999, padding: "7px 14px", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 13, color: "var(--ink)" }}
                 >
-                  <span>{detailsSummary || "Details (optional)"}</span>
-                  <Icon.ChevronDown size={14} style={{ transform: showDetails ? "rotate(180deg)" : "none" }} />
+                  <span>{tagLine}</span>
+                  <Icon.ChevronDown size={14} />
                 </button>
               </div>
             )}
           </BigCard>
 
           <ActionRow>
-            {result ? (
-              <>
-                <PillButton kind="secondary" onClick={resetCard}>Start over</PillButton>
-                <PillButton onClick={submit}>Add card</PillButton>
-              </>
+            {checking ? (
+              <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
             ) : (
-              <>
-                <PillButton
-                  kind="secondary"
-                  onClick={() => {
-                    setShowOther(!showOther);
-                    setOther("");
-                  }}
-                >
-                  {showOther ? "Use Look up" : "Input manually"}
-                </PillButton>
-                {showOther ? (
-                  <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
-                ) : (
-                  <PillButton onClick={lookup} disabled={looking || !text.trim()}>
-                    {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
-                    {looking ? "Looking up…" : "Look up"}
-                  </PillButton>
-                )}
-              </>
+              <PillButton onClick={lookup} disabled={looking || !text.trim()}>
+                {looking ? <Icon.Loader2 size={15} className="spin" /> : null}
+                {looking ? "Working…" : "Continue"}
+              </PillButton>
             )}
           </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
-
-          {(result || showOther) && showDetails && (
-            <div style={{ display: "flex", flexDirection: "column", gap: 10, margin: "4px 0 6px" }}>
-              <div style={{ display: "flex", gap: 10 }}>
-                {guessType === "word" && (
-                  <select
-                    aria-label="Grammar group"
-                    value={pos}
-                    onChange={(e) => {
-                      touched.current.pos = true;
-                      setPos(e.target.value);
-                    }}
-                    style={selectStyle}
-                  >
-                    <option value="">Word type</option>
-                    {GRAMMAR_GROUPS.map((g) => (
-                      <option key={g.id} value={g.cls}>
-                        {g.name}
-                      </option>
-                    ))}
-                  </select>
-                )}
-                <select
-                  aria-label="Level"
-                  value={level}
-                  onChange={(e) => {
-                    touched.current.level = true;
-                    setLevel(Number(e.target.value));
-                  }}
-                  style={selectStyle}
-                >
-                  <option value={0}>Level</option>
-                  {LEVELS.map((l) => (
-                    <option key={l.id} value={l.id}>
-                      {l.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <CategoryPicker
-                categories={categories}
-                value={category}
-                onChange={(v) => {
-                  touched.current.category = true;
-                  setCategory(v);
-                }}
-                allowNew
-                onAddCategory={addCategory}
-              />
-              <textarea value={notes} onChange={(e) => setNotes(e.target.value)} style={{ ...inputStyle, minHeight: 54, borderRadius: 12 }} placeholder="Note (optional)" />
+          {lookupError && !checking && text.trim() && (
+            <div style={{ textAlign: "center" }}>
+              <button onClick={() => { setOther(""); setChecking(true); setLookupError(""); }} style={quietLink}>
+                Type the English yourself instead
+              </button>
             </div>
           )}
+
         </>
       ) : (
         <>
@@ -426,6 +350,78 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
         </>
       )}
 
+      {sortOpen && (
+        <CenteredOverlay onClose={() => setSortOpen(false)} maxWidth={420}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+            <div style={{ fontFamily: "var(--serif)", fontSize: 20 }}>Sort this card</div>
+            <button onClick={() => setSortOpen(false)} style={{ border: "none", background: "none", cursor: "pointer", fontFamily: "var(--sans)", fontSize: 14, fontWeight: 600, color: "var(--terracotta)" }}>Done</button>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+            <div>
+              <div style={fieldLabel}>What is it</div>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                {[["word", "Word"], ["sentence", "Phrase or sentence"]].map(([id, label]) => (
+                  <button key={id} onClick={() => setKind(id)} style={optPill(guessType === id)}>{label}</button>
+                ))}
+              </div>
+            </div>
+            {guessType === "word" && (
+              <div>
+                <div style={fieldLabel}>Word type</div>
+                <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                  {GRAMMAR_GROUPS.map((g) => (
+                    <button key={g.id} onClick={() => { touched.current.pos = true; setPos(pos === g.cls ? "" : g.cls); }} style={optPill(pos === g.cls)}>{g.name.replace(/s$/, "")}</button>
+                  ))}
+                </div>
+              </div>
+            )}
+            <div>
+              <div style={fieldLabel}>Level</div>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                {LEVELS.map((l) => (
+                  <button key={l.id} onClick={() => { touched.current.level = true; setLevel(level === l.id ? 0 : l.id); }} style={optPill(level === l.id)}>{l.name}</button>
+                ))}
+              </div>
+            </div>
+            <div>
+              <div style={fieldLabel}>Topic</div>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap", maxHeight: 150, overflowY: "auto" }}>
+                {topics.map((c) => (
+                  <button key={c.id} onClick={() => { touched.current.category = true; setCategory(category === c.id ? "" : c.id); }} style={optPill(category === c.id)}>{c.name}</button>
+                ))}
+              </div>
+              <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
+                <input
+                  value={newTopic}
+                  onChange={(e) => setNewTopic(e.target.value)}
+                  placeholder="New topic"
+                  aria-label="New topic"
+                  style={{ ...inputStyle, flex: 1, borderRadius: 12, padding: "9px 12px", fontSize: 14 }}
+                />
+                <button
+                  onClick={() => {
+                    if (!newTopic.trim()) return;
+                    touched.current.category = true;
+                    setCategory(addCategory(newTopic.trim()));
+                    setNewTopic("");
+                  }}
+                  style={optPill(false)}
+                >
+                  Add
+                </button>
+              </div>
+            </div>
+            <div>
+              {showNote || notes ? (
+                <textarea value={notes} onChange={(e) => setNotes(e.target.value)} aria-label="Note" style={{ ...inputStyle, minHeight: 54, borderRadius: 12, width: "100%" }} placeholder="Note" />
+              ) : (
+                <button onClick={() => setShowNote(true)} style={quietLink}>+ Add a note</button>
+              )}
+            </div>
+          </div>
+        </CenteredOverlay>
+      )}
+
       {grammarPreview && (
         <CenteredOverlay onClose={() => setGrammarPreview(null)} maxWidth={440}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
@@ -451,13 +447,11 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
       )}
 
       {submitError && <div style={{ color: "var(--rust)", fontFamily: "var(--sans)", fontSize: 12.5, textAlign: "center" }}>{submitError}</div>}
-      {hasText && (
-        <div style={{ textAlign: "center" }}>
-          <button onClick={clearForm} style={quietLink}>
-            Clear
-          </button>
-        </div>
-      )}
+      <div style={{ textAlign: "center", visibility: hasText ? "visible" : "hidden" }}>
+        <button onClick={clearForm} style={quietLink}>
+          Clear
+        </button>
+      </div>
     </Stage>
   );
 }

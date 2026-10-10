@@ -59,19 +59,22 @@ against `origin/main`) and `python3 tests/smoke_test.py`, `python3 tests/e2e_tes
 ## Page layout (Add, Assistant, Library)
 Shared pieces in `src/components/layout.jsx`: `PickMenu` (a dropdown like Study's), `Stage` (centres the
 group between header and tab bar), `BigCard`, `PillButton` (terracotta = main action, white = secondary),
-`ActionRow`. No page titles; the dropdowns say where you are. Add: "Word or sentence / Grammar lesson" +
-language dropdown, one card, "Input manually" / "Look up" / "Add card". Assistant: three mode pills (Chat, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
+`ActionRow`. No page titles; the dropdowns say where you are. Add: "Word or sentence / Grammar lesson"
+dropdown, one card: type, "Continue", then the finished card with a tag line that opens "Sort this card", and "Add card". Assistant: three mode pills (Chat, Text, Photo); Text is one big box with three side-by-side buttons in their own colours (Translate green, Analyze sentence purple, Extract text rust), all in ONE `TextExtractPanel` and one box of text. ChatView uses one wrapper for all modes so switching never remounts a panel (that would wipe typed text and shared text). Library: Study-style
 Filters / A–Z buttons above one cream list card (search inside it). Ask (entry field inside the card), Text and Photo are all one 340px card with the pills centred above and a reserved row below, so nothing jumps. Not yet restyled: the pop-ups (Backup, AI settings) — planned next, to one fixed size.
 
-## Add a card (one box)
-One box takes a word or sentence in either language (`src/views/AddCardView.jsx`, logic in
-`src/lib/addLookup.js`). "Look up" (only when tapped) is ONE AI call that returns both sides,
-topic, word type (grammar group), level and level-up forms; the result is shown editable
-before "Add card". Word vs sentence is never shown or asked (`cardTypeFor`: ends with . ? !
-or 4+ words after a leading en/et/at = sentence). Without AI ("Input manually"): two boxes, Danish then English (no language menu); type the
-translation yourself, pick group / level / category by hand; such a card has no level-up forms.
-Things the learner chose by hand are never overwritten by Look up. Grammar lessons live behind
-a small "Add a grammar lesson instead" link. Notes stay ("+ Add a note"). Test: `tests/addcard_test.py`.
+## Add a card (one box, then check)
+Step 1: one box (`src/views/AddCardView.jsx`, logic in `src/lib/addLookup.js`) and a single "Continue".
+Continue is ONE AI call (only when tapped) that returns both sides, topic, word type, level and
+level-up forms. Step 2 shows the finished card: Danish and English editable, a tag line under it
+("Word · Verb · Intermediate · Topic") and "Add card". Tapping the tag line opens "Sort this card" (a
+centred overlay of single-tap pills: word / phrase or sentence, word type, level, topic, "New topic",
+"+ Add a note"). Word vs sentence is worked out (`cardTypeFor`: ends with . ? ! or 4+ words after a
+leading en/et/at = sentence); the learner's own pick in the panel wins (`kind`). If the AI fails or is
+not set up, "Type the English yourself instead" goes to step 2 with an empty English side; such a card
+has no level-up forms. The existing "Clear" link (reserved row, visibility toggled) replaces any
+"Start over" button. Things the learner picked by hand are never overwritten by the AI. No dropdown
+menus on this screen except the top "Word or sentence / Grammar lesson". Test: `tests/addcard_test.py`.
 
 ## Smart learning (level-up)
 Owner wants smart learning without new features, buttons or gamification.
