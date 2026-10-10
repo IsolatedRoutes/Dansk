@@ -234,6 +234,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
             <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 10, padding: "24px 20px 14px", textAlign: "center" }}>
               {checking ? (
                 <>
+                  <div style={fieldLabel}>Danish</div>
                   <textarea
                     value={text}
                     onChange={(e) => changeText(e.target.value)}
@@ -245,6 +246,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
                     placeholder="Danish"
                   />
                   <div style={{ height: 1, width: 60, background: "var(--line)" }} />
+                  <div style={fieldLabel}>English</div>
                   <textarea
                     value={other}
                     onChange={(e) => changeOther(e.target.value)}
@@ -287,21 +289,16 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
             {checking ? (
               <PillButton onClick={submit} disabled={!ready}>Add card</PillButton>
             ) : (
-              <PillButton onClick={lookup} disabled={looking || !text.trim()}>
-                {looking ? <Icon.Loader2 size={15} className="spin" /> : null}
-                {looking ? "Working…" : "Continue"}
-              </PillButton>
+              <>
+                <PillButton kind="secondary" onClick={() => { setOther(""); setChecking(true); setLookupError(""); }}>Input manually</PillButton>
+                <PillButton onClick={lookup} disabled={looking || !text.trim()}>
+                  {looking ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
+                  {looking ? "Looking up…" : "Look up"}
+                </PillButton>
+              </>
             )}
           </ActionRow>
           <AIErrorNote message={lookupError} onOpenSettings={onOpenSettings} />
-          {lookupError && !checking && text.trim() && (
-            <div style={{ textAlign: "center" }}>
-              <button onClick={() => { setOther(""); setChecking(true); setLookupError(""); }} style={quietLink}>
-                Type the English yourself instead
-              </button>
-            </div>
-          )}
-
         </>
       ) : (
         <>
@@ -341,7 +338,7 @@ export function AddCardView({ categories, addCategory, addCards, onOpenSettings 
           </BigCard>
           <ActionRow>
             <PillButton kind="secondary" onClick={lookupGrammar} disabled={!front.trim() || lookingUp}>
-              {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Wand2 size={15} />}
+              {lookingUp ? <Icon.Loader2 size={15} className="spin" /> : <Icon.Sparkle size={15} />}
               {lookingUp ? "Asking…" : "Ask AI to explain"}
             </PillButton>
             <PillButton onClick={submit} disabled={!ready}>Add lesson</PillButton>

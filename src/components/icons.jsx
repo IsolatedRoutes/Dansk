@@ -153,6 +153,8 @@ export const Icon = {
       <line x1="20" y1="8" x2="18" y2="6" />
     </>
   )),
+  // Four-pointed star: marks anything that uses AI.
+  Sparkle: makeIcon(() => <path d="M12 3c.6 5 2.6 7.4 8 9-5.4 1.6-7.4 4-8 9-.6-5-2.6-7.4-8-9 5.4-1.6 7.4-4 8-9z" />),
   Save: makeIcon(() => (
     <>
       <rect x="4" y="4" width="16" height="16" rx="2" />
