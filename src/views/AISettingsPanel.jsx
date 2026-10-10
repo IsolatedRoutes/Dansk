@@ -108,9 +108,9 @@ export function AISettingsPanel({ onClose }) {
         if (raw) setSavedOllamaConfig(JSON.parse(raw));
       } catch {}
       setChromeTranslatorEnabledState((await storeGet("chromeTranslatorEnabled")) === "true");
-      // Gemini (free) is shown first; expand "Use Claude or something else"
-      // only when a different engine is in use.
-      if (e === "local" || e === "api" || e === "ollama") setShowMore(true);
+      // Claude (Anthropic) is shown first and recommended; expand the extra
+      // options only when a different engine is in use.
+      if (e === "local" || e === "ollama") setShowMore(true);
     })();
   }, []);
 
@@ -302,7 +302,7 @@ export function AISettingsPanel({ onClose }) {
             <span>
               <span style={{ display: "block", fontFamily: "var(--sans)", fontSize: 15, fontWeight: 600, color: "var(--ink)" }}>
                 {P.name} <span style={{ ...hint, fontWeight: 400 }}>· {P.by}</span>
-                {id === "gemini" && <span style={{ color: "var(--sage)", fontSize: 12, fontWeight: 600 }}> · Recommended</span>}
+                {id === "api" && <span style={{ color: "var(--sage)", fontSize: 12, fontWeight: 600 }}> · Recommended</span>}
               </span>
               <span style={{ display: "block", ...hint, marginTop: 2 }}>{P.blurb}</span>
             </span>
@@ -389,7 +389,7 @@ export function AISettingsPanel({ onClose }) {
 
       {helpOpen && (
         <div style={{ ...hint, color: "var(--ink)", background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 10, padding: "12px 14px", marginBottom: 12 }}>
-          {(wizard ? PROVIDERS[wizard].help : [...PROVIDERS.gemini.help.slice(0, 1), "Gemini is free up to a daily limit. Claude is paid, about half a cent per question.", "What you send goes straight to the AI company you choose, never to us."]).map((t, i) => (
+          {(wizard ? PROVIDERS[wizard].help : [PROVIDERS.api.help[0], "Claude (Anthropic) is the recommended choice and is paid, about half a cent per question. Gemini is free up to a daily limit.", "What you send goes straight to the AI company you choose, never to us."]).map((t, i) => (
             <div key={i} style={{ marginBottom: 6 }}>
               {t}
             </div>
@@ -406,8 +406,8 @@ export function AISettingsPanel({ onClose }) {
 
       {wizard ? wizardView() : (
         <>
-          {providerCard("gemini")}
           {providerCard("api")}
+          {providerCard("gemini")}
         </>
       )}
 
@@ -425,7 +425,7 @@ export function AISettingsPanel({ onClose }) {
             <div style={{ fontFamily: "var(--sans)", fontSize: 13.5, fontWeight: 600, marginBottom: 6 }}>Local model</div>
             <div style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--muted)", lineHeight: 1.5, marginBottom: 10 }}>
               Free, no key, and your text stays on your device once the model is installed. Installing needs an internet connection and a one-time download of several hundred MB. Needs WebGPU — recent Chrome/Edge, or Safari 26+
-              (iOS 26+ on iPhone). Weaker than Gemini at Danish, and can't do Photo import.
+              (iOS 26+ on iPhone). Weaker than Claude at Danish, and can't do Photo import.
             </div>
             {modelReady && engine === "local" ? (
               <span style={{ fontFamily: "var(--sans)", fontSize: 12.5, color: "var(--fjord)", fontWeight: 600 }}>Connected</span>
